@@ -1,0 +1,9 @@
+# downloaded / derived data (regenerate with build_ngrams.py and avenel.py)
+richelieu/corpus_*.txt
+richelieu/fr_quadgrams.json
+richelieu/avenel3.txt
+richelieu/avenel_*.txt
+richelieu/run*.txt
+barney/candidates_gbooks.json
+__pycache__/
+*.pyc
