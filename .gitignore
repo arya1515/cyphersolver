@@ -64,3 +64,4 @@ colbert/decode/
 colbert/img*/
 rupert/warburton*.txt
 rupert/warb_hits.txt
+rupert/letter_ctx.txt
