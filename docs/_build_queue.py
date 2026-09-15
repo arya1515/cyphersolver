@@ -15,16 +15,6 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Debosnys cryptograms", "1882–83",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2020/01/06/the-top-50-unsolved-encrypted-messages-3-the-debosnys-cryptograms/",
-     "top 50", "low", "lo", "high",
-     "Four passages written in an Essex County jail before the writer was hanged. <b>Solve attempted September 2026, not solved.</b> The "
-     "twenty-line cipher poem and the No. 10 block are now transcribed (378 glyphs). The poem is rhyming couplets by its final glyphs, "
-     "and line length and rhyme behaviour both point to a <b>French syllabary</b> — English syllables would match the rhymes with "
-     "probability 3&thinsp;×&thinsp;10<sup>−4</sup>. Every crib failed against controls that prove the tests could see a hit: the clear "
-     "poem under the No. 10 block, 7,821 couplet windows of French verse, Delille's <i>Aeneid</i>, Moore, and a letter-monogram reading. "
-     "Passage No. 9 is transcribed too (969 glyphs, one system), and that settles the rest: the unicity distance of such a syllabary is ~800–2,000 glyphs, the size of the whole corpus, and a planted 1,000-glyph French syllabary recovers 0%. It cannot be solved from statistics; it needs a crib from his papers."),
-
     ("Censorship manual steganograms", "1943",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
      "top 50", "even", "md", "low",
@@ -63,6 +53,13 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Debosnys cryptograms", "1882–83", "debosnys.html", "top 50", "attempted, not solved", "lo",
+     "About 1,200 glyphs in an invented script, left by a man hanged in 1883. Three passages transcribed here, 969 glyphs. The cipher poem is "
+     "<b>rhyming couplets</b> &mdash; the last glyph matches within 9 of 10 couplets and across none of the boundaries &mdash; and line length and "
+     "rhyme both point to a <b>French syllabary</b>. Every crib that could be tested failed against controls that would have found a hit: the poem "
+     "on the same page, 7,821 couplet windows of French verse, Delille's <i>Aeneid</i>, Moore. The corpus sits at its unicity distance and a "
+     "planted syllabary of the same length recovers 0%, so it falls only to a crib from his papers. <a href=\"debosnys.html\">Full write-up &rarr;</a>"),
+
     ("William Perwich to Lord Arlington", "1670",
      "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/",
      "", "found solved", "md",

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Debosnys cryptograms — a French syllabary, too short to break</title>
+<meta name="description" content="Henry Debosnys, hanged at Elizabethtown NY in 1883, left about 1,200 cipher glyphs. Attempted September 2026, not solved: three passages transcribed, the cipher poem shown to be rhyming couplets in a French syllabary, every testable crib excluded, and the surviving text shown to be at or below its unicity distance.">
+<link rel="stylesheet" href="style.css?v=20260915g">
+<style>
+.why{display:inline-block;padding:.08em .55em;border-radius:6px;font-family:var(--mono);font-size:.7rem;
+  letter-spacing:.05em;white-space:nowrap;border:1px solid transparent;vertical-align:middle}
+.w-yes{background:var(--green-bg);color:var(--green);border-color:rgba(111,211,154,.35)}
+.w-no{background:var(--red-bg);color:var(--red);border-color:rgba(255,141,126,.35)}
+.item{border-left:2px solid var(--rule);padding:.1rem 0 .1rem 1rem;margin:1.5rem 0}
+.item h3{margin:.1rem 0 .45rem}
+.item .meta2{font-family:var(--mono);font-size:.74rem;color:var(--muted);letter-spacing:.04em;margin-bottom:.5rem}
+.callout{border:1px solid rgba(236,194,90,.45);background:var(--amber-bg);border-radius:12px;padding:1.1rem 1.3rem;margin:1.6rem 0}
+.callout h3{margin-top:0}
+.tw{overflow-x:auto}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="debosnys.html" class="active">Debosnys 1883</a>
+    <a href="vatican.html">Vatican 1542</a>
+    <a href="famous.html">The famous ones</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">&#916; % &#611; % &#8776; &#8904; X &#9792;<br>&#9825; &#933; &#8801; &#8709; &#967; &#9834; &#948;<br>&hellip; about 1,200 glyphs in four passages</div>
+  <p class="kicker">Working notes &middot; September 2026</p>
+  <h1>The Debosnys cryptograms</h1>
+  <p class="sub">Henry Deletnack Debosnys, convicted of murdering his wife Elizabeth Wells at Essex, New York, in August 1882 and hanged at
+  Elizabethtown in April 1883. In jail he left poems, paintings and four passages in an invented script. Number 3 on
+  <a href="https://scienceblogs.de/klausis-krypto-kolumne/2020/01/06/the-top-50-unsolved-encrypted-messages-3-the-debosnys-cryptograms/">Klaus Schmeh&rsquo;s Top 50</a>.
+  Originals: Brewster Memorial Library, Essex County Historical Society.</p>
+  <p class="meta">Daniel Bourdeau &middot; 15 September 2026</p>
+</section>
+
+<main>
+
+<div class="callout">
+  <h3>Not solved &mdash; and not solvable from the surviving text alone</h3>
+  <p>Three of the four passages were transcribed here, 969 glyphs in all. The cipher poem turns out to be <b>twenty lines of rhyming
+  couplets</b>, and its line lengths and rhymes both point to a <b>French syllabary</b>: one glyph for one spoken syllable. That identification is
+  also why this attempt stops. A syllabary with this many signs needs roughly 800 to 2,000 glyphs before only one key fits the text, and the whole
+  surviving corpus is about 1,200. Every known plaintext that could be tested failed. What is left needs a source outside this project: the original
+  Debosnys copied from, or a key sheet in his papers.</p>
+</div>
+
+<h2><span class="num">01</span> What was already known</h2>
+
+<p>More than the usual summary suggests. In 2017 Brian, who writes the <a href="https://sektu.blogspot.com/2017/08/debosnys-cipher-transcription-revision.html">Sektu</a>
+blog, transcribed the whole corpus &mdash; 1,188 glyphs of 425 types &mdash; decomposed the glyphs into sub-glyphs with a small grammar, and
+proposed that they are French syllables, the tilde marking nasalisation. That transcription was never published. An earlier version of
+this project&rsquo;s tracker presented the glyphs&rsquo; systematic composition as a new observation; it was Sektu&rsquo;s, and is credited to him here.</p>
+
+<p>Two further leads were public. Matthew Brown showed in 2021 that almost every clear &ldquo;poem&rdquo; Debosnys left is copied, mostly from
+Thomas Moore, which suggested the enciphered texts might be copies too. And Nick Pelling noticed in 2015 that passage No. 9 holds the clear initials
+<b>H. D. D. L. M. F.</b> with dots under each letter counting the letters left out: Henry, Deletnack, Debosnys, then three words of 7, 7 and 6 letters.</p>
+
+<h2><span class="num">02</span> What is established</h2>
+
+<div class="item">
+  <div class="meta2">the cipher poem &nbsp; <span class="why w-yes">chance under 10<sup>&minus;5</sup></span></div>
+  <h3>The &ldquo;monographe verse&rdquo; is twenty lines of rhyming couplets</h3>
+  <figure><img src="debosnys_verse.png" alt="The first four lines of the Debosnys cipher poem: lines one and two end in the same lying curl, lines three and four in the same dotted X">
+  <figcaption>Lines 1&ndash;4 of the monographe verse (detail; Brewster Memorial Library, Essex County Historical Society). Lines 1 and 2 end in the
+  same curl, lines 3 and 4 in the same dotted X.</figcaption></figure>
+  <p>The last glyph of each line repeats in pairs. It is identical within <b>9 of the 10 couplets</b>, and the tenth pair shares its base and
+  differs only in where a cross is placed. Across couplet boundaries &mdash; lines 2 and 3, 4 and 5, and so on &mdash; it matches in <b>none of
+  9</b>. Even if any two glyphs matched a fifth of the time, nine of ten would come up by chance about four times in a million. It is the flat
+  AABB rhyme of French couplet verse, and the rhyme of the first couplet returns in the ninth, as a sound would.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">the unit &nbsp; <span class="why w-yes">two independent lines</span></div>
+  <h3>One glyph is one French syllable</h3>
+  <p>If identical final glyphs carry the rhyme, glyphs stand for sound. Which size of sound is settled by comparing the poem with 279-unit samples of
+  real verse:</p>
+  <div class="tw"><table>
+  <tr><th>unit</th><th>per line</th><th>types in 279</th><th>most frequent</th></tr>
+  <tr><td><b>Debosnys glyphs</b></td><td><b>13.9</b></td><td><b>111</b></td><td><b>9.0%</b></td></tr>
+  <tr><td>French syllables</td><td>13.5</td><td>166</td><td>3.8%</td></tr>
+  <tr><td>English syllables</td><td>10.2</td><td>172</td><td>4.5%</td></tr>
+  <tr><td>French words</td><td>8.6</td><td>174</td><td>4.7%</td></tr>
+  <tr><td>French letters</td><td>37.4</td><td>26</td><td>14.7%</td></tr>
+  </table></div>
+  <p>Only syllables fit the line length, and the rhymes decide the language. In real rhyming couplets the final syllable is spelled identically
+  61% of the time in French verse but only 31% in Moore&rsquo;s English. Nine identical endings in ten would happen with English syllables about three
+  times in ten thousand. So the plaintext is most likely French, although nearly everything Debosnys is known to have copied was English.</p>
+  <p>The text behaves like language, not decoration: repeated glyph pairs occur at twice the rate of a shuffle of the same glyphs. Two details do not
+  fit a plain syllabary. The dotted X is too frequent for a single syllable at 9%, and it appears doubled five times, perhaps one sign in two parts.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">the corpus &nbsp; <span class="why w-yes">one system</span></div>
+  <h3>Three passages, one script</h3>
+  <p>Transcribed glyph by glyph from the scans: the twenty-line poem (279 glyphs), the four cipher lines on page No. 10 (99) and the prose passage
+  No. 9 (597), 969 glyphs of 333 types. The passages share their inventory &mdash; 47 of the poem&rsquo;s 111 glyph types recur in No. 9, covering
+  58% of the poem &mdash; and the dotted X leads both at 9.0% and 8.2%. The weak point is identity: whether two similar composites are the same
+  sign. The transcription files record each decision, and the least legible line lies under a water stain.</p>
+</div>
+
+<h2><span class="num">03</span> What is excluded</h2>
+
+<p>Every search here was first run on a <b>planted</b> text &mdash; real French encoded the same way, with noise &mdash; to prove it would find a
+hit if one were there. None of the real searches produced one.</p>
+
+<div class="item">
+  <div class="meta2">the poem on the same page &nbsp; <span class="why w-no">excluded</span></div>
+  <h3>The four cipher lines of No. 10 do not encode the French poem written under them</h3>
+  <p>The obvious crib: about 93 glyphs above a clear poem whose first eight lines have about 93 syllables, and both end in a question mark. Aligning
+  glyphs to syllables and scoring how consistently each glyph maps, the real pairing scores 58 &mdash; exactly what random French verse scores
+  (median 59). A planted encoding of the same poem scores 86 to 88 against a control maximum of 80. The lines are more likely the end of No. 9.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">French verse &nbsp; <span class="why w-no">excluded</span></div>
+  <h3>No match in 7,821 couplet windows of French poetry</h3>
+  <p>Twenty-eight volumes &mdash; Racine, Corneille, Moli&egrave;re, Voltaire, Boileau, Ch&eacute;nier, Hugo, Musset, Gautier, Baudelaire,
+  Verlaine &mdash; cut into every 20-line window in rhyming couplets and aligned against the poem line by line. A planted encoding of one real window
+  ranks <b>first of 7,821</b> by a wide margin; the poem&rsquo;s best matches form a smooth tail with no outlier. The same holds for Delille&rsquo;s
+  verse translation of the <i>Aeneid</i>, prompted by the lines of Virgil copied beneath the poem.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">what he copied &nbsp; <span class="why w-no">excluded</span></div>
+  <h3>Not Moore, not Stoddart, not his own English copies</h3>
+  <p>Line-length profile and couplet structure against Moore&rsquo;s complete poems, <i>Lalla Rookh</i>, Stoddart and Debosnys&rsquo;s own clear
+  poems: best fits at the chance level for seven thousand windows, and Moore&rsquo;s couplet lines run three or four syllables short.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">letters, not syllables &nbsp; <span class="why w-no">excluded</span></div>
+  <h3>The glyphs are not stacks of letters</h3>
+  <p>Read each glyph&rsquo;s component marks as letters in some order and search for the key: the real glyph order scores no better than the same
+  glyphs shuffled, in French or English.</p>
+</div>
+
+<h2><span class="num">04</span> Why it stops here</h2>
+
+<p>Ciphertext-only attack needs enough text to pin the key down. For a substitution, that threshold is the <b>unicity distance</b>: the key&rsquo;s
+information divided by the language&rsquo;s redundancy per symbol. French verse syllables carry 7.7 bits each under a bigram model; a key for 333
+glyph types, drawn from a syllable inventory of 600 to 9,000, carries 3,100 to 4,400 bits. The threshold comes out at <b>about 800 to 2,000
+glyphs</b> &mdash; with a perfect model and a perfect transcription. The whole surviving corpus is about 1,200.</p>
+
+<p>The experiment agrees. Real French verse was encoded as a clean syllabary, one glyph per syllable and no noise, and attacked with a syllable
+language model trained on 1.15 million syllables:</p>
+
+<div class="tw"><table>
+<tr><th>glyphs</th><th>glyph types</th><th>text recovered</th><th>guessing the commonest syllable</th></tr>
+<tr><td><b>1,000</b></td><td>364</td><td><b>0.0%</b></td><td>3.2%</td></tr>
+<tr><td>5,000</td><td>944</td><td>5.4%</td><td>3.3%</td></tr>
+<tr><td>20,000</td><td>1,810</td><td>4.3%</td><td>2.9%</td></tr>
+</table></div>
+
+<p>At the Debosnys length the solver recovers nothing. A stronger solver would do better on far longer texts, but none can beat the information
+limit. If Debosnys wrote a syllabary &mdash; and the rhymes say he did &mdash; this cipher falls only to a crib.</p>
+
+<h2><span class="num">05</span> What would break it</h2>
+
+<ul>
+<li><b>His papers.</b> The Essex County Historical Society holds the originals. A clear copy of the poem, a draft, or a key sheet among them would
+turn this into an afternoon&rsquo;s work.</li>
+<li><b>The source text.</b> If the poem or No. 9 is copied like his clear poems, finding the original is the whole job. The search tool is built
+and tested; the likeliest ground not yet covered is popular French song and verse of the 1860s and 70s, the kind a soldier and drifter would have
+known by heart.</li>
+<li><b>Sektu&rsquo;s transcription.</b> An independent reading of the full corpus would settle the glyph-identity decisions that weaken every test.</li>
+</ul>
+
+<p class="meta">Transcriptions, scripts and controls: <code>debosnys/</code> in the project repository &mdash; <code>verse_transcription.py</code>,
+<code>n9_transcription.py</code>, <code>n10_transcription.py</code>, <code>unitstats.py</code>, <code>isomorph.py</code>, <code>versesearch.py</code>,
+<code>syllsolve.py</code>, with the full record in <code>NOTES.md</code>.</p>
+
+</main>
+</body>
+</html>
