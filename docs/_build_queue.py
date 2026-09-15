@@ -15,13 +15,6 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Censorship manual steganograms", "1943",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
-     "top 50", "even", "md", "low",
-     "Already half solved: readers recovered Morse hidden in the pen strokes of a map of Amsterdam and matched it to the manual's own published "
-     "gloss. The residue is unusually well specified — the Morse in the second drawing, and the exact German wording of the first. Originals are at "
-     "the National Archives in KV 2/2424, so the material is obtainable."),
-
     ("Abwehr agent's messages, New York to Berlin", "1944",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/19/the-top-50-unsolved-encrypted-messages-47-encrypted-messages-of-a-nazi-spy/",
      "top 50", "even", "md", "medium",
@@ -53,6 +46,16 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Censorship manual steganograms", "WW2",
+     "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
+     "top 50", "image resolution", "lo",
+     "A British censorship manual (TNA KV 2/2424) gives the plaintext of a map and a fashion drawing but not the readings. <b>Attempted "
+     "September 2026.</b> The one published fragment (AATHUT &rarr; LLESFE, <i>alles fertig</i>) fixes the map's shift direction, and the "
+     "exact dot-dash sequence any German wording would leave is now computed, so a reading can be checked mark by mark. The tram bands "
+     "themselves are ordinary map fill; the Morse is pen marks beside them, and those are 0.1&ndash;0.3&nbsp;mm &mdash; 2&ndash;5 pixels in "
+     "the best public photograph, where dots and dashes merge. Needs a 1,200&nbsp;dpi scan of pp. 14 and 17. The manual's &ldquo;French "
+     "shorthand&rdquo; points to Duploy&eacute; for the signature."),
+
     ("Debosnys cryptograms", "1882–83", "debosnys.html", "top 50", "attempted, not solved", "lo",
      "About 1,200 glyphs in an invented script, left by a man hanged in 1883. Three passages transcribed here, 969 glyphs. The cipher poem is "
      "<b>rhyming couplets</b> &mdash; the last glyph matches within 9 of 10 couplets and across none of the boundaries &mdash; and line length and "

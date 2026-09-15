@@ -136,3 +136,26 @@ debosnys/sbde_*
 debosnys/glyphs/line*.png
 debosnys/glyphs/boxes.json
 debosnys/brown_plagiarism.pdf
+# censorship manual: downloaded scans and working crops
+censorship/manual.pdf
+censorship/manual_*.png
+censorship/spread_*.png
+censorship/sp0*.png
+censorship/thumb_*.png
+censorship/*.html
+censorship/*.txt
+censorship/tna_search.json
+censorship/profile_*.json
+censorship/strip_*.png
+censorship/rs_*.png
+censorship/rr_*.png
+censorship/mr_*.png
+censorship/mk_*.png
+censorship/nat_*.png
+censorship/z_*.png
+censorship/fz_*.png
+censorship/raad*.png
+censorship/grid_*.png
+censorship/map_half.png
+censorship/fashion_small.jpg
+censorship/Modezeichnung-*.png
