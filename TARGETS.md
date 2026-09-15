@@ -55,7 +55,7 @@ remainder, for completeness, grouped by how promising they look with this repo's
 **Worth attacking next (tooling already exists or sources are printed/online)**
 | Source entry | Date | Why |
 |---|---|---|
-| Telegram from Huang Xing to Lin Hu and Li Genyuan | 1916 | source says "Solved but Specific Scheme Unknown" — our `sunyatsen/family.py` condenser brute force targets exactly this; JACAR B03050731500 |
+| ~~Telegram from Huang Xing to Lin Hu and Li Genyuan~~ **DONE 2026-09-15** | 1916 | Scheme identified: 3 kana per character, each kana = one digit via its gojuon consonant row, vowel a free homophone (5 ways to write each digit) -> a private 3-digit codebook. Consonant-row triples collide 7x vs 1.03 expected (permutation p=0.006); vowels collide at exactly chance (p=0.70). Plaintext read off JACAR frames 0247-0248. See `sunyatsen/HUANG_NOTES.md` |
 | Telegrams Found in a Sunken Ship Zhongshan | ca.1938 | Chinese telegraph code + condenser; same toolkit as Sun Yat-sen |
 | William Perwich | 1670 | likely transposition; despatches printed by Camden Society 1903 (online) |
 | Charles I in the Isle of Wight | 1648 | two of four solved by Biermann & Brown 2021; remaining two likely same family |

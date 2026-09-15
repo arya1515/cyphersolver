@@ -33,10 +33,10 @@
 
 <div class="stats">
   <div class="stat"><b>60</b><span>catalogue entries</span></div>
-  <div class="stat"><b>7</b><span>solved / explained</span></div>
+  <div class="stat"><b>8</b><span>solved / explained</span></div>
   <div class="stat"><b>1</b><span>partial</span></div>
   <div class="stat"><b>7</b><span>blocked on access</span></div>
-  <div class="stat"><b>8</b><span>queued to attack</span></div>
+  <div class="stat"><b>7</b><span>queued to attack</span></div>
 </div>
 <div class="bar" title="solved &middot; partial &middot; blocked on access &middot; stuck &middot; queued / parked">
   <span class="s" style="width:11%"></span><span class="p" style="width:2%"></span><span class="o" style="width:12%"></span><span class="x" style="width:8%"></span><span class="t" style="width:67%"></span>
@@ -100,7 +100,7 @@ above expensive long shots, so a coin-flip that resolves in ten minutes outranks
 <tr><th class="n">#</th><th>Target</th><th>Date</th><th>Odds</th><th>Effort</th><th>Why it sits here</th></tr>
 
 <tr class="grp"><td colspan="6">Attack now</td></tr>
-<tr><td class="n"><span class="rank">1</span></td><td><a href="https://www.jacar.archives.go.jp/das/meta/B03050731500">Huang Xing to Lin Hu and Li Genyuan</a></td><td>1916</td><td><span class="odds hi">high</span></td><td class="eff">hours</td><td>The catalogue marks it &ldquo;solved but specific scheme unknown&rdquo;, so the plaintext is in hand and only the enciphering scheme is missing. Recovering a systematic condenser against known plaintext is close to deterministic, and the <a href="sunyatsen.html">brute force built for the Swatow telegram</a> searches exactly that family.</td></tr>
+<tr><td class="n"><span class="rank">&#10003;</span></td><td><a href="https://www.jacar.archives.go.jp/das/meta/B03050731500">Huang Xing to Lin Hu and Li Genyuan</a></td><td>1916</td><td><span class="st solved">scheme found</span></td><td class="eff">done</td><td><b>Solved 15 Sep 2026.</b> Three kana per character; each kana carries one digit in its gojuon consonant row while the vowel is a free homophone, so every digit can be written five ways and the surface text almost never repeats. Consonant-row triples collide seven times against 1.03 expected (permutation p = 0.006); vowels collide at exactly chance (p = 0.70). Three digits per character means a private codebook, not the four-digit telegraph code. The Foreign Ministry&rsquo;s own filed decode and its annotated Japanese reading were recovered from JACAR frames 0247&ndash;0248.</td></tr>
 <tr><td class="n"><span class="rank">2</span></td><td><a href="https://cryptiana.web.fc2.com/code/charlesi2.htm">Charles I in the Isle of Wight, the two unread letters</a></td><td>1648</td><td><span class="odds md">even</span></td><td class="eff">minutes</td><td>Two of the four were solved by Biermann and Brown in 2021 and their key is published. Either it opens the other two immediately or it does not. The cheapest decisive test on the list.</td></tr>
 <tr><td class="n"><span class="rank">3</span></td><td><a href="https://gallica.bnf.fr/ark:/12148/bpt6k1080037">Berthier to Napoleon</a></td><td>1812</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>Napoleon&rsquo;s correspondence is printed complete and online, so the plaintext of a staff letter may simply be in the edition. Checking the printed edition first has already turned three items on this list from unsolved into solved.</td></tr>
 <tr><td class="n"><span class="rank">4</span></td><td><a href="https://cryptiana.web.fc2.com/code/napoleon2.htm">Encoded letter to Marshal Marmont</a></td><td>1807</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>The same <i>petit chiffre</i> family and the same printed-edition route as the Berthier letter, worth doing in one pass.</td></tr>

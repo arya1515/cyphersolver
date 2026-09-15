@@ -1,0 +1,15 @@
+ciphertext: 139 kana, 36 distinct; body 138 kana = 46 characters
+  consonant row  collisions  7   distinct 39   expected 1.03
+  vowel          collisions  8   distinct 38   expected 8.28
+  literal kana   collisions  1   distinct 45   expected --
+  permutation test consonant row  observed 7, p = 0.0058
+  permutation test vowel          observed 8, p = 0.6958
+
+repeated consonant-row triples (same plaintext character, different vowels):
+   T-H  x2  at [2, 22]  written TAUHO / TEUHI
+   SKN  x2  at [4, 35]  written SEKANA / SHIKONU
+   KKN  x2  at [6, 32]  written KEKINI / KEKINI
+   R-H  x2  at [9, 13]  written REUHO / REOHI
+   SKH  x2  at [12, 18]  written SAKUFU / SHIKIHE
+   NKT  x2  at [23, 33]  written NAKUTA / NAKITE
+   -KT  x2  at [30, 34]  written UKUTSU / AKETA
