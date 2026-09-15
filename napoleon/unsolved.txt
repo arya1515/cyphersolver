@@ -1,0 +1,542 @@
+
+Unsolved Historical Ciphers
+Unsolved Historical Ciphers
+Several well-known unsolved ciphers such as the Voynich Manuscript, Beale ciphers, Dorabella cipher, etc. have been attracting attention of the worldwide cryptologic community (see, e.g., Elonka's List of Famous Unsolved Codes and Ciphers) but historical archives (and other publications) contain many other pieces written in codes and ciphers that remain unsolved. The following lists some of such pieces in the hope that only a fraction of the efforts directed to major cryptologic puzzles might contribute to the solution of these small puzzles.
+(Recently broken ciphers are also listed.)
+The reader is kindly asked to provide information if he/she knows or attains decipherment of any of these.
+Italian/Latin (1520s)
+Venetian? Cipher with Superscript Digits (1528)
+BnF Clair. 327, ff.279-280 is an unsigned letter of 11 April 1528 to Seigneur Garbino. Use of superscript digits is also seen in Venetian ciphers at the time. The base symbol may indicate the initial of the word/syllable represented. Several letters of Hieronimo Ranzo (BnF fr.2988, f.2, f.9; BnF fr.3019, f.73) and a memoire in Italian dated Madrid, 11 April 1528 (BnF fr.3022, f.44), all undeciphered, are also in a similar cipher with superscript digits. See another article.
+(April 2026) The symbols look like those in Lu.6 (used by Andrea Doria and Charles V in 1537) (another article) but the range of the figures does not match at all.
+Bishop of Worcester's Cipher with Superscript Digits (1526, 1529)
+The Bishop of Worcester, an Italian absentee, used a complex cipher in his letters in Latin. It employs alphabetical letters with numeral superscripts to represent syllables (and probably nulls and nomenclature elements).
+I could identify single letter symbols and some syllables from deciphered fragments. But when I apply these findings to undeciphered letters, I can only see some short Latin fragments (e.g., "hu-n-c me-a-m", "no-n", "o-m-ni?-a") and there are too many blanks. The few long sequences of known symbols are incoherent to me (e.g., "...ri-s-tu-m-ri-po-r-ta-re-s-pe-re-n-t"). For those versed in Latin, this may be an interesting puzzle.
+(See another article.)
+Serno Gilino's Cipher with Superscript Digits (1527)
+There is another undeciphered letter in Latin from a Serno Gilino, 15 September 1527. Most of the superscript numerals of this cipher are two-digit numbers, in contrast to the Bishop of Worcester's above, in which superscripts (at least the meaninful ones) are two-digit numbers.
+(See another article.)
+English
+Nicholas Throckmorton (1559) / John Wool (1568)
+Add MS 4136 includes many ciphertext segments, for which I reconstructed three ciphers (see another article), but there remain two ciphers yet unidentified.
+DECRYPT no.2988 Throckmorton to Elizabeth, 10 July 1559
+The letter itself can be deciphered with Throckmorton's Cipher 1, but the ciphertext in the margin accounting for about half of the page seems to be in a different, unknown cipher.
+DECRYPT no.2989 Throckmorton to Cecil, 8 August 1559 can be deciphered with Throckmorton's Cipher 3, but the same sheet includes a ciphertext from Mr John Wod to Secretary Cecil, 6 September 1568, which seems to be in a different, unknown cipher.
+The undeciphered ciphertexts in Add MS 4136, f.173 and f.174 (DECRYPT no.9258 and no.9259), use simple ciphers, which I could solve without much trouble.
+Moray-Wood Cipher -- A Scotch Diplomatic Cipher (1568)
+Add MS 32091 (BL) includes a letter partly in cipher from James Stewart, Earl of Moray and Regent of Scotland, to John Wood, Scottish ambassador in England. 13 July 1568 (f.213). Although the cipher seems simple, the short ciphertext is not deciphered. My transcription is here.
+Large Collections of Wholly Enciphered Letters of Mary, Queen of Scots (1578-1584) Solved
+BnF fr.2988 (Gallica), f.21 ff., contains many undeciphered letters in symbol cipher. From other letters in the same volume, I listed this under the heading "Italian? Cipher (1520s?)" in March 2021. It turned out to be letters of Mary, Queen of Scots. Undeciphered ciphertexts in the same cipher are also found in BnF fr.20506, BnF 500 de Colbert 470, and BnF fr.3158. These results were published in George Lasry, Norbert Biermann, Satoshi Tomokiyo (2023), "Deciphering Mary Stuartfs Lost Letters from 1578-1584", Cryptologia. See another article.
+English Cipher Misplaced? in French Archives Solved
+The cipher of BnF fr.2988, f.1, was broken by Torbjörn Andersson from Sweden in 2017 (Cipherbrain). Unexpectedly, the plaintext turned out to be English. Another letter in the same cipher is found in BnF fr.20506. Given that many letters in the same volume now turned out to be from Mary, Queen of Scots, the recipient of this letter may be Mary. See another article.
+More Undeciphered Letters Related to Mary, Queen of Scots (1581)
+Apart from the pieces listed below, I found that some unsolved ciphertexts in SP53 correspond to plaintexts in the same volume (see another article). Thus, there is some possibility that the plaintext for the following pieces may also be found.
+SP53/11 no.50 Solved
+This is a letter from Walsingham to his codebreaker John Somers (21 July 1581) and encloses a letter in cipher found in Mary's intercepted letter.
+The enclosure (no.50I) is entirely in cipher, not deciphered. Here is my transcription.
+SP53/16 no.28(3) (1585) Solved
+Of the five ciphertexts of no.28, this is the only one not marked "Decifred." (The other four are Fontenay to Mary, Fontenay to Nau, and Denis to Mary.) Addressed to "ff". Here is my transcription.
+SP53/16 no.29(2) (1585) Solved
+I solved this in 2023 (see another article). It begins "Monsieur? Morgan? est pri[s]onnie[r] en la Bastille q?ue la nuict du premier dimenche de ...." Thus, this is information from France.
+SP53/16 no.29(3) Solved
+Marked "Decifred", but the contemporary decipherment is probably lost. Some symbols look like those of the Mary-Fontenay Cipher. Here is my transcription.
+SP53/16 no.78 (1585?)
+Anonymous letter in cipher to Mr. Tempest, an English priest resident at Paris. Cleartext lines are in French. Endorsed by Phelippes. Not deciphered. Here is my transcription.
+SP53/16 no.79 (1585?)
+Another anonymous letter in cipher in the same handwriting with no. 78 (copyist's?), addressed to Doctor Barret, President of the English seminary at Rheims. Endorsed by Phelippes. Here is my transcription.
+SP53/18 no.64 (1586?) Solved
+"To Fulgeame" (known in various spelling: Fuljambe, Fullgham, or Foulgiam). Marked "Decifred 21 Julye 1586" but the contemporary decipherment appears to be lost. My transcription is not ready.
+SP53/22 f.52 
+SP53/22 is a collection of ciphers related to Mary, Queen of Scots, in which f.52 is a short undeciphered ciphertext endorsed "Cifer with[?] Spanish Spye:" "Spanish spy".
+(transcription) 6b;4b;8b;8b;5;10b;7b;4;7b;7;4b;2;4;7;9b;2b;8;2;9b;8;6b;8;7;12;9;6;6;9;0;5;
+8;10b;8b;5;2;8b;5b;2b;9;5b;0;0;9;2b;9;2;5;9;2;2;6b;3b;9;2b;0;2;3b;3;5;
+3b;5b;11;7b;8b;8;10;5;4;3;5;2b;13;9;5b;2;3;9b;6b;0;9;0;13;7;5;
+The verso of the cipher key of f.40 also has a short undeciphered ciphertext.
+Mary-Grange Cipher (1571) Solved
+Add MS 33531, f.101, is an undeciphered ciphertext, which resembles known enciphered letters from Mary. In 2023, I could solve this by finding the key in the archives (see another article), which I believe confirms this is from Mary. (Since the key is among the collection of an English codebreaker, the plaintext may be found somewhere in the archives.)
+Ciphers related to Sir Francis Walsingham
+There are some undeciphered ciphertext in letters to Walsingham. One is from Robert Bowes (1583) and another is from William Davison (1584). See another article (which provides my transcriptions).These ciphers look simpler than some of Mary's ciphers, and may be easy for those who can read the cleartext parts of the letters.
+The same article also mentions some undeciphered short ciphertexts from Cotton MS Caligula B VIII.
+Spanish
+Postscript to King Ferdinand's Letter to his Ambassador in Rome (1498)
+King Ferdinand's letter to Garcilaso de la Vega, his ambassador in Rome, of 31 August 1498 was deciphered by Parisi (2004) (pdf; p.115) but the last ten lines are in a different cipher and is left undeciphered.
+Galende Diaz (1994), cited in another article, mentions a cipher of Garcilaso de la Vega preserved in the archives.
+You can post your comments or solution here.
+Spanish Letters (1497-1504) One Approximately Solved
+BnF Espagnol 318 (Gallica) includes undeciphered letters. Ff.5-6 and f.116 employ known ciphers but the following three are in unknown ciphers:
+f.122, no.95 A letter of 8 January 1497 (An approximate solution of this was provided by George Lasry in 2022 (see another article).)
+f.120-121, no.94 Viceroy of Sicily to Ferdinand, 27 April 1503
+f.118, no.93 (p.448 of pdf) Lorenzo Suarez to Ferdinand and Isabella, Venice, 24 February 1504
+See another article.
+You can post your comments or solution here.
+A Spanish Letter (1504?) Solved
+PTR,LEG,54,DOC.13 is a letter entirely in cipher, not deciphered. It is filed with letters from 1504. The last line may be in a different cipher. There are many repetitive patterns (like "16e", "8ρ", "ogθ+", etc.) and it does not seem to be a very complicated system.
+For contemporary Spanish ciphers, see another article.
+You can post your comments or solution here.
+In 2023, I found this was an English cipher, deciphered in the nineteenth century (John Stile, 21 March 1514). I should have realized that the endorsement looks like English. The repetitive patterns I noted turned out to be "the", "of", and "your." See another article.
+Catherine of Aragon's letter to King Ferdinand (1509) Solved
+I called for a solution of an undeciphered letter (1509) of Catherine of Aragon to her father, King Ferdinand at MTC3 in 2018. To my pleasant surprise, it was immediately solved by Victor and Thomas Bosbach. See another article.
+Spanish Cipher Letter from Emperor Charles V (1521?)
+The cipher in a letter of 26 December [1521?] from Emperor Charles V is unsolved. See another article.
+Juan Manuel to Charles V (1521-1522) Key Identified
+DECODE includes many letters in cipher from Juan Manuel, imperial ambassador in Rome, to Charles V from 1521-1522 preserved in Biblioteca de la Real Academia de la Historia (BRAH) (most of R9499-R9529). Solving this cryptographically may be difficult because of a large number of nomenclature entries. For example, the first line of R9512 is "* * * * * * * * tac byo tyo gao bin sof lal gap * bad * bas per", where * stands for graphic symbols, some of which may be nulls, and the three letter codes should represent words, judging from contemporary ciphers.
+Looking for contemporary decipherment in archives may be the first thing to do. If no matching plaintext is found, contemporary decipherment of other letters from Juan Manuel to Charles V from the same period in the same archives (British History Online) may help.
+(September 2025) I noticed all but two of Juan Manuel's letters in DECODE ("Non-decrypted") are accompanied by plaintext and I used them to reconstruct the cipher (see another article). Plaintext of the remaining two may also be in the archives.
+Alonso Sanchez to Charles V (1522) Key Identified
+DECODE includes letters in cipher from Alonzo Sanchez, imperial ambassador in Venice, to Charles V preserved in BRAH (R9509, R9522). The cipher would be similar to the one used by Juan Manuel. Again, other letters deciphered (British History Online) may help.
+(September 2025) After writing the above, more letters were uploaded in DECODE, of which plaintext is available for some, which allowed me to reconstruct the cipher (see another article).
+Spanish Cipher Letter to Emperor Charles V (1527) Solved
+The cipher in a letter of 24 September 1527 from Juan Perez, ambassador in Rome, to the Emperor appears to be unsolved. See another article.
+(September 2025) I noticed that the cipher is the same as the one used by Juan Manuel, Juan Perez's precedessor. The letter is probably the one calendared in CSP Spain.
+(April 2026) I realized that Geoge Lasry already solved this analytically in 2023 (see "Perez-Charles V Cipher (1527)" in another article). The cipher is the same as Ko.1 reconstructed by Olga Kolosoval from archival aterials in Spain in 2017 (see another article).
+A Report to Charles V (1527?) Basically Solved
+BnF fr.3022, f.16, is a report to Charles V in Spanish, undeciphered. See another article.
+(April 2026) George Lasry provided his solution in April 2026. While most of three-letter codes remain unidentified and reassignment may be necessary here and there, his solution will allow someone versed in Spanish to complete the work. See another article.
+Marquis of Gasto to Charles V (1527) Basically Solved
+BnF fr.3022 contains letters of Marquis of Gasto in cipher to Charles V. See another article.
+(April 2026) George Lasry provided his solution in April 2026. As it turned out, the letter in September 1527 and the one in November 1527 are in different ciphers. I find I already received his solution of the first cipher. The second cipher turned out to be the same as the one used in f.16 above. See another article.
+Spanish Cipher Letter to Emperor Charles V (1529) Solved
+I solved in 2018 a cipher used in a letter (1529) to Emperor Charles V from Suarez de Figueroa, Spanish ambassador in Genoa. See another article.
+Before that, I tackled a cipher in a letter (1543) from Suarez de Figueroa to Prince Philip. After some initial success, however, a plaintext was found in the archives. See another article.
+Charles V to Jean de Saint-Mauris, his ambassador in Paris (1547) Solved
+I learned from George Lasry and from Cipherbrain that a letter in 1547 from Charles V to Jean de Saint-Mauris, his ambassador in Paris, preserved in Bibliothéques de Nancy, was broken by Cécile Pierrot, Pierrick Gaudry, Paul Zimmermann, and Camille Desenclos. Their presentation on 23 November 2022 received a wide media coverage. As it turned out, it is the same cipher as I had reconstructed from Spanish archives (see another article).
+Spanish Letters (1551) Solved
+In 2023, George Lasry solved the following two ciphers with his new algorithm for syllable ciphers. Right after that, I also received solutions from Carlos Köpte, who independently solved them. See another article for the keys.
+Simancas, EST,LEG,1381,180
+Undeciphered letter of 1551 (PARES)
+The deciphered text includes sections entitled (in cipher) "Copia do loque Su Magestad scrive a [Principe] Doria a v de setienbre presinte", "Al seno Ferando", "Al enbaxador Figueroa."
+Simancas, EST,LEG,1381,143
+Undeciphered letter of 24 August 1551 (PARES)
+The recovered plaintext is in French. The cipher turned out to be the same as what I call Granvelle-Saint Mauris Cipher.
+Juan de Idiaquez Olazabal y Pedro Gonzalez de Mendoza to Philip II (15 March 1577) Solved
+The letter (PARES: Simancas, EST,LEG,1386,1) is undeciphered. The cipher looks like (but, of course, not the same as) Cg.6 (1571). (For Spanish ciphers at the time, see another article.)
+In 2023, this was solved by Carlos Köpte. As it turned out, the key is the same as what has been known in various ways (see "Cipher with Don Juan de Borgia (1579)" in another article). After I noticed this, I looked at the manuscript and found the date was actually "1577", not "1557" as indicated at PARES.
+Secret Letters to Juan de Vargas Mexia from Philip II and Antonio Perez in BnF es.132 (1577-1579) Keys Identified
+Of many unsolved ciphertexts of which keys have been found (by myself or others), only some are given in this article. I specifically mention BnF es.132 here because it may contain interesting materials for historians. It includes many undeciphered letters from Philip II and Antonio Perez to Juan de Vargas Mexia. The keys were not known at least as of 2012. In 2020, I identified the four keys used in this volume (I cracked one myself). This will allow historians to read the letters in the volume. See another article for details.
+BnF es.336, BnF fr.2996, BnF fr.3015, BnF fr.3022, BnF Clair.326, BnF fr.3029, BnF fr.3092, BnF fr.3045, BnF fr.3034, BnF fr.3096, BnF fr.3091, BnF fr.3040, BnF fr.3071, BnF fr.3083, BnF fr.3147 Most Solved
+In 2023, George Lasry provided solutions to many ciphers (French, Spanish, Italian) in BnF, most of which were not listed here (see another article).
+Of these, what remain unsolved are two from BnF fr.3022 (A report to Charles V (1527?), Marquis of Gasto to Charles V (1527) above) and a short ciphertext in a letter from Matheo de Segura to connetable de Castille, dated Madrid, 8 August 1596 (BnF es. 336 (Gallica), f.196, no.99).
+French (up to 1610)
+Earliest French Ciphers (1526-1530) Four Solved
+The earliest known specimen of ciphertext in France is unsolved. See another article for some unsolved French ciphers in the reign of Francis I. (In 2021, the cipher between Calvimont and Duprat was solved by Norbert Biermann. In 2022, the cipher of Mr. de Gramont, Bishop of Tarbe (1529) was solved by George Lasry. A cipher between Bayonne and Montmorency (1528-1529) was also solved by George Lasry. In 2023, Galeaz Vesconte's Cipher (1528-1529) was solved by George Lasry.)
+Hurault, Ambassador in Venice (ca.1564?) Solved
+A letter from Jean Hurault[?], French ambassador in Venice, appeared undeciphered (see another article). In 2022, George Lasry solved it (see another article). It showed that an attached plaintext corresponds to this ciphertext.
+Letters to/from Duke of Guise? (ca. 1556) Solved
+BnF fr.20974 is a collection of ciphers used in the correspondence of the Duke of Guise (ca.1556). It includes some undeciphered ciphertexts. I solved one cipher (no.8), but two (no.1 and no.7) remained unsolved. See another article.
+In March 2021, George Lasry solved some part of the no.7 ciphertext (private communication). In the same month, Norbert Biermann independently solved a large part of it, after which he found that the key is on p.93 of BnF fr.20974 (private communication).
+In the same month, Biermann found that no.1 could be read with the Nevers-Piles cipher.
+Catherine de Medicis to Philibert du Croc (1567)
+A letter dated 27 April 1567 partly in cipher from Catherine de Medicis to Philibert du Croc is reproduced in Paul Destray (1924), Un diplomate français du XVIe siècle: Philibert du Croc (Gallica) (p.53 and the leaf next to p.56). The clear text preceding the ciphertext ("jay recu du sr x3 lettres en datte") may suggest the ciphertext begins with "du." See another article for contemporary ciphers.
+Charles IX to Philibert du Croc (1565-1567 or 1572) Solved
+A letter in cipher from Charles IX to Philibert du Croc is reproduced in Paul Destray (1924), Un diplomate français du XVIe siècle: Philibert du Croc (Gallica) (p.80 and the next leaf). Although the letter is not dated, the endorsement indicates Philibert du Croc was then ambassador in Scotland. In 2022, George Lasry solved it (see another article).
+Lodovico Birago to Duke of Nevers (1571)
+Some letters from Lodovico Birago to the Duke of Nevers from 1570-1572 preserved in BnF fr. 3251 can be deciphered by using keys reconstructed from already deciphered materials. These keys, however, do not solve a letter (in Italian) dated 13 November 1571, which has a paragraph in a different, numerical cipher. (See another article).
+The following is my transcription. (The diacritics should be placed over the following one or two characters. Check the original image in BnF fr.3251, f.119 (Gallica).)
+÷762¯59150894032f48932489931548590013¯20¨05812512n419093800136518299427¨361529
+392859394¨411551240153513542400400n0800595480c419090m054493401519461505480592834
+÷295481482¨415919n3¨2539598489439&didide;¯43÷39153039081294512n4898295449153f34150901
+440315039858034085198851982n4393590+98945408594010a29481219080512n45128012544
+1559193041924054810÷.400n0807512401502010m4404010a054490119l01505+44240390944081
+215054481482243154899272190859380÷150893498909014÷395448590+740+81+219082
+5449740193÷05934512842190859380¨12150852859382150544÷.76
+Blancmesnil to Duke of Nevers
+A letter of Nicolas Potier de Blancmesnil to the Duke of Nevers, dated "cer dernier juin" in BnF fr.3633, f.24, contains some phrases in cipher. See another article.
+Danzay to Henry III (1574) Solved
+BnF fr. 4736 contains (f.87, no.36) a letter from D'anzay to Henry III, dated Copenhagen, 14 October 1574, which contains some undeciphered lines in cipher. See another article for contemporary ciphers.
+In 2025, this was solved by Sergey Ryabov by reconstructing the cipher from another letter deciphered. See another article.
+Villeroi to Henry III (1577) Solved
+A letter in cipher from Villeroi to Henry III of France was sold at an auction. It is wholly in cipher except for the complimentary ending: "Sire ie prie dieu conserver vre mté en parfaicte santé / De Bergerac ce viiie jour de sepbre 1577" and the signature "Vre très humble très obéissant & très obligé subjet & serviteur. Deneufville" in Villeroi's hand. (The date is shortly before the Treaty of Bergerac (Wikipedia) was made between the King and the Huguenot princes.)
+In 2022, George Lasry solved it (see another article).
+Letters from Duke of Guise? (ca. 1581) Most Solved
+I posted undeciphered letters to Mr de Mercoeur probably from the Duke of Guise in my blog (BnF fr.15564, f.27, f.78, f.119, f.142). In 2022, George Lasry solved it (see in another article). He also found there is a short ciphertext in f.151 (which I failed to mention in the blog, but mentioned in another article, which also presents several other undeciphered ciphertexts, including the one below). He says it does not decipher with the same key and is probably too short for cryptanalysis.
+Letters from Henry III to Segur (1583, 1583, 1586)
+BnF, 500 de Colbert 401 has some undeciphered ciphertexts. A reconstructed key (see another article) from interlinear decipherment on one page applies to two (f.321, f.333), but it appears the others (f.143, f.233, f.239, f.288v) are in different cipher(s).
+Duke of Lorraine (1592) Solved
+BnF fr.3621 (catalogue), f.125 (DECODE R9449), is an undeciphered letter of Charles II (also known as Charles III), Duke of Lorraine (Wikipedia) to Vaudémont, his son, (Wikipedia) dated 18 June 1592.
+I solved this in 2025: "J'ay este infiniment mal satisfait du peu d'execution ...." (The substitution alphabet employs letters and other symbols. Historians' help is needed to identify numerical symbols. Many of the low-frequency symbols seem to be nulls.)
+Henry IV's Cipher (1610) Solved
+Henry IV's letter to Savary de Breves dated 5 January 1610 remains unsolved. See another article.
+In February-March 2021, George Lasry solved a significant part of this ciphertext (private communication).
+Marie de Medici's Cipher (1610)
+Short passages in cipher in letters from Regent Marie de Medici to Mr. de Breves appear to be unsolved. See another article.
+Italian (Vatican)
+A Letter to Cardinal Schiner (1520) Solved
+I solved in 2019 a cipher used in a letter addressed to Cardinal Schiner (1520), only to find that it had already been solved by Grégoire Nicollier, Matthieu Jacquemet, and Gilles Evéquoz. The cipher is a simple numerical cipher, but it is interesting in being an early specimen. See another article.
+Papal Ciphers from the 16th to the 18th Century Many Solved
+Lasry et al., "Deciphering papal ciphers from the 16th to the 18th Century" (published online in 2020 at Cryptologia) systematically studied many ciphertexts found in the Vatican archives and recovered no less than 16 keys out of 21 used. (Reportedly, it was done between 24 April and 9 June 2019 (p.492). The ciphertexts presented in the "Vatican Challenge" mentioned below were ones collected as part of this project.) The paper discusses algorithms for clustering ciphertexts into groups of ciphertexts enciphered with the same key; solving fixed-length homophonic ciphers; solving variable-length homophonic ciphers; and solving polyphonic ciphers. By the systematic study of many materials, the paper showed the sophistication of the papal ciphers in the 16th century was lost in the 17th century, when only simpler, less secure ciphers were used.
+New Vatican Challenges (1536, 1542, 1721) One of Three Solved
+A private email made me aware of three new Vatican challenge ciphertexts posted by George Lasry in 2019 at MTC3:
+The Vatican Challenge - Part 3 ... a short message dated "Brusseles 9 Oct. 1721", consisting of one- to four-digit figures. This was solved in George Lasry and Paolo Bonavoglia, "Deciphering a Short Papal Cipher from 1721" (HistoCrypt 2022).
+The Vatican Challenge - Part 4 ... a letter from the bishop of Senigallia to the Secretariat, consisting of figures. The cleartext seems to include the date "Marzo 1536." This was solved in August 2019 by Thomas Bosbach, who found a matching plaintext in a book (Lasry et al., "Deciphering papal ciphers from the 16th to the 18th Century" (Cryptologia)).
+The Vatican Challenge - Part 5 ... The cleartext seems to include the date "Aprile 1542." According to the introduction of the challenge, this letter is in a bundle of "Lett. Orig. e cifre del card. Farnese al nunzio, 4 oct 1539-24 nov. 1548. ff. 7-123."
+See my blog for some observations.
+Vatican Challenges Solved
+Two ciphers of papal nucios (1625, 1628) were posted as challenge problems at MTC3 in 2018 (Vatican Challenge Part 1, Part 2). Thomas Bosbach and Norbert Biermann solved them independently. I was the third to solve them. See another article.
+Before that, I solved three Vatican ciphers from 1593. See another article in Cryptologia.
+Solution of a similar ciphertext (1573) was described by Albert C. Leighton back in 1969. See another article
+Bellaso's Ciphers Solved
+Many of the ciphers presented in works of Giovan Battista Bellaso in the mid-16th century were solved by Tony Gaffney in 2009. The remaining four were solved by Norbert Biermann in 2016-2018. See the links at the end of another article (in Japanese).
+French, Italian, Spanish
+French (or Italian) Ciphers (c.1590) Almost Solved
+BnF fr.4715 in the French archives contains many undeciphered letters. I could solve some (at least partially) but three remain unsolved despite their seeming simplicity. (One (no.61=f.84)) was solved by George Lasry in 2020. In 2022, George Lasry solved another (no.59=f.82) and achieved interim results for the other (no.62=f.85).) See another article.
+BnF fr.4712 contains some undeciphered letters. See another article.
+The French archives has many other cipher materials. In some cases, they can be solved with keys reconstructed from letters with decipherment. See the following articles:
+Reading an Undeciphered Letter of the Duke of Mantua (1590, 1593)
+Reading Undeciphered Letters to the Duke of Savoy (1593)
+Reading an Undeciphered French Letter from Antwerp (1580)
+Ciphertexts Left Undeciphered by François Viète (1593-1594) One of Two Solved
+Cinq Cents de Colbert 33, a volume containing despatches deciphered by Viete, contain some undeciphered original letters apparently left undeciphered by Viete. See another article.
+(f.539) Cardinal de Joyeuse to Villars, admiral de France, Rome, 15 February 1594
+(f.555) Senecey to Archbishop of Lyon (This was solved by George Lasry in 2020.)
+Venetian Letter in Spanish Archives (ca.1589)
+Ms. 994 of National Library, Madrid, contains an undeciphered letter from Venetian secretary Marco Otthobon [Marco Ottobon] to ambassador, Juan Mocenigo [Giovanni Mocenigo], dated 27 April 1589. Valle de la Cerda appears to have solved it, but his solution is lost. See another article. The cipher symbols consist of an alphabetical letter followed by Arabic figures. For this kind of ciphers, see another article.
+Cocquet's Cipher (1616)
+BnF Clair 369 (Gallica) contains a partially enciphered letter dated Rome, 13? November 1616 from Cocquet to Mangot (f.316). See another article for some contemporary ciphers.
+Fragments in Novel Cipher Invented by a Milanese Almost Solved?
+Ms. 994 of National Library, Madrid, contains ciphertext solved by Luis Valle de la Cerda. The cipher was in a scheme invented by a Milanese, Jerónimo Sertori. Valle not only broke it but indicated that he had devised the same scheme fifteen years earlier. However, his solution is not extant. See another article. (According to Nick Pelling's blog ("Girolamo Sirtori Cipher Mystery"), Eloy Caballero got close to the solution in 2012.)
+Fra Guglielmo Vizani (1637)
+A letter of fra Guglielmo Vizani, 8 October 1637, has portions that appear to be in an unsolved cipher. See another article.
+A Letter to D'Estrades (1647) Solved
+BnF Clair. 577 is a collection of correspondence of D'Estrades in 1647. Some undeciphered letters can be read with keys reconstructed from other letters (see another article). But the key for a letter in Italian, dated 2 August 1647, on p.629 has not been identified.
+A large part is in a numerical cipher with diacritics, of which only a few words in the beginning are deciphered (wihch I partly parse as `41(L) ¨33(AR) ¨36(MA) ′56(TA) ¨56(NA) ′61(VA) `42(LO)). After the text, a cleartext is scribbled ("non hauende cifra con ...") but it does not seem to match the deciphered fragment. One who knows Italian may reconstruct the whole code.
+The key was reconstructed by George Lasry and Norbert Biermann in 2025. (As it turned out, my tentative parsing should be corrected to: `41(LA) ¨33(R) ¨36(MA) ′56(TA) ¨41(NA) ′61(VA) `42(LE).)
+German
+Wallenstein (1626) Solved
+A simpe substitution cipher used by Albrecht von Wallenstein during the Thirty Years' War was solved by Nagra in 2016. See another article.
+King of Hungary and Bohemia (Future Ferdinand III)
+According to Jakub Mírka (2012), "The early modern cipher correspondence in the noble family archives deposited in the State Regional Archives in Pilsen" (ResearchGate) (in Czech according to Google Translate), a letter of future Emperor Ferdinand III to Trauttmansdorff, dated 13 November 1634, is not deciphered (SOA in Pilsen, Monastery office, Trauttmansdorff family archive, carton no.6, i. no.68). The ciphertext may involve an important matter, given that this is the only one in cipher between them in the archives (the cleartext states the future emperor is sending this by his own messenger).
+Emperor Ferdinand III and Archduke Leopold (1640-1645) Solved
+Emperor Ferdinand III and Archduke Leopold used cipher in their private correspondence in 1640-1645. In 2018, Thomas Ernst succeeded in codebreaking. The Habsburg brothers' cipher turned out to be essentially a numerical cipher with some figures guised in graphical symbols. See another article.
+More Ciphers of Ferdinand III?
+DECODE R1579 presents Emperor Ferdinand III's cipher letter from 20 July 1640 (the images I7064-I7065), the one deciphered by Thomas Ernst (see above). The record contains other sheets in a different cipher.
+The cipher used in the image I7060 employs two- or three-digit and two- or three-letter codes. (The cleartext is in German, but the ciphertext may mix Latin.)
+I7066 consists of several blocks seemingly in a simple symbol cipher. I7068 (negative image) is a longer text in a similar looking cipher.
+The metadata of the record R1579 provides some reference information.
+Correspondence between Ferdinand III and Cardinal-Infante Ferdinand of Austria (1634, 1635, 1640)
+The archives in Brussels preserves some letters in cipher between Emperor Ferdinand III and Cardinal-Infante Ferdinand of Austria (Wikipedia), Governor of the Spanish Netherlands (1633-1641). The text in clear is in Latin.
+DECODE R1887: Ferdinand III to Governor Ferdinand, 28 October 1634.
+This employs an old style cipher with graphic symbols as well as three-letter codes, but the following two epistles employ a new cipher with two-digit codes and alphabetical letters.
+DECODE R1889: Governor Ferdinand to Ferdinand III, 16 November 1635.
+DECODE R1890: Ferdinand III to Governor Ferdinand, 22 February 1640.
+Two Ciphers of Imperial Ministers from the Thirty Years' War Period Solved
+Two homophonic substitution ciphers of Imperial ministers from the time of the Thirty Years' War were solved in 2018. One was solved by Thomas Bosbach and Nagra independently. The other was solved by Thomas Bosbach. See another article.
+Carl von Rabenhaupt (1646) Solved
+A letter (1646) of Carl von Rabenhaupt (Wikipedia), a Bohemian who fought for the Protestants during the Thirty Years' War, to Amalie Elisabeth, regent of Hesse-Kassel (Wikipedia), is presented in Klausis Krypto Kolumne (2016) and Crypto-World (7-8/2013; 9-10/2013; 11-12/2013). The cipher consists of two- or three-digit figures and other symbols.
+This was broken in 2020 by finding the key in the archives. See another article.
+Variable-length Figure Code in Austrian Archives (1644, 1627)
+Three "Non-decrypted" ciphertexts from Austrian archives are presented in another article (DECODE R2159, R1408, R2179). (The first is an easy one, and someone who knows Italian will readily solve it.)
+Variable-length Figure Code by Adam Starhemberg (1758)
+An undeciphered ciphertext by Georg Adam Starhemberg is presented in another article.
+Frederick I of Prussia's Transposition Cipher Solved
+I noticed three transposition ciphertexts in DECODE. Of these, two (in French) are attributed to King Frederick I of Prussia and the third is in Italian. Two appeared to be non-decrypted, and I could solve them without much difficulty. See another article.
+French (17th Century)
+Richelieu (1629)
+BnF fr.3829 (catalogue), f.87 (DECODE R9461) is a letter from Cardinal Richelieu to Monsieur de Rancé partly in cipher. F.89 (DECODE R9462) appears to be in the same cipher. These are undeciphered.
+Since short fragments of ciphertext are interleaved with cleartext, this may not be very difficult for people who can read the cleartext. My transcription is here (cleartext is only partially transcribed).
+Melchior de Sabran (1631-1635) Most Solved
+Some undeciphered ciphertexts of Melchior de Sabran, a diplomat then resident in Genoa (1630-1637), are preserved.
+I solved one cipher used between Abel Servien and Sabran in 1632, thanks to two independently enciphered copies with some words in the clear (see another article).
+The cipher used in Louis XIII's letter, dated Dijon, 28 March 1631, to Sabran was solved by George Lasry in 2022 (see another article). It was also used in short passages in cipher in other letters from Sabran to Bouthillier from 1633-1635 (See another article).
+The cipher used in what seems to be an enclosure of Odoardo Farnese's letter, dated Plaisance, 27 May 1637, to Sabran was also solved by George Lasry in 2022.
+Short passages in cipher in a letter to "Mr de ch.gr" appears to be in a different cipher, yet unsolved.
+Cardinal Richelieu's Cipher (1641) Solved
+Cardinal Richelieu's letter from 1641 mostly in cipher was solved by Norbert Biermann in 2020 (Klausis Krypto Kolumne). See another article for some background.
+An Unsolved Cipher to Cardinal Mazarin? (1649) Solved
+An unsolved letter from Henri Brasset, a French resident in The Hague, to "Vostre Eminence" (Mazarin?) is in BnF Clair 421. The figures with diacritics probably represent syllables alphabetically arranged and some words and names, as with other ciphers at the time. You can post comments or solution in my blog, where I posted my provisional transcription and initial comments.
+(In 2023, George Lasry solved this by using his new algorithm for solving syllable ciphers. See another article.)
+Bordeaux, French Ambassador in England (1653-1654) One Solved
+A letter of Antoine de Bordeaux (30 May 1653 NS; Add MS 4200, f.88; DECODE R8390) seems to be undeciphered.
+A letter addressed to him by Mazarin (22 June 1654; BnF, Melanges de Colbert 11, ff.479-481; DECODE R9482) uses a similar cipher. This was solved by George Lasry in 2025 by using the syllabic solver he developed. It turned out the cipher is differnt from the above.
+ See another article.
+Prince of Condé (1654)
+A letter from the Prince of Condé to Barriere, his agent in London, (15 September 1654 NS; Add MS 4200, f.98; DECODE R8395) seems to be undeciphered. A cipher used in 1655 is known but a different cipher may have been used in 1654. See another article. (Also, it is not clear whether the short ciphertext in f.101 (DECODE R8398) can be read with the known cipher. There is some chance it is in yet another cipher.)
+Colbert Correspondence (1665, 1673, 1674)
+Melanges de Colbert in BnF contains some undeciphered letters. Some can be read with a key reconstructed from other materials, but some still remain unsolved.
+Melanges de Colbert 172, f.23, is a letter from Louis Béthune, Duke of Charost (1673). A short paragraph is in an unidentified cipher.
+Melanges de Colbert 168bis, f.553, is a letter from the abbé de Gravel to Comte de Maulevrier (1674), and has short passages in cipher.
+Melanges de Colbert 127, f.349, has a few words in cipher (1665).
+See another article.
+Le Tellier-Castelnau Cipher (1657)
+A letter from Le Tellier to Marquis de Castelnau, dated 12 May 1657, appears to be undeciphered. My transcription is here. It may be a bit too short for cryptanalysis, but if the cipher has regular assignment of syllables as in some of Le Tellier's other ciphers, there may be a chance. See another article, where the original image is also available.
+English Civil War
+Ormonde-Maltravers Cipher (1634-1635)
+Calendar of the manuscripts of the Marquess of Ormonde, K.P., preserved at Kilkenny (Internet Archive), p.28, includes two letters partially in code from Lord Maltraverse (Wikipedia), MP in the Parliament of Ireland, to Ormonde in 1634-1635.
+Maltravers to Ormonde, 13 September 1634
+....
+My Lord of Kildare is long ago in England though I have not seen him, it is said he came over because he was 
+65 35 21 26 59 98 113 186 108 143 refused to see him because he brought no 
+28 69 49 50 70 44 89 from 
+186 99.
+Maltravers to Ormonde, 22 January 1634-5 [i.e., 1635]
+.... You desire to know what 
+93 185 95 hath written unto 
+99 149, concerning 
+98 10 44 79 47 8 59 for whom 
+270 thus hereafter of which I can give you no account of at all, only by what I hear it is like to go worser with him, rather than better, 
+95 186 98 hath written unto 
+98 218 97 much in praise of 
+100 174 103 in general, and particularly for his good carriage in 
+111 95 221 and upon his motion 
+93 31 174 99 is to be 
+64 99 11 79 85 35 12 69 28 29 79 44, in which courses 
+174 shall do well to continue.....
+The underlined occurrences "44 79" and "79 44" seem to indicate these are combinations of frequent letters. Many cipher sequences are delimited with 91-111, which may be nulls.
+An Unidentified Ormond-Arran Cipher (1678)
+The cipher in short undeciphered segments in a letter from Ormond to Arran, 24 January 1678 (vol.4, p.93), looks similar to other ciphers used by the Duke of Ormond and the Earl of Arran (see another article), but but seems different.
+If what he says of 445 and 342, be true 726 91 33 425 93 57
+384 54 700 720 but it seems 732 573 526 32 643 214
+55 440 . This is a trial whether you are skilful in deciphering,
+else it might have been written in plain letters.
+Charles I-Boswell Cipher (1643)
+Unsolved letters from Charles I to Boswell (2 November 1643) and Nicholas to Boswell (2 November 1643) are preserved in The National Archives (TNA). (The recipient may be Bosvil, Bothwell, or the like.) My provisional transcription is available on my blog.
+Letter of Richard Forster, possibly to Henrietta-Maria (1644)
+An undeciphered letter dated 13 May 1644 is found among papers of Sir Richard Forster, treasurer of Queen Henrietta-Maria's household, according to Karen Britland (2013), "Reading between the lines: royalist letters and encryption in the English civil wars", Critical Quarterly, vol.55 (4), pp.15-26. It is in the hand of Forster, and may have been addressed to Henrietta-Maria. The Queen had, leaving Oxford threatened by the parliamentarians, come to Exeter, where she would give birth to a girl in June before leaving for France. See my blog for a transcription.
+Ormonde-Clanricarde Cipher (1644) Solved
+A letter in cipher printed by Davys (1737) has been solved by the present author in 2011. The letter was one long known to historians. See another article.
+Private Cipher between Charles I and Henrietta-Maria (1645)
+While Charles I used various ciphers, a passage (8 April 1645) in the private cipher for use with the Queen appears to remain undeciphered. See another article.
+Charles I in the Isle of Wight (1648) Two of Four Solved
+Charles I's four letters in cipher during his captivity in the Isle of Wight (1648) remain undeciphered. See another article.
+In 2021, the cipher used in two of the four was solved by Norbert Biermann and Matthew Brown (see another article).
+Prince Rupert's Cipher with His Brother Maurice (1645)
+An encoded letter Prince Rupert received from his brother soon after the Battle of Naseby is printed in Memoirs of Prince Rupert, and the cavaliers by Eliot Warburton (Google), p.133 and appears to be unsolved.
+.... By your cipher, you may observe, that 15
+26 342 148 136 13 325 162 84 212 26 334 61
+340 199 39 328 353 149 49 329 26 351 397 150
+100 148 212 66 336 156 217 28 229 355 82 16
+15 194 229 214 84 324 131 293 252 355 150 293
+148 231 22 194 228 293 323 151 351. Garrison, 6
+15 148 64 229 354 37 323 217 41 398 373 150
+172 170 48 227 214 293 148 66 84 270 361. Accordingly, 151 244 229 149 213 324 239 274 185
+12 15.
+Maurice to Rupert, Worcester, 7 July 1645
+The highest number is 398. Considering that two-digit figures do not appear in succession, the code seems to be different from the ones Rupert used with Charles I or Nicholas at about the same time (see another article).
+Prince Maurice to Lord Digby (1645) Solved
+The British National Archives has an educational page that shows an image of a letter in cipher from Prince Maurice to Lord Digby dated 31 August 1645. Although it is not "unsolved" (see another article), it may be included here because the page encourages the reader to crack the code because "We don't know!" the content.
+An Intercepted Royalist Letter (1646)
+BL Add MS 72438 f. 9r (DECODE R8623) is an intercepted royalist letter from 21 May 1646, which I believe is not deciphered. The beginning is:
+My lord your Lo^p being not a little beholding to
+309 for y^e 500 44 66 24 21 107 195 155 212 well 32 66 25 155 151 12 38 35 26
+81 38 122 y^e 50 35 9 52 46 26 58 113 138 78 6 24 48 70 58 109 63 12 48 15 212 39 Messenger 50 333 3 207 communicate 226
+....
+An Intercepted Letter to Charles I (1646)
+BL Add MS 72438 f.10 (DECODE R8624) is an intercepted letter to Charles I, 13 May 1646, which I believe is not deciphered.
+A Letter to Prince Rupert (1648)
+BL Add MS 18982 f.134-135 (DECODE R8447) is a letter of William Craven, Baron Craven to Prince Rupert, The Hague, 6 November 1648. While most of the undeciphered ciphertexts in this volume can be read by using deciphered letters or with known keys, this seems to use some different cipher.
+Charles II to Duke of Hamilton (1650)
+Some passages in cipher in Charles II's letter to the Duke of Hamilton (1650) remain undeciphered. The key may be found in the collection of letters deciphered by John Wallis, deposited in the Bodleian Library, which includes royalist letters from this year. See another article.
+Charles II's Letter by Pseudonym (1655) Solved
+The cipher of Charles II's letter by a pseudonym J. Westrope was broken by Eric Sams and Julian Moore in 1977. The letter was one long known to historians. See another article.
+Undeciphered Superscription by Hyde (1659-1660)
+Some letters by Hyde in Brussels just before the Restoration have superscription in cipher (see another article). 
+Brussels, 29 September 1659
+212 23 12 7 461 36
+108 49 498 14 21 410
+Brussels, 17 October 1659
+729 549 705 99 856
+250 245 831 100 859
+609 858 101 24
+Brussels, 14 January 1660
+729 549 856
+21 245 831 99
+Brussels, 16 January 1660
+729 549 856 8 245 831
+Examples of superscription in clear in the same volume are "For Mr. Brookes" (p.313 in Latin edition), "For Mr. B" (p.335), "For Mr. Burges, these" (p.339), "For the Lord General Monk" (p.441), "For General Monk" (p.442). The undeciphered superscription will also indicate recipients. 729 may be "for."
+An Intercepted Letter of Hyde (1659)
+An intercepted letter of Edward Hyde dated 1 November 1659 (Add MS 4166, f.92-93 (DECODE R4886)) has some undeciphered portions. See another article.
+An Intercepted Letter
+Another short intercepted letter in Thurloe State Papers, vol.7 (British History Online), also has some undeciphered portions.
+Enciphered Passage about Princess Henriette's Words to 2nd Earl of Chesterfield (1659) Solved
+An enciphered passage in the memoirs of Philip Stanhope, 2nd Earl of Chesterfield, was kindly brought to my attention by Richard Merriman in 2022. Geoge Lasry solved it in an instant. See my blog.
+Intercepts by Commonwealth
+Dutch ciphers (1653)
+Thurloe State Papers include some undeciphered Dutch letters, for example: Beverning and Vande Perre to the Dutch ambassador Boreel at Paris, 1 September 1653 (NS). See another article.
+Intercepted Letters (1656)
+Thurloe State Papers include some undeciphered intercepted letters, for example:
+An intercepted letter of du Gard in a letter to White, Brussels, 10 June 1656 NS (British History Online)
+An intercepted letter, Brussels, 12 August 1656 NS (British History Online)
+An intercepted letter, from Jo. Waddall, 22 August 1656 (British History Online)
+French
+French Cipher to Ambassador in Constantinople (1690) Partially Solved
+Louis XIV's instructions in code to Castaignere, French ambassador in Constantinople, dated July-August 1690 are printed in Paul Rycaut, History of the Turks (Google), p.453 ff. This appears to be the letters John Davys deciphered around 1701 (see another article) but his deciphering is not known. The present author partially solved it (see another article).
+French Cipher to Ambassador in Rome (1690)
+Louis XIV's instructions in code to the Duke of Chaulnes, French ambassador in Rome, dated 10 July 1690, remain unsolved. See another article. While I was writing the relevant section therein, discussion started in Klausis Krypto Kolumne.
+French Cipher Unsolved by John Wallis (1690) Solved
+Harry Thompson, The Man in the Iron Mask prints in the appendix a letter in a French cipher that John Wallis could not solve (see another article). It is one of the letters from Louvois to Lauzun in Ireland (27 May 1690), written about a month before the Battle of the Boyne.
+Norbert Biermann solved this by finding the key in the archives in 2020.
+French Cipher Despatch received by General Catinat (1691)
+A coded letter of 1691 addressed to General Catinat appears to remain unsolved (see another article).
+French Ministers at Geertruidenberg (1710)
+BL Add MS 61575, f.38-41 (DECODE R8755) is an intercepted letter from the French foreign minister Torcy to French ministers sent to the peace talk at Geertruidenberg, dated 3 April 1710. This is endorsed "M Blencow cannot decypher them." See another article for a link to my transcription.
+Marshal Villars and Abbé de Polignac (1710)
+BL Add MS 61575, f.44 (DECODE R8756) is a copy of a letter from Marshal Villars to the Abbé de Polignac, dated 1 June 1710. The Abbé de Polignac was one of the French plenipotentiaries sent to the peace talk at Geertruidenberg. See another article for a link to my transcription.
+French Cipher Despatch of General Catinat (1702)
+A coded letter of 15 September 1702 written by Marshal Catinat remains unsolved (see another article).
+French Code during the American Revolutionary War (1779)
+An encoded letter from Admiral D'Estaing to Gerard, French minister in Philadelphia, dated 30 April 1779 is preserved in William L. Clements Library, Clinton Papers, "vol 64:14". British Commander Sir Henry Clinton forwarded this intercepted letter home in July.
+(The next item "vol 64:15" is a letter in clear from D'Estaing to Jean Holker from the same date in two copies, of which one is in André's hand.)
+A bord du Languedoc En rade du Fort Royal de la Martinique le 30 avril 1779
+Monsieur
+240 318 401 367 211 382 108 152 109 34 450 109 471
+541 525 113 511 262 321 382 402 56 393 482 110 152
+34 445 152 109 382 110 42 39 487 382 283 184 37
+208 401 240 113 235 20 213 401 334 137 374 262 410
+380 334 271 402 109 17 239 378 443 237 55 300 401
+450 109 471 55 301 283 455 284 152 113 235 21 240
+486 410 400 340 176 401 2 378 32 378 3 320 382
+401 237 382 56 301 235 450 507 72 367 492 346 382
+401 41 410 400 112 461 402 240 57 49 288 403 346
+295 79 213 401 146 402 429 262 285 65 138 403 109
+487 175 271 287 320 395 55 201 14 287 Je me flatte
+que j'aurai l'ordre ou la permission de suivre quoique plus
+tard le plan envoyée dans les chiffres de la lettre que j'ai eu
+l'honneur de vous ecrire le 9 de mars dernier, si ce la est
+65 367 492 37 382 401 237 53 450 114 320 382 322
+382 378 426 152 486 426 152 94 401 404 284 70
+443 575 112 230 57 319 235 36 208 300 284 401
+426 152 219 450 235 247 190 152 70 346 593 507
+346 597 410 380 109 471 340 190 380 283 110 410
+104 240 523 173 235 471 446 450 401 287 429 341
+327 137 401
+Monsieur de le Marquis de Bretigni que vous aviéz eu la bonté de m'annoncer n'est point arrivé, il paroit que les Americains se suffiront
+à eux mémes, pour repousser les Anglois de la
+Georgie, et qu'ils ne donneront pas le tems au zêle
+de leurs alliés de les y secourir. Cette partie est trop
+voisine des Espagnols pour qu'ils puissent voir avec
+Indifference ce que s'y passera.
+J'ay l'honneur d'etre avec Respect
+Monsieur
+Votre trés humble et trés obeissant serviteur
+Signed Estaing,
+The present author identified four French diplomatic codes in the same period (see another article) but none of them seems to decode this. The highest number used in this letter is 597, suggesting a smaller code than the diplomatic codes.
+A decoded, but not identified code of Luzerne, French minister to the United States, is presented on a blogpost.
+Miscellaneous
+William Perwich (1670)
+An undeciphered paragraph in a letter from William Perwich to Lord Arlington, Paris, 9 April 1670 NS appears to be in a transposition cipher, possibly one devised by Samuel Morland. My transcription is here. See my blog post.
+George Stepney to Earl of Manchester (1702)
+A short ciphertext in a letter from George Stepney to the Earl of Manchester, dated Vienna, 23 March 1702, preserved in the Manchester Papers, is not deciphered. (Some other undeciphered letters in the Manchester Papers can be read with the key (THE=454) preserved with them.)
+...
+836 468 445 242
+233 55 44 370 30 325 576 246
+388 380 but it is no fault of mine
+who both by word of mouth & by
+memorial have remonstrated of what
+Consequence it would be to have 
+418
+847 398 370 360 731 102 271 632
+412
+....
+"Logogriph" Left by Mathematician Euler (1744) Solved
+The breaking of a cryptogram left by the Swiss mathematician Leonhard Euler by Pierre Speziali (1953) and Hans Rohrbach (1973) are described in an article in Japanese.
+Cipher between James Madison and Philip Mazzei (1780) Solved
+There is a portion in cipher in a letter James Madison received from an Italian, Philip Mazzei. See another article.
+In 2015, when this page was mentioned in a German cryptology blog, Armin Krauss immediately responded with his solution. See another article.
+Patterson's Cipher for Jefferson (1802) Solved
+Patterson devised a new cipher system and sent Thomas Jefferson a challenge, which was deciphered in 2009 by Lawren M. Smithline. See another article.
+French (Napoleonic Age)
+Encoded Letter to Marshal Marmont (1807)
+An Encoded letter to Marshal Marmont in 1807 is reproduced in J. Vilcoq, "Le Chiffre sous le Premier Empire", Revue Historique de L'Armée No.4 (1969). It begins with "Vous avez du recevoir Monsieur le General Marmont mes lettres des 8.14 et 20 courant" and the rest is wholly in code. The code consists of two-digit figures as well as alphabetical letters and other symbols.
+Considering that Marmont used a relatively simple code of 150 entries in 1811 (see another article), this would not be a very complex system.
+Encoded Letter from Berthier to Napoleon (1812)
+An Encoded letter from Berthier to Napoleon dated 22 December 1812 is reproduced in J. Vilcoq, "Le Chiffre sous le Premier Empire", Revue Historique de L'Armée No.4 (1969). It begins with the following. See another article for Napoleonic ciphers that may be similar to this code. Considering that it bears a note: "Duplicata, Chiffre du Prince de Neufchâtel, La Primata a été déchiffrée", its decipherment may be found in some archives.
+918 1045 1100 493 359 989 1105 73 710 432 118 718 544 810 1060 1135 1122 173 666
+862 718 772 493 359 701 13 572 544 432 413 960 112 43 989 821
+791 1030 811 999 1153 820 918 1045 1100 415 1048 623 236 559 854
+946 851 168 854 1148 236 602 13 782 844 1238 356 69 823 803
+741 536 280 669 1051 215 314 498 434 402 1193 238 1178 10 711 1100
+1109 504 463 73 793 388 703 43 13 821 791 2 1135 1122 1087 566
+476 982 853 354 289 13 741 536 1063 710 1388 889 410 443 994
+1110 984 339 1184 752 707 370 13 1202 325 1038 1105 73 1187 168
+828 601 968 152 1178 1196 1030 1060 690 1104 1016 246 1096
+631 929 874 1015 2 1135 644 13 718 1003 235 215 498 921
+909 402 1086 409 507 1140 10 866 869 192 1115 854 711 960 90
+544 1111 683 713 669 69 918 215 972 426 142 745 1015 584 655
+285 497 637 81 1074 949 605 875 212 450 918 1043 340 607
+745 1045 803 919 380 838 918 86 752 29 507 1100 173 919 25 13
+599 734 809 388 918 86 790 772 1087 306 893 745 655 379
+683 498 320 318 331 1017 907 966 25 557 607 821 694 495
+928 1074 140 122 229 833 10 918 29 713 1111 609 1003
+192 822 875 168 854 1148 13 357 1104 1016 972 698 946 890
+706 521 186 210 2 752 679 235 215 989 409 653 10 918 694 972
+426 139 1188 1187 238 264 1096 586 1060 971 1068 1018 1111
+69 862 891 637 670 1003 460 73 798 770 421 637 895 90
+617 821 791 1198 497 749 322 168 923 971 131 463 73
+....
+Berthier to Napoleon, 22 December 1812
+American
+Postscript in Code from Armstrong to Madison (1808)
+A letter of 30 August 1808 from John Armstrong, US minister in France, to James Madison, secretary of state, has an undecoded postscript. The known plaintext of other letters may give a clue to its solution. See another article.
+Armstrong to Madison (1808)
+While most of letters from John Armstrong in Paris to Secretary of State James Madison use the same code, one from 20 February 1808 employs a unique code. While a solution has been claimed, I believe this still remains unsolved. See another article.
+Ciphers Left Unsolved by Edgar Allan Poe (1841) Solved
+In 1841, Edgar Allan Poe wrote a series of articles in a magazine, in which he solved simple ciphers sent by the reader. At the end of the series, Poe published two cryptograms sent by W. B. Tyler, which he did not solve. The first was solved independently by Terence Whalen (dissertation in 1991; published in 1994) and John Hodgson (1993), while the second was solved by Gil Broza in 2000. See another article.
+The "Decoding the Civil War" Project
+In 2016, the project "Decoding the Civil War" started to transcribe and decipher about 16,000 telegrams from The Thomas T. Eckert Papers. These papers belonged to Thomas T. Eckert, the head of the Union military telegraph office, and, though long thought to have been lost, were recently acquired by The Huntington Library. They include Union correspondence that has never been published. See another article for an overview of Civil War codes and ciphers.
+Union Ciphers during the Civil War (1862) Solved
+Indiana Memory Digital Collections has cipher telegrams to Brigadier General Robert H. Milroy. One is from J.D. Cox, dated 3 December 1862 (here), and another is from G.M. Bascom, dated 4 December 1861 (here).
+Probably, these employ a simple route transposition system. The context would be found in OR vol.24, around p.830 (see another article).
+These were solved by Richard Bean with the assistance of Claude Opus 5 in 2026 (see another article).
+A Dictionary Code between Confederate Generals: J.E. Johnston and Robert E. Lee (1862) Solved
+An encoded letter from J.E. Johnston to Robert E. Lee, dated 8 April 1862, is found at Civil War Day by Day. The image shows the recipient could not decode the message. Davidsch found the right dictionary, which led to the following reading (see another article).
+There are 45R1(cars) here for 174R16(one) 40M10(brigade). 228L33(Six) more to 108L13(follow). 250R18(Three) of them, 153R22(Long-) 239L29(-street) will 157R17(march). Can not the government 195R11(procure) 45R1(cars) for the 176M23(other) 250R18(three)? I hope enough for 174R14(one) 40M10(brigade) will 56L26(come) to-morrow. 
+A Dictionary Code Used by Confederate Navy during the Civil War (1863)
+An encoded letter from Lieutenant Barney, commanding CSS Harriet Lane, to Mallory, Secretary of State, remains unsolved. The dictionary is said to be a Webster (see another article).
+Barney to Mallory, 19 March 1863
+In my last of 9th instant by Lieutenant Warley I reported that General Magruder proposed to (177)-2-16- the (216)-1-15-(113)-3-85- in (29)-3-36-(23)-3-29. I am officially informed that (163)-1-34- will prevent (85)-3-14- from (115)-1-7-. As my previous suggestions are thus defeated, I presume the (262)-3-22- will not be kept in (54)-2-33, (215)-2-26 being entirely useless. I beg leave respectfully to suggest that being so near (149)-1-30-a (156)-1-8- the (163)-3-40 might be (213)-2-21-(10)-1-12-.
+...
+P.S. -- What shall be done with the (150)-3-12- sent from Richmond in case the above suggestion is carried out? Some might, if practicable, be sent (10)-1-12-.
+N.B. -- The second or middle figure indicates the column, 1st, 2d, or 3d.
+The highest page number in the message is 262 and the highest line (or entry) number is 85. The column is either 1, 2, or 3. While there are many dictionaries bearing the name of Webster (The Online Books Page), 3 columns and 85 lines (assuming the latter indicates an unmanipulated line number directly) almost limits the candidates to the unabridged with its most condensed format (for example, Webster's Handy Dictionary (1877) has three columns but only 64 lines). One may rather rely on the relative location of the coded words in the dictionary (see another article for illustration of such a method), with the help of the context found in OR Navy or other sources.
+Telegraphic Age
+Telegrams of First Canadian Prime Minister, John A. Macdonald (1873, 1879, 1881-1891) Solved
+The Canadian government used Slater's code (Telegraphic Code (1870) by Robert Slater). In 2021, Matthew Brown found more than a hundred encoded telegrams from John A. Macdonald, the first prime minister of Canada or people around him and succeeded in decoding most of them. Since Slater's code involves translating a word into a number and, after some manipulation of the number, translating it back into a different word, knowledge of the codebook is not sufficient to allow reading the telegrams in code. See another article for his codebreaking technique and the results.
+A Diplomatic Telegram from British Consulate in Africa (1911)
+An encoded telegram from the British consulate in Lüderitz (Wikipedia) (then German South-West Africa (Wikipedia)) to the Foreign Office in London is posted in Klausis Krypto Kolumne. It consists of 43 five-figure groups: "68195 71235 ...."
+Telegram to Sun Yat-sen (1916)
+An undecoded telegram to Sun Yat-sen (1916) is preserved in the Japanese archives. For the most part, it consists of ten-letter groups. It seems certain that the message was first encoded with a conventional Chinese telegraph codebook, and then two-digit figures were translated to two letters (consonant+vowel) with a code condenser.
+Another article presents two contemporary code condensers used by Junzaburo Yamada, who supported Sun Yat-sen, and also provides my decoding of Sun Yat-sen's telegrams, which were superenciphered by addition of 111 instead of using a code condenser.
+The Japanese found out the superencipherment, but it is not known whether they identified the code condenser. A clue may be found from the fact that the typical Chinese codebook at the time did not have the figures in the 9000s.
+3 April 1916, from Tanaka to Sun Yat-sen
+Twelve baxuxupeja
+qicijinati bemigasiqi
+jakebiqoye kufohemige
+tuxaboboba gedoeijiga
+poyevayoxa leyoleveke
+biromapesa vorobenife
+xikebiqoye qekufiyaqa
+tijaqixiqo xitohatula
+xopavajejo ropezpo
+ngobunibai tanaka
+(JACAR B03050738800)
+See my blog for my unsuccessful attempts with the known code condensers.
+Telegram from Huang Xing to Lin Hu and Li Genyuan (1916) Solved but Specific Scheme Unknown
+The Japanese archives preserves a telegram from Huang Xing to Lin Hu and Li Genyuan (1916). They were in exile in Japan, and opposing Yuan Shikai separately from Sun Yat-sen.
+The syllable structure is different from Sun Yat-sen's code condenser above. Actually, the syllables (no Cs or Ls, SHI, CHI instead of SI, TI) conform to the Japanese syllabary. There remains a possibility that the enciphering is something different from a code condenser.
+REKUTATA UHOYAKATE SEKANAOKU SAKEKINISE OSUKAKUCHI REUHONIUSU MAKASUSAKU FUREOHIHE YENIKIYEHI TAKASUREU SASHIKIHE WAONIAAHO SAYEHITE UHINAKUTA NEATEMUYE SUHEUHAKA YESOMIKANU TEASUUKU TSUHAKOSE KEKININAKI TEAKETASHI KONUOHIKE HIMIKANO SHIKUSAHE UHATAKASA KEKINIKA ATAREUSASU OSO YUA NIRA KISU
+(JACAR B03050731500)
+See my blog post.
+Japanese Coded Telegram Decoded by Yardley (c. 1920)
+It may be inaccurate to call this "unsolved" because it was probably solved by Yardley's Cipher Bureau at the time. It is printed in Yardley's The American Black Chamber (1931) p.251 as a typical example of Japanese displomatic code messages (though he does not say this was the first which he solved and demonstrated in the book). The sender appears to be Uchida Kosai, foreign minister from 29 September 1918 to 2 September 1923. See another article for various codes deciphered by Yardley and another article for details of one specific code dubbed Jp.
+Telegrams Found in a Sunken Ship Zhongshan (ca.1938)
+In 2008, the Zhongshan Warship Museum called for solution of encrypted telegrams found in SS Zhongshan, which was sunk by the Japanese bombing in 1938. As of 2009, 352 out of 891 were solved. I have not located the primary sources of these telegrams. See another article.
+A Telegram from Switzerland (1937)
+Two encrypted telegrams from Switzerland to London are uploaded to Klaus Schmeh's facebook page. The timestamp for both is "8 JAN 37." 
+Both telegrams begin with "BLUME SALAMANCA", followed by a sequence of five letter groups.
+While a codebook may have been used, it is pointed out that the index of coincidence (IC) matches that of English, pointing to a possibility of transposition. See my blog for a bit more.
+Enigma
+German Navy Enigma Messages (1942) Solved
+The German Enigma cipher during World War II was broken by the Allies but three unsolved messages intercpeted in 1942 were found. Two of them were solved by distributed computing of Stefan Krah's M4 Message Breaking Project in 2006 and the last was solved by Dan Girard in 2013. CNET carries Graeme Wearden's report in 2009.
+Another Enigma Message (1945)
+A photo(!) of an unsolved Enigma message sent on 10 January 1945 by a deputy of "Oberbefehlshaber Oberrhein" (Supreme Commander of Upper Rhine Area) (to which post Heinrich Himmler had been appointed in December 1944) is presented in Klausis Krypto Kolumne. This article also cites further works in recent years to break original Enigma messages from World War II. Another article of the blog reports reconstruction of Bombe.
+Others
+Zodiac Killer's Cipher Z340 (1969) Solved
+A serial killer known as Zodiac left four ciphertexts: Z408, Z340, Z13, and Z32 (so called because of the number of characters contained in each cryptogram). The first one, Z408, was broken in a week. Z13 and Z32 are too short to be 
+broken without any side channel information. Z340 has been attracting world-wide attention, but remained unsolved. In 2020, it was broken by David Oranchak, Sam Blake, and Jarl Van Eycke. See another article in Japanese.
+Running Key ChallengeSolved
+I created a challenge ciphertext in running key cipher. See the end of another article. It was solved by Matthew Brown in a short time. Since I'm interested in methods rather than solutions, if someonoe has an alternative approach, it will be welcome.
+References about DECODE
+Héder, M ; Megyesi, B. The DECODE Database of Historical Ciphers and Keys: Version 2. In: Dahlke, C; Megyesi, B (eds.) Proceedings of the 5th International Conference on Historical Cryptology HistoCrypt 2022. Linkoping, Sweden : LiU E-Press (2022) pp. 111-114. , 4 p. [pdf]
+Megyesi Beáta, Esslinger Bernhard, Fornés Alicia, Kopal Nils, Láng Benedek, Lasry George, Leeuw Karl de, Pettersson Eva, Wacker Arno, Waldispühl Michelle. Decryption of historical manuscripts: the DECRYPT project. CRYPTOLOGIA 44 : 6 pp. 545-559. , 15 p. (2020) [link]
+Megyesi, B., Blomqvist, N., and Pettersson, E. (2019) The DECODE Database: Collection of Historical Ciphers and Keys. In Proceedings of the 2nd International Conference on Historical Cryptology. HistoCrypt 2019, June 23-25, 2019, Mons, Belgium. NEALT Proceedings Series 37, Linköping Electronic Press. [pdf]
+©2015 S.Tomokiyo
+First posted on 11 January 2015. Last modified on 6 September 2026.
+Articles on Historical Cryptography
