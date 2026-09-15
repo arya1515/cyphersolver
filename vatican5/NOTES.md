@@ -87,3 +87,72 @@ left it unsolved.
 Remaining idea, untested: the fraction of the text that is nomenclature (arbitrary groups for words and
 names) may simply be too large for any statistical attack, in which case the cipher needs the key itself
 rather than cryptanalysis.
+
+## 2026-09-15, fourth attempt: the model class is now excluded by a matched control
+
+### A real structural finding first
+
+Italian words end in a vowel about 97% of the time, so word-final enrichment (final rate divided by
+overall rate) should separate vowel-bearing digits from consonant ones. Measured over the 481 segments
+delimited by the null 4:
+
+```
+  1: 1.79   7: 1.76   3: 1.52   0: 1.49  |  6: 1.01  |  9: 0.64   2: 0.58   5: 0.25   8: 0.08
+```
+
+Digit 8 ends a word at one twelfth of its overall rate; digits 1, 7, 3, 0 are all enriched. And the
+frequency masses of that split match Italian independently, to three decimals:
+
+| group | cipher mass | Italian target |
+|---|---|---|
+| {7, 0, 3, 1} | 0.476 | all five vowels, 0.479 |
+| {8, 5, 2, 6, 9} | 0.524 | all consonants, 0.521 |
+
+Two independent signals agreeing. **The vowel-bearing digits are {7, 0, 3, 1}.** This is the first
+positive structural result on the cipher beyond the null.
+
+### The constrained search, and why it still fails
+
+`vc.py` repeats the trigram partition search with vowels restricted to {7,0,3,1} and consonants to
+{8,5,2,6,9}, cutting the space from 9^21 to 4^5 x 5^16 and removing vowel/consonant confusions. 24 runs:
+still 24 different keys, mean Rand index against the best **0.861** where chance *in the same constrained
+space* is **0.799**. The runs do not even agree on which vowel sits on which digit.
+
+### The matched control settles it
+
+`vc_syn.py` builds a synthetic ciphertext with exactly the structure the real one is believed to have --
+real Italian plaintext, same 21-letter alphabet, same vowel/consonant digit split, same polyphony (16
+consonants over 5 digits), same null density, same length of 6553 digits -- and runs the identical search.
+
+```
+TRUE KEY   7=i 0=o 3=u 1=ae 8=cdgv  5=fhr 2=lst 6=bpq 9=mnz
+BEST RUN   7=i 0=o 3=u 1=ae 8=cdgvz 5=fhr 2=lst 6=bpq 9=mn
+```
+
+Recovery of the true key: **0.97** (one letter misplaced), and the search even beat the true key's own
+likelihood, so it found the optimum. Agreement between independent runs: 0.90. Replicated on a second
+seed: recovery 0.93, agreement 0.89.
+
+| | agreement between runs | recovers a key? |
+|---|---|---|
+| synthetic, same design | 0.90 | **yes, 0.97** |
+| real ciphertext | 0.86 (chance 0.80) | no |
+
+**So the method works at this polyphony, this length and this alphabet. The real ciphertext is therefore
+not a polyphonic single-digit substitution of Italian.** This is no longer "we could not find the key"; it
+is "no key of this kind exists to find".
+
+### Where that leaves it
+
+The word-final evidence says parts of the text behave like Italian letters with a vowel/consonant
+structure. The failure of every letter-level model says parts of it do not. The reading that fits both is a
+**mixed cipher**: polyphonic single digits for letters, interleaved with multi-digit groups for syllables,
+words and names, and no marking to say which is which. Only about 6% of positions carry dots, far too few
+to be the code markers, and the searches already exclude dotted contexts.
+
+That is precisely the construction no statistical attack can resolve, and it explains why Lasry, Megyesi
+and Kopal left this one unsolved while reading the rest of the collection. The route in is the key or a
+matching plaintext in the Farnese correspondence, not cryptanalysis.
+
+Reproduce: `python vc.py <seed>` (constrained search), `python vc_read.py consensus` (convergence),
+`python vc_syn.py <seed>` (the matched control).
