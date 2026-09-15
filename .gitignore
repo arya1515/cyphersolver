@@ -7,3 +7,20 @@ richelieu/run*.txt
 barney/candidates_gbooks.json
 __pycache__/
 *.pyc
+# vatican5: large derived data, run outputs, binaries
+vatican5/nb_*.txt
+vatican5/corpus_it.txt
+vatican5/*.json
+vatican5/*.bin
+vatican5/*.log
+vatican5/*.pdf
+vatican5/*.jpg
+vatican5/*.png
+vatican5/syn/
+vatican5/syn1/
+vatican5/native/*.exe
+vatican5/native/*.pdb
+vatican5/*.txt
+!vatican5/ASV_i1025_SdS_Spain_IA-2.txt
+!vatican5/ASV_i1025_SdS_Portugal_IA-1.txt
+!vatican5/meister_p176.txt
