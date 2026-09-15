@@ -98,3 +98,47 @@ or better than the real text.
 So the result is uninformative about the cipher and only shows the method needs a constraint (a fixed
 letter-count profile, or a near-bijection). It does, however, repeat the earlier finding: the real
 ciphertext scores no better than shuffles of its own symbols.
+
+## Final diagnostics (diag.py): language, periodicity, repetition
+
+Three more hypotheses tested, all negative, and together they close off the natural-language reading from
+every direction.
+
+**Plaintext language.** Best-case chi-squared against each candidate's letter frequencies (lower is
+better; English 196-letter samples have a median of 7.3):
+
+| plaintext model | fit |
+|---|---|
+| uniform over 10 symbols | **10.6** |
+| Latin | 18.8 |
+| French / Spanish | 20.9 |
+| Italian | 25.8 |
+| Russian transliterated | 33.9 |
+| English | 34.2 |
+| German | 37.9 |
+
+The distribution fits *a uniform draw over ten symbols* better than any natural language, and English is
+among the worst fits. Changing the assumed language does not rescue the cipher.
+
+**Periodicity.** Index of coincidence taken on every n-th cell, for periods 2 to 15, stays flat
+(0.054 to 0.086) with no peak. There is no periodic key, so a Vigenere-style or rotating-square
+construction is excluded.
+
+**Repetition.** Natural language of this length repeats itself; this text does not.
+
+| | challenge | English, 196 letters |
+|---|---|---|
+| repeated 3-grams | **5** | 16.8 |
+| repeated 4-grams | **0** | 6.6 |
+
+## Overall
+
+Five independent lines now agree: the frequency profile (order-independent, so it survives any
+transposition), the absence of a transposition signal, the absence of periodicity, repetition far below
+natural language at every n-gram length, and the failure of the book's own null rule at every period and
+offset. The cell sequence behaves like a near-uniform random sequence.
+
+For an elementary 1939 textbook cipher whose author admitted he could no longer decipher it and quietly
+dropped it from later editions, the economical conclusion is that the encipherment was botched and there is
+no recoverable plaintext. That is not a proof, and it cannot be one; but every test that would show a
+signal shows none.
