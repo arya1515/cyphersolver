@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Chinese gold bar cryptograms (1933) — not a cipher at all</title>
+<meta name="description" content="The Latin-letter cryptograms stamped on seven gold bars said to have been issued in Shanghai in 1933 contain almost exactly ten of every letter of the alphabet. That is about a trillion times too uniform to be an encryption of natural language. The inscriptions were constructed, not enciphered.">
+<link rel="stylesheet" href="style.css?v=20260915c">
+<style>
+.freqchart{width:100%;max-width:760px;height:auto;color:var(--ink);margin:1rem 0;display:block}
+.cg{font-family:var(--mono);font-size:.84rem;line-height:1.85;color:var(--gold2,#e7c87a);word-break:break-all}
+.kt{font-family:var(--mono);font-size:.82rem;border-collapse:collapse;margin:.6rem 0 1rem;width:auto}
+.kt th,.kt td{border:1px solid var(--rule);padding:.25rem .6rem;text-align:left}
+.kt th{background:rgba(255,255,255,.05)}
+.kt td.num{text-align:right}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="richelieu.html">Richelieu 1629</a>
+    <a href="ormonde.html">Ormonde 1634</a>
+    <a href="hyde.html">Hyde 1659</a>
+    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
+    <a href="huangxing.html">Huang Xing 1916</a>
+    <a href="goldbar.html" class="active">Gold bars 1933</a>
+    <a href="famous.html">The famous ones</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">MQOLCSJTLGAJOKBSSBOMUPCE<br>FEWGDRHDDEEUMFFTEEMJXZR<br>ZUQUPNZN &middot; VIOHIKNNGUAB</div>
+  <p class="kicker">Shanghai &middot; 1933 &middot; famous unsolved &middot; resolved</p>
+  <h1>The Chinese gold bar cryptograms</h1>
+  <p class="sub">Seven bars said to certify a deposit of $300,000,000, stamped with sixteen strings of Latin letters that nobody has read in ninety years</p>
+  <p class="sub">They have not been read because there is nothing to read. The letters were dealt out, not enciphered.</p>
+  <p class="meta">Daniel Bourdeau &middot; September 2026</p>
+</section>
+
+<main>
+
+<div class="callout">
+<strong>Summary.</strong> The sixteen inscriptions hold 263 letters between them, and they contain <em>almost exactly ten of every letter of the
+alphabet</em> &mdash; twenty-one of the twenty-six appear exactly ten times. Measured against a uniform distribution the chi-squared statistic is
+<strong>1.25 on 25 degrees of freedom, where random sampling predicts 25</strong>. That is a one-in-a-trillion level of over-uniformity, and it is
+not something any encryption can produce: substitution and transposition both preserve the plaintext&rsquo;s frequency skew, and even a one-time pad
+is still random sampling and lands near 25. Somebody laid out ten of each letter and arranged them to look like cryptograms.
+<em>Status: resolved as a construction, not a cipher. There is no message.</em>
+</div>
+
+<h2 id="object"><span class="num">01</span> The object</h2>
+<p>The story, as Kevin McCurley set it down for the IACR in 1996, is that seven gold bars were issued to a &ldquo;General Wang&rdquo; in Shanghai in
+1933, functioning as metal certificates against a deposit with an American bank. The Chinese text on them describes a transaction of more than
+$300,000,000 and gives the bars&rsquo; combined weight as 1.8 kilograms. A dispute over the claim was live at the time, and McCurley published the
+photographs in the hope that reading the cryptograms would help settle it.</p>
+
+<figure><img src="goldbar_bar.jpg" alt="A gold bar stamped with USA, the figure 300000000, two portraits, and rows of Latin-letter cryptograms">
+<figcaption>One of the bars (IACR, 1996). The cryptograms are stamped around the portraits, above and below the figure 300000000.</figcaption></figure>
+
+<p>Elonka Dunin has carried the item on her list of famous unsolved codes ever since. In 2020 she reached the attorney named on the IACR page, who
+confirmed he had seen the bars, described them as about the size of a remote control, and said the banks had not treated the claim as legitimate;
+his file was closed. Others have noted that the aircraft depicted on the bars is a model that did not fly until 1934 or 1935, after the date the
+bars claim for themselves.</p>
+
+<h2 id="corpus"><span class="num">02</span> The sixteen cryptograms</h2>
+<p>The same strings recur across the bars, which is what first suggested they were meaningful. In full, longest first:</p>
+<p class="cg">SKCDKJCDJCYQSZKTZJPXPWIRN<br>MQOLCSJTLGAJOKBSSBOMUPCE<br>RHZVIYQIYSXVNQXQWIOVWPJO<br>FEWGDRHDDEEUMFFTEEMJXZR<br>XLYPISNANIRUSFTFWMIY<br>HFXPCQYZVATXAWIZPVE<br>YQHUDTABGALLOWLS<br>UGMNCBXCFLDBEY<br>ABRYCTUGVZXUPB<br>JKGFIJPMCWSAEK<br>KOWVRSRKWTMLDH<br>HLMTAHGBGFNIV<br>MVERZRLQDBHQ<br>VIOHIKNNGUAB<br>GKJFHYXODIE<br>ZUQUPNZN</p>
+<p class="muted">263 letters in all. McCurley noted at the time that &ldquo;some of the letters are hard to read so there may be inaccuracies&rdquo;,
+which matters below.</p>
+
+<h2 id="finding"><span class="num">03</span> Ten of everything</h2>
+<p>Count the letters and the answer arrives immediately.</p>
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" class="freqchart" role="img" aria-label="Letter counts on the gold bars are almost perfectly uniform, unlike English">
+<line x1="34" y1="266" x2="726" y2="266" stroke="currentColor" stroke-opacity=".35"/>
+<line x1="34" y1="199.5" x2="726" y2="199.5" stroke="#6fd39a" stroke-dasharray="4 4" stroke-opacity=".9"/>
+<text x="728" y="203.5" font-size="10" fill="#6fd39a">10</text>
+<rect x="35.0" y="123.2" width="24.6" height="142.8" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="39.9" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="47.3" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">A</text>
+<rect x="61.6" y="243.5" width="24.6" height="22.5" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="66.5" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="73.9" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">B</text>
+<rect x="88.2" y="217.4" width="24.6" height="48.6" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="93.1" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="100.5" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">C</text>
+<rect x="114.8" y="191.7" width="24.6" height="74.3" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="119.7" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="127.2" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">D</text>
+<rect x="141.5" y="44.0" width="24.6" height="222.0" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="146.3" y="192.9" width="14.9" height="73.1" fill="#d9ac52"/>
+<text x="153.8" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">E</text>
+<rect x="168.1" y="227.0" width="24.6" height="39.0" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="172.9" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="180.4" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">F</text>
+<rect x="194.7" y="230.7" width="24.6" height="35.3" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="199.5" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="207.0" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">G</text>
+<rect x="221.3" y="159.5" width="24.6" height="106.5" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="226.2" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="233.6" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">H</text>
+<rect x="247.9" y="144.2" width="24.6" height="121.8" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="252.8" y="179.6" width="14.9" height="86.4" fill="#d9ac52"/>
+<text x="260.2" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">I</text>
+<rect x="274.5" y="263.4" width="24.6" height="2.6" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="279.4" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="286.8" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">J</text>
+<rect x="301.2" y="252.5" width="24.6" height="13.5" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="306.0" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="313.5" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">K</text>
+<rect x="327.8" y="195.6" width="24.6" height="70.4" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="332.6" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="340.1" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">L</text>
+<rect x="354.4" y="223.9" width="24.6" height="42.1" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="359.2" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="366.7" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">M</text>
+<rect x="381.0" y="148.0" width="24.6" height="118.0" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="385.9" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="393.3" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">N</text>
+<rect x="407.6" y="134.7" width="24.6" height="131.3" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="412.5" y="206.2" width="14.9" height="59.8" fill="#d9ac52"/>
+<text x="419.9" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">O</text>
+<rect x="434.2" y="232.3" width="24.6" height="33.7" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="439.1" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="446.5" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">P</text>
+<rect x="460.8" y="264.3" width="24.6" height="1.7" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="465.7" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="473.2" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">Q</text>
+<rect x="487.5" y="161.3" width="24.6" height="104.7" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="492.3" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="499.8" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">R</text>
+<rect x="514.1" y="155.3" width="24.6" height="110.7" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="518.9" y="192.9" width="14.9" height="73.1" fill="#d9ac52"/>
+<text x="526.4" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">S</text>
+<rect x="540.7" y="107.6" width="24.6" height="158.4" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="545.5" y="206.2" width="14.9" height="59.8" fill="#d9ac52"/>
+<text x="553.0" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">T</text>
+<rect x="567.3" y="217.8" width="24.6" height="48.2" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="572.2" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="579.6" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">U</text>
+<rect x="593.9" y="248.9" width="24.6" height="17.1" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="598.8" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="606.2" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">V</text>
+<rect x="620.5" y="224.7" width="24.6" height="41.3" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="625.4" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="632.8" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">W</text>
+<rect x="647.2" y="263.4" width="24.6" height="2.6" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="652.0" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="659.5" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">X</text>
+<rect x="673.8" y="231.6" width="24.6" height="34.4" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="678.6" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="686.1" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">Y</text>
+<rect x="700.4" y="264.8" width="24.6" height="1.2" fill="#ff8d7e" fill-opacity=".28"/>
+<rect x="705.2" y="199.5" width="14.9" height="66.5" fill="#d9ac52"/>
+<text x="712.7" y="279.0" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".7">Z</text>
+<text x="34" y="16" font-size="11" fill="#d9ac52">gold bar letter counts</text>
+<text x="204" y="16" font-size="11" fill="#ff8d7e" fill-opacity=".85">what English would give</text>
+</svg>
+<p>Gold is the observed count for each letter; the pale red behind it is what 263 letters of English would give. English towers at E and falls away
+to nothing at Z. The bars do neither. Twenty-one of the twenty-six letters occur <em>exactly</em> ten times, and the five that do not are off by one,
+except I which is off by three:</p>
+
+<table class="kt">
+<tr><th>letter</th><th class="num">count</th><th>letter</th><th class="num">count</th></tr>
+<tr><td>E</td><td class="num">11</td><td>O</td><td class="num">9</td></tr>
+<tr><td>I</td><td class="num">13</td><td>T</td><td class="num">9</td></tr>
+<tr><td>S</td><td class="num">11</td><td>all other 21 letters</td><td class="num">10</td></tr>
+</table>
+
+<p>Ten of each would be 260 letters exactly; the transcription gives 263. Given McCurley&rsquo;s warning about legibility, the most economical reading
+is that the bars carry precisely ten of every letter and the handful of deviations are misreadings of worn stamping.</p>
+
+<h2 id="why"><span class="num">04</span> Why no cipher can do that</h2>
+<table class="kt">
+<tr><th>test</th><th>value</th></tr>
+<tr><td>index of coincidence</td><td>0.0350 &nbsp; <span class="muted">(English 0.0667, random 0.0385)</span></td></tr>
+<tr><td>chi-squared against uniform, 25 df</td><td><b>1.251</b> &nbsp; <span class="muted">(random sampling predicts 25)</span></td></tr>
+<tr><td>P(chi-squared &le; 1.251)</td><td><b>9.3 &times; 10<sup>&minus;13</sup></b> &nbsp; <span class="muted">about 1 in a trillion</span></td></tr>
+<tr><td>chi-squared against English letter frequencies</td><td>1488</td></tr>
+<tr><td>random 263-letter strings at least this uniform, out of 200,000</td><td><b>0</b></td></tr>
+</table>
+
+<p>The point that does the work is not that the distribution is flat. It is that the distribution is flat <em>beyond what randomness allows</em>.
+Take the candidates in turn:</p>
+<ul>
+<li><b>Simple substitution</b> renames letters but cannot change how often they occur, so it preserves the plaintext&rsquo;s skew. Index of
+coincidence stays near 0.066.</li>
+<li><b>Any transposition</b> reorders letters and leaves the counts completely untouched.</li>
+<li><b>A short-key Vigen&egrave;re</b> flattens partway, to roughly 0.045, and leaves periodic structure behind.</li>
+<li><b>A long key, or a one-time pad</b>, does reach a flat expectation &mdash; but it gets there by random sampling, and random sampling is noisy.
+Draw 263 letters uniformly and the counts scatter with a standard deviation near 3.1, so you expect a spread from about 4 to 16 and a chi-squared
+near 25. Twenty-one letters landing on exactly ten is not what randomness looks like.</li>
+</ul>
+<p>Only deliberate construction produces it. And once the letters were dealt out, the arrangement into sixteen strings looks unconsidered: there are
+71 places where a letter repeats inside a string, against 65.6 expected when the same pool of letters is shuffled at random into the same lengths.
+Somebody counted out ten of each letter and distributed them.</p>
+
+<h2 id="meaning"><span class="num">05</span> What it means</h2>
+<p>The inscriptions are decorative filler, made to look like cryptography on an object whose purpose was to look like a security. That sits with
+everything else known about the bars: an aircraft that had not yet been built on a bar dated 1933, banks that declined the claim, and a legal file
+closed without resolution.</p>
+<p>The honest conclusion is that the item should move off the unsolved-cipher lists, not because it has been read but because there is no message in
+it. Ninety years of failure to decipher these strings has a simple explanation, and it is the one the statistics force.</p>
+<p class="muted">Caveat worth stating: this is an argument about the transcription published by the IACR in 1996, which its author flagged as
+imperfect. It would be worth re-reading the letters from the original photographs at higher resolution. But the deviations would have to be far
+larger than a few misread characters to disturb the result &mdash; the uniformity is not marginal, it is off the scale.</p>
+
+<h2 id="sources"><span class="num">06</span> Sources</h2>
+<ul>
+<li>Kevin McCurley, <a href="https://www.iacr.org/misc/china/">&ldquo;Cryptograms on Gold bars from China&rdquo;</a>, IACR, 1996, and the
+<a href="https://www.iacr.org/misc/china/cryptograms.html">compiled cryptograms</a>. Photographs reproduced from that page.</li>
+<li>Elonka Dunin, <a href="https://elonka.com/UnsolvedCodes.html">list of famous unsolved codes</a>, including her 2020 update.</li>
+<li>Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/02/11/the-top-50-unsolved-encrypted-messages-49-the-chinese-goldbar-cryptogram/">&ldquo;The Top 50 unsolved encrypted messages: 49. The Chinese goldbar cryptogram&rdquo;</a>, 2017, where a commenter first noticed the ten-of-each pattern.</li>
+<li>Reproduce with <code>goldbar/analyse.py</code> in the repository.</li>
+</ul>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Bar photographs from the IACR</span>
+  <nav><a href="index.html">Overview</a><a href="https://elonka.com/UnsolvedCodes.html">Elonka's list &#8599;</a></nav>
+</div></footer>
+<script src="site.js?v=20260915c"></script>
+</body>
+</html>

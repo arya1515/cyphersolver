@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The famous unsolved ciphers — why they resist</title>
+<meta name="description" content="A survey of the famous unsolved codes and ciphers on Elonka Dunin's list, sorted by the reason each one resists: undeciphered writing systems that are not ciphers at all, messages that are information-theoretically secure, texts too short for any solution to be provable, objects that were probably never enciphered, and the small number that are genuinely open.">
+<link rel="stylesheet" href="style.css?v=20260915c">
+<style>
+.why{display:inline-block;padding:.08em .55em;border-radius:6px;font-family:var(--mono);font-size:.7rem;
+  letter-spacing:.05em;white-space:nowrap;border:1px solid transparent;vertical-align:middle}
+.w-lang{background:rgba(180,160,255,.14);color:#b9a8ff;border-color:rgba(185,168,255,.4)}
+.w-otp{background:var(--red-bg);color:var(--red);border-color:rgba(255,141,126,.35)}
+.w-short{background:var(--amber-bg);color:var(--amber);border-color:rgba(236,194,90,.35)}
+.w-fake{background:var(--grey-bg);color:var(--muted);border-color:var(--rule)}
+.w-open{background:var(--green-bg);color:var(--green);border-color:rgba(111,211,154,.35)}
+.item{border-left:2px solid var(--rule);padding:.1rem 0 .1rem 1rem;margin:1.5rem 0}
+.item h3{margin:.1rem 0 .45rem}
+.item .meta2{font-family:var(--mono);font-size:.74rem;color:var(--muted);letter-spacing:.04em;margin-bottom:.5rem}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="famous.html" class="active">The famous ones</a>
+    <a href="goldbar.html">Gold bars 1933</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="huangxing.html">Huang Xing 1916</a>
+    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">OBKR UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO<br>?????? &middot; Linear A &middot; Voynich &middot; Z13<br>27 five-letter groups, one pigeon</div>
+  <p class="kicker">A survey &middot; September 2026</p>
+  <h1>The famous ones, and why they resist</h1>
+  <p class="sub">Kryptos, Voynich, Dorabella, Beale, Linear A, the Phaistos disc, the pigeon message, the Shanghai gold bars &mdash; the
+  celebrated unsolved ciphers, sorted by the actual reason each has held out</p>
+  <p class="meta">Daniel Bourdeau &middot; based on <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin&rsquo;s list</a></p>
+</section>
+
+<main>
+
+<div class="callout">
+<strong>The short version.</strong> The famous unsolved ciphers are famous for very different reasons, and lumping them together as one kind of
+puzzle is the main obstacle to thinking clearly about them. Sorted honestly, most of the list is not waiting for a cleverer cryptanalyst at all.
+Some are undeciphered <em>writing systems</em>, which is a problem for linguistics. One is information-theoretically secure and will never be read.
+Several are too short for any proposed answer to be provable, so they can be guessed but not solved. At least two were probably never enciphered in
+the first place. That leaves a handful genuinely open &mdash; and they tend to be the ones nobody has heard of.
+</div>
+
+<h2 id="taxonomy"><span class="num">01</span> Five reasons a cipher stays unsolved</h2>
+<table>
+<tr><th>category</th><th>what it means</th><th>can effort help?</th></tr>
+<tr><td><span class="why w-lang">not a cipher</span></td><td>An undeciphered script. Nothing is concealed; the language or the sign values are simply lost.</td><td>Only more text, or a bilingual.</td></tr>
+<tr><td><span class="why w-otp">unbreakable</span></td><td>A one-time pad or an unrecoverable codebook. The information is not present in the ciphertext.</td><td>No. Not ever.</td></tr>
+<tr><td><span class="why w-short">unprovable</span></td><td>Real encipherment, but so short that many readings fit and none can be demonstrated.</td><td>Rarely. A solution would need outside confirmation.</td></tr>
+<tr><td><span class="why w-fake">no message</span></td><td>Constructed to look like a cipher. There is nothing inside.</td><td>Only to prove the negative.</td></tr>
+<tr><td><span class="why w-open">open</span></td><td>A genuine cipher, of workable length, where the method is plausibly recoverable.</td><td>Yes.</td></tr>
+</table>
+
+<h2 id="notciphers"><span class="num">02</span> Not ciphers at all</h2>
+<p>Four of the best-known entries are undeciphered writing systems. A cipher hides a message someone intended you not to read; a lost script is a
+message someone very much wanted read, whose readers have all died. The techniques do not transfer, and a cryptanalyst has no special advantage.</p>
+
+<div class="item">
+<h3>Linear A <span class="why w-lang">not a cipher</span></h3>
+<div class="meta2">Crete &middot; c.1800 BC &middot; about 1,400 inscriptions</div>
+<p>Michael Ventris broke Linear B in 1952, and the reason he could is instructive: the underlying language turned out to be Greek, a language already
+known in detail. Linear A uses a closely related script but records a different language, with no surviving relative and no bilingual text. The signs
+can even be given probable sound values by carrying them over from Linear B &mdash; and the result is still unreadable, because nobody knows what the
+words mean. That is the exact opposite of a cipher problem.</p>
+</div>
+
+<div class="item">
+<h3>The Phaistos disc <span class="why w-lang">not a cipher</span></h3>
+<div class="meta2">Crete &middot; c.1800 BC &middot; 241 signs, 45 distinct, one object</div>
+<p>Stamped with movable type, which makes it remarkable, and unique, which makes it hopeless. A corpus of one object a few hundred signs long cannot
+support a decipherment: there is no way to test a proposed reading against anything. Claimed solutions appear regularly and none can be checked.
+Its best prospect was always that it might serve as a crib for Linear A, which has not happened.</p>
+</div>
+
+<div class="item">
+<h3>The Indus script <span class="why w-lang">not a cipher</span></h3>
+<div class="meta2">Indus valley &middot; c.2600&ndash;1800 BC &middot; thousands of objects, about 400 signs</div>
+<p>There is plenty of material, but the inscriptions average around five signs and the longest known is seventeen. With no bilingual, no known
+descendant language and texts that short, the field cannot even settle whether the script encodes speech at all or functions as a system of marks.
+That question has to be answered before decipherment can start.</p>
+</div>
+
+<div class="item">
+<h3>Rongorongo, and the Etruscan, Proto-Elamite and Meroitic corpora <span class="why w-lang">not a cipher</span></h3>
+<div class="meta2">Easter Island and elsewhere &middot; various</div>
+<p>Meroitic is the clearest illustration of the distinction. Its script was deciphered over a century ago, so the texts can be read aloud with
+confidence &mdash; and still nobody knows what they say, because the language has no established relatives. Sound values without meaning is a
+condition no amount of cryptanalysis improves.</p>
+</div>
+
+<h2 id="unbreakable"><span class="num">03</span> Unbreakable, in the strict sense</h2>
+
+<div class="item">
+<h3>The Bletchingley pigeon message <span class="why w-otp">unbreakable</span></h3>
+<div class="meta2">Surrey &middot; found 2012, sent c.1942 &middot; 27 five-letter groups</div>
+<p>Found in a chimney attached to the leg bone of a carrier pigeon. GCHQ examined it and concluded it was almost certainly enciphered with a one-time
+pad. If that is right the message is not hard to read, it is impossible: a one-time pad of the same length as the message makes every plaintext of
+that length equally consistent with the ciphertext, so the information is absent from the object rather than hidden in it. Only the pad itself, or
+the original plaintext, could recover it, and both are gone.</p>
+</div>
+
+<div class="item">
+<h3>The L&uuml;deritz consular telegram <span class="why w-otp">unbreakable</span></h3>
+<div class="meta2">German South-West Africa &middot; 1911 &middot; 43 five-figure groups</div>
+<p>Not famous, but it belongs here. A British Foreign Office codebook cipher of 43 groups. Without the codebook there is no attack, because the
+groups are arbitrary labels rather than transformations of letters. This is the ordinary fate of code, as distinct from cipher: it is defeated by
+archives, not by analysis.</p>
+</div>
+
+<h2 id="tooshort"><span class="num">04</span> Real ciphers, too short to prove</h2>
+
+<div class="item">
+<h3>The Dorabella cipher <span class="why w-short">unprovable</span></h3>
+<div class="meta2">Edward Elgar to Dora Penny &middot; 1897 &middot; 87 symbols</div>
+<p>Eighty-seven characters drawn from an alphabet of 24 squiggles. Elgar was fond of wordplay and the note was personal, so the plaintext may well be
+allusive, misspelled or private &mdash; which removes the statistical regularities a solution would be tested against. Many readings have been
+proposed and all of them are the kind of thing that fits 87 characters if you look hard enough. Barring a second document in the same system, the
+honest status is not "unsolved" but "unprovable".</p>
+</div>
+
+<div class="item">
+<h3>Kryptos, passage K4 <span class="why w-short">unprovable</span></h3>
+<div class="meta2">CIA headquarters, Langley &middot; 1990 &middot; 97 characters</div>
+<p>The most attacked 97 characters in the world, worked on continuously since 1990 by a large and organised community, with three published cribs
+released by the sculptor himself. Short, and deliberately irregular: Jim Sanborn has confirmed the earlier passages contain intentional misspellings,
+so ordinary language statistics are unreliable. In 2025 Sanborn put the solution up for private sale, which ends it as a public challenge whatever
+happens to the ciphertext.</p>
+</div>
+
+<div class="item">
+<h3>The D&rsquo;Agapeyeff cipher <span class="why w-short">unprovable</span></h3>
+<div class="meta2">London &middot; 1939 &middot; 196 Polybius cells</div>
+<p>The one on this list we have examined closely, and the results are worth stating. The structure is not in doubt: 392 usable digits form 196 pairs,
+the first digit of every pair from {6,7,8,9,0} and the second from {1,2,3,4,5}, which is the 5&times;5 Polybius square D&rsquo;Agapeyeff teaches in
+his own book. His book also contains a <em>worked</em> Polybius example with the plaintext supplied &mdash; a perfect control, same author, same
+method, known answer.</p>
+<p>Run identical tests on both and they separate sharply. The control matches English almost exactly: best-case chi-squared against English letter
+frequencies 4.2, and repeated digrams 3.6 standard deviations above a random shuffle of its own symbols, dead on the English level. The challenge
+fails both: chi-squared 34.1, and digram repetition slightly <em>below</em> random. Calibrated against 3,000 real English samples of the same
+length, none was as frequency-flat as the challenge and none used as few distinct cells. That test does not depend on the order of the text, so it
+holds whatever transposition might have been applied &mdash; and a substitution-invariant search for a transposition scores no better on the cipher
+than on random shuffles of its own letters.</p>
+<p>So the ciphertext does not carry the signature of English enciphered by the method the book teaches. D&rsquo;Agapeyeff later admitted he could no
+longer decipher it himself, and dropped it from subsequent editions. The most economical reading is that he botched the encipherment.</p>
+</div>
+
+<h2 id="nomessage"><span class="num">05</span> Probably no message at all</h2>
+
+<div class="item">
+<h3>The Chinese gold bar cryptograms <span class="why w-fake">no message</span> &mdash; <a href="goldbar.html">full write-up</a></h3>
+<div class="meta2">Shanghai &middot; 1933 &middot; 16 strings, 263 letters</div>
+<p>Settled, and cleanly. The 263 letters contain almost exactly ten of every letter of the alphabet &mdash; 21 of the 26 appear exactly ten times.
+Chi-squared against a uniform distribution is 1.25 on 25 degrees of freedom where random sampling predicts 25, a one-in-a-trillion level of
+over-uniformity, and none of 200,000 simulated random strings came close. No encryption does this: substitution and transposition preserve the
+plaintext&rsquo;s skew, and a one-time pad is still random sampling and lands near 25. Somebody counted out ten of each letter and arranged them to
+look like cryptography.</p>
+</div>
+
+<div class="item">
+<h3>The Beale papers <span class="why w-fake">no message</span></h3>
+<div class="meta2">Virginia &middot; published 1885 &middot; three papers, one solved</div>
+<p>Paper 2 genuinely decodes against the Declaration of Independence and describes a buried fortune. Papers 1 and 3 do not decode against anything.
+Testing paper 1 against the English-language Gutenberg corpus as a book cipher produced no key text, and its number choices do not behave like an
+encoding: its letter statistics through the Declaration are indistinguishable from random picks, where paper 2 stands 16 standard deviations clear,
+and it shows none of the repeated-number structure that a real encoding leaves. Add the anachronistic vocabulary in the pamphlet&rsquo;s "1822"
+letters, long ago identified by Jean Nickell, and the sensible conclusion is that paper 2 was built as bait and the other two were filled in.</p>
+</div>
+
+<div class="item">
+<h3>The Voynich manuscript <span class="why w-fake">no message?</span></h3>
+<div class="meta2">c.1420, radiocarbon dated &middot; about 240 pages</div>
+<p>The most-studied unsolved text in existence, and the only one on this list where the category is genuinely contested. The manuscript is old and
+the parchment is real. But the script behaves oddly for a natural language: word structure is unusually rigid, words repeat adjacent to themselves far
+more than any known language allows, and the statistics differ measurably between sections. Six centuries of attention by linguists, cryptanalysts and
+computational methods have produced no key and no reading that survives scrutiny. That is not proof of meaninglessness &mdash; a constructed language
+or a glossolalic text would look much like this &mdash; but the weight of evidence has moved a long way from "cipher awaiting a cryptanalyst".</p>
+</div>
+
+<h2 id="open"><span class="num">06</span> Genuinely open</h2>
+<p>Almost everything worth attacking on the famous list has been attacked to exhaustion. The items where effort still pays are elsewhere: archival
+ciphers of ordinary length, where a key survives in a collection nobody has connected to the ciphertext, or where the method is recoverable because
+the correspondents were not very good at this. Four entries on the <a href="index.html#queue">working list</a> have fallen that way in this project
+&mdash; a Richelieu letter whose decipherment had sat in print since 1858, a Madison-era diplomatic postscript readable once the State
+Department&rsquo;s own code was rebuilt from its pencil annotations, and two Chinese telegrams of 1916.</p>
+<p>The lesson the famous list teaches, read properly, is that fame is a poor guide to tractability. An unsolved cipher is usually unsolved for a
+structural reason, and the reason is usually visible in the statistics before any attempt at a solution.</p>
+
+<h2 id="sources"><span class="num">07</span> Sources</h2>
+<ul>
+<li><a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin, list of famous unsolved codes and ciphers</a>, the reference list for this survey.</li>
+<li>Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/">Klausis Krypto Kolumne</a>, for the top-50 series and the gold bar discussion.</li>
+<li>Working notes and reproducible code for the items examined here: <code>goldbar/</code>, <code>dagapeyeff/</code> and <code>beale/</code> in the repository.</li>
+</ul>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav><a href="index.html">Overview</a><a href="goldbar.html">Gold bars 1933</a><a href="https://elonka.com/UnsolvedCodes.html">Elonka's list &#8599;</a></nav>
+</div></footer>
+<script src="site.js?v=20260915c"></script>
+</body>
+</html>
