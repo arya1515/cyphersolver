@@ -496,3 +496,118 @@ placement, the number of codes) are guesses, so the mismatch is suggestive rathe
 it does establish is that the syllabic layer alone cannot account for this text, which is a further
 reason no statistical attack will read it - nomenclature codes for names and words are unrecoverable
 from a single letter, whatever the method.
+
+## 2026-09-15, sixth session: sources verified from the page scans, and a unit-level attack
+
+### What the scans and papers add
+
+* **Meister pp. 176-178 and 222-224 read from the Internet Archive scans** (leaves 191-193 and 237-239 of
+  `diegeheimschrift00meis`), not from the OCR in `meister_p176.txt`. Key no. 1 (given to Montepulciano,
+  1539-42): singles Ac=8 eu=6 id=4 ot=2 bfg=7 ln=5 prz=3 ms=0, et unnumbered; da de do = 49 69 89; na ne
+  ni no = 24 26 28 29; che chi non = 94 9 92; ta te ti = 96 98 99; qua que qui = 82 84 86; sa se si so =
+  ·8 ·6 ·4 ·2 (dot on the antecedent); ra re ri ro = 8· 6· 4· 2· (dot on the digit); Nulla 1; "pongasi la
+  nulla al fine di ogni parola". Key no. 2 (the last cipher with Poggio, sent via Montepulciano, 1538-42) as
+  in `test_meister_key.py`, with the single for bc printed as "or" (a misprint) and no null at all. The
+  earlier readings stand; nothing in the tests changes.
+* **The letter is dated in its own cleartext**: line 192 of the transcript, "Da Roma alli XV. di Aprile
+  1542". Line 9 says Montepulciano left Rome on the 25th [of March] carrying letters. Key no. 2 is the one
+  "mandata per il Montepulciano", so the historical fit of key 2 to this letter is exact, and its digit
+  structure still does not fit the ciphertext (the dotted codes there are ·8x; here the digit after a dot
+  is 2/0/7/5 and 8 follows a dot fewer than a dozen times).
+* **Lasry, Megyesi, Kopal 2021, read in full** (diva-portal PDF, text extracted). Three facts not in the
+  earlier notes: (1) the key clustering by digit frequency put S1 (this volume) in the same cluster as
+  Segr. Stato Spagna 6/I and 6/II; (2) the key of S6 was recovered from matching plaintext, tested with the
+  automated polyphonic key recovery, and printed as Table 18; (3) but S6 is dated 16 January 1568 to 30
+  May 1570 (DECODE records 93 and 94, Cardinal Alessandrino to the nuncio), a generation later, a plain
+  single-digit polyphonic cipher with 0 as null and X0Y nomenclature (Figure 20 sample decoded). It is a
+  design relative, not this key. The IA-1 sibling in this volume is DECODE record 91: 5 pages, ff. 62v-66v,
+  non-decrypted, transcript behind the login.
+* **The volume**: the challenge PDF quotes the archive note "Lett. Orig. e cifre del card. Farnese al
+  nunzio, 4 oct 1539 - 24 nov. 1548, ff. 7-123". So Spagna 1A holds nine years of Farnese-to-Poggio
+  cipher, of which DECODE transcribed 13 pages. More text in this key exists on paper.
+* **Elio's two reconstructed keys** (HistoCrypt 2025, Figures 5 and 7, extracted from the PDF). The 1535-37
+  Guidiccioni key for the Spanish nunciature: single symbols for every letter (some doubled), CV syllable
+  series for c d n p r s t only, a nomenclature of about 30 words. The 1540 key: vowel singles plus a
+  full CV syllabary with polyphonic pairs selected by a dot. These are the two documented Farnese
+  chancery designs closest in date to April 1542; both are syllabaries with letter singles, which is the
+  model class used below.
+* MysteryTwister status page: Part 5 still unsolved, 0 solvers; Part 4 solved by 2.
+* DigiVatLib returns 404 for Chig.M.II.49 and Chig.L.III.65; neither is digitised.
+* Cellsior (2026) published an AI attempt on this cipher that reached nothing and says so.
+
+### The unit level, measured directly
+
+Digit 8 is followed by 0/2/7/9/1 in 85% of cases and precedes 4 or 6 fewer than a dozen times in 824:
+it is a pair prefix. Digit 3 is preceded by 0 or 7 in 73% of cases: it is a pair suffix. That is the
+shape of a syllable table, not of letters.
+
+`segem.py`: unigram EM over units of one or two digits (nulls split; Dirichlet prior for sparsity)
+converges to **41 unit types over 3643 tokens** and is stable under the prior (39-43 types across
+settings). The inventory: 80 316, 57 281, 6 275, 27 251, 03 231, 9 213, 5 193, 73 187, 1 139, 7 138,
+82 114, 8 90, 35 85, 0 82, 52 77, 06 65, 89 64, 75 63, 2 59, 08 59, 37 55, 72 52, 05 49, 38 47, 67 46,
+26 42, 81 41, 28 41, 87 32, 25 31, 97 28, 59 28, 3 26, 29 26, 36 24, 01 24, 78 20, 50 15, 90 15, 60 12,
+20 7. Word-final units: 27 (86 of 251), 80 (83 of 316), 73, 57, 6, 03. Word-initial: 9, 7, 73, 57, 03,
+27, 05, 06. Top unit bigram 57|82 at 47.
+
+Dots against these boundaries: 92 on a unit's last digit, 91 on a unit's first digit, 17 on singles.
+The three commonest dotted forms are 27 with the dot on the 7 (48), 27 with the dot on the 2 (29), and
+57 with the dot on the 7 (29). Read with Elio's rule, a dot on the last digit of a unit marks the
+antecedent of the next unit.
+
+### Matched control, then the real text
+
+`synk2.py` writes a synthetic in the key-2 family renumbered at random, with null 4 after 40% of words,
+no code containing 4, five vowel singles, polyphonic consonant-group singles, eight CV series as digit
+pairs in prefix blocks, dotted variants for ta/qua/che, two nomenclature codes, 6554 digits of held-out
+period Italian. On it the EM segmentation recovers unit boundaries with precision 0.94 and recall 0.87
+(72% of units exactly).
+
+`usolve.py` then maps each unit type to a letter, a polyphonic letter pair, a CV syllable, che/chi/qua/
+que/qui/gn-, et or non, and anneals the mapping under the no-space 5-gram LM (`lmns.py`, cipher
+orthography: no h except ch, no doubled consonants, built from eight Nuntiaturberichte volumes) with a
+per-letter bonus of 1.0 nat, below the held-out cost of 1.89, so predictable strings cannot be spammed
+(with the bonus at 1.89 every unit became "nostrosignore").
+
+### Result: the two-stage attack fails, and the control says why
+
+| run | score | key recovered | agreement between seeds |
+|---|---|---|---|
+| synthetic 1, three seeds | -7222 to -7293 | 2%, 6%, 12% of tokens | 0.16 to 0.41 |
+| synthetic 2, one seed | -7604 | 16% | |
+| real text, three seeds | -7513 to -7696 | | 0.24 to 0.35 |
+
+`oracle.py` explains it. On synthetic 1 the true plaintext scores **-5035** under the same objective, but the
+best fixed mapping from the EM units to plaintext elements scores **-11850**, worse than what the annealer
+found. Only 68% of the EM tokens have any consistent right answer: the single digits double as halves of
+pairs in this design (as they do in Meister's key 2), so a segmentation fixed before the key is known is
+wrong for a third of the tokens, and that alone destroys the language-model signal. The search did its job;
+the ceiling is the segmentation.
+
+Two objective pitfalls met on the way, recorded so they are not met again: with a per-letter bonus equal to
+the held-out cost the annealer maps every unit to a long predictable word ("nostrosignore"); with a raw
+OCR corpus the letter i becomes an attractor through Roman-numeral runs (0.3% of tokens, enough).
+
+So segmentation and key must be solved together. That is the class of `native/Program5.cs`, which earlier
+sessions ran to non-convergence on this text after it had recovered synthetic keys of the same design. The
+present session's contribution is therefore negative on the cryptanalysis and positive on the record:
+the design family is pinned to the Farnese chancery syllabic ciphers of 1535-1542, the unit inventory is
+measured, the historically matching printed key (Meister no. 2) is verified from the scan and excluded on
+structure, and the one recovered relative (S6) is dated 1568-70 and unrelated.
+
+### What would move it
+
+1. **Register with DECODE** (de-crypt.org, free for researchers) and download from record 92 the eight
+   400 dpi images, from record 91 the IA-1 transcript (the sibling letter in this volume, 5 pages), and
+   from records 93-94 `s6key.txt`. The images restore the word division the transcript lost and settle the
+   dot placements; IA-1 doubles the text in the same chancery hand and probably the same key family.
+   This session could not do it: creating accounts is outside its remit.
+2. Order the folios around ff. 62-73 of Segr. Stato Spagna 1A (the archive note gives ff. 7-123 of
+   Farnese-to-nuncio cipher, 1539-1548): more ciphertext in the same keys, and possibly a decipher.
+3. The clear copies: BAV Chigi L III 65 ff. ~165-190, AAV Lettere de' Principi 14 A, Naples Carte
+   Farnesiane 723 (12 April 1542). Neither Chigi manuscript is on DigiVatLib.
+
+New files: `segem.py` (EM segmentation), `lmns.py` (no-space LM in cipher orthography), `synk2.py`
+(key-2-family synthetic), `usolve.py` (unit-level annealer), `uscompare.py` (convergence), `oracle.py`
+(ceiling). Corpus and LM caches are gitignored; rebuild with `python build_it_lm.py` after fetching the
+eight `nb_*.txt` volumes listed in the session transcript from archive.org (`nuntiaturberich0{0,3,4,5,6,8,9}romgoog`,
+`nuntiaturberich10romgoog`, file `<id>_djvu.txt`).

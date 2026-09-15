@@ -176,3 +176,8 @@ blume/dt/real_*.txt
 blume/q4_es.bin
 blume/plain_sample.txt
 blume/__pycache__/
+# copenhagen / scorpion: LM caches and run logs
+copenhagen/*.bin
+copenhagen/*.log
+scorpion/*.log
+scorpion/*.bin

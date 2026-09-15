@@ -1,0 +1,12 @@
+# Scorpion cipher S1 (first 1991 letter), 10 x 7 = 70 symbols, transcribed 2026-09-15 from the Cipherbrain scan
+# (Scorpion-Letter-2.jpg, 454 px, upscaled 3x). Symbol names are descriptive; same name = judged the same glyph.
+# Uncertain identities are marked with ? in the notes below. Row-major.
+pi K A halfdisc sqnotchBR gamma O revF circL circR
+arch venus circQ dash Y Q cornerBR halfdiscL sqnotchTL crosshair
+S lambda circQ2 flag sqnotchT sqdot sqtriTR N sqnotchTR dome
+B revF circL sqbarB M circ3q tack R crosshair sqnotchBR
+U sqtriBL sqsplitL sqbarT circ3q2 slash O R cornerBR circtop
+circhole sqtriTL sqbarL cornerBR circL roman2 S lambda flag cupdot
+K tridot Z sqbarT revE arch cornerBR sqsplitR sqnotchBR Iserif
+# notes: revF r1c8 and r4c2 judged same; circL r1c9, r4c3, r6c5 judged same (?); sqnotchBR r1c5, r4c10, r7c9 (?);
+# sqbarT r5c4 and r7c4 (?); flag r3c4 and r6c9 (?); crosshair r2c10 and r4c9 same; cornerBR x4 (Pelling's 'backward L').

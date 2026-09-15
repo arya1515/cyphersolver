@@ -16,11 +16,13 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Swatow telegram to Sun Yat-sen | 1916 | **solved** — systematic code condenser over the standard telegraph code recovered by brute force; 41 of ~44 characters read | [`sunyatsen/`](sunyatsen/) · [write-up](https://dbourdeau.github.io/cyphersolver/sunyatsen.html) |
 | Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Prince Maurice → Rupert (1645) and royalist intercepts, BL Add MS 72438 (1646) | 1645–46 | offline only — keys/texts are in BL volumes digitised but offline since the 2023 cyber-attack | [`rupert/`](rupert/) |
-| Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
+| Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — Farnese-chancery syllabic digit cipher (Elio family); Meister key 176/2 verified from the scan and excluded; letter-, lattice- and unit-level attacks fail against matched controls; needs the DECODE images or the key | [`vatican5/`](vatican5/) |
 | Colbert passages (Mélanges Colbert) | 1665–74 | stuck — three short passages, no key online, known series keys fail | [`colbert/`](colbert/) |
 | Thurloe State Papers intercepts | 1653–56 | stuck — four short pieces, all period keys fail | [`thurloe/`](thurloe/) |
 | Stepney → Manchester, Vienna 1702 | 1702 | offline only — MS transcribed from Yale IIIF; key (Stepney's office cipher) in TNA/BL | [`stepney/`](stepney/) |
 | Beale Paper no. 1 | 1885 | fabrication — evidence in notes | [`beale/`](beale/) |
+| Copenhagen cryptogram (Schmeh Top 50 no. 23) | c.1950s | closed from the scan — two transcriptions, ten languages, matched controls solve same-length texts; the note does not | [`copenhagen/`](copenhagen/) |
+| Scorpion letters S1 and S5 (Schmeh Top 50 no. 12) | 1991 | closed — below the unicity distance for a homophonic key; controls show fluent false solutions | [`scorpion/`](scorpion/) |
 
 Every working directory except `barney/` has a `NOTES.md` with the record of the attempt (sources, dead ends, what is
 established and what is inferred).
