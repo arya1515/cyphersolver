@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Unsolved Historical Ciphers — Working Notes and Solutions</title>
-<meta name="description" content="Progress on the ciphers listed as unsolved in S. Tomokiyo's catalogue: full write-ups of solved items (Richelieu 1629, Armstrong 1808) and the status of the rest.">
-<link rel="stylesheet" href="style.css?v=20260915d">
+<title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
+<meta name="description" content="Working notes on historical ciphers from three standard lists: Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes, and Schmeh's Top 50 - with new decipherments, corrections to the catalogues where a solution already existed in print, and an audit finding nine of the Top 50 already closed and one entry an April Fools' hoax.">
+<link rel="stylesheet" href="style.css?v=20260915e">
 </head>
 <body>
 <nav class="nav"><div class="in">
@@ -36,31 +36,34 @@
 <main>
 
 <div class="bignews">
-  <span class="tag">&#9733; Famous case closed &middot; September 2026</span>
-  <h2>The Chinese gold bar cryptograms are <span class="strikeout">unsolved</span> &mdash; because there is nothing in them</h2>
-  <p>Seven bars said to have been issued in Shanghai in 1933 and to certify a deposit of $300,000,000, stamped with sixteen strings of Latin
-  letters. Published by the IACR in 1996, carried on Elonka Dunin&rsquo;s list of famous unsolved codes ever since, and never read.</p>
-  <p>They were never read because they are not an encryption. The 263 letters contain <b>almost exactly ten of every letter of the alphabet</b> &mdash;
-  twenty-one of the twenty-six appear exactly ten times. That is flatter than randomness itself permits, and no cipher can do it: substitution and
-  transposition both preserve the plaintext&rsquo;s frequency skew, and even a one-time pad is still random sampling. Somebody counted out ten of each
-  letter and arranged them to look like cryptography.</p>
+  <span class="tag">&#9733; Audit &middot; September 2026</span>
+  <h2>Nine of the fifty most famous unsolved ciphers are <span class="strikeout">unsolved</span> &mdash; and the list does not say so</h2>
+  <p>Klaus Schmeh&rsquo;s <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Top 50 unsolved encrypted
+  messages</a> is the field&rsquo;s standard list of open problems. Checked entry by entry against the literature, <b>nine are closed</b>: Rivest&rsquo;s
+  timelock (2019), the Bonus 22 M&#8209;209 challenge (2018), the Thouless cryptogram (2019), the silk dress (2023), Ferdinand III (2017), the Rilke
+  sheets (not a cipher), the Codex Seraphinianus (asemic, by its author), and the YOG&rsquo;TZE case (closed as an accident, 2025).</p>
+  <p>The list cannot be read at face value because it ran as a post series from February 2017 to April 2020 and <b>its index was never
+  retro-annotated</b> &mdash; it still calls Rivest&rsquo;s puzzle unbroken although Schmeh posted the solution himself in 2019.</p>
+  <p>And entry 39, the &ldquo;Riverbanks Ripper cryptograms&rdquo;, is an <b>April Fools&rsquo; joke</b>. Posted 1 April 2017. The ciphertext is a
+  single character, the transcription is credited to &ldquo;George Fabyan&rdquo;, and the first murder is set in Geneva, Illinois &mdash; home of
+  Fabyan&rsquo;s Riverbank Laboratories. It has sat in the list unmarked for nine years.</p>
   <div class="stat2">
-    <div><b>1.25</b><span>chi-squared vs uniform<br>(chance predicts 25)</span></div>
-    <div><b>1 in 10<sup>12</sup></b><span>likelihood if random</span></div>
-    <div><b>0 / 200,000</b><span>simulated strings<br>this uniform</span></div>
-    <div><b>30 yrs</b><span>on the unsolved lists</span></div>
+    <div><b>9 / 50</b><span>closed, but still listed</span></div>
+    <div><b>1</b><span>entry that is a hoax</span></div>
+    <div><b>16</b><span>open but unsettleable</span></div>
+    <div><b>22</b><span>genuinely worth attacking</span></div>
   </div>
-  <a class="cta" href="goldbar.html">Read the full case &rarr;</a>
+  <a class="cta" href="#queue">See the ranked queue &rarr;</a>
 </div>
 
 
 
 <div class="stats">
   <div class="stat"><b>122</b><span>catalogue entries</span></div>
-  <div class="stat"><b>9</b><span>solved / explained</span></div>
+  <div class="stat"><b>10</b><span>solved / explained</span></div>
   <div class="stat"><b>1</b><span>partial</span></div>
-  <div class="stat"><b>7</b><span>blocked on access</span></div>
-  <div class="stat"><b>13</b><span>queued to attack</span></div>
+  <div class="stat"><b>10</b><span>blocked on access</span></div>
+  <div class="stat"><b>12</b><span>queued to attack</span></div>
 </div>
 <div class="bar" title="solved &middot; partial &middot; blocked on access &middot; stuck &middot; queued / parked">
   <span class="s" style="width:11%"></span><span class="p" style="width:2%"></span><span class="o" style="width:12%"></span><span class="x" style="width:8%"></span><span class="t" style="width:67%"></span>
@@ -70,6 +73,20 @@
   <span class="st found">found solved</span> already in print; catalogue wrong &nbsp;
   <span class="st partial">partial</span> &nbsp; <span class="st stuck">stuck</span> &nbsp; <span class="st offline">blocked</span> key or manuscript located but not reachable online &nbsp; <span class="st todo">queued</span> &nbsp; <span class="st infeasible">infeasible</span>
 </p>
+
+<h2 id="recent"><span class="num">00</span> Recent findings</h2>
+<p>Newest first. Each links to the queue row or write-up that carries the evidence.</p>
+<table>
+<tr><th>What</th><th>Finding</th></tr>
+<tr><td><b>Perwich to Arlington</b><br>Paris, 1670</td><td><b>It is not a transposition.</b> The National Archives published this in August 2025 and everyone &mdash; their blog, Tomokiyo, this tracker &mdash; read it as one. Chi-squared <i>in place</i> is 154.7 where English of this length gives about 25, while chi-squared <i>sorted</i> is 8.7 where English gives 12: identities scrambled, shape preserved, which is substitution. And hill-climbing the column order on substitution-invariant digram repeats, every period 4 to 24, scores identically to shuffles of the same letters.</td></tr>
+<tr><td><b>Vatican Challenge Part 5</b><br>Farnese to Poggio, 1542</td><td><b>Identified as an Antonio Elio cipher.</b> Elio was cipher secretary to Paul III, so to the chancery that sent this letter. Five measurements match his documented polyphonic-syllabic design, including a doubled-digit suppression that recovers the chancery&rsquo;s own written rule against doubling consonants. Still unread. <a href="vatican.html">Full case &rarr;</a></td></tr>
+<tr><td><b>ADFGVX residue</b><br>Eastern Front, 1918</td><td><b>Decoder built, page 100 reproduced from scratch.</b> Settled the transposition convention, which the published keys leave ambiguous and a round-trip test cannot decide. Repaired three of the fourteen keys whose squares the source PDF had mangled. Page 132&rsquo;s key identified &mdash; <i>WIEDERHOLE</i> and <i>TELEG</i> emerge unprompted.</td></tr>
+<tr><td><b>Debosnys</b><br>New York, 1882&ndash;83</td><td><b>Better odds than billed.</b> The alphabet is called large and decorative; at three times scale most of it is systematic composition &mdash; a few bases under a few marks &mdash; plus pictograms that are nomenclator entries, not letters.</td></tr>
+<tr><td><b>Ferdinand III</b><br>1634&ndash;40</td><td><b>Was stale here.</b> Carried as blocked on a database login; in fact solved by Thomas Ernst in October 2017 and published nine years ago. Second target to prove already solved in the open literature.</td></tr>
+<tr><td><b>Charles I, Isle of Wight</b><br>1648</td><td><b>Two keys excluded.</b> The published 2021 nomenclator fails on both unread letters, and so does the Titus key of the same month and the same escape plot. Also found: the transcript of the solved sibling preserves the scribe&rsquo;s word division; this one&rsquo;s dropped it.</td></tr>
+<tr><td><b>Berthier to Napoleon</b><br>22 December 1812</td><td><b>Plaintext located, in print since 1912.</b> Chuquet published Berthier&rsquo;s December 1812 letters from the very archive carton the cryptogram sits in. What is missing is the rest of the ciphertext, which exists only in one 1969 journal article.</td></tr>
+<tr><td><b>Chinese gold bars</b><br>Shanghai, 1933</td><td><b>Constructed, not enciphered</b>, and now corroborated from a second direction: the aircraft depicted is a model in service from 1934, and some characters are simplified forms from the 1950s. <a href="goldbar.html">Full case &rarr;</a></td></tr>
+</table>
 
 <h2><span class="num">01</span> Write-ups</h2>
 <div class="cards">
@@ -213,6 +230,7 @@ coming back. Odds shown are for after the material is in hand.</p>
 <tr><td>Charles I in the Isle of Wight &mdash; the two unread letters</td><td>1648</td><td><span class="odds lo">low</span></td><td>Attempted September 2026. The published Biermann/Bosbach/Brown key is excluded on both letters, and so is the Titus key of the same month and the same escape plot. The 22 May letter is 43% hapax and the 1 August letter 59%, so analysis has nothing to work on. Needs a surviving key, most likely in the Titus or Firebrace papers at the British Library.</td></tr>
 <tr><td>Berthier to Napoleon, 22 December 1812</td><td>1812</td><td><span class="odds md">even</span></td><td>Attempted September 2026, and it moved a long way. The plaintext has been in print since 1912: Chuquet published Berthier&rsquo;s December 1812 letters to the Emperor from the very carton the cryptogram sits in, AF/IV/1643. What is missing is the rest of the ciphertext, which exists only in Vilcoq&rsquo;s 1969 article in the <i>Revue Historique de l&rsquo;Arm&eacute;e</i>. Get that and it becomes a known-plaintext alignment.</td></tr>
 <tr><td>Encoded letter to Marshal Marmont</td><td>1807</td><td><span class="odds md">even</span></td><td>Attempted September 2026 and stopped at once: <b>no ciphertext is published anywhere reachable</b>, only the opening line, which is in clear. The sole source is the same 1969 article. Likely tractable once in hand, since Marmont&rsquo;s 1811 code ran to about 150 entries. His Dalmatian papers are at the Service historique de la D&eacute;fense, not the Archives nationales.</td></tr>
+<tr><td>Telegrams from the sunken <i>Zhongshan</i></td><td>c.1938</td><td><span class="odds md">even</span></td><td>891 telegrams recovered from a gunboat sunk in 1938; 352 were read in 2009. None is published, and Tomokiyo states he has never located the primary sources. Verified here that the one published opening reads &ldquo;Minister Chen, <i>He Mi</i>&rdquo; &mdash; but He Mi is a separate codebook, not a transformation of the standard telegraph code, so there is no key space to search. Unblocks only with the museum&rsquo;s holdings.</td></tr>
 <tr><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney to the Earl of Manchester</a></td><td>1702</td><td><span class="odds md">even</span></td><td>Manuscript already transcribed from Yale. The key is Stepney&rsquo;s own office cipher, asked for in August 1701, in TNA SP 105/106 or BL Add MSS 7058&ndash;78.</td></tr>
 <tr><td><a href="https://gallica.bnf.fr/ark:/12148/btv1b10035574w">Henry III to S&eacute;gur</a></td><td>1583&ndash;86</td><td><span class="odds md">even</span></td><td>Four folios of BnF 500 de Colbert 401. Gallica refuses this client entirely and a retry job is running. The volume&rsquo;s other Henry III cipher is a plain alphabetical syllabary, a strong prior for these.</td></tr>
 </table>
