@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>
+What It Takes to Break Charles I's Cipher Used in the Isle of Wight
+</TITLE>
+<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=SHIFT_JIS"> 
+<META HTTP-EQUIV="keyword" CONTENT="code, cipher, Charles I">
+<link rel=stylesheet type=text/css href=decode2.css>
+</HEAD>
+
+<BODY>
+<H1>What It Takes to Break Charles I's Cipher Used in the Isle of Wight</H1>
+
+<P>In 2021, a cipher used in some of Charles I's letters written during his captivity in the Isle of Wight in 1648 was broken by Norbert Biermann and Matthew Brown (<A HREF="https://scienceblogs.de/klausis-krypto-kolumne/2021/04/11/ungeloest-die-verschluesselten-briefe-von-karl-i-an-seinen-sohn/">Cipherbrain</A>). The present article considers how they could solve the cipher left undeciphered for many years.</P>
+<P>(I wrote this article when the reading of the most part was published as comments in Cipherbrain. Afterwards, Biermann and Brown, joined by Thomas Bosbach, continued the work between them and the final results were published in <A HREF="https://scienceblogs.de/klausis-krypto-kolumne/2021/05/05/geloest-die-verschluesselten-briefe-von-karl-i-an-seinen-sohn/">Cipherbrain</A> on 5 May 2021.)</P>
+
+<H3>Ciphertext</H3>
+<P>I posted the following ciphertexts in <A HREF="http://cryptiana.web.fc2.com/code/charlesii.htm#SEC1">"King Charles II's Ciphers during Exile"</A> and also included them in the list in <A HREF="http://cryptiana.web.fc2.com/code/unsolved.htm">"Unsolved Historical Ciphers"</A>.</P>
+
+<DIV class="kakomi">
+Yours by Oudart I received upon Sunday last, and am very well satisfied with your account, and his relation; only I somewhat wonder that you give me no account of my last Letter, which was of the 6th of September our Stile, wherein I gave you a conditional advice concerning 563 528 456, of which you was then more able to judge than I; but now being at some more freedom, I hope shortly to give you a reasonable clear advice: ....<br>
+And now I must command you to answer me freely to a Question, (I am confident that you will not dissemble with me) which is, if 615 211 179 217 52 5 25 62 557 24 9 29 39 56 1 34 19 6 90 34 26 347 15 23 33 50 345 509 447 328 27 5 49 71 448 340 275 350 328 345 (36 563 29 1 39 5 51 37 15 7 72 61) 10 9 285 404 277 615 ; to this I would have your speedy resolution, for I am told that lost time now in it, will not be recovered, ....<br>
+<span class="note">Charles I to Prince Charles, Newport, 3 October 1648 (from <i>Vindication</i>)</span>
+</DIV>
+<br>
+<DIV class="kakomi">
+Let none decypher this but your selfe, or my Lord Culpeper.<br>
+....I must desyre of you an account of the receipt of my former Letters, to witt fyve in October, besydes one yesterday; in some of which I gave you an advice 447 536 350 563 278 557 334 179 350 613 447 563 51 9 24 5 442 as allso 210 410 26 54 15 25 516 557 50 61 7 9 27 5 10 447 602 429 340 325 299 332 For other things I refer you to my former Letters, and to the obedience of your Mother's commands. So God bless you, and send you perfect healthe and prosperity<br>
+<span class="note">Charles I to Prince Charles, Newport, 7 November 1648 (from <i>Original Letters</i>)</span>
+</DIV>
+
+<H3>Additional Materials</H3>
+<P>These ciphertexts were mentioned in <A HREF="https://scienceblogs.de/klausis-krypto-kolumne/2021/04/11/ungeloest-die-verschluesselten-briefe-von-karl-i-an-seinen-sohn/">Cipherbrain</A>, a German cryptology blog by Klaus Schmeh, on 11 April 2021. Klaus Schmeh and Elonka Dunin chose them as one of the topics in their webinar "More famous and not-so-famous unsolved codes" (18 April 2021) hosted by the National Museum of Computing in Bletchley Park. They found <A HREF="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_6988_fs001r">a volume on the British Library website</A> containing not only the original of the above (6 November 1648) but also additional letters (1 September 1648, 6 November 1648).</P>
+
+<H3>Codebreaking</H3>
+<P>Codebreaking work began by examining known ciphers. Biermann and Brown (who worked independently at first) reconstructed ciphers corresponding to the "Second Cipher between Charles I and Henrietta-Maria in Holland and the North (Aug. 1642-July 1643)", "Cipher with the Prince of Wales (February 1647)", the one solved by John Wallis, and perhaps "Cipher between Charles I and Silus Titus (1648)" covered in my article, <A HREF="http://cryptiana.web.fc2.com/code/charlesi.htm">"King Charles I's Ciphers"</A>.)</P>
+<P>The real discussion started on 18 April, when Matthew Brown observed from the two ciphers he independently reconstructed that "The final word in the common word block for the 2 known keys is YOU. The frequency for [615=YOU] looks about right." He also saw that it fit the context in two instances: "615 ought 428" (2 Sep.) and "And now I must command you to answer me freely to a Question, (I am confident that you will not dissemble with me) which is, if 615 211 179 ..." (3 Oct.).</P>
+
+<P>Norbert Biermann had also independently reached the hypothesis 615=YOU, and made further suggestions:</P>
+<P>614 = YOUR (perhaps from frequency and adjacency to 615)</P>
+<P>563 = THE (perhaps from frequency and "a conditional advice concerning 563 528 456, of which you ..." (3 Oct.))</P>
+<P>561 = THAT (perhaps from frequency, closeness to 563, and "possible 561" (2 Sep.))</P>
+<P>557 = TO (perhaps from frequency, closeness to 563, and "557 make" (2 Sep.))</P>
+<P>572 = UNTO (Biermann first assumed 572=TO from "adheare 572" (2 Sep.), but changed his mind because 572 occurs only once)</P>
+<P>447 = OF (perhaps from frequency and "an advice 447" (7 Nov.))</P>
+<P>428 = NOW (or another adverb, because of "you ought 428 to" (2 Sep.); later, this turned out to be NOT)</P>
+<P>340/345/347/350 = IS/IT/IF/IN (Biermann initially did not specify which correspond to which; later, they turned out to be I/IN/IS/ING in this order)</P>
+
+<P>From the assumption 563=THE, Biermann further observed that "(36 563 29 1 39 5 51 37 15 7 72 61)" (3 Oct.) may be "(o-the-r ...)" or "(o-the-r-s ...)" such as "others redeemed", "others returned".</P>
+<P>Brown (who had also assumed the same for YOUR, THE, THAT, TO) proposed "(o-the-r-w-a-i-s ...)."</P>
+<P>He made an additional suggestion:</P>
+<P>277 = FOR because of frequency and "404 277(for) 615(you); to this I would have your speedy resolution."</P>
+<P>On 20 April, Biermann posted the key he identified. The numbers 1-106 represent letters (including two nulls), followed by common words from 142 (able) to 615 (you) generally in alphabetical order (but not quite).</P>
+<P>The parenthetical phrase above turned out to be</P>
+<P><TT>(36 563 29 1 39 5 51 37 15 7 72 61)</P>
+<P>    &nbsp; o the&nbsp; r _&nbsp; r e&nbsp; s&nbsp; p&nbsp; e c&nbsp; t&nbsp; s </TT></P>
+<P>Even with the hindsight of the initial guesses given above, I would not have been able to do this. I hope Biermann would publish how he achieved this feat.</P>
+<P>After this, more and more symbols were identified by Biermann and Brown.</P>
+
+<H3>Decipherment</H3>
+<P>The following is the decipherment of the above two ciphertexts according to the keys provided in the comment section in the Cipherbrain article as of 24 April 2021.</P>
+<DIV class="kakomi2">
+Yours by Oudart I received upon Sunday last, and am very well satisfied with your account, and his relation; only I somewhat wonder that you give me no account of my last Letter, which was of the 6th of September our Stile, wherein I gave you a conditional advice concerning 563 528 456, of which you was then more able to judge than I; but now being at some more freedom, I hope shortly to give you a reasonable clear advice: ....<br>
+And now I must command you to answer me freely to a Question, (I am confident that you will not dissemble with me) which is, if 615(you) 211(can) 179(be) 217(con) 52(t) 5(e) 25(n) 62(t) 557(to) 24(m) 9(a) 29(r) 39(r) 56(y) 1(_) 34(m) 19(a) 6(d) 90(a) 34(m) 26(o) 347(is) 15(e) 23(l) 33(l) 50(e) 345(in) 509(regard) 447(of) 328(her) 27(p) 5(e) 49(r) 71(s) 448(on) 340(I) 275(find) 350(ing) 328(her) 345(in) (36(o) 563(the) 29(r) 1(_) 39(r) 5(e) 51(s) 37(p) 15(e) 7(c) 72(t) 61(s)) 10(_) 9(a) 285(good) 404(match) 277(for) 615(you) <span class="deciphered">[you can be content to marry mademoiselle in regard of her person, I finding her in (other respects) a good match for you]</span>; to this I would have your speedy resolution, for I am told that lost time now in it, will not be recovered, ....<br>
+<span class="note">Charles I to Prince Charles, Newport, 3 October 1648 (from <i>Vindication</i>)</span>
+</DIV>
+<P>(It is sweet of the King to care about the prince's feeling. Biermann once believed the "mademoiselle" refers to Lucy Walter <span class="note">(<A HREF="https://en.wikipedia.org/wiki/Lucy_Walter">Wikipedia</A>)</span>, but of course, the King would not have considered her a good match. I wonder whether the "mademoiselle" refers to Anne Marie Louise d'Orl&eacute;ans, Duchess of Montpensier, known as "la Grande Mademoiselle" <span class="note">(<A HREF="https://en.wikipedia.org/wiki/Anne_Marie_Louise_d%27Orl%C3%A9ans,_Duchess_of_Montpensier">Wikipedia</A>)</span>. Queen Henrietta-Maria, mother of Prince Charles, contemplated the match as of 1646 <span class="note">(Eva Scot, <i>The King in Exile</i> p.28, Plowden, <i>Henrietta Maria</i>, p.264)</span>. )</P>
+<P>(Additional Note: In the timeline provided by Biermann with the final version, Lucy Walter is still mentioned, with the assumption that Lucy Walter's pregnancy of the future Duke of Monmouth (to be born in April 1649) was known to Charles I. But if the King refers to her, the King did not have to confirm if the prince liked her person.)</P>
+<br>
+<DIV class="kakomi2">
+Let none decypher this but your selfe, or my Lord Culpeper.<br>
+....I must desyre of you an account of the receipt of my former Letters, to witt fyve in October, besydes one yesterday; in some of which I gave you an advice 447(of) 536(send) 350(ing) 563(the) 278(fleet) 557(to) 334(here) 179(be) 350(ing) 613(yet) 447(of) 563(the) 51(s) 9(a) 24(m) 5(e) 442(order) as allso 210 410(my) 26(o) 54(w) 15(e) 25(n) 516(request) 557(to) 50(e) 61(s) 7(c) 9(a) 27(p) 5(e) 10(_) 447(of) 602(which) 429(now) 340(I) 325(have) 299(great) 332(hope) <span class="deciphered">[of sending the fleet to here being yet of the same order as allso 210 my owen request to escape of which now I have great hope.]</span>. For other things I refer you to my former Letters, and to the obedience of your Mother's commands. So God bless you, and send you perfect healthe and prosperity<br>
+<span class="note">Charles I to Prince Charles, Newport, 7 November 1648 (from <i>Original Letters</i>)</span>
+</DIV>
+<P>"516" (request) occurs only here. I wonder whether there is a better "r" word to fit the context.</P>
+
+<H3>Success and Limit of Computer Algorithms</H3>
+<P>Today, computer algorithms such as hill climbing can solve a simple cipher in an instant. One of the first such instances I am aware of is Armin Krau&szlig;'s solution in 2015 of a short ciphertext in a letter to James Madison (see <A HREF="madison2.htm">another article</A>) published at Cipherbrain (then known as Klausis Krypto Kolumne, <A HREF="http://scienceblogs.de/klausis-krypto-kolumne/2015/08/01/eine-ungeloeste-verschluesselung-aus-dem-nachlass-von-us-praesident-madison/">1 August</A>, <A HREF="http://scienceblogs.de/klausis-krypto-kolumne/2015/08/03/verschluesselung-aus-dem-nachlass-von-us-praesident-madison-geloest/">3 August</A>). (When Lawren M. Smithline solved a challenge cipher to Thomas Jefferson in 2009 (<A HREF="jeffers4.htm">another article</A>), he used "dynamic programming", explained as "the engine that solves the scoring of all the possibilities and efficiently determines the best guesses", constructed "as a mimic to biological-sequence comparison".)</P>
+<P>Algorithms were developed that can handle homophonic substitution ciphers. Solution of the Copiale Cipher in 2011 (see <A HREF="https://cl.lingfil.uu.se/~bea/copiale/">here</A>) is an early example. Afterwards, generic algorithms were published <span class="note">(Amrapali Dhavare, Richard M. Low, and Mark Stamp (2013), "Efficient Cryptanalysis of Homophonic Substitution Ciphers"; Anna Lehofer (2018), "The Application of Hierarchical Clustering to Homophonic Ciphers"; Nils Kopal (2019), "Cryptanalysis of Homophonic Substitution Ciphers Using Simulated Annealing with Fixed Temperature", to just name a few that came to my notice)</span>. Today, many "homophonic solvers" are available online.</P>
+<P>Even when there are additional elements (e.g., for syllables or words/names), if just a few words are identified by computer analysis, human efforts may recover the rest by traditional codebreaking techniques.</P>
+
+<H3>What It Took to Decipher Charles I's Ciphers</H3>
+<P>Even algorithmic cryptanalytic techniques cannot handle cases with a high proportion of non-letter elements (e.g., for syllables or words/names). When the same topic was mentioned in <A HREF="https://scienceblogs.de/klausis-krypto-kolumne/2020/06/14/a-kings-encrypted-letter-on-satoshi-tomokiyos-list-of-unsolved-cryptograms/">Cipherbrain</A> in June 2020, the discussion came to a deadend. Then, what allowed the success this time?</P>
+
+<P>First, the two additional specimens found by Klaus Schmeh and Elonka Dunin provided a basis for analysis. Not only did they provide additional entry points of codebreaking, but also they diluted the noise from ciphertexts in different cipher(s) <span class="note">(my list provided four ciphertexts written by Charles I in the Isle of Wight, of which two turned out to be in different cipher(s))</span>.</P>
+<P>Then, of course, clear text left by the King's partial encoding provided context to guess nearby words. Moreover, the alphabetical ordering of the nomenclature is certainly a weakness that allowed guesses once a few words were identified. I believe as yet these can better be exploited by humans than computer algorithms.</P>
+
+<P>In future, what can be done to apply computer techniques to this kind of cipher? In most of Charles I's ciphers (see <A HREF="charlesi.htm">another article</A>) as well as in many French ciphers (<A HREF="louisxiv.htm">another article</A>) and probably others, letters of the alphabet are represented in low numbers. So, it is worth trying to run a solver to a ciphertext in which only one- or two-digit figures are retained. Although the nomenclature may start in the two-digit range or the letter section continues above 100 (as in the present case, in which the letter section extends at least up to 106), if a meaningful reading is obtained for even a part of sequences in low numbers, it may give a clue to a human codebreaker. (In doing this, one should take care to retain something where three-digit figures are removed. For example, "35 74 159 28 17" should not be just converted to "35 74 28 17", but something like "35 74 X 28 17" to prevent treating "74 28" as a bigram.)</P>
+<P>A preliminary analysis is also desirable to identify which ciphertexts are encoded in the same code. For the present case, of the four ciphertexts originally in my list, two turned out to be in different cipher(s). Examining overlap of code symbols in use may help this. <span class="note">(In a large project of deciphering papal ciphers, a "key clustering algorithm" was developed in George Lasry, Be&aacute;ta Megyesi & Nils Kopal (2020), "Deciphering papal ciphers from the 16th to the 18th Century")</span>.</P>
+<P>Provided that a sufficient quantity of material is given, a computer algorithm can be used to identify at least the letter symbols. George Lasry, who has successfully applied his algorithm to solve many historical ciphers (see <A HREF="unsolved.htm">another article</A>) says a few hundred 2-digit figures would be required by automated algorithms <span class="note">(comments to the Cipherbrain article)</span>. Once a breach is made, human ingenuity would be able to guess code groups one by one, as was done for the present case.</P>
+<br>
+<P>Now, two of the four ciphers I originally presented <A HREF="charlesii.htm#SEC1">here</A> remain unsolved, but it seems hard unless more specimens are found.</P>
+
+<br>
+<br>
+<font size="2">
+&COPY;2021 S.Tomokiyo<br>
+First posted on 25 April 2021. Last modified on 6 May 2021.<br>
+<A HREF="crypto.htm">Cryptiana: Articles on Historical Cryptography</A><BR>
+</font>
+<script><!--
+var fc2footerparam = 'ver=1'
+    + '&url=' + encodeURIComponent(document.location)
+    + '&service=0'
+    + '&r=' + Math.floor(Math.random() * 99999999999);
+var fc2footertag = "//vip.chps-api.fc2.com/apis/footer/?" + fc2footerparam;
+var script = document.createElement('script');
+script.src = fc2footertag;
+script.charset = "UTF-8";
+script.async = true;
+document.getElementsByTagName('head')[0].appendChild(script);
+//--></script>
+<!-- FC2, inc.-->
+<img src="//media.fc2.com/counter_img.php?id=50" style="display:none" alt="inserted by FC2 system" width="0" height="0">
+<!-- FC2, inc.--></BODY>
+</HTML>

@@ -1,0 +1,854 @@
+id="comments"> Kommentare (45) 
+ #1 
+ Matthew Brown 
+ 11. April 2021 
+ There is an interesting repetition in the Benjamin Worsley letter;
+2,20,3,230,388,45,36 and later
+1,20,2,230,388,46,36.
+ This seems to suggest the lower numbers are homophones, and that the homophones for the same letter are all grouped together sequentially.
+ #2 
+ Thomas 
+ 11. April 2021 
+ @Klaus
+ Am 7. Nov. 1648 scheint es nur einen Brief gegeben zu haben: Der Text in der Transkription im vorletzten Abschnitt ist bis auf einen ausgelassenen Abschnitt doch identisch mit dem Scan von S. 219R im letzten Abschnitt, oder?
+ #3 
+ Matthew Brown 
+ 11. April 2021 
+ Here’s what I have so far for the Nov 6th letter;
+ This day I have received yours of the 17th of Oct which is
+the only leter I have had from you, since your ? ? ?;
+for nothing of that particular ? in writing which he has told
+me of I should have from 189. I have written so fully to you by
+our former Dispatches Dated the 19 and 24 of Oct that I have nothing
+to ad, but that the Treaty is prolonged for 14 Dayes. 155 561 340
+? 325 429 412 332 557 5 51 7 9 21 15 565 25 340 330 as for
+particulars, I refer you to Oudart, whom I have commanded to
+send you all our transactions 178 362 51 434 447 340 54 29
+21 52 30 557 615 345 7 56 27 2 5 39 I have now no more to say
+but to refer you to my former directions. So God bless you.
+You loving Father Charles R
+ [PS]If Osborne (who has beene in
+troble for me about ? ?
+Rolphes business) comes to you
+use him well for my sake.
+ #4 
+ Gerd 
+ 11. April 2021 
+ > it seems … the homophones for the same letter are all grouped together 
+ There is a cipher mentioned on Satoshi’s site where the letters were represented by 10-12(y), 13-15(x), 16-18(w), …, 76-78(a). So 3 numbers per letter and the alphabet reversed.
+(Letter to Governor of Dover Castle)
+ I played around with this, but was not successful.
+ #5 
+ George Lasry 
+ 11. April 2021 
+ As part of the DECRYPT project, I have been working on the decipherment of multiple letters to Charles, from 1645-1646. At that time, the majority of the codes had 2 digits and represented single-letter homophones. In those exchanges from 1648, it seems that the % of 3-digit codes is much higher, and those likely represent words. The amount of consecutive ciphertext sequences with only 2-digit figures is relatively low, much lower than the few hundred (cumulative) required by automated algorithms.
+ So overall, this is a tough cipher, unless ones find some deciphered segments, or the code itself.
+ #6 
+ Klaus Schmeh 
+ 11. April 2021 
+ @Thomas:
+>Am 7. Nov. 1648 scheint es nur
+>einen Brief gegeben zu haben:
+Danke für den Hinweis. Ich habe die zwei Zeilen in der oberen linken Ecke übersehen. Jetzt passt es.
+ #7 
+ Klaus Schmeh 
+ 11. April 2021 
+ @Matthew Brown
+Thank you very much for the transcript.
+ #8 
+ Matthew Brown 
+ 12. April 2021 
+ There’s an earlier nomenclator from 1643 which has been deciphered in the notebook [f.152r + f.158v]. The partial key would look something like this;
+ A = 17,18,19
+B = 13
+C = 11
+D = 5
+E = 7,8
+F = 15,16
+G = 22
+H = 31,32
+I = 27,28
+K = 25
+L = 23,24
+M = 42,43,44
+N = 40,41
+O = 35,36,37,38
+P = 33
+Q = 52
+R = 50,51
+S = 48,49
+T = 45
+U = 62,63,64
+ , = 66
+. = 69
+ 174 = Hereford
+189 = King of England
+198 = London
+239 = Prince Charles
+ I suspect the nomenclator of 1648 will be laid out in a similar way with a variable number of homophones per letter, which are numbered sequentially, and code groups in alphabetical order.
+ There’s also a pattern to the way the latter half of the alphabet has been disarranged, with sets of four letters being reversed;
+DECBFAG LKIH PONM TSRQ U
+ #9 
+ Matthew Brown 
+ 13. April 2021 
+ Transcription of 2nd of September 1648 letter;
+ Charles/ Yours of the 19 of Aug with a perfect and full account from 189
+of all your proceedings. I receaved upon Wednesday Last; to which my answer is
+that I disaprove nothing that you have done…
+… Wherefor my advyce is (for at this distance, I will give no positive com-
+mands, find that you are so steady to my Grounds) that 2 346 615 275 561 563
+528 236 2 156 12 330 51 53 7 20 1 27 5 29 156 351 157 557 24 9 22 15 142 61 485
+24 157 52 50 39 71 563 25 615 ought 428 557 300 345 557 530 432 49 563 528
+149 100 178 346 614 300 350 557 rather 609 216 563 364 447 530 51 62 352 ad
+heare 572 563 554 56 411 600 406 2 5 15 29 50 563 35 615 164 557 300 101 277 21 72
+347 possible 561 614 300 350 405 61 36 10 17 157 52 563 71 70 19 23 5 51 157 557 make
+559 6 15 7 33 164 277 406 561 46 563 29 593 61 595 90 3 9 345 51 62 406 9
+ Nor is it reasonable or fit that I should leave it to the uncertainty of
+rumors to make you unsatisfied with my Actions, and I suppose there may be
+three things wherein I may be thought to have yealded too far, or not to have insist
+anufe in; to witt 210 563 9 6 24 347 51 351 447 528 345 557 563 554 66 100 536 350
+277 61 26 34 5 447 614 203 101 155 25 19 44 350 583 277 563 27 23 90 7 15 447 53
+76 78 102 Now to understand me right in all thease, you must first 199 5 61 410 100
+598 411 9 4 52 50 39 503 528 54 5 29 15 236 50 16 602 411 406 203 158 340 211 557 255 503 475 (as
+they calle them) 345 557 19 554 56 58 560 598 563 508 603 340 62 36 46 22 5 43 45 2 
+ 45 26 72 21 17 15 501 558 595 50 55 70 33 53 16 5 503 528 103 561 340 238 428 429 455
+557 536 277 451 447 614 203 104 155 561 340 598 217 52 15 25 62 557 554 345 583
+105 178 503 528 543 428 179 50 65 7 43 63 60 5 6 68 277 340 609 14 15 17 2 559 345
+557 563 554 66 69 179 277 165 44 156 50 29 31 158 471 70 5 15 60 350 503 39 345 78 378
+593 51 340 543 530 277 451 447 614 203 106 155 for the Place of Treaty if I had refused
+it (for I chose it not, but it was claimed to my hand) it might have been to Treate 155 613 340
+325 1 21 52 345 410 562 61 157 428 339 27 36 71 51 31 8 23 5 557 554 410 61 15 33 4 5
+345 557 453 430 373 107 
+ Sep 5. Sr Peter Killigrews coming staid this Dispach untill now; by whom I
+perceave that the Treaty will certainly beginn the next Weeke…
+Your Loving Father
+Charles R
+ #10 
+ Klaus Schmeh 
+ 13. April 2021 
+ @Matthew Brown:
+Thank you very much! I’m now well prepared for the talk on Sunday. Of course, I will mention your contributions.
+ #11 
+ Thomas 
+ 15. April 2021 
+ This appears to be another cipher letter written by King Charles I from Newcastle to the Prince on Christmas day (Original Wallis’decryption in the scans at the bottom): https://www.dominicwinter.co.uk/Auction/Lot/375-wallis-john-a-collection-of-letters-intercepted-in-cipher-during-the-late-warres-in-england-1653/?lot=361781 . Maybe the cipher key can be revealed with “reverse engineering”.
+ #12 
+ Jozef Krajcovic 
+ Šelpice
+ 15. April 2021 
+ Letter to Benjamin Worsley (May 22, 1648), online:
+ https://books.google.sk/books?id=TDYQAAAAYAAJ&pg=PA239 
+ #13 
+ Norbert 
+ 17. April 2021 
+ @Thomas(#11): Very interesting finding! This letter was written in Newcastle on “Candlemas”, so probably February 2, 1647 (somewhat unclear though: according to Wikipedia, Charles left Newcastle in January 1647). This is very close to the letters presented by Klaus.
+ The nomenclator of Wallis’ decipherment is approximately as follows:
+1  o     25 s           52 t
+2  e     26 e           53 r
+3  a     28 i           54 u
+5  a     30 (null?)     55 g
+7  ?     32 l           56 m
+8  f     34 l           58 r
+9  o     39 n           60 t
+10 i     40 s           61 m
+11 e     41 h           62 g
+12 r     43 n           63 t
+13 f     44 p           66 u
+15 ?     45 s           68 t
+17 l/a   46 h           69 b
+18 f     47 s           71 y
+19 i     49 n           76 b
+22 e     50 (null?)     79 y
+23 a     51 t           81 c
+ ----------
+ 82  d        131 le(t)     207 may   
+85  c        132 est       208 made  
+87  r        136 ever      211 make  
+88  c        141 for(e)    215 men   
+90  d        149 great     217 me    
+100 all      161 here      227 new   
+101 are      162 have      229 not   
+102 as       168 hope      230 no    
+103 at       173 I         233 lay   
+108 and      174 in        236 of    
+109 be       175 ion       237 or    
+111 by       176 ing       238 on    
+116 can      179 it        242 only  
+118 come     180 is        275 send  
+122 con      188 kind      279 should
+124 day      192 least     293 so    
+127 do       206 my        304 this  
+ ----------
+ 305 that                 351 "MR" (Montrose?)
+307 thought              364 "CP" (Charles II)
+308 thank                412 assure
+312 tell                 429 believe
+313 to                   450 charge
+315 then                 466 estate
+320 upon                 502 England
+325 will                 513 express
+326 with                 534 expert
+327 which                543 find
+329 when                 548 God
+330 where                608 special
+331 who                  613 letter
+334 what                 643 ight
+341 whether              769 safe
+342 you                  784 true
+347 "CR" (Charles I)     859 ten
+ Some of Wallis’ guesses appear debatable, e. g. “you have so true a sense of my estate” misses two code groups and ignores Charles’ spelling “… sence”. Maybe it has to do with the “subsistence of my estate”? Also, “expert in my special pleas” does not really fit imho (I would like to suggest “my royalties” but this appears problematic too). The “straight charge” (643 = ight) might as well be a “strange charge” (643 = nge) and so on. Nonetheless, Wallis’ decipherment is once again admirable and brilliant, and by and large the nomenclator above should be very close to the original.
+ It seems that the 3-digit part was originally sorted purely alphabetically (plus a part with proper names), but at some point underwent an expansion that was sorted alphabetically in itself as well (412=assure, 429=believe …) The range above 800 could be reserved for numbers. 
+ It is not to be expected that the nomenclator for the letters in question is less complex in structure. However, one can hope that the three-digit code groups are sorted completely alphabetically, since it is apparently a new cipher (“This Cypher which now I write in …”).
+ #14 
+ Norbert 
+ 17. April 2021 
+ Wallis’ letter has a total of 256 code groups (140 different ones). The letters in question (excluding the one to Worsley) have 515 code groups (161 different ones). Does not look so bad. You would have to be John Wallis …
+ #15 
+ Thomas 
+ 18. April 2021 
+ @Norbert
+ Awesome, excellent work!
+ Most likely Wallis had more letters written with the same nomenclator. Otherwise it would have been impossible to decrypt for example 233 17 25 68 12 5 643 to “lay a straight”, since these numbers occur only once in this letters (if I haven’t overlooked anything), so that there is no unambiguous assignment. Only here I’m not sure if your assignments are correct: 233=lay doesn’t match the alphabetical order of the “dictionary” part. Moreover, if there was a particular number for “ight”, why didn’t Charles use it in the last line (“blessing light”), instead of breaking it up into separated letters “i g h t”? 
+ 315 was decrypted by Wallis in two different ways: In line 7 to “than” and in the third to last line to a shorthand-like character that he used for “you” in other places. Apparenty he wasn’t sure here either.
+ It seems that Wallis hadn’t any plausible solution for 30 50 in the second to last line, since there is missing something in his decipherment (two consecutive nulls??).
+ The single letter part of the nomenclator used in the letter from Sept. 1648 might have been slightly longer than the one used in the Candlemas (which I took for Christmas, haha) letter: there are three groops (277-451)-447-614-203-101/104/106-155 which indicates that 101/104/106 are homophones representing a single letter (homophones for words/syllables are unlikely). A longer single letter part would line up with your observation that the Candlemas letter contains more different numbers.
+ #16 
+ Matthew Brown 
+ 18. April 2021 
+ I think I’m making some slight progress on this. 
+ I’ve managed to reverse a second key using the ciphertext and decryptions from this source; https://books.google.co.uk/books?id=u5gBAAAAQAAJ&pg=PA151#v=onepage&q&f=false 
+ Looking at these 2 keys as well as the summaries on Satoshi Tomokiyo’s site its clear that the code part is usually split into 2 alphabetical blocks, one for common words (which usually comes first) and one for more specific terms.
+ The words within the blocks are in alphabetical order but are shuffled within each letter group, so all the A words are before the B words but not necessarily in order.
+ The vocabulary of the common words block doesn’t seem to vary much between different nomenclators. It seems like a good method of attack if its region in the code numbers can be worked out.
+ Looking at frequency graph for our cipher there is a flat region in the centre which makes me speculate that the blocks have been swapped and the common word block is at the end in this cipher.
+ There is a large gap in the code numbers between 300 and 325 which could mark the boundry. This would mean the common words block runs from 325 to 615.
+ The final word in the common word block for the 2 known keys is YOU. The frequency for [615=YOU] looks about right and it makes grammatical sense in 2 places in the ciphertext; “615 ought 428” and “And now I must command you to answer me freely to a
+Question, (I am confident that you will not dissemble with me) which is, if 615 211 179”, which makes me think I’m headed in the right direction…
+ #17 
+ Norbert 
+ 18. April 2021 
+ @Matthew: I also assume that 615=you, but I am still hoping that we are looking at just one alphabetically sorted block instead of two …
+ Let me make some more suggestions:
+614 = your
+563 = the
+561 = that
+557 = to
+ (I first assumed that 572=to, because of “adheare 572”, but 572 appears only once, while “to” must be a fairly frequent code group. I therefore suggest the archaic “unto”:)
+ 572 = unto
+447 = of
+428 = now (or another adverb, because of “you ought 428 to”)
+340/345/347/350 = is/it/if/in (in another order maybe)
+ The code group 528 occurs only in the letter of September 2, and once in the one of November 6: “I gave you a conditional advice concerning 563 (=the?) 528 456”. Could it be about considerations how to free Charles I from captivity? So 563 528 456 = the rescue/salvation plan? Just a very speculative thought …
+ If 563=the is correct, then the parenthesis in the October 3 letter is very interesting: “(36 563 29 1 39 5 51 37 15 7 72 61)”. It could begin with “o-the-r” or “o-the-r-s”. Maybe something like “others redeemed”, “others returned” (I think he may be talking about financial and estate matters)?
+ All this could lead to the completely wrong track – it’s only suggestions …
+ @Thomas: Yes, you are absolutely right, the letter section likely ranges from 1 to 107!
+ #18 
+ Matthew Brown 
+ 18. April 2021 
+ @Norbert
+ I’ve penciled in the same for; YOUR,THE,THAT,TO.
+ Looking again, a single block might make more sense as the cluster of “i” words lines up nicely.
+ I think 277 could be FOR, because the frequencies match and it fits in the ciphertext,
+“404 277(for) 615(you); to this I would have your speedy resolution.”
+ A possibility I had for;
+(36 563 29 1 39 5 51 37 15 7 72 61)
+ o the r w a i s
+ I think there may be a block of names around 180-200 because of;
+“a perfect and full account from 189 of all your proceedings”
+ #19 
+ Norbert 
+ 19. April 2021 
+ I am now convinced that not only the letter to Worsley, but also the one of August 1 to Charles’ son is written in a separate cipher. There is simply too little overlap of code groups with the subsequent letters to Charles II. Furthermore, we can assume with some certainty that the code group 379 stands for “you” in this letter, while in the subsequent letters it is 615, as Matthew has pointed out.
+ #20 
+ Norbert 
+ 20. April 2021 
+ I think I have finally cracked it. Here is my proposed nomenclator for the letters starting September 2, 1648. Of course it is incomplete and will surely still have errors in it.
+Will provide the plaintext tomorrow…
+1  _     17 c     33 l     53 u     78  i   
+2  h     19 a     34 m     54 w     90  a   
+3  g     20 h     35 n     55 x     101 m   
+4  f     21 i     36 o     56 y     102 n   
+5  e     22 k     37 p     57 x     104 m   
+6  d     23 l     39 r     60 t     106 m   
+7  c     24 m     43 e     61 s     142 able
+8  b     25 n     44 m     62 t     155 and 
+9  a     26 o     45 n     63 p     156 at  
+10 _     27 p     46 o     65 c     157 as  
+12 h     29 r     49 r     70 c     158 all 
+14 f     30 s     50 e     71 s     164 are 
+15 e     31 i     51 s     72 t     179 be  
+16 d     32 k     52 t     76 a     203 com 
+ ----------
+ 211 can        442 order           561 that
+217 con        447 on              562 thought
+277 for        448 one             563 the
+278 friend     471 of              572 unto
+328 her        475 parliament      593 way
+334 here       509 regard          595 would
+339 im         516 request         598 will
+340 it         528 restoration     613 yet
+345 in         536 spouse          614 your
+347 is         543 shall           615 you
+350 ing        554 take 
+351 ion        557 to   
+410 my         558 this 
+428 not        559 them 
+ #21 
+ Thomas 
+ 20. April 2021 
+ @Norbert Wallis
+ Amazing! Fantastic! Congratulations! I’m looking forward to tomorrow.
+ It’s interestig how Charles or his cipher clerk composed the assignments of numbers to parts of the alphabet in this case: backward, backward, forward, forward …
+ #22 
+ Matthew Brown 
+ 20. April 2021 
+ Fantastic work! Congratulations Norbert!
+ I’d spotted an odd pattern that words tended to contact with homophones that were spaced 10 apart but wasn’t sure if it was coincidence, so it’s satisfying to see the explanation for that.
+ #23 
+ Norbert 
+ 20. April 2021 
+ First corrections: 536 = send, 554 = treat
+and additions: 66 = y, 105 = a, 178 = by, 583 = Westminster
+ I am still very unsure about 528: restoration? restitution? reinstatement? something completely different? For now, I’ll change it to “return” and think it over further …
+ Decipherment of the September 2 letter. Cleartext in italics. 
+ [f. 209r]
+ Cairsbrook [=Carisbrooke Castle] Saterday 2. Sep: 1648
+Charles/yours of the 19. of Aug: with a perfect & full account from 189
+ of all your proceedings. I receaved upon Wednesday Last; to w[hi]ch my Answer is,
+that I disaprove nothing that you have done (…)
+(…) wherefor my advyce is (for at this distance, I will give no positive com-
+mands, seing that you are so steady to my Grounds) that 346 you 275 that the
+return 236 h-at-h 330 s-u-c-h _ o-p-e-r-at-ion as to m-a-k-e-able s 485
+m-as-t-e-r-s the-n you ought not to 300 in-to 530 432 r the return
+149 100 178 346 your 300 ing to eather 609 216 the 364 on 530 s-t 352 ad-
+heare unto the treat-y 411 600 406 h-e-e-r-e the-n you are to 300 m for i-t
+is possible that your 300 ing 405 s-o _ c-as-t the s-c-a-l-e-s as to make 
+them d-e-c-l-are for 406 that o-the-r-way-s would a-g-a-in-s-t 406 a
+ Nor is it reasonable or fitt that I should leave it to the uncertainty of
+rumors to make you unsatisfied with my Actions, & I suppose there may be
+three things wherein I may be thought to have yealded too far, or not to have insist
+anufe [=enough?] in; to witt 210 the a-d-m-is-s-ion on return in-to the treat-y 100 send-ing
+for s-o-m-e on your com-m-and n-a-m-ing Westminster for the p-l-a-c-e on v-
+a-i-n; now to understand me right in all thease, you must first 199 that my 160/166[?]
+will 411 a-f-t-e-r the return w-e-r-e 236-e-d 602 411 406 263 all it can to 255 the parliament (as
+they calle them) in-to a treat-y 58 560 will the 508 603 it t-o-o-k-e e [catchword: n-o-] 
+ [f. 209v]
+n-o-t-i-c-e that this would e-x-c-l-u-d-e the return 103 that it 238 not 429 455
+to send for 451 on your com-m-and that it will con-t-e-n-t to treat in Westminster
+a-by [=Abbey] the return shall not be e-c-c-e-p-t-e-d 68 for it 609 f-e-c-h them in-
+to the treat-y 69 be for 165 m-at-e-r-i-all of c-e-e-t-ing the r in i 378
+way-s it shall send for 451 on your com-m-and for the Place of Treaty, if I had refused
+it (for I chose it not, but it was claimed to my hand) it might have been said, with some
+probability, that I desyred more to continue Distractions then to Treate and yet it
+325 _ i-t in my thought-s (as not im-p-o-s-s-i-b-l-e) to treat my-s-e-l-f-e
+in-to 453 430 373 107.
+ Sep 5. Sr Peter Killigrews coming staid this Dispach untill now; by whom I
+perceave that the Treaty will certainly beginn the next Weeke (…) So God bless you.
+Your Loving Father
+Charles R
+ #24 
+ Norbert 
+ 20. April 2021 
+ Newport, Tuesday, October 3 1648. 
+ Charles
+Yours by Oudart I received upon Sunday last, and am very well
+satisfied with your account, and his relation; only I some-
+what wonder that you give me no account of my last Letter, which
+was of the 6th of September our Stile, wherein I gave you a con-
+ditional advice concerning the return 456, of which you was then
+more able to judge than I; but now being at some more freedom,
+I hope shortly to give you a reasonable clear advice: As for my Di-
+rections to you at this time, the issue of this Treaty must be your
+chief Guide; in the mean time, cherish the Fleet as much as you
+may, and stay where you are, until you hear farther from me, or
+that you find you cannot hear from me; and in that case, you are
+to guide your self according to your best Intelligence, in order to
+my relief: And now I must command you to answer me freely to a
+Question, (I am confident that you will not dissemble with me)
+which is, if you can be con-t-e-n-t to m-a-r-
+r-y _ m-a-d-a-m-o-is-e-l-l-e in regard
+on her p-e-r-s-one it 275-ing her in (o-
+the-r _ r-e-s-p-e-c-t-s) _ a 285 404 for
+you; to this I would have your speedy resolution, for I am told that
+lost time now in it, will not be recovered, and I believe it may be
+of much advantage to my Service, wherefore it were pity to let flip
+this opportunity; so referring you to Oudart for a relation of this
+Treaty, I rest
+Your loving Father 
+ #25 
+ Norbert 
+ 20. April 2021 
+ Newport the 6 of No[vember] 1648 
+ Charles/ this Day I have receaved yours of the 17th of Oct: w[hi]ch is
+the only letter I have had from you, since your Man Mason came;
+but nothing of that particular account in writing w[hi]ch tould
+me of I should have from 189 100. I have written so fully to you by
+two former Dispaches Dated the 19 & 24 of Oct. that I have nothing
+to ad, but that the Treaty is prolonged for 14 Dayes; and that it
+325 429 412 332 to e-s-c-a-i-e [escape] 565 n it 330 as for
+particulars, I refer you to Oudart, whom I have comanded to
+send you all our transactions 178 362 s 434 on t-h-o-s-e 564 s 602 it w-r-
+i-t-s to you in c-y-p-h-e-r. I have now no more to say
+but to refer you to my former direction: So God bless you.
+Your loving Father
+Charles R 
+ #26 
+ Norbert 
+ 20. April 2021 
+ Newport 7 No[vember] 1648 
+ Let none decypher this but your selfe, or my Lord Culpeper.
+ Charles/ I have had so hopefull a reporte of your Sicke-
+ness by Dr. Fraiser, that I hope you will be fitt to read
+a letter, before that this can come to you; & though now
+I will not troble you with long discourses, yet, I must
+desyre of you an account of the receipt of my former letters, to witt fyve
+in October, besydes one yesterday; in some of w[hi]ch I gave you
+an advice on send-ing the friend to here be-ing yet on the
+s-a-m-e order as all so 210 my o-w-e-n request to e-s-c-a-p-
+e _ on 602 429 it 325 299 332. for other things I refer
+you to my former letters, & to the obedience of your Mo-
+thers Commands: So God bless you, & send you perfect
+healthe & Prosperity
+Your loving Father
+Charles R 
+ #27 
+ Matthew Brown 
+ 20. April 2021 
+ Some possible adjustments/additions;
+100 = advice
+236 = end
+330 = had
+406 = me
+554 = treat
+593 = wai
+602 = with
+ #28 
+ Matthew Brown 
+ 20. April 2021 
+ I think 447 = on and 471 = of should be swapped.
+ 528 could be a persons name?
+563 9 6 24 347 51 351 447 528 345 557 563 554 66
+“the a d m is s ion of R. in to the treat y”
+ #29 
+ Norbert 
+ 20. April 2021 
+ @Matthew: Thank you very much! Another correction:
+278 = fleet. The last letter then reads
+ … an advice on send-ing the fleet to here …
+ (“friend” is a leftover from an old version when I believed Charles I would repeat the request to marry “Mademoiselle”, i. e. Lucy Walter .)
+ #30 
+ Norbert 
+ 20. April 2021 
+ @Matthew: I am not convinced of 100 = advice:
+ a) In the September 2 letter, 100 occurs twice. The instance where we have context could simply be taken for a comma.
+ b) The person “189” is mentioned twice: “perfect & full account from 189” (Sep 2) and “nothing of that particular account … I should have from 189 100” (Nov 6).
+ So – how about a null? This would look very nice:
+ nulls: 1, 10, 100.
+ #31 
+ Matthew Brown 
+ 20. April 2021 
+ @Norbert Yes that fits nicely. 
+ I also think;
+447,448 = on
+451 = one
+ #32 
+ Jozef Krajcovic 
+ Šelpice
+ 20. April 2021 
+ This is Great achievement, @Norbert, Thomas and Matthew! Congratulations!
+ #33 
+ Klaus Schmeh 
+ 20. April 2021 
+ Norbert: Congratulations and thank you very much for this great contribution! Thanks also to Matthew and Thomas! This is a really amazing codebreaking success.
+ #34 
+ Norbert 
+ 20. April 2021 
+ @Klaus: Danke 🙂 Falls du planen solltest, einen neuen Artikel darüber zu schreiben: Nomenklator und Klartexte bitte nicht von meinen Posts übernehmen, sondern mich kontaktieren – wir haben inzwischen so viele Verbesserungen, dass die Posts schon Schnee von gestern sind.
+ @Matthew:
+Thank you again. I agree with 448 = on, 451 = one and think 447 = of (which actually was your correction to my first version), leaving 471 without assignment for the time being.
+ More corrections:
+– 340 = I (uppercase), just like in the letter that Wallis had deciphered! This makes much more sense, e. g. “I took notice that …” instead of “it tooke notice”.
+ – 406 = me is weak assumption, so I dropped it.
+ – 285 404 = good match (seems almost too obvious, but Google books finds some 17th century examples of it, so why not).
+ – 275 = ensure
+ – 346 = instantly (or immediately)
+ – After some Wikipediation, I decided that 528 236 must refer to the Engagers , so my latest version for it is 528 = Scots / 236 = Engager army, while “the 528 w-e-r-e 236-e-d” could mean “the Scots were engaged”.
+ #35 
+ Matthew Brown 
+ 21. April 2021 
+ The decryption is looking pretty good now, changing it to I was a big improvement. Here’s a few more suggestions;
+ 325 = had
+475 = parliamentarians (instead of parliament)
+602 = which
+ “… of send ing the fleet to here be ing yet of …”
+I think here(334) is more likely a place name starting with H.
+ #36 
+ Matthew Brown 
+ 21. April 2021 
+ Here are some more speculative suggestions;
+ 105 = ,
+149 = army
+178 = but (instead of by)
+275 = find (instead of ensure)
+346 = if (instead of instantly)
+405 = may
+503 = presbyte/presbyterian
+ #37 
+ Norbert 
+ 21. April 2021 
+ @Matthew: Thanks for constantly improving the nomenclator! All your suggestions are convincing – except 503: I think that’s a transcription error and it actually reads 563 in all cases.
+ So the idea of “Westminster Abbey” has failed and I’m crossing out “Westminster”. But that doesn’t matter: I have ordered two books on the Second Civil War and am confident of finding out where exactly Charles wanted to hold the negotiations (they finally took place in Newport).
+ So, we’re getting closer! Hopefully closer still, if the following ideas are correct:
+ 100 through 107 are all nulls! (mostly used as punctuation)
+160 = arrest
+199 = claim
+203 = choice
+325 = have
+330 = had
+362 = know
+406 = me
+411 = made
+434 = none
+485 = real
+560 = there
+564 = which
+598 = was
+ What do you think?
+ #38 
+ Norbert 
+ 21. April 2021 
+ And also:
+65 = x
+299 = great
+332 = hope
+429 = now
+ (Sorry, guys, it’s getting a bit confusing. It will soon be time for a new version, which I might send directly to Klaus.)
+ #39 
+ Norbert 
+ 21. April 2021 
+ Wow, it’s starting to fill up by itself:
+68 = a
+76 = y
+78 = (null)
+216 = cause
+300 = go
+352 = ill
+364 = king
+406 = me
+432 = no
+530 = Scotland
+600 = with
+609 = will
+ #40 
+ Norbert 
+ 21. April 2021 
+ 508 = response
+603 = whether
+corrected again (and now solid): 203 = Council
+ (Sorry again for cluttering up the thread – maybe it’s kind of amusing to follow … At least the text of the letters has become pretty clear now.)
+ #41 
+ Matthew Brown 
+ 21. April 2021 
+ 165 = any
+238 = did
+378 = lyke
+ Almost complete now, just that mysterious verb at 300 to find.
+ #42 
+ Norbert 
+ 21. April 2021 
+ 364 = “king” is nonsense. (“The king of Scotland”? Haha, that was Charles I himself). Maybe “kirk”? I’ll leave it for today …
+ #43 
+ Norbert 
+ 21. April 2021 
+ @Matthew: go
+ #44 
+ Matthew Brown 
+ 22. April 2021 
+ A few final suggestions;
+ 58 = null
+166 = assurance or assistance?
+255 = enter
+412 = more
+455 = offer
+508 = reason (instead of response)
+560 = that (instead of there)
+565 = tha
+564 = text
+603 = why
+ I think it’s now in a pretty readable state and just needs a little bit of tweaking. 
+ Some of the more ambiguous terms we’ll likely never be sure of and might be better left blank.
+ #45 
+ Norbert 
+ 22. April 2021 
+ @Matthew: I asked Klaus to send you my email address. I’d be happy to get the nomenclator and the text up to the best possible shape with you together (leaving out the words that would be too speculative). I will then send it to Klaus, who will post it.
+@Thomas: Could you also help with this? That would be great.
+ Kommentieren 
+ Name: * -->
+ E-Mail-Adresse: * -->
+ Ort: -->
+ Kommentar: -->
+ Antwort löschen 
+ Abonnieren
+ Abonnieren mit: 
+ RSS2 
+ Atom 
+ Mit einem Feedreader abonnieren 
+ Anzeige -->
+ Über den Autor
+ Follow @KlausSchmeh 
+Klaus Schmeh zählt zu den weltweit führenden Experten für historische Verschlüsselungstechnik. Seine Bücher "Nicht zu knacken" (über die zehn größten ungelösten Verschlüsselungsrätsel) und "Codeknacker gegen Codemacher" (über die Geschichte der Verschlüsselungstechnik) sind Standardwerke. Auf "Cipherbrain" schreibt er über sein Lieblingsthema.
+ Meine Bücher 
+ Meine Vorträge 
+ Meine Artikel 
+ In den Medien 
+ Mein Buch "Nicht zu knacken" 
+ List of Encrypted Books 
+ Über das Blog
+ Über das Blog 
+ Kontakt & Impressum 
+ Search for: 
+ Letzte Kommentare
+ Roger Morgan bei Ein ungelöstes kryptologisches Rätsel aus dem Jahr 1983 
+ Roger Morgan bei Ein ungelöstes kryptologisches Rätsel aus dem Jahr 1983 
+ LaBuseSolved bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved - labusesolved@gmail.com bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ LaBuseSolved - labusesolved@gmail.com bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ H.E. bei Der Schatz und das Kryptogramm des Piraten “La Buse” 
+ Anton Hoyer bei Die verschlüsselte Nachricht des Highland-Park-Amokläufers 
+ BREAKER bei The Top 50 unsolved encrypted messages: 49. The Chinese goldbar cryptogram 
+ Richard Bean bei Can you solve this Playfair cryptogram and set a new world record? 
+ BREAKER bei Die verschlüsselte Nachricht des Highland-Park-Amokläufers 
+ Ruth bei Neues zu den Moustier-Inschriften 
+ Top Posts & Pages
+ Goldene Alice 2022: Hier sind die Gewinner 
+ Blog via E-Mail abonnieren
+ Gib Deine E-Mail-Adresse an, um diesen Blog zu abonnieren und Benachrichtigungen über neue Beiträge via E-Mail zu erhalten.
+ Email Address 
+ Abonnieren 
+ Blogroll
+ gwup | die skeptiker 
+ Ciphermysteries 
+ Ich glaube, es hackt 
+ Zodiac-Killer 
+ genublog 
+ Rejtjelek, kódok, titkosírások 
+ Dirk's Weblog 
+ cryptovision 
+ Archive
+ Dezember 2022 
+ November 2022 
+ Oktober 2022 
+ September 2022 
+ August 2022 
+ Juli 2022 
+ Juni 2022 
+ Mai 2022 
+ April 2022 
+ März 2022 
+ Februar 2022 
+ Januar 2022 
+ Dezember 2021 
+ November 2021 
+ Oktober 2021 
+ September 2021 
+ August 2021 
+ Juli 2021 
+ Juni 2021 
+ Mai 2021 
+ April 2021 
+ März 2021 
+ Februar 2021 
+ Januar 2021 
+ Dezember 2020 
+ November 2020 
+ Oktober 2020 
+ September 2020 
+ August 2020 
+ Juli 2020 
+ Juni 2020 
+ Mai 2020 
+ April 2020 
+ März 2020 
+ Februar 2020 
+ Januar 2020 
+ Dezember 2019 
+ November 2019 
+ Oktober 2019 
+ September 2019 
+ August 2019 
+ Juli 2019 
+ Juni 2019 
+ Mai 2019 
+ April 2019 
+ März 2019 
+ Februar 2019 
+ Januar 2019 
+ Dezember 2018 
+ November 2018 
+ Oktober 2018 
+ September 2018 
+ August 2018 
+ Juli 2018 
+ Juni 2018 
+ Mai 2018 
+ April 2018 
+ März 2018 
+ Februar 2018 
+ Januar 2018 
+ Dezember 2017 
+ November 2017 
+ Oktober 2017 
+ September 2017 
+ August 2017 
+ Juli 2017 
+ Juni 2017 
+ Mai 2017 
+ April 2017 
+ März 2017 
+ Februar 2017 
+ Januar 2017 
+ Dezember 2016 
+ November 2016 
+ Oktober 2016 
+ September 2016 
+ August 2016 
+ Juli 2016 
+ Juni 2016 
+ Mai 2016 
+ April 2016 
+ März 2016 
+ Februar 2016 
+ Januar 2016 
+ Dezember 2015 
+ November 2015 
+ Oktober 2015 
+ September 2015 
+ August 2015 
+ Juli 2015 
+ Juni 2015 
+ Mai 2015 
+ April 2015 
+ März 2015 
+ Februar 2015 
+ Januar 2015 
+ Dezember 2014 
+ November 2014 
+ Oktober 2014 
+ September 2014 
+ August 2014 
+ Juli 2014 
+ Juni 2014 
+ Mai 2014 
+ April 2014 
+ März 2014 
+ Februar 2014 
+ Januar 2014 
+ Dezember 2013 
+ November 2013 
+ Oktober 2013 
+ September 2013 
+ August 2013 
+ Juli 2013 
+ Juni 2013 
+ Kategorien
+ Allgemein 
+ Chief Security Officer 
+ chip implant 
+ Cicada 3301 
+ code talking 
+ Codes and Nomenclators 
+ crime 
+ crypto art 
+ crypto books 
+ crypto challenge 
+ crypto challenges 
+ crypto devices 
+ crypto education 
+ crypto-currencies 
+ cryptologic travel guide 
+ encrypted books 
+ encrypted gravestones 
+ encrypted inscriptions 
+ encryption device 
+ encryption machines 
+ Enigma 
+ Enigma 
+ espionage 
+ event 
+ events 
+ exhibition 
+ film 
+ forensic codebreakin 
+ forensic codebreaking 
+ Forensisches Codeknacken 
+ Friedman Ring 
+ Geistes- und Sozialwissenschaften 
+ gelöste Kryptogramme 
+ Gewinnspiel 
+ Golden Alice 
+ gravestones 
+ internet game 
+ Kriminal Digital 
+ Kryptologie 
+ Kultur 
+ manual cipher 
+ manual ciphers 
+ media 
+ Medizin 
+ modern cryptography 
+ modern cryptology 
+ Moderne Kryptologie 
+ movie code 
+ Naturwissenschaften 
+ op011 
+ passwords 
+ Podcast 
+ Politik 
+ Post Quantum Crypto 
+ postcard 
+ publications 
+ secret writing 
+ solved cryptograms 
+ Spionage 
+ Steganografie 
+ steganography 
+ Technik 
+ Tengri 137 
+ traffic analysis 
+ Ungelöste Kryptogramme 
+ unsolved cryptograms 
+ Veranstaltung 
+ verschlüsselte Tagebücher 
+ Verschlüsselungsmaschinen 
+ voice encryption 
+ Voynich manuscript 
+ Meta
+ Anmelden 
+ Artikel-Feed ( RSS ) 
+ Kommentare als RSS 
+ WordPress.org 
+ Follow @KlausSchmeh 
+ Anzeige 
+ Kontakt & Impressum 
+ Über ScienceBlogs.de 
+ Netiquette 
+ Jobs 
+ Allgemeine Nutzungsbedingungen 
+ Datenschutzbestimmungen 
+ Barrierefreiheit 
+ Mediadaten 
+ Datenschutzeinstellungen 
+ Naturwissenschaften 
+ Medizin 
+ Kultur 
+ Geistes- & Sozialwissenschaften 
+ Politik 
+ Technik 
+ Umwelt 
+ © 2026 Konradin Medien GmbH.
+ ScienceBlogs ist ein geschütztes Markenzeichen.
+ Alle Rechte vorbehalten.
