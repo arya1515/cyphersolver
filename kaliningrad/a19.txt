@@ -1,0 +1,18 @@
+entry-content">
+ Two years ago an encrypted bottle post was found in Kaliningrad, Russia. Can a reader break this cryptogram?
+Click here for the complete top 50 list
+Kalinigrad, formerly known as Königsberg, used to be the most Eastern German city, before it became a part of the Soviet Union after World War 2. There is a famous mystery connected to Kaliningrad/Königsberg: the Amber Room.
+Last year I found an online article (here’s the Google Translate version of it) mentioning a second mystery related to Kaliningrad. This one is about an encrypted bottle post.
+Kalinigrad’s second mystery
+According to this article, in 2015 roadworkers found a brown glass bottle containing a sheet of paper. On the sheet an encrypted message is written. Here’s the front side:
+And this is the rear side:
+The bottle that contained the message appears to be a mass product from the Soviet era (i.e., after WW2). The paper and the writing style look post-war to me, too.
+The encryption method used might be a simple letter substitution (MASC), though the many apostrophes are a little confusing. On the first page, one letter is underlined, another one is even double underlined.
+It is completely unclear what the purpose of this bottle post was. Maybe, somebody looking for a place to hide important information thought putting it into a small bottle and digging it somewhere might be a good idea. I can also imagine two lovers who exchanged encrypted love letters this way. Or was the bottle used by a spy to place a message at a dead drop?
+What my readers found out
+I blogged about the Kaliningrad bottle post for the first time in September 2016. Some of my readers published a number of interesting comments.
+As it turned out, the cryptogram was discussed in a Russian blog post, too. A reader of this post created the following frequency count:
+Considering that the message was probably written in the Soviet era, Russian seems to be the most likely cleartext language. According to blog reader Thomas, the index of coincidence of the cryptogram is about 0,054, which is consitstent with Russian.
+However, Russian is usually written in the cyrillic alphabet, while we deal here with the Latin alphabet. In addition, blog reader Thomas wrote: “The cryptogram has 37 characters: abcdefghiklmnorstuvwz, d’ f’ h’ l’ m’ n’ n” ö r’ s’ t’ ü z’, e with circonflex, e underlined and n underlined. That’s a bit too much for a simple substitution of the Russian alphabet. Furthermore there are too many double characters (uu, ii, ss, ff, ll, ee, t’t’, n’n’, dd).”
+Here’s another interesting comment by Thomas: “If we assume that the apostrophe wasn’t used for creating different cipher characters (t -t’ etc.) we get the frequency sequence e, n, r, i, s. Since this is characteristic of the german language, this might be an indicator for a transposition of a german plaintext.”
+I’m quite optimistic that this mystery can be solved. If you have any clues, please leave a comment.
