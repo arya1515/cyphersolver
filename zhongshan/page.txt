@@ -1,0 +1,273 @@
+Chinese Cryptography: 1871-1945
+Chinese Cryptography: 1871-1945
+This is a slightly abridged version of a Japanese article.
+Telegraphic codebooks were the basis of telegraphy in China, and encryption through substitution of figures was practiced, as detailed in "Chinese Telegraph Code (CTC), or A Brief History of Chinese Character Code (CCC)". When I wrote the article (2014), I took Chinese cryptography at the time as little more than application of codebooks in market, judging from the episode that Chinese encrypted messages during the Sino-Japanese War were readily broken by Japan and also from fragmentary information about Sun Yat-sen and Zhang Xueliang. Even in the academic circle, it was considered that there was nothing to be discussed in Chinese cryptography at the time (Kuzuoglu(2018) p.1-2). The following outlines Chinese cryptography based on new materials published in 2014-2018.
+Table of Contents
+Official Codebooks since Introduction of Telegraphy
+Superencipherment of Code
+Republic of China
+Chinese Codebreaking Activities
+References
+Official Codebooks since Introduction of Telegraphy
+Telegraphic Codebooks
+The Chinese language uses thousands of characters instead of a few dozen characters of an alphabet or syllabary. Hence, in order to send a telegram in Chinese, a codebook was indispensable to translate Chinese characters into 4-digit figures.
+In Dian bao Xin shu (dV), Dian xin Xin fa (dMV@), and Dian bao Xin bian (dV) published in the decade after the introduction of telegraphy in China in 1871, the assignment of characters to figures varied. Thereafter, at least as far as publicly available codebooks were concerned, the assignment of Dian bao Xin bian (1881) became the standard (for which many examples are given in the above-mentioned article.
+The character ordering of Dian bao Xin shu, Dian xin Xin fa, and Dian bao Xin bian conformed to that of the authoritative Kangxi Zidian (NT) (1716), with the variation of the code assignment due to the number of characters and blank spaces.
+During the Sino-French War from 1883 fought in Vietnam, telegraphy developed in the country, and new codebooks appeared. When the Zongli Yamen (`ɖ) (a body in charge of foreign policy during the late Qing period) distributed Dian xin Xin fa, requests for a copy came pouring in, and telegraphy became an indispensable means for communication. (Zhang(2018))
+Revisions of Official Codebook Dian xin Xin fa
+The Zongli Yamen issued revisions (1888, 1890) of Dian xin Xin fa as official secret codebooks (Xia (2009) p.115, Ji (2014)).
+The next revision was Hong zi Dian xin Xin fa (gdMV@) (Red Code) (1895) (its title remained "Dian xin Xin fa", to which an appellation "Hong zi Mi ben" (g{) was added, because radicals of Chinese characters were printed in red (Xia (2009), Pomi(3)). The Red Code, which had already in use in 1893 for overseas communication, was distributed to local officials in 1895 (Ji (2014)). According to Xia (2009) (p.115 n.1), it had 6950 characters, with the ordering:
+ (0001), (0002), (0003), (0004), O (0005), ..., 龢 (6950)
+龢 is numbered 7901 in Dian bao Xin bian or 7343 in Dian xin Xin fa (the first edition) (the second last entry in the body (exclusive of addenda) in both cases). This suggests that the numbering changed due to additional characters, though no change is apparent at the beginning.
+After the Red Code (1895), the Zongli Yamen (Foreign Ministry from 1901) issued revisions: Mi xin Dian ben (Vd{)(1897)CJi hai Dian ben (Ȉd{)(1899)CZhou zi Mi ben ({) (Zhou Code)(1900)CHong zi Mi ben (^{) (Hong Code)(1902)CChen zi Mi ben (C{) (Chen Code)(1904)CWu mi Dian ben (ߖd{) (Wu Code)(1906)C(Shen zi Mi ben) (\{) (Shen Code) (1908) (Xia (2009), Zhang(2018)). Revision of a codebook took time and labor, and there were only eight revisions in the thirteen years from 1895 to 1908.
+The names Ji hai, Chen, Wu, and Shen were obviously derived from the Chinese year according to the sexagenary cycle (Wikipedia) or the Chinese zodiac (Wikipedia).
+The Zhou Code, which started to be used around the time of the Boxer Rebellion, adopted a new format called Mi zhi (, "Code Straight") (see below). According to Xia (2009) (p.115, n.4), it is titled "Dian xin Xin fa (Zhou zi Mi ben)" (dMV@({)). It included 8154 characters, with the ordering:
+(0001), (0002), (0003), (0004), (0005), (0006), ..., 龢(8132)
+It appears that the arrangement of characters at the beginning was shuffled, in addition to renumbering due to additional characters. (In the figure of Zhang(2018) (see below), the ordering is the same as that of Dian bao Xin bian. One might think it is because the drawing is only for the purpose of illustrating the Mi zhi format. Zhang(2018a) n.41 says revisions to the officially designated codebooks consisted only of additions or removals of characters, confirming that the ordering was not changed. It is desired to re-check the original copy to decide whether Zhang(2018a) or Xia(2009) is correct.)
+When the Hong Code (1902) was issued, it was determined that the previous Zhou Code was kept for messages with lower secrecy. In 1908, the Shen Code, the Wu Code, the Chen Code, and the Hong Code were concurrently in use. (Zhang(2018)).
+(July 2024) One Hundred Years of the Foreign Ministry (1969) mentions three Chinese codebooks (not found even on Google) that were brought to the Japanese legation in China in 1905 by a local informant: Midian Miyao (do), Zhongguo Midian Jianming Biao (dȖ\), and Xingjun Dianbao (sRd).
+They are four-digit code. Since the first two digits are variable and the last two digits are fixed, it appears the user could fill in page numbers indicative of the first two digits. They were updated four times a year.
+The arrangement of the characters in Midian Miyao (do) are the one commonly used in China, with the three examples given having the same code numbers as Dian bao Xin bian. The arrangement is slightly different in Midian Miyao (do) and totally different in Xingjun Dianbao (sRd).
+Codebooks for International Communication
+Dian ju Ji jin (dW) (1880)
+Zeng Jize (]I), minister in London (Wikipedia), paid attention to revision of codebooks. He compiled Dian ju Ji jin (dW) (1880) to reduce the cost of international telegrams. It was to encode phrases and sentences with code words, as in Western telegraphic codebooks (see another article). The code consisted of five digits instead of four. Zeng also proposed encryption by adding a predetermined number to code numbers. (Zhang(2018), Pomi(2))
+Dian ju Ji jin was distributed to at least Li Hongzhang, He Ruzhang (@), Chen Lanbin (j), and Li Fengbao (Zhang(2018a) n.24).
+Alphabetical Telegraphic Code for Chinese Telegrams (pdMV@)i1880j
+Here are images.
+According to the title page and the preface, this was printed by order of the British diplomat, Robert Hart (Wikipedia), who served as the Inspector General for the Qing dynasty.
+Because of the revision of the international telegraph regulations in 1879, telegrams written in cipher outside Europe were counted as one word for every three digits/letters (Compare XXIII 6. of the 1879 revision with XXI 7. of the 1875 revision). It meant every character encoded with four digits would be counted as two words. In order to avoid the doubling of the cost, this codebook adopted three-letter codes. The characters included are based on Dian xin Xin fa (dMV@). (The three-letter system lost is significance upon the 1897 revision of the regulation (Zhang(2018a) p.235).)
+The title page bears "Confidential", indicating that this was not made available to the public.
+Dian bao Jian bian (dȕ) (1881)
+Li Fengbao (P), minister in Germany (Wikipedia) compiled Dian bao Jian bian (dȕ) (1881) consisting of three-letter codes for international communication. Since there are 26*26*26=17576 three-letter combinations, the surplus over what it needed to cover some 7000 ordinary Chinese characters was used to include sentences. (Zhang(2018), Pomi(2), Xia (2009))
+Japanese Codebreaking at the time of the Sino-Japanese War
+It is well-known that Japan broke Chinese codes at the time of the Sino-Japanese War. When the Northern Sea Fleet entered Nagasaki in 1886, a codebook was captured from a sailor. The encryption was solved by the Japanese in June 1894, when Wang Fengzao (P), minister in Japan, transmitted a message conveyed by the Japanese government. (Pomi (3) quotes the decipherment of the Japanese as well as the original message sent by the minister, which shows the latter is shorter. This shows that Wang knew that he should paraphrase a message known to others.)
+The decipherment by the Japanese was only revealed by publication by Mutsu Munemitsu's Kenkenroku (@@^)(1929) and Hisyo Ruisan (鏑ގ[)(1933) including papers of Ito Hirobumi (National Diet Library; 37 deciphered telegrams on p.266 ff.; reprinted in 1967 under the title Kimitsu Nisshin Senso (@푈) with Yamabe Kentaro's commentary including new materials (吕(1979) quoted by Nedved (2017) p.12, Nedved (2018) p.99). Regarding specific codes/ciphers used, there had not been development in research after 1979, when materials up to Yamabe's commentary from 1967 were reported in China in Lyu (1979). Then, Ji (2014) examined references in the archives in China and Japan and considered that the codes broken by the Japanese were the Red Code and previous revisions of Dian xin Xin fa. Messages read by the Japanese were those of Ye Zhichao (tu) (general) (Wikipedia), Yuan Shikai (͐M) (de facto minister in Korea) (Wikipedia), Wang Fengzao (minister in Japan) (Wikipedia), and Li Hongzhang (Nedved (2018) p.99-100, Nedved (2017) p.13-14)D
+Dedicated Codebooks
+Unaware of Japanese codebreaking as Qing might be, it was recognized that there were leaks of codebooks. For example, during the Sino-Japanese War, a leak of copied codebooks was reported by Chen Nenghu (\) (Wikipedia) to Li Hongzhang (Zhang(2018)).
+Thus, there appeared dedicated codebooks for use in limited channels.
+There were local codebooks named Dong mi Dian ma (d) and Sheng mi Dian ben) (d{) (Xia (2009) p.116, n.5).
+Among the examples given in Zhang(2018) are one between the Zongli Yamen and Xu Jingcheng (i) (Wikipedia), Xing jun Dian bao Lei bian (sRdޕ), and the following.
+Luo dao Han zi Mi ben ({) was a codebook that Li Hongzhang let Gustav Detring (Wikipedia)(Wikipedia) use in his communication with the court. The name refers to Luo Fenglu (L\) (Wikipedia), who created or managed the code.
+Xiang shuai Donghai Mi ben (C{) was used between Li Hongzhang and Sheng Xuanhuai. The name "Xiang shuai" refers to Zhang Zhidong (courtesy name: Xiangtao) (Wikipedia), a rival of Li Hongzhang, and Donghai refers to Sheng Xuanhuai () (courtesy name: Donghai), suggesting that it might have been prepared for use between Zhang and Sheng. Both the Luo Code and the Xiang Code were used during the Sino-Japanese War, but there is no evidence that these were broken by the Japanese (Ji (2014), Nedved (2017) p.15-16, 18)
+When Mi xin Dian ben was issued in 1897, a codebook named Xin mi Dian bian (Vd) was proposed by Baonian (۔N), a general in Guangzhou, but was not adopted. (Zhang(2018))
+Superenciphered Code
+In China, transposition cipher had been used, but substitution cipher in Chinese was made possible only by the telegraphic codebooks.
+Addition/Subtraction on Figures
+As early as 1872, Dian bao Xin shu (dV) described encipherment by adding to the four-digit code a key number agreed between the users. Such a technique was in use since it was used in 1878 between Zeng Jize, minister in London, and the Zongli Yamen or Li Hongzhang, but it was not officially employed in domestic communication (Zhang(2018a) p.238, Zhang(2018)).
+When Mi xin Dian ben was issued in 1897, the Zongli Yamen gave out instructions for addition or subtraction on four-digit codes in communicating very confidential matters (Zhang(2018)).
+Later, in 1916, the Japanese military found that telegrams of Sun Yat-sen (), then in exile in Japan, could be read with a common telegraphic codebook by subtracting 111 from the digits (described in another article in Japanese).
+Actual telegrams from April 1916 confidentially obtained by the government are preserved in JACAR.
+Indeed, using the commercial codebook after subtraction of 111 (algebraic subtraction with carry) results in what looks like Chinese text. One telegram dated 18 April is composed of 5-digit groups, and has to be regrouped into 4-digit groups. With the fifteen 5-digit groups totaling 75 digits, there are three digits in surplus. The last "123" may be a padding to make a 5-digit group.
+13 April (Sun Yat-sen to Tasan at Hankow Consulate)
+2540() 7304(d) 1996() 1273() 7304(d) 1535() 2718() 2345() 3918() 6795(K) 3060() 4661() 0187() 3652() 0197(l) 0779() 3286(h) 6264() 0449(Z) 4694() 0628() 0611() 3745() 0148(V) 1283(@) 1240() 1890() 2198() 1828() 0779() 6135(e) 0282() 0159() 2540() 0448() 
+14 April (Sun Yat-sen to Saito at Hankow Consulate)
+7419() 4056(R) 3084() 6966() 7304(d) 7983(V) 4807() 3874() 2503() 2591() 1729() 0170() 5613() 2605() 2594() 7304(d) 0112() 5613() 2503() 6121() 1143() 0389(B) 3326() 3858() 4650() 5393() 3870() 2540() 2098(c) 3745() 6868(s) 4397(z) 6264() 0449(Z) 7304(d) 3880() 2345() 3285() 0128() 6264() 3880() 4271() 2345() 1523() 3858() 4650() 1886() 2017() 1859(`) 1143() 0818() 2567() 2164() 4092(c) 3745() 1875() 6291(d) 4578() 4578() 0559() 0200(仃) 0159() 7304(d) 6178() 2591() 7436() 6678(z) 2540() 1494()
+15 April (Sun Yat-sen to Saito at Hankow Consulate)
+0724() 4056(R) 3084() 6966() 7203(阼) 7983(V) 4807() 3874() 5613() 6966() 0231() 0341() 7266() 7300(_) 0863() 
+18 April (Sun Yat-sen to Saito at Hankow Consulate)
+3060() 7292() 0486() 4804() 0634() 2712() 0628() 0611() 0111(-) 4210() 0805() 0574() 0318(M) 4099(D) 6966() 1247() 4359() 2540()
+24 April (Sun Yat-sen to Saito at Hankow Consulate)
+2540() 0690() 0114() 6713() 3179(]) 0140() 1877() 3448() 1283(@) 3463() 1890() 0559() 4055(c) 6135(e) 0282() 3463() 2568({)
+The consul at Hankow replied to the inquiry on 9 May, and added on 11 May that a recent telegram of the 10th from Sun Yat-sen to Saito employed a new scheme, whereby the code 0452, for example, could be decoded by reversing the digits into 2540, then subtracting 111 to obtain 2429 (algebraic subtraction), which can be read as "" with the codebook.
+"Mi zhi" Format
+Upon the update of the official codebook in 1897, Minister Wang Wenshao () (Wikipedia) considered the addition/subtraction might be susceptible to breakthrough, while too much complication would be prone to errors. Thus, he proposed a format called "Mi zhi" ("mi": secret; "zhi" from "Zhili Province"), whereby code numbers do not accompany characters, and the rows and columns are instead numbered with coordinates. Such a format was adopted in the next update: the Zhou Code (1900). The page number indicates the first two digits, and the row and column numbers indicate the second two digits. This facilitates production of custom codebooks by simply renumbering the pages, columns, and rows. (Zhang(2018a) p.240, Zhang(2018)) (Changing the first two digits of the four-digit codes by renumbering the pages is also described in, e.g., French codebook Sittler (1868) mentioned in another article.)
+Since 1900, apart from the designated official codebooks from the Zongli Yamen, there appeared many codebooks according to the Mi zhi format, including Tangmi ()(Tang Code) of Tang Shaoyi (ЋV), Chenmi ()(Chen Code) of Chen Bi (), and handwritten Rongzhongtang (h) (Minister Rong's Code) of Ronglu (h\). (Zhang(2018) p.241)
+A disadvantage of the "Mi zhi" format was the complication in use because characters are not accompanied with codes. It was solved by a trivial improvement by the "Ming mi" format of the next section.
+"Ming mi" Format
+Ming mi ma Dian bao shu (d) published from the Commercial Press in 1908 had blanks for renumbering the rows and columns in addition to four-digit codes accompanying the characters as in conventional codebooks. Thus, its use for plaintext communication was straightforward ("Ming", Plain), while it could also be used for secret communication ("Mi", Secret) by renumbering as with the "Mi zhi" format.
+(Many "Ming mi" (Plain/Secret) codebooks including this are described in another article.)
+Copies in which figures for renumbering are actually filled are extant such as one that belonged to Zhang Xueliang (w)(1931, according to the front cover) and a 1913 codebook at the Tokyo Metropolitan Library, as described in the above-mentioned another article.
+Kuzuoglu(2018) n.3 pointed out that there is circumstantial evidence indicating the invention of "Ming mi" was before the 1908 version from the Commercial Press (his source "Hu 2007" is not identified). It seems that the Commercial Press took the idea from "Mi zhi" of the official codebooks either because of leak or because the format itself was not secret.
+Code Condenser
+A fragment of the Kuomintang's communication with Japan in 1918 indicates use of a code condenser (Kuzuoglu p.9-10). The code condenser here (code condensers in general are discussed in another article) translates a four-digit code number into a 4-letter group. Regrouping of such groups into 10-letter groups for transmission reduces the number of telegraphic words and thus the cost.
+As an example, the phrase "d" is encoded with a codebook as:
+2494 1378 4316 7193 1032 ....
+Translating every two digits into two letters (consonant+vowel) gives:
+cete ziqi hibu puti yafo ....
+Regrouping into ten-letter groups gives:
+ceteziqihi buputiyafo ....
+Since the international telegraph regulations at the time allowed a pronounceable "word" up to the length of ten letters to be transmitted at a charge for one word (see another article), code condensers served for packing as much information as possible into a "word." If the translation table is kept secret, a code condenser could serve as a means for superencipherment of codebook codes.
+The actual condenser table extant given by Kuzuoglu n.6 appears to be "Rco{}閧ʐupVZ\ljd" at Guoshiguan, with an explanation given in "`oRcҏpd" (1918). Yamada (Rc) refers to Yamada Junzaburo (Wikipedia), a Japanese who supported Sun Yat-sen.
+The Aichi University Archives preserves a usage note for encoding between Yamada and Sun Yat-sen, which employs the same code condenser.
+    @       
+2514 2894 1129 0668 3634 *encoded in common telegraphic code
+caze dite zude yuni gufe *converted with the above-mentioned same code condenser
+...
+cazeditezu deyunigufe *regrouped into units of ten letters for saving telegraph cost
+...
+Sictyfouscte[?] cazeditezu ... *it seems to be prefixed by an indicator
+....
+A signature "Yamada Junzaburo, Shanghai" is found in a copy of a handbook entitled Jiao tong Bixi (ʕKg)(1910) preserved in the Michigan University. Not only does this book include a telegraphic code, which appears to be the same as Dian bao Xin bian (dV), but this particular copy has a handwritten table on p.159 (John McVey, telegraphic and signal codes). This table seems to be a code condenser used by Yamada.
+The above-mentioned Aichi University Archives also presents another table. It seems to be a code condenser for converting kana letters (rather than figure codes representing Chinese characters) into Roman letters.
+Sun Yat-sen's Code Condenser? (1916)
+Ishihara, Minister of Foreign Affairs, also obtained a telegram to Sun Yat-sen. It consists of 10-letter codes, except for the "Twelve" at the beginning (an indicator specifying the table used?) and several groups at the end. Judging from the syllable structure including "qi", "xu", etc., a condenser similar to the above is used. A clue may be found from the fact that the codebook does not have the figures in the 9000s, but it is not known to me whether the code was broken at the time.
+3 April 1916, from Tanaka to Sun Yat-sen
+Twelve baxuxupeja
+qicijinati bemigasiqi
+jakebiqoye kufohemige
+tuxaboboba gedoeijiga
+poyevayoxa leyoleveke
+biromapesa vorobenife
+xikebiqoye qekufiyaqa
+tijaqixiqo xitohatula
+xopavajejo ropezpo
+ngobunibai tanaka
+(JACAR B03050738800)
+The known code condensers for Yamada do not seem to solve this (see my blog).
+Romanized Kana
+There is a telegram that Huang Xing () (Wikipedia) sent to Lin Hu (ь) (Wikipedia) and Li Genyuan () (Wikipedia) in 1916. The three opposed Yuan Shikai, albeit separately from Sun Yat-sen, after the Chinese Revolution, and resided in Japan during some periods.
+REKUTATA UHOYAKATE SEKANAOKU SAKEKINISE OSUKAKUCHI REUHONIUSU MAKASUSAKU FUREOHIHE YENIKIYEHI TAKASUREU SASHIKIHE WAONIAAHO SAYEHITE UHINAKUTA NEATEMUYE SUHEUHAKA YESOMIKANU TEASUUKU TSUHAKOSE KEKININAKI TEAKETASHI KONUOHIKE HIMIKANO SHIKUSAHE UHATAKASA KEKINIKA ATAREUSASU OSO YUA NIRA KISU
+(JACAR B03050731500)
+This is different from what would result from the two code condensers above in that there are no Cs or Ls, and that there are SHI, CHI instead of SI, TI, etc., which indicates that the syllables are taken from Japanese syllabary. It is not certain whether this employed some code condenser or any other encryption scheme.
+The decoded text is filed after the telegram. See my blog post.
+Republic of China
+Revision of Secret Codebooks under the Republic of China
+The establishment of "Mi zhi" or "Ming mi" format did not eliminate the need of variation of codebooks. Whatever permutation is made on the digits, it will not change the fact that characters on the same page share the same digits for page numbers, which gives a clue for codebreaking (Kuzuoglu p.14). (Examples of codebreaking against commercial telegraphic codebooks are presented in another article.)
+Even after the Republic of China was established by the Chinese Revolution of 1911, there were many versions with different character orderings bearing different titles. Searching Dangshiguan referenced in Kuzuoglu n.5 indeed finds many titles.
+Ren mi Dianmaben (md{) (1913/4)
+Shi mi Dianmaben (d{) (1916/6)
+Cun mi Dianmaben (d{) (1916/9)
+Yi mi Dianmaben (`d{) Chuan mi Dianmaben (얧d{) (1917/9)
+*This is said to have been used at the time of the Northern Expedition (the first of which was in 1922) of the President (Sun Yat-sen?). It is wondered why the latest version was not used.
+Yun mi Dianmaben (|d{) (1919/10)
+Zhi mi Dianmaben (xd{) (1920/6)
+Chao mi Dianmaben (d{) (1920/6) *Used between the President (Sun Yat-sen?) and Senlin (X) (Wikipedia).
+Hu mi Dianmaben (d{) (1921/3)
+Zhong mi Dianmaben (d{) (1921/9)
+Jian mi Dianmaben (d{) (1921/9)(1922/1)
+Cheng mi Dianmaben (d{) (1922/6)
+Dong mi Dianmaben (d{) (1922/6)
+Zhao mi Dianmaben (d{) (1922/6)
+Gong mi Dianmaben (d{) (1922/6)
+Shan mi Dianmaben (Xd{) (1922/6)
+Liang mi Dianmaben (ǖd{) (1922/6)
+Tang mi Dianmaben (d{) (1922/6)
+Xin mi Dianmaben (Vd{) (1922/6)
+Shi mi Dianmaben (Ζd{) (1922/6)
+Zhong mi Dianmaben (d{) (1922/6)
+Yong mi Dianmaben (贖d{) (1923/9)
+Tong mi Dianmaben (d{) (nd) *Used between Hu Hanmin (ӊ) (Wikipedia) and Kong Geng (EM) (Wikipedia).
+Yi mi Tian mi Dianmaben (`cd{) (nd) *Used between He Wei () and Xie Chi (ӎ) (?Wikipedia).
+Heng mi Dianmaben (td{) (nd)
+Gong mi Dianmaben (Hd{) (nd)
+Zheng mi Dianmaben (d{) (nd)
+Many codebooks were issued in June 1922. (Is it just a coincidence that this is the month when the first Northern Expedition ended?) Compiling so many codebooks would have been a laborious task. It is desired to examine how far these codebooks differ from each other. (Unfortunately, Fig. 2 of Kuzuoglu has the same character ordering as Dian bao Xin bian (dV).)
+In 1931, there were Qing Mi () and Liang Mi (ǖ) (these names are derived from Zhang Xueliang and his courtesy name Han Qing), of which specimens of actual use will be given in the next section.
+There were other codebooks, of which the titles are known from instructions preserved in Guoshiguan. In January 1937, Tong Mi () and Yi Mi (ꖧ) were replaced with Sheng Mi () and Li Mi () (the names appear to be derived from "" (unification) and "" (victory)). In July, 
+Zhi Mi () was changed to Min Mi (). In August, Zhi Mi and Min Mi were replaced with Ting Mi (軖). In September and October, Jian Mi () and thereafter She Mi (ݖ) were used. Use was instructed for Mu Mi (s) and Yong Mi (贖) in January 1938, Lin Mi (ٖ) and Jiao Mi (p) in April, Xue Mi (ᖧ) and Chi Mi (p) in June, and Wu Mi () and Zi Mi (䢖) in August. (Kuzuoglu p.13)D
+The updates were much more frequent than the eight times in thirteen years before the Revolution. However, sometimes, only replacement of digits was instructed. For example, the instruction of 30 April 1939 was only to change the digits 1234567890 into 3690142875, respectively (1 to 3, 2 to 6, etc.) (Kuzuoglu p.13)
+Secret Codebooks Preserved in US
+(February 2025) Secret codebooks of statesmen of the Republic of China are preserved in the Li Zongren (@m) papers (covering 1944-1951) and the V. K. Wellington Koo (Weijun Gu, ڈ) papers (covering 1932-1966) in Columbia University Libraries in New York (Libraries' news).
+The website shows some photos of three codebooks: the Li Zongren codebook, the Wellington Koo codebook, and a Plain-Cipher codebook named Jia Code (). The photos of the cover of these codebooks bear an indication "扡㒼" (horizontal first, vertical last), which probably means the row number precedes the column number when forming a four-digit code.
+While the Plain-Cipher codebook seems to be substantially the same as commercially available standard codebooks, the photos of the secret codebooks for Li Zongren and Wellington Koo are invaluable. The photo of a page from the Li Zongren codebook shows it included not only characters but also words. The photo of the Wellington Koo codebook shows a list of proper names with sequential numbers (probably to be combined with page numbers to form numerical code).
+Actual Telegrams
+Pomi(8) presents actual examples of telegrams.
+Chiang Kaishek (Jiang Jieshi) to Zhang Xueliang, 25 December 1930, "Qing Mi"
+Qing Mi
+@Dian bao Xin bian
+dV
+2317 4882
+2392k 8986
+3945@ 3127
+4438 1717
+5277613
+6365r3928
+74386153
+77156363
+98#2 3564
+URGENT 6008 1838 7098 0613 0466 0451 TIENTSIN 
+        v   }           V
+1728 0479 0674 0109 3352 0338 8133 7003 2417 7193 
+      i       Z     g   h   d
+6139 1885 0615 1378 2392 2317 1420 3945 4438 6365
+ u         k     辦   @     r
+7715 #136 7438 5277 98#2 1420 #### #369 1717 0022 
+            辦         
+2973 0661 2589 SEAL 
+    @   L   @(# indicates where digits are illegible)
+*Tientsin is the transcription for Tianjin at the time.
+The beginning and ending portions can be read with the conventional code assignment of Dian bao Xin bian ("hd" means "the telegram of the 24th", where "h" represents "the 24th" in the dates table). On the other hand, the middle portion indicated in blue in the above (2317 1420 3945 4438 6365 7715 #136 7438 5277 98#2 1420 #### #369) has to be read with Qing Mi () or Qing Code, as indicated by the characters right before this portion.
+The Qing Code assignment its significantly different between Qing Mi and Dian bao Xin bian. For example, in the conventional assignment, k=8986 is in the appendix and is thus far from =4882 of the same radical (), whereas it seems both are on page 23 in Qing Mi. That is, this seems different from the mere permutation of digits according to Mi zhi or Ming Mi (Plain/Secret). It is noted that the two instances of 1420 correspond to the same character, as expected.
+Chiang Kaishek to Zhang Xueling, 7 January 1931, "Liang Mi"
+2994 URGENT TIENTSIN
+ @   }   V
+1728 0479 0674 0109 3352 0338 8133 7003 7122 7193
+      i       Z     g   z   d
+2417 1885 5328 1378 3338 3512 5388 494# ###1 #804
+ h             [   t     
+2412 4031 #348 #542 1866 1151 #50# #5#3 #25# 795#
+    Y     _   l         K   
+#445 05## 5380 4370 6437 6805 4888 #893 5734 5894
+    [] \       R       
+1388 1556 5397 3#53 #235 1713 1917 3425 6362 #758
+ [   V     W   o       Z     N
+961# 1819 1298 #589 #248 #547 #898 2063 #541 1955
+                    Z
+192# 1061 3338 0022 2973 0661 5713 6788 2894
+    j         @       @   
+*"" is annotated "?".
+Again, the beginning and ending portions are encoded with the conventional assignment. "zd" at the beginning portion means "the telegram of the 7th", where "z" represents "the 24th" in the dates table. Near the end, the timestamp is written as "", in which "" also represents "the 7th" (that is, this is a return telegram on the same date the telegram from Zhang Xueling was received). "" means 5 pm to 7 pm. according to the Chinese zodiacal hour system (Wikipedia).
+The middle portion is encoded with Liang Mi or Liang Code (ǖ), whereby the character (4438 in Qing Mi) is 3338. One cannot rely on this single example, but the paired codebooks may be different only in the page number.
+SS Zhongshan
+In October 2008, the Zhongshan Warship Museum called for solution of encrypted telegrams found in SS Zhongshan (Wikipedia), which was sunk by the Japanese bombing in 1938. One of them began with "7115 6752 7022 0735 1378" (a), which reveals that it was addressed to Chen Shaokuan (Њ) (Wikipedia), senior commander of naval forces (""). Then, the code switches to He Mi (a), and the following cannot be read. The ending portion is again in conventional code, where "7456 0582" (n) represents 11 am to 1 pm of the 21th.
+In 2009, some (352 out of 891) were decoded in 2009.
+Additional Superencipherment of Code -- Wan wan Mi dian ma (1939)
+In view of the limited security of Ming Mi (Plain/Secret), Wan wan Mi dian ma (d) (1939) by Zhang Yanxiang () was to add another layer in superencipherment of code numbers instead of compiling new codebooks. It was approved by the authority, and references to it in record indicates it was actually used (Kuzuoglu p.16).
+It regroups five 4-digit codes into four 5-digit groups, such that succession of characters from the same page of the codebook does not necessarily yield the same digits in the telegram (Kuzuoglu p.15-16). (The idea of regrouping followed by transposition is also seen in Slater's telegraph code (see another article) in EXAMPLE VII.)
+As an extreme example, the succession of the same character five times: "" is encrypted by:
+(1) encoding with a codebook:
+1378 1378 1378 1378 1378,
+(2) regrouping into 5-digit groups:
+13781 37813 78137 81378,
+(3) reversing each group:
+18731 31873 73187 87318, and
+(4) regrouping back into 4-digit groups:
+1873 1318 7373 1878 7318.
+Even the succession of the same character results in five different groups for transmission.
+In the third step, instead of reversing, the four 5-digit groups may be translated according to respective permutation patterns. In the example given in Kuzuoglu for the first 5-digit group, the permutation:
+from: 0123456789
+to  : 1308249567
+indicates translations: 0 to 1, 1 to 3, 2 to 0, etc. Thus, the first 5-digit group "13781" is translated into "38563" in this third step.
+Zhang Yanxiang also compiled Ziju Dianmashu (d), which was used during the Second Sino-Japanese War (Kuzuoglu n.12).
+Chinese Codebreaking Activities
+Jiang Zongbiao (ӏ@W)
+According to Pomi(6), Jiang Zongbiao, the first Chinese codebreaker, who worked for the telegraph office at Tianjin, taught himself techniques for codebreaking out of curiosity. He exploited fixed phrases at the end of telegrams. He succeeded in breaking secret code in 1921.
+When his superior found it, he was ordered to monitor communications of Cao Kun (錕) of the Zhili clique (Wikipedia). The encryption based on "Ming mi" posed no difficulty. The results of codebreaking were reported to Zhang Zuolin () of the Fengtian clique (the Zhili and Fengtian cliques were in cooperation, but in 1921, their relationship deteriorated). Zhang Zuolin disclosed secret documents of the Zhili clique. When the Zhili clique detected the codebreaking, Jiang Zongbiao was arrested, but was soon released because he was too important to be out of service.
+Wen Yuqing (Yu Ching Wen) (yc)
+Wen Yuqing (Yu Ching Wen) () received his PhD at Harvard University in 1920. As of January 1928, he worked as Director of Radio Administration of the Ministry of Transportation and Communications. Wen got interested in encrypted information for speculators from their agents overseas. He studied them for his own reference and taught himself codebreaking techniques.
+Wen applied his techniques to telegrams of Wang Jingwei (), Chen Gongbo (), and others. (In the midst of the White Terror of Chiang Kaishek, Wang Jingwei left for France in 1928 (Wikipedia).) Wen's codebreaking was subsidized by Song Ziwen (T.V. Soong) (vq) (Wikipedia), brother-in-law of Chiang Kaishek. Collecting materials for three months, he succeeded in breaking a first important telegram in April. Hearing of the report of the feat from Soong, Chiang Kaishek established a radio service office with Wen as its head.
+In the end of June, Wen found that Wang Jingwei's faction (the left wing of the Kuomintang) was in touch with General Feng Yuxiang (gʏ) (Wikipedia) and directed his efforts to their communications. An unknown encryption scheme baffled his initial efforts, but he made a breakthrough when he noticed that a message corresponding to a telegram appeared in a newspaper in clear text.
+Wen also succeeded in breaking into communications of the Guangxi clique (Wikipedia) and contributed to Chiang Kaishek's establishment of power.
+In the middle of the 1930s, Wen studied Japanese codes from wariness of increasing the Japanese militant attitude. Starting with simple diplomatic codes, he solved various codes, which led to establishment of the Inspection and Decoding Office of Secret Telegrams in Nanjing.
+He Yingqin ()
+Since Chiang Kaishek kept the achievement of Wen's codebreaking within his innermost circle, He Yingqin (Wikipedia), chief of staff, tackled Japanese diplomatic codes with his staff, but fell far behind Wen's achievements (Yu)D
+Yardley, Dai Li (Պ}), Wei Daming (鰑)
+Dai Li (Wikipedia) wanted his own intelligence organization, and invited Herbert O. Yardley from the United States (Kahn p.192, 187 etc.). Yardley had not only broken many codes, but also caused a sensation by exposing the activities in a book, The American Black Chamber.
+Yardley arrived in China in November 1938. While teaching cryptanalysis, he studied Japanese codes. In February 1939, he predicted bombing on Chongqing from reading a portion of simple weather code. By mid-1939, Yardley and Wei Daming succeeded in breaking Japanese air-force code, allowing them to predict air raid. (Kahn p.193; Yu)
+Dai Li induced Chiang Kaishek to consolidate the various crypto-organizations then active in China into the Office of Technological Research of the Military Council. While Chiang Kaishek appointed Wen Yuqing as director, Dai Li tried to take control by sending in personnel trained by Yardley. Tired of the contest, Wen left for Hong Kong, and then went to the United States. (Yu; wƉyc)
+The consolidation of crypto-organizations caused suspension of Yardley's work in the beginning of 1940. Yardley left China in July. (Kahn p.198)
+References
+Zhang Wenyang (2018a), "The grammar of the telegraph in the Late Qing: the design and application of Chinese telegraphic codebooks", Modern Chinese History, 12(2):227-245, July 2018 (Researchgate) DOI: 10.1080/17535654.2018.1540191 (the original paper corresponding to the following article)
+m(Zhang Wenyang)(2018)uӐdI@Fd{I݌vopv(ԐV)
+Ĉۊ(Xia Weiqi)(2009)uӐdۖxTv, ЉȊwS4 (no.183):113-118 (I found pdf on the Web, but lost the URL.)
+NI|(2017- )ujFjv (cited as Pomi herein)
+Ulug Kuzuoglu(2018), "Chinese cryptography: The Chinese Nationalist Party and intelligence management, 1927-1949", Cryptologia, 42:6, 514-539 (Academia.edu)
+u{ƉycISoAv(2017){()
+David Kahn (2004), "The Reader of Gentlemen's Mail" (Internet Archive)
+Maochun Yu (2011), OSS in China
+Related to the Sino-Japanese War
+gC(Ji Chen)(2014)un萋ca{dl暕vC(RЉȊw)(ϓ)2014N6(online)
+吕a(Lyu Wanhe)(1979)ubߝD॒{Idj桓Iv,(j)1979, 06(online)
+Gregory J. Nedved (2017), "Decryption in Progress: The Sino-Japanese War of 1894-1895 ", Cryptologic Quarterly, vol.36, 2017-03, Center for Cryptologic History (pdf) ... Probably this is based on Nedved's talk at Symposium on Cryptologic History in 2017. Although this is dated earlier than Nedved (2018) below, this seems to be written after and supercedes Nedved (2018).
+Gregory J. Nedved (2018), "The Sino-Japanese War of 1894-1895: Partially decrypted", Cryptologia, 42:2, 95-105
+Archives
+(I have not seen these.)
+Sheng Xuanhuai Archives at Shanghai Library
+Dangshiguan (}j) ... cited by Kuzuoglu as PHI (Party History Institute)
+Guoshiguan (j) ... cited by Kuzuoglu as AH (Academia Historica)
+Columnbia University Libraries (see Yingwen Huang, "Chinese Telegraphic Codebooks and Cryptography", 2019-10-09)
+Related Article:
+"Chinese Telegraph Code (CTC), or A Brief History of Chinese Character Code (CCC)"
+©2020 S.Tomokiyo
+First posted on 3 March 2020. Last modified on 3 February 2025.
+Articles on Historical Cryptography
