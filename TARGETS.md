@@ -18,11 +18,11 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 9 | Thurloe intercepts (Dutch, French, English) | 1653–56 | Medium-Hard | stuck | `thurloe/` | 4 pieces (136 / 22 / 16 / 50 groups); all cryptiana 1653-60 keys fail; Dutch/French hill-climb on 1653 letter gives fragments only; Rawlinson A originals not online |
 | 10 | Stepney → Earl of Manchester | 1702 | Medium-Hard | offline-only | `stepney/` | MS located & transcribed (Yale OSB MSS fc37 box 8 f.40, IIIF; 24 groups, 413 not 412); THE=454 Manchester key rejected; key = "Mr. Stepney's cipher" (asked for Aug 1701) in TNA SP 105/106 or BL Add MSS 7058-78 |
 | 11 | Telegram to Sun Yat-sen, Swatow 3 Apr 1916 (JACAR B03050738800) | 1916 | Hard | solved | `sunyatsen/` | Systematic 20×5 code condenser (consonants alphabetical from l, vowels e a i o u, column-major 01–00, no additive) found by brute force over the family (57 600 keys) scored with a Chinese char LM; standard telegraph code. 41 chars: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返… (3 codes garbled). Huang Xing telegram (B03050731500) not attempted. docs/sunyatsen.html |
-| 12 | Henry III → Segur | 1583–86 | Hard | todo | | BnF 500 Colbert 401; partial key |
-| 13 | 1520s superscript-digit ciphers | 1526–29 | Hard | todo | | Latin syllabic; Worcester, Gilino, Garbino |
-| 14 | D'Estaing → Gerard | 1779 | Hard | todo | | Clements Library, Clinton Papers |
-| 15 | Le Tellier → Castelnau | 1657 | Hard | todo | | syllabic, short |
-| 16 | Ferdinand III ↔ Cardinal-Infante | 1634–40 | Hard | todo | | Brussels; Latin/German |
+| 12 | Henry III → Segur | 1583–86 | Hard | blocked (Gallica access) | | BnF 500 Colbert 401; partial key |
+| 13 | 1520s superscript-digit ciphers | 1526–29 | Hard | blocked (DECODE/BL images need login) | | Latin syllabic; Worcester, Gilino, Garbino |
+| 14 | D'Estaing → Gerard | 1779 | Hard | skipped | `destaing/` | Clements Library, Clinton Papers |
+| 15 | Le Tellier → Castelnau | 1657 | Hard | skipped | `letellier/` | syllabic, short |
+| 16 | Ferdinand III ↔ Cardinal-Infante | 1634–40 | Hard | skipped (DECODE login) | `ferdinand3/` | Brussels; Latin/German |
 | 17 | Switzerland telegram | 1937 | Hard | todo | | two short messages |
 | 18 | Vatican Challenge Part 5 | 1542 | Hard | stuck | `vatican5/` | paused after serious attempt |
 | 19 | Enigma message | 1945 | Very hard | todo | | single message; compute-bound |

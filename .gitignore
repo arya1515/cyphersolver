@@ -93,3 +93,17 @@ sunyatsen/lookup_out.txt
 sunyatsen/tail_out.txt
 sunyatsen/fix_out.txt
 sunyatsen/show_out.txt
+# targets 12-16: downloaded pages, OCR texts, manifests
+destaing/*.txt
+!destaing/destaing_cryptiana.txt
+destaing/*.html
+destaing/*.htm
+letellier/*.htm
+segur/*.htm
+segur/*.html
+segur/manifest.json
+segur/*.log
+segur/img/
+superscript/*.htm
+superscript/*.html
+ferdinand3/*.html
