@@ -307,3 +307,102 @@ transcription, or the key, or a matching plaintext.
 New files: `phase.py` (parity and phase), `escape.py` (suppressed pairs, after Lasry's dictionary
 escape in the sibling cipher), `units2.py` (unit inventory), `bpe.py` (unsupervised units with
 controls), `cvtest.py` (the vowel/consonant run test).
+
+## 2026-09-15, the cipher family is identified
+
+A source hunt run alongside the statistics found the literature that settles what this cipher is.
+It is not solved, but it is no longer unidentified, and every structural measurement above turns out
+to be a match for a documented design.
+
+### It is an Antonio Elio polyphonic-syllabic cipher
+
+Antonio Elio (1506-1576), known in his own lifetime as *Antonio delle Zifre*, was cipher secretary to
+**Paul III** - the pope whose cardinal-nephew and Secretary of State, Alessandro Farnese, wrote this
+letter. Lasry, Simonetta and Biermann, "Antonio Elio 'Cipher' and his Polyphonic-Syllabic Cipher",
+HistoCrypt 2025, describe the design he invented for that chancery:
+
+* **syllabic** - most symbols encode consonant-vowel syllables, with a few for other clusters or
+  short words (*gno*, *nd*, *che*)
+* **polyphonic** - every syllable symbol has two meanings, and the second is selected by **a dot on
+  the preceding symbol**. The dots are not applied consistently, so decipherment is often
+  non-deterministic even for a secretary holding the key
+* **compound symbols** - some plaintext elements are encoded by pairs, so **any symbol may be either
+  stand-alone or half of a pair**
+* **h and any doubled letter are dropped before encryption** - *hoggi* is reduced to *ogi*
+
+### Every measurement above matches it
+
+| measured here | Elio's documented design |
+|---|---|
+| all ten doubled digits suppressed, 00 at 6 against 117 expected | doubled letters dropped before encryption |
+| dotted digits are 7/2/0 and the digit *after* a dot is 2/0/7/5 | the dot sits on the **antecedent** and selects the alternate meaning |
+| word-final units are two digits, 27 and 80, p < 10^-20 | consonant-vowel syllables as units |
+| BPE units 15% one digit, 32% two, 29% three; even-length preference real but only 58/42 | any symbol may be stand-alone or half of a compound |
+| consonant runs three times too long for letters | the level is syllables, not letters |
+
+The doubling rule is not merely inferred. Meister prints the Farnese chancery's own written
+instruction at p.223: **"Scrivasi stretto et senza duplicare le consonanti quando occorrono dittioni
+che la ricerchino"** - write tightly and without doubling the consonants where the words call for
+them. The same page also says other names may be abbreviated **"con il segno della nulla in fine
+della lettera o sillaba"**, with the null at the end of a letter or syllable. That reframes the null:
+**4 is an abbreviation and syllable marker, not a word separator**, which is why the stretches between
+nulls average 12.6 digits and never looked like words.
+
+### The published state of the art
+
+Lasry, Megyesi and Kopal, "Deciphering papal ciphers from the 16th to the 18th Century",
+*Cryptologia* 45:6 (2021), worked this exact corpus. Two statements matter:
+
+> "A polyphonic cipher described in Meister (1906, 176/2) was used by Mons. Poggio, the papal nuncio
+> to Spain at the same period; however, attempts to decipher the ciphertexts using that key did not
+> produce any result."
+
+> "The scheme appears to be a **variable-length polyphonic cipher**, which is a unique case in the
+> Vatican collections ... The ciphertexts in the second part (**IA-2**) seem to belong to another key."
+
+So the one published key naming Poggio is on record as tested and excluded, IA-2 is flagged as a
+different key again, and their description of the scheme - variable-length polyphonic - is what the
+run-length, phase and BPE work here arrived at independently.
+
+The 2025 Elio paper is blunter about the prospects:
+
+> "Ciphertext-only cryptanalysis for such a cipher would be extremely difficult and nearly
+> impossible, even with modern computing, without prior knowledge of the principles of its complex
+> design."
+
+And even **with** matching plaintext-ciphertext segments in hand, recovering the key of the 1540
+Elio cipher took three expert cryptanalysts "two full days of intensive work" to make initial
+inroads, and many further hours to finish.
+
+### The plaintext is unpublished, but its neighbours are not
+
+No edition, calendar or regesta prints Farnese to Poggio of 15 April 1542. The Spanish nunciature of
+this period has no published series at all: *Monumenta Hispaniae Vaticana* stops in 1486, Olarra's
+index starts in 1556, Serrano covers 1566-72. *Nuntiaturberichte aus Deutschland* I/7 prints Poggio
+but jumps from December 1541 to July 1543, with Cardauns noting the 1542 correspondence survives
+"nur fragmentarisch". *Concilium Tridentinum* IV prints Farnese to Poggio on 5 February and 4 June
+1542 but has nothing from April; its two April 1542 Farnese letters go to the nuncio in France.
+Pastor prints exactly two Farnese-Poggio letters, of February 1541 and August 1542.
+
+What exists, uncatalogued in print:
+
+* **Naples, Archivio di Stato, Carte Farnesiane 723** - a Farnese to Poggio letter of **12 April
+  1542**, three days before this one and in the same courier cycle
+* **AAV, Lettere de' Principi 14 A** - Farnese to Poggio register copies, ff. 1-129 covering to 4
+  June 1542; this is where Ehses took his texts
+* **BAV, Chigi L III 65** - the Farnese to Poggio originals, 348 ff. Folio calibration from the
+  editions puts 23 Nov 1541 at f.153 and 29 June 1542 at ff.191-195, so **15 April 1542 should sit at
+  roughly ff. 165-190**
+
+Cardauns repeatedly notes that these registers carry contemporary interlinear decipherments. A clear
+copy may simply exist.
+
+### Status
+
+Unsolved, and now for a fully documented reason. The cipher is identified as an Elio
+polyphonic-syllabic design of the Farnese chancery; five model classes have been excluded here, two
+against matched synthetic controls the same code solves correctly; the published specialists state
+that ciphertext-only attack on this family is near-impossible; and the transcript in circulation has
+lost the word division its solved sibling's transcript preserved. The routes in are the key from
+Chigi M II 49, the word division from the manuscript images, or the clear copy from Chigi L III 65 or
+Lettere de' Principi 14 A.

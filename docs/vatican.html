@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vatican Challenge Part 5 — what the cipher is, and why it resists</title>
-<meta name="description" content="Cardinal Farnese to the nuncio Poggio, Rome 15 April 1542, ASV Segr. Stato Spagna 1A/2. Not solved. But the model class is excluded by a matched control, the vowel-bearing digits are fixed by three independent tests, the word-final units are identified, and the transcript is shown to have lost the word division that the solved sibling cipher's transcript preserved.">
+<title>Vatican Challenge Part 5 — identified as an Antonio Elio cipher</title>
+<meta name="description" content="Cardinal Farnese to the nuncio Poggio, Rome 15 April 1542, ASV Segr. Stato Spagna 1A/2. Not solved, but identified: a polyphonic-syllabic cipher of the kind Antonio Elio designed for Paul III's chancery. Five structural measurements match that design, including a doubled-digit suppression that reproduces a written chancery rule.">
 <link rel="stylesheet" href="style.css?v=20260915d">
 <style>
 .why{display:inline-block;padding:.08em .55em;border-radius:6px;font-family:var(--mono);font-size:.7rem;
@@ -47,11 +47,8 @@
 <main>
 
 <div class="callout">
-  <h3>Not solved &mdash; and this page is about why, in a way that is specific enough to be useful</h3>
-  <p>Five attacks have been run here against this cryptogram. The honest result is that it is not a cipher any
-  letter-level method can read, and that the transcript everybody is working from has lost the one feature that made
-  its solved sibling tractable. What follows is what <i>is</i> now established, each part with the control that
-  supports it.</p>
+  <h3>Not solved &mdash; but no longer unidentified</h3>
+  <p>Five attacks have been run here against this cryptogram. It is still unread. What changed this session is that the cipher now has a name: it is a <b>polyphonic-syllabic cipher of the kind invented by Antonio Elio</b>, cipher secretary to Paul III and therefore to the very chancery that sent this letter. Every structural measurement made here turns out to match that documented design, including one that reproduces a written chancery instruction. And the specialists who solved its siblings state in print that ciphertext-only attack on this family is &ldquo;nearly impossible, even with modern computing&rdquo;.</p>
 </div>
 
 <h2><span class="num">01</span> The document</h2>
@@ -71,12 +68,13 @@ right people, the right courier, the right years. Neither key fits, and that is 
 
 <div class="item">
   <div class="meta2">the null &nbsp; <span class="why w-yes">settled</span></div>
-  <h3>Digit 4 is a word null, used about a third of the time</h3>
+  <h3>Digit 4 is a null, but not a word separator</h3>
   <p>Conditioning on 4 in the middle drops the mutual information between its neighbours to 0.030, which is what Italian
   gives across a word boundary (0.028), where every other digit sits between 0.08 and 0.17. Meister's key of 1539&ndash;42
   spells the convention out: <i>&ldquo;pongasi la nulla al fine di ogni parola&rdquo;</i>, put the null at the end of every
   word. This scribe did not. There are 482 nulls where the text needs about 1300 word ends, so the stretches between them
-  average 12.6 digits &mdash; far too long to be words, which is what misled two earlier passes here.</p>
+  average 12.6 digits &mdash; far too long to be words, which misled two earlier passes here. The chancery instruction quoted
+  in section 04 resolves it: the null marks the end of <i>a letter or syllable</i> carrying an abbreviation, not the end of a word.</p>
 </div>
 
 <div class="item">
@@ -168,7 +166,86 @@ right people, the right courier, the right years. Neither key fits, and that is 
   manuscript, which is not digitised.</p>
 </div>
 
-<h2><span class="num">04</span> The finding that best explains why this one resisted</h2>
+<h2><span class="num">04</span> What the cipher is</h2>
+
+<p>Antonio Elio (1506&ndash;1576), known in his own lifetime as <i>Antonio delle Zifre</i>, was cipher secretary to
+<b>Paul III</b> &mdash; the pope whose cardinal-nephew and Secretary of State, Alessandro Farnese, wrote this letter.
+He is credited with inventing the polyphonic cipher, and he trained the Argenti brothers who followed him. In 2025
+Lasry, Simonetta and Biermann published a reconstruction of one of his designs. It has four properties:</p>
+
+<ul>
+<li><b>Syllabic.</b> Most symbols encode consonant-vowel syllables, with a few for clusters or short words.</li>
+<li><b>Polyphonic.</b> Every syllable symbol carries two meanings, and the second is chosen by <b>a dot on the
+<i>preceding</i> symbol</b>. The dots are applied inconsistently, so even a secretary holding the key is often
+guessing.</li>
+<li><b>Compound symbols.</b> Some elements are encoded by pairs, so <b>any symbol may be stand-alone or half of a
+pair</b>.</li>
+<li><b>h and every doubled letter are dropped before encryption.</b></li>
+</ul>
+
+<p>Each of those makes a prediction, and this cryptogram satisfies all four.</p>
+
+<table>
+<tr><th>measured here</th><th>Elio's design</th></tr>
+<tr><td>all ten doubled digits suppressed &mdash; <code>00</code> occurs 6 times against 117 expected</td><td>doubled letters dropped before encryption</td></tr>
+<tr><td>dotted digits are 7, 2, 0 and the digit <i>after</i> a dot is 2/0/7/5</td><td>the dot sits on the antecedent and selects the alternate meaning</td></tr>
+<tr><td>word-final units are two digits, <code>27</code> and <code>80</code>, at p &lt; 10<sup>&minus;20</sup></td><td>consonant-vowel syllables as units</td></tr>
+<tr><td>unsupervised units come out 15% one digit, 32% two, 29% three; the even-length preference is real but only 58/42</td><td>any symbol may be stand-alone or half of a compound</td></tr>
+<tr><td>consonant runs three times too long for letters</td><td>the level is syllables, not letters</td></tr>
+</table>
+
+<p>The doubling rule is not an inference. Meister prints the Farnese chancery&rsquo;s own written instruction:</p>
+
+<p class="quote">&ldquo;Scrivasi stretto et senza duplicare le consonanti quando occorrono dittioni che la ricerchino&rdquo;
+&mdash; write tightly, and without doubling the consonants where the words call for them.</p>
+
+<p>The same instruction says other names may be abbreviated <i>&ldquo;con il segno della nulla in fine della lettera o
+sillaba&rdquo;</i>, with the null at the end of a letter or syllable. That reframes digit 4: it is an abbreviation and
+syllable marker, <b>not a word separator</b> &mdash; which is why the stretches between nulls average 12.6 digits and
+never did look like words.</p>
+
+<h2><span class="num">05</span> What the specialists say about breaking it</h2>
+
+<p>Lasry, Megyesi and Kopal worked this exact corpus for <i>Cryptologia</i> in 2021. Two of their sentences govern
+everything here. On the one published key that names Poggio &mdash; the one whose title matches this letter&rsquo;s own
+courier &mdash; <i>&ldquo;attempts to decipher the ciphertexts using that key did not produce any result.&rdquo;</i> And
+on the cipher itself: <i>&ldquo;The scheme appears to be a <b>variable-length polyphonic cipher</b>, which is a unique
+case in the Vatican collections &hellip; The ciphertexts in the second part (IA-2) seem to belong to another
+key.&rdquo;</i></p>
+
+<p>Their phrase for the scheme, <i>variable-length polyphonic</i>, is what the run-length, phase and compression work
+on this page arrived at from the other direction, without having read it.</p>
+
+<p>The 2025 paper is blunter. <i>&ldquo;Ciphertext-only cryptanalysis for such a cipher would be extremely difficult and
+nearly impossible, even with modern computing, without prior knowledge of the principles of its complex design.&rdquo;</i>
+And with matching plaintext in hand, recovering the key of a sibling took three expert cryptanalysts two full days to
+make initial inroads, and many hours more to finish.</p>
+
+<h2><span class="num">06</span> The plaintext is unpublished &mdash; but its neighbours are not</h2>
+
+<p>No edition, calendar or regesta prints this letter. The Spanish nunciature of the period has no published series at
+all: <i>Monumenta Hispaniae Vaticana</i> stops at 1486, Olarra&rsquo;s index begins in 1556, Serrano covers 1566&ndash;72.
+<i>Nuntiaturberichte aus Deutschland</i> I/7 prints Poggio but jumps from December 1541 to July 1543, its editor noting
+that the 1542 correspondence survives only in fragments. <i>Concilium Tridentinum</i> IV prints Farnese to Poggio on 5
+February and 4 June 1542 and has nothing from April; its two April letters go to the nuncio in France instead. Pastor
+prints exactly two Farnese&ndash;Poggio letters, February 1541 and August 1542.</p>
+
+<p>Three manuscripts would settle it, and none is digitised:</p>
+
+<ul>
+<li><b>Naples, Archivio di Stato, Carte Farnesiane 723</b> &mdash; a Farnese to Poggio letter of <b>12 April 1542</b>,
+three days before this one and in the same courier cycle.</li>
+<li><b>AAV, Lettere de&rsquo; Principi 14 A</b> &mdash; the Farnese to Poggio register copies, running to 4 June 1542.
+This is where the printed editions took their texts.</li>
+<li><b>BAV, Chigi L III 65</b> &mdash; the originals, 348 folios. Calibrating from dated letters in the editions puts 23
+November 1541 at f. 153 and 29 June 1542 at ff. 191&ndash;195, so <b>15 April 1542 should sit at roughly ff.
+165&ndash;190</b>.</li>
+</ul>
+
+<p>These registers are repeatedly described as carrying contemporary interlinear decipherments. A clear copy may simply
+be sitting there.</p>
+
+<h2><span class="num">07</span> The finding that best explains why this one resisted</h2>
 
 <p>Part 4 of the same challenge series is the Portugal cryptogram from the same Vatican collection, and it was solved.
 Compare the two transcripts as they are distributed.</p>
@@ -188,7 +265,7 @@ its word boundaries deleted.</p>
 this page it is fixable &mdash; from the manuscript images, which MysteryTwister does not distribute and the Vatican
 has not digitised.</p>
 
-<h2><span class="num">05</span> Where it stands</h2>
+<h2><span class="num">08</span> Where it stands</h2>
 
 <p>The cipher is a <b>variable-length syllabic code</b>: mostly two-digit units, some of one digit, over vowel-bearing
 digits {7,0,3} and consonant-bearing {8,5,2,6,9}, with <code>27</code> and <code>80</code> as the dominant word-final
