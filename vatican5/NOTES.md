@@ -444,3 +444,20 @@ Not solved, and now closed off from every direction that can be tested from the 
 remaining routes all need material that is not online: the key from Chigi M II 49, the word division
 from the manuscript images (DECODE record 92 holds them behind a login), or the clear register copy
 from Chigi L III 65 ff. ~165-190, Lettere de' Principi 14 A, or Naples Carte Farnesiane 723.
+
+### The image route, probed and closed
+
+DECODE record 92 is confirmed to be this document: name `ASV_i1025_SdS_Spain_IA-2`, 8 pages, status
+non-decrypted, first image `069v.jpg`. Its file server exposes images at
+`/decrypt-custom/filesrv/?file=...`, and the eight thumbnails are fetchable without a login.
+
+Everything above thumbnail size is not. `TH_IMG_R92_I69x_Px.jpg` returns a real JPEG at **200 x 256**;
+every other prefix tried - bare, `MD_`, `LG_`, `FULL_`, `OR_` - returns the same 986 x 568 PNG
+placeholder of identical byte length, and the size parameters `w`, `size` and `thumb` are ignored.
+
+At 200 x 256 a folio of roughly 25 lines gives each line about 8 pixels. The digits are texture, not
+glyphs; no transcription is possible and the word division cannot be verified at that resolution. What
+the thumbnails do show is that **069v is ordinary cleartext prose** while 070r onward are dense cipher,
+which matches the transcript's own structure.
+
+So the images exist, are catalogued, and are one login away - but not reachable from here.
