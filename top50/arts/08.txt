@@ -1,0 +1,365 @@
+entry-content">
+ Two encrypted newspaper advertisements from 1875 are still unsoved. Is the first one the key to the second?
+Click here for the complete top 50 list
+The book The Agony Column Codes & Ciphers by Jean Palmer (i.e., Tony Gaffney) …
+… presents over a thousand encrypted newspaper advertisements from Victorian England. While Tony has solved many of these cryptograms himself (the solutions are given in the book), some still wait to be deciphered. On Klausis Krypto Kolumne I have written about some of these.
+Many of these encrypted newspaper ads contain love messages. Others were placed by business people in order to provide information to partners and customers. Ignatius Pollaky, …
+… a private investigator of the Victorian era, communicated via newspaper advertisements, too.
+Two advertisements from 1875
+One of the most puzzling encrypted newspaper ad series described in Tony’s book was published in the Evening Standard in 1875.
+This series consists of two advertisements. The first one is contained in the May 8, 1875 issue:
+W. Str 53. Catokwacopa. Olcabrokorlested. Coomemega. Sesipyyocashostikr. Rep. – Itedconlec mistrl. – Hfsclam 54, 3 caselcluchozamot. 1. 6. 9. Mopredisco. Contoladsemot. Iadfilisat. Qft. Cagap. Balmnopsemsov. Ap. 139. – Hodsam 55, 6. Iopotonrogfimsecharsenr. Tolshr. Itedjolec. mistrl. – Ding Declon. Ereflodbr.
+Twelve days later, on May 20, a second ad in the same style was published:
+W. – Umem 18. Poayatlgerty. Dpeatcnrftin. Nvtinrdn. Dmlurpinrtrcamur. Etd. – Atndngtnsurs. Otenpu. – Eftdorshpxn. 18. Ndtsfindseseo. Cotegr Tavlysdinlge. Ngtndusdcndo. Edrstneirs. Ui, Ndted. iolapstedtioc. A. P. 138. – Yxn. 18. 18. Wtubrfftrstendinhofsvmnr. Dily. – Atdwtsurs. Oatvpu. – Y Arati. Rileohmae. – This will be intelligible if read in connection with my communication published in this column on the 8th inst.
+Note that the last sentence of the second ad is in the clear. If it is correct, the first ad might be the key that is necessary to decrypt the second one (or the other way round).
+I published a first blog post (in German) about these ciphertexts (I call them Catokwacopa cryptograms because of the first word in the first ad) in 2015. There were a couple of comments, but nobody came up with a solution. Earlier this year, I wrote a second post about the Catokwacopa cryptograms.
+A transposition cipher?
+The Catokwacopa cryptograms look different from most other encrypted advertisements in Tony’s book. Words like “Catokwacopa” and “Olcabrokorlested” are pronounceable, which is unusual for most encryption methods. My first impression was that the number of vowels is higher than usual in a ciphertext, which is evidence for a transposition cipher (encrypting a text with a substitution cipher usually lowers the number of vowels). To check whether my suspicion was correct, I performed a frequency analysis with CrypTool 2. Here’s the result:
+This frequency distribution is consistent with an ordinary English text. This makes it very likely that we deal with a transposition cipher here.
+The question is now what kind of transposition the author of these ads used. My guess is that the two ads need to be mixed somehow (e.g., letter 1 from ad 1, letter 1 from ad 2, letter 2 from ad 1, letter 2 from ad 2, …). After my last blog post about the Catokwacopa cryptograms, several readers (Thomas, Lance Estes, Dave, and JA) looked at this hypothesis in more detail. It appears to make sense, but so far, no solution has been found.
+Thomas remarked that the letter Q, which appears several times in the first ad, might be helpful, as it is almost always followed by a U. The first ad contains a Q. Is this of any help?
+Share this:
+Facebook
+Seite 1 / 2 / Auf einer Seite lesenNächste Seite »
+ Stichworte: Catokwacopa cryptograms
+ Teilen:
+ Mehr
+Kommentare (48)
+ #1
+ Mark Milhet
+ Terrytown
+ 19. Juni 2018 
+ This may not be much, but a simple insertion using the third-to-last and second-to-last pairs in each group:
+Insert ‘Y’ into ‘Ding’ to get ‘Dying’, and insert ‘Arati’ into ‘Declon’ to get ‘Declaration’ = DYING DECLARATION.
+Thoughts?
+ #2
+ Thomas Ernst
+ Latrobe
+ 21. Juni 2018 
+ Tony’s way of linking the May 8 and May 20 ads (19 August, 2015, in the original thread of the “Catokwacopa”) is very concincing. Tony came up with DYING DECLARATION for the pen- and pen-pen-ultimate sections of the pair May 8/May 20. The fact that there is at least one other ad like this documented, 27 March 1875 (see original thread, without its counterpart) makes me believe that there is a longer narrative involved. The “Evening Standard” is available online (www.britishnewspaperarchive.co.uk), but after 3 pages it’ll cost. – To follow up on Tony’s original concept, I have numbered the corresponding sections of both ads; nos. 10 and 19 may require further subdivision:
+8. May: W. [1] Str [2] 53. [3] Catokwacopa. [4] Olcabrokorlested. [5] Coomemega. [6] Sesipyyocashostikr. [7] Rep. – [8] Itedconlec [9] mistrl. – [10] Hfsclam 54, 3 [11] caselcluchozamot. [12] 1. 6. 9. [13] Mopredisco. [14] Contoladsemot. [15] Iadfilisat. [16] Qft. [17] Cagap. [18] Balmnopsemsov. [19] Ap. 139. – [20] Hodsam [21] 55, 6. [22] Iopotonrogfimsecharsenr. [23] Tolshr. [24] Itedjolec. [25] mistrl. – [26] Ding [27] Declon. [28] Ereflodbr.
+20. May: W. – [1] Umem [2] 18. [3] Poayatlgerty. [4] Dpeatcnrftin. [5] Nvtinrdn. [6] Dmlurpinrtrcamur. [7] Etd. – [8] Atndngtnsurs. [9] Otenpu. – [10] Eftdorshpxn. 18. [11] Ndtsfindseseo. [12] Cotegr [13] Tavlysdinlge. [14] Ngtndusdcndo. [15] Edrstneirs. [16] Ui, [17] Ndted. [18] iolapstedtioc. [19] A. P. 138. – [20] Yxn. [21] 18. 18. [22] Wtubrfftrstendinhofsvmnr. [23] Dily. – [24] Atdwtsurs. [25] Oatvpu. – [26] Y [27] Arati. [28] Rileohmae.
+Set [2] = 1853 (and set [1] perhaps a badly mauled “SEPTEMBER); out of set [5] CONVERTED seems to rear its ugly head, but leaves the remaining letters askance; set [7] might be an abbreviated REPEATED or REPRESENTED (the author ends his insert of May 20 on a – albeit common – abbreviation); set [21] probably stands for 1855[/-]1856 (missing “5”); sets [26] and [27] are Tony’s DYING DECLARATION. The plaintext (which, I am sure, is not a substitution cipher at all) appears to be a chronological narration, probably of an (auto?)biographical nature, of which the combo May 8/20, 1875 appears to cover events of the years 1853-1856. The dramatic-sounding “DYING DECLARATION” was certainly not made by the author, but perhaps by his uncle Rufus, or his granny, on their respective deathbed[s].
+A little bit of speculation: if this guy – or gal – posted 3-4 years of his, her or someone else’s life as a “twofer” à la Trithemius-coniuratio per month, April 1875 should cover the early 1850es, March (with a missing first part), the late 1840es. If perhaps he/she hurried half a decade of his/her sordid life into a monthly pair of the “Evening Standard”, we should find him/her caught up to his/her present state of bliss in the issues of August or September 1875.
+Further afield: maybe this person published his/her life in such a manner, because in unscrambled plaintext no-one would have read it? – In Ambérieu-en-Bugey (small town in eastern France), there is an archive of such intimate secrets: a collection of over 3000 unpublished – and mostly unpublishable – autobiographies, diaries, scrapbooks, bundles of letters and collections of emails dating from the early 19th century to the present. Often, people deliver these materials themselves. Maybe “Catokwacopa” was driven by a similar desire?
+ #3
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Afterthought on substitution / no substitution: it is possible that the writer used partial letter-substitution in those groups of characters which are close in number, such as [3] and [22]. There, he may have substituted either the first or the second part, or both of them. Because scrambling the plaintext into almost even amounts of letters by word-parts (following the pattern of [26] and [27]) actually is more difficult than simply substituting one or both parts. Then, even set [7] may constitute a partial (either May 8, or May 20) or total (May 8, and May 20) substitution. The layout of the quantitatively similar and dissimilar groups of letters makes me believe that the similar groups may be partially transposed, dissimilar ones just scrambled. Set [22] offers the best possibility for testing for (partial) substitution.
+ #4
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Suggestion for a double-whopper: scrambled substitution! Pray not remember / my month of September (see above). The only month in English with seven letters is “January”. Thus I suggest: [1] “Str/Umem” = JANUARY, with the “m” obviously for A, the “u” possibly (!) for I/J. However, in a “short” English alphabet à 24 (I/J, U/V), the rule “substitute by every 12th letter” only goes as far as these two letters. However, (partial) substitution is in play! The rules for the substitution as well as the scrambling need to be figured out. Sets [1], [2], I am now convinced, mean: JANUARY 1853 […]. The lack of niceties like “In” or “of” is explained by the writer’s time-line writing.
+ #5
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Did a quicky-wiki on events of January 1853 in the UK and regarding Queen Victoria: “the United Kingdom annexes Lower Burma ending the Second Anglo-Burmese War”. Queen Vicky had another son, but not till August. And other people were born, and many people died – in short: nothing out of the ordinary. Which assures me that the author writes about himself, and does not chronicle world events. I don’t expect an “I” after JANUARY 1853; in telegram-style, a verb might follow, or names of the writer’s family: “JANUARY 1853 uncle Rufus drowns while skating on thin ice. It’s the human condition.” Or something like that.
+ #6
+ DexterH
+ 22. Juni 2018 
+ pair [23]
+Tolshir
+Dly
+= Told Shirly
+ #7
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Before someone politely notices: I was so happy about “January” that I stopped counting way before “October” …
+ #8
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Suggestion for [16]: QUIFT. In Farmer/Henley’s “Dictionary of Slang and Colloquial English” (1905, available online at: https://books.google.com/books?id=kOU_AAAAYAAJ&pg=PP7&source=kp_read_button#v=onepage&q&f=false) “quiff” is listed as a noun and a verb, the latter indicating to have suceeded at sth. “by means not strictly conventional”. “quift” = “quiffed”. – Regarding Victorian slang, Ware’s “Passing English of the Victorian Era, a Dictionary of Heterodox English, Slang and Phrase” (1909) is also recommended. You will learn expressions like “‘Smothering a Parrot’: Draining a glass of absinthe neat; derived from the green color of the absinthe.”
+ #9
+ Thomas Ernst
+ Latrobe
+ 22. Juni 2018 
+ Sticking with Victorian slang (Farmer/Henley), [9] could mean MOISTENE[D] PURL, “to moisten” for “to drink”, “purl” being either beer with wormwood, or hot beer. D and T are related plosives; their mix-up could have ensued if at some point the letters of the ad were dictated, not necessarily by the person posting, but perhaps during type-setting. – If we are going down the lane of the trivial – MOISTENED PURL […] QUIFT […] TOLD SHIRLY, then my initial assumption about the numbers indicating years and a chronology is wrong, and the former would appear to rather indicate monetary amounts.
+ #10
+ Thomas Ernst
+ Latrobe
+ 23. Juni 2018 
+ Some further observations: if pairs [9] and [25] convey the same text – MOISTENED PURL or not – things look bad regarding original typos or transfer mistakes: “mistrl otenpu” = “mistrl oatvpu”. Perhaps is is the purl … If SHIRLY is intentional for SHIRLEY, and no substitution is involved – as I originally assumed – pair [1] must be the name SUM[P]TER. Forget January and October. Perhaps the final “m” in “umem” stands for M[EW] or M[ALL], and the following is a house or contact number. – The long pair [11] appears to start on CAN, have a SUCH in the middle, and perhaps ends on MOOT. – If all pairs begin with one or several letters of the first half, then [22] should be a phrase starting out with I, followed by a verb beginning with W. WOT (= WHAT) is no verb. Perhaps WON’T? – Any paying subscribers of http://www.britishnewspaperarchive.co.uk following this thread, who could double check the original text?
+ #11
+ Thomas Ernst
+ Latrobe
+ 23. Juni 2018 
+ Some general observations, just for orientation purposes. In 1875, the “Evening Standard” was a daily, paid circular. Nowadays, it’s a free “conservative tabloid” (should I call it a right-wing-rag??). Back to 1875: why would someone – probably a man – post halved, scrabbled messages about twice a month? May 8 (my birthday) 1875 (not my birth year) was a Saturday, May 20 a Thursday. Thus the recipient had to check the ES on a daily basis. Given the delays between halves, the sender apparently felt the need to let the recipient know which part went with which. One does not successfully conduct wars, gambling, or crime on such a basis. Thus the the background to these exchanges must be an affair. Between two people who could meet only at certain times, let’s say once a month, and between meetings kept themselves informed – at least on his part – on daily goings-on. If the background to this affair was London (and not rural, à la Thomas Hardy), the two people involved could have been upper servants (butler, lady’s maid), bourgeoisie, or even nobility (doubtful from the spelling, and the implied inaccuracy of their messaging). At any rate, there must have been a set time frame when they could, and when they couldn’t meet. – The visible inaccuracy of their communication system leaves me baffled. The only rules that seem to apply are the following: Begin with letters of the first half, keep your copy of the ES handy (or copy the text), then continue on your maze in the second posting. Somewhat callous on the sender’s part. Pick your own Ariadne’s thread! She must have told him at some point, with a glass of hot purl in her hand: I CAN’T READ what you’re sending me. Should we surmise a certain ignorance, or a certain indifference on the sender’s part? Unless this guy was a professional lourer? There is sth. cruel about this private – if that is what it was – way of communicating.
+ #12
+ Dave
+ London UK
+ 23. Juni 2018 
+ Hi Thomas. I think Str/Umem is meant to represent “sum term” which I interpret as an abbreviated form of ‘summer term’ i.e. the summer semester of school/university. That’s the common phraseology that I have always heard and used here in South East England. It would also seem to be in keeping with previous observations here that there are fragmentary suggestions of a collegiate context to the deciphered plaintext. (Balliol, attended lectures, scholarship examination, senior seminar, college party, etc.)
+A ‘moistened purl’ might also make sense in the context of a broken cap:
+Ol ca brok or le sted
+ d p eatc n ftin
+Oldcapbrokeatcornleftinsted 
+Old cap broke. A torn cleft instead/At corn(er) left instead/Torn at left corner inside … !?
+Thanks
+ #13
+ Thomas Ernst
+ Latrobe
+ 23. Juni 2018 
+ Hi Dave, your linguistic insights are very convincing! I did not know of previous comments indicating a collegiate context. So we have a kid away at college who is keeping a sort of diary for (probably) his girlfriend at home. If this is the case, the motivation for halving his scrambled messages and stretching them across a fortnight or so would appear a test of her loyalty? Or just for fun? – Then “1853” either means “8-13 May” or, less probable, “3-18 May”, and the remaining numerals similarly are dates. – Since the English summer term began (at least at that time) right after Easter, and Easter Sunday 1875 fell on March 28, this also explains our writer’s previous communication from 27 March, 1875 – he would have just left for college, and it probably was his first missive. With a few more in April, I should think. – Thank you!
+ #14
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ Thanks to Dave’s insights, I suggest the following for pairs [1] – [5]:
+[1] SUM TERM
+[2] MAY 3-18
+[3] CAP TOOK AWAY AT COL[LE]GE PARTY
+[4] OLD CAP BROKE AT CORN[E]R LEFT INSTE[A]D
+[5] CON OUT IN MEM[M]ER GARD[E]N
+“Cap” refers to a collection of money in a college cap, either after the last night of a play, or for some other reason. The noun “break” can refer to bail money collected by a prisoner’s friends. At any rate, someone took this “kid’s” collected money at a college party. I take [4] to mean that he had to fall back on some previously “collected” money. – “Con out” is a noun here, “conning somebody out of something”. Memmer Garden appears to be a place name – it googles as such – , here perhaps a restaurant of sorts. – I”ll keep working on this purl of a story. Meanwhile, please pass the cap for me …
+ #15
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ This kid must have been the pride of his family, an all-A student. Apparently it was him who robbed Memmer Garden:
+[6] SED SIMPLY[:] YOUR CASH[,] PIN[,] RO[U]ST[E]R, CATIMURK[E]R[.]
+SED = SAID. PIN and ROUSTER were coloquial for “hold-up”, “mugging”. I don’t like “hold-up”, because I don’t think he had a gun, which usually is associated with a “hold-up”. It’s closer to German “Überfall!” – The term “catimurker” may have its premiere here. “Murk” refers to fog and darkness, as in “murky waters”. Cats – I can tell you ALL about them – are active at night. “Catimurker” is somewhat similar to “cat-burglary”. Am beginning to respect Clyde’s lingo. Am sure he kept his Bonnie at home happy. Now it’s also obvious why he halved his missives. – More anon.
+ #16
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ Just to clarify: neither “hold-up” nor “mugging” are correct. What Clyde is saying, in three different words, simply is “robbery”.
+ #17
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ [7], as already suggested by me: REPE[A]T[E]D
+ #18
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ [8] IT AT[T]END[E]D CON LENGT[H] SECURS
+[9] MOISTEN[E]D PURL.
+If my [8] is right, I assume it to mean: “at length”, finally, help (French “secours”) showed up (for the victim). And forget your Italian or Latin with “CON” – it’s short for the above “CON OUT”. – After that, Clyde deserved his purl! – To be continued
+ #19
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ [10] HE F[A]STED COLORS HAMP ON. The “secours” apparently was on the robber’s part, because his victim “hurried money bills perfectly”. “FASTEN” – “hurry”; “COLO[U]RS”: “money bills”, “HAMP” from “hampus”. In other words: after Clyde’s assistant showed up, the robbed person “put up his cash in a jiffy …” Or. sth. like that.
+ #20
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ The numerals “54, 3 / 18” apparently do not go with [10], so I shall call them [10a]. “5” = May; “1” needs to come next. It is possible that the “3” goes with [11]. Unclear as of yet.
+ #21
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ [10a] 54, 3 / 18: 5: the amount of the theft: perhaps 54 florins, 18 pence, 3 farthings. The pre-decimal system of English money is a science unto itself: https://en.wikipedia.org/wiki/List_of_British_banknotes_and_coins. According to https://www.officialdata.org/1875-GBP-in-2018?amount=1, £1 in 1875 would be about £112 today. About £6000 for robbing a restaurant sounds a little steep to me. 112 crowns would be a fourth, 112 florins a tenth of that amount; about £600 (modern value) appear the most likely to me. – A note regarding the term “color” for money in [10]: until 1928 (wiki wisdom) all English bank notes were black and white (cheques, however, could be in colour), but the term “colour” for money was common for “payment”, as in: “I have not seen the colour of his money” (Farmer/Henley).
+ #22
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ Am re-posting my comment on [10a] without using monetary signs, which appear to have elicited a blocking:
+[10a] 54, 3 / 18: 5: the amount of the theft: perhaps 54 florins, 18 pence, 3 farthings. The pre-decimal system of English is a science unto itself: https://en.wikipedia.org/wiki/List_of_British_banknotes_and_coins. According to https://www.officialdata.org/1875-GBP-in-2018?amount=1, 1 pound in 1875 would be about 112 pounds today. About 6000 pounds for robbing a restaurant sounds a little steep to me. 112 crowns would be a fourth of that amount, 112 florins a tenth of that amount; 600 pounds (modern value) appear the most likely to me. – A note regarding the term “color” for money in [10]: until 1928 all English bank notes were black and white, but the term “colour” for money was common for “payment”, as in: “I have not seen the colour of his money” (Farmer/Henley).
+ #23
+ Narga
+ 24. Juni 2018 
+ @Thomas Ernst: [8] + [9] and [24] + [25] are almost repeats. I would go with “I attended … lecturs” or “lecsurs” to match the college theme suggested by Dave.
+ #24
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ Got “moderated” away twice with my suggestions regarding [10a], and can only hope this post will make it – @Narga: must politely disagree with your suggestions re [9] and [25] because they do not follow the sequential pattern of the scramble. – Yes, there is a college theme, but the theme is college robbery by a non-student. The initial “SUM TERM” is completely superfluous if the writer is a student. Because both writer and recipient would know it’s the summer term …No, the writer mentions SUM TERM as an occasion to mingle with new and returning students in order to steal – watches, fobs, money – what-have-you. Apparently he got caught, but he also was able to escape. Next he did the corner-job, then Memmert’s. Line [10a] lists the amount of money he got at Memmert’s. I posted that, but it was rejected for whatever reason. – Further down the story – and I am getting close to the end – he runs into another thief – they recognize each other by a motto, and this other guy apparently “quift” at the college. – The word DYING, btw, should read DINGY, from “ding” and “dinger”: loot hidden or passed on to another person, so you don’t get caught with it. That’s what the “dingy declaration” is about.
+ #25
+ Thomas Ernst
+ Latrobe
+ 24. Juni 2018 
+ It appears I am back, so here is my [10a] yet again, freed from any monetary or other odd signs:
+[10a] 54, 3 / 18: 5: the amount of the theft: perhaps 54 florins, 18 pence, 3 farthings. The pre-decimal system of English is a science unto itself (took me quite a while to get an understanding of it). According to a conversion-website, 1 pound in 1875 would amount to about 112 pounds today. About 6000 pounds for robbing a restaurant sounds a little steep to me. 112 crowns, in tun, would be a fourth of that amount, 112 florins a tenth of that amount: 600 pounds in 2018. Thus, florins appear the most likely to me. – A note regarding the term “color” for money in [10]: until 1928 (sayeth wiki) all English bank notes were black and white, but the term “colour” for money was common for “payment”, as in: “I have not seen the colour of his money” (Farmer/Henley).
+ #26
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ Here’s another batch; the remainder will have to wait a little longer:
+[11] needs yet to be fine-tuned
+[12] 1 6 9 =A F I: A COF-[COVE-]T[I]G[E]R
+[13] MOPT [MOPPED] A [P]URLY (SED [SAID] DIS [=THIS]) IN COL[LE]GE
+[14] […] SED [SAID] MOT[T]O
+[15] I AD[D]ED FIRST LINE[,] SIR SAT[,]
+[16] QUIFT [QUIFFED]
+[…]
+[23] TOLD SHIRL[E]Y
+[…]
+[25] MOISTA[N]T [=MOISTENED] PURL
+[26] DINGY
+[27] DECLARATION
+[…]
+A “cove-tiger” is a fellow thief. This one didn’t just moisten, but mopped (guzzled) a purl. Beginning of [14] needs fine tuning. End of line makes it clear that thieves used key phrases or words to recognize each other. “Adding a line” is “to get someone into conversation”, sometimes in the sense of wanting to sound someone out. [16] makes it clear that the other fellow was more successful at college than our man. The “dingy declaration” needs a little more context; lines 23-27 – depending on [24]! – may just mean that our man told his buddy Shirley – which used to be a predominantly male name; only with Charlotte Brontë’s novel “Shirley” (1849) it began to be used for women – downed another purl, then told him that he made some dough.
+ #27
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ Quick addendum: the translation of “1 6 9” in [12] is a simple guess. Whether it’s a “cove tiger” or not, the fact remains that our man meets another thief who had more luck at the college than he did. – The pronunciation of the “g” in “DINGY” should be like that in “thing” – a voiced plosive. We are not talking “dingy clothes” here.
+ #28
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ A linguistic observation. The social realism of 19th Century literature as well as 20th Century linguistics have accustomed us to the idea that certain dialects identify a speaker’s local origin, while certain sociolects identify his social group. This has become such a beloved classification concept that, on occasion, “we” forget the linguistic ability of people who move with equal ease between a dialect and the “high” form of language, and equally between “high” and “low” sociolects When “our man” signs off his add of May 20 with the words “This will be intelligible if read in connection with my communication published in this column on the 8th inst.”, he expresses himself so on purpose. He is equally at home between two sociolects, and uses one to disguise the other
+ #29
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ [11] CAN[‘]DT SEL[L] CLU[T]CH SO FIND SE[I]ZE AS MOOT
+ #30
+ Dave
+ London, UK
+ 25. Juni 2018 
+ ‘Twas brillig, and the slithy toves…
+ #31
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ Commentary to [11]: I can’t sell the non-monetary goods, so I find them of doubtful value.
+ #32
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ “Callooh! Callay!” I chortled in my joy …
+ #33
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ [17] C[O]N DE[B]ADTED. = We talked about the theft.
+ #34
+ THOMAS ERNST
+ Latrobe
+ 25. Juni 2018 
+ [18] BAIL MON[EY] LAPST [=LAPSED] [H]OPED SET [H]IM SO OU[T]
+ #35
+ THOMAS ERNST
+ Atlantis
+ 25. Juni 2018 
+ [19] Ap. 139 / A. P. 138: A[COUNTS] P[AYABLE] (and I have no idea about the numbers). Apparently what the other con owns to stay out of the big house.
+ #36
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ @Atlantis: glad to hear from my long lost cousin; Herodot and Plato forgot to mention us. – “A” for “ACCOUNTS is excellent. PAYABLE might also be PAYED/PAID. Regarding the monetary values, see my suggestion in #23. Since the two amounts in [19] are similar, but not identical, I suggest that one amount was PAYABLE, the other one PAID/PAYED. Since it is doubtful that our con would pay 1 florin or shilling or whatever more than he owed, I should think that the amount owed was 139, the amount paid 138. Maybe he threw in the cost of a couple of purleys. Thus [19] would be A[MOUNT] P[AYABLE] 139. A[MOUNT] P[AID] 138. – However, there is no indication that this is bail money. It simply was money that he owed, and we have – as of yet – no context. – Regarding the personnel of the story: we have at least three guys: the writer, his backup-man (forgot the slang for that, need to check; he was the one who finally showed up at Memmer’s), a third con whom our writer does not appear to know, who identifies himself with a “motto”, and who was successful at the college, and finally Shirley. I have a feeling that Shirley is the one who “worked” with our guy at Memmer’s.
+ #37
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ [2] needs to be revised, it has nothing to do with May – all the numerals indicate money amounts. Sticking with florins and pence for the time being, I suggest: [2] 53 [FLORINS] 18 [PENCE]. Similar [21]. Perhaps (!): 55 [FLORINS], 18 [PENCE], 6 [-], 18 [PENCE]. To get a grip on the amounts mentioned in [2], [10a], [19], [21], one needs to consult a chart on the written representation of monetary amounts in pre-decimal (before 1971) times. Wiki has one, but last time I linked to it, my post didn’t make it because the link contained suspicious symbols. – In 1875, the terms “crown”, “guinea”, even “sovereign” also applied. Subdivisions of shillings and pence could be counted on their own; local parlance and value-variances also come into play; just think of the German Groschen before 1870! The best solution to understand the amounts mentioned by our con – which, despite the split, must have been easily and correctly understood by the recipient, would be to find images of a ledger from that time. Or have a money historian look at them.
+ #38
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ [28] ‘E RILER[,] ‘E FLOODMA[K]ER[.]
+Apparently cockney … “RILE” hardly in the sense of “vex”, “irritate” (Farmer/Henley). Have no source for “floodmaker”, but it can be easily guessed. Modern meaning of both, am guessing, sth. like “He’s so full of shit”. But not spoken in a hostile manner. [24] apparently is a reaction to the DINGY or DYING DECLARATION, probably uttered by Shirley. At this point, I like the DYING DECLARATION better than the DINGY one, because it goes better with [24]. But then no idea what the DECLARATION was about.
+Note on the “college”, btw: of the English universities extant by 1875, only London University (1836) had founding colleges by name: “King’s College London” (1829), and London University (1826), which was called “University College” from 1836 – 1907. It is to be assumed that our con operated in London, probably from the East End, and that ‘e tried his heist at King’s College. King’s College is and has been located close to the Thames, next to the Courtauld, up from Waterloo Bridge. The best online-map of London of that time – you can magnify each square – is here: https://london1868.com/weller42.htm.
+ #39
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ In #38, of course meant [28] instead of [24].
+ #40
+ Thomas Ernst
+ Latrobe
+ 25. Juni 2018 
+ Am gonna go out on a limb with [20]: HOY[T][,] SAM[M]Y CHRISTIAN. Since [19] talks about paid accounts, and [21] lists two amounts of money, it makes sense that [20] lists two names. Unless the “xn” is a mistake, it probably denotes CHRISTIAN. Either this Samuel gained the epithet by conversion, or it’s his family name.
+ #41
+ Thomas Ernst
+ Latrobe
+ 26. Juni 2018 
+ What’s the world come to if you can’t trust a thief anymore! That son of a snitch! If I re-assembled [22] correctly, it reads: I WO[N]T OUT ON ROB[E]R[.] [O]FF[R]T FIRST MEND IN SE[R]CH OF A SVM[U]NER. For a while I was unsure whether it’s “WO[N’]T” or “WO[N]T” (= WANT). It appears our man was gonna sing like a canary on the other college thief, to cover for himself. – You have to remember that thievery was just as lucrative as turning informer. – Am deeply disappointed in “our man”. Whatever happened to the integrity of college robbers? Nowadays, they sit behind mahogany desks in big offices. Back then, they had to run the seedy streets of London’s East End and couldn’t even trust each other.
+ #42
+ Thomas Ernst
+ Latrobe
+ 26. Juni 2018 
+ [24] IT AT[T]END[ED] JO[IN]T SECURS. Apparently, the other feller ended up in the Big House.
+ #43
+ Thomas Ernst
+ Latrobe
+ 26. Juni 2018 
+ [14] CONN[E]GT[IO]N TOLD US[,] ADD CONSE[NTE]D MOT[T]O. Iffy.
+ #44
+ Thomas Ernst
+ Latrobe
+ 26. Juni 2018 
+ For the whole, I get something like this:
+[1] SUM TERM
+[2] 53 [FLORINS], 18 [PENCE]
+[3] CAP TOOK [=TAKEN] AWAY AT COL[LE]GE PARTY
+[4] OLD CAP BROKE AT CORN[E]R LEFT INSTE[A]D
+[5] CON OUT IN MEM[M]ER GARD[E]N
+[6] SED SIMPLY[:] YOUR CASH[:] PIN[,] RO[U]ST[E]R, CATIMURK[E]R
+[7] REPE[A]T[E]D
+[8] IT AT[T]END[E]D CON LENGT[H] SECURS
+[9] MOISTEN[E]D PURL
+[10] HE F[A]STED COLORS HAMP ON
+[10a] 54 [FLORINS], 18 [PENCE], 3 [FARTHINGS]
+[11] CAN[‘]DT SEL[L] CLU[T]CH[,] SO FIND SE[I]ZE AS MOOT[.]
+[12] A COF [-VE]-T[I]G[E]R
+[13] MOPT [MOPPED] A [P]URLY (SED [SAID] DIS [=THIS]) IN COL[LE]GE
+[14] CONN[E]GT[IO]N TOLD US ADD CONSE[NTE]D MOT[T]O
+[15] I AD[D]ED FIRST LINE[,] SIR SAT[.]
+[16] QUIFT[.]
+[17] C[O]N DE[B]ADTED
+[18] BAIL MON[EY] LAPST [‘]OPED SET [‘]IM SO OU[T]
+[19] A[CCOUNTS] P[AYABLE][:]139[;] A[CCOUNTS] P[AID][:] 138[:]
+[20] HOY[T][,] SAM[M]Y CHRISTIAN[:]
+[21] 55 [FLORINS], 18 [PENCE]; 6 [FLORINS,] 18 [PENCE]
+[22] I WONT OUT ON ROB[E]R[.] [O]FF[R]T FIRST MEND IN SE[R]CH OF A SVM[U]NER
+[23] TOLD SHIRL[E]Y
+[24] IT AT[T]END[ED] JO[IN]T SECURS
+[25] MOIST[AN]T PURL
+[26] DYING
+[27] DECLARATION
+[28] ‘E RILER[,] ‘E FLOODMA[K]ER[.]
+Yes, you will have your pickings for corrections. Do remember, however, that a) this message was stretched out over two weeks (thus it reflects doings by or before May 8, 1875); b) that there was an unknown correspondent, to whom “our man” replied. The thing with the “dying declaration” might have been something mentioned by the other person, and our writer just reacted to it. Imagine reading a reply without the original letter. There will be lacunæ that can’t be filled in till the other’s voice is heard. Also remember the cockney (especially missing “h”, and “t” for “ed”, together with the slang. – Regarding the personnel, “we” can identify the following:
+a) unknown sender
+b) unknown correspondent
+c) Hoyt
+d) Sammy
+e) Shirley
+f) the conned con.
+Put a fork into it, Klaus!
+ #45
+ Thomas Ernst
+ Latrobe
+ 26. Juni 2018 
+ Am having second thoughts about the meaning of SUM TERM, COLLEGE, and PARTY. “College” was a common term for “prison” (Newgate used to be called “City College”); it would account for the later “bail”. PARTY is documented in the sense of “social gathering” since the 18th C’y, but usually in a more formal sense – dinner party, hunting party. It can also refer to “leave” (French “partir”). A “termer” could refer to a visitor of London with criminal intent; “term” – as today – to “time spent”, “duration”. With regard to the repeated mention of monetary amounts, SUM might just be a “sum”, or a “summing up”. This guy is posting an account, financially and personally, for a certain period of time of his criminal activities, ending on May 8, 1875. Because the add of May 20 was already conceived on the 20th. Why there was a lapse of twelve days between the two, I don’t know. Perhaps he wasn’t able to post part 2 because he was still “in college”? It would explain why he reminded the recipient on the 20th that that message went with that of the 8th – so the recipient would know that there was no message in between. My guess is that the corresponded with adds on specific weekdays, probably Saturdays (May 8, 1875), and that the Thursday ad was a delay.
+The system of this secret communication is clear:
+a) you randomly divide your plaintext into two halves, WITHOUT disturbing the normal sequence of the letters.
+b) you need to match letter-groups in the same numerical order in both halves. While there are no actual numbers before each letter group, I am sure that at least the recipient had to count on occasion, especially after a big fat purly.
+c) The beginning of each text-pair is always in the first half.
+d) there is no letter substitution involved; the thieves’ slang or argot suffices in itself.
+Regarding the exact meaning of the argot, we need an expert. It’s not easy to reach 143 years into the past and familiarize yourself with thieves’ cockney argot which even then wasn’t understandable to everyone. Will need to find the name of the person to whom I wrote a few years ago regarding a similar case; she wrote several volumes on the topic, is THE expert on the topic, and teaches in London (I think). Just can’t remember her name off-hand.
+ #46
+ Thomas
+ 26. Juni 2018 
+ @Thomas Ernst:
+Maybe she can help: https://linguistics.sllf.qmul.ac.uk/linguistics/english-language-teaching/people/sue-fox/, see esp. her CV.
+ #47
+ Thomas Ernst
+ Latrobe
+ 27. Juni 2018 
+ The person I was thinking of (and have written to before) is Professor Julie Coleman from the University of Leicester. Her website:https://www2.le.ac.uk/departments/english/people/juliecoleman. She is the # 1 authority on cant, argot, slang – historic and modern. However, I do not know how quickly she’d be able or willing to respond. Farmer/Henley (which I have used) was compiled around the turn of the last century, originally in 7 volumes; JC actually wrote about Farmer/Henley. I have no doubt that our ES text is cockney thieves’ argot from 1875 – but only because FH says purl is/was a sort of beer does not mean that in 1875 the then obvious designated something completely different. As a matter of course, I am sure that you don’t mention drinking beer 3 times WITHOUT it meaning sth. else. – Let me send her the original ads (not “adds” – my typos above) + my plaintext, and hope she has some time for looking at it. After all, it’s summer, and I don’t always feel like reading someone else’s “homework” in my spare time. – Will keep you posted!
+ #48
+ Thomas Ernst
+ Latrobe
+ 17. Juli 2018 
+ It appears my older, quite entertaining yet completely incorrect guesswork about thieves argot is still online. Dear reader, please put my comments #2 – #47 into the dustbin of history. With my thieves’ argot, I was very much barking up the wrong tree, because I was unfamiliar with earlier comments posted in a different thread that had unearthed the names Conington, Jowett and Balliol. Using this knowledge, I adjusted my readings, which can be found in a separate thread on the same topic, the “Catokwacopa”, at: https://scienceblogs.de/klausis-krypto-kolumne/2018/01/26/revisited-the-catokwacopa-cryptograms-from-1875/. There, I have righted things somewhat. So, please ignore the above (though it was fun), and detour to the other thread indicated. Where I might just be able to tell you WHO wrote these halved ads!
+ Kommentieren
+ Name:* -->
+ E-Mail-Adresse:*-->
+ Ort: -->
+ Kommentar: -->
+ Antwort löschen 
+ Abonnieren
+ Abonnieren mit:
+ RSS2
+ Atom
+ Mit einem Feedreader abonnieren 
+Anzeige-->
+Über den Autor

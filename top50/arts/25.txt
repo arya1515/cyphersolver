@@ -1,0 +1,14 @@
+entry-content">
+ In 1944 a member of Hitler’s paramilitary organization SS sent an encrypted radio message to a recipient named Lippert. The cleartext is unknown.
+Click here for the complete top 50 list
+Last week I introduced the Dorabella cryptogram, which is one of the most famous crypto mysteries in the world. In contrast, the unsolved cryptogram I am going to present today is quite unknown. Nevertheless, it is very interesting.
+The SS radio message
+The original of this cryptogram is owned by US professor Nick Gessler, whom I have met many times at crypto history conferences. At one of these occasions he let me take a picture of it:
+The picture shows a radio message from 1944. The receiver was an SS-Standartenführer named Lippert. The SS (Schutzstaffel) was a major paramilitary organization under Adolf Hitler and the German Nazi Party during World War II. “Standartenführer” was a military rank complying with a colonel.
+The sender of the message is indicated by the signature:
+The sender’s name might have been Klein or similar. He was SS-Understandartenführer, i.e., lieutenant.
+An unusual encryption
+I wrote my first blog post about the SS radio message three years ago (in German). I received a number of interesting comments, but none of them led to a solution.
+The ciphertext looks quite unusual. Five of the six lines are divided by an equal sign, a slash or a colon. None of the WW2 encryption methods I know produces ciphertexts that look like this.
+Blog reader Oliver Helweg sent me a few interesting remarks. Among other things, he wrote that ALAP stands for Hungary and KSSY for Budapest. I have no idea whether this is correct.
+Does a reader know more about the background of this cryptogram? Can somebody decipher it? If yes, please let me know.

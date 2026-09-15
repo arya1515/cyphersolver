@@ -1,0 +1,17 @@
+entry-content">
+ In 1991, an unknown person sent a number of letters to the presenter of the TV show “America’s Most Wanted”. The anonymous writer claimed to have committed 23 crimes. Some of the letters were encrypted in a similar style as the Zodiac Killer messages.
+Click here for the complete top 50 list
+Did you know that one of the USA’s most successful TV shows had its origin in Germany? I’m talking about America’s Most Wanted, which was at the time of its cancellation in 2011 the longest-running program (25 seasons) in the history of the Fox television network. This mark was since surpassed only by The Simpsons. America’s Most Wanted reported on unsolved crimes and asked the viewers for assistance in solving these. Over 1,200 people were captured because of the show.
+The concept for America’s Most Wanted came from the German TV show, Aktenzeichen XY … ungelöst (German for “File Reference XY … Unsolved”), which is certainly known to many readers of this blog. One of the most mysterious cases Aktenzeichen XY … ungelöst reported on was the YOGTZE case, which involves an unsolved cryptogram.
+Mysterious letters sent to the host
+America’s Most Wanted was hosted by John Walsh (born in 1945). In 1991, Walsh received a number of anonymous letters. The sender, who called himself “Scorpion”, claimed to have committed 23 crimes – including robberies and murders. Five letter excerpts were published. Here’s the first one (I took all the scans from Dave Oranchaks’s Zodiac Killer site):
+Two of the excerpts show encrypted messages (there were three more messages of this kind, but police kept them secret). Apparently, the sender of these ciphertexts was inspired by the Zodiac Killer. Here’s the first encrypted passage:
+Here’s the second cryptogram that was published:
+Here’s another cleartext excerpt:
+And finally, here is the last letter passage that is publicly known:
+There is no evidence that the author of these letters is identical to the Zodiac Killer. It is very unlikely that this person’s claim to have committed 23 major crimes is true.
+Can it be solved?
+There’s no doubt that the Scorpion cryptograms are hard to solve. What makes cryptanalysis difficult are the large alphabets. The first ciphertext contains 70 characters, 53 of which are unique. 155 of the 180 symbols contained in the second message are unique. This means that a frequency analysis is as good a useless.
+If the Scorpion cryptograms are real ciphertexts, they were probably created with a homophonic cipher (i.e., a cipher that provides several cleartext equivalents for some letters). The first Zodiac cryptogram was created this way. It is possible to solve cryptograms of this type (in fact, the first Zodiac cryptogram was deciphered by Don and Betsy Harden), but it is very difficult with such short messages. Breaking a homophonic cipher is a little easier if there are spaces between the words, but this is not the case here.
+All in all, I don’t think that the Scorpion cryptograms can be broken without further information. Especially, having access to the three unpublished ciphertexts would be very helpful. Or perhaps, the creator of these cryptograms used the same encryption system somewhere else.
+If you have an idea how this difficult crypto mystery could be solved, please let me know.

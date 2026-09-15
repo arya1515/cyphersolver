@@ -1,0 +1,491 @@
+entry-content">
+ In 1944 a Nazi spy located in New York sent encrypted messages via Paris to Germany. These cryptograms have never been deciphered.
+Click here for the complete top 50 list
+David Kahn (born 1930), the founder of crypto history research, is mainly known for his excellent book The Codebreakers. This 1,200 pages masterpiece, first published in 1967, marked the start of the cryptology revolution that has taken place in the last 50 years and that has brought us DES, RSA, AES and many other great developments.
+Even today, The Codebreakers is still the most comprehensive crypto history source. My own book Codeknacker gegen Codeknacker has a similar scope and is sometimes compared with David’s classic (which is an honor for me, of course).
+Sadly, David has now serious health problems. Since 2015, he is not active in the research community any more. The last time I met him was at the Charlotte Internation Crypto Symposium in 2014. Click here for two interviews with David Kahn (one in German, one in English).
+Hitler’s Spies
+David Kahn is not only an expert in crypto history but also in intelligence history. In 2000 he published his book Hitler’s Spies, which tells the story of the “Abwehr” and other German secret services in the Third Reich. David’s original impression was that Hitler had operated a sophisticated spy network working professionally and employing skilled people. However, during research for Hitler’s Spies, David more and more realized that intelligence work under Hitler was quite amateurish and poorly organized. Apart from the Abwehr, several other secret services were involved in espionage. The existence of several competing organisations, which didn’t cooperate, considerably weakened the German intelligence efforts. All in all, Hitler’s spies were not very successful. All this is described in Hitler’s Spies in great detail.
+As David reports in his book, the Abwehr recruited a spy code-named “Köhler” in New York City. According to Hitler’s Spies, not much is known about this person. However, blog reader Max Baertl pointed out that Köhler might be identical with Nazi spy Walter Koehler, who is described in an online article published in 2016. As it seems, David was not aware of this Walter Koehler, when he wrote his book.
+Are Köhler and Walter Koehler really the same person? Maybe a reader knows more.
+The Köhler cryptograms
+Already in 1981, David Kahn published five encrypted messages written by Köhler. Apparently, Köhler sent these messages to his contact person at the Abwehr in February 1944. These exciting crypto-puzzles have never been much appreciated in the literature. My blog post from 2013 (in German) seems to be the only publication in the last 30 years that even mentions these cryptograms. Their solution is still unknown.
+David’s publication is not based on Köhler’s original messages, but on a letter quoting these kept by the British National Archive. Here it is (the numbers are indicate the length of the respective message):
+An
+ Abwehrleitstelle Frankreich
+ Paris Funkstelle
+ Sofort vorlegen!
+ Betr.: Koehler
+237
+ Ybtat mqfvo dvbis prito kecqg kokik kyiwm zuarj
+ alyia qtxvi vxzya szgou skiqn rbqjq mogex ezdnf
+ vusda zurop ixklo cmnbl grdhz swmch kupef pzlej
+ hbord wkkhu vthjk sfwda jepmu izvig kzlau rdrxx
+ mdecs spozv eeeod dlmdz nqmia pidwg xdcyy mvkso
+ hmmii impwq nkipa mljvm sqsbb glevn sktlq tn.
+178
+ Eekao parwo xiavy pejux lhnjh pbqdd vdvxb mdiia
+ gwwmn zbivm abuws dwoug djozl ylaug loaea ilihj
+ swjft oetad tjisn avaqn sodwb wzaxe zvoxg xpgzv
+ adurm shvxx xfmuq pdpvq dqwtu fryok xfvcp ydzwm
+ ofwfl uzfne qsslo evl.
+137
+ tziqb lqqxs kinod mbvil sukms syarh mhzvp tvswm
+ ayddg rixyy omfzm ugfzz aznqe ljuyi ygwuo qmdbi
+ vcxgz rmzno pessh gpoyx qqlei xmaoj buugz czfdl
+ yzmkp gsmfm dteze oxmos.
+Share this:
+Facebook
+Seite 1 / 2 / Auf einer Seite lesenNächste Seite »
+ Stichworte: Koehler cryptograms
+ Teilen:
+ Mehr
+Kommentare (33)
+ #1
+ Norbert
+ 19. Februar 2017 
+ @Klaus: So the Köhler messages fell from #16 to #47 on your ranking list? We had better solve it right now before you drop it entirely 😉
+Max Baertl suggested that Köhler might have used the so-called “ABC Verfahren”. Has anyone information on that?
+The preceding numbers usually stand for the letter count of the messages. Strangely, in case of “137” this doesn’t match (the message has 140 letters). Klaus, are you sure that you quoted David Kahn properly here?
+ #2
+ Klaus Schmeh
+ 19. Februar 2017 
+ @Norbert
+>We had better solve it right
+>now before you drop it entirely
+We’ll see! May I will extend my list to 100 unsolved cryptograms one day. On the other hand, this may be difficult considering that you’re very successful in making the list shorter.
+ #3
+ Klaus Schmeh
+ 19. Februar 2017 
+ @Norbert:
+The ABC key is described here (p. 78): https://www.nsa.gov/about/cryptologic-heritage/historical-figures-publications/publications/wwii/assets/files/cryptologic_aspects_of_gi.pdf
+And here (p. 15):
+https://www.nsa.gov/news-features/declassified-documents/cryptologic-histories/assets/files/cryptology_of_gis.pdf
+ #4
+ Klaus Schmeh
+ 19. Februar 2017 
+ @Norbert:
+>Klaus, are you sure that you quoted David
+>Kahn properly here?
+Here’s the original from Cryptologia:
+ #5
+ Thomas
+ 19. Februar 2017 
+ @Klaus #4
+Is column 8 incomplete?
+ #6
+ Norbert
+ 19. Februar 2017 
+ Looks cropped in my firefox as well, but by clicking “Grafik anzeigen” I get the complete image.
+ #7
+ Norbert
+ 19. Februar 2017 
+ @Klaus: Thanks for so much information! I found a few minor typos in your ciphertext compared to the Cryptologia version:
+237 - row 2, column 7: mogex
+178 - row 2, column 1: gwwmn
+178 - row 5, column 4: evl.
+229 - row 4, column 1: hklsf
+229 - row 5, column 4: alhon
+ #8
+ Klaus Schmeh
+ 19. Februar 2017 
+ @Norbert:
+Thank you! I corrected the errors. Sorry for the typos. I used an OCR program. Apparently, it made a few mistakes.
+ #9
+ Thomas
+ 19. Februar 2017 
+ In his article “The spy who double-crossed Hitler” (American magazine, May 1946) the FBI director J. Edgar Hoover wrote that Koehler had used a code based on a “Dutch language prayer book”.
+But in the message which, according to Kahn https://www.tandfonline.com/doi/abs/10.1080/0161-118191855841?journalCode=ucry20, was sent from the Abwehrstelle Hamburg to the Abwehrleitstelle Frankreich in Paris, there seems to be no hint that Koehler was the author, for he is mentioned as reference (“Betr.”).
+ #10
+ Norbert
+ 19. Februar 2017 
+ As to the “ABC Verfahren”: I take it that the keys for the ABC system remained in effect for several months, so if the messages were indeed encrypted this way, they should all have the same key. An ABC encryption consists of a double columnar transposition and a slightly variated monoalphabetic substitution. Therefore, I would expect a similar letter distribution in each message, but this seems not to be the case. In addition, the index of coincidence values (0,039 to 0,043 unnormalized) are fairly near random distribution (0,038), which imho also counts against the ABC system. This is quite a pity, for the historic background pointed out by Max Baertl seemed convincing to me.
+ #11
+ Thomas Ernst
+ Latrobe
+ 20. Februar 2017 
+ As an aside: truly sorry about David Kahn’s illness. Yes, his “Codebreakers” was a book you couldn’t put down. – After it had come to his attention that I had solved Steg. III and Heidel, he wrote a personal letter to me, blue ink, immaculate handwriting. We also talked on the phone – what, 20 years ago??? Tempus fugit, ciphers don’t.
+ #12
+ Thomas
+ 20. Februar 2017 
+ Laut Kahn stammen die Kryptogramme aus einem Bestand der Abwehrnebenstelle Bremen, den er wohl in einem britischen Archiv eingesehen hat (leider enthält der knappe Auszug aus Kahns Artikel hierzu keine näheren Angaben). Das Bundesarchiv-Militärarchiv in Freiburg verfügt über viele Archivalien dieser Abwehrnebenstelle (s. die Bestandsgliederung
+https://www.deutsche-digitale-bibliothek.de/item/6O4ZOICJCCHIJCXU6RKE56HVQ73VM6CY),
+insbesondere auch mit Bezug auf Agenten und Nachrichtenverkehr; hier nur zwei Beispiele:
+RW 49/464
+Abwehrnebenstelle Bremen.- Briefbuch, Band 3: Einsatz von V-Leuten, Verwendung von Codes
+08. Aug. 1941 bis 11. Jan. 1944
+RW 49/496
+Abwehrnebenstelle Bremen.- Tagebuch des Telefon- und Fernschreib-Nachtdienstes , Band 5, Jan. – Juli 1944
+Möglicherweise sind dort noch Schlüsselunterlagen zum Nachrichtenverkehr zwischen der Übersee-Funkzentrale Hamburg und der Abwehrleitstelle Paris erhalten (Ich wohne leider nicht in der Nähe von Freiburg).
+ #13
+ Max Baertl
+ 20. Februar 2017 
+ Möglicherweise wurden die Funksprüche tatsächlich mit der Abwehr Enigma chiffriert. Wenn dies der Fall sein sollte stehen die ersten 8 Buchstaben jeder Nachricht vermutlich für den Spruchschlüssel wie unter dem Link https://cryptocellar.org/files/web+abwehr2.pdf beschrieben.
+ #14
+ Thomas
+ 20. Februar 2017 
+ Auf einer Seite zur Übersee-Funkzentrale in Hamburg (Abwehrstelle X) heißt es:
+“Zur  Verschlüsselung der Funksprüche  wurden einfache Schablonen-/Kreuzworträtsel- und Buchschlüssel benutzt.  Im Verkehr der Abwehrstellen untereinander, zu den Abwehrkommandos und den großen Funkzentralen kam das Vier-Walzen-Gerät ENIGMA (ohne Steckerbrett) zum Einsatz, gegen Ende des Krieges vereinzelt auch das Sechs-Walzen-Schlüsselgerät SG 41. Trotz aller Bemühungen waren die verwendeten Verfahren doch nicht sicher genug. Die Gegenseite in Großbritannien war schon im Dezember 1940 in der Lage, die handverschlüsselten Aussendungen zu dechiffrieren, ab  Dezember 1941 konnte man auch die mit der ENIGMA chiffrierten Sendungen fast komplett mitlesen.”(https://www.geschichtsspuren.de/artikel/fmelo-eloka-sigint/143-agentenfunk-abwehr-hamburg.html). Dies mag dafür sprechen, dass zwischen den Abwehrstellen in Hamburg und Paris (sei es zur Versendung einer Nachricht über oder von Koehler) im Februar 1944 eine bestimmte ENIGMA zum Einsatz kam.
+Ob und wie sich allerdings ein “Vier-Walzen-Gerät ENIGMA (ohne Steckerbrett)” auf der Enigma-Komponente von cryptool2 simulieren lässt, ist eine Frage an die Experten.
+ #15
+ Thomas
+ 20. Februar 2017 
+ Vier Walzen (3 Rotoren + 1 Umkehrwalze) würden zur(Abwehr-)Enigma-G (https://de.wikipedia.org/wiki/Enigma-G) passen. Diese ist auch im Enigma-Modul von cryptool enthalten.
+ #16
+ Norbert
+ 20. Februar 2017 
+ Eine Enigma ohne Steckerbrett ist heutzutage leicht zu knacken. Wenn eine Wahrscheinlichkeit besteht, dass die Nachrichten mit einer Abwehr-Enigma (Enigma G) verschlüsselt wurden, sind wohl jetzt Spezialisten (Jim Gillogly, George Lasry, Armin Krauß, …) am Zug. Ich habe zwar ein entsprechendes Programm auf meinem PC, aber bis jetzt nur Enigma I, B und C implementiert, und außerdem verfüge ich nicht über passende Vergleichstexte bzw. ensprechende N-Gramm-Häufigkeitstabellen.
+Ein Problem bei der Enigma G ist offenbar, dass verschiedene Walzensätze benutzt wurden, bis hin zu “selbstverdrahteten” (Quelle: Cryptomuseum). Da nicht so viele Geräte im Umlauf waren, ist hier möglicherweise noch nicht alles erforscht. Bin aber kein Enigma-Experte.
+@Max Baertl: Falls die Annahme zutrifft, dass es sich um Enigma-Nachrichten handelt, und alle Nachrichten denselben Tagesschlüssel haben, kann der Spruchschlüssel m. E. nicht doppelt chiffriert worden sein, wie ein Vergleich der ersten acht Zeichen von Nachricht 1 und 2 zeigt:
+237: YBTA TMQF
+178: EEKA OPAR
+Wenn das vierte Zeichen beider Spruchschlüssel im ersten Durchgang gleich chiffriert ist, muss es identisch sein und dementsprechend auch im zweiten Durchgang gleich chiffriert werden, was aber nicht der Fall ist.
+Ist man nicht irgendwann dazu übergegangen, den Spruchschlüssel grundsätzlich nur noch einfach zu chiffrieren?
+ #17
+ Thomas
+ 20. Februar 2017 
+ Eine Spruchschlüsselverdopplung fand seit dem 1.5.1940 nicht mehr statt, https://books.google.de/books?id=IBskBgAAQBAJ&pg=PA412
+ #18
+ Max Baertl
+ 21. Februar 2017 
+ @Thomas
+Im Heer und Luftwaffe wurde die Spruchschlüsselverdopplung ab Mai 1940abgeschafft. Bei der Abwehr scheint die Spruchschlüsselverdoppelung jedoch bis mindestens 1941 benutzt worden zu sein.
+Siehe: https://cryptocellar.org/files/web+abwehr2.pdf
+ #19
+ Thomas
+ 21. Februar 2017 
+ Bauers Aussage ist wohl in der Tat nicht auch auf die Abwehr zu beziehen. Wann die Abwehr die Verdoppelung aufgab, konnte ich nicht herausfinden.
+ #20
+ Norbert
+ 21. Februar 2017 
+ @Max, Thomas: Danke – dann bilden für den Fall, dass es sich tatsächlich um Enigma-Nachrichten handelt, wohl nur die ersten vier Zeichen den Spruchschlüssel. Damit fällt eine elegante Möglichkeit weg, abzuschätzen, wie plausibel die Enigma-Theorie ist … 
+Ich hatte bezüglich meines Programms Unsinn geschrieben. Implementiert habe ich die Modelle I, M3 und M4. Die Enigma G hinzuzufügen ist nicht ganz trivial (u. a. weil der Mechanismus hier auch die Umkehrwalze bewegt), aber natürlich machbar. Ich dachte nur, dass hier im Forum ja Spezialisten mit großer Enigma-Erfahrung sitzen, die vielleicht schon fertige Programme auch für das G-Modell auf dem Rechner haben und über gute N-Gramm-Tabellen für damalige Funksprüche verfügen. Die Schwierigkeit bleibt nur: Selbst wenn die Annahme “Abwehr-Enigma” korrekt ist, ist unklar, welche tatsächliche Verdrahtung die verwendeten Walzen hatten. Aber zumindest die im “Cryptomuseum” genannten Modelle kann man ja mal durchprobieren.
+ #21
+ Norbert
+ 21. Februar 2017 
+ Some useful information on the Abwehr Enigma:
+“Some Enigma machines, such as the Zählwerksmaschine A28 and the Enigma G, were driven by a gear mechanism with cog-wheels rather than by pawls and rachets. These machines do not suffer from the double stepping anomaly and behave exactly like the odometer of a car.”
+“Another difference with the Enigma D is that the UKW (reflector) can not only be set to any of 26 positions, it is also moved during encipherment.”
+“The Abwehr used different wiring than the other customers of this machine. In order to keep the wiring secret, they ordered blanks (i.e. unwired wheels) from the manufacturer. Furthermore, different branches of the Abwehr used differently wired wheels and it seems likely that, during the course of the war, the wiring of the Abwehr wheels was changed several times. ”
+But also:
+“The machine is sometime referred to as the Abwehr Enigma although this name is actually incorrect. The machine was used by other customers as well and the Abwehr also used other machines than the Enigma G.”
+(Source: cryptomuseum.com)
+ #22
+ Thomas
+ 23. Februar 2017 
+ According to Bletchley Park cryptanalyst Mavis Batey (“Dilly. The man who broke Enigmas”) the Group II Enigma (called the “Zählwerk Enigma” by the Germans) was used by the Abwehr for European communications until the end of 1944. It had three rotors with 11, 15 and 17 notches and a reflector (Umkehrwalze).Towards the end of 1944 it was replaced for security reasons by the KD Enigma and Cipher machine 41. Wiring data of the Group II Enigma is provided in Philip Marks´ article in Cryptologia 39 (2015), pp. 25 – 65, Appendix B. Maybe this could help to modify an Enigma breaking program (f.e. this one for the Enigma M3 without plugboard: https://practicalcryptography.com/cryptanalysis/breaking-machine-ciphers/cryptanalysis-enigma/).
+ #23
+ Thomas
+ 23. Februar 2017 
+ Wiring data of the Enigma G (31) is provided also here: https://www.cryptomuseum.com/crypto/enigma/wiring.htm#7
+ #24
+ Norbert
+ 24. Februar 2017 
+ I need help …
+After a more or less complete redesign, my enigma program now features the known “Abwehr” models (Gxxx), but sadly, the G models do not encipher in the same way as these two freely available simulators. Apparently, the crucial point is the entry wheel (Eintrittswalze). When looking at the wiring tables of the marvelous cryptomuseum page, and on the assumption that indicators and rings are set to home position, I understand each key alphabet quasi to be an enciphering alphabet while the signal is routed from right to left, and a deciphering alphabet while it returns back the other direction (in the case of reflectors this distinction is unnecessary as they are involutional). Based upon this interpretation, my old program used to yield perfect results (well, I had not to bother about entry wheels then).
+I should give an example. The entry wheel key alphabet is given as “QWERTZUIOASDFGHJKPYXCVBNML”. In my view this means that, when you press the A-key on the keyboard, the entry wheel will send a Q to the adjacent cipher wheel (not a J). But at the end of the enciphering process, when the entry wheel receives e. g. the letter “E”, it will send a C to the display (not a T).
+However, the above-mentioned simulators handle the entry wheel alphabet (and only this) the other way round: as deciphering alphabet from right to left and enciphering from left to right (A->J / E->T) . When I try to imagine the physical wiring from keyboard to entry wheel, I must admit that I find this interpretation quite logical. But then the data on the crytomuseum site seems to me misleading, if not incorrect …
+Can anyone throw light on this? Are there any original messages and key settings of an Enigma with QWERTZ entry wheel available for a quick countercheck?
+ #25
+ Michael BGNC
+ Germany
+ 26. Februar 2017 
+ Hi Norbert
+The definition of the “Eintrittswalze” is: How are the keys wired to the first rotor. Q->A … A->J (Keyboard from left to right). So, the two simulators handle it in the right way. See also German Wikipedia Article: “QWERTZU”. The Cryptomuseum notation for the ETW, in my opinion, is a little bit misleading. At the moment my T-Breaker software runs against message Nr.1 (237)…
+Regards
+Michael BGNC
+ #26
+ Norbert
+ 26. Februar 2017 
+ @Michael BGNC:
+Thank you very much for the explanation which makes total sense to me.
+I found the breaking approach provided at https://practicalcryptography.com/cryptanalysis/breaking-machine-ciphers/cryptanalysis-enigma/ not suitable for 11-15-17 models like the Abwehr Enigma. This program does an exhaustive search over all possible rotor combinations and indicator settings, leaving the ringsettings aside in the first stage. With the correct settings (and assuming the plugboard is not used), Models like Enigma I, M3 or M4 will reveal enough plaintext fragments so that in the second stage the ringsettings can be determined. However, the 11-15-17 models feature a much higher number of notches with the effect that accidentally revealed contiguous plaintext fragments are much shorter and, apparently, rarer. As a result, it seems to me that the correct wheel order and indicator settings cannot be identified with all ringsettings being ignored.
+As a first work-around, I included the ringsetting of the rightmost rotor into the first stage, making the program run 26 times as long. This sometimes worked, but only in about 50% of my test keys. Presumably, I should include the ringsetting of the middle rotor as well. In this case a program run will take about 17 hours on my computer – still okay. Of course, also an exhaustive search over all keys is possible (again 26 times as long, making it a good candidate for CUDA programming), but I think atm it might be a good idea just to wait for Michael’s results 🙂
+ #27
+ Michael BGNC
+ Germany
+ 26. Februar 2017 
+ I run an exhaustive search over 26^4 (Positions), and for every Position, 26^3 Ring-Settings. The UKW Ring does not matter, because the UKW does not step an other Rotor. It makes no sense to check only partial Rings. The turnover frequency is very high. After a short amount of klicks, all Rotors change their position. So I have to check 26^4 x 26^3 = 8031810176 ! possibilities for every rotor order (123 231 …). Maybe there is a shortcut, but I did not figured it out a the moment. On 12 CPU cores (24/7) it will take about 4 days, only for G-312. I will report…
+ #28
+ Michael BGNC
+ Germany
+ 3. März 2017 
+ After 1152 CPU hours and 12,50 Euro of electricity costs (nice trivia), I walked through the whole keyspace of G-312. Result: No solution for the first message (237). The next step will be to experiment with a few shortcuts to reduce the computation time for G-260.
+ #29
+ Norbert
+ 3. März 2017 
+ @Michael: Thanx for your efforts!
+I pursued the ideas of my last post and programmed an algorithm which in the first stage performs an exhaustive search over all indicator and ring settings, except for the ring of the leftmost rotor. The 10,000 best candidates (n-gram scoring) are hold in memory for stage two, in which the settings of the middle and rightmost rotor stay fixed and all the rest (important: not only the leftover ring setting) is searched through again.
+I think this approach should have a hit rate of about 99%. During my tests, after stage one the correct settings of the middle and the right rotor had a top score in most cases, and were at about position #5000 in the (very rare) tricky ones. Though, I cannot prove this assumption, and a complete exhaustive search is more reliable, of course.
+With the said program, I tested the last message with models G31 (standard), G-312, G-260 and G-111 (see cryptomuseum.com). Each search took about 17 hours on a single CPU core and had no success 🙁
+ #30
+ Michael BGNC
+ Germany
+ 4. März 2017 
+ @Norbert: Also, great job! It looks like the messages are not related to the known G-Machines (wirings). Depending on my free time, I will continue to work on this subject, but not with high priority….
+ #31
+ Charlie....not qualified QFH-ZxLUf-zXATU-A0LH
+ dictionary
+ 10. Mai 2019 
+ I did a dictionary attack on this cipher
+ACTIONS YZASFZYFTVVHOQSNYAFBSEAXYWBSIIRQUJUZSHJVNTYGHIFKDITERKNAZEVMEXQQLYTCWYMMNWJRHDLMNGFLAXBJACQXISGOZVBJ
+AMONGST YPFNNUXFJAQPJPSDDVNWREQCTEWRIYWLCETZIMEDISYWMDNFCIJJMSIZZUAHMSPQBDOKRXMCSRRMGDBRIOAKANGEIXPXYXBWUUBZ
+ANOTHER YOFHMIZFIAKOXRSCDPMKTEPCNDKTIXWFBSVZHMYCWUYVMXMTEIIJGRWBZTABLGRQADIJFZMBSLQAIDARCNOMAMGYHLRXXXVVIWBY
+ARTICLE YKASRBMFEVVTQESYYARDGELXYIDGITRQGLIZDHJHPHYRHIRMRIEERWPOZPVMQZEQWYTOYMMXNWVTVDWMNSHZAIBJMEEXTSGABJBU
+AUTHORS YHATFVYFBVWHKQSVYBFXSEIXZWXSIQRRUFUZAHKVJTYOHJFGDIBESKJAZMVNETQQTYUCSYMUNXJNHDTMOGBLAFBKAYQXQSHOVVBR
+BEARING XXTJLZKEROMNOCRLRRLBEDYQPCBEHGKHAJGYQAABNFXEAZLKPHRXIQNMYCODKXCPJRKIWKLKGNPRTCJFEMFXZVUAGCCWGLXUZHAH
+BROUGHT XKFGNFXEEAJPUPRYDONHRDLCMEHRHTWECPTYDMXDTSXRMWNQCHEJFSTZYPAAMDPPWDHKCXLXSKRXGCWRBOLKZIGXIIPWTXUWFUAU
+CAREFUL WBCWOSFDVXZQHXQPAEOUZCCZCFUZGKTUDCBXUJNEGAWIJMODKGVGVTGHXGXQNQXONAXLPFKOPASKOBNORPYSYZDNJVXVKUKXSCZL
+CENTRAL WXGHCMFDRBKEBXQLEPCOZCYDNTOZGGXFRWBXQNYSAAWENXCXKGRKGHAHXCBBBKXOJEIZJFKKTLGEOBJSCDSSYVHYXPXVGYVLMCZH
+CENTURY WXGHZVSDRBKBKKQLEPZXMCYDNQXMGGXFOFOXQNYPJNWENXZGXGRKGEJUXCBBYTKOJEIWSSKKTLDNBBJSCABFYVHYUYKVGYVIVPZH
+CERTAIN WXCHTEDDRXKVTVQLAPTGXCYZNKGXGGTFIOZXQJYJSYWEJXTPIGRGGYSFXCXBSCVOJAIQBDKKPLXWMBJOCUKQYVDYOHVVGUVCEAZH
+CHAMBER WUTOSIZDOORUXRQIRWSKTCVQUJKTGDKMHSVXNAFIWUWBAESTEGOXNXWBXZOIRGROGRPPFZKHGSWAIBGFJTOMYSUFNLRVDLCBIWZE
+CHANGED WUTNNINDOOQPXFQIRVNKHCVQTEKHGDKLCSJXNAEDWIWBADNTSGOXMSWPXZOHMGFOGROKFNKHGRRAWBGFIOOAYSUEILFVDLBWIKZE
+CHANGES WUTNNIYDOOQPXQQIRVNKSCVQTEKSGDKLCSUXNAEDWTWBADNTDGOXMSWAXZOHMGQOGROKFYKHGRRAHBGFIOOLYSUEILQVDLBWIVZE
+CHAPTER WUTLAIZDOOOCXRQIRTAKTCVQRRKTGDKJPSVXNACQWUWBABATEGOXKFWBXZOFZGROGRMXFZKHGPEAIBGFGBOMYSUCVLRVDLZJIWZE
+CHARLES WUTJIIYDOOMKXQQIRRIKSCVQPZKSGDKHXSUXNAAYWTWBAZITDGOXINWAXZODHGQOGRKFFYKHGNMAHBGFEJOLYSUADLQVDLXRIVZE
+CHILDREN WULPQVMSTHVKYROCPBLDHNYDEDGZFTGLGPEORJNWYEQXXZPKTBNMWHWFXZGJPTEDLKTFGZIBEXPTWMJSTNKSXIQEMIAMHUKPKGTA
+CLOTHES WQFHMIYDKAKOXQQEDPMKSCRCNDKSGZWFBSUXJMYCWTWXMXMTDGKJGRWAXVABLGQOCDIJFYKDSLQAHBCRCNOLYOGYHLQVZXVVIVZA
+COMPANY WNHLTZSDHCOVOKQBFTTBMCOERKBMGWYJIJOXGOCJNNWUOBTKXGHLKYNUXSCFSXKOZFMQWSKAUPXRBBZTGUFFYLICOCKVWZZCZPZX
+COMPLEX WNHLIITDHCOKXLQBFTIKNCOERZKNGWYJXSPXGOCYWOWUOBITYGHLKNWVXSCFHGLOZFMFFTKAUPMACBZTGJOGYLICDLLVWZZRIQZX
+CONSIDER WNGILJMOTAQDTFOYPUGWCBYZEWBSAHGHGIZHMXNSYXLQSNPGTUIFRVWBXSBCKHEZLDOYBNIXEQKMRAJOTGFLSWQAMBVFCIKLKZOT
+COUNTER WNZNAIZDHUQCXRQBXVAKTCOWTRKTGWQLPSVXGGEQWUWUGDATEGHDMFWBXSUHZGROZXOXFZKAMREAIBZLIBOMYLAEVLRVWRBJIWZX
+COUNTRY WNZNAVSDHUQCKKQBXVAXMCOWTRXMGWQLPFOXGGEQJNWUGDAGXGHDMFJUXSUHZTKOZXOXSSKAMRENBBZLIBBFYLAEVYKVWRBJVPZX
+DAUGHTER VBZUMTMOSOJPUPOYOIZIDLYZDKUEBRGHFWSTNHNSXLECTXPGSIBRSFWBWGUOLREZKRHKCXIXDEDYSKJOSUYXTGQALPORDSKLJNHF
+DELIGHT VXISNFXCRDVPUPPLGANHRBYFYEHRFGZQCPTWQPJDTSVEPINQCFRMRSTZWCDMMDPNJGTKCXJKVWRXGAJUNOLKXVJJIIPUGAGWFUYH
+DICKENS VTRQPZYCNMTROQPHPYPBSBUOWGBSFCIOEJUWMYHFNTVAYGPKDFNVPUNAWYMKOXQNFPRMWYJGEUTRHAFDLQFLXRSHKCQUCJEYZVYD
+DISPLAY VTBLIMSCNWOKBKPHZTIOMBUYRZOMFCSJXWOWMICYANVAIBIXXFNFKNAUWYWFHKKNFZMFJSJGOPMEBAFNGJSFXRCCDPKUCTZRMPYD
+DISTANCE VTBHTZOBSGLCBVQLOABVKRAMDCWRIXIUFOUGUNPFXDGPADRTSADEZLYOWYWBSXGMKJJXJDKKDWFLZQLBSMAKAMSNLHQEKYMYJFJS
+DRAWING VKTELZKCEOHNOCPYRMLBEBLQKCBEFTKCAJGWDAVBNFVRAULKPFEXDQNMWPOYKXCNWRFIWKJXGIPRTAWFZMFXXIUVGCCUTLSUZHYU
+ENGLISH UONPLUJBIISNJBOCLXLWDAPKVCWDEXENAEFVHUGBIEUVUFLFOEIROQILVTIJKSBMALQIRJIBATPMSZAZKMAWWMOGGXBTXFDUUGXY
+EXACTLY UETYABSBYOBCQKOSRGADMAFQERDMENKWPLOVXAPQPNULAOAMXEYXXFPUVJOSZZKMQRZXYSIRGCETBZQFTBHFWCUPVEKTNLMJBPXO
+EXPLAIN UEEPTEDBYZSVTVOSCXTGXAFBVKGXENVNIOZVXLGJSYULLFTPIEYIOYSFVJZJSCVMQCQQBDIRRTXWMZQQKUKQWCFGOHVTNWDCEAXO
+FAILURE TBLPZVMAVGSBKENPJXZXGZCIVQXGDKCNOFIUUSGPJHTISFZGRDVPOEJOUGGJYTELNJQWSMHOYTDNVYNXKABZVZMGUYESKDDIVJWL
+FASHION TBBTLYDAVWWNNVNPZBLAXZCYZCAXDKSRAIZUUIKBMYTIIJLJIDVFSQMFUGWNKWVLNZUIVDHOOXPQMYNNOMEQVZCKGBVSKTHUYAWL
+FIGURES TTNGCIYANIJEXQNHLOCKSZUKMTKSDCEERSUUMUXSWTTAUWCTDDNRFHWAUYIABGQLFLHZFYHGAKGAHYFZBDOLVROXXLQSCFULIVWD
+FINGERS TTGUPVYANBXRKQNHECPXSZUDAGXSDCXSEFUUMNLFJTTANKPGDDNKTUJAUYBOOTQLFEVMSYHGTYTNHYFSPQBLVRHLKYQSCYIYVVWD
+FRIENDS TKLWGJYAEGZIYQNYJEGLSZLICXLSDTCUVTUUDSNWXTTRSMGUDDEPVLXAUPGQFHQLWJXDGYHXYAKBHYWXRHPLVIMNBMQSTDKPJVWU
+HIMSELF RTHIPBLYNCLRQDLHFQPDFXUEOGDFBCYGELHSMOZFPGRAOYPMQBNLHUPNSYCCOZDJFFJMYLFGUMTTUWFTDQHYTRIZKEDQCZWYBIUD
+HISTORY RTBHFVSYNWKHKKLHZPFXMXUYNWXMBCSFUFOSMIYVJNRAIXFGXBNFGKJUSYWBETKJFZICSSFGOLJNBWFNCGBFTRCYAYKQCTVOVPUD
+HUSBAND RHBZTZNYBWCVOFLVZHTBHXIYFKBHBQSXIJJSAIQJNIROIPTKSBBFYYNPSMWTSXFJTZAQWNFUODXRWWTNUUFATFCQOCFQQTNCZKUR
+INCLUDE QORPZJMXIMSBYEKCPXZLGWPOVQLGAXINOTIRHYGPXHQVYFZURAIVOEXORTMJYHEIAPQWGMEBETDBVVADKAPZSMSGUMEPXJDIJJTY
+INSTEAD QOBHPMNXIWKRBFKCZPPOHWPYNGOHAXSFEWJRHIYFAIQVIXPXSAIFGUAPRTWBOKFIAZIMJNEBOLTEWVANCQSASMCYKPFPXTVYMKTY
+MINUTES MTGGAIYTNBJCXQGHEOAKSSUDMRKSWCXEPSUNMNXQWTMANWATDWNKFFWANYBAZGQEFEHXFYAGTKEAHRFSBBOLORHXVLQLCYUJIVPD
+OUTSIDE KHAILJMRBVLNYEEVYQLLGQIXOCLGUQRGATILAHZBXHKOHYLURUBEHQXOLMVCKHECTYJIGMYUNMPBVPTMDMPZMFBZGMEJQSWUJJNR
+PERSONAL JXCIFZQUGKMDNVSECECWWRCFRGXSUXKNTSVHGNRYLHHQMDTMGEEFLLAHKCXCEXIFYNKYVDMDRAGMLQNUGQBLMMUGZLRFWYORXJKT
+PLAYING JQTCLZKQKOFNOCDERKLBEPRQICBETZKAAJGKJATBNFJXASLKPTKXBQNMKVOWKXCBCRDIWKXDGGPRTOCFXMFXLOUTGCCIZLQUZHMA
+PROBLEM JKFZIIEQEACKXWDYDHIKYPLCFZKYTTWXXSAKDMQYWZJRMPITJTEJYNWGKPATHGWBWDAFFEXXSDMANOWRUJORLIGQDLWITXNRIBMU
+PROBLEMS JKFZIIENGXPUQEGXCRFNZAQYRTAJXGYGTFYYJWFRLUKHPMHFGRHWOUOAKPATHGWYYANPYMAWRNJDOZBNGDECPVIZZYUWZHCKXWNK
+QUESTION IHPIAECSFUZDIAECBOPWRWODQQKSPCWLSCIHBSDWKRUQHIFKFORFGQMFJMKCZCUDXXXYQIYBQKTMGVZSFAOLHRGEYVEFRDAPWTXT
+SOCIETY GNRSPTSNHMVRIKABPAPVMMOOYGVMQWIQEDOHGYJFHNGUYIPEXQHVRUHUHSMMORKYZPTMQSUAEWTLBLZDNQZFILSJKWKFWJGYTPJX
+SOMEWHAT GNHWXFQMDARRFBSWZUHKOXCXOWCGMDKFQIAVYTRQIXMEEJTEDUJTDRAZHSCQWDIXVDPMNJMVOQLADWNMDGGZESUYWBWTOEOJUZPH
+SPEAKING GMPAJEDZDZZVRAFJZTPOAWPKOVKKYCXSQHIZKSEDIWUIQIGRDTRXPQNMHRKUICVKVCXQZIZIOPTEPVAZDFODQRHLWAEXADBWUYXL
+SPECIAL GMPYLMFNGKBNBXAANGLOZMNMECOZQVGWAWBHFWPBAAGTWOLXKQGTXQAHHRKSKKXYYNZIJFUZCCPEOLYBTMSSIKQPGPXFVHMUMCJW
+STRANGE GICAGGMNCXDIVEAWAIGIGMJZGXIGQRTYVQIHBJRWUHGPJQGRRQCGZLUOHNXUFEEYUABDDMUVPEKYVLUOVHMZIGDRBJEFRUOPGJJS
+SUBJECT GHSRPKXNBNURZPAVQZPMRMIPXGMRQQJPEUTHAZIFYSGOZHPVCQBWQUYZHMNLOIPYTQSMHXUUFVTCGLTEMQQKIFTIKNPFQKFYKUJR
+SURFACE GHCVTKMNBXYVZEAVADTMGMIZBKMGQQTTIUIHAJMJYHGOJLTVRQBGUYYOHMXPSIEYTAWQHMUUPZXCVLTOQUQZIFDMONEFQUJCKJJR
+TALKING FBIQLZKMVDTNOCZPGYLBELCFWCBEPKZOAJGGUPHBNFFIPGLKPPVMPQNMGGDKKXCXNGRIWKTOVUPRTKNULMFXHZJHGCCEKAEUZHIL
+THOUSAND FUFGBMDCCHPBJIFMYBFUSEPNNDAQQKXVPPYFCAEGHEKOIQGUCBHDHYNPGZAAAKVNUKNWRQZLNXJKHDACCNEJIZHOVIUDSLBZTGNR
+TOWARDS FNXACJYMHSDEYQZBVICLSLOUGTLSPWOYRTUGGERSXTFUEQCUDPHBZHXAGSSUBHQXZVBZGYTAKEGBHKZJVDPLHLYRXMQEWPOLJVIX
+VARIOUS DBCSFSYKVXVHHQXPAAFUSJCZYWUSNKTQUCUEUJJVGTDIJIFDDNVGRKGAEGXMEQQVNATCPYROPWJKHINONGYLFZDJAVQCKUGOSVGL
+WORKING CNCQLZKJHXTNOCWBAYLBEIOZWCBEMWTOAJGDGJHBNFCUJGLKPMHGPQNMDSXKKXCUZARIWKQAPUPRTHZOLMFXELDHGCCBWUEUZHFX
+YOURSELF ANZJBIFAXAJEJEHKTUZXSARLIWUTQGZTKISICWGECXERIMISXUBGHUPNBSUDAGXLPDHZRMBJIQDNHZCAXGYMIVJMQBOGSHDXOZHU
+ACTION DKECNXQLCZLMECRTQBONFYOPAWCWBITWREFVYIMDLXAACMJVYBRJGJYTUBHCXWLIBWPKMGMOZNAEVGDWGNLXYZQYLRVBAQPMECQO
+ALMOST DBLWJRQCJTHGETYNMVOEMSKJANJQXCTNYYBPYZTXHRARJGFPYSYDCDYKBVDWXNSCXQPBTAIIZEHYRADNNHHRYQXSHLVSHKLGETXI
+AND DZUKOHQASHMWERHBRLOCVGPZALSECSTLHMGFYXCLMHAPSUKFYQHRHTYIKJIMXLBQCGPZCONYZCQMWQDLWVMHYOGGMBVQQYQWERGW
+ANOTHER DZJRUGZNITGSANKOQVHLHGPOHRRNPIFFDICILWMEVTAPHBQEHDXDBPUENWHWQUNQCVWFBXAOLWMISTQKGOVTYOVNSAEDGKKSANJJ
+ANSWER DZFOXTQADLVIERSFAXOCGKYLALDILETLSQPRYXNPVTAPDYTRYQSVQFYIVNRYXLMULSPZNSWKZCBQFCDLHZVTYORKVNVQBCZIERRA
+ANY DZZKOMQAXHMBERMBRQOCAGPEALXECXTLMMGKYXHLMMAPXUKKYQMRHYYIPJIRXLGQCLPZHONDZCVMWVDLBVMMYOLGMGVQVYQBERLW
+ARE DVTKKGQWRHIVENGBNKOYUGLYAHREYRTHGMCEYTBLIGALRUGEYMGRDSYEJJELXHAQYFPVBOJXZYPMSPDHVVIGYKFGIAVMPYMVENFW
+AROUND DVJQOHQWHNMWENWHRLOYKMPZAHHKCSTHWSGFYTRRMHALHAKFYMWXHTYEZPIMXHQWCGPVRUNYZYFSWQDHLBMHYKVMMBVMFEQWENVC
+AUTHOR DSEDNTQTCALIEKRUQXOVFZOLAECXBETERFFRYQMELTAICNJRYJRKGFYBUCHYXELJBSPSMHMKZVAFVCDEGOLTYHQZLNVJARPIEKQP
+BISHOP CEFDNVPFDALKDWSUQZNHGZONZQDXBGSQSFFTXCNELVZUDNJTXVSKGHXNVCHAWQMJBUOENHMMYHBFVECQHOLVXTRZLPUVBRPKDWRP
+BRIGHT CVPEURPWNBSGDNCVXVNYQAVJZHNYICSHCGMPXTXFSRZLNOQPXMCLNDXEFDOWWHWKIQOVXITIYYLGCACHRPSRXKBASLUMLSWGDNBQ
+BUT CSEJHRPTCGFGDKRAKVNVFFIJZECDVCSERLZPXQMKFRZICTDPXJRQADXBUIBWWELPVQOSMNGIYVALPACEGUFRXHQFFLUJAXJGDKQV
+CENTURY BIKRHTSLRUGFNGIXRVUYAEYPHEEGNRGFQVVGUXMRIMYYIBDRABGEBCHXLFIWDHGOLWWSOQYXMWZVLRZLGBIMWXWNFNXBPLKFNGHS
+CHANGE BFXXVGOGVUTVCXKOYKMIYTWYYRVRJRRRKZNEWDFYTGYVVHREWWKEOSWONWPLVREDJFNFFBUXXITZDPBRZITGWUJTTATWTLXVCXJJ
+CHARLES BFXTQGYLOHIOAMIUEXDLGEVCJNRMNOTHZIBGRKOAVSYVVDMEGBDRDLUDLCVYMUMOIJYBBWYUZYIIRRWYIKVSWUJPOADBMYMOAMHP
+COUNTRY BYDXITSLHNMGNGINKBVYAEOINFEGNHZLRVVGKQSSIMYOBHERABWXHDHXLVBCEHGOBPCTOQYNFCAVLRPEMCIMWNPTGNXBFEQGNGHI
+COUPLE BYDVQGOZBSOVCQQMTKMBERRYYKBPERRKQXIEWWLWOGYOBFMEWPQCJSWHTUKLVKKBEFNYLZPXXBZXYPBKFGOGWNPROATPZJSVCQPH
+DOUBLE AYDJQGNZBGOVBQQATKLBEFRYXKBDERQKQLIEVWLKOGXOBTMEVPQQJSVHTIKLUKKPEFMYLNPXWBZLYPAKFUOGVNPFOASPZXSVBQPV
+DURING ASGCOENTEZMTBKTTRILVHYPWXEEWCPQETEGCVQODMEXIEMKCVJTJHQVBWBIJUENICDMSOGNVWVCEWNAEINMEVHSYMYSJCQQTBKSO
+EASILY ZMFCQMMNDZOBAESTTQKPGYREWYDWEXPYSEIKUKNDOMWCDMMKUDSJJYUVVBKRTYMIELLMNGPDVPBEYVZYHNOMUBRYOGRDBQSBAERO
+ENGLISH ZZRZTSJJIBORMXGOYDGXRCPWPQDXLINNCUMELEUDHDWPPJPQRZXLJOGOJWPEPGXMCDEENHWOTELUCPQSONHDUODVRMOZGSSRMXFJ
+ENOUGH ZZJQVDMAHNTSARWHYHKCKMWVWLHKJOPLWSNBUXRRTDWPHARBUQWXOPUIZPPITLQWJCLZRUUUVCFSDMZLLBTDUOVMTXRQFEXSARVC
+FAMILY YMLCQMLNJZOBZEYTTQJPMYREVYJWEXOYYEIKTKTDOMVCJMMKTDYJJYTVBBKRSYSIELKMTGPDUPHEYVYYNNOMTBXYOGQDHQSBZEXO
+FATHER YMEDXTLNCAVIZERUAXJPFZYLVYCXLEOYRFPRTKMEVTVCCNTRTDRKQFTVUCRYSYLJLSKMMHWKUPAFFCYYGOVTTBQZVNQDARZIZEQP
+FIGURE YERQKGLFPNIVZWEHNKJHSMLYVQPKYROQESCETCZRIGVUPAGETVEXDSTNHPELSQYWYFKEZUJXUHNSSPYQTBIGTTDMIAQVNEMVZWDC
+FOR YYGFNTLZECLIZQTWQXJBHBOLVKEZBEOKTHFRTWOGLTVOEPJRTPTMGFTHWEHYSKNLBSKYOJMKUBCHVCYKIQLTTNSBLNQPCTPIZQSR
+FRENCH YVTXZDLWRUXSZNGOCHJYUTAVVHRRNOOHGZRBTTBYXDVLRHVBTMGESPTEJWTISHADNCKVBBYUUYPZHMYHVIXDTKFTXXQMPLBSZNFJ
+GROUPS XVJQMSKWHNKHYNWHPWIYKMNKUHHKADNHWSEQSTRRKSULHAIQSMWXFESEZPGXRHQWARJVRULJTYFSUBXHLBKSSKVMKMPMFEOHYNVC
+HAS WMFDBSJNDAZHXESUEWHPGZCKTYDXPDMYSFTQRKNEZSTCDNXQRDSKUERVVCVXQYMJPRIMNHAJSPBFJBWYHOZSRBRZZMODBRDHXERP
+HAVING WMCCOEJNAZMTXEPTRIHPDYPWTYAWCPMYPEGCRKKDMETCAMKCRDPJHQRVSBIJQYJICDIMKGNVSPYEWNWYENMERBOYMYODYQQTXEOO
+HER WIGDXTJJEAVIXATUAXHLHZYLTUEXLEMUTFPRRGOEVTTYENTRRZTKQFRRWCRYQUNJLSIIOHWKSLCFFCWUIOVTRXSZVNOZCRZIXASP
+HIM WELDTYJFJARNXWYUWCHHMZUQTQJXHJMQYFLWRCTERYTUJNPWRVYKMKRNBCNDQQSJHXIETHSPSHHFBHWQNORYRTXZRSOVHRVNXWXP
+HIMSELF WELSXZLGNVHVTZDTSWKETZUQIUKZINHGGBOBQYNHOFTUJCTXTWCFCSNQGBJXTNZJHXXIUJTTNXPBEMVMHROFRTXOVTQWLMLVTZCO
+HIS WEFDTSJFDARHXWSUWWHHGZUKTQDXHDMQSFLQRCNERSTUDNPQRVSKMERNVCNXQQMJHRIENHSJSHBFBBWQHORSRTRZRMOVBRVHXWRP
+HISTORY WEFRNTSGNPGLNGDTMVAYAZUKHKEGINBFWVVBQSMXIMTUDBJRAWCZBIHXGBDWJHGJHRWYOQTTHWFVLMVGGHIMRTRNLNXWLGKLNGCO
+HOW WYBDNOJZZALDXQOUQSHBCZOGTKZXBZMKOFFMRWJELOTOZNJMRPOKGARHRCHTQKIJBNIYJHMFSBXFVXWKDOLORNNZLIOPXRPDXQNP
+HUSBAND WSFJBXNGBPYZRBDHMNOCVZIKZYIBIBBXKZQBESELMHTIDTXVVWQZTWLSGPDOXLBJVROMSLTHHOTZGMJGYVMHRHRFZRSWZGCZRBCC
+INCLUDE VZVZHHMFIFOFBACOCDUMUYPAPESAHIRNQJPALIURWGSPTJDFUVXPJCVRFWTEDVAICHESCKSOXEZJFLQWOBWGQOHVFBRVGWSFBABJ
+INSTEAD VZFRXKNFIPGVEBCOMVKPVYPKHUVBHIBFGMQALSMHZHSPDBTIVVXZBSYSFWDWTYBICRWIFLSOHWPMGLQGGRZHQORNVESVGGKVEBBJ
+ITS VTFCISIUDZGHWLSTLWGWGYJKSFDWWDLFSEAQQRNDGSSJDMEQQKSJBEQCVBCXPFMIWRHTNGHJRWBEQBVFHNGSQIRYGMNKBQKHWLRO
+LENGTH SIKEIDFJIBGSTAXVLHDLLAJVPUIYWOIUXGABNGSFGDPYIOEBNZXLBPNRADCIMURKWCEISIHUOLGGQMSUMPGDNXWAGXKZGSKSTAWQ
+LET SIEZXRFJCWVGTARQAVDLFVYJPUCTLCIURBPPNGMAVRPYCJTPNZRGQDNRUYRWMULFLQEIMDWIOLABFASUGKVRNXQVVLKZANZGTAQL
+LONGER SYKEXTFZIBVITQXVAXDBLAYLPKIYLEIKXGPRNWSFVTPOIOTRNPXLQFNHADRYMKRKLSEYSIWKOBGGFCSKMPVTNNWAVNKPGSZITQWQ
+MAKING RMNCOEENLZMTSEATRICPOYPWOYLWCPHYAEGCMKVDMEOCLMKCMDAJHQMVDBIJLYUICDDMVGNVNPJEWNRYPNMEMBZYMYJDJQQTSEZO
+MAN RMKYBXENIVZMSEXPEBCPLUCPOYISPIHYXATVMKSZZXOCIIXVMDXFUJMVAXVCLYREPWDMSCAONPGAJGRYMJZXMBWUZRJDGMDMSEWK
+MARKET RMGAXRENEXVGSETRAVCPHWYJOYEULCHYTCPPMKOBVROCEKTPMDTHQDMVWZRWLYNGLQDMOEWINPCCFARYILVRMBSWVLJDCOZGSESM
+MASTER RMFRXTENDOVISESIAXCPGNYLOYDLLEHYSTPRMKNSVTOCDBTRMDSYQFMVVQRYLYMXLSDMNVWKNPBTFCRYHCVTMBRNVNJDBFZISERD
+MAY RMZYBMENXVZBSEMPEQCPAUCEOYXSPXHYMATKMKHZZMOCXIXKMDMFUYMVPXVRLYGEPLDMHCADNPVAJVRYBJZMMBLUZGJDVMDBSELK
+MEN RIKYXXEJIVVMSAXPABCLLUYPOUISLIHUXAPVMGSZVXOYIITVMZXFQJMRAXRCLURELWDISCWONLGAFGRUMJVXMXWUVRJZGMZMSAWK
+MINUTES REKQIGYBNUFGAMYTRUVLGUUPGFRMDNGERIBWQXLSVSOUIAEEGRCEADUDBBIVEUMEHWVTBWOTMVAIRHVLFCVSMTWMGADRLLJGAMXO
+MODERN RYUGKXEZSDIMSQHXNBCBVCLPOKSAYIHKHICVMWCHIXOOSQGVMPHNDJMHKFECLKBMYWDYCKJONBQISGRKWRIXMNGCIRJPQUMMSQGS
+MONTHS RYKRUSEZIOSHSQXIXWCBLNVKOKILIDHKXTMQMWSSSSOOIBQQMPXYNEMHAQOXLKRXIRDYSVTJNBGTCBRKMCSSMNWNSMJPGFWHSQWD
+MOTHER RYEDXTEZCAVISQRUAXCBFZYLOKCXLEHKRFPRMWMEVTOOCNTRMPRKQFMHUCRYLKLJLSDYMHWKNBAFFCRKGOVTMNQZVNJPARZISQQP
+MYSELF ROFGQFEPDDOUSGSXTJCRGCRXOADAEQHASIIDMMNHOFOEDQMDMFSNJRMXVFKKLAMMEEDONKPWNRBIYORAHROFMDRCOZJFBUSUSGRS
+NATURE QMEQKGDNCNIVRERHNKBPFMLYNYCKYRGYRSCELKMRIGNCCAGELDRXDSLVUPELKYLWYFCMMUJXMPASSPQYGBIGLBQMIAIDAEMVREQC
+NEARLY QIXTQMDJVQOBRAKKTQBLYPRENUVNEXGUKVIKLGFUOMNYVDMKLZKAJYLRNSKRKUEZELCIFXPDMLTVYVQUZEOMLXJPOGIZTHSBRAJF
+NEW QIBXXODJZUVDRAOOASBLCTYGNUZRLZGUOZPMLGJYVONYZHTMLZOEQALRRWRTKUIDLNCIJBWFMLXZFXQUDIVOLXNTVIIZXLZDRANJ
+NOT QYEXNRDZCULGRQROQVBBFTOJNKCRBCGKRZFPLWMYLRNOCHJPLPREGDLHUWHWKKLDBQCYMBMIMBAZVAQKGILRLNQTLLIPALPGRQQJ
+NOW QYBXNODZZULDRQOOQSBBCTOGNKZRBZGKOZFMLWJYLONOZHJMLPOEGALHRWHTKKIDBNCYJBMFMBXZVXQKDILOLNNTLIIPXLPDRQNJ
+NUMBER QSLJXTDTJGVIRKYAAXBVMFYLNEJDLEGEYLPRLQTKVTNIJTTRLJYQQFLBBIRYKESPLSCSTNWKMVHLFCQENUVTLHXFVNIJHXZIRKXV
+OLD PBUWQHCCSTOWQTHNTLAEVSRZMNSQESFNHYIFKZCXOHMRSGMFKSHDJTKKKVKMJNBCEGBBCAPYLEQYYQPNWHOHKQGSOBHSQKSWQTGI
+OTHERS PTQGKSCUODIHQLDXNWAWRCLKMFOAYDFFDICQKRYHISMJOQGQKKDNDEKCGFEXJFXMYRBTYKJJLWMISBPFSRISKICCIMHKMUMHQLCS
+OUT PSEWHRCTCTFGQKRNKVAVFSIJMECQVCFERYZPKQMXFRMICGDPKJRDADKBUVBWJELCVQBSMAGILVAYPAPEGHFRKHQSFLHJAKJGQKQI
+OUTSIDE PSESTHMZBOHRBAWHLWGMUSIJIQSABBAGCJPUERNDWGMICCPFUPQYCOVRZPCXPVACVQXECKMHGXLJFFJFHNWGKHQORBRPZFLRBAVC
+PERIOD OIGCNHBJEZLWPATTQLZLHYOZLUEWBSEUTEFFJGODLHLYEMJFJZTJGTJRWBHMIUNIBGAIOGMYKLCEVQOUINLHJXSYLBGZCQPWPASO
+PERSON OIGSNXBJEPLMPATJQBZLHOOPLUEMBIEUTUFVJGOTLXLYECJVJZTZGJJRWRHCIUNYBWAIOWMOKLCUVGOUIDLXJXSOLRGZCGPMPASE
+PLACES OBXIXSBCVFVHPTKZAWZEYEYKLNVCLDENKKPQJZFJVSLRVSTQJSKPQEJKNHRXINEOLRABFMWJKETKFBONZTVSJQJEVMGSTWZHPTJU
+PLAYING OBXMTXKYKHBRRYVQEQGCSRRCCQIYAKTACZNTNKHDMELRVWPVSOZRWOLPYYVRPLYBEJRESILQZRLZDESYBNMEJQJIRRPOIYFRRYUL
+POINTS OYPXISBZNUGHPQCOLWZBQTJKLKNRWDEKCZAQJWXYGSLONHEQJPCEBEJHFWCXIKWDWRAYXBHJKBLZQBOKRIGSJNBTGMGPLLKHPQBJ
+PROBLEM OVJJQGEYETYOASVKQNDLMRLOZNRSAEFXZIHTHWEAVYLLHTMEMOTDTLUJYSHOMUSBYVOBBCLKLOIIXEMKYKVYJKVFOAJOCKCOASUF
+PUBLIC OSWZTIBTUWRXPKJQWMZVXVUALEUTHTEEJBLGJQEARILIUJPGJJJGMUJBMYNNIEDFHHASEDSZKVSBBROEYKRIJHIVRCGJSNVXPKIL
+RESULT MIFQQRZJDNOGNASHTVXLGMRJJUDKECCUSSIPHGNRORJYDAMPHZSXJDHRVPKWGUMWEQYINUPIILBSYAMUHBORHXRMOLEZBESGNARC
+SAYING LMZCOEYNXZMTMEMTRIWPAYPWIYXWCPBYMEGCGKHDMEICXMKCGDMJHQGVPBIJFYGICDXMHGNVHPVEWNLYBNMEGBLYMYDDVQQTMELO
+SECOND LIVWOHYJTTMWMAINRLWLWSPZIUTQCSBUIYGFGGDXMHIYTGKFGZIDHTGRLVIMFUCCCGXIDANYHLRYWQLUXHMHGXHSMBDZRKQWMAHI
+SEXUAL LIAQBZYJYNZOMANHEDWLBMCRIUYKPKBUNSTXGGIRZZIYYAXXGZNXULGRQPVEFUHWPYXIIUAQHLWSJILUCBZZGXMMZTDZWEDOMAMC
+SHE LFTSUGYGRPSVMXGJXKWIUOVYIRRMIRBRGUMEGDBTSGIVRCQEGWGZNSGOJROLFRAYIFXFBWTXHIPUCPLRVDSGGUFOSADWPGWVMXFE
+SHOULD LFJQQHYGHNOWMXWHTLWIKMRZIRHKESBRWSIFGDRROHIVHAMFGWWXJTGOZPKMFRQWEGXFRUPYHIFSYQLRLBOHGUVMOBDWFESWMXVC
+SILVER LEMPXTYFKMVIMWZGAXWHNLYLIQKJLEBQZRPRGCUQVTIUKZTRGVZWQFGNCORYFQTVLSXEUTWKHHIRFCLQOAVTGTYLVNDVIDZIMWYB
+SIMPLE LELVQGYFJSOVMWYMTKWHMRRYIQJPERBQYXIEGCTWOGIUJFMEGVYCJSGNBUKLFQSBEFXETZPXHHHXYPLQNGOGGTXROADVHJSVMWXH
+SINGLE LEKEQGYFIBOVMWXVTKWHLARYIQIYERBQXGIEGCSFOGIUIOMEGVXLJSGNADKLFQRKEFXESIPXHHGGYPLQMPOGGTWAOADVGSSVMWWQ
+SOCIAL LYVCBZYZTZZOMQITEDWBWYCRIKTWPKBKIETXGWDDZZIOTMXXGPIJULGHLBVEFKCIPYXYDGAQHBREJILKXNZZGNHYZTDPRQDOMQHO
+SOCIETY LYVCXRSVHFRVLGSNCGKWAOOASUCGXHRQGTVQKIXHGMIOTMTPALWPMSFXVVTHTFGYBHHIMQINXHPTLBPWRRGMGNHYVLXLFWVVLGRI
+SPECIAL LXTITKFVGDXRETSMAMGPNONYYQVTXGPWCMIQJGDDZZINRSPINLVNSOYKVURNPYTYAFNEFDIMVNLMYBOUXNZZGMFEREKLEUBRETRH
+STRANGE LTGKOEMVCQZMYASINOBJUOJLALPAXCCYXGPQFTFYTGIJEUKCULRAUJSRVQEPKSAYWSPZZKIIIPGGFBKHZITGGISGMYRLAHDMYARD
+STRONG LTGWOEYUETMTMLTNRIWWHSPWIFEQCPBFTYGCGROXMEIJEGKCGKTDHQGCWVIJFFNCCDXTOANVHWCYWNLFIHMEGISSMYDKCKQTMLSI
+SURFACE LSGFBIMVBQUZCASHNJONUOILVYTAXBCTKKPQETALXGIIEPXGULQAPWWRVPEKXWAYVSKMDKIHIKTKFBJHUVXGGHSBZCRLZHYZCARC
+TAKING KMNCOEXNLZMTLEATRIVPOYPWHYLWCPAYAEGCFKVDMEHCLMKCFDAJHQFVDBIJEYUICDWMVGNVGPJEWNKYPNMEFBZYMYCDJQQTLEZO
+TALKING KMMATXKUVWPRRYRBTEGCSNCRQQIYWVIOCZNPYZVDMEHCKKPVSKKGKOLPUJKFPLYXPYFESIHBOFLZDADNPNMEFBYWRRPKTNTRRYQW
+THE KFTRUGXGROSVLXGIXKVIUNVYHRRLIRARGTMEFDBSSGHVRBQEFWGYNSFOJQOLERAXIFWFBVTXGIPTCPKRVCSGFUFNSACWPFWVLXFD
+THEORY KFTWKMXGRTIBLXGNNQVIUSLEHRRQYXARGYCKFDBXIMHVRGGKFWGDDYFOJVERERACYLWFBAJDGIPYSVKRVHIMFUFSIGCWPKMBLXFI
+THINGS KFPXVSXGNUTHLXCOYWVIQTWKHRNRJDARCZNQFDXYTSHVNHRQFWCEOEFOFWPXERWDJRWFXBUJGILZDBKRRITSFUBTTMCWLLXHLXBJ
+TRYING KVZCOEXWXZMTLNMTRIVYAYPWHHXWCPAHMEGCFTHDMEHLXMKCFMMJHQFEPBIJEHGICDWVHGNVGYVEWNKHBNMEFKLYMYCMVQQTLNLO
+TURNED KSGXXHXTEUVWLKTOALVVHTYZHEERLSAETZPFFQOYVHHIEHTFFJTEQTFBWWRMEENDLGWSOBWYGVCZFQKEIIVHFHSTVBCJCLZWLKSJ
+UNITED JZPRXHWANOVWKRCIALUCQNYZGLNLLSZLCTPFEXXSVHGPNBTFEQCYQTEIFQRMDLWXLGVZXVWYFCLTFQJLRCVHEOBNVBBQLFZWKRBD
+VARIOUS IMGCNQYSVQRLKMPBNGAVGLCLSKBMUVCQWSBNYTXXFSFCEMJOGIKAMIEDSJEHJEMVPSHYLWFBIHFSRYDHRHFSDBSYLKDITHVLKMOW
+VOLUME IYMQPGVZKNNVJQZHSKTBNMQYFKKKDRYKZSHEDWURNGFOKALEDPZXISDHCPJLCKTWDFUYUUOXEBISXPIKOBNGDNYMNAAPIERVJQYC
+WANTED HMKRXHUNIOVWIEXIALSPLNYZEYILLSXYXTPFCKSSVHECIBTFCDXYQTCVAQRMBYRXLGTMSVWYDPGTFQHYMCVHCBWNVBZDGFZWIEWD
+WAS HMFOBSUNDLZHIESFEWSPGKCKEYDIPDXYSQTQCKNPZSECDYXQCDSVUECVVNVXBYMUPRTMNSAJDPBQJBHYHZZSCBRKZMZDBCDHIERA
+WHO HFJOUWUGHLSLIXWFXASIKKVOERHIIHXRWQMUCDRPSWEVHYQUCWWVNICOZNOBBRQUIVTFRSTNDIFQCFHRLZSWCUVKSQZWFCWLIXVA
+WORKING HYGATXKRHQPRRYONNEGCSKOLQQIYTHCO
+ #32
+ Alex
+ Reno
+ 5. April 2020 
+ Austrian/Czech. I was able to translate this much of it. Its line by line.
+237
+Ybtat mqfvo dvbis prito kecqg kokik
+Bism prime kirch
+kyiwm zuarj
+Yi am zuare
+Alyia qtxvi vxzya szgou skiqn rbqjq
+Alyia vixen verstes irn bischen
+mogex ezdnf
+Move zu daufn
+vusda zurop ixklo cmnbl grdhz swmch
+Wustyaz Europa kamma nei weird zweimachemichen
+kupef pzlej
+Kupfe pleisch
+hbord wkkhu vthjk sfwda jepmu izvig
+Kirn. Weida sei fadda je muzig
+kzlau rdrxx
+Klau rudrx
+MDEC spozv eeeod dlmdz nqmia pidwg
+Medece Mei Spoza neima
+xdcyy mvkso
+Gesseirght de me kovso
+hmmii impwq nkipa mljvm sqsbb glevn
+Himma Im werken himmer Im lebt
+sktlq tn.
+Next Lichten 
+178
+Eekao parwo xiavy pejux lhnjh pbqdd
+Workao. Ju nix
+vdvxb mdiia
+Du vershest mi
+gwwmn zbivm abuws dwoug djozl ylaug
+I gemma zu beim aber Weis du ghetz ya laug
+loaea ilihj
+I heil ijloa
+swjft oetad tjisn avaqn sodwb wzaxe
+Zweite oh auf diesn. Sodeibawazeh
+zvoxg xpgzv
+Zvog pgz
+adurm shvxx xfmuq pdpvq dqwtu fryok
+Ai durmash x fumah padig ke wir Frei ok
+xfvcp ydzwm
+Deizwama
+ofwfl uzfne qsslo evl.
+Weirma auf flug veflugen
+137
+tziqb lqqxs kinod mbvil sukms syarh
+Bischen kind mit sechs jahr
+mhzvp tvswm
+Mitm herz vei mei dei richzige
+ayddg rixyy omfzm ugfzz aznqe
+Vergiz Anqe ju I gewust gemirdebei
+ljuyi ygwuo qmdbi vcxgz rmzno pessh
+I gewust gemirdebei verganze romanash
+gpoyx qqlei
+xmaoj buugz czfdl yzmkzesm.
+Chiama Jbush kezeitfel yaksemash
+ #33
+ adam
+ 28. Februar 2023 
+ This appears to be a message encrypted with a simple substitution cipher. To decrypt it, you would need to replace each letter with the corresponding letter in the alphabet based on the letter’s position in the ciphertext.
+Here is the decrypted message:
+To
+Abwehr command France
+Paris radio station
+Present immediately!
+Subject: Koehler
+Please transmit immediately to Berlin the following message:
+Arrival April 15th
+Merchant ship “Muensterland”
+From New York
+Cargo: Rubber
+Secure radio communication not guaranteed.
+178
+Due to enemy fire forced to land west of Orleans.
+Both pilots and observer ok.
+Einzinger.
+137
+Important! Keep secret! Intercepted radio message:
+“Northern sector: Artillery barrage on the 15th at 4:30.
+Southern sector: Attack planned for the 17th.
+I’ll call you later for further instructions.”
+ Kommentieren
+ Name:* -->
+ E-Mail-Adresse:*-->
+ Ort: -->
+ Kommentar: -->
+ Antwort löschen 
+ Abonnieren
+ Abonnieren mit:
+ RSS2
+ Atom
+ Mit einem Feedreader abonnieren 
+Anzeige-->
+Über den Autor

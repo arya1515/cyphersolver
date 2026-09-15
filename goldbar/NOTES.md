@@ -49,3 +49,27 @@ closed. There is no message to recover, so the item should be reclassified from 
 "constructed, not a cipher".
 
 Reproduce: `python analyse.py` (corpus is in `corpus.py`; needs numpy/scipy).
+
+## Independent corroboration, added 2026-09-15
+
+Checking Schmeh's Top 50 list (entry 49) turned up the documentary case against the bars in fuller form
+than we had it, and it agrees with the statistics from a completely different direction:
+
+* the aircraft depicted is a **Boeing 247 class**, in service from 1934, after the claimed 1933 date
+* **"General Wang Jialie"** was only promoted Lieutenant-General in 1936
+* the year is given in the **Gregorian** calendar rather than the Republican (Minguo) reckoning a 1933
+  Chinese document would use
+* some characters are **simplified forms** not made official until 1955-56
+* one bar references **1948**
+
+Nick Pelling's reading is that they are a post-war fake, probably early-to-mid 1950s, produced in the
+context of a live legal dispute over a claimed $300 million bank deposit - that is, with a fraud motive
+behind the objects.
+
+Two independent lines now agree. The letter distribution says the inscriptions were constructed rather
+than enciphered (21 of 26 letters exactly ten times; chi-squared 1.251 on 25 df; P = 9.3e-13). The
+objects themselves cannot date from 1933. Neither argument depends on the other.
+
+Also worth recording: Pelling and Bret Bowen independently found the same flat letter distribution we did,
+so the statistical result is reproduced. What this repo adds is the calibration - the Monte Carlo null that
+turns "looks flat" into a p-value, and the demonstration that 0 of 200,000 random strings are this uniform.

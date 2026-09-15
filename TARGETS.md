@@ -17,13 +17,13 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 7 | Maltravers → Ormonde | 1634–35 | Medium | partial (alphabet solved) | `ormonde/` | Nulls 91-111; regular block alphabet (consonants x3 from 7, vowels from 64) recovered via consecutive-figure doublets; angry / letters / Crosby / a councellor read; 186=Lord Deputy, 174=Ormonde, 221=Parliament inferred; 9 codes contextual. Write-up: docs/ormonde.html |
 | 8 | Hyde superscriptions | 1659–60 | Easy | found-solved (explained) | `hyde/` | Hyde→Barwick letters in Vita Barwick 1721 with full key (THE=370, 1-692); superscriptions decode to nothing / exceed the key; 1724 editor: dummy numbers "only to puzzle the Enemy". Not a cipher. docs/hyde.html |
 | 9 | Thurloe intercepts (Dutch, French, English) | 1653–56 | Medium-Hard | stuck | `thurloe/` | 4 pieces (136 / 22 / 16 / 50 groups); all cryptiana 1653-60 keys fail; Dutch/French hill-climb on 1653 letter gives fragments only; Rawlinson A originals not online |
-| 10 | Stepney → Earl of Manchester | 1702 | Medium-Hard | offline-only | `stepney/` | MS located & transcribed (Yale OSB MSS fc37 box 8 f.40, IIIF; 24 groups, 413 not 412); THE=454 Manchester key rejected; key = "Mr. Stepney's cipher" (asked for Aug 1701) in TNA SP 105/106 or BL Add MSS 7058-78 |
+| 10 | Stepney → Earl of Manchester | 1702 | Medium-Hard | offline-only | `stepney/` | MS located & transcribed (Yale OSB MSS fc37 box 8 f.40, IIIF; 24 groups, 413 not 412); THE=454 Manchester key rejected; key = "Mr. Stepney's cipher" (asked for Aug 1701) in TNA SP 105/106 or BL Add MSS 7058-78. 2026-09-15: Schmeh's Top 50 entry 34 cites a **Manchester cryptogram of Sept 1783**, 4th Duke of Manchester to **Sir John Stepney**, at the Clements Library - same two families a generation on. The library told a reader in 2017 that one letter is not enough and a corpus would be needed, which is the conclusion we reached independently here |
 | 11 | Telegram to Sun Yat-sen, Swatow 3 Apr 1916 (JACAR B03050738800) | 1916 | Hard | solved | `sunyatsen/` | Systematic 20×5 code condenser (consonants alphabetical from l, vowels e a i o u, column-major 01–00, no additive) found by brute force over the family (57 600 keys) scored with a Chinese char LM; standard telegraph code. 41 chars: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返… (3 codes garbled). Huang Xing telegram (B03050731500) not attempted. docs/sunyatsen.html |
 | 12 | Henry III → Segur | 1583–86 | Hard | blocked (Gallica access) | | BnF 500 Colbert 401; partial key |
 | 13 | 1520s superscript-digit ciphers | 1526–29 | Hard | blocked (DECODE/BL images need login) | | Latin syllabic; Worcester, Gilino, Garbino |
 | 14 | D'Estaing → Gerard | 1779 | Hard | skipped | `destaing/` | Clements Library, Clinton Papers |
 | 15 | Le Tellier → Castelnau | 1657 | Hard | skipped | `letellier/` | syllabic, short |
-| 16 | Ferdinand III ↔ Cardinal-Infante | 1634–40 | Hard | skipped (DECODE login) | `ferdinand3/` | Brussels; Latin/German |
+| 16 | Ferdinand III ↔ Cardinal-Infante | 1634–40 | Hard | **found-solved** | `ferdinand3/` | 2026-09-15: this entry was stale. Solved by **Thomas Ernst in October 2017**, in the comment thread of Schmeh's own Top 50 post — a digit-pair code on the Habsburg AEIOU motto (01/02=A, 02/12=E, 03/13=I, 04/14=O), with each non-numeric sign encoding its count of strokes or semicircles. Nine years published. Second time a target has proved already solved in the open literature, after the Barney dictionary code |
 | 17 | Switzerland telegram | 1937 | Hard | todo | | two short messages |
 | 18 | Vatican Challenge Part 5 | 1542 | Hard | model class excluded | `vatican5/` | NEW: vowel-bearing digits identified as {7,0,3,1} (word-final enrichment + frequency mass, two independent signals agreeing with Italian to 3 dp). Constrained search still fails to converge (0.86 vs 0.80 chance) while a MATCHED synthetic of the same design, length and polyphony recovers its key at 0.93-0.97 -> the cipher is provably not a polyphonic single-digit substitution of Italian. Reading: mixed letters + unmarked multi-digit nomenclature; needs the key, not analysis |
 | 19 | Enigma message | 1945 | Very hard | todo | | single message; compute-bound |
@@ -103,6 +103,58 @@ systems* rather than concealed messages, which is a problem for linguistics and 
 
 Already closed from that list: Feynman ciphers 2 and 3 (Vierra 2023, verified here), Zodiac Z408/Z340,
 Poe's challenge ciphers, the Chaocipher, the Smithy code, the Cyrillic Projector.
+
+## Klaus Schmeh's "Top 50 unsolved encrypted messages", scored on the same scale
+
+Source: https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/
+Cross-referenced and re-checked 2026-09-15; full working in `top50/NOTES.md`.
+
+The list ran as a post series, one article per entry, **8 Feb 2017 to 12 Apr 2020**, so solve status
+has to be measured per entry. Cipherbrain closed 31 Dec 2022 and **the index page was never
+retro-annotated** — it still calls Rivest's timelock unbroken though Schmeh posted the solution
+himself in 2019. The index cannot be used as a status source.
+
+**Nine of the fifty are closed and the list does not say so**: 48 Rivest timelock (Fabrot and
+Cryptophage, 2019), 42 Bonus 22 M-209 (Lasry, Jan 2018), 35 Thouless (Richard Bean, Aug 2019, book
+cipher on *The Hound of Heaven*), 32 silk dress (Wayne Chan, 2023 — US Army Signal Service weather
+code, 27 May 1888), 27 Ferdinand III (Thomas Ernst, Oct 2017), 15 Rilke (not a cipher — QWERTZ
+typewriter keys), 14 Codex Seraphinianus (asemic, per the author), 21 YOG'TZE (case closed Apr 2025),
+and **39 Riverbanks Ripper, which is an April Fools' joke** — posted 1 April 2017, ciphertext one
+character, transcriber credited as "George Fabyan", first murder set in Geneva, Illinois, home of
+Riverbank Laboratories. It has sat unmarked for nine years.
+
+Sixteen more are open but not settleable by cryptanalysis (Voynich, Kryptos K4, Zodiac Z13/Z32,
+Somerton, Rohonc, Dorabella, pigeon, McCormick, Shugborough, Blitz, Cylob, Untersberg, Fair Game,
+Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, not scored here.
+
+### Worth attacking
+
+| # | Target | Odds | Why |
+|---|---|---|---|
+| 46 | ADFGVX residue, 1918 | **high** | The sleeper. Lasry, Niebel, Kopal and Wacker broke the Childs corpus and published the keys, so these 22 are not unbroken ciphers but *mutilated transmissions against known keys*. 12-13 were read in the 2017 comment thread by Biermann, Armin, Baertl and Lasry; Schmeh promised a consolidating article and never wrote it, so **no clean table of which are solved has ever been published** and ~9-10 were never touched. ~3,964 letters available |
+| 28 | Thomas Urquhart's poems | **high** | Numeric book-cipher shape (distich 64 numbers to 70; octastich ~272 to 201), Urquhart's printed corpus finite and digitised. **A live dispute to settle**: Vals AI announced 31 Aug 2026 that Claude Fable 5.1 solved the distich against the *Proquiritations*; Reticuli Labs rebutted on 1 Sept 2026 (rule fails at 10 of 64 positions, scores at chance, and the distich is absent from the verified 1653 text). No expert has adjudicated. The octastich is untouched |
+| 19 | Kaliningrad bottle post | **high** | ~1,000+ characters over seven sections, far the most text of any open entry and the only one with enough for statistics. 37 symbols, IC ~0.054, consistent with Russian. **An unpublished crib claim is outstanding** — a 2021 commenter said the plaintext is from the 1876 Synodal Bible and never showed the method. Directly testable |
+| 3 | Debosnys, 1882-83 | **high** | Four cryptograms, few hundred symbols, and almost nobody has worked on it. **No complete machine-readable transcription exists** - that is the stated bottleneck and it is a vision task on six public scans. And Debosnys was shown in 2021 to have plagiarised his unencrypted poems and paintings, so the ciphertexts may conceal copied published text: a known-plaintext hunt of the `beale/` kind |
+| 47 | Köhler, Abwehr 1944 | medium | 921 letters over five messages, a decent corpus here. System unknown; Enigma variants exhaustively excluded. Published as an image only, so transcription comes first |
+| 8 | Catokwacopa, 1875 | medium | Two *Evening Standard* ads, the second intelligible only with the first; full transcriptions published. Live thread on klausschmeh.net since Aug 2026. Interleaving of two streams with omitted letters, not substitution; partial readings disputed |
+| 33 | Censorship manual steganograms | medium | Already partly solved in 2017 (Morse in pen strokes on the Amsterdam map, matched to the manual's own gloss). Residue is well specified: the fashion drawing's Morse, and the exact German plaintext. Originals TNA KV 2/2424 |
+| 12 | Scorpion letters, 1991 | medium | ~250 symbols over two homophonic ciphers; S2-S4 withheld by police. The Z340 break shows what searching transposition as well as substitution can do |
+| 23 | Copenhagen cryptogram | medium-low | 107 characters, 25 symbols, four apparent sentences. Simple substitution and almost certainly **not English** - Danish is the obvious candidate, which makes it a multilingual language-model problem. The ACA never even wrote it up |
+| 18 | Moustier altar inscriptions | medium-low | ~100 characters. Huylebrouck's 2022 Trithemius *Ave Maria* hypothesis is testable, but Ernst's caution is serious: letter extenders and four distinct L-shapes mean the standard transcriptions may conflate symbols |
+| 17 | Roosevelt cryptogram, 1935 | medium-low | Letter part fell in 2015 ("DID YOU EVER BITE A LEMON?"); the open residue is ~115 digits. Ernst's 2017 claim that it is a doodle, because the joined pairs give 43 numbers covering 10-52 exactly once, is a blog comment and is checkable |
+
+### Ranked lower
+
+| # | Target | Odds | Why |
+|---|---|---|---|
+| 29, 30 | Pollaky; Harry-Caroline and Tissie-Jabber | low | Victorian agony-column ads, scans public, ten words each. Tissie-Jabber's groups over {a,b,c,d,n,o} may not be letters at all. Pollaky destroyed his records |
+| 16 | Lima, Ohio robbery, 1916 | low | ~110 letters, and variant transcriptions are a genuine obstacle; the 2025 partial readings are mutually inconsistent |
+| 9 | Rubin, 1953 | low | One typewritten slip; contains the plaintext names "Dulles" and "Conant". No claimed solution of standing |
+| 7, 31, 44 | Cigarette case 1909; MLH 1974; bullet 1944 | low | Four engraved lines; four lines of symbols; 44 letters. All far too short |
+| 43 | Rayburn, 2004 | low | ~80 mixed characters, all underlined or struck through; plausibly a handwritten **password list**, not a cipher |
+| 25 | SS radio message, 1944 | low | Six lines, and probably a **forgery** - wrong typography, wrong SS rank abbreviations, anachronistic stamp |
+| 24 | Erba murder, 2006 | low | Blocker is sourcing: only a press photograph, no authoritative transcription |
+| 38 | Sufi Fiddle | low | Seven lines of unidentified script, **no transcription ever published**, and provenance rests on a novel's afterword. Palaeography before cryptanalysis |
 
 ## Done elsewhere in this repo
 | Target | Status | Dir |

@@ -1,0 +1,102 @@
+entry-content">
+ The M-209 is a small and robust encryption machine used by the US Army in World War II. Although several cryptologists have developed powerful methods to break the M-209, one series of messages is still unsolved.
+Click here for the complete top 50 list
+In every larger collection of historical cipher devices you can expect to find an M-209. The M-209 is a portable, mechanical encryption machine used by the US military primarily in World War II, though it remained in active use through the Korean War. About 140,000 copies were built, which makes the M-209 the probably most manufactured cipher machine in history (the photographs shown here were provied to me by Marc Simons and Paul Reuvers from the Cryptomuseum).
+The M-209 was used as a field cipher. For this purpose, it was designed to be small, robust, and lightweight. Instead of a keyboard (like the Enigma) it contained a letter wheel. The operator had to set a certain cleartext letter and press a lever, which made the machine print the corresponding ciphertext letter on a thin sheet of paper.
+The M-209 uses three different keys (the recipient needs all of them to decrypt a message):
+Wheels: The position of the six wheels at the front is a key (this key was usually different for every message encrypted). Wheels #1, #2, #3, #4, #5, and #6 are labeled with 26, 25, 23, 21, 19, and 17 letters, respectively.
+Pins: Every wheel has a pin for every letter, which can be active or inactive. Activating or deactivating a notch is only possible when the cover is open.
+Lugs: Inside the machine there’s a rotating cage with 27 bars. Each bar in the cage has two movable lugs. Each lug may be set against any of the six wheels or set to a neutral position.
+A great M-209 simulator was programmed by Dirk Rijmenants.
+Security of the M-209
+The M-209 is not as secure as the Enigma or other well-known encryption machines. The cryptologists of the US Army, which belonged to the best of their time, probably knew this. However, as the M-209 was only used as a field cipher, it had not to be unbreakable. Typically, M-209 encrypted messages contained things like position reports, material orders, weather reports or warnings, which usually lost their value within days or even hours. It was therefore sufficient to make decipherment difficult, while absolute security was not needed.
+In fact, already in World War II several German crypto units independently from each other found ways to break the M-209. In 2004 I had the chance to talk to a German WW2 codebreaker named Reinold Weber, who reported about a codebreaking machine that was constructed by German specialists in order to decipher M-209 messages.
+Even decades after WW2, when the M-209 was long out of use, crypto experts developed new attacks on this machine. E.g., in the late 1970s, Jim Reeds, Robert Morris, and Unix inventor Dennis Ritchie introduced a ciphertext-only method for recovering keys from Hagelin M-209 messages.
+In 1977 US cryptologist Wayne G. Barker published a book named Cryptanalysis of the Hagelin Cryptograph. It described a method to break the M-209. This book includes a number of M-209 challenges. Another series of 40 challenges with increasing difficulty
+was published by Jean-Francois Bouchaudy on his M-209 Challenge website. This series starts with 12 challenges referenced on the main page. The remaining 28 problems are referred to as Bonus Challenges.
+Recently, George Lasry became interested in the M-209. George is a great codebreaker specialising in historical cryptograms that were encrypted in a known cipher (i.e., the challenge is to find the key). His favorite codebreaking technique is hill climbing. George has broken many different historical ciphers with hill climbing algorithms.
+Share this:
+Facebook
+Seite 1 / 2 / Auf einer Seite lesenNächste Seite »
+ Stichworte: George Lasry, M-209
+ Teilen:
+ Mehr
+Kommentare (11)
+ #1
+ George Lasry
+ 12. März 2017 
+ If anyone is interested, I will be happy to share the two papers. I strongly recommend to try the challenges on the site, not just the very tough bonus 22. There is a rich variety of difficulty levels, and of the methods that can be used. I found this site and the challenges a great way to learn about the M-209 and the Hagelins in general.
+ #2
+ George Lasry
+ 12. März 2017 
+ From the security point of view, the M-209 is both weaker and stronger than the Enigma.
+1) Because of the additive nature, it is easy to solve messages in depth (unlike Enigma).
+2) But it is also stronger than Enigma in several ways:
+– If you know about 10-20 letters of plain text, you can find Enigma keys (with a Turing Bombe/Bombe simulator). With M-209, you would need at least 50-75 guessed or known letters.
+– There are today ciphertext-only methods to break Enigma messages, with less than 100 letters, and recently, with even much less (~30). For M-209 ciphertexts, you would need at least 500 to 2500 letters, depending on the method.
+ #3
+ Norbert
+ 14. März 2017 
+ I am afraid, I cannot keep pace. Still fiddling around with the ADFGVX messages. But I have a question to George: Wasn’t the Schlüsselgerät 41 (SG-41) very similar to the Hagelin devices?
+If the Köhler messages are not encrypted by an Enigma variant, there is a certain probability that a SG-41 was used. Do you have statical methods at your disposal to determine if the Köhler messages were encrypted by a Hagelin-like machine with a fixed daily pin/lug setting (in depth)?
+ #4
+ Norbert
+ 14. März 2017 
+ Abo
+ #5
+ George Lasry
+ Israel
+ 14. März 2017 
+ Norbert, Klaus
+Is there any documentation on the SG-41, other than the general descriptions I could find on the internet. 
+In particular, was this an purely additive machine, in which case I could try to apply some statistical methods to detect whether the Kohler messages are in depth (great idea, Norbert, thx).
+George
+ #6
+ Norbert
+ 14. März 2017 
+ @George: Interesting pictures and an English transcript of a Klaus Schmeh article reagarding SG-41 at https://www.jproc.ca/crypto/schluesselgeraet_41.html.
+Anyway, in the full article of Klaus Schmeh a former Abwehr employee is quoted that they used the SG-41 very rarely.
+ #7
+ Klaus Schmeh
+ 14. März 2017 
+ @George Lasry:
+You probably know this:
+https://www.nsa.gov/about/cryptologic-heritage/historical-figures-publications/publications/wwii/assets/files/german_cipher.pdf
+https://www.nsa.gov/about/cryptologic-heritage/historical-figures-publications/publications/wwii/assets/files/german_cipher.pdf (p. 30)
+I have never seen a specification of the SG 41. It’s a Hagelin machine with some extra twist.
+ #8
+ George Lasry
+ 14. März 2017 
+ I also found this
+https://www.nsa.gov/news-features/declassified-documents/european-axis-sigint/assets/files/volume_2_notes_on_german.pdf
+based on the story, it does not seem likely that those machines were used by the Abwehr or by agents.
+ #9
+ Thomas
+ 14. März 2017 
+ @George
+In the NSA historic publication “German Cipher Machines of WWII” it sais in the chapter “Schlüsselgerät 41” (page 29): “About 1,000 machines had been constructed, and they were distributed to the Abwehr, which began using them in 1944.”
+ #10
+ George Lasry
+ 14. März 2017 
+ Thanks for this very important information, Thomas. In this case this is worth a trial, to see if those messages might be in depth.
+ #11
+ Rafael Pascual
+ Problem 12 and Bonus 22 M-209 Challenge solved.
+ 21. August 2019 
+ Good morning,
+as you can see, it’s been a while since I also solved problem 12 and bonus 22 “The longest day” of the M-209 challenge of J.F. Bouchaudy
+I used my own method designed for this, which can resolve messages in encrypted text only of at least 580 characters
+regards
+ Kommentieren
+ Name:* -->
+ E-Mail-Adresse:*-->
+ Ort: -->
+ Kommentar: -->
+ Antwort löschen 
+ Abonnieren
+ Abonnieren mit:
+ RSS2
+ Atom
+ Mit einem Feedreader abonnieren 
+Anzeige-->
+Über den Autor
