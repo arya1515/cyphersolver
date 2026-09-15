@@ -13,9 +13,6 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | solved independently, then found already printed by Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
 | Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
-| Milroy telegrams | 1861–62 | found solved (R. Bean, 2026) | [`milroy/`](milroy/) |
-| Barney → Mallory dictionary code | 1863 | found solved (2026) | [`barney/`](barney/) |
-| Feynman ciphers 2 & 3 | 1987 | found solved (Vierra 2023); verified | [`feynman/`](feynman/) |
 | Beale Paper no. 1 | 1885 | fabrication — evidence in notes | [`beale/`](beale/) |
 
 Every working directory except `barney/` has a `NOTES.md` with the record of the attempt (sources, dead ends, what is
@@ -78,10 +75,8 @@ known key of the same design. Findings and negative results in `vatican5/NOTES.m
 
 - `hamilton/` — Charles II → Hamilton 1650: collation of the two printed witnesses (`collate.py`), structure notes, and the
   archive reference for the surviving cipher keys (NRS GD406/1/2197). Blocked on a copy order; see `hamilton/NOTES.md`.
-- `milroy/` — Stager route-cipher tooling (`route.py`) written before the published solution was found.
 - `beale/` — book-cipher scanner over Gutenberg (`scan_corpus.py`, `bookcipher.py`); notes arguing fabrication.
-- `feynman/` — `verify.py` / `decrypt.py` checking Vierra's 2023 solutions.
-- `barney/` — dictionary-code enumerator over Google Books candidates; superseded by the 2026 solution.
+- `milroy/`, `feynman/`, `barney/` — items that turned out to be already solved by others; tooling and notes kept for reference, not tracked.
 - `docs/` — the website: `index.html` (hub), `armstrong.html`, `richelieu.html`, shared `style.css` / `site.js`.
 
 ## Conventions

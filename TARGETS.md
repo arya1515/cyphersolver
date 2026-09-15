@@ -7,7 +7,6 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 
 | # | Target | Date | Difficulty | Status | Dir | Notes |
 |---|---|---|---|---|---|---|
-| 1 | Milroy cipher telegrams (Cox, Bascom) | 1861–62 | Easy | found-solved | `milroy/` | Solved by Richard Bean (with Claude Opus 5), 2026: Stager Cipher No. 7, 6 columns, "China"=8 lines, "Turkey"=12; cryptiana now marks it Solved |
 | 2 | Armstrong → Madison postscript (30 Aug 1808, THE=972 code) | 1808 | Medium | solved | `armstrong/` | 2026-09-14: "Russel ought to be the consul: he is an American by birth, and is much better qualified than any other candidate. In a word, he is above men in general. Next to him in fitness is O'Mealy, but he is, like Warden, an Irishman." Key = pencil interlinear decodes on DUSMF M34 roll 13 + alphabetical-slot inference; 49/49 groups (555 read as slip for 1555 *man*). 22 Feb 1808 letter (99-01-02-2733) also largely read |
 | 3 | Charles II → Duke of Hamilton | 1650 | Medium | offline-only | `hamilton/` | Not solvable online: 102 groups, no redundancy, no printed key (Camden 1880 has none). Key located in the archive: NRS **GD406/1/2197** "Keys for ciphers used in the correspondence of the Duke of Hamilton", 5 items, open; letters = GD406/1/10573-10576 (Hamilton Red Book ii 156-159, microfilm on site). Needs a copy order to Edinburgh |
 | 4 | Colbert passages (Mélanges Colbert) | 1665–74 | Medium | todo | | Gallica; surviving keys |
@@ -32,6 +31,4 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | Target | Status | Dir |
 |---|---|---|
 | Richelieu → Rancé 1629 | found-solved (Avenel 1858) + independently solved | `richelieu/` |
-| Barney → Mallory 1863 dictionary code | found-solved (2026) | `barney/` |
 | Beale Paper No. 1 | fabrication (evidence in notes) | `beale/` |
-| Feynman ciphers 2 & 3 | found-solved (Vierra 2023), verified + independent decrypt | `feynman/` |
