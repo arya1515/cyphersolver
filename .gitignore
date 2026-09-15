@@ -57,3 +57,8 @@ milroy/word_lm.json
 beale/*.log
 hamilton/burnet1852.txt
 hamilton/nrs_gd406_cipher.txt
+colbert/*.htm
+colbert/*.txt
+!colbert/arks.txt
+colbert/decode/
+colbert/img*/

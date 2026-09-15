@@ -13,6 +13,7 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | solved independently, then found already printed by Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
 | Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
+| Colbert passages (Mélanges Colbert) | 1665–74 | stuck — three short passages, no key online, known series keys fail | [`colbert/`](colbert/) |
 | Beale Paper no. 1 | 1885 | fabrication — evidence in notes | [`beale/`](beale/) |
 
 Every working directory except `barney/` has a `NOTES.md` with the record of the attempt (sources, dead ends, what is
