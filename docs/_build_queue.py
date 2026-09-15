@@ -15,12 +15,6 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Abwehr agent's messages, New York to Berlin", "1944",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/19/the-top-50-unsolved-encrypted-messages-47-encrypted-messages-of-a-nazi-spy/",
-     "top 50", "even", "md", "medium",
-     "Nine hundred and twenty-one letters over five messages — a decent corpus by this list's standards. The system is unknown and Enigma variants "
-     "were exhaustively excluded in the original thread. Published as an image only, so a transcription comes first."),
-
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
      CRYPTIANA, "", "low", "lo", "low",
      "Never attempted here and cheap to try. Salamanca was Franco's headquarters, so the Spanish Civil War supplies cribs, and the coincidence "
@@ -46,6 +40,16 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Abwehr agent Koehler's messages, New York to Berlin", "1944",
+     "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/19/the-top-50-unsolved-encrypted-messages-47-encrypted-messages-of-a-nazi-spy/",
+     "top 50", "skipped: intractable", "lo",
+     "Five messages, 924 letters, from the Dutch double agent Walter Koehler. <b>Attempted September 2026.</b> Every tractable class is excluded "
+     "against controls: substitution and transposition by the index of coincidence; Vigen&egrave;re, Beaufort and autokey at every period in "
+     "German, English and Dutch; a running key from book text, which would show in the letter counts (true cases gain at least 7.5 nats, these "
+     "score below uniform); and <b>any Enigma</b>, because the counts are too uneven for machine output (&chi;&sup2; 57.9, p = 0.0003). What "
+     "survives is a book key through a mixed alphabet table, the documented prayer-book system, or a hand one-time pad. Neither falls without "
+     "the book or the FBI's plaintexts. The attempt also corrects one letter of the circulating text."),
+
     ("Censorship manual steganograms", "WW2",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
      "top 50", "image resolution", "lo",
