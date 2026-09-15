@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
 <meta name="description" content="Working notes on historical ciphers from three standard lists: Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes, and Schmeh's Top 50 - with new decipherments, corrections to the catalogues where a solution already existed in print, and an audit finding nine of the Top 50 already closed and one entry an April Fools' hoax.">
-<link rel="stylesheet" href="style.css?v=20260915f">
+<link rel="stylesheet" href="style.css?v=20260915g">
 </head>
 <body>
 <nav class="nav"><div class="in">
@@ -39,47 +39,22 @@
 <main>
 
 <div class="bignews">
-  <span class="tag">&#9733; Audit &middot; September 2026</span>
-  <h2>Nine of the fifty most famous unsolved ciphers are <span class="strikeout">unsolved</span> &mdash; and the list does not say so</h2>
-  <p>Klaus Schmeh&rsquo;s <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Top 50 unsolved encrypted
-  messages</a> is the field&rsquo;s standard list of open problems. Checked entry by entry against the literature, <b>nine are closed</b>: Rivest&rsquo;s
-  timelock (2019), the Bonus 22 M&#8209;209 challenge (2018), the Thouless cryptogram (2019), the silk dress (2023), Ferdinand III (2017), the Rilke
-  sheets (not a cipher), the Codex Seraphinianus (asemic, by its author), and the YOG&rsquo;TZE case (closed as an accident, 2025).</p>
-  <p>The list cannot be read at face value because it ran as a post series from February 2017 to April 2020 and <b>its index was never
-  retro-annotated</b> &mdash; it still calls Rivest&rsquo;s puzzle unbroken although Schmeh posted the solution himself in 2019.</p>
-  <p>And entry 39, the &ldquo;Riverbanks Ripper cryptograms&rdquo;, is an <b>April Fools&rsquo; joke</b>. Posted 1 April 2017. The ciphertext is a
-  single character, the transcription is credited to &ldquo;George Fabyan&rdquo;, and the first murder is set in Geneva, Illinois &mdash; home of
-  Fabyan&rsquo;s Riverbank Laboratories. It has sat in the list unmarked for nine years.</p>
-  <div class="stat2">
-    <div><b>9 / 50</b><span>closed, but still listed</span></div>
-    <div><b>1</b><span>entry that is a hoax</span></div>
-    <div><b>16</b><span>open but unsettleable</span></div>
-    <div><b>22</b><span>genuinely worth attacking</span></div>
-  </div>
-  <a class="cta" href="#queue">See the ranked queue &rarr;</a>
+  <span class="tag">&#9733; Famous case closed &middot; September 2026</span>
+  <h2>The Chinese gold bar cryptograms are <span class="strikeout">unsolved</span> &mdash; because there is nothing in them</h2>
+  <p>Seven bars said to have been issued in Shanghai in 1933 and to certify a deposit of $300,000,000, stamped with sixteen strings of Latin
+  letters. Published by the IACR in 1996, carried on Elonka Dunin&rsquo;s list of famous unsolved codes ever since, and never read.</p>
+  <p>They were never read because they are not an encryption. The 263 letters contain <b>almost exactly ten of every letter of the alphabet</b> &mdash;
+  twenty-one of the twenty-six appear exactly ten times. That is flatter than randomness itself permits, and no cipher can do it: substitution and
+  transposition both preserve the plaintext&rsquo;s frequency skew, and even a one-time pad is still random sampling. Somebody counted out ten of each
+  letter and arranged them to look like cryptography &mdash; chi-squared 1.25 against uniform where chance predicts 25, about a trillion to one,
+  and not one of 200,000 simulated strings came out this flat.</p>
+  <p>The documentary case now agrees from a second direction, and it was not recorded here before: the aircraft stamped on the bars is a model that
+  entered service in 1934, after the date they claim; the general named was promoted in 1936; the year is Gregorian rather than Republican; and some
+  characters are simplified forms not official until the mid-1950s.</p>
+  <a class="cta" href="goldbar.html">Read the full case &rarr;</a>
 </div>
 
 
-
-<div class="stats">
-  <div class="stat"><b>24</b><span>open targets ranked</span></div>
-  <div class="stat"><b>11</b><span>solved / explained</span></div>
-  <div class="stat"><b>10</b><span>blocked on access</span></div>
-  <div class="stat"><b>9</b><span>worth attacking now</span></div>
-  <div class="stat"><b>3</b><span>source lists audited</span></div>
-</div>
-<div class="prog">
-  <div class="bar" title="solved &middot; attempted &middot; blocked on access &middot; queued &middot; not settleable">
-    <span class="s" style="width:20%"></span><span class="f" style="width:13%"></span><span class="o" style="width:18%"></span><span class="t" style="width:35%"></span><span class="x" style="width:14%"></span>
-  </div>
-  <div class="key">
-    <span><i style="background:var(--green)"></i>11 solved or explained</span>
-    <span><i style="background:var(--blue)"></i>7 attempted, findings recorded</span>
-    <span><i style="background:#b9a8ff"></i>10 blocked on a key, an archive or a transcription</span>
-    <span><i style="background:rgba(255,255,255,.18)"></i>9 live targets</span>
-    <span><i style="background:var(--red)"></i>8 open but not settleable</span>
-  </div>
-</div>
 
 <h2 id="recent"><span class="num">00</span> Recent findings</h2>
 <p>Newest first. One line each &mdash; the evidence is in the <a href="#queue">queue</a> below, or in the write-up linked.</p>
@@ -435,6 +410,6 @@ search away from "solved in 1858".</p>
   <span>Daniel Bourdeau, September 2026 · Text released under CC BY 4.0</span>
   <nav><a href="index.html">Overview</a><a href="armstrong.html">Armstrong 1808</a><a href="richelieu.html">Richelieu 1629</a><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's list ↗</a></nav>
 </div></footer>
-<script src="site.js?v=20260915f"></script>
+<script src="site.js?v=20260915g"></script>
 </body>
 </html>
