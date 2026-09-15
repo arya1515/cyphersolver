@@ -166,3 +166,8 @@ censorship/kv_*.png
 abwehr/corpus/
 abwehr/*.html
 abwehr/*.txt
+blume/corpus/
+blume/*.html
+blume/double_real.txt
+blume/t1_part*.png
+blume/fb_og.jpg

@@ -16,9 +16,12 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
-     CRYPTIANA, "", "low", "lo", "low",
-     "Never attempted here and cheap to try. Salamanca was Franco's headquarters, so the Spanish Civil War supplies cribs, and the coincidence "
-     "index points at transposition rather than a code. Only two short messages, which caps the odds."),
+     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "even", "md", "medium",
+     "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
+     "September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words "
+     "on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than "
+     "French, English or German. A single columnar key is excluded by a search that solves planted cases. Double transposition is the live "
+     "hypothesis, and needs a stronger solver or the second telegram, which is not public."),
 
     ("Copenhagen cryptogram", "c.1835",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/08/17/the-top-50-unsolved-encrypted-messages-23-the-copenhagen-cryptogram/",
