@@ -62,3 +62,28 @@ dots on some digits (`^.`), a few uncertain readings (`?`).
   (key-2-style syllabary with other numbering), which no letter-level model can identify. Next attack would be a
   mixed model with explicit 2-digit syllable codes seeded by the key-2 layout (cX/dX/lX/mX/nX/rX/sX series) and
   dotted 4-series on {2,0,7,5}; the old C# lattice solver had this class but no structural prior.
+
+## 2026-09-15, third attempt: the two-digit-syllable prior also fails
+
+New structural lead from re-reading Meister key no. 1: there the dot sits on the *antecedent* and selects a
+four-member syllable series, so the digits that *follow* a dot are the series slots (a, e, i, o). In IA-2
+those following digits are {2, 0, 7, 5}, which would make them the vowel slots and predict that much of the
+text is two-digit syllables of the form (consonant lead)(vowel from {2,0,7,5}).
+
+Tested directly, segmenting on the null 4:
+
+| prediction | observed |
+|---|---|
+| {2,0,7,5} concentrated at alternate positions | even positions 0.587, odd positions 0.582 — no difference |
+| word segments mostly even length | 280 even against 201 odd — no preference |
+
+So the syllables are not laid out as fixed two-digit units in a regular phase. Together with the earlier
+results (Meister keys 1-3 rejected by likelihood; trigram partition search recovers synthetic keys of the
+polyphonic design but fails on the real text in both Italian and Spanish) the picture is of a
+**variable-length code** mixing one- and two-digit groups, very likely with heavy nomenclature — which is
+exactly the case no letter-level model can identify, and is consistent with Lasry, Megyesi and Kopal having
+left it unsolved.
+
+Remaining idea, untested: the fraction of the text that is nomenclature (arbitrary groups for words and
+names) may simply be too large for any statistical attack, in which case the cipher needs the key itself
+rather than cryptanalysis.
