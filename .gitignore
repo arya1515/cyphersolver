@@ -62,3 +62,5 @@ colbert/*.txt
 !colbert/arks.txt
 colbert/decode/
 colbert/img*/
+rupert/warburton*.txt
+rupert/warb_hits.txt
