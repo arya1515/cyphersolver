@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huang Xing to Lin Hu and Li Genyuan (25 May 1916) — the scheme identified</title>
+<meta name="description" content="The romanised-kana telegram from Huang Xing to Lin Hu and Li Genyuan, relayed through the Japanese consul at Zhaoqing in May 1916 (JACAR B03050731500). The Foreign Ministry's filed decode recovered, and the enciphering scheme identified: three kana per character, each kana carrying one digit in its gojuon consonant row while the vowel is a free homophone.">
+<link rel="stylesheet" href="style.css?v=20260915c">
+<style>
+.kt{font-family:var(--mono);font-size:.82rem;border-collapse:collapse;margin:.6rem 0 1rem;width:auto}
+.kt th,.kt td{border:1px solid var(--rule);padding:.2rem .5rem;text-align:center}
+.kt th{background:rgba(255,255,255,.05)}
+.zh{font-size:1.2rem;line-height:1.95}
+.zh .g{color:var(--amber)}
+.zh .u{color:var(--red);border-bottom:1px dotted currentColor}
+.grid5{display:grid;grid-template-columns:repeat(10,1fr);gap:2px;font-family:var(--mono);font-size:.76rem;margin:1rem 0;max-width:640px}
+.grid5 div{padding:.25rem .1rem;text-align:center;border:1px solid var(--rule);border-radius:4px}
+.grid5 .hd{background:rgba(217,172,82,.14);color:var(--gold);font-weight:600}
+.grid5 .v{background:rgba(255,255,255,.03);color:var(--muted)}
+.pair{font-family:var(--mono);font-size:.86rem}
+.pair b{color:var(--gold2,#e7c87a);font-weight:600}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="richelieu.html">Richelieu 1629</a>
+    <a href="ormonde.html">Ormonde 1634</a>
+    <a href="hyde.html">Hyde 1659</a>
+    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
+    <a href="huangxing.html" class="active">Huang Xing 1916</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">REKUTATA UHOYAKATE SEKANAOKU SAKEKINISE<br>OSUKAKUCHI REUHONIUSU MAKASUSAKU FUREOHIHE<br>… ATAREUSASU OSOYUANIRA KISU</div>
+  <p class="kicker">China / Japan · romanised kana · 1916 · scheme identified</p>
+  <h1>Huang Xing to Lin Hu and Li Genyuan</h1>
+  <p class="sub">Relayed through the Japanese Foreign Ministry, 25 May 1916 · Minister Ishii to Consul Ōta at Zhaoqing · JACAR B03050731500</p>
+  <p class="sub">The catalogue records it as “solved but specific scheme unknown”. Here is the filed decode, and the scheme.</p>
+  <p class="meta">Daniel Bourdeau · September 2026</p>
+</section>
+
+<main>
+
+<div class="callout">
+<strong>Summary.</strong> In May 1916 Huang Xing asked the Japanese Foreign Ministry to pass a telegram to Lin Hu and Li Genyuan in Guangdong.
+It went out in a cipher of the Chinese side's own making: 139 syllables of romanised Japanese kana, packed into ten-letter telegraph words, with no
+voicing marks. S. Tomokiyo later found a memo recording that the Ministry had <em>filed a decode</em> with the telegram, so the item is listed as solved
+— but he could not read the handwritten Chinese, and the encryption scheme stayed unidentified. Both are settled here. The decode and its annotated
+Japanese reading are on frames 0247 and 0248 of the file, and the message is a short reply about the National Protection Army and a traveller's sailing
+date. The scheme is a kana condenser of a kind not previously described for this correspondence: <strong>three kana encode one character, each kana carries
+one decimal digit in its gojūon consonant row, and the vowel is free</strong> — five ways to write every digit, which is why the surface text looks like
+Japanese and almost never repeats. <em>Status: scheme identified and plaintext read; the row-to-digit permutation and the codebook itself remain open.</em>
+</div>
+
+<h2 id="documents"><span class="num">01</span> The file</h2>
+<p>JACAR <b>B03050731500</b> is a Gaimushō volume on the anti-Yuan risings (1.6.1.75-1_015, reel 1-0955, frames 0244–0302). The covering
+despatch, 電送第一九八〇号, cipher, sent <b>25 May 1916 at 4.35 p.m.</b> from Foreign Minister Ishii to Consul Ōta at Zhaoqing, says in plain Japanese
+what the enclosure is:</p>
+<blockquote>黄興ヨリ林虎李根源宛電報依頼アリタルニ付同人ニ伝達アリタシ　内容ハ先日来電ノ挨拶ナリ（以下支那側暗号）
+<br><span class="muted">“Huang Xing has asked that a telegram be sent to Lin Hu and Li Genyuan; please pass it to them. The content is an acknowledgement of
+the telegram received the other day. (The Chinese side's cipher follows.)”</span></blockquote>
+<p>Three frames matter: <b>0246</b>, the telegram on an Imperial Government Telegraphs forwarded-message form; <b>0247</b>, headed 電稿, the decoded
+Chinese in cursive; and <b>0248</b>, a clerk's reading of it rearranged into Japanese word order on Foreign Ministry paper, with his own glosses.</p>
+
+<figure><img src="huangxing_telegram.png" alt="Imperial Government Telegraphs forwarded-message form with the words REKUTATA UHOYAKATE SEKANAOKU and so on">
+<figcaption>Frame 0246: the telegram as handed in. Five rows of ten-letter words, ending OSOYUANIRA KISU.</figcaption></figure>
+
+<pre>REKUTATA  UHOYAKATE  SEKANAOKU  SAKEKINISE  OSUKAKUCHI  REUHONIUSU
+MAKASUSAKU  FUREOHIHE  YENIKIYEHI  TAKASUREU  SASHIKIHE  WAONIAAHO
+SAYEHITE  UHINAKUTA  NEATEMUYE  SUHEUHAKA  YESOMIKANU  TEASUUKU
+TSUHAKOSE  KEKININAKI  TEAKETASHI  KONUOHIKE  HIMIKANO  SHIKUSAHE
+UHATAKASA  KEKINIKA  ATAREUSASU  OSOYUANIRA  KISU</pre>
+<p class="muted">Read as kana this is 139 syllables, 36 of them distinct. There are no voiced kana at all — no <i>ga, za, da, ba</i> — which is
+normal for telegraph traffic, where the voicing marks were simply not transmitted. The syllables are Japanese (SHI, CHI, TSU, and the old YE and WA),
+not the consonant-vowel letters of the condenser used in <a href="sunyatsen.html">the Swatow telegram to Sun Yat-sen</a> six weeks earlier.</p>
+
+<h2 id="plaintext"><span class="num">02</span> What the Ministry had already read</h2>
+<p>Frame 0247 is the decode: a heading 電稿 and four columns of 12, 11, 12 and 11 characters — forty-six characters of message. Frame 0248 is the
+same text rearranged for a Japanese reader, and it is the more useful of the two, because the clerk added glosses where he was unsure.</p>
+
+<div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+<figure><img src="huangxing_decode.png" alt="Cursive Chinese decode headed 電稿, five columns">
+<figcaption>Frame 0247, 電稿 — the decoded Chinese.</figcaption></figure>
+<figure><img src="huangxing_annotated.png" alt="The same text rearranged into Japanese word order on Foreign Ministry ruled paper">
+<figcaption>Frame 0248 — the clerk's reading, with his glosses.</figcaption></figure>
+</div>
+
+<p class="zh">隱印崧蕘邕行諸兄鑒：正發書翰之際，適接<span class="g">哿</span>電，敬悉一切。護國軍能速入<span class="g">湘贛</span>甚好。<span class="g">章行嚴</span>何日東渡？速令出發，並望預電。興　<span class="g">徑</span></p>
+
+<p>“To brothers Yin, Yin, Song, Yao and Yongxing: just as I was sending a letter, your telegram of the twentieth arrived, and I have respectfully
+noted it all. It would be excellent if the National Protection Army could move quickly into Hunan and Jiangxi. What day does Zhang Xingyan cross to
+Japan? Have him start at once, and please wire me in advance. — Xing, the twenty-fifth.”</p>
+
+<p>The clerk's glosses carry most of the identifications. Against the string of names at the head he wrote
+<b>林虎・李根源等ノ字ナラン</b>, “probably the courtesy names of Lin Hu, Li Genyuan and others” — he was guessing too, and one of them is certainly
+蔡鍔's 松坡. He glossed 湘贛 as <b>湖南江西</b>, Hunan and Jiangxi, and 東渡 as <b>日本ニ来ル</b>, coming to Japan. 章行嚴 is Zhang Shizhao, Huang Xing's
+close associate. Two characters are dates in the 韻目代日 rhyme-code that Chinese telegraphy used for the day of the month: <b>哿 = the 20th</b> and
+<b>徑 = the 25th</b> — and 徑, the last character of the signature, matches the dispatch date on the covering despatch exactly. That agreement is the
+best single check that the decode belongs to this telegram.</p>
+<p class="muted">Several glyphs in the cursive remain uncertain and are given here on the balance of the two frames. The column lengths are
+2 + 12 + 11 + 12 + 11; Tomokiyo's note gives the same figures but sums them as 68, where they add to 48.</p>
+
+<h2 id="scheme"><span class="num">03</span> The scheme</h2>
+<p>Forty-six characters against 138 usable kana is <strong>three kana to the character</strong>, with a single kana left spare at the end. That
+settles the rate. The question is what part of each kana does the work, and the gojūon syllabary answers it by its shape: it is a grid of ten
+consonant rows by five vowels.</p>
+
+<div class="grid5">
+  <div class="hd">—</div><div class="hd">K</div><div class="hd">S</div><div class="hd">T</div><div class="hd">N</div><div class="hd">H</div><div class="hd">M</div><div class="hd">Y</div><div class="hd">R</div><div class="hd">W</div>
+  <div class="v">A</div><div class="v">KA</div><div class="v">SA</div><div class="v">TA</div><div class="v">NA</div><div class="v">HA</div><div class="v">MA</div><div class="v">YA</div><div class="v">RA</div><div class="v">WA</div>
+  <div class="v">I</div><div class="v">KI</div><div class="v">SHI</div><div class="v">CHI</div><div class="v">NI</div><div class="v">HI</div><div class="v">MI</div><div class="v">—</div><div class="v">RI</div><div class="v">WI</div>
+  <div class="v">U</div><div class="v">KU</div><div class="v">SU</div><div class="v">TSU</div><div class="v">NU</div><div class="v">FU</div><div class="v">MU</div><div class="v">YU</div><div class="v">RU</div><div class="v">—</div>
+  <div class="v">E</div><div class="v">KE</div><div class="v">SE</div><div class="v">TE</div><div class="v">NE</div><div class="v">HE</div><div class="v">ME</div><div class="v">YE</div><div class="v">RE</div><div class="v">WE</div>
+  <div class="v">O</div><div class="v">KO</div><div class="v">SO</div><div class="v">TO</div><div class="v">NO</div><div class="v">HO</div><div class="v">MO</div><div class="v">YO</div><div class="v">RO</div><div class="v">WO</div>
+</div>
+
+<p>If the consonant row carries a digit and the vowel is free, then a character repeated in the plaintext will repeat as a triple of
+<em>rows</em> but need not repeat as a triple of <em>kana</em>. That is a testable prediction, and the counts are unambiguous. Across the 46 groups:</p>
+
+<table class="kt">
+<tr><th>reading</th><th>repeats observed</th><th>expected by chance</th><th>permutation test</th></tr>
+<tr><td>consonant row</td><td><b>7</b></td><td>1.03</td><td><b>p = 0.006</b></td></tr>
+<tr><td>vowel</td><td>8</td><td>8.28</td><td>p = 0.70</td></tr>
+<tr><td>literal kana</td><td>1</td><td>—</td><td>—</td></tr>
+</table>
+
+<p>The consonant rows repeat seven times where chance predicts one. The vowels repeat eight times where chance predicts eight — they carry
+nothing whatever. And the surface kana, the thing an interceptor actually sees, repeats once in forty-six. The mechanism is visible in the
+repeated groups themselves, the same character spelled two different ways:</p>
+
+<p class="pair">
+S K N &nbsp;→&nbsp; <b>SE</b>-<b>KA</b>-<b>NA</b> &nbsp;and&nbsp; <b>SHI</b>-<b>KO</b>-<b>NU</b><br>
+R — H &nbsp;→&nbsp; <b>RE</b>-<b>U</b>-<b>HO</b> &nbsp;and&nbsp; <b>RE</b>-<b>O</b>-<b>HI</b><br>
+T — H &nbsp;→&nbsp; <b>TA</b>-<b>U</b>-<b>HO</b> &nbsp;and&nbsp; <b>TE</b>-<b>U</b>-<b>HI</b><br>
+S K H &nbsp;→&nbsp; <b>SA</b>-<b>KU</b>-<b>FU</b> &nbsp;and&nbsp; <b>SHI</b>-<b>KI</b>-<b>HE</b>
+</p>
+
+<p>So each kana is one decimal digit written five ways, and each character is three digits. Three digits is the finding that matters for what
+the cipher actually was: this is <strong>not</strong> the four-figure standard Chinese telegraph code, and not Yamada Junzaburō's twenty-by-five
+condenser, which packs two digits into every syllable and which failed against this text when Tomokiyo tried it. A three-digit group addresses at
+most a thousand entries, so the correspondents were working from a small private codebook of their own.</p>
+
+<h2 id="open"><span class="num">04</span> What is still open</h2>
+<p>Two things, and they are joined at the hip.</p>
+<ul>
+<li>Which digit each of the ten consonant rows stands for. That is a permutation, and the repeat pattern already constrains it, but it cannot be
+fixed without the codebook or a longer sample.</li>
+<li>The codebook. Forty-six characters of known plaintext sit against forty-six code groups, so forty-six of its entries are directly recoverable —
+the obstacle is a character-by-character transcription of the cursive on frame 0247 firm enough to trust, and several glyphs there are still
+uncertain.</li>
+</ul>
+<p>A second telegram in the same hand would settle both at once.</p>
+
+<h2 id="sources"><span class="num">05</span> Sources</h2>
+<ul>
+<li>JACAR (Japan Center for Asian Historical Records), <a href="https://www.jacar.archives.go.jp/das/meta/B03050731500">Ref. B03050731500</a>,
+袁世凱帝制計画一件（極秘）／反袁動乱及各地状況 第十五巻, Diplomatic Archives of the Ministry of Foreign Affairs, 1.6.1.75-1_015, frames 0244–0302.</li>
+<li>S. Tomokiyo, <a href="https://cryptiana.web.fc2.com/code/chinesecrypto_e.htm">“Chinese Cryptography: 1871–1945”</a> and
+<a href="https://cryptiana.web.fc2.com/code/unsolved.htm">“Unsolved Historical Ciphers”</a>; and his blog post
+<a href="https://cryptiana.blogspot.com/2021/12/chinese-coded-telegram-1916-from-huang.html">“Chinese Coded Telegram (1916) from Huang Xing”</a>,
+which reports the filed decode and the preliminary analysis.</li>
+<li>Reproduce the statistics with <code>sunyatsen/huang.py</code> in the repository; the ciphertext is in the script and no data files are needed.</li>
+</ul>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 · Text released under CC BY 4.0 · Manuscript images from JACAR</span>
+  <nav><a href="index.html">Overview</a><a href="sunyatsen.html">Sun Yat-sen 1916</a><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's list ↗</a></nav>
+</div></footer>
+<script src="site.js?v=20260915c"></script>
+</body>
+</html>
