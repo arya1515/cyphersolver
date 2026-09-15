@@ -4,7 +4,7 @@ import json, math, random, sys
 import numpy as np
 from parse5 import load, digit_stream
 AL='abcdefghilmnopqrstuvz'; LI={c:i for i,c in enumerate(AL)}; B=len(AL); N=B+1
-ng=json.load(open('it_ngrams.json',encoding='utf-8'))
+ng=json.load(open('es_ngrams.json',encoding='utf-8'))
 P3=np.full((N,N,N),1e-9)
 for k,v in ng['3'].items():
     idx=[LI.get(ch, B if ch==' ' else None) for ch in k]
@@ -57,6 +57,5 @@ def sa(rnd,iters):
         T=max(0.3,T*0.99993)
     return best
 seed=int(sys.argv[1]) if len(sys.argv)>1 else 0; iters=int(sys.argv[2]) if len(sys.argv)>2 else 60000
-if __name__!="__main__": iters=0
 for trial in range(4):
     rnd=random.Random(seed*10+trial); v,a=sa(rnd,iters); print(f'seed {seed} trial {trial}: {v:.1f}  {show(a)}', flush=True)

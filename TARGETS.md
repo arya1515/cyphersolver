@@ -24,7 +24,7 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 15 | Le Tellier → Castelnau | 1657 | Hard | skipped | `letellier/` | syllabic, short |
 | 16 | Ferdinand III ↔ Cardinal-Infante | 1634–40 | Hard | skipped (DECODE login) | `ferdinand3/` | Brussels; Latin/German |
 | 17 | Switzerland telegram | 1937 | Hard | todo | | two short messages |
-| 18 | Vatican Challenge Part 5 | 1542 | Hard | stuck | `vatican5/` | paused after serious attempt |
+| 18 | Vatican Challenge Part 5 | 1542 | Hard | stuck (diagnosed) | `vatican5/` | Meister keys 1-3 rejected by likelihood; trigram partition search recovers synthetic keys but not this one under Italian or Spanish → not a plain polyphonic letter cipher; multi-digit syllable codes (key-2 design, other numbering) must dominate |
 | 19 | Enigma message | 1945 | Very hard | todo | | single message; compute-bound |
 | 20 | Lüderitz FO telegram | 1911 | Infeasible | infeasible | | five-figure codebook |
 

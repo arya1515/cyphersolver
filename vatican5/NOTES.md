@@ -35,3 +35,30 @@ dots on some digits (`^.`), a few uncertain readings (`?`).
   boundaries now avoid dotted positions and a penalised skip transition exists.
 * On a key-1-style synthetic the pure LM objective is **not identifiable** (a wrong key scores as well as the truth);
   dictionary coverage (words ≥5 letters, top-5000) separates them cleanly (0.52 vs 0.21).
+
+## 2026-09-15 session (resumed)
+
+* Dot mechanics re-derived from Meister p.176-177: key no.2 ("Cifra ultima con Mons. Poggio mandata per il
+  Montepulciano") puts the dotted codes on 8x/0x (ta te ti to, qua que qui, che chi non, N.S., S.Mta), but in IA-2
+  the digit after a dotted digit is 2/0/7/5 (~36 each) and the dotted digits are 7/2/0 → key-1 *type* (dot on the
+  antecedent selects a 4-syllable series; dot on the digit itself another series), with {7,2,0,5} as the four
+  "vowel" digits. Key 2 as printed rejected (trigram LL −49047).
+* Key no.3 (Piacenza/Dandino 1545) has **Nulla 4** — same null as IA-2 — and vowel digits 2 5 7 9 0. Tested:
+  trigram LL −44038 (search optima −39659, random best −45545) → rejected; the null coincidence is just that.
+* New objective `bigramfit.py` / `trigramfit.py`: exact multinomial likelihood of the digit bi/trigram counts under a
+  grouped Italian letter model (4 = boundary, dotted contexts excluded), SA over partitions of 21 letters into 9
+  digits. Result: 24 runs → 24 different partitions with scores within 500 nats of each other (−39659 … −40157),
+  Rand index vs best ≈ 0.85 (chance level). **The polyphonic single-digit model is not identifiable on this text**
+  — consistent with the earlier 5-gram lattice failure and with Lasry–Megyesi–Kopal's failure.
+* `decode_poly.py` — trigram Viterbi decode for any "d=letters" key; `consensus.py` — compare partitions.
+* Hypotheses left: (a) plaintext not Italian (transcript tags some cleartext "SP" = Spanish) — being tested with a
+  Don Quijote trigram model (`trigramfit_es.py`); (b) most digits belong to 2-digit syllable codes (key-2 style)
+  so the letter model is wrong; (c) transcription noise.
+* **Decisive diagnostics (2026-09-15):** synthetic control (`syn_tri.py`: 7000 Italian letters, random key-1-style
+  polyphonic key, 45 % word ends marked with 4) → the trigram partition SA recovers the true key (2/3 runs exact up to
+  b/z; score −40932 vs truth −40994). On the real cipher: 24 Italian runs and 12 Spanish runs (`trigramfit_es.py`,
+  Don Quijote model) all fail to converge (Rand ≈ 0.87 = chance). **So IA-2 is not a plain polyphonic
+  single-digit cipher in Italian or Spanish**; the digit stream must contain substantial multi-digit code content
+  (key-2-style syllabary with other numbering), which no letter-level model can identify. Next attack would be a
+  mixed model with explicit 2-digit syllable codes seeded by the key-2 layout (cX/dX/lX/mX/nX/rX/sX series) and
+  dotted 4-series on {2,0,7,5}; the old C# lattice solver had this class but no structural prior.
