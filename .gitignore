@@ -129,3 +129,10 @@ catokwacopa/*.txt
 catokwacopa/vocab.tsv
 debosnys/*.html
 debosnys/sektu*.txt
+# debosnys solve attempt: downloaded corpora, blog pages, per-glyph segmentation sheets
+debosnys/corpus/
+debosnys/sb_*
+debosnys/sbde_*
+debosnys/glyphs/line*.png
+debosnys/glyphs/boxes.json
+debosnys/brown_plagiarism.pdf

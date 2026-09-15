@@ -17,13 +17,13 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 LIVE = [
     ("Debosnys cryptograms", "1882–83",
      "https://scienceblogs.de/klausis-krypto-kolumne/2020/01/06/the-top-50-unsolved-encrypted-messages-3-the-debosnys-cryptograms/",
-     "top 50", "even", "md", "medium",
-     "Four passages written in an Essex County jail before the writer was hanged. The glyph composition noted here earlier was prior art — Sektu "
-     "transcribed all 1,188 glyphs in 2017, decomposed them into sub-glyphs and proposed French syllables, though the file was never released. "
-     "<b>New in September 2026:</b> the twenty-line <i>monographe verse</i> is <b>rhyming couplets</b>. The last glyph matches within 9 of 10 "
-     "couplets and across 0 of 9 couplet boundaries (chance under 10<sup>−5</sup>), and lines run 11–17 glyphs where Debosnys's own clear French "
-     "verse runs about 12 syllables. So glyphs are phonetic, syllable-sized units. Given his plagiarism, the next step is a shape search of French "
-     "verse for a 20-line couplet poem whose first and ninth rhymes coincide — no transcription needed to run it."),
+     "top 50", "low", "lo", "high",
+     "Four passages written in an Essex County jail before the writer was hanged. <b>Solve attempted September 2026, not solved.</b> The "
+     "twenty-line cipher poem and the No. 10 block are now transcribed (378 glyphs). The poem is rhyming couplets by its final glyphs, "
+     "and line length and rhyme behaviour both point to a <b>French syllabary</b> — English syllables would match the rhymes with "
+     "probability 3&thinsp;×&thinsp;10<sup>−4</sup>. Every crib failed against controls that prove the tests could see a hit: the clear "
+     "poem under the No. 10 block, 7,821 couplet windows of French verse, Delille's <i>Aeneid</i>, Moore, and a letter-monogram reading. "
+     "What is left needs the other ~800 glyphs transcribed and a wider search of popular French verse."),
 
     ("Censorship manual steganograms", "1943",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",

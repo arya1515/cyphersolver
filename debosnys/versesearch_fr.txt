@@ -1,0 +1,34 @@
+7821 rhyming-couplet windows
+  0
+  500
+  1000
+  1500
+  2000
+  2500
+  3000
+  3500
+  4000
+  4500
+  5000
+  5500
+  6000
+  6500
+  7000
+  7500
+
+positive control (planted encoding of fr17899.txt | Osons; de votre gloire éclatante et durable):
+   true window ranks 1 of 7821, score 158; next best 127; median 96
+
+monographe verse, top windows (median 23):
+   69  fr31628.txt | Par je ne sais quels colporteurs
+   69  fr31628.txt | Fut occis dès l'autre semaine,
+   69  fr31628.txt | De crier partout son trépas,
+   68  fr15112.txt | La bise se rue à travers
+   56  fr29843.txt | Plus tard, le vagabond flagellé devient Dieu.
+   55  fr72885.txt | Pluton, après avoir mis Kothos dans l'Érèbe,
+   54  fr29843.txt | A Mécène, à Virgile, à ton champ de Tibur,
+   54  fr17899.txt | Ton peuple industrieux est né pour les combats.
+   53  fr44180.txt | Elle ne peut tenir avec ses mains d'enfant
+   53  fr44180.txt | Ardente, et n'écoutant que le feu qui l'anime,
+   53  fr29843.txt | Pauvre cours d'eau normand troublé de sels marins;
+   50  fr76638.txt | Oui, c'est là la foi sainte, et, quand nous étouff
