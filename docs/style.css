@@ -155,3 +155,21 @@ footer nav{display:flex;gap:1.1rem;font-family:var(--mono);font-size:.8rem}
 .rank{font-family:var(--display);font-size:1.15rem;color:var(--gold);font-weight:500}
 tr.done td{opacity:.62}
 .grp td{background:rgba(217,172,82,.07);font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+
+/* animated strikethrough on the title word */
+.strike{position:relative;display:inline-block;white-space:nowrap}
+.strike::after{content:"";position:absolute;left:-.04em;right:auto;top:.54em;height:.075em;width:0;
+  background:linear-gradient(90deg,var(--gold),var(--gold2,#e7c87a));border-radius:2px;
+  box-shadow:0 0 14px rgba(217,172,82,.85);animation:strikeSweep 6s cubic-bezier(.65,.05,.36,1) infinite}
+@keyframes strikeSweep{
+  0%{width:0;opacity:0}
+  8%{opacity:1}
+  38%{width:calc(100% + .08em);opacity:1}
+  72%{width:calc(100% + .08em);opacity:1}
+  86%{width:calc(100% + .08em);opacity:0}
+  87%{width:0;opacity:0}
+  100%{width:0;opacity:0}}
+@media (prefers-reduced-motion: reduce){.strike::after{animation:none;width:calc(100% + .08em);opacity:1}}
+.fam{display:inline-block;margin-left:.4em;padding:.05em .45em;border-radius:5px;font-family:var(--mono);
+  font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:#b9a8ff;background:rgba(180,160,255,.14);
+  border:1px solid rgba(185,168,255,.38);vertical-align:middle}
