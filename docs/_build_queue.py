@@ -20,8 +20,10 @@ LIVE = [
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
      "September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words "
      "on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than "
-     "French, English or German. A single columnar key is excluded by a search that solves planted cases. Double transposition is the live "
-     "hypothesis, and needs a stronger solver or the second telegram, which is not public."),
+     "French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions "
+     "(107,594 readings) and single columnar. A C# solver built for double transposition breaks planted messages of this length completely up "
+     "to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, "
+     "which is not public, would help most."),
 
     ("Copenhagen cryptogram", "c.1835",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/08/17/the-top-50-unsolved-encrypted-messages-23-the-copenhagen-cryptogram/",

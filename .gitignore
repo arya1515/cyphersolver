@@ -171,3 +171,8 @@ blume/*.html
 blume/double_real.txt
 blume/t1_part*.png
 blume/fb_og.jpg
+blume/dt/*.exe
+blume/dt/real_*.txt
+blume/q4_es.bin
+blume/plain_sample.txt
+blume/__pycache__/
