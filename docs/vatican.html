@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vatican Challenge Part 5 — what the cipher is, and why it resists</title>
+<meta name="description" content="Cardinal Farnese to the nuncio Poggio, Rome 15 April 1542, ASV Segr. Stato Spagna 1A/2. Not solved. But the model class is excluded by a matched control, the vowel-bearing digits are fixed by three independent tests, the word-final units are identified, and the transcript is shown to have lost the word division that the solved sibling cipher's transcript preserved.">
+<link rel="stylesheet" href="style.css?v=20260915d">
+<style>
+.why{display:inline-block;padding:.08em .55em;border-radius:6px;font-family:var(--mono);font-size:.7rem;
+  letter-spacing:.05em;white-space:nowrap;border:1px solid transparent;vertical-align:middle}
+.w-yes{background:var(--green-bg);color:var(--green);border-color:rgba(111,211,154,.35)}
+.w-no{background:var(--red-bg);color:var(--red);border-color:rgba(255,141,126,.35)}
+.item{border-left:2px solid var(--rule);padding:.1rem 0 .1rem 1rem;margin:1.5rem 0}
+.item h3{margin:.1rem 0 .45rem}
+.item .meta2{font-family:var(--mono);font-size:.74rem;color:var(--muted);letter-spacing:.04em;margin-bottom:.5rem}
+.ct{font-family:var(--mono);font-size:.78rem;line-height:1.7;background:var(--grey-bg);
+  border:1px solid var(--rule);border-radius:8px;padding:.8rem 1rem;overflow-x:auto;white-space:pre}
+.callout{border:1px solid rgba(236,194,90,.45);background:var(--amber-bg);border-radius:12px;padding:1.1rem 1.3rem;margin:1.6rem 0}
+.callout h3{margin-top:0}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="vatican.html" class="active">Vatican 1542</a>
+    <a href="famous.html">The famous ones</a>
+    <a href="goldbar.html">Gold bars 1933</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="huangxing.html">Huang Xing 1916</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">7 3 4 5 7 4 9 0 3 5 5 7 5 2 8 0 6 8 0 5 7 3 8 0 3<br>3 4 7 8 0 8 5 7 2 0 3 2 7 6 5 7 9 6 0 3 9 3 5 2 2 7&#94;.<br>&hellip; 6549 digits over four folios</div>
+  <p class="kicker">Working notes &middot; September 2026</p>
+  <h1>The Vatican cipher of April 1542</h1>
+  <p class="sub">Cardinal Alessandro Farnese to the nuncio Giovanni Poggio at the court of Charles V, Rome, 15 April 1542.
+  Archivio Segreto Vaticano, Segr. Stato Spagna 1A/2, ff. 70r&ndash;73v. Set as
+  <a href="https://mysterytwister.org/">MysteryTwister</a>&rsquo;s Vatican Challenge Part 5 by George Lasry in 2019, and
+  still open.</p>
+  <p class="meta">Daniel Bourdeau &middot; 15 September 2026</p>
+</section>
+
+<main>
+
+<div class="callout">
+  <h3>Not solved &mdash; and this page is about why, in a way that is specific enough to be useful</h3>
+  <p>Five attacks have been run here against this cryptogram. The honest result is that it is not a cipher any
+  letter-level method can read, and that the transcript everybody is working from has lost the one feature that made
+  its solved sibling tractable. What follows is what <i>is</i> now established, each part with the control that
+  supports it.</p>
+</div>
+
+<h2><span class="num">01</span> The document</h2>
+
+<p>Four folios, 6549 code digits, with long passages left in clear. The clear passages date and place it beyond doubt:
+they mention <b>la dieta di Spira</b>, the Diet of Speyer which sat from February to April 1542; <b>la materia della
+pace</b> and <b>la parte di Francia</b>, the negotiations between Charles V and Francis I; a papal <i>breve</i> for
+<b>quello di Osma</b>; and the couriers <b>Gioi da Montepulciano</b> and <b>Montepescali</b>. The fascicle is catalogued
+as <i>Lett. Orig. e cifre del card. Farnese al nunzio, 4 oct 1539 &ndash; 24 nov 1548</i>.</p>
+
+<p>The courier's name is a tantalising detail. Aloys Meister printed, in 1906, a key headed <i>&ldquo;Cifra data a
+Monsig. Montepulciano&rdquo;</i> and dated between 1539 and 1542, and another headed <i>&ldquo;Cifra ultima con Mons.
+Poggio mandata per il Montepulciano&rdquo;</i> &mdash; the last cipher with Poggio, sent by way of Montepulciano. The
+right people, the right courier, the right years. Neither key fits, and that is checked below.</p>
+
+<h2><span class="num">02</span> What is established</h2>
+
+<div class="item">
+  <div class="meta2">the null &nbsp; <span class="why w-yes">settled</span></div>
+  <h3>Digit 4 is a word null, used about a third of the time</h3>
+  <p>Conditioning on 4 in the middle drops the mutual information between its neighbours to 0.030, which is what Italian
+  gives across a word boundary (0.028), where every other digit sits between 0.08 and 0.17. Meister's key of 1539&ndash;42
+  spells the convention out: <i>&ldquo;pongasi la nulla al fine di ogni parola&rdquo;</i>, put the null at the end of every
+  word. This scribe did not. There are 482 nulls where the text needs about 1300 word ends, so the stretches between them
+  average 12.6 digits &mdash; far too long to be words, which is what misled two earlier passes here.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">the vowels &nbsp; <span class="why w-yes">three independent tests</span></div>
+  <h3>The vowel-bearing digits are {7, 0, 3}</h3>
+  <p>Italian ends about 97% of its words in a vowel, so word-final enrichment separates the classes. Over the 482
+  stretches: <b>1: 1.79 &nbsp; 7: 1.76 &nbsp; 3: 1.52 &nbsp; 0: 1.49</b> against <b>6: 1.01 &nbsp; 9: 0.64 &nbsp;
+  2: 0.58 &nbsp; 5: 0.25 &nbsp; 8: 0.08</b>. Digit 8 ends a word at one twelfth of its overall rate.</p>
+  <p>The frequency masses agree independently, to three decimals: {7,0,3,1} carries 0.476 of the text where all five
+  Italian vowels carry 0.479. And a third line, new this session, agrees again &mdash; every string enriched immediately
+  before a null <i>ends</i> in one of those digits.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">the word endings &nbsp; <span class="why w-yes">new</span></div>
+  <h3>Two units carry a third of all word endings</h3>
+  <p>Scanning every n-gram for enrichment before a null gives an extremely sharp answer.</p>
+  <table>
+  <tr><th>unit</th><th>occurrences</th><th>immediately before a null</th><th>p</th></tr>
+  <tr><td><b>27</b></td><td>265</td><td><b>86</b></td><td>7.4 &times; 10<sup>&minus;33</sup></td></tr>
+  <tr><td><b>80</b></td><td>349</td><td><b>82</b></td><td>4.2 &times; 10<sup>&minus;21</sup></td></tr>
+  <tr><td>73</td><td>222</td><td>38</td><td>9.8 &times; 10<sup>&minus;7</sup></td></tr>
+  <tr><td>37</td><td>73</td><td>17</td><td>1.7 &times; 10<sup>&minus;5</sup></td></tr>
+  </table>
+  <p>27 and 80 together end 35% of the marked words. For comparison, the commonest two-letter ending in real Italian
+  takes under 5%. Word endings this concentrated are single codes, not letter pairs.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">structure &nbsp; <span class="why w-yes">new</span></div>
+  <h3>Two-digit units, and a real phase</h3>
+  <p>The stretches between nulls prefer <b>even</b> lengths, 278 against 202, chi-squared 12.0 on one degree of freedom.
+  An earlier pass here looked at exactly this and recorded &ldquo;no preference&rdquo;; that was an error, and it cost
+  two attacks.</p>
+  <p>Inside those stretches the digit distribution at even offsets differs from the one at odd offsets: chi-squared
+  <b>39.4</b> against a null of 8.3 &plusmn; 4.1 built by shuffling each segment, <b>z = +7.6</b>. Digit 9 sits at even
+  offsets 1.60 times as often as odd.</p>
+  <p>Every doubled digit is suppressed, some severely &mdash; <code>00</code> occurs 6 times against 117 expected,
+  <code>44</code> twice against 35, <code>99</code> twice against 21. Four hundred shuffles of the same digits produce a
+  mean of 0.01 such suppressed pairs and never more than one.</p>
+</div>
+
+<h2><span class="num">03</span> What is excluded</h2>
+
+<div class="item">
+  <div class="meta2">the polyphonic single-digit model &nbsp; <span class="why w-no">excluded by a matched control</span></div>
+  <h3>No key of that kind exists to find</h3>
+  <p>A constrained trigram search, with vowels restricted to {7,0,3,1} and consonants to {8,5,2,6,9}, gives 24 different
+  keys in 24 runs, mean agreement 0.861 where chance <i>in the same constrained space</i> is 0.799.</p>
+  <p>That alone would only mean the search failed. So the identical search was run on a synthetic ciphertext built to the
+  same design &mdash; real Italian, same alphabet, same vowel split, same polyphony, same null density, same 6553 digits.</p>
+  <table>
+  <tr><th></th><th>agreement between runs</th><th>recovers the key?</th></tr>
+  <tr><td>synthetic, same design</td><td>0.90</td><td><b>yes, 0.97</b></td></tr>
+  <tr><td>the real ciphertext</td><td>0.86 (chance 0.80)</td><td>no</td></tr>
+  </table>
+  <p>The method works at this polyphony, this length and this alphabet. The real text is therefore not a polyphonic
+  single-digit substitution of Italian.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">the letter level &nbsp; <span class="why w-no">excluded</span></div>
+  <h3>The consonant runs are three times too long</h3>
+  <p>If each digit stood for one letter, the alternation of vowel-digits and consonant-digits would have to match
+  Italian's own. The share matches. The runs do not.</p>
+  <table>
+  <tr><th></th><th>cipher</th><th>period Italian</th></tr>
+  <tr><td>vowel share</td><td>0.475</td><td>0.464</td></tr>
+  <tr><td>mean vowel run</td><td>1.604</td><td>1.301</td></tr>
+  <tr><td>mean consonant run</td><td>1.769</td><td>1.504</td></tr>
+  <tr><td>consonant runs of 3 or more</td><td><b>0.183</b></td><td><b>0.059</b></td></tr>
+  </table>
+  <p>And the three tests that fix the vowels disagree about the fourth member. Frequency mass picks {7,0,3,<b>1</b>};
+  a search over all subsets for the best match to Italian's run profile picks {0,<b>2</b>,3,7}; the final-digit
+  distribution picks {7,0,3,<b>6</b>}. All three agree on {7,0,3} and contradict each other beyond it. No single
+  letter-level assignment satisfies all three, which is exactly what happens when the units are not letters.</p>
+</div>
+
+<div class="item">
+  <div class="meta2">Meister's four printed keys &nbsp; <span class="why w-no">all rejected</span></div>
+  <h3>Including the two named for the right courier</h3>
+  <p>Read directly from the 1906 page images rather than from OCR. Key 1, <i>Cifra data a Monsig. Montepulciano</i>,
+  has <b>Nulla 1</b> where this cipher's null is 4. Key 2, the Poggio cipher sent by Montepulciano, puts the vowels on
+  3 5 7 9 0, which the word-final evidence contradicts. Key 3, which shares the null 4, predicts digit 8 at 5.0% of the
+  text where it is observed at <b>13.6%</b>. Key 4 writes vowels as two-digit codes beginning with 1, which would make
+  digit 1 about 40% of the text; it is 3.1%.</p>
+  <p>Meister sampled these from <b>Rome, Biblioteca Chigi M II 49, ff. 85&ndash;148</b> &mdash; some sixty folios of
+  Vatican keys of 1539&ndash;1566, of which he printed a handful. The key to this letter is most likely in that
+  manuscript, which is not digitised.</p>
+</div>
+
+<h2><span class="num">04</span> The finding that best explains why this one resisted</h2>
+
+<p>Part 4 of the same challenge series is the Portugal cryptogram from the same Vatican collection, and it was solved.
+Compare the two transcripts as they are distributed.</p>
+
+<table>
+<tr><th>transcript</th><th>single spaces between digits</th><th>double spaces</th></tr>
+<tr><td>Portugal IA-1 &mdash; Part 4, <b>solved</b></td><td>7603</td><td><b>3210</b></td></tr>
+<tr><td>Spain IA-2 &mdash; Part 5, this one</td><td>6412</td><td><b>6</b></td></tr>
+</table>
+
+<p>The Portugal transcriber recorded the scribe's word division. The Spain transcriber did not. Sixteenth-century
+chancery clerks grouped their cipher digits, and that grouping is on the parchment &mdash; but it is absent from the
+only transcript in circulation. Every attack on Part 5, here and presumably elsewhere, has been run on a stream with
+its word boundaries deleted.</p>
+
+<p>That is not a small handicap. It is most of the difference between the two problems, and unlike everything else on
+this page it is fixable &mdash; from the manuscript images, which MysteryTwister does not distribute and the Vatican
+has not digitised.</p>
+
+<h2><span class="num">05</span> Where it stands</h2>
+
+<p>The cipher is a <b>variable-length syllabic code</b>: mostly two-digit units, some of one digit, over vowel-bearing
+digits {7,0,3} and consonant-bearing {8,5,2,6,9}, with <code>27</code> and <code>80</code> as the dominant word-final
+units and <code>4</code> as an intermittent word null. The arithmetic is consistent &mdash; 6068 non-null digits at about
+two per unit is some 3000 units, at about 2.3 units per word some 1300 words of four to five letters, which is ordinary
+Italian for four folios.</p>
+
+<p>Against a shuffle of its own digits the text has <b>441 repeated 7-grams where the shuffle gives 5</b>, and 244
+repeated 8-grams where the shuffle gives none. Unsupervised byte-pair encoding separates it from both controls:
+compression gain <b>+1.6%</b> for the cipher, <b>&minus;8.2%</b> for genuine Italian pushed through a polyphonic
+single-digit cipher, &minus;14.0% for a shuffle. It is a codebook, and it recurs because the same words recur.</p>
+
+<p>What would open it is the word division from the images, or the key from Chigi M II 49, or a matching plaintext in
+the Farnese correspondence of April 1542. Not another search. Five model classes have now been tested here, two of them
+against matched synthetic controls that the same code solves correctly.</p>
+
+<p class="meta">Working files in <code>vatican5/</code>: <code>vc.py</code> and <code>vc_syn.py</code> (the constrained
+search and its matched control), <code>phase.py</code> (parity and phase), <code>escape.py</code> (suppressed pairs),
+<code>units2.py</code> (unit inventory), <code>bpe.py</code> (unsupervised units with controls), <code>cvtest.py</code>
+(the vowel/consonant run test).</p>
+
+</main>
+
+<footer>
+  <p>Daniel Bourdeau &middot; <a href="index.html">back to the overview</a></p>
+</footer>
+<script src="site.js?v=20260915d"></script>
+</body>
+</html>

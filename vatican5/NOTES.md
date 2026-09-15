@@ -194,3 +194,116 @@ recoverable from 6553 digits at this ambiguity.
 Unsolved, and now for a documented reason rather than for want of trying. Four model classes tested, two of
 them against matched synthetic controls that the same code solves correctly. The cipher needs its key, or a
 matching plaintext in the Farnese correspondence.
+
+## 2026-09-15, fifth attempt: the level is settled, and so is why this one resisted
+
+Resumed with a directive to solve it. It is still not solved. But the session produced the first
+positive structural results since the vowel set, a third independent confirmation of that set, and -
+more usefully - an explanation of why the sibling cipher fell and this one did not.
+
+### The finding that matters most is not cryptanalytic
+
+Part 4 of the same challenge series is ASV Portugal IA-1, and it was solved. Compare the two
+transcripts as delivered:
+
+| transcript | single spaces between digits | **double spaces** |
+|---|---|---|
+| Portugal IA-1 (Part 4, solved) | 7603 | **3210** |
+| Spain IA-2 (Part 5, this one) | 6412 | **6** |
+
+The Portugal transcriber recorded the scribe's word division; the Spain transcriber did not. The
+division exists on the parchment - sixteenth-century chancery clerks grouped their cipher digits -
+but it is absent from the only transcript in circulation. Every attack mounted here and, presumably,
+by everyone else has been run on a stream with its word boundaries deleted. That is a large part of
+the difficulty asymmetry between Part 4 and Part 5, and it is fixable only from the images.
+
+### One key, not several
+
+A page-by-page comparison of digit distributions against the document mean gives chi-squared between
+3.4 and 12.6 on 9 degrees of freedom across the six substantial pages. Nothing approaches
+significance, so the whole of ff. 70r-73v is in a single key. The "mixed keys" explanation for the
+failure is excluded.
+
+### Three structural results, each against a control
+
+**Segment lengths prefer even.** The stretches between the null 4 run 278 even against 202 odd,
+chi-squared 12.0 on 1 df. The fourth attempt looked at this and recorded "no preference"; that was
+wrong, and it matters, because it is the signature of two-digit units.
+
+**There is a real two-digit phase.** Inside those stretches the digit distribution at even offsets
+differs from the one at odd offsets: chi-squared 39.4, against a null of 8.3 +- 4.1 built by
+shuffling each segment, z = +7.6. Digit 9 sits at even offsets 1.60 times as often as odd, digit 8 at
+0.84.
+
+**Doubled digits are suppressed without exception.** All ten, and some severely - 00 occurs 6 times
+against 117 expected, 44 twice against 35, 99 twice against 21. Six ordered pairs are suppressed
+below an eighth of expectation; 400 shuffles of the same digits produce a mean of 0.01 such pairs and
+never more than 1.
+
+### The word-final units, and a third confirmation of the vowel set
+
+Scanning every n-gram for enrichment immediately before a null gives two dominant word endings:
+
+| unit | occurrences | before a null | p |
+|---|---|---|---|
+| **27** | 265 | 86 | 7.4 x 10^-33 |
+| **80** | 349 | 82 | 4.2 x 10^-21 |
+| 73 | 222 | 38 | 9.8 x 10^-7 |
+| 37 | 73 | 17 | 1.7 x 10^-5 |
+
+Every enriched ending terminates in a digit from {7, 0, 3, 1}. Italian ends about 97% of its words in
+a vowel, so this is a third independent line - after word-final enrichment of single digits and after
+the frequency masses - agreeing that those digits are the vowel-bearing ones. **{7, 0, 3} is now solid
+on all three.**
+
+### But the level is not letters, and that is now demonstrable
+
+If each digit stood for one letter, the alternation of vowel-digits and consonant-digits would have to
+look like the alternation of vowels and consonants in Italian. It does not:
+
+| | cipher | period Italian |
+|---|---|---|
+| vowel share | 0.475 | 0.464 |
+| mean vowel run | 1.604 | 1.301 |
+| mean consonant run | 1.769 | 1.504 |
+| consonant runs of 3 or more | **0.183** | **0.059** |
+
+The share matches and the runs do not. Runs three times too long are what you get when letters are
+sometimes written as two digits of the same class.
+
+Worse for the letter model, the three tests disagree about which digits are the vowels. Frequency mass
+picks {7,0,3,1}; a search over all subsets for the best match to Italian's run profile picks
+{0,2,3,7}; the final-digit distribution picks {7,0,3,6}. All three agree on {7,0,3} and contradict
+each other on the fourth. **No single letter-level assignment satisfies all three**, which is what one
+expects when the units are not letters.
+
+### The repetition says codebook
+
+| | real | shuffle of its own digits |
+|---|---|---|
+| repeated 7-grams | **441** | 5 |
+| repeated 8-grams | **244** | 0 |
+
+And greedy byte-pair encoding, which lets the text name its own units, separates the real text from
+both controls - compression gain +1.6% for the cipher, **-8.2% for genuine Italian pushed through a
+polyphonic single-digit cipher of the believed design**, -14.0% for a shuffle. The units BPE recovers
+are 15% one digit, 32% two, 29% three: a variable-length nomenclator, not a fixed grid.
+
+### Arithmetic that now hangs together
+
+6068 non-null digits over 480 segments is 12.64 digits per segment. If units average two digits that
+is about 3000 units; at roughly 2.3 units per word that is about 1300 words of some 4.6 letters, which
+is ordinary Italian and consistent with four folios. The null therefore marks about 37% of word ends,
+not all of them - which is why the segments are far too long to be words.
+
+### Status
+
+Not solved. The model is now pinned much more tightly than before: **a variable-length syllabic code,
+mostly two-digit units over vowel-bearing digits {7,0,3}+ and consonant-bearing {8,5,2,6,9}-, with 27
+and 80 as the dominant word-final units and 4 as an intermittent word null.** What is missing is not
+another search. It is the word division, which exists in the manuscript and was dropped in
+transcription, or the key, or a matching plaintext.
+
+New files: `phase.py` (parity and phase), `escape.py` (suppressed pairs, after Lasry's dictionary
+escape in the sibling cipher), `units2.py` (unit inventory), `bpe.py` (unsupervised units with
+controls), `cvtest.py` (the vowel/consonant run test).
