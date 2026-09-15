@@ -13,6 +13,7 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | **solved** — ciphertext-only reconstruction; later matched word for word to Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
 | Maltravers → Ormonde | 1634–35 | **alphabet solved** — regular block key + nulls recovered from 59 figures; spelled words read, nomenclator inferred | [`ormonde/`](ormonde/) · [write-up](https://dbourdeau.github.io/cyphersolver/ormonde.html) |
 | Hyde's ciphered superscriptions | 1659–60 | **explained** — dummy numbers, per the 1724 editor and the full Hyde–Barwick key | [`hyde/`](hyde/) · [write-up](https://dbourdeau.github.io/cyphersolver/hyde.html) |
+| Swatow telegram to Sun Yat-sen | 1916 | **solved** — systematic code condenser over the standard telegraph code recovered by brute force; 41 of ~44 characters read | [`sunyatsen/`](sunyatsen/) · [write-up](https://dbourdeau.github.io/cyphersolver/sunyatsen.html) |
 | Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Prince Maurice → Rupert (1645) and royalist intercepts, BL Add MS 72438 (1646) | 1645–46 | offline only — keys/texts are in BL volumes digitised but offline since the 2023 cyber-attack | [`rupert/`](rupert/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
@@ -88,9 +89,10 @@ known key of the same design. Findings and negative results in `vatican5/NOTES.m
 - `hyde/` — Hyde–Barwick 1659–60: `barwick_key.py` (full 1721 key, 643 entries) + the four superscriptions decoded; notes.
 - `thurloe/` — Thurloe intercepts: extracted texts, `apply_keys.py` (all cryptiana period keys), Dutch/French LM solvers; notes.
 - `stepney/` — Stepney–Manchester 1702: transcription from Yale IIIF images, THE=454 test, notes.
+- `sunyatsen/` — Swatow→Sun Yat-sen 1916: `family.py` (brute force of systematic condensers), `decode.py` (annotated reading), `tail.py`, codebook tables, notes.
 - `beale/` — book-cipher scanner over Gutenberg (`scan_corpus.py`, `bookcipher.py`); notes arguing fabrication.
 - `milroy/`, `feynman/`, `barney/` — items that turned out to be already solved by others; tooling and notes kept for reference, not tracked.
-- `docs/` — the website: `index.html` (hub), `armstrong.html`, `richelieu.html`, `ormonde.html`, `hyde.html`, shared `style.css` / `site.js`.
+- `docs/` — the website: `index.html` (hub), `armstrong.html`, `richelieu.html`, `ormonde.html`, `hyde.html`, `sunyatsen.html`, shared `style.css` / `site.js`.
 
 ## Conventions
 

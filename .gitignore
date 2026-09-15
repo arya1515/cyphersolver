@@ -85,3 +85,11 @@ stepney/cipher_runs.txt
 hyde/*.gz
 source_headings.txt
 ormonde/*.jpg
+sunyatsen/jieba_dict.txt
+sunyatsen/STCharacters.txt
+sunyatsen/lm_zh.json
+sunyatsen/__pycache__/
+sunyatsen/lookup_out.txt
+sunyatsen/tail_out.txt
+sunyatsen/fix_out.txt
+sunyatsen/show_out.txt

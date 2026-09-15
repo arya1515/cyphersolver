@@ -1,0 +1,73 @@
+Received : Twelve baxuxupeja qicijinati bemigasiqi jakebiqoye kufohemige tuxaboboba gedoeijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitohatula xopavajejo ropezpo ngobunibai tanaka
+Emended  : baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba gedocijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitonatula xopavajejo rope | garbled tail: zpo ngobunibai
+
+  #  syll   code  char
+  1  ba xu  3390  潮   
+  2  xe pe  1004  城   received xu pe = 9004 (no such code); xe pe = 1004 城 — 潮城 is the term used in Mo's own telegram of 27 March
+  3  ja qi  3945  由   
+  4  ci ji  5459  莫   
+  5  na ti  2348  擎   
+  6  be mi  1342  宇   
+  7  ga si  3747  獨   
+  8  qi ja  4539  立   
+  9  ke bi  2053  我   
+ 10  qo ye  6511  軍   
+ 11  ku fo  0076  亦   received he mi = 1842 怩; ne mi = 0342 光 (光復 "recovered")
+ 12  ne mi  0342  光   
+ 13  ge tu  1788  復   
+ 14  xa bo  3073  汕   
+ 15  bo ba  7333  頭   
+ 16  ge do  1775  後   
+ 17  ci ji  5459  莫   
+ 18  ga po  3764  率   
+ 19  ye va  1129  大   ei in gedoEIjiga: e is a misread c; ci ji = 5459 莫
+ 20  yo xa  7130  隊   5068 as received; 翼X unresolved (to = 68 unconfirmed elsewhere)
+ 21  le yo  0171  來   received ha tu = 3888 璸; na tu = 2388 支 (支持)
+ 22  le ve  0109  令   
+ 23  ke bi  2053  我   
+ 24  ro ma  6622  退   
+ 25  pe sa  0427  出   
+ 26  vo ro  6966  鎮   
+ 27  be ni  1343  守   
+ 28  fe xi  1650  府   
+ 29  ke bi  2053  我   
+ 30  qo ye  6511  軍   
+ 31  qe ku  0500  力   
+ 32  fi ya  5631  薄   
+ 33  qa ti  2548  暫   
+ 34  ja qi  3945  由   
+ 35  xi qo  5065  翼   
+ 36  xi to  5068  翿   
+ 37  na tu  2388  支   
+ 38  la xo  2170  持   
+ 39  pa va  2429  文   
+ 40  je jo  1979  慧   
+ 41  ro pe  6604  返   
+
+Plain text (41 characters):
+潮城由莫擎宇獨立我軍亦光復汕頭後莫率大隊來令我退出鎮守府我軍力薄暫由翼翿支持文慧返
+
+Punctuated: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……[3 codes garbled]
+
+Recovered condenser table (row = consonant, column = vowel):
+     e   a   i   o   u
+l    01 21 41 61 81
+m    02 22 42 62 82
+n    03 23 43 63 83
+p    04 24 44 64 84
+q    05 25 45 65 85
+r    06 26 46 66 86
+s    07 27 47 67 87
+t    08 28 48 68 88
+v    09 29 49 69 89
+x    10 30 50 70 90
+y    11 31 51 71 91
+z    12 32 52 72 92
+b    13 33 53 73 93
+c    14 34 54 74 94
+d    15 35 55 75 95
+f    16 36 56 76 96
+g    17 37 57 77 97
+h    18 38 58 78 98
+j    19 39 59 79 99
+k    20 40 60 80 00

@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Swatow Telegram to Sun Yat-sen (3 April 1916) — Solved</title>
+<meta name="description" content="Decipherment of the coded telegram from 'Tanaka' at Swatow to Sun Yat-sen ('Rosamonde Tokio'), 3 April 1916, intercepted by the Japanese Foreign Ministry (JACAR B03050738800): standard Chinese telegraph code through a systematic letter condenser; the text reports Mo Qingyu's independence at Chaozhou and the expulsion of Sun's men from the Swatow garrison headquarters.">
+<link rel="stylesheet" href="style.css">
+<style>
+.kt{font-family:var(--mono);font-size:.82rem;border-collapse:collapse;margin:.6rem 0 1rem}
+.kt th,.kt td{border:1px solid var(--rule);padding:.15rem .45rem;text-align:center}
+.kt th{background:rgba(255,255,255,.05)}
+.kt td.ok{color:var(--green)}
+.kt td.doubt{color:var(--amber)}
+.kt td.dim{opacity:.35}
+.zh{font-size:1.25rem;line-height:2}
+.zh .d{color:var(--amber);border-bottom:1px dotted currentColor}
+.zh .x{color:var(--red)}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="richelieu.html">Richelieu 1629</a>
+    <a href="ormonde.html">Ormonde 1634</a>
+    <a href="hyde.html">Hyde 1659</a>
+    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">Twelve baxuxupeja qicijinati bemigasiqi<br>jakebiqoye kufohemige tuxaboboba gedocijiga<br>… xitonatula xopavajejo rope… tanaka</div>
+  <p class="kicker">China / Japan · telegraph code + code condenser · 1916 · solved</p>
+  <h1>"Tanaka" at Swatow to Sun Yat-sen</h1>
+  <p class="sub">Swatow, 3 April 1916, 6.05 pm, to "Rosamonde Tokio" · intercepted by the Japanese Foreign Ministry · JACAR B03050738800 (Gaimushō 680682)</p>
+  <p class="sub">The condenser table recovered from 177 letters by brute force over the family of systematic tables; 41 of about 44 characters read</p>
+  <p class="meta">Daniel Bourdeau · September 2026</p>
+</section>
+
+<main>
+
+<div class="callout">
+<strong>Summary.</strong> In April 1916 the Japanese Foreign Ministry secretly obtained a 22-word telegram from a "Tanaka" at Swatow to
+"Rosamonde Tokio" — Soong Ching-ling's English name, so Sun Yat-sen's household — and could not read it. S. Tomokiyo listed it as unsolved in 2021
+after trying the two code condensers known from Sun's Japanese supporter Yamada Junzaburō. The letters are the 20 consonants and 5 vowels
+of exactly such a condenser, and both known tables are <em>systematic</em> (alphabetical consonants, permuted vowels, filled row- or column-wise).
+That family is small — 57 600 keys with additives — and one of them, scored against a Chinese character model, stands eight standard deviations
+above the rest. The plaintext, in the standard telegraph codebook, is a field report from the revolutionaries' side at Swatow:
+<span class="zh">潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……</span>
+"Chaozhou city has been declared independent by Mo Qingyu. Our force too has recovered Swatow. Then Mo came with a large body and ordered us out of the
+garrison headquarters. Our force is weak; for now we are supported by 翼□. 文慧 is returning …" — which is precisely what happened between 27 and 30 March 1916.
+<em>Status: solved; three codes at the end are garbled in the received copy, and one name is unresolved.</em>
+</div>
+
+<h2 id="documents"><span class="num">01</span> The documents</h2>
+<p>JACAR B03050738800 is a Foreign Ministry file of 29 April – 11 May 1916 on Sun Yat-sen's cipher telegrams. It contains (i) five telegrams
+from Sun in Tokyo to a policeman of the Hankow consulate, in four-figure groups — the "+111" code that Tomokiyo has already read; (ii) a
+despatch, 機密送第一號, from Foreign Minister Ishii to the acting consul at Swatow, <em>himself</em> named Tanaka, asking who this "Tanaka"
+was, why he wired Sun, whether he was misusing the consul's name, and "if at all possible" to decode the telegram; (iii) the telegram; and (iv)
+the Hankow consul-general's report of 11 May on Sun's next scheme (five-figure groups, digits reversed, 111 subtracted). Nothing in the file
+reads the Swatow telegram.</p>
+<figure><img src="sunyatsen_telegram.png" alt="Received-message form, Imperial Government Telegraphs, Tokio, 3 April 1916, from Swatow to Rosamonde Tokio: Twelve baxuxupeja …">
+<figcaption>The first sheet of the telegram (JACAR B03050738800, frame 680682; crop by S. Tomokiyo). Station from Swatow, No. 1507, 22 words, 3/4/16 6.05 pm; address "Rosamonde Tokio".</figcaption></figure>
+<pre>Twelve  baxuxupeja qicijinati bemigasiqi jakebiqoye kufohemige tuxaboboba gedocijiga poyevayoxa
+        leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitonatula xopavajejo
+        ropezpo ngobunibai   tanaka</pre>
+<p class="muted">As read from the form. Tomokiyo's transcription has <code>gedoeijiga</code> and <code>xitohatula</code>; the handwriting is <code>c</code> and <code>n</code>, and the decipherment requires exactly that.
+"Twelve" is the table indicator (Yamada's telegrams begin "Sixtyfour" for his 六十四號 table).</p>
+
+<h2 id="structure"><span class="num">02</span> Structure</h2>
+<ul>
+<li><strong>Alphabet.</strong> Consonants b c d f g h j k l m n p q r s t v x y z (twenty, no w) and vowels a e i o u — the 20 × 5 = 100 syllables of a
+two-digit code condenser: each syllable stands for a pair of digits, two syllables for one four-figure codebook group, and the syllables are run
+together and cut into ten-letter "words" to be charged as one word each. 177 letters → 88 syllables → 44 groups, one letter lost.</li>
+<li><strong>Vowel u is rare</strong> (7 of 89 syllables against ~20 each for the others). In a column-major table each vowel owns a block of twenty numbers;
+the block 81–99, 00 is almost never a <em>page</em> number in the codebook (which stops in the 80s), so u is the high block. That already fixes the layout type.</li>
+<li><strong>Known condensers.</strong> Yamada's Guoshiguan table runs x y z b c … v across rows and u o i e a down, numbered 01–99, 00 row by row; his Michigan
+table runs b … z alphabetically and o u a e i, numbered column by column from 00. Both are pure rule tables. The natural hypothesis for "table twelve" is
+another member of the same family: a rotation (or reversal) of the alphabetical consonants, a permutation of the vowels, either fill order, either origin,
+perhaps an additive as in Sun's own telegrams.</li>
+</ul>
+
+<h2 id="key"><span class="num">03</span> The key</h2>
+<p>All 40 × 120 × 2 × 2 × 3 = 57 600 keys of the family were applied to the clean syllable runs and the resulting four-figure groups scored with a
+traditional-Chinese character frequency model (unknown codes penalised). The winner — consonants rotated to begin at <strong>l</strong>, vowels
+<strong>e a i o u</strong>, column-major, 01-based, no additive — scores −360.6 where the population mean is −553.6 with s.d. 23.8; the runner-up is 49 points
+behind. Read off, the table is:</p>
+<table class="kt">
+<tr><th></th><th>e</th><th>a</th><th>i</th><th>o</th><th>u</th></tr>
+<tr><th>l</th><td class="ok">01</td><td class="ok">21</td><td class="dim">41</td><td class="dim">61</td><td class="dim">81</td></tr>
+<tr><th>m</th><td class="dim">02</td><td class="ok">22</td><td class="ok">42</td><td class="dim">62</td><td class="dim">82</td></tr>
+<tr><th>n</th><td class="doubt">03</td><td class="ok">23</td><td class="ok">43</td><td class="dim">63</td><td class="dim">83</td></tr>
+<tr><th>p</th><td class="ok">04</td><td class="ok">24</td><td class="dim">44</td><td class="ok">64</td><td class="dim">84</td></tr>
+<tr><th>q</th><td class="ok">05</td><td class="ok">25</td><td class="ok">45</td><td class="ok">65</td><td class="dim">85</td></tr>
+<tr><th>r</th><td class="dim">06</td><td class="dim">26</td><td class="dim">46</td><td class="ok">66</td><td class="dim">86</td></tr>
+<tr><th>s</th><td class="dim">07</td><td class="ok">27</td><td class="ok">47</td><td class="dim">67</td><td class="dim">87</td></tr>
+<tr><th>t</th><td class="dim">08</td><td class="dim">28</td><td class="ok">48</td><td class="doubt">68</td><td class="ok">88</td></tr>
+<tr><th>v</th><td class="ok">09</td><td class="ok">29</td><td class="dim">49</td><td class="ok">69</td><td class="dim">89</td></tr>
+<tr><th>x</th><td class="doubt">10</td><td class="ok">30</td><td class="ok">50</td><td class="ok">70</td><td class="dim">90</td></tr>
+<tr><th>y</th><td class="ok">11</td><td class="ok">31</td><td class="dim">51</td><td class="ok">71</td><td class="dim">91</td></tr>
+<tr><th>z</th><td class="dim">12</td><td class="dim">32</td><td class="dim">52</td><td class="dim">72</td><td class="dim">92</td></tr>
+<tr><th>b</th><td class="ok">13</td><td class="ok">33</td><td class="ok">53</td><td class="ok">73</td><td class="dim">93</td></tr>
+<tr><th>c</th><td class="dim">14</td><td class="dim">34</td><td class="ok">54</td><td class="dim">74</td><td class="dim">94</td></tr>
+<tr><th>d</th><td class="dim">15</td><td class="dim">35</td><td class="dim">55</td><td class="ok">75</td><td class="dim">95</td></tr>
+<tr><th>f</th><td class="ok">16</td><td class="dim">36</td><td class="ok">56</td><td class="ok">76</td><td class="dim">96</td></tr>
+<tr><th>g</th><td class="ok">17</td><td class="ok">37</td><td class="dim">57</td><td class="dim">77</td><td class="dim">97</td></tr>
+<tr><th>h</th><td class="dim">18</td><td class="dim">38</td><td class="dim">58</td><td class="dim">78</td><td class="dim">98</td></tr>
+<tr><th>j</th><td class="doubt">19</td><td class="ok">39</td><td class="ok">59</td><td class="doubt">79</td><td class="dim">99</td></tr>
+<tr><th>k</th><td class="ok">20</td><td class="dim">40</td><td class="dim">60</td><td class="dim">80</td><td class="ok">00</td></tr>
+</table>
+<p class="muted"><span style="color:var(--green)">Green</span>: cell confirmed by a word that reads (41 cells). <span style="color:var(--amber)">Amber</span>: used only in a doubtful group.
+Dim: not used in this telegram. Note the u-column: k-u = 00 is confirmed twice (亦 0076, 力 0500), fixing the whole column.</p>
+
+<h2 id="reading"><span class="num">04</span> Reading</h2>
+<p class="legend">Codebook = 電報新編 / 明密碼電報書 numbering (identical to the modern standard telegraph code for these characters). <span class="d" style="color:var(--amber)">Dotted</span> = emended letter · <span style="color:var(--red)">red</span> = unresolved</p>
+<pre>ba xu · xe pe · ja qi · ci ji · na ti · be mi · ga si · qi ja · ke bi · qo ye · ku fo · ne mi · ge tu · xa bo · bo ba · ge do
+3390    1004    3945    5459    2348    1342    3747    4539    2053    6511    0076    0342    1788    3073    7333    1775
+潮      城      由      莫      擎      宇      獨      立      我      軍      亦      光      復      汕      頭      後
+
+ci ji · ga po · ye va · yo xa · le yo · le ve · ke bi · ro ma · pe sa · vo ro · be ni · fe xi · ke bi · qo ye · qe ku · fi ya
+5459    3764    1129    7130    0171    0109    2053    6622    0427    6966    1343    1650    2053    6511    0500    5631
+莫      率      大      隊      來      令      我      退      出      鎮      守      府      我      軍      力      薄
+
+qa ti · ja qi · xi qo · xi to · na tu · la xo · pa va · je jo · ro pe · [zpo ngobunibai]
+2548    3945    5065    5068    2388    2170    2429    1979    6604
+暫      由      翼      □       支      持      文      慧      返      …</pre>
+<blockquote class="zh">潮<span class="d">城</span>由莫擎宇獨立。我軍亦<span class="d">光</span>復汕頭。後<span class="d">莫</span>率大隊來，令我退出鎮守府。我軍力薄，暫由<span class="x">翼□</span><span class="d">支</span>持。<span class="x">文慧</span>返<span class="x">……</span></blockquote>
+<p>The events. On 26 March 1916 Mo Qingyu (莫擎宇), a regimental commander at Chaozhou under Long Jiguang's Chao-Mei garrison, was won over by
+Chen Jiongming, Lin Hu, He Haiming and the local revolutionaries; on the 27th he occupied Chaozhou city and wired the provincial authorities
+"率師占領潮城，宣布獨立" — <em>潮城</em>, the very word of the telegram. On the 30th the Swatow guard troops declared for him and he formally proclaimed
+independence with his headquarters at Swatow. Sun's own Chinese Revolutionary Party men had meanwhile taken the town's garrison headquarters
+(鎮守使署); "Tanaka", one of the Japanese adventurers serving with them, reports on 3 April that Mo, arriving in force, has ordered them out, that
+they are too weak to resist, and that someone is returning — presumably to Tokyo to report. The Ministry's suspicion that the sender was trading on
+the Swatow consul's name is a nice irony: the consul was also a Tanaka.</p>
+
+<h2 id="residuals"><span class="num">05</span> What remains uncertain</h2>
+<ul>
+<li><strong>城.</strong> The form reads <code>baxuxupeja</code> → <code>90 04</code>, and no codebook has page 90. One vowel-stroke away is <code>xe pe</code> = 1004 城, which the
+history all but dictates (潮州 1558, 潮梅 2734 and 潮汕 3073 are unreachable from the letters). The second u is probably an e.</li>
+<li><strong>翼□ (5065 5068).</strong> Both syllables of 翼 are confirmed elsewhere; the second group's <code>to</code> is not, and 5068 (翿) is not a word. A name or a unit
+that "supported" the revolutionaries once Mo displaced them — the Swatow guard? a ship of Tang Tingguang's squadron? — is expected here.</li>
+<li><strong>文慧 (2429 1979).</strong> Sent as read; presumably a person who "returns". 文 is also Sun Wen's signature character.</li>
+<li><strong>The tail.</strong> After 返 the form has <code>zpo ngobunibai</code>: a seven-letter "word" cannot occur in this system, and <code>ng</code>, <code>ai</code> are not syllables.
+An exhaustive search of all strings within three plausible edits (h/n, u/n, c/e confusions, dropped letters) yields no decoding into valid codes. Roughly
+three characters — a place or a request — are lost unless the second sheet of frame 680682 can be read at higher resolution.</li>
+<li>The two <em>h</em> syllables of the transcription (<code>he</code>, <code>ha</code>) both decode as nonsense and both read as <em>n</em> on the form (光, 支). The <em>h</em> row of the table
+is therefore unattested, but the layout leaves it no other place.</li>
+</ul>
+
+<h2 id="method"><span class="num">06</span> Method</h2>
+<ol>
+<li>The JACAR file was read page by page (the archive's image server refuses automated access; the PDF was supplied by hand) for context and to check the letters.</li>
+<li>Syllable statistics: the 20 + 5 alphabet and the deficit of <em>u</em> pointed to a systematic, column-major condenser.</li>
+<li>Brute force over the whole systematic family (57 600 keys) with a character-unigram score over the standard codebook (Unihan telegraph tables; the 1916 numbering verified on Tomokiyo's decoded Sun telegrams).</li>
+<li>Four doubtful groups examined by one-letter alternatives; the readings 光復, 支持, 莫, 潮城 chosen by sense and then found in the handwriting.</li>
+<li>Edit-distance search over the garbled tail (negative). Historical check against the 26–30 March chronology of Mo Qingyu's rising.</li>
+</ol>
+
+<h2 id="try"><span class="num">07</span> Try the key</h2>
+<div id="decoder">
+<p>Type condenser letters (spaces ignored). Each consonant–vowel pair becomes two digits from the table above; pairs of syllables become codebook groups and are looked up in the standard telegraph code.</p>
+<textarea id="cin">baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba gedocijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitonatula xopavajejo rope</textarea>
+<button onclick="decode()">Decode</button>
+<div class="tiles" id="cout"></div>
+<output id="ctext" class="muted zh" style="display:block;margin-top:.8rem"></output>
+</div>
+<script src="ctc_tw.js"></script>
+<script src="site.js"></script>
+<script>
+const ROW='lmnpqrstvxyzbcdfghjk', COL='eaiou';
+function num(s){ const c=ROW.indexOf(s[0]), v=COL.indexOf(s[1]); if(c<0||v<0) return null; return (20*v+c+1)%100; }
+function decode(){
+  const t=document.getElementById('cin').value.toLowerCase().replace(/[^a-z]/g,'');
+  const syl=[]; let i=0, bad=false;
+  while(i<t.length){ const s=t.slice(i,i+2); if(s.length===2&&num(s)!==null){ syl.push(s); i+=2; } else { syl.push('?'+t[i]); i+=1; bad=true; } }
+  const items=[], out=[];
+  for(let k=0;k+1<syl.length;k+=2){
+    const a=syl[k], b=syl[k+1];
+    if(a[0]==='?'||b[0]==='?'){ items.push({g:a+' '+b,p:'?',cls:'unk'}); out.push('?'); continue; }
+    const code=String(num(a)).padStart(2,'0')+String(num(b)).padStart(2,'0');
+    const ch=CTC[parseInt(code,10)]||'□';
+    items.push({g:a+' '+b+' · '+code,p:ch,cls:ch==='□'?'unk':''}); out.push(ch);
+  }
+  if(syl.length%2) items.push({g:syl[syl.length-1],p:'…',cls:'unc'});
+  renderTiles(document.getElementById('cout'),items);
+  document.getElementById('ctext').textContent=out.join('');
+}
+decode();
+</script>
+
+<h2 id="sources"><span class="num">08</span> Sources</h2>
+<ul>
+<li>JACAR (Japan Center for Asian Historical Records), Ref. <a href="https://www.jacar.archives.go.jp/das/meta/B03050738800">B03050738800</a>, 外務省記録: 孫逸仙ト電報往復ノ件 / 孫逸仙宛電報ニ関スル件 (April–May 1916), reel 1-0959, frames 0288–0298.</li>
+<li>S. Tomokiyo, "Chinese Cryptography: 1871–1945" (<a href="https://cryptiana.web.fc2.com/code/chinesecrypto_e.htm">cryptiana</a>), for the two Yamada condensers, the +111 telegrams and the telegram image; "Sun Yat-sen's Coded Telegram (1916)", <a href="https://cryptiana.blogspot.com/2021/12/sun-yat-sens-coded-telegram-1916.html">blog, 12 Dec 2021</a>.</li>
+<li>Unicode Unihan database, fields kTaiwanTelegraph / kMainlandTelegraph (via <a href="https://github.com/kirklin/chinese-telegraph-code">kirklin/chinese-telegraph-code</a>) for the standard telegraph code.</li>
+<li>黃浩瀚, 「百年前莫擎宇在汕宣布反袁獨立」, 汕頭特區晚報, repr. <a href="http://www.xhgmw.com/html/xiezhen/renwu/2017/1206/24726.html">辛亥革命網</a>, 6 Dec 2017 — the chronology of 26–30 March 1916 and Mo's telegram.</li>
+</ul>
+<p class="muted">Analysis scripts, the codebook tables and the language model are in the repository (<code>sunyatsen/</code>).</p>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 · Text released under CC BY 4.0</span>
+  <nav><a href="index.html">Overview</a><a href="hyde.html">← Hyde 1659</a><a href="#top">Top ↑</a></nav>
+</div></footer>
+</body>
+</html>
