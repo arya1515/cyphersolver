@@ -7,6 +7,7 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 
 | # | Target | Date | Difficulty | Status | Dir | Notes |
 |---|---|---|---|---|---|---|
+| 1 | Richelieu → M. de Rancé (BnF fr. 3829 ff. 87, 89) | 1629 | Medium | solved | `richelieu/` | Ciphertext-only reconstruction of the homophonic alphabet + nomenclature; agrees word for word with Avenel 1858 (found afterwards); DECODE R9461-2 should be marked deciphered |
 | 2 | Armstrong → Madison postscript (30 Aug 1808, THE=972 code) | 1808 | Medium | solved | `armstrong/` | 2026-09-14: "Russel ought to be the consul: he is an American by birth, and is much better qualified than any other candidate. In a word, he is above men in general. Next to him in fitness is O'Mealy, but he is, like Warden, an Irishman." Key = pencil interlinear decodes on DUSMF M34 roll 13 + alphabetical-slot inference; 49/49 groups (555 read as slip for 1555 *man*). 22 Feb 1808 letter (99-01-02-2733) also largely read |
 | 3 | Charles II → Duke of Hamilton | 1650 | Medium | offline-only | `hamilton/` | Not solvable online: 102 groups, no redundancy, no printed key (Camden 1880 has none). Key located in the archive: NRS **GD406/1/2197** "Keys for ciphers used in the correspondence of the Duke of Hamilton", 5 items, open; letters = GD406/1/10573-10576 (Hamilton Red Book ii 156-159, microfilm on site). Needs a copy order to Edinburgh |
 | 4 | Colbert passages (Mélanges Colbert) | 1665–74 | Medium | stuck | `colbert/` | Three short passages (Gravel? 1665 · Charost 1673 · Gravel→Maulevrier 1674); no key online, too short for cryptanalysis, all 12 known Colbert-series keys already fail; sibling-letter search needs Gallica paging (Gallica down during session). See colbert/NOTES.md |
@@ -30,5 +31,4 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 ## Done elsewhere in this repo
 | Target | Status | Dir |
 |---|---|---|
-| Richelieu → Rancé 1629 | found-solved (Avenel 1858) + independently solved | `richelieu/` |
 | Beale Paper No. 1 | fabrication (evidence in notes) | `beale/` |

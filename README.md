@@ -10,7 +10,7 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Target | Date | Result | Where |
 |---|---|---|---|
 | Armstrong → Madison, coded postscript ("THE = 972" code) | 1808 | **solved** — 49/49 groups; 580-group code table reconstructed | [`armstrong/`](armstrong/) · [write-up](https://dbourdeau.github.io/cyphersolver/armstrong.html) |
-| Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | solved independently, then found already printed by Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
+| Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | **solved** — ciphertext-only reconstruction; later matched word for word to Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
 | Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
 | Colbert passages (Mélanges Colbert) | 1665–74 | stuck — three short passages, no key online, known series keys fail | [`colbert/`](colbert/) |
