@@ -63,7 +63,7 @@ Listed rather than scored, so the tracker does not pad itself with things no met
 | # | Entry | Why not |
 |---|---|---|
 | 4 | Kryptos K4 | 97 characters. The plaintext was recovered from Sanborn's papers in the Smithsonian by Kobek and Byrne in September 2025 — explicitly *not* a cryptographic solve — and the archive sold at auction for $962,500 in November 2025; the buyer revealed itself as Paradigm in June 2026. The method remains unbroken and the plaintext unpublished |
-| 1 | Voynich | ~38,000 word-tokens, six centuries, no independently verified reading |
+| 1 | Voynich | adjudicated 2026-09-15, not deciphered | Six computational tests with adversarial re-runs and five literature sweeps: plain or simply enciphered European language excluded; the two live hypotheses (verbose/slot encoding vs structured meaningless generation) not separated by any statistic yet. See `voynich/NOTES.md` |
 | 2 | Zodiac | Z408 solved 1969 (the Hardens), Z340 solved 5 December 2020 (Oranchak, Blake, Van Eycke). Z13 and Z32 are 13 and 32 symbols — too short for any verifiable solution |
 | 5 | Somerton Man | The man was identified as Carl Webb in July 2022 (Abbott and Fitzpatrick), still not officially confirmed. The code is ~45 letters of probable initials and the identification did nothing for it |
 | 6 | Rohonc Codex | A writing system, not a concealed message. Király and Tokai (*Cryptologia* 2018) claim a reading, endorsed by Benedek Láng, disputed by Nick Pelling. Not settled |

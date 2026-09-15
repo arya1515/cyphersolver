@@ -181,3 +181,11 @@ copenhagen/*.bin
 copenhagen/*.log
 scorpion/*.log
 scorpion/*.bin
+# voynich: third-party transliteration files and format spec (fetch from voynich.nu/data), keep the parsed ZL TSV
+voynich/data/*.pdf
+voynich/data/CD2a-n.*
+voynich/data/GC2a-n.*
+voynich/data/IT2a-n.*
+voynich/data/RF1b-er.*
+voynich/data/ZL3b-n.txt
+voynich/__pycache__/

@@ -94,7 +94,7 @@ systems* rather than concealed messages, which is a problem for linguistics and 
 | Dorabella cipher | 1897 | very low | 87 symbols; many readings fit, none provable |
 | Kryptos K4 | 1990 | very low | The most worked-over 97 characters in existence; Sanborn sold the solution privately in 2025 |
 | WWII pigeon cipher | 1942? | none | GCHQ assesses one-time pad, i.e. information-theoretically secure |
-| Voynich manuscript | c.1420 | not a cipher? | Six centuries and a whole field have found no key; evidence now favours a constructed or glossolalic text |
+| Voynich manuscript | c.1420 | adjudicated 2026-09-15 | Not a plaintext, substitution, transposition or abjad rendering of eleven European languages (h2 2.2-2.9 bits vs a 3.3 floor, transliteration-robust); Rugg grille and free-edit self-citation disfavoured; live: a verbose or slot-template encoding of short units vs slot-preserving meaningless generation, roughly even. Six analyses with adversarial re-runs; five literature sweeps. `voynich/NOTES.md`, `voynich/SOURCES.md` |
 | Phaistos disc | c.1800 BC | not a cipher | Undeciphered script with a corpus of one object |
 | Linear A | c.1800 BC | not a cipher | Unknown language; Linear B fell only because the language was Greek |
 | Indus script | c.2600 BC | not a cipher | ~400 signs, inscriptions average five characters, no bilingual, may not encode language |

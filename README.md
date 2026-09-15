@@ -23,6 +23,7 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 | Beale Paper no. 1 | 1885 | fabrication — evidence in notes | [`beale/`](beale/) |
 | Copenhagen cryptogram (Schmeh Top 50 no. 23) | c.1950s | closed from the scan — two transcriptions, ten languages, matched controls solve same-length texts; the note does not | [`copenhagen/`](copenhagen/) |
 | Scorpion letters S1 and S5 (Schmeh Top 50 no. 12) | 1991 | closed — below the unicity distance for a homophonic key; controls show fluent false solutions | [`scorpion/`](scorpion/) |
+| Voynich manuscript (Beinecke MS 408) | c.1404-1438 | adjudicated, not deciphered — plain or simply enciphered European language excluded on transliteration-robust entropy; verbose encoding vs structured meaningless text left roughly even, with the tests that would separate them | [`voynich/`](voynich/) |
 
 Every working directory except `barney/` has a `NOTES.md` with the record of the attempt (sources, dead ends, what is
 established and what is inferred).
