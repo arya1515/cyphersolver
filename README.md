@@ -11,7 +11,7 @@ solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by
 |---|---|---|---|
 | Armstrong → Madison, coded postscript ("THE = 972" code) | 1808 | **solved** — 49/49 groups; 580-group code table reconstructed | [`armstrong/`](armstrong/) · [write-up](https://dbourdeau.github.io/cyphersolver/armstrong.html) |
 | Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | solved independently, then found already printed by Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
-| Charles II → Duke of Hamilton | 1650 | partial — key from the Lanark letters, nomenclator pending | [`hamilton/`](hamilton/) |
+| Charles II → Duke of Hamilton | 1650 | offline only — key located at NRS GD406/1/2197 (open); needs a copy order, nothing more to do online | [`hamilton/`](hamilton/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
 | Milroy telegrams | 1861–62 | found solved (R. Bean, 2026) | [`milroy/`](milroy/) |
 | Barney → Mallory dictionary code | 1863 | found solved (2026) | [`barney/`](barney/) |
@@ -76,7 +76,8 @@ known key of the same design. Findings and negative results in `vatican5/NOTES.m
 
 ## Other directories
 
-- `hamilton/` — Charles II → Hamilton 1650: transcriptions, Camden 1880 key sources, notes.
+- `hamilton/` — Charles II → Hamilton 1650: collation of the two printed witnesses (`collate.py`), structure notes, and the
+  archive reference for the surviving cipher keys (NRS GD406/1/2197). Blocked on a copy order; see `hamilton/NOTES.md`.
 - `milroy/` — Stager route-cipher tooling (`route.py`) written before the published solution was found.
 - `beale/` — book-cipher scanner over Gutenberg (`scan_corpus.py`, `bookcipher.py`); notes arguing fabrication.
 - `feynman/` — `verify.py` / `decrypt.py` checking Vierra's 2023 solutions.

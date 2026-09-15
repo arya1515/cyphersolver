@@ -55,3 +55,5 @@ milroy/*.html
 milroy/*.htm
 milroy/word_lm.json
 beale/*.log
+hamilton/burnet1852.txt
+hamilton/nrs_gd406_cipher.txt
