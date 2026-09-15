@@ -1,0 +1,54 @@
+"""Transcription of passage No. 9 (c2a.png lines 2-18, c2b.png lines 1-8), 25 lines of prose cipher.
+
+Read 15 Sept 2026 from 3x half-line crops (glyphs/N9_??a.png, N9_??b.png). Same conventions as
+verse_transcription.py; identity decisions on composites are looser here than in the verse, and the codes
+for rarer composites (anything not in the verse key) are descriptive and may split one sign into two types.
+Pictograms are PIC_*; the clear initials of line 9 are CLEAR_H ... CLEAR_F; the numeral 516 is NUM_516.
+Line 1 of c2a (the heading) and the portrait area are not included.
+"""
+
+N9 = [
+    "CC_EQ_X BB_COLON XD ALPHA N_OO EQ_OO SL(t,d) CC_BAR_O EQ_X N_IOX ALPHA EQ_O XD V_RING_BAR HOOK3 BAR_O N_IOI SL(x,x) N_O N_X XD Q ACUTE_O SL(o,o)",
+    "PIC_LEAF GRID N_II ALPHA N_Z SL(o,d) N_O UPS_DOT PIC_BOTTLE PIC_TREE PIC_SUN OPLUS II_GAM NUM_516 PIC_POT SL(o,o) OPLUS XD CX N_III OSLASH N_OX PIC_CUP",
+    "PIC_BUSH CUP_III_O Q CC_EQ E_BOX XD PHI N_X Q_STEM LOOP_OO SL(o,d) EQ_O CC_EQ DELTA_RING_DOT SL(o,x) STAR_X ALPHA_SL GRID N_DOT_X UPS_DOT CX EQ_O XD XD",
+    "PIC_SNAKE VENUS XD DSMALL_REV GATE_DOT CUP_II CC_EQ_O EQ_II CX HX HX V_RING_BAR CHEV_O N_DASH_O OPLUS OX_V X_DOT Q_X SL(d,d) N_OX II",
+    "PIC_HOUSE DCURL_II N_OX Q CRES_DOT CRES_E XD N_O CX HX XD DELTA_DOT NOTE_T T_HOOK SL(o,o) N_Z_O XD PHI N_EQ_O CHEV_DASH DCURL XD",
+    "CLEF X N_O EQ_XX B3_II N_O SL(o,d) STAR PM CC_BAR II_EQ PHI SL(o,d) BSL(o,o) CHEV_O II_BAR_O ARCH_X CIRCPLUS V_DOT BRACE SL(o,o) X_DOT VENUS SL(x,d)",
+    "X ARCH_III II_EQ GAM_II OPLUS CRES_BAR QQ X N_OX STAR Q N_OO SL(o,d) UPS_DOT ARROW_O PIC_TREE XS2_BAR_O II_EQ XD HX PM CRES_E STAR II_EQ PHI HX ALPHA_X N_OX",
+    "I ALPHA S_COLON SL(o,x) HX_III BAR_O PIC_LADDER X_II_BAR_O ARCH_COLON_O XD BAR_O N_EQ_XX SL(o,o) N_XX II_O ARCH_IOX DELTA_DOT_BAR N_OX_SL ARCH_BAR_II T_SERIF PHI SL(t,d) DSMALL_SL BSL(o,o) N_XI",
+    "N_O II_BAR_O HEART DELTA_RING X_O EQ_II CLEAR_H CLEAR_D CLEAR_D CLEAR_L CLEAR_M CLEAR_F STAR2 STAR OPLUS EQ_X OSLASH B_II EQ_II DSMALL_SL ALPHA_TICK CRES_II N_OX XD PHI LOOP_OO CX SL(o,o) EQ_OX SL(o,p)",
+    "SECT_VENUS ACUTE_II_EQ PIC_BIRD E_ARROW Z_BAR XD PIC_SUN ALPHA B_COLON DSMALL_REV CC_EQ XS2_O II_X PIC_PLUME SL(o,o) ALPHA N_III PIC_JAR EQ_SL_X N_X EQ_O HX YD N_COLON SL(o,o) XD XD N_O",
+    "STAR_EYE SL(o,o) X ALPHA ARCH_O N_X CC_EQ N_XX ARCH_XO Z_DOT XD N_EQ OSLASH SL(o,o) CC_EQ_O SL(o,o) CC_BAR_O V_DD N_XX STAR BSL_II LOOP_OO X ANKH_O CRES_E SL(t,d) XS2 CC_EQ_O XD BAR_O_BAR",
+    "X_RING_O Q SL(t,d) XD TAURUS_B SL(t,d) X_DOT_O V_HOOK ALPHA_HEART XD EQ_X CC_EQ_O X_BAR_O N_OX Q PIC_LEAF O_STEM CRES_E STAR II_EQ_Q DSMALL QQ N_OX XD CRES_DOT SL(o,d) EQ_X PHI SL(x,x) PIC_JUG",
+    "CC_BAR_CC ARCH_O ARCH_DOT LOOP_OO N_EQ SL(o,o) CHEV_O XD V_RING_DOT N_X THETA SL(x,o) PIC_TREE CX PHI Q_TICK PIC_HOUSE N_DOT X_I_X_WAVE Q_STEM EQ_CC XD N_XO PIC_BUCKET",
+    "SL(o,o) ALPHA Q N_DASH_O OPLUS PIC_SUN VENUS XD N_XO_COLON XD V_X_O DELTA_RING_DOT N_X_DOT PHI N_Z XD XD_O N_EQ_XO CC_EQ SL(o,o) N_XX CC_EQ_O SL(t,d) HX XD N_O SL(t,d) OSLASH EQ_O",
+    "PIC_ANCHOR B_HOOK DSMALL PIC_CHURCH ALPHA_II CRES_E X EQ_O SL(t,d) D_DOT SL(o,o) BAR_XO STAR XO_TICK SL(x,p) V_RING_BAR XS2 ARROW_CHEV DSMALL GATE_O EIGHT XD HEART_V SL(o,o) OPLUS XS2",
+    "N_O X_DOT PIC_W O_DASH_DOTS ARCH_COLON ALPHA N_OX SL(d,o) N_Z_O SL(o,o) UPS_DOT DELTA_DOT_O CIRC_DOT S_II_O XD X_DOT SL(o,o) N_X_II U_X XS2 HX X_II Y_O XD N_EQ SL(o,o)",
+    "II_RING PM DSMALL_O ARCH_COLON_OO PIC_ANCHOR ANKH_O Y_X EQ_II ALPHA_D ARCH_X X_II_BAR BOX_X CHEV_O ARCH_EQ ARCH_EQ_EQ D3_BAR Q_CROSS LOOP_8 N_OX II_O HOOK_N DSMALL N_XO X SL(t,d) PIC_BIRD",
+    "DELTA_RING SL(o,p) X_DOT_BELOW PHI PIC_TROWEL BAR_II_ARCH ARCH_EQ_X I XD DELTA_RING_DOT EQ_X BSL(o,o) N_OX_SL X OSLASH V_RING PM STAR OPLUS SL(x,d) X_HOOK N_Z_DOT SL(t,d) B3 I BOX_8 II_BAR_O LOOP_OO III_BAR_OO",
+    "V_RING SL(t,d) DSMALL CC_EQ PIC_SWORD PIC_CHAIN CX XD ALPHA KEY_DOT CC_EQ_X SL(o,d) DSMALL_REV Y_DOT GAM_DOT EQ_CC II_BAR_O ARCH_O XD N_OX XD EQ_III UPS_DOT V_RING_O B3",
+    "II_EQ X ALPHA EQ_ARCH X I CHEV_O V_III_O XD ALPHA PIC_SUN STAR X ALPHA N_X II_BAR_O ARCH_EQ X_DOT BSL(o,o) V_RING E II_EQ_II CC_BAR_O N_S SL(o,o) CX BAR_OX CHEV_DASH ALPHA_SL",
+    "CX EQ_O X ARCH_II N_OX II_ARCH OPLUS CC_BAR_OX V_RING EQ_X XD N_O XD SL(o,o) N_EQ OPLUS BSL(x,x) CARET_O X_O V_II CX N_OX XD Z7 CURL_O JUG_BOX",
+    "ALPHA ARCH_DOTS_Z OPLUS SL(o,o) N_EQ V_X VENUS X_DOT HX CC_EQ N_XX PIC_BLOT CC_EQ ARCH_EQ SL(o,o) D_ARROW GAM9 X_BAR_CC CHEV_O XD SL(o,o) ALPHA",
+    "N_O XD ARCH_O_EQ EQ_II XD PHI BSL(d,d) EQ_O PM VENUS N_XO XD CC_EQ_O V_DOT PI PIC_FACE XD GAM9 N_Z_O SL(o,p) PHI BSL(o,o) X_RING CC_EQ_X ALPHA N_COLON NOTE_A",
+    "PIC_SUN RHO_T CC_EQ CHEV_DASH OPLUS_DOTS N_XO X N_O SL(x,x) E_BOX UPS_RING UPS_RING V_RING_BAR SL(o,o) TICK_EQ_CC XD N_EQ_DASH HX_B ALPHA CRES_DOT XD XD N_X_COLON UPS BRACE",
+    "N_EQ_III OPLUS XD UPS SL(o,o) ALPHA V_DOT EQ_X SL(t,d) ACUTE_O BAR_II B3 X STAR",
+]
+
+
+def tokens(drop_pictograms=True, drop_clear=True):
+    out = []
+    for l in N9:
+        for t in l.split():
+            if drop_pictograms and (t.startswith('PIC') or t.startswith('NUM')): continue
+            if drop_clear and t.startswith('CLEAR'): continue
+            out.append(t)
+    return out
+
+
+if __name__ == '__main__':
+    import collections
+    t = tokens(False, False); c = collections.Counter(tokens())
+    print(len(t), 'tokens incl. pictograms;', len(tokens()), 'cipher glyphs;', len(c), 'types;',
+          sum(1 for v in c.values() if v == 1), 'hapax')
+    print(c.most_common(20))

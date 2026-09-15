@@ -124,11 +124,45 @@ language-like and not decoration.
 | **"Monograph" reading**: each glyph a stack of letter-marks | Constrained hill-climb over mark→letter keys: real order does not beat the same glyphs shuffled, in French or English |
 | **Source of his French poem No. 10** | Not found; its grammar suggests his own composition |
 
+### Passage No. 9 transcribed, and why ciphertext-only solving is out of reach
+
+`n9_transcription.py` holds **passage No. 9**, 25 lines: 597 cipher glyphs, 239 types and 161 hapax,
+plus 40 pictograms, the clear initials and the numeral 516. With the verse and No. 10 that makes
+**969 glyphs, 333 types, 213 hapax**, most of the ~1,200 the corpus contains.
+
+It is **one system**. 47 of the verse's 111 types recur in No. 9 and cover 58% of verse tokens. Dotted X
+is the top glyph in both passages (9.0% and 8.2%). 19 glyph bigrams occur in both.
+
+Two independent results then close off a key-only attack (`syllsolve.py`, `python syllsolve.py control N`):
+
+1. **Positive control.** Held-out French verse was encoded as a clean one-to-one syllabary, with no
+   transcription noise, and solved by annealing against a syllable-bigram model trained on 1.15 million
+   syllables:
+
+   | plaintext length | glyph types | tokens recovered | baseline |
+   |---|---|---|---|
+   | 1,000 | 364 | **0.0%** | 3.2% |
+   | 5,000 | 944 | 5.4% | 3.3% |
+   | 20,000 | 1,810 | 4.3% | 2.9% |
+
+   The solver collapses onto filler (*que de la que de ce…*). A stronger solver would do better at
+   20,000 glyphs, but at the Debosnys length it has almost nothing to work with.
+2. **Unicity distance**, which does not depend on solver quality. French verse syllables have a bigram
+   cross-entropy of 7.71 bits. With 333 cipher types the key carries 3,100–4,400 bits, depending on the
+   syllable inventory assumed (600 to 8,968). That gives a unicity distance of **~800–2,000 glyphs**,
+   the same order as the entire corpus. It is computed with an idealised model and no transcription
+   errors, so the real requirement is higher.
+
+**Conclusion:** if Debosnys wrote a syllabary, which is what the line lengths and rhymes indicate, the
+surviving text is too short to determine its key without a crib. It will not be solved by statistics.
+It needs a **known plaintext**: the copied source of the verse or of No. 9, or a key-bearing document
+from his papers at the Essex County Historical Society. Every source that could be tested here failed.
+
 ### What remains open
 
-* **Transcribe the rest of the corpus** (No. 9, about 400 glyphs, and the self-portrait page) in the
-  same code. A syllabary of ~150 signs cannot be solved from 380 tokens. All ~1,200 give repeated
-  sequences a chance, and No. 9 has the H.D.D.L.M.F. crib inside it.
+* **A crib is the only route.** The papers at the Essex County Historical Society (Brewster Memorial
+  Library) are the place to look for a clear copy of the verse or a key sheet. The self-portrait page (the
+  last ~100 glyphs) adds too little to reach the unicity distance.
 * **Wider French source search**, above all 19th-century popular verse and song (Béranger, romances,
   prison and death poems), the kind he would have copied. The machinery (`versesearch.py`) is ready and
   validated by its planted control.

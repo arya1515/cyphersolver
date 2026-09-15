@@ -23,7 +23,7 @@ LIVE = [
      "and line length and rhyme behaviour both point to a <b>French syllabary</b> — English syllables would match the rhymes with "
      "probability 3&thinsp;×&thinsp;10<sup>−4</sup>. Every crib failed against controls that prove the tests could see a hit: the clear "
      "poem under the No. 10 block, 7,821 couplet windows of French verse, Delille's <i>Aeneid</i>, Moore, and a letter-monogram reading. "
-     "What is left needs the other ~800 glyphs transcribed and a wider search of popular French verse."),
+     "Passage No. 9 is transcribed too (969 glyphs, one system), and that settles the rest: the unicity distance of such a syllabary is ~800–2,000 glyphs, the size of the whole corpus, and a planted 1,000-glyph French syllabary recovers 0%. It cannot be solved from statistics; it needs a crib from his papers."),
 
     ("Censorship manual steganograms", "1943",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
