@@ -1,10 +1,53 @@
 # cyphersolver
 
-Attempts on historically "unsolved" ciphers, using statistical cryptanalysis plus archival research.
+Attempts on historically "unsolved" ciphers — the items in S. Tomokiyo's
+[Unsolved Historical Ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm) list — using archival research,
+historical cribs and small purpose-built solvers.
+
+**Website:** https://dbourdeau.github.io/cyphersolver/ — hub with the status of every target and formal write-ups of the
+solved items. **Tracker:** [TARGETS.md](TARGETS.md) — all 20 targets ranked by feasibility, with status and notes.
+
+| Target | Date | Result | Where |
+|---|---|---|---|
+| Armstrong → Madison, coded postscript ("THE = 972" code) | 1808 | **solved** — 49/49 groups; 580-group code table reconstructed | [`armstrong/`](armstrong/) · [write-up](https://dbourdeau.github.io/cyphersolver/armstrong.html) |
+| Richelieu → M. de Rancé, BnF Français 3829 ff. 87 & 89 | 1629 | solved independently, then found already printed by Avenel (1858) | [`richelieu/`](richelieu/) · [write-up](https://dbourdeau.github.io/cyphersolver/richelieu.html) |
+| Charles II → Duke of Hamilton | 1650 | partial — key from the Lanark letters, nomenclator pending | [`hamilton/`](hamilton/) |
+| Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | stuck — polyphonic digit cipher; solvers built, paused | [`vatican5/`](vatican5/) |
+| Milroy telegrams | 1861–62 | found solved (R. Bean, 2026) | [`milroy/`](milroy/) |
+| Barney → Mallory dictionary code | 1863 | found solved (2026) | [`barney/`](barney/) |
+| Feynman ciphers 2 & 3 | 1987 | found solved (Vierra 2023); verified | [`feynman/`](feynman/) |
+| Beale Paper no. 1 | 1885 | fabrication — evidence in notes | [`beale/`](beale/) |
+
+Every working directory except `barney/` has a `NOTES.md` with the record of the attempt (sources, dead ends, what is
+established and what is inferred).
+
+---
+
+## Armstrong → Madison, 30 August 1808 — coded postscript
+
+John Armstrong (U.S. Minister to France) ended a private letter to Madison with 49 groups of the diplomatic code he used
+1804–1810, in which 972 = *the*. The code was never published. It was reconstructed from the State Department's own
+pencil interlinear decodes on NARA microfilm M34 roll 13 (frames 0192–0201, a despatch of October 1806), merged with
+Tomokiyo's known-plaintext values from the letter of 4 May 1806, and completed by alphabetical-slot inference. Reading:
+
+> Russel ought to be the consul: he is an American by birth, and is much better qualified than any other candidate. In a
+> word, he is above men in general. Next to him in fitness is O'Mealy, but he is, like Warden, an Irishman.
+
+| file | purpose |
+|---|---|
+| `armstrong/NOTES.md` | group-by-group evidence, corrections to the Founders transcription, residual doubts |
+| `armstrong/pairs.txt` | ~500 number → syllable pairs read from the pencil decodes, with frame/line reference and H/M grade |
+| `armstrong/code972_partial.json` | Tomokiyo's table from the 4 May 1806 known plaintext (base layer) |
+| `armstrong/decode972.py` | merges the three layers and renders any coded passage — `python decode972.py ps\|feb\|all\|table` |
+| `armstrong/export_key.py` → `key972.js` | exports the merged 580-group table for the website decoder |
+| `armstrong/pencil_score.py` | ranks microfilm frames by amount of faint pencil (finds the annotated despatches) |
+| `armstrong/crawl_wb.py` | follows Founders Online correspondent links via the Wayback Machine to list coded letters |
+
+Not in the repo (see `.gitignore`): the 393 roll-13 frames (`img13/`, 2.5 GB, from
+[NARA catalog 188671172](https://catalog.archives.gov/id/188671172)), roll 14, crops, and the downloaded Founders/LOC pages.
+Reproduce the decode from tracked files alone: `cd armstrong && python decode972.py all`.
 
 ## Richelieu → M. de Rancé, July 1629 (BnF Français 3829, ff. 87 & 89)
-
-**Website:** https://dbourdeau.github.io/cyphersolver/
 
 Homophonic substitution cipher recovered by ciphertext-only analysis from a published transcription, then found to
 agree word-for-word with the decipherment printed by Avenel in 1858 (*Lettres … du cardinal de Richelieu*, t. III,
@@ -19,10 +62,35 @@ they should be marked solved. Full write-up: [richelieu/SOLUTION.md](richelieu/S
 | `richelieu/solve.py` | simulated-annealing homophonic solver (`--fix`, `--core`, `--weight`) |
 | `richelieu/render.py`, `final.py` | render letters with a hand-built / final key |
 | `richelieu/avenel.py`, `avenel_ctx.py` | fetch and search Avenel vol. III OCR (Internet Archive) |
-| `docs/index.html` | the website (self-contained) |
 
 Reproduce: `pip install requests` · `python build_ngrams.py` · `python solve.py --restarts 8` · `python final.py`
 
-## Barney → Mallory dictionary code (CSS Harriet Lane, 1863)
+## Vatican Challenge Part 5 (ASV Segr. di Stato, Spagna 1A; Farnese → Poggio, 15 April 1542)
 
-Started, then found already solved (Aug 2026, Webster's Primary School Dictionary 1850). Notes in `barney/`.
+Digit cipher with dotted digits, apparently variable-length polyphonic (cf. Lasry, Megyesi & Kopal, *Cryptologia* 2021,
+§5.5, where the same collection is left unsolved). Work in `vatican5/`: unit/statistics tools (`units.py`, `mi*.py`,
+`dots*.py`, `partition.py`), an Italian character LM built from Nuntiaturberichte OCR (`build_it_lm.py`, `ngrams5.py`),
+Python solvers (`solver5–7.py`), a C# lattice solver (`native/Program5.cs`, compile with `csc.exe`; ~180 it/s), and a
+synthetic-key harness (`make_syn.py`, `syn_fix.py`, `lmscore.py`, `wordscore.py`) used to show the solver recovers a
+known key of the same design. Findings and negative results in `vatican5/NOTES.md`. Paused.
+
+## Other directories
+
+- `hamilton/` — Charles II → Hamilton 1650: transcriptions, Camden 1880 key sources, notes.
+- `milroy/` — Stager route-cipher tooling (`route.py`) written before the published solution was found.
+- `beale/` — book-cipher scanner over Gutenberg (`scan_corpus.py`, `bookcipher.py`); notes arguing fabrication.
+- `feynman/` — `verify.py` / `decrypt.py` checking Vierra's 2023 solutions.
+- `barney/` — dictionary-code enumerator over Google Books candidates; superseded by the 2026 solution.
+- `docs/` — the website: `index.html` (hub), `armstrong.html`, `richelieu.html`, shared `style.css` / `site.js`.
+
+## Conventions
+
+- Large downloads (microfilm, corpora, OCR, run logs) are excluded by `.gitignore` and regenerated by the scripts noted above.
+- Every claimed reading is graded: **H** read from a primary key source, **C** from a known-plaintext letter, **M** uncertain,
+  **I** inferred from context/alphabetical position. The website decoders show the grade per group.
+- Before treating a catalogue item as unsolved, check the 19th-century printed editions (Avenel, Camden Society, Nuntiaturberichte).
+
+## Licence
+
+Text and notes CC BY 4.0; code MIT. Manuscript images are from the Library of Congress, National Archives and BnF and remain
+subject to those institutions' terms.
