@@ -461,3 +461,38 @@ the thumbnails do show is that **069v is ordinary cleartext prose** while 070r o
 which matches the transcript's own structure.
 
 So the images exist, are catalogued, and are one login away - but not reachable from here.
+
+### A matched control of the Elio design, and what it says
+
+`elio_syn.py` builds a synthetic to Elio's documented rules - h and doubled letters dropped,
+consonant-vowel syllables as two-digit codes on a systematic grid, single digits for the rest,
+polyphonic dot on the antecedent, intermittent null - at the real length of 6549 digits, and measures
+both with the same code. Three seeds, real text scored with vowels {7,0,3}:
+
+| | synth 1 | synth 2 | synth 3 | **real** |
+|---|---|---|---|---|
+| vowel share | 0.494 | 0.488 | 0.503 | 0.442 |
+| mean vowel run | 1.303 | 1.495 | 1.308 | **1.510** |
+| mean consonant run | 1.333 | 1.569 | 1.294 | **1.907** |
+| consonant runs >= 3 | 0.039 | 0.105 | 0.020 | **0.226** |
+| repeated 7-grams | 187 | 275 | 176 | **441** |
+
+The first version of this script also produced a useful failure: with *arbitrary* digit pairs as
+syllable codes, every digit becomes vowel-bearing and the consonant class vanishes entirely. Since the
+real text has a clean vowel class on three independent tests, **the two-digit codes cannot be
+arbitrary pairs** - they must sit on a systematic consonant-then-vowel grid, which is also what
+Meister's keys of this family look like (da de do = 49 69 89; na ne ni no = 24 26 28 29). That is a
+constraint on the key obtained from a control rather than from a guess.
+
+But the control does **not** reproduce the real text. The real text has markedly longer consonant runs
+and roughly twice the repetition of a pure syllabary. The repetition gap is the informative one: 441
+repeated 7-grams against 176-275. A syllabary alone does not repeat that much. **Substantial
+nomenclature content - fixed codes for recurring words and names - is the natural explanation**, and
+it matches Lasry's description of the sibling cipher, where some digits open dictionary entries while
+others carry letters and syllables.
+
+Honest limit: the synthetic's parameters (the fraction of text taken by syllable codes, the null
+placement, the number of codes) are guesses, so the mismatch is suggestive rather than decisive. What
+it does establish is that the syllabic layer alone cannot account for this text, which is a further
+reason no statistical attack will read it - nomenclature codes for names and words are unrecoverable
+from a single letter, whatever the method.
