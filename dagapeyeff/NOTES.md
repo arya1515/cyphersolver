@@ -81,3 +81,20 @@ not guarantee.
 
 Reproduce: `python control.py` (control vs challenge), `python keyed.py` (calibration and transposition
 search), `python solve.py --nulls` (null sweep).
+
+## Dropping the bijection (free.py) — degenerate, adds nothing
+
+The flat cell distribution suggests the square may not be one-to-one: either homophonic (common letters
+hold several cells, which flattens counts) or polyphonic (one cell covers several letters, which explains
+why only 18 distinct cells appear where English of this length uses about 22). `free.py` allows any
+cell-to-letter mapping and anneals on quadgrams.
+
+It fails in the classic way: the search collapses onto a two-letter mapping and emits
+`sseeeseeseesesessessss…`, scoring **-4.64**, which *beats* real English (-4.8) while being obvious
+nonsense — an unconstrained many-to-one map can always cheat by sending every symbol to common letters and
+harvesting quadgrams like `eses`. Control shuffles of the same symbols score -4.48 to -4.62, i.e. the same
+or better than the real text.
+
+So the result is uninformative about the cipher and only shows the method needs a constraint (a fixed
+letter-count profile, or a near-bijection). It does, however, repeat the earlier finding: the real
+ciphertext scores no better than shuffles of its own symbols.
