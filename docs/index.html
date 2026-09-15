@@ -14,6 +14,8 @@
     <a href="index.html">Overview</a>
     <a href="armstrong.html">Armstrong 1808</a>
     <a href="richelieu.html">Richelieu 1629</a>
+    <a href="ormonde.html">Ormonde 1634</a>
+    <a href="hyde.html">Hyde 1659</a>
   </div>
 </div></nav>
 
@@ -23,19 +25,19 @@
   <h1>Unsolved Historical Ciphers</h1>
   <p class="sub">Progress on the items in S. Tomokiyo's <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a> list —
   reading the archives, reconstructing the keys, and correcting the catalogues where a solution already existed in print.</p>
-  <p class="meta">Daniel Bourdeau · updated 14 September 2026</p>
+  <p class="meta">Daniel Bourdeau · updated 15 September 2026</p>
 </section>
 
 <main>
 
 <div class="stats">
   <div class="stat"><b>20</b><span>targets tracked</span></div>
-  <div class="stat"><b>2</b><span>solved</span></div>
-  <div class="stat"><b>3</b><span>keys located, offline</span></div>
-  <div class="stat"><b>580</b><span>code groups recovered (THE = 972)</span></div>
+  <div class="stat"><b>3</b><span>solved / explained</span></div>
+  <div class="stat"><b>1</b><span>alphabet recovered</span></div>
+  <div class="stat"><b>4</b><span>keys located, offline</span></div>
 </div>
-<div class="bar" title="solved · offline only · stuck · todo/infeasible">
-  <span class="s" style="width:10%"></span><span class="o" style="width:15%"></span><span class="x" style="width:10%"></span><span class="t" style="width:65%"></span>
+<div class="bar" title="solved · partial · offline only · stuck · todo/infeasible">
+  <span class="s" style="width:15%"></span><span class="p" style="width:5%"></span><span class="o" style="width:20%"></span><span class="x" style="width:15%"></span><span class="t" style="width:45%"></span>
 </div>
 <p class="muted" style="font-size:.85rem;margin-top:0">
   <span class="st solved">solved</span> new decipherment &nbsp;
@@ -61,6 +63,22 @@
     <p class="quote">"Castor voudroit bien que la [duchesse de Chevreuse] peust estre attrapée près de la frontière…"</p>
     <span class="go">read →</span>
   </a>
+  <a class="card" href="ormonde.html">
+    <div class="eyebrow"><span>Ireland / England · 1634–35</span><span class="st partial">alphabet recovered</span></div>
+    <h3>Maltravers to Ormonde — a regular block cipher</h3>
+    <p>Doubled letters written with consecutive figures betray a regular key (consonants three figures each from 7, vowels from 64, nulls 91–111).
+    Every spelled word reads and the nomenclator falls into place from the 1634 Irish Parliament.</p>
+    <p class="quote">"he was angry [with the Lord Deputy] … brought no letters … upon his motion [Ormonde] is to be a councellor"</p>
+    <span class="go">read →</span>
+  </a>
+  <a class="card" href="hyde.html">
+    <div class="eyebrow"><span>Brussels · 1659–60</span><span class="st found">explained</span></div>
+    <h3>Hyde's ciphered superscriptions — not a cipher at all</h3>
+    <p>The four "undeciphered addresses" on Hyde's letters to Barwick decode to nothing under the full Hyde–Barwick key printed in 1721 —
+    because, as the 1724 editor states, they were numbers "signifying nothing … only to puzzle the Enemy".</p>
+    <p class="quote">"some Persons … have wondered what was the meaning of them" — Life of Barwick, 1724</p>
+    <span class="go">read →</span>
+  </a>
 </div>
 
 <h2 id="list"><span class="num">02</span> Status of the list</h2>
@@ -74,10 +92,10 @@ solvers — not by the strength of the cipher itself. Target names link to the o
 <tr><td class="n">4</td><td><a href="https://de-crypt.org/decrypt-web/RecordsView/2734">Colbert passages (Mélanges Colbert)</a></td><td>1665–74</td><td><span class="st stuck">stuck</span></td><td>Three short passages (Ratisbon 1665; Charost, Calais 1673; abbé de Gravel → Maulevrier 1674). No key online; the twelve reconstructed Colbert-series keys all fail; too short for cryptanalysis. Only route left is finding a deciphered sibling letter by paging Gallica volumes.</td></tr>
 <tr><td class="n">5</td><td><a href="https://searcharchives.bl.uk/catalog/040-002095608">Prince Maurice → Prince Rupert, Worcester, 7 July 1645</a></td><td>1645</td><td><span class="st offline">offline only</span></td><td>Full text printed in Warburton (93 groups, max 398); the two known Rupert keys of 1644–45 do not fit and the text is far too short to break. The key would sit in Rupert's own papers (BL Add MS 18980–82) or among the 49 Digby keys in Add MS 72438 — all digitised, all offline since the British Library cyber-attack (IIIF returns 403); DECODE copies need an account and BL permission.</td></tr>
 <tr><td class="n">6</td><td><a href="https://searcharchives.bl.uk/catalog/040-001967027">Royalist intercepts, BL Add MS 72438 ff. 9–10</a></td><td>1646</td><td><span class="st offline">offline only</span></td><td>The ciphertexts are not available online at all (DECODE R8623–8624 are private; BL images offline). The same volume holds Weckherlin's 49 captured Digby cipher-keys, so this is a key-matching job the moment the images return, not a cryptanalysis problem.</td></tr>
-<tr><td class="n">7</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Ormonde → Maltravers</a></td><td>1634–35</td><td><span class="st todo">todo</span></td><td>Ormonde calendar; codes ≤ 270.</td></tr>
-<tr><td class="n">8</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Hyde superscriptions</a></td><td>1659–60</td><td><span class="st todo">todo</span></td><td>Four short addresses.</td></tr>
-<tr><td class="n">9</td><td><a href="https://www.british-history.ac.uk/">Thurloe intercepts (Dutch, French)</a></td><td>1653–56</td><td><span class="st todo">todo</span></td><td>British History Online, <em>Thurloe State Papers</em>.</td></tr>
-<tr><td class="n">10</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Stepney → Earl of Manchester</a></td><td>1702</td><td><span class="st todo">todo</span></td><td>HMC Manchester papers.</td></tr>
+<tr><td class="n">7</td><td><a href="ormonde.html">Maltravers → Ormonde</a></td><td>1634–35</td><td><span class="st partial">alphabet recovered</span></td><td>59 figures. Nulls 91–111 and a regular block alphabet recovered from the consecutive-figure doublets; <em>angry, letters, Crosby, a councellor</em> read and the sentences match the events of 1634–35 (Kildare's quarrel with Wentworth; Ormonde sworn of the Council, Jan 1635). Nine nomenclator codes inferred from context only.</td></tr>
+<tr><td class="n">8</td><td><a href="hyde.html">Hyde superscriptions</a></td><td>1659–60</td><td><span class="st found">explained</span></td><td>Hyde → Barwick letters printed in the <em>Vita Barwick</em> (1721) with their full key. The superscriptions decode to nothing (three use numbers above the key's range); the 1724 editor states they were dummy numbers "only to puzzle the Enemy". Not a cipher.</td></tr>
+<tr><td class="n">9</td><td><a href="https://www.british-history.ac.uk/thurloe-papers/vol5/pp333-350">Thurloe intercepts (Dutch, French, English)</a></td><td>1653–56</td><td><span class="st stuck">stuck</span></td><td>Four pieces: Beverning–Vande Perre to Boreel 1653 (136 groups, Dutch), and three 1656 Brussels/Bruges intercepts of 16–50 groups. All 1653–60 keys on cryptiana tried; Dutch/French hill-climbs on the 1653 letter give only fragments. Too short; originals (Bodleian Rawlinson A) not online.</td></tr>
+<tr><td class="n">10</td><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney → Earl of Manchester, Vienna 23 March 1702</a></td><td>1702</td><td><span class="st offline">offline only</span></td><td>Original located and transcribed from Yale Beinecke OSB MSS fc37 (24 groups; MS reads 413 not 412). Not the Manchester THE = 454 key; Manchester had asked for "Mr. Stepney's cipher" in Aug 1701, so the key is Stepney's office cipher — TNA SP 105/106 or BL Add MSS 7058–78, not online.</td></tr>
 <tr><td class="n">11</td><td><a href="https://www.jacar.go.jp/">Sun Yat-sen / Huang Xing telegrams</a></td><td>1916</td><td><span class="st todo">todo</span></td><td>JACAR; Chinese telegraph code with a condenser.</td></tr>
 <tr><td class="n">12</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Henry III → Ségur</a></td><td>1583–86</td><td><span class="st todo">todo</span></td><td>BnF 500 Colbert 401; partial key.</td></tr>
 <tr><td class="n">13</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">1520s superscript-digit ciphers</a></td><td>1526–29</td><td><span class="st todo">todo</span></td><td>Latin syllabic; Worcester, Gilino, Garbino.</td></tr>

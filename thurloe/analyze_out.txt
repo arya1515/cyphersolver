@@ -1,0 +1,27 @@
+﻿
+== (a) Beverning/Vande Perre 1653: 136 groups, 33 distinct; low(<100) range 6-33 (25 distinct); codes>=100: ['113', '117', '211', '222', '327', '329', '519', '527']
+   freq: 22:13 20:12 15:9 27:9 13:8 16:8 17:7 21:7 23:7 24:7 29:7 19:5 26:5 25:4 31:4 6:2 10:2 11:2 28:2 30:2 32:2
+   repeated 2-grams: 29 26 x2, 22 23 x3, 22 13 x3, 23 15 x2, 13 24 x2, 24 22 x3, 22 17 x3, 15 25 x2, 20 15 x2, 16 27 x3, 16 19 x3, 27 31 x3, 24 16 x2, 20 23 x2
+   repeated 3-grams: 13 24 22 x2, 16 27 31 x2
+
+== (b) du Gard 1656: 22 groups, 14 distinct; low(<100) range 1-87 (14 distinct); codes>=100: []
+   freq: 15:4 20:4 17:2 18:2
+   repeated 2-grams: 18 15 x2
+   letters mixed in: ['q', 't', 'y', 'm', 'f']
+
+== (c) Brussels 12 Aug 1656: 16 groups, 8 distinct; low(<100) range 0-9 (8 distinct); codes>=100: []
+   freq: 3:3 4:3 7:3 2:2 9:2
+   repeated 2-grams: 2 3 x2
+
+== (d) Waddall 1656: 50 groups, 29 distinct; low(<100) range 7-86 (27 distinct); codes>=100: ['226', '243']
+   freq: 50:5 11:4 14:4 37:3 38:3 48:3 29:2 33:2 39:2 43:2 46:2
+   repeated 2-grams: 29 50 x2, 50 14 x4
+
+== (d) under candidate keys (code numbers >=100 shown as [n]):
+  Marshall(1656-58)       : bsgngm of ilm sent to lie nere kgcikmd and six dipocm of [243][226] are tgm to strengthen dni and kicomdwi is so fare out of favour now, that mddlm towlde me, he had a greattar mind to hic him then himc .
+  Barwick/Cooper(1656-59) : c[74]kskr of nqq sent to lie nere pidnore and six fnyudq of [243][226] are [79]kr to strengthen esn and pndtre[86]n is so fare out of favour now, that reeqr towlde me, he had a greattar mind to lne him then lnqd .
+  Westrope(1655)          : [7]tdmdl of gik sent to lie nere hc[11]ggl[14] and six [17]gpo[11]k of [243][226] are udl to strengthen [14]mf and hf[11]nl[14]yg is so fare out of favour now, that l[14][15]il towlde me, he had a greattar mind to eg[13] him then efk[11] .
+  Hague agent             : [7][74]leka of u[46][48] sent to lie nere [43]h[11]t[40]a[14] and six [17]tol[11][48] of [243][226] are bka to strengthen [14]ds and [43]s[11]ga[14]it is so fare out of favour now, that a[14][15][46]b towlde me, he had a greattar mind to ou[13] him then os[48][11] .
+
+== (a): straight alphabet on 10..33, best rotation/reversal per LM (score = mean log10 quadgram prob; random ~ -6)
+  (nothing printed above => no plain alphabetical key scores better than -3.6)

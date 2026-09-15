@@ -1,0 +1,22 @@
+﻿file=a lang=nl mode=homo letters=128 symbols=25 restarts=8
+score = sum log10 quadgram (+penalty); per-quad avg shown. Real text ~ -3.0..-3.4 per quad, random ~ -6
+
+-4.713 (quad-only -4.595, chi 30)  key: 6=d 10=v 11=w 12=s 13=n 14=i 15=a 16=s 17=r 18=b 19=t 20=e 21=m 22=e 23=l 24=d 25=n 26=g 27=t 28=z 29=o 30=h 31=o 32=f 33=r
+   [113]vgnntoogw[222]ormellenhebelandendervanln[329]zaeeneantzetteerea[527]semstmogestst
+   [117][211]endegaarthemdielgderen[519]mmtofdstoodstworstotmenst
+   [327]elosdedraorfela
+
+-4.784 (quad-only -4.659, chi 31)  key: 6=m 10=g 11=w 12=a 13=n 14=i 15=e 16=s 17=r 18=j 19=t 20=i 21=d 22=e 23=n 24=d 25=l 26=r 27=t 28=z 29=a 30=h 31=o 32=m 33=s
+   [113]grnntaarw[222]ordennenhijenendendergelnn[329]zeeilieltzittierie[527]sidatdaristst
+   [117][211]eldereertheddienrmeren[519]ddtomdstoadstwasstotdinst
+   [327]inasmidrearmine
+
+-4.873 (quad-only -4.746, chi 32)  key: 6=o 10=u 11=d 12=r 13=s 14=l 15=d 16=o 17=t 18=v 19=m 20=e 21=a 22=e 23=n 24=l 25=i 26=r 27=n 28=g 29=a 30=i 31=s 32=k 33=t
+   [113]urssmaard[222]staennesievendslesletudins[329]gdeeiedingenneeted[527]oearmaareonom
+   [117][211]eilerddtnieallenroetes[519]aansklonsalomdatonsnaesom
+   [327]enaooeltdatkend
+
+-4.938 (quad-only -4.825, chi 28)  key: 6=i 10=u 11=o 12=a 13=i 14=g 15=r 16=d 17=t 18=v 19=d 20=e 21=l 22=e 23=n 24=t 25=k 26=r 27=a 28=m 29=o 30=g 31=n 32=s 33=f
+   [113]uriidooro[222]ntlenneigevenriteiteturkni[329]mreekerkameaaeeter[527]deladloredadd
+   [117][211]ekterrrtageltgenrietei[519]llanstdanotddoofdanaleidd
+   [327]enodiettrotsenr

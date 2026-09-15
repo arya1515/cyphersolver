@@ -1,0 +1,58 @@
+(a) Beverning and Vande Perre to the Dutch ambassador Boreel at Paris
+Westminster, 22 Aug./1 Sept. 1653 [N.S.]
+Source: Thurloe State Papers vol.1 p.435 (Birch 1742; MS "Vol.v.p.240")
+BHO: https://www.british-history.ac.uk/thurloe-papers/vol1/pp435-445  (old URL compid=55271)
+Also quoted (ciphertext only) at https://cryptiana.web.fc2.com/code/dutch.htm
+
+--- clear text (Birch's English translation of the Dutch/French original) ---
+My lord,
+We have under foure distinct covers received two of your excellencies, written with your
+owne hand, one directed to our secretary, and some relations of the last fight, with
+a copy of de Ruyter's letter, dated in Paris the 25th. In answer thereunto we let your excellency
+know, that we received all the four packets, but not one sealed with your excellencie's
+seal, as you were pleased to give us notice all your letters should be sealed withall. We
+could not perceive, that any of them had been opened, but that they all came safe to hand,
+except it was one that was written and signed by your excellency's selfe, which indeed we
+thought had been opened; but it contained nothing of consequence. We are informed,
+that it is dangerous to send any letters directed in the English language, which two of your
+last were. Therefore your excellency may be pleased to take notice thereof; for they do
+conceive here, that all such letters do concern English cavaliers, that are directed in English.
+We are served with the same cypher; but hereafter to express particular words, we
+will rather make use of the new one, which your excellency was pleased to send unto us,
+after the same manner as is set down under the same. We shall not omit to communicate
+any thing unto your excellency that shall be acted by us here, though we do perceive that
+your excellency is sufficiently informed concerning our treaty; since the departure of the
+lords of Nieuport and Jongestall and want of order and instructions, we have not proceeded
+any further; but we thought fit and that it did concerne us,
+
+--- CIPHER passage 1 ---
+113. 10. 26. 13. 13. 19. 29. 29. 26. 11. 222. 31. 17. 21. 22. 23. 23. 22.13. 30. 20. 18.
+22. 23. 15. 13. 24. 22. 13. 24. 22. 17. 10. 15. 25. 23. 13. 329. 28. 15. 22. 20. 25. 20.
+15. 25. 27. 28. 20. 27. 27. 20. 22. 17. 20. 15. 527. 16. 20. 21. 12. 19. 21. 29. 26. 20.
+16. 27. 16. 19.
+--- clear ---
+and do find that at Solebay [now follows the whole relation verbatim.] It
+will be a great point of honour and service, if so be
+--- CIPHER passage 2 ---
+117. 211. 22. 25. 24. 22. 26.
+15. 15. 17. 27. 30. 22. 21. 24. 14. 22. 23. 26. 6. 22. 17. 22. 13. 519. 21. 21.
+27. 31. 32. 24. 16. 27. 31. 29. 24. 16. 19. 11. 29. 33. 16. 27. 31. 27. 21. 20. 13.
+16. 19.
+--- clear ---
+as was ordered by their resolution. God send them a safe voyage, and that they
+may return with their lives into their native country.
+--- CIPHER passage 3 ---
+327. 20. 23. 29. 16. 6.20.24. 17.
+15. 29. 17. 32. 20. 23. 15.
+--- clear ---
+The five East India and seventy two more merchantmen richly laden from Spain, and
+France, and other parts, are retreated unto the Sound.
+[... Lilburne trial; regiments brought to town; libels ...]
+[Tomokiyo's quotation adds at the end: "..... a private instruction from 128 ....." (128 = Denmark in
+the ambassadors' letter to Ruysch of 4 July 1653, vol.1 p.316)]
+
+--- Note in same letter (clear) ---
+"We are served with the same cypher; but hereafter to express particular words, we will rather make use
+of the new one, which your excellency was pleased to send unto us, after the same manner as is set down
+under the same."  => low numbers 10-33 = the old letter cipher; 3-digit groups (113, 222, 329, 527, 117,
+211, 519, 327) = "particular words" from the new code sent by Boreel.

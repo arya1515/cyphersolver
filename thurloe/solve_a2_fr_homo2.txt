@@ -1,0 +1,22 @@
+﻿file=a lang=fr mode=homo letters=128 symbols=25 restarts=8
+score = sum log10 quadgram (+penalty); per-quad avg shown. Real text ~ -3.0..-3.4 per quad, random ~ -6
+
+-4.571 (quad-only -4.481, chi 22)  key: 6=t 10=o 11=m 12=o 13=r 14=c 15=u 16=t 17=n 18=c 19=i 20=e 21=s 22=e 23=l 24=i 25=r 26=u 27=s 28=d 29=a 30=l 31=a 32=d 33=n
+   [113]ourriaaum[222]ansellerlecelurierienourlr[329]dueereursdesseeneu[527]tesoisauetsti
+   [117][211]erieuuunslesicelutener[519]sssaditsaaitimantsasserti
+   [327]elatteinuandelu
+
+-4.584 (quad-only -4.450, chi 33)  key: 6=d 10=l 11=v 12=o 13=i 14=p 15=s 16=e 17=i 18=p 19=n 20=e 21=t 22=a 23=r 24=s 25=c 26=u 27=r 28=u 29=t 30=l 31=a 32=n 33=h
+   [113]luiinttuv[222]aitarraileparsisaisailscri[329]usaecescruerreaies[527]eetonttueeren
+   [117][211]acsaussirlatsparudaiai[519]ttranseratsenvtherarteien
+   [327]ertedesistiners
+
+-4.590 (quad-only -4.493, chi 24)  key: 6=r 10=g 11=r 12=o 13=a 14=c 15=e 16=o 17=n 18=d 19=u 20=i 21=s 22=e 23=l 24=t 25=n 26=u 27=t 28=d 29=s 30=l 31=a 32=i 33=m
+   [113]guaaussur[222]ansellealideleateatengenla[329]deeinientdittienie[527]oisoussuiotou
+   [117][211]enteueentlestcelurenea[519]sstaitotastoursmotatsiaou
+   [327]ilsoritnesniile
+
+-4.598 (quad-only -4.502, chi 24)  key: 6=n 10=p 11=d 12=o 13=a 14=o 15=l 16=u 17=t 18=d 19=n 20=e 21=t 22=e 23=s 24=r 25=u 26=i 27=s 28=l 29=a 30=c 31=i 32=r 33=m
+   [113]piaanaaid[222]ittesseacedeslarearetplusa[329]lleeueluslesseetel[527]uetontaieusun
+   [117][211]eureilltscetroesinetea[519]ttsirrusiarundamusisteaun
+   [327]esaunertlatresl

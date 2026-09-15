@@ -1,0 +1,99 @@
+﻿=== RUNS ===
+  ...over because he was [65 35 21 26 59 98 113 186 108 143] , refused to...
+  ...because he brought no [28 69 49 50 70 44 89] , from 186,...
+  ...70, 44, 89, from [186 99] . ## Letter...
+  ...desire to know what [93 185 95] , hath written...
+  ...95, hath written unto [99 149] , concerning 98,...
+  ...unto 99, 149, concerning [98 10 44 79 47 8 59] , for whom...
+  ...him, rather than better, [95 186 98] hath written unto...
+  ...98 hath written unto [98 218 97] much in praise...
+  ...much in praise of [100 174 103] in general, and...
+  ...his good carriage in [111 95 221] , and upon...
+  ...and upon his motion [93 31 174 99] is to be...
+  ...99 is to be [64 99 11 79 85 35 12 69 28 29 79 44] , in which...
+
+12 runs, 59 figures, 39 distinct; max=221
+
+=== FREQUENCY (count>1) ===
+   {28: 2, 35: 2, 44: 3, 59: 2, 69: 2, 79: 3, 93: 2, 95: 3, 98: 4, 99: 4, 174: 2, 186: 3}
+
+=== DISTRIBUTION BY RANGE ===
+    1- 30:  8 distinct  [8, 10, 11, 12, 21, 26, 28, 29]
+   31- 60:  7 distinct  [31, 35, 44, 47, 49, 50, 59]
+   61- 90:  7 distinct  [64, 65, 69, 70, 79, 85, 89]
+   91-111:  9 distinct  [93, 95, 97, 98, 99, 100, 103, 108, 111]
+  112-300:  8 distinct  [113, 143, 149, 174, 185, 186, 218, 221]
+
+=== 91-111 figures: position (edge/next-to-word-code) ===
+  93: 2/2 occurrences at run edge or beside a >=112 code
+  95: 3/3 occurrences at run edge or beside a >=112 code
+  97: 1/1 occurrences at run edge or beside a >=112 code
+  98: 4/4 occurrences at run edge or beside a >=112 code
+  99: 3/4 occurrences at run edge or beside a >=112 code
+  100: 1/1 occurrences at run edge or beside a >=112 code
+  103: 1/1 occurrences at run edge or beside a >=112 code
+  108: 1/1 occurrences at run edge or beside a >=112 code
+  111: 1/1 occurrences at run edge or beside a >=112 code
+
+=== REPEATED BIGRAMS === []
+  44 79 / 79 44 both occur: "44 79" in Crosby (r o), "79 44" in councellor (o r)
+
+=== REGULAR GRID (consonants 3 each from 7; vowels from 64) ===
+  7=b  8=b  9=b
+  10=c  11=c  12=c
+  13=d  14=d  15=d
+  16=f  17=f  18=f
+  19=g  20=g  21=g
+  22=h  23=h  24=h
+  25=k  26=k  27=k
+  28=l  29=l  30=l
+  31=m  32=m  33=m
+  34=n  35=n  36=n
+  37=p  38=p  39=p
+  40=q  41=q  42=q
+  43=r  44=r  45=r
+  46=s  47=s  48=s
+  49=t  50=t  51=t
+  52=w  53=w  54=w
+  55=x  56=x  57=x
+  58=y  59=y  60=y
+  61=z  62=z  63=z
+  64=a  65=a  66=a
+  67=e  68=e  69=e
+  70=e  71=e  72=e
+  73=i  74=i  75=i
+  76=i  77=i  78=i
+  79=o  80=o  81=o
+  82=o  83=o  84=o
+  85=u  86=u  87=u
+  88=u  89=u  90=u
+
+=== DECODE WITH GRID ===
+  ...over because he was [a n g k y . <with?> <Lord Deputy> . <the King?>] , refused to...
+  ...because he brought no [letteru] , from 186,...
+  ...70, 44, 89, from [<Lord Deputy> .] . ## Letter...
+  ...desire to know what [. <?185> .] , hath written...
+  ...95, hath written unto [. <?149>] , concerning 98,...
+  ...unto 99, 149, concerning [.crosby] , for whom...
+  ...him, rather than better, [. <Lord Deputy> .] hath written unto...
+  ...98 hath written unto [. <?218> .] much in praise...
+  ...much in praise of [. <Ormonde> .] in general, and...
+  ...his good carriage in [. . <Parliament>] , and upon...
+  ...and upon his motion [. m <Ormonde> .] is to be...
+  ...99 is to be [a.councellor] , in which...
+
+=== SCAN OF REGULAR GRIDS (consonants b..z from `start` in blocks of `size`, then vowels a,e,i,o,u in blocks of `vs`) ===
+  start= 7 size=3 vs=6  q= -139.7   angky latteru crisby cioncallir
+  start= 6 size=3 vs=6  q= -146.6   anhky letteru crisby ciondellir
+  start= 8 size=3 vs=6  q= -159.0   angky kastaru brisby cioncaklir
+  start= 8 size=3 vs=5  q= -164.4   angky kasteru brisby ciuncaklir
+  start= 5 size=3 vs=6  q= -174.7   aphlz letwesu csitcz diopdelmis
+  start= 4 size=3 vs=6  q= -177.3   aphlz mewwesu dsotcz doupdemmos
+  start= 3 size=3 vs=6  q= -180.7   apklz mewwesu dsotcz doupfemmos
+  start= 1 size=4 vs=3  q= -196.5   xmhkt kyrrypu dpaqct daimdyklap
+  (42 grids tested)
+
+=== UNCONSTRAINED HILL-CLIMB on the 4 letter-runs (40 restarts) ===
+  best q=-76.4: ['thath', 'erethet', 'hereth', 'erthereare']
+  true-key q=-136.5: ['angky', 'letteru', 'crosby', 'councellor']
+  (28 symbols / 28 letters: the climb just fits common quadgrams; no signal without the block structure)

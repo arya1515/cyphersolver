@@ -1,0 +1,33 @@
+# Ormonde-Maltravers cipher (1634-1635)
+# Source: HMC, Calendar of the manuscripts of the Marquess of Ormonde, K.P., preserved at Kilkenny Castle,
+#         vol. I (London, 1895), pp. 28-29.  Internet Archive: calmarqormonde01greauoft (OCR + page scans
+#         page/n43, page/n44 checked against the print: all figures below are as printed).
+# Format: clear text as printed; cipher figures kept as printed (comma-separated).  Lines beginning '#'
+# are comments; the two letters are separated by a blank line.
+
+## Letter 1.  Henry, Lord Maltravers to [James, Earl of] Ormond.  1634, September 13.  Dorking.
+I can send your lordship little news from hence but only that all your friends are well, and for
+my own part I was no sooner here but I soon wished myself in Ireland again, which makes me long
+for the spring. I am now agoing to Arundel and shall return to London within a few days, when I
+shall write to your lordship at large; and I beseech you to remember your promise that I may often
+hear from you.
+My lord of Kildare is long ago in England though I have not seen him, it is said he came over
+because he was 65, 35, 21, 26, 59, 98, 113, 186, 108, 143, refused to see him because he brought
+no 28, 69, 49, 50, 70, 44, 89, from 186, 99.
+
+## Letter 2.  Henry, Lord Maltravers to Ormond.  1634-5, January 22.  Whitehall.
+I have received several letters from your lordship and are by the hands of your father-in-law,
+and as I told him I will do my best to do your service in that business concerning Sir Thomas
+Butler, I have acquainted my lord likewise with it, who will move the judges in your lordship's
+behalf, whenever it shall be. You desire to know what 93, 185, 95, hath written unto 99, 149,
+concerning 98, 10, 44, 79, 47, 8, 59, for whom 270 thus hereafter of which I can give you no
+account of at all, only by what I hear it is like to go worser with him, rather than better, 95,
+186, 98 hath written unto 98, 218, 97 much in praise of 100, 174, 103 in general, and
+particularly for his good carriage in 111, 95, 221, and upon his motion 93, 31, 174 99 is to be
+64, 99, 11, 79, 85, 35, 12, 69, 28, 29, 79, 44, in which courses 174 shall do well to continue.
+If your lordship know any that can do any good in discovering lands which were my lord's
+ancestors, you shall do me a great deal of favour to set them on work; as for a purchase of land
+I should desire it might be a very cheap one, and as great a scope of land as may be. I hear that
+the plantations of Ormond and Connaught are like to go on, but of the particulars I know nothing,
+I should be most happy to do your lordship service in any thing if I were able and shall desire to
+be esteemed your lordship's faithful servant.

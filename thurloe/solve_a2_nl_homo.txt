@@ -1,0 +1,22 @@
+﻿file=a lang=nl mode=homo letters=128 symbols=25 restarts=8
+score = sum log10 quadgram (+penalty); per-quad avg shown. Real text ~ -3.0..-3.4 per quad, random ~ -6
+
+-3.686 (quad-only -3.491, chi 162)  key: 6=d 10=g 11=o 12=a 13=n 14=r 15=e 16=n 17=n 18=r 19=t 20=e 21=d 22=e 23=e 24=e 25=n 26=n 27=e 28=d 29=e 30=d 31=n 32=d 33=e
+   [113]gnnnteeno[222]nndeeeendereeeneeneengenen[329]deeeneenedeeeeenee[527]nedatdenenent
+   [117][211]eneeneenededereendenen[519]ddendeneneentoeenenedennt
+   [327]eeendeeneendeee
+
+-3.688 (quad-only -3.487, chi 168)  key: 6=d 10=d 11=g 12=n 13=n 14=n 15=e 16=n 17=n 18=t 19=i 20=e 21=e 22=e 23=e 24=e 25=n 26=n 27=d 28=i 29=e 30=i 31=e 32=d 33=e
+   [113]dnnnieeng[222]eneeeeenieteeeneeneendenen[329]ieeeneendieddeenee[527]neenieenendni
+   [117][211]eneeneendieeeneendenen[519]eededendeeenigeendedeenni
+   [327]eeendeeneendeee
+
+-3.710 (quad-only -3.445, chi 221)  key: 6=d 10=d 11=e 12=n 13=e 14=n 15=e 16=n 17=n 18=n 19=d 20=e 21=e 22=e 23=n 24=e 25=n 26=d 27=e 28=n 29=e 30=n 31=n 32=d 33=e
+   [113]ddeedeede[222]nneenneeneneneeeeeeendenne[329]neeeneeneneeeeenee[527]neendeedenend
+   [117][211]eneedeeneneeenenddenee[519]eeendeneneendeeeneneeeend
+   [327]enendeeneendene
+
+-3.716 (quad-only -3.445, chi 226)  key: 6=e 10=d 11=d 12=n 13=e 14=d 15=e 16=e 17=n 18=r 19=n 20=e 21=e 22=e 23=n 24=n 25=e 26=n 27=n 28=d 29=e 30=t 31=e 32=e 33=r
+   [113]dneeneend[222]eneenneetereneeneenendeene[329]deeeeeeendenneenee[527]eeenneeneenen
+   [117][211]eeneneennteendenneenee[519]eeneeneneenendereneneeeen
+   [327]eneeeenneeneene

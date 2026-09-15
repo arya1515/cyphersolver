@@ -13,10 +13,10 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 4 | Colbert passages (Mélanges Colbert) | 1665–74 | Medium | stuck | `colbert/` | Three short passages (Gravel? 1665 · Charost 1673 · Gravel→Maulevrier 1674); no key online, too short for cryptanalysis, all 12 known Colbert-series keys already fail; sibling-letter search needs Gallica paging (Gallica down during session). See colbert/NOTES.md |
 | 5 | Prince Rupert → Maurice | 1645 | Medium | offline-only | `rupert/` | Full ciphertext from Warburton iii.133 (93 groups, max 398); known Rupert keys don't fit; the key would be in BL Add MS 18980-82 / 72438 — digitised but offline since the BL cyber-attack (IIIF 403); DECODE images need login + BL permission |
 | 6 | Royalist intercepts, BL Add MS 72438 ff. 9-10 | 1646 | Medium | offline-only | `rupert/` | Ciphertexts themselves not online (DECODE R8623-4 private; BL images offline); the same volume holds 49 captured Digby keys (ff. 25-99) that would almost certainly read them once images are accessible |
-| 7 | Ormonde → Maltravers | 1634–35 | Medium | todo | | Ormonde calendar; codes ≤270 |
-| 8 | Hyde superscriptions | 1659–60 | Medium | todo | | four short addresses; 729 = "for"? |
-| 9 | Thurloe intercepts (Dutch, French) | 1653–56 | Medium-Hard | todo | | British History Online |
-| 10 | Stepney → Earl of Manchester | 1702 | Medium-Hard | todo | | HMC Manchester papers |
+| 7 | Maltravers → Ormonde | 1634–35 | Medium | partial (alphabet solved) | `ormonde/` | Nulls 91-111; regular block alphabet (consonants x3 from 7, vowels from 64) recovered via consecutive-figure doublets; angry / letters / Crosby / a councellor read; 186=Lord Deputy, 174=Ormonde, 221=Parliament inferred; 9 codes contextual. Write-up: docs/ormonde.html |
+| 8 | Hyde superscriptions | 1659–60 | Easy | found-solved (explained) | `hyde/` | Hyde→Barwick letters in Vita Barwick 1721 with full key (THE=370, 1-692); superscriptions decode to nothing / exceed the key; 1724 editor: dummy numbers "only to puzzle the Enemy". Not a cipher. docs/hyde.html |
+| 9 | Thurloe intercepts (Dutch, French, English) | 1653–56 | Medium-Hard | stuck | `thurloe/` | 4 pieces (136 / 22 / 16 / 50 groups); all cryptiana 1653-60 keys fail; Dutch/French hill-climb on 1653 letter gives fragments only; Rawlinson A originals not online |
+| 10 | Stepney → Earl of Manchester | 1702 | Medium-Hard | offline-only | `stepney/` | MS located & transcribed (Yale OSB MSS fc37 box 8 f.40, IIIF; 24 groups, 413 not 412); THE=454 Manchester key rejected; key = "Mr. Stepney's cipher" (asked for Aug 1701) in TNA SP 105/106 or BL Add MSS 7058-78 |
 | 11 | Sun Yat-sen / Huang Xing telegrams | 1916 | Hard | todo | | JACAR; Chinese telegraph code + condenser |
 | 12 | Henry III → Segur | 1583–86 | Hard | todo | | BnF 500 Colbert 401; partial key |
 | 13 | 1520s superscript-digit ciphers | 1526–29 | Hard | todo | | Latin syllabic; Worcester, Gilino, Garbino |

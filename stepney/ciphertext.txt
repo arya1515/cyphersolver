@@ -1,0 +1,50 @@
+# George Stepney (envoy at Vienna) to Charles Montagu, 4th Earl of Manchester
+# (Secretary of State, Southern Dept, Jan-May 1702). Vienna, 23 March 1702 [N.S.].
+# Source: Yale Beinecke, Osborn MSS fc37 (Manchester papers), Box 8 folder 40;
+# Yale OID 16601200, IIIF canvases 16601263-16601270 (img/stepney_01..08.jpg).
+# = DECODE/DECRYPT record R2864. Calendared HMC 8th Report App. II (1881) p.86 (xl).
+# Transcribed from the images by this project. Cipher groups are written with a
+# full stop after each group in the MS (e.g. "836. 468. 445.").
+# NB: Tomokiyo (cryptiana glorious.htm) prints the last group as 412; the MS
+# clearly reads 413 (see img/crop_01_12_47_68_72.jpg).
+
+[page 1]                                            Vienna. 23d. March 1702
+My Lord,
+
+I am hon'd with yr letter of ye 10th past. This will come to ye
+Hague by a Courier of Count Wratislaw's; who will carry the Emp'rs
+Ratification of our article agst ye P.P. of W. [= pretended Prince of Wales]
+
+    836. 468. 445. 242. 233. 55. 44. 370. 30. 325. 576. 246. 388. 380.
+
+but it is no fault of mine who both by word of Mouth & by
+Memorial have remonstrated of what Consequence it would be to have
+
+    418. 847. 398. 370. 360. 731. 102. 271. 632. 413.
+
+[page 2]
+Our project may lye by, for yr Lp will have heard our expedition
+of Naples is layd aside for a fitter season; It will be well if
+Pr. Eugene can secure himself upon a good defensive, considering
+how much the French are likely to be superiour in Numbers: Wee have
+been late with our Recruits, & our Reinforcement cannot be in Italy
+in less than two months.
+    The E. of Bavaria continues surly.   I am with respect
+                                        My Lord,
+                                Yr Lordship's most humble & most obedt servant
+                                                        G Stepney.
+[foot of p.1, address:] To the E. of Manchester.
+[endorsement, p.8:] Vienna March [Aprill struck out] 23 1702  Mr Stepny
+
+# Editorial apparatus: NONE. No interlinear or marginal decipherment on the MS,
+# none on the endorsement leaf; HMC 8th Rep. says only "(Partly in cipher.)"
+# (contrast its other entries "Partly in cipher, deciphered").
+#
+# Same folder (img/stepney_03..07): separate unsigned Vienna news-letter dated
+# 22 March 1702 (King of Poland's treaty with the Emperor for 8000 men; Warsaw
+# reports; Cardinal Lamberg at Ratisbon; Gen. Thüngen; Venetian complaint against
+# Prince Eugene over Ponte Vico on the Oglio; King of Prussia). All en clair.
+
+# ---- cipher groups only, in order (24 groups) ----
+836 468 445 242 233 55 44 370 30 325 576 246 388 380
+418 847 398 370 360 731 102 271 632 413

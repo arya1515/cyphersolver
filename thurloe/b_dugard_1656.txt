@@ -1,0 +1,23 @@
+(b) An intercepted letter of du Gard in a letter to White
+Brussels, 10 June 1656 [N.S.]
+Source: Thurloe State Papers vol.5 pp.78-79 (Birch 1742; MS "Vol. xxxviii. p. 769")
+BHO: https://www.british-history.ac.uk/thurloe-papers/vol5/pp72-83
+
+--- clear text (translated from French by Birch) ---
+Sir,
+I Have received your letter of the 14th April, which the footman of monsieur de Barriere brought me,
+and two others of your friends; which are the only ones, which I have received of a long time. I am
+glad to hear of your health, and all other particulars, which you give me. I believe, that some curious
+person hath intercepted the letters; but although they are not come to hand, I give you many thanks for
+the trouble you take to write to me, as if I had received them.
+[Page 079]
+The enclosed paper is a new direction to write to me by the way
+--- CIPHER ---
+18, 15, 4, 20, 87, q, t, 20, y, 1.
+
+12, m, 17, 24, 15, 8, 15, 17, f, 20, 18, 15, 9, 7, 6, 13, 20.
+--- end ---
+
+Context: "monsieur de Barriere" = the Prince of Conde's agent in London. "White" is probably one of
+the White brothers (Richard/Ignatius/Andrew) - see cryptiana thurloe.htm, Richard White section.
+The enciphered text is a cover address ("a new direction to write to me by the way [of] ...").

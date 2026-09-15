@@ -1,0 +1,22 @@
+﻿file=a lang=fr mode=bij letters=128 symbols=25 restarts=8
+score = sum log10 quadgram (+penalty); per-quad avg shown. Real text ~ -3.0..-3.4 per quad, random ~ -6
+
+-5.892 (quad-only -5.892, chi 37)  key: 6=r 10=v 11=k 12=y 13=s 14=g 15=o 16=c 17=n 18=x 19=h 20=e 21=m 22=i 23=l 24=a 25=f 26=p 27=t 28=j 29=u 30=d 31=q 32=b 33=z
+   [113]vpsshuupk[222]qnmillisdexilosaisainvofls[329]joiefeoftjetteineo[527]cemyhmupectch
+   [117][211]ifaipoontdimagilprinis[519]mmtqbactquachkuzctqtmesch
+   [327]elucreanounbelo
+
+-5.921 (quad-only -5.921, chi 28)  key: 6=h 10=y 11=z 12=q 13=l 14=x 15=t 16=s 17=r 18=f 19=b 20=e 21=d 22=i 23=n 24=u 25=j 26=c 27=a 28=p 29=o 30=m 31=v 32=g 33=k
+   [113]ycllboocz[222]vrdinnilmefintluiluirytjnl[329]ptiejetjapeaaeiret[527]sedqbdocesasb
+   [117][211]ijuicttramiduxinchiril[519]ddavgusavousbzoksavadelsb
+   [327]enosheurtorgent
+
+-5.935 (quad-only -5.935, chi 40)  key: 6=m 10=x 11=k 12=j 13=c 14=q 15=s 16=o 17=u 18=z 19=y 20=e 21=t 22=a 23=n 24=l 25=b 26=i 27=r 28=v 29=p 30=h 31=d 32=g 33=f
+   [113]xiccyppik[222]dutannachezansclaclauxsbnc[329]vsaebesbrverreaues[527]oetjytpieoroy
+   [117][211]ablaissurhatlqanimauac[519]ttrdglordploykpfordrtecoy
+   [327]enpomeluspugens
+
+-6.003 (quad-only -6.003, chi 37)  key: 6=g 10=k 11=b 12=q 13=n 14=h 15=t 16=d 17=r 18=v 19=u 20=i 21=s 22=o 23=l 24=c 25=f 26=m 27=e 28=y 29=a 30=p 31=j 32=x 33=z
+   [113]kmnnuaamb[222]jrsollonpivoltnconcorktfln[329]ytoifitfeyieeiorit[527]disqusamidedu
+   [117][211]ofcomttreposcholmgoron[519]ssejxcdejacdubazdejesindu
+   [327]iladgicrtarxilt

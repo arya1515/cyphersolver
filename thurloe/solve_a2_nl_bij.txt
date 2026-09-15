@@ -1,0 +1,22 @@
+﻿file=a lang=nl mode=bij letters=128 symbols=25 restarts=8
+score = sum log10 quadgram (+penalty); per-quad avg shown. Real text ~ -3.0..-3.4 per quad, random ~ -6
+
+-5.790 (quad-only -5.790, chi 32)  key: 6=b 10=y 11=z 12=c 13=n 14=x 15=r 16=t 17=k 18=v 19=h 20=e 21=g 22=i 23=l 24=s 25=j 26=m 27=o 28=u 29=a 30=d 31=p 32=w 33=f
+   [113]ymnnhaamz[222]pkgillindevilrnsinsikyrjln[329]uriejerjoueooeiker[527]tegchgametoth
+   [117][211]ijsimrrkodigsxilmbikin[519]ggopwstopasthzaftopogenth
+   [327]elatbeskrakwelr
+
+-5.812 (quad-only -5.812, chi 32)  key: 6=p 10=z 11=x 12=c 13=n 14=b 15=o 16=m 17=r 18=v 19=h 20=t 21=w 22=e 23=l 24=d 25=u 26=s 27=i 28=k 29=a 30=g 31=j 32=f 33=y
+   [113]zsnnhaasx[222]jrwellengtvelondenderzouln[329]koetutouiktiiterto[527]mtwchwastmimh
+   [117][211]eudesoorigewdbelsperen[519]wwijfdmijadmhxaymijiwtnmh
+   [327]tlamptdroarftlo
+
+-5.845 (quad-only -5.845, chi 42)  key: 6=y 10=x 11=b 12=u 13=n 14=k 15=l 16=i 17=p 18=c 19=g 20=e 21=r 22=o 23=s 24=d 25=f 26=m 27=t 28=v 29=a 30=w 31=h 32=j 33=z
+   [113]xmnngaamb[222]hprossonwecoslndondopxlfsn[329]vloefelftvetteopel[527]ierugrameitig
+   [117][211]ofdomllptwordkosmyopon[519]rrthjdithadigbazithtrenig
+   [327]esaiyedplapjesl
+
+-5.854 (quad-only -5.854, chi 42)  key: 6=v 10=g 11=k 12=x 13=m 14=y 15=r 16=i 17=n 18=z 19=j 20=e 21=d 22=a 23=l 24=w 25=f 26=s 27=t 28=b 29=u 30=h 31=o 32=p 33=c
+   [113]gsmmjuusk[222]ondallamhezalrmwamwangrflm[329]braeferftbetteaner[527]iedxjduseitij
+   [117][211]afwasrrnthadwyalsvanam[519]ddtopwitouwijkucitotdemij
+   [327]eluivewnrunpelr

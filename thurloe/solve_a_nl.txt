@@ -1,0 +1,26 @@
+﻿lang=nl letters=128 symbols=25  (score = sum log10 quadgram; per-quad avg shown)
+
+-3.363  key: 6=e 10=d 11=n 12=d 13=e 14=e 15=e 16=n 17=n 18=n 19=e 20=e 21=n 22=e 23=n 24=n 25=n 26=n 27=e 28=n 29=e 30=n 31=e 32=e 33=e
+   [113]dneeeeenn[222]ennenneeneneneeneenendenne[329]neeeneeneneeeeenee[527]nendenenenene
+   [117][211]enneneenenenneenneenee[519]nneeenneeenneneeneeeneene
+   [327]eneneenneeneene
+
+-3.363  key: 6=e 10=d 11=n 12=d 13=e 14=e 15=e 16=n 17=n 18=n 19=e 20=e 21=n 22=e 23=n 24=n 25=n 26=n 27=e 28=n 29=e 30=n 31=e 32=e 33=e
+   [113]dneeeeenn[222]ennenneeneneneeneenendenne[329]neeeneeneneeeeenee[527]nendenenenene
+   [117][211]enneneenenenneenneenee[519]nneeenneeenneneeneeeneene
+   [327]eneneenneeneene
+
+-3.363  key: 6=e 10=d 11=n 12=d 13=e 14=e 15=e 16=n 17=n 18=n 19=e 20=e 21=n 22=e 23=n 24=n 25=n 26=n 27=e 28=n 29=e 30=n 31=e 32=e 33=e
+   [113]dneeeeenn[222]ennenneeneneneeneenendenne[329]neeeneeneneeeeenee[527]nendenenenene
+   [117][211]enneneenenenneenneenee[519]nneeenneeenneneeneeeneene
+   [327]eneneenneeneene
+
+-3.363  key: 6=e 10=d 11=n 12=d 13=e 14=e 15=e 16=n 17=n 18=n 19=e 20=e 21=n 22=e 23=n 24=n 25=n 26=n 27=e 28=n 29=e 30=n 31=e 32=e 33=e
+   [113]dneeeeenn[222]ennenneeneneneeneenendenne[329]neeeneeneneeeeenee[527]nendenenenene
+   [117][211]enneneenenenneenneenee[519]nneeenneeenneneeneeeneene
+   [327]eneneenneeneene
+
+-3.381  key: 6=e 10=d 11=e 12=n 13=e 14=d 15=e 16=n 17=n 18=n 19=d 20=e 21=e 22=e 23=n 24=n 25=n 26=n 27=e 28=n 29=e 30=n 31=n 32=e 33=e
+   [113]dneedeene[222]nneenneeneneneeneenendenne[329]neeeneeneneeeeenee[527]neendeenenend
+   [117][211]enneneeneneendenneenee[519]eeenennenenndeeeneneeeend
+   [327]eneneenneeneene
