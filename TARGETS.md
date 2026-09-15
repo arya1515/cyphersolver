@@ -1,6 +1,7 @@
 # Target tracker — unsolved ciphers from cryptiana's list
 
-Source list: https://cryptiana.web.fc2.com/code/unsolved.htm (S. Tomokiyo). Ranked 2026-09-14 by feasibility for
+Source list: https://cryptiana.web.fc2.com/code/unsolved.htm (S. Tomokiyo), re-checked 2026-09-15 against the
+source as last modified 6 September 2026. Ranked 2026-09-14 by feasibility for
 model-driven work (multilingual reading, historical cribs, cross-referencing digitised editions, fast solver
 building), not by the repo's existing tooling. Status: `todo` · `active` · `solved` · `found-solved` (already in
 print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or copies; nothing more can be done online) · `infeasible`.
@@ -27,6 +28,58 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 18 | Vatican Challenge Part 5 | 1542 | Hard | stuck (diagnosed) | `vatican5/` | Meister keys 1-3 rejected by likelihood; trigram partition search recovers synthetic keys but not this one under Italian or Spanish → not a plain polyphonic letter cipher; multi-digit syllable codes (key-2 design, other numbering) must dominate |
 | 19 | Enigma message | 1945 | Very hard | todo | | single message; compute-bound |
 | 20 | Lüderitz FO telegram | 1911 | Infeasible | infeasible | | five-figure codebook |
+
+
+## Where we are ahead of the source (2026-09-15)
+
+The source page (last modified 6 Sept 2026) still lists these as unsolved. Results here are not yet reported to
+Tomokiyo, who solicits contributions on the page.
+
+| Source entry | Our status | Evidence |
+|---|---|---|
+| Richelieu (1629) | solved | `richelieu/`, docs/richelieu.html — agrees word for word with Avenel 1858 |
+| Postscript in Code from Armstrong to Madison (1808) | solved, 49/49 groups | `armstrong/`, docs/armstrong.html |
+| Ormonde-Maltravers Cipher (1634-1635) | alphabet recovered, partial read | `ormonde/`, docs/ormonde.html |
+| Undeciphered Superscription by Hyde (1659-1660) | not a cipher — dummy numbers (1724 editor) | `hyde/`, docs/hyde.html |
+| Telegram to Sun Yat-sen (1916) | solved | `sunyatsen/`, docs/sunyatsen.html |
+| A Dictionary Code Used by Confederate Navy (1863) | found already solved by others, Aug 2026 (Webster's 1850) | `barney/` |
+
+The source has caught up on one item since our ranking: **Union Ciphers during the Civil War (1862)** is now marked
+Solved (Richard Bean with Claude Opus 5, 2026), matching our `milroy/` finding.
+
+## Source entries not yet ranked here
+
+The source carries roughly 60 unsolved entries; the 20 ranked above are a subset chosen for feasibility. The
+remainder, for completeness, grouped by how promising they look with this repo's methods:
+
+**Worth attacking next (tooling already exists or sources are printed/online)**
+| Source entry | Date | Why |
+|---|---|---|
+| Telegram from Huang Xing to Lin Hu and Li Genyuan | 1916 | source says "Solved but Specific Scheme Unknown" — our `sunyatsen/family.py` condenser brute force targets exactly this; JACAR B03050731500 |
+| Telegrams Found in a Sunken Ship Zhongshan | ca.1938 | Chinese telegraph code + condenser; same toolkit as Sun Yat-sen |
+| William Perwich | 1670 | likely transposition; despatches printed by Camden Society 1903 (online) |
+| Charles I in the Isle of Wight | 1648 | two of four solved by Biermann & Brown 2021; remaining two likely same family |
+| Encoded Letter from Berthier to Napoleon | 1812 | Napoleonic petit chiffre; Napoleon correspondence fully printed |
+| Encoded Letter to Marshal Marmont | 1807 | same family as above |
+| Japanese Coded Telegram Decoded by Yardley | c.1920 | Yardley printed the plaintext; scheme recoverable |
+
+**Ranked lower (short, key-dependent, or archive-bound)**
+English: Throckmorton (1559) / Wool (1568) · Moray-Wood (1568) · SP53/16 no.78 · SP53/16 no.79 · SP53/22 f.52 ·
+Walsingham-related ciphers.
+Spanish: postscript to Ferdinand's letter (1498) · Charles V letter (1521?) · Simancas EST,LEG,1381,180 · 1381,143.
+French to 1610: Catherine de Medicis to du Croc (1567) · Birago to Nevers (1571) · Blancmesnil to Nevers ·
+Marie de Medici (1610).
+French/Italian/Spanish: Venetian letter in Spanish archives (ca.1589) · Cocquet (1616) · Fra Guglielmo Vizani (1637).
+German: King of Hungary and Bohemia (1634) · "More ciphers of Ferdinand III?" · variable-length figure code,
+Austrian archives (1627, 1644) · Starhemberg (1758).
+French 17th: Prince of Conde (1654).
+English Civil War: Ormond-Arran (1678) · Charles I-Boswell (1643) · Richard Forster (1644) · Charles I and
+Henrietta-Maria private cipher (1645) · letter to Prince Rupert (1648) · intercepted letter of Hyde (1659) ·
+"An Intercepted Letter".
+French 1690-1710: ambassador in Rome (1690) · Catinat (1691) · Geertruidenberg (1710) · Villars and Polignac (1710) ·
+Catinat (1702).
+American: Armstrong to Madison, 20 Feb 1808 (the outlier code — different from the postscript we solved; a 2025 AFIO
+contest solution is disputed by Tomokiyo).
 
 ## Done elsewhere in this repo
 | Target | Status | Dir |
