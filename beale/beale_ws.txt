@@ -1,0 +1,21 @@
+{{header
+ | title    = The Beale Papers
+ | author   = | override_author = {{anon}}
+ | year     = 1885
+ | section  =
+ | previous =
+ | next     =
+ | notes    = The following is a reprint of "The Beale Papers", written anonymously and published in 1885 by J. B. Ward. They supposedly lead to a fortune buried in the Virginia hills that has never been recovered.
+}}
+
+<pages index="Beale Papers.djvu" include=1 />
+{{padded page break}}
+<pages index="Beale Papers.djvu" include=2 />
+{{padded page break}}
+<pages index="Beale Papers.djvu" from=3 to=23 />
+
+
+{{PD-US}}
+{{DEFAULTSORT:Beale Papers, The}}
+
+[[Category:Ready for export]]

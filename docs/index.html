@@ -3,296 +3,112 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Richelieu's Cipher to M. de Rancé (July 1629) — Reconstruction and Verification</title>
-<meta name="description" content="Ciphertext-only reconstruction of the homophonic cipher used by Cardinal Richelieu in two letters to Denis Bouthillier de Rancé (BnF Français 3829, ff. 87 & 89), and its verification against Avenel's 1858 edition.">
-<style>
-  :root { --ink:#1c1b18; --paper:#faf7f0; --accent:#7a1f1f; --muted:#6b665c; --rule:#d9d2c3; --code:#efe9db; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.55 Georgia, "Times New Roman", serif; }
-  header { border-bottom:3px double var(--accent); padding:2.5rem 1rem 1.5rem; text-align:center; }
-  header h1 { font-size:2rem; margin:0 0 .3rem; letter-spacing:.01em; }
-  header p.sub { color:var(--muted); margin:.2rem 0; font-style:italic; }
-  main { max-width: 900px; margin:0 auto; padding:1rem 1.2rem 4rem; }
-  h2 { font-size:1.45rem; border-bottom:1px solid var(--rule); padding-bottom:.25rem; margin-top:2.6rem; color:var(--accent); }
-  h3 { font-size:1.15rem; margin-top:1.8rem; }
-  .callout { background:#fff8e6; border-left:4px solid var(--accent); padding:.8rem 1rem; margin:1.2rem 0; }
-  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.95rem; }
-  th, td { border:1px solid var(--rule); padding:.35rem .55rem; text-align:left; vertical-align:top; }
-  th { background:var(--code); }
-  td.n, th.n { text-align:center; font-family: ui-monospace, Consolas, monospace; }
-  code, .mono { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size:.9em; background:var(--code); padding:0 .25em; border-radius:3px; }
-  pre { background:var(--code); padding:.9rem 1rem; overflow-x:auto; font-size:.85rem; line-height:1.45; border-radius:4px; }
-  blockquote { margin:1rem 0; padding:.6rem 1.1rem; border-left:3px solid var(--rule); background:#fffdf7; }
-  blockquote .c { color:var(--accent); font-weight:600; }      /* deciphered text */
-  blockquote .k { color:#1d4e89; font-weight:600; }            /* nomenclature */
-  .cols { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
-  @media (max-width:760px){ .cols { grid-template-columns:1fr; } }
-  .legend span { display:inline-block; margin-right:1.2rem; }
-  small, .muted { color:var(--muted); }
-  footer { border-top:1px solid var(--rule); margin-top:3rem; padding:1.5rem 1rem; text-align:center; color:var(--muted); font-size:.9rem; }
-  #decoder textarea { width:100%; min-height:5rem; font-family:ui-monospace, Consolas, monospace; font-size:.95rem; padding:.5rem; }
-  #decoder output { display:block; white-space:pre-wrap; background:var(--code); padding:.7rem; margin-top:.5rem; min-height:2.5rem; font-family:ui-monospace, Consolas, monospace; }
-  button { font:inherit; padding:.4rem .9rem; background:var(--accent); color:#fff; border:0; border-radius:4px; cursor:pointer; margin-top:.5rem; }
-  ol li, ul li { margin:.3rem 0; }
-</style>
+<title>Unsolved Historical Ciphers — Working Notes and Solutions</title>
+<meta name="description" content="Progress on the ciphers listed as unsolved in S. Tomokiyo's catalogue: full write-ups of solved items (Richelieu 1629, Armstrong 1808) and the status of the rest.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>Richelieu's Cipher to Monsieur de Rancé, July 1629</h1>
-  <p class="sub">Bibliothèque nationale de France, Français 3829, ff. 87 and 89</p>
-  <p class="sub">A ciphertext-only reconstruction — and its confirmation against a decipherment printed in 1858</p>
-  <p class="sub">Daniel Bourdeau · September 2026</p>
-</header>
+<nav class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
+  <div class="links">
+    <a href="index.html">Overview</a>
+    <a href="armstrong.html">Armstrong 1808</a>
+    <a href="richelieu.html">Richelieu 1629</a>
+    <a href="#list">Target list</a>
+    <a href="https://github.com/dbourdeau/cyphersolver">Repository ↗</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="cipherstrip">1394 · 1116 · 1273 · 250 · 1165 · 1405<br>11 16 19 ~25 29 10<br>972 · 148 · 1459 · 1482</div>
+  <p class="kicker">Working notes · September 2026</p>
+  <h1>Unsolved Historical Ciphers</h1>
+  <p class="sub">Progress on the items in S. Tomokiyo's <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a> list —
+  reading the archives, reconstructing the keys, and correcting the catalogues where a solution already existed in print.</p>
+  <p class="meta">Daniel Bourdeau · updated 14 September 2026</p>
+</section>
 
 <main>
 
-<div class="callout">
-<strong>Summary.</strong> Two partly enciphered letters from Cardinal Richelieu to Denis Bouthillier de Rancé, written in
-July 1629, are listed as undeciphered in the current reference catalogues of historical ciphers (S. Tomokiyo's
-<em>Unsolved Historical Ciphers</em>; the DECRYPT project's DECODE database, records R9461–R9462).
-Working only from a published transcription, the substitution alphabet, its vowel homophones, a doubling
-mark and two word-codes were recovered by statistical cryptanalysis plus cribs. A literature search made afterwards
-showed that D.-L.-M. Avenel had already printed both letters <em>with</em> their decipherment in 1858, having
-reconstructed the key from other archival documents. The independent reconstruction agrees with Avenel's reading
-in every word. The cipher is therefore <strong>solved, but not newly solved</strong>; this page documents the
-key, the method, and the correction to the catalogues.
+<div class="stats">
+  <div class="stat"><b>20</b><span>targets tracked</span></div>
+  <div class="stat"><b>1</b><span>newly solved</span></div>
+  <div class="stat"><b>2</b><span>found already solved</span></div>
+  <div class="stat"><b>580</b><span>code groups recovered (THE = 972)</span></div>
+</div>
+<div class="bar" title="solved · found solved · partial · stuck · todo/infeasible">
+  <span class="s" style="width:5%"></span><span class="f" style="width:5%"></span><span class="p" style="width:5%"></span><span class="x" style="width:5%"></span><span class="t" style="width:80%"></span>
+</div>
+<p class="muted" style="font-size:.85rem;margin-top:0">
+  <span class="st solved">solved</span> new decipherment &nbsp;
+  <span class="st found">found solved</span> already in print; catalogue wrong &nbsp;
+  <span class="st partial">partial</span> &nbsp; <span class="st stuck">stuck</span> &nbsp; <span class="st todo">todo</span> &nbsp; <span class="st infeasible">infeasible</span>
+</p>
+
+<h2><span class="num">01</span> Write-ups</h2>
+<div class="cards">
+  <a class="card" href="armstrong.html">
+    <div class="eyebrow"><span>United States · 1808</span><span class="st solved">solved</span></div>
+    <h3>Armstrong to Madison — the coded postscript</h3>
+    <p>Forty-nine groups of the 1,600-element "THE = 972" diplomatic code, read in full after reconstructing 580 groups from the State
+    Department's own pencil decodes on NARA microfilm M34 roll 13.</p>
+    <p class="quote">"Russel ought to be the consul: he is an American by birth … Next to him in fitness is O'Mealy, but he is, like Warden, an Irishman."</p>
+    <span class="go">read →</span>
+  </a>
+  <a class="card" href="richelieu.html">
+    <div class="eyebrow"><span>France · 1629</span><span class="st found">found solved · 1858</span></div>
+    <h3>Richelieu to M. de Rancé — BnF Français 3829</h3>
+    <p>Ciphertext-only recovery of a homophonic alphabet with a doubling mark and nomenclature; then found to agree word for word with the
+    decipherment Avenel printed in 1858, which the catalogues had missed.</p>
+    <p class="quote">"Castor voudroit bien que la [duchesse de Chevreuse] peust estre attrapée près de la frontière…"</p>
+    <span class="go">read →</span>
+  </a>
 </div>
 
-<h2>1. The documents</h2>
-<p>BnF Français 3829 (formerly Béthune 9323) is a volume of original letters from 1629–1630, mostly from Louis XIII,
-Richelieu and Gaston d'Orléans to the Queen Mother, Marie de Médicis. Items 37 and 38 are letters from Richelieu
-"à monsieur de Rancé" — Denis Bouthillier, sieur de Rancé, councillor of state and secretary to the Queen Mother,
-and Richelieu's trusted man in her household. Item 37 is dated Saint-Privat, 7 July 1629; item 38 is undated
-(Avenel places it in mid-July). Both were written days after the Peace of Alès ended the Huguenot war, while the
-King and the Cardinal were touring the submitting towns of Languedoc.</p>
-<p>Sensitive words and names are replaced by two-digit numbers, some carrying a diacritic; the rest is in clear.
-The transcription used here is the one published by S. Tomokiyo
-(<a href="https://cryptiana.web.fc2.com/code/richelieu1629.txt">richelieu1629.txt</a>); the manuscript images are not
-freely available online.</p>
-
-<h2>2. The cipher system</h2>
-<p>A homophonic substitution with a small nomenclature, typical of French chancery practice under Louis XIII.</p>
-
-<h3>2.1 Letters (10–28): the 19-letter alphabet in scrambled order</h3>
+<h2 id="list"><span class="num">02</span> Status of the list</h2>
+<p>Ordered by estimated feasibility for work driven by close reading of digitised editions, historical cribs and small purpose-built
+solvers — not by the strength of the cipher itself. Target names link to the original documents or catalogue entries where they are online.</p>
 <table>
-<tr><th class="n">10</th><th class="n">11</th><th class="n">12</th><th class="n">13</th><th class="n">14</th><th class="n">15</th><th class="n">16</th><th class="n">17</th><th class="n">18</th><th class="n">19</th><th class="n">20</th><th class="n">21</th><th class="n">22</th><th class="n">23</th><th class="n">24</th><th class="n">25</th><th class="n">26</th><th class="n">27</th><th class="n">28</th></tr>
-<tr><td class="n">c</td><td class="n">b</td><td class="n">g</td><td class="n">p</td><td class="n">l</td><td class="n">o</td><td class="n">r</td><td class="n">f</td><td class="n">t</td><td class="n">a</td><td class="n">d</td><td class="n">i/j</td><td class="n">n</td><td class="n">h</td><td class="n">m</td><td class="n">s</td><td class="n">u/v</td><td class="n">e</td><td class="n">q</td></tr>
+<tr><th class="n">#</th><th>Target</th><th>Date</th><th>Status</th><th>Notes</th></tr>
+<tr><td class="n">1</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Milroy cipher telegrams (Cox, Bascom)</a></td><td>1861–62</td><td><span class="st found">found solved</span></td><td>Solved by Richard Bean, 2026: Stager route cipher no. 7, six columns, "China" = 8 lines, "Turkey" = 12; the catalogue now marks it solved.</td></tr>
+<tr><td class="n">2</td><td><a href="armstrong.html">Armstrong → Madison, coded postscript</a></td><td>1808</td><td><span class="st solved">solved</span></td><td>49/49 groups; code table of 580 groups reconstructed. Bonus: the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2733">letter of 22 Feb 1808</a> largely read. The distinct code of the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2728">20 Feb 1808 letter</a> remains open.</td></tr>
+<tr><td class="n">3</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Charles II → Duke of Hamilton</a></td><td>1650</td><td><span class="st partial">partial</span></td><td>Four letters transcribed; key from the Lanark letters in the <a href="https://archive.org/details/hamiltonpapersbe00hamirich">Camden Society volume (1880)</a>; nomenclator table in progress (OCR mangles the figures).</td></tr>
+<tr><td class="n">4</td><td><a href="https://gallica.bnf.fr/">Colbert passages (Mélanges Colbert)</a></td><td>1665–74</td><td><span class="st todo">todo</span></td><td>Gallica; surviving keys in the same series.</td></tr>
+<tr><td class="n">5</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Prince Rupert → Maurice</a></td><td>1645</td><td><span class="st todo">todo</span></td><td>Printed in Warburton; codes ≤ 398.</td></tr>
+<tr><td class="n">6</td><td><a href="https://de-crypt.org/decrypt-web/RecordsView/8623">Royalist intercepts, BL Add MS 72438</a></td><td>1646</td><td><span class="st todo">todo</span></td><td>DECODE R8623–R8624; cf. Biermann &amp; Brown 2021 keys.</td></tr>
+<tr><td class="n">7</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Ormonde → Maltravers</a></td><td>1634–35</td><td><span class="st todo">todo</span></td><td>Ormonde calendar; codes ≤ 270.</td></tr>
+<tr><td class="n">8</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Hyde superscriptions</a></td><td>1659–60</td><td><span class="st todo">todo</span></td><td>Four short addresses.</td></tr>
+<tr><td class="n">9</td><td><a href="https://www.british-history.ac.uk/">Thurloe intercepts (Dutch, French)</a></td><td>1653–56</td><td><span class="st todo">todo</span></td><td>British History Online, <em>Thurloe State Papers</em>.</td></tr>
+<tr><td class="n">10</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Stepney → Earl of Manchester</a></td><td>1702</td><td><span class="st todo">todo</span></td><td>HMC Manchester papers.</td></tr>
+<tr><td class="n">11</td><td><a href="https://www.jacar.go.jp/">Sun Yat-sen / Huang Xing telegrams</a></td><td>1916</td><td><span class="st todo">todo</span></td><td>JACAR; Chinese telegraph code with a condenser.</td></tr>
+<tr><td class="n">12</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Henry III → Ségur</a></td><td>1583–86</td><td><span class="st todo">todo</span></td><td>BnF 500 Colbert 401; partial key.</td></tr>
+<tr><td class="n">13</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">1520s superscript-digit ciphers</a></td><td>1526–29</td><td><span class="st todo">todo</span></td><td>Latin syllabic; Worcester, Gilino, Garbino.</td></tr>
+<tr><td class="n">14</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">D'Estaing → Gérard</a></td><td>1779</td><td><span class="st todo">todo</span></td><td>Clements Library, Clinton Papers.</td></tr>
+<tr><td class="n">15</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Le Tellier → Castelnau</a></td><td>1657</td><td><span class="st todo">todo</span></td><td>Syllabic, short.</td></tr>
+<tr><td class="n">16</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Ferdinand III ↔ Cardinal-Infante</a></td><td>1634–40</td><td><span class="st todo">todo</span></td><td>Brussels; Latin/German.</td></tr>
+<tr><td class="n">17</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Switzerland telegram</a></td><td>1937</td><td><span class="st todo">todo</span></td><td>Two short messages.</td></tr>
+<tr><td class="n">18</td><td><a href="https://mysterytwister.org/">Vatican Challenge, Part 5 (Farnese → Poggio)</a></td><td>1542</td><td><span class="st stuck">stuck</span></td><td>Variable-length polyphonic digit cipher with dotted digits (cf. <a href="https://www.tandfonline.com/doi/full/10.1080/01611194.2020.1755915">Lasry, Megyesi &amp; Kopal 2021</a>, §5.5). Constrained simulated-annealing solvers built and tested on synthetic keys; paused after a serious attempt.</td></tr>
+<tr><td class="n">19</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Enigma message</a></td><td>1945</td><td><span class="st todo">todo</span></td><td>Single message; compute-bound.</td></tr>
+<tr><td class="n">20</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Lüderitz FO telegram</a></td><td>1911</td><td><span class="st infeasible">infeasible</span></td><td>Five-figure codebook, no key material.</td></tr>
 </table>
-<p class="muted">No symbol for x, y or z was observed; <em>i/j</em> and <em>u/v</em> are not distinguished, as usual in 1629.</p>
 
-<h3>2.2 Vowel homophones (29–38): <em>a e i o u</em> twice over</h3>
+<h2><span class="num">03</span> Related items examined</h2>
 <table>
-<tr><th class="n">29</th><th class="n">30</th><th class="n">31</th><th class="n">32</th><th class="n">33</th><th class="n">34</th><th class="n">35</th><th class="n">36</th><th class="n">37</th><th class="n">38</th><th class="n">39</th></tr>
-<tr><td class="n">a</td><td class="n">e</td><td class="n">i</td><td class="n">o</td><td class="n">u</td><td class="n">a</td><td class="n">e</td><td class="n">i</td><td class="n">o</td><td class="n">u</td><td class="n">a</td></tr>
+<tr><th>Target</th><th>Status</th><th>Notes</th></tr>
+<tr><td><a href="richelieu.html">Richelieu → Rancé, 1629</a></td><td><span class="st found">found solved</span></td><td>Independently reconstructed, then matched to <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Avenel (1858)</a>.</td></tr>
+<tr><td>Barney → Mallory, 1863 (Confederate dictionary code)</td><td><span class="st found">found solved</span></td><td>Solved elsewhere in 2026.</td></tr>
+<tr><td>Feynman ciphers 2 and 3</td><td><span class="st found">found solved</span></td><td>Vierra (2023); verified and independently decrypted.</td></tr>
+<tr><td>Beale Paper no. 1</td><td><span class="st stuck">fabrication</span></td><td>Evidence for a hoax collected; no further work planned.</td></tr>
 </table>
-<p>So <em>e</em> can be written 27, 30 or 35; <em>a</em> 19, 29, 34 or 39; and so on. The regular <em>a-e-i-o-u</em> cycle
-makes the table easy to memorise. 33 does not occur in these two letters but is confirmed as <em>u</em> by Avenel's
-"ne piquer" (22 37 13 21 28 <strong>33</strong> 30 16) in a letter of 21 March 1629.</p>
 
-<h3>2.3 The diacritic: a doubling mark</h3>
-<p>A tilde or stroke over a figure doubles the letter: <span class="mono">~14</span> = ll, <span class="mono">~22</span> = nn,
-<span class="mono">~25</span> = ss, <span class="mono">~30</span> = ee — as in d'e<b>ll</b>e, bo<b>nn</b>e, do<b>nn</b>er, Bra<b>ss</b>ac,
-amba<b>ss</b>ade, maistre<b>ss</b>e, amen<b>ée</b>.</p>
-
-<h3>2.4 Word codes and nomenclature (40 and above)</h3>
-<table>
-<tr><th class="n">Code</th><th>Meaning</th><th class="n">Code</th><th>Meaning</th></tr>
-<tr><td class="n">40</td><td>de</td><td class="n">60</td><td>Madame de Longueville</td></tr>
-<tr><td class="n">42</td><td>la</td><td class="n">66</td><td>the Cardinal de La Valette</td></tr>
-<tr><td class="n">51</td><td>the King (Louis XIII)</td><td class="n">83</td><td>Spain / the King of Spain</td></tr>
-<tr><td class="n">52</td><td>the Queen Mother (Marie de Médicis)</td><td class="n">84</td><td>England / the Queen of England</td></tr>
-<tr><td class="n">54</td><td>Monsieur (Gaston d'Orléans)</td><td class="n">92</td><td>Lorraine</td></tr>
-<tr><td class="n">58</td><td>the Duchesse de Chevreuse</td><td class="n">—</td><td>Cleartext jargon also used: <em>Castor</em> = the King, <em>Lysandre</em> = the Queen Mother</td></tr>
-<tr><td class="n">59</td><td>the Princesse Marie (de Gonzague-Mantoue)</td><td></td><td></td></tr>
-</table>
-<p class="muted">51, 52, 58, 66, 83, 84 and 92 occur in these two letters; 54, 59 and 60 come from Avenel's footnotes to
-neighbouring letters in the same cipher.</p>
-
-<h2>3. Decipherment</h2>
-<p class="legend"><span><span class="c" style="color:var(--accent)">Red</span> = was in cipher</span><span><span class="k">Blue</span> = nomenclature code</span><span>Plain = in clear in the original</span></p>
-
-<h3>3.1 Letter of 7 July 1629 (f. 87) — French</h3>
-<blockquote>
-<span class="k">[Le Roi]</span> est fort en colère de l'action <span class="c">de Boneuil</span>. Il remet à <span class="k">[la Reine mère]</span>
-<span class="c">de le chasser</span>, comme elle l'estimera à propos; si l'affaire est certaine, il mériteroit <span class="c">pis</span>.<br><br>
-Castor voudroit bien que la <span class="k">[duchesse de Chevreuse]</span> peust estre <span class="c">attrapée près de la frontière et amenée
-au bois de Vincennes</span>, auquel cas il faudroit que personne <span class="c">de dehors ne la vist</span>.<br><br>
-<span class="c">Les cabales de</span> <span class="k">[la Lorraine]</span> avec <span class="k">[l'Espagne]</span> par le moyen de la
-<span class="k">[Chevreuse]</span> et autres, sont insupportables.<br><br>
-La paix aura surpris <span class="c">ces esprits malins</span>. À la vérité elle est miraculeuse, car elle couppe les racines du mal pour
-le présent et l'avenir. Anduze, Sauve, Le Vigan, Ganges, Uzès, Aimargues et Nismes ont desjà obéy avec grande joye, et chaque place a
-donné ses ostages pour seureté de la démolition de leurs fortifications. Il ne restera plus que le haut Languedoc, qui suivra
-bientost, Dieu aidant.<br><br>
-J'eusse volontiers servy Mr <span class="c">Vautier</span>, mais l'abbaye estoit de longtemps promise à <span class="k">[La Valette]</span>.
-S'il se rencontre autre occasion je m'y emploieray volontiers avec affection.<br><br>
-J'ay parlé à <span class="c">Marcheville</span> de ce que <span class="c">Andreni</span> a dit: il le nye tout à fait, et, en vérité, je ne
-croy pas qu'il voulust rien faire contre le service de <span class="k">[le Roi]</span>.<br><br>
-Le roy accorde que Mrs des Estats puissent faire une recreue de 1500 ou 2000 hommes, mais il désire que ce soit en Normandie et
-non en Picardie et Champagne, parce qu'il a besoin de gens en ces deux provinces-là pour s'opposer à ses ennemis, au cas qu'il y
-soit attaqué. On représentera, et fera-on bien considérer à ces Mrs que c'est une grâce très particulière que Sa Majesté leur
-faict. Et si <span class="k">[l'Espagne]</span> s'en plaint, il faut dire qu'on n'a donné ceste permission que lorsqu'on a veu que,
-contre sa parole donnée, il a fait entrer les Allemands en Italie.
-</blockquote>
-
-<h3>3.2 Letter of 7 July 1629 — English</h3>
-<blockquote>
-<span class="k">[The King]</span> is very angry about the action of <span class="c">Boneuil</span>. He leaves it to <span class="k">[the Queen Mother]</span>
-<span class="c">to drive him out</span>, as she sees fit; if the matter is certain, he would deserve <span class="c">worse</span>.<br><br>
-Castor [the King] would very much like <span class="k">[the Duchess of Chevreuse]</span> to be <span class="c">caught near the frontier and brought
-to the Bois de Vincennes</span>, in which case no one <span class="c">from outside must see her</span>.<br><br>
-<span class="c">The intrigues of</span> <span class="k">[Lorraine]</span> with <span class="k">[Spain]</span>, through
-<span class="k">[the Duchess of Chevreuse]</span> and others, are unbearable.<br><br>
-The peace will have taken <span class="c">these malicious minds</span> by surprise. Truly it is miraculous, for it cuts the roots of the
-evil for the present and the future. Anduze, Sauve, Le Vigan, Ganges, Uzès, Aimargues and Nîmes have already submitted with great joy,
-and each town has given hostages as security for the demolition of its fortifications. Only upper Languedoc remains, and it will soon
-follow, God willing.<br><br>
-I would gladly have obliged Mr <span class="c">Vautier</span>, but the abbey had long been promised to <span class="k">[Cardinal de La Valette]</span>.
-If another opportunity arises I will gladly and warmly take it up.<br><br>
-I have spoken to <span class="c">Marcheville</span> about what <span class="c">Andreni</span> said; he denies it completely, and in truth I do
-not believe he would do anything against the service of <span class="k">[the King]</span>.<br><br>
-The King agrees that the gentlemen of the [Dutch] States may recruit 1,500 or 2,000 men, but he wants it done in Normandy, not in Picardy
-or Champagne, because he needs men in those two provinces to oppose his enemies should he be attacked there. It should be represented
-to those gentlemen, and made plain to them, that this is a very particular favour His Majesty is granting them. And if
-<span class="k">[Spain]</span> complains of it, the answer is that the permission was granted only once it was seen that, against his given
-word, he had let the Germans into Italy.
-</blockquote>
-
-<h3>3.3 Letter "pour M. de Rancé", mid-July 1629 (f. 89) — French</h3>
-<blockquote>
-Nous sommes en peine de quoy <span class="c">la paix de</span> <span class="k">[l'Angleterre]</span> ne s'achève point; mandez-nous si l'on n'en a
-point de nouvelles.<br><br>
-<span class="k">[Le Roi]</span> est d'advis que <span class="k">[la Reine mère]</span> prépare une armée pour <span class="c">la Champagne de dix mil</span>
-hommes et <span class="c">huit cens</span> chevaux. Il en fait dresser l'estat avant que partir. Mr de Beauclerc est là pour faire ce qu'il faut. La
-reyne fera, s'il luy plaist, délivrer ces commissions dès ceste heure, si elle apprend le moindre bruict que les ennemis pensent à
-s'approcher de la frontière. Elle fera délivrer l'argent de la levée afin qu'on ne soit pas surpris. Quand les ennemis de l'Estat
-penseront que de tous costés l'on est préparé à se deffendre, ils ne seront pas hardis à entreprendre. Partant, quand mesmes on n'auroit
-aucun mauvais advis de la frontière, il est toujours expédient de délivrer ces commissions, mais non de donner argent qu'on n'ayt lieu de
-soubçon. Le tout dépendra du jugement de la reyne; mais en matière de précaution il vaut mieux trop faire que trop peu.<br><br>
-On a fort bien fait d'envoyer Mr d'Elbeuf en Picardie, et tous les gouverneurs. Il en faut faire autant en Champagne.<br><br>
-<span class="k">[La Reine mère]</span> doibt, renvoiant ce gentilhomme de <span class="k">[la reine d'Angleterre]</span>, luy escrire des lettres
-obligeantes et pleines <span class="c">d'amour</span>, et qui disent aux termes qu'il faut que <span class="k">[la Reine mère]</span>
-<span class="c">se portera</span> tousjours, pour l'amour <span class="c">d'elle ainsy qu'elle</span> l'en a prié, à <span class="c">une bonne union
-entre</span> <span class="k">[le Roi]</span> <span class="c">et</span> <span class="k">[l'Angleterre]</span>.<br><br>
-<span class="k">[La Reine mère]</span> peut passer jusques là de dire qu'elle peut l'asseurer qu'outre <span class="c">l'évesque et les prestres</span>
-qui doivent estre <span class="c">près d'elle</span>, il ne voit pas qu'on ait dessein de luy <span class="c">donner d'autres François que</span>
-ceux qui sont <span class="c">près d'elle</span>; mais il faut que ce soit <span class="c">une lettre secrète</span>, ou bien le dire en grande
-confiance à <span class="c">Vantelet</span> qui aura créance par <span class="c">la lettre de</span> <span class="k">[la Reine mère]</span>, ce que
-j'estime plus à propos; luy recommandant de <span class="c">ne le dire qu'à sa maistresse</span>; et cependant il <span class="c">le dira aux</span>
-autres, qui est ce qu'on <span class="c">doit désirer</span>. Il est <span class="c">à souhaiter que cette paix se face et</span> promptement.<br><br>
-J'ay proposé au roy Mr de <span class="c">Brassac pour l'ambassade de Rome</span>. Vous sçaurez de <span class="k">[la Reine mère]</span> si elle aura
-agréable cette proposition; et, au cas qu'elle l'agrée, vous irez trouver ledit Sr de <span class="c">Brassac</span>, et luy direz la proposition
-que j'ai faite <span class="c">au roy</span> de luy, en ceste occasion, et que si c'est chose qu'il désire, il peut dès ceste heure s'asseurer
-<span class="c">des meubles</span> qui luy sont nécessaires pour cet <span class="c">ambassade</span>.
-</blockquote>
-
-<h3>3.4 Letter "pour M. de Rancé" — English</h3>
-<blockquote>
-We are troubled that <span class="c">the peace with</span> <span class="k">[England]</span> is not being concluded; let us know whether there is any news of it.<br><br>
-<span class="k">[The King]</span> is of the opinion that <span class="k">[the Queen Mother]</span> should prepare an army for <span class="c">Champagne of ten thousand</span>
-men and <span class="c">eight hundred</span> horse. He is having the roll drawn up before leaving. Mr de Beauclerc is there to do what is needed. The Queen will, if she
-pleases, issue these commissions at once if she hears the slightest rumour that the enemy intends to approach the frontier. She will release the money for the
-levy so that we are not caught unprepared. When the enemies of the State see that we are ready to defend ourselves on every side, they will not be bold enough to
-attempt anything. Therefore, even without any bad news from the frontier, it is always prudent to issue the commissions — but not to hand out money until there
-is real cause for suspicion. Everything will depend on the Queen's judgement; but in matters of precaution it is better to do too much than too little.<br><br>
-It was very well done to send Mr d'Elbeuf into Picardy, and all the governors. The same must be done in Champagne.<br><br>
-<span class="k">[The Queen Mother]</span>, when sending back this gentleman from <span class="k">[the Queen of England]</span>, should write her letters that are
-gracious and full of <span class="c">love</span>, saying in the proper terms that <span class="k">[the Queen Mother]</span> <span class="c">will always work</span>, out of
-love <span class="c">for her and as she has asked her</span>, toward <span class="c">a good union between</span> <span class="k">[the King]</span> <span class="c">and</span>
-<span class="k">[England]</span>.<br><br>
-<span class="k">[The Queen Mother]</span> may go so far as to say she can assure her that, beyond <span class="c">the bishop and the priests</span> who are to be
-<span class="c">near her</span>, there is no intention of <span class="c">giving her any other Frenchmen than</span> those already <span class="c">near her</span>. But
-this must be <span class="c">a secret letter</span> — or else said in strict confidence to <span class="c">Vantelet</span>, who will be trusted on the strength of
-<span class="c">the letter of</span> <span class="k">[the Queen Mother]</span>, which I think the better course — telling him <span class="c">to say it only to his
-mistress</span>; and yet he <span class="c">will tell the others</span>, which is exactly what one <span class="c">should wish</span>. It is <span class="c">to be hoped
-that this peace is made, and</span> promptly.<br><br>
-I have proposed to the King Mr de <span class="c">Brassac for the embassy to Rome</span>. You will learn from <span class="k">[the Queen Mother]</span> whether she
-approves the proposal; and if she does, you will go to the said Sieur de <span class="c">Brassac</span> and tell him of the proposal I made <span class="c">to the
-King</span> on his behalf on this occasion, and that if it is something he desires, he may from this moment count on <span class="c">the furnishings</span> he will
-need for this <span class="c">embassy</span>.
-</blockquote>
-
-<h3>3.5 Historical context</h3>
-<p>The ciphered items are exactly the sensitive ones. The Duchesse de Chevreuse — the court's most dangerous intriguer, then in
-Lorraine and in contact with Spain — was to be seized at the border and shut up in the château of Vincennes, out of sight. The
-Anglo-French peace (signed at Susa, 24 April 1629) was stalling over Charles I's treatment of his French queen Henrietta Maria,
-whose Catholic household he had expelled in 1626; Richelieu wants the Queen Mother to reassure her daughter — by a "secret" letter
-or through the queen's maître d'hôtel Vantelet, which he fully expects to leak — that France will not press to reinstall a large
-French entourage beyond the agreed bishop and priests. Finally, Jean de Galard de Béarn, comte de Brassac, is proposed for the
-Rome embassy; he did in fact take up the post in 1630, an external check on the reading.</p>
-
-<h2>4. Method</h2>
-<ol>
-<li><strong>Parsing.</strong> 421 cipher symbols, 46 distinct, in 58 runs interleaved with cleartext. Numbers above 40 were treated as
-whole-word codes and used as context breaks; cleartext words adjacent to cipher runs were kept as known plaintext.</li>
-<li><strong>Language model.</strong> French letter quadgram statistics were built from ~1.8 million characters of Project Gutenberg
-text (Sévigné, Retz, Pascal, Corneille, Dumas), normalised to a 22-letter alphabet with <em>j→i</em>, <em>v→u</em> and accents removed.</li>
-<li><strong>Search.</strong> Simulated annealing over the symbol→letter map, scored by quadgram log-probability plus a unigram-frequency
-penalty (needed because an unconstrained homophonic search collapses onto <em>e/s/r/t</em>). An early, wrong constraint — forcing
-10–31 to be a bijection with the alphabet — nevertheless produced readable fragments (<em>LA</em>{58}, <em>TRES</em>, <em>UNE</em>,
-<em>FRANC…</em>).</li>
-<li><strong>Cribs.</strong> From those fragments: <em>d'autres</em> (fixing d a u t r e s and exposing 30 as a second <em>e</em>);
-<em>d'elle … elle</em> (revealing the doubling mark); then <em>Brassac</em> and <em>l'ambassade</em> after "Mr de" and "pour".
-With those fixed, every remaining letter fell out of <em>huit cens, la paix, esprits, secrète, se face, Vincennes, frontière, Bonneuil</em>.</li>
-<li><strong>Structure.</strong> The recovered values showed 10–28 to be a complete 19-letter alphabet and 29–38 two <em>a-e-i-o-u</em>
-cycles; 33 = <em>u</em> was predicted from the pattern before being confirmed.</li>
-</ol>
-
-<h2>5. Verification: Avenel, 1858</h2>
-<p>While searching for the meaning of the nomenclature codes, the letters were found already printed — with cipher numbers and
-footnote decipherments — in <em>Lettres, instructions diplomatiques et papiers d'État du cardinal de Richelieu</em>, ed. D.-L.-M. Avenel,
-vol. III (Paris, 1858): no. CXCIX, pp. 368–369 (f. 87) and no. CCV, pp. 381–383 (f. 89). Avenel writes (p. 262, n. 2) that he did not find
-the key among the Béthune manuscripts "mais nous l'avons recomposé à l'aide de documents que nous avons trouvés aux archives des
-Affaires étrangères".</p>
-<p>His readings and the independent reconstruction agree in every ciphered word. Avenel's transcription also settles a handful of
-digits misread in the modern transcription (38 for 28 in <em>l'évesque</em>; 25 for 28 in <em>souhaiter que</em>; 35 for 25 in
-<em>près d'elle</em>; 25 for 26 in <em>Vautier</em>; 16 for 26 in <em>Vantelet</em>; 14 for 24 in <em>de Rome</em>; 22/11 for 23/13 in
-<em>Champagne</em>; 47 for 17 in <em>frontière</em>), none of which affected the alphabet. It also identifies the nomenclature:
-51 le Roi, 52 la Reine mère, 58 Mme de Chevreuse, 66 La Valette, 83 l'Espagne, 84 l'Angleterre, 92 la Lorraine.</p>
-<div class="callout">
-<strong>Correction to the catalogues.</strong> BnF Français 3829 ff. 87 and 89 (DECODE R9461, R9462) should be marked as deciphered,
-with the reference Avenel III (1858), pp. 368–369 and 381–383. The key table above, which Avenel never printed as a table, is offered
-as a convenience for anyone meeting the same cipher in Richelieu's 1629 correspondence with the Queen Mother's household.
-</div>
-
-<h2>6. Try the key</h2>
-<div id="decoder">
-<p>Paste cipher groups separated by spaces or semicolons (e.g. <code>11 16 19 ~25 29 10</code>). Use <code>~</code> before a number for the doubling mark.</p>
-<textarea id="cin">11;16;19;~25;29;10 pour 14;19;24;11;29;~25;34;20;27 40 16;37;24;27</textarea>
-<button onclick="decode()">Decipher</button>
-<output id="cout"></output>
-</div>
-<script>
-const KEY = {10:'c',11:'b',12:'g',13:'p',14:'l',15:'o',16:'r',17:'f',18:'t',19:'a',20:'d',21:'i',22:'n',23:'h',24:'m',25:'s',26:'u',27:'e',28:'q',
-  29:'a',30:'e',31:'i',32:'o',33:'u',34:'a',35:'e',36:'i',37:'o',38:'u',39:'a',40:'de',42:'la',
-  51:'[le Roi]',52:'[la Reine mère]',54:'[Monsieur]',58:'[Mme de Chevreuse]',59:'[princesse Marie]',60:'[Mme de Longueville]',
-  66:'[card. de La Valette]',83:"[l'Espagne]",84:"[l'Angleterre]",92:'[la Lorraine]'};
-function decode(){
-  const t=document.getElementById('cin').value;
-  const out=t.split(/\s+/).map(tok=>tok.split(';').filter(Boolean).map(s=>{
-    const m=s.match(/^(~?)(\d+)$/); if(!m) return s;
-    const v=KEY[+m[2]]; if(v===undefined) return '{'+s+'}';
-    return m[1]? (v.length===1? v+v : v) : v;
-  }).join('')).join(' ');
-  document.getElementById('cout').textContent=out;
-}
-decode();
-</script>
-
-<h2>7. Sources</h2>
-<ul>
-<li>S. Tomokiyo, "Unsolved Historical Ciphers", <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">cryptiana.web.fc2.com</a>, and
-the transcription <a href="https://cryptiana.web.fc2.com/code/richelieu1629.txt">richelieu1629.txt</a>; background in
-"French Ciphers during the Reign of Louis XIII", <a href="https://cryptiana.web.fc2.com/code/louisxiii.htm">louisxiii.htm</a>.</li>
-<li>DECRYPT project, DECODE database, records <a href="https://de-crypt.org/decrypt-web/RecordsView/9461">R9461</a> and R9462.</li>
-<li>BnF Archives et manuscrits, <a href="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc50269d">Français 3829</a>, items 37–38.</li>
-<li>D.-L.-M. Avenel (ed.), <em>Lettres, instructions diplomatiques et papiers d'État du cardinal de Richelieu</em>, t. III, 1628–1630
-(Paris: Imprimerie impériale, 1858), pp. 262, 368–369, 381–383. Scan: <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Internet Archive</a>.</li>
-</ul>
-<p class="muted">Code used for the analysis (Python: transcription parser, quadgram builder, annealing solver, renderer) is available on request.</p>
+<p class="muted">Corrections and pointers to existing decipherments are welcome — a catalogue entry marked "unsolved" is often a literature
+search away from "solved in 1858".</p>
 
 </main>
-<footer>
-Daniel Bourdeau, September 2026 · Text of this page released under CC BY 4.0 · Manuscript rights: Bibliothèque nationale de France
-</footer>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 · Text released under CC BY 4.0</span>
+  <nav><a href="index.html">Overview</a><a href="armstrong.html">Armstrong 1808</a><a href="richelieu.html">Richelieu 1629</a><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's list ↗</a></nav>
+</div></footer>
+<script src="site.js"></script>
 </body>
 </html>

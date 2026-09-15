@@ -24,3 +24,34 @@ vatican5/*.txt
 !vatican5/ASV_i1025_SdS_Spain_IA-2.txt
 !vatican5/ASV_i1025_SdS_Portugal_IA-1.txt
 !vatican5/meister_p176.txt
+# armstrong: microfilm images (2.5 GB), downloaded catalogue/Founders/LOC pages, crops, logs
+armstrong/img/
+armstrong/img13/
+armstrong/sheets13/
+armstrong/crops/
+armstrong/*.jpg
+armstrong/*.png
+armstrong/*.html
+armstrong/*.htm
+armstrong/*.log
+armstrong/*.sh
+armstrong/*.json
+!armstrong/code972_partial.json
+# beale: Gutenberg catalogue/corpus and scan outputs
+beale/pg_catalog.csv
+beale/*.parquet
+beale/lmcorpus/
+beale/done/
+beale/extra/
+beale/*.tsv
+beale/*.tsv.hits
+beale/ws_p*.txt
+beale/en_lm.json
+# hamilton / milroy: downloaded editions and pages
+hamilton/*.txt
+hamilton/*.htm
+hamilton/*.html
+milroy/*.html
+milroy/*.htm
+milroy/word_lm.json
+beale/*.log
