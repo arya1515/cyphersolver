@@ -156,3 +156,41 @@ matching plaintext in the Farnese correspondence, not cryptanalysis.
 
 Reproduce: `python vc.py <seed>` (constrained search), `python vc_read.py consensus` (convergence),
 `python vc_syn.py <seed>` (the matched control).
+
+### The mixed lattice model, with the constraint, also fails
+
+The C# lattice solver (`native/vsolve.exe`) already supports `--null`, `--vowdig` and `--consdig`, so the new
+structural finding could be fed straight in: `--null=4 --vowdig=7031 --consdig=85269 --wcoef=3`. No previous
+run had the right values. Four seeds, 120k iterations each.
+
+The decodes *look* far better than anything before — real 16th-century vocabulary, `cosa`, `con la`, `et`,
+`regno`, `imperatrice`, `figlia`, `signore`, `chiesa` — instead of the `che/non/per` loops the earlier runs
+collapsed into. That appearance is worthless, and here is why.
+
+**Dictionary coverage cannot judge itself.** The solver optimises coverage directly (`--wcoef`), so it will
+manufacture Italian-looking words from any key. Calibrated at minlen 5 / top 5000:
+
+| text | coverage |
+|---|---|
+| genuine Italian prose | **0.248** |
+| constrained runs (vcn_1..4) | 0.204 – 0.232 |
+| an earlier unconstrained run (nat_c4) | **0.279** |
+
+An earlier run scored *higher than real Italian*. The metric is gameable and every "promising" coverage
+number in this project's history should be read in that light.
+
+**Convergence is the test the solver does not optimise, and it fails it.** Across the four constrained runs:
+
+* only 1 to 3 of the 10 digits carry identical letter sets in any pair;
+* pairwise Rand index over letter groupings 0.84 – 0.87, against the 0.80 chance level for this space;
+* the runs disagree about which vowel sits on which digit (7 = i, i, a, i; 0 = a/u, e, i, a).
+
+So the mixed model with polyphonic singles plus two- and three-digit codes is no more identifiable than the
+pure letter model. The vowel-bearing *set* {7,0,3,1} is solid; the individual assignments are not
+recoverable from 6553 digits at this ambiguity.
+
+### Status
+
+Unsolved, and now for a documented reason rather than for want of trying. Four model classes tested, two of
+them against matched synthetic controls that the same code solves correctly. The cipher needs its key, or a
+matching plaintext in the Farnese correspondence.
