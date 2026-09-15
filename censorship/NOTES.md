@@ -52,8 +52,13 @@ original at 1,200 dpi or better, about 47 px/mm. The fashion drawing's candidate
 problem: the dash-and-block trims on the hems, cape and cuffs of figures 1–3, which two blog readers
 independently suspected.
 
-The TNA Discovery catalogue returned server errors when queried, so a higher-resolution digital copy of
-KV 2/2424 could not be checked for.
+**The official download does not help.** The National Archives' free digital copy of KV 2/2424 (115
+images, downloaded 15 Sept 2026) is the same digitised scan: the map spread, image 44, is pixel-identical to
+the copy on Schmeh's blog (3,491 × 2,809 px), and no image in the file is larger than 3,504 px. The rest of the
+file is MI5 correspondence on letter codes. Page 34 is the covering note from the Chief Postal Censor to MI5
+(Mr Grogan), 25 November 1943, sending a copy of the "Procedure for use of Overseas Censorships (Code
+Section)", which dates this copy of the manual. A sharper image needs new photography of the original at Kew,
+either a record-copying order or Schmeh's 2017 photographs at full resolution.
 
 ## What would finish it
 
