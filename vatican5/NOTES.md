@@ -406,3 +406,41 @@ that ciphertext-only attack on this family is near-impossible; and the transcrip
 lost the word division its solved sibling's transcript preserved. The routes in are the key from
 Chigi M II 49, the word division from the manuscript images, or the clear copy from Chigi L III 65 or
 Lettere de' Principi 14 A.
+
+### The last structural question, answered: there is no grid
+
+If the text sat on a fixed two-digit grid it could be cut into units and attacked as a substitution
+over about a hundred symbols with three thousand tokens, which is tractable. `gphase.py` tests that
+directly, in the three ways the null could behave:
+
+| phasing | chi-squared, even vs odd | shuffle null | z |
+|---|---|---|---|
+| A - null counted, absolute index | 6.8 | 9.0 +- 4.2 | **-0.53** |
+| B - null deleted, global index | 4.3 | 8.0 +- 4.0 | **-0.93** |
+| C - null deleted, per cleartext run | 4.3 | 8.0 +- 4.0 | **-0.93** |
+| D - phase restarts at every null (the earlier test) | 39.4 | 8.3 +- 4.1 | +7.6 |
+
+All three global phasings sit **below** their shuffle nulls. There is no fixed two-digit grid anywhere
+in the text. The only phase signal is the local one that restarts at each null, and it is modest and
+driven mostly by digit 9.
+
+So the units are genuinely variable-length, which is precisely what Elio's compound symbols predict -
+"any symbol may be either a stand-alone symbol or part of a pair". Without a segmentation there is no
+unit inventory; without a unit inventory there is no substitution to attack; and the polyphony doubles
+every unit's meaning on top of that.
+
+### A parsing correction
+
+The transcript carries three distinct marks above digits, not one: **dot 175, comma 23, dash 4**, plus
+13 slashes and 11 question marks that are transcriber annotations. There are **no below-marks at all**,
+although the challenge describes the notation for them. Earlier passes here conflated comma-above with
+dot-above. It does not change the conclusions - both concentrate on the same carriers, 7 then 0 and 2 -
+but the dots are on {7, 2, 0} at 88% and carry no phase information, so they are distinct codes rather
+than segmentation markers.
+
+### Final status
+
+Not solved, and now closed off from every direction that can be tested from the transcript. The
+remaining routes all need material that is not online: the key from Chigi M II 49, the word division
+from the manuscript images (DECODE record 92 holds them behind a login), or the clear register copy
+from Chigi L III 65 ff. ~165-190, Lettere de' Principi 14 A, or Naples Carte Farnesiane 723.

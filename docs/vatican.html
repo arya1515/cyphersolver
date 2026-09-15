@@ -265,7 +265,27 @@ its word boundaries deleted.</p>
 this page it is fixable &mdash; from the manuscript images, which MysteryTwister does not distribute and the Vatican
 has not digitised.</p>
 
-<h2><span class="num">08</span> Where it stands</h2>
+<h2><span class="num">08</span> The last structural question, answered</h2>
+
+<p>If the text sat on a fixed two-digit grid it could be cut into units and attacked as a substitution over about a
+hundred symbols with three thousand tokens. That is tractable, and it is the one thing that would make this cryptogram
+breakable. So it was tested directly, in the three ways the null could behave.</p>
+
+<table>
+<tr><th>phasing</th><th>chi-squared, even vs odd</th><th>shuffle null</th><th>z</th></tr>
+<tr><td>null counted, absolute index</td><td>6.8</td><td>9.0 &plusmn; 4.2</td><td><b>&minus;0.53</b></td></tr>
+<tr><td>null deleted, global index</td><td>4.3</td><td>8.0 &plusmn; 4.0</td><td><b>&minus;0.93</b></td></tr>
+<tr><td>null deleted, per cleartext run</td><td>4.3</td><td>8.0 &plusmn; 4.0</td><td><b>&minus;0.93</b></td></tr>
+</table>
+
+<p>All three sit <i>below</i> their shuffle nulls. <b>There is no fixed two-digit grid anywhere in the text.</b> The
+only phase signal is a local one that restarts at each null, and it is modest.</p>
+
+<p>That is the final piece, and it is exactly what Elio&rsquo;s compound symbols predict &mdash; any symbol may be
+stand-alone or half of a pair. Without a segmentation there is no unit inventory; without a unit inventory there is no
+substitution to attack; and the polyphony doubles every unit&rsquo;s meaning on top of that.</p>
+
+<h2><span class="num">09</span> Where it stands</h2>
 
 <p>The cipher is a <b>variable-length syllabic code</b>: mostly two-digit units, some of one digit, over vowel-bearing
 digits {7,0,3} and consonant-bearing {8,5,2,6,9}, with <code>27</code> and <code>80</code> as the dominant word-final
