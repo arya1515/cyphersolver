@@ -122,3 +122,10 @@ sunyatsen/cover.jpg
 goldbar/*.html
 dagapeyeff/wiki.txt
 dagapeyeff/*_out.txt
+# catokwacopa / debosnys: downloaded blog pages and derived vocabulary
+catokwacopa/*.html
+catokwacopa/*.txt
+!catokwacopa/search_*.txt
+catokwacopa/vocab.tsv
+debosnys/*.html
+debosnys/sektu*.txt

@@ -18,27 +18,12 @@ LIVE = [
     ("Debosnys cryptograms", "1882–83",
      "https://scienceblogs.de/klausis-krypto-kolumne/2020/01/06/the-top-50-unsolved-encrypted-messages-3-the-debosnys-cryptograms/",
      "top 50", "even", "md", "medium",
-     "Four passages written in an Essex County jail before the writer was hanged, and by Schmeh's own account almost nobody has worked on them. "
-     "Examined here in September 2026: the alphabet is always called large and decorative, but at three times scale most of it is <b>systematic "
-     "composition</b> — a few bases under a few marks, with glyphs recurring across lines — plus pictograms that are nomenclator entries rather "
-     "than letters. So the effective alphabet is far smaller than billed. Pair that with Matthew Brown's 2021 finding that Debosnys plagiarised "
-     "his unencrypted work and a transcription turns this into a known-plaintext hunt."),
-
-    ("William Perwich to Lord Arlington", "1670",
-     "https://cryptiana.web.fc2.com/code/perwich.txt", "",
-     "even", "md", "medium",
-     "Published by the National Archives in August 2025 and read by everyone as a transposition. "
-     "<b>It is not one.</b> Chi-squared in place is 154.7 where English of this length gives about 25, while chi-squared sorted is 8.7 where "
-     "English gives 12 — identities scrambled, shape preserved, which is substitution. And hill-climbing the column order on substitution-invariant "
-     "digram repeats, every period from 4 to 24, scores identically to shuffles of the same letters. The next concrete step is a homophonic solver "
-     "with the nomenclator cells held out."),
-
-    ("Catokwacopa newspaper advertisements", "1875",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2018/06/17/the-top-50-unsolved-encrypted-messages-8-the-catokwacopa-cryptograms/",
-     "top 50", "even", "md", "low",
-     "Two personal advertisements in the <i>Evening Standard</i>, the second explicitly intelligible only in connection with the first, with full "
-     "transcriptions published. Still live: Schmeh reposted it in August 2026 and the thread is active. The working hypothesis is interleaving of "
-     "two streams with letters omitted rather than substitution, which gives a real structural handle, and partial readings exist and disagree."),
+     "Four passages written in an Essex County jail before the writer was hanged. The glyph composition noted here earlier was prior art — Sektu "
+     "transcribed all 1,188 glyphs in 2017, decomposed them into sub-glyphs and proposed French syllables, though the file was never released. "
+     "<b>New in September 2026:</b> the twenty-line <i>monographe verse</i> is <b>rhyming couplets</b>. The last glyph matches within 9 of 10 "
+     "couplets and across 0 of 9 couplet boundaries (chance under 10<sup>−5</sup>), and lines run 11–17 glyphs where Debosnys's own clear French "
+     "verse runs about 12 syllables. So glyphs are phonetic, syllable-sized units. Given his plagiarism, the next step is a shape search of French "
+     "verse for a 20-line couplet poem whose first and ninth rhymes coincide — no transcription needed to run it."),
 
     ("Censorship manual steganograms", "1943",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/05/03/the-top-50-unsolved-encrypted-messages-33-the-censorship-manual-steganograms/",
@@ -78,6 +63,25 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("William Perwich to Lord Arlington", "1670",
+     "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/",
+     "", "found solved", "md",
+     "<b>Solved in October 2025</b> by Matthew Brown, and independently by Lasry, Biermann and Tomokiyo: a 20-column transposition with nulls. "
+     "This entry had called it a substitution, and that was wrong — the eight q's, seven of them nulls, add 106 to the in-place chi-squared, and on "
+     "the plaintext cells it is an ordinary 28. <b>Reproduced here from the transcription</b>: rows 2–21 are the columns, rows 1 and 22 are null "
+     "lines, a keyless quadgram climb recovers the order, and 414 plaintext cells read out <i>“the souldiers grumble much that the king is of late "
+     "growne cool towards them…”</i>. Only the nomenclator numbers remain."),
+
+    ("Catokwacopa newspaper advertisements", "1875",
+     "https://klausschmeh.net/the-catokwacopa-cryptograms-a-150-year-old-mystery/",
+     "top 50", "readings audited", "md",
+     "Two <i>Standard</i> advertisements whose lines are two order-preserving halves of one abbreviated phrase. The disputed question was how much "
+     "the omission rule lets a reader invent, so it was measured. The pairing is structural (no random re-pairing in 100,000 fits the lengths). "
+     "Consonant-initial words always start in the 8 May half. An open-vocabulary search forces DYING DECLARATION, REPEATED and OLD CAP BROKE AT "
+     "CORNER LEFT INSTEAD, finds exact CHANGE ADOPTED and HOLIDAYS EXAMINE where published readings needed misprints, and shows MASTER PUPIL and "
+     "SIGNED are emendations. Decisively, of 1,645 names only CONINGTON, JOWETT, SHIRLEY and HERTFORD fit their frames: the Oxford reading is right "
+     "in outline. Lines 9, 12, 23 and 29 are not decided by the letters."),
+
     ("ADFGVX residue of the Eastern Front", "1918",
      "https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/", "top 50",
      "1 of 22 read", "md",

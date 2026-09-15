@@ -1,55 +1,80 @@
-# The Debosnys cryptograms (1882–83) — the alphabet is systematic, and that changes the estimate
+# The Debosnys cryptograms (1882–83) — the cipher poem is rhyming couplets, and that fixes the unit
 
 Henry Debosnys murdered his wife Elizabeth in Essex County, New York, and was hanged in April 1883.
-He left four encrypted passages, written in jail. Number 3 on Schmeh's Top 50, and by his own account
-almost nobody has worked on them.
+He left four encrypted passages, written in jail. Number 3 on Schmeh's Top 50. Unsolved: nobody has
+published a decryption of a single word (checked September 2026).
 
-## The stated bottleneck is real
+## Prior work this project had missed
 
-There is no machine-readable transcription. Six scans circulate — one page with a self-portrait and
-six lines of symbols signed *H. D. Debosnys*, plus five more — and every published description of the
-alphabet is qualitative. Nothing can be computed without a symbol sequence, and producing one is a
-vision job before it is a cipher job.
+An earlier version of these notes (15 September 2026) presented the systematic composition of the
+glyphs as a new observation. **It is not new.** Brian of the *Sektu* blog made a full transcription in
+2017 and got further:
 
-## What the scans show, which the descriptions do not
+* **1,188 glyph tokens of 425 types**, with 277 types occurring once
+  ([transcription revision](https://sektu.blogspot.com/2017/08/debosnys-cipher-transcription-revision.html)).
+* A second, **sub-glyph** transcription that decomposes each glyph into ordered components, e.g. the
+  signature line `C2B2 XP NU ZOO OM2N SHI` → `<C2 B2> <X DOT> <N U> <O Z O> <O2RNO> <CROSSB>`, with a
+  small grammar for glyph construction. Sub-glyph frequencies follow Zipf's law.
+* The **"N-glyphs"**: the tilde (N) never stands alone, only at the top of a glyph or under another N.
+  He proposed it marks **nasalization**. The cipher poem averages 1.5 N-glyphs a line, against 2.05
+  nasal syllables a line in Baudelaire's alexandrines.
+* The working hypothesis that **glyphs are French syllables** and sub-glyphs are phonemes.
 
-The alphabet is usually described as large and decorative. Read closely at three times scale, most of
-it is not decorative at all: it is **systematic composition**.
+That transcription does not appear to have been released: the blog posts describe it without linking
+a file, and none turns up in Nick Pelling's 2021 review of Sektu's work. So there is still no public
+machine-readable text. Separately, Schmeh's page *Henry Debosnys was a
+copyist* documents the plagiarism of his clear poems (Matthew Brown, 2021: Thomas Moore, *Peterson's
+Magazine*).
 
-A large share of the glyphs are a **small base carried under a diacritic**. The bases that recur are
-plain `o`, `x` and `w`; the marks are a tilde, a dot above, a bar, a double bar, a triple stroke, a
-slash and a small ring. So `õ`, `ẋ`, `x̄`, `x̃x`, `ō x`, `⇗o` and so on are not separate inventions but
-one base plus one mark. Symbols repeat across lines — `õ` and `ẋ` both appear twice in the first line
-alone, and `ẋ` again in the fifth.
+## New here: the "monographe verse" is twenty lines of rhyming couplets
 
-Set against that are a handful of **pictograms**: a horse, a sun with a face, a tree, a human figure.
-Those are not letters. In a cipher of this period and this kind they are nomenclator entries — a word
-or a name apiece.
+The passage headed *monographe verse* (`c4a.png`, 15 lines, continued on `c4b.png`, 5 lines, signed
+*Hênêcos Debosnostys*) is the 20-line cipher poem. Read line by line at three times scale
+(`crops/verse_a01`–`a15`, `verse_b01`–`b05`), **the last glyph of each line repeats in pairs**:
 
-If that reading holds, the effective alphabet is far smaller than "large and decorative" implies: a
-few bases times a few marks, plus a set of one-off pictograms for words. That is a much better
-prospect than the descriptions suggest, and it is the kind of structure a self-taught cipher-maker
-actually builds.
+| lines | final glyph | lines | final glyph |
+|---|---|---|---|
+| 1–2 | tilde-curl | 11–12 | delta |
+| 3–4 | dotted X | 13–14 | o + cross (lower right / above) |
+| 5–6 | Y with ring | 15–16 | dark note with arrow, two dots below |
+| 7–8 | barred o | 17–18 | tilde-curl |
+| 9–10 | venus sign | 19–20 | curly X |
 
-## The lead worth pairing with it
+* Within couplets the final glyphs are **identical in 9 of 10**. The tenth pair shares its base (an o
+  with a cross) and differs only in where the cross sits, which under the composition model is a
+  near-rhyme.
+* Across couplet boundaries (lines 2–3, 4–5, …) they match in **0 of 9**.
+* Even if any two glyphs matched 20% of the time, 9 of 10 would arise by chance with probability
+  4 × 10⁻⁶; at a more realistic 5–10%, 10⁻⁸ to 10⁻¹¹.
+* The couplet-1 rhyme returns at couplet 9, as a recurring rhyme sound would.
 
-Matthew Brown showed in 2021 that Debosnys plagiarised his *unencrypted* poems and paintings — from
-Thomas Moore and from *Peterson's Magazine*. If the encrypted passages hide copied published text
-too, this stops being a cipher problem and becomes a known-plaintext hunt across a digitised corpus,
-which is exactly the shape of the Beale work in this repository.
+That is ***rimes plates***, AABBCC…, the standard French couplet form. Three consequences:
 
-That lead only becomes usable once a transcription exists, because a crib search needs a symbol
-sequence to search with.
+1. **The line-final glyph encodes sound.** Identical final glyphs on rhyming lines mean a glyph stands
+   for a phonetic unit carrying the rhyme, not an arbitrary word code. That supports Sektu's
+   syllable hypothesis over a word-level or letter-level reading.
+2. **The count fits syllables and nothing else.** Glyphs per line, excluding punctuation, run 11–17
+   (mean 13.7, ±1 segmentation uncertainty; lines 11–13 lie under a stain). Debosnys's own clear French
+   verse, poem No. 10 on `c3.png`, runs **6–11 words** and **24–42 letters** a line, with roughly
+   **9–15 syllables**. The glyphs sit at syllable scale, slightly high, as a few pictograms and
+   compound marks would make them.
+3. **It turns the known-plaintext hunt into a shape search.** Given Brown's plagiarism finding, the
+   natural candidate is a *copied* French poem, or a 20-line excerpt: alexandrine-scale rhyming couplets
+   whose first and ninth couplets share a rhyme and whose other eight rhymes are distinct. The
+   line-final punctuation adds a fingerprint (`, · - - , . , , , . , . · · · · · . · ·`, where · is
+   none). The search needs no glyph identity decisions beyond the line endings.
 
-## What was not done
+`python verse.py` reproduces the counts and the chance figures.
 
-A full transcription. Six images, several hundred glyphs, and the honest difficulty is not reading
-them but deciding identity — whether two similar composites are the same symbol or two different ones.
-Getting that wrong is invisible: it produces a plausible-looking failure rather than an obvious one,
-and at a few percent error the index of coincidence and every frequency statistic become unreliable.
+## What remains open
 
-The right next step is a careful glyph-by-glyph inventory built from all six scans at once, so that
-identity decisions are made against the whole corpus rather than line by line. That is a bounded
-piece of work and it is the thing standing between this cryptogram and any analysis at all.
+* **The shape search itself.** It needs a corpus of French verse (Gutenberg, Wikisource), which is not
+  in this repository. Candidates that pass the rhyme-and-punctuation fingerprint can then be checked
+  against the internal glyph repeats, and at that point a transcription is needed.
+* **A transcription.** The honest difficulty is still identity: whether two similar composites are the
+  same symbol. The rhyme pairs help here too, since each pair gives one confirmed identity. Sektu's
+  unreleased transcription would save most of the work, so asking for it is the obvious first move.
 
-Images: `c1.png` (the self-portrait page) and `c2a`–`c4b`; line crops of the first at `c1_line*.png`.
+Images: `c1.png` (self-portrait page, 6 lines), `c2a`/`c2b` (No. 9, long prose passage with
+pictograms), `c3.png` (No. 10: 4 cipher lines, then a clear French poem), `c4a`/`c4b` (the monographe
+verse). Line crops: `c1_line*.png`, `crops/verse_*.png`.
