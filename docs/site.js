@@ -19,3 +19,18 @@ function renderTiles(el, items){
     t.appendChild(p); t.appendChild(g); el.appendChild(t);
   }
 }
+
+// priority-queue filter: show one tier at a time
+(function(){
+  const btns=document.querySelectorAll('.qf'); if(!btns.length) return;
+  const tiers=document.querySelectorAll('h3.tier');
+  const cards=document.querySelectorAll('.tg');
+  function apply(f){
+    cards.forEach(c=>{ c.hidden = !(f==='all' || c.classList.contains(f)); });
+    tiers.forEach(t=>{ t.hidden = !(f==='all' || t.dataset.t===f); });
+    btns.forEach(b=>b.classList.toggle('on', b.dataset.f===f));
+    try{ history.replaceState(null,'',f==='all'?location.pathname+location.hash.replace(/^#q=.*/,''):'#q='+f); }catch(e){}
+  }
+  btns.forEach(b=>b.addEventListener('click',()=>apply(b.dataset.f)));
+  const m=/^#q=(\w+)$/.exec(location.hash); if(m) apply(m[1]);
+})();
