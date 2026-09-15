@@ -11,7 +11,7 @@
 <nav class="nav"><div class="in">
   <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
   <div class="links">
-    <a href="index.html">Overview</a>
+    <a href="index.html#queue">Priority</a>
     <a href="armstrong.html">Armstrong 1808</a>
     <a href="richelieu.html">Richelieu 1629</a>
     <a href="ormonde.html">Ormonde 1634</a>
@@ -32,18 +32,19 @@
 <main>
 
 <div class="stats">
-  <div class="stat"><b>20</b><span>targets tracked</span></div>
-  <div class="stat"><b>4</b><span>solved / explained</span></div>
-  <div class="stat"><b>1</b><span>alphabet recovered</span></div>
-  <div class="stat"><b>4</b><span>keys located, offline</span></div>
+  <div class="stat"><b>60</b><span>catalogue entries</span></div>
+  <div class="stat"><b>7</b><span>solved / explained</span></div>
+  <div class="stat"><b>1</b><span>partial</span></div>
+  <div class="stat"><b>7</b><span>blocked on access</span></div>
+  <div class="stat"><b>8</b><span>queued to attack</span></div>
 </div>
-<div class="bar" title="solved · partial · offline only · stuck · todo/infeasible">
-  <span class="s" style="width:20%"></span><span class="p" style="width:5%"></span><span class="o" style="width:20%"></span><span class="x" style="width:15%"></span><span class="t" style="width:40%"></span>
+<div class="bar" title="solved &middot; partial &middot; blocked on access &middot; stuck &middot; queued / parked">
+  <span class="s" style="width:11%"></span><span class="p" style="width:2%"></span><span class="o" style="width:12%"></span><span class="x" style="width:8%"></span><span class="t" style="width:67%"></span>
 </div>
 <p class="muted" style="font-size:.85rem;margin-top:0">
   <span class="st solved">solved</span> new decipherment &nbsp;
   <span class="st found">found solved</span> already in print; catalogue wrong &nbsp;
-  <span class="st partial">partial</span> &nbsp; <span class="st stuck">stuck</span> &nbsp; <span class="st offline">offline only</span> key or manuscript located but not online &nbsp; <span class="st todo">todo</span> &nbsp; <span class="st infeasible">infeasible</span>
+  <span class="st partial">partial</span> &nbsp; <span class="st stuck">stuck</span> &nbsp; <span class="st offline">blocked</span> key or manuscript located but not reachable online &nbsp; <span class="st todo">queued</span> &nbsp; <span class="st infeasible">infeasible</span>
 </p>
 
 <h2><span class="num">01</span> Write-ups</h2>
@@ -91,37 +92,75 @@
   </a>
 </div>
 
-<h2 id="list"><span class="num">02</span> Status of the list</h2>
-<p>Ordered by estimated feasibility for work driven by close reading of digitised editions, historical cribs and small purpose-built
-solvers — not by the strength of the cipher itself. Target names link to the original documents or catalogue entries where they are online.</p>
+<h2 id="queue"><span class="num">02</span> Priority queue</h2>
+<p>Every remaining entry in the catalogue, scored for what can actually be attempted from digitised sources and small purpose-built
+solvers. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. Cheap decisive tests rank
+above expensive long shots, so a coin-flip that resolves in ten minutes outranks a one-in-four that costs a day.</p>
 <table>
-<tr><th class="n">#</th><th>Target</th><th>Date</th><th>Status</th><th>Notes</th></tr>
-<tr><td class="n">1</td><td><a href="richelieu.html">Richelieu → M. de Rancé, BnF Français 3829 ff. 87 &amp; 89</a></td><td>1629</td><td><span class="st solved">solved</span></td><td>Homophonic alphabet, doubling mark and nomenclature recovered ciphertext-only; the reading agrees word for word with the decipherment later found in <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Avenel (1858)</a>, which the catalogues (DECODE R9461–R9462) had missed.</td></tr>
-<tr><td class="n">2</td><td><a href="armstrong.html">Armstrong → Madison, coded postscript</a></td><td>1808</td><td><span class="st solved">solved</span></td><td>49/49 groups; code table of 580 groups reconstructed. Bonus: the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2733">letter of 22 Feb 1808</a> largely read. The distinct code of the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2728">20 Feb 1808 letter</a> remains open.</td></tr>
-<tr><td class="n">3</td><td><a href="https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD406%2f1%2f2197&st=1&tc=y&tl=n&tn=n&tp=n&k=&ko=a&r=GD406%2f1%2f2197&ro=s&df=&dt=&di=y">Charles II → Duke of Hamilton</a></td><td>1650</td><td><span class="st offline">offline only</span></td><td>Four letters, 102 groups, no redundancy and no printed key (the Camden Society volume of 1880 prints them undeciphered). The key survives: National Records of Scotland <strong>GD406/1/2197</strong>, “Keys for ciphers used in the correspondence of the Duke of Hamilton” (5 items, open); the letters are GD406/1/10573–10576. Solvable only by ordering copies from Edinburgh.</td></tr>
-<tr><td class="n">4</td><td><a href="https://de-crypt.org/decrypt-web/RecordsView/2734">Colbert passages (Mélanges Colbert)</a></td><td>1665–74</td><td><span class="st stuck">stuck</span></td><td>Three short passages (Ratisbon 1665; Charost, Calais 1673; abbé de Gravel → Maulevrier 1674). No key online; the twelve reconstructed Colbert-series keys all fail; too short for cryptanalysis. Only route left is finding a deciphered sibling letter by paging Gallica volumes.</td></tr>
-<tr><td class="n">5</td><td><a href="https://searcharchives.bl.uk/catalog/040-002095608">Prince Maurice → Prince Rupert, Worcester, 7 July 1645</a></td><td>1645</td><td><span class="st offline">offline only</span></td><td>Full text printed in Warburton (93 groups, max 398); the two known Rupert keys of 1644–45 do not fit and the text is far too short to break. The key would sit in Rupert's own papers (BL Add MS 18980–82) or among the 49 Digby keys in Add MS 72438 — all digitised, all offline since the British Library cyber-attack (IIIF returns 403); DECODE copies need an account and BL permission.</td></tr>
-<tr><td class="n">6</td><td><a href="https://searcharchives.bl.uk/catalog/040-001967027">Royalist intercepts, BL Add MS 72438 ff. 9–10</a></td><td>1646</td><td><span class="st offline">offline only</span></td><td>The ciphertexts are not available online at all (DECODE R8623–8624 are private; BL images offline). The same volume holds Weckherlin's 49 captured Digby cipher-keys, so this is a key-matching job the moment the images return, not a cryptanalysis problem.</td></tr>
-<tr><td class="n">7</td><td><a href="ormonde.html">Maltravers → Ormonde</a></td><td>1634–35</td><td><span class="st partial">alphabet recovered</span></td><td>59 figures. Nulls 91–111 and a regular block alphabet recovered from the consecutive-figure doublets; <em>angry, letters, Crosby, a councellor</em> read and the sentences match the events of 1634–35 (Kildare's quarrel with Wentworth; Ormonde sworn of the Council, Jan 1635). Nine nomenclator codes inferred from context only.</td></tr>
-<tr><td class="n">8</td><td><a href="hyde.html">Hyde superscriptions</a></td><td>1659–60</td><td><span class="st found">explained</span></td><td>Hyde → Barwick letters printed in the <em>Vita Barwick</em> (1721) with their full key. The superscriptions decode to nothing (three use numbers above the key's range); the 1724 editor states they were dummy numbers "only to puzzle the Enemy". Not a cipher.</td></tr>
-<tr><td class="n">9</td><td><a href="https://www.british-history.ac.uk/thurloe-papers/vol5/pp333-350">Thurloe intercepts (Dutch, French, English)</a></td><td>1653–56</td><td><span class="st stuck">stuck</span></td><td>Four pieces: Beverning–Vande Perre to Boreel 1653 (136 groups, Dutch), and three 1656 Brussels/Bruges intercepts of 16–50 groups. All 1653–60 keys on cryptiana tried; Dutch/French hill-climbs on the 1653 letter give only fragments. Too short; originals (Bodleian Rawlinson A) not online.</td></tr>
-<tr><td class="n">10</td><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney → Earl of Manchester, Vienna 23 March 1702</a></td><td>1702</td><td><span class="st offline">offline only</span></td><td>Original located and transcribed from Yale Beinecke OSB MSS fc37 (24 groups; MS reads 413 not 412). Not the Manchester THE = 454 key; Manchester had asked for "Mr. Stepney's cipher" in Aug 1701, so the key is Stepney's office cipher — TNA SP 105/106 or BL Add MSS 7058–78, not online.</td></tr>
-<tr><td class="n">11</td><td><a href="sunyatsen.html">Telegram to Sun Yat-sen, Swatow 3 Apr 1916 (JACAR B03050738800)</a></td><td>1916</td><td><span class="st solved">solved</span></td><td>Standard telegraph code through a systematic 20×5 code condenser (consonants from <em>l</em>, vowels e a i o u, column-major); 41 characters read, three garbled at the end. The Huang Xing telegram (B03050731500) has its plaintext on file and awaits a hand reading of JACAR.</td></tr>
-<tr><td class="n">12</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Henry III → Ségur</a></td><td>1583–86</td><td><span class="st todo">todo</span></td><td>BnF 500 Colbert 401; partial key.</td></tr>
-<tr><td class="n">13</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">1520s superscript-digit ciphers</a></td><td>1526–29</td><td><span class="st todo">todo</span></td><td>Latin syllabic; Worcester, Gilino, Garbino.</td></tr>
-<tr><td class="n">14</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">D'Estaing → Gérard</a></td><td>1779</td><td><span class="st todo">todo</span></td><td>Clements Library, Clinton Papers.</td></tr>
-<tr><td class="n">15</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Le Tellier → Castelnau</a></td><td>1657</td><td><span class="st todo">todo</span></td><td>Syllabic, short.</td></tr>
-<tr><td class="n">16</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Ferdinand III ↔ Cardinal-Infante</a></td><td>1634–40</td><td><span class="st todo">todo</span></td><td>Brussels; Latin/German.</td></tr>
-<tr><td class="n">17</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Switzerland telegram</a></td><td>1937</td><td><span class="st todo">todo</span></td><td>Two short messages.</td></tr>
-<tr><td class="n">18</td><td><a href="https://mysterytwister.org/">Vatican Challenge, Part 5 (Farnese → Poggio)</a></td><td>1542</td><td><span class="st stuck">stuck</span></td><td>Variable-length polyphonic digit cipher with dotted digits (cf. <a href="https://www.tandfonline.com/doi/full/10.1080/01611194.2020.1755915">Lasry, Megyesi &amp; Kopal 2021</a>, §5.5). Constrained simulated-annealing solvers built and tested on synthetic keys; paused after a serious attempt.</td></tr>
-<tr><td class="n">19</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Enigma message</a></td><td>1945</td><td><span class="st todo">todo</span></td><td>Single message; compute-bound.</td></tr>
-<tr><td class="n">20</td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Lüderitz FO telegram</a></td><td>1911</td><td><span class="st infeasible">infeasible</span></td><td>Five-figure codebook, no key material.</td></tr>
+<tr><th class="n">#</th><th>Target</th><th>Date</th><th>Odds</th><th>Effort</th><th>Why it sits here</th></tr>
+
+<tr class="grp"><td colspan="6">Attack now</td></tr>
+<tr><td class="n"><span class="rank">1</span></td><td><a href="https://www.jacar.archives.go.jp/das/meta/B03050731500">Huang Xing to Lin Hu and Li Genyuan</a></td><td>1916</td><td><span class="odds hi">high</span></td><td class="eff">hours</td><td>The catalogue marks it &ldquo;solved but specific scheme unknown&rdquo;, so the plaintext is in hand and only the enciphering scheme is missing. Recovering a systematic condenser against known plaintext is close to deterministic, and the <a href="sunyatsen.html">brute force built for the Swatow telegram</a> searches exactly that family.</td></tr>
+<tr><td class="n"><span class="rank">2</span></td><td><a href="https://cryptiana.web.fc2.com/code/charlesi2.htm">Charles I in the Isle of Wight, the two unread letters</a></td><td>1648</td><td><span class="odds md">even</span></td><td class="eff">minutes</td><td>Two of the four were solved by Biermann and Brown in 2021 and their key is published. Either it opens the other two immediately or it does not. The cheapest decisive test on the list.</td></tr>
+<tr><td class="n"><span class="rank">3</span></td><td><a href="https://gallica.bnf.fr/ark:/12148/bpt6k1080037">Berthier to Napoleon</a></td><td>1812</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>Napoleon&rsquo;s correspondence is printed complete and online, so the plaintext of a staff letter may simply be in the edition. Checking the printed edition first has already turned three items on this list from unsolved into solved.</td></tr>
+<tr><td class="n"><span class="rank">4</span></td><td><a href="https://cryptiana.web.fc2.com/code/napoleon2.htm">Encoded letter to Marshal Marmont</a></td><td>1807</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>The same <i>petit chiffre</i> family and the same printed-edition route as the Berthier letter, worth doing in one pass.</td></tr>
+<tr><td class="n"><span class="rank">5</span></td><td><a href="https://archive.org/details/despatchesofwill00perw">William Perwich to Lord Arlington, Paris</a></td><td>1670</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>Probably a transposition, possibly one of Morland&rsquo;s. The despatches were printed by the Camden Society in 1903 and sit on the Internet Archive, so both the text and any contemporary reading are free to check.</td></tr>
+<tr><td class="n"><span class="rank">6</span></td><td><a href="https://cryptiana.web.fc2.com/code/chinesecrypto_e.htm">Telegrams found in the sunken <i>Zhongshan</i></a></td><td>c.1938</td><td><span class="odds md">even</span></td><td class="eff">low</td><td>Chinese telegraph code again, so the Sun Yat-sen toolkit applies unchanged. The risk is a commercial codebook with an additive rather than a systematic condenser, which would end it quickly.</td></tr>
+<tr><td class="n"><span class="rank">7</span></td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Telegram from Switzerland, &ldquo;BLUME SALAMANCA&rdquo;</a></td><td>1937</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>Never attempted here and cheap to try. Salamanca was Franco&rsquo;s headquarters, so the Spanish Civil War supplies cribs, and the coincidence index points at transposition rather than a code. Only two short messages, which caps the odds.</td></tr>
+<tr><td class="n"><span class="rank">8</span></td><td><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a></td><td>c.1920</td><td><span class="odds lo">partial</span></td><td class="eff">low</td><td>Yardley printed the plaintext, so the scheme is attackable, but Japanese diplomatic traffic of 1920 ran on codebooks. One message can only recover the entries it happens to use, so a complete answer is ruled out by construction.</td></tr>
+
+<tr class="grp"><td colspan="6">Long shots, already diagnosed</td></tr>
+<tr><td class="n"><span class="rank">9</span></td><td><a href="https://mysterytwister.org/">Vatican Challenge, Part 5 (Farnese to Poggio)</a></td><td>1542</td><td><span class="odds lo">1 in 4</span></td><td class="eff">hours</td><td>The most prestigious item left. Meister&rsquo;s three printed keys are rejected by likelihood, and a trigram partition search that recovers synthetic keys of this design fails on the real text in both Italian and Spanish, so the digits must carry multi-digit syllable codes. The remaining edge is that every key in Argenti&rsquo;s collection is systematic, which makes the family small enough to enumerate.</td></tr>
+<tr><td class="n"><span class="rank">10</span></td><td><a href="ormonde.html">Maltravers to Ormonde, the last nine codes</a></td><td>1634&ndash;35</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>The alphabet is recovered and every spelled word reads. The nine nomenclator codes still resting on context need either the real key or more ciphertext, and neither is online.</td></tr>
+<tr><td class="n"><span class="rank">11</span></td><td><a href="https://de-crypt.org/decrypt-web/RecordsView/2734">Colbert passages (M&eacute;langes Colbert)</a></td><td>1665&ndash;74</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>Three passages too short to break, with all twelve reconstructed Colbert keys already failing. The only route left is paging Gallica for a deciphered sibling letter.</td></tr>
+<tr><td class="n"><span class="rank">12</span></td><td><a href="https://www.british-history.ac.uk/thurloe-papers/vol5/pp333-350">Thurloe intercepts (Dutch, French, English)</a></td><td>1653&ndash;56</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>Four pieces of sixteen to one hundred and thirty-six groups. Every period key on the catalogue fails and hill-climbing yields fragments only. The Rawlinson originals are not digitised.</td></tr>
+<tr><td class="n"><span class="rank">13</span></td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">D&rsquo;Estaing to G&eacute;rard</a></td><td>1779</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>Two hundred and seventeen numbers of a six-hundred element code with no key material. Doniol and Meng print only the neighbouring letters; the deciphered copy sits in the French foreign ministry archives.</td></tr>
+<tr><td class="n"><span class="rank">14</span></td><td><a href="https://cryptiana.web.fc2.com/code/louisxiv0.htm#SEC6">Le Tellier to Castelnau</a></td><td>1657</td><td><span class="odds lo">low</span></td><td class="eff">low</td><td>Two hundred and two tokens. Le Tellier&rsquo;s 1650 tables do not fit, and an exhaustive search of alphabetical syllabary offsets against a French model returned nothing. Too short to solve unconstrained.</td></tr>
+<tr><td class="n"><span class="rank">15</span></td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Enigma message of 10 January 1945</a></td><td>1945</td><td><span class="odds lo">very low</span></td><td class="eff">high</td><td>A single message against a bombe-scale search that others have already run. Nothing here that specialist projects do not do better.</td></tr>
+<tr><td class="n"><span class="rank">16</span></td><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">L&uuml;deritz consular telegram</a></td><td>1911</td><td><span class="odds no">none</span></td><td class="eff">&mdash;</td><td>Forty-three five-figure groups from a Foreign Office codebook. Without the book there is no attack, only guesswork.</td></tr>
 </table>
 
-<h2><span class="num">03</span> Related items examined</h2>
+<h2 id="blocked"><span class="num">03</span> Blocked on access, not on cryptanalysis</h2>
+<p>These are the highest-value items left, and none needs a new idea. Each waits on a reader&rsquo;s account, a copy order, or a server
+coming back. Odds shown are for after the material is in hand.</p>
 <table>
-<tr><th>Target</th><th>Status</th><th>Notes</th></tr>
-<tr><td>Beale Paper no. 1</td><td><span class="st stuck">fabrication</span></td><td>Evidence for a hoax collected; no further work planned.</td></tr>
+<tr><th>Target</th><th>Date</th><th>Odds once open</th><th>What unblocks it</th></tr>
+<tr><td><a href="https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD406%2f1%2f2197&amp;st=1&amp;tc=y&amp;tl=n&amp;tn=n&amp;tp=n&amp;k=&amp;ko=a&amp;r=GD406%2f1%2f2197&amp;ro=s&amp;df=&amp;dt=&amp;di=y">Charles II to the Duke of Hamilton</a></td><td>1650</td><td><span class="odds hi">high</span></td><td>The key survives and is catalogued open: National Records of Scotland <b>GD406/1/2197</b>, &ldquo;Keys for ciphers used in the correspondence of the Duke of Hamilton&rdquo;. A copy order to Edinburgh should settle four letters at once.</td></tr>
+<tr><td><a href="https://searcharchives.bl.uk/catalog/040-001967027">Royalist intercepts, BL Add MS 72438 ff. 9&ndash;10</a></td><td>1646</td><td><span class="odds hi">high</span></td><td>The same volume holds Weckherlin&rsquo;s forty-nine captured Digby keys, so this becomes key matching rather than cryptanalysis. Needs British Library images, offline since the cyber-attack, or a DECODE account.</td></tr>
+<tr><td><a href="https://searcharchives.bl.uk/catalog/040-002095608">Prince Maurice to Prince Rupert</a></td><td>1645</td><td><span class="odds md">even</span></td><td>Same volumes, same blockage. The two known Rupert keys of 1644&ndash;45 do not fit, so it depends on an unpublished key being among the Digby set.</td></tr>
+<tr><td><a href="https://de-crypt.org/decrypt-web/RecordsView/1889">Ferdinand III and the Cardinal-Infante</a></td><td>1634&ndash;40</td><td><span class="odds md">even</span></td><td>All three DECODE records are marked &ldquo;authentication required&rdquo; for images and transcriptions alike. A research account is granted on request.</td></tr>
+<tr><td><a href="https://de-crypt.org/decrypt-web/RecordsView/8590">1520s superscript-digit ciphers</a></td><td>1526&ndash;29</td><td><span class="odds md">even</span></td><td>One of the four Worcester letters is already deciphered and would seed the syllable table. Blocked the same way: DECODE login, and the British Library viewer is down.</td></tr>
+<tr><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney to the Earl of Manchester</a></td><td>1702</td><td><span class="odds md">even</span></td><td>Manuscript already transcribed from Yale. The key is Stepney&rsquo;s own office cipher, asked for in August 1701, in TNA SP 105/106 or BL Add MSS 7058&ndash;78.</td></tr>
+<tr><td><a href="https://gallica.bnf.fr/ark:/12148/btv1b10035574w">Henry III to S&eacute;gur</a></td><td>1583&ndash;86</td><td><span class="odds md">even</span></td><td>Four folios of BnF 500 de Colbert 401. Gallica refuses this client entirely and a retry job is running. The volume&rsquo;s other Henry III cipher is a plain alphabetical syllabary, a strong prior for these.</td></tr>
+</table>
+
+<h2 id="closed"><span class="num">04</span> Closed</h2>
+<table>
+<tr><th>Target</th><th>Date</th><th>Status</th><th>Outcome</th></tr>
+<tr class="done"><td><a href="richelieu.html">Richelieu to M. de Ranc&eacute;</a></td><td>1629</td><td><span class="st solved">solved</span></td><td>Homophonic alphabet, doubling mark and nomenclature recovered ciphertext-only; agrees word for word with <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Avenel (1858)</a>, missed by DECODE R9461&ndash;R9462.</td></tr>
+<tr class="done"><td><a href="armstrong.html">Armstrong to Madison, coded postscript</a></td><td>1808</td><td><span class="st solved">solved</span></td><td>All forty-nine groups, from a code table of 580 groups rebuilt off the State Department&rsquo;s own pencil decodes. The separate code of the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2728">20 February 1808 letter</a> is still open.</td></tr>
+<tr class="done"><td><a href="sunyatsen.html">Telegram to Sun Yat-sen, Swatow</a></td><td>1916</td><td><span class="st solved">solved</span></td><td>Standard telegraph code through a systematic twenty by five condenser; forty-one characters read.</td></tr>
+<tr class="done"><td><a href="hyde.html">Hyde&rsquo;s ciphered superscriptions</a></td><td>1659&ndash;60</td><td><span class="st found">explained</span></td><td>Not a cipher. Dummy numbers, as the 1724 editor of the <i>Life of Barwick</i> states outright.</td></tr>
+<tr class="done"><td>Union cipher telegrams to General Milroy</td><td>1861&ndash;62</td><td><span class="st found">found solved</span></td><td>Stager cipher no. 7, solved by Richard Bean in 2026. The catalogue has since caught up.</td></tr>
+<tr class="done"><td>Confederate Navy dictionary code</td><td>1863</td><td><span class="st found">found solved</span></td><td>Solved by others in August 2026 with Webster&rsquo;s Primary School Dictionary of 1850. Still listed as unsolved.</td></tr>
+<tr class="done"><td>Feynman ciphers 2 and 3</td><td>1987</td><td><span class="st found">found solved</span></td><td>Solved by David Vierra in 2023, verified here by decrypting both from ciphertext alone.</td></tr>
+<tr class="done"><td>Beale Paper no. 1</td><td>1885</td><td><span class="st stuck">fabrication</span></td><td>No key text found across the English Gutenberg corpus; the number choices and letter statistics point to a hoax rather than a lost key. No further work planned.</td></tr>
+</table>
+
+<h2 id="rest"><span class="num">05</span> The rest of the catalogue</h2>
+<p>The list carries roughly sixty unsolved entries; the sections above cover those worth ranking. The remainder are short passages,
+key-dependent fragments or archive-bound manuscripts, held here so that nothing is silently dropped.</p>
+<table>
+<tr><th>Group</th><th>Entries</th></tr>
+<tr><td>English, 16th century</td><td>Throckmorton (1559) and Wool (1568) &middot; Moray and Wood (1568) &middot; SP53/16 no. 78 and no. 79 &middot; SP53/22 f. 52 &middot; ciphers related to Walsingham</td></tr>
+<tr><td>Spanish</td><td>postscript to Ferdinand&rsquo;s letter (1498) &middot; Charles V letter (1521?) &middot; Simancas EST,LEG,1381,180 and 1381,143</td></tr>
+<tr><td>French to 1610</td><td>Catherine de Medici to du Croc (1567) &middot; Birago to Nevers (1571) &middot; Blancmesnil to Nevers &middot; Marie de Medici (1610)</td></tr>
+<tr><td>Italian and Venetian</td><td>Venetian letter in Spanish archives (c.1589) &middot; Cocquet (1616) &middot; Fra Guglielmo Vizani (1637)</td></tr>
+<tr><td>German</td><td>King of Hungary and Bohemia (1634) &middot; further ciphers of Ferdinand III &middot; variable-length figure codes, Austrian archives (1627, 1644) &middot; Starhemberg (1758)</td></tr>
+<tr><td>French, 17th century</td><td>Prince of Cond&eacute; (1654)</td></tr>
+<tr><td>English Civil War</td><td>Ormond and Arran (1678) &middot; Charles I and Boswell (1643) &middot; Richard Forster (1644) &middot; the private cipher of Charles I and Henrietta Maria (1645) &middot; a letter to Prince Rupert (1648) &middot; an intercepted letter of Hyde (1659) &middot; one further intercepted letter</td></tr>
+<tr><td>French, 1690&ndash;1710</td><td>ambassador in Rome (1690) &middot; Catinat (1691 and 1702) &middot; Geertruidenberg (1710) &middot; Villars and Polignac (1710)</td></tr>
+<tr><td>American</td><td>Armstrong to Madison, 20 February 1808, a different code from the postscript solved here, with a disputed 2025 contest solution</td></tr>
 </table>
 
 <p class="muted">Corrections and pointers to existing decipherments are welcome — a catalogue entry marked "unsolved" is often a literature
