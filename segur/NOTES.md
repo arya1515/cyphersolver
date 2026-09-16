@@ -142,13 +142,78 @@ volumes themselves), which marched in 1587 to the disaster of Auneau. *Inference
 
 ## Not done / open
 
-- The word-signs (X, gla, gne, gna, pe, pu, e, H, L, Ne, qua, Ra) and numbers 180, 215?, 900: a fourth letter in the same
-  key, or the key sheet itself (not in this volume — checked ff. 321/333 are the other key), would gloss them.
-- f. 143 (1583): 58 numeric tokens (max 156, code numbers 134/136/156 in the clear text) in a different key of the same
-  design, from a correspondent at Beaupréau to Ségur. Not attackable at this length; its clear text is the useful part.
-- f. 321 and f. 333 (Tomokiyo's reconstruction): not re-derived here.
-- Misreadings I may have made: 93 (*nuine* for *peine*, 95), 66 (*pie-bes* for *pieces*, 60/61), 28 (*emlises* for *Eglises*,
-  18), the 20/10 question. All flagged in `reading.md`.
+- The word-signs (X, gla, gne, gna, pe, pu, e, H, L, Ne, qua, Ra, and now gu) and numbers 180, 215?, 900: the sweep below found
+  no further secretary letter in this key, so a gloss must come from the key sheet (not in this volume) or from the second
+  volume of the Ségur négociation (500 Colbert 402, not fetched).
+- f. 143 (1583): 58 numeric tokens in a different key of the same design; not attackable at this length.
+- f. 366 (below): 24 tokens in Navarre's own hand, probably this key; two of the three lines do not read as French.
+- f. 321: not re-transcribed token by token (struck-through figures, see below); f. 333 is read with Tomokiyo's key and
+  extends it.
+- Misreadings I may have made: 93 (*nuine* for *peine*, 95), 66 (*pie-bes* for *pieces*, 60/61), 28 (*emlises* for
+  *Eglises*, 18), the 20/10 question. All flagged in `reading.md`.
+
+## Sweep of the volume, ff. 321/333, f. 366 (2026-09-16, later)
+
+**Sweep.** All 440 canvases of 500 Colbert 401 were fetched at 1400 px (`fetch_sweep.py`, `sweep/`, git-ignored) and read
+two to a contact sheet at 900 px (`mksheets.py`, `fixsheets.py`, `sheets/`). Cipher occurs on exactly six leaves: the four
+on Tomokiyo's list (ff. 143, 233, 239, 288v), his two Henry-III items (ff. 321, 333), and **one leaf he does not list,
+f. 366 (canvas 406)**, an autograph letter of Navarre to Ségur with three short cipher lines at the foot. Everything else
+in the volume is clear text: Ségur's Latin and French memorials to the princes, letters of Walsingham, Casimir, the
+Landgrave, the Hanse towns, Duplessis-Mornay, Clervant, Turenne, Catherine de Bourbon, Pallavicino, and nine further
+autograph or secretary letters of Navarre in clear (ff. 88–89, 113, 160, 170, 343, 367–370, 375). The figures on f. 227 are
+sums of money; the *8 8 8* on f. 158 is Duplessis's sigla. So there is no fourth secretary letter in the ff. 233 key in this
+volume, and the word-signs cannot be glossed from it.
+
+**f. 333 (canvas 369) read with Tomokiyo's f. 321 key.** Transcribed at 2× (`ct_333.txt`, 121 tokens, superscript 31 after
+52 in line 4). Tomokiyo's table (`key_321.json`: a 12–14 … u 53–55, et 62, syllables ba–vu 63–142 in sixteen rows b c d f g
+h j l m n p q r s t v) reads it almost completely: *[162] desire fort d'avoir des nouvelles de [204] de [189] [190] … et
+leur advis sur le chemin [qu'i]l doit tenir et comment. … [167] assurer qu'aussi tost que les reistres marcheront il montera
+à cheval; [166] et son frere sont de bonne volonté; il fault avancer la levée et la faire marcher le plustost qu'on pourra.*
+The reading forces three values Tomokiyo left blank, **24 = f** (*frere*), **34 = l** (*il*, *montera*), **36 = m**
+(*comment*), and shows 61 = et as well as 62. With those the f. 321 key is the ff. 233 key shifted: letters +8 (a 12–14, b
+15–16, c 17–18, d 19–20, e 21–23 …, u 53–55, x y z 56–59, et 60–62) with three of Tomokiyo's assignments (19 = d, 20 = e,
+26 = f) sitting one place off that pattern, and a syllabary that adds *h* and *j* rows. Five figures in f. 333 disagree
+with the French and were confirmed at 2× as written (55 in *advis*, 19 and 31 in *à cheval*, 88 in *fault*, 20 in
+*marcher*): the encipherer's slips, or homophones the pattern does not predict. f. 333 is a news-sheet in the third person
+(*Le Roy de Navarre a envoyé … le Sr de Vesin de la Marsilliere à Berne*) signed *Henry* at La Rochelle, 10 July 1586 and
+countersigned; 162 = *Le Roy de Navarre* is the king's own sign in his own cipher.
+
+**Blind annealer on f. 333** (`run_333.log`, BLOCK0 = 63, NBLK = 16, 12 seeds × 300 000 steps, clear French as context):
+58 letter tokens over 27 symbols and 44 syllable tokens. No two seeds agree (best −1125.2, scores spread over 14 nats);
+the best key has 35 of 58 letter tokens and 3 of 16 blocks right against `key_321.json`. Seed 8 alone produced *son frere
+sont de bonne volonté* and *doit tenir*. So f. 333 on its own is below unicity for this method, as the du Croc and Moray
+items were at that size; the key stands on the f. 321 interlinear (Tomokiyo) and on the French it produces in f. 333.
+
+**f. 321 (canvas 359).** Every cipher figure is struck through by the decipherer's pen and glossed between the lines. At
+2.4× the strike-through swaps 4/9 and 3/8 systematically (*le chemin* came out 44 17 84 105 98 where the key wants 99 17
+89 105 38), so a figure-level transcription would only be the interlinear reading fed back to itself. Not re-derived;
+recorded as Tomokiyo's ground truth. The letter is addressed to Clervant, Buhy(?) and Ségur as *conseillers en mon conseil
+d'estat et surintendans de ma maison et finances*, i.e. Navarre's council, which settles the sender question for that
+pair of letters as well.
+
+**f. 366 (canvas 406), the new item.** Autograph letter of Navarre (*Mons.r de Segur, j'ay fait tout ce que j'ay peu
+suivant l'avis que m'avez donné pour essayer de retenir ou prolonger la paix … on a fait avancer l'armée et les forces
+contre moy pour donner plus de moyen et authorité aux estrangers contre les enfans de la maison … d'user de toute la
+diligence que vous pourrez pour effectuer ce dont je vous ay chargé*; undated, the peace talks and the advancing royal army
+put it in the autumn of 1586). Three cipher lines at the foot, each with a marginal mark (+, +, n):
+
+```
+106 13 9 20 4 47 16 70 30
+105 65 68 96 30 gu 79 100
+15 41 10 106
+```
+
+The figures 4, 9, 10, 13, 15, 16 sit below 12 and so exclude the f. 321 key (where 1–11 are doubles and nulls); the
+letter-written sign *gu* belongs with *pi, na, gne, gna, gla, qu, qua* of the ff. 233 key. With that key line 3 reads
+**escri** and lines 1–2 read *ri-e-c-h-a-v-f-fe-n* and *re-de-du-pi-n {gu} la-que*: not French, most likely proper
+names in the king's phonetic spelling (a German place or captain? *Riechauffen*), or a memorandum of nomenclature for the
+marginal signs. Both keys' renderings come from `decode.py` on `ct_366.txt`. Left open; 24 tokens.
+
+**Checked:** every canvas of the volume at 900 px, with the even canvases of solo sheets re-paired (`fixsheets.py`); the
+f. 333 figures at 2×; the f. 366 figures at 3×; Tomokiyo's table against f. 333 word by word. **Not checked:** 500 Colbert
+402 (the second Ségur volume) for further letters in this key; Tomokiyo's f. 321 table figure by figure against the leaf;
+the identity of 189/190/204/166/167 in f. 333. **User must verify:** the dating of f. 366 and the reading *escri* before
+either is quoted.
 
 ## Files
 
@@ -158,6 +223,9 @@ volumes themselves), which marched in 1587 to the disaster of Auneau. *Inference
 - `solve.py` (structured annealer; `BLOCK0`, `NBLK`, `NULLPEN`, `MAXNULL` env), `control.py`, `eval_control.py`, `load.py`,
   `crop.py`, `fetch_gallica.py`; logs `run_target.log`, `run_control1..3.log`, `run_target14.log`; `henryiii.htm/.txt` the
   cryptiana article as fetched.
+- Sweep and siblings (2026-09-16, later): `fetch_sweep.py`, `mksheets.py`, `fixsheets.py` (contact sheets; `sweep/`,
+  `sheets/`, `crops321/` git-ignored); `ct_333.txt`, `ct_366.txt`; `key_321.json` (Tomokiyo's f. 321 table plus 24 = f,
+  34 = l, 36 = m, 61 = et); `run_333.log` (blind annealer on f. 333, negative).
 
 Checked: transcription of the three letters at full resolution and 2× re-reads of disputed digits; mod-5 structure; three
 matched controls; convergence over seeds; alphabetical order of the recovered key; word-level French of every cipher span.

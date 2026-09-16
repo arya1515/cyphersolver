@@ -1,0 +1,10 @@
+{
+"_comment": "f.321/f.333 key. Base: Tomokiyo's reconstruction from the f.321 interlinear decipherment (henryiii_figure.png). Added from f.333 reading 2026-09-16: 24=f (frere), 34=l (il, montera), 36=m (comment), 61=et (also 62). Syllable table 63-142, 16 rows b c d f g h j l m n p q r s t v.",
+"letters": {
+"12":"a","13":"a","14":"a","15":"b","17":"c","18":"c","19":"d","20":"e","21":"e","22":"e","23":"e","24":"f","26":"f",
+"30":"i","31":"i","32":"i","33":"l","34":"l","36":"m","37":"n","38":"n","39":"o","42":"p","46":"r","47":"r","48":"s","49":"s","50":"s",
+"51":"t","52":"t","53":"u","54":"u","55":"u","61":"et","62":"et"
+},
+"blocks": {"63":"b","68":"c","73":"d","78":"f","83":"g","88":"h","93":"j","98":"l","103":"m","108":"n","113":"p","118":"q","123":"r","128":"s","133":"t","138":"v"},
+"names": {"162":"[Le Roy de Navarre]","302":"{302}","315":"[vers]","317":"[qui]","322":"[nous]"}
+}

@@ -68,3 +68,19 @@ Only I will tell you **{900} to spare no means {gne} {gna} to succour [us] with 
 ### f. 288v, slip with the letter of 1 April 1586
 
 **{I} am in extreme anxiety at having had no [word] of your {affairs} since {e}; I do not know {where} {to you} to write, nor to whom, nor in what state our {affairs} stand.** I pray you send me your news, and **make, if it is possible for you, the greatest levy that was ever made. The two thousand reiters that Monsieur de Clervant is bound to furnish** would be very necessary to us, **and even more so in {H} {L}**. I pray you confer with him about it. Although our enemies have made no effort against us, and there is in them more ill will than execution, yet **assistance and succour {qua} are very necessary. Our places are well fortified. {We}** have sent **… to Valen[ce?]**, from whom we have long had no news. Make, I pray you, always very sure account of the friendship and good will of your most affectionate master and perfect friend, Henry.
+
+## f. 366 — autograph, [autumn 1586] (found in the sweep of 2026-09-16; canvas 406)
+
+Mons.r de Segur, j'ay fait tout ce que j'ay peu suivant l'avis que m'avez donné pour essayer de retenir ou prolonger la paix,
+et plus je me suis soubmis à tout ce qui y pouvoit aider et servir, et plus je me suis mis à la raison, plus on s'en est
+esloigné, et au mesme temps on a fait avancer l'armée et les forces contre moy pour donner plus de moyen et authorité aux
+estrangers contre les enfans de la maison; ce qui me fait vous prier, Mr de Segur, d'user de toute la diligence que vous
+pourrez pour effectuer ce dont je vous ay chargé et d'y apporter tous les moyens et conseils que vous pourrez, sans laisser
+à ce coup aucune chose en arriere; et parce que vous savez l'estat, disposition et necessité de nos affaires, je ne vous en
+diray davantage si ce n'est pour vous asseurer tousjours et de plus en plus de l'amitié et bonne volonté de vostre bien
+affectionné maistre et parfait amy, Henry.
+
+Cipher at the foot, three lines with marginal marks (+, +, n), rendered with the ff. 233 key:
+`106 13 9 20 4 47 16 70 30` = **ri e c h a v f fe n**; `105 65 68 96 30 gu 79 100` = **re de du pi n {gu} la que**;
+`15 41 10 106` = **escri**. Only the third is French; the first two are probably names in the king's own spelling or a
+note of nomenclature. `gu` is a letter-written sign not seen in ff. 233/239/288v. Open.

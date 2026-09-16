@@ -142,6 +142,20 @@ and <em>pie-be-s</em> for <em>pieces</em> (66 for 60/61) are each one adjacent-v
 est obligé</em>.</li>
 </ul>
 
+<h3>The rest of the volume, f. 333 and f. 366 (added later on 16 September 2026)</h3>
+<p>All 440 canvases of the volume were fetched and read on contact sheets. Cipher occurs on six leaves only: the four above, Tomokiyo&rsquo;s
+ff. 321 and 333, and one leaf not on his list, <strong>f. 366</strong>, an autograph of Navarre to S&eacute;gur from the autumn of 1586 (<em>on a fait avancer l&rsquo;arm&eacute;e
+et les forces contre moy &hellip; d&rsquo;user de toute la diligence que vous pourrez pour effectuer ce dont je vous ay charg&eacute;</em>) with three short cipher
+lines at its foot. Its low figures and a letter-written sign <em>gu</em> put it in the ff. 233 key; the last line reads <em>escri</em>, the first two
+(<em>ri-e-c-h-a-v-f-fe-n</em>, <em>re-de-du-pi-n gu la-que</em>) look like names in the king&rsquo;s own spelling and are left open. There is no further
+secretary letter in this key in the volume, so the word-signs stay unglossed. Nine other letters of Navarre in the volume are in clear.</p>
+<p><strong>f. 333</strong> (La Rochelle, 10 July 1586, a news-sheet in the third person signed <em>Henry</em>) was transcribed and read with Tomokiyo&rsquo;s f. 321
+table: <em>aussi tost que les reistres marcheront il montera &agrave; cheval; [&hellip;] et son frere sont de bonne volont&eacute;; il fault avancer la lev&eacute;e et la
+faire marcher le plustost qu&rsquo;on pourra</em>. The reading adds 24 = f, 34 = l, 36 = m and 61 = et to his table, and shows that key to be the ff. 233
+key shifted by eight in the letters (a 12&ndash;14 &hellip; u 53&ndash;55, et 60&ndash;62) with <em>h</em> and <em>j</em> rows added to the syllabary. The blind annealer on
+f. 333 alone (58 letter tokens) did not converge; the key rests on the f. 321 interlinear decipherment and on the French it yields here. f. 321
+itself has every figure struck through by the decipherer and was not re-transcribed.</p>
+
 <h2 id="context"><span class="num">05</span> Context</h2>
 <p>Jacques de Ségur-Pardaillan was Navarre&rsquo;s agent in England, Denmark and the Empire from 1583, and Claude-Antoine de Vienne, sieur de Clervant, his
 colleague for the German levy; Duke John Casimir of the Palatinate was the prince through whom Huguenot armies of reiters had been raised since 1567.
@@ -158,9 +172,10 @@ belong to the long wait for the army that was finally assembled in 1587 under th
 <li>Mod-5 residue test and structured annealer with clear-text context (<code>segur/solve.py</code>).</li>
 <li>Matched controls with random keys of the same shape (<code>segur/control.py</code>, <code>eval_control.py</code>).</li>
 <li>Key file and renderer (<code>key_v4.json</code>, <code>decode.py</code>); edited reading with token notes (<code>reading.md</code>).</li>
+<li>Sweep of the volume (<code>fetch_sweep.py</code>, <code>mksheets.py</code>); f. 333 and f. 366 transcriptions (<code>ct_333.txt</code>, <code>ct_366.txt</code>); Tomokiyo&rsquo;s table extended (<code>key_321.json</code>).</li>
 </ol>
 <p class="muted">Checked: transcription, structure test, three controls, convergence over seeds, alphabetical order of the recovered key, word-level French
-of every passage. Not checked: Tomokiyo&rsquo;s f. 321 table token by token; the word-signs; the historical glosses. The sender attribution and the readings marked
+of every passage. Not checked: Tomokiyo&rsquo;s f. 321 table figure by figure against the struck-through leaf; the word-signs; the historical glosses; the second S&eacute;gur volume (500 Colbert 402). The sender attribution and the readings marked
 [?] should be verified before they are repeated.</p>
 
 <h2 id="sources"><span class="num">07</span> Sources</h2>
