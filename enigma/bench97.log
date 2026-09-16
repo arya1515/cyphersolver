@@ -1,0 +1,131 @@
+HK1 I-II-III true -751.6 XGEHEIMXSSXGRUFXGLUECKSXPERSOENLIQXBITTE
+HK2 I-II-III true -703.2 AUFDEMWEITERMARSQNIMMTXDREIXBUCHENWALDER
+HK3 I-II-III true -729.3 UNZULAENGLIQXHILFSLAZARETTXFRUEHERESCHUL
+SYN0 III-II-IV true -727.4 INZUFUEHRENSEIXDERSENATHATTEBEREITSDASLE
+SYN1 III-I-II true -734.1 GXDEMBESITZERDESGANZENXUNDPETERDOEHLMANN
+SYN2 II-V-IV true -763.5 BREITENSQWARZENBUQSTABENDIEFIRMAJOHANNBU
+SYN3 I-III-IV true -761.6 SZUTUNXOHNEAUQNUREINEMGEDANKENNAQZUHAENG
+SYN4 IV-III-I true -754.6 NPRAEQTIGELEUTEXGESTERNABENDHATTEESWAHRH
+SYN5 II-I-V true -728.4 NXMEINEHOEQSTEANERKENNUNGXSPREQENSIEDOQL
+SYN6 III-IV-I true -773.8 MMEXHERRKONSULXIQGRUESZESIEXDIESERMAKLER
+SYN7 IV-I-II true -722.2 INEERZIEHERINHABENXESENTSPRIQTNIQTUNSERE
+SYN8 II-V-III true -711.2 TIGEMSQAUFENSTERQENXINDEMEINPAARTOEPFEMI
+HK1 ic7-tri/first 11 0.9s
+HK1 ic7-tri/steep 7 0.0s
+HK1 ic4-bi-tri8 11 0.0s
+HK1 ic3-bi6-tri9 11 0.0s
+HK1 mono-tri6 8 0.0s
+HK1 bi-tri7 3 0.0s
+HK1 tri-only 0 0.0s
+HK1 ic7-tri/back0 14 0.0s
+HK1 ic5-tri/steep 15 0.0s
+HK2 ic7-tri/first 2 0.0s
+HK2 ic7-tri/steep 3 0.0s
+HK2 ic4-bi-tri8 2 0.0s
+HK2 ic3-bi6-tri9 3 0.0s
+HK2 mono-tri6 5 0.0s
+HK2 bi-tri7 3 0.0s
+HK2 tri-only 3 0.0s
+HK2 ic7-tri/back0 22 0.0s
+HK2 ic5-tri/steep 11 0.1s
+HK3 ic7-tri/first 3 0.0s
+HK3 ic7-tri/steep 14 0.1s
+HK3 ic4-bi-tri8 8 0.0s
+HK3 ic3-bi6-tri9 9 0.0s
+HK3 mono-tri6 7 0.0s
+HK3 bi-tri7 9 0.0s
+HK3 tri-only 9 0.0s
+HK3 ic7-tri/back0 3 0.0s
+HK3 ic5-tri/steep 23 0.1s
+SYN0 ic7-tri/first 2 0.0s
+SYN0 ic7-tri/steep 0 0.1s
+SYN0 ic4-bi-tri8 2 0.0s
+SYN0 ic3-bi6-tri9 0 0.0s
+SYN0 mono-tri6 0 0.0s
+SYN0 bi-tri7 0 0.0s
+SYN0 tri-only 0 0.0s
+SYN0 ic7-tri/back0 0 0.0s
+SYN0 ic5-tri/steep 0 0.0s
+SYN1 ic7-tri/first 0 0.0s
+SYN1 ic7-tri/steep 6 0.0s
+SYN1 ic4-bi-tri8 0 0.0s
+SYN1 ic3-bi6-tri9 1 0.0s
+SYN1 mono-tri6 0 0.0s
+SYN1 bi-tri7 1 0.0s
+SYN1 tri-only 1 0.0s
+SYN1 ic7-tri/back0 0 0.0s
+SYN1 ic5-tri/steep 5 0.0s
+SYN2 ic7-tri/first 1 0.0s
+SYN2 ic7-tri/steep 0 0.1s
+SYN2 ic4-bi-tri8 1 0.0s
+SYN2 ic3-bi6-tri9 2 0.0s
+SYN2 mono-tri6 1 0.0s
+SYN2 bi-tri7 0 0.0s
+SYN2 tri-only 0 0.0s
+SYN2 ic7-tri/back0 1 0.0s
+SYN2 ic5-tri/steep 0 0.0s
+SYN3 ic7-tri/first 3 0.0s
+SYN3 ic7-tri/steep 1 0.1s
+SYN3 ic4-bi-tri8 3 0.0s
+SYN3 ic3-bi6-tri9 1 0.0s
+SYN3 mono-tri6 1 0.0s
+SYN3 bi-tri7 1 0.0s
+SYN3 tri-only 0 0.0s
+SYN3 ic7-tri/back0 0 0.0s
+SYN3 ic5-tri/steep 2 0.0s
+SYN4 ic7-tri/first 4 0.0s
+SYN4 ic7-tri/steep 11 0.1s
+SYN4 ic4-bi-tri8 4 0.0s
+SYN4 ic3-bi6-tri9 4 0.0s
+SYN4 mono-tri6 1 0.0s
+SYN4 bi-tri7 0 0.0s
+SYN4 tri-only 2 0.0s
+SYN4 ic7-tri/back0 7 0.0s
+SYN4 ic5-tri/steep 2 0.0s
+SYN5 ic7-tri/first 1 0.0s
+SYN5 ic7-tri/steep 13 0.1s
+SYN5 ic4-bi-tri8 1 0.0s
+SYN5 ic3-bi6-tri9 0 0.0s
+SYN5 mono-tri6 10 0.0s
+SYN5 bi-tri7 5 0.0s
+SYN5 tri-only 0 0.0s
+SYN5 ic7-tri/back0 1 0.0s
+SYN5 ic5-tri/steep 7 0.1s
+SYN6 ic7-tri/first 1 0.0s
+SYN6 ic7-tri/steep 0 0.0s
+SYN6 ic4-bi-tri8 1 0.0s
+SYN6 ic3-bi6-tri9 0 0.0s
+SYN6 mono-tri6 1 0.0s
+SYN6 bi-tri7 0 0.0s
+SYN6 tri-only 0 0.0s
+SYN6 ic7-tri/back0 0 0.0s
+SYN6 ic5-tri/steep 0 0.0s
+SYN7 ic7-tri/first 5 0.0s
+SYN7 ic7-tri/steep 23 0.1s
+SYN7 ic4-bi-tri8 5 0.0s
+SYN7 ic3-bi6-tri9 10 0.0s
+SYN7 mono-tri6 3 0.0s
+SYN7 bi-tri7 2 0.0s
+SYN7 tri-only 1 0.0s
+SYN7 ic7-tri/back0 22 0.0s
+SYN7 ic5-tri/steep 15 0.1s
+SYN8 ic7-tri/first 20 0.0s
+SYN8 ic7-tri/steep 23 0.1s
+SYN8 ic4-bi-tri8 19 0.0s
+SYN8 ic3-bi6-tri9 16 0.0s
+SYN8 mono-tri6 22 0.0s
+SYN8 bi-tri7 3 0.0s
+SYN8 tri-only 4 0.0s
+SYN8 ic7-tri/back0 2 0.0s
+SYN8 ic5-tri/steep 25 0.1s
+
+config             HK1  HK2  HK3 SYN0 SYN1 SYN2 SYN3 SYN4 SYN5 SYN6 SYN7 SYN8  solved  ms/start
+ic7-tri/first       11    2    3    2    0    1    3    4    1    1    5   20  11/12   3.71
+ic7-tri/steep        7    3   14    0    6    0    1   11   13    0   23   23   9/12   2.03
+ic4-bi-tri8         11    2    8    2    0    1    3    4    1    1    5   19  11/12   0.77
+ic3-bi6-tri9        11    3    9    0    1    2    1    4    0    0   10   16   9/12   0.82
+mono-tri6            8    5    7    0    0    1    1    1   10    1    3   22  10/12   0.80
+bi-tri7              3    3    9    0    1    0    1    0    5    0    2    3   8/12   0.78
+tri-only             0    3    9    0    1    0    0    2    0    0    1    4   6/12   0.73
+ic7-tri/back0       14   22    3    0    0    1    0    7    1    0   22    2   8/12   0.93
+ic5-tri/steep       15   11   23    0    5    0    2    2    7    0   15   25   9/12   1.95
