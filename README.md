@@ -1,10 +1,13 @@
 # cyphersolver
 
-Attempts on historically "unsolved" ciphers, drawn from three standard lists: S. Tomokiyo's
+An exercise in benchmarking AI on historically "unsolved" ciphers, and in having some fun with them. The targets
+are drawn from three standard lists: S. Tomokiyo's
 [Unsolved Historical Ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm), Klaus Schmeh's
 [Top 50 unsolved encrypted messages](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/),
-and Elonka Dunin's [famous unsolved codes](https://elonka.com/UnsolvedCodes.html). Method: archival research, historical
-cribs, 19th-century printed editions, and small purpose-built solvers, always run against matched controls so that a
+and Elonka Dunin's [famous unsolved codes](https://elonka.com/UnsolvedCodes.html). Each one is a test of how far an AI
+assistant, working with a human, can get on a problem that has resisted people for decades or centuries: how much is
+archival research, how much is cryptanalysis, and where it stops. Method: archival research, historical cribs,
+19th-century printed editions, and small purpose-built solvers, always run against matched controls so that a
 negative result says something.
 
 - **Website:** https://dbourdeau.github.io/cyphersolver/ — hub, priority queue, and formal write-ups (source in [`docs/`](docs/)).
@@ -179,6 +182,11 @@ cd richelieu && pip install requests && python build_ngrams.py && python solve.p
 - Before treating a catalogue item as unsolved, check the 19th-century printed editions (Avenel, Camden Society,
   Nuntiaturberichte) and the comment threads of the list posts. Six items so far were already solved in the open.
 - Dates in notes are absolute. Sessions are dated so that "since" claims can be checked against the source lists' last-modified dates.
+
+## Contact
+
+Daniel Bourdeau, [dnbourdeau@gmail.com](mailto:dnbourdeau@gmail.com). Corrections, prior solutions I have missed,
+archive copies, or pointers to key material are all welcome. Issues and pull requests on this repository work too.
 
 ## Licence
 
