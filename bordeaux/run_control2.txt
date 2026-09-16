@@ -1,0 +1,65 @@
+control2 810 tokens 125 distinct; letters 471 syl 329 distinct syl slots 62
+810 tokens; letters 56 slots 62 free 0 W 7; 11 segments; 120 units
+TRUE KEY score -841.0
+  it 0 T 3.00 cur -5121.1 best -5121.1 0s
+  it 100000 T 2.14 cur -2999.5 best -2973.5 34s
+  it 150000 T 1.80 cur -2698.8 best -2679.3 52s
+  it 250000 T 1.28 cur -1759.9 best -1759.9 86s
+  it 300000 T 1.08 cur -893.4 best -891.5 102s
+  it 400000 T 0.77 cur -838.9 best -838.9 133s
+  it 450000 T 0.65 cur -838.9 best -838.9 148s
+  it 550000 T 0.46 cur -838.9 best -838.9 179s
+  it 600000 T 0.39 cur -838.9 best -838.9 197s
+  it 650000 T 0.33 cur -838.9 best -838.9 215s
+  it 700000 T 0.28 cur -838.9 best -838.9 233s
+  it 800000 T 0.20 cur -838.9 best -838.9 271s
+  it 900000 T 0.14 cur -838.9 best -838.9 312s
+  it 950000 T 0.12 cur -838.9 best -838.9 331s
+seed 0 best -838.9 acc 0.999
+jaiLAisSEPAsSErDEuxorDINAiREsSAnsNEDOnNErl [85‾] DEVOusecRIRElepREmierPOurnavoirRIeneuaMAnDErQUEDEsreMISEsETLESECOndPOuraVOirVOuluatTEndRELEREtourDEmDEBAasDEcHEzmLE [79‾] QUIlaVAitenVOyecHErcHErpREVOyantQUEcETaitPOurQUElQUEchoSEdextRAorDINAiREILNEmeutPAsSITOtFAitLERApPOrtDESACOnFEREnCEQUEtROismiNIstREsDU [95‾] MEVInREnttrOUVEretMETInREntJUsQUEsapREslHEuREDUDEPArtDELAPOsTEjaiDEPUisVOUSmLE [79‾] ETQUOiQUEJEPUsSEREMEttREauSIeurdebaasLARELATIONDETOutCEQUIsestPAsSE [81‾] crainTEquILnarRIvePAsasSEzTOtaLACOurJELAcHERAiDESALIsFAiielimPAtienCEQUEsmPOurRAitaVOirdETREinFOrMEeDEsSUJEtsDESArETraiTESERASAnsDOuTEMOnSIeurVENUaVOtRECOnNAisSAnCEQUEDEPUisDEuxMOisunNOmME [83‾] MEDECInfRAnCAisaVAiteLEtROuVErmDEBAasETsETaitofFErtDEGAgNErQUElQUEsofFICIersDElarMEemeMEQUElquepLACEETFOMEnteruNEDIVISIONDAnsCEtETatSILA [87‾] VOuLAitappuyerCEDEsSEinpreSUpPOsantQUENOusNEDEVIONsPAsREjETerDEspROPOSITIONsSIaVAnTAGEuSEsPUisQUECEREgiMEelaitenTIeREMEntPOrTEapREFERErlaMITIeDElesPAgNEaCElLEDELA [87‾] QUOiQUECEtTEOUVErtuREFUtFAiTEDAnsunTEmpsauquelTOuTEsNOsinsTAnCEsPOurl [89‾] NEpRODUiSAientauCUnefFEt [81‾] LEDItSIeurDEBAasNESEVOuLUtPOintenGAGErsurCEPIILNEcROyaitPAsQUELACOureutinTEnTIONdentRErDAnsDESEmhlnhLEsentREpRISEsTAntquelLEVErRAitjOUra
+KEY: 0=e 10=e 11=e 15=e 16=s 17=n 18=e 19=n 20=i 21=i 23=m 24=x 25=s 26=s 27=r 29=c 3=a 31=o 32=r 33=a 34=e 35=i 38=q 4-=s 40=m 42=b 43=s 45=j 4==p 7=r 9=d 96==z H=f b=l d=x d-=t e=f ff=n h=e ll=u m=t o=n on=y p=t pd=u q=o q==g u=c w=q x=h x-=e y=v θ=r λ=t φ=r 〃=l 25'=ba 32'=ca 34'=ce 35'=ci 37'=co 39'=cu 40'=da 43'=de 45'=di 47'=do 49'=du 53'=et 55'=fa 56'=fe 59'=fi 60'=fo 62'=fu 65'=ga 66'=ge 73'=he 77'=il 80'=je 84'=ju 86'=la 87'=le 88'=li 91'=lu 92'=ma 93'=me 95'=mi 2¨=mo 4¨=na 5¨=ne 6¨=ni 8¨=no 9¨=nu 10¨=on 11¨=ou 12¨=pa 14¨=pi 15¨=po 19¨=pu 27¨=que 28¨=qui 29¨=quo 30¨=ra 32¨=re 33¨=ri 34¨=ro 36¨=sa 37¨=se 39¨=si 43¨=su 44¨=ta 45¨=te 46¨=ti 47¨=to 49¨=va 50¨=ve 52¨=vi 54¨=vo 55¨=vous
+  it 150000 T 1.80 cur -927.5 best -909.5 74s
+  it 200000 T 1.52 cur -879.8 best -867.7 93s
+  it 250000 T 1.28 cur -880.1 best -867.7 112s
+  it 300000 T 1.08 cur -867.7 best -867.7 132s
+  it 400000 T 0.77 cur -867.7 best -867.7 171s
+  it 500000 T 0.55 cur -867.7 best -867.7 211s
+  it 550000 T 0.46 cur -867.7 best -867.7 231s
+  it 650000 T 0.33 cur -867.7 best -867.7 269s
+  it 700000 T 0.28 cur -867.7 best -867.7 289s
+  it 750000 T 0.23 cur -867.7 best -867.7 309s
+  it 850000 T 0.17 cur -867.7 best -867.7 349s
+  it 950000 T 0.12 cur -867.7 best -867.7 387s
+seed 1 best -867.7 acc 0.993
+jaiLAisSEPAsSErDEuxorDINAiREsSAnsNEDOnNErl [85‾] DEVOusecRIRElepREmierPOurnavoirRIeneuaMAnDErQUEDEsreMISEsETLESECOndPOuraVOirVOuluatTEndRELEREtourDEmDEBAasDEcHEzmLE [79‾] QUIlaVAitenVOyecHErcHErpREVOyantQUEcETaitPOurQUElQUEchoSEdextRAorDINAiREILNEmeutPAsSITOtFAitLERApPOrtDESACOnFEREnCEQUEtROismiNIstREsDU [95‾] MEVInREnttrOUVEretMETInREntJUsQUEsapREslHEuREDUDEPArtDELAPOsTEjaiDEPUisVOUSmLE [79‾] ETQUOiQUEJEPUsSEREMEttREauSIeurdebaasLARELATIONDETOutCEQUIsestPAsSE [81‾] crainTEquILnarRIvePAsasSEzTOtaLACOurJELAcHERAiDESALIsFAiielimPAtienCEQUEsmPOurRAitaVOirdETREinFOrMEeDEsSUJEtsDESArETraiTESERASAnsDOuTEMOnSIeurVENUaVOtRECOnNAisSAnCEQUEDEPUisDEuxMOisunNOmME [83‾] MEDECIneRAnCAisaVAiteLEtROuVErmDEBAasETsETaitdeFErtDEGAgNErQUElQUEsdeFICIersDElarMEemeMEQUElquepLACEETFOMEnteruNEDIVISIONDAnsCEtETatSILA [87‾] VOuLAitappuyerCEDEsSEinpreSUpPOsantQUENOusNEDEVIONsPAsREjETerDEspROPOSITIONsSIaVAnTAGEuSEsPUisQUECEREgiMEelaitenTIeREMEntPOrTEapREFERErlaMITIeDElesPAgNEaCElLEDELA [87‾] QUOiQUECEtTEOUVErtuREFUtFAiTEDAnsunTEmpsauquelTOuTEsNOsinsTAnCEsPOurl [89‾] NEpRODUiSAientauCUnefFEt [81‾] LEDItSIeurDEBAasNESEVOuLUtPOintenGAGErsurCEPIILNEcROyaitPAsQUELACOureutinTEnTIONdentRErDAnsDESEmhlnhLEsentREpRISEsTAntquelLEVErRAitjOUra
+KEY: 0=e 10=e 11=e 15=e 16=s 17=n 18=e 19=n 20=i 21=i 23=m 24=x 25=s 26=s 27=r 29=c 3=a 31=o 32=r 33=a 34=e 35=i 38=q 4-=s 40=m 42=b 43=s 45=j 4==p 7=r 9=d 96==z H=e b=l d=x d-=t e=f ff=n h=e ll=u m=t o=n on=y p=t pd=u q=d q==g u=c w=q x=h x-=e y=v θ=r λ=t φ=r 〃=l 25'=ba 32'=ca 34'=ce 35'=ci 37'=co 39'=cu 40'=da 43'=de 45'=di 47'=do 49'=du 53'=et 55'=fa 56'=fe 59'=fi 60'=fo 62'=fu 65'=ga 66'=ge 73'=he 77'=il 80'=je 84'=ju 86'=la 87'=le 88'=li 91'=lu 92'=ma 93'=me 95'=mi 2¨=mo 4¨=na 5¨=ne 6¨=ni 8¨=no 9¨=nu 10¨=on 11¨=ou 12¨=pa 14¨=pi 15¨=po 19¨=pu 27¨=que 28¨=qui 29¨=quo 30¨=ra 32¨=re 33¨=ri 34¨=ro 36¨=sa 37¨=se 39¨=si 43¨=su 44¨=ta 45¨=te 46¨=ti 47¨=to 49¨=va 50¨=ve 52¨=vi 54¨=vo 55¨=vous
+  it 0 T 3.00 cur -5314.6 best -5314.6 0s
+  it 100000 T 2.14 cur -2891.2 best -2867.5 53s
+  it 150000 T 1.80 cur -2890.1 best -2865.7 82s
+  it 200000 T 1.52 cur -2880.7 best -2865.7 107s
+  it 250000 T 1.28 cur -2868.8 best -2865.5 133s
+  it 450000 T 0.65 cur -2870.5 best -2865.5 235s
+  it 500000 T 0.55 cur -2870.5 best -2865.5 260s
+  it 650000 T 0.33 cur -2866.7 best -2865.5 334s
+  it 700000 T 0.28 cur -2866.2 best -2865.5 359s
+  it 750000 T 0.23 cur -2866.7 best -2865.5 386s
+  it 800000 T 0.20 cur -2866.2 best -2865.5 410s
+  it 900000 T 0.14 cur -2866.2 best -2865.5 457s
+  it 950000 T 0.12 cur -2866.2 best -2865.5 480s
+seed 2 best -2865.5 acc 0.106
+netMAISteTAPOUReTAeDEtreeDESNOtSIeSURseONDIiONet [85‾] DEXAteesSOSIsasSIeteeQUEteseneteSOlietiMUsDEeREDEeaeNETAeETMETACIesQUEteeXAteXAtstesUNisSIMESIeetaDEnDEBOiaDEsILonME [79‾] RIteVOtsoiXArasILesILesSIXAriaeREsETeteQUEtaREsREsieTAsoisSEeaDESNOtSIJIONeatsPOUReTANTVIeFAteMESEsQUEeeDESURCIsFAIRESIiCAREsSONtentOUeeSIeELLE [95‾] NAVUiSIsseePOINTVOUSeaeNAUNEaSIasLIeREsesSIetILtSIELLEDEPOUReeDEMAISQUEaUNnetDEQUIteZEnME [79‾] ETSAtRELESQUIeTASINAseSIitTANTeteseriesMAISSIMAISUNEPLUSDEVItsCARIeeeePOURsTA [81‾] seetsUNitJIaeaSOnePOUReieTAoVIeeMAISCItaLESMAISsILSEtDESURMIeFAttestePOURetasCAREseQUEteSEtseXAtesETSItiFEeNAlDEsTELESseDESUReETaitUNTASESURsaDItUNNIaTANTstaVOUSPEiXAeSICIaNOteSURaCAREDEQUIteDEtiNItatsPAReNA [83‾] NADECEitSEsBUtseVOtesMEsSONtVOUSeeDEBOisETeETetsetFAIREesDEGAmONeREtREsetFAITCEsesDEtiaNAoneNAREsetesMAISCAETFENAiseetONDESVUTANTPLUSCUssCAsETieTANTMAIS [87‾] XAtMAISteesstreeCADEeTAtesaeTEsQUEsiisREPARteONDEVUPLUSaPOUReSInETeeDEesSONQUETANTUNEPLUSeTANTeVOsTIGEtTAsQUIteRECASImtNAetiteaeUNEsSINAssQUEeUNisSIFAIRESIeseNEUNEeDEsesPOURmONeCAsMEDEMAIS [87‾] SAtRECAsUNPOINTVOUSestSIFIeFAtUNCUeetsUNeseetetatVItUNaPARstaeTIaCAsQUEtet [89‾] ONsSONELLEtSURtessetCOisaFAIREs [81‾] MEDESsTANTeteDEBOisONTAXAtMOsQUEtsesiGAGEesteCAPUJIONsSONritsPOURsREMAISCIteetstsUNiUNEPLUSsoasSIeCUisDETAnissiMEeoieSIsSOTAaTIesetatMEVOUSeSEtenPOINTai
+KEY: 0=s 10=e 11=e 15=e 16=s 17=a 18=a 19=e 20=t 21=t 23=e 24=i 25=e 26=e 27=a 29=s 3=e 31=e 32=e 33=i 34=o 35=t 38=i 4-=s 40=n 42=r 43=a 45=n 4==s 7=e 9=s 96==o H=t b=s d=r d-=s e=a ff=i h=e ll=t m=e o=s on=r p=e pd=t q=e q==m u=s w=e x=i x-=l y=n θ=e λ=s φ=e 〃=t 25'=bo 32'=bu 34'=ca 35'=ce 37'=ci 39'=co 40'=cu 43'=de 45'=des 47'=di 49'=elle 53'=et 55'=fa 56'=faire 59'=fait 60'=fe 62'=fi 65'=ga 66'=ge 73'=il 77'=ji 80'=les 84'=li 86'=mais 87'=me 88'=mi 91'=mo 92'=mu 93'=na 95'=ne 2¨=ni 4¨=no 5¨=on 6¨=ou 8¨=par 9¨=pe 10¨=plus 11¨=point 12¨=pour 14¨=pu 15¨=que 19¨=qui 27¨=re 28¨=ri 29¨=sa 30¨=se 32¨=si 33¨=so 34¨=son 36¨=sur 37¨=ta 39¨=tant 43¨=te 44¨=ti 45¨=un 46¨=une 47¨=vi 49¨=vo 50¨=vous 52¨=vu 54¨=xa 55¨=ze
+  it 0 T 3.00 cur -5428.2 best -5428.2 0s
+  it 300000 T 1.08 cur -2709.3 best -2705.1 137s
+  it 400000 T 0.77 cur -2713.7 best -2704.7 181s
+  it 450000 T 0.65 cur -2705.8 best -2704.7 207s
+  it 500000 T 0.55 cur -2703.5 best -2703.5 230s
+  it 550000 T 0.46 cur -2704.9 best -2703.5 253s
+  it 600000 T 0.39 cur -2703.5 best -2703.5 278s
+  it 650000 T 0.33 cur -2704.2 best -2703.5 301s
+  it 750000 T 0.23 cur -2703.5 best -2703.5 347s
+  it 900000 T 0.14 cur -2703.6 best -2703.5 414s
+  it 950000 T 0.12 cur -2703.5 best -2703.5 436s
+seed 3 best -2703.5 acc 0.344
+mesLAseTEPEtTEeDEntesDESNAsSAeTAntNEDOnNErl [85‾] DEyntecSESAlinSAesesPOURernemessSEtniniMAnDErQUEDEetiMITEeENLETECOitPOUReeeyiryelnesUNEntSALESAeeetDEnDEBOitDEcHIenLE [79‾] QUIleVOisinyaicHIrcHIenSAyaineQUEcENesiPOURntQUElQUEcaeTEtiitREetDESNAsSAILNEeiesPEtTIVIeETseLEREnPOURreDETACOnFAIRESAnCEQUEsSIiensNOteSAtELLE [95‾] MEVUnSAnteePARVOUStieMEVEnSAnsJEtQUEsenSAelHIeSAELLEDEPEtiDELAPOURtUNEmeiDEQUAseZOnLE [79‾] ENRAiQUEILSQUAtTESAMEteSAinTIenetipiesLASALAVEONDEVIntCEQUIeetePEsTE [81‾] ctesnUNEinILnetSEmePEtitTEeVIieLACOntILSLAcHIREsDETALIeETssilsePEeiinCEQUEsePOURneREsseysstENSAinGEsMEtDEsTUILSseDETArENtisUNETERETAntDOnUNEMOnTIentVOUSNUiyiSACOnNAitTAnCEQUEDEQUAseDEniMOstenNOUSeME [83‾] MEDECIneREnCAsseVOseeLEtSInVOUSeeDEBOisENtENestdeFAIREetDEHAiNEtQUElQUEsdeFICIeesDElitMEiniMEQUElieenLACEENGEMEntitnNEDESVUTIONDAnsCEtENiiTILA [87‾] yeLAsienneaitCEDEeTEsintiTUnPOURsintQUENOUSneNEDEVUONtPEtSAmENeeDEenSIPOURTIVEONeTIeVOnUNHEnTEsQUAitQUECESAisMEeliieiiVEeSAMEntPOURsUNEinSAFAIRESAsleMIVEeDElesPEiNEeCElLEDELA [87‾] RAsQUECEsUNEPARVOUSeteSAGUeETsUNEDAitenUNEenteeieilVIeUNEtNOUSsintUNnCEsPOURerl [89‾] NEnSIELLEsTAsenteeCUnesFAIREs [81‾] LEDESsTIintDEBOisNETEynLOsPOURsnienHAHErsetCEPOINTILNEcSIaistPEsQUELACOetensinUNEnVEONtinsSAsDAnsDETEnalnaLEeineSAnSETEtUNisinilLEVOUStREsemPARti
+KEY: 0=e 10=e 11=i 15=e 16=s 17=n 18=i 19=i 20=s 21=s 23=e 24=i 25=e 26=t 27=t 29=c 3=e 31=e 32=t 33=i 34=i 35=i 38=i 4-=s 40=n 42=p 43=t 45=m 4==n 7=r 9=t 96==e H=e b=l d=t d-=t e=s ff=n h=i ll=e m=e o=n on=a p=i pd=n q=d q==i u=c w=i x=a x-=t y=m θ=e λ=s φ=s 〃=l 25'=bo 32'=ca 34'=ce 35'=ci 37'=co 39'=cu 40'=da 43'=de 45'=des 47'=do 49'=elle 53'=en 55'=et 56'=faire 59'=fi 60'=ge 62'=gu 65'=ha 66'=he 73'=hi 77'=il 80'=ils 84'=je 86'=la 87'=le 88'=li 91'=lo 92'=ma 93'=me 95'=mi 2¨=mo 4¨=na 5¨=ne 6¨=no 8¨=nous 9¨=nu 10¨=on 11¨=par 12¨=pe 14¨=point 15¨=pour 19¨=qua 27¨=que 28¨=qui 29¨=ra 30¨=re 32¨=sa 33¨=se 34¨=si 36¨=ta 37¨=te 39¨=ti 43¨=tu 44¨=un 45¨=une 46¨=ve 47¨=vi 49¨=vo 50¨=vous 52¨=vu 54¨=y 55¨=zo

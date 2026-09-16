@@ -1,0 +1,66 @@
+810 tokens; letters 57 slots 73 free 10 W 16; 36 segments; 120 units
+  it 0 T 3.00 cur -5190.4 best -5190.4 0s
+  it 100000 T 2.14 cur -3126.7 best -3097.8 21s
+  it 200000 T 1.52 cur -3063.7 best -3039.9 38s
+  it 300000 T 1.08 cur -3013.9 best -3001.5 55s
+  it 350000 T 0.91 cur -3007.5 best -3001.5 64s
+  it 400000 T 0.77 cur -3011.1 best -2995.2 72s
+  it 450000 T 0.65 cur -2996.4 best -2992.0 81s
+  it 550000 T 0.46 cur -2993.2 best -2990.4 97s
+  it 600000 T 0.39 cur -2992.4 best -2990.4 106s
+  it 650000 T 0.33 cur -2990.8 best -2989.9 116s
+  it 700000 T 0.28 cur -2991.3 best -2989.9 124s
+  it 750000 T 0.23 cur -2991.0 best -2989.9 132s
+  it 800000 T 0.20 cur -2989.9 best -2989.9 141s
+  it 850000 T 0.17 cur -2989.9 best -2989.9 150s
+  it 950000 T 0.12 cur -2990.3 best -2989.9 168s
+seed 0 best -2989.9 acc nan
+ [94‾] yeiBIeDOGELUYeinn [79‾] neJIeniinUNenFAIREeFEILeZIaeyaeGEiieGUSIiNEILeXECUyeDOeDOVOUSeniILdILVOUSaiNETAET [94‾] sGEiiDIiPInPOURtILiiuNECIILsNE [86‾] eNEinautesiiiPInniTUsPAeBIeNEan [96‾] iXAetlePA [96‾] iFIteeTAaONini [96‾] DOSELESteNEVIiNEniaRUyVOUSRAiOUiynDOinnETeTAVETIiONNEeQUIneteeMAISETiiVEeaFAITCEGEJAi [332] ina [396‾] iiBIene [344] ieSIeFAITeDOTIieNEMA [84‾] ETiieGE [89‾] DOGUeTANTeXAniyeDUDOisETeVAETGIUNJAiienFAIREFIePETANT [31‾] teILleHUeisUNeDOinGEnILeVAmelHUeOUciDAaeneJAiieNEVOUSaleNA [96‾] elSUiVIlLAeJAeiNEsUNGEnieetilFAITlieDOtiONETeILLUiiiiLAaeFI [96‾] aFAIREe [96‾] eNEiiuePIDEDUGELEXILAeCEtiiniLAETeinQUIeiLESeiETVOUSONineAVECiineTANTFIDEsliGUe [94‾] iteSUReDOi [94‾] DOSILESenDOTANTFIENTA [96‾] iPAlILNE [94‾] iPOINTSIXIeBIeTAteFIPEXEiNEeZAneONe [96‾] ageNAeGUETeDOFEVIMEeILBAnisTIenFAITliinLAeinQUIeJAiiVIleGEeenETiyiiNEeVOUSGUETeiLAe [86‾] eNEinableeXIaFAITiiBIenENiNE [96‾] QUOini [96‾] inZIemET [90‾] yLESTIiILTAeENtiILDOVUTARIFIisaLACIeROnNEFIONJAiieneTANTILPOURLESFAIREDETANTBIeJAPA [25‾] eTAETiENlILDOTIiieOUyia [28‾] GIii [93‾] BIsTANTNEREsETilETiiRUiyDUGIUNJAid [96‾] aiENtETinZIelaILETeieGEVA [43‾] niLESetail [95‾] NEeNECIILsDEmENtILeNECOMITIiCIsLESnteFIDESnENta [96‾] ETenDUe [94‾] dPIBIeDOGIitaILleisFAITnETyTANTNEaeilsTEROeNEETeSAgeSAeZIeiiiiTEint [94‾] VIleneesnienJUinILiseELLEVOUSeVOUSenriaFAITniNETEaET [86‾] eNEiauNETAXAFIETiineTANTFIiFAITaLAPECAaNESONageSIiFIeetineVOUSiLAesUNeNE [94‾] eJAJONEt
+KEY: 0=b 10=e 11=a 15=i 16=s 17=e 18=l 19=t 20=n 21=i 23=t 24=r 25=e 26=i 27=d 29=n 3=e 31=g 32=e 33=i 34=i 35=u 38=e 4=i 4-=e 40=n 42=e 43=l 45=s 4==e 7=s 9=l 96==n H=s b=e d=a d-=s e=s ff=m h=s ll=e m=n o=n on=t p=n pd=i q=t q==n u=i w=t x=i x-=l y=a θ=n λ=e φ=e 〃=c 4'=avec 14'=ba 25'=bi 26'=ca 28'=ce 29'=ci 30'=co 31'=de 35'=des 38'=di 39'=do 40'=du 41'=elle 42'=en 43'=et 44'=faire 45'=fait 52'=fe 53'=fi 54'=ge 55'=gi 56'=gu 62'=hu 63'=il 64'=ja 65'=ji 66'=jo 68'=ju 73'=la 74'=le 75'=les 85'=lu 99'=luy 5¨=ma 6¨=mais 07¨=me 16¨=mi 19¨=na 20¨=ne 21¨=on 22¨=ou 23¨=pa 24¨=pe 28¨=pi 32¨=point 37¨=pour 38¨=qui 39¨=quo 41¨=ra 42¨=re 46¨=ri 49¨=ro 53¨=ru 61¨=sa 66¨=se 67¨=si 69¨=son 70¨=sur 73¨=ta 74¨=tant 75¨=te 76¨=ti 77¨=un 78¨=va 79¨=ve 84¨=vi 85¨=vous 86¨=xa 87¨=xe 96¨=xi 97¨=y 98¨=za 99¨=zi 54=vu 90=cu 99=da 53=de 63=tu 77=du 97=il 98=qui 76=su 96=la
+  it 0 T 3.00 cur -5367.7 best -5367.7 0s
+  it 50000 T 2.53 cur -3111.5 best -3092.9 12s
+  it 150000 T 1.80 cur -3018.0 best -2991.1 37s
+  it 200000 T 1.52 cur -3007.5 best -2987.0 49s
+  it 300000 T 1.08 cur -2954.9 best -2940.7 71s
+  it 400000 T 0.77 cur -2879.5 best -2876.9 94s
+  it 450000 T 0.65 cur -2875.0 best -2874.4 107s
+  it 550000 T 0.46 cur -2873.3 best -2872.2 130s
+  it 600000 T 0.39 cur -2874.3 best -2872.2 142s
+  it 650000 T 0.33 cur -2873.8 best -2872.2 154s
+  it 700000 T 0.28 cur -2872.5 best -2872.1 166s
+  it 800000 T 0.20 cur -2872.1 best -2871.8 191s
+  it 900000 T 0.14 cur -2871.9 best -2871.8 216s
+  it 950000 T 0.12 cur -2871.8 best -2871.8 228s
+seed 1 best -2871.8 acc nan
+ [94‾] XIenBIeENGILUerea [79‾] seJIssentUNeaFAITeGAILSeZAeeXIeeGIreeHEREnNEILSeVOUSDOXIeENeENVIeneILSsILSVIenNESEFAIRE [94‾] aGIreDONTtOUsPARtILStenNECIILSeNE [86‾] eNEreenseurenOUsseSEtNOSeBIeNEes [96‾] nVOetnoNOS [96‾] eGEtesSEeNIree [96‾] ENRALIteNEVEeNEsteQUEXIVIPOnNOeXIsENretFAIREeSEVATIeNINEeOUsetesMAISFAIREenVAefFUCEGIJEe [332] ree [396‾] eoBIese [344] nsREsFUnENTIenNEMA [84‾] FAIRErleGI [89‾] ENHEeTAeVOseXIeESTENtaFAIREeUNEFAIREGUUNJEreetFAITGEeNOUSTA [31‾] sePOURneILenaUNeENreGInPOUReUNEtatILsNOsnOUeeseJEreeNEVIensMU [96‾] enTEeVEnLEeJEenNEaUNGIseeetenFUtneENteNIFAIREsILSLOenreLEesGE [96‾] eFAITe [96‾] eNEtensOUDESESTGILESVULEsCEtensePOURFAIREeraPEenLIenFAIREVINIretAVECreseTAGEDESetnHEe [94‾] rteRUeENt [94‾] ENRELInsENTAGEETSE [96‾] eNOStILSNE [94‾] nPAREVUnBIeSEteGENOUSVOUSeNEeXUseNIe [96‾] eneMUeHEFAIREeENGAVEMEeILSBAseaTInsFUtnreLEstaPEsJEreVEteGIestFAIREeXIenNEeVIHEFAIREetLEs [86‾] eNEreentesVUeFUenBIenETeNE [96‾] PIree [96‾] reZAetFAIRE [90‾] XILITIeILSSEsETteILSENPASSEPOURGEneeLECIeQUAsNEGENIJEreeseTAPOURPARLIFAITNOTABIeJENOS [25‾] sSEFAIREnETtILSENTIeriNOXIte [28‾] GUen [93‾] BIeTANEPOINTaFAIREenFAIREteQUEeXIESTGUUNJErs [96‾] onETsFAIREreZAeteILSFAIREensGIUNE [43‾] seLIntent [95‾] NEeNECIILSeDEStETsILSeNEDEMITIeCIeLIsseGEDIsETte [96‾] FAIREetDESe [94‾] sOUBIeENGUeteILSnenaFUtFAIREXITANEeenaeTEQUAeNEFAIREsQUInsQUIeZAenoteTEren [94‾] VEtetesetnntLAreILSnaeESTREVIeVIetiteFUtnNETEeFAIRE [86‾] eNEtenNESEVOGEFAIREreseTAGEnFUeLENOUSCAeNERIeneREeGEanteteVItLEsaUNeNE [
+KEY: 0=n 10=i 11=o 15=t 16=e 17=s 18=n 19=t 20=a 21=e 23=s 24=i 25=e 26=n 27=s 29=t 3=s 31=n 32=e 33=n 34=e 35=n 38=s 4=o 4-=e 40=t 42=a 43=n 45=e 4==o 7=u 9=t 96==n H=e b=t d=e d-=t e=e ff=t h=a ll=e m=s o=s on=t p=e pd=l q=t q==n u=e w=n x=r x-=a y=f θ=t λ=s φ=n 〃=s 4'=avec 14'=ba 25'=bi 26'=ca 28'=ce 29'=ci 30'=de 31'=des 35'=di 38'=dont 39'=en 40'=est 41'=estre 42'=et 43'=faire 44'=fait 45'=fu 52'=ga 53'=ge 54'=gi 55'=gu 56'=he 62'=il 63'=ils 64'=je 65'=ji 66'=ju 68'=la 73'=le 74'=les 75'=li 85'=lo 99'=lu 5¨=ma 6¨=mais 07¨=me 16¨=mi 19¨=mu 20¨=ne 21¨=ni 22¨=no 23¨=nos 24¨=nous 28¨=ou 32¨=pa 37¨=par 38¨=pe 39¨=pi 41¨=po 42¨=point 46¨=pour 49¨=qua 53¨=que 61¨=qui 66¨=ra 67¨=re 69¨=ri 70¨=ru 73¨=se 74¨=ta 75¨=te 76¨=ti 77¨=un 78¨=une 79¨=va 84¨=ve 85¨=vi 86¨=vo 87¨=vous 96¨=vu 97¨=xi 98¨=xu 99¨=za 54=pas 90=do 99=ou 53=no 63=se 77=des 97=pour 98=ou 76=te 96=pour
+  it 100000 T 2.14 cur -3023.4 best -2995.4 28s
+  it 150000 T 1.80 cur -3024.5 best -2968.7 42s
+  it 500000 T 0.55 cur -2938.8 best -2933.2 138s
+  it 550000 T 0.46 cur -2937.3 best -2933.2 152s
+  it 600000 T 0.39 cur -2935.4 best -2932.8 167s
+  it 650000 T 0.33 cur -2937.0 best -2932.0 179s
+  it 700000 T 0.28 cur -2932.7 best -2932.0 191s
+  it 750000 T 0.23 cur -2933.2 best -2932.0 205s
+  it 800000 T 0.20 cur -2932.7 best -2931.3 218s
+  it 900000 T 0.14 cur -2931.5 best -2931.3 244s
+seed 2 best -2931.3 acc nan
+ [94‾] ZAteBItDESGEMAtiee [79‾] etJEnenesTIteETtFAITILtZUetZAetGEintHISOeONILtVUENZAsDESeDESVItenILiILVIeeONSUREN [94‾] aGEinDEsPOUReQUAeILsenONCEILsON [86‾] sONieenreginePOUReenFAIREsPOtBIsONet [96‾] tVOUSteetPO [96‾] nFIeesSURePARien [96‾] DESSILIetONVEnONeseSAZAVIRAePEnZAeDESiesENtSURUNETEnPARONsUNeseenMIENneUNEthFAIRECAGEILSn [332] iee [396‾] nsBIset [344] esSOtFAIREsDESTEnsONMAIS [84‾] ENietGE [89‾] DESHIsTAtVOUSenZAtDODESsaENtUNENGOTIILSintsETFItPOINTTA [31‾] reLESetHUteaTItDESieGEeLESsUNiltHUnPEuePOINTetetILSintONVIeenNO [96‾] seQUEnVEeLEsILSteONaTIGEensteneFAIREtetDESenPARENtILLUneinLEenFI [96‾] eETs [96‾] sONsentPOURCUDOGELESyLEnCAeneenFAIREENtieQUIseLIteENVIPARierAVECineeTAFICUlteHIs [94‾] iesSUtDESs [94‾] DESSOLIseDESTAFIELLESUR [96‾] nPOtILON [94‾] ePUSOysBItSURetFIPOINTVUnONsZEesPARt [96‾] estNOtHIENsDESFAITVENEtILBEenaTEseFAIREteieLEtseQUItILSinVEttGEensENnZAneONtVIHIENtsLEt [86‾] sONieestenyeFAIREneBIteELLEnON [96‾] QUOien [96‾] ieZUtiEN [90‾] ZALITEnILSURtELLEenILDESTESURRIFIeleLECEsRUeONFIPARILSinteeTALESQUALIETOUTABIsILSPO [25‾] sSURENeELLEtILDESTEnioPEZAse [28‾] GOne [93‾] BIeTAONREaENneENseSAeZADOGOTIILSii [96‾] reELLErENieZUtteILENtenGEUN [43‾] enLIsmeet [95‾] ONtONCEILaCUiELLErILsONCONITEnCEeLIereFIDAeELLEme [96‾] ENtsSONt [94‾] iPOURBItDESGOneeILeteaFAIREsENZATAONeteneTANTRUsONENtSEstSEsZUtesseTANTied [94‾] VEttietliessJOieILtatDUVItVItilseFAIREieONTANTeEN [86‾] sONsenONSURVOUSFIENieeeTAFIeFAIREeLEPOINTBOeONSONestSOnFIlsenosVIsLEtaTItON [94‾] sILSJIONe
+KEY: 0=s 10=o 11=r 15=s 16=e 17=t 18=e 19=m 20=e 21=e 23=r 24=l 25=e 26=t 27=i 29=s 3=n 31=s 32=t 33=e 34=e 35=n 38=s 4=s 4-=t 40=o 42=l 43=e 45=l 4==t 7=g 9=t 96==e H=a b=r d=e d-=s e=s ff=i h=a ll=s m=e o=t on=e p=e pd=e q=e q==e u=n w=d x=i x-=n y=h θ=i λ=n φ=s 〃=u 4'=avec 14'=be 25'=bi 26'=bo 28'=ca 29'=ce 30'=co 31'=cu 35'=da 38'=de 39'=des 40'=do 41'=du 42'=elle 43'=en 44'=et 45'=faire 52'=fait 53'=fi 54'=ge 55'=go 56'=hi 62'=hu 63'=il 64'=ils 65'=je 66'=ji 68'=jo 73'=le 74'=les 75'=li 85'=lu 99'=ma 5¨=mais 6¨=mi 07¨=ne 16¨=ni 19¨=no 20¨=on 21¨=par 22¨=pe 23¨=po 24¨=point 28¨=pour 32¨=pu 37¨=qua 38¨=qui 39¨=quo 41¨=ra 42¨=re 46¨=ri 49¨=ru 53¨=sa 61¨=se 66¨=si 67¨=so 69¨=son 70¨=su 73¨=sur 74¨=ta 75¨=tant 76¨=te 77¨=ti 78¨=un 79¨=une 84¨=ve 85¨=vi 86¨=vous 87¨=vu 96¨=y 97¨=za 98¨=ze 99¨=zu 54=te 90=en 99=point 53=ou 63=faire 77=son 97=les 98=un 76=que 96=faire
+  it 0 T 3.00 cur -5390.6 best -5390.6 0s
+  it 50000 T 2.53 cur -3213.4 best -3186.3 17s
+  it 150000 T 1.80 cur -2969.3 best -2937.0 45s
+  it 200000 T 1.52 cur -2948.4 best -2913.3 59s
+  it 250000 T 1.28 cur -2921.8 best -2906.1 73s
+  it 300000 T 1.08 cur -2900.3 best -2892.1 87s
+  it 350000 T 0.91 cur -2890.7 best -2888.1 100s
+  it 500000 T 0.55 cur -2889.1 best -2883.4 143s
+  it 550000 T 0.46 cur -2890.5 best -2883.4 156s
+  it 600000 T 0.39 cur -2885.6 best -2883.4 170s
+  it 650000 T 0.33 cur -2882.7 best -2882.5 186s
+  it 750000 T 0.23 cur -2881.2 best -2881.1 212s
+  it 800000 T 0.20 cur -2881.7 best -2881.1 225s
+  it 950000 T 0.12 cur -2881.1 best -2881.1 265s
+seed 3 best -2881.1 acc nan
+ [94‾] yseCEtENGILUsili [79‾] stJAsseeaTOsiFEtGAILtZEetyesGIietHEREeNEILtVOUSPAysENeENVIsieILlILVIeeNESEFAIT [94‾] aGIieDUePAsPASsILestNEDEILeNE [86‾] sNEiletsefieePAsseQUEnONsCEsNEen [96‾] eVOsserON [96‾] eGEseuSEeNOUSile [96‾] ENRALIstNEVEeNEseeQUIyVIPOINTeNUeysENilaFAITsSEUNETIeNOUSNEsQUEsssenMAISFAITeeUNEsiFIDAGIILSe [332] ile [396‾] erCEsst [344] euREsFInENTIenNEMA [84‾] FAITintGI [89‾] ENHEsSONsVOseytESTENeaFAITtUNFAITGUTOILSiesaFEGEtOUSON [31‾] sePOINTetHOseaTOtENilGItPOINTsUNsetHOnNUreNOUSetstILSiesNEVIeenMO [96‾] ssyeVEsLEsILSseNEaTOGIsestdesFItetENseNOUSFAITsILLOeeieLEesGE [96‾] eFEs [96‾] sNEestsPADIESTGILESVULEnDAseeseTAFAITtiiPEseLIteFAITVINOUSiloBEieseSONGEDIsteHEs [94‾] issSAtENe [94‾] ENRELInsENSONGEETSE [96‾] eONtILNE [94‾] ePARREVUnCEtSEstGEOUVOUSeNEsZAssNOUSt [96‾] entMOtHEFAITsENGAVEMEtILCAseaTInsFIteilLEseiPEsILSieVEtsGIenaFAITeyeeNEtVIHEFAITseLEs [86‾] sNEilestenVUeFIeeCEttETeNE [96‾] PLUSile [96‾] ilZEtsFAIT [90‾] yLITIeILSEsETseILENPOINTSEPUGEeseLEDEsQUEsNEGENOUSILSiesseSONPOINTPASLIFEDESONCEsILSON [25‾] uSEFAITeETtILENTIeinNUyee [28‾] GUee [93‾] CEnSONNEPOURaFAITesFAITesQUIsyESTGUTOILSil [96‾] reETsFAITilZEsteILFAITsenGIUN [43‾] seLInceet [95‾] NEtNEDEILsDIsETsILsNEDESMITIeDEnLIsseGEDONTsETce [96‾] FAITsaTIs [94‾] lPACEtENGUeseILeteaFIaFAITySONNEeteinTEQUEsNEFAITsQUOnsQUOsZEseresTEile [94‾] VEttiessienaLAilILeasESTREVItVIsiteeFIieNETEeFAIT [86‾] sNEeetNESEVOGEFAITisseSONGEeFIeLEOUCIeNERIentREeGEensensVIeLEsaTOsNE [94‾] sILSJENEd
+KEY: 0=s 10=n 11=r 15=e 16=n 17=s 18=s 19=c 20=i 21=s 23=s 24=t 25=e 26=e 27=l 29=a 3=s 31=n 32=t 33=e 34=s 35=t 38=u 4=r 4-=s 40=n 42=e 43=e 45=s 4==r 7=f 9=t 96==i H=s b=o d=e d-=n e=e ff=s h=a ll=s m=s o=n on=d p=l pd=n q=s q==t u=e w=e x=i x-=i y=i θ=i λ=n φ=n 〃=r 4'=be 14'=ca 25'=ce 26'=ci 28'=da 29'=de 30'=des 31'=di 35'=dont 38'=du 39'=en 40'=est 41'=estre 42'=et 43'=fait 44'=fe 45'=fi 52'=ga 53'=ge 54'=gi 55'=gu 56'=he 62'=ho 63'=il 64'=ils 65'=ja 66'=je 68'=la 73'=le 74'=les 75'=li 85'=lo 99'=lu 5¨=ma 6¨=mais 07¨=me 16¨=mi 19¨=mo 20¨=ne 21¨=nous 22¨=nu 23¨=on 24¨=ou 28¨=pa 32¨=par 37¨=pas 38¨=pe 39¨=plus 41¨=point 42¨=pour 46¨=pu 49¨=que 53¨=qui 61¨=quo 66¨=ra 67¨=re 69¨=ri 70¨=sa 73¨=se 74¨=son 75¨=te 76¨=ti 77¨=to 78¨=un 79¨=une 84¨=ve 85¨=vi 86¨=vo 87¨=vous 96¨=vu 97¨=y 98¨=za 99¨=ze 54=point 90=pa 99=nous 53=de 63=que 77=ti 97=point 98=que 76=y 96=ta

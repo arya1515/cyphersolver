@@ -1,0 +1,47 @@
+810 tokens; letters 57 slots 73 free 10 W 16; 36 segments; 89 units
+  it 0 T 3.00 cur -4964.3 best -4964.3 0s
+  it 50000 T 2.53 cur -3548.1 best -3476.7 11s
+  it 200000 T 1.52 cur -3438.1 best -3414.7 38s
+  it 300000 T 1.08 cur -3423.5 best -3413.7 54s
+  it 350000 T 0.91 cur -3412.4 best -3404.1 64s
+  it 400000 T 0.77 cur -3398.5 best -3390.6 73s
+  it 450000 T 0.65 cur -3387.3 best -3380.4 82s
+  it 500000 T 0.55 cur -3384.8 best -3377.6 91s
+  it 550000 T 0.46 cur -3381.7 best -3377.5 100s
+  it 650000 T 0.33 cur -3378.9 best -3377.3 119s
+  it 750000 T 0.23 cur -3378.0 best -3377.0 138s
+  it 950000 T 0.12 cur -3377.0 best -3377.0 174s
+seed 0 best -3377.0 acc nan
+ [94‾] NEnnPEiREVAZUnite [79‾] riXEsreneLIneTAiTIVUiNOeiNEenVAieiVIHAnCEVUiMUMUNEiREeREMInceVUtVUMIenCEJESO [94‾] eVAieRAnDIrDUtVUnanCEQUAVUtCE [86‾] iCEitenlelienDIrreNOmDAnPEiCEet [96‾] sMOntsuDA [96‾] eTUtesJEeCIite [96‾] REGOZItiCEMEeCErneGENEMIFInCOeNErREiteSOnJELULEeCICEiNOritesBESOenLUniTEPOVAXAe [332] ite [396‾] eaPEiri [344] nsHAuTEuRELEeuCEBA [84‾] SOiriVA [89‾] REVIiJInMOreNEiSAREneSOiLOSOVELIXAieneTATUiDEJI [31‾] leSEsiVOnneLIiREitVAiSEiLOndeVOsCOnnNUeiriXAienCEMIessBU [96‾] itRIeMEtZAiXAnnCEeLIVAreiicetTEeniREteCISOuVUZOenieZAesTU [96‾] eTAi [96‾] iCEnanuDIQUISAVAZENAZAsPOtenreFUSOiieFAinZIinSOMICIitiNUiereJITUQUInenVIi [94‾] itiJAiREn [94‾] REHAZIurREJITUSIJE [96‾] eDAeVUCE [94‾] nDOHANAuPEiJEtiTUDEMUeCEiNIriCIi [96‾] eliBUiVISOiRETIMEBIiVUPAreeLEurTEenitZAuneFAuXAieMEenVAeseSOeNEenCEiMIVISOnnZAu [86‾] iCEitereesNAeTEenPEiiSIeCE [96‾] FEite [96‾] itNOinSO [90‾] NEZILEeVUJEuSIteVUREQUEJEFUTUnneZAQUAiGArCETUCIXAienreJISEDUZITASEJIPEiXADA [25‾] sJESOnSIeVURELEeinCONEne [28‾] VEen [93‾] PEiJICEFOeSOetSOnaGEaNESAVELIXAit [96‾] onSIlSOitNOneeVUSOnnsVALO [43‾] reZIunene [95‾] CEiCEQUAVUxQUInSIlVUiCEQUEBOLEeQUAiZIrleTUQUOrSIne [96‾] SOneMIn [94‾] tDIPEiREVEeteVUsineTEeSONEJICEeinsiLAGAiCESOuGIluGIiNOnnantLAite [94‾] MEeieeunenueXUitVUsenSEMIiMInelneTEenCELAeSO [86‾] iCEnenCEJEMOTUSOiareJITUnTEeZADEPIeCEHIeliHAeTUduteliMInZAueLInCE [94‾] iXAXICEc
+KEY: 0=r 10=n 11=o 15=n 16=i 17=u 18=t 19=n 20=e 21=t 23=l 24=l 25=e 26=s 27=t 29=e 3=s 31=l 32=i 33=n 34=a 35=n 38=s 4=a 4-=n 40=l 42=d 43=s 45=n 4==u 7=l 9=e 96==c H=x b=i d=e d-=m e=t ff=n h=e ll=i m=r o=t on=c p=t pd=r q=t q==i u=e w=e x=i x-=s y=i θ=e λ=s φ=u 〃=n 5¨=ba 6¨=be 07¨=bi 16¨=bo 19¨=bu 20¨=ce 21¨=ci 22¨=co 23¨=da 24¨=de 28¨=di 32¨=do 37¨=du 38¨=fa 39¨=fe 41¨=fi 42¨=fo 46¨=fu 49¨=ga 53¨=ge 61¨=gi 66¨=go 67¨=ha 69¨=hi 70¨=ja 73¨=je 74¨=ji 75¨=la 76¨=le 77¨=li 78¨=lo 79¨=lu 84¨=me 85¨=mi 86¨=mo 87¨=mu 96¨=na 97¨=ne 98¨=ni 99¨=no 4'=nu 14'=pa 25'=pe 26'=pi 28'=po 29'=qua 30'=que 31'=qui 35'=quo 38'=ra 39'=re 40'=sa 41'=se 42'=si 43'=so 44'=ta 45'=te 52'=ti 53'=tu 54'=va 55'=ve 56'=vi 62'=vo 63'=vu 64'=xa 65'=xe 66'=xi 68'=xu 73'=za 74'=ze 75'=zi 85'=zo 99'=zu 53=se 98=no 97=se 90=mu 63=no 76=ri 96=fu 77=mi 99=nu 54=que
+  it 0 T 3.00 cur -5001.1 best -5001.1 0s
+  it 50000 T 2.53 cur -3275.3 best -3221.3 13s
+  it 200000 T 1.52 cur -3216.8 best -3198.7 44s
+  it 250000 T 1.28 cur -3205.2 best -3196.9 53s
+  it 350000 T 0.91 cur -3189.5 best -3180.7 72s
+  it 400000 T 0.77 cur -3181.2 best -3178.0 81s
+  it 450000 T 0.65 cur -3180.0 best -3178.0 91s
+  it 550000 T 0.46 cur -3176.3 best -3174.6 112s
+  it 600000 T 0.39 cur -3177.8 best -3174.4 121s
+  it 700000 T 0.28 cur -3174.7 best -3174.3 141s
+  it 800000 T 0.20 cur -3174.7 best -3174.3 160s
+  it 850000 T 0.17 cur -3175.1 best -3174.3 169s
+  it 900000 T 0.14 cur -3174.6 best -3174.3 181s
+  it 950000 T 0.12 cur -3174.5 best -3174.3 190s
+seed 1 best -3174.3 acc nan
+ [94‾] NInePIiRETIZOnnte [79‾] liVOileeeLIneSOiTAVEiNUiiNIinTIneiTUHIeDAVEiNADUNInREeREMOndeVEeVEMOieDAJASI [94‾] eTIneRAlFAlFIlVEleeDAQUAVEcDA [86‾] nDAntieteuneeFAlleMAnDOnPInDAit [96‾] nMUnlinDO [96‾] eTElesJAiDEnte [96‾] REHEZEliDAMIeDAlliGUNIMOGAeDIeNIlREnteSInJAMELEeDEDAnGIlnlesBUSIeeMEntSUPUTIVIe [332] nti [396‾] etPInli [344] esHInSUtRELEetDABO [84‾] SIndiTI [89‾] RETUnJEnMUleNIiRIREleSIiLUSITOLIVIneneSOTEiDUJE [31‾] teNEiiVAneeLIiREntTIeNEnLUienVAsDIreQUOiiliVInenDAMOiisCU [96‾] ntRAeMItXInVIneDAeLITIleninetSUneiREleDESInVEZIeeneXIiiTE [96‾] iSOn [96‾] nDAleenFAQUIRITIXUNEXIsPUleeleDESIineFOneZEieSIMODEntiPAneleJETEQUIeneTUn [94‾] nlnHUiREl [94‾] REHIZEtlREJETESEJA [96‾] eDOnVEDA [94‾] eFEHINEtPIiJAliTEDUNAeDAnNOlnDEi [96‾] iiiCUiTUSInRETAMICIiVEPEleeLEtlSUnentXInleFOnVIneMInnTIeseSIeNIeeDAiMOTUSInlXIn [86‾] nDAntilnesNEiSUeePIieSEeDA [96‾] FUnte [96‾] ntNUiiSI [90‾] NIZELEeVEJAnSEleVEREQUEJAGITEeeiXIQUAnGOlDATEDEVInenleJENEFIZESOLUJEPInVIDO [25‾] sJASIeSEnVERELEenoDINIli [28‾] TOee [93‾] PIeJEDAGEeSIetSIleGUeNIRITOLIVIne [96‾] reSEtSIntNUnniVESInesTILU [43‾] leZEtaien [95‾] DAiDAQUAVEcQUIiSEtVEnDAQUECOLEeQUAeZElteTEQUOlSEai [96‾] SIneMEn [94‾] eFAPIiRETOeliVEiieeSUeSINIJEDAiiedeLAGOnDASInHAinHAnNUnetlaLAnto [94‾] MIniseneseteXAntVEnenSAMOiMOnsaliSUseDALAiSI [86‾] nDAlieDAJAMUTESIneleJETEeSUiXIDUPOiDAHOiiiHIeTEetleonMOlXIneLInDA [94‾] nVIVUDAn
+KEY: 0=l 10=o 11=r 15=l 16=e 17=n 18=t 19=a 20=e 21=a 23=t 24=a 25=e 26=n 27=e 29=e 3=i 31=i 32=i 33=e 34=e 35=e 38=s 4=t 4-=n 40=o 42=e 43=i 45=e 4==n 7=u 9=n 96==d H=c b=i d=i d-=n e=c ff=i h=e ll=n m=l o=t on=n p=t pd=d q=l q==e u=e w=o x=n x-=d y=t θ=s λ=s φ=t 〃=r 5¨=bo 6¨=bu 07¨=ci 16¨=co 19¨=cu 20¨=da 21¨=de 22¨=di 23¨=do 24¨=du 28¨=fa 32¨=fe 37¨=fi 38¨=fo 39¨=fu 41¨=ga 42¨=ge 46¨=gi 49¨=go 53¨=gu 61¨=ha 66¨=he 67¨=hi 69¨=ho 70¨=hu 73¨=ja 74¨=je 75¨=la 76¨=le 77¨=li 78¨=lu 79¨=me 84¨=mi 85¨=mo 86¨=mu 87¨=na 96¨=ne 97¨=ni 98¨=no 99¨=nu 4'=pa 14'=pe 25'=pi 26'=po 28'=pu 29'=qua 30'=que 31'=qui 35'=quo 38'=ra 39'=re 40'=ri 41'=sa 42'=se 43'=si 44'=so 45'=su 52'=ta 53'=te 54'=ti 55'=to 56'=tu 62'=va 63'=ve 64'=vi 65'=vo 66'=vu 68'=xa 73'=xi 74'=xu 75'=ze 85'=zi 99'=zo 53=lu 98=gi 97=ne 90=du 63=ma 76=ra 96=de 77=me 99=quo 54=que
+  it 0 T 3.00 cur -4854.5 best -4854.5 0s
+  it 100000 T 2.14 cur -3296.9 best -3266.1 24s
+  it 200000 T 1.52 cur -3240.3 best -3205.8 46s
+  it 250000 T 1.28 cur -3190.2 best -3186.0 59s
+  it 400000 T 0.77 cur -3181.7 best -3178.2 90s
+  it 500000 T 0.55 cur -3179.6 best -3176.5 110s
+  it 650000 T 0.33 cur -3177.6 best -3176.2 138s
+  it 700000 T 0.28 cur -3176.3 best -3176.2 147s
+  it 750000 T 0.23 cur -3177.0 best -3176.2 156s
+  it 800000 T 0.20 cur -3176.4 best -3176.2 165s
+  it 900000 T 0.14 cur -3176.5 best -3176.2 185s
+seed 2 best -3176.2 acc nan
+ [94‾] NEntPIeRETEZOntac [79‾] ieVOsinteLIncSIeSUVEeNOieNEinTEtneTUHItCAVEeMODENEnRElREMEnenVEuVEMEitCAJASE [94‾] iTEtnRAlDEiDUeVElenCAQUAVEcCA [86‾] nCAtainilotntDEiinQUEiCOnPInCAis [96‾] rMIneleCO [96‾] nTAeleJAiCEtan [96‾] REHEZEeeCAMAnCAiliGONEMEFItCInNEiREtaeSEnJALULEnCECAnTOinelaBESEntLUneSOPUTEVIn [332] tai [396‾] naPInie [344] teHItSOsRELEnsCABA [84‾] SEtleTE [89‾] RETUnJEnMIinNEeRIREliSEeLOSETOLIVItnneSITAeDAJE [31‾] ilLEleVAntiLIeREtaTEtLEnLOsuiVAaCIttXIieieVItnnCAMEilaBU [96‾] neQUOnMAeXEnVIntCAiLITEinnesneSOiteREenCESEtVEZInttnXEisTA [96‾] iSIn [96‾] nCAlentDEQUIRITEZANAXEaPUentinDISEetcFAntZEetSEMECEtapPAtnilJETAQUIiitTUn [94‾] tenHUeREl [94‾] REHIZEsiREJETASAJA [96‾] nCOiVECA [94‾] tDOHINAsPIeJAeeTADAMOnCAnNIinCEe [96‾] ireBUeTUSEnRESUMABIeVEPEiniLEsiSOittaXEtlcFAtVItnMAinTElaeSEnNEntCAeMETUSEnlXEt [86‾] nCAtainilaNAiSOntPIetSAnCA [96‾] FEtan [96‾] taNOesSE [90‾] NEZELEnVEJAtSAenVEREQUEJAGATAtiiXEQUAnGEiCATACEVItnnilJELEDUZESIREJEPInVICO [25‾] eJASEtSAiVERELEnteCINEli [28‾] TOnt [93‾] PIeJECAFOiSEneSEleGOeNERITOLIVItu [96‾] itSAiSEtaNOniiVESEntaTELO [43‾] inZEstiti [95‾] CAeCAQUAVEcQUIsSAiVEnCAQUEBOLEnQUAeZEiilTAQUOiSAti [96‾] SEneTAn [94‾] uDEPIeRETOneiVEletiSOeSENEJECAietdeLAGEnCASEtHArtHAnNOntaleLAtav [94‾] MAieiltiitseXAtaVErinROMEeMEnialiSOitCALAiSE [86‾] nCAlinCAJAMITASEteilJETAtSOiXEDAPOiCAHOireHInTAusenenMElXEtiLInCA [94‾] nVIVUCAs
+KEY: 0=n 10=e 11=i 15=l 16=e 17=t 18=e 19=t 20=c 21=e 23=i 24=a 25=l 26=r 27=u 29=e 3=s 31=r 32=e 33=t 34=e 35=n 38=e 4=a 4-=n 40=e 42=u 43=l 45=i 4==e 7=o 9=i 96==e H=c b=p d=i d-=i e=c ff=s h=i ll=n m=i o=s on=s p=a pd=l q=e q==t u=n w=v x=t x-=d y=e θ=i λ=a φ=s 〃=t 5¨=ba 6¨=be 07¨=bi 16¨=bo 19¨=bu 20¨=ca 21¨=ce 22¨=ci 23¨=co 24¨=da 28¨=de 32¨=do 37¨=du 38¨=fa 39¨=fe 41¨=fi 42¨=fo 46¨=ga 49¨=ge 53¨=go 61¨=ha 66¨=he 67¨=hi 69¨=ho 70¨=hu 73¨=ja 74¨=je 75¨=la 76¨=le 77¨=li 78¨=lo 79¨=lu 84¨=ma 85¨=me 86¨=mi 87¨=mo 96¨=na 97¨=ne 98¨=ni 99¨=no 4'=pa 14'=pe 25'=pi 26'=po 28'=pu 29'=qua 30'=que 31'=qui 35'=quo 38'=ra 39'=re 40'=ri 41'=ro 42'=sa 43'=se 44'=si 45'=so 52'=su 53'=ta 54'=te 55'=to 56'=tu 62'=va 63'=ve 64'=vi 65'=vo 66'=vu 68'=xa 73'=xe 74'=za 75'=ze 85'=zi 99'=zo 53=re 98=to 97=le 90=de 63=que 76=quo 96=di 77=ta 99=xi 54=que

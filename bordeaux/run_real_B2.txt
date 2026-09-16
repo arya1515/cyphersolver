@@ -1,0 +1,55 @@
+810 tokens; letters 90 slots 40 free 10 W 16; 36 segments; 120 units
+  it 0 T 3.00 cur -4839.6 best -4839.6 0s
+  it 50000 T 2.53 cur -2240.7 best -2237.1 14s
+  it 100000 T 2.14 cur -2162.7 best -2129.8 26s
+  it 150000 T 1.80 cur -2138.0 best -2101.6 39s
+  it 200000 T 1.52 cur -2117.1 best -2073.8 50s
+  it 250000 T 1.28 cur -2072.3 best -2059.2 61s
+  it 300000 T 1.08 cur -2076.0 best -2059.2 71s
+  it 350000 T 0.91 cur -2046.7 best -2042.2 81s
+  it 450000 T 0.65 cur -2038.2 best -2035.0 103s
+  it 500000 T 0.55 cur -2034.7 best -2034.7 114s
+  it 550000 T 0.46 cur -2039.5 best -2034.7 124s
+  it 700000 T 0.28 cur -2033.3 best -2031.1 161s
+  it 750000 T 0.23 cur -2030.8 best -2030.4 171s
+  it 900000 T 0.14 cur -2030.5 best -2029.9 201s
+  it 950000 T 0.12 cur -2030.2 best -2029.9 211s
+seed 3 best -2029.9 acc nan
+ [94‾] yesestnieiel [79‾] esseesseSUelssaesZOnsynenissiPARsENesUNENOUSyetttTIetseseTInsENPOURt [94‾] enisteILeLAeeentENtemEN [86‾] eENientetrissILeesCOnFIeeeENne [96‾] dUNeeueFI [96‾] seetePOURnETies [96‾] tOUtesENTEsENeenNOUSyTILUsFAIREsyetieetePOURTANTSONsETENeFAITeeeteCItssTANTeteinns [332] ien [396‾] sseees [344] sePAReestSONssENCE [84‾] tilsn [89‾] tieREeUNesyseteetsTAteSUniseesesHERE [31‾] etENusdeseSUstieneENeTAinsdeFAIREssPEnsesniseENTInueDES [96‾] eeXIsTEetenesENeSUnesestseessstesETteerssistnee [96‾] nse [96‾] eENenteILleneVOUSteiessesONtsilLESestsstTIETienaisetREelessie [94‾] ieePOste [94‾] tPARtsetREetPOUR [96‾] sFIseEN [94‾] sILSPARVOUSsesPOUReseHEUNEsENeZIeeETs [96‾] nesDESsitetaTECOsedeseSONseessieteelLESenisTEsenteetsyssENsTIiteete [86‾] eENientsteVOUSnessesetsEN [96‾] LOies [96‾] ieZOsit [90‾] ytSONsePOURetesetQUEPOURNEesentteNIeENeETniseetREENLAtsDONTREeenFI [25‾] ePOURtstsetSONsilFAIREyen [28‾] ess [93‾] eaREENMAISetsetenNOUSnyeeSUnis [96‾] estetieZOesnetesenTA [43‾] estsanss [95‾] ENsENtealiteeeENaDESONstateetenetan [96‾] teeILSe [94‾] sILesteseneusseeetyREENnsscaSONIeENteNUeeNUeZOessenSOien [94‾] TEsseteeessefieedeetTIsTIeeseneesENSOnt [86‾] eENentENPOURUNetinetREesentHEonENPEnesPARsensesdeTIeteeSUeEN [94‾] ennENt
+KEY: 0=t 10=l 11=e 14'=d 15=e 16=a 17=e 18=e 19=a 20=l 21=n 23=e 24=s 25=t 25'=e 26=d 26'=o 27=s 28'=i 29=e 29'=t 3=e 30'=a 31=e 31'=l 32=s 33=s 34=n 35=t 35'=n 38=e 38'=t 39'=t 4=s 4'=a 4-=e 40=d 40'=e 41'=t 42=n 42'=t 43=u 43'=t 44'=s 45=e 45'=e 4==e 52'=a 53'=e 54'=n 55'=e 56'=i 62'=d 63'=e 64'=n 65'=s 66'=n 68'=f 7=r 73'=t 74'=e 75'=t 85'=r 9=s 96==t 99'=i H=a b=n d=n d-=n e=m ff=i h=e ll=e m=e o=e on=t p=e pd=l q=e q==e u=s w=n x=i x-=c y=t θ=e λ=e φ=s 〃=s 5¨=ce 6¨=ci 07¨=co 16¨=de 19¨=des 20¨=en 21¨=et 22¨=faire 23¨=fi 24¨=he 28¨=il 32¨=ils 37¨=la 38¨=les 39¨=lo 41¨=lu 42¨=mais 46¨=ne 49¨=ni 53¨=nous 61¨=nu 66¨=ou 67¨=par 69¨=pe 70¨=po 73¨=pour 74¨=re 75¨=so 76¨=son 77¨=su 78¨=ta 79¨=tant 84¨=te 85¨=ti 86¨=un 87¨=une 96¨=vous 97¨=y 98¨=zi 99¨=zo 76=xi 77=ils 97=en 54=que 53=dont 63=co 96=on 99=pe 90=nous 98=fait
+  it 50000 T 2.53 cur -2167.9 best -2128.4 17s
+  it 100000 T 2.14 cur -2163.6 best -2122.6 33s
+  it 150000 T 1.80 cur -2105.4 best -2082.2 46s
+  it 200000 T 1.52 cur -2083.4 best -2052.6 58s
+  it 250000 T 1.28 cur -2065.0 best -2052.6 69s
+  it 350000 T 0.91 cur -2043.4 best -2035.7 94s
+  it 400000 T 0.77 cur -2033.8 best -2028.9 104s
+  it 450000 T 0.65 cur -2033.9 best -2028.9 114s
+  it 500000 T 0.55 cur -2029.3 best -2027.4 124s
+  it 600000 T 0.39 cur -2024.4 best -2023.7 145s
+  it 700000 T 0.28 cur -2023.6 best -2022.9 168s
+  it 850000 T 0.17 cur -2024.0 best -2022.7 204s
+  it 900000 T 0.14 cur -2023.2 best -2022.7 215s
+seed 4 best -2022.7 acc nan
+ [94‾] yiseetnaient [79‾] eexcessiTAitleseeZEteytineseiPAsENeeVOUSPOURyntttVIieseteVItsENPOURi [94‾] enesteILeLIeeeneENaetEN [86‾] nENententeessILeesSErETienENte [96‾] rVOiersET [96‾] ssetePOURtESTens [96‾] tOUseeENUNEsENeetNOUSyVIMEsESTREsyeteniiiPOURUNSONsESTENnENeneteCIissUNiteints [332] ent [396‾] scenee [344] sePAnentSONsnENCE [84‾] ieren [89‾] tinREiVOesyenteeieTIieTAtesiilseFAIRERE [31‾] ntLAresiseTAetennuLAnTItesseESTREesENteeetesiENVItreDES [96‾] nsPAsUNEsentisENeTAnesneussessetesESTineussesetcs [96‾] tln [96‾] nENenenILannoXIeeiessesVOieetLOnssesiVIESTentresetREsaissin [94‾] eenPOINTete [94‾] tPAsnetREsePOUR [96‾] sETseEN [94‾] sJAPAXIneePOUReesFAIREVOUSsENnZAenESTe [96‾] tieDESeiintsUNECUeeneseSONneessenenetLOntesUNEsinteiisyssENeVIiiieen [86‾] nENentesteXItesseeuesEN [96‾] MAISens [96‾] enZEeti [90‾] ysSONsePOURneesetQUEPOURNAssiteanNEeENsESTtesietRELALIslETREentET [25‾] ePOURisesetSONsenESTREyet [28‾] ess [93‾] esREENMIeissienNOUSnyneTAtet [96‾] ssenienZEisteiisenTI [43‾] essnetss [95‾] ENeENaeuatenenENtDESONsassentsmeeet [96‾] iiiQUOi [94‾] tILeetesetereseeiiyREENtesesSENEnENinNUinNUnZEiscesSEent [94‾] UNEseetniesnirenereilVIeVIieveteesENSEti [86‾] nENeteENPOURVOsienetREsseteFAIREetENPARtiePAssenesenVIeeneTAiEN [94‾] ntvENu
+KEY: 0=e 10=n 11=s 14'=n 15=e 16=s 17=n 18=s 19=e 20=t 21=s 23=n 24=v 25=t 25'=e 26=r 26'=e 27=t 28'=i 29=i 29'=a 3=c 30'=t 31=i 31'=a 32=e 33=s 34=n 35=e 35'=m 38=e 38'=t 39'=t 4=c 4'=r 4-=i 40=e 40'=n 41'=l 42=e 42'=e 43=r 43'=i 44'=l 45=i 45'=e 4==s 52'=s 53'=s 54'=n 55'=e 56'=i 62'=s 63'=e 64'=t 65'=x 66'=v 68'=r 7=e 73'=e 74'=o 75'=s 85'=u 9=s 96==e 99'=a H=u b=t d=t d-=r e=t ff=t h=e ll=n m=e o=e on=u p=n pd=r q=e q==u u=s w=t x=e x-=e y=t θ=e λ=e φ=n 〃=e 5¨=ce 6¨=ci 07¨=cu 16¨=de 19¨=des 20¨=en 21¨=est 22¨=estre 23¨=et 24¨=faire 28¨=il 32¨=ja 37¨=li 38¨=lo 39¨=mais 41¨=me 42¨=mi 46¨=na 49¨=ne 53¨=nous 61¨=nu 66¨=ou 67¨=pa 69¨=par 70¨=point 73¨=pour 74¨=re 75¨=se 76¨=son 77¨=ta 78¨=ti 79¨=un 84¨=une 85¨=vi 86¨=vo 87¨=vous 96¨=xi 97¨=y 98¨=za 99¨=ze 76=pa 77=quo 97=la 54=que 53=et 63=se 96=vo 99=en 90=pour 98=en
+  it 0 T 3.00 cur -4593.1 best -4593.1 0s
+  it 50000 T 2.53 cur -2096.5 best -2055.3 17s
+  it 100000 T 2.14 cur -1975.4 best -1951.8 31s
+  it 200000 T 1.52 cur -1919.8 best -1909.3 56s
+  it 250000 T 1.28 cur -1920.2 best -1903.9 69s
+  it 300000 T 1.08 cur -1900.3 best -1884.0 82s
+  it 350000 T 0.91 cur -1890.2 best -1878.8 93s
+  it 400000 T 0.77 cur -1868.8 best -1865.1 105s
+  it 450000 T 0.65 cur -1861.9 best -1857.8 118s
+  it 500000 T 0.55 cur -1860.2 best -1857.8 129s
+  it 550000 T 0.46 cur -1860.3 best -1856.9 141s
+  it 600000 T 0.39 cur -1865.8 best -1856.3 154s
+  it 700000 T 0.28 cur -1857.8 best -1855.5 177s
+  it 750000 T 0.23 cur -1857.4 best -1855.5 188s
+  it 850000 T 0.17 cur -1856.6 best -1855.5 212s
+  it 900000 T 0.14 cur -1856.8 best -1855.5 224s
+  it 950000 T 0.12 cur -1856.7 best -1855.5 234s
+seed 5 best -1855.5 acc nan
+ [94‾] UNEeedeseneesn [79‾] nementetRIenaeteeVOUSleUNEleeetenPAReDESeeTONEUNEesesTEeuteteTEleDESPOs [94‾] teetceLAnLESseeleDESlesDES [86‾] eDESeslerepeteLAnntILaETedeDESle [96‾] rTIesreET [96‾] tssesPOlENest [96‾] sPAsseDESSONtDESnelONUNETEMAISeESTtUNEnsestsePOSEREtENDESeSEnesesBUsteSEetiiest [332] esl [396‾] tsdene [344] esPARtiesREteDESAVEC [84‾] setee [89‾] snePOUReTIntUNEetsetseSAseRIsetetaseFAIREPOUR [31‾] reTANTreieetRIesesenTANTeSAussisESTceQUIleneseteDESTElrsDE [96‾] erENtSONreeseeDEStRIenteettriseesstENstenteeteles [96‾] lae [96‾] eDESeletLAetetUNesistentPASseenLIeeseesTEENeseretnePOURseesene [94‾] esePLUSese [94‾] sPARsensPOURsePO [96‾] tETseDES [94‾] eLEPARUNedePOsesFAIRETOtDESeVEneENe [96‾] lneDEensestSONCEeeonttREeniseesetenLItsetSONseeeststUNEteDESeTEnseeet [86‾] eDESeslisesUNlitedenetDES [96‾] MAest [96‾] esVOUSeus [90‾] UNEsREtePOtestesDEPONIseeleleNUnDESsENsetenePOURTANTLESsaGEPOURdesET [25‾] sPOseesesREtecESTUNEel [28‾] ete [93‾] dePOURDESMOtstrselONlUNEteRIset [96‾] leersesVOUSesleseeseSA [43‾] ntsetles [95‾] DESeDESlefeuereeDESaCUREtlesnresonetl [96‾] setDESe [94‾] tLAdesetslereetitsUNEPOURDESleedeQUINUeDESstOUntOUeVOUSeesetQUIest [94‾] SONseteteteetdesertenTEeTEetdeliteDESQUIls [86‾] eDESeleDESPOTIsselnePOURseileFAIREilDESPIlnePARtssestjeTEeettRIeDES [94‾] estDESt
+KEY: 0=i 10=c 11=l 14'=o 15=e 16=e 17=t 18=r 19=t 20=n 21=t 23=r 24=d 25=e 25'=d 26=r 26'=i 27=t 28'=i 29=t 29'=l 3=e 30'=a 31=n 31'=e 32=e 33=e 34=l 35=e 35'=o 38=s 38'=c 39'=s 4=s 4'=r 4-=e 40=j 40'=t 41'=n 42=s 42'=e 43=r 43'=s 44'=a 45=e 45'=i 4==e 52'=t 53'=s 54'=e 55'=e 56'=n 62'=i 63'=e 64'=s 65'=m 66'=t 68'=d 7=p 73'=e 74'=t 75'=s 85'=n 9=s 96==u 99'=n H=f b=e d=l d-=a e=s ff=u h=t ll=e m=n o=e on=t p=s pd=t q=s q==n u=t w=t x=e x-=d y=t θ=t λ=s φ=e 〃=c 5¨=avec 6¨=bu 07¨=ce 16¨=cu 19¨=de 20¨=des 21¨=en 22¨=est 23¨=et 24¨=faire 28¨=la 32¨=le 37¨=les 38¨=li 39¨=ma 41¨=mais 42¨=mo 46¨=ni 49¨=nu 53¨=on 61¨=ou 66¨=pa 67¨=par 69¨=pi 70¨=plus 73¨=po 74¨=pour 75¨=qui 76¨=re 77¨=ri 78¨=sa 79¨=se 84¨=son 85¨=te 86¨=ti 87¨=to 96¨=un 97¨=une 98¨=ve 99¨=vous 76=en 77=des 97=tant 54=de 53=ge 63=il 96=pas 99=qui 90=ne 98=se

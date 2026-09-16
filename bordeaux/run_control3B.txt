@@ -1,0 +1,47 @@
+810 tokens; letters 83 slots 66 free 0 W 7; 12 segments; 120 units
+TRUE KEY score -848.5
+  it 50000 T 2.53 cur -3080.3 best -3042.7 25s
+  it 150000 T 1.80 cur -2986.0 best -2958.9 77s
+  it 200000 T 1.52 cur -2949.8 best -2939.5 97s
+  it 250000 T 1.28 cur -2936.6 best -2922.2 122s
+  it 300000 T 1.08 cur -2928.4 best -2915.0 148s
+  it 350000 T 0.91 cur -2924.3 best -2910.5 169s
+  it 450000 T 0.65 cur -2914.3 best -2910.4 207s
+  it 500000 T 0.55 cur -2912.7 best -2910.4 226s
+  it 550000 T 0.46 cur -2910.4 best -2909.9 249s
+  it 600000 T 0.39 cur -2911.8 best -2909.9 266s
+  it 650000 T 0.33 cur -2910.5 best -2909.9 287s
+  it 700000 T 0.28 cur -2911.3 best -2909.9 308s
+  it 950000 T 0.12 cur -2909.9 best -2909.9 400s
+seed 0 best -2909.9 acc 0.136
+sonLEnsTEQUAnTEtCEnestCINUnSEnTAtiONCOnONar [85‾] CEZEtsesSONSELESuSENIentPUaeiZEntSONieenoMEnCEaREtenSENITEnDELESTEBOetQUItieZEnaZEtMAisVIetSELESSEVUnaCEtteAVECesCEsGUesLES [79‾] RIeiXInteeZElesGUinGUasSEZEleetREsDEintQUInaREtREtHATEteetSApiCINUnSEILONsentQUAnTIVUtDOnsLESSAtQUIaaCETABOnENSEnBEREtSUResNIPAitSEsDA [95‾] teZAsSEesaSURnyaDENEVOUSetinaLAnREsesSEnlienSEDACEQUAntCELEQUIsVIsunCERAenZUtLES [79‾] DEROnREILSRAnTESENEtaSEutTIetiCEAVECisLESELEtePOURCEVUntieRIiinsQUAsTE [81‾] nSAntVIntILeuiSONyQUAsuiTEeaptuLEBOnaILSLEtieSAnCETALUiDOnneeenQUAVOUSinBEREntQUInnSAnteZEnitDESEnsFAIREaNEeCEnTOILSsiCETAiDESAnteTESATAnnCOtVINOeTIenayPOuZEtSEBOeNUnsTAttiRECERAeiCEneNOnsnePARtNE [83‾] NECEBIesSAnBAnnoXInteLEStSURtyanCEAVECeistsDEinassENisCEFUtONtREtREimsETBIensCEtonNEeNENEREtREeLEBEDEFAIREsieVIinONCIZATIPOURCAsnBEaDEotTILE [87‾] ZEntenteeRAlsaBECEiTEnetaiTOuQUIsestREPARtsONCEZAPOURsQUAsSEILSVInCEseSURQUITIVOUSPOURnTIiXIeUNeenTEnRAesREBESEGONEeLEnteetneSENEetQUIaVIusSEENaenluNIVOUSeCElesQUAnONiBEtteCELE [87‾] ROnREBEtVIpnyiXASEFAITsDOnVICAesteVItenenREtVUnVIiPARinenUNsBEsQUIntl [89‾] ONeSURDAnTAneetinBUeesENt [81‾] LESCItsneniCEAVECuiONTEZEnMAtQUInesseFUGEtTOineQUEILONsSURlonaQUAnRELEtPUtentesVItVOUSPOURainsSEaCAtnCEsinietiLESnietSEnSONTEnUNeannerLESyiSAnsJEtiit [89‾] LESCIs
+KEY: 0=e 10=n 14'=e 15=n 16=n 17=a 18=u 19=s 20=s 21=e 24=e 25=s 25'=s 26=s 26'=t 27=a 28'=s 29=i 29'=r 3=s 30'=e 31=t 31'=e 32=i 33=t 34=n 35=o 35'=n 38=s 38'=e 39'=i 4=n 4'=n 4-=n 40=u 40'=n 41'=n 42=t 42'=n 43=t 44'=n 45=e 45'=e 4==i 52'=n 54'=t 55'=t 56'=i 63'=t 64'=e 65'=e 66'=s 68'=i 7=t 73'=n 74'=t 75'=l 85'=s 9=s 96==t 99'=e H=a b=e d=n d-=u ff=n h=n ll=n m=s o=e on=e pd=i q=n q==a u=e w=m x=t x-=e y=l θ=p λ=i φ=s 〃=t 5¨=avec 10¨=ba 11¨=be 12¨=bi 13¨=bo 14¨=bu 15¨=ca 16¨=ce 18¨=ci 19¨=co 20¨=da 22¨=de 23¨=do 24¨=en 25¨=et 26¨=faire 27¨=fait 28¨=fu 30¨=ge 31¨=go 36¨=gu 38¨=ha 40¨=il 42¨=ils 44¨=je 45¨=la 46¨=le 47¨=les 48¨=lu 50¨=ma 51¨=me 52¨=ne 54¨=ni 55¨=no 57¨=nu 58¨=on 59¨=pa 60¨=par 61¨=po 62¨=pour 64¨=pu 65¨=qua 67¨=que 68¨=qui 70¨=ra 72¨=re 73¨=ri 74¨=ro 76¨=sa 77¨=se 78¨=son 79¨=sur 82¨=ta 83¨=te 84¨=ti 87¨=to 89¨=un 90¨=vi 91¨=vous 92¨=vu 93¨=xa 94¨=xi 96¨=y 97¨=za 98¨=ze 99¨=zu
+  it 50000 T 2.53 cur -2996.0 best -2984.5 23s
+  it 100000 T 2.14 cur -2946.5 best -2927.8 49s
+  it 150000 T 1.80 cur -2909.1 best -2902.3 72s
+  it 250000 T 1.28 cur -2906.8 best -2897.2 115s
+  it 300000 T 1.08 cur -2901.3 best -2895.0 135s
+  it 400000 T 0.77 cur -2895.8 best -2894.8 177s
+  it 450000 T 0.65 cur -2901.0 best -2894.8 196s
+  it 500000 T 0.55 cur -2896.8 best -2893.7 214s
+  it 700000 T 0.28 cur -2893.9 best -2893.7 290s
+  it 800000 T 0.20 cur -2893.7 best -2893.7 329s
+seed 1 best -2893.7 acc 0.170
+datLInsTANTPAReTANTsDEsensDINEtRIeSONteNIDOmNIse [85‾] DEZIseetSERILUiRIMIesePAsseZIssSEinstaMAISmDEsPOURieeRIMITANTeENLUTANTCEtiPIsseZInsZIsMAeeUNtiRILURIVAtaDEsieAVECesDEtILdeLU [79‾] QUIneVIteetZIlesILsnILauRIZIlentPOURtENentPItsPOURsPOURsILSTANTieetREseDINEsRIJENIeusePAReTEVAeESTREneLUREePIseDESONCEmETRImBEPOUReSIdeMINOetRIeELLE [95‾] suZErRIseeSItysENMEUNEssemeLESePOURseuRIelenaRIELLEDEPARieDELIPIeUNdesDEPLUSdeZUsLU [79‾] ENQUOnPOURLAPLUSeTANTRIMEeeRIesTEnseDEAVECesLIRILItdOUDEVAsensQUIeieePARsTANT [81‾] nREntUNleJEtesSEyPAReeeTANTdesesLICEsaLALIseeREsDESONLUYeESTREntendsPARUNEimBEPOUResPItiREseeZInsiENRInrFAITaMEnDEeTILAeeDESONsENREseeTANTRESONmeDOeUNMOsTEetayNUeZIeRICEsNEseSONtsiPOURDEPLUSdeDEseMOnsstNOUSsME [83‾] MEDECAstREmBAneaVInteLUeSIsyasDEAVECeeetsENesentETseDEGArNIsPOURsPOURentFAIRECAuseDEsaiMEsMEMEPOURsPOUReLIBEENFAITeenUNetNIDIZETEOUCOreBEeENaeTELI [87‾] ZIssenteePLUSlesBEDEeTANTnteseTIiPIsertPOURNOUSesNIDEZEOUsPARsRILAUNiDEseSIPITEUNEOUeTEeVInTOnesTANTePLUSdePOURBERIHOMEeLIteesenuRIMEntPIaUNeoRIETseilsMIUNEsDEleePARtNIeBEsseDELI [87‾] QUOnPOURBEeUNstysVERIFIeESTREsUNCOteetUNseeetPOURsVAsUNeNOUSesteTOrBEsPIasl [89‾] NIeSIELLEsSONnestesCInetETt [81‾] LUDItsneseDEAVECseNITANTZItMAtPInteenGAGEsTIensPASJENIsSIlasePARePOURLIsPAsetedrUNtUNEOUlemeRIaCOteDEsesenteLUeeseRIeSETANTeTOnelsneLUyeREteLEsses [89‾] LUDIe
+KEY: 0=e 10=e 14'=e 15=e 16=l 17=a 18=s 19=d 20=o 21=t 24=d 25=u 25'=s 26=t 26'=i 27=s 28'=s 29=e 29'=e 3=n 30'=e 31=s 31'=n 32=n 33=s 34=s 35=a 35'=a 38=e 38'=e 39'=s 4=t 4'=s 4-=s 40=e 40'=t 41'=s 42=e 42'=n 43=s 44'=t 45=e 45'=e 4==e 52'=e 54'=e 55'=s 56'=i 63'=r 64'=n 65'=e 66'=e 68'=e 7=t 73'=i 74'=t 75'=l 85'=t 9=r 96==s 99'=n H=l b=s d=n d-=i ff=t h=s ll=m m=e o=u on=n pd=e q=n q==e u=d w=n x=s x-=s y=l θ=s λ=e φ=e 〃=e 5¨=avec 10¨=ba 11¨=be 12¨=ca 13¨=ce 14¨=ci 15¨=co 16¨=de 18¨=di 19¨=do 20¨=elle 22¨=en 23¨=estre 24¨=et 25¨=faire 26¨=fait 27¨=fi 28¨=ga 30¨=ge 31¨=ho 36¨=il 38¨=ils 40¨=je 42¨=la 44¨=le 45¨=les 46¨=li 47¨=lu 48¨=luy 50¨=ma 51¨=mais 52¨=me 54¨=mi 55¨=mo 57¨=ne 58¨=ni 59¨=no 60¨=nous 61¨=nu 62¨=ou 64¨=pa 65¨=par 67¨=pas 68¨=pi 70¨=plus 72¨=pour 73¨=qui 74¨=quo 76¨=re 77¨=ri 78¨=se 79¨=si 82¨=son 83¨=tant 84¨=te 87¨=ti 89¨=to 90¨=un 91¨=une 92¨=va 93¨=ve 94¨=vi 96¨=y 97¨=ze 98¨=zi 99¨=zu
+  it 50000 T 2.53 cur -3071.8 best -3050.9 18s
+  it 100000 T 2.14 cur -3059.4 best -3033.3 37s
+  it 150000 T 1.80 cur -3026.9 best -3020.1 54s
+  it 200000 T 1.52 cur -3044.3 best -3006.1 71s
+  it 250000 T 1.28 cur -3020.7 best -3005.7 88s
+  it 350000 T 0.91 cur -3004.0 best -3004.0 127s
+  it 450000 T 0.65 cur -3005.8 best -3004.0 163s
+  it 600000 T 0.39 cur -3005.2 best -3004.0 218s
+  it 650000 T 0.33 cur -3005.7 best -3004.0 236s
+  it 700000 T 0.28 cur -3004.0 best -3004.0 253s
+  it 800000 T 0.20 cur -3004.0 best -3004.0 287s
+  it 850000 T 0.17 cur -3004.0 best -3004.0 304s
+  it 950000 T 0.12 cur -3004.0 best -3004.0 340s
+seed 2 best -3004.0 acc 0.158
+desHEisTEQUEnTEeCEilreCUNAsSIsTAinNEDAnNEst [85‾] CEyestnSONSIILsSILESentPOINTsriyseSONetsdeLAnCEsREeesSILESTEsDESILTEBOneQUOeriyisyeJUieUNEneSIILSIVIeeCEtetAVECisCEnFInsIL [79‾] RUsiVOUSseenylusFIreFIefSIyliteREnDESiieQUOdsREtREsFUTEetleSErrCUNAsSIGANEseeeQUEnTIVIeDIieILSEtQUOseCETABOnELLESInBEREeSUResLESNOneSIsDE [95‾] teXEtSIreeSUReVUsDESLEVEreeneHAsREsifSInsestSIDECEQUEseCEHEQUOsUNEdisCERAenZUtIL [79‾] DESSAiREGERAsTESILEeeSIieTIserCEAVECisHESIHEeePICEVIiensRUneseQUEsTE [81‾] eSEiiUNEleGAnirSONVUQUEsinTEnereiHEBOieGEHEsetSEsCETAJOnDIisuserQUEVEenBEREntQUOesSEseiyireDESSIitESTREeLEsCEnTUGEenCETArDESSEsetTESETAnnDAeUNEMArTIedeVUOUiyeSIBOrNAssTAiseRECERAenCEilMAisinNUtLE [83‾] LECEBIrcSEnBAiseVOUSieuILeSUReVUerCEAVECineesDESisercELLEreCEFAIREuNEeRErREnecESTBIensCEtesLEsLELEREtREtHEBEDESESTREsetUNEreNECUXETIPICAtnBEeDESeeTIHE [87‾] yeriieitRAlesBECEnTEintseTUsQUOsiteRENUesNECEXEPIsQUEsSIGEUNEsCEstSURQUOTIVEPInTIiVOUStUNmeiTEsRAesREBESIFELEtHEseereieSILEteQUOeUNEinSIELLEstssiLESVEsCEsesQUEiNEiBErteCEHE [87‾] SAiREBEeUNEreVUrVOSIETeDIsUNECAnsenUNEttnieREtVIiUNEnNUnsnsUNtBEsQUOtes [89‾] NEtSURDEsTAitreieBUtecELLEe [81‾] ILCUesiterCEAVECinNETEyeJUeQUOineetFAIREFAITeTUresQUIGANEsSURleseQUEnREHEsPOINTeueeetUNEiVEPIseneSIeCAisCEseresieILnereSIlSONTEnUNtelestILVUrSEseGUerit [89‾] ILCUe
+KEY: 0=t 10=s 14'=u 15=l 16=l 17=e 18=i 19=d 20=n 21=n 24=e 25=f 25'=s 26=c 26'=e 27=s 28'=s 29=e 29'=t 3=r 30'=e 31=r 31'=s 32=n 33=s 34=n 35=e 35'=t 38=s 38'=i 39'=r 4=d 4'=s 4-=r 40=i 40'=i 41'=e 42=t 42'=i 43=e 44'=e 45=l 45'=t 4==e 52'=n 54'=e 55'=t 56'=e 63'=u 64'=m 65'=t 66'=e 68'=i 7=e 73'=s 74'=i 75'=l 85'=n 9=t 96==t 99'=t H=s b=r d=e d-=s ff=s h=i ll=n m=e o=e on=s pd=r q=i q==e u=n w=e x=e x-=s y=s θ=r λ=n φ=s 〃=e 5¨=avec 10¨=ba 11¨=be 12¨=bi 13¨=bo 14¨=bu 15¨=ca 16¨=ce 18¨=cu 19¨=da 20¨=de 22¨=des 23¨=di 24¨=elle 25¨=est 26¨=estre 27¨=et 28¨=faire 30¨=fait 31¨=fe 36¨=fi 38¨=fu 40¨=ga 42¨=ge 44¨=gu 45¨=ha 46¨=he 47¨=il 48¨=jo 50¨=ju 51¨=la 52¨=le 54¨=les 55¨=ma 57¨=na 58¨=ne 59¨=no 60¨=nu 61¨=ou 62¨=pi 64¨=point 65¨=que 67¨=qui 68¨=quo 70¨=ra 72¨=re 73¨=ru 74¨=sa 76¨=se 77¨=si 78¨=son 79¨=sur 82¨=ta 83¨=te 84¨=ti 87¨=tu 89¨=un 90¨=une 91¨=ve 92¨=vi 93¨=vo 94¨=vous 96¨=vu 97¨=xe 98¨=y 99¨=zu

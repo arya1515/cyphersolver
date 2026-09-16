@@ -1,0 +1,66 @@
+810 tokens; letters 54 slots 0 free 63 W 7; 11 segments; 120 units
+  it 0 T 3.00 cur -5107.8 best -5107.8 0s
+  it 50000 T 2.53 cur -2179.2 best -2163.5 33s
+  it 100000 T 2.14 cur -2136.2 best -2109.0 63s
+  it 150000 T 1.80 cur -2119.9 best -2084.4 94s
+  it 200000 T 1.52 cur -2079.2 best -2062.8 124s
+  it 250000 T 1.28 cur -2059.1 best -2022.8 154s
+  it 300000 T 1.08 cur -2025.8 best -2019.0 184s
+  it 350000 T 0.91 cur -2033.0 best -2019.0 216s
+  it 400000 T 0.77 cur -2015.8 best -2009.2 246s
+  it 450000 T 0.65 cur -2014.5 best -2009.2 276s
+  it 500000 T 0.55 cur -2013.9 best -2009.2 306s
+  it 550000 T 0.46 cur -2006.5 best -2003.5 336s
+  it 600000 T 0.39 cur -2005.5 best -2002.9 368s
+  it 650000 T 0.33 cur -2003.3 best -2002.7 402s
+  it 700000 T 0.28 cur -2003.8 best -2002.4 431s
+  it 750000 T 0.23 cur -2002.7 best -2001.9 462s
+  it 800000 T 0.20 cur -2002.1 best -2001.9 493s
+  it 850000 T 0.17 cur -2002.3 best -2001.8 526s
+  it 900000 T 0.14 cur -2001.8 best -2001.8 557s
+  it 950000 T 0.12 cur -2001.8 best -2001.8 585s
+seed 0 best -2001.8 acc 0.007
+untLESteLESPOUReLESnETerenFAIRESEtPOUReLAieLENUstrns [85‾] ETENeeesONniPOURePOURRAsnPOURenenENtnONtiretVOUSsETnPOURETePOURRALESeSEPOUReeQUEtePOURennENtnENePOINTnesestPOURPOURPOURNEenETtETONneETsetesPOUR [79‾] VOUSenENtesseaeteTEnsTEnePOURENenisPOUReSEntePOURenPOURePOURePOURLESerreENenFAIRESEtPOURPARLEsieePOURePOURNEsTAtePOURENePOURneETLAQUEsLESPOURsELLEPOURePARteRAUNeePOUReFAIRE [95‾] REetsPOURssePAReSEnSEREREtPOURseueePOURenePOUResTEePOURFAIREETPOURneETLESPOUReETuntETDESteSEtPOUR [79‾] SESEtPOURLESDESeLESPOURREssPOURnePOURrenETONneLESPOURLESREMEETsILeELLEVOUSetesPOUReLES [81‾] sENtsETdePARinnONSEPOUReteLESeNEstLESQUEenLESLESsTEENtETLAPIeTAttestsPOURREtsELLEPOUResPOURenENtenENtneSEPOURtiSEnREtETeSURLESseetLAPOURsENtETLESENLAteNUeETENiPOURrenSEMInENePOURQUEtSEteLAsELLEPOURETDESteETerENteetUNtRE [83‾] teETRItaENsOUtenENtetPOURePAReSEntETONneSEeSEntseaainsETLESiLEnPOURePOUReeaPARIsneETstnRErREREPOURePOURestELLESESEREsETneLEFAIREMEPOURatOUseELLEsSEnePOURLES [87‾] ENeLESteneDESesnELLEETeLEStiePOURSUReeeLAsePOURUNeeLEETMEMEePOURePOURLESETnETeePARPOURPOURREMEePOURnENtQUEiieLESeDEStePOURELLEnePAREiLEStetiRErPOURtisePOURnETnePOURLESPOURnenRAREserereetiLEtELLEsPOURETLES [87‾] SEtPOURELLEsetILSEnsePOURLAsantETenseeiETteenePOUReNEeETeieetseQUEsELLEePOURens [89‾] LEeneFAIREtLAttesteREssaLESe [81‾] POURFAIREsPOURsenETONneLELESENeeesPOURtiersLESMEneenELLEetPARLEsPARentePOURePOURLESQUEenrestsETeetMEtteePOURnOUseETLESseesePOUResiePOURentLESeQUEtepersPOURSEnENtsETen
+KEY: 0=n 10=r 11=s 15=e 16=t 17=s 18=i 19=e 20=t 21=e 23=n 24=a 25=e 26=e 27=t 29=e 3=t 31=s 32=e 33=s 34=t 35=s 38=t 4=e 4-=s 40=a 42=u 43=e 45=r 4==e 7=e 9=e 96==t H=e b=n d=e d-=n e=e ff=s h=t ll=p o=t on=s p=s pd=n q=d q==t u=e w=i x=n y=r θ=s λ=i 〃=e 49'=ta 78'=pi 11¨=par 90'=un 92'=mi 89'=le 82'=vous 65'=pour 16¨=pour 54'=les 73'=et 23¨=sur 33¨=se 8¨=en 24¨=que 32¨=en 50'=les 48'=se 43'=nu 36'=ri 40'=et 88'=se 6¨=vous 9¨=pour 61'=te 26¨=et 34'=ou 51'=pa 94'=il 53'=la 67'=par 34¨=me 36¨=se 10¨=on 14¨=la 5¨=pour 56'=me 29¨=ne 76'=pour 45'=faire 52'=se 15¨=les 99'=pour 38'=re 35¨=en 29'=on 83'=re 57'=pa 81'=point 91'=un 42'=faire 93'=me 37'=que 28¨=re 85'=en 84'=ra 3¨=des 35'=elle 75'=les 39'=ou 7¨=se 95'=pour 71'=les
+  it 0 T 3.00 cur -4990.4 best -4990.4 0s
+  it 50000 T 2.53 cur -2174.4 best -2131.4 33s
+  it 100000 T 2.14 cur -2106.7 best -2100.6 71s
+  it 150000 T 1.80 cur -2069.7 best -1993.2 103s
+  it 200000 T 1.52 cur -2012.9 best -1993.2 135s
+  it 250000 T 1.28 cur -1986.7 best -1981.9 166s
+  it 300000 T 1.08 cur -1965.9 best -1960.0 199s
+  it 350000 T 0.91 cur -1968.3 best -1955.6 228s
+  it 400000 T 0.77 cur -1966.0 best -1955.6 260s
+  it 450000 T 0.65 cur -1950.7 best -1949.8 289s
+  it 500000 T 0.55 cur -1950.5 best -1949.8 321s
+  it 550000 T 0.46 cur -1950.3 best -1948.7 352s
+  it 600000 T 0.39 cur -1950.9 best -1948.3 381s
+  it 650000 T 0.33 cur -1948.6 best -1948.3 410s
+  it 750000 T 0.23 cur -1948.9 best -1947.2 468s
+  it 800000 T 0.20 cur -1947.2 best -1947.0 496s
+  it 850000 T 0.17 cur -1947.5 best -1947.0 522s
+seed 1 best -1947.0 acc 0.116
+tteLESesENFAIREsENePOURsesePARELLEeTANTsTANTesLESFAITeenes [85‾] POURTANTsstaTANTesDEeTANTETreUNsentTANTeeTANTaesseDEePOUReTEPOURsTANTETENsTEDEstETeeUNsetTANTeeTANTiLAesttesTANTDETANTSONiePOURePOURENtsPOURareetDE [79‾] NEetFAITetresscenESTedESTeeTANTTANTceetTEnTEtesUNieTEeTEnDUENesetFAITsePARELLEeTANTQUELEStsisFAIREsQUESONtFAITesDEFAITeUNesPOURTANTETePOURTANTeTETEsENesETLEssTANTsQUI [95‾] LEseeTANTestENiPOUReTELETEeTANTettisTEsneTANTssESTiTANTQUIPOURFAIREetPOURLESUNsPARtnePOURLESesPIeDE [79‾] TEFAITeTEDELESsENTANTLEssTANTesQUEsiePOURENtsLESTANTLESTEQUEPOURsOUsTENEsestFAIREsEN [81‾] aFAITeePARtiQUEeteTANTPOURFAIREsesENeSONteLESETseDELESaESTFAITePOURTANTPAsFAITeetsetFAIRETEaeTETEstUNieFAITeseTANTeeeTETANTeeNUeLEaPOURsUNDEsseeTANTTANTsFAITePARENFAITTANTesFAITsPARFAITeQUEniePOURFAIREeTANTsTANTETeELLEesTANTeTETEPOURLESesPOURseFAITesiePUeLE [83‾] etPOURUNeeFAITeDESeseFAITeteDEsENsPOUReePOURENesTEsTEtesseesesPOURFAIREsLESeTEeTEsseETUNresPOURseeLEsLELETEeTEeseTETENULEePAReiLESPARCEQUEseSONesTEsTEntQUELES [87‾] TANTiLESesteLEScreTEPOURsENeeeTANTUNeesTANTesTEPUisLESPOURCEQUEsFAIREsTANTDEPARePOURseENUNQUETEQUEsQUEnFAITeELLEssiENsLESesTETEetPOURLEsLESetaeTEnTANTesetUNePARteTANTPOURTANTeenETTErenenseesLESeTEsDEPOURLES [87‾] FAITeTETEsseOUPOUResiTANTSONtetePAReeesiePAReesesTEeSONsPARsesseesELLEeTEsUNies [89‾] LESeesQUIeTANTeensesDESerePOURs [81‾] DEPARtQUErsePOURENtsLESENTANTiestUNeesseFAIREUNesieTEeeQUELESdENceetFAIREsTELESETieniseePARnseQUEsansTANTeSONesPOURENtreerDEsresTANTeeeENsELLEeta
+KEY: 0=n 10=e 11=s 15=s 16=e 17=s 18=s 19=s 20=e 21=t 23=t 24=e 25=n 26=t 27=e 29=s 3=e 31=e 32=c 33=d 34=a 35=t 38=e 4=i 4-=e 40=s 42=t 43=e 45=s 4==e 7=e 9=s 96==e H=n b=e d=r d-=e e=e ff=r h=e ll=a o=e on=a p=t pd=t q=t q==s u=s w=e x=e y=n θ=e λ=s 〃=s 49'=fait 78'=pa 11¨=en 90'=le 92'=faire 89'=les 82'=de 65'=du 16¨=que 54'=faire 73'=re 23¨=un 33¨=pour 8¨=fait 24¨=elle 32¨=fait 50'=pour 48'=te 43'=fait 36'=un 40'=pour 88'=elle 6¨=ne 9¨=tant 61'=est 26¨=par 34'=des 51'=et 94'=ou 53'=son 67'=que 34¨=ce 36¨=pi 10¨=tant 14¨=tant 5¨=te 56'=un 29¨=son 76'=de 45'=qui 52'=nu 15¨=en 99'=un 38'=des 35¨=tant 29'=en 83'=le 57'=pour 81'=la 91'=pu 42'=par 93'=que 37'=et 28¨=te 85'=fait 84'=et 3¨=les 35'=te 75'=les 39'=son 7¨=fait 95'=faire 71'=de
+  it 0 T 3.00 cur -5788.2 best -5788.2 0s
+  it 50000 T 2.53 cur -2329.1 best -2295.7 26s
+  it 100000 T 2.14 cur -2188.0 best -2184.7 53s
+  it 150000 T 1.80 cur -2198.5 best -2182.0 83s
+  it 200000 T 1.52 cur -2146.3 best -2129.4 110s
+  it 250000 T 1.28 cur -2114.0 best -2110.7 135s
+  it 300000 T 1.08 cur -2110.2 best -2100.5 160s
+  it 350000 T 0.91 cur -2092.1 best -2092.1 186s
+  it 400000 T 0.77 cur -2074.6 best -2074.6 209s
+  it 450000 T 0.65 cur -2083.3 best -2074.6 233s
+  it 500000 T 0.55 cur -2077.7 best -2073.5 257s
+  it 550000 T 0.46 cur -2073.4 best -2073.0 281s
+  it 650000 T 0.33 cur -2073.8 best -2072.7 326s
+  it 700000 T 0.28 cur -2073.0 best -2072.7 347s
+  it 750000 T 0.23 cur -2072.4 best -2072.4 367s
+  it 800000 T 0.20 cur -2073.0 best -2072.4 389s
+  it 850000 T 0.17 cur -2072.4 best -2072.4 410s
+  it 900000 T 0.14 cur -2072.4 best -2072.4 429s
+  it 950000 T 0.12 cur -2072.4 best -2072.4 449s
+seed 2 best -2072.4 acc 0.104
+resTEsiLALESiLAeENtaieSETEsDESiREniENLESentee [85‾] ENLAtiesPAReeENtDESPAReeDESteneLAnePARantteNUeENeLEENiDESPARLAiLESENieLInsDESteeLAseLAiPOINTeteestDESENDESENieENtENTIeiENsseriEN [79‾] LIseCOntesperesDESetDESetDESLAreneLEsLESentDESieLEsLEsCOLAstatTEieSETEnDESONENieitLESiENENeTAntENTEtDESetENRELIePARDESeTELEtREsiPARFAitDESiLE [95‾] REpnsDESestREiLESeLESRETEnDESetriiLEietDESieDESiDESLEENLESetENTEDESiDErenENTEniPOtEN [79‾] LESOUsLEQUETEiLADESREssDESetENtieENTIeiTEDESTETELESENsCEtTELIieieLESiLA [81‾] sTEneDEliONneePARLESLESiniLArENenTELIteQUETEsDESTEnENREDUiTAnneesiLESTEaeTELEiiDESieTEnteLAnesLESDESnnTIeREaENiONQUEsiseREDESsTEsDELATEREniLEStDEFAIREnENtieLESPAReLAtDESLInTEniREeTELEENTEniENtaFAIREsiinDEStRE [83‾] teENMInuTEeDUsieCOnteENtREtLESetENTIeiLESiLESensiuueesENTEtENeLEsLEiiuPOURMIeeiENeneREtRERELEsLEteeTELESTIREsDEeiENSEPOURENenVIsiTEsLESetENTE [87‾] LAiTEntetTEreeTEENiLAnntDESONttiREetLEDESiiENENPOURLESiLESiDESQUEDEeENitREDESENTELESiENeCOnQUEteiLAiTEsiLETEeeTIREeTEstanTEtDESteetDESeDEetDESPARDESesePARTEeststitntENeTEeENENTE [87‾] OUsLETEsteCELESesiDESQUAeuesDEsesiinDEttietLEsENtDEiniinsiQUEeTEiDESiee [89‾] ENteiLEnREsensetESTeeuPARt [81‾] ENSEeENeteENTIeiENLALAisteDESnntteTEMIeiieTEtnONENtRErentLESiLETELIietisseDEntnLEStantDESeVIeiENLAissesENientDEStesLAiQUEntciteENLESeTEneSONte
+KEY: 0=e 10=a 11=e 15=i 16=e 17=s 18=t 19=p 20=n 21=e 23=e 24=u 25=s 26=t 27=n 29=t 3=s 31=e 32=r 33=t 34=a 35=i 38=n 4=i 4-=s 40=e 42=r 43=t 45=t 4==r 7=s 9=i 96==t H=n b=e d=s d-=e e=s ff=e h=e ll=c o=e on=s p=e pd=e q=l q==t u=t w=n x=e y=t θ=e λ=e 〃=i 49'=ta 78'=du 11¨=re 90'=fa 92'=par 89'=en 82'=nu 65'=co 16¨=en 54'=te 73'=son 23¨=on 33¨=les 8¨=te 24¨=que 32¨=co 50'=par 48'=les 43'=les 36'=mi 40'=en 88'=te 6¨=li 9¨=des 61'=des 26¨=de 34'=du 51'=pour 94'=ce 53'=qua 67'=on 34¨=pour 36¨=po 10¨=par 14¨=re 5¨=le 56'=mi 29¨=en 76'=en 45'=le 52'=ti 15¨=la 99'=des 38'=est 35¨=la 29'=ti 83'=re 57'=ti 81'=point 91'=des 42'=se 93'=les 37'=li 28¨=te 85'=faire 84'=par 3¨=te 35'=te 75'=te 39'=vi 7¨=ou 95'=les 71'=que
