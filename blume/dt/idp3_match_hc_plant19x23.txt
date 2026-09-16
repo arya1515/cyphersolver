@@ -1,0 +1,28 @@
+true key2 idp -2.1889; random key2 idp -2.4956
+stage1 1/6 w1=19 w2=23 idp -2.4133 77s
+stage1 2/6 w1=19 w2=23 idp -2.4086 87s
+stage1 3/6 w1=19 w2=23 idp -2.4072 88s
+stage1 4/6 w1=19 w2=23 idp -2.4075 88s
+stage1 5/6 w1=19 w2=23 idp -2.4073 90s
+stage1 6/6 w1=19 w2=23 idp -2.4037 90s
+stage1 top idp: 19/23 -2.4037  19/23 -2.4072  19/23 -2.4073  19/23 -2.4075  19/23 -2.4086  19/23 -2.4133
+19/23 idp -2.4073 q4 -5.805 right 65/615  uroqsabuloodconsencecuroadocobeneosuyedqrecesoresenaeslasundoeoolnicalesmiqstnao
+   key1 4,5,15,0,6,12,10,2,1,3,14,11,8,18,9,7,16,13,17
+   key2 6,16,0,9,15,11,7,10,20,2,12,18,3,4,19,8,5,14,1,17,21,13,22
+19/23 idp -2.4086 q4 -5.805 right 60/615  aridsautqaahthenaloeindeouvonotsumaqeyuqalonreocievisaanoudotuineoslanraodseuslp
+   key1 15,12,13,5,4,3,2,17,10,7,1,6,9,18,11,0,14,8,16
+   key2 9,10,13,22,20,18,6,4,21,19,15,16,12,17,7,2,0,3,5,1,14,11,8
+19/23 idp -2.4072 q4 -5.815 right 45/615  odbqllestamdesosulaarenatyuqtasqanrluovcestanoaqospaneaeaciosluaosueeyrenalateng
+   key1 4,1,2,10,17,12,8,11,15,3,13,0,18,5,7,9,16,14,6
+   key2 20,10,7,9,14,8,18,4,1,12,16,15,22,6,13,21,19,3,11,0,17,5,2
+19/23 idp -2.4075 q4 -5.818 right 54/615  tazyqlaleuvsydaeovupsacunisnesqueqhgimeaaoaiideleecejuaesmeirbncoaiaseoigstollue
+   key1 14,6,12,9,5,1,7,10,16,18,11,17,15,3,2,13,4,0,8
+   key2 5,19,2,21,9,12,1,11,0,8,14,13,15,20,10,16,7,3,22,6,18,17,4
+19/23 idp -2.4133 q4 -5.847 right 47/615  romovosndqyjocutlenacarqqesaapnmteedsaidotrersdehutyoooicrcussouolacaltdyldrvebe
+   key1 13,9,1,11,8,15,7,4,0,17,6,3,14,10,18,5,2,16,12
+   key2 7,4,22,21,2,15,20,0,6,19,11,10,16,9,5,14,8,17,18,13,12,3,1
+19/23 idp -2.4037 q4 -5.869 right 45/615  nvioronaltchlcesubqrrebpeluoisapeciesosdesceycalasadatoidmtrondsocosbabslconsudb
+   key1 15,18,5,7,17,6,1,10,2,0,3,13,14,4,11,16,9,12,8
+   key2 6,14,22,4,7,16,11,1,8,12,15,13,21,0,17,19,9,3,10,18,20,2,5
+FULL uroqsabuloodconsencecuroadocobeneosuyedqrecesoresenaeslasundoeoolnicalesmiqstnaosoooceucrbnenariasqqiaipdearpoitualisoasmdeqtaaobdadaouradosonnetscodecolleaootbebaqsclaaahesrdrignauceonejaaadqdeangeddygincnliddanehenataaeaculpanecciantedneosycouusdseiveloenehnattntenosbierauusasdvameeuediedeleqvqdencaecsesedelouuusaaqynedneeqaulscadacartolztulreespeqhanaucoquevooibreuusasnteqcenribsoyercenaevealonlnadesetofcolacpapesenuestosmsdubetiaamufuldsvtedlanoaquanosozonuaselersuatiarenesnereellhanromadrauamamseeelraaspousdalederiscupenaisaaseotonoateuemtasavityegyoeqslmaaroneganosluurseqdascuqninouvlzolduerlojaotsacjq
+elapsed 135.2s

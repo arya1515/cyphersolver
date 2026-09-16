@@ -1,0 +1,36 @@
+true key2 idp -2.2221; random key2 idp -2.5637
+stage1 1/8 w1=15 w2=23 idp -2.3622 69s
+stage1 2/8 w1=15 w2=23 idp -2.3655 69s
+stage1 3/8 w1=15 w2=23 idp -2.3643 69s
+stage1 4/8 w1=15 w2=23 idp -2.3750 69s
+stage1 5/8 w1=15 w2=23 idp -2.3777 69s
+stage1 6/8 w1=15 w2=23 idp -2.3766 70s
+stage1 7/8 w1=15 w2=23 idp -2.3652 127s
+stage1 8/8 w1=15 w2=23 idp -2.3694 127s
+stage1 top idp: 15/23 -2.3622  15/23 -2.3643  15/23 -2.3652  15/23 -2.3655  15/23 -2.3694  15/23 -2.3750  15/23 -2.3766  15/23 -2.3777
+15/23 idp -2.3777 q4 -5.824 right 55/615  buececcsredscqqdetlcrosastblvmqesquseevmtniusoetajanlarsoesaquntoooyeseosehosyro
+   key1 6,9,4,3,7,10,12,5,13,8,0,1,11,14,2
+   key2 2,22,17,7,21,19,20,18,6,5,1,9,3,12,8,10,15,14,4,13,11,16,0
+15/23 idp -2.3652 q4 -5.890 right 48/615  oalcecoededogsalmelygusteqcybsbreitaeufebsrnzosuseqjuteovlroqsnuaroeredarvloesen
+   key1 11,1,6,5,2,8,3,14,13,7,10,9,0,12,4
+   key2 7,22,17,10,20,21,19,13,3,4,6,9,8,18,15,11,14,5,0,12,2,16,1
+15/23 idp -2.3766 q4 -5.967 right 51/615  qnorctnboqueaatbouilcrcddeyartdutlicleecevosfojnduionaaeazmadoeaesenhsedossdauss
+   key1 8,13,1,9,2,14,4,12,7,5,0,10,6,3,11
+   key2 6,22,17,11,19,20,21,14,9,13,4,3,10,18,1,8,15,12,0,2,5,16,7
+15/23 idp -2.3750 q4 -5.969 right 46/615  viadacrbadorescohtdeveoadujeoqzddbcnysmtjlorgoaeqsedesfuicengryotraqroesessuasde
+   key1 13,8,10,14,2,9,11,0,5,4,3,12,7,1,6
+   key2 17,0,18,7,22,21,20,13,16,12,11,10,8,19,5,9,14,2,1,3,4,15,6
+15/23 idp -2.3622 q4 -5.978 right 63/615  rondrootdousedraooaabletormeoynoesudeyfnsseqselelcascsetreanononlsnnicuesdennela
+   key1 9,11,2,10,7,8,6,4,5,0,13,12,1,3,14
+   key2 7,20,17,5,21,18,19,22,2,13,1,3,12,11,15,16,8,10,0,9,14,6,4
+15/23 idp -2.3655 q4 -5.984 right 53/615  ruahcdnotdocensycoabddeddaleoanszdsbguyfeneomatalnqsjeisierseoorrdconsdseqrvegss
+   key1 10,14,7,6,8,9,11,2,4,1,5,12,13,3,0
+   key2 7,18,17,5,22,21,20,13,9,1,8,10,12,19,4,14,15,11,0,2,3,16,6
+15/23 idp -2.3694 q4 -6.014 right 42/615  rontdoruedsudegaooelpaueomatoasionhenseqsdsnunledusedeareseceneqnnausoesicntneeq
+   key1 13,10,2,7,3,12,5,14,11,6,9,8,1,4,0
+   key2 5,20,15,17,21,18,19,22,2,13,1,3,12,7,6,16,8,10,9,0,14,11,4
+15/23 idp -2.3643 q4 -6.020 right 48/615  oljseereduosensuaoceeyautcoaqmeyebesuyerasgoosdeleaceosusllarloesloelsuelislmeer
+   key1 11,14,2,10,7,9,0,12,3,6,8,4,13,1,5
+   key2 8,22,21,5,17,18,19,10,20,9,1,14,12,2,15,16,3,6,11,4,0,13,7
+FULL buececcsredscqqdetlcrosastblvmqesquseevmtniusoetajanlarsoesaquntoooyeseosehosyrogedazyousesresenntodfonaacenuozauteninaidepdosdtnlimesunavnleeqdecqadluseahocasaalcoycasaelseyotloznddetaosecuiquesdaabevecedrirnoraaasarnuvsqpqllodonosunassedodelnueleueobeepotureorenaarayndnacsuedseadosngacouenqileeiausassaitceuencnrreidaisudumtapeqareatuapelquardaoaennsiedosneoangudheeacqldgneniuqoessabbnsossioyolmalecresentpampupjrscamicocaaludaetmacentarvodubocasinaquetaaeitoaufediconbchncasemenqugaaesatsnedadnuquernauaeomarnavolcelbendelauocotasoduqaeoohuqveneirlsienaoubouaoddanreaoecritoeirleellaelejdeoolloelsanalatasosaer
+elapsed 198.9s

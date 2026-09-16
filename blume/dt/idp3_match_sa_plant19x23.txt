@@ -1,0 +1,28 @@
+true key2 idp -2.1889; random key2 idp -2.4956
+stage1 1/6 w1=19 w2=23 idp -2.4093 79s
+stage1 2/6 w1=19 w2=23 idp -2.4154 90s
+stage1 3/6 w1=19 w2=23 idp -2.4018 91s
+stage1 4/6 w1=19 w2=23 idp -2.4001 92s
+stage1 5/6 w1=19 w2=23 idp -2.4119 92s
+stage1 6/6 w1=19 w2=23 idp -2.4045 97s
+stage1 top idp: 19/23 -2.4001  19/23 -2.4018  19/23 -2.4045  19/23 -2.4093  19/23 -2.4119  19/23 -2.4154
+19/23 idp -2.4018 q4 -5.824 right 56/615  eqqidlzpeaeclectubsnltfsnedaveisacemisidinomiaporaahenrniseasierloososvsaaroiuoi
+   key1 15,1,17,18,6,7,0,12,14,10,4,16,3,13,9,11,8,2,5
+   key2 19,11,17,22,7,14,9,20,6,10,15,21,18,2,16,12,5,4,1,8,3,0,13
+19/23 idp -2.4119 q4 -5.825 right 56/615  quiubclnessrcnsdvlcraneaecetoadaqltqyanpssirtocaedaaleandselroseajalassudescabae
+   key1 8,18,4,10,14,17,0,6,11,2,16,3,12,5,9,15,1,13,7
+   key2 18,11,3,0,20,12,10,4,5,9,16,21,19,2,13,8,6,15,7,22,17,1,14
+19/23 idp -2.4001 q4 -5.825 right 51/615  zszvnrablesosatedqasnosincartnteetsbnorroceeoooninuadoluqsieealsetouorunseitoinp
+   key1 14,18,4,0,16,9,5,15,8,10,12,1,6,3,13,2,17,7,11
+   key2 12,16,7,20,19,5,14,13,6,18,22,9,3,15,4,10,11,17,2,21,8,0,1
+19/23 idp -2.4093 q4 -5.850 right 55/615  bpearasvesylnatigieetearcoluqueostosunilleseoihevueunquhsintaiaesuetsavaossunest
+   key1 3,17,12,11,1,6,13,2,7,16,4,0,5,10,8,18,15,14,9
+   key2 9,13,11,21,1,12,19,15,8,18,6,0,22,7,2,5,16,10,14,20,3,17,4
+19/23 idp -2.4154 q4 -5.876 right 54/615  yingnacordentveeeteoqinucocudreszqbaaoraomqamarhndozsrhlndbraheanaadvqdbacausule
+   key1 17,9,1,7,10,0,12,11,2,8,14,15,4,18,13,16,6,3,5
+   key2 21,9,15,5,4,11,8,20,1,14,2,6,16,22,18,17,19,13,10,3,12,0,7
+19/23 idp -2.4045 q4 -5.884 right 39/615  baoiqlvlsqdtasllesdndduqrgsynananoclerjuzzscqdarsenidaroaaoaconrleanuneosatsoloe
+   key1 0,5,15,8,13,7,10,18,14,16,6,11,4,17,9,2,3,1,12
+   key2 19,5,2,11,18,12,16,22,15,17,20,9,13,0,21,3,1,4,14,10,6,7,8
+FULL eqqidlzpeaeclectubsnltfsnedaveisacemisidinomiaporaahenrniseasierloososvsaaroiuoigaelsalrvudoounscudeeaodifanllnaondeatualenaehcotaaqespeesludzanuamonueonsonsloencsenduariaenreulnethdolvoyaqaptacaeedosvzslasqreseocrtuduusesarabeilalesqueepssrylarambeuangtiqqrsquitodatoaentaluelurceavcunrosnqsescedrateqyancodqucsunoauremooosdobapeadrrosgajesetlboosnleuaeobemehooqasquitcenaatlabaesalequbeseduaducncdoaonnalmntoncaeaiesrecelemindeceaueaeagadoenatiasdseavejeuuatvecanermdesdianesturojoaneassobqeeyadeaunquasedehaecosnetradeadenooelqyorcuacolnoeconalnrodoloseetoeciaoescusdaeudtpcdbqcpsnoyasegunnstuanurdlcmlqosdioneay
+elapsed 139.6s

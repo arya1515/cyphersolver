@@ -15,17 +15,6 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "even", "md", "compute in progress",
-     "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
-     "September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words "
-     "on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than "
-     "French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions "
-     "(107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys "
-     "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
-     "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
-
-
     ("“Cifer with Spanish spy”, SP53/22 f.52", "1580s",
      CRYPTIANA, "", "partial", "md", "low",
      "A short undeciphered slip among the Mary Queen of Scots cipher keys, transcribed on Tomokiyo's page: <b>87 groups</b> on a digit-plus-b alphabet "
@@ -61,6 +50,21 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "attempted, not solved", "lo",
+     "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>Attempted "
+     "September 2026.</b> The first telegram is transcribed from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. "
+     "It is a <b>transposition</b> (index of coincidence 0.070, no bigram structure of its own) of what the letter counts say is telegraphic "
+     "Spanish: two <i>q</i> in 615 letters, too many <i>p</i>, <i>t</i> and <i>x</i>, six <i>k</i> and <i>x</i> together, the profile of "
+     "spelled figures and trade words rather than prose. A <b>lag scan</b> (planted controls light up at z 11&ndash;22; the telegram never "
+     "passes 3.3) excludes every single columnar transposition and every reversed-direction double columnar at once. <b>Exhaustive "
+     "enumeration of the second key</b>, proven on plants from 19 &times; 8 to 41 &times; 8 and 30 &times; 10 where the true key ranked first "
+     "every time, excludes forward double columnar and both mixed conventions for every second key of ten or fewer letters with a first "
+     "width up to 41. Local search on longer second keys fails on plants at this length, and the reason is measured: one wrong swap already "
+     "costs half the signal, five make the key indistinguishable from random. What remains is the German-practice region, two keys of "
+     "15&ndash;25 letters, and a single 615-letter message there is beyond published ciphertext-only attacks. Needs the second telegram, "
+     "same day and same firm, or a crib such as <i>pesetas</i> or the firm's name."),
+
     ("Sir Richard Forster, 13 May 1644 (Val-d'Oise 68.H.8)", "1644",
      "https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md", "", "already read by others", "md",
      "<b>Found already read, September 2026.</b> The passage was deciphered by George Lasry after Britland's 2013 article, independently by Norbert "

@@ -1,0 +1,12 @@
+exhaust w1=50 w2=8: 40320 perms, true key2 idp -2.1048, better candidates 0, best -2.1048
+50/ 8 best idp -2.1048 q4 -5.037 anecertaquierdranueseelpordonrasvasusdaobdantsuentheqmencuij  [1/1 121s]
+=== overall top 10 by quadgrams
+50/8 idp -2.1048 q4 -5.037 right 71/615  anecertaquierdranueseelpordonrasvasusdaobdantsuentheqmencuijotoyoennouveunarlsus
+exhaust w1=45 w2=9: 362880 perms, true key2 idp -2.1431, better candidates 12, best -2.1330
+45/ 9 best idp -2.1386 q4 -5.412 nqvcaobraesynadecontnollassuqoacfditiuntanatmetoquaogaoienda  [1/1 282s]
+=== overall top 10 by quadgrams
+45/9 idp -2.1386 q4 -5.412 right 63/615  nqvcaobraesynadecontnollassuqoacfditiuntanatmetoquaogaoiendavaissjebqbcederepeae
+exhaust w1=61 w2=9: 362880 perms, true key2 idp -2.0721, better candidates 0, best -2.0721
+61/ 9 best idp -2.0721 q4 -4.975 aslnaddlnmausdepearhaptondruesdicenacomneuraaseasequarannosa  [1/1 530s]
+=== overall top 10 by quadgrams
+61/9 idp -2.0721 q4 -4.975 right 55/615  aslnaddlnmausdepearhaptondruesdicenacomneuraaseasequarannosatoyteontddelumabunar

@@ -1,0 +1,12 @@
+exhaust w1=41 w2=8: 40320 perms, true key2 idp -2.2163, better candidates 0, best -2.2163
+41/ 8 best idp -2.2163 q4 -4.408 scimientoentallugarymuereenesunaastipanenendolosmurosdelafam  [1/1 201s]
+=== overall top 10 by quadgrams
+41/8 idp -2.2163 q4 -4.408 right 106/615  scimientoentallugarymuereenesunaastipanenendolosmurosdelafamosaciuanobesarocelma
+exhaust w1=35 w2=9: 362880 perms, true key2 idp -2.1701, better candidates 0, best -2.1701
+35/ 9 best idp -2.1701 q4 -4.244 acompaneroeternomioentodosmiscamosniycarrerasluegovolviadici  [1/1 432s]
+=== overall top 10 by quadgrams
+35/9 idp -2.1701 q4 -4.244 right 8/615  acompaneroeternomioentodosmiscamosniycarrerasluegovolviadiciendocomivsoerdaderam
+exhaust w1=30 w2=10: 3628800 perms, true key2 idp -2.1914, better candidates 0, best -2.1914
+30/10 best idp -2.1914 q4 -4.397 pagadleluegoszaninmasreplicasioreldiosquenooplsrigequeosconc  [1/1 1713s]
+=== overall top 10 by quadgrams
+30/10 idp -2.1914 q4 -4.397 right 36/615  pagadleluegoszaninmasreplicasioreldiosquenooplsrigequeosconcayaniquileeneuydstep

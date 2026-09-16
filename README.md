@@ -103,7 +103,7 @@ Nothing more can be done online; the key or the text is located in an archive.
 
 | Target | Date | State | Where |
 |---|---|---|---|
-| "BLUME SALAMANCA" telegrams, Zurich → London | 1937 | Identified as a Spanish transposition; single columnar excluded; double-transposition solvers built and validated. Paused | [`blume/`](blume/) |
+| "BLUME SALAMANCA" telegrams, Zurich → London | 1937 | Transposition of telegraphic Spanish. Every single transposition and every double columnar with a second key of ten or fewer letters excluded against planted controls (lag scan plus exhaustive second-key enumeration). Open: double columnar with two long keys; needs the second telegram. Attempted, not solved | [`blume/`](blume/) |
 
 ### Surveys
 

@@ -107,7 +107,7 @@
 <div class="more" hidden><ul class="findings">
 <li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
-<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route, single columnar and forward double columnar (same key to width 30, two keys to 16 &times; 16) excluded against planted controls; the reversed direction and the long-key attack are running.</li>
+<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">a transposition of telegraphic Spanish; attempted, not solved.</span> A lag scan excludes every single columnar and every reversed-direction double columnar (controls z 11&ndash;22, telegram 3.3); exhaustive enumeration of the second key, proven on plants up to 41 &times; 8 and 30 &times; 10, excludes forward double columnar and both mixed conventions with a second key of ten or fewer letters. Local search on long second keys fails on plants at this length. What is left is the German-practice region, two keys of 15&ndash;25 letters, and that needs the second telegram.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
 <li><b>Censorship manual steganograms, WW2</b> &mdash; <span class="fnd">blocked on image resolution.</span> The map&rsquo;s shift direction and the exact Morse any German wording would leave are now fixed, but the pen marks are 2&ndash;5 pixels in the best public photograph. Needs a high-resolution scan of KV 2/2424.</li>
 <li><b>Debosnys, 1882&ndash;83</b> &mdash; <span class="fnd">attempted, not solved.</span> The cipher poem is rhyming couplets in a French syllabary, every testable crib is excluded, and the surviving text is too short to break without one. <a href="debosnys.html">Full write-up &rarr;</a></li>
@@ -193,21 +193,13 @@
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
   <button class="qf on" data-f="all">All <span>36</span></button>
-  <button class="qf" data-f="live">Worth continuing <span>6</span></button>
-  <button class="qf" data-f="done">Attempted <span>22</span></button>
+  <button class="qf" data-f="live">Worth continuing <span>5</span></button>
+  <button class="qf" data-f="done">Attempted <span>23</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
 <h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
-  <div class="tg-b">
-    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
-    <div class="tg-meta"><span class="odds md">even</span><span class="eff">compute in progress</span></div>
-    <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions (107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">“Cifer with Spanish spy”, SP53/22 f.52</a><span class="tg-date">1580s</span></h3>
     <div class="tg-meta"><span class="odds md">partial</span><span class="eff">low effort</span></div>
@@ -215,7 +207,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">3</span></div>
+  <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
     <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md">Lodovico Birago to the Duke of Nevers, the numerical paragraph</a><span class="tg-date">1571</span></h3>
     <div class="tg-meta"><span class="odds lo">low</span><span class="eff">done</span></div>
@@ -223,7 +215,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">4</span></div>
+  <div class="tg-l"><span class="tg-rank">3</span></div>
   <div class="tg-b">
     <h3><a href="armstrong.html">Armstrong to Madison, 20 February 1808: the disputed contest solution</a><span class="tg-date">1808</span></h3>
     <div class="tg-meta"><span class="odds md">adjudication</span><span class="eff">medium effort</span></div>
@@ -231,7 +223,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">5</span></div>
+  <div class="tg-l"><span class="tg-rank">4</span></div>
   <div class="tg-b">
     <h3><a href="http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/">Louis XIV to the Duke of Chaulnes in Rome</a><span class="tg-date">1690</span></h3>
     <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
@@ -239,7 +231,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">6</span></div>
+  <div class="tg-l"><span class="tg-rank">5</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
     <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">not started</span></div>
@@ -247,6 +239,14 @@
   </div>
 </article>
 <h3 class="tier" data-t="done">Attempted &mdash; findings recorded <small>what was established, and what is left</small></h3>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
+    <div class="tg-meta"><span class="odds lo">attempted, not solved</span></div>
+    <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>Attempted September 2026.</b> The first telegram is transcribed from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition</b> (index of coincidence 0.070, no bigram structure of its own) of what the letter counts say is telegraphic Spanish: two <i>q</i> in 615 letters, too many <i>p</i>, <i>t</i> and <i>x</i>, six <i>k</i> and <i>x</i> together, the profile of spelled figures and trade words rather than prose. A <b>lag scan</b> (planted controls light up at z 11&ndash;22; the telegram never passes 3.3) excludes every single columnar transposition and every reversed-direction double columnar at once. <b>Exhaustive enumeration of the second key</b>, proven on plants from 19 &times; 8 to 41 &times; 8 and 30 &times; 10 where the true key ranked first every time, excludes forward double columnar and both mixed conventions for every second key of ten or fewer letters with a first width up to 41. Local search on longer second keys fails on plants at this length, and the reason is measured: one wrong swap already costs half the signal, five make the key indistinguishable from random. What remains is the German-practice region, two keys of 15&ndash;25 letters, and a single 615-letter message there is beyond published ciphertext-only attacks. Needs the second telegram, same day and same firm, or a crib such as <i>pesetas</i> or the firm's name.</p>
+  </div>
+</article>
 <article class="tg done">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">
