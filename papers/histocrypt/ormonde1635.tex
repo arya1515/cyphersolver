@@ -1,0 +1,125 @@
+% HistoCrypt 2027 short paper draft (4 pages excluding references). Anonymous for submission.
+% Compile: pdflatex ormonde1635 && bibtex ormonde1635 && pdflatex ormonde1635 && pdflatex ormonde1635
+% Status 2026-09-16: first full draft from cyphersolver/ormonde/NOTES.md. \todo marks are Daniel's fills. Unvalidated.
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Maltravers to Ormonde, 1634--35: \\ A Regular Stuart Key Read from Fifty-Nine Figures}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Two letters from Lord Maltravers to the Earl of Ormonde, of 13 September 1634 and 22 January 1634/5, survive only as printed in the Historical Manuscripts Commission calendar of the Ormonde papers (1895), with 59 cipher figures left unread. They stand on Tomokiyo's list of unsolved historical ciphers. The figures are far below any statistical threshold: an unconstrained homophonic solver returns fluent nonsense that outscores the truth. The cipher is read instead from its design. Four doubled letters are written with consecutive figures (49~50, 69~70, 28~29, 11~12), which shows that each letter owns a block of consecutive values; the nulls (91--111) and the nomenclator ($\geq$112) separate by position; and the only regular grid consistent with the cribs \emph{letters}, \emph{councellor}, \emph{Crosby} gives the nineteen consonants three figures each from 7 in alphabetical order, the vowels from 64. Every spelled word then reads. The nomenclator was confirmed clause for clause against Wentworth's own dispatches of October and December 1634 in Knowler's \emph{Strafforde's Letters} (1739), which describe the same two events: the King's refusal to receive the Earl of Kildare, and Wentworth's motion that Ormonde be sworn a Privy Councillor ``in exchange'' for Sir Piers Crosby. Seven of nine codes are fixed; two person-codes in a clause Maltravers himself could not answer remain open. The case is offered as a type specimen of the early Stuart regular-block key and of what a printed calendar, a design argument and a documentary edition can do below unicity.
+\end{abstract}
+
+\section{The letters}
+
+Henry Frederick Howard, Lord Maltravers, son of the Earl of Arundel and himself sworn of the Irish Privy Council in 1634, wrote court news from England to James Butler, twelfth Earl of Ormonde, then a young peer making his name in the Irish Parliament of 1634--35. Two of his letters are printed in the first volume of the Historical Manuscripts Commission's calendar of the Ormonde manuscripts at Kilkenny Castle \cite{HMC:Ormonde1895}, pp.~28--29, with their cipher passages given as figures and no decipherment. The calendar's index (``Cypher, letters in'') points to three further ciphered letters in the volume, of 1644 and the 1650s; all are in other keys, and none carries a key or a decipherment of these two. Tomokiyo lists the pair as the ``Ormonde--Maltravers Cipher (1634--1635)'' \shortcite{Tomokiyo:unsolved} and, in his survey of early Stuart ciphers \shortcite{Tomokiyo:strafford}, places it beside the Wentworth-circle keys whose images he has seen: three or six figures to each letter in regular arrangement, nulls, and a numbered nomenclator.
+
+The printed figures were checked against the page scans of the calendar; every figure used below is as printed. The ciphered passages are these, clear words in roman and figures in bold.
+
+\begin{quote}\small
+13 September 1634, Dorking: My lord of Kildare is long ago in England though I have not seen him, it is said he came over because he was \textbf{65, 35, 21, 26, 59, 98, 113, 186, 108, 143,} refused to see him because he brought no \textbf{28, 69, 49, 50, 70, 44, 89,} from \textbf{186, 99.}
+
+22 January 1634/5, Whitehall: You desire to know what \textbf{93, 185, 95,} hath written unto \textbf{99, 149,} concerning \textbf{98, 10, 44, 79, 47, 8, 59,} for whom \textbf{270} thus hereafter of which I can give you no account of at all, only by what I hear it is like to go worser with him, rather than better, \textbf{95, 186, 98} hath written unto \textbf{98, 218, 97} much in praise of \textbf{100, 174, 103} in general, and particularly for his good carriage in \textbf{111, 95, 221,} and upon his motion \textbf{93, 31, 174 99} is to be \textbf{64, 99, 11, 79, 85, 35, 12, 69, 28, 29, 79, 44,} in which courses \textbf{174} shall do well to continue.
+\end{quote}
+
+Fifty-nine figures, 39 distinct, maximum 270. The repeats are 98 and 99 four times each, 44, 79, 95 and 186 three times, and 28, 35, 59, 69, 93 and 174 twice.
+
+\section{Structure from position}
+
+Three bands separate before any letter is known.
+
+\paragraph{Nulls, 91--111.} Nine values (93 95 97 98 99 100 103 108 111), eighteen occurrences, and seventeen of them stand at the edge of a cipher run or immediately beside a value of 112 or more: \textbf{93 185 95}, \textbf{99 149}, \textbf{95 186 98}, \textbf{98 218 97}, \textbf{100 174 103}, \textbf{111 95 221}, \textbf{186 99}. Nulls that bracket a code word are the clerk's habit in this family; Tomokiyo's conjecture that the nineties are nulls is confirmed by their positions alone.
+
+\paragraph{Nomenclator, 112 and above.} Nine values (113 143 149 174 185 186 218 221 270), each standing alone between nulls or clear words, and one of them introduced in the text: ``concerning [Crosby], for whom \textbf{270} thus hereafter''. The clerk assigns a code to a name after spelling it once. The same convention, a sign written beside the word the first time it is spelled, explains the framed passages of the Charles I--Boswell letter of 1643 and is worth knowing as a habit of the period.
+
+\paragraph{Letters, below 91.} The four runs that must be spelled words each contain a pair of \emph{consecutive} figures where English wants a doubled letter: \textbf{49 50} in the run that must be \emph{letters}, \textbf{69 70} in the same run, \textbf{28 29} in the run that must be \emph{councellor}, and \textbf{11 12} in the same. A doubled letter written with two consecutive figures means that each letter owns a block of consecutive values and the encipherer took the homophones in order. That is the whole of the cryptanalysis; the rest is bookkeeping.
+
+\section{The grid}
+
+The cribs are historical and were available before the reading. Kildare had gone to England without leave in 1634 and the King declined to receive him; ``he brought no \emph{letters} from [the Lord Deputy]'' is the natural sentence, and seven figures with a doubled pair at positions three and four fit \emph{letter(s)}. Ormonde was sworn of the Irish Privy Council in January 1635 \cite{Wedgwood:1961}; ``upon his motion [Ormonde] is to be \emph{a councellor}'' fits twelve figures with the doubled pair at positions eight and nine, and the single figure 64 before it. Sir Piers Crosby, who broke with Wentworth in the 1634 Parliament and was put out of the Irish Council early in 1635, is the man ``for whom it is like to go worser'': six figures, \emph{Crosby}.
+
+Under these three cribs the letter figures are l~28~29, e~69~70, t~49~50, r~44, s~47, c~10~11~12, o~79, u~85, n~35, a~64~65, b~8, y~59, and with \emph{a} at 64--65 and the consonants all below 64 the design declares itself: the nineteen consonants of the 24-letter alphabet (\emph{b c d f g h k l m n p q r s t w x y z}; \emph{i}~=~\emph{j}, \emph{u}~=~\emph{v}) in alphabetical order, three figures each, starting at 7, then the vowels from 64 (Table~\ref{tab:grid}). Every letter figure in the two letters falls where the grid predicts. An exhaustive scan of regular grids, start 1--11, block size 2--4, uniform vowel blocks of 2--6, 42 grids in all, ranks start~7, size~3 first by English quadgram score of the four spelled runs; this is a check on the cribs, not an independent solution, since the quadgram score alone cannot fix the grid without them.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}llllll@{}}
+\toprule
+b 7--9 & c 10--12 & d 13--15 & f 16--18 & g 19--21 & h 22--24 \\
+k 25--27 & l 28--30 & m 31--33 & n 34--36 & p 37--39 & q 40--42 \\
+r 43--45 & s 46--48 & t 49--51 & w 52--54 & x 55--57 & y 58--60 \\
+z 61--63 & a 64-- & e --69, 70-- & i & o 79-- & u 85-- \\
+\midrule
+\multicolumn{6}{@{}l}{91--111 nulls \quad 112 and above: nomenclator \quad 1--6 not seen} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:grid} The key as far as 59 figures determine it. Consonant blocks are fixed; the vowel blocks are either five each (64--88, with 89--90 nulls) or \emph{a} three and the rest six (64--90). Figures seen: b~8, c~10--12, g~21, l~28--29, m~31, n~35, r~44, s~47, t~49--50, y~59, a~64--65, e~69--70, o~79, u~85.}
+\end{table}
+
+The reading of the first run is then \emph{a n g k y} (65~35~21~26~59). The word is \emph{angry}; 26 is \emph{k} in the grid and \emph{r} is 43--45. The figure is printed as 26 and the scan confirms the print, so either Maltravers mis-enciphered or the 1895 transcriber misread the manuscript, and only the original can say which. \emph{89} at the end of \emph{letter} is \emph{u} under six-figure vowel blocks (a slip for \emph{s}) or a null under five-figure blocks; the sense is unaffected. \emph{31}~=~\emph{m} before 174 in the second letter is unexplained, perhaps ``m[y lord]'' begun and abandoned.
+
+\section{The nomenclator against Knowler}
+
+The reading with the letters filled and the codes left as numbers is:
+
+\begin{quote}\small
+Kildare ``came over because he was \textsc{angry} [113] [186]; [143] refused to see him because he brought no \textsc{letters} from [186].''
+
+``What [185] hath written unto [149] concerning \textsc{Crosby}, for whom 270 thus hereafter, I can give you no account \ldots\ [186] hath written unto [218] much in praise of [174] in general, and particularly for his good carriage in [221], and upon his motion [174] is to be \textsc{a councellor}, in which courses [174] shall do well to continue.''
+\end{quote}
+
+Both events are narrated by Wentworth himself in dispatches printed in Knowler's edition of his letters \cite{Knowler:1739}, and the match is clause for clause.
+
+Wentworth to Secretary Coke, October 1634 (vol.~I, p.~309): ``The Earl of Kildare went away from hence without the privity of this State, and in seeming displeasure against me \ldots\ I hear his Majesty refuseth to admit him to kiss his hand, which I acknowledge as a respect to me.'' Coke's marginal answer: ``The Earl of Kildare shall be sent back as is advised.'' Hence 143 = \emph{the King}, 186 = \emph{the Lord Deputy}, and 113 the connective between \emph{angry} and the Deputy, \emph{with} or \emph{against}; Wentworth's own word is \emph{against}.
+
+Wentworth to Coke, Dublin, 22 December 1634 (pp.~352--353), reporting who had served well in the Parliament: ``In the Higher House, there is my Lord of Ormond, that hath as much advantage of the rest in judgment and parts, as he hath in estate and blood \ldots\ fit to receive some mark of his Majesty's favour, and humbly offer it to his Majesty's wisdom, whether it were not seasonable to make him a Counsellor \ldots\ so as I should think we had got much the better by the exchange of the Earl of Ormond for Sir Piers Crosby.'' Coke's marginal answer: ``for the Earl of Ormond, your Lordship shall receive herewith his Majesty's warrant to swear him Counsellor, according to your advice.'' Maltravers a month later: the Lord Deputy hath written unto [218] much in praise of [174] in general, and particularly for his good carriage in [221], and upon his motion [174] is to be a councellor. So 174 = \emph{Ormonde} (``your lordship''), 221 = \emph{the Parliament}, and 218 = the addressee of the dispatch, \emph{Mr Secretary Coke}; the King already has 143, which is why Coke is preferred over the King for 218. James Howell to Wentworth, 1 January 1635, has Crosby in England ``resolved never to see Ireland while your Lordship governs'', which is the month's gossip behind ``like to go worser with him''.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+code & value & evidence \\
+\midrule
+186 & the Lord Deputy (Wentworth) & three uses; Knowler I 309, 352--3 \\
+174 & the Earl of Ormonde & three uses; Knowler I 352--3 and Coke's marginal \\
+221 & the Parliament (Irish, 1634) & ``good carriage in'' / ``in the Higher House'' \\
+143 & the King & ``refused to see him'' / ``refuseth to admit him'' \\
+218 & Secretary Coke (or the King through Coke) & addressee of the 22 December dispatch \\
+270 & Sir Piers Crosby & assigned in the text \\
+113 & with / against & ``angry 113 the Lord Deputy'' \\
+185, 149 & two other persons or bodies & open, see text \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:codes} The nomenclator as recovered.}
+\end{table}
+
+The two open codes, 185 and 149, are the parties in ``what [185] hath written unto [149] concerning Crosby''. Since 186 and 143 are used in the same letters, they are neither the Deputy nor the King unless the key carried homophones. Adjacent numbering suggests grouped lists of officers (185 beside 186, the Lord Treasurer beside the Lord Deputy is the obvious pair; 149 near 143, the Council or the Queen), but Maltravers says in the next clause that he can give no account of the matter, so no later letter of his will answer it. Only the key sheet, or an Ormonde letter asking the question, would.
+
+\section{What statistics could not do}
+
+The letter figures number 28 tokens over 20 distinct values. An unconstrained homophonic hill-climb with simulated annealing on a quadgram objective, forty restarts, returns ``thath erethet hereth erthereare'' at a score of $-76$ against $-137$ for the true key: with about as many symbols as letters it simply assembles common quadgrams. This is the expected behaviour far below unicity, and it is recorded so that a negative of this kind is not mistaken for evidence about the cipher. What solved the text was the consecutive-doubled-letter observation, three historical cribs, and a documentary edition that had been in print for 287 years. The same order of attack, design first and edition second, is what Tomokiyo's survey of the Scudamore (1636), Cave (1638) and Ormonde--Clanricarde (1643) keys suggests for the whole family, and the Boswell key of 1643 read by Pitt \shortcite{Pitt:boswell} is another member: 24 letters in four rows of 24, each letter's homophones 24 apart.
+
+\section{Conclusion}
+
+Fifty-nine figures printed in a calendar in 1895 are read. The key is a regular Stuart block alphabet, consonants in three-figure blocks from 7, vowels from 64, nulls 91--111, nomenclator from 112; every spelled word reads and seven of nine code values are fixed against Wentworth's dispatches in Knowler. Two person-codes remain, on which the text itself says nothing more can be known from this correspondent. The originals of the Ormonde papers are now in the National Library of Ireland; a key sheet, if one survives, would be there or among the Arundel papers, and the early Carte volumes at the Bodleian, not calendared online before 1660, may hold copies. The list entry should be marked solved with this residue. Transcription, analysis scripts and the Knowler excerpts are in the accompanying repository \todo{URL after anonymity is lifted}.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

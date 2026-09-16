@@ -1,5 +1,5 @@
 {
- "method": "b4_robustness.py -- Task b4: robustness items listed as 'not computed' in NOTES.md (sections 4.1, 4.7, 8).\n\nPure Python 3.12, no third-party packages.  Outputs results/b4.json and results/b4.md.\n\nWHAT IS COMPUTED (method choices are explicit; every number is unvalidated until reviewed)\n------------------------------------------------------------------------------------------\nData\n  * ZL3b-n.words.tsv, locus_type P only, words containing '?' dropped, EVA words must match [a-z]+\n    (identical to a1_charstats.py).  Subsets ALL (A + B + lang '?'), A, B.  Cross-checks on RF1b-er (EVA)\n    and GC2a-n (v101; words containing '@' dropped, every character a symbol).\n  * Alphabets: raw (one EVA character = one symbol) and merge2 from a1\n    (ckh cth cph cfh ch sh iiin iin eee ee aiin ain in qo; greedy longest match).\n  * Languages: single Gutenberg books la 33849 (Confessiones; '[Sidenote: ...]' blocks removed),\n    de 50285, en 1342, fr 62215, da 36942, and vatican5/corpus_it.txt.  Header/footer stripped at\n    '*** START OF' / '*** END OF'.  Normalisation: lower case; str.isalpha() characters are letters,\n    everything else a word break.  'folded' = diacritics stripped (NFKD, combining marks removed,\n    ss/ae/oe/o substitutions for sharp s, ae, oe, o-slash) so the alphabet is the 26 Latin letters plus\n    whatever survives; 'unfolded' keeps accented letters as distinct symbols (as in a1).  The folded\n    variant is the primary one (NOTES quotes the folded 3.32 floor); unfolded h1/h2 are given alongside.\n    Samples are the first N letters (whole words) of the book, N = ZL ALL letters and N = ZL A letters.\n\n(1) Entropies  h_k = H(X_n | X_{n-k+1..n-1}) = H(k-gram) - H((k-1)-gram context), plug-in, log2, k = 1..4,\n    with spaces (words joined by a space symbol; line ends are spaces) and without (words concatenated,\n    n-grams span word boundaries).  Bias diagnostics: Miller-Madow (each block entropy gets\n    +(m-1)/(2 N ln 2), m = occupied bins) and the same plug-in estimate on each half of the sample (first\n    half / second half of the word list).  h4 is reported for every sample but is not trustworthy where\n    the half-sample value differs from the full one by more than a few hundredths (the table shows this).\n\n(2) Per-hand statistics for Davis's hands 1-5 as given in the IVTFF headers, split by Currier language:\n    h1, h2 (raw, no spaces), mean word length, hapax type fraction, Zipf slope (OLS of log10 freq on\n    log10 rank, ranks 1..min(1000, types); as a2), -edy and qo- token rates.  Cells with fewer than 200\n    tokens are omitted; hapax and Zipf are size dependent, so cells with >= 10,000 tokens are also given\n    on their first 10,000 tokens.  A folio-permutation test of hand 2 against hand 3 inside Currier B is\n    added so that 'same language, different scribe' has a p-value.\n\n(3) Bootstrap: folios resampled with replacement (500 resamples, random.Random(2026)); statistics are\n    recomputed from per-folio counts (bigrams do not cross folio boundaries, which drops about one bigram\n    in a thousand).  Reported: percentile 95% interval and bootstrap SE for h2 (raw, no spaces), Zipf\n    slope (ranks 1-1000), hapax type fraction, and the a3 'pair-viol frac' (token-weighted share of\n    within-word ordered glyph pairs that are out of order under the best linear glyph order; the 0.160 of\n    NOTES 4.4) both with the glyph order fixed from the full data and with the order re-derived on each\n    resample (a3 best_order heuristic, 2 restarts).  Rigidity uses a3's merge (benches, bench gallows,\n    e-groups, i-groups) and a3's letter filter.\n\n(4) A versus B: statistic = value(A) - value(B) for h2 (raw, no spaces), mean word length, -edy rate,\n    qo- rate, with folios as units and the folio's page language as its label (lang '?' folios excluded).\n    (i) unrestricted: 2,000 random relabellings of the folios; (ii) stratified by hand: labels permuted\n    only within a hand.  Because every hand except hand 3 writes one language only, (ii) can only move\n    labels among hand-3 folios; the number of movable folios is reported.  p is two sided,\n    (1 + #{|perm| >= |obs|}) / (1 + n_perm).\n\n(5) Token predictability (after Rozanova & Temerev 2026, whose exact estimator was not available to\n    this session; this is one reasonable reading of 'the information a word carries about the next').\n    Word level:  (a) plug-in  I = H(w_i) + H(w_{i+1}) - H(w_i, w_{i+1}) on all consecutive token pairs of\n    the stream, with a shuffle baseline (mean of 3 shuffles of the token order; plug-in MI is dominated\n    by sample-size bias, and the shuffled value shows how much);  (b) held-out: the stream is split in\n    two halves, a model is trained on one and scored on the other, both directions averaged.  Training\n    hapaxes and test out-of-vocabulary tokens map to UNK.  Unigram: maximum likelihood.  Bigram:\n    Witten-Bell interpolation P(b|a) = (c(a,b) + T(a) P(b)) / (c(a) + T(a)).  Then\n    H(w) := CE_uni, H(w_{i+1}|w_i) := CE_bi, I := CE_uni - CE_bi, ratio := CE_bi / CE_uni, plus the same\n    on a shuffled stream.  Glyph level: mutual information between the last glyph of a word and the\n    first glyph of the next word (plug-in with shuffle baseline; the alphabet is small, so bias is\n    small).  For ZL the pairs are also restricted to consecutive words on the same line.  Languages are\n    cut to the ZL token count.\n\n(6) The same h2 and predictability numbers on RF1b and GC2a.\n",
+ "method": "b4_robustness.py -- Task b4: robustness items listed as 'not computed' in NOTES.md (sections 4.1, 4.7, 8).\n\nPure Python 3.12, no third-party packages.  Outputs results/b4.json and results/b4.md.\n\nWHAT IS COMPUTED (method choices are explicit; every number is unvalidated until reviewed)\n------------------------------------------------------------------------------------------\nData\n  * ZL3b-n.words.tsv, locus_type P only, words containing '?' dropped, EVA words must match [a-z]+\n    (identical to a1_charstats.py).  Subsets ALL (A + B + lang '?'), A, B.  Cross-checks on RF1b-er (EVA)\n    and GC2a-n (v101; words containing '@' dropped, every character a symbol).\n  * Alphabets: raw (one EVA character = one symbol) and merge2 from a1\n    (ckh cth cph cfh ch sh iiin iin eee ee aiin ain in qo; greedy longest match).\n  * Languages: single Gutenberg books la 33849 (Confessiones; '[Sidenote: ...]' blocks removed),\n    de 50285, en 1342, fr 62215, da 36942, and vatican5/corpus_it.txt.  Header/footer stripped at\n    '*** START OF' / '*** END OF'.  Normalisation: lower case; str.isalpha() characters are letters,\n    everything else a word break.  'folded' = diacritics stripped (NFKD, combining marks removed,\n    ss/ae/oe/o substitutions for sharp s, ae, oe, o-slash) so the alphabet is the 26 Latin letters plus\n    whatever survives; 'unfolded' keeps accented letters as distinct symbols (as in a1).  The folded\n    variant is the primary one (NOTES quotes the folded 3.32 floor); unfolded h1/h2 are given alongside.\n    Samples are the first N letters (whole words) of the book, N = ZL ALL letters and N = ZL A letters.\n\n(1) Entropies  h_k = H(X_n | X_{n-k+1..n-1}) = H(k-gram) - H((k-1)-gram context), plug-in, log2, k = 1..4,\n    with spaces (words joined by a space symbol; line ends are spaces) and without (words concatenated,\n    n-grams span word boundaries).  Bias diagnostics: Miller-Madow (each block entropy gets\n    +(m-1)/(2 N ln 2), m = occupied bins) and the same plug-in estimate on each half of the sample (first\n    half / second half of the word list).  h4 is reported for every sample but is not trustworthy where\n    the half-sample value differs from the full one by more than a few hundredths (the table shows this).\n\n(2) Per-hand statistics for Davis's hands 1-5 as given in the IVTFF headers, split by Currier language:\n    h1, h2 (raw, no spaces), mean word length, hapax type fraction, Zipf slope (OLS of log10 freq on\n    log10 rank, ranks 1..min(1000, types); as a2), -edy and qo- token rates.  Cells with fewer than 200\n    tokens are omitted; hapax and Zipf are size dependent, so cells with >= 10,000 tokens are also given\n    on their first 10,000 tokens.  A folio-permutation test of hand 2 against hand 3 inside Currier B is\n    added so that 'same language, different scribe' has a p-value.\n\n(3) Bootstrap: folios resampled with replacement (500 resamples, random.Random(2026)); statistics are\n    recomputed from per-folio counts (bigrams do not cross folio boundaries, which drops about one bigram\n    in a thousand).  A delete-one-folio jackknife SE is given alongside, because resampling folios with\n    replacement duplicates folios and so turns hapaxes into dis legomena: the bootstrap is invalid for\n    hapax fraction and Zipf slope and the jackknife interval is the one to use for those two.\n    Reported: percentile 95% interval and bootstrap SE for h2 (raw, no spaces), Zipf\n    slope (ranks 1-1000), hapax type fraction, and the a3 'pair-viol frac' (token-weighted share of\n    within-word ordered glyph pairs that are out of order under the best linear glyph order; the 0.160 of\n    NOTES 4.4) both with the glyph order fixed from the full data and with the order re-derived on each\n    resample (a3 best_order heuristic, 2 restarts).  Rigidity uses a3's merge (benches, bench gallows,\n    e-groups, i-groups) and a3's letter filter.\n\n(4) A versus B: statistic = value(A) - value(B) for h2 (raw, no spaces), mean word length, -edy rate,\n    qo- rate, with folios as units and the folio's page language as its label (lang '?' folios excluded).\n    (i) unrestricted: 2,000 random relabellings of the folios; (ii) stratified by hand: labels permuted\n    only within a hand.  Because every hand except hand 3 writes one language only, (ii) can only move\n    labels among hand-3 folios; the number of movable folios is reported.  p is two sided,\n    (1 + #{|perm| >= |obs|}) / (1 + n_perm).\n\n(5) Token predictability (after Rozanova & Temerev 2026, whose exact estimator was not available to\n    this session; this is one reasonable reading of 'the information a word carries about the next').\n    Word level:  (a) plug-in  I = H(w_i) + H(w_{i+1}) - H(w_i, w_{i+1}) on all consecutive token pairs of\n    the stream, with a shuffle baseline (mean of 3 shuffles of the token order; plug-in MI is dominated\n    by sample-size bias, and the shuffled value shows how much);  (b) held-out: the stream is split in\n    two halves, a model is trained on one and scored on the other, both directions averaged.  Training\n    hapaxes and test out-of-vocabulary tokens map to UNK.  Unigram: maximum likelihood.  Bigram:\n    Witten-Bell interpolation P(b|a) = (c(a,b) + T(a) P(b)) / (c(a) + T(a)).  Then\n    H(w) := CE_uni, H(w_{i+1}|w_i) := CE_bi, I := CE_uni - CE_bi, ratio := CE_bi / CE_uni, plus the same\n    on a shuffled stream.  Glyph level: mutual information between the last glyph of a word and the\n    first glyph of the next word (plug-in with shuffle baseline; the alphabet is small, so bias is\n    small).  For ZL the pairs are also restricted to consecutive words on the same line.  Languages are\n    cut to the ZL token count.\n\n(6) The same h2 and predictability numbers on RF1b and GC2a.\n",
  "seed": 2026,
  "sizes": {
   "ZL_ALL_tokens": 34116,
@@ -7,7 +7,8 @@
   "ZL_B_tokens": 22862,
   "ZL_ALL_letters": 172976,
   "ZL_A_letters": 53348,
-  "ZL_B_letters": 117006
+  "ZL_B_letters": 117006,
+  "ZL_ALL_merge2_symbols": 129724
  },
  "language_sizes_available_letters": {
   "la": 695481,
@@ -467,6 +468,54 @@
       "h2_half2": 3.505022299169939,
       "h2_bins": 432
      }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 154961,
+      "inventory": 26,
+      "h1": 3.9918477183642516,
+      "h1_mm": 3.9919640940201333,
+      "h1_half1": 3.9979464974986225,
+      "h1_half2": 3.9853619232105597,
+      "h2": 3.307705132862866,
+      "h2_mm": 3.3093669879532035,
+      "h2_half1": 3.317205496670482,
+      "h2_half2": 3.290465877781058,
+      "h2_bins": 383,
+      "h3": 2.6990647615038146,
+      "h3_mm": 2.7109585070412514,
+      "h3_half1": 2.6986557934095305,
+      "h3_half2": 2.656550012666356,
+      "h3_bins": 2938,
+      "h4": 2.1303373037338638,
+      "h4_mm": 2.1747005626158558,
+      "h4_half1": 2.082003608561573,
+      "h4_half2": 2.0426289684502965,
+      "h4_bins": 12468
+     },
+     "without_spaces": {
+      "n_symbols": 130712,
+      "inventory": 25,
+      "h1": 3.9904603285161624,
+      "h1_mm": 3.9905927749670673,
+      "h1_half1": 3.9966362903602217,
+      "h1_half2": 3.983808523603532,
+      "h2": 3.478019624477014,
+      "h2_mm": 3.4801111906822184,
+      "h2_half1": 3.49042659201975,
+      "h2_half2": 3.4572465645073294,
+      "h2_bins": 404,
+      "h3": 3.036558980630355,
+      "h3_mm": 3.0544174503431423,
+      "h3_half1": 3.0256866942454295,
+      "h3_half2": 2.9927576533683986,
+      "h3_bins": 3640,
+      "h4": 2.5092015484900276,
+      "h4_mm": 2.5935994677622833,
+      "h4_half1": 2.3979174528444744,
+      "h4_half2": 2.375672790003396,
+      "h4_bins": 18933
+     }
     }
    },
    "de": {
@@ -620,6 +669,54 @@
       "h2_half1": 3.4085952168744402,
       "h2_half2": 3.3980590581844288,
       "h2_bins": 581
+     }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 156009,
+      "inventory": 27,
+      "h1": 4.03571314967823,
+      "h1_mm": 4.035833367329337,
+      "h1_half1": 4.027627178995024,
+      "h1_half2": 4.042810251656013,
+      "h2": 3.1893097001834096,
+      "h2_mm": 3.1915059982720413,
+      "h2_half1": 3.1706070386387832,
+      "h2_half2": 3.1940016490449388,
+      "h2_bins": 502,
+      "h3": 2.5451905251019973,
+      "h3_mm": 2.5601393192817277,
+      "h3_half1": 2.4878995724687982,
+      "h3_half2": 2.5399032393516343,
+      "h3_bins": 3735,
+      "h4": 1.9924461671482803,
+      "h4_mm": 2.035572766914864,
+      "h4_half1": 1.8950846155951169,
+      "h4_half2": 1.9471065153310292,
+      "h4_bins": 13062
+     },
+     "without_spaces": {
+      "n_symbols": 130242,
+      "inventory": 26,
+      "h1": 4.05970848139547,
+      "h1_mm": 4.059846944318422,
+      "h1_half1": 4.050290141045227,
+      "h1_half2": 4.067918074097538,
+      "h2": 3.386808411578661,
+      "h2_mm": 3.3894004573980885,
+      "h2_half1": 3.3664285177699256,
+      "h2_half2": 3.392912833678336,
+      "h2_bins": 494,
+      "h3": 2.889937936449881,
+      "h3_mm": 2.9122529637830423,
+      "h3_half1": 2.8255105013020927,
+      "h3_half2": 2.8749908420424966,
+      "h3_bins": 4523,
+      "h4": 2.3272380906632897,
+      "h4_mm": 2.405859149276374,
+      "h4_half1": 2.181091956110384,
+      "h4_half2": 2.230993404814056,
+      "h4_bins": 18718
      }
     }
    },
@@ -775,6 +872,54 @@
       "h2_half2": 3.5823592443721255,
       "h2_bins": 514
      }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 159306,
+      "inventory": 27,
+      "h1": 4.098547569018244,
+      "h1_mm": 4.098665298642562,
+      "h1_half1": 4.094710746971378,
+      "h1_half2": 4.102010869677297,
+      "h2": 3.3155485270953093,
+      "h2_mm": 3.317495606181283,
+      "h2_half1": 3.314165574784944,
+      "h2_half2": 3.3099129062716823,
+      "h2_bins": 457,
+      "h3": 2.584584574756901,
+      "h3_mm": 2.5980738422166265,
+      "h3_half1": 2.5800758595065307,
+      "h3_half2": 2.548140541311607,
+      "h3_bins": 3436,
+      "h4": 1.9132652516786237,
+      "h4_mm": 1.9536382169855102,
+      "h4_half1": 1.8664645882459112,
+      "h4_half2": 1.8402321730792366,
+      "h4_bins": 12352
+     },
+     "without_spaces": {
+      "n_symbols": 129726,
+      "inventory": 26,
+      "h1": 4.182878963707376,
+      "h1_mm": 4.183017977382438,
+      "h1_half1": 4.179270190848955,
+      "h1_half2": 4.1860073270064095,
+      "h2": 3.602091838739021,
+      "h2_mm": 3.60488881544192,
+      "h2_half1": 3.6011026418892733,
+      "h2_half2": 3.594750949251239,
+      "h2_bins": 529,
+      "h3": 3.025854561033176,
+      "h3_mm": 3.0507272712406026,
+      "h3_half1": 3.005848788731944,
+      "h3_half2": 2.9760287594804264,
+      "h3_bins": 5002,
+      "h4": 2.2709819224016847,
+      "h4_mm": 2.3650129467436773,
+      "h4_half1": 2.147104454355649,
+      "h4_half2": 2.1252891543162473,
+      "h4_bins": 21912
+     }
     }
    },
    "fr": {
@@ -928,6 +1073,54 @@
       "h2_half1": 3.526020456773468,
       "h2_half2": 3.520152019235451,
       "h2_bins": 655
+     }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 159762,
+      "inventory": 27,
+      "h1": 3.9469582671183225,
+      "h1_mm": 3.9470756607133675,
+      "h1_half1": 3.949426077094218,
+      "h1_half2": 3.94367642137885,
+      "h2": 3.1707572876464507,
+      "h2_mm": 3.172364686932123,
+      "h2_half1": 3.1751841499098283,
+      "h2_half2": 3.156630957844486,
+      "h2_bins": 383,
+      "h3": 2.5704710966206985,
+      "h3_mm": 2.5821383599709025,
+      "h3_half1": 2.5514426250462456,
+      "h3_half2": 2.5385824279036022,
+      "h3_bins": 2967,
+      "h4": 2.01866377806107,
+      "h4_mm": 2.0567541997742094,
+      "h4_half1": 1.9569520962484095,
+      "h4_half2": 1.9476455374438064,
+      "h4_bins": 11403
+     },
+     "without_spaces": {
+      "n_symbols": 129765,
+      "inventory": 26,
+      "h1": 4.001523355014797,
+      "h1_mm": 4.001662326910232,
+      "h1_half1": 3.9999934029252717,
+      "h1_half2": 4.0021773084677115,
+      "h2": 3.417441608796132,
+      "h2_mm": 3.4199653578658413,
+      "h2_half1": 3.414400664917453,
+      "h2_half2": 3.4079848633244225,
+      "h2_bins": 480,
+      "h3": 2.9431533860188814,
+      "h3_mm": 2.962420746559718,
+      "h3_half1": 2.9086118542963266,
+      "h3_half2": 2.9071679729138573,
+      "h3_bins": 3946,
+      "h4": 2.351791583633563,
+      "h4_mm": 2.4280055330586183,
+      "h4_half1": 2.2371293391162936,
+      "h4_half2": 2.2290817084698844,
+      "h4_bins": 17656
      }
     }
    },
@@ -1083,6 +1276,54 @@
       "h2_half2": 3.497507205637592,
       "h2_bins": 527
      }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 160693,
+      "inventory": 26,
+      "h1": 3.973887301239831,
+      "h1_mm": 3.973999525717631,
+      "h1_half1": 3.972435230945063,
+      "h1_half2": 3.9740167099782227,
+      "h2": 3.198221599230731,
+      "h2_mm": 3.2002730754513466,
+      "h2_half1": 3.1898470857908947,
+      "h2_half2": 3.197631464951934,
+      "h2_bins": 483,
+      "h3": 2.5306330526068646,
+      "h3_mm": 2.5452852627911984,
+      "h3_half1": 2.5033527700494442,
+      "h3_half2": 2.5079422369173514,
+      "h3_bins": 3747,
+      "h4": 2.0729434006641814,
+      "h4_mm": 2.1168688813260115,
+      "h4_half1": 2.003665062746805,
+      "h4_half2": 2.011831857599283,
+      "h4_bins": 13532
+     },
+     "without_spaces": {
+      "n_symbols": 131030,
+      "inventory": 25,
+      "h1": 4.027273763902887,
+      "h1_mm": 4.027405888916172,
+      "h1_half1": 4.024582917361263,
+      "h1_half2": 4.028326484305307,
+      "h2": 3.4672735748495676,
+      "h2_mm": 3.469794979762706,
+      "h2_half1": 3.461478357592556,
+      "h2_half2": 3.463602541970964,
+      "h2_bins": 483,
+      "h3": 2.96712806351176,
+      "h3_mm": 2.9902062514235297,
+      "h3_half1": 2.9285271984283945,
+      "h3_half2": 2.937825814924791,
+      "h3_bins": 4675,
+      "h4": 2.424988710434617,
+      "h4_mm": 2.514318275079553,
+      "h4_half1": 2.2954656299457614,
+      "h4_half2": 2.3004014132678705,
+      "h4_bins": 20901
+     }
     }
    },
    "it": {
@@ -1237,6 +1478,54 @@
       "h2_half2": 3.4256745568590894,
       "h2_bins": 365
      }
+    },
+    "sizeM2_folded": {
+     "with_spaces": {
+      "n_symbols": 158259,
+      "inventory": 22,
+      "h1": 3.912609016186977,
+      "h1_mm": 3.9127047345848522,
+      "h1_half1": 3.9125555652564596,
+      "h1_half2": 3.9124537298414968,
+      "h2": 3.2007885179168927,
+      "h2_mm": 3.2024522053447773,
+      "h2_half1": 3.199981539993944,
+      "h2_half2": 3.1949060114720336,
+      "h2_bins": 387,
+      "h3": 2.649535396463749,
+      "h3_mm": 2.6630045126665927,
+      "h3_half1": 2.6333047844595043,
+      "h3_half2": 2.6197733105357006,
+      "h3_bins": 3342,
+      "h4": 2.094998019186672,
+      "h4_mm": 2.141071348075643,
+      "h4_half1": 2.0243123427249294,
+      "h4_half2": 2.026277362346823,
+      "h4_bins": 13450
+     },
+     "without_spaces": {
+      "n_symbols": 129729,
+      "inventory": 21,
+      "h1": 3.942699288076126,
+      "h1_mm": 3.942810496444408,
+      "h1_half1": 3.9437878041582817,
+      "h1_half2": 3.9413460351840826,
+      "h2": 3.448122306766578,
+      "h2_mm": 3.450112951903473,
+      "h2_half1": 3.4476632921380457,
+      "h2_half2": 3.4421855649167004,
+      "h2_bins": 379,
+      "h3": 3.0203308661021637,
+      "h3_mm": 3.039331108745243,
+      "h3_half1": 2.9958308517054704,
+      "h3_half2": 2.988584563160158,
+      "h3_bins": 3796,
+      "h4": 2.434744614569915,
+      "h4_mm": 2.521489147808696,
+      "h4_half1": 2.302756406822102,
+      "h4_half2": 2.3185745296270888,
+      "h4_bins": 19396
+     }
     }
    }
   }
@@ -1255,7 +1544,20 @@
    "H_word_bits": 9.752028924795155,
    "mean_word_len": 4.984745082296267,
    "edy_rate": 0.0015054195102368526,
-   "qo_rate": 0.09775190686471297
+   "qo_rate": 0.09775190686471297,
+   "first750": {
+    "h2": 2.2870174363911433,
+    "tokens": 750,
+    "types": 462,
+    "hapax_type_frac": 0.8095238095238095,
+    "hapax_token_frac": 0.49866666666666665,
+    "zipf_slope_1_1000": -0.5025621389375884,
+    "ranks_used": 462,
+    "H_word_bits": 8.255168286167121,
+    "mean_word_len": 4.988,
+    "edy_rate": 0.0,
+    "qo_rate": 0.06533333333333333
+   }
   },
   "hand2_B": {
    "tokens": 10635,
@@ -1283,6 +1585,19 @@
     "mean_word_len": 4.99,
     "edy_rate": 0.2151,
     "qo_rate": 0.1981
+   },
+   "first750": {
+    "h2": 2.236874822202453,
+    "tokens": 750,
+    "types": 445,
+    "hapax_type_frac": 0.7820224719101123,
+    "hapax_token_frac": 0.464,
+    "zipf_slope_1_1000": -0.5299212911753017,
+    "ranks_used": 445,
+    "H_word_bits": 8.201709333181723,
+    "mean_word_len": 5.132,
+    "edy_rate": 0.16266666666666665,
+    "qo_rate": 0.09066666666666667
    }
   },
   "hand3_A": {
@@ -1298,7 +1613,20 @@
    "H_word_bits": 8.33562646142398,
    "mean_word_len": 4.900133155792277,
    "edy_rate": 0.007989347536617843,
-   "qo_rate": 0.1318242343541944
+   "qo_rate": 0.1318242343541944,
+   "first750": {
+    "h2": 2.262709523176518,
+    "tokens": 750,
+    "types": 453,
+    "hapax_type_frac": 0.7682119205298014,
+    "hapax_token_frac": 0.464,
+    "zipf_slope_1_1000": -0.5282421597293264,
+    "ranks_used": 453,
+    "H_word_bits": 8.332081425778163,
+    "mean_word_len": 4.898666666666666,
+    "edy_rate": 0.008,
+    "qo_rate": 0.132
+   }
   },
   "hand3_B": {
    "tokens": 10892,
@@ -1326,6 +1654,19 @@
     "mean_word_len": 5.2366,
     "edy_rate": 0.1435,
     "qo_rate": 0.165
+   },
+   "first750": {
+    "h2": 2.1690358159827667,
+    "tokens": 750,
+    "types": 431,
+    "hapax_type_frac": 0.7587006960556845,
+    "hapax_token_frac": 0.436,
+    "zipf_slope_1_1000": -0.564312119361937,
+    "ranks_used": 431,
+    "H_word_bits": 8.230330500476962,
+    "mean_word_len": 5.141333333333334,
+    "edy_rate": 0.116,
+    "qo_rate": 0.14266666666666666
    }
   },
   "hand4_?": {
@@ -1356,7 +1697,20 @@
    "H_word_bits": 8.633567046851477,
    "mean_word_len": 5.437275985663082,
    "edy_rate": 0.16845878136200718,
-   "qo_rate": 0.11469534050179211
+   "qo_rate": 0.11469534050179211,
+   "first750": {
+    "h2": 2.2853529684025524,
+    "tokens": 750,
+    "types": 489,
+    "hapax_type_frac": 0.7893660531697342,
+    "hapax_token_frac": 0.5146666666666667,
+    "zipf_slope_1_1000": -0.4801558310922156,
+    "ranks_used": 489,
+    "H_word_bits": 8.565687886709446,
+    "mean_word_len": 5.456,
+    "edy_rate": 0.18,
+    "qo_rate": 0.11866666666666667
+   }
   },
   "hand4_anylang": {
    "tokens": 537,
@@ -1521,6 +1875,48 @@
     },
     "n_units": 207,
     "n_boot": 500
+   },
+   "jackknife": {
+    "hapax_type_frac": {
+     "se": 0.006731262606182964,
+     "jack_mean": 0.697242816108552,
+     "ci95_normal": [
+      0.6840151277241644,
+      0.7104016771404016
+     ]
+    },
+    "zipf_slope": {
+     "se": 0.01277195754413177,
+     "jack_mean": -1.0399367902136059,
+     "ci95_normal": [
+      -1.0652844900914236,
+      -1.0152184165184268
+     ]
+    },
+    "h2": {
+     "se": 0.015094080414316893,
+     "jack_mean": 2.3074869196440755,
+     "ci95_normal": [
+      2.2779140649240306,
+      2.3370828601481533
+     ]
+    },
+    "mean_word_len": {
+     "se": 0.026264325521525154,
+     "jack_mean": 5.07022967126187,
+     "ci95_normal": [
+      5.01875289864565,
+      5.121709054690029
+     ]
+    },
+    "viol_fixed_order": {
+     "se": 0.0040762875792237025,
+     "jack_mean": 0.15964844029147435,
+     "ci95_normal": [
+      0.15165807088045702,
+      0.16763711819101396
+     ]
+    }
    }
   },
   "ZL A": {
@@ -1615,6 +2011,48 @@
     },
     "n_units": 114,
     "n_boot": 500
+   },
+   "jackknife": {
+    "hapax_type_frac": {
+     "se": 0.009587882833713117,
+     "jack_mean": 0.7221797041049262,
+     "ci95_normal": [
+      0.7032802264353802,
+      0.7408647271435357
+     ]
+    },
+    "zipf_slope": {
+     "se": 0.024366145451431204,
+     "jack_mean": -0.9954190636391974,
+     "ci95_normal": [
+      -1.0414644884275632,
+      -0.9459491982579529
+     ]
+    },
+    "h2": {
+     "se": 0.018711428025850244,
+     "jack_mean": 2.3456873964518503,
+     "ci95_normal": [
+      2.309078699796696,
+      2.382427497658029
+     ]
+    },
+    "mean_word_len": {
+     "se": 0.04015493585738599,
+     "jack_mean": 4.978819544717728,
+     "ci95_normal": [
+      4.900111071403145,
+      5.057518419964098
+     ]
+    },
+    "viol_fixed_order": {
+     "se": 0.0059477338081969375,
+     "jack_mean": 0.20960792920031457,
+     "ci95_normal": [
+      0.19794919095351463,
+      0.22126430748164663
+     ]
+    }
    }
   },
   "ZL B": {
@@ -1709,6 +2147,48 @@
     },
     "n_units": 83,
     "n_boot": 500
+   },
+   "jackknife": {
+    "hapax_type_frac": {
+     "se": 0.008638533736976225,
+     "jack_mean": 0.686340083887561,
+     "ci95_normal": [
+      0.6693672959462024,
+      0.7032303481951491
+     ]
+    },
+    "zipf_slope": {
+     "se": 0.022065337555850148,
+     "jack_mean": -1.0696697411887557,
+     "ci95_normal": [
+      -1.1113700326735672,
+      -1.0248739094546344
+     ]
+    },
+    "h2": {
+     "se": 0.01594299443694545,
+     "jack_mean": 2.1796418883222612,
+     "ci95_normal": [
+      2.1484351715143943,
+      2.21093170970722
+     ]
+    },
+    "mean_word_len": {
+     "se": 0.03256215655789963,
+     "jack_mean": 5.117922745928327,
+     "ci95_normal": [
+      5.054103114096565,
+      5.181746767803531
+     ]
+    },
+    "viol_fixed_order": {
+     "se": 0.0036466299515075912,
+     "jack_mean": 0.1377444422885747,
+     "ci95_normal": [
+      0.13059600901155038,
+      0.14489079842146013
+     ]
+    }
    }
   }
  },
@@ -2848,5 +3328,5 @@
    }
   }
  },
- "runtime_s": 78.56683397293091
+ "runtime_s": 76.69807171821594
 }

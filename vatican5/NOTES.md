@@ -611,3 +611,17 @@ New files: `segem.py` (EM segmentation), `lmns.py` (no-space LM in cipher orthog
 (ceiling). Corpus and LM caches are gitignored; rebuild with `python build_it_lm.py` after fetching the
 eight `nb_*.txt` volumes listed in the session transcript from archive.org (`nuntiaturberich0{0,3,4,5,6,8,9}romgoog`,
 `nuntiaturberich10romgoog`, file `<id>_djvu.txt`).
+
+### 2026-09-16: DECODE access obtained; Lasry on separators
+
+Daniel now has a DECODE account. `decode/MANIFEST.md` lists the exact files of records 92, 91, 93, 94 (names read from
+the public RecordsView pages), `decode/fetch_decode.py` downloads them with a browser session cookie,
+`decode/compare_transcripts.py` aligns the DECODE transcription with the MysteryTwister text digit by digit and mark
+by mark, and `decode/crop_lines.py` cuts a page image into 2x line strips.
+
+George Lasry (e-mail, 16 Sep 2026) states that the Challenge 5 documents carry **no visual separators** between
+logical tokens, unlike other collections, and that recognising variable-length tokens is the point of the challenge.
+This removes route (b) of "Final status" above: the images cannot restore a word division that the manuscript never
+had. They remain worth having for dot placement, the uncertain digits, the 069v cleartext frame, and the IA-1
+sibling (record 91). The statistical result that digit 4 behaves as a null / word separator stands and is the only
+segmentation signal on offer.

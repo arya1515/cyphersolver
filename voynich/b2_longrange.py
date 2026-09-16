@@ -549,19 +549,24 @@ def main():
         log('  %s all: adj %.4f rand %.4f frac<med %.3f' % (name, adjres[name]['all']['mean_adjacent'],
             adjres[name]['all']['mean_random'], adjres[name]['all']['frac_adjacent_below_random_median']))
     # Voynich with folio order shuffled (20 shuffles), same pair matrix
-    acc = defaultdict(lambda: defaultdict(float))
     NS = 20
+    def accumulate(acc, cnt, r):
+        for st, v in r.items():
+            if 'mean_adjacent' in v:
+                cnt[st] += 1
+                for key in ('mean_adjacent', 'frac_adjacent_below_random_median', 'ratio_adj_over_random'):
+                    acc[st][key] += v[key]
+    def finish(acc, cnt):
+        return {st: dict({k: round(x / cnt[st], 4) for k, x in v.items()}, n_shuffles_with_enough_pairs=cnt[st])
+                for st, v in acc.items() if cnt[st] >= 5}
+    acc = defaultdict(lambda: defaultdict(float)); cnt = Counter()
     for _ in range(NS):
         o = order[:]
         rng.shuffle(o)
-        r = adjacency_stats(kf, M_voy, o, strata, rng, n_boot=100)
-        for st, v in r.items():
-            for key in ('mean_adjacent', 'frac_adjacent_below_random_median', 'ratio_adj_over_random'):
-                if key in v:
-                    acc[st][key] += v[key] / NS
-    adjres['voynich_folio_order_shuffled_mean_of_%d' % NS] = {st: {k: round(x, 4) for k, x in v.items()} for st, v in acc.items()}
+        accumulate(acc, cnt, adjacency_stats(kf, M_voy, o, strata, rng, n_boot=100))
+    adjres['voynich_folio_order_shuffled_mean_of_%d' % NS] = finish(acc, cnt)
     # Voynich with folio order shuffled within hand (keeps hand runs, breaks page-to-page topic continuity)
-    acc2 = defaultdict(lambda: defaultdict(float))
+    acc2 = defaultdict(lambda: defaultdict(float)); cnt2 = Counter()
     for _ in range(NS):
         # permute folios among the binding positions occupied by the same hand (hand runs kept, page order broken)
         pos_by_hand = defaultdict(list)
@@ -573,12 +578,8 @@ def main():
             rng.shuffle(vals)
             for p_, v in zip(ps, vals):
                 o[p_] = v
-        r = adjacency_stats(kf, M_voy, o, strata, rng, n_boot=100)
-        for st, v in r.items():
-            for key in ('mean_adjacent', 'frac_adjacent_below_random_median', 'ratio_adj_over_random'):
-                if key in v:
-                    acc2[st][key] += v[key] / NS
-    adjres['voynich_folio_order_shuffled_within_hand_mean_of_%d' % NS] = {st: {k: round(x, 4) for k, x in v.items()} for st, v in acc2.items()}
+        accumulate(acc2, cnt2, adjacency_stats(kf, M_voy, o, strata, rng, n_boot=100))
+    adjres['voynich_folio_order_shuffled_within_hand_mean_of_%d' % NS] = finish(acc2, cnt2)
     out['adjacent_page_similarity'] = adjres
 
     # ---- 3. Mutual information
@@ -681,7 +682,10 @@ def write_md(out):
              'for consecutive folio pairs in current binding order against all non-adjacent folio pairs in the same stratum ("random"). '
              '"frac<med" = fraction of adjacent pairs with JSD below the random median (0.5 under no adjacency effect); p_boot = probability that a random '
              'sample of the same number of stratum pairs has mean JSD <= the adjacent mean (1000 draws). '
-             'Pours inherit the skeleton\'s hand/section/language labels, so their strata are contiguous ranges of a real book.' % (
+             'Pours inherit the skeleton\'s hand/section/language labels, so their strata are contiguous ranges of a real book. '
+             'The two right-hand columns re-order the Voynich folios at random (everywhere, or only among binding positions held by the same hand), '
+             '20 shuffles, same pair matrix; shown only for strata present in at least 5 shuffles, and only strata with many adjacent pairs '
+             '(all, same_hand, same_section, hand_1, section_H) are stable.' % (
                  a['min_tokens_per_folio'], a['folios_kept'], a['top_words']))
     L.append('')
     texts = ['voynich', 'latin', 'english', 'italian']
@@ -762,6 +766,103 @@ def write_md(out):
         if k in out['kmeans']:
             L.append('')
             L.append('%s: %s' % (k, out['kmeans'][k]['cluster_table_section/hand']))
+    L.append('')
+    # ---- interpretation
+    mzv, mzl, mze, mzi = mz['voynich'], mz['latin'], mz['english'], mz['italian']
+    av, al, ae, ai = a['voynich'], a['latin'], a['english'], a['italian']
+    miv, mil, mie, mii = mi['voynich'], mi['latin_contiguous_sections'], mi['english_contiguous_sections'], mi['italian_contiguous_sections']
+    kmv, km2 = out['kmeans']['voynich_all'], out['kmeans'].get('voynich_hand_2')
+    L.append('## 5. What each result implies (judgement, marked *)')
+    L.append('')
+    L.append('Background fact from a6/v_a6: hand determines Currier language on this manuscript (H(language | hand) = 0.09 bits), and hands are '
+             'segregated by section, so any section-word association is confounded with hand and language unless stratified.')
+    L.append('')
+    L.append('1. Montemurro-Zanette. Voynichese carries %.3f bits/token of long-range word-placement information at a peak scale of %d tokens '
+             '(about two to three folios), against %.3f (Latin, peak %d), %.3f (English, peak %d), %.3f (Italian OCR, peak %d) at equal length, and %.4f '
+             'for shuffled Voynichese. The curve has the natural-language shape (rise, peak at a few hundred tokens, decay), which reproduces MZ 2013 '
+             'qualitatively, and the top carriers (%s) are the words MZ 2013 listed. Two qualifications*: (i) the peak is 2 to 2.5 times higher than '
+             'the languages, not equal to them; about half of the excess is the A/B split (Currier B alone: %.3f at %d; A alone: %.3f at %d, i.e. Latin-like), '
+             'and the rest is the section/hand heterogeneity of B (biological against stars against herbal-B); (ii) the carriers are the highest-frequency '
+             'words (n = 100 to 770), whose block entropies drop far below shuffle, whereas in Latin and English the carriers at this length are '
+             'pronouns and particles (te, me, aut; i, you, her), i.e. register shifts, with content words much lower. '
+             'Implication: the measure separates ordered from shuffled text and shows that Voynichese has strong, smooth, page-scale drift in its '
+             'commonest words. That is what a meaningful text with sections gives, and it is also what a copy-and-modify generator whose source window '
+             'moves through the manuscript gives (a4 found self-citation over-produces locality). It does not discriminate*; the excess over language '
+             'leans, if anything, toward the generator side or toward a cipher whose commonest units vary with the section.' % (
+                 mzv['peak_info'], mzv['peak_scale'], mzl['peak_info'], mzl['peak_scale'], mze['peak_info'], mze['peak_scale'],
+                 mzi['peak_info'], mzi['peak_scale'], mz['voynich_shuffled']['peak_info'],
+                 ', '.join(t['word'] for t in mzv['top20_at_peak'][:6]),
+                 mz['voynich_currier_B']['peak_info'], mz['voynich_currier_B']['peak_scale'],
+                 mz['voynich_currier_A']['peak_info'], mz['voynich_currier_A']['peak_scale']))
+    L.append('')
+    L.append('2. Adjacent pages. Overall, %.0f%% of adjacent Voynich folio pairs are more similar than the random-pair median (ratio of mean JSD %.2f), '
+             'against %.0f%% / %.2f for Latin, %.0f%% / %.2f for English and %.0f%% / %.2f for Italian poured into the same skeleton; shuffling the '
+             'folio order removes it (%.2f / %.2f). Shuffling folios only among positions of the same hand leaves ratio %.2f and %.0f%%, so hand runs '
+             'explain roughly half of the raw effect. Within the same hand and the same section the residual effect is ratio %.2f, %.0f%% (p = %.3f), '
+             'the same size as a real book\'s page-to-page continuity in the same stratum (Latin %.2f, English %.2f, Italian %.2f). Within a single quire '
+             'no text shows an adjacency effect (Voynich %.2f, Latin %.2f, English %.2f): quires are 4 to 8 folios, and the effect lives at the quire scale for '
+             'everyone. Across hand changes Voynich adjacent pages are not more similar than random cross-hand pairs (ratio %.2f, n = %d) while English is '
+             '(%.2f); Latin and Italian are not (%.2f, %.2f), so this is weak. Implication*: adjacent Voynich pages written by one scribe in one section '
+             'resemble each other as much as adjacent pages of a real book, after hand and section are removed. That is topic continuity or generator '
+             'drift, and again does not discriminate; it does rule out "each page is an independent draw from a section-level distribution".' % (
+                 100 * av['all']['frac_adjacent_below_random_median'], av['all']['ratio_adj_over_random'],
+                 100 * al['all']['frac_adjacent_below_random_median'], al['all']['ratio_adj_over_random'],
+                 100 * ae['all']['frac_adjacent_below_random_median'], ae['all']['ratio_adj_over_random'],
+                 100 * ai['all']['frac_adjacent_below_random_median'], ai['all']['ratio_adj_over_random'],
+                 a[shufk]['all']['ratio_adj_over_random'], a[shufk]['all']['frac_adjacent_below_random_median'],
+                 a[shufk2]['all']['ratio_adj_over_random'], 100 * a[shufk2]['all']['frac_adjacent_below_random_median'],
+                 av['same_hand_and_section']['ratio_adj_over_random'], 100 * av['same_hand_and_section']['frac_adjacent_below_random_median'],
+                 av['same_hand_and_section']['p_boot_adjacent_as_similar'],
+                 al['same_hand_and_section']['ratio_adj_over_random'], ae['same_hand_and_section']['ratio_adj_over_random'], ai['same_hand_and_section']['ratio_adj_over_random'],
+                 av['same_hand_same_section_same_quire']['ratio_adj_over_random'], al['same_hand_same_section_same_quire']['ratio_adj_over_random'],
+                 ae['same_hand_same_section_same_quire']['ratio_adj_over_random'],
+                 av['different_hand']['ratio_adj_over_random'], av['different_hand']['n_adjacent'], ae['different_hand']['ratio_adj_over_random'],
+                 al['different_hand']['ratio_adj_over_random'], ai['different_hand']['ratio_adj_over_random']))
+    L.append('')
+    L.append('3. Illustration-to-text MI. Marginal MI(section; word) is %.3f bits/token, of which %.3f is reproduced by a null that keeps the hand of every '
+             'label (hand, hence language, carries most of it). Conditional on hand the observed MI is %.3f against a null of %.3f: an excess of %.3f bits '
+             '(z = %s), which is 5 to 6 times the excess a real book shows when its pages are cut into contiguous "sections" of the same sizes (Latin %.3f, '
+             'English %.3f, Italian %.3f, all z = 4 to 5). The contiguity-preserving rotation null within hand gives %.3f, so about %.0f%% of the '
+             'within-hand excess is tied to where the drawings change and not to any contiguous partition of the same run structure. The excess is carried '
+             'by hand 1 (herbal against pharma; %.3f over null, z = %s) and hand 2 (herbal-B against biological against text-only; %.3f over null, z = %s); '
+             'hand 3 (stars against herbal-B) shows none (%.3f over null). Conditioning on quire leaves almost nothing for any text, because quires are '
+             'section-pure. Implication*: the drawings predict the frequent words within a scribe, beyond page-drift, at a strength a real book only '
+             'reaches for genuine topic changes; but the words doing it are the same sub-word families as in a6 (qokain, qokeedy, shedy, chol), not a '
+             'content vocabulary. A meaningful text would show this; so would a generator whose parameters (or copy source) are chosen per section, '
+             'which is exactly what a scribe filling illustrated gatherings one at a time would do. Positive evidence of section-conditioned production, '
+             'not of meaning.' % (
+                 miv['marginal']['observed'], miv['marginal']['null_shuffle']['null_mean'],
+                 miv['given_hand']['observed'], miv['given_hand']['null_shuffle']['null_mean'], miv['given_hand']['null_shuffle']['excess_bits'],
+                 miv['given_hand']['null_shuffle']['z'], mil['given_hand']['null_shuffle']['excess_bits'], mie['given_hand']['null_shuffle']['excess_bits'],
+                 mii['given_hand']['null_shuffle']['excess_bits'], miv['given_hand']['null_rotate']['null_mean'],
+                 100 * (miv['given_hand']['observed'] - miv['given_hand']['null_rotate']['null_mean']) / max(1e-9, miv['given_hand']['null_shuffle']['excess_bits']),
+                 miv['per_hand']['1']['null_shuffle']['excess_bits'], miv['per_hand']['1']['null_shuffle']['z'],
+                 miv['per_hand']['2']['null_shuffle']['excess_bits'], miv['per_hand']['2']['null_shuffle']['z'],
+                 miv['per_hand']['3']['null_shuffle']['excess_bits']))
+    L.append('')
+    L.append('4. Clustering. Unsupervised k = 7 clusters on folio TF-IDF follow Currier language first (adjusted purity %.2f, ARI %.2f), hand second '
+             '(%.2f, %.2f) and section last (%.2f, %.2f). Within hand 2 alone (one scribe, one language, four sections) clusters recover the sections at '
+             'adjusted purity %.2f, ARI %.2f: the biological folios form their own cluster against herbal-B. Within hand 1 (herbal against pharma) ARI %.2f; '
+             'within hand 3 (stars against herbal-B) ARI %.2f, nothing. The natural-language pours with contiguous sections give ARI about 0 (%.2f, %.2f, %.2f): '
+             'at 165 tokens per page k-means on a real book finds no block structure at all, so the Voynich section structure in frequent words is far '
+             'sharper than topic structure in real prose at this page size. Implication*: consistent with a6; the folio-level lexical structure of the '
+             'manuscript is scribe > language > section, and the section signal that survives inside one scribe is real but sits in the commonest words. '
+             'Overall*: none of the four higher-level statistics separates "meaningful text" from "section-conditioned generated text"; they narrow the '
+             'generator class to one whose output drifts smoothly page to page and is re-parameterised at illustration boundaries within one scribe, and they '
+             'confirm that every literature-level "language-like" long-range statistic is present with hand and quire partialled out.' % (
+                 kmv['vs_language']['adjusted_purity'], kmv['vs_language']['ARI'], kmv['vs_hand']['adjusted_purity'], kmv['vs_hand']['ARI'],
+                 kmv['vs_section']['adjusted_purity'], kmv['vs_section']['ARI'],
+                 km2['vs_section']['adjusted_purity'] if km2 else float('nan'), km2['vs_section']['ARI'] if km2 else float('nan'),
+                 out['kmeans']['voynich_hand_1']['vs_section']['ARI'], out['kmeans']['voynich_hand_3']['vs_section']['ARI'],
+                 out['kmeans']['latin_contiguous_sections']['vs_section']['ARI'], out['kmeans']['english_contiguous_sections']['vs_section']['ARI'],
+                 out['kmeans']['italian_contiguous_sections']['vs_section']['ARI']))
+    L.append('')
+    L.append('Checked: token counts match NOTES.md (34,116); shuffled Voynichese gives ~0 in the MZ measure and ~1.0 adjacency ratio; the null means of the '
+             'conditional MI match between texts of equal size (estimator bias behaves). Not checked: k-means stability across seeds beyond 10 restarts '
+             '(adjusted purities move by a few hundredths between runs), analytic MZ shuffle entropy against the 20-shuffle mean, sensitivity to the top-300 '
+             'and freq >= 20 cut-offs, alternative page orders (quire order rather than binding order). User must verify: the contiguous-block "sections" '
+             'of the pours are a weak positive control (arbitrary cuts of one book, not an illustrated multi-topic book); the Italian corpus is OCR with '
+             'Latin admixture; all interpretive sentences marked * are judgement. All output unvalidated until review.')
     L.append('')
     with open(os.path.join(RES, 'b2.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(L) + '\n')
