@@ -163,25 +163,73 @@
 <h2 id="queue"><span class="num">02</span> Priority queue</h2>
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
-  <button class="qf on" data-f="all">All <span>24</span></button>
-  <button class="qf" data-f="live">Attack now <span>2</span></button>
-  <button class="qf" data-f="done">Attempted <span>14</span></button>
+  <button class="qf on" data-f="all">All <span>27</span></button>
+  <button class="qf" data-f="live">Worth continuing <span>8</span></button>
+  <button class="qf" data-f="done">Attempted <span>11</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
-<h3 class="tier" data-t="live">Attack now <small>ranked by odds against effort</small></h3>
+<h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
-    <div class="tg-meta"><span class="odds md">even</span><span class="eff">medium effort</span></div>
+    <div class="tg-meta"><span class="odds md">even</span><span class="eff">an hour of compute</span></div>
     <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions (107,594 readings) and single columnar. A C# solver built for double transposition breaks planted messages of this length completely up to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, which is not public, would help most.</p>
   </div>
 </article>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md">ADFGVX residue of the Eastern Front</a><span class="tg-date">1918</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds md">incremental wins</span><span class="eff">medium effort</span></div>
+    <p>Keys published, decoder built, page 100 reproduced from scratch. Page 132's key is identified and WIEDERHOLE and TELEG emerged unprompted, so a deeper garble model (more than two insertions, deletions with substitutions, column-boundary shifts) should finish it; page 146 shows partial words on a length-17 key. Every message read is publishable, and consolidating the 2017 comment thread into the table Schmeh never wrote is a service on its own. Near-certain incremental wins; a low chance of reading all twenty-two.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">3</span></div>
+  <div class="tg-b">
+    <h3><a href="huangxing.html">Huang Xing telegram, the specific scheme</a><span class="tg-date">1916</span></h3>
+    <div class="tg-meta"><span class="odds hi">high</span><span class="eff">transcription</span></div>
+    <p>Scheme identified and the JACAR frames already fetched. What remains is the consonant-row to digit permutation and 46 codebook entries, blocked only on an exact reading of the cursive on frame 0247. That is transcription work, not access. Finishing it turns &ldquo;scheme identified&rdquo; into &ldquo;specific scheme recovered&rdquo;, which is exactly what cryptiana's entry asks for.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">4</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md">Catokwacopa, lines 23 and 29</a><span class="tg-date">1875</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds md">two more lines</span><span class="eff">low effort</span></div>
+    <p>Tooling exists. Line 29 is short enough for an exhaustive Latin-plus-English search with the positional prior, and line 23 needs a phrase-level model instead of unigrams. Cheap, but the payoff is two more lines of an already outlined reading, not a solve.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">5</span></div>
+  <div class="tg-b">
+    <h3><a href="armstrong.html">Armstrong: roll 13 residue and the 20 February 1808 letter</a><span class="tg-date">1808</span></h3>
+    <div class="tg-meta"><span class="odds md">medium-low</span><span class="eff">medium effort</span></div>
+    <p>The postscript is done, but eight table entries can still be read from pencil frames already on disk, and the 22 February letter is only largely read. The 20 February 1808 letter is a separate unique code, never attacked here, with a disputed 2025 contest solution to test; roll 14 frames are local. Medium-low odds on the 20 February letter, since a unique code has no sibling.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">6</span></div>
+  <div class="tg-b">
+    <h3><a href="sunyatsen.html">Sun Yat-sen telegram, the tail</a><span class="tg-date">1916</span></h3>
+    <div class="tg-meta"><span class="odds hi">high</span><span class="eff">low effort</span></div>
+    <p>Three garbled codes after &#36820; and the &#22478;/&#32764;&#9633; doubts. Needs a closer look at the second sheet of a JACAR frame, which is online. Small, quick, finishes a solved item.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">7</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md">Urquhart octastich</a><span class="tg-date">1653</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
+    <p>Untouched by anyone, and a book-cipher index into Urquhart's digitised corpus is mechanically testable. Held back because the ciphertext's own provenance is unresolved and the 1653 OCR is dreadful.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">8</span></div>
+  <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
-    <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">low effort</span></div>
+    <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">not started</span></div>
     <p>Yardley printed the plaintext, so the scheme is attackable, but Japanese diplomatic traffic of 1920 ran on codebooks. One message can only recover the entries it happens to use, so a complete answer is ruled out by construction.</p>
   </div>
 </article>
@@ -237,22 +285,6 @@
 <article class="tg done">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">
-    <h3><a href="https://klausschmeh.net/the-catokwacopa-cryptograms-a-150-year-old-mystery/">Catokwacopa newspaper advertisements</a><span class="tg-date">1875</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds md">readings audited</span></div>
-    <p>Two <i>Standard</i> advertisements whose lines are two order-preserving halves of one abbreviated phrase. The disputed question was how much the omission rule lets a reader invent, so it was measured. The pairing is structural (no random re-pairing in 100,000 fits the lengths). Consonant-initial words always start in the 8 May half. An open-vocabulary search forces DYING DECLARATION, REPEATED and OLD CAP BROKE AT CORNER LEFT INSTEAD, finds exact CHANGE ADOPTED and HOLIDAYS EXAMINE where published readings needed misprints, and shows MASTER PUPIL and SIGNED are emendations. Decisively, of 1,645 names only CONINGTON, JOWETT, SHIRLEY and HERTFORD fit their frames: the Oxford reading is right in outline. Lines 9, 12, 23 and 29 are not decided by the letters.</p>
-  </div>
-</article>
-<article class="tg done">
-  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
-  <div class="tg-b">
-    <h3><a href="https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/">ADFGVX residue of the Eastern Front</a><span class="tg-date">1918</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds md">1 of 22 read</span></div>
-    <p>Not unbroken ciphers at all — Lasry and colleagues published the keys, and these twenty-two are mutilated transmissions against them. Built a working decoder, settled the transposition convention the published keys leave ambiguous, and repaired three keys whose squares the source PDF had collapsed into dashes. <b>Page 100 reproduced from scratch</b> at score 140.7 where nothing else clears 7. Page 132's key identified — <i>WIEDERHOLE</i> and <i>TELEG</i> emerge unprompted. The other twenty need heavier repair than two insertions.</p>
-  </div>
-</article>
-<article class="tg done">
-  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
-  <div class="tg-b">
     <h3><a href="vatican.html">Vatican Challenge, Part 5 — Farnese to Poggio</a><span class="tg-date">1542</span></h3>
     <div class="tg-meta"><span class="odds md">family identified</span></div>
     <p>Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. Six sessions: the Meister keys verified from the page scans and excluded on structure, the letter dated from its own cleartext (15 April 1542), the sibling and relative records located in DECODE, and a unit-level attack (segmentation by EM, then annealing) shown by a matched control to fail on the segmentation step. Still unread; needs the 400 dpi images behind the DECODE login, the key in Chigi M II 49, or the clear register copy.</p>
@@ -272,14 +304,6 @@
     <h3><a href="ormonde.html">Maltravers to Ormonde — the last nine codes</a><span class="tg-date">1634–35</span></h3>
     <div class="tg-meta"><span class="odds md">partial</span></div>
     <p>The alphabet is recovered and every spelled word reads. The nine nomenclator codes still resting on context need either the real key or more ciphertext, and neither is online.</p>
-  </div>
-</article>
-<article class="tg done">
-  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
-  <div class="tg-b">
-    <h3><a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/06/30/the-top-50-unsolved-encrypted-messages-28-thomas-urquharts-encrypted-poems/">Thomas Urquhart’s encrypted poems</a><span class="tg-date">17th c.</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds lo">provenance</span></div>
-    <p>The structure of the August 2026 claim checks out — Wilcock records thirty-two proquiritations from petitioners hiding behind their initials, and the distich is two lines of thirty-two. But the provenance objection holds on an independent copy: the 1653 book ends in an errata table and contains <b>zero</b> runs of eight or more numbers, as does Wilcock 1899. The ciphertext could not be located in the source it is said to come from.</p>
   </div>
 </article>
 <article class="tg done">

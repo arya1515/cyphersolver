@@ -16,7 +16,7 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
-     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "even", "md", "medium",
+     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "even", "md", "an hour of compute",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
      "September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words "
      "on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than "
@@ -25,10 +25,36 @@ LIVE = [
      "to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, "
      "which is not public, would help most."),
 
+    ("ADFGVX residue of the Eastern Front", "1918", "https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md", "top 50", "incremental wins", "md", "medium",
+     "Keys published, decoder built, page 100 reproduced from scratch. Page 132's key is identified and WIEDERHOLE and TELEG emerged "
+     "unprompted, so a deeper garble model (more than two insertions, deletions with substitutions, column-boundary shifts) should finish "
+     "it; page 146 shows partial words on a length-17 key. Every message read is publishable, and consolidating the 2017 comment thread into "
+     "the table Schmeh never wrote is a service on its own. Near-certain incremental wins; a low chance of reading all twenty-two."),
 
+    ("Huang Xing telegram, the specific scheme", "1916", "huangxing.html", "", "high", "hi", "transcription",
+     "Scheme identified and the JACAR frames already fetched. What remains is the consonant-row to digit permutation and 46 codebook entries, "
+     "blocked only on an exact reading of the cursive on frame 0247. That is transcription work, not access. Finishing it turns "
+     "&ldquo;scheme identified&rdquo; into &ldquo;specific scheme recovered&rdquo;, which is exactly what cryptiana's entry asks for."),
+
+    ("Catokwacopa, lines 23 and 29", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "two more lines", "md", "low",
+     "Tooling exists. Line 29 is short enough for an exhaustive Latin-plus-English search with the positional prior, and line 23 needs a "
+     "phrase-level model instead of unigrams. Cheap, but the payoff is two more lines of an already outlined reading, not a solve."),
+
+    ("Armstrong: roll 13 residue and the 20 February 1808 letter", "1808", "armstrong.html", "", "medium-low", "md", "medium",
+     "The postscript is done, but eight table entries can still be read from pencil frames already on disk, and the 22 February letter is only "
+     "largely read. The 20 February 1808 letter is a separate unique code, never attacked here, with a disputed 2025 contest solution to test; "
+     "roll 14 frames are local. Medium-low odds on the 20 February letter, since a unique code has no sibling."),
+
+    ("Sun Yat-sen telegram, the tail", "1916", "sunyatsen.html", "", "high", "hi", "low",
+     "Three garbled codes after &#36820; and the &#22478;/&#32764;&#9633; doubts. Needs a closer look at the second sheet of a JACAR frame, "
+     "which is online. Small, quick, finishes a solved item."),
+
+    ("Urquhart octastich", "1653", "https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md", "top 50", "low", "lo", "medium",
+     "Untouched by anyone, and a book-cipher index into Urquhart's digitised corpus is mechanically testable. Held back because the "
+     "ciphertext's own provenance is unresolved and the 1653 OCR is dreadful."),
 
     ("Japanese telegram decoded by Yardley", "c.1920",
-     "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "low",
+     "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "not started",
      "Yardley printed the plaintext, so the scheme is attackable, but Japanese diplomatic traffic of 1920 ran on codebooks. One message can only "
      "recover the entries it happens to use, so a complete answer is ruled out by construction."),
 ]
@@ -84,24 +110,6 @@ ATTEMPTED = [
      "lines, a keyless quadgram climb recovers the order, and 414 plaintext cells read out <i>“the souldiers grumble much that the king is of late "
      "growne cool towards them…”</i>. Only the nomenclator numbers remain."),
 
-    ("Catokwacopa newspaper advertisements", "1875",
-     "https://klausschmeh.net/the-catokwacopa-cryptograms-a-150-year-old-mystery/",
-     "top 50", "readings audited", "md",
-     "Two <i>Standard</i> advertisements whose lines are two order-preserving halves of one abbreviated phrase. The disputed question was how much "
-     "the omission rule lets a reader invent, so it was measured. The pairing is structural (no random re-pairing in 100,000 fits the lengths). "
-     "Consonant-initial words always start in the 8 May half. An open-vocabulary search forces DYING DECLARATION, REPEATED and OLD CAP BROKE AT "
-     "CORNER LEFT INSTEAD, finds exact CHANGE ADOPTED and HOLIDAYS EXAMINE where published readings needed misprints, and shows MASTER PUPIL and "
-     "SIGNED are emendations. Decisively, of 1,645 names only CONINGTON, JOWETT, SHIRLEY and HERTFORD fit their frames: the Oxford reading is right "
-     "in outline. Lines 9, 12, 23 and 29 are not decided by the letters."),
-
-    ("ADFGVX residue of the Eastern Front", "1918",
-     "https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/", "top 50",
-     "1 of 22 read", "md",
-     "Not unbroken ciphers at all — Lasry and colleagues published the keys, and these twenty-two are mutilated transmissions against them. "
-     "Built a working decoder, settled the transposition convention the published keys leave ambiguous, and repaired three keys whose squares the "
-     "source PDF had collapsed into dashes. <b>Page 100 reproduced from scratch</b> at score 140.7 where nothing else clears 7. Page 132's key "
-     "identified — <i>WIEDERHOLE</i> and <i>TELEG</i> emerge unprompted. The other twenty need heavier repair than two insertions."),
-
     ("Vatican Challenge, Part 5 — Farnese to Poggio", "1542",
      "vatican.html", "", "family identified", "md",
      "Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. "
@@ -117,14 +125,6 @@ ATTEMPTED = [
     ("Maltravers to Ormonde — the last nine codes", "1634–35", "ormonde.html", "", "partial", "md",
      "The alphabet is recovered and every spelled word reads. The nine nomenclator codes still resting on context need either the real key or more "
      "ciphertext, and neither is online."),
-
-    ("Thomas Urquhart’s encrypted poems", "17th c.",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2017/06/30/the-top-50-unsolved-encrypted-messages-28-thomas-urquharts-encrypted-poems/",
-     "top 50", "provenance", "lo",
-     "The structure of the August 2026 claim checks out — Wilcock records thirty-two proquiritations from petitioners hiding behind their initials, "
-     "and the distich is two lines of thirty-two. But the provenance objection holds on an independent copy: the 1653 book ends in an errata table "
-     "and contains <b>zero</b> runs of eight or more numbers, as does Wilcock 1899. The ciphertext could not be located in the source it is said to "
-     "come from."),
 
     ("Kaliningrad bottle post", "found 2015",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/10/17/the-top-50-unsolved-encrypted-messages-19-the-kalinigrad-bottle-post/",
@@ -176,7 +176,7 @@ def target(rank, name, date, href, b, odds, oc, eff, why, cls=''):
     link = '<a href="%s">%s</a>' % (href, name) if href else name
     meta = '<span class="odds %s">%s</span>' % (oc, odds)
     if eff:
-        meta += '<span class="eff">%s effort</span>' % eff
+        meta += '<span class="eff">%s</span>' % (eff + ' effort' if eff in ('low', 'medium', 'high') else eff)
     return ('<article class="tg %s">\n  <div class="tg-l">%s</div>\n  <div class="tg-b">\n'
             '    <h3>%s<span class="tg-date">%s</span>%s</h3>\n'
             '    <div class="tg-meta">%s</div>\n    <p>%s</p>\n  </div>\n</article>\n'
@@ -192,12 +192,12 @@ def build():
                '<a href="%s">Elonka Dunin\'s famous unsolved codes</a> and <a href="%s">Schmeh\'s Top 50</a>.</p>\n' % (ELONKA, T50))
     out.append('<div class="qfilter" role="group" aria-label="Filter the queue">\n'
                '  <button class="qf on" data-f="all">All <span>%d</span></button>\n'
-               '  <button class="qf" data-f="live">Attack now <span>%d</span></button>\n'
+               '  <button class="qf" data-f="live">Worth continuing <span>%d</span></button>\n'
                '  <button class="qf" data-f="done">Attempted <span>%d</span></button>\n'
                '  <button class="qf" data-f="no">Not a cipher <span>%d</span></button>\n'
                '</div>\n' % (len(LIVE) + len(ATTEMPTED) + len(NOTCIPHER), len(LIVE), len(ATTEMPTED), len(NOTCIPHER)))
 
-    out.append('<h3 class="tier" data-t="live">Attack now <small>ranked by odds against effort</small></h3>\n')
+    out.append('<h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>\n')
     for i, t in enumerate(LIVE, 1):
         name, date, href, b, odds, oc, eff, why = t
         out.append(target(i, name, date, href, b, odds, oc, eff, why, 'live'))
