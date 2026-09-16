@@ -1,0 +1,140 @@
+% HistoCrypt 2027 short paper draft (4 pages excluding references). Anonymous for submission.
+% Compile with xelatex (the text contains the CJK sign 中 from Tomokiyo's transcription): xelatex stuart1643 && bibtex stuart1643 && xelatex stuart1643 && xelatex stuart1643
+% If the chairs' template rejects xelatex, replace the three occurrences of 中 with a named placeholder glyph and say so in a footnote.
+% Status 2026-09-16: first full draft from cyphersolver/boswell/NOTES.md and cyphersolver/forster/NOTES.md. \todo marks are Daniel's fills. Unvalidated.
+% Credit: the alphabets are Pitt's (Boswell) and Lasry's, Biermann's and Pitt's (Forster). This paper claims only the verification and the additions named in the abstract.
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Verifying Two Stuart Decipherments of 1643--44: \\ Permutation Controls, an Inline Word-Sign Convention, and the \emph{u}/\emph{v} Trap}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Two items on Tomokiyo's list of unsolved historical ciphers were solved by others in September 2026 and the list has not yet caught up: the letters of Charles I and Sir Edward Nicholas to Sir William Boswell of 2 November 1643 (TNA SP~84/157 ff.~217, 219), whose alphabet R.~Pitt published, and the Forster passage of 13 May 1644 (Val-d'Oise 68.H.8), read by Lasry and Biermann after Britland's 2013 article and again by Pitt. We make no claim to either solution. We report what an independent check adds. For both keys a permutation control, 20,000 random assignments of the letter identities over the same homophone structure scored with a period n-gram model, puts the published key nine standard deviations above the null. For Boswell, four graphic signs that the transcription places inside spelled words are word-signs introduced inline the first time the word is spelled (\emph{good}, \emph{Cousin}, \emph{Master}, \emph{us}); with them the framed passages read, the King's letter proves to be addressed to the Duke of Courland's envoy and not to Boswell, and the nomenclator appears to be alphabetical. For Forster, the alphabet is a mixed homophonic one and not a regular Stuart key, and a blind annealer recovers 31 of 34 symbols from the 207 tokens once the word boundaries are used and, decisively, the training text is normalised to \emph{u} for \emph{v} and \emph{i} for \emph{j}: without that a wrong key outscores the truth even though six matched controls pass. That failure mode, the plaintext and not the cipher lying outside the model, is the paper's general point.
+\end{abstract}
+
+\section{Two solutions the list had not absorbed}
+
+Tomokiyo's list of unsolved historical ciphers \shortcite{Tomokiyo:unsolved}, last modified 6 September 2026, carries two Stuart items with transcriptions from his blog of September 2021 \cite{Tomokiyo:boswellblog,Tomokiyo:forsterblog}. Between 14 and 15 September 2026 R.~Pitt published keys for both on GitHub \cite{Pitt:boswell,Pitt:forster}, and in the Forster repository credited George Lasry and Norbert Biermann with earlier, unpublished decipherments made after Britland's article on the Forster papers appeared \cite{Britland:2013}. We came to both items a day later, from the list, and found the solutions before finishing our own. This paper is therefore a verification and a set of additions, and its credit line is the one just given. It belongs with the pattern described in our companion note on stale lists: solutions posted in repositories and blog comments take months to reach the catalogue.
+
+\section{Charles I and Nicholas to Boswell, 2 November 1643}
+
+\subsection{The alphabet (Pitt)}
+
+Over both letters there are 455 numeric groups, 171 distinct, 69 hapax. Pitt's alphabet occupies 20--115: the 24 letters (no \emph{j}, no \emph{v}) in the row \emph{a c e g i l n p r t w y b d f h k m o q s u x z}, the odd then the even positions of the alphabet, repeated four times, so that each letter's four homophones are 24 apart. Supplementary homophones for a dozen frequent letters lie in alphabetical blocks at 116--159; 0--19 and a block at 361--386 are nulls; 160 upward is a nomenclator, with 800 = \emph{to} (14 occurrences), 588 = \emph{of}, 873 = \emph{you}. This is the regular-block type Tomokiyo describes for the Scudamore (1636), Cave (1638) and Ormonde--Clanricarde (1643) keys \shortcite{Tomokiyo:strafford}.
+
+\subsection{Permutation control}
+
+The 21 maximal runs of four or more alphabet groups (106 letters) were scored with a 4-gram model built from 2.7 million characters of seventeenth- to nineteenth-century English. The null hypothesis permutes the 24 letter identities over the same periodic structure, 20,000 times.
+
+\begin{center}\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Pitt's row & $-217.5$ \\
+20,000 random rows: mean / s.d. / best & $-333.7$ / 12.1 / $-271.1$ \\
+$z$; rows scoring at or above the real one & 9.6; 0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A free annealer over the period, 20 to 32, is \emph{not} decisive and is recorded as such: at 106 letters it over-fits, and periods 27--32 reach higher scores than the true key. The argument for period 24 is structural, the odd/even construction of the row, the 24-apart homophones and the clean alphabetical supplementary blocks, and the readings against the clear text (``A~C~·~·~knowledge'', ``[835]~D~E~R~stand'', ``Y~O~U~R~E~6*~R~E~D~E~N~T~I~A~L~S'') are the confirmation.
+
+\subsection{The four graphic signs}
+
+Tomokiyo renders four signs, $\triangle$, \textsf{中}, $\square$ and $+$, each occurring once \emph{inside} a spelled word and afterwards on its own, and Pitt's notes record that the repeated framed occurrences are not explained by the alphabet. They are explained by a clerical habit: the clerk wrote the sign beside the word the first time he spelled it, and the transcription took the sign into the word. Table~\ref{tab:signs} sets it out. The stand-alone occurrences come in exactly the combination the embedded ones predict, so that $\triangle$~\textsf{中}~873~$\square$ = ``good Cousin your Master'', and the three framed passages read ``Our Cousin your Master's affeccons \& offers'', ``to assure our said Cousin your Master'' and ``back to our good Cousin your Master, to whom we herewith send your re-credentials''. The same convention, a code introduced inline after its first spelling, appears in the Maltravers--Ormonde letter of January 1635 (``concerning Crosby, for whom 270 thus hereafter'').
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+sign & embedded & stand-alone & value \\
+\midrule
+$\triangle$ & 47 86 $\triangle$ 110 33 = GO$\triangle$OD & our $\triangle$ 中 873 $\square$ & good \\
+中 & 93 122 中 41 112 = CO中US & 中 873 $\square$ (three times) & Cousin \\
+$\square$ & 61 116 88 $\square$ 77 70 28 = MAS$\square$TER & the same three places & Master \\
+$+$ & 158 $+$ 150 = U$+$S & acceptable to $+$; preiudiced $+$; to $+$ & us \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:signs} The four signs: each embedded once in the word it stands for, then used alone.}
+\end{table}
+
+\subsection{Whose letter it is}
+
+With the signs read, the King's letter is not to Boswell. It acknowledges its recipient's letter of 6 October, calls the Duke of Courland ``your Master'' three times, sends ``your re-credentials'' and wishes the recipient a safe return to his master. Simpson's edition of the Courland papers \cite{Simpson:1893} prints Charles's letter \emph{to the Duke} of the same day, 2 November 1643, which calls itself ``these Our Re-credentials'' and says the envoy's credentials ``were transmitted by him hither''; it also prints a later memorial by the envoy explaining that the passage being unsafe, ``the ministers of their Majesties at the Hague'' dissuaded him from crossing and took his letters. Nicholas's covering letter tells Boswell, the resident at The Hague, that the King's two letters ``are put into your character'' and that he is to ``decifer \& interpret them''. Hence the catalogue's ``Charles I to Boswell'': the letter is to the Duke's envoy, enciphered in Boswell's key for Boswell to render. Nicholas's own instruction, to hinder ``the coming ouer of the [181]s from the [726]'' by Boswell's ``meanes of the [170]'', people who ``are understood here not to affect Monarchy'', fits the States General's embassy of mediation resolved on in late 1643; that is a historical reading of three single-occurrence codes, not a cryptographic one.
+
+The arms passage (``his assistance with in [755] [188] [539]s, match \& [639] \ldots\ to the [640] of Weymouth, Dartmouth, Exeter, Falmouth or [228]'') agrees with the envoy's memorial, which says the Duke was asked for munitions rather than men and later sent muskets, powder, match and lead, and with Nicholas to Roe in December 1643, ``Arms and powder are arrived at Dartmouth for his Majesty'' \cite{CSPD:1641}.
+
+\subsection{The nomenclator looks alphabetical}
+
+Sorting the word codes with a reading gives \emph{a} 170--228 (assistance, assure, are, by), \emph{d} 291 (Duke), \emph{g} 406 (gener-), \emph{h} 484 (His Majesty), \emph{l} 514--516 (letter), \emph{m} 539 (musket), \emph{o} 588--591 (of, our), \emph{p} 629--640 (pray, pro-, powder, port), \emph{s} 726--755 (secret-, selves, send), \emph{t} 800 (to), \emph{u} 835 (un), \emph{w} 854 (will), \emph{y} 873 (you), with one clash (190 \emph{are} after 185 \emph{assistance}). Two exploratory guesses in Pitt's notes fall outside their letter's range under this ordering and are not adopted. The ordering is a hypothesis that a second letter in the key would test; it is offered because an alphabetical nomenclator constrains every future guess.
+
+\subsection{Transcription slips the reading implies}
+
+Fourteen tokens conflict with the reading, each a single-figure confusion of the kind a provisional transcription from a photograph produces (44 for 34 in \emph{signify}, 27 for 29 in \emph{then}, 98 for 93 in \emph{affect}, and so on; several at points Tomokiyo himself asterisked). None is verifiable without the folios, which have no images online.
+
+\section{Forster, 13 May 1644}
+
+\subsection{Not a regular key}
+
+The passage has 207 cipher tokens in 37 comma-separated groups, 34 distinct symbols (18 numbers, 16 letters), 8 hapax, index of coincidence 0.047, with two clear French phrases and the date. The commas are word or word-pair boundaries. Under Pitt's key the cipher letters map \emph{a}:d \emph{b}:t \emph{c}:l \emph{d}:i \emph{e}:g \emph{f}:b \emph{g}:y \emph{l}:r \emph{n}:f \emph{p}:a \emph{q}:c \emph{s}:o \emph{t}:n \emph{u}:m \emph{x}:s \emph{y}:p and the numbers 0:e 2:e 4:a 5:g 7:d 8:t 12:c 14:z 16:i 19:n 20:r 30:u 40:s 50:t 70:f 80:l 88:q 90:p. No shift, block or row: a mixed alphabet with a second symbol for the frequent letters (and a third for \emph{t}), \emph{u} single although it is the commonest letter. The regular Stuart design that solved Boswell and Ormonde does not apply; the family is closer to the Richelieu type of homophonic alphabet. The reading is spiritual counsel, \emph{Il n'y a aucun sujet de scrupule de manquer \`a Dieu \ldots\ prenez seulement les voies de prudence pour conserver votre vie \ldots\ et mesurez \`a cela s'il est meilleur d'agir ou de souffrir}; four tokens conflict with it, at the rate Boswell shows, and two hapax words (\emph{subiet}/\emph{voie}, \emph{prenez}/\emph{preveu}) differ between Pitt's reading and the one Britland reports.
+
+\subsection{Permutation control}
+
+The twenty plaintext letters were permuted over Pitt's homophone partition 20,000 times and the decode scored with a French 5-gram model.
+
+\begin{center}\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+model & Pitt & null mean / s.d. / best & $z$ & null $\geq$ real \\
+\midrule
+letters only (6.5 M letters) & $-450$ & $-1327$ / 117 / $-960$ & 7.5 & 0 \\
+letters + word edges, \emph{u}/\emph{i} normalised & $-525$ & $-1768$ / 142 / $-1230$ & 8.8 & 0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Blind recovery, and the \emph{u}/\emph{v} trap}
+
+A homophonic annealer (34 symbols to 26 letters, 150,000 steps, 8--12 restarts) was run on the target and on six matched controls: held-out French of 207 letters enciphered with a random key of exactly Pitt's homophone multiplicities, adjacent words merged with probability 0.2 as in the target (\emph{descrupule}, \emph{lesreigles}, \emph{parla}).
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lllp{4.2cm}@{}}
+\toprule
+run & model & controls read (of 6) & target \\
+\midrule
+1 & 5-gram, letters only & 0 (16--49\,\% right; the optimum beats the truth on 5 of 6) & gibberish, 31\,\% of Pitt's key \\
+2 & 5-gram with word edges, raw corpus & 3; 3 fall into an all-\emph{i} attractor from OCR Roman numerals & attractor \\
+3 & same, numerals and \emph{ii} words removed & 5 (99--100\,\%), 1 at 44\,\% & $-591.6$ found vs $-602.4$ for Pitt: \textbf{a wrong key outscores the truth}; 14.5\,\% agreement \\
+4 & same, training text with \emph{v}$\to$\emph{u}, \emph{j}$\to$\emph{i} & \textbf{6 of 6} (98--100\,\%) & \textbf{97.6\,\% of Pitt's key blind}, 202 of 207 tokens \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:runs} Blind annealing on the Forster passage and six matched controls.}
+\end{table}
+
+Run 1 is the expected lesson: 207 letters over 34 symbols with a plain letter-stream model is below the solver's threshold even on controls, so nothing could have been read into a target failure. Run 3 is the useful one. The controls pass and the target fails, which means the \emph{plaintext}, not the cipher, is outside the model's distribution. The letter writes \emph{u} for \emph{v} (\emph{uotre}, \emph{uie}, \emph{uos}, \emph{seruices}, \emph{uoyes}) and \emph{i} for \emph{j} (\emph{subiet}, \emph{ie}), as every 1644 hand does; a model trained on a nineteenth-century edition with \emph{v} and \emph{j} scores that spelling about 200 nats worse than modern French of the same length, and a gibberish key wins. Normalising the training text fixes it, and the blind key then reads \emph{il nu a aucun subiet descrupule de manquera dieu \ldots\ preneisdulement lesuouesde prudence piur conceruer uotre uie \ldots}: 31 of 34 symbols recovered from the ciphertext alone, the other three (\emph{g}, 14, \emph{e}: one to three occurrences each) fixed by the words. Pitt's alphabet is thereby confirmed independently of his work.
+
+\section{Conclusion}
+
+Both published keys pass a permutation control at nine standard deviations, which is the test we would ask of any homophonic decipherment of a text this short. The additions are small but they change the catalogue entries: the Boswell item is a letter of Charles I to the Duke of Courland's envoy, enciphered in Boswell's character, with an inline word-sign convention that closes its framed passages; the Forster item is a mixed homophonic alphabet, not a regular Stuart key. The method point is general. A matched control that passes while the target fails does not show that the target is unsolvable; it shows that the target's plaintext is out of the model's distribution, and for pre-1700 French and Italian the first thing to check is \emph{u}/\emph{v} and \emph{i}/\emph{j} in the training text. Credit for the decipherments belongs to Pitt, Lasry and Biermann; the list should be updated to say so. Scripts, controls and the readings are in the accompanying repository \todo{URL after anonymity is lifted}.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

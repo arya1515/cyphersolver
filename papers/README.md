@@ -1,6 +1,6 @@
 # Papers — getting the solved findings into a publishable format
 
-Status 2026-09-15: drafts, unvalidated, not submitted. Everything below is for Daniel to review.
+Status 2026-09-16: seven drafts, unvalidated, uncompiled, not submitted. Everything below is for Daniel to review.
 
 ## Where the results already are
 
@@ -54,14 +54,40 @@ submission-ready now. *Cryptologia* remains the right home for a longer version 
 | `histocrypt/armstrong1808.tex` | regular | Reconstruction of the "972" code from the State Department's pencil decodes; the 30 Aug 1808 postscript read in full | ~5 pages |
 | `histocrypt/telegrams1916.tex` | regular | Two intercepted telegrams of the 1916 anti-Yuan campaign: the Swatow telegram to Sun Yat-sen (brute-forced systematic condenser) and the Huang Xing telegram (three-kana private code, transmission error located) | ~5 pages |
 | `histocrypt/already-solved.tex` | short | Six "unsolved" historical ciphers that were already solved: Richelieu 1629 (Avenel 1858), Hyde 1659–60 (the 1724 editor), Perwich 1670, Ferdinand III, the Confederate dictionary code, Milroy; how catalogues go stale and a checklist | ~4 pages |
+| `histocrypt/segur1586.tex` | short | Henry of Navarre to Ségur 1585–86 (500 Colbert 401): mod-5 residue test, structured annealer with clear-text context, alphabetical key as the check, sibling key = same table +8 | ~4 pages |
+| `histocrypt/ormonde1635.tex` | short | Maltravers to Ormonde 1634–35 (HMC Ormonde I): regular Stuart block key read from 59 figures via consecutive doubled letters and historical cribs; nomenclator confirmed against Knowler 1739 | ~4 pages |
+| `histocrypt/vienna1627-1644.tex` | regular | Two Italian ciphers from the ÖStA key fascicles read from Tomokiyo's transcriptions: Lucca 1644 (R2159, crib-fixed annealing, two polyphonic figures, Viterbi) and Warsaw 1627 (R1408, 5-gram + dictionary annealer, alphabet in plain order) | ~7 pages |
+| `histocrypt/stuart1643.tex` | short | Verification of Pitt's Boswell key and the Lasry/Biermann/Pitt Forster key by permutation control; the inline word-sign convention and the Courland addressee (new); the u/v corpus-normalisation failure mode. **Credit belongs to Pitt, Lasry, Biermann; the draft says so** | ~4 pages |
 | `histocrypt/refs.bib` | shared bibliography | | |
+
+### Coverage of the solved table in the main README (2026-09-16)
+
+| Solved item | Paper |
+|---|---|
+| Richelieu 1629 | `already-solved.tex` (found in Avenel) |
+| Armstrong 972 postscript 1808 | `armstrong1808.tex` |
+| Swatow and Huang Xing telegrams 1916 | `telegrams1916.tex` |
+| Maltravers → Ormonde 1634–35 | `ormonde1635.tex` |
+| Lucca 1644 and Warsaw 1627 | `vienna1627-1644.tex` |
+| Navarre → Ségur 1585–86 | `segur1586.tex` |
+| Boswell 1643 and Forster 1644 (others' solutions, verified) | `stuart1643.tex` |
+| Hyde 1659–60 | `already-solved.tex` |
+| Gold bar 1933, Roosevelt 1935 (no message) | **not drafted**; candidate short paper "Three cryptograms with no message" if wanted |
+| Negative results with matched controls (Birago, Joyeuse, Chaulnes, Feuquières, Bordeaux, Ottobon, BLUME) | **not drafted**; candidate short paper on where homophonic annealing stops, HistoCrypt takes negative results |
+
+Seven HistoCrypt submissions from one author in one cycle is more than a programme committee will take; the
+2023 volume had about 25 papers. Suggested priority for 2027: `vienna1627-1644` (regular), `segur1586`,
+`ormonde1635`, `already-solved` (short). Hold `armstrong1808` and `telegrams1916` for *Cryptologia*, where the
+longer code-table material fits, and offer `stuart1643` to Pitt as a joint note or fold it into `already-solved`
+as items seven and eight if the committee prefers fewer papers.\*
 
 Compile any of them with (Overleaf works; no LaTeX is installed on this machine, so the drafts are **uncompiled**):
 
 ```bash
 cd papers/histocrypt
 pdflatex armstrong1808 && bibtex armstrong1808 && pdflatex armstrong1808 && pdflatex armstrong1808
-# telegrams1916.tex contains Chinese and Japanese: compile it with xelatex instead of pdflatex
+# telegrams1916.tex contains Chinese and Japanese, and stuart1643.tex the sign 中 from Tomokiyo's transcription:
+# compile those two with xelatex instead of pdflatex
 ```
 
 ## Before submission (Daniel)
@@ -78,7 +104,15 @@ pdflatex armstrong1808 && bibtex armstrong1808 && pdflatex armstrong1808 && pdfl
 4. **Figures.** Reuse `docs/armstrong_roll13_0200.jpg`, `docs/sunyatsen_telegram.png`, `docs/huangxing_annotated.png`
    (check the LoC, NARA and JACAR terms for reproduction in proceedings; JACAR requires a credit line).
 5. **Author block.** Uncomment the real `\author{}` only in the camera-ready version.
-6. **Register with DECODE** and ask that R9461/R9462 be marked deciphered, citing Avenel.
+6. **Register with DECODE** and ask that R9461/R9462 be marked deciphered, citing Avenel; likewise R1408 and
+   R2159 with the keys and readings in `vienna1627-1644.tex`.
+7. **Credit before submission of `stuart1643.tex`.** E-mail Pitt (and through him Lasry and Biermann) with the
+   word-sign finding and the draft; ask whether they want a joint note instead. Do not submit it without that.
+8. **Bibliography gaps** (2026-09-16): `Britland:2013` title and journal; `Luca:2004` venue; the two Tomokiyo blog
+   URLs; `Tomokiyo:variable` exact title; `Lasry:2023mary` volume and pages. All marked `[TODO]` in `refs.bib`.
+9. **Historical inferences to check before the drafts leave the repo:** the Polish principal behind the Lucca offer,
+   Dietrichstein as the Warsaw addressee, Firks as the Courland envoy, the alphabetical-nomenclator hypothesis for
+   Boswell. Each is labelled as inference in the text; a historian co-reader would strengthen all four papers.
 
 \* Asterisked statements are inferences or unverified; the cfp/instructions pages for 2027 were not yet published on
 2026-09-15 and the Cryptologia page could not be fetched.
