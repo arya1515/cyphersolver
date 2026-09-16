@@ -145,3 +145,17 @@ readers' choice, though, and lines 9/26, 12, 23 and 29 remain unread.
 
 Reproduce: `python mech.py` (pairing test, exact costs), `python -c "import mech; mech.rule_report()"`
 (positional rule), `python search.py all [--no-names]`, `python search.py 23`, `python names.py`.
+
+## 6. Line 29 in Latin (2026-09-15, second session)
+
+`latin.py` runs the same exact-interleaving search with a Latin vocabulary (19,291 words from 43 Latin Library texts:
+Caesar, Cicero, Vergil, Livy, Sallust, Ovid, Horace, Vulgate; u = v, i = j) and a flat positional prior. Control:
+line 17 `qft / ui` returns **QUI FIT** first (Horace, *Satires* 1.1, the accepted reading), ahead of *qui fuit*; the
+English run puts it ninth behind *qu fit* and *quite fit*. Line 28 returns *declarat omni*, a worse fit than English
+DECLARATION (exact, no omissions), so the mixed-language reading of 27-28 is not supported.
+
+Line 29 `ereflodbr / rileohmae`: the best Latin readings are three- and four-word junk (*et refer illo debeo
+hiemare*, -61; *uereri fallor debeo hiemare*), as the English ones are (*retire followed oh embrace*, -56). Neither
+vocabulary produces a two-word reading without omissions. Ernst's RELIGIONEM CONFIRMARE stays at 11 edits and is a
+conjecture; **line 29 is undetermined in both languages.** The English corpus for `search.py` was rebuilt from 24
+Gutenberg novels (`../beale/lmcorpus/`), so `vocab.tsv` differs slightly from the first session's.

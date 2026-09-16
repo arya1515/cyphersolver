@@ -83,3 +83,41 @@ standard Chinese telegraph code, and not Yamada's 20 × 5 condenser used in the 
   on frame 0247, where several glyphs remain uncertain.
 
 Reproduce: `python huang.py` (no data files needed; ciphertext is in the script).
+
+## 5. Corrections from the frames themselves (2026-09-15, second session)
+
+The JACAR PDF was re-fetched (`jacar/f0244.pdf`, 59 pages; the raw path is
+`/content/item/aj12/C200138859200/raw/B03050731500.b10148.1-0955.00000244.pdf` under www.jacar.archives.go.jp) and
+frame 0247 was read at 500 dpi (`jacar/f0247_top.png`, `f0247_bot.png`). Four columns of 12, 11, 12 and 11
+characters after the 電稿 heading, 46 in all, which is the number of kana triples:
+
+> 隱印崧誥邕行諸兄鑒正發書 · 間適接哿電敬悉一切護國 · 軍能速入湘贛甚好[章]行嚴何日 · 東渡望速啓行先電示興徑
+
+Section 2 above followed the clerk's Japanese paraphrase on frame 0248 (書翰ヲ發セルノ際, 速ニ出發セシメ且ツ豫メ電報アランコトヲ望ム)
+and so had 50 characters; the cursive on 0247 has 46. 章 is a small interlinear addition beside 行 and is not
+enciphered. The second character of column 2 (間 here) and 誥 in column 1 remain uncertain.
+
+**One transmission error, located.** The plaintext repeats 行 (6, 32, 41), 速 (26, 39) and 電 (17, 43). Under the
+grouping of section 3 only 行 6 = 32 matched. If one kana is dropped at position 106 (the O of OHIKE, the first kana of
+character 36), every triple from 36 on shifts by one and all three repeats become **identical kana**: 行 = KE-KI-NI
+three times, 速 = HE-U-HA twice, 電 = RE-U-SA twice, and the spare SU at the end completes character 46 (徑 = RA-KI-SU).
+So the telegram as filed carries one superfluous kana, and the code is deterministic: the same character is always
+written with the same three kana.
+
+**This overturns the free-vowel reading of section 3.** The seven consonant-row collisions counted there are not
+the same character written with different vowels; after the shift they are pairs of *different* characters (印/護
+T-H, 誥/日 SKN, 鑒/間 R-H, 書/敬 SKH, 國/嚴 NKT, 甚/何 -KT, 諸/示 S-S) that share a row triple and differ only in
+vowels. The vowels therefore carry information. What stands: 3 kana per character, a private code, the row of
+the kana correlated with but not equal to the code value (the excess of row collisions over chance, p = 0.006, is
+what the correlation looks like from outside).
+
+**Row-to-digit test, negative.** If the rows were the digits of a 3-digit codebook compiled in dictionary order,
+some permutation of the ten rows would make the 42 distinct characters' code numbers monotone in standard
+telegraph-code (radical) order. Over all 3,628,800 permutations the best Spearman rho is 0.524; for the same test on
+twelve shuffles of the plaintext the null gives mean 0.468 and max 0.614. No signal.
+
+**Status.** Solved as far as one telegram allows: the scheme (three kana per character, deterministic, private
+codebook of at most 50³ but presumably 10³ entries), the transmission error, and 42 codebook entries (character to
+kana triple, listed by `huang.py` alignment). The kana-to-digit table and the rest of the book need a second
+telegram in the same code. `python -c "import huang"`; the alignment table is in the session transcript and
+reproducible from `huang.CT` with kana 106 dropped.

@@ -26,8 +26,14 @@ H/M confidence); merged with Tomokiyo's partial table (`code972_partial.json`, 2
 `code972_reconstructed.json` (592 entries). The 1808-10 roll 14 (`img/`, naId 188671566) is NOT decoded
 except a faint pencil line under the 22 Feb 1808 postscript.
 
-## To finish: read the remaining pencil pages on roll 13 (images 0011-0012, 0016-0017, 0021, 0027, 0034-35,
-0058-59, 0096-97, 0109-10, 0121-22, 0140-43, 0150-51, 0160, 0188-92, 0223-25, 0232-38, 0289) for 1273, 250,
-1320, 384, 1218, 1483, 992, 1048; and check the LoC image of the postscript (mjm015002; Cloudflare-blocked to
-scripts) for the exact digits of "934 510 860".
+## To finish (updated 2026-09-15, second session): the roll-13 frames were re-fetched through the catalogue proxy
+(`https://catalog.archives.gov/proxy/records/search?naId=188671172` lists the 393 object URLs, saved in `img13/objects.json`;
+the images are `.../medialz/dc-metro/rg-059/603720/M34/M34-013/M34-013-NNNN.jpg`). Frame 0190 (Paris, 20 July 1806,
+"A peace was signed last night between Russia and France ... this looks like peace between England and France also")
+carries a full pencil decode and gives **1320 = like** as an H reading, so the last clause of the postscript no longer
+rests on inference for that group; it also adds 1492 last, 835 night, 801 about, 679 look (H) and 512 media (M).
+Still to read for 1273, 250, 384, 1218, 1483, 992, 1048: frames 0011-0012, 0016-0017, 0021, 0027, 0034-35, 0058-59,
+0096-97, 0109-10, 0121-22, 0140-43, 0150-51, 0160, 0188-89, 0191-92, 0223-25, 0232-38, 0289 (downloaded, not yet read;
+the dense despatch pages such as 0233 need 600 dpi crops line by line). The LoC image of the postscript (mjm015002) is
+still Cloudflare-blocked to scripts.
 The 20 Feb 1808 letter (different, unique code; cryptiana's other Armstrong item) was not attacked.

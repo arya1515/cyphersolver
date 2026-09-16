@@ -112,3 +112,15 @@ four misread/uncertain ones. ku = 00 (亦 0076, 力 0500) fixes the u-column.
   with the two Yamada tables, both negative).
 * 黃浩瀚, 「百年前莫擎宇在汕宣布反袁獨立」, 汕頭特區晚報 (repr. 辛亥革命網, 6 Dec 2017) — the
   26–30 March 1916 chronology and Mo's telegram "率師占領潮城，宣布獨立".
+
+## The tail, checked on the sheet (2026-09-15, second session)
+
+The JACAR PDF was re-fetched (`jacar/sun.pdf`, 11 pages; raw path
+`/content/item/aj12/C200139000900/raw/B03050738800.b10149.1-0959.00000288.pdf`) and frame 0296, the two sheets of the
+received-message form (paper nos. 44 and 45), rendered at 600 dpi (`jacar/f0296_tail_rot.png`). The second sheet
+carries two lines in a clear copperplate: **xopavajejo ropezpo / ngobunibai tanaka**. Every letter of the tail is as
+Tomokiyo transcribed it; there is no h/n or e/c ambiguity to exploit here as there was in *kufonemige* and
+*gedocijiga*. So the garble is the operator's, not the transcriber's: after **ro pe** (返) the thirteen letters
+`zpo ngobunibai` cannot be parsed into consonant-vowel pairs at any edit distance of three or less (`tail.py`), and
+the three lost characters stay lost. The "high-resolution look" this file asked for has been taken and closes
+the point.

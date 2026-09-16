@@ -50,3 +50,19 @@ The claimed solution could not be tested here, because the ciphertext could not 
 source it is said to come from. That is not a refutation of the reading - it is a statement that the
 provenance has to be established before the reading can be judged, which is what the rebuttal said.
 The octastich remains untouched by anyone.
+
+## The octastich, measured (2026-09-15, second session)
+
+Schmeh's transcription (`../top50/arts/28.txt`) gives nine lines of 33, 27, 38, 39, 32, 28, 31, 34 and 10 numbers,
+272 in all, 82 distinct, maximum 201. The distribution is steeply skewed to small values: 108 of the 272 are ten
+or less (1 occurs 15 times, 2 and 5 thirteen times each), 76 lie in 11-30 and 88 above 30. Index of coincidence
+0.021, against 0.038 for uniform-over-26 and about 0.066 for a monoalphabetic substitution of English, so this is
+not a simple substitution with a few nulls; it is either heavily homophonic or an index into a text. The distich
+shares 31 of its 32 distinct values with the octastich and has the same skew (5, 3 and 20 are its commonest), so
+the two poems are in one system.
+
+The shape (small integers dominating, occasional values to 201, line sums 327-1470) is what a book cipher of the
+word-index or line-and-word kind produces, and what the August 2026 claim assumed for the distich. It is not
+attackable without the key text, and the provenance question of the previous section applies with more force
+here: nobody has said where the octastich was printed. Nothing further can be done online; the item stays where
+the previous section left it.

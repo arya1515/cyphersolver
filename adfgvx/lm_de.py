@@ -30,7 +30,8 @@ def load():
     return build()
 
 D, FLOOR = load()
-SEP_COST = -5.0   # a window crossing an X separator or digit: cheaper than junk, dearer than text
+DIGIT_COST = -7.5  # a window containing a digit: nearly junk, digits are rare in this traffic
+X_COST = -6.0      # a window crossing an X separator: dearer than text, cheaper than junk
 
 def score(pt):
     s = 0.0
@@ -41,7 +42,12 @@ def score(pt):
         w = pt[i:i + 4]
         v = D.get(w)
         if v is None:
-            v = SEP_COST if (w.isalnum() and any(c.isdigit() or c == 'X' for c in w)) else FLOOR
+            if any(c.isdigit() for c in w):
+                v = DIGIT_COST
+            elif 'X' in w and w.isalpha():
+                v = X_COST
+            else:
+                v = FLOOR
         s += v
     return s
 

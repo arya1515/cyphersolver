@@ -193,3 +193,23 @@ voynich/__pycache__/
 scorpion/results_*.txt
 # goldbar: downloaded IACR photographs and enlarged crops used for the transcription check
 goldbar/work/
+catokwacopa/latin/
+sunyatsen/jacar/*.pdf
+sunyatsen/jacar/frame*.png
+sunyatsen/jacar/f0296.png
+sunyatsen/jacar/f0296_left.png
+sunyatsen/jacar/f0296_right.png
+sunyatsen/jacar/f0247_text.png
+sunyatsen/jacar/sun_sheet.png
+sunyatsen/jacar/*.html
+sunyatsen/jacar/*.bin
+armstrong/img13/
+adfgvx/blocks_log.txt
+adfgvx/q4_de.pkl
+adfgvx/corpus/
+blume/corpus/
+blume/q4_es.bin
+blume/dt/*.exe
+blume/dt/plain_es.txt
+beale/lmcorpus/
+catokwacopa/vocab.tsv
