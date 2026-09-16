@@ -279,3 +279,9 @@ moray/nulltest2.txt
 moray/crib1.txt
 chaulnes/Revue_des_questions_historiques.pdf
 chaulnes/rqh22.txt
+# boswell: IA OCR of Simpson 1893 and CSPD 1641-43, blog HTML, 4-gram cache
+boswell/src/simpson_djvu.txt
+boswell/src/cspd1641_43.txt
+boswell/src/blog.html
+boswell/lm4.pkl
+boswell/__pycache__/

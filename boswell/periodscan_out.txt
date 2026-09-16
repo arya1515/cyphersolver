@@ -1,0 +1,13 @@
+runs 21 tokens 106 real row score -217.5
+period 20 best annealed -209.2
+period 21 best annealed -227.8
+period 22 best annealed -226.6
+period 23 best annealed -231.3
+period 24 best annealed -204.5
+period 25 best annealed -219.1
+period 26 best annealed -210.6
+period 27 best annealed -191.8
+period 28 best annealed -195.9
+period 30 best annealed -188.0
+period 32 best annealed -187.0
+period 48 best annealed -171.2

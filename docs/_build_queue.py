@@ -25,14 +25,6 @@ LIVE = [
      "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
      "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
 
-    ("Charles I to Boswell, and Nicholas to Boswell", "1643",
-     "https://cryptiana.blogspot.com/2021/09/charles-i-boswell-cipher-1643.html", "", "even", "md", "medium",
-     "Two letters of 2 November 1643 at the National Archives, unread. Tomokiyo's provisional transcription of the King's letter has <b>460 groups, 170 "
-     "distinct, 69 hapax</b>, with English words left in clear between the groups (&ldquo;Not doubting but God will shortly enable Us to recompence "
-     "soe 8 82 100 46 154&rdquo;), so the running cribs come with the text. A Civil War nomenclator of the same shape as the Ormonde letter read here. "
-     "The risk is the transcription itself, which its author marks as uncertain in many places. Next step: separate alphabet groups from nomenclator "
-     "groups by frequency, then a constrained climb against the clear words. Added September 2026, not yet attempted."),
-
     ("Richard Forster, possibly to Henrietta Maria", "1644",
      "https://cryptiana.blogspot.com/2021/09/an-unsolved-letter-of-richard-forster.html", "", "even", "md", "low",
      "A letter of 13 May 1644 in the hand of the Queen's treasurer, published by Karen Britland in 2013 and transcribed by Tomokiyo: <b>134 groups "
@@ -72,6 +64,18 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Charles I and Nicholas to Boswell, TNA SP 84/157 ff. 217 and 219", "1643",
+     "https://github.com/dbourdeau/cyphersolver/tree/main/boswell", "", "read in substance", "md",
+     "<b>Attempted September 2026; alphabet solved, text read.</b> The alphabet was found by Robert Pitt days earlier (GitHub, 14 September 2026): a "
+     "24-letter row, odd then even positions of the alphabet, repeated four times over 20&ndash;115, with supplementary homophones 116&ndash;159 in "
+     "alphabetical blocks and nulls 0&ndash;19. Verified here: z&nbsp;=&nbsp;9.6 against 20,000 permuted rows, none as good. Added here: the four graphic "
+     "signs are word-signs the clerk introduced inside the spelled word (good, Cousin, Master, us), which closes the passages Pitt left open; the King's "
+     "&ldquo;Sir&rdquo; is the Duke of Courland's envoy at The Hague, and the letter sends him the &ldquo;re-credentials&rdquo; Simpson printed in 1893 "
+     "from Mitau with a cipher line in the same key; Nicholas's covering letter asks Boswell to hinder the Dutch embassy of 1644. The King had heard nothing from the Duke but "
+     "the invitation to the funerals of the two Dukes; he asks for muskets, match and powder to Weymouth, Dartmouth, Exeter or Falmouth, and knows not whether his answer "
+     "arrived. A dozen single-occurrence word codes and a table of transcription slips remain; the folios would settle them. "
+     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/boswell/NOTES.md\">Notes &rarr;</a>"),
+
     ("Feuqui&egrave;res to Catinat, Pignerol, 25 January 1691", "1691",
      "https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres", "", "not solved, design fixed", "lo",
      "<b>Attempted September 2026.</b> The 1819 <i>M&eacute;moires de Catinat</i> print the 418 groups; collated with the Munich page images "
