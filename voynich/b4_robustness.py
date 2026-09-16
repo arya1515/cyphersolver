@@ -657,6 +657,36 @@ def bootstrap(units, rng, M, viol_idx, n_boot=N_BOOT, do_rigidity=True):
     return out
 
 
+def jackknife(units, viol_idx):
+    """Delete-one-unit jackknife SE (folios as units) for statistics that resampling-with-duplication distorts."""
+    n = len(units)
+    total_words = group_words(units)
+    total_big = sum_dense([u.big for u in units])
+    total_first = sum_dense([u.first for u in units])
+    total_prec = sum_dense([u.prec for u in units])
+    let = sum(u.letters for u in units)
+    tok = sum(u.tokens for u in units)
+    vals = collections.defaultdict(list)
+    for u in units:
+        wc = total_words.copy()
+        wc.subtract(u.words)
+        freqs = sorted((v for v in wc.values() if v > 0), reverse=True)
+        vals["hapax_type_frac"].append(sum(1 for v in freqs if v == 1) / len(freqs))
+        vals["zipf_slope"].append(zipf_slope_from_freqs(freqs))
+        big = [a - b for a, b in zip(total_big, u.big)]
+        first = [a - b for a, b in zip(total_first, u.first)]
+        vals["h2"].append(Hd(big) - Hd(first))
+        vals["mean_word_len"].append((let - u.letters) / (tok - u.tokens))
+        W = [a - b for a, b in zip(total_prec, u.prec)]
+        vals["viol_fixed_order"].append(pair_viol_fixed(W, viol_idx))
+    out = {}
+    for k, v in vals.items():
+        m = sum(v) / n
+        se = math.sqrt((n - 1) / n * sum((x - m) ** 2 for x in v))
+        out[k] = {"se": se, "jack_mean": m}
+    return out
+
+
 def perm_test(units_A, units_B, rng, n_perm, strata=None):
     """Difference A - B for h2, mean word length, edy, qo. strata: function unit -> stratum key, or None."""
     allu = units_A + units_B
@@ -724,12 +754,15 @@ def run():
         ent["voynich"][name] = {"raw": entropy_block([tok_raw(w) for w in words]),
                                 "merge2": entropy_block([tok_m2(w) for w in words])}
         log("entropy", name)
+    nM2 = ent["voynich"]["ZL ALL"]["merge2"]["without_spaces"]["n_symbols"]
+    R["sizes"]["ZL_ALL_merge2_symbols"] = nM2
     for lg, ws in langs.items():
         e = {}
-        for tag, n in [("sizeALL", nALL), ("sizeA", nA)]:
+        for tag, n in [("sizeALL", nALL), ("sizeA", nA), ("sizeM2", nM2)]:
             samp = take_letters(ws, n)
             e[tag + "_folded"] = entropy_block([list(fold(w)) for w in samp])
-            e[tag + "_unfolded"] = entropy_block([list(w) for w in samp], kmax=2)
+            if tag != "sizeM2":
+                e[tag + "_unfolded"] = entropy_block([list(w) for w in samp], kmax=2)
         ent["languages"][lg] = e
         log("entropy", lg)
     R["entropies"] = ent
@@ -747,11 +780,12 @@ def run():
         eb = cond_entropies(streams(toks)[1], 2)
         d = {"tokens": len(ws), "folios": len({l["folio"] for l in ls}), "h1": eb[1]["plug"], "h2": eb[2]["plug"]}
         d.update(word_stats(ws))
-        if len(ws) >= 10000:
-            w10 = ws[:10000]
-            e10 = cond_entropies(streams([tok_raw(w) for w in w10])[1], 2)
-            d["first10k"] = {"h2": e10[2]["plug"]}
-            d["first10k"].update(word_stats(w10))
+        for tag, nn in [("first10k", 10000), ("first750", 750)]:
+            if len(ws) >= nn:
+                wn = ws[:nn]
+                en_ = cond_entropies(streams([tok_raw(w) for w in wn])[1], 2)
+                d[tag] = {"h2": en_[2]["plug"]}
+                d[tag].update(word_stats(wn))
         hands[f"hand{h}_{lg}"] = d
     # hand 4 all languages (mostly lang '?')
     ws = flat(sel(ZL, None, "4"))
@@ -805,7 +839,10 @@ def run():
         og, cg = best_order_dense(Wg, M, restarts=6, seed=7)
         pt["viol_rederived_order"] = cg / sum(Wg)
         pt["rederived_order"] = [m_syms[i] for i in og]
-        boot[name] = {"point_from_units": pt, "boot": bootstrap(us, rng, M, viol_idx)}
+        jk = jackknife(us, viol_idx)
+        for k, d in jk.items():
+            d["ci95_normal"] = [pt[k] - 1.96 * d["se"], pt[k] + 1.96 * d["se"]]
+        boot[name] = {"point_from_units": pt, "boot": bootstrap(us, rng, M, viol_idx), "jackknife": jk}
     R["bootstrap"] = boot
 
     # ---------------- (4) permutation A vs B

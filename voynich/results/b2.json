@@ -62,7 +62,7 @@
   },
   "english": {
    "tokens": 34116,
-   "types": 3975,
+   "types": 3971,
    "source": "C:\\Users\\DANIEL~1.BOU\\AppData\\Local\\Temp\\claude\\C--Users-Daniel-Bourdeau-cipher\\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\\scratchpad\\t50\\corp_en_1342.txt"
   },
   "italian": {
@@ -668,83 +668,90 @@
    "curve": {
     "50": {
      "blocks": 682,
-     "info_bits_per_token": 0.06947366150961581,
-     "info_unweighted_sum_bits": 17.833015660858788,
-     "n_word_types": 226
+     "info_bits_per_token": 0.06751892136548972,
+     "info_unweighted_sum_bits": 18.202463964319435,
+     "n_word_types": 229
     },
     "100": {
      "blocks": 341,
-     "info_bits_per_token": 0.10252936251299394,
-     "info_unweighted_sum_bits": 29.200692890041246,
-     "n_word_types": 226
+     "info_bits_per_token": 0.10251179899993329,
+     "info_unweighted_sum_bits": 31.12032231143188,
+     "n_word_types": 229
     },
     "200": {
      "blocks": 170,
-     "info_bits_per_token": 0.12170025927005661,
-     "info_unweighted_sum_bits": 42.4263304785893,
-     "n_word_types": 226
+     "info_bits_per_token": 0.12258361673144147,
+     "info_unweighted_sum_bits": 44.1546547405063,
+     "n_word_types": 229
     },
     "400": {
      "blocks": 85,
-     "info_bits_per_token": 0.12183979521937723,
-     "info_unweighted_sum_bits": 52.22594465662033,
-     "n_word_types": 226
+     "info_bits_per_token": 0.12439999120381476,
+     "info_unweighted_sum_bits": 54.453079076582256,
+     "n_word_types": 229
     },
     "800": {
      "blocks": 42,
-     "info_bits_per_token": 0.10444433329041448,
-     "info_unweighted_sum_bits": 51.94482437034807,
-     "n_word_types": 226
+     "info_bits_per_token": 0.1054290153865225,
+     "info_unweighted_sum_bits": 53.18503774389738,
+     "n_word_types": 229
     },
     "1600": {
      "blocks": 21,
-     "info_bits_per_token": 0.08271599730136572,
-     "info_unweighted_sum_bits": 46.484664249900376,
-     "n_word_types": 226
+     "info_bits_per_token": 0.08294544489964731,
+     "info_unweighted_sum_bits": 47.31806676174635,
+     "n_word_types": 229
     },
     "3200": {
      "blocks": 10,
-     "info_bits_per_token": 0.06318007630482064,
-     "info_unweighted_sum_bits": 38.18352230950583,
-     "n_word_types": 226
+     "info_bits_per_token": 0.06440298042412673,
+     "info_unweighted_sum_bits": 40.32890252790746,
+     "n_word_types": 229
     },
     "6400": {
      "blocks": 5,
-     "info_bits_per_token": 0.039077645825581445,
-     "info_unweighted_sum_bits": 24.586437935909583,
-     "n_word_types": 226
+     "info_bits_per_token": 0.0403418980321559,
+     "info_unweighted_sum_bits": 26.474673818643126,
+     "n_word_types": 229
     }
    },
    "peak_scale": 400,
-   "peak_info": 0.12183979521937723,
+   "peak_info": 0.12439999120381476,
    "top20_at_peak": [
     {
      "word": "i",
      "n": 582,
-     "H_blocks": 5.938,
-     "H_shuffled": 6.307,
-     "info_bits_per_token": 0.00628
+     "H_blocks": 5.941,
+     "H_shuffled": 6.305,
+     "info_bits_per_token": 0.00621
     },
     {
      "word": "you",
      "n": 345,
-     "H_blocks": 5.62,
-     "H_shuffled": 6.226,
-     "info_bits_per_token": 0.00613
+     "H_blocks": 5.625,
+     "H_shuffled": 6.223,
+     "info_bits_per_token": 0.00605
     },
     {
      "word": "her",
      "n": 512,
-     "H_blocks": 5.979,
-     "H_shuffled": 6.285,
-     "info_bits_per_token": 0.00459
+     "H_blocks": 5.977,
+     "H_shuffled": 6.292,
+     "info_bits_per_token": 0.00472
     },
     {
      "word": "she",
      "n": 350,
-     "H_blocks": 5.807,
-     "H_shuffled": 6.225,
-     "info_bits_per_token": 0.00428
+     "H_blocks": 5.805,
+     "H_shuffled": 6.227,
+     "info_bits_per_token": 0.00433
+    },
+    {
+     "word": "he",
+     "n": 387,
+     "H_blocks": 5.92,
+     "H_shuffled": 6.24,
+     "info_bits_per_token": 0.00362
     },
     {
      "word": "heading",
@@ -754,109 +761,102 @@
      "info_bits_per_token": 0.00344
     },
     {
-     "word": "he",
-     "n": 385,
-     "H_blocks": 5.943,
-     "H_shuffled": 6.247,
-     "info_bits_per_token": 0.00343
-    },
-    {
-     "word": "is",
-     "n": 332,
-     "H_blocks": 5.895,
-     "H_shuffled": 6.218,
-     "info_bits_per_token": 0.00315
-    },
-    {
      "word": "his",
-     "n": 360,
-     "H_blocks": 5.932,
-     "H_shuffled": 6.23,
-     "info_bits_per_token": 0.00314
+     "n": 361,
+     "H_blocks": 5.929,
+     "H_shuffled": 6.249,
+     "info_bits_per_token": 0.00339
     },
     {
      "word": "chapter",
-     "n": 45,
-     "H_blocks": 2.806,
-     "H_shuffled": 5.04,
-     "info_bits_per_token": 0.00295
+     "n": 28,
+     "H_blocks": 0.491,
+     "H_shuffled": 4.473,
+     "info_bits_per_token": 0.00327
+    },
+    {
+     "word": "is",
+     "n": 333,
+     "H_blocks": 5.892,
+     "H_shuffled": 6.22,
+     "info_bits_per_token": 0.0032
     },
     {
      "word": "was",
      "n": 418,
-     "H_blocks": 6.033,
-     "H_shuffled": 6.255,
-     "info_bits_per_token": 0.00272
+     "H_blocks": 6.022,
+     "H_shuffled": 6.259,
+     "info_bits_per_token": 0.0029
     },
     {
      "word": "had",
      "n": 269,
-     "H_blocks": 5.844,
-     "H_shuffled": 6.164,
-     "info_bits_per_token": 0.00253
+     "H_blocks": 5.831,
+     "H_shuffled": 6.167,
+     "info_bits_per_token": 0.00265
     },
     {
      "word": "the",
-     "n": 1347,
-     "H_blocks": 6.309,
-     "H_shuffled": 6.367,
-     "info_bits_per_token": 0.00227
-    },
-    {
-     "word": "him",
-     "n": 196,
-     "H_blocks": 5.685,
-     "H_shuffled": 6.073,
-     "info_bits_per_token": 0.00223
+     "n": 1348,
+     "H_blocks": 6.302,
+     "H_shuffled": 6.368,
+     "info_bits_per_token": 0.00261
     },
     {
      "word": "my",
-     "n": 166,
-     "H_blocks": 5.553,
-     "H_shuffled": 5.998,
-     "info_bits_per_token": 0.00217
+     "n": 167,
+     "H_blocks": 5.515,
+     "H_shuffled": 6.01,
+     "info_bits_per_token": 0.00242
     },
     {
      "word": "they",
      "n": 135,
-     "H_blocks": 5.354,
-     "H_shuffled": 5.876,
+     "H_blocks": 5.378,
+     "H_shuffled": 5.902,
      "info_bits_per_token": 0.00207
+    },
+    {
+     "word": "darcy",
+     "n": 145,
+     "H_blocks": 5.534,
+     "H_shuffled": 5.943,
+     "info_bits_per_token": 0.00174
     },
     {
      "word": "your",
      "n": 97,
-     "H_blocks": 5.039,
-     "H_shuffled": 5.692,
-     "info_bits_per_token": 0.00186
+     "H_blocks": 5.094,
+     "H_shuffled": 5.704,
+     "info_bits_per_token": 0.00173
     },
     {
      "word": "bingley",
      "n": 151,
-     "H_blocks": 5.577,
-     "H_shuffled": 5.963,
+     "H_blocks": 5.572,
+     "H_shuffled": 5.957,
      "info_bits_per_token": 0.00171
     },
     {
-     "word": "their",
-     "n": 122,
-     "H_blocks": 5.368,
-     "H_shuffled": 5.84,
-     "info_bits_per_token": 0.00169
+     "word": "him",
+     "n": 197,
+     "H_blocks": 5.77,
+     "H_shuffled": 6.059,
+     "info_bits_per_token": 0.00167
+    },
+    {
+     "word": "me",
+     "n": 100,
+     "H_blocks": 5.206,
+     "H_shuffled": 5.714,
+     "info_bits_per_token": 0.00149
     },
     {
      "word": "has",
      "n": 86,
-     "H_blocks": 4.985,
-     "H_shuffled": 5.621,
-     "info_bits_per_token": 0.0016
-    },
-    {
-     "word": "it",
-     "n": 394,
-     "H_blocks": 6.127,
-     "H_shuffled": 6.261,
-     "info_bits_per_token": 0.00155
+     "H_blocks": 5.02,
+     "H_shuffled": 5.606,
+     "info_bits_per_token": 0.00148
     }
    ]
   },
@@ -1854,142 +1854,142 @@
    "all": {
     "n_adjacent": 206,
     "n_random": 21115,
-    "mean_adjacent": 0.4922,
-    "mean_random": 0.571,
-    "median_random": 0.5725,
-    "frac_adjacent_below_random_median": 0.718,
-    "ratio_adj_over_random": 0.862,
+    "mean_adjacent": 0.4891,
+    "mean_random": 0.5694,
+    "median_random": 0.572,
+    "frac_adjacent_below_random_median": 0.714,
+    "ratio_adj_over_random": 0.859,
     "p_boot_adjacent_as_similar": 0.001
    },
    "both_currier_A": {
     "n_adjacent": 101,
     "n_random": 6340,
-    "mean_adjacent": 0.5435,
-    "mean_random": 0.6065,
-    "median_random": 0.6048,
+    "mean_adjacent": 0.5384,
+    "mean_random": 0.6041,
+    "median_random": 0.6016,
     "frac_adjacent_below_random_median": 0.733,
-    "ratio_adj_over_random": 0.896,
+    "ratio_adj_over_random": 0.891,
     "p_boot_adjacent_as_similar": 0.001
    },
    "both_currier_B": {
     "n_adjacent": 69,
     "n_random": 3334,
-    "mean_adjacent": 0.3808,
-    "mean_random": 0.4745,
-    "median_random": 0.4765,
-    "frac_adjacent_below_random_median": 0.725,
-    "ratio_adj_over_random": 0.803,
+    "mean_adjacent": 0.3836,
+    "mean_random": 0.4733,
+    "median_random": 0.4745,
+    "frac_adjacent_below_random_median": 0.71,
+    "ratio_adj_over_random": 0.811,
     "p_boot_adjacent_as_similar": 0.001
    },
    "same_hand": {
     "n_adjacent": 174,
     "n_random": 7608,
-    "mean_adjacent": 0.4901,
-    "mean_random": 0.5824,
-    "median_random": 0.592,
-    "frac_adjacent_below_random_median": 0.753,
-    "ratio_adj_over_random": 0.842,
+    "mean_adjacent": 0.4853,
+    "mean_random": 0.5802,
+    "median_random": 0.59,
+    "frac_adjacent_below_random_median": 0.759,
+    "ratio_adj_over_random": 0.837,
     "p_boot_adjacent_as_similar": 0.001
    },
    "same_hand_and_section": {
     "n_adjacent": 157,
     "n_random": 5130,
-    "mean_adjacent": 0.4868,
-    "mean_random": 0.5921,
-    "median_random": 0.6048,
-    "frac_adjacent_below_random_median": 0.803,
-    "ratio_adj_over_random": 0.822,
+    "mean_adjacent": 0.4835,
+    "mean_random": 0.5911,
+    "median_random": 0.6033,
+    "frac_adjacent_below_random_median": 0.796,
+    "ratio_adj_over_random": 0.818,
     "p_boot_adjacent_as_similar": 0.001
    },
    "same_section": {
     "n_adjacent": 183,
     "n_random": 8589,
-    "mean_adjacent": 0.4886,
-    "mean_random": 0.6044,
-    "median_random": 0.6127,
-    "frac_adjacent_below_random_median": 0.842,
-    "ratio_adj_over_random": 0.808,
+    "mean_adjacent": 0.4868,
+    "mean_random": 0.6041,
+    "median_random": 0.6126,
+    "frac_adjacent_below_random_median": 0.836,
+    "ratio_adj_over_random": 0.806,
     "p_boot_adjacent_as_similar": 0.001
    },
    "same_quire": {
     "n_adjacent": 191,
     "n_random": 1277,
-    "mean_adjacent": 0.4888,
-    "mean_random": 0.5017,
-    "median_random": 0.5242,
-    "frac_adjacent_below_random_median": 0.576,
-    "ratio_adj_over_random": 0.974,
-    "p_boot_adjacent_as_similar": 0.1079
+    "mean_adjacent": 0.4862,
+    "mean_random": 0.4999,
+    "median_random": 0.5244,
+    "frac_adjacent_below_random_median": 0.592,
+    "ratio_adj_over_random": 0.973,
+    "p_boot_adjacent_as_similar": 0.0929
    },
    "same_hand_same_section_same_quire": {
     "n_adjacent": 153,
     "n_random": 921,
-    "mean_adjacent": 0.4861,
-    "mean_random": 0.4815,
-    "median_random": 0.4958,
-    "frac_adjacent_below_random_median": 0.477,
-    "ratio_adj_over_random": 1.01,
-    "p_boot_adjacent_as_similar": 0.6633
+    "mean_adjacent": 0.4832,
+    "mean_random": 0.48,
+    "median_random": 0.4926,
+    "frac_adjacent_below_random_median": 0.484,
+    "ratio_adj_over_random": 1.007,
+    "p_boot_adjacent_as_similar": 0.6164
    },
    "different_hand": {
     "n_adjacent": 30,
     "n_random": 13303,
-    "mean_adjacent": 0.5152,
-    "mean_random": 0.566,
-    "median_random": 0.5624,
-    "frac_adjacent_below_random_median": 0.7,
-    "ratio_adj_over_random": 0.91,
-    "p_boot_adjacent_as_similar": 0.006
+    "mean_adjacent": 0.523,
+    "mean_random": 0.5649,
+    "median_random": 0.5623,
+    "frac_adjacent_below_random_median": 0.667,
+    "ratio_adj_over_random": 0.926,
+    "p_boot_adjacent_as_similar": 0.017
    },
    "hand_1": {
     "n_adjacent": 100,
     "n_random": 6116,
-    "mean_adjacent": 0.5459,
-    "mean_random": 0.6083,
-    "median_random": 0.6065,
-    "frac_adjacent_below_random_median": 0.73,
-    "ratio_adj_over_random": 0.897,
+    "mean_adjacent": 0.5407,
+    "mean_random": 0.6059,
+    "median_random": 0.6037,
+    "frac_adjacent_below_random_median": 0.75,
+    "ratio_adj_over_random": 0.892,
     "p_boot_adjacent_as_similar": 0.001
    },
    "hand_2": {
     "n_adjacent": 36,
     "n_random": 999,
-    "mean_adjacent": 0.397,
-    "mean_random": 0.4937,
-    "median_random": 0.4947,
+    "mean_adjacent": 0.3924,
+    "mean_random": 0.491,
+    "median_random": 0.4928,
     "frac_adjacent_below_random_median": 0.778,
-    "ratio_adj_over_random": 0.804,
+    "ratio_adj_over_random": 0.799,
     "p_boot_adjacent_as_similar": 0.001
    },
    "hand_3": {
     "n_adjacent": 27,
     "n_random": 438,
-    "mean_adjacent": 0.3393,
+    "mean_adjacent": 0.3487,
     "mean_random": 0.4091,
-    "median_random": 0.362,
+    "median_random": 0.3655,
     "frac_adjacent_below_random_median": 0.778,
-    "ratio_adj_over_random": 0.829,
-    "p_boot_adjacent_as_similar": 0.001
+    "ratio_adj_over_random": 0.852,
+    "p_boot_adjacent_as_similar": 0.004
    },
    "hand_4": {
     "n_adjacent": 8,
     "n_random": 37,
-    "mean_adjacent": 0.7138,
-    "mean_random": 0.7405,
-    "median_random": 0.739,
-    "frac_adjacent_below_random_median": 0.5,
-    "ratio_adj_over_random": 0.964,
-    "p_boot_adjacent_as_similar": 0.2557
+    "mean_adjacent": 0.6724,
+    "mean_random": 0.7463,
+    "median_random": 0.75,
+    "frac_adjacent_below_random_median": 0.875,
+    "ratio_adj_over_random": 0.901,
+    "p_boot_adjacent_as_similar": 0.029
    },
    "hand_5": {
     "n_adjacent": 3,
     "n_random": 18,
-    "mean_adjacent": 0.5091,
-    "mean_random": 0.599,
-    "median_random": 0.598,
+    "mean_adjacent": 0.4863,
+    "mean_random": 0.5968,
+    "median_random": 0.5849,
     "frac_adjacent_below_random_median": 1.0,
-    "ratio_adj_over_random": 0.85,
-    "p_boot_adjacent_as_similar": 0.013
+    "ratio_adj_over_random": 0.815,
+    "p_boot_adjacent_as_similar": 0.001
    },
    "section_A": {
     "n_adjacent": 2,
@@ -1998,51 +1998,51 @@
    "section_B": {
     "n_adjacent": 17,
     "n_random": 154,
-    "mean_adjacent": 0.3314,
-    "mean_random": 0.3642,
-    "median_random": 0.3604,
+    "mean_adjacent": 0.3257,
+    "mean_random": 0.3623,
+    "median_random": 0.3555,
     "frac_adjacent_below_random_median": 0.765,
-    "ratio_adj_over_random": 0.91,
-    "p_boot_adjacent_as_similar": 0.003
+    "ratio_adj_over_random": 0.899,
+    "p_boot_adjacent_as_similar": 0.001
    },
    "section_C": {
     "n_adjacent": 3,
     "n_random": 25,
-    "mean_adjacent": 0.593,
-    "mean_random": 0.6617,
-    "median_random": 0.6372,
-    "frac_adjacent_below_random_median": 0.667,
-    "ratio_adj_over_random": 0.896,
-    "p_boot_adjacent_as_similar": 0.2038
+    "mean_adjacent": 0.6384,
+    "mean_random": 0.6811,
+    "median_random": 0.6595,
+    "frac_adjacent_below_random_median": 0.333,
+    "ratio_adj_over_random": 0.937,
+    "p_boot_adjacent_as_similar": 0.2907
    },
    "section_H": {
     "n_adjacent": 123,
     "n_random": 8005,
-    "mean_adjacent": 0.5434,
+    "mean_adjacent": 0.5425,
     "mean_random": 0.6197,
-    "median_random": 0.6201,
+    "median_random": 0.6191,
     "frac_adjacent_below_random_median": 0.821,
-    "ratio_adj_over_random": 0.877,
+    "ratio_adj_over_random": 0.875,
     "p_boot_adjacent_as_similar": 0.001
    },
    "section_P": {
     "n_adjacent": 14,
     "n_random": 106,
-    "mean_adjacent": 0.4987,
-    "mean_random": 0.5268,
-    "median_random": 0.5313,
+    "mean_adjacent": 0.4831,
+    "mean_random": 0.5141,
+    "median_random": 0.5126,
     "frac_adjacent_below_random_median": 0.714,
-    "ratio_adj_over_random": 0.947,
-    "p_boot_adjacent_as_similar": 0.0769
+    "ratio_adj_over_random": 0.94,
+    "p_boot_adjacent_as_similar": 0.0549
    },
    "section_S": {
     "n_adjacent": 23,
     "n_random": 277,
-    "mean_adjacent": 0.2839,
-    "mean_random": 0.3241,
-    "median_random": 0.3252,
+    "mean_adjacent": 0.2836,
+    "mean_random": 0.3219,
+    "median_random": 0.323,
     "frac_adjacent_below_random_median": 0.826,
-    "ratio_adj_over_random": 0.876,
+    "ratio_adj_over_random": 0.881,
     "p_boot_adjacent_as_similar": 0.001
    },
    "section_T": {
@@ -2447,14 +2447,14 @@
    "n_perm": 200,
    "marginal": {
     "observed": 0.3694,
-    "null_shuffle_within_hand": {
+    "null_shuffle": {
      "null_mean": 0.2011,
      "null_sd": 0.0122,
      "z": 13.8,
      "p": 0.005,
      "excess_bits": 0.1683
     },
-    "null_rotate_within_hand": {
+    "null_rotate": {
      "null_mean": 0.2232,
      "null_sd": 0.0403,
      "z": 3.6,
@@ -2464,70 +2464,70 @@
    },
    "given_hand": {
     "observed": 0.1709,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0827,
-     "null_sd": 0.0056,
-     "z": 15.9,
+    "null_shuffle": {
+     "null_mean": 0.0828,
+     "null_sd": 0.0061,
+     "z": 14.5,
      "p": 0.005,
-     "excess_bits": 0.0882
+     "excess_bits": 0.0881
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1104,
-     "null_sd": 0.0163,
-     "z": 3.7,
+    "null_rotate": {
+     "null_mean": 0.1073,
+     "null_sd": 0.0157,
+     "z": 4.1,
      "p": 0.005,
-     "excess_bits": 0.0605
+     "excess_bits": 0.0636
     }
    },
    "given_quire": {
     "observed": 0.0624,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1993,
-     "null_sd": 0.01,
-     "z": -13.7,
-     "p": 1.0,
-     "excess_bits": -0.1369
+    "null_shuffle": {
+     "null_mean": 0.0538,
+     "null_sd": 0.0032,
+     "z": 2.7,
+     "p": 0.005,
+     "excess_bits": 0.0085
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1546,
-     "null_sd": 0.0236,
-     "z": -3.9,
-     "p": 1.0,
-     "excess_bits": -0.0922
+    "null_rotate": {
+     "null_mean": 0.0503,
+     "null_sd": 0.002,
+     "z": 6.0,
+     "p": 0.005,
+     "excess_bits": 0.0121
     }
    },
    "given_language": {
     "observed": 0.2448,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1368,
-     "null_sd": 0.0089,
-     "z": 12.2,
+    "null_shuffle": {
+     "null_mean": 0.1404,
+     "null_sd": 0.0063,
+     "z": 16.4,
      "p": 0.005,
-     "excess_bits": 0.108
+     "excess_bits": 0.1044
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1597,
-     "null_sd": 0.0175,
-     "z": 4.9,
+    "null_rotate": {
+     "null_mean": 0.1634,
+     "null_sd": 0.0168,
+     "z": 4.8,
      "p": 0.005,
-     "excess_bits": 0.0851
+     "excess_bits": 0.0814
     }
    },
    "given_hand_and_quire": {
     "observed": 0.0507,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1548,
-     "null_sd": 0.0099,
-     "z": -10.5,
-     "p": 1.0,
-     "excess_bits": -0.1042
+    "null_shuffle": {
+     "null_mean": 0.0479,
+     "null_sd": 0.0033,
+     "z": 0.8,
+     "p": 0.2239,
+     "excess_bits": 0.0027
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0915,
-     "null_sd": 0.0094,
-     "z": -4.4,
-     "p": 1.0,
-     "excess_bits": -0.0408
+    "null_rotate": {
+     "null_mean": 0.0478,
+     "null_sd": 0.0018,
+     "z": 1.6,
+     "p": 0.0896,
+     "excess_bits": 0.0028
     }
    },
    "per_hand": {
@@ -2539,7 +2539,14 @@
       "H": 95,
       "P": 16
      },
-     "MI_bits": 0.1802
+     "MI_bits": 0.1802,
+     "null_shuffle": {
+      "null_mean": 0.0539,
+      "null_sd": 0.0061,
+      "z": 20.8,
+      "p": 0.005,
+      "excess_bits": 0.1263
+     }
     },
     "2": {
      "n_folios": 46,
@@ -2550,7 +2557,14 @@
       "T": 4,
       "C": 3
      },
-     "MI_bits": 0.2644
+     "MI_bits": 0.2644,
+     "null_shuffle": {
+      "null_mean": 0.1183,
+      "null_sd": 0.0111,
+      "z": 13.2,
+      "p": 0.005,
+      "excess_bits": 0.1462
+     }
     },
     "3": {
      "n_folios": 31,
@@ -2559,7 +2573,14 @@
       "S": 24,
       "H": 7
      },
-     "MI_bits": 0.0451
+     "MI_bits": 0.0451,
+     "null_shuffle": {
+      "null_mean": 0.0451,
+      "null_sd": 0.0088,
+      "z": 0.0,
+      "p": 0.4378,
+      "excess_bits": 0.0
+     }
     },
     "4": {
      "n_folios": 10,
@@ -2568,7 +2589,14 @@
       "A": 5,
       "C": 5
      },
-     "MI_bits": 0.5048
+     "MI_bits": 0.5048,
+     "null_shuffle": {
+      "null_mean": 0.443,
+      "null_sd": 0.0366,
+      "z": 1.7,
+      "p": 0.0597,
+      "excess_bits": 0.0618
+     }
     },
     "5": {
      "n_folios": 7,
@@ -2577,7 +2605,14 @@
       "H": 6,
       "T": 1
      },
-     "MI_bits": 0.403
+     "MI_bits": 0.403,
+     "null_shuffle": {
+      "null_mean": 0.2616,
+      "null_sd": 0.077,
+      "z": 1.8,
+      "p": 0.1542,
+      "excess_bits": 0.1414
+     }
     },
     "?": {
      "n_folios": 1,
@@ -2605,87 +2640,87 @@
    "n_perm": 200,
    "marginal": {
     "observed": 0.097,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0804,
+    "null_shuffle": {
+     "null_mean": 0.0805,
      "null_sd": 0.0033,
-     "z": 5.1,
+     "z": 5.0,
      "p": 0.005,
-     "excess_bits": 0.0166
+     "excess_bits": 0.0165
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0927,
-     "null_sd": 0.0066,
+    "null_rotate": {
+     "null_mean": 0.0925,
+     "null_sd": 0.0068,
      "z": 0.7,
-     "p": 0.2687,
-     "excess_bits": 0.0043
+     "p": 0.2786,
+     "excess_bits": 0.0045
     }
    },
    "given_hand": {
     "observed": 0.124,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1072,
-     "null_sd": 0.004,
-     "z": 4.2,
+    "null_shuffle": {
+     "null_mean": 0.1073,
+     "null_sd": 0.0041,
+     "z": 4.1,
      "p": 0.005,
-     "excess_bits": 0.0168
+     "excess_bits": 0.0167
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1248,
-     "null_sd": 0.0086,
-     "z": -0.1,
-     "p": 0.5373,
-     "excess_bits": -0.0008
+    "null_rotate": {
+     "null_mean": 0.1255,
+     "null_sd": 0.0087,
+     "z": -0.2,
+     "p": 0.5672,
+     "excess_bits": -0.0015
     }
    },
    "given_quire": {
     "observed": 0.0598,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.2375,
-     "null_sd": 0.0112,
-     "z": -15.9,
-     "p": 1.0,
-     "excess_bits": -0.1776
+    "null_shuffle": {
+     "null_mean": 0.0522,
+     "null_sd": 0.0028,
+     "z": 2.7,
+     "p": 0.01,
+     "excess_bits": 0.0076
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.142,
-     "null_sd": 0.0139,
-     "z": -5.9,
-     "p": 1.0,
-     "excess_bits": -0.0821
+    "null_rotate": {
+     "null_mean": 0.0605,
+     "null_sd": 0.0037,
+     "z": -0.2,
+     "p": 0.5373,
+     "excess_bits": -0.0006
     }
    },
    "given_language": {
     "observed": 0.1256,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1249,
-     "null_sd": 0.006,
-     "z": 0.1,
-     "p": 0.5025,
-     "excess_bits": 0.0007
+    "null_shuffle": {
+     "null_mean": 0.1093,
+     "null_sd": 0.0038,
+     "z": 4.3,
+     "p": 0.005,
+     "excess_bits": 0.0163
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1418,
-     "null_sd": 0.0104,
-     "z": -1.6,
-     "p": 0.9254,
-     "excess_bits": -0.0162
+    "null_rotate": {
+     "null_mean": 0.1257,
+     "null_sd": 0.008,
+     "z": -0.0,
+     "p": 0.5174,
+     "excess_bits": -0.0001
     }
    },
    "given_hand_and_quire": {
     "observed": 0.0579,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.226,
-     "null_sd": 0.0106,
-     "z": -15.8,
-     "p": 1.0,
-     "excess_bits": -0.1681
+    "null_shuffle": {
+     "null_mean": 0.0505,
+     "null_sd": 0.0027,
+     "z": 2.8,
+     "p": 0.0149,
+     "excess_bits": 0.0074
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1118,
-     "null_sd": 0.011,
-     "z": -4.9,
-     "p": 1.0,
-     "excess_bits": -0.0538
+    "null_rotate": {
+     "null_mean": 0.0579,
+     "null_sd": 0.0034,
+     "z": 0.0,
+     "p": 0.4378,
+     "excess_bits": 0.0
     }
    },
    "per_hand": {
@@ -2700,7 +2735,14 @@
       "C": 2,
       "B": 12
      },
-     "MI_bits": 0.2265
+     "MI_bits": 0.2265,
+     "null_shuffle": {
+      "null_mean": 0.1731,
+      "null_sd": 0.0088,
+      "z": 6.1,
+      "p": 0.005,
+      "excess_bits": 0.0534
+     }
     },
     "2": {
      "n_folios": 46,
@@ -2709,7 +2751,14 @@
       "H": 29,
       "S": 17
      },
-     "MI_bits": 0.0476
+     "MI_bits": 0.0476,
+     "null_shuffle": {
+      "null_mean": 0.0408,
+      "null_sd": 0.0041,
+      "z": 1.6,
+      "p": 0.0448,
+      "excess_bits": 0.0068
+     }
     },
     "3": {
      "n_folios": 31,
@@ -2720,7 +2769,14 @@
       "B": 7,
       "P": 15
      },
-     "MI_bits": 0.1205
+     "MI_bits": 0.1205,
+     "null_shuffle": {
+      "null_mean": 0.1241,
+      "null_sd": 0.0096,
+      "z": -0.4,
+      "p": 0.6468,
+      "excess_bits": -0.0036
+     }
     },
     "4": {
      "n_folios": 10,
@@ -2729,7 +2785,14 @@
       "H": 9,
       "S": 1
      },
-     "MI_bits": 0.2196
+     "MI_bits": 0.2196,
+     "null_shuffle": {
+      "null_mean": 0.2121,
+      "null_sd": 0.0564,
+      "z": 0.1,
+      "p": 0.4677,
+      "excess_bits": 0.0075
+     }
     },
     "5": {
      "n_folios": 7,
@@ -2765,87 +2828,87 @@
    "n_perm": 200,
    "marginal": {
     "observed": 0.0845,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0776,
-     "null_sd": 0.0033,
-     "z": 2.1,
-     "p": 0.0299,
-     "excess_bits": 0.0069
+    "null_shuffle": {
+     "null_mean": 0.0775,
+     "null_sd": 0.0034,
+     "z": 2.0,
+     "p": 0.0398,
+     "excess_bits": 0.007
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.083,
-     "null_sd": 0.0047,
+    "null_rotate": {
+     "null_mean": 0.0831,
+     "null_sd": 0.0048,
      "z": 0.3,
-     "p": 0.3234,
-     "excess_bits": 0.0015
+     "p": 0.3682,
+     "excess_bits": 0.0013
     }
    },
    "given_hand": {
     "observed": 0.0855,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0791,
-     "null_sd": 0.0038,
-     "z": 1.6,
-     "p": 0.0647,
-     "excess_bits": 0.0063
+    "null_shuffle": {
+     "null_mean": 0.079,
+     "null_sd": 0.0037,
+     "z": 1.7,
+     "p": 0.0398,
+     "excess_bits": 0.0065
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0862,
-     "null_sd": 0.0059,
+    "null_rotate": {
+     "null_mean": 0.0861,
+     "null_sd": 0.0061,
      "z": -0.1,
-     "p": 0.5473,
-     "excess_bits": -0.0007
+     "p": 0.5075,
+     "excess_bits": -0.0006
     }
    },
    "given_quire": {
     "observed": 0.0593,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1887,
-     "null_sd": 0.0098,
-     "z": -13.2,
-     "p": 1.0,
-     "excess_bits": -0.1294
+    "null_shuffle": {
+     "null_mean": 0.054,
+     "null_sd": 0.0027,
+     "z": 2.0,
+     "p": 0.0348,
+     "excess_bits": 0.0053
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1399,
-     "null_sd": 0.0143,
-     "z": -5.6,
-     "p": 1.0,
-     "excess_bits": -0.0806
+    "null_rotate": {
+     "null_mean": 0.0558,
+     "null_sd": 0.0026,
+     "z": 1.3,
+     "p": 0.0945,
+     "excess_bits": 0.0035
     }
    },
    "given_language": {
     "observed": 0.1003,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0932,
-     "null_sd": 0.0049,
-     "z": 1.5,
-     "p": 0.0597,
-     "excess_bits": 0.0071
+    "null_shuffle": {
+     "null_mean": 0.0935,
+     "null_sd": 0.0039,
+     "z": 1.8,
+     "p": 0.0547,
+     "excess_bits": 0.0068
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0986,
-     "null_sd": 0.0071,
-     "z": 0.2,
-     "p": 0.408,
-     "excess_bits": 0.0017
+    "null_rotate": {
+     "null_mean": 0.0988,
+     "null_sd": 0.0053,
+     "z": 0.3,
+     "p": 0.3532,
+     "excess_bits": 0.0015
     }
    },
    "given_hand_and_quire": {
     "observed": 0.0521,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1687,
-     "null_sd": 0.01,
-     "z": -11.7,
-     "p": 1.0,
-     "excess_bits": -0.1167
+    "null_shuffle": {
+     "null_mean": 0.0501,
+     "null_sd": 0.0038,
+     "z": 0.5,
+     "p": 0.3085,
+     "excess_bits": 0.002
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1045,
-     "null_sd": 0.011,
-     "z": -4.8,
-     "p": 1.0,
-     "excess_bits": -0.0525
+    "null_rotate": {
+     "null_mean": 0.0531,
+     "null_sd": 0.0026,
+     "z": -0.4,
+     "p": 0.6716,
+     "excess_bits": -0.001
     }
    },
    "per_hand": {
@@ -2857,7 +2920,14 @@
       "H": 95,
       "P": 16
      },
-     "MI_bits": 0.0821
+     "MI_bits": 0.0821,
+     "null_shuffle": {
+      "null_mean": 0.0593,
+      "null_sd": 0.0065,
+      "z": 3.5,
+      "p": 0.005,
+      "excess_bits": 0.0228
+     }
     },
     "2": {
      "n_folios": 46,
@@ -2868,7 +2938,14 @@
       "T": 4,
       "C": 3
      },
-     "MI_bits": 0.1194
+     "MI_bits": 0.1194,
+     "null_shuffle": {
+      "null_mean": 0.1155,
+      "null_sd": 0.0087,
+      "z": 0.4,
+      "p": 0.3234,
+      "excess_bits": 0.0039
+     }
     },
     "3": {
      "n_folios": 31,
@@ -2877,7 +2954,14 @@
       "S": 24,
       "H": 7
      },
-     "MI_bits": 0.0282
+     "MI_bits": 0.0282,
+     "null_shuffle": {
+      "null_mean": 0.0411,
+      "null_sd": 0.005,
+      "z": -2.6,
+      "p": 1.0,
+      "excess_bits": -0.0129
+     }
     },
     "4": {
      "n_folios": 10,
@@ -2886,7 +2970,14 @@
       "A": 5,
       "C": 5
      },
-     "MI_bits": 0.3735
+     "MI_bits": 0.3735,
+     "null_shuffle": {
+      "null_mean": 0.3882,
+      "null_sd": 0.0358,
+      "z": -0.4,
+      "p": 0.6468,
+      "excess_bits": -0.0147
+     }
     },
     "5": {
      "n_folios": 7,
@@ -2895,7 +2986,14 @@
       "H": 6,
       "T": 1
      },
-     "MI_bits": 0.3427
+     "MI_bits": 0.3427,
+     "null_shuffle": {
+      "null_mean": 0.2164,
+      "null_sd": 0.0568,
+      "z": 2.2,
+      "p": 0.1393,
+      "excess_bits": 0.1264
+     }
     },
     "?": {
      "n_folios": 1,
@@ -2908,8 +3006,8 @@
    }
   },
   "english_contiguous_sections": {
-   "n_tokens_frequent_words": 23645,
-   "n_word_types": 226,
+   "n_tokens_frequent_words": 23713,
+   "n_word_types": 229,
    "n_folios": 207,
    "sections": {
     "T": 6,
@@ -2922,94 +3020,94 @@
    },
    "n_perm": 200,
    "marginal": {
-    "observed": 0.0816,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0664,
-     "null_sd": 0.0028,
-     "z": 5.5,
+    "observed": 0.0826,
+    "null_shuffle": {
+     "null_mean": 0.0673,
+     "null_sd": 0.003,
+     "z": 5.1,
      "p": 0.005,
-     "excess_bits": 0.0152
+     "excess_bits": 0.0153
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0779,
-     "null_sd": 0.0042,
+    "null_rotate": {
+     "null_mean": 0.0784,
+     "null_sd": 0.0046,
      "z": 0.9,
-     "p": 0.199,
-     "excess_bits": 0.0037
+     "p": 0.1841,
+     "excess_bits": 0.0042
     }
    },
    "given_hand": {
-    "observed": 0.0977,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0812,
-     "null_sd": 0.0034,
-     "z": 4.9,
+    "observed": 0.0979,
+    "null_shuffle": {
+     "null_mean": 0.0821,
+     "null_sd": 0.0037,
+     "z": 4.3,
      "p": 0.005,
-     "excess_bits": 0.0165
+     "excess_bits": 0.0159
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0982,
-     "null_sd": 0.0047,
-     "z": -0.1,
-     "p": 0.5572,
-     "excess_bits": -0.0005
+    "null_rotate": {
+     "null_mean": 0.0994,
+     "null_sd": 0.0048,
+     "z": -0.3,
+     "p": 0.6318,
+     "excess_bits": -0.0014
     }
    },
    "given_quire": {
-    "observed": 0.0402,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.188,
-     "null_sd": 0.0094,
-     "z": -15.8,
-     "p": 1.0,
-     "excess_bits": -0.1478
+    "observed": 0.0404,
+    "null_shuffle": {
+     "null_mean": 0.0374,
+     "null_sd": 0.002,
+     "z": 1.5,
+     "p": 0.0697,
+     "excess_bits": 0.0031
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1088,
-     "null_sd": 0.0106,
-     "z": -6.5,
-     "p": 1.0,
-     "excess_bits": -0.0686
+    "null_rotate": {
+     "null_mean": 0.0415,
+     "null_sd": 0.0026,
+     "z": -0.4,
+     "p": 0.602,
+     "excess_bits": -0.0011
     }
    },
    "given_language": {
-    "observed": 0.1072,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1061,
-     "null_sd": 0.0054,
-     "z": 0.2,
-     "p": 0.4677,
-     "excess_bits": 0.0011
+    "observed": 0.1083,
+    "null_shuffle": {
+     "null_mean": 0.0946,
+     "null_sd": 0.0033,
+     "z": 4.2,
+     "p": 0.005,
+     "excess_bits": 0.0138
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1189,
-     "null_sd": 0.0089,
-     "z": -1.3,
-     "p": 0.8955,
-     "excess_bits": -0.0117
+    "null_rotate": {
+     "null_mean": 0.1106,
+     "null_sd": 0.0047,
+     "z": -0.5,
+     "p": 0.6816,
+     "excess_bits": -0.0023
     }
    },
    "given_hand_and_quire": {
-    "observed": 0.0398,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1802,
-     "null_sd": 0.009,
-     "z": -15.5,
-     "p": 1.0,
-     "excess_bits": -0.1404
+    "observed": 0.0399,
+    "null_shuffle": {
+     "null_mean": 0.0363,
+     "null_sd": 0.0023,
+     "z": 1.6,
+     "p": 0.0547,
+     "excess_bits": 0.0036
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0823,
-     "null_sd": 0.008,
-     "z": -5.3,
-     "p": 1.0,
-     "excess_bits": -0.0426
+    "null_rotate": {
+     "null_mean": 0.0404,
+     "null_sd": 0.0027,
+     "z": -0.2,
+     "p": 0.5025,
+     "excess_bits": -0.0005
     }
    },
    "per_hand": {
     "1": {
      "n_folios": 112,
-     "n_tokens": 6708,
+     "n_tokens": 6728,
      "sections": {
       "T": 6,
       "H": 80,
@@ -3018,36 +3116,64 @@
       "C": 2,
       "B": 12
      },
-     "MI_bits": 0.1793
+     "MI_bits": 0.1787,
+     "null_shuffle": {
+      "null_mean": 0.1359,
+      "null_sd": 0.0068,
+      "z": 6.3,
+      "p": 0.005,
+      "excess_bits": 0.0428
+     }
     },
     "2": {
      "n_folios": 46,
-     "n_tokens": 7511,
+     "n_tokens": 7535,
      "sections": {
       "H": 29,
       "S": 17
      },
-     "MI_bits": 0.0301
+     "MI_bits": 0.0314,
+     "null_shuffle": {
+      "null_mean": 0.0295,
+      "null_sd": 0.004,
+      "z": 0.5,
+      "p": 0.3134,
+      "excess_bits": 0.0019
+     }
     },
     "3": {
      "n_folios": 31,
-     "n_tokens": 8101,
+     "n_tokens": 8121,
      "sections": {
       "H": 3,
       "C": 6,
       "B": 7,
       "P": 15
      },
-     "MI_bits": 0.1004
+     "MI_bits": 0.1001,
+     "null_shuffle": {
+      "null_mean": 0.089,
+      "null_sd": 0.0081,
+      "z": 1.4,
+      "p": 0.0896,
+      "excess_bits": 0.011
+     }
     },
     "4": {
      "n_folios": 10,
-     "n_tokens": 384,
+     "n_tokens": 381,
      "sections": {
       "H": 9,
       "S": 1
      },
-     "MI_bits": 0.1794
+     "MI_bits": 0.1861,
+     "null_shuffle": {
+      "null_mean": 0.2012,
+      "null_sd": 0.0479,
+      "z": -0.3,
+      "p": 0.6169,
+      "excess_bits": -0.0151
+     }
     },
     "5": {
      "n_folios": 7,
@@ -3059,7 +3185,7 @@
     },
     "?": {
      "n_folios": 1,
-     "n_tokens": 315,
+     "n_tokens": 322,
      "sections": {
       "P": 1
      },
@@ -3068,8 +3194,8 @@
    }
   },
   "english_voynich_section_labels": {
-   "n_tokens_frequent_words": 23645,
-   "n_word_types": 226,
+   "n_tokens_frequent_words": 23713,
+   "n_word_types": 229,
    "n_folios": 207,
    "sections": {
     "T": 6,
@@ -3082,129 +3208,157 @@
    },
    "n_perm": 200,
    "marginal": {
-    "observed": 0.0803,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0661,
-     "null_sd": 0.0029,
-     "z": 4.8,
+    "observed": 0.0811,
+    "null_shuffle": {
+     "null_mean": 0.0675,
+     "null_sd": 0.0027,
+     "z": 5.1,
      "p": 0.005,
-     "excess_bits": 0.0142
+     "excess_bits": 0.0137
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0718,
-     "null_sd": 0.0041,
+    "null_rotate": {
+     "null_mean": 0.0725,
+     "null_sd": 0.0044,
      "z": 2.0,
-     "p": 0.0249,
-     "excess_bits": 0.0084
+     "p": 0.0199,
+     "excess_bits": 0.0086
     }
    },
    "given_hand": {
-    "observed": 0.0746,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0607,
-     "null_sd": 0.003,
-     "z": 4.6,
+    "observed": 0.0749,
+    "null_shuffle": {
+     "null_mean": 0.0608,
+     "null_sd": 0.0035,
+     "z": 4.1,
      "p": 0.005,
-     "excess_bits": 0.014
+     "excess_bits": 0.0141
     },
-    "null_rotate_within_hand": {
+    "null_rotate": {
      "null_mean": 0.0686,
-     "null_sd": 0.0038,
+     "null_sd": 0.0041,
      "z": 1.6,
-     "p": 0.0746,
-     "excess_bits": 0.0061
+     "p": 0.0896,
+     "excess_bits": 0.0064
     }
    },
    "given_quire": {
-    "observed": 0.0462,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1501,
-     "null_sd": 0.0082,
-     "z": -12.7,
-     "p": 1.0,
-     "excess_bits": -0.1039
+    "observed": 0.0452,
+    "null_shuffle": {
+     "null_mean": 0.0443,
+     "null_sd": 0.0024,
+     "z": 0.4,
+     "p": 0.3433,
+     "excess_bits": 0.0009
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1091,
-     "null_sd": 0.0132,
-     "z": -4.8,
-     "p": 1.0,
-     "excess_bits": -0.0629
+    "null_rotate": {
+     "null_mean": 0.0427,
+     "null_sd": 0.0014,
+     "z": 1.8,
+     "p": 0.0348,
+     "excess_bits": 0.0025
     }
    },
    "given_language": {
     "observed": 0.1005,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0814,
-     "null_sd": 0.0043,
-     "z": 4.5,
+    "null_shuffle": {
+     "null_mean": 0.0822,
+     "null_sd": 0.0031,
+     "z": 5.9,
      "p": 0.005,
-     "excess_bits": 0.0191
+     "excess_bits": 0.0183
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0875,
-     "null_sd": 0.0053,
-     "z": 2.4,
-     "p": 0.005,
-     "excess_bits": 0.013
+    "null_rotate": {
+     "null_mean": 0.0891,
+     "null_sd": 0.0044,
+     "z": 2.6,
+     "p": 0.01,
+     "excess_bits": 0.0114
     }
    },
    "given_hand_and_quire": {
-    "observed": 0.0384,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1343,
-     "null_sd": 0.0088,
-     "z": -10.9,
-     "p": 1.0,
-     "excess_bits": -0.0959
+    "observed": 0.0383,
+    "null_shuffle": {
+     "null_mean": 0.0406,
+     "null_sd": 0.0025,
+     "z": -0.9,
+     "p": 0.7662,
+     "excess_bits": -0.0022
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0809,
-     "null_sd": 0.0081,
-     "z": -5.2,
+    "null_rotate": {
+     "null_mean": 0.0415,
+     "null_sd": 0.0012,
+     "z": -2.5,
      "p": 1.0,
-     "excess_bits": -0.0425
+     "excess_bits": -0.0031
     }
    },
    "per_hand": {
     "1": {
      "n_folios": 112,
-     "n_tokens": 6708,
+     "n_tokens": 6728,
      "sections": {
       "T": 1,
       "H": 95,
       "P": 16
      },
-     "MI_bits": 0.0728
+     "MI_bits": 0.0736,
+     "null_shuffle": {
+      "null_mean": 0.0469,
+      "null_sd": 0.005,
+      "z": 5.3,
+      "p": 0.005,
+      "excess_bits": 0.0267
+     }
     },
     "2": {
      "n_folios": 46,
-     "n_tokens": 7511,
+     "n_tokens": 7535,
      "sections": {
       "H": 20,
       "B": 19,
       "T": 4,
       "C": 3
      },
-     "MI_bits": 0.0984
+     "MI_bits": 0.099,
+     "null_shuffle": {
+      "null_mean": 0.0849,
+      "null_sd": 0.0063,
+      "z": 2.2,
+      "p": 0.0299,
+      "excess_bits": 0.0142
+     }
     },
     "3": {
      "n_folios": 31,
-     "n_tokens": 8101,
+     "n_tokens": 8121,
      "sections": {
       "S": 24,
       "H": 7
      },
-     "MI_bits": 0.0272
+     "MI_bits": 0.0266,
+     "null_shuffle": {
+      "null_mean": 0.0299,
+      "null_sd": 0.0041,
+      "z": -0.8,
+      "p": 0.7811,
+      "excess_bits": -0.0033
+     }
     },
     "4": {
      "n_folios": 10,
-     "n_tokens": 384,
+     "n_tokens": 381,
      "sections": {
       "A": 5,
       "C": 5
      },
-     "MI_bits": 0.3717
+     "MI_bits": 0.3704,
+     "null_shuffle": {
+      "null_mean": 0.3381,
+      "null_sd": 0.0321,
+      "z": 1.0,
+      "p": 0.1741,
+      "excess_bits": 0.0324
+     }
     },
     "5": {
      "n_folios": 7,
@@ -3213,11 +3367,18 @@
       "H": 6,
       "T": 1
      },
-     "MI_bits": 0.2778
+     "MI_bits": 0.2853,
+     "null_shuffle": {
+      "null_mean": 0.2038,
+      "null_sd": 0.0501,
+      "z": 1.6,
+      "p": 0.2189,
+      "excess_bits": 0.0815
+     }
     },
     "?": {
      "n_folios": 1,
-     "n_tokens": 315,
+     "n_tokens": 322,
      "sections": {
       "S": 1
      },
@@ -3241,87 +3402,87 @@
    "n_perm": 200,
    "marginal": {
     "observed": 0.0807,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0672,
-     "null_sd": 0.0027,
-     "z": 5.0,
+    "null_shuffle": {
+     "null_mean": 0.0671,
+     "null_sd": 0.0029,
+     "z": 4.6,
      "p": 0.005,
-     "excess_bits": 0.0135
+     "excess_bits": 0.0136
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0743,
+    "null_rotate": {
+     "null_mean": 0.0741,
      "null_sd": 0.0041,
      "z": 1.6,
-     "p": 0.0796,
-     "excess_bits": 0.0064
+     "p": 0.0896,
+     "excess_bits": 0.0065
     }
    },
    "given_hand": {
     "observed": 0.105,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0902,
-     "null_sd": 0.0034,
-     "z": 4.3,
+    "null_shuffle": {
+     "null_mean": 0.0903,
+     "null_sd": 0.0033,
+     "z": 4.5,
      "p": 0.005,
-     "excess_bits": 0.0148
+     "excess_bits": 0.0147
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1009,
-     "null_sd": 0.006,
-     "z": 0.7,
-     "p": 0.2438,
-     "excess_bits": 0.0042
+    "null_rotate": {
+     "null_mean": 0.1012,
+     "null_sd": 0.0062,
+     "z": 0.6,
+     "p": 0.2935,
+     "excess_bits": 0.0038
     }
    },
    "given_quire": {
     "observed": 0.0448,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.2085,
-     "null_sd": 0.0099,
-     "z": -16.5,
-     "p": 1.0,
-     "excess_bits": -0.1638
+    "null_shuffle": {
+     "null_mean": 0.0435,
+     "null_sd": 0.0024,
+     "z": 0.5,
+     "p": 0.3134,
+     "excess_bits": 0.0012
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1178,
-     "null_sd": 0.0132,
-     "z": -5.5,
-     "p": 1.0,
-     "excess_bits": -0.073
+    "null_rotate": {
+     "null_mean": 0.0475,
+     "null_sd": 0.0035,
+     "z": -0.8,
+     "p": 0.806,
+     "excess_bits": -0.0027
     }
    },
    "given_language": {
     "observed": 0.1075,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1091,
-     "null_sd": 0.0051,
-     "z": -0.3,
-     "p": 0.6468,
-     "excess_bits": -0.0016
+    "null_shuffle": {
+     "null_mean": 0.0952,
+     "null_sd": 0.0032,
+     "z": 3.9,
+     "p": 0.005,
+     "excess_bits": 0.0124
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1172,
-     "null_sd": 0.0083,
-     "z": -1.2,
-     "p": 0.8159,
-     "excess_bits": -0.0097
+    "null_rotate": {
+     "null_mean": 0.1056,
+     "null_sd": 0.005,
+     "z": 0.4,
+     "p": 0.3532,
+     "excess_bits": 0.0019
     }
    },
    "given_hand_and_quire": {
     "observed": 0.0447,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1983,
-     "null_sd": 0.0095,
-     "z": -16.1,
-     "p": 1.0,
-     "excess_bits": -0.1536
+    "null_shuffle": {
+     "null_mean": 0.0416,
+     "null_sd": 0.002,
+     "z": 1.5,
+     "p": 0.0796,
+     "excess_bits": 0.0031
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0889,
-     "null_sd": 0.0088,
-     "z": -5.0,
-     "p": 1.0,
-     "excess_bits": -0.0442
+    "null_rotate": {
+     "null_mean": 0.0452,
+     "null_sd": 0.003,
+     "z": -0.2,
+     "p": 0.4577,
+     "excess_bits": -0.0005
     }
    },
    "per_hand": {
@@ -3336,7 +3497,14 @@
       "C": 2,
       "B": 12
      },
-     "MI_bits": 0.1814
+     "MI_bits": 0.1814,
+     "null_shuffle": {
+      "null_mean": 0.1471,
+      "null_sd": 0.0065,
+      "z": 5.3,
+      "p": 0.005,
+      "excess_bits": 0.0342
+     }
     },
     "2": {
      "n_folios": 46,
@@ -3345,7 +3513,14 @@
       "H": 29,
       "S": 17
      },
-     "MI_bits": 0.0436
+     "MI_bits": 0.0436,
+     "null_shuffle": {
+      "null_mean": 0.0324,
+      "null_sd": 0.0036,
+      "z": 3.1,
+      "p": 0.005,
+      "excess_bits": 0.0112
+     }
     },
     "3": {
      "n_folios": 31,
@@ -3356,7 +3531,14 @@
       "B": 7,
       "P": 15
      },
-     "MI_bits": 0.1034
+     "MI_bits": 0.1034,
+     "null_shuffle": {
+      "null_mean": 0.0991,
+      "null_sd": 0.007,
+      "z": 0.6,
+      "p": 0.2587,
+      "excess_bits": 0.0043
+     }
     },
     "4": {
      "n_folios": 10,
@@ -3365,7 +3547,14 @@
       "H": 9,
       "S": 1
      },
-     "MI_bits": 0.1774
+     "MI_bits": 0.1774,
+     "null_shuffle": {
+      "null_mean": 0.2089,
+      "null_sd": 0.0746,
+      "z": -0.4,
+      "p": 0.6269,
+      "excess_bits": -0.0315
+     }
     },
     "5": {
      "n_folios": 7,
@@ -3401,87 +3590,87 @@
    "n_perm": 200,
    "marginal": {
     "observed": 0.0773,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0663,
-     "null_sd": 0.0025,
-     "z": 4.5,
+    "null_shuffle": {
+     "null_mean": 0.066,
+     "null_sd": 0.0024,
+     "z": 4.8,
      "p": 0.005,
-     "excess_bits": 0.011
+     "excess_bits": 0.0113
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0705,
-     "null_sd": 0.0029,
+    "null_rotate": {
+     "null_mean": 0.0704,
+     "null_sd": 0.003,
      "z": 2.3,
      "p": 0.0149,
-     "excess_bits": 0.0068
+     "excess_bits": 0.0069
     }
    },
    "given_hand": {
     "observed": 0.077,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0672,
+    "null_shuffle": {
+     "null_mean": 0.067,
      "null_sd": 0.0029,
-     "z": 3.4,
-     "p": 0.005,
-     "excess_bits": 0.0098
+     "z": 3.5,
+     "p": 0.01,
+     "excess_bits": 0.01
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0732,
-     "null_sd": 0.0042,
-     "z": 0.9,
-     "p": 0.1841,
-     "excess_bits": 0.0038
+    "null_rotate": {
+     "null_mean": 0.0736,
+     "null_sd": 0.0041,
+     "z": 0.8,
+     "p": 0.1791,
+     "excess_bits": 0.0034
     }
    },
    "given_quire": {
     "observed": 0.0514,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1658,
-     "null_sd": 0.0082,
-     "z": -13.9,
-     "p": 1.0,
-     "excess_bits": -0.1144
+    "null_shuffle": {
+     "null_mean": 0.0473,
+     "null_sd": 0.0021,
+     "z": 1.9,
+     "p": 0.0348,
+     "excess_bits": 0.004
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.1195,
-     "null_sd": 0.0134,
-     "z": -5.1,
-     "p": 1.0,
-     "excess_bits": -0.0682
+    "null_rotate": {
+     "null_mean": 0.0464,
+     "null_sd": 0.0018,
+     "z": 2.8,
+     "p": 0.005,
+     "excess_bits": 0.0049
     }
    },
    "given_language": {
     "observed": 0.0936,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.0831,
-     "null_sd": 0.004,
-     "z": 2.6,
+    "null_shuffle": {
+     "null_mean": 0.083,
+     "null_sd": 0.0025,
+     "z": 4.2,
      "p": 0.005,
-     "excess_bits": 0.0105
+     "excess_bits": 0.0106
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0872,
-     "null_sd": 0.0051,
-     "z": 1.3,
-     "p": 0.0846,
-     "excess_bits": 0.0064
+    "null_rotate": {
+     "null_mean": 0.0878,
+     "null_sd": 0.0029,
+     "z": 2.0,
+     "p": 0.0299,
+     "excess_bits": 0.0058
     }
    },
    "given_hand_and_quire": {
     "observed": 0.0466,
-    "null_shuffle_within_hand": {
-     "null_mean": 0.1456,
-     "null_sd": 0.0088,
-     "z": -11.3,
-     "p": 1.0,
-     "excess_bits": -0.0991
+    "null_shuffle": {
+     "null_mean": 0.0451,
+     "null_sd": 0.0024,
+     "z": 0.6,
+     "p": 0.2886,
+     "excess_bits": 0.0015
     },
-    "null_rotate_within_hand": {
-     "null_mean": 0.0872,
-     "null_sd": 0.0074,
-     "z": -5.5,
-     "p": 1.0,
-     "excess_bits": -0.0406
+    "null_rotate": {
+     "null_mean": 0.0456,
+     "null_sd": 0.0019,
+     "z": 0.5,
+     "p": 0.2935,
+     "excess_bits": 0.001
     }
    },
    "per_hand": {
@@ -3493,7 +3682,14 @@
       "H": 95,
       "P": 16
      },
-     "MI_bits": 0.0673
+     "MI_bits": 0.0673,
+     "null_shuffle": {
+      "null_mean": 0.0506,
+      "null_sd": 0.0047,
+      "z": 3.5,
+      "p": 0.005,
+      "excess_bits": 0.0167
+     }
     },
     "2": {
      "n_folios": 46,
@@ -3504,7 +3700,14 @@
       "T": 4,
       "C": 3
      },
-     "MI_bits": 0.1041
+     "MI_bits": 0.1041,
+     "null_shuffle": {
+      "null_mean": 0.0949,
+      "null_sd": 0.0058,
+      "z": 1.6,
+      "p": 0.0697,
+      "excess_bits": 0.0092
+     }
     },
     "3": {
      "n_folios": 31,
@@ -3513,7 +3716,14 @@
       "S": 24,
       "H": 7
      },
-     "MI_bits": 0.0339
+     "MI_bits": 0.0339,
+     "null_shuffle": {
+      "null_mean": 0.0331,
+      "null_sd": 0.005,
+      "z": 0.2,
+      "p": 0.3383,
+      "excess_bits": 0.0008
+     }
     },
     "4": {
      "n_folios": 10,
@@ -3522,7 +3732,14 @@
       "A": 5,
       "C": 5
      },
-     "MI_bits": 0.3669
+     "MI_bits": 0.3669,
+     "null_shuffle": {
+      "null_mean": 0.3741,
+      "null_sd": 0.025,
+      "z": -0.3,
+      "p": 0.6567,
+      "excess_bits": -0.0072
+     }
     },
     "5": {
      "n_folios": 7,
@@ -3531,7 +3748,14 @@
       "H": 6,
       "T": 1
      },
-     "MI_bits": 0.2895
+     "MI_bits": 0.2895,
+     "null_shuffle": {
+      "null_mean": 0.2175,
+      "null_sd": 0.0427,
+      "z": 1.7,
+      "p": 0.1741,
+      "excess_bits": 0.0719
+     }
     },
     "?": {
      "n_folios": 1,
@@ -3758,77 +3982,74 @@
    "tag": "voynich all folios >= 30 tokens",
    "k": 7,
    "n_folios": 207,
-   "inertia": 113.934,
+   "inertia": 114.48,
    "vs_section": {
-    "purity": 0.715,
+    "purity": 0.72,
     "purity_permutation_baseline": 0.618,
-    "adjusted_purity": 0.253,
-    "NMI": 0.387,
-    "ARI": 0.143,
+    "adjusted_purity": 0.266,
+    "NMI": 0.418,
+    "ARI": 0.134,
     "n_labels": 7
    },
    "vs_hand": {
-    "purity": 0.768,
-    "purity_permutation_baseline": 0.543,
-    "adjusted_purity": 0.493,
-    "NMI": 0.428,
-    "ARI": 0.242,
+    "purity": 0.744,
+    "purity_permutation_baseline": 0.542,
+    "adjusted_purity": 0.44,
+    "NMI": 0.429,
+    "ARI": 0.206,
     "n_labels": 6
    },
    "vs_language": {
-    "purity": 0.928,
-    "purity_permutation_baseline": 0.566,
-    "adjusted_purity": 0.833,
-    "NMI": 0.477,
-    "ARI": 0.285,
+    "purity": 0.908,
+    "purity_permutation_baseline": 0.567,
+    "adjusted_purity": 0.788,
+    "NMI": 0.466,
+    "ARI": 0.267,
     "n_labels": 3
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 17,
-     "A/4": 2,
-     "H/3": 1
+     "H/1": 28
     },
     "1": {
-     "B/2": 19,
-     "S/3": 10,
-     "H/2": 1,
-     "H/5": 1,
-     "T/5": 1,
-     "C/4": 1,
-     "T/2": 1,
-     "S/?": 1
-    },
-    "2": {
-     "H/2": 6,
-     "H/5": 1,
-     "C/4": 1
-    },
-    "3": {
-     "H/1": 26,
-     "C/4": 2,
-     "P/1": 1
-    },
-    "4": {
-     "P/1": 15,
-     "H/1": 10,
-     "A/4": 3,
-     "H/2": 1,
-     "H/5": 1,
-     "C/2": 1
-    },
-    "5": {
-     "S/3": 14,
-     "H/2": 12,
-     "H/3": 6,
+     "H/2": 18,
+     "S/3": 8,
+     "H/3": 5,
+     "C/4": 4,
      "H/5": 3,
      "T/2": 3,
      "C/2": 2,
-     "C/4": 1
+     "H/1": 1
+    },
+    "2": {
+     "H/1": 18
+    },
+    "3": {
+     "P/1": 15,
+     "H/1": 10,
+     "H/2": 2,
+     "C/2": 1
+    },
+    "4": {
+     "B/2": 19,
+     "S/3": 16,
+     "T/5": 1,
+     "T/2": 1,
+     "H/3": 1,
+     "S/?": 1
+    },
+    "5": {
+     "H/1": 4,
+     "A/4": 4,
+     "H/5": 3,
+     "H/3": 1,
+     "P/1": 1
     },
     "6": {
-     "H/1": 42,
-     "T/1": 1
+     "H/1": 34,
+     "T/1": 1,
+     "A/4": 1,
+     "C/4": 1
     }
    }
   },
@@ -3836,13 +4057,13 @@
    "tag": "voynich hand 1 only",
    "k": 2,
    "n_folios": 111,
-   "inertia": 75.083,
+   "inertia": 74.951,
    "vs_section": {
     "purity": 0.856,
     "purity_permutation_baseline": 0.856,
     "adjusted_purity": 0.0,
-    "NMI": 0.308,
-    "ARI": 0.257,
+    "NMI": 0.349,
+    "ARI": 0.328,
     "n_labels": 2
    },
    "vs_hand": {
@@ -3863,11 +4084,11 @@
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 26,
-     "P/1": 16
+     "H/1": 73
     },
     "1": {
-     "H/1": 69
+     "H/1": 22,
+     "P/1": 16
     }
    }
   },
@@ -3875,13 +4096,13 @@
    "tag": "voynich hand 2 only",
    "k": 4,
    "n_folios": 46,
-   "inertia": 23.086,
+   "inertia": 23.338,
    "vs_section": {
     "purity": 0.848,
-    "purity_permutation_baseline": 0.514,
-    "adjusted_purity": 0.687,
-    "NMI": 0.582,
-    "ARI": 0.567,
+    "purity_permutation_baseline": 0.504,
+    "adjusted_purity": 0.693,
+    "NMI": 0.607,
+    "ARI": 0.606,
     "n_labels": 4
    },
    "vs_hand": {
@@ -3902,20 +4123,19 @@
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/2": 7,
-     "T/2": 1
-    },
-    "1": {
      "B/2": 19,
      "T/2": 1
     },
+    "1": {
+     "H/2": 15,
+     "T/2": 3,
+     "C/2": 2
+    },
     "2": {
-     "H/2": 5,
-     "C/2": 2,
-     "T/2": 2
+     "H/2": 2
     },
     "3": {
-     "H/2": 8,
+     "H/2": 3,
      "C/2": 1
     }
    }
@@ -3924,13 +4144,13 @@
    "tag": "voynich hand 3 only",
    "k": 2,
    "n_folios": 31,
-   "inertia": 16.269,
+   "inertia": 16.082,
    "vs_section": {
     "purity": 0.774,
     "purity_permutation_baseline": 0.774,
     "adjusted_purity": 0.0,
-    "NMI": 0.052,
-    "ARI": 0.028,
+    "NMI": 0.068,
+    "ARI": -0.029,
     "n_labels": 2
    },
    "vs_hand": {
@@ -3945,18 +4165,18 @@
     "purity": 0.903,
     "purity_permutation_baseline": 0.903,
     "adjusted_purity": 0.0,
-    "NMI": 0.047,
-    "ARI": -0.003,
+    "NMI": 0.068,
+    "ARI": 0.042,
     "n_labels": 3
    },
    "cluster_table_section/hand": {
     "0": {
-     "S/3": 14,
-     "H/3": 2
+     "S/3": 13,
+     "H/3": 6
     },
     "1": {
-     "S/3": 10,
-     "H/3": 5
+     "S/3": 11,
+     "H/3": 1
     }
    }
   },
@@ -3964,13 +4184,13 @@
    "tag": "voynich Currier A only",
    "k": 2,
    "n_folios": 111,
-   "inertia": 75.018,
+   "inertia": 75.188,
    "vs_section": {
     "purity": 0.856,
     "purity_permutation_baseline": 0.856,
     "adjusted_purity": 0.0,
-    "NMI": 0.327,
-    "ARI": 0.291,
+    "NMI": 0.266,
+    "ARI": 0.182,
     "n_labels": 2
    },
    "vs_hand": {
@@ -3991,11 +4211,11 @@
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 24,
+     "H/1": 31,
      "P/1": 16
     },
     "1": {
-     "H/1": 71
+     "H/1": 64
     }
    }
   },
@@ -4003,21 +4223,21 @@
    "tag": "voynich Currier B only",
    "k": 5,
    "n_folios": 83,
-   "inertia": 42.279,
+   "inertia": 42.303,
    "vs_section": {
-    "purity": 0.699,
-    "purity_permutation_baseline": 0.42,
-    "adjusted_purity": 0.481,
-    "NMI": 0.402,
-    "ARI": 0.288,
+    "purity": 0.675,
+    "purity_permutation_baseline": 0.421,
+    "adjusted_purity": 0.439,
+    "NMI": 0.404,
+    "ARI": 0.244,
     "n_labels": 5
    },
    "vs_hand": {
     "purity": 0.639,
-    "purity_permutation_baseline": 0.57,
-    "adjusted_purity": 0.16,
-    "NMI": 0.176,
-    "ARI": 0.09,
+    "purity_permutation_baseline": 0.571,
+    "adjusted_purity": 0.157,
+    "NMI": 0.235,
+    "ARI": 0.115,
     "n_labels": 5
    },
    "vs_language": {
@@ -4030,37 +4250,36 @@
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/2": 11,
+     "S/3": 12,
+     "H/2": 7,
+     "T/2": 3,
+     "C/2": 3,
      "H/3": 2,
-     "H/5": 1,
-     "T/2": 1,
-     "S/3": 1
+     "S/?": 1
     },
     "1": {
-     "H/2": 2,
-     "H/5": 2,
-     "T/5": 1,
-     "C/4": 1,
-     "C/2": 1
+     "H/2": 6,
+     "H/5": 3,
+     "T/5": 1
     },
     "2": {
-     "B/2": 19,
-     "S/3": 7,
-     "H/2": 1,
+     "H/2": 4,
+     "H/3": 2,
+     "H/5": 1,
+     "C/4": 1
+    },
+    "3": {
+     "S/3": 10,
+     "H/2": 2,
+     "H/5": 2,
+     "B/2": 2,
      "T/2": 1,
      "H/3": 1
     },
-    "3": {
-     "H/2": 3,
-     "H/3": 3
-    },
     "4": {
-     "S/3": 14,
-     "H/2": 3,
-     "H/5": 3,
-     "T/2": 2,
-     "C/2": 2,
-     "S/?": 1
+     "B/2": 17,
+     "H/2": 1,
+     "H/3": 1
     }
    }
   },
@@ -4068,97 +4287,97 @@
    "tag": "latin pour, contiguous sections",
    "k": 7,
    "n_folios": 207,
-   "inertia": 132.29,
+   "inertia": 132.207,
    "vs_section": {
     "purity": 0.618,
     "purity_permutation_baseline": 0.619,
     "adjusted_purity": -0.001,
-    "NMI": 0.109,
-    "ARI": -0.077,
+    "NMI": 0.142,
+    "ARI": -0.039,
     "n_labels": 7
    },
    "vs_hand": {
     "purity": 0.541,
     "purity_permutation_baseline": 0.544,
     "adjusted_purity": -0.006,
-    "NMI": 0.084,
-    "ARI": -0.024,
+    "NMI": 0.098,
+    "ARI": -0.026,
     "n_labels": 6
    },
    "vs_language": {
-    "purity": 0.599,
-    "purity_permutation_baseline": 0.565,
-    "adjusted_purity": 0.078,
-    "NMI": 0.063,
-    "ARI": 0.019,
+    "purity": 0.614,
+    "purity_permutation_baseline": 0.566,
+    "adjusted_purity": 0.11,
+    "NMI": 0.084,
+    "ARI": 0.024,
     "n_labels": 3
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 15,
-     "H/2": 13,
-     "P/3": 9,
-     "S/2": 8,
-     "B/3": 7,
-     "T/1": 5,
-     "B/1": 5,
-     "A/1": 4,
-     "C/3": 3,
-     "H/5": 2,
-     "H/4": 2,
-     "H/3": 1,
-     "S/1": 1,
-     "C/1": 1
+     "H/1": 8,
+     "H/2": 4,
+     "B/1": 2,
+     "S/2": 1,
+     "S/1": 1
     },
     "1": {
-     "H/1": 13,
-     "H/2": 2,
+     "H/1": 15,
      "H/4": 2,
-     "H/5": 1,
-     "S/4": 1,
-     "C/3": 1
-    },
-    "2": {
-     "H/1": 22,
-     "H/2": 8,
-     "S/2": 8,
-     "P/3": 6,
-     "B/1": 5,
-     "H/5": 2,
-     "S/1": 2,
-     "C/3": 2,
-     "H/4": 1,
-     "A/1": 1,
-     "C/1": 1,
-     "P/?": 1
-    },
-    "3": {
-     "H/1": 14,
-     "H/4": 2,
-     "H/5": 1,
+     "T/1": 1,
      "H/3": 1,
      "H/2": 1
     },
+    "2": {
+     "H/1": 21,
+     "H/2": 12,
+     "P/3": 9,
+     "S/2": 7,
+     "T/1": 4,
+     "H/5": 4,
+     "C/3": 4,
+     "B/1": 4,
+     "H/4": 3,
+     "H/3": 1,
+     "S/1": 1,
+     "A/1": 1,
+     "B/3": 1
+    },
+    "3": {
+     "H/2": 8,
+     "H/1": 6,
+     "S/2": 6,
+     "B/3": 6,
+     "P/3": 6,
+     "S/1": 5,
+     "B/1": 5,
+     "A/1": 4,
+     "C/3": 2,
+     "T/1": 1,
+     "S/4": 1,
+     "C/1": 1,
+     "P/?": 1
+    },
     "4": {
      "H/1": 8,
-     "H/2": 2,
-     "H/4": 2,
-     "T/1": 1,
-     "S/1": 1,
+     "S/2": 2,
+     "H/5": 1,
+     "H/2": 1,
+     "H/4": 1,
      "B/1": 1
     },
     "5": {
-     "H/1": 6,
-     "H/2": 3,
-     "S/1": 2,
-     "S/2": 1,
-     "B/1": 1
+     "H/1": 5,
+     "H/5": 2,
+     "H/2": 1,
+     "H/3": 1,
+     "H/4": 1
     },
     "6": {
-     "H/1": 2,
-     "H/5": 1,
-     "H/3": 1,
-     "S/1": 1
+     "H/1": 17,
+     "H/2": 2,
+     "H/4": 2,
+     "S/2": 1,
+     "C/1": 1
     }
    }
   },
@@ -4166,91 +4385,107 @@
    "tag": "english pour, contiguous sections",
    "k": 7,
    "n_folios": 207,
-   "inertia": 123.803,
+   "inertia": 123.964,
    "vs_section": {
     "purity": 0.618,
     "purity_permutation_baseline": 0.619,
     "adjusted_purity": -0.001,
-    "NMI": 0.148,
-    "ARI": -0.026,
+    "NMI": 0.099,
+    "ARI": -0.007,
     "n_labels": 7
    },
    "vs_hand": {
-    "purity": 0.556,
-    "purity_permutation_baseline": 0.544,
-    "adjusted_purity": 0.026,
-    "NMI": 0.106,
-    "ARI": -0.014,
+    "purity": 0.56,
+    "purity_permutation_baseline": 0.543,
+    "adjusted_purity": 0.039,
+    "NMI": 0.09,
+    "ARI": 0.016,
     "n_labels": 6
    },
    "vs_language": {
-    "purity": 0.594,
-    "purity_permutation_baseline": 0.565,
-    "adjusted_purity": 0.066,
-    "NMI": 0.08,
-    "ARI": 0.003,
+    "purity": 0.662,
+    "purity_permutation_baseline": 0.567,
+    "adjusted_purity": 0.219,
+    "NMI": 0.071,
+    "ARI": 0.031,
     "n_labels": 3
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 6,
+     "H/2": 11,
+     "H/1": 9,
+     "S/2": 5,
+     "P/3": 4,
      "H/4": 2,
-     "T/1": 1,
-     "A/1": 1
-    },
-    "1": {
-     "H/1": 23,
-     "H/2": 7,
-     "P/3": 5,
-     "S/2": 4,
-     "C/3": 4,
-     "B/1": 4,
-     "H/5": 3,
-     "H/4": 3,
-     "H/3": 2,
      "S/1": 2,
-     "C/1": 2,
-     "B/3": 2,
-     "T/1": 1,
+     "H/5": 1,
+     "H/3": 1,
+     "C/3": 1,
+     "B/1": 1,
+     "B/3": 1,
      "P/?": 1
     },
+    "1": {
+     "H/1": 17,
+     "H/4": 3,
+     "H/2": 2,
+     "B/1": 2,
+     "T/1": 1,
+     "H/5": 1,
+     "S/2": 1
+    },
     "2": {
-     "H/1": 14,
-     "H/2": 13,
-     "S/2": 10,
-     "B/1": 5,
-     "H/5": 3,
-     "H/4": 2,
-     "B/3": 2,
-     "H/3": 1,
-     "S/1": 1,
-     "C/3": 1
+     "H/1": 5,
+     "H/2": 2
     },
     "3": {
-     "H/1": 10,
-     "T/1": 4
+     "H/1": 20,
+     "T/1": 3,
+     "P/3": 3,
+     "H/2": 1,
+     "H/5": 1,
+     "S/2": 1,
+     "S/4": 1,
+     "B/1": 1,
+     "B/3": 1
     },
     "4": {
-     "H/1": 6,
-     "H/2": 2
+     "H/1": 10,
+     "A/1": 5,
+     "H/2": 4,
+     "S/2": 3,
+     "S/1": 3,
+     "T/1": 2,
+     "C/3": 2,
+     "B/1": 2,
+     "P/3": 2,
+     "H/5": 1,
+     "H/4": 1,
+     "C/1": 1
     },
     "5": {
-     "H/1": 6,
-     "H/2": 2
+     "H/1": 10,
+     "H/2": 9,
+     "S/2": 6,
+     "P/3": 5,
+     "B/3": 4,
+     "H/5": 3,
+     "B/1": 3,
+     "H/3": 2,
+     "H/4": 2,
+     "S/1": 1,
+     "C/1": 1,
+     "C/3": 1
     },
     "6": {
-     "H/1": 15,
-     "P/3": 10,
-     "H/2": 5,
-     "S/1": 4,
-     "A/1": 4,
-     "S/2": 3,
+     "H/1": 9,
      "B/1": 3,
-     "B/3": 3,
-     "H/4": 2,
-     "H/5": 1,
-     "S/4": 1,
-     "C/3": 1
+     "C/3": 2,
+     "H/4": 1,
+     "S/2": 1,
+     "S/1": 1,
+     "B/3": 1,
+     "P/3": 1
     }
    }
   },
@@ -4258,106 +4493,104 @@
    "tag": "italian pour, contiguous sections",
    "k": 7,
    "n_folios": 207,
-   "inertia": 130.065,
+   "inertia": 129.825,
    "vs_section": {
     "purity": 0.618,
-    "purity_permutation_baseline": 0.619,
-    "adjusted_purity": -0.001,
-    "NMI": 0.111,
-    "ARI": -0.057,
+    "purity_permutation_baseline": 0.618,
+    "adjusted_purity": -0.0,
+    "NMI": 0.131,
+    "ARI": -0.064,
     "n_labels": 7
    },
    "vs_hand": {
     "purity": 0.541,
     "purity_permutation_baseline": 0.543,
     "adjusted_purity": -0.005,
-    "NMI": 0.074,
-    "ARI": -0.034,
+    "NMI": 0.079,
+    "ARI": -0.039,
     "n_labels": 6
    },
    "vs_language": {
-    "purity": 0.604,
-    "purity_permutation_baseline": 0.567,
-    "adjusted_purity": 0.085,
-    "NMI": 0.056,
-    "ARI": 0.005,
+    "purity": 0.594,
+    "purity_permutation_baseline": 0.566,
+    "adjusted_purity": 0.064,
+    "NMI": 0.045,
+    "ARI": -0.01,
     "n_labels": 3
    },
    "cluster_table_section/hand": {
     "0": {
-     "H/1": 16,
-     "H/2": 2,
-     "H/4": 2,
+     "H/1": 8,
+     "H/2": 4,
+     "H/5": 1,
+     "S/2": 1,
      "B/1": 1
     },
     "1": {
-     "H/1": 17,
-     "H/2": 4,
-     "P/3": 3,
+     "H/1": 25,
+     "P/3": 15,
+     "S/2": 9,
+     "H/2": 8,
+     "B/3": 7,
+     "H/4": 6,
+     "B/1": 6,
+     "S/1": 3,
+     "C/3": 3,
      "H/5": 2,
-     "S/2": 2,
-     "B/1": 2,
      "T/1": 1,
+     "A/1": 1,
+     "P/?": 1
+    },
+    "2": {
+     "H/1": 11,
+     "H/2": 3,
+     "H/5": 1,
+     "H/3": 1,
+     "S/2": 1,
      "S/4": 1,
-     "S/1": 1,
      "A/1": 1,
      "C/3": 1
     },
-    "2": {
-     "C/3": 3,
+    "3": {
+     "H/1": 12,
+     "S/2": 5,
+     "H/2": 4,
+     "B/1": 4,
+     "S/1": 2,
+     "C/1": 2,
+     "T/1": 1,
+     "H/5": 1,
+     "H/3": 1,
+     "H/4": 1,
+     "A/1": 1,
+     "C/3": 1
+    },
+    "4": {
+     "H/1": 9,
      "T/1": 2,
-     "H/1": 2,
+     "H/5": 1
+    },
+    "5": {
+     "H/1": 9,
+     "H/2": 9,
+     "A/1": 2,
+     "H/5": 1,
+     "H/3": 1,
+     "H/4": 1,
+     "S/1": 1
+    },
+    "6": {
+     "H/1": 6,
+     "T/1": 2,
      "H/4": 1,
      "H/2": 1,
      "S/2": 1,
-     "C/1": 1,
-     "B/1": 1
-    },
-    "3": {
-     "H/1": 12,
-     "H/2": 4,
-     "H/5": 1,
+     "S/1": 1,
      "C/3": 1,
      "B/1": 1
-    },
-    "4": {
-     "H/1": 4,
-     "H/5": 1,
-     "H/4": 1,
-     "S/1": 1,
-     "B/1": 1
-    },
-    "5": {
-     "H/1": 17,
-     "H/2": 12,
-     "S/2": 12,
-     "P/3": 11,
-     "B/3": 6,
-     "H/4": 4,
-     "S/1": 4,
-     "B/1": 4,
-     "T/1": 3,
-     "H/3": 3,
-     "A/1": 3,
-     "H/5": 2,
-     "C/1": 1,
-     "C/3": 1,
-     "P/?": 1
-    },
-    "6": {
-     "H/1": 12,
-     "H/2": 6,
-     "S/2": 2,
-     "B/1": 2,
-     "H/5": 1,
-     "H/4": 1,
-     "S/1": 1,
-     "A/1": 1,
-     "B/3": 1,
-     "P/3": 1
     }
    }
   }
  },
- "runtime_seconds": 122.6
+ "runtime_seconds": 105.7
 }

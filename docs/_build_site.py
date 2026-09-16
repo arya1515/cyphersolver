@@ -48,7 +48,7 @@ PAGES = [
          quote='潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府&hellip;'),
     dict(slug='huangxing', label='Huang Xing', year='1916', y=1916.5, place='China / Japan', st='solved', stt='scheme found',
          title='Huang Xing to Lin Hu and Li Genyuan &mdash; a kana condenser',
-         blurb='Listed as &ldquo;solved but specific scheme unknown&rdquo;: the Japanese Foreign Ministry filed a decode nobody could read, and an encipherment nobody could name. Both recovered. Three kana carry one character, each kana holding a digit in its consonant row while the vowel is free, so the surface text barely repeats.',
+         blurb='Listed as &ldquo;solved but specific scheme unknown&rdquo;: the Japanese Foreign Ministry filed a decode nobody could read, and an encipherment nobody could name. Both recovered, and then corrected from the frames: three kana carry one character deterministically from a private code, a superfluous kana had hidden the repeats, and the vowel is not free.',
          quote='護國軍能速入湘贛甚好。章行嚴何日東渡？速令出發，並望預電。興　徑'),
     dict(slug='goldbar', label='Gold bars', year='1933', y=1933, place='Shanghai', st='found', stt='no message',
          title='The Chinese gold bar cryptograms &mdash; ten of everything',

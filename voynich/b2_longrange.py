@@ -96,9 +96,9 @@ def load_corpus(name, n):
     else:
         t = gutenberg_body(path)
     if name == 'english':
-        i = t.find('Chapter I.]')            # skip Saintsbury's preface and the list of illustrations
+        i = t.find('It is a truth universally acknowledged')   # skip Saintsbury's preface and the list of illustrations
         if i >= 0:
-            t = t[i + len('Chapter I.]'):]
+            t = t[i:]
         t = re.sub(r'(?m)^\s*CHAPTER\s+[IVXLC]+\.?\s*$', ' ', t)
     toks = re.findall(r"[^\W\d_]+", t.lower())
     if name == 'latin':
