@@ -1,0 +1,33 @@
+{
+  "_source": "Bonavoglia 2019, HistoCrypt, Fig. 2 (ASVe CX Cifre, chiavi e scontri di cifra b.4 r.16, the Zifra Granda of 1578-1587). Transcribed here from the figure, 16 Sept 2026. Underscore = one-digit figure (f_1 = f1). Vowel rule: -a -e -i -o -u end in 1 2 3 4 5.",
+  "_alphabet_note": "Bonavoglia: each letter has three homophones, a polywog sign, a turned-T sign and u with a superscript; his example for A is o18 t8 u15 (o and t standing for the two signs). Words: some 500 entries such as L54 = Guerra. Not in the figure.",
+  "syllables": {
+    "f1": "ba", "f2": "be", "f3": "bi", "f4": "bo", "f5": "bu",
+    "f11": "ca", "f12": "ce", "f13": "ci", "f14": "co", "f15": "cu",
+    "f21": "cra", "f22": "cre", "f23": "cri", "f24": "cro", "f25": "cru",
+    "r1": "da", "r2": "de", "r3": "di", "r4": "do", "r5": "du",
+    "r51": "fa", "r52": "fe", "r53": "fi", "r54": "fo", "r55": "fu",
+    "r61": "fra", "r62": "fre", "r63": "fri", "r64": "fro", "r65": "fru",
+    "r41": "ga", "r42": "ge", "r43": "gi", "r44": "go", "r45": "gu",
+    "r31": "gna", "r32": "gne", "r33": "gni", "r34": "gno", "r35": "gnu",
+    "r21": "gra", "r22": "gre", "r23": "gri", "r24": "gro", "r25": "gru",
+    "r11": "ha", "r12": "he", "r13": "hi", "r14": "ho", "r15": "hu",
+    "r71": "ia", "r72": "ie", "r73": "ii", "r74": "io", "r75": "iu",
+    "r81": "la", "r82": "le", "r83": "li", "r84": "lo", "r85": "lu",
+    "f31": "ma", "f32": "me", "f33": "mi", "f34": "mo", "f35": "mu",
+    "f71": "na", "f72": "ne", "f73": "ni", "f74": "no", "f75": "nu",
+    "a1": "pa", "a2": "pe", "a3": "pi", "a4": "po", "a5": "pu",
+    "a11": "pra", "a12": "pre", "a13": "pri", "a14": "pro", "a15": "pru",
+    "a21": "qua", "a22": "que", "a23": "qui", "a24": "quo", "a25": "quu",
+    "a31": "ra", "a32": "re", "a33": "ri", "a34": "ro", "a35": "ru",
+    "a91": "sa", "a92": "se", "a93": "si", "a94": "so", "a95": "su",
+    "a81": "sca", "a82": "sce", "a83": "sci", "a84": "sco", "a85": "scu",
+    "f41": "spa", "f42": "spe", "f43": "spi", "f44": "spo", "f45": "spu",
+    "a71": "sta", "a72": "ste", "a73": "sti", "a74": "sto", "a75": "stu",
+    "a61": "stra", "a62": "stre", "a63": "stri", "a64": "stro", "a65": "stru",
+    "a41": "ta", "a42": "te", "a43": "ti", "a44": "to", "a45": "tu",
+    "a51": "tra", "a52": "tre", "a53": "tri", "a54": "tro", "a55": "tru",
+    "f61": "ua", "f62": "ue", "f63": "ui", "f64": "uo", "f65": "uu",
+    "f51": "za", "f52": "ze", "f53": "zi", "f54": "zo", "f55": "zu"
+  }
+}

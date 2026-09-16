@@ -22,11 +22,6 @@ LIVE = [
      "Each is too short to solve alone, but Tomokiyo's Nevers and Louis XIII articles print sibling keys for the same correspondents, so the test is "
      "key matching, an hour each. Not yet attempted."),
 
-    ("Marco Ottobon to Giovanni Mocenigo, BNE Ms. 994 ff. 34&ndash;38", "1589",
-     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "low", "lo", "medium",
-     "Five folios of a letter-and-digit Venetian cipher in the Spanish archives, the longest open Venetian text on the list; Valle de la Cerda read it "
-     "in 1589 and his solution is lost. Five folios is enough text for a homophonic attack. The Biblioteca Nacional's digital library returns 403 to "
-     "scripts, so the images need a browser session first. Not yet attempted."),
 
     ("DECODE R2179 (1644) and Starhemberg (1758), undelimited digit streams", "1644, 1758",
      "https://cryptiana.web.fc2.com/code/variable2.htm", "", "low", "lo", "high",
