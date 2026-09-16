@@ -1,0 +1,131 @@
+% HistoCrypt 2027 regular paper draft. Anonymous for submission.
+% Compile: pdflatex armstrong1808 && bibtex armstrong1808 && pdflatex armstrong1808 && pdflatex armstrong1808
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\grp}[1]{\textsf{#1}}
+
+\title{Reading Armstrong's Coded Postscript to Madison (1808): \\ Reconstructing an Unpublished United States Diplomatic Code from Archival Pencil Decodes}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+John Armstrong, United States Minister to France, closed a private letter to Secretary of State James Madison of 30 August 1808 with a postscript of 49 groups of a numerical word-and-syllable code. The postscript is printed undeciphered in \emph{Founders Online} and listed as unsolved by Tomokiyo, who read about a third of its groups from one letter with known plaintext. The code itself, a 1,600-element system in use at the Paris legation from 1804 to 1810 and conventionally labelled by its group for \emph{the}, 972, was never published. We reconstruct it from a source not previously used for this purpose: the State Department's own despatch books on National Archives microfilm M34, where a clerk pencilled the decode above every group of a long despatch of October 1806. An image score for faint pencil locates the annotated frames; some 580 groups are recovered with a confidence grade for each, and the alphabetical layout of the code fixes most of the remainder. The postscript reads in full: Armstrong privately rates Jonathan Russell above every other candidate for the Paris consulate and dismisses two Irish-born rivals. A second coded letter of 22 February 1808 serves as an independent check. The table is released for the roughly forty other coded Armstrong despatches, most never read.
+\end{abstract}
+
+\section{Introduction}
+
+Numerical codes of the ``one-part'' kind, in which each group stands for a word, a syllable or a letter, were the standard secret writing of American diplomacy from the Revolution until the First World War \cite{Weber:1979}. Because the code book was the key, a coded passage whose book has not survived is, in principle, unreadable; in practice the same book was used for years, and any letter in it whose plaintext is preserved leaks a part of the vocabulary. Tomokiyo exploited this for the code of the Paris legation under Armstrong, recovering some 230 groups from a letter of 4 May 1806 whose decode survives, and reading about a third of the coded postscript of 30 August 1808 \cite{Tomokiyo:armstrong}. The postscript has since stood on his list of unsolved historical ciphers \cite{Tomokiyo:unsolved}.
+
+This paper completes the reading. The contribution is less the plaintext, a piece of consular gossip, than the method by which the code was recovered: a second and much richer known-plaintext source exists in the receiving department's own files, where clerks decoded incoming despatches interlinearly in pencil, and those pencil marks survive on the microfilm. Locating them in 393 frames of dense manuscript, harvesting them, and grading each value by how it was obtained turned an unsolved item into a 580-group code table, with the coded postscript as the first application.
+
+Section~\ref{sec:doc} describes the document, Section~\ref{sec:code} the structure of the code as recovered, Section~\ref{sec:method} the sources and the procedure, Section~\ref{sec:reading} the reading and its verification, and Section~\ref{sec:disc} what remains open.
+
+\section{The document}\label{sec:doc}
+
+The letter is a ``private'' one, written from the spa town of Bourbon-l'Archambault where Armstrong was taking the waters \cite{Skeen:1981}. Its clear text answers Madison's private letter of 20 July 1808: it dismisses the complaints of Fulwar Skipwith, the departing commercial agent at Paris, warns that the embargo is ``not felt'' in France and ``forgotten'' in England, and says of David Bailie Warden, secretary of the legation and candidate for the Paris consulate, only that ``a letter of the same character from me to the President \ldots\ will give you my opinion of the fitness of M.~Warden for the consular office at Paris: to this therefore I refer.'' The opinion Armstrong would not put in clear follows in code, as a postscript (Library of Congress, Madison Papers, reel 10, frame 0521; \citealt{LOC:madison}).
+
+\emph{Founders Online} \cite{Founders:3466} prints the groups as follows; the manuscript differs in two of them (Section~\ref{sec:corr}):
+
+\begin{quote}\small\grp{
+1394. 1116. 1273. 250. 1165. 1405. \\
+970. 148. 1459. 1482. 1201. 821. 130. 821. \\
+1429. 720. 970. and 1482. much better \\
+992. 1319. 1048. 584. 687. 249. 736. 1013. \\
+750. 967. In a word 1459. 1482. 1202. \\
+1561. in general. Next to 927. 1090. 1052. \\
+832. 1482. 934. 510. 860. but 1459. 1482. \\
+1320. 384. 1280. 1218. 1481. 1483. 555.}
+\end{quote}
+
+Six clear words (\emph{and}, \emph{much better}, \emph{In a word}, \emph{in general}, \emph{Next to}, \emph{but}) are left in the open, a habit of Armstrong's that itself constrains the reading.
+
+\todo{Figure 1: detail of LoC frame 0521 showing the postscript; check LoC reproduction terms.}
+
+\section{The code}\label{sec:code}
+
+Armstrong's despatches from Paris between 1804 and 1810 use a single large code in which \grp{972} = \emph{the}. Weber notes some forty letters in it among the Despatches from United States Ministers to France (National Archives, Record Group 59, microcopy M34, rolls 13--14; \citealt{Weber:1979}). It is not the code of Armstrong's letter of 20 February 1808, a distinct system that remains unsolved. As recovered, the code has the following structure.
+
+\paragraph{Range and units.} Groups run from 1 to about 1600. Each stands for a whole word (\emph{Emperor} \grp{32}, \emph{Spain} \grp{326}, \emph{Minister} \grp{61}), a syllable (\emph{con} \grp{470}, \emph{tion} \grp{352}, \emph{ness} \grp{832}), or a single letter (\emph{s} \grp{1116}, \emph{n} \grp{821}, \emph{d} \grp{1001}). Names are spelt in syllables: \emph{Gu-sta-va-us}, \emph{Et-ru-ria}, \emph{Y-ru-jo}, \emph{Dan-ish}, \emph{O-mea-ly}.
+
+\paragraph{Layout.} The vocabulary is laid out in many short alphabetical runs rather than one sequence. Groups 1--130 form one run of words (\emph{circumstance}, \emph{commerce}, \emph{communicate}, \emph{character} \ldots\ \emph{Minister} \ldots\ \emph{these}, \emph{thousand}, \emph{toward} \ldots\ \emph{week}, \emph{without}, \emph{yesterday}); 130--417 a second (\emph{America}, \emph{between}, \emph{business}, \emph{confide}, \emph{contrary}, \emph{country} \ldots\ \emph{Prince}, \emph{Queen}, \emph{reason}, \emph{report}, \emph{Russia}, \emph{second}, \emph{secret} \ldots\ \emph{which}, \emph{whom}, \emph{word}, \emph{would}, \emph{your}); above 417 the syllables come in blocks that restart the alphabet every few dozen numbers (\grp{1201} \emph{a} \ldots\ \grp{1230} \emph{c}; \grp{1268} \emph{ed} \ldots\ \grp{1298} \emph{ex}; \grp{1405} \emph{be} \ldots\ \grp{1443} \emph{good}; the 1500s \emph{fa} \ldots\ \emph{man} \ldots\ \emph{now}). Within a run the order is alphabetical, which is what allows an unknown group to be pinned between known neighbours: \grp{148} lies between \grp{146} \emph{confide} and \grp{151} \emph{contrary}, and the postscript needs \emph{consul}.
+
+\paragraph{Homophones and nulls.} Common elements have several groups: \emph{re} is \grp{555}, \grp{561}, \grp{562}, \grp{869} and \grp{871} among others. \grp{1394} carries a pencil dash in the decodes and functions as a null or punctuation mark; it opens the postscript.
+
+\todo{Table 1: the runs and their ranges, from armstrong/pairs.txt and code972\_reconstructed.json; give counts per run.}
+
+\section{Sources and method}\label{sec:method}
+
+\subsection{Two kinds of known plaintext}
+
+The first source is the one Tomokiyo used: Armstrong's letter of 4 May 1806, whose decode is preserved with it, giving about 230 values, graded here \textbf{C} (confirmed by known plaintext). The second is new. The despatches Armstrong sent to the Department of State were decoded on receipt, and in the bound despatch books, microfilmed as M34 \cite{NARA:M34}, the clerk's decode is written in pencil above each group of the coded passages. On roll 13 a long despatch of October 1806 (frames 0192--0201) is decoded in this way throughout, and shorter passages elsewhere on the roll (frame 0190, a despatch of 20 July 1806 on the Franco-Russian peace, among them) add more. Values read from these pencil decodes are graded \textbf{H} when the pencil is legible and \textbf{M} when it is doubtful.
+
+\subsection{Finding the annotated frames}
+
+Reading 393 frames of manuscript for faint pencil is not practical by eye. A simple image score, the proportion of mid-grey pixels not adjacent to dark ink, ranks frames by the amount of pencil on them and pointed directly to frames 0192--0201. \todo{state the threshold and the top-ten ranking from pencil\_score.py.}
+
+\subsection{Harvesting, grading, merging}
+
+Each annotated frame was cropped into thirds, contrast-enhanced and read group by group; every number--value pair was recorded with its frame and line and a confidence grade. Groups seen on several frames were cross-checked: \grp{1555} \emph{man}, for instance, appears on frames 0195 and 0200 (``the command of Prince Charles'', ``man''). Some 530 pairs were harvested.
+
+A script merges the three layers, ranking readings H $>$ C $>$ M $>$ inferred, and renders any coded passage with unknown and doubtful groups flagged. Gaps in the postscript were then filled from context and checked against the alphabetical slot (grade \textbf{I}). Finally the letter of 22 February 1808, also coded in the 972 system and also unread, was decoded with the same table as an independent control: it reads coherently (\todo{quote two sentences}), with two probable single-digit slips of the microfilm hand (\grp{631} \emph{wise} for \grp{651} \emph{plain}; \grp{916} \emph{had} for \grp{921} \emph{have}).
+
+\subsection{Collation}
+
+The Library of Congress image of the postscript was enlarged and every group compared with the \emph{Founders} text (Section~\ref{sec:corr}).
+
+\section{The reading}\label{sec:reading}
+
+\begin{quote}
+Russel ought to be the consul: he is an American by birth, and is much better qualified than any other candidate. In a word, he is above men in general. Next to him in fitness is O'Mealy, but he is, like Warden, an Irishman.
+\end{quote}
+
+Group by group (grade in brackets): \grp{1394} null [H]; \grp{1116} \emph{s} [H]; \grp{1273} \emph{Rus-} \todo{confirm grade and frame}; \grp{250} \emph{ought} [I: between \grp{249} \emph{other} and \grp{252} \emph{own}]; \grp{1165} \emph{to} [H]; \grp{1405} \emph{be} [H]; \grp{972} \emph{the} [C]; \grp{148} \emph{consul} [I]; \grp{1459} \emph{he} [H]; \grp{1482} \emph{is} [H]; \grp{1201} \emph{a} [H]; \grp{821} \emph{n} [H]; \grp{130} \emph{America} [I: run boundary]; \grp{821} \emph{n} [H]; \grp{1429} \emph{by} [H]; \grp{720} \emph{bir} [I]; \grp{970} \emph{th} [H]; \grp{992} \emph{qua} [I]; \grp{1319} \emph{li} [H]; \grp{1048} \emph{fie} [I]; \grp{584} \emph{than} [H]; \grp{687} \emph{any} [H]; \grp{249} \emph{other} [H]; \grp{736} \emph{can} [H]; \grp{1013} \emph{di} [H]; \grp{750} \emph{da} [H]; \grp{967} \emph{te} [H]; \grp{1202} \emph{above} [I]; \grp{1561} \emph{men} [H]; \grp{927} \emph{him} [H]; \grp{1090} \emph{in} [H]; \grp{1052} \emph{fit} [I]; \grp{832} \emph{ness} [H]; \grp{934} \emph{o} [H]; \grp{510} \emph{mea} [H]; \grp{860} \emph{ly} [H]; \grp{1320} \emph{like} [H: frame 0190]; \grp{384} \emph{Warden} \todo{grade}; \grp{1280} \emph{en} [H]; \grp{1216} \emph{an} [H]; \grp{1481} \emph{ir} [H]; \grp{1483} \emph{ish} \todo{grade}; \grp{1555} \emph{man} [H, reading the manuscript's \grp{555} as a dropped digit].
+
+\todo{Table 2: the 49 groups in a three-column table (group, value, grade, source frame).}
+
+\paragraph{Historical sense.} Jonathan Russell (Armstrong's spelling \emph{Russel}), Rhode Island merchant and later Minister to Sweden, was indeed appointed to the Paris consular post in 1810 \todo{verify date and source}. Warden, born in Ireland, held the consulate provisionally and lost it. ``O'Mealy'' is the Irish-born merchant known to the Madison correspondence from a letter of John Mitchell of 4 November 1805 \todo{cite Founders document 02-10-02-0473}. That Armstrong reserved this ranking for code, while treating Warden neutrally in clear, is exactly the pattern of use one expects of a diplomatic code: the text is ordinary, and the secret is an opinion about persons.
+
+\section{Corrections to the printed transcription, and one doubt}\label{sec:corr}
+
+\emph{Founders} prints \grp{970.} at the start of the second line where the manuscript has \grp{972.} (\emph{the}); \grp{970} is \emph{th}, which the sentence cannot use there. \emph{Founders} prints \grp{1218} in the last line; the manuscript reads \grp{1216} (\emph{an}), which is also what the sentence requires. A pencil \emph{s} below \grp{1116} on the Library of Congress copy shows that a reader in Washington began, and abandoned, a decode.
+
+The final group is \grp{555} both in \emph{Founders} and in the manuscript. \grp{555} is \emph{re} (frame 0195: \emph{sco-re}), which makes no sense after \emph{Irish}, whereas \grp{1555} is \emph{man}. The reading \emph{Irishman} assumes Armstrong dropped a digit; the alternative, that the postscript breaks off with ``an Irish re\ldots'', is recorded for completeness. Of 49 groups, 48 are therefore determined and one is a probable slip.
+
+\section{Discussion}\label{sec:disc}
+
+Three points generalise beyond this letter.
+
+First, the receiving department's working copies are a known-plaintext source of a different order from a single decoded letter. A clerk decoding a despatch writes every value, common and rare alike, and the pencil survives microfilming well enough to be read at 600~dpi. Any American code of the period whose despatches were decoded on receipt can probably be recovered in the same way; Weber's survey \shortcite{Weber:1979} lists the candidates.
+
+Second, the alphabetical one-part layout turns a partial table into a nearly complete one. Once the runs are identified, an unknown group has only a handful of possible values, and context chooses among them. The grading scheme (H, C, M, I) keeps the two kinds of knowledge apart so that a reader can see which values rest on ink and which on inference.
+
+Third, the printed transcription had two wrong digits in 49 groups. Collation with the manuscript image is not optional for coded text, where a single digit changes the word.
+
+What remains is the rest of the 972 corpus. \todo{list the frames downloaded but not yet read (0011--0012, 0016--0017, \ldots) and the 20 February 1808 letter in its distinct code.} The table of some 580 groups, with a frame reference for each pencil reading, is released with this paper. \todo{anonymised repository or supplementary-material link per the chairs' instructions.}
+
+\section{Conclusion}
+
+The coded postscript of 30 August 1808 is read in full, from a code reconstructed largely out of the State Department's own pencil decodes rather than from any surviving code book. The postscript itself is a private ranking of candidates for the Paris consulate. The method, image-scoring microfilm for pencil, harvesting interlinear decodes with a per-value grade, and exploiting the alphabetical layout of a one-part code, is applicable to the other coded American despatches of the period.
+
+% Acknowledgements: camera-ready only. S. Tomokiyo for the 4 May 1806 table and the listing; the National Archives catalogue for open access to M34.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

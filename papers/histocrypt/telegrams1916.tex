@@ -1,0 +1,127 @@
+% HistoCrypt 2027 regular paper draft. Anonymous for submission.
+% Contains Chinese and Japanese text: compile with XeLaTeX.
+%   xelatex telegrams1916 && bibtex telegrams1916 && xelatex telegrams1916 && xelatex telegrams1916
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}      % Times-compatible; the template asks for Times Roman
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK TC} % installed on Overleaf
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\ct}[1]{\textsf{#1}}
+
+\title{Two Intercepted Telegrams of the 1916 Anti-Yuan Campaign: \\ A Brute-Forced Systematic Code Condenser and a Three-Kana Private Code}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Japanese Foreign Ministry intercepted, and could not read, telegrams passing between Sun Yat-sen's circle in Tokyo and revolutionaries in South China during the 1916 campaign against Yuan Shikai. Two of them are in the files digitised by the Japan Center for Asian Historical Records and have stood as unsolved or ``scheme unknown'' on Tomokiyo's list. We solve both. The Swatow telegram of 3 April 1916 to ``Rosamonde Tokio'' is the four-digit Chinese standard telegraph code passed through a systematic 20$\times$5 code condenser of the family used by Yamada Junzabur\={o}: brute force over the 57,600 keys of the family, scored by a Chinese character language model, singles out one key by more than eight standard deviations and reads 41 of about 44 characters; the plaintext matches the events at Chaozhou and Swatow of 27--30 March 1916 in detail, and the three lost characters are shown to be the operator's garble. The Huang Xing telegram of 25 May 1916 to Lin Hu and Li Genyuan, whose Japanese decode survives beside it, is shown to encode each character as three kana of a deterministic private code; one superfluous kana in the filed text is located from the repeated characters, and 42 code-book entries are recovered. We compare the two designs.
+\end{abstract}
+
+\section{Introduction}
+
+Chinese telegraphy encoded every character as a four-digit number from a standard code book, so ``secret'' Chinese telegrams of the early twentieth century were almost always the standard code disguised: by an additive, by a transposition of digits, or by a \emph{code condenser} that re-expressed digit pairs as pronounceable letter groups to save on tariffs and hide the numbers \cite{Tomokiyo:chinese}. Yamada Junzabur\={o}'s condensers, two tables of which are known, are the best-documented examples. Tomokiyo tried both on the Swatow telegram of 1916 without success and listed it as unsolved; he listed the Huang Xing telegram of the same spring as ``solved but specific scheme unknown'', because the Japanese Foreign Ministry had filed a decoded text beside it that he could not read \cite{Tomokiyo:unsolved}.
+
+This paper reads both. Section~\ref{sec:files} describes the archival files; Section~\ref{sec:swatow} the Swatow telegram, solved ciphertext-only by exhausting a structured key family; Section~\ref{sec:huang} the Huang Xing telegram, analysed with the filed plaintext; Section~\ref{sec:disc} compares the two systems.
+
+\section{The files}\label{sec:files}
+
+Both telegrams are in the Foreign Ministry record series on the Chinese revolutionary party, digitised by JACAR \cite{JACAR:B03050738800,JACAR:B03050731500}. The viewer is a single-page application; the underlying PDFs (11 and 59 pages) were fetched directly and rendered at 500--600~dpi.
+
+\paragraph{The Swatow file (B03050738800).} A secret circular of 29 April 1916 from Foreign Minister Ishii to the consul-general at Hankow reports that telegrams between Sun and a Japanese policeman at the Hankow consulate have been obtained and are in cipher since mid-March; five of them, in the four-digit additive system Tomokiyo has already read, are attached. A second circular of the same date to the acting consul at Swatow, Tanaka, reports a further telegram, ``in cipher, ten letters to a word'', sent from Swatow to Sun by a ``Tanaka'', and asks who this man is and whether he misuses the consul's name. The telegram itself follows on a received-message form: Swatow, no.~1507, 22 words, 3 April 1916, 6.05~p.m., addressed to \emph{Rosamonde Tokio}, that is to Soong Ching-ling, then Sun's secretary, under her English name. A report of 11 May from Hankow explains a new scheme in Sun's telegram of 10 May (regroup five-digit to four-digit groups, reverse the digits, subtract 111, standard code) but says nothing about the Swatow telegram. The file contains no Japanese solution of it.
+
+\paragraph{The Huang Xing file (B03050731500).} A cipher telegram of 25 May 1916, 4.35~p.m., from Ishii to Consul \={O}ta at Zhaoqing, no.~22, reads: ``Huang Xing has asked that a telegram be sent to Lin Hu and Li Genyuan; please pass it to them. The content is an acknowledgement of the telegram received the other day. (Chinese-side cipher follows.)'' Behind it are the telegram on an Imperial Government Telegraphs forwarded-message form (frame 0246), the decoded Chinese text in cursive, headed 電稿 (frame 0247), and a clerk's annotated reading in Japanese word order (frame 0248). Here the Ministry was not intercepting but forwarding, and the plaintext was in its hands.
+
+\section{The Swatow telegram}\label{sec:swatow}
+
+\subsection{Ciphertext}
+
+Tomokiyo's transcription, checked against the frame:
+
+\begin{quote}\small\ct{Twelve baxuxupeja qicijinati bemigasiqi jakebiqoye kufohemige tuxaboboba gedoeijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitohatula xopavajejo ropezpo ngobunibai tanaka}
+\end{quote}
+
+The 22 words of the form are \emph{Rosamonde Tokio}, \emph{Twelve}, sixteen ten-letter groups, \ct{ropezpo}, \ct{ngobunibai} and \emph{tanaka}: 177 code letters. Every consonant is one of the twenty of Yamada's condensers (no \emph{w}), the vowels are \emph{a e i o u}, and the text parses as consonant--vowel pairs throughout except in the tail. The vowel counts are \emph{i}~22, \emph{e}~21, \emph{a}~20, \emph{o}~19, \emph{u}~7. The rarity of \emph{u} is the first clue: in a vowel-major table \emph{u} would be the 80s--90s block of two-digit values, which the standard code book, numbered by radical, scarcely uses for its page numbers.
+
+Reading the image against the transcription shows four uncertain letters: \ct{gedoeijiga} is more probably \ct{gedocijiga}, \ct{xitohatula} more probably \ct{xitonatula}, \ct{kufohemige} is \emph{h}/\emph{n}-ambiguous, and \ct{baxuxupeja} may be \ct{baxuxepeja}. All four turn out to be exactly the emendations the decipherment needs.
+
+\todo{Figure 1: crop of frame 680682 (the received-message form); JACAR credit line.}
+
+\subsection{The key family}
+
+A systematic condenser of Yamada's type is a 20$\times$5 table of two-digit values indexed by consonant and vowel. The design freedoms are few: the consonant order (alphabetical, possibly rotated or reversed), the vowel order (120 permutations), whether the numbering runs row- or column-major, whether it starts at 00 or 01, and whether an additive is applied to the four-digit code before condensing. Taking 40 consonant orders (20 rotations $\times$ forward or reverse) $\times$ 120 vowel orders $\times$ 2 $\times$ 2 $\times$ 3 additives (0, $\pm$111, the additive of Sun's other telegrams) gives 57,600 keys. Each key decodes the clean syllable runs to four-digit groups, which are looked up in the standard telegraph code as recorded in the Unihan database \cite{Unihan}; Tomokiyo's decoded telegrams of the same file confirm that the 1916 numbering agrees with it. The candidate plaintext is scored by a traditional-Chinese character unigram model built from a word list converted to traditional forms.
+
+\subsection{Result}
+
+One key wins outright: score $-360.6$ against a population mean of $-553.6$ with standard deviation 23.8, and 49 points clear of the runner-up. It is: twenty consonants in alphabetical order rotated to begin at \emph{l}; vowel columns in the order \emph{e a i o u}; numbered column-major 01--99, 00 (so \emph{le}~=~01, \ldots, \emph{ke}~=~20, \emph{la}~=~21, \ldots, \emph{ku}~=~00); no additive. Every syllable in a word that reads confirms the layout, 46 of the 50 distinct syllables received; the four unconfirmed ones are the four doubtful letters above. \emph{ku} = 00 (亦~0076, 力~0500) fixes the \emph{u} column.
+
+\todo{Table 1: the recovered 20$\times$5 table.}
+
+\subsection{Reading}
+
+\begin{quote}
+潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……［3 codes garbled］ （田中）
+\end{quote}
+
+``Chao[zhou] city has been declared independent by Mo Qingyu. Our army too has recovered Swatow. Afterwards Mo came at the head of a large force and ordered us out of the garrison headquarters. Our army is weak; for the present we are supported by 翼□. Wenhui returns \ldots'' Signed Tanaka.
+
+This matches the record exactly. Mo Qingyu (莫擎宇), regimental commander at Chaozhou, was induced by Chen Jiongming, Lin Hu, He Haiming and the local revolutionaries to declare against Yuan Shikai; he took Chaozhou city on 27 March 1916 and wired Long Jiguang 率師占領潮城，宣布獨立 (``I have led my troops to occupy Chaozhou city and declared independence''); on 30 March the Swatow guard troops came over and Mo moved his headquarters to Swatow, displacing Sun's own men, with whom the Japanese ``Tanaka'' was serving, from the garrison commander's office they had seized \cite{Huang:2017}. The telegram uses Mo's own name for the town, 潮城, which the code groups force (潮州, 潮梅 and 潮汕 are all impossible from the letters).
+
+Open readings: 翼□ (5065~5068) is well transmitted but 5068 is not a plausible character in the modern table; a name or unit. 文慧 (2429~1979) is read as sent. After 返 the thirteen letters \ct{zpo ngobunibai} cannot be parsed into consonant--vowel pairs at any edit distance of three or fewer; a seven-letter ``word'' is impossible in this system. The second sheet of the form, rendered at 600~dpi, shows both lines in a clear copperplate exactly as transcribed. The garble is the operator's, not the transcriber's, and the last three characters are lost.
+
+\section{The Huang Xing telegram}\label{sec:huang}
+
+\subsection{Plaintext}
+
+Frame 0247, read at 500~dpi, gives four columns of 12, 11, 12 and 11 characters after the heading, 46 in all:
+
+\begin{quote}
+隱印崧誥邕行諸兄鑒正發書 · 間適接哿電敬悉一切護國 · 軍能速入湘贛甚好[章]行嚴何日 · 東渡望速啓行先電示興徑
+\end{quote}
+
+``To brothers Yin, Yin, Song, Gao and Yong: just as I was sending a letter, your telegram of the 20th arrived, and I have respectfully noted it all. It would be excellent if the National Protection Army could move quickly into Hunan and Jiangxi. What day does [Zhang] Xingyan cross to the east? I hope he starts soon; wire me first. Xing, the 25th.'' The two date characters are rhyme-table day codes (韻目代日): 哿~=~20, 徑~=~25, and 徑 matches the covering note's date. 章 is a small interlinear addition and is not enciphered. Two characters (誥, 間) remain uncertain in the cursive. The clerk's Japanese paraphrase on frame 0248 glosses the names as the courtesy names of Lin Hu, Li Genyuan and others. \todo{confirm the two uncertain characters or mark them in the table.}
+
+\subsection{Ciphertext and the unit}
+
+The telegram is 139 kana without voicing marks, packed into ten-letter telegraph words. 46 characters into 139 kana is three kana per character with one kana over. Grouping in threes and asking which part of a kana carries information, the consonant row of the goj\={u}on grid (ten rows) or the vowel (five), gives a first result: seven collisions of row triples among 46 groups against 1.03 expected by chance (permutation $p = 0.006$), against 8 vowel collisions where 8.28 are expected. Literal kana triples collide only once. A first analysis concluded from this that each kana carried one decimal digit in its row with a free vowel, a homophonic design.
+
+\subsection{The transmission error, and a correction}
+
+The plaintext repeats 行 (positions 6, 32, 41), 速 (26, 39) and 電 (17, 43). Under the straightforward grouping only 行 6 and 32 matched. If one kana is dropped at position 106, the first kana of character 36, every triple from 36 on shifts by one and all three repeats become identical kana triples: 行 = ケキニ three times, 速 = ヘウハ twice, 電 = レウサ twice, and the spare kana at the end completes character 46 (徑 = ラキス). \todo{verify the kana against huang.py output; the notes give romanised KE-KI-NI, HE-U-HA, RE-U-SA, RA-KI-SU.}
+
+The telegram as filed therefore carries one superfluous kana, and the code is deterministic: the same character is always written with the same three kana. This overturns the free-vowel reading. The seven row collisions are pairs of \emph{different} characters (印/護, 誥/日, 鑒/間, 書/敬, 國/嚴, 甚/何, 諸/示) that share a row triple and differ only in vowels; the vowels carry information, and the excess of row collisions over chance is what a correlation between row and code value looks like from outside.
+
+\subsection{A negative test}
+
+If the rows were the digits of a three-digit code book compiled in dictionary order, some permutation of the ten rows would make the 42 distinct characters' code numbers monotone in standard-code (radical) order. Over all $10! = 3{,}628{,}800$ permutations the best Spearman $\rho$ is 0.524; twelve shuffles of the plaintext give a null of mean 0.468 and maximum 0.614. There is no signal, and the kana-to-digit table cannot be recovered from one telegram.
+
+\subsection{Status}
+
+The scheme is identified as far as one telegram allows: three kana per character, deterministic, a private code book of at most $50^3$ and presumably $10^3$ entries, distinct from the standard telegraph code and from Yamada's condensers, which pack two digits into each syllable. One transmission error is located. 42 entries of the book, character to kana triple, are recovered and released. \todo{Table 2: the 42-entry alignment.} The rest needs a second telegram in the same code.
+
+\section{Discussion}\label{sec:disc}
+
+The two telegrams, six weeks apart and on the same side of the same campaign, use unrelated systems, and neither is the additive system of Sun's Hankow traffic in the same file. The Swatow telegram is standard code under a systematic condenser with no additive: the security rests entirely on the condenser table, and a systematic table has so few degrees of freedom that exhaustion is trivial once the family is recognised. The scoring step matters: a Chinese character language model separates the true key from 57,599 wrong ones by eight standard deviations even on 88 characters' worth of digits, because wrong keys produce code numbers that are mostly rare or unassigned characters. The Huang Xing telegram, by contrast, is a genuine private code book, small enough to be carried and deterministic enough that repeats betray it; it would have resisted ciphertext-only attack indefinitely, and it is readable at all only because the Ministry that forwarded it filed the plaintext.
+
+For the history of Chinese cryptography this is a small addition to Tomokiyo's survey \shortcite{Tomokiyo:chinese}: a third systematic condenser table, distinct from the two Yamada tables, in use by Sun's Swatow agent in April 1916, and a three-kana private code in Huang Xing's hands in May.
+
+\section{Conclusion}
+
+Both 1916 telegrams are read: one from the ciphertext alone by exhausting the structured family of systematic code condensers, one from the filed plaintext by identifying the unit and locating a transmission error through repeated characters. Both readings are confirmed by independent evidence, the March 1916 chronology at Chaozhou and Swatow in the first case and the covering note's date in the second. The condenser table, the language model and the alignment are released. \todo{anonymised repository or supplementary link.}
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

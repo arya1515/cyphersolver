@@ -1,0 +1,102 @@
+% HistoCrypt 2027 short paper draft (4 pages excluding references). Anonymous for submission.
+% Compile: pdflatex already-solved && bibtex already-solved && pdflatex already-solved && pdflatex already-solved
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Already Solved: Six ``Unsolved'' Historical Ciphers and How the Lists Went Stale}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The public lists of unsolved historical ciphers (Tomokiyo's \emph{Unsolved Historical Ciphers}, Schmeh's \emph{Top 50}, the DECODE database) are the entry point for most amateur and academic work on the subject. In a systematic pass over about a hundred of their entries we found six that were already solved or explained when we began, one of them since 1858. Richelieu's cipher letters of 1629 were deciphered by Avenel in the printed edition of Richelieu's papers; Hyde's ``undeciphered superscriptions'' of 1659--60 were explained by their editor in 1724 as dummy numbers; the Ferdinand III cipher on Schmeh's list was solved in the comment thread of the list itself in 2017; the Perwich despatch of 1670, the Confederate Navy dictionary code and the Milroy telegrams were solved in 2025--26 and reported in venues the lists had not yet absorbed. We give the evidence for each, reproduce the older solutions where that is informative, and draw the pattern: solutions are lost in nineteenth-century editions, in blog comments and in venues outside cryptology. We end with a short checklist for anyone about to attack a listed item, and ask that the catalogues record the older solutions.
+\end{abstract}
+
+\section{Introduction}
+
+The lists of unsolved historical cryptograms maintained by Tomokiyo \shortcite{Tomokiyo:unsolved}, Schmeh \shortcite{Schmeh:top50} and, in database form, the DECRYPT project \cite{Megyesi:2020,DECODE} do the field a service: they turn scattered archival curiosities into a research agenda. They have one weakness, which this paper documents. A list entry is written once, from the state of knowledge of the compiler, and the solution, when it comes, often appears somewhere the compiler does not watch. The entry then stands as unsolved for years, and the next researcher attacks a problem already solved.
+
+We met this six times in one campaign. The items and their prior solutions are set out in Table~\ref{tab:six}; Sections~\ref{sec:old}--\ref{sec:new} give the evidence, and Section~\ref{sec:pattern} draws the lesson.
+
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Item & Date & Listed by & Solved or explained by & When \\
+\midrule
+Richelieu to M.~de Ranc\'e, BnF fr.~3829 ff.~87, 89 & 1629 & Tomokiyo; DECODE R9461--2 & Avenel, \emph{Lettres du cardinal de Richelieu}, t.~III & 1858 \\
+Hyde's ciphered superscriptions to Barwick & 1659--60 & Tomokiyo & The 1724 English editor of Barwick's \emph{Life} & 1724 \\
+Ferdinand III $\leftrightarrow$ Cardinal-Infante & 1634--40 & Schmeh, Top 50 & Thomas Ernst, in the list's own comment thread & Oct.~2017 \\
+Perwich to Arlington, Paris & 1670 & Tomokiyo & M.~Brown; Lasry, Biermann and Tomokiyo & Oct.~2025 \\
+Confederate Navy dictionary code & 1863 & Tomokiyo & \todo{solver} (Webster's 1850 dictionary) & Aug.~2026 \\
+Milroy telegrams (Union) & 1861--62 & Tomokiyo & Richard Bean & 2026 \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:six} Six listed ``unsolved'' ciphers and their prior solutions.}
+\end{table*}
+
+\section{Solutions lost in old editions}\label{sec:old}
+
+\subsection{Richelieu, 1629}
+
+Two letters from Richelieu to Monsieur de Ranc\'e of July 1629 (BnF Fran\c{c}ais 3829, ff.~87 and 89) are partly in a two-digit cipher. Tomokiyo transcribed them and listed them as undeciphered; DECODE records R9461 and R9462 carry the status ``Non-decrypted''.
+
+We first broke the cipher ciphertext-only from the transcription. It is a homophonic substitution: 10--28 are the nineteen letters \emph{a b c d e f g h i l m n o p q r s t u} in scrambled order, 29--33 and 34--38 two further sets of vowel homophones, a tilde over a figure doubles the letter (\emph{d'e\textbf{ll}e}, \emph{bo\textbf{nn}e}, \emph{Bra\textbf{ss}ac}), 40 and 42 are the word codes \emph{de} and \emph{la}, and figures from 51 upward are a nomenclature (51 \emph{le Roi}, 52 \emph{la Reine m\`ere}, 54 \emph{Monsieur}, 58 \emph{la duchesse de Chevreuse}, 83 \emph{l'Espagne}, 84 \emph{l'Angleterre}, 92 \emph{la Lorraine}). The cribs that opened it were \emph{la}, \emph{d'autres}, \emph{d'elle \ldots\ elle}, and \emph{Brassac pour l'ambassade de Rome}; Jean de Galard de B\'earn, comte de Brassac, did in fact become ambassador in Rome in 1630.
+
+Only then did we search the printed editions. Avenel \shortcite{Avenel:1858} prints both letters in clear, nos.~CXCIX (p.~368) and CCV (p.~381), noting (p.~262, n.~2) that he had ``recompos\'e'' the key from deciphered documents in the Archives des Affaires \'etrang\`eres. His text agrees with our reading word for word and resolves the nomenclature entries we could only infer. It also confirms eleven transcription slips in the modern transcription (38 for 28 in \emph{l'\'evesque}, 47 for 17 in \emph{fronti\`ere}, and so on), none of which affects the alphabet. The cipher has been solved for 168 years; the catalogues had not looked in the standard edition of Richelieu's correspondence.
+
+\subsection{Hyde, 1659--60}
+
+Four letters from Edward Hyde, Charles II's chancellor in exile, to John Barwick carry superscriptions in numbers that do not decode with the Hyde--Barwick key printed with them in the Latin \emph{Vita} of 1721. Tomokiyo lists them as undeciphered.
+
+The English edition of 1724 \cite{Barwick:1724}, prepared from the Barwick family papers, explains them in a footnote to Hyde's letter of 12 June 1659 (p.~409): ``several of the Letters were superscribed with Numbers signifying nothing, some with two or three Lines of them, only to puzzle the Enemy, if they should fall into their Hands, which I the rather mention here, because some Persons, for want of examining those Superscriptions, as printed in the Appendix to the Latin Life (p.~358, 360, 389, 396, and 417.) with the Cypher also published there, have wondered what was the meaning of them.'' The four pages he cites are the four listed items. Our own test with the full key (\emph{the}~=~370, groups 1--692) confirms his description: the one superscription whose numbers all fall inside the key decodes to nothing, and the other three contain numbers (705, 729, 831, 856, 858, 859) that the key does not have. These are nulls by design, and the question was answered three centuries ago.
+
+\section{Solutions lost in comment threads and recent venues}\label{sec:new}
+
+\subsection{Ferdinand III and the Cardinal-Infante, 1634--40}
+
+Schmeh's \emph{Top 50} includes ciphered letters between Emperor Ferdinand III and his brother-in-law the Cardinal-Infante (Brussels, Algemeen Rijksarchief; DECODE R1887, R1889, R1890). In October 2017 Thomas Ernst posted a solution in the comment thread of the list post itself \cite{Ernst:2017}: a digit-pair code built on the Habsburg motto AEIOU (01/02~=~A, 02/12~=~E, 03/13~=~I, 04/14~=~O), each non-numeric sign encoding its count of strokes or semicircles. \todo{verify the mechanism against Ernst's comment and give the comment number.} The post was never updated. The images require a DECODE login, so we have not reproduced the solution; we report it because nine years later it is still invisible from the list.
+
+\subsection{Perwich to Arlington, 1670}
+
+The National Archives published this despatch (SP~78/129 f.~180) in August 2025 and announced on 14 October 2025 that it had been broken twice independently, by Matthew Brown and by Lasry, Biermann and Tomokiyo: a 20-column transposition with nulls \cite{TNA:perwich}. We reproduced it from Tomokiyo's transcription: the transcribed rows 2--21 are the columns, rows 1 and 22 null lines, and a keyless quadgram climb recovers the key (15 20 19 17 18 21 16 14 2 4 3 5 6 7 13 12 11 10 9 8) and 414 plaintext cells. The instructive part is that our own first analysis, before finding the announcement, had classified the cipher as a substitution on a chi-squared test; eight \emph{q} nulls contributed 106 of a whole-grid chi-squared of 160, and on the plaintext cells alone the statistic is 28, ordinary English. Scribal abbreviations (\emph{ye}, \emph{yt}, \emph{ym}, \emph{wt}, \&) surviving intact in the cells were the evidence for transposition all along.
+
+\subsection{The Confederate Navy dictionary code, 1863, and the Milroy telegrams, 1861--62}
+
+Both stood on Tomokiyo's list when we began. The dictionary code was found solved in August 2026, the dictionary being Webster's of 1850 \todo{solver and venue}; the Milroy telegrams were solved by Richard Bean in 2026 as Stager cipher no.~7, a six-column route transposition whose indicator word gives the number of lines \cite{Bean:2026}. Our own spot check of Bean's grid on Milroy's copy (the run ``imboden by to forward'' is column 6, rows 1--4 downward) agrees. Tomokiyo's page has since been updated for both; we include them because for several months each was being attacked as unsolved by at least one party who did not know.
+
+\section{The pattern, and a checklist}\label{sec:pattern}
+
+Three places swallow solutions. \textbf{Nineteenth-century documentary editions}: Avenel, the Camden Society, the \emph{Nuntiaturberichte}, the \emph{Calendar of State Papers} routinely print deciphered text in clear, with or without a note, and are not indexed as cryptologic literature. \textbf{Comment threads and blogs}: Schmeh's readers solved several of his Top 50 in comments he never folded back into the post. \textbf{Adjacent venues}: archive blogs, local newspapers, contest write-ups. The lists' compilers are individuals; the solvers do not always tell them; and the DECODE record, which could be the canonical status, is editable only by registered users and lags both.
+
+Before attacking a listed item, therefore:
+\begin{enumerate}\itemsep0pt
+\item Search the standard printed edition of the correspondent's papers for the letter's date; if the letter is printed in clear, the editor had the key.
+\item Read the comment thread of the list post to the end.
+\item Search the archive's own blog and catalogue note for the shelfmark.
+\item Check the DECODE record and its last-modified date against the list.
+\item Report a solution to all three places: the list's compiler, the DECODE record, and the archive.
+\end{enumerate}
+
+\section{Conclusion}
+
+Six of about a hundred list entries examined were already solved, one since 1858 and one explained since 1724. The rate is high enough that a literature check of the kind above should precede every cryptanalytic attack on a listed item, and it argues for a single, editable, dated status record per cryptogram. We have reported the Richelieu and Hyde results to the list's compiler; the DECODE records R9461 and R9462 should be marked deciphered with a reference to Avenel.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

@@ -183,6 +183,12 @@ cd richelieu && pip install requests && python build_ngrams.py && python solve.p
   Nuntiaturberichte) and the comment threads of the list posts. Six items so far were already solved in the open.
 - Dates in notes are absolute. Sessions are dated so that "since" claims can be checked against the source lists' last-modified dates.
 
+## Publication drafts
+
+[`papers/`](papers/) holds anonymised HistoCrypt-format drafts of the solved results (two regular papers, one short paper), the
+official style files, a shared bibliography, and a README with the verified format rules and the pre-submission checklist.
+Unvalidated drafts, not submitted.
+
 ## Contact
 
 Daniel Bourdeau, [dnbourdeau@gmail.com](mailto:dnbourdeau@gmail.com). Corrections, prior solutions I have missed,
