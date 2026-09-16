@@ -94,15 +94,18 @@
 <h2 id="recent"><span class="num">00</span> Recent findings</h2>
 <p>Newest first. One line each &mdash; the evidence is in the <a href="#queue">queue</a> below, or in the write-up linked.</p>
 <ul class="findings">
+<li><b>Moray to Wood, 1568</b> &mdash; <span class="fnd">attempted; undetermined at 134 groups.</span> A 5-gram Scots annealer reads five of six planted controls of the same 32-symbol profile at 93&ndash;98% and returns nothing on the letter, in Scots, English, French or Latin; no null, separator or crib survives. The catalogue says the passage is Border news, i.e. names, and 13% of genuine Scots passages score below the solver&rsquo;s false optimum. Needs the page or a sibling letter. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/moray/NOTES.md">Notes &rarr;</a></li>
+<li><b>Feuqui&egrave;res to Catinat, 1691</b> &mdash; <span class="fnd">Bazeries read it in 1893 and never printed it.</span> His book, read in full, confirms a 367-group <i>petit chiffre</i> but gives neither text nor table; the reading is in his papers at the SHD. Here the ciphertext is corrected from the 1819 pages, the two-part design fixed, and the solvers fail a matched control. <a href="https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres">Notes &rarr;</a></li>
+<li><b>Louis XIV to Chaulnes, 1690</b> &mdash; <span class="fnd">code design established, not read.</span> 300 groups verified from the page images, a one-part Croissy table of at least 535 entries identified from its step-10 chains, and no printed plaintext found; the annealer recovers 4&ndash;12% of a matched control, so 300 groups do not fix a 116-entry nomenclator. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/chaulnes/NOTES.md">Notes &rarr;</a></li>
 <li><b>Maltravers to Ormonde, 1634&ndash;35</b> &mdash; <span class="fnd">nomenclator confirmed; moved from partial to solved.</span> Wentworth&rsquo;s own dispatches in Knowler&rsquo;s <em>Strafforde&rsquo;s Letters</em> (1739) describe the King refusing to see Kildare and Ormonde moved for the Council &ldquo;in exchange&rdquo; for Crosby, clause for clause with the cipher passages. Seven of nine codes fixed. <a href="ormonde.html">Full write-up &rarr;</a></li>
 <li><b>Voynich manuscript</b> &mdash; <span class="fnd">adjudicated, not deciphered.</span> Plain or simply enciphered European language excluded on transliteration-robust entropy; grille and free-edit self-citation disfavoured; verbose encoding against structured meaningless text left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></li>
 <li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
 <li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
+</ul>
+<div class="more" hidden><ul class="findings">
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route, single columnar and forward double columnar (same key to width 30, two keys to 16 &times; 16) excluded against planted controls; the reversed direction and the long-key attack are running.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
-</ul>
-<div class="more" hidden><ul class="findings">
 <li><b>Censorship manual steganograms, WW2</b> &mdash; <span class="fnd">blocked on image resolution.</span> The map&rsquo;s shift direction and the exact Morse any German wording would leave are now fixed, but the pen marks are 2&ndash;5 pixels in the best public photograph. Needs a high-resolution scan of KV 2/2424.</li>
 <li><b>Debosnys, 1882&ndash;83</b> &mdash; <span class="fnd">attempted, not solved.</span> The cipher poem is rhyming couplets in a French syllabary, every testable crib is excluded, and the surviving text is too short to break without one. <a href="debosnys.html">Full write-up &rarr;</a></li>
 <li><b>Catokwacopa, 1875</b> &mdash; <span class="fnd">readings audited.</span> Of 1,645 names, only Conington, Jowett, Shirley and Hertford fit their lines, so the Oxford reading is right in outline. Exact alternatives found for two lines, and four lines shown to be undecided by the letters.</li>
@@ -115,7 +118,7 @@
 <li><b>Berthier to Napoleon, 1812</b> &mdash; <span class="fnd">plaintext located,</span> in print since 1912, drawn from the very archive carton the cryptogram sits in.</li>
 <li><b>Chinese gold bars, 1933</b> &mdash; <span class="fnd">constructed, not enciphered,</span> now corroborated from a second direction by the documentary evidence. <a href="goldbar.html">Full case &rarr;</a></li>
 </ul></div>
-<button class="showmore" type="button" data-target="findings">Show 11 earlier findings</button>
+<button class="showmore" type="button" data-target="findings">Show 14 earlier findings</button>
 
 
 <h2 id="writeups"><span class="num">01</span> Write-ups</h2>
@@ -528,7 +531,7 @@ key-dependent fragments or archive-bound manuscripts, held here so that nothing 
 <details class="fold"><summary>Show the remaining entries by group</summary>
 <table>
 <tr><th>Group</th><th>Entries</th></tr>
-<tr><td>English, 16th century</td><td>Throckmorton (1559) and Wool (1568) &middot; Moray and Wood (1568) &middot; SP53/16 no. 78 and no. 79 &middot; SP53/22 f. 52 &middot; ciphers related to Walsingham</td></tr>
+<tr><td>English, 16th century</td><td>Throckmorton (1559) and Wool (1568) &middot; ciphers related to Walsingham (Moray and Wood, SP53/16 nos. 78&ndash;79 and SP53/22 f. 52 are in the queue above)</td></tr>
 <tr><td>Spanish</td><td>postscript to Ferdinand&rsquo;s letter (1498) &middot; Charles V letter (1521?) &middot; Simancas EST,LEG,1381,180 and 1381,143</td></tr>
 <tr><td>French to 1610</td><td>Catherine de Medici to du Croc (1567) &middot; Birago to Nevers (1571) &middot; Blancmesnil to Nevers &middot; Marie de Medici (1610)</td></tr>
 <tr><td>Italian and Venetian</td><td>Venetian letter in Spanish archives (c.1589) &middot; Cocquet (1616) &middot; Fra Guglielmo Vizani (1637)</td></tr>
