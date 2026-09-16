@@ -11,7 +11,7 @@ blocks whose rules now live in style.css. On index.html it also regenerates the 
 """
 import re, pathlib, html
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260916c'
+VERSION = '20260916d'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -200,7 +200,7 @@ def process(path):
     s = s.replace('</body>', f'<script src="site.js?v={VERSION}"></script>\n</body>', 1)
     s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)
     if slug == 'index':
-        FEATURED = ['voynich', 'armstrong', 'richelieu', 'goldbar', 'vatican', 'sunyatsen']
+        FEATURED = ['voynich', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'goldbar', 'sunyatsen']
         feat = [next(p for p in PAGES if p['slug'] == f) for f in FEATURED]
         rest = sorted([p for p in PAGES if p['slug'] not in FEATURED], key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] != 'famous' else 4, -p['y']))
         rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span><span class="yr">{p["year"]}</span></a></li>\n' for p in rest)

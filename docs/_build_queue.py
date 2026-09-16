@@ -12,36 +12,34 @@ import re
 CRYPTIANA = 'https://cryptiana.web.fc2.com/code/unsolved.htm'
 T50 = 'https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/'
 ELONKA = 'https://elonka.com/UnsolvedCodes.html'
+GH = 'https://github.com/dbourdeau/cyphersolver/blob/main/'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("“Cifer with Spanish spy”, SP53/22 f.52", "1580s",
-     CRYPTIANA, "", "partial", "md", "low",
-     "A short undeciphered slip among the Mary Queen of Scots cipher keys, transcribed on Tomokiyo's page: <b>87 groups</b> on a digit-plus-b alphabet "
-     "of about 26 symbols, so a monoalphabetic cipher of Spanish. Eighty-seven letters sits at the unicity distance for a mixed alphabet, which is why "
-     "the odds are only partial: a reading may come out that cannot be confirmed. Worth an hour, with the control run first. Added September 2026, "
-     "not yet attempted."),
+    ("Henry III to S&eacute;gur, BnF 500 de Colbert 401", "1583&ndash;86",
+     GH + "segur/NOTES.md", "", "even", "md", "medium",
+     "Four letters in figures, ff. 143, 233, 239 and 288v. Carried as blocked since Gallica refused this client; <b>reopened 16 September</b>, because "
+     "the IIIF image route answers a script with a browser User-Agent. The volume's other Henry III cipher (f. 321) is a regular alphabetical "
+     "syllabary with a nomenclature from 162, the obvious prior for these. Next step: fetch and transcribe the four folios, then a homophonic solve "
+     "with the syllabary order as a hard prior, as for Bordeaux. Not yet attempted."),
 
-    ("Lodovico Birago to the Duke of Nevers, the numerical paragraph", "1571",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md", "", "low", "lo", "done",
-     "BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted September 2026.</b> "
-     "The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen digits carrying a dot, bar or cross, nine wavy signs written inline, six null letters. "
-     "Every variable-length design (two-digit figures announced by their first or last digit, 1xx codes) was excluded with scans that recover the true rule on matched controls. "
-     "What fits is the design of the Nevers Italian keys of 1588&ndash;89: two-digit figures for letters with heavy vowel homophony, marked figures of one or two digits for names, "
-     "and nulls anywhere; exactly 75 pairings satisfy it, all with the same 228 letter tokens over 62 symbols. At that homophony and length the annealer cannot read even its own "
-     "matched controls (14% right after 120 restarts), and the target scores in the same band, so the limit is the method. A second letter in the cipher, or one fixed code group, is what would open it."),
+    ("Blancmesnil to Nevers; Cocquet to Mangot; Joyeuse to Villars", "1580s&ndash;1616",
+     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "low", "lo", "low",
+     "Three short enciphered passages in volumes Gallica now serves over IIIF: BnF fr. 3633 f. 24, Clairambault 369 f. 316 and 500 de Colbert 33 f. 539. "
+     "Each is too short to solve alone, but Tomokiyo's Nevers and Louis XIII articles print sibling keys for the same correspondents, so the test is "
+     "key matching, an hour each. Not yet attempted."),
 
-    ("Armstrong to Madison, 20 February 1808: the disputed contest solution", "1808",
-     "armstrong.html", "", "adjudication", "md", "medium",
-     "A different code from the postscript solved on this site, and the subject of a 2025 contest whose published solution has been disputed. The roll 13 "
-     "frames fetched for the postscript cover this letter too, and thirty-nine of them are down and unread. The job is the Urquhart kind: rebuild the "
-     "claimed key from the frames, score it against the code groups and against a shuffled control, and say whether it holds. Not yet started."),
+    ("Marco Ottobon to Giovanni Mocenigo, BNE Ms. 994 ff. 34&ndash;38", "1589",
+     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "low", "lo", "medium",
+     "Five folios of a letter-and-digit Venetian cipher in the Spanish archives, the longest open Venetian text on the list; Valle de la Cerda read it "
+     "in 1589 and his solution is lost. Five folios is enough text for a homophonic attack. The Biblioteca Nacional's digital library returns 403 to "
+     "scripts, so the images need a browser session first. Not yet attempted."),
 
-    ("Louis XIV to the Duke of Chaulnes in Rome", "1690",
-     "http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/", "", "low", "lo", "medium",
-     "Instructions of 10 July 1690 in a code running to at least 535, partly transcribed on Tomokiyo's page, with a Cipherbrain thread from 2019 that "
-     "started and never concluded. A large nomenclator in a single letter is not attackable ciphertext-only; what can be done is to finish the thread's "
-     "work, fix which groups the clear text and Louis XIV's other codes of 1690 pin down, and record how much stays open. Not yet started."),
+    ("DECODE R2179 (1644) and Starhemberg (1758), undelimited digit streams", "1644, 1758",
+     "https://cryptiana.web.fc2.com/code/variable2.htm", "", "low", "lo", "high",
+     "The two Austrian items left in Tomokiyo's article now that R2159 (Lucca) and R1408 (Warsaw) are read. Neither has token boundaries, so segmentation "
+     "comes before substitution, which is the Vatican Part 5 problem again at a fraction of the length. The Lucca and Warsaw annealers apply once the "
+     "stream is cut; the segmentation tools from the Vatican work are the first step. Not yet attempted."),
 
     ("Japanese telegram decoded by Yardley", "c.1920",
      "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "not started",
@@ -50,6 +48,61 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Antoine de Bordeaux to Brienne, London, 30 May 1653", "1653",
+     GH + "bordeaux/NOTES.md", "", "not solved, design identified", "lo",
+     "A Thurloe intercept, BL Add MS 4200 f. 88, <b>810 tokens over 156 symbols</b> in Tomokiyo's transcription: graphic signs, plain numbers and three "
+     "diacritic series. <b>Attempted 16 September 2026.</b> Identified as a cipher of the Brienne office's 1651&ndash;54 family, in which consecutive numbers "
+     "run through the syllabary in alphabetical order across the diacritic series, as in Lasry's 1654 Mazarin&ndash;Bordeaux key. A solver with that "
+     "order as a hard prior reads matched 810-token controls to 99&nbsp;%, and the letter never leaves the failed-seed band over 21 seeds; the rival "
+     "reading of the symbol classes is unsolvable even on its own control. The control that explains it: misreading one diacritic in ten already "
+     "drops the solver to 52&nbsp;% and 9&nbsp;% on two seeds, and Tomokiyo's copy is provisional. The plaintext is not in print (Birch, Guizot checked). "
+     "Ways in: the DECODE images of R8390 to fix the diacritics, the 1653 English key for &ldquo;Mr. Bordeaux&rdquo; in BL Add MS 32263 f. 1 (R7537), or "
+     "the letter-book at the BnF. The companion item, Mazarin to Bordeaux of 22 June 1654, was solved by George Lasry in February 2025 and is closed. "
+     "<a href=\"" + GH + "bordeaux/NOTES.md\">Notes &rarr;</a>"),
+
+    ("Armstrong to Madison, 20 February 1808: the contest solution does not hold", "1808",
+     "armstrong.html", "", "adjudicated", "md",
+     "A different code from the postscript solved on this site: 369 groups running to 1900, plus shorthand-like symbol passages. <b>Adjudicated "
+     "16 September 2026.</b> The AFIO contest solution of May 2025 rests on a 56-entry key. Scored against the letter, that key covers 36&nbsp;% of the "
+     "groups, leaves 93 of its own 133 mapped occurrences unread, and uses five numbers that do not occur in the letter at all. Built by the same "
+     "procedure on a shuffled ciphertext, 500 random keys fit the claimed sentence with all 60 words in order and account for more of the text than the "
+     "AFIO key does. Madison wrote in May 1808 that no such cipher was in the office, and every pencil decode on roll 13 is THE&nbsp;=&nbsp;972, so the "
+     "frames cannot supply it either. The claim does not hold; the letter stays unsolved and needs the key Armstrong actually used. "
+     "<a href=\"" + GH + "armstrong/NOTES.md\">Notes &rarr;</a>"),
+
+    ("Lodovico Birago to the Duke of Nevers, the numerical paragraph", "1571",
+     GH + "birago/NOTES.md", "", "not solved, structure fixed", "lo",
+     "BnF fr. 3251 f. 119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted "
+     "16 September 2026, four sessions.</b> The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen carrying a dot, bar or "
+     "cross, nine wavy signs inline, six null letters. Every variable-length design was excluded with scans that recover the true rule on matched "
+     "controls. What fits is the design of the Nevers Italian keys of 1588&ndash;89: two-digit letters with heavy vowel homophony, marked figures of one or "
+     "two digits for names, nulls anywhere; 75 pairings satisfy it, all giving 228 letter tokens over 62 symbols. At that homophony and length the "
+     "annealer cannot read its own controls (14&nbsp;% after 120 restarts), a word-level objective ranks the truth first but the search still fails, "
+     "four-million-step anneals do no better, and the target scores in the same band, so the limit is the method. Also excluded: a Lucca-type "
+     "polyphonic single-figure design, with a method that reads its control three times out of three; structured homophony rules; a syllabic "
+     "alphabet. A sweep of the volume's 118 openings finds no second letter in the cipher. The Nevers key of 1574 (fr. 3315) is a symbol alphabet with a "
+     "figure nomenclature 8&ndash;62, recorded as a gloss. Needs a sibling letter or one fixed code group. "
+     "<a href=\"" + GH + "birago/NOTES.md\">Notes &rarr;</a>"),
+
+    ("Louis XIV to the Duke of Chaulnes in Rome, 10 July 1690", "1690",
+     GH + "chaulnes/NOTES.md", "", "not solved, design fixed", "lo",
+     "<b>Attempted 16 September 2026.</b> The ciphertext verified from the page images, two transcription fixes: <b>300 groups, 116 distinct</b>. The "
+     "step-10 chains give the design, a one-part Croissy table of ten columns running to at least 535. That is the whole result, because 300 groups do "
+     "not determine a 116-entry nomenclator: the annealer recovers 4&ndash;12&nbsp;% of a matched control and wrong keys score within noise of the true one. "
+     "No printed plaintext found; G&eacute;rin's 1877 article does not quote the letter. Needs the minute in Affaires &eacute;trang&egrave;res, "
+     "Correspondance politique Rome 331&ndash;332, or a second letter in the code. "
+     "<a href=\"" + GH + "chaulnes/NOTES.md\">Notes &rarr;</a>"),
+
+    ("Catherine de M&eacute;dicis to Philibert du Croc, 27 April 1567", "1567",
+     GH + "ducroc/NOTES.md", "", "below threshold", "lo",
+     "Printed with a facsimile in Destray's 1924 life of du Croc; the plate fetched here from Gallica over IIIF and transcribed: about <b>147 symbols, "
+     "40 distinct</b>, French, with sparse dots. <b>Attempted 16 September 2026.</b> A matched control, du Croc's own despatch of the same year "
+     "enciphered with a 40-symbol key on the target's profile, is recovered at only 28&ndash;41&nbsp;% over six seeds, so a ciphertext-only attack at this "
+     "length is below the solver's threshold and no reading is claimed. Lasry's key for the Charles IX letter in the same book is a different symbol "
+     "set. What would move it: cribs from Catherine's and du Croc's other letters of April 1567, or the dots and ticks proving to be word separators, "
+     "which would make it the Forster kind. The transcription needs a second reader. "
+     "<a href=\"" + GH + "ducroc/NOTES.md\">Notes &rarr;</a>"),
+
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
      "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "attempted, not solved", "lo",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>Attempted "
@@ -136,7 +189,8 @@ ATTEMPTED = [
      "keys give zero. So the text pools to 1151 groups, and it still does not fall: the homophonic annealer fails planted English and French "
      "controls at 507 groups and again at 1151, scoring at random-text level while the true plaintext scores twice as well. Four groups per "
      "symbol is below what ciphertext-only attacks on this class can do, as it was for Lasry on d'Avaux. The 1585&ndash;86 calendar is paywalled. "
-     "Needs the page images and the SP 53/22 keys, f. 53 first."),
+     "The &ldquo;Spanish spy&rdquo; slip SP 53/22 f. 52, once rank 1 here, is 84 tokens over 22 symbols; homophonic annealing in Spanish, French, "
+     "English and Italian gives fluent nonsense at that length, so it is below unicity and closed with them. Needs the page images and the SP 53/22 keys, f. 53 first."),
 
     ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
      "<b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT "
@@ -152,7 +206,7 @@ ATTEMPTED = [
      "<b>Second session.</b> The microfilm frames were re-fetched through the catalogue proxy. Frame 0190, a fully pencilled despatch of 20 July 1806 "
      "(&ldquo;a peace was signed last night between Russia and France&rdquo;), gives <b>1320 = like</b> as a reading from source, so the last clause "
      "of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down "
-     "and unread; the 20 February 1808 letter is untouched."),
+     "and unread. The 20 February 1808 letter is a different code and is adjudicated separately above."),
 
     ("Urquhart octastich", "17th c.", "https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md", "top 50", "book-cipher shape", "lo",
      "<b>Second session.</b> Measured: 272 numbers, 82 distinct, maximum 201, index of coincidence 0.021, forty per cent of values ten or less, "

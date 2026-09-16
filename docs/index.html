@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
 <meta name="description" content="Working notes on historical ciphers from three standard lists: Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes, and Schmeh's Top 50 - with new decipherments, corrections to the catalogues where a solution already existed in print, and an audit finding nine of the Top 50 already closed and one entry an April Fools' hoax.">
-<link rel="stylesheet" href="style.css?v=20260916c">
+<link rel="stylesheet" href="style.css?v=20260916d">
 </head>
 <body id="top">
 <header class="nav"><div class="in">
@@ -46,6 +46,15 @@
   <a class="cta" href="voynich.html">Read the adjudication &rarr;</a>
 </div>
 <figure class="art"><img src="voynich_f34r.jpg" alt="Voynich manuscript, folio 34r" loading="lazy"></figure>
+</div>
+<div class="bn-panel noart" role="group" aria-roledescription="slide" hidden>
+<div>
+  <span class="tag">&#9733; Solved &middot; 1644</span>
+  <h2 id="fra-giovanni-di-lucca-to-the-emperor-a-p">Fra Giovanni di Lucca to the Emperor: a figure cipher that reads two ways</h2>
+  <p>DECODE R2159, listed as non-decrypted and left at <i>Al principe di&hellip;</i> on Tomokiyo&rsquo;s page, because the crib puts <i>i</i> and <i>n</i> on the same figure. It is not a slip: 17 stands for both, and 19 for both <i>t</i> and <i>s</i>. Fix the eight consistent crib letters, anneal the rest, and every seed gives the same Italian while shuffled controls give none. A Viterbi pass over the two alternatives reads the letter end to end: keep the Turk off R&aacute;k&oacute;czi, raise Moldavia against him, and two thousand Cossacks.</p>
+  <div class="stat2"><div><b>231</b><span>figures, read end to end</span></div><div><b>2</b><span>polyphonic figures, 17 = i/n and 19 = t/s</span></div><div><b>0 of 5</b><span>shuffled controls that give a reading</span></div></div>
+  <a class="cta" href="lucca.html">Read the write-up &rarr;</a>
+</div>
 </div>
 <div class="bn-panel hasart" role="group" aria-roledescription="slide" hidden>
 <div>
@@ -95,6 +104,11 @@
 <p>Newest first. One line each &mdash; the evidence is in the <a href="#queue">queue</a> below, or in the write-up linked.</p>
 <ul class="findings">
 <li><b>From Warsaw, 24 December 1627</b> &mdash; <span class="fnd">read; the alphabet was in plain order.</span> DECODE R1408, listed as non-decrypted with only a dateline in clear. The stray letters <i>a</i> and <i>m</i> are nulls, the letter pairs stand for consonants, the rare groups for syllables; a 5-gram-plus-dictionary annealer converges from random and seeded starts where shuffles fail, and the key it returns puts <i>a</i>&ndash;<i>m</i> on the odd figures 13&ndash;33 and <i>n</i>&ndash;<i>z</i> on the even ones. The writer, back from Nikolsburg, presses for a promised canonry of Olm&uuml;tz for one of the sons of &ldquo;this Most Serene [Queen]&rdquo;. Word codes glossed only. <a href="warsaw.html">Full write-up &rarr;</a></li>
+<li><b>Bordeaux to Brienne, 1653</b> &mdash; <span class="fnd">a Brienne-office cipher, identified but not read.</span> Thurloe&rsquo;s intercept, 810 tokens over 156 symbols. The design is the 1651&ndash;54 family in which consecutive numbers run through the syllabary alphabetically across the diacritic series; a solver with that order as a prior reads matched 810-token controls to 99%, and the letter never leaves the failed-seed band. One misread diacritic in ten drops the control to 52% and 9%, and the transcription is provisional. The 1654 companion letter was solved by Lasry in 2025 and is closed. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/bordeaux/NOTES.md">Notes &rarr;</a></li>
+<li><b>Armstrong to Madison, 20 February 1808</b> &mdash; <span class="fnd">the 2025 contest solution does not hold.</span> Its 56-entry key covers 36% of the groups, leaves 93 of its own 133 mapped occurrences unread, and uses five numbers absent from the letter; keys built by the same procedure on a shuffled ciphertext fit the claimed sentence better. Madison said in 1808 that no such cipher was in the office, and the roll-13 decodes are all THE&nbsp;=&nbsp;972. The letter stays unsolved. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/armstrong/NOTES.md">Notes &rarr;</a></li>
+<li><b>Richard Forster, 1644</b> &mdash; <span class="fnd">found already read; Tomokiyo&rsquo;s page still says unsolved.</span> Deciphered by Lasry, by Biermann, and again by Pitt in September 2026. Verified here at z&nbsp;=&nbsp;8.8 against 20,000 permuted keys, and 31 of 34 symbols recovered blind once word edges are used and the French model writes <i>u</i> for <i>v</i>; six matched controls read. A mixed homophonic alphabet, not a regular Stuart key. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md">Notes &rarr;</a></li>
+<li><b>Birago to Nevers, 1571</b> &mdash; <span class="fnd">structure fixed, not read.</span> Re-transcribed glyph by glyph from Gallica: two-digit letters with heavy vowel homophony, marked one- or two-digit code groups, six nulls. Variable-length, polyphonic and syllabic designs excluded with methods that read their controls; at 228 letter tokens over 62 symbols the annealer fails its own matched controls, so the target&rsquo;s negative is the method&rsquo;s limit. No sibling letter in the volume. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md">Notes &rarr;</a></li>
+<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">a transposition of telegraphic Spanish; attempted, not solved.</span> A lag scan excludes every single columnar and every reversed-direction double columnar (controls z 11&ndash;22, telegram 3.3); exhaustive enumeration of the second key, proven on plants up to 41 &times; 8 and 30 &times; 10, excludes forward double columnar and both mixed conventions with a second key of ten or fewer letters. Local search on long second keys fails on plants at this length. What is left is the German-practice region, two keys of 15&ndash;25 letters, and that needs the second telegram. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Notes &rarr;</a></li>
 <li><b>Fra Giovanni di Lucca to the Emperor, 1644</b> &mdash; <span class="fnd">read; a polyphonic figure cipher.</span> DECODE R2159, listed as non-decrypted and left at <i>Al principe di&hellip;</i> on Tomokiyo&rsquo;s page because the crib puts <i>i</i> and <i>n</i> on the same figure. Fixing the eight consistent crib letters and annealing the rest, every seed gives one Italian reading and five shuffled controls give none; 17 is <i>i</i> or <i>n</i>, 19 is <i>t</i> or <i>s</i>, and the 231 figures read end to end: keep the Turk from helping the Prince of Transylvania, raise the Prince of Moldavia against him, give him two thousand Cossacks, and no peace until he is humbled or beaten. <a href="lucca.html">Full write-up &rarr;</a></li>
 <li><b>SP53/16 nos. 78 and 79, 1585</b> &mdash; <span class="fnd">one key for both letters, and still below threshold.</span> Ten of the twenty commonest symbols are common to the Tempest and Barret letters against three expected by chance, so the text pools to 1151 groups; the homophonic annealer then fails planted English and French controls at that length as it did at 507. The labels are glyphs, so these are symbol ciphers of the Mary&ndash;Castelnau class. Needs the images and the SP 53/22 keys. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md">Notes &rarr;</a></li>
 <li><b>Charles I and Nicholas to Boswell, 1643</b> &mdash; <span class="fnd">alphabet solved (R. Pitt), text read in substance.</span> A 24-letter row repeated four times over 20&ndash;115, verified at z&nbsp;=&nbsp;9.6 against 20,000 permuted rows. Added here: the four graphic signs are word-signs introduced inside the spelled word (good, Cousin, Master, us); the King&rsquo;s letter is to the Duke of Courland&rsquo;s envoy at The Hague and sends him the re-credentials Simpson printed in 1893; Nicholas asks Boswell to hinder the Dutch embassy. A dozen single-occurrence codes remain. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/boswell/NOTES.md">Notes &rarr;</a></li>
@@ -102,13 +116,12 @@
 <li><b>Feuqui&egrave;res to Catinat, 1691</b> &mdash; <span class="fnd">Bazeries read it in 1893 and never printed it.</span> His book, read in full, confirms a 367-group <i>petit chiffre</i> but gives neither text nor table; the reading is in his papers at the SHD. Here the ciphertext is corrected from the 1819 pages, the two-part design fixed, and the solvers fail a matched control. <a href="https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres">Notes &rarr;</a></li>
 <li><b>Louis XIV to Chaulnes, 1690</b> &mdash; <span class="fnd">code design established, not read.</span> 300 groups verified from the page images, a one-part Croissy table of at least 535 entries identified from its step-10 chains, and no printed plaintext found; the annealer recovers 4&ndash;12% of a matched control, so 300 groups do not fix a 116-entry nomenclator. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/chaulnes/NOTES.md">Notes &rarr;</a></li>
 <li><b>Maltravers to Ormonde, 1634&ndash;35</b> &mdash; <span class="fnd">nomenclator confirmed; moved from partial to solved.</span> Wentworth&rsquo;s own dispatches in Knowler&rsquo;s <em>Strafforde&rsquo;s Letters</em> (1739) describe the King refusing to see Kildare and Ormonde moved for the Council &ldquo;in exchange&rdquo; for Crosby, clause for clause with the cipher passages. Seven of nine codes fixed. <a href="ormonde.html">Full write-up &rarr;</a></li>
-<li><b>Voynich manuscript</b> &mdash; <span class="fnd">adjudicated, not deciphered.</span> Plain or simply enciphered European language excluded on transliteration-robust entropy; grille and free-edit self-citation disfavoured; verbose encoding against structured meaningless text left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></li>
-<li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
 </ul>
 <div class="more" hidden><ul class="findings">
+<li><b>Voynich manuscript</b> &mdash; <span class="fnd">adjudicated, not deciphered.</span> Plain or simply enciphered European language excluded on transliteration-robust entropy; grille and free-edit self-citation disfavoured; verbose encoding against structured meaningless text left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></li>
+<li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
 <li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
-<li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
-<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">a transposition of telegraphic Spanish; attempted, not solved.</span> A lag scan excludes every single columnar and every reversed-direction double columnar (controls z 11&ndash;22, telegram 3.3); exhaustive enumeration of the second key, proven on plants up to 41 &times; 8 and 30 &times; 10, excludes forward double columnar and both mixed conventions with a second key of ten or fewer letters. Local search on long second keys fails on plants at this length. What is left is the German-practice region, two keys of 15&ndash;25 letters, and that needs the second telegram.</li>
+<li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. The DECODE images, now accessible, will fix the dots and uncertain digits, but the documents carry no separators between tokens, so they cannot restore a word division the manuscript never had; the key or the clear copy in Chigi M II 49 remains the route in. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
 <li><b>Censorship manual steganograms, WW2</b> &mdash; <span class="fnd">blocked on image resolution.</span> The map&rsquo;s shift direction and the exact Morse any German wording would leave are now fixed, but the pen marks are 2&ndash;5 pixels in the best public photograph. Needs a high-resolution scan of KV 2/2424.</li>
 <li><b>Debosnys, 1882&ndash;83</b> &mdash; <span class="fnd">attempted, not solved.</span> The cipher poem is rhyming couplets in a French syllabary, every testable crib is excluded, and the surviving text is too short to break without one. <a href="debosnys.html">Full write-up &rarr;</a></li>
@@ -122,7 +135,7 @@
 <li><b>Berthier to Napoleon, 1812</b> &mdash; <span class="fnd">plaintext located,</span> in print since 1912, drawn from the very archive carton the cryptogram sits in.</li>
 <li><b>Chinese gold bars, 1933</b> &mdash; <span class="fnd">constructed, not enciphered,</span> now corroborated from a second direction by the documentary evidence. <a href="goldbar.html">Full case &rarr;</a></li>
 </ul></div>
-<button class="showmore" type="button" data-target="findings">Show 15 earlier findings</button>
+<button class="showmore" type="button" data-target="findings">Show 16 earlier findings</button>
 
 
 <h2 id="writeups"><span class="num">01</span> Write-ups</h2>
@@ -144,6 +157,20 @@
     <p class="quote">&ldquo;Russel ought to be the consul: he is an American by birth &hellip; Next to him in fitness is O&rsquo;Mealy, but he is, like Warden, an Irishman.&rdquo;</p>
     <span class="go">read &rarr;</span>
   </a>
+  <a class="card" href="lucca.html">
+    <div class="eyebrow"><span>Vienna &middot; 1644</span><span class="st solved">solved</span></div>
+    <h3>Fra Giovanni di Lucca to the Emperor &mdash; a polyphonic figure cipher</h3>
+    <p>DECODE R2159, 231 dot-delimited figures of Italian, listed as non-decrypted and left half-read on Tomokiyo&rsquo;s page because its crib is self-contradictory under any substitution. It is a 24-figure alphabet in which 17 stands for both <em>i</em> and <em>n</em> and 19 for both <em>t</em> and <em>s</em>. Eight crib letters fixed, the rest annealed, every seed agrees, shuffled controls do not; a Viterbi pass over the two alternatives reads it end to end: an offer to keep the Turk off R&aacute;k&oacute;czi, raise Moldavia against him and give two thousand Cossacks.</p>
+    <p class="quote">&ldquo;il principe di Bogdania, et li dar&ograve; dumilia Cosachi &hellip; che non faccia pace fin che l&rsquo;habbi humiliato o vinto&rdquo;</p>
+    <span class="go">read &rarr;</span>
+  </a>
+  <a class="card" href="warsaw.html">
+    <div class="eyebrow"><span>Warsaw &middot; 1627</span><span class="st solved">solved</span></div>
+    <h3>From Warsaw, 24 December 1627 &mdash; an alphabet in plain order</h3>
+    <p>DECODE R1408, one page of figures and stray letters with only a dateline in clear, listed as non-decrypted. The letters <em>a</em> and <em>m</em> are nulls, the letter pairs are alternates for consonants, the rare groups are syllables, and the alphabet, recovered blind by a 5-gram-plus-dictionary annealer against shuffled controls, turns out to run in order: odd figures <em>a</em> to <em>m</em>, even figures <em>n</em> to <em>z</em>. A reminder that a promised canonry of Olm&uuml;tz for one of the Queen of Poland&rsquo;s sons has not been conferred.</p>
+    <p class="quote">&ldquo;un canonicato d&rsquo;Olmiz ad uno de li suoi figli &hellip; si degni darne subito a me benigna risposta&rdquo;</p>
+    <span class="go">read &rarr;</span>
+  </a>
   <a class="card" href="richelieu.html">
     <div class="eyebrow"><span>France &middot; 1629</span><span class="st solved">solved</span></div>
     <h3>Richelieu to M. de Ranc&eacute; &mdash; BnF Fran&ccedil;ais 3829</h3>
@@ -159,14 +186,6 @@
     <p class="quote">MQOLCSJTLGAJOKBSSBOMUPCE &middot; ZUQUPNZN &middot; FEWGDRHDDEEUMFFTEEMJXZR</p>
     <span class="go">read &rarr;</span>
   </a>
-  <a class="card hasthumb" href="vatican.html">
-    <img class="thumb" src="vatican_meister176.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>Rome &rarr; Spain &middot; 1542</span><span class="st stuck">family identified</span></div>
-    <h3>The Vatican cipher of April 1542 &mdash; an Antonio Elio cipher</h3>
-    <p>Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Six sessions, five model classes excluded against matched controls, the Meister keys verified from the scans.</p>
-    <p class="quote">27 and 80 end a third of the words &middot; 441 repeated 7-grams against 5 in a shuffle</p>
-    <span class="go">read &rarr;</span>
-  </a>
   <a class="card hasthumb" href="sunyatsen.html">
     <img class="thumb" src="sunyatsen_telegram.png" alt="" loading="lazy">
     <div class="eyebrow"><span>Swatow &rarr; Tokyo &middot; 1916</span><span class="st solved">solved</span></div>
@@ -179,14 +198,13 @@
 <h3 class="listhead">And the rest</h3>
 <ul class="list">
   <li><a href="huangxing.html"><span class="st solved">scheme found</span><span class="t">Huang Xing to Lin Hu and Li Genyuan &mdash; a kana condenser</span><span class="yr">1916</span></a></li>
-  <li><a href="lucca.html"><span class="st solved">solved</span><span class="t">Fra Giovanni di Lucca to the Emperor &mdash; a polyphonic figure cipher</span><span class="yr">1644</span></a></li>
   <li><a href="ormonde.html"><span class="st solved">solved</span><span class="t">Maltravers to Ormonde &mdash; a regular block cipher</span><span class="yr">1634&ndash;35</span></a></li>
-  <li><a href="warsaw.html"><span class="st solved">solved</span><span class="t">From Warsaw, 24 December 1627 &mdash; an alphabet in plain order</span><span class="yr">1627</span></a></li>
   <li><a href="hyde.html"><span class="st found">explained</span><span class="t">Hyde&rsquo;s ciphered superscriptions &mdash; not a cipher at all</span><span class="yr">1659&ndash;60</span></a></li>
   <li><a href="adfgvx.html"><span class="st partial">9 of 22 read</span><span class="t">The ADFGVX residue of 1918 &mdash; twenty-two mutilated messages against known keys</span><span class="yr">1918</span></a></li>
   <li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><span class="t">The Scorpion letters &mdash; two ciphers below the unicity distance</span><span class="yr">1991</span></a></li>
   <li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><span class="t">The Copenhagen cryptogram &mdash; not a simple substitution of any language tested</span><span class="yr">c.1950s</span></a></li>
   <li><a href="debosnys.html"><span class="st stuck">too short to break</span><span class="t">The Debosnys cryptograms &mdash; a French syllabary, and why it stops there</span><span class="yr">1883</span></a></li>
+  <li><a href="vatican.html"><span class="st stuck">family identified</span><span class="t">The Vatican cipher of April 1542 &mdash; an Antonio Elio cipher</span><span class="yr">1542</span></a></li>
   <li><a href="famous.html"><span class="st partial">the famous ones</span><span class="t">Why the famous ciphers resist</span><span class="yr">survey</span></a></li>
 </ul>
 <!-- cards:end -->
@@ -194,42 +212,42 @@
 <h2 id="queue"><span class="num">02</span> Priority queue</h2>
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
-  <button class="qf on" data-f="all">All <span>36</span></button>
+  <button class="qf on" data-f="all">All <span>41</span></button>
   <button class="qf" data-f="live">Worth continuing <span>5</span></button>
-  <button class="qf" data-f="done">Attempted <span>23</span></button>
+  <button class="qf" data-f="done">Attempted <span>28</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
 <h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
   <div class="tg-b">
-    <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">“Cifer with Spanish spy”, SP53/22 f.52</a><span class="tg-date">1580s</span></h3>
-    <div class="tg-meta"><span class="odds md">partial</span><span class="eff">low effort</span></div>
-    <p>A short undeciphered slip among the Mary Queen of Scots cipher keys, transcribed on Tomokiyo's page: <b>87 groups</b> on a digit-plus-b alphabet of about 26 symbols, so a monoalphabetic cipher of Spanish. Eighty-seven letters sits at the unicity distance for a mixed alphabet, which is why the odds are only partial: a reading may come out that cannot be confirmed. Worth an hour, with the control run first. Added September 2026, not yet attempted.</p>
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/segur/NOTES.md">Henry III to S&eacute;gur, BnF 500 de Colbert 401</a><span class="tg-date">1583&ndash;86</span></h3>
+    <div class="tg-meta"><span class="odds md">even</span><span class="eff">medium effort</span></div>
+    <p>Four letters in figures, ff. 143, 233, 239 and 288v. Carried as blocked since Gallica refused this client; <b>reopened 16 September</b>, because the IIIF image route answers a script with a browser User-Agent. The volume's other Henry III cipher (f. 321) is a regular alphabetical syllabary with a nomenclature from 162, the obvious prior for these. Next step: fetch and transcribe the four folios, then a homophonic solve with the syllabary order as a hard prior, as for Bordeaux. Not yet attempted.</p>
   </div>
 </article>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
-    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md">Lodovico Birago to the Duke of Nevers, the numerical paragraph</a><span class="tg-date">1571</span></h3>
-    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">done</span></div>
-    <p>BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted September 2026.</b> The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen digits carrying a dot, bar or cross, nine wavy signs written inline, six null letters. Every variable-length design (two-digit figures announced by their first or last digit, 1xx codes) was excluded with scans that recover the true rule on matched controls. What fits is the design of the Nevers Italian keys of 1588&ndash;89: two-digit figures for letters with heavy vowel homophony, marked figures of one or two digits for names, and nulls anywhere; exactly 75 pairings satisfy it, all with the same 228 letter tokens over 62 symbols. At that homophony and length the annealer cannot read even its own matched controls (14% right after 120 restarts), and the target scores in the same band, so the limit is the method. A second letter in the cipher, or one fixed code group, is what would open it.</p>
+    <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Blancmesnil to Nevers; Cocquet to Mangot; Joyeuse to Villars</a><span class="tg-date">1580s&ndash;1616</span></h3>
+    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">low effort</span></div>
+    <p>Three short enciphered passages in volumes Gallica now serves over IIIF: BnF fr. 3633 f. 24, Clairambault 369 f. 316 and 500 de Colbert 33 f. 539. Each is too short to solve alone, but Tomokiyo's Nevers and Louis XIII articles print sibling keys for the same correspondents, so the test is key matching, an hour each. Not yet attempted.</p>
   </div>
 </article>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">3</span></div>
   <div class="tg-b">
-    <h3><a href="armstrong.html">Armstrong to Madison, 20 February 1808: the disputed contest solution</a><span class="tg-date">1808</span></h3>
-    <div class="tg-meta"><span class="odds md">adjudication</span><span class="eff">medium effort</span></div>
-    <p>A different code from the postscript solved on this site, and the subject of a 2025 contest whose published solution has been disputed. The roll 13 frames fetched for the postscript cover this letter too, and thirty-nine of them are down and unread. The job is the Urquhart kind: rebuild the claimed key from the frames, score it against the code groups and against a shuffled control, and say whether it holds. Not yet started.</p>
+    <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Marco Ottobon to Giovanni Mocenigo, BNE Ms. 994 ff. 34&ndash;38</a><span class="tg-date">1589</span></h3>
+    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
+    <p>Five folios of a letter-and-digit Venetian cipher in the Spanish archives, the longest open Venetian text on the list; Valle de la Cerda read it in 1589 and his solution is lost. Five folios is enough text for a homophonic attack. The Biblioteca Nacional's digital library returns 403 to scripts, so the images need a browser session first. Not yet attempted.</p>
   </div>
 </article>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">4</span></div>
   <div class="tg-b">
-    <h3><a href="http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/">Louis XIV to the Duke of Chaulnes in Rome</a><span class="tg-date">1690</span></h3>
-    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
-    <p>Instructions of 10 July 1690 in a code running to at least 535, partly transcribed on Tomokiyo's page, with a Cipherbrain thread from 2019 that started and never concluded. A large nomenclator in a single letter is not attackable ciphertext-only; what can be done is to finish the thread's work, fix which groups the clear text and Louis XIV's other codes of 1690 pin down, and record how much stays open. Not yet started.</p>
+    <h3><a href="https://cryptiana.web.fc2.com/code/variable2.htm">DECODE R2179 (1644) and Starhemberg (1758), undelimited digit streams</a><span class="tg-date">1644, 1758</span></h3>
+    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">high effort</span></div>
+    <p>The two Austrian items left in Tomokiyo's article now that R2159 (Lucca) and R1408 (Warsaw) are read. Neither has token boundaries, so segmentation comes before substitution, which is the Vatican Part 5 problem again at a fraction of the length. The Lucca and Warsaw annealers apply once the stream is cut; the segmentation tools from the Vatican work are the first step. Not yet attempted.</p>
   </div>
 </article>
 <article class="tg live">
@@ -241,6 +259,46 @@
   </div>
 </article>
 <h3 class="tier" data-t="done">Attempted &mdash; findings recorded <small>what was established, and what is left</small></h3>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/bordeaux/NOTES.md">Antoine de Bordeaux to Brienne, London, 30 May 1653</a><span class="tg-date">1653</span></h3>
+    <div class="tg-meta"><span class="odds lo">not solved, design identified</span></div>
+    <p>A Thurloe intercept, BL Add MS 4200 f. 88, <b>810 tokens over 156 symbols</b> in Tomokiyo's transcription: graphic signs, plain numbers and three diacritic series. <b>Attempted 16 September 2026.</b> Identified as a cipher of the Brienne office's 1651&ndash;54 family, in which consecutive numbers run through the syllabary in alphabetical order across the diacritic series, as in Lasry's 1654 Mazarin&ndash;Bordeaux key. A solver with that order as a hard prior reads matched 810-token controls to 99&nbsp;%, and the letter never leaves the failed-seed band over 21 seeds; the rival reading of the symbol classes is unsolvable even on its own control. The control that explains it: misreading one diacritic in ten already drops the solver to 52&nbsp;% and 9&nbsp;% on two seeds, and Tomokiyo's copy is provisional. The plaintext is not in print (Birch, Guizot checked). Ways in: the DECODE images of R8390 to fix the diacritics, the 1653 English key for &ldquo;Mr. Bordeaux&rdquo; in BL Add MS 32263 f. 1 (R7537), or the letter-book at the BnF. The companion item, Mazarin to Bordeaux of 22 June 1654, was solved by George Lasry in February 2025 and is closed. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/bordeaux/NOTES.md">Notes &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="armstrong.html">Armstrong to Madison, 20 February 1808: the contest solution does not hold</a><span class="tg-date">1808</span></h3>
+    <div class="tg-meta"><span class="odds md">adjudicated</span></div>
+    <p>A different code from the postscript solved on this site: 369 groups running to 1900, plus shorthand-like symbol passages. <b>Adjudicated 16 September 2026.</b> The AFIO contest solution of May 2025 rests on a 56-entry key. Scored against the letter, that key covers 36&nbsp;% of the groups, leaves 93 of its own 133 mapped occurrences unread, and uses five numbers that do not occur in the letter at all. Built by the same procedure on a shuffled ciphertext, 500 random keys fit the claimed sentence with all 60 words in order and account for more of the text than the AFIO key does. Madison wrote in May 1808 that no such cipher was in the office, and every pencil decode on roll 13 is THE&nbsp;=&nbsp;972, so the frames cannot supply it either. The claim does not hold; the letter stays unsolved and needs the key Armstrong actually used. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/armstrong/NOTES.md">Notes &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md">Lodovico Birago to the Duke of Nevers, the numerical paragraph</a><span class="tg-date">1571</span></h3>
+    <div class="tg-meta"><span class="odds lo">not solved, structure fixed</span></div>
+    <p>BnF fr. 3251 f. 119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted 16 September 2026, four sessions.</b> The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen carrying a dot, bar or cross, nine wavy signs inline, six null letters. Every variable-length design was excluded with scans that recover the true rule on matched controls. What fits is the design of the Nevers Italian keys of 1588&ndash;89: two-digit letters with heavy vowel homophony, marked figures of one or two digits for names, nulls anywhere; 75 pairings satisfy it, all giving 228 letter tokens over 62 symbols. At that homophony and length the annealer cannot read its own controls (14&nbsp;% after 120 restarts), a word-level objective ranks the truth first but the search still fails, four-million-step anneals do no better, and the target scores in the same band, so the limit is the method. Also excluded: a Lucca-type polyphonic single-figure design, with a method that reads its control three times out of three; structured homophony rules; a syllabic alphabet. A sweep of the volume's 118 openings finds no second letter in the cipher. The Nevers key of 1574 (fr. 3315) is a symbol alphabet with a figure nomenclature 8&ndash;62, recorded as a gloss. Needs a sibling letter or one fixed code group. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md">Notes &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/chaulnes/NOTES.md">Louis XIV to the Duke of Chaulnes in Rome, 10 July 1690</a><span class="tg-date">1690</span></h3>
+    <div class="tg-meta"><span class="odds lo">not solved, design fixed</span></div>
+    <p><b>Attempted 16 September 2026.</b> The ciphertext verified from the page images, two transcription fixes: <b>300 groups, 116 distinct</b>. The step-10 chains give the design, a one-part Croissy table of ten columns running to at least 535. That is the whole result, because 300 groups do not determine a 116-entry nomenclator: the annealer recovers 4&ndash;12&nbsp;% of a matched control and wrong keys score within noise of the true one. No printed plaintext found; G&eacute;rin's 1877 article does not quote the letter. Needs the minute in Affaires &eacute;trang&egrave;res, Correspondance politique Rome 331&ndash;332, or a second letter in the code. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/chaulnes/NOTES.md">Notes &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/ducroc/NOTES.md">Catherine de M&eacute;dicis to Philibert du Croc, 27 April 1567</a><span class="tg-date">1567</span></h3>
+    <div class="tg-meta"><span class="odds lo">below threshold</span></div>
+    <p>Printed with a facsimile in Destray's 1924 life of du Croc; the plate fetched here from Gallica over IIIF and transcribed: about <b>147 symbols, 40 distinct</b>, French, with sparse dots. <b>Attempted 16 September 2026.</b> A matched control, du Croc's own despatch of the same year enciphered with a 40-symbol key on the target's profile, is recovered at only 28&ndash;41&nbsp;% over six seeds, so a ciphertext-only attack at this length is below the solver's threshold and no reading is claimed. Lasry's key for the Charles IX letter in the same book is a different symbol set. What would move it: cribs from Catherine's and du Croc's other letters of April 1567, or the dots and ticks proving to be word separators, which would make it the Forster kind. The transcription needs a second reader. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/ducroc/NOTES.md">Notes &rarr;</a></p>
+  </div>
+</article>
 <article class="tg done">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">
@@ -302,7 +360,7 @@
   <div class="tg-b">
     <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md">Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79</a><span class="tg-date">1585?</span></h3>
     <div class="tg-meta"><span class="odds lo">closed: below threshold</span></div>
-    <p>One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, both endorsed by Phelippes and never read: <b>507 and 644 groups, 132 and 102 symbols</b>. <b>Attempted September 2026, two sessions.</b> The numbers in Tomokiyo's transcription are glyph labels, so these are symbol ciphers of the Mary&ndash;Castelnau class, not figure ciphers. The two letters do share a key: ten of the twenty commonest symbols are common to both against three expected by chance, and their frequency profiles correlate at 0.35 where unrelated keys give zero. So the text pools to 1151 groups, and it still does not fall: the homophonic annealer fails planted English and French controls at 507 groups and again at 1151, scoring at random-text level while the true plaintext scores twice as well. Four groups per symbol is below what ciphertext-only attacks on this class can do, as it was for Lasry on d'Avaux. The 1585&ndash;86 calendar is paywalled. Needs the page images and the SP 53/22 keys, f. 53 first.</p>
+    <p>One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, both endorsed by Phelippes and never read: <b>507 and 644 groups, 132 and 102 symbols</b>. <b>Attempted September 2026, two sessions.</b> The numbers in Tomokiyo's transcription are glyph labels, so these are symbol ciphers of the Mary&ndash;Castelnau class, not figure ciphers. The two letters do share a key: ten of the twenty commonest symbols are common to both against three expected by chance, and their frequency profiles correlate at 0.35 where unrelated keys give zero. So the text pools to 1151 groups, and it still does not fall: the homophonic annealer fails planted English and French controls at 507 groups and again at 1151, scoring at random-text level while the true plaintext scores twice as well. Four groups per symbol is below what ciphertext-only attacks on this class can do, as it was for Lasry on d'Avaux. The 1585&ndash;86 calendar is paywalled. The &ldquo;Spanish spy&rdquo; slip SP 53/22 f. 52, once rank 1 here, is 84 tokens over 22 symbols; homophonic annealing in Spanish, French, English and Italian gives fluent nonsense at that length, so it is below unicity and closed with them. Needs the page images and the SP 53/22 keys, f. 53 first.</p>
   </div>
 </article>
 <article class="tg done">
@@ -326,7 +384,7 @@
   <div class="tg-b">
     <h3><a href="armstrong.html">Armstrong: the roll 13 residue</a><span class="tg-date">1808</span></h3>
     <div class="tg-meta"><span class="odds md">one group upgraded</span></div>
-    <p><b>Second session.</b> The microfilm frames were re-fetched through the catalogue proxy. Frame 0190, a fully pencilled despatch of 20 July 1806 (&ldquo;a peace was signed last night between Russia and France&rdquo;), gives <b>1320 = like</b> as a reading from source, so the last clause of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down and unread; the 20 February 1808 letter is untouched.</p>
+    <p><b>Second session.</b> The microfilm frames were re-fetched through the catalogue proxy. Frame 0190, a fully pencilled despatch of 20 July 1806 (&ldquo;a peace was signed last night between Russia and France&rdquo;), gives <b>1320 = like</b> as a reading from source, so the last clause of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down and unread. The 20 February 1808 letter is a different code and is adjudicated separately above.</p>
   </div>
 </article>
 <article class="tg done">
@@ -507,17 +565,17 @@ coming back. Odds shown are for after the material is in hand.</p>
 <tr><td>Encoded letter to Marshal Marmont</td><td>1807</td><td><span class="odds md">even</span></td><td>Attempted September 2026 and stopped at once: <b>no ciphertext is published anywhere reachable</b>, only the opening line, which is in clear. The sole source is the same 1969 article. Likely tractable once in hand, since Marmont&rsquo;s 1811 code ran to about 150 entries. His Dalmatian papers are at the Service historique de la D&eacute;fense, not the Archives nationales.</td></tr>
 <tr><td>Telegrams from the sunken <i>Zhongshan</i></td><td>c.1938</td><td><span class="odds md">even</span></td><td>891 telegrams recovered from a gunboat sunk in 1938; 352 were read in 2009. None is published, and Tomokiyo states he has never located the primary sources. Verified here that the one published opening reads &ldquo;Minister Chen, <i>He Mi</i>&rdquo; &mdash; but He Mi is a separate codebook, not a transformation of the standard telegraph code, so there is no key space to search. Unblocks only with the museum&rsquo;s holdings.</td></tr>
 <tr><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney to the Earl of Manchester</a></td><td>1702</td><td><span class="odds md">even</span></td><td>Manuscript already transcribed from Yale. The key is Stepney&rsquo;s own office cipher, asked for in August 1701, in TNA SP 105/106 or BL Add MSS 7058&ndash;78.</td></tr>
-<tr><td><a href="https://gallica.bnf.fr/ark:/12148/btv1b10035574w">Henry III to S&eacute;gur</a></td><td>1583&ndash;86</td><td><span class="odds md">even</span></td><td>Four folios of BnF 500 de Colbert 401. Gallica refuses this client entirely and a retry job is running. The volume&rsquo;s other Henry III cipher is a plain alphabetical syllabary, a strong prior for these.</td></tr>
+<tr><td><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Torcy to the plenipotentiaries at Geertruidenberg; Villars to Polignac</a></td><td>1710</td><td><span class="odds md">even</span></td><td>Blocked at the ciphertext itself. Tomokiyo&rsquo;s two transcription files are dead links and were never archived, DECODE R8755 and R8756 need a login, and BL Add MS 61575 is not digitised. The French codes of 1710 are well documented once there is text to work on.</td></tr>
 </table>
 </details>
 
 <h2 id="closed"><span class="num">04</span> Closed</h2>
-<p class="qhint">12 items closed: 4 solved here, 7 found already solved or explained, 1 shown to be fabrications or empty.</p>
+<p class="qhint">18 items closed: 8 solved or read here, 9 found already solved or explained, 1 shown to be a fabrication.</p>
 <details class="fold"><summary>Show the closed items</summary>
 <table>
 <tr><th>Target</th><th>Date</th><th>Status</th><th>Outcome</th></tr>
 <tr class="done"><td><a href="richelieu.html">Richelieu to M. de Ranc&eacute;</a></td><td>1629</td><td><span class="st solved">solved</span></td><td>Homophonic alphabet, doubling mark and nomenclature recovered ciphertext-only; agrees word for word with <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Avenel (1858)</a>, missed by DECODE R9461&ndash;R9462.</td></tr>
-<tr class="done"><td><a href="armstrong.html">Armstrong to Madison, coded postscript</a></td><td>1808</td><td><span class="st solved">solved</span></td><td>All forty-nine groups, from a code table of 580 groups rebuilt off the State Department&rsquo;s own pencil decodes. The separate code of the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2728">20 February 1808 letter</a> is still open.</td></tr>
+<tr class="done"><td><a href="armstrong.html">Armstrong to Madison, coded postscript</a></td><td>1808</td><td><span class="st solved">solved</span></td><td>All forty-nine groups, from a code table of 580 groups rebuilt off the State Department&rsquo;s own pencil decodes. The separate code of the <a href="https://founders.archives.gov/documents/Madison/99-01-02-2728">20 February 1808 letter</a> is a different code; the 2025 contest solution for it is adjudicated in the queue below and does not hold.</td></tr>
 <tr class="done"><td><a href="sunyatsen.html">Telegram to Sun Yat-sen, Swatow</a></td><td>1916</td><td><span class="st solved">solved</span></td><td>Standard telegraph code through a systematic twenty by five condenser; forty-one characters read.</td></tr>
 <tr class="done"><td><a href="huangxing.html">Telegram from Huang Xing to Lin Hu and Li Genyuan</a></td><td>1916</td><td><span class="st solved">scheme found</span></td><td>Listed as &ldquo;solved but specific scheme unknown&rdquo;. Three kana per character, each kana carrying one digit in its gojuon consonant row while the vowel is a free homophone, so every digit has five spellings and the surface text barely repeats. Consonant-row triples collide seven times against 1.03 expected (p = 0.006); vowels collide at exactly chance (p = 0.70). The Foreign Ministry&rsquo;s filed decode and its annotated Japanese reading recovered from JACAR.</td></tr>
 <tr class="done"><td><a href="hyde.html">Hyde&rsquo;s ciphered superscriptions</a></td><td>1659&ndash;60</td><td><span class="st found">explained</span></td><td>Not a cipher. Dummy numbers, as the 1724 editor of the <i>Life of Barwick</i> states outright.</td></tr>
@@ -527,6 +585,12 @@ coming back. Odds shown are for after the material is in hand.</p>
 <tr class="done"><td>Feynman ciphers 2 and 3</td><td>1987</td><td><span class="st found">found solved</span></td><td>Solved by David Vierra in 2023, verified here by decrypting both from ciphertext alone.</td></tr>
 <tr class="done"><td>Ferdinand III and the Cardinal-Infante</td><td>1634&ndash;40</td><td><span class="st found">found solved</span></td><td>Carried here as blocked on a DECODE login. It had in fact been solved by Thomas Ernst in October 2017, in the comment thread of Schmeh&rsquo;s own Top 50 post: a digit-pair code on the Habsburg <i>AEIOU</i> motto, each non-numeric sign encoding its count of strokes or semicircles. Nine years in print. The second target here to prove already solved in the open literature.</td></tr>
 <tr class="done"><td><a href="goldbar.html">Chinese gold bar cryptograms</a></td><td>1933</td><td><span class="st found">no message</span></td><td>Not an encryption. The 263 letters contain almost exactly ten of every letter of the alphabet &mdash; chi-squared 1.25 against uniform where chance predicts 25, about a trillion to one. No cipher can flatten a distribution past what randomness allows. Corroborated independently by the documentary case: the aircraft depicted entered service in 1934, and some characters are simplified forms from the 1950s.</td></tr>
+<tr class="done"><td><a href="warsaw.html">From Warsaw, 24 December 1627, DECODE R1408</a></td><td>1627</td><td><span class="st solved">solved</span></td><td>Homophonic substitution whose alphabet is in plain order, odd figures <i>a</i>&ndash;<i>m</i> and even <i>n</i>&ndash;<i>z</i>, with letter pairs for consonants, two-figure syllables and the nulls <i>a</i> and <i>m</i>; 295 groups read, word codes glossed. DECODE still marks it non-decrypted.</td></tr>
+<tr class="done"><td><a href="ormonde.html">Maltravers to Ormonde</a></td><td>1634&ndash;35</td><td><span class="st solved">solved</span></td><td>Regular block alphabet and nulls recovered from fifty-nine figures; every spelled word reads, and the nomenclator is confirmed clause for clause against Wentworth&rsquo;s dispatches in Knowler&rsquo;s <i>Strafforde&rsquo;s Letters</i> (1739). Seven of nine codes fixed.</td></tr>
+<tr class="done"><td><a href="lucca.html">Fra Giovanni di Lucca to Ferdinand III, DECODE R2159</a></td><td>1644</td><td><span class="st solved">solved</span></td><td>A 24-figure Italian alphabet with two polyphonic figures, 17 = <i>i</i>/<i>n</i> and 19 = <i>t</i>/<i>s</i>; 231 figures read end to end. DECODE still marks it non-decrypted.</td></tr>
+<tr class="done"><td><a href="https://github.com/dbourdeau/cyphersolver/blob/main/boswell/NOTES.md">Charles I and Nicholas to Boswell</a></td><td>1643</td><td><span class="st solved">read in substance</span></td><td>Alphabet by R. Pitt (September 2026), verified here against a permutation control; the graphic signs read as inline word-signs and the addressee identified as the Courland envoy. A dozen single-occurrence codes need the folios.</td></tr>
+<tr class="done"><td><a href="https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md">Sir Richard Forster</a></td><td>1644</td><td><span class="st found">found solved</span></td><td>Read by Lasry, Biermann and Pitt; Tomokiyo&rsquo;s page still lists it as unsolved. Alphabet verified here and 31 of 34 symbols recovered blind.</td></tr>
+<tr class="done"><td><a href="https://github.com/dbourdeau/cyphersolver/blob/main/bordeaux/NOTES.md">Mazarin to Bordeaux, 22 June 1654</a></td><td>1654</td><td><span class="st found">found solved</span></td><td>Solved by George Lasry in February 2025, key published on Tomokiyo&rsquo;s site; DECODE R9482 still says non-decrypted. Not to be confused with the 1653 Bordeaux intercept, which is open.</td></tr>
 <tr class="done"><td>Beale Paper no. 1</td><td>1885</td><td><span class="st stuck">fabrication</span></td><td>No key text found across the English Gutenberg corpus; the number choices and letter statistics point to a hoax rather than a lost key. No further work planned.</td></tr>
 </table>
 </details>
@@ -539,13 +603,13 @@ key-dependent fragments or archive-bound manuscripts, held here so that nothing 
 <tr><th>Group</th><th>Entries</th></tr>
 <tr><td>English, 16th century</td><td>Throckmorton (1559) and Wool (1568) &middot; ciphers related to Walsingham (Moray and Wood, SP53/16 nos. 78&ndash;79 and SP53/22 f. 52 are in the queue above)</td></tr>
 <tr><td>Spanish</td><td>postscript to Ferdinand&rsquo;s letter (1498) &middot; Charles V letter (1521?) &middot; Simancas EST,LEG,1381,180 and 1381,143</td></tr>
-<tr><td>French to 1610</td><td>Catherine de Medici to du Croc (1567) &middot; Birago to Nevers (1571) &middot; Blancmesnil to Nevers &middot; Marie de Medici (1610)</td></tr>
-<tr><td>Italian and Venetian</td><td>Venetian letter in Spanish archives (c.1589) &middot; Cocquet (1616) &middot; Fra Guglielmo Vizani (1637)</td></tr>
-<tr><td>German</td><td>King of Hungary and Bohemia (1634) &middot; further ciphers of Ferdinand III &middot; variable-length figure codes, Austrian archives (1627, 1644) &middot; Starhemberg (1758)</td></tr>
+<tr><td>French to 1610</td><td>Marie de Medici (1610) &middot; Henry III to S&eacute;gur (1583&ndash;86) is now in the queue, and du Croc (1567), Birago (1571) and Blancmesnil are attempted or queued above</td></tr>
+<tr><td>Italian and Venetian</td><td>Fra Guglielmo Vizani (1637) &middot; the Venetian letter (Ottobon, 1589) and Cocquet (1616) are in the queue above</td></tr>
+<tr><td>German</td><td>King of Hungary and Bohemia (1634) &middot; further ciphers of Ferdinand III &middot; variable-length figure codes, Austrian archives: R2159 (Lucca, 1644) and R1408 (Warsaw, 1627) are read, see Closed; R2179 (1644) and Starhemberg (1758) are in the queue</td></tr>
 <tr><td>French, 17th century</td><td>Prince of Cond&eacute; (1654)</td></tr>
-<tr><td>English Civil War</td><td>Ormond and Arran (1678) &middot; Charles I and Boswell (1643) &middot; Richard Forster (1644) &middot; the private cipher of Charles I and Henrietta Maria (1645) &middot; a letter to Prince Rupert (1648) &middot; an intercepted letter of Hyde (1659) &middot; one further intercepted letter</td></tr>
-<tr><td>French, 1690&ndash;1710</td><td>ambassador in Rome (1690) &middot; Catinat (1691 and 1702) &middot; Geertruidenberg (1710) &middot; Villars and Polignac (1710)</td></tr>
-<tr><td>American</td><td>Armstrong to Madison, 20 February 1808, a different code from the postscript solved here, with a disputed 2025 contest solution</td></tr>
+<tr><td>English Civil War</td><td>Ormond and Arran (1678) &middot; Charles I and Boswell (1643) and Richard Forster (1644) are read, see Closed &middot; the private cipher of Charles I and Henrietta Maria (1645) &middot; a letter to Prince Rupert (1648) &middot; an intercepted letter of Hyde (1659) &middot; one further intercepted letter</td></tr>
+<tr><td>French, 1690&ndash;1710</td><td>Catinat (1702, Aargau) &middot; the Rome letter of 1690 (Chaulnes) and Catinat 1691 (Feuqui&egrave;res) are attempted above, Geertruidenberg and Villars&ndash;Polignac (1710) are blocked at the ciphertext</td></tr>
+<tr><td>American</td><td>Armstrong to Madison, 20 February 1808, a different code from the postscript solved here; the 2025 contest solution is adjudicated above and does not hold</td></tr>
 </table>
 </details>
 
@@ -557,6 +621,6 @@ search away from "solved in 1858".</p>
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
-<script src="site.js?v=20260916c"></script>
+<script src="site.js?v=20260916d"></script>
 </body>
 </html>
