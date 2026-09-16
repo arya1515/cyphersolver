@@ -53,6 +53,10 @@ boundaries)
   * CV-rigid variant: each syllable -> (first consonant of its onset, if any) + (first vowel of its
     nucleus, if any); coda dropped.  'stru' -> 'su', 'men' -> 'me', 'quae' -> 'qa', 'ae' -> 'a'.
     A vowel-less syllable keeps its first consonant.
+  * Bisyllabic variants (added because live hypothesis (a) in NOTES makes a 4-5 glyph Voynich word equal
+    to about two 2-3 glyph units): syl2 = syllables 1+2, 3+4, ... of each word joined into one token, an
+    odd final syllable alone ('confessiones' -> confes siones, 'arma' -> arma, 'cano' -> cano); cv2 = the
+    same chunks after CV trimming ('confessiones' -> cofe sine).  Word boundaries are never crossed.
 
 Statistics (identical code path for every corpus)
   * tokens, types, hapax fraction of types, Zipf slope = OLS of log10 freq on log10 rank, ranks
@@ -221,9 +225,11 @@ def battery(tokens, label, target_hist=None, do_lm=True):
     if do_lm and target_hist is not None:
         if max(len(w) for w in tokens) < 3:
             r['pair_length_matched'] = None; r['pair_length_matched_note'] = 'n/a: no token longer than 2 symbols'
+            r['lm_exact_length_coverage'] = None
         else:
-            lm = length_matched(tokens, target_hist)
+            lm, cov = length_matched(tokens, target_hist)
             r['pair_length_matched'] = pair_violation(lm)['pair_violation_frac']
+            r['lm_exact_length_coverage'] = round(cov, 3)
     r['seconds'] = round(time.time() - t1, 1)
     print(f"{label:28s} tok={r['n_tokens']} typ={r['types']} len={r['length']['mean']}/{r['length']['variance']} "
           f"zipf={r['zipf_slope_1_1000']} hapax={r['hapax_type_frac']} h2sp={r['h2_sp']} h2={r['h2_nosp']} "
@@ -281,6 +287,17 @@ def cv_trim(syl):
 def syl_tokens(words):
     return [s for w in words for s in syllabify(w)]
 
+def syl2_chunks(words):
+    """Bisyllabic chunks inside each word: syllables 1+2, 3+4, ...; an odd final syllable stands alone."""
+    out = []
+    for w in words:
+        s = syllabify(w)
+        for i in range(0, len(s), 2): out.append(s[i:i + 2])
+    return out
+
+def syl2_tokens(words):
+    return [''.join(c) for c in syl2_chunks(words)]
+
 # ================================================================== main
 def main():
     out = {'method': __doc__, 'part1': {}, 'part2': {}, 'checks': {}}
@@ -300,11 +317,12 @@ def main():
     N_all = len(all_raw); N_cer = len(cer_raw)
     voy_sets = {'ALL': all_raw, 'CERTAIN': cer_raw, 'ALL_trunc': all_raw[:N_cer]}
     sym = {(k, a): to_symbols(v, tk) for k, v in voy_sets.items() for a, tk in ALPHABETS.items()}
-    target_hist = collections.Counter(len(w) for w in sym[('ALL', 'merge_a3')])
+    hists = {a: collections.Counter(len(w) for w in sym[('ALL', a)]) for a in ALPHABETS}
+    target_hist = hists['merge_a3']          # languages are matched to ALL merge-a3 (as in v_a3)
     p1 = {}
     for k in voy_sets:
-        for a in ALPHABETS:
-            p1[f'{k}/{a}'] = battery(sym[(k, a)], f'ZL {k} {a}', target_hist, do_lm=(k == 'CERTAIN'))
+        for a in ALPHABETS:                  # CERTAIN/x is matched to ALL/x (same alphabet)
+            p1[f'{k}/{a}'] = battery(sym[(k, a)], f'ZL {k} {a}', hists[a], do_lm=(k == 'CERTAIN'))
     # per-language (Currier) is not repeated here; the comparison is tokenisation-only.
     # what the joined words look like
     joined = [w for a, b in zip(split_lines, join_lines) for w in b if w not in a and '?' not in w and not (set(w) - EVA_OK)]
@@ -331,7 +349,9 @@ def main():
         for i, w in enumerate(words):
             acc += len(syllabify(w))
             if acc >= N_all: corpora_info[name]['words_used_for_N_syllables'] = i + 1; break
-        variants = {'words': words[:N_all], 'syl': syl_all[:N_all], 'cv': [cv_trim(s) for s in syl_all[:N_all]]}
+        syl2_all = syl2_tokens(words)
+        variants = {'words': words[:N_all], 'syl': syl_all[:N_all], 'cv': [cv_trim(s) for s in syl_all[:N_all]],
+                    'syl2': syl2_all[:N_all], 'cv2': [''.join(cv_trim(s) for s in chunk) for chunk in syl2_chunks(words)][:N_all]}
         for v, toks in variants.items():
             p2[f'{name}/{v}'] = battery(toks, f'{name} {v}', target_hist)
         p2[f'{name}/syl_shuf'] = battery(A3.shuffle_within(variants['syl']), f'{name} syl_shuf', target_hist)
@@ -344,7 +364,8 @@ def main():
 # ------------------------------------------------------------------ markdown
 def row(label, r):
     L = r['length']; P = r['positional']; pv = r['pair']
-    lm = r.get('pair_length_matched'); lm = '-' if lm is None else f'{lm:.3f}'
+    lm = r.get('pair_length_matched'); cov = r.get('lm_exact_length_coverage')
+    lm = '-' if lm is None else (f'{lm:.3f}' + (f' (cov {cov:.2f})' if cov is not None and cov < 0.999 else ''))
     bl = pv['by_length']
     return (f"| {label} | {r['n_tokens']} | {r['types']} | {r['alphabet']} | {L['mean']:.2f} | {L['variance']:.2f} | {L['disp_len_minus1']} | "
             f"{r['zipf_slope_1_1000']:.3f} | {100*r['hapax_type_frac']:.1f} | {r['h1_sp']:.3f} | {r['h2_sp']:.3f} | {r['h1_nosp']:.3f} | {r['h2_nosp']:.3f} | "
@@ -384,8 +405,8 @@ def write_md(o):
     L += ['', '## Part 2. Syllabically written Latin and Italian vs Voynichese', '',
           'Corpora: ' + '; '.join(f"{k}: {v['words_available']} words -> {v['syllables_available']} syllables ({v['syllables_per_word']} per word); first {p1['N_ALL']} syllables span {v['words_used_for_N_syllables']} words" for k, v in p2['corpora'].items()), '',
           'Syllabifier examples: ' + '; '.join(f"{w} -> {' '.join(d['syl'])} -> CV {' '.join(d['cv'])}" for w, d in p2['examples'].items()), '',
-          'Rows: words = ordinary orthographic words; syl = syllables as words; cv = syllables trimmed to consonant+vowel; syl_shuf = symbols shuffled inside each syllable (null for pair-violation). '
-          'Voynich reference rows repeated from Part 1. All corpora at N = ZL ALL token count.', '', HDR]
+          'Rows: words = ordinary orthographic words; syl = syllables as words; cv = syllables trimmed to consonant+vowel; syl2 / cv2 = bisyllabic chunks (plain / CV-trimmed); syl_shuf = symbols shuffled inside each syllable (null for pair-violation). '
+          'Voynich reference rows repeated from Part 1. All corpora at N = ZL ALL token count. "cov" after a length-matched value = fraction of the Voynich length histogram for which the corpus has tokens of exactly that length (the rest are filled from the nearest length).', '', HDR]
     for k in ['ALL/raw', 'ALL/merge_a3', 'ALL/merge2_a1']: L.append(row('ZL ' + k, p1['stats'][k]))
     for k, r in p2['stats'].items(): L.append(row(k, r))
     L += ['', '### Match table: which Voynich figures does each tokenisation reproduce?', '',

@@ -95,6 +95,11 @@ def load_corpus(name, n):
         t = open(path, encoding='utf-8', errors='replace').read()
     else:
         t = gutenberg_body(path)
+    if name == 'english':
+        i = t.find('Chapter I.]')            # skip Saintsbury's preface and the list of illustrations
+        if i >= 0:
+            t = t[i + len('Chapter I.]'):]
+        t = re.sub(r'(?m)^\s*CHAPTER\s+[IVXLC]+\.?\s*$', ' ', t)
     toks = re.findall(r"[^\W\d_]+", t.lower())
     if name == 'latin':
         toks = [w for w in toks if w != 'sidenote']
@@ -290,40 +295,54 @@ def mi_analysis(folios, labels, rng, n_perm=200, minfreq=20, tag=''):
     fw = set(w for w, c in freq.items() if c >= minfreq)
     fc = [Counter(w for w in d['tokens'] if w in fw) for d in folios]
     hands = [d['hand'] for d in folios]; quires = [d['quire'] for d in folios]; langs = [d['lang'] for d in folios]
-    def all_mi(lab):
-        return {'marginal': mi_from_folio_counts(fc, lab),
-                'given_hand': mi_from_folio_counts(fc, lab, hands),
-                'given_quire': mi_from_folio_counts(fc, lab, quires),
-                'given_language': mi_from_folio_counts(fc, lab, langs),
-                'given_hand_and_quire': mi_from_folio_counts(fc, lab, [h + '/' + q for h, q in zip(hands, quires)])}
-    obs = all_mi(labels)
-    # null (a): permute section labels among folios of the same hand
-    by_hand = defaultdict(list)
-    for i, h in enumerate(hands):
-        by_hand[h].append(i)
-    nullA = defaultdict(list)
-    nullB = defaultdict(list)
-    for _ in range(n_perm):
-        lab = labels[:]
-        for h, members in by_hand.items():
-            vals = [labels[i] for i in members]
+    hq = [h + '/' + q for h, q in zip(hands, quires)]
+    hl = [h + '/' + l for h, l in zip(hands, langs)]
+    # measure -> (conditioning strata for the MI, strata within which the null permutes/rotates labels).
+    # The null always keeps the label inside its hand, and inside the conditioning stratum of the measure,
+    # so that the null preserves whatever the measure conditions on (otherwise a within-hand shuffle scatters
+    # sections across quires and inflates the quire-conditioned null above the observed value).
+    measures = {'marginal': (None, hands), 'given_hand': (hands, hands), 'given_quire': (quires, hq),
+                'given_language': (langs, hl), 'given_hand_and_quire': (hq, hq)}
+    def groups_of(strata):
+        g = defaultdict(list)
+        for i, s in enumerate(strata):
+            g[s].append(i)
+        return list(g.values())
+    def permuted(lab0, groups):
+        lab = lab0[:]
+        for members in groups:
+            vals = [lab0[i] for i in members]
             rng.shuffle(vals)
             for i, v in zip(members, vals):
                 lab[i] = v
-        for k, v in all_mi(lab).items():
-            nullA[k].append(v)
-        # null (b): rotate the label sequence within each hand (binding order) by a random offset:
-        # preserves contiguity/run structure, moves the boundaries relative to the drawings
-        lab = labels[:]
-        for h, members in by_hand.items():
-            vals = [labels[i] for i in members]
+        return lab
+    def rotated(lab0, groups):
+        lab = lab0[:]
+        for members in groups:
+            vals = [lab0[i] for i in members]
             if len(members) > 1:
                 r = rng.randrange(1, len(members))
                 vals = vals[r:] + vals[:r]
             for i, v in zip(members, vals):
                 lab[i] = v
-        for k, v in all_mi(lab).items():
-            nullB[k].append(v)
+        return lab
+    obs = {k: mi_from_folio_counts(fc, labels, cond) for k, (cond, _) in measures.items()}
+    nullA = defaultdict(list); nullB = defaultdict(list)
+    by_hand = groups_of(hands)
+    hand_ids = sorted(set(hands))
+    per_hand_null = defaultdict(list)
+    for k, (cond, nstrata) in measures.items():
+        g = groups_of(nstrata)
+        for _ in range(n_perm):
+            nullA[k].append(mi_from_folio_counts(fc, permuted(labels, g), cond))
+            nullB[k].append(mi_from_folio_counts(fc, rotated(labels, g), cond))
+    def hand_mi(lab, members):
+        sub_fc = [fc[i] for i in members]; sub_lab = [lab[i] for i in members]
+        return mi_from_folio_counts(sub_fc, sub_lab) if len(set(sub_lab)) > 1 else 0.0
+    for _ in range(n_perm):
+        lab = permuted(labels, by_hand)
+        for members in by_hand:
+            per_hand_null[hands[members[0]]].append(hand_mi(lab, members))
     def summ(o, null):
         m = sum(null) / len(null)
         sd = (sum((x - m) ** 2 for x in null) / max(1, len(null) - 1)) ** 0.5
@@ -333,16 +352,19 @@ def mi_analysis(folios, labels, rng, n_perm=200, minfreq=20, tag=''):
     res = {'n_tokens_frequent_words': sum(sum(c.values()) for c in fc), 'n_word_types': len(fw),
            'n_folios': len(folios), 'sections': dict(Counter(labels)), 'n_perm': n_perm}
     for k, o in obs.items():
-        res[k] = {'observed': round(o, 4), 'null_shuffle_within_hand': summ(o, nullA[k]),
-                  'null_rotate_within_hand': summ(o, nullB[k])}
-    # per-hand breakdown of the observed conditional MI
+        res[k] = {'observed': round(o, 4), 'null_shuffle': summ(o, nullA[k]), 'null_rotate': summ(o, nullB[k])}
+    # per-hand breakdown of the observed conditional MI, with its own within-hand shuffle null
     per_hand = {}
-    for h, members in sorted(by_hand.items()):
-        sub_fc = [fc[i] for i in members]; sub_lab = [labels[i] for i in members]
-        ntok = sum(sum(c.values()) for c in sub_fc)
+    for members in by_hand:
+        h = hands[members[0]]
+        sub_lab = [labels[i] for i in members]
+        ntok = sum(sum(fc[i].values()) for i in members)
+        o = hand_mi(labels, members)
         per_hand[h] = {'n_folios': len(members), 'n_tokens': ntok, 'sections': dict(Counter(sub_lab)),
-                       'MI_bits': round(mi_from_folio_counts(sub_fc, sub_lab), 4) if len(set(sub_lab)) > 1 else 0.0}
-    res['per_hand'] = per_hand
+                       'MI_bits': round(o, 4)}
+        if len(set(sub_lab)) > 1:
+            per_hand[h]['null_shuffle'] = summ(o, per_hand_null[h])
+    res['per_hand'] = dict(sorted(per_hand.items()))
     return res
 
 # ----------------------------------------------------------------------------------------------------------
@@ -686,11 +708,13 @@ def write_md(out):
     L.append('## 3. Illustration-to-text mutual information')
     L.append('')
     L.append('Method: tokens of word types with frequency >= 20; MI(section; word) in bits per token, plug-in. Conditional versions: MI computed within each '
-             'stratum (hand, quire, Currier language, hand x quire) and averaged with token weights. Null (a): section labels permuted among folios of the same hand, '
-             '200 permutations (removes the section-hand confound and gives the finite-sample bias). Null (b): section-label sequence rotated by a random offset '
-             'within each hand in binding order (keeps the run structure of the labels, moves the boundaries off the drawings; tests "any contiguous partition '
-             'would do"). Positive controls: the three pours with contiguous section blocks of the same folio counts (real topic change), and with the '
-             'Voynich section labels as they fall on the skeleton.')
+             'stratum (hand, quire, Currier language, hand x quire) and averaged with token weights. Null (a): section labels permuted among folios of the same hand '
+             'and, for the conditional measures, of the same conditioning stratum (hand x quire, hand x language), 200 permutations: removes the section-hand '
+             'confound and gives the finite-sample bias of the estimator. Null (b): section-label sequence rotated by a random offset within each such stratum in '
+             'binding order (keeps the run structure of the labels, moves the boundaries off the drawings; tests "any contiguous partition would do"; within '
+             'quires it has few distinct states). Positive controls: the three pours with contiguous section blocks of the same folio counts (real topic change '
+             'at the block boundaries), and with the Voynich section labels as they fall on the skeleton. Quire-conditioned MI is near-degenerate for everyone '
+             'because most quires hold a single section.')
     L.append('')
     mi = out['mutual_information']
     keys = ['marginal', 'given_hand', 'given_quire', 'given_language', 'given_hand_and_quire']
@@ -699,12 +723,25 @@ def write_md(out):
     for t, r in mi.items():
         cells = []
         for k in keys:
-            x = r[k]; na = x['null_shuffle_within_hand']; nb = x['null_rotate_within_hand']
+            x = r[k]; na = x['null_shuffle']; nb = x['null_rotate']
             cells.append('%.4f / %.4f / %.4f / %s / %.3f ; %.4f / %s' % (x['observed'], na['null_mean'], na['excess_bits'], na['z'], na['p'], nb['null_mean'], nb['z']))
         L.append('| %s | ' % t + ' | '.join(cells) + ' |')
     L.append('')
-    L.append('Per-hand MI(section; word) within the hand, Voynich: ' + '; '.join('hand %s: %d folios, %d tokens, sections %s, MI %.4f' % (
-        h, v['n_folios'], v['n_tokens'], v['sections'], v['MI_bits']) for h, v in mi['voynich']['per_hand'].items()))
+    L.append('Per-hand MI(section; word) within the hand (bits/token), observed / within-hand shuffle null mean / excess / z:')
+    L.append('')
+    L.append('| text | ' + ' | '.join('hand %s' % h for h in ('1', '2', '3', '4', '5')) + ' |')
+    L.append('|---|---|---|---|---|---|')
+    for t, r in mi.items():
+        cells = []
+        for h in ('1', '2', '3', '4', '5'):
+            v = r['per_hand'].get(h)
+            if not v or 'null_shuffle' not in v:
+                cells.append('-')
+            else:
+                ns = v['null_shuffle']
+                cells.append('%.4f / %.4f / %.4f / %s (%d fol, %d tok, %s)' % (v['MI_bits'], ns['null_mean'], ns['excess_bits'], ns['z'],
+                                                                             v['n_folios'], v['n_tokens'], v['sections'] if t == 'voynich' else ''))
+        L.append('| %s | ' % t + ' | '.join(cells) + ' |')
     L.append('')
     # 4
     L.append('## 4. Topic clustering (spherical k-means on TF-IDF)')

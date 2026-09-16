@@ -16,42 +16,14 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
-     "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "even", "md", "an hour of compute",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "even", "md", "compute in progress",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
      "September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words "
      "on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than "
      "French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions "
-     "(107,594 readings) and single columnar. A C# solver built for double transposition breaks planted messages of this length completely up "
-     "to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, "
-     "which is not public, would help most."),
-
-    ("ADFGVX residue of the Eastern Front", "1918", "https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md", "top 50", "incremental wins", "md", "medium",
-     "Keys published, decoder built, page 100 reproduced from scratch. Page 132's key is identified and WIEDERHOLE and TELEG emerged "
-     "unprompted, so a deeper garble model (more than two insertions, deletions with substitutions, column-boundary shifts) should finish "
-     "it; page 146 shows partial words on a length-17 key. Every message read is publishable, and consolidating the 2017 comment thread into "
-     "the table Schmeh never wrote is a service on its own. Near-certain incremental wins; a low chance of reading all twenty-two."),
-
-    ("Huang Xing telegram, the specific scheme", "1916", "huangxing.html", "", "high", "hi", "transcription",
-     "Scheme identified and the JACAR frames already fetched. What remains is the consonant-row to digit permutation and 46 codebook entries, "
-     "blocked only on an exact reading of the cursive on frame 0247. That is transcription work, not access. Finishing it turns "
-     "&ldquo;scheme identified&rdquo; into &ldquo;specific scheme recovered&rdquo;, which is exactly what cryptiana's entry asks for."),
-
-    ("Catokwacopa, lines 23 and 29", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "two more lines", "md", "low",
-     "Tooling exists. Line 29 is short enough for an exhaustive Latin-plus-English search with the positional prior, and line 23 needs a "
-     "phrase-level model instead of unigrams. Cheap, but the payoff is two more lines of an already outlined reading, not a solve."),
-
-    ("Armstrong: roll 13 residue and the 20 February 1808 letter", "1808", "armstrong.html", "", "medium-low", "md", "medium",
-     "The postscript is done, but eight table entries can still be read from pencil frames already on disk, and the 22 February letter is only "
-     "largely read. The 20 February 1808 letter is a separate unique code, never attacked here, with a disputed 2025 contest solution to test; "
-     "roll 14 frames are local. Medium-low odds on the 20 February letter, since a unique code has no sibling."),
-
-    ("Sun Yat-sen telegram, the tail", "1916", "sunyatsen.html", "", "high", "hi", "low",
-     "Three garbled codes after &#36820; and the &#22478;/&#32764;&#9633; doubts. Needs a closer look at the second sheet of a JACAR frame, "
-     "which is online. Small, quick, finishes a solved item."),
-
-    ("Urquhart octastich", "1653", "https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md", "top 50", "low", "lo", "medium",
-     "Untouched by anyone, and a book-cipher index into Urquhart's digitised corpus is mechanically testable. Held back because the "
-     "ciphertext's own provenance is unresolved and the 1653 OCR is dreadful."),
+     "(107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys "
+     "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
+     "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
 
     ("Japanese telegram decoded by Yardley", "c.1920",
      "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "not started",
@@ -60,6 +32,44 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("ADFGVX residue of the Eastern Front", "1918", "https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md", "top 50",
+     "9 solved, 3 partial, 10 open", "md",
+     "Not unbroken ciphers: Lasry and colleagues published the keys, and the twenty-two are mutilated transmissions. <b>Second session, "
+     "September 2026.</b> The 2017 comment thread, read in full, had already solved nine and partly read three, by Norbert's rule of two block "
+     "edits of up to five letters; Lasry's unpublished <b>sixteenth key</b> (CHI, 13 November) is rebuilt here and added to the fifteen. The table "
+     "nobody published is now in the notes. Norbert's method, reimplemented with a German quadgram model, re-derives seven of the solved pages "
+     "blind. On the ten never read (73, 152, 153 twice, 158, 170, 176b, 189, 198, 217) it finds nothing with any key, the CHI key fails on the two "
+     "page-153 messages, and a key-free transposition attack fails its own 224-letter planted control. They need the Childs originals or a key "
+     "that was never in the corpus."),
+
+    ("Huang Xing telegram, the scheme corrected from the frames", "1916", "huangxing.html", "", "scheme found, corrected", "md",
+     "<b>Second session.</b> Frame 0247 read at 500 dpi gives a 46-character plaintext, and one superfluous kana at position 106 turns out to have "
+     "hidden the repeats: with it dropped, &#34892; three times, &#36895; twice and &#38651; twice are <b>identical kana triples</b>. So the code is "
+     "deterministic and the vowel is not a free homophone, which overturns the first reading; the seven row collisions are different characters. A "
+     "row-to-digit permutation test against telegraph-code order is at chance. 42 codebook entries recovered; the kana-to-digit table needs a second "
+     "telegram. <a href=\"huangxing.html\">Write-up, corrected &rarr;</a>"),
+
+    ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
+     "<b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT "
+     "first, ahead of <i>qui fuit</i>. Line 29 (<i>ereflodbr / rileohmae</i>) is junk in Latin as in English, three or four words at best; "
+     "RELIGIONEM CONFIRMARE stays at eleven edits. The line is undetermined in both languages, and the Oxford reading is otherwise as audited before."),
+
+    ("Sun Yat-sen telegram, the tail", "1916", "sunyatsen.html", "", "garble confirmed", "lo",
+     "<b>Second session.</b> The received-message form re-fetched from JACAR and its second sheet read at 600 dpi: <i>xopavajejo ropezpo / ngobunibai "
+     "tanaka</i>, every letter as Tomokiyo transcribed it. The garble after &#36820; is the operator's, not the transcriber's, and the three lost "
+     "codes stay lost."),
+
+    ("Armstrong: the roll 13 residue", "1808", "armstrong.html", "", "one group upgraded", "md",
+     "<b>Second session.</b> The microfilm frames were re-fetched through the catalogue proxy. Frame 0190, a fully pencilled despatch of 20 July 1806 "
+     "(&ldquo;a peace was signed last night between Russia and France&rdquo;), gives <b>1320 = like</b> as a reading from source, so the last clause "
+     "of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down "
+     "and unread; the 20 February 1808 letter is untouched."),
+
+    ("Urquhart octastich", "17th c.", "https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md", "top 50", "book-cipher shape", "lo",
+     "<b>Second session.</b> Measured: 272 numbers, 82 distinct, maximum 201, index of coincidence 0.021, forty per cent of values ten or less, "
+     "and 31 of the distich's 32 values recur, so the two poems are one system with the shape of a word-index book cipher. Not attackable without "
+     "the key text, and nobody has said where the octastich was printed."),
+
     ("Copenhagen cryptogram", "c.1950s", "copenhagen.html", "top 50", "not a simple substitution", "lo",
      "Three lines found behind an 1835 portrait of a Danish general, 107 characters. <b>Attempted September 2026.</b> Transcribed twice (20 and "
      "25 symbols), attacked in ten languages under six reading conventions and a word-separator hypothesis with a 5-gram annealer and dictionary "

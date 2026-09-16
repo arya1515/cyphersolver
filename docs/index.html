@@ -59,7 +59,7 @@
 <li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
 <li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
-<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route and single columnar excluded against planted controls. A double-transposition solver now breaks planted messages of this length; the real run is next.</li>
+<li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route, single columnar and forward double columnar (same key to width 30, two keys to 16 &times; 16) excluded against planted controls; the reversed direction and the long-key attack are running.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
 </ul>
 <div class="more" hidden><ul class="findings">
@@ -69,7 +69,7 @@
 <li><b>Perwich to Arlington, 1670</b> &mdash; <span class="fnd">correction: solved in 2025, and it is a transposition.</span> This page said otherwise; the q nulls fooled the chi-squared. The published break is now reproduced here from the transcription: 20 columns, two null lines, key recovered without the plaintext.</li>
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">cipher family identified</span> as Antonio Elio&rsquo;s polyphonic-syllabic design, built for the chancery that sent the letter. Five measurements match it, one of them recovering a written chancery rule. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>Schmeh&rsquo;s Top 50</b> &mdash; <span class="fnd">audited entry by entry.</span> Nine are closed and the list does not say so; one entry is an April Fools&rsquo; joke that has sat unmarked for nine years.</li>
-<li><b>ADFGVX, 1918</b> &mdash; <span class="fnd">decoder built, page 100 reproduced</span> from scratch at score 140.7 where nothing else clears 7. Page 132&rsquo;s key identified.</li>
+<li><b>ADFGVX, 1918</b> &mdash; <span class="fnd">the 2017 thread consolidated: 9 solved, 3 partial, 10 open.</span> Lasry&rsquo;s unpublished sixteenth key rebuilt; Norbert&rsquo;s two-block-edit method reimplemented with a German model re-derives seven pages blind; the ten open messages resist all fifteen keys and a key-free attack that fails its own control.</li>
 <li><b>Ferdinand III, 1634&ndash;40</b> &mdash; <span class="fnd">was stale here.</span> Carried as blocked on a database login; in fact solved by Thomas Ernst in 2017 and published nine years ago.</li>
 <li><b>Charles I, 1648</b> &mdash; <span class="fnd">two keys excluded</span> on both unread letters, including the Titus key of the same month and the same escape plot.</li>
 <li><b>Berthier to Napoleon, 1812</b> &mdash; <span class="fnd">plaintext located,</span> in print since 1912, drawn from the very archive carton the cryptogram sits in.</li>
@@ -145,69 +145,21 @@
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
   <button class="qf on" data-f="all">All <span>27</span></button>
-  <button class="qf" data-f="live">Worth continuing <span>8</span></button>
-  <button class="qf" data-f="done">Attempted <span>11</span></button>
+  <button class="qf" data-f="live">Worth continuing <span>2</span></button>
+  <button class="qf" data-f="done">Attempted <span>17</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
 <h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
   <div class="tg-b">
-    <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
-    <div class="tg-meta"><span class="odds md">even</span><span class="eff">an hour of compute</span></div>
-    <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions (107,594 readings) and single columnar. A C# solver built for double transposition breaks planted messages of this length completely up to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, which is not public, would help most.</p>
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
+    <div class="tg-meta"><span class="odds md">even</span><span class="eff">compute in progress</span></div>
+    <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions (107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most.</p>
   </div>
 </article>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">2</span></div>
-  <div class="tg-b">
-    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md">ADFGVX residue of the Eastern Front</a><span class="tg-date">1918</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds md">incremental wins</span><span class="eff">medium effort</span></div>
-    <p>Keys published, decoder built, page 100 reproduced from scratch. Page 132's key is identified and WIEDERHOLE and TELEG emerged unprompted, so a deeper garble model (more than two insertions, deletions with substitutions, column-boundary shifts) should finish it; page 146 shows partial words on a length-17 key. Every message read is publishable, and consolidating the 2017 comment thread into the table Schmeh never wrote is a service on its own. Near-certain incremental wins; a low chance of reading all twenty-two.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">3</span></div>
-  <div class="tg-b">
-    <h3><a href="huangxing.html">Huang Xing telegram, the specific scheme</a><span class="tg-date">1916</span></h3>
-    <div class="tg-meta"><span class="odds hi">high</span><span class="eff">transcription</span></div>
-    <p>Scheme identified and the JACAR frames already fetched. What remains is the consonant-row to digit permutation and 46 codebook entries, blocked only on an exact reading of the cursive on frame 0247. That is transcription work, not access. Finishing it turns &ldquo;scheme identified&rdquo; into &ldquo;specific scheme recovered&rdquo;, which is exactly what cryptiana's entry asks for.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">4</span></div>
-  <div class="tg-b">
-    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md">Catokwacopa, lines 23 and 29</a><span class="tg-date">1875</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds md">two more lines</span><span class="eff">low effort</span></div>
-    <p>Tooling exists. Line 29 is short enough for an exhaustive Latin-plus-English search with the positional prior, and line 23 needs a phrase-level model instead of unigrams. Cheap, but the payoff is two more lines of an already outlined reading, not a solve.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">5</span></div>
-  <div class="tg-b">
-    <h3><a href="armstrong.html">Armstrong: roll 13 residue and the 20 February 1808 letter</a><span class="tg-date">1808</span></h3>
-    <div class="tg-meta"><span class="odds md">medium-low</span><span class="eff">medium effort</span></div>
-    <p>The postscript is done, but eight table entries can still be read from pencil frames already on disk, and the 22 February letter is only largely read. The 20 February 1808 letter is a separate unique code, never attacked here, with a disputed 2025 contest solution to test; roll 14 frames are local. Medium-low odds on the 20 February letter, since a unique code has no sibling.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">6</span></div>
-  <div class="tg-b">
-    <h3><a href="sunyatsen.html">Sun Yat-sen telegram, the tail</a><span class="tg-date">1916</span></h3>
-    <div class="tg-meta"><span class="odds hi">high</span><span class="eff">low effort</span></div>
-    <p>Three garbled codes after &#36820; and the &#22478;/&#32764;&#9633; doubts. Needs a closer look at the second sheet of a JACAR frame, which is online. Small, quick, finishes a solved item.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">7</span></div>
-  <div class="tg-b">
-    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md">Urquhart octastich</a><span class="tg-date">1653</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
-    <p>Untouched by anyone, and a book-cipher index into Urquhart's digitised corpus is mechanically testable. Held back because the ciphertext's own provenance is unresolved and the 1653 OCR is dreadful.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">8</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
     <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">not started</span></div>
@@ -215,6 +167,54 @@
   </div>
 </article>
 <h3 class="tier" data-t="done">Attempted &mdash; findings recorded <small>what was established, and what is left</small></h3>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md">ADFGVX residue of the Eastern Front</a><span class="tg-date">1918</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds md">9 solved, 3 partial, 10 open</span></div>
+    <p>Not unbroken ciphers: Lasry and colleagues published the keys, and the twenty-two are mutilated transmissions. <b>Second session, September 2026.</b> The 2017 comment thread, read in full, had already solved nine and partly read three, by Norbert's rule of two block edits of up to five letters; Lasry's unpublished <b>sixteenth key</b> (CHI, 13 November) is rebuilt here and added to the fifteen. The table nobody published is now in the notes. Norbert's method, reimplemented with a German quadgram model, re-derives seven of the solved pages blind. On the ten never read (73, 152, 153 twice, 158, 170, 176b, 189, 198, 217) it finds nothing with any key, the CHI key fails on the two page-153 messages, and a key-free transposition attack fails its own 224-letter planted control. They need the Childs originals or a key that was never in the corpus.</p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="huangxing.html">Huang Xing telegram, the scheme corrected from the frames</a><span class="tg-date">1916</span></h3>
+    <div class="tg-meta"><span class="odds md">scheme found, corrected</span></div>
+    <p><b>Second session.</b> Frame 0247 read at 500 dpi gives a 46-character plaintext, and one superfluous kana at position 106 turns out to have hidden the repeats: with it dropped, &#34892; three times, &#36895; twice and &#38651; twice are <b>identical kana triples</b>. So the code is deterministic and the vowel is not a free homophone, which overturns the first reading; the seven row collisions are different characters. A row-to-digit permutation test against telegraph-code order is at chance. 42 codebook entries recovered; the kana-to-digit table needs a second telegram. <a href="huangxing.html">Write-up, corrected &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md">Catokwacopa, line 29 in Latin</a><span class="tg-date">1875</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds lo">undetermined</span></div>
+    <p><b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT first, ahead of <i>qui fuit</i>. Line 29 (<i>ereflodbr / rileohmae</i>) is junk in Latin as in English, three or four words at best; RELIGIONEM CONFIRMARE stays at eleven edits. The line is undetermined in both languages, and the Oxford reading is otherwise as audited before.</p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="sunyatsen.html">Sun Yat-sen telegram, the tail</a><span class="tg-date">1916</span></h3>
+    <div class="tg-meta"><span class="odds lo">garble confirmed</span></div>
+    <p><b>Second session.</b> The received-message form re-fetched from JACAR and its second sheet read at 600 dpi: <i>xopavajejo ropezpo / ngobunibai tanaka</i>, every letter as Tomokiyo transcribed it. The garble after &#36820; is the operator's, not the transcriber's, and the three lost codes stay lost.</p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="armstrong.html">Armstrong: the roll 13 residue</a><span class="tg-date">1808</span></h3>
+    <div class="tg-meta"><span class="odds md">one group upgraded</span></div>
+    <p><b>Second session.</b> The microfilm frames were re-fetched through the catalogue proxy. Frame 0190, a fully pencilled despatch of 20 July 1806 (&ldquo;a peace was signed last night between Russia and France&rdquo;), gives <b>1320 = like</b> as a reading from source, so the last clause of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down and unread; the 20 February 1808 letter is untouched.</p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md">Urquhart octastich</a><span class="tg-date">17th c.</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds lo">book-cipher shape</span></div>
+    <p><b>Second session.</b> Measured: 272 numbers, 82 distinct, maximum 201, index of coincidence 0.021, forty per cent of values ten or less, and 31 of the distich's 32 values recur, so the two poems are one system with the shape of a word-index book cipher. Not attackable without the key text, and nobody has said where the octastich was printed.</p>
+  </div>
+</article>
 <article class="tg done">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">

@@ -1,5 +1,5 @@
 {
- "method": "b1_segmentation.py -- closing the segmentation gap named in NOTES.md section 2.\n\nTwo questions:\n (1) Do the ZL statistics depend on treating IVTFF uncertain spaces (',') as word breaks?\n     CERTAIN tokenisation = words joined across ',', split only at '.';  ALL = the existing TSV\n     (every ',' a break).  Same battery on both.\n (2) Does a European language WRITTEN SYLLABICALLY reproduce the Voynichese profile?  Latin prose\n     (Confessiones), Latin verse (Aeneid) and 16th-c. Italian are cut into syllables by a stated rule,\n     the syllables are treated as words, and the same battery is run; a 'CV-rigid' variant trims each\n     syllable to one consonant + one vowel.\n\nPure Python 3.12.  Writes results/b1.json and results/b1.md.  Reuses a1_charstats (entropy helpers,\nmerge tokenisers) and a3_wordgrammar (precedence counts, linear-order search, violation statistics).\n\nMETHOD CHOICES (all of them)\n----------------------------\nVoynich text\n  * data/ZL3b-n.txt re-parsed here with the same regexes as parse_ivtff.py (page headers skipped, locus\n    lines matched, <!..> <..> {..} removed, [a:b] -> a).  Only locus type P (paragraph text).\n  * CERTAIN: ',' deleted (the two halves become one word), '.' splits.  ALL: data/ZL3b-n.words.tsv as\n    produced by parse_ivtff.py (',' -> break).  The re-parse in 'split' mode is checked to reproduce the\n    TSV token list exactly.\n  * Filter (a3's): words containing '?' or any character outside {a c d e f g h i k l m n o p q r s t y}\n    are dropped.  In CERTAIN a join with a '?' word drops the whole joined word.\n  * Alphabets: RAW EVA (one character = one symbol); MERGE-A3 (ckh cth cph cfh ch sh eee ee iiin iin in\n    -> one symbol each; the alphabet of NOTES 4.3 and 4.4); MERGE2-A1 (a1's merge2: benches, bench\n    gallows, i/e groups, aiin ain in, qo; the 'merged' row of NOTES 4.1).  Multi-character glyphs are\n    mapped to private-use code points so every statistic sees one character per symbol.\n  * ALL is additionally truncated to the CERTAIN token count (ALL_trunc) so that the size-dependent\n    statistics (types, hapax, Zipf) are compared at equal token count.\n\nLanguages\n  * Latin prose: corp_la_33849 (Augustine, Confessiones); Latin verse: corp_la_227 (Aeneid); Gutenberg\n    header/footer stripped at '*** START OF' / '*** END OF'; lower-case; a word = maximal run of Unicode\n    letters (a3's LETTER regex).  Italian: vatican5/corpus_it.txt (already lower-cased; about 8% Latin\n    tokens per v_a3).  No tokens skipped at the start (as in a3).\n  * Sample size: the first N tokens of each tokenisation, N = number of clean ZL ALL tokens.  For the\n    syllable tokenisations N SYLLABLES are taken (equal token count with Voynichese, not equal text).\n\nSyllabification rule (applied inside each orthographic word; word boundaries are always syllable\nboundaries)\n  * Vowels = a e i o u y.  A 'u' immediately after 'q' is treated as a consonant (qu = one onset).\n  * A nucleus = a maximal run of vowels (diphthongs and hiatus are NOT separated: 'ae', 'io', 'uo' are\n    one nucleus; this under-counts Latin syllables slightly).\n  * Consonant cluster C1..Ck between two nuclei:  k=1 -> V|CV ;  k>=2 -> the split is placed before the\n    longest tail of the cluster that is a permitted onset: 3-letter onsets {str spr scr spl scl sch chr\n    thr phr}, 2-letter onsets {bl br cl cr dr fl fr gl gr pl pr tr ph th ch qu gn st sp sc sm sn}, else\n    before the last consonant (VC|CV, so double consonants split: 'tt' -> t|t).\n  * Word-initial consonants join the first syllable, word-final consonants the last.  A word with no\n    vowel is one syllable.\n  * Examples: 'confessiones' -> con fes sio nes ; 'instrumentum' -> in stru men tum ; 'quae' -> quae ;\n    'aeneidos' -> ae nei dos ; 'troiae' -> troiae (one nucleus) ; 'signore' -> si gno re.\n  * CV-rigid variant: each syllable -> (first consonant of its onset, if any) + (first vowel of its\n    nucleus, if any); coda dropped.  'stru' -> 'su', 'men' -> 'me', 'quae' -> 'qa', 'ae' -> 'a'.\n    A vowel-less syllable keeps its first consonant.\n\nStatistics (identical code path for every corpus)\n  * tokens, types, hapax fraction of types, Zipf slope = OLS of log10 freq on log10 rank, ranks\n    1..min(1000, types) (a2's definition).\n  * word length in symbols: mean, variance, and variance/mean of (length-1) (a2's dispersion index).\n  * h1, h2 with spaces (space is a symbol; line ends are not marked) and without spaces (tokens\n    concatenated), plug-in estimates, bits (a1's stream_stats); h2 within-word.\n  * positional lock (a5): symbols with >= 20 occurrences; position class single/initial/medial/final;\n    'locked' = >= 90% of occurrences in one of initial/medial/final; reported as fraction of symbol\n    types, plus I(symbol; position) in bits.\n  * pair-violation rigidity (a3): token-weighted fraction of within-word ordered pairs of distinct\n    symbols that are out of order under the best linear order of the alphabet (a3.best_order, 12\n    restarts); 'length-matched' = the corpus resampled with replacement inside each word length to the\n    word-length histogram of ZL ALL merge-a3 (v_a3's length_matched, nearest available length when a\n    length is absent); reported n/a when the corpus has no token longer than 2 symbols.  Also the\n    violation fraction by word length (2,3,4,5) under the global order.\n  * Shuffle null: symbols shuffled inside each word (a3.shuffle_within), reported for the syllable\n    tokenisations.\n",
+ "method": "b1_segmentation.py -- closing the segmentation gap named in NOTES.md section 2.\n\nTwo questions:\n (1) Do the ZL statistics depend on treating IVTFF uncertain spaces (',') as word breaks?\n     CERTAIN tokenisation = words joined across ',', split only at '.';  ALL = the existing TSV\n     (every ',' a break).  Same battery on both.\n (2) Does a European language WRITTEN SYLLABICALLY reproduce the Voynichese profile?  Latin prose\n     (Confessiones), Latin verse (Aeneid) and 16th-c. Italian are cut into syllables by a stated rule,\n     the syllables are treated as words, and the same battery is run; a 'CV-rigid' variant trims each\n     syllable to one consonant + one vowel.\n\nPure Python 3.12.  Writes results/b1.json and results/b1.md.  Reuses a1_charstats (entropy helpers,\nmerge tokenisers) and a3_wordgrammar (precedence counts, linear-order search, violation statistics).\n\nMETHOD CHOICES (all of them)\n----------------------------\nVoynich text\n  * data/ZL3b-n.txt re-parsed here with the same regexes as parse_ivtff.py (page headers skipped, locus\n    lines matched, <!..> <..> {..} removed, [a:b] -> a).  Only locus type P (paragraph text).\n  * CERTAIN: ',' deleted (the two halves become one word), '.' splits.  ALL: data/ZL3b-n.words.tsv as\n    produced by parse_ivtff.py (',' -> break).  The re-parse in 'split' mode is checked to reproduce the\n    TSV token list exactly.\n  * Filter (a3's): words containing '?' or any character outside {a c d e f g h i k l m n o p q r s t y}\n    are dropped.  In CERTAIN a join with a '?' word drops the whole joined word.\n  * Alphabets: RAW EVA (one character = one symbol); MERGE-A3 (ckh cth cph cfh ch sh eee ee iiin iin in\n    -> one symbol each; the alphabet of NOTES 4.3 and 4.4); MERGE2-A1 (a1's merge2: benches, bench\n    gallows, i/e groups, aiin ain in, qo; the 'merged' row of NOTES 4.1).  Multi-character glyphs are\n    mapped to private-use code points so every statistic sees one character per symbol.\n  * ALL is additionally truncated to the CERTAIN token count (ALL_trunc) so that the size-dependent\n    statistics (types, hapax, Zipf) are compared at equal token count.\n\nLanguages\n  * Latin prose: corp_la_33849 (Augustine, Confessiones); Latin verse: corp_la_227 (Aeneid); Gutenberg\n    header/footer stripped at '*** START OF' / '*** END OF'; lower-case; a word = maximal run of Unicode\n    letters (a3's LETTER regex).  Italian: vatican5/corpus_it.txt (already lower-cased; about 8% Latin\n    tokens per v_a3).  No tokens skipped at the start (as in a3).\n  * Sample size: the first N tokens of each tokenisation, N = number of clean ZL ALL tokens.  For the\n    syllable tokenisations N SYLLABLES are taken (equal token count with Voynichese, not equal text).\n\nSyllabification rule (applied inside each orthographic word; word boundaries are always syllable\nboundaries)\n  * Vowels = a e i o u y.  A 'u' immediately after 'q' is treated as a consonant (qu = one onset).\n  * A nucleus = a maximal run of vowels (diphthongs and hiatus are NOT separated: 'ae', 'io', 'uo' are\n    one nucleus; this under-counts Latin syllables slightly).\n  * Consonant cluster C1..Ck between two nuclei:  k=1 -> V|CV ;  k>=2 -> the split is placed before the\n    longest tail of the cluster that is a permitted onset: 3-letter onsets {str spr scr spl scl sch chr\n    thr phr}, 2-letter onsets {bl br cl cr dr fl fr gl gr pl pr tr ph th ch qu gn st sp sc sm sn}, else\n    before the last consonant (VC|CV, so double consonants split: 'tt' -> t|t).\n  * Word-initial consonants join the first syllable, word-final consonants the last.  A word with no\n    vowel is one syllable.\n  * Examples: 'confessiones' -> con fes sio nes ; 'instrumentum' -> in stru men tum ; 'quae' -> quae ;\n    'aeneidos' -> ae nei dos ; 'troiae' -> troiae (one nucleus) ; 'signore' -> si gno re.\n  * CV-rigid variant: each syllable -> (first consonant of its onset, if any) + (first vowel of its\n    nucleus, if any); coda dropped.  'stru' -> 'su', 'men' -> 'me', 'quae' -> 'qa', 'ae' -> 'a'.\n    A vowel-less syllable keeps its first consonant.\n  * Bisyllabic variants (added because live hypothesis (a) in NOTES makes a 4-5 glyph Voynich word equal\n    to about two 2-3 glyph units): syl2 = syllables 1+2, 3+4, ... of each word joined into one token, an\n    odd final syllable alone ('confessiones' -> confes siones, 'arma' -> arma, 'cano' -> cano); cv2 = the\n    same chunks after CV trimming ('confessiones' -> cofe sine).  Word boundaries are never crossed.\n\nStatistics (identical code path for every corpus)\n  * tokens, types, hapax fraction of types, Zipf slope = OLS of log10 freq on log10 rank, ranks\n    1..min(1000, types) (a2's definition).\n  * word length in symbols: mean, variance, and variance/mean of (length-1) (a2's dispersion index).\n  * h1, h2 with spaces (space is a symbol; line ends are not marked) and without spaces (tokens\n    concatenated), plug-in estimates, bits (a1's stream_stats); h2 within-word.\n  * positional lock (a5): symbols with >= 20 occurrences; position class single/initial/medial/final;\n    'locked' = >= 90% of occurrences in one of initial/medial/final; reported as fraction of symbol\n    types, plus I(symbol; position) in bits.\n  * pair-violation rigidity (a3): token-weighted fraction of within-word ordered pairs of distinct\n    symbols that are out of order under the best linear order of the alphabet (a3.best_order, 12\n    restarts); 'length-matched' = the corpus resampled with replacement inside each word length to the\n    word-length histogram of ZL ALL merge-a3 (v_a3's length_matched, nearest available length when a\n    length is absent); reported n/a when the corpus has no token longer than 2 symbols.  Also the\n    violation fraction by word length (2,3,4,5) under the global order.\n  * Shuffle null: symbols shuffled inside each word (a3.shuffle_within), reported for the syllable\n    tokenisations.\n",
  "part1": {
   "N_ALL": 34059,
   "N_CERTAIN": 31602,
@@ -100,7 +100,7 @@
       "6": 0.1428
      }
     },
-    "seconds": 1.0
+    "seconds": 0.7
    },
    "ALL/merge_a3": {
     "label": "ZL ALL merge_a3",
@@ -193,7 +193,7 @@
       "6": 0.1594
      }
     },
-    "seconds": 0.9
+    "seconds": 0.7
    },
    "ALL/merge2_a1": {
     "label": "ZL ALL merge2_a1",
@@ -290,7 +290,7 @@
       "6": 0.2136
      }
     },
-    "seconds": 0.9
+    "seconds": 0.7
    },
    "CERTAIN/raw": {
     "label": "ZL CERTAIN raw",
@@ -390,7 +390,8 @@
       "6": 0.1454
      }
     },
-    "pair_length_matched": 0.1339,
+    "pair_length_matched": 0.1609,
+    "lm_exact_length_coverage": 1.0,
     "seconds": 1.0
    },
    "CERTAIN/merge_a3": {
@@ -487,7 +488,8 @@
      }
     },
     "pair_length_matched": 0.1622,
-    "seconds": 0.8
+    "lm_exact_length_coverage": 1.0,
+    "seconds": 1.1
    },
    "CERTAIN/merge2_a1": {
     "label": "ZL CERTAIN merge2_a1",
@@ -585,8 +587,9 @@
       "6": 0.2203
      }
     },
-    "pair_length_matched": 0.1871,
-    "seconds": 0.9
+    "pair_length_matched": 0.1762,
+    "lm_exact_length_coverage": 1.0,
+    "seconds": 1.1
    },
    "ALL_trunc/raw": {
     "label": "ZL ALL_trunc raw",
@@ -684,7 +687,7 @@
       "6": 0.1427
      }
     },
-    "seconds": 1.0
+    "seconds": 0.9
    },
    "ALL_trunc/merge_a3": {
     "label": "ZL ALL_trunc merge_a3",
@@ -777,7 +780,7 @@
       "6": 0.1599
      }
     },
-    "seconds": 0.7
+    "seconds": 0.6
    },
    "ALL_trunc/merge2_a1": {
     "label": "ZL ALL_trunc merge2_a1",
@@ -874,7 +877,7 @@
       "6": 0.2167
      }
     },
-    "seconds": 0.7
+    "seconds": 0.6
    }
   },
   "joined_words": {
@@ -1275,7 +1278,8 @@
      }
     },
     "pair_length_matched": 0.3654,
-    "seconds": 1.2
+    "lm_exact_length_coverage": 1.0,
+    "seconds": 1.3
    },
    "la_prose/syl": {
     "label": "la_prose syl",
@@ -1361,6 +1365,7 @@
      }
     },
     "pair_length_matched": 0.2589,
+    "lm_exact_length_coverage": 0.991,
     "seconds": 0.5
    },
    "la_prose/cv": {
@@ -1452,7 +1457,165 @@
     },
     "pair_length_matched": null,
     "pair_length_matched_note": "n/a: no token longer than 2 symbols",
-    "seconds": 0.4
+    "lm_exact_length_coverage": null,
+    "seconds": 0.3
+   },
+   "la_prose/syl2": {
+    "label": "la_prose syl2",
+    "n_tokens": 34059,
+    "n_symbols_total": 134806,
+    "alphabet": 27,
+    "types": 5831,
+    "zipf_slope_1_1000": -0.8716,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.4709,
+    "hapax_token_frac": 0.0806,
+    "top1_share": 0.0443,
+    "top5": [
+     [
+      "et",
+      1508
+     ],
+     [
+      "in",
+      551
+     ],
+     [
+      "non",
+      499
+     ],
+     [
+      "te",
+      342
+     ],
+     [
+      "re",
+      307
+     ]
+    ],
+    "length": {
+     "mean": 3.958,
+     "variance": 1.945,
+     "disp_len_minus1": 0.657,
+     "max": 12,
+     "hist": {
+      "1": 207,
+      "2": 5512,
+      "3": 7820,
+      "4": 8626,
+      "5": 7359,
+      "6": 3328,
+      "7": 900,
+      "8": 235,
+      "9": 54,
+      "10": 17,
+      "12": 1
+     }
+    },
+    "h1_sp": 3.9474,
+    "h2_sp": 3.2892,
+    "h1_nosp": 4.0361,
+    "h2_nosp": 3.5074,
+    "h1_minus_h2_nosp": 0.5287,
+    "h2_within_word": 3.1311,
+    "H_word_bits": 10.442,
+    "positional": {
+     "n_symbols": 24,
+     "locked_frac": 0.0,
+     "locked_n": 0,
+     "locked_symbols": [],
+     "mi_bits": 0.1658
+    },
+    "pair": {
+     "pair_violation_frac": 0.3717,
+     "pairs": 222634,
+     "order": "z q p f j v h d l c g b o r a n e x t u m y k i â æ s",
+     "by_length": {
+      "2": 0.4232,
+      "3": 0.3132,
+      "4": 0.3966,
+      "5": 0.3885,
+      "6": 0.3499
+     }
+    },
+    "pair_length_matched": 0.3633,
+    "lm_exact_length_coverage": 0.998,
+    "seconds": 1.0
+   },
+   "la_prose/cv2": {
+    "label": "la_prose cv2",
+    "n_tokens": 34059,
+    "n_symbols_total": 97618,
+    "alphabet": 26,
+    "types": 2321,
+    "zipf_slope_1_1000": -0.9556,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.2516,
+    "hapax_token_frac": 0.0171,
+    "top1_share": 0.0647,
+    "top5": [
+     [
+      "e",
+      2204
+     ],
+     [
+      "tu",
+      748
+     ],
+     [
+      "i",
+      635
+     ],
+     [
+      "me",
+      620
+     ],
+     [
+      "re",
+      611
+     ]
+    ],
+    "length": {
+     "mean": 2.866,
+     "variance": 1.182,
+     "disp_len_minus1": 0.633,
+     "max": 4,
+     "hist": {
+      "1": 3974,
+      "2": 10791,
+      "3": 5114,
+      "4": 14180
+     }
+    },
+    "h1_sp": 3.7475,
+    "h2_sp": 2.7062,
+    "h1_nosp": 3.9425,
+    "h2_nosp": 3.2177,
+    "h1_minus_h2_nosp": 0.7249,
+    "h2_within_word": 2.579,
+    "H_word_bits": 8.897,
+    "positional": {
+     "n_symbols": 24,
+     "locked_frac": 0.042,
+     "locked_n": 1,
+     "locked_symbols": [
+      "æ"
+     ],
+     "mi_bits": 0.4925
+    },
+    "pair": {
+     "pair_violation_frac": 0.271,
+     "pairs": 106316,
+     "order": "h z æ p f q s v d c m j n l x g r o t b a y k i e u",
+     "by_length": {
+      "2": 0.0059,
+      "3": 0.481,
+      "4": 0.2688
+     }
+    },
+    "pair_length_matched": 0.294,
+    "lm_exact_length_coverage": 0.619,
+    "seconds": 0.9
    },
    "la_prose/syl_shuf": {
     "label": "la_prose syl_shuf",
@@ -1531,6 +1694,7 @@
      }
     },
     "pair_length_matched": 0.459,
+    "lm_exact_length_coverage": 0.991,
     "seconds": 0.6
    },
    "la_verse/words": {
@@ -1620,7 +1784,8 @@
      }
     },
     "pair_length_matched": 0.3627,
-    "seconds": 1.0
+    "lm_exact_length_coverage": 1.0,
+    "seconds": 1.3
    },
    "la_verse/syl": {
     "label": "la_verse syl",
@@ -1702,7 +1867,8 @@
      }
     },
     "pair_length_matched": 0.1917,
-    "seconds": 0.5
+    "lm_exact_length_coverage": 0.979,
+    "seconds": 0.6
    },
    "la_verse/cv": {
     "label": "la_verse cv",
@@ -1791,7 +1957,161 @@
     },
     "pair_length_matched": null,
     "pair_length_matched_note": "n/a: no token longer than 2 symbols",
+    "lm_exact_length_coverage": null,
     "seconds": 0.4
+   },
+   "la_verse/syl2": {
+    "label": "la_verse syl2",
+    "n_tokens": 34059,
+    "n_symbols_total": 141969,
+    "alphabet": 24,
+    "types": 6817,
+    "zipf_slope_1_1000": -0.7153,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.441,
+    "hapax_token_frac": 0.0883,
+    "top1_share": 0.0252,
+    "top5": [
+     [
+      "et",
+      859
+     ],
+     [
+      "que",
+      791
+     ],
+     [
+      "re",
+      440
+     ],
+     [
+      "in",
+      273
+     ],
+     [
+      "ra",
+      253
+     ]
+    ],
+    "length": {
+     "mean": 4.168,
+     "variance": 1.931,
+     "disp_len_minus1": 0.61,
+     "max": 9,
+     "hist": {
+      "1": 99,
+      "2": 4360,
+      "3": 7264,
+      "4": 7931,
+      "5": 8431,
+      "6": 4628,
+      "7": 1090,
+      "8": 223,
+      "9": 33
+     }
+    },
+    "h1_sp": 3.9556,
+    "h2_sp": 3.3188,
+    "h1_nosp": 4.0258,
+    "h2_nosp": 3.5105,
+    "h1_minus_h2_nosp": 0.5153,
+    "h2_within_word": 3.1761,
+    "H_word_bits": 11.124,
+    "positional": {
+     "n_symbols": 22,
+     "locked_frac": 0.0,
+     "locked_n": 0,
+     "locked_symbols": [],
+     "mi_bits": 0.1797
+    },
+    "pair": {
+     "pair_violation_frac": 0.3593,
+     "pairs": 247269,
+     "order": "z k p h f d v b c l y r g o a n t q u e m x i s",
+     "by_length": {
+      "2": 0.5364,
+      "3": 0.2712,
+      "4": 0.3964,
+      "5": 0.3743,
+      "6": 0.3403
+     }
+    },
+    "pair_length_matched": 0.3544,
+    "lm_exact_length_coverage": 0.995,
+    "seconds": 1.0
+   },
+   "la_verse/cv2": {
+    "label": "la_verse cv2",
+    "n_tokens": 34059,
+    "n_symbols_total": 103224,
+    "alphabet": 24,
+    "types": 2521,
+    "zipf_slope_1_1000": -0.8481,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.2277,
+    "hapax_token_frac": 0.0169,
+    "top1_share": 0.0301,
+    "top5": [
+     [
+      "e",
+      1026
+     ],
+     [
+      "qe",
+      833
+     ],
+     [
+      "re",
+      705
+     ],
+     [
+      "tu",
+      526
+     ],
+     [
+      "a",
+      432
+     ]
+    ],
+    "length": {
+     "mean": 3.031,
+     "variance": 1.002,
+     "disp_len_minus1": 0.494,
+     "max": 4,
+     "hist": {
+      "1": 1927,
+      "2": 10780,
+      "3": 5671,
+      "4": 15681
+     }
+    },
+    "h1_sp": 3.8008,
+    "h2_sp": 2.7576,
+    "h1_nosp": 3.98,
+    "h2_nosp": 3.2253,
+    "h1_minus_h2_nosp": 0.7546,
+    "h2_within_word": 2.6604,
+    "H_word_bits": 9.5,
+    "positional": {
+     "n_symbols": 22,
+     "locked_frac": 0.0,
+     "locked_n": 0,
+     "locked_symbols": [],
+     "mi_bits": 0.4745
+    },
+    "pair": {
+     "pair_violation_frac": 0.2766,
+     "pairs": 116781,
+     "order": "z k p f v h c s m d l t r g n b y q a x o i u e",
+     "by_length": {
+      "2": 0.0016,
+      "3": 0.4416,
+      "4": 0.2802
+     }
+    },
+    "pair_length_matched": 0.2966,
+    "lm_exact_length_coverage": 0.619,
+    "seconds": 0.7
    },
    "la_verse/syl_shuf": {
     "label": "la_verse syl_shuf",
@@ -1868,7 +2188,8 @@
      }
     },
     "pair_length_matched": 0.4049,
-    "seconds": 0.5
+    "lm_exact_length_coverage": 0.979,
+    "seconds": 0.8
    },
    "it/words": {
     "label": "it words",
@@ -1957,7 +2278,8 @@
      }
     },
     "pair_length_matched": 0.3175,
-    "seconds": 0.9
+    "lm_exact_length_coverage": 1.0,
+    "seconds": 1.0
    },
    "it/syl": {
     "label": "it syl",
@@ -2040,7 +2362,8 @@
      }
     },
     "pair_length_matched": 0.2586,
-    "seconds": 0.6
+    "lm_exact_length_coverage": 0.99,
+    "seconds": 0.5
    },
    "it/cv": {
     "label": "it cv",
@@ -2126,7 +2449,167 @@
     },
     "pair_length_matched": null,
     "pair_length_matched_note": "n/a: no token longer than 2 symbols",
+    "lm_exact_length_coverage": null,
     "seconds": 0.3
+   },
+   "it/syl2": {
+    "label": "it syl2",
+    "n_tokens": 34059,
+    "n_symbols_total": 126330,
+    "alphabet": 21,
+    "types": 4941,
+    "zipf_slope_1_1000": -0.9793,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.5501,
+    "hapax_token_frac": 0.0798,
+    "top1_share": 0.0341,
+    "top5": [
+     [
+      "et",
+      1162
+     ],
+     [
+      "che",
+      1039
+     ],
+     [
+      "di",
+      1036
+     ],
+     [
+      "a",
+      500
+     ],
+     [
+      "la",
+      466
+     ]
+    ],
+    "length": {
+     "mean": 3.709,
+     "variance": 2.62,
+     "disp_len_minus1": 0.967,
+     "max": 11,
+     "hist": {
+      "1": 1368,
+      "2": 9130,
+      "3": 6033,
+      "4": 5924,
+      "5": 6654,
+      "6": 3451,
+      "7": 1163,
+      "8": 246,
+      "9": 80,
+      "10": 8,
+      "11": 2
+     }
+    },
+    "h1_sp": 3.8517,
+    "h2_sp": 3.1347,
+    "h1_nosp": 3.943,
+    "h2_nosp": 3.4463,
+    "h1_minus_h2_nosp": 0.4967,
+    "h2_within_word": 2.9725,
+    "H_word_bits": 9.708,
+    "positional": {
+     "n_symbols": 21,
+     "locked_frac": 0.048,
+     "locked_n": 1,
+     "locked_symbols": [
+      "q"
+     ],
+     "mi_bits": 0.2392
+    },
+    "pair": {
+     "pair_violation_frac": 0.3297,
+     "pairs": 204859,
+     "order": "q f m x p d c h b s u g l t r i a n o e z",
+     "by_length": {
+      "2": 0.2187,
+      "3": 0.2191,
+      "4": 0.3334,
+      "5": 0.3479,
+      "6": 0.3419
+     }
+    },
+    "pair_length_matched": 0.3354,
+    "lm_exact_length_coverage": 0.998,
+    "seconds": 0.8
+   },
+   "it/cv2": {
+    "label": "it cv2",
+    "n_tokens": 34059,
+    "n_symbols_total": 93318,
+    "alphabet": 21,
+    "types": 1996,
+    "zipf_slope_1_1000": -1.1304,
+    "ranks_used": 1000,
+    "hapax_type_frac": 0.3086,
+    "hapax_token_frac": 0.0181,
+    "top1_share": 0.0371,
+    "top5": [
+     [
+      "e",
+      1263
+     ],
+     [
+      "di",
+      1158
+     ],
+     [
+      "ce",
+      1095
+     ],
+     [
+      "i",
+      1055
+     ],
+     [
+      "no",
+      738
+     ]
+    ],
+    "length": {
+     "mean": 2.74,
+     "variance": 1.202,
+     "disp_len_minus1": 0.691,
+     "max": 4,
+     "hist": {
+      "1": 4191,
+      "2": 13480,
+      "3": 3385,
+      "4": 13003
+     }
+    },
+    "h1_sp": 3.6695,
+    "h2_sp": 2.5906,
+    "h1_nosp": 3.8653,
+    "h2_nosp": 3.1164,
+    "h1_minus_h2_nosp": 0.7489,
+    "h2_within_word": 2.4082,
+    "H_word_bits": 8.463,
+    "positional": {
+     "n_symbols": 21,
+     "locked_frac": 0.048,
+     "locked_n": 1,
+     "locked_symbols": [
+      "q"
+     ],
+     "mi_bits": 0.5619
+    },
+    "pair": {
+     "pair_violation_frac": 0.2463,
+     "pairs": 97357,
+     "order": "q p f c h m d b s z r u n l g a t x i o e",
+     "by_length": {
+      "2": 0.0249,
+      "3": 0.3868,
+      "4": 0.2686
+     }
+    },
+    "pair_length_matched": 0.2805,
+    "lm_exact_length_coverage": 0.619,
+    "seconds": 0.7
    },
    "it/syl_shuf": {
     "label": "it syl_shuf",
@@ -2204,7 +2687,8 @@
      }
     },
     "pair_length_matched": 0.4787,
-    "seconds": 0.6
+    "lm_exact_length_coverage": 0.99,
+    "seconds": 0.7
    }
   }
  },
@@ -2224,5 +2708,5 @@
   "uncertain_spaces_joined": 2458,
   "CERTAIN_words_that_contain_a_join": 2183
  },
- "seconds": 27
+ "seconds": 50
 }
