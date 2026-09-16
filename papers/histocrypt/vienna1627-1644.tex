@@ -1,0 +1,177 @@
+% HistoCrypt 2027 regular paper draft (up to 10 pages excluding references). Anonymous for submission.
+% Compile: pdflatex vienna1627-1644 && bibtex vienna1627-1644 && pdflatex vienna1627-1644 && pdflatex vienna1627-1644
+% Status 2026-09-16: first full draft from cyphersolver/lucca/NOTES.md and cyphersolver/warsaw/NOTES.md. \todo marks are Daniel's fills. Unvalidated.
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Two Italian Ciphers from the Vienna Key Fascicles Read from Transcriptions Alone: \\ Warsaw, 24 December 1627, and Fra Giovanni di Lucca, 30 May 1644}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Two ciphered Italian letters filed among the cipher keys of the Austrian State Archives (Staatskanzlei Interiora, Chiffrenschl\"ussel), DECODE records R1408 and R2159, have stood as ``non-decrypted'' in the database and on Tomokiyo's list of unsolved historical ciphers, which published transcriptions of both. Both are read here from those transcriptions, without the images. The 1644 letter, 231 dot-delimited figures, is a 24-figure alphabet with two polyphonic figures (17~=~\emph{i} or \emph{n}, 19~=~\emph{t} or \emph{s}); an unconstrained 5-gram annealer fails at this length, but fixing the eight letters that Tomokiyo's partial crib gives without contradiction makes every seed converge, a Viterbi pass chooses the polyphone values, and the same procedure on shuffled ciphertext scores 200 nats worse. It relays an offer to keep the Turk from helping R\'ak\'oczi, raise Moldavia against him and supply two thousand Cossacks. The 1627 letter, 442 tokens, is a homophonic substitution whose alphabet turns out to be in plain order, odd figures 13--33 for \emph{a}--\emph{m} and even figures 14--32 for \emph{n}--\emph{z}, with six letter pairs as consonant alternates, a dozen two-figure syllables, the letters \emph{a} and \emph{m} as nulls and thirteen word codes. A 5-gram annealer alone drifts; adding one nat per letter covered by a dictionary word makes random and seeded starts agree, and shuffled controls fail. It presses a promised canonry of Olm\"utz for one of the Queen of Poland's sons. In both cases the check that the solver was not told, alphabetical order in one, a crib-consistent polyphony in the other, is the evidence that the reading is right. What the images alone can settle is listed.
+\end{abstract}
+
+\section{The documents}
+
+The Haus-, Hof- und Staatsarchiv in Vienna holds, in the Staatskanzlei Interiora series, cartons of cipher keys (Chiffrenschl\"ussel) among which a few enciphered letters are filed, presumably because they arrived with or were used to make the keys. The DECRYPT project's DECODE database \cite{Megyesi:2020,DECODE} records two of them as R1408 (Kt.~14 Fasc.~20 f.~176, headed \emph{Di Varsouia 24 Xbre 1627}) and R2159 (Kt.~20 Fasc.~27 ff.~18--19, Fra Giovanni di Lucca to the Emperor, 30 May 1644, in Italian). Both records carry the status \emph{Non-decrypted}; R2159 has the cipher type \emph{Unknown} and a placeholder date range of 1686--1877, R1408 the type \emph{Simple substitution, Homophonic substitution}. The images are behind a login and were not seen for this paper.
+
+Tomokiyo transcribed both from the images in his article on variable-length figure codes in the Austrian archives \shortcite{Tomokiyo:variable} and placed them on his list of unsolved historical ciphers \shortcite{Tomokiyo:unsolved}. Of the 1644 letter he wrote that the groups ``can be deciphered to read \emph{Al principe di trenti\ldots}'' and that ``someone versed in Italian would be able to complete the decryption''; nobody had. Of the 1627 letter he noted that ``the numbers and letters are written without space in the original manuscript, but I believe my grouping into two- or three-digit groups is fairly straightforward.'' Everything below rests on those two transcriptions, and Section~\ref{sec:images} lists what depends on them.
+
+\section{Fra Giovanni di Lucca, 30 May 1644}
+
+\subsection{The ciphertext}
+
+231 groups delimited by dots, 24 distinct figures (1--15, 17--19, 21--23, 25, 26, 32), index of coincidence 0.050. One doubled pair occurs in the whole text, \textbf{17 17}, twice, in the same word. Italian of this length has \emph{ll tt ss nn rr cc} at three to four per cent of positions, so a plain letter-for-letter substitution would show ten or more doubled pairs; either the doubled consonants have homophones or some figures are polyphonic. It turned out to be the second.
+
+\subsection{Why the unconstrained solver fails}
+
+A 5-gram model was built from 4.1 million letters of Italian (Villari's \emph{Machiavelli e i suoi tempi}, \emph{I promessi sposi}, \emph{La Mandragola}; \emph{v} written \emph{u}, Roman-numeral page references stripped). A homophonic simulated-annealing solver with this model, sixteen restarts, converged on one non-Italian optimum (\emph{estreesitenetrentiuenieseist}\ldots) at $-2.52$ nats per 5-gram. On a matched control, 231 letters of held-out Italian under a random 24-figure key, the same solver reads the text in one seed of three. The failure on the target is therefore not conclusive, but it is real: at this length the landscape is flat, and the false optimum scores as well as the truth will turn out to.
+
+\subsection{The crib is inconsistent with a substitution}
+
+Tomokiyo's partial reading is the key to the item, and so is its difficulty. \emph{Al principe di} = \textbf{3 11 $|$ 26 21 17 17 6 15 26 1 $|$ 8 17} requires 17 = \emph{i} (from \emph{di}, and from \emph{il} = \textbf{17 11} later) and 17 = \emph{n} in the same word, \emph{pri\textbf{n}cipe}. A reader who assumes one letter per figure cannot proceed past the second word, which is why the crib stayed a crib.
+
+\subsection{Crib-fixed annealing}
+
+Eight letters follow from the crib without contradiction: 3~\emph{a}, 11~\emph{l}, 8~\emph{d}, 17~\emph{i}, 26~\emph{p}, 21~\emph{r}, 1~\emph{e}, 19~\emph{t}. Fixing those and annealing the remaining sixteen figures, all six seeds converge on one reading at $-2.50$ per 5-gram:
+
+\begin{quote}\small
+\emph{alpriicipeditrantiuanialoimpediroconoinmodocheilturcononlidiaaiutoefaroriuoltase}\ldots
+\end{quote}
+
+which is Italian at the word level from the first group to the last: \emph{lo impedir\`o \ldots\ che il Turco non li dia aiuto e far\`o rivolta(re)}\ldots\ The two figures the reading cannot make consistent are 17 and 19. With every other letter fixed, 17 is \emph{n} in \emph{principe} (twice), \emph{mander\`o}, \emph{con una}, \emph{non}, \emph{vinto}, and \emph{i} in \emph{di}, \emph{il}, \emph{impedir\`o}, \emph{li}, \emph{lui}, \emph{dumilia}, \emph{finch\'e}; 19 is \emph{t} in \emph{Transilvania}, \emph{rivoltare}, \emph{sua}, \emph{humiliato}, \emph{vinto}, and \emph{s} in \emph{Transilvania}, \emph{se sar\`a bisogno}, \emph{Cosachi}. No third value is needed for either. A Viterbi pass over the two alternatives with the same 5-gram model makes the per-occurrence choices mechanically and agrees with the hand reading except at two places discussed below.
+
+\subsection{Control}
+
+The crib-fixed procedure was run on five shufflings of the same ciphertext, the same figures with the same counts and the same eight letters fixed. They reach $-3.40$ to $-3.68$ per 5-gram; the letter reaches $-2.50$, a gap of about 200 nats over 227 5-grams. Two things should be said about this control. The unconstrained false optimum in the first run scored the same as the true reading, so the model alone does not select the solution; the eight crib letters do. And the shuffled controls show that eight fixed letters on a text of this composition do not manufacture Italian by themselves. The evidence is the combination: a crib from the clear text, convergence of every seed, and a control that fails.
+
+\subsection{The key}
+
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}l*{24}{c}@{}}
+\toprule
+figure & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 17 & 18 & 19 & 21 & 22 & 23 & 25 & 26 & 32 \\
+\midrule
+letter & e & g & a & b & f & c & e & d & a & h & l & m & o & n & i & \textbf{i/n} & o & \textbf{t/s} & r & t & u & u & p & r \\
+count & 7 & 3 & 16 & 3 & 3 & 13 & 10 & 10 & 12 & 6 & 13 & 6 & 13 & 10 & 18 & 24 & 14 & 9 & 14 & 8 & 4 & 7 & 7 & 1 \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:luccakey} The 1644 key. Vowels \emph{a e o u} have two figures each; \emph{i} has 15 and shares 17 with \emph{n}; \emph{s} exists only through 19. Figures 16, 20, 24 and 27--31 do not occur in 231 groups. The arrangement shows no regularity.}
+\end{table*}
+
+Table~\ref{tab:luccakey} gives the key. Three values rest on one to three occurrences each, all in words no other letter fits: 4~=~\emph{b} (\emph{bisogno}, \emph{Bogodania}, \emph{habi}), 2~=~\emph{g} (\emph{ogn}, \emph{bisogno}, \emph{Bogodania}), 32~=~\emph{r} (once, \emph{rivoltare}).
+
+There is an alternative to polyphony that the images would settle. Everything attributed to 17~=~\emph{n} could be a transcription of \textbf{14} misread as 17, a 4 and a 7 being close in seventeenth-century hands, and 19~=~\emph{s} could be a misread figure for an \emph{s} value that is otherwise unused (16, 20, 24, 27--31). Either would make this an ordinary homophonic alphabet. The reading is the same in both cases.
+
+\subsection{The reading}
+
+\begin{quote}\small
+Al principe di Transil[u]ania lo impedir\`o con ogn[i] modo che il Turco non li dia aiuto, e far\`o rivoltare contra di lui, se sar\`a bisogno, il principe di Bog[o]dania, et li dar\`o dumilia Cosachi, et mander\`o a voi con una sua lettera all'Imperatore che non faccia pace fin che [io] l'habbi humiliato o vinto.
+
+\emph{As to the Prince of Transylvania: I shall by every means prevent the Turk from giving him help, and if need be I shall make the Prince of Moldavia rise against him and give him two thousand Cossacks, and I shall send [him] to you with a letter of his to the Emperor, that he make no peace until I have humbled or defeated him.}
+\end{quote}
+
+\emph{Transiuania} (\textbf{19 21 9 14 19 15 25 3 14 15 3}) has no \emph{l}, and \emph{ogn modo} lacks the \emph{i} of \emph{ogni}: the writer's spelling or a dropped group. \emph{Bogdania} is the usual Italian and Turkish name of Moldavia (Bo\u{g}dan); the extra \textbf{13}~=~\emph{o} in \textbf{4 18 2 13 8 3 14 17 9} is the writer's or the transcriber's, and the place-name fixes 17~=~\emph{i} here where the Viterbi pass, on statistics alone, prefers \emph{Bogodanna}. \textbf{19 25 9} before \emph{lettera} is \emph{sua} (Viterbi) or \emph{tua}. \textbf{17 18 17 11 10 9 4 17} is \emph{io il habi} or \emph{no il habi} (\emph{non l'habbi}); Viterbi takes \emph{no}. Either way the sense is ``until I have humbled or defeated him''.
+
+\subsection{Context}
+
+In February 1644 Gy\"orgy R\'ak\'oczi I, Prince of Transylvania, invaded Habsburg Hungary in alliance with Sweden and France and with the Porte's leave; through the spring Ferdinand III's diplomacy sought to have Ottoman support withdrawn and to find allies on R\'ak\'oczi's flank. The paragraph is a first-person offer, relayed by the friar, from a principal who can influence the Porte, can set the Prince of Moldavia (Vasile Lupu) against R\'ak\'oczi, and can dispose of two thousand Cossacks. Who is speaking is not in the cipher. The combination points to Poland, the King W\l adys\l aw IV, Ferdinand's brother-in-law, or the Grand Hetman Koniecpolski, who kept his own relations with Moldavia and had beaten the Tatars at Ochmat\'ow in January 1644; that is an inference from the content, not a reading, and the clear text of ff.~18--19, if it names the principal, would decide it. Giovanni Giuliani da Lucca, Dominican, is known from his \emph{Relatione} of the 1630s as a missionary to the Tatars, Circassians, Mingrelians and Georgians and later for his work in Moldavia \cite{Luca:2004}; a courier who moved between Moldavia, the Cossack lands and Vienna fits the letter.
+
+\section{Warsaw, 24 December 1627}
+
+\subsection{The ciphertext and its structure before solving}
+
+Tomokiyo's transcription gives 509 tokens; after joining the letter pairs he himself suggests (\emph{ll zg fi pr lu th}) there are 442: 295 two-figure groups over 36 distinct values, 13 three-figure groups (100 113 120 123 151 154 157 159 160 223), 56 tokens \emph{m}, 52 tokens \emph{a}, seven \emph{ll}, five \emph{zg}, four \emph{fi}, three \emph{lu}, two \emph{pr}, two \emph{th}, and single \emph{o}, \emph{p}, \emph{n}.
+
+Three things were visible before any solving.
+
+\begin{itemize}\itemsep0pt
+\item The figures 12--33 (30 absent) carry 265 of the 308 numeric tokens, and their frequency profile (29 and 16 at 35, 21 at 29, 13 at 27, then 18, 17, 17, 15, 13, 10, 9, 9, 7, 7, 5, 4, 4, 2, 2, 1, 1) is that of monoalphabetic Italian: \emph{e a i o} near 30 each, \emph{n l r t s c d} between 10 and 18. The index of coincidence over the numbers is 0.058, dragged down by the rare groups.
+\item The ranges 01--09 (14 tokens) and 40--50 (15 tokens) are too rare to be letters and too even to be vowel homophones.
+\item \emph{a} and \emph{m} are a quarter of all tokens. Treated as symbols they anneal to the same vowel, which no Italian text allows; they carry no letters. They fall mostly at word ends, the clerk's habit of dropping a null after each word.
+\end{itemize}
+
+\subsection{Solving}
+
+\paragraph{5-gram annealing alone drifts.} With the same Italian 5-gram model as above, the nulls dropped and the text split at the three-figure codes, six seeds did not agree, although the best of them ($-2.48$ per 5-gram) already contained \emph{avere}, \emph{questa}, \emph{un caricato}, \emph{aiuto}, \emph{subito}, \emph{bene}. Forcing distinct letters on the nineteen core figures did not help: at 253 5-grams the model prefers an \emph{e t r s} soup. A unigram word-segmentation scorer degenerates into strings of \emph{di la il}.
+
+\paragraph{5-gram plus dictionary coverage converges.} The objective that worked adds to the 5-gram score one nat per letter covered by a lexicon word of three letters or more, restricts swaps to the core figures, and leaves the rare groups free. From random keys, two seeds of six converge on the same key ($-371$ and $-409$); seeded from the best 5-gram-only key, all three seeds land on it ($-371$, $-374$, $-387$). The reading at that point was already \emph{un caricato d'Olmi\ldots\ ad uno \ldots\ suoi figlio, hauendo io saputo in corte \ldots\ uolont\`a di re \ldots\ stata messa in esecutione \ldots\ queste Maest\`a, ho stimato oficio \ldots\ deuoto seruitore \ldots\ suplicare \ldots\ a uoler fare \ldots\ prima \ldots\ subito a me benigna risposta}.
+
+\paragraph{Controls.} The same objective annealed on three shufflings of the ciphertext tops out at $-843$, $-865$ and $-893$ against $-371$ on the real order.
+
+\paragraph{The alphabet is in order.} The converged core key is 13~\emph{a}, 15~\emph{b}, 17~\emph{c}, 19~\emph{d}, 21~\emph{e}, 23~\emph{f}, 25~\emph{g}, 27~\emph{h}, 29~\emph{i}, 31~\emph{l}, 33~\emph{m} on the odd figures and 14~\emph{n}, 16~\emph{o}, 18~\emph{p}, 20~\emph{q}, 22~\emph{r}, 24~\emph{s}, 26~\emph{t}, 28~\emph{u} on the even ones (Table~\ref{tab:warsawkey}). The annealer has no move that rewards alphabetical order and was not told of it; that the order came out of the search is the independent evidence for the key. It also fixes the two hapax figures, 32~=~\emph{z} (the even series continues \emph{u x z}) and 12 as a symbol outside the alphabet.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+figures & value \\
+\midrule
+13 15 17 19 21 23 25 27 29 31 33 & \emph{a b c d e f g h i l m} \\
+14 16 18 20 22 24 26 28 [30] 32 & \emph{n o p q r s t u [x] z} \\
+zg lu fi ll th pr & \emph{r d n t l ff} (consonant alternates) \\
+01 si, 05 non, 06 ne, 09 de & syllables and particles \\
+40 con, 41 al, 42 la, 43 di, 44 de, 45 da, 46 con, 47 che, 50 se & \\
+\emph{a}, \emph{m} & nulls, mostly at word ends \\
+100 113 120 123 151 154 157 159 160 223 & word codes (glossed, not read) \\
+12, 03, 04 & symbols, open \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:warsawkey} The 1627 key. The alphabet is in plain order across two interleaved series; the solver found the order without being told of it.}
+\end{table}
+
+\paragraph{Rare groups and letter pairs by context.} Each rare symbol was read from all its occurrences at once, and the values in Table~\ref{tab:warsawkey} are the only ones that fit every occurrence: \emph{zg}~=~\emph{r} (\emph{rico·rdo}, \emph{Nicolspu·rg}, \emph{Se·renissima}, \emph{confe·rire}, \emph{servito·re}); \emph{lu}~=~\emph{d} (\emph{ricor·do}, \emph{a·d uno}, \emph{desi·derano}); \emph{fi}~=~\emph{n} (\emph{ho·nori}, \emph{inte·ntione}, \emph{i·n} twice); \emph{ll}~=~\emph{t} (\emph{al·tri}, \emph{in·tentione}, \emph{tal}, \emph{sta·ta}, \emph{ques·te}, \emph{stma·to}, \emph{servi·tore}); \emph{th}~=~\emph{l} (\emph{Nico·lspurg}, \emph{ta·l}); \emph{pr}~=~\emph{ff} (\emph{ffece}, \emph{e·ffetuare}). The two-figure particles: 01 \emph{si} (\emph{Serenis·sima}, \emph{de·siderano}, \emph{si degni}); 05 \emph{non} (\emph{ca·non·icato}, \emph{non \`e}); 06 \emph{ne} (\emph{intentio·ne}, \emph{essecutio·ne}, \emph{dar·ne}); 09 \emph{de}; 40 and 46 \emph{con}; 41 \emph{al}; 42 \emph{la}; 43 \emph{di}; 44 \emph{de}; 45 \emph{da}; 47 \emph{che} (three times, all at clause openings); 50 \emph{se} (\emph{se·renissima}, \emph{es·se·cutione}, \emph{se·rvitore}). The single \emph{o}, \emph{p}, \emph{n} fall inside otherwise complete words and are nulls or transcription slips.
+
+\subsection{The reading}
+
+Word codes in square brackets, open symbols in braces:
+
+\begin{quote}\small
+Mi ricordo che, fra li altri honori che \{12\} mi fece in Nicolspurg, mi confido d'hauer dato intentione a questa Serenissima [100] [113] de uoler conferire un canonicato d'Olmiz ad uno de li [123] suoi figli; hauendo io \{03\} saputo in [160] corte che tal uolont\`a di [120] non \`e [151] stata messa in essecutione, s\`i [154] desiderano [157] queste Maest\`a, ho stimato oficio de deuoto seruitore, [154] io le sono, di suplicarla, [154] fo, a uoler far effetuare [160] [223] [159], prima \{04\} si degni darne subito a me benigna risposta.
+\end{quote}
+
+Spellings as enciphered: \emph{Seerenissima} (a doubled 21 or a slip), \emph{stmato} (no \emph{i}), \emph{ffece}, \emph{oficio}, \emph{suplicarla}, \emph{effetuare}, \emph{essecutione}, \emph{Olmiz}, \emph{Nicolspurg}. Single consonants and \emph{essecutione} are ordinary for 1627; the first two need the image. Glosses, which are inference and not reading: [154] three times = \emph{come} (\emph{s\`i come desiderano}, \emph{come io le sono}, \emph{come fo}); [160] twice = \emph{questa}; [151] = \emph{ancora}; [120] the addressee's title; [100] [113] the Queen's title; [123] = \emph{Serenissimi}; \{12\} an honorific subject; \{03\}, \{04\}, [157], [223] [159] open.
+
+\subsection{Context}
+
+Nikolsburg (Mikulov) was the seat of Cardinal Franz von Dietrichstein, Bishop of Olm\"utz 1599--1636, in whose gift a canonry of Olm\"utz lay. The writer had been received there and had then told ``this Most Serene [Queen]'' in Warsaw that the Cardinal meant to give one of her sons an Olm\"utz canonry. The Queen of Poland in December 1627 was Constance of Austria, Ferdinand II's sister, whose younger sons were being placed in church benefices in these years. The letter says the promise has not been carried out, that ``these Majesties'' want it, and asks that it be done or that a prompt answer be given. On this reading the addressee is Dietrichstein and not the Emperor, which would explain why the piece sits in a key fascicle rather than in a correspondence, and the writer is an Italian-writing agent moving between Nikolsburg and Warsaw. Nothing in the cipher names either; the clear text of f.~176 or the Dietrichstein papers would confirm or correct this.
+
+\section{What the two cases share}\label{sec:discussion}
+
+\paragraph{Below the free-solver threshold, in different ways.} Both texts are short for a homophonic annealer on Italian, 231 and about 300 letter tokens. The 1644 text defeated the free solver because two figures are polyphonic and the landscape is flat; the 1627 text because rare groups and word codes break the letter stream and the 5-gram model alone drifts to a consonant soup. The remedies were different, a crib from the clear text in one case and a dictionary-coverage term in the other, but the evidential logic is the same: convergence across seeds, shuffled controls that fail, and a property of the recovered key that the solver was not told about.
+
+\paragraph{The untold property is the evidence.} For the 1627 letter it is an alphabet in plain order across two interleaved series. For the 1644 letter it is that the two polyphones are the ones the crib forced, that each needs exactly two values, and that both values are letters (\emph{i}/\emph{n}, \emph{t}/\emph{s}) a designer might well pair. A false solution produced by an annealer has no reason to show either property.
+
+\paragraph{The transcription is taken on trust.} Both readings depend on Tomokiyo's grouping of the figures. For the 1627 letter he flagged his grouping as his own; the reading confirms it, since every word reads under it. For the 1644 letter the groups are dot-delimited and the question is the figures themselves, in particular whether 17 is sometimes a misread 14.
+
+\paragraph{The reading is robust to the alternatives.} In neither case does an unresolved point change what the letter says. The alternatives (polyphony or misreading; \emph{sua} or \emph{tua}; \emph{io} or \emph{no}) alter the description of the key, not the plaintext.
+
+\section{What the images would settle}\label{sec:images}
+
+For R2159: whether 17 and 19 are polyphonic or the transcription conflates two figures; the three odd spellings (\emph{Transiuania}, \emph{ogn}, \emph{Bogodania}); and the clear-text frame, which may name the principal whose offer the friar relays. For R1408: \emph{Seerenissima} and \emph{stmato}; the three stray single letters; any clear text beyond the dateline; and the ten word codes, which a second letter in the same key or the key itself (Kt.~14 Fasc.~20 is a key fascicle) would fix. The third item in Tomokiyo's article, R2179, undelimited digits, is a different system and was not attempted.
+
+\section{Conclusion}
+
+Two letters filed with the Vienna cipher keys and recorded as undeciphered are read from published transcriptions, one by crib-fixed annealing with two polyphonic figures resolved by Viterbi decoding, one by a 5-gram annealer with a dictionary term whose converged key proved to be alphabetical. The 1644 letter carries an offer, relayed by a Dominican missionary, to keep the Turk off R\'ak\'oczi and raise Moldavia and two thousand Cossacks against him; the 1627 letter presses a canonry of Olm\"utz for a son of the Queen of Poland. The DECODE records should be updated with the keys, the readings and the corrected type and date fields, and the items marked solved with the residue above. Transcriptions, models, solvers, controls and key files are in the accompanying repository \todo{URL after anonymity is lifted}.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}
