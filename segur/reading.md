@@ -52,3 +52,19 @@ Notes: `{gne}` here must be *Je*; `93` in *ex-tre-me-nu-i-ne* is *pe* (95) misre
 `{H} {L}` two name-signs (*et mesmes en Hollande, Lorraine*?); `{qua}` after *secours* unread (*d'Allemagne*? *que vous*?);
 `{Ne}` opens *[Nous] avons envoyé*; the last passage `58 50 15 30 119 26 14 29 20` = *bu-y-e-n-va-l-e-n-h*, a name or
 place, unread (*… en Valence*? with the 20/10 problem again).
+
+## English translation
+
+Cipher passages in **bold** as above; `{…}` unread signs, `[…]` editorial.
+
+### f. 233, October 1585
+
+Monsieur de Ségur. I am troubled at having had no news of you since your departure from England; I have written to you four times … Only I will ask you, if you have not already done so from over there, **{X} to treat and conclude promptly with those you shall judge fit,** if it is possible **with Duke Casimir or by his consent, and to make the largest levy [you can] and have it march** as soon as may be. For since some **prompt succour** **is necessary**, I am writing to M. de Clervant to make **the levy of two thousand reiters** which he is **bound to {gla} [under] the contract with the Churches[?] … in the year 1579[?]**, at least some part if he cannot [raise] the whole, and if he has not the means to do it, **let him use the ten thousand écus from {180}**, as the said Sieur de Clervant will tell you, to which I pray you lend a hand, and that I may soon be advised of everything … of **the road he will take in that case**, avoiding the danger …; **the Vivarais or Dauphiné roads** might be suitable, giving us early warning. I pray you send my news to my brother Monsieur the Prince wherever he may be … Your affectionate master and perfect friend, Henry.
+
+### f. 239, Montauban, early 1586
+
+Only I will tell you **{900} to spare no means {gne} {gna} to succour [us] with all diligence, and to set every piece in motion** for so necessary an effect; **commit everything to it**. And for the rest, make very certain account of me … [postscript, signed D.:] **since {e} we have had no {news} from you.** Sir, I am perpetually your servant. We hope God will bless your designs. Drake has made a very great prize. He is the first seaman, and among the most valiant, in the world. I kiss your hands most humbly as your most humble and most faithful servant. D.
+
+### f. 288v, slip with the letter of 1 April 1586
+
+**{I} am in extreme anxiety at having had no [word] of your {affairs} since {e}; I do not know {where} {to you} to write, nor to whom, nor in what state our {affairs} stand.** I pray you send me your news, and **make, if it is possible for you, the greatest levy that was ever made. The two thousand reiters that Monsieur de Clervant is bound to furnish** would be very necessary to us, **and even more so in {H} {L}**. I pray you confer with him about it. Although our enemies have made no effort against us, and there is in them more ill will than execution, yet **assistance and succour {qua} are very necessary. Our places are well fortified. {We}** have sent **… to Valen[ce?]**, from whom we have long had no news. Make, I pray you, always very sure account of the friendship and good will of your most affectionate master and perfect friend, Henry.
