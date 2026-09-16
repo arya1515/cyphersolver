@@ -29,7 +29,7 @@ No LaTeX is installed on this machine; Overleaf works (upload the folder). The c
 
 ## Open items before upload (Daniel)
 
-1. **Pencil score, Section 4.2: read it.** The full-roll rerun (`armstrong/pencil_ranking.tsv`, `score_variants.tsv`) showed that the score does not locate the annotated frames as the earlier notes claimed; 4.2 now says so and the abstract, introduction and conclusion were toned down to match. The public write-up `docs/armstrong.html` still carries the old claim. Decide whether you are comfortable with the corrected wording; it is a small negative result inside the paper, and reviewers respect that more than an unsupported method claim.
+1. **Pencil score, Section 4.2: read it.** The full-roll rerun (`armstrong/pencil_ranking.tsv`, `score_variants.tsv`) showed that the score does not locate the annotated frames as the earlier notes claimed; 4.2 now says so and the abstract, introduction and conclusion were toned down to match; `docs/armstrong.html` and `armstrong/NOTES.md` carry the same correction. Decide whether you are comfortable with the corrected wording; it is a small negative result inside the paper, and reviewers respect that more than an unsupported method claim.
 2. **Figure 1 resolution.** 820 px wide is below the 300 dpi the journal asks for at print width. The LoC image is Cloudflare-blocked to scripts; download the full-resolution JPEG by hand from the item page and replace the file, keeping the name.
 3. **Title page fields**: city, ORCID, anyone to thank.
 4. **Cover letter fields**: reviewer e-mails, ORCID; decide whether to name Tomokiyo as a reviewer.
