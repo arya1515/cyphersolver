@@ -48,17 +48,23 @@ function renderTiles(el, items){
     t.appendChild(p); t.appendChild(g); el.appendChild(t);
   }
 }
+// 'show more' blocks on the home page
+document.querySelectorAll('.showmore').forEach(b=>b.addEventListener('click',()=>{ const box=b.previousElementSibling; const open=box.hasAttribute('hidden'); if(open) box.removeAttribute('hidden'); else box.setAttribute('hidden',''); b.textContent = open ? 'Show fewer' : b.dataset.label || b.textContent; }));
+document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent);
 // priority-queue filter: show one tier at a time
 (function(){
   const btns=document.querySelectorAll('.qf'); if(!btns.length) return;
   const tiers=document.querySelectorAll('h3.tier');
   const cards=document.querySelectorAll('.tg');
-  function apply(f){
+  function apply(f, remember){
     cards.forEach(c=>{ c.hidden = !(f==='all' || c.classList.contains(f)); });
     tiers.forEach(t=>{ t.hidden = !(f==='all' || t.dataset.t===f); });
     btns.forEach(b=>b.classList.toggle('on', b.dataset.f===f));
-    try{ history.replaceState(null,'',f==='all'?location.pathname+location.hash.replace(/^#q=.*/,''):'#q='+f); }catch(e){}
+    if(remember){ try{ history.replaceState(null,'',f==='live'?location.pathname:'#q='+f); }catch(e){} }
   }
-  btns.forEach(b=>b.addEventListener('click',()=>apply(b.dataset.f)));
-  const m=/^#q=(\w+)$/.exec(location.hash); if(m) apply(m[1]);
+  btns.forEach(b=>b.addEventListener('click',()=>apply(b.dataset.f, true)));
+  const m=/^#q=(\w+)$/.exec(location.hash); apply(m ? m[1] : 'live', false);
+  // each queue block shows three lines until clicked
+  cards.forEach(c=>{ const p=c.querySelector('.tg-b p'); if(!p) return; const t=document.createElement('div'); t.className='tgmore'; t.textContent='more'; p.after(t);
+    const toggle=()=>{ const on=c.classList.toggle('x'); t.textContent=on?'less':'more'; }; p.addEventListener('click',toggle); t.addEventListener('click',toggle); });
 })();

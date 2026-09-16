@@ -43,10 +43,7 @@
   <p>Six computational tests on the public transliteration against eleven languages and implemented hoax generators, each re-run by an adversarial
   checker, and five literature sweeps. The object is a genuine early-15th-century codex. The text is <b>not</b> a plaintext, one-to-one substitution,
   transposition or vowel-less rendering of any European language tested: its conditional character entropy sits at 2.2 to 2.9 bits under four
-  transliteration alphabets against a floor of 3.3 for every language.</p>
-  <p>What survives is exactly two hypotheses, and they are not yet separable: a verbose or slot-template encoding of short units with meaning behind it,
-  or a structured meaningless text produced by a copy-and-modify procedure. Every statistic that separates Voynichese from language is reproduced by at
-  least one model in each camp. The write-up lists the five tests that would separate them.</p>
+  transliteration alphabets against a floor of 3.3 for every language. What survives is two hypotheses, a verbose encoding with meaning behind it or a structured meaningless text, and the write-up lists the five tests that would separate them.</p>
   <div class="stat2"><div><b>2.2&ndash;2.9</b><span>bits of conditional entropy, against 3.3 for language</span></div><div><b>1.7&ndash;2.3&times;</b><span>more rigid word grammar than any language tested</span></div><div><b>0.09 bits</b><span>H(language | scribe): Currier A/B is almost the hand</span></div></div>
   <a class="cta" href="voynich.html">Read the adjudication &rarr;</a>
 </div>
@@ -64,6 +61,8 @@
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route and single columnar excluded against planted controls. A double-transposition solver now breaks planted messages of this length; the real run is next.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
+</ul>
+<div class="more" hidden><ul class="findings">
 <li><b>Censorship manual steganograms, WW2</b> &mdash; <span class="fnd">blocked on image resolution.</span> The map&rsquo;s shift direction and the exact Morse any German wording would leave are now fixed, but the pen marks are 2&ndash;5 pixels in the best public photograph. Needs a high-resolution scan of KV 2/2424.</li>
 <li><b>Debosnys, 1882&ndash;83</b> &mdash; <span class="fnd">attempted, not solved.</span> The cipher poem is rhyming couplets in a French syllabary, every testable crib is excluded, and the surviving text is too short to break without one. <a href="debosnys.html">Full write-up &rarr;</a></li>
 <li><b>Catokwacopa, 1875</b> &mdash; <span class="fnd">readings audited.</span> Of 1,645 names, only Conington, Jowett, Shirley and Hertford fit their lines, so the Oxford reading is right in outline. Exact alternatives found for two lines, and four lines shown to be undecided by the letters.</li>
@@ -75,25 +74,19 @@
 <li><b>Charles I, 1648</b> &mdash; <span class="fnd">two keys excluded</span> on both unread letters, including the Titus key of the same month and the same escape plot.</li>
 <li><b>Berthier to Napoleon, 1812</b> &mdash; <span class="fnd">plaintext located,</span> in print since 1912, drawn from the very archive carton the cryptogram sits in.</li>
 <li><b>Chinese gold bars, 1933</b> &mdash; <span class="fnd">constructed, not enciphered,</span> now corroborated from a second direction by the documentary evidence. <a href="goldbar.html">Full case &rarr;</a></li>
-</ul>
+</ul></div>
+<button class="showmore" type="button" data-target="findings">Show 11 earlier findings</button>
+
 
 <h2 id="writeups"><span class="num">01</span> Write-ups</h2>
 <!-- cards:start -->
 <div class="cards">
-  <a class="card hasthumb" href="huangxing.html">
-    <img class="thumb" src="huangxing_telegram.png" alt="" loading="lazy">
-    <div class="eyebrow"><span>China / Japan &middot; 1916</span><span class="st solved">scheme found</span></div>
-    <h3>Huang Xing to Lin Hu and Li Genyuan &mdash; a kana condenser</h3>
-    <p>Listed as &ldquo;solved but specific scheme unknown&rdquo;: the Japanese Foreign Ministry filed a decode nobody could read, and an encipherment nobody could name. Both recovered. Three kana carry one character, each kana holding a digit in its consonant row while the vowel is free, so the surface text barely repeats.</p>
-    <p class="quote">護國軍能速入湘贛甚好。章行嚴何日東渡？速令出發，並望預電。興　徑</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="sunyatsen.html">
-    <img class="thumb" src="sunyatsen_telegram.png" alt="" loading="lazy">
-    <div class="eyebrow"><span>Swatow &rarr; Tokyo &middot; 1916</span><span class="st solved">solved</span></div>
-    <h3>The Swatow telegram to Sun Yat-sen &mdash; a systematic code condenser</h3>
-    <p>Twenty consonants, five vowels, ten-letter words: a code condenser over the standard Chinese telegraph code. The family of systematic tables is small enough to brute-force, and one key reads 41 characters: Mo Qingyu&rsquo;s independence at Chaozhou and Sun&rsquo;s men ordered out of the Swatow garrison headquarters, 3 April 1916.</p>
-    <p class="quote">潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府&hellip;</p>
+  <a class="card hasthumb" href="voynich.html">
+    <img class="thumb" src="voynich_f34r.jpg" alt="" loading="lazy">
+    <div class="eyebrow"><span>Beinecke MS 408 &middot; c.1420</span><span class="st partial">adjudicated</span></div>
+    <h3>The Voynich manuscript &mdash; hoax, cipher or language, adjudicated</h3>
+    <p>Six computational tests on the transliteration against eleven languages and implemented hoax generators, each re-run adversarially, and five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-robust entropy; a verbose encoding and a structured meaningless text are left roughly even, with the tests that would separate them.</p>
+    <p class="quote">h2 2.2&ndash;2.9 bits against a 3.3 floor &middot; slot grammar 1.7&ndash;2.3&times; more rigid than any language</p>
     <span class="go">read &rarr;</span>
   </a>
   <a class="card hasthumb" href="armstrong.html">
@@ -119,54 +112,6 @@
     <p class="quote">MQOLCSJTLGAJOKBSSBOMUPCE &middot; ZUQUPNZN &middot; FEWGDRHDDEEUMFFTEEMJXZR</p>
     <span class="go">read &rarr;</span>
   </a>
-  <a class="card hasthumb" href="hyde.html">
-    <img class="thumb" src="hyde_p396.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>Brussels &middot; 1659&ndash;60</span><span class="st found">explained</span></div>
-    <h3>Hyde&rsquo;s ciphered superscriptions &mdash; not a cipher at all</h3>
-    <p>The four &ldquo;undeciphered addresses&rdquo; on Hyde&rsquo;s letters to Barwick decode to nothing under the full Hyde&ndash;Barwick key printed in 1721, because, as the 1724 editor states, they were numbers &ldquo;signifying nothing &hellip; only to puzzle the Enemy&rdquo;.</p>
-    <p class="quote">&ldquo;some Persons &hellip; have wondered what was the meaning of them&rdquo; &mdash; Life of Barwick, 1724</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="ormonde.html">
-    <img class="thumb" src="ormonde_p28.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>Ireland / England &middot; 1634&ndash;35</span><span class="st partial">alphabet recovered</span></div>
-    <h3>Maltravers to Ormonde &mdash; a regular block cipher</h3>
-    <p>Doubled letters written with consecutive figures betray a regular key (consonants three figures each from 7, vowels from 64, nulls 91&ndash;111). Every spelled word reads and the nomenclator falls into place from the 1634 Irish Parliament.</p>
-    <p class="quote">&ldquo;he was angry [with the Lord Deputy] &hellip; upon his motion [Ormonde] is to be a councellor&rdquo;</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="voynich.html">
-    <img class="thumb" src="voynich_f34r.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>Beinecke MS 408 &middot; c.1420</span><span class="st partial">adjudicated</span></div>
-    <h3>The Voynich manuscript &mdash; hoax, cipher or language, adjudicated</h3>
-    <p>Six computational tests on the transliteration against eleven languages and implemented hoax generators, each re-run adversarially, and five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-robust entropy; a verbose encoding and a structured meaningless text are left roughly even, with the tests that would separate them.</p>
-    <p class="quote">h2 2.2&ndash;2.9 bits against a 3.3 floor &middot; slot grammar 1.7&ndash;2.3&times; more rigid than any language</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="scorpion.html">
-    <img class="thumb" src="scorpion_s1.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>United States &middot; 1991</span><span class="st stuck">below unicity distance</span></div>
-    <h3>The Scorpion letters &mdash; two ciphers below the unicity distance</h3>
-    <p>Two Zodiac-style cryptograms sent to John Walsh in 1991, 70 and 180 symbols with 53 and 145 distinct. Both carry more key than the English text has redundancy, so fluent false solutions are guaranteed; matched controls produce them at 3 to 13 percent accuracy, and a claimed 2018 solution is tested against the same rule.</p>
-    <p class="quote">S5: every repeat at a multiple of 16 &middot; key 682 bits against 576 of redundancy</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="copenhagen.html">
-    <img class="thumb" src="copenhagen_note.jpg" alt="" loading="lazy">
-    <div class="eyebrow"><span>Copenhagen &middot; c.1950s</span><span class="st stuck">not a simple substitution</span></div>
-    <h3>The Copenhagen cryptogram &mdash; not a simple substitution of any language tested</h3>
-    <p>Three lines found behind an 1835 portrait of a Danish general, 107 characters, unsolved at the American Cryptogram Association since the 1950s. Transcribed twice, attacked in ten languages under six reading conventions; the same solver recovers matched controls at 96 to 100 percent and the note never comes close.</p>
-    <p class="quote">best &minus;2.7 nats per letter in any language &middot; controls solve at &minus;1.4 to &minus;2.1</p>
-    <span class="go">read &rarr;</span>
-  </a>
-  <a class="card hasthumb" href="debosnys.html">
-    <img class="thumb" src="debosnys_verse.png" alt="" loading="lazy">
-    <div class="eyebrow"><span>Elizabethtown, NY &middot; 1883</span><span class="st stuck">too short to break</span></div>
-    <h3>The Debosnys cryptograms &mdash; a French syllabary, and why it stops there</h3>
-    <p>A convicted wife-killer&rsquo;s invented script, about 1,200 glyphs, unread since he was hanged. Three passages transcribed. The cipher poem is twenty lines of rhyming couplets, and line length and rhyme both make it a syllabary too short for any crib-free attack.</p>
-    <p class="quote">final glyph matches in 9 of 10 couplets &middot; 0 of 9 across &middot; planted 1,000-glyph syllabary: 0% recovered</p>
-    <span class="go">read &rarr;</span>
-  </a>
   <a class="card hasthumb" href="vatican.html">
     <img class="thumb" src="vatican_meister176.jpg" alt="" loading="lazy">
     <div class="eyebrow"><span>Rome &rarr; Spain &middot; 1542</span><span class="st stuck">family identified</span></div>
@@ -175,14 +120,25 @@
     <p class="quote">27 and 80 end a third of the words &middot; 441 repeated 7-grams against 5 in a shuffle</p>
     <span class="go">read &rarr;</span>
   </a>
-  <a class="card" href="famous.html">
-    <div class="eyebrow"><span>Survey &middot; survey</span><span class="st partial">the famous ones</span></div>
-    <h3>Why the famous ciphers resist</h3>
-    <p>Kryptos, Voynich, Dorabella, Beale, Linear A, Phaistos, the pigeon message. Sorted by the actual reason each has held out: undeciphered writing systems, one that is information-theoretically secure, several too short for any answer to be provable, and at least two that were probably never enciphered.</p>
-    <p class="quote">Fame is a poor guide to tractability.</p>
+  <a class="card hasthumb" href="sunyatsen.html">
+    <img class="thumb" src="sunyatsen_telegram.png" alt="" loading="lazy">
+    <div class="eyebrow"><span>Swatow &rarr; Tokyo &middot; 1916</span><span class="st solved">solved</span></div>
+    <h3>The Swatow telegram to Sun Yat-sen &mdash; a systematic code condenser</h3>
+    <p>Twenty consonants, five vowels, ten-letter words: a code condenser over the standard Chinese telegraph code. The family of systematic tables is small enough to brute-force, and one key reads 41 characters: Mo Qingyu&rsquo;s independence at Chaozhou and Sun&rsquo;s men ordered out of the Swatow garrison headquarters, 3 April 1916.</p>
+    <p class="quote">潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府&hellip;</p>
     <span class="go">read &rarr;</span>
   </a>
 </div>
+<h3 class="listhead">And the rest</h3>
+<ul class="list">
+  <li><a href="huangxing.html"><span class="st solved">scheme found</span><span class="t">Huang Xing to Lin Hu and Li Genyuan &mdash; a kana condenser</span><span class="yr">1916</span></a></li>
+  <li><a href="hyde.html"><span class="st found">explained</span><span class="t">Hyde&rsquo;s ciphered superscriptions &mdash; not a cipher at all</span><span class="yr">1659&ndash;60</span></a></li>
+  <li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><span class="t">Maltravers to Ormonde &mdash; a regular block cipher</span><span class="yr">1634&ndash;35</span></a></li>
+  <li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><span class="t">The Scorpion letters &mdash; two ciphers below the unicity distance</span><span class="yr">1991</span></a></li>
+  <li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><span class="t">The Copenhagen cryptogram &mdash; not a simple substitution of any language tested</span><span class="yr">c.1950s</span></a></li>
+  <li><a href="debosnys.html"><span class="st stuck">too short to break</span><span class="t">The Debosnys cryptograms &mdash; a French syllabary, and why it stops there</span><span class="yr">1883</span></a></li>
+  <li><a href="famous.html"><span class="st partial">the famous ones</span><span class="t">Why the famous ciphers resist</span><span class="yr">survey</span></a></li>
+</ul>
 <!-- cards:end -->
 
 <h2 id="queue"><span class="num">02</span> Priority queue</h2>
@@ -416,6 +372,7 @@
 <h2 id="blocked"><span class="num">03</span> Blocked on access, not on cryptanalysis</h2>
 <p>These are the highest-value items left, and none needs a new idea. Each waits on a reader&rsquo;s account, a copy order, or a server
 coming back. Odds shown are for after the material is in hand.</p>
+<details class="fold"><summary>Show the eleven blocked items</summary>
 <table>
 <tr><th>Target</th><th>Date</th><th>Odds once open</th><th>What unblocks it</th></tr>
 <tr><td><a href="https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD406%2f1%2f2197&amp;st=1&amp;tc=y&amp;tl=n&amp;tn=n&amp;tp=n&amp;k=&amp;ko=a&amp;r=GD406%2f1%2f2197&amp;ro=s&amp;df=&amp;dt=&amp;di=y">Charles II to the Duke of Hamilton</a></td><td>1650</td><td><span class="odds hi">high</span></td><td>The key survives and is catalogued open: National Records of Scotland <b>GD406/1/2197</b>, &ldquo;Keys for ciphers used in the correspondence of the Duke of Hamilton&rdquo;. A copy order to Edinburgh should settle four letters at once.</td></tr>
@@ -430,8 +387,11 @@ coming back. Odds shown are for after the material is in hand.</p>
 <tr><td><a href="https://collections.library.yale.edu/catalog/16601200">Stepney to the Earl of Manchester</a></td><td>1702</td><td><span class="odds md">even</span></td><td>Manuscript already transcribed from Yale. The key is Stepney&rsquo;s own office cipher, asked for in August 1701, in TNA SP 105/106 or BL Add MSS 7058&ndash;78.</td></tr>
 <tr><td><a href="https://gallica.bnf.fr/ark:/12148/btv1b10035574w">Henry III to S&eacute;gur</a></td><td>1583&ndash;86</td><td><span class="odds md">even</span></td><td>Four folios of BnF 500 de Colbert 401. Gallica refuses this client entirely and a retry job is running. The volume&rsquo;s other Henry III cipher is a plain alphabetical syllabary, a strong prior for these.</td></tr>
 </table>
+</details>
 
 <h2 id="closed"><span class="num">04</span> Closed</h2>
+<p class="qhint">12 items closed: 4 solved here, 7 found already solved or explained, 1 shown to be fabrications or empty.</p>
+<details class="fold"><summary>Show the closed items</summary>
 <table>
 <tr><th>Target</th><th>Date</th><th>Status</th><th>Outcome</th></tr>
 <tr class="done"><td><a href="richelieu.html">Richelieu to M. de Ranc&eacute;</a></td><td>1629</td><td><span class="st solved">solved</span></td><td>Homophonic alphabet, doubling mark and nomenclature recovered ciphertext-only; agrees word for word with <a href="https://archive.org/details/bub_gb_OIQItRIybmIC">Avenel (1858)</a>, missed by DECODE R9461&ndash;R9462.</td></tr>
@@ -447,10 +407,12 @@ coming back. Odds shown are for after the material is in hand.</p>
 <tr class="done"><td><a href="goldbar.html">Chinese gold bar cryptograms</a></td><td>1933</td><td><span class="st found">no message</span></td><td>Not an encryption. The 263 letters contain almost exactly ten of every letter of the alphabet &mdash; chi-squared 1.25 against uniform where chance predicts 25, about a trillion to one. No cipher can flatten a distribution past what randomness allows. Corroborated independently by the documentary case: the aircraft depicted entered service in 1934, and some characters are simplified forms from the 1950s.</td></tr>
 <tr class="done"><td>Beale Paper no. 1</td><td>1885</td><td><span class="st stuck">fabrication</span></td><td>No key text found across the English Gutenberg corpus; the number choices and letter statistics point to a hoax rather than a lost key. No further work planned.</td></tr>
 </table>
+</details>
 
 <h2 id="rest"><span class="num">05</span> The rest of the catalogue</h2>
 <p>The list carries roughly sixty unsolved entries; the sections above cover those worth ranking. The remainder are short passages,
 key-dependent fragments or archive-bound manuscripts, held here so that nothing is silently dropped.</p>
+<details class="fold"><summary>Show the remaining entries by group</summary>
 <table>
 <tr><th>Group</th><th>Entries</th></tr>
 <tr><td>English, 16th century</td><td>Throckmorton (1559) and Wool (1568) &middot; Moray and Wood (1568) &middot; SP53/16 no. 78 and no. 79 &middot; SP53/22 f. 52 &middot; ciphers related to Walsingham</td></tr>
@@ -463,6 +425,7 @@ key-dependent fragments or archive-bound manuscripts, held here so that nothing 
 <tr><td>French, 1690&ndash;1710</td><td>ambassador in Rome (1690) &middot; Catinat (1691 and 1702) &middot; Geertruidenberg (1710) &middot; Villars and Polignac (1710)</td></tr>
 <tr><td>American</td><td>Armstrong to Madison, 20 February 1808, a different code from the postscript solved here, with a disputed 2025 contest solution</td></tr>
 </table>
+</details>
 
 <p class="muted">Corrections and pointers to existing decipherments are welcome — a catalogue entry marked "unsolved" is often a literature
 search away from "solved in 1858".</p>
