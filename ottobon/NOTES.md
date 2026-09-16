@@ -1,6 +1,8 @@
 # Marco Ottobon to Giovanni Mocenigo, 27 April 1589 (BNE Mss/994 ff. 34–38) — NOTES
 
-**Verdict: blocked at the images, not attempted cryptanalytically.** The manuscript is digitised in full by the
+**Verdict (updated 2026-09-16, third session): all seven cipher pages transcribed at first pass (1,528 tokens, 196 distinct) from the BNE images, which are the same ~130 dpi as the PDF; the design is a Venetian letter-plus-figure nomenclator of the 1577-78 *Zifra Prima* type (base letters a c d f g h, figures 1-99, letters, syllables and words mixed), not N.11; ciphertext-only solving in progress, see §8. Two archival keys are the short route: DECODE R1789 (b. 4 r. 16 f. 64) and R1790 (f. 79).** Earlier verdicts follow.
+
+**Verdict (first session): blocked at the images, not attempted cryptanalytically.** The manuscript is digitised in full by the
 Biblioteca Nacional de España (BDH record bdh0000174344, now BNE Digital oid 0000174344) and the letter is also
 DECODE record R2252, nine openings. Neither image set can be reached by a script from this network: every bne.es host
 that serves images sits behind a Cloudflare Turnstile check that curl, WebFetch and Playwright-driven Chromium, Chrome
@@ -172,3 +174,163 @@ Consequences for the attack:
 Checked: catalogue entry, DECODE record and thumbnails, Europeana metadata, all listed access routes, Bonavoglia's
 figures. Not checked: the page images themselves, the ASVe register, the 2005 and 2015 monographs. User must verify:
 nothing here is a reading; the item stays open.
+
+
+## 7. Second session, 2026-09-16: the folios
+
+Daniel downloaded the whole manuscript as PDF from BNE Digital (`ms994_full.pdf`, 151 openings, embedded JPEGs of
+about 2200 x 1800 px per opening, i.e. ~130 dpi per page). `python -c` extraction into `img/pNNN.jpeg`; contact
+sheets `img/sheet0-4.png`. **Page map:** PDF page 29 right = f. 34r (Valle's cartouche heading, as the thumbnail
+predicted); 30 right = f. 35r (Latin protocol + 17 cipher lines); 31 = ff. 35v-36r; 32 = ff. 36v-37r; 33 = f. 37v
+full + f. 38r (10 lines, signature flourish); 34 left = f. 38v address; 34 right onward blank until item 6.
+
+### What the page says in clear
+
+f. 35r opens with the ducal protocol in Latin, in a chancery hand:
+
+> Pascalis Ciconia Dei gratia Dux Venetiarum etc. Nobili et sapienti viro Ioanni Mocenigo oratori nostro apud
+> Serenissimum Regem Christianissimum fideli dilecto salutem et dilectionis affectum.
+
+and the address on f. 38v reads *Nobili et Sap. Viro Ioanni Mocenigo oratori nostro apud Ser.mum Regem
+Christianiss.mum*. So the document is a **letter of the Doge and Senate (Pasquale Cicogna, doge 1585-95) to the
+ambassador in France**, subscribed by the secretary of the Senate Marco Ottobon, as inferred in §1. Consequences:
+the register copy exists in principle (ASVe, Senato, Deliberazioni Secreta, reg. for 1589, under 27 April), and the
+plaintext is Italian chancery prose to the ambassador at Henry III's court in the weeks after the treaty with Navarre.
+
+### What the cipher looks like
+
+Base letter followed by one or two figures, inline (not raised), no separators, ~17-22 tokens a line, 17 cipher
+lines on f. 35r, full pages on ff. 35v-37v, 10 lines on f. 38r: **roughly 120 lines, 2,000-2,500 tokens**. The base
+letters visible are **a, c, d, f, g and a tall looped h** (which reads as a long s at first sight). That is exactly
+the alphabet base-letter set of Franceschi's **Ziffra N.11**, approved by the Council of Ten on 26/31 August 1587,
+twenty months before this letter: an alphabet of six homophones per letter on a, c, d, f, g, h with figures 1-20
+(rows related by shifts mod 20: c = a - 5, d = a + 1, f = a - 8, g = a - 3, h = a - 4), and syllables, numbers and
+words on the other base letters, mostly 1-20 with a few 21-99 (Bonavoglia 2022 §9.1, Figs. 7-8; Tomokiyo,
+venetian.htm). The alphabet is transcribed into [refs/n11_alphabet.json](refs/n11_alphabet.json) (checked: each
+row a permutation of 1-20, and it reproduces Franceschi's own example L15 d8 a20 q8 c10 ... = *quanto io*).
+Franceschi's photograph of the table (`refs/n11_alphabet_asve_c74.jpeg`) shows the same numeral forms as the
+letter: 6 with a tall stem like a *b*, 9 like a *g*, 5 like a *ç*, looped 4, 7 like a *1* with a foot.
+
+The other candidate, the 1578-87 *zifra granda* (§4), is **excluded on the base letters**: its alphabet sits on
+polywog/turned-T/u and its syllabary on f, r, a; here f and a carry figures up to 99 and there is no polywog.
+
+### Why the transcription stopped
+
+Line cutting (`cutlines.py`), bleed-through suppression (background normalisation + gamma; `img/*_clean.png`) and
+3x-5x crops (`img/lines/`) make the token shape clear but not the digits: at ~15 px x-height, 1/7, 2/9, 6/b, 5/s
+and 0/o are not separable, and the first cipher line lies under the stain. A first pass over f. 35r
+(`ct_draft_f35r.txt`, 205 tokens, kept as a draft only) reads 119 tokens inside the N.11 alphabet but with a letter
+profile (p, z, f among the most frequent) that no Italian text has, which measures the misreading rate rather than
+the key. **Not a transcription of record; nothing was decoded.**
+
+### Next step (Daniel): five high-resolution images
+
+BNE Digital serves each opening at full resolution in the viewer. Needed: viewer images **30, 31, 32, 33, 34**
+(the openings f. 34v/35r to f. 38v/39r) downloaded at the highest size offered, saved as `img/hi_p030.jpg` ...
+`img/hi_p034.jpg`. At 300 dpi or better the digits separate and the N.11 alphabet can be tested directly with
+`python decode_n11.py ct.txt`: if the letter tokens come out as Italian (e a i o n r l t s c on top) the alphabet is
+Franceschi's and only the nomenclator remains, glossed from context and the Senate register; if not, the
+structured annealer from `segur/` runs on the six-homophone design with the mod-20 row structure as a constraint.
+
+Files added this session: `ms994_full.pdf` (not committed, 33 MB), `img/` (page JPEGs, cleaned pages, line
+crops), `cutlines.py`, `decode_n11.py`, `ct_draft_f35r.txt`, `refs/bonavoglia2022.pdf` + `.txt`,
+`refs/n11_alphabet.json`, `refs/n11_alphabet_asve_c74.jpeg`, `refs/n11_alphabet_square_fig8.png`.
+
+Checked this session: page map against the thumbnails; the protocol and address in clear; base-letter inventory on
+ff. 35r, 38r; the N.11 table's internal consistency and Franceschi's worked example. Not checked: any digit
+reading; the ASVe register; whether N.11 was actually issued to the France embassy (Bonavoglia gives no
+attribution). User must verify: the ducal-letter identification rests on my reading of the Latin protocol from
+the image, which is legible but not collated with a second witness.
+
+
+## 8. Third session, 2026-09-16: the BNE viewer images and the first-pass transcription
+
+Daniel downloaded the ten viewer images 25-34 (`img/hi00-hi09.jpg`, 2,200-2,600 px per opening: the viewer's largest
+size is the PDF's resolution, so no gain in pixels, only in JPEG quality). hi04 = f. 34r heading; hi05 = f. 35r;
+hi06 = ff. 35v-36r; hi07 = ff. 36v-37r; hi08 = ff. 37v-38r; hi09 is a later item (a Spanish code list), not ours.
+
+### The letter is partly in clear, and it is two pieces
+
+- **f. 36r, last six lines, clear Italian:** *Il m.ro delle poste di Francia che sta in questa città, ne ha mostrato
+  un capitolo di l[ette]ra scrittegli da quello di Lione, che coll'occasione d'inviargli lettere sue gli manda anco le
+  4? sole altre? righe delle l[ette]re di 28. del passato, dicendo[gli]* — and **f. 36v, first four lines:** *che il
+  rimanente con tutte le altre [lettere] tre sono state intercette in quelle [parti], onde continuamo scriver ...*,
+  then one mixed line (*notitia,* + cipher) and five cipher lines, then **Dat. in nostro Ducali Palatio die xxvii
+  Aprilis, Ind. [..] MDLXXXIX** and **Marco Ottobon Secr.** So the Senate tells the ambassador that the postmaster of
+  France in Venice showed it a passage of a letter from the Lyon postmaster, who forwarded only a few lines of the
+  dispatch of 28 [March], the rest and three other letters having been intercepted; hence the cipher. The subject
+  matter of the cipher part is therefore what the Senate wanted to keep from the interceptors in April 1589: the
+  Tours court, the treaty with Navarre, the levy, England (CSP Venice viii nos. 823-828 give Mocenigo's side).
+- **ff. 37r-38r are a second piece** (no protocol, a small cipher header at the top right of f. 37r, 24 + 25 + 9
+  lines, ends with a flourish). Either a separate enclosure or the continuation on a fresh sheet; both hands are the
+  same chancery hand.
+
+### Transcription (first pass, `ct_f35r.txt` ... `ct_f38r.txt`, merged in `ct_all.txt`)
+
+| page | lines | tokens | notes |
+|---|---|---|---|
+| f. 35r | 17 | 212 | P1 under the stain |
+| f. 35v | 21 | 249 | line ends lost in the gutter |
+| f. 36r | 18 | 224 | lines slope; line 17 read twice with 3/5 tokens different |
+| f. 36v | 6 | 57 | mixed clear/cipher, crops overlap |
+| f. 37r | 24 | 341 | cleanest page after f. 38r |
+| f. 37v | 25 | 363 | line ends lost in the gutter |
+| f. 38r | 9 | 116 | pilot page |
+
+Method: `cutpage.py` (background normalisation, gamma to drop the bleed-through, periodic line grid) and
+`cutmanual.py`; one labelled full-width crop per line at ~2.2x (`img/lines/`). Numeral forms fixed from f. 38r at 5x
+and from Franceschi's own sheets: **1 = dotted i, 0 = o, 4 = looped (reads as *a* inside a figure), 5 = long s,
+6 = b-shape, 9 = g-shape, 7 = 1 with a foot (rare or misread), 2 sometimes r-shaped**; the base letter h is a tall
+looped ascender, at first taken for a long s. **Reliability:** about 70 % per token (one line read in two overlapping
+crops disagreed in 3 of 5 tokens); the pairs h20/h50/h52/h22, 1/7, 2/9 and 3/5 carry most of the doubt. `?` marks
+the tokens I could not read; the files are a draft, not a transcription of record.
+
+### What the statistics say (python on `ct_all.txt`)
+
+- 1,528 well-formed tokens, 196 distinct, 55 singletons; IC of the token stream 0.0135 (Italian letters 0.075:
+  consistent with 5-6 homophones per letter plus a nomenclator).
+- Base letters c 324, h 288, d 254, a 246, g 213, f 203. Figures 1-99 on every base letter; only 37 % are <= 20,
+  so this is **not** N.11 (letters confined to 1-20 on these six bases). It matches Tomokiyo's description of the
+  **Zifra Prima** of 1577-78 (ASVe b. 4 r. 16 f. 64; DECODE R1789): "a letter (a-h) with a superscript figure (1-99)",
+  letters, syllables and words "without distinction", two-part (per scriver / per trazer), with d96 = a and f1 Accio,
+  f2 Accordo, f3 Ad, i.e. the word list alphabetical on f. Our text has no d96 and its f1-f3 are rare, so the 1589
+  key is a sibling, not that sheet itself; f. 79 of the same register (DECODE R1790) is a second two-part code of the
+  type.
+- Most frequent: d83 66, g99 48, c99 47, a20 39, h52 37, a64 36, h51 35, c86 35, c29 33, g15 30, f20 29, f61 27.
+  d83 at 4.3 % is the *e*/*a* level of a heavily homophonic letter or a very common word; the *99* tokens on c and g
+  look like a null or a separator. Repeated trigrams (h51 c99 h4; a96 d10 h52; g16 a96 d10, three each) are spelled
+  words.
+- Digit table: no figure ends in 7 and only 17 end in 8, no figure begins with 7: partly real (a nomenclator need
+  not use every number) and partly my 7 -> 1 misreading.
+
+### Ciphertext-only attacks: all fail their controls (nothing decoded)
+
+| solver | target | control | verdict |
+|---|---|---|---|
+| `solve_letters.py`: every token one letter, 5-gram Italian LM, 150k steps, 4 seeds | -2.75 to -2.81 nats per 5-gram, vowel soup | 3 shuffled texts -2.80 to -2.85 | no separation |
+| `solve_units.py` v1: token -> letter, CV syllable or wildcard, score = LM + 2.0/char - 5/wildcard | -2.08/char, syllable soup | matched synthetic (62 % letters x 6 homophones, 23 % syllables, 15 % word symbols, 190 symbols, 1,528 tokens): **0 % letters recovered** at 0 % noise | objective invalid: the LM rewards *nonosicono* strings |
+| `solve_units.py` v2: token -> letter or wildcard (-3), 120k steps | -2.33 to -2.47/char, no Italian | same control: **4-9 % letters** at 0 % noise, 3-9 % at 15 % noise | below any useful level |
+
+So a letter-level annealer does not read a 190-symbol nomenclator of this composition even from a perfect
+transcription of this length, which is the Joyeuse/Birago result again at larger size; with the ~30 % transcription
+noise on top the target is out of reach ciphertext-only. Not tried, and the only things that could change this:
+(a) a second, independent transcription pass from better images (BNE has no larger size; the DECODE files or a
+scan order from the BNE reproduction service at 300-400 dpi), (b) a structural prior from the key layout (one-part
+alphabetical order as in the Zifra Prima sheet f. 64, which would make the initial letter of each plaintext unit
+monotone in the a1..h99 order and turn the problem into the Ségur alphabetical-boundary search), which needs a look
+at DECODE R1789/R1790, (c) the plaintext itself from ASVe Senato Secreta reg. 87 or Dispacci Francia filza 11, which
+turns this into key reconstruction and a check of Valle de la Cerda's lost solution.
+
+### Short route (Daniel)
+
+DECODE R1789 and R1790 are the two keys of this type in Franceschi's register; the 1589 France key would be a
+re-keyed copy of the same layout, and either sheet would show the layout (which bases carry the alphabet, where the
+syllables sit, how the word list runs) and possibly the key itself. Also worth asking: the register copy of the
+dispatch in ASVe, Senato, Deliberazioni Secreta, reg. 87 (1589), under 27 April; and Mocenigo's dispatches of April-
+May 1589 in Senato, Dispacci Francia, filza 11, which would carry the same cipher and Venice's own decipherments.
+
+Checked: every cipher line read once from the images (f. 36r lines 16-17 twice, at 4x); the clear passages; the
+statistics; both solvers against matched controls before the target. Not checked: the other 118 lines against a
+second reading; the DECODE key sheets; the ASVe registers. User must verify: the transcription is a first pass at
+about 70 % reliability; nothing has been decoded; the Zifra-Prima identification rests on Tomokiyo's description of
+f. 64, not on the sheet itself.

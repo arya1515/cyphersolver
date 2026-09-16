@@ -29,3 +29,11 @@ left and right pages.
 
 Transcribe into `ct.txt` with the grammar in parse.py (one line per written line, `# f.35r l.1` labels),
 run `python structure.py ct.txt`, and follow the plan in NOTES.md §5.
+
+## Status 2026-09-16 (second session)
+
+Route A done: `ms994_full.pdf` in hand, but its embedded images are ~130 dpi and the digits do not separate.
+**Still needed:** viewer images 30-34 at full resolution (openings f. 34v/35r ... f. 38v/39r), saved as
+`img/hi_p030.jpg` ... `img/hi_p034.jpg`. In the BNE Digital viewer, go to image 30 of 151 and use the image
+download at the largest size offered; repeat for 31, 32, 33, 34. Alternatively the DECODE files (route B) are
+higher resolution than the PDF.

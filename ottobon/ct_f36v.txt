@@ -1,0 +1,16 @@
+# f. 36v (hi07 left). Clear Italian lines 1-4, then a mixed line and 5 cipher lines, then the dateline and signature.
+# Clear: "che il rimanente con tutte le altre [lettere?] tre sono state intercette in quelle [parti], onde continuamo
+# scriver ... [cipher] ... ogni rispetto? notitia, ..." ; "Dat. in nostro Ducali Palatio die xxvii Aprilis Ind. [..] MDLXXXIX"; "Marco Ottobon Secr."
+# Line centres were set by hand and the crops overlap; lines 2 and 5 are the least certain.
+# f.36v l.1
+=notitia= f1 a20 d10 f42 d83 h51 a85 a89 c4?
+# f.36v l.2
+c25 c86 c95? a56? h3? a29 h86 d15 a89? c4?
+# f.36v l.3
+f6 f9 d83 a96 h50 a20? a23 c50 h52 d15 c9?
+# f.36v l.4
+c63 a64 g20 c99 a50 c11 c22 d20 c24 a49 h?
+# f.36v l.5
+d86 a49 g15 h2? f22 c23 d3? c2? d8 h1?
+# f.36v l.6
+g99 f20 d83 h51 f? h20

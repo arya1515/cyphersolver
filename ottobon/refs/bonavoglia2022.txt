@@ -1,0 +1,1028 @@
+The Enigma of Franceschi’s Falso Scontro
+Paolo Bonavoglia
+Mathesis Venezia c/o Convitto Liceo ”Marco Foscarini”
+Cannaregio 4941 I 30121 Venezia
+paolo.bonavoglia@mathesisvenezia.it
+Abstract
+Franceschi’s recently discovered folder of
+writings sheds new light on his Cifra delle
+Caselle, and Falso Scontro ciphers; in fact
+he had in mind a uera ziffra (true cipher)
+a concept that, in a suggestive parallel,
+resembles the perfect Shannon cryptosys-
+tem, while the Falso Scontro (fake key) ci-
+pher closely resembles Vernam cipher.
+1
+Introduction
+Hieronimo di Franceschi(1540-1600), his Cifra
+delle Caselle and his Falso Scontro ciphers are
+mentioned by several authors in the cryptographic
+literature, but both the man and the ciphers were
+almost unknown until the recovery of the caselle 1.
+And now a recently found folder of papers2 , en-
+titled ”Scritture del sec.o Franceschi Writings by
+sec. Franceschi”, sheds new light on Franceschi’s
+cryptographic philosophy. First of all in several
+letters to the Council of Ten3 he boasted his cipher
+was a ziffra uera, a true cipher, as opposed to old
+ciphers. Franceschi argues that these old ciphers,
+also known as nomenclators and used all over Eu-
+rope, are no true ciphers since every sign of them
+can be deciphered in one and only one letter or syl-
+lable or word, the one reported by the scontro (the
+key sheet) so it id possible for a good professor of
+ciphers, to decrypt them.
+But Franceschi had designed another remark-
+able cipher, the Falso Scontro. It is the main sub-
+ject of this paper, using his newly found papers,
+1See for more details: (Bonavoglia, 2019a)
+2They are in ASVe, CX Cifre, chiavi e scontri di cifra
+... busta 6. Franceschi’s papers are difﬁcult to read, he is
+very verbose, obsessive and argumentative in describing his
+ciphers against his opponents; and he is reluctant to give tech-
+nical details while listing the merits of his ciphers
+3The Consiglio di Dieci, mostly spelled brieﬂy as Conso
+di X, here also CX, was a powerful court and executive organ
+of the Republic, made of ten noblemen elected by the Major
+Council. six ducal councilors and the Doge himself, so the
+Ten were really Seventeen.
+to ﬁnd the roots of Franceschi’s invention, and in
+a reverse logic to link them to modern cryptogra-
+phy. So, ﬁrst of all, let’s start from the end, from
+the formal deﬁnition of a perfect cipher given by
+Claude Shannon in his paper of 19494, that looks
+very close to Franceschi’s not so formal deﬁnition
+of true cipher, almost four centuries before. The
+reader already expert in this matter can safely con-
+tinue to section 4.
+2
+Shannon’s Deﬁnition of a Perfect
+Cipher
+Claude Shannon in 1949 deﬁned a perfect cryp-
+tosystem using the uncertainty function H(),
+equivalent to the information used in computer sci-
+ence, and to the entropy used in physics, that gives
+a measure of the uncertainty, here in particular of
+a given text5.
+Uncertainty should be zero when we are cer-
+tain, here when we do know exactly the text; the
+maximum value should be when we know noth-
+ing about the text. A good measure is the number
+n of possible cases (texts) usually a huge number,
+so it is better to use the mathematical function of
+logarithm, the logarithm of the number of possible
+values; this is consistent with the case of certainty
+since log(1) = 0, and for the case of n equally
+probable values H = log(n). The base of the log-
+arithm is not important, it is just a change of the
+unity of measure. Here we will use base two, as
+it is in computer science. Using base 2 H can be
+interpreted as the number of binary devices neces-
+sary to store the information, for instance to store
+numbers in the range 0..15 one need log2(16) = 4
+four bits, for example 4 lamps (on/off) ...
+This deﬁnition is good only if all values are
+equivalent, have the same probability. In the gen-
+eral case, where we have different probabilities pi,
+4See (Shannon, 1949) and also (Shannon, 1948)
+5For more details see (Bauer, 2007) p. 491.
+the deﬁnition requires a sort of weighted average:
+having n possible cases i = 1..n with probability
+pi the uncertainty is:
+H = −
+n
+∑
+i=1
+pi log2 (pi)
+(1)
+If the probabilities are all equal, pi = 1
+n then one
+can simplify this formula: H = −∑n
+i=1
+1
+n log2
+1
+n =
+−n1
+n(−log2 n) = log2(n), reducing to the ﬁrst def-
+inition seen above, H = log2(n):
+The simplest case is the binary one, where only
+two equally probable events are possible, like an
+urn containing red and white balls in equal quan-
+tity, so p(W) = p(R) = 1
+2 and H = log2 2 = 1. This
+value has been taken as the unity of measure of H,
+uncertainty alias information, called bit.
+The opposite case is when there is no uncer-
+tainty at all, for instance an urn containing only
+white balls. Then p(White) = 1 →H = log2(1) =
+0), here we have uncertainty zero, as expected.
+Coming to letters of a text, the uncertainty of
+a single letter using a 26 letter alphabet depends
+on many things; ﬁrst, if the letters are extracted
+at random from an urn containing 26 balls each
+of them labeled with one of the letters; then ex-
+tracting a letter at random we have p =
+1
+26 is :
+H = log2(26) ≈4.7bit
+This result has an interesting meaning: to rep-
+resent a letter of the alphabet one needs 5 bits of
+information, for instance ﬁve lamps that could be
+on or off, or ﬁve binary numbers 0 or 1 or ﬁve
+circles that can be holes or not. This is the case
+of Baudot code, a telegraphic code used around
+1900, that used a paper tape having, for each row,
+ﬁve dots punched or not, that is 5 bits, codifying
+alphabet letters, numbers and various signs into a
+5 bit string. So letter A is codiﬁed into 11000 a
+binary representation of number 24, B is codiﬁed
+into 10011 binary for 19 and so on6. Of course in a
+text written in a natural language, the letters have
+very different probability, for instance the proba-
+bility of a letter E in an English text is p(E) =
+0.1144 = 11.44%, while p(Z) = 0.0026 = 0.26%;
+this means that the uncertainty, alias information,
+alias entropy, is quite less than 4.7 and that a com-
+pression of data is possible.
+According to Shannon, a cryptosystem is said
+to be perfect if the two following conditions are
+both satisﬁed, where P is the plaintext, and C is
+the ciphertext
+6The full Baudot code may be easily found on the web.
+H(P) = HC(P)
+H(C) = HP(C)
+(2)
+the ﬁrst equation, translated in human readable
+language, sounds: the knowledge of the plaintext
+is the same either we know the cipher text, either
+we do not know it. In other words the knowledge
+of cipher text gives no information about the plain
+text. And vice versa in the second equation. After
+that Shannon deﬁnes a cryptosystem as ”indepen-
+dent key if a similar condition is true for the plain
+text and the keytest:
+From all this a pair of interesting consequences
+follows, for a perfect cryptosystem:
+• If a given good plain text P is encrypted using
+key K producing the cipher text C one can
+always invent a fake key FK that translates
+C into any other required fake plain text FP.
+See below, section 6.
+• If an enemy gets a couple of plain text P and
+the corresponding cryptogram C, he can eas-
+ily recover the key used K, but this is useful
+only to decrypt C into P, already in his hands;
+in other words possession of the key is here
+completely useless.
+The key used with such a perfect cipher, must be
+used once and only once, this is the reason these
+ciphers are called One Time Pad, shortly: OTP.
+All this is wonderful in the theoretical world,
+but very difﬁcult to fully implement into a real en-
+crypting tool. Indeed a cipher of the like had been
+presented 30 years before Shannon, but lacked the
+most important piece to be really a perfect cipher.
+3
+Vernam Cipher
+The Vernam cipher was ﬁrst introduced by Gilbert
+Vernam in 1919 who patented a cryptosystem
+based on the XOR addition, symbol ⊕and on the
+already mentioned Baudot code. Every letter or
+sign of the plain text P is converted into a sequence
+of 5 bits, so a text of 50 characters will require 250
+bit. As a key you must use a random sequence
+K of 250 and make the XOR addition, bit by bit;
+the resulting sequence of bits is the cryptogram
+C = P⊕K.
+About the XOR addition, it is simply an addi-
+tion modulo 2 with only two numbers 0 and 1; the
+possible cases are only 4: 0 ⊕0 = 0;
+0 ⊕1 =
+1;
+1 ⊕0 = 1;
+1 ⊕1 = 0. One can also inter-
+pret it in a geometrical way, as the concatenation
+of only two possible rotations 0 as no rotation, 1
+as a rotation of a ﬂat angle, 180o. So, it is intuitive
+that 1⊕1 = 0.
+A XOR addition has a surprising and useful
+property: it is identical with its inverse, the sub-
+traction modulo 2, as can be easily veriﬁed. So
+XOR is also the deciphering function P = C ⊕K.
+Finally the Vernam cipher should use a key to-
+tally disordered and inﬁnite7. This is necessary;
+using a ﬁnite key repeated periodically, statistical
+cryptanalysis is possible and the cipher is not per-
+fect.
+In conclusion the Vernam patent gives only a
+simple way to implement a polyalphabetic system
+into an electric device; but to be a perfect cipher
+it lacks the most important piece, a generator of a
+truly random sequence of bits.
+Indeed many devices to generate random se-
+quences were invented, particularly encrypting
+machines, like Lorenz and Siqaba, and nowadays
+software tools, algorithms, are used to produce se-
+quences of random numbers, but these are always
+pseudo-random.
+4
+Franceschi’s View: Old Ciphers vs
+True Ciphers
+Now, let’s do a 400 year leap backward, Venice in
+the 1500s, when Hieronimo di Franceschi was the
+top deputy of ciphers.
+As stated above a folder of Franceschi’s papers
+was recently found in the Venetian Archives ASVe
+Consiglio di Dieci (CX), Cifre, chiavi e scontri di
+cifra busta 6.new. It has many letters about the
+Cifra delle Caselle but also about the cifra del
+Falso Scontro mentioned in section 1.
+In several letters to the CX Franceschi argues
+that the ciphers used in the present by the CX, ba-
+sically nomenclators, were not true ciphers, and
+he calls them ziffre uecchie (old ciphers), because
+a ciphertext got with one of these ciphers had only
+one possible solution, indeed each cipher sign had
+one and only one meaning, the one found in the
+scontro(the key-sheet). This means it had inside
+all the information about the text, and there were
+already methods using frequency analysis, well
+known also to Venetian cifristi, to decrypt them
+without knowing the scontro.
+7Indeed Vernam didn’t require this.
+It was Joseph
+Mauborgne another well known American cryptographer to
+state that the cipher was much stronger using an inﬁnite and
+disordered sequence of bits.
+Here is the original text8:
+Queste ziffre essendone alcune composte de
+simplici lettere et altre de lettere sillabe et al-
+cune dittioni come `e detto sono per necessit`a sot-
+toposte all’obligo de simili caratteri per la qual
+simiglianza de caratteri quando fussero intercette
+non possendo esse riceuer mai altro senso dif-
+ferente, se non l’istesso che `e formato sotto quel
+scontro, con che `e stata scritta.possono esser sot-
+toposte al pericolo di esser interpretate senza
+l’incontro pi`u facilmente er pi`u difﬁcilmente sec-
+ondo la diligentia et negligentia di chi le scriue.
+Onde per questa causa la ziffra da me ricordata
+fu accettata per esser quella impossibile d’esser
+mai cauata senza l’incontro, quando bene fusse
+intercetta, et capitasse in mano di professore che
+ne sapesse ancor formar di tal natura.
+In contrast, he boasted the his cipher produced
+a ciphertext that had no information about the
+plaintext, because each sign of the encrypted text
+could stand for any letter, just changing the key.
+This aspect was underlined a few years before by
+Bellaso, 9, who in his ﬁrst booklet of 155310 wrote
+also that the key length was not important and in
+fact he recommended a short word or a verse easy
+to remember.
+Franceschi knew the ciphers of Bellaso11 but
+was at least aware that a long and disordered key
+was better. And such is the key of the caselle.
+5
+The Cifra delle Caselle
+The Cifra delle Caselle12 is a superencrypted ci-
+pher invented by Franceschi about 157613.
+8English: These ciphers, some being composed of simple
+letters, others of letters, syllables, and a few words, as told,
+are necessarily under the obligation of correspondent charac-
+ters, and for this obligation, were they intercepted, since they
+could not mean other different meaning than the one estab-
+lished by the key used to write it, they are under the danger
+to be interpreted without the key, more easily or more hardly
+according to the diligence and negligence of the writer.
+Therefore for this reason the remembered cipher of mine was
+accepted, being the one impossible to be decrypted without
+the key, even if intercepted, and happened in the hands of a
+professor that knew how to write similar ciphers.
+9It is a property of the polyalphabetic ciphers, Bellaso
+does not seem aware that this independence could be ex-
+tended to a whole test only with an inﬁnite contrasegno. Was
+Franceschi aware of this?
+10(Bellaso, 1553)
+11Bellaso’s ﬁrst booklet was presented and printed in
+Venice, Bellaso’s book is listed among Zuan Francesco
+Marin’s papers in the 1578 post mortem inventory, and
+Franceschi mentions several times Bellaso in his letters.
+12See (Bonavoglia, 2019a) and (Bonavoglia, 2020)
+13A recently found ﬁle of Franceschi’s papers shows that
+caselle came after the ﬁrst mode of Falso Scontro, probably
+as a simpliﬁcation of it to meet the objections of Z.F. Marin,
+then main deputy to ciphers of the time: introduction of the
+grid with windows (the caselle) to facilitate arithmetic oper-
+Cipher A16-36 alphabet
+a b c d e
+f
+g h
+i
+l m n o p q r
+s
+t
+u z
+16 13 1 15 2 4 19 20 8 14 7 17 18 10 9 12 5 11 3 6
+36 33 21 35 22 24 39 −28 34 27 37 38 30 29 32 25 31 23 26
+Figure 1: The A 16-36 cipher, used as ﬁrst step of encryp-
+tion. The 20 letters are encrypted with two homophones dif-
+fering by 20: A with 16 36, ... equivalent to a modulo 20
+arithmetic. Only H ha a single cipher 20. There was also a
+small dictionary of 60 words in the range 40..99.
+Figure 2: The grata Germania (Holy Roman Empire, 
+Prague being the seat of Emperor Rudolf II); with 8 win-
+dows of 3 numbers, giving 24 columns and 26 lines, for a 
+total of 624 numbers. On the right a message encrypted with 
+this grid, a letter dated Jan 23, 1581, from Prague by Vene-
+tian ambassador A. Badoer. ASVe CX Cifre, chiavi e scontri 
+di cifra ... busta 4 - ASVe CCX Lettere degli Ambasciatori in 
+Germania, b.12 c.155.
+1. A small cipher called A 16-36, having an al-
+phabet of 20 letters with 2 homophones, and
+a 60 words dictionary. See ﬁgure 1
+2. A polyalphabetic cipher using a paper grid
+with windows (caselle) for a key of 624 num-
+bers. See ﬁgure 2.
+So to encrypt you have to use the cipher A 16-
+36 to convert letters into a sequence of numbers
+pi(i is the ordinal of the letter in the text); now you
+subtract the ﬁrst number k1 of the grid from p1 the
+ﬁrst of the plain text; calculate c1 = p1 −k1 and
+write it inside the window under the number k1; if
+k1 > p1 then use the highest homophone as p1 or
+add 20. and so on ci = pi−ki. All this is equivalent
+to a modular difference: ci = pi −ki
+(mod 20)14
+To decrypt you put the encrypted sheet under
+the grid, and add every number of the grid with the
+ations; two homophones equivalent to an arithmetic modulo
+20 to keep numbers in the interval 1..19; swap roles of ad-
+dition and subtraction; added a small nomenclator, while the
+fake key option was apparently absent.
+14Only for letters; for words in the range 40..99 it is a nor-
+mal difference.
+number under it in the window; the resulting num-
+ber is the cipher of the plain letter, given by the
+A 16-36 cipher; mathematically: pi = ci + ki or,
+calling P = (p0 ... pi ... pn) and in a similar way
+K and C you can write the encryption formula, us-
+ing modern algebraic symbolism, in a very simple
+way:
+C = P−K
+(mod 20)
+(toencrypt)
+P = C +K
+(mod 20)
+(todecrypt)
+(3)
+that is valid for alphabet letters, not for words
+that having a cipher in the range 40..99 do
+not requite modulo 20 arithmetic.
+Apparently
+Franceschi did not realize that these 60 words did
+not add strength to the cipher in an appreciable
+measure.
+All this recalls Vernam cipher; the A 16-36 ci-
+pher vs the Baudot code to codify letters into num-
+bers; the subtraction/addition modulo 20 vs the
+XOR modulo 2 operation.
+5.1
+Was the Cifra delle Caselle really Safe?
+But was this cipher perfect, in Shannon’s sense, or
+near to perfection?
+The problem here is the key, the grid of 624
+numbers, exactly one page; that is enough for short
+messages, for longer the page must be reused,
+worse it remained in use for years, so the key
+is disordered but ﬁnite and the cipher is not per-
+fect.
+Theoretically methods used to break Vi-
+gen`ere could be used here also, knowing the size
+of a grid/page, well visible on the cipher sheet,
+one could simply divide the cryptogram into 624
+(or fewer) cryptotexts, the ﬁrst with all the ﬁrst
+numbers of each page, the second with the sec-
+ond numbers of each page and so on, getting 624
+MASC15 cryptograms. But these messages were
+of course very short, not enough for a statistical
+cryptanalysis.
+One should collect tens of mes-
+sages for that, not a light task. So the cipher is
+not perfect but very strong, surely much stronger
+than other polyalphabetic ciphers of the age like
+Bellaso and Vigen`ere that recommended the use
+of short keys, easy to remember16. That is better
+for ease of use, while caselle is much better for the
+safety of the cipher. Bellaso in his second book-
+15MASC is a very common acronym for Mono-Alphabetic
+Substitution Cipher.
+16Of course, using Bellaso’s of Vigen`ere’s tables with an
+inﬁnite and disordered key never to be reused, one has a per-
+fect cipher.
+let17, apparently realized this problem and recom-
+mended also a poem or a verse as a long key easy
+to remember by heart. Such a key is clearly not
+disordered.
+Trying to answer the question above: caselle
+was not perfect but on the right path to perfection.
+6
+The Idea of a Fake Key
+As seen above in a perfect cipher the encrypting
+formula can be inverted, from any cryptogram C
+one can get any other plain-text FP just using the
+key FK = FP−C
+(mod 20).
+This is the basic idea for a Falso Scontro ci-
+pher; if the fake key FK ends up in the hands of
+the enemy he will get the fake message FP.
+But, what could be the practical use of this de-
+vice? Could it be of interest in the real world?
+Indeed it was.
+On August 26, 158718 the CX
+approved Franceschi’s Falso Scontro cipher to be
+used for communications with the embassies in
+Paris and Constantinople.19
+there are two huge
+grids with the indications, embassy in France and
+embassy in Constantinople.
+That day the CX
+wrote20
+[...]et
+essendo
+ancora
+grande-
+mente `a proposito che per ogni caso
+d’inquisitione, o di uiolenza che fussi
+fatta da’ Turchi, per intender il con-
+tenuto delle Ziffre Nostre, ui sii celata
+sempre la uera intelligenza de gli auisi
+et cose Nostre, il ﬁdelisso seco del
+Senato Hier.mo di Franceschi[...] si `e
+offerto di dare oltra quella delle caselle
+introdotta da lui, una nuova Ziffra di
+simili non pi`u usata,
+Franceschi had this new idea in mind for many
+years, and now had the opportunity to see his in-
+vention tested on the road, one key for Paris and
+one for Constantinople. But how did this cipher
+17(Bellaso, 1555).
+18As stated above the idea was much older, a cipher of the
+like, most likely the ﬁrst mode, was approved by CX in 1573,
+but never used for the opposition of Z. F. Marin.
+19Indeed in busta 6.3 of the collection ASve Cifre, Chiavi e
+Scontri di cifra ...
+20English: [...] and since it is still largely appropriate that
+in case of inquisition, or of violence that might be done by
+the Turks, to understand the content of our ciphers, the true
+intelligence of the notices and our affairs, the most faithful
+secretary of the Senate Hieronimo di Franceschi [...] offered
+to give in addition to the one of the caselle introduced by him,
+a new cipher of similar no longer used,
+Figure 3: This huge grata in parchment has 20 colummns 
+of 3 numbers each and 31 rows, for a grand total of 1869 
+numbers. It is likely the grid to be used with the Falso Scontro 
+cipher, ﬁrst mode. ASVe CX Cifre, chiavi e scontri di cifra ... 
+busta 6.3.
+work? Long research inside the Venetian Archives 
+ﬁnally resulted in the good luck to ﬁnd papers, 
+notes and examples about this cipher. More than 
+detailed instructions Franceschi writes down the
+merits of his cipher and some examples; it was 
+anyway more than enough to ﬁll a good part of 
+the puzzle, leaving a few pieces unsolved.
+7 Franceschi and the Falso Scontro
+So, we now have a lot of pieces of the puzzle 
+falling to their place, let us see a list of the main 
+documents found21 .
+• Several loose sheets bearing a complete example of use
+in the ﬁrst mode, see ﬁgure 5.
+• A large scontro, a nomenclator labeled N. 11 in the
+Franceschi’s book of cipher starting in August 1578.
+There is a signature of Franceschi, bottom right, assert-
+ing this n.11 cipher is the one approved by the CX on
+1587, 31 August. See ﬁgure 7 and 9.1.
+• The CX decree of August 26, 1587 approving the Falso
+Scontro with only a generic description of the basic
+idea.
+• Two huge grids,ready for France and Constantinople.
+See ﬁgure 3
+• A sheet signed by Franceschi describing two modes of
+use of this cipher, with a few details. See ﬁgure 4.
+• A sheet signed by Franceschi having at its top an ex-
+ample of the second mode, using a square; the same
+example is found in many other sheets of busta 7.
+• A memory dated January 1606, and a booklet, June
+1606, by Pietro Partenio the archrival of Franceschi,
+saying this cipher could not be used because too slow,
+21The exact chronological order can not be determined, be-
+cause most papers have the usual signature at the beginning:
+”... io Hiermo di Franceschi ...” but no date. An approximate
+date was induced by mentions of persons or of events. For
+instance if Z. F. Marin is mentioned as a living person, we are
+before 1578; if the CX decree of August 1587 is mentioned
+we are after that date ...
+being a letter by letter cipher, and dangerous because
+the fake key required a square.
+Franceschi himself gave the following sum-
+mary description22 of the properties of his cipher,
+that could be used to implement a fake key cipher
+in two different modes.
+8
+Falso Scontro, 1st Mode
+Here is the sheet signed by Franceschi listing the
+seven merits, called condicioni, of the ﬁrst mode
+of the cipher23
+Ha la ziffera mia queste condicioni
+di grandissimo comodo e utile
+1. Leuar da questa palese si pu`o un signiﬁcato ﬁnto come
+si uuole, falso et uerisimile . Sopra l’istessi caracteri,
+poi si manifesta l’auiso uero securo et in tutto nascosto
+ad ognuno.
+2. E facil a componer in qual ci uoglia lingua, et impos-
+sibile che s’intenda mai se non da colui che da me
+prima conoscenza la chiaue, o contrasegno con il quale
+s’apre l’interior mio rinchiuso.
+3. Si mutano le chiaui o segni ad inﬁnito, n´e scoprir si
+possono bench´e altre ﬁate alcuna di quelle insegnata
+s’hauesse.
+4. Non u’entra alcun carattere inutile o uano, n´e scriue
+per sillaba, o dicione, ma ciascuna lettera scriui per
+22This list of properties shows a strong resemblance to
+the 13 Bellaso’s Singolar qualit`a delle cifre in his 1564
+booklet, for instance Franceschi’s 2nd is similar to Bel-
+laso’s 7th, Franceschi’s 4th to Bellaso’s 4th ... see (Bellaso,
+1564). But Bellaso’s ciphers had very little in common with
+Franceschi’s, above all Bellaso never uses numbers and arith-
+metical operations.
+23English:
+My cipher has these conditions of great comfort and useful
+1. One can extract from this plain-text a fake text as you
+like, false and plausible.
+Over the same characters
+thereafter the true notice safe and hidden from anyone.
+2. Easy to compose in any language and impossible to be
+ever understood, except by the one that will know the
+key or contrasegno with which one opens the inside
+closed meaning.
+3. One changes keys or signs ad inﬁnitum, and they can
+not be discovered even if sometimes one had some of
+the used by them.
+4. There are no useless or superﬂuous characters no sylla-
+bles or words. But every letter is written with a letter
+both in the false sense than in the truthful one.
+5. One can understand the intention written without the
+fake notice or the fake alphabet any contrasegno that is
+is of minor time or fatigue.
+6. To write the before said cipher, one can have the assis-
+tance of a scribe without danger nor any dubious that
+my concepts could be known, until with the sign I will
+reveal to the one having need of it.
+7. In the sealed letter there is all that is needed to send
+other messages if it isn’t done for the reply. But it must
+be agreed that the respondent should not be informed
+before by me in any way.
+.
+Figure 4: Franceschi’s condicioni that make the cipher con-
+fortable and useful.ASVe CX Cifre, chiavi e scontri di cifra ... 
+busta 6, carte del sec. Franceschi.
+una lettera s`ı nel senso bugiardo, come nel utile24
+5. Intender si pu`o la intencion secura senza l’uso del
+auiso ﬁnto ouer suo alfabeto alcun, o contrasegno, il
+che `e assai di minor tempo e fatica.
+6. Nel componer la ziffra predetta, hauer si pu`o l’aiuto
+d’un scrittore, senza pericolo n`e dubitacion alcuna
+d’esser conosciuto l’animo mio, ﬁnch´e co’l segno io
+reuelar`o non lo habbia a chi far`a bisogno.
+7. Nella litera sigillata u’`e quello che si ricerca ne accadi
+per ci`o spedir altri messaggij se non per la replica, In-
+teso per`o che’l rispondente in alcun modo sia da me
+prima accennato.
+Point 4 indicates a letter by letter, monoalpha-
+betic cipher, both for the true and fake text; this is
+in strong conﬂict with cipher N. 11, a nomenclator
+with hundreds of ciphers for syllables, words etc.
+A possible explanation is that N. 11 had to do with
+the second mode not with the ﬁrst, another one is
+that N. 11 was simply abandoned.
+8.1
+An Example of the First Mode
+Using the previous incomplete information, I tried
+to guess a possible implementation of the ﬁrst
+mode; the encrypting procedure requires an addi-
+tion of the plaintext, previously encoded into num-
+bers and the key; the deciphering a subtraction25;
+ﬁnally, a set of four paper sheets with a complete
+example was found in busta 726 completing the
+24This property closely recalls Bellaso’s 4th singolar
+qualit`a in his 1564 booklet, (Bellaso, 1564).
+25Similar to Vernam, where the letters were converted into
+numbers by Baudot Code and then XOR additioned to ran-
+dom numbers.
+26ASVe CX Cifre, chiavi e scontri di cifra ... busta 7
+Figure 5: A complete example of the ﬁrst mode. The red 
+letters were added for a better link to the text. ASVe CX Cifre, 
+chiavi e scontri di cifra ... busta 7.
+puzzle.
+The alphabet for the plaintext is a normal 1:1 
+scrambled alphabet (MASC) with numbers in the 
+range 1..1927, the fake alphabet is different but of 
+the same type, MASC; the key is a random se-
+quence of numbers in the range 10..79 so the sum 
+(ciphertext) is alway two digits: 11..79; the exam-
+ple does not show it, but it is very likely the key 
+can be easily written using a grid like those of the 
+caselle maybe one of the huge, visible in ﬁgure 3, 
+sufﬁcient to cover a rather long message.
+So the fake key included also a fake alphabet, 
+different from the true, a superﬂuous device for 
+secrecy? For this purpose Vernam used a public 
+code or alphabet the Baudot.
+Here is the procedure based on Franceschi’s ex-
+amples and seven conditions: I will use the con-
+ventional names Alice, Bob and Eva28
+1. Alice and Bob exchange in some safe way
+the secret key K (here 23 55 30 35...) with in-
+27In the examples not every letter appears, and 0 or 20 are
+not used, so it is not sure which of the two was used.
+28For those who do not know: Alice is the sender, Bob
+the receiver of the message; Eva is the spy that intercepts the
+message and tries to decipher it
+structions.
+2. Alice uses the key K to encrypt the real mes-
+sage P (Il Signor Turco sta benissimo), into
+cryptogram C = P + K. By subtracting the
+fake message FP (Omnipotens sempiterne
+deus) from C you get the key FK = C −FP
+3. Alice sends by courier the cryptogram C and,
+hidden in a sealed envelope, FK and the fake
+alphabet.
+4. If the message C arrives undisturbed to Bob,
+he will decipher C with the good key K re-
+ceived earlier by Alice, retrieving the real
+message P = C −K.
+5. Bob will use the FK safely received by Alice
+as the new good key K29 to encrypt the next
+message to Alice, and generate a new ran-
+dom sequence of numbers FK for a new fake
+messageFP30. In this sense FK may stay also
+for Future Key.
+6. If Eva captures the courier and under threat
+gets the cryptogram C and the key FK, she
+will decipher the fake message FP =C−FK.
+7. It remains to be understood what happens if
+Eva opens the sealed envelope with FK. New
+keys to be generated and exchanged?
+8. The play can go on back and forward ad in-
+ﬁnitum always with a new key, and the key
+will always travel before being used for en-
+crypting the message.
+Even if Eva under-
+stands that FK is a fake, FK is and will be of
+no use for her. Consistent with Franceschi’s
+last condition.
+It was possible to implement a software tool
+doing all the job, leaving also the option to reuse
+FK as the new K, or to generate a new random
+key (this would require a new exchange of key be-
+tween Alice and Bob). The software tests conﬁrm
+that the procedure works ﬁne, but it is question-
+able if the successive fake keys could be consid-
+ered really random, being formed by arithmetic
+operation with the true and false message, in a re-
+cursive formula Ki = P + Ki−1 −FP. More, this
+formula is not stable, numbers can go out of the
+range [0...99]; the fake key should be normalized
+inside the range [21...79] before using it as the
+29One can argue that such a system may be classiﬁed as an
+autokey rather than an OTP; indeed the classical autokey uses
+only the original message, so it is a classiﬁcation issue.
+30This point is not documented by the example, like the
+previous; it seems the simplest way to fully implement point
+3 of Franceschi’s conditions: ¡i¿Si mutano le chiaui o segni
+ad inﬁnito ...¡/i¿
+Figure 6: Software simulation of the Falso Scontro proce-
+dure. One can get the true message using the green button,
+the false message using the red button.
+new key.
+A possibility for Eva would be to seize the
+sealed envelope, open it with a tool leaving the en-
+velocpe intact, copy the key, put it inside the en-
+velope back in its place, leaving Alice and Bob
+unaware. Next time Eva will be able to read the
+message31.
+9
+Falso Scontro, 2nd Mode
+These are Franceschi’s condicioni for the second
+mode33:
+Nel modo secondo
+1. Non da suspicion alcuna tal che in palese liberamente
+scriuer si puo con caratteri, sillabe et dicioni usate ogni
+aperto concetto latin o volgar et in quale altra si uoglia
+lingua ancora.
+2. Il detto palese che si uede, non `e conosciuto per enigma
+coperto neancho da chi lo porta. Bench´e iui sia la chi-
+aue del secreto nascosto di qualunque imaginacion o
+fantasia.
+3. `E facil a componer et difﬁcil anzi impossibile ad esser
+leuata se non con l’auiso del contrasegno mio vario
+per`o ad inﬁnito.
+Here the information is too scarce to arrive at
+a solid conjecture; it looks like Franceschi simply
+swapped the roles of plaintext and ciphertext.
+31In his Codebreakers Kahn writes that such devices did
+exist in the 1700s in Vienna where the imperial secret services
+were able to open a letter, read it, and close it in a systematic
+way.32. Was a similar thing possible for the sealing wax in
+the 1500s?
+33English:
+1. It gives no suspicion at all for it can be written as a
+plaintext with letters, syllables and words used every
+day, in Latin or Vulgar or any other language.
+2. The visible plain text is not recognized as an enigma,
+not even by the courier. Even if it is the key of any
+imaginable or phantastic secret.
+3. It is easy to write and difﬁcult, impossible to decrypt,
+except with the aid of my contrasegno key, but various
+to inﬁnity.
+Figure 7: A cut of Ziffra n.11 inside Franceschi’s book, 
+the alphabet is highlighted with a red dotted frame. ASVe CX 
+Cifre, chiavi e scontri di cifra ... b. 4 f. 16 c. 74.
+9.1 Ziffra N.11 and its Hidden Square
+These conditions may have some link with this ci-
+pher N.11 found in 1578-87 Franceschi’s book of 
+ciphers, visible in ﬁgure 7. Another hint comes 
+from the bottom right note of the second sheet, the
+deciphering list (per trazer that is to extract, to de-
+cipher):34
+Ziffra No 11 Nouissima per trazer, fatta da
+me Hiermo di Franceschi seco in essecution della
+deliberation dell’Eccelso Conso di X, sotto di 26
+Agosto 1587 la qual `e registrata in ﬁne del pre-
+sente libro.
+At ﬁrst look it seems the usual XVI century
+Venetian nomenclator, but there is an unusual al-
+phabet with six homophones for each letter: the
+numbers written as exponents, are in the range
+1..20 and if the ciphers are rearranged and com-
+pleted like in ﬁgure 8 a partial table of addition
+modulo 20 appears.
+The other letters b, e .. z. have numbers mostly
+in the range 1..20, a few between 21 and 99, and
+represent syllables, numbers, and words.
+The best ﬁtting example35 is present in many
+copies in the Archives and shown in table 4 and
+works ﬁne using the square conjectured in ﬁgure 8.
+The ﬁrst sign is L15 ; looking in row L for the num-
+ber 15 one ﬁnds column q, the next sign d8 has in
+row d the number 8 at column u and so on getting
+a plain text: Quanto io Hieronimo di Franceschi
+mi sono dim written above in the example.
+q
+u
+a
+n
+t
+o
+i
+o
+h
+i
+e
+r
+o
+n
+i
+m o
+d
+L15 d8 a20 q8 c10 b5 d13 a2 n3 b15 u19 b19 u15 s12 d13 c5 L4 f 11
+i
+f
+r
+a
+n
+c
+e
+s
+c
+h
+i
+m
+i
+s
+o
+n o
+d
+i m
+u5 s19 m5 m9 o19 c20 c1 t14 r9 s15 d15 g8 o10 i17 r6 L3 L4 z9 s3 c6
+(4)
+Another sheet found in busta 7 has only the letters
+of this cryptogram:
+L d a q c b d a n b u b u s d c L f
+u s m m o c c t r s d g o i r L L z s c
+34English: Figure N. 11 Very new for trazer, made by me
+Hieronimo di Franceschi secretary in execution of the reso-
+lution of the Most Excellent Council of X, under August 26,
+1587 which is registered at the end of this book.
+35Trying to decrypt the same cryptogram using ziffra N.11
+Figure 8: Alphabet of Franceschi’s cipher N. 11, with six
+homophones, and below the same arranged and enlarged to
+a square, a table of subtraction modulo 20, with a diagonal
+of 20 instead of the 0 we would expect today. The rows in
+red are those corresponding to the homophones above. This
+square table ﬁts perfectly Franceschi’s example.
+9.2
+Partenio’s own Falso Scontro
+All
+this
+closely
+recalls
+the
+last
+cipher
+of
+Pietro Partenio (1538-1620), the archrival of
+Franceschi36, in his booklet of June 160637 using
+a square very similar to Franceschi’s one, shown
+in ﬁgure 9.
+The example given by Partenio is: good mes-
+sage ”Vi sono in Brescia capi ribelli”, fake mes-
+give inconsistent result, so that cipher may have been a ﬁrst
+try later abandoned.
+36The dispute between Franceschi and Partenio can now
+be seen in a new light, not only a clash of [bad] characters,
+but also as a clash between two different methods of cryptog-
+raphy; Franceschi was a supporter of polyalphabetic ciphers,
+such were his ziffre uere, and he despised nomenclators like
+ziffre uechie.
+Partenio defended nomenclators, syllabaries
+and dictionaries, possibly reinforced by a super-encryption
+and ﬂaunted contempt for encrypting letter by letter. On the
+nomenclator-polyalphabetic question in the Renaissance, see
+(Kahn, 1996), chapter: ”On the origin of a species”.
+37(Partenio, 1606). A cipher almost surely derived from
+this second mode, that may help here.
+A feew months before,
+Jan 30,
+1606,
+talking of
+Franceschi’s Falso Scontro, in a letter to the CX, Partenio
+wrote38
+[...]
+perch´e se il .q.
+magniﬁco segretario Franceschi
+uoleua dar senso ﬁnto alla sua cifra la quale per lunghezza
+et difﬁcolt`a non si `e potuto adoprare; bisognaua in occa-
+sione di leuarlo che si cauasse con il solo quadrato, che in
+tal senso diuentaua scontro, il quale portaua seco due mor-
+tali oppositioni; prima di lunghezza estrema scriuendosi a
+lettera per lettera, poi per mezo di esso quadrato hauerebbe
+dato sospetto del uero senso, sapendosi che lui adopraua una
+casella o grada.
+Indeed a quadrato (square) is found in the mentioned ci-
+pher in the 1606 booklet of ciphers39
+Figure 9: The square used in Partenio’s last cipher; booklet
+of 1606 last page.
+sage ”Dalle sue parole io spero buona pace”. Al-
+ice transposes this good message using a key trans-
+position:
+i r c n i a v a b n c a i a i b p r s a i o e l o e i s l
+and now uses the square in ﬁgure 9 so: take the
+ﬁrst letter I of the transposed text and looks in the
+row I for the number under the ﬁrst letter of the
+fake message D: she ﬁnds number 10, and writes
+this number above the letter i as an exponent and
+so on; she will get the cryptogram:
+i10r15c8n17i18a13v11a10b15n11c18a4i14a10i3b5p6r9s6a16i12o4e17l13o13e4i2s16l12
+If Eva intercepts this cryptogram and uses the
+previous procedure, looking for the number inside
+the square, she will get the fake message. Indeed
+an experienced codebreaker may become suspi-
+cious by noting that the letters used as a basis have
+the frequency distribution of a natural language,
+and could understand that the numbers are just a
+diversion.
+9.3
+A Plausible Conjecture about the Last
+Mode
+The
+best
+interpretation
+I
+could
+guess
+by
+Franceschi’s
+three
+conditions,
+example
+and
+Partenio’s last cipher, assuming the square as
+a table of addition to avoid calculations, and a
+swap between plain-text and cipher-text, is the
+following:,
+• Alice encrypts a message into a plain non
+suspicious text FP using the good square and
+the numbers used inside a sealed envelope,
+together with a fake square that produces a
+fake message;
+• Bob receives FP and using the good square
+and the numbers in the sealed envelope trans-
+lates it into the good text.
+• If Eva intercepts the non suspicious message
+FP, she may not realize it is a cryptogram;
+but even if she opens the envelope, and uses
+the numbers with the fake square she gets a
+fake message.
+It is just a conjecture, and this second mode
+remains an enigma, many pieces of the puzzle are
+still missing and can only be guessed.
+10
+Conclusions
+In addition to the almost complete reconstruction
+of the Falso Scontro cipher, a suggestive parallel
+emerges from this research: Franceschi’s idea of a
+uera ziffra resembles Shannon’s idea of a perfect
+cryptosystem40, and the Falso Scontro ﬁrst mode
+cipher resembles Vernam cipher41.
+If the procedure of the ﬁrst mode was the one
+conjectured above, it had a disordered and inﬁ-
+nite key, or at least a huge one, one of the ﬁrst,
+maybe the ﬁrst of this kind; possible previous can-
+didates are Trithemius’s Orchema42, p. 567, but
+Trithemius dancing letters were not really disor-
+dered and a similar cipher of the Codice Urbinate
+dated 1501-1505 digitized and published by the
+Vatican Apostolic Library43; it is attributed to Fed-
+erico da Montefeltro, but since he died in 1482, the
+attribution is likely wrong.
+The Falso Scontro although ofﬁcially adopted
+by the CX in 1586 as seen above, was, as far as we
+know, never used. As Partenio wrote, the cipher
+was seen as too long and difﬁcult44.
+40One may argue that this statement is exaggerated: as-
+suming that obviously ”resembles” is not the same as ”is
+equivalent”, here I’m speaking only of the basic idea of a
+perfect cipher, not of the mathematical formulation, some-
+thing well beyond the mathematics of the sixteenth century.
+Franceschi’s statement that using a uera ziffra, given any de-
+sired fake-text one can always ﬁnd a fake-key good to get it,
+hints that his basic idea was similar to Shannon’s about the
+indipendence between plaintext and ciphertext, and between
+plaintext and key.
+41Both use addition/subtraction to encrypt/decrypt; in the
+ﬁrst mode Franceschi clearly is aware that to be unbreakable
+and to allow the fake key, the key must be long at least as the
+ciphertext; the caselle did not satisfy any more this require-
+ment and the fake key was also dropped.
+42See (Trithemius, 1613)
+43Biblioteca Apostolica Vaticana: Manoscritti digitalizzati
+- Urb.lat.948
+44Inside the draft of the ﬁnal 1599/1600 relation of the ﬁve
+noblemen called to examine the Partenio vs Franceschi dis-
+pute, one reads that the day of the ﬁnal test, Piero Amai, son
+of Agostino Amadi and the pupil of Franceschi, apologized
+for not wanting to participate in this contest using the casella
+... not being very good at adding and subtracting, he did not
+feel suitable for that test. Franceschi died not long after, and
+his ciphers died with him.
+Acknowledgments
+Special thanks to the archivists of the State
+Archives of Venice, for the helpfulness shown, and
+to Richard Bosch, Portland, Oregon for reviewing
+the English language.
+References
+Bauer, F. L. (1991 - 2007). Decrypted secrets: Meth-
+ods and Maxims of Cryptology. Springer, Berlin.
+Bellaso, G. B. (1553). La cifra del sig. Giouan Battista
+Bellaso, gentil’huomo bresciano ... Venezia.
+Bellaso, G. B. (1555). Noui et singolari modi di cifrare
+de l’eccellente dottore di legge messer Giouan Bat-
+tista Bellaso nobile bresciano, con le sue regole &
+essempi con somma & chiara breuit`a composti .. L.
+Britannico, Brescia.
+Bellaso, G. B. (1564). Il vero modo di scrivere in cifra.
+L. Britannico, Brescia.
+Bonavoglia, P. (2019a). The cifra delle caselle a xvi
+century superencrypted cipher. Cryptologia.
+Bonavoglia, P. (2019b). Hieronimo di franceschi and
+pietro partenio: two unknown venetian cryptolo-
+gists.
+Uppsala. Link¨oping University Electronic
+Press.
+Bonavoglia, P. (2020).
+A partenio’s stegano-crypto
+cipher. Uppsala. Link¨oping University Electronic
+Press.
+Kahn, D. (1967 - 1996). The codebreakers. Scribner,
+New York.
+Partenio, P. (1606). Cifre di Pietro Partenio. Mano-
+scritto, Archivio di Stato di Venezia, Venezia.
+Shannon, C. E. (1948). A mathematical theory of com-
+munication. The Bell System Technical Journal.
+Shannon, C. E. (1949). Communication theory of se-
+crecy systems. The Bell System Technical Journal.
+Trithemius, I. (1507 - 1613).
+Libri Polygraphiae.
+Lazari Zetzneri, Argentorati (Strasbourg).

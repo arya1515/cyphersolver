@@ -1,0 +1,21 @@
+# f. 38r (BNE opening hi08 right; PDF p033 right). Second piece, 9 lines, ends with a flourish, no protocol.
+# Numerals: 1 = dotted i, 0 = o, 5 = long s, 6 = b-shape, 9 = g-shape, looped 4, 7 = 1 with foot. Base letters a c d f g h.
+# '?' marks a doubtful token (kept in ct2 style here; strip before parse.py).
+# f.38r l.1
+c22 g22 c28 d10 h40 h22 a89 f20 f21 g15 g6 f26 f64 d13 a82
+# f.38r l.2
+h13 d20 d13 f19 c29 f20 d86 h51 c99 h4 c28 c19 d85 g22 h28
+# f.38r l.3
+a64 d1 d15 f36 g10 h20 g99 c24 f63 a64 h51 c99 h4 c22
+# f.38r l.4
+a15 f1? d? a64 c28 g? f61 h51 d20 c28 a2 g40 d13 f19 h20
+# f.38r l.5
+a64 a20 g10 c22 2? a20 d20 c86 f64 a84 c36 f20?
+# f.38r l.6
+a83 a50 d85 c29 f20 f15 f51 g20 c21 d55
+# f.38r l.7
+d15 d55 h20 a64 g99 a96 d20 g20 c83 c12 d55 h20
+# f.38r l.8
+c26 g20 f20 f63 a55 h51 f19 f61 d55 h25 f42 c20
+# f.38r l.9
+a64 c86 d10 c99 a89 f61 f42 c20 g16 f46 h22
