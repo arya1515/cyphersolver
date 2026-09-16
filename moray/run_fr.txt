@@ -1,0 +1,51 @@
+0 -270.1 tredesusteseseteseuseetsesserestestreetestsesleserestrerlesetseeteeesteetferrterreettreessellerseteestertestreesseversesseesterlieheer
+1 -261.4 eetftnesettantetstesatheretaetsprsentcerteetnelettrsenteetstentrettreerlefaiterentreentrnetuurestetrnerepreentreetitinttntrspreueterre
+2 -267.4 eisesetesttresenestetncesetmisentesencesteetencesetesesintessestrsstestcestreetienserenteensstienentersinteeenteesttrestestentisungsti
+3 -277.0 rtepetitreentereteitientatentetestreetriertetdeteostreetdetertesdeestrservitorsteeardeesttellstterestditestreestteletteetestestlierast
+4 -256.7 eetftedeettretetetdeotheretleterreentretteetenlettreententeteetrettreerlesorterentreentreetaareetetreeterreentreetitrettetrerrealterre
+5 -252.3 ietatepearlbetitetpertuerelleterreantoitlierentettreantenretaetrettreartieretirentrientreetaareetitreeterreintreetireetletrerrealterre
+6 -266.4 essusetestcheserestetresescosseasesurpeecesteenssesesussetessesssssssssnestreessureesursesraasserersesesasseurssssstrescesseassaireess
+7 -269.3 tredesusteseseteseuseetsesserestestreetestseslesetestrerlesetseeteeesteetnestterreettreessesserseteestertestreessedessesseestersdeheer
+8 -269.6 eesesetestchesenesternoetechesentesentenceetentesttesesentessestrsstesttearrteteenterenteenttteenenternenteeenteesttrescestentetenatte
+9 -260.0 eetitetaittletetattaitmeretletairaintmenteeteslettraintestatietrettreirledicterentreentreetaareatetreeneireentreetitcettetraireafterre
+10 -271.3 trevenantoioneteneaniersesinrententreeteitsondesesentrerdonetneedeeesteetminsterreetdreensellerneteendertestreessedonneineenterlieheer
+11 -264.9 treyetanteniteteneaniersesnirententrettantsetissesentrerienetteedeeestestminsterreetdreetsesserneteetdartestreessemententeentersdeheer
+12 -263.3 treyetanteniteteneaniersesnirententrettantsetissesentrerienetteedeeestestminsterreetdreetsellerneteetdartestreessemententeenterlieheer
+13 -253.0 ietatepearspetitetpertieresleterreantoitsierentettreantenretaetrettreartieretirentrientreetaareetitreeterreintreetireetsetrerrealterre
+14 -282.9 tsevenantonaneteneangersesnesensinthestantsontesetinthestonetneiceeistietogittisheetcheinsettisneteincassistheisseroinenneinsistdefeis
+15 -269.5 trecetanteniteteneaniersssnirententreetantsetissesentrerienetteedeeestestminsterrestdreetsesserneteetdartestreessemententeentersherser
+BEST -252.3278350830078
+ietatepearlbetitetpertuerelleterreantoitlierentettreantenretaetrettreartieretirentrientreetaareetitreeterreintreetireetletrerrealterre
+{"10": "r", "11": "e", "12": "e", "13": "a", "14": "e", "15": "i", "16": "p", "17": "t", "18": "t", "19": "i", "4": "r", "4b": "b", "Eb": "e", "a": "e", "c": "u", "e": "l", "f": "n", "g": "a", "o": "e", "o2": "l", "p": "t", "r": "n", "s": "r", "x": "t", "x2": "e", "x3": "l", "z": "a", "z1": "e", "z2": "t", "z3": "r", "z4": "r", "z5": "o"}
+10 [('r', 5), ('e', 3), ('s', 1)]
+11 [('e', 6), ('h', 3), ('g', 1)]
+12 [('r', 3), ('e', 2), ('n', 2)]
+13 [('t', 3), ('a', 2), ('e', 2)]
+14 [('e', 5), ('d', 2), ('s', 1)]
+15 [('i', 5), ('m', 2), ('s', 1)]
+16 [('t', 3), ('p', 2), ('a', 2)]
+17 [('t', 5), ('e', 3), ('r', 1)]
+18 [('l', 3), ('t', 2), ('s', 2)]
+19 [('e', 5), ('t', 3), ('i', 2)]
+4 [('i', 3), ('r', 2), ('t', 2)]
+4b [('r', 2), ('i', 2), ('b', 1)]
+Eb [('s', 3), ('e', 2), ('m', 2)]
+a [('e', 6), ('s', 4)]
+c [('h', 2), ('r', 2), ('u', 1)]
+e [('t', 4), ('s', 2), ('n', 2)]
+f [('n', 4), ('e', 2), ('i', 2)]
+g [('a', 2), ('f', 2), ('y', 2)]
+o [('e', 6), ('t', 2), ('n', 1)]
+o2 [('l', 4), ('i', 2), ('a', 1)]
+p [('t', 6), ('s', 2), ('e', 2)]
+r [('n', 5), ('r', 3), ('u', 1)]
+s [('r', 3), ('t', 3), ('i', 1)]
+x [('t', 5), ('e', 3), ('s', 2)]
+x2 [('e', 5), ('s', 2), ('n', 2)]
+x3 [('l', 3), ('i', 2), ('d', 2)]
+z [('a', 5), ('s', 3), ('u', 1)]
+z1 [('e', 5), ('r', 3), ('s', 1)]
+z2 [('t', 3), ('a', 2), ('e', 2)]
+z3 [('r', 5), ('e', 4), ('s', 1)]
+z4 [('t', 5), ('e', 3), ('r', 2)]
+z5 [('o', 2), ('c', 2), ('t', 2)]

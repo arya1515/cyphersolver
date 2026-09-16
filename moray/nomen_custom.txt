@@ -1,0 +1,4 @@
+  File "C:\Users\Daniel.Bourdeau\cipher\cyphersolver\moray\solve5.py", line 46
+    print(f'{name}: breaks={len(breaks)} windows={nw} score/window={sc/nw:.3f}
+          ^
+SyntaxError: unterminated f-string literal (detected at line 46)

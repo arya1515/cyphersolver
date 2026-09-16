@@ -33,13 +33,6 @@ LIVE = [
      "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
      "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
 
-    ("Regent Moray to John Wood, the Scottish ambassador in London", "1568",
-     "https://cryptiana.web.fc2.com/code/elizabeth_moray.txt", "", "good", "hi", "low",
-     "BL Add MS 32091 f.213, a passage in cipher in a letter of 13 July 1568, transcribed by Tomokiyo: <b>134 groups, 32 distinct symbols, "
-     "index of coincidence 0.050</b>. That is a monoalphabetic substitution with a handful of homophones, in Scots. Short, but at that alphabet size "
-     "it is above the unicity distance, and the clear text round it fixes the subject. The cheapest decisive test on the whole list: a substitution "
-     "climb with a Scots and English model, checked against a planted control of 134 letters. Added September 2026, not yet attempted."),
-
     ("Charles I to Boswell, and Nicholas to Boswell", "1643",
      "https://cryptiana.blogspot.com/2021/09/charles-i-boswell-cipher-1643.html", "", "even", "md", "medium",
      "Two letters of 2 November 1643 at the National Archives, unread. Tomokiyo's provisional transcription of the King's letter has <b>460 groups, 170 "
@@ -112,6 +105,17 @@ ATTEMPTED = [
      "deterministic and the vowel is not a free homophone, which overturns the first reading; the seven row collisions are different characters. A "
      "row-to-digit permutation test against telegraph-code order is at chance. 42 codebook entries recovered; the kana-to-digit table needs a second "
      "telegram. <a href=\"huangxing.html\">Write-up, corrected &rarr;</a>"),
+
+    ("Regent Moray to John Wood, the Scottish ambassador in London", "1568",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/moray/NOTES.md", "", "undetermined", "lo",
+     "BL Add MS 32091 f.213, 13 July 1568, <b>134 groups over 32 symbols</b> in Tomokiyo's transcription. The Catalogue of Additions says "
+     "what the letter does: refuses Wood's recall and sends Border news. <b>Attempted September 2026.</b> A 5-gram Scots annealer, built from "
+     "the <i>Diurnal of Occurrents</i>, the Privy Council register and Pitscottie, reads <b>five of six planted 134-letter controls</b> of the "
+     "same symbol profile at 93&ndash;98%; on the letter it returns gibberish, scoring below every solved control, and English, French and "
+     "Latin models do no better. No symbol behaves as a null or a word separator, Tomokiyo's variants are distinct symbols, twenty dragged "
+     "cribs (the quene, Lethingtoun, Herreis&hellip;) are all rejected, and a word-code mask has no power at this length. Thirteen per cent of "
+     "genuine Scots passages score below the solver's false optimum, and Border news is names, so the result is undetermined, not excluded. "
+     "Needs the page, offline since the BL cyber-attack, or a second letter in the cipher."),
 
     ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
      "<b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT "

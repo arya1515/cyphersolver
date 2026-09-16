@@ -1,0 +1,51 @@
+0 -293.3 trioifentiumfitenienceffifuerintentfentautfifenfinentfireinitfieuiieftentaconterfeitufeefferrerneteefuarteftfeefficiofiufienterraefier
+1 -277.1 narprafenticarnierfefideieivarententientinetafieretentrafternartirrtentiniftentatiinititaeilltaeinitaitantentiteerattariartentalbinita
+2 -284.1 nanonagentitanniengenifaiainanententientinatafianetentnaftennantinntantinententatiinititaaiuutaeinitaitantantitaanuttaniantentautilita
+3 -297.8 lfivitamfecutilimiamminefecefimtamfuiflecleetodeilamfuifoemiftianiiaefadlimillafuiflnuiateillafmiliatneftaeluiaeeifeitictiamtafleipfaf
+4 -272.2 itabatuteamitaietautaeftutmutatinteretiamitateitainterateataetaniaanteniinaniintreuiirentteccntteientiatintirenttabantamtantintcredunt
+5 -298.8 eiezetatietateeiteattibrartfietantimiletteretfereintimeifeteitenueenrineeftfienimiaeumintriaanitieintutianreminrregeftettentaniaminani
+6 -268.1 rtabatuteientaretautcertoteftatinterepraertituitainteratuitaetaniaanteniricairntreorirentteccntterentiatintrrenttaliataetantintcrecont
+7 -291.1 ietatimittulitititmiftinunumetimaitittituintirentmaititertittitanttantaeinfamiaeituinitaintttaeititaintemaniitanntitaituitaimaetatquae
+8 -289.7 iifzfifercfuifineffeinvenefcifenterantiafiecinrefuterafincefriftlfftertridiruitiannilantientttienintilainteianteeftcriffiftentitinenti
+9 -288.3 naixicdentricinieidecimamardaiententiintrnatcuiaiutentiauteincitaiitantinaciuntatimnatitcainntaeinitcatantantitaaixticircitentanniamta
+10 -297.6 tiryrerettfpertierretineteftirecretuilteftetenterareturinterterrxrrretrttitpatriuittxuireeittrieitirexeicretuireeratperferrecrithistri
+11 -291.8 eetotiuitacritetituintonincpetitaititaepcenaircntraititeraittitanttantaceandreaeitienitaintrraeitetainpetaneitanntraditcitaitaeratriae
+12 -290.2 rnioinutaeaeniretiutfeftitannitratacerriartenditiratacindetianiaeiiataairofarranceireceantessantereaneinratrceattineanianiatransferian
+13 -290.7 rifzfolencadofraefletameneaeifententacreareconaefetentfincefnoftrfftentaretcertitanrrtatoeasstiearatoreintertateeftccofaoftentismagnti
+14 -286.8 inazaiderentiaineadeononinnonaegierantianineiftnatieraanfeeariainaainritimortiinaniinaniinnccineniniinanginianinnaverianiaiegincendiin
+15 -277.8 atigituteuentiaetiutpertateftitentereaaneatutadtiinteritautietineiintendampliantreaaerentteccntteaentententarenttimultietintentcmerant
+BEST -268.0683898925781
+rtabatuteientaretautcertoteftatinterepraertituitainteratuitaetaniaanteniricairntreorirentteccntterentiatintrrenttaliataetantintcrecont
+{"10": "n", "11": "c", "12": "a", "13": "e", "14": "i", "15": "l", "16": "u", "17": "e", "18": "i", "19": "r", "4": "c", "4b": "n", "Eb": "i", "a": "t", "c": "r", "e": "e", "f": "u", "g": "b", "o": "t", "o2": "f", "p": "i", "r": "r", "s": "i", "x": "a", "x2": "t", "x3": "r", "z": "c", "z1": "t", "z2": "a", "z3": "o", "z4": "i", "z5": "p"}
+10 [('t', 5), ('n', 3), ('i', 1)]
+11 [('d', 2), ('r', 2), ('c', 1)]
+12 [('a', 2), ('t', 2), ('r', 2)]
+13 [('n', 4), ('e', 3), ('r', 2)]
+14 [('i', 4), ('e', 2), ('n', 1)]
+15 [('t', 2), ('l', 1), ('b', 1)]
+16 [('u', 4), ('f', 2), ('d', 2)]
+17 [('e', 4), ('i', 3), ('n', 2)]
+18 [('i', 6), ('d', 1), ('t', 1)]
+19 [('r', 3), ('i', 3), ('n', 3)]
+4 [('c', 2), ('f', 2), ('a', 1)]
+4b [('n', 2), ('i', 2), ('t', 2)]
+Eb [('i', 2), ('m', 2), ('e', 2)]
+a [('t', 4), ('e', 3), ('a', 2)]
+c [('f', 3), ('r', 2), ('m', 2)]
+e [('e', 2), ('i', 2), ('a', 2)]
+f [('f', 3), ('u', 2), ('n', 2)]
+g [('z', 3), ('b', 2), ('o', 2)]
+o [('t', 3), ('a', 2), ('i', 2)]
+o2 [('f', 2), ('n', 2), ('u', 1)]
+p [('i', 3), ('e', 3), ('u', 2)]
+r [('t', 4), ('r', 3), ('a', 2)]
+s [('n', 5), ('i', 2), ('e', 1)]
+x [('a', 3), ('i', 3), ('f', 2)]
+x2 [('e', 6), ('t', 4)]
+x3 [('r', 2), ('m', 2), ('b', 1)]
+z [('c', 4), ('s', 2), ('l', 1)]
+z1 [('t', 3), ('a', 3), ('n', 2)]
+z2 [('a', 4), ('t', 3), ('n', 1)]
+z3 [('i', 4), ('n', 2), ('o', 1)]
+z4 [('t', 3), ('e', 2), ('c', 2)]
+z5 [('t', 3), ('e', 2), ('p', 1)]

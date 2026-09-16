@@ -1,0 +1,9 @@
+base                   n=134 syms=32 q4/char=-8.821 q5/char=-2.465 tnesenantairneteneandertationentintherteittanentenintheneanetneiteeittintedintinheattheintettinneteintentittheitteraineineintinthelain
+merge x                n=134 syms=30 q4/char=-9.126 q5/char=-2.584 tstotaithtthattittittinststistthethairtittstainsteethatsittthatertteshentothetesaittraieasittestitiearishestaiesstothattatethesttintes
+merge z                n=134 syms=27 q4/char=-9.297 q5/char=-2.719 hethteratethethtatraitheeethetathatatehetheeereetthatatereattethetthethehairthheateheatheeteeheaththeeeethehatheetherettethatheenthehe
+merge x,z,o,4          n=134 syms=24 q4/char=-9.291 q5/char=-2.673 ettitaiththeaterttittrestshattthethertethestainstrethettittthatentteshenesthreetertenereasrttettrereanttheseeresstothathatethetttratet
+drop z                 n=113 syms=26 q4/char=-8.678 q5/char=-2.590 ththtateinthththatthattiththatethtitttertheatethethethathhateartitietathttthatthaththatthattthattheithithathathea
+drop x                 n=110 syms=29 q4/char=-8.911 q5/char=-2.468 teiriteairtairantstanetithatthattersettithesetritittietorittiehastthairtallieatairthetitthaittheiraritielassie
+drop z merge x         n=113 syms=24 q4/char=-8.842 q5/char=-2.617 etitaiththatehttitthesstattheththetesairsthethttitthatestteshereattheethestheashetheheashesethesstotattatethethee
+drop x merge z         n=110 syms=24 q4/char=-9.349 q5/char=-2.821 tterittourtairanstsonteithatttotstriessithtittrieistietorestithattehairsattitatairetteisthaissiterorieittantit
+drop z merge x,o,4     n=113 syms=23 q4/char=-8.842 q5/char=-2.617 etitaiththatehttitthesstattheththetesairsthethttitthatestteshereattheethestheashetheheashesethesstotattatethethee

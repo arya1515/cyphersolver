@@ -1,0 +1,51 @@
+0 -311.9 ieszsitiersvisitistintherescesitliesthissierinlessliessenriseislessleellionasilestriestlietooleititliesetleistleestraissislitleonturle
+1 -279.3 sseverandoatreseneanyeonenabsentandhershasnormanerandhesmonedreaceeandaastyersasheeschearnessasnesearchstansheannesoereareantasshereas
+2 -273.8 sseherestsepreseseesrestateasestasthersiestsresterasthesessetreaseeattassurersasheassheartessassesearsistatsheattersereereastasshecaas
+3 -284.6 eetxtehersemetetetheotheseemetethersthereeeseryettherstersetrethattherhyemostehestseastheetssheetethearetheestheetasseteethethesetcshe
+4 -309.0 eneherastethreesseasesusestonescastesheeteserttsemasteentesetreameeastatepermeaneseemesarsseeanssesarmencaseesasseverretreascaneashean
+5 -279.0 tseherestsecreteseespecteteasestasthentyettsresterasthesessetreaseeattastopartasheetsheartessassetearsystattheattersareereastasshereas
+6 -286.0 srefersttackresetestoentetcpreteattheysacstareitedatthereatetreaceeattaislordsarheescheartellartesearcareatsheatterarrecreatearlyehear
+7 -282.1 tseheresteaureteseespectetausestastherteatteresterastheseesetreareeattastopartasheetrheartessassetearrestattheattebeareareastassheleas
+8 -286.1 sseveratterpreseteatmentatrdsethattheusarstermitesatthesmetetreaseeattaistmassasheassheartellastesearsashatsheattebearerreathaslyehaas
+9 -299.1 tneherestesiretoseeshousessinestastdowtestserinselastdeniesetreaseeastantshaltandoetsdoarsoddansotoarsentastdoassebearesreastandsomean
+10 -281.6 eesuselastthesetaslastherethesathasstcerteetepresshassseptasseshassheshrewsasehestreastheetccheatethearetheestheesitaesteshatheciterhe
+11 -285.7 treherestsapreteseesmessesarrestasthertoatssransesastherassetreaseeastantsmustarheetshearsettarsetearsortastheassessureareastarthebear
+12 -278.8 tteyetshetalteteheshrewsasantehasherestsatsttheseashereththeeteseeessesethreatstreaterestsettsthetestestasstresssenteteateshastthecast
+13 -288.3 eetytetantlietesattasshetelsetathandsherleeteseetthandtestatnethatthenheeasytehedsteadsheesttheaseshearetheedsheetatyetlethathetestthe
+14 -282.4 tseheresterpreteseesteetetresestasthestertterintenasthesiesetreareeattantstantasheetrheartessassetearrestattheattebearerreastasshereas
+15 -310.3 toszsiderlssistiesdeliverestosentersietnstelinhesuterssonlesristossterthtilluttosirtositieilltoeititionontetsiteesillissistentoldierto
+BEST -273.8322448730469
+sseherestsepreseseesrestateasestasthersiestsresterasthesessetreaseeattassurersasheassheartessassesearsistatsheattersereereastasshecaas
+{"10": "a", "11": "c", "12": "e", "13": "t", "14": "s", "15": "r", "16": "e", "17": "e", "18": "s", "19": "s", "4": "r", "4b": "p", "Eb": "u", "a": "t", "c": "s", "e": "e", "f": "e", "g": "h", "o": "r", "o2": "a", "p": "r", "r": "h", "s": "t", "x": "e", "x2": "s", "x3": "h", "z": "s", "z1": "s", "z2": "i", "z3": "a", "z4": "s", "z5": "r"}
+10 [('a', 7), ('h', 2), ('s', 1)]
+11 [('c', 3), ('r', 3), ('e', 1)]
+12 [('a', 4), ('e', 3), ('s', 1)]
+13 [('t', 6), ('e', 1), ('d', 1)]
+14 [('s', 3), ('c', 2), ('a', 2)]
+15 [('r', 3), ('s', 2), ('b', 2)]
+16 [('e', 5), ('s', 2), ('a', 1)]
+17 [('e', 8), ('t', 2)]
+18 [('s', 3), ('n', 2), ('e', 1)]
+19 [('t', 5), ('s', 3), ('e', 2)]
+4 [('r', 2), ('p', 2), ('o', 2)]
+4b [('p', 3), ('l', 1), ('c', 1)]
+Eb [('o', 2), ('s', 2), ('u', 1)]
+a [('t', 5), ('s', 2), ('e', 2)]
+c [('s', 2), ('c', 2), ('h', 2)]
+e [('a', 4), ('e', 3), ('t', 1)]
+f [('e', 4), ('h', 1), ('m', 1)]
+g [('h', 5), ('y', 1), ('v', 1)]
+o [('r', 7), ('e', 2), ('t', 1)]
+o2 [('a', 2), ('n', 1), ('b', 1)]
+p [('r', 4), ('s', 2), ('a', 1)]
+r [('h', 7), ('s', 2), ('r', 1)]
+s [('t', 8), ('a', 1), ('e', 1)]
+x [('e', 8), ('s', 1), ('t', 1)]
+x2 [('s', 5), ('h', 1), ('n', 1)]
+x3 [('h', 7), ('i', 1), ('e', 1)]
+z [('s', 6), ('t', 2), ('c', 1)]
+z1 [('s', 5), ('e', 2), ('r', 2)]
+z2 [('r', 2), ('e', 2), ('i', 1)]
+z3 [('e', 6), ('a', 2), ('r', 1)]
+z4 [('s', 4), ('t', 2), ('e', 2)]
+z5 [('r', 4), ('s', 2), ('n', 1)]
