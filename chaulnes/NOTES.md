@@ -86,6 +86,30 @@ numbers 14-52 are nulls, 10 deletes the preceding group).
   Marseille; Recueil t. II p. 27 n. 4) and the negotiators (cardinals Cibo, Ottoboni, Acciaioli, Sainte-Cécile,
   abbé de Polignac) are the likeliest proper names in the long paragraph.
 
+## Gérin 1877 checked (2026-09-16, volume supplied by Daniel from Google Books)
+
+*Revue des questions historiques* t. XXII (1877) pp. 135-210, Ch. Gérin, "Le pape Alexandre VIII et Louis XIV"
+(text extracted to `gerin1877.txt`; the PDF is not tracked). Gérin worked from AE Rome Corr. 321-345 and quotes
+Chaulnes at length, but **he does not quote or cite the King's letter of 10 July 1690**. His 1690 citations of
+the King's side are 24 Jan, 13 Feb, 19 May ("vous avez bien fait de désavouer tout projet de lettre, si le pape
+veut soumettre l'affaire aux cardinaux"), 22 May (he would allow at most that after the expedition of the bulls
+the next assembly thank the Pope "de la bonne justice rendue à tant de prélats"), then Forbin's instructions of
+15 May and the letters to Forbin of 1 and 14 Sept. The "10 juillet" on his p. 182 is Chaulnes' despatch of that
+day (Rome 331), not the King's. So the Richelieu route closes here: no printed plaintext of this letter exists
+in Gérin, Hanotaux/Hanoteau or Gérin 1870/1894.
+
+What the article does supply is the subject matter of the enciphered passages, from Chaulnes' letters of
+25/28 April, 5, 12, 23, 30 May, 6, 8, 27, 30 June and 1 July (Rome 331): the Pope wanted to put the bishops'
+draft letter to a congregation of cardinals (Albani, Rubini, Panciatichi, Ottoboni) and Chaulnes opposed it and
+threatened to withdraw all his drafts and ask for his congé; Rome rejected the Versailles draft in which the
+bishops say the 1682 doctrines were "reçues de tout temps en France"; Chaulnes refused to link the Régale to the
+bulls though authorised to; he proposed that the coming Assemblée du Clergé write to the Pope disavowing any
+decision of faith. These are the likeliest contents of P1 (the June "diligences"), P5 (what Chaulnes "croyez"
+the Pope will accept from "ceux qui ont assisté à l'assemblée de 1682 et qui sont nommés"), P6 (Chaulnes' policy
+"jusqu'à présent de ne point..." linking the Régale) and P8 (instances made to the Pope). They are paraphrases,
+not the King's words, so they narrow the vocabulary without giving an alignable crib; against the control result
+above they were not used to force a reading.
+
 ## What would solve it
 
 1. The minute: Archives diplomatiques (La Courneuve), Correspondance politique Rome vol. 331-332, "le Roi à
