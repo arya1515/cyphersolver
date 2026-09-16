@@ -74,6 +74,13 @@ code (Feuquières' other despatches to Catinat of the winter 1690-91 are in the 
 printed only this one), or the key itself among Louvois' ciphers (BnF fr. 6204 holds Louvois' keys of the 1690s,
 checked for Chaulnes; a Feuquières-Catinat "petit chiffre" of 366 entries would be the thing to look for there).
 
+**Bazeries' book, located but not reached (2026-09-15).** *Le Masque de fer* (1893) is on Gallica as bpt6k1523532j (full text,
+blocks scripts: texteBrut returns HTTP 500), in the Service historique de la Défense digital library
+(bibliotheques-numeriques.defense.gouv.fr/shd/document/f75ccee8-7f65-4f31-b513-91f7e0efbe97, connection refused to scripts),
+and as a scanned OCR PDF posted by a Bibm@th forum member at bribes.org/crypto/Burgaud_et_Bazeries_Le_Masque_de_Fer.pdf
+(HTTP 403 to scripts). Pages 19, 57 and 272 are the ones to read by hand: Tomokiyo says p. 272 claims the decipherment of
+this letter and p. 57 says nobody had read it, so the book may hold more of the content than he reported.
+
 Also checked and negative: no clear copy or paraphrase of the letter anywhere in the three volumes of the 1819
 Mémoires (full OCR searched for Veillane, Feuquières, chiffre); the 1845 Lettres inédites print Catinat's side of the
 exchange (12 and 19 Jan) but no Feuquières letter of January 1691; Bazeries' papers are not online.
