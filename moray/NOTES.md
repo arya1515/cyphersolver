@@ -109,10 +109,11 @@ x and z families as word codes: same outcome (`nomen_custom.txt`).
 **Crib dragging** (`cribdrag.py`, `crib2.txt`): twenty words and names (the quene, hir majestie, Lethingtoun,
 secretare, the lettres, the Duke, Argyle, Huntlie, Herreis, Ingland, France, quhilk, thairfoir, Hamiltoun,
 Elizabeth, the quene of Ingland, your grace, my lord, the lordis, nobilmen) placed at every consistent position
-and the rest annealed under the constraint (80 000 steps, 4 restarts per placement). Best placement so far
--290.2 (*secretare* at 37; *thequene* at 70 gives -304), 21 nats below the unconstrained optimum -269.5; no crib is
-supported. The run was still working through the crib list at the time of this write-up; `crib2.txt` holds the
-full table when it finishes.
+and the rest annealed under the constraint (80 000 steps, 4 restarts per placement; 730 placements in all,
+`crib2.txt`). Best placement -280.4 (*Ingland* at 74), then *Argyle* at 43 (-286.7), *Huntlie* at 73 (-289.9),
+*secretare* at 37 (-290.2), *Herreis* at 73 (-291.4); *thequene* at best -304. Every placement sits 11 nats or
+more below the unconstrained optimum of -269.5 and the decrypts round the cribs stay gibberish, so no crib is
+supported.
 
 ## Where it stands
 
