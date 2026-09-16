@@ -71,8 +71,7 @@ predict. **Not solved; closed against controls.**
   Its 79 symbols are unmarked graphic signs with five word codes and no numbers. f. 539 shares perhaps a dozen base shapes
   (ω, ⊥, ∞, ⊞, ⊠, α, ρ, β, 4, Δ, ⊐) — the common repertoire of the period — but has no counterpart to the marked series or to
   the numbers, and the f. 555 letter has no marked symbols at all. The two ciphers are not the same key.
-  *Not run as a decode: without a labelled transcription there is nothing to feed it, and the structural mismatch already
-  decides it.*
+  *Not run as a decode: the structural mismatch (no marked series, no numbers in f. 555) decides it.*
 - Tomokiyo's partial alphabet at f. 530 (Pelissier ↔ Joyeuse, same month): he states it does not fit, and its shapes
   (n, o, ρ, φ, ʒ, ¬, ⊤, ≠ …) are again unmarked.
 - Nevers-collection and Viète-volume keys on cryptiana: none is a marked-symbol cipher of this shape.
