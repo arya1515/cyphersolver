@@ -191,3 +191,5 @@ voynich/data/ZL3b-n.txt
 voynich/__pycache__/
 .claude/
 scorpion/results_*.txt
+# goldbar: downloaded IACR photographs and enlarged crops used for the transcription check
+goldbar/work/
