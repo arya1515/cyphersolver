@@ -74,12 +74,20 @@ code (Feuquières' other despatches to Catinat of the winter 1690-91 are in the 
 printed only this one), or the key itself among Louvois' ciphers (BnF fr. 6204 holds Louvois' keys of the 1690s,
 checked for Chaulnes; a Feuquières-Catinat "petit chiffre" of 366 entries would be the thing to look for there).
 
-**Bazeries' book, located but not reached (2026-09-15).** *Le Masque de fer* (1893) is on Gallica as bpt6k1523532j (full text,
-blocks scripts: texteBrut returns HTTP 500), in the Service historique de la Défense digital library
-(bibliotheques-numeriques.defense.gouv.fr/shd/document/f75ccee8-7f65-4f31-b513-91f7e0efbe97, connection refused to scripts),
-and as a scanned OCR PDF posted by a Bibm@th forum member at bribes.org/crypto/Burgaud_et_Bazeries_Le_Masque_de_Fer.pdf
-(HTTP 403 to scripts). Pages 19, 57 and 272 are the ones to read by hand: Tomokiyo says p. 272 claims the decipherment of
-this letter and p. 57 says nobody had read it, so the book may hold more of the content than he reported.
+**Bazeries' book, read (2026-09-15, Gallica PDF bpt6k1523532j supplied by Daniel; OCR text in `masque_de_fer_1893.txt`).**
+Burgaud and Bazeries, *Le Masque de fer* (1893) settle two points and print nothing usable. P. 37: among the
+undeciphered despatches in the Catinat papers is "une du marquis de Feuquières, portant la date du 25 janvier 1691,
+dont ni l'auteur, ni personne depuis n'a pu donner la traduction" (i.e. the 1819 editor and everyone since). P. 272,
+note 1: "La dépêche de Feuquières à Catinat du 25 janvier 1691, relative à Veillane, était composée avec le petit
+chiffre. Le déchiffrement de cette dépêche par le commandant Bazeries a en même temps permis de constater que le petit
+chiffre de 1691 ne comportait que 367 groupes alors que le grand en employait 587." The petit chiffre was thus the
+garrison-commanders' companion of the Grand Chiffre (p. 272: "spécialement affecté à la correspondance avec les
+gouverneurs, intendants, commandants de place"), **367 groups**, which matches the observed maximum of 366. The annex
+prints only the Grand Chiffre tables (pp. 273 ff.); no petit-chiffre table and no word of the letter's plaintext
+appear anywhere in the 338 pages (searched for Feuquières, Pignerol, Veillane, petit chiffre, 25 janvier). So the
+book confirms the reading existed and leaves it where Tomokiyo said: in Bazeries' papers. Those would be at the
+Service historique de la Défense (Vincennes), either among his own papers or as pencil decodes on the Catinat
+volumes he worked from (Archives du dépôt de la guerre, vols. 1032-1099 are the ones the book cites).
 
 Also checked and negative: no clear copy or paraphrase of the letter anywhere in the three volumes of the 1819
 Mémoires (full OCR searched for Veillane, Feuquières, chiffre); the 1845 Lettres inédites print Catinat's side of the
@@ -95,4 +103,5 @@ exchange (12 and 19 Jan) but no Feuquières letter of January 1691; Bazeries' pa
 | `control_plain.txt`, `make_control.py`, `control.txt`, `control_key.txt` | matched synthetic control |
 | `solver.py` | the solver (n-gram objective) |
 | `run_real_*.txt`, `sweep_control.txt`, `seed_test.txt`, `solver_w.py`, `sweep_control.py`, `seed_test.py` | run logs and the two calibration harnesses |
+| `masque_de_fer_1893.txt` | OCR text of Burgaud and Bazeries 1893, from the Gallica PDF (PDF itself not tracked) |
 | `catinat1702_1.txt` | Tomokiyo's frequency table of the 1702 Catinat letter (43 % of 591 tokens below 100, 50 low groups: the same design) |
