@@ -346,3 +346,12 @@ segur/probe/
 segur/crops/
 segur/manifest.json
 segur/henryiii.htm
+# gallica siblings (2026-09-16): page images, thumbnails, contact sheets; keep Tomokiyo's key images, articles, manifests
+gallica_siblings/src/*_full/
+gallica_siblings/src/*_thumbs/
+gallica_siblings/src/*_sheet/
+gallica_siblings/src/*.xml
+joyeuse/img/
+joyeuse/lines/
+cocquet/img/
+cocquet/lines/

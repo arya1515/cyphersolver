@@ -1,0 +1,354 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		
+		
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+
+        <title>Présentation des résultats</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+		<link type="text/css" rel="stylesheet"	href="/bootstrap-3.2.0/css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet"	href="/css/pictos/pictos.css" />
+		<link type="text/css" rel="stylesheet"	href="/css/common.css" />
+		<link type="text/css" rel="stylesheet"	href="/css/pageResultatsRechercheAvancee.css" />
+		
+		
+		<script language="javascript" type="text/javascript"	src="/js/jquery-2.2.1.min.js"></script>
+		<script language="javascript" type="text/javascript"	src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"	src="/js/common.js"></script>
+		<script language="javascript" type="text/javascript"	src="/js/rechercheSimple.js"></script>
+
+    </head>
+    <body>
+        <!-- ENTETE -->
+        <div id="header">
+            
+
+
+
+<div class="topbar">
+	<div class="container-fluid"
+	
+	>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a target="_blank" href="https://www.bnf.fr" class="logo"
+					onclick="return xt_click(this,'C','14','CommunBam::clickLogoBnf','N')"><img src="/img/logoBnf.gif" alt="BnF"/></a>
+				<a href="https://archivesetmanuscrits.bnf.fr/" class="titreSite"
+				
+					onclick="return xt_click(this,'C','14','CommunBam::clickArchivesEtManuscrits','N')">Archives et manuscrits</a>
+				
+			</div>
+			
+			<div class="col-md-6 text-right">
+
+				
+				<div class="menuGeneral">
+					
+					<a href="/pageAccueil.html#idActualites" class="actus btn btn-default"
+						onclick="return xt_click(this,'C','14','CommunBam::clickActus','N')"><b></b>Actualités</a></b>
+					
+					<a href="https://www.bnf.fr/fr/outils/a.ecrire.html" class="question" target="_blank"
+						onclick="return xt_click(this,'C','14','CommunBam::clickUneQuestion','N')">Une question ?</a>
+					
+				</div>
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="bamModal">
+
+	<!-- Modal HTML -->
+	<div id="BamWaitModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					<h3 class="modal-title">Recherche en cours</h3>
+				</div>
+				<div class="modal-body">
+					<p>Vous avez lancé une recherche. Le résultat s'affichera dans un instant.</p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+            
+
+
+
+
+
+
+
+
+
+<div class="searchbar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Formulaire de recherche -->
+				<div class="formulaire">
+					<form id="idFormHeader" accept-charset="UTF-8" method="POST">
+						
+						<input type="text" id="TEXTE_LIBRE_ID1" name="TEXTE_LIBRE_INPUT" title="Entrer les termes de la recherche">
+						<div class="dropdown dropDownTypeSelect">
+							<button id="dLabel2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tous documents
+								<span class="pictos caret"><i class="icon-caret" data-icon="&#xe60f;"></i></span>
+							</button>
+							<input id="TypeDocId" type="hidden" name="DOC_NUMERISE_INPUT_RADIO" value="all_docs"/>
+							<ul class="dropdown-menu" aria-labelledby="dLabel2">
+								<li><a id="all_docs" href="#">Tous documents</a></li>
+								<li><a id="docs_numerises" href="#">Documents numérisés</a></li>
+							</ul>
+						</div>
+						<button type="submit" class="btn btn-primary pictos" onclick="clickRechercheSimple();"><i class="icon-search" title="Lancer la recherche" data-icon="&#xe609;"></i></button>
+					</form>
+				</div>
+				<a href="/pageRechercheAvancee.html?reset=reset" class="btn btn-default">Recherche avancée</a>
+				<a href="/pageCollections.html" class="btn btn-primary" style="margin-right: 0px;">Collections</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Fil d'Ariane -->
+<div class="ariane">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><a href="/pageAccueil.html">Accueil</a>
+			<a href="/pageRechercheAvancee.html?reset=reset">Recherche avancée</a>
+			
+				<a href="#" class="active">Liste de résultats</a>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+        </div>
+        
+        <div id="body">
+            <div class="container">
+<!--                 <div class="row"> -->
+<!--                     <div class="col-md-12"> -->
+<!--                         Titre 1 -->
+
+<!--                     </div> -->
+<!--                 </div> -->
+
+                
+                <div class="paginationBam hautPaginationBam">
+	                <div class="text-left" style="float:left;">Aucun résultat</div>
+	                <div class="text-right" style="display: inline-block;"></div>
+	            </div>
+                
+
+                
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="blocBlanc recapRecherche">
+                            <h2>Votre recherche</h2>
+                            <div class="facettesListe">
+								
+							</div>
+						
+
+						<div class="boutons">
+
+								
+                                
+                                	<a href="pageRechercheAvancee.html" class="btn btn-primary">Modifier la recherche</a>
+                                
+                            </div>
+                        </div>
+                        
+                       
+                       
+						
+                        
+                         <div class="blocBlanc facettes">
+                            <h2>Affiner</h2>
+                            <div class="panel-group" role="tablist" aria-multiselectable="true">
+							
+
+							ERREUR RESULTATS
+
+						</div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="col-md-9">
+                        
+
+
+							ERREUR RESULTATS
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+	<div id="footer" class="footerHome">
+		
+
+
+
+
+
+
+
+<div class="menuFooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<a href="/conditionsUtilisation.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickContionsUtilisation','N')">Conditions d'utilisation</a>
+				
+					
+				| <a href="/aPropos.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickAPropos','N')">À propos</a>
+				| <a class="ext" href="http://www.bnf.fr/fr/outils/a.ecrire.html" target="_blank"
+					onclick="return xt_click(this,'C','14','CommunBam::clickEcrireALaBnf','N')">Écrire à la BnF</a>
+				|
+
+				 <span>v 11.1.0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	
+	
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+    <script async type="text/javascript" src="https://tarteaucitron.io/load.js?domain=archivesetmanuscrits.bnf.fr&uuid=91ba7c974c752a888f0a2765181efcbea3a33ef9"></script>
+
+<!-- Initialisation de XITI et tarte au citron	-->
+    <script defer>
+        function whenAvailable(name, callback) {
+            const interval = 10; // ms
+            window.setTimeout(function() {
+                if (window[name]) {
+                    callback(window[name]);
+                }else{
+                    whenAvailable(name, callback);
+                }
+            }, interval);
+        }
+
+        whenAvailable("tarteaucitron", function(t) {
+            let title = "RechercheBam::ResultatRechercheAvanceeBam";
+            const lv2 = "14"; // level 2 site 
+            tarteaucitron.user.atLibUrl= "https://tag.aticdn.net/18798/smarttag.js" ;
+            tarteaucitron.user.atinternetSendData=false;
+            tarteaucitron.user.atMore = function () {
+                const tag = new ATInternet.Tracker.Tag();
+                tag.page.set({
+                    name: title,
+                    level2:lv2,
+                });
+                tag.dispatch();
+            };
+            (tarteaucitron.job = tarteaucitron.job ||[]).push('atinternet');
+        });
+    </script>
+
+
+		
+	
+
+	</div>
+
+
+	
+	
+	
+	
+<script type="text/javascript" language="javascript">
+
+function envoiStat(){
+	var stat = '';
+	stat = 'RecBam::Sel::' + stat;
+	xt_click(this,'C','14',stat,'N');
+}
+
+jQuery(document).ready(function() {
+
+	/* fonctionnement facettes resultats de recherche */
+	if (jQuery('.facettes .panel-group .panel-collapse .seeMore button').size()>0) {
+		jQuery(document).on('click','.facettes .panel-group .panel-collapse .seeMore button', function(e) {
+			jQuery(this).hide();
+		});
+	}
+
+	/* Dropdown façon select */
+    jQuery(document).on('click','.dropDownTypeSelect ul a',function(e) {
+        e.preventDefault();
+        var button = jQuery(this).parents('.dropDownTypeSelect').find('button');
+        var input = jQuery(this).parents('.dropDownTypeSelect').find('input');
+        if('TypeDocId'== input.attr('id')){
+        	input.attr("value",jQuery(this).attr('id'));
+        }else{
+        	var url = jQuery(this).attr('href');
+            $(location).attr('href',url);
+        }
+        button.html(jQuery(this).html()+' <span class="pictos caret"><i class="icon-caret" data-icon="&#xe60f;"></i></span>');
+    });
+	
+	/**	Pour selection la facet trouvée en tant que	**/
+	jQuery(document).on('click','.facetTrouveEntantQueFonctions li a',function(e) {
+		e.preventDefault();
+		var lien = jQuery(this).attr('href');
+		var url = jQuery(this).parents('.facetTrouveEntantQueFonctions').find('input').val();
+		$(location).attr('href',url+lien);
+	});
+
+	envoiStat();
+
+});
+
+</script>
+
+</body>
+
+</html>
