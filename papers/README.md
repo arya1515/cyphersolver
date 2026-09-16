@@ -47,6 +47,13 @@ submission-ready now. *Cryptologia* remains the right home for a longer version 
   as far as I could establish.\*
 - Preprint policy: T&F allows author's original manuscript on a personal site or preprint server.\*
 
+## Cryptologia submission (first to go): `cryptologia/`
+
+The Armstrong 1808 paper was reformatted on 2026-09-16 for *Cryptologia* in the Taylor & Francis Interact template
+(anonymised main document, separate title page, cover letter, figures, 607-entry appendix table). See
+[`cryptologia/README.md`](cryptologia/README.md) for the file list, the confirmed rights statements and the open
+items. The HistoCrypt version `histocrypt/armstrong1808.tex` is superseded and should not be submitted to both venues.
+
 ## The drafts
 
 | File | Track | Subject | Draft length |

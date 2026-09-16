@@ -371,3 +371,7 @@ cocquet/lines/
 segur/sweep/
 segur/sheets/
 segur/crops321/
+
+# armstrong: full-roll thumbnails (513 MB, regenerate with fetch_and_score.py)
+armstrong/img13/thumbs/
+armstrong/fetch_and_score.log

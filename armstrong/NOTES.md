@@ -153,3 +153,17 @@ Founders page for 20 Feb 1808 also opens with a clear "The", which any solution 
 Not checked: the roll-14 images of the letter itself (naId 188671566, objects 29-32; not fetched), so the Founders
 group list stands unverified against the manuscript; the frames 0011-0289 were skimmed for value range and pencil, not
 read group by group.
+
+## Pencil score retested over the whole roll (2026-09-16, paper preparation)
+
+The claim above that `pencil_score.py` "located" frames 0192-0201 does not hold when the score is rerun over all
+393 frames (`fetch_and_score.py`, results in `pencil_ranking.tsv`; 392 fetched, 0003 failed). The raw score is
+dominated by grey blank leaves and bleed-through: 73 frames score above 0192 and 94 above 0200; the annotated
+frames rank 55-110 and 286-306 of 392. Even within the 39 frames first downloaded, 0192 ranks sixth. Variants
+(`score_variants.py`, `score_variants.tsv`): grey relative to page background, bright pages only, puts 0149 (the
+4 May 1806 letter, which carries its own pencil decode) second and 0192 ninth; restricting to the interlinear band
+within 20 px of ink puts 0192 third of 392; but 0196-0201 stay in the bottom third under every variant. So the score
+can find the first, densely annotated page of a decoded despatch and nothing more. The Cryptologia draft
+(`papers/cryptologia/armstrong1808.tex` section 4.2) says so; the HistoCrypt draft and `docs/armstrong.html` still
+carry the older wording and need the same correction. Frames the band score ranks high and that have not been read:
+0147 (a copy letter in clear with bleed-through, false positive on inspection), 0029, 0264, 0302, 0186, 0061, 0117.
