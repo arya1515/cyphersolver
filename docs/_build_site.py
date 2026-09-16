@@ -11,7 +11,7 @@ blocks whose rules now live in style.css. On index.html it also regenerates the 
 """
 import re, pathlib, html
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260916b'
+VERSION = '20260916c'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -139,33 +139,6 @@ def card_html(p):
             f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span><span class="st {p["st"]}">{p["stt"]}</span></div>\n'
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
 
-SHOWCASE = ['richelieu', 'armstrong', 'sunyatsen', 'ormonde', 'huangxing']   # rotating hero cards, in order
-
-def showcase_html():
-    """Rotating hero cards for the solved items, one visible at a time (site.js rotates; CSS stacks them)."""
-    out = ['<!-- showcase:start -->',
-           '<section class="showcase" aria-roledescription="carousel" aria-label="Solved ciphers">',
-           '  <div class="sc-head"><span class="kicker">Solved here</span>'
-           '<div class="sc-ctl"><button type="button" class="sc-prev" aria-label="Previous">&larr;</button>'
-           '<span class="sc-dots" role="tablist"></span>'
-           '<button type="button" class="sc-next" aria-label="Next">&rarr;</button>'
-           '<button type="button" class="sc-pause" aria-label="Pause rotation" aria-pressed="false">&#10074;&#10074;</button></div></div>',
-           '  <div class="sc-track">']
-    for i, slug in enumerate(SHOWCASE):
-        p = next(p for p in PAGES if p['slug'] == slug)
-        im = IMAGES.get(slug)
-        thumb = f'      <img class="sc-img" src="{im[0]}" alt="{im[1]}" loading="{"eager" if i == 0 else "lazy"}">\n' if im else '      <div class="sc-img sc-noimg" aria-hidden="true"></div>\n'
-        out.append(f'    <article class="sc-slide{" on" if i == 0 else ""}" role="group" aria-roledescription="slide" aria-label="{i+1} of {len(SHOWCASE)}"{"" if i == 0 else " hidden"}>\n' + thumb +
-                   f'      <div class="sc-body">\n'
-                   f'        <div class="eyebrow"><span class="st {p["st"]}">{p["stt"]}</span><span>{p["place"]} &middot; {p["year"]}</span></div>\n'
-                   f'        <h2><a href="{slug}.html">{p["title"]}</a></h2>\n'
-                   f'        <p>{p["blurb"]}</p>\n'
-                   f'        <p class="quote">{p["quote"]}</p>\n'
-                   f'        <a class="sc-go" href="{slug}.html">read the write-up &rarr;</a>\n'
-                   f'      </div>\n    </article>')
-    out += ['  </div>', '</section>', '<!-- showcase:end -->']
-    return '\n'.join(out)
-
 SHARED_INLINE = ('.why', '.w-yes', '.w-no', '.w-lang', '.w-otp', '.w-short', '.w-fake', '.w-open', '.item', '.item h3', '.item .meta2', '.ct', '.callout', '.callout h3', '.tw')
 
 def process(path):
@@ -225,8 +198,6 @@ def process(path):
         rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span><span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
         cards = ('<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in feat) + '</div>\n'
                  '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n<!-- cards:end -->')
-        if '<!-- showcase:start -->' in s:
-            s = re.sub(r'<!-- showcase:start -->.*?<!-- showcase:end -->', lambda m: showcase_html(), s, flags=re.S)
         if '<!-- cards:start -->' in s:
             s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
         else:
