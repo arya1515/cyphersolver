@@ -1,0 +1,38 @@
+DECODE R1408 - Di Varsouia 24 Xbre 1627 - reading of 2026-09-16 from Tomokiyo's transcription (variable2.htm)
+
+Raw decode (nulls a m dropped; letter pairs, syllables and codes substituted; codes in brackets):
+
+miricordochefralialtrihonoriche{12}miffeceinnicolspurgmiconfidodhauerdatointentioneaquestaseerenissima
+[100] [113] deuolerconferireuncanonicatodolmizadunodeli [123] suoifiglihauendoio{03}saputoin [160] corteche
+taluolontadi [120] none [151] statamessainessecutionesi [154] desiderano [157] questemaestahostmatooficio
+dedeuotoseruitore [154] iolesonodisuplicarla [154] foauolerfareffetuare [160] [223] [159] prima{04}sidegni
+darnesubitoamebenignarisposta
+
+Word-divided, spelling as enciphered:
+
+Mi ricordo che, fra li altri honori che {12} mi f(f)ece in Nicolspurg, mi confido d'hauer dato intentione a
+questa Se(e)renissima [100] [113] de uoler conferire un canonicato d'Olmiz ad uno de li [123] suoi figli;
+hauendo io {03} saputo in [160] corte che tal uolonta di [120] non e [151] stata messa in essecutione, si
+[154] desiderano [157] queste Maesta, ho st(i)mato oficio de deuoto seruitore, [154] io le sono, di
+suplicarla, [154] fo, a uoler far effetuare [160] [223] [159], prima {04} si degni darne subito a me
+benigna risposta.
+
+Codes and unread groups (glosses are inferences from context, not readings):
+  [100] [113]  after "questa Serenissima"          -> the Queen (Regina) + a second title word?
+  [123]        "ad uno de li [123] suoi figli"      -> Serenissimi?
+  [160]        "in [160] corte", "effetuare [160]"  -> questa (fits both places)
+  [120]        "tal uolonta di [120]"               -> the addressee's title (V.S. Ill.ma?)
+  [151]        "non e [151] stata"                  -> ancora?
+  [154] x3     "si [154] desiderano", "[154] io le sono", "suplicarla [154] fo" -> come (fits all three)
+  [157]        "desiderano [157] queste Maesta"     -> adverb (sommamente? ambedue?)
+  [223] [159]  "effetuare [160] [223] [159]"        -> object of the request (questa ... sua ... gratia/promessa?)
+  {12}         "che {12} mi fece"                   -> subject, an honorific for the addressee (V.S.?)
+  {03}         "hauendo io {03} saputo"             -> adverb (poi? gia? hora?)
+  {04}         "prima {04} si degni"                -> conjunction (o? et?)
+
+English (working translation):
+I recall that, among the other honours that [Your Lordship] did me at Nikolsburg, I am confident I gave this
+Most Serene [Queen] to understand that [you] would confer a canonry of Olmütz on one of [her] sons. Having
+[since] learned at [this] court that that intention of [Your Lordship's] has not [yet] been carried out, as
+these Majesties desire, I have judged it the duty of a devoted servant, such as I am to her, to beg you, as I
+do, to see [this ...] carried into effect, [or] first to deign to give me at once a kind answer about it.
