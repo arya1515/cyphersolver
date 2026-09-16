@@ -299,3 +299,26 @@ lucca/it5.npy
 # ducroc: corpus and derived tables (regenerate with ducroc/lm.py)
 ducroc/corpus/
 ducroc/*.npy
+# birago: Gallica page images and crops, n-gram tables, corpora, controls, run logs (regenerate with ng5it.py / control*.py)
+birago/pages/
+birago/dl_*
+birago/*.jpg
+birago/*.npy
+birago/*.log
+birago/*.htm
+birago/*.html
+birago/corpus_clean.txt
+birago/control*.txt
+birago/cpair*.txt
+birago/L[1-7]_*.png
+birago/line*.png
+birago/mark_*.png
+birago/zoom_*.png
+birago/cipher_strip*.png
+birago/v40_*.png
+birago/v83_*.png
+birago/v28_*.png
+birago/par_*.json
+birago/refined_*.json
+birago/done_scans.txt
+birago/__pycache__/

@@ -1,0 +1,92 @@
+# Lodovico Birago to the Duke of Nevers, Saluzzo, 13 November 1571 (BnF fr. 3251 f. 119) — numeric cipher paragraph
+
+Tomokiyo's unsolved list ("Lodovico Birago to Duke of Nevers (1571)"); his 2024 blog post calls it a candidate
+variable-length figure cipher and says "once the continuous stream of figures can be broken into tokens, homophonic
+solvers may readily decipher this". No comments on the post, no GitHub prior art (checked 2026-09-16).
+
+## Sources in hand
+- Gallica `ark:/12148/btv1b9060248g`, view f120 = f.119r (letter, cipher paragraph at foot), f121 = f.119v (close,
+  date "Da Saluzzo li 13 di Novembre 1571", signature; recto f.120 is a notarial act about Carmagnola). IIIF full-size
+  images fetched with a browser UA (`pages/`, `dl_native.jpg`), 8521 x 5849 px for the opening.
+- Sibling letters: f.27 (view 28) and f.39 (view 40), 1570, Ceppo-Nevers symbol cipher with interlinear decipherment;
+  f.82 (view 83), March 1571, same symbol cipher; f.138, f.178 (views 139, 179), 1572, Nevers-Birago symbol cipher.
+  None numeric, so Tomokiyo's reconstructed keys (`keys/`) do not apply; the 1572 key has two-digit code numbers
+  85 Carmagnola, 86 Turino, 89 Bugonotti.
+
+## Ciphertext (`ct.txt`), checked glyph by glyph against the page
+482 digits, 15 letters (n x7, f, m, a x2, c, l), 22 marked two-digit groups. Tomokiyo's inline "+" signs are in fact
+superscript crosses over the following digits, i.e. a fourth diacritic class beside the wavy "÷", the bar and the
+two dots. Marked groups (mark, digits): %76 -59 -20 :05 :36 :41 %29 :41 :25 -43 %39 %39 +98 %40 +44 %15 %39 +74
++81 +21 %05 :12 %76 (% = wavy, - = bar, : = dots, + = cross). The paragraph opens and closes with %76.
+Digit counts: 0 75, 1 62, 2 41, 3 37, 4 74, 5 64, 6 5, 7 7, 8 49, 9 68. Six and seven occur almost only inside
+marked groups. One extra mark ("oo" over the 2 of the opening 762) has no counterpart in Tomokiyo's transcription.
+
+## Context from the clear text
+Birago (lieutenant-general beyond the mountains, at Saluzzo) writes about the King's order to send his cavalry to
+Carmagnola, the governor there (Monsr di Bellagarda), the captain La Valletta, the Marmaglia relation, the syndics,
+the King and Queen [mother], and his own reputation; the cipher paragraph follows "...che di perdere sono de la mia
+reputatione" and precedes "La supplico a tenermi in sua buona gratia".
+
+## Glyph-level transcription (`ct2.txt`, 2026-09-16, from the 8521-px Gallica image at 2-3x)
+Corrections to Tomokiyo: (1) the wavy sign "÷" is a standalone inline character, 9 occurrences (opens and closes the
+paragraph; internal 7); (2) the dots, bars and crosses sit over single digits, 16 marked digits in all
+(2~ 5- 2- 0: 8- 3. 6. 4. 4. 2. 8+ 4+ 7+ 8+ 2+ 2.), not over pairs; two of them (8- in line 1, 2. in line 7) he did not
+record and his "¨12" in line 7 does not exist; (3) the dotted "i" glyph is a variant of the figure 1 (five cases,
+each followed by 5 or 1, forming the commonest pairs 15 and 11); one such 1 is missing from his line 3 after the dotted
+2. Total 483 digits, 15 null letters (n f m a c l), 9 wavy signs.
+
+## Structure tests (all with matched synthetic controls)
+1. Prefix-code scan (two-digit tokens begin with a digit set S, optional X0 tokens, 1xx tokens; letters as nulls or as
+   symbols; Italian and French 5-gram models with a unigram penalty): on three controls the true rule is the top score
+   with a full reading (-1.6 to -1.8 per 5-gram window); on the target the best rule scores -2.24 to -2.35 and reads
+   nothing. Suffix codes (right-to-left) likewise: control true rule -1.55 at top; target best -2.51. Excluded.
+2. Uniform two-digit tokens: with letters as separators between tokens, 20 of 33 digit runs are odd; excluded. With
+   letters dropped (nulls inserted anywhere), the wavy sign inline, and each marked digit heading a code group of one
+   or two digits, a dynamic program finds exactly 75 pairings in which every letter run is even; they differ only in
+   the spans of the 16 code groups. With the wavy sign as a grid boundary, or with three-digit groups, none or
+   millions. Pair IC of the resulting 228 tokens over 62 symbols is 0.020-0.023 against a shuffled null of
+   0.018-0.020: weakly consistent with a heavily homophonic two-digit alphabet of the kind in Nevers keys no. 19-20
+   (1588-89: two-digit letters with vowel homophones, figures for words).
+3. Joint segmentation+key annealer: fails its own control (-1.88 vs true -1.55); discarded.
+4. Readability at this size: profile-matched controls (228 tokens, 54-62 symbols, 16 code groups, 9 inline signs)
+   have true-key scores of -1.67/-1.75, but 6 restarts x 200k iterations find only false optima at -1.84/-1.88
+   (7-11% letters right). The target's best pairings score -1.84 to -1.97: the same false-optimum band. So far the
+   solver, not the text, is the limit.
+
+## Solve attempts on the two-digit design (`pairings.json`, `par.py`, `refine_words.py`)
+Annealer: Italian 5-gram (fixed-weight interpolation of add-k tables, orders 5 to 1, Roman numerals and k/w/x/y/j
+words stripped from the Nuntiaturberichte corpus), unigram chi-square penalty 0.3, moves: single reassignment,
+symbol swap, letter-level swap, and a Gibbs resample of one symbol; windows never span a code group or the wavy sign.
+Validated: it reads the prefix-rule controls at 20-37 symbols every time (99-100%), and 1 of 3 two-digit controls at
+40 symbols / 215 tokens (98%).
+
+| run | restarts x iters | matched control (true score) | control found | target best |
+|---|---|---|---|---|
+| 6 x 200k | | -1.67 / -1.75 | -1.84 / -1.88 (7-11% right) | -1.84 to -1.97 over 16 pairings |
+| 20 x 400k | | -1.67 / -1.75 | -1.79 / -1.86 (14-16%) | -1.85 / -1.88 (pairings 0, 4) |
+| 120 x 400k, 14 cores | | -1.67 | -1.80 (14%) | -1.84 (pairing 0) |
+| + word-segmentation hill-climb (30,000-word list) | | | -1.83, fluent-looking junk, 10-14% | not run: no better on the control |
+| symbol-cap penalty (vowels <= 8 symbols, consonants <= 3) | 12 x 300k | -1.67 / -1.75 | 11-15% | |
+| 18 hapax symbols treated as code groups (44 letter symbols) | 120 x 400k | -1.70 / -1.74 | -1.83 (12%); **-1.70 (7%) on control 1, i.e. a wrong key outscores the true key** | -1.81 |
+
+The target's best scores fall exactly in the band of the controls' false optima, and no restart's decrypt reads as
+Italian; the recurrent fragments in the top target decrypts (sua santi-, -esiastate-, -ionessoreett-) are the language
+model's own attractors and appear in the control junk too. Sukhotin vowel separation is at chance (27-67% token-weighted)
+on the matched controls under this much homophony, so it cannot constrain the search.
+
+## Verdict (2026-09-16): structure narrowed, not read
+- Not a variable-length prefix or suffix figure code with null letters between tokens (control-validated scans, Italian
+  and French). Not readable as one symbol per glyph (IC 0.127 for 483 digits).
+- Consistent with the design of Birago's own circle: two-digit figures for letters with heavy vowel homophony, marked
+  figures (bar, dots, cross) of one or two digits for names or words, the wavy sign as an inline word-sign, and the six
+  letters as nulls placed anywhere. Exactly 75 pairings satisfy the even-run constraint; they share the same 228 letter
+  tokens over 62 symbols (18 hapax) and differ only in the 16 code-group spans.
+- At 228 tokens over 62 symbols the ciphertext-only annealer fails its own matched controls (best-of-120 restarts 0.13
+  per window short of the true key, 14% letters right), and on one hapax-reduced control a wrong key outscores the true
+  key (-1.70 vs -1.74, 7% right): the text is below the unicity distance of a 5-gram model at this homophony, so the
+  target's negative says nothing about its content. Same regime as Moray (134 tokens / 32 symbols) and SP 53.
+- What would read it: a second Birago letter in the same figure cipher (the other Saluzzo letters of late 1571 in
+  fr. 3251 and the Nevers papers in fr. 3252-3253, 3974-3994 are the place to look), or the key itself in the Nevers
+  cipher collections (BnF fr. 3995 has none this early), or a crib: the paragraph follows a passage about the King,
+  Bellegarde and the Carmagnola cavalry, so the code groups likely include il Re, la Regina, Bellagarda, Carmagnola,
+  Savoia; a crib-constrained anneal is the next cheap step once any code group is fixed.

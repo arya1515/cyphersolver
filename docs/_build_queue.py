@@ -34,11 +34,13 @@ LIVE = [
      "not yet attempted."),
 
     ("Lodovico Birago to the Duke of Nevers, the numerical paragraph", "1571",
-     "https://gallica.bnf.fr/ark:/12148/btv1b9060248g/f120.item", "", "partial", "md", "medium",
-     "BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian. The rest of Birago's letters read with keys Tomokiyo rebuilt from deciphered siblings, "
-     "but one paragraph is in a different cipher: a <b>continuous stream of about 530 digits</b> with diacritics over some of them, transcribed on the "
-     "page and imaged on Gallica. The problem is segmentation into one-, two- and three-digit units before any substitution can be scored, the same "
-     "step that beat the Vatican letter here. The Italian plaintext and the known sibling keys give the vocabulary. Added September 2026, not yet attempted."),
+     "https://github.com/dbourdeau/cyphersolver/blob/main/birago/NOTES.md", "", "low", "lo", "done",
+     "BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted September 2026.</b> "
+     "The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen digits carrying a dot, bar or cross, nine wavy signs written inline, six null letters. "
+     "Every variable-length design (two-digit figures announced by their first or last digit, 1xx codes) was excluded with scans that recover the true rule on matched controls. "
+     "What fits is the design of the Nevers Italian keys of 1588&ndash;89: two-digit figures for letters with heavy vowel homophony, marked figures of one or two digits for names, "
+     "and nulls anywhere; exactly 75 pairings satisfy it, all with the same 228 letter tokens over 62 symbols. At that homophony and length the annealer cannot read even its own "
+     "matched controls (14% right after 120 restarts), and the target scores in the same band, so the limit is the method. A second letter in the cipher, or one fixed code group, is what would open it."),
 
     ("Armstrong to Madison, 20 February 1808: the disputed contest solution", "1808",
      "armstrong.html", "", "adjudication", "md", "medium",
