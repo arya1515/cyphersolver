@@ -119,3 +119,11 @@ unicity distance of the available models at this homophony, and no key, sibling 
 - **Slow annealing** (`slow.py`): 4,000,000 steps per restart, T 8 to 0.05, three seeds each on the 54-symbol control and on
   the target's best pairing. Control: -1.85 to -1.91 per window, 6-25% letters right (true key -1.67). Target: -1.91 to
   -1.97. Cooling rate is not the limit either.
+- **Polyphonic single figures** (`poly.py`, `poly_control.py`): the alternative that the single-digit IC (0.127) allows,
+  each figure standing for two or three letters as in Lucca 1644, with a marked figure as a doubled letter (16 marks
+  against about 17 expected geminates in 480 letters of Italian), the wavy sign as a break and the six letters as nulls.
+  Letter-to-figure assignment annealed under a trigram Viterbi decode, then 5-gram rescoring. Matched control (496
+  letters, 10 figures, target's digit profile): three of three seeds return the same key, 9 of 10 figures right, -1.84
+  trigram / -1.91 5-gram per letter, decode readable. Target: -2.07 to -2.28 per letter under every convention
+  (letters as nulls or as clear letters; marks as doubling, as separate symbols or as plain figures; wavy sign as break
+  or as symbol), keys differing between seeds, nothing readable. Excluded.
