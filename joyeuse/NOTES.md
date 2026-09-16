@@ -76,6 +76,25 @@ predict. **Not solved; closed against controls.**
   (n, o, ρ, φ, ʒ, ¬, ⊤, ≠ …) are again unmarked.
 - Nevers-collection and Viète-volume keys on cryptiana: none is a marked-symbol cipher of this shape.
 
+## Sibling search in the volume (after the attack)
+
+The other original letters of the same week were checked on the Gallica images (canvases 540-562, recto crops in
+`../gallica_siblings/src/colbert33_mid/view/`): f. 535 Mercier to Joyeuse, f. 541-543 (news-letter in French, an Italian
+letter of 14 Feb 1594), f. 544 Joyeuse to Montpezat, f. 546 Montpezat to Joyeuse (Madrid, 13 Feb: "vous verrez par le
+chiffre ce qui se passe"), f. 551 Joyeuse to the Archbishop of Lyon. All in clear.
+
+**f. 553, Joyeuse to the duc de Joyeuse, "de Rome ce 15 fevrier" (canvas 560, verso on 561)** is the one sibling with
+cipher: four short insertions inside clear French about the Villars truce ("la tresve n'estoit point encor signee le 20 de
+janvier"): *"la [sign] perisette ij^c xiiij"*, *"a quelque prix que ce soit pb 7lgtc2a2 de peur que faisant autrement
+ij^c 12 et ij^c xuu ne prennent occasion de vous courir sus"*. The spelled group is in letters and digits, not the symbol
+alphabet of f. 539, so it is a different (or the duke's own) spelling cipher; the numbers are written as hundreds in
+Roman numerals plus units ("ij c xiiij" = 214?), a form that suggests a shared numeric nomenclature of the Rome office
+in the 100-300 range, where f. 539's 152, 174, 184, 196, 199, 209, 223 also sit. f. 539's opening `xiiij` is a bare
+Roman 14 after "sinon que" (checked: no "ij c" precedes it), so the cross-reference is suggestive only. No decipherment
+is attached to either letter. The verso of f. 553 mentions a separate "petit billet en chiffre", not found in the volume.
+
+Net: a sibling for the nomenclature layer, no key, and no additional symbol-alphabet text. Verdict unchanged.
+
 ## Verdict
 
 Not solved. 358 tokens of a three-layer design (80-sign homophonic alphabet, 50-sign marked syllabary, numeric
@@ -96,5 +115,5 @@ volume (the volume is "despatches deciphered by Viète" — f. 539 is an origina
 
 Checked: canvas identification, clear text, glyph transcription (one pass), layer counts, shape comparison with the f. 555
 and f. 530 keys, three matched controls, six target seeds. Not checked: the transcription against a second reader; whether
-`par`/`til`/`dd` are nulls; whether other Joyeuse letters of 1594 in the same cipher exist on Gallica. User must verify:
+`par`/`til`/`dd` are nulls; other Joyeuse letters of 1594 outside this volume (fr. 3623-3625). User must verify:
 the transcription before any later work builds on it.
