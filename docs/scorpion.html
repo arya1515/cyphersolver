@@ -140,7 +140,18 @@
 
 <p>Genuine English sits near &minus;1.6 on this model, and so do the annealer&rsquo;s false solutions, because that score is what the annealer maximises. The claimed texts sit 1.0 to 1.2 nats per letter lower, which means the model finds each letter roughly three times less likely than in ordinary English. Proper names and the spelling &ldquo;cofee&rdquo; cost part of that; word choice costs the rest. Dictionary coverage does not separate the three texts. So the claimed reading is less English-like than what a blind search produces on a control, and it fails the equality test once in each cipher on a securely read symbol. Neither fact says what the plaintext is. The unicity arithmetic says that nothing in the ciphertext can.</p>
 
-<!-- ALTERNATIVES -->
+<p>Constructively: <code>alternatives.py</code> fills S1 with real English words under exactly the same-symbol-same-letter rule
+(beam search over a Gutenberg vocabulary, word-frequency scoring). The first alternatives it returns, and their scores under the
+same 5-gram letter model used above:</p>
+<table>
+<tr><th>alternative reading of S1 (70 letters, every repeat honoured)</th><th class="n">nats / letter</th></tr>
+<tr><td>to the whale and in the whale and the whale and the through the highly a lay of jonah her</td><td class="n">&minus;1.32</td></tr>
+<tr><td>to the whale and of the whale and the whale and the in which the highly a lay of the ah her</td><td class="n">&minus;1.59</td></tr>
+<tr><td>the 2018 claim: a picture in collection of people bagel bobs old dairy frothy late cofee pour action</td><td class="n">&minus;2.74</td></tr>
+</table>
+<p>They are nonsense, they are English, and they fit the ciphertext at least as well as the claim. The corpus bias (Moby Dick) is
+visible and beside the point: any English word list yields such fillings. The S5 run was still in progress when this page was
+built; its output goes to <code>scorpion/results_alternatives.txt</code>.</p>
 
 <h2 id="status"><span class="num">05</span> Status, and what would change it</h2>
 
