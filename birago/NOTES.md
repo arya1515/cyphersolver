@@ -111,3 +111,8 @@ on the matched controls under this much homophony, so it cannot constrain the se
 
 **Final state: not solved.** Design identified and transcription corrected; the ciphertext-only attack is below the
 unicity distance of the available models at this homophony, and no key, sibling or decipherment is online.
+- **Structured homophony** (`structured.py`): if the key were a table in which a letter's homophones differ by a fixed
+  offset (pair mod M, M = 19-33) or share a digit (units or tens digit with the other digit's half or parity, digit sum,
+  digit difference), the 62 symbols collapse to about 20 and the problem is monoalphabetic. Every such collapse scores
+  -2.29 to -2.63 per window against -2.00 unconstrained and -1.6 for readable Italian, and none reads. The 1571 key is
+  not built on any of these simple patterns; its homophones are arbitrary, as in Nevers no. 19-20.
