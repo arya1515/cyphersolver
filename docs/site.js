@@ -51,6 +51,32 @@ function renderTiles(el, items){
 // 'show more' blocks on the home page
 document.querySelectorAll('.showmore').forEach(b=>b.addEventListener('click',()=>{ const box=b.previousElementSibling; const open=box.hasAttribute('hidden'); if(open) box.removeAttribute('hidden'); else box.setAttribute('hidden',''); b.textContent = open ? 'Show fewer' : b.dataset.label || b.textContent; }));
 document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent);
+// showcase: rotating hero cards. Auto-advances every 8 s; pauses on hover, focus or the pause button; respects reduced motion.
+(function(){
+  const sc=document.querySelector('.showcase'); if(!sc) return;
+  const slides=[...sc.querySelectorAll('.sc-slide')]; if(slides.length<2) return;
+  const dots=sc.querySelector('.sc-dots'), pauseBtn=sc.querySelector('.sc-pause');
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let i=0, timer=null, paused=reduced, hovering=false;
+  slides.forEach((s,k)=>{ const b=document.createElement('button'); b.type='button'; b.setAttribute('role','tab'); b.setAttribute('aria-label','Show slide '+(k+1)); b.addEventListener('click',()=>{ go(k); restart(); }); dots.appendChild(b); });
+  const db=[...dots.children];
+  function go(k){
+    i=(k+slides.length)%slides.length;
+    slides.forEach((s,n)=>{ const on=n===i; s.classList.toggle('on',on); if(on) s.removeAttribute('hidden'); else setTimeout(()=>{ if(!s.classList.contains('on')) s.setAttribute('hidden',''); }, 650); });
+    db.forEach((b,n)=>b.setAttribute('aria-selected', n===i ? 'true' : 'false'));
+    sc.setAttribute('aria-live', paused ? 'polite' : 'off');
+  }
+  function tick(){ if(!paused && !hovering && !document.hidden) go(i+1); }
+  function restart(){ clearInterval(timer); timer=setInterval(tick, 8000); }
+  sc.querySelector('.sc-prev').addEventListener('click',()=>{ go(i-1); restart(); });
+  sc.querySelector('.sc-next').addEventListener('click',()=>{ go(i+1); restart(); });
+  pauseBtn.addEventListener('click',()=>{ paused=!paused; pauseBtn.setAttribute('aria-pressed',paused); pauseBtn.setAttribute('aria-label',paused?'Resume rotation':'Pause rotation'); pauseBtn.innerHTML=paused?'&#9654;':'&#10074;&#10074;'; go(i); });
+  sc.addEventListener('pointerenter',()=>hovering=true); sc.addEventListener('pointerleave',()=>hovering=false);
+  sc.addEventListener('focusin',()=>hovering=true); sc.addEventListener('focusout',e=>{ if(!sc.contains(e.relatedTarget)) hovering=false; });
+  sc.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft'){ go(i-1); restart(); } else if(e.key==='ArrowRight'){ go(i+1); restart(); } });
+  if(paused){ pauseBtn.setAttribute('aria-pressed','true'); pauseBtn.setAttribute('aria-label','Resume rotation'); pauseBtn.innerHTML='&#9654;'; }
+  go(0); restart();
+})();
 // priority-queue filter: show one tier at a time
 (function(){
   const btns=document.querySelectorAll('.qf'); if(!btns.length) return;
