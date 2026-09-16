@@ -1,0 +1,32 @@
+codes 105 runs 13 units 33 666
+it 0 T 3.00 cur -2373.7 best -2373.7 0s
+it 40000 T 2.46 cur -1134.4 best -1128.8 12s
+it 60000 T 2.22 cur -1093.8 best -1054.7 18s
+it 80000 T 2.01 cur -1023.8 best -1004.5 24s
+it 100000 T 1.82 cur -1005.3 best -970.6 31s
+it 120000 T 1.65 cur -936.1 best -936.1 38s
+it 140000 T 1.49 cur -932.1 best -922.9 46s
+it 160000 T 1.35 cur -903.7 best -903.3 53s
+it 200000 T 1.11 cur -891.8 best -887.8 65s
+it 240000 T 0.91 cur -848.4 best -848.4 76s
+it 280000 T 0.74 cur -847.7 best -839.7 89s
+it 300000 T 0.67 cur -845.4 best -839.7 95s
+it 340000 T 0.55 cur -828.1 best -827.0 108s
+it 360000 T 0.50 cur -833.8 best -827.0 114s
+it 380000 T 0.45 cur -832.5 best -827.0 121s
+it 400000 T 0.41 cur -822.2 best -822.2 127s
+it 420000 T 0.37 cur -821.7 best -820.8 134s
+it 440000 T 0.33 cur -820.1 best -819.5 141s
+it 460000 T 0.30 cur -817.4 best -817.4 148s
+it 480000 T 0.27 cur -812.7 best -812.7 154s
+it 500000 T 0.25 cur -805.9 best -805.9 160s
+it 520000 T 0.22 cur -801.6 best -801.5 167s
+it 540000 T 0.20 cur -801.2 best -801.2 172s
+it 580000 T 0.17 cur -801.7 best -801.1 184s
+BEST -801.0794672210593
+ [ses bonnes intentions que vous aurez avantage de] nelesambassadeur.ambassadeur.francais.ecclesiastique.francais.eestcomme.ambassadeur.etaient.euensecclesiastiques.francais.eescardinal.ambassadeur.lecardinal.francais.esecclesiastique.eavec.unsenseeseledeclaration.des.edeclaration.squedes.edeclaration.secclesiastique.spour.les.secomme.ambassadeur.ssetaient.s [aucun pretexte de retarder l] 
+ [leurs bulles ce sera au moins en y joignant une lettre de] sesetaient.alambassadeur.lambassadeur.nesecclesiastiques.ecclesiastique.sfrancais.epersonne.esavec.lecardinal.ontsetpersonne.lecardinaux.etlesspour.sesestsousseambassadeur.esetaient.setenfrancais.eambassadeur.cardinal.ecclesiastiques.edeclaration.pour.sonespersonne.sambassadeur.secclesiastiques.ecclesiastique.ecclesiastique.cardinal.eecomme.ambassadeur.ecclesiastique.sunspour.ambassadeur.ambassadeur.des.ecclesiastiques.ecclesiastique.secclesiastique.son.ambassadeur.sfrancais.setaient.sansambassadeur.ilecardinal.etssils.etaient.scardinaux.comme.ambassadeur. [declaration contre la malignite du precedent ponti ficatet dans les] 
+ [ficatet dans les memes termes que vous l] esecclesiastique.esambassadeur.setepersonne.essambassadeur.setaient.scardinal.rospigliosi.ecclesiastique.eus [ordres je pretends donner sur ce sujet vous] 
+ [vous pourrez vous xpliquer que je ferai savoir sur cela mes volontes aux archeveques] nessedeclaration.des.ecclesiastique.esambassadeur.des.ambassadeur.nensuecclesiastiques.onambassadeur.essespour.ambassadeur.ensecclesiastique.squi.nesecclesiastique.edans.lesscardinal.ambassadeur.delambassadeur.ambassadeur.sendes.ilecardinal.etcardinal.ambassadeur.cardinal.eambassadeur.ambassadeur.cardinal.esurlesambassadeur.ecclesiastique.etpour.sason.ambassadeur.enque.les.ambassadeur.des.onetention.ssetaient.pas. [desagreable a sa saintete je ne puis pas croire que] 
+ [pas croire que toutes ces facilites ne soient] plus.que.desesen [l expedition des bulles est] 
+MAP [(2, 'n'), (3, 's'), (4, 'e'), (5, 'l'), (7, 'e'), (8, 'e'), (10, 'e'), (11, 's'), (12, 'e'), (13, 'e'), (14, 'e'), (20, 's'), (21, 's'), (22, 's'), (25, 'u'), (27, 's'), (28, 'a'), (29, 't'), (30, 's'), (31, 'e'), (32, 'e'), (33, 'e'), (34, 's'), (35, 'u'), (38, 's'), (39, 'l'), (40, 's'), (41, 's'), (42, 's'), (43, 's'), (44, 's'), (45, 't'), (46, 'e'), (47, 'e'), (48, 'e'), (49, 'ns'), (50, 's'), (51, 'a'), (52, 'l'), (82, 'des'), (87, 'le'), (89, 'dans'), (90, 'ambassadeur'), (93, 'il'), (97, 'son'), (99, 'declaration'), (100, 'cardinal'), (101, 'francais'), (111, 'les'), (112, 'un'), (115, 'ou'), (118, 'le'), (128, 'pour'), (130, 'on'), (135, 'ambassadeur'), (140, 'des'), (142, 'il'), (145, 'ambassadeur'), (146, 'es'), (151, 'ambassadeur'), (155, 'ils'), (157, 'des'), (160, 'personne'), (162, 'le'), (165, 'ecclesiastiques'), (167, 'ecclesiastiques'), (172, 'se'), (181, 'se'), (182, 'on'), (187, 'ecclesiastique'), (196, 'en'), (197, 'tion'), (207, 'ne'), (209, 'pas'), (219, 'comme'), (222, 'en'), (230, 'an'), (234, 'te'), (236, 'de'), (238, 'cardinal'), (243, 'ambassadeur'), (294, 'ecclesiastique'), (297, 'ecclesiastique'), (308, 'en'), (318, 'ambassadeur'), (327, 'ecclesiastique'), (345, 'de'), (351, 'avec'), (353, 'rospigliosi'), (359, 'cardinaux'), (370, 'des'), (373, 'le'), (384, 'ambassadeur'), (418, 'qui'), (423, 'qu'), (446, 'francais'), (450, 'francais'), (451, 'que'), (456, 'ur'), (462, 'et'), (465, 'que'), (469, 'etaient'), (518, 'comme'), (534, 'plus'), (553, 'pour')]

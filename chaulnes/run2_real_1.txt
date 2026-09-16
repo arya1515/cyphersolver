@@ -1,0 +1,40 @@
+codes 116 runs 18 units 33 666
+it 20000 T 2.71 cur -2022.9 best -2004.6 7s
+it 40000 T 2.46 cur -1965.0 best -1893.2 13s
+it 60000 T 2.22 cur -1791.3 best -1788.5 19s
+it 80000 T 2.01 cur -1769.1 best -1748.4 24s
+it 100000 T 1.82 cur -1747.6 best -1686.1 29s
+it 120000 T 1.65 cur -1650.5 best -1650.5 33s
+it 140000 T 1.49 cur -1628.2 best -1595.2 38s
+it 160000 T 1.35 cur -1600.4 best -1585.1 43s
+it 180000 T 1.22 cur -1559.4 best -1559.4 47s
+it 200000 T 1.11 cur -1542.1 best -1530.9 50s
+it 220000 T 1.00 cur -1509.4 best -1502.3 54s
+it 240000 T 0.91 cur -1457.7 best -1457.1 58s
+it 260000 T 0.82 cur -1450.8 best -1446.5 62s
+it 280000 T 0.74 cur -1428.6 best -1422.6 65s
+it 300000 T 0.67 cur -1406.3 best -1400.8 69s
+it 320000 T 0.61 cur -1398.0 best -1398.0 72s
+it 340000 T 0.55 cur -1395.2 best -1395.2 75s
+it 360000 T 0.50 cur -1386.8 best -1386.8 79s
+it 380000 T 0.45 cur -1382.9 best -1379.8 84s
+it 400000 T 0.41 cur -1379.5 best -1379.5 88s
+it 420000 T 0.37 cur -1381.4 best -1379.5 91s
+it 440000 T 0.33 cur -1379.2 best -1378.4 94s
+it 460000 T 0.30 cur -1377.0 best -1376.6 97s
+it 480000 T 0.27 cur -1376.9 best -1376.6 101s
+it 500000 T 0.25 cur -1372.5 best -1372.5 104s
+it 520000 T 0.22 cur -1371.3 best -1371.3 107s
+it 540000 T 0.20 cur -1368.7 best -1368.7 110s
+it 560000 T 0.18 cur -1368.5 best -1368.5 112s
+it 580000 T 0.17 cur -1368.3 best -1368.3 115s
+BEST -1362.473841005392
+ [diligences que vous avez faites pour] _les.__re___i__redi_re__encore_tireent [et] __enla__scoreto_ [evesques qui ont assiste a l assemblee du clerge de] ntese____s_re_s_sensre [] 
+ [] __e__les_ [il est bien raisonnable que la cour de rome demandant que lesd evesques declarent] 
+ [que vous m avez ecrit par votre lettre du e d avril] aussibien.aisedes_ouleur._ [qui estoit de mettre apres la profession de foy exprimee dans led projet] 
+ [dont mesme vous me mandiez que] te__secolere_ [et que vous croyez] 
+ [et que vous croyez] _bien.la_ntico_lare_dire__que.__le_retique.s__s_ur_leur.__st___re_svolantencoreen__tent__resonteti__lapuen__ten____coreleur.s__dese__scoreco_leur.s_re__s_pour.ra___me_nt__ei__colereetrereculale_ntse_recoleres_ [ceux qui ont assiste a l assemblee de et qui sont nommes aux archevesches et evesches] _ures_la___ [] 
+ [comme vous aves juge plus a propos jusqu a present de] _le_ur_laique.jai____encoreenco_____rele_spour. [vous devez d autant moins changer de conduite dans l estat present des affaires que] 
+ [dans l estat present des affaires que] nque.__laresisticomm_e___nt_contrele_ [ne conviennent point a mes interests] 
+ [les pressantes instances que vous aves faites] ___des.escoredesvoies_s_ouleur. [et preconiser au plutot les evesches indifferemment] 
+MAP [(2, ''), (3, 'e'), (5, 'a'), (6, 's'), (10, 'i'), (12, 's'), (20, 's'), (22, 's'), (23, 'e'), (27, 'en'), (30, 'e'), (32, 'e'), (42, 'u'), (47, 'u'), (48, 'p'), (49, 'r'), (50, 't'), (51, 'n'), (52, 's'), (53, 's'), (58, 'n'), (62, 'r'), (65, 't'), (70, 'e'), (77, 's'), (83, 'di'), (89, ''), (92, 'que'), (96, 'ie'), (97, 'se'), (98, ''), (101, 'des'), (102, ''), (106, 'bien'), (107, ''), (118, 'ou'), (120, 'co'), (122, ''), (124, 'en'), (130, 'te'), (137, 'ti'), (138, 'de'), (140, 're'), (141, ''), (142, 'nt'), (150, ''), (152, ''), (168, 'la'), (170, ''), (172, 're'), (180, 're'), (182, 'pour'), (190, ''), (192, 'ur'), (196, 'ra'), (200, ''), (201, ''), (203, 'ti'), (204, 'to'), (207, ''), (300, 'vo'), (302, ''), (306, 'co'), (307, 'nt'), (309, ''), (310, ''), (312, 'me'), (313, 'que'), (314, 'la'), (325, ''), (327, 'en'), (341, 'ja'), (355, 'et'), (356, 're'), (370, ''), (371, 'ti'), (379, ''), (381, ''), (383, 'si'), (386, 'en'), (396, ''), (403, 're'), (404, 'nt'), (408, 'le'), (409, 'le'), (433, ''), (434, 'leur'), (436, ''), (439, 'mm'), (443, 're'), (446, ''), (449, 'cu'), (456, ''), (457, 'la'), (458, 'de'), (459, 'les'), (469, 'que'), (473, 'ai'), (477, 'st'), (479, ''), (481, ''), (483, 'le'), (485, ''), (487, 'so'), (488, ''), (491, ''), (493, 'se'), (507, 'co'), (508, ''), (509, 'la'), (513, 'nt'), (521, 'nt'), (523, ''), (524, 'le'), (527, 'di'), (535, 'en')]

@@ -59,6 +59,7 @@ the target does not, and the notes say why.
 
 | Target | Date | Why it stops | Where |
 |---|---|---|---|
+| Louis XIV → duc de Chaulnes, Rome (300-group one-part code) | 1690 | Ciphertext verified from the page images and the code's ten-column Croissy design established, but 300 groups do not determine a 116-entry nomenclator: the annealer recovers 4-12% of a matched control and wrong keys score within noise of the true one. No printed plaintext found. Needs the minute in AE Rome Corr. 331-332 | [`chaulnes/`](chaulnes/) |
 | Vatican Challenge Part 5 (Farnese → Poggio) | 1542 | Identified as an Antonio Elio polyphonic-syllabic cipher; Meister key 176/2 verified from the scan and excluded; letter-, lattice- and unit-level attacks fail against controls. Needs the DECODE images or the key | [`vatican5/`](vatican5/) · [write-up](https://dbourdeau.github.io/cyphersolver/vatican.html) |
 | Debosnys cryptograms | 1882–83 | Cipher poem is rhyming couplets in a French syllabary, too short for any crib-free attack | [`debosnys/`](debosnys/) · [write-up](https://dbourdeau.github.io/cyphersolver/debosnys.html) |
 | Copenhagen cryptogram | c.1950s | Two transcriptions, ten languages, six reading conventions; not a simple substitution of any language tested | [`copenhagen/`](copenhagen/) · [write-up](https://dbourdeau.github.io/cyphersolver/copenhagen.html) |
@@ -87,6 +88,7 @@ Nothing more can be done online; the key or the text is located in an archive.
 | Charles II → Duke of Hamilton | 1650 | Copy order for NRS GD406/1/2197 (open) | [`hamilton/`](hamilton/) |
 | Maurice → Rupert; royalist intercepts, BL Add MS 72438 | 1645–46 | BL volumes digitised but offline since the 2023 cyber-attack | [`rupert/`](rupert/) |
 | Stepney → Manchester, Vienna | 1702 | Stepney's office cipher in TNA SP 105/106 or BL Add MSS 7058–78 | [`stepney/`](stepney/) |
+| Torcy → Geertruidenberg plenipotentiaries; Villars → Polignac (BL Add MS 61575) | 1710 | The ciphertext itself: Tomokiyo's transcription files are dead links, DECODE R8755/R8756 need a login, the BL volume is not digitised | [`geertruidenberg/`](geertruidenberg/) |
 
 ### In progress
 

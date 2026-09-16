@@ -1,0 +1,37 @@
+codes 105 runs 13 units 33 666
+it 0 T 3.00 cur -2537.4 best -2537.4 0s
+it 20000 T 2.71 cur -1233.7 best -1196.6 6s
+it 40000 T 2.46 cur -1214.5 best -1172.2 11s
+it 60000 T 2.22 cur -1117.8 best -1063.9 17s
+it 80000 T 2.01 cur -1019.0 best -1011.1 23s
+it 100000 T 1.82 cur -1015.6 best -994.1 30s
+it 120000 T 1.65 cur -998.6 best -955.5 37s
+it 140000 T 1.49 cur -987.3 best -955.5 45s
+it 160000 T 1.35 cur -953.2 best -932.1 52s
+it 180000 T 1.22 cur -964.1 best -929.0 58s
+it 200000 T 1.11 cur -935.6 best -929.0 64s
+it 220000 T 1.00 cur -898.3 best -898.3 70s
+it 240000 T 0.91 cur -895.9 best -894.0 75s
+it 260000 T 0.82 cur -891.1 best -881.2 81s
+it 280000 T 0.74 cur -883.1 best -881.2 86s
+it 300000 T 0.67 cur -870.1 best -869.1 93s
+it 320000 T 0.61 cur -862.8 best -860.2 99s
+it 340000 T 0.55 cur -861.9 best -856.4 106s
+it 360000 T 0.50 cur -852.7 best -851.4 113s
+it 380000 T 0.45 cur -855.2 best -851.4 119s
+it 400000 T 0.41 cur -853.2 best -850.4 125s
+it 420000 T 0.37 cur -847.8 best -847.8 132s
+it 440000 T 0.33 cur -845.3 best -844.4 139s
+it 460000 T 0.30 cur -843.9 best -842.5 147s
+it 480000 T 0.27 cur -842.1 best -841.6 153s
+it 520000 T 0.22 cur -840.6 best -839.4 166s
+it 540000 T 0.20 cur -841.7 best -839.4 172s
+it 560000 T 0.18 cur -840.0 best -839.4 177s
+it 580000 T 0.17 cur -840.2 best -839.4 184s
+BEST -839.2477026320742
+ [ses bonnes intentions que vous aurez avantage de] lapar.tdeclaration.ecclesiastique.quesambassadeur.ce_netecclesiastique.ecclesiastique.lleadeclaration.quecepropositions.urles.propositions.ambassadeur.lesatisfaction.sassemblee.generallelesecclesiastique.ambassadeur.secclesiastique._uneambassadeur.secclesiastique._satisfaction.secclesiastique.ilsadeursaecclesiastique.e [aucun pretexte de retarder l] 
+ [leurs bulles ce sera au moins en y joignant une lettre de] lionne.tecclesiastique.ssursecclesiastique.llesur.etequedel_assemblee.une.propositions.netestdenteecclesiastique.etpar.taecclesiastique.lclionne.stesaisiedeclaration.liecclesiastique.cardinal.telambassadeur.aecclesiastique.propositions.declaration.secclesiastique.setnecedeedeclaration.esur.etesetacetecclesiastique.satisfaction.ellasedeclaration.ecclesiastique.qui.declaration.satisfaction.eetlecardinal.sambassadeur._ecclesiastique.aunedeclaration.deletat_eaux.ecclesiastique.esecclesiastique.etecclesiastique. [declaration contre la malignite du precedent ponti ficatet dans les] 
+ [ficatet dans les memes termes que vous l] aietlecardinal.tation.delesedeclaration.aecclesiastique.apropositions.desatisfaction.eles [ordres je pretends donner sur ce sujet vous] 
+ [vous pourrez vous xpliquer que je ferai savoir sur cela mes volontes aux archeveques] dans.lesecclesiastique.ambassadeur.satisfaction.sesecclesiastique.quelques.ecclesiastique.ler_esur.ladeclaration.la_des.ecclesiastique.cardinal.lasatisfaction.sque.ll_essuredes._propositions.ecclesiastique.ont.eurecclesiastique.sclambassadeur.deletatpropositions.ecclesiastique.propositions.surcardinal.etaient.quaecclesiastique.satisfaction.france.ecclesiastique.esmlecardinal.defrancais.ildeclaration.esnecnonmoins.sesecclesiastique.et [desagreable a sa saintete je ne puis pas croire que] 
+ [pas croire que toutes ces facilites ne soient] ent.relecardinal.ner [l expedition des bulles est] 
+MAP [(2, 'l'), (3, 'l'), (4, 'l'), (5, 's'), (7, 's'), (8, 's'), (10, 'e'), (11, 'e'), (12, 's'), (13, 'e'), (14, 'a'), (20, 's'), (21, 's'), (22, 't'), (25, 'l'), (27, 'n'), (28, 's'), (29, 't'), (30, 'i'), (31, 'c'), (32, 'a'), (33, 'a'), (34, 'e'), (35, 'e'), (38, 'a'), (39, 'e'), (40, 'e'), (41, 'es'), (42, 'a'), (43, ''), (44, 'e'), (45, 'n'), (46, 'a'), (47, 'l'), (48, 'l'), (49, 'a'), (50, 'e'), (51, 'm'), (52, 'nt'), (82, 'es'), (87, 'par'), (89, 'ur'), (90, 'ecclesiastique'), (93, 'de'), (97, 'le'), (99, 'ecclesiastique'), (100, 'et'), (101, 'qu'), (111, 'il'), (112, 'ge'), (115, 'ai'), (118, 'qu'), (128, 'se'), (130, 'ne'), (135, 'cardinal'), (140, 'ambassadeur'), (142, 'de'), (145, 'declaration'), (146, 'des'), (151, 'ecclesiastique'), (155, 'aux'), (157, 'qui'), (160, 'de'), (162, 'une'), (165, 'sur'), (167, 'declaration'), (172, 'cardinal'), (181, 'lionne'), (182, 'la'), (187, 'et'), (196, 'de'), (197, 'moins'), (207, 'dans'), (209, 'et'), (219, 'et'), (222, 'on'), (230, 'un'), (234, 'tion'), (236, 'ont'), (238, 'propositions'), (243, 'ur'), (294, 'es'), (297, 'et'), (308, 'er'), (318, 'ecclesiastique'), (327, 'satisfaction'), (345, 'le'), (351, 'assemblee'), (353, 'de'), (359, 'ecclesiastique'), (370, 'quelques'), (373, 'les'), (384, 'ecclesiastique'), (418, 'que'), (423, 'un'), (446, 'qu'), (450, 'ambassadeur'), (451, 'francais'), (456, 'ent'), (462, 'france'), (465, 're'), (469, 'ecclesiastique'), (518, 'de'), (534, 'ent'), (553, 'ecclesiastique')]

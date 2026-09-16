@@ -1,0 +1,37 @@
+codes 105 runs 13 units 33 666
+it 0 T 3.00 cur -2623.8 best -2623.8 0s
+it 20000 T 2.71 cur -1464.9 best -1423.9 7s
+it 40000 T 2.46 cur -1391.9 best -1338.5 13s
+it 60000 T 2.22 cur -1304.5 best -1259.4 17s
+it 80000 T 2.01 cur -1268.5 best -1239.4 22s
+it 100000 T 1.82 cur -1182.3 best -1170.2 27s
+it 120000 T 1.65 cur -1155.1 best -1142.0 31s
+it 140000 T 1.49 cur -1101.6 best -1096.1 35s
+it 160000 T 1.35 cur -1048.3 best -1031.2 40s
+it 180000 T 1.22 cur -1029.8 best -1019.5 45s
+it 200000 T 1.11 cur -1015.9 best -1004.7 48s
+it 220000 T 1.00 cur -994.7 best -990.1 52s
+it 240000 T 0.91 cur -989.3 best -989.3 56s
+it 260000 T 0.82 cur -968.4 best -966.1 59s
+it 280000 T 0.74 cur -953.3 best -950.4 63s
+it 300000 T 0.67 cur -930.7 best -929.9 67s
+it 320000 T 0.61 cur -910.7 best -910.5 71s
+it 340000 T 0.55 cur -898.4 best -895.6 74s
+it 360000 T 0.50 cur -893.8 best -893.8 78s
+it 380000 T 0.45 cur -888.5 best -888.2 82s
+it 400000 T 0.41 cur -885.2 best -884.4 87s
+it 440000 T 0.33 cur -881.3 best -881.3 93s
+it 460000 T 0.30 cur -882.0 best -881.3 96s
+it 480000 T 0.27 cur -881.6 best -880.9 99s
+it 500000 T 0.25 cur -876.6 best -876.5 103s
+it 520000 T 0.22 cur -874.8 best -874.8 106s
+it 540000 T 0.20 cur -874.6 best -874.6 109s
+it 560000 T 0.18 cur -867.3 best -867.3 111s
+it 580000 T 0.17 cur -867.6 best -867.2 114s
+BEST -867.1601478010041
+ [ses bonnes intentions que vous aurez avantage de] e_til_en__tee__t__le_n_orise_es_etai_te___nrecoi_______use_use_ca__use__a_uraeteeta_lea [aucun pretexte de retarder l] 
+ [leurs bulles ce sera au moins en y joignant une lettre de] lallepretr_e____s__se__rent__esnesep_er_etil__celanetonnea__eleveeaeteele_rinsetil_esses_____pape___sne_ti__reri_s_derente_lesde__ce_pape___leter_me [declaration contre la malignite du precedent ponti ficatet dans les] 
+ [ficatet dans les memes termes que vous l] ie__areleurse_t___les_so__nt [ordres je pretends donner sur ce sujet vous] 
+ [vous pourrez vous xpliquer que je ferai savoir sur cela mes volontes aux archeveques] qui.cause__ntenriene__t_qui.__s_et_re_o_nere___nte_et__lepape._etmenee_le_paie_me_netrepapepuisse.tesle_li_tederepo_ur_lui._etdo_ntleplus. [desagreable a sa saintete je ne puis pas croire que] 
+ [pas croire que toutes ces facilites ne soient] pas.etqui.vei_ [l expedition des bulles est] 
+MAP [(2, 'e'), (3, 'c'), (4, ''), (5, 'r'), (7, 'n'), (8, 'u'), (10, 'a'), (11, 's'), (12, 'n'), (13, ''), (14, ''), (20, 'a'), (21, 'n'), (22, 'l'), (25, 'n'), (27, 'i'), (28, 'p'), (29, 'e'), (30, 'e'), (31, 'e'), (32, 'p'), (33, 'i'), (34, ''), (35, 't'), (38, 's'), (39, ''), (40, 'a'), (41, 't'), (42, ''), (43, ''), (44, 's'), (45, 't'), (46, 'e'), (47, ''), (48, ''), (49, 'o'), (50, ''), (51, 'e'), (52, 'p'), (82, 'lui'), (87, 'ti'), (89, 'te'), (90, 'le'), (93, 'le'), (97, 'de'), (99, 'se'), (100, 'pa'), (101, 'se'), (111, 'ur'), (112, 'co'), (115, 'on'), (118, 'te'), (128, 'ti'), (130, ''), (135, 're'), (140, ''), (142, 'ce'), (145, ''), (146, 'et'), (151, 'me'), (155, ''), (157, 're'), (160, 'se'), (162, 'nt'), (165, ''), (167, 'ri'), (172, 've'), (181, 'la'), (182, 'qui'), (187, ''), (196, 'po'), (197, ''), (207, 'qui'), (209, 'plus'), (219, ''), (222, 'do'), (230, 'de'), (234, 'ur'), (236, 'pape'), (238, ''), (243, 'et'), (294, ''), (297, ''), (308, ''), (318, ''), (327, ''), (345, 'qui'), (351, 're'), (353, 'so'), (359, 'er'), (370, 'ri'), (373, 'ai'), (384, 'en'), (418, 'er'), (423, 'ca'), (446, ''), (450, 'te'), (451, ''), (456, 'puisse'), (462, 'li'), (465, 'et'), (469, 'le'), (518, 'te'), (534, 'pas'), (553, '')]

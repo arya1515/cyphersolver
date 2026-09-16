@@ -214,3 +214,26 @@ blume/dt/*.exe
 blume/dt/plain_es.txt
 beale/lmcorpus/
 catokwacopa/vocab.tsv
+# chaulnes: downloaded corpora, page images, n-gram models, fetched pages
+chaulnes/*.pkl
+chaulnes/*.pdf
+chaulnes/*.jpg
+chaulnes/*.png
+chaulnes/*.htm
+chaulnes/corpus_fr.txt
+chaulnes/recueil17.txt
+chaulnes/louisxivetlesain0*.txt
+chaulnes/rechercheshistor00gr.txt
+chaulnes/md_rome.txt
+chaulnes/traces.txt
+chaulnes/ht.htm
+geertruidenberg/*.htm
+geertruidenberg/*.jpg
+geertruidenberg/*.txt
+!geertruidenberg/NOTES.md
+chaulnes/lasry_davaux.txt
+chaulnes/klausis_comments.txt
+chaulnes/traces_wb.txt
+chaulnes/louisxiv2.txt
+chaulnes/louisxiv_4.txt
+chaulnes/louisxiv4B*.txt

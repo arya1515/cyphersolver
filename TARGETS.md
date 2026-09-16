@@ -28,6 +28,8 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 18 | Vatican Challenge Part 5 | 1542 | Hard | excluded, six sessions | `vatican5/` | Identified as a Farnese-chancery syllabic digit cipher (Elio family, cf. Meister keys 1-2 of 1538-42); the historically matching key (Meister 176/2, sent via Montepulciano, letter dated 15 Apr 1542) is excluded on structure. Letter-level, mixed-lattice and unit-level (EM segmentation + annealing) attacks all fail against matched synthetic controls that expose why. Route in: DECODE registration for the 400 dpi images and the IA-1 sibling transcript, or the key/clear copy in Chigi M II 49 / L III 65
 | 19 | Enigma message | 1945 | Very hard | todo | | single message; compute-bound |
 | 20 | Lüderitz FO telegram | 1911 | Infeasible | infeasible | | five-figure codebook |
+| 21 | Torcy → plenipotentiaries at Geertruidenberg (3 Apr 1710) and Villars → Polignac (1 Jun 1710), BL Add MS 61575 ff. 38-41, 44 | 1710 | Hard | offline-only (no ciphertext) | `geertruidenberg/` | 2026-09-16: Tomokiyo's two transcription files 404 and were never archived; DECODE R8755/R8756 hold transcriptions but images and documents need a login (thumbnails only); BL volume not digitised. Nothing to attack until the ciphertext is obtained (email Tomokiyo, or DECODE access) |
+| 22 | Louis XIV → duc de Chaulnes, Rome, 10 July 1690 (Traces Écrites; Klausis 31 Jan 2019) | 1690 | Hard | attempted, not solved | `chaulnes/` | 2026-09-16: 300 groups / 116 distinct verified from the page images (two transcription fixes); one-part Croissy-table design established from the step-10 chains (170-200, 439-479 etc.), not the Castaignère 1690 code. No printed plaintext found (Recueil Rome II, Gérin 1870/1894, Google Books). Ciphertext-only annealer with 7-gram French LM fails a matched 300-group control (4-12% recovered; wrong keys score within noise of the true key), so no reading is reported. Needs the minute in AE Rome Corr. 331-332 or a second letter in the code |
 
 
 ## Where we are ahead of the source (2026-09-15)
@@ -91,8 +93,9 @@ French 17th: Prince of Conde (1654, R8395) - DECODE-only.
 English Civil War: Ormond-Arran (1678) - 20 groups, written as a test · Charles I and Henrietta-Maria private cipher (1645) - one sentence ·
 letter to Prince Rupert (1648, R8447), intercepted letters of 1646 (R8623-8624) and Hyde (1659, R4886) - DECODE-only · "An Intercepted
 Letter" (Thurloe vol.7) - short.
-French 1690-1710: Catinat (1691, 1702) - no transcription · Geertruidenberg and Villars-Polignac (1710, R8755-8756) - Tomokiyo's two
-transcription links return 404, DECODE-only otherwise.
+French 1690-1710: Catinat (1691, 1702) - no transcription · ~~Geertruidenberg and Villars-Polignac (1710, R8755-8756)~~ now row 21
+(confirmed 2026-09-16: the two transcription links 404 and were never archived; DECODE images need a login) ·
+~~ambassador in Rome (1690)~~ now row 22, attempted 2026-09-16 (`chaulnes/`).
 
 ## Famous unsolved ciphers (Elonka Dunin's list), ranked on the same scale
 

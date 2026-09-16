@@ -1,0 +1,40 @@
+codes 116 runs 18 units 33 666
+it 0 T 3.00 cur -3296.1 best -3294.9 0s
+it 20000 T 2.71 cur -2078.0 best -2042.9 7s
+it 40000 T 2.46 cur -1922.4 best -1866.7 13s
+it 60000 T 2.22 cur -1760.5 best -1719.5 19s
+it 80000 T 2.01 cur -1677.9 best -1638.5 24s
+it 100000 T 1.82 cur -1633.2 best -1615.3 29s
+it 120000 T 1.65 cur -1605.3 best -1575.4 33s
+it 140000 T 1.49 cur -1540.3 best -1527.3 37s
+it 160000 T 1.35 cur -1512.9 best -1494.8 42s
+it 180000 T 1.22 cur -1527.1 best -1494.8 46s
+it 200000 T 1.11 cur -1496.2 best -1485.9 49s
+it 220000 T 1.00 cur -1456.4 best -1456.4 53s
+it 240000 T 0.91 cur -1443.8 best -1436.7 57s
+it 260000 T 0.82 cur -1436.4 best -1433.3 61s
+it 280000 T 0.74 cur -1434.5 best -1428.2 65s
+it 300000 T 0.67 cur -1431.3 best -1424.0 68s
+it 320000 T 0.61 cur -1384.1 best -1384.1 72s
+it 340000 T 0.55 cur -1373.9 best -1373.9 76s
+it 360000 T 0.50 cur -1370.8 best -1370.2 80s
+it 380000 T 0.45 cur -1361.8 best -1361.2 84s
+it 400000 T 0.41 cur -1360.1 best -1359.6 88s
+it 420000 T 0.37 cur -1352.6 best -1352.6 91s
+it 440000 T 0.33 cur -1339.8 best -1339.5 95s
+it 460000 T 0.30 cur -1326.6 best -1326.6 97s
+it 480000 T 0.27 cur -1319.5 best -1319.5 101s
+it 500000 T 0.25 cur -1313.9 best -1313.9 104s
+it 520000 T 0.22 cur -1313.9 best -1313.4 107s
+it 540000 T 0.20 cur -1311.7 best -1311.7 109s
+it 560000 T 0.18 cur -1312.2 best -1311.7 112s
+BEST -1308.485324611627
+ [diligences que vous avez faites pour] _su_se____ene_reinse_re_es_par._les.par.ent [et] re_p_re_s__ent._ [evesques qui ont assiste a l assemblee du clerge de] _tre___nt______etes_ [] 
+ [] __s_se_s_ [il est bien raisonnable que la cour de rome demandant que lesd evesques declarent] 
+ [que vous m avez ecrit par votre lettre du e d avril] etoleonless_edecidece [qui estoit de mettre apres la profession de foy exprimee dans led projet] 
+ [dont mesme vous me mandiez que] ss_enouve__au [et que vous croyez] 
+ [et que vous croyez] quon___e___ne_cedent_ouse____caresse_s_aisede_repetalent_ses__ent.re___de_sroi.s_se_mentent__rentreje_teesentque__desse_nosr_ois____des__lent__etil_nese__ntrelese___ntrelede_si__reest.et_re___s_ [ceux qui ont assiste a l assemblee de et qui sont nommes aux archevesches et evesches] etfre__re__ [] 
+ [comme vous aves juge plus a propos jusqu a present de] sent_insereestquelesent_et___re_ne__se___set [vous devez d autant moins changer de conduite dans l estat present des affaires que] 
+ [dans l estat present des affaires que] tou__ti_nospe__resdes._sein__est._dans.ce [ne conviennent point a mes interests] 
+ [les pressantes instances que vous aves faites] en_taqui.es___t_des_edecide [et preconiser au plutot les evesches indifferemment] 
+MAP [(2, 'e'), (3, 'r'), (5, 'e'), (6, 'l'), (10, 'e'), (12, 'e'), (20, 's'), (22, 's'), (23, 's'), (27, 'p'), (30, 'e'), (32, 't'), (42, 'a'), (47, 't'), (48, 'n'), (49, 'f'), (50, 'p'), (51, 'e'), (52, 't'), (53, 'o'), (58, 't'), (62, 'i'), (65, 's'), (70, 'e'), (77, ''), (83, 'ce'), (89, ''), (92, 'st'), (96, 'de'), (97, 're'), (98, 're'), (101, 'qui'), (102, 're'), (106, 'on'), (107, ''), (118, 'ci'), (120, 're'), (122, 'de'), (124, ''), (130, 'te'), (137, 'ca'), (138, ''), (140, 're'), (141, ''), (142, 'nt'), (150, ''), (152, 'le'), (168, 're'), (170, ''), (172, ''), (180, ''), (182, 'et'), (190, ''), (192, 'in'), (196, 'il'), (200, 'je'), (201, ''), (203, 'les'), (204, 'ent'), (207, 'ce'), (300, ''), (302, 'des'), (306, ''), (307, 'ent'), (309, 're'), (310, 'nt'), (312, ''), (313, 're'), (314, 'ti'), (325, 'au'), (327, 'roi'), (341, 'qu'), (355, 'le'), (356, 'de'), (370, 'qu'), (371, 'nt'), (379, 'ta'), (381, ''), (383, 'no'), (386, 'es'), (396, ''), (403, 'par'), (404, 'est'), (408, 'nt'), (409, ''), (433, ''), (434, 'de'), (436, 'le'), (439, ''), (443, 'ne'), (446, ''), (449, 'si'), (456, 'en'), (457, ''), (458, 'no'), (459, 'su'), (469, 'ou'), (473, 'le'), (477, 'pe'), (479, ''), (481, ''), (483, 'dans'), (485, 'oi'), (487, 'me'), (488, 'se'), (491, 'nt'), (493, 'ou'), (507, 've'), (508, 'ne'), (509, ''), (513, ''), (521, 'in'), (523, 'se'), (524, ''), (527, 'in'), (535, 're')]

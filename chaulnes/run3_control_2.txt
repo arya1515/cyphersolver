@@ -1,0 +1,11 @@
+codes 105 runs 13 units 33 666
+it 0 T 3.00 cur -1645.7 best -1645.7 0s
+it 20000 T 2.71 cur -36.9 best -14.0 7s
+it 40000 T 2.46 cur 115.5 best 124.3 16s
+it 60000 T 2.22 cur 268.1 best 292.2 24s
+it 80000 T 2.01 cur 309.0 best 323.8 32s
+it 100000 T 1.82 cur 369.9 best 386.9 41s
+it 120000 T 1.65 cur 412.4 best 468.7 50s
+it 140000 T 1.49 cur 494.6 best 524.7 59s
+it 160000 T 1.35 cur 503.8 best 535.8 68s
+it 180000 T 1.22 cur 553.1 best 560.9 76s

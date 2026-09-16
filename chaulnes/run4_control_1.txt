@@ -1,0 +1,35 @@
+codes 105 runs 13 units 33 666
+it 0 T 3.00 cur -2490.4 best -2490.1 0s
+it 20000 T 2.71 cur -1189.1 best -1171.3 6s
+it 40000 T 2.46 cur -1081.2 best -1067.3 12s
+it 60000 T 2.22 cur -1054.7 best -1048.0 18s
+it 80000 T 2.01 cur -1051.2 best -1047.0 23s
+it 100000 T 1.82 cur -1027.1 best -1004.8 30s
+it 120000 T 1.65 cur -1049.4 best -1004.8 36s
+it 160000 T 1.35 cur -1022.0 best -977.2 50s
+it 180000 T 1.22 cur -981.6 best -964.1 57s
+it 200000 T 1.11 cur -959.0 best -947.3 62s
+it 220000 T 1.00 cur -927.8 best -912.9 67s
+it 240000 T 0.91 cur -903.1 best -899.6 72s
+it 260000 T 0.82 cur -878.9 best -878.4 78s
+it 280000 T 0.74 cur -864.0 best -859.9 83s
+it 300000 T 0.67 cur -856.4 best -849.0 89s
+it 320000 T 0.61 cur -852.0 best -846.4 95s
+it 360000 T 0.50 cur -840.8 best -840.8 108s
+it 380000 T 0.45 cur -840.2 best -839.8 114s
+it 400000 T 0.41 cur -832.8 best -832.4 120s
+it 420000 T 0.37 cur -832.7 best -831.4 127s
+it 440000 T 0.33 cur -833.3 best -830.7 133s
+it 460000 T 0.30 cur -830.8 best -830.1 139s
+it 480000 T 0.27 cur -830.6 best -830.1 146s
+it 500000 T 0.25 cur -830.0 best -829.4 153s
+it 540000 T 0.20 cur -830.4 best -829.4 165s
+it 560000 T 0.18 cur -831.0 best -829.4 170s
+it 580000 T 0.17 cur -830.7 best -829.4 175s
+BEST -828.6050573227592
+ [ses bonnes intentions que vous aurez avantage de] repar.eetfaire.difficulte.pour.enessecardinal.rospigliosi.ecclesiastique.etsedesur.sesdeclaration.ecclesiastique.qui.declaration.enledesinstructions.onteteteetmlambassadeur.etlambassadeur.secclesiastique.setlambassadeur.sdenavait.que.ntraecclesiastique.neecclesiastique.e [aucun pretexte de retarder l] 
+ [leurs bulles ce sera au moins en y joignant une lettre de] nteecclesiastique.setecclesiastique.etrospigliosi.retreambassadeur.sdifficulte.scependant.esinstructions.etdeclaration.suivant.essecependant.eslesepar.eeavait.dentreeent.rereteeecclesiastique.les.errentecclesiastiques.declaration.desambassadeur.ecclesiastique.esuivant.escependant.settreque.pour.ambassadeur.lecardinal.rospigliosi.destreecclesiastique.etrospigliosi.que.dedesambassadeur.lecardinal.rensecclesiastique.sentetque.lambassadeur.lestraecclesiastique.elecardinal.rospigliosi. [declaration contre la malignite du precedent ponti ficatet dans les] 
+ [ficatet dans les memes termes que vous l] eteque.lecardinal.etque.cependant.leteteecclesiastique.sdeclaration.cardinal.deste [ordres je pretends donner sur ce sujet vous] 
+ [vous pourrez vous xpliquer que je ferai savoir sur cela mes volontes aux archeveques] francais.delambassadeur.etdesefaire.pour.faire.retsarequetessuravait.cardinal.lederavec.respour.sesmursdeclaration.ecclesiastiques.onmecclesiastique.rospigliosi.reretque.lambassadeur.etedeclaration.rospigliosi.declaration.secclesiastique.cardinal.ambassadeur.lecardinal.que.secclesiastiques.defrance.avait.enlecardinal.leveque.etque.suivant.eentiereecclesiastique.et [desagreable a sa saintete je ne puis pas croire que] 
+ [pas croire que toutes ces facilites ne soient] dans.leque.les.tet [l expedition des bulles est] 
+MAP [(2, 'r'), (3, 'd'), (4, 't'), (5, 'et'), (7, 's'), (8, 'l'), (10, 'r'), (11, 's'), (12, 's'), (13, 's'), (14, 'e'), (20, 'n'), (21, 'r'), (22, 'e'), (25, 't'), (27, 't'), (28, 's'), (29, 'e'), (30, 'e'), (31, 'e'), (32, 'l'), (33, 'et'), (34, 't'), (35, 'a'), (38, 's'), (39, 'm'), (40, 'e'), (41, 'e'), (42, 'e'), (43, 's'), (44, 's'), (45, 'e'), (46, 't'), (47, 'l'), (48, 'e'), (49, 'e'), (50, 'e'), (51, 'n'), (52, 'e'), (82, 'que'), (87, 'par'), (89, 'es'), (90, 'ecclesiastiques'), (93, 'que'), (97, 'le'), (99, 'ambassadeur'), (100, 'ambassadeur'), (101, 'sur'), (111, 'que'), (112, 'on'), (115, 'ent'), (118, 'que'), (128, 'ecclesiastique'), (130, 'suivant'), (135, 'cardinal'), (140, 'et'), (142, 'que'), (145, 'et'), (146, 'ur'), (151, 'rospigliosi'), (155, 'ra'), (157, 'que'), (160, 'cependant'), (162, 'et'), (165, 're'), (167, 'de'), (172, 'les'), (181, 'nt'), (182, 'qu'), (187, 'que'), (196, 'le'), (197, 'ie'), (207, 'francais'), (209, 'et'), (219, 'cardinal'), (222, 'nt'), (230, 'en'), (234, 'que'), (236, 'on'), (238, 'declaration'), (243, 'ecclesiastique'), (294, 'pour'), (297, 'ambassadeur'), (308, 'et'), (318, 'rospigliosi'), (327, 'de'), (345, 'que'), (351, 'instructions'), (353, 'cardinal'), (359, 'le'), (370, 'pour'), (373, 'qui'), (384, 'faire'), (418, 'avec'), (423, 'ecclesiastique'), (446, 'difficulte'), (450, 'en'), (451, 've'), (456, 'cardinal'), (462, 'france'), (465, 'le'), (469, 'ecclesiastique'), (518, 'ra'), (534, 'dans'), (553, 'avait')]
