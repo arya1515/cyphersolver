@@ -116,3 +116,6 @@ unicity distance of the available models at this homophony, and no key, sibling 
   digit difference), the 62 symbols collapse to about 20 and the problem is monoalphabetic. Every such collapse scores
   -2.29 to -2.63 per window against -2.00 unconstrained and -1.6 for readable Italian, and none reads. The 1571 key is
   not built on any of these simple patterns; its homophones are arbitrary, as in Nevers no. 19-20.
+- **Slow annealing** (`slow.py`): 4,000,000 steps per restart, T 8 to 0.05, three seeds each on the 54-symbol control and on
+  the target's best pairing. Control: -1.85 to -1.91 per window, 6-25% letters right (true key -1.67). Target: -1.91 to
+  -1.97. Cooling rate is not the limit either.
