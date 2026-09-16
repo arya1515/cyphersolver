@@ -93,7 +93,7 @@ consonants (b c d f g l m n p q r s t v; no h, j, x, z rows), and the doubles an
 ## How it was solved
 
 1. **Statistics.** 461 numeric tokens over 102 distinct values, 25 letter-written glyphs. Values 1–53: 311 tokens; 54–123:
-   146; above 123: 3. The frequencies of 64–123 taken mod 5 are 60 / 30 / 22 / 20 / 14 for one alignment and nearly flat for
+   146; above 123: 3 (recounted later on the final transcriptions: 294 / 165 / 3). The frequencies of 64–123 taken mod 5 are 60 / 30 / 22 / 20 / 14 for one alignment and nearly flat for
    the other four: **blocks of five with one dominant slot**, the a-e-i-o-u signature of an alphabetical syllabary (e most
    frequent). That fixed the syllable structure before any letter was known. (The alignment is right; the start was first
    put at 64 and corrected to 54 from the reading, see step 4.)
@@ -209,9 +209,34 @@ letter-written sign *gu* belongs with *pi, na, gne, gna, gla, qu, qua* of the ff
 names in the king's phonetic spelling (a German place or captain? *Riechauffen*), or a memorandum of nomenclature for the
 marginal signs. Both keys' renderings come from `decode.py` on `ct_366.txt`. Left open; 24 tokens.
 
+**Matched control at f. 333's size** (`control4.txt`, `run_control4.log`; `control.py` now takes `CTFILES`): a Catherine
+de Médicis passage enciphered with a random key of the sixteen-row shape, 59 letter tokens over 24 symbols and 44 syllable
+tokens, the same clear-text interleaving as f. 333. Twelve seeds spread over 10 nats with no agreement; the best key has
+37.3 % of the letter tokens and 3 of 16 blocks right, the same figures as the blind run on f. 333 itself (35/58, 3/16). So
+the failure on f. 333 is the size, not the transcription; the method's floor for this design lies between 120 and 460
+tokens.
+
+**Other volumes.** 500 Colbert 402 (the second Ségur volume, 1587–88) is not on Gallica (SRU search on title and on
+"Segur"/"Pardaillan", 2026-09-16). BnF fr. 17820, *Lettres du roi de Navarre envoyées en Allemagne aux princes protestans
+de la Confession d'Ausbourg* (1583–85, 211 canvases, ark btv1b90620099), was fetched and its opening leaves read: it is an
+eighteenth-century fair copy (Coislin collection) of the 1583–84 letters and instructions, all in clear, with a table of
+contents of diplomatic texts only; a copyist would not have kept cipher figures, so it was not swept further. Also
+surfaced by the search and not yet looked at: fr. 3985 and BnF *Recueil de lettres … émanant de Henri IV* (btv1b10035037p),
+and the printed *Accort et capitulation faict entre le roy de Navarre et le duc de Cazimir pour la levee de l'armee des
+reistres* (1587, bpt6k79516b), which is the contract the October 1585 letter refers to.
+
+**f. 321 at 3×.** One segment is clean of strike-through and confirms the key against the interlinear *et s'il fault*:
+`61 130 33 78 54 52` = et si l fa u t. Elsewhere the strike-through still turns 9 into 4 and 3 into 8 (*le chemin* read
+44 17 84 105 98 for 99 17 89 105 38), so the leaf stays unretranscribed.
+
+**Correction to step 1 above.** The five "alignments" of the residue test are cyclic shifts of one count: the residue
+classes of the figures 54–123 carry 27 / 67 / 31 / 26 / 14 tokens (165 in all), and the class with 67 (41 %) is the *e*
+slot, which fixes the table start modulo five (54 ≡ 4 mod 5). The start itself (54 rather than 59 or 64) came from the
+reading, as step 4 says.
+
 **Checked:** every canvas of the volume at 900 px, with the even canvases of solo sheets re-paired (`fixsheets.py`); the
 f. 333 figures at 2×; the f. 366 figures at 3×; Tomokiyo's table against f. 333 word by word. **Not checked:** 500 Colbert
-402 (the second Ségur volume) for further letters in this key; Tomokiyo's f. 321 table figure by figure against the leaf;
+402 (the second Ségur volume, not digitised) for further letters in this key; fr. 3985 and btv1b10035037p; Tomokiyo's f. 321 table figure by figure against the leaf;
 the identity of 189/190/204/166/167 in f. 333. **User must verify:** the dating of f. 366 and the reading *escri* before
 either is quoted.
 

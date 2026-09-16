@@ -5,7 +5,8 @@ from solve import parse, clean, BLOCK0, NBLK
 seed = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 rnd = random.Random(seed)
 # target shape: count letter tokens per cipher run and clear runs, from the real files
-files = ['ct_233.txt', 'ct_239.txt', 'ct_288.txt']
+import os
+files = os.environ.get('CTFILES', 'ct_233.txt,ct_239.txt,ct_288.txt').split(',')
 items, syms = parse(files)
 runs = []  # list of (kind, length) kind C=cipher run (count of letter+syll tokens), P=plain text string
 cur = None

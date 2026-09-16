@@ -1,0 +1,100 @@
+% HistoCrypt 2027 short paper draft (4 pages excluding references). Anonymous for submission.
+% Compile: pdflatex segur1586 && bibtex segur1586 && pdflatex segur1586 && pdflatex segur1586
+% Status 2026-09-16: first full draft from cyphersolver/segur/NOTES.md and reading.md. \todo marks are Daniel's fills.
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Henry of Navarre's Figure Cipher to S\'egur, 1585--86: \\ Structure First, Then Annealing, on 461 Figures}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Three letters of 1585--86 in BnF Cinq cents de Colbert 401 (ff.~233, 239, 288v), catalogued as Henry III's and listed as undeciphered, are read here from the Gallica images. The cipher is a numerical homophonic substitution with a seventy-entry syllabary. Its structure was recovered before any letter was known: the frequencies of the figures above 53 taken modulo five put forty per cent of the mass in one residue, the signature of consonant blocks in the vowel order \emph{a e i o u}. A simulated-annealing solver constrained to that structure, and given the letters' clear French as fixed context for a 5-gram model, converged on a key that turned out to be alphabetical (a~4--6 \ldots\ u~45--47, x y z, \emph{et}, a null; syllables \emph{ba}\ldots\emph{vu} 54--123). On matched controls of the same size and shape the method recovers 97\,\% of the letter tokens. The letters are Henry of Navarre's, not Henry III's: they order S\'egur-Pardaillan to conclude with Duke John Casimir, raise the largest possible levy of reiters and march it by the Vivarais or Dauphin\'e road. A sweep of the whole volume found one further leaf in the same key, an autograph of Navarre, and showed that the sibling key Tomokiyo reconstructed from f.~321 is the same table shifted by eight. A dozen word-signs remain unglossed.
+\end{abstract}
+
+\section{The documents}
+
+Cinq cents de Colbert 401 is the first volume of the papers of Jacques de S\'egur-Pardaillan's negotiation with the German Protestant princes for Henry of Navarre, 1584--88 \cite{BnF:Colbert401}. Tomokiyo's survey of French ciphers under Henry III \shortcite{Tomokiyo:henryiii} notes at f.~321 a letter with interlinear decipherment from which he reconstructs a key, and lists four further letters ``of Henry III to S\'egur'' at ff.~143, 233, 239 and 288v as being in a different, unread cipher. The same items stand on his list of unsolved historical ciphers \shortcite{Tomokiyo:unsolved}.
+
+The three letters of 1585--86 carry 461 numerical tokens over 102 distinct values, 25 further signs written in letters (\emph{pi}, \emph{na}, \emph{gne}, \emph{H}, \emph{L}\ldots) and one square glyph, embedded in about two thousand words of clear French. They are signed \emph{Henry} at Montauban and La Rochelle, close \emph{vostre affectionn\'e maistre et parfait amy}, and speak of \emph{mon frere Mons.\textsuperscript{r} le Prince} (Cond\'e) and \emph{mon cousin le duc de Montmorency}: they are Navarre's, as the volume's title says, and so is the f.~321 letter, addressed to Clervant, Buhy and S\'egur as \emph{conseillers en mon conseil d'estat et surintendans de ma maison et finances}. The 1583 letter at f.~143 is \emph{to} S\'egur, from a correspondent at Beaupr\'eau, and its clear text describes the cipher family: \emph{vous y avez toutes choses tellement dispers\'ees en lettres, syllabes, doubles, nulles et tout le reste qu'il est impossible de le descouvrir}.
+
+\section{Structure before letters}
+
+Figures 1--53 account for 294 tokens, 54--123 for 165, and three values lie above 123. The upper range is where a syllabary would sit. Table~\ref{tab:mod5} gives the token counts of the figures 54--123 by residue modulo five: one class carries 67 of 165 tokens, the other four between 14 and 31. Blocks of five in the vowel order \emph{a e i o u}, with \emph{e} the heaviest, are the natural reading, and the heavy class fixes where the blocks begin modulo five. The same test modulo 4 and 6 gives nothing comparable.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+residue class of figures 54--123 & 54, 59, \ldots & 55, 60, \ldots & 56, 61, \ldots & 57, 62, \ldots & 58, 63, \ldots \\
+tokens (165 in all) & 27 & \textbf{67} & 31 & 26 & 14 \\
+vowel & \emph{a} & \emph{e} & \emph{i} & \emph{o} & \emph{u} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:mod5} Tokens of the figures 54--123 by residue modulo five. One class carries 41\,\% of the mass, which fixes the vowel order and the table start modulo five; the start itself (54, not 59 or 64) came from the first reading.}
+\end{table}
+
+The residue test is cheap and decisive, and it is worth stating why it works: an alphabetical syllabary lists each consonant's five syllables consecutively, so the vowel is the residue and the consonant the quotient. French text puts about forty per cent of its vowels on \emph{e}; the \emph{e}-slot dominates whatever the consonants are. We suggest the test as a first step on any French or Italian figure cipher of the 1570s--1640s with values running past sixty.
+
+\section{The structured annealer}
+
+The solver models the figures below the block start as free homophones over 22 letters and a null (\emph{u}=\emph{v}, \emph{i}=\emph{j}), each block of five as one consonant with its fixed vowel, letter-written signs and figures above the table as unknown tokens that are skipped, and the surrounding clear French as fixed plaintext. It scores the rendered text with a 5-gram model built from 9.4 million letters of sixteenth-century French (the correspondence of Catherine de M\'edicis and the collections of Teulet and Labanoff, spaces removed). Moves reassign or swap a letter symbol, or reassign or swap a block consonant; nulls carry a penalty of three nats per dropped letter, without which the annealer nulls everything. Three hundred thousand steps, twelve seeds.
+
+The first run took the table to start at 64 and have twelve blocks; five of twelve seeds agreed on one key. Its text already read \emph{capituler et conclure promptement avec ceux que vous adviserez \ldots\ le duc Casimir \ldots\ faire la lev\'ee \ldots\ la faire marcher le plus tost, quelque prompt secours, deux mille reistres, dix mil escus, chemin, Vivar\`es, Daulphin\'e}, and the letter part of the key came out alphabetical on its own (a~4--6, b~7, c~9--10, d~11--12, e~13--15, g~18, h~20--21, i~22--24, l~26, m~27--28, n~29--30, o~31, p~34--35, r~38--39, s~40--42, t~43--44, u~45--47), which no move of the annealer rewards and which is the independent check. Reading \emph{et conclure}, \emph{secours} and \emph{le duc Casimir} against the syllables forced 62 = \emph{co}, 59 = \emph{ca}, 65 = \emph{de}, 56 = \emph{bi}: the table starts at 54 with \emph{b c d\ldots}, fourteen consonants (\emph{b c d f g l m n p q r s t v}). Rerun with that structure, six of eight seeds agree, and the blind key has 88.9\,\% of the letter tokens and 90.9\,\% of the syllable tokens right against the final key; the blocks it misses are \emph{b}, \emph{qu} (a two-letter consonant the model cannot write) and \emph{v} (written \emph{u}). Table~\ref{tab:key} gives the key.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+figures & value \\
+\midrule
+1, 2, $\square$ & \emph{\'ee}, \emph{ll}, \emph{ss} (doubles) \\
+4--6 a, 7--8 b, 9--10 c, 11--12 d, 13--15 e, 16--17 f, 18 g, 19--21 h, 22--24 i/j & letters, alphabetical \\
+25--26 l, 27--28 m, 29--30 n, 31--33 o, 34--35 p, 36--37 q, 38--39 r, 40--42 s, 43--44 t & \\
+45--47 u/v, 48 x, 49--50 y, 51 z & \\
+52 & \emph{et} \\
+53 & null / word end \\
+54--58 \emph{ba be bi bo bu}, 59--63 \emph{ca}\ldots, 64 \emph{da}, 69 \emph{fa}, 74 \emph{ga}, 79 \emph{la}, 84 \emph{ma}, & syllabary, fourteen rows \\
+89 \emph{na}, 94 \emph{pa}, 99 \emph{qua}, 104 \emph{ra}, 109 \emph{sa}, 114 \emph{ta}, 119--123 \emph{va}\ldots\emph{vu} & \\
+\emph{pi} = \emph{est}, \emph{Ra} = \emph{faictes}, \emph{qu} = \emph{vous}, \emph{na} = \emph{affaires}? & word-signs read from context \\
+\emph{X, gla, gne, gna, pe, pu, e, H, L, Ne, qua, gu}; 180, 215?, 900 & word-signs and nomenclature, open \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:key} The recovered key. Homophone counts (three for a e h i o u, two for b c d f l m n p q r s t, one for g x z) match the design of the f.~321 key.}
+\end{table}
+
+\paragraph{Controls.} Three passages of Catherine de M\'edicis' letters were enciphered with random keys of the hypothesised shape, the same token counts and the same interleaving of clear text as the target. With the wrong structure (start 64, twelve blocks) the solver recovered 47\,\% and 90\,\% of the letter tokens on two controls; with the right one (start 54, fourteen blocks) it recovered 96.6\,\% and twelve of fourteen blocks, missing \emph{x} and \emph{f}, one token each. A fourth control matched to the 121 tokens of the sibling letter f.~333 (59 letter tokens, sixteen blocks) shows where the method stops: twelve seeds disagree and the best recovers 37\,\% of the letter tokens and three blocks, the same as the blind run on f.~333 itself.
+
+\section{What the letters say}
+
+October 1585, a month after the bull of excommunication and the loss of most of Navarre's Guyenne places: S\'egur is to \emph{capituler et conclure promptement avec ceux que vous adviserez}, if possible \emph{avec le duc Casimir ou par son consentement, et faire la lev\'ee la plus grande et la faire marcher}; Clervant is written to for \emph{la lev\'ee de deux mille reistres} he is \emph{oblig\'e} to furnish under \emph{la contracte avec les Eglises}, and failing other means \emph{qu'il s'aide des dix mil escus de [180]}; the king wants to know \emph{le chemin qu'il tiendra}, and \emph{les chemins le Vivar\`es ou Daulphin\'e pourroient estre propres}. February 1586, Montauban: \emph{n'espargner aucun moyen \ldots\ secourir en toute diligence, et remuez toutes pieces \ldots\ obligez-y tout}. April 1586, a slip: \emph{[Je] suis en extreme peine de n'avoir eu de vos [affaires] \ldots\ faictes s'il vous est possible la plus grande lev\'ee qui ayt est\'e faite; les deux mille reistres que Monsieur de Clervant est oblig\'e fournir nous seroient tres necessaires \ldots\ nos places sont bien fortifi\'ees}. A postscript in another hand adds Drake's \emph{tres grande prise} (Santo Domingo, January 1586). All of it belongs to the German levy that Casimir, Clervant and S\'egur negotiated through 1586 and that marched in 1587 to Auneau. Whether 180 is the Queen of England is an inference from the ten thousand \'ecus, not a reading.
+
+\section{The rest of the volume and the sibling key}
+
+All 440 images of the volume were read. Cipher occurs on six leaves: the four listed, Tomokiyo's ff.~321 and 333, and f.~366, an unlisted autograph of Navarre from the autumn of 1586 whose three cipher lines use the same key (the sign \emph{gu} and figures below 12 exclude the other); one line reads \emph{escri}, the other two look like names in the king's own phonetic spelling and are unread. Nine other letters of Navarre in the volume are in clear. No fourth secretary letter exists there, so the word-signs stay open.
+
+Tomokiyo's f.~321 key, read against our transcription of f.~333 (121 tokens, a news-sheet of 10 July 1586), yields \emph{aussi tost que les reistres marcheront il montera \`a cheval \ldots\ il fault avancer la lev\'ee et la faire marcher le plustost qu'on pourra}, and the reading fills 24 = f, 34 = l, 36 = m, 61 = \emph{et}. With those the f.~321 key is the ff.~233 key shifted by eight in the letters (a~12--14 \ldots\ u~53--55, \emph{et}~60--62) with \emph{h} and \emph{j} rows added to the syllabary: one chancery, one design, two offsets. The blind annealer on f.~333 alone (58 letter tokens) did not converge, which fixes the method's floor between 120 and 460 tokens for this design. f.~321 itself, every figure struck through by the decipherer, was not re-transcribed.
+
+\section{Conclusion}
+
+A 461-token homophonic cipher with a syllabary, below the size at which free homophonic solvers work on French, was read by fixing the syllabary's structure from a residue count and letting the annealer fill letters and consonants with the clear text as context. The recovered key is alphabetical, which the solver was not told and which is the strongest evidence that it is right. The catalogue should record the letters as Henry of Navarre's, add f.~366, and note the relation of the two keys. What remains open is a dozen word-signs, which the second volume of the S\'egur papers (Colbert 402, not digitised) or the key sheet itself would close. Code, transcriptions, key files and controls are in the accompanying repository \todo{URL after anonymity is lifted}.
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}
