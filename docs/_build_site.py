@@ -72,6 +72,8 @@ PAGES = [
          blurb='Kryptos, Voynich, Dorabella, Beale, Linear A, Phaistos, the pigeon message. Sorted by the actual reason each has held out: undeciphered writing systems, one that is information-theoretically secure, several too short for any answer to be provable, and at least two that were probably never enciphered.',
          quote='Fame is a poor guide to tractability.'),
 ]
+IMAGES = {'richelieu': None, 'ormonde': ('ormonde_p28.jpg', 'Page of the Maltravers to Ormonde cipher letter, 1634', 'Ormonde manuscripts'), 'vatican': ('vatican_meister176.jpg', 'Meister 1906, page 176: the Farnese chancery keys of 1539 to 1542, including the last cipher with Poggio', 'Meister, Die Geheimschrift, 1906, via the Internet Archive'), 'hyde': ('hyde_p396.jpg', 'Page 396 of the Life of Barwick, 1724, with the ciphered superscription', 'Life of Barwick, 1724'), 'armstrong': ('armstrong_ps.jpg', 'The coded postscript of Armstrong to Madison, 30 August 1808', 'Founders Online'), 'debosnys': ('debosnys_verse.png', 'Debosnys cipher poem in his invented script, 1883', ''), 'sunyatsen': ('sunyatsen_telegram.png', 'The Swatow telegram to Sun Yat-sen, 3 April 1916', 'JACAR'), 'huangxing': ('huangxing_telegram.png', 'Telegram from Huang Xing, 25 May 1916', 'JACAR'), 'goldbar': ('goldbar_bar.jpg', 'One of the seven Chinese gold bars with its Latin-letter strings', 'IACR'), 'copenhagen': ('copenhagen_note.jpg', 'The Copenhagen cryptogram: three lines of digits, letters and strokes', 'Scan published by Klaus Schmeh, Cipherbrain, 2015'), 'scorpion': ('scorpion_s1.jpg', 'Scorpion cipher S1, 70 symbols in a 10 by 7 grid, 1991', 'FBI release via Oranchak and Schmeh'), 'voynich': ('voynich_f34r.jpg', 'Voynich manuscript, folio 34r: a herbal page with four paragraphs of Voynichese', 'Beinecke MS 408, public domain, via Wikimedia Commons'), 'famous': None}
+
 GROUPS = [('Solved', lambda p: p['st'] == 'solved'), ('Explained', lambda p: p['st'] == 'found'),
           ('Partly read', lambda p: p['st'] == 'partial' and p['slug'] != 'famous'),
           ('Attempted, not solved', lambda p: p['st'] == 'stuck'), ('Survey', lambda p: p['slug'] == 'famous')]
@@ -126,7 +128,9 @@ def toc_html(s):
     return '<nav class="toc" aria-label="On this page"><span>On this page</span>' + ''.join(links) + '</nav>\n'
 
 def card_html(p):
-    return (f'  <a class="card" href="{p["slug"]}.html">\n'
+    im = IMAGES.get(p['slug'])
+    thumb = f'    <img class="thumb" src="{im[0]}" alt="" loading="lazy">\n' if im else ''
+    return (f'  <a class="card{" hasthumb" if im else ""}" href="{p["slug"]}.html">\n' + thumb +
             f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span><span class="st {p["st"]}">{p["stt"]}</span></div>\n'
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
 
@@ -160,6 +164,16 @@ def process(path):
     if slug != 'index':
         toc = toc_html(s)
         if toc: s = re.sub(r'<main>\n*', lambda m: '<main>\n' + toc, s, count=1)
+    # lead figure: pages that have an image in the manifest but no figure of their own get one after the contents strip
+    im = IMAGES.get(slug)
+    s = re.sub(r'<figure class="lead">.*?</figure>\n?', '', s, flags=re.S)
+    if im and '<figure' not in s:
+        cap = im[1] + (f'. {im[2]}.' if im[2] else '.')
+        fig = f'<figure class="lead"><img src="{im[0]}" alt="{im[1]}"><figcaption>{cap}</figcaption></figure>\n'
+        if '<nav class="toc"' in s:
+            s = re.sub(r'(<nav class="toc".*?</nav>\n)', lambda m: m.group(1) + fig, s, count=1, flags=re.S)
+        else:
+            s = s.replace('<main>', '<main>\n' + fig, 1)
     # drop inline style blocks made of shared rules only
     def strip_style(m):
         rules = re.findall(r'([^{}]+)\{', m.group(1))
@@ -177,7 +191,7 @@ def process(path):
         if '<!-- cards:start -->' in s:
             s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
         else:
-            s = re.sub(r'(<h2><span class="num">01</span> Write-ups</h2>\s*)<div class="cards">.*?</div>\n(?=\n<h2)', lambda m: m.group(1) + cards + '\n', s, count=1, flags=re.S)
+            s = re.sub(r'(<h2(?: id="writeups")?><span class="num">01</span> Write-ups</h2>\s*)<div class="cards">.*?</div>\n(?=\n<h2)', lambda m: m.group(1) + cards + '\n', s, count=1, flags=re.S)
     path.write_text(s, encoding='utf-8')
     return slug
 

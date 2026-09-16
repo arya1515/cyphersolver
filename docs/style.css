@@ -184,6 +184,18 @@ td.n,th.n{text-align:center;font-family:var(--mono)}
 .card .go{position:absolute;right:1.2rem;bottom:1rem;font-family:var(--mono);font-size:.8rem;color:var(--gold);opacity:.7;transition:transform .25s,opacity .25s}
 .card:hover .go{transform:translateX(4px);opacity:1}
 
+/* card thumbnails and lead figures */
+.card.hasthumb{padding-top:0}
+.card .thumb{display:block;width:calc(100% + 2.8rem);margin:0 -1.4rem 1rem;aspect-ratio:16/7;object-fit:cover;object-position:center 30%;
+  border-bottom:1px solid var(--rule);filter:sepia(.35) contrast(1.02) brightness(.92);transition:filter .3s,transform .3s}
+.card:hover .thumb{filter:sepia(.05) contrast(1.04) brightness(1);transform:scale(1.02)}
+figure.lead{margin:0 0 2rem}
+figure.lead img{max-height:420px;object-fit:cover;width:100%}
+.bignews.hasart{display:grid;grid-template-columns:1.4fr 1fr;gap:1.4rem;align-items:center}
+.bignews.hasart .art{margin:0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--rule);box-shadow:var(--shadow);aspect-ratio:4/5}
+.bignews.hasart .art img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.15)}
+@media (max-width:760px){.bignews.hasart{grid-template-columns:1fr}.bignews.hasart .art{aspect-ratio:16/9}}
+
 /* stats & progress */
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin:1.5rem 0}
 .stat{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:1rem 1.1rem}
