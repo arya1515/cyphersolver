@@ -112,6 +112,7 @@ def footer_html(current):
     if prev: links.append(f'<a href="{prev["slug"]}.html" rel="prev">&larr; {prev["label"]} {prev["year"]}</a>')
     if nxt: links.append(f'<a href="{nxt["slug"]}.html" rel="next">{nxt["label"]} {nxt["year"]} &rarr;</a>')
     links.append(f'<a href="{REPO}" rel="noopener">Code &#8599;</a>')
+    links.append('<a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a>')
     links.append('<a href="#top">Top &uarr;</a>')
     return (f'<footer><div class="in">\n  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0{rights}</span>\n'
             f'  <nav aria-label="Footer">{"".join(links)}</nav>\n</div></footer>')

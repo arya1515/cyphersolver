@@ -53,9 +53,7 @@ It went out in a cipher of the Chinese side's own making: 139 syllables of roman
 voicing marks. S. Tomokiyo later found a memo recording that the Ministry had <em>filed a decode</em> with the telegram, so the item is listed as solved
 — but he could not read the handwritten Chinese, and the encryption scheme stayed unidentified. Both are settled here. The decode and its annotated
 Japanese reading are on frames 0247 and 0248 of the file, and the message is a short reply about the National Protection Army and a traveller's sailing
-date. The scheme is a kana condenser of a kind not previously described for this correspondence: <strong>three kana encode one character, each kana carries
-one decimal digit in its gojūon consonant row, and the vowel is free</strong> — five ways to write every digit, which is why the surface text looks like
-Japanese and almost never repeats. <em>Status: scheme identified and plaintext read; the row-to-digit permutation and the codebook itself remain open.</em>
+date. The scheme is a kana code of a kind not previously described for this correspondence: <strong>three kana encode one character, deterministically</strong>, from a private codebook. A first analysis read the consonant row as the digit and the vowel as a free homophone; the frames, re-read at 500 dpi, overturn that (section 03). <em>Status: scheme identified, one transmission error located, plaintext read, 42 codebook entries recovered; the kana-to-digit table and the rest of the book need a second telegram.</em>
 </div>
 
 <h2 id="documents"><span class="num">01</span> The file</h2>
@@ -141,21 +139,32 @@ T — H &nbsp;→&nbsp; <b>TA</b>-<b>U</b>-<b>HO</b> &nbsp;and&nbsp; <b>TE</b>-<
 S K H &nbsp;→&nbsp; <b>SA</b>-<b>KU</b>-<b>FU</b> &nbsp;and&nbsp; <b>SHI</b>-<b>KI</b>-<b>HE</b>
 </p>
 
-<p>So each kana is one decimal digit written five ways, and each character is three digits. Three digits is the finding that matters for what
-the cipher actually was: this is <strong>not</strong> the four-figure standard Chinese telegraph code, and not Yamada Junzaburō's twenty-by-five
-condenser, which packs two digits into every syllable and which failed against this text when Tomokiyo tried it. A three-digit group addresses at
-most a thousand entries, so the correspondents were working from a small private codebook of their own.</p>
+<p>That was the first reading, and the frames correct it. Re-fetched and read at 500 dpi, frame 0247 has four columns of 12, 11, 12 and
+11 characters after the heading, 46 in all, the number of kana triples:</p>
+<p class="pair">隱印崧誥邕行諸兄鑒正發書 · 間適接哿電敬悉一切護國 · 軍能速入湘贛甚好[章]行嚴何日 · 東渡望速啓行先電示興徑</p>
+<p>The earlier 50-character plaintext above followed the clerk's Japanese paraphrase on frame 0248; the cursive has 46, and 章 is an interlinear
+addition. This plaintext repeats 行 three times (positions 6, 32, 41), 速 twice (26, 39) and 電 twice (17, 43). Under the grouping above only
+one of those pairs matched. <strong>Drop one kana at position 106</strong>, the O of OHIKE at the start of character 36, and every triple from
+there on shifts by one: 行 becomes KE-KI-NI all three times, 速 HE-U-HA both times, 電 RE-U-SA both times, and the spare SU at the end
+completes the last character. The telegram as filed carries one superfluous kana, and the code is deterministic: the same character is
+always the same three kana, vowels included.</p>
+<p>The seven consonant-row collisions in the table are therefore not one character written with different vowels. After the shift they are
+pairs of <em>different</em> characters (印/護, 誥/日, 鑒/間, 書/敬, 國/嚴, 甚/何, 諸/示) that share a row triple and differ only in vowels. The
+vowels carry information. What survives of the first analysis is the rate, three kana to the character, and the fact that the kana's row is
+correlated with its code value; the excess of row collisions over chance is what that correlation looks like from outside. Three kana over a
+50-kana syllabary would address 125,000 entries, far more than any private book; the natural reading is still a three-digit code with each digit
+written as one of a set of kana, the sets not being the rows.</p>
+<p>One test of that was run and failed. If the rows were the digits of a codebook compiled in dictionary order, some permutation of the ten rows
+would make the 42 distinct characters' code numbers monotone in standard telegraph-code order. Over all 3,628,800 permutations the best
+Spearman rho is 0.524; the same search on twelve shuffles of the plaintext gives a null of mean 0.468 and maximum 0.614. No signal.</p>
 
 <h2 id="open"><span class="num">04</span> What is still open</h2>
-<p>Two things, and they are joined at the hip.</p>
 <ul>
-<li>Which digit each of the ten consonant rows stands for. That is a permutation, and the repeat pattern already constrains it, but it cannot be
-fixed without the codebook or a longer sample.</li>
-<li>The codebook. Forty-six characters of known plaintext sit against forty-six code groups, so forty-six of its entries are directly recoverable —
-the obstacle is a character-by-character transcription of the cursive on frame 0247 firm enough to trust, and several glyphs there are still
-uncertain.</li>
+<li>The kana-to-digit table. The row is not the digit, and 46 characters do not determine an assignment of 36 kana to ten values.</li>
+<li>The codebook beyond the 42 entries (character to kana triple) that this telegram fixes.</li>
 </ul>
-<p>A second telegram in the same hand would settle both at once.</p>
+<p>A second telegram in the same code would settle both. What this one settles is the scheme, the plaintext, and the transmission error that
+hid the repeats.</p>
 
 <h2 id="sources"><span class="num">05</span> Sources</h2>
 <ul>
@@ -171,7 +180,7 @@ which reports the filed decode and the preliminary analysis.</li>
 </main>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
-  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="sunyatsen.html" rel="prev">&larr; Sun Yat-sen 1916</a><a href="goldbar.html" rel="next">Gold bars 1933 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="#top">Top &uarr;</a></nav>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="sunyatsen.html" rel="prev">&larr; Sun Yat-sen 1916</a><a href="goldbar.html" rel="next">Gold bars 1933 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
 <script src="site.js?v=20260916a"></script>
 </body>
