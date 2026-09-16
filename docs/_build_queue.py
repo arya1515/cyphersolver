@@ -16,13 +16,6 @@ GH = 'https://github.com/dbourdeau/cyphersolver/blob/main/'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Henry III to S&eacute;gur, BnF 500 de Colbert 401", "1583&ndash;86",
-     GH + "segur/NOTES.md", "", "even", "md", "medium",
-     "Four letters in figures, ff. 143, 233, 239 and 288v. Carried as blocked since Gallica refused this client; <b>reopened 16 September</b>, because "
-     "the IIIF image route answers a script with a browser User-Agent. The volume's other Henry III cipher (f. 321) is a regular alphabetical "
-     "syllabary with a nomenclature from 162, the obvious prior for these. Next step: fetch and transcribe the four folios, then a homophonic solve "
-     "with the syllabary order as a hard prior, as for Bordeaux. Not yet attempted."),
-
     ("Blancmesnil to Nevers; Cocquet to Mangot; Joyeuse to Villars", "1580s&ndash;1616",
      "https://cryptiana.web.fc2.com/code/unsolved.htm", "", "low", "lo", "low",
      "Three short enciphered passages in volumes Gallica now serves over IIIF: BnF fr. 3633 f. 24, Clairambault 369 f. 316 and 500 de Colbert 33 f. 539. "

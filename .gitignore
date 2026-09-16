@@ -329,3 +329,20 @@ birago/tri_it.npy
 birago/keys3315/
 birago/cat_*.html
 birago/sru*.xml
+
+# DECODE session cookie, never commit
+vatican5/decode/cookie.txt
+**/cookie.txt
+# bordeaux: DECODE images (BL, not public domain) and fetched record pages stay local
+bordeaux/decode/*.jpg
+bordeaux/decode/*.jpeg
+bordeaux/decode/*.png
+bordeaux/decode/*.htm
+bordeaux/decode/crops/
+
+# segur: Gallica images, probes, crops, manifest and control runs stay local
+segur/img/
+segur/probe/
+segur/crops/
+segur/manifest.json
+segur/henryiii.htm
