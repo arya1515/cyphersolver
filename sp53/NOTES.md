@@ -1,4 +1,4 @@
-# SP 53/16 nos. 78 and 79 (1585?) and SP 53/22 f. 52 — attempted 2026-09-16, not solved
+# SP 53/16 nos. 78 and 79 (1585?) and SP 53/22 f. 52 — attempted 2026-09-16 and 2026-09-15 (second session), not solved
 
 The unsolved residue of the Mary Queen of Scots cipher papers on Tomokiyo's list ("More Undeciphered Letters
 Related to Mary, Queen of Scots"). All three ciphertexts are Tomokiyo's transcriptions (`SP53_16_78.txt`,
@@ -64,6 +64,49 @@ ciphertext-only homophonic attack can do, which matches Lasry's experience on d'
 **f. 52**: 84 tokens over 22 symbols. Homophonic annealing in Spanish, French, English and Italian gives fluent
 nonsense at -2.1 to -2.4 nats/letter; matched 84-token controls in the same four languages are **not solved**
 either (-2.0 to -2.3 against -1.26 to -1.32 for the truth). Below unicity; no reading claimed.
+
+## Second session, 2026-09-15: same key, glyph labels, pooled control
+
+**The numbers are labels, not figures.** Tomokiyo's transcription convention for symbol ciphers (his SP 53/16
+no. 29(2) file `SP53_16_29c.txt`, whose key image `mary_SP53_16_29_2.png` is a table of glyphs, and his Moray-Wood
+file) numbers each distinct glyph and marks variants with a letter suffix. Nos. 78 and 79 are written the same
+way (78 as `01`-`141`, 79 with variants `01a`-`01d`, `84f`, `16e`), and the letters are of the Paris-Rheims
+network whose surviving keys in SP 53/22 are all symbol tables. So these are almost certainly **symbol ciphers of
+the Mary-Castelnau class** (homophonic alphabet plus a nomenclator of glyphs), not numeric ciphers.* The
+alphabetical-block test of the first session (Hypothesis A) therefore tested a design the cipher cannot have; its
+negative result stands but says nothing. Hypothesis B (unstructured homophonic) is the right frame, and it fails
+its own 507-token control. *Inference from the notation; the page images would settle it.
+
+**One key for both letters.** Frequency profiles over the shared label set: Pearson 0.35 (Spearman 0.38) against
+0.00 ± 0.09 for 200 random relabellings of no. 79 (max 0.345). Ten of the twenty commonest labels are common to
+both letters (`01 03 10 12 15 20 68 92 101 128`), against 2.9 ± 1.5 expected by chance (P < 0.0002). The one
+strong exception, `29` (27 times in no. 79, never in no. 78), behaves like a nomenclator element proper to the
+Barret letter. Only one repeated bigram is shared (`71 15`), as expected when most letters have several
+homophones. So pooling the letters (1151 tokens, 159 labels with variants, 132 base labels) is legitimate, and
+the first session's pooled run (`run5_homo_*_7879.txt`: English -3.13, French -2.81 per letter, i.e. random
+level) is the real test.
+
+**Does doubling the text help?** Matched controls at the pooled length: 1151 tokens of period English (Poulet)
+and French (Labanoff) under a random homophonic key of 132 symbols (130 and 127 used), same annealer, 1.5 M
+iterations, two restarts (`control_*_homo1151*.txt`, `run7_ctrl_homo1151_*.txt`).
+
+| control | true plaintext | solver best | letters recovered |
+|---|---|---|---|
+| English 1151 | -1888.1 (-1.640/letter) | -3427.0 (-2.977/letter) | 31.8 % |
+| French 1151 | -1586.4 (-1.378/letter) | -3307.0 (-2.873/letter) | 7.5 % |
+
+Doubling the text does not cross the threshold: the solver lands 1.3-1.5 nats per letter below the true key, in the
+same band as its 507-token failures (-2.6 en, -2.3 fr per letter) and as the real pooled text (-3.13 en, -2.81 fr).
+The English control keeps a third of its letters only because the frequency-ranked initialisation seeds the
+commonest symbols with e, t, a. With four tokens per symbol and no cleartext context this class is not attackable
+ciphertext-only by an n-gram annealer, which is what Lasry found for d'Avaux 1684 and what the 2023 Mary letters
+needed 50 letters and 150 000 symbols to overcome. Closed from the evidence; the route in is images and keys.
+
+**Calendar entries.** Boyd's *Calendar of Scottish Papers* viii (1585-86), which would give the archivist's
+description of nos. 78 and 79, is premium content on British History Online and a restricted (lending) item on
+archive.org (HTTP 401 for the OCR text); the page images Tomokiyo names (`sp53-16-f78*.jpg`, `sp53-16-no79*.jpg`)
+are 404 on cryptiana. Neither the clear French lines nor the endorsements are available. The 1585 Rheims
+president was Dr Richard Barret; "Mr Tempest" is presumably Robert Tempest, the Durham recusant priest in Paris.
 
 ## What would move this
 

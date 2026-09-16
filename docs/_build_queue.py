@@ -15,14 +15,6 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
-    ("Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79", "1585?",
-     "https://cryptiana.web.fc2.com/code/SP53_16_78.txt", "", "good", "hi", "medium",
-     "One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, in the same hand, both endorsed by Phelippes and never "
-     "read. Tomokiyo's transcriptions are online: <b>507 and 644 groups, 132 and 102 distinct, 34 and 13 hapax</b>. That low hapax count is the "
-     "signature of a homophonic alphabet with a small nomenclator, the shape of the Mary Queen of Scots letters that fell in 2023 and of the Richelieu "
-     "reading on this site. If the two letters share one key the text doubles. Next step: test the symbol overlap between them, then a homophonic "
-     "annealer in English, French and Latin with a planted control of the same length. Added to the queue September 2026, not yet attempted."),
-
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
      "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "even", "md", "compute in progress",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
@@ -118,6 +110,17 @@ ATTEMPTED = [
      "cribs (the quene, Lethingtoun, Herreis&hellip;) are all rejected, and a word-code mask has no power at this length. Thirteen per cent of "
      "genuine Scots passages score below the solver's false optimum, and Border news is names, so the result is undetermined, not excluded. "
      "Needs the page, offline since the BL cyber-attack, or a second letter in the cipher."),
+
+    ("Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79", "1585?",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md", "", "closed: below threshold", "lo",
+     "One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, both endorsed by Phelippes and never read: "
+     "<b>507 and 644 groups, 132 and 102 symbols</b>. <b>Attempted September 2026, two sessions.</b> The numbers in Tomokiyo's transcription are "
+     "glyph labels, so these are symbol ciphers of the Mary&ndash;Castelnau class, not figure ciphers. The two letters do share a key: ten of the "
+     "twenty commonest symbols are common to both against three expected by chance, and their frequency profiles correlate at 0.35 where unrelated "
+     "keys give zero. So the text pools to 1151 groups, and it still does not fall: the homophonic annealer fails planted English and French "
+     "controls at 507 groups and again at 1151, scoring at random-text level while the true plaintext scores twice as well. Four groups per "
+     "symbol is below what ciphertext-only attacks on this class can do, as it was for Lasry on d'Avaux. The 1585&ndash;86 calendar is paywalled. "
+     "Needs the page images and the SP 53/22 keys, f. 53 first."),
 
     ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
      "<b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT "

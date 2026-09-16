@@ -94,15 +94,16 @@
 <h2 id="recent"><span class="num">00</span> Recent findings</h2>
 <p>Newest first. One line each &mdash; the evidence is in the <a href="#queue">queue</a> below, or in the write-up linked.</p>
 <ul class="findings">
+<li><b>SP53/16 nos. 78 and 79, 1585</b> &mdash; <span class="fnd">one key for both letters, and still below threshold.</span> Ten of the twenty commonest symbols are common to the Tempest and Barret letters against three expected by chance, so the text pools to 1151 groups; the homophonic annealer then fails planted English and French controls at that length as it did at 507. The labels are glyphs, so these are symbol ciphers of the Mary&ndash;Castelnau class. Needs the images and the SP 53/22 keys. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md">Notes &rarr;</a></li>
 <li><b>Moray to Wood, 1568</b> &mdash; <span class="fnd">attempted; undetermined at 134 groups.</span> A 5-gram Scots annealer reads five of six planted controls of the same 32-symbol profile at 93&ndash;98% and returns nothing on the letter, in Scots, English, French or Latin; no null, separator or crib survives. The catalogue says the passage is Border news, i.e. names, and 13% of genuine Scots passages score below the solver&rsquo;s false optimum. Needs the page or a sibling letter. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/moray/NOTES.md">Notes &rarr;</a></li>
 <li><b>Feuqui&egrave;res to Catinat, 1691</b> &mdash; <span class="fnd">Bazeries read it in 1893 and never printed it.</span> His book, read in full, confirms a 367-group <i>petit chiffre</i> but gives neither text nor table; the reading is in his papers at the SHD. Here the ciphertext is corrected from the 1819 pages, the two-part design fixed, and the solvers fail a matched control. <a href="https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres">Notes &rarr;</a></li>
 <li><b>Louis XIV to Chaulnes, 1690</b> &mdash; <span class="fnd">code design established, not read.</span> 300 groups verified from the page images, a one-part Croissy table of at least 535 entries identified from its step-10 chains, and no printed plaintext found; the annealer recovers 4&ndash;12% of a matched control, so 300 groups do not fix a 116-entry nomenclator. <a href="https://github.com/dbourdeau/cyphersolver/blob/main/chaulnes/NOTES.md">Notes &rarr;</a></li>
 <li><b>Maltravers to Ormonde, 1634&ndash;35</b> &mdash; <span class="fnd">nomenclator confirmed; moved from partial to solved.</span> Wentworth&rsquo;s own dispatches in Knowler&rsquo;s <em>Strafforde&rsquo;s Letters</em> (1739) describe the King refusing to see Kildare and Ormonde moved for the Council &ldquo;in exchange&rdquo; for Crosby, clause for clause with the cipher passages. Seven of nine codes fixed. <a href="ormonde.html">Full write-up &rarr;</a></li>
 <li><b>Voynich manuscript</b> &mdash; <span class="fnd">adjudicated, not deciphered.</span> Plain or simply enciphered European language excluded on transliteration-robust entropy; grille and free-edit self-citation disfavoured; verbose encoding against structured meaningless text left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></li>
 <li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
-<li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
 </ul>
 <div class="more" hidden><ul class="findings">
+<li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
 <li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route, single columnar and forward double columnar (same key to width 30, two keys to 16 &times; 16) excluded against planted controls; the reversed direction and the long-key attack are running.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
@@ -118,7 +119,7 @@
 <li><b>Berthier to Napoleon, 1812</b> &mdash; <span class="fnd">plaintext located,</span> in print since 1912, drawn from the very archive carton the cryptogram sits in.</li>
 <li><b>Chinese gold bars, 1933</b> &mdash; <span class="fnd">constructed, not enciphered,</span> now corroborated from a second direction by the documentary evidence. <a href="goldbar.html">Full case &rarr;</a></li>
 </ul></div>
-<button class="showmore" type="button" data-target="findings">Show 14 earlier findings</button>
+<button class="showmore" type="button" data-target="findings">Show 15 earlier findings</button>
 
 
 <h2 id="writeups"><span class="num">01</span> Write-ups</h2>
@@ -189,21 +190,13 @@
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
   <button class="qf on" data-f="all">All <span>36</span></button>
-  <button class="qf" data-f="live">Worth continuing <span>9</span></button>
-  <button class="qf" data-f="done">Attempted <span>19</span></button>
+  <button class="qf" data-f="live">Worth continuing <span>8</span></button>
+  <button class="qf" data-f="done">Attempted <span>20</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
 <h3 class="tier" data-t="live">Worth continuing <small>no archive access needed; ranked by odds against effort, the next step named in each</small></h3>
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
-  <div class="tg-b">
-    <h3><a href="https://cryptiana.web.fc2.com/code/SP53_16_78.txt">Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79</a><span class="tg-date">1585?</span></h3>
-    <div class="tg-meta"><span class="odds hi">good</span><span class="eff">medium effort</span></div>
-    <p>One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, in the same hand, both endorsed by Phelippes and never read. Tomokiyo's transcriptions are online: <b>507 and 644 groups, 132 and 102 distinct, 34 and 13 hapax</b>. That low hapax count is the signature of a homophonic alphabet with a small nomenclator, the shape of the Mary Queen of Scots letters that fell in 2023 and of the Richelieu reading on this site. If the two letters share one key the text doubles. Next step: test the symbol overlap between them, then a homophonic annealer in English, French and Latin with a planted control of the same length. Added to the queue September 2026, not yet attempted.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
     <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
     <div class="tg-meta"><span class="odds md">even</span><span class="eff">compute in progress</span></div>
@@ -211,7 +204,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">3</span></div>
+  <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.blogspot.com/2021/09/charles-i-boswell-cipher-1643.html">Charles I to Boswell, and Nicholas to Boswell</a><span class="tg-date">1643</span></h3>
     <div class="tg-meta"><span class="odds md">even</span><span class="eff">medium effort</span></div>
@@ -219,7 +212,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">4</span></div>
+  <div class="tg-l"><span class="tg-rank">3</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.blogspot.com/2021/09/an-unsolved-letter-of-richard-forster.html">Richard Forster, possibly to Henrietta Maria</a><span class="tg-date">1644</span></h3>
     <div class="tg-meta"><span class="odds md">even</span><span class="eff">low effort</span></div>
@@ -227,7 +220,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">5</span></div>
+  <div class="tg-l"><span class="tg-rank">4</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">“Cifer with Spanish spy”, SP53/22 f.52</a><span class="tg-date">1580s</span></h3>
     <div class="tg-meta"><span class="odds md">partial</span><span class="eff">low effort</span></div>
@@ -235,7 +228,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">6</span></div>
+  <div class="tg-l"><span class="tg-rank">5</span></div>
   <div class="tg-b">
     <h3><a href="https://gallica.bnf.fr/ark:/12148/btv1b9060248g/f120.item">Lodovico Birago to the Duke of Nevers, the numerical paragraph</a><span class="tg-date">1571</span></h3>
     <div class="tg-meta"><span class="odds md">partial</span><span class="eff">medium effort</span></div>
@@ -243,7 +236,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">7</span></div>
+  <div class="tg-l"><span class="tg-rank">6</span></div>
   <div class="tg-b">
     <h3><a href="armstrong.html">Armstrong to Madison, 20 February 1808: the disputed contest solution</a><span class="tg-date">1808</span></h3>
     <div class="tg-meta"><span class="odds md">adjudication</span><span class="eff">medium effort</span></div>
@@ -251,7 +244,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">8</span></div>
+  <div class="tg-l"><span class="tg-rank">7</span></div>
   <div class="tg-b">
     <h3><a href="http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/">Louis XIV to the Duke of Chaulnes in Rome</a><span class="tg-date">1690</span></h3>
     <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
@@ -259,7 +252,7 @@
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">9</span></div>
+  <div class="tg-l"><span class="tg-rank">8</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
     <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">not started</span></div>
@@ -297,6 +290,14 @@
     <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/moray/NOTES.md">Regent Moray to John Wood, the Scottish ambassador in London</a><span class="tg-date">1568</span></h3>
     <div class="tg-meta"><span class="odds lo">undetermined</span></div>
     <p>BL Add MS 32091 f.213, 13 July 1568, <b>134 groups over 32 symbols</b> in Tomokiyo's transcription. The Catalogue of Additions says what the letter does: refuses Wood's recall and sends Border news. <b>Attempted September 2026.</b> A 5-gram Scots annealer, built from the <i>Diurnal of Occurrents</i>, the Privy Council register and Pitscottie, reads <b>five of six planted 134-letter controls</b> of the same symbol profile at 93&ndash;98%; on the letter it returns gibberish, scoring below every solved control, and English, French and Latin models do no better. No symbol behaves as a null or a word separator, Tomokiyo's variants are distinct symbols, twenty dragged cribs (the quene, Lethingtoun, Herreis&hellip;) are all rejected, and a word-code mask has no power at this length. Thirteen per cent of genuine Scots passages score below the solver's false optimum, and Border news is names, so the result is undetermined, not excluded. Needs the page, offline since the BL cyber-attack, or a second letter in the cipher.</p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md">Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79</a><span class="tg-date">1585?</span></h3>
+    <div class="tg-meta"><span class="odds lo">closed: below threshold</span></div>
+    <p>One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, both endorsed by Phelippes and never read: <b>507 and 644 groups, 132 and 102 symbols</b>. <b>Attempted September 2026, two sessions.</b> The numbers in Tomokiyo's transcription are glyph labels, so these are symbol ciphers of the Mary&ndash;Castelnau class, not figure ciphers. The two letters do share a key: ten of the twenty commonest symbols are common to both against three expected by chance, and their frequency profiles correlate at 0.35 where unrelated keys give zero. So the text pools to 1151 groups, and it still does not fall: the homophonic annealer fails planted English and French controls at 507 groups and again at 1151, scoring at random-text level while the true plaintext scores twice as well. Four groups per symbol is below what ciphertext-only attacks on this class can do, as it was for Lasry on d'Avaux. The 1585&ndash;86 calendar is paywalled. Needs the page images and the SP 53/22 keys, f. 53 first.</p>
   </div>
 </article>
 <article class="tg done">
