@@ -1,0 +1,9 @@
+PERMUTATION TEST (spaced model): Pitt key -524.9; null mean -1768.2 sd 142.1 max -1230.4; z=8.8; #>=real 0/20000
+TARGET blind (word edges): score -438.1 (Pitt -524.9); agreement with Pitt key 0.976
+   reading: il nu a aucun subiet descrupule de manquera dieu | lesreilles de perfection preneisdulement lesuouesde prudence piur conceruer uotre uie pour enfaire a dieu un plus grand sacrifiue parla multiplication des uos seruices pour lesalut de uos freres |
+CONTROL 0: found -375.2 truth -375.2 letters right 1.000 | clerge et enuoyee par toutes les eglises et dans toutes les uniuer sites sans qu se soit r
+CONTROL 1: found -437.4 truth -479.9 letters right 0.976 | etudie toute sauieque la philosophie parlant ilin le sens commun con adioit et qui ne sest
+CONTROL 2: found -342.5 truth -348.7 letters right 0.995 | faculte sur samoctrine et sa fidelite surlaquelle letat auait touiours fait un grand fond 
+CONTROL 3: found -334.7 truth -344.0 letters right 0.986 | que personne n auait encore uu arriuer iusques a present on prenait de part dans le mondea
+CONTROL 4: found -354.0 truth -354.0 letters right 1.000 | reduire a un petitnombre les docteurs uocaux quon ne laisserait que peu de suffrages a ceu
+CONTROL 5: found -319.4 truth -319.4 letters right 1.000 | retranchement est a dire a expedition des bulles des eueques deassemblee de on repritle tr

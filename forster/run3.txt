@@ -1,0 +1,9 @@
+PERMUTATION TEST (spaced model): Pitt key -602.4; null mean -1765.7 sd 140.0 max -1250.5; z=8.3; #>=real 0/20000
+TARGET blind (word edges): score -591.6 (Pitt -602.4); agreement with Pitt key 0.145
+   reading: ii is n eiiin iiiiit iisiiijiii si ieiiiiin iiii | iiiiiitiis si jiiiiitiii jiiiiiiiiiiiiie oiiiisiiii jiiiiiii jiii iiiiiiiii iitii iii jiii ininiii e iiii ii jiii biens seiiijisi jeiin iiotijiiieiiin iis iii siiiiiii jiii oiieiit si iii jiiiis |
+CONTROL 0: found -348.9 truth -348.9 letters right 1.000 | laisses faire sans le moindre mot de condamnation ni meme de simple avertissement ce n est
+CONTROL 1: found -397.6 truth -405.3 letters right 0.990 | que enregistrement setaitbii iulla deliberatione babita liceta nonpaucis petila est vrai q
+CONTROL 2: found -602.5 truth -536.8 letters right 0.440 | iili piiise iiitieii vits le dieiidi la ialilie irii e e ii liiiiie ilre ete iitte vieille
+CONTROL 3: found -364.2 truth -364.2 letters right 1.000 | ses droitssans qu pariit quelque soumission de sa partde peur qu ils ne semblassent reconn
+CONTROL 4: found -317.8 truth -317.8 letters right 1.000 | qu elle etait archeveque deparis et le premier president jugerent bien qu une compagnie si
+CONTROL 5: found -388.5 truth -388.5 letters right 1.000 | ministres parurent en demeurer accord ils dirent que sa sainlete voulait bien souffrir com

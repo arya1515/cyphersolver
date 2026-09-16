@@ -1,0 +1,51 @@
+LITERAL DECODING WITH THE SUPPLIED PROPOSED KEY
+207 cipher tokens; 34 distinct symbols
+No editorial repairs; f -> b is a tentative lexical assignment.
+
+il, ny, a, aucun, subiet, descrupule, de, manquera, dieu
+[ALREADY PLAINTEXT] ie vous en responds et mesmes dans
+lesreigles, de, perfection, prenezsdulement, lesuoyesde, prudence, piur, conceruer, uotre, uie, pour, enfaire, a, dieu, un, plus, grand, sacrifiye, parla, multiplication, des, uos, seruices, pour, lesalut, de, uos, freres
+[ALREADY PLAINTEXT] et mesurer a cela sil est meilleur d’agir, ou
+de soupir 13. de may. 1644
+
+COMPLETE CIPHER GROUP ALIGNMENT
+ 1.   1-  2: d c -> il
+ 2.   3-  4: t g -> ny
+ 3.   5-  5: p -> a
+ 4.   6- 10: 4 30 q 30 19 -> aucun
+ 5.  11- 16: x 30 f 16 2 50 -> subiet
+ 6.  17- 26: a 0 40 12 20 30 y 30 c 2 -> descrupule
+ 7.  27- 28: 7 0 -> de
+ 8.  29- 36: u 4 t 88 30 0 l p -> manquera
+ 9.  37- 40: a d 2 30 -> dieu
+[ALREADY PLAINTEXT] ie vous en responds et mesmes dans
+10.  41- 50: c 0 x l 2 d e c 0 40 -> lesreigles
+11.  51- 52: 7 2 -> de
+12.  53- 62: y 0 20 n 2 12 50 16 s t -> perfection
+13.  63- 77: 90 20 0 t 2 14 x a 30 c 2 u 0 t b -> prenezsdulement
+14.  78- 87: 80 2 x 30 s g 0 x a 2 -> lesuoyesde
+15.  88- 95: 90 20 30 a 0 t q 2 -> prudence
+16.  96- 99: 90 16 30 20 -> piur
+17. 100-108: 12 s t q 0 l 30 2 20 -> conceruer
+18. 109-113: 30 s 50 20 2 -> uotre
+19. 114-116: 30 d 0 -> uie
+20. 117-120: y s 30 20 -> pour
+21. 121-127: 2 19 n p d l 0 -> enfaire
+22. 128-128: 4 -> a
+23. 129-132: a 16 2 30 -> dieu
+24. 133-134: 30 t -> un
+25. 135-138: y c 30 x -> plus
+26. 139-143: 5 20 4 19 7 -> grand
+27. 144-152: 40 4 12 l 16 70 d g 0 -> sacrifiye
+28. 153-157: 90 4 20 c p -> parla
+29. 158-171: u 30 80 50 16 y c d q 4 8 16 s 19 -> multiplication
+30. 172-174: a 2 40 -> des
+31. 175-177: 30 s x -> uos
+32. 178-185: 40 0 20 30 d 12 2 x -> seruices
+33. 186-189: y s 30 20 -> pour
+34. 190-196: 80 0 x 4 c 30 50 -> lesalut
+35. 197-198: 7 0 -> de
+36. 199-201: 30 s x -> uos
+37. 202-207: 70 20 2 l 0 40 -> freres
+[ALREADY PLAINTEXT] et mesurer a cela sil est meilleur d’agir, ou
+de soupir 13. de may. 1644

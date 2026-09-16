@@ -1,0 +1,9 @@
+PERMUTATION TEST (spaced model): Pitt key -594.7; null mean -1765.9 sd 140.6 max -1226.2; z=8.3; #>=real 0/20000
+TARGET blind (word edges): score -531.4 (Pitt -594.7); agreement with Pitt key 0.072
+   reading: ii ii i iiiii iiiiii iiiiiiiiii ii iiiiiiii iiii | iiiiiiiiii ii iiiiiiiiii jiiiieiiiiiiiil iiiiiiiiii jiiiiiii jiii iiiiiiiii iiiii iii iiii iiiiiii i iiii ii iiii jiiii iiiiiiiii jiiii iiiiiiiiiiiiii iii iii iiiiiiii iiii iiiiiii ii iii iiiiii |
+CONTROL 0: found -528.8 truth -360.7 letters right 0.103 | i iiiiii iiii iiiii jiii ii iiii ii iiiiii ii iiiiiiiiiiiiii iiiiiiiiiiiiii iiii iiiiii ii
+CONTROL 1: found -383.8 truth -390.0 letters right 0.995 | que m ledoyen ayant voulu s excuser a la compagnie de ce qu il n etait pointrentre dansl a
+CONTROL 2: found -376.6 truth -376.6 letters right 1.000 | intermultiplices table des matieres chap xv retractation des eveques xvi retractation du r
+CONTROL 3: found -551.4 truth -378.0 letters right 0.081 | iii iiiiiiiiiii iii iiii piiiiii i i iiiiiiiiiiiiii iiiiiii iii iiiii iii ii iiiii iiiiii 
+CONTROL 4: found -443.2 truth -460.8 letters right 0.966 | dit qu il nolelallait point et quil y avait ordre lie parlement determiner l allaire cetou
+CONTROL 5: found -519.0 truth -405.5 letters right 0.054 | iiiiiiii ii ii piiiiii ii iiii ii iii iiiiiii iiiiiiiiiii iiiieiiiiii ii iiiii iiiiiii iii

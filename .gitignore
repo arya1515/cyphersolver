@@ -285,3 +285,7 @@ boswell/src/cspd1641_43.txt
 boswell/src/blog.html
 boswell/lm4.pkl
 boswell/__pycache__/
+# forster: n-gram tables and blog HTML (rebuilt by ng5fr.py / solve2.py; blog.txt is kept)
+forster/*.npy
+forster/__pycache__/
+forster/src/blog.html

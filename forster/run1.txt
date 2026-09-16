@@ -1,0 +1,10 @@
+corpus letters 6532583
+PERMUTATION TEST: Pitt key -450.3; null mean -1327.4 sd 117.4 max -960.0; z=7.5; #>=real 0/20000
+TARGET blind: score -457.3 (Pitt key scores -450.3); agreement with Pitt key over tokens 0.309
+   reading: ts tr o eeres telaet senereuese te netreero stee | setretesen te uerreetant preteetsesenete setenretse presetre paer entrereer entre ete uner esrotre e saee et uset trest neeraitre perso nestaustredans sen ent nereteet uner seteset te ent ireren |
+CONTROL 0: found -392.4 truth -529.2 letters right 0.295 | noepersesesentenesseseretennententeendenennessentatsetrententnenpreteresetateten
+CONTROL 1: found -422.1 truth -422.8 letters right 0.184 | scentdesnieneutresseencesteteestasnetantenteteunenenesestestencenterreeneesetest
+CONTROL 2: found -435.8 truth -344.4 letters right 0.285 | estnessenteretnenteteetenetreessetsentreeneestenetaireesseetsieneseesenstenttesn
+CONTROL 3: found -437.3 truth -304.8 letters right 0.159 | eteennesettiaenineicesetreretnnelitesilesetentetesatetnerelersenaltestieesaclien
+CONTROL 4: found -435.7 truth -338.6 letters right 0.362 | secstersiteesedeieestenenrereetresdecestetreenestienretienseesesinecestesseestee
+CONTROL 5: found -406.8 truth -268.1 letters right 0.488 | getetienteentsetsesenseteteesetsetstrenneenetserveviveseterrentetienneesteetatet

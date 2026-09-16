@@ -25,11 +25,6 @@ LIVE = [
      "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
      "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
 
-    ("Richard Forster, possibly to Henrietta Maria", "1644",
-     "https://cryptiana.blogspot.com/2021/09/an-unsolved-letter-of-richard-forster.html", "", "even", "md", "low",
-     "A letter of 13 May 1644 in the hand of the Queen's treasurer, published by Karen Britland in 2013 and transcribed by Tomokiyo: <b>134 groups "
-     "mixing letters and numbers, 24 distinct</b>, with one clear French phrase inside. Twenty-four symbols is an alphabet, not a code, and the "
-     "plaintext is French. Short, so the answer must be checked against a matched control, but the test is cheap. Added September 2026, not yet attempted."),
 
     ("“Cifer with Spanish spy”, SP53/22 f.52", "1580s",
      CRYPTIANA, "", "partial", "md", "low",
@@ -64,6 +59,17 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Sir Richard Forster, 13 May 1644 (Val-d'Oise 68.H.8)", "1644",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md", "", "already read by others", "md",
+     "<b>Found already read, September 2026.</b> The passage was deciphered by George Lasry after Britland's 2013 article, independently by Norbert "
+     "Biermann, and again by Robert Pitt (GitHub, 14 September 2026), whose key is public; Tomokiyo's page still lists it as unsolved. It is <b>207 tokens in 37 "
+     "comma-separated words over 34 symbols</b>, not 134 over 24 as the queue said, and the key is a mixed homophonic alphabet, not a regular Stuart key. The text is "
+     "spiritual counsel: no scruple about failing God, take the ways of prudence to preserve your life for a greater sacrifice in the service of your brethren. "
+     "Verified here: z&nbsp;=&nbsp;8.8 against 20,000 permuted keys, and 31 of 34 symbols recovered blind from the ciphertext once the word edges are used and the "
+     "French model writes <i>u</i> for <i>v</i> and <i>i</i> for <i>j</i>; six matched 207-letter controls read at 98&ndash;100%. Without that normalisation the controls "
+     "pass and the letter fails, which is the useful lesson. Four slips and two single-occurrence words need the manuscript. "
+     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md\">Notes &rarr;</a>"),
+
     ("Charles I and Nicholas to Boswell, TNA SP 84/157 ff. 217 and 219", "1643",
      "https://github.com/dbourdeau/cyphersolver/tree/main/boswell", "", "read in substance", "md",
      "<b>Attempted September 2026; alphabet solved, text read.</b> The alphabet was found by Robert Pitt days earlier (GitHub, 14 September 2026): a "
