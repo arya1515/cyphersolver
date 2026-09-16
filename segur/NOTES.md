@@ -290,6 +290,12 @@ reistres* (1587, bpt6k79516b), which is the contract the October 1585 letter ref
 `61 130 33 78 54 52` = et si l fa u t. Elsewhere the strike-through still turns 9 into 4 and 3 into 8 (*le chemin* read
 44 17 84 105 98 for 99 17 89 105 38), so the leaf stays unretranscribed.
 
+**f. 321, strike-through removal tried.** Long horizontal dark runs (≥ 45 px at full resolution) were detected and blanked in
+the cipher block (`crops321/f321_destriked.png`, local). The decipherer's stroke runs through the middle of every figure,
+so removing it removes the digit cores as well; only figures the stroke missed survive (162; *et s'il fault* = 130 33 78
+54 52; 139 18 114 53; 50 24 55 12; 20 89 126 38 …). A figure-level transcription of f. 321 independent of the interlinear
+reading is not obtainable from this image; a re-derivation of f. 321 would need the leaf itself or a raking-light scan.
+
 **Correction to step 1 above.** The five "alignments" of the residue test are cyclic shifts of one count: the residue
 classes of the figures 54–123 carry 27 / 67 / 31 / 26 / 14 tokens (165 in all), and the class with 67 (41 %) is the *e*
 slot, which fixes the table start modulo five (54 ≡ 4 mod 5). The start itself (54 rather than 59 or 64) came from the
