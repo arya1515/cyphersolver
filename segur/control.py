@@ -31,7 +31,13 @@ pool = []
 for l, w in weights.items(): pool += [l] * w
 while len(pool) + nnull < nsyms: pool.append(rnd.choice('eaistnrulo'))
 pool = pool[:nsyms - nnull] + ['-'] * nnull
-nums = list(range(1, BLOCK0)); rnd.shuffle(nums); nums = nums[:nsyms]
+if os.environ.get('ALPHA'):
+    # alphabetical design: a contiguous run of figures, letters in alphabet order with their homophone counts, nulls last
+    order = 'abcdefghilmnopqrstuxyz'
+    pool = sorted(pool, key=lambda l: (l == '-', order.find(l)))
+    lo = rnd.randrange(1, BLOCK0 - nsyms); nums = list(range(lo, lo + nsyms))
+else:
+    nums = list(range(1, BLOCK0)); rnd.shuffle(nums); nums = nums[:nsyms]
 key = dict(zip(nums, pool))                       # number -> letter or '-'
 homs = {}
 for n, l in key.items(): homs.setdefault(l, []).append(n)

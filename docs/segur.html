@@ -152,8 +152,8 @@ secretary letter in this key in the volume, so the word-signs stay unglossed. Ni
 <p><strong>f. 333</strong> (La Rochelle, 10 July 1586, a news-sheet in the third person signed <em>Henry</em>) was transcribed and read with Tomokiyo&rsquo;s f. 321
 table: <em>aussi tost que les reistres marcheront il montera &agrave; cheval; [&hellip;] et son frere sont de bonne volont&eacute;; il fault avancer la lev&eacute;e et la
 faire marcher le plustost qu&rsquo;on pourra</em>. The reading adds 24 = f, 34 = l, 36 = m and 61 = et to his table, and shows that key to be the ff. 233
-key shifted by eight in the letters (a 12&ndash;14 &hellip; u 53&ndash;55, et 60&ndash;62) with <em>h</em> and <em>j</em> rows added to the syllabary. The blind annealer on
-f. 333 alone (58 letter tokens) did not converge, and neither did it on a matched control of that size (37&nbsp;% of letter tokens, 3 of 16 blocks), so the floor of the method for this design lies between 120 and 460 tokens; the key rests on the f. 321 interlinear decipherment and on the French it yields here. f. 321
+key shifted by eight in the letters (a 12&ndash;14 &hellip; u 53&ndash;55, et 60&ndash;62) with <em>h</em> and <em>j</em> rows added to the syllabary. The free annealer on
+f. 333 alone (58 letter tokens) did not converge, and neither did it on a matched control of that size; but an annealer that builds in the chancery design itself (homophones in alphabetical order, so the letter key is a vector of homophone counts) re-derives the f. 333 letter key blind, every seed agreeing, with 93&nbsp;% of the letter tokens right against Tomokiyo&rsquo;s table (90&nbsp;% on a matched alphabetical control), the syllable rows being the weak part at that size; the key rests on the f. 321 interlinear decipherment and on the French it yields here. f. 321
 itself has every figure struck through by the decipherer and was not re-transcribed.</p>
 
 <h2 id="context"><span class="num">05</span> Context</h2>
@@ -172,7 +172,7 @@ belong to the long wait for the army that was finally assembled in 1587 under th
 <li>Mod-5 residue test and structured annealer with clear-text context (<code>segur/solve.py</code>).</li>
 <li>Matched controls with random keys of the same shape (<code>segur/control.py</code>, <code>eval_control.py</code>).</li>
 <li>Key file and renderer (<code>key_v4.json</code>, <code>decode.py</code>); edited reading with token notes (<code>reading.md</code>).</li>
-<li>Sweep of the volume (<code>fetch_sweep.py</code>, <code>mksheets.py</code>); f. 333 and f. 366 transcriptions (<code>ct_333.txt</code>, <code>ct_366.txt</code>); Tomokiyo&rsquo;s table extended (<code>key_321.json</code>).</li>
+<li>Sweep of the volume (<code>fetch_sweep.py</code>, <code>mksheets.py</code>); f. 333 and f. 366 transcriptions (<code>ct_333.txt</code>, <code>ct_366.txt</code>); Tomokiyo&rsquo;s table extended (<code>key_321.json</code>); design-constrained annealer and controls (<code>solve_mono.py</code>, <code>control5.txt</code>); word-sign likelihood ranking (<code>gloss_check.py</code>, <code>gloss_check.txt</code>).</li>
 </ol>
 <p class="muted">Checked: transcription, structure test, three controls, convergence over seeds, alphabetical order of the recovered key, word-level French
 of every passage. Not checked: Tomokiyo&rsquo;s f. 321 table figure by figure against the struck-through leaf; the word-signs; the historical glosses; the second S&eacute;gur volume (500 Colbert 402, not digitised); BnF fr. 17820 is an eighteenth-century fair copy in clear. The sender attribution and the readings marked

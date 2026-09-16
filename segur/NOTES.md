@@ -209,6 +209,65 @@ letter-written sign *gu* belongs with *pi, na, gne, gna, gla, qu, qua* of the ff
 names in the king's phonetic spelling (a German place or captain? *Riechauffen*), or a memorandum of nomenclature for the
 marginal signs. Both keys' renderings come from `decode.py` on `ct_366.txt`. Left open; 24 tokens.
 
+**Design-constrained annealer: f. 333 re-derived blind** (`solve_mono.py`, `eval_mono.py`; logs `run_mono333.log`,
+`run_mono_control5.log`, `run_mono233.log`). The free homophonic annealer fails at f. 333's size (above), but the two keys
+share a design, and the design can be built into the search: if the letter figures LO…HI are homophones **in
+alphabetical order**, the letter key is nothing but a vector of homophone counts (0–4 per letter, a leading and a trailing
+null slot capped at MAXNULL figures together, an *et* slot), and the moves shift one figure from one slot to the next.
+The syllable blocks stay as before; the clear French stays as context; a dropped letter costs 6 nats.
+
+- **f. 333 alone** (58 letter tokens 12–62, 44 syllable tokens, 16 blocks, 8 seeds × 150 000 steps): every finished seed
+  converges on the same key at −1160.8: a 12–14, b 15–16, c 17–20, d 21, e 22–23, f 24, g 25–28, h 29, i 30–32, l 33–34,
+  m 35–36, n 37–38, p 39–41, q 42–45, r 46–47, s 48–50, t 51–54, u 55, z 56–58, et 59–62. Against `key_321.json`
+  (Tomokiyo's table plus the four values f. 333 forced) that is **54 of 58 letter tokens, 93.1 %**; the syllable side is
+  weaker, 28 of 44 tokens and 7 of 16 blocks (l, m, s, r, h, c right; the *v* row comes out *t*, so *cheval*, *volonté*,
+  *avancer*, *levée* read *chetai*, *tolonse*, *atancer*, *letee*). The text: *les reistres marcheront il mon[t]era a
+  che[v]a[l] … et son frere sont [de] [b]on[n]e [v]olon[t]e il [f]aut a[v]ancer la le[v]ee et la faire marcher*. So the
+  letter key of f. 321/333 is recovered from f. 333 alone once the chancery's alphabetical design is assumed, and it
+  agrees with Tomokiyo's interlinear-based table; the blind run also fixes 20 as *c* (the *marcher* problem above) and
+  puts *et* at 59–62, i.e. both 61 and 62.
+- **Matched control of the same shape** (`control5.txt`, `control.py` with `ALPHA=1`: a Catherine de Médicis passage
+  under a random alphabetical key on a random contiguous run of figures, same token counts as f. 333): 7 of 8 seeds
+  agree, **36 of 40 letter tokens (90 %)**, 45 of 52 syllable tokens, 9 of 16 blocks. The method works at this size when
+  the design assumption is right, and the f. 333 result is not a fluke.
+- **Sanity on the ff. 233 set** (294 letter tokens 1–53, 14 blocks): the constrained run recovers the whole letter key
+  from seed 0 (a 3–6, b 7–8, c 9–10, d 11–12, e 13–16, g 17–18, h 19–21, i 22–24, l 25–26, m 27–28, n 29–30, o 31–33,
+  p 34–35, q 36–37, r 38–39, s 40–42, t 43–44, u 45–47, x 48, y 49–50, z 51, et 52–53), the only slips being *f* 16–17
+  absorbed into *e* and *g*, and 3 and 53 mis-slotted.
+
+The order of attack for this cipher family is therefore: residue test for the syllabary → free structured annealer if the
+text is long (≥ ~450 tokens) → alphabetical-count annealer if it is short (≥ ~100 tokens with clear context). f. 321 was
+not run: its figures cannot be transcribed independently of the interlinear reading (see below).
+
+**Word-signs ranked by the language model** (`gloss_signs.py`, `gloss_check.py`, outputs `glosses.txt`,
+`gloss_check.txt`). For each letter-written sign every occurrence is rendered with a candidate word in place and scored by
+the 5-gram model over 40 letters of context each side; the candidates' scores are summed over occurrences. Against the
+600 most frequent corpus words nothing beats deleting the sign, which a no-space model always favours, so only the
+like-for-like comparisons of the reading's own hypotheses mean anything, and there the margins are a few nats:
+
+| sign | occurrences | hypotheses in order of likelihood (nats relative to deletion) |
+|---|---|---|
+| na | 3 | lettres −18.0, nouvelles −21.4, gens −21.8, affaires −23.9, forces −24.9 |
+| gne | 2 | de −3.8, je −7.8 (the f. 288v occurrence opens a sentence, so *de* is excluded there and *je* stands) |
+| gna | 1 | de −1.1, a −4.3, de nous −6.1, vous −6.2 |
+| X | 1 | de −1.4, et −1.8, a −3.7, pour −4.1 |
+| gla | 1 | de +1.3, et +0.4, a 0.0, pour −0.3, par −1.0, selon −5.9 |
+| pe / pu | 1 | pe: que −0.1, quand −4.1, si −6.0, ou −11.9; pu: luy −2.4, vous −3.1, nous −5.8 |
+| H, L | 1 | france −2.8, esté −4.0, espagne −4.9, angleterre −6.1, suisse −6.8, lorraine −8.3, allemagne −8.4, hollande −13.9 |
+| qua | 1 | qui −2.4, me −6.1, nous −6.3, que vous −7.3 |
+| Ne | 1 | en −4.8, nous −5.0, et −6.3 |
+| 180 | 1 | catherine −1.1, la royne −4.1, la rochelle −6.3, angleterre −6.8, la reyne −7.5, casimir −10.9, elisabeth −12.8 |
+| 900 | 1 | je −0.7, de −1.1, vous −3.2, nous −4.8 |
+| e | 2 | six mois −16.4, decembre −17.0, novembre −17.1, longtemps −17.8, angleterre −18.6 |
+| 215 | 1 | en −3.8, ne −4.0, il −6.6, l −7.0 |
+
+What this supports: *na* is a plural noun of the *lettres / nouvelles / affaires* class (the model slightly prefers
+*lettres*, which fits *n'avoir eu de vos [lettres]* twice but not *en quel estat sont nos [lettres]*, so the reading keeps
+*affaires* / *nouvelles* as the pair); *X*, *gla*, *gna* are short function words (*de* leads each time); *pu* is a
+pronoun (*luy* / *vous*); *H* and *L* are names, with nothing to choose between the countries; 180's top candidate is
+*Catherine* only by 3 nats over *la royne* on a single occurrence, which is not evidence for either. The signs stay open;
+the table records what the model can and cannot say.
+
 **Matched control at f. 333's size** (`control4.txt`, `run_control4.log`; `control.py` now takes `CTFILES`): a Catherine
 de Médicis passage enciphered with a random key of the sixteen-row shape, 59 letter tokens over 24 symbols and 44 syllable
 tokens, the same clear-text interleaving as f. 333. Twelve seeds spread over 10 nats with no agreement; the best key has
@@ -250,7 +309,10 @@ either is quoted.
   cryptiana article as fetched.
 - Sweep and siblings (2026-09-16, later): `fetch_sweep.py`, `mksheets.py`, `fixsheets.py` (contact sheets; `sweep/`,
   `sheets/`, `crops321/` git-ignored); `ct_333.txt`, `ct_366.txt`; `key_321.json` (Tomokiyo's f. 321 table plus 24 = f,
-  34 = l, 36 = m, 61 = et); `run_333.log` (blind annealer on f. 333, negative).
+  34 = l, 36 = m, 61 = et); `run_333.log` (free annealer on f. 333, negative); `control4.txt`, `control5.txt` (matched
+  controls, random and alphabetical keys); `solve_mono.py`, `eval_mono.py` (design-constrained annealer and its scorer;
+  `run_mono333.log`, `run_mono_control5.log`, `run_mono233.log`); `gloss_signs.py`, `gloss_check.py`, `glosses.txt`,
+  `gloss_check.txt` (word-sign likelihood ranking).
 
 Checked: transcription of the three letters at full resolution and 2× re-reads of disputed digits; mod-5 structure; three
 matched controls; convergence over seeds; alphabetical order of the recovered key; word-level French of every cipher span.
