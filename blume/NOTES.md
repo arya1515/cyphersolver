@@ -64,7 +64,7 @@ Each search was first shown to recover planted Spanish of the same length.
 | skip / decimation, every step and start | exhaustive | found exactly | at shuffle level |
 | route transpositions, grids 2–60 wide: columns up/down/snake, rows reversed/snake, diagonals, spirals | exhaustive, both directions | found exactly | at shuffle level |
 | single columnar, widths 4–20 | annealing (`trans.py`) | recovers widths 9, 14, 19 | best −6.03 |
-| single columnar, widths 21–61 | annealing (`dt/st.exe`, 20 restarts × 2 M steps) | recovers width 41 | best −5.27 at width 61, rising smoothly with width, i.e. spurious |
+| single columnar, widths 21–61 | annealing (`dt/st.exe`, 20 restarts × 2 M steps) | **fails** a planted width 41 (15 rows): a wrong key scores −4.18 against the true key's −3.90, so this run proves nothing on its own | best −5.27 at width 61, rising smoothly with width, i.e. spurious |
 | **lag scan** (see below) | exhaustive over lags 1–599 | z = 11–22 at the expected lag | **max z 3.3**, no lag stands out |
 
 107,594 fixed-pattern readings were scored in the first session.
