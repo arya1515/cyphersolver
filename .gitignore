@@ -322,3 +322,5 @@ birago/par_*.json
 birago/refined_*.json
 birago/done_scans.txt
 birago/__pycache__/
+birago/scan/
+birago/a2_*.json

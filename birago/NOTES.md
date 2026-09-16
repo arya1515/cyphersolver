@@ -90,3 +90,24 @@ on the matched controls under this much homophony, so it cannot constrain the se
   cipher collections (BnF fr. 3995 has none this early), or a crib: the paragraph follows a passage about the King,
   Bellegarde and the Carmagnola cavalry, so the code groups likely include il Re, la Regina, Bellagarda, Carmagnola,
   Savoia; a crib-constrained anneal is the next cheap step once any code group is fixed.
+
+## Last attempts (2026-09-16, later session)
+- **Word-level objective.** A 30,000-word Italian list with Viterbi segmentation (`wordscore.py`) separates the true key
+  from the annealer's false optima on every matched control (-2.6/-2.9 vs -3.0/-3.6 per letter), including the one where
+  the 5-gram preferred a wrong key. But annealing under the combined score (`anneal2.py`, weights 1.0 and 0.3, seeded
+  from the 20 best char-LM keys) still reaches only 3-30% letters right; at weight 1 the word score rewards runs of
+  one-letter words. The objective ranks the truth first; the search does not find it.
+- **Consensus.** Across the 120 restarts on a matched control not one symbol has a majority letter, so the optima share
+  no partial truth to build on (`consensus.py`).
+- **Sibling sweep of BnF fr. 3251.** All 118 remaining openings (views 88-207) fetched at 2400 px and screened with a
+  line detector calibrated on the target page (`find_digits.py`; catches 4 of its 7 cipher lines). Every candidate with
+  two or more flagged lines (views 99, 100, 107, 109, 156) is plain text on inspection: the letters of 22 September 1571,
+  the Frascheta relation of 30 August 1571, a letter of 30 August 1571, and one of 15 June 1572. No second letter in the
+  figure cipher exists in this volume; the 1572 letters are in the symbol cipher Tomokiyo reconstructed. The opening
+  after the target (f. 120-121) is the notarial attestation of Marco Balbo's mission to Carmagnola, not a decipherment.
+- The letters of 22 September (f. 98) and 30 August 1571 (f. 108) are in clear and give the vocabulary of the affair
+  (Bellagarda, Carmagnola, Centurione's company, the frascheta, Valletta, Perosa, Melchion da Gattico): crib material if a
+  code group is ever fixed.
+
+**Final state: not solved.** Design identified and transcription corrected; the ciphertext-only attack is below the
+unicity distance of the available models at this homophony, and no key, sibling or decipherment is online.
