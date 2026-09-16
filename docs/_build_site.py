@@ -7,7 +7,9 @@ header; replaces the last <footer>...</footer> (or <!-- site:footer -->) with th
 previous / next links in chronological order; inserts an "On this page" contents strip after <main> when the page
 has three or more h2 sections with ids; stamps the stylesheet and script versions; and removes inline <style>
 blocks whose rules now live in style.css. On index.html it also regenerates the write-up cards between
-<!-- cards:start --> and <!-- cards:end -->. The priority queue is still built by _build_queue.py.
+<!-- cards:start --> and <!-- cards:end -->, and refolds "Recent findings" so that only the newest RECENT_VISIBLE
+entries show and the rest sit behind the "Show N earlier findings" button (add new entries at the top of the first
+list and rebuild). The priority queue is still built by _build_queue.py.
 """
 import re, pathlib, html
 HERE = pathlib.Path(__file__).parent
@@ -159,6 +161,22 @@ def card_html(p):
             f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span><span class="st {p["st"]}">{p["stt"]}</span></div>\n'
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
 
+RECENT_VISIBLE = 5      # "Recent findings" on index.html shows this many entries; the rest fold behind the button
+
+def fold_findings(s, n=RECENT_VISIBLE):
+    """Rebuild the Recent findings section so the first n <li> are visible and the rest sit in the hidden
+    .more block. Entries may be added to either list by hand; this gathers them all in order and re-splits."""
+    m = re.search(r'(<h2 id="recent">.*?</h2>\n(?:<p>.*?</p>\n)?)(<ul class="findings">.*?)(?=\n<h2|\n<!-- |\Z)', s, re.S)
+    if not m: return s
+    items = re.findall(r'<li>.*?</li>', m.group(2), re.S)
+    if not items: return s
+    head = '<ul class="findings">\n' + '\n'.join(items[:n]) + '\n</ul>'
+    rest = items[n:]
+    if rest:
+        head += ('\n<div class="more" hidden><ul class="findings">\n' + '\n'.join(rest) + '\n</ul></div>\n'
+                 f'<button class="showmore" type="button" data-target="findings">Show {len(rest)} earlier finding{"s" if len(rest) != 1 else ""}</button>')
+    return s[:m.start(2)] + head + s[m.end(2):]
+
 SHARED_INLINE = ('.why', '.w-yes', '.w-no', '.w-lang', '.w-otp', '.w-short', '.w-fake', '.w-open', '.item', '.item h3', '.item .meta2', '.ct', '.callout', '.callout h3', '.tw')
 
 def process(path):
@@ -212,7 +230,8 @@ def process(path):
     s = s.replace('</body>', f'<script src="site.js?v={VERSION}"></script>\n</body>', 1)
     s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)
     if slug == 'index':
-        FEATURED = ['voynich', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'goldbar', 'sunyatsen']
+        s = fold_findings(s)
+        FEATURED =['voynich', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'goldbar', 'sunyatsen']
         feat = [next(p for p in PAGES if p['slug'] == f) for f in FEATURED]
         rest = sorted([p for p in PAGES if p['slug'] not in FEATURED], key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] != 'famous' else 4, -p['y']))
         rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span><span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
