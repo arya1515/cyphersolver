@@ -233,7 +233,9 @@ The syllable blocks stay as before; the clear French stays as context; a dropped
 - **Sanity on the ff. 233 set** (294 letter tokens 1–53, 14 blocks): the constrained run recovers the whole letter key
   from seed 0 (a 3–6, b 7–8, c 9–10, d 11–12, e 13–16, g 17–18, h 19–21, i 22–24, l 25–26, m 27–28, n 29–30, o 31–33,
   p 34–35, q 36–37, r 38–39, s 40–42, t 43–44, u 45–47, x 48, y 49–50, z 51, et 52–53), the only slips being *f* 16–17
-  absorbed into *e* and *g*, and 3 and 53 mis-slotted.
+  absorbed into *e* and *g*, and 3 and 53 mis-slotted: scored against `key_v4.json`, **287 of 290 letter tokens (99.0 %)**,
+  150 of 165 syllable tokens, 11 of 14 blocks, two seeds agreeing at −6275.2 (the free annealer's blind key had 88.9 % /
+  90.9 % / 11 of 14).
 
 The order of attack for this cipher family is therefore: residue test for the syllabary → free structured annealer if the
 text is long (≥ ~450 tokens) → alphabetical-count annealer if it is short (≥ ~100 tokens with clear context). f. 321 was
