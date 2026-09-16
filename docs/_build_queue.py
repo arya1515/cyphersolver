@@ -201,6 +201,14 @@ ATTEMPTED = [
      "and 31 of the distich's 32 values recur, so the two poems are one system with the shape of a word-index book cipher. Not attackable without "
      "the key text, and nobody has said where the octastich was printed."),
 
+    ("Roosevelt cryptogram, number block", "1935", "roosevelt.html", "top 50", "explained, not a cipher", "lo",
+     "Three lines of digits above the &ldquo;bite a lemon&rdquo; letter Friedman read in 1935. <b>Attempted 16 September 2026.</b> Read at glyph level "
+     "from the 300 ppi Internet Archive scan of <i>The Friedman Legacy</i>, the block is a permutation of 1 to 52, each value once, with eighteen zeros "
+     "in groups of six and three, as Thomas Ernst claimed in 2017. It is not a random permutation: rank correlation +0.39, a run 39 40 41 42, and "
+     "sixteen rising chains where a fair shuffle gives 26, the marks of a list written by hand; a riffled deck fits worse. The ordered-key cipher "
+     "readings that can be tested reach &minus;2.6 nats per letter with junk while seven of eight matched 52-letter controls are read at 88&ndash;100%. "
+     "Unordered keys are untestable and indistinguishable from a doodle. <a href=\"roosevelt.html\">Full write-up &rarr;</a>"),
+
     ("Copenhagen cryptogram", "c.1950s", "copenhagen.html", "top 50", "not a simple substitution", "lo",
      "Three lines found behind an 1835 portrait of a Danish general, 107 characters. <b>Attempted September 2026.</b> Transcribed twice (20 and "
      "25 symbols), attacked in ten languages under six reading conventions and a word-separator hypothesis with a 5-gram annealer and dictionary "

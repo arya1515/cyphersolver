@@ -1,0 +1,36 @@
+== homophonic reading, sequence order, alphabet a..z
+   -3.037/letter  cov 0.67  abadefillbookofndoonloorstsbadfallsnowassadovyouslod
+   -3.076/letter  cov 0.62  abaddefinboogoendoonloorstsbadfallsnowassadovyouslod
+   -3.092/letter  cov 0.58  abadehimobookshodosomssssusbadianotoowastadovyoutood
+   -3.097/letter  cov 0.65  abadefillbookofodoooloorstsbadfalltoowastadovyouslod
+   -3.190/letter  cov 0.62  abadefillbookseldosolssssusbadfalltoowastadovyouslod
+== homophonic reading, sequence order, alphabet z..a
+   -3.180/letter  cov 0.44  uttooooonsnnolonominoffeedertootooenlatedtoldandenno
+   -3.225/letter  cov 0.46  ututtsrootooontotolookiiiditutstoogoodtiettodaodhoot
+   -3.249/letter  cov 0.40  ustsoooonslioionsignoffeedestootoneniaseessiaandenno
+   -3.252/letter  cov 0.44  ustsspoonslioirnsignoffeedestsotoodniasedssiaanddons
+   -3.266/letter  cov 0.54  tstoooooorkgofoooffooffeedertootoodofasedsofaanddono
+== homophonic reading, sequence order, alphabet a..z , zero groups as word breaks
+   -2.703/letter  cov 0.65  abadefillbooko endoonloorsus dad falltoowast adovyouslod
+   -2.703/letter  cov 0.67  abadehillbooko endoonloorsus dad hallsnowass adovyouslod
+   -2.750/letter  cov 0.58  adaddefindoofo endoonloorsus dad fallsnowass adovyouslod
+   -2.767/letter  cov 0.62  abadiiillbooko ingoonloorsus dag iallsnowass adovyouslog
+   -2.881/letter  cov 0.54  ehehillnohorns loirsonssttut hei lenotoryett firyyoutooi
+== homophonic reading, sequence order, alphabet z..a , zero groups as word breaks
+   -2.789/letter  cov 0.67  uttoooooornnol ooonlookiiide rto otoodonated toldanddono
+   -2.859/letter  cov 0.42  ysuspoolishene oiseeileeeede sur oulldieated ssedaidelir
+   -2.882/letter  cov 0.44  ysysoonmiseeme oiseeileeeede sur oulldiected ssedbiddleo
+   -2.912/letter  cov 0.54  uttoooooornnoi ooongooffeede rto otoodonated toldanddono
+   -2.937/letter  cov 0.50  ustsoonmiseeme ofseefleeeede sts nslideedsed sseddeddies
+== transposition-key reading, inverse permutation, alphabet a..z
+   -2.929/letter  cov 0.52  aarsstaboatisyahasabanssubinstubbisthinnootoustoutst
+   -2.982/letter  cov 0.42  aalossadiatelyadanaddersuddestuddestdeffhisitssittst
+   -3.062/letter  cov 0.52  aarsstaboateryacarabbissubdistubbistbillnotoustoutst
+   -3.079/letter  cov 0.67  eemssseemesinwehereheissuehistwehisshiiiiisitssitsst
+   -3.097/letter  cov 0.67  aborssagodshowdhereheissuehissughisshillnosoussousss
+== transposition-key reading, inverse permutation, alphabet z..a
+   -3.127/letter  cov 0.44  ytoohetsotesoatstosssoonassoheassshespoooofobleobehe
+   -3.137/letter  cov 0.50  ytoohetsotesoatstosssoonassoldassshespoooofobleobehe
+   -3.146/letter  cov 0.63  ttheeetsiteseatssessspeedsssedassseesspooneideeldeed
+   -3.167/letter  cov 0.62  ttheeetsiteseatssessspeedsssedassseessoonmeideeldeed
+   -3.177/letter  cov 0.44  yunifeysnuesnaustitstriiasssheassshesspoonenciencehe

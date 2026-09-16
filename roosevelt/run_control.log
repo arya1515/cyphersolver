@@ -1,0 +1,65 @@
+== control 0: ndianvoyagethatmannexthimlooksafewshadeslighteryoumi
+   -2.683/letter  cov 0.44  ndiansovageshasmannesshimmorisagesshadesmighsertosmi
+   -2.848/letter  cov 0.54  rdidowsyagethatnasseyshionssisafewshadesmightesystoi
+   -2.905/letter  cov 0.50  sclasssyaheshaspassesshipossosafessiacesonhisesusspo
+   -2.965/letter  cov 0.38  sanarysyahaslatpassaysinrossosadaysmaaasonentasystro
+   -2.989/letter  cov 0.48  samasssyaheshaspassesshipossosafessiaadsonhisesusspo
+  plaintext ndianvoyagethatmannexthimlooksafewshadeslighteryoumi
+  recovered ndiansovageshasmannesshimmorisagesshadesmighsertosmi  accuracy 0.71  true score -1.966/letter
+== control 1: gnisenothinginthedarknessandthefitfullightsandshadow
+   -2.787/letter  cov 0.54  eoiseorsimofmotheearmressaretheelsetonighssdoesheery
+   -2.872/letter  cov 0.50  ellsenosillelltheearlnessandtheelseylllegssaleseaery
+   -2.912/letter  cov 0.58  hootfortooohootoffaroofstaretofhothtooohotteofthefru
+   -2.953/letter  cov 0.42  hoiscostinohnoticaasnoessaraticeitfunnihitsanashaasw
+   -3.062/letter  cov 0.33  honseortnoohnotneearopersareuneenthwoonintsdoesneerw
+  plaintext gnisenothinginthedarknessandthefitfullightsandshadow
+  recovered eoiseorsimofmotheearmressaretheelsetonighssdoesheery  accuracy 0.40  true score -1.615/letter
+== control 2: ithhimthedreadfulconditiontowhichhewasbroughtwassoap
+   -2.913/letter  cov 0.62  rsinsstheeseadeusassesusssuswordinewasasswhitwasssas
+   -2.963/letter  cov 0.54  ntinnotheeseachtocoodotoootownnchnewasasothitwassoas
+   -3.068/letter  cov 0.54  osnnoothedreadetodoodotoootowoodlodwasdrowentwasspar
+   -3.087/letter  cov 0.44  ntinnothedreachtoarodotorotrynnaineyasarryhityattrar
+   -3.099/letter  cov 0.60  ltillstheeseaefusassesunsstsylldilewasasswhitwasssas
+  plaintext ithhimthedreadfulconditiontowhichhewasbroughtwassoap
+  recovered rsinsstheeseadeusassesusssuswordinewasasswhitwasssas  accuracy 0.35  true score -1.547/letter
+== control 3: dreadvishnoooneofthethreepersonsinthegodheadofthehin
+   -2.638/letter  cov 0.52  dreadyitgoopooeofthethreepersoothlyhegodheadogyheglo
+   -2.725/letter  cov 0.52  ereadtoshorrooerethethreerersroslotheereheadrethehoo
+   -2.761/letter  cov 0.52  eteadyougoosooeofviewiseesestootnowhegodheadofwhegoo
+   -2.920/letter  cov 0.44  esedevotlosssofsitoftoseisesssotootoilseofdesitofloo
+   -2.934/letter  cov 0.60  eseabyluelssomeseviewiseesesssoullyheeseheadseyfeelm
+  plaintext dreadvishnoooneofthethreepersonsinthegodheadofthehin
+  recovered dreadyitgoopooeofthethreepersoothlyhegodheadogyheglo  accuracy 0.69  true score -1.719/letter
+== control 4: twifeinthewholeworldandshewillmakeyouashappyasevenyo
+   -1.538/letter  cov 0.87  twigginthewholeworldandthewillmakeyouashappyasevenyo
+   -1.601/letter  cov 0.81  twifeinthewholeworldandthewillmakeyouasharryasevenyo
+   -2.593/letter  cov 0.69  ttleeinthetholdtooldandthetillmaletotareaootaretenyo
+   -2.699/letter  cov 0.75  swifeirsiewislewsspeareshewillpaleyssashasswaseverys
+   -2.750/letter  cov 0.46  tthecesseaweshatssiaasaseathhimahawstaseasswasatasys
+  plaintext twifeinthewholeworldandshewillmakeyouashappyasevenyo
+  recovered twigginthewholeworldandthewillmakeyouashappyasevenyo  accuracy 0.94  true score -1.505/letter
+== control 5: lesandchainsconfiningthewhalestotheshipwhatnowsaidth
+   -1.965/letter  cov 0.65  lesanedhailsapleiningthewhalestotheshipwhatlowsaidth
+   -2.232/letter  cov 0.62  lesasechairsasselsishthewhaleststheshiswhatssysaidth
+   -2.318/letter  cov 0.54  iesanedhailsdoneiningsheshakessosheshipthasnowsahesh
+   -2.396/letter  cov 0.52  nescoeeheinseonenonofthethenettotheshipthatnouseheth
+   -2.471/letter  cov 0.44  nescoeeheinsesofnonofthethenettotheshisthatnouseheth
+  plaintext lesandchainsconfiningthewhalestotheshipwhatnowsaidth
+  recovered lesanedhailsapleiningthewhalestotheshipwhatlowsaidth  accuracy 0.85  true score -1.502/letter
+== control 6: tohisfollowersfirsthetookthetwosecretmennowihavenoth
+   -2.129/letter  cov 0.67  tohishomnowesthissthetookthetwosearetnannowihavenoth
+   -2.450/letter  cov 0.67  tohisfollowbothhorthatookthetwosaaoetmannowihavenoth
+   -2.472/letter  cov 0.69  tshishoilsyesshissthassoithetusseasesmannowihatenoth
+   -2.552/letter  cov 0.54  sselseollowesselsssedsoolshestoseasesmannotleasenose
+   -2.622/letter  cov 0.48  trilsfollowershissthesoolsiestosearesmannotliatenosi
+  plaintext tohisfollowersfirsthetookthetwosecretmennowihavenoth
+  recovered tohishomnowesthissthetookthetwosearetnannowihavenoth  accuracy 0.81  true score -1.740/letter
+== control 7: mbellishmentsofsomeancientbooksyouwillattimesmeetwit
+   -1.988/letter  cov 0.75  mbellishmentsofsomeancientbooksystwillattimesmeetwit
+   -2.309/letter  cov 0.75  nbillitingotooisoniaobigotbooksyouwillattingtofitwit
+   -2.506/letter  cov 0.48  ndfinisinessssissoeaseiessessistsstillassinesseestis
+   -2.519/letter  cov 0.50  ndfinisinessssissofaseiessessistsstillassinesseestis
+   -2.522/letter  cov 0.37  nceinishnessssessreaseiessessistsstillassinesseestis
+  plaintext mbellishmentsofsomeancientbooksyouwillattimesmeetwit
+  recovered mbellishmentsofsomeancientbooksystwillattimesmeetwit  accuracy 0.96  true score -1.687/letter
+controls recovered (>90% letters): 2/8

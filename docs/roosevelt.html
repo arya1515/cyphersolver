@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Roosevelt cryptogram (1935) — a permutation of 1 to 52, not a cipher</title>
+<meta name="description" content="The unsolved number block on the 1935 threat letter to President Roosevelt is a permutation of the numbers 1 to 52, each used once, padded with zeros. Its statistics are those of a list written by hand, and the only cipher readings that can be tested fail while matched controls succeed.">
+<link rel="stylesheet" href="style.css?v=20260916d">
+<style>
+.cg{font-family:var(--mono);font-size:.84rem;line-height:1.85;color:var(--gold2,#e7c87a);word-break:break-word}
+.kt{font-family:var(--mono);font-size:.82rem;border-collapse:collapse;margin:.6rem 0 1rem;width:auto}
+.kt th,.kt td{border:1px solid var(--rule);padding:.25rem .6rem;text-align:left}
+.kt th{background:rgba(255,255,255,.05)}
+.kt td.num{text-align:right}
+</style>
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="segur.html"><span class="st solved">solved</span><b>S&eacute;gur</b><span class="yr">1585&ndash;86</span></a></li><li><a href="warsaw.html"><span class="st solved">solved</span><b>Warsaw</b><span class="yr">1627</span></a></li><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="ormonde.html"><span class="st solved">solved</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li><li><a href="boswell.html"><span class="st solved">read in substance</span><b>Boswell</b><span class="yr">1643</span></a></li><li><a href="lucca.html"><span class="st solved">solved</span><b>Lucca</b><span class="yr">1644</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="forster.html"><span class="st found">read by others, verified</span><b>Forster</b><span class="yr">1644</span></a></li><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li><li><a href="roosevelt.html" aria-current="page"><span class="st found">no message</span><b>Roosevelt</b><span class="yr">1935</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="adfgvx.html"><span class="st partial">9 of 22 read</span><b>ADFGVX</b><span class="yr">1918</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+
+<section class="hero">
+  <div class="cipherstrip">1721'01'51'71'9 2'12'68 3'2 3'32'03'7 000000 1'62'71'23'43'8<br>2'8 2'2 3'9 4'04'14'24'84'4 000000 9 31'3000 1'8 42'32'4000<br>4'62'93'5 5'154'34'700 0 61'13'65'05'23'04'94'52'53'11'4 &mdash;</div>
+  <p class="kicker">Washington &middot; April 1935 &middot; Schmeh Top 50 no. 17 &middot; explained</p>
+  <h1>The Roosevelt cryptogram</h1>
+  <p class="sub">Three lines of digits above a schoolboy threat to the President, reproduced by William Friedman, unread since 1935</p>
+  <p class="sub">They are the numbers 1 to 52, each written once, in an order that looks like a hand-written shuffle. There is no text behind them.</p>
+  <p class="meta">Daniel Bourdeau &middot; September 2026</p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-object">The object</a><a href="#the-reading">The reading</a><a href="#a-shuffle-written-by-hand">A shuffle written by hand</a><a href="#the-cipher-readings-that-can-be-tested">The cipher readings that can be tested</a><a href="#what-it-means">What it means</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> Read at glyph level from the sharpest copy available, the number block is <em>a permutation of 1 to 52</em>: nine
+single digits and 43 tick-joined pairs, every value once, plus eighteen zeros in groups of six and three. Thomas Ernst noticed this in 2017 and
+called the block a doodle; the claim checks out. The permutation is not a random one: its values drift upward with position, it runs through
+39 40 41 42 in a row, and it decomposes into sixteen rising chains where a shuffle would give about 26. Those are the marks of a person writing
+down "random" numbers without repeating any. The one family of cipher readings that can be tested at this length, alphabetically ordered
+homophones or a rank-derived transposition key, fails while matched 52-letter controls are recovered.
+<em>Status: explained as a constructed sequence, not read. There is no message to read.</em>
+</div>
+
+<h2 id="the-object"><span class="num">01</span> The object</h2>
+<p>A sheet received by the Secret Service on 24 April 1935, according to the receiving stamp on its face, headed &ldquo;Secret Service&rdquo; in
+a looping hand, with a diagonal &ldquo;261&rdquo; top right, three lines of digits, two lines of block capitals, and a skull and crossbones above a
+dagger driven through a boot. William Friedman reproduced it as figure 2 of the first of his 1959 lectures, printed by the NSA as <em>The Friedman
+Legacy</em> (1992), with one sentence: an authentic example of a transposition cipher, sent to President Roosevelt, which the Secret Service asked
+him to decipher, and which to his chagrin said &ldquo;Did you ever bite a lemon?&rdquo; That reading takes every second letter of
+NDOIMDEYLOAUEETVIEBR?; the line under it, OR ELSE YOU DIE!!, is in clear. Friedman said nothing about the digits.</p>
+<p>Klaus Schmeh posted the letter in 2015 and again in December 2017 as number 17 of his fifty unsolved cryptograms. In the comments Marc
+Gutgesell observed that no tick-joined pair repeats and that the loose digits are 1 to 9; Thomas Ernst listed the 43 pairs, found they were
+exactly 10 to 52, and concluded the block was &ldquo;a doodle, if not a fake&rdquo;, perhaps made to give Friedman a lemon to bite. Nobody has
+proposed a reading since.</p>
+
+<h2 id="the-reading"><span class="num">02</span> The reading</h2>
+<p>Two copies exist: Schmeh&rsquo;s 614-pixel scan and the figure in the NSA book. The Internet Archive holds a 300 ppi scan of the book, and
+its figure, cropped here, is the sharpest copy of the block that can be had without the original.</p>
+<figure><img src="roosevelt_fig2.jpg" alt="The Roosevelt letter: three lines of digits with ticks, the letter lines, a skull and crossbones and a dagger through a boot">
+<figcaption>Figure 2 of <em>The Friedman Legacy</em>, NSA Center for Cryptologic History, 1992, from the Internet Archive scan.</figcaption></figure>
+<p>The &ldquo;apostrophes&rdquo; of the standard transcription are short ticks written between and above two digits, and the two digits under a
+tick are one number. Digits without a tick stand alone. Read that way the block is:</p>
+<p class="cg">1 7 2 &nbsp;10 15 17 19 21 26 &nbsp;8 &nbsp;32 33 20 37 &nbsp;000000 &nbsp;16 27 12 34 38<br>
+28 22 39 40 41 42 48 44 &nbsp;000000 &nbsp;9 3 13 &nbsp;000 &nbsp;18 4 23 24 &nbsp;000<br>
+46 29 35 51 5 43 47 &nbsp;000 &nbsp;6 11 36 50 52 30 49 45 25 31 14 &mdash;</p>
+<p>The 43 pairs are the numbers 10 to 52, each exactly once. The nine loose digits are 1 to 9, each exactly once, in the order 1 7 2 8 9 3 4 5 6.
+The eighteen zeros come in groups of 6, 6, 3 and 3. That is the whole content of the block: a permutation of 1 to 52 with four separators.
+Friedman&rsquo;s or the Secret Service&rsquo;s pencilled trial letters under the digits, which two commenters noticed, are not recoverable from
+either scan.</p>
+
+<h2 id="a-shuffle-written-by-hand"><span class="num">03</span> A shuffle written by hand</h2>
+<p>A permutation of 52 numbers can be tested against a fair shuffle. This one fails in four ways at once.</p>
+<table class="kt">
+<tr><th>statistic</th><th>observed</th><th>fair shuffle of 52</th><th>p (200 000 shuffles)</th></tr>
+<tr><td>rank correlation of value with position</td><td class="num">+0.39</td><td class="num">0</td><td class="num">0.002</td></tr>
+<tr><td>neighbours differing by exactly +1</td><td class="num">5</td><td class="num">about 1</td><td class="num">0.003</td></tr>
+<tr><td>rising chains (values whose positions increase)</td><td class="num">16</td><td class="num">about 26.5</td><td class="num">below 1 in 200 000</td></tr>
+<tr><td>neighbours summing to 53</td><td class="num">4</td><td class="num">about 1</td><td class="num">0.018</td></tr>
+</table>
+<p>The rising chains are the telling one. Follow each value to the next: 1 2 3 4 5 6 appear in that order along the block, so do 7 8 9, 21 to 25,
+26 to 31, 32 to 36 and 37 to 43. The writer worked upward through the unused numbers in several interleaved passes, fell back for the ones skipped,
+and when fresh numbers ran short wrote 39 40 41 42 straight off. Every anomaly in the table is of that kind. Three of the four pairs summing to 53
+straddle a zero group (37|16, 44|9, 47|6), which Gerd noticed in 2017; it is a mild excess and not a structure anything else depends on.</p>
+<p>The one object that comes in 52 is a deck of cards, so the block was also tested as a riffle-shuffled deck. Sixteen rising chains is what four
+riffles produce, but a deck riffled four times does not also drift upward by 0.39 and run four consecutive cards: the joint event has probability
+0.003 under the Gilbert-Shannon-Reeds model at four riffles and 0.023 at three. A hand-written list explains the block better than a deck does.
+Neither contains a text.</p>
+
+<h2 id="the-cipher-readings-that-can-be-tested"><span class="num">04</span> The cipher readings that can be tested</h2>
+<p>A block in which every number appears once can be a cipher in only two ways: a homophonic substitution with 52 homophones each used once, or a
+transposition key derived from a 52-letter phrase by ranking its letters. With an unordered key either reading can produce any 52-letter text at
+all, so neither can be tested or refuted; one commenter demonstrated this by fitting an arbitrary sentence. With an <em>ordered</em> key, homophones
+assigned to the alphabet in order or the phrase recovered from the inverse permutation with letters nondecreasing along the ranks, the plaintext is
+fixed by 51 boundary choices, about 66 bits, against roughly 70 bits of redundancy in 52 letters of English. That is testable, just.</p>
+<p>The test: simulated annealing over nondecreasing maps from 1 to 52 onto the alphabet, scored by a character 5-gram English model, in six
+readings (sequence order and inverse permutation, alphabet forward and reversed, zero groups as word breaks or ignored), with 60 restarts of 60 000
+steps each. The control: 52-letter passages of Dickens and Melville enciphered with ordered homophonic keys and attacked identically.</p>
+<table class="kt">
+<tr><th>reading</th><th>best score, nats per letter</th><th>best candidate</th></tr>
+<tr><td>sequence, alphabet a to z</td><td class="num">&minus;3.02</td><td>abadefillbookofmdoomloorstsbadfallsnowassadovyouslod</td></tr>
+<tr><td>sequence, a to z, zeros as word breaks</td><td class="num">&minus;2.70</td><td>abadefillbooko endoonloorsus dad falltoowast adovyouslod</td></tr>
+<tr><td>sequence, alphabet z to a</td><td class="num">&minus;3.18</td><td>uttooooonsnnolonominoffeedertootooenlatedtoldandenno</td></tr>
+<tr><td>inverse permutation, a to z</td><td class="num">&minus;2.63</td><td>derssteeretiryehereheissuehistwehisthinnootrustoutst</td></tr>
+<tr><td>inverse permutation, z to a</td><td class="num">&minus;3.03</td><td>ttheeetsiteseatstetstreeatssedassseesspooneibeendeed</td></tr>
+<tr><td><b>controls, 8 passages</b></td><td class="num">&minus;1.48 to &minus;1.97</td><td>7 of 8 read at 88 to 100% of letters; one at 46%</td></tr>
+</table>
+<p>Nothing from the block comes within 0.6 nats per letter of a recovered control, and no candidate holds a run of English longer than a
+chance word. The block&rsquo;s own structure works against an ordered key: under a forward alphabet the nine single digits must all become a, b
+or c, so every candidate opens &ldquo;aba&rdquo;. The ordered readings are excluded at the strength the controls allow; the unordered ones cannot
+be tested, and a block that is only consistent with an untestable key is not distinguishable from a doodle.</p>
+
+<h2 id="what-it-means"><span class="num">05</span> What it means</h2>
+<p>Ernst&rsquo;s arithmetic is right, and the permutation carries the fingerprints of a hand that wrote 1 to 52 once each in a made-up order,
+then dressed the list with runs of zeros. The letter lines below it are a transposition so shallow that Friedman read it at sight; the number lines
+above are a cipher-shaped object with nothing inside. Whether the sender meant it as a hoax on the Secret Service, as Ernst suggests, or simply
+copied out what he thought a cipher looked like, the block cannot be read because it does not encode anything. An unordered one-time key remains
+possible in principle and is indistinguishable from a doodle.</p>
+<p>What would reopen the question: the original sheet in the William F. Friedman Collection at the NSA, whose reverse carries a typed text and
+whose face carries the pencilled trials, or a second message from the same hand.</p>
+
+<h2 id="sources"><span class="num">06</span> Sources</h2>
+<ul>
+<li>William F. Friedman, <em>The Friedman Legacy: A Tribute to William and Elizebeth Friedman</em>, NSA Center for Cryptologic History, Sources
+in Cryptologic History 3, 1992, lecture I, p. 8 and fig. 2. <a href="https://permanent.fdlp.gov/gpo52787/friedman_legacy.pdf">FDLP PDF</a>;
+<a href="https://archive.org/details/friedman_tribute-nsa">Internet Archive scan</a> (leaf 18), source of the figure above.</li>
+<li>Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/2015/10/26/wer-knackt-die-verschluesselte-nachricht-an-praesident-roosevelt/">&ldquo;Wer knackt die verschl&uuml;sselte Nachricht an Pr&auml;sident Roosevelt?&rdquo;</a>, Cipherbrain, 26 October 2015, with Marc Gutgesell&rsquo;s comments.</li>
+<li>Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/12/08/the-top-50-unsolved-encrypted-messages-17-the-roosevelt-cryptogram/">&ldquo;The Top 50 unsolved encrypted messages: 17. The Roosevelt cryptogram&rdquo;</a>, 8 December 2017, with Thomas Ernst&rsquo;s, Thomas&rsquo;s, Gerd&rsquo;s and Norbert&rsquo;s comments.</li>
+<li>Reproduce with <code>roosevelt/structure.py</code> and <code>roosevelt/solve_ordered.py</code> in the repository; the reading is in <code>roosevelt/cipher.txt</code>.</li>
+</ul>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Figure from The Friedman Legacy, NSA 1992, via the Internet Archive</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="goldbar.html" rel="prev">&larr; Gold bars 1933</a><a href="copenhagen.html" rel="next">Copenhagen c.1950s &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260916d"></script>
+</body>
+</html>

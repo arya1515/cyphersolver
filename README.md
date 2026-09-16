@@ -37,6 +37,7 @@ negative result says something.
 |---|---|---|---|
 | Hyde's ciphered superscriptions | 1659–60 | Dummy numbers "only to puzzle the Enemy", per the 1724 editor and the full Hyde–Barwick key of 1721 | [`hyde/`](hyde/) · [write-up](https://dbourdeau.github.io/cyphersolver/hyde.html) |
 | Chinese gold bar cryptograms, Shanghai | 1933 | Almost exactly ten of every letter; flatter than any cipher of a real text can be. No message | [`goldbar/`](goldbar/) · [write-up](https://dbourdeau.github.io/cyphersolver/goldbar.html) |
+| Roosevelt cryptogram, number block | 1935 | A permutation of 1 to 52, each once, padded with zeros; its statistics are those of a list written by hand, and the testable ordered-key cipher readings fail while matched controls succeed. Ernst's 2017 doodle claim confirmed. No message | [`roosevelt/`](roosevelt/) · [write-up](https://dbourdeau.github.io/cyphersolver/roosevelt.html) |
 | D'Agapeyeff challenge cipher | 1939 | The ciphertext is not enciphered English | [`dagapeyeff/`](dagapeyeff/) |
 | Beale Paper no. 1 | 1885 | Fabrication; evidence in notes, book-cipher scan over Gutenberg negative | [`beale/`](beale/) |
 
