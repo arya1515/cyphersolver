@@ -74,6 +74,11 @@ predict. **Not solved; closed against controls.**
   *Not run as a decode: the structural mismatch (no marked series, no numbers in f. 555) decides it.*
 - Tomokiyo's partial alphabet at f. 530 (Pelissier ↔ Joyeuse, same month): he states it does not fit, and its shapes
   (n, o, ρ, φ, ʒ, ¬, ⊤, ≠ …) are again unmarked.
+- **Caulet-Joyeuse cipher (BnF fr. 3985 f. 82, Aug 1593; Tomokiyo `league.htm`, image `league6.png`)**: the cipher "used
+  by Joyeuse with his agent" that Tomokiyo says does not solve f. 539. Checked here against the transcription: it is a
+  26-letter alphabet with one to three unmarked homophones per letter (π, ∞, Γ, φ, 4, H, X, ≡, ##, ⋈ …) and no
+  syllabary or numbers; f. 539 has 81 unmarked signs, 48 marked ones and 29 numbers. Different key; Tomokiyo's
+  statement confirmed.
 - Nevers-collection and Viète-volume keys on cryptiana: none is a marked-symbol cipher of this shape.
 
 ## Sibling search in the volume (after the attack)
