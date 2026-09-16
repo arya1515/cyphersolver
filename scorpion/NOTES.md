@@ -75,3 +75,37 @@ the system); a glyph-feature transcription of S5 testing whether shape families 
 the 16 alphabets, which is the one hypothesis that would tie the alphabets together; or the author's own
 statement that "all of my ciphers can be decoded simply, once the limited patterns and systems are
 discovered", which, if true, points to a systematic key table rather than a random one.
+
+## The claimed solution of 2018, tested (2026-09-15)
+
+Forum user "Rubislaw32" posted full homophonic readings of S1 and S5 on zodiackillermystery.freeforums.net
+(first on 19 October 2018; the thread "Scorpion's Ciphers - The Zodiac, 1991 and beyond" carries them;
+Cipher Mysteries lists the claim under 2022). S1: "A picture in collection of people: Bagel Bob's Old Dairy
+Frothy Late Cofee. Pour action." S5: "I am sending other picture of people for the collection of recent
+hybrid genders with edge, kept from artistic fee, if person of age has to purchase pick of university
+uglies. Espresso NYP cofee forces a cold enema review."
+
+`claimed.py` applies the one hard test a homophonic key must pass, that every repeated symbol decodes to the
+same letter, against the transcriptions in this directory:
+
+| cipher | repeated symbols | consistent | conflicts |
+|---|---|---|---|
+| S1 (this repo's transcription) | 13 | 10 | crosshair N/L; two symbols this repo marked uncertain (circL, sqnotchBR) |
+| S5 (forum numeric transcription) | 27 | 26 | symbol 41 reads C, G, C |
+
+So the claim is a valid homophonic reading in the weak sense: it honours nearly all of the two dozen equality
+constraints the ciphertexts impose. That is cheap. With 53 symbols over 70 letters the constraints fix about
+17 letters, and with 145 over 180 about 35; the rest is free choice. The English is the tell:
+
+| text | 5-gram English score, nats per letter |
+|---|---|
+| claimed S1 | -2.74 |
+| claimed S5 | -2.61 |
+| genuine English (reference passage) | -1.58 |
+| the controls' false solutions (unicity.py) | -1.60 (70 letters), -1.83 and -1.86 (180 letters) |
+
+The claimed plaintexts score worse than the fluent false solutions the annealer produced for random keys
+in `unicity.py`. `alternatives.py` makes the point constructively: it fills each cipher with real English
+words under exactly the same-symbol-same-letter rule and lists other "solutions" that fit as well or better
+(results in `results_alternatives.txt`). None of them is the plaintext either. The claim cannot be verified
+from S1 and S5 alone, and nothing in it is more probable than the alternatives.

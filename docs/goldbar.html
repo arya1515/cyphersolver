@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Chinese gold bar cryptograms (1933) — not a cipher at all</title>
 <meta name="description" content="The Latin-letter cryptograms stamped on seven gold bars said to have been issued in Shanghai in 1933 contain almost exactly ten of every letter of the alphabet. That is about a trillion times too uniform to be an encryption of natural language. The inscriptions were constructed, not enciphered.">
-<link rel="stylesheet" href="style.css?v=20260915g">
+<link rel="stylesheet" href="style.css?v=20260916a">
 <style>
 .freqchart{width:100%;max-width:760px;height:auto;color:var(--ink);margin:1rem 0;display:block}
 .cg{font-family:var(--mono);font-size:.84rem;line-height:1.85;color:var(--gold2,#e7c87a);word-break:break-all}
@@ -15,21 +15,20 @@
 .kt td.num{text-align:right}
 </style>
 </head>
-<body>
-<nav class="nav"><div class="in">
-  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
-  <div class="links">
-    <a href="index.html">Overview</a>
-    <a href="armstrong.html">Armstrong 1808</a>
-    <a href="richelieu.html">Richelieu 1629</a>
-    <a href="ormonde.html">Ormonde 1634</a>
-    <a href="hyde.html">Hyde 1659</a>
-    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
-    <a href="huangxing.html">Huang Xing 1916</a>
-    <a href="goldbar.html" class="active">Gold bars 1933</a>
-    <a href="famous.html">The famous ones</a>
-  </div>
-</div></nav>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html" aria-current="page"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
 
 <section class="hero">
   <div class="cipherstrip">MQOLCSJTLGAJOKBSSBOMUPCE<br>FEWGDRHDDEEUMFFTEEMJXZR<br>ZUQUPNZN &middot; VIOHIKNNGUAB</div>
@@ -41,7 +40,7 @@
 </section>
 
 <main>
-
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#object">The object</a><a href="#corpus">The sixteen cryptograms</a><a href="#finding">Ten of everything</a><a href="#why">Why no cipher can do that</a><a href="#meaning">What it means</a><a href="#sources">Sources</a></nav>
 <div class="callout">
 <strong>Summary.</strong> The sixteen inscriptions hold 263 letters between them, and they contain <em>almost exactly ten of every letter of the
 alphabet</em> &mdash; twenty-one of the twenty-six appear exactly ten times. Measured against a uniform distribution the chi-squared statistic is
@@ -219,8 +218,8 @@ larger than a few misread characters to disturb the result &mdash; the uniformit
 </main>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Bar photographs from the IACR</span>
-  <nav><a href="index.html">Overview</a><a href="https://elonka.com/UnsolvedCodes.html">Elonka's list &#8599;</a></nav>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="huangxing.html" rel="prev">&larr; Huang Xing 1916</a><a href="copenhagen.html" rel="next">Copenhagen c.1950s &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
-<script src="site.js?v=20260915g"></script>
+<script src="site.js?v=20260916a"></script>
 </body>
 </html>

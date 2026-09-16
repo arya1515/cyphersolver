@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Voynich manuscript &mdash; hoax, cipher or language, adjudicated</title>
+<meta name="description" content="A one-session adjudication of the Voynich manuscript: a genuine 15th-century object; plaintext, substitution, transposition and abjad renderings of eleven European languages excluded by character entropy across three transliterations; a verbose encoding against slot-preserving meaningless generation left roughly even. With the seven statistics tables, the generator bake-off, the Currier A/B analysis and the five tests that would settle it.">
+<link rel="stylesheet" href="style.css?v=20260916a">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html" aria-current="page"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<section class="hero">
+  <p class="kicker">Working notes &middot; September 2026</p>
+  <h1>The Voynich manuscript &mdash; hoax, cipher or language, adjudicated</h1>
+  <p class="sub">The object is real, a simple cipher of any European language is excluded, and a verbose encoding against structured nonsense is still roughly even.</p>
+  <p class="meta">Daniel Bourdeau &middot; 15 September 2026 &middot; six computational tests on the ZL transliteration, adversarially re-run, set against five literature sweeps</p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#question">The question and the method</a><a href="#counter">Strongest counterargument first</a><a href="#characters">Character level</a><a href="#words">Word level</a><a href="#grammar">Word grammar and repetition</a><a href="#generators">Self-citation and the generator bake-off</a><a href="#currier">Currier A and B</a><a href="#status">Hypothesis status</a><a href="#physical">What the physical evidence adds</a><a href="#settle">What would settle the rest</a><a href="#checked">Checked, not checked, must verify</a><a href="#files">Files and reproduction</a></nav>
+<div class="callout">
+<strong>The verdict in three tiers.</strong>
+<p><span class="st solved">settled</span> Beinecke MS 408 is a genuine early-15th-century codex: vellum radiocarbon-dated 1404&ndash;1438, iron-gall ink, period pigments, five scribal hands, provenance from Prague c.1600 (section 09). Modern forgery is dead.</p>
+<p><span class="st stuck">excluded</span> Not a plaintext, a one-to-one substitution, a letter transposition, an abjad rendering or a null-padded rendering of any of eleven European languages in ordinary word segmentation (sections 03, 04 and 05). Conditional character entropy sits at least 1.0 bit below the natural-language floor in raw EVA and at least 0.4 bit below it under three independent glyph segmentations.</p>
+<p><span class="st found">live</span> A verbose or slot-template encoding, one plaintext unit becoming a rigid two- or three-glyph group, against slot-preserving meaningless generation by copy-and-modify (sections 06 and 08). Every statistic that separates Voynichese from language is reproduced by a member of each class. Judgement*: roughly even, about 45:50, the remainder on an unenciphered exotic language.</p>
+</div>
+
+<h2 id="question"><span class="num">01</span> The question and the method</h2>
+<p>This is not a decipherment. The question was whether the text is meaningless, enciphered or a language, and how far public data can push that in one session. Five literature sweeps, one per hypothesis or evidence class, produced <code>SOURCES.md</code>. Six computational tests, <code>a1</code> to <code>a6</code>, ran on the ZL transliteration against natural-language corpora and implemented hoax generators. A separate agent re-ran every test adversarially (<code>v_a1</code> to <code>v_a6</code>) and corrected several; corrected figures are quoted. Two baseline scripts written before the agents ran reproduce the a1 and a2 headlines: h2 of 2.32 bits in raw EVA without spaces, Zipf slope &minus;1.04, adjacent repeats 0.81%.</p>
+<p><strong>(S)</strong> marks a number computed this session by a named script; <strong>(L)</strong> one quoted from the literature, with source and year. Judgement carries an asterisk.</p>
+<p><strong>Data (S).</strong> ZL3b-n, the Zandbergen&ndash;Landini EVA transliteration (voynich.nu, 13 May 2025), paragraph text only: 34,116 tokens after dropping words with unread or extended-EVA glyphs, about 10,750 in Currier A and 22,900 in B, 7,236 word types. Cross-checked on RF1b-er, IT2a, GC2a (v101) and CD2a (Currier). The 2,463 uncertain spaces were treated as breaks; joining them changes nothing material (v_a2). Language controls are single Gutenberg books and an OCR&rsquo;d 16th-century Italian corpus. Entropies are plug-in; Miller&ndash;Madow moves h2 by at most 0.007.</p>
+
+<h2 id="counter"><span class="num">02</span> Strongest counterargument first</h2>
+<p>Every character statistic assumes the transliteration, and that EVA spaces mark plaintext units. Latin re-segmented after every e, s and m moves 60% of the way to Voynichese slot rigidity, and Latin cut into vowel-final syllables is more rigid than Voynichese at equal length (S: v_a3). The exclusion therefore covers word-boundary-preserving encodings of eleven languages in modern orthography. Rule-based re-segmentation, or a language with rigid consonant-vowel syllables written syllabically, was not tested.</p>
+<p>Second, the verbose control that matches raw EVA on h1, h2 and their ratio at once produces words 2.3 times too long, 11.52 symbols against 5.07, while carrying Latin word entropy (S: v_a1). That refutes a letter-level verbose cipher of whole Latin words. Both points narrow the verdict. Neither overturns it.</p>
+
+<h2 id="characters"><span class="num">03</span> Character level</h2>
+<p>The firmest result is conditional character entropy h2, the uncertainty of a glyph given the one before it. Bennett (1976) put Voynichese at 2.22 bits against 3.01 to 3.37 for European languages (L); Lindemann &amp; Bowern (2021) found it below all 250 languages in a Wikipedia corpus (L). The gap survives glyph merging and the Currier and v101 alphabets. All rows (S), no spaces, a1, v_a1 and v_a5.</p>
+<table>
+<tr><th>text</th><th class="n">h1</th><th class="n">h2</th><th class="n">h1&minus;h2</th><th class="n">h2/h1</th><th class="n">mean word length</th></tr>
+<tr><td>ZL raw EVA, Currier A</td><td class="n">3.832</td><td class="n">2.353</td><td class="n">1.479</td><td class="n">0.614</td><td class="n">4.98</td></tr>
+<tr><td>ZL raw EVA, Currier B</td><td class="n">3.859</td><td class="n">2.182</td><td class="n">1.677</td><td class="n">0.565</td><td class="n">5.12</td></tr>
+<tr><td>ZL raw EVA, all</td><td class="n">3.865</td><td class="n">2.311</td><td class="n">1.554</td><td class="n">0.598</td><td class="n">5.07</td></tr>
+<tr><td>ZL merged (benches, i/e groups, aiin, qo)</td><td class="n">4.039</td><td class="n">2.870</td><td class="n">1.170</td><td class="n">0.710</td><td class="n">3.7&ndash;3.9</td></tr>
+<tr><td>GC v101 (68 symbols)</td><td class="n">4.144</td><td class="n">2.893</td><td class="n">1.25</td><td class="n">0.698</td><td class="n">3.7&ndash;4.0</td></tr>
+<tr><td>Currier CD2a (35 symbols)</td><td class="n">3.857</td><td class="n">2.660</td><td class="n">1.197</td><td class="n">0.690</td><td class="n"></td></tr>
+<tr><td>Latin, Aeneid</td><td class="n">4.025</td><td class="n">3.510</td><td class="n">0.515</td><td class="n">0.872</td><td class="n">5.77</td></tr>
+<tr><td>German (diacritics folded 3.335)</td><td class="n">4.160</td><td class="n">3.391</td><td class="n">0.769</td><td class="n">0.815</td><td class="n">4.88</td></tr>
+<tr><td>Range of 11 languages (floor 3.32 folded)</td><td class="n">3.94&ndash;4.52</td><td class="n">3.32&ndash;3.88</td><td class="n">0.49&ndash;0.77</td><td class="n">0.82&ndash;0.88</td><td class="n">4.2&ndash;6.6</td></tr>
+<tr><td>Latin, vowels removed</td><td class="n">3.659</td><td class="n">3.515</td><td class="n">0.144</td><td class="n">0.961</td><td class="n">3.11</td></tr>
+<tr><td>Verbose cipher of Latin, every letter 2&ndash;3 symbols, 24 symbols</td><td class="n">3.901</td><td class="n">2.325</td><td class="n">1.576</td><td class="n">0.596</td><td class="n">11.52</td></tr>
+<tr><td>Verbose cipher, 8 letters kept single</td><td class="n">4.102</td><td class="n">2.916</td><td class="n">1.186</td><td class="n">0.711</td><td class="n">7.64</td></tr>
+</table>
+<p>Raw EVA gives 2.18 to 2.35 bits; ZL merged, v101 and Currier give 2.66 to 2.89; the eleven-language floor is 3.32 with diacritics folded. Any transposition of Latin gives at least 3.44. Vowel deletion leaves Latin at 3.52 with h2/h1 of 0.961, the wrong direction for an abjad.</p>
+<p><strong>Where the redundancy sits.</strong> Inside words. Within-word h2 is 1.92 to 2.13 bits raw against 2.94 to 3.41 for languages. Mutual information between glyph and word position is 0.69 to 0.73 bits across ZL, Currier and v101 against 0.17 to 0.27; 21% to 31% of glyphs are locked to one word position against 0% to 8% of letters (S: a5, v_a5).</p>
+<p><strong>Pair merging.</strong> Greedy merging of frequent glyph pairs closes the h1&minus;h2 gap only after about 40 merges, so an encoding of two- to three-glyph units drawn from 50 to 60 unit types is compatible with the character statistics and a plain letter cipher is not (S: a5). Greedy merging tests one heuristic, not the whole verbose class (S: v_a5).</p>
+<p><strong>Information budget.</strong> The word stream carries 425,468 bits, 12.47 bits per token, 0.82 times a Latin prose text of equal length under the same model (S: a5, v_a5).</p>
+
+<h2 id="words"><span class="num">04</span> Word level</h2>
+<p>At word level Voynichese looks like a language, as Landini (2001) and Reddy &amp; Knight (2011) reported (L). Table (S), a2 and v_a2, 34,116 tokens.</p>
+<table>
+<tr><th>corpus</th><th class="n">Zipf slope, ranks 1&ndash;1000</th><th class="n">hapax % of types</th><th class="n">Heaps beta</th><th class="n">top-word share</th></tr>
+<tr><td>Voynich all</td><td class="n">&minus;1.040</td><td class="n">69.7</td><td class="n">0.710</td><td class="n">2.25%</td></tr>
+<tr><td>Voynich A / B</td><td class="n">&minus;0.994 / &minus;1.068</td><td class="n">72.2 / 68.6</td><td class="n">0.743 / 0.679</td><td class="n">4.27% / 2.13%</td></tr>
+<tr><td>Latin (Aeneid)</td><td class="n">&minus;0.820</td><td class="n">67.0</td><td class="n">0.749</td><td class="n">4.9%</td></tr>
+<tr><td>German</td><td class="n">&minus;1.045</td><td class="n">65.1</td><td class="n">0.779</td><td class="n">3.46%</td></tr>
+<tr><td>English</td><td class="n">&minus;1.056</td><td class="n">55.1</td><td class="n">0.675</td><td class="n">4.68%</td></tr>
+</table>
+<p>Word-type entropy is 9.8 to 10.3 bits against 10.3 to 10.8 for Latin prose and 9.4 to 9.8 for Italian, French and German (S: v_a1). The low pooled top-word share is an A+B mixture effect (S: v_a2); against single-book samples the hapax rate is above every language (S: v_a5). None of this discriminates: Zipf and hapax are reproduced by human gibberish (Gaskell &amp; Bowern 2022), by generators (Rugg &amp; Taylor 2016; Timm &amp; Schinner 2020) and by a hand cipher from Latin (Greshko 2025) (L).</p>
+<h3>Word length</h3>
+<p>Merged EVA word lengths (S: a2, v_a2):</p>
+<table>
+<tr><th>corpus</th><th class="n">mean</th><th class="n">variance</th><th class="n">variance / mean of (length&minus;1)</th></tr>
+<tr><td>Voynich all (raw EVA 5.07 / 3.73 / 0.92)</td><td class="n">4.11</td><td class="n">2.48</td><td class="n">0.80</td></tr>
+<tr><td>Voynich A</td><td class="n">3.93</td><td class="n">2.89</td><td class="n">0.99</td></tr>
+<tr><td>Voynich B</td><td class="n">4.20</td><td class="n">2.27</td><td class="n">0.71</td></tr>
+<tr><td>Aeneid alone / Confessions alone</td><td class="n"></td><td class="n">4.97 /</td><td class="n">1.04 / 1.74</td></tr>
+<tr><td>Italian / German / English / Danish</td><td class="n">4.53 / 4.99 / 4.23 / 4.67</td><td class="n">6.52 / 7.04 / 5.41 / 7.40</td><td class="n">1.85 / 1.77 / 1.67 / 2.02</td></tr>
+</table>
+<p>The famous under-dispersion, &ldquo;binomial word lengths&rdquo;, is a Currier-B property. B has variance-to-mean 0.71, A has 0.99 and single-text Latin verse 1.04, so Currier A matches Latin verse and the binomial-fit contrast in a2 was a search-cap artefact. B and the pooled text stay far from the 1.67 to 2.02 of modern prose.</p>
+
+<h2 id="grammar"><span class="num">05</span> Word grammar and repetition</h2>
+<p>Tiltman (1951), Stolfi (2000) and Zattera (2022) described a rigid positional grammar inside Voynichese words (L). Measured here as the fraction of glyph pairs whose order violates the single best glyph ordering, length-matched; a shuffle null gives 0.49. All rows (S): a3, a2, v_a2.</p>
+<table>
+<tr><th>statistic</th><th class="n">Voynich</th><th class="n">Latin</th><th class="n">Italian</th><th class="n">German</th><th class="n">English</th></tr>
+<tr><td>Pair-order violations against the best glyph order, length-matched (shuffle null 0.49)</td><td class="n">0.160 (v101 0.140)</td><td class="n">0.363</td><td class="n">0.318</td><td class="n">0.278</td><td class="n">0.308</td></tr>
+<tr><td>Adjacent identical tokens, % and observed:shuffled</td><td class="n">0.907 / 2.5</td><td class="n">0.047 / 0.1</td><td class="n">0.047 / 0.1</td><td class="n">0.157 / 0.3</td><td class="n">0.137 / 0.2</td></tr>
+<tr><td>Line-initial first-glyph effect, Cram&eacute;r&rsquo;s V, paragraph-first lines excluded</td><td class="n">0.277</td><td class="n" colspan="4">pseudo-lined prose 0.02&ndash;0.03; hexameter 0.148</td></tr>
+</table>
+<p>Voynichese is 1.7 to 2.3 times more rigid than any tested language. The glyph order derived from the data with no assumptions, q, then p f sh, then ch, then o t k, then e ee, then d s a, then l r y, then g n iin m, is the Stolfi and Zandbergen layout recovered blind (S: a3).</p>
+<p>Line position matters, as Currier (1976) said (L). The line-initial effect exceeds hexameter verse and is an order of magnitude above pseudo-lined prose; the line-final effect a2 reported collapses to V 0.07 to 0.16 once the final m and g allographs are removed (S: v_a2).</p>
+
+<h2 id="generators"><span class="num">06</span> Self-citation and the generator bake-off</h2>
+<p>Timm (2014, 2016) argued that similar words cluster on the page, the fingerprint of copying an earlier word and modifying it; Timm &amp; Schinner (2020) published an algorithm that does this (L). The test finds, for each token, the nearest earlier token on the same page within edit distance 1, with every corpus poured into the identical page and line skeleton. Two Rugg-style generators and a re-implemented autocopist ran through the same code. All rows (S), a4 and v_a4.</p>
+<table>
+<tr><th>corpus</th><th class="n">median distance</th><th class="n">within 10 tokens</th><th class="n">within-page shuffle</th><th class="n">global shuffle</th><th class="n">long tokens (5+) within 10</th></tr>
+<tr><td>Voynich ZL</td><td class="n">14</td><td class="n">0.269</td><td class="n">0.238</td><td class="n">0.167</td><td class="n">0.225</td></tr>
+<tr><td>Latin (Aeneid)</td><td class="n">41</td><td class="n">0.035</td><td class="n">0.034</td><td class="n">0.030</td><td class="n">0.006</td></tr>
+<tr><td>English (Italian, German similar)</td><td class="n">17</td><td class="n">0.176</td><td class="n">0.177</td><td class="n">0.164</td><td class="n">0.019</td></tr>
+<tr><td>Danish (verse)</td><td class="n">15</td><td class="n">0.196</td><td class="n">0.172</td><td class="n">0.138</td><td class="n">0.035</td></tr>
+<tr><td>Autocopist (Timm&ndash;Schinner re-implementation)</td><td class="n">13</td><td class="n">0.329</td><td class="n">0.275</td><td class="n">0.079</td><td class="n">0.257</td></tr>
+<tr><td>Rugg grille</td><td class="n">36</td><td class="n">0.067</td><td class="n">0.249</td><td class="n">0.066</td><td class="n">0.033</td></tr>
+<tr><td>Rugg sorted table</td><td class="n">34</td><td class="n">0.329</td><td class="n">0.162</td><td class="n">0.112</td><td class="n">0.341</td></tr>
+<tr><td>Order-3 character Markov model trained on Voynichese</td><td class="n">19</td><td class="n">0.194</td><td class="n">0.194</td><td class="n">0.194</td><td class="n">0.119</td></tr>
+</table>
+<p>Sequential excess, real minus within-page shuffle, measures copying order: Voynich +0.031, Danish verse +0.024, autocopist +0.054, prose about zero. Page-vocabulary excess, real minus global shuffle: Voynich +0.102, languages at most +0.058, autocopist +0.250. For tokens of five or more glyphs the language baselines collapse to 0.035 or less while Voynichese stays at 0.225, but an order-3 character Markov model that copies nothing reaches 0.119: about half the long-token density is word-internal structure, not copying (S: v_a4).</p>
+<h3>The bake-off</h3>
+<table>
+<tr><th>text</th><th class="n">types</th><th class="n">h2 raw</th><th class="n">h2 merged</th><th class="n">Zipf slope</th><th class="n">hapax %</th><th class="n">adjacent repeat</th><th class="n">pair-violation</th></tr>
+<tr><td>Voynich ZL</td><td class="n">7,236</td><td class="n">2.311</td><td class="n">2.646</td><td class="n">&minus;1.040</td><td class="n">69.7</td><td class="n">0.0082</td><td class="n">0.160</td></tr>
+<tr><td>Autocopist, two seeds</td><td class="n">11,660 / 11,330</td><td class="n">2.709 / 2.723</td><td class="n">3.274 / 3.005</td><td class="n">&minus;0.825 / &minus;0.859</td><td class="n">72.2 / 71.1</td><td class="n">0.0013 / 0.0018</td><td class="n">free-edit 0.41&ndash;0.46</td></tr>
+<tr><td>Rugg grille / sorted table</td><td class="n">3,747 / 1,757</td><td class="n">2.798 / 2.629</td><td class="n">3.176 / 2.912</td><td class="n">&minus;0.429 / &minus;0.622</td><td class="n">5.7 / 13.9</td><td class="n">0.0003 / 0.0893</td><td class="n">fitted table 0.122</td></tr>
+</table>
+<p>No generator matches on every column. The autocopist yields only 37% real Voynich word types by token, 2% qo-initial words against 15%, and h2 0.4 to 0.6 bits too high; it over-produces locality and page vocabulary where the manuscript&rsquo;s own sequential excess is only the size of Danish verse. It is a re-implementation with documented deviations, not Timm&rsquo;s reference program. The grilles fail Zipf and hapax outright. The one table that reproduces the slot rigidity had its columns read off Voynichese: sufficiency only (S: v_a3).</p>
+
+<h2 id="currier"><span class="num">07</span> Currier A and B</h2>
+<p>Currier (1976) found two statistical languages in the manuscript (L). What separates them (S: a6, v_a6):</p>
+<table>
+<tr><th>statistic</th><th class="n">A</th><th class="n">B</th></tr>
+<tr><td>Tokens ending -edy / containing ed</td><td class="n">0.20% / 0.29%</td><td class="n">17.34% / 20.84%</td></tr>
+<tr><td>Containing cho / starting qo- / ending -ol</td><td class="n">16.1 / 10.0 / 14.5%</td><td class="n">2.7 / 17.7 / 7.1%</td></tr>
+<tr><td>Glyph after ch: e / o</td><td class="n">24.5 / 46.1%</td><td class="n">60.1 / 10.1%</td></tr>
+<tr><td>daiin per thousand tokens</td><td class="n">42.5</td><td class="n">13.0</td></tr>
+</table>
+<p>Unsupervised clustering of 197 folios recovers Currier&rsquo;s labels at 95.4% to 99.5%. A single -edy threshold separates them at 99.5% leave-one-out: A a spike, 112 of 114 folios below 2%, B a continuum from 3% to 42%; the same in IT2a. Parisel&rsquo;s 2026 preprint reaches the same single-switch description independently (L).</p>
+<p><strong>Hand determines language.</strong> With Davis&rsquo;s (2020) five hands from the IVTFF headers, H(language | hand) is 0.09 bits and 98.2% of lines are predicted from hand alone; the only mixed cell is hand 3 in the stars section. The scribe, not the subject matter, sets the language.</p>
+<p><strong>Vocabulary sharing, calibrated.</strong> Size-matched A against B gives Jaccard 0.147 and top-100 overlap 0.95, against 0.207 and 1.00 for two halves of A, 0.172 and 0.91 for two English novels, 0.116 and 0.67 for Danish against Norwegian. A word-final pattern moving from 0.2% to 17% has no parallel between books in one language but does between languages: French against Italian, final -o, 0.19% to 17.5% (S: v_a6).</p>
+<p><strong>Section words.</strong> Section-specific vocabulary exists, mean chi-square per token 0.654 against 0.121 shuffled and 0.40 for Italian, and persists within one scribe and one language. But the section words belong to the same sub-word families, qokain, qol, qokeedy, okeol, not to anything resembling content vocabulary (S: v_a6).</p>
+
+<h2 id="status"><span class="num">08</span> Hypothesis status</h2>
+<p><span class="st stuck">excluded</span></p>
+<ol>
+<li>Plaintext or monoalphabetic substitution of the eleven tested languages: h2 gap at least 1.0 bit raw, at least 0.4 bit merged (S: a1, v_a1; L: Bennett 1976, Zandbergen, Lindemann &amp; Bowern 2021).</li>
+<li>Substitution plus vowel removal or conventional abbreviation (S: a1, a5; L: Lindemann &amp; Bowern 2021).</li>
+<li>Letter-level transposition of a real plaintext, including grille rearrangement (S: v_a5; L: Parisel 2026).</li>
+<li>Vigen&egrave;re-type polyalphabetics (L: D&rsquo;Imperio 1978, Stolfi 2000).</li>
+<li>Single-glyph nulls as the source of the redundancy (S: a5).</li>
+<li>Named decipherments: Cheshire 2019 (refuted by its reviewers), Hauer &amp; Kondrak 2016 read as a decipherment (the authors&rsquo; own caveat), Bax 2014, Gibbs 2017, Ardic, Gladyseva 2023, Schechter 2025 and the 2025&ndash;2026 LLM-assisted readings: no reproducible key, none survives blind application (L).</li>
+<li>Modern forgery (L: radiocarbon, ink, provenance).</li>
+</ol>
+<p><span class="st partial">disfavoured*</span></p>
+<ul>
+<li>An unenciphered exotic language: the nearest published h2 is 2.77, for Hawaiian (L), and the slot grammar has no parallel.</li>
+<li>Rugg&rsquo;s table-and-grille as the mechanism: Cardan grilles date from about 1550 against 1404&ndash;1438 vellum, the special roles of f and p cannot arise from the table (L: Zandbergen 2021), and the session&rsquo;s grilles fail Zipf and hapax (S: a4).</li>
+<li>Free-edit self-citation as implemented here: it over-produces locality and vocabulary and under-produces character redundancy (S: a4, v_a4; section 06).</li>
+<li>Dee and Kelly glossolalia (L: Daruka 2020), which conflicts with the vellum date.</li>
+</ul>
+<p><span class="st found">live</span></p>
+<ul>
+<li><strong>(a)</strong> A verbose or slot-template cipher of short units, a nomenclator, or a constructed language with meaning. Compatible with sections 03, 05 and 07 and with a hand-executable 15th-century design that reproduces several headline statistics (L: Greshko 2025, the Naibbe cipher; Bowern &amp; Gaskell 2022). It must also meet the word-length constraint (verbose controls give 7.6 to 11.5 symbols; S: v_a1), the near-zero token-to-token predictability (L: Rozanova &amp; Temerev 2026, preprint) and the line-initial effect (S: v_a2).</li>
+<li><strong>(b)</strong> Slot-preserving copy-and-modify generation (L: Timm &amp; Schinner 2020, 2023; Timm 2026). Compatible with everything measured, but the slot grammar is an input to that model, not a product (S: a3), and no implementation has been run at manuscript length against page, section and scribe structure (L: all three sweeps).</li>
+<li><strong>(c)</strong> A real language under a non-word segmentation. Untested (S: v_a3).</li>
+</ul>
+
+<h2 id="physical"><span class="num">09</span> What the physical evidence adds</h2>
+<p>All (L). Radiocarbon on four folios: 1404&ndash;1438 (Hodgins, University of Arizona, 2009). Iron-gall ink and period pigments throughout (McCrone 2009; Yale 2014). Five hands, three writing 188 of the 227 pages, share one writing system (Davis 2020). Romance-dialect month names and a German-hand note on f116v put it in German- and French/Occitan-speaking hands within decades. Multispectral images of ten folios (taken 2014, released 2024) recovered an erased alphabet trial on f1r and Tepenecz&rsquo;s ex libris, not new Voynichese. Provenance runs from Prague c.1600 through Baresch (1639), Marci (1665) and Kircher to 1912.</p>
+<p>The consequence is symmetric. A meaningless-text account must be a 1420s production on fresh calfskin by several collaborating scribes who kept one slot grammar and one A/B switch consistent across 200-plus pages, a cost no statistic addresses. A cipher account must explain why the scribe rather than the subject matter sets the language (section 07).</p>
+
+<h2 id="settle"><span class="num">10</span> What would settle the rest</h2>
+<ol>
+<li><strong>A pre-registered generator bake-off at manuscript length:</strong> self-citation, table-and-grille, Naibbe-enciphered Latin and human gibberish under one battery including the Montemurro&ndash;Zanette long-range keyword peak (L: 2013), topic-by-illustration-by-scribe co-clustering, page-adjacency similarity, A/B separability, the f and p rules and token predictability. Scripts a1 to a6 are a partial battery for any text in the TSV format.</li>
+<li><strong>Manuscript-length human gibberish</strong> written over weeks with illustrations and sections, the open test named by Gaskell &amp; Bowern (2022) (L).</li>
+<li><strong>Illustration-to-text mutual information</strong> with hand, quire and adjacency partialled out.</li>
+<li><strong>Re-tokenisation on certain spaces only</strong>, and the same statistics on a syllabic segmentation of Latin and Italian, to close the gap left in section 02.</li>
+<li><strong>For any claimed key:</strong> blind application by a third party to five A and five B folios, with a shuffled-glyph control.</li>
+</ol>
+
+<h2 id="checked"><span class="num">11</span> Checked, not checked, must verify</h2>
+<p><strong>Checked.</strong> Every headline number in a1 to a6 was reproduced by an independent re-implementation, v_a1 to v_a6, including the Levenshtein code, entropy formulas, estimator bias, corpus contents and Gutenberg boilerplate. Robustness across ZL, RF1b, IT2a, GC2a and CD2a. Corrections applied: single-book samples; Latin word entropy from prose, not verse; a folded floor of 3.32; the rigidity ratio at 1.7 to 2.3; under-dispersion as a Currier-B property; the line-final effect as the m/g allograph; the A/B rule at 99.5% leave-one-out.</p>
+<p><strong>Not checked.</strong> Paywalled Cryptologia full texts (Rugg 2004, Schinner 2007, Timm &amp; Schinner 2020 and 2023, Daruka 2020, Greshko 2025) were characterised from abstracts and secondary summaries. Higher-order and per-hand entropies, significance tests on A against B and bootstrap intervals were not computed. No higher-level literature statistic (Montemurro&ndash;Zanette peak, topic models, adjacent-page similarity) was recomputed. Davis&rsquo;s hand assignments were taken from the IVTFF headers. Physical evidence beyond radiocarbon, ink, hands and the 1639 letter, including ink layering, pigment order and quire order, was not examined.</p>
+<p><strong>User must verify before quoting.</strong> The corpus choices (single Gutenberg books; an OCR Italian corpus with about 8% Latin; verse against prose Latin), the glyph merge lists, the design of the 24-symbol verbose controls, the treatment of uncertain spaces as breaks, and the labels excluded, disfavoured and live. Two figures appear in more than one form: merged h2 is 2.870 in the entropy table and 2.646 in the bake-off table; the adjacent-repeat rate is 0.907% in the rigidity table, 0.0082 in the bake-off table and 0.81% in the baselines. The notes do not reconcile them; different merge lists and token filters are the likely cause*, which the per-script JSON in <code>results/</code> would confirm. All output is unvalidated until review.</p>
+
+<h2 id="files"><span class="num">12</span> Files and reproduction</h2>
+<p>Everything lives in <code>voynich/</code>. <code>parse_ivtff.py</code> converts IVTFF to TSV; <code>data/ZL3b-n.words.tsv</code> is the parsed main transliteration. The raw files come from voynich.nu/data with browser headers; the server refuses plain curl. <code>baseline.py</code> and <code>baseline2.py</code> are the independent baselines. Tests: <code>a1_charstats.py</code>, <code>a2_wordstats.py</code>, <code>a3_wordgrammar.py</code> with <code>a3_supplement.py</code>, <code>a4_selfcitation.py</code>, <code>a5_cipher.py</code>, <code>a6_structure.py</code>; re-runs <code>v_a1.py</code> to <code>v_a6.py</code>. <code>results/</code> holds per-script JSON and Markdown plus generator samples. <code>NOTES.md</code> is the adjudication this page condenses; <code>SOURCES.md</code> the five literature sweeps.</p>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="vatican.html" rel="next">Vatican 1542 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260916a"></script>
+</body>
+</html>

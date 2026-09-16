@@ -25,18 +25,7 @@ LIVE = [
      "to key width 17 (same key) or 11 &times; 14 (two keys); the real run over that range is next. It is not solved, and the second telegram, "
      "which is not public, would help most."),
 
-    ("Copenhagen cryptogram", "c.1835",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2017/08/17/the-top-50-unsolved-encrypted-messages-23-the-copenhagen-cryptogram/",
-     "top 50", "low", "lo", "low",
-     "Found behind an 1835 painting of a Danish general and sent to the American Cryptogram Association, which never broke it or even wrote it up. "
-     "A hundred and seven characters over twenty-five symbols, almost certainly simple substitution and almost certainly <b>not English</b>. That "
-     "makes it a multilingual reading problem rather than a cryptanalytic one, which is the angle nobody has pushed."),
 
-    ("Scorpion letters", "1991",
-     "https://scienceblogs.de/klausis-krypto-kolumne/2018/01/30/the-top-50-unsolved-encrypted-messages-12-the-sccorpion-letters/",
-     "top 50", "low", "lo", "medium",
-     "About two hundred and fifty symbols over two homophonic ciphers in Zodiac style; the remaining letters are withheld by law enforcement. The "
-     "Z340 break showed what searching transposition alongside substitution can do, but this is a quarter of that length."),
 
     ("Japanese telegram decoded by Yardley", "c.1920",
      "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "low",
@@ -45,6 +34,20 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Copenhagen cryptogram", "c.1950s", "copenhagen.html", "top 50", "not a simple substitution", "lo",
+     "Three lines found behind an 1835 portrait of a Danish general, 107 characters. <b>Attempted September 2026.</b> Transcribed twice (20 and "
+     "25 symbols), attacked in ten languages under six reading conventions and a word-separator hypothesis with a 5-gram annealer and dictionary "
+     "re-ranking, then confirmed with 300 restarts. Nothing readable: best &minus;2.7 nats per letter, while matched controls of the same length "
+     "in Danish, German, English, Latin and Swedish are recovered at 96&ndash;100% and &minus;1.4 to &minus;2.1. Either not a simple substitution "
+     "of those languages, or both readings share an error only the original slip could fix. <a href=\"copenhagen.html\">Full write-up &rarr;</a>"),
+
+    ("Scorpion letters", "1991", "scorpion.html", "top 50", "below unicity distance", "lo",
+     "Two Zodiac-style cryptograms, 70 symbols with 53 distinct and 180 with 145 distinct. <b>Attempted September 2026.</b> Every S5 repeat falls "
+     "at a multiple of 16; S1 shows a weak period-5 signal (p = 0.04). Both carry more key information than the English text has redundancy "
+     "(249 vs 224 bits, 682 vs 576), and matched controls return fluent English at 3&ndash;13% letter accuracy, so no ciphertext-only solution can "
+     "be verified. A claimed 2018 solution is consistent with the repeats but scores worse than the controls' false solutions. Needs S2&ndash;S4. "
+     "<a href=\"scorpion.html\">Full write-up &rarr;</a>"),
+
     ("Abwehr agent Koehler's messages, New York to Berlin", "1944",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/19/the-top-50-unsolved-encrypted-messages-47-encrypted-messages-of-a-nazi-spy/",
      "top 50", "skipped: intractable", "lo",
@@ -102,9 +105,9 @@ ATTEMPTED = [
     ("Vatican Challenge, Part 5 — Farnese to Poggio", "1542",
      "vatican.html", "", "family identified", "md",
      "Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. "
-     "Five independent measurements match that design, including a doubled-digit suppression that recovers the chancery's own written rule against "
-     "doubling consonants. Five model classes excluded, two against matched controls the same code solves. Still unread; needs the key or the "
-     "manuscript's word division."),
+     "Six sessions: the Meister keys verified from the page scans and excluded on structure, the letter dated from its own cleartext (15 April 1542), "
+     "the sibling and relative records located in DECODE, and a unit-level attack (segmentation by EM, then annealing) shown by a matched control to "
+     "fail on the segmentation step. Still unread; needs the 400 dpi images behind the DECODE login, the key in Chigi M II 49, or the clear register copy."),
 
     ("D’Agapeyeff cipher", "1939", ELONKA, "famous", "diagnosed", "lo",
      "196 digit pairs, and the author admitted he had forgotten his own method. Five independent lines — frequency against the author's own worked "
@@ -139,9 +142,11 @@ ATTEMPTED = [
 ]
 
 NOTCIPHER = [
-    ("Voynich manuscript", "c.1420", ELONKA, "famous",
-     "~38,000 word-tokens and six centuries of failure. No proposed reading has been independently verified, and the competing hypotheses — natural "
-     "language in invented script, constructed language, cipher, hoax — remain unresolved."),
+    ("Voynich manuscript", "c.1420", "voynich.html", "famous",
+     "<b>Adjudicated September 2026</b>, not deciphered. Six computational tests on the transliteration against eleven languages and implemented hoax "
+     "generators, each re-run adversarially, plus five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-"
+     "robust entropy (h2 2.2&ndash;2.9 bits against a 3.3 floor); Rugg's grille and free-edit self-citation are disfavoured; a verbose or slot-template "
+     "encoding and a structured meaningless text are left roughly even, with the tests that would separate them. <a href=\"voynich.html\">Full write-up &rarr;</a>"),
     ("Kryptos, passage K4", "1990", ELONKA, "famous",
      "97 characters. The plaintext was recovered from Sanborn's own papers in 2025 — explicitly not a cryptographic solve — and the archive sold at "
      "auction for $962,500. The method remains unbroken and the plaintext unpublished."),

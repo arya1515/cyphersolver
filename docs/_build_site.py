@@ -1,0 +1,186 @@
+"""Site builder: one manifest drives the navigation, footers, tables of contents and index cards of every page.
+
+Run  python _build_site.py  from docs/ after editing any page. It is idempotent.
+
+Per page it: replaces the first <nav class="nav">...</nav> (or the <!-- site:nav --> marker) with the generated
+header; replaces the last <footer>...</footer> (or <!-- site:footer -->) with the generated footer, including
+previous / next links in chronological order; inserts an "On this page" contents strip after <main> when the page
+has three or more h2 sections with ids; stamps the stylesheet and script versions; and removes inline <style>
+blocks whose rules now live in style.css. On index.html it also regenerates the write-up cards between
+<!-- cards:start --> and <!-- cards:end -->. The priority queue is still built by _build_queue.py.
+"""
+import re, pathlib, html
+HERE = pathlib.Path(__file__).parent
+VERSION = '20260916a'
+SITE = 'Unsolved Historical Ciphers'
+REPO = 'https://github.com/dbourdeau/cyphersolver'
+
+# slug, nav label, year label, sort year, place, status class, status text, title, blurb, quote, rights
+PAGES = [
+    dict(slug='richelieu', label='Richelieu', year='1629', y=1629, place='France', st='solved', stt='solved',
+         title='Richelieu to M. de Ranc&eacute; &mdash; BnF Fran&ccedil;ais 3829',
+         blurb='Ciphertext-only recovery of a homophonic alphabet with a doubling mark and nomenclature; then found to agree word for word with the decipherment Avenel printed in 1858, which the catalogues had missed.',
+         quote='&ldquo;Castor voudroit bien que la [duchesse de Chevreuse] peust estre attrap&eacute;e pr&egrave;s de la fronti&egrave;re&hellip;&rdquo;',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='ormonde', label='Ormonde', year='1634&ndash;35', y=1634, place='Ireland / England', st='partial', stt='alphabet recovered',
+         title='Maltravers to Ormonde &mdash; a regular block cipher',
+         blurb='Doubled letters written with consecutive figures betray a regular key (consonants three figures each from 7, vowels from 64, nulls 91&ndash;111). Every spelled word reads and the nomenclator falls into place from the 1634 Irish Parliament.',
+         quote='&ldquo;he was angry [with the Lord Deputy] &hellip; upon his motion [Ormonde] is to be a councellor&rdquo;'),
+    dict(slug='vatican', label='Vatican', year='1542', y=1542, place='Rome &rarr; Spain', st='stuck', stt='family identified',
+         title='The Vatican cipher of April 1542 &mdash; an Antonio Elio cipher',
+         blurb='Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Six sessions, five model classes excluded against matched controls, the Meister keys verified from the scans.',
+         quote='27 and 80 end a third of the words &middot; 441 repeated 7-grams against 5 in a shuffle'),
+    dict(slug='hyde', label='Hyde', year='1659&ndash;60', y=1659, place='Brussels', st='found', stt='explained',
+         title='Hyde&rsquo;s ciphered superscriptions &mdash; not a cipher at all',
+         blurb='The four &ldquo;undeciphered addresses&rdquo; on Hyde&rsquo;s letters to Barwick decode to nothing under the full Hyde&ndash;Barwick key printed in 1721, because, as the 1724 editor states, they were numbers &ldquo;signifying nothing &hellip; only to puzzle the Enemy&rdquo;.',
+         quote='&ldquo;some Persons &hellip; have wondered what was the meaning of them&rdquo; &mdash; Life of Barwick, 1724'),
+    dict(slug='armstrong', label='Armstrong', year='1808', y=1808, place='United States', st='solved', stt='solved',
+         title='Armstrong to Madison &mdash; the coded postscript',
+         blurb='Forty-nine groups of the 1,600-element &ldquo;THE = 972&rdquo; diplomatic code, read in full after reconstructing 580 groups from the State Department&rsquo;s own pencil decodes on NARA microfilm M34 roll 13.',
+         quote='&ldquo;Russel ought to be the consul: he is an American by birth &hellip; Next to him in fitness is O&rsquo;Mealy, but he is, like Warden, an Irishman.&rdquo;'),
+    dict(slug='debosnys', label='Debosnys', year='1883', y=1883, place='Elizabethtown, NY', st='stuck', stt='too short to break',
+         title='The Debosnys cryptograms &mdash; a French syllabary, and why it stops there',
+         blurb='A convicted wife-killer&rsquo;s invented script, about 1,200 glyphs, unread since he was hanged. Three passages transcribed. The cipher poem is twenty lines of rhyming couplets, and line length and rhyme both make it a syllabary too short for any crib-free attack.',
+         quote='final glyph matches in 9 of 10 couplets &middot; 0 of 9 across &middot; planted 1,000-glyph syllabary: 0% recovered'),
+    dict(slug='sunyatsen', label='Sun Yat-sen', year='1916', y=1916, place='Swatow &rarr; Tokyo', st='solved', stt='solved',
+         title='The Swatow telegram to Sun Yat-sen &mdash; a systematic code condenser',
+         blurb='Twenty consonants, five vowels, ten-letter words: a code condenser over the standard Chinese telegraph code. The family of systematic tables is small enough to brute-force, and one key reads 41 characters: Mo Qingyu&rsquo;s independence at Chaozhou and Sun&rsquo;s men ordered out of the Swatow garrison headquarters, 3 April 1916.',
+         quote='潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府&hellip;'),
+    dict(slug='huangxing', label='Huang Xing', year='1916', y=1916.5, place='China / Japan', st='solved', stt='scheme found',
+         title='Huang Xing to Lin Hu and Li Genyuan &mdash; a kana condenser',
+         blurb='Listed as &ldquo;solved but specific scheme unknown&rdquo;: the Japanese Foreign Ministry filed a decode nobody could read, and an encipherment nobody could name. Both recovered. Three kana carry one character, each kana holding a digit in its consonant row while the vowel is free, so the surface text barely repeats.',
+         quote='護國軍能速入湘贛甚好。章行嚴何日東渡？速令出發，並望預電。興　徑'),
+    dict(slug='goldbar', label='Gold bars', year='1933', y=1933, place='Shanghai', st='found', stt='no message',
+         title='The Chinese gold bar cryptograms &mdash; ten of everything',
+         blurb='Sixteen strings on seven bars said to certify $300,000,000, unread for ninety years. They contain almost exactly ten of every letter of the alphabet: chi-squared 1.25 against uniform where chance predicts 25. No cipher can flatten a distribution past what randomness allows, so there is nothing to read.',
+         quote='MQOLCSJTLGAJOKBSSBOMUPCE &middot; ZUQUPNZN &middot; FEWGDRHDDEEUMFFTEEMJXZR',
+         rights='Bar photographs from the IACR'),
+    dict(slug='copenhagen', label='Copenhagen', year='c.1950s', y=1955, place='Copenhagen', st='stuck', stt='not a simple substitution',
+         title='The Copenhagen cryptogram &mdash; not a simple substitution of any language tested',
+         blurb='Three lines found behind an 1835 portrait of a Danish general, 107 characters, unsolved at the American Cryptogram Association since the 1950s. Transcribed twice, attacked in ten languages under six reading conventions; the same solver recovers matched controls at 96 to 100 percent and the note never comes close.',
+         quote='best &minus;2.7 nats per letter in any language &middot; controls solve at &minus;1.4 to &minus;2.1'),
+    dict(slug='scorpion', label='Scorpion', year='1991', y=1991, place='United States', st='stuck', stt='below unicity distance',
+         title='The Scorpion letters &mdash; two ciphers below the unicity distance',
+         blurb='Two Zodiac-style cryptograms sent to John Walsh in 1991, 70 and 180 symbols with 53 and 145 distinct. Both carry more key than the English text has redundancy, so fluent false solutions are guaranteed; matched controls produce them at 3 to 13 percent accuracy, and a claimed 2018 solution is tested against the same rule.',
+         quote='S5: every repeat at a multiple of 16 &middot; key 682 bits against 576 of redundancy'),
+    dict(slug='voynich', label='Voynich', year='c.1420', y=1420, place='Beinecke MS 408', st='partial', stt='adjudicated',
+         title='The Voynich manuscript &mdash; hoax, cipher or language, adjudicated',
+         blurb='Six computational tests on the transliteration against eleven languages and implemented hoax generators, each re-run adversarially, and five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-robust entropy; a verbose encoding and a structured meaningless text are left roughly even, with the tests that would separate them.',
+         quote='h2 2.2&ndash;2.9 bits against a 3.3 floor &middot; slot grammar 1.7&ndash;2.3&times; more rigid than any language'),
+    dict(slug='famous', label='The famous ones', year='survey', y=9999, place='Survey', st='partial', stt='the famous ones',
+         title='Why the famous ciphers resist',
+         blurb='Kryptos, Voynich, Dorabella, Beale, Linear A, Phaistos, the pigeon message. Sorted by the actual reason each has held out: undeciphered writing systems, one that is information-theoretically secure, several too short for any answer to be provable, and at least two that were probably never enciphered.',
+         quote='Fame is a poor guide to tractability.'),
+]
+GROUPS = [('Solved', lambda p: p['st'] == 'solved'), ('Explained', lambda p: p['st'] == 'found'),
+          ('Partly read', lambda p: p['st'] == 'partial' and p['slug'] != 'famous'),
+          ('Attempted, not solved', lambda p: p['st'] == 'stuck'), ('Survey', lambda p: p['slug'] == 'famous')]
+
+def nav_html(current):
+    items = []
+    for gname, pred in GROUPS:
+        ps = sorted([p for p in PAGES if pred(p)], key=lambda p: p['y'])
+        if not ps: continue
+        lis = ''.join(f'<li><a href="{p["slug"]}.html"{" aria-current=\"page\"" if p["slug"] == current else ""}>'
+                      f'<span class="st {p["st"]}">{p["stt"]}</span><b>{p["label"]}</b><span class="yr">{p["year"]}</span></a></li>' for p in ps)
+        items.append(f'<div class="grp"><h4>{gname}</h4><ul>{lis}</ul></div>')
+    return (
+        f'<header class="nav"><div class="in">\n'
+        f'  <a class="brand" href="index.html"><span class="glyph">972</span><span>{SITE}</span></a>\n'
+        f'  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>\n'
+        f'  <nav id="sitemenu" class="links" aria-label="Site">\n'
+        f'    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
+        f'      <div class="panel">{"".join(items)}</div></details>\n'
+        f'    <a href="index.html#recent">Latest</a>\n'
+        f'    <a href="index.html#queue">Queue</a>\n'
+        f'    <a href="index.html#closed">Closed</a>\n'
+        f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
+        f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
+        f'  </nav>\n</div></header>')
+
+def footer_html(current):
+    order = sorted([p for p in PAGES if p['slug'] != 'famous'], key=lambda p: p['y'])
+    prev = nxt = None
+    for i, p in enumerate(order):
+        if p['slug'] == current:
+            prev = order[i-1] if i > 0 else None; nxt = order[i+1] if i+1 < len(order) else None
+    cur = next((p for p in PAGES if p['slug'] == current), None)
+    rights = f' &middot; {cur["rights"]}' if cur and cur.get('rights') else ''
+    links = ['<a href="index.html">Overview</a>']
+    if prev: links.append(f'<a href="{prev["slug"]}.html" rel="prev">&larr; {prev["label"]} {prev["year"]}</a>')
+    if nxt: links.append(f'<a href="{nxt["slug"]}.html" rel="next">{nxt["label"]} {nxt["year"]} &rarr;</a>')
+    links.append(f'<a href="{REPO}" rel="noopener">Code &#8599;</a>')
+    links.append('<a href="#top">Top &uarr;</a>')
+    return (f'<footer><div class="in">\n  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0{rights}</span>\n'
+            f'  <nav aria-label="Footer">{"".join(links)}</nav>\n</div></footer>')
+
+def toc_html(s):
+    heads = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', s, re.S)
+    if len(heads) < 3: return ''
+    links = []
+    for hid, inner in heads:
+        text = re.sub(r'<span class="num">.*?</span>', '', inner); text = re.sub(r'<[^>]+>', '', text)
+        text = re.sub(r'\s+', ' ', html.unescape(text)).strip()
+        text = text.split(' &mdash; ')[0]
+        links.append(f'<a href="#{hid}">{html.escape(text[:48])}</a>')
+    return '<nav class="toc" aria-label="On this page"><span>On this page</span>' + ''.join(links) + '</nav>\n'
+
+def card_html(p):
+    return (f'  <a class="card" href="{p["slug"]}.html">\n'
+            f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span><span class="st {p["st"]}">{p["stt"]}</span></div>\n'
+            f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
+
+SHARED_INLINE = ('.why', '.w-yes', '.w-no', '.w-lang', '.w-otp', '.w-short', '.w-fake', '.w-open', '.item', '.item h3', '.item .meta2', '.ct', '.callout', '.callout h3', '.tw')
+
+def process(path):
+    slug = path.stem
+    s = path.read_text(encoding='utf-8')
+    if s.startswith('﻿'): s = s[1:]
+    nav = nav_html(slug)
+    if '<!-- site:nav -->' in s: s = s.replace('<!-- site:nav -->', nav, 1)
+    else: s = re.sub(r'<header class="nav">.*?</header>|<nav class="nav">.*?</nav>', lambda m: nav, s, count=1, flags=re.S)
+    s = re.sub(r'(</div></header>)(\s*</div></header>)+', r'\1', s)      # stray closers left by an earlier build
+    foot = footer_html(slug)
+    if '<!-- site:footer -->' in s: s = s.replace('<!-- site:footer -->', foot, 1)
+    else:
+        ms = list(re.finditer(r'<footer.*?</footer>', s, re.S))
+        if ms: m = ms[-1]; s = s[:m.start()] + foot + s[m.end():]
+        else: s = s.replace('</main>', '</main>\n' + foot, 1)
+    # give every h2 an id so the contents strip and deep links work
+    used = set(re.findall(r'<h2 id="([^"]+)"', s))
+    def add_id(m):
+        text = re.sub(r'<span class="num">.*?</span>', '', m.group(2)); text = html.unescape(re.sub(r'<[^>]+>', '', text))
+        base = re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')[:40] or 'section'
+        hid = base; k = 2
+        while hid in used: hid = f'{base}-{k}'; k += 1
+        used.add(hid); return f'<h2 id="{hid}"{m.group(1)}>{m.group(2)}</h2>'
+    s = re.sub(r'<h2((?![^>]*\bid=)[^>]*)>(.*?)</h2>', add_id, s, flags=re.S)
+    # contents strip
+    s = re.sub(r'<nav class="toc".*?</nav>\n*', '', s, flags=re.S)      # also eat blank lines an earlier build left
+    if slug != 'index':
+        toc = toc_html(s)
+        if toc: s = re.sub(r'<main>\n*', lambda m: '<main>\n' + toc, s, count=1)
+    # drop inline style blocks made of shared rules only
+    def strip_style(m):
+        rules = re.findall(r'([^{}]+)\{', m.group(1))
+        if rules and all(r.strip() in SHARED_INLINE for r in rules): return ''
+        return m.group(0)
+    s = re.sub(r'<style>(.*?)</style>\s*', strip_style, s, flags=re.S)
+    # versions, anchor for "Top", script
+    s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
+    if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)
+    s = re.sub(r'<script src="site.js[^"]*"></script>\s*', '', s)
+    s = s.replace('</body>', f'<script src="site.js?v={VERSION}"></script>\n</body>', 1)
+    s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)
+    if slug == 'index':
+        cards = '<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in sorted(PAGES, key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] != 'famous' else 4, -p['y']))) + '</div>\n<!-- cards:end -->'
+        if '<!-- cards:start -->' in s:
+            s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
+        else:
+            s = re.sub(r'(<h2><span class="num">01</span> Write-ups</h2>\s*)<div class="cards">.*?</div>\n(?=\n<h2)', lambda m: m.group(1) + cards + '\n', s, count=1, flags=re.S)
+    path.write_text(s, encoding='utf-8')
+    return slug
+
+if __name__ == '__main__':
+    done = [process(p) for p in sorted(HERE.glob('*.html'))]
+    print('built', ', '.join(done))

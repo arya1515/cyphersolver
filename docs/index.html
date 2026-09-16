@@ -5,25 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
 <meta name="description" content="Working notes on historical ciphers from three standard lists: Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes, and Schmeh's Top 50 - with new decipherments, corrections to the catalogues where a solution already existed in print, and an audit finding nine of the Top 50 already closed and one entry an April Fools' hoax.">
-<link rel="stylesheet" href="style.css?v=20260915g">
+<link rel="stylesheet" href="style.css?v=20260916a">
 </head>
-<body>
-<nav class="nav"><div class="in">
-  <a class="brand" href="index.html"><span class="glyph">972</span> Unsolved Historical Ciphers</a>
-  <div class="links">
-    <a href="index.html#queue">Priority</a>
-    <a href="armstrong.html">Armstrong 1808</a>
-    <a href="richelieu.html">Richelieu 1629</a>
-    <a href="ormonde.html">Ormonde 1634</a>
-    <a href="hyde.html">Hyde 1659</a>
-    <a href="sunyatsen.html">Sun Yat-sen 1916</a>
-    <a href="huangxing.html">Huang Xing 1916</a>
-    <a href="goldbar.html">Gold bars 1933</a>
-    <a href="vatican.html">Vatican 1542</a>
-    <a href="debosnys.html">Debosnys 1883</a>
-    <a href="famous.html">The famous ones</a>
-  </div>
-</div></nav>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
 
 <section class="hero">
   <div class="cipherstrip">1394 · 1116 · 1273 · 250 · 1165 · 1405<br>11 16 19 ~25 29 10<br>972 · 148 · 1459 · 1482</div>
@@ -33,26 +30,24 @@
   <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and
   <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a> — reading the archives,
   reconstructing the keys, and correcting the catalogues where the answer was already in print.</p>
-  <div class="jump"><a href="#recent">Latest findings</a><a href="#queue">Priority queue</a><a href="#closed">Solved &amp; explained</a><a href="vatican.html">Vatican 1542</a></div>
-  <p class="meta">Daniel Bourdeau · updated 15 September 2026</p>
+  <div class="jump"><a href="#recent">Latest findings</a><a href="#writeups">Write-ups</a><a href="#queue">Priority queue</a><a href="#closed">Solved &amp; explained</a><a href="voynich.html">Voynich</a></div>
+  <p class="meta">Daniel Bourdeau · updated 16 September 2026</p>
 </section>
 
 <main>
 
 <div class="bignews">
-  <span class="tag">&#9733; Famous case closed &middot; September 2026</span>
-  <h2>The Chinese gold bar cryptograms are <span class="strikeout">unsolved</span> &mdash; because there is nothing in them</h2>
-  <p>Seven bars said to have been issued in Shanghai in 1933 and to certify a deposit of $300,000,000, stamped with sixteen strings of Latin
-  letters. Published by the IACR in 1996, carried on Elonka Dunin&rsquo;s list of famous unsolved codes ever since, and never read.</p>
-  <p>They were never read because they are not an encryption. The 263 letters contain <b>almost exactly ten of every letter of the alphabet</b> &mdash;
-  twenty-one of the twenty-six appear exactly ten times. That is flatter than randomness itself permits, and no cipher can do it: substitution and
-  transposition both preserve the plaintext&rsquo;s frequency skew, and even a one-time pad is still random sampling. Somebody counted out ten of each
-  letter and arranged them to look like cryptography &mdash; chi-squared 1.25 against uniform where chance predicts 25, about a trillion to one,
-  and not one of 200,000 simulated strings came out this flat.</p>
-  <p>The documentary case now agrees from a second direction, and it was not recorded here before: the aircraft stamped on the bars is a model that
-  entered service in 1934, after the date they claim; the general named was promoted in 1936; the year is Gregorian rather than Republican; and some
-  characters are simplified forms not official until the mid-1950s.</p>
-  <a class="cta" href="goldbar.html">Read the full case &rarr;</a>
+  <span class="tag">&#9733; Adjudicated &middot; September 2026</span>
+  <h2 id="the-voynich-manuscript-hoax-cipher-or-la">The Voynich manuscript: hoax, cipher or language, <span class="strikeout">unanswerable</span> &mdash; but the field can be narrowed</h2>
+  <p>Six computational tests on the public transliteration against eleven languages and implemented hoax generators, each re-run by an adversarial
+  checker, and five literature sweeps. The object is a genuine early-15th-century codex. The text is <b>not</b> a plaintext, one-to-one substitution,
+  transposition or vowel-less rendering of any European language tested: its conditional character entropy sits at 2.2 to 2.9 bits under four
+  transliteration alphabets against a floor of 3.3 for every language.</p>
+  <p>What survives is exactly two hypotheses, and they are not yet separable: a verbose or slot-template encoding of short units with meaning behind it,
+  or a structured meaningless text produced by a copy-and-modify procedure. Every statistic that separates Voynichese from language is reproduced by at
+  least one model in each camp. The write-up lists the five tests that would separate them.</p>
+  <div class="stat2"><div><b>2.2&ndash;2.9</b><span>bits of conditional entropy, against 3.3 for language</span></div><div><b>1.7&ndash;2.3&times;</b><span>more rigid word grammar than any language tested</span></div><div><b>0.09 bits</b><span>H(language | scribe): Currier A/B is almost the hand</span></div></div>
+  <a class="cta" href="voynich.html">Read the adjudication &rarr;</a>
 </div>
 
 
@@ -60,6 +55,10 @@
 <h2 id="recent"><span class="num">00</span> Recent findings</h2>
 <p>Newest first. One line each &mdash; the evidence is in the <a href="#queue">queue</a> below, or in the write-up linked.</p>
 <ul class="findings">
+<li><b>Voynich manuscript</b> &mdash; <span class="fnd">adjudicated, not deciphered.</span> Plain or simply enciphered European language excluded on transliteration-robust entropy; grille and free-edit self-citation disfavoured; verbose encoding against structured meaningless text left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></li>
+<li><b>Scorpion letters, 1991</b> &mdash; <span class="fnd">below the unicity distance.</span> Both ciphers carry more key than the text has redundancy; matched controls produce fluent false English at 3&ndash;13% accuracy, and a claimed 2018 solution scores worse than those false solutions. <a href="scorpion.html">Full write-up &rarr;</a></li>
+<li><b>Copenhagen cryptogram</b> &mdash; <span class="fnd">not a simple substitution of any language tested.</span> Two transcriptions, ten languages, six reading conventions, 300 restarts: nothing readable, while the same solver recovers same-length controls at 96&ndash;100%. <a href="copenhagen.html">Full write-up &rarr;</a></li>
+<li><b>Vatican Part 5, 1542</b> &mdash; <span class="fnd">Meister keys verified from the scans; unit-level attack fails on segmentation.</span> The letter is dated from its own cleartext, the historically matching key is excluded on structure, and a matched control shows why a two-stage attack cannot work. Routes in: DECODE images, Chigi M II 49. <a href="vatican.html">Full case &rarr;</a></li>
 <li><b>BLUME SALAMANCA telegram, 1937</b> &mdash; <span class="fnd">identified as a Spanish transposition; not yet solved.</span> Rail fence, skip, route and single columnar excluded against planted controls. A double-transposition solver now breaks planted messages of this length; the real run is next.</li>
 <li><b>Koehler cryptograms, 1944</b> &mdash; <span class="fnd">skipped as intractable.</span> Not Enigma, since the letter counts rule out machine output, and not any periodic or running-key hand cipher. What is left needs the prayer book or the FBI&rsquo;s file.</li>
 <li><b>Censorship manual steganograms, WW2</b> &mdash; <span class="fnd">blocked on image resolution.</span> The map&rsquo;s shift direction and the exact Morse any German wording would leave are now fixed, but the pen marks are 2&ndash;5 pixels in the best public photograph. Needs a high-resolution scan of KV 2/2424.</li>
@@ -75,7 +74,7 @@
 <li><b>Chinese gold bars, 1933</b> &mdash; <span class="fnd">constructed, not enciphered,</span> now corroborated from a second direction by the documentary evidence. <a href="goldbar.html">Full case &rarr;</a></li>
 </ul>
 
-<h2><span class="num">01</span> Write-ups</h2>
+<h2 id="writeups"><span class="num">01</span> Write-ups</h2>
 <div class="cards">
   <a class="card" href="armstrong.html">
     <div class="eyebrow"><span>United States · 1808</span><span class="st solved">solved</span></div>
@@ -165,8 +164,8 @@
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
   <button class="qf on" data-f="all">All <span>24</span></button>
-  <button class="qf" data-f="live">Attack now <span>4</span></button>
-  <button class="qf" data-f="done">Attempted <span>12</span></button>
+  <button class="qf" data-f="live">Attack now <span>2</span></button>
+  <button class="qf" data-f="done">Attempted <span>14</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
 <h3 class="tier" data-t="live">Attack now <small>ranked by odds against effort</small></h3>
@@ -181,28 +180,28 @@
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">2</span></div>
   <div class="tg-b">
-    <h3><a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/08/17/the-top-50-unsolved-encrypted-messages-23-the-copenhagen-cryptogram/">Copenhagen cryptogram</a><span class="tg-date">c.1835</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">low effort</span></div>
-    <p>Found behind an 1835 painting of a Danish general and sent to the American Cryptogram Association, which never broke it or even wrote it up. A hundred and seven characters over twenty-five symbols, almost certainly simple substitution and almost certainly <b>not English</b>. That makes it a multilingual reading problem rather than a cryptanalytic one, which is the angle nobody has pushed.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">3</span></div>
-  <div class="tg-b">
-    <h3><a href="https://scienceblogs.de/klausis-krypto-kolumne/2018/01/30/the-top-50-unsolved-encrypted-messages-12-the-sccorpion-letters/">Scorpion letters</a><span class="tg-date">1991</span> <span class="fam">top 50</span></h3>
-    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
-    <p>About two hundred and fifty symbols over two homophonic ciphers in Zodiac style; the remaining letters are withheld by law enforcement. The Z340 break showed what searching transposition alongside substitution can do, but this is a quarter of that length.</p>
-  </div>
-</article>
-<article class="tg live">
-  <div class="tg-l"><span class="tg-rank">4</span></div>
-  <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
     <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">low effort</span></div>
     <p>Yardley printed the plaintext, so the scheme is attackable, but Japanese diplomatic traffic of 1920 ran on codebooks. One message can only recover the entries it happens to use, so a complete answer is ruled out by construction.</p>
   </div>
 </article>
 <h3 class="tier" data-t="done">Attempted &mdash; findings recorded <small>what was established, and what is left</small></h3>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="copenhagen.html">Copenhagen cryptogram</a><span class="tg-date">c.1950s</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds lo">not a simple substitution</span></div>
+    <p>Three lines found behind an 1835 portrait of a Danish general, 107 characters. <b>Attempted September 2026.</b> Transcribed twice (20 and 25 symbols), attacked in ten languages under six reading conventions and a word-separator hypothesis with a 5-gram annealer and dictionary re-ranking, then confirmed with 300 restarts. Nothing readable: best &minus;2.7 nats per letter, while matched controls of the same length in Danish, German, English, Latin and Swedish are recovered at 96&ndash;100% and &minus;1.4 to &minus;2.1. Either not a simple substitution of those languages, or both readings share an error only the original slip could fix. <a href="copenhagen.html">Full write-up &rarr;</a></p>
+  </div>
+</article>
+<article class="tg done">
+  <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
+  <div class="tg-b">
+    <h3><a href="scorpion.html">Scorpion letters</a><span class="tg-date">1991</span> <span class="fam">top 50</span></h3>
+    <div class="tg-meta"><span class="odds lo">below unicity distance</span></div>
+    <p>Two Zodiac-style cryptograms, 70 symbols with 53 distinct and 180 with 145 distinct. <b>Attempted September 2026.</b> Every S5 repeat falls at a multiple of 16; S1 shows a weak period-5 signal (p = 0.04). Both carry more key information than the English text has redundancy (249 vs 224 bits, 682 vs 576), and matched controls return fluent English at 3&ndash;13% letter accuracy, so no ciphertext-only solution can be verified. A claimed 2018 solution is consistent with the repeats but scores worse than the controls' false solutions. Needs S2&ndash;S4. <a href="scorpion.html">Full write-up &rarr;</a></p>
+  </div>
+</article>
 <article class="tg done">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">
@@ -256,7 +255,7 @@
   <div class="tg-b">
     <h3><a href="vatican.html">Vatican Challenge, Part 5 — Farnese to Poggio</a><span class="tg-date">1542</span></h3>
     <div class="tg-meta"><span class="odds md">family identified</span></div>
-    <p>Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. Five independent measurements match that design, including a doubled-digit suppression that recovers the chancery's own written rule against doubling consonants. Five model classes excluded, two against matched controls the same code solves. Still unread; needs the key or the manuscript's word division.</p>
+    <p>Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. Six sessions: the Meister keys verified from the page scans and excluded on structure, the letter dated from its own cleartext (15 April 1542), the sibling and relative records located in DECODE, and a unit-level attack (segmentation by EM, then annealing) shown by a matched control to fail on the segmentation step. Still unread; needs the 400 dpi images behind the DECODE login, the key in Chigi M II 49, or the clear register copy.</p>
   </div>
 </article>
 <article class="tg done">
@@ -303,9 +302,9 @@
 <article class="tg no">
   <div class="tg-l"><span class="tg-rank tg-dash">·</span></div>
   <div class="tg-b">
-    <h3><a href="https://elonka.com/UnsolvedCodes.html">Voynich manuscript</a><span class="tg-date">c.1420</span> <span class="fam">famous</span></h3>
+    <h3><a href="voynich.html">Voynich manuscript</a><span class="tg-date">c.1420</span> <span class="fam">famous</span></h3>
     <div class="tg-meta"><span class="odds no">not tractable</span></div>
-    <p>~38,000 word-tokens and six centuries of failure. No proposed reading has been independently verified, and the competing hypotheses — natural language in invented script, constructed language, cipher, hoax — remain unresolved.</p>
+    <p><b>Adjudicated September 2026</b>, not deciphered. Six computational tests on the transliteration against eleven languages and implemented hoax generators, each re-run adversarially, plus five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-robust entropy (h2 2.2&ndash;2.9 bits against a 3.3 floor); Rugg's grille and free-edit self-citation are disfavoured; a verbose or slot-template encoding and a structured meaningless text are left roughly even, with the tests that would separate them. <a href="voynich.html">Full write-up &rarr;</a></p>
   </div>
 </article>
 <article class="tg no">
@@ -421,9 +420,9 @@ search away from "solved in 1858".</p>
 
 </main>
 <footer><div class="in">
-  <span>Daniel Bourdeau, September 2026 · Text released under CC BY 4.0</span>
-  <nav><a href="index.html">Overview</a><a href="armstrong.html">Armstrong 1808</a><a href="richelieu.html">Richelieu 1629</a><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's list ↗</a></nav>
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
-<script src="site.js?v=20260915g"></script>
+<script src="site.js?v=20260916a"></script>
 </body>
 </html>

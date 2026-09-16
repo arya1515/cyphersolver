@@ -18,8 +18,8 @@ opening line 1 and closing line 3, a small one, one with a trailing dot opening 
 zero in line 2), and he reads the second tall stroke around "13" in line 3 as the digit 1. With those
 splits the symbol count is 25, which is Schmeh's figure; merged it is 20. Both readings were attacked.
 
-Counts (merged reading, 103 symbols plus 4 long strokes): 3 x16, n x13, backslash-dot x13, slash-dot x8,
-+ x7, caret x7, free dot x7, o x5, 2 x5, 0 x5, v x4, 9 x3, 1 x2, 8 x2, 7 6 X ṅ or-glyph double-tick x1.
+Counts (merged reading, 103 symbols plus 4 long strokes, counted mechanically from cipher.txt): 3 x16, backslash-dot x14,
+n x13, slash-dot x8, free dot x8, caret x6, + x6, o x5, 2 x5, 0 x5, v x4, 9 x3, 1 x2, 8 x2, 7 6 X ṅ or-glyph double-tick x1.
 Digits 4 and 5 never occur. The letter o occurs five times and every time directly after n ("no3", "no9",
 "+no", "non", "non3"); "non" occurs twice in line 3. The doubled pair "vv" occurs once.
 

@@ -1,13 +1,42 @@
-// shared behaviour: nav highlight, scroll-reveal, card glow follow, interlinear tile renderer
+// shared behaviour: theme, menu, active link, contents strip, scroll-reveal, card glow, interlinear tiles, queue filter
 (function(){
+  // theme: stored choice wins, otherwise follow the OS
+  const root=document.documentElement;
+  let stored=null; try{ stored=localStorage.getItem('theme'); }catch(e){}
+  const prefersLight=matchMedia('(prefers-color-scheme: light)').matches;
+  root.dataset.theme = stored || (prefersLight ? 'light' : 'dark');
+  document.querySelectorAll('.nav .theme').forEach(b=>b.addEventListener('click',()=>{
+    root.dataset.theme = root.dataset.theme==='dark' ? 'light' : 'dark';
+    try{ localStorage.setItem('theme', root.dataset.theme); }catch(e){}
+  }));
+  // mobile menu
+  const nav=document.querySelector('.nav'), tog=document.querySelector('.navtoggle');
+  if(tog){ tog.addEventListener('click',()=>{ const open=nav.classList.toggle('open'); tog.setAttribute('aria-expanded',open); }); }
+  // write-ups dropdown: close on outside click or Escape
+  const menu=document.querySelector('.nav details.menu');
+  if(menu){
+    document.addEventListener('click',e=>{ if(menu.open && !menu.contains(e.target)) menu.open=false; });
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ menu.open=false; nav.classList.remove('open'); if(tog) tog.setAttribute('aria-expanded','false'); } });
+  }
+  // active section links (index) and active page
   const here=location.pathname.split('/').pop()||'index.html';
-  document.querySelectorAll('.nav .links a').forEach(a=>{ if(a.getAttribute('href')===here) a.classList.add('active'); });
+  document.querySelectorAll('.nav .links > a').forEach(a=>{ const h=a.getAttribute('href').split('#')[0]; if(h===here && !a.getAttribute('href').includes('#')) a.classList.add('active'); });
+  document.querySelectorAll('.nav .panel a[aria-current]').forEach(a=>{ const sum=menu&&menu.querySelector('summary'); if(sum) sum.classList.add('active'); });
+  // card glow follows the pointer
   document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointermove',e=>{ const r=c.getBoundingClientRect(); c.style.setProperty('--mx',((e.clientX-r.left)/r.width*100)+'%'); }));
-  const els=document.querySelectorAll('main > h2, main > p, main > table, main > figure, main > blockquote, main > .callout, main > .cards, main > .stats, main > ol, main > ul, main > #decoder, main > details, main > h3');
-  if(!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches){ return; }
-  const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }),{threshold:.05,rootMargin:'0px 0px -5% 0px'});
-  els.forEach(el=>{ if(el.getBoundingClientRect().top < innerHeight*1.1){ return; } el.classList.add('reveal'); io.observe(el); });
-  setTimeout(()=>els.forEach(el=>el.classList.add('in')),2500);   // never leave content hidden
+  // contents strip: highlight the section in view
+  const toc=document.querySelector('.toc');
+  if(toc && 'IntersectionObserver' in window){
+    const links=[...toc.querySelectorAll('a')]; const map=new Map(links.map(a=>[a.getAttribute('href').slice(1),a]));
+    const io=new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.classList.remove('on')); const l=map.get(e.target.id); if(l) l.classList.add('on'); } }); },{rootMargin:'-20% 0px -70% 0px'});
+    map.forEach((a,id)=>{ const h=document.getElementById(id); if(h) io.observe(h); });
+  }
+  // scroll reveal (kept subtle; never leaves content hidden)
+  const els=document.querySelectorAll('main > h2, main > p, main > table, main > figure, main > blockquote, main > .callout, main > .cards, main > .stats, main > ol, main > ul, main > #decoder, main > details, main > h3, main > .tg, main > .item');
+  if(!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const rio=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); rio.unobserve(e.target);} }),{threshold:.05,rootMargin:'0px 0px -5% 0px'});
+  els.forEach(el=>{ if(el.getBoundingClientRect().top < innerHeight*1.1) return; el.classList.add('reveal'); rio.observe(el); });
+  setTimeout(()=>els.forEach(el=>el.classList.add('in')),2000);
 })();
 // render [{g:'972', p:'the', cls:''}, ...] as interlinear tiles into a container
 function renderTiles(el, items){
@@ -15,11 +44,10 @@ function renderTiles(el, items){
   for(const it of items){
     const t=document.createElement('span'); t.className='tile '+(it.cls||'');
     const p=document.createElement('span'); p.className='p'; p.textContent=it.p;
-    const g=document.createElement('span'); g.className='g'; g.textContent=it.g||'\u00a0';
+    const g=document.createElement('span'); g.className='g'; g.textContent=it.g||' ';
     t.appendChild(p); t.appendChild(g); el.appendChild(t);
   }
 }
-
 // priority-queue filter: show one tier at a time
 (function(){
   const btns=document.querySelectorAll('.qf'); if(!btns.length) return;

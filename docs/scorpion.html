@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Scorpion letters (1991) &mdash; two ciphers below the unicity distance</title>
+<meta name="description" content="The two public Scorpion ciphers of 1991, S1 (70 symbols, 53 distinct) and S5 (180 symbols, 145 distinct), measured: every S5 repeat falls at a multiple of 16, S1 shows a weak period-5 signal, and both carry more key information than the English behind them can pin down. A matched control and a test of the 2018 forum solution show why fluent output proves nothing here.">
+<link rel="stylesheet" href="style.css?v=20260916a">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html" aria-current="page"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<section class="hero">
+  <p class="kicker">Working notes &middot; September 2026</p>
+  <h1>The Scorpion letters (1991) &mdash; two ciphers below the unicity distance</h1>
+  <p class="sub">Two of the five cipher passages sent to John Walsh in 1991 are public, and in both the key holds more information than the English redundancy of the text, so no ciphertext-only attack can single out a plaintext.</p>
+  <p class="meta">Daniel Bourdeau &middot; 15 September 2026 &middot; sources: Schmeh, Top 50 no. 12; Oranchak&rsquo;s scans; Pelling, Cipher Mysteries 2014&ndash;2018; the Cipher Foundation; zodiackillerciphers.com forum transcription of S5</p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#letters">What the letters are, and what is public</a><a href="#structure">The structure measured here</a><a href="#unicity">Why they cannot be solved from what is published</a><a href="#claimed">The claimed solution of 2018, tested</a><a href="#status">Status, and what would change it</a><a href="#files">Files</a></nav>
+<div class="callout">
+  <h3>Status &nbsp; <span class="st stuck">not solvable from the published text</span></h3>
+  <p>S1 has 53 distinct symbols in 70 positions; S5 has 145 in 180. At those ratios more than one fluent English plaintext fits each ciphertext, and a search that returns fluent English has done only what the arithmetic guarantees. The one claimed reading tested here fails the single hard test a homophonic key imposes, on one securely identified symbol in each cipher.</p>
+</div>
+
+<h2 id="letters"><span class="num">01</span> What the letters are, and what is public</h2>
+
+<p>In 1991 a writer signing as Scorpion sent letters to John Walsh, host of <i>America&rsquo;s Most Wanted</i>, containing five cipher passages. Two are public. S1 came with the first letter; S5 came with the letter that opens &ldquo;Hi! Remember me?&rdquo;. S2 to S4 are held by law enforcement and have not been released. Klaus Schmeh lists the pair as no. 12 in his Top 50 unsolved ciphers, using scans from David Oranchak&rsquo;s site.</p>
+
+<table>
+<tr><th>cipher</th><th>layout</th><th class="n">symbols</th><th class="n">distinct</th><th class="n">repeat pairs</th><th>transcription used here</th></tr>
+<tr><td>S1</td><td>10 &times; 7</td><td class="n">70</td><td class="n">53</td><td class="n">22</td><td>made here from the Cipherbrain scan (454 px, upscaled 3&times;)</td></tr>
+<tr><td>S5</td><td>12 rows of 15</td><td class="n">180</td><td class="n">145</td><td class="n">43</td><td>forum numeric transcription, symbols 1&ndash;145 in order of first appearance</td></tr>
+<tr><td>S2&ndash;S4</td><td colspan="5" class="muted">withheld</td></tr>
+</table>
+
+<p>The published material is Schmeh&rsquo;s article, Nick Pelling&rsquo;s Cipher Mysteries posts of 2014 to 2018, the Cipher Foundation page, and the zodiackillerciphers.com thread &ldquo;Scorpion = Zodiac?&rdquo;, which carries the numeric S5. The S1 transcription in <code>s1.txt</code> uses descriptive symbol names and flags four identifications as uncertain: <code>circL</code>, <code>sqnotchBR</code>, <code>sqbarT</code> and <code>flag</code>. Its count of 70 symbols and 53 distinct matches the published figures. The letter writes S5 at 15 symbols per row; the forum poster re-wrapped the same row-major sequence at 16, for the reason given next.</p>
+
+<h2 id="structure"><span class="num">02</span> The structure measured here</h2>
+
+<h3>S5: every repeat at a multiple of 16</h3>
+
+<p>S5 has 43 pairs of positions carrying the same symbol. Every one of the 43 lies at a distance that is a multiple of 16.</p>
+
+<table>
+<tr><th>distance</th><th class="n">16</th><th class="n">32</th><th class="n">48</th><th class="n">64</th><th class="n">80</th><th class="n">96</th><th class="n">112</th><th class="n">128</th><th class="n">144</th><th class="n">160</th></tr>
+<tr><td>pairs</td><td class="n">9</td><td class="n">5</td><td class="n">6</td><td class="n">4</td><td class="n">5</td><td class="n">3</td><td class="n">2</td><td class="n">6</td><td class="n">2</td><td class="n">1</td></tr>
+</table>
+
+<p>Read in 16 columns, no symbol ever appears in two columns. Each column holds 11 or 12 symbols, of which 6 to 11 are distinct. That is the behaviour of 16 substitution alphabets used in strict rotation, which is what Pelling and the forum poster &ldquo;Teddy&rdquo; concluded between 2007 and 2014. The per-column counts, computed from <code>s5.txt</code>:</p>
+
+<table>
+<tr><th>column</th><th class="n">1</th><th class="n">2</th><th class="n">3</th><th class="n">4</th><th class="n">5</th><th class="n">6</th><th class="n">7</th><th class="n">8</th><th class="n">9</th><th class="n">10</th><th class="n">11</th><th class="n">12</th><th class="n">13</th><th class="n">14</th><th class="n">15</th><th class="n">16</th></tr>
+<tr><td>symbols</td><td class="n">12</td><td class="n">12</td><td class="n">12</td><td class="n">12</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td><td class="n">11</td></tr>
+<tr><td>distinct</td><td class="n">7</td><td class="n">11</td><td class="n">10</td><td class="n">10</td><td class="n">11</td><td class="n">8</td><td class="n">10</td><td class="n">6</td><td class="n">9</td><td class="n">6</td><td class="n">10</td><td class="n">9</td><td class="n">10</td><td class="n">9</td><td class="n">9</td><td class="n">10</td></tr>
+<tr><td>repeats</td><td class="n">5</td><td class="n">1</td><td class="n">2</td><td class="n">2</td><td class="n">0</td><td class="n">3</td><td class="n">1</td><td class="n">5</td><td class="n">2</td><td class="n">5</td><td class="n">1</td><td class="n">2</td><td class="n">1</td><td class="n">2</td><td class="n">2</td><td class="n">1</td></tr>
+</table>
+
+<p>Two numbers go further. A simulation enciphers English with 16 independent 26-letter alphabets and counts what S5 counts.</p>
+
+<table>
+<tr><th>test</th><th class="n">observed</th><th>16 monoalphabetic English alphabets (simulated)</th></tr>
+<tr><td>within-column repeats</td><td class="n">35</td><td>47.7 &plusmn; 4.9 &nbsp; (z = &minus;2.6)</td></tr>
+<tr><td>spread of repeats across columns (variance)</td><td class="n">2.28</td><td>1.38, &nbsp; P(&ge; observed) = 0.05</td></tr>
+</table>
+
+<p>S5 has too few repeats for 16 plain alphabets, as GeoffLaT also found. Giving the seven commonest letters two homophones each in every alphabet fits the total (32.6 &plusmn; 4.5) but makes the uneven spread across columns less likely still (P = 0.014). Column 1, the first symbol of each 16-run, repeats far more than the rest: 7 distinct symbols in 12, against 10 or 11 in most columns. Columns 1, 8 and 10 carry 5 repeats each, 15 of the 35 between them.</p>
+
+<h3>S1: a weak period-5 signal</h3>
+
+<p>S1 has 22 repeat pairs. Eight of them lie at distances that are multiples of 5, against 4.1 expected when the positions are shuffled (P = 0.036). Four lie at multiples of 10, against 1.9 expected (P = 0.12). That is the whole of the evidence for Pelling&rsquo;s five cycling alphabets. It depends partly on the identifications of the filled-square and half-circle glyph families, which are the uncertain ones. S, lambda and K each recur at positions that break a strict period of 5.</p>
+
+<h2 id="unicity"><span class="num">03</span> Why they cannot be solved from what is published</h2>
+
+<p>A homophonic key assigns each distinct symbol one of 26 letters, so it carries about log<sub>2</sub> 26 = 4.70 bits per symbol. English supplies about 3.2 bits of redundancy per letter, taking its entropy as 1.5 bits against the 4.70 of a uniform alphabet. When the key holds more information than the text&rsquo;s redundancy, the ciphertext does not determine the key.</p>
+
+<table>
+<tr><th>cipher</th><th>key information</th><th>redundancy of the text</th><th class="n">ratio</th></tr>
+<tr><td>S1</td><td>53 &times; 4.70 = 249 bits</td><td>70 &times; 3.2 = 224 bits</td><td class="n">1.11</td></tr>
+<tr><td>S5</td><td>145 &times; 4.70 = 682 bits</td><td>180 &times; 3.2 = 576 bits</td><td class="n">1.18</td></tr>
+</table>
+
+<p>Both sit below the unicity distance. More than one fluent English plaintext is consistent with each ciphertext, so no ciphertext-only method can single out the right one. The 16-alphabet structure of S5 makes this worse, not better: 16 independent alphabets is far more key. It would help only if the alphabets were tied to each other by a rule, and since no symbol recurs across two columns the ciphertext offers no such tie.</p>
+
+<h3>Matched control</h3>
+
+<p><code>unicity.py</code> enciphers random English passages of 70 and 180 letters with random homophonic keys of exactly 53 and 145 symbols, then attacks them with the same 5-gram English annealer used elsewhere on this site, eight restarts of 15,000 steps. The per-letter figures divide the script&rsquo;s totals by the text length.</p>
+
+<table>
+<tr><th>control</th><th class="n">letter accuracy of best solution</th><th>score of found text</th><th>score of true text</th></tr>
+<tr><td>S1-sized, trial 1</td><td class="n">0.13</td><td>&minus;112 (&minus;1.60 per letter)</td><td>&minus;107 (&minus;1.53)</td></tr>
+<tr><td>S1-sized, trial 2</td><td class="n">0.13</td><td colspan="2">found: <code>snotconcetorasestayalongdispointent&hellip;</code></td></tr>
+<tr><td>S5-sized, trial 1</td><td class="n">0.03</td><td>&minus;330 (&minus;1.83 per letter)</td><td>&minus;326 (&minus;1.81)</td></tr>
+<tr><td>S5-sized, trial 2</td><td class="n">0.12</td><td>&minus;334 (&minus;1.86 per letter)</td><td>&minus;301 (&minus;1.67)</td></tr>
+</table>
+
+<p>The solver returns fluent English every time, and it is never the plaintext. Letter accuracy runs from 3% to 13%, and in two of the three scored trials the false solution scores within 5 points of the true text. Any solution of S1 or S5 produced by AZdecrypt-style search should be read in that light, including the three on record: Farmer 2007, Roberts 2016, and the 2018 forum reading tested next. Fluent output is guaranteed at this multiplicity and proves nothing.</p>
+
+<h2 id="claimed"><span class="num">04</span> The claimed solution of 2018, tested</h2>
+
+<p>Forum user Rubislaw32 posted a reading of S1 and S5 on zodiackillermystery.freeforums.net, in the thread &ldquo;Scorpion&rsquo;s Ciphers &mdash; The Zodiac, 1991 and beyond&rdquo;, first on 19 October 2018. The plaintexts as claimed:</p>
+
+<blockquote><b>S1.</b> &ldquo;A picture in collection of people: Bagel Bob&rsquo;s Old Dairy Frothy Late Cofee. Pour action.&rdquo;<br>
+<b>S5.</b> &ldquo;I am sending other picture of people for the collection of recent hybrid genders with edge, kept from artistic fee, if person of age has to purchase pick of university uglies. Espresso NYP cofee forces a cold enema review.&rdquo;</blockquote>
+
+<p>A homophonic key maps each symbol to one letter, so the one hard test is that every repeated symbol decodes to the same letter wherever it occurs. <code>claimed.py</code> lays each plaintext over the transcription and checks this; <code>results_claimed.txt</code> holds the output.</p>
+
+<table>
+<tr><th>cipher</th><th class="n">repeated symbols</th><th class="n">consistent</th><th>conflicts</th></tr>
+<tr><td>S1</td><td class="n">13</td><td class="n">10</td><td><code>crosshair</code>: N in COLLECTION, L in OLD. <code>sqnotchBR</code>: T, D, O. <code>circL</code>: I, L, E. The last two are flagged uncertain in the transcription.</td></tr>
+<tr><td>S5</td><td class="n">27</td><td class="n">26</td><td>symbol 41: C in COLLECTION, G in AGE, C in COFEE</td></tr>
+</table>
+
+<p>The two S1 conflicts on uncertain glyphs could be transcription error. The crosshair is not flagged: the scan shows the same glyph at row 2 column 10 and row 4 column 9, and the claimed text needs N at one and L at the other. Symbol 41 in S5 comes from the forum&rsquo;s numeric transcription, which the same reading otherwise fits 26 times out of 27.</p>
+
+<p>Consistency at that rate is cheap. S1 has 70 positions and 53 distinct symbols, so only 17 positions are tied to an earlier one; S5 ties 35 of 180. Every other position is free choice, and the claimed key spends it freely: in S5, 22 different symbols stand for E, 14 for O and 12 for I. A text assembled word by word under so few equalities can be almost anything. The matched controls showed that with real keys; the table at the end of this section shows it with dictionary words.</p>
+
+<p>The language-model score is the second measure. It is the mean log-probability the model assigns to each letter given the four before it, on the same model that scored the controls.</p>
+
+<table>
+<tr><th>text</th><th class="n">5-gram score, nats per letter</th><th class="n">dictionary coverage</th></tr>
+<tr><td>S1 as claimed</td><td class="n">&minus;2.74</td><td class="n">0.83</td></tr>
+<tr><td>S5 as claimed</td><td class="n">&minus;2.61</td><td class="n">0.77</td></tr>
+<tr><td>reference English passage</td><td class="n">&minus;1.58</td><td class="n">0.76</td></tr>
+<tr><td>control false solutions, 70 letters</td><td class="n">&minus;1.60</td><td class="n">&mdash;</td></tr>
+<tr><td>control false solutions, 180 letters</td><td class="n">&minus;1.83 to &minus;1.86</td><td class="n">&mdash;</td></tr>
+</table>
+
+<p>Genuine English sits near &minus;1.6 on this model, and so do the annealer&rsquo;s false solutions, because that score is what the annealer maximises. The claimed texts sit 1.0 to 1.2 nats per letter lower, which means the model finds each letter roughly three times less likely than in ordinary English. Proper names and the spelling &ldquo;cofee&rdquo; cost part of that; word choice costs the rest. Dictionary coverage does not separate the three texts. So the claimed reading is less English-like than what a blind search produces on a control, and it fails the equality test once in each cipher on a securely read symbol. Neither fact says what the plaintext is. The unicity arithmetic says that nothing in the ciphertext can.</p>
+
+<!-- ALTERNATIVES -->
+
+<h2 id="status"><span class="num">05</span> Status, and what would change it</h2>
+
+<p>Not solvable from the published material, for a reason that is quantitative rather than a matter of effort. Three things would change it.</p>
+
+<table>
+<tr><th>what</th><th>why it would matter</th></tr>
+<tr><td>Release of S2 to S4</td><td>More text under the same 16 alphabets, if the writer kept the system, adds redundancy at every letter while adding key only for symbols not yet seen.</td></tr>
+<tr><td>A glyph-feature transcription of S5</td><td>It would test whether shape families run in diagonals across the 16 alphabets. That is the one hypothesis that would tie the alphabets to each other and shrink the key.</td></tr>
+<tr><td>The writer&rsquo;s own statement</td><td>&ldquo;All of my ciphers can be decoded simply, once the limited patterns and systems are discovered.&rdquo; If true, it points to a systematic key table rather than a random one, and a systematic table is far less key than the unicity table assumes.</td></tr>
+</table>
+
+<p>Until one of those arrives, further search on the two public passages has a known result: fluent English, at a letter accuracy the controls put between 3% and 13%.</p>
+
+<h2 id="files"><span class="num">06</span> Files</h2>
+
+<table>
+<tr><th>file</th><th>contents</th></tr>
+<tr><td><code>scorpion/s1.txt</code></td><td>S1, 70 descriptive symbol names in 7 rows of 10, uncertain identifications marked in the notes</td></tr>
+<tr><td><code>scorpion/s5.txt</code></td><td>S5, the forum numeric sequence, symbols 1&ndash;145, wrapped at 16</td></tr>
+<tr><td><code>scorpion/unicity.py</code></td><td>the unicity table and the matched controls; needs the English model built by <code>copenhagen/solve.py</code></td></tr>
+<tr><td><code>scorpion/claimed.py</code></td><td>the consistency test and 5-gram scores of the 2018 reading; output in <code>results_claimed.txt</code></td></tr>
+<tr><td><code>scorpion/alternatives.py</code></td><td>beam search filling each cipher with dictionary words under the same-symbol-same-letter rule, scored with the same model</td></tr>
+</table>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="copenhagen.html" rel="prev">&larr; Copenhagen c.1950s</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260916a"></script>
+</body>
+</html>

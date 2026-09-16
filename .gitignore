@@ -189,3 +189,5 @@ voynich/data/IT2a-n.*
 voynich/data/RF1b-er.*
 voynich/data/ZL3b-n.txt
 voynich/__pycache__/
+.claude/
+scorpion/results_*.txt
