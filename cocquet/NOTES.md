@@ -59,3 +59,20 @@ secretary — not identified here).
 Checked: canvas identification, clear-text frame, run and token counts, repertoire comparison with five period keys.
 Not checked: unit segmentation, a labelled transcription (not made), sibling letters in Clair 368-373, Cocquet's identity.
 User must verify: the counts before quoting them.
+
+## Second pass, 2026-09-16 evening: sibling and key search — closed, not solvable online
+
+- **Not in DECODE.** Searches for "Cocquet", "Mangot", "Trainel" return nothing; "Clairambault" returns only Clair 325
+  (1526), 417, 574, 577 and 580 (1645-68). No Clair 368-373 record exists there, so no transcription or key has been
+  deposited for any of the 1616-17 Mangot correspondence.
+- Tomokiyo's Louis XIII article names no second Cocquet letter; the only Rome item is this one. The three reconstructed
+  Clair 369 keys (Baugy, Castille, Du Maurier) and the two anonymous ones (Clair 372 f. 169, Clair 373 f. 303) were
+  compared above and do not share the repertoire.
+- With ~160 letter-shaped glyphs in nine runs, no sibling and no key, there is no key-matching test left to run and no
+  ciphertext-only attack that can be validated (du Croc regime, see the gate above).
+
+**Verdict: not solvable with what is online, 2026-09-16.** Reopen only with a second Cocquet letter or the embassy key.
+
+Checked: DECODE search index for five terms, Tomokiyo's Louis XIII page for other Cocquet/Mangot items. Not checked:
+a page-by-page scan of Clair 368-373 for further Rome letters (the 400-px contact sheet of Clair 369 canvases 280-359 is
+too coarse). User must verify: that Cocquet's identity and the Rome embassy key are not documented elsewhere.

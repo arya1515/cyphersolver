@@ -24,3 +24,27 @@ What would move it: a reader's copy of fr. 3633 f. 24 (BnF Richelieu), then appl
 
 Checked: Gallica SRU for the shelfmark, the catalogue link on the source page. Not checked: the BnF Archives et manuscrits
 notice for fr. 3633 itself (the search page needs a browser). User must verify: that no other digitisation exists.
+
+## Second pass, 2026-09-16 evening: DECODE and catalogue cross-check — closed, not solvable online
+
+- **fr. 3633 is not in DECODE** (`RecordsList?cmd=search&search=3633` returns nothing) and a second Gallica SRU sweep
+  (`dc.title adj "Français 3633"`, `gallica all`, `dc.title all "3633"`) again returns only Arabe, Pelliot and unrelated items.
+- **The Blancmesnil letters that are online as metadata are siblings, not the target.** DECODE holds fr. 3616 no. 11
+  (R9433, anon., Bourges 24 Feb 1589), **no. 24 (R9434, Blancmesnil, Chaalons, 9 Dec)**, no. 45 (R9435, Chaalons, 11 Sept),
+  no. 64 (R9436, anon., non-decrypted), no. 81 (R9437, Blancmesnil, 12 July) and fr. 3621 no. 79 f. 89 (R9448, Blancmesnil,
+  30 May 1592), all entered 18 Jan 2025 by user 243 ("pabogi"), all but no. 64 marked *Decrypted* because the sheets carry
+  a contemporary interlinear decipherment ("Letter, with cipher and decryption"). Tomokiyo's Nevers catalogue lists the same
+  fr. 3616 items under "letters in cipher (which I have not seen)" and separately lists **fr. 3633 f. 24, no. 15, "ce dernier
+  juin"** — so the "no. 24" coincidence is a different letter in a different volume, not a misprint. fr. 3616 and 3621 are not
+  on Gallica either (SRU empty), and DECODE marks the images "not in the public domain … only with the permission of the
+  Library" (login required in any case).
+- Consequence for the key hypothesis: three Blancmesnil-Nevers letters of 1589-92 with their decipherments exist in fr. 3616
+  and 3621, plus the four of September 1589 in fr. 3987 ff. 45-48 from which Tomokiyo reconstructed the Potier-Nevers cipher.
+  If fr. 3633 f. 24 is in that key the job is a lookup; if not, the fr. 3616 decipherments are the next key to try. Neither
+  step is possible without a reader's copy or DECODE image access.
+
+**Verdict: not solvable online, 2026-09-16.** Blocked at the ciphertext; the key material is catalogued but not fetchable.
+
+Checked: Gallica SRU (three query forms, fr. 3616/3621/3633/3987), DECODE metadata for the six Nevers-collection Blancmesnil
+records and the search index for "3633". Not checked: the BnF Archives et manuscrits notice (the search page is
+script-rendered and returned no text), DECODE images (login). User must verify: DECODE record numbers before citing them.

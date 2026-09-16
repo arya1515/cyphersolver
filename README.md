@@ -92,7 +92,7 @@ the target does not, and the notes say why.
 | Henry III → Ségur | 1583–86 | Blocked on Gallica access; the sibling cipher's design is known | [`segur/`](segur/) |
 | Cardinal de Joyeuse → Villars, Rome, 15 Feb 1594 (500 Colbert 33 f. 539) | 1594 | Transcribed from Gallica: 358 tokens in three layers (81-sign homophonic alphabet, 48-sign marked syllabary, 29 code numbers); not Lasry's Senecey key from the same volume; the letter-layer anneal recovers 2-18 % of three matched controls and the target's seeds disagree | [`joyeuse/`](joyeuse/) |
 | Cocquet → Mangot, Rome, Nov 1616 (Clairambault 369 f. 317) | 1616 | Gate check: ~160 letter-shaped glyphs in nine runs inside clear French; none of the five period keys from the same volumes matches; du Croc regime | [`cocquet/`](cocquet/) |
-| Blancmesnil → Nevers (fr. 3633 f. 24) | 1589? | No ciphertext online: fr. 3633 is not digitised (the source page's catalogue link goes to fr. 4736); the Potier-Nevers key of 1589 is the candidate once a copy exists | [`blancmesnil/`](blancmesnil/) |
+| Blancmesnil → Nevers (fr. 3633 f. 24) | 1589? | No ciphertext online: fr. 3633 is not digitised (the source page's catalogue link goes to fr. 4736); the Potier-Nevers key of 1589 is the candidate once a copy exists; sibling letters with decipherments sit in fr. 3616/3621 (DECODE R9434-9448, images restricted) | [`blancmesnil/`](blancmesnil/) |
 | 1520s superscript-digit ciphers | 1526–29 | Blocked: DECODE and BL images need login | [`superscript/`](superscript/) |
 
 ### Offline only

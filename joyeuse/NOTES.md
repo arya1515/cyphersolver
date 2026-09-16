@@ -122,3 +122,17 @@ Checked: canvas identification, clear text, glyph transcription (one pass), laye
 and f. 530 keys, three matched controls, six target seeds. Not checked: the transcription against a second reader; whether
 `par`/`til`/`dd` are nulls; other Joyeuse letters of 1594 outside this volume (fr. 3623-3625). User must verify:
 the transcription before any later work builds on it.
+
+## Second pass, 2026-09-16 evening: DECODE cross-check — verdict unchanged
+
+- **DECODE R2281 = 500 Colbert 33 ff. 539-540**, entered by Tomokiyo himself, status *Non-decrypted*, "Graphic signs,
+  Numerical", plaintext "probably French", one page, no transcription; his note there repeats that f. 528 is a different
+  cipher. R2279 (ff. 528-529, Pelissier to Joyeuse, Madrid) is *Decrypted* (homophonic substitution, graphic signs) and
+  R2280 (f. 530) is the *Decrypted* key sheet for it — the alphabet Tomokiyo already reports as not fitting f. 539.
+  Nothing else for "Joyeuse", "Villars" or "Cinq Cents" in the index. No new key or sibling text; the negative result
+  against matched controls above stands.
+
+**Verdict: not solved, not solvable with what is online, 2026-09-16.**
+
+Checked: DECODE search index and the three Colbert 33 records. Not checked: DECODE images (login). User must verify: record
+numbers before citing.
