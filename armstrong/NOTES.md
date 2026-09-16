@@ -80,5 +80,76 @@ carries a full pencil decode and gives **1320 = like** (H), plus 1492 last, 835 
   720, 1052, 1202) into H: 0011-0012, 0016-0017, 0021, 0027, 0034-35, 0058-59, 0096-97, 0109-10, 0121-22, 0140-43,
   0150-51, 0160, 0188-89, 0191-92, 0223-25, 0232-38, 0289 (dense pages such as 0233 need 600 dpi crops line by line).
 - The LoC image of the postscript (mjm015002) is still Cloudflare-blocked to scripts; it was collated by hand.
-- The 20 Feb 1808 letter (different, unique code; cryptiana's other Armstrong item) was not attacked.
+- The 20 Feb 1808 letter: see the adjudication section below (2026-09-16). Not readable with this table.
 - The ~40 other coded Armstrong despatches of 1804–10 in rolls 13–14 can now be read with the table.
+
+## The 20 February 1808 letter and the AFIO contest solution (adjudication, 2026-09-16)
+
+**Verdict: the published solution does not hold.** It is a set of 56 word labels hung on 51 of the letter's 216 distinct
+groups, and it fits its own sentence no better than a key fitted by the same procedure to a shuffled ciphertext.
+
+The item: Armstrong to Madison, Paris, 20 Feb 1808 (Founders 99-01-02-2728; NARA M34 roll 14 images 29-32). Founders
+prints 369 groups, 216 distinct, values 1 to 1900, with 35 passages in graphic symbols (shorthand-like) that no
+transcription renders. Ciphertext saved as `feb20_ciphertext.txt` (Founders is now behind a CloudFront challenge for
+scripts; the Wayback copy `web.archive.org/web/2025id_/https://founders.archives.gov/documents/Madison/99-01-02-2728`
+works). The Association of Former Intelligence Officers announced on 27 May 2025 that Yaacov Apelbaum had decrypted it and
+published a 60-word plaintext and a 56-entry key (saved as `afio_key.txt`; machine-readable form from Tomokiyo's
+`madison_AFIO.txt`). Tomokiyo's article "An Outlier Code in Armstrong-Madison Correspondence (1808)" (cryptiana
+`madison_armstrong.htm`, Oct 2025, rev. June 2026) already judged it unconvincing; this is the quantitative version.
+
+### What the frames say
+
+- Every coded despatch on the roll-13 frames read here (0034 = 18 Mar 1805 copy, 0097 = 10 Sept 1805, 0122 = 1806,
+  0190-0201 = 1806, and the pencil-annotated pages generally) is in the THE=972 code, values below about 1600. No group
+  in the 1700-1900 range, which the 20 Feb letter uses 49 times, was seen on any frame. The State Department clerk's
+  pencil decodes therefore give the THE=972 key only; there is no pencil decode of the 20 Feb letter (Kreider: "we've
+  found no evidence that it ever was decoded"), and Madison wrote to Jefferson on 15 May 1808: "The undecyphered letter
+  from A. ... No such Cypher is in the office, and must be one concerted with another correspondent" (Founders
+  99-01-02-3082, Kreider's identification). So "rebuild the claimed key from the frames" has a definite answer: the
+  frames cannot yield it, because the key was never in Washington.
+- Paired check with our table (`python decode972.py feb15` / the 20 Feb groups): the **15 Feb 1808** despatch, five days
+  earlier, is in THE=972 and reads at once (176 of 243 groups H/C-known, 72 %: "with one [hand] they offer us the
+  Floridas ... they do not accept this ... it is however merely an experiment; yet if it succeeds you will [see] a
+  second ... In either case, do not suspend a moment the seizure of the Floridas"). The 20 Feb letter with the same
+  table: 92 of 369 groups (25 %) hit, and the hits are noise ("roc de ion ... ward the native pos native like ct
+  Monarch temp ..."). Two letters, one table, one reads and one does not: the 20 Feb code is a different code, as
+  Kreider's team and Tomokiyo said.
+
+### Scoring the AFIO key (`python adjudicate_feb20.py`)
+
+| test | AFIO key | control |
+|---|---|---|
+| groups of the letter covered by the key | 133 of 369 (36 %); 51 of 216 distinct | |
+| key numbers that never occur in the letter | 5 of 56: 6 *i*, 39 *written*, 131 *to*, 432 *its*, 1358 *that* | |
+| plaintext words with no code group at all | 6 of 60: *seamen, examined, not, we, shall, receive* | |
+| published text aligned in order against the key's rendering | 40 of 60 words, over groups 12-102 (page 1) | shuffled key: 18.9 mean, max 26 (passes, but trivially: the key was read off this page) |
+| mapped occurrences inside that span the text does not use | 28 of 68 dropped (consistency 0.59) | key built by the same walk on a **shuffled** ciphertext: 0.70 +/- 0.18 |
+| mapped occurrences over the whole letter the text does not use | 93 of 133 (share used 0.30) | same control: 0.41 +/- 0.02, min 0.36 |
+| the 13 occurrences of 17 = "of", 12 of 18 = "the", 10 of 38 = "and", 8 of 14 = "this" | used 0, 1, 0, 0 times | |
+
+Reading the first sentence with their own key gives *you the petitions your [1628] have concerning their your treatment
+[symbols] have commerce been*, which they print as "The petitions of your seamen concerning their treatment have been
+examined": *you*, *the*, the second *your*, one *have* and *commerce* are dropped, *of*, *seamen* and *examined* are
+supplied. "I have written to you ... its ports ... that" rests on five key numbers absent from the letter. The 35
+symbol passages, including two full lines, are not mentioned. The "verification methodology" on the AFIO page (grammar,
+style, thematic parallels with the 1804 and 1806 letters, frequency of "the/this/have") tests the English sentence,
+not the key; the frequency claim is false on its face, since the text uses the letter's commonest group once in
+thirteen occurrences.
+
+The controls: (A) shuffling the 45 words among the 56 numbers drops the in-order match from 40 to about 19, which
+shows only that the key encodes the order of page 1, as any key read off page 1 must. (B) The informative control is
+to build a key the same way (walk the plaintext, give each word the next free group) on a *shuffled* copy of the
+ciphertext: 500 such keys fit the AFIO sentence with 60 of 60 words in order, account for 70 % of the mapped
+occurrences in their span and 41 % over the letter, both better than the AFIO key's 59 % and 30 %. A key that fits
+random noise better than it fits the real text carries no information about the code.
+
+### What would settle it
+
+A reading must render every occurrence of every mapped group, say what the symbol passages are, and be checked against
+an independent source: a second letter in the same code, or the key itself. The candidates for the "other
+correspondent" (Tomokiyo, from Kreider): Pinkney, Monroe, Erving, Livingston, or Armstrong's New York circle. The
+Founders page for 20 Feb 1808 also opens with a clear "The", which any solution has to continue.
+
+Not checked: the roll-14 images of the letter itself (naId 188671566, objects 29-32; not fetched), so the Founders
+group list stands unverified against the manuscript; the frames 0011-0289 were skimmed for value range and pencil, not
+read group by group.
