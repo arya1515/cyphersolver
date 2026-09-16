@@ -94,6 +94,7 @@ img{max-width:100%}
 .hero .kicker{font-family:var(--mono);font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin:0 0 .9rem}
 .hero h1{font-family:var(--display);font-weight:500;font-variation-settings:"opsz" 144;font-size:clamp(2rem,4.8vw,3.4rem);line-height:1.1;margin:0 0 .9rem;letter-spacing:-.01em;color:var(--head)}
 .hero .sub{color:var(--ink2);font-style:italic;margin:.25rem 0;font-size:1.05rem;max-width:72ch}
+.hero .sub.small{font-size:.92rem;margin-top:.5rem}
 .hero .meta{color:var(--muted);font-size:.88rem;margin-top:1rem;font-family:var(--mono)}
 .hero .cipherstrip{position:absolute;right:1.2rem;top:1.4rem;font-family:var(--mono);font-size:.7rem;color:color-mix(in srgb,var(--gold) 40%,transparent);letter-spacing:.35em;user-select:none;pointer-events:none;text-align:right;line-height:1.9}
 @media (max-width:760px){.hero .cipherstrip{display:none}}
