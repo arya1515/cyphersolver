@@ -15,6 +15,14 @@ ELONKA = 'https://elonka.com/UnsolvedCodes.html'
 
 # tier, name, date, href, badge, odds, oddsclass, effort, why
 LIVE = [
+    ("Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79", "1585?",
+     "https://cryptiana.web.fc2.com/code/SP53_16_78.txt", "", "good", "hi", "medium",
+     "One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, in the same hand, both endorsed by Phelippes and never "
+     "read. Tomokiyo's transcriptions are online: <b>507 and 644 groups, 132 and 102 distinct, 34 and 13 hapax</b>. That low hapax count is the "
+     "signature of a homophonic alphabet with a small nomenclator, the shape of the Mary Queen of Scots letters that fell in 2023 and of the Richelieu "
+     "reading on this site. If the two letters share one key the text doubles. Next step: test the symbol overlap between them, then a homophonic "
+     "annealer in English, French and Latin with a planted control of the same length. Added to the queue September 2026, not yet attempted."),
+
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
      "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "even", "md", "compute in progress",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, "
@@ -24,6 +32,53 @@ LIVE = [
      "(107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys "
      "at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed "
      "direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most."),
+
+    ("Regent Moray to John Wood, the Scottish ambassador in London", "1568",
+     "https://cryptiana.web.fc2.com/code/elizabeth_moray.txt", "", "good", "hi", "low",
+     "BL Add MS 32091 f.213, a passage in cipher in a letter of 13 July 1568, transcribed by Tomokiyo: <b>134 groups, 32 distinct symbols, "
+     "index of coincidence 0.050</b>. That is a monoalphabetic substitution with a handful of homophones, in Scots. Short, but at that alphabet size "
+     "it is above the unicity distance, and the clear text round it fixes the subject. The cheapest decisive test on the whole list: a substitution "
+     "climb with a Scots and English model, checked against a planted control of 134 letters. Added September 2026, not yet attempted."),
+
+    ("Charles I to Boswell, and Nicholas to Boswell", "1643",
+     "https://cryptiana.blogspot.com/2021/09/charles-i-boswell-cipher-1643.html", "", "even", "md", "medium",
+     "Two letters of 2 November 1643 at the National Archives, unread. Tomokiyo's provisional transcription of the King's letter has <b>460 groups, 170 "
+     "distinct, 69 hapax</b>, with English words left in clear between the groups (&ldquo;Not doubting but God will shortly enable Us to recompence "
+     "soe 8 82 100 46 154&rdquo;), so the running cribs come with the text. A Civil War nomenclator of the same shape as the Ormonde letter read here. "
+     "The risk is the transcription itself, which its author marks as uncertain in many places. Next step: separate alphabet groups from nomenclator "
+     "groups by frequency, then a constrained climb against the clear words. Added September 2026, not yet attempted."),
+
+    ("Richard Forster, possibly to Henrietta Maria", "1644",
+     "https://cryptiana.blogspot.com/2021/09/an-unsolved-letter-of-richard-forster.html", "", "even", "md", "low",
+     "A letter of 13 May 1644 in the hand of the Queen's treasurer, published by Karen Britland in 2013 and transcribed by Tomokiyo: <b>134 groups "
+     "mixing letters and numbers, 24 distinct</b>, with one clear French phrase inside. Twenty-four symbols is an alphabet, not a code, and the "
+     "plaintext is French. Short, so the answer must be checked against a matched control, but the test is cheap. Added September 2026, not yet attempted."),
+
+    ("“Cifer with Spanish spy”, SP53/22 f.52", "1580s",
+     CRYPTIANA, "", "partial", "md", "low",
+     "A short undeciphered slip among the Mary Queen of Scots cipher keys, transcribed on Tomokiyo's page: <b>87 groups</b> on a digit-plus-b alphabet "
+     "of about 26 symbols, so a monoalphabetic cipher of Spanish. Eighty-seven letters sits at the unicity distance for a mixed alphabet, which is why "
+     "the odds are only partial: a reading may come out that cannot be confirmed. Worth an hour, with the control run first. Added September 2026, "
+     "not yet attempted."),
+
+    ("Lodovico Birago to the Duke of Nevers, the numerical paragraph", "1571",
+     "https://gallica.bnf.fr/ark:/12148/btv1b9060248g/f120.item", "", "partial", "md", "medium",
+     "BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian. The rest of Birago's letters read with keys Tomokiyo rebuilt from deciphered siblings, "
+     "but one paragraph is in a different cipher: a <b>continuous stream of about 530 digits</b> with diacritics over some of them, transcribed on the "
+     "page and imaged on Gallica. The problem is segmentation into one-, two- and three-digit units before any substitution can be scored, the same "
+     "step that beat the Vatican letter here. The Italian plaintext and the known sibling keys give the vocabulary. Added September 2026, not yet attempted."),
+
+    ("Armstrong to Madison, 20 February 1808: the disputed contest solution", "1808",
+     "armstrong.html", "", "adjudication", "md", "medium",
+     "A different code from the postscript solved on this site, and the subject of a 2025 contest whose published solution has been disputed. The roll 13 "
+     "frames fetched for the postscript cover this letter too, and thirty-nine of them are down and unread. The job is the Urquhart kind: rebuild the "
+     "claimed key from the frames, score it against the code groups and against a shuffled control, and say whether it holds. Not yet started."),
+
+    ("Louis XIV to the Duke of Chaulnes in Rome", "1690",
+     "http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/", "", "low", "lo", "medium",
+     "Instructions of 10 July 1690 in a code running to at least 535, partly transcribed on Tomokiyo's page, with a Cipherbrain thread from 2019 that "
+     "started and never concluded. A large nomenclator in a single letter is not attackable ciphertext-only; what can be done is to finish the thread's "
+     "work, fix which groups the clear text and Louis XIV's other codes of 1690 pin down, and record how much stays open. Not yet started."),
 
     ("Japanese telegram decoded by Yardley", "c.1920",
      "https://cryptiana.web.fc2.com/code/yardley.htm", "", "partial", "lo", "not started",

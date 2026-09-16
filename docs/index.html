@@ -144,8 +144,8 @@
 <h2 id="queue"><span class="num">02</span> Priority queue</h2>
 <p>Everything open, from all three source lists, on one scale. <b>Odds</b> is the estimated chance of a full reading; <b>effort</b> is the work needed to find out. A cheap decisive test outranks an expensive long shot, so a coin-flip that resolves in an hour sits above a one-in-four that costs a week. Badged entries come from <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
 <div class="qfilter" role="group" aria-label="Filter the queue">
-  <button class="qf on" data-f="all">All <span>27</span></button>
-  <button class="qf" data-f="live">Worth continuing <span>2</span></button>
+  <button class="qf on" data-f="all">All <span>35</span></button>
+  <button class="qf" data-f="live">Worth continuing <span>10</span></button>
   <button class="qf" data-f="done">Attempted <span>17</span></button>
   <button class="qf" data-f="no">Not a cipher <span>8</span></button>
 </div>
@@ -153,13 +153,77 @@
 <article class="tg live">
   <div class="tg-l"><span class="tg-rank">1</span></div>
   <div class="tg-b">
+    <h3><a href="https://cryptiana.web.fc2.com/code/SP53_16_78.txt">Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79</a><span class="tg-date">1585?</span></h3>
+    <div class="tg-meta"><span class="odds hi">good</span><span class="eff">medium effort</span></div>
+    <p>One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, in the same hand, both endorsed by Phelippes and never read. Tomokiyo's transcriptions are online: <b>507 and 644 groups, 132 and 102 distinct, 34 and 13 hapax</b>. That low hapax count is the signature of a homophonic alphabet with a small nomenclator, the shape of the Mary Queen of Scots letters that fell in 2023 and of the Richelieu reading on this site. If the two letters share one key the text doubles. Next step: test the symbol overlap between them, then a homophonic annealer in English, French and Latin with a planted control of the same length. Added to the queue September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">2</span></div>
+  <div class="tg-b">
     <h3><a href="https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md">Telegram from Switzerland, “BLUME SALAMANCA”</a><span class="tg-date">1937</span></h3>
     <div class="tg-meta"><span class="odds md">even</span><span class="eff">compute in progress</span></div>
     <p>Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>In progress, September 2026.</b> The first telegram is transcribed here from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. It is a <b>transposition of Spanish</b>: index of coincidence 0.070, and Spanish fits the letter counts far better than French, English or German. Excluded, with every search first proven on planted Spanish: rail fence, skip and route transpositions (107,594 readings), single columnar, and now <b>double columnar in the forward direction</b>, same key at widths 2&ndash;30 and two keys at 2&ndash;16 &times; 2&ndash;16 (best &minus;5.9 per quadgram where Spanish scores &minus;3.9 and shuffled letters &minus;6.3). The reversed direction and the divide-and-conquer attack for widths 15&ndash;25 are running. The second telegram, which is not public, would help most.</p>
   </div>
 </article>
 <article class="tg live">
-  <div class="tg-l"><span class="tg-rank">2</span></div>
+  <div class="tg-l"><span class="tg-rank">3</span></div>
+  <div class="tg-b">
+    <h3><a href="https://cryptiana.web.fc2.com/code/elizabeth_moray.txt">Regent Moray to John Wood, the Scottish ambassador in London</a><span class="tg-date">1568</span></h3>
+    <div class="tg-meta"><span class="odds hi">good</span><span class="eff">low effort</span></div>
+    <p>BL Add MS 32091 f.213, a passage in cipher in a letter of 13 July 1568, transcribed by Tomokiyo: <b>134 groups, 32 distinct symbols, index of coincidence 0.050</b>. That is a monoalphabetic substitution with a handful of homophones, in Scots. Short, but at that alphabet size it is above the unicity distance, and the clear text round it fixes the subject. The cheapest decisive test on the whole list: a substitution climb with a Scots and English model, checked against a planted control of 134 letters. Added September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">4</span></div>
+  <div class="tg-b">
+    <h3><a href="https://cryptiana.blogspot.com/2021/09/charles-i-boswell-cipher-1643.html">Charles I to Boswell, and Nicholas to Boswell</a><span class="tg-date">1643</span></h3>
+    <div class="tg-meta"><span class="odds md">even</span><span class="eff">medium effort</span></div>
+    <p>Two letters of 2 November 1643 at the National Archives, unread. Tomokiyo's provisional transcription of the King's letter has <b>460 groups, 170 distinct, 69 hapax</b>, with English words left in clear between the groups (&ldquo;Not doubting but God will shortly enable Us to recompence soe 8 82 100 46 154&rdquo;), so the running cribs come with the text. A Civil War nomenclator of the same shape as the Ormonde letter read here. The risk is the transcription itself, which its author marks as uncertain in many places. Next step: separate alphabet groups from nomenclator groups by frequency, then a constrained climb against the clear words. Added September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">5</span></div>
+  <div class="tg-b">
+    <h3><a href="https://cryptiana.blogspot.com/2021/09/an-unsolved-letter-of-richard-forster.html">Richard Forster, possibly to Henrietta Maria</a><span class="tg-date">1644</span></h3>
+    <div class="tg-meta"><span class="odds md">even</span><span class="eff">low effort</span></div>
+    <p>A letter of 13 May 1644 in the hand of the Queen's treasurer, published by Karen Britland in 2013 and transcribed by Tomokiyo: <b>134 groups mixing letters and numbers, 24 distinct</b>, with one clear French phrase inside. Twenty-four symbols is an alphabet, not a code, and the plaintext is French. Short, so the answer must be checked against a matched control, but the test is cheap. Added September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">6</span></div>
+  <div class="tg-b">
+    <h3><a href="https://cryptiana.web.fc2.com/code/unsolved.htm">“Cifer with Spanish spy”, SP53/22 f.52</a><span class="tg-date">1580s</span></h3>
+    <div class="tg-meta"><span class="odds md">partial</span><span class="eff">low effort</span></div>
+    <p>A short undeciphered slip among the Mary Queen of Scots cipher keys, transcribed on Tomokiyo's page: <b>87 groups</b> on a digit-plus-b alphabet of about 26 symbols, so a monoalphabetic cipher of Spanish. Eighty-seven letters sits at the unicity distance for a mixed alphabet, which is why the odds are only partial: a reading may come out that cannot be confirmed. Worth an hour, with the control run first. Added September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">7</span></div>
+  <div class="tg-b">
+    <h3><a href="https://gallica.bnf.fr/ark:/12148/btv1b9060248g/f120.item">Lodovico Birago to the Duke of Nevers, the numerical paragraph</a><span class="tg-date">1571</span></h3>
+    <div class="tg-meta"><span class="odds md">partial</span><span class="eff">medium effort</span></div>
+    <p>BnF fr. 3251 f.119, a letter of 13 November 1571 in Italian. The rest of Birago's letters read with keys Tomokiyo rebuilt from deciphered siblings, but one paragraph is in a different cipher: a <b>continuous stream of about 530 digits</b> with diacritics over some of them, transcribed on the page and imaged on Gallica. The problem is segmentation into one-, two- and three-digit units before any substitution can be scored, the same step that beat the Vatican letter here. The Italian plaintext and the known sibling keys give the vocabulary. Added September 2026, not yet attempted.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">8</span></div>
+  <div class="tg-b">
+    <h3><a href="armstrong.html">Armstrong to Madison, 20 February 1808: the disputed contest solution</a><span class="tg-date">1808</span></h3>
+    <div class="tg-meta"><span class="odds md">adjudication</span><span class="eff">medium effort</span></div>
+    <p>A different code from the postscript solved on this site, and the subject of a 2025 contest whose published solution has been disputed. The roll 13 frames fetched for the postscript cover this letter too, and thirty-nine of them are down and unread. The job is the Urquhart kind: rebuild the claimed key from the frames, score it against the code groups and against a shuffled control, and say whether it holds. Not yet started.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">9</span></div>
+  <div class="tg-b">
+    <h3><a href="http://www.traces-ecrites.com/expositions/louis-xiv-du-soleil-a-leclipse/laffaire-de-la-regale/">Louis XIV to the Duke of Chaulnes in Rome</a><span class="tg-date">1690</span></h3>
+    <div class="tg-meta"><span class="odds lo">low</span><span class="eff">medium effort</span></div>
+    <p>Instructions of 10 July 1690 in a code running to at least 535, partly transcribed on Tomokiyo's page, with a Cipherbrain thread from 2019 that started and never concluded. A large nomenclator in a single letter is not attackable ciphertext-only; what can be done is to finish the thread's work, fix which groups the clear text and Louis XIV's other codes of 1690 pin down, and record how much stays open. Not yet started.</p>
+  </div>
+</article>
+<article class="tg live">
+  <div class="tg-l"><span class="tg-rank">10</span></div>
   <div class="tg-b">
     <h3><a href="https://cryptiana.web.fc2.com/code/yardley.htm">Japanese telegram decoded by Yardley</a><span class="tg-date">c.1920</span></h3>
     <div class="tg-meta"><span class="odds lo">partial</span><span class="eff">not started</span></div>

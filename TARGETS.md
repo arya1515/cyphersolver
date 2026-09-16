@@ -63,23 +63,36 @@ remainder, for completeness, grouped by how promising they look with this repo's
 | ~~Encoded Letter to Marshal Marmont~~ **ATTEMPTED 2026-09-15, no ciphertext exists online** | 1807 | Dead until the source is obtained: cryptiana prints only the opening clear line and NO code groups, and Vilcoq 1969 is the sole source. Likely tractable once in hand (Marmont's 1811 code had ~150 entries, two-digit figures mixed with plain letters). Papers are at SHD, not the Archives nationales - the Dalmatia/Illyria series left AF/IV for the depot de la Guerre in 1830. See `napoleon/NOTES.md` |
 | Japanese Coded Telegram Decoded by Yardley | c.1920 | Yardley printed the plaintext; scheme recoverable |
 
-**Ranked lower (short, key-dependent, or archive-bound)**
-English: Throckmorton (1559) / Wool (1568) · Moray-Wood (1568) · SP53/16 no.78 · SP53/16 no.79 · SP53/22 f.52 ·
-Walsingham-related ciphers.
-Spanish: postscript to Ferdinand's letter (1498) · Charles V letter (1521?) · Simancas EST,LEG,1381,180 · 1381,143.
-French to 1610: Catherine de Medicis to du Croc (1567) · Birago to Nevers (1571) · Blancmesnil to Nevers ·
-Marie de Medici (1610).
-French/Italian/Spanish: Venetian letter in Spanish archives (ca.1589) · Cocquet (1616) · Fra Guglielmo Vizani (1637).
-German: King of Hungary and Bohemia (1634) · "More ciphers of Ferdinand III?" · variable-length figure code,
-Austrian archives (1627, 1644) · Starhemberg (1758).
-French 17th: Prince of Conde (1654).
-English Civil War: Ormond-Arran (1678) · Charles I-Boswell (1643) · Richard Forster (1644) · Charles I and
-Henrietta-Maria private cipher (1645) · letter to Prince Rupert (1648) · intercepted letter of Hyde (1659) ·
-"An Intercepted Letter".
-French 1690-1710: ambassador in Rome (1690) · Catinat (1691) · Geertruidenberg (1710) · Villars and Polignac (1710) ·
-Catinat (1702).
-American: Armstrong to Madison, 20 Feb 1808 (the outlier code — different from the postscript we solved; a 2025 AFIO
-contest solution is disputed by Tomokiyo).
+**Scored 2026-09-15 and moved into the site's priority queue** (transcription online, no DECODE login needed;
+counts measured from Tomokiyo's files)
+| Source entry | Date | Groups | Distinct | Hapax | Odds / effort | Why |
+|---|---|---|---|---|---|---|
+| SP53/16 no.78 and no.79, anonymous letters to Tempest (Paris) and Barret (Rheims) | 1585? | 507 + 644 | 132 / 102 | 34 / 13 | good / medium | Same hand, Phelippes endorsement; low hapax = homophonic alphabet plus small nomenclator (Richelieu / Mary QoS 2023 shape). First test: symbol overlap between the two letters |
+| Moray to John Wood, Add MS 32091 f.213 | 1568 | 134 | 32 | 9 | good / low | IC 0.050 at 32 symbols: monoalphabetic with a few homophones, Scots plaintext. Cheapest decisive test on the list |
+| Charles I to Boswell, Nicholas to Boswell (TNA) | 1643 | 460 | 170 | 69 | even / medium | English words in clear between groups give running cribs; Civil War nomenclator like Ormonde. Transcription provisional (Tomokiyo blog, 2021) |
+| Richard Forster, possibly to Henrietta Maria | 1644 | 134 | 24 | 8 | even / low | Letters and numbers mixed, 24 symbols = alphabet, French plaintext with one clear French phrase. Britland 2013; transcription on Tomokiyo's blog |
+| SP53/22 f.52 "Cifer with Spanish spy" | 1580s | 87 | ~26 | ? | partial / low | Digit-plus-b alphabet, Spanish; at unicity distance, so a reading may not be confirmable |
+| Birago to Nevers, BnF fr.3251 f.119 | 1571 | ~530 digits | continuous | n/a | partial / medium | Numeric stream with diacritics, Italian; sibling keys known. Segmentation is the hard step (cf. Vatican 5) |
+| Armstrong to Madison, 20 Feb 1808 | 1808 | ? | ? | ? | adjudication / medium | Different code from the solved postscript; 2025 contest solution disputed. Roll 13 frames already fetched |
+| Louis XIV to Chaulnes, Rome | 1690 | partial | code to 535+ | ? | low / medium | Large nomenclator, one letter; finish the 2019 Cipherbrain thread's work and record what stays open |
+
+**Ranked lower (short, DECODE-only, or no transcription online)**
+English: Throckmorton margin (1559) / Wool (1568) - DECRYPT images only · Walsingham-related: Bowes 1583 is 101 groups of name
+fragments, Davison 1584 untranscribed.
+Spanish: postscript to Ferdinand's letter (1498) - ten lines in Parisi 2004 · Charles V letter (1521?) · Simancas EST,LEG,1381,180 -
+partly read (section headings recovered) · ~~1381,143~~ **Tomokiyo now reads it with the Granvelle-Saint Mauris cipher, French
+plaintext: solved, not open** (unverified here).
+French to 1610: Catherine de Medicis to du Croc (1567) - printed in Destray 1924 on Gallica, length not yet measured · Blancmesnil to
+Nevers · Marie de Medici (1610) - "short passages", no transcription.
+French/Italian/Spanish: Venetian letter in Spanish archives (ca.1589) · Cocquet (1616) · Fra Guglielmo Vizani (1637) - no transcriptions.
+German (all DECODE-only): King of Hungary and Bohemia (1634, Pilsen) · "More ciphers of Ferdinand III?" (R1579) · Ferdinand III and the
+Cardinal-Infante (R1887-1890) · variable-length figure codes, Austrian archives (R2159, R1408, R2179) · Starhemberg (1758).
+French 17th: Prince of Conde (1654, R8395) - DECODE-only.
+English Civil War: Ormond-Arran (1678) - 20 groups, written as a test · Charles I and Henrietta-Maria private cipher (1645) - one sentence ·
+letter to Prince Rupert (1648, R8447), intercepted letters of 1646 (R8623-8624) and Hyde (1659, R4886) - DECODE-only · "An Intercepted
+Letter" (Thurloe vol.7) - short.
+French 1690-1710: Catinat (1691, 1702) - no transcription · Geertruidenberg and Villars-Polignac (1710, R8755-8756) - Tomokiyo's two
+transcription links return 404, DECODE-only otherwise.
 
 ## Famous unsolved ciphers (Elonka Dunin's list), ranked on the same scale
 
