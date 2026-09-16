@@ -87,7 +87,7 @@ LIVE = [
 ]
 
 ATTEMPTED = [
-    ("ADFGVX residue of the Eastern Front", "1918", "https://github.com/dbourdeau/cyphersolver/blob/main/adfgvx/NOTES.md", "top 50",
+    ("ADFGVX residue of the Eastern Front", "1918", "adfgvx.html", "top 50",
      "9 solved, 3 partial, 10 open", "md",
      "Not unbroken ciphers: Lasry and colleagues published the keys, and the twenty-two are mutilated transmissions. <b>Second session, "
      "September 2026.</b> The 2017 comment thread, read in full, had already solved nine and partly read three, by Norbert's rule of two block "
@@ -95,7 +95,7 @@ ATTEMPTED = [
      "nobody published is now in the notes. Norbert's method, reimplemented with a German quadgram model, re-derives seven of the solved pages "
      "blind. On the ten never read (73, 152, 153 twice, 158, 170, 176b, 189, 198, 217) it finds nothing with any key, the CHI key fails on the two "
      "page-153 messages, and a key-free transposition attack fails its own 224-letter planted control. They need the Childs originals or a key "
-     "that was never in the corpus."),
+     "that was never in the corpus. <a href=\"adfgvx.html\">Full write-up &rarr;</a>"),
 
     ("Huang Xing telegram, the scheme corrected from the frames", "1916", "huangxing.html", "", "scheme found, corrected", "md",
      "<b>Second session.</b> Frame 0247 read at 500 dpi gives a 46-character plaintext, and one superfluous kana at position 106 turns out to have "

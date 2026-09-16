@@ -50,7 +50,7 @@ negative result says something.
 | Milroy telegrams (Union ciphers) | 1861–62 | Richard Bean, 2026; source list has since caught up | [`milroy/`](milroy/) |
 | Feynman ciphers #2 and #3 | 1987 | 2023 solution, verified here | [`feynman/`](feynman/) |
 | Confederate Navy dictionary code | 1863 | Webster's 1850 dictionary, found solved Aug 2026 | [`barney/`](barney/) |
-| ADFGVX messages, Eastern Front | 1918 | Keys published by Lasry, Niebel, Kopal and Wacker; the 22 "unsolved" residue is garbled in transmission. The 2017 thread consolidated: 9 solved, 3 partial, 10 open; Lasry's sixteenth key rebuilt; Norbert's method reimplemented and re-derives 7 pages blind; the 10 open ones resist 15 keys and a key-free attack that fails its own control | [`adfgvx/`](adfgvx/) |
+| ADFGVX messages, Eastern Front | 1918 | Keys published by Lasry, Niebel, Kopal and Wacker; the 22 "unsolved" residue is garbled in transmission. The 2017 thread consolidated: 9 solved, 3 partial, 10 open; Lasry's sixteenth key rebuilt; Norbert's method reimplemented and re-derives 7 pages blind; the 10 open ones resist 15 keys and a key-free attack that fails its own control | [`adfgvx/`](adfgvx/) · [write-up](https://dbourdeau.github.io/cyphersolver/adfgvx.html) |
 
 ### Attempted and closed from the evidence
 

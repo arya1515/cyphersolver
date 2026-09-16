@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The ADFGVX residue of 1918 &mdash; twenty-two mutilated messages against known keys</title>
+<meta name="description" content="The twenty-two ADFGVX radio messages from the Eastern Front that Klaus Schmeh lists as unsolved are not unbroken ciphers: Lasry, Niebel, Kopal and Wacker published the keys in 2017. The 2017 comment thread, read in full, had solved nine and partly read three. Here the thread is tabulated for the first time, Lasry's unpublished CHI key is rebuilt, Norbert's block-edit method is reimplemented and re-derives the solved pages blind, and the ten never-read messages are tested against every key and a key-free attack that fails its own control.">
+<link rel="stylesheet" href="style.css?v=20260916a">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel"><div class="grp"><h4>Solved</h4><ul><li><a href="richelieu.html"><span class="st solved">solved</span><b>Richelieu</b><span class="yr">1629</span></a></li><li><a href="armstrong.html"><span class="st solved">solved</span><b>Armstrong</b><span class="yr">1808</span></a></li><li><a href="sunyatsen.html"><span class="st solved">solved</span><b>Sun Yat-sen</b><span class="yr">1916</span></a></li><li><a href="huangxing.html"><span class="st solved">scheme found</span><b>Huang Xing</b><span class="yr">1916</span></a></li></ul></div><div class="grp"><h4>Explained</h4><ul><li><a href="hyde.html"><span class="st found">explained</span><b>Hyde</b><span class="yr">1659&ndash;60</span></a></li><li><a href="goldbar.html"><span class="st found">no message</span><b>Gold bars</b><span class="yr">1933</span></a></li></ul></div><div class="grp"><h4>Partly read</h4><ul><li><a href="voynich.html"><span class="st partial">adjudicated</span><b>Voynich</b><span class="yr">c.1420</span></a></li><li><a href="ormonde.html"><span class="st partial">alphabet recovered</span><b>Ormonde</b><span class="yr">1634&ndash;35</span></a></li><li><a href="adfgvx.html" aria-current="page"><span class="st partial">9 of 22 read</span><b>ADFGVX</b><span class="yr">1918</span></a></li></ul></div><div class="grp"><h4>Attempted, not solved</h4><ul><li><a href="vatican.html"><span class="st stuck">family identified</span><b>Vatican</b><span class="yr">1542</span></a></li><li><a href="debosnys.html"><span class="st stuck">too short to break</span><b>Debosnys</b><span class="yr">1883</span></a></li><li><a href="copenhagen.html"><span class="st stuck">not a simple substitution</span><b>Copenhagen</b><span class="yr">c.1950s</span></a></li><li><a href="scorpion.html"><span class="st stuck">below unicity distance</span><b>Scorpion</b><span class="yr">1991</span></a></li></ul></div><div class="grp"><h4>Survey</h4><ul><li><a href="famous.html"><span class="st partial">the famous ones</span><b>The famous ones</b><span class="yr">survey</span></a></li></ul></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="index.html#queue">Queue</a>
+    <a href="index.html#closed">Closed</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+
+<section class="hero">
+  <p class="kicker">Working notes &middot; September 2026</p>
+  <h1>The ADFGVX residue of 1918 &mdash; twenty-two mutilated messages against known keys</h1>
+  <p class="sub">Schmeh&rsquo;s Top 50 lists twenty-two German radio messages from the Eastern Front of November 1918 as unsolved. They are not unbroken ciphers. The keys were published in 2017, and what defeats these messages is loss in transmission. Nine were read in the comment thread, three partly, and ten have never been read by anyone.</p>
+  <p class="meta">Daniel Bourdeau &middot; 15 September 2026 &middot; sources: Schmeh, Top 50 no. 46 and the &ldquo;Unsolved ADFGVX messages&rdquo; page provided by George Lasry; the 70 comments under the post (Norbert Biermann, Armin, Thomas, Max Baertl, George Lasry, 2017); Lasry, Niebel, Kopal and Wacker, <i>Cryptologia</i> 2017; James Rives Childs, <i>German Military Ciphers from February to November 1918</i></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#list">What the list is</a><a href="#keys">The keys, made machine-readable</a><a href="#table">The table nobody published</a><a href="#method">Norbert’s method, reimplemented</a><a href="#open">The ten open messages, tested</a><a href="#status">Status, and what would change it</a><a href="#files">Files</a></nav>
+<div class="callout">
+  <h3>Status &nbsp; <span class="st partial">9 solved &middot; 3 partial &middot; 10 open</span></h3>
+  <p>The list entry should read &ldquo;22 messages, 9 solved, 3 partly read, 10 open&rdquo;, and the key Lasry recovered in the thread belongs alongside the published fourteen. Norbert&rsquo;s method of 2017, two block edits of up to five letters against a known key, is reimplemented here with a German language model and re-derives the solved pages without a hint of their plaintext. On the ten open messages it finds nothing with any of the fifteen keys, and a key-free attack cannot recover the transposition at these lengths even on a planted control. The open ten need the Childs originals or a key that was never in the corpus.</p>
+</div>
+
+<h2 id="list"><span class="num">01</span> What the list is</h2>
+
+<p>James Rives Childs, the American cryptanalyst attached to the French in 1918, kept a transcript of German ADFGVX traffic intercepted on the Eastern Front. In 2017 George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker broke the corpus with a hill-climbing attack on the transposition and recovered 618 cryptograms under fourteen three-day keys, from September to December 1918. Lasry then gave Klaus Schmeh a list of the messages that would not decrypt under any of those keys, and Schmeh published it as &ldquo;Unsolved ADFGVX messages from World War I&rdquo;, with the keys attached, and later as no. 46 on his Top 50.</p>
+
+<p>Lasry&rsquo;s own note on that page says what the problem is: the keys are &ldquo;most certainly all the keys used during the period&rdquo;, so &ldquo;the challenge is to understand how the cryptograms were mutilated&rdquo;. ADFGVX is unforgiving about length. The columnar transposition splits the letter stream by the key length, so one lost or added letter moves every column boundary after it and turns the rest of the message into noise. A message with two garbles is no longer decryptable by the key, even though the key is known.</p>
+
+<p>Between February and September 2017 the comment thread under the post did most of the work. Norbert Biermann, Armin, Thomas, Max Baertl and Lasry himself read message after message. Schmeh announced a consolidating article and never wrote it, so those readings existed only as scattered comments and no table of which messages are solved had been published. The first thing this write-up does is publish that table.</p>
+
+<h2 id="keys"><span class="num">02</span> The keys, made machine-readable</h2>
+
+<p>Lasry&rsquo;s list gives each key as a transposition permutation and a 36-character substitution square, the cells in row order of A D F G V X. Three of the fourteen squares contain runs of hyphens for cells never recovered, and the text layer of the PDF collapses those runs into en- and em-dashes, leaving squares of 34 or 35 characters. Expanding each dash back to the run length that makes 36 repairs all three. All fourteen are in <code>keys.json</code>.</p>
+
+<p>The key numbers admit two readings. Either <code>perm[i]</code> is the column emitted i-th, or it is the position at which column i is emitted. Both round-trip self-consistently, so an encrypt-decrypt test cannot tell them apart. Decrypting a real message can. It is the second.</p>
+
+<h3>The key not on the list</h3>
+
+<p>On 3 May 2017 Lasry reported in the thread that a two-part message, the FFVXV cryptogram of 13 November and the AFAFF fragment that continues it, decrypted jointly under a key that was in none of the fourteen periods: transposition word CMBLAKOHIDENFJGP, length 16. He gave the joint plaintext, 173 letters, and noted that his program had needed all 356 ciphertext letters to recover a length-16 key. The substitution square was not published. It is rebuilt here by aligning the untransposed bigrams of the two cryptograms with his plaintext, Norbert&rsquo;s corrections applied: 24 of 36 cells, with the digits and the letters M, Q and Y unrecovered because the message never uses them. It is the fifteenth entry in <code>keys.json</code> and the repo&rsquo;s notes call it the CHI key, after the header of the message it enciphered.</p>
+
+<h2 id="table"><span class="num">03</span> The table nobody published</h2>
+
+<p>The thread, all 70 comments, read in full. Page numbers are Childs&rsquo;s transcript pages as Schmeh printed them; two messages carry no page number on the list. Letter counts are of the received ciphertext, with the gaps marked in the printed transcription counted separately. The reading is by the person who first posted it.</p>
+
+<table>
+<tr><th>Childs page</th><th class="n">letters</th><th>status</th><th>key</th><th>reading</th></tr>
+<tr><td>73</td><td class="n">176 + 2 gaps</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>100</td><td class="n">122</td><td><span class="st solved">solved</span></td><td>Nov 1&ndash;3</td><td>KEINE STOERUNG DURCH FEIND X MITTAGS 2 FEINDL X DIV X IM MARSCH AUF BELGRAD X (Armin)</td></tr>
+<tr><td>105</td><td class="n">290</td><td><span class="st solved">solved</span></td><td>Nov 1&ndash;3</td><td>GERMANIA ETAPPE KONSTANTINOPEL XX FUER MITTELMEER DIVISION ZU X TEL X NR X 62 X DIV X TELEGR X NR X 58 X ERSTELLT &hellip; VOM X 4 X NOVEMBER ERLEDIGT X ADMIRALSTAB (Norbert)</td></tr>
+<tr><td>109</td><td class="n">258</td><td><span class="st solved">solved</span></td><td>Nov 1&ndash;3</td><td>O X K X M X ABENDMELDUNG &hellip; UNTERBRINGUNG LETZTER TEILE BEENDET X 1 WEITERER DU X DIV 5 IM MARSCH AUF BELGRADER KAVV X 2 X SONST KEINE EREIGNISSE (Norbert)</td></tr>
+<tr><td>132</td><td class="n">153 + gap</td><td><span class="st solved">solved</span></td><td>Nov 4&ndash;6</td><td>FUER EILVESE X WIEDERHOLE TELEGR X VON VIERTER PERIODE IN FUENFTER X GEBETSORDER 5 MIN X VVV. The encipherer wrote VVV for VV, hence the odd length (Norbert)</td></tr>
+<tr><td>146</td><td class="n">244</td><td><span class="st solved">solved</span></td><td>Nov 4&ndash;6</td><td>FUNKSTELLE KERTSCH ER HAT BETRIEB X 1F X RUFNAMEN RICHARD EMIL KARL X FUNKSTELLEN DORTIGEN BEREICHS BENACHRICHTIGEN X NACHRICHTENCHEF 4B X 7834 X (Norbert)</td></tr>
+<tr><td>152</td><td class="n">104</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>153 (VFVAX)</td><td class="n">132</td><td><span class="st stuck">open</span></td><td>none fits, CHI key included</td><td class="muted">&mdash;</td></tr>
+<tr><td>153 (AXVAA)</td><td class="n">93 + 15 gaps</td><td><span class="st stuck">open</span></td><td>none fits, CHI key included</td><td class="muted">&mdash;</td></tr>
+<tr><td>158</td><td class="n">240 + 2 gaps</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>164 (F-G-X)</td><td class="n">158 + 44 gaps</td><td><span class="st partial">partial</span></td><td>Nov 7&ndash;9</td><td>&hellip; X 9 X 11 X TEMESVAR X &hellip; DIE VON X MIRCO NACH WESTEN UND SUEDEN WEG X LEIDER WEGE VOM GEGNER BESETZT X (Norbert)</td></tr>
+<tr><td>164 (VFGAG)</td><td class="n">136 + 44 gaps</td><td><span class="st partial">partial</span></td><td>Nov 7&ndash;9</td><td>EL X DIE HOEHE X 828 X O X H X L X MIRCO X SONST KEINE EREIGNISSE VON BEDEUTUNG XX (Norbert)</td></tr>
+<tr><td>170</td><td class="n">106</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>171</td><td class="n">310 + 4 gaps</td><td><span class="st solved">solved</span></td><td>Nov 7&ndash;9</td><td>IN UKRAINE UND POLEN RUBELKURSE STARK STEIGEND INFOLGE BRUCHES ZWISCHEN DEUTSCHLAND UND SOWJETREGIERUNG UND ERWARTUNG DER WIEDERHERSTELLUNG RUSSLANDS DURCH DEUTSCHLAND UND ENTENTE (Norbert)</td></tr>
+<tr><td>176 (&ldquo;missing 10 letters&rdquo;)</td><td class="n">214</td><td><span class="st solved">solved</span></td><td>Nov 10&ndash;12</td><td>DURCHBRUCH VORBEREITET X DURCHBRUCHSRICHTUNG NACH NORDEN ODER NORDOSTEN ERFOLGEN WIRD X KANN JETZT NOCH NICHT BEURTEILT WERDEN X (Norbert)</td></tr>
+<tr><td>176 (GGDAA)</td><td class="n">220</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>no page (VGADA; Childs p. 215, 22 Nov)</td><td class="n">237 + 11 gaps</td><td><span class="st partial">partial</span></td><td>Nov 22&ndash;24</td><td>ABS X MIDIV 5 X EILMELDG &hellip; ARMADA KERTSCH X BRINGT ENTENTE FLOTTE ZWO DIVISIONEN X NEUSEELAENDER X ENGL X U X FRANZO X MIT X &hellip; OHL X KORPS &hellip; (Norbert, Baertl)</td></tr>
+<tr><td>187 (FFVXV; Childs p. 191, 13 Nov, part 1)</td><td class="n">212</td><td><span class="st solved">solved</span></td><td><b>CHI, 13 Nov</b></td><td>RUSSISCHEN UND POLN HEERESVERKEHR VOLL ERFASSEN X WICHTIGES BESONDERS AUS POLN VERKEHR UEBER OHL STATION VERZIFFERT FUNKEN (Lasry, Norbert)</td></tr>
+<tr><td>no page (AFAFF; part 2)</td><td class="n">142</td><td><span class="st solved">solved</span></td><td>CHI, 13 Nov</td><td>SOWEIT FERNSCHREIBERVERBDG NICHT ARBEITET X REST SCHRIFTLICH X NACH CHEF (Lasry, Norbert)</td></tr>
+<tr><td>189</td><td class="n">84 + 6 gaps</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>198</td><td class="n">165</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+<tr><td>217</td><td class="n">170</td><td><span class="st stuck">open</span></td><td>none fits</td><td class="muted">&mdash;</td></tr>
+</table>
+
+<p>Nine solved, three partly read, ten never read. One further transcript page, 187 as printed (SELLV&hellip;, &ldquo;Stellv. Gen. Kom. 9 AK Breslau&rdquo;), was a message the Kassel team had already solved and does not belong on the list; Lasry said so in the thread. The two CHI messages were listed as unsolvable under the published keys, which is true; they were solved by finding a key that was not published.</p>
+
+<h2 id="method"><span class="num">04</span> Norbert&rsquo;s method, reimplemented</h2>
+
+<p>Norbert stated his method in one sentence: add or remove up to five characters at two different positions, exhaustive search, an n-gram value function to rank the results. <code>blocks.py</code> does exactly that. For each of the fifteen keys, and each choice of up to two block edits of one to five letters, inserted or deleted at the five-letter group boundaries of the transcript, it decrypts and scores the result with a German quadgram model built from 3.6 million letters of Gutenberg German (<code>lm_de.py</code>). Windows that contain a digit or an unrecovered cell cost a floor; windows that cross an X separator cost less than junk and more than text. German prose scores about &minus;3.3 nats per window on this model, and random letters about &minus;7.</p>
+
+<p>Given no hint of the plaintext, the search re-derives pages 105, 109, 146 and 171, the &ldquo;missing 10 letters&rdquo; message of page 176, and the two CHI messages. On page 146 the five-letter block that Norbert inserted before group 10 comes out as <code>(45, 5)</code>. On the page-176 message the two five-letter blocks come out as <code>(10, 5), (130, 5)</code>. Page 100 falls to the same search with one two-letter insertion. The search also finds the Nov 22&ndash;24 partial of the unnumbered VGADA message. Where the printed transcription marks gaps, <code>gaps.py</code> restores them to their groups and anneals the residual single-letter losses; on page 132 it lands on Norbert&rsquo;s text unprompted.</p>
+
+<p>The scores of the re-derived pages, from the run log, against the best any of the open messages achieves:</p>
+
+<table>
+<tr><th>page</th><th>key length</th><th class="n">best score, nats per window</th><th>decrypt as returned by the search</th></tr>
+<tr><td>187 (CHI part 1)</td><td>16</td><td class="n">&minus;4.45</td><td>RUSSISCHETUNDPOLNHEERESVERKEHRVOLLERFASSENXWICHTIGESBESONDERS&hellip;</td></tr>
+<tr><td>146</td><td>17</td><td class="n">&minus;5.25</td><td>FUNKSTELLEKERTSCHERHAE.TAB12X1.XRUFNAME.RICHARD.MILKARLX&hellip;</td></tr>
+<tr><td>AFAFF (CHI part 2)</td><td>16</td><td class="n">&minus;5.28</td><td>SOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF&hellip;</td></tr>
+<tr><td>100</td><td>19</td><td class="n">&minus;5.39</td><td>KEI.ESTOERFNGDURCHFEINDXMITTAGS2FEINDLXDIVXIMMARSCHAUFBELGRAD.</td></tr>
+<tr><td>171</td><td>20</td><td class="n">&minus;5.50</td><td>INUKRAI.EUNDPOLEN.UBELKURSETARKSIEIGENDINFOLGEBRUCHEEZWISCHEN&hellip;</td></tr>
+<tr><td>105</td><td>19</td><td class="n">&minus;6.02</td><td>GERMANIAATAPPEKONSTANTINOPELX6FUERMITTJLMEERDIVISIVNZUXTELXNRX62&hellip;</td></tr>
+<tr><td>109</td><td>19</td><td class="n">&minus;6.02</td><td>OXFXMXABECDMELUNGXS4VCXUMBJRGABGLETZTEVTEILEBEEVUKTX1WEITEDE&hellip;</td></tr>
+<tr><td class="muted">best open message (158, 170)</td><td class="muted">20, 19</td><td class="n muted">&minus;6.89</td><td class="muted">noise</td></tr>
+</table>
+
+<p>The solved pages are recognisable German at a glance even where the block edit is not quite right, and the residual garbles are the single-letter losses that a second pass repairs. The 105 and 109 lines score lower than the others because the two-block search only approximates their mutilation; both texts are nevertheless readable in the raw output and both agree with Norbert&rsquo;s 2017 readings.</p>
+
+<h2 id="open"><span class="num">05</span> The ten open messages, tested</h2>
+
+<h3>Two block edits, fifteen keys</h3>
+
+<p>Every one of the ten was run against all fifteen keys with up to two block edits. The best result for each, from <code>blocks_out.txt</code>:</p>
+
+<table>
+<tr><th>page</th><th class="n">letters</th><th>key length of best</th><th class="n">best score</th><th>output</th></tr>
+<tr><td>73</td><td class="n">176</td><td>22</td><td class="n">&minus;7.12</td><td class="muted">DWR5C10WAXWBI.GWBXD1QGRA.R7OCW3Q&hellip;</td></tr>
+<tr><td>152</td><td class="n">104</td><td>22</td><td class="n">&minus;6.76</td><td class="muted">YPVXKTHJ7EM46PGPQ3RONDSEEUHXKTAX&hellip;</td></tr>
+<tr><td>153 (both)</td><td class="n">132, 93</td><td>20</td><td class="n">&minus;6.99</td><td class="muted">XWH2XBB3WATECOIFLUKTXMHK17SSY2ME&hellip;</td></tr>
+<tr><td>158</td><td class="n">240</td><td>20</td><td class="n">&minus;6.89</td><td class="muted">ZF2B0GEKJXII32RXRCO4LRS2DXA2RBDO&hellip;</td></tr>
+<tr><td>170</td><td class="n">106</td><td>19</td><td class="n">&minus;6.89</td><td class="muted">N5ADB08EKYND918UFEED92H3ELZEJ0UA&hellip;</td></tr>
+<tr><td>176 (GGDAA)</td><td class="n">220</td><td>22</td><td class="n">&minus;7.10</td><td class="muted">RGXCXXPPUN6RAXZK2YD8PMRX4NVX4ZYT&hellip;</td></tr>
+<tr><td>189</td><td class="n">84</td><td>22</td><td class="n">&minus;7.08</td><td class="muted">1AA1SLUOXO.VGXWUXUWH6LXXNHLV.9WW&hellip;</td></tr>
+<tr><td>198</td><td class="n">165</td><td>20</td><td class="n">&minus;6.97</td><td class="muted">LTDUUKWRA28KK61UITPUU31LEPXSIP42&hellip;</td></tr>
+<tr><td>217</td><td class="n">170</td><td>18</td><td class="n">&minus;7.04</td><td class="muted">YBEIEU84543EOTXT45R8K6XXGCSF4PWI&hellip;</td></tr>
+</table>
+
+<p>Nothing clears &minus;6.7. The solved messages come out between &minus;4.4 and &minus;6.0 on the same run, and random letters at about &minus;7.3. So none of the ten is one of the fifteen keys with two or fewer block mutilations, which is exactly the boundary the 2017 readers reached and stopped at. A digit-heavy output is the usual sign of a wrong key: real traffic here is mostly letters, and a wrong square scatters bigrams across the digit cells.</p>
+
+<h3>The CHI key on the two page-153 messages</h3>
+
+<p>In September 2017 Norbert suggested, without testing it, that the two page-153 messages might belong to the CHI key, since they are of the same period. Direct decryption with parity repair, and the block search, both return noise for both messages. Either a further unlisted key, or losses heavier than two blocks.</p>
+
+<h3>A key-free attack, and why it fails</h3>
+
+<p>If some of the open messages were enciphered under a key not in the corpus, the key would have to be recovered from the ciphertext alone. <code>keyless.py</code> tries: anneal the column order at each candidate length on the index of coincidence of the letter pairs the untransposition produces, since a correct untransposition pairs the bigrams of a monoalphabetic substitution, then solve the 36-symbol substitution with the German model. Before running it on the open messages it was run on a planted control: 224 letters of German enciphered under a length-19 key of the same design.</p>
+
+<table>
+<tr><th class="n">candidate length</th><th class="n">15</th><th class="n">16</th><th class="n">17</th><th class="n">18</th><th class="n">19 (true)</th><th class="n">20</th><th class="n">21</th><th class="n">22</th><th class="n">23</th></tr>
+<tr><td>pair IC after annealing</td><td class="n">0.055</td><td class="n">0.048</td><td class="n">0.060</td><td class="n">0.053</td><td class="n">0.064</td><td class="n">0.058</td><td class="n">0.066</td><td class="n">0.063</td><td class="n">0.073</td></tr>
+</table>
+
+<p>The true length does not stand out: the peak at 19 is beaten by 21, 22 and 23, and the substitution stage does not converge at any length. The control is <b>not recovered</b>. Lasry&rsquo;s own program, built for this purpose, needed 356 letters to recover a length-16 key. The ten open messages are 84 to 240 letters long. A key-free recovery is therefore out of reach at these lengths, with one exception: two or more open messages that share an unknown key could be solved jointly, as the two CHI messages were. Nothing in the ciphertext marks which those would be, and the two page-153 messages, the natural candidates, give nothing when tried together.</p>
+
+<h2 id="status"><span class="num">06</span> Status, and what would change it</h2>
+
+<p>The residue is nine solved, three partly read, ten open, and the ten are open for a reason that is now measured rather than assumed. Three things would change it.</p>
+
+<table>
+<tr><th>what</th><th>why it would matter</th></tr>
+<tr><td>The Childs originals</td><td>Several of the ten carry explicit gap marks in the printed transcription and one is labelled &ldquo;missing 10 letters&rdquo;. The transcription Schmeh printed is a copy of a copy; the intercept sheets may hold the letters the search has to guess.</td></tr>
+<tr><td>A further key</td><td>The CHI message proved the published list is not complete. A key recovered from any other source, or from a longer message in the same period that was never on this list, could be tested against all ten in seconds.</td></tr>
+<tr><td>A search past two edits</td><td>Three block edits against fifteen keys is within reach of compute and is the natural next step; it was not run here because two edits was the standard that solved everything the 2017 readers solved, and the scores give no sign that any open message is close.</td></tr>
+</table>
+
+<p>Until one of those arrives, the useful products are the table above, the fifteen keys in machine-readable form with the three damaged squares repaired and the CHI square rebuilt, and a decoder that reproduces the 2017 solutions blind.</p>
+
+<h2 id="files"><span class="num">07</span> Files</h2>
+
+<table>
+<tr><th>file</th><th>contents</th></tr>
+<tr><td><code>adfgvx/msgs.txt</code></td><td>the twenty-two cryptograms as Schmeh printed them, gap marks preserved</td></tr>
+<tr><td><code>adfgvx/keys.json</code></td><td>fifteen keys: Lasry&rsquo;s fourteen with the three damaged squares repaired, and the CHI key of 13 November</td></tr>
+<tr><td><code>adfgvx/key16.py</code></td><td>rebuilds the CHI substitution square from the two-part plaintext</td></tr>
+<tr><td><code>adfgvx/repair.py</code></td><td>the decoder; <code>validate</code> reproduces page 100, <code>solve</code> runs the insertion search on all messages</td></tr>
+<tr><td><code>adfgvx/blocks.py</code></td><td>Norbert&rsquo;s two-block-edit search against all keys; output in <code>blocks_out.txt</code></td></tr>
+<tr><td><code>adfgvx/gaps.py</code></td><td>gap-aware parser and annealer for residual single-letter losses</td></tr>
+<tr><td><code>adfgvx/lm_de.py</code></td><td>German quadgram model, 3.6 M letters of Gutenberg German</td></tr>
+<tr><td><code>adfgvx/keyless.py</code></td><td>the key-free transposition attack; control output in <code>kl_control224.txt</code></td></tr>
+<tr><td><code>top50/arts/46_comments.txt</code></td><td>the 70 comments of the 2017 thread, text</td></tr>
+<tr><td><code>adfgvx/NOTES.md</code></td><td>the working notes, both sessions</td></tr>
+</table>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="huangxing.html" rel="prev">&larr; Huang Xing 1916</a><a href="goldbar.html" rel="next">Gold bars 1933 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260916a"></script>
+</body>
+</html>
