@@ -36,6 +36,7 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 
 | 26 | Bordeaux → Brienne, London, 30 May 1653 NS (BL Add MS 4200 f. 88; DECODE R8390) | 1653 | Hard | attempted, not solved | `bordeaux/` | 2026-09-16: Tomokiyo's transcription, 810 tokens / 156 symbols (graphic signs, plain numbers, three diacritic series). Same Brienne-office design as the 1651 d'Estrades key and Lasry's 1654 Mazarin-Bordeaux key (syllabary in alphabetical order over consecutive numbers). A solver built on that prior reads matched 810-token controls (3 of 4 seeds, 99 %) but the real text stays at the failed-seed level over 21 seeds and three series orders; the alternative reading (prime numbers as letters) fails its own control. No 30 May plaintext in Thurloe SP i or Guizot. Lead: DECODE R7537 = BL Add MS 32263 f. 1, a 1653 English key for "Mr. Bordeaux" (login needed) |
 | 27 | Mazarin → Bordeaux, 22 June 1654, copy (BnF Mél. Colbert 11 ff. 479-481; DECODE R9482) | 1654 | — | **found-solved** (Lasry, Feb 2025) | `bordeaux/` | Key published as an image on cryptiana; DECODE still says non-decrypted; the volume is not on Gallica, so nothing to do here without DECODE access |
+| 28 | Fra Giovanni di Lucca → Ferdinand III, 30 May 1644 (DECODE R2159; cryptiana variable2.htm) | 1644 | Medium | **solved** | `lucca/` | 2026-09-16: 231 dot-delimited figures, 24 symbols, Italian. Tomokiyo's crib *Al principe di* is self-contradictory under substitution (17 = i and n); fixing its eight consistent letters and annealing the rest gives one reading over all seeds, five shuffled controls fail (−2.50 vs −3.40…−3.68 per 5-gram). Polyphonic: 17 = i/n, 19 = t/s, two figures each for a e o u. Text: keep the Turk from aiding the Prince of Transylvania, raise the Prince of Moldavia (Bogdania) against him, 2,000 Cossacks, no peace till he is humbled. Speaker unnamed in the cipher. DECODE still Non-decrypted |
 
 ## Where we are ahead of the source (2026-09-15)
 
@@ -51,6 +52,7 @@ Tomokiyo, who solicits contributions on the page.
 | Telegram to Sun Yat-sen (1916) | solved | `sunyatsen/`, docs/sunyatsen.html |
 | A Dictionary Code Used by Confederate Navy (1863) | found already solved by others, Aug 2026 (Webster's 1850) | `barney/` |
 | Letter of Richard Forster (1644) | found already read by others (Lasry, Biermann, Pitt Sept 2026); alphabet verified blind here, 31/34 symbols | `forster/` |
+| Variable-length figure code, Austrian archives: DECODE R2159 (1644) | read in full; polyphonic 24-figure alphabet | `lucca/`, docs/lucca.html |
 
 The source has caught up on one item since our ranking: **Union Ciphers during the Civil War (1862)** is now marked
 Solved (Richard Bean with Claude Opus 5, 2026), matching our `milroy/` finding.
@@ -125,6 +127,24 @@ systems* rather than concealed messages, which is a problem for linguistics and 
 
 Already closed from that list: Feynman ciphers 2 and 3 (Vierra 2023, verified here), Zodiac Z408/Z340,
 Poe's challenge ciphers, the Chaocipher, the Smithy code, the Cyrillic Projector.
+
+
+## Short list, 2026-09-16: open, unsolved, not yet attempted here, material online
+
+Built from the live source page (last modified 15 Sept 2026; Le Tellier–Castelnau, Forster and Boswell now marked solved there) after
+excluding everything with a directory in this repo, everything DECODE-only, and everything whose ciphertext is not online. Ordered by
+odds. Gallica's IIIF image route works from a script with a browser User-Agent, which reopens several items the tracker had as blocked.
+
+| # | Target | Date | Text | Why feasible | Status |
+|---|---|---|---|---|---|
+| 1 | DECODE R2159, Fra Giovanni di Lucca → Ferdinand III (cryptiana variable2.htm) | 1644 | 231 figures, 24 symbols, Italian, dot-delimited | Tomokiyo had the first three words and called it easy; a substitution attack with the crib fixed | **solved 2026-09-16**, row 28, `lucca/` |
+| 2 | Catherine de Médicis → Philibert du Croc, 27 Apr 1567 (Destray 1924 p. 53 and plate; Gallica bpt6k932364m f61) | 1567 | ~147 symbols, 40 distinct, French, sparse dots | Image fetched and transcribed here (`ducroc/ct.txt`); Lasry's Charles IX–du Croc key (same correspondent) is a different symbol set; Cipherbrain 2021 thread reached no solution. A matched 147-token homophonic control fails ciphertext-only (41 % best), so it needs cribs: the dates and names of du Croc's April letters (Teulet ii, Labanoff vii) | transcribed, attempted, not solved: below threshold without cribs |
+| 3 | DECODE R1408, Warsaw 24 Dec 1627, Italian (variable2.htm) | 1627 | ~350 two-digit groups mixed with letter pairs | Same article as R2159; Italian; the letter pairs (a, m, ll, zg, fi, pr) look like syllables or nulls | not attempted |
+| 4 | Henry III → Ségur, 500 Colbert 401 ff. 143, 233, 239, 288v (`segur/`) | 1583–86 | four letters, figures | Was blocked on Gallica; IIIF now fetches. Sibling key (f. 321) is an alphabetical syllabary, the obvious prior | reopened, not attempted |
+| 5 | Blancmesnil → Nevers, BnF fr. 3633 f. 24; Cocquet → Mangot, Clair. 369 f. 316; Joyeuse → Villars, 500 Colbert 33 f. 539 | 1580s–1616 | short passages | Gallica IIIF; sibling keys in Tomokiyo's Nevers and Louis XIII articles | not attempted |
+| 6 | Marco Ottobon → Giovanni Mocenigo, BNE Ms. 994 ff. 34–38 | 1589 | five folios, letter+digit Venetian cipher | Longest open Venetian text; Valle de la Cerda's solution lost | BNE digital library returns 403 to scripts; not attempted |
+| 7 | Ormond → Arran, 24 Jan 1678 (HMC Ormonde iv. 93) | 1678 | 20 groups of a nomenclator | Only if the Ormond–Longford design applies | too short; not attempted |
+| 8 | DECODE R2179 and Starhemberg 1758 (variable2.htm) | 1644, 1758 | undelimited digit streams | Segmentation first; the Vatican 5 problem again | not attempted |
 
 ## Klaus Schmeh's "Top 50 unsolved encrypted messages", scored on the same scale
 

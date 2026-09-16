@@ -292,3 +292,10 @@ forster/src/blog.html
 # bordeaux: regenerable LM and merged corpus (python lm.py)
 bordeaux/lm6.pkl
 bordeaux/corpus_fr.txt
+
+# lucca: language-model corpus and derived table (regenerate with lucca/lm.py)
+lucca/corpus/
+lucca/it5.npy
+# ducroc: corpus and derived tables (regenerate with ducroc/lm.py)
+ducroc/corpus/
+ducroc/*.npy
