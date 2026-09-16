@@ -127,3 +127,15 @@ unicity distance of the available models at this homophony, and no key, sibling 
   trigram / -1.91 5-gram per letter, decode readable. Target: -2.07 to -2.28 per letter under every convention
   (letters as nulls or as clear letters; marks as doubling, as separate symbols or as plain figures; wavy sign as break
   or as symbol), keys differing between seeds, nothing readable. Excluded.
+- **Syllabic two-digit alphabet** (`syll.py`): tokens as letters or CV syllables, as in Nevers no. 5 (1585). A matched
+  control segments naturally into about 60 units for 228 tokens, the target's profile, so the design is plausible on
+  its face. But the token-to-unit annealer (5-gram over the expanded string, 7 seeds x 400k) reads 0-5% of the control's
+  units and falls into degenerate optima; the tool is not validated and its target output (-2.3 to -3.6) says nothing.
+  A unit-level attack that passes its control is the open research problem that also stopped Vatican 5.
+- **Nevers cipher of 1574** (BnF fr. 3315 f. 12-13, Gallica btv1b90600800 views 13-14, fetched): a symbol alphabet with
+  symbol nulls and symbol doubles, plus a figure nomenclature 8-62 (Le Roy 8, La Royne 9, Le Roy de Pollongne 10, Le
+  Roy Philippe 11, L'Empereur 12, Le Pape 13, Le Turc 14, Le Duc de Savoie 15, Madame de Savoie 16, ... Italie 37,
+  Angleterre 38, Escosse 39, Flandres 40, Ambassadeur 41, Monsieur 42, Madame 43, Chancellier 44, Infanterie 45,
+  France 46, Italiens 47, Espagnols 48, Allemans 49, Suisses 50, Lombardie 51, Gennes 52, Argent 59, Armee de mer 60,
+  Huguenots 61, Piedmont 62). Not a figure cipher for letters, so it does not apply; its number list is at most a gloss to
+  test on the target's marked code groups (15, 41, 43, 44, 12, 59 among them) once any reading fixes one.
