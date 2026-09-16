@@ -87,7 +87,9 @@ ATTEMPTED = [
      "27 January, and Catinat&rsquo;s own memoir for the operation survives as a crib. The code is a two-part &ldquo;petit chiffre&rdquo; of at "
      "most 366 entries, letters below 100, no column structure. Same size class as Chaulnes and the same wall: on a matched control every "
      "objective prefers fluent nonsense to the true key, and giving the solver 60&nbsp;% of the code completes only 63&nbsp;% of the rest. "
-     "Bazeries read it in 1893 and never published; his papers, or a second letter in the code, would open it."),
+     "Bazeries&rsquo; 1893 book, read in full, confirms he deciphered it and that the petit chiffre of 1691 had 367 groups, but prints "
+     "neither the text nor the table. The reading is in his papers at the Service historique de la D&eacute;fense; that, or a second letter in "
+     "the code, would open it. <a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/feuquieres/NOTES.md\">Notes &rarr;</a>"),
 
     ("ADFGVX residue of the Eastern Front", "1918", "adfgvx.html", "top 50",
      "9 solved, 3 partial, 10 open", "md",
