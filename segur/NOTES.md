@@ -281,9 +281,12 @@ tokens.
 "Segur"/"Pardaillan", 2026-09-16). BnF fr. 17820, *Lettres du roi de Navarre envoyées en Allemagne aux princes protestans
 de la Confession d'Ausbourg* (1583–85, 211 canvases, ark btv1b90620099), was fetched and its opening leaves read: it is an
 eighteenth-century fair copy (Coislin collection) of the 1583–84 letters and instructions, all in clear, with a table of
-contents of diplomatic texts only; a copyist would not have kept cipher figures, so it was not swept further. Also
-surfaced by the search and not yet looked at: fr. 3985 and BnF *Recueil de lettres … émanant de Henri IV* (btv1b10035037p),
-and the printed *Accort et capitulation faict entre le roy de Navarre et le duc de Cazimir pour la levee de l'armee des
+contents of diplomatic texts only; a copyist would not have kept cipher figures, so it was not swept further. BnF
+Dupuy 407, *Recueil de lettres … pour la plupart autographes ou originales, émanant de Henri IV* (btv1b10035037p, 320
+canvases, `fetch_sweep3.py`, `sweep3/`, `sheets3/`), was fetched and read to canvas 46: it is chronological, the 1580s
+occupy the first two dozen leaves (autographs of Navarre to Henry III, Catherine de Médicis and, at f. 13, **to Ségur,
+Lectoure 26 June 1585, in clear**), and from f. 24 on it is the 1590s and Marie de Médicis; no cipher, download stopped.
+Surfaced by the search and not yet looked at: fr. 3985, and the printed *Accort et capitulation faict entre le roy de Navarre et le duc de Cazimir pour la levee de l'armee des
 reistres* (1587, bpt6k79516b), which is the contract the October 1585 letter refers to.
 
 **f. 321 at 3×.** One segment is clean of strike-through and confirms the key against the interlinear *et s'il fault*:
@@ -303,7 +306,7 @@ reading, as step 4 says.
 
 **Checked:** every canvas of the volume at 900 px, with the even canvases of solo sheets re-paired (`fixsheets.py`); the
 f. 333 figures at 2×; the f. 366 figures at 3×; Tomokiyo's table against f. 333 word by word. **Not checked:** 500 Colbert
-402 (the second Ségur volume, not digitised) for further letters in this key; fr. 3985 and btv1b10035037p; Tomokiyo's f. 321 table figure by figure against the leaf;
+402 (the second Ségur volume, not digitised) for further letters in this key; fr. 3985; Dupuy 407 beyond canvas 46 (1590s); Tomokiyo's f. 321 table figure by figure against the leaf;
 the identity of 189/190/204/166/167 in f. 333. **User must verify:** the dating of f. 366 and the reading *escri* before
 either is quoted.
 
