@@ -69,6 +69,7 @@ ormonde/*.txt
 !ormonde/ciphertext.txt
 !ormonde/analyze_out.txt
 !ormonde/cipher_runs.txt
+!ormonde/knowler_excerpts.txt
 hyde/*.jpg
 hyde/*.txt
 thurloe/html/

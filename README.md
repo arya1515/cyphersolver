@@ -24,6 +24,7 @@ negative result says something.
 | Armstrong → Madison, coded postscript ("THE = 972" code) | 1808 | 49/49 groups read; 580-group code table reconstructed from NARA pencil decodes | [`armstrong/`](armstrong/) · [write-up](https://dbourdeau.github.io/cyphersolver/armstrong.html) |
 | Swatow telegram to Sun Yat-sen (JACAR B03050738800) | 1916 | Systematic code condenser over the standard telegraph code recovered by brute force; 41 of ~44 characters read | [`sunyatsen/`](sunyatsen/) · [write-up](https://dbourdeau.github.io/cyphersolver/sunyatsen.html) |
 | Huang Xing → Lin Hu and Li Genyuan (JACAR B03050731500) | 1916 | Scheme identified: three kana per character, consonant row carries the digit, vowel free; plaintext read from the JACAR frames | [`sunyatsen/HUANG_NOTES.md`](sunyatsen/HUANG_NOTES.md) · [write-up](https://dbourdeau.github.io/cyphersolver/huangxing.html) |
+| Maltravers → Ormonde | 1634–35 | Regular block alphabet and nulls recovered from 59 figures; every spelled word reads; the nomenclator then confirmed clause for clause against Wentworth's dispatches in Knowler's *Strafforde's Letters* (1739). Two person-codes in one clause remain unidentified | [`ormonde/`](ormonde/) · [write-up](https://dbourdeau.github.io/cyphersolver/ormonde.html) |
 
 ### Explained: not a cipher, or nothing to read
 
@@ -38,7 +39,6 @@ negative result says something.
 
 | Target | Date | Result | Where |
 |---|---|---|---|
-| Maltravers → Ormonde | 1634–35 | Regular block alphabet and nulls recovered from 59 figures; every spelled word reads, nomenclator inferred | [`ormonde/`](ormonde/) · [write-up](https://dbourdeau.github.io/cyphersolver/ormonde.html) |
 | Voynich manuscript (Beinecke MS 408) | c.1404–38 | Plain or simply enciphered European language excluded on transliteration-robust entropy; verbose encoding vs structured meaningless text left roughly even, with the separating tests named | [`voynich/`](voynich/) · [write-up](https://dbourdeau.github.io/cyphersolver/voynich.html) |
 
 ### Found already solved by others (the lists are stale)

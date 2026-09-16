@@ -187,9 +187,11 @@ ATTEMPTED = [
      "control, no transposition signal, no periodicity, repetition far below language, and the book's own null rule swept — all say near-uniform "
      "random. Consistent with a botched encipherment rather than a lost key."),
 
-    ("Maltravers to Ormonde — the last nine codes", "1634–35", "ormonde.html", "", "partial", "md",
-     "The alphabet is recovered and every spelled word reads. The nine nomenclator codes still resting on context need either the real key or more "
-     "ciphertext, and neither is online."),
+    ("Maltravers to Ormonde — read", "1634–35", "ormonde.html", "", "solved", "hi",
+     "The alphabet is recovered and every spelled word reads. <b>Second session:</b> the nomenclator checked against Wentworth's own dispatches in "
+     "Knowler's <i>Strafforde's Letters</i> (1739) — the King refusing to see Kildare, and the 22 December 1634 dispatch moving Ormonde for the "
+     "Council in exchange for Sir Piers Crosby, with Coke's marginal answer that the warrant is enclosed. Seven of nine codes fixed; the two "
+     "parties in &ldquo;what [185] hath written unto [149] concerning Crosby&rdquo; would need the key sheet."),
 
     ("Kaliningrad bottle post", "found 2015",
      "https://scienceblogs.de/klausis-krypto-kolumne/2017/10/17/the-top-50-unsolved-encrypted-messages-19-the-kalinigrad-bottle-post/",
