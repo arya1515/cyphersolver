@@ -87,6 +87,15 @@ LIVE = [
 ]
 
 ATTEMPTED = [
+    ("Feuqui&egrave;res to Catinat, Pignerol, 25 January 1691", "1691",
+     "https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres", "", "not solved, design fixed", "lo",
+     "<b>Attempted September 2026.</b> The 1819 <i>M&eacute;moires de Catinat</i> print the 418 groups; collated with the Munich page images "
+     "(three corrections to Tomokiyo&rsquo;s copy). The editor says what it is: Feuqui&egrave;res concerting the surprise of Veillane fixed for "
+     "27 January, and Catinat&rsquo;s own memoir for the operation survives as a crib. The code is a two-part &ldquo;petit chiffre&rdquo; of at "
+     "most 366 entries, letters below 100, no column structure. Same size class as Chaulnes and the same wall: on a matched control every "
+     "objective prefers fluent nonsense to the true key, and giving the solver 60&nbsp;% of the code completes only 63&nbsp;% of the rest. "
+     "Bazeries read it in 1893 and never published; his papers, or a second letter in the code, would open it."),
+
     ("ADFGVX residue of the Eastern Front", "1918", "adfgvx.html", "top 50",
      "9 solved, 3 partial, 10 open", "md",
      "Not unbroken ciphers: Lasry and colleagues published the keys, and the twenty-two are mutilated transmissions. <b>Second session, "

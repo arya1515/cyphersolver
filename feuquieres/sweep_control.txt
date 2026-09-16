@@ -1,0 +1,13 @@
+LAMBDA=0.7 PRIORW=1.0 CRIBW=4.0 | truth -1604.3 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best -188.5 {'lm': -2170.2, 'letters': 1675, 'nulls': 1, 'prior': -915.8, 'crib': 432} | recovered 25/418 (6%)
+    canonicavalerieetcanoncesagarnisondecettecanonicavalerieeetambassadeuretsecapucinseresouecclesiastiquesadispositionegarnisonambassadeurlentrepriseetgrenadesonam
+LAMBDA=0.7 PRIORW=1.0 CRIBW=0.0 | truth -1844.3 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best -1224.7 {'lm': -1369.8, 'letters': 1266, 'nulls': 2, 'prior': -735.1, 'crib': 14} | recovered 18/418 (4%)
+    deedeseidesasainteteleseradetdesesmajestedeclarationsedeclarationnatcontrelessceaelesambassadeursecclesiastiquesdeclarationdesamajesteadeclarationsetcependantta
+LAMBDA=0.3 PRIORW=1.0 CRIBW=2.0 | truth -2035.9 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best -1456.6 {'lm': -1439.1, 'letters': 830, 'nulls': 3, 'prior': -745.4, 'crib': 244} | recovered 52/418 (12%)
+    enagarnisonerentcavalerieetantenenegarnisonilrendezvousnetirerlesdenreesraetetroupesfrancaisrendezvouspourraalesartirlesiilasecontenteraellepainneaqueleslesetca
+LAMBDA=0.7 PRIORW=0.3 CRIBW=2.0 | truth -1070.7 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best -370.9 {'lm': -1679.8, 'letters': 1408, 'nulls': 2, 'prior': -882.6, 'crib': 297} | recovered 44/418 (11%)
+    ancheralcavalerieoutilsdesasainteteaechesabataillonssedeclarationslionnearospigliosiecclesiastiqueslongtempsentreprisesdesaauchevauxbataillonsamazarinalebataill
+LAMBDA=0.3 PRIORW=0.3 CRIBW=0.0 | truth -1502.3 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best -1231.9 {'lm': -1208.3, 'letters': 651, 'nulls': 2, 'prior': -709.5, 'crib': 0} | recovered 38/418 (9%)
+    aenteralasaintetedonnercontantesdelecentairesdelaiaidonnerattenpartidefrancetetataetereniencelaafairenilaurenttuestaneenetenlausannonceouaeranosetessantesastred
+LAMBDA=1.0 PRIORW=0.3 CRIBW=2.0 | truth -837.0 {'lm': -1434.8, 'letters': 779, 'nulls': 7, 'prior': -933.8, 'crib': 60} | best 503.6 {'lm': -2056.6, 'letters': 2250, 'nulls': 1, 'prior': -989.3, 'crib': 305} | recovered 30/418 (7%)
+    cardinalechevauxeecardinallambassadeurfrancaismineursdesacardinaleschevauxespropositionsfrancaissesambassadeursennemisetlesecclesiastiquesinstructionsecclesiast
+done
