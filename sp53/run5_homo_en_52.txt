@@ -1,0 +1,7 @@
+restart 0 score -217.2 per-letter -2.585
+restart 1 score -204.1 per-letter -2.430
+restart 2 score -208.7 per-letter -2.485
+restart 3 score -206.8 per-letter -2.462
+BEST -204.1 per-letter -2.43
+ureetsbebarrearsorrouoavelledtosetreaseaddeserterruiesdristianbeoftestshearsrudedhat
+MAP [('0', 'd'), ('2', 'r'), ('3', 's'), ('4', 'e'), ('5', 't'), ('6', 'l'), ('7', 'a'), ('8', 'o'), ('9', 'e'), ('10', 'f'), ('11', 'n'), ('12', 'v'), ('13', 'h'), ('2b', 's'), ('3b', 'i'), ('4b', 'r'), ('5b', 'a'), ('6b', 'u'), ('7b', 'b'), ('8b', 'e'), ('9b', 'r'), ('10b', 's')]

@@ -1,0 +1,15 @@
+restart 0 score -5510.1 best -5510.1 2s
+restart 1 score -5158.1 best -5158.1 3s
+restart 2 score -5402.9 best -5158.1 4s
+restart 3 score -5114.1 best -5114.1 5s
+restart 4 score -5447.2 best -5114.1 6s
+restart 5 score -5321.9 best -5114.1 6s
+restart 6 score -5280.8 best -5114.1 7s
+restart 7 score -5619.0 best -5114.1 8s
+restart 8 score -4960.5 best -4960.5 9s
+restart 9 score -5671.7 best -4960.5 10s
+restart 10 score -5208.0 best -4960.5 10s
+restart 11 score -5601.6 best -4960.5 12s
+BEST -4960.5 per-letter -4.31
+iaasolaiaaustaaustsamblailussaletemeaiiteeeuassaseusalauiiuseespoaueeuetaustaeeautsaqseuaeusssgueeislsseisvaaltatebagslaetauiicdexauayeresiitsperseseeiallseiausiteieinlssuuevsyaaklspssiuaialyeauiaymaeatltusoslmuuiiesasushsueegaasitiiussesellasattskeuseryassauelsiessagumluuyletssimueuuyuunsetkliyeaasuectialaustlutyieeaaasevesstiiulsehmisstssausuyeivraleattseushuseuslgeaasiuaiuoasssilseafeeskyaeilieesssyastlamesolsuulseaarsskaeaaityuetlnauisgtsieuuseziieusuaemysussuihasklirytlafallayeaugetssuieasuseyaelyeaaseaessauusesiaaaasessatiesllamaeaeauolutaaaaameseleuleiydeeuulaaaualssaitpulaeaelaaeusiattdsabaesaloaasyuaauaedalmessbeutseuaauaehseaudalaaasseiteabaysuasseibaslegislauieassaplaleateaassaeeuosusmuatsassaeusuieaaauosdatsbuoimeeueeaslalaaoueasiuectualieaiesyaalueeiuaaiasttdupoameulaesadescasosoautuaeulsiseuaauesgeaatbeedoiabeauesaigosluaeaussasayotuveiuluaasueaiaiaobeapytaaitoaaueuamautoaalailuiuteaesossealaassbauaiuusaaeolegielssaaduaeayaayusotasuueloasuaeobseoayabiveeusussleaaouetasuaeessauasasgeeoaveadueaiouaaaeaasusloasaeiaiuauauetlleassetliaeeuoueoyaaauaaasasieasiuseatouauaadsiusaaseosueaosedaaauaiuaseuyseeagosstoeielhtuaauaaateea
+TABLE [('a', 1, 15), ('b', 16, 16), ('c', 17, 17), ('d', 18, 18), ('e', 19, 43), ('f', 44, 44), ('g', 45, 46), ('h', 47, 47), ('i', 48, 64), ('k', 65, 65), ('l', 66, 71), ('m', 72, 72), ('n', 73, 74), ('o', 75, 76), ('p', 77, 77), ('q', 78, 78), ('r', 79, 81), ('s', 82, 102), ('t', 103, 111), ('u', 112, 132), ('v', 133, 133), ('x', 134, 134), ('y', 135, 140), ('z', 141, 141)]

@@ -1,0 +1,7 @@
+restart 0 score -172.5 per-letter -2.054
+restart 1 score -184.9 per-letter -2.201
+restart 2 score -183.9 per-letter -2.189
+restart 3 score -179.2 per-letter -2.134
+BEST -172.5 per-letter -2.054
+ntobonintionibnonintantooiantononiniiconnoniintantobononiaionninoninonocontaiinonint
+MAP [('0', 'a'), ('1', 'o'), ('2', 'i'), ('3', 'o'), ('4', 'n'), ('5', 'b'), ('6', 'n'), ('7', 'n'), ('8', 'n'), ('9', 'i'), ('10', 'c'), ('11', 'n'), ('12', 'c'), ('13', 'n'), ('14', 't'), ('15', 'n'), ('18', 'o'), ('19', 'i'), ('20', 't'), ('21', 'o')]

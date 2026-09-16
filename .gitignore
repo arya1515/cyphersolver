@@ -237,3 +237,20 @@ chaulnes/traces_wb.txt
 chaulnes/louisxiv2.txt
 chaulnes/louisxiv_4.txt
 chaulnes/louisxiv4B*.txt
+# sp53: downloaded corpora, models, fetched pages
+sp53/*.pkl
+sp53/*.htm
+sp53/corpus_*.txt
+sp53/mary.txt
+sp53/letterbooksofsir00pouluoft.txt
+sp53/lettersofmaryque0*.txt
+sp53/lettresinstructi*.txt
+sp53/calendarofstatep0008vari.txt
+sp53/franciscipetrar01fracgoog.txt
+sp53/epistolaephieron11nada.txt
+sp53/tna.htm
+sp53/__pycache__/
+sp53/run_*.txt
+sp53/run2_*.txt
+sp53/run3_*.txt
+sp53/run4_*.txt

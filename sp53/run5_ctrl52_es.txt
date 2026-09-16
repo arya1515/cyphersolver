@@ -1,0 +1,7 @@
+restart 0 score -195.0 per-letter -2.321
+restart 1 score -189.5 per-letter -2.256
+restart 2 score -193.5 per-letter -2.304
+restart 3 score -191.2 per-letter -2.276
+BEST -189.5 per-letter -2.256
+asselatanosooaalabolesdadallegaolelassinosalaiennoledadasaldosalestabaallealsaldelad
+MAP [('0', 'o'), ('1', 'a'), ('2', 'e'), ('3', 'b'), ('4', 'e'), ('5', 'l'), ('6', 'l'), ('7', 'a'), ('8', 's'), ('9', 'd'), ('10', 'l'), ('11', 's'), ('12', 's'), ('13', 't'), ('14', 'g'), ('15', 'i'), ('18', 'a'), ('19', 'a'), ('20', 'a'), ('21', 'n')]

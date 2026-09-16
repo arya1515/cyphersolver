@@ -1,0 +1,7 @@
+restart 0 score -207.5 per-letter -2.470
+restart 1 score -192.6 per-letter -2.293
+restart 2 score -210.6 per-letter -2.507
+restart 3 score -207.1 per-letter -2.465
+BEST -192.6 per-letter -2.293
+ddenaddresseatdreatereentetrueaddsteadthathgreateatedatstheeddetestagatarautreetrest
+MAP [('0', 'e'), ('1', 'r'), ('2', 'h'), ('3', 'a'), ('4', 'd'), ('5', 'a'), ('6', 't'), ('7', 'e'), ('8', 't'), ('9', 't'), ('10', 'd'), ('11', 'h'), ('12', 's'), ('13', 'g'), ('14', 't'), ('15', 'n'), ('16', 'r'), ('18', 's'), ('19', 'd'), ('20', 'u'), ('21', 'e')]

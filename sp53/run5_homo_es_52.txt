@@ -1,0 +1,7 @@
+restart 0 score -216.1 per-letter -2.572
+restart 1 score -195.8 per-letter -2.331
+restart 2 score -190.3 per-letter -2.266
+restart 3 score -210.9 per-letter -2.511
+BEST -190.3 per-letter -2.266
+eellalalaaellaeraleaeaalassalaallallaraallaralaallegarllglagabalacallarmaalleelalmaa
+MAP [('0', 'l'), ('2', 'l'), ('3', 'l'), ('4', 'l'), ('5', 'a'), ('6', 's'), ('7', 'a'), ('8', 'a'), ('9', 'a'), ('10', 'c'), ('11', 'b'), ('12', 'l'), ('13', 'm'), ('2b', 'r'), ('3b', 'g'), ('4b', 'e'), ('5b', 'a'), ('6b', 'e'), ('7b', 'a'), ('8b', 'l'), ('9b', 'e'), ('10b', 'l')]

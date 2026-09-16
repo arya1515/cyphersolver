@@ -1,0 +1,13 @@
+it 0 T 30.00 cur -3560.5 best -3556.9
+it 40000 T 18.93 cur -1110.2 best -942.7
+it 80000 T 11.94 cur -991.0 best -942.7
+it 120000 T 7.54 cur -1017.7 best -942.7
+it 160000 T 4.75 cur -953.7 best -942.7
+it 200000 T 3.00 cur -942.7 best -942.7
+it 240000 T 1.89 cur -942.7 best -942.7
+it 280000 T 1.19 cur -942.7 best -942.7
+it 320000 T 0.75 cur -942.7 best -942.7
+it 360000 T 0.48 cur -942.7 best -942.7
+BEST -942.7 per-letter -1.859
+maybelievethativxasnotalittlecomfortedtohearofthegoodsuccessofourdomesticalcausesandthathermaiestyhadyieldedtoyieldavyarrantdormantvvhichiimqutetoyourfriendlzfurtheranceandalthoughtheprofitthereofshallredoundtohermaiestyzethayingtastedtomygreatgriefoftheslanderanddiscreditvvhichhavegrovvntothishousethroughvvantofmoneyithinkmzselfbeholdenuntoyouforitasforanesqecialgoodturnandasmuchasicanithankyouforititisverytruethativvasinformedbyagentlemanbelongingtoanoblemanandacouncillorthathimselfandmanzothersabove
+BLOCKS [('a', 1, 8), ('b', 9, 12), ('c', 13, 17), ('d', 18, 23), ('e', 24, 34), ('f', 35, 39), ('g', 40, 43), ('h', 44, 51), ('i', 52, 59), ('k', 60, 60), ('l', 62, 67), ('m', 68, 72), ('n', 73, 80), ('o', 81, 89), ('p', 91, 91), ('q', 92, 92), ('r', 97, 103), ('s', 104, 110), ('t', 112, 122), ('u', 123, 127), ('v', 128, 132), ('x', 133, 133), ('y', 134, 139), ('z', 140, 140)]

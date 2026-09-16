@@ -1,0 +1,15 @@
+restart 0 score -2385.3 best -2385.3 1s
+restart 1 score -2435.1 best -2385.3 1s
+restart 2 score -2467.1 best -2385.3 1s
+restart 3 score -2383.9 best -2383.9 2s
+restart 4 score -2396.4 best -2383.9 2s
+restart 5 score -2202.8 best -2202.8 3s
+restart 6 score -2540.3 best -2202.8 4s
+restart 7 score -2161.9 best -2161.9 4s
+restart 8 score -2530.5 best -2161.9 4s
+restart 9 score -2327.5 best -2161.9 5s
+restart 10 score -2233.6 best -2161.9 5s
+restart 11 score -2279.1 best -2161.9 6s
+BEST -2161.9 per-letter -4.264
+iaaoliaiaasoqaaspsoalalailtooaieseleaifraeeuaonaoaspalatggtoecollaseataraspraeeatroalpasabtoooeseagoiooeipuaalrareaaeolaarasgiaaeuatauanenigroleloepecialloegatohscieilloousauovaaikploogtaialuaatfaulacaristplollutghanaotoeoseeeaaofrihunoepallaoasroictoaluaooaseloieppaeslktsuleronelsassussloerilhuaaaotcasialaunrlsruiaeaaaoaubposegtloaelioprooatosvagumalaasrpasoetoatoledaaoitaeulaooogipeaeeaoiuaailfcaoooxaorlalcnlioutlocaalopiaeaagrusesllasfoeroiasspezgieupsaaluotnosfeaoilelurlaeallavcatearootiaaosoauaeiy
+TABLE [('a', 1, 25), ('b', 26, 26), ('c', 27, 31), ('d', 32, 32), ('e', 33, 49), ('f', 50, 50), ('g', 51, 54), ('h', 55, 55), ('i', 56, 66), ('k', 67, 67), ('l', 68, 79), ('m', 80, 80), ('n', 81, 82), ('o', 83, 98), ('p', 100, 102), ('q', 103, 103), ('r', 104, 109), ('s', 110, 123), ('t', 124, 128), ('u', 129, 137), ('v', 138, 138), ('x', 139, 139), ('y', 140, 140), ('z', 141, 141)]

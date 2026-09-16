@@ -1,0 +1,13 @@
+it 0 T 30.00 cur -3319.8 best -3314.9
+it 40000 T 18.93 cur -2300.0 best -2192.6
+it 80000 T 11.94 cur -2347.8 best -2184.8
+it 120000 T 7.54 cur -2174.5 best -2149.0
+it 160000 T 4.75 cur -2192.5 best -2149.0
+it 200000 T 3.00 cur -2154.9 best -2149.0
+it 240000 T 1.89 cur -2149.0 best -2149.0
+it 280000 T 1.19 cur -2149.0 best -2149.0
+it 320000 T 0.75 cur -2149.0 best -2149.0
+it 360000 T 0.48 cur -2149.0 best -2149.0
+BEST -2149.0 per-letter -4.239
+iaaoliaiaaupsaausuncldlailurncieueleaiiteeeuannaoeusalauiiureernlaueeuesaussaeeauspanseuaeuonniueeinioreisuaalsatedciolaeuauiideeuaucueneniisnnenrgseeiallneiauoiueieillnouueunvaciksnnoiuaialuecuiaulceasiuusmnlluuiienaouninueeiacpisiiunresellanauunieurenuaroauelriessaiulkuuuletonilueuuvuulnesiliueaaoueduiclaunslusuieeaaaoeuesquiiulneilinssrnauouveiunaleausseuriuneuolieabniuciumaonniiseaifeoiuaeilieeopnxaoslclenminuulreaanosiaeaaisuueullcuinisrieuuseziihusuaelununouiiaoilinuslciallavecuieunouieanuneuaeiy
+BLOCKS [('a', 1, 12), ('b', 13, 13), ('c', 14, 15), ('d', 16, 17), ('e', 18, 40), ('f', 41, 41), ('g', 42, 42), ('h', 43, 43), ('i', 44, 66), ('k', 67, 67), ('l', 68, 75), ('m', 76, 76), ('n', 77, 91), ('o', 92, 92), ('p', 93, 93), ('q', 94, 94), ('r', 95, 98), ('s', 100, 107), ('t', 108, 108), ('u', 109, 136), ('v', 137, 138), ('x', 139, 139), ('y', 140, 140), ('z', 141, 141)]

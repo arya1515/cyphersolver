@@ -1,0 +1,15 @@
+restart 0 score -2349.2 best -2349.2 0s
+restart 1 score -2623.9 best -2349.2 1s
+restart 2 score -2069.3 best -2069.3 1s
+restart 3 score -2125.4 best -2069.3 2s
+restart 4 score -2350.7 best -2069.3 3s
+restart 5 score -2297.1 best -2069.3 4s
+restart 6 score -2330.7 best -2069.3 4s
+restart 7 score -1793.8 best -1793.8 4s
+restart 8 score -2525.7 best -1793.8 5s
+restart 9 score -2620.7 best -1793.8 5s
+restart 10 score -1898.0 best -1793.8 6s
+restart 11 score -1854.2 best -1793.8 6s
+BEST -1793.8 per-letter -3.538
+tcerendantlentendsdbilleursruesqucslenrndemrncpusknleducdeguyseetkuelruescrticullersdelcsocietekldisroseccsrlumentdetruteslrecueildeslettrechrsesrcrdelcalacaguettesbnssedqnnercebucqurdereynecrnnelelburcycgreaclerunrnlbyregretruunvieulxserulteurcqmmeluyetdelaiucliteruilestsesoltlckssecllerctellechpsenycyantculourdhuyungseuledetoutnesrlusidellesetciiectirnezserviteursetderendantzdenoysritescossqisqucnglrisruinenencytfclcttcntenrbrticullersruencrmnundesrlaknctesincrrlcclesnrnseulementrqurleretardementetde
+TABLE [('a', 1, 2), ('b', 3, 3), ('c', 4, 17), ('d', 19, 24), ('e', 25, 37), ('f', 40, 40), ('g', 43, 44), ('h', 45, 46), ('i', 48, 51), ('k', 52, 52), ('l', 53, 64), ('m', 65, 66), ('n', 67, 79), ('o', 81, 81), ('p', 82, 82), ('q', 83, 84), ('r', 85, 105), ('s', 106, 114), ('t', 115, 122), ('u', 123, 131), ('v', 133, 134), ('x', 136, 136), ('y', 137, 139), ('z', 140, 140)]

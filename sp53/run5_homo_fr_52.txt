@@ -1,0 +1,7 @@
+restart 0 score -195.6 per-letter -2.328
+restart 1 score -187.4 per-letter -2.231
+restart 2 score -189.4 per-letter -2.255
+restart 3 score -189.3 per-letter -2.254
+BEST -187.4 per-letter -2.231
+ageetriaingsanslesseaenterreiteretsenleniielestessaaelisaitannieettaitliensisaieiint
+MAP [('0', 'i'), ('2', 's'), ('3', 'i'), ('4', 'a'), ('5', 't'), ('6', 'r'), ('7', 'n'), ('8', 'e'), ('9', 'e'), ('10', 't'), ('11', 'n'), ('12', 't'), ('13', 'i'), ('2b', 'l'), ('3b', 'a'), ('4b', 'g'), ('5b', 'n'), ('6b', 'a'), ('7b', 'i'), ('8b', 'e'), ('9b', 's'), ('10b', 'r')]
