@@ -1,0 +1,6 @@
+restart 0 best -952.1 per-token -1.628
+restart 1 best -917.2 per-token -1.568
+restart 2 best -947.8 per-token -1.620
+BEST -917.2
+te nenre tenteaentea nne en regr en eentreg re tae te rreteren eenreg retar g energe t r ereneerrere ten arran eenreg re tte te rreteret errerer en tentrea re tea rreter reagrea trangeten eraren tr angea n te tetreentr ereenn en t etgenenae te rrareea rretere ntr etr an ta egare ta rretenre te re tarree tentrea rreen re t r eetre te rr ereen eerre re gene rennentr ee nerene er ra neenerre arr erenretr e aetee ntre teenre gret tearrere gen targneren te narrer en te rente t er rea gener anetrear re eteta argeaet ee t ate te a rrerree te narr ee nen e ne tteetgen tentengagera re tr
+MAP {0: 'er', 1: 'er', 2: 'er', 3: 'gt', 4: 'er', 5: 'gt', 6: 'er', 7: 'an', 8: 'an', 9: 'gt', 10: 'an', 11: 'an', 12: 'gt', 13: 'er', 14: 'gt', 15: 'gt', 16: 'er', 17: 'gt', 18: 'an', 19: 'er', 22: 'gt', 23: 'SEP', 24: 'SEP'}

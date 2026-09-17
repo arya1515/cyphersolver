@@ -429,3 +429,12 @@ dubellay/ref/tomokiyo_*.png
 dubellay/ref/cryptiana_*.htm
 dubellay/ref/manifest_*.json
 dubellay/ref/oai_*.xml
+# sega1593: page images, line crops, renders, model weights and LM (regenerate with fetch_canvases.py, seglines.py, seg2.py, boot3.py)
+sega1593/img/
+sega1593/lines/*.png
+sega1593/lines/*.npy
+sega1593/tmp/
+sega1593/*.npy
+sega1593/*.pt
+sega1593/*.pkl
+sega1593/*.log

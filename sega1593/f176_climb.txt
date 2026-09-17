@@ -1,0 +1,74 @@
+init -3691.6
+  sweep 1 score -3501.0
+  sweep 2 score -3454.7
+  sweep 3 score -3433.5
+  sweep 4 score -3426.7
+  sweep 5 score -3377.8
+  sweep 6 score -3373.2
+  sweep 1 score -3718.7
+  sweep 2 score -3513.8
+  sweep 3 score -3455.6
+  sweep 4 score -3434.2
+  sweep 5 score -3434.2
+randstart 0 -3434.2 best -3373.2 220s
+  sweep 1 score -3513.6
+  sweep 2 score -3467.0
+  sweep 3 score -3467.0
+randstart 1 -3467.0 best -3373.2 279s
+  sweep 1 score -3483.3
+  sweep 2 score -3396.4
+  sweep 3 score -3388.1
+  sweep 4 score -3388.1
+randstart 2 -3388.1 best -3373.2 357s
+  sweep 1 score -3660.7
+  sweep 2 score -3645.6
+  sweep 3 score -3625.0
+  sweep 4 score -3625.0
+randstart 3 -3625.0 best -3373.2 437s
+  sweep 1 score -3511.5
+  sweep 2 score -3463.2
+  sweep 3 score -3439.7
+  sweep 4 score -3413.3
+  sweep 5 score -3404.2
+  sweep 6 score -3393.5
+randstart 4 -3393.5 best -3373.2 555s
+  sweep 1 score -3778.2
+  sweep 2 score -3396.9
+  sweep 3 score -3380.9
+  sweep 4 score -3357.9
+  sweep 5 score -3335.4
+  sweep 6 score -3335.4
+randstart 5 -3335.4 best -3373.2 677s
+  sweep 1 score -3640.5
+  sweep 2 score -3487.9
+  sweep 3 score -3463.6
+  sweep 4 score -3463.6
+randstart 6 -3463.6 best -3335.4 758s
+  sweep 1 score -3503.0
+  sweep 2 score -3493.7
+  sweep 3 score -3482.5
+  sweep 4 score -3442.9
+  sweep 5 score -3421.4
+  sweep 6 score -3378.9
+randstart 7 -3378.9 best -3335.4 886s
+  sweep 1 score -3404.2
+  sweep 2 score -3396.9
+  sweep 3 score -3396.9
+randstart 8 -3396.9 best -3335.4 949s
+  sweep 1 score -3445.9
+  sweep 2 score -3376.5
+  sweep 3 score -3376.5
+randstart 9 -3376.5 best -3335.4 1013s
+  sweep 1 score -3451.0
+  sweep 2 score -3418.1
+  sweep 3 score -3386.8
+  sweep 4 score -3370.2
+  sweep 5 score -3370.2
+randstart 10 -3370.2 best -3335.4 1119s
+  sweep 1 score -3472.3
+  sweep 2 score -3432.2
+  sweep 3 score -3388.2
+  sweep 4 score -3385.4
+  sweep 5 score -3385.4
+randstart 11 -3385.4 best -3335.4 1225s
+  sweep 1 score -3799.9

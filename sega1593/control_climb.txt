@@ -1,0 +1,120 @@
+init -1625.0
+  sweep 1 score -1513.3
+  sweep 2 score -1482.3
+  sweep 3 score -1482.3
+  sweep 1 score -1723.8
+  sweep 2 score -1706.4
+  sweep 3 score -1706.4
+randstart 0 -1706.4 best -1482.3 24s
+  sweep 1 score -1416.1
+  sweep 2 score -1390.6
+  sweep 3 score -1390.6
+randstart 1 -1390.6 best -1482.3 35s
+  sweep 1 score -1458.0
+  sweep 2 score -1454.8
+  sweep 3 score -1454.8
+randstart 2 -1454.8 best -1390.6 46s
+  sweep 1 score -1487.1
+  sweep 2 score -1452.5
+  sweep 3 score -1452.5
+randstart 3 -1452.5 best -1390.6 56s
+  sweep 1 score -1464.3
+  sweep 2 score -1452.0
+  sweep 3 score -1452.0
+randstart 4 -1452.0 best -1390.6 68s
+  sweep 1 score -1665.8
+  sweep 2 score -1660.6
+  sweep 3 score -1660.6
+randstart 5 -1660.6 best -1390.6 78s
+  sweep 1 score -1759.2
+  sweep 2 score -1496.1
+  sweep 3 score -1463.4
+  sweep 4 score -1457.7
+  sweep 5 score -1457.7
+randstart 6 -1457.7 best -1390.6 97s
+  sweep 1 score -1544.3
+  sweep 2 score -1539.7
+  sweep 3 score -1539.7
+randstart 7 -1539.7 best -1390.6 108s
+  sweep 1 score -1481.6
+  sweep 2 score -1428.0
+  sweep 3 score -1411.5
+  sweep 4 score -1401.2
+  sweep 5 score -1401.2
+randstart 8 -1401.2 best -1390.6 127s
+  sweep 1 score -1524.0
+  sweep 2 score -1524.0
+randstart 9 -1524.0 best -1390.6 134s
+  sweep 1 score -1468.6
+  sweep 2 score -1461.4
+  sweep 3 score -1461.4
+randstart 10 -1461.4 best -1390.6 145s
+  sweep 1 score -1519.5
+  sweep 2 score -1519.5
+randstart 11 -1519.5 best -1390.6 153s
+  sweep 1 score -1456.6
+  sweep 2 score -1404.1
+  sweep 3 score -1398.5
+  sweep 4 score -1398.5
+randstart 12 -1398.5 best -1390.6 167s
+  sweep 1 score -1435.6
+  sweep 2 score -1427.1
+  sweep 3 score -1416.4
+  sweep 4 score -1413.3
+  sweep 5 score -1413.3
+randstart 13 -1413.3 best -1390.6 186s
+  sweep 1 score -1628.8
+  sweep 2 score -1610.9
+  sweep 3 score -1610.9
+randstart 14 -1610.9 best -1390.6 196s
+  sweep 1 score -1677.9
+  sweep 2 score -1621.2
+  sweep 3 score -1618.1
+  sweep 4 score -1618.1
+randstart 15 -1618.1 best -1390.6 210s
+  sweep 1 score -1538.7
+  sweep 2 score -1441.6
+  sweep 3 score -1437.8
+  sweep 4 score -1437.8
+randstart 16 -1437.8 best -1390.6 226s
+  sweep 1 score -1623.0
+  sweep 2 score -1610.0
+  sweep 3 score -1605.5
+  sweep 4 score -1605.5
+randstart 17 -1605.5 best -1390.6 240s
+  sweep 1 score -1618.0
+  sweep 2 score -1610.0
+  sweep 3 score -1596.5
+  sweep 4 score -1596.5
+randstart 18 -1596.5 best -1390.6 254s
+  sweep 1 score -1517.7
+  sweep 2 score -1475.0
+  sweep 3 score -1469.8
+  sweep 4 score -1469.8
+randstart 19 -1469.8 best -1390.6 269s
+  sweep 1 score -1716.2
+  sweep 2 score -1647.6
+  sweep 3 score -1647.6
+randstart 20 -1647.6 best -1390.6 281s
+  sweep 1 score -1367.2
+  sweep 2 score -1354.5
+  sweep 3 score -1354.5
+randstart 21 -1354.5 best -1390.6 292s
+  sweep 1 score -1761.7
+  sweep 2 score -1533.5
+  sweep 3 score -1509.7
+  sweep 4 score -1509.7
+randstart 22 -1509.7 best -1354.5 306s
+  sweep 1 score -1493.7
+  sweep 2 score -1445.5
+  sweep 3 score -1445.5
+randstart 23 -1445.5 best -1354.5 317s
+  sweep 1 score -1552.4
+  sweep 2 score -1507.0
+  sweep 3 score -1461.6
+  sweep 4 score -1444.8
+  sweep 5 score -1444.8
+randstart 24 -1444.8 best -1354.5 335s
+BEST -1354.5
+de sabau duscafutsas sor ep arun et intunro le doc de nansyles ixgarb cruse d eparun z e lantallerhe bes taets enoero le duc de naiulyeb iaiulye et piguant ai urg marsre pathint closseurs yetres ce souet c de pazaretha laliot et d yscitesse de cathant amiuemi spi non ob uo yfore so campagne de ri utilhe cathiig ilint er u y nedee de ie pnuit aller la cabr iestisur la fraith er et teabaull one parthede l ouure sser parter dano chtireay des moiutunis de torere et de anope r li pic cigne souhange ai ihast tahabeb ye d sse de s emparer de torn na sug m ce quelques quscafutunis ei pa
+MAP {0: 'ix', 1: 'an', 2: 'an', 3: 'cp', 4: 'cp', 5: 'dq', 6: 'er', 7: 'fs', 8: 'fs', 9: 'bo', 10: 'gt', 11: 'bo', 12: 'hu', 13: 'hu', 14: 'hu', 15: 'fs', 16: 'ly', 17: 'mz', 18: 'cp', 19: 'mz', 22: 'er'}

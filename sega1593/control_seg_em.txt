@@ -1,0 +1,90 @@
+  it 0 ll -8385.7
+  it 10 ll -7689.1
+  it 20 ll -7668.4
+  it 30 ll -7637.1
+  it 40 ll -7611.4
+  it 50 ll -7590.1
+  it 60 ll -7573.7
+  it 70 ll -7560.6
+restart 0 ll -7550.8 71s
+restart 1 ll -7556.5 72s
+0 n=173 ieo i:0.35 e:0.27 o:0.18 pair ix 0.35
+1 n=179 oil o:0.30 i:0.28 l:0.08 pair bo 0.34
+2 n=178 crv c:0.33 r:0.19 v:0.17 pair cp 0.48
+3 n=101 nre n:0.30 r:0.28 e:0.13 pair er 0.41
+4 n=85 irn i:0.37 r:0.25 n:0.23 pair ix 0.38
+5 n=132 tms t:0.23 m:0.17 s:0.16 pair gt 0.23
+6 n=482 aes a:0.25 e:0.21 s:0.16 pair an 0.25
+7 n=89 uex u:0.67 e:0.18 x:0.07 pair hu 0.67
+8 n=76 uso u:0.49 s:0.20 o:0.06 pair hu 0.49
+9 n=89 utr u:0.56 t:0.19 r:0.15 pair hu 0.56
+10 n=201 noi n:0.58 o:0.10 i:0.08 pair an 0.59
+11 n=115 elr e:0.59 l:0.18 r:0.07 pair er 0.65
+12 n=89 eda e:0.49 d:0.25 a:0.08 pair er 0.5
+13 n=94 eto e:0.58 t:0.17 o:0.06 pair er 0.59
+14 n=87 asp a:0.44 s:0.19 p:0.15 pair an 0.44
+15 n=76 esp e:0.48 s:0.18 p:0.12 pair er 0.48
+16 n=166 let l:0.30 e:0.21 t:0.14 pair ly 0.3
+17 n=48 tas t:0.57 a:0.19 s:0.09 pair gt 0.57
+18 n=43 mes m:0.48 e:0.44 s:0.03 pair mz 0.49
+19 n=48 lre l:0.41 r:0.39 e:0.10 pair er 0.49
+20 n=37 tos t:0.30 o:0.19 s:0.16 pair gt 0.3
+21 n=19 aeh a:0.72 e:0.16 h:0.05 pair an 0.72
+22 n=51 tbu t:0.49 b:0.18 u:0.13 pair gt 0.49
+MAP {0: 'ix', 1: 'bo', 2: 'cp', 3: 'er', 4: 'ix', 5: 'gt', 6: 'an', 7: 'hu', 8: 'hu', 9: 'hu', 10: 'an', 11: 'er', 12: 'er', 13: 'er', 14: 'an', 15: 'er', 16: 'ly', 17: 'gt', 18: 'mz', 19: 'er', 20: 'gt', 21: 'an', 22: 'gt'}
+L1 zquivemieurleneceueemaermeanionavelamesaicielquien
+L2 ceuuiaisedesoreeoutlionilesaeeeauquncantmaieaurle
+L3 mentaceailequeluillemonnaincendenleseaationtionnell
+L4 esequeaesonqueuanoemencicaanaidechienantdepronauroi
+L5 ationtionpremparnoureduccequeelantassorignomemadeca
+L6 nslesranainiluinsquilcelesquiaiceintlabliencearsent
+L7 destousconesannaiteleaeiaisaenestrellesquesaicet
+L8 emantnesaceseuteianenturmenesasantcomenducoremari
+L9 ieuseditatimetdienncaceeuequesquelaiaienaurnpo
+L10 urolemeeeteauteanconavoutinivourdesonatifeceno
+L11 nnancantenoitiondescesentantintqueeearnandaule
+L12 queoudumentionsenurausquequeecrisequeseanabnesceueu
+L13 leranceprienealaevellesquedelouvecaauroistaitionn
+L14 ellemmomememesorisememaaresaedecedansurcesas
+L15 ailesmensdumallonaillimaitionneeesiquisexarouelacel
+L16 uicleetleeesnneucomentquancoinnieonneconnenariende
+L17 pousuienavoilienantiieemaitnanaieslasaiemeresquecea
+L18 ucontlesarieurqunavantortqueemesqreleettroitionson
+L19 nuiillactunepublitesquietvouvoisldeliquenteaicarae
+L20 ranquetreipublecesetalesontsensentionqreladeca
+L21 rdansaielaiteseencenapaseenquellementresandela
+L22 caetiontnepouanesamancequeucomeeepourlesalaieqteab
+L23 ueaitauaourenstreeooccaienaisscompartonforonsqu
+L24 iviiiceelacherommentdeunpourchontencomdenquavaisie
+L25 ntraitunecongeailesllatientrearespluyauterela
+L26 sauurosonquestaitenteelaitpauilecesauiquellio
+L27 nneilieransiationnaligeauxproiecuiontparse
+L28 lasdancenauxqueliarlusquauucomentauteauxarecautleen
+L29 aiecrientaconesssaulionquellesourellemanilaaonto
+L30 utimiieentpluslieusurchinsintesaitedecouneoitauxie
+L31 ntionstionisessentuauteurereespourletiontenereuicran
+L32 tsavereeleutequeslerequeauvouveseamennandessaientaco
+L33 menaitavemtlaitenirlamandictiontioiretationt
+L34 siontcelesacondrommemadesnontlacequtneuxdameu
+L35 retarierecangionqueleroirentrevouvonteceurav
+L36 ecombresainecasaeaursenelarisieniaieresemaitenroisema
+L37 itdellesseuemabiequesanceavequeimailliaisavoitauurv
+L38 ousedeconntelquavousabonseeusantpientauviconfa
+L39 ilaconnecuequientiailteachantpesdanainacequevou
+L40 roiutaresdurqueontdanceteegoudecreceseelesaicu
+L41 rlanoceimoincedececlusetaelaculequeleremenememe
+L42 ntepaseouvecelastlareeuneauxantreniceutaonceeado
+L43 utceraesandumeulavenaitteeluisouseanaitemener
+L44 acastabasureenesaitentirdentdecreparientedeep
+L45 royentpouvaiencerreequidignonsdusuninereceraichavere
+L46 elesourlequrepalieurceemansaisensdeleabeitarain
+L47 aleeetresooutouraesiacuereciquenanurdentutconc
+L48 eaetesaienconteavaincieurdieeteeeressseteauquisa
+L49 mbleslecentetqueuteanneaonteretuonontanlusainseu
+L50 xconeconedontcequelalnesesaiendenarenteletequela
+L51 bleentreureatoutboneclespoustentresaagiantouvec
+L52 leslancespousquellepounesdepareitquaueonnettree
+L53 eeeulieuxcetqueceablesquestousiiellecontsaunusson
+L54 quisassetautledilearsseuresoubleclustontepartiblio
+L55 niaitpubieresaminsentquesmonsiminandecequoinunef
+L56 aitecance

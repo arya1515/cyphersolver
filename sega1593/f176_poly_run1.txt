@@ -1,0 +1,6 @@
+restart 0 best -1234.7 per-token -1.710
+restart 1 best -1227.4 per-token -1.700
+restart 2 best -1251.8 per-token -1.734
+BEST -1227.4
+r reter rere ts et ar rerree netgger eregre te rreregneetrestegag e enr e  g  retettree tetesteseragenerr  ereettrearrerea rrer etreg na rree tensa rreeseren esteenaeterrearr esateterreseneerr eett eerrer e fe rra reresen  tree naff er err  ereetetaeterre sa s agree  re grett eregnaetrearreta reterreetseretenfer eree tre ntrereter reeter reeterreterrerenstra enneerrefrer e strete rete rr ereentr ete neettre sser ens eeserr er eeterre et enfere rse  e  setreferrere ttset esetaneerreenreentre re reest re tres e sseenfer eregnenetre  eseret ettr ea se resre se nttereettr ee nt et ferr areenr eenrenfere reet er  refer e ntsentret erre etrea r re resteetgener rere freretree tresfranger esete rreettret e rreesreserarre
+MAP {0: 'an', 1: 'er', 2: 'er', 3: 'er', 5: 'er', 6: 'er', 7: 'er', 9: 'fs', 10: 'fs', 11: 'SEP', 12: 'er', 13: 'er', 14: 'gt', 15: 'gt', 16: 'gt', 17: 'SEP', 18: 'er', 19: 'an', 20: 'er', 21: 'SEP', 22: 'an', 23: 'er', 24: 'SEP', 25: 'er', 27: 'gt', 29: 'SEP'}

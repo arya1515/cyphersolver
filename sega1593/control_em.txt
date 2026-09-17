@@ -1,0 +1,36 @@
+  it 0 ll -8122.8
+  it 10 ll -6938.9
+  it 20 ll -6830.8
+  it 30 ll -6774.5
+  it 40 ll -6740.0
+  it 50 ll -6718.3
+  it 60 ll -6703.1
+  it 70 ll -6691.4
+restart 0 ll -6683.6 49s
+restart 1 ll -6317.3 48s
+restart 2 ll -6715.4 69s
+restart 3 ll -6317.5 69s
+0 n=191 ano a:0.50 n:0.41 o:0.05 pair an 0.9
+1 n=199 ano a:0.53 n:0.44 o:0.01 pair an 0.97
+2 n=180 obf o:0.82 b:0.11 f:0.04 pair bo 0.93
+3 n=82 pcd p:0.43 c:0.38 d:0.08 pair cp 0.81
+4 n=75 cpy c:0.47 p:0.39 y:0.05 pair cp 0.86
+5 n=133 dqf d:0.72 q:0.21 f:0.03 pair dq 0.94
+6 n=583 ern e:0.69 r:0.29 n:0.01 pair er 0.99
+7 n=80 snc s:0.62 n:0.10 c:0.09 pair fs 0.68
+8 n=75 sme s:0.86 m:0.04 e:0.03 pair fs 0.88
+9 n=78 sfu s:0.82 f:0.13 u:0.03 pair fs 0.95
+10 n=233 tgc t:0.75 g:0.10 c:0.06 pair gt 0.85
+11 n=108 uvh u:0.73 v:0.20 h:0.06 pair hu 0.79
+12 n=84 uvs u:0.66 v:0.12 s:0.06 pair hu 0.7
+13 n=80 ixe i:0.90 x:0.06 e:0.02 pair ix 0.96
+14 n=71 iyr i:0.88 y:0.04 r:0.04 pair ix 0.88
+15 n=67 iyd i:0.85 y:0.04 d:0.04 pair ix 0.85
+16 n=158 lms l:0.88 m:0.05 s:0.03 pair ly 0.9
+17 n=21 mta m:0.83 t:0.11 a:0.03 pair mz 0.83
+18 n=18 mvx m:0.81 v:0.06 x:0.04 pair mz 0.83
+19 n=27 mpu m:0.83 p:0.07 u:0.07 pair mz 0.83
+20 n=13 abe a:0.52 b:0.15 e:0.14 pair an 0.52
+21 n=6 psq p:0.53 s:0.20 q:0.14 pair cp 0.54
+22 n=7 epb e:0.77 p:0.09 b:0.09 pair er 0.78
+MAP {0: 'an', 1: 'an', 2: 'bo', 3: 'cp', 4: 'cp', 5: 'dq', 6: 'er', 7: 'fs', 8: 'fs', 9: 'fs', 10: 'gt', 11: 'hu', 12: 'hu', 13: 'ix', 14: 'ix', 15: 'ix', 16: 'ly', 17: 'mz', 18: 'mz', 19: 'mz', 20: 'an', 21: 'cp', 22: 'er'}

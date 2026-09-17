@@ -1,0 +1,90 @@
+  it 0 ll -8366.1
+  it 10 ll -7551.3
+  it 20 ll -7490.6
+  it 30 ll -7438.1
+  it 40 ll -7408.4
+  it 50 ll -7392.1
+  it 60 ll -7382.9
+  it 70 ll -7377.3
+restart 0 ll -7374.0 75s
+restart 1 ll -7220.8 75s
+0 n=180 ano a:0.55 n:0.34 o:0.06 pair an 0.89
+1 n=183 nao n:0.50 a:0.46 o:0.02 pair an 0.96
+2 n=184 opt o:0.67 p:0.09 t:0.06 pair bo 0.69
+3 n=98 pce p:0.41 c:0.38 e:0.10 pair cp 0.79
+4 n=87 cpr c:0.18 p:0.13 r:0.12 pair cp 0.31
+5 n=127 dqs d:0.73 q:0.11 s:0.07 pair dq 0.85
+6 n=520 ers e:0.67 r:0.24 s:0.04 pair er 0.9
+7 n=86 scf s:0.39 c:0.16 f:0.15 pair fs 0.54
+8 n=76 scu s:0.47 c:0.13 u:0.11 pair fs 0.54
+9 n=83 set s:0.62 e:0.19 t:0.08 pair fs 0.63
+10 n=204 trn t:0.62 r:0.14 n:0.09 pair gt 0.7
+11 n=121 uvs u:0.74 v:0.14 s:0.05 pair hu 0.74
+12 n=89 urv u:0.53 r:0.09 v:0.09 pair hu 0.53
+13 n=90 isu i:0.59 s:0.13 u:0.10 pair ix 0.59
+14 n=81 iap i:0.85 a:0.07 p:0.03 pair ix 0.85
+15 n=73 iay i:0.72 a:0.14 y:0.05 pair ix 0.72
+16 n=159 lie l:0.63 i:0.11 e:0.08 pair ly 0.65
+17 n=45 mha m:0.40 h:0.16 a:0.16 pair mz 0.4
+18 n=35 ems e:0.31 m:0.26 s:0.18 pair er 0.32
+19 n=42 mef m:0.60 e:0.18 f:0.09 pair mz 0.6
+20 n=29 lgx l:0.21 g:0.19 x:0.13 pair ix 0.25
+21 n=17 ept e:0.52 p:0.15 t:0.12 pair er 0.52
+22 n=42 eds e:0.53 d:0.11 s:0.09 pair er 0.53
+MAP {0: 'an', 1: 'an', 2: 'bo', 3: 'cp', 4: 'cp', 5: 'dq', 6: 'er', 7: 'fs', 8: 'fs', 9: 'fs', 10: 'gt', 11: 'hu', 12: 'hu', 13: 'ix', 14: 'ix', 15: 'ix', 16: 'ly', 17: 'mz', 18: 'er', 19: 'mz', 20: 'ix', 21: 'er', 22: 'er'}
+L1 desavoidisolitionsuresteudietantionslequeenoai
+L2 llesaitpeesrensidenoeuachelantalteeiesestorteeavec
+L3 sleducdesoaillesalailleetpationtoaguetqueieegeatd
+L4 anteplusieursleneexcequsetledecommeetinuloyautendqui
+L5 pareconnescationtomairetspassouvouulchericampagne
+L6 deraitaliecetiontalseteesaloeleedecaevointallesla
+L7 ipourpeutambelacepapieretteainilqunebietiedelui
+L8 veesieenoemeedenspagneroldessavaititemodeguereeetde
+L9 pauprelacationtauxsioandemaavaitropouslessied
+L10 esembarredeguesdonformequelquesduepostionslano
+L11 nsquencemaisoientcevoitsuredanteionresplutd
+L12 echatdeseulementreslassenfuscationteutsorseesiese
+L13 loonredeederipigneroiqueluiretlappartilemonuvisede
+L14 lasavoirsonnemenvaittillesdandisiuexpesleme
+L15 eauerequoiquetesconraireauidinteuxdelagealbea
+L16 faitteueausadificensableoilnepluillemaitproitatesec
+L17 ondraitionmetprepagetfaisesaadepallececdantildevaitet
+L18 eairieeauducudesvoirsontmeiblesdestiontladese
+L19 uquirecequisdonambaterentsancellesetisalacheesaudepa
+L20 sonneluislaisuellenommeuridesquescanommeprech
+L21 evoyantdeciaquantemileecommeueproiaviidonpapeu
+L22 toutepredevaitesultredoneteuleoutabitainsillesep
+L23 oursemodevaitfaireolenardisquesestasmitemprinonp
+L24 ouisteneendrecationtresconnatlaplusimputedisontets
+L25 oitemazaconduuteseseuardeserasitionationquelle
+L26 etaitprepreilusdissiciledesemaintessemenditeele
+L27 surdesavoirquisarlavaittionnepirsenedest
+L28 runeesconnementdemiberedestoutessesplacesdessons
+L29 etlesumaisseroeoesemaiteauoyaucdelatuereedesland
+L30 realineascelleditalientlasindanseigiquelauxsevo
+L31 inteachererditpoustiondefaitispauxantarieeuteseesp
+L32 rouisionsilchamblibiecommentqueoioseibliqueuquelicds
+L33 aisonsededettetuereevictiondeteavoudelendita
+L34 liecentdantionneeadecationtpousignelatecedudi
+L35 eurtetoutlleobrestassemeiesormeparlemoitantep
+L36 uificknouteaconsonsduaousprolontdepiereapporgeri
+L37 beiguellementresparedecarepardequellereuseemedeeq
+L38 uetoutoursindelaeasionadeuxmonsqieslntdemesdepaser
+L39 enteriseetdontlesoblatiinueontconsiesauteneal
+L40 heroiichoreuetenceouisionfrancommoiresduoesin
+L41 peexnouvanonseuoeproiveremerecomplignoieamantoig
+L42 noupluseemerlesquisuilaconduteduducdeavoiret
+L43 outleuelemaustresfertimenttaousdenvouvicationpeure
+L44 tusdupritendqullespentletireeduccibieeopluisee
+L45 demestieeassignautquisprierapiidevooniitionslea
+L46 upoupplusavantateuxesetpluycontentlesquilardesl
+L47 esperemaiscommeceprindesparunaveurlementpluimait
+L48 saprinteofiproyesintetspoucdemepouredemennedon
+L49 gliamoitdonesunedecayeereedisfairesqueuvollesdeux
+L50 assuientielapluyartdesgransdercosleaveuxlation
+L51 ciavationdsunetuereeinepeutreuxmalueuesuneequit
+L52 esesprietsageaccommoyemeutquireavaitlasavoiretqui
+L53 assuraitlarestiibliondesesuavechevailleursauvecom
+L54 mesmoienaueesisonsennemesonsdessrindefairelesemera
+L55 iresessietsenousantqueemenambagneproyeainedecri
+L56 tlssieatineatetoutoursiceutlendmoitpl
