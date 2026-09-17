@@ -12,6 +12,7 @@ negative result says something.
 
 - **Website:** https://dbourdeau.github.io/cyphersolver/ — hub, priority queue, and formal write-ups (source in [`docs/`](docs/)).
 - **Tracker:** [TARGETS.md](TARGETS.md) — every list entry ranked by feasibility, with status, evidence and next step.
+- **Solved, ranked:** [SOLVED_RANKING.md](SOLVED_RANKING.md) — the finished targets scored by difficulty, historical weight, novelty, research effort, profile and verification.
 - **Per-target record:** each working directory has a `NOTES.md` with sources, dead ends, what is established and what is inferred.
 
 ## Results
@@ -125,6 +126,7 @@ Nothing more can be done online; the key or the text is located in an archive.
 ```
 README.md          this file
 TARGETS.md         ranked tracker of every list entry
+SOLVED_RANKING.md  the solved targets ranked by difficulty and historical weight
 unsolved.htm       snapshot of Tomokiyo's source page, for diffing against later revisions
 docs/              the website (GitHub Pages), see below
 <target>/          one directory per target: NOTES.md, ciphertext, scripts, small derived data
