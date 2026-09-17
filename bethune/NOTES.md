@@ -1,6 +1,6 @@
 # Henri IV to Philippe de Béthune (Rome), 9, 10 and 22 November 1601 — BnF fr. 3484 nos. 7, 8, 12 (catalogue item 22)
 
-**Status, 17 Sept 2026: partly read.** The 10 November letter (f. 34) is read in full, because its minute survives in
+**Status, 17 Sept 2026 (third pass): partly read; f. 46r now transcribed in full.** The 10 November letter (f. 34) is read in full, because its minute survives in
 clear four leaves on (f. 36, the notice's "copie du n° précédent"); that pair, six glossed passages of the 8 November
 letter and a glossed passage of 10 December give the cipher's design and most of its letter values; the 9 November
 letter (f. 33, one page entirely in cipher) decodes to about half of its words with that key and a French language
@@ -12,7 +12,7 @@ series; two-digit figures = names), with different values.
 Working files: `corpus.txt` (known-plaintext pairs), `ct_f33.txt` (the 9 Nov cipher, 1.5× transcription),
 `em_align.py` / `em_model.json` (EM alignment and the learned P(unit | symbol)), `decode.py` (character 5-gram
 Viterbi) and `worddecode.py` (lexicon decoder, trie over the Xivrey volumes), `decode_f33.txt` (their output),
-`key.tsv` (the key as recovered), `reading_10nov.md` (the 10 Nov letter). Images (`img/`, `full/`, crops, the
+`key.tsv` (the key as recovered), `reading_10nov.md` (the 10 Nov letter). Third-pass files: `lm.py` (period-French LM), `decode2.py` (bigram word-lattice decoder), `eval.py` (control harness), `oracle.py` (ceiling), `crop.py` / `lines2.py` / `cut.py` / `sheet.py` (image pipeline), `seg.py` / `align.py` / `align2.py` (segmentation attempts, negative), `reading_22nov.md` and `ct_f46r.txt` (f. 46r). Images (`img/`, `full/`, crops, the
 Xivrey and Bazeries downloads) are gitignored; `fetch.py` / `fetch_full.py` refetch them (Gallica IIIF, canvas =
 2 × folio + 7 for a recto).
 
@@ -109,7 +109,139 @@ cipher not yet transcribed. That is the next increment.
    refusing connections (HTTP 429, then closed connections) after the volume fetch, so the full-resolution copies of
    the glossed leaves ff. 53 and 56 (which would fix the remaining code groups) were not obtained in this session.
 
-**Next step (a day's work, mechanical):** re-transcribe f. 33 and ff. 46–47 at 4× with the refined glyph classes
+## Third pass, 17 Sept 2026: where the ceiling is, and the two routes past it
+
+This pass set out to do what the second pass prescribed — re-transcribe f. 33 and ff. 46-47 at 4x and
+rerun the decoders. It first built a control harness, and the harness changed the plan: the decoders
+were already at their ceiling, and the ceiling is set by the transcription, not by the key or the
+language model.
+
+### Tooling added
+
+* `lm.py` — period-French language model built from Berger de Xivrey, *Recueil des lettres missives de
+  Henri IV*, t. I-V (Internet Archive `recueildeslettre0[1-5]henr`; 1.43 M words, 457 k bigrams,
+  342 k character n-grams), normalised to the cipher's alphabet (lowercase, no accents, j->i, v->u).
+  `bethune/xivrey/` is gitignored and refetched from the identifiers above; so is `lm_cache.pkl`.
+* `decode2.py` — word-lattice decoder. Beam search over word boundaries, each candidate word scored by
+  a bigram LM with a character-6-gram backoff for names and rare spellings, replacing the unigram
+  lexicon of `worddecode.py`. Code groups pass through as `[nn]`.
+* `eval.py` — scores a decoder against every known-plaintext block of `corpus_v2.txt`: letter accuracy
+  by Levenshtein alignment (so one misplaced word boundary is not punished twice) and words recovered
+  in order by LCS.
+* `oracle.py` — the upper bound. A monotone DP lets every token emit *any* unit in its model support
+  and counts the true letters it could cover. This separates "the search is at fault" from "the
+  transcription is at fault".
+* `crop.py`, `lines2.py`, `cut.py`, `sheet.py` — image pipeline: page overview, line indexing by
+  ink-profile peaks with the line pitch taken from the profile's autocorrelation, line cutting into
+  thirds at 3x, and vertical stacking of strips. Stacking six thirds into one sheet reads two full
+  lines per view at unchanged horizontal resolution.
+* `seg.py`, `align.py`, `align2.py` — the segmentation experiments described below (all negative).
+
+### What the ceiling is
+
+Measured on the known-plaintext blocks of `corpus_v2.txt`, which are also what `em_model_v2.json` was
+trained on — so these are best-case numbers, not held-out ones:
+
+| measurement | letters | words in order |
+|---|---|---|
+| argmax of the key, no language model | 67.4 % | – |
+| `decode2.py`, bigram LM (`eval.py`) | **74.5 %** | **51.8 %** |
+| `oracle.py`: ceiling of the present transcription | **71.0 %** | – |
+| same, at `--minp 0.005` | 72.1 % | – |
+| oracle with confusion-widened emissions (`--wide`) | 80.6 % | – |
+| `decode2.py` with the same widening, eps 0.15 | 71.9 % | 47.6 % |
+
+Two things follow. First, the decoder already scores *above* the oracle bound of its own emission
+model — it gets some letters right by accident — so **no further work on the search or the language
+model can help**: about 29 % of the true letters cannot be produced by the tokens as transcribed.
+Second, widening each token's emissions to those of its visually confusable partners raises the
+ceiling by nearly ten points but *lowers* the real decode by 2.6 points; the extra ambiguity is more
+than the language model can resolve. Widening is kept behind `decode2.py --wide` and is off by default.
+
+Per block the oracle runs from 100 % on V3 to 52 % on D1, tracking exactly the zoom at which each block
+was transcribed (D1 and P1-P7 at 1.5x, A/B/C/V1 at 4x). The transcription is the binding constraint.
+
+### Why the glyphs cannot simply be re-read
+
+The confusions are sub-glyph. Calibrating on f. 34v l. 1, whose token sequence is verified against the
+minute, *conduitte* is written `b t g <m-like> r <m-like> q Z`: the same m-like shape stands for *d* in
+one position and *i* in the next, the two differing only by a hook. The 4x re-reading of the second
+pass hit this wall and so does a fresh eye. The three families recorded there (g / looped g, m / hooked
+m, r / 2-shaped r) are real, and they are not resolvable at the ~450 dpi that Gallica's full resolution
+gives for this folio — so a better scan would not help either.
+
+### Why the machine cannot segment it either
+
+* `seg.py` (connected components, small parts merged into the component they overlap): on f. 33 it
+  gives 65 components per line against 47 hand-transcribed tokens, 1.38 per glyph; on f. 34r block A it
+  both over-cuts (`4 a` split) and under-cuts (`g Z p f` swallowed into one box).
+* `align.py` avoids cutting altogether: it concatenates a block's cipher spans into one strip and lets a
+  DP give each token of the known sequence a variable-width slice scored against a per-class template,
+  templates re-estimated from the alignment (hard EM). From a uniform start every template collapses to
+  the average glyph, the DP then has no preference, and the alignment stays uniform — checked on the
+  montage, where the labels drift steadily behind the ink.
+* `align2.py` restricts the cuts to component boundaries and adds a per-class log-normal width model to
+  break the symmetry. On block A the component pass yields 156 boundaries for 138 tokens — 1.13 per
+  token — which leaves the DP almost no freedom, so it cannot recover where the components are wrong.
+
+An automatic reader is reachable, but it needs a few hundred hand-drawn glyph boxes on one page to seed
+the templates. That is the one piece of manual work that would pay for itself.
+
+### f. 46r read (22 Nov 1601)
+
+All 31 lines of f. 46r are transcribed in `reading_22nov.md` — the first time any part of this letter
+has been read. It alternates clear French with short cipher runs inside the same lines, so the clear
+text carries the sense. The letter answers Béthune's despatch of 29 October, received on the 18th; the
+core is a rebuke, in clear, of two persons named by code groups: *"Il me semble que [20] [S 12], qui
+sont douez de toute prudence, ont faict faulte de n'avoir rompu ce coup, car ilz l'eussent faict
+facilement s'ilz y eussent pensé et operé d'heure, ainsi qu'ilz devoient."* The leaf ends on the
+revenues of a named archbishopric. `ct_f46r.txt` holds the 31 cipher runs; decoded with `decode2.py`
+they give fragments only ("de le resultat et sur", "leurs serviteurs", "le cardinal de …", "saincteté
+au"), at the ceiling above. `73` = *vostre* is confirmed by the opening of L02.
+
+New code groups on the leaf: `2`, `6`, `8`, `12`, `20`, `28`, `44`, `66`, `67`, `69`, `72`, `80`,
+besides `48` = Cardinal. `S 12` occurs twice and looks like a fixed designation; with `20` it is one of
+the two persons "douez de toute prudence", which in Rome in November 1601 points at the two French
+cardinals, d'Ossat and Joyeuse, named in clear on f. 33.
+
+ff. 46v, 47r and 47v are not transcribed; the canvases are on disk and the pipeline is in place.
+
+### The two routes that would finish these letters
+
+Both are archival, and both are the pattern that closed Du Bellay (Le Grand 1688) and read Hesse
+(Rommel 1846): the clear text exists in a copy or in print.
+
+1. **BnF, Cinq cents de Colbert 346** — *"Copies des despesches concernans l'ambassade de Messire
+   Philippe de Bethune, conseiller du Roy en son Conseil d'Estat, à Rome, en 1601-[1605]"*, volume I,
+   **23 août 1601 – 22 novembre 1602**, letters of Henri IV, Marie de Médicis, Villeroy and Béthune
+   (notice `archivesetmanuscrits.bnf.fr/ark:/12148/cc917290`). The range covers both the 9 and the
+   22 November 1601 letters, and a copy register of this kind is made from the minutes, i.e. in clear —
+   which is exactly how the 10 November letter was read here, from its minute at f. 36. **Not
+   digitised**: Gallica SRU returns no record for it. This is the most valuable next step, and it needs
+   a reader in the Salle des manuscrits or a reproduction order.
+2. **Eugène Halphen (ed.), *Lettres inédites du roi Henri IV à monsieur de Béthune, ambassadeur de
+   France à Rome, du 18 octobre au 24 décembre 1601*** — an edition covering precisely this stretch.
+   HathiTrust catalogue record 100644113. Not in Gallica, the Internet Archive or Open Library;
+   HathiTrust refuses automated requests (403 on the catalogue, the Bib API and babel) and the Google
+   Books API rate-limited every attempt from here. Whether Halphen printed the ciphered passages in
+   clear — he would have needed the minutes — decides whether these letters count as already in print,
+   as fr. 3077/3078 did.
+
+Checked and excluded as sources of a clear text: Xivrey t. I–V (t. V prints a Béthune letter of
+10 October 1601 but nothing for November, confirming the second pass); Mélanges de Colbert 17
+(`btv1b10034921n`), whose part I is still running instructions at p. 179 and whose part II is
+1602–1605; BnF fr. 3677 and fr. 3678, the "Registre des lettres que monseigneur de Bethune a escrites
+en France durant son ambassade de Rome", which are 1624–1630, the second embassy.
+
+### Next step, revised
+
+1. Read or order **Cinq cents de Colbert 346** for 9 and 22 November 1601. That alone finishes both
+   letters and hands over the whole key by alignment.
+2. Failing that, get Halphen's volume through a HathiTrust member library.
+3. Only then is more work at the keyboard worth doing: hand-box one page of glyphs to seed `align2.py`'s
+   templates, and transcribe ff. 46v–47v with the sheet pipeline.
+
+**Next step as the second pass left it (superseded by the section above):** re-transcribe f. 33 and ff. 46–47 at 4× with the refined glyph classes
 (`q33_*.jpg` crops exist for f. 33), add the glosses of ff. 49v–50r, 53r, 56r–57r to the corpus from the
 full-resolution pages, rerun `em_align.py` and `worddecode.py`. The design is known, the letter values are mostly
 known, and the remaining unknowns are the two-digit names, which the later glosses name (Duc de Modène, Roy
