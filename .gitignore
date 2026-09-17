@@ -446,3 +446,40 @@ hesse1603/src/*.xml
 hesse1603/src/*.txt
 hesse1603/src/*.htm
 hesse1603/src/pages_text.json
+
+# raince: Gallica canvases and generated hand-transcription crops; keep the published keys and documented controls
+raince/img/c*.jpg
+raince/img/bands/
+raince/img/tmp/
+raince/img/gg/
+raince/img/gs/
+raince/img/gz/
+raince/img/zoom/
+raince/img/zoom2/
+raince/img/zoom3/
+raince/img/zoom31/
+raince/tmpzoom/
+raince/img/*_gloss_top.png
+raince/tmp_*.py
+f2984/
+
+# Sormano: IIIF pages, working crops and fetched metadata; keep Lasry's verified key image
+sormano/*.jpg
+sormano/*.png
+!sormano/key_lasry3.png
+sormano/*.html
+sormano/manifest.json
+sormano/pagination.xml
+sormano/decode1.json
+
+# Rennes: downloaded pages, generated tokens and local editions; keep Tomokiyo's two published key images
+rennes1563/img/
+rennes1563/tok55/
+rennes1563/ed/
+rennes1563/henryiii.htm
+rennes1563/images/*
+!rennes1563/images/CharlesIX_Rennes.png
+!rennes1563/images/CharlesIX_Rennes2.png
+
+# Herbault: downloaded Gallica pages and exploratory crops; no durable reading exists yet
+herbault1626/

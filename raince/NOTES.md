@@ -151,14 +151,22 @@ negative control on the transcription quality, not on the cipher.
 4. Registration in DECODE of the eight fr. 2984 letters (none is there) is Daniel's step, with
    the key image credited to Tomokiyo.
 
+## Hand-transcription progress
+
+The committed `trans/` files are a partial hand review, not a finished reading. `f29r.txt` covers lines 1–25 of the machine-draft region (manuscript lines 11–35); the four `*_gloss_*.txt` files record the faint contemporary glosses on f. 29r and f. 105r. Unread stretches remain marked with `?` or `[...]`; no uncertain wording is silently promoted to plaintext. `CALIBRATION.md` records the glyph distinctions and the worked f. 29r line-20 control used to make the partial reading reproducible. `score_trans.py` reports coverage and a French 6-gram score; its output is not directly comparable with the older 5-gram figure above.
+
 ## Files
 
-`NOTES.md`; `seg2.py` (segmentation + clustering, regions hard-coded), `render.py` (solver map to
-lines); `raince_tokens.json`, `raince_cipher.txt` (70 clusters), `raince140_tokens.json`,
-`raince140_cipher.txt`, `raince140n_cipher.txt` (nulls removed), `hinit140.txt` (warm start),
-`handmap.json` (cluster → letter from the key), `greedy70map.json`, `hand_decode2.txt`,
-`draft3.txt`, `blind140_render.txt`; `img/` holds Tomokiyo's two key images, the key-check
-crops and the 70-cluster montage sheets. The page images (`img/c*.jpg`, 23 MB, canvases 10–28,
-53–54, 61–63 at 1600 px and full size) are kept locally and not tracked; re-fetch with
+`NOTES.md`; `CALIBRATION.md`; `bands.py`, `bands_gloss.py`, and `score_trans.py`; the
+partial readings in `trans/`; `seg2.py` (segmentation + clustering, regions hard-coded),
+`render.py` (solver map to lines); `raince_tokens.json`, `raince_cipher.txt` (70 clusters),
+`raince140_tokens.json`, `raince140_cipher.txt`, `raince140n_cipher.txt` (nulls removed),
+`hinit140.txt` (warm start), `handmap.json` (cluster → letter from the key),
+`greedy70map.json`, `hand_decode2.txt`, `draft3.txt`, `blind140_render.txt`; `img/` holds
+Tomokiyo's two key images, the key-check crops and the 70-cluster montage sheets. The page
+images (`img/c*.jpg`, 23 MB, canvases 10–28, 53–54, 61–63 at 1600 px and full size) are kept
+locally and not tracked; re-fetch with
 `https://gallica.bnf.fr/iiif/ark:/12148/btv1b90598430/f<n>/full/full/0/native.jpg`.
-Solver outputs are in `sp53/par_raince*_*.txt`, `sp53/parw_raince140n_warm_*.txt`.
+The `bands_gloss.py` source images are the local `f2984/c16_full.jpg` and `c54_full.jpg`
+canvases and are likewise not tracked. Solver outputs are in
+`sp53/par_raince*_*.txt`, `sp53/parw_raince140n_warm_*.txt`.

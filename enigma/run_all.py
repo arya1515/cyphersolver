@@ -107,6 +107,9 @@ def main():
     ap.add_argument('--nstarts', type=int, default=1, help='add the 25 N-Stecker starts')
     ap.add_argument('--threads', type=int, default=20)
     a = ap.parse_args()
+    if sys.stdout is None or sys.stderr is None:   # pythonw.exe (no console): log to a file
+        os.makedirs(os.path.join('results', a.tag), exist_ok=True)
+        sys.stdout = sys.stderr = open(os.path.join('results', a.tag, 'stdout_w.txt'), 'a', buffering=1)
     import numba; numba.set_num_threads(a.threads)
     np.random.seed(12345)
     ct = letters(a.ct)[a.skip:a.skip + a.N]

@@ -17,3 +17,6 @@ src/*.html
 src/*.htm
 spot/
 notice_*.html
+decode_*.html
+search_*.html
+*.log
