@@ -1,0 +1,151 @@
+# Partial reconstruction of the Spanish general cipher Cg.13 (Devos 1950 numbering; Tomokiyo "Cg.13 (1587)") from the two
+# known-plaintext pairs in BnF fr. 3641: f. 10 / f. 14 (letter A) and f. 12 / f. 76 (letter B), Philip II to Mendoza,
+# 7 Sept 1589. 17 Sept 2026. Evidence column: number of independent word positions where the value was required by the
+# decipherer's clear text (2+ = confirmed; 1 = single position; T = also in Tomokiyo's published fragment of the table,
+# spanish3.htm, image habsburg1.png; D = only the 1589 decipherer's reading, not checkable; * = contextual proposal, unread
+# by the 1589 decipherer and not in any published key).
+# symbol	value	evidence	examples   (P = read by Phelippes interlinearly on f. 5 and checked on the image)
+# --- single symbols (letters) ---
+n	a (also stands for "al" before a consonant)	2+	n 24 = a su; n 79: = algun; n 97 = al bien; n: = an
+b	u	2+	b 40 n = una; b: = un; b+ 38 = ur-di; n b 12: 72 n = ausencia
+m	e	2+	m: = en; m. = es; 38 m 50 = diera; 47 22 m 21 = quisiesse
+9	e	2+	9. = es; 9: = en; 9: 11: 38 m 53: = entendieron
+g	el / e	2+	g bam = el cuydado; 39 g = del; g: = en
+1	o	2+	1. = os; 1: = on; 42 1 = nio (Antonio)
+7	y	2+	7 = y; 7. = ys (teneys, avreys, soleys, vays)
+18	yo	2	46 18 11: 78 = que yo tengo; 22 18 21 06 m 21 = si yo hiziesse
+8	a	T	Tomokiyo's table (A = 8, n); not needed in these two letters
+5	d?	T	Tomokiyo's table; here only in 5 19 21 m 51: = refieren (uncertain)
+# --- two-figure syllables, rows of five in vowel order a e i o u (some rows reversed) ---
+10	ta	2+	10: = tan; 10 = ta (esta, desta, juntamente); 10ʹ = tra (trateys, traman)
+11	te	2+	teneys, tener, entender; 11: = ten; 11ʹ = tre (entregar)
+12	ti	2+	castillo, lastima, tiene
+13	to	2+	todo (1337), toca, proposito, Antonio
+14	tu	1	14 57 m 51 = tuviere
+20	sa	2+	salieron, salir, pasados, pensamiento, sabe
+21	se	2+	se han, desse, quisiesse
+22	si	2+	sido, si, confusion, siendo, sino
+23	so	2	solo, soleys
+24	su	2+	su cargo, su servicio; 24. = sus
+30	da	2+	Andrada (30ʹ 30), dandoles (30: 37 86.), dado, andar (30+)
+36	du	2	dudo, duplicar
+37	do	2+	escapado, sido, dado; 37. = dos
+38	di	2+	dixo, entendieron, remedio, urdiendo
+39	de	2+	de; 39. = des; 39: = den; 39+ = der
+40	na	2	una, alguna
+41	ne	2+	Bearne, tiene, ponerlo?, armaçones
+42	ni	2+	vernian, Antonio, conviniere
+43	no	2+	manos, no, algunos
+44	nu	2	Manuel, menudo
+46	que	2+	que (the syllable que of the qu-row 45-49)
+47	qui	1	quisiesse
+50	ra	2+	considerar, parar, avisara, procurado
+51	re	2+	remedio, parecido, tuviere, pidiere; 51: = ren
+53	ro	2+	53: = ron (salieron, entendieron, embiaron)
+55	va	2+	va, llevar (86̄ 55+), vays
+56	ve	2+	deve, haver (56+ = ver), deven (56:)
+57	vi	2+	tuviere, conviniere, bolvio, vias
+58	vo	1	58 = vo(s)
+60	ma	2+	Manuel, manos, mas (60.), tomado
+61	me	2+	me, hazerme, entregarme, dandome
+62	mi	2+	mi, encaminar
+64	mu	1	muerte (64+)
+65	pa	2+	papeles? no: pasados, parar, parecido, passa
+66	pe	2+	pensamiento (66:), perdone, suspendierades (66:)
+67	pi	2	pidiere, duplicar (67 with l)
+68	po	2+	proposito (68 68), ponerlo; 68+ = por
+69	pu	2+	puedo, pueden, publico, pues (69 m.)
+70	ca / ça	2+	escapado, castillo, encaminar, boca, traçan (70:); 70+ = car
+72	ci	2+	negociacion, parecido, ausencia
+73	co	2+	73: = con; publico
+74	cu	1	procurado
+75	ga	2+	ponga, convenga, encargaros (75+ = gar), lengua (79 n)
+78	go	2+	tengo, algo, Goda, negociacion
+79	gu	2+	segun (79:), algun, alguna, lengua
+80	ha	2+	han (80:), ha sido, hazer, halla
+85	la	2+	la, las (85.), lla (halla, castellano)
+86	le	2+	les (86.), soleys, lle (86̄, llevar)
+87	li	2+	salieron, salir
+88	lo	2+	lo, los (88.), llo (88̄, castillo)
+90	fu	1	confusion
+92	fi	1	fin (92:)
+94	fa	1	falta
+95	bu	2	buen (95 m:, 95 9:)
+96	bo	2	boca, bolvio
+97	bi	2+	bien (97 m:), embiaron, embialdo
+98	be	2	Bearne (98 n+ 41), sabe
+99	ba	T	Tomokiyo's table
+105	ze(r)	2	hazer (80 105), twice in letter B
+06	zi	1	hiziesse
+28	xo	1	dixo
+31	ju	1	juntamente (31:)
+# --- marks after a group ---
+:	+n	2+	10: tan, 73: con, 9: en, 80: han, 1: on
+.	+s	2+	85. las, 88. los, 37. dos, 9. es, 7. ys, 24. sus
++	+r	2+	68+ por, 56+ ver, 70+ car, 75+ gar, 39+ der, n+ ar
+ʹ (stroke above)	r after the consonant	2+	30ʹ dra, 10ʹ tra, 51ʹ cre, 68ʹ pro
+̄ (bar)	doubled l	2	86̄ lle, 88̄ llo
+# --- groups read by Phelippes interlinearly on f. 5 (Parma to Philip II, 30 Dec 1588, same cipher), checked here on the image ---
+bur	persona	P	bur. = personas (a personas de servicio)
+dom	dicho	P	por la del dicho don Juan (68+ 85 39 dom 37: 31 n:)
+dur	porque	P	lo desden porque se fue (88 39: 39: dur 21 90 9)
+pen	mucho	P	pen+. = muchos (f. 5); pen+ 57 n. = muchas vias (f. 12)
+mis	V. M. (Vuestra Magestad)	P	que V.M. se ha servido de mandarme
+26	xe	P	e-xem-plo = 9 26: 68 (x-row 25-29, with 28 = xo)
+105	ze	P	zelo = 105 88; hazer = 80 105(+r)
+# --- nomenclator (three-letter and two-letter groups); "." after a group = plural, "+" or "c" = changed ending ---
+nem	papel	2	nem+. = papeles (f. 10 l. 1 = f. 14 "dos papeles")
+na	carta	2+	na. = cartas; also Tomokiyo
+ya	copia	1	ya. = copias (f. 14 "las [ya] desta carta"); Tomokiyo
+quer	Rey	1	la muerte del quer mi hermano
+quor	Reyno	2	salir desse quor; cosas desse quor; f. 10 "al quor de tam" (sic)
+Zum	hermano	1	del Rey mi Zum
+har	principe	1	har de Bearne; Tomokiyo
+yen	otro	1	yenc = otra; Tomokiyo
+ci / cie	alla / alli	2+	por alla, lo de alla, passa por alla; cie = alli
+nu	compañia	1	en nu de Manuel de Andrada
+ee	como	1	de tanta confusion como por alla
+yu	cosa	2+	yu. = cosas (three positions)
+pi	causa-	1	pi 37 = causado
+pom	Dios	1	pom le perdone
+pu	cristiandad	1	al bien de la pu
+xer	servicio	2	algun servicio (A); a su servicio (B)
+mu	cargo	1	a su cargo
+Xim	governador	1	castellano y Xim de un castillo
+Jic	puerto	1	a la boca del Jic
+Zan	para	2+	para encaminar, para salir, para el buen assiento
+Zen	para que	1	Zen se os avise (decipherer: "para que")
+bor	pero* / mas*	*	f. 14 copyist wrote "porque", but porque is dur (f. 5, Phelippes); A: ponerlo en cor, bor por todo buen respeto me ha parescido avisaros; B: no se os avisara de aca, bor siendo tan importante
+mes / mess	vuestro / vuestra	2	a mes manos (vuestras manos); con mes buen zelo (gloss "vro"); mess gu
+pur	respeto	2	por todos los pur que se pueden considerar; por todo buen pur (decipherer wrote "puerto")
+he	aviso	2+	he. avisos; he+ avisar / avise; he 50 = avisara
+nur	particularidad	2	desta nur; nur+. = particularidades
+Zon	particular	1	en Zon sus armaçones
+bam	cuydado	1	con el bam que soleys
+yan	orden	1	sin sun yan mia = sin nueva orden mia
+san	negocio	2	a la forma que el san pidiere; a 88. san = a los negocios (decipherer: "a lo necessario"); f. 14 "para encaminar[se] el negocio"
+bom	camino	1	del bom con que bolvio su ga
+lur	quanto	1	de lur passa por alla
+fom	forma	1	a la fom que el negocio pidiere
+yom	malo	1	yom 6. yu. = malas cosas
+ba	aca	2	por aca; avisara de aca
+Zub	aviso / cuenta	D	dandome Zub de todo (decipherer wrote "aviso")
+sun	nueva	D	sin sun orden mia (decipherer struck "nuestra", wrote "nueva")
+mar	quien (Tomokiyo) / manera (f. 14 decipherer)	D	de mar entendieron juntamente que las copias desta carta vernian a parar a vuestras manos
+lin	manera? / ninguna?	D	que en [8 ene] lin trateys de hazer ausencia (decipherer: "en ninguna manera")
+biò	usar	D	el usar de la hon (f. 12 "g biò 39 85 hon")
+fer	Portugués*	*	Manuel de Andrada fer; Antonio de Goda fer; Viète's copy (500 Colbert 33 f. 113) "Avisos ... de David traducidos de fer"
+tam	Francia*	*	pasados a tam; al Reyno de tam; decipherer's gloss "francia"; Andrada was carrying Dom Antonio's letters to the French court and to Navarre
+dun	Inglaterra*	*	gran falta ay por aca de avisos de dun ... del camino con que bolvio su ga ... navios ... entre ellos y el de Bearne ... sus armaçones (letter B); papeles que se han escapado de dun (letter A; decipherer wrote "francia", incompatible with his own tam = francia)
+tum	fundamento* / importancia*	*	ya havreys entendido el tum que esto puede tener; si aveys entendido algo del tum que tuviere (f. 14 decipherer miscopied the first as "tur")
+fru	posible* / facil*	*	seria fru que quisiesse hazerme algun servicio
+cor	execucion* / platica*	*	no dudo que havreys procurado ponerlo en cor
+hon	licencia*	*	el usar de la hon que teneys para salir desse Reyno (decipherer's gloss "diligencia")
+gu	presencia* / assistencia* (not persona, which is bur)	*	siendo tan importante vuestra gu en el bu
+bu	?	*	en el bu para el buen assiento de las cosas
+com	designios* / intentos*	*	en lo que toca a sus com y lo que traman y traçan
+ga	armada*	*	del camino con que bolvio su ga (the Drake-Norris fleet, back at Plymouth in July 1589)
+Jam	efecto* / fin*	*	algunos navios que a este Jam se embiaron
+lo	inteligencia* / relacion*	*	procurad vos tener las lo. y a menudo de quanto passa por alla
+bem	daño* / deservicio*	*	urdiendo malas cosas en bem de la par
+par	religion* / fe*	*	en bem de la par (pu = cristiandad is a different group)
