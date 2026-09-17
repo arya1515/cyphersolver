@@ -1,0 +1,380 @@
+
+(function(){const isDev = false;
+  // @ts-ignore
+  const IS_DEV = isDev;
+  !(function (t, e) {
+    var o, n, p, r;
+    e.__SV ||
+      (window.posthog && window.posthog.__loaded) ||
+      ((window.posthog = e),
+      (e._i = []),
+      (e.init = function (i, s, a) {
+        function g(t, e) {
+          var o = e.split(".");
+          2 == o.length && ((t = t[o[0]]), (e = o[1])),
+            (t[e] = function () {
+              t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+            });
+        }
+        ((p = t.createElement("script")).type = "text/javascript"),
+          (p.crossOrigin = "anonymous"),
+          (p.async = !0),
+          (p.src =
+            s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+            "/static/array.js"),
+          (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+            p,
+            r,
+          );
+        var u = e;
+        for (
+          void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+            u.people = u.people || [],
+            u.toString = function (t) {
+              var e = "posthog";
+              return (
+                "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+              );
+            },
+            u.people.toString = function () {
+              return u.toString(1) + ".people (stub)";
+            },
+            o =
+              "init hi $r kr ui wr Er capture Ri calculateEventProperties Ir register register_once register_for_session unregister unregister_for_session Fr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Cr Tr createPersonProfile Or yr Mr opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Pr debug L Rr getPageViewId captureTraceFeedback captureTraceMetric gr".split(
+                " ",
+              ),
+            n = 0;
+          n 
+Claude Fable 5.1 Solves the Cyphral Distich
+      (function () {
+        const root = document.documentElement;
+        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+        const faviconLink = document.getElementById("favicon");
+        const forceLight = root.dataset.forceLight === "true";
+        const storedTheme = localStorage.getItem("theme");
+        const theme = forceLight ? "light" : storedTheme || "system";
+        if (forceLight) localStorage.setItem("theme", "light");
+        function applyTheme(doc) {
+          if (doc.dataset.forceLight === "true") {
+            doc.classList.remove("dark");
+            if (faviconLink) faviconLink.href = "/favicon-dark.svg";
+            return;
+          }
+          const isDark =
+            theme === "dark" || (theme === "system" && mediaQuery.matches);
+          if (isDark) {
+            doc.classList.add("dark");
+            if (faviconLink) faviconLink.href = "/favicon-light.svg";
+          } else {
+            doc.classList.remove("dark");
+            if (faviconLink) faviconLink.href = "/favicon-dark.svg";
+          }
+        }
+        applyTheme(root);
+        if (theme === "system" && !forceLight) {
+          mediaQuery.addEventListener("change", function () {
+            applyTheme(root);
+          });
+        }
+        document.addEventListener("astro:before-swap", function (e) {
+          document.documentElement.classList.remove("dark");
+          const theme = localStorage.getItem("theme") || "system";
+          const newRoot = e.newDocument.documentElement;
+          if (newRoot.dataset.forceLight === "true") {
+            newRoot.classList.remove("dark");
+            return;
+          }
+          const isDark =
+            theme === "dark" || (theme === "system" && mediaQuery.matches);
+          if (isDark) {
+            newRoot.classList.add("dark");
+          } else {
+            newRoot.classList.remove("dark");
+          }
+        });
+      })();
+[data-astro-cid-i4ryt6sc][data-heading-selector] .toc-nav-link[data-astro-cid-i4ryt6sc]{align-items:flex-start;white-space:normal!important}[data-astro-cid-i4ryt6sc][data-heading-selector] .toc-nav-link[data-astro-cid-i4ryt6sc]>span[data-astro-cid-i4ryt6sc]:last-child{overflow-wrap:anywhere}
+Benchmarks
+Models
+Comparison
+Vals Smith
+App Reports
+Government
+News
+About
+Benchmarks
+Models
+Comparison
+Vals Smith
+App Reports
+Government
+News
+About
+    (() => {
+      let cleanup = null;
+      const initNav = () => {
+        if (cleanup) cleanup();
+        const mobileMenuContent = document.querySelector(
+          ".mobile-menu-content",
+        );
+        const mobileMenuButton = document.querySelector(".mobile-menu-button");
+        const hamburgerIcon = document.querySelector(".hamburger-icon");
+        const mobileMenuContainer = document.querySelector(".navbar-mobile");
+        let isExpanded = false;
+        const setMenuExpanded = (nextExpanded) => {
+          if (
+            !mobileMenuContent ||
+            !mobileMenuButton ||
+            !hamburgerIcon ||
+            !mobileMenuContainer
+          ) {
+            return;
+          }
+          if (nextExpanded) {
+            mobileMenuContent.classList.remove("max-h-0", "opacity-0");
+            mobileMenuContent.classList.add(
+              "flex-1",
+              "min-h-0",
+              "opacity-100",
+              "max-h-auto",
+            );
+            mobileMenuContainer.classList.add("navbar-mobile-full-height");
+            document.documentElement.style.overflow = "hidden";
+            document.body.style.overflow = "hidden";
+            hamburgerIcon.classList.add("open");
+          } else {
+            mobileMenuContent.classList.remove(
+              "flex-1",
+              "min-h-0",
+              "opacity-100",
+              "max-h-auto",
+            );
+            mobileMenuContent.classList.add("max-h-0", "opacity-0");
+            mobileMenuContainer.classList.remove("navbar-mobile-full-height");
+            document.documentElement.style.overflow = "";
+            document.body.style.overflow = "";
+            hamburgerIcon.classList.remove("open");
+          }
+          isExpanded = nextExpanded;
+          mobileMenuButton.setAttribute("aria-expanded", String(isExpanded));
+          mobileMenuButton.setAttribute(
+            "aria-label",
+            isExpanded ? "Close navigation" : "Open navigation",
+          );
+        };
+        const toggleMenu = () => setMenuExpanded(!isExpanded);
+        const handleKeydown = (event) => {
+          if (event.key === "Escape" && isExpanded) {
+            setMenuExpanded(false);
+            mobileMenuButton?.focus();
+          }
+        };
+        mobileMenuButton?.addEventListener("click", toggleMenu);
+        document.addEventListener("keydown", handleKeydown);
+        cleanup = () => {
+          mobileMenuButton?.removeEventListener("click", toggleMenu);
+          document.removeEventListener("keydown", handleKeydown);
+          setMenuExpanded(false);
+        };
+      };
+      initNav();
+      document.addEventListener("astro:page-load", initNav);
+      document.addEventListener("astro:before-swap", () => {
+        if (cleanup) cleanup();
+      });
+    })();
+      (() => {
+        if (window.__valsNavProgress) return;
+        window.__valsNavProgress = true;
+        const bar = () => document.getElementById("nav-progress");
+        let trickle = null;
+        let progress = 0;
+        document.addEventListener("astro:before-preparation", () => {
+          const el = bar();
+          if (!el) return;
+          clearInterval(trickle);
+          progress = 0.08;
+          el.style.opacity = "1";
+          el.style.transform = "scaleX(0.08)";
+          trickle = setInterval(() => {
+            progress = Math.min(progress + (1 - progress) * 0.1, 0.94);
+            const live = bar();
+            if (live) live.style.transform = `scaleX(${progress})`;
+          }, 180);
+        });
+        document.addEventListener("astro:page-load", () => {
+          clearInterval(trickle);
+          const el = bar();
+          if (!el) return;
+          el.style.transform = "scaleX(1)";
+          el.style.opacity = "0";
+          setTimeout(() => {
+            const live = bar();
+            if (live) live.style.transform = "scaleX(0)";
+          }, 250);
+        });
+      })();
+astro-island,astro-slot,astro-static-slot{display:contents}
+(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"
+",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();
+Blog
+ Research 
+ Claude Fable 5.1 Solves the Cyphral Distich 
+ We gave Claude Fable 5.1 an open task: solve an unsolved 370-year-old cipher. It solved it within a day. 
+Geby Jaff
+•
+08/31/2026
+Problem
+We gave Claude Fable 5.1 an open task: 
+solve Sir Thomas Urquhart’s Cyphral Distich.
+ It appears to have actually solved it, and the solution is quite embarrassing for humans in hindsight.
+At the end of Urquhart’s 
+Logopandecteision
+ is a cryptogram consisting of two lines of 32 numbers each, called the 
+Cyphral Distich
+. A cryptogram is a short message deliberately encoded so it can’t be read without knowing the rule that produced it. Here the entire puzzle input is these 64 numbers, and the goal is to recover the hidden plaintext:
+5.3.27.38.32.14.21.8.66.8.70.39.5.9.12.18.2.3.56.5.1.7.3.2.13.19.3.25.9.3.16.6.
+25.15.13.6.11.20.5.1.2.12.1.20.20.49.20.20.35.33.4.6.8.35.5.33.5.5.18.10.3.11.32.42.
+This cipher has remained seemingly unsolved for centuries. It was posed as an open problem in 
+Notes and Queries
+ in 1899, appeared again in 20th-century cryptography literature, and was later listed by historical-cipher researcher Klaus Schmeh among his Top 50 unsolved encrypted messages.
+Various people attempted to decipher it, but it seems they were missing one crucial hint. They tried methods like frequency analysis, substitution, and homophonic substitution, and none of these approaches worked.
+That’s because they missed one easy clue.
+Solution
+After 44 minutes, 176k tokens, and zero interjections from me, Fable 5.1 arrived at a solution. It tried a few approaches, but was finally able to solve it with two central realizations.
+First: the cryptogram is printed immediately after Urquhart’s 
+32 Proquiritations
+, and Urquhart even goes out of his way to emphasize that number. I know, surprising. He says:
+“there can no number like that of two and thirty … be pitched upon”
+Second: the poem accompanying the cipher promises that an honest reader will find in it 
+“his own heart’s wishes, and the Author’s minde.”
+ The Proquiritations themselves repeatedly conclude with formulations like “is the desire,” “wish,” or “hope of.”
+If you put these clues together:
+32 Proquiritations. 32 numbers in the first cipher line. 32 numbers in the second. “Wishes.”
+Most historical attempts assumed the key was external: a cipher alphabet, or some mapping of numbers to letters or words, that had to be reconstructed from outside the text. But the key was not an external cipher alphabet at all. The key was the book itself.
+The rule was simple: for the 
+i
+-th number in a cipher line, go to the 
+i
+-th Proquiritation, use that number as a word index, and take the first letter of that word.
+With this, you get:
+O GOD UPHOLD KING CHARLS THE SECOND AND
+MAKE HIM THE SUPREME RULER OF THIS LAND
+And the result is extremely self-verifying. Each line contains exactly 32 letters and ends 
+and
+ / 
+land
+ (a rhyming 2 line verse), consistent with the promised distich. It also makes historical sense: Urquhart was a committed Royalist. Hiding a prayer for Charles II in the text is entirely consistent with his politics.
+Urquhart left a second, much larger cryptogram in the same style — the Cyphral Octastich in 
+The Jewel
+ (1652), 285 numbers instead of 64, and just as unsolved. From this, Fable 5.1 was also able to decipher it:
+Result: the Cyfral Octastick is solved (all but nine letters)
+Rule. The Jewel (1652) has exactly 284 numbered pages, and the octastick + decagram contain 285 numbers. The k-th number (counting straight through the eight lines and the Decagram) is a word index into page k of the book; take the word's first letter. Same idea as the Distich (number i → Proquiritation i), with pages instead of paragraphs — and, as in the Distich, Urquhart almost always picked the first word on the page starting with the letter he needed (231 of 275 readable positions are exact first-occurrence hits in the EEBO-TCP text; the other 44 are 1–3 words off for identifiable transcription reasons — hyphenated words at page tops, hyphenated compounds, "&", paragraph numbers, an untranscribed Greek phrase).
+Plaintext (ottava rima, ABABABCC — a royalist prayer written in London, March 1652):
+GREAT LORD, MANTAINE THAT REGAL FAMILIE
+WHEREOF KING CHARLS THE SECOND IS THE HEAD,
+AND GRANT THAT HE MAY BEARE THE SUPREME SWEIGH
+WHERE ENGLISH, SCOTS AND IR[I]SH ARE BORNE AND BRED,
+AND [·········] THIS USURP'D AUTHORITIE
+REIGNE IN HIS ROYAL PREDECESSORS STEAD;
+LET HIM BE OUR SOLE CESAR, ARTUR, HECTOR,
+OUR EMPEROUR, KING, MONARCH AND PROTECTOR.
+                        AMEN, SO BE IT.   (the Decagram)
+Sweigh is Scots swey "sway, controlling power" — DOST records the exact idiom "to bear the swey" (c. 1600), and it rhymes with familie/authoritie.
+Caveats, stated plainly:
+- Line 4 is enciphered I‑R‑S‑H (pages 127–130): a slip for IRISH, or a deliberate contraction — "Irsh" gives the line exactly ten syllables.
+- Line 5, letters 4–12 (pages 149–157) come out C‑O‑N‑E‑R‑T‑H‑T‑O — eight of the nine are exact first-occurrence hits, so this is genuinely what the TCP text yields, and it isn't readable. I tried page-shift, dropped-letter, misprinted-number and dictionary-lattice hypotheses; none gives English. Either Urquhart slipped here or numbers of this line were misprinted. The rest of the line (THIS USURP'D AUTHORITIE) is certain.
+- From position 159 onward every number keys to page k−1: one page was used twice (or the printed "5.5" in line 5 is a dittography). Lines 6–8 and the decagram decode cleanly with that shift.
+- No free page images of a 1652 Jewel exist (a subagent checked Google Books, HathiTrust, IA, NLS; the octastick sits on the final quire 3*² that the TCP copy lacks, but the main text and pagination are the same in all copies). Confirming the ±1 positions and the nine letters needs a physical copy or the 1983 Jack & Lyall edition.
+Files: verify_octastick.py (prints all 285 positions with page/word/letter/offset; output in octastick_verification.txt), jewel_pages.py (page parser), firstocc.py/lattice.py (analysis tools), SOLUTION.md and FAMOUS-CIPHERS-STATUS.md updated, memory updated.
+Sources: DOST swey(e n. (https://www.dsl.ac.uk/entry/dost/sweye_n), SND swey (https://dsl.ac.uk/entry/snd/swey), ESTC R203867 (via CERL) (https://datb.cerl.org/estc/R203867), Cipherbrain thread on the poems (https://scienceblogs.de/klausis-krypto-kolumne/2019/07/28/revisited-thomas-urquharts-encrypted-poems/), HCPortal record (https://www.cryptograms.hcportal.eu/web/#/ciphers/8).
+Elicitation
+I’ve actually been trying for the past few months to elicit models into solving an important but unsolved cipher. Across those months, no other frontier model I tried produced a verified solve.
+How I elicited Fable 5.1 was quite simple. I gave it a goal of sorts. I asked it to solve an unsolved cipher. I gave it some encouragement. I told it to look online at some of Fable’s strongest feats, especially the math problems it has solved, and that something like this should be easy in comparison. I told it to think creatively and really analyze the problems it encountered.
+I gave it two constraints. First, I asked it to avoid ciphers that already had solutions or could support many plausible answers. I suspect a lot of historical unsolved ciphers aren’t quickly verifiable and may be vague in the sense that their creators are long dead, so we might never truly know whether a proposed answer is correct.
+Second, I steered it away from the absolute hardest problems—ones where thousands of humans, or even organizations like the CIA, had already put in serious effort. For example, 
+Kryptos K4
+ might be a little too hard and convoluted for current models. That might be a future experiment, but I don’t think Fable 5.1 could solve it in a reasonable amount of time yet.
+Fable 5.1 spent some time looking over different problems. It knew when to stop. It knew when a problem wasn’t budging. And when it found this particular problem, it noticed the clue almost immediately.
+Now, I don’t think other frontier models would necessarily fail to solve this problem. The clue is actually extremely simple. I think what Fable did well was notice that this particular problem stood out as unusually tractable.
+Takeaways
+I think this demonstrates that models can solve problems not just in mathematics, but also historical mysteries, forgotten conjectures, archival puzzles, and things like that.
+Historically, many of these problems were bottlenecked by human attention. Someone had to care enough to spend hours or days reading obscure material, testing unpromising ideas, tracing references, and trying things that might go nowhere.
+That bottleneck is seemingly disappearing.
+And the interesting thing about Claude solving this is that it didn’t perform some extraordinary feat of cryptanalysis. It’s actually the opposite.
+The answer was simple in hindsight. It just kept looking until it found it—and that persistence might show up in many other areas.
+Sir Thomas Urquhart, 
+Logopandecteision
+ (London, 1653), in 
+The Works of Sir Thomas Urquhart of Cromarty, Knight
+ (Edinburgh: Maitland Club, 1834), Proquiritations, pp. 412–417; “The Cyphral Distich,” p. 417. archive.org
+https://codebreaking-guide.com/links/unsolved-cryptograms/
+*Minor counting note: one coordinate depends on treating the Latin expression “hinc inde” as a single unit; otherwise that position is shifted by one.
+(()=>{var l=(s,i,o)=>{let r=async()=>{await(await s())()},t=typeof i.value=="object"?i.value:void 0,c={rootMargin:t==null?void 0:t.rootMargin},n=new IntersectionObserver(e=>{for(let a of e)if(a.isIntersecting){n.disconnect(),r();break}},c);for(let e of o.children)n.observe(e)};(self.Astro||(self.Astro={})).visible=l;window.dispatchEvent(new Event("astro:visible"));})();
+(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();
+ Claude Fable 5.1 Solves the Cyphral Distich 
+ Problem 
+ Solution 
+ Elicitation 
+ Takeaways 
+    (function () {
+      let zoomInstance = null;
+      const initZoom = () => {
+        if (typeof mediumZoom === "undefined") return;
+        if (zoomInstance) {
+          zoomInstance.detach();
+        }
+        zoomInstance = mediumZoom(".blog-hero-image, .blog-content img", {
+          margin: 24,
+          background: "rgba(0, 0, 0, 0.8)",
+          scrollOffset: 0,
+        });
+      };
+      const cleanup = () => {
+        if (zoomInstance) {
+          zoomInstance.detach();
+          zoomInstance = null;
+        }
+      };
+      initZoom();
+      document.addEventListener("astro:page-load", initZoom);
+      document.addEventListener("astro:before-swap", cleanup);
+    })();
+ Benchmarks 
+ Models 
+ Comparison 
+ Vals Smith 
+ App Reports 
+ About 
+ Methodology 
+ News 
+ Blogs 
+ Government 
+ Security 
+ Careers 
+Copyright © 2026 Vals AI. All rights reserved.
+X (Twitter)
+LinkedIn
+      (function () {
+        function fixHashLinks() {
+          // In-page anchors scroll only — never write the hash or a history
+          // entry, so Back always leaves the page. (ToC links do the same via
+          // their own handler.) Targets that rely on `:target` opt out with
+          // data-native-fragment and keep native fragment navigation.
+          document
+            .querySelectorAll('a[href^="#"]:not(.toc-nav-link)')
+            .forEach(function (link) {
+              link.addEventListener("click", function (e) {
+                var hash = link.getAttribute("href");
+                if (!hash || hash === "#") return;
+                var target = document.querySelector(hash);
+                if (target && !target.hasAttribute("data-native-fragment")) {
+                  e.preventDefault();
+                  target.scrollIntoView({ behavior: "smooth" });
+                }
+              });
+            });
+        }
+        fixHashLinks();
+        document.addEventListener("astro:page-load", fixHashLinks);
+      })();

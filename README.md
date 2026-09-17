@@ -47,6 +47,7 @@ negative result says something.
 
 | Target | Date | Result | Where |
 |---|---|---|---|
+| Urquhart's Cyphral Octastich and Distich (The Jewel 1652; Logopandecteision 1653 / Works 1834 p. 417) | 1652–53 | Octastich: Vals AI's Aug 2026 rule (number k → word on page k of The Jewel, first letter) verified independently from the EEBO-TCP text and Schmeh's public transcription without the claimed plaintext, by Urquhart's habit of taking the first word of the needed initial: 231/267 first-occurrence hits vs 69 % shuffled and 43 % random-page controls; five of eight lines read (*Great Lord, mantaine that regal familie … Our Emperour, King, Monarch and Protector*), the other three fail only where the public transcription is short. Distich: the Proquiritation rule gives 34/64, chance, no English; page-index variants at chance; open. Needs the 285-number transcription (HCPortal scan, Jack & Lyall 1983) | [`urquhart/`](urquhart/) · [write-up](https://dbourdeau.github.io/cyphersolver/urquhart.html) |
 | Voynich manuscript (Beinecke MS 408) | c.1404–38 | Plain or simply enciphered European language excluded on transliteration-robust entropy; verbose encoding vs structured meaningless text left roughly even, with the separating tests named | [`voynich/`](voynich/) · [write-up](https://dbourdeau.github.io/cyphersolver/voynich.html) |
 
 ### Found already solved by others (the lists are stale)
