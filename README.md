@@ -13,6 +13,7 @@ negative result says something.
 
 - **Website:** https://dbourdeau.github.io/cyphersolver/ — hub, priority queue, and formal write-ups (source in [`docs/`](docs/)).
 - **Tracker:** [TARGETS.md](TARGETS.md) — every list entry ranked by feasibility, with status, evidence and next step.
+- **Solved, catalogued:** [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) — every item solved, read or partly read, the method that broke it, and where the AI did the work; site page [solved.html](https://dbourdeau.github.io/cyphersolver/solved.html).
 - **Solved, ranked:** [SOLVED_RANKING.md](SOLVED_RANKING.md) — the finished targets scored by difficulty, historical weight, novelty, research effort, profile and verification.
 - **Catalogue of new targets:** [CATALOGUE.md](CATALOGUE.md) — 25 undeciphered letters, 1497–1610, absent from the standard lists, harvested from the BnF catalogue on Gallica and from the fine print of the cryptiana articles; shelfmarks, arks, prior art, difficulty class. Unvalidated on the leaves except fr. 16127.
 - **Per-target record:** each working directory has a `NOTES.md` with sources, dead ends, what is established and what is inferred.
@@ -131,6 +132,7 @@ Nothing more can be done online; the key or the text is located in an archive.
 ```
 README.md          this file
 TARGETS.md         ranked tracker of every list entry
+SOLVED_CATALOGUE.md  what was solved or read, how, and where the AI did the work
 SOLVED_RANKING.md  the solved targets ranked by difficulty and historical weight
 unsolved.htm       snapshot of Tomokiyo's source page, for diffing against later revisions
 docs/              the website (GitHub Pages), see below
