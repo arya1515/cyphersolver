@@ -1,6 +1,6 @@
 # Nicolas Raince, Rome, 1526 and 1529 (BnF fr. 2984, fr. 3040, fr. 3091)
 
-Catalogue item 5 (the "gamble" of the five-item goal list). Session of 17 September 2026.
+Catalogue item 5 (the "gamble" of the five-item goal list). Two sessions, 17 September 2026.
 Everything below is unvalidated until Daniel reviews it; the evidence for each claim is named.
 
 ## Outcome in one paragraph
@@ -10,16 +10,15 @@ key with it; DECODE holds two Raince letters as decrypted; the one letter "entir
 (9 June 1526) has its contemporary clear duplicate eight leaves earlier in the same volume, as
 Mignet noted in 1886; and Bourrilly printed the cipher passages of the 17 June and 20 August
 letters in 1901. What has never been read anywhere found is most of the **13 May 1526** letter
-(about 85 lines of cipher on ff. 29r–31r) and the lower two thirds of the **20 November 1526**
-letter (f. 105r). Both are in Tomokiyo's 1526 key, which this session verified on the leaf
-against the clear text. A machine transcription of the unread 106 lines (5,629 glyph tokens,
-connected-component segmentation and shape clustering on the Gallica microfilm) decoded with the
-key reads in stretches ("pour perdre ... occasion", "qui estoit en la court de Savoye ... est
-party pour venir icy", "vous faire tous services et plaisirs", "son royaume", "trois fois",
-"vray monseigneur") but carries roughly a fifth of noise from fragments and merged glyphs, and
-the blind sp53/fasthomo pipeline run on the same token stream collapsed into a degenerate map.
-A clean reading needs a glyph-level hand transcription (a few hours) or better images than the
-microfilm; the key and the tools for it are in this folder.
+(pp. 29-31) and the lower part of the **20 November 1526** letter (p. 105), about 106 lines.
+**Session 2 (17 Sept 2026) found that the first session had misread Tomokiyo's key by one
+column** - l, m and n were shifted - and re-measured the whole table off the key image; see
+CALIBRATION.md. With the corrected table the control line resolves glyph for glyph, and a
+rebuilt machine draft (`draft5.txt`, and `draft5_seg.txt` with word breaks) reads in long
+stretches. Two lines have since been read glyph by glyph against the numbered-token images and
+agree with the draft to about 86 % of letters, which is where the reading now stands: the key
+and the page structure are settled, the residual gap is transcription accuracy on a microfilm,
+not cryptanalysis.
 
 ## Prior art (checked 17 Sept 2026)
 
@@ -78,95 +77,139 @@ via `/full/full/0/native.jpg`.
 
 Token count of the unread residue: 106 lines of about 50 glyphs, 5,629 segmented tokens.
 
-## Key check on the leaf (the "control")
+**Note on the foliation.** The "folio" numbers in the table above are in fact **page numbers**,
+written on odd pages only; see the session-2 section. Read f. 29r as p. 29, f. 30v as p. 30,
+f. 31r as p. 31, f. 105r as p. 105, and so on. Gallica view n shows pages 2n-4 and 2n-3.
 
-* f. 33r line 1 against f. 17r line 1 ("Sire depuis les depesches envoyées"): with ∧ = s,
-  ✕✕ = i, ρ (o with a straight tail) = d, ψ / 7 / ⊥o = e, T = p, Ƶ = u, I = i, ⊡ = c, ε = h,
-  "ny" / K / λ nulls, the glyphs read s-i-[ny]-r-e, d-e-p-u-i-s, [ny]-l-e-s,
-  d-e-p-[λ]-e-s-c-h-e-s, [K]. Crops `img/f33r_a.png`, `img/f17r_top.png`.
-* f. 29r line 1–2 (gloss "monseigneur ... je vous ay dernierement ... depesche du ... de ce
-  moys"): m-[ny]-o-n-s-e-i-[K]-g-n-e-[λ]-u-r; [ny]-i-e; v-o-u-s (v = the R-shaped u variant);
-  a-y; d-e-r-n-i-e-r-[K]-e-m-e-n-t; e-p-e-s-c-h-e (depesche); d-u; q-u-a-t-r-i-e-s-[ny]-m-e
-  (*quatriesme*; q is the "ni"-shaped glyph, m the s-shaped one); d-e-c-e-m-o-y-s (*de ce moys*).
-  Crops `img/L1_0.png` … `L1_2.png`.
-* Two corrections to read Tomokiyo's table on this microfilm: the glyph he draws as a barred b
-  (third e) appears here as a small circle at the base of a stem with a bar on top (the most
-  frequent single glyph, 188 of 5,629 tokens), and the E-shaped glyph he lists under x reads y
-  in *moys*, *Savoye*, *voye*, *icy*; ω is also y. The 4-like glyph is r as in his table; the
-  "-o" and H shapes are its variants.
+## Session 2 (17 Sept 2026): the key re-measured, and what changed
 
-## Machine transcription of the unread residue (`seg2.py`)
+### The key had been misread by one column
 
-Connected components on a background-normalised binarisation (threshold bg − 45, ≥ 60 px,
-height ≥ 14, mean darkness ≥ 55, which drops most verso show-through and the fainter gloss ink),
-assigned to text lines by a y-histogram (pitch 104–112 px), x-overlapping components merged
-(dots, broken strokes), then Ward clustering of 24 × 24 shape rasters plus baseline geometry
-into 70 clusters (`raince_tokens.json`, `raince_cipher.txt`, cluster sheets `img/raince_sheet_*`)
-and into 140 (`raince140_*`). Regions: f. 29r lines 11–36 (c16 right, y 0.230–0.746), f. 30v
-whole (c17 left), f. 31r cipher part (c17 right, y 0.03–0.535), f. 105r lower part (c54 right,
-y 0.345–0.80). Lines 1–c. 13 of f. 29r and 1–12 of f. 105r carry a gloss that the darkness
-filter does not separate cleanly, so they were left out; their content is in the gloss anyway.
+`img/key3x.png` is Tomokiyo's table: a header row of plaintext letters over up to four rows of
+cipher glyphs, columns about 78 px apart. Reading it by eye slipped a column. Locating the white
+header letters and the ink blobs programmatically and assigning each blob to the nearest column
+(every blob falls within 15 px of a column centre) gives the measured table in CALIBRATION.md.
+The corrections that matter:
 
-Cluster labelling by eye against the key (`handmap.json`): 45 of 70 clusters are clean single
-glyphs (a, b, c, d, e, f, g, h, i, l, m, n, o, p, q, r, s, t, u/v, y, nulls); 25 clusters,
-holding 12.6 % of tokens, are fragments, merged pairs, or the three word-signs mixed together.
-The decode (`hand_decode2.txt`, `draft3.txt` with uncertain clusters in capitals) reads in
-stretches, for instance (f. 29r, lines 11 ff., cluster errors left as they are):
+* **l** is the `9`, not the round `s`; **m** is the round `s`, not the long `f`; **n** is the
+  long `f`. The first session had these one place to the left.
+* **H is s**, not an r variant.
+* p has two glyphs (`T`, and a circle with a dash to its right) and r has two (`4`, and a dash
+  then a circle) — the two are near mirror images and are the easiest pair to confuse.
+* The most frequent single glyph, a circle at the foot of a barred stem, is an e, as the first
+  session said.
+* g is a circle with a long bar driven through it; the *l'empereur* word sign is two small
+  circles joined by a curve underneath; the *le pape* sign is a cursive y, while the letter y is
+  `E`.
 
-    ... etgauictegsiviepoUrperdreIabeSIeoccasionIqUiLavoi ...   pour perdre [la be]lle occasion [qu'il] avoi[t]
-    ... acestefinetq..dy.nevo...                                à ceste fin et qu'il y ne vo...
-    squiestoiterIacoUrtdesavoyesestpartypourvenirScy           ...s qui estoit en la court de Savoye s'est party pour venir icy
-    egcoreseg?eeautreschosesbiendong                            encores en ... autres choses bien don[né]
-    ?onseig?uracddie?d?et?acharge?ousfairecto?s                 monseigneur ... et la charge ... vous faire tous
-    ctiotevahousfairetoussnruiceset?daisirs (f. 30v l. 1)        ... vous faire tous services et plaisirs
-    oeretoeensonuu?royaumeetmeeapnrdep?usinursfois              ... en son royaume et me ... plusieurs fois
-    u?iutroisfoisquiau?e?eniera?rome                            ... trois fois qui ... venir à Rome
-    c?eaisantpeenaretoutpoue?emieud??bienest?vraymonsei/gneur   ... prenant tout pour le mieulx ... bien est vray monseigneur
-    aayeregsqu?enseraperpetue?ememoire                          ... en sera perpetuelle memoire
-    tasdn?trespropey??ainsdevertetmensong                       ... nostre propre ... ains de ... et mensonges
+`img/key_labelled.png` is a contact sheet of every glyph cut out of the key and labelled.
+`handmap.json`, `hand_decode2.txt`, `draft3.txt`, `greedy70map.json` and the readings in
+`trans/f29r.txt` all rest on the shifted table and are not trustworthy as letter readings;
+`trans/f29r.txt` is kept only as a record of what the first pass produced. The shift is exactly
+what produced "dongUeaent" for *longuement*, "egsembde" for *ensemble* and "SonseigEur" for
+*monseigneur* in that draft.
 
-f. 31r and f. 105r decode worse (the f. 31r hand is more compressed and the f. 105r region is
-another day's ink); their draft lines are in the same files. The French 5-gram score of the
-hand-map decode is −4.1 per letter (clean French −1.4 to −1.7), which measures the segmentation
-noise, not the key.
+### The page structure: nothing is missing from Gallica
 
-**Blind pipeline.** `sp53/fasthomo.py` (French, 10 M moves, 7 × 3 restarts) on the 70- and
-140-cluster streams reached −3.08 to −3.4 per letter but with a degenerate map (almost every
-cluster to e, n, i, s, t; `blind140_render.txt`), which outscores the true key on this stream:
-so on a token stream with about 20 % segmentation noise the LM-only solver is not a usable
-reader, and the greedy coordinate descent from the hand map (`greedy70map.json`) only relabels
-the junk clusters. The hand map from Tomokiyo's key is the reading; the solver result is a
-negative control on the transcription quality, not on the cipher.
+The leaf numbers on successive Gallica views run 29, 31, 33, 35, 37 — **+2 per view** — which
+at first looked as if half the openings had not been filmed. They are page numbers written on
+odd (recto) pages only: view n shows pages 2n−4 and 2n−3, 85 views cover about 167 pages, and
+the digitisation is complete. So what these notes call ff. 29r / 30v / 31r are **pp. 29, 30,
+31**, three consecutive pages of one letter, and "f. 105r" is p. 105. The text confirms it:
+p. 29 ends "… ne se peut monstrer plus affe-" and p. 30 opens "-ction".
+
+### The clear close of the 13 May letter (new)
+
+`trans/p31_clear_close.txt`. Below its 25 ciphered lines, p. 31 carries ten lines of clear
+French, signed and dated, which had not been transcribed here. It dates the letter "De Rome,
+ce xiij jour de may 15c xxvj", signs it *Nicolas Rainse*, and reports that Rome expects
+**Andrea Doria at Civitavecchia today or tomorrow with six galleys and two brigantines** —
+nine days before the League of Cognac was signed at Cognac on 22 May 1526.
+
+### The rebuilt draft
+
+* `lmns.py` trains a space-free period-French character 6-gram on the Du Bellay (Legrand),
+  Nevers 1593 and BnF French texts already in the repo.
+* `solve3.py` (70 clusters) and `solve140.py` (140 clusters) hill-climb the cluster-to-letter
+  map with **each cluster restricted to the letters its glyph shape allows**, read off the
+  tight-cropped cluster sheets `img/z70_sheet_*.png` against the measured key. Restricting the
+  moves is what stops the collapse into a degenerate map that defeated the first session's
+  blind solver.
+* `render140.py` writes `draft5.txt`; `seg_words.py` writes `draft5_seg.txt`, which segments it
+  with a period lexicon and upper-cases whatever will not segment — a map of where the reading
+  still fails.
+* `htr.py` (per-token classifier plus LM beam) and `worddec.py` (joint letter choice and word
+  segmentation over a lexicon trie) were tried and do **not** beat `draft5.txt`: both train on
+  the map's own output, so they reproduce its errors. `qual.py` scores any draft by lexicon
+  coverage and by distance to the control line.
+
+Readable stretches in `draft5.txt`, all consistent with the letters' subject matter:
+"pour perdre la belle occasion qu'il avoit", "de ce que l'on n'a escript autrement", "en son
+royaume", "ce qu'il a envoye d'icy et de **Venise**", "trois fois qui avoit deu venir a
+**Rome**", "prendre tout pour le mieulx", "qu'il avoit faict si soudainement", "un jour en
+pleine place pres du palais", "qu'il avoit envoye de … **Naples**", and on p. 105, the
+20 November letter, "seroit la cause de la totale ruine de sa maison" — Clement VII and the
+Medici, two months after the Colonna raid on the Vatican.
+
+### Lines read glyph by glyph
+
+`bandsi.py PAGE LINE` writes `img/idx/<page>_<NN>.png`: the line at 2x with every token boxed
+and numbered, so a hand reading is aligned to `raince_tokens.json` with no guesswork. The
+readings so made are in `trans/verified_lines.txt` (p. 29 line 20; p. 30 lines 1, 2 and 8;
+p. 31 line 21; p. 105 line 4). New content from them:
+
+* p. 30 line 8: "… respondu a ce que ce qu'on a envoyé d'icy et de Venise par devers …"
+* p. 31 line 21: "… un jour en plaine place pres du palais, un nommé **Pietro Anthonio** …",
+  running on into line 22 "secretaire ou serviteur dudict, qui estoit icy pour …" — a named
+  person in the ciphered part of the letter, surname not yet resolved.
+* p. 105 line 4: "… [pontif]icat seroit la cause de la totale(?) ruine de sa maison …"
+
+Measured against those lines, `draft5.txt` is right on about **86 % of letters**, which is why
+only about a quarter of it segments into real words: a six-letter word survives at 0.86⁶.
 
 ## What would finish it
 
-1. A glyph-level hand transcription of the 106 lines at 2–3× zoom with the key at hand (the
-   `band_*` crops are generated by the last block of `draft3` in `seg2.py`'s companion code;
-   about 75 three-line crops), correcting the machine draft word by word. Two to four hours.
-2. Or better images: the BnF has no colour digitisation of fr. 2984 online (the Gallica item is
-   the microfilm); a reader's photograph of ff. 29–31 and 105 would let the segmentation run
-   clean.
-3. The word-signs *con*, *l'empereur*, *le pape* occur in the residue (L-shaped, C-with-loop and
-   y-shaped glyphs in clusters 13, 40, 43) and need to be tagged by hand.
-4. Registration in DECODE of the eight fr. 2984 letters (none is there) is Daniel's step, with
+1. **A supervised glyph classifier trained on real plaintext rather than on the map's own
+   output.** The volume carries three aligned cipher/plaintext pairs in the same hand and the
+   same key: the 9 June letter (pp. 33–37) whose contemporary clear duplicate is at p. 17 ff.;
+   the interlinear decipherments on pp. 41 ff. and p. 123; and the cipher passages of the
+   17 June and 20 August letters printed by Bourrilly in 1901. Transcribing the clear duplicate
+   at p. 17 and force-aligning it to the segmented glyphs of p. 33 ff. would give thousands of
+   truly labelled glyphs — enough to push letter accuracy from 86 % towards the 95 %+ at which
+   whole words survive. This is the highest-value next step and it needs no new images.
+2. Or better images: the Gallica item is a black-and-white microfilm; a reader's photographs of
+   pp. 29–31 and 105 would let the segmentation run clean.
+3. Continue the numbered-token hand reading with `bandsi.py`, line by line. Each line takes a
+   few minutes and is reliable; about 100 lines remain.
+4. One glyph is still unidentified: a bold stem with two crossbars, standing as a one-glyph word
+   (p. 30 line 1, between "plaisirs" and "qu'il"). It matches nothing in Tomokiyo's table.
+5. Registration in DECODE of the eight fr. 2984 letters (none is there) is Daniel's step, with
    the key image credited to Tomokiyo.
-
-## Hand-transcription progress
-
-The committed `trans/` files are a partial hand review, not a finished reading. `f29r.txt` covers lines 1–25 of the machine-draft region (manuscript lines 11–35); the four `*_gloss_*.txt` files record the faint contemporary glosses on f. 29r and f. 105r. Unread stretches remain marked with `?` or `[...]`; no uncertain wording is silently promoted to plaintext. `CALIBRATION.md` records the glyph distinctions and the worked f. 29r line-20 control used to make the partial reading reproducible. `score_trans.py` reports coverage and a French 6-gram score; its output is not directly comparable with the older 5-gram figure above.
 
 ## Files
 
-`NOTES.md`; `CALIBRATION.md`; `bands.py`, `bands_gloss.py`, and `score_trans.py`; the
-partial readings in `trans/`; `seg2.py` (segmentation + clustering, regions hard-coded),
-`render.py` (solver map to lines); `raince_tokens.json`, `raince_cipher.txt` (70 clusters),
-`raince140_tokens.json`, `raince140_cipher.txt`, `raince140n_cipher.txt` (nulls removed),
-`hinit140.txt` (warm start), `handmap.json` (cluster → letter from the key),
-`greedy70map.json`, `hand_decode2.txt`, `draft3.txt`, `blind140_render.txt`; `img/` holds
-Tomokiyo's two key images, the key-check crops and the 70-cluster montage sheets. The page
-images (`img/c*.jpg`, 23 MB, canvases 10–28, 53–54, 61–63 at 1600 px and full size) are kept
-locally and not tracked; re-fetch with
+`NOTES.md`; `CALIBRATION.md` (the measured key and the reading method).
+
+Images: `bands3.py` (one 2x image per line, four overlapping quarters, into `img/lines/`),
+`bandsi.py` (the same with tokens boxed and numbered, into `img/idx/`), `zoom.py` (any fraction
+of a line at higher magnification), `sheets2.py` (tight-cropped cluster sheets), and the
+first-session `bands.py`, `bands_gloss.py`.
+
+Segmentation: `seg2.py` (regions hard-coded; writes `raince_tokens.json` / `raince_cipher.txt`
+at 70 clusters and `raince140_*` at 140), `feats.py` (saves the per-token feature vectors),
+`lineinfo.py` (token count and cluster ids per line).
+
+Decoding: `lmns.py`, `lm.py` (language models; the `.pkl` files are not tracked — rerun
+`python lmns.py`), `solve.py`, `solve2.py`, `solve3.py`, `solve140.py`, `render4.py`,
+`render140.py`, `beam.py`, `htr.py`, `worddec.py`, `seg_words.py`, `qual.py`, `score_trans.py`.
+
+Results: `map_lm.json`, `map140.json`, `draft4.txt`, `draft5.txt`, `draft5_seg.txt`,
+`draft6.txt`, `draft7.txt`, `draft8.txt`; `trans/verified_lines.txt`,
+`trans/p31_clear_close.txt`, and the first-session `trans/f29r.txt` and `trans/*_gloss_*.txt`.
+Superseded by the key correction: `handmap.json`, `hand_decode2.txt`, `draft3.txt`,
+`greedy70map.json`, `blind140_render.txt`, `hinit140.txt`.
+
+`img/` holds Tomokiyo's two key images, `key_labelled.png`, `keyglyphs/`, `key_words.png` and
+the cluster sheets `z70_sheet_*.png`. The page images (`../f2984/c*.jpg`, views 16, 17, 54) are
+not tracked; re-fetch with
 `https://gallica.bnf.fr/iiif/ark:/12148/btv1b90598430/f<n>/full/full/0/native.jpg`.
-The `bands_gloss.py` source images are the local `f2984/c16_full.jpg` and `c54_full.jpg`
-canvases and are likewise not tracked. Solver outputs are in
-`sp53/par_raince*_*.txt`, `sp53/parw_raince140n_warm_*.txt`.

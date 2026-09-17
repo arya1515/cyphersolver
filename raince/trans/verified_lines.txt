@@ -1,0 +1,47 @@
+# Raince, BnF fr. 2984 — lines read glyph by glyph off the microfilm and checked token by
+# token against the segmentation (img/idx/<page>_<NN>.png shows every token boxed and
+# numbered, so these readings are aligned to raince_tokens.json without guesswork).
+# Read 17 Sept 2026 with the measured key (CALIBRATION.md). '_' = null, '?' = unresolved.
+# Page names keep the old region keys; p.29 = f29r, p.30 = f30v, p.31 = f31r, p.105 = f105r.
+
+## p.29 (13 May 1526, to Montmorency), line 20 of the region = the control
+tokens 51
+glyphs  ∧ λ n v ✕✕ 7 ∧ ℓ ꝛ I ℓ 7 f 9 o ⊡ ꝛ v 4 ℓ ϙ 7 ∧ o R ꝛ E ψ ny 7 ∧ ℓ T o 4 ℓ E T ꝛ v 4 R 7 f ✕✕ 4 I ⊡ E
+read    s [_] qui estoit en la court de savoye [_] est party pour venir icy
+note    every glyph resolves; this is the line the measured key was verified on.
+
+## p.30, line 8
+tokens 50
+read    [_] respondu a ce a(?) que ce qu'on a envoye d'icy et de v[_]enise par deu-
+        (runs on into line 9: "-ers ledict seigneur ...")
+letters _responduaceaquecequonaenvoyedicyetdev_enisepardeu
+note    token 39 is a K null inside the word Venise; token 13 ("a") may be a null instead.
+        The only doubtful token is 13.
+
+## p.105 (20 Nov 1526, to Montmorency), line 4
+tokens 53
+read    -ificat seroit la cause de la t?tale(?) ruine de sa maison, de-
+note    continues "pontificat" broken at the end of line 3 (line 3 ends "...et ?e s pontif-").
+        "ruine de sa maison" is secure on the image: 4 R I f ψ | ϙ 7 | ∧ × | ʃ o I ∧ z.
+        "totale" is the draft's reading and fits the glyph count but is not fully resolved.
+
+## p.31, line 21
+tokens 62
+read    ...un(?) jour en plaine place pres du palais un nomme(?) Pietro Anthonio ?hore?-
+        (runs on into line 22: "-s(?) secretaire ou serviteur dudict, qui estoit icy pour ...")
+note    "en plaine place pres du palais" and "Pietro Anthonio" are secure; the surname
+        (tokens 55-62, reading t-h-o-r-e-d/l plus a ny null) is not resolved and is left open.
+        This is a named person in the ciphered part of the 13 May letter.
+
+## p.30, line 1 (opening of the page)
+read    -ction e[t](?) [_] a vous faire tous [_] services et plaisirs ? qu'il est.
+        L'empereur est-
+note    the last page-29 line ends "...ne se peut monstrer plus affe-", which is the join,
+        and the l'empereur word sign (two circles joined by a curve below) is clear at the
+        end of the line. One glyph between "plaisirs" and "qu'il" is unidentified: a bold
+        stem with two crossbars, not matching any glyph in the key.
+
+## p.30, line 2
+read    esbay de ce que ?'?n n'a escript autrement ...
+note    "esbay de ce que" and "n'a escript autrement" are secure; the single glyph before
+        "n'a" (a looped L) is either the *con* word sign or an l, and is left open.
