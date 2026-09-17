@@ -236,3 +236,5 @@ exchange (12 and 19 Jan) but no Feuquières letter of January 1691; Bazeries' pa
 | `run_real_*.txt`, `sweep_control.txt`, `seed_test.txt`, `solver_w.py`, `sweep_control.py`, `seed_test.py` | run logs and the two calibration harnesses |
 | `masque_de_fer_1893.txt` | OCR text of Burgaud and Bazeries 1893, from the Gallica PDF (PDF itself not tracked) |
 | `catinat1702_1.txt` | Tomokiyo's frequency table of the 1702 Catinat letter (43 % of 591 tokens below 100, 50 low groups: the same design) |
+
+**Update 16 Sept 2026:** the Grand Chiffre letters of t. II pp. 295-342 (12,362 groups) are now decoded in full in `../catinat1691/`; see its NOTES.md and docs/catinat1691.html.

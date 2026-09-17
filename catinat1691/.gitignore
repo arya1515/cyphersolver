@@ -1,0 +1,5 @@
+img/
+hocr/
+crops/
+*.pkl
+__pycache__/
