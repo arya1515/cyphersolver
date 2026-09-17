@@ -130,15 +130,15 @@ ATTEMPTED = [
      "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/boswell/NOTES.md\">Notes &rarr;</a>"),
 
     ("Feuqui&egrave;res to Catinat, Pignerol, 25 January 1691", "1691",
-     "https://github.com/dbourdeau/cyphersolver/tree/main/feuquieres", "", "not solved, design fixed", "lo",
-     "<b>Attempted September 2026.</b> The 1819 <i>M&eacute;moires de Catinat</i> print the 418 groups; collated with the Munich page images "
-     "(three corrections to Tomokiyo&rsquo;s copy). The editor says what it is: Feuqui&egrave;res concerting the surprise of Veillane fixed for "
-     "27 January, and Catinat&rsquo;s own memoir for the operation survives as a crib. The code is a two-part &ldquo;petit chiffre&rdquo; of at "
-     "most 366 entries, letters below 100, no column structure. Same size class as Chaulnes and the same wall: on a matched control every "
-     "objective prefers fluent nonsense to the true key, and giving the solver 60&nbsp;% of the code completes only 63&nbsp;% of the rest. "
-     "Bazeries&rsquo; 1893 book, read in full, confirms he deciphered it and that the petit chiffre of 1691 had 367 groups, but prints "
-     "neither the text nor the table. The reading is in his papers at the Service historique de la D&eacute;fense; that, or a second letter in "
-     "the code, would open it. <a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/feuquieres/NOTES.md\">Notes &rarr;</a>"),
+     "feuquieres.html", "", "read (586 of 601 tokens)", "hi",
+     "<b>Read, September 2026.</b> The 1819 <i>M&eacute;moires de Catinat</i> print the 418 groups; collated with the Munich page images. The code is the "
+     "<i>petit chiffre</i> of the Pignerol governors, the 367-group companion of Bazeries&rsquo; Grand Chiffre de 1691 (his table transcribed from Gallica and "
+     "verified on four despatches of 1690&ndash;91). A second letter in the same code, Louvois to d&rsquo;Herleville of 6 September 1690, sits in vol. I of the "
+     "same edition with its contemporary translation, found by searching the OCR of all three volumes; the two letters share 72 groups. Exact aligners and "
+     "annealers all failed (the translation paraphrases; <i>u</i>/<i>v</i>, <i>i</i>/<i>j</i> are one letter); one 31-group stretch where a single segmentation "
+     "makes every repeated group agree, carried between the two letters by hand, reads the rest: 167 of 179 groups. Feuqui&egrave;res has Catinat&rsquo;s letter "
+     "of the 24th at ten in the morning, is ready, cannot see how to pass the eighty horse to Saint-Ambroise, names the two roads into Avigliana and will keep the "
+     "dragoons from escaping. Twelve singleton groups remain. <a href=\"feuquieres.html\">Write-up &rarr;</a>"),
 
     ("ADFGVX residue of the Eastern Front", "1918", "adfgvx.html", "top 50",
      "9 solved, 3 partial, 10 open", "md",
