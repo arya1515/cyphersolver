@@ -1,0 +1,68 @@
+symbol	value	kind	confidence	evidence
+Z (z/3-shaped with tail)	e	letter	high	EM 0.96; pretexte, recevoir, payer
+ff (double-barred cross)	e	letter	high	EM 0.83; empeschement (f.33)
+EP (epsilon)	e / i	letter	medium	EM 0.47/0.29
+0	e	letter	medium	le premier (V3); presente (f.56r)
+4	a	letter	high	EM 0.71; luy ay faicte
+6	a	letter	high	gratification 6 7 1 = a t i (7x view)
+u	a	letter	high	payer = o u a Z r (7x view)
+Cm (hooked m)	i	letter	high	recevoir, fis, prosperite (7x view)
+v	i	letter	high	EM 0.96
+a	i / y	letter	high	luy = h y a (lui); payer
+1	i	letter	high	gratification 671
+f	o	letter	high	EM 0.71
++	o	letter	high	EM 0.64
+t	o	letter	medium	lors = h t r g
+q	t	letter	high	EM 0.95
+7	t	letter	medium	gratification 671; but 7 = le Roy d'Espagne as a name group (P7, f.56r)
+p	t / u / null	letter?	low	EM split 0.38/0.32; behaves like a null in several lines
+g	s / n	letter	medium	EM 0.52 n / 0.43 s; lors, escus = s
+R2 (2-shaped r)	s	letter	high	fis payer, des (7x view)
+n	s	letter	medium	escus
+r	r	letter	high	EM 0.55
+d (delta-shaped)	r	letter	medium	gratification
+h	l	letter	high	EM 0.95
+B	l	letter	high	luy = B c a (A)
+S	l	letter	medium	mil = x m S
+PH (phi)	l	letter	medium	sillery = x t. h PH Z r a; also null-like in glosses
+x	m	letter	high	EM 0.68
+m (plain)	f	letter	high	fis = m Cm; gratification (7x view)
+y	u	letter	high	EM 0.43; luy
+c	v / u	letter	high	veux = c Z y f; recevoir
+b	c	letter	high	EM 0.66
+e	c	letter	medium	EM 0.49
+o	p	letter	high	EM 0.92
+T	p	letter	high	EM 1.0
+Cu (hooked u)	g	letter	medium	gratifier (f.34 l.23, 7x view)
+f (in veux)	x	letter	medium	que je veux = x, d, c Z y f
+l	h	letter	medium	EM 0.80
+LS (long s / paren)	n / null	letter?	low	EM 0.49 null / 0.35 n
+HB (barred p)	null	null	medium	EM 0.84
+$ (crossed S)	l / null	?	low	Bazeries 1599 has $ as a cancelling sign
+Y (y with flourish)	null?	null	low	Bazeries 1599 has a y-like cancelling sign
+f,	le	word	high
+g, / g'	la	word	high
+x,	que	word	high
+r,	par	word	high
+s,	pro	word (syllable)	high	promotion, prosperite, promesse
+q, / q_	pour	word	high	pour luy faire; pourveu
+d, / DL,	je	word	high	que je veux
+x: / x^	et	word	high	le dit cardinal et
+s:	dit	word	high	le dit cardinal
+t. / t:	de	word	high
+p: / p.	ce	word	high	ce pretexte; recevoir = 63 p. c f Cm r
+f:	au	word	medium	EM 0.60
+J	bon	word	medium	bonne volonte
+J,	mais	word	medium	mais je fus
+m,	men(t)	syllable	medium	empeschement (f.33 l.9)
+y:	ent	syllable	medium	lentremise
+r:	du	word	medium	du sieur, du roy
+a,	faict	word	medium	luy ay faicte
+l,	?	word	low	precedes tesmoigner; an l- or m- word
+61	qui	word	high
+63	re	syllable	high	pretexte, recevoir, premier (with 0 = p)
+65	si	word	high
+48	Cardinal	name	high	le dit cardinal (s: 48)
+17	Aldobrandin	name	high	le dit cardinal aldobrandin (s: 48 17)
+7	le Roy d'Espagne	name	medium	du roy despaigne (P7); f.56r gloss
+44, 45, 62, 66, 67, 68, 69, 70, 71, 72, 73, 26, 27, 28, 3, 5, 8	names / words	code	open	frequent in the 9 and 22 Nov letters; glosses of ff. 53, 56 would fix them

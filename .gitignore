@@ -404,3 +404,13 @@ lanssac/noailles3.txt
 lanssac/henryiii.htm
 lanssac/*.log
 !lanssac/controls.log
+# bethune: Gallica canvases, crops, downloaded editions, logs
+bethune/img/
+bethune/full/
+bethune/*.jpg
+bethune/xivrey/
+bethune/bazeries/
+bethune/ref/
+bethune/*.log
+bethune/*.html
+bethune/em_out*.txt

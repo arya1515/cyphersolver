@@ -1,0 +1,49 @@
+# 9 Nov 1601 (f. 33) decoded with em_model.json (EM run 4, seeded) — lexicon decoder (worddecode.py) then character 5-gram decoder (decode.py); [n] = code group not in the key
+
+## worddecode.py
+L04      -89.3 | mais ms sat [5,] ter [71] le [45] de me de sa
+L05     -133.7 | et le [44] delai car grande leurs places qui tost accepte le premier doute
+L06     -176.6 | aulcun et la dt re sion il de poi en par assis le retenu de naples quil les tan
+L07     -150.8 | aye a les de tordre et tous oncle stre tine de de doute capitaines
+L08     -169.0 | a scais pour leuer de rennes [27] pourrons ne YE de ce uille sommes de sa [67] au odet
+L09     -145.4 | aues tard au empeschent que les un ce resident pret de luy de force
+L10     -152.8 | ia porter par dans ayes et cognoistre que elle et et dit mais il mes
+L11     -145.7 | au le que a et les a seront de interest que [69] ms partant uous en conferer aldobrandin le
+L12     -137.9 | regret en mon mon de uous dire liures quelles il a de telles praticques et
+L13     -145.0 | en faict des dit T [44] et ce quil desire de mois telle occasion la tant que
+L14     -157.4 | ie ne YE y une faudra y iamais il a auoit en propos de rechercher le cardinal
+L15     -150.7 | de st et luy re dun des mon royaume pour par en mois en retenir rendre et lesdits
+L16     -183.6 | [44] sa ma de de [71] a ayant edit que le dit cari YE sa la lettres cens la [26] que le [28]
+L17     -292.8 | et qui la LSERAMEILL puissance ses rendit gre LSERAMEILL a iour si laye ay que rendit frere
+L18     -166.5 | et aussi oblige au dit mier time que telle recus aues droits telle
+L19     -152.2 | comme sera la promo [71] au cardinalat des alexandre communique tenans ioye
+L20     -150.7 | sins les cardinaux de ioyeuse et fort et liyer et ensemble ce que uous teret
+L21     -160.9 | a reside la tenant si le dit [44] de la estran de apres tel party que ce sera a et
+L22     -122.8 | de lontiers le a date dit alexandre quelque instance que ie niece
+L23     -201.1 | LSERAMEILL ioye et tres sa il meilleur par ie nous reine que des
+L24     -172.1 | departir de ce premier de [62] ie mere mes tt de re ut aux prudences des dit T car et
+L25      -17.7 | saulx
+
+## decode.py
+               | mais ans at [5,] te [71] le [45] de me des c
+               | et le [44] de lad car iean de leurs places quil est ac le premier iette
+               | aulcun et lad tres io al de pen tion par a s sur le rement denaples quil l et ch
+               | y elles de lordre et tous ont lentretenir de iette capitaine
+               | ancais pour les de si nen [27] pour sonne ye cecil le comme s de c [67] a uoi
+               | s estat ete empesche et que les un ce resident pret luy me force
+               | is porter par o chi ayes et cognoistre que la l et et dit mais il mes
+               | em b le que s et les a canton interet que [69] es partant uous es conferer aldobrandin le
+               | ir et en mon on de uous dire le urer quelle si la de telles praticque r et
+               | es faict des dit t [44] s et ce quil desire des ment elle occasion la seurant que
+               | ien et y ey en faudray iamais il mauoit a propos de rechercher le cardinal
+               | dest et luy re dun des mon royaume pour parens mes r et entendre et les dit a
+               | [44] ce de do [71] mayant a dit que ledit car iy en a la lettres ce sa la [26] que ll [28]
+               | et quil al sera meilleur ance se rendit i rel sera meil le feus si toyer ay que son dit irere
+               | i tainc te et des au dit t iestime que tel ere sur ce seroit un telle
+               | comme sera la pro me [71] au cardinalat des alexandre commun ic que t sans soye
+               | sin le cardinaux de ioyeuse t doc tete iy eust ensemble ce que uous a ur et
+               | ires de la tenant si ledit [44] de la tion de cest et party que cessant
+               | do lonte s le a date dit alexandre quelques tance que ien face
+               | l sera meil le foy et teres sa il ailleur par ien d reine que des
+               | departir de ce premier de [62] ien rem ect z de r eut a uost des rai s des dit t car i
+               | s auto

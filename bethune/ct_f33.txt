@@ -1,0 +1,29 @@
+# f. 33r (canvas 73), Henri IV to Béthune, Paris 9 Nov 1601 — cipher passage, one line per manuscript line (ll. 4-25)
+# tokens as in corpus.txt; "?" marks a doubtful reading; two-digit figures written as the hand joins them
+# preceded in clear by: "... par laquelle il me mande qu'il est certain que"
+L04 | 7 b o r LS m r LS u g 66 5, q ff r 71 f, 45 t: u t i: g b
+L05 | x^ f, 44 t: g, m u: LS m EP B g ff i: f, c EP x T g, p: g 61 S y t g q B b PH ff o p ff f, o 63 u LS m ff r m t p q ff
+L06 | u p S ff r b p g x^ g, p. q 63 65 f u p h t: o y: LS m t g r, B g g p r f, 63 p ff g p t. g b o f, r 61 h f, r a, e l
+L07 | ff p_ B h p ff r r i: S t r m 63 x: q f p r t g e: f, g q 63 q LS m g Z m , i: m t p q LS m b 6 o PH p q b LS m g ff r
+L08 | b g b b y g q, f, y ff r i: r m LS g r ff g 27 q, r t g g LS EP p_ t. p: u, c, f, b f u PH Z g i: r b 67 f: t t. EP
+L09 | n y ff r p B EP m f: f LS r c o x T ff r b l t m, q x, f, g y g p: 63 65 t: g q T 63 q t. S p d r S: t m PH t r p:
+L10 | m o b T PH + r q ff r r, + y b l b b p_ g o LS y S q e t m g + p r q 63 x, S S: f, y ff q x: s: 7 b b r c, u ff r
+L11 | ff u n f, x, b x: f, r b s ff r + g q + , m p g q ff 63 r q x, 69 e: r r, 70 72 ff g b t g m ff 63 PH y e: 17 f,
+L12 | o r p LS m 63 q ff g u t g PH f u i: 72 m p 63 S p n 63 m, x, S f, p, c, B t: q t S f, r o r b q p b x, r x:
+L13 | ff g m B m ff m, q t: r s: q 44 r x: p: 61 S t: 65 63 t: l, ff g q ff S f, + e PH b 65 f g g, r PH p r b g q x,
+L14 | DL, g ff S p_ d f q_ ff m f: m r b d p B J, c, u f: + p q S: LS s, o + r LS i: 63 b l ff r b l LS r f, u: m p g b S
+L15 | i: r q x^ S p d Z: r: l t: g x f g r 4 d f: x ff q, r, r ff g l, LS n g 63 q ff g p r r ff g m 63 PH x: f, r s: n
+L16 | 44 r b x 4 i: p. f 71 u B d b g q S: LS s: x, f, s: u: m p_ g b S b f, r o r p q t, ff g e S p g b g, 26 x, B S 28
+L17 | x^ 61 S b 68 ff o y p r PH b g p: r Z r r t g s: m 63 PH 68 LS n m PH + p r 65 S S: p_ r b d x, r t g s: m 63 PH r t
+L18 | p q b p g b s t n S LS m m LS n f: s: 7 DL, r q p x ff x, q LS S f, 63 b y r b y LS n r + r t p q p g y q p S f,
+L19 | m: x LS r ff r b g, s, x t 71 f: u: m p g b g, q t: q: B f, f b g m 63 b t u PH y g p b x, q LS g e: u ff r b f p_
+L20 | 65 g r f, r u: m p g f: f i: p t d ff p r LS x: m t r PH b q x: S m p_ p r LS q ff g r LS u n f, p: x, 72 f: 63 q
+L21 | b Z: g p r i: g, S p u b g q 65 f, s: 44 i: g, S x p r 4 g i: b o r p r q ff S r, q d x, b q: g LS n r b u Z S
+L22 | y. t S t g q p ff r r f, e y. B o ff f: PH s: b f, f B g m 63 x, S x, p g r q 4 g p: x, DL, g m 4 p:
+L23 | 68 ff m PH + p r o LS p_ S q S 63 r LS r b c, u ff p S f, p r r, DL, g r + p r 63 m p g + x, i: x LS g
+L24 | i: r, q p r i: p: o 63 u p ff r i: 62 DL, u LS 63 u ff b q q i: 63 8 f: f o r p i: g r b m p r i: r s: q u: m p
+L25 | g f: S f
+# followed in clear by: "Je vous envoie deux brefs adressans aux Cardinaux et autres qui m'ont tesmoigné par lettres leurs devoirs
+# par la naissance de mon filz que led. Cardinal d'Ossat m'a fait tenir en vre absence, vous saurez de luy s'il voudra luy mesmes
+# les leur faire delivrer puis qu'il me l'a fait tenir, ou s'il trouvera bon que vous vous en chargiez et vous y conduisez selon son avis.
+# Je prie dieu qu'il vous ait Mons. de Bethune en sa ste garde. De Paris ce IXe jour de Novembre 1601. Henry / de Neufville"

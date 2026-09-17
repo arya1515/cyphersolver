@@ -551,19 +551,20 @@
    "language": "French",
    "region": "Italy",
    "period": "1598-1610",
-   "shelfmark": "BnF fr. 3484 nos. 7 (f. 34, canvas 75), 8, 12 (f. 49)",
+   "shelfmark": "BnF fr. 3484 nos. 7 (f. 33), 8 (f. 34; minute f. 36), 12 (ff. 46-47)",
    "ark": "btv1b52523722c",
    "folio_note": "~25 siblings Nov 1601–Oct 1602 with decipherment",
    "cls": "A",
    "seen": "image",
    "source": "BnF harvest",
-   "status": "Viewed: f. 34 is the sent original signed Henry, about the Este–Aldobrandini debt and Cardinal d'Ossat; c. 12 lines of letter-and-figure cipher, no decipherment on the leaf. Tomokiyo has a Béthune (Rome) cipher for 1606–08, not this one.",
+   "status": "Partly read 17 Sept 2026: the 10 Nov letter (f. 34, no. 8) read in full through its minute in clear (f. 36, the notice's \"copie du n° précédent\"); the key (Villeroy-office design as in Bazeries' 1599 Béthune cipher: letters with homophones, dotted and comma letters for words, two-digit figures for names) recovered in most letters and some twenty word signs by EM alignment against the minute and the glosses of 8 Nov and 10 Dec; the 9 Nov letter (f. 33, one page in cipher) reads about half with a lexicon decoder; 22 Nov (ff. 46-47) transcribed in part, open. Ten thousand écus to Cardinal Aldobrandini for the Peace of Lyon, ten thousand more promised through Sillery's brother, the Duchess of Nemours' arrêt disregarded.",
    "why": "Aftermath of the Peace of Lyon, Biron's treason forming, the dauphin's birth.",
    "importance": 3,
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Twenty-five deciphered siblings in the same hand and year: the Feuquières method applies directly.",
-   "verify": "Confirm that nos. 6 and 13 use the same symbol set as f. 34."
+   "verify": "Code groups 44, 45, 62, 66-72 (names) and the 4x retranscription of ff. 33 and 46-47; the glosses of ff. 53 and 56-57 not yet aligned.",
+   "writeup": "bethune.html"
   },
   {
    "id": 23,
