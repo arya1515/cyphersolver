@@ -1,0 +1,9 @@
+restart 0 score -1005.9 per-letter -1.984 wild 11
+restart 1 score -1005.1 per-letter -1.982 wild 9
+restart 2 score -1030.2 per-letter -2.032 wild 11
+restart 3 score -1029.5 per-letter -2.031 wild 13
+restart 4 score -1043.2 per-letter -2.058 wild 11
+restart 5 score -1033.4 per-letter -2.038 wild 14
+restart 6 score -1005.9 per-letter -1.984 wild 11
+restart 7 score -1033.8 per-letter -2.039 wild 15
+restart 8 score -1020.2 per-letter -2.012 wild 11

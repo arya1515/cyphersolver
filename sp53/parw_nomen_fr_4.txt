@@ -1,0 +1,27 @@
+restart 0 score -1041.4 per-letter -2.054 wild 12
+restart 1 score -1030.6 per-letter -2.033 wild 7
+restart 2 score -1033.0 per-letter -2.038 wild 6
+restart 3 score -1015.2 per-letter -2.002 wild 6
+restart 4 score -1020.6 per-letter -2.013 wild 6
+restart 5 score -1034.1 per-letter -2.040 wild 8
+restart 6 score -1022.0 per-letter -2.016 wild 4
+restart 7 score -1017.5 per-letter -2.007 wild 6
+restart 8 score -1028.0 per-letter -2.028 wild 3
+restart 9 score -1026.9 per-letter -2.026 wild 5
+restart 10 score -1046.1 per-letter -2.063 wild 10
+restart 11 score -1017.5 per-letter -2.007 wild 7
+restart 12 score -1035.8 per-letter -2.043 wild 9
+restart 13 score -1030.2 per-letter -2.032 wild 6
+restart 14 score -1015.5 per-letter -2.003 wild 6
+restart 15 score -1014.1 per-letter -2.000 wild 6
+restart 16 score -1019.9 per-letter -2.012 wild 6
+restart 17 score -1025.6 per-letter -2.023 wild 5
+restart 18 score -1026.8 per-letter -2.025 wild 7
+restart 19 score -1022.4 per-letter -2.017 wild 5
+restart 20 score -1023.1 per-letter -2.018 wild 6
+restart 21 score -1016.1 per-letter -2.004 wild 6
+restart 22 score -1029.5 per-letter -2.031 wild 8
+restart 23 score -1032.4 per-letter -2.036 wild 8
+BEST -1014.1 per-letter -2.0 636s wild 11
+enleter#tnnelesensisesaresentetrearestenesaresentenetrenententdesnienneentressentnaitsenistrelesbientestesetmenenseetrnde#senensterenee#eiemesetdedenestetiendeselementunennelserssaeteetaderesentetsiretententreresienseulementetairesentementoutesleti#esetseserassenteinementaenrentiereteniensn#tirerestentreresetetestiemeritneantee#eitsenseententseurlestendaiteteetaitaeteentreetdee#raneretatnsneeraseeriseentrestinsattententrenes#tntdesestinenesen#ennetteenmensdesuneresennem#er#iarmeestestereineetsentintere
+MAP [('01', 'n'), ('02', 'e'), ('03', 'e'), ('04', 'r'), ('07', '#'), ('08', 'e'), ('09', 'e'), ('10', 't'), ('12', 't'), ('13', 'm'), ('14', 'i'), ('15', 'r'), ('16', 's'), ('17', 'e'), ('18', 'i'), ('19', 'u'), ('20', 't'), ('21', 't'), ('22', 'm'), ('23', 's'), ('25', 's'), ('26', 's'), ('27', '#'), ('28', 'a'), ('29', 'u'), ('30', 'd'), ('31', 's'), ('32', '#'), ('34', 'e'), ('36', 't'), ('38', 'r'), ('39', 'e'), ('41', 'n'), ('43', 'n'), ('44', 'n'), ('45', 't'), ('46', 'e'), ('47', 'i'), ('48', 'd'), ('49', 'e'), ('50', '#'), ('52', 'o'), ('54', '#'), ('55', 't'), ('56', 't'), ('59', 't'), ('60', 'e'), ('61', 'r'), ('62', 's'), ('63', 'i'), ('65', 'a'), ('66', 'e'), ('69', 'e'), ('70', 'e'), ('73', 'm'), ('74', 'e'), ('75', 'u'), ('76', 'r'), ('77', 'e'), ('78', 'm'), ('79', 's'), ('80', 'n'), ('81', 'n'), ('83', 'e'), ('84', 's'), ('85', 'a'), ('86', 's'), ('87', 'd'), ('89', 'n'), ('90', 'r'), ('91', 't'), ('92', 'e'), ('93', 'e'), ('94', 'e'), ('95', 's'), ('96', 'r'), ('98', 'l'), ('100', 'e'), ('101', 'e'), ('103', 'e'), ('104', 'a'), ('105', 's'), ('106', 'r'), ('108', 'e'), ('109', '#'), ('112', 'i'), ('113', 'l'), ('114', 'e'), ('115', 'n'), ('116', 's'), ('117', 'n'), ('123', 'e'), ('125', 't'), ('127', 'n'), ('128', 'e'), ('129', 't'), ('130', 'b')]

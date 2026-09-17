@@ -375,3 +375,14 @@ segur/crops321/
 # armstrong: full-roll thumbnails (513 MB, regenerate with fetch_and_score.py)
 armstrong/img13/thumbs/
 armstrong/fetch_and_score.log
+# sp53: dense n-gram tables and count pickles (rebuild with build5.py / build6.py)
+sp53/*.npy
+sp53/*.pkl
+sp53/corpus_*.txt
+sp53/*uoft.txt
+sp53/*mary.txt
+sp53/*nada.txt
+sp53/*goog.txt
+sp53/cal08grea.txt
+sp53/ht_*.html
+sp53/ht.jar

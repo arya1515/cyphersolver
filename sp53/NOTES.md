@@ -126,3 +126,84 @@ homophonic and blocks solvers), `homo2.py` (incremental homophonic annealer), `b
 blocks solver), `make_control2.py`, `eval2.py`; `control_*.txt`, `control52_*.txt` (controls with keys and
 plaintexts); `run5_*.txt`, `run6_*.txt` (outputs). Corpora and models are rebuilt with the commands in
 `homo.py` from the archive.org identifiers named above (not tracked).
+
+## Third session, 2026-09-16: the solver was the limit, and with a solver that works the letters still do not read
+
+**The premise of the two closures was wrong.** Both earlier sessions closed on the ground that the homophonic
+annealer failed its own matched controls. It did, but that was the annealer, not the text. A numba solver with
+incremental 5-gram scoring (`fasthomo.py`), a hotter schedule (T 6.0 -> 0.1 over 10 M moves) and many restarts in
+parallel (`par.sh`, 7 processes x 24 restarts), followed by a reheat stage from the best map (T 1.5 -> 0.05,
+`fasthomo_w.py` with `HINIT`), solves every clean control, including the single-letter length:
+
+| control (random homophonic key, ~127-130 symbols) | old annealer | new pipeline | true key |
+|---|---|---|---|
+| English 1151 tokens | -2.98 / letter, 32 % right | -1.71, read outright (1 of 4 restarts) | -1.64 |
+| French 1151 tokens | -2.87, 8 % right | -1.59, read outright | -1.38 |
+| English 507 tokens | not solved | -1.59, read outright (1 hit in 168 restarts) | -1.74 |
+| French 507 tokens | not solved | -1.91 after 168 restarts, **-1.65 letter-perfect after 168 reheat restarts** | -1.66 |
+
+So a 507-token homophonic letter cipher with 130 symbols is attackable ciphertext-only in English or French with
+about 340 restarts of 10 M moves (roughly two hours on 7 cores). The 6-gram table (`build6.py`, `fasthomo6.py`)
+did not help at equal restarts; the search, not the model, was the bottleneck.
+
+**No. 78 under that pipeline** (base labels, 507 tokens, 132 symbols; 168 hot restarts each, then 168 reheat
+restarts where noted). Reference: the French 507 control moved from -1.91 to -1.65 under the same reheat.
+
+| language | best after 168 restarts | after reheat | true-text reference at 507 |
+|---|---|---|---|
+| French | -1.889 | -1.886 (no basin) | -1.66 |
+| English | -2.182 | -2.180 (no basin) | -1.74 |
+| Latin | -1.976 | - | -1.70 |
+| Italian | -1.976 | - | - |
+| Spanish | -2.053 | - | - |
+
+No. 78 sits exactly where a *failed* clean control sits before its reheat, and the reheat does nothing, which is the
+signature of no language basin near the best map rather than a near miss. The French candidate throws up
+"ecosse", "cette lettre", "reine", "farnese" but at this score level those are the model's fluency prior.
+
+**Nomenclator hypothesis.** 78 of no. 78's 507 tokens (15 %) are in symbols occurring once or twice, so word-signs
+could poison a fifth of the n-gram windows. Two solvers: (a) a fixed window penalty for wildcard symbols
+(`fasthomo_w.py`, `HW`) is mis-specified: on a nomenclator control it beats the true key's score with garbage;
+(b) removing word-sign tokens from the letter stream at a per-token cost (`fasthomo_skip.py`, `HC=-2.0`, symbols
+with count <= `HMAXC` eligible) **solves a clean French control with 24 word tokens in 507** (`control_fr_nomen*`,
+seed 13: "le mauvissiere connaisse la resolution delisabeth sur la demande quil est charge de presenter en sa
+faveur ..." at -1.463 against the truth's -1.528). Applied to no. 78 in French with `HMAXC=3`: -1.896 with 55
+tokens wild-carded, garbage. Runs allowing frequent symbols to be nulls (`HMAXC=30`) and a nulls-plus-nomenclator
+control (`make_control_nulls.py`) are reported below.
+
+**No. 79** (644 tokens): French with base labels -2.496 after 168 restarts, with variants kept as separate symbols
+-2.317; both far below no. 78 and below any failed control, although its token-to-symbol ratio (7.6) is *easier*
+than no. 78's (3.8). Variants scoring better than base labels suggests the letter suffixes mark distinct symbols,
+not glyph variants. English with variants is reported below.
+
+**The same-key argument of the second session does not survive.** If nos. 78 and 79 shared one clean letter key,
+the pooled 1151 tokens would solve as the pooled controls did; instead the pooled text scores worse than either
+letter alone (English -3.00, French -2.60, Latin -2.56 per letter). Either the keys differ, or at least one letter
+is not a letter cipher with a modest nomenclator.
+
+**Calendar.** *Calendar of Scottish Papers* viii (1585-86) is full view on HathiTrust (miun.abe1726.0008.001) but
+page views and in-volume search return HTTP 403 to scripts; only the site-wide full-text search endpoint answers.
+Vol. ix (archive.org `calendarofstatep08grea`, mislabelled) lists "Doctor Barrett" and "Mr. Tempest" among the
+Rheims names in a 1586 deposition, nothing more. No published solution of either letter exists (web search).
+
+**Nulls.** Period symbol ciphers of this class carry nulls, and the runs above forbade frequent symbols from being
+anything but letters. `fasthomo_skip.py` with `HMAXW=4` (up to four frequent symbols as nulls, rare symbols as
+word-signs) on a control with 8 % nulls plus 20 word tokens (`control_fr_nulls*`, 65 of 507 tokens non-letters)
+is **not read** (-1.895 against the truth's -1.669), and without the cap the model degenerates (395 of 507 tokens
+wild-carded). No. 78 under the capped model: French -1.851 (91 wild), English -2.052 (98 wild), garbage; but since
+the control fails, this negative carries no weight. A null-heavy design is therefore the one hypothesis that
+ciphertext-only work cannot exclude at 507 tokens, alongside a nomenclator heavier than about 5 % of tokens.
+
+**Where this leaves the residue (2026-09-16, third session).** Nos. 78 and 79 as transcribed are not homophonic
+letter ciphers with at most a modest nomenclator in English, French, Latin, Italian or Spanish; that negative now
+rests on a pipeline that reads matched controls at the same length. What remains possible is a heavy nomenclator
+or nulls, an intercalated syllabary, or a transcription that merges distinct glyphs under one label. All three
+need the page images. No. 79 with variants kept scores better than with base labels, so the letter suffixes should
+be treated as distinct symbols when images allow the glyphs to be checked. f. 52 is unchanged (84 tokens, below
+unicity).
+
+**Files (third session).** `build5.py`, `build6.py` (dense n-gram tables, `*.npy`, not tracked), `fasthomo.py`,
+`fasthomo6.py`, `fasthomo_w.py` (reheat via `HINIT`; fixed-penalty wildcard, superseded), `fasthomo_skip.py`
+(word-sign removal model with null cap), `par.sh`, `par_w.sh`, `par_skip.sh`; controls `control_*_nomen*`,
+`control_*_nulls*` with `make_control_nomen.py`, `make_control_nulls.py`; outputs `run8_*`, `run9_*`, `run10_*`,
+`par_*`, `parw_*`, `pars_*`.

@@ -1,0 +1,27 @@
+restart 0 score -1553.8 per-letter -2.413
+restart 1 score -1518.1 per-letter -2.357
+restart 2 score -1530.7 per-letter -2.377
+restart 3 score -1536.1 per-letter -2.385
+restart 4 score -1515.9 per-letter -2.354
+restart 5 score -1539.6 per-letter -2.391
+restart 6 score -1504.6 per-letter -2.336
+restart 7 score -1514.8 per-letter -2.352
+restart 8 score -1527.3 per-letter -2.372
+restart 9 score -1529.6 per-letter -2.375
+restart 10 score -1522.2 per-letter -2.364
+restart 11 score -1521.1 per-letter -2.362
+restart 12 score -1538.2 per-letter -2.389
+restart 13 score -1507.7 per-letter -2.341
+restart 14 score -1547.2 per-letter -2.402
+restart 15 score -1532.8 per-letter -2.380
+restart 16 score -1515.4 per-letter -2.353
+restart 17 score -1531.5 per-letter -2.378
+restart 18 score -1500.0 per-letter -2.329
+restart 19 score -1508.5 per-letter -2.342
+restart 20 score -1551.9 per-letter -2.410
+restart 21 score -1532.9 per-letter -2.380
+restart 22 score -1502.2 per-letter -2.333
+restart 23 score -1532.8 per-letter -2.380
+BEST -1500.0 per-letter -2.329 699s
+eesurenauetesleterseseuledeenrneesesttreapresenteesestimentstatpreseresserscetterseaeeriseestutssetetreesattrereedeseeslairdetesetatoseessoreesaereceesetlieasenueeaitesrsteteetsetesesneenanterteintenedetessetapeareetesseresteseteteesenerseetroietntdeempresisteraireetesseurdureesetimereesesteietestnneetssentreetentreetaieueseurstenetteinseespeuesttedttendateestereepeeaesetneseneesietresereesnestreinteteeiaeeresseatteintelerentterrureesteestestrsesentiereenteieuneesttusteesetiareerepenssnesenteteasstreesteespensensterelettreeserteetsreirnantsicetnetrepeteetsetreteelatreasseennentresduvinsleiettesentsesetonneserteetlteetreternonnelteetnees
+MAP [('01', 's'), ('02', 'n'), ('03', 'e'), ('04', 's'), ('05', 'r'), ('06', 'o'), ('07', 'e'), ('08', 'n'), ('10', 'e'), ('11', 'a'), ('12', 'e'), ('13', 'l'), ('15', 'e'), ('17', 't'), ('18', 's'), ('19', 't'), ('20', 'r'), ('24', 'e'), ('25', 't'), ('26', 'n'), ('28', 'l'), ('29', 'e'), ('32', 'r'), ('34', 'e'), ('35', 'e'), ('36', 'e'), ('39', 'r'), ('45', 't'), ('47', 'o'), ('49', 'n'), ('50', 't'), ('52', 'i'), ('53', 's'), ('56', 's'), ('57', 'e'), ('58', 'e'), ('60', 'p'), ('63', 'v'), ('64', 'n'), ('66', 'a'), ('67', 't'), ('68', 'r'), ('69', 'm'), ('70', 's'), ('71', 'n'), ('72', 'e'), ('75', 'e'), ('76', 'e'), ('77', 'e'), ('82', 'u'), ('84', 't'), ('90', 's'), ('91', 'e'), ('92', 'a'), ('93', 's'), ('94', 't'), ('01a', 's'), ('01b', 'e'), ('01d', 'e'), ('08b', 's'), ('08c', 't'), ('101', 'u'), ('102', 'e'), ('103', 's'), ('105', 't'), ('107', 'r'), ('108', 'c'), ('110', 'n'), ('111', 'd'), ('112', 'p'), ('113', 'i'), ('115', 's'), ('116', 'p'), ('117', 'e'), ('118', 't'), ('119', 't'), ('121', 'r'), ('123', 'd'), ('124', 'r'), ('126', 'i'), ('128', 't'), ('129', 'r'), ('130', 'n'), ('131', 't'), ('133', 't'), ('138', 't'), ('16b', 'u'), ('16d', 'a'), ('16e', 's'), ('18b', 'u'), ('18c', 'd'), ('24b', 'e'), ('24c', 's'), ('38b', 'a'), ('39b', 'i'), ('83b', 'c'), ('83c', 'l'), ('84c', 'n'), ('84f', 's'), ('88b', 'i'), ('101a', 'r'), ('101b', 'n')]

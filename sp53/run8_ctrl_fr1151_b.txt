@@ -1,0 +1,27 @@
+restart 0 score -2746.9 per-letter -2.387
+restart 1 score -2884.1 per-letter -2.506
+restart 2 score -3185.9 per-letter -2.768
+restart 3 score -3105.8 per-letter -2.698
+restart 4 score -2726.2 per-letter -2.369
+restart 5 score -2665.9 per-letter -2.316
+restart 6 score -2887.0 per-letter -2.508
+restart 7 score -3167.9 per-letter -2.752
+restart 8 score -2757.9 per-letter -2.396
+restart 9 score -2657.3 per-letter -2.309
+restart 10 score -2721.8 per-letter -2.365
+restart 11 score -3114.0 per-letter -2.705
+restart 12 score -3140.8 per-letter -2.729
+restart 13 score -3180.5 per-letter -2.763
+restart 14 score -2670.8 per-letter -2.320
+restart 15 score -3146.3 per-letter -2.734
+restart 16 score -2810.2 per-letter -2.441
+restart 17 score -3048.9 per-letter -2.649
+restart 18 score -2671.3 per-letter -2.321
+restart 19 score -2644.0 per-letter -2.297
+restart 20 score -3133.4 per-letter -2.722
+restart 21 score -3148.6 per-letter -2.736
+restart 22 score -2793.4 per-letter -2.427
+restart 23 score -2707.7 per-letter -2.352
+BEST -2644.0 per-letter -2.297 211s
+teeseessaeteetantteteetetsesnnterseresetereestetenneaegeneseassansietteteesseretetsarretentsesatesstiensantetreasseesaeteattentsetsessentrelatteersaiseteetsetestestsasantetssieradetetsetlesseeaeeststeissantetreetsennentsesennesattenaresierendseanreretsnetesstsestestrinetenetreterseuraetsestteretementerettesetsserriteeantetsetssesraenniretesaetsesttelenttretestattentesesaesteestreesseettateteatalstiretrenteteerseserlesmenesatesseleeteseansressieestsentreasintestetetseressestesenttessaresenteatnesenttreesenteetaieirsetsenestsetetressetreesenteerreseresenenetetestesetsesseteestreenaeersetisestetessentesetsetsetaetrseedanseteeseetditeetsenteiertesanseslataenetestereesseeteneassetrereesentsessattenttstremletersetnerlesensasseresteersetenrstensetesessetteattretteniretiensreamesseetresertemessetetatentesnettantementedeteressentetaentreesesieremereetreesttreserettredeesaentreasseetrettentteteetreenenetesaattenseatserreetantneasestsenmsetsetnelestatetattentseeienssatisenantsetessereenenseasattesetetseteleeremetedestisesttreasseetrerelesressetsetsternsentsetsesetseaetsetterlanesaeteteestesetsetatientesteisiesteetsesretrestreessenenetesteestete
+MAP [('01', 'a'), ('02', 'e'), ('03', 'n'), ('04', 's'), ('05', 'e'), ('06', 's'), ('07', 'r'), ('08', 'e'), ('09', 'e'), ('10', 'e'), ('11', 'a'), ('12', 's'), ('13', 't'), ('14', 's'), ('15', 's'), ('16', 's'), ('17', 't'), ('18', 'r'), ('19', 'r'), ('20', 'r'), ('21', 'e'), ('22', 'r'), ('23', 'e'), ('24', 'i'), ('25', 'e'), ('26', 'r'), ('27', 'e'), ('28', 'i'), ('29', 'r'), ('30', 's'), ('31', 'i'), ('32', 't'), ('33', 's'), ('34', 'e'), ('35', 't'), ('36', 'r'), ('37', 't'), ('38', 'i'), ('39', 't'), ('40', 'g'), ('41', 's'), ('42', 'e'), ('43', 't'), ('44', 'n'), ('45', 'i'), ('46', 'e'), ('47', 't'), ('48', 'a'), ('49', 'e'), ('50', 'n'), ('51', 't'), ('52', 's'), ('54', 'e'), ('55', 'n'), ('56', 'e'), ('57', 't'), ('59', 'a'), ('60', 't'), ('61', 's'), ('62', 't'), ('63', 't'), ('64', 't'), ('65', 's'), ('66', 's'), ('68', 'e'), ('69', 'd'), ('70', 'l'), ('71', 's'), ('72', 'e'), ('73', 's'), ('74', 's'), ('75', 's'), ('76', 'd'), ('77', 't'), ('78', 't'), ('79', 'e'), ('80', 'e'), ('81', 'a'), ('82', 't'), ('83', 'n'), ('84', 'e'), ('85', 'r'), ('86', 'n'), ('87', 't'), ('88', 's'), ('89', 'm'), ('90', 'e'), ('91', 't'), ('92', 'e'), ('93', 't'), ('94', 'e'), ('95', 'e'), ('97', 'e'), ('98', 'e'), ('99', 't'), ('100', 's'), ('101', 'm'), ('102', 'e'), ('103', 'u'), ('104', 'r'), ('105', 's'), ('106', 'n'), ('107', 'n'), ('108', 't'), ('109', 'e'), ('110', 'r'), ('111', 's'), ('112', 's'), ('113', 'r'), ('114', 'l'), ('115', 'n'), ('116', 'a'), ('117', 'r'), ('118', 't'), ('119', 's'), ('120', 'e'), ('122', 'e'), ('123', 'a'), ('124', 't'), ('125', 'n'), ('126', 'e'), ('127', 'e'), ('128', 't'), ('129', 's'), ('130', 't'), ('131', 'e'), ('132', 'e')]

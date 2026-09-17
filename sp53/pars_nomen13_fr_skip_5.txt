@@ -1,0 +1,27 @@
+restart 0 score -1040.7 per-letter -2.053 wild 11
+restart 1 score -1042.2 per-letter -2.056 wild 8
+restart 2 score -1052.6 per-letter -2.076 wild 13
+restart 3 score -1026.2 per-letter -2.024 wild 7
+restart 4 score -1049.4 per-letter -2.070 wild 10
+restart 5 score -1047.9 per-letter -2.067 wild 10
+restart 6 score -1052.5 per-letter -2.076 wild 8
+restart 7 score -1044.5 per-letter -2.060 wild 9
+restart 8 score -1063.4 per-letter -2.097 wild 12
+restart 9 score -1058.1 per-letter -2.087 wild 10
+restart 10 score -1060.8 per-letter -2.092 wild 10
+restart 11 score -1056.4 per-letter -2.084 wild 11
+restart 12 score -1046.6 per-letter -2.064 wild 6
+restart 13 score -1034.9 per-letter -2.041 wild 6
+restart 14 score -1043.1 per-letter -2.057 wild 12
+restart 15 score -1047.6 per-letter -2.066 wild 8
+restart 16 score -1053.3 per-letter -2.078 wild 10
+restart 17 score -1055.9 per-letter -2.083 wild 13
+restart 18 score -1044.1 per-letter -2.059 wild 12
+restart 19 score -741.9 per-letter -1.463 wild 3
+restart 20 score -1041.5 per-letter -2.054 wild 5
+restart 21 score -1058.9 per-letter -2.089 wild 9
+restart 22 score -1039.4 per-letter -2.050 wild 8
+restart 23 score -1042.5 per-letter -2.056 wild 11
+BEST -741.9 per-letter -1.463 662s wild 5
+lemauvissiereconnaisselaresolutiondelisabethsurlademandequilestchargedespresenterensafaveurcommunicationquilleuraprenedelalettrequelleenvoieel#leglaspouvassurancequilpeutdonnerauroiqueniestuartnisonfilsneselepartirontdelesdefrancesdemariestuartquelleafait#seseffortsdepuisqueestencaptivitepourobtenirdelisabethuntraitedanssecommunobstacles#ont#eteealaronrlusiondecesparceuxquieiurelsdelaposteritedohenriiisproietlarriveralaruinedemariestuartetlesontentieresoumissionlemariesauxconseils#luisontetleroidefranc
+MAP [('01', 'x'), ('02', 'e'), ('04', 'e'), ('05', 'u'), ('09', 's'), ('10', 'c'), ('11', 'f'), ('13', 't'), ('16', 'n'), ('17', 'c'), ('18', 'i'), ('19', 'a'), ('23', 'p'), ('24', 'c'), ('25', 'u'), ('26', 'p'), ('27', '#'), ('28', 'd'), ('29', 'b'), ('30', 'i'), ('32', 's'), ('33', 'i'), ('34', 'p'), ('36', 'e'), ('37', 's'), ('38', 'e'), ('41', 'm'), ('42', 'u'), ('45', 'n'), ('46', 'i'), ('47', 'l'), ('48', 'a'), ('55', 'l'), ('56', 'e'), ('57', 'o'), ('58', 'h'), ('59', 'r'), ('60', 'a'), ('61', 'u'), ('62', 't'), ('64', 's'), ('66', '#'), ('67', 'q'), ('69', 'l'), ('71', 'l'), ('72', 's'), ('73', 'l'), ('74', 'q'), ('75', 'a'), ('76', 's'), ('77', 'n'), ('78', 'e'), ('79', 't'), ('81', 'r'), ('82', 'm'), ('83', 'b'), ('84', 'm'), ('85', 't'), ('86', 'a'), ('87', 'o'), ('88', 'e'), ('90', 'v'), ('93', 'o'), ('94', 'c'), ('95', 'v'), ('96', 'd'), ('97', 'r'), ('98', 'o'), ('99', 'm'), ('100', 'r'), ('101', 'n'), ('102', 'g'), ('103', 'n'), ('104', 'e'), ('106', 'r'), ('108', 'e'), ('109', 'd'), ('111', '#'), ('112', 'a'), ('113', 's'), ('114', 'p'), ('115', 'h'), ('116', 'u'), ('117', 't'), ('118', 'o'), ('119', 'e'), ('120', 'e'), ('121', 'u'), ('123', 't'), ('124', 's'), ('125', 'i'), ('126', 'f'), ('127', 'l'), ('128', 't'), ('129', 'r')]

@@ -1,0 +1,15 @@
+restart 0 score -1747.9 per-letter -2.714
+restart 1 score -1732.9 per-letter -2.691
+restart 2 score -1749.3 per-letter -2.716
+restart 3 score -1800.9 per-letter -2.796
+restart 4 score -1778.1 per-letter -2.761
+restart 5 score -1775.8 per-letter -2.757
+restart 6 score -1709.5 per-letter -2.655
+restart 7 score -1732.3 per-letter -2.690
+restart 8 score -1713.6 per-letter -2.661
+restart 9 score -1736.0 per-letter -2.696
+restart 10 score -1733.0 per-letter -2.691
+restart 11 score -1735.6 per-letter -2.695
+BEST -1709.5 per-letter -2.655 54s
+nteenioneiilioiitseeiltuiellessiteseledelelteieetsinssiplusslienseeedissessariaatelliiniilinessenisiesetensasatissestnsuneteilleetassisissesetenielaninesuianinuntileariseillieseraassiesetneenniiarstrieieeseninelisaieinsileniistslisleeseseiiteealionelepunitessislinnliiesetlestreetsipetitssiniaiseeierinisilestateneantienensetinniiueiiaiassineeieiiesietaluilaiininsliueinnerseaireitiinistellitesisatliesaliianniseenenetiereinineslarnseeiisienesiistienteainsiastieineneesentaussiaansnisenseeirissentienesannieantsestsireeineniassientniiliitainelsleauneslenseiineseieteetinnieinssenteiredeestpieenieisaneiesseeiietraintsilsnaiisleslessereniaieesle
+MAP [('01', 'e'), ('02', 't'), ('03', 'a'), ('04', 'i'), ('05', 's'), ('06', 'e'), ('07', 'i'), ('08', 'e'), ('10', 't'), ('11', 'a'), ('12', 'i'), ('13', 'n'), ('15', 'i'), ('16', 'n'), ('17', 'n'), ('18', 's'), ('19', 's'), ('20', 'n'), ('24', 's'), ('25', 'l'), ('26', 'o'), ('28', 'o'), ('29', 'n'), ('32', 't'), ('34', 'u'), ('35', 'l'), ('36', 's'), ('38', 'i'), ('39', 'e'), ('45', 'a'), ('47', 's'), ('49', 't'), ('50', 'i'), ('52', 'e'), ('53', 't'), ('56', 's'), ('57', 'l'), ('58', 'r'), ('60', 'u'), ('63', 'p'), ('64', 'u'), ('66', 'l'), ('67', 'a'), ('68', 's'), ('69', 'p'), ('70', 's'), ('71', 's'), ('72', 't'), ('75', 'e'), ('76', 'i'), ('77', 'r'), ('82', 't'), ('83', 'u'), ('84', 's'), ('88', 'a'), ('90', 'n'), ('91', 'e'), ('92', 'n'), ('93', 'i'), ('94', 'n'), ('101', 'e'), ('102', 'i'), ('103', 'n'), ('105', 'e'), ('107', 'l'), ('108', 'a'), ('110', 'e'), ('111', 'e'), ('112', 'e'), ('113', 'i'), ('115', 's'), ('116', 'n'), ('117', 'l'), ('118', 'a'), ('119', 'e'), ('121', 't'), ('123', 'i'), ('124', 't'), ('126', 'i'), ('128', 'i'), ('129', 'd'), ('130', 'r'), ('131', 't'), ('133', 'a'), ('138', 's')]
