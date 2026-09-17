@@ -162,3 +162,8 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
   stretches). ct_3986_f157v.txt over-reads cipher; the true cipher on that page is shorter than four full
   lines. Re-segment clear vs cipher before re-transcribing. The f. 146v block (canvas 287) is real cipher
   throughout and stays the primary target for the atlas pass.
+
+* f. 146v recut at 3.2x into sixths (N146_* in session scratch, region x 0.12-0.92, y 0.40-0.72 of canvas 287,
+  deskew -1.0 deg, ten line peaks at 68/176/284/392/504/608/728/840/952/1064 of the region). Line 2 tile 3
+  shows a clean run `++ p (perp) u r u y S f (perp) -e T y p` consistent with the atlas (y=s, T=n, ++=u);
+  full alignment of the nine lines against atlas60.md is the remaining work of the next pass.
