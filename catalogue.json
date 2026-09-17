@@ -536,13 +536,13 @@
    "cls": "B",
    "seen": "image",
    "source": "BnF harvest",
-   "status": "Attempted 17 Sept 2026: the two Pisany letters (nos. 116, 81) read with Nevers no. 46, every figure in the key, 8 Sept whole and 14 Oct in stretches; the five Revol letters are in the Court symbol cipher no. 60, the 27 Aug copy in clear, the 9 Oct copy with c. 90 symbols unread, three not reached on the image.",
+   "status": "Attempted 17 Sept 2026: the two Pisany letters (nos. 116, 81) read with Nevers no. 46, every figure in the key, 8 Sept whole and 14 Oct in stretches; the five Revol letters are in the Court symbol cipher no. 60; its deciphering table (fr. 3995 ff. 110v-111) read in full and checked on the interlined Henri IV letter of 7 Oct (fr. 3986 f. 151); the Instruction of 31 Aug is a double crib, printed clear in Memoires de Nevers ii, 492-499 (Gallica bpt6k64451005) and interlined in the copyist's hand at fr. 3985 canvases 264-268; all six cipher passages located on the image, f. 146v and f. 157v transcribed, but the copies mix faded clear with cipher and only the anchor words read so far.",
    "why": "Nevers' embassy to Rome to obtain Henri IV's absolution, refused by Clement VIII in Jan 1594.",
    "importance": 4,
    "solvability": 4,
    "difficulty": 2,
    "score_note": "Two keys, not one: no. 46 covers the Pisany pair (read), no. 60 the Revol five; the symbol key needs the deciphered siblings in the same volumes.",
-   "verify": "Done: no. 46 reads 2 of 7. Next: read the no. 60 passages of 9 Oct (fr. 3986 f. 157v) from Henri IV's deciphered letter of 6 Oct (f. 152); locate nos. 88/94, 68, 101.",
+   "verify": "Done: no. 46 reads 2 of 7; key no. 60 and the double crib in hand. Next: finish the glyph atlas of the copyist's forms from the interlined Instruction (atlas60.md), re-segment clear vs cipher on f. 146v and read it, then ff. 88, 176, 198.",
    "outcome": "partly read"
   },
   {
