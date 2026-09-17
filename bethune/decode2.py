@@ -20,7 +20,8 @@ MAXALT   = 6
 BEAM     = 60
 UNK_PEN  = -3.0      # added to the char-LM score of an out-of-lexicon word
 UNK_PER  = -0.55     # extra per letter of an out-of-lexicon word
-WORD_PEN = -0.4      # per word, discourages shredding into short words
+WORD_PEN = -0.4
+SPLIT_FIGURES = False   # measured worse; see NOTES.md, kept as an option      # per word, discourages shredding into short words
 
 FIXED = {
     '48': 'cardinal', '17': 'aldobrandin',
@@ -67,6 +68,60 @@ def widen(model, eps):
     return out
 
 
+# ---- figure runs -------------------------------------------------------------------------------
+# The cipher writes its figures without separators, and one- and two-figure groups coexist (3, 5, 7, 8
+# beside 61, 63, 65, 68, 71, 73). A run such as "6165" can be 61|65, 6|1|65, 61|6|5 ... so a
+# transcription that commits to one split bakes an error in. Here every run is expanded into the
+# concatenation of the values of each legal split, and the language model picks the split.
+FIGVAL = {'61': 'qui', '63': 're', '65': 'si', '68': 'tout', '71': 'tion', '73': 'uostre',
+          '48': 'cardinal', '17': 'aldobrandin', '7': 'leroydespaigne'}
+MAXSPLIT = 24
+
+
+def split_run(run, depth=0):
+    """all segmentations of a digit run into 1- and 2-figure pieces; yields (pieces, known_count)"""
+    if not run:
+        yield [], 0
+        return
+    if depth > 8:
+        return
+    for k in (2, 1):
+        if len(run) >= k:
+            head = run[:k]
+            for rest, n in split_run(run[k:], depth+1):
+                yield [head] + rest, n + (1 if head in FIGVAL else 0)
+
+
+def run_emissions(run):
+    cands = []
+    for pieces, known in split_run(run):
+        if not pieces:
+            continue
+        s = ''.join(FIGVAL.get(p, '[' + p + ']') for p in pieces)
+        # prefer splits that use known groups, and fewer pieces
+        w = (known + 1.0)**2 / (len(pieces)**1.5)
+        cands.append((s, w))
+    if not cands:
+        return [('[' + run + ']', 1.0)]
+    agg = {}
+    for s, w in cands:
+        agg[s] = max(agg.get(s, 0.0), w)
+    tot = sum(agg.values())
+    out = sorted(((s, w/tot) for s, w in agg.items()), key=lambda kv: -kv[1])[:MAXSPLIT]
+    return out
+
+
+def merge_figures(tokens):
+    """join adjacent pure-figure tokens back into one run so the split can be re-decided"""
+    out = []
+    for t in tokens:
+        if re.fullmatch(r'\d+', t) and out and re.fullmatch(r'\d+', out[-1]):
+            out[-1] = out[-1] + t
+        else:
+            out.append(t)
+    return out
+
+
 def load_model(path):
     m = json.load(open(path, encoding='utf-8'))
     out = {}
@@ -79,6 +134,8 @@ def load_model(path):
 
 
 def emissions(tok, model):
+    if SPLIT_FIGURES and re.fullmatch(r'\d+', tok) and len(tok) > 2:
+        return run_emissions(tok)          # a merged run: let the language model choose the split
     if tok in FIXED:   return [(FIXED[tok], 1.0)]
     if tok in PARTIAL: return [(PARTIAL[tok], 1.0)]
     if tok in model:   return model[tok]
@@ -106,6 +163,8 @@ def build_trie(vocab):
 def decode(tokens, model, lm, trie, beam=BEAM, unk_pen=UNK_PEN):
     # the doubling sign repeats the previous token
     toks = [tokens[i-1] if (t == 'PH' and i > 0) else t for i, t in enumerate(tokens)]
+    if SPLIT_FIGURES:
+        toks = merge_figures(toks)
     n = len(toks)
     em = [emissions(t, model) for t in toks]
     states = [dict() for _ in range(n+1)]

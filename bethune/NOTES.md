@@ -226,6 +226,39 @@ clear on f. 33 - not proved); `28` is a place, from *"ce[luy] m'a escrit de [28]
 consequent". The glossed leaves ff. 49v-50r, 53r and 56r-57r (canvases 105-108, 113, 119-121, all in
 `bethune/full/`) carry marginal decipherments in the office hand and are the cheap route to fixing them.
 
+### Two more things tried on f. 33, both negative
+
+**A re-reading at full resolution.** The second pass read f. 33 from the 2000-px Gallica image; the
+3926-px original gives about 30 % more linear resolution, and `cut.py … 4 3.0` puts a quarter of a line
+in one view at roughly 2.6x the original pixels, against about 2.0x for the sixth-line crops of the
+second pass. The glyphs are visibly crisper. It does not settle them. An independent reading of the
+first three lines disagrees with `ct_f33_v2.txt` at much the same rate as before, and there is no ground
+truth on this leaf to say which reading is right - which is the clearest evidence yet that the ambiguity
+is intrinsic to the hand and not an artefact of the earlier session's zoom. A third transcription of
+unknown relative quality is worth less than the honest statement that two careful readings disagree.
+
+**The figures as a lattice.** The re-reading did localise the disagreement: it clusters in the *figure
+runs*, not in the letters. The cipher writes figures without separators and one- and two-figure groups
+coexist (3, 5, 7, 8 beside 61, 63, 65, 68, 71, 73), so a run reads as `61|65` or `6|1|65` or `61|6|5`,
+and a transcription that commits to one split bakes an error in that no decoder can undo. `decode2.py`
+now has `SPLIT_FIGURES`, which merges adjacent figure tokens back into a run and expands it into every
+legal split, weighted towards splits that use known groups, leaving the choice to the language model
+(`run_emissions`, `merge_figures`).
+
+It makes things worse, on both the control and the target:
+
+| | letters | words in order |
+|---|---|---|
+| fixed splits (default) | **74.5 %** | **51.8 %** |
+| figures re-split by the LM | 70.8 % | 48.7 % |
+
+and on f. 33 it turns *partant* into "par [70]leroydespaigne[2]" and *de m…* into "[77][2]". The reason
+is visible in the numbers: in the corpus blocks the second pass fixed its splits against known
+plaintext, so they are already right and merging destroys good information. That makes the control
+biased in favour of fixed splits, and the f. 33 result is therefore the more telling one - the merge is
+too aggressive where figures are genuinely adjacent but genuinely separate. `SPLIT_FIGURES` is off by
+default and kept for anyone who wants to restrict it to runs of four or more figures.
+
 ### f. 53r: the best crib left for the open code groups
 
 f. 53r (24 Dec 1601, canvas 113) was fetched at full resolution and examined. Two things make it the
