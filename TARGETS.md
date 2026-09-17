@@ -134,6 +134,16 @@ Already closed from that list: Feynman ciphers 2 and 3 (Vierra 2023, verified he
 Poe's challenge ciphers, the Chaocipher, the Smithy code, the Cyrillic Projector.
 
 
+## Catalogue of new unsolved targets, 2026-09-17
+
+Twenty-five undeciphered cipher letters (1497–1610) that are on none of the three standard lists, selected from a harvest of
+the BnF catalogue on Gallica (331 records mentioning *chiffre*, 225 items without a noted *déchiffrement*) and from items the
+cryptiana articles mark "undeciphered" without listing them. Shelfmarks, arks, prior art, difficulty class and the check that
+would confirm each is open are in [CATALOGUE.md](CATALOGUE.md); the site page is docs/catalogue.html. Only fr. 16127 (row 31)
+has been viewed on the image. Best first attempts by class A (siblings deciphered in the same volume): Lanssac, Warsaw
+26 April 1573 (fr. 4735); Henri IV → Béthune, 9–22 Nov 1601 (fr. 3484); Sormano/de Vaulx, Ferrara Feb 1529; Baudouin-Desportes
+and Mauclerc, July–Aug 1593 (fr. 3984–3985).
+
 ## Short list, 2026-09-16: open, unsolved, not yet attempted here, material online
 
 Built from the live source page (last modified 15 Sept 2026; Le Tellier–Castelnau, Forster and Boswell now marked solved there) after

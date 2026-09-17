@@ -15,3 +15,5 @@ mondoucet/__pycache__/
 f4715_full/
 src/*.html
 src/*.htm
+spot/
+notice_*.html
