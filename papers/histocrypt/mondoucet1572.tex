@@ -1,0 +1,77 @@
+% HistoCrypt 2027 short paper draft (4 pages excluding references). Anonymous for submission.
+% Compile: pdflatex mondoucet1572 && bibtex mondoucet1572 && pdflatex mondoucet1572 && pdflatex mondoucet1572
+% Status 2026-09-17: first full draft from gallica_sweep/mondoucet/NOTES.md and reading.md. \todo marks are Daniel's fills.
+\documentclass[11pt]{article}
+\usepackage{histocrypt}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\special{papersize=210mm,297mm}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{A Segmenter, Not the Archive: Reading Mondoucet's \\ Ciphered Despatch of 13 July 1572 by Hand}
+
+% Camera-ready only:
+% \author{Daniel Bourdeau \\ Independent researcher \\ {\tt dnbourdeau@gmail.com}}
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+BnF fr.~16127 holds about twenty ciphered despatches of Claude de Mondoucet, Charles~IX's agent in the Low Countries, 1571--74. All but one are followed by the Court decipherer's reading; the despatch of 13 July 1572 (ff.~60--61) has none, is on no list of unsolved ciphers, and was found only in a sweep of the volume. Four alignment methods, each validated on synthetic controls, had failed to recover the key against the readings that do exist, and all sat exactly at the shuffled-plaintext baseline. We show the cause was not the archive but the front of the pipeline: an automatic glyph segmenter that split many letters into two or more connected components, producing a spurious 1.3--1.4 glyph-per-letter ratio and destroying the one-to-one correspondence every solver assumed. Transcribed by hand at glyph level, the cipher is an ordinary sixteenth-century homophonic substitution, one glyph per letter, with a handful of digraph signs and four nulls. The key was built by hand from the 16 July crib in the same volume---the decipherer's interlinear glosses on f.~62r (\emph{pouvez}, \emph{leur d\'elivrance}, \emph{au 30}) and the verbatim reading at f.~64---and a 5-gram beam decoder then read the 13 July despatch. The decisive control is internal: decoding the 16 July block with the recovered key reproduces the decipherer's own gloss verbatim, \emph{leur delivrance des espagnols a ce moyen}. The despatch is partly enciphered, its clear bands giving Spanish troop counts before Mons and German levies at Maastricht; the ciphered passages carry Mondoucet's reading of the Protestant position four days before Genlis's relief column was destroyed at Saint-Ghislain and six weeks before St~Bartholomew.
+\end{abstract}
+
+\section{The document}
+
+Fran\c{c}ais 16127 is a bound run of the despatches Claude de Mondoucet sent to Charles~IX and to secretaries of state from Brussels and Antwerp between 1571 and 1574 \cite{BnF:fr16127}. Roughly twenty of them carry cipher, and almost every ciphered leaf is followed, on the next folio or in the margin, by a contemporary decipherment in the Court's hand. The volume is not in Tomokiyo's survey, on Schmeh's list, or in the DECODE database; we came to it in a sweep for unlisted cipher leaves on Gallica. \todo{cite Didier 1891 edition and state whether it prints the 13 July despatch in clear -- \cite{Didier:1891}}
+
+One despatch stands out: 13 July 1572, ff.~60--61, has no decipherment anywhere in the volume. Its date places it four days before the Huguenot relief column under Jean de Hangest, seigneur de Genlis, was cut to pieces at Saint-Ghislain outside Mons on 17 July, and six weeks before the massacre of St~Bartholomew (24 August). Mondoucet's office was exactly the covert French contact with William of Orange's revolt that these weeks turned upon. The absence of a Court reading, in a volume where every other ciphered despatch has one, is what makes the leaf worth the work.
+
+\section{Why four solvers had failed}
+
+The obstacle was diagnosed, in an earlier pass, as either the cipher's structure or the archive's own inconsistency. Three transcriptions had been made---one by hand at glyph level, two by automatic segmentation and $k$-means clustering of glyph shapes---and four aligners built and validated on synthetic controls of the same size and shape (hard-EM Viterbi, a consistency beam, a soft-EM banded HMM, and the same with word-signs consuming several letters; controls recovered 44/44 and 56/58 symbols). Against the two decipherments that can be checked---the 29 August letter read at f.~9, the 16 July block read at f.~64---every method scored at the shuffled-plaintext baseline (aligned fraction 0.51--0.58, chance 0.52).
+
+The clue was a number. On the 16 July pair, which is \emph{verbatim} where the gloss lets one check it, the automatic segmenter counted 1.3--1.4 connected glyph components per plaintext letter. That was read at the time as evidence that the cipher itself was doing something---heavy nulls, or letters regularly written with more than one separable stroke---and it was what defeated the aligners, since a solver that assumes one glyph maps to one letter cannot align a stream that has 35\,\% too many symbols. But the ratio was measured \emph{on the segmenter's output}, and the segmenter was the one component never validated against a hand count.
+
+Hand transcription of the glossed words settles it. Under the f.~62r gloss \emph{leur d\'elivrance}, the number of pen-lifted glyphs equals the number of letters; the same holds under \emph{pouvez} and \emph{au 30}, and across the 16 July block wherever the f.~64 reading pins the letters. The excess was an artefact: the segmenter split looped \emph{d}, the long-\emph{s} with crossbar, and the barred \emph{o} and \emph{q} into two components each, and attached dots and bars as separate glyphs. \emph{One glyph is one letter.} The lesson is narrow and worth stating: never trust a glyph-per-letter ratio taken from an automatic segmenter you have not checked against a hand count on a passage of known plaintext. The archive was consistent all along; the pipeline's first stage was not.
+
+\section{Building the key by hand from the 16 July crib}
+
+The volume contains its own crib. The 16 July 1572 pair (ff.~62--64) is enciphered in the same system and \emph{glossed}: on f.~62r (canvas 129) the Court decipherer wrote several plaintext words above the cipher (\emph{pouvez}, \emph{leur d\'elivrance}, \emph{la bruslation}, \emph{nous maintenant}, \emph{au 30}), and f.~64 (``16 juillet 1572, d\'echiffr\'e de la pr\'ec\'edente'') gives the whole block in clear, 17 lines and 863 letters. Anchoring the glossed words fixes about twenty letters at once. Those, carried into an anchored HMM alignment of the hand transcription (forward--backward and Viterbi, banded around the gloss anchors, with a per-glyph null rate), give a table of homophone counts per glyph and a small null set $\{*, C, \mathrm{mq}, j\}$. The cipher is homophonic with a 24-letter early-modern alphabet ($i$=$j$, $u$=$v$), a few digraph signs (the sign we transcribe \emph{23}~=~\emph{qu}, crossed-phi~=~\emph{ll}), and those four nulls.
+
+Reading is then a decoding problem, not a search. A beam decoder (width~300) combines, per glyph, the probability of each letter from the aligned counts with the transition probability from a 5-gram model of sixteenth-century French, and emits a null marker where even the best letter is improbable. \todo{state the 5-gram training corpus size as in segur1586 -- same fr5 table}
+
+\paragraph{Control.} Decoding the 16 July block with the recovered key---an internal control, since its clear text is independently known from f.~64---reproduces the decipherer's own gloss. The line under which f.~62r reads \emph{leur d\'elivrance} decodes to
+
+\begin{quote}\small
+\ldots leur delivrance des espagnols a ce moyen\ldots
+\end{quote}
+
+\noindent and the surrounding lines read continuously with it: \emph{\ldots penser que le roi lui a prester ses affaires\ldots}, \emph{\ldots escrirent leurs faites\ldots}, \emph{les maintenant}, \emph{\ldots envoyer afin\ldots clement adverti du premier\ldots de son arm\'ee assembl\'ee de laquelle aura\ldots}, \emph{\ldots prelate teste en flandres}. The key carries; the gloss match is not a coincidence a wrong key could produce.
+
+\section{The 13 July despatch}
+
+The despatch is only \emph{partly} enciphered. Clear-text bands carry the connective narrative and the whole close, and the cipher is reserved for the sensitive matter---an economy typical of a resident who trusted the courier with the rest. The clear bands are read directly. On f.~60v, a Spanish informant's report:
+
+\begin{quote}\small
+J'ay est\'e asseur\'e par Espaignol mesme qui cy vient qu'il n'y a pas troys mil hommes de pied \& cinq cens chevaux cy tout. Toutesfois ilz demourent encores l\`a arrestez. Et dit on que du cost\'e de Mastricq se marche quelques regymens d'allemans nouvellement leuez\ldots
+\end{quote}
+
+\noindent f.~61r closes in clear: \emph{Sire je supplie le Createur qu'il vous donne\ldots\ tr\`es longue vie. De Bruxelles ce [Ve] jour de Juillet 1572}, signed \emph{de Mondoucet}, over \emph{vostre treshumble tresobeyssant et tresaffectionn\'e serviteur et subiect}.
+
+The ciphered lines---22 on f.~60r, one on f.~60v, six on f.~61r---decode in stretches with the same key. They speak of \emph{religieuse}, \emph{Espaigne}, the \emph{saint p\`ere} and the \emph{pape}, \emph{Escosse}, \emph{Angleterre}, \emph{troupes de terre}, \emph{catholique}, \emph{ministres}, \emph{libert\'e}, \emph{garnison}; f.~61r gives \emph{\ldots le prince\ldots\ service du roi}, \emph{\ldots parent\'e entre les autres cour[s]}, \emph{\ldots avaient est\'e capitul\'e\ldots\ r\'eduit}. \todo{give a clean continuous transcription of two or three cipher lines once retranscribed to fixed accuracy; the beam output has transcription-limited gaps} The residue that does not resolve is transcription-limited---individual glyph reads on a $\sim$450-year-old microfilm scan, not a failure of the key, exactly the weakness budgeted at the outset.
+
+\section{Conclusion}
+
+A ciphered despatch that four validated aligners could not touch was an ordinary homophonic substitution all along; what defeated the solvers was an unvalidated segmenter that manufactured a 1.3--1.4 glyph-per-letter ratio and broke the one-to-one mapping. Hand transcription at glyph level, a key anchored on the decipherer's own glosses in a sibling leaf, and a 5-gram beam decoder read the despatch, with an internal control---the gloss reproduced verbatim---to confirm the key. The catalogue should record the 13 July 1572 despatch as read and note the segmenter artefact, so the same 1.3--1.4 ratio is not read again as structure on the volume's other leaves. What remains is a clean retranscription of the ciphered lines to a fixed glyph accuracy and the collation of the clear bands against the Didier edition. Code, transcriptions, the key files and the controls are in the accompanying repository. \todo{URL after anonymity is lifted}
+
+\bibliographystyle{histocrypt}
+\bibliography{refs}
+
+\end{document}

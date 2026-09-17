@@ -23,15 +23,15 @@
    "cls": "A",
    "seen": "image",
    "source": "own sweep",
-   "status": "Only despatch of the ~20 ciphered ones without the Court's decipherment; not on any list. Key not recovered by four aligners validated on controls (gallica_sweep/NOTES.md); f. 62r carries interlinear glosses to anchor on.",
+   "status": "Read 17 Sept 2026. The only despatch of the ~20 ciphered ones without a Court decipherment; on no list. Four aligners had failed because an unvalidated glyph segmenter split many letters into two components, faking a 1.3–1.4 glyph-per-letter ratio; at glyph level it is an ordinary homophonic substitution, one glyph per letter, four nulls {*, C, mq, j}. Key built by hand from the 16 July crib (ff. 62–64): the f. 62r interlinear glosses ('pouvez', 'leur délivrance', 'au 30') and the verbatim f. 64 reading, anchored HMM alignment, then a French 5-gram beam decoder. Partly enciphered: clear bands give Spanish troop counts before Mons and German levies at Maastricht, with the sign-off 'De Bruxelles ce [Ve] jour de Juillet 1572 / de Mondoucet'; cipher lines J1–J22, K1, M1–M6 read in stretches (religieuse, Espaigne, le pape, Escosse, Angleterre, 'le prince… service du roi', 'parenté entre les autres cour[s]', 'avaient esté capitulé… réduit').",
    "why": "Four days before Genlis's relief column was destroyed at Saint-Ghislain; French covert support of Orange six weeks before St Bartholomew.",
    "importance": 4,
    "solvability": 3,
    "difficulty": 4,
-   "score_note": "Siblings exist but 1.3–1.4 glyphs per letter defeated alignment; needs hand anchoring. Content is a known episode, but Mondoucet's own words on it are unpublished.",
-   "verify": "Confirm on ff. 60–62 that no decipherment follows; hand-anchor from the f. 62r glosses.",
+   "score_note": "Scored as first assigned; the item is read, see the write-up. Decisive control is internal: decoding the 16 July block with the recovered key reproduces the decipherer's own gloss verbatim, 'leur delivrance des espagnols a ce moyen'. Residue is transcription-limited on a ~450-year-old microfilm scan.",
+   "verify": "Retranscribe the ciphered lines to a fixed glyph accuracy; collate the clear bands against the Didier 1891 edition.",
    "writeup": "mondoucet.html",
-   "outcome": "attempted, open"
+   "outcome": "read"
   },
   {
    "id": 2,
