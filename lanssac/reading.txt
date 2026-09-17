@@ -1,0 +1,26 @@
+BnF fr. 4735 f. 124 — Guy de Saint-Gelais de Lanssac to Charles IX, Warsaw, 26 April 1573.
+Cipher passages in [brackets] read 17 Sept 2026 with the key in key.tsv; ? marks an uncertain sign; {..} unread.
+Spelling as in the manuscript; abbreviations expanded in ( ).
+
+Sire, [despuis? les dangiers qu'encontrent en Allemagne les françois qui passent, et vostre ser{o r h e}]
+Les empeschementz et les plus grandes causes qui ayent esté depuis deux {ans?} {...} toute la Turinge,
+Misnie et Marche de Brandebourg m'ont tellement retardé que je n'arrivay en Polongne à Mezeritz que le
+vingt-cinq(iesm)e de febvrier. Et sans la faveur que j'ay receue d'aulcuns des serviteurs et pensionnaires de
+vostre Majesté, principalement des S(ieu)rs Alexandre de Militiz et George Luelz(?), qui me y ont accompagné
+avec bonne et forte troupe de leurs amis et assisté de leurs moyens, j'eusse sans doubte [pour le moins esté
+retenu ou empesché de passer oultre. Mais], la grace à Dieu, je me suis rendu il y a desjà long temps avec
+Monsieur de Valence, lequel m'a (en)seigné l'estat auquel estoient les affaires qu'il a bien et dignement
+commencées et continuées jusques icy, et dont j'ay faict ung recueil ensemble de ce que j'ay peu juger, lequel
+j'envoye à vostre Majesté. Et ne sçachant à présent rien digne d'escrire oultre le contenu audict recueil, sinon
+que j'ay receu la lettre qu'il a pleu à vostre Majesté m'escrire du xxiii(?) de febvrier, en obéissant à laquelle
+je me fauldray(?) à me comporter de sorte que j'espère que le bien de vostre service et les affaires qui sont à
+promouvoir par deçà en demeureront advancez. Je priray le Créateur vous donner, Sire, en très parfaicte santé
+très contente et longue vie. De Warsauvia, le xxvi(e) d'avril 1573.
+
+Token-by-token, passage 1 (ll. 1-3):
+  2 g N ff q9 IIII | 3 X g | hh pi s oo i X F Lo | B G nn 7 c et phi X sm | G s | Zc | ol X Lo | of F T s cross c phi g | qq G | phi? Y pi g Lo X sm | et u2 L g 3h F X | Lo G phi | c phi h ast
+  de s p u i s | l e s | d a n g i e r s | qu e n c o nt r e nt | e n | Allemagne | l e s | f r a n c o r(i?) s | qui | (r?) p a s s e nt | et v o s t r e | s e r | o r h e
+Passage 2 (ll. 9-10):
+  pour ol X | 8 c i nn g | ast st G | phi X 3h ast s ot | de4 G ll Y X g 7 h ast | 4h | Y pi g Lo X phi | c ff 3 sh F G | ll pi qq Lo
+  pour l e | m o i n s | e st e | r e t e n u | ou e m p e s c h e | de | p a s s e r | o u l t r e | m a i s
+Marginal glosses (decipherer's hand, cut by the gutter): "…es dangier", "…d'Allemagne", "…qui passent", "moins esté retenu", "…ou oultre".

@@ -1,0 +1,55 @@
+# Lanssac's cipher, BnF fr. 4735 (1573): glyph -> value, as used to read f. 124. Label = token name in tokens.txt.
+# conf: A = fixed by a crib or a decipherer's gloss and confirmed elsewhere; B = chosen by the language model and
+# confirmed by at least one gloss word; C = inferred from one context or from Tomokiyo's table only.
+# Tomokiyo = value in the table on cryptiana henryiii.htm ("Lansac's Cipher"); '.' = same as here.
+label	glyph	value	conf	Tomokiyo	evidence
+X	X (bold cross)	e	A	.	car ie nai pas; retenu; les; oultre
+ast	asterisk	e	A	d?	esté, retenu, empesché
+G	r-like (Gamma)	e	B	i	esté, rencontrent, LM on 42 tokens (i would put i at 10 %, e at 12 %)
+D	triangle	e	C	.	one token
+i	|- (bar with tick)	i	A	.	ie, moins, dangiers
+q9	9 / d with loop	i	B	.	despuis (row-2 i of Tomokiyo)
+qq	8-like with strokes	i / qui	C	-	mais; qui passent (gloss)
+pi	pi	a	A	.	nai, pas(?), passer
+T	T	a	A	.	pas, causé
+H	H	a	C	.	two tokens
+s	long-s	n	A	L (n row 1)	nai, cinquante, moins... 36 tokens
+nn	o-o	n	A	.	moins, rencontrent
+c	c with hook	o	A	.	moins, oultre, vostre
+L	L	o	B	n	vostre; LM
+Y	y	p	A	-	pas, passer, empesché
+N	N with two bars	p	C	q	despuis (only occurrence read)
+B	S with bar	qu	B	p (b?)	cinquante, qu'encontrent
+phi	circle with vertical	r	A	.	retenu, passer, oultre
+F	F-like (three bars)	r	A	q	dangiers, grand, vostre
+g	9 / open g	s	A	r	pas, moins, les, passer
+Lo	L with small o	s	A	t	les, passer, causé, vostre
+IIII	four strokes	s	B	z	despuis, les(?)
+sh	three strokes	s / t	B	s	l'autre, oultre = t; elsewhere s
+3	plain 3	l	A	.	les, le, oultre
+ol	single perpendicular	l	A	.	le (pour le moins), les
+3h	hooked 3	t	A	s (t?)	cinquante, retenu, esté (row-1 t of Tomokiyo, shifted)
+7	7	c	A	.	cinquante, empesché, rencontrent
+cross	plus with curl	c	C	.	fran-c-ois
+hh	double-barred dagger	d	B	h	dangiers, du monde, doubte
+of	o with bar	f	B	.	françois
+oo	infinity	g	A	.	dangiers, grand, changement
+pour	tall cross with slant	pour	A	.	pour le moins
+h	plus with diagonal	h	B	-	empesché, changement
+ff	ff	u	A	.	avec, l'autre, oultre
+ot	o with cross	u	A	.	retenu, du
+u2	o+o	u / v	A	.	vostre, avec
+8	8	m	A	.	moins, mais
+ll	two-stem u	m	B	l	empesché, mais
+M	n-shape	?	-	u / t	four tokens, unread
+4	4	? (b / d)	-	b	eleven tokens in the siblings, unread
+5	script z	?	-	o (p?)	four tokens, unread
+Z	plain Z	car	A	.	car ie nai pas (gloss)
+Zc	Z with lower curl	Allemagne	B	allemagne	en Allemagne (gloss d'Allemagne)
+et	circle with cross above	et / nt	A	.	et vostre; renco-nt-re-nt (two forms not separated here)
+sm	8 with loops	nt	A	nt	rencontrent, passent
+st	8 with dot	st	A	.	esté
+4h	4 without bar (hook)	de	A	.	de passer, du monde (de), grand seigneur context
+de4	o with cross below	ou	B	-	retenu ou empesché
+ns	Lambda	ns	C	.	two tokens
+2	2 with loop	de	C	-	despuis (one token)

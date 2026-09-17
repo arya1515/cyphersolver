@@ -1,0 +1,44 @@
+# Token transcription, 17 Sept 2026, from Gallica IIIF full-size images of BnF fr. 4735 (btv1b9060724s).
+# One line per manuscript line. Tokens are glyph labels (see NOTES.md); '|' '.' ',' separators dropped.
+# --- f. 124 (canvas 242), Lanssac to Charles IX, 26 Apr 1573 ---
+@f124a
+2 g N ff q9 IIII 3 X g hh pi s oo i X F Lo B G nn 7 c
+et phi X sm G s Zc ol X Lo of F T s cross c phi g qq G phi Y pi g Lo X sm
+et u2 L g 3 F X Lo G phi c phi h ast
+@f124b
+pour ol X 8 c i nn g ast st G phi X 3 ast s ot de4 G ll Y X g 7 h ast 4h
+Y pi g Lo X phi c ff 3 sh F G ll pi qq Lo
+# --- f. 154 (canvas 294), Lanssac to Anjou, 24 Apr 1573, first cipher block ---
+@f154
+B g hh
+X i B i T q9 pi Y F ast s g i hh X et M 7 hh c g X Lo ol u2
+s ast B i G hh q9 5 nn X oo T i s D 4 7 T ot Lo G 3 T ff sh
+phi X N i G 3 F c ff 4 3 X 4 G pi ot 7 L ff Y 3 T Y phi ast 8
+i X F ast G st B X phi pi i G 8 X pi ot 4h u2 T sm 4h g 3 phi sh ot H ns
+3 G g 7 hh X of M 4h g B X 3 sh G c oo phi Y F L 8 i g s X hh c nn
+5 s X phi ol ast ot F ot c G u2 pi T ot 3 sh F X sm G pi ot c
+u2 g
+pi ff G 7 3 T 4 L
+nn s X et sh B G G pi ff c ns T ot F c phi T ff 8 X Y T ns
+hh c ot 4 3 X c s ot c ff g 8 G 3 sh F G 7 X st ast oo phi pi B
+7 pour u2 F L nn s X g ot phi 3 T sh X st G Y phi 3 pi F G 7 c ll B T
+s pour pi 3 phi c s hh ot oo phi pi nn sh g X i oo s i ot F 3 pi B X ol
+3 G N T of pi phi 7 3 X 4 ot c ot u2 g 7 c 8 ll X phi G st i 8 ast pi
+ff X 7 F ot g ast B 3 G ot pi phi ot u2 c 4 oo ff i de4 4 3 T u2
+H 3 T B phi X N i G X 8 et sh i X s T B G phi nn ast sm X 3 N
+X phi s G g 5 X F ast 7 pour pi s oo X 8 G 5 B i X st 3 ast g G 7 c
+s hh Y 4h phi nn 7 sh B i G hh c nn s X ot nn ast sh F pi ff
+X phi Y G 4 3 pi B G ol 3 X pi ot G 7 3 pi phi 4h de4 ff M 4o 4h hh phi
+G ot G X g Y ast F c ns s X T u2 8 c phi s Y Lo c phi 3 i F
+# --- f. 154v (canvas 297), first cipher line, gloss 'car je n'ay pas cinquante escuz' ---
+@f154v
+Z i X s pi q9 Y T g 7 i s B pi s 3 X
+# --- f. 156 (canvas 300), Lanssac to Catherine, 24 Apr 1573, first cipher block ---
+@f156
+B s i hh pour 3 X g 7 et c Lo ast g Lo c B 4 Y phi X Lo ast
+B ast s 3 X 3 sh sh ast F 8 X g B G phi ast g Y X F G 4 hh pi ns 3 ot
+s hh phi Y F c 7 et T i nn ot c ff g Lo X F ast sh 8 X F ast
+4h N 4h ot M Y 3 u2 g oo F pi s g phi c phi Lo hh ot 8 c s 4h Lo
+nn pi hh ot i X B B G 3 N ast 7 et T s oo X 8 ast B 4h ot
+X 3 u2 s sh ast sh pour N X 3 B G oo F pi s 4h ot i s c Y phi s G X
+ol 7 pour pi Lo i c s hh L B

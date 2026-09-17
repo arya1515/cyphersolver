@@ -396,3 +396,11 @@ feuquieres/m_bsb*.json
 feuquieres/run_*.txt
 feuquieres/ctx_out.txt
 feuquieres/knockout_p2.txt
+
+# lanssac: Gallica page images and derived crops (fetch_range.py, strips.py)
+lanssac/img/
+lanssac/manifest.json
+lanssac/noailles3.txt
+lanssac/henryiii.htm
+lanssac/*.log
+!lanssac/controls.log
