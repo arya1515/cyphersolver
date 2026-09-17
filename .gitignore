@@ -495,3 +495,4 @@ raince/*.pkl
 f2984/
 raince/feats.npy
 raince/post.npy
+raince/img/idx/
