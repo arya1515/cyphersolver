@@ -45,3 +45,19 @@ note    the last page-29 line ends "...ne se peut monstrer plus affe-", which is
 read    esbay de ce que ?'?n n'a escript autrement ...
 note    "esbay de ce que" and "n'a escript autrement" are secure; the single glyph before
         "n'a" (a looped L) is either the *con* word sign or an l, and is left open.
+
+## p.105, line 3
+tokens 50
+read    ...[?] qui a [_] a peust(?) [_] faire s?cre?ement(?) et ?e s pontif-
+        (runs on into line 4: "-ificat seroit la cause de la totale(?) ruine de sa maison")
+note    "faire" is secure (tokens 18-22 = Δ o I 4 ψ); the adverb that follows is
+        s-c-r-e-..-m-e-n-..-t with nulls inside it, i.e. *secretement* / *scretement*, but the
+        vowel order does not resolve cleanly on the film and is left open. Token 17 is the
+        same unidentified bold double-barred glyph as at p.30 line 1.
+
+## Unidentified glyph
+A bold vertical stem crossed by two horizontal bars, the lower one longer and projecting right.
+It stands as a one-glyph word at p.30 line 1 (between "plaisirs" and "qu'il") and occurs again
+inside a word at p.105 line 3 (token 17). It is not in Tomokiyo's table: not the barred-b g, not
+the barred-stem e, not any of the three nulls. Either a fourth null or a word sign the key does
+not record.

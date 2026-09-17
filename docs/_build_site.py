@@ -10,12 +10,110 @@ blocks whose rules now live in style.css. On index.html it also regenerates the 
 <!-- cards:start --> and <!-- cards:end -->, and refolds "Recent findings" so that only the newest RECENT_VISIBLE
 entries show and the rest sit behind the "Show N earlier findings" button (add new entries at the top of the first
 list and rebuild). The priority queue is still built by _build_queue.py.
+
+It also stamps the dates: the hero dateline, the head meta tags, the index cards, the list rows and each line
+of "Recent findings" all carry the day the finding landed, from _dates.json, which this script maintains.
 """
-import re, pathlib, html
+import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260917a'
+VERSION = '20260917b'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
+
+# ---------------------------------------------------------------------------
+# Datestamps.  _dates.json records, per page, the day the finding first landed
+# in the repository and the day its text last really changed.  "Really" means
+# the page body: nav, footer, contents strip, lead figure, the dateline itself
+# and the version stamps are all generated here, so normalise() removes them
+# before hashing.  A rebuild that only reshuffles that furniture therefore does
+# not move the date.  Findings on index.html are dated the same way, keyed by
+# the bold lead-in of each entry, so a hand-added line dates itself on the next
+# build.  Seed the file with _seed_dates.py; after that it maintains itself.
+DATES_PATH = HERE / '_dates.json'
+TODAY = datetime.date.today().isoformat()
+MONTHS = ('January', 'February', 'March', 'April', 'May', 'June', 'July',
+          'August', 'September', 'October', 'November', 'December')
+SHORT = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec')
+# what the first date means, by status class
+VERB = {'solved': 'solved', 'found': 'resolved', 'partial': 'solved in part', 'stuck': 'attempted'}
+VERB_SHORT = {'partial': 'part read'}      # the card and list stamps have less room
+
+def fmt_date(iso, short=False):
+    y, m, d = (int(x) for x in iso.split('-'))
+    return f'{d} {(SHORT if short else MONTHS)[m-1]} {y}'
+
+FINDINGS_REGION = re.compile(r'<h2 id="recent">.*?(?=\n<h2|\n<!-- |\Z)', re.S)
+GENERATED = [
+    r'<header class="nav">.*?</header>', r'<nav class="nav">.*?</nav>', r'<footer.*?</footer>',
+    r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
+    r'<!-- cards:start -->.*?<!-- cards:end -->',
+    r'<script src="site\.js[^"]*"></script>',
+    r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
+]
+
+def normalise(s):
+    """The page as content: everything this script generates removed, whitespace flattened."""
+    def fold(m):        # the findings list is re-split on every build; compare the entries alone
+        r = m.group(0)
+        r = re.sub(r'</?ul class="findings">|</ul>|<div class="more" hidden>|</div>|'
+                   r'<button class="showmore".*?</button>', ' ', r, flags=re.S)
+        return r
+    s = FINDINGS_REGION.sub(fold, s)
+    s = re.sub(r'<time class="fdate"[^>]*>.*?</time>', '', s, flags=re.S)   # inserted flush, remove flush
+    s = re.sub(r'<p class="meta">.*?</p>', ' ', s, count=1, flags=re.S)     # the hero dateline only: some pages
+                                                                           # use .meta again in the body for notes
+    for pat in GENERATED: s = re.sub(pat, ' ', s, flags=re.S)
+    return re.sub(r'\s+', ' ', s).strip()
+
+def content_hash(s):
+    return hashlib.sha1(normalise(s).encode('utf-8')).hexdigest()[:12]
+
+def load_dates():
+    try: return json.loads(DATES_PATH.read_text(encoding='utf-8'))
+    except FileNotFoundError: return {'pages': {}, 'findings': {}}
+
+def save_dates(d):
+    DATES_PATH.write_text(json.dumps(d, indent=1, sort_keys=True, ensure_ascii=False) + '\n', encoding='utf-8')
+
+DATES = load_dates()
+
+def page_dates(slug, s):
+    """Record and return {'first', 'updated'} for a page, moving 'updated' when the body changed."""
+    h = content_hash(s)
+    rec = DATES['pages'].get(slug)
+    if rec is None: rec = DATES['pages'][slug] = {'first': TODAY, 'updated': TODAY, 'hash': h}
+    elif rec.get('hash') != h: rec['updated'], rec['hash'] = TODAY, h
+    return rec
+
+DATEISH = re.compile(r'^(?:solved(?: in part)?|resolved|attempted|posted|read|published|first published|updated)?'
+                     r'\s*(?:\d{1,2}\s+)?(?:' + '|'.join(MONTHS) + r'|Sept?)?\s*\d{4}$', re.I)
+
+def meta_html(p, rec, old):
+    """Rebuild the hero dateline, keeping whatever else the page put on that line."""
+    author = (p.get('author') if p else None) or 'Daniel Bourdeau'
+    keep = []
+    for part in re.split(r'\s*(?:&middot;|·)\s*', old or '')[1:]:
+        flat = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', part))).strip()
+        if flat and not DATEISH.match(flat): keep.append(part.strip())
+    verb = VERB.get(p['st'], 'posted') if p else 'posted'
+    if p and p['slug'] in ('famous', 'solved'): verb = 'posted'
+    bits = [author, f'{verb} <time datetime="{rec["first"]}">{fmt_date(rec["first"])}</time>']
+    if rec['updated'] != rec['first']:
+        bits.append(f'updated <time datetime="{rec["updated"]}">{fmt_date(rec["updated"])}</time>')
+    return '<p class="meta">' + ' &middot; '.join(bits + keep) + '</p>'
+
+def finding_key(li):
+    """A findings entry is identified by its bold lead-in, which does not change when the text is edited."""
+    m = re.search(r'<b>(.*?)</b>', li, re.S)
+    text = re.sub(r'<[^>]+>', '', m.group(1) if m else li[:160])
+    return re.sub(r'\s+', ' ', html.unescape(text)).strip().lower()[:80]
+
+def stamp_finding(li):
+    li = re.sub(r'<time class="fdate"[^>]*>.*?</time>\s*', '', li, flags=re.S)
+    key = finding_key(li)
+    iso = DATES['findings'].setdefault(key, TODAY)
+    stamp = f'<time class="fdate" datetime="{iso}">{fmt_date(iso, short=True)}</time>'
+    return li.replace('<li>', '<li>' + stamp, 1)
 
 # slug, nav label, year label, sort year, place, status class, status text, title, blurb, quote, rights
 PAGES = [
@@ -208,11 +306,20 @@ def toc_html(s):
         links.append(f'<a href="#{hid}">{html.escape(text[:48])}</a>')
     return '<nav class="toc" aria-label="On this page"><span>On this page</span>' + ''.join(links) + '</nav>\n'
 
+def when_html(p, cls='when'):
+    """The short datestamp shown on the index cards and list rows."""
+    rec = DATES['pages'].get(p['slug'])
+    if not rec: return ''
+    verb = 'posted' if p['slug'] in ('famous', 'solved') else VERB.get(p['st'], 'posted')
+    return (f'<time class="{cls}" datetime="{rec["first"]}" '
+            f'title="{verb} {fmt_date(rec["first"])}, updated {fmt_date(rec["updated"])}">'
+            f'{VERB_SHORT.get(p["st"], verb)} {fmt_date(rec["first"], short=True)}</time>')
+
 def card_html(p):
     im = IMAGES.get(p['slug'])
     thumb = f'    <img class="thumb" src="{im[0]}" alt="" loading="lazy">\n' if im else ''
     return (f'  <a class="card{" hasthumb" if im else ""}" href="{p["slug"]}.html">\n' + thumb +
-            f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span><span class="st {p["st"]}">{p["stt"]}</span></div>\n'
+            f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span>{when_html(p)}<span class="st {p["st"]}">{p["stt"]}</span></div>\n'
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
 
 RECENT_VISIBLE = 5      # "Recent findings" on index.html shows this many entries; the rest fold behind the button
@@ -222,7 +329,7 @@ def fold_findings(s, n=RECENT_VISIBLE):
     .more block. Entries may be added to either list by hand; this gathers them all in order and re-splits."""
     m = re.search(r'(<h2 id="recent">.*?</h2>\n(?:<p>.*?</p>\n)?)(<ul class="findings">.*?)(?=\n<h2|\n<!-- |\Z)', s, re.S)
     if not m: return s
-    items = re.findall(r'<li>.*?</li>', m.group(2), re.S)
+    items = [stamp_finding(li) for li in re.findall(r'<li>.*?</li>', m.group(2), re.S)]
     if not items: return s
     head = '<ul class="findings">\n' + '\n'.join(items[:n]) + '\n</ul>'
     rest = items[n:]
@@ -237,6 +344,8 @@ def process(path):
     slug = path.stem
     s = path.read_text(encoding='utf-8')
     if s.startswith('﻿'): s = s[1:]
+    rec = page_dates(slug, s)
+    page = next((p for p in PAGES if p['slug'] == slug), None)
     nav = nav_html(slug)
     if '<!-- site:nav -->' in s: s = s.replace('<!-- site:nav -->', nav, 1)
     else: s = re.sub(r'<header class="nav">.*?</header>|<nav class="nav">.*?</nav>', lambda m: nav, s, count=1, flags=re.S)
@@ -277,6 +386,12 @@ def process(path):
         if rules and all(r.strip() in SHARED_INLINE for r in rules): return ''
         return m.group(0)
     s = re.sub(r'<style>(.*?)</style>\s*', strip_style, s, flags=re.S)
+    # dateline: when the finding landed, and when the page last really changed
+    mm = re.search(r'<p class="meta">(.*?)</p>', s, re.S)
+    if mm: s = s[:mm.start()] + meta_html(page, rec, mm.group(1)) + s[mm.end():]
+    s = re.sub(r'<meta name="(?:date|last-modified)"[^>]*>\n?', '', s)
+    s = s.replace('</head>', f'<meta name="date" content="{rec["first"]}">\n'
+                             f'<meta name="last-modified" content="{rec["updated"]}">\n</head>', 1)
     # versions, anchor for "Top", script
     s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
     if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)
@@ -288,16 +403,22 @@ def process(path):
         FEATURED =['hesse1603', 'catinat1691', 'voynich', 'feuquieres', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'sunyatsen']
         feat = [next(p for p in PAGES if p['slug'] == f) for f in FEATURED]
         rest = sorted([p for p in PAGES if p['slug'] not in FEATURED], key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] not in ('famous', 'solved') else 4, -p['y']))
-        rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span><span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
+        rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
+                       f'{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
         cards = ('<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in feat) + '</div>\n'
                  '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n<!-- cards:end -->')
         if '<!-- cards:start -->' in s:
             s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
         else:
             s = re.sub(r'(<h2(?: id="writeups")?><span class="num">01</span> Write-ups</h2>\s*)<div class="cards">.*?</div>\n(?=\n<h2)', lambda m: m.group(1) + cards + '\n', s, count=1, flags=re.S)
+    after = content_hash(s)
+    if after != rec['hash']:     # a generated element normalise() does not know about
+        print(f'  note: {slug} rehashed after build; check normalise()')
+        rec['hash'] = after
     path.write_text(s, encoding='utf-8')
     return slug
 
 if __name__ == '__main__':
     done = [process(p) for p in sorted(HERE.glob('*.html'))]
+    save_dates(DATES)
     print('built', ', '.join(done))
