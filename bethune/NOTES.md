@@ -254,6 +254,15 @@ A decode-level test is not available: `[72]` as an opaque group and *vous* as a 
 neighbours identically, so the score barely moves (-6145.1 to -6138.2 over the whole 22 Nov letter).
 What would settle it is the alignment of the eight lines against this gloss.
 
+**And there is a counter-indication, recorded here so the proposal is not adopted on the strength of the
+collocations alone.** The D1 block on f. 49v ends `… LS r y f p r 63 72`, and its footnote gloss ends
+*"…il sera meilleur de differer a luy en parler"*. A final `72` is hard to reconcile with *vous* there.
+Two readings survive: either the ciphered block runs on past the passage the footnote glosses (the
+footnote is keyed to a marked passage, not necessarily to the whole block, and the letter continues on
+f. 50r), or `72` is not *vous* and the four `que 72` collocations are something else. Re-reading f. 49v
+at full resolution did not settle it - the 1.5x D1 transcription is the worst block in the corpus
+(oracle 52 %), so its tail is exactly where its errors would be expected. **`72` stays unconfirmed.**
+
 ### Two more things tried on f. 33, both negative
 
 **A re-reading at full resolution.** The second pass read f. 33 from the 2000-px Gallica image; the
