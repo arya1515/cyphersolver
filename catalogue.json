@@ -1,5 +1,5 @@
 {
- "_about": "Catalogue of unsolved historical ciphers not on the Tomokiyo, Schmeh or Dunin lists. Scores are 1-5 and unvalidated: importance = historical weight of what the text could add; solvability = odds of a full reading with the material available online; difficulty = technical work needed (1 trivial key alignment, 5 statistics-only on an unknown system). Priority is computed on the page from adjustable weights. Class A = siblings with decipherment in the same volume, B = partial key or known family in print, C = no key, no sibling. seen: image = leaf viewed on the Gallica image; catalogue = selected from the catalogue description only.",
+ "_about": "Catalogue of unsolved historical ciphers not on the Tomokiyo, Schmeh or Dunin lists. Scores are 1-5 and unvalidated: importance = historical weight of what the text could add; solvability = odds of a full reading with the material available online; difficulty = technical work needed (1 trivial key alignment, 5 statistics-only on an unknown system). Priority is computed on the page from adjustable weights. Class A = siblings with decipherment in the same volume, B = partial key or known family in print, C = no key, no sibling. seen: image = leaf viewed on the Gallica image; catalogue = selected from the catalogue description only. outcome: set once an entry has been taken to the leaf here (read, partly read, resolved, closed, or attempted-open); entries with an outcome other than attempted-open leave the open ranking.",
  "weights_default": {
   "importance": 0.4,
   "solvability": 0.35,
@@ -30,7 +30,8 @@
    "difficulty": 4,
    "score_note": "Siblings exist but 1.3–1.4 glyphs per letter defeated alignment; needs hand anchoring. Content is a known episode, but Mondoucet's own words on it are unpublished.",
    "verify": "Confirm on ff. 60–62 that no decipherment follows; hand-anchor from the f. 62r glosses.",
-   "writeup": "mondoucet.html"
+   "writeup": "mondoucet.html",
+   "outcome": "attempted, open"
   },
   {
    "id": 2,
@@ -81,7 +82,8 @@
    "difficulty": 2,
    "score_note": "Scores as first assigned; the item is closed, see the write-up.",
    "verify": "Four signs after 'et vostre ser' and the first word; f. 331 (same cipher, no decipherment noted) not looked at.",
-   "writeup": "lanssac.html"
+   "writeup": "lanssac.html",
+   "outcome": "read"
   },
   {
    "id": 4,
@@ -107,7 +109,8 @@
    "solvability": 5,
    "difficulty": 2,
    "score_note": "Item itself closed (in print since 1688/1905). Open by-products: 16 June 1529 block (key known, glyph reading at 4x), 22 Oct 1529 opening in fr. 3005.",
-   "verify": "Le Grand III pp. 323–381 and Bourrilly 1905 pp. 430–434 against the leaves; Scheurer t. I for 16 June and 22 Oct 1529."
+   "verify": "Le Grand III pp. 323–381 and Bourrilly 1905 pp. 430–434 against the leaves; Scheurer t. I for 16 June and 22 Oct 1529.",
+   "outcome": "closed: already in print"
   },
   {
    "id": 5,
@@ -538,7 +541,8 @@
    "solvability": 4,
    "difficulty": 2,
    "score_note": "Two keys, not one: no. 46 covers the Pisany pair (read), no. 60 the Revol five; the symbol key needs the deciphered siblings in the same volumes.",
-   "verify": "Done: no. 46 reads 2 of 7. Next: read the no. 60 passages of 9 Oct (fr. 3986 f. 157v) from Henri IV's deciphered letter of 6 Oct (f. 152); locate nos. 88/94, 68, 101."
+   "verify": "Done: no. 46 reads 2 of 7. Next: read the no. 60 passages of 9 Oct (fr. 3986 f. 157v) from Henri IV's deciphered letter of 6 Oct (f. 152); locate nos. 88/94, 68, 101.",
+   "outcome": "partly read"
   },
   {
    "id": 22,
@@ -564,7 +568,8 @@
    "difficulty": 1,
    "score_note": "Twenty-five deciphered siblings in the same hand and year: the Feuquières method applies directly.",
    "verify": "Code groups 44, 45, 62, 66-72 (names) and the 4x retranscription of ff. 33 and 46-47; the glosses of ff. 53 and 56-57 not yet aligned.",
-   "writeup": "bethune.html"
+   "writeup": "bethune.html",
+   "outcome": "partly read"
   },
   {
    "id": 23,
@@ -816,7 +821,8 @@
    "difficulty": 1,
    "score_note": "Scores as first assigned; the item is closed, see the write-up.",
    "verify": "Nothing left to verify on the leaf; the asterisked code-word proposals need the Simancas table (Devos 1950).",
-   "writeup": "mendoza1589.html"
+   "writeup": "mendoza1589.html",
+   "outcome": "resolved"
   }
  ]
 }

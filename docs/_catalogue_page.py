@@ -24,6 +24,11 @@ def priority(e, w=W):
     return round((v - 1) / 4 * 10, 1)
 
 
+def is_open(e):
+    """Still in the open ranking: no outcome, or attempted but not read."""
+    return not e.get('outcome') or e['outcome'].startswith('attempted')
+
+
 def esc(t):
     return html.escape(str(t), quote=False)
 
@@ -37,14 +42,16 @@ def ark_links(e):
 
 
 # ---------- Markdown ----------
-def md_table(entries):
-    rows = ['| Prio. | # | Date | Item | Shelfmark / access | Status & prior art | Why it matters | Imp. | Solv. | Diff. | Cls | Seen |',
+def md_table(entries, outcome=False):
+    first = 'Outcome' if outcome else 'Prio.'
+    rows = [f'| {first} | # | Date | Item | Shelfmark / access | Status & prior art | Why it matters | Imp. | Solv. | Diff. | Cls | Seen |',
             '|---|---|---|---|---|---|---|---|---|---|---|---|']
     for e in entries:
         arks = '; '.join(f'ark {e[k]}' for k in ('ark', 'ark2') if e.get(k))
         shelf = e['shelfmark'] + (f' ({arks})' if arks else '') + (f'; {e["folio_note"]}' if e.get('folio_note') else '')
         seen = '●' if e['seen'] == 'image' else '◇'
-        rows.append(f"| **{priority(e)}** | {e['id']} | {e['date']} | {e['title']}: {e['correspondents']} | {shelf} | {e['status']} | {e['why']} | {e['importance']} | {e['solvability']} | {e['difficulty']} | {e['cls']} | {seen} |")
+        lead = f"**{e['outcome']}**" if outcome else f"**{priority(e)}**"
+        rows.append(f"| {lead} | {e['id']} | {e['date']} | {e['title']}: {e['correspondents']} | {shelf} | {e['status']} | {e['why']} | {e['importance']} | {e['solvability']} | {e['difficulty']} | {e['cls']} | {seen} |")
     return '\n'.join(rows)
 
 
@@ -60,8 +67,11 @@ def md_also(entries):
 def update_md():
     p = ROOT / 'CATALOGUE.md'
     s = p.read_text(encoding='utf-8')
-    counted = sorted([e for e in DATA['entries'] if e['counted']], key=lambda e: (-priority(e), e['id']))
+    counted = sorted([e for e in DATA['entries'] if e['counted'] and is_open(e)], key=lambda e: (-priority(e), e['id']))
+    resolved = sorted([e for e in DATA['entries'] if e['counted'] and not is_open(e)], key=lambda e: e['id'])
     also = sorted([e for e in DATA['entries'] if not e['counted']], key=lambda e: (-priority(e), e['id']))
+    s = re.sub(r'<!-- resolved:start -->.*?<!-- resolved:end -->', lambda m: '<!-- resolved:start -->\n' + md_table(resolved, outcome=True) + '\n<!-- resolved:end -->', s, flags=re.S)
+    s = re.sub(r'## The \d+ open targets, by priority', f'## The {len(counted)} open targets, by priority', s)
     s = re.sub(r'<!-- table:start -->.*?<!-- table:end -->', lambda m: '<!-- table:start -->\n' + md_table(counted) + '\n<!-- table:end -->', s, flags=re.S)
     s = re.sub(r'<!-- also:start -->.*?<!-- also:end -->', lambda m: '<!-- also:start -->\n' + md_also(also) + '\n<!-- also:end -->', s, flags=re.S)
     p.write_text(s, encoding='utf-8')
@@ -78,6 +88,7 @@ def row(e):
     arks = ' · '.join(f'<a href="{GALLICA}{e[k]}" rel="noopener">{e[k]}</a>' for k in ('ark', 'ark2') if e.get(k))
     seen = '<span class="seen img" title="viewed on the image">●</span>' if e['seen'] == 'image' else '<span class="seen cat" title="catalogue description only">◇</span>'
     noted = '' if e['counted'] else ' <span class="noted">noted</span>'
+    if e.get('outcome'): noted += f' <span class="noted out">{esc(e["outcome"])}</span>'
     detail = (f'<div class="det"><div><b>Correspondents.</b> {esc(e["correspondents"])} · {esc(e["place"])} · {esc(e["language"])}</div>'
               f'<div><b>Shelfmark.</b> {esc(e["shelfmark"])}{(" · " + arks) if arks else ""}{(" · " + esc(e["folio_note"])) if e.get("folio_note") else ""}</div>'
               f'<div><b>Status and prior art.</b> {esc(e["status"])}</div>'
@@ -102,8 +113,9 @@ def facet(name, label, values):
 
 def build_html():
     E = DATA['entries']
-    ordered = sorted(E, key=lambda e: (not e['counted'], -priority(e), e['id']))
-    counted = [e for e in E if e['counted']]
+    ordered = sorted(E, key=lambda e: (not is_open(e), not e['counted'], -priority(e), e['id']))
+    counted = [e for e in E if e['counted'] and is_open(e)]
+    n_res = sum(1 for e in E if e['counted'] and not is_open(e))
     periods = sorted({e['period'] for e in E}); regions = sorted({e['region'] for e in E}); sources = sorted({e['source'] for e in E})
     data_js = json.dumps({'weights': W, 'entries': E}, ensure_ascii=False).replace('</', '<\\/')
     n_all, n_img = len(E), sum(1 for e in E if e['seen'] == 'image')
@@ -112,7 +124,7 @@ def build_html():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Catalogue of unsolved historical ciphers — {len(counted)} new targets, scored</title>
+<title>Catalogue of unsolved historical ciphers — {len(counted)} open targets, scored</title>
 <meta name="description" content="Undeciphered historical cipher letters, 1497–1650, not on the standard unsolved lists, harvested from the BnF catalogue on Gallica and the fine print of the cryptiana articles. Each scored for historical importance, solvability and difficulty; filter, sort and reweight the priority score.">
 <link rel="stylesheet" href="style.css">
 <style>
@@ -144,6 +156,7 @@ td.prio b{{font-family:var(--display);font-size:1.35rem;color:var(--gold);font-w
 td.date{{font-family:var(--mono);font-size:.76rem;color:var(--ink2)}}td.date .num{{display:block;color:var(--muted);font-size:.68rem;margin-top:.2rem}}
 td.item b{{color:var(--head);display:block}}
 td.item .sub{{display:block;font-size:.8rem;color:var(--muted);margin-top:.15rem;line-height:1.4}}
+.noted.out{{color:var(--green);border-color:color-mix(in srgb,var(--green) 50%,transparent)}}
 .noted{{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;color:var(--muted);border:1px solid var(--rule);border-radius:999px;padding:.05rem .45rem;vertical-align:middle;margin-left:.3rem}}
 td.shelf{{font-size:.76rem;color:var(--ink2);overflow-wrap:anywhere}}
 .dots{{display:inline-flex;gap:3px}}.dots i{{width:9px;height:9px;border-radius:50%;background:var(--rule);display:inline-block}}
@@ -163,9 +176,9 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
 <!-- site:nav -->
 
 <section class="hero">
-  <p class="kicker">Gallica · BnF catalogue harvest · cryptiana fine print · 1497–1650 · {len(counted)} new targets + {len(E) - len(counted)} noted · unvalidated</p>
+  <p class="kicker">Gallica · BnF catalogue harvest · cryptiana fine print · 1497–1650 · {len(counted)} open targets · {n_res} taken to the leaf and read, partly read or closed · {len(E) - len(counted) - n_res} noted · unvalidated</p>
   <h1>Catalogue of unsolved historical ciphers</h1>
-  <p class="sub">What is still in cipher in the digitised French diplomatic volumes, and nobody has put on a list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling.</p>
+  <p class="sub">What is still in cipher in the digitised French diplomatic volumes, and nobody has put on a list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries that have since been read, partly read or closed here carry an <b>outcome</b> tag and sit at the foot of the default order; the <a href="solved.html">solved catalogue</a> has the readings.</p>
   <p class="sub">Scores are judgements from catalogue descriptions and the literature, not from the leaves: {n_img} of {n_all} entries have been viewed on the image, and each carries the check that would confirm it is open. Data: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/catalogue.json" rel="noopener">catalogue.json</a> · text: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/CATALOGUE.md" rel="noopener">CATALOGUE.md</a>.</p>
   <p class="meta">Daniel Bourdeau · September 2026</p>
 </section>
@@ -186,6 +199,7 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
   {facet('source', 'Source', sources)}
   {facet('seen', 'Seen', ['image', 'catalogue'])}
   {facet('counted', 'Set', ['counted', 'also noted'])}
+  {facet('outcome', 'Outcome', ['open', 'attempted, open', 'read', 'partly read', 'resolved', 'closed: already in print'])}
   <div class="count" id="count"></div>
 </div>
 <div class="legend"><span>click a column to sort, a row to expand</span><span>● viewed on the image</span><span>◇ catalogue description only</span><span>gold dots importance / solvability</span><span>red dots difficulty</span></div>
@@ -214,9 +228,9 @@ var tb=document.querySelector('#cat tbody'),rows={{}};
 Array.prototype.forEach.call(tb.querySelectorAll('tr.e'),function(r){{rows[r.dataset.id]={{e:r,d:tb.querySelector('tr.d[data-for="'+r.dataset.id+'"]')}};}});
 var state={{q:'',sort:'prio',dir:-1,w:{{imp:D.weights.importance,sol:D.weights.solvability,eas:D.weights.ease}},f:{{}}}};
 function prio(e){{var w=state.w,t=w.imp+w.sol+w.eas||1;var v=(w.imp*e.importance+w.sol*e.solvability+w.eas*(6-e.difficulty))/t;return Math.round((v-1)/4*100)/10;}}
-function match(e){{var f=state.f;for(var k in f){{if(!f[k].length)continue;var v=k==='counted'?(e.counted?'counted':'also noted'):e[k];if(f[k].indexOf(v)<0)return false;}}
+function match(e){{var f=state.f;for(var k in f){{if(!f[k].length)continue;var v=k==='counted'?(e.counted?'counted':'also noted'):k==='outcome'?(e.outcome||'open'):e[k];if(f[k].indexOf(v)<0)return false;}}
  if(state.q){{var h=(e.title+' '+e.correspondents+' '+e.place+' '+e.shelfmark+' '+e.why+' '+e.status+' '+e.region+' '+e.language+' '+e.date+' '+e.year).toLowerCase();if(h.indexOf(state.q)<0)return false;}}return true;}}
-function key(e){{var s=state.sort;if(s==='prio')return prio(e);if(s==='seen')return e.seen==='image'?1:0;if(s==='cls'||s==='title')return e[s];return +e[s];}}
+function key(e){{var s=state.sort;if(s==='prio')return prio(e)-((e.outcome&&e.outcome.indexOf('attempted')!==0)?100:0);if(s==='seen')return e.seen==='image'?1:0;if(s==='cls'||s==='title')return e[s];return +e[s];}}
 function render(){{var L=E.filter(match);L.sort(function(a,b){{var x=key(a),y=key(b);if(x<y)return -1*state.dir;if(x>y)return 1*state.dir;return a.id-b.id;}});
  var shown={{}};L.forEach(function(e){{var r=rows[e.id];r.e.querySelector('td.prio b').textContent=prio(e).toFixed(1);tb.appendChild(r.e);tb.appendChild(r.d);r.e.hidden=false;r.d.hidden=r.e.getAttribute('aria-expanded')!=='true';shown[e.id]=1;}});
  E.forEach(function(e){{if(!shown[e.id]){{rows[e.id].e.hidden=true;rows[e.id].d.hidden=true;}}}});
