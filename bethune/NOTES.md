@@ -238,9 +238,11 @@ them again.
   encore que sur le discours d'autruy. Il fault nous, confians en la prudence et cognoissance de sa
   Saincteté, de la sincerité avec laquelle vous avez procedé, attendre ce qu'il plaira a sa Saincteté
   vous en ordonner."*
-* The ciphered block **interleaves clear words with the cipher** - the words *justiffier davantage
-  que* stand in clear in the middle of the fourth line - so the gloss can be anchored to the cipher at
-  several points without solving anything first.
+* The ciphered block **interleaves clear words with the cipher**, so the gloss can be anchored to the
+  cipher at several points without solving anything first. Read off the image: *justiffier davantage
+  que* stands in clear in the middle of line 4, and line 5 runs `Z g x , g Z r f, x` **discours**
+  d[e] **aultruy. Il fault** `n , b Z 4 …`. Those clear words are the gloss's own words in the gloss's
+  own order, which settles that the decipherment is verbatim and that the alignment is tractable.
 
 And **`66` and `72`, both open, occur in this block** (line 3 ends `… r 66`, line 4 opens `66 ff + S LS
 LS q Z g Z r ff a ,` and later `g a x , 72 Z ff r x Z`; `72` also stands at the end of line 2). Since
