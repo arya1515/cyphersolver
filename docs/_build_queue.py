@@ -1,4 +1,7 @@
-"""Generate the priority queue section of docs/index.html from structured data.
+"""RETIRED 17 Sept 2026: the priority queue was removed from index.html (replaced by the catalogue section and CATALOGUE.md).
+Kept for the structured data. Running it now does nothing.
+
+Generate the priority queue section of docs/index.html from structured data.
 
 The queue had drifted into a 31-row table in which items already attempted, items blocked at source,
 and things that are not ciphers at all were interleaved with live targets at ranks 1 to 14. The ranks
@@ -359,6 +362,8 @@ def build():
 def main():
     p = 'index.html'
     s = open(p, encoding='utf-8').read()
+    if '<h2 id="queue">' not in s:
+        print('queue section retired; nothing to do'); return
     i = s.index('<h2 id="queue">')
     j = s.index('<h2 id="blocked">')
     s = s[:i] + build() + '\n' + s[j:]
