@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="HCPortal team">
+    <meta name="keywords" content="ManuLab, statistical analysis, historical manuscripts">
+    <meta name="description" content="Software for statistical analysis of encrypted historical manuscripts">
+
+    <title>HCPortal: ManuLab</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- own -->
+    <link href="css/portal.css" rel="stylesheet">
+
+</head>
+<body id="page-top"> <!--class="bg"-->
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="box-shadow: 0px 1px #292b34">
+    <div class="container">
+        <a href="./index.html">
+            <img class="hider" style="margin-right: 3em" src="img/logo/h/v1.png"  alt="">
+        </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ManuLab</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#design">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#documentation">Documentation</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+
+<section class="success2" id="about">
+    <div class="container">
+        <br>
+        <br>
+        <h2 class="text-center">About ManuLab</h2>
+
+        <div class="row">
+
+            <div class="col-lg-6 ml-auto">
+                <p>
+                    <br>
+                    <b>ManuLab Qt</b> is a software product for statistical analysis of encrypted historical manuscripts.
+                    The goal of this project was to create a framework (application) for document analysis adapted to historical manuscripts.
+
+                    The software design also includes document visualization, displaying pairs of manuscript pages with corresponding transcriptions.
+                </p>
+                <p>
+                    The document analysis is performed via a chain of filters (main building elements).
+                    A filter represents any operation realizable on a document transcription divided into a set of pages.
+                    The implemented filters allow to change the reading direction, select sub-pages, or a subsection from the document, and calculate several statistics.
+                </p>
+
+            </div>
+            <div class="col-lg-6 mr-auto">
+
+                <p>
+                    <br>
+                    <b>ManuLab API</b> implements the base functionality of the original <b>ManuLab Qt</b> application accessible by PHP scripts.
+                </p>
+
+                <p>
+                    <b>ManuLab Online</b> is the online version of the original <b>ManuLab Qt</b> application implemented in Angular.
+                </p>
+
+                <div class="col-lg-8 mx-auto text-center">
+                    <a href="https://manulab.hcportal.eu/" class="btn btn-lg btn-outline">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        Try it online!
+                    </a>
+                </div>
+
+                <p>
+                    <br>
+                    For more information read the article (and poster) published in the Proceedings of the 1st  International Conference on Historical Cryptology
+                    (<a class="js-scroll-trigger" href="#documentation">documentation</a> section).
+                </p>
+
+
+            </div>
+        </div>
+
+<!--        <div class="col-lg-8 mx-auto text-center">-->
+<!--            <a href="https://manulab.hcportal.eu/example/index.html" class="btn btn-lg btn-outline">-->
+<!--                <i class="glyphicon glyphicon-info-sign"></i>-->
+<!--                Try it online!-->
+<!--            </a>-->
+<!--        </div>-->
+
+    </div>
+
+</section>
+
+<section class="design" id="design">
+    <div class="container">
+        <h2 class="text-center">Software design</h2>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 ml-auto">
+                <p>
+                    <b>ManuLab Qt</b> is an open source and multi-platform software, written in C++, Qt - licensed under Apache License, Version 2.0.
+                </p>
+                <p>
+                    ManuLab Qt is no longer maintained, please visit the ManuLab Online software product instead.
+                </p>
+            </div>
+            <div class="col-lg-6 ml-auto">
+                <p>
+                    <b>ManuLab API</b> is an open source web-based software, written in PHP, JS, HTML, CSC - licensed under Apache License, Version 2.0.
+                </p>
+                <p>
+                    <b>ManuLab Online</b> is an open source web application, written in Angular (Typescript) - licensed under Apache License, Version 2.0.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="success2" id="documentation">
+    <div class="container">
+        <h2 class="text-center">Documentation and src</h2>
+        <br>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <p>
+                    The <b>ManuLab Qt</b> source code is available online at the following GIT repository:
+                    <a href="https://bitbucket.org/jugin/manulab.git">https://bitbucket.org/jugin/manulab</a>
+                </p>
+                <p>
+                    The <b>ManuLab Online</b> Angular (typescript) source code is available online at the following GIT repository:
+                    <a href="https://bitbucket.org/jugin/hcportal-manulab-online.git">https://bitbucket.org/jugin/hcportal-manulab-online</a>
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <p>
+                    The <b>ManuLab API</b> (PHP) documentation is available on the following
+                    <a href="https://manulab.hcportal.eu/apidoc/index.html">web page</a>.
+                    Example web page (demonstrating the API) is available
+                    <a href="https://manulab.hcportal.eu/example/index.html">here</a>.
+                    The source code is available online at the following GIT repository:
+                    <a href="https://bitbucket.org/jugin/hcportal-manulab-back-end.git">https://bitbucket.org/jugin/hcportal-manulab-back-end.git</a>
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 ml-auto">
+                <div class="col-lg-8 mx-auto text-center">
+                    <a href="pdf/ManuLab_poster_histocrypt2018.pdf" class="btn btn-lg btn-outline">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        Poster (2018)
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <div class="col-lg-8 mx-auto text-center">
+                    <a href="pdf/manulab_histocrypt18.pdf" class="btn btn-lg btn-outline">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        Article (2018)
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Scroll to Top Button -->
+<div class="scroll-top">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/freelancer.min.js"></script>
+
+</body>
+</html>

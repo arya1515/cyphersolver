@@ -22,6 +22,9 @@ def load(path=os.path.join(HERE, 'src', 'tcp_A95749.xml'), keep_notes=False, num
             started = True
         if not started:
             continue
+        words_probe = re.findall(r"[A-Za-zÀ-ſ][A-Za-zÀ-ſ'’\-]*", html.unescape(re.sub(r'<[^>]+>', ' ', seg)))
+        if len(words_probe) < 10 and m and pages and numbering == 'physical' and int(m.group(1)) < phys:
+            continue      # TCP artefact: a duplicated <pb> for a re-shot image (physical 158-159, 184-185), two words each
         phys += 1
         if numbering == 'physical':
             cur = phys
