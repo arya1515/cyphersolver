@@ -414,3 +414,18 @@ bethune/ref/
 bethune/*.log
 bethune/*.html
 bethune/em_out*.txt
+# dubellay: Gallica page images and large downloaded OCR texts (regenerate with fetch_pages.py / see NOTES.md)
+dubellay/img/
+dubellay/ref/bourrilly1905.txt
+dubellay/ref/leglay2.txt
+dubellay/ref/lp_*.txt
+dubellay/ref/lp4_3.txt
+dubellay/ref/*.html
+dubellay/ref/scheurer_*.txt
+dubellay/ref/meta_*.json
+dubellay/ref/mdz_*.json
+dubellay/ref/bnf_*.html
+dubellay/ref/tomokiyo_*.png
+dubellay/ref/cryptiana_*.htm
+dubellay/ref/manifest_*.json
+dubellay/ref/oai_*.xml
