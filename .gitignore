@@ -483,3 +483,13 @@ rennes1563/images/*
 
 # Herbault: downloaded Gallica pages and exploratory crops; no durable reading exists yet
 herbault1626/
+
+# raince: derived images and language models (regenerate with bands3.py / lmns.py)
+raince/img/lines/
+raince/img/bands/
+raince/img/zoom.png
+raince/img/z_*.png
+raince/img/ov*.png
+raince/img/fol*.png
+raince/*.pkl
+f2984/

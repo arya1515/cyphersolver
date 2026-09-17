@@ -1,77 +1,99 @@
 # Reading the Raince 1526 cipher (BnF fr. 2984) — calibration sheet
 
 The cipher is a monoalphabetic substitution with homophones (Tomokiyo 2020, key image
-`img/key3x.png` — look at it first). Plaintext is 1526 diplomatic French (no accents, u/v and
-i/j interchangeable, spellings like "estoit", "faict", "icy", "moys", "seigneur", "monseigneur",
-"l'empereur", "le pape", "Savoye", "Venise", "Rome", "Bourgoigne", "Bourbon" possible).
+`img/key3x.png`). Plaintext is 1526 diplomatic French (no accents, u/v and i/j interchangeable,
+spellings like "estoit", "faict", "icy", "moys", "seigneur", "monseigneur", "l'empereur",
+"Savoye", "Venise", "Rome", "Bourgoigne", "Bourbon").
 
-## Glyph table as it appears on this microfilm
+## The key, read off the image by measurement (not by eye)
+
+Tomokiyo's table is a header row of plaintext letters over up to four rows of cipher glyphs.
+The columns are narrow and easy to misread by one place. `img/key_labelled.png` is a contact
+sheet of every glyph cropped out of the key and labelled; it was built by locating the white
+header letters and the ink blobs in `key3x.png` and assigning each blob to the nearest header
+column (every assignment came out within 15 px of a column centre, columns being ~78 px apart),
+so the table below is measured, not guessed.
 
 | plaintext | cipher glyphs |
 |---|---|
-| a | small plain circle `o`; circle with small cross/plus attached below; `×` |
-| b | circle crossed by a horizontal bar (θ-like) |
-| c | small SQUARE/rectangle with a dot inside |
-| d | circle with a straight tail going down (ϙ/ρ-like) |
-| e | ψ (trident); `7`; a small circle at the base of a vertical stem with a bar on TOP (the single most frequent glyph); ◇ diamond |
-| f | △ triangle |
-| g | 6-like / b-with-flag |
-| h | ε |
-| i | ✕ (looks like two x's or a double cross); Roman `I` with serifs; a heavy filled dot; 9-like |
-| l | round `s` shape |
-| m | long `f`-like shape (on film it can look s-ish) |
-| n | see note below |
-| o | see note below |
-| p | `T` (T with flat top bar) — VERIFIED in "depesches", "party", "pour" |
-| q | the "ni"-shaped glyph (two minims joined, looks like the letters ni or nv) — VERIFIED in "quatriesme", "qui" |
-| r | `4`-like glyph (φ/⌀, a loop crossed by a rising stroke); variants look like "-o" or `H` — VERIFIED in "party", "pour", "venir" |
-| s | ∧ (caret / lambda without foot) — VERIFIED in "depuis", "les", "s'est" |
-| t | ℓ (cursive ell with loop) — VERIFIED in "estoit", "party" |
-| u/v | `V`; `R`-shaped glyph; `Ƶ`/2-without-loop — VERIFIED in "depuis", "vous", "venir" |
-| y | `E`-shaped glyph; ω — VERIFIED in "moys", "Savoye", "icy", "party" (final y) |
-| nulls (skip) | λ; a "ny"/"my"-looking ligature; `K` |
+| a | `o` small plain circle; `ꝗ` circle on top of a crossed stem; `×` |
+| b | `θ` circle with a bar drawn across the inside |
+| c | small square/rectangle with a dot inside |
+| d | small circle on top of a plain vertical stem running down |
+| e | `ψ` trident; `7`; `ƀ` small circle at the foot of a stem barred near the top; `◇` diamond |
+| f | `△` triangle |
+| g | circle with a long horizontal bar driven through it, bar projecting to the right |
+| h | `ε` |
+| i | `✕✕` double cross (like two x's sharing a stroke); serifed `I`; a heavy filled blob |
+| l | `9` with a curved lead-in at the foot; the same 9 preceded by a big `C` stroke |
+| m | small round `s` / `5` shape |
+| n | long `f` with a crossbar |
+| o | `ꝛ` circle with a long diagonal stroke rising through it to the right; `z` |
+| p | `T` with a flat top bar; a small circle with a dash to its right |
+| q | `n` (two minims joined) |
+| r | `4`-shape: a loop or triangle crossed by a rising stroke, with a descender; a dash then a circle |
+| s | `∧` caret; `H` |
+| t | `ℓ` cursive ell with a loop |
+| u / v | `v` / `✓`; `R`; `Ƶ` (2 with a bar) |
+| x | *no glyph in the key* |
+| y | `E` |
+| z | `ω` |
+| nulls (skip) | `λ`, usually drawn as a single thick sweeping arc; a `ny`/`my` ligature; `K` |
 
-n and o: one of them is the `ꝛ`/2-with-loop ("z-with-flourish") glyph. In "pour" (p-o-u-r =
-T-?-V-4) the glyph in o position is the 2/z-like one. The other of the pair is an `n`-like
-shape. When you meet either, decide from French context (both are frequent).
+Word signs (one glyph = one whole word): a looped `L`/`&` with a tail = **con**; two small circles
+side by side joined by a U-curve underneath = **l'empereur**; a cursive `y` with a descending
+tail = **le pape**. Note that the *letter* y is `E`, so a y-looking glyph is *le pape*.
 
-Word signs (single glyph = whole word): `L`-with-crossed-tail = **con**; a curly double-loop
-(e-with-loop-below, like ꝭ) = **l'empereur**; a `y`-like glyph = **le pape**.
+### Corrections to the earlier calibration sheet
 
-## Method — follow exactly
+The first version of this file had **l, m and n shifted by one column**: it read the round `s` as
+l, the long `f` as m, and left n open. The measured table above is l = `9`, m = round `s`,
+n = long `f`. That single error is what produced the old machine draft's "dongUeaent" for
+*longuement*, "egsembde" for *ensemble* and "SonseigEur" for *monseigneur*; `handmap.json` and
+every file derived from it (`hand_decode2.txt`, `draft3.txt`, `greedy70map.json`) carry the same
+shift and should not be trusted as letter readings. The old sheet also put `H` under r; it is
+measured under s. The old sheet's claim that the most frequent glyph (`ƀ`) is an e is correct.
 
-You get, per manuscript line, TWO images: `<page>_<NN>L.png` (left half) and `<page>_<NN>R.png`
-(right half). They OVERLAP by a few glyphs in the middle — do not transcribe the overlap twice.
-The target line is the LOWER, complete line of writing in each crop (the crop includes the
-bottom of the line above for context; ignore it). Some crops show faint verso show-through:
-ignore anything faint/mirrored.
+## Confusable pairs to watch on this film
 
-You also get the machine draft for that line (connected-component clustering decoded with the
-key). It is about 80–85 % correct. Lowercase letters in it are usually right; CAPITAL letters
-mark unreliable clusters; it also merges or splits some glyphs. Use it as scaffolding, not truth.
+* `ψ` (e) / `4` (r) / long `f` (n) — all are a stem with something on top. `ψ` has a forked or
+  rounded top with the stem running through; `4` closes a loop or triangle and drops a longer
+  descender; `f` has a crossbar and a head curving to the right.
+* `ƀ` (e) / g — `ƀ` is a *vertical* stem, bar near the top, circle at the foot; g is a
+  *horizontal* bar through a circle, projecting right, sitting at mid height.
+* `o` (a) / `ϙ` (d) / `9` (l) — a is a bare circle; d adds a straight stem below; l is a closed
+  9 whose tail curves.
+* `∧` (s) / `v` (u) / `×` (a) / `✕✕` (i) — the caret peaks, the vee opens.
+* `θ` (b) / g — b's bar stays inside the circle, g's bar runs out past it.
 
-Per line:
-1. Look at the L image, read the glyphs one by one against the table; then the R image.
-2. Reconcile with the draft line: keep draft letters the image confirms, fix the rest.
-3. Drop nulls (λ, ny, K). Expand word signs (con, l'empereur, le pape).
-4. Segment into French words. The lines run on: a word broken at the line end continues on the
-   next line — leave it broken, do not invent the rest.
-5. Where a glyph or short run stays unreadable, write `?` per uncertain letter or `[...]` for an
-   unreadable run. NEVER invent plausible French to fill a gap: a wrong confident reading is
-   worse than a hole. It is normal for 1–3 spots per line to stay open.
+## Method
 
-Output format, one block per line, nothing else:
+`bands3.py` writes one PNG per manuscript line to `img/lines/<page>_<NN>.png`: the line cut into
+four overlapping quarters, stacked, at 2x. The quarters are labelled a–d down the left edge and
+**overlap by about three glyphs**, so do not transcribe the overlap twice. The target line is the
+lower, complete line of writing in each strip; the crop includes the feet of the line above.
+`zoom.py PAGE LINE FRAC0 FRAC1 [Z]` cuts any fraction of a line's x-extent at higher
+magnification for a spot that will not resolve. `lineinfo.py PAGE [LINE]` prints the token count
+and cluster ids of a line, which is a check on how many glyphs a line should have.
+
+Per line: read the glyphs against the table; drop the nulls; expand the word signs; segment into
+French words. The lines run on — a word broken at the line end continues on the next line, so
+leave it broken and do not invent the rest. Where a glyph stays unreadable write `?` per
+uncertain letter, or `[...]` for an unreadable run. **Never invent plausible French to fill a
+gap**: a wrong confident reading is worse than a hole.
+
+Output format, one block per line:
 
 ```
-NN | <french reading with word spaces, ? and [...] where unsure>
-NN-note | <only if needed: one short remark, e.g. "draft had X, image shows Y">
+NN | <reading, with ? and [...] where unsure>
+NN-note | <only if needed: one short remark>
 ```
 
-## Worked example (f29r line 20)
+## Worked control (f29r line 20)
 
-Draft: `squiestoiterIacoUrtdesavoyesestpartypourvenirScy`
-Image reading: ∧(s) ni(q) V(u) ✕(i) 7(e) ∧(s) ℓ(t) o(a?→no, context "estoit") ...
-Result: `20 | s qui estoit en la court de savoye s est party pour venir icy`
-(The capital I after "estoiter" was a junk cluster = "n"+"la" merged; "S" before "cy" was i.)
+Glyphs: `∧ λ n v ✕✕ 7 ∧ ℓ ꝛ I ℓ 7 f 9 o ⊡ ꝛ v 4 ℓ ϙ 7 ∧ o R ꝛ E ψ ny 7 ∧ ℓ T o 4 ℓ E T ꝛ v 4 R 7 f ✕✕ 4 I ⊡ E`
+→ `s [λ] qui estoit en la court de savoye [ny] est party pour venir icy`
 
-This is the continuation of a sentence from line 19 ("...un personnage") — expect run-ons.
+Every glyph in that line resolves, which is the evidence that the measured table is right: the
+line contains a, c, d, e (three of the four homophones), i (two), l, n, o, p, q, r, s, t, u/v and
+y, plus two of the three nulls.
