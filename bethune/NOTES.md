@@ -286,6 +286,23 @@ What is *not* done: the eight cipher lines of the block are not transcribed, so 
 would fix `66` and `72` has not been made. `bethune/cut.py 113 0.30 0.138 0.99 0.345 <prefix> 3 3.0`
 cuts them ready to read.
 
+### f. 56r confirms the pattern of the glossed leaves
+
+f. 56r (Jan 1602, canvas 119) carries three marginal glosses, and the second and third name in clear
+exactly the groups the second pass hoped for - *"Le Roy d'Espaigne est mal pourveu…"* and *"…et la en
+Flandres ou Archiduc Albert a tout besoin d'assistance"*. Examined at full resolution, it behaves like
+f. 53r: the gloss is verbatim, and whole clear phrases sit inside the ciphered block - *"les Suedes
+aussy destruisent"*, *"Mais je ne croy pas quil le face"*, *"si ce n'est pour"* - each of which is also
+in the gloss, in the gloss's order. So the glossed leaves are not blocks of cipher with a paraphrase
+beside them; they are clear and cipher interleaved with a verbatim decipherment, which is the handle
+for an alignment.
+
+Only `7` (= le Roy d'Espagne, already in the key) could be read off directly; the figures visible in the
+block are `27`, `35`, `68`, `0`, `63`, `65`. The line detector fails on this leaf (it finds a 292-px
+pitch where the true pitch is about 146, so it merges line pairs) and the block was not transcribed. A
+fixed `nlines` argument to `cut.py`, or a narrower x-window that excludes the marginal hand, is the
+first thing to try there.
+
 ### The two routes that would finish these letters
 
 Both are archival, and both are the pattern that closed Du Bellay (Le Grand 1688) and read Hesse
