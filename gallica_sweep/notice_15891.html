@@ -1,0 +1,531 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+<meta charset="UTF-8">
+
+<title>Consultation</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon"/>
+
+
+<link type="text/css" rel="stylesheet"	href="/bootstrap-3.2.0/css/bootstrap.min.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/pictos/pictos.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/common.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/displayComponent.css"/>
+
+
+<script type="text/javascript" language="javascript" src="/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript"	src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="/js/common.js"></script>
+<script	type="text/javascript"	src="/js/pagePresentationIr.js"></script>
+
+
+
+<style type="text/css">
+.avecDaoGal {}
+.avecDaoGal:before {margin-right:-20px;content:url(/img/pictoGallicaDark2.gif);width:20px;height:20px;float:left;background-size:20px;position:relative;left:-35px;top:2px;}
+#body h1 {margin-top:4px}
+#body #idDossiersAncetres {font-size: 1em;margin: 17px 0 1px;}
+</style>
+
+</head>
+
+<body>
+	<input type="hidden" id="idCurrentCompId" name="currentCompId" value="FRBNFEAD000046116_d0e334">
+	<input type="hidden" id="idCurrentIdIr" name="currentIdIr" value="FRBNFEAD000046116">
+	
+	<div id="header" class="HeaderHome">
+		
+
+
+
+<div class="topbar">
+	<div class="container-fluid"
+	
+	>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a target="_blank" href="https://www.bnf.fr" class="logo"
+					onclick="return xt_click(this,'C','14','CommunBam::clickLogoBnf','N')"><img src="/img/logoBnf.gif" alt="BnF"/></a>
+				<a href="https://archivesetmanuscrits.bnf.fr/" class="titreSite"
+				
+					onclick="return xt_click(this,'C','14','CommunBam::clickArchivesEtManuscrits','N')">Archives et manuscrits</a>
+				
+			</div>
+			
+			<div class="col-md-6 text-right">
+
+				
+				<div class="menuGeneral">
+					
+					<a href="/pageAccueil.html#idActualites" class="actus btn btn-default"
+						onclick="return xt_click(this,'C','14','CommunBam::clickActus','N')"><b></b>Actualités</a></b>
+					
+					<a href="https://www.bnf.fr/fr/outils/a.ecrire.html" class="question" target="_blank"
+						onclick="return xt_click(this,'C','14','CommunBam::clickUneQuestion','N')">Une question ?</a>
+					
+				</div>
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="bamModal">
+
+	<!-- Modal HTML -->
+	<div id="BamWaitModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					<h3 class="modal-title">Recherche en cours</h3>
+				</div>
+				<div class="modal-body">
+					<p>Vous avez lancé une recherche. Le résultat s'affichera dans un instant.</p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		
+		<div class="ariane">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" style="float:left;"><a href="/pageAccueil.html">Accueil</a>
+					<div style="padding-left: 2px;line-height: 23px;height: 37px;border-bottom: 3px solid #FFF;padding: 7px 18px 0px;display: inline-block;color: #6C6C6C;">Présentation de l'IR</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="body">
+		<div class="container">
+		
+			<div id="navigationId" style="text-align: center;font-size: 1.1em;">
+			
+			</div>
+
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div id="idDossiersAncetres">Département des Manuscrits > Français > Français > Français 15370-17058 [Saint-Germain] > Français 15370-15911</div>
+					<h1>          Français          15890          -15911        </h1>
+				</div>
+			</div>
+			
+			<!-- Interface de recherche -->
+			<div class="blocBlanc interfaceRecherch">
+				<div class="menuConsultation">
+					<ul class="menu">
+					
+					
+					<li class="sep">
+					
+
+
+<a href="#layerLoupe" class="pictos" role="tab" id="menuLoupe"><i class="icon-loupe" title="Rechercher" data-icon="&#xe609;"></i></a>
+<div id="layerLoupe" class="layer" role="tabpanel" aria-labelledby="menuLoupe">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Rechercher dans l'IR</h2>
+	<div class="forRech">
+		<form>
+		<input type="text" id="idInputContenuRecherche">
+		<button type="submit" id="idButtonContenuRecherche" class="btn btn-primary pictos"><i class="icon-search" title="Lancer la recherche" data-icon="&#xe609;"></i></button>
+		</form>
+	</div>
+</div>
+
+					</li>
+ 					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+#layerPlan {
+	margin-left:1px;
+}
+
+#layerPlan .lien.closed,
+#layerPlan .lien .treeCollapser.closed {
+	display: inline-block;
+}
+
+#layerPlan .lien,
+#layerPlan .lien .treeCollapser {
+	display: inline-block;
+}
+
+#layerPlan .childInfo {
+	background-image: url("/img/arrowListDown.png");
+	width: 12px;
+	height: 7px;
+	margin-right: 2px;
+	cursor: pointer;
+	float: left;
+	margin-top: 8px;
+}
+
+.ttt {
+	margin-top:2px;
+	margin-bottom:1px;
+}
+
+.lk::before {
+	content: "* ";
+}
+
+.lk {
+	display: table-cell;
+	padding-left: 1px;
+	font-size:0.9em;
+}
+
+#layerPlan .childInfo.closed {
+	background-image: url("/img/arrowListUp.png");
+}
+
+#layerPlan .withoutChild {
+	width: 7px;
+	height: 5px;
+	margin-right: 7px;
+	float: left;
+	clear: none;
+	margin-top: 8px;
+}
+
+#layerPlan .ttt.closed,
+#layerPlan .nivX.closed
+{
+    height: 0px;
+    float: left;
+    width: 0px;
+    visibility: hidden;
+}
+</style>
+
+<a href="#layerPlan" role="tab" id="menuPlan"><i class="plan" title="Plan"></i></a>
+<div id="layerPlan" class="layer" role="tabpanel" aria-labelledby="menuPlan">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Sommaire</h2>
+	<div class="niv0"><div class="withoutChild"> </div><a class="lk" title="Informations bibliographiques" href="FRBNFEAD000046116_info">Informations bibliographiques</a></div><div class="niv0"><div class="childInfo"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116">Français 15890-15911 • Harlay 364 (1-22) • Papiers et correspondance de Pompone Ier de Bellièvre. (1566-4607).</a><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e82">Français 15890 • Harlay 364 (1) • I Lettres et papiers divers de Pompone Ier de Bellièvre. (1566-1577).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e192">Ambassades de Bellièvre en Suisse (1566-1573). — Lettres orig. de Bellièvre : à Jean de Morvillier [8 lettres] (f. 2 et suiv., 43, etc.), — à Charles IX [49 lettres] (f. 10, 14, etc.), — à Catherine de Médicis [23 lettres] (f. 12, 16, etc.), — au duc d'Anjou [6 lettres] (f. 113, 126, etc.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e196">F. 22, 51 et 108 • Minutes de lettres de la Cour à Bellièvre</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e202">Lettres orig. de Pierre « de Grantrye » au duc d'Anjou, 1568 (f. 146), — et à Catherine de Médicis, 1569 (f. 184)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e206">F. 52 • Mémoires divers, parmi lesquels on remarque : Instructions de Bellièvre au trésorier [Jean] Grangier, commis au paiement des Ligues, avec les réponses du Conseil privé du roi, 1567</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e212">F. 78 • Minute d'une lettre de Charles IX au chancelier Michel de L'Hospital, 1567</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e218">F. 91 • Copie d'une lettre de ceux du canton de Berne à Bellièvre, 1568</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e224">F. 204 et suiv. • Minutes de lettres de Bellièvre, 1571</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e230">F. 210 et suiv. • Lettres de Bellièvre à Charles IX, copie du XVIIe siècle, 1572-1573</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e236">F. 260 et suiv. • Minutes de lettres de Bellièvre à Charles IX et à divers, 1572-1573</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e242">Harangue de Bellièvre aux Suisses, min., 1572 (f. 247), — précédée d'une note du président de Harlay (f. 246) ; Mission en Pologne (1573-1574). — Acte orig. « par lequel le sr de Gondy, gentilhomme florentin, s'oblige à remettre à Henry III tous ses revenus estans en France », signé de « Caterine » de Médicis et de « Jehan-Batiste de Gondy », 1573 (f. 324)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e246">F. 327 et suiv. • Lettres patentes de Charles IX, orig., 1574</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e252">F. 330 • Lettre orig. de Charles IX à son frère Henri, roi de Pologne, 1573</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e258">F. 334 • Lettre orig. de Belliévre à Jean de Morvillier, 1574</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e264">F. 336 • Minutes de lettres de Bellièvre, 1574</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e270">F. 338 • Mémoire de Bellièvre, écrit après la mort de Charles IX, 1574</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e276">Itinéraire de Henri III, de France en Pologne, à l'aller et au retour, incomplet, minutes (f. 342, 360 et 379), — et copie du XVIIe siècle (f. 350, 367 et 383) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e280">Affaires diverses (1575-1577). — Avis de Bellièvre au roi Henri III pour l'administration des finances (f. 387)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e284">F. 395 • Projet d'édit, 1575</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e290">F. 399, 403 et 405 • Minutes de lettres de Bellièvre à Catherine de Médicis et à divers, 1575</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e296">F. 401 • Copie d'une lettre de Henri III au pape</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e302">F. 406 et 408 • Pièces relatives à l'administration des finances</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e308">Pièces diverses, relatives à l'affaire du duc palatin Jean-Casimir, 1576 (f. 412, 414 et suiv., et 440 et suiv.), — parmi lesquelles on remarque : Une lettre orig. de Bellièvre à Jean de Morvillier (f. 416), — six lettres orig. de Bellièvre à Henri III (f. 419, 421, etc.), — et une lettre orig. du même à Catherine de Médicis (f. 424)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e312">F. 448 • Autre lettre de Bellièvre, relative à sa détention par ordre du duc Casimir, 1576</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e318">F. 463 • « Harangue que le Roy prononça aux États »-Généraux</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e324">F. 467 et 471 • Projets d'édits</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e330">Deux lettres orig. de Bellièvre, 1570 (f. 480), — et 1573 (f. 482).</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e334">Français 15891 • Harlay 364 (2) • II Lettres et papiers divers de Bellièvre (suite). (1578-1585).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e510">Minutes de lettres et mémoires de Bellièvre à Henri III (f. 1, 5, etc.), — aux États-Généraux des Pays-Bas (f. 3 et 7), — au duc d'Anjou (f. 11, 22, etc.), — à Guillaume de Nassau, prince d'Orange (f. 13), — à Catherine de Médicis (f. 29, 37, etc.), — à [Pierre d'Espinac], archevêque de Lyon (f. 28), — à [Jean III], roi de Suède (f. 39), — à Henri, roi de Navarre (f. 274, 330, etc.), — au maréchal de Joyeuse (f. 280), — à Mr de Pibrac (f. 308), — à Nicolas de Neufville [Villeroy] (f. 322), — à [Jacques des Prés], évêque de Montauban (f. 375), — à [Marguerite de Valois], reine de Navarre (f. 341 et 345), — au maréchal Henri de Montmorency (f. 361), — au duc Henri de Guise (f. 422) ; Lettres et mémoires orig. de Bellièvre, en très grand nombre, adressés à Henri III (f. 9, 18, etc.), — à Catherine de Médicis (f. 66, 70, etc.), — à Mr de Chiverny (f. 132), — à Pierre Brulart (f. 165 et suiv., 169, etc.), — à Villeroy (f. 173, 190, etc.), — au maréchal Armand de Gontaut-Biron (f. 220), — à Claude Pinart (f. 407, 416 et 419)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e514">F. 159 • Copie d'une lettre de Bellièvre au Parlement de Dauphiné</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e520">Lettre orig. de Bellièvre et de [Nicolas] de Neufville [Villeroy] à Catherine de Médicis (f. 134) ; Lettre orig. de Henri III à Bellièvre (f. 251)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e524">F. 98 • Lettre orig. adressée de Brive à Villeroy</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e530">F. 43 • Mémoires et pièces diverses, parmi lesquels on remarque : « Double de la proposition faicte à Messieurs du Clergé de France estant assemblez à Melun..., juillet 1579 »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e536">F. 49 • Projets d'édits</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e542">F. 192 • « Remonstrance de M. de Bellièvre au roy de Navarre, à Mr le prince de Condé et aux députez de l'assemblée de Montauban »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e548">F. 291 • « Mynutte », de la main de Bellièvre, « des articles... arrestez entre le roy de Navarre et Messieurs... de Matignon et de Bellièvre, à Castelgeloux », 3 février 1582</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e554">F. 424 • Minute d'un acte de Henri III</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e560">Français 15892 • Harlay 364 (3) • III Lettres et papiers divers de Bellièvre (suite). (1586-1591).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e674">F. 22 et suiv. • Ambassade de Bellièvre en Angleterre, 1586</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e680">F. 174 et suiv • disgrâce de Bellièvre, après la journée des Barricades, septembre 1588</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e686">Nombreuses minutes et copies de lettres de Bellièvre (f. 1 et suiv., etc.) ; Lettres orig. de Bellièvre : à Catherine de Médicis (f. 5), — à Villeroy (f. 52 et 121), — à Pierre Brulart (f. 110), — au duc d'Espernon (f. 129), — à Mr Marion, avocat en la cour du Parlement (f. 173), — à La Noue (f. 381)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e690">F. 22 • « Instruction à Mr de Bellièvre, allant vers la reine d'Angleterre au sujet de la reine d'Écosse », signée de Henri III, orig.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e696">F. 24 • Lettre orig. de Catherine de Médicis à Bellièvre</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e702">F. 26 • Acte orig . de Henri III, passeport de Bellièvre</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e708">F. 78 • Lettre orig. de Guillaume « de L'Aubespine-Chasteauneuf », ambassadeur de France en Angleterre, à Bellièvre, 1587</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e714">Instructions à Bellièvre, envoyé vers le duc de Guise, projet (f. 145), — et minute, de la main de Bellièvre, signée de Henri III (f. 149)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e718">Mémoire de Bellièvre « touchant les divisions de la Chrestienté », minute (f. 10), — et copie (f. 18)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e722">Pièces diverses, relatives à l'ambassade de Bellièvre en Angleterre ; on remarque : Copies d'une lettre de Henri III à la reine Élisabeth (f. 23), — et d'une lettre de Catherine de Médicis à la même (f. 25)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e726">F. 28 • Harangues et lettres de Bellièvre</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e732">F. 48 • « Instruction à Mr de Genlis, allant en France »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e738">F. 68 • Copie d'une lettre de la reine Élisabeth à Henri III</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e744">F. 82 • « Recueil de la négociation que fit Monsieur de Bellièvre en Angleterre, pour empescher l'exécution du jugement contre la reine Marie d'Escosse », nov. et déc. 1586, copie du XVIIe siècle</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e750">F. 96 • « Comme s'est passé tout le faict de la royne d'Escosse, avec quelques particularités de l'ambassade de Mr de Bellièvre », copie du XVIIe siècle</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e756">F. 165 • Lettre littéraire, relative à Du Faur de Pibrac, à Perrot, etc.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e762">F. 174 • « Ordre [de Henri III] à M. de Bellièvre, de se retirer à sa campagne », septembre 1588, copie de la main de Bellièvre</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e768">F. 175, etc. • Minutes de très nombreuses lettres, dont plusieurs d'un caractère privé, écrites par Bellièvre pendant sa disgrâce, pour la plupart datées de Grignon, les unes de sa main, les autres de la main de secrétaires, 1588-1591</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e774">F. 266 • « Lettre du Roy au pape après les Barricades », de la main de Bellièvre, 1588</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e780">F. 269 • « Réponse de M. de Bellièvre au Roy » [après sa disgrâce, septembre 1588], minute</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e786">F. 270 • « Discours sur l'invasion du marquisat de Saluces faitte par le duc de Savoye, 1588 » [par Bellièvre ?]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e792">F. 402 • Mémoire justificatif de Bellièvre à Henri IV, « sur ce qu'il s'estoit trop ingéré au fait de la réconciliation de la reine » Marguerite [avec son mari]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e798">F. 491 • « Pomponii Bellevrei ad Gregorium XIV epistola, super ejus monitorialibus litteris contra catholicos qui regi adhaerebant..., scripta in villa de Grignon, in fine 1591... »</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e804">Français 15893 • Harlay 364 (4) • IV Lettres et papiers divers de Bellièvre (suite), mss et impr. (1592-1597).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e921">Minutes de lettres de Bellièvre à diverses personnes, pendant sa disgrâce (fin), 1592-1593 (f. 1). — On remarque, parmi ces lettres, la copie d'un mémoire de Bellièvre adressé au président Jeannin, 1592 (f. 47), — et un « escrit de M. de Bellièvre contre la convocation des prétendus Estats de la Ligue... » (f. 68) ; Minutes de lettres et mémoires de Bellièvre relatifs aux Conférences de Suresne f. (123), — et à la conversion de Henri IV (f. 137)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e925">F. 136 • « Advis aux François sur la Déclaration faicte par le Roy, en l'église Sainct-Denys-en-France, le XXVe jour de juillet 1593 », 1593, in-8°, impr., avec cette note du président de Harlay : « Cest Advis aux François est apparemment faict par M. de Bellièvre... ; j'ay les corrections de sa main pour l'imprimer au net » [ces corrections sont au feuillet 136u ]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e931">F. 151 • Mémoire, en latin, sur l'excommunication de Henri IV, de la main de Claude de Bellièvre, archevêque de Lyon</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e937">F. 398 • « Mémoires envoyés par M. d'Ossat sur l'exéquution de la bulle d'absolution »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e943">Minutes de lettres de Bellièvre, pour la plupart datées de Lyon, sur les affaires de Provence, Dauphiné, Piémont, etc., 1594-1595 [cf. ms. Dupuy 64] (f. 159), — sur différentes questions de finances, sur les affaires du Clergé, etc., 1596-1597 (f. 301)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e947">F. 280 et suiv. • Copie, de la main de Bellièvre, d'une déposition du capucin « Boussicaut », dit « frère Chérubin » de Saint-Jean de Maurienne, juillet 1595, sur les agissements d'un certain nombre de frères italiens du même Ordre, et pièces relatives à la même affaire</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e953">F. 331 • Copie, du XVIIe siècle, d'une lettre de MM. de Bellièvre et de Cheverny à Henri IV, 1596</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e959">Tableau des « revenus » de l'État [sous Henri III ?], de la main de Bellièvre (f. 390) ; Lettres orig. de Bellièvre à Villeroy (f. 200 et suiv., 219, etc.), — à Henri IV (f. 213 et suiv., etc.), — à Charles de Gontaut-Biron, maréchal de France (f. 231)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e963">Lettre orig. de Nicolas « de Neufville » [Villeroy] (f. 428), — et minutes de lettres du même (f. 242 et 250).</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e967">Français 15894 • Harlay 364 (5) • V Lettres et papiers divers de Bellièvre (suite). (1598-1606).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1086">Lettres, mémoires, etc., relatifs aux négociations de Vervins, 1598 (f. 1-317). — On remarque : Deux actes orig. de Henri IV (f. 1 et 2)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1090">F. 12 et suiv., etc. • Nombreuses lettres orig., de la main de Bellièvre, sauf exception, et signées des négociateurs, « Bellièvre » et « N[icolas] Brulart »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1096">F. 24 et suiv. • Quelques lettres orig. de Bellièvre seul</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1102">Paix de Vervins, « Traicté pour les particuliers », orig. (f. 169), — et copie, avec pièces annexes (f. 172)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1106">« Commission aux seigneurs [Charles] de [Gontaut-] Biron, [Pompone] de Bellièvre et [Nicolas] Bruslart », relative à l'observation de la paix de Vervins, signée de Henri IV, orig., 1598 (f. 184) ; Lettres et mémoires de Bellièvre devenu chancelier, procès criminels, etc., 1599-1604 (f. 318 et suiv.). — On remarque : « Mémoire... baillé à M. de Sillery, lorsqu'il partit... pour aller en ambassade à Rome » (f. 330)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1110">F. 352 • Mémoire du cardinal d'Ossat, relatif à la dissolution du mariage de Henri IV</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1116">Affaires diverses, et notamment affaires de Savoie (f. 370 et suiv.) ; Pièces relatives au procès et au testament du maréchal Charles de Gontaut-Biron, 1602 (f. 472 et suiv.). — On remarque : Acte orig. de Henri IV (f. 472)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1120">F. 502 • Papiers orig. du maréchal de Biron</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1126">F. 509 • Lettre orig. du même</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1132">F. 510 • Inventaire des pièces produites dans le procès du maréchal de Biron</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1138">Lettres orig. de Henri IV (f. 518 et suiv.), — et de Martin « Ruzé », sr de Beaulieu (f. 522)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1142">F. 523 • Copie de diverses lettres de Bellièvre, Henri IV, etc.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1148">F. 537 • Billet orig. de Nicolas « de Neufville » [Villeroy]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1154">F. 538 et suiv. • Billets orig. de « Maximilien de Béthune » [Sully]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1160">Pièces relatives au procès de Henri de La Tour-d'Auvergne, maréchal de Bouillon, 1602 (f. 549 et suiv.). — On remarque la minute d'une déclaration de Henri IV, de la main de Bellièvre (f. 552), — et une lettre orig. de « Henry de La Tour » -d'Auvergne, maréchal de Bouillon (f. 565) ; Pièces diverses. — Minute d'une lettre de Henri IV, de la main de Bellièvre (f. 585)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1164">Lettres diverses, orig., min. et copies, de Bellièvre, 1603-1606 (f. 586 et suiv.), — parmi lesquelles on remarque la copie d'une lettre de Bellièvre à « Monsieur de Bévillier » [Thibaut Desportes], sur la mort de son frère, Philippe Desportes (f. 611).</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1168">Français 15895 • Harlay 364 (6) • VI « Lettres, harangues et mémoires de Monsieur de Bellièvre, depuis 1568 jusques en 1593 ».</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1229">Copie du XVIIe siècle. On remarque, dans ce recueil, des copies de lettres ou mémoires de Henri III, 1584 (f. 64), — de Du Faur de Pibrac, 1584 (f. 70), — du président Jeannin, 1592 (f. 195), — et de Villeroy, 1592 (f. 231).</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1233">Français 15896 • Harlay 364 (7) • VII Lettres orig. adressées au chancelier de Bellièvre par le roi, la reine, les secrétaires d'État. (1599-1606).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1330">Deux cent quarante lettres de Henri IV (f. 1 à 3, 6 à 11, 13 à 53, 55 à 115, etc.), — dix lettres de Marie de Médicis (f. 54, 170, etc.), — et dix lettres de la reine Marguerite (f. 280 et suiv.) ; Cent dix lettres environ de Nicolas « de Neufville » [Villeroy] (f. 294, 301 et suiv., etc.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1334">Nombreuses lettres de Louis « Potier » de Gesvres (f. 296, 306, etc.), — quelques lettres de M. « de Loménie » de Brienne (f. 303, 325, etc.), — de Martin « Ruzé », sr de Beaulieu (f. 299, 304, 335, etc.), — et de Pierre Forget, sieur de « Fresne » (f. 354, 425, etc.), — deux lettres de Claude « Pinart », sieur de Cramailles (f. 4 et 405), — et une lettre de « Coignet » de « La Thuillerie » (f. 420)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1338">Lettres orig. de Henri IV à Mr de Harlay (f. 468), — à Mr de Bragelonne (f. 469), — à Mr de La Guesle (f. 473)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1342">F. 480 • Acte orig. de Henri IV</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1348">F. 90 • Copie d'une lettre de Henri IV</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1354">F. 156 • Lettre orig. de Jacques Ier, roi d'Angleterre, à Henri IV</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1360">Français 15897 • Harlay 364 (8) • VIII Lettres orig. adressées au chancelier de Bellièvre par divers prélats, cardinaux, archevêques, évêques et autres dignitaires ecclésiastiques, par divers princes et princesses du sang, par le connétable de France, plusieurs maréchaux, amiraux, etc. (1599-1606).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1840">Lettres de cardinaux : Deux lettres de « Charles, cardinal de Lorraine » (f. 2 et 4), — dix-sept lettres du «cardinal [François] de Joyeuse » (f. 6 et suiv., et 16 et suiv.), — six lettres de « Pierre, cardinal de Gondy » (f. 14, et 42 et suiv.), — huit lettres d' « A[rnauld], cardinal d'Ossat » (f. 51 et suiv., et 74), — deux lettres d' « A[nne] d'Escars, cardinal de Givry » (f. 66 et 68), — deux lettres de « F[rançois], cardinal de Sourdis » (f. 70 et 72), — trois lettres de « J[acques Davy], cardinal Du Perron » (f. 76 et suiv.) ; Lettre de [Boniface Bevilacqua], patriarche de Constantinople (f. 82)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1844">Lettres de divers archevêques : « Horatio [Montanô], arcivescovo d'Arles » (f. 84 et 88), — « François [de La Guesle], archevesque de Tours » (f. 86), — « Hon[oré de Laurens], archevesque d'Ambrun » (f. 90). — « P[ierre de Villars], archevesque de Vienne » (f. 92 et suiv., 105 et suiv., etc.), — « Léonard [de Trapes], archevesque d'Aux » (f. 96 et 98), — « C[laude] de Bellièvre, archevesque de Lyon » (f. 100 et 101 bis), — « R[ainaud de Beaune], archevesque de Bourges, esleu archevesque de Sens » (f. 102 et 103), — « Paul [Hurault], archevesque d'Aix » (f. 109)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1848">Lettres de divers évêques : « Erric de Lorraine, évesque et co[mte] de Verdun » (f. 111, 129, etc.), — Geofroy « de Sainct-Belin, évesque de Poictiers » (f. 113), — Pierre « Saulnier, évesque d'Ostun » (f. 115 et 125), — « G[uillaume Le Blanc], évesque de Grasse et de Vance » (f. 117), — « J[acques Davy] Du Perron, évesque d'Évreux », plus tard cardinal (f. 121, 133 et suiv., etc.), — « Legier [de Plas], évesque de Lectoure » (f. 123), — « Giovanni de Bonsi], vescovo di Bésiers » (f. 127 et 153), — « J[acques] de Corneilhan, évesque de Roudès » (f. 131), — « L[ouis] de Vigne, évesque d'Uzès » (f. 138), — « Chr[istophe] de La Vallée, évesque et c[omte] de Toul » (f. 139), — « Jean [Garnier], évesque de Mompellier » (f. 141), — Philippe « Hurault, [évesque] de Chartres » (f. 143), — « Fran[çois Fléard], évesque de Grenoble » (f. 145), — Christophe « de L'Estang, évesque de Carcassonne » (f. 147), — Jean « Bertier, évesque de Rieux » (f. 149 et 151), — « Jehan Du Bec, évesque de Saint-Malo » (f. 155), — « A[rnauld] de Pontac, é[vesque] de Bazas » (f. 160 et suiv.) ; Lettres de divers dignitaires ecclésiastiques, à savoir : « Hugues Burlat, pénitencier et théologal de l'église d'Orléans » (f. 172), — les chapitres de Lyon (f. 173, et 192 et suiv.), — et du Mans (f. 174), — le doyen de la cathédrale de Verdun (f. 176 et 189), — les chapitres de Verdun (f. 178 et 184), — Bordeaux (f. 180), — Chartres (f. 182), — et Nevers (f. 186), — le chapitre de la Sainte-Chapelle du roi à Dijon (f. 188), — les chanoines de l'église sainte de Narbonne (f. 191), — « Perrin des Perrins » (f. 196), — « frate Honorio da Milano, capucino » (f. 198), — « Philippe [de Caverel], abbé de Saint-Waast » d'Arras (f. 200), — Guillaume « Manuel » de La Fay, abbé « de Saint-Ruf », neveu du chancelier de Bellièvre (f. 202), — « f[rère] Ange de Joyeuse, capucin » (f. 204), — « Edme [de La Croix], abbé de Cisteaux » (f. 206), — le P. « Pierre Coton », S. J. (f. 208 et 210), — « Honoré Bochart », S. J. (f. 211), — « Jan de Marsbourg », « abbé de Sainet-Hubert-ès-Ardennes » (f. 212), — « Bruno, général des Chartreux » (f. 214), — Jean « Du Boys, célestin parisien » (f. 216) ; Lettres de princes du sang, pairs de France, etc. : Sept lettres de « Henry » II « de Bourbon », prince de Condé (f. 217 et suiv., et 252), — sept lettres de « Charles de Bourbon », comte, de Soissons (f. 224 et suiv.), — une lettre de « Charles » III « de Bourbon, archevesque de Roüen » (f. 231), — une lettre de « Diane, l[égitimée] de France », fille de Henri II (f. 233), — deux lettres de « Charles de Valois », duc d'Angoulême, fils naturel de Charles IX (f. 234 et 235), — une lettre de « Jehanne de Bourbon », fille de Louis II de Bourbon, duc de Montpensier, abbesse de Jouarre (f. 236), — dix lettres de « Catherine » de Navarre, soeur de Henri IV (f. 238 et suiv.), — quatorze lettres de « J[ean-] Louis de La Valette », duc d'Épernon (f. 250, et 486 et suiv.), — trois lettres de « Charles de Lorraine, duc d'Elbeuf » (f. 253, 255, etc.), — six lettres de « Charles de Lorraine », duc de Mayenne (f. 254, 258, etc.), — deux lettres de « Claude de Guise » [duc de Chevreuse ?] (f. 256 et 272), — quatre lettres de Charles de Lorraine, duc de « Guyse » (f. 266 et suiv.), — deux lettres de Charles de Gonzague, duc de « Nevers » (f. 274 et 275) ; Trente-trois lettres de Henri de « Montmorancy », connétable de France (f. 276 et suiv., 288 et suiv., etc.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1852">F. 287, 306 et 484 • Trois lettres de « C[harles] de Montmorency », amiral de France</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1858">Lettres de maréchaux de France et autres personnages : Trente-sept lettres du maréchal « Alfonso d'Ornano » (f. 319, et 322 et suiv.), — quatre lettres du maréchal de Beaumanoir, marquis de « Lavardyn » (f. 321, 451 et suiv., et 483), — trente lettres du maréchal de « Lesdiguières » (f. 388 et suiv., et 441 et suiv.), — une lettre du maréchal de « Lesdiguières » et d'Artus « Prunier, sieur de Saint-André », orig. (f. 439), — et copie (f. 437), — une lettre du maréchal Jean « de Montluc », sr de Balagny (f. 454), — une lettre de Guillaume de Hautemer, sr de « Farvaques » (f. 455), — deux lettres de Charles « de Matignon » (f. 456 et 457), — trois lettres du maréchal Claude de « La Chastre » (f. 458, 460, etc.), — huit lettres de Philbert de « La Guiche », grand-maître de l'artillerie de France (f. 459, 462, etc.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1862">Lettres de Pons de Cardaillac, marquis de « Thémines » (f. 476), — Charles de « Créquy » (f. 478), — Antoine de « Roquelaure » (f. 479 et 481), — et « Henry de Rohan » (f. 503 et suiv.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1866">Six lettres du maréchal Charles de Gontaut- « Biron » (f. 507 et suiv.), — sept lettres d'Anne de Lévis. duc de « Vantadour » (f. 514 et suiv., et 528 et suiv.), — huit lettres de Sully (f. 519 et suiv.), — deux lettres de « Henry de La Tour » -d'Auvergne, maréchal de Bouillon (f. 535 et 536), — quatre lettres de « Rogier de Bellegarde », descendant du maréchal (f. 537 et suiv.), — une lettre du pamphlétaire « Loys Dorléans » (f. 541), — et cinq lettres du maréchal Charles II de Cossé- « Brissac » (f. 543 et suiv.) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1870">Lettres de : « Catherine de Parthenay », veuve de René II, vicomte de Rohan (f. 548), — « Marie de Lorraine », fille de Claude de Lorraine, duc d'Aumale, abbesse de Chelles (f. 549 et 551), — « Henriette de Clèves », veuve de Louis de Gonzague, duc de Nevers (f. 553 et 555), — et « Marie de Luxambourg », femme de Philippe-Emmanuel de Lorraine, duc de Mercoeur (f. 556 et 557)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1874">F. 559 et suiv. • Sept lettres d' « Anne d'Est », veuve de François, duc de Guise, et de Jacques de Savoie, duc de Nemours</a></div></div></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e1880">Français 15898 • Harlay 364 (9) • IX Lettres orig. adressées au chancelier de Bellièvre par divers présidents et conseillers aux Parlements, etc. (1599-1606).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2091">Parlement de Paris. — Lettre de « J[acques-] A[uguste] de Thon » (f. 1), — trois lettres de Louis « Servin », avocat-général du roi (f. 3, 23 et 25), — deux lettres signées « Servin », Jacques « de La Guesie » et Simon « Marion » (f. 5 et 21)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2095">F. 11 • Copie des « Lettres missives... et arrêts de la cour de Parlement de Paris, pour le règlement du sallaire des advocats de ladite cour »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2101">F. 16 • Copies des lettres patentes de Henri IV, relatives à la même affaire</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2107">F. 27 et suiv. • Huit lettres de Jacques « de La Guesle »</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2113">Lettres diverses, notamment de [Paul ?] « Scarron » [père de l'écrivain ?] (f. 45), — et de « J. Pinon, conseiller au Parlement » (f. 47) ; Parlement de Toulouse (f. 49 et suiv.) — Nombreuses lettres, parmi lesquelles on remarque : Trente lettres du président Nicolas « de Verdun » (f. 69 et suiv., et 147), — sept lettres de M. « de Paulo » (f. 145, 151 et suiv., etc.), — six lettres d'[Antoine ?] « de L'Estanc » [sire de Belestang ?] (f. 176 et suiv., 185, etc.), — et treize lettres de M. « des Vignoles » (f. 209, 215, etc.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2117">Lettre des « conseillers faisans profession de la Religion préthendue Refformée en la Chambre de l'éedit séant à Castres » (f. 265) ; Parlement de Bordeaux (f. 273 et suiv.). — On remarque huit lettres signées « de Pontac » (f. 273, 277, etc.), — neuf lettres de Guillaume « Daffis » (f. 293 et suiv., et 325 et suiv.), — et huit lettres de « Des Aigues » (f. 323, 329, etc.) ; Parlement de Dauphiné (f. 365 et suiv.). — On remarque vingt-trois lettres de « Dyllins » [Ennemond Rabot, sieur d'Illins], neveu de Bellièvre (f. 401 et suiv.), — six lettres de « Jehan de La Croix-Chevrières » (f. 447 et suiv., 467 et suiv., etc.), — trente-sept lettres d'Artus « Prunier, sieur de Saint-André » (f. 450 et suiv., et 473 et suiv.), — et sept lettres de « Cl[aude] Expilly » (f. 499, 503 et suiv., etc.) ; Parlement de Normandie (f. 525 et suiv.). — On remarque huit lettres de « Boislévêque » (f. 525, 531 et suiv., etc.), — et trente-sept lettres du président « Claude Groulart » (f. 549 et suiv.) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2121">Parlement de Dijon (f. 606 et suiv.). — On remarque deux lettres de « N[icolas] Brulart », baron de La Borde (f. 623 et suiv.) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2125">Parlement de Provence (f. 630 et suiv.). — On remarque une lettre de Pierre « Brulart » (f. 632), — et quatorze lettres de « G[uillaume] Du Vair » (f. 642 et suiv.) ; Parlement de Bretagne (f. 681 et suiv.). — On remarque dix-sept lettres signées « Couriolle » (f. 681 et suiv., 695 et suiv., etc.), — et dix-sept lettres signées « Cussé » (f. 725 et suiv.).</a></div></div></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2129">Français 15899 • Harlay 364 (10) • X Lettres adressées au chancelier de Bellièvre par différents membres des Chambres des Comptes et des Aides, conseillers d'État et maîtres des Requêtes, ambassadeurs de France à l'étranger, consuls, maires, échevins, etc., lieutenants-généraux, trésoriers de France, etc. (1599-1607).</a></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e2723">Français 15900 • Harlay 364 (11) • XI.</a><div class="nivX closed"><div class="childInfo closed" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3895">Français 15900 (1) • 1° Lettres adressées à Bellièvre par différents souverains étrangers, leurs représentants, agents, etc. (1596-1605).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3901">F. 1 et suiv. • Rome. — Cinq brefs de Clément VIII, dont quatre contresignés par le cardinal Silvio Antoniano</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3907">Trois lettres du « cardinale di Firenze » [Alexandre de Médicis, légat en France] (f. 7 et suiv.), — neuf lettres du cardinal [Pietro ?] « Aldobrandini » (f. 13 et suiv.)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3911">Lettres des cardinaux Antonio-Maria « Salviati » (f. 31), — « Montalte » [Peretti] (f. 33), — « del Bufalo » [Innocenzio Bubalo] (f. 35 et 41), — Ottavio « Bandini » (f. 37), — « Sérafin » [Olivier] (f. 43), — et « Du Perron » (f. 45)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3915">F. 102 • Lettre de « N[icolas] Brulart » de Sillery, ambassadeur de France à Rome</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3921">Lettres de nonces du pape (f. 46, et 94 et suiv.), — notamment quatre lettres de « Gas[paro Selingardi], vescovo di Modena » (f. 46, et 94 et suiv.), — et une lettre d' « Innocenzio [Bubalo], vescovo di Camerino, nuntio » (f. 104) ; Venise (f. 48 et 49) ; Savoie . — Six lettres de « C[harles-] Emanuel » Ier , duc de Savoie (f. 50 et suiv.) ; Toscane. — Cinq lettres d' « il gran-duca di T[oscana] », Ferdinand Ier (f. 62 et suiv., et 72), — et trois lettres de « Chrestiene, g[rande-]d[uchesse] » de Toscane (f. 70, et 74 et suiv.) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3925">Mantoue. — Une lettre de Vincent Ier, duc de Mantoue (f. 78) ; Modène . — Une lettre de « Cesare d'Este », duc de Modène (f. 80) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3929">Malte. — Six lettres, dont une du grand-maître Martin Garzez (f. 82), — et cinq du grand-maître Alof de « Wignacourt » (f. 84 et suiv.) ; Italie (divers). — Lettres d' « Angelo Badoeno », ambassadeur de Venise (f. 110), — « Ambrosio Lomellino » (f. 112), — « Gio[vanni] Bandini » (f. 114 et 116), — « Bernardino Paulini » (f. 118), — « Maffeo Barberini » (f. 120), — et « Luigi Rucellai » (f. 122)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3933">Cinq lettres de « Montmayeur-Brandis » (f. 126 et suiv.) ; Avignon (f. 39, 106, 108, et 132 et suiv.). — Six lettres du cardinal « Carlo Conti, vescovo d'Ancona, vice-legato » (f. 39, et 132 et suiv.), — quatre lettres de « P[ietro-] Francesco [Montorio], vescovo di Nicastro, vice-legato » (f. 142 et suiv.), — et quatre lettres des consuls d'Avignon (f. 150 et suiv.) ; Espagne. — Trois lettres de « don Baltazar de Çuniga » [Zuñiga], ambassadeur d'Espagne (f. 158 et suiv.), — et trois lettres d' « Ant[onio] Perez » (f. 164 et suiv) ; Angleterre. — Deux lettres de Jacques Ier (f. 170 et 172), — deux lettres de « Tho[mas] Parry », ambassadeur d'Angleterre en France (f. 174 et 176), — et une lettre de « Guiliaume de Barclay » (f. 178) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3937">Lorraine. — Neuf lettres de « Charles » II, duc de Lorraine (f. 192 et suiv.) ; Strasbourg . — Une lettre de « ceulx du conseil privé de la ville et république de Strasbourg » (f. 213), — et deux lettres des « magister et senatus civitatis Argentinensis » (f. 215 et 217) ; Allemagne. — Une lettre de « Joachim Frideric.., marquis de Brandenbourg..., duc de Prussie » (f. 181), — trois lettres de « Frideric » [IV], électeur palatin (f. 182, et 186 et suiv.), — une lettre de « Frideric » électeur palatin ?] (f. 184), — deux lettres de « Frideric », duc de Wurtemberg (f. 190 et 191), — une lettre de « Jehan, comte palatin du Rhyn », duc des Deux-Ponts (f. 203), — trois lettres de « Christian, p[rince] d'Anhalt » (f. 205 et suiv.), — et une lettre de « David, comte... de Mansfeldt » (f. 211)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3941">Lettres des consuls, etc. de Nuremberg (f. 219), — et d'Augsbourg [Auguste] (f. 220 et 221) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3945">Pays-Bas espagnols. — On remarque deux lettres de « Charles, duc de Croy et d'Arschot » (f. 222 et 224), — une lettre du « président Richardot » (f. 228), — et une lettre de « Philippes de Ayala » (f. 230) ; Pays-Bas hollandais. — On remarque une lettre de « Maurice de Nassau », prince d'Orange (f. 232), — trois lettres de « B. Buwinckhausen de Wallmerod » (f. 234, 235 et 244), — et quatre lettres de « Françoys d'Aerssen » (f. 236 et suiv.).</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3949">F. 246 et suiv. • Suisses et alliés particuliers.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3958">F. 254 et 305 • Lettres des gens du Parlement de Dôle.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3964">Lettres des villes et cantons de Berne (f. 256, 258, et 283 et suiv.), — Soleure (f. 260, 262 et 299), — Bâle (f. 264 et 266), — Fribourg (f. 267, 269 et 271), — et Genève (f. 275, 277 et 279).</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3968">F. 273 • Lettres de la « république de Wallay » [Valais]</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3974">Lettres de divers personnages.</a></div></div></div></div><div class="nivX closed"><div class="childInfo closed" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3981">Français 15900 (2) • 2° Lettres adressées par diverses personnes à Bellièvre, chancelier, série chronologique. (1599-1607).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3987">Lettres, rangées chronologiquement (1599-1607), adressées à Bellièvre, chancelier, par un grand nombre de personnes, parmi lesquelles: Jean de La Fin, seigneur de « Beauvoir-La Nocle » (f. 308), — « Louyse de Colligny », princesse d'Orange, veuve de Guillaume le Taciturne (f. 310 et 482), — [Jean ?] « Vigier » [sieur de l'Escanal, dit Vigier le jeune ?] (f. 312), — « La Tusye « (f. 313), — Nicolas « de Langes », cousin de Bellièvre [neuf lettres] (f. 315, 317, etc.), — « La Fin-La Nocle » [dix-huit lettres] (f. 319, 325, etc.), — « Horatio Rucellai » (f. 327 et 365), — « R[oger de Commenge », sieur de Sobolle (f. 329), — « Lois de Crilon » Louis des Balbes de Berton de Crillon] (f. 331, 339 et 624), — « Magdeleine de Bretaigne », belle-mère de la comtesse de Guiche (f. 335), — « le collonel Balthasard » [de Cressier ?] (f. 341), — « Joffrey » (f. 343 et 346), — « Jehan Croppet » (f. 345 et 643), — « Du Chastelier » (f. 348), — Antoine de « Roquelaure » (f. 352), — « de Baillon-Saillant » (f. 353), — Isabelle de « Coucy », femme de Roger de Comminge, sieur de Sobolle (f. 355, 445 et 498), — Philbert de « La Guiche », grand-maitre de l'artillerie de France (f. 353), — « P. de Granet » (f. 360, etc.), — « H. de Gondy » (f. 362), — « l'abate [Luigi] Rucellai » (f. 363), — Estienne « Pasquier » (f. 367), — [Robert ?] « Myron » (f. 369), — César de « Disimieu » [quatre lettres] (f. 372, 392, etc.), — [Edme de Malain ?], baron de « Lux », parent de Bellièvre (f. 376 et 600), — « La Caze » (f. 377), — « Bernard de Girard du Haillan » (f. 379 et 406), — Joachim de Jaucourt, baron de « Dinteville » (f. 380, 472, etc.), — « Georgius Cellarius [Keller], medicus Passivus [?] » (f. 382), — « Champier » [?] (f. 386), — Jean de Senaux, sieur de « Montbrun » (f. 388), — Henri de « Noailles », gouverneur du haut pays d'Auvergne [trois lettres] (f. 390, 431, etc.), — « Sabran » (f. 396), — « de Baugy » (f. 398), — « R. Demerlier » [Domerlier ?] (f. 400), — « de La Fay » neveu de Bellièvre (f. 401 et 585), — « de Myolans » (f. 402), — de « Myolans », autre que le précédent (f. 596), — « La Fare » (f. 404), — « P[ierre de] Boissat » (f. 407), — [Michel ?] Du Faur de « Pibrac » (f. 409), — [Honoré ?] « de Serre » (f. 411), — « Ulricus Chelius [II], medicus Argentinensis » (f. 413), — « Jaques de Mille » (f. 415), — « Sainct-Fourgeulx » (f. 419), — « Dumas » (f. 423), — « Servient » [six lettres] (f. 427, 436, etc.), — « La Salle » (f. 429), — « C[laude] de Bellièvre, ar[chevesque] de Lyon » (f. 432), — le pamphlétaire « Loys Dorléans » (f. 440), — madame « Habert » (f. 442), — le sieur « Ravot » (f. 443), — « Dominique de Vie » (f. 446), — « Jeanne Deygua », veuve du président de Saint-Jean (f. 448), — Guillaume Fouquet, sieur de « Lavarane » (f. 450), — « George de Bauffremont », comte de « Croizille » [Croisilles] (f. 451), — « Du Villars » (f. 453), — « de Saint-Félix » (f. 455), — le président « de Paulo » (f. 457), — « de Ferron » (f. 459), — « Sébastien Zamet » [quatre lettres] (f. 461, 503, etc.), — « François Perrot de Mésières » (f. 462), — les consuls de Montauban (f. 464), — « les habitans des parroisses... proches » de la forêt de Blois (f. 466), — « Duchairic » (f. 467), — « les catholicques de La Rochelle » (f. 469), — Artus « Prunier, sieur de Saint-André », parent de Bellièvre (f. 471 et 613), — [Claude ?] « Cotereau » (f. 474), — « François Rogier » (f. 476), — « Mespoulet » (f. 480), — « Ant[oine] Possevin », S. J. (f. 484), — « E, de Castelnau » (f. 486 et 518), — « Chevrières » [trois lettres] (f. 488, 582, etc.), — Henri de « Bourdeille » [trois lettres] (f. 490, 622, etc.), — « Bonnouvrier » (f. 491), — François de « Chavygny », sieur de Briare (f. 493), — Urbain « de Laval », marquis de Sablé, maréchal de Boisdauphin (f. 495 et 533), — René de Rieux, sieur de « Sourdéac » (f. 499), — « Françoise de Foix » [madame de Candalle, abbesse de Sainte-Glossinde de Metz] (f. 500), — « Marinus Grimano », doge de Venise (f. 502), — « Linage, président et lieutenant-général à Vitry » (f. 505), — l'historiographe « P[ierre] Matthieu » (f. 508), — le président « Des Aiguës » [quatre lettres] (f. 510, 571, etc.), — Georges « Du Bourg », sieur de « Clermont » (f. 512), — « Halley » (f. 520), — « de Verteuil » [trois lettres] (f. 522, 598, etc.), — Jean « Sève », sieur de « Fromenle » (f. 524), — « Sève » [autre que le précédent ?] (f. 526), — le sieur « Marcel » (f. 528), — « Anne de Bellièvre », femme d'Ennemond Rabol, sieur d'Illins, et nièce du chancelier (f. 529), — « Claude Poculet » (f. 531), — « Boysse » [lettre adressée à M' de Gesvres] (f. 534), — les prévôt des marchands et échevins de Lyon (f. 536), — « Albon » [quatre lettres] (f. 539 et suiv., 601, etc.), — Louis « Richeome », S. J. (f. 545), — « Chalom » (f. 549), — de « Cournusson » (f. 551), — « Tournon » (f. 553), — « Leblanc-Lavallière » (f. 557 et 564), — « Guilloyre » (f. 559), — [Hector de Pardaillan], sieur de « Gondrin » [trois lettres] (f. 561, 566, etc.), — [Antoine-Arnaud de Pardaillan], marquis de « Montespan » (f. 563), — « de Ligniville », sieur de « Vannes » (f. 569), — « Grolier » (f. 573), — le sieur « Besme » (f. 575), — le sr « Bonhomme » (f. 577), — Abel de Bérangier, sieur de « Morges », gouverneur de Grenoble (f. 586), — Artus « Henry », sieur d'Escoussieu, gendre de Bellièvre (f. 588 et 667), — Bertrand de Baylens, sieur de « Poyanne » (f. 593 et 615), — « Duret » (f. 616), — « Guy de Rieux », sieur de Chasteauneuf (f. 630), — [Vallée], sieur « Des Barreaux » (f. 632), — Samuel « Spifame », sr de Bisseaux (f. 634), — René de La Tour, sieur de « Gouvernet » (f. 645), — de « Jehan » [trois lettres] (f. 648, et 654 et suiv.), — Richard « de Bazemont » (f. 650), — « Colladon » (f. 652). — « J. de Dompmartin » (f. 660), — Jeanne « Chastagner » d'Abain de La Rochepozay, veuve de Gaspard de Schonberg (f. 662), — « J[ean-]J[acques] de Mesmes », sieur des Arches (f. 671), — « Em. Regnault » (f. 675), — « Irland..., doyen de la faculté [de droit]..., et conseiller au siège présidial de Poictiers » (f. 677), — « Catilhon » (f. 679), — « O. D...o, dit Vermont » (f. 684), — Antoine « Grollier » (f. 685), — « de Villars » (f. 688), — « Rudolff Reding, ritter » (f. 689) ;</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3991">Lettres de date incertaine, adressées à Pompone de Bellièvre par diverses personnes, parmi lesquelles : « Du Villars » (f. 692), — « Dominique de Vic » (f. 694 et 703), — « Chevrières » [neuf lettres] (f. 696, 725 et suiv., etc.), — « de Hainault-Beauregard » (f. 698), — Françoise de Longuejoue, baronne de « Monglat », gouvernante des enfants de France [trois lettres] (f. 699, et 713 et suiv.), — « Vallançay » (f. 700), — « Sébastien Zamet » (f. 702), — Philippe « Desportes » (f. 705 et 739), — Guillaume Fouquet, sieur de « Lavarane » (f. 707 et 759), — Bertrand de Baylens, sieur de « Poyanne » (f. 708 et 756), — Henri de « Noailles », gouverneur du haut pays d'Auvergne (f. 710), — « Marigne » (f. 711), — « Lois de Crilon » [Louis des Balbes de Berton de Crilon] (f. 715), — « J[acques II de Lorges, comte] de Mongommery » (f. 717), — les maire, échevins, etc. de La Rochelle (f. 718), — « Sagoy » (f. 720), — madame de « Caumont » (f. 722), — madame « Froze » (f. 736), — « Jehan Petiot » (f. 737), — Henri de « Bourdeille » (f. 740 et 782), — « Pougny » (f. 742), — « Françoise de Daillon » Du Lude, veuve du maréchal Jacques de Matignon (f. 743), — « de Courselles » [?] (f. 744), — madame « Habert » (f. 745), — l'un des professeurs de droit à l'Université de Bourges, « Fondinus » [?] (f. 746), — « le vidame de Chartres » [Prégent de La Fin ?] (f. 750), — Jacqueline « de Bueil », comtesse de Moret (f. 751), — « Mornieu » (f. 752), — « Henry de La Tour »-d'Auvergne, duc et maréchal de Bouillon (f. 758), — « de Fabas » (f. 767), — François-Annibal d'Estrées, marquis de « Ceuvres » (f. 769), — madame de « La Venoullière » (f. 771), — Antoine de « Roquelaure » [trois lettres] (f. 773, 783, etc.), — « Albon » (f. 774), — madame « de Bauffremont » (f. 776), — le sieur de « Vitry » (f. 778), — « Sabran » (f. 780), — madame « J. de Balsac » [Jeanne Gaignon, femme de Charles de Balsac d'Entragues ?] (f. 784 et 787), — Ulricus Chelius » et « Philippus Chelius » (f. 785), — « Aymerie de Rochechouart », veuve de Philippe de Volvire, marquis de Ruffec (f. 790), — Antoine II, comte de « Gramont », comte de Guiche (f. 791), — François de « Chavygny », sieur de Briare (f. 793), — « Marie Arbaleste », belle-mère de Sully (f. 795), — « de La Violette » (f. 798), — « Buysson » (f. 799), — « Marguerite Rappouel », veuve de Mathieu Coignet, sieur de Haquebouille et de La Tuillerie, ambassadeur en Suisse (f. 801), — « Pont-de-Vaux » (f. 803), — le président « de Paulo » (f. 804), — « C[hristophe] de Harlay », comte de Beaumont (f. 806).</a></div></div></div></div></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e3995">Français 15901 • Harlay 364 (12) • XII Lettres orig. adressées à Pompone de Bellièvre par diverses personnes, principalement pendant l'année 1571. (1562-1602).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e4463">Français 15902 • Harlay 364 (13) • XIII Lettres diverses, adressées à Bellièvre, principalement pendant les années 1572 et 1573, et pièces diverses, relatives notamment aux relations de la France avec la Suisse. (1571-1573).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e4967">Français 15903 • Harlay 364 (14) • XIV Lettres adressées pour la plupart à Bellièvre, principalement pendant les années 1574 et 1575, et relatives notamment aux affaires de Suisse et de Pologne et aux finances ; en outre, quelques pièces diverses. (1571-1579).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e5358">Français 15904 • Harlay 364 (15) • XV Lettres, pour la plupart orig., adressées principalement à Bellièvre, et pièces diverses, orig. et copies ; affaire du prince de Condé et du duc Jean-Casimir. (1576-1577).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e5711">Français 15905 • Harlay 364 (16) • XVI Lettres, pour la plupart orig., adressées principalement à Bellièvre, et pièces diverses, orig. et copies ; pièces relatives à la tentative du duc d'Anjou sur les Pays-Bas, en 1578, etc. (1578-1580).</a></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e6294">Français 15906 • Harlay 364 (17) • XVII Lettres, pour la plupart orig., adressées principalement à Bellièvre. (1581-1582).</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_a59722322767273">Français 15906 (1)</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_a59722322767274">Français 15906 (2)</a></div></div></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e6841">Français 15907 • Harlay 364 (18) • XVIII — Lettres et mémoires orig., adressés pour la plupart à Bellièvre : missions de Bellièvre dans les Pays-Bas, près du roi de Navarre, etc. ; copies d'un grand nombre de lettres et pièces diverses. (1583-1584).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e7228">Français 15908 • Harlay 364 (19) • XIX Lettres et mémoires, pour la plupart orig., mss et impr., adressés principalement à Bellièvre. (1585-1587).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e7777">Français 15909 • Harlay 364 (20) • XX Lettres, pour la plupart orig., adressées principalement à Bellièvre ; disgrâce de Bellièvre et tentative de Henri IV sur Paris, en 1590. (1588-1592).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e8224">Français 15910 • Harlay 364 (21) • XXI Lettres, pour la plupart orig., adressées principalement à Bellièvre. (1593-1596).</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000046116_d0e8555">Français 15911 • Harlay 364 (22) • XXII Lettres et mémoires, pour la plupart orig., adressés principalement à Bellièvre. (1590 et 1597-1599).</a></div></div></div></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+<a href="#layerIndex" role="tab" id="menuIndex" style="color:black;font-size:10px;padding: 10px 0 10px 0;">
+	Index<br/>
+	<i class="index" title="Index"></i>
+</a>
+<div id="layerIndex" class="layer" role="tabpanel" aria-labelledby="menuIndex">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>index</h2>
+	<div id="idIndexContent"></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+
+
+<a href="#layerPdf" role="tab" id="menuPdf"><i class="pdf" title="Pdf"></i></a>
+<div id="layerPdf" class="layer" role="tabpanel" aria-labelledby="menuPdf">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Contenu Pdf</h2>
+	<div class="nbRes">Il vous est possible de télécharger le(s) document(s) associé(s) à ce composant.</div>
+	<ul class="listeLiens">
+		<li><span class="libelle">Obtenir le contenu de cette unité de description au format PDF</span>
+			<a href="javascript:pdfComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdf','N')">Télécharger</a>
+		</li>
+		<li><span class="libelle">Obtenir le contenu de cette unité de description et ses sous-unités au format PDF</span>
+			<a href="javascript:pdfAllComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdfArbo','N')">Télécharger</a>
+		</li>
+	</ul>
+</div>
+
+					</li>
+					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+.interfaceRecherch .menuConsultation .menu > li .layer .listeLiens li .libelle.infoIntroMsg {
+	margin-bottom: 12px;
+}
+</style>
+
+
+<a href="#layerResa" role="tab" id="menuResa" style="color:black;font-size:10px;">
+	Réservation
+	<i class="resa" title="Réservation"></i>
+</a>
+
+<div id="layerResa" class="layer" role="tabpanel" aria-labelledby="menuResa">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Réservation</h2>
+	<div id="menuResaContent">
+	<ul class="listeLiens"><li><span class="libelle">Document original : Français 15891 </span><a class="btn btn-default" target="_blank" href="https://reservationrao.bnf.fr/submitCote?urlReferer=/ark:/12148/cc461166/cd0e334&Cote=Français 15891&typecote=orig" onclick="return xitiResa()">Réserver</a></li><ul class="listeLiens"><li>Veuillez réserver/consulter en priorité un exemplaire de substitution.<br>La consultation du document original doit être motivée et est soumise à validation.</li></ul><ul class="listeLiens"><li>Version numérisée :</li><li><a class="ext" target="_blank" href="http://gallica.bnf.fr/ark:/12148/btv1b525218150">Consulter le document numérisé</a></li></ul><ul class="listeLiens"></ul></ul>
+</div>
+</div>
+
+					</li>
+					
+					</ul>
+				</div>
+				
+				<div id="barreDeRetaillage"></div>
+
+				<div class="panneauWrapper" id="idPanneauWrapper">
+					<ascendants>
+					<ul><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116');">Français 15890-15911 (cote) • Papiers et correspondance de Pompone Ier de Bellièvre. (1566-4607).</a></li></ul>
+					</ascendants>
+					<contenu>
+					<?xml version="1.0" encoding="UTF-8"?><div class="did-class">
+<div class="did-unitid">Cote : Français 15891 
+							<a title="Réserver" class="btn btn-primary" id="dispplayMenuResa" href="#layerResa">Réserver</a>
+</div>
+<div class="did-unitid">Ancienne cote : Harlay 364 (2)</div>
+<div class="did-label">
+<div class="did-unittitle">II Lettres et papiers divers de Bellièvre (suite). (1578-1585).</div>
+</div>
+<div class="divdid">427 feuillets.</div>
+</div><div class="p-class">
+<div class="label-part">
+<p class="altformavail-label">Documents de substitution</p>
+</div>
+<div class="description-part">
+<span>
+<p style="line-height: 80%;">Il existe une version numérisée de ce document.</p>
+<p style="line-height: 80%;">Numérisation effectuée à partir d'un document original : Français 15891.</p>
+</span>
+</div>
+<div style="line-height: 80%;" class="dao-class">
+<a title="Voir le document numérisé" target="_blank" href="http://gallica.bnf.fr/ark:/12148/btv1b525218150" class="hrefLink ext">Voir le document numérisé</a>
+<div style="padding:1em 0 1em 0;" class="visuels visuels_simple">
+<div class="visuellarge visuellarge_simple">
+<img alt="vignette simple" class="vignette simple" style="vertical-align: middle;" src="http://gallica.bnf.fr/ark:/12148/btv1b525218150.thumbnail"/>
+<button data-content="&lt;img style=&quot;width:480px;height:780px;&quot; class=\&quot;consultationVignetteGrand\&quot; src=&quot;http://gallica.bnf.fr/ark:/12148/btv1b525218150.thumbnail.highres&quot; &gt;" title="Zoom Image de la notice" data-toggle="popover" data-trigger="focus" style="border:none;background:none">
+<img src="/img/zoom-in.png"/>
+</button>
+</div>
+</div>
+<script>
+			$('[data-toggle="popover"]').popover({
+				html:true
+			});
+		</script>
+</div>
+</div><div class="scopecontent-class">
+<div class="label-part">
+<p class="scopecontent-label">Présentation du contenu</p>
+</div>
+<div class="description-part">
+<span>
+<p>Négociation de Bellièvre près des États-Généraux des Pays-Bas ; affaires de Suisse, de Savoie, de Normandie, etc. ; négociations auprès du duc d'Anjou et de Henri, roi de Navarre.</p>
+</span>
+</div>
+</div><div class="controlaccess-class">
+<p>Ambassades. Pays-Bas. • France aux Pays-Bas et en Flandre (1583), M. de Bellièvre.</p>
+<p>Ambassades. Suisse. • France en Suisse (1563-1573), Pomponne de Bellièvre.</p>
+<p>Anjou, François de Valois, duc d'Alençon, puis duc d'.</p>
+<p>Assemblées du Clergé. • Assemblée (de 1579).</p>
+<p>Bellièvre, Pompone Ier de, chancelier. • Papiers et correspondance.</p>
+<p>Biron, Armand de Gontaut, duc de, maréchal de France. • Pièces diverses.</p>
+<p>Casteljaloux. • Traité (1582).</p>
+<p>
+<a alt="Lien vers une fiche d'autorité" title="Cliquer pour consulter la fiche d'autorité correspondante" target="_blank" href="http://catalogue.bnf.fr/ark:/12148/cb123351707" class="hrefLink ext">Catherine de Médicis</a>
+</p>
+<p>Charles IX, roi de France. • Notes, pièces et recueils divers (Pompone de Bellièvre).</p>
+<p>Dauphiné. • Parlement, lettre de Bellièvre.</p>
+<p>Des Prés, Jacques, évêque de Montauban.</p>
+<p>Espinac, Pierre d', archevêque de Lyon.</p>
+<p>Guise, Henri Ier de Lorraine, duc de, dit le Balafré. • Pièces diverses.</p>
+<p>Henri III, roi de France. • Correspondance.</p>
+<p>Henri IV, roi de France. • Bellièvre (Pompone de), papiers et correspondance.</p>
+<p>Henri IV, roi de France. • Matignon (Accord avec).</p>
+<p>Hurault, Philippe, comte de Cheverny, chancelier de France. • Pièces.</p>
+<p>Jean III, roi de Suède.</p>
+<p>Joyeuse, Guillaume, vicomte de, maréchal de France.</p>
+<p>Le Fèvre de la Boderie, Antoine. • Lettres.</p>
+<p>Marguerite de Valois, reine de Navarre, puis de France. • Mariage, réconciliation avec Henri IV.</p>
+<p>Marguerite de Valois, reine de Navarre, puis de France. • Pièces.</p>
+<p>Matignon, Jacques de Goyon, sr de, comte de Thorigny, maréchal de France. • Accord avec le roi de Navarre.</p>
+<p>Montauban. • Assemblée, remontrances de Bellièvre.</p>
+<p>Montmorency, Henri Ier, comte de Damville, puis duc de, connétable de France. • Notes et pièces diverses.</p>
+<p>Normandie. • Bellièvre.</p>
+<p>Orange, Guillaume de Nassau, prince d', dit le Taciturne.</p>
+<p>Pibrac, Gui du Faur, sr de.</p>
+<p>Pinart, Claude, sr de Cramailles, secrétaire d'État.</p>
+<p>Puysieux, Pierre Brûlart, marquis de Sillery, vicomte de, secrétaire d'État.</p>
+<p>Saluces, Marquisat de. • Affaires (1588).</p>
+<p>Savoie. • Affaires de Savoie (1578-1585).</p>
+<p>Suisse. • Bellièvre, papiers.</p>
+<p>Sully, Maximilien de Béthune, marquis de Rosny, duc de. • Lettres et actes.</p>
+<p>Villeroy, Nicolas de Neufville, seigneur de, secrétaire d'État. • Lettres et actes.</p>
+<p>Villeroy, Nicolas de Neufville, seigneur de, secrétaire d'État. • Pièces diverses.</p>
+</div>
+
+					</contenu>
+					<br>
+					<descendants>
+					<div><p class="chapter1">Sous-unités de description</p><ul><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e510');">Minutes de lettres et mémoires de Bellièvre à Henri III (f. 1, 5, etc.), — aux États-Généraux des Pays-Bas (f. 3 et 7), — au duc d'Anjou (f. 11, 22, etc.), — à Guillaume de Nassau, prince d'Orange (f. 13), — à Catherine de Médicis (f. 29, 37, etc.), — à [Pierre d'Espinac], archevêque de Lyon (f. 28), — à [Jean III], roi de Suède (f. 39), — à Henri, roi de Navarre (f. 274, 330, etc.), — au maréchal de Joyeuse (f. 280), — à Mr de Pibrac (f. 308), — à Nicolas de Neufville [Villeroy] (f. 322), — à [Jacques des Prés], évêque de Montauban (f. 375), — à [Marguerite de Valois], reine de Navarre (f. 341 et 345), — au maréchal Henri de Montmorency (f. 361), — au duc Henri de Guise (f. 422) ; Lettres et mémoires orig. de Bellièvre, en très grand nombre, adressés à Henri III (f. 9, 18, etc.), — à Catherine de Médicis (f. 66, 70, etc.), — à Mr de Chiverny (f. 132), — à Pierre Brulart (f. 165 et suiv., 169, etc.), — à Villeroy (f. 173, 190, etc.), — au maréchal Armand de Gontaut-Biron (f. 220), — à Claude Pinart (f. 407, 416 et 419)</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e514');">Copie d'une lettre de Bellièvre au Parlement de Dauphiné</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e520');">Lettre orig. de Bellièvre et de [Nicolas] de Neufville [Villeroy] à Catherine de Médicis (f. 134) ; Lettre orig. de Henri III à Bellièvre (f. 251)</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e524');">Lettre orig. adressée de Brive à Villeroy</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e530');">Mémoires et pièces diverses, parmi lesquels on remarque : « Double de la proposition faicte à Messieurs du Clergé de France estant assemblez à Melun..., juillet 1579 »</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e536');">Projets d'édits</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e542');">« Remonstrance de M. de Bellièvre au roy de Navarre, à Mr le prince de Condé et aux députez de l'assemblée de Montauban »</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e548');">« Mynutte », de la main de Bellièvre, « des articles... arrestez entre le roy de Navarre et Messieurs... de Matignon et de Bellièvre, à Castelgeloux », 3 février 1582</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000046116_d0e554');">Minute d'un acte de Henri III</a></li></ul></div>
+					</descendants>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer" class="footerHome">
+		<div class="container">
+			<div class="topOfPage">
+				<a href="#header"><i class="icon-caret" data-icon="&#xe60f;" title="Haut de page"></i></a>
+			</div>
+		</div>
+	
+		
+
+
+
+
+
+
+
+<div class="menuFooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<a href="/conditionsUtilisation.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickContionsUtilisation','N')">Conditions d'utilisation</a>
+				
+					
+				| <a href="/aPropos.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickAPropos','N')">À propos</a>
+				| <a class="ext" href="http://www.bnf.fr/fr/outils/a.ecrire.html" target="_blank"
+					onclick="return xt_click(this,'C','14','CommunBam::clickEcrireALaBnf','N')">Écrire à la BnF</a>
+				|
+
+				 <span>v 11.1.0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	
+	
+
+
+
+
+
+
+
+
+    <script async type="text/javascript" src="https://tarteaucitron.io/load.js?domain=archivesetmanuscrits.bnf.fr&uuid=91ba7c974c752a888f0a2765181efcbea3a33ef9"></script>
+
+<!-- Initialisation de XITI et tarte au citron	-->
+    <script defer>
+        function whenAvailable(name, callback) {
+            const interval = 10; // ms
+            window.setTimeout(function() {
+                if (window[name]) {
+                    callback(window[name]);
+                }else{
+                    whenAvailable(name, callback);
+                }
+            }, interval);
+        }
+
+        whenAvailable("tarteaucitron", function(t) {
+            let title = "PresentationBam::PagePresentationIr";
+            const lv2 = "14"; // level 2 site 
+            tarteaucitron.user.atLibUrl= "https://tag.aticdn.net/18798/smarttag.js" ;
+            tarteaucitron.user.atinternetSendData=false;
+            tarteaucitron.user.atMore = function () {
+                const tag = new ATInternet.Tracker.Tag();
+                tag.page.set({
+                    name: title,
+                    level2:lv2,
+                });
+                tag.dispatch();
+            };
+            (tarteaucitron.job = tarteaucitron.job ||[]).push('atinternet');
+        });
+    </script>
+
+
+
+<script type="text/javascript">
+var contextPath='';
+
+/**
+ * Redirection des appels par appui sur lien.
+ */
+function lIdC(ob){
+	var b = $(ob);
+	var b1 = b.attr('v');
+	if(b1 != null){
+		afficheCompResFromIndex(b1);
+	}
+}
+
+function xitiResa(){
+	return xt_click(this,'C','14','PresentationBam::clickComRao','N')
+}
+</script>
+
+</body>
+</html>

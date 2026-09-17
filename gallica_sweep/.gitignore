@@ -1,0 +1,17 @@
+pdf16127/
+pdfsheets/
+sheets_*/
+btv1b*/
+full16127/
+mondoucet/full_*.jpg
+mondoucet/strips/
+mondoucet/clusters/
+mondoucet/*.pdf
+mondoucet/*.jpeg
+mondoucet/c0*_band*.png
+mondoucet/*_glyphs.json
+mondoucet/lex*.pkl
+mondoucet/__pycache__/
+f4715_full/
+src/*.html
+src/*.htm

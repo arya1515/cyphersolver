@@ -1,0 +1,229 @@
+
+Undeciphered Letters in BnF fr.4715
+Undeciphered Letters in BnF fr.4715
+BnF fr.4715
+ in the French archives contains many materials in cipher, including many undeciphered ones.
+no.19 (f.41)
+...Spanish Syllabic Numerical Cipher (1592)
+no.27 (f.50) Letter of Montholon, 30 October 1589
+...Vieuville-Nevers cipher
+no.38 (f.61)
+...Duke of Mayenne's polyphonic cipher? (
+Solution Incomplete
+)
+no.58 (f.81) Letter of Montholon, 8 November 1589
+...Vieuville-Nevers cipher
+no.59 (f.82)
+ (Solved by George Lasry in 2022)
+no.60 (f.83)
+...Vieuville-Nevers cipher
+no.61 (f.84)
+ (Solved by George Lasry in 2020)
+no.62 (f.85)
+ (Interim results achieved by George Lasry in 2022)
+no.63 (f.86)
+...Monoalphabetic substitution cipher
+For the listing of the other items in this file (mostly already deciphered), see 
+another article
+.
+no.19 (f.41)
+This can be solved with Spanish Syllabic Numerical Cipher (1592) (see 
+another article
+).
+no.27 (f.50) Letter of Sieur de Montholon, Tours, 30 October 1589
+This letter of Montholon 
+(
+Wikipedia
+)
+, Keeper of the Seals, as well as many others in the volume, can de deciphered with the Vieuville-Nevers cipher (for which see 
+another article
+).
+The beginning of this letter reads something like:
+[Il] y la dixhuit '84 que '29 '36 nouveles de~7 et l'opinion de plusieurs est que '51 afaire uont mal et
+que '29 le laise tant pour la religion que pour auoir lu que ~1 sebande avec '87 et interpele les '88 deferare fleurance
+et Manthovese limauer pour '96 ~7 en[c?]ores qu'il ayt sceu que Luxembourg est enuoyeuers luy etuient ''84
+...
+DUMP
+'24[Il] 90(y) '25(la) 75(d) 63(i) ��(x) 40(h) 93(u) 63(i) 95(t) '84 '46(que) '29 '36 73(n) 85(o) 93(u) 94(u) 23(e) 50(l) 24(e) 83(s) '16(de) ~7 '19(et) 50(l) 85(o) 70(p) 63(i) 73(n) 64(i) 85(o) 73(n) '16(de) 70(p) 50(l) 93(u) 83(s) 63(i) 23(e) 93(u) 1(r) 83(s) '20(est) '46(que) '51 25(a) '75(faire) 93(u) 85(o) 73(n) 95(t) '30(ma) 50(l) '19(et) 
+'46(que) '29 '26(le) '25(la) 63(i) 83(s) 23(e) 95(t) 25(a) 73(n) 95(t) '42(pour) '25(la) 1(r) 23(e) 50(l) 63(i) 30(g) 63(i) 85(o) 73(n) '46(que) '42(pour) 25(a) 93(u) 85(o) 63(i) 1(r) 50(l) 93(u) '46(que) ~1 '50(se) 10(b) 25(a) 73(n) '16(de) '57(avec) '87 '19(et) 63(i) 73(n) 95(t) 23(e) 1(r) 70(p) 23(e) 50(l) 23(e) '27(les) '88 '16(de) 20(f) 23(e) 1(r) 25(a) 1(r) 23(e) 20(f) 50(l) 23(e) 93(u) 1(r) 25(a) 73(n) 65(c) 23(e) 
+'19(et) 60(m) 25(a) 73(n) 95(t) 40(h) 85(o) 93(u) 23(e) '50(se) 50(l) 63(i) '30(ma) 93(u) 23(e) 1(r) '42(pour) '96 ~7 23(e) 73(n) 63(i) 85(o) 1(r) 23(e) 83(s) '48(quil) 25(a) 90(y) 95(t) 83(s) 65(c) 23(e) 93(u) '46(que) 50(l) 93(u) ��(x) 23(e) 60(m) 10(b) 85(o) 93(u) 1(r) 30(g) '20(est) 23(e) 73(n) 93(u) 85(o) 90(y) 23(e) 93(u) 23(e) 1(r) 83(s) '28(luy) '19(et) 93(u) 63(i) 23(e) 73(n) 95(t) ''84 
+...
+no.38 (f.61)
+There are only 21 kinds of symbols and it is unlikely that homophones are used. Still, despite some seemingly viable repetitive patterns, an assumption of simple monoalphabetic substitution led nowhere.
+Some symbols look like ones in the polyphonic cipher of the Duke of Mayenne (see 
+another article
+). In particular, the succession of three instances of the clover-like symbol on the 8th line is a hallmark of this cipher. When unknown symbols are discarded as nulls, some words can be found. A phrase like "jalousie au beau-pere" is hardly expected to occur by coincidence.
+no.58 (f.81) Letter of Montholon, Tours, 8 November 1589
+This can be read with the Vieuville-Nevers cipher (for which see 
+another article
+). The decipherment of the beginning is given below.
+~25 qui ma parle du legat commeyant pense depuis luy avoire montre le hasard au quel il se metoit de estre excomunie comme [vous?] m'aves escript montrant en somme qu'il se veult servir du nom de ~74 pour s'establir cas qu'il ne soit catholique et que legat ne l'absolue et re[h]abilite auquel cas il veult remontrer son droit de succeder a la courone comme plus proche prince du sang i? la quoy il m'a dit qu'il vous prieroit de tenir la main lorsque vous veres que 
+le legat ne vouldra ou poura '97 faire pour ~13 et qu'il lr* a question de regarder qui est le vray et legitime
+successeur ne dominant la passaion ou la force comme il est a craindre qu'il a du je ne ce qui se jugera de l'evenement de ne lequel ~7 a proteste de prendre ou de combatre ~36 s'il le veult empecher et pour revenir a ~15 '51 a faire s me semblent malconduites et avec peu de conseil tel qui  
+luy seroit necessaire se laissant posseder a persone qui n'ont l'affection et inteligence et qu'il leissent porter  a des passi 87 ns qui causent des sinistres conseils il ne faisoit estat d'enuoier vers le legat si je ne l'en eusse interpe[l]e et encores celuy qu'il enuoye est ung nommegillot conseiler soubsone de heresie auquel il ne se peult ouvrir pour son particulier si avant qu'il seroit necessaire sacant quele ait
+il otna altre but que defauoriser les afaires de roy d'aultres se pouvoient deputer et ne scay pour '94
+ne la fait si non pour oster tout soupson auroy se prometant que vous n'oublires '97 de ce qui touchenit ~15 ....
+DUMP
+~25 '47(qui) '30(ma) '41(par) '26(le) 75(d) 93(u) '26(le) 30(g) 25(a) 95(t) '65(comme) 90(y) 25(a) 73(n) 95(t) 70(p) 23(e) 73(n) 83(s) 24(e) '16(de) 70(p) 
+93(u) 63(i) 83(s) '28(luy) 25(a) 93(u) 85(o) 63(i) 11(r) 23(e) 60(m) 85(o) 73(n) 95(t) 1(r) 23(e) '26(le) 40(h) 25(a) ��(s) 25(a) 1(r) 75(d) '11(au) 80(qu) 23(e) 50(l) '24(il) '50(se) '31(me) 95(t) 85(o) 63(i) 95(t) '16(de) '20(est) 1(r) 23(e) 24(e) ��(x) 65(c) 85(o) 60(m) 93(u) 73(n) 63(i) 23(e) '65(comme) '30(ma) 93(u) 23(e) ��(s) 23(e) 83(s) 65(c) 1(r) 63(i) 70(p) 95(t) 60(m) 85(o) 73(n) 
+95(t) 1(r) 25(a) 73(n) 95(t) 23(e) 73(n) 83(s) 85(o) 60(m) 60(m) 23(e) '48(quil) '50(se) 93(u) 23(e) 93(u) 50(l) 95(t) '50(se) 1(r) 93(u) 63(i) 1(r) 75(d) 93(u) 73(n) 85(o) 60(m) '16(de) ~74 '42(pour) '50(se) 83(s) 95(t) 25(a) 10(b) 50(l) 63(i) 1(r) 65(c) 25(a) 83(s) '48(quil) '35(ne) 83(s) 85(o) 63(i) 95(t) '64(catholique) '19(et) '46(que) '26(le) 30(g) 25(a) 95(t) '35(ne) 50(l) 25(a) 10(b) 83(s) 
+85(o) 50(l) 93(u) 23(e) '19(et) 1(r) 23(e) 25(a) 10(b) 63(i) 50(l) 63(i) 95(t) 23(e) '11(au) '46(que) 50(l) 65(c) 25(a) 83(s) '24(il) 93(u) 23(e) 93(u) 50(l) 95(t) 1(r) 23(e) 60(m) 85(o) 73(n) 95(t) 1(r) 23(e) 1(r) 83(s) 85(o) 73(n) 75(d) 1(r) 85(o) 63(i) 95(t) '16(de) 83(s) 93(u) 65(c) 65(c) 23(e) 75(d) 23(e) 1(r) 25(a) '25(la) 65(c) 85(o) 93(u) 1(r) 85(o) 73(n) 23(e) '65(comme) 70(p) 50(l) 93(u) 
+83(s) 70(p) 1(r) 85(o) 65(c) 40(h) 23(e) 70(p) 1(r) 63(i) 73(n) 65(c) 23(e) 75(d) 93(u) 83(s) 25(a) 73(n) 30(g) 64(i) '25(la) 80(qu) 85(o) 90(y) '24(il) '30(ma) 75(d) 63(i) 95(t) '48(quil) '99(vous) 70(p) 1(r) 63(i) 23(e) 1(r) 85(o) 63(i) 95(t) 75(d) 23(e) 95(t) 23(e) 73(n) 63(i) 1(r) 50(l) 25(a) 60(m) 25(a) 63(i) 73(n) 50(l) 85(o) 1(r) 83(s) '46(que) '99(vous) 93(u) 23(e) 1(r) 23(e) 83(s) '46(que) 
+50(l) 23(e) '26(le) 30(g) 25(a) 95(t) 73(n) 23(e) 93(u) 85(o) 93(u) 50(l) 75(d) 1(r) 25(a) 85(o) 93(u) 70(p) 85(o) 93(u) 1(r) 25(a) '97 '75(faire) '42(pour) ~13 '19(et) '48(quil) 50(l) 1(r) 25(a) 80(qu) 23(e) 83(s) 95(t) 63(i) 85(o) 73(n) '16(de) 1(r) 23(e) 30(g) 25(a) 1(r) 75(d) 23(e) 1(r) '47(qui) '20(est) '26(le) 93(u) 1(r) 25(a) 90(y) '19(et) 50(l) 23(e) 30(g) 63(i) 95(t) 63(i) 60(m) 23(e) 
+83(s) 93(u) 65(c) 65(c) 23(e) 83(s) 84(s) 23(e) 93(u) 1(r) '35(ne) 75(d) 85(o) 60(m) 63(i) 73(n) 25(a) 73(n) 95(t) '25(la) 70(p) 25(a) 83(s) 84(s) 63(i) 85(o) 73(n) 85(o) 93(u) 50(l) 25(a) 20(f) 85(o) 1(r) 65(c) 23(e) '65(comme) '24(il) '20(est) 25(a) 65(c) 1(r) 25(a) 63(i) 73(n) 75(d) 1(r) 23(e) '48(quil) 25(a) 75(d) 93(u) 63(i) 23(e) 73(n) 23(e) '14(ce) '47(qui) '50(se) 63(i) 
+93(u) 30(g) 23(e) 1(r) 25(a) 75(d) 23(e) 50(l) 23(e) 93(u) 23(e) 73(n) 23(e) 60(m) 23(e) 73(n) 95(t) '16(de) '35(ne) '26(le) '46(que) 50(l) ~7 25(a) 70(p) 1(r) 85(o) 95(t) 23(e) 83(s) 95(t) 23(e) '16(de) 70(p) 1(r) 23(e) 73(n) 75(d) 1(r) 23(e) '40(ou) '16(de) 65(c) 85(o) 60(m) 10(b) 25(a) 95(t) 1(r) 23(e) ~36 '52(si) 50(l) 50(l) 23(e) 93(u) 23(e) 93(u) 50(l) 95(t) 23(e) 60(m) 
+70(p) 23(e) 65(c) 40(h) 23(e) 1(r) '19(et) '42(pour) 1(r) 23(e) 93(u) 23(e) 73(n) 63(i) 1(r) 25(a) ~15 '51 25(a) '75(faire) 83(s) '31(me) 83(s) 23(e) 60(m) 10(b) 50(l) 23(e) 73(n) 95(t) 60(m) 25(a) 50(l) 65(c) 85(o) 73(n) 75(d) 93(u) 63(i) 95(t) 23(e) 83(s) '19(et) 25(a) 93(u) 23(e) 65(c) 70(p) 23(e) 93(u) '16(de) 65(c) 85(o) 73(n) 83(s) 23(e) 63(i) 50(l) 95(t) 23(e) 50(l) '47(qui) 
+'28(luy) '50(se) 1(r) 85(o) 63(i) 95(t) 73(n) 23(e) 65(c) 23(e) 83(s) 84(s) 25(a) 63(i) 1(r) 23(e) '50(se) 50(l) 25(a) 63(i) 83(s) 84(s) 25(a) 73(n) 95(t) 70(p) 85(o) 83(s) 84(s) 23(e) 75(d) 23(e) 1(r) 25(a) 70(p) 23(e) 1(r) 83(s) 85(o) 73(n) 23(e) '47(qui) 73(n) 85(o) 73(n) 95(t) 50(l) 25(a) 20(f) 20(f) 23(e) 65(c) 95(t) 63(i) 85(o) 73(n) 23(e) 95(t) 63(i) 7* 
+95(t) 23(e) 50(l) 63(i) 30(g) 23(e) 73(n) 65(c) 23(e) '19(et) ^47 50(l) 50(l) 23(e) 63(i) 83(s) 84(s) 23(e) 73(n) 95(t) 70(p) 85(o) 1(r) 95(t) 23(e) 1(r) 25(a) 75(d) 23(e) 83(s) 70(p) 25(a) 83(s) 84(s) 63(i) 87 73(n) 83(s) '47(qui) 65(c) 25(a) 93(u) 83(s) 23(e) 73(n) 95(t) '16(de) 83(s) 84(s) 63(i) 73(n) 63(i) 83(s) 95(t) 1(r) 23(e) 83(s) 65(c) 
+85(o) 73(n) 83(s) 23(e) 63(i) 50(l) 83(s) '24(il) 73(n) 23(e) 20(f) 25(a) 63(i) 83(s) 85(o) 63(i) 95(t) 23(e) 83(s) 95(t) 25(a) 95(t) '16(de) 73(n) 93(u) 85(o) 63(i) 23(e) 1(r) 93(u) 23(e) 1(r) 83(s) 50(l) 23(e) '26(le) 30(g) 25(a) 95(t) '52(si) '22(je) '35(ne) 50(l) 23(e) 73(n) 23(e) 93(u) 83(s) 84(s) 23(e) 63(i) 73(n) 95(t) 23(e) 1(r) 70(p) 23(e) 5* 
+23(e) '19(et) 23(e) 73(n) 65(c) 85(o) 1(r) 23(e) 83(s) 65(c) 23(e) 50(l) 93(u) 90(y) '48(quil) 23(e) 73(n) 93(u) 85(o) 90(y) 23(e) '20(est) 93(u) 73(n) 30(g) 73(n) 85(o) 60(m) 60(m) 23(e) 30(g) 63(i) 50(l) 50(l) 85(o) 95(t) 65(c) 85(o) 73(n) 83(s) 23(e) 63(i) 50(l) 23(e) 1(r) 83(s) 85(o) 93(u) 10(b) 83(s) 85(o) 73(n) 23(e) '16(de) 40(h) 23(e) 1(r) 23(e) 83(s) 63(i) 23(e) 25(a) 
+93(u) '46(que) 50(l) '24(il) 73(n) 23(e) '50(se) 70(p) 23(e) 93(u) 50(l) 95(t) 85(o) 93(u) 94(u) 1(r) 63(i) 1(r) '42(pour) 83(s) 85(o) 73(n) '41(par) 95(t) 63(i) 65(c) 93(u) 50(l) 63(i) 23(e) 1(r) '52(si) 25(a) 93(u) 25(a) 73(n) 95(t) '48(quil) '50(se) 1(r) 85(o) 63(i) 95(t) '35(ne) 65(c) 23(e) 83(s) 84(s) 25(a) 63(i) 1(r) 23(e) 83(s) 25(a) 65(c) 25(a) 73(n) 95(t) '46(que) 50(l) 23(e) 25(a) 63(i) 95(t) 
+63(i) 50(l) 85(o) 95(t) 73(n) 25(a) '11(au) 50(l) 95(t) 1(r) 23(e) 10(b) 93(u) 95(t) '46(que) '16(de) 20(f) 25(a) 93(u) 85(o) 1(r) 63(i) 83(s) 23(e) 1(r) '27(les) 25(a) '75(faire) 83(s) '16(de) 1(r) 85(o) 90(y) 75(d) '11(au) 50(l) 95(t) 1(r) 23(e) 83(s) '50(se) 70(p) 85(o) 93(u) 94(u) 85(o) 63(i) 23(e) 73(n) 95(t) '16(de) 70(p) 93(u) 95(t) 23(e) 1(r) '19(et) 73(n) 23(e) 83(s) 65(c) 25(a) 90(y) '42(pour) '94 
+73(n) 23(e) 50(l) 25(a) 20(f) 25(a) 63(i) 95(t) '52(si) 73(n) 85(o) 73(n) '42(pour) 85(o) 83(s) 95(t) 23(e) 1(r) 95(t) 85(o) 93(u) 95(t) 83(s) 85(o) 93(u) 70(p) 83(s) 85(o) 73(n) 25(a) 93(u) 1(r) 85(o) 90(y) '50(se) 70(p) 1(r) 85(o) 60(m) 23(e) 95(t) 25(a) 73(n) 95(t) '46(que) '99(vous) 73(n) 85(o) 93(u) 10(b) 50(l) 63(i) 1(r) 23(e) 83(s) '97 '16(de) '14(ce) '47(qui) 95(t) 85(o) 93(u) 65(c) 40(h) 2* 
+23(e) 73(n) 63(i) 95(t) ~15 .... 
+no.59 (f.82)
+Undeciphered.
+I have seen a cipher in which a circle above a symbol is to double the letter but I cannot say it is the same with this cipher.
+In 2022, George Lasry solved this. (Regarding my initial observation, it turned out the circle over a symbol is not a doubling symbol: m with a circle reads "L" or "LL", but bare m reads "R"; v with a circle reads "P", but bare v reads "O".)
+The following is my attempt to make sense of this solution. (At least some of the unassigned symbols are nulls.)
+Il ** arquibusiers de ceste vile les quatre enseignes de *
+ovi*es et environ deux cens autres harquibusiers soubs la ***
+charge du Capitaine Thibaulte et un autre ultre pareil nombre de
+** deux cens harquibusiers soubs la *** charge du Capitaine *
+Clement qui sest desia achemine avec un autre vers Chartres
+six *** canons t[?] deux coleurines et avec c e * e r a partir trois cens
+harquibusiers de c e u l a de ceste vile et prendra ledits leur du
+gas son chemin droict a Houdan auquel l i e v i l est de besoing que
+vous vous y trouvies avec toutes vos troupes au mesme temps
+* vous sera mande le lour que ledicts leur du gar partira d i e i
+** le *** a encores de reche* adverti toutes les autres troupes
+tant de cheval que de ple dordonees pour aler a Chartre de se **
+haster en toute diligence ***
+Lesdictes deux coleurines serot changees en deux ***
+canons qui* eron le nombre de huict **
+no.60 (f.83)
+This can also be read with the Vieuville-Nevers cipher (for which see 
+another article
+).
+�@
+je vous diray encores que '29 asseure que le le[g]at est 71 oche et qu'il ne faire '97 ~13 qui la faire resoul[d]re ~15 ~19 d'envoyer vers vous comme ils doibuent faire dans deux '84 pour vous prier de favoris
+leurs affaires vers ledit legat croyans qu'il passera par ''41 l'opinion
+qu'ils ont de vous est que vous estes serviteur du ~7 tant que vostre conciense le vous permetera et ne font estat certain de vous bien estime ie qu'ils feront ce qu'ils pouront puor vous faire faire quelque acte pour divulguer que vous estes en leur barque et faire paroir leur
+party bien fort vous y penseres de preso il vous plaist puis que a ce coup il vous fault resouldre a cause deux et du legat que l'on dit estre acompaigne de
+persones fort capables en toutes l'afaires mais est a craindre que la 
+cause se decidera par le fer beaucoup toute[s] fois se preparent a suivre le dire
+du legat ~50 r ''93 de Sainct Germain Abe de Chaily et aultres se retireront dans peu de '84 a Blois ayan seuleuent que '29 veult tirer serment des principaux lequel les eclesiastiques sont tres resolus ne faire et plustot
+mourir et ne trouvent predicateurs qui veulent precher te '14x x [n]ovembre
+DUMP
+'22(je) '99(vous) 75(d) 63(i) 1(r) 25(a) 90(y) 23(e) 73(n) 65(c) 85(o) 1(r) 23(e) 83(s) '46(que) '29 25(a) 83(s) 84(s) 23(e) 93(u) 1(r) 23(e) '46(que) '26(le) '26(le) 3[0] 25(a) 95(t) '20(est) 71 85(o) 65(c) 40(h) 23(e) '19(et) '48(quil) '35(ne) '75(faire) '97 ~13 '47(qui) '25(la) '75(faire) 1(r) 23(e) 83(s) 85(o) 93(u) 50(l) 
+'75(faire) 1(r) 23(e) ~15 ~19 '16(de) 73(n) 93(u) 85(o) 63(i) 23(e) 1(r) 93(u) 23(e) 1(r) 83(s) '99(vous) '65(comme) '24(il) 83(s) 75(d) 85(o) 63(i) 10(b) 93(u) 23(e) 73(n) 95(t) '75(faire) 75(d) 25(a) 73(n) 83(s) 75(d) 23(e) 93(u) ��(x) '84 '42(pour) '99(vous) 70(p) 1(r) 63(i) 23(e) 1(r) '16(de) 20(f) 25(a) 93(u) 85(o) 1(r) 63(i) 83(s) 
+50(l) 23(e) 93(u) 1(r) 83(s) 25(a) 20(f) 20(f) 25(a) 63(i) 1(r) 23(e) 84(s) 93(u) 23(e) 1(r) 83(s) 50(l) 23(e) 75(d) 63(i) 95(t) 50(l) 24(e) 30(g) 25(a) 95(t) 65(c) 1(r) 85(o) 63(i) 25(a) 73(n) 83(s) '48(quil) 70(p) 25(a) 83(s) 84(s) 23(e) 1(r) 25(a) '41(par) ''41 50(l) 85(o) 70(p) 63(i) 73(n) 63(i) 85(o) 73(n) 
+'48(quil) 83(s) 85(o) 73(n) 95(t) '16(de) '99(vous) '20(est) '46(que) '99(vous) '20(est) 23(e) 83(s) 84(s) 23(e) 1(r) 93(u) 63(i) 95(t) 23(e) 94(u) 1(r) 75(d) 93(u) ~7 95(t) 25(a) 73(n) 95(t) '46(que) 93(u) 85(o) 83(s) 95(t) 1(r) 23(e) 65(c) 85(o) 73(n) 65(c) 63(i) 23(e) 73(n) 83(s) 23(e) '26(le) '99(vous) 70(p) 23(e) 
+1(r) 60(m) 23(e) 95(t) 23(e) 1(r) 25(a) '19(et) '35(ne) 20(f) 85(o) 73(n) 95(t) 23(e) 83(s) 95(t) 25(a) 95(t) 65(c) 23(e) 1(r) 95(t) 25(a) 63(i) 73(n) '16(de) '99(vous) 10(b) 63(i) 23(e) 73(n) 23(e) 83(s) 95(t) 63(i) 60(m) 23(e) 63(i) 24(e) '48(quil) 83(s) 20(f) 23(e) 1(r) 85(o) 73(n) 95(t) 65(c) 23(e) '48(quil) 83(s) 70(p) 
+85(o) 93(u) 1(r) 85(o) 73(n) 95(t) '42(pour) '99(vous) '75(faire) '75(faire) '46(que) 50(l) '46(que) 25(a) 65(c) 95(t) 23(e) '42(pour) 75(d) 63(i) 93(u) 94(u) 50(l) 30(g) 93(u) 23(e) 1(r) '46(que) '99(vous) '20(est) 23(e) 83(s) 23(e) 73(n) 50(l) 23(e) 93(u) 1(r) 10(b) 25(a) 1(r) '46(que) '19(et) '75(faire) 70(p) 25(a) 1(r) 85(o) 63(i) 1(r) 50(l) 23(e) 93(u) 1(r) 
+70(p) 25(a) 1(r) 95(t) 90(y) 10(b) 63(i) 23(e) 74(n) 20(f) 85(o) 1(r) 95(t) '99(vous) 90(y) 70(p) 23(e) 73(n) 83(s) 23(e) 1(r) 23(e) 83(s) 75(d) 23(e) 70(p) 1(r) 23(e) 83(s) 85(o) '24(il) '99(vous) 70(p) 50(l) 25(a) 63(i) 83(s) 95(t) 70(p) 93(u) 63(i) 83(s) '46(que) 25(a) 65(c) 23(e) 65(c) 85(o) 93(u) 70(p) '24(il) '99(vous) 20(f) 25(a) 93(u) 
+50(l) 95(t) 1(r) 23(e) 83(s) 85(o) 93(u) 50(l) 75(d) 1(r) 23(e) 25(a) 65(c) 25(a) 93(u) 83(s) 23(e) 75(d) 23(e) 93(u) ��(x) 23(e) 95(t) 75(d) 94(u) 50(l) 23(e) 30(g) 25(a) 95(t) '46(que) 50(l) 85(o) 73(n) 75(d) 63(i) 95(t) 23(e) 83(s) 95(t) 1(r) 23(e) 25(a) 65(c) 85(o) 60(m) 70(p) 25(a) 63(i) 30(g) 73(n) 23(e) '16(de) 
+70(p) 23(e) 1(r) 83(s) 85(o) 73(n) 23(e) 83(s) 20(f) 85(o) 1(r) 95(t) 65(c) 25(a) 70(p) 25(a) 10(b) 50(l) 23(e) 83(s) 23(e) 73(n) 95(t) 85(o) 93(u) 95(t) 23(e) 83(s) '25(la) 20(f) 25(a) 63(i) 1(r) 23(e) 83(s) 60(m) 25(a) 63(i) 83(s) '20(est) 25(a) 65(c) 1(r) 25(a) 63(i) 73(n) 75(d) 1(r) 23(e) '46(que) 50(l) 25(a) 
+65(c) 25(a) 93(u) 83(s) 23(e) '50(se) '16(de) 65(c) 63(i) '16(de) 1(r) 25(a) '41(par) '26(le) 20(f) 23(e) 1(r) 10(b) 23(e) 25(a) 93(u) 65(c) 85(o) 93(u) 70(p) 95(t) 85(o) 93(u) 95(t) 23(e) 85(o) 20(f) 85(o) 63(i) 83(s) '50(se) 70(p) 1(r) 23(e) 70(p) 25(a) 1(r) 23(e) 73(n) 95(t) 25(a) 83(s) 93(u) 63(i) 94(u) 1(r) 23(e) 50(l) 23(e) 75(d) 63(i) 1(r) 23(e) 
+75(d) 93(u) 50(l) 23(e) 30(g) 25(a) 95(t) ~50 19(r) ''93 '16(de) 83(s) 25(a) 63(i) 73(n) 65(c) 95(t) 30(g) 23(e) 1(r) 60(m) 25(a) 63(i) 73(n) 25(a) 10(b) 23(e) '16(de) 65(c) 40(h) 25(a) 63(i) 50(l) 90(y) '19(et) 25(a) 93(u) 50(l) 95(t) 1(r) 23(e) 83(s) '50(se) 1(r) 23(e) 95(t) 63(i) 1(r) 23(e) 1(r) 85(o) 73(n) 95(t) 75(d) 25(a) 
+73(n) 83(s) 70(p) 23(e) 93(u) '16(de) '84 25(a) 10(b) 50(l) 85(o) 63(i) 83(s) 25(a) 90(y) 25(a) 73(n) 83(s) 23(e) 93(u) 50(l) 23(e) 93(u) 23(e) 73(n) 95(t) '46(que) '29 93(u) 23(e) 94(u) 50(l) 95(t) 95(t) 63(i) 1(r) 23(e) 1(r) 83(s) 23(e) 1(r) 60(m) 23(e) 73(n) 95(t) 75(d) 23(e) 83(s) 70(p) 1(r) 63(i) 73(n) 
+65(c) 63(i) 70(p) 25(a) 93(u) ��(x) 50(l) 23(e) '46(que) 50(l) 50(l) 23(e) 83(s) 23(e) 65(c) 50(l) 23(e) 83(s) 63(i) 25(a) 83(s) 95(t) 63(i) '46(que) 83(s) 84(s) 85(o) 73(n) 95(t) 95(t) 1(r) 23(e) 83(s) 1(r) 23(e) 83(s) 85(o) 50(l) 93(u) 83(s) 73(n) 23(e) 20(f) 25(a) 63(i) 1(r) 23(e) '19(et) 70(p) 50(l) 93(u) 83(s) 95(t) 85(o) 95(t) 
+60(m) 85(o) 93(u) 1(r) 63(i) 1(r) '19(et) 73(n) 23(e) 95(t) 1(r) 85(o) 93(u) 94(u) 23(e) 73(n) 95(t) 70(p) 1(r) 23(e) 75(d) 63(i) 65(c) 25(a) 95(t) 23(e) 93(u) 1(r) 83(s) 80(qu) 63(i) 93(u) 23(e) 93(u) 50(l) 23(e) 73(n) 95(t) 70(p) 1(r) 23(e) 65(c) 40(h) 23(e) 1(r) '46(que) '41(par) 65(c) 85(o) 73(n) 95(t) 1(r) 25(a) 63(i) 70* 
+95(t) 23(e) '14x x 85(o) 93(u) 23(e) 60(m) 10(b) 1(r) 23(e) 
+no.61 (f.84)
+Undeciphered.
+Despite many repetitive patterns, I have not succeeded in deciphering this. (My attempt assumed the language is French or Italian.)
+Guessing the function of the parentheses may give a clue.
+The following is a provisional transcription. (Markings may not be rendered in a consistent manner.)
+48 20 49 30 33 18 16 28 17 25 33 28 25 _32 ..83 A ~_76 32 30 33 97 14 33 74
+~_83 41 14 17 29 25 18 30 61 20 ~_75 ~_83 33' 82' 74_ ~_68 ~_83 37 20 61 32 16 61 30
+25 28 45 16 32 18 65 73 30 ~_28 (is) 11 45 41 16 28 ~86 73 30 41 25 18 14 48 16 41 14
+(43) 32 25 45 41 25 17 26 33 14 28 16 48 ^_32 41 45 28 25 16 33 ~86. 72' 37 25 33 49 32
+20 (15) ~_83 37 14 28 16 37 11 25 61 20 25 48 32 33 16 32 20 61 37 25 48 30 (30) ~_84
+~_32 (is) 13 20 61 37 32 25 28 20 82' 33'' 11 25 61 33.. 18 61 25 31 32 20 37 18 16 32_ 38
+25 32 14 48 18 14 16 ~14. 78 33 20 48 23. ~_30 37 14 49 20 18 74 ~_87 13 61 14 21 14
+61 18 16 14 33 25 18 14 83. ^11_ ~26. 20 18 ~_87 41 45 13 25 43 30 28 20 49 48 16 25 48
+18 61 16 ~14. ..98 ~_83 16 33 41 25 17 16 33 45 61 20 63 41v 16 33 18' ~_28 ~_76 18 61 14 32
+16 26 33 18 14 13 21 74 69' 60^ 82' 60~ 17 25 33 28 45 32_ 67 35'_ 28 25 61 14 ~83
+37 25 13 20 61 48 48' 82' 55~ 20 18 41 25 32 45 61 33 20 ^_77 20 18 39 61 21 ~22. 28
+20 37 63 14 18 74 61 33 16 48 20 49 30 33 18 16 37 32 28 20 18 20 (15) 45 33
+28 61 25 33 14 18 61 25 39 20 33 20 33 28 14 20 18 ~26. 61 20 49 16 25 33 28 74
+(11) 16 48 99' 13 14 61 18 20 61 25 ~28_ 33_ ~83_ 34' 71.. ~76_ 13 14 37 71 25 20 11 30
+18 39 32 25 61 20 48 25 37 45 33 18 25 45_ (15) 41 14 33 18 30 33 18 25 61 45
+38 25 32 20 61 49 16 18 39 25 18 28 48 25 81_ 29' 38 25 32 49 61 37 14 28 16 37
+11 25 18 14 25 48 72' 78 20 48 ^20 ~.14 30_ 18 20 33 49 25 ~53. ^11. ~83_ 11 20 61 17 14
+20 18 ~22. ~83_ 41 38 16 25 61 14 20 18 61 16 37 14 48 32 18 14 ~_28 42.. ~_76
+38 25 29 16 25 69' 28 32 29 16 18 25 61 33 20 92v 28 48 25 33 28 61 25 33 14
+33 14 32 74 ~31 82' A 28 14 32 61 25 38 25 32 20 61 79_ 14 29 61 20 32 30 89'
+32_ ~_83 30_ ~_68 ~_84 ^_99 ~_46 41 14 33 18 20 61 73 25 37 14 48 74 ^20 16 33 23.. ~_76
+38 14 32 14 48 32 18 14 48 25 37 41' 16 25 61 82' 28 25 61 48 20 ^_11 61^ 72'
+20 18 37 14 13 61 25 ~53 25 41 20 61 18 45 61 48 25 82' 13 25 18 20 61 33 45 28'
+~_28 32_ 48 20 13 14 61 18 25 13 25 61 48 25 33 28 14 82' 48 20 16 26 33 18
+32 39 81' 16 ^_24 ~_28 48 20 14 41 43 14 61 73 14 33 74 41 14 34 ~.22 47'
+~_28 29 20 33 17 14 37 18 61 25 16' 48 25 39.. 37 18 16 17 25 83.. ~_28 18 16 20 33
+30 63_ 94^ 10~ 20 18 67 17 14 48 18 74 37 20 61 32 16 49 26 14 ~_28 (15) 13 61 14
+17 20 18 39 30 69' 30_ ~_28 63_ 37 20 61 32 16 61 25 ~_83 72'
+The following shows basic statistics.
+symbol -- freq.
+25--63
+20--52
+61--50
+18--48
+14--48
+33--42
+16--37
+48--30
+32--27
+28--25
+37--23
+41--17
+30--15
+45--13
+13--12
+17--10
+49--10
+74--9
+82--8
+11--7
+39--7
+38--7
+29--6
+15--4
+73--4
+72--4
+26--4
+69--3
+21--3
+43--3
+bigram--freq.
+20 61--13
+20 18--11
+33 18--10
+25 61--10
+61 25--9
+25 33--8
+14 48--7
+18 14--7
+33 28--7
+48 25--7
+In 2020, George Lasry solved this with his computer algorithm (received on 31 October 2020). Although the solution is not complete, it seems basically correct in view of many Italian words recovered ("catolico", "persuade", "promette", "servira", etc.).
+no.62 (f.85)
+Undeciphered.
+Some symbols are accompanied with a superscript. If they represent M
+r
+, S
+r
+, S
+t
+ or the like, it may give a clue.
+In 2022, George Lasry achieved interim results (
+text
+). See 
+my blog
+.
+no.63 (f.86)
+A glance is enough to see this is of the easiest kind. The key could be found in a short time.
+The symbol for "A" was obvious from occurrences of a single-letter word. Pattern matching for "xA*xA****x" on the second line gave a candidate "rafraichir"�DAt first, I was not aware that the term is used in military contexts but it revealed the word "d'Angleterre" on the fourth line. After this, there was no difficulty in identifying the other symbols.
+©2018 S.Tomokiyo
+First posted on 31 July 2018. Last modified on 5 February 2022.
+Cryptiana: Articles on Historical Cryptography

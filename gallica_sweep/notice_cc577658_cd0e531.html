@@ -1,0 +1,454 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+<meta charset="UTF-8">
+
+<title>Consultation</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon"/>
+
+
+<link type="text/css" rel="stylesheet"	href="/bootstrap-3.2.0/css/bootstrap.min.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/pictos/pictos.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/common.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/displayComponent.css"/>
+
+
+<script type="text/javascript" language="javascript" src="/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript"	src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="/js/common.js"></script>
+<script	type="text/javascript"	src="/js/pagePresentationIr.js"></script>
+
+
+
+<style type="text/css">
+.avecDaoGal {}
+.avecDaoGal:before {margin-right:-20px;content:url(/img/pictoGallicaDark2.gif);width:20px;height:20px;float:left;background-size:20px;position:relative;left:-35px;top:2px;}
+#body h1 {margin-top:4px}
+#body #idDossiersAncetres {font-size: 1em;margin: 17px 0 1px;}
+</style>
+
+</head>
+
+<body>
+	<input type="hidden" id="idCurrentCompId" name="currentCompId" value="FRBNFEAD000057765_d0e531">
+	<input type="hidden" id="idCurrentIdIr" name="currentIdIr" value="FRBNFEAD000057765">
+	
+	<div id="header" class="HeaderHome">
+		
+
+
+
+<div class="topbar">
+	<div class="container-fluid"
+	
+	>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a target="_blank" href="https://www.bnf.fr" class="logo"
+					onclick="return xt_click(this,'C','14','CommunBam::clickLogoBnf','N')"><img src="/img/logoBnf.gif" alt="BnF"/></a>
+				<a href="https://archivesetmanuscrits.bnf.fr/" class="titreSite"
+				
+					onclick="return xt_click(this,'C','14','CommunBam::clickArchivesEtManuscrits','N')">Archives et manuscrits</a>
+				
+			</div>
+			
+			<div class="col-md-6 text-right">
+
+				
+				<div class="menuGeneral">
+					
+					<a href="/pageAccueil.html#idActualites" class="actus btn btn-default"
+						onclick="return xt_click(this,'C','14','CommunBam::clickActus','N')"><b></b>Actualités</a></b>
+					
+					<a href="https://www.bnf.fr/fr/outils/a.ecrire.html" class="question" target="_blank"
+						onclick="return xt_click(this,'C','14','CommunBam::clickUneQuestion','N')">Une question ?</a>
+					
+				</div>
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="bamModal">
+
+	<!-- Modal HTML -->
+	<div id="BamWaitModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					<h3 class="modal-title">Recherche en cours</h3>
+				</div>
+				<div class="modal-body">
+					<p>Vous avez lancé une recherche. Le résultat s'affichera dans un instant.</p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		
+		<div class="ariane">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" style="float:left;"><a href="/pageAccueil.html">Accueil</a>
+					<div style="padding-left: 2px;line-height: 23px;height: 37px;border-bottom: 3px solid #FFF;padding: 7px 18px 0px;display: inline-block;color: #6C6C6C;">Présentation de l'IR</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="body">
+		<div class="container">
+		
+			<div id="navigationId" style="text-align: center;font-size: 1.1em;">
+			
+			</div>
+
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div id="idDossiersAncetres">Département des Manuscrits > Français > Français > Français 1-6170 [Ancien fonds] > Français 4570-4924</div>
+					<h1>Français 4715
+</h1>
+				</div>
+			</div>
+			
+			<!-- Interface de recherche -->
+			<div class="blocBlanc interfaceRecherch">
+				<div class="menuConsultation">
+					<ul class="menu">
+					
+					
+					<li class="sep">
+					
+
+
+<a href="#layerLoupe" class="pictos" role="tab" id="menuLoupe"><i class="icon-loupe" title="Rechercher" data-icon="&#xe609;"></i></a>
+<div id="layerLoupe" class="layer" role="tabpanel" aria-labelledby="menuLoupe">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Rechercher dans l'IR</h2>
+	<div class="forRech">
+		<form>
+		<input type="text" id="idInputContenuRecherche">
+		<button type="submit" id="idButtonContenuRecherche" class="btn btn-primary pictos"><i class="icon-search" title="Lancer la recherche" data-icon="&#xe609;"></i></button>
+		</form>
+	</div>
+</div>
+
+					</li>
+ 					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+#layerPlan {
+	margin-left:1px;
+}
+
+#layerPlan .lien.closed,
+#layerPlan .lien .treeCollapser.closed {
+	display: inline-block;
+}
+
+#layerPlan .lien,
+#layerPlan .lien .treeCollapser {
+	display: inline-block;
+}
+
+#layerPlan .childInfo {
+	background-image: url("/img/arrowListDown.png");
+	width: 12px;
+	height: 7px;
+	margin-right: 2px;
+	cursor: pointer;
+	float: left;
+	margin-top: 8px;
+}
+
+.ttt {
+	margin-top:2px;
+	margin-bottom:1px;
+}
+
+.lk::before {
+	content: "* ";
+}
+
+.lk {
+	display: table-cell;
+	padding-left: 1px;
+	font-size:0.9em;
+}
+
+#layerPlan .childInfo.closed {
+	background-image: url("/img/arrowListUp.png");
+}
+
+#layerPlan .withoutChild {
+	width: 7px;
+	height: 5px;
+	margin-right: 7px;
+	float: left;
+	clear: none;
+	margin-top: 8px;
+}
+
+#layerPlan .ttt.closed,
+#layerPlan .nivX.closed
+{
+    height: 0px;
+    float: left;
+    width: 0px;
+    visibility: hidden;
+}
+</style>
+
+<a href="#layerPlan" role="tab" id="menuPlan"><i class="plan" title="Plan"></i></a>
+<div id="layerPlan" class="layer" role="tabpanel" aria-labelledby="menuPlan">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Sommaire</h2>
+	<div class="niv0"><div class="withoutChild"> </div><a class="lk" title="Informations bibliographiques" href="FRBNFEAD000057765_info">Informations bibliographiques</a></div><div class="niv0"><div class="childInfo"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765">Français 4715 • Anc. 9537 • Recueil de pièces originales, la plupart en chiffre, relatives aux affaires de la Ligue, à la fin du règne de Henri III et au commencement du règne de Henri IV.</a><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e165">Fol. 1 • 1 Lettre, avec chiffre et déchiffrement. Cette lettre, qui est sans adresse et n'est point signée, semble destinée au duc de Nevers, alors à Rome. Décembre 1593.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e173">Fol. 2 • 2 Lettre en chiffre, avec déchiffrement, du cardinal DE GUISE au duc de Nevers. Soissons, 6 octobre 1586.</a></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e181">Fol. 3 et suiv • 3 Fragments d'une correspondance en chiffre de ROBERT DE LA VIEUVILLE avec le duc de Nevers, Louis de Gonzague. Déchiffrement interlinéaire.</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e192">Fol. 3 • Lettre du Sr DE LA VIEUVILLE au duc de Nevers. « De Si, ce treziesme janvier » 1590 ?.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e201">Fol. 4 à 9 • Lettre du même au même. « De Si, le neufiesme novenbre » 1589.</a></div></div><div class="nivX closed"><div class="childInfo closed" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e207">Fol. 10 à 13 • Lettre du même au même. Mai 1589.</a><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e218">Fol. 11 et 12 • a « Lettre du Sr DISGARDE, qui est en Allemagne, à Mr de Trepigny,... A Arsse, ce 12 may ».</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e232">Fol. 12 • b « Lettre du Sr DE TREPIGNY à La Vieuville ».</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:45px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e248">Fol. 13 • c « Lettre du [Sr] D'AMBLY,... à celluy qu'il a laissé à Maisiere... ».</a></div></div></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e259">Fol. 14 et 15 • Lettre du même au même. « De Mezieres, ce treziesme febvrier » 1590. Le commencement manque. Cachet de cire rouge armorié.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e265">Fol. 16 • Lettre du même au même. « De Si, le 23 may... 1589 ». Le commencement de cette lettre manque. Elle contient la « coppie de la lectre que La Vieuville desireroit que le roy luy escrivist ».</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e271">Fol. 17 • Lettre du même au même. « De Sy, le dixhuictiesme de may » 1589.</a></div></div></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e277">Fol. 18 • 4 Lettre en chiffre, avec déchiffrement, du cardinal DE PELLEVE au duc de Nevers. Rome, 10 avril 1586.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e285">Fol. 20 • 5 Mémoire, en chiffre, avec déchiffrement. « Mars 1571 ». En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e296">Fol. 24 • 6 Lettre en chiffre, avec déchiffrement, de ROBERT DE LA VIEUVILLE au duc de Nevers. Sy, 3 juillet 1589.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e304">Fol. 25 • 7 Lettre en chiffre, avec déchiffrement, du « Pere CLAUDE » MATHIEU au duc de Nevers. Joinville, 23 février 1589.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e315">Fol. 26 • 8 Lettre en chiffre, avec déchiffrement, adressée, semble-t-il, à Louis de Gonzague, duc de Nevers, alors qu'il était à Rome, auprès du pape, pour l'absolution du roi Henri IV. Le commencement manque.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e323">Fol. 27 • 9 Lettre en chiffre, avec déchiffrement. On lit au dos de ladite lettre le mot « Evesque », de la main du duc de Nevers. Cette lettre, datée du 2 décembre 1589, raconte sommairement les faits de guerre du roi Henri IV, à partir du 21 novembre 1589.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e331">Fol. 28 et 80 • 10 Lettre en chiffre, avec déchiffrement, de ROBERT DE LA VIEUVILLE au duc de Nevers. « De Sy, le 22 aoust » 1589. Cette lettre contient la transcription de deux lettres adressées audit Sr de La Vieuville par le Sr DE TRESPIGNY.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e345">Fol. 29 • 11 Lettre en chiffre, avec déchiffrement. Elle doit être du duc DE GUISE, alors à Châlons. Une note placée au dos de ladite lettre par le duc de Nevers, à qui elle est adressée, porte : « G. 11 febvrier 86 ».</a></div></div><div class="nivX"><div class="childInfo closed" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e353">Fol. 30 et suiv • 12 Fragments d'une correspondance en chiffre de ROBERT DE LA VIEUVILLE avec le duc de Nevers, Louis de Gonzague. Déchiffrement interlinéaire.</a><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e361">Fol. 30 • « Par celle que je vous ay escripte par le Sr Simonet vous aurez veu la revolte de Reimps. Je vous envoie mon secretaire expres, avec la coppie de la lectre des gouverneurs de Rocroy et de Maubert... ».</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e370">Fol. 31 • « Je desireroys que la necessité ne me contraignist de vous escripre si souvent d'une même chose et à laquelle je veois si peu de remede... De Sy, 21 aoust » 1589.</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e376">Fol. 32 • « J'ay grand regret qu'il me faille vous representer mes ennuys, qui seront les vostres... ».</a></div></div><div class="nivX closed"><div class="withoutChild" style="margin-left:30px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e391">Fol. 32 bis • « Je regrete de plus en plus vostre absence pour la grande facilité que je recongnois qu'il y a de reduire le pays en obeissance. Come j'ai veu S. Pol acheminé vers Paris, le baron de Termes ayant quatre compagnies à Ste Menehoust, j'ai tiré les miennes des garnisons d'Omont et La Cassine... ».</a></div></div></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e406">Fol. 33 • 13 Lettre en chiffre, avec déchiffrement. Semble être écrite du même chiffre que celle portée sous le n° 11. Elle est datée « De Paris, ce XI janvier », et paraît adressée au duc de Nevers par le cardinal DE GUISE, en 1586.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e414">Fol. 34 • 14 Lettre, avec chiffre et déchiffrement, au duc de Nevers ? 1586 ?.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e427">Fol. 35 • 15 Lettre, signée de deux C adossés, de CHRISTOPHE DE BASSOMPIERRE au duc de Lorraine. En chiffre, avec déchiffrement. « De Paris, ce 1 augst 1593 ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e435">Fol. 37 • 16 Lettre en chiffre, avec déchiffrement, concernant l'importance pour le roi de la prise de Chaumont en Bassigny. 1590 ?.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e443">Fol. 38 • 17 Lettre avec chiffre. Au dos on lit, de la main du duc de Nevers, le mot « Evesque » et la date du « 17 novembre 1589 ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e454">Fol. 39 • 18 Lettre portant en tête ces mots, de la main du duc de Nevers : « Deschifrement de ma seur ». On y lit : « Le chasteau d'Angers a esté pris par l'entremise de mon beau filz par Le Hallot, qui estoyt à Monsieur ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e468">Fol. 41 • 19 Lettre en chiffre, non déchiffrée.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e479">Fol. 43 • 20 Lettre avec chiffre et déchiffrement. On y lit : « Il y a six sepmaines que je suis esloignée du roy, à cause du veoyage qu'il a fait à Dieppe ». Le chiffre employé ici est le même que celui qui figure dans la lettre portée sous le n° 1. « 2 decembre » 1593.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e487">Fol. 44 • 21 Lettre, avec chiffre, en partie déchiffrée, écrite de Tours, le « 21 octobre » 1589, par JEROME DE MONTHOLON, Sr DE PEROUSSEAUX, conseiller au conseil d'État et au parlement. La lettre ne porte pas d'adresse. Au dos sont deux cachets marqués aux lettres M. O. I. entrelacées, la lettre M répétée deux fois.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e498">Fol. 45 et suiv • 22-25 Lettres de « N[ICOLAS] POTIER » DE BLANCMESNIL au duc de Nevers. Avec chiffre et déchiffrement. Septembre 1589.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e506">Fol. 49 • 26 Lettre de CHARLES DE LORRAINE, duc DE MAYENNE, au duc de Nevers. « De Villeneufve d'Agenoys, le 20 mars [15]86 ». En chiffre, avec déchiffrement. Le chiffre est le même, semble-t-il, que celui employé dans les lettres portées sous les nos 11 et 13.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e517">Fol. 50 et 51 • 27-28 Lettres du Sr DE MONTHOLON. En chiffre, en grande partie, avec déchiffrement de quelques passages seulement. Tours, 30 octobre et 3 décembre 1589.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e531">Fol. 52 • 29 Partie déchiffrée d'une lettre en italien. On y lit : « Son stato advertito da persona di qualita et inteligente chel duca di Savoya a intentione piu che mai di impatronirsi di parte del Montferrato... » et « ... il re cattolico talmente imbarazzato nelle cosa (sic) di Fiandra, che si Dio non gli mette la sua Sta mano, non sara per redurle in buon stato di qualche anni... ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e545">Fol. 53 • 30 Lettre en chiffre, avec déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e556">Fol. 54 • 31 Lettre sans souscription ni adresse. On y lit : « ... les guarnisson (sic) de Crespan et de Gransey sur Ourse, et d'aultres ancors, quy sont establis par le roy, font tant de maux qu'on ne trouve plus rien aux villages ; et si le roy n'y donne ordre et promptement, il ne fault pas faire estat que cest année on seme... ». Copie adressée à un serviteur du duc de Nevers, pour ladite copie être montrée audit duc et ensuite brûlée.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e567">Fol. 55 • 32 Lettre, signée : « CHAMLEMYS », au duc de Nevers.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e575">Fol. 56 • 33 Lettre avec chiffre et déchiffrement. On y lit : « Les entreprises du conte de Soissons s'en sont allées en fumée ; il est venu jusques à Mung avec le baron de Biron, et Montigny jusques à Chasteauneuf, pour attaquer les fauxbourgs de Gergeau... ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e583">Fol. 57 • 34 Lettre de « CATERINE » DE GONZAGUE et DE CLEVES, duchesse DE LONGUEVILLE, au duc de Nevers, son père.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e597">Fol. 58 • 35 Lettre, avec chiffre, en partie déchiffrée, du Sr DE MONTHOLON. Tours, 26 novembre 1589. Au dos deux cachets marqués aux lettres entrelacées : M. M. I. O.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e608">Fol. 59 • 36 Lettre en chiffre, avec déchiffrement. Le chiffre employé est le même que celui des nos 9 et 17.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e622">Fol. 60 • 37 Lettre avec chiffre, en partie déchiffrée, du Sr DE MONTHOLON. Tours, 12 décembre 1589. Au dos cachets aux lettres M. M. I. O. entrelacées.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e633">Fol. 61 • 38 Lettre avec chiffre.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e641">Fol. 62 • 39 Lettre du Sr DE MONTHOLON, avec chiffre, en partie déchiffrée. Tours, 17 décembre 1589. Au dos deux cachets aux lettres M. M. I. O. entrelacées.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e652">Fol. 63 • 40 Lettre d' « ANNE D'ACQUAVIVE ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e660">Fol. 64 et 65 • 41-42 Lettre et fin de lettre de ROBERT DE LA VIEUVILLE.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e676">Fol. 66 • 43 Lettre de CHARLES DE LORRAINE, duc DE MAYENNE, au duc de Nevers. Au camp devant Auxonne, 29 août 1586. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e684">Fol. 67 • 44 Lettre, avec chiffre, du Sr DE MONTHOLON. Tours, 15 avril 1590.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e695">Fol. 68 et 69 • 45-46 Lettres avec chiffre et déchiffrement. Le chiffre est le même que celui du n° 36.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e711">Fol. 70 et 71 • 47-48 Lettres du Sr DE MONTHOLON. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e729">Fol. 72 • 49 Lettre de CHARLES DE LORRAINE, duc DE MAYENNE, au duc de Nevers. Bordeaux, 11 juin 1586. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e737">Fol. 73 • 50 Fin d'une lettre du Sr DE TRESPIGNY au Sr de La Vieuville. Le commencement de cette lettre se trouve plus haut au fol. 32. Voir art. 12. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e751">Fol. 74 • 51 Lettre du cardinal DE GUISE, LOUIS DE LORRAINE, au duc de Nevers. Paris, 15 janvier 1586. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e759">Fol. 75 • 52 Lettre de ROBERT DE LA VIEUVILLE au duc de Nevers. « De Si, le 20 juing » 1589. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e767">Fol. 76 • 53 Lettre de CHARLES DE LORRAINE, duc DE MAYENNE, au duc de Nevers. Décembre 1585. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e775">Fol. 77 et 78 • 54-55 Lettres du Sr DE MONTHOLON. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e789">Fol. 79 • 56 Minute de lettre, avec chiffre, de LOUIS DE GONZAGUE, duc DE NEVERS, en réponse à celle du duc de Mayenne indiquée plus haut sous le n° 53. « Reimps, 11 decembre... 1585 ».</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e797">Fol. 80 • 57 Lettre de ROBERT DE LA VIEUVILLE. Chiffre et déchiffrement.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e811">Fol. 81 • 58 Lettre du Sr DE MONTHOLON. Chiffre non déchiffré. Tours, « 8 nov. » 1589. Au dos 2 cachets aux lettres M. M. I. O. entrelacées.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000057765_d0e822">Fol. 82 à 86 • 59-63 Chiffres non déchiffrés.</a></div></div></div></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+<a href="#layerIndex" role="tab" id="menuIndex" style="color:black;font-size:10px;padding: 10px 0 10px 0;">
+	Index<br/>
+	<i class="index" title="Index"></i>
+</a>
+<div id="layerIndex" class="layer" role="tabpanel" aria-labelledby="menuIndex">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>index</h2>
+	<div id="idIndexContent"></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+
+
+<a href="#layerPdf" role="tab" id="menuPdf"><i class="pdf" title="Pdf"></i></a>
+<div id="layerPdf" class="layer" role="tabpanel" aria-labelledby="menuPdf">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Contenu Pdf</h2>
+	<div class="nbRes">Il vous est possible de télécharger le(s) document(s) associé(s) à ce composant.</div>
+	<ul class="listeLiens">
+		<li><span class="libelle">Obtenir le contenu de cette unité de description au format PDF</span>
+			<a href="javascript:pdfComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdf','N')">Télécharger</a>
+		</li>
+		<li><span class="libelle">Obtenir le contenu de cette unité de description et ses sous-unités au format PDF</span>
+			<a href="javascript:pdfAllComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdfArbo','N')">Télécharger</a>
+		</li>
+	</ul>
+</div>
+
+					</li>
+					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+.interfaceRecherch .menuConsultation .menu > li .layer .listeLiens li .libelle.infoIntroMsg {
+	margin-bottom: 12px;
+}
+</style>
+
+
+<a href="#layerResa" role="tab" id="menuResa" style="color:black;font-size:10px;">
+	Réservation
+	<i class="resa" title="Réservation"></i>
+</a>
+
+<div id="layerResa" class="layer" role="tabpanel" aria-labelledby="menuResa">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Réservation</h2>
+	<div id="menuResaContent">
+	<ul class="listeLiens"><li><span class="libelle">Document original : Fol. 52<br/>Ce niveau ne correspond pas à une unité matérielle communicable. Veuillez sélectionner une cote dans un niveau supérieur.</span></li></ul>
+</div>
+</div>
+
+					</li>
+					
+					</ul>
+				</div>
+				
+				<div id="barreDeRetaillage"></div>
+
+				<div class="panneauWrapper" id="idPanneauWrapper">
+					<ascendants>
+					<ul><li><span class='contourImageGallica'><img class='imageGallica' alt='Gallica' src='/img/pictoGallicaDark.gif'/></span><a href="javascript:refreshCompInfo('FRBNFEAD000057765');">Français 4715 (cote) • Recueil de pièces originales, la plupart en chiffre, relatives aux affaires de la Ligue, à la fin du règne de Henri III et au commencement du règne de Henri IV.</a></li></ul>
+					</ascendants>
+					<contenu>
+					<?xml version="1.0" encoding="UTF-8"?><div class="did-class">
+<div class="did-unitid">foliotation : Fol. 52</div>
+<div class="did-label">
+<div class="did-unittitle">29 Partie déchiffrée d'une lettre en italien. On y lit : « Son stato advertito da persona di qualita et inteligente chel duca di Savoya a intentione piu che mai di impatronirsi di parte del Montferrato... » et « ... il re cattolico talmente imbarazzato nelle cosa (<emph render="italic">sic</emph>) di Fiandra, che si Dio non gli mette la sua S<emph render="super">ta</emph> mano, non sara per redurle in buon stato di qualche anni... ».</div>
+</div>
+</div>
+
+					</contenu>
+					<br>
+					<descendants>
+					<br/>
+					</descendants>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer" class="footerHome">
+		<div class="container">
+			<div class="topOfPage">
+				<a href="#header"><i class="icon-caret" data-icon="&#xe60f;" title="Haut de page"></i></a>
+			</div>
+		</div>
+	
+		
+
+
+
+
+
+
+
+<div class="menuFooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<a href="/conditionsUtilisation.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickContionsUtilisation','N')">Conditions d'utilisation</a>
+				
+					
+				| <a href="/aPropos.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickAPropos','N')">À propos</a>
+				| <a class="ext" href="http://www.bnf.fr/fr/outils/a.ecrire.html" target="_blank"
+					onclick="return xt_click(this,'C','14','CommunBam::clickEcrireALaBnf','N')">Écrire à la BnF</a>
+				|
+
+				 <span>v 11.1.0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	
+	
+
+
+
+
+
+
+
+
+    <script async type="text/javascript" src="https://tarteaucitron.io/load.js?domain=archivesetmanuscrits.bnf.fr&uuid=91ba7c974c752a888f0a2765181efcbea3a33ef9"></script>
+
+<!-- Initialisation de XITI et tarte au citron	-->
+    <script defer>
+        function whenAvailable(name, callback) {
+            const interval = 10; // ms
+            window.setTimeout(function() {
+                if (window[name]) {
+                    callback(window[name]);
+                }else{
+                    whenAvailable(name, callback);
+                }
+            }, interval);
+        }
+
+        whenAvailable("tarteaucitron", function(t) {
+            let title = "PresentationBam::PagePresentationIr";
+            const lv2 = "14"; // level 2 site 
+            tarteaucitron.user.atLibUrl= "https://tag.aticdn.net/18798/smarttag.js" ;
+            tarteaucitron.user.atinternetSendData=false;
+            tarteaucitron.user.atMore = function () {
+                const tag = new ATInternet.Tracker.Tag();
+                tag.page.set({
+                    name: title,
+                    level2:lv2,
+                });
+                tag.dispatch();
+            };
+            (tarteaucitron.job = tarteaucitron.job ||[]).push('atinternet');
+        });
+    </script>
+
+
+
+<script type="text/javascript">
+var contextPath='';
+
+/**
+ * Redirection des appels par appui sur lien.
+ */
+function lIdC(ob){
+	var b = $(ob);
+	var b1 = b.attr('v');
+	if(b1 != null){
+		afficheCompResFromIndex(b1);
+	}
+}
+
+function xitiResa(){
+	return xt_click(this,'C','14','PresentationBam::clickComRao','N')
+}
+</script>
+
+</body>
+</html>
