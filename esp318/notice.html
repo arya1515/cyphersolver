@@ -1,0 +1,524 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+<meta charset="UTF-8">
+
+<title>Consultation</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon"/>
+
+
+<link type="text/css" rel="stylesheet"	href="/bootstrap-3.2.0/css/bootstrap.min.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/pictos/pictos.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/common.css"/>
+<link type="text/css" rel="stylesheet"	href="/css/displayComponent.css"/>
+
+
+<script type="text/javascript" language="javascript" src="/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript"	src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="/js/common.js"></script>
+<script	type="text/javascript"	src="/js/pagePresentationIr.js"></script>
+
+
+
+<style type="text/css">
+.avecDaoGal {}
+.avecDaoGal:before {margin-right:-20px;content:url(/img/pictoGallicaDark2.gif);width:20px;height:20px;float:left;background-size:20px;position:relative;left:-35px;top:2px;}
+#body h1 {margin-top:4px}
+#body #idDossiersAncetres {font-size: 1em;margin: 17px 0 1px;}
+</style>
+
+</head>
+
+<body>
+	<input type="hidden" id="idCurrentCompId" name="currentCompId" value="FRBNFEAD000034925">
+	<input type="hidden" id="idCurrentIdIr" name="currentIdIr" value="FRBNFEAD000034925">
+	
+	<div id="header" class="HeaderHome">
+		
+
+
+
+<div class="topbar">
+	<div class="container-fluid"
+	
+	>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a target="_blank" href="https://www.bnf.fr" class="logo"
+					onclick="return xt_click(this,'C','14','CommunBam::clickLogoBnf','N')"><img src="/img/logoBnf.gif" alt="BnF"/></a>
+				<a href="https://archivesetmanuscrits.bnf.fr/" class="titreSite"
+				
+					onclick="return xt_click(this,'C','14','CommunBam::clickArchivesEtManuscrits','N')">Archives et manuscrits</a>
+				
+			</div>
+			
+			<div class="col-md-6 text-right">
+
+				
+				<div class="menuGeneral">
+					
+					<a href="/pageAccueil.html#idActualites" class="actus btn btn-default"
+						onclick="return xt_click(this,'C','14','CommunBam::clickActus','N')"><b></b>Actualités</a></b>
+					
+					<a href="https://www.bnf.fr/fr/outils/a.ecrire.html" class="question" target="_blank"
+						onclick="return xt_click(this,'C','14','CommunBam::clickUneQuestion','N')">Une question ?</a>
+					
+				</div>
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="bamModal">
+
+	<!-- Modal HTML -->
+	<div id="BamWaitModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					<h3 class="modal-title">Recherche en cours</h3>
+				</div>
+				<div class="modal-body">
+					<p>Vous avez lancé une recherche. Le résultat s'affichera dans un instant.</p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		
+		<div class="ariane">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" style="float:left;"><a href="/pageAccueil.html">Accueil</a>
+					<div style="padding-left: 2px;line-height: 23px;height: 37px;border-bottom: 3px solid #FFF;padding: 7px 18px 0px;display: inline-block;color: #6C6C6C;">Présentation de l'IR</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="body">
+		<div class="container">
+		
+			<div id="navigationId" style="text-align: center;font-size: 1.1em;">
+			
+			</div>
+
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div id="idDossiersAncetres">Département des Manuscrits > Espagnol</div>
+					<h1>Espagnol 318
+</h1>
+				</div>
+			</div>
+			
+			<!-- Interface de recherche -->
+			<div class="blocBlanc interfaceRecherch">
+				<div class="menuConsultation">
+					<ul class="menu">
+					
+					
+					<li class="sep">
+					
+
+
+<a href="#layerLoupe" class="pictos" role="tab" id="menuLoupe"><i class="icon-loupe" title="Rechercher" data-icon="&#xe609;"></i></a>
+<div id="layerLoupe" class="layer" role="tabpanel" aria-labelledby="menuLoupe">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Rechercher dans l'IR</h2>
+	<div class="forRech">
+		<form>
+		<input type="text" id="idInputContenuRecherche">
+		<button type="submit" id="idButtonContenuRecherche" class="btn btn-primary pictos"><i class="icon-search" title="Lancer la recherche" data-icon="&#xe609;"></i></button>
+		</form>
+	</div>
+</div>
+
+					</li>
+ 					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+#layerPlan {
+	margin-left:1px;
+}
+
+#layerPlan .lien.closed,
+#layerPlan .lien .treeCollapser.closed {
+	display: inline-block;
+}
+
+#layerPlan .lien,
+#layerPlan .lien .treeCollapser {
+	display: inline-block;
+}
+
+#layerPlan .childInfo {
+	background-image: url("/img/arrowListDown.png");
+	width: 12px;
+	height: 7px;
+	margin-right: 2px;
+	cursor: pointer;
+	float: left;
+	margin-top: 8px;
+}
+
+.ttt {
+	margin-top:2px;
+	margin-bottom:1px;
+}
+
+.lk::before {
+	content: "* ";
+}
+
+.lk {
+	display: table-cell;
+	padding-left: 1px;
+	font-size:0.9em;
+}
+
+#layerPlan .childInfo.closed {
+	background-image: url("/img/arrowListUp.png");
+}
+
+#layerPlan .withoutChild {
+	width: 7px;
+	height: 5px;
+	margin-right: 7px;
+	float: left;
+	clear: none;
+	margin-top: 8px;
+}
+
+#layerPlan .ttt.closed,
+#layerPlan .nivX.closed
+{
+    height: 0px;
+    float: left;
+    width: 0px;
+    visibility: hidden;
+}
+</style>
+
+<a href="#layerPlan" role="tab" id="menuPlan"><i class="plan" title="Plan"></i></a>
+<div id="layerPlan" class="layer" role="tabpanel" aria-labelledby="menuPlan">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>Sommaire</h2>
+	<div class="niv0"><div class="withoutChild"> </div><a class="lk" title="Informations bibliographiques" href="FRBNFEAD000034925_info">Informations bibliographiques</a></div><div class="niv0"><div class="childInfo"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925">Espagnol 318</a><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e77">1 Bref du pape Jules II aux Rois Catholiques Ferdinand et Isabelle. Rome, 25 mai 1504. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e89">F. 2 • 2 Bref du pape Alexandre VI aux Rois Catholiques Ferdinand et Isabelle. Rome, 2 octobre 1493. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e103">F. 3 • 3 Lettre de l'empereur Maximilien Ier aux Rois Catholiques Ferdinand et Isabelle. Strasbourg, 15 avril 1499. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e123">F. 4 • 4 Lettre de l'empereur Maximilien Ier aux Rois Catholiques Ferdinand et Isabelle. Hall, 17 mars 1496. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e143">F. 5-6 v° • 5 Lettre de Frédéric III, roi de Naples, aux Rois Catholiques Ferdinand et Isabelle. San Germano, 11 janvier 1497. En italien et en partie en chiffre.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e157">F. 7-8 v° • 6 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier, à son frère Ferdinand le Catholique. Naples, 17 novembre 1508.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e182">F. 9-10 • 7 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier à son père Jean II d'Aragon. Naples, 8 octobre 1477. En catalan.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e198">F. 11-12 v° • 8 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier à son frère Ferdinand le Catholique. Castellamar (?), 23 juillet 1509.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e217">F. 13 • 9 Lettre des Rois Catholiques à la comtesse de la Cherra. Alcalá de Henares, 20 janvier 1503.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e231">F. 14 • 10 Lettre des Rois Catholiques à Mossen de Rebestan. Alcalá de Henares, 5 avril 1498.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e245">F. 15 • 11 Lettre des Rois Catholiques à l'empereur Maximilien. 1503. Duplicata.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e262">F. 16-16 v° • 12 Lettre de Ferdinand le Catholique à son père Jean II d'Aragon. Séville, 25 juillet 1478.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e273">F. 17 • 13 Lettre des Rois Catholiques à N... "duque primo," lui défendant d'intervenir les armes à la main dans les affaires de la maison de Medinaceli, sous peine de perdre ses biens. Écija, décembre 1501. Minute.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e287">F. 18 • 14 Lettres de créance des Rois Catholiques pour Gonçalo Fernandez de Cordova. Grenade, 22 mars 1501.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e301">F. 19 • 15 Lettre d'"Ysabella de Aragonia, duchesa de Millano," au Roi Catholique. Bari, 14 décembre 1507. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e315">F. 20 • 16 Lettre de "Leonor," princesse de Navarre, au roi Jean II, son père. Olit, 10 décembre 1473.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e326">F. 21 • 17 Lettre de "Janus Maria de Campo Fregoso," doge de Gênes, au Roi Catholique. Gênes, 6 juillet 1512. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e340">F. 22 • 18 Lettre d'Alphonse d'Est, duc de Ferrare, au Roi Catholique. Ferrare, 25 janvier 1507. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e357">F. 23 • 19 Lettre de "Johan" d'Albret et "Catalina," rois de Navarre, au Roi Catholique. Pau, 9 octobre 1510.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e374">F. 24 • 20 Lettre d'"el prinçipe" D. Carlos au Roi Catholique. Malines, 26 octobre 1508.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e391">F. 25 • 21 Lettre d'"Anne," duchesse de Bretagne, à l'ambassadeur des Rois Catholiques, Francisco de Rojas. Rennes, 18 avril 1490. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e405">F. 26 • 22 Lettre d'"Anne," duchesse de Bretagne, reine de France, au Roi Catholique. Moulins, 24 mai 1497. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e419">F. 27 • 23 Lettre de Ferdinand le Catholique à son père Jean II. Sans lieu ni date.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e430">F. 28 • 24 Lettre de "el Rey M[anuel]" de Portugal au Roi Catholique. Allmeirim, 7 mars 1510. En portugais.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e447">F. 29 • 25 Lettre d'"Anne" de France au Roi Catholique. Paris, 30 juillet 1513. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e461">F. 30 • 26 Lettre de "Pierre" II de Bourbon à la Reine Catholique. Villefranche en Beaujolais, 12 décembre. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e475">F. 31 • 27 Lettre d'Alphonse II, roi de Naples, au Roi Catholique. Messine, 11 mai 1495. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e489">F. 32 • 28 Lettre de Ferdinand Ier, roi de Naples, à son oncle Jean II d'Aragon. Naples, 3 mai 1473. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e506">F. 33 • 29 Lettre de "Don Fadryque" III, roi de Naples, à la Reine Catholique. "De my rreal sobre Gaeta," 21 novembre 1496.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e520">F. 34 • 30 Lettre de "la infelicissima regina Ysabella," femme de Frédéric III de Naples, au Roi Catholique. "In lo placis de Turs." (Tours) 10 janvier. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e534">F. 35 • 31 Lettre de Louis XII, roi de France, au Roi Catholique. 30 mars 1508. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e548">F. 36 • 32 Lettre de Charles VIII, roi de France, au Roi Catholique. Amboyse, 26 septembre. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e562">F. 37 • 33 Lettre de Louis XII au Roi Catholique. Rouenne, 26 mars 1509. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e576">F. 38 • 34 Lettre de Louis XII au Roi Catholique. Bloys, 14 septembre 1505. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e590">F. 39-39 v° • 35 Lettre de "la princesa de Gales," Catherine d'Aragon, au Roi Catholique. Rryxamon (Richmond), 29 mai.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e604">F. 40-40 v° • 36 Lettre de Gonzalo Fernandez de Cordova, "duque de Terranova," à Miguel Perez de Almazan. Sans date.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e618">F. 42-43 • 37 Lettre de "Juan Manuel" aux Rois Catholiques. Gênes, 8 janvier 1497.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e632">F. 44 • 38 Lettre de "Gaston" de Foix au Roi Catholique. Sans date. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e646">F. 45 • 39 Lettre de "la princesa de Gales," Catherine d'Aragon, au Roi Catholique. Granuche (Greenwich), 21 novembre 1508.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e660">F. 46-46 v° • 40 Lettre de Béatrix de Naples, "la infelicissima regina de Hungaria et Bohemia," fille de Ferdinand Ier de Naples et femme de Ladislas VI, roi de Hongrie, au Roi Catholique. Naples, 2 mars 1508. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e680">F. 48-48 v° • 41 Lettre de Louis XII, roi de France, à l'archiduc Philippe. Loches, 24 novembre 1502. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e697">F. 50 • 42 Lettre d'Arthur, prince de Galles, à Catherine d'Aragon, sa femme. "Ex manerio Woodstoke," 9 septembre 1497. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e711">F. 52-52 v° • 43 Lettre d'"el Rey M[anuel]" de Portugal au Roi Catholique. Evora, 22 décembre 1512. En portugais.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e728">F. 54-54 v° • 44 Lettre de Marie, reine de Portugal, au Roi Catholique. Evora, 2 décembre 1508. En portugais.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e742">F. 56 • 45 Lettre de Henri VII, roi d'Angleterre, aux Rois Catholiques. Greenwich, 15 mai 1497. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e756">F. 57 • 46 Lettre de Jacques IV, roi d'Écosse, aux Rois Catholiques. Édimbourg, 27 octobre 1497. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e770">F. 58 • 47 Lettre d'Élisabeth, reine d'Angleterre, à la Reine Catholique. Greenwich, 11 mars 1498. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e784">F. 59 • 48 Lettre de l'archiduc Philippe et de Marguerite d'Autriche aux Rois Catholiques. Bruxelles, 16 décembre 1495. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e804">F. 60 • 49 Lettre de Catherine, reine de Navarre, au Roi Catholique. Pampelune, 12 juin 1512.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e818">F. 61 • 50 Lettre d'Isabelle, reine de Castille, au roi Jean II d'Aragon, son beau-père. Madrigal, 30 avril.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e829">F. 62 • 51 Lettre de Madeleine de France, régente de Navarre, aux Rois Catholiques. Pampelune, 16 novembre 1494. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e843">F. 63 • 52 Lettre de la Reine Catholique aux maîtres et pilotes de la flotte qui doit conduire en Angleterre l'infante Catherine. Grenade, septembre 1501. Duplicata.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e857">F. 64 • 53 Lettre du Roi Catholique au gouverneur du "principato Citra." Naples, 30 mai 1507. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e871">F. 65 • 54 Lettre d'Isabelle, reine de Portugal, à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Yelves, 5 avril 1498.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e885">F. 66 • 55 Lettre de Ferdinand II, roi de Naples, à la Reine Catholique. Procita, dernier jour de février. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e899">F. 67-67 v° • 56 Lettre d'un agent du Roi Catholique à "Mosen Coloma," datée : "En el real de Valençya."</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e910">F. 68 • 57 Lettre de "La Mouche de Veyre" à la Reine Catholique. Lyon, 23 juillet. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e924">F. 69-69 v° • 58 Lettre de Bernardino de Lezcano au Roi Catholique. Tolosa, 23 novembre 1512.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e938">F. 70 • 59 Lettre d'Yves II, baron d'Alègre, à Yñigo Lopez. Troye, 27 février 1502. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e949">F. 71 • 60 Billet de Jean-Jacques Trivulci à un secrétaire des Rois Catholiques. Bles (Blois ?), 29 novembre 1513. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e960">F. 72 • 61 Lettre de D. Iñigo Davalos y Aquino, marquis del Vasto, aux Rois Catholiques. Castello de Iscla, 26 avril 1503.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e974">F. 73 • 62 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. "Del real sobre Gaeta," 17 septembre 1503.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e988">F. 74 • 63 Lettre d'Antonio de Leyva au Roi Catholique. Naples, 6 mai 1512.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1002">F. 75-75 v° • 64 Lettre de Béatrix de Naples au Roi Catholique. Naples, 30 octobre 1507. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1016">F. 77 • 65 Lettre de Jeanne de Naples, "la tryste reyna," veuve de Ferdinand II, à sa tante la Reine Catholique. Sans date.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1030">F. 79-80 • 66 Lettre de Marie, reine de Portugal, à son père le Roi Catholique. Almeryn, 26 mars 1508.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1044">F. 81 • 67 Lettre de Henri VIII, roi d'Angleterre, au Roi Catholique. Windsor, 25 septembre 1511. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1058">F. 82 • 68 Lettre de Marguerite d'Autriche au Roi Catholique. Bruxelles, 25 novembre 1509.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1072">F. 83 • 69 Lettre de Marguerite d'York, duchesse douairière de Bourgogne, à la Reine Catholique. Audermunde, 25 août 1493. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1086">F. 84 • 70 Lettre d'Anne, reine de France, aux Rois Catholiques. Loches, 31 janvier. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1100">F. 85 • 71 Lettre de Philippe, archiduc d'Autriche, à sa belle-soeur Catherine, princesse de Galles. Bruxelles, 8 août 1498. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1117">F. 86-86 v° • 72 Lettre de Fabritio Colonna au Roi Catholique. Naples, 23 octobre 1511. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1131">F. 88-88 v° • 73 Lettre de Bartholomeo d'Alviano au Roi Catholique. Fréjus, 2 avril 1508. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1145">F. 90-90 v° • 74 Lettre de Gui de Blanchefort, grand maître de Rhodes, au Roi Catholique. Lyon, 24 juin 1513. En latin.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1159">F. 92-92 v° • 75 Lettre d'Agostino Adorno, gouverneur du duché de Gênes, à Antonio de Grimaldis. Gênes, 7 juillet 1496. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1173">F. 94-95 v° • 76 Mémoire du duc de Milan, Ludovico Maria Sforza, pour son ambassadeur à Venise, Octaviano Vicomercato. Milan, 4 avril 1496. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1187">F. 96 • 77 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. 29 novembre.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1201">F. 97 • 78 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. Naples, 15 octobre 1505.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1215">F. 98 • 79 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Naples, 16 février 1504.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1229">F. 99 • 80 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Naples, 12 novembre 1505.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1243">F. 100 • 81 Lettre de Gonzalo Fernandez de Cordova aux Rois Catholiques. Rome, 28 mars 1497.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1257">F. 102-102 v° • 82 Lettre du cardinal Jean Colonna au Roi Catholique. Rome, 14 février 1506. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1271">F. 104 • 83 Lettre de recommandation de Juan de Ribera, archevêque de Valence et patriarche d'Antioche, pour Juan de Borja, fils de Francisco de Borja. Valence, 27 novembre 1570.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1285">F. 105-105 v° • 84 Lettre de Lorenzo Pucci, cardinal des Quatre-Saints, au Roi Catholique. Rome, 12 juillet 1514. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1299">F. 107-108 • 85 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. Madrid (?), 7 août 1510.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1313">F. 109 • 86 Lettre de Fernando de Alarcon au Roi Catholique. Naples, 18 mai 1508.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1327">F. 110 • 87 Lettre de Christoval Camudio à Miguel Perez de Almazan. Osma, 25 mars.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1341">F. 111 • 88 Lettre de Pedro Navarro au Miguel Perez de Almazan. Burgos, 29 septembre 1507.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1355">F. 112 • 89 Lettre de Prospero Colonna à Gonzalo Fernandez de Cordova. Rome, 19 août 1505. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1372">F. 113 • 90 Lettre d'Ugo de Moncada au Roi Catholique. Cosenza, 22 janvier.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1386">F. 114-114 v° • 91 Lettre de Giovane Caraccioli, prince de Melfi, au Roi Catholique. Barletta, 17 juin 1509. En italien.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1400">F. 116-116 v° • 92 Lettre, en partie chiffrée, de Gonzalo Fernandez de Cordova à Lorenzo Suarez, 17 août 1500. Copie remise à Miguel Perez de Almazan.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1417">F. 118-118 v° • 93 Lettre en chiffre de Lorenzo Suarez aux Rois Catholiques. Venise, 24 février 1504.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1431">F. 120-121 • 94 Lettre en chiffre du vice-roi de Sicile au Roi Catholique. Messine, 27 avril 1503.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1444">F. 122 • 95 Chiffre sans adresse, daté du 8 janvier 1497.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1452">F. 123 • 96 Lettre du cardinal Luis de Borja à Miguel Perez de Almazan. Naples, 17 avril 1510.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1466">F. 124 • 97 Lettre de Pierre II de Bourbon, seigneur de Beaujollais, à M. de Maure. Moulins, 14 août. En français.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1480">F. 125-125 v° • 98 Lettre de Cifontes à la Reine Catholique. Ramua, 29 octobre 1496.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1494">F. 126 • 99 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan. Naples, 25 août 1505.</a></div></div><div class="nivX"><div class="withoutChild" style="margin-left:15px;"> </div><div class="ttt"><a class="lk" title="Afficher ce composant" href="FRBNFEAD000034925_d0e1508">F. 127 • 100 Lettre de Yahya ben Sa'id ben Meymoun à Douan Ramoun el-Kardoun (Ramon de Cardona),... chef de Naples. Mars 1511. En arabe.</a></div></div></div></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+<a href="#layerIndex" role="tab" id="menuIndex" style="color:black;font-size:10px;padding: 10px 0 10px 0;">
+	Index<br/>
+	<i class="index" title="Index"></i>
+</a>
+<div id="layerIndex" class="layer" role="tabpanel" aria-labelledby="menuIndex">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png" alt="Fermer ce panneau"></button>
+	<h2>index</h2>
+	<div id="idIndexContent"></div>
+</div>
+
+					</li>
+					
+					<li class="sep">
+					
+
+
+
+<a href="#layerPdf" role="tab" id="menuPdf"><i class="pdf" title="Pdf"></i></a>
+<div id="layerPdf" class="layer" role="tabpanel" aria-labelledby="menuPdf">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Contenu Pdf</h2>
+	<div class="nbRes">Il vous est possible de télécharger le(s) document(s) associé(s) à ce composant.</div>
+	<ul class="listeLiens">
+		<li><span class="libelle">Obtenir le contenu de cette unité de description au format PDF</span>
+			<a href="javascript:pdfComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdf','N')">Télécharger</a>
+		</li>
+		<li><span class="libelle">Obtenir le contenu de cette unité de description et ses sous-unités au format PDF</span>
+			<a href="javascript:pdfAllComp();" class="btn btn-default"
+			onclick="return xt_click(this,'C','14','PresentationBam::clickPdfArbo','N')">Télécharger</a>
+		</li>
+	</ul>
+</div>
+
+					</li>
+					
+					
+					<li>
+					
+
+
+
+
+
+
+
+
+<style type="text/css">
+.interfaceRecherch .menuConsultation .menu > li .layer .listeLiens li .libelle.infoIntroMsg {
+	margin-bottom: 12px;
+}
+</style>
+
+
+<a href="#layerResa" role="tab" id="menuResa" style="color:black;font-size:10px;">
+	Réservation
+	<i class="resa" title="Réservation"></i>
+</a>
+
+<div id="layerResa" class="layer" role="tabpanel" aria-labelledby="menuResa">
+	<button class="closeLayer" aria-controls="layerLoupe"><img src="/img/closeLayer.png"
+		alt="Fermer ce panneau"></button>
+	<h2>Réservation</h2>
+	<div id="menuResaContent">
+	<ul class="listeLiens"><li><span class="libelle">Document original : Espagnol 318 </span><a class="btn btn-default" target="_blank" href="https://reservationrao.bnf.fr/submitCote?urlReferer=/ark:/12148/cc349255&Cote=Espagnol 318&typecote=orig" onclick="return xitiResa()">Réserver</a></li><ul class="listeLiens"><li>Veuillez réserver/consulter en priorité un exemplaire de substitution.<br>La consultation du document original doit être motivée et est soumise à validation.</li></ul><ul class="listeLiens"><li>Version numérisée :</li><li><a class="ext" target="_blank" href="https://gallica.bnf.fr/ark:/12148/btv1b52503046q">Consulter le document numérisé</a></li></ul><ul class="listeLiens"></ul></ul>
+</div>
+</div>
+
+					</li>
+					
+					</ul>
+				</div>
+				
+				<div id="barreDeRetaillage"></div>
+
+				<div class="panneauWrapper" id="idPanneauWrapper">
+					<ascendants>
+					
+					</ascendants>
+					<contenu>
+					<?xml version="1.0" encoding="UTF-8"?><div class="did-class">
+<div class="did-unitid">Cote : Espagnol 318 
+							<a title="Réserver" class="btn btn-primary" id="dispplayMenuResa" href="#layerResa">Réserver</a>
+</div>
+<div class="did-date">XV<emph render="super">e</emph>-XVI<emph render="super">e</emph> siècle</div>
+<div class="divdid">Papier.127 feuillets.320 × 238 mm.</div>
+<div class="divdid">Manuscrit en espagnol</div>
+<div style="margin-top:1em;margin-bottom: 1em;" class="did-repository">Bibliothèque nationale de France. Département des Manuscrits</div>
+</div><div class="p-class">
+<div class="label-part">
+<p class="altformavail-label">Documents de substitution</p>
+</div>
+<div class="description-part">
+<span>
+<p style="line-height: 80%;">Il existe une version numérisée de ce document.</p>
+<p style="line-height: 80%;">Numérisation effectuée à partir d'un document original.</p>
+</span>
+</div>
+<div style="line-height: 80%;" class="dao-class">
+<a title="Voir le document numérisé" target="_blank" href="https://gallica.bnf.fr/ark:/12148/btv1b52503046q" class="hrefLink ext">Voir le document numérisé</a>
+<div style="padding:1em 0 1em 0;" class="visuels visuels_simple">
+<div class="visuellarge visuellarge_simple">
+<img alt="vignette simple" class="vignette simple" style="vertical-align: middle;" src="https://gallica.bnf.fr/ark:/12148/btv1b52503046q.thumbnail"/>
+<button data-content="&lt;img style=&quot;width:480px;height:780px;&quot; class=\&quot;consultationVignetteGrand\&quot; src=&quot;https://gallica.bnf.fr/ark:/12148/btv1b52503046q.thumbnail.highres&quot; &gt;" title="Zoom Image de la notice" data-toggle="popover" data-trigger="focus" style="border:none;background:none">
+<img src="/img/zoom-in.png"/>
+</button>
+</div>
+</div>
+<script>
+			$('[data-toggle="popover"]').popover({
+				html:true
+			});
+		</script>
+</div>
+</div><div class="custodhist-class">
+<div class="label-part">
+<p class="custodhist-label">Historique de la conservation</p>
+</div>
+<div class="description-part">
+<span>
+<p>Ce recueil de lettres autographes provient de la collection du prince Ruffo Scilla, vendue aux enchères en 1854.</p>
+</span>
+</div>
+</div><div class="acqinfo-class">
+<div class="label-part">
+<p class="commonBam-label">Informations sur les modalités d’entrée</p>
+</div>
+<div class="description-part">
+<span>
+<p>Acquis en 1857.</p>
+</span>
+</div>
+</div><div class="bibliography-class">
+<div class="label-part">
+<p class="commonBam-label">Bibliographie</p>
+</div>
+<div class="description-part">
+<span>
+<p>Catalogue des manuscrits espagnols et des manuscrits portugais, par Alfred Morel-Fatio. Paris : Imprimerie nationale, 1892. Notice 172</p>
+</span>
+</div>
+</div><div class="bibliography-class">
+<div class="label-part">
+<p class="commonBam-label">Bibliographie</p>
+</div>
+<div class="description-part">
+<span>
+<p>M. Gachard (<emph render="italic">La Bibliothèque Nationale à Paris</emph>, p. 471-473) a analysé quelques pièces de ce volume et a publié <emph render="italic">in extenso</emph> les articles 68 et 71.</p>
+</span>
+</div>
+</div><div class="controlaccess-class">
+<p>
+<a alt="Lien vers une fiche d'autorité" title="Cliquer pour consulter la fiche d'autorité correspondante" target="_blank" href="http://catalogue.bnf.fr/ark:/12148/cb12214255s" class="hrefLink ext">Louis XII</a>
+</p>
+<p>RUFFO SCILLA, Prince</p>
+</div>
+
+					</contenu>
+					<br>
+					<descendants>
+					<div><p class="chapter1">Sous-unités de description</p><ul><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e77');">1 Bref du pape Jules II aux Rois Catholiques Ferdinand et Isabelle. Rome, 25 mai 1504. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e89');">2 Bref du pape Alexandre VI aux Rois Catholiques Ferdinand et Isabelle. Rome, 2 octobre 1493. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e103');">3 Lettre de l'empereur Maximilien Ier aux Rois Catholiques Ferdinand et Isabelle. Strasbourg, 15 avril 1499. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e123');">4 Lettre de l'empereur Maximilien Ier aux Rois Catholiques Ferdinand et Isabelle. Hall, 17 mars 1496. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e143');">5 Lettre de Frédéric III, roi de Naples, aux Rois Catholiques Ferdinand et Isabelle. San Germano, 11 janvier 1497. En italien et en partie en chiffre.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e157');">6 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier, à son frère Ferdinand le Catholique. Naples, 17 novembre 1508.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e182');">7 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier à son père Jean II d'Aragon. Naples, 8 octobre 1477. En catalan.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e198');">8 Lettre de Jeanne de Naples, "la tryste rreyna," veuve de Ferdinand Ier à son frère Ferdinand le Catholique. Castellamar (?), 23 juillet 1509.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e217');">9 Lettre des Rois Catholiques à la comtesse de la Cherra. Alcalá de Henares, 20 janvier 1503.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e231');">10 Lettre des Rois Catholiques à Mossen de Rebestan. Alcalá de Henares, 5 avril 1498.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e245');">11 Lettre des Rois Catholiques à l'empereur Maximilien. 1503. Duplicata.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e262');">12 Lettre de Ferdinand le Catholique à son père Jean II d'Aragon. Séville, 25 juillet 1478.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e273');">13 Lettre des Rois Catholiques à N... "duque primo," lui défendant d'intervenir les armes à la main dans les affaires de la maison de Medinaceli, sous peine de perdre ses biens. Écija, décembre 1501. Minute.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e287');">14 Lettres de créance des Rois Catholiques pour Gonçalo Fernandez de Cordova. Grenade, 22 mars 1501.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e301');">15 Lettre d'"Ysabella de Aragonia, duchesa de Millano," au Roi Catholique. Bari, 14 décembre 1507. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e315');">16 Lettre de "Leonor," princesse de Navarre, au roi Jean II, son père. Olit, 10 décembre 1473.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e326');">17 Lettre de "Janus Maria de Campo Fregoso," doge de Gênes, au Roi Catholique. Gênes, 6 juillet 1512. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e340');">18 Lettre d'Alphonse d'Est, duc de Ferrare, au Roi Catholique. Ferrare, 25 janvier 1507. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e357');">19 Lettre de "Johan" d'Albret et "Catalina," rois de Navarre, au Roi Catholique. Pau, 9 octobre 1510.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e374');">20 Lettre d'"el prinçipe" D. Carlos au Roi Catholique. Malines, 26 octobre 1508.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e391');">21 Lettre d'"Anne," duchesse de Bretagne, à l'ambassadeur des Rois Catholiques, Francisco de Rojas. Rennes, 18 avril 1490. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e405');">22 Lettre d'"Anne," duchesse de Bretagne, reine de France, au Roi Catholique. Moulins, 24 mai 1497. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e419');">23 Lettre de Ferdinand le Catholique à son père Jean II. Sans lieu ni date.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e430');">24 Lettre de "el Rey M[anuel]" de Portugal au Roi Catholique. Allmeirim, 7 mars 1510. En portugais.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e447');">25 Lettre d'"Anne" de France au Roi Catholique. Paris, 30 juillet 1513. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e461');">26 Lettre de "Pierre" II de Bourbon à la Reine Catholique. Villefranche en Beaujolais, 12 décembre. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e475');">27 Lettre d'Alphonse II, roi de Naples, au Roi Catholique. Messine, 11 mai 1495. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e489');">28 Lettre de Ferdinand Ier, roi de Naples, à son oncle Jean II d'Aragon. Naples, 3 mai 1473. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e506');">29 Lettre de "Don Fadryque" III, roi de Naples, à la Reine Catholique. "De my rreal sobre Gaeta," 21 novembre 1496.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e520');">30 Lettre de "la infelicissima regina Ysabella," femme de Frédéric III de Naples, au Roi Catholique. "In lo placis de Turs." (Tours) 10 janvier. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e534');">31 Lettre de Louis XII, roi de France, au Roi Catholique. 30 mars 1508. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e548');">32 Lettre de Charles VIII, roi de France, au Roi Catholique. Amboyse, 26 septembre. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e562');">33 Lettre de Louis XII au Roi Catholique. Rouenne, 26 mars 1509. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e576');">34 Lettre de Louis XII au Roi Catholique. Bloys, 14 septembre 1505. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e590');">35 Lettre de "la princesa de Gales," Catherine d'Aragon, au Roi Catholique. Rryxamon (Richmond), 29 mai.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e604');">36 Lettre de Gonzalo Fernandez de Cordova, "duque de Terranova," à Miguel Perez de Almazan. Sans date.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e618');">37 Lettre de "Juan Manuel" aux Rois Catholiques. Gênes, 8 janvier 1497.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e632');">38 Lettre de "Gaston" de Foix au Roi Catholique. Sans date. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e646');">39 Lettre de "la princesa de Gales," Catherine d'Aragon, au Roi Catholique. Granuche (Greenwich), 21 novembre 1508.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e660');">40 Lettre de Béatrix de Naples, "la infelicissima regina de Hungaria et Bohemia," fille de Ferdinand Ier de Naples et femme de Ladislas VI, roi de Hongrie, au Roi Catholique. Naples, 2 mars 1508. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e680');">41 Lettre de Louis XII, roi de France, à l'archiduc Philippe. Loches, 24 novembre 1502. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e697');">42 Lettre d'Arthur, prince de Galles, à Catherine d'Aragon, sa femme. "Ex manerio Woodstoke," 9 septembre 1497. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e711');">43 Lettre d'"el Rey M[anuel]" de Portugal au Roi Catholique. Evora, 22 décembre 1512. En portugais.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e728');">44 Lettre de Marie, reine de Portugal, au Roi Catholique. Evora, 2 décembre 1508. En portugais.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e742');">45 Lettre de Henri VII, roi d'Angleterre, aux Rois Catholiques. Greenwich, 15 mai 1497. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e756');">46 Lettre de Jacques IV, roi d'Écosse, aux Rois Catholiques. Édimbourg, 27 octobre 1497. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e770');">47 Lettre d'Élisabeth, reine d'Angleterre, à la Reine Catholique. Greenwich, 11 mars 1498. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e784');">48 Lettre de l'archiduc Philippe et de Marguerite d'Autriche aux Rois Catholiques. Bruxelles, 16 décembre 1495. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e804');">49 Lettre de Catherine, reine de Navarre, au Roi Catholique. Pampelune, 12 juin 1512.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e818');">50 Lettre d'Isabelle, reine de Castille, au roi Jean II d'Aragon, son beau-père. Madrigal, 30 avril.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e829');">51 Lettre de Madeleine de France, régente de Navarre, aux Rois Catholiques. Pampelune, 16 novembre 1494. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e843');">52 Lettre de la Reine Catholique aux maîtres et pilotes de la flotte qui doit conduire en Angleterre l'infante Catherine. Grenade, septembre 1501. Duplicata.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e857');">53 Lettre du Roi Catholique au gouverneur du "principato Citra." Naples, 30 mai 1507. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e871');">54 Lettre d'Isabelle, reine de Portugal, à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Yelves, 5 avril 1498.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e885');">55 Lettre de Ferdinand II, roi de Naples, à la Reine Catholique. Procita, dernier jour de février. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e899');">56 Lettre d'un agent du Roi Catholique à "Mosen Coloma," datée : "En el real de Valençya."</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e910');">57 Lettre de "La Mouche de Veyre" à la Reine Catholique. Lyon, 23 juillet. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e924');">58 Lettre de Bernardino de Lezcano au Roi Catholique. Tolosa, 23 novembre 1512.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e938');">59 Lettre d'Yves II, baron d'Alègre, à Yñigo Lopez. Troye, 27 février 1502. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e949');">60 Billet de Jean-Jacques Trivulci à un secrétaire des Rois Catholiques. Bles (Blois ?), 29 novembre 1513. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e960');">61 Lettre de D. Iñigo Davalos y Aquino, marquis del Vasto, aux Rois Catholiques. Castello de Iscla, 26 avril 1503.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e974');">62 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. "Del real sobre Gaeta," 17 septembre 1503.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e988');">63 Lettre d'Antonio de Leyva au Roi Catholique. Naples, 6 mai 1512.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1002');">64 Lettre de Béatrix de Naples au Roi Catholique. Naples, 30 octobre 1507. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1016');">65 Lettre de Jeanne de Naples, "la tryste reyna," veuve de Ferdinand II, à sa tante la Reine Catholique. Sans date.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1030');">66 Lettre de Marie, reine de Portugal, à son père le Roi Catholique. Almeryn, 26 mars 1508.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1044');">67 Lettre de Henri VIII, roi d'Angleterre, au Roi Catholique. Windsor, 25 septembre 1511. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1058');">68 Lettre de Marguerite d'Autriche au Roi Catholique. Bruxelles, 25 novembre 1509.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1072');">69 Lettre de Marguerite d'York, duchesse douairière de Bourgogne, à la Reine Catholique. Audermunde, 25 août 1493. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1086');">70 Lettre d'Anne, reine de France, aux Rois Catholiques. Loches, 31 janvier. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1100');">71 Lettre de Philippe, archiduc d'Autriche, à sa belle-soeur Catherine, princesse de Galles. Bruxelles, 8 août 1498. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1117');">72 Lettre de Fabritio Colonna au Roi Catholique. Naples, 23 octobre 1511. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1131');">73 Lettre de Bartholomeo d'Alviano au Roi Catholique. Fréjus, 2 avril 1508. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1145');">74 Lettre de Gui de Blanchefort, grand maître de Rhodes, au Roi Catholique. Lyon, 24 juin 1513. En latin.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1159');">75 Lettre d'Agostino Adorno, gouverneur du duché de Gênes, à Antonio de Grimaldis. Gênes, 7 juillet 1496. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1173');">76 Mémoire du duc de Milan, Ludovico Maria Sforza, pour son ambassadeur à Venise, Octaviano Vicomercato. Milan, 4 avril 1496. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1187');">77 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. 29 novembre.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1201');">78 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. Naples, 15 octobre 1505.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1215');">79 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Naples, 16 février 1504.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1229');">80 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan, secrétaire des Rois Catholiques. Naples, 12 novembre 1505.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1243');">81 Lettre de Gonzalo Fernandez de Cordova aux Rois Catholiques. Rome, 28 mars 1497.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1257');">82 Lettre du cardinal Jean Colonna au Roi Catholique. Rome, 14 février 1506. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1271');">83 Lettre de recommandation de Juan de Ribera, archevêque de Valence et patriarche d'Antioche, pour Juan de Borja, fils de Francisco de Borja. Valence, 27 novembre 1570.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1285');">84 Lettre de Lorenzo Pucci, cardinal des Quatre-Saints, au Roi Catholique. Rome, 12 juillet 1514. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1299');">85 Lettre de Gonzalo Fernandez de Cordova au Roi Catholique. Madrid (?), 7 août 1510.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1313');">86 Lettre de Fernando de Alarcon au Roi Catholique. Naples, 18 mai 1508.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1327');">87 Lettre de Christoval Camudio à Miguel Perez de Almazan. Osma, 25 mars.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1341');">88 Lettre de Pedro Navarro au Miguel Perez de Almazan. Burgos, 29 septembre 1507.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1355');">89 Lettre de Prospero Colonna à Gonzalo Fernandez de Cordova. Rome, 19 août 1505. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1372');">90 Lettre d'Ugo de Moncada au Roi Catholique. Cosenza, 22 janvier.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1386');">91 Lettre de Giovane Caraccioli, prince de Melfi, au Roi Catholique. Barletta, 17 juin 1509. En italien.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1400');">92 Lettre, en partie chiffrée, de Gonzalo Fernandez de Cordova à Lorenzo Suarez, 17 août 1500. Copie remise à Miguel Perez de Almazan.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1417');">93 Lettre en chiffre de Lorenzo Suarez aux Rois Catholiques. Venise, 24 février 1504.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1431');">94 Lettre en chiffre du vice-roi de Sicile au Roi Catholique. Messine, 27 avril 1503.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1444');">95 Chiffre sans adresse, daté du 8 janvier 1497.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1452');">96 Lettre du cardinal Luis de Borja à Miguel Perez de Almazan. Naples, 17 avril 1510.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1466');">97 Lettre de Pierre II de Bourbon, seigneur de Beaujollais, à M. de Maure. Moulins, 14 août. En français.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1480');">98 Lettre de Cifontes à la Reine Catholique. Ramua, 29 octobre 1496.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1494');">99 Lettre de Gonzalo Fernandez de Cordova à Miguel Perez de Almazan. Naples, 25 août 1505.</a></li><li><a href="javascript:refreshCompInfo('FRBNFEAD000034925_d0e1508');">100 Lettre de Yahya ben Sa'id ben Meymoun à Douan Ramoun el-Kardoun (Ramon de Cardona),... chef de Naples. Mars 1511. En arabe.</a></li></ul></div>
+					</descendants>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer" class="footerHome">
+		<div class="container">
+			<div class="topOfPage">
+				<a href="#header"><i class="icon-caret" data-icon="&#xe60f;" title="Haut de page"></i></a>
+			</div>
+		</div>
+	
+		
+
+
+
+
+
+
+
+<div class="menuFooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<a href="/conditionsUtilisation.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickContionsUtilisation','N')">Conditions d'utilisation</a>
+				
+					
+				| <a href="/aPropos.html"
+					onclick="return xt_click(this,'C','14','CommunBam::clickAPropos','N')">À propos</a>
+				| <a class="ext" href="http://www.bnf.fr/fr/outils/a.ecrire.html" target="_blank"
+					onclick="return xt_click(this,'C','14','CommunBam::clickEcrireALaBnf','N')">Écrire à la BnF</a>
+				|
+
+				 <span>v 11.1.0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	
+	
+
+
+
+
+
+
+
+
+    <script async type="text/javascript" src="https://tarteaucitron.io/load.js?domain=archivesetmanuscrits.bnf.fr&uuid=91ba7c974c752a888f0a2765181efcbea3a33ef9"></script>
+
+<!-- Initialisation de XITI et tarte au citron	-->
+    <script defer>
+        function whenAvailable(name, callback) {
+            const interval = 10; // ms
+            window.setTimeout(function() {
+                if (window[name]) {
+                    callback(window[name]);
+                }else{
+                    whenAvailable(name, callback);
+                }
+            }, interval);
+        }
+
+        whenAvailable("tarteaucitron", function(t) {
+            let title = "PresentationBam::PagePresentationIr";
+            const lv2 = "14"; // level 2 site 
+            tarteaucitron.user.atLibUrl= "https://tag.aticdn.net/18798/smarttag.js" ;
+            tarteaucitron.user.atinternetSendData=false;
+            tarteaucitron.user.atMore = function () {
+                const tag = new ATInternet.Tracker.Tag();
+                tag.page.set({
+                    name: title,
+                    level2:lv2,
+                });
+                tag.dispatch();
+            };
+            (tarteaucitron.job = tarteaucitron.job ||[]).push('atinternet');
+        });
+    </script>
+
+
+
+<script type="text/javascript">
+var contextPath='';
+
+/**
+ * Redirection des appels par appui sur lien.
+ */
+function lIdC(ob){
+	var b = $(ob);
+	var b1 = b.attr('v');
+	if(b1 != null){
+		afficheCompResFromIndex(b1);
+	}
+}
+
+function xitiResa(){
+	return xt_click(this,'C','14','PresentationBam::clickComRao','N')
+}
+</script>
+
+</body>
+</html>

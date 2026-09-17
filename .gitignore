@@ -493,3 +493,5 @@ raince/img/ov*.png
 raince/img/fol*.png
 raince/*.pkl
 f2984/
+raince/feats.npy
+raince/post.npy

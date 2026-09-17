@@ -1,0 +1,9 @@
+# One line per hand-labelled manuscript line: PAGE LINE LABELS
+# LABELS has exactly one character per token, in x order:
+#   a-z = plaintext letter, _ = null, C = the *con* word sign, ? = not resolved.
+# Read off img/idx/<page>_<NN>.png, where every token is boxed and numbered.
+f29r 20 s_quiestoitenlacourtdesavoye___estpartypourveniricy
+f30v 08 _responduaceaquecequonaenvoyedicyetdev_enisepardeu
+f29r 11 etCduictensiuiepourperdrelabeleocca?sion__quilavoi
+f105r 04 icatse_roit__lacause___delatotale_ruinedesamaison_?de
+f30v 02 esbaydeceque?naescriptautrementau?nepardecadepuis_s

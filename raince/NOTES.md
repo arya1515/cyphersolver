@@ -167,20 +167,49 @@ p. 31 line 21; p. 105 line 4). New content from them:
 Measured against those lines, `draft5.txt` is right on about **86 % of letters**, which is why
 only about a quarter of it segments into real words: a six-letter word survives at 0.86⁶.
 
+### Where the ceiling is, measured
+
+`gold/labels.txt` holds the hand labels as one character per token. `htr2.py` trains a
+per-token letter classifier (PCA to 55 dimensions, Gaussian class-conditionals) on the
+shape-constrained map's confident tokens plus the hand labels, and reports **leave-one-line-out**
+accuracy on the hand-labelled lines - the only honest figure, since training on the map's own
+output otherwise scores itself:
+
+| training data | LOO per-token accuracy |
+|---|---|
+| map's confident tokens only | 0.840 |
+| + hand labels, weight 1 | 0.856 |
+| + hand labels, weight 8 | **0.868** |
+| + hand labels, weight 30 | 0.860 |
+
+PCA dimension 55 is the optimum (35 -> 0.856, 80 -> 0.860, 110 -> 0.860). `decode2.py` adds the
+6-gram LM beam on top and writes `draft9.txt`, which is marginally better than `draft5.txt`
+(lexicon coverage 24.2 % against 23.1 %, control-line distance 3 against 4).
+
+The shape of that table matters: **hand labels buy about 3 points and then saturate.** So the
+limit is not the key (settled), not the map (shape-constrained), and not the amount of training
+data - it is the microfilm resolution and the connected-component segmentation. The confusions
+that remain are between glyphs that really are similar at this resolution: `ψ` (e) against `4` (r),
+`ℓ` (t) against `9` (l) against `ϙ` (d), and `∧` (s) against `v` (u) against `×` (a). Building a much
+larger labelled set out of the clear/cipher pairs elsewhere in the volume would therefore help
+less than it first appears; better images, or a sliding-window recogniser that does not commit to
+a connected-component segmentation, or simply reading the lines by hand, are what would move it.
+
 ## What would finish it
 
-1. **A supervised glyph classifier trained on real plaintext rather than on the map's own
-   output.** The volume carries three aligned cipher/plaintext pairs in the same hand and the
-   same key: the 9 June letter (pp. 33–37) whose contemporary clear duplicate is at p. 17 ff.;
-   the interlinear decipherments on pp. 41 ff. and p. 123; and the cipher passages of the
-   17 June and 20 August letters printed by Bourrilly in 1901. Transcribing the clear duplicate
-   at p. 17 and force-aligning it to the segmented glyphs of p. 33 ff. would give thousands of
-   truly labelled glyphs — enough to push letter accuracy from 86 % towards the 95 %+ at which
-   whole words survive. This is the highest-value next step and it needs no new images.
-2. Or better images: the Gallica item is a black-and-white microfilm; a reader's photographs of
-   pp. 29–31 and 105 would let the segmentation run clean.
-3. Continue the numbered-token hand reading with `bandsi.py`, line by line. Each line takes a
-   few minutes and is reliable; about 100 lines remain.
+1. **Better images.** The Gallica item is a black-and-white microfilm; a reader's photographs
+   of pp. 29–31 and 105 at reasonable resolution would let the segmentation run clean and would
+   probably be worth more than any further modelling, given the saturation measured above.
+2. **Continue the numbered-token hand reading with `bandsi.py`, line by line.** This is the sure
+   route: `bandsi.py PAGE LINE` boxes and numbers every token, the reading is written as one
+   character per token in `gold/labels.txt`, `htr2.py` checks it against the token count, and
+   each line both adds to the reading and slightly improves the model. About 100 lines remain.
+3. A recogniser that does not commit to a connected-component segmentation (a sliding window
+   over the line with the LM doing the segmentation) would address the part of the error that
+   more labels cannot. The aligned cipher/plaintext pairs elsewhere in the volume - the 9 June
+   letter at pp. 33–37 with its clear duplicate at p. 17 ff., the interlinear decipherments on
+   pp. 41 ff. and p. 123, and Bourrilly's 1901 printing of the 17 June and 20 August cipher
+   passages - would give it the training data.
 4. One glyph is still unidentified: a bold stem with two crossbars, standing as a one-glyph word
    (p. 30 line 1, between "plaisirs" and "qu'il"). It matches nothing in Tomokiyo's table.
 5. Registration in DECODE of the eight fr. 2984 letters (none is there) is Daniel's step, with
