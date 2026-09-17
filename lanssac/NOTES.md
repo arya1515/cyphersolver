@@ -1,6 +1,6 @@
 # Lanssac to Charles IX, Warsaw, 26 April 1573 — BnF fr. 4735 no. 51, f. 124 — NOTES
 
-**Verdict: read.** Both cipher passages of the letter are recovered, 96 of the 100 signs. The key is a homophonic
+**Verdict: read; key carried to three sibling letters (section 8).** Both cipher passages of the letter are recovered, 96 of the 100 signs. The key is a homophonic
 letter cipher with two or three signs per common letter, a dozen syllable and word signs (*et, nt, st, de, ou,
 car, Allemagne, pour, ns*), and the Court decipherer's marginal gloss, cut by the gutter on the microfilm, gives
 fragments of both passages. Lanssac writes that, after the dangers French travellers now meet in Germany, the
@@ -126,6 +126,42 @@ in Warsaw in time for the election Diet (opened 5 April); Anjou was elected on 1
 - Passage 2 is read in full and agrees with both gloss fragments.
 - Not done: reading ff. 154–164 in full (they carry their own decipherments in the margin, so nothing new is
   locked in them), and the f. 331 letter Tomokiyo lists in the same cipher, which has no decipherment noted.
+
+## 8. The other Lanssac letters, read with the same key (second session, 17 Sept 2026)
+
+The "déchiffrement" the catalogue credits to nos. 60, 61, 63, 65 and 70 is the gutter-cut marginal gloss, so their
+cipher passages had never been readable from the scan. With the key the three letters that matter for the election
+read in substance (reading_siblings.txt; tokens in f160_tokens.txt, f164_tokens.txt, f174_tokens.txt):
+
+- **f. 160, to the King, 1 May** (canvas 307): *Car je veoy que ceste nation est autant vénale et sujette à se laisser
+  gaigner par argent comme sont les Allemans leurs voisins.* Every word but "et" and "par" is sign-by-sign; the gloss
+  has "autant", "gaigner", "comme son[t]", "[voi]sins".
+- **f. 164, to Anjou, 1 May** (canvas 313): the opposing party *a despendu … ensemble … en ceste négotiation;
+  l'Empereur en y a despendu plus de trois cens mil …, si faict … riens qu'il vaille …; seulement il le trouble …,
+  faisant le pis qu'il peult contre vous.* Firm words: despendu (twice), ensemble, ceste négotiation, plus de trois
+  cens mil, faict, riens qu'il vaille, seulement, trouble, desseing, faisant, le pis qu'il peult, contre vous. Four
+  runs of 3–7 signs unread; the sign o- is the letter f in *faict* and *faisant* and the word-sign *l'Empereur* before
+  *en y a despendu* (two signs conflated, or a variant).
+- **f. 174, to the King, Płock, 9 May** (canvas 329), the letter announcing the election: *… qui est reüssy tant
+  heureusement [contre la volunté et menées du Grand Seigneur, de l'Empereur, des princes de l'Empire, du Roy
+  d'Espaigne, du Moscovite et du Roy de Suède, qui tous estoient bandez contre vostre Majesté].* Firm: contre la
+  volunté et, seigneur, des princes, du Roy d'Espaigne, Moscovite, et du Roy de Suède, bandez, contre. From the gloss
+  and sign count: Grand, de l'Empire, estoient, vostre. The gloss beside it has "la volunté et", "du Grand", "de
+  l'Empereur", "de l'Empire", "de Spaigne", "et du", "Suède, qui tout", "bandez contr[e]", "Majesté", and it puts
+  "l'Empereur" beside the o- sign, which is what fixes that word-sign.
+
+New sign values from these leaves: 4 = b (*bandez*, *trouble*, Tomokiyo's value); three strokes = z (*bandez*) as well
+as t (*oultre*) and s; the tailed 4 (Tomokiyo's Ꝝ) = p (*Empire*); Λ = ns (*riens*, *cens*); the C with hook = qu
+(*qu'il*, twice); the 6-like sign = o (*trouble*, *volunté*); Δ = g (*seigneur*, *gaigner*, *négotiation*, *desseing*);
+the plain cross with curl = t in *négotiation* and h in *empesché* (two forms not separated); the o with cross below =
+et (*volunté et*, *et du Roy*), which makes f. 124's *retenu ou empesché* rather *retenu et empesché*.
+
+Controls for this session: none beyond the glosses. The joint annealer over all six leaves (1,140 tokens, pins as
+before) keeps every pinned value and agrees across three seeds on the frequent free signs (Γ = e, ✱ = e, ꟿ = i,
+2 = l) but not on the rare ones (4, the 6-like sign, ⊓, o-, ff-with-bar differ or come out as vowels), so those rest
+on the words above. Not done: ff. 156v–157 (rest of the letter to Catherine), f. 154 in full, the 9 May letters to
+Anjou, Catherine, Brulart and Lanssac père (ff. 182 ff.), and Monluc's cipher, which is another system. Tomokiyo's
+"f. 331" is not a Lanssac item in the BnF notice (f. 330 is Crosne, 1587; f. 334 Brulart, 1586).
 
 ## 7. Files
 

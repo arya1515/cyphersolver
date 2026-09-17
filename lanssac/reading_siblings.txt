@@ -1,0 +1,62 @@
+Lanssac's other ciphered letters in BnF fr. 4735, read with the f. 124 key on 17 Sept 2026 (second session).
+Same conventions as reading.txt: cipher in [brackets], ? = uncertain sign, {..} = unread run, gloss = the Court
+decipherer's marginal note as far as the gutter leaves it. Token files: f160_tokens.txt, f164_tokens.txt, f174_tokens.txt.
+These are first readings from the microfilm; the token transcriptions have the same glyph conflations as tokens.txt.
+
+=== f. 160 (canvas 307), no. 63, Lanssac to Charles IX, Warsaw, 1 May 1573 ===
+gloss: "…qui reste / …autant / …liberté à(?) / …gaigner / …comme son(t) / …[voi]sins"
+… tant pour satisfaire au voiage de Monseigneur, si le faict le requiert, que pour en envoyer devant selon que les
+occasions des affaires premièrement surviennent. [Car je veoy que ceste nation est autant vénale et? sujette à se
+laisser gaigner par argent comme sont les Allemans leurs voisins.] Ce jourd'huy ilz mettent en délibération s'ilz
+doibvent prendre pour Roy ung Piaste ou ung prince estrangier, mais on sçait bien quelle en doibt estre la résolution.
+  Z phi X ffx G c i | qq ast 7 G st X s T 3h phi c nn ast st | N u2 sh pi sm | ot X s pi 3 ast | de4 Lo ot phi ast 3 sh X | H g G 3 pi phi g Lo X F | D pi i oo s G phi | qq H F D G sm | 7 c ll 8 X | q9 c sm | 3 ast g | H ol X 8 T ns | 3 ast ot F | q9 u2 c q9 Lo i ns
+  car ie ueoi | que ceste nation est | autant | uenale | et? suiette | a se laisser | gaigner | par argent | comme | sont | les | Alemans | leurs | uoisins
+  Signs read once: ffx (ff with a bar) = u/v in "veoy"; N (N with two bars) = a in "autant" (it was p in "despuis", f. 124: two signs or one misread);
+  qq (8-like with strokes) = "que" at the head of the clause and "par" before "argent" (Tomokiyo's par sign is of this shape); H = a.
+
+=== f. 164 (canvas 313), no. 65, Lanssac to the duc d'Anjou, Warsaw, 1 May 1573 ===
+gloss: "…négotiation / … / …" (cut)
+… c'est de latin et d'argent, et à bonne quantité, car il y aura de quoy l'employer [à vostre désir]. À quoy nous ne
+fauldrons, de tousjours, comme nous avons faict, de faire fidellement et diligemment nostre debvoir, mesmes à rendre(?)
+les traverses de nos contraires qui n'y espargnent rien pour nous empescher, [{ot 7 q9 M pi} a despendu {3 F et X}
+ensemble {N 7 u2 Lo X ast s}. C'est en ceste négotiation; l'Empereur en y a despendu plus de trois cens mil {de4 g phi},
+si faict {sh X ot 3h X} {of hh sm i g}, riens qu'il vaille pour ser{…}. Seulement il le trouble {ot h P 8 P phi X},
+desseing faisant le pis qu'il peult contre vous.] Encores ne veulx-je faillir, Monseigneur, de vous ramentevoir …
+  What is firm: "a despendu" (twice: 4h g Y X s hh ff = de s p e n d u), "ensemble" (X s sh ast 8 4 3 X), "c'est en ceste
+  négotiation" (7 X st G nn ast D phi h phi pi 3h phi c s, with the first phi = o and the cross = t: two signs this hand
+  writes like r and h), "plus de trois cens mil" (Y 3 ot g 4h 3h F P i g 7 X 5 8 phi 3), "faict" (of pi i 7 3h),
+  "riens qu'il vaille" (F phi X 5 C phi ot pi i 3 ol X), "seulement" (Lo ast ot 3 ast ll phi sm), "trouble" (3h F P u2 4 3 X),
+  "desseing" (4h g ast phi s D), "faisant" (of H i g pi st), "le pis qu'il peult" (3 X Y i g C phi 3 Y X ot 2 sh),
+  "contre vous" (7 c s 3h F X ot c ff g).
+  The sign o- (Tomokiyo: f) stands for the word "l'Empereur" before "en y a despendu" and is the letter f in "faict" and
+  "faisant"; either two signs are conflated here or the word-sign is a variant of it. Word-sign reading rests on f. 174, where
+  the gloss has "de l'Empereur" beside the same sign.
+  Sense: the opposing party (the Emperor's) has spent more than 300,000 [écus?] in this negotiation and achieved nothing
+  worth the name; it can only trouble the design, doing the worst it can against Anjou.
+
+=== f. 174 (canvas 329), no. 70, Lanssac to Charles IX, Płock, 9 May 1573 ===
+gloss: "…la volunté et / …du Grand / …eur, de l'Empereur / …[prince]s de l'Empire / …de Spaigne / …secours et du /
+        …Suède, qui tout / …bandez(?) contr[e] / …Majesté"
+… ayant esté employé en un affaire de telle importance et qui est reüssy tant heureusement [contre la volunté et
+menées? du Grand Seigneur, de l'Empereur, des princes de l'Empire, du Roy d'Espaigne, du Moscovite, {st T ot}
+et du Roy de Suède, qui tous estoient bandez contre vo{st}re Majesté]. Si est-ce que j'auray encores plus d'occasion
+de louer Dieu si je suis tant heureux que vostre Majesté me juge digne d'estre employé en ce second, lequel il pleust
+à la Royne vostre mère de me cotter(?) le jour que je luy baisay les mains pour m'en venir icy; et maintenant je y
+cognois des moiens que j'estime le pourront grandement advancer. Du demeurant, Sire, le Sr de Balagny(?), présent
+porteur, fera entendre à vostre Majesté ce que je pourrois dire par une plus longue [lettre] …
+  Line by line:
+  1  cross c s sh F X 3 pi                                  contre la
+  2  ot Co ol u2 s 3 ast et 8 X s G ast Y hh ffx D phi G sm  volunté et mene[e]s? du gr[a]nt   (Y read as s; second G as a)
+  3  Lo X i D s G ot phi 4 of 4 g Y F i s cross X Y 4 3 ast 8   seigneur, de [l'Empereur], des princes de l'Em-
+  4  4h qq phi i hh ffx F Co qq M Y pi qq D s X P ot 8 phi ol ot cross   -pire, du Roy d'Espaigne, [du] Mosc-
+  5  hh X u2 q9 3 X st T ot phi X phi 4h g et u2 X 4h P i 3 X ot g   -ovite, et du Roy de Suède, qui tous
+  6  G 8 X i X sm 4 pi s 4h sh cross X g sh F X ot P 8 T i G 8 pi    estoient bandez contre vo[stre] Majesté
+  7  phi G 8 X                                              {r e m e}: end of "Majesté" or a closing sign group
+  Firm: "contre la volunté et", "seigneur", "des princes", "du Roy d'Espaigne" (hh ffx F Co qq = d u r o y), "Moscovite"
+  (8 … cross … u2 q9 3 X = m…c…vite, one sign too many in the transcription), "et du Roy de Suède" (st = et, T = d?,
+  g u2 X 4h = s u e de), "bandez" (4 pi s 4h sh = b a n de z: Tomokiyo's 4 = b, three strokes = z), "contre".
+  Read from the gloss and the sign count rather than sign by sign: "Grand" (D phi G sm), "de l'Empire" (4 3 ast 8 | 4h qq
+  phi i, with 4h = the p sign Ꝝ), "estoient" (G 8 X i X sm, the 8 being the st sign), "vostre" (ot P … abbreviated).
+  Sense: the election was carried against the will and intrigues of the Sultan(?), the Emperor, the princes of the
+  Empire, the King of Spain, the Muscovite and the King of Sweden, all leagued against Charles IX. The gloss confirms
+  the Emperor, Spain, Sweden, "bandez contre" and "Majesté".
