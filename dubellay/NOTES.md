@@ -101,9 +101,27 @@ About 60 % of the signs resolve to a letter that yields French; the rest are the
 the two cross-with-hook signs (s/t) and three signs not seen on pp. 25–27 (ℒ, ⊞, ⊏ with an overbar). Glyph reading
 at 4 262 px width is the limit; the per-glyph windows are in `img/c021_Q*`, `img/c021_Z*`.
 
+## 5. Independent check on a catalogue letter: 17 Oct 1529 (fr. 3078 pp. 113–117) read on the leaf
+
+Fetched at full size in a third pass. The letter is four pages almost entirely in cipher with no interlinear
+decipherment (one word, *n'empesche*, glossed on p. 116); Le Grand's clear text therefore came from a deciphered copy
+(Clair. 330 f. 71). The first cipher lines (p. 113, from "Au demourant") read with the key above, sign by sign:
+
+    —o ∪ π | ω ◇₊ ✚̂ | 8 ✗ 3 o— □ | ⊞ | en ses | ω …          → j'ay est[é] veoir [le Cardinal] en ses e[nnuis]
+    3 8 | ⊤ ℓ ω | △ o— ∪ π | ✧̂ □ ε ξ ω | △ ω | λ ⧋ ℓ o— | ρ □ ∪ ◇+ ✧̂ | exemple
+                                                            → ou que l'y ay trouvé le plus grant exemple
+
+Le Grand III 370: "Au demourant, j'ay esté voir le Cardinal en ses ennuis, où que j'y ay trouvé le plus grand exemple
+de fortune". So the key reads the catalogue's 17 Oct letter directly from the leaf, independently of the 1688 print,
+and fixes two more signs: the boxed cross ⊞ = *le Cardinal* (Wolsey), and ρ (open loop) = g beside the closed-loop
+9-shape = h. With ⊞ = le Cardinal, p. 21 l. 3 reads *… le Cardinal luy ayt par[lé]*, i.e. the 16 June letter already
+concerns Wolsey's intervention over the bishopric du Bellay hoped for. The 27 Oct letter (pp. 133–134) carries the
+decipherer's interlinear reading over some twenty cipher lines (`img/c133_L*` windows cut, not yet read): the crib to
+finish the p. 21 variants.
+
 ## 4. What is checked, not checked, and next
 
-Checked: BnF notice items against Le Grand, L&P and the leaves for fr. 3078 pp. 21–27 (dates 16, 22 June 1529 read
+Checked: BnF notice items against Le Grand, L&P and the leaves for fr. 3078 pp. 21–27, 113–117, 133–134 and fr. 3077 canvases 128–150 (dates 16, 22 June 1529 read
 on the leaf); Bourrilly 1905 for every 1528 date (all printed in clear); DECODE records R3688–3693, R4252–4254,
 R9467, R2287; Tomokiyo francis.htm and GL.htm; Le Grand III pp. 318–400; L&P IV May 1528 – Nov 1529 du Bellay entries.
 Not checked: Scheurer 1969 (lending copy); fr. 3077 leaves (Gallica down); Clair. 330 copies with decipherment;

@@ -34,7 +34,7 @@ L1: —o(i) —o(i) | struck | λ(p) ⚲(t) ω(e) Y(c|u) ¨j(z) ⊔(a) ℓ(u) B(
 L2: —e(s) ω(e) ◇₊(m) *(b) △(l) c(a) —◇(n) ✚̂(t) ⊏̄(?) ᛏ(madame) ◇+(n) ω(e) ⫽(f) 8(u) —e(s) ✧̂(t) ∩(a) ✗(e) ✚̂(t) ✕(e) Λ(p) 3(o) 8(u) □(r) Y(c) B(o) ◇+—(n)
   → *semblant [?] madame ne fust a e t e pour con-*  ("a e t e": one of the crosses is misread)
 L3: ⊐(c) ⧋(l) 8(u) ⊡(r) ω(e) ✚̂(t?) ✧̂(t) L(h) ✗(e) o—(i) ✧̂(t) ɔ(a) ◇+(n) ✧̂(t) △(l) ⊔(a) ⊞(name) △(l) 8(u) ϖ(x|y) ∩(a) π(y) ⚲(t) Λ(p) c(a) ⊡(r)
-  → *-clure ?t?eitant la [⊞] luy ayt par-*   ("luy" if ϖ is a y-variant here)
+  → *-clure ?t?eitant le [Cardinal] luy ayt par-*   (⊞ = le Cardinal, fixed on p. 113; "luy" if ϖ is a y-variant here)
 L4: c(a) o—(i) λ(p) B(o) □(r) ◇₊(m) 8(u) +◇(n) ✧̂(t) ✧̂(t) ω(e) R(fault) ω(e) ◇+—(n) 8(u) 3(o) π(y) ✝(e) ⊤(q) y(u) ω(e) □(r) —o(i) ⊡(r) λ(p) B(o) 8(u)
   → *ai(?) pormunt te [fault] envoyé querir pou-*  ("importun" would need the first signs read i m p)
 L5: ε(o) o—(i) ⊡(r) —o(i) △(l) ◇+(n) ω(e) ℒ(?) ═(f) ∪(a) 8(u) ꝝ(d) □(r) B(o) π(y) ꝸ(t) ε(o) ℓ(u) ⊓(b) ⧋(l) π(y) ✗(e) □(r) c(a) △(l) ω(e)
