@@ -83,7 +83,9 @@ Code groups seen so far: 12 *il*, 13 *qui*, 14 *que*, 47 *tous*, **49 (unidentif
 
 ## Result so far
 
-**f. 143 (Mayenne to Henri III), opening of the cipher, read.** Tomokiyo printed
+**f. 143 (Mayenne to Henri III): 21 lines transcribed, about half read.** See
+[`f143_reading.md`](f143_reading.md) for the text, `cipher_f143.txt` for the glyph transcription
+and `reading_f143.txt` for the decoder's raw output. Tomokiyo printed
 "s'estant laisse entendre 49 il se voulloit de partir du 76 duquel je scai quil est tres
 malcontant et ayant considere que je lai tousjours ou y tenir pour le meilleur …". The reading
 here agrees and runs on:
@@ -93,9 +95,15 @@ here agrees and runs on:
 > comme de [49] commandement qu'il ayt, et que ce ne seroit [une] petite faveur pour ses affaires
 > que de …
 
-Later stretches of the same page give "… le et service; il m'a promis de vous … faire pendant …",
-"… à la vérité il s'est résolu …", "… à tout ce que nous avons voulu … la composition …", but the
-transcription there still carries glyph errors and is not offered as a reading.
+Later stretches read "… le et service; il m'a promis de vous … faire pendant ce temps …",
+"… ou à la vérité il s'est résolu … la composition de sa place, laquelle estoit encore …",
+"… de séjour qui nous est très … parce qu'il m'eust fallu passer …". Lines 8-9, 14-15 and 19-21
+still carry glyph errors and are not offered as a reading.
+
+A practical note for whoever continues: **measure the line positions, do not assume they are
+evenly spaced.** Cutting f. 143 on a uniform grid put the bands up to 60 px off by line 15 and
+turned the second half of the page into noise; correlating a comb against the row-ink profile,
+then refining each line on the local maximum, fixed it.
 
 ## Open / next
 

@@ -14,3 +14,5 @@ img/kc_*.png
 img/col_*.png
 img/*_big.png
 img/*_s[0-9].png
+
+nav*.log
