@@ -32,13 +32,31 @@ verify (see the last section).
 | 6 | **Louvois and Louis XIV → Catinat**, seven Grand Chiffre despatches | 1691 | 1 | 5 | 5 | 3 | 1 | 5 | **3.40** | No cryptanalysis: Bazeries' table applied to 12,362 groups from the MDZ hOCR. Ranks on content and volume alone: about 9,700 groups never in clear, including the King's 14 Sept decision to bring the army back over the Alps and abandon Piedmont. Controls 98–99 % against the two letters Bazeries printed |
 | 7 | **Huang Xing → Lin Hu and Li Genyuan**, JACAR B03050731500 | 1916 | 3 | 3 | 5 | 3 | 1 | 4 | **3.30** | Kana-for-digit scheme identified and the telegram read from the frames. National Protection War correspondence; not on any list, a by-product of the Sun Yat-sen item |
 | 8 | **Urquhart's Cyphral Octastich**, The Jewel 1652 | 1652 | 3 | 2 | 3 | 4 | 5 | 4 | **3.15** | A book cipher on the book itself, verified without the plaintext Vals AI published in Aug 2026: a new 285-number transcription from the 1983 photographs and 238/284 first-occurrence hits against 0.43 for controls. The highest-profile item solved (Schmeh Top 50 no. 28) but a royalist prayer, not news. Ten letters unread; the distich stays open |
-| 9 | **Armstrong → Madison**, coded postscript | 1808 | 2 | 2 | 5 | 4 | 2 | 5 | **3.10** | Key rebuilt from pencil decodes on the NARA microfilm, found by scoring frames for faint pencil. 49 of 49 groups. The content is consular gossip. The separate 20 Feb 1808 letter is unsolved and the AFIO claim on it was rejected |
+| 9 | **Armstrong → Madison**, coded postscript | 1808 | 2 | 2 | 5 | 4 | 2 | 5 | **3.10** | Key rebuilt from pencil decodes on the NARA microfilm, found by scoring frames for faint pencil. 48 of 49 groups, the 49th a probable slip for *man*. The content is consular gossip. The separate 20 Feb 1808 letter is unsolved and the AFIO claim on it was rejected |
 | 10 | **Warsaw, 24 Dec 1627**, DECODE R1408 | 1627 | 3 | 2 | 5 | 2 | 2 | 3 | **2.95** | Homophonic alphabet in plain order plus syllables, nulls and thirteen word codes, found by annealing from random starts. A promised canonry of Olmütz for a son of the Queen of Poland; addressee inferred. Word codes glossed from context only |
 | 11 | **Richelieu → M. de Rancé**, BnF fr. 3829 ff. 87, 89 | 1629 | 4 | 3 | 1 | 2 | 2 | 5 | **2.85** | Clean ciphertext-only recovery of a homophonic alphabet and nomenclature, then found word for word in Avenel 1858. Cryptanalytically among the best pieces of work here; historically a verification of a 168-year-old reading the lists missed |
 | 12 | **Charles I and Nicholas → Boswell**, TNA SP 84/157 | 1643 | 2 | 3 | 3 | 3 | 2 | 3 | **2.65** | Alphabet solved by R. Pitt (Sept 2026), verified here at z = 9.6. Added the four inline word-signs and the identification of the addressee as the Duke of Courland's envoy. A dozen word codes open |
 | 13 | **Sir Richard Forster**, 13 May 1644 | 1644 | 3 | 2 | 1 | 2 | 2 | 4 | **2.25** | Found already read by Lasry, Biermann and Pitt. Value here is methodological: 31 of 34 symbols recovered blind from 207 tokens once word boundaries are used, six controls read |
 
 Score = 0.25 D + 0.25 H + 0.20 N + 0.10 R + 0.10 F + 0.10 V.
+
+### Provisional additions, 17 Sept 2026
+
+Five items read after the ranking above was compiled. Scored on the same axes and formula by the assistant
+alone, not worked out in the appendix and not folded into the by-axis lists; Daniel is to check the scores
+before the tables are merged. Where they would fall: Lanssac between Feuquières and Ormonde, the other four
+between Warsaw and Boswell.
+
+| # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| p1 | **Lanssac → Charles IX**, Warsaw, 26 Apr 1573, fr. 4735 f. 124, and ff. 160, 164, 174 | 1573 | 4 | 3 | 4 | 5 | 2 | 4 | **3.65** | Homophonic letter cipher with word signs, read from the Gallica images: key pinned from the glossed sibling f. 154v and the gutter-cut fragments, then confirmed by a pinned annealer against shuffled and blind controls; 96 of 100 signs; the same key reads three 1 and 9 May election letters. The Polish election bought by the Emperor and by France. Tomokiyo's table corrected |
+| p2 | **Henri IV → Béthune**, Rome, 9, 10 and 22 Nov 1601, fr. 3484 nos. 7, 8, 12 | 1601 | 3 | 3 | 3 | 4 | 2 | 2 | **2.90** | 10 Nov read in full through its clear minute (f. 36), the key recovered by alignment and the 8 Nov and 10 Dec marginal decipherments; a Villeroy-office key of the design Bazeries printed for Béthune's brother. 9 Nov about six words in ten, 22 Nov open. Novelty limited because the minute already carried the 10 Nov text in clear |
+| p3 | **Nevers → Pisany**, 8 Sept and 14 Oct 1593, fr. 3985 f. 209 and fr. 3986 f. 168 | 1593 | 2 | 3 | 4 | 4 | 2 | 2 | **2.85** | Tomokiyo's Nevers key no. 46 re-read at glyph level from fr. 3995 f. 87, checked against the office's decipherment of a Gondi letter, then applied: 8 Sept whole, 14 Oct in long stretches, both unread before. The five Revol letters are a separate key (no. 60) and stay open |
+| p4 | **Philip II → Mendoza**, 7 Sept 1589, fr. 3641 ff. 10/14 and 12/76 | 1589 | 2 | 3 | 2 | 4 | 2 | 3 | **2.55** | Resolved rather than solved: f. 14 and f. 76 are the 1589 decipherer's fair copies of ff. 10 and 12, so the "second undeciphered letter" was never a cipher. Group-by-group alignment rebuilds part of Cg.13 (c. 70 syllables, c. 50 code groups), fills groups the decipherers left blank and corrects two readings. Fourteen groups open; needs Devos 1950 |
+| p5 | **Jean du Bellay → Montmorency**, 16 June 1529, fr. 3078 no. 3 | 1529 | 2 | 3 | 3 | 3 | 2 | 2 | **2.55** | The residue of catalogue item 4, whose other letters proved to be in print (Le Grand 1688, Bourrilly 1905). Key re-derived on the leaf from the 22 June interlinear (B = o, the word signs *bien*, *fault*, *paix*), confirmed by reading the 17 Oct 1529 letter against Le Grand; about 60 % of the 16 June signs read in stretches. Divorce-negotiation news of 1529 |
+
+Arithmetic: p1 1.00 + 0.75 + 0.80 + 0.50 + 0.20 + 0.40; p2 0.75 + 0.75 + 0.60 + 0.40 + 0.20 + 0.20; p3 0.50 + 0.75 + 0.80 + 0.40 + 0.20 + 0.20;
+p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.20.
 
 ## By single axis
 
@@ -168,7 +186,7 @@ description in the axis table, 5 = the high one, 3 = a typical entry on Tomokiyo
 - N 5: no reading found before this work*.
 - R 4: NARA microfilm frames fetched through the catalogue proxy and ranked by a script scoring faint pencil; 580-group table rebuilt.
 - F 2: Tomokiyo entry.
-- V 5: 49 of 49 groups.
+- V 5: 48 of 49 groups determined, the 49th a probable slip for *man*; the reading is not in doubt.
 - 0.50 + 0.50 + 1.00 + 0.40 + 0.20 + 0.50 = **3.10**
 
 **10. Warsaw, 24 Dec 1627**
@@ -220,6 +238,6 @@ description in the axis table, 5 = the high one, 3 = a typical entry on Tomokiyo
   harder than anything here and are ranked in the tracker, not on this page.
 
 Checked: every row against the Solved, Explained and Found-solved tables of README.md and the tracker rows of
-TARGETS.md as of commit d1abee8. Not checked: the per-target NOTES.md for facts beyond those tables; whether any
+TARGETS.md as of commit d1abee8; the five provisional rows against SOLVED_CATALOGUE.md and the per-target NOTES on 17 Sept 2026. Not checked: the per-target NOTES.md for facts beyond those tables; whether any
 "first reading" has a prior in an archive finding aid. User must verify: the axis scores and weights, which are
 editorial.
