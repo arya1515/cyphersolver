@@ -1,0 +1,96 @@
+# Court symbol cipher no. 60 (Tomokiyo), BnF fr. 3995.
+#   f. 109 (Gallica btv1b525085665 canvas 209, landscape sheet): enciphering table, Court hand.
+#   f. 109v (canvas 210): endorsement "Chiffre baille a Monsieur de Nevers, Montereau, aoust 1593" (Tomokiyo: "Montreau").
+#   ff. 110v-111 (canvases 212-213): deciphering table sorted by symbol shape, Nevers's secretary's hand.
+# Read from the full-resolution IIIF images on 17 Sept 2026. The DECIPHERING TABLE below is the authority for
+# symbol -> plaintext; the enciphering sheet gives the alphabet homophones and the syllabary layout.
+# Glyph names are descriptive ASCII/Unicode stand-ins and are the tags used in ct_*.txt transcriptions.
+#
+# ================= DECIPHERING TABLE, f. 110v (canvas 212), four columns =================
+# Col. 1 - Roman numerals (i/j minuscule, "iiijxx" = 80)
+ij a | iij d | iiij Guienne | v besoing | vj Languedoc | vij Gascongne | ix Auvergne | x d | xj Bourgongne
+xij Nyvernois | xiij Lionnois | xiiij Forestz | xv Bretaigne | xvj Poitou | xvij Le Mayne | xviij Anjou | xix Touraine
+xx T | xxj (blank) | xxij Le Legat | xxiij Ambass(adeu)r d'Espag(ne) | xxiiij Le D(uc) de Feria | xxv l'ambass(adeu)r de Venize
+xxvj les princes protest(ans) | xxvij les estatz des pais bas | xxviij Mr le Conte de Nansau | xxix Francois | xxx Italiens
+xxxj Espagnolz | xxxij Reistres | xxxiij Lansquenetz | xxxiiij Angloix | xxxv Wallons | xxxvj Neapolitains | xxxvij Suisses
+xxxviij France | xxxix Espagne | xl Italie | xlj La Suisse | xlij Angleterre | xliij La Savoye | xliiij L'Allemaigne
+xlv Le Piemont | xlvj Le Milanois | xlvij La Lorraine | xlviij Cardinaux | xlix Evesques | lx encores(?) / lxj Lion
+lxij Tours | lxiij St Denys | lxiiij Mante
+# Col. 2
+lxv Chartres | lxvj Bordeaux | lxvij Blois | lxviij Melun | lxix Corbeil | lxx Vernon | lxxj Senlis | lxxij Compiegne
+lxxij(bis) Moulins | lxxiij Chaalons | lxxiiij Meaux | lxxv Pontoise | lxxvj Caen | lxxvij Dreux | lxxviij Verneuil
+lxxix Rome | lxxx Venize | iiijxx Florance | iiijxx j Mantoue | iiijxx ij Marseille | iiijxx iij Ferrare | iiijxx v Veronne
+# Arabic figures
+4 x | 5 comme | 6 di | 7 p | 8 t | 9 do | 10 p | 12 du | 13 pu | 14 b | 16 fe | 17 x | 18 ce | 20 u | 29 et 30 x
+42 pe | 45 tout | 50 ni | 52 no | 53 mi(nu) | 54 pa | 60 affaires | 67 affin
+# Col. 3
+92 chacun | 94 dont | 96 chose | 97 catolique | 99 davantage
+b c r y  -> s (all four letter-shapes are s) | d~ (cursive d "∂") and c -> a | f (long s "ſ") and e -> e | g -> f
+m -> m | o, x, n~ ("η") -> a | p~ (p with loop) -> l | p~ q -> e / fi | ſ -> m | z~ ("ꝝ") -> b | z ("ȥ") -> le(u?) | 3 -> z
+2 -> sa | ꝛ -> luy | ꝝ -> q | ff -> g | ll(?) -> g | ꞃ -> J | ss -> qu'ilz | ff' -> paris | tt -> po
+A: (A with three dots) Mr de Belin | 23/B Les ? | C y | E Mr le D(uc) de Guise | G Mr Desdiguieres | H Dauphine
+J consistoire | L f | m Royne d'Angleterre | O Car(dina)l Gondy | P Monsieur | Q Mr d'Albeuf | R Mr Gondy | S Mr Zamet
+T T(?) | V lo | X Prince de Conty | X. Mr de Chomberg | * Mr d'Aumalle
+# Col. 4 (Latin letters)
+A Beaujolois | b Naples | d be | e to | f Strasbourg | g de | h Sb(?) | l cu | n et | p da | q te | ll bon | lh beaucoup
+h3 ceulx | f3 homes de pied | k ont | ss m | s n
+a ? | ai bi | cc car | co Picardie | com plus | car tousiours | ces Milan | ct mu | cy ilz | est rien | &t f | C su
+cS leurs | Se mais | cS' mont | do r | dor se | Le audiance | Lo fi/assembles | L40 qui | Jl gouvernement | m de
+OO assistance | ss ses | fm la | nre grand | per moy | pi que | pr qua | po pour | G vitoire | 91 fa | 8' ainsi
+# ================= DECIPHERING TABLE, f. 111 (canvas 213), four columns =================
+# Col. 1
+G~ quelque | 3~ vi | g3 p | ro me | rp ma | roS celluy | ur e | tt' aultre | X~ r | s' en | ß n | t3 ci | t5 Bassompierre
+q~ pi | x_ Basle
+t ru | t6 que | g+ gu | 5+ g | f vollonte | n' ville | theta (crossed o) des
+++ (stem, two bars) u | q++ g | m++ Limosin | +++ moins
+a+ J | g+ / L+ L | 2+ p | 2+' u, J | u+ aussi | uu+ S(?) | F+ Nancy | Q+ Mr de Mercure | d+ i | V+ g | 8+ tous
+oo+ Le Roy | 3+ le grant Seig(neu)r | 4+ bien | w+ Les
+f++ qu'il | L++ 2++ y | O++ le Pape, sa S(ain)tete | ++C Mr de Maisse | ++O d'autant
+# Col. 2
++C La S(igno)ria de Venize | +oo Mr de Sancy | +8 sans | +o le | +u J | +w aux | +w' les
+4++ asseurance | 8+' Roy d'Espaigne | +phi le g(rand) D(uc) de Toscana | Psi+ Mr le M(aresch)al de Retz | 8++ Mr de Longueville
+d8 tant | obo Mr de Sillery | ooo Mr le C(onte) de Soissons | oo b / Le D(uc) de Lorraine | 8o raison | phi Le D(uc) de Ferrare
+phi-o Mr le M(aresch)al d'Omont | p-o Iceux | p-o' Icelluy | p' fault | F Armes | p'' c | p''' Z | p'''' ne / ou
+/// r | // c | ~~ deux | = d | \\ o
+sqrt u | X o | X+ se | X++ si | # ß | =/= d | ### Mr de Montmorency | #' L'Empereur
+otto le Conte St Paul | II Mr le C(ardinal) de Bourbon | F+- ? | TL n | |- nous | + nre
+8~ Riviere | oo~ Mr de Monp(ensi)er | 8~' Religion | oo c | 8'' f | oto y | 8o' g
+# Col. 3
+o- tu | o-' ua | o- /-n b | o-'' fo | 8~~ p(a)r | d' r
+E re | 3 ri | m~ ro | w fu | cew La Marche | 3' Perigort | E' La Beausse | om Isle de France
+8~~~ Province | alpha Champagne | ↄ neantmoins | R D(uc) de Mantua | alpha' D(uc) de Savoye | ʊ Sr Alfonse d'Ornano | alpha'' co
+.:. Je | .: ra | :. na / bu | :.: Normandie | .|. mi
+-|- paix | |-- guerre | _|_ combat | H St Pol | H' chevalier de Diou | A' Mr de la Chastre | H'' Mr de Rosne | H''' Vie
+V(inv) deffaute | V' tresve | Δ Δ' o | Δ'' Orleans | Δ+ Mr de Fresne | Δ''' ta
+V non / Vre | π o | u u | #~ M(aresch)al de Bouillon | 4+' Mr d'Espernon | 4+'' Mr Marquis de Pisani | M prelatz
+A m | Z c | 7 s | P Madame
+# Col. 4
+q' lu | v li | w j'ay | ae armee | w' vu | w'' avec | w''' aiant
+Φ Mr de Lion (= Bellievre, per the f. 151 crib) | Φ' Mr de Villeroy | 77 D(uc) de Mayenne | 7~ president Janyn | 2ıc La Chelle
+η bo | aj mo | φ ca | Q so | Q' est | L7 Mr de Nemours | ᛃ la | T autorite | θ7 fait | +7 vous | X- Soleurre
+4+''' Provence | q+ village | Ho Brye | δ rencontre | 3'' gens de guerre | L2 cavallerie | δ' 5 | 8''' Rouen | 5 cuir(?)
+#
+# ================= ENCIPHERING SHEET, f. 109 (canvas 209) =================
+# Alphabet (22 columns, homophones read downwards): a  ∂ o o' x ·q | b  ꝝ(z~) oo(∞) 14 n~ | c  // ∠ oo ·x |
+# d  = ‡ .x. uij | e  f(ſ) ue x: x. 9 | f  g 8 > L | g  a+ H# h+ c+ | h  ξ z8 u uu+ | i  4+ (∩+) to ++ u+ |
+# l  5+(ꝗ) g+ cH t | m  t' ʃ ß ccc | n  ß fs T ⊥ | o  π x ᛉ Δ // | p  g3 v+ 10 7 | q  9+ ss A- 8+ | r  oe v /// x |
+# s  y 6 ſ r | t  2z(ꝛ) y8(ɤ) La .xx. | u  v' ll 20 4 ‡| | x  4 17 29 30 | y  c c‡ 2‡ oto | z  q- ± F- y~
+# Nulls: ſo .:. -oo 4‡ g# ‡ | Doubling row ("chacun ... vaut le precedent double") | Syllabary ba..vu (see decode60.py)
+# Persons/places on the sheet agree with the deciphering table above.
+#
+# ================= CURSIVE VALUES CONFIRMED FROM THE INTERLINED CRIB (fr. 3986 f. 151, Henri IV to Nevers, 7 Oct 1593)
+# λ la | 2+ p (promesse) and i (contraire) | ꝺo r | π o | ro me | 6 s / di | y s | ur e | pi que | 42 pe | X++ si | ⊥ n | T n
+# 4+ bien | ∝(alpha'') co | 8 t | E re | = d | g de | 18 ce | n et | o-'' fo (fort) | f++ qu'il | 20 u | ∂ a | // c | Φ Bellievre
+# 1 n(?) (respondre) | B s(?) | 4 l (labsolution) | 14 b | ꝑ(p-loop) so | ‡ i (labsolution) | q te (verite) | 3 ri | y ve/s
+#
+# ===== CRIB PAIRS READ 17 Sept 2026 (fr. 3986 f. 151, interlinear; plaintext / cipher) =====
+# L1  "Mon Cousin [Φ=Bellievre] n=et [δ=Villeroy?] y X 20 p T V F // ue b 4 ..." plaintext: "Mr de Bellieure, Villeroy et Zamet sont venus"
+# L2  "plusieurs" = com y 4 ue 20 do y  -> com=plu(s), y=s, 4=i, ue=e, 20=u, do=r, y=s ;  "contre" = // π T 8 do ..  -> //=c π=o T=n 8=t do=r
+#     "de la" = = f ꝗ ∂ (=,f = d,e ; ꝗ=l ∂=a) ; "et" = n ; "pour" = p3/ꝑ3 ; "hesiter et du" ; "prolongaru"
+# L3  "peu[t] ... dont il y a plainte de leur part et d..." : "il y a" = 24 ᶜ 2+ o ; "de leur part" = ... 4 ⊥ 8 ue ıȷ 20 ⊥ q ꝺ 8 n = d..
+# L4  "d'aucun et pour ... monstrouer estre ... la ventiona(?)" : "estre" = 1 8 E ꝺo ; "ou" = π 20? ; "monstr" = m π 1 y 8 ꝺo π 24 ıı
+# L5  "dont il y a plainte ... promesse que vous ... sca..." ; "promesse" = 2+ ro ro 6 y ıı ue ; "que" = pi ; "vous" = +7?
+# L6  "faut bien contenir a ... perseucation" ; "bien" = 4+ ; "contenir" = ∝ T 8 ꝺo ꝺ 24 E ꝺ // ; "a" = ∂ ; 42 ꝺo ꝯ ꝺ /// π 1 ꝑ
+# L7  "pour vous en quitt[er] m[e]..." ; "vous" = +7 ; "respondre" = ꝑ ꝺo π 24 ıı 1 8 E ; "en" = 1(?) ; "quitter" = ...
+# L8  "cadmuau lauig..." ; "et cauin" ; "de meurer" = λ 20 8 ꝺo ıı 2+ 1 ꝯ ꝯ ꝺo E y T ;  "for(t)" = y T 8 -o ꝺo 8 ; "ri" = ꝛ π 1
+#  -> confirmed cursive forms: 8=t, ꝺo=r, do=r, 20=u, π=o, T=n, ⊥=n, //=c, ∝=co, E=re, ꝑ(p-loop)=so, 2+=i/p, 1=n?/ba, 24=l(?), ıı/ue=e?, 4=i, y=s, λ=la, ∂=a, ꝯ=?, 6=s/di

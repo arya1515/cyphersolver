@@ -1,0 +1,21 @@
+# Nevers to Revol, Vese (Vezza?) 7 October 1593, BnF fr. 3986 f. 146v (Gallica btv1b9060631k canvas 287),
+# cipher no. 60, copy. Nine text lines in the block at 0.29-0.46 of page height; lines 2-4 wholly in cipher,
+# lines 1, 5-8 mixed clear/cipher. Transcribed 17 Sept 2026 from the full-resolution IIIF image, deskewed -2.25 deg.
+# Tags as in key60.txt; [clear: ...] for plaintext words; ? = uncertain glyph; | = quarter boundary in the crops.
+#
+L1: [clear ... lay] oe p~ p w | |- 2 y r A+ | A+‡ p~ E p+ ∂ c g X++ 9 ꝝ
+L2: + g λ 14 ꝑ 4 20 xx ‡ π ⊥ | n pi ∂ .:. ı. yx m | x m 8 s g ll o- q n *** ꝑ 4+ T ɤ | ɤ X++ θ7 ro u r Q+ ꝑ V ıı m
+L3: ꝑ ro ⊥ = ꝑ æ g+ oo y V(inv) | u+ p ıı ⊥ h L++ g p f++ ꝝ ∂ L | ∂ Lx |- ++ 3 π ⊥ r n ∂ λ y 3 q | X++ y .|. ſ e c m o ᶻ
+L4: V(inv)+ ro g Lo s ᵘ x x x ∝ ‡ 12 m ᵛ | 2+ T q E c T pi ɤ x | ɤ xxx ı ur 8 4 4 o+ q 2+ v r [clear: Monsieur]
+L5: [clear: De ...] 7 ııı π ıı 20 v ∂ ꝑ X++ T [clear: qui n'est pourtant ...]
+L6: [clear line; ends "de tout ay peu(?)"]
+L7: [clear: ... afin de ... ]
+L8: ꝑ ꝑ ıı 1 ++ > q ∂e n x x iij 14 v ıı ll L4 ꝑ e T
+L9: xx d m 7 X g o F o++ [clear: et estant] G r Q q m ++ p L ıı ... 4 ur ıı y f L e T y p y [clear: ... a part ... avec ...]
+#
+# Readings (17 Sept 2026):
+#   L2 λ 14 ꝑ 4 20 xx ‡ π ⊥ = la b so l u t i o n -> "l'absolution" (Tomokiyo: "demander l'absolution")
+#   L3 ∂ λ y 3 q = a la ve ri te -> "a la verite" (Tomokiyo)
+#   L4 2+ T q E c T = i n te re s n/t -> "interest" (Tomokiyo)
+#   L3 f++ = qu'il ; L2/L4 4+ = bien ; L2 n = et ; L2 pi = que
+# The rest is transcribed but not yet read; see NOTES.md.

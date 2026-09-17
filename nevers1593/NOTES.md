@@ -116,3 +116,27 @@ did not resolve them. They are the next pass, with the Gondi decipherment as the
 `key46.txt` (the table), `decode46.py` (decoder; conventions in its docstring), `segscore.py` (lexicon scorer for
 alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptions), `decode_f209.txt`,
 `decode_f168.txt` (decoder output). Page crops for the write-up in `docs/nevers1593_*.jpg`.
+
+## Second session, 17 September 2026: key no. 60 and the Revol passages
+
+* Tomokiyo's dedicated article on no. 60 (`henryiv2.htm`, "A Decoding Table Sorted by Symbol Similarity") lists every
+  letter in the key: Nevers to Revol at fr. 3985 f. 88 (21 Aug), f. 115 (27 Aug, one line: the earlier pages are in
+  clear, as found in session 1), f. 176 (2 Sept), fr. 3986 f. 146v (7 Oct), f. 157 (9 Oct), f. 198 (23 Oct), fr. 3987
+  f. 66, fr. 3989 ff. 3, 169, fr. 3990 f. 27; and the interlined Henri IV letters at fr. 3985 f. 204, fr. 3986 ff. 58,
+  151, 174, 191, fr. 3987 ff. 25, 54, 143, fr. 3988 ff. 99, 119, 143, fr. 3989 ff. 59-60. The Instruction of 31 Aug
+  is fr. 3985 f. 126 with cipher from f. 130, printed with clear in Memoires de Nevers ii, 492-498; that volume is
+  not online (Gallica bpt6k6435941k and bpt6k8717151d are both part 1; Google Books gives no full view).
+* Full-resolution canvases fetched (one fetcher, 4 s spacing, no 429): fr. 3985 c. 175-178, 230-231, 260-263,
+  352-355, 408-409; fr. 3986 c. 116-117, 286-289, 296-298, 348-349, 382-383, 396-398; fr. 3995 c. 207-213.
+* `key60.txt`: the enciphering sheet (f. 109) and the complete deciphering table (ff. 110v-111) transcribed; plus
+  the cursive values read off the interlined crib fr. 3986 f. 151 (Henri IV to Nevers, Chartres 7 Oct 1593:
+  plusieurs, contre, de la, promesse, respondre, il y a, Bellievre, Villeroy, Zamet). `decode60.py` applies it.
+* `ct_3986_f146v.txt` (nine lines) and `ct_3986_f157v.txt` (four lines) transcribed at 2.4-2.6x from deskewed,
+  ink-projection line cuts. Decoder output confirms Tomokiyo's anchors on f. 146v (l'absolution, a la verite,
+  interest) and the function words around them; the rest does not yet read, because the copyist's cursive forms
+  (ue/ur/ıı/v ligatures, 4-shapes, p-loops) map to two or three table entries each. f. 157v: no anchor secured.
+* Not done: the 21 Aug, 2 Sept and 23 Oct passages were located and cut (contact sheets in the session scratch)
+  but not transcribed; no reading of any Revol letter is complete. Coverage stays 2 of 7 read; the key for the
+  other five is now fully in hand, the blocker is palaeographic (copyist's forms), not cryptographic.
+* Next pass: build a glyph atlas of the copyist's forms from the crib page f. 151 (same hand as the copies), then
+  re-transcribe f. 146v and f. 157v with that atlas before touching ff. 88, 176, 198.
