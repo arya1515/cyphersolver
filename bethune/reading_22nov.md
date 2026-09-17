@@ -223,7 +223,8 @@ Open, with the frames that constrain them:
 | `20` | 46r L15 | the other of the two |
 | `28` | 46r L11; 46v L29; 47v L03 | *"ce[luy] m'a escrit de [28]"* — a place written from |
 | `44` | 46r L10; 46v L28 | after "et par consequent" |
-| `2`, `5`, `6`, `8`, `9`, `66`, `67`, `69`, `72`, `80`, `31` | passim | unframed |
+| `72` | passim | **proposed *vous*** (unconfirmed): `x , 72` = *que vous* four times, line-initial three times, and on f. 53r the verbatim gloss's *"que vous pressiez"* sits over `x , 72 , T 63 , r S Z` |
+| `2`, `5`, `6`, `8`, `9`, `66`, `67`, `69`, `80`, `31` | passim | unframed |
 
 In Rome in November 1601 the two persons of L15 are most likely the two French cardinals, d'Ossat and
 Joyeuse, who are named in clear on f. 33 — but `20` and `S 12` are not proved and must not be quoted as

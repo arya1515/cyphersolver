@@ -226,6 +226,34 @@ clear on f. 33 - not proved); `28` is a place, from *"ce[luy] m'a escrit de [28]
 consequent". The glossed leaves ff. 49v-50r, 53r and 56r-57r (canvases 105-108, 113, 119-121, all in
 `bethune/full/`) carry marginal decipherments in the office hand and are the cheap route to fixing them.
 
+### A proposal for one open code group: 72 = *vous*
+
+Not proved, and flagged here the way this repo flags unconfirmed proposals - it must not be quoted as a
+reading until the f. 53r alignment below confirms it.
+
+The evidence is philological, not statistical:
+
+* `x , 72` - *que* followed by `72` - occurs three times in the 22 Nov letter (f. 46r L07, f. 47r L06,
+  f. 46v L22) and once in f. 33 (`p: x, 72`), i.e. four times as the collocation *que vous*.
+* `72` opens a line three times on f. 46v (L01, L14, L27), which suits a pronoun.
+* On f. 53r, whose marginal gloss is verbatim, the gloss reads *"…ie ne suis pas d'auis que vous
+  pressiez sa Sain.té…"* and the cipher at the end of the block's second line runs
+  `… x , 72 , T 63 , r S Z`. With the established values T = p, 63 = re, r = s, Z = e that is
+  *que · vous · p-re-s-s-e*, i.e. *que vous pressiez*.
+* `S 12 72 4 S` on f. 46r L09 then reads *"le [S 12] vous a l…"*, which fits its frame.
+
+The full text of the f. 53r gloss, read at 2.8x from canvas 113 (the block it belongs to is marked with
+a double cross, and the same mark stands over the cipher between *responce* and the first group):
+
+> Je confesse, je ne suis pas d'auis que vous pressiez sa Sain.té de me faire scavoir sa volonté sur ce
+> faict, ny que vous vous mettiez en peine de justifier davantage la mienne, encor que sur les discours
+> d'autruy. Il fault, nous confians en la prudence et cognoissance de sa Sain.té, de la sincerité avec
+> laquelle vous avez jusques icy procedé, attendre ce quil plaira a sa Sain.té vous en ordonner.
+
+A decode-level test is not available: `[72]` as an opaque group and *vous* as a value segment their
+neighbours identically, so the score barely moves (-6145.1 to -6138.2 over the whole 22 Nov letter).
+What would settle it is the alignment of the eight lines against this gloss.
+
 ### Two more things tried on f. 33, both negative
 
 **A re-reading at full resolution.** The second pass read f. 33 from the 2000-px Gallica image; the
