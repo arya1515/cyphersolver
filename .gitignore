@@ -438,3 +438,11 @@ sega1593/*.npy
 sega1593/*.pt
 sega1593/*.pkl
 sega1593/*.log
+# hesse1603: Internet Archive page images, strips and bulky OCR/hOCR texts (refetch: see hesse1603/NOTES.md §1); keep Tomokiyo's key image and the page map
+hesse1603/img/
+hesse1603/crops/
+hesse1603/src/*.html
+hesse1603/src/*.xml
+hesse1603/src/*.txt
+hesse1603/src/*.htm
+hesse1603/src/pages_text.json
