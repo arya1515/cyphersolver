@@ -57,6 +57,20 @@ il y a, Bellièvre, Villeroy, Zamet.
 - **"sceptre"** (R264_4_0): `ᵽi λ Ŧ y ᵴo` — ᵽi=pi? no: gloss *sceptre* sits over `10 ᏺ. E ᴎ`; E=re? A tall-E
   as *re* would match table E=re ✓. Flag the rest.
 
+Lower half of canvas 264 (S264_* crops):
+
+- **"partira le"** gloss with `ꝉ 4ᵹ to n 2ᵮ` beneath: 4=x? no — here `4ᵹ` under *parti-*: ᵹ=g→gu?; to=i ✓.
+- **"royaume"** (S264_0_1): gloss over `2ⱶⱶ X ⱶⱶ(underlined) ꝛᵱ λ s 4`: X=o ✓ inside *ro-yau-me*; the
+  underlined 11 is the table's ⱶⱶ=u with the doubling bar → *au*? flag; λ=la as final -me? no — flag.
+- **"dignitez"** (S264_2_1): gloss under `Ⱡ ⱶⱶ ᵴ ꝛ ᵹ ꝉᵴ y`: y=s final ✓ (table y=s), ᵹ before it = te/z?
+- **"dans la roiaume [le royaume]"** (S264_2_2): `T 6 to n Ꮮⱶⱶ x ⱶⱶ` — to=i ✓, x=a? (x=a table ✓ inside
+  *roiaume*): reading r-o-i-a-u-m-e with 6=di? — 6 is table *di*; the copyist uses it inside *roiaume* for
+  the syllable? more likely mis-cut; flag.
+- **"et responderez [respondit]"** partial pairs with `y Ꮮl Ŧ ꝛ` under *y'll* gloss — Ŧ=z ✓ again.
+
+Solid cursive equivalences so far (double-confirmed): x=a, ∞/oo=b, <=c, π=o, X=o, T=n, ⊥=n, ⱶⱶ(++)=u,
+Ŧ=z, 12=du, 18=ce, to=i, y=s (final), λ=la, E=re, Ⱡ(loop-L)=so, flat-v=r, 3=ri.
+
 ## Next pass
 
 1. Work through canvas 264 pair by pair at 3–4×, recording each copyist glyph with its plaintext letter

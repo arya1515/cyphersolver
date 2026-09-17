@@ -156,3 +156,9 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
   target hand: this, not f. 151 alone, is the glyph-atlas source for the next pass.
 * So the copyist-forms blocker now has two independent controls: the interlined Instruction (fr. 3985
   c. 264-268) aligned against the print, and the interlined 7 Oct King's letter (fr. 3986 c. 296-297).
+
+* Caution recorded after re-reading f. 157v at 3.2x with the atlas: much of what was transcribed there as
+  symbols is faded clear cursive run together (line 1 ends "...qui ne ... pan...", line 2 has long clear
+  stretches). ct_3986_f157v.txt over-reads cipher; the true cipher on that page is shorter than four full
+  lines. Re-segment clear vs cipher before re-transcribing. The f. 146v block (canvas 287) is real cipher
+  throughout and stays the primary target for the atlas pass.
