@@ -1,0 +1,310 @@
+# Nevers collection cipher no. 46 (Tomokiyo's numbering), BnF fr. 3995 f. 87 (Gallica btv1b525085665 canvas 169),
+# endorsed "Chelles, octobre 1592, chifre" on f. 86 (canvas 168). Read from the full-resolution IIIF image 17 Sept 2026.
+# Format: series<TAB>figure<TAB>value.  Series: A = alphabet (plain two-digit figures), N = null,
+# B = barred figures (overbar), P = plain figures not in the alphabet, D = figures with two dots above, S = sign.
+# The figure in the letters is always two digits (1-9 written 01..09? -- to be checked on the letters).
+
+A	34	a
+A	74	a
+A	90	b
+A	92	c
+A	95	c
+A	54	d
+A	55	d
+A	79	e
+A	69	e
+A	71	f
+A	40	g
+A	27	h
+A	63	i
+A	73	i
+A	83	i
+A	87	i
+A	65	l
+A	77	l
+A	49	m
+A	50	m
+A	57	n
+A	58	n
+A	26	o
+A	36	o
+A	46	o
+A	52	p
+A	21	p
+A	19	qu
+A	22	r
+A	32	r
+A	42	r
+A	17	s
+A	18	s
+A	12	t
+A	13	t
+A	15	u
+A	25	u
+A	35	u
+A	14	x
+A	76	y
+A	86	z
+N	66	-
+N	96	-
+N	80	-
+N	99	-
+N	100	-
+
+# barred series (words), from 99 downward
+B	99	au
+B	98	afin
+B	97	alle
+B	96	armee
+B	95	avec
+B	94	argent
+B	93	autre
+B	92	avoir
+B	91	bien
+B	90	bon
+B	89	beaucoup
+B	88	bat
+B	87	bruit
+B	86	car
+B	85	ce
+B	84	ces
+B	83	catholiques
+B	82	come
+B	81	dans
+B	80	de
+B	79	depuis
+B	78	difficulte
+B	77	dire
+B	76	don
+B	75	dissimule
+B	74	et
+B	73	est
+B	72	ennemis
+B	71	envoie
+B	70	escrit
+B	69	faict
+B	68	faire
+B	67	fault
+B	66	fin
+B	65	frere
+B	64	filz
+B	63	garnison
+B	62	garde
+B	61	grand
+B	60	guerre
+B	59	honneur
+B	58	huguenotz
+B	57	jay
+B	56	je
+B	55	jour
+B	54	intelligence
+B	53	la
+B	52	le
+B	51	luy
+B	50	lon
+B	49	lors
+B	48	ligue
+B	47	lettre
+B	46	levee
+B	45	ma
+B	44	mais
+B	43	me
+B	42	mis
+B	41	mon
+B	40	mort
+B	39	na
+B	38	ne
+B	37	nay
+B	36	non
+B	35	nous
+B	34	nos
+B	33	nostre
+B	32	opinion
+B	31	opiniastre
+B	30	ordre
+B	29	ou
+B	28	ordinaire
+B	27	on
+B	26	par
+B	25	pas
+B	24	paix
+B	23	pense
+B	22	peine
+B	21	pis
+B	20	plus
+B	19	pour
+B	18	possible
+B	17	pouldre
+B	16	prison
+B	15	propos
+B	14	puissance
+B	13	puis
+B	12	pris
+B	11	que
+B	10	qui
+B	9	quil
+B	8	quand
+B	7	quelque
+B	6	quoy
+B	5	recherche
+B	4	repos
+B	3	retour
+B	2	retirer
+
+# plain figures not used by the alphabet (words and provinces)
+P	10	renvoie
+P	11	repris
+P	16	revient
+P	20	rompu
+P	23	ruine
+P	24	sa
+P	28	sans
+P	29	se
+P	30	ses
+P	31	seul
+P	33	servy
+P	87	si	# reading to be checked: 87 is also i
+P	37	sinon
+P	38	sorty
+P	39	sur
+P	41	temps
+P	44	tenir
+P	45	tout
+P	47	tort
+P	48	trouble
+P	51	treve
+P	56	tue
+P	59	venu
+P	60	voz
+P	61	vostre
+P	62	vous
+P	64	voulloir
+P	67	volle
+P	68	union
+P	70	veult
+P	72	Italie
+P	75	Venitiens
+P	78	Suisses
+P	81	Allemans
+P	82	Flandre
+P	84	Angleterre
+P	85	Lorraine
+P	88	France
+P	89	Champaigne
+P	91	Picardie
+P	93	Normandie
+P	94	Bretaigne
+P	97	Poitou
+P	98	Guienne
+P	99	Languedoc
+P	100	Auvergne
+P	9	Provence
+P	8	Daulphine
+P	7	Lionnois
+P	6	Bourgongne
+P	5	Nivernois
+P	4	Rethellois
+P	3	Bourbonnois
+P	2	Berry
+P	1	Franchecomte
+
+# double-dotted series: proper names and general names
+D	99	Pape
+D	98	Roy
+D	97	Empereur
+D	96	Roy d'Espaigne
+D	95	Royne d'Angleterre
+D	94	Duc de Savoye
+D	93	Duc de Lorraine
+D	92	Duc de Parme
+D	91	D. de Florance
+D	90	D. de Ferrare
+D	89	Duc de Mantoue
+D	88	Duc de Nevers
+D	87	D. de Longueville
+D	86	D. de Montpensier
+D	85	D. de Mercueur
+D	84	Duc de Maienne
+D	83	Duc de Guise
+D	82	Duc de Rethellois
+D	81	D. de Nemours
+D	80	D. d'Aumalle
+D	79	D. d'Albeuf
+D	78	D. d'Espernon
+D	77	D. de Montemarciano
+D	76	Prince de Conde
+D	75	Prince de Conty
+D	74	Comte de Soissons
+D	73	Comte de Clermont
+D	72	Marquis de St Sorlain
+D	71	Cardinal de Bourbon
+D	70	C. Gondi
+D	69	C. Sfondrat
+D	68	C. de Sans
+D	67	C. de Joieuse
+D	66	C. de Lorraine
+D	65	Mal de Montmorency
+D	64	Mal de Retz
+D	63	Mal de Matignon
+D	62	Mal d'Aumont
+D	61	Mal de Bouillon
+D	60	Archevesque de Lyon
+D	59	Evesque de Nevers
+D	58	Archevesque de Bourges
+D	57	Evesque d'Auxerre
+D	56	Chancellier
+D	55	Beaulieu
+D	54	Revol
+D	53	Forget
+D	52	Gesvre
+D	51	Do
+D	50	Villeroy
+D	49	De la Chastre
+D	48	De Montigny
+D	47	Darquien
+D	46	De Chazeron
+D	45	De Tannerre
+D	44	Du Faur
+D	43	Dentragues
+D	42	De Dunes
+D	41	De Souvray
+D	40	De la Guiche
+D	39	De Givry
+D	38	De Grilon
+D	37	Desdiguieres
+D	36	Alfonce Corse
+D	35	De Luxembourg
+D	34	De Pizany
+D	33	Dandelot
+D	32	De Neufvis
+D	31	Vitry
+D	30	Amedee
+D	29	St Paul
+D	28	Dampierre
+D	27	De Tavannes
+D	26	De Sipierre
+D	25	Gouverneur
+D	24	Lieutenant general
+D	22	Capitaine
+D	21	Cavallerie
+D	20	gens de pied
+D	19	Compagnee
+D	18	chevaulx ligiers
+D	17	Reistres
+D	16	Suisses
+D	15	Lansquenetz
+D	14	Espagnolz
+D	13	Albanois
+D	12	Italiens
+D	11	Francoys
+D	10	Anglois
+D	9	Legat
+D	8	Cardinal
+D	7	Archevesque
+D	6	Evesque
+D	5	Abbe
+D	4	Duc
+D	3	Marquis
+D	2	Prince
+D	1	Ambassadeur
+S	o+	Monsieur

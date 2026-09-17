@@ -530,15 +530,15 @@
    "ark2": "btv1b9060631k",
    "folio_note": "",
    "cls": "B",
-   "seen": "catalogue",
+   "seen": "image",
    "source": "BnF harvest",
-   "status": "Tomokiyo read one passage with Nevers cipher no. 46; the rest unread.",
+   "status": "Attempted 17 Sept 2026: the two Pisany letters (nos. 116, 81) read with Nevers no. 46, every figure in the key, 8 Sept whole and 14 Oct in stretches; the five Revol letters are in the Court symbol cipher no. 60, the 27 Aug copy in clear, the 9 Oct copy with c. 90 symbols unread, three not reached on the image.",
    "why": "Nevers' embassy to Rome to obtain Henri IV's absolution, refused by Clement VIII in Jan 1594.",
    "importance": 4,
    "solvability": 4,
    "difficulty": 2,
-   "score_note": "Seven letters in one office's key, one of which partly reads with a known table: the rest should follow.",
-   "verify": "Apply Nevers no. 46 to all seven and measure coverage."
+   "score_note": "Two keys, not one: no. 46 covers the Pisany pair (read), no. 60 the Revol five; the symbol key needs the deciphered siblings in the same volumes.",
+   "verify": "Done: no. 46 reads 2 of 7. Next: read the no. 60 passages of 9 Oct (fr. 3986 f. 157v) from Henri IV's deciphered letter of 6 Oct (f. 152); locate nos. 88/94, 68, 101."
   },
   {
    "id": 22,
