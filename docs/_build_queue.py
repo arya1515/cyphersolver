@@ -252,15 +252,6 @@ ATTEMPTED = [
      "on the same page, 7,821 couplet windows of French verse, Delille's <i>Aeneid</i>, Moore. The corpus sits at its unicity distance and a "
      "planted syllabary of the same length recovers 0%, so it falls only to a crib from his papers. <a href=\"debosnys.html\">Full write-up &rarr;</a>"),
 
-    ("William Perwich to Lord Arlington", "1670",
-     "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/",
-     "", "found solved", "md",
-     "<b>Solved in October 2025</b> by Matthew Brown, and independently by Lasry, Biermann and Tomokiyo: a 20-column transposition with nulls. "
-     "This entry had called it a substitution, and that was wrong — the eight q's, seven of them nulls, add 106 to the in-place chi-squared, and on "
-     "the plaintext cells it is an ordinary 28. <b>Reproduced here from the transcription</b>: rows 2–21 are the columns, rows 1 and 22 are null "
-     "lines, a keyless quadgram climb recovers the order, and 414 plaintext cells read out <i>“the souldiers grumble much that the king is of late "
-     "growne cool towards them…”</i>. Only the nomenclator numbers remain."),
-
     ("Vatican Challenge, Part 5 — Farnese to Poggio", "1542",
      "vatican.html", "", "family identified", "md",
      "Identified as a polyphonic-syllabic cipher of the kind <b>Antonio Elio</b> built for Paul III's chancery — the chancery that sent this letter. "

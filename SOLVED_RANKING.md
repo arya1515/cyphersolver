@@ -80,10 +80,9 @@ Ordered by how much this repo added.
 
 1. **ADFGVX, Eastern Front 1918.** The 2017 thread consolidated, Lasry's sixteenth key rebuilt, Biermann's
    method reimplemented and re-deriving seven pages blind; the ten open messages shown to be garbles.
-2. **Perwich → Arlington 1670.** Transposition reproduced from the TNA blog solution.
-3. **Feynman ciphers 2 and 3.** The 2023 solution verified.
-4. **Ferdinand III ↔ Cardinal-Infante.** Ernst's 2017 solution located in Schmeh's own comment thread.
-5. **Milroy telegrams; Confederate Navy dictionary code.** Located in print; nothing added.
+
+Perwich, the Feynman ciphers, Ferdinand III, Milroy, the Confederate dictionary code and Mazarin–Bordeaux 1654 were found
+solved by others with nothing added here and are no longer listed (removed 17 September 2026).
 
 ## Appendix: the scores worked out
 

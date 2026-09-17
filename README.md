@@ -57,12 +57,9 @@ negative result says something.
 
 | Target | Date | Solved by | Where |
 |---|---|---|---|
-| Perwich → Arlington, Paris | 1670 | Matthew Brown; Lasry, Biermann and Tomokiyo (TNA blog, Oct 2025). 20-column transposition with nulls, reproduced here | [`perwich/`](perwich/) |
-| Ferdinand III ↔ Cardinal-Infante | 1634–40 | Thomas Ernst, Oct 2017, in the comments of Schmeh's own post | [`ferdinand3/`](ferdinand3/) |
-| Milroy telegrams (Union ciphers) | 1861–62 | Richard Bean, 2026; source list has since caught up | [`milroy/`](milroy/) |
-| Feynman ciphers #2 and #3 | 1987 | 2023 solution, verified here | [`feynman/`](feynman/) |
-| Confederate Navy dictionary code | 1863 | Webster's 1850 dictionary, found solved Aug 2026 | [`barney/`](barney/) |
 | ADFGVX messages, Eastern Front | 1918 | Keys published by Lasry, Niebel, Kopal and Wacker; the 22 "unsolved" residue is garbled in transmission. The 2017 thread consolidated: 9 solved, 3 partial, 10 open; Lasry's sixteenth key rebuilt; Norbert's method reimplemented and re-derives 7 pages blind; the 10 open ones resist 15 keys and a key-free attack that fails its own control | [`adfgvx/`](adfgvx/) · [write-up](https://dbourdeau.github.io/cyphersolver/adfgvx.html) |
+
+Six further list entries turned out to be solved by others with nothing to add here: Perwich 1670 (Brown; Lasry, Biermann and Tomokiyo, 2025), Ferdinand III and the Cardinal-Infante (Ernst, 2017), the Milroy telegrams (Bean, 2026), the Feynman ciphers 2 and 3 (2023), the Confederate Navy dictionary code (2026) and the Mazarin–Bordeaux letter of 1654 (Lasry, 2025). They are not counted in the results above; the directories `perwich/`, `ferdinand3/`, `milroy/`, `feynman/` and `barney/` hold only the pointer to the published solution.
 
 ### Attempted and closed from the evidence
 
