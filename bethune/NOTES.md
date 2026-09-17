@@ -296,6 +296,38 @@ biased in favour of fixed splits, and the f. 33 result is therefore the more tel
 too aggressive where figures are genuinely adjacent but genuinely separate. `SPLIT_FIGURES` is off by
 default and kept for anyone who wants to restrict it to runs of four or more figures.
 
+### Two independent readings, unioned: worth about three points
+
+The last idea, and the only one that attacks the oracle bound directly. Blanket confusion widening
+failed because it adds alternatives everywhere; but widening only at the positions where *two careful
+readers of the same ink actually disagree* is targeted, and the union of two readings contains the true
+glyph more often than either alone.
+
+Tested for real, not assumed. Block V1 (f. 34v ll. 1-2, 102 letters of known plaintext) was read again
+from scratch off the full-resolution leaf at quarter-line crops, without consulting `corpus_v2.txt`,
+and the two readings were aligned token to token by edit distance (`union.py`).
+
+| reading | tokens | oracle |
+|---|---|---|
+| reader A - the second pass, at 1.5-4x from the 2000-px image | 68 | **75.5 %** |
+| reader B - this pass, at ~2.6x from the 3926-px original | 72 | **57.8 %** |
+| the two aligned: agree on 50 of 72 positions (69 %) | | |
+| **union** - both tokens' emissions offered wherever they differ | | **78.4 %** |
+
+Three things follow, and they end the line of attack.
+
+1. The union does help, and it is the only widening measured to help at all - but by **2.9 points**,
+   nowhere near what turning f. 33 from partly read into read would need.
+2. **Reader B is much worse than reader A** (57.8 % against 75.5 %), despite 30 % more resolution. A
+   second full reading of f. 33 would therefore cost twenty-one careful views to produce a transcription
+   below the one already on disk, for a union gain of about three points.
+3. Two readers agreeing on only 69 % of tokens is itself the measurement that matters. It is not that
+   one reading is careless; it is that this hand does not carry enough information at 450 dpi to fix its
+   glyphs, exactly as the 71 % oracle bound says.
+
+`union.py` is kept: it is the right tool the day a *third* party - a palaeographer, or a reading taken
+from the original in Paris - supplies a second opinion worth unioning.
+
 ### f. 53r: the best crib left for the open code groups
 
 f. 53r (24 Dec 1601, canvas 113) was fetched at full resolution and examined. Two things make it the
