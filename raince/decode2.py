@@ -44,3 +44,6 @@ for ln in open('gold/labels.txt'):
         g=pred[order[(t['page'],t['line'],t['x0'])]]
         tot+=1; ok += (g==ch or (ch in 'uv' and g in 'uv'))
 print(f'LM weight {LMW}: token accuracy on gold lines {ok}/{tot} = {ok/tot:.3f}')
+
+json.dump({f"{t['page']}|{t['line']}|{t['x0']}": pred[order[(t['page'],t['line'],t['x0'])]]
+           for t in b['tokens']}, open('pred.json','w'))
