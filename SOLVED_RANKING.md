@@ -85,6 +85,131 @@ Ordered by how much this repo added.
 4. **Ferdinand III ↔ Cardinal-Infante.** Ernst's 2017 solution located in Schmeh's own comment thread.
 5. **Milroy telegrams; Confederate Navy dictionary code.** Located in print; nothing added.
 
+## Appendix: the scores worked out
+
+Weights: D 0.25, H 0.25, N 0.20, R 0.10, F 0.10, V 0.10 (sum 1.00). Each entry below gives the reason for
+every axis score, then the six weighted terms in that order and their sum. Scale anchors: 1 = the low
+description in the axis table, 5 = the high one, 3 = a typical entry on Tomokiyo's list.
+
+**1. Navarre → Ségur, 1585–86**
+- D 5: no transcription existed; 461 figures and 25 letter-glyphs read from the Gallica images; the system (letters plus a 70-syllable table) was unknown until the mod-5 test exposed it; the key came from a structured annealer scored on a matched control at 96.6 %.
+- H 4: instructions to the envoy raising a German army in the Wars of Religion, naming Casimir, Clervant's reiters and the invasion road; corrects the sender from Henry III to Navarre. Not a decision of state in itself, hence not 5.
+- N 5: no reading anywhere before this work*; the letters were miscatalogued and unread.
+- R 5: IIIF fetch, glyph-level transcription, whole-volume sweep of 440 canvases, an unlisted cipher leaf found (f. 366), Tomokiyo's sibling key shown to be this key shifted by eight.
+- F 2: Tomokiyo list entry, no wider fame.
+- V 4: 97 % on control, three letters read in substance; a dozen word-signs and f. 143 open.
+- 0.25×5 + 0.25×4 + 0.20×5 + 0.10×5 + 0.10×2 + 0.10×4 = 1.25 + 1.00 + 1.00 + 0.50 + 0.20 + 0.40 = **4.35**
+
+**2. Swatow telegram to Sun Yat-sen, 1916**
+- D 4: the family (a code condenser over the standard telegraph code) was hypothesised, then 57,600 keys brute-forced with a Chinese character model. A known family narrowed by search, so 4 not 5.
+- H 4: a field report of the Chaozhou rising and the fall of Swatow in the 1916 campaign against Yuan Shikai, addressed to Sun himself.
+- N 5: no reading found before this work*.
+- R 3: JACAR frames fetched; the tail re-checked on the sheet at 600 dpi.
+- F 2: Tomokiyo entry.
+- V 4: 41 of about 44 characters; the three lost codes are the operator's garble.
+- 1.00 + 1.00 + 1.00 + 0.30 + 0.20 + 0.40 = **3.90**
+
+**3. Fra Giovanni di Lucca → Ferdinand III, 1644**
+- D 4: a polyphonic alphabet (two figures each standing for two letters) is harder than plain homophony; solved ciphertext-only after the supplied crib proved self-contradictory, with all seeds agreeing and shuffled controls failing. Not 5 because the transcription was supplied and the text is short.
+- H 4: an offer to turn the Porte and Moldavia against Rákóczi and to supply 2,000 Cossacks, in the last year of the Thirty Years' War.
+- N 5: DECODE still marks it non-decrypted; no reading found*.
+- R 2: worked from Tomokiyo's transcription only.
+- F 2: Tomokiyo entry.
+- V 4: 231 groups read end to end; three spellings and the speaker's name need the images.
+- 1.00 + 1.00 + 1.00 + 0.20 + 0.20 + 0.40 = **3.80**
+
+**4. Feuquières → Catinat, 25 Jan 1691**
+- D 4: a two-part code with no table in print cannot be annealed at 418 groups; it was read by aligning a second letter in the same code against its contemporary translation, by hand, after every automatic aligner failed. Heavy but partly known-plaintext, so 4.
+- H 3: the tactical plan for the Veillane surprise; operational, not strategic.
+- N 4: Bazeries read it in 1893 but never printed the reading.
+- R 4: the Grand Chiffre table transcribed from Gallica and verified on four despatches; the sibling letter found by searching the OCR of three volumes.
+- F 2: Tomokiyo entry.
+- V 4: 586 of 601 tokens across the two letters; twelve singleton groups unread.
+- 1.00 + 0.75 + 0.80 + 0.40 + 0.20 + 0.40 = **3.55**
+
+**5. Maltravers → Ormonde, 1634–35**
+- D 3: a regular block alphabet recovered from 59 figures through consecutive-figure doublets; short, and the alphabet is of a standard Stuart design.
+- H 3: Wentworth's Irish administration, the King's refusal of Kildare, Ormonde's council seat in exchange for Crosby.
+- N 5: no reading found before this work*.
+- R 4: the nomenclator confirmed clause by clause against Knowler's 1739 edition of Wentworth's dispatches.
+- F 2: Tomokiyo entry.
+- V 4: every spelled word reads; two person-codes in one clause unidentified.
+- 0.75 + 0.75 + 1.00 + 0.40 + 0.20 + 0.40 = **3.50**
+
+**6. Louvois and Louis XIV → Catinat, seven despatches, 1691**
+- D 1: Bazeries' 1893 table applied; no cryptanalysis.
+- H 5: the King's 14 Sept decision to bring the army back over the Alps, fight defensively in 1692, hold and then burn Carmagnole, take Coni in winter. The only decision of state among the solved items.
+- N 5: about 9,700 groups in five letters never before in clear*.
+- R 3: MDZ hOCR of the volume, 137 doubtful stretches checked on the page images, seven OCR fixes.
+- F 1: on no list; the by-product of the Feuquières item.
+- V 5: 98.1 % and 99.1 % against the two letters Bazeries printed in clear.
+- 0.25 + 1.25 + 1.00 + 0.30 + 0.10 + 0.50 = **3.40**
+
+**7. Huang Xing → Lin Hu and Li Genyuan, 1916**
+- D 3: the scheme (three kana per character, consonant row carrying the digit) identified by inspection and confirmed by reading.
+- H 3: National Protection War correspondence between named commanders.
+- N 5: no reading found before this work*.
+- R 3: JACAR frames fetched and read.
+- F 1: on no list; found beside the Sun Yat-sen telegram.
+- V 4: read from the frames; not independently controlled beyond the reading itself.
+- 0.75 + 0.75 + 1.00 + 0.30 + 0.10 + 0.40 = **3.30**
+
+**8. Urquhart's Cyphral Octastich, 1652**
+- D 3: a book cipher whose rule (number k → first word of the needed initial on physical page k) is simple once stated; the work was verifying it with a first-occurrence test, 238/284 against 0.43 for controls.
+- H 2: a royalist prayer for Charles II in ottava rima; literary, not documentary.
+- N 3: Vals AI published a plaintext in Aug 2026; this reading was made without it and extends the transcription, but is not first.
+- R 4: 285 numbers re-transcribed from the 1983 edition's photographs on the HCPortal record (Schmeh's public 272 were 13 short); EEBO-TCP text aligned to physical pages.
+- F 5: Schmeh Top 50 no. 28, with a live public dispute over the distich.
+- V 4: ten letters of line 5 unread at a TCP text defect; the distich claim fails and stays open.
+- 0.75 + 0.50 + 0.60 + 0.40 + 0.50 + 0.40 = **3.15**
+
+**9. Armstrong → Madison, coded postscript, 1808**
+- D 2: the key was read off pencil decodes on other despatches and completed by alphabetical-slot inference; little cryptanalysis.
+- H 2: who should be consul; diplomatic gossip.
+- N 5: no reading found before this work*.
+- R 4: NARA microfilm frames fetched through the catalogue proxy and ranked by a script scoring faint pencil; 580-group table rebuilt.
+- F 2: Tomokiyo entry.
+- V 5: 49 of 49 groups.
+- 0.50 + 0.50 + 1.00 + 0.40 + 0.20 + 0.50 = **3.10**
+
+**10. Warsaw, 24 Dec 1627**
+- D 3: a 5-gram plus dictionary annealer converged from random starts; the alphabet turned out to be in plain order, which made the problem easier than it looked but was not given to the solver.
+- H 2: a promised canonry of Olmütz for a son of the Queen of Poland.
+- N 5: DECODE still non-decrypted; no reading found*.
+- R 2: Tomokiyo's transcription only.
+- F 2: Tomokiyo entry.
+- V 3: every spelled word reads; ten word codes and three groups glossed from context; addressee inferred.
+- 0.75 + 0.50 + 1.00 + 0.20 + 0.20 + 0.30 = **2.95**
+
+**11. Richelieu → M. de Rancé, 1629**
+- D 4: homophonic alphabet plus nomenclature recovered ciphertext-only from a short text; clean cryptanalysis.
+- H 3: Richelieu's own instructions in 1629; of interest, already used by historians since Avenel.
+- N 1: printed word for word by Avenel in 1858.
+- R 2: Tomokiyo's transcription; the Avenel match found afterwards.
+- F 2: Tomokiyo entry.
+- V 5: agrees word for word with the 1858 print.
+- 1.00 + 0.75 + 0.20 + 0.20 + 0.20 + 0.50 = **2.85**
+
+**12. Charles I and Nicholas → Boswell, 1643**
+- D 2: the alphabet was solved by R. Pitt; this repo verified it (z = 9.6) and added the four word-signs.
+- H 3: the King's letter to the Duke of Courland's envoy; Nicholas on the Dutch embassy of 1644.
+- N 3: Pitt's reading is weeks old; the word-signs and addressee are new here.
+- R 3: re-credentials traced to Simpson's 1893 print; the addressee identified.
+- F 2: Tomokiyo entry.
+- V 3: read in substance; a dozen single-occurrence codes open and the transcription needs the folios.
+- 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30 = **2.65**
+
+**13. Sir Richard Forster, 13 May 1644**
+- D 3: a mixed homophonic alphabet recovered blind, 31 of 34 symbols from 207 tokens, six controls read; good method on a small text.
+- H 2: the content is not remarkable.
+- N 1: already read by Lasry, Biermann and Pitt before this work.
+- R 2: transcription only; four slips need the manuscript.
+- F 2: Tomokiyo entry.
+- V 4: permutation control z = 8.8; three symbols short of the full alphabet.
+- 0.75 + 0.50 + 0.20 + 0.20 + 0.20 + 0.40 = **2.25**
+
+**Sensitivity.** Three other weightings, same scores. With novelty dropped and its weight given to D and H (0.35 each): Ségur 4.25, Sun Yat-sen 3.70, Lucca 3.60, Feuquières 3.45, Richelieu 3.35, Ormonde 3.10, Urquhart 3.05, Catinat 1691 3.00, Huang Xing 2.90, Forster and Boswell 2.55, Armstrong 2.50, Warsaw 2.45. Richelieu climbs to fifth and Catinat 1691 falls to eighth, because both are carried by novelty in opposite directions. With list profile raised to 0.30 at the expense of D and H (0.15 each): Ségur 3.85, Urquhart 3.65, Sun Yat-sen 3.50, Lucca 3.40, Ormonde 3.30, Feuquières 3.25, Armstrong 3.10, Catinat 1691 3.00, Huang Xing 2.90, Warsaw 2.85, Richelieu and Boswell 2.55, Forster 2.15. Urquhart is the only item fame moves far. With all six axes equal (1/6 each): Ségur 4.17, Sun Yat-sen 3.67, then Urquhart, Ormonde, Lucca and Feuquières tied at 3.50, Catinat 1691 and Armstrong 3.33, Huang Xing 3.17, Warsaw and Richelieu 2.83, Boswell 2.67, Forster 2.33. Ségur is first and Forster last under every weighting tried; Sun Yat-sen is second in three of four; the middle six reorder freely.
+
 ## What this ranking does not settle
 
 - **Novelty marked *:** "no earlier reading" means none was found in the printed editions, catalogues and
