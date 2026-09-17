@@ -18,14 +18,18 @@ years. Identification from Le Grand's *Histoire du divorce* t. III (1688, Preuve
 | fr. 3078 no. 5 "avec chiffre, XVe de juing" | 15 June 1529 | 5679 | pp. 323–326 | p. 31–33? (DECODE R3690 "partially decrypted") | printed in clear |
 | fr. 3077 no. 18 "avec chiffre, XVIIIe de septembre" | 18 Sept 1529 | 5945 | pp. 354–359 | f. 113 (DECODE R4252 "Decrypted"; Friedmann's key NAF 4206 no. 5 "refers to fr. 3077 fol. 114") | printed in clear |
 | fr. 3077 no. 20 "lettre chiffrée, IIIIe d'octobre" | 4 Oct 1529 | 5983 (+ BL Add. 28579 f. 178) | pp. 359–363 | f. 125? (DECODE R4253 "Decrypted") | printed in clear |
-| fr. 3077 no. 23 "avec chiffre" | **22 Oct 1529** | 6019: "the beginning of the letter is in cipher, undeciphered" | pp. 377–379: "le commencement de cette lettre est en chiffre non déchiffré" | not fetched (c. f. 141–144) | **opening unread since 1529**; Tomokiyo lists the copy fr. 3005 f. 165 as "unsolved, in Bayonne's cipher (1529)" |
+| fr. 3077 no. 23 "avec chiffre, XXVIIIe d'octobre" | 28 Oct **1528** | 4879 | (Le Grand III 188–192) | pp. 145–147 = canvases 143–145 (read on the leaf: "Monseigneur, je croy que me pensez si peu paresseux…") | Bourrilly 1905 no. 156 prints the 15 cipher lines in clear with the key they recovered ("la royne a dict à quelqung … l'Empereur ne cessera jamais qu'il n'ayt ruiné le roy d'Angleterre"); Lasry 2022 re-solved the key; DECODE R4254 "Non-decrypted" is stale |
+| — (not in the catalogue item) | **22 Oct 1529** | 6019: "the beginning of the letter is in cipher, undeciphered" | pp. 377–379: "le commencement de cette lettre est en chiffre non déchiffré" | original not in fr. 3077 (Le Grand cites Béthune 8530, a different volume); copy fr. 3005 f. 165 | **opening unread since 1529**; Tomokiyo: "unsolved, in Bayonne's cipher (1529)" |
 | fr. 3078 no. 17 "avec chiffre, XVIIe d'octobre" | 17 Oct 1529 (Wolsey's fall) | 6011 | pp. 369–375 (Béthune 8603 f. 113) | pp. 113–117 (DECODE R3691 "partially") | printed in clear; L&P's abstract includes the cipher passages |
 | fr. 3078 no. 19 "avec chiffre, XXVIIe d'octobre" | 27 Oct 1529 | 6030 | pp. 379–381 (f. 133) | pp. 133–134 (DECODE R3692 "Decrypted") | printed in clear |
 
-So the catalogue's "no decipherment noted" is Omont's inventory language: six of the eight ciphered London letters of
-1529 were read at the time and printed by Le Grand in 1688 (Brewer 1875 abstracts them from Le Grand and the
-Record Office transcripts). Two texts have never been read: the whole cipher block of **16 June 1529** (fr. 3078
-p. 21) and the **opening of 22 October 1529** (fr. 3077 no. 23; copy fr. 3005 f. 165).
+So the catalogue's "no decipherment noted" is Omont's inventory language. **All five letters of the catalogue item
+are in print in clear**: fr. 3078 nos. 5, 17, 19 and fr. 3077 no. 18 (15 June, 17 Oct, 27 Oct, 18 Sept 1529) in
+Le Grand 1688, from the Court's decipherments (Brewer 1875 abstracts them), and fr. 3077 no. 23 (28 Oct 1528) in
+Bourrilly 1905, whose editors recovered its key. The item is therefore closed as *found already solved*. What the
+sweep of the two volumes turned up beyond it: the whole cipher block of **16 June 1529** (fr. 3078 p. 21) has never
+been read, and the opening of **22 October 1529** (not in these volumes; copy fr. 3005 f. 165) is marked undeciphered
+by Le Grand, Brewer and Tomokiyo.
 
 The 1528 letters are a different matter: Bourrilly and de Vaissière, *Ambassades en Angleterre de Jean du Bellay*
 (1905, archive.org `ambassadesenangl00dube`, OCR in `ref/bourrilly1905.txt`) print the whole first embassy
@@ -106,6 +110,10 @@ Not checked: Scheurer 1969 (lending copy); fr. 3077 leaves (Gallica down); Clair
 fr. 3005 f. 165; NAF 4206 (restricted).
 User must verify: the partial reading of p. 21 word by word against the leaf, and whether Scheurer prints p. 21.
 
-Next: (1) fetch fr. 3077 canvases c. 140–150 and read the 22 Oct 1529 opening with this key (the copy Clair. 330 f. 85
-carries a decipherment of the 27 Oct letter, useful for the names); (2) finish p. 21 with the pp. 26–27 windows
-(`img/c027_L*`) to pin the diamond-cross and hooked-cross variants; (3) Scheurer t. I, pp. for 16 June and 22 Oct.
+fr. 3077 canvases 128–150 were fetched at 2000 px in a second pass (`img/p3077_2000`): 131–133 = 12 Oct 1529 in
+clear, 135–138 = 16 Oct 1529 in clear, 143–145 = 28 Oct 1528 (pp. 145–147, the first-cipher letter, 15 lines of
+cipher, Bourrilly no. 156), 149–150 = 1 Nov 1528. No 22 Oct 1529 leaf is in this stretch, consistent with Le Grand's
+Béthune 8530 reference pointing to another volume.
+
+Next: (1) finish p. 21 with the pp. 26–27 windows (`img/c027_L*`) to pin the diamond-cross and hooked-cross variants;
+(2) the 22 Oct 1529 opening from fr. 3005 f. 165 (Gallica ark to find) with this key; (3) Scheurer t. I for both.
