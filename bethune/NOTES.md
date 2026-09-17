@@ -81,6 +81,10 @@ rest and P1-P7, D1 at 1.5x). New from the 4x reading, all confirmed on several w
   open-tailed and a looped g); plain m = g in grace/gratification, d in conduitte, f in fis (three glyphs merged);
   b = c; n = b (obtenu = + n q Z g); word signs S: = dit, R2, = par, q, = pour, l, = moi(s), m, = men(t), y: = ent,
   a, = faict, J = bon, + = o but also "de" in two places (two crosses?).
+* [Third pass: `decode_f33_v3.txt` is the same transcription through `decode2.py`'s bigram LM. It adds
+  "sur le revenu de Naples", "le nunce resident", "les cardinaux … enclins a la [26]", "aux prudens
+  advis desdits card[inaux]", and keeps the v2 readings; the gain over v2 is small, as the oracle
+  bound predicts.]
 * Decoding `ct_f33_v2.txt` with `em_model_v2.json` (`decode_f33_v2.txt`) reads more of the 9 Nov letter but still
   about six words in ten: "...sera la promotion au cardinalat ... Alexandre ... ensemble ce que vous aurez ... jamais
   il m'avoit dit ... propos de rechercher le cardinal ... en telle occasion l'asseurant que ... de vous dire la
@@ -221,6 +225,31 @@ Code groups seen in the letter, besides the known `48` Cardinal, `17` Aldobrandi
 clear on f. 33 - not proved); `28` is a place, from *"ce[luy] m'a escrit de [28]"*; `44` follows "et par
 consequent". The glossed leaves ff. 49v-50r, 53r and 56r-57r (canvases 105-108, 113, 119-121, all in
 `bethune/full/`) carry marginal decipherments in the office hand and are the cheap route to fixing them.
+
+### f. 53r: the best crib left for the open code groups
+
+f. 53r (24 Dec 1601, canvas 113) was fetched at full resolution and examined. Two things make it the
+cheapest route to the open groups, and they are recorded here so the next pass does not have to find
+them again.
+
+* Its left margin carries a **near-verbatim decipherment in the office hand**, not a paraphrase. Read
+  from the image: *"Je confesse, je ne suis pas d'advis que vous pressiez sa Saincteté de me faire
+  sçavoir sa volonté sur ce faict, ny que vous vous mettiez en peine de justifier davantage la mienne,
+  encore que sur le discours d'autruy. Il fault nous, confians en la prudence et cognoissance de sa
+  Saincteté, de la sincerité avec laquelle vous avez procedé, attendre ce qu'il plaira a sa Saincteté
+  vous en ordonner."*
+* The ciphered block **interleaves clear words with the cipher** - the words *justiffier davantage
+  que* stand in clear in the middle of the fourth line - so the gloss can be anchored to the cipher at
+  several points without solving anything first.
+
+And **`66` and `72`, both open, occur in this block** (line 3 ends `… r 66`, line 4 opens `66 ff + S LS
+LS q Z g Z r ff a ,` and later `g a x , 72 Z ff r x Z`; `72` also stands at the end of line 2). Since
+the gloss holds no proper name, `66` and `72` are words or syllables, which matches their
+sentence-medial positions in the 22 Nov letter.
+
+What is *not* done: the eight cipher lines of the block are not transcribed, so the alignment that
+would fix `66` and `72` has not been made. `bethune/cut.py 113 0.30 0.138 0.99 0.345 <prefix> 3 3.0`
+cuts them ready to read.
 
 ### The two routes that would finish these letters
 
