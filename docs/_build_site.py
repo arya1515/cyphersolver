@@ -63,8 +63,9 @@ PAGES = [
          quote='&ldquo;je me suis d&eacute;termin&eacute; &agrave; pr&eacute;f&eacute;rer le parti solide &agrave; l&rsquo;honorable&rdquo; &middot; Louis XIV, 14 September 1691',
          rights='Page images: Bayerische Staatsbibliothek, CC BY-NC-SA'),
     dict(slug='hesse1603', label='Hesse', year='1602&ndash;09', y=1605, place='Paris &rarr; Kassel', st='solved', stt='read',
+         author='Arya Sanketbhai Patel',
          title='Henri IV to Landgrave Maurice &mdash; the figures Rommel printed in 1840 and the key he printed in 1846',
-         blurb='Rommel set the King&rsquo;s ciphered passages to the Landgrave of Hesse-Kassel as rows of figures he could not read, then printed the key six years later with one sample and stopped. Put together, they read all seven passages, about 4,100 groups: Bouillon and the German princes, the Gunpowder Plot and M&eacute;rargues &ldquo;forg&eacute;s sur mesme enclume&rdquo;, two million livres for the Dutch, and on 20 May 1606 the call to the princes to take counsel together against a Spanish King of the Romans, &ldquo;pour la conservation de la libert&eacute; germanique&rdquo;.',
+         blurb='Rommel set the King&rsquo;s ciphered passages to the Landgrave of Hesse-Kassel as rows of figures he could not read, then printed the key six years later with one sample and stopped. Put together, they read all seven passages, about 4,100 groups: Bouillon and the German princes, the Gunpowder Plot and M&eacute;rargues &ldquo;forg&eacute;s sur mesme enclume&rdquo;, two million livres for the Dutch, and on 20 May 1606 the call to the princes to take counsel together against a Spanish King of the Romans, &ldquo;pour la conservation de la libert&eacute; germanique&rdquo;. Contributed by Arya Sanketbhai Patel.',
          quote='&ldquo;tous les roys et princes qui doivent avoir jalousie de l&rsquo;agrandissement &hellip; de la puissance espagnole doibvent d&rsquo;heure aviser et prendre conseil ensemble&rdquo;',
          rights='Page images: Internet Archive'),
     dict(slug='urquhart', label='Urquhart', year='1652', y=1652, place='London', st='solved', stt='octastich read',
@@ -192,7 +193,8 @@ def footer_html(current):
     links.append(f'<a href="{REPO}" rel="noopener">Code &#8599;</a>')
     links.append('<a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a>')
     links.append('<a href="#top">Top &uarr;</a>')
-    return (f'<footer><div class="in">\n  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0{rights}</span>\n'
+    author = cur.get('author', 'Daniel Bourdeau') if cur else 'Daniel Bourdeau'
+    return (f'<footer><div class="in">\n  <span>{author}, September 2026 &middot; Text released under CC BY 4.0{rights}</span>\n'
             f'  <nav aria-label="Footer">{"".join(links)}</nav>\n</div></footer>')
 
 def toc_html(s):
