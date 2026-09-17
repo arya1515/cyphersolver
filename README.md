@@ -1,6 +1,7 @@
 # cyphersolver
 
-An exercise in benchmarking AI on historically "unsolved" ciphers, and in having some fun with them. The targets
+An informal benchmark of a frontier AI (Claude Fable 5.1) on historically "unsolved" ciphers, as much a hobby as a
+measurement. The targets
 are drawn from three standard lists: S. Tomokiyo's
 [Unsolved Historical Ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm), Klaus Schmeh's
 [Top 50 unsolved encrypted messages](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/),
