@@ -49,14 +49,15 @@ def build_trie(lex):
         n.word = w
     return root
 
-def load_model(path='bethune/em_model.json'):
+def load_model(path=None):
+    path = path or ([a for a in sys.argv[1:] if a.endswith('.json')] or ['bethune/em_model.json'])[0]
     m = json.load(open(path, encoding='utf-8'))
     return {tok: {(u if u != '-' else ''): p for u, p in d.items() if p >= MINP} for tok, d in m.items()}
 
-FIXED = {'48': {'cardinal': 1.0}, '17': {'aldobrandin': 1.0}, 'f,': {'le': 1.0}, 'x,': {'que': 1.0}, 'r,': {'par': 1.0},
+FIXED = {'48': {'cardinal': 1.0}, '17': {'aldobrandin': 1.0}, 'f,': {'le': 1.0}, 'x,': {'que': 1.0}, 'R2,': {'par': 1.0}, 'r,': {'par': 1.0}, 's:': {'dit': 1.0}, '68': {'tout': 1.0}, '71': {'tion': 1.0},
          'g,': {'la': 1.0}, '61': {'qui': 1.0}, '63': {'re': 1.0}, 'x:': {'et': 1.0}, 'x^': {'et': 1.0}, 'd,': {'ie': 1.0},
          'DL,': {'ie': 1.0}, '65': {'si': 1.0}, 's,': {'pro': 1.0}, 't:': {'de': 1.0}, 't.': {'de': 1.0}, 'p:': {'ce': 1.0},
-         'q,': {'pour': 1.0}, 's:': {'dit': 1.0}, 'J,': {'mais': 1.0}}
+         'q,': {'pour': 1.0}, 'S:': {'dit': 1.0}, 'J,': {'mais': 1.0}}
 LETTERS = 'abcdefghilmnopqrstuxyz'
 
 def emissions(tok, model):
@@ -115,7 +116,7 @@ def decode(tokens, model, trie, lex, total, topk=1):
     return best[n][0], words[::-1]
 
 def main():
-    ctf = sys.argv[1]
+    ctf = [a for a in sys.argv[1:] if a.endswith('.txt')][0]
     model = load_model()
     lex = build_lexicon(glob.glob('bethune/xivrey/*.txt')); total = sum(lex.values())
     trie = build_trie(lex)
@@ -123,7 +124,8 @@ def main():
     for l in lines:
         parts = [x.strip() for x in l.split('|')]
         lab, ct = parts[0], (parts[2] if len(parts) >= 4 else parts[1])
-        toks = ct.replace('s: 4 8', 's: 48').replace('f s 4 8', 'f s 48').split()
+        toks = ct.replace('s: 4 8','S: 48').replace('f s 4 8','f s 48').replace(' s: ',' S: ').replace(' r, ',' R2, ').split()
+        toks = [(toks[i-1] if (t=='PH' and i>0) else t) for i,t in enumerate(toks)]
         sc, words = decode(toks, model, trie, lex, total)
         print(f'{lab:5s} {sc if sc is not None else 0:8.1f} | ' + ' '.join(words))
 if __name__ == '__main__':

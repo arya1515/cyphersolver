@@ -63,6 +63,36 @@ sera la promo[tion] [71] au cardinalat de … Alexandre communiqu…", "…les c
 ce que vous aurez…", "…Alexandre quelque instance que je ne face…", "…de partir de ce premier de [62] … des raisons
 des dits car[dinaux]". Not a reading yet; a substance.
 
+## Second pass, 17 Sept 2026 (evening): 4x re-transcription
+
+`ct_f33_v2.txt` is the 9 Nov leaf re-read symbol by symbol from the 4x sixth-line crops (`q33_*.jpg`), and
+`corpus_v2.txt` the f. 34 known-plaintext blocks re-read the same way (B3 from l. 26, B4, C, V1 l. 1 at 4x; the
+rest and P1-P7, D1 at 1.5x). New from the 4x reading, all confirmed on several words of the minute:
+
+* **φ is the doubling sign** of Bazeries' 1599 description ("Δ doublera son prochain précédent"): so-m-φ-e =
+  somme, la-n-φ-e-φ = lannée, h-φ = ll in Sillery, o-c-φ = occ in occasions, u-φ = uv in retrouve (u/v one letter),
+  mie-n-φ-e = mienne. `em_align.py` and both decoders now expand φ to the previous symbol.
+* **Two-digit groups 61-73 are syllables and short words**, not names: 61 qui, 63 re, 65 si, 68 tout (toutes = 68
+  Z g), 71 tion (affectionne, promotion), 73 vostre?, 70 car/tant?. Names are 48 Cardinal, 17 Aldobrandin, 7 le Roy
+  d'Espagne, and the open 44, 45, 62, 66, 67, 69, 72, 26, 27, 28.
+* Letters fixed on words of the minute: p (the ꝑ-like letter) = u/v (volonte = p t h f LS q Z; quatre = d p 4 q 63;
+  luy = S p a); S = l (valoir = c 4 S + Cm r); Cm (hooked m) = i (merite = x Z R2 Cm q Z, mienne, valoir); R2 = r in
+  merite/payer but s in fis/des; g = n in prochaine/mienne/occasions but s in les/escus/lors (two glyphs merged, an
+  open-tailed and a looped g); plain m = g in grace/gratification, d in conduitte, f in fis (three glyphs merged);
+  b = c; n = b (obtenu = + n q Z g); word signs S: = dit, R2, = par, q, = pour, l, = moi(s), m, = men(t), y: = ent,
+  a, = faict, J = bon, + = o but also "de" in two places (two crosses?).
+* Decoding `ct_f33_v2.txt` with `em_model_v2.json` (`decode_f33_v2.txt`) reads more of the 9 Nov letter but still
+  about six words in ten: "...sera la promotion au cardinalat ... Alexandre ... ensemble ce que vous aurez ... jamais
+  il m'avoit dit ... propos de rechercher le cardinal ... en telle occasion l'asseurant que ... de vous dire la
+  res[olution] ... de telles pratiques ... je me remects de re[pr]endre ... des advis desdits car[dinaux]". The
+  letter is about the Spanish pressure over the cardinalate of Don Alexandre and the cardinals' advice, not
+  military news.
+
+The remaining ambiguity is in three glyph families my eye does not separate reliably (g/ɠ, m/ɱ/ꞵ, r/ꝛ) and in the
+two-digit names. Full-resolution copies of the glossed leaves ff. 53r, 56r-57r (c113, c119-121) are now on disk
+(`full/`) and cut at 4x (`q53_*`, `q56_*`); their glosses are read (`f53r_margin.jpg`, `f56r_margin*.jpg`), their
+cipher not yet transcribed. That is the next increment.
+
 ## Method, and where it stopped
 
 1. Volume fetched (canvases 55–130 at 2000 px; 3996 px originals for the pages worked). Leaves mapped; the minute of

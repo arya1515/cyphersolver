@@ -1,0 +1,49 @@
+# 9 Nov 1601 (f. 33), 4x transcription ct_f33_v2.txt decoded with em_model_v2.json; [n] = code group not in the key
+
+## worddecode.py
+L04      -85.8 | mais in la [5,] ter tion le [45] de me de sa
+L05     -130.1 | et le [44] delai car iean de le ce places qui tost accepte le premier doute
+L06     -177.5 | au escus et la ce tre sion il de modene assis le retenu de naples quil les faict ch
+L07     -137.6 | aye a les de le sire de tous en de le stre tinez de iette cappitaines
+L08     -165.9 | a scais pour leuer de reine en [27] pourres ie YE de ce uille sommes de sa [67] au odet
+L09     -151.1 | aues aime auois pesche et que les un ce resident pret de luy edit efforce
+L10     -164.7 | a apporter par eu cha ayes piete en estre que edit le et et dit mars il mes
+L11     -149.6 | au le que a et les aues este interest que [69] de partant uous en confere reur aldobrandin le
+L12     -150.3 | priere tenans nom dem uous dire la res quelles il a de telles praticques et
+L13     -137.4 | en faict des dit T [44] et ce quil desire des est elle occasion laissant que
+L14     -156.3 | ie sel YE rome faueur iamais il a auoit dit propos de rechercher le cardinal
+L15     -151.2 | de et et luy res hen mon ser de me pour que ressen retenues en frere et les par
+L16     -170.7 | [44] sa ma de ce o tion a ayant dit ie que les cardinal a les et ceste un sa la [26] que le [28]
+L17     -159.6 | et qui la toute puissance se rendit frere toute adious auditeur que rendit frere se
+L18     -145.8 | et ainsi est iii edit mier tue que telle recus suis este intitule
+L19     -153.6 | meme sera la promotion au cardinalat et alexandre comme sur que tin de mes aye
+L20     -169.7 | sins les car du sei de tres et et sect et liyer et ensemble ce que uous aure T
+L21     -180.1 | a res YE de la tenant si le dit [44] de la lussan de cest et party que en deca et
+L22     -126.8 | et estes le celle au dit alexandre quelque instance que ie si a ce
+L23     -138.6 | toute ie troye et tres sa il meilleur que ie ses reine que de mon
+L24     -249.9 | departir de ce premier de [62] ie agrement T de re ENDREQUEIYPO aux prudences de edit T car du
+L25      -30.1 | N del les
+
+## decode.py (character 5-gram)
+               | tassis la [5,] sition le [45] de me des c
+               | et le [44] de lad car il ne de le tem places quil est accepte le premier de te
+               | auec un et la ce tres io al de pen tion sans leres ins les quil l et ch
+               | y elles de lordre de tour es de l entretenes de de t cappitaines
+               | ancais pour leur defenses [27] pourres ii y ei de il le comme s des c [67] les de p
+               | ausai me auois pesche et que les un ce resident pres detre dite des ce
+               | a apporter par un br ayent cognoistre quel dit l et et dit mars il a es
+               | em b le que s et les aues en tenter est que [69] es partant uous es conferer eu aldobrandin le
+               | suis r et en mon nom de t uous dire la res quelle si la de telles praticque r et
+               | es faict dest aut [44] s et ce quil desire des en telle occasion lassurant que
+               | ien et ye de le faudray iamais il mauoit dit propos de rechercher le cardinal
+               | deste terre du b en a sser de se pour queres ses retenir ses irere et les par
+               | [44] ssadeur de cation mayant dite que les cardinal a les et des cens c la [26] que ll [28]
+               | et qui la toute puissance seront au frere tout ime iours et aussy que sent au frere se
+               | it ainsi estoit au mier te que siller essai reste ie tille
+               | me sera la promotion au cardinalat es alexandre comment a que ton de mercy e
+               | sins les car dinee de tres et i trente t toyer it ensemble ce que uous a ur et
+               | rre ny es de la fin ant si ledit [44] de la tres de cest et party quels ie sm et
+               | et en tes l et telle ledit alexandre quelques tance que ien a ce
+               | toute diury et seres ici la et les que ie ne ueres que des
+               | departir de ce premier de [62] ie me remects de re en dre que iy po auer des aduis desdits car i
+               | n delles

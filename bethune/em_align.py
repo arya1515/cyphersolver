@@ -8,13 +8,18 @@ SHOW = '--show' in sys.argv
 KMAX_LET, KMAX_SIGN = 1, 12
 LOG0 = -1e9
 
-def load(path='bethune/corpus.txt'):
+def load(path=None):
+    path = path or ([a for a in sys.argv[1:] if a.endswith('.txt')] or ['bethune/corpus.txt'])[0]
     out = []
     for l in open(path, encoding='utf-8'):
         if not l.strip() or l.startswith('#'): continue
         pid, src, ct, pt = [x.strip() for x in l.split('|')]
         pt = re.sub(r'[^a-z]', '', pt.lower().replace('j', 'i').replace('v', 'u'))
-        toks=ct.replace('s: 4 8','s: 48').replace('48 1 7','48 17').replace('f s 4 8','f s 48').split()
+        toks=ct.replace('s: 4 8','S: 48').replace('48 1 7','48 17').replace('f s 4 8','f s 48').replace(' s: ',' S: ').replace(' r, ',' R2, ').split()
+        out2=[]
+        for t in toks:                       # PH doubles the previous letter symbol: emit the previous token again
+            out2.append(toks[len(out2)-1] if False else t)
+        toks=[ (out2[i-1] if (t=='PH' and i>0) else t) for i,t in enumerate(out2)]
         out.append((pid, toks, pt))
     return out
 
@@ -41,8 +46,8 @@ def prior_logp(tok, u):
 SEED = {'Z':'e','ff':'e','q':'t','v':'i','x':'m','h':'l','B':'l','o':'p','T':'p','b':'c','f':'o','+':'o','t':'o','4':'a','6':'a',
         'u':'a','y':'u','c':'u','r':'r','d':'r','a':'i','l':'h','e':'c','7':'t','1':'i','0':'e','63':'re','61':'qui','f,':'le',
         'g,':'la','x,':'que','r,':'par','s,':'pro','x:':'et','x^':'et','48':'cardinal','17':'aldobrandin','65':'si','d,':'ie','DL,':'ie',
-        't:':'de','t.':'de','p:':'ce','p.':'ce','J':'bon','J,':'mais'}
-NULLABLE = {'PH','HB','$','Y','LS'}
+        't:':'de','t.':'de','p:':'ce','p.':'ce','J':'bon','J,':'mais','S:':'dit','R2,':'par','q,':'pour','Cm':'i','R2':'r','p':'u','68':'tout','71':'tion','73':'vostre','n':'b','l,':'moi','m,':'men','y:':'ent','HB':''}
+NULLABLE = {'HB','$','Y','LS','r'}
 SEEDW = 6.0
 class Model:
     def __init__(self, data):
@@ -137,7 +142,8 @@ def main():
         print(f'{t:5s} n={tot:5.1f}  ' + '  '.join(f'{(u or "-")}:{c/tot:.2f}' for u, c in best))
     import json
     dump={t:{(u or '-'):c/model.tot[t] for u,c in model.counts[t].items() if c/model.tot[t]>0.01} for t in model.tot}
-    json.dump(dump,open('bethune/em_model.json','w',encoding='utf-8'),ensure_ascii=False,indent=0)
+    out=[a for a in sys.argv[1:] if a.endswith('.txt')]; name='bethune/em_model_v2.json' if out and 'v2' in out[0] else 'bethune/em_model.json'
+    json.dump(dump,open(name,'w',encoding='utf-8'),ensure_ascii=False,indent=0)
     if SHOW:
         print('\n== alignments ==')
         for pid, ct, pt in data:

@@ -34,7 +34,8 @@ class LM:
             lam = d * len([1 for x in 'abcdefghilmnopqrstuxyz' if self.c[k][h+x] > 0]) / ctx
             p = max(n - d, 0) / ctx + lam * p
         return math.log(max(p,1e-12))
-def load_model(path='bethune/em_model.json'):
+def load_model(path=None):
+    path = path or ([a for a in sys.argv[1:] if a.endswith('.json')] or ['bethune/em_model.json'])[0]
     m = json.load(open(path, encoding='utf-8'))
     out = {}
     for tok, d in m.items():
@@ -88,9 +89,9 @@ def segment(s, vocab, total):
         j = best[i][1]; out.append(s[j:i]); i = j
     return ' '.join(out[::-1])
 def main():
-    ctf = sys.argv[1]
+    ctf = [a for a in sys.argv[1:] if a.endswith('.txt')][0]
     model = load_model()
-    fixed = {'48': {'cardinal': 1.0}, '17': {'aldobrandin': 1.0}, 'f,': {'le': 1.0}, 'x,': {'que': 1.0}, 'r,': {'par': 1.0},
+    fixed = {'48': {'cardinal': 1.0}, '17': {'aldobrandin': 1.0}, 'f,': {'le': 1.0}, 'x,': {'que': 1.0}, 'R2,': {'par': 1.0}, 'r,': {'par': 1.0}, 's:': {'dit': 1.0}, '68': {'tout': 1.0}, '71': {'tion': 1.0},
              'g,': {'la': 1.0}, '61': {'qui': 1.0}, '63': {'re': 1.0}, 'x:': {'et': 1.0}, 'x^': {'et': 1.0}, 'd,': {'ie': 1.0}, 'DL,': {'ie': 1.0}, '65': {'si': 1.0}}
     lm = LM(train_lm(glob.glob('bethune/xivrey/*.txt')))
     vocab = load_vocab(glob.glob('bethune/xivrey/*.txt')); total = sum(vocab.values())
@@ -98,7 +99,8 @@ def main():
     for l in lines:
         parts=[x.strip() for x in l.split('|')]
         lab, ct = parts[0], (parts[2] if len(parts)>=4 else parts[1])
-        toks = ct.replace('s: 4 8', 's: 48').split()
+        toks = ct.replace('s: 4 8','S: 48').replace(' s: ',' S: ').replace(' r, ',' R2, ').split()
+        toks = [(toks[i-1] if (t=='PH' and i>0) else t) for i,t in enumerate(toks)]
         sc, out = decode(toks, model, lm, fixed)
         print(f'{lab} {sc:8.1f} | ' + ' '.join(out))
         flat = ''.join(u if not u.startswith('[') else ' '+u+' ' for u in out).replace('_','')

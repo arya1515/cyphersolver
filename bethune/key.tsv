@@ -24,7 +24,8 @@ d (delta-shaped)	r	letter	medium	gratification
 h	l	letter	high	EM 0.95
 B	l	letter	high	luy = B c a (A)
 S	l	letter	medium	mil = x m S
-PH (phi)	l	letter	medium	sillery = x t. h PH Z r a; also null-like in glosses
+PH (phi)	doubles the preceding letter	sign	high	4x re-reading of f.34: so-m-PH-e = somme, l-a-n-PH-e-PH = lannee, h-PH = ll in sillery, o-c-PH = occ in occasions, u-PH = uv in retrouve (u/v merged), mie-n-PH-e = mienne; Bazeries' 1599 key has the same "Δ doubles" convention
+p (ꝑ-like letter)	u / v	letter	high	4x: volonte = p t h f LS q Z, quatre = d p 4 q 63, luy = S p a; earlier EM split t/u was a class merge
 x	m	letter	high	EM 0.68
 m (plain)	f	letter	high	fis = m Cm; gratification (7x view)
 y	u	letter	high	EM 0.43; luy
@@ -66,3 +67,8 @@ l,	?	word	low	precedes tesmoigner; an l- or m- word
 17	Aldobrandin	name	high	le dit cardinal aldobrandin (s: 48 17)
 7	le Roy d'Espagne	name	medium	du roy despaigne (P7); f.56r gloss
 44, 45, 62, 66, 67, 68, 69, 70, 71, 72, 73, 26, 27, 28, 3, 5, 8	names / words	code	open	frequent in the 9 and 22 Nov letters; glosses of ff. 53, 56 would fix them
+68	tout	syllable/word	high	toutes = 68 Z g (f.34 l.30)
+71	tion	syllable	high	affectionne = ... b 71 g Z; promotion = ... 71 (f.33 l.19)
+73	vostre	word	medium	par vostre bonne = R2, 73 J g Z (f.34v l.1)
+S (l-shaped)	l	letter	high	valoir = c 4 S + Cm r, mil = x m S
+m (plain, 3 minims)	g / d	letter	medium	grace = m d 4 p:, gratification x 6 m d u p; conduitte b t g m Cm p Cm q Z; the 1.5x class also took f
