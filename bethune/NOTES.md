@@ -1,6 +1,6 @@
 # Henri IV to Philippe de Béthune (Rome), 9, 10 and 22 November 1601 — BnF fr. 3484 nos. 7, 8, 12 (catalogue item 22)
 
-**Status, 17 Sept 2026 (third pass): partly read; f. 46r now transcribed in full.** The 10 November letter (f. 34) is read in full, because its minute survives in
+**Status, 17 Sept 2026 (third pass): partly read; the 22 Nov letter (ff. 46r-47v) now transcribed in full.** The 10 November letter (f. 34) is read in full, because its minute survives in
 clear four leaves on (f. 36, the notice's "copie du n° précédent"); that pair, six glossed passages of the 8 November
 letter and a glossed passage of 10 December give the cipher's design and most of its letter values; the 9 November
 letter (f. 33, one page entirely in cipher) decodes to about half of its words with that key and a French language
@@ -187,24 +187,40 @@ gives for this folio — so a better scan would not help either.
 An automatic reader is reachable, but it needs a few hundred hand-drawn glyph boxes on one page to seed
 the templates. That is the one piece of manual work that would pay for itself.
 
-### f. 46r read (22 Nov 1601)
+### The 22 November letter read (ff. 46r-47v)
 
-All 31 lines of f. 46r are transcribed in `reading_22nov.md` — the first time any part of this letter
-has been read. It alternates clear French with short cipher runs inside the same lines, so the clear
-text carries the sense. The letter answers Béthune's despatch of 29 October, received on the 18th; the
-core is a rebuke, in clear, of two persons named by code groups: *"Il me semble que [20] [S 12], qui
-sont douez de toute prudence, ont faict faulte de n'avoir rompu ce coup, car ilz l'eussent faict
-facilement s'ilz y eussent pensé et operé d'heure, ainsi qu'ilz devoient."* The leaf ends on the
-revenues of a named archbishopric. `ct_f46r.txt` holds the 31 cipher runs; decoded with `decode2.py`
-they give fragments only ("de le resultat et sur", "leurs serviteurs", "le cardinal de …", "saincteté
-au"), at the ceiling above. `73` = *vostre* is confirmed by the opening of L02.
+All four pages of the 22 Nov 1601 letter are transcribed in `reading_22nov.md` - the first reading of
+any part of it. It alternates clear French with short cipher runs inside the same lines, so the clear
+text carries the sense, and it is countersigned by Villeroy ("DE NEUFVILLE"). It answers Béthune's
+despatch of 29 October, received on the 18th.
 
-New code groups on the leaf: `2`, `6`, `8`, `12`, `20`, `28`, `44`, `66`, `67`, `69`, `72`, `80`,
-besides `48` = Cardinal. `S 12` occurs twice and looks like a fixed designation; with `20` it is one of
-the two persons "douez de toute prudence", which in Rome in November 1601 points at the two French
-cardinals, d'Ossat and Joyeuse, named in clear on f. 33.
+What the clear text gives: a rebuke, in clear, of two persons named only by code groups - *"Il me
+semble que [20] [S 12], qui sont douez de toute prudence, ont faict faulte de n'avoir rompu ce coup,
+car ilz l'eussent faict facilement s'ilz y eussent pensé et operé d'heure, ainsi qu'ilz devoient"*;
+the pension of the s.r Camaiano, to be paid, all to *"relever le party françois a Rome"*, with orders
+not to give hopes or promises to others without express command, *"afin de n'abuser personne ne moy le
+premier"*, and always *"après toutesfois en avoir conferé avec le Card.al d'Ossat"*; the Pope's *"bon
+accueil … aux deux audiences"*; *"j'en diray autant au s.r Barbarino quand il sera arrivé"* (Maffeo
+Barberini, the future Urban VIII, then on his way to France); the Jesuits deferred to an earlier
+letter; an agent *"qui reside en Suisse, accompagné d'un certain Julio de la Torre y Travers[i]"* and
+the reprimand Cardinal Aldobrandin gave him; and, in clear at the end of f. 47r, *"J'attends en bonne
+devotion le retour du courrier que je vous ay envoié pour convier sa S.té au baptesme de mon filz,
+lequel se faict tres bien nourrir et se fortifie a veue d'oeil"* - the dauphin, born 27 September 1601.
+Dated *"Escrit a St Germain en Laye le xxij.e jour de 9bre 1601"*, signed HENRY, with a postscript,
+signed again, that countermands part of the letter.
 
-ff. 46v, 47r and 47v are not transcribed; the canvases are on disk and the pipeline is in place.
+`ct_22nov.txt` holds all 80 ciphered runs. Decoded with `decode2.py` they give fragments only - "de le
+resultat et sur", "leurs serviteurs", "le cardinal aldobrandin", "attenter a este toute", "suisses",
+"octobre", "sainctete au" - which is exactly the ceiling measured above. `73` = *vostre* and `48 17` =
+*Cardinal Aldobrandin* are confirmed by their clear frames.
+
+Code groups seen in the letter, besides the known `48` Cardinal, `17` Aldobrandin, `61` qui, `63` re,
+`65` si, `68` tout, `71` tion, `73` vostre: `2`, `5`, `6`, `8`, `9`, `12`, `20`, `28`, `31`, `44`, `66`,
+`67`, `69`, `72`, `80`. Three have clear frames that constrain them: `S 12` and `20` are the two persons
+"douez de toute prudence" (in Rome in Nov 1601, most likely the cardinals d'Ossat and Joyeuse, named in
+clear on f. 33 - not proved); `28` is a place, from *"ce[luy] m'a escrit de [28]"*; `44` follows "et par
+consequent". The glossed leaves ff. 49v-50r, 53r and 56r-57r (canvases 105-108, 113, 119-121, all in
+`bethune/full/`) carry marginal decipherments in the office hand and are the cheap route to fixing them.
 
 ### The two routes that would finish these letters
 

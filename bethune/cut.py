@@ -26,7 +26,7 @@ period = int(lo + np.argmax(ac[lo:hi])) if hi > lo else 100
 # peak picking: local maxima at least 0.55*period apart, tallest first
 order = np.argsort(-sm)
 peaks = []
-minsep = int(0.55*period)
+minsep = int(0.78*period)
 for idx in order:
     if sm[idx] < sm.max()*0.25: break
     if all(abs(idx-p) >= minsep for p in peaks): peaks.append(int(idx))
