@@ -13,7 +13,7 @@ list and rebuild). The priority queue is still built by _build_queue.py.
 """
 import re, pathlib, html
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260916d'
+VERSION = '20260917a'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -145,6 +145,7 @@ def nav_html(current):
         f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="index.html#queue">Queue</a>\n'
         f'    <a href="index.html#closed">Closed</a>\n'
+        f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>Catalogue</a>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
         f'  </nav>\n</div></header>')

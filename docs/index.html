@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
 <meta name="description" content="An informal benchmark of a frontier AI (Claude Fable 5.1) on historical ciphers nobody has read, drawn from Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes and Schmeh's Top 50: archival research plus purpose-built solvers run against controls, with new decipherments, corrections where a solution already existed in print, and a record of exactly where and why each attempt stops.">
-<link rel="stylesheet" href="style.css?v=20260916d">
+<link rel="stylesheet" href="style.css?v=20260917a">
 </head>
 <body id="top">
 <header class="nav"><div class="in">
@@ -17,6 +17,7 @@
     <a href="index.html#recent">Latest</a>
     <a href="index.html#queue">Queue</a>
     <a href="index.html#closed">Closed</a>
+    <a href="catalogue.html">Catalogue</a>
     <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
     <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
   </nav>
@@ -28,11 +29,104 @@
   <h1><span class="strike">Unsolved</span> Historical Ciphers</h1>
   <p class="sub">I pick an old cipher nobody has read, dig up whatever the archives still hold, and see how far a frontier AI (Claude Fable 5.1) and a laptop can get with it. It is an informal benchmark as much as a hobby: sometimes a four-hundred-year-old letter opens up. More often it does not, and then the interesting part is finding out exactly why, and what would have to turn up for it to give way. This is the running log.</p>
   <p class="sub small">Targets from <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's catalogue</a>, <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous unsolved codes</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
-  <div class="jump"><a href="#recent">Latest findings</a><a href="#writeups">Write-ups</a><a href="#queue">Priority queue</a><a href="#closed">Solved &amp; explained</a><a href="voynich.html">Voynich</a></div>
-  <p class="meta">Daniel Bourdeau · <a href="mailto:dnbourdeau@gmail.com">dnbourdeau@gmail.com</a> · updated 16 September 2026</p>
+  <div class="jump"><a href="#scoreboard">The ledger</a><a href="#recent">Latest findings</a><a href="#writeups">Write-ups</a><a href="#queue">Priority queue</a><a href="#closed">Solved &amp; explained</a><a href="voynich.html">Voynich</a></div>
+  <p class="meta">Daniel Bourdeau · <a href="mailto:dnbourdeau@gmail.com">dnbourdeau@gmail.com</a> · updated 17 September 2026</p>
 </section>
 
 <main>
+
+<!-- stats:start -->
+<section class="scoreboard" id="scoreboard" aria-labelledby="sb-h">
+<h2 id="sb-h"><span class="num">&sum;</span> The ledger so far</h2>
+<p class="sb-lede">60 targets taken from the three lists. 55 were attacked online; 5 stop at an archive door before any cryptanalysis is possible. Every outcome is one of seven kinds, and the honest denominator for a &ldquo;success rate&rdquo; is the 55 attacked, not the 60.</p>
+<div class="sb-bar" role="img" aria-label="Outcomes of 60 targets"><span class="seg read" style="flex:12;background:var(--green)" title="12 read"></span><span class="seg nothing" style="flex:5;background:var(--blue)" title="5 no message"></span><span class="seg found" style="flex:7;background:var(--amber)" title="7 already solved elsewhere"></span><span class="seg partly" style="flex:1;background:var(--violet)" title="1 partly read"></span><span class="seg active" style="flex:1;background:var(--gold)" title="1 in progress"></span><span class="seg closed" style="flex:29;background:var(--red)" title="29 closed, with the reason"></span><span class="seg offline" style="flex:5;background:var(--muted)" title="5 waiting on an archive"></span></div>
+<div class="sb-legend"><span class="lg"><i style="background:var(--green)"></i>12 read</span><span class="lg"><i style="background:var(--blue)"></i>5 no message</span><span class="lg"><i style="background:var(--amber)"></i>7 already solved elsewhere</span><span class="lg"><i style="background:var(--violet)"></i>1 partly read</span><span class="lg"><i style="background:var(--gold)"></i>1 in progress</span><span class="lg"><i style="background:var(--red)"></i>29 closed, with the reason</span><span class="lg"><i style="background:var(--muted)"></i>5 waiting on an archive</span></div>
+<div class="sb-grid">
+<div class="sb-big"><b>12 <small>of 55</small></b><span>attacked targets read in full or in substance, 22&nbsp;%. One completes an alphabet another solver published (Boswell 1643); one applies a table already in print to letters never before decoded (Catinat 1691).</span></div>
+<div class="sb-big"><b>24</b><span>questions settled one way or another: read, shown to carry no message, or found already solved in print, in a comment thread, or on GitHub.</span></div>
+<div class="sb-big"><b>29</b><span>attacks that stop with a stated reason and a control that passed where the target failed. A negative here says something; it is not a shrug.</span></div>
+<div class="sb-big"><b>3,876</b><span>years of silence ended, summed over the 12 texts read: each had waited from its date until 2026. The oldest is Henry of Navarre → Ségur (1585–86).</span></div>
+</div>
+<p class="sb-note">Every target by date, 1404&ndash;2015. Hover a dot for the name and outcome.</p>
+<svg class="tl" viewBox="0 0 1000 128" role="img" aria-label="Every target placed by date and coloured by outcome" preserveAspectRatio="xMidYMid meet">
+<line x1="30" y1="102" x2="970" y2="102" class="axis"/>
+<line x1="66.2" y1="98" x2="66.2" y2="106" class="axis"/>
+<text x="66.2" y="120" class="tick" text-anchor="middle">1500</text>
+<line x1="246.9" y1="98" x2="246.9" y2="106" class="axis"/>
+<text x="246.9" y="120" class="tick" text-anchor="middle">1600</text>
+<line x1="427.7" y1="98" x2="427.7" y2="106" class="axis"/>
+<text x="427.7" y="120" class="tick" text-anchor="middle">1700</text>
+<line x1="608.5" y1="98" x2="608.5" y2="106" class="axis"/>
+<text x="608.5" y="120" class="tick" text-anchor="middle">1800</text>
+<line x1="789.2" y1="98" x2="789.2" y2="106" class="axis"/>
+<text x="789.2" y="120" class="tick" text-anchor="middle">1900</text>
+<line x1="970.0" y1="98" x2="970.0" y2="106" class="axis"/>
+<text x="970.0" y="120" class="tick" text-anchor="middle">2000</text>
+<g class="pt partly"><title>Voynich manuscript (Beinecke MS 408) (c.1404–38): partly read</title><circle cx="-107.4" cy="94" r="4.5" fill="var(--violet)"/></g>
+<g class="pt closed"><title>1520s superscript-digit ciphers (1526–29): closed, with the reason</title><circle cx="113.2" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Vatican Challenge Part 5 (Farnese → Poggio) (1542): closed, with the reason</title><circle cx="142.1" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Regent Moray → John Wood, Add MS 32091 f. 213 (134 groups, 32 symbols) (1568): closed, with the reason</title><circle cx="189.1" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Lodovico Birago → Duke of Nevers, Saluzzo 13 Nov 1571 (BnF fr. 3251 f. 119) (1571): closed, with the reason</title><circle cx="194.5" cy="82" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Mondoucet → Charles IX, Brussels 13 July 1572, and the c. 20-letter cipher corpus of BnF fr. 16127 (Gallica sweep find, on no list) (1571–74): closed, with the reason</title><circle cx="194.5" cy="70" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Henry III → Ségur (1583–86): closed, with the reason</title><circle cx="216.2" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt read"><title>Henry of Navarre → Ségur, BnF 500 de Colbert 401 ff. 233, 239, 288v (listed as Henry III) (1585–86): read</title><circle cx="219.8" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt closed"><title>SP 53/16 nos. 78-79 and SP 53/22 f. 52 (Mary Queen of Scots papers residue) (1585): closed, with the reason</title><circle cx="219.8" cy="70" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Doge Cicogna and Senate → Giovanni Mocenigo in France, subscribed Marco Ottobon, 27 Apr 1589 (BNE Mss/994 ff. 35-38; 1,528 tokens, 196 symbols) (1589): closed, with the reason</title><circle cx="227.0" cy="58" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Blancmesnil → Nevers (fr. 3633 f. 24) (1589?): closed, with the reason</title><circle cx="227.0" cy="46" r="4.5" fill="var(--red)"/></g>
+<g class="pt offline"><title>Marco Ottobon → Giovanni Mocenigo, BNE Mss/994 ff. 34–38 (1589): waiting on an archive</title><circle cx="227.0" cy="34" r="4.5" fill="var(--muted)"/></g>
+<g class="pt closed"><title>Cardinal de Joyeuse → Villars, Rome, 15 Feb 1594 (500 Colbert 33 f. 539) (1594): closed, with the reason</title><circle cx="236.1" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Cocquet → Mangot, Rome, Nov 1616 (Clairambault 369 f. 317) (1616): closed, with the reason</title><circle cx="275.8" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt read"><title>Warsaw, 24 Dec 1627, to the Bishop of Olmütz? (DECODE R1408, ÖStA HHStA) (1627): read</title><circle cx="295.7" cy="94" r="4.5" fill="var(--green)"/></g>
+<g class="pt read"><title>Richelieu → M. de Rancé, BnF Français 3829 ff. 87 &amp; 89 (1629): read</title><circle cx="299.3" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt read"><title>Maltravers → Ormonde (1634–35): read</title><circle cx="308.4" cy="94" r="4.5" fill="var(--green)"/></g>
+<g class="pt found"><title>Ferdinand III ↔ Cardinal-Infante (1634–40): already solved elsewhere</title><circle cx="308.4" cy="70" r="4.5" fill="var(--amber)"/></g>
+<g class="pt read"><title>Charles I and Nicholas → Boswell, TNA SP 84/157 ff. 217, 219 (1643): read</title><circle cx="324.7" cy="94" r="4.5" fill="var(--green)"/></g>
+<g class="pt read"><title>Fra Giovanni di Lucca → Ferdinand III, 30 May 1644 (DECODE R2159, ÖStA HHStA) (1644): read</title><circle cx="326.5" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt found"><title>Sir Richard Forster, 13 May 1644 (Val-d&#x27;Oise 68.H.8) (1644): already solved elsewhere</title><circle cx="326.5" cy="70" r="4.5" fill="var(--amber)"/></g>
+<g class="pt offline"><title>Maurice → Rupert; royalist intercepts, BL Add MS 72438 (1645–46): waiting on an archive</title><circle cx="328.3" cy="58" r="4.5" fill="var(--muted)"/></g>
+<g class="pt closed"><title>Charles I, Isle of Wight letters (1648): closed, with the reason</title><circle cx="333.7" cy="46" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Thomas Urquhart&#x27;s encrypted poems (17th c.): closed, with the reason</title><circle cx="337.3" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt offline"><title>Charles II → Duke of Hamilton (1650): waiting on an archive</title><circle cx="337.3" cy="34" r="4.5" fill="var(--muted)"/></g>
+<g class="pt read"><title>Urquhart&#x27;s Cyphral Octastich, The Jewel (1652), last leaf (1652): read</title><circle cx="340.9" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt closed"><title>Bordeaux → Brienne, London, 30 May 1653 (Thurloe intercept, BL Add MS 4200 f. 88; 810 tokens, 156 symbols) (1653): closed, with the reason</title><circle cx="342.7" cy="70" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Thurloe State Papers intercepts (1653–56): closed, with the reason</title><circle cx="342.7" cy="58" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Le Tellier → Castelnau (1657): closed, with the reason</title><circle cx="350.0" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt nothing"><title>Hyde&#x27;s ciphered superscriptions (1659–60): no message</title><circle cx="353.6" cy="82" r="4.5" fill="var(--blue)"/></g>
+<g class="pt closed"><title>Colbert passages (Mélanges Colbert) (1665–75): closed, with the reason</title><circle cx="364.4" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt found"><title>Perwich → Arlington, Paris (1670): already solved elsewhere</title><circle cx="373.5" cy="82" r="4.5" fill="var(--amber)"/></g>
+<g class="pt closed"><title>Louis XIV → duc de Chaulnes, Rome (300-group one-part code) (1690): closed, with the reason</title><circle cx="409.6" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt read"><title>Louvois and Louis XIV → Catinat, seven despatches, 8 July – 14 Sept 1691 (Mémoires de Catinat 1819, t. II pp. 295–342) (1691): read</title><circle cx="411.4" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt read"><title>Feuquières → Catinat, Pignerol (418-group two-part &quot;petit chiffre&quot;) (1691): read</title><circle cx="411.4" cy="70" r="4.5" fill="var(--green)"/></g>
+<g class="pt offline"><title>Stepney → Manchester, Vienna (1702): waiting on an archive</title><circle cx="431.3" cy="94" r="4.5" fill="var(--muted)"/></g>
+<g class="pt offline"><title>Torcy → Geertruidenberg plenipotentiaries; Villars → Polignac (BL Add MS 61575) (1710): waiting on an archive</title><circle cx="445.8" cy="94" r="4.5" fill="var(--muted)"/></g>
+<g class="pt closed"><title>D&#x27;Estaing → Gérard (1779): closed, with the reason</title><circle cx="570.5" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Berthier → Napoleon; letter to Marmont (1807–12): closed, with the reason</title><circle cx="621.1" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt read"><title>Armstrong → Madison, coded postscript (&quot;THE = 972&quot; code) (1808): read</title><circle cx="622.9" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt closed"><title>Armstrong → Madison, 20 Feb 1808 (unique code, 369 groups to 1900, plus shorthand-like symbols) (1808): closed, with the reason</title><circle cx="622.9" cy="70" r="4.5" fill="var(--red)"/></g>
+<g class="pt found"><title>Milroy telegrams (Union ciphers) (1861–62): already solved elsewhere</title><circle cx="718.7" cy="94" r="4.5" fill="var(--amber)"/></g>
+<g class="pt found"><title>Confederate Navy dictionary code (1863): already solved elsewhere</title><circle cx="722.3" cy="82" r="4.5" fill="var(--amber)"/></g>
+<g class="pt closed"><title>Catokwacopa advertisements (1875): closed, with the reason</title><circle cx="744.0" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Debosnys cryptograms (1882–83): closed, with the reason</title><circle cx="756.7" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt nothing"><title>Beale Paper no. 1 (1885): no message</title><circle cx="762.1" cy="82" r="4.5" fill="var(--blue)"/></g>
+<g class="pt read"><title>Swatow telegram to Sun Yat-sen (JACAR B03050738800) (1916): read</title><circle cx="818.2" cy="94" r="4.5" fill="var(--green)"/></g>
+<g class="pt read"><title>Huang Xing → Lin Hu and Li Genyuan (JACAR B03050731500) (1916): read</title><circle cx="818.2" cy="82" r="4.5" fill="var(--green)"/></g>
+<g class="pt found"><title>ADFGVX messages, Eastern Front (1918): already solved elsewhere</title><circle cx="821.8" cy="70" r="4.5" fill="var(--amber)"/></g>
+<g class="pt nothing"><title>Chinese gold bar cryptograms, Shanghai (1933): no message</title><circle cx="848.9" cy="94" r="4.5" fill="var(--blue)"/></g>
+<g class="pt nothing"><title>Roosevelt cryptogram, number block (1935): no message</title><circle cx="852.5" cy="82" r="4.5" fill="var(--blue)"/></g>
+<g class="pt active"><title>&quot;BLUME SALAMANCA&quot; telegrams, Zurich → London (1937): in progress</title><circle cx="856.1" cy="70" r="4.5" fill="var(--gold)"/></g>
+<g class="pt closed"><title>Zhongshan telegrams (c.1938): closed, with the reason</title><circle cx="857.9" cy="58" r="4.5" fill="var(--red)"/></g>
+<g class="pt nothing"><title>D&#x27;Agapeyeff challenge cipher (1939): no message</title><circle cx="859.7" cy="46" r="4.5" fill="var(--blue)"/></g>
+<g class="pt closed"><title>Koehler cryptograms (Abwehr) (1944): closed, with the reason</title><circle cx="868.8" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>WW2 censorship-manual steganograms (1940s): closed, with the reason</title><circle cx="870.6" cy="82" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Copenhagen cryptogram (c.1950s): closed, with the reason</title><circle cx="888.7" cy="94" r="4.5" fill="var(--red)"/></g>
+<g class="pt found"><title>Feynman ciphers #2 and #3 (1987): already solved elsewhere</title><circle cx="946.5" cy="94" r="4.5" fill="var(--amber)"/></g>
+<g class="pt closed"><title>Scorpion letters S1 and S5 (1991): closed, with the reason</title><circle cx="953.7" cy="82" r="4.5" fill="var(--red)"/></g>
+<g class="pt closed"><title>Kaliningrad bottle post (found 2015): closed, with the reason</title><circle cx="997.1" cy="94" r="4.5" fill="var(--red)"/></g>
+</svg>
+<p class="sb-foot">Counted from the results tables in the <a href="https://github.com/dbourdeau/cyphersolver#results">repository README</a> by <code>_build_stats.py</code>; regenerated 17 September 2026. &ldquo;Already solved elsewhere&rdquo; and &ldquo;no message&rdquo; are not decipherments and are not counted as such. Forster (1644) is counted among those read by others. Rows are documents, not correspondents: S&eacute;gur f.&nbsp;143 and Urquhart&rsquo;s distich stand as separate open items beside the letters and the octastich that were read.</p>
+</section>
+<!-- stats:end -->
+
 
 <div class="bignews bn-rot" aria-roledescription="carousel" aria-label="Featured results">
 <div class="bn-ctl"><button type="button" class="bn-prev" aria-label="Previous">&larr;</button><span class="bn-dots" role="tablist"></span><button type="button" class="bn-next" aria-label="Next">&rarr;</button><button type="button" class="bn-pause" aria-label="Pause rotation" aria-pressed="false">&#10074;&#10074;</button></div>
@@ -645,6 +739,6 @@ search away from "solved in 1858".</p>
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
-<script src="site.js?v=20260916d"></script>
+<script src="site.js?v=20260917a"></script>
 </body>
 </html>
