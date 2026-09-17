@@ -40,9 +40,15 @@ be read off the leaf. Fixed here:
 | **123-124** | **129 right – 131 left** | despatch to the King: f. 123r opens in clear, then c. 140 lines of cipher over four pages |
 | **143** | **150 right** | Mayenne to the King: clear first half (Marmande, Sainte-Bazeille, Castets, the capitulation), then 22 lines of cipher |
 | **150** | **158 left** | a full page of cipher |
-| **154** | **161 right** | clear opening, then c. 20 lines of cipher |
+| **150** | **157 right – 158 left** | a page and a half wholly in cipher |
+| **154** | **161 right** | clear opening, then c. 25 lines of cipher |
+| **173** | **180 right** | "Sire" in clear, then c. 30 lines of cipher |
+| **196** | **203 right** | "Sire, depuis…" in clear, then c. 28 lines of cipher |
+| **201** | **208 right** | "Sire, depuis…" in clear, then c. 28 lines of cipher |
 
-(f. 173, 196, 201 not yet indexed; the same rule applies.)
+All eight Mayenne–Forget leaves are now located on the image. f. 143 is the best conditioned:
+a large, well-spaced hand, 21 lines. ff. 110 and 123–124 are the same cipher in a small, dense
+hand — f. 123r alone runs to 38 lines — and are where the volume of text is.
 
 ## Method
 
@@ -107,7 +113,14 @@ then refining each line on the local maximum, fixed it.
 
 ## Open / next
 
-* Finish f. 143 (22 lines); the hand is large and the page is the best-conditioned of the eight.
-* f. 110 is faded and dense (c. 48 lines); ff. 123-124 is the prize (four pages, c. 140 lines).
+* Finish f. 143's weak lines (8-9, 14-15, 19-21). Everything there turns on telling apart the
+  three "6" shapes (i / n / s) and the two round shapes (a / m); a labelled glyph atlas cut from
+  the lines that already read would settle them.
+* f. 110 is faded and dense (c. 48 lines); ff. 123-124 is the prize (four pages, c. 140 lines,
+  opening in clear: "Sire, la dernière que j'ay eu l'honneur est du huict[iesm]e de ce moys …").
+* A word-aware decoder (`wdec.py`, beam over letters *and* word boundaries, unigram word model
+  swapped in for the character model over each closed word) was tried against the character
+  decoder and does **not** help: on f. 143 the two agree on the lines that read and both fail on
+  the same lines. That is the evidence that the residue is transcription, not decoding.
 * The f. 18-21 / f. 19 crib has not been used yet and should settle the remaining homophones and
   the value of code 49.
