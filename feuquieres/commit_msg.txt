@@ -1,0 +1,9 @@
+Feuquieres -> Catinat 1691 read: petit chiffre of the Pignerol governors recovered (167/179 groups, 586/601 tokens)
+
+The second letter in the code, Louvois -> d'Herleville of 6 Sept 1690, is printed with its translation in the
+1819 Memoires de Catinat t. I pp. 140-142 (found by searching the MDZ hOCR of all three volumes). Bazeries'
+Grand Chiffre de 1691 transcribed from the Gallica images and verified on the 1690-91 despatches. Exact aligners
+and annealers documented as failing; hand anchoring from one consistent 31-group segment and cross-propagation
+between the two letters as the method. Key, aligned readings, notes, tracker row and README updated.
+
+Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>

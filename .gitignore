@@ -386,3 +386,13 @@ sp53/*goog.txt
 sp53/cal08grea.txt
 sp53/ht_*.html
 sp53/ht.jar
+
+# feuquieres: bulky fetched texts and run logs (regenerate with fetch_mdz_ocr.py / archive.org / the solvers)
+feuquieres/catinat1819_*.txt
+feuquieres/rousset4.txt
+feuquieres/feuq5.txt
+feuquieres/masque_de_fer_1893.txt
+feuquieres/m_bsb*.json
+feuquieres/run_*.txt
+feuquieres/ctx_out.txt
+feuquieres/knockout_p2.txt
