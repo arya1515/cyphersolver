@@ -784,3 +784,42 @@ Lines 4 and 5 reading at 94 % and 100 % mostly shows the anchored labels are *co
 not show the pipeline can read unseen text, because their exemplars came from them. **The honest
 figure is 66 %**, on lines whose exemplars did not come from themselves. Everything claimed from here
 on should move that number.
+
+
+## Forced alignment extended to code groups, and used to read the plaintext
+
+`forcealign.py` now takes code groups as single tokens (`<que>`, `<plustost>`), scored against
+code exemplars. The check: on line 2 it puts `<plustost>` and `<que>` on **boxes 16 and 17 —
+exactly where they were found by hand.**
+
+`mint.py` mints only pairings the evidence supports: one box to one letter, *and* that letter is
+the box's best match among all letters held (within a margin). It is deliberately strict — on line 6
+it minted 7 of 28 — because a wrong exemplar pollutes every later match.
+
+The alignment score is a likelihood, so it can **choose between readings of the plaintext**. Line 6:
+
+```
+19.55   cause il nous mais considerant <que> les choses     <- best
+18.97   cause <il> <nous> mais considerant <que> ces sont
+18.18   cause <il> <nous> mais considerant <que> les choses
+```
+
+It prefers *les choses*, with *il* and *nous* written out rather than coded — agreeing with the
+direct reading of f. 19r. The margins are modest; this is corroboration, not proof. On line 7 it
+cannot separate *changées* from *changera* (18.92 vs 18.90), and says so.
+
+## Where this leaves the work
+
+Line 5 aligns **perfectly**, 23 boxes to 23 letters, *plus d instructions a nulle*. Mining lines 5–7
+moved the non-circular score 66.2 → 69.1 → 67.6 % — and those moves are one or two characters on a
+68-character test set. **At this size the measure cannot steer.**
+
+The letter the mining most needed, **h**, did not come in: line 7 has 28 boxes against 39 letters of
+plaintext, so *habitans* falls off the end, and the *h* of *changées* did not pair one-to-one.
+
+So the gate, stated once more and now with the reason sharpened: **the plaintext of f. 19r has to be
+transcribed properly, end to end.** Everything downstream needs it — forced alignment places every
+figure once the text is there (it is robust to the segmentation slop that defeated counting); a real
+train/test split needs more lines of known plaintext than the two currently held out; and the missing
+letters h, q, x, y, z are in f. 19's text and will arrive on their own once it is read. The aligner
+can help with the reading, scoring rival readings of a doubtful word, but the reading has to be done.

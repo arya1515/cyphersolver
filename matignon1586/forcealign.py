@@ -23,15 +23,28 @@ from checkex import vec as vec_file
 from readleaf import vec_from
 
 def load_exemplars():
-    man = [m for m in json.load(open('exemplars/manifest.json')) if len(m['letter']) == 1]
+    """Letters keyed by themselves; code groups keyed as <word>, e.g. <que>, <plustost>."""
+    man = json.load(open('exemplars/manifest.json'))
     by = {}
     for m in man:
-        by.setdefault(m['letter'], []).append(vec_file(m['file']))
+        key = m['letter'] if len(m['letter']) == 1 else '<' + m['letter'] + '>'
+        by.setdefault(key, []).append(vec_file(m['file']))
     return by
 
-def emission(bvec, by, letter):
-    ex = by.get(letter)
-    if not ex: return -0.6                       # no exemplar yet: weak, uniform prior
+def tokens(text):
+    """Plaintext as tokens: single letters, plus <word> for a word written as one code figure."""
+    out = []; i = 0
+    while i < len(text):
+        if text[i] == '<':
+            j = text.index('>', i); out.append(text[i:j+1]); i = j + 1
+        else:
+            out.append(text[i]); i += 1
+    return out
+
+def emission(bvec, by, tok):
+    ex = by.get(tok)
+    if not ex:
+        return -0.9 if tok.startswith('<') else -0.6   # an unknown code is less likely than a letter
     return max(float(bvec @ e) for e in ex)
 
 def align(bvecs, text, by, skip=-0.55, split=-0.35, digraph=-0.15):
@@ -61,6 +74,7 @@ def align(bvecs, text, by, skip=-0.55, split=-0.35, digraph=-0.15):
     return list(reversed(path)), D[n, m]
 
 def run(src, ysfile, line, gap, text, mint_from=None):
+    toks = tokens(text)
     im = ImageOps.autocontrast(Image.open(src).convert('L'), 1)
     a = np.array(im); bw = ndimage.median_filter(a < otsu(a), size=3)
     ys = [int(v) for v in open(ysfile).read().split(',')]
@@ -70,16 +84,16 @@ def run(src, ysfile, line, gap, text, mint_from=None):
     bs = line_boxes(bw, ys[line-1], 40, gap)
     bvecs = [vec_from(a[y0:y1, x0:x1]) for (x0, x1, y0, y1) in bs]
     by = load_exemplars()
-    path, score = align(bvecs, text, by)
+    path, score = align(bvecs, toks, by)
     ops = ''.join(p[4] for p in path)
-    print(f'line {line}: {len(bs)} boxes vs {len(text)} letters   score {score:.2f}')
+    print(f'line {line}: {len(bs)} boxes vs {len(toks)} tokens   score {score:.2f}')
     print(f'  ops  1:{ops.count("1")}  digraph:{ops.count("2")}  skip:{ops.count("0")}  split:{ops.count("s")}')
     shown = []
     for bi0, bi1, tj0, tj1, op in path:
-        lab = text[tj0:tj1] if tj1 > tj0 else '-'
+        lab = ''.join(toks[tj0:tj1]) if tj1 > tj0 else '-'
         shown.append(f'{bi0+1}{"-"+str(bi1) if bi1-bi0>1 else ""}:{lab}')
     print('  ' + '  '.join(shown))
-    return bs, path, a
+    return bs, path, a, toks
 
 if __name__ == '__main__':
     run(sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), sys.argv[5])

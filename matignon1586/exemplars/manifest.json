@@ -1102,5 +1102,233 @@
    589
   ],
   "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5fa_21_l.png",
+  "letter": "l",
+  "src": "f18r_l5fa",
+  "box": [
+   2575,
+   2651,
+   526,
+   589
+  ],
+  "crib": "forced alignment of line 5"
+ },
+ {
+  "file": "exemplars/f18r_l5fa_22_l.png",
+  "letter": "l",
+  "src": "f18r_l5fa",
+  "box": [
+   2678,
+   2750,
+   537,
+   584
+  ],
+  "crib": "forced alignment of line 5"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_07_u.png",
+  "letter": "u",
+  "src": "f18r_l6fa",
+  "box": [
+   746,
+   776,
+   621,
+   671
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_11_c.png",
+  "letter": "c",
+  "src": "f18r_l6fa",
+  "box": [
+   1132,
+   1257,
+   621,
+   699
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_13_s.png",
+  "letter": "s",
+  "src": "f18r_l6fa",
+  "box": [
+   1327,
+   1455,
+   621,
+   691
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_15_d.png",
+  "letter": "d",
+  "src": "f18r_l6fa",
+  "box": [
+   1547,
+   1626,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_16_e.png",
+  "letter": "e",
+  "src": "f18r_l6fa",
+  "box": [
+   1668,
+   1704,
+   621,
+   698
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_19_n.png",
+  "letter": "n",
+  "src": "f18r_l6fa",
+  "box": [
+   1933,
+   2043,
+   651,
+   701
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l6fa_28_s.png",
+  "letter": "s",
+  "src": "f18r_l6fa",
+  "box": [
+   2810,
+   2867,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_02_e.png",
+  "letter": "e",
+  "src": "f18r_l7fa",
+  "box": [
+   299,
+   337,
+   758,
+   803
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_04_s.png",
+  "letter": "s",
+  "src": "f18r_l7fa",
+  "box": [
+   453,
+   506,
+   756,
+   832
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_06_n.png",
+  "letter": "n",
+  "src": "f18r_l7fa",
+  "box": [
+   586,
+   729,
+   752,
+   826
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_07_t.png",
+  "letter": "t",
+  "src": "f18r_l7fa",
+  "box": [
+   763,
+   832,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_12_c.png",
+  "letter": "c",
+  "src": "f18r_l7fa",
+  "box": [
+   1102,
+   1206,
+   755,
+   807
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_14_n.png",
+  "letter": "n",
+  "src": "f18r_l7fa",
+  "box": [
+   1287,
+   1440,
+   752,
+   811
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_19_n.png",
+  "letter": "n",
+  "src": "f18r_l7fa",
+  "box": [
+   1923,
+   2045,
+   767,
+   832
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_20_t.png",
+  "letter": "t",
+  "src": "f18r_l7fa",
+  "box": [
+   2080,
+   2133,
+   752,
+   830
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_27_n.png",
+  "letter": "n",
+  "src": "f18r_l7fa",
+  "box": [
+   2646,
+   2790,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7"
+ },
+ {
+  "file": "exemplars/f18r_l7fa_28_s.png",
+  "letter": "s",
+  "src": "f18r_l7fa",
+  "box": [
+   2833,
+   2854,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7"
  }
 ]
