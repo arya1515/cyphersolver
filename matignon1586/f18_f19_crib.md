@@ -563,3 +563,29 @@ The struck-through `24` is worth a note of its own. A deleted code group means t
 contain. Any alignment that assumes every figure produces a letter will lose a beat there, so
 struck figures have to be found and skipped — one more reason the landmark-and-audit approach is
 right and a straight position count is not.
+
+
+## Code groups need a similarity floor, and it is 0.93
+
+Letting code exemplars compete on equal terms with letters made the decoder hallucinate them: lines
+5–8 came back studded with *plustost* where no code group exists. A figure that merely resembles a
+numeral was dragging a whole word into the reading, and the per-character bonus that makes codes
+competitive at all was paying for it.
+
+Codes are distinctive — they are numerals among letter-shapes — so a genuine match should be very
+close. Adding a floor on the code candidate's own similarity, and sweeping it:
+
+| floor | line 2 (has real codes) | line 6 (has none) |
+|---|---|---|
+| 0.90 | plustost que ✓ | *plustost … plustost* ✗ |
+| **0.93** | **plustost que ✓** | **clean** |
+| 0.96 | plustost que ✓ | clean, but line 2's tail degrades |
+
+**0.93.** At that setting the real code groups on line 2 still fire and the phantoms on line 6
+disappear, and line 2's reading improves as a side effect —
+`ste f est a bert ie e plustost que es sions ueue et` against a truth of
+`ste fust aduertie et plustost que nous eussions uictoi`.
+
+This is the last of the decoder's free parameters to be pinned by measurement rather than taste:
+segmenter gap 14, character bonus 1.6, code floor 0.93 — each one fixed against a stretch of known
+plaintext rather than by how the output looked.

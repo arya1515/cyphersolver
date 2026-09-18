@@ -45,9 +45,16 @@ def vec_from(arr):
 man = json.load(open('exemplars/manifest.json'))
 EX = [(m['letter'], vec_from(np.asarray(Image.open(m['file']).convert('L')))) for m in man]
 
-def cands_for(box_img, topk=4, temp=12.0):
+CODE_MIN = 0.93   # code groups are distinctive numerals: only accept a very close match
+
+def cands_for(box_img, topk=5, temp=12.0):
     v = vec_from(box_img)
-    sims = sorted(((float(v@e), l) for l, e in EX), reverse=True)[:topk]
+    sims = sorted(((float(v@e), l) for l, e in EX), reverse=True)
+    # a multi-letter (code) candidate has to clear CODE_MIN on its own similarity, otherwise a
+    # figure that merely resembles a numeral drags a whole word into the reading
+    sims = [(s, l) for s, l in sims if len(l) == 1 or s >= CODE_MIN][:topk]
+    if not sims:
+        sims = [(0.0, c) for c in 'e']
     best = sims[0][0]
     out = {}
     for s, l in sims:
