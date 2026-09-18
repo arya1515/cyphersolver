@@ -345,3 +345,30 @@ The tail of f. 19r line 1 and the head of line 2 read, at six tiles, as
 soft. Until they are hard, the 35 boxes of line 3 sit segmented and rendered
 (`f18r_l3_boxes_g14.json`, `hi/l3g14_*.png`) waiting for them — which is, again, the same gate:
 the plaintext side is what paces this, not the cipher side.
+
+
+## The cipher settles a doubtful word in the plaintext
+
+The stretch of f. 19r line 1 between *advertie* and *plustost* had resisted three readings; at
+eight tiles it looks like **"Heut Jo."**, with a clear capital and a dot, which is not French that
+fits the sentence.
+
+The cipher settles it. Between the figures for *aduertie* and the code group `52` (*plustost*)
+there is exactly **one box holding two figures** — so the plaintext there is **two letters**.
+"Heut Jo." cannot be in the deciphered text at all; the two letters are **et**, and whatever
+"Heut Jo." is — an annotation, a later hand, a flourish read as letters — it is not part of the
+decipherment.
+
+That is worth noting as a method in its own right: the crib has been used all along to read the
+cipher, but the traffic runs both ways. A figure count is a hard constraint on how many letters a
+doubtful passage of plaintext can contain, and here it eliminated a reading that three passes of
+the eye could not.
+
+With *et* fixed, f. 19r line 1 reads cleanly end to end:
+
+> **Que sa Ma[jes]té fust advertie, et plustost que nous eussions victoire et …**
+
+and the line 2/3 boundary of the cipher falls where it should: line 2's last six boxes are
+*uictoi*, line 3 opens *r*, *e*. Line 3's box 3 is then the d-shaped figure that line 2 labelled
+**e**, which is the cross-check reported above, now standing on a firm boundary rather than a
+guessed one.
