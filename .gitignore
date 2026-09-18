@@ -503,3 +503,27 @@ sormano/raw/
 yard1699/img/
 yard1699/man/
 yard1699/__pycache__/
+# erving1807 / jqa: NARA microfilm frames (M31 reels 7, 8, 12; M35 reels 2, 3), sheets, crops, Founders/LoC downloads
+erving1807/img*/
+erving1807/sheets*/
+erving1807/crops/
+erving1807/cal/
+erving1807/loc/
+erving1807/fo/
+erving1807/*.html
+erving1807/*.json
+erving1807/v_*.png
+erving1807/*.log
+jqa/img*/
+jqa/sheets*/
+jqa/v/
+jqa/*.json
+jqa/*.log
+# adrian1521: PARES page images, Danvila scans, upscaled crops
+adrian1521/img/
+adrian1521/crops/
+adrian1521/strips/
+adrian1521/ln/
+adrian1521/danvila/*.jpg
+adrian1521/danvila/mhe*.txt
+adrian1521/spanish2.htm

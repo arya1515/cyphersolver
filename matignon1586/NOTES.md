@@ -227,3 +227,51 @@ Two practical findings for whoever continues: **proper names are the densest exe
 are spelled out rather than hidden in code groups — *Matignon* on f. 19r line 13 is nine consecutive
 certain figures), and **exemplars do not transfer between scribal hands** — the same pipeline run on
 f. 143 gives noise, because that is a different secretary.
+
+## Session of 18 Sept 2026: six leaves read, and the target is not one cipher
+
+**Read in substance or in stretches, all in the solved Cipher-1:** f. 143r+v (earlier), **f. 150**
+(13 ciphered lines over a clear Forget letter to Villeroy, April 1586), **f. 154** (28 lines, the
+army's pay crisis), **f. 173** (33 lines, to the King: no one will lend and no one will go surety),
+**f. 196** (26 lines) and **f. 201** (30 lines) — one despatch on two leaves, a siege report naming
+**"le mareschal de Matignon"**, and **fr. 15571 f. 177** (28 lines, Mayenne's design for Gascony,
+31 Dec 1585). See the `f*_reading.md` files.
+
+**The ff. 196/201 check.** The two leaves were transcribed independently and share **23 runs of
+eight consecutive identical figures**. That is not reachable by chance, and it validates both
+transcriptions at once.
+
+**The target is at least three ciphers** — see `ciphers.md`. ff. 123–124 and f. 110 do not answer to
+the solved key, on figure statistics and on a crib. fr. 15571's ciphered page at canvas 187 left is
+a fourth hand again, untested.
+
+**A crib for the second cipher exists**: f. 79r (canvas 85 right), Mayenne's own letter from the
+camp at Tonneins, 5 March 1586, carries a seven-line cipher block **with its decipherment down the
+left margin**. "rouergue" matches the block's figures in exactly one place, giving `4+`=r, `6`=o,
+`h`=u, `f`=e, `B`=g.
+
+### Additions to the folio index
+
+| folio | canvas (page) | content |
+|---|---|---|
+| **79r** | **85 right** | Mayenne to the King, camp de Tonneins 5 March 1586, signed Charles de Lorraine; 7 cipher lines **with marginal decipherment** — the crib for Cipher-2 |
+| **125r** | **131 right** | clear letter: Castets besieged, the battery, M. d'Alincourt, Matignon, Mayenne |
+| **fr. 15571 177** | **185 right** | Forget, 31 Dec 1585, 28 cipher lines in Cipher-1 (foliated 190 struck / 177) |
+| **fr. 15571 178v** | **187 left** | a full page of cipher in a fourth hand, untested |
+| **fr. 15571 180** | **188 right** | (fixes the foliation: f. 180 recto is canvas 188 right) |
+
+### Tools added
+
+`rowcut.py` cuts rows with **alternate rows tinted**, so a row's left and right halves carry the
+same wash and the join never depends on a line number — the fix for a full hour lost on f. 173 to
+halves joined one row apart. `fitlines.py` fits and snaps a line grid. `hillclimb.py` is a cold
+solver (annealing over figure→letter maps, `FIX=` to hold known values, `SEEDKEY=` to start from a
+known key).
+
+### A defect in the language model, found and fixed
+
+Built with `v→u` and `j→i`, the corpus's Roman numerals became runs of `i`, and a page of `iiiiii`
+scored **better** than French (−1.53 vs −1.51 per character) — so the cold solver collapsed every
+figure onto `i`. Dropping Roman-numeral tokens and requiring a context to be attested 15 times gives
+French −1.51, all-`i` −2.16, random −3.99. The old model is kept as `lm_v1.pkl`, the old scorer as
+`solve_v1.py`.
