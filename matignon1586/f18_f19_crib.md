@@ -324,3 +324,24 @@ Exemplar set after this pass: **30 labelled figures covering 11 distinct letters
 (a, e×4, f, i×5, n, o, r×2, s×5, ss×2, t×5, u×3). The homophones are starting to show: five
 different figures for *s*, five for *t*, five for *i*, four for *e* — which is what the eight
 undeciphered leaves have been tripping over from the beginning.
+
+
+## Line 3 at gap 14: 35 boxes, and a cross-check that the figure families hold
+
+Segmented at the calibrated gap, f. 18r line 3 gives **35 boxes**. It cannot be labelled outright
+yet, because *uictoire* straddles the line 2/3 boundary and where exactly it breaks depends on
+words at the end of f. 19r line 1 and the start of line 2 that are not yet certain. Guessing the
+break would put every label after it one place out, so it is left.
+
+But one thing does carry across, and it is the check that matters: **box 3 of line 3 is the same
+d-shaped figure as box 10 of line 2, and both land on *e***. Two independent stretches of plaintext,
+two different lines, same figure, same letter. That is the first evidence that the exemplar set is
+internally consistent rather than an artefact of one lucky alignment.
+
+### What line 3 needs
+
+The tail of f. 19r line 1 and the head of line 2 read, at six tiles, as
+*"… victoire e[t]"* / *"Conseil d[e] [a]ssembl[er] de Castillebourg …"*. Two words there are still
+soft. Until they are hard, the 35 boxes of line 3 sit segmented and rendered
+(`f18r_l3_boxes_g14.json`, `hi/l3g14_*.png`) waiting for them — which is, again, the same gate:
+the plaintext side is what paces this, not the cipher side.
