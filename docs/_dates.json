@@ -1,5 +1,6 @@
 {
  "findings": {
+  "a catalan letter to the king of aragon, barcelona, 2 may [1413–16]": "2026-09-18",
   "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
@@ -177,7 +178,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "39a74f1e9b56",
+   "hash": "a55bf5b68187",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -240,6 +241,11 @@
    "hash": "b283aa4c0b52",
    "updated": "2026-09-17"
   },
+  "reserva12": {
+   "first": "2026-09-18",
+   "hash": "2ecca4bd760e",
+   "updated": "2026-09-18"
+  },
   "richelieu": {
    "first": "2026-09-14",
    "hash": "53bd2ef837b3",
@@ -267,7 +273,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "bebae83f3a48",
+   "hash": "cfa1485cfe40",
    "updated": "2026-09-18"
   },
   "sormano": {
@@ -327,7 +333,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "17735e220afa",
+   "hash": "7ded664ae780",
    "updated": "2026-09-18"
   },
   "yard1699": {
