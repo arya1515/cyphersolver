@@ -1032,3 +1032,34 @@ Every leaf will hit the same wall — each has only a little verified text, used
 test. The fix is to hold out by *figure* rather than by line: leave-one-exemplar-out, where each
 exemplar is predicted from all the others and scored on whether it gets its own letter, uses every
 labelled figure as test data without spending any of them.
+
+
+## Leave-one-out: what it showed, and two explanations tested
+
+`loo.py` scores a figure set by predicting each exemplar from its nearest neighbour among the others.
+Restricted to letters with at least three exemplars (so every test item has same-letter partners):
+
+| set | agreement | chance |
+|---|---|---|
+| f. 143 (cut at gap 6–8, codes pinned) | **42.5 %** | 8.7 % |
+| f. 18 (cut at gaps 7, 12, 14) | **18.3 %** | 8.9 % |
+
+The f. 18 figure is low, and it reframes the ~70 % reading of f. 18's held-out lines: that was carried
+mostly by the language model, on weak shape evidence.
+
+Two explanations, both tested:
+
+1. **"The labels are still heavily wrong."** Stated in passing and **withdrawn**: adding any single f. 18
+   batch to the hand-labelled line-2 anchor changes the anchor's own agreement only from 16/28 to
+   14–16/28 — no batch is pulling it apart. (The per-batch "alone" scores of 0–16 % that first suggested
+   it are meaningless: within one line most letters occur once and cannot match themselves.)
+2. **"The segmentation is inconsistent across lines."** Tested by re-cutting f. 18's lines at one gap
+   (7) and re-labelling through the alignments. Agreement fell to **9.2 % — chance.** Refuted. At gap 7
+   f. 18's line 3 gives 35 boxes for 22 letters, so figures are cut in half and some halves are handed a
+   letter. Consistency helps only at a gap that suits the hand; f. 143's small, even hand suits 6–8,
+   f. 18's larger hand varies line to line (over-split at 14 on line 3, under-split at 14 on line 7) and
+   no single gap fits it.
+
+So the gap between the two hands is real and **not yet explained or fixed.** The feature is not the
+cause either — size, blur and aspect handling move both sets only a few points. The rebuilt set is kept
+as `manifest_f18g7.json` for the record; `manifest.json` is unchanged.
