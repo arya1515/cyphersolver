@@ -75,8 +75,8 @@ cipher block. Cipher letters and their decipherments:
 | 6 Sept 1572 | ff. 74–75 | ff. 76–77 |
 | 9 Sept 1572 | ff. 78–79 | ff. 82–84 |
 | 11 Sept 1572 and the September–October 1572 series from the camp | ff. 85–…, several letters | each followed by its decipherment |
-| Antwerp, 4 Jan 1573 | ff. 126–127, passages | to be checked |
-| Amsterdam, 5 Sept 1573 | ff. 138–140 | to be checked |
+| Antwerp, 4 Jan 1573 | ff. 126v–127v, 39 lines | **none** (read in part 18 Sept 2026, `mondoucet/f1573/reading.md`) |
+| Amsterdam, 9 Sept 1573 (not 5 Sept) | ff. 135r–137v | ff. 139r–141r, verbatim (aligned 18 Sept 2026) |
 | 9 Sept 1573 (second letter, f. 142) | one page | f. 144 |
 | 12 Sept 1573 | ff. 145–146 | f. 147 |
 | 18, 19, 24, 29 Sept 1573; 1, 6, 13, 25 Sept 1574 | blocks of cipher inside clear text | readings in the margin beside each block |
@@ -172,3 +172,11 @@ Angleterre, catholique, ministres, liberté, "le prince... service du roi", "par
 
 Catalogue entry 1 moved from open to resolved (**read**). Remaining: `\todo` fills and DECODE registration are
 Daniel's steps; HistoCrypt 2027 draft to write in `papers/histocrypt/`.
+
+### 1573 leaves, catalogue entry 2 (18 Sept 2026)
+
+Which passages lack a reading, fixed by transcribing and aligning rather than by eye: **9 Sept 1573** (cipher ff.
+135r–137v, not ff. 138–140) has a complete, literal decipherment on ff. 139r–141r: 4,735 glyphs aligned letter for
+letter (ratio 0.91, only word signs unaligned). **4 Jan 1573** (ff. 126v–127v) has none; ff. 124–125 decipher the 5 Dec
+1572 letters. With the 1573 key from the 9 Sept alignment the 4 Jan cipher reads in stretches (about two-thirds; held-out
+control 77 % letters; the Court's gloss "hambourg" decoded in place). Full account `mondoucet/f1573/reading.md`.
