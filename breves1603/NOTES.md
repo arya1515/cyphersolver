@@ -72,8 +72,8 @@ c?omance a la porte" = "l'isseue du remuement commencé à la Porte".
   has died and James has succeeded.
 - **May–December:** the Hongrie/Transylvania campaign (Mózes Székely vs Basta). Frenchmen are to be withdrawn from
   Ottoman service. The chiaoux arrives at Marseille. Marseille ships are to be armed against Barbary and English
-  pirates. The Nevers/Joinville expedition. A Porte coup in December (the execution of the sultan's son, Mahmud,
-  is mentioned in August).
+  pirates. The Nevers/Joinville expedition. The August letter mentions the execution of the sultan's son. In
+  December the king is uneasy at "certain changement survenu à la Porte" and fears it favours the house of Austria.
 
 ## What remains
 
