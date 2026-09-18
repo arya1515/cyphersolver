@@ -52,6 +52,7 @@
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
   "voynich manuscript": "2026-09-15"
@@ -101,6 +102,11 @@
    "first": "2026-09-16",
    "hash": "0b8b89f55675",
    "updated": "2026-09-16"
+  },
+  "conti1649": {
+   "first": "2026-09-18",
+   "hash": "0d1334527dc9",
+   "updated": "2026-09-18"
   },
   "copenhagen": {
    "first": "2026-09-15",
@@ -154,7 +160,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "16469122fcc9",
+   "hash": "2986632565c7",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -234,7 +240,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "79bacfe6d60e",
+   "hash": "325c352e56f0",
    "updated": "2026-09-18"
   },
   "sormano": {
