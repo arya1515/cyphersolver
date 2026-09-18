@@ -70,7 +70,10 @@ hand — f. 123r alone runs to 38 lines — and are where the volume of text is.
    Xivrey's *Recueil des lettres missives de Henri IV* already in `../bethune/xivrey/`
    (6.4 M characters after normalising: accents stripped, v→u, j→i, as the cipher does not
    distinguish them).
-3. `tiles2.py` — cuts a cipher block into per-line tiles for transcription by eye.
+3. `flatten.py` — divides out a Gaussian background (flattens the parchment), then unsharp-masks.
+   This is the single biggest gain in legibility of anything tried here and should be the first
+   step on any new leaf. `tiles2.py` then cuts the block into per-line tiles for transcription by
+   eye; `fitlines.py` + `recenter.py` place the lines.
 4. `solve.py` / `dec.py` — a beam search over the token sequence where each glyph token carries a
    *set* of candidate letters, scored by the language model, then a dictionary word-segmenter.
    This is what makes the key usable: several glyphs of this cipher are genuinely confusable
@@ -138,3 +141,32 @@ then refining each line on the local maximum, fixed it.
   the same lines. That is the evidence that the residue is transcription, not decoding.
 * The f. 18-21 / f. 19 crib has not been used yet and should settle the remaining homophones and
   the value of code 49.
+
+
+## Where the work actually stops, measured
+
+Two leaves have now been pushed hard enough to measure the cost of this cipher:
+
+* **f. 143** (21 lines, the largest and cleanest hand of the eight) took *three* passes — three
+  tiles a line, then five, then eight on the survivors — to reach about two thirds read. Lines
+  1-7, 9-14 and 17 are continuous French; 8, 15-16 and 18-21 give clauses only. Line 8 resists
+  even at eight tiles a line and flattened: it decodes to "a r o m e ? e [car] l m a l a i c t e
+  d e n e p o r t e ..." and no reading of it is French, which most likely means a place or
+  person name in it.
+* **f. 196** (36 lines, small hand) is not yet transcribed: the line fit alone needed a comb, a
+  spacing-constrained DP, re-centring on glyph boxes and a manual offset, and still does not place
+  every line well enough to tile. That is before a figure is read.
+
+So the cost is roughly three tool-calls per line to get tiles the eye can settle, and about
+fifteen per cent of figures resist anyway, to be recovered — or not — by the language model. The
+eight Mayenne-Forget leaves are about 300 lines. This is a multi-session job, and the constraint
+is the transcription of a 16th-century hand, not the cipher, which is solved.
+
+### The order to do it in
+
+1. **ff. 196 / 201** — the only place where the evidence is doubled (same plaintext twice) and
+   where cribs at head and foot let segmented glyph boxes be *labelled*, which is the only thing
+   that has actually broken a confusable pair so far.
+2. **f. 143's** remaining eight lines.
+3. **f. 154, 173** (clear openings, ~25-30 lines each).
+4. **f. 110** (48 lines, faded) and **ff. 123-124** (140 lines) last: most text, worst conditions.

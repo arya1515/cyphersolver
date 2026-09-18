@@ -16,7 +16,7 @@ for sp in np.arange(lo,hi,0.2):
         if best is None or s>best[0]: best=(s,sp,ph,n)
 s0,sp,ph,n=best
 # DP: state = chosen y for line i, allowed within +-0.22*sp of the grid, spacing within +-0.25*sp
-W=int(0.22*sp)
+W=int(0.16*sp)
 cands=[[int(ph+sp*i)+d for d in range(-W,W+1) if 0<=int(ph+sp*i)+d<len(prof)] for i in range(n)]
 INF=-1e18
 score=[[prof[y] for y in cands[0]]]
@@ -27,7 +27,7 @@ for i in range(1,n):
         bestv=INF;bj=-1
         for j,yp in enumerate(cands[i-1]):
             d=y-yp
-            if d < 0.75*sp or d > 1.25*sp: continue
+            if d < 0.90*sp or d > 1.12*sp: continue
             v=score[i-1][j]
             if v>bestv: bestv=v;bj=j
         row.append((bestv if bj>=0 else INF)+prof[y]); brow.append(bj)
