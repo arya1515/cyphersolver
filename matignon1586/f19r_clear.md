@@ -7,7 +7,7 @@ Lines 1–8, with `…` where a word is not yet settled:
 
 1. Que sa Ma[jes]té fust advertie … plustost que nous eussions victoire e[t]
 2. **Conseil d[e] [a]ssembl[er/ée] de Castillebourg où l'on feist … que je n'avois plus d'instruction**
-3. … à nulle cause. Il nous … Ma[jes]té, considérant que les cho-
+3. … à nulle cause, il nous … **Mais** considérant que ces so[nt] …   *(not "Ma[jes]té": at six tiles the word is plainly **Mais**, which also reads better — the landmark discrepancy on this line is what prompted the re-reading)*
 4. -ses sont ung peu changées tant par les habitans de la ville qui estoient fort estonnez
 5. … ou reprim[ent] … pas ce retour de m[onsieu]r le gouverneur de Coul… aut…
 6. … noz lieux forces. Que les froidz sont devenuz tres grandz, que pour
@@ -58,3 +58,17 @@ Matignon's own position, which is what the ciphered passages of ff. 196/201 also
 A name in the plaintext is worth more than an ordinary word for the mining: proper nouns are spelled
 out letter by letter rather than hidden in a code group, so *Matignon* is nine consecutive figures
 whose letters are certain — and it carries a **g**, which the exemplar set has only once.
+
+
+## A fourth correction, and one discrepancy left open
+
+Line 3 re-read at six tiles: the word I had as *Ma[jes]té* is **Mais**. Four corrections now, all
+found by going back over the plaintext rather than the cipher — *et* for the phantom "Heut Jo.", a
+dropped thirteen-letter phrase, this, and the still-open one below.
+
+**Open:** f. 18r line 6 ends with code `35` (*parce que*), which the figure arithmetic puts inside
+this line — and *parce que* is not in it at six tiles either. Two possibilities and no way to choose
+yet: the ±4 drift has accumulated far enough by line 6 to put the landmark in the wrong plaintext
+line, or Tomokiyo's value for 35 is wrong. The second would be worth knowing; it is the kind of
+thing a crib this size exists to settle, and it will settle itself once the plaintext either side is
+firm.
