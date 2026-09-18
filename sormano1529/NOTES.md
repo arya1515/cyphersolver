@@ -303,17 +303,32 @@ Swiss and landsknechts who "desidera a retrovarse **al beneficio de la lega**", 
 own bank credit because no money was to be had at Ferrara. Molini's own note elsewhere speaks of "quella
 segreta lega, che il Sormano consigliava".
 
-**4. A printed crib for this cipher exists, and that is the way in.** Molini prints other Sormano letters
-in the same cipher *with their contemporary decipherments*, and says so: of the letter from Ferrara of
-13 April 1529 he notes "**Alcune espressioni sono in cifra, con sopra l'interpretazione di carattere
-sincrono, e sono quelle impresse in corsivo**" - the ciphered phrases are set in italics from the
-interlinear reading. Three further letters in his volume carry the same note. He worked from the Paris
-originals, citing volumes by their *ancien* numbers: our fr. 3096 is anc. 8621, which he used for eight
-letters, and the 13 April Sormano letter is anc. 8499 fo. 94. **Aligning Molini's italics against the
-glyphs of those manuscripts would give a long plaintext-ciphertext crib and should yield the whole
-alphabet with many exemplars per form** - which is precisely what this attempt lacked. Molini does not
-print nos. 63, 65 or 66; his 1529 contents run 4, 7, 8 and 28 February and then March, so our letters
-remain unprinted and unread.
+**4. A printed crib for this cipher exists, and one document would finish the job.** Molini prints other
+letters of these same agents *with their contemporary decipherments*, and says so: of Sormano's letter from
+Ferrara of 13 April 1529 he notes "**Alcune espressioni sono in cifra, con sopra l'interpretazione di
+carattere sincrono, e sono quelle impresse in corsivo**" - the ciphered phrases are set in italics from the
+interlinear reading. That letter is in Sormano's own cipher, the "mia cifra" of our letters.
+
+To use it I had to resolve Molini's *ancien* volume numbers. **The offset is 5525: anc. N = Français
+(N - 5525)**, confirmed four times - anc. 8621 = fr. 3096 (our volume, from its own notice), anc. 8499 =
+fr. 2974 ("formerly catalogued as 8499" in the BnF notice), anc. 8525 = fr. 3000 and anc. 8530 = fr. 3005,
+and independently by Potter citing fr. 3000 fo. 69 for the letter Molini cites as 8525 c. 69. This mapping
+is reusable for any target that cites Molini.
+
+The practice was then verified on the leaves. **fr. 3000 fo. 74** (Gallica btv1b9060027m, canvas 146) holds
+the Avranches-Ioachim letter of 6 May 1529 with its cipher *and* a full interlinear decipherment, and the
+glosses match Molini's italics word for word ("del Signore cardinale di Sans et soi confederati a lo
+publico et comune bene sempre hanno preposto il particulare loro comodo et interesse..."). But its glyphs
+are a *different* cipher, mixing digits - the Venice cipher of Langeac and Passano, not Sormano's.
+
+So the one document that would break our letters is **BnF Français 2974, fo. 94**: Sormano's letter to
+Montmorency from Ferrara, 13 April 1529, in Sormano's cipher, carrying a contemporary interlinear
+decipherment whose text Molini already printed. Aligning that printed plaintext against those glyphs gives
+a long crib in the right cipher and should yield the whole alphabet with several exemplars per form, which
+is exactly what this attempt lacked. **fr. 2974 is not digitised**: its notice offers only "Document de
+substitution : MFICHE Français 2974", reproduction matrix **S 39769**. One order, or one reader in Paris,
+finishes this target. Molini does not print nos. 63, 65 or 66 - his 1529 contents run 4, 7, 8 and 28
+February and then March - so those letters remain unprinted and unread.
 
 ## 6. What remains, and the route
 

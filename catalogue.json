@@ -212,7 +212,7 @@
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Two deciphered siblings within a month; alignment should give the key in an afternoon. Content is minor.",
-   "verify": "Best route: align Molini II's italicised (formerly ciphered) passages against the glyphs of the manuscripts he used - the 13 Apr 1529 Sormano letter at anc. 8499 fo. 94 and the three others carrying the same note - to build a full-alphabet crib, then apply it to nos. 63/65/66. Failing that, request a fresh capture of ff. 113-124. Do not accept a reading of the both-ciphered conclusion without per-glyph evidence.",
+   "verify": "ONE DOCUMENT FINISHES THIS: BnF Francais 2974 fo. 94, Sormano to Montmorency from Ferrara 13 Apr 1529, in Sormano's own cipher with a contemporary interlinear decipherment whose plaintext Molini already printed (Documenti di storia italiana II, italics). Align that printed plaintext against the manuscript glyphs for a full-alphabet crib, then apply it to nos. 63/65/66. fr. 2974 is NOT digitised: microfiche only, reproduction matrix S 39769. Molini's ancien volume numbers map as anc. N = fr. (N-5525), confirmed four times. Do not accept a reading of the both-ciphered conclusion without per-glyph evidence.",
    "outcome": "attempted, open",
    "writeup": ""
   },
