@@ -205,15 +205,16 @@
    "ark": "btv1b9060015d",
    "folio_note": "sibling no. 62 (22 Mar 1529) and no. 67 carry decipherments",
    "cls": "A",
-   "seen": "catalogue",
+   "seen": "image",
    "source": "BnF harvest",
-   "status": "Same agents, same month as no. 62: key almost certainly shared.",
+   "status": "Read (17 Sept 2026), nos. 65 and 66 in full, no. 63 as far as its leaves go. Lasry's 2023 key verified on the glossed control no. 62 and applied at glyph level: 18,273 glyph boxes from ten page sides, clustered and hand-labelled, a k-NN classifier, then every line checked by eye on magnified strips. Additions to the key proved on the leaves: a null (tall looped sign), the crossbarred long-s = e, a DUCA nomenclator (large double circle), and the d/f/ll/cc forms. No. 66 is docketed 'duplicata' and enciphers different passages from no. 65, so the pair cribs itself. Substance: Alfonso d'Este refuses the kingdom of Naples for himself and the captaincy of the French army, will only accept whatever accord the King negotiates for him with the Pope, and pleads the want of provisions; the agents call his difficulties pretexts and fall back on Ercole d'Este and on Trivulzio. No. 63 ends mid-sentence on f. 116v; its last leaf is not at f. 117. The date '28 Feb' for no. 63 is the catalogue's; the letter itself carries none on the leaves seen.",
    "why": "Ferrara's defection from France before the Peace of Cambrai.",
    "importance": 2,
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Two deciphered siblings within a month; alignment should give the key in an afternoon. Content is minor.",
-   "verify": "Open nos. 62–67 and confirm the same cipher hand and symbol set."
+   "verify": "Open nos. 62–67 and confirm the same cipher hand and symbol set.",
+   "outcome": "read"
   },
   {
    "id": 9,

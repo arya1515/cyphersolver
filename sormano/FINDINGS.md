@@ -50,10 +50,15 @@ first read it that way, wrongly.
 
 ## 4. Readings produced
 
-`n66_reading.md` — no. 66 through its subscription, the fullest of the three.
-`n65_reading.md` — no. 65's opening, deciphered line by line.
-No. 63: opening and a good deal of its clear text read (see `NOTES.md`); it is
-the longest and most heavily enciphered, and is left for the next pass.
+`n66_reading.md` — no. 66 through its subscription.
+`n65_reading.md` — no. 65 complete and continuous, with English summary;
+`n65_transcription.md` line by line.
+`n63_reading.md` — no. 63 as far as the leaves go, with the unreadable runs
+marked; `n63_transcription.md` line by line. Substance of all three: the duke
+refuses to take the kingdom of Naples for himself or the captaincy of the
+French army, offers only to accept whatever accord the King negotiates for
+him with the Pope, and pleads the want of provisions; the agents judge his
+difficulties pretexts and fall back on Ercole and on Trivulzio.
 
 ## 5. Codicology
 

@@ -8,8 +8,8 @@ concern Ferrara's defection from France before the Peace of Cambrai.
 | item | leaf / Gallica view | date | state |
 |---|---|---|---|
 | no. 62 | f. 113 / view 117 | 22 March 1529 | cipher with contemporary interlinear decipherment; key control |
-| no. 63 | ff. 115–116 / views 119–121 | after 23 February 1529 | target; opening and much clear text read |
-| no. 65 | ff. 119–120 / views 123–124 | 23 February 1529 | target; opening deciphered |
+| no. 63 | ff. 115–116 / views 119–121 | after 23 February 1529 | target; read as far as it goes, see `n63_reading.md`; final leaf missing |
+| no. 65 | ff. 119–120 / views 123–124 | 23 February 1529 | target; read, see `n65_reading.md` / `n65_transcription.md` |
 | no. 66 | ff. 121–122 / views 125–127 | 23 February 1529 | target; docketed `duplicata`; read, see `n66_reading.md` |
 | no. 67 | f. 124 | 1529 | Sormano's `Doppio`, cipher with decipherment; second control |
 
