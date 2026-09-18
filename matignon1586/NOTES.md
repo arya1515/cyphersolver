@@ -43,8 +43,20 @@ be read off the leaf. Fixed here:
 | **150** | **157 right – 158 left** | a page and a half wholly in cipher |
 | **154** | **161 right** | clear opening, then c. 25 lines of cipher |
 | **173** | **180 right** | "Sire" in clear, then c. 30 lines of cipher |
-| **196** | **203 right** | "Sire, depuis…" in clear, then c. 28 lines of cipher |
-| **201** | **208 right** | "Sire, depuis…" in clear, then c. 28 lines of cipher |
+| **196** | **203 right** | clear to *auquel*, then 32 lines of cipher to the foot |
+| **201** | **208 right** | the **same despatch**: clear a line and a half further, cipher, then clear again for the last three lines |
+
+The clear openings identify the despatches: f. 123r "Sire, la dernière que j'ay eu l'honneur est
+du huict[iesm]e de ce moys…"; f. 143 Marmande, Sainte-Bazeille, Castets and the capitulation;
+f. 154 "Monseigneur, vous avez veu par la despesche du S.r Delorme … qui partit d'icy la veille de
+Pasques" (Easter 1586 = 6 April), so f. 154 is to Villeroy, not to the King; f. 173 "Sire, Vostre
+Majesté a esté suffisamment advertie par les deux dernières despesches de Monsieur du Mayne";
+ff. 196 and 201 both "Sire, Depuis le partement du S.r de Bosseval…".
+
+**ff. 196 and 201 are the same despatch** — see [`f196_f201.md`](f196_f201.md). That pair is now
+the most tractable target in the item: it carries two cribs (f. 201 is in clear where f. 196 is in
+cipher, at the head and again at the foot) and the two ciphered blocks are the same plaintext
+enciphered twice, i.e. in depth.
 
 All eight Mayenne–Forget leaves are now located on the image. f. 143 is the best conditioned:
 a large, well-spaced hand, 21 lines. ff. 110 and 123–124 are the same cipher in a small, dense
@@ -116,6 +128,8 @@ then refining each line on the local maximum, fixed it.
 * Finish f. 143's weak lines (8-9, 14-15, 19-21). Everything there turns on telling apart the
   three "6" shapes (i / n / s) and the two round shapes (a / m); a labelled glyph atlas cut from
   the lines that already read would settle them.
+* **ff. 196 / 201 first**: transcribe both blocks, align them, solve jointly against the two
+  cribs. This is the one place in the item where the evidence is doubled.
 * f. 110 is faded and dense (c. 48 lines); ff. 123-124 is the prize (four pages, c. 140 lines,
   opening in clear: "Sire, la dernière que j'ay eu l'honneur est du huict[iesm]e de ce moys …").
 * A word-aware decoder (`wdec.py`, beam over letters *and* word boundaries, unigram word model
