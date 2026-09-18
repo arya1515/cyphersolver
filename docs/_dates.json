@@ -1,6 +1,7 @@
 {
  "findings": {
   "adfgvx, 1918": "2026-09-15",
+  "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
@@ -15,10 +16,12 @@
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
   "debosnys, 1882–83": "2026-09-15",
+  "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
   "ferdinand iii, 1634–40": "2026-09-15",
   "feuquières to catinat, 1691": "2026-09-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
   "from warsaw, 24 december 1627": "2026-09-16",
+  "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
@@ -36,11 +39,13 @@
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "richard forster, 1644": "2026-09-16",
+  "robert yard to the earl of manchester, whitehall, 12 and 16 october 1699": "2026-09-18",
   "roosevelt cryptogram, 1935": "2026-09-16",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
+  "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
   "voynich manuscript": "2026-09-15"
@@ -51,10 +56,15 @@
    "hash": "3c92a0b51d89",
    "updated": "2026-09-15"
   },
+  "adrian1521": {
+   "first": "2026-09-18",
+   "hash": "30b38659c55d",
+   "updated": "2026-09-18"
+  },
   "armstrong": {
    "first": "2026-09-14",
-   "hash": "28557f90bc3f",
-   "updated": "2026-09-16"
+   "hash": "c351cec849d3",
+   "updated": "2026-09-18"
   },
   "bethune": {
    "first": "2026-09-17",
@@ -128,13 +138,18 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "387d358f9ebb",
-   "updated": "2026-09-17"
+   "hash": "eb9513977cda",
+   "updated": "2026-09-18"
   },
   "lanssac": {
    "first": "2026-09-17",
    "hash": "6a03729626b9",
    "updated": "2026-09-17"
+  },
+  "legation": {
+   "first": "2026-09-18",
+   "hash": "0c9be5496dc0",
+   "updated": "2026-09-18"
   },
   "lucca": {
    "first": "2026-09-16",
@@ -188,18 +203,28 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "4805d6f96f28",
-   "updated": "2026-09-17"
+   "hash": "e099aefd8306",
+   "updated": "2026-09-18"
   },
   "sormano": {
    "first": "2026-09-17",
    "hash": "2b7fdfe51a53",
    "updated": "2026-09-17"
   },
+  "sunintercepts": {
+   "first": "2026-09-18",
+   "hash": "afa62db09c42",
+   "updated": "2026-09-18"
+  },
   "sunyatsen": {
    "first": "2026-09-15",
-   "hash": "46d533ff76ce",
-   "updated": "2026-09-15"
+   "hash": "e2e2e6fb8a35",
+   "updated": "2026-09-18"
+  },
+  "toledo1565": {
+   "first": "2026-09-18",
+   "hash": "5aa62c52a134",
+   "updated": "2026-09-18"
   },
   "urquhart": {
    "first": "2026-09-16",
@@ -220,6 +245,11 @@
    "first": "2026-09-16",
    "hash": "9c7b6c79ee6a",
    "updated": "2026-09-16"
+  },
+  "yard1699": {
+   "first": "2026-09-18",
+   "hash": "841d993d9e34",
+   "updated": "2026-09-18"
   }
  }
 }

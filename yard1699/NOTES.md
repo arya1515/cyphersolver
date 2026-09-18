@@ -27,9 +27,9 @@ re-checked for these two letters in this session.
 It's a printed one-part template of 14 columns, each running A–Z: letters (3–162), two syllable columns
 (163–482), then words and names up to 2342. The numbers are handwritten, one per slot, **skipping every
 number ending in 5 or 9**, and 516–617 are skipped entirely. The marginal note says: "The numbers
-under 3 and above 2343 and all numbers ending in 5 and 9 are Blanks. As are likewise the numbers
+under 3 and above 2342 and all numbers ending in 5 and 9 are Blanks. As are likewise the numbers
 between 516 and 617". *Blanks* means nulls. In practice **every unassigned slot is also used as a
-null**: 740, 742, 900, 902, 972, 1060, 1062, 1854, 2172, 2190, 2236, 2258, 2278, 2291, 2317, 2332,
+null**: 322, 482, 740, 742, 900, 902, 972, 1060, 1062, 1854, 2172, 2190, 2236, 2258, 2278, 2291, 2317, 2332,
 2336, 2342. The 5 Oct letter's own decipherer skips 740, 900, 2172 and 2278 in the same way.
 I transcribed all 1,456 assigned slots from the recto, in 25 tiles. Three entries sit in a fold and
 can't be read (1584, 1744, 1904, the 3rd F-row entry of columns 10–12).

@@ -10,7 +10,7 @@ checked and corrected.** Claudio Pérez Gredilla, head of the Simancas archive, 
 text in *Historia crítica y documentada de las Comunidades de Castilla* t. V = **Memorial Histórico Español
 t. XXXVIII (1899), pp. 703-705** ("Esta traducción se debe á D. Claudio Pérez Gredilla… sin que… haya podido
 descifrar algunas palabras, que se trasladan tal como resultan en el original"). Danvila cites "Estado leg. 8,
-fol. 460" (the foliation stamped on the leaf); the text is the same letter. Found by OCR search of the
+fol. 150" (the foliation stamped on the leaf; OCR gives "460", the page scan reads 150); the text is the same letter. Found by OCR search of the
 archive.org scan (`memorialhistri38realuoft`), after PARES gave the date and place.
 [gredilla_1880s.txt](gredilla_1880s.txt) is a transcription of his text from the page scans. Code groups he
 could not read are printed in italics, about 25 of them.

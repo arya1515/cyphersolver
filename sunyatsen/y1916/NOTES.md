@@ -14,10 +14,10 @@ correspondent pair had its own rotation and vowel order:
 | key (`famtest.py`) | consonants from | vowel order | used on |
 |---|---|---|---|
 | swatow1916 | l | e a i o u | Tanaka, Swatow → Rosamonde (3 Apr 1916) |
-| shanghai1916 | reversed, from b | i o a e u | Sun ↔ Yamada Junzaburō, Shanghai; Shanghai (Chen Qimei, Xu Chongzhi …) → Rosamonde, Mar–Apr 1916 |
-| manila1916 | f | o e u a i | Sun ↔ Konglipo, Manila; one Shanghai telegram signed by Xu Chongzhi |
+| shanghai1916 | from b, reversed (01 = zi) | i o a e u | Sun ↔ Yamada Junzaburō, Shanghai; Shanghai (Chen Qimei, Xu Chongzhi …) → Rosamonde, Mar–Apr 1916 |
+| manila1916 | g | o e u a i | Sun ↔ Konglipo, Manila; one Shanghai telegram signed by Xu Chongzhi |
 | seito1916 | m | u i e o a | Qingdao (Ju Zheng; Kayano Nagatomo) ↔ Tokyo, Mar–Apr 1916 |
-| sanfran1916 | v | o e u a i | Tokyo → "Youngchina", San Francisco |
+| sanfran1916 | x | o e u a i | Tokyo → "Youngchina", San Francisco |
 | yamada1916 | q | e u i o a | Tokyo (Xie Chi, "Linwailuk") ↔ Junzaburo, Shanghai, May 1916 |
 | shanghai1917 | k | a e u o i | Sun ↔ Dai Jitao, March 1917 (`../y1917/NOTES.md`) |
 

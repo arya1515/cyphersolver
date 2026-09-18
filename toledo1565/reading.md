@@ -122,7 +122,7 @@ seruicio que haze en ello a V. Mag.
 
 ## What the letter says (English)
 
-Written from Messina on 16 July 1565, a fortnight into the siege of Birgu and about a week after the
+Written from Messina on 16 July 1565, about two months into the siege of Malta (begun 18 May) and about a week after the
 *Piccolo Soccorso* reached Malta. Every proper name, number and item of intelligence is in cipher.
 
 1. **The relief got in.** The 600 soldiers Don Juan de Cardona put ashore all entered Il Borgo safely.
@@ -133,11 +133,12 @@ Written from Messina on 16 July 1565, a fortnight into the siege of Birgu and ab
    enter; the *barqueta* sent ahead to arrange fire-signals got in safely before dawn on Tuesday; but the
    Grand Master made the fire-signals unmistakably *not* to enter, repeated them within the appointed
    hour, and the galleys stood out to sea to avoid being spotted, reaching Messina that morning. Don Juan
-   Çanoguera, who piloted them, "did it very well". The messenger who carried the duplicate of this
-   despatch swam the last stretch to the Borgo; Mdina lit the same fire, proof he arrived.
+   Çanoguera, who piloted them, "did it very well". The man the *barqueta* landed swam the last
+   stretch to the Borgo, and the signals show he arrived; a second man, sent by the other side with a
+   *duplicado* of García's message, evidently reached Mdina, which lit the same fire.
 3. **Money and materiel.** Without galleys "me destruye". Forty thousand escudos a month for the ships,
-   two months' pay owed, half of the 48,000 ducados already eaten; 500 quintals of artillery metal,
-   cordage and timber bought from Spain, *botas, barriles, morriones y corazinas*; biscuit to be baked.
+   two months' pay owed, half of the 48,000 ducados already eaten; 500 quintals of artillery (by Spanish
+   weight) bought, much cordage and timber for the netting, *botas, barriles, morriones y corazinas*; biscuit to be baked.
    He asks Philip II to count the Italians to be raised and the Spaniards to be paid, and says the
    provision does not suffice. Gian Andrea Doria will be paid what little can be managed.
 4. **Fortification.** Begin at once on the landward front of Syracuse (*Çaragoça*) and a sea-facing
