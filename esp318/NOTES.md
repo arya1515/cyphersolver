@@ -122,13 +122,32 @@ A second candidate, untested because unpublished: Galende Díaz's file BRAH 9/15
 The dates make either plausible: no. 94 is Messina, 27 April 1503 — the day before Cerignola — and no. 93 is Venice,
 24 February 1504, in the weeks after the Garigliano.
 
-## No. 95
+## No. 95 — Lasry's key applied by machine: three quarters of the leaf keyed, Spanish throughout
 
 Solved "approximately" by George Lasry in May 2022; Tomokiyo prints the key as an image only
 (`lit/crypt/img/GL_BnF_es318_f122.png`, saved here), and no plaintext has been published. The alphabet is homophonic,
 one to three signs per letter, plus unassigned signs and the code groups `bac bnh bon dah daf dae oht bed dal boo del`.
-Applying it to the opening line of f. 122r yields Spanish — the run `m̅ ß ≐` gives *que* and `7 ≐` gives *de* — so the
-key is sound, and the letter is waiting for someone to transcribe thirty lines of *scriptio continua*.
+
+Reading the symbols by eye was not reliable enough (÷ against ≐, plain 7 against ᵒ7 and crossed 7), so f. 122r was
+segmented and clustered instead: adaptive-threshold binarisation (`seg.py`), connected components grouped into
+glyphs by x-overlap with diacritics attached (`glyphs.py`, 963 glyphs on 31 lines, median 31 a line), Ward
+clustering of 28×28 bitmaps (`cluster.py`, `montage.py`), and the clusters labelled from the montages against
+Lasry's key (`assign95.py`). The clean clusters carry 64 % of the glyphs and their frequencies are Spanish to the
+letter (E 9 %, A 7 %, O 5 %, N 5 %, S, C, U, R, D, M, T, I, Q ≈ 1 %). The remaining boxes — mostly two signs
+touching, or a sign cut by a descender from the line above — were re-explained with the cluster templates by FFT
+correlation (`localseg2.py`/`localseg3.py`), which lifts the keyed share to 72–79 % (`f122r_reseg_keyed.txt`,
+`f122r_local2_keyed.txt`). Two of Lasry's assignments were corrected on the way: the plain 7 is S, not D (the
+word *escreuir* reads e-s-c-r-e-u-i-r only so), and the n-with-cross-tail sign is M, not Y.
+
+What comes out is Spanish without a language model touching it: line 8 *…toconesto…* (con esto), 11
+*sen[n]oria…que…etmene…os por*, 12 *que…mucho…que…haga*, 13 *…con esto…acorde…o buen…*, 15 *…que…amis[tad]…
+ynorancia…*, 16 *…tratado…que gouierna[n]…pero*, 17 *…muy grandes cosas…no creo que…*, 18 *…que se est[a]…
+parte aun*, 19 *que…en…que…quieren*, 22 *por obra…creo que…amigo*, 23 *escreuir a…*, 25 *dificultad…en los…*,
+1 *…aqui…*. A 5-gram Spanish model (`lm.py`, Don Quijote) with the verified clusters held fixed (`solve95d.py`)
+confirms the assignment but cannot yet fill the rest: a quarter of the glyphs are still gaps or unlabelled small
+clusters, and at that density the model's guesses do not stabilise across seeds. Finishing it is a line-by-line
+correction of the machine transcription against the strips in `ov/R95_*.png`, not more cryptanalysis. f. 122v
+(five lines) runs through the same templates (`f122v_reseg.pkl`) but is thinner and not yet read.
 
 ## What is in this directory
 
@@ -138,6 +157,8 @@ key is sound, and the letter is waiting for someone to transcribe thirty lines o
 * `manifest.json`, `lab2canvas.json`, `notice.html` — the ark's manifest, the folio→canvas map, and the BnF notice
   with the hundred item descriptions (items are numbered, folios are not: the map has to be made from the notice).
 * `keys/cifra_general.txt|.json` — the *Cifra general de los Reyes Católicos*, 683 codes + 21 personal symbols.
+* `seg.py`, `glyphs.py`, `cluster.py`, `montage.py`, `localseg2.py`, `assign95.py`, `solve95d.py`, `lm.py` — the
+  segmentation → clustering → keying → language-model pipeline used on f. 122r (see No. 95).
 * `decode.py` — applies the key to a whitespace-separated transcription; `crop.py`, `strip.py`, `lines.py` — the image
   tools. Line pitch comes from the autocorrelation of the ink profile (f. 116r 113 px, f. 118r 128 px, f. 120r 100 px,
   f. 122r 114 px); three-line half-width strips at 2.6–3× are the readable unit for these hands.
@@ -151,7 +172,8 @@ key is sound, and the letter is waiting for someone to transcribe thirty lines o
    Benavides y Carvajal y bolvióse de los aquí …"*, *"commo esto passamos en anocheçiendo"*, *"En lo de la hazienda
    luego …"*), so every ciphered stretch has context on both sides.
 2. Test Bergenroth's Gran-cifra list against that transcription before attempting a cold break.
-3. Finish no. 92 with the key in `keys/`, and no. 95 with Lasry's. Both are transcription work, not cryptanalysis.
+3. Finish no. 95 by correcting `f122r_local2_keyed.txt` line by line against `ov/R95_*.png`, then run the same
+   templates over f. 122v; finish no. 92 with the key in `keys/`. Both are transcription work, not cryptanalysis.
 
 ## References
 
