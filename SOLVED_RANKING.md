@@ -67,7 +67,7 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing.
+Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, and Pelissier 1592 (p18) beside Vich 1511–12.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -81,11 +81,13 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p15 | **Mary Queen of Scots → the Duke of Norfolk**, "the 20th" [Feb or Mar 1570], Cotton MS Caligula C II f. 74r | 1570 | 2 | 3 | 3 | 3 | 2 | 3 | **2.65** | Key in print (Tomokiyo, rebuilt from the deciphered siblings) and checked on f. 66r; no cryptanalysis beyond reading signs. Novelty is limited: Tomokiyo's overlay already had most of the letters, and what is new is the continuous reading, the gap fills, the names and the date. Content: the Norfolk marriage intrigue after Moray's murder, with Elizabeth blaming Mary for it. Five unkeyed signs and a few words open |
 | p16 | **Cardinal Soglia → the nuncio Viale Prelà**, Rome 15 June 1848 (*L'Italia del Popolo*, 30 June 1848) | 1848 | 4 | 3 | 5 | 3 | 2 | 3 | **3.55** | Ciphertext-only recovery of a system nobody had described for this text: word separator, 64-cell table with syllables, alphabetical 8XXX code, and a synthetic control behind the negative. Never read before, and the paper offered a prize for it in 1848. Content: a papal counter-order to the nuncio that came a day late. Transcription supplied, one digit restored. On no list, only a Cipherbrain post. Ten code words read from context and checked by rank, eleven open |
 | p17 | **Bordeaux → Brienne**, London, 30 May 1653, BL Add MS 4200 f. 88 | 1653 | 2 | 3 | 5 | 4 | 2 | 4 | **3.25** | Read with the Deciphering Branch's own key sheet (DECODE R7537), so 2 not higher, although the design had been identified and a solver built for it beforehand. Never read before: the English worksheets stop at frequency counts. Research: the DECODE key found, the transcription re-checked on the images and 21 faults fixed, the duplicates collated. Content: the envoy's precedence complaint after the Bordeaux deputies' reception and the advice to hold back French mediation, during the Fronde's last months. On Tomokiyo's list only. Held on completeness by six nomenclature codes and a dozen rare tokens |
+| p18 | **A. Pelissier → Pierre Jeannin**, Burgos, 13 Sept 1592, BnF fr. 3982 no. 22 | 1592 | 2 | 4 | 4 | 4 | 2 | 2 | **3.10** | Key in print (Tomokiyo, from Pelissier's later letters) and confirmed by the decipherer's glosses, so 2; the work was ~18,400 signs transcribed from the Gallica scans and beam-decoded. Never read before and weighty: Spanish policy toward the League and the Estates in the autumn of 1592, the two-army plan and its cost, the case for Navarre as argued in France. Low on completeness: half to two-thirds read |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
 p14 0.50 + 1.00 + 0.60 + 0.40 + 0.10 + 0.30; p15 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30; p16 1.00 + 0.75 + 1.00 + 0.30 + 0.20 + 0.30;
-p17 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.40.
+p17 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.40;
+p18 0.50 + 1.00 + 0.80 + 0.40 + 0.20 + 0.20.
 
 ## By single axis
 

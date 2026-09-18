@@ -41,6 +41,7 @@
   "moray to wood, 1568": "2026-09-15",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
+  "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "richard forster, 1644": "2026-09-16",
@@ -88,7 +89,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6644d708048d",
+   "hash": "1110ff9f1a75",
    "updated": "2026-09-18"
   },
   "catinat1691": {
@@ -148,7 +149,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "03b5999ab746",
+   "hash": "6b06868a4787",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -196,6 +197,11 @@
    "hash": "be4a11d97de7",
    "updated": "2026-09-18"
   },
+  "pelissier1592": {
+   "first": "2026-09-18",
+   "hash": "decacef135ce",
+   "updated": "2026-09-18"
+  },
   "raince": {
    "first": "2026-09-17",
    "hash": "b283aa4c0b52",
@@ -228,7 +234,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "d086ba51421f",
+   "hash": "fba7320d0cab",
    "updated": "2026-09-18"
   },
   "sormano": {
