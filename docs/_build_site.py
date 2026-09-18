@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260917b'
+VERSION = '20260918a'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -46,7 +46,7 @@ FINDINGS_REGION = re.compile(r'<h2 id="recent">.*?(?=\n<h2|\n<!-- |\Z)', re.S)
 GENERATED = [
     r'<header class="nav">.*?</header>', r'<nav class="nav">.*?</nav>', r'<footer.*?</footer>',
     r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
-    r'<!-- cards:start -->.*?<!-- cards:end -->',
+    r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
@@ -342,30 +342,161 @@ PAGES = [
 ]
 IMAGES = {'clair357': ('clair357_f167r_glosses.jpg', 'BnF Clairambault 357 f. 167r: two-digit figures with the 1586 decipherer’s words written between the lines, Fumé, visadmiral, du Roy de Navarre', 'Bibliothèque nationale de France'), 'breves1603': ('breves1603_key_leaf.jpg', 'BnF fr. 3462 f. 103, the key of Savary de Brèves for 1602–03: persons in the left column, the alphabet across the top, the nomenclator below, doubles and nulls at the foot on the right', 'Bibliothèque nationale de France'), 'pelissier1592': ('pelissier1592_f46r_head.jpg', 'BnF Français 3982 f. 46r, Pelissier to Jeannin, Burgos, 13 September 1592: the clear opening and the first rows of cipher, with the decipherer’s scattered glosses', 'Bibliothèque nationale de France'), 'soglia1848': ('soglia1848_block_head.jpg', "The Roman reprint of L'Italia del Popolo, 30 June 1848: the clear opening of Cardinal Soglia's dispatch and the first lines of digits, 5 the word break, 8XXX the code", 'Tony Gaffney, via Klaus Schmeh, Cipherbrain'), 'vich1511': ('vich1511_n46_cipher_decipher.jpg', "AHN Estado 8715 N.46, 5 July 1511: the opening lines of the cipher above the opening of the clerk's decipherment, Con beltran de cordona que partio de Sevilla a xvj de junio", 'Archivo Histórico Nacional (PARES)'), 'norfolk1570': ('norfolk1570_f74r_lines.jpg', 'BL Cotton MS Caligula C II f. 74r, the left half of the first five cipher lines of Mary to Norfolk, the 20th [1570]: I have, my oun good lord', 'British Library'), 'orpo1942': ('orpo1942_redform.jpg', 'W/T Red Form from intercept station 51 for the Mogilev message of 16 June 1942, with the discriminator ARTTN and the first cipher groups', 'NARA, RG 457, HCC, Box 202, via Weierud (CryptoCellar, 2020)'), 'legation': ('legation_no88.jpg', "NARA M35 reel 3 frame 0206, No. 88 of 25 June 1812: the clerk's pencil decode above the code groups stops where Ford's nine undecyphered lines begin", 'National Archives and Records Administration'), 'sunintercepts': ('sunintercepts_tenkiutai.jpg', 'Dai Jitao to Sun Yat-sen, 26 March 1917: condenser words on the received-message form, signed Tenkiutai; the last word ends in the rhyme code for the 26th', 'JACAR'), 'adrian1521': ('adrian1521_f1r_head.jpg', 'AGS Estado leg. 8 no. 150, f. 1r: the address, the clear opening and the first cipher lines, where Gredilla read the death of the King of England', 'Archivo General de Simancas, via PARES'), 'toledo1565': ('toledo1565_f1r_lead.jpg', "AGS Estado leg. 1394 no. 247 f. 1r, the first lines of García de Toledo's letter of 16 July 1565, figure runs inline in the clear Spanish, among them seiscientos soldados and en tiera", 'Archivo General de Simancas (PARES)'), 'yard1699': ('yard1699_oct12.jpg', 'Yard to Manchester, Whitehall, 12 October 1699, p. 1: runs of figure groups set inside the clear English', 'Beinecke Rare Book and Manuscript Library, Yale University'), 'sormano': ('sormano_f121r_head.jpg', 'BnF fr. 3096 f. 121r, the head of no. 66 with the docket duplicata, the clear opening and the first cipher runs', 'Bibliothèque nationale de France'), 'esp318': ('esp318_f116r_gloss.jpg', 'BnF Espagnol 318 f. 116r, two ciphered lines with a later hand carrying a partial decipherment written small between them', 'Bibliothèque nationale de France'), 'gramont1529': ('gramont1529_f45r_head.jpg', 'BnF fr. 3091 f. 45r, the clear opening of Gramont to Montmorency, 11 October 1529, and the first lines of the five pages of cipher', 'Bibliothèque nationale de France'), 'raince': ('raince_p30_lines.jpg', "BnF fr. 2984 p. 30, the first three lines of the second ciphered page of the letter of 13 May 1526", 'Bibliothèque nationale de France'), 'richelieu': None, 'bethune': ('bethune_f34.jpg', 'BnF fr. 3484 f. 34r, the first enciphered passage of Henri IV to Béthune, 10 November 1601', 'Bibliothèque nationale de France'), 'feuquieres': ('feuquieres_p283.jpg', 'Mémoires de Catinat 1819, vol. II p. 283, the ciphered despatch', 'Bayerische Staatsbibliothek'), 'urquhart': None, 'mondoucet': None, 'nevers1593': ('nevers1593_f209_lines.jpg', 'BnF Français 3985 f. 209, the copy of Nevers to Pisany of 8 September 1593, figures inside the clear text', 'Bibliothèque nationale de France'), 'mendoza1589': ('mendoza1589_f14.jpg', 'BnF Français 3641 f. 14, the copy made by the 1589 decipherer of letter A, with the unread code groups underlined and listed in the margin', 'Bibliothèque nationale de France'), 'hesse1603': ('hesse1603_p310.jpg', 'Rommel 1840, p. 310, a page of the King\'s letter of 20 May 1606 in figures', 'Internet Archive'), 'catinat1691': ('catinat1691_p320.jpg', 'Mémoires de Catinat 1819, vol. II p. 320, the start of the King\'s letter of 14 September 1691 in figures', 'Bayerische Staatsbibliothek'), 'ormonde': ('ormonde_p28.jpg', 'Page of the Maltravers to Ormonde cipher letter, 1634', 'Ormonde manuscripts'), 'vatican': ('vatican_meister176.jpg', 'Meister 1906, page 176: the Farnese chancery keys of 1539 to 1542, including the last cipher with Poggio', 'Meister, Die Geheimschrift, 1906, via the Internet Archive'), 'lucca': None, 'boswell': None, 'forster': None, 'warsaw': None, 'hyde': ('hyde_p396.jpg', 'Page 396 of the Life of Barwick, 1724, with the ciphered superscription', 'Life of Barwick, 1724'), 'armstrong': ('armstrong_ps.jpg', 'The coded postscript of Armstrong to Madison, 30 August 1808', 'Founders Online'), 'debosnys': ('debosnys_verse.png', 'Debosnys cipher poem in his invented script, 1883', ''), 'sunyatsen': ('sunyatsen_telegram.png', 'The Swatow telegram to Sun Yat-sen, 3 April 1916', 'JACAR'), 'huangxing': ('huangxing_telegram.png', 'Telegram from Huang Xing, 25 May 1916', 'JACAR'), 'adfgvx': None, 'goldbar': ('goldbar_bar.jpg', 'One of the seven Chinese gold bars with its Latin-letter strings', 'IACR'), 'roosevelt': ('roosevelt_fig2.jpg', 'The Roosevelt letter of 1935: three lines of digits, the letter lines, a skull and crossbones and a dagger through a boot', 'The Friedman Legacy, NSA 1992, Internet Archive scan'), 'copenhagen': ('copenhagen_note.jpg', 'The Copenhagen cryptogram: three lines of digits, letters and strokes', 'Scan published by Klaus Schmeh, Cipherbrain, 2015'), 'scorpion': ('scorpion_s1.jpg', 'Scorpion cipher S1, 70 symbols in a 10 by 7 grid, 1991', 'FBI release via Oranchak and Schmeh'), 'voynich': ('voynich_f34r.jpg', 'Voynich manuscript, folio 34r: a herbal page with four paragraphs of Voynichese', 'Beinecke MS 408, public domain, via Wikimedia Commons'), 'famous': None, 'solved': None}
 
-GROUPS = [('Solved', lambda p: p['st'] == 'solved'), ('Explained', lambda p: p['st'] == 'found'),
-          ('Partly read', lambda p: p['st'] == 'partial' and p['slug'] not in ('famous', 'solved')),
-          ('Attempted, not solved', lambda p: p['st'] == 'stuck'), ('Survey', lambda p: p['slug'] in ('solved', 'famous'))]
+SURVEYS = ('famous', 'solved')
+# chip value on writeups.html, menu label, badge class, predicate
+GROUPS = [('solved', 'Solved', 'solved', lambda p: p['st'] == 'solved'),
+          ('found', 'Explained', 'found', lambda p: p['st'] == 'found'),
+          ('partial', 'Partly read', 'partial', lambda p: p['st'] == 'partial' and p['slug'] not in SURVEYS),
+          ('stuck', 'Attempted, not solved', 'stuck', lambda p: p['st'] == 'stuck'),
+          ('survey', 'Surveys', 'todo', lambda p: p['slug'] in SURVEYS)]
+NAV_LATEST = 6          # write-ups shown in the menu; the rest are one click away on writeups.html
+
+def kind_of(p): return 'survey' if p['slug'] in SURVEYS else p['st']
 
 def nav_html(current):
-    items = []
-    for gname, pred in GROUPS:
-        ps = sorted([p for p in PAGES if pred(p)], key=lambda p: p['y'])
-        if not ps: continue
-        lis = ''.join(f'<li><a href="{p["slug"]}.html"{" aria-current=\"page\"" if p["slug"] == current else ""}>'
-                      f'<span class="st {p["st"]}">{p["stt"]}</span><b>{p["label"]}</b><span class="yr">{p["year"]}</span></a></li>' for p in ps)
-        items.append(f'<div class="grp"><h4>{gname}</h4><ul>{lis}</ul></div>')
+    """The Write-ups menu. It stopped listing every page when the count passed forty: it now shows the newest few,
+    the counts by outcome (each a link into the filtered index) and the way to the full list on writeups.html."""
+    cur = lambda slug: ' aria-current="page"' if slug == current else ''
+    latest = sorted([p for p in PAGES if p['slug'] not in SURVEYS],
+                    key=lambda p: (DATES['pages'].get(p['slug'], {}).get('first', TODAY), p['y']), reverse=True)[:NAV_LATEST]
+    lis = ''.join(f'<li><a href="{p["slug"]}.html"{cur(p["slug"])}><span class="st {p["st"]}">{p["stt"]}</span>'
+                  f'<b>{p["label"]}</b><span class="yr">{p["year"]}</span></a></li>' for p in latest)
+    groups = ''.join(f'<li><a href="writeups.html#kind={key}"><span class="st {cls}">{sum(1 for p in PAGES if pred(p))}</span>'
+                     f'<b>{name}</b></a></li>' for key, name, cls, pred in GROUPS)
+    on = ' class="active"' if current == 'writeups' or any(p['slug'] == current for p in PAGES) else ''
+    panel = (f'<div class="grp"><h4>Latest</h4><ul>{lis}</ul></div>'
+             f'<div class="grp"><h4>By outcome</h4><ul>{groups}</ul></div>'
+             f'<div class="foot"><a href="writeups.html"{cur("writeups")}>All {len(PAGES)} write-ups, with filters &rarr;</a>'
+             f'<a href="writeups.html#src=notes">Results only in the notes</a></div>')
     return (
         f'<header class="nav"><div class="in">\n'
         f'  <a class="brand" href="index.html"><span class="glyph">972</span><span>{SITE}</span></a>\n'
         f'  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>\n'
         f'  <nav id="sitemenu" class="links" aria-label="Site">\n'
-        f'    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
-        f'      <div class="panel">{"".join(items)}</div></details>\n'
+        f'    <details class="menu"><summary{on}>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
+        f'      <div class="panel wp">{panel}</div></details>\n'
         f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>Catalogue</a>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
         f'  </nav>\n</div></header>')
+
+# ---------------------------------------------------------------------------
+# writeups.html: every write-up, filterable, followed by the results that exist only as notes in the repository.
+# The second list is read from ../README.md, whose Results tables are the ledger every session keeps: a row whose
+# "Where" column links to a site page is a write-up (checked against PAGES), any other row is notes only.
+PERIODS = [('1500s', 'to 1599', lambda y: y < 1600), ('1600s', '1600s', lambda y: 1600 <= y < 1700),
+           ('1800s', '1700s and 1800s', lambda y: 1700 <= y < 1900), ('1900s', '1900s', lambda y: 1900 <= y < 9000)]
+KINDS = [('solved', 'solved'), ('found', 'explained or found solved'), ('partial', 'partly read'),
+         ('stuck', 'attempted, not solved'), ('offline', 'waiting on an archive'), ('survey', 'survey')]
+# README section heading, status class, badge text
+README_SECTIONS = [('### Solved', 'solved', 'solved'), ('### Explained', 'found', 'explained'),
+                   ('### Partly read', 'partial', 'partly read'), ('### Found already solved', 'found', 'found solved'),
+                   ('### Attempted and closed', 'stuck', 'attempted'), ('### Offline only', 'offline', 'offline only'),
+                   ('### In progress', 'partial', 'in progress')]
+
+def period_of(y):
+    return next((k for k, _, f in PERIODS if f(y)), 'survey')
+
+def repo_url(link):
+    if link.startswith('http'): return link
+    link = link.lstrip('./')
+    return f'{REPO}/{"tree" if link.endswith("/") else "blob"}/main/{link}'
+
+def md_inline(s):
+    """The little Markdown the README cells use: links, bold, italic, code."""
+    s = html.escape(s, quote=False)
+    s = re.sub(r'\[([^\]]+)\]\(([^)\s]+)\)', lambda m: f'<a href="{repo_url(m.group(2))}" rel="noopener">{m.group(1)}</a>', s)
+    s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
+    s = re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])', r'<i>\1</i>', s)
+    s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
+    return s
+
+def plain(s):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
+
+def year_of(date):
+    m = re.search(r'(\d{4})', date)
+    if m: return int(m.group(1))
+    m = re.search(r'(\d{2})th c', date)
+    return int(m.group(1)) * 100 - 50 if m else 0
+
+def readme_notes():
+    """Rows of the README results tables that have no site page: target, date, result, link, status."""
+    try: text = (HERE.parent / 'README.md').read_text(encoding='utf-8')
+    except FileNotFoundError: return []
+    slugs = {p['slug'] for p in PAGES}
+    notes, seen_pages, st = [], set(), None
+    for line in text.splitlines():
+        if line.startswith('## '): st = None
+        if line.startswith('### '):
+            st = next(((k, t) for h, k, t in README_SECTIONS if line.startswith(h)), None); continue
+        if not st or not line.startswith('| ') or line.startswith('| Target') or line.startswith('|---'): continue
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if len(cells) < 4: continue
+        target, date, result, where = cells[0], cells[1], cells[-2], cells[-1]
+        pages = re.findall(r'cyphersolver/([a-z0-9]+)\.html', where)
+        if pages:
+            for slug in pages:
+                if slug in slugs: seen_pages.add(slug)
+                else: print(f'  note: README links {slug}.html, which is not in the manifest')
+            continue
+        links = re.findall(r'\]\(([^)\s]+)\)', where)
+        if not links: continue
+        notes.append(dict(target=md_inline(target), date=html.escape(date, quote=False), y=year_of(date),
+                          result=md_inline(result), url=repo_url(links[0]), st=st[0], stt=st[1]))
+    for slug in sorted(slugs - seen_pages - set(SURVEYS)):
+        print(f'  note: {slug}.html has no README row')
+    return notes
+
+def writeups_html():
+    def q(*parts): return html.escape(plain(' '.join(parts)).lower(), quote=True)
+    rows = []
+    for p in sorted(PAGES, key=lambda p: p['y']):
+        rows.append(f'<li data-kind="{kind_of(p)}" data-period="{period_of(p["y"])}" data-src="page" '
+                    f'data-q="{q(p["label"], p["title"], p["place"], p["year"], p["blurb"], p["stt"])}">'
+                    f'<a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span>'
+                    f'<span class="t">{p["title"]}</span>{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span>'
+                    f'<span class="b">{p["blurb"]}</span></a></li>')
+    notes = readme_notes()
+    nrows = []
+    for n in sorted(notes, key=lambda n: n['y']):
+        nrows.append(f'<li data-kind="{n["st"]}" data-period="{period_of(n["y"])}" data-src="notes" '
+                     f'data-q="{q(n["target"], n["result"], n["date"], n["stt"])}">'
+                     f'<a href="{n["url"]}" rel="noopener"><span class="st {n["st"]}">{n["stt"]}</span>'
+                     f'<span class="t">{n["target"]}</span><span class="dt">notes &#8599;</span><span class="yr">{n["date"]}</span>'
+                     f'<span class="b">{n["result"]}</span></a></li>')
+    chips = lambda facet, vals: ''.join(f'<button type="button" class="chip" data-facet="{facet}" data-val="{k}" aria-pressed="false">{label}</button>' for k, label in vals)
+    total = len(rows) + len(nrows)
+    return (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f'<title>All write-ups &mdash; {len(rows)} ciphers by outcome and date, and {len(nrows)} results still in the notes</title>\n'
+        f'<meta name="description" content="Every write-up on the site, filterable by outcome, period and text, followed by the '
+        f'results that exist only as notes in the repository: read, explained, attempted or waiting on an archive.">\n'
+        f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>\n<body id="top">\n<!-- site:nav -->\n\n'
+        '<section class="hero">\n'
+        f'  <p class="kicker">Index &middot; {len(rows)} write-ups &middot; {len(nrows)} results only in the notes</p>\n'
+        '  <h1>Every write-up</h1>\n'
+        '  <p class="sub">Each cipher this site has worked on, in date order, with its outcome. Filter by outcome or period, or search '
+        'the titles and summaries. The second list is work that exists only as notes in the repository: results not yet written up, '
+        'attempts closed from the evidence, and items waiting on an archive.</p>\n'
+        '  <div class="jump"><a href="#pages">Write-ups</a><a href="#notes">Only in the notes</a><a href="solved.html">What has been read</a><a href="catalogue.html">Catalogue</a></div>\n'
+        '  <p class="meta">Daniel Bourdeau</p>\n</section>\n\n<main>\n\n'
+        '<div class="wfilters" role="search">\n'
+        f'  <div class="facet"><span class="flabel">Outcome</span>{chips("kind", KINDS)}</div>\n'
+        f'  <div class="facet"><span class="flabel">Period</span>{chips("period", [(k, l) for k, l, _ in PERIODS])}</div>\n'
+        f'  <div class="facet"><span class="flabel">Where</span>{chips("src", [("page", "site page"), ("notes", "notes only")])}</div>\n'
+        '  <div class="facet"><span class="flabel">Search</span><input id="wq" type="search" placeholder="titles, places, summaries" aria-label="Search the write-ups">'
+        '<button type="button" class="chip" id="wreset">reset</button></div>\n'
+        f'  <p class="wcount" id="wcount" aria-live="polite">All {total} entries</p>\n</div>\n\n'
+        '<section class="wsec" id="pages">\n<h2 id="write-ups"><span class="num">01</span> Write-ups</h2>\n'
+        '<ul class="list wl">\n' + '\n'.join(rows) + '\n</ul>\n</section>\n\n'
+        '<section class="wsec" id="notes">\n<h2 id="only-in-the-notes"><span class="num">02</span> Only in the notes</h2>\n'
+        f'<p>Results recorded in the repository <a href="{REPO}#results" rel="noopener">README</a> that have no page here yet. '
+        'Each row links to the folder with the notes, transcriptions and code. The rows are read from the README at build time, '
+        'so a result lands here as soon as it is logged there.</p>\n'
+        '<ul class="list wl">\n' + '\n'.join(nrows) + '\n</ul>\n</section>\n\n</main>\n<!-- site:footer -->\n</body>\n</html>\n')
 
 def footer_html(current):
     order = sorted([p for p in PAGES if p['slug'] not in ('famous', 'solved')], key=lambda p: p['y'])
@@ -496,7 +627,9 @@ def process(path):
         rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
                        f'{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
         cards = ('<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in feat) + '</div>\n'
-                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n<!-- cards:end -->')
+                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n'
+                 f'<p class="allws"><a href="writeups.html">All {len(PAGES)} write-ups, filterable by outcome and period, '
+                 f'with the results that are still only in the notes &rarr;</a></p>\n<!-- cards:end -->')
         if '<!-- cards:start -->' in s:
             s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
         else:
@@ -509,6 +642,9 @@ def process(path):
     return slug
 
 if __name__ == '__main__':
+    for f in sorted(HERE.glob('*.html')):      # date every page before any menu is built: the menu lists the newest
+        page_dates(f.stem, f.read_text(encoding='utf-8').lstrip('﻿'))
+    (HERE / 'writeups.html').write_text(writeups_html(), encoding='utf-8')
     done = [process(p) for p in sorted(HERE.glob('*.html'))]
     save_dates(DATES)
     print('built', ', '.join(done))

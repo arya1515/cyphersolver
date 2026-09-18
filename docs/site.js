@@ -95,3 +95,34 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
   cards.forEach(c=>{ const p=c.querySelector('.tg-b p'); if(!p) return; const t=document.createElement('div'); t.className='tgmore'; t.textContent='more'; p.after(t);
     const toggle=()=>{ const on=c.classList.toggle('x'); t.textContent=on?'less':'more'; }; p.addEventListener('click',toggle); t.addEventListener('click',toggle); });
 })();
+// write-ups index: outcome / period / source chips, text search, state in the hash (writeups.html#kind=solved&q=rome)
+(function(){
+  const items=[...document.querySelectorAll('ul.wl li')]; if(!items.length) return;
+  const chips=[...document.querySelectorAll('.wfilters .chip[data-facet]')], q=document.getElementById('wq'),
+        count=document.getElementById('wcount'), reset=document.getElementById('wreset');
+  const state={f:{}, q:''};
+  function parse(){
+    state.f={}; state.q='';
+    location.hash.slice(1).split('&').forEach(kv=>{ if(!kv) return; const i=kv.indexOf('='); const k=i<0?kv:kv.slice(0,i), v=i<0?'':decodeURIComponent(kv.slice(i+1));
+      if(k==='q') state.q=v; else if(k) state.f[k]=v.split(',').filter(Boolean); });
+  }
+  function apply(remember){
+    chips.forEach(c=>c.setAttribute('aria-pressed', (state.f[c.dataset.facet]||[]).includes(c.dataset.val)?'true':'false'));
+    if(q.value!==state.q) q.value=state.q;
+    const needle=state.q.trim().toLowerCase(); let n=0;
+    items.forEach(li=>{ let ok=true;
+      for(const k in state.f){ const vs=state.f[k]; if(vs.length && !vs.includes(li.dataset[k])) ok=false; }
+      if(ok && needle && !(li.dataset.q||'').includes(needle)) ok=false;
+      li.hidden=!ok; if(ok) n++; });
+    document.querySelectorAll('.wsec').forEach(s=>{ s.hidden=![...s.querySelectorAll('li')].some(li=>!li.hidden); });
+    count.textContent = n===items.length ? 'All '+n+' entries' : n+' of '+items.length+' entries';
+    if(remember){ const parts=[]; for(const k in state.f) if(state.f[k].length) parts.push(k+'='+state.f[k].join(','));
+      if(needle) parts.push('q='+encodeURIComponent(state.q.trim()));
+      try{ history.replaceState(null,'', parts.length ? '#'+parts.join('&') : location.pathname+location.search); }catch(e){} }
+  }
+  chips.forEach(c=>c.addEventListener('click',()=>{ const a=state.f[c.dataset.facet]=state.f[c.dataset.facet]||[]; const i=a.indexOf(c.dataset.val); if(i<0) a.push(c.dataset.val); else a.splice(i,1); apply(true); }));
+  q.addEventListener('input',()=>{ state.q=q.value; apply(true); });
+  reset.addEventListener('click',()=>{ state.f={}; state.q=''; apply(true); });
+  window.addEventListener('hashchange',()=>{ parse(); apply(false); });
+  parse(); apply(false);
+})();
