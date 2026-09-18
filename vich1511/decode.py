@@ -22,7 +22,7 @@ CODE = {  # code groups -> words / syllables
     'gak': 'aquella', 'hel': 'ingalaterra', 'hep': 'julio', 'gik': 'agora', 'pag': 'quales',
     'moe': 'mucho', 'die': 'cosa', 'huf': 'he', 'fun': 'esta', 'sus': 'um', 'miq': 'orden',
     'plart': 'mi', 'soy': 'yo', 'mah': 'dezir', 'fim': 'esta', 'fit': 'capitan', 'dee': 'general',
-    'gab': 'assi', 'plort': 'mi', 'fef': 'emperador', 'sap': 'venecianos', 'ref': 'para', 'suk': 'tiene',
+    'gab': 'assi', 'plort': 'al', 'fef': 'emperador', 'sap': 'venecianos', 'ref': 'para', 'suk': 'tiene',
     'roc': 'parece', 'gor': 'venir', 'seg': 'viene', 'hob': 'largo', 'fir': 'del', 'rof': 'paraque', 'keg': 'pero',
     'huz': 'mas', 'fud': 'dicho', 'hik': 'italia', 'myk': 'no', 'rie': 'pued', 'fat': 'forma', 'dieb': 'cosas', 'fic': 'del',
     'soq': 'verdad', 'daz': 'dize', 'gup': 'batalla', 'fur': 'dela', 'guo': 'bien', 'dij': 'cierto', 'diy': 'cierto',
@@ -32,6 +32,11 @@ CODE = {  # code groups -> words / syllables
     'mag': 'otro', 'peh': 'quiere', 'mef': 'manera', 'heg': 'haveys', 'dex': 'deve', 'fae': 'dicha',
     'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho', 'dez': 'dezir', 'hah': 'he', 'foo': 'ducados', 'dot': 'dos',
     'gol': 'alguna', '&': '·',
+    # from N.45 pp.10-15 (second-half alignment)
+    'fos': 'deseo', 'mef': 'manera', 'mum': 'ninguna', 'feh': 'estado', 'ob': 'ga', 'sod': 'ser',
+    'heg': 'haveys', 'hes': 'lugar', 'pic': 'potencia', 'gno': 'bien', 'mye': 'papa', 'dox': 'duque',
+    'dux': 'duque', 'dur': 'duque', 'fax': 'franceses', 'fuq': 'francia', 'gub': 'armas', 'sat': 'uno',
+    'set': 'una', 'ged': 'amistad', 'di': 'cardenal', 'plu': 'ni', 'far': 'dar',
 }
 
 def decode(tokens):
