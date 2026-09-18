@@ -136,13 +136,47 @@ copies. The clear text gives only "so great and honoured an offer", the request 
 insistence that the King would require nothing but what was reasonable. The content of the offer is not
 read here, and I found no evidence for it in these leaves.
 
-## 5. What remains, and the route
+## 5. The glyph pipeline: segmentation works, shape matching does not
 
-1. **Transcribe the glyphs properly.** By eye on this microfilm it is not reliable. The tractable route is
-   the one the status line describes and which would have to be built: connected-component boxes over the
-   ten cipher sides, clustering, hand-labelling of the cluster medoids, then a classifier. No image
-   libraries (PIL, numpy, OpenCV) are installed in this environment, so nothing of the kind was attempted;
-   installing them is an ordinary step but was out of scope here.
+Because no imaging libraries are installed, the pipeline was built in pure Python: `sips -s format bmp`
+writes an uncompressed 24-bit BMP, which `glyphs.py` parses directly. `glyphs.py` does thresholding,
+8-connected components and features; `glyphs2.py`/`glyphs3.py` add band detection from the horizontal ink
+profile and merging of vertically stacked fragments; `glyphs4.py` does average-linkage agglomerative
+clustering on normalised binary masks; `align.py` aligns a cluster sequence to a known plaintext by
+iterated Needleman-Wunsch and reads off the key.
+
+Run on the four-line crib of f. 124r (`./zoom.sh 128 4980 950 3650 560 cribfull 3650`), the results are:
+
+| step | result |
+|---|---|
+| ink threshold | Otsu picks 153, which is paper; 130 is right, the paper floor being visible in the profile |
+| text bands | 4 found, at y 34–75, 168–213, 310–352, 458–502: exactly the four cipher lines |
+| components per line | 17, 48, 47, 53 = **165**, against **161** letters in the marginal decipherment |
+| shape clustering | fails |
+
+The segmentation is therefore good enough: the line detection is exact and the component count is within
+about 3 % of the letter count, which independently confirms that the cipher is letter-for-letter. The
+clustering is what fails. Aligned against the known plaintext, the best mapping is consistent for only
+62 of 160 aligned positions (39 %), and single clusters absorb up to 29 glyphs spread over 12 different
+letters.
+
+The cause is measured, not guessed. On line 1, whose reading is known by eye (tie mark, then
+u n c a p i t a n e o s u i), the pairwise Jaccard distance between normalised 16 × 16 masks is 0.41–0.50
+for the closest pairs and 0.60–0.83 for unrelated ones. Same-letter pairs are therefore only marginally
+closer than different-letter pairs, and no threshold separates them. Bounding-box normalisation plus
+ink-density masks is too crude for this hand at microfilm resolution: stroke weight, the slant, and broken
+or touching strokes dominate the distance.
+
+What would fix it, in order of likely payoff: stroke thinning and shape-context or Zernike features rather
+than raw masks; translation- and slant-tolerant matching; supervised templates seeded from the two
+contemporary decipherments instead of blind clustering; and, above all, better images than a 1960s
+microfilm. None of that was attempted here.
+
+## 6. What remains, and the route
+
+1. **Make the glyph classifier work** (§5). The segmentation is done and reusable; the shape metric is not
+   good enough. This is the one blocking step: with a working classifier the f. 124r crib alone should fix
+   most of the alphabet, since the alignment machinery is already written and tested.
 2. **Use the self-cribbing pair first.** Align nos. 65 and 66 stretch by stretch; each place where one is
    clear and the other ciphered is a crib, and between them they cover most of the letter of 23 February.
    The 161-letter crib on f. 124r and the shorter one on f. 113r pin the alphabet independently.
@@ -152,17 +186,19 @@ read here, and I found no evidence for it in these leaves.
 4. Not checked: whether any of these letters is printed. The obvious places (Molini, *Documenti di storia
    italiana*; the Ferrara and Modena archive editions; Charrière) were not searched.
 
-## 6. Files
+## 7. Files
 
 `fetch.sh` (openings), `region.sh` (one page at full resolution), `zoom.sh` (an upscaled IIIF region for
-glyph reading), `crop.sh` (bands from a fetched page), `ct/clear_texts.md` (clear-text transcriptions),
-`key_partial.tsv` (the key with evidence), `src/` (the IIIF manifest and the BnF notice), `img/` and
-`crops/` (page images and reading crops, not committed).
+glyph reading), `crop.sh` (bands from a fetched page), `glyphs.py` / `glyphs2.py` / `glyphs3.py` /
+`glyphs4.py` (BMP parsing, components, band detection, clustering), `align.py` (crib alignment and key
+read-off), `ct/clear_texts.md` (clear-text transcriptions), `key_partial.tsv` (the key with evidence),
+`src/` (the IIIF manifest and the BnF notice), `img/` and `crops/` (page images and reading crops, not
+committed).
 
 Checked: the folio-to-canvas mapping, on two foliated leaves; the piece list against the leaves; the sheet
 numbers 1, 2, 3 of no. 63 and its date, subscription and docket; that no. 64 carries no cipher; that nos. 65
 and 66 encipher different stretches, on four matched passages; the two contemporary decipherments and the
-third gloss; 17 glyph values, 13 of them twice over. Not checked: the Marburg-style question of whether the
+third gloss; 17 glyph values, 13 of them twice over; that the segmentation finds 165 components against 161 letters on the crib. Not checked: the Marburg-style question of whether the
 originals differ from the microfilm; any printed edition; the remaining homophones. User must verify: every
 reading here comes from a microfilm image and is unvalidated; the palaeography of "calzolite / calzolari"
 and of the docket on f. 123v is uncertain, and the identification of the box glyph as *f* rests on one word.
