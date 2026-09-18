@@ -302,3 +302,25 @@ So **gap 13–14** for this hand — splitting figures at 8, merging them at 18.
 pointed the wrong way because the plaintext span it was compared against was a guess, which is a
 fair warning about the audit: it is only as good as the certainty of the plaintext behind it.
 Calibrate on hand-labelled spans, not on estimated ones.
+
+
+## Re-mined at the calibrated gap: the exemplar set doubles
+
+Re-segmenting f. 18r line 2 at gap 14 gives 29 boxes against the 30 the plaintext demands, and the
+boxes that were merged before now separate — the old box 3, which held a triangle *and* a long-s
+ligature, splits into two figures that label cleanly as **e** and **f**. Laying
+*"ste fust aduertie [et] plustost que nous eussions"* across them:
+
+| box | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| letter | s | t | **e** | **f** | u | s | t | a | *du* | e | r | t | i | e |
+
+with boxes 16–18 the code groups `52` / `14` / `25`, and 19–20 the doubled-s and *i* of *eussions*.
+
+**One line, correctly segmented, now yields 15 clean single-figure exemplars** and only five
+`MULTI` boxes — against seven `MULTI`s and a scatter of guesses at gap 18.
+
+Exemplar set after this pass: **30 labelled figures covering 11 distinct letters**
+(a, e×4, f, i×5, n, o, r×2, s×5, ss×2, t×5, u×3). The homophones are starting to show: five
+different figures for *s*, five for *t*, five for *i*, four for *e* — which is what the eight
+undeciphered leaves have been tripping over from the beginning.
