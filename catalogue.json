@@ -673,13 +673,13 @@
    "cls": "A",
    "seen": "catalogue",
    "source": "BnF harvest",
-   "status": "Two mÃ©moires without decipherment beside a third with one.",
+   "status": "Found already solved, 18 Sept 2026 (conti1649/): G. Lasry, 'Armand de Bourbon's Poly-Homophonic Cipher - 1649', HistoCrypt 2023, deciphered both letters (ff. 113r-v, 115r) in full; poly-homophonic letter cipher, no nomenclator, key row spells J'aime c'est un grand mal. No. 43 is a different (three-digit figure) code, so the verify-first premise fails. Lasry's key fits his transcription (234/237 signs checked); his 'Monsieur de Tenerande(?)' reads TENCRANDE under the key, person unidentified.",
    "why": "The Frondeurs' negotiation with Spain at the Peace of Rueil.",
    "importance": 3,
    "solvability": 4,
    "difficulty": 2,
    "score_note": "Deciphered sibling of the same days; content is a known negotiation but the instructions themselves are unpublished (*).",
-   "verify": "Confirm nos. 41â€“43 share one cipher."
+   "verify": "Checked: nos. 41-42 share one cipher; no. 43 does not."
   },
   {
    "id": 27,
