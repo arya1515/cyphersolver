@@ -342,6 +342,24 @@ substitution : MFICHE Français 2974", reproduction matrix **S 39769**. One orde
 finishes this target. Molini does not print nos. 63, 65 or 66 - his 1529 contents run 4, 7, 8 and 28
 February and then March - so those letters remain unprinted and unread.
 
+## 5d. The method a future attempt should use, and the eighth demonstration of the limit
+
+The best procedure found here is a hybrid, and it was found last: take the glyph boxes from the automated
+segmentation, which is reliable, and identify each glyph *by eye* from a word-level IIIF crop at about 7x.
+Reading whole lines by eye mis-segments; classifying automatically mis-identifies; the hybrid does neither.
+`solve.py` prints the box of every crib glyph with the letter the crib assigns it, and a crop such as
+`./zoom.sh 128 5790 1085 500 105 calzolite 3600` then shows that word's nine glyphs large and sharp.
+
+Tried on *calzolite* it gives a clean, legible stroke, triangle, 3-form, 9, crossed X, g-form, p-form. The
+triangle is *c* for the third independent time. But the boxes run one position ahead of the letters, and
+once that is corrected the word requires the 3-form = a and the g-form = o, where "sormano" requires the
+3-form = o and "nominato" requires the g-form = m. Those contradictions are systematic: every crib passage
+produces them, at the same small set of visually adjacent forms. Eight approaches now, one cause.
+
+So the residue is a genuine palaeographic problem, not a cryptographic one: the hand uses several forms
+that differ by less than this film records, and the crib passages are too short to separate them by
+constraint alone. The fr. 2974 crib is long enough that it would.
+
 ## 6. What remains, and the route
 
 1. **Make the glyph classifier work** (§5). The segmentation is done and reusable; the shape metric is not
