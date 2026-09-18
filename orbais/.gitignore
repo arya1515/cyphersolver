@@ -1,0 +1,9 @@
+img/
+g4715/
+*.jpg
+*.png
+*.htm
+*.html
+*.xml
+manifest.json
+fetch.log
