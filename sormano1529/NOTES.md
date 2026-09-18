@@ -259,27 +259,61 @@ and the 22 values should carry the rest quickly; failing that, stroke-based feat
 against the self-cribbing pair are the next things worth building, with no guarantee against a 0.017
 margin.
 
-## 5c. External evidence: context confirmed, the substantive claim unattested
+## 5c. External evidence: the negotiation identified, the Naples claim not supported
 
-Two routes outside the cipher were tried, since this repository has solved targets before by finding a
-printed edition rather than by cryptanalysis.
+The printed route, which has cracked other targets in this repository, was pursued and produced the most
+useful ground gained here. Two sources, both reached around blocks (cour-de-france.fr sits behind a
+Cloudflare challenge, so Potter's inventory was taken from the Wayback Machine and its text extracted with
+`src/pdftxt.py`, a zlib-based PDF reader written because no PDF tools are installed).
 
-* **The letters in print.** Not found. Gaspare Sormano is identified in the literature as a Milanese
-  jurist and *decurione*, a partisan of French rule in Milan and governor of the Vallassina, who undertook
-  missions for Francois I, which fits the resident ambassador of these letters. David Potter's *Inventaire
-  des lettres missives de Francois Ier* has a 1529 volume on cour-de-france.fr which would inventory the
-  King's side of this negotiation, including the instruction de Vaulx was carrying; the site sits behind a
-  Cloudflare challenge that cannot be cleared from here, and the Google Books API exhausted its daily
-  quota mid-search. **Both are live leads, not dead ends**, and either could supply the content of the
-  offer without breaking the cipher.
-* **The historiography.** It confirms the setting exactly and does not confirm the claim. February 1529 is
-  precisely when France was trying to hold Alfonso I; at Cambrai in August 1529 France abandoned its
-  Italian allies, which left the duke "in extreme danger" and drove him to make his own terms with Charles
-  V before Bologna that November. So "Ferrara's defection from France before the Peace of Cambrai" is the
-  right significance for these letters. And the offer of Naples was *available* to Francois I in February
-  1529, since he renounced his Neapolitan claim only at Cambrai that August. But no source found here
-  attests an offer of Naples or of the captaincy-general to Alfonso d'Este. The claim is plausible in
-  context and unverified.
+**1. "Joachim de Vaulx" is Gian Gioacchino de Passano.** The catalogue's two names are one man: the
+Genoese negotiator Gian Giacomo (Gioacchino) de Passano, seigneur de Vaux, whom the French called simply
+"Jean Joachim". Three independent confirmations: Francois I himself writes to Jean du Bellay of "Monsr de
+Vaulx, Jean Joaquin"; Potter's note to the King's letter of 20 January 1529 says "G. G. de Passano fut
+envoye a Ferrare d'ou il ecrit le 23 fevrier (**BnF, fr. 3096, fo. 119-121**)", which is our no. 65; and
+Molini prints the Venice letter of 6 May 1529 in which the writers refer to "le lettere ... da Ferrara per
+il Sig. Gaspar Sormano et per me Ioachin". Sormano is likewise fixed: the King writes of "Gaspard Sormano,
+que je tiens resident aupres de mon cousin le duc de Ferrare".
+
+**2. What the embassy was actually offering.** Not, on the evidence, Naples. The King's letter to du Bellay
+of about 30 January 1529 states the charge de Vaulx was carrying: "A ceste cause expedie icelluy de Vaulx
+avec **pouvoir de proposer aux Venitiens, Fleurentins, duc de Millan et de Ferrare** [et autres] afin si
+faire se peult une si saincte salut[aire alliance]" - a general Italian league against the Emperor, headed
+by the Pope, with France and England as contracting parties, "moyen de rompre les desseings et entreprinses
+de l'Empereur et d'avoir toute l'Ytallie contre luy". That is the "instruction et mandato" our letters say
+de Vaulx showed Sormano, and it is what the "cosi grande et honorata offerta" must concern. The "grande
+opera che in beneficio della sua persona, stato, casa et successione vra Mta havea fatto" is then the
+Renee marriage of 1528 and French backing of Ferrara's disputed rights. The King had also sent the vicomte
+de Turenne to Alfonso on 27 January with matters "de tres grande importance et consequence" (printed in
+Justel, *Preuves*, p. 241), and sent Chastillon on 10 March.
+
+**So the status line's substance is not supported.** Its claim that Alfonso "refuses the kingdom of Naples
+for himself and the captaincy of the French army" is not merely unattested; the documented power de Vaulx
+carried was to propose the league. Francois I did still hold his Neapolitan claim in February 1529,
+renouncing it only at Cambrai that August, so such an offer was *possible*; but nothing found here attests
+it, and the mission as the King described it was about the alliance. It is not catalogued.
+
+**3. No. 67 is corroborated and explained.** Molini prints the Avranches-Ioachim letter from Venice of
+6 May 1529, which shows the league buying the imperial mercenaries out of the Kingdom of Naples: "quelli
+Alamani che si leveranno dal servicio de gli nemici ... **al soldo de la lega** si conduchino ... quelli
+che son nel regno di Napoli ... non sono oltre ij mila v cento teste", and reports that the enemy "per
+meglio asicurarssi de l'Abruzo, et maxime **de l'Aquila**, a gran diligentia a l'Aquila fanno una forteza".
+Our no. 67 is one operation inside exactly that: a Swiss captain named Calzolari at **L'Aquila** with 1,200
+Swiss and landsknechts who "desidera a retrovarse **al beneficio de la lega**", with Sormano pledging his
+own bank credit because no money was to be had at Ferrara. Molini's own note elsewhere speaks of "quella
+segreta lega, che il Sormano consigliava".
+
+**4. A printed crib for this cipher exists, and that is the way in.** Molini prints other Sormano letters
+in the same cipher *with their contemporary decipherments*, and says so: of the letter from Ferrara of
+13 April 1529 he notes "**Alcune espressioni sono in cifra, con sopra l'interpretazione di carattere
+sincrono, e sono quelle impresse in corsivo**" - the ciphered phrases are set in italics from the
+interlinear reading. Three further letters in his volume carry the same note. He worked from the Paris
+originals, citing volumes by their *ancien* numbers: our fr. 3096 is anc. 8621, which he used for eight
+letters, and the 13 April Sormano letter is anc. 8499 fo. 94. **Aligning Molini's italics against the
+glyphs of those manuscripts would give a long plaintext-ciphertext crib and should yield the whole
+alphabet with many exemplars per form** - which is precisely what this attempt lacked. Molini does not
+print nos. 63, 65 or 66; his 1529 contents run 4, 7, 8 and 28 February and then March, so our letters
+remain unprinted and unread.
 
 ## 6. What remains, and the route
 
