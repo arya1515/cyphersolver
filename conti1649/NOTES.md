@@ -50,3 +50,15 @@ cipher was brought to light by Camille Desenclos (Lachenicht & Braun 2021, p. 87
 - `manifest.json`: the Gallica IIIF manifest.
 - The images are not in the repo (see `.gitignore`). To re-fetch full resolution, use
   `https://gallica.bnf.fr/iiif/ark:/12148/btv1b52520094g/f{237,238,241,245..251}/full/full/0/native.jpg`.
+
+## No. 43 (ff. 117r–120r): the unglossed opening, read (18 Sept 2026)
+
+- No. 43 is Conti's mémoire **pour Monsieur de Legue**: Laigue, his envoy to the Archduke.
+- It is in a numerical letter-and-syllable code, glossed between the lines from f. 117r l. 12 on.
+- Its first 12 lines (264 groups: the address and the purpose of the mémoire) were never deciphered. They are now
+  read in full; see `READING43.md`.
+- The key was rebuilt from the interlinear glosses and from the code's regular layout:
+  - four interleaved single-letter alphabets;
+  - syllable blocks of five, with a second homophonic series;
+  - an underlined number reverses its syllable;
+  - numbers 99–250 are nulls.

@@ -673,7 +673,7 @@
    "cls": "A",
    "seen": "catalogue",
    "source": "BnF harvest",
-   "status": "Found already solved, 18 Sept 2026 (conti1649/): G. Lasry, 'Armand de Bourbon's Poly-Homophonic Cipher - 1649', HistoCrypt 2023, deciphered both letters (ff. 113r-v, 115r) in full; poly-homophonic letter cipher, no nomenclator, key row spells J'aime c'est un grand mal. No. 43 is a different (three-digit figure) code, so the verify-first premise fails. Re-deciphered independently here from a fresh transcription of all three pages (conti1649/READING.md): agrees with Lasry, adds 'ne pouvant', 'pour insister' (no. 42), the B<l>etaigne slip; Tenerande confirmed, person unidentified.",
+   "status": "Found already solved, 18 Sept 2026 (conti1649/): G. Lasry, 'Armand de Bourbon's Poly-Homophonic Cipher - 1649', HistoCrypt 2023, deciphered both letters (ff. 113r-v, 115r) in full; poly-homophonic letter cipher, no nomenclator, key row spells J'aime c'est un grand mal. No. 43 is a different letter/syllable number code, so the verify-first premise fails; its never-deciphered 12-line opening (address to M. de Legue = Laigue and purpose) is read here from a key rebuilt from the interlinear glosses (READING43.md). Re-deciphered independently here from a fresh transcription of all three pages (conti1649/READING.md): agrees with Lasry, adds 'ne pouvant', 'pour insister' (no. 42), the B<l>etaigne slip; Tenerande confirmed, person unidentified.",
    "why": "The Frondeurs' negotiation with Spain at the Peace of Rueil.",
    "importance": 3,
    "solvability": 4,
