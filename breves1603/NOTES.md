@@ -82,3 +82,16 @@ c?omance a la porte" = "l'isseue du remuement commencé à la Porte".
    is the only route. With the key in hand, reading them is table work. The three letters in full text give about
    2 pages of known plaintext for fixing the glyph readings in `key.md` before tackling the nine summarised ones.
 2. The Monmerqué clear copy, which would give full texts without any decipherment.
+
+## Access check (18 Sept 2026, after the first write-up)
+
+Checks for images of fr. 3541 anywhere online, all negative:
+- Gallica SRU: `dc.source adj "Français 3541"` = 0 records. `dc.title "Breves"` + Français = 11 records,
+  none of them fr. 3541. `dc.description "9021"` = no manuscript.
+- The BnF notice (cc49988x) has no digitisation link.
+- Gallica arks are not assigned in shelfmark order, so they can't be guessed: the arks next to fr. 3540
+  (btv1b90605139) belong to fr. 5xxx volumes.
+- Desenclos 2018 has no plates.
+
+Tomokiyo does not say where his images came from. They were probably a reproduction ordered from the BnF.
+Deciphering the nine summarised letters needs that reproduction.
