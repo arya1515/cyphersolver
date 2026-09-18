@@ -196,6 +196,37 @@ the binding constraint and the IIIF service serves no more than the film holds; 
 self-cribbing pair's long known plaintexts and Italian letter statistics to constrain the assignment
 rather than deciding each glyph on shape alone.
 
+## 5b. Why this stops here: three independent attempts, one cause
+
+The key is verified, and it is not enough, because reading at scale needs a reliable glyph transcription
+and this film does not support one. Three methods were tried and all fail at the same point:
+
+| method | result |
+|---|---|
+| blind shape clustering of the 161 crib glyphs, then alignment | 40 % consistent |
+| nearest-template classification, line 1 templates onto line 2 | 26 % correct |
+| reading by eye, on text whose plaintext is not known in advance | gibberish |
+
+The third is the decisive one, and it exposes a caveat on the second section above. In the 21-letter
+verification the plaintext was known, so expectation helped me choose between similar forms; that reading
+is sound as a *check* on the key but it is not evidence that I can transcribe blind. Applied to the
+conclusion of no. 65, where nothing is known in advance, my own glyph reading returns strings that are not
+Italian. The one genuinely blind success is short: the six glyphs after "quasi", which read *chiaro*
+unprompted, and which is why the h value is trustworthy.
+
+The common cause is measurable: about 35 symbol forms, several of them minimal variants of one another
+(two rho-like forms separating *i* from *l*, triangle against alpha, chi against hooked-4, plain stroke
+against tailed-4), rendered at 50 to 60 pixels per glyph on a mid-century black-and-white microfilm, with
+stroke weight varying more between two instances of one form than between two different forms. The
+same-glyph and different-glyph distance distributions overlap, and the eye is subject to the same limit.
+
+So the honest state of this target is: **documentary problems solved, key verified on 22 values, letters
+not read.** Claiming otherwise would not survive anyone opening the leaves. What would finish it is a new
+capture of ff. 113-124 at a resolution the originals can give, after which the pipeline in this directory
+and the 22 values should carry the rest quickly; failing that, stroke-based features and joint decoding
+against the self-cribbing pair are the next things worth building, with no guarantee against a 0.017
+margin.
+
 ## 6. What remains, and the route
 
 1. **Make the glyph classifier work** (§5). The segmentation is done and reusable; the shape metric is not
