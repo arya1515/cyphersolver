@@ -43,3 +43,18 @@ With that, f. 18r line 3 — 24 boxes, segmented and rendered at `hi/l3box_*.png
 `f18r_l3_boxes.json` — has its plaintext and is ready to label. That is the next unit of work, and
 it is the same unit repeated: read a plaintext line, lay it across the cipher line's boxes, save
 each box as a labelled image.
+
+
+## Further lines, read at three tiles
+
+12. … bonnes villes … plus importantes que quelque[s] veulen[t] … au M[onsieur] …
+13. **Matignon** comme proteste … quel[le] faveur contrari[er] et m[es] … avantures ung …
+
+Line 13 names **Matignon** in the clear — the marshal commanding in Guyenne, and the second party
+in this whole catalogue entry. The despatch is therefore not only about the siege but about
+Matignon's own position, which is what the ciphered passages of ff. 196/201 also circle around
+("Monsieur du Mayne vous a faict une autre despesche…").
+
+A name in the plaintext is worth more than an ordinary word for the mining: proper nouns are spelled
+out letter by letter rather than hidden in a code group, so *Matignon* is nine consecutive figures
+whose letters are certain — and it carries a **g**, which the exemplar set has only once.
