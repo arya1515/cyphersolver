@@ -212,7 +212,7 @@
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Two deciphered siblings within a month; alignment should give the key in an afternoon. Content is minor.",
-   "verify": "Request a fresh capture of ff. 113-124; the pipeline and the 22 verified key values should then finish it. Do not accept a reading of the conclusion without per-glyph evidence.",
+   "verify": "Two live leads that bypass the cipher: David Potter's Inventaire des lettres missives de Francois Ier for 1529 (cour-de-france.fr, Cloudflare-blocked from here) would inventory the King's instruction to de Vaulx; and a Google Books search for the printed historiography (API quota exhausted mid-search). Otherwise request a fresh capture of ff. 113-124. Do not accept a reading of the both-ciphered conclusion without per-glyph evidence.",
    "outcome": "attempted, open",
    "writeup": ""
   },

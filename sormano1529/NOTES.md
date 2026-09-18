@@ -259,6 +259,28 @@ and the 22 values should carry the rest quickly; failing that, stroke-based feat
 against the self-cribbing pair are the next things worth building, with no guarantee against a 0.017
 margin.
 
+## 5c. External evidence: context confirmed, the substantive claim unattested
+
+Two routes outside the cipher were tried, since this repository has solved targets before by finding a
+printed edition rather than by cryptanalysis.
+
+* **The letters in print.** Not found. Gaspare Sormano is identified in the literature as a Milanese
+  jurist and *decurione*, a partisan of French rule in Milan and governor of the Vallassina, who undertook
+  missions for Francois I, which fits the resident ambassador of these letters. David Potter's *Inventaire
+  des lettres missives de Francois Ier* has a 1529 volume on cour-de-france.fr which would inventory the
+  King's side of this negotiation, including the instruction de Vaulx was carrying; the site sits behind a
+  Cloudflare challenge that cannot be cleared from here, and the Google Books API exhausted its daily
+  quota mid-search. **Both are live leads, not dead ends**, and either could supply the content of the
+  offer without breaking the cipher.
+* **The historiography.** It confirms the setting exactly and does not confirm the claim. February 1529 is
+  precisely when France was trying to hold Alfonso I; at Cambrai in August 1529 France abandoned its
+  Italian allies, which left the duke "in extreme danger" and drove him to make his own terms with Charles
+  V before Bologna that November. So "Ferrara's defection from France before the Peace of Cambrai" is the
+  right significance for these letters. And the offer of Naples was *available* to Francois I in February
+  1529, since he renounced his Neapolitan claim only at Cambrai that August. But no source found here
+  attests an offer of Naples or of the captaincy-general to Alfonso d'Este. The claim is plausible in
+  context and unverified.
+
 ## 6. What remains, and the route
 
 1. **Make the glyph classifier work** (§5). The segmentation is done and reusable; the shape metric is not
