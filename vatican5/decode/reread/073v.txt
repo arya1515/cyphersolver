@@ -1,0 +1,5 @@
+# 073v (IMG_R92_I698_P8.jpg) vs ASV_i1025_SdS_Spain_IA-2.txt block '#IMAGE NAME: 073v.jpg'
+# The page contains NO cipher lines. The whole leaf is cleartext (Italian), ending
+# "Da Roma alli XV di Aprile 1542" and the autograph subscription "Come fratello Il Car. Farnese".
+# The transcript block is likewise entirely <CLEARTEXT ...>, so there is nothing to compare digit by digit.
+DIFF: none (no cipher on page)

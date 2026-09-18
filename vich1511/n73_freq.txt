@@ -1,0 +1,511 @@
+# N.73 frequency count. lines=124 tokens=3177 distinct=197
+# symbols(uppercase)=1851 codewords(lowercase)=1326
+
+## TOKENS
+  171 X
+  170 TH
+  163 PHI
+  151 RH
+  151 sin
+  130 O
+  122 RS
+  109 YH
+  108 KH
+  106 Z
+   97 sud
+   93 no
+   89 zre
+   79 B8
+   77 FH
+   71 OT
+   71 GS
+   68 xed
+   66 CT
+   50 xad
+   43 ZO
+   41 rak
+   41 gso
+   40 tok
+   38 yob
+   37 BO
+   36 AH
+   33 bae
+   32 xeb
+   28 bne
+   26 ZH
+   26 MH
+   21 ynb
+   21 pif
+   18 bac
+   17 N8
+   14 yin
+   14 xnk
+   14 ?
+   13 sio
+   13 xoo
+   13 seg
+   12 xno
+   11 dem
+   10 bao
+    9 su
+    9 xns
+    9 sod
+    8 soo
+    8 see
+    8 teb
+    7 CD
+    7 QH
+    7 suo
+    7 DH
+    7 xny
+    7 sag
+    6 yaz
+    6 yem
+    6 xif
+    6 pnk
+    6 suq
+    6 xam
+    5 V
+    5 sen
+    5 be
+    5 dam
+    5 rie
+    5 xez
+    5 zuy
+    5 xoy
+    5 yez
+    5 EQ
+    5 xeo
+    5 SUPNO
+    5 xaf
+    4 beq
+    4 xo
+    4 sim
+    4 bon
+    4 beo
+    4 san
+    4 suh
+    4 LAM
+    4 ynz
+    4 rok
+    4 bos
+    4 by
+    4 bel
+    3 LO
+    3 xnl
+    3 zoq
+    3 dug
+    3 xin
+    3 tir
+    3 bay
+    3 reh
+    3 dah
+    3 SL
+    3 yom
+    3 pib
+    3 yed
+    3 xnz
+    3 baf
+    3 SS
+    3 bnz
+    3 peb
+    3 dif
+    3 zue
+    3 sof
+    2 sef
+    2 xil
+    2 ne
+    2 pab
+    2 xnp
+    2 poz
+    2 xaz
+    2 PH
+    2 soq
+    2 sif
+    2 sey
+    2 ynh
+    2 doc
+    2 pud
+    2 OS
+    2 byo
+    2 pnd
+    2 sep
+    2 zuf
+    2 pef
+    2 boi
+    2 piq
+    2 sy
+    2 yis
+    2 saf
+    2 tox
+    2 yae
+    1 CII
+    1 zo
+    1 pn
+    1 xiz
+    1 saq
+    1 dej
+    1 sem
+    1 ip
+    1 gak
+    1 sug
+    1 rue
+    1 dik
+    1 yee
+    1 ral
+    1 bip
+    1 nab
+    1 PSI
+    1 oso
+    1 7H
+    1 pin
+    1 xom
+    1 zek
+    1 Q
+    1 zih
+    1 xel
+    1 sax
+    1 sut
+    1 bupo
+    1 bu
+    1 noo
+    1 bin
+    1 zoh
+    1 pne
+    1 sib
+    1 soe
+    1 ril
+    1 D
+    1 zil
+    1 xod
+    1 xaq
+    1 zef
+    1 son
+    1 zaf
+    1 rae
+    1 sue
+    1 taq
+    1 xib
+    1 por
+    1 roy
+    1 tar
+    1 rel
+    1 dol
+    1 yeb
+    1 zos
+    1 reb
+    1 dor
+    1 yex
+    1 bok
+    1 pob
+    1 pae
+
+## BIGRAMS (continuous stream, across line ends)
+   39 GS TH
+   34 RH X
+   30 RS RH
+   24 X RH
+   22 TH PHI
+   21 RH B8
+   20 O X
+   20 sin no
+   20 X sin
+   19 gso RH
+   18 O FH
+   18 KH TH
+   17 TH FH
+   16 xad PHI
+   16 GS O
+   16 ZO TH
+   15 no TH
+   15 no sin
+   15 PHI YH
+   15 tok X
+   15 OT KH
+   15 CT X
+   14 X KH
+   14 RS KH
+   14 X TH
+   14 FH no
+   13 Z PHI
+   13 OT Z
+   13 CT RH
+   13 O GS
+   13 xed seg
+   13 sud xed
+   13 YH zre
+   12 B8 Z
+   12 sin CT
+   12 X O
+   12 FH GS
+   12 xad zre
+   12 sin OT
+   11 PHI TH
+   11 Z X
+   11 KH O
+   10 PHI sud
+   10 KH RH
+   10 CT TH
+   10 RS O
+   10 no RS
+   10 Z YH
+   10 PHI O
+    9 KH no
+    9 TH YH
+    9 sud X
+    9 zre yob
+    9 PHI Z
+    9 Z B8
+    9 GS Z
+    9 RS ZH
+    9 B8 RH
+    9 gso KH
+    9 PHI no
+    9 no O
+    8 tok RS
+    8 no KH
+    8 KH Z
+    8 no Z
+    8 FH O
+    8 AH RS
+    8 CT KH
+    8 O YH
+    8 sin MH
+    8 OT RS
+    8 YH rak
+    8 TH X
+    7 ZO Z
+    7 xed PHI
+    7 O B8
+    7 KH GS
+    7 Z GS
+    7 rak sin
+    7 sud teb
+    7 X Z
+    7 FH sud
+    7 Z CT
+    7 KH RS
+    7 RH sud
+    7 TH ZO
+    7 RH ZO
+    7 RH sin
+    7 gso BO
+    7 X BO
+    7 RS sin
+    7 BO X
+    6 PHI zre
+    6 RH PHI
+    6 CT RS
+    6 TH sud
+    6 X RS
+    6 O RS
+    6 sin PHI
+    6 RS xed
+    6 OT TH
+    6 YH sin
+    6 X OT
+    6 RH OT
+    6 bac PHI
+    6 TH xad
+    6 sin sin
+    6 no RH
+    6 O OT
+    6 AH O
+    5 PHI sin
+    5 PHI rak
+    5 zre sud
+    5 B8 KH
+    5 X no
+    5 RS Z
+    5 rak no
+    5 TH zre
+    5 X sud
+    5 sud RS
+    5 yob xed
+    5 RS B8
+    5 FH sin
+    5 YH CT
+    5 TH B8
+    5 OT RH
+    5 PHI rie
+    5 xed OT
+    5 KH X
+    5 B8 ZH
+    5 RH bae
+    5 yob zre
+    5 bae xeb
+    5 sud PHI
+    5 RH zre
+    5 YH AH
+    5 sod PHI
+    5 AH gso
+    5 BO O
+    5 sin YH
+    5 OT tok
+    5 PHI SUPNO
+    5 no X
+    5 xad tok
+    5 YH no
+    5 zre sin
+    5 TH gso
+    4 RH TH
+    4 YH yob
+    4 YH PHI
+    4 TH yob
+    4 xeb PHI
+    4 B8 rak
+    4 sud B8
+    4 TH sin
+    4 zre xeb
+    4 xeb CT
+    4 ZH B8
+    4 RS BO
+    4 B8 O
+    4 zre X
+    4 X GS
+    4 sud xad
+    4 RH AH
+    4 bae FH
+    4 bao PHI
+    4 rie PHI
+    4 TH rak
+    4 PHI CT
+    4 O xed
+    4 PHI OT
+    4 KH bae
+    4 bae RH
+    4 sin sud
+    4 sin pnk
+    4 xed sud
+    4 OT O
+    4 TH O
+    4 PHI ZO
+    4 MH RS
+    4 xoy PHI
+    4 bae PHI
+    4 xed YH
+    4 TH MH
+    4 KH FH
+    4 BO ZO
+    4 X bne
+    4 bne RS
+    4 Z FH
+    4 no BO
+    4 X xad
+    4 TH CT
+    4 zre rak
+    4 pif AH
+    4 O xeb
+    4 FH YH
+    4 YH O
+    4 sin xed
+    4 CT gso
+    4 O sud
+    4 N8 RS
+    4 bao xad
+    4 xnk xed
+    3 B8 TH
+    3 PHI su
+    3 PHI yob
+    3 yob beq
+    3 RS gso
+    3 KH ZO
+    3 xno FH
+    3 LO RH
+    3 Z xad
+    3 KH sud
+    3 sud sio
+    3 PHI dug
+    3 dug PHI
+    3 YH sud
+    3 TH OT
+    3 RH YH
+    3 RH no
+    3 no B8
+    3 PHI xeb
+    3 B8 OT
+    3 xed X
+    3 Z sud
+    3 B8 sin
+    3 TH DH
+    3 AH TH
+    3 TH N8
+    3 BO YH
+    3 YH xad
+    3 O zre
+    3 xoo bay
+    3 B8 bne
+    3 tok dam
+    3 teb sin
+    3 KH AH
+    3 MH xed
+    3 xed zre
+    3 xed GS
+    3 Z N8
+    3 GS RS
+    3 PHI xad
+    3 TH xed
+    3 sin xez
+    3 O PHI
+    3 X zre
+    3 ZH RS
+    3 Z ynb
+    3 ZO sin
+    3 pif yem
+    3 MH TH
+    3 xeb sud
+    3 ynb sin
+    3 YH Z
+    3 SS RS
+    3 ZH sin
+    3 X YH
+    3 pnk sud
+    3 sud sod
+    3 ZO CT
+    3 CT O
+    3 X bae
+    3 RS X
+    3 bos yob
+    3 ZH X
+    3 O ZO
+    3 sin xad
+    3 rak PHI
+    3 zre yin
+    3 FH RH
+    3 RH O
+    3 KH sin
+    3 sin GS
+    3 X ZH
+    3 zre bae
+    3 AH dif
+    3 sud bac
+    3 teb YH
+    3 bac ZO
+    3 ZO O
+    3 yob CT
+    3 bne AH
+    3 AH X
+    3 ZO RS
+    3 OT BO
+    3 O KH
+    3 RS LAM
+    3 bne O
+    3 TH xns
+    3 PHI xny
+    3 xny bel
+    3 N8 BO
+    3 zre dem
+    3 xny PHI
+    3 PHI sag
+    3 RH KH
+    3 sin N8
+    3 BO RH
+    3 RS TH
+    3 rak bne
+    3 rak RS
+    3 xed sof
+    3 YH xnk
+    3 seg sin
+    3 MH X
+    3 MH pif
+    3 pif no

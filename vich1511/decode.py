@@ -1,0 +1,57 @@
+"""Decode a transcription of the Ferdinand-Vich cipher (AHN Estado 8715, 1511-12 key).
+
+Values come from aligning N.46 (5 Jul 1511) and N.52BIS (1 Mar 1512) with their contemporary
+decipherments. Unknown tokens print in [brackets]."""
+import sys, re
+
+LET = {  # single symbols -> letters (homophones)
+    '40': 'r', '4h': 'e', '3': 'e', 'ah': 'o', 'T': 'o', 'to': 'a', 'q': 'm', '7': 'a', 'b': 'a',
+    'ch': 'c', 'c': 'l', 'oo': 'd', '11': 'n', 'X': 't', 'g': 't', 'P': 'p', 'SS': 'p', 'e': 'i',
+    'Z': 'i', '8': 'y', 'B': 'b', 'd': 's', 'eh': 's', 'V': 'v', '3t': 'u', 'gh': 'f', '7o': 'll',
+    '9': 't', 'p': 'z', 'W': 'n', 'mt': 'p', 'tt': 'r', 'o': 'g', 'O': 'h', 'E': 'r',
+}
+CODE = {  # code groups -> words / syllables
+    'pef': 'que', 'diz': 'de', 'dih': 'con', 'fak': 'el', 'fem': 'es', 'fan': 'en', 'has': 'lo',
+    'hor': 'la', 'raf': 'por', 'rif': 'porque', 'mik': 'no', 'flart': 'me', 'seh': 'se', 'pob': 'si',
+    'soy': 'io', 'suy': 'ia', 'pax': 'su', 'mix': 'papa', 'moe': 'mucho', 'mee': 'muy', 'mem': 'nro',
+    'fug': 'señor', 'fiq': 'victoria', 'sod': 'sera', 'gik': 'agora', 'go': 'aunque', 'doh': 'contra',
+    'fid': 'despues', 'sal': 'todo', 'sel': 'todo', 'sub': 'vras', 'par': 'recebido', 'hap': 'havemos',
+    'hag': 'havemos', 'hib': 'guerra', 'hub': 'gente', 'gos': 'ciudad', 'pip': 'razon', 'fub': 'daño',
+    'fuj': 'exercito', 'dai': 'como', 'mok': 'nos', 'fol': 'ellas', 'goy': 'cartas', 'fis': 'febrero',
+    'fib': 'febrero', 'hat': 'luego', 'fac': 'dichas', 'heh': 'ha', 'hig': 'haver', 'day': 'direys',
+    'gak': 'aquella', 'hel': 'ingalaterra', 'hep': 'julio', 'gik': 'agora', 'pag': 'quales',
+    'moe': 'mucho', 'die': 'cosa', 'huf': 'he', 'fun': 'esta', 'sus': 'um', 'miq': 'orden',
+    'plart': 'mi', 'soy': 'yo', 'mah': 'dezir', 'fim': 'esta', 'fit': 'capitan', 'dee': 'general',
+    'gab': 'assi', 'plort': 'al', 'fef': 'emperador', 'sap': 'venecianos', 'ref': 'para', 'suk': 'tiene',
+    'roc': 'parece', 'gor': 'venir', 'seg': 'viene', 'hob': 'largo', 'fir': 'del', 'rof': 'paraque', 'keg': 'pero',
+    'huz': 'mas', 'fud': 'dicho', 'hik': 'italia', 'myk': 'no', 'rie': 'pued', 'fat': 'forma', 'dieb': 'cosas', 'fic': 'del',
+    'soq': 'verdad', 'daz': 'dize', 'gup': 'batalla', 'fur': 'dela', 'guo': 'bien', 'dij': 'cierto', 'diy': 'cierto',
+    'hih': 'ha', 'fue': 'saber', 'far': 'dar', 'pid': 'presa', 'gaf': 'aqui', 'guj': 'esto', 'meq': 'otra',
+    # from N.45 (Apr 1511), agent alignment
+    'plut': 'ni', 'fen': 'esto', 'fio': 'ferrara', 'dur': 'duque', 'poj': 'rey', 'rug': 'parte',
+    'mag': 'otro', 'peh': 'quiere', 'mef': 'manera', 'heg': 'haveys', 'dex': 'deve', 'fae': 'dicha',
+    'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho', 'dez': 'dezir', 'hah': 'he', 'foo': 'ducados', 'dot': 'dos',
+    'gol': 'alguna', '&': 'y',
+    # from N.45 pp.10-15 (second-half alignment)
+    'fos': 'deseo', 'mef': 'manera', 'mum': 'ninguna', 'feh': 'estado', 'ob': 'ga', 'sod': 'ser',
+    'heg': 'haveys', 'hes': 'lugar', 'pic': 'potencia', 'gno': 'bien', 'mye': 'papa', 'dox': 'duque',
+    'dux': 'duque', 'dur': 'duque', 'fax': 'franceses', 'fuq': 'francia', 'gub': 'armas', 'sat': 'uno',
+    'set': 'una', 'ged': 'amistad', 'di': 'cardenal', 'plu': 'ni', 'far': 'dar',
+    # from N.60 (1 Sep 1512)
+    'mar': 'mil', 'das': 'ducado', 'gib': 'franceses', 'maq': 'otro', 'pio': 'rey', 'fer': 'dio',
+    'sok': 'fiar', 'sum': 'tierra', 'hiz': 'mar', 'gih': 'dexar', 'fex': 'fe', 'mac': 'mil',
+}
+
+def decode(tokens):
+    out = []
+    for t in tokens:
+        if t in CODE: out.append(' ' + CODE[t] + ' ')
+        elif t in LET: out.append(LET[t])
+        else: out.append(' [' + t + '] ')
+    return re.sub(r' +', ' ', ''.join(out)).strip()
+
+if __name__ == '__main__':
+    for line in open(sys.argv[1], encoding='utf-8'):
+        if not line.startswith('L'): continue
+        tag, body = line.split(':', 1)
+        print(tag, decode(body.split()))

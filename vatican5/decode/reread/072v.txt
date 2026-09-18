@@ -1,0 +1,43 @@
+# Re-read of 072v (IMG_R92_I696_P6.jpg) against ASV_i1025_SdS_Spain_IA-2.txt block "#IMAGE NAME: 072v.jpg"
+# Line numbers = 1-based within the page block (line 1 = #COMMENTS; 4-17 = cleartext, not re-read).
+# Positions in DIFF count digit tokens only ("?" counts as a digit slot; " . " mid-line dots and marks are not counted).
+# Mid-line " . " tokens are kept as the transcript has them. "~" in DIFF = tentative (not certain from the image).
+
+2: 7^. 2 0 3 9 ? 3 6 4 0^. 2 7 8 0 9 5 0 3 5 2^. 7 0 3 9 5 7^. 5 1 4 0 3 8 9 3 5 7 2 7 5 2 8 9 6 7 5 0 3 2 7 1 7 3 4 7 3 4 8 1 5 7^. 2 8 7 4 5 7
+DIFF: 11:?->2 ; 43:6/0->6 (loop with ascender) ; 61:3->2 (z-form with flat foot; 3 possible)
+NOTES: pos 6 "?" still unreadable (grey smudge/erasure between 9 and 3). Dot at pos 10 sits over the right edge of the 0, next to a faint grey smear stroke (not read as a digit). Dots at pos 26 (7^.) and 60 (7^.) sit in the gap between the 7's bar end and the next digit (5 / 2); transcript placement on the 7 plausible, could be over the following digit. Dots at 1 and 20 confirmed.
+
+3: 8 2 5 3 4 2 9 0 1 4 5 7 2 6 1 5 8 0 4 2 7^. 5 7 8 2 6 0 3 9 2 6 6 0 8 0 5 7 8 8 0 4 5 7 3 7 2 0 3 6 2 9 4 8 1 2 7 4 3 1 7   <- pos 32-35 (6 0 8 0) struck through in MS
+DIFF: 30:?->2 ; 32-35: 6 0 8 0 are cancelled with a horizontal stroke (transcript gives no mark) ; ~44:1->3 (ʒ-shaped with top bar; 1 possible) ; ~21:7^.->2^. (dotted glyph has a z-foot; 7 possible)
+NOTES: dot at 21 confirmed present.
+
+18: 6 9 0 3 0 6 7 5 7 4 2 9 2 6 7 3 4 0 3 3 7 4 9 7 5 4 2 0 7 5 7 5 5 9 3 7 6 4 0 3 4 7 3 8 0 2 0 6 7 5 7 4 2 9 7 5 6 4 1 5 7 9 3 7
+DIFF: 27:7->2 (clear z with top and bottom bars)
+
+19: 2 5 7 2 7 8 0 2 7 4 9 7 3 8 0 3 2^. 7 0 3 0 6 8 0 0 5 2 5 2 0 5 . 1 4 2 7 8 2 7^. 7 4 1 5 3 8 7 8 0 8 . 5 5 7 2 8 0 4 . 2 7 4 9 7 7 3
+DIFF: none
+NOTES: dots at 17 (2^.) and 38 (7^.) confirmed on those digits; mid-line dots after 31, 48, 55 confirmed. ~ a small ink mark sits between pos 20 (3) and 21 (0) at upper mid-height; possibly another " . " (not certain).
+
+20: 4 8 0 5 . 7 3 5 9 1^. 0 0 6 2 6 7 3 1 0 8 9 9 5 0 3 6 7 5 6 7 2 7 6 5 7 5 0 5 8 0 6 . 5 7 2 4 0 6 3 6 7 8 0 3 5 3 7 4 2 8 0 8 0 7 5
+DIFF: 9:"^.1"->1^. (dot sits over the 1, not the 9) ; ~ "´" before pos 40: this stroke is the detached ascender of the 6 at pos 40, not a separate mark
+NOTES: mid-line dots after 4 and after 40 confirmed. ~pos 29 (7) has a crossbar, 4 possible.
+
+21: 9 7 3 6 0 3 1 0 7 5 2 5 9 2 7 5 0 8 0 8 0 3 4 7 8 0 3 9 . 3 5 7 8 0 4 1 5 7 4 9 7 3 8 0 . 3 0 6 7 5 7 4 2 3 5 0 6 3 6 5 9
+DIFF: +9 inserted after 38 (image "5 7 4 9 7 3 8": looped 9 with descender joined to the 4's crossbar) ; 47:4->5 (clear long-s form)
+NOTES: mid-line dots after 28 and 43 confirmed. ~pos 16 (5) has a small blob at its top right that may be a dot (5^.?) or the pen end.
+
+22: 0 1 4 3 7 2 5 9 8 0 8 0 3 4 2 7 4 9 7 2 7 8 2 8 0 4 7 1 3 8 2 4 7 3 8 3 7 5 7 8 0 6 9 8 1 2 7 4 9 7 7 3 6 7 4 0 8 0 2 5
+DIFF: 54:3->7 (straight bar and diagonal, not ʒ; 2 possible) ; ~ " . " after 20: absent (nothing at mid-height; only show-through specks below the baseline) ; ~ " . " after 25: doubtful (only a baseline speck matching the show-through)
+
+23: 8 0 6 4 7 8 9 7 3 6 1 4 0 3 8 2 7 8 9 3 7 5 2 7 3 8 0 3 6 5 0 3 8 0 2 5 . 9 0 3 5 0 2 7 6 4 7 3 6 5 7 4 6 7^. 2 0 3 0 3
+DIFF: none
+NOTES: mid-line dot after 36 confirmed. Dot at 53 sits between the end of the 7's bar and the start of the 2; transcript placement on 7 plausible.
+
+SUMMARY
+Digits read: 492 (8 cipher lines: 2,3,18-23; transcript 491 + 1 insertion)
+Disagreements: 10 firm + 7 tentative
+  firm: L2 p11 ?->2, L2 p43 6/0->6, L2 p61 3->2(or 3), L3 p30 ?->2, L3 p32-35 struck through in MS, L18 p27 7->2, L20 p9 dot moved to the 1, L21 +9 after p38, L21 p47 4->5, L22 p54 3->7(or 2)
+  tentative: L3 p44 1->3, L3 p21 7^.->2^., L20 "´" = ascender of 6, L22 dots after p20/p25 absent/doubtful, L19 possible added dot after p20, L21 p16 possible 5^.
+Dots over digits: confirmed 9 (L2 p1,p10,p20,p26,p60; L3 p21; L19 p17,p38; L23 p53; of these L2 p26/p60 and L23 p53 sit between two digits); moved 1 (L20 "^.1" -> on the 1); added 0 firm (possible: L21 p16); absent 0
+Mid-line " . ": confirmed 8 (L19 x3, L20 x2, L21 x2, L23 x1); doubtful/absent 2 (L22 after p20, p25); possible new 1 (L19 after p20)
+Original "?": L2 p6 unresolved (smudge); L2 p11 -> 2; L3 p30 -> 2; L2 "6/0" -> 6

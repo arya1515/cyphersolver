@@ -1,6 +1,6 @@
 # "KR Blitz" Enigma message, OB Oberrhein IIa → OKW, 10 January 1945 (TARGETS.md no. 19)
 
-Session started 16 Sept 2026. Status: **attempt in progress** (exhaustive ciphertext-only run launched).
+Session started 16 Sept 2026. Status: **attempt in progress**. The first ciphertext-only pass is partial and has not produced a convincing plaintext.
 
 ## Source
 
@@ -60,7 +60,8 @@ traffic the first group is ciphertext: **all 97 letters are ciphertext**, as Fri
   the first middle-wheel step (1..26 ≡ right ring) and optional left-wheel double step at the k-th middle step;
   IC / bigram / trigram scoring; hill climb over plugboard moves (add, remove, re-pair; Sullivan-Weierud cases).
 - `climb2.py` configurable climb (phase schedule); `sa.py` simulated annealing; `run_all.py` production driver
-  (numba, 20 threads, per-order top-K saved to `results/<tag>/`).
+  (numba, 20 threads, per-order top-K saved to `results/<tag>/`). `run_main97.cmd` launches the resumable
+  `main97` pass under `pythonw.exe`; output without a console is appended to `results/main97/stdout_w.txt`.
 - `lm_build.py`: trigram/bigram/monogram log-probabilities = Sullivan & Weierud's raw 1941 Enigma-decrypt trigram counts
   (17,694, from bomm) + the 1945 KL plaintexts, blended 2:1 with 2.7 M trigrams of Gutenberg German converted to Enigma
   conventions (ae oe ue sz, ch/ck → q, punctuation → x, digits spelled).
@@ -85,7 +86,7 @@ traffic the first group is ciphertext: **all 97 letters are ciphertext**, as Fri
 
 | tag | hypothesis | locations | pipeline | status |
 |---|---|---|---|---|
-| main97 | Enigma I, UKW B, 97 letters, no left step | 60 × 17,576 × 26 = 27.4 M | E+N starts (51 climbs) + ILS 10 | launched 16 Sept 2026 |
+| main97 | Enigma I, UKW B, 97 letters, no left step | 60 × 17,576 × 26 = 27.4 M | E+N starts (51 climbs) + ILS 10 | 32/60 wheel orders complete; interrupted 17 Sept 2026, no convincing plaintext |
 
 ## Indicator check (`analyze.py`)
 

@@ -1,0 +1,3362 @@
+[
+ {
+  "file": "exemplars/f18r_l2_17_o.png",
+  "letter": "o",
+  "src": "f18r line 2",
+  "box": [
+   2104,
+   2156,
+   177,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_18_n.png",
+  "letter": "n",
+  "src": "f18r line 2",
+  "box": [
+   2180,
+   2229,
+   173,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_19_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   2254,
+   2286,
+   178,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_20_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   2313,
+   2379,
+   174,
+   217
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_23_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2716,
+   2827,
+   138,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_01_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   102,
+   131,
+   161,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_02_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   169,
+   228,
+   159,
+   202
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_04_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   465,
+   497,
+   138,
+   196
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_05_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   536,
+   557,
+   155,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_08_e.png",
+  "letter": "e",
+  "src": "f18r line 2",
+  "box": [
+   959,
+   988,
+   138,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_09_r.png",
+  "letter": "r",
+  "src": "f18r line 2",
+  "box": [
+   1007,
+   1092,
+   138,
+   207
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_10_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   1124,
+   1168,
+   138,
+   199
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_11_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   1201,
+   1240,
+   153,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_15_ss.png",
+  "letter": "ss",
+  "src": "f18r line 2",
+  "box": [
+   1941,
+   2020,
+   138,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_16_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2040,
+   2074,
+   173,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2g14_01_s.png",
+  "letter": "s",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   102,
+   131,
+   161,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_02_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   169,
+   228,
+   159,
+   202
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_03_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   270,
+   330,
+   138,
+   192
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_04_f.png",
+  "letter": "f",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   346,
+   445,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_05_u.png",
+  "letter": "u",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   465,
+   497,
+   138,
+   196
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_06_s.png",
+  "letter": "s",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   536,
+   557,
+   155,
+   198
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_07_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   584,
+   652,
+   138,
+   206
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_08_a.png",
+  "letter": "a",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   669,
+   748,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_10_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   959,
+   1016,
+   138,
+   198
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_11_r.png",
+  "letter": "r",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1032,
+   1092,
+   138,
+   207
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_12_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1124,
+   1168,
+   138,
+   199
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_13_i.png",
+  "letter": "i",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1201,
+   1240,
+   153,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_14_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1260,
+   1310,
+   163,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_19_ss.png",
+  "letter": "ss",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1941,
+   2020,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_20_i.png",
+  "letter": "i",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   2040,
+   2074,
+   173,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_01_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   109,
+   148,
+   277,
+   325
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_02_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   163,
+   205,
+   287,
+   337
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_03_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   229,
+   269,
+   257,
+   326
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_04_t.png",
+  "letter": "t",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   295,
+   362,
+   257,
+   331
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_05_c.png",
+  "letter": "c",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   384,
+   418,
+   271,
+   329
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_06_o.png",
+  "letter": "o",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   452,
+   508,
+   257,
+   324
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_07_n.png",
+  "letter": "n",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   530,
+   556,
+   284,
+   329
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_08_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   574,
+   631,
+   277,
+   323
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_09_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   648,
+   691,
+   279,
+   324
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_10_i.png",
+  "letter": "i",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   720,
+   749,
+   268,
+   334
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_11_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   768,
+   874,
+   277,
+   314
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_12_d.png",
+  "letter": "d",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   889,
+   945,
+   257,
+   316
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/CODE_l2_16_plustost.png",
+  "letter": "plustost",
+  "src": "f18r l2 box16 = code 52",
+  "box": [
+   1444,
+   1553,
+   161,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l2_17_que.png",
+  "letter": "que",
+  "src": "f18r l2 box17 = code 14",
+  "box": [
+   1586,
+   1684,
+   165,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l4_25_que.png",
+  "letter": "que",
+  "src": "f18r l4 box25 = code 14",
+  "box": [
+   2160,
+   2347,
+   381,
+   461
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_01_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   115,
+   248,
+   381,
+   448
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_02_c.png",
+  "letter": "c",
+  "src": "f18r_l4anc",
+  "box": [
+   272,
+   385,
+   389,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_03_a.png",
+  "letter": "a",
+  "src": "f18r_l4anc",
+  "box": [
+   409,
+   450,
+   381,
+   446
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_04_s.png",
+  "letter": "s",
+  "src": "f18r_l4anc",
+  "box": [
+   489,
+   498,
+   402,
+   450
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_05_t.png",
+  "letter": "t",
+  "src": "f18r_l4anc",
+  "box": [
+   513,
+   585,
+   398,
+   457
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_06_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
+  "box": [
+   600,
+   650,
+   381,
+   446
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_07_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   666,
+   714,
+   396,
+   442
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_08_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   729,
+   859,
+   384,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_09_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   874,
+   903,
+   398,
+   447
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_10_b.png",
+  "letter": "b",
+  "src": "f18r_l4anc",
+  "box": [
+   930,
+   957,
+   381,
+   441
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_11_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   992,
+   1072,
+   381,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_12_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
+  "box": [
+   1090,
+   1145,
+   399,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_13_r.png",
+  "letter": "r",
+  "src": "f18r_l4anc",
+  "box": [
+   1173,
+   1222,
+   381,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_14_g.png",
+  "letter": "g",
+  "src": "f18r_l4anc",
+  "box": [
+   1252,
+   1357,
+   409,
+   447
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_15_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   1377,
+   1431,
+   381,
+   448
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_16_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
+  "box": [
+   1453,
+   1504,
+   403,
+   445
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_17_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   1523,
+   1611,
+   385,
+   453
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_18_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   1627,
+   1680,
+   413,
+   452
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_19_n.png",
+  "letter": "n",
+  "src": "f18r_l4anc",
+  "box": [
+   1712,
+   1744,
+   414,
+   459
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_20_f.png",
+  "letter": "f",
+  "src": "f18r_l4anc",
+  "box": [
+   1768,
+   1827,
+   403,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_21_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   1862,
+   1916,
+   418,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_22_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
+  "box": [
+   1936,
+   1988,
+   417,
+   454
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_23_s.png",
+  "letter": "s",
+  "src": "f18r_l4anc",
+  "box": [
+   2028,
+   2054,
+   415,
+   458
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_24_t.png",
+  "letter": "t",
+  "src": "f18r_l4anc",
+  "box": [
+   2089,
+   2130,
+   416,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_26_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
+  "box": [
+   2373,
+   2532,
+   405,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_27_a.png",
+  "letter": "a",
+  "src": "f18r_l4anc",
+  "box": [
+   2549,
+   2575,
+   409,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_28_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
+  "box": [
+   2590,
+   2602,
+   438,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_29_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   2625,
+   2694,
+   381,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_30_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
+  "box": [
+   2719,
+   2776,
+   390,
+   442
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_01_p.png",
+  "letter": "p",
+  "src": "f18r_l5anc",
+  "box": [
+   82,
+   169,
+   509,
+   589
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_02_l.png",
+  "letter": "l",
+  "src": "f18r_l5anc",
+  "box": [
+   209,
+   309,
+   520,
+   577
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_03_u.png",
+  "letter": "u",
+  "src": "f18r_l5anc",
+  "box": [
+   339,
+   429,
+   509,
+   589
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_04_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
+  "box": [
+   466,
+   511,
+   519,
+   555
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_05_d.png",
+  "letter": "d",
+  "src": "f18r_l5anc",
+  "box": [
+   541,
+   579,
+   509,
+   554
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_06_i.png",
+  "letter": "i",
+  "src": "f18r_l5anc",
+  "box": [
+   600,
+   635,
+   510,
+   559
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_07_n.png",
+  "letter": "n",
+  "src": "f18r_l5anc",
+  "box": [
+   671,
+   733,
+   520,
+   545
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_08_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
+  "box": [
+   760,
+   802,
+   509,
+   554
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_09_t.png",
+  "letter": "t",
+  "src": "f18r_l5anc",
+  "box": [
+   832,
+   904,
+   509,
+   567
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_10_r.png",
+  "letter": "r",
+  "src": "f18r_l5anc",
+  "box": [
+   936,
+   1019,
+   509,
+   578
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_11_u.png",
+  "letter": "u",
+  "src": "f18r_l5anc",
+  "box": [
+   1037,
+   1120,
+   509,
+   565
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_12_c.png",
+  "letter": "c",
+  "src": "f18r_l5anc",
+  "box": [
+   1147,
+   1457,
+   517,
+   589
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_13_t.png",
+  "letter": "t",
+  "src": "f18r_l5anc",
+  "box": [
+   1475,
+   1518,
+   522,
+   570
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_14_i.png",
+  "letter": "i",
+  "src": "f18r_l5anc",
+  "box": [
+   1538,
+   1651,
+   509,
+   569
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_15_o.png",
+  "letter": "o",
+  "src": "f18r_l5anc",
+  "box": [
+   1671,
+   1728,
+   539,
+   567
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_16_n.png",
+  "letter": "n",
+  "src": "f18r_l5anc",
+  "box": [
+   1750,
+   2105,
+   509,
+   584
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5anc_17_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
+  "box": [
+   2120,
+   2216,
+   539,
+   589
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l5fa_21_l.png",
+  "letter": "l",
+  "src": "f18r_l5fa",
+  "box": [
+   2575,
+   2651,
+   526,
+   589
+  ],
+  "crib": "forced alignment of line 5"
+ },
+ {
+  "file": "exemplars/f18r_l5fa_22_l.png",
+  "letter": "l",
+  "src": "f18r_l5fa",
+  "box": [
+   2678,
+   2750,
+   537,
+   584
+  ],
+  "crib": "forced alignment of line 5"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_01_s.png",
+  "letter": "s",
+  "src": "f18r_l7g7",
+  "box": [
+   96,
+   260,
+   756,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_02_e.png",
+  "letter": "e",
+  "src": "f18r_l7g7",
+  "box": [
+   299,
+   337,
+   758,
+   803
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_03_s.png",
+  "letter": "s",
+  "src": "f18r_l7g7",
+  "box": [
+   356,
+   424,
+   752,
+   797
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_04_s.png",
+  "letter": "s",
+  "src": "f18r_l7g7",
+  "box": [
+   453,
+   506,
+   756,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_05_o.png",
+  "letter": "o",
+  "src": "f18r_l7g7",
+  "box": [
+   520,
+   555,
+   752,
+   796
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_06_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   586,
+   669,
+   752,
+   826
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_07_t.png",
+  "letter": "t",
+  "src": "f18r_l7g7",
+  "box": [
+   681,
+   729,
+   752,
+   793
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_08_u.png",
+  "letter": "u",
+  "src": "f18r_l7g7",
+  "box": [
+   763,
+   832,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_09_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   846,
+   881,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_10_g.png",
+  "letter": "g",
+  "src": "f18r_l7g7",
+  "box": [
+   898,
+   936,
+   752,
+   806
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_11_p.png",
+  "letter": "p",
+  "src": "f18r_l7g7",
+  "box": [
+   964,
+   1023,
+   758,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_12_e.png",
+  "letter": "e",
+  "src": "f18r_l7g7",
+  "box": [
+   1046,
+   1085,
+   762,
+   825
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_13_u.png",
+  "letter": "u",
+  "src": "f18r_l7g7",
+  "box": [
+   1102,
+   1134,
+   755,
+   807
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_14_c.png",
+  "letter": "c",
+  "src": "f18r_l7g7",
+  "box": [
+   1141,
+   1206,
+   756,
+   800
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_15_h.png",
+  "letter": "h",
+  "src": "f18r_l7g7",
+  "box": [
+   1227,
+   1256,
+   752,
+   804
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_16_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
+  "box": [
+   1287,
+   1338,
+   752,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_17_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   1349,
+   1440,
+   752,
+   811
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_18_g.png",
+  "letter": "g",
+  "src": "f18r_l7g7",
+  "box": [
+   1467,
+   1633,
+   752,
+   814
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_19_e.png",
+  "letter": "e",
+  "src": "f18r_l7g7",
+  "box": [
+   1648,
+   1708,
+   778,
+   818
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_20_r.png",
+  "letter": "r",
+  "src": "f18r_l7g7",
+  "box": [
+   1760,
+   1806,
+   752,
+   816
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_21_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
+  "box": [
+   1832,
+   1886,
+   752,
+   812
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_22_t.png",
+  "letter": "t",
+  "src": "f18r_l7g7",
+  "box": [
+   1923,
+   1976,
+   767,
+   821
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_23_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
+  "box": [
+   1984,
+   2045,
+   779,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_24_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   2090,
+   2133,
+   752,
+   830
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_25_t.png",
+  "letter": "t",
+  "src": "f18r_l7g7",
+  "box": [
+   2167,
+   2215,
+   773,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_26_parceque.png",
+  "letter": "parceque",
+  "src": "f18r_l7g7",
+  "box": [
+   2233,
+   2273,
+   793,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_01_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   104,
+   234,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_02_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   252,
+   288,
+   648,
+   697
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_03_u.png",
+  "letter": "u",
+  "src": "f18r_l6g12",
+  "box": [
+   330,
+   465,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_06_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   646,
+   721,
+   630,
+   668
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_07_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   746,
+   776,
+   621,
+   671
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_08_l.png",
+  "letter": "l",
+  "src": "f18r_l6g12",
+  "box": [
+   794,
+   866,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_09_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   878,
+   932,
+   624,
+   676
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_10_o.png",
+  "letter": "o",
+  "src": "f18r_l6g12",
+  "box": [
+   949,
+   1000,
+   640,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_11_u.png",
+  "letter": "u",
+  "src": "f18r_l6g12",
+  "box": [
+   1023,
+   1116,
+   621,
+   687
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_12_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1132,
+   1191,
+   621,
+   699
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_13_m.png",
+  "letter": "m",
+  "src": "f18r_l6g12",
+  "box": [
+   1203,
+   1257,
+   631,
+   682
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_14_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   1271,
+   1309,
+   621,
+   679
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_15_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   1327,
+   1377,
+   647,
+   691
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_16_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1389,
+   1455,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_17_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   1478,
+   1512,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_18_o.png",
+  "letter": "o",
+  "src": "f18r_l6g12",
+  "box": [
+   1547,
+   1626,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_19_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   1668,
+   1704,
+   621,
+   698
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_20_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1729,
+   1843,
+   621,
+   693
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_21_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   1867,
+   1911,
+   656,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_23_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   1995,
+   2043,
+   669,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_25_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   2204,
+   2263,
+   628,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_26_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   2290,
+   2342,
+   658,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_27_t.png",
+  "letter": "t",
+  "src": "f18r_l6g12",
+  "box": [
+   2355,
+   2410,
+   657,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_29_l.png",
+  "letter": "l",
+  "src": "f18r_l6g12",
+  "box": [
+   2500,
+   2553,
+   654,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_30_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   2572,
+   2629,
+   656,
+   700
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_31_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   2646,
+   2710,
+   654,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_32_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   2728,
+   2775,
+   658,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f143/l2_14_roinav.png",
+  "letter": "roinav",
+  "src": "f143 l2 code (verified by eye)",
+  "box": [
+   1184,
+   1300,
+   159,
+   239
+  ],
+  "crib": "numeral read off the leaf"
+ },
+ {
+  "file": "exemplars/f143/l2_16_que.png",
+  "letter": "que",
+  "src": "f143 l2 code (verified by eye)",
+  "box": [
+   1529,
+   1621,
+   171,
+   239
+  ],
+  "crib": "numeral read off the leaf"
+ },
+ {
+  "file": "exemplars/f143/l2_24_qui.png",
+  "letter": "qui",
+  "src": "f143 l2 code (verified by eye)",
+  "box": [
+   2186,
+   2238,
+   163,
+   225
+  ],
+  "crib": "numeral read off the leaf"
+ },
+ {
+  "file": "exemplars/f143/l2_01_o.png",
+  "letter": "o",
+  "src": "f143 l2",
+  "box": [
+   0,
+   140,
+   159,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_02_i.png",
+  "letter": "i",
+  "src": "f143 l2",
+  "box": [
+   183,
+   215,
+   160,
+   223
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_03_t.png",
+  "letter": "t",
+  "src": "f143 l2",
+  "box": [
+   250,
+   314,
+   167,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_04_d.png",
+  "letter": "d",
+  "src": "f143 l2",
+  "box": [
+   341,
+   446,
+   159,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_05_e.png",
+  "letter": "e",
+  "src": "f143 l2",
+  "box": [
+   465,
+   495,
+   174,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_06_p.png",
+  "letter": "p",
+  "src": "f143 l2",
+  "box": [
+   539,
+   585,
+   195,
+   225
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_07_a.png",
+  "letter": "a",
+  "src": "f143 l2",
+  "box": [
+   610,
+   662,
+   177,
+   226
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_08_r.png",
+  "letter": "r",
+  "src": "f143 l2",
+  "box": [
+   682,
+   721,
+   167,
+   218
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_09_t.png",
+  "letter": "t",
+  "src": "f143 l2",
+  "box": [
+   754,
+   820,
+   187,
+   220
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_10_i.png",
+  "letter": "i",
+  "src": "f143 l2",
+  "box": [
+   848,
+   880,
+   181,
+   224
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_11_r.png",
+  "letter": "r",
+  "src": "f143 l2",
+  "box": [
+   914,
+   986,
+   159,
+   217
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_12_d.png",
+  "letter": "d",
+  "src": "f143 l2",
+  "box": [
+   1006,
+   1066,
+   175,
+   214
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_13_u.png",
+  "letter": "u",
+  "src": "f143 l2",
+  "box": [
+   1087,
+   1159,
+   163,
+   234
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_17_l.png",
+  "letter": "l",
+  "src": "f143 l2",
+  "box": [
+   1642,
+   1696,
+   174,
+   210
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_18_i.png",
+  "letter": "i",
+  "src": "f143 l2",
+  "box": [
+   1729,
+   1774,
+   159,
+   208
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_19_e.png",
+  "letter": "e",
+  "src": "f143 l2",
+  "box": [
+   1782,
+   1850,
+   159,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_20_s.png",
+  "letter": "s",
+  "src": "f143 l2",
+  "box": [
+   1878,
+   1902,
+   159,
+   198
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_21_c.png",
+  "letter": "c",
+  "src": "f143 l2",
+  "box": [
+   1946,
+   1995,
+   159,
+   195
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_22_a.png",
+  "letter": "a",
+  "src": "f143 l2",
+  "box": [
+   2009,
+   2070,
+   159,
+   199
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_23_i.png",
+  "letter": "i",
+  "src": "f143 l2",
+  "box": [
+   2095,
+   2128,
+   159,
+   192
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_25_l.png",
+  "letter": "l",
+  "src": "f143 l2",
+  "box": [
+   2255,
+   2320,
+   159,
+   204
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_26_e.png",
+  "letter": "e",
+  "src": "f143 l2",
+  "box": [
+   2344,
+   2438,
+   159,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_27_s.png",
+  "letter": "s",
+  "src": "f143 l2",
+  "box": [
+   2454,
+   2510,
+   159,
+   205
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_28_t.png",
+  "letter": "t",
+  "src": "f143 l2",
+  "box": [
+   2520,
+   2575,
+   159,
+   207
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_29_t.png",
+  "letter": "t",
+  "src": "f143 l2",
+  "box": [
+   2627,
+   2638,
+   159,
+   173
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_30_r.png",
+  "letter": "r",
+  "src": "f143 l2",
+  "box": [
+   2646,
+   2734,
+   159,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_31_e.png",
+  "letter": "e",
+  "src": "f143 l2",
+  "box": [
+   2767,
+   2784,
+   159,
+   166
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l2_32_s.png",
+  "letter": "s",
+  "src": "f143 l2",
+  "box": [
+   2819,
+   2861,
+   200,
+   239
+  ],
+  "crib": "forced alignment, gap 8"
+ },
+ {
+  "file": "exemplars/f143/l3_01_m.png",
+  "letter": "m",
+  "src": "f143 l3",
+  "box": [
+   64,
+   145,
+   293,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_02_a.png",
+  "letter": "a",
+  "src": "f143 l3",
+  "box": [
+   173,
+   212,
+   298,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_03_l.png",
+  "letter": "l",
+  "src": "f143 l3",
+  "box": [
+   250,
+   304,
+   309,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_04_c.png",
+  "letter": "c",
+  "src": "f143 l3",
+  "box": [
+   327,
+   394,
+   285,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_05_o.png",
+  "letter": "o",
+  "src": "f143 l3",
+  "box": [
+   411,
+   472,
+   252,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_06_n.png",
+  "letter": "n",
+  "src": "f143 l3",
+  "box": [
+   479,
+   531,
+   286,
+   328
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_07_t.png",
+  "letter": "t",
+  "src": "f143 l3",
+  "box": [
+   550,
+   643,
+   271,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_08_a.png",
+  "letter": "a",
+  "src": "f143 l3",
+  "box": [
+   657,
+   712,
+   278,
+   325
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_09_n.png",
+  "letter": "n",
+  "src": "f143 l3",
+  "box": [
+   743,
+   794,
+   258,
+   316
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_10_t.png",
+  "letter": "t",
+  "src": "f143 l3",
+  "box": [
+   802,
+   869,
+   288,
+   321
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_11_e.png",
+  "letter": "e",
+  "src": "f143 l3",
+  "box": [
+   920,
+   969,
+   285,
+   321
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_12_t.png",
+  "letter": "t",
+  "src": "f143 l3",
+  "box": [
+   984,
+   1085,
+   267,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_13_a.png",
+  "letter": "a",
+  "src": "f143 l3",
+  "box": [
+   1103,
+   1164,
+   265,
+   321
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_14_i.png",
+  "letter": "i",
+  "src": "f143 l3",
+  "box": [
+   1186,
+   1232,
+   252,
+   321
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_15_a.png",
+  "letter": "a",
+  "src": "f143 l3",
+  "box": [
+   1245,
+   1298,
+   272,
+   321
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_16_n.png",
+  "letter": "n",
+  "src": "f143 l3",
+  "box": [
+   1328,
+   1402,
+   273,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_17_t.png",
+  "letter": "t",
+  "src": "f143 l3",
+  "box": [
+   1421,
+   1485,
+   264,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_18_c.png",
+  "letter": "c",
+  "src": "f143 l3",
+  "box": [
+   1527,
+   1578,
+   252,
+   318
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_19_o.png",
+  "letter": "o",
+  "src": "f143 l3",
+  "box": [
+   1592,
+   1655,
+   287,
+   332
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_20_n.png",
+  "letter": "n",
+  "src": "f143 l3",
+  "box": [
+   1670,
+   1716,
+   278,
+   322
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_21_s.png",
+  "letter": "s",
+  "src": "f143 l3",
+  "box": [
+   1741,
+   1805,
+   252,
+   315
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_22_i.png",
+  "letter": "i",
+  "src": "f143 l3",
+  "box": [
+   1822,
+   1854,
+   257,
+   313
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_23_d.png",
+  "letter": "d",
+  "src": "f143 l3",
+  "box": [
+   1874,
+   1956,
+   273,
+   306
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_24_e.png",
+  "letter": "e",
+  "src": "f143 l3",
+  "box": [
+   1974,
+   2041,
+   252,
+   305
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_25_r.png",
+  "letter": "r",
+  "src": "f143 l3",
+  "box": [
+   2063,
+   2098,
+   252,
+   298
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_26_e.png",
+  "letter": "e",
+  "src": "f143 l3",
+  "box": [
+   2111,
+   2188,
+   252,
+   294
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_33_tous.png",
+  "letter": "tous",
+  "src": "f143 l3",
+  "box": [
+   2699,
+   2794,
+   252,
+   309
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_34_i.png",
+  "letter": "i",
+  "src": "f143 l3",
+  "box": [
+   2822,
+   2838,
+   252,
+   272
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l3_35_o.png",
+  "letter": "o",
+  "src": "f143 l3",
+  "box": [
+   2859,
+   2891,
+   252,
+   317
+  ],
+  "crib": "forced alignment, gap 7"
+ },
+ {
+  "file": "exemplars/f143/l4_01_u.png",
+  "letter": "u",
+  "src": "f143 l4",
+  "box": [
+   83,
+   117,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_02_r.png",
+  "letter": "r",
+  "src": "f143 l4",
+  "box": [
+   178,
+   208,
+   391,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_03_s.png",
+  "letter": "s",
+  "src": "f143 l4",
+  "box": [
+   255,
+   304,
+   374,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_04_o.png",
+  "letter": "o",
+  "src": "f143 l4",
+  "box": [
+   338,
+   383,
+   410,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_05_u.png",
+  "letter": "u",
+  "src": "f143 l4",
+  "box": [
+   412,
+   447,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_06_y.png",
+  "letter": "y",
+  "src": "f143 l4",
+  "box": [
+   485,
+   521,
+   368,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_07_t.png",
+  "letter": "t",
+  "src": "f143 l4",
+  "box": [
+   563,
+   647,
+   373,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_08_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   670,
+   743,
+   370,
+   428
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_09_n.png",
+  "letter": "n",
+  "src": "f143 l4",
+  "box": [
+   760,
+   806,
+   380,
+   423
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_10_i.png",
+  "letter": "i",
+  "src": "f143 l4",
+  "box": [
+   837,
+   875,
+   359,
+   423
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_11_r.png",
+  "letter": "r",
+  "src": "f143 l4",
+  "box": [
+   899,
+   950,
+   372,
+   428
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_12_p.png",
+  "letter": "p",
+  "src": "f143 l4",
+  "box": [
+   986,
+   1020,
+   392,
+   422
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_13_o.png",
+  "letter": "o",
+  "src": "f143 l4",
+  "box": [
+   1041,
+   1079,
+   396,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_14_u.png",
+  "letter": "u",
+  "src": "f143 l4",
+  "box": [
+   1116,
+   1145,
+   385,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_15_r.png",
+  "letter": "r",
+  "src": "f143 l4",
+  "box": [
+   1172,
+   1221,
+   366,
+   425
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_16_l.png",
+  "letter": "l",
+  "src": "f143 l4",
+  "box": [
+   1267,
+   1282,
+   391,
+   421
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_17_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   1290,
+   1308,
+   393,
+   419
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_18_m.png",
+  "letter": "m",
+  "src": "f143 l4",
+  "box": [
+   1333,
+   1370,
+   383,
+   422
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_19_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   1392,
+   1472,
+   365,
+   419
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_21_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   1552,
+   1577,
+   378,
+   432
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_22_u.png",
+  "letter": "u",
+  "src": "f143 l4",
+  "box": [
+   1610,
+   1681,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_23_r.png",
+  "letter": "r",
+  "src": "f143 l4",
+  "box": [
+   1713,
+   1762,
+   380,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_24_c.png",
+  "letter": "c",
+  "src": "f143 l4",
+  "box": [
+   1785,
+   1818,
+   383,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_25_o.png",
+  "letter": "o",
+  "src": "f143 l4",
+  "box": [
+   1861,
+   1892,
+   371,
+   410
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_26_m.png",
+  "letter": "m",
+  "src": "f143 l4",
+  "box": [
+   1939,
+   2009,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_27_m.png",
+  "letter": "m",
+  "src": "f143 l4",
+  "box": [
+   2026,
+   2078,
+   382,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_28_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   2096,
+   2188,
+   362,
+   399
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_29_d.png",
+  "letter": "d",
+  "src": "f143 l4",
+  "box": [
+   2206,
+   2267,
+   358,
+   398
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_30_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   2293,
+   2440,
+   353,
+   421
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_31_49.png",
+  "letter": "49",
+  "src": "f143 l4",
+  "box": [
+   2479,
+   2586,
+   356,
+   432
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_32_a.png",
+  "letter": "a",
+  "src": "f143 l4",
+  "box": [
+   2622,
+   2680,
+   353,
+   398
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_33_n.png",
+  "letter": "n",
+  "src": "f143 l4",
+  "box": [
+   2686,
+   2760,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_34_d.png",
+  "letter": "d",
+  "src": "f143 l4",
+  "box": [
+   2779,
+   2855,
+   353,
+   433
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l4_35_e.png",
+  "letter": "e",
+  "src": "f143 l4",
+  "box": [
+   2867,
+   2910,
+   353,
+   382
+  ],
+  "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l5_05_l.png",
+  "letter": "l",
+  "src": "f143 l5",
+  "box": [
+   485,
+   546,
+   511,
+   542
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_06_a.png",
+  "letter": "a",
+  "src": "f143 l5",
+  "box": [
+   572,
+   634,
+   502,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_07_y.png",
+  "letter": "y",
+  "src": "f143 l5",
+  "box": [
+   652,
+   701,
+   481,
+   539
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_10_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   924,
+   959,
+   500,
+   530
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_11_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   966,
+   994,
+   504,
+   524
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_15_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1256,
+   1333,
+   469,
+   528
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_17_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1405,
+   1458,
+   470,
+   538
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_19_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1546,
+   1588,
+   486,
+   521
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_20_r.png",
+  "letter": "r",
+  "src": "f143 l5",
+  "box": [
+   1621,
+   1659,
+   466,
+   519
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_22_i.png",
+  "letter": "i",
+  "src": "f143 l5",
+  "box": [
+   1738,
+   1766,
+   484,
+   527
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_23_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   1793,
+   1860,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_24_c.png",
+  "letter": "c",
+  "src": "f143 l5",
+  "box": [
+   1903,
+   1946,
+   464,
+   541
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_25_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1957,
+   1993,
+   466,
+   533
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_26_p.png",
+  "letter": "p",
+  "src": "f143 l5",
+  "box": [
+   2026,
+   2066,
+   482,
+   514
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_27_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2090,
+   2142,
+   468,
+   510
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_28_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   2150,
+   2239,
+   464,
+   522
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_29_i.png",
+  "letter": "i",
+  "src": "f143 l5",
+  "box": [
+   2266,
+   2290,
+   470,
+   508
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_30_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   2326,
+   2390,
+   476,
+   504
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_31_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2407,
+   2454,
+   464,
+   504
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_32_d.png",
+  "letter": "d",
+  "src": "f143 l5",
+  "box": [
+   2487,
+   2640,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_33_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2657,
+   2790,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_04_s.png",
+  "letter": "s",
+  "src": "f143 l1",
+  "box": [
+   599,
+   675,
+   47,
+   125
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_06_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   843,
+   893,
+   88,
+   115
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_07_a.png",
+  "letter": "a",
+  "src": "f143 l1",
+  "box": [
+   925,
+   993,
+   73,
+   114
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_08_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1001,
+   1041,
+   69,
+   112
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_09_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   1053,
+   1118,
+   57,
+   124
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_10_l.png",
+  "letter": "l",
+  "src": "f143 l1",
+  "box": [
+   1165,
+   1204,
+   78,
+   114
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_11_a.png",
+  "letter": "a",
+  "src": "f143 l1",
+  "box": [
+   1234,
+   1306,
+   69,
+   116
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_12_i.png",
+  "letter": "i",
+  "src": "f143 l1",
+  "box": [
+   1332,
+   1356,
+   71,
+   113
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_16_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1623,
+   1694,
+   47,
+   121
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_17_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   1732,
+   1786,
+   69,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_18_e.png",
+  "letter": "e",
+  "src": "f143 l1",
+  "box": [
+   1816,
+   1863,
+   55,
+   95
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_19_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1895,
+   1924,
+   47,
+   95
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_20_d.png",
+  "letter": "d",
+  "src": "f143 l1",
+  "box": [
+   1952,
+   2065,
+   55,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_26_s.png",
+  "letter": "s",
+  "src": "f143 l1",
+  "box": [
+   2513,
+   2534,
+   47,
+   76
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_27_e.png",
+  "letter": "e",
+  "src": "f143 l1",
+  "box": [
+   2560,
+   2595,
+   47,
+   109
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_28_u.png",
+  "letter": "u",
+  "src": "f143 l1",
+  "box": [
+   2616,
+   2690,
+   47,
+   99
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_29_o.png",
+  "letter": "o",
+  "src": "f143 l1",
+  "box": [
+   2706,
+   2750,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_30_u.png",
+  "letter": "u",
+  "src": "f143 l1",
+  "box": [
+   2774,
+   2811,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_31_l.png",
+  "letter": "l",
+  "src": "f143 l1",
+  "box": [
+   2848,
+   2909,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ }
+]

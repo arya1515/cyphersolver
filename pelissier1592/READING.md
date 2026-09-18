@@ -1,0 +1,341 @@
+# Pelissier to Jeannin, Burgos, 13 September 1592 — reading
+
+BnF fr. 3982 no. 22, ff. 46r-50r (Gallica btv1b9060543f, canvases 100-108). Clear text plain; deciphered stretches in
+{braces}; [?] = not recovered; (?) = doubtful; [315] = code group for the Béarnais (Henri IV). Spelling as written.
+Each page's reading, gloss check and open-row list come from `reading_<folio>.md`; token transcriptions are `t<folio>.txt`.
+
+
+## f. 46r
+
+20 / 13 de Septe 1592 +  (folio 46)
+
+Monsieur Jentreprins mon voyage de la court si a contre temps que arriuant a Valladolid ou le Roy (~~estoit~~) auoit
+seiourné deulx moys Je le trouuay sur son partement, de sorte questant allé baiser les mains au seigneur Don Joan de
+Idiaquez, apres m'auoir faict la bien venue Il me dict que ce seroit temps perdu de parler la d'affaires, mais que sa
+Majesté se rendroit dans cinq ou six Jours a Palencia a huict lieues de la, ou Il y auroit commodité de negotier plus
+particulierement. La Je luy renouuelay ce que Je luy auois parauant escript {[?]e ia(?) peu de moyens que J'auois de
+seiourner dauantage par deça si Je n'estois assisté de sadite Maiesté, veu que le credit m'est[oit](?) failly pour
+n'auoir satisfaict au payement des(?) sommes qui m'ont esté prestées a Madrid, e[t]} Que le long temps quil y auoit
+que Je le luy auois faict entendre sans quil meust faict responce me faisoit cognoistre que {ma demande ne [?]
+…[inclin]able(?), et que lon auoit peu de satisfaction de tant d'importunités que J'ay données. A ceste raison Je [?]
+venu(?) prendre congé de sadite Maiesté, et(?) de[?] [?] et me(?) retirer en France, que Je le suppliois de me procurer
+ce bien [?] [?], par ce que chacun(?) iour de retardement me rendoit [?] difficile, et la [?] m'en costoit(?) les moyens
+[?]. Il me respond[i]t que [?] auoit ses ministres par dela} qui luy rendoient compte de tout ce qui y passe et quil
+leur adressoit aussy ses commandements pour les choses quelle cognoissoit estre necessaires, de sorte quil despendoit
+de mon choix {de m'en aller ou de demeurer. Sur quoy Je luy repliquay que [il estoit(?)] [?] Je me retrouuois(?) si
+J'estois contraint de m'en aller, mais qu'ayant seiourné par deça} par commandement de monseigneur et non pour mon
+plesir, Jeusse desiré {[de] faire ma retraicte auec le mesme(?) commandement}, neantmoins que Jestimois quil ne me
+seroit imputé a faulte de lauoir fait, puis que Je ne pouuois attendre pour ben que {si [sa] Maiesté tesmoignast que Je
+ne l'ay [?] [?] aultre chose qu'a [?] importun[er](?) [?] [?] il estoit reussy si peu de [?] [?] Je [?] dire tout ce que
+J'auois cy(?) proposé [?]} mesme estat que le premier Jour que Jen auois faict ouuerture. La responce fust *yo lo creo*,
+et sur le surplus quil le feroit entendre a sa Maté et mesclairciroit de son intention le landemain. Et par ce que Je luy
+tins ce langaige a lheure de laudiance commune, ou pour la multitude des gens qui y afflue on ne peult estre long, Je
+luy demanday vne heure en laquelle Je pusse conferer auec luy {sur les aduis que J'auois, [?] et entendre de luy le
+iour que Je les pouuois representer a sadite Maiesté}. Il me dict: vuydons ce premier poinct, et puis ma(?) nous
+aduiserons au reste. Je me retournay le landemain a son logis ainsy quil retournoit de chez le Roy fort seul, et
+maperceuant mappella et me demanda quelles nouuelles Jauois de France. Je luy dis ce que Jen auois entendu par lettres
+quelon ma escript de Bourgongne au commencement du moys passé, et luy {remarquay(?) nostre foiblesse, m[ais] celle du
+[?], nonobstant laquelle il demeuroit maistre de la campaigne}, les bruits que les ennemys faisoient courir de la paix
+pour en faire leur proffit, mais quilz estoient faulx; que Jauois veu par lettre d'une lettre quauez escript de Rouen le
+xx de Juillet que Monseigneur ny auoit aulcune inclination, ny de prendre resolution aultre affaires quen lassemblée
+generalle des estats, pour la conuocation desquelz Il deliberoit sacheminer bien tost en Champaigne et les Joindre par
+tout le moys passé. Il marresta la et me dict que lon auoit veu par deça copie des lettres quil auoit escript en
+plusieurs endroicts du royaulme sur ce subject, et mandé de Rome lordre qui y auoit esté donné pour composer … quoy ny
+ad(?) Jonstat(?) foy(?), et changeant de propos me fist entendre que sa Maiesté auoit trouué bon {que J'attendisse
+encores quelque(?) temps des nouuelles de [?], et que pour m'en donner le moyen elle m'auoit ordonné cinq cens ducats,
+qui valent enuiron quatre cens cinquante escus, ou [?]} si Je voulois, lesquelles me seroient p{[?] a Madrid, ou Je me
+pou[uoi]s(?) retirer auec les ambassadeurs et aultres estans par deça de la part de princes estrangers}, qu'a lheure
+mesme Il alloit escrire vn mot au seigneur Francisco de Idiaquez pour {[?] faire fournir(?) ceste somme. Apres l'auoir
+remercié [de] la bonne volunté de sadite Maiesté et} la peine quil auoit voulu prendre de se souuenir de moy, Je luy
+dis que Je desirois auant que retourner a Madrid auoir la commodité de discourir auec luy sur lestat auquel se
+retrouuoient les affaires en France {et des inconueniens qui [?] succeder(?) s'il n'y estoit remedié, encores que si
+sa Maiesté eust [?] a(?) ses ministres beaucoup de choses [?] [?] a leur [co]gnoissance(?) [?] necessaire(?) [?] ne les
+eust [?] il [?]. Il me respond[i]t(?) comme [?] constant(?) [?] durant(?) la suite de la cour et} me dict que la Il
+estoit malaisé, par ce que lon se preparoit pour venir a Burgos, ou le Roy tarderoit sept Jours a arriuer; que si Je me
+voulois donner ce loisir Il seroit bon que Je my acheminasse. Je vis aussi le seigneur Don Martin de Idiaquez, auec
+lequel estant entré en propos {[?] des(?) [?] generaux(?) et puis ayant d[ict] qu'a raison de la foiblesse en laquelle
+se retrouuoit le parti catholic il ne se m…} (continues on f. 46v)
+
+
+## f. 46v
+
+Pelissier to Jeannin, Burgos, 13 September 1592, page 2. Deciphered stretches are in {braces}, and clear text is in plain type.
+`[?]` marks a word I could not recover, and `(?)` follows a doubtful word. `[315]` is the three-digit code group (see the key notes).
+Row numbers (C1, C2 ...) are given in the margin as ‖Cn.
+
+‖C1 {[?] loin(?) a repos(?) de les fort presser. Il me voulut persuader [?] la prinse de Po‖C2nteaudomer(?)
+me le [d]onnant(?) [?] nos forces superieures a celes de l'enemi, et que [?] ‖C3 auoit grand tort de l[e]s retarder,
+c[o]me l'on faisoit de grandes leu[e]es en Alemai‖C4gne, lors que les[quelles] seroient prestes auant que les deputes
+fussent ioinctz; et(?) ‖C5 luy ayant respondu que i'auois admis qu'ilz se debuoient(?) assembler par tout(?) le ‖C6 mois
+passe, il me dict estre [b]ien(?) aduerty qu'on les auoit differe(?) iusques a ‖C7 la fin d[?] [?]} a l'arriuee du Roy
+en ce dict lieu de Burgos. Je retornay treuuer le seigneur Don Joan, lequel m'ayant donne vne heure particulliere,
+‖C8 {i'exposay pour fon[d]ement de mon discours(?) ‖C9 qu'il n'est rien plus requis en vn estat que la conseruation(?)
+de la reputation, la‖C10quelle aporte crainte(?) et tremeur(?) aux ennemis, tient en respect(?) [et] debuoir ceux qui
+‖C11 ont l'affection(?) [?] ... [?] courage(?) aux amis et [a] ceux} qui entrem(ettoient) leur suport et appuy, qu'auec
+... presupposition on pouuoit dire auec verite ‖C12 {que par(?) la bataille(?) ‖C13 [?] aupres d'[?]. La principale
+difficulte que [315] [?] ... establissem‖C14ent procedoit de l'empeschement que y aporte [?] [?]}, ayant faict
+parauant demonstration du desir qu'il auoit d'assister la cause Catholique, et contre qui la deffendoient s'y
+opposeroit d'aultant plus vigoureusement qu'il verroit la necessite le requerir; ‖C15 {ceux qu'i[?] ... ‖C16 [?]
+grande(?) [?] et la redoutent, desirans pour ceste occasion de la ‖C17 prosperite(?) [de] [315] [?]} sur ce doubte ne
+s'osoient declarer apertement ou sa faueur. ‖C18 {[?] les catholiques ‖C19 des lors reclam[erent](?) leurs [?] ... et
+[?] principalement des aid‖C20es et forces de sa Maieste, que l'asseurance d'estre assist[e]z d'iceles auoit faict
+‖C21 resouldre ceux de [?] d'endurer vn si l[?] [?] et porter patiemment ‖C22 tant d'incommodites qu'on souffrit(?)
+[?] ... [?]eusement ‖C23 iusques a la [?] de [?]} par le moyen de laquelle ilz en auoient este deliures ‖C24 {[?]
+‖C25 ceste armee si florissante que les ennemis estimoient se debuoir conti‖C26nuer en [?] ... [?] de l'arriuee(?)}
+engendra tel estonnement parmy eulx que ‖C27 {la plus part de la noblesse catholique qui suit ce party} se retira
+chacun en sa maison pour de la veoir que deuiendroit ceste emeute, et aulcuns des principaulx d'Icelle auec quelques
+‖C28 {villes qui se retienent de ce coste la par la crainte commencoient a e‖C29ntrer en traicte auec [?] pour se
+ranger(?) [?]}; toutes les prouinces se sentoient tellement fortifiees par la presance et reputation ‖C30 {de ceste
+armee que chacune d'iceles se ‖C31 disposoit a faire quelque effort pour prendre aduantage sur l'enemy, de sor‖C32te
+que si elle eust hyuerne dans le pa[y]s elle eust cause vn grand changem‖C33ent et tellement dispose les affaires que,
+employant la saison suiuante v‖C34tilement, [315] eust [?] vne [tres] grande diminution qui l'eust acheminé a vne
+r‖C35uine tres certaine. Or les Alemandz} en vn cours de victoire tel que celuy la n'eussent eu l'audace de sortir de
+leur pays pour l'assister comme ilz ont faict depuis; ‖C36 {et plusieurs potent‖C37atz qui l'ont fauorise [?] ... s'en
+eussent retenus de crainte d'enc‖C38ourir l'indignation de [?]. Mais le retour de [?] au Pais Bas(?) a faict cesser
+toute‖C39s ses praticques commencees(?), [?] l'occasion de la crainte passee, et les ca‖C40tholiques commencerent a
+perdre l'esperance qu'ilz auoient eu de leur ‖C41 prosperite, ainsi(?) que plusieurs failliz(?) de cueur et [?]
+de courage, qu‖C42i [?] par la faiblesse en laquelle demeuroient les catholiques, et i‖C43lz n'estoient pour subsister
+longuement, [?] demeure en estat que la [?] ‖C44 [?] si l'ennemy retournoit(?), ne voulans demeurer exp‖C45osez a ce
+peril, commencerent a [?] des pratiques(?) auec(?) plusieurs villes qui a‖C46uoient cause la perte de la [?] ... le
+[?] proueu(?) ... de Corb[?](?) ‖C47 [?] d'vn [?] semblable [?] de la Fere, Soissons, [?] et autres ‖C48 places de
+Picardie s'il n'y eust este pourueu par [?] ...}
+
+## f. 47r
+
+{[?] que le naturel des(?) François(?) a tousiours esté de faire(?) plustost ce qu'[il] est requis d'eux} de leur gré et bonne
+volunté que par force et violance, contre laquelle ilz se roidissent tellement qu'ilz aymeroient mieux mourir touts l'un aprés
+l'aultre que se laisser vaincre par ceste maniere de traitement, {dont les esamples s'estoient remarqués en plusieurs siecles
+et recentement soubz le regne du dernier Ro[y](?), contre lequel pour ceste seule occasion un [chacun?] s'estoit [e]sleué(?)
+[?]sion [?] et de pense[r] les precipiter a [?] contre leur volunté par [ne]cessité [?]} c'estoit s'abuser. Au contraire il n'y
+a chose, pour estrange que ce soit, a quoy ilz ne se laissent conduire par doulceur, amitié et bienfaicts, {a quoy Sa Maiesté
+se conform[a]nt, elle en remporteroit le contentement qu'elle peult desirer, avec beaucoup d'honneur et reputation envers
+toutes nations, aus[si] [?] [?] [?]ois [?] le peult ce} qu'elle voult, qui pour cest occasion la respecteroient davantaige. Et
+pour veoir {ceste avisa[?] [?] couronne obli[g]a(?) [?] [?] luy(?) semblera [?] enfin(?) a l'endroit des François} pour
+leur avoir tesmoigné par avoir oy la volunté conforme a son pouvoir {a la ruine et confusion des meschans [..] Roy
+co[g]noissance(?) [?] ilz rechercheroient les occasions d'employer leurs [?] servir(?) les moyens de [con]tinuer(?) ce que
+l'auroit [?] [?] les tirer de misere(?) et plus[ieurs] conclusions [?] s'o[..]neroit(?) d'un [?] rendroit sa memoire a la
+gloire(?) immortelle aux siecles a advenir. Il escouta tout cela [?] sans m'interrompre, et [m]e dict que} avant que me
+respondre il me vouloit faire quelques interrogats sur ce subiect; luy ayant satisfaict, il me declareroit son intention sur
+ce que je luy avois discouru, {d'assavoir si je le faisois par commandement [?] [?] mesme [?]}. Je luy repliquay luy avoir
+desia dict que je n'avois aucun advis de Monseigneur depuis que les armées estoient proches l'une de l'aultre auprés de
+Caudebec, que je l'avois adverty lors de ce qu'il me mandoit et mesmement du jugement qu'il faisoit {[?] [?]a l'on mist sus
+deux armées, n'[ayan]s(?) que quelques personnes de [?] et affections a la cause, et mes amis sçachans que je suis(?) icy
+[?] puissent(?) [?] remedes [?]} rendoient soigneux de m'advertir de ce qu'ilz recognoissent de la disposition des peuples et
+artifices des ennemys, et de ce qui dient au surplus de leur cognoissance, afin de m'ayder selon les occurrances; que voyant
+plusieurs doubtes se rendre concurrans en mesme opinion en divers endroicts, j'avois estimé estre du debvoir de ma charge et
+necessaire pour l'acquit de ma conscience de luy representer a la verité sans rien desguiser, afin que Sa Maiesté en estant
+comme je le desirois {[?] il luy pleust y ordonner qu'il fust pourveu a ce[s] [?] les inconvenients que j'avois proposé(?)
+[?] n'eussent(?) [les] effects [?] ayant(?) [?] que j'aurois peu(?) [?] [?]ement est [?] necessaires d'apporter(?) ceste
+satisfaction [?] d'autre(?) chose que l'une des [?] au moins ceste satisfaction de ne m'estre [?] [?] les succés passés,
+lesquelz les ennemis fondoient leurs calomnies et les peuples la perte des esperances qu'[ilz] ne pe[uvent](?) se veoir
+[re]levez(?) de leurs [mi]seres(?) avec les aydes de Sa Maiesté,} et fortifie chacun point des raisons qui s'alleguent ou de
+celles qui se font par conjecture et imagination, que je sçavois assez {[?] Sa Maiesté n'a rien espar[gné](?) de ce que les
+despenses necessaires [?] pour fortifier la cro[?](?) qu'elle ne} diminuoit ceste affection, mais qu'a mesme que le mal
+croissoit aussy falloit il user de remedes plus puissans; que ceulx qui sont dans les provinces et ont l'oeil ouvert a
+observer ce qui y passe et conversent avec toute sorte de gens cognoissent plus particullierement ce qui est bon ou mal
+qu'autres qui ne [continues on f. 47v]
+
+
+## f. 47v
+
+... que qu'a(?) qui est du general, et que les opinions de plusieurs en diuers endroicts, que Je cognois auoir l'ame
+droicte, et nostre Ignorance nous faisoit estimer que leurs aduis ne sont a negliger. {Il m'[a] dict que l'on(?) ne
+treuueroit par les histoires de plusieurs siecles(?) qu'aultre roy eust donné des secours} si puissans, qui eussent tant
+duré p[l]us(?), auec vne si sincere affection, {qu'auoit faict Sa Maiesté, qui estoit asses pour [c l ſ e ... m a b o u r
+h e u r e s](?) [?] qu'i(l)[z] [?]droient(?)} l'auoir fait pour ses propres Interests; qu'ilz(?) les efforts de l'autre
+n'auoient correspondu a ce que l'on en attendoit, la faulte en debuoit estre attribuee a {ceux a qui les ditz secours
+estoient enuoyez, [q]ui n'en auoient [une a pro...](?); les vns s'estoient, tant de leur pa[r]t(?)} comme Ilz debuoient
+pourtant, porté trop mollement; et qu'estant bien consideré, nul sage ne blasmeroit {Sa Maiesté en ce(?), n'auroit
+pourtant sa grandeur et moins de respect, et} renderent(?) que les raisons que J'allegois pour {reculer l'assemblee des
+estatz} et les remedes que Je remonstrois estre necessaires pour {les [?] donneroient soupçon que c'estoit(?) un
+artifice} pour les empescher; et que, tendant a choses difficiles et voulant {de sa(?) [t r](?) ces si grandes(?)
+s[o]m[mes](?) [?] monstrer que [?] se vouloit rendre maistre des a[ffaires](?) [?] ... au[t]oriser quelques siens
+desseins particuliers [?] tant plus que(?) [?]} sa bonne Intention; combien la chrestiante luy doibt pour le zele et
+affection qu'il a tesmoigné a la deffence de la cause, pour laquelle Il a exposé(?) librement sa vye et ses moyens, et
+s'en engaige auec beaucoup d'Incommodité; qu'il ne penseroit Jamais de luy que ce qu'il fault d'un prince tres homme
+d'honneur et subiect(?), {mais si mon discours(?) [a]uenoit(?) a la cognoissance d'autre que de luy [?] de la nation
+espai[g]nole, qu'ilz se[r]oi[e]nt tres [?] fort estrange(?)}; voyant d'ung sien ministre que les François de son party ne
+pourroient trouuer {[?] tres mauuais qu'il tentast des voyes par lesquelles} ce qui doibt aporter le repos aux
+Catholiques {fust differé, qui est la n[o]mination d'un roy legitime pour l'opposer a l'heretique et tyran, que les
+ennemis mesmes [n'e]nt[en]doient(?) bien [?], ainsi ilz} les francoient(?); et que n'y ayant chose en laquelle on eust
+voulu {blas[m]er(?) Sa Maiesté [?] ... [?] ... se]courir [?] ... [?] les ditz estans} par plus forte raison seroit. Il
+treuue mauuais de {[?] qu'i[l] n'ayant(?) d'interest que du temps du cardinal de B[?] [?]} auoit faict Instance que
+toutes aultres choses postposees il commetist les forces {pour [l]a deliurance(?)}, et qui n'auoit esté recruté, qui
+tesmoignoit assez que {faulsement et non importoit(?) [?] la tenue [?] de dissiper(?) [?] pour [?] laquelle il(?)
+disoit plus d'instance pour la tenue des estatz [?]}, qu'il me vouloit bien aduer[tir] que Je prinse guarde {[?] estoit
+[?] qu'autres que [?] (underlined group) [?] cognoissance(?) de [?]}, que Je luy auois dict qu'il auoit prins de bonne part,
+estimant qu'il ne [?] affection {[?]} Je le fisse, mais qu'il ne me vouloit {[?]} {[?] la façon qu'il le prendroit} que
+Je sceusse a ceste heure. Il auroit tres grand c[ontentement ?] {[s]atisfaction de [?] et le recognoissoit(?) [?] utile
+a la cause; que les ministres [?] nuis[?] [?] de la [?]} dormoient ordinairement. Aduis des demonstrations qu'il faict des
+grandes {[affec]tions(?) qu'il ressent auoir a l'endroit de Sa Maiesté, et [?] la contraint(?) [?] ... [?] la
+correspondance que les estatz ne [?] si [n']estoient assemble[z](?), s'il n'y est [?] des forces et suffisantes pour le
+[?] tenir libres [?] ... [?]} tousiours aulx choses qui seroient necessaires pour l'aduancement de la cause, apres auoir
+Justifié, et dont Il monstroit {de me [?] ... [?] doute [?] depuis(?) [?] point de commandement [?] ... [?] entendre(?)
+de [?] Sa Maiesté(?)} ce que Je luy auois representé. Je remettois a sa prudance et a ce qu'il porte d'affection au
+bien de la cause {de lu[y](?) donner cognoissance(?) de ce qui pouuoit(?) seruir(?) [?] ... [?] suffisamment
+deschargé de} mon estre esclarcy auec luy, qui pour estre son principal ministre auoit {interest a ce qui to[uch]e(?)
+[?] sa reputation [?] ... [?] ... ilz ont les oreilles delicates quand on leur dict [?]} les ben(?) et qui non seulement
+les bons {conseils leur sont s[u]s[pects](?), mais [?] ...}
+
+(The page ends mid-sentence and continues on f. 48r.)
+
+
+## f. 48r
+
+{...e, qui du commencement s'en[?] (semblent?) en la conduite des affaires}. Aussy est il expedient de prendre nouueaulx
+conseilz pour faire {election de troisiesme moyen qui, selon la qualite du mal, a[y] (?) est empire} [et] penetre Jusques a
+ce (?) arracher la racine, attendu que {des succes des precedens [precedens] (?) il n'est resulte que diminution de sa
+reputation a l'endroict de toutes nations, lesquelles s[e]roient que sa puissance ne s'estend} plus auant que ce que lon
+voit des {[?] de ses (?) armes et les grandz (?) moyens que le [?] employer en d[?]ans [?], ne le monstre vouloir
+fauoriser (?) en de fruict (?); qu'ilz se treuent plus proches (?) de leur ruine que le premier iour qu'elle a eue (?) a
+commence; les vns (?) en prendrent (?) peu de bienueuillance (?)}, estant chose coustumiere de ne faire Jugement de toutes
+entreprinses si non par ce en quoy elles se terminent. Que si lon a doubte {par le passe de tenir les Estatz generaux
+pour la nomination d'un Roy catholique, iusques a ce que l'on a[it] peu (?) [les] authoriser par la force}, Il semble estre
+maintenant moins apropos {de les assembler que iamais, par ce qu'en (?) toutes sortes de gens (?) [on voit (?)] decheus de
+courage pour auoir veu ceste derniere armee, de laquelle l'on esperoit tant de soulagement, tourner a rien sans en auoir
+receu aucun aduantage (?), en estant [?] (reduicte?), laquelle a tesmoigne (?) la foiblesse de par auant. Il est certain
+que les peuples las de [?] se veoir (?) [?], les ecclesiastiques intimidez et epuisez de moyens, la noblesse qui n'a gueres
+plus d'affection a la cause} que ce que ses Interestz particuliers sy retiennent, tendront plustost a {un accord qui
+creera (?) un Roy pour l'opposer a celuy qui se pretend[,] et estre [?] non seulement dedans son party mais} en plusieurs
+endroits hors du royaulme de france. Bien que de la c[r]ise se peult attendre {[?], qui ne prendra fin que par
+l'extermination de la race de l'un desditz deux Roys ainsy opposez l'un a l'autre, si sanglante (?) [?] la haine, qu'a [?]
+desespoir d'entrer en aucun appointement, que ne pardonnant (?) [?]}, le mieulx quoy en puisse coniecturer est la ruine
+commune des vns et des aultres, quil semble estre necessaire, auant que passer plus auant, a ce qui a este quelques fois
+{propose a Sa Maieste de tenir deux armees en pied, l'une pour estre a la teste de l'ennemy, le reculer de la riuiere de
+Seine, le ranger (?) sur celle de Loyre et porter la guerre (?) sur ce qu'il possede, [?] pays (?) [?] les [?] qui se
+tiennent (?) d'Alemaigne [?]; l'autre pour prendre} la ville de la riuiere de seine, rendre Paris et Rouen libres, {et
+consecutiuement essayer d'en[?] les prouinces l'une apres l'autre. Et pour autant que l'on pourroit [ob]iecter que
+l'entretenement desdites deux armees reuiendroit a pres de trois cens mil escus par mois, despence qui (?) a la longue se
+rendroit trop fascheuse, [?]moins pourtant il se pourroit resoudre (?) que s'il [falloit (?)] a continuer, qu'il seroit
+[?] finalement fascheux et difficile}. Mais cest effort ayant dure peu de moys, pendant lesquelz il fauldroit que
+{l'ennemy [?] a [?] compte (?) auec inegalite de [forces?] et des aduantages, s'il reculast, ou (?) se mist sur la
+defensiue}, en lun ou laultre cas, auec lheureux succes qui en aduiendroit, on pourroit {diminuer lesdites armees et
+soulager ceste despence excessiue; qu'il n'est a (?) loin(g) (?) douter que [?] qui desire la [fin] (?)} de la guerre et
+cognoist quelle ne se peult terminer que {par batailles rechercheroit les occasions d'y venir (?), lesquelles succedant (?)
+a l'aduantage [?], puis se pourroit [?] ... [?] remonstrer a Sa Maieste} auec beaucoup de prudence et meure consideration
+quil est perilleux {de hazarder un combat (?) auec une armee composee de nations [?] qui sont subiectes ou [?] des Pais
+bas (?)}, du salut desquelles depend la manutention d[e] [?] ("Jcombe"?), qui courroient fortune sil en mesadvenoit. Pour
+euiter ce doubte {qu'il luy pleust faire composer [?] celle qui seroit opposee a} ...
+
+
+## f. 48v
+
+{... a lennemi, pour estre la pluspart de[s] François (?), lesquelz (?) [?]eroient [?] [b]ons (?), et en [g]rand
+nombre tant a pied qu'a cheval, a la diminution des forces [?] du[dit] (?) [315]} pourveu qu'ilz fussent payez.
+Quoy pourroit joindre a oultre (?) {un corps de [?] [?] ... mil Alemans (?)}{, et s'il estoit jugé a propos que les
+[?] [?] (?) des Espa(i)gnols, Wallons (?), assistés de bons capitaines, [soubz] (?) commandement de celuy qui en
+auroit la c[harg]e (?) [?]} refuser de venir aux mains quand il en verroit l'occasion. Si Dieu favorisoit tant
+qu'on emportast la victoire, ce seroit un rabaissement si grand pour l'ennemy que sa ruine ne tarderoit gueres
+advenir, par ce que de nulle part il ne pourroit de long temps recepvoir nouvelles forces, et ceste defaveur luy
+arrivant en saison que chascun commence a se lasser de la guerre a cause des miseres qui s'en sont ensuivies, on
+verroit en brief un grand changement. {Si aussy par disgrace le contraire advenoit, l'armée qui resteroit (?)
+enco[re] (?) debout, composée des nations subjectes a sa dite majesté, seroit preste pour recueillir les reliques de
+ceste deffaicte, avec lesquelles on demeureroit assez puissant pour [arr]ester (?) le cours de la victoire audit
+ennemi, [quoy] que s'a[?] (?) les dites deux armées. S'il le veult (?) continuer les secours que le [?] donne (?)
+[?] et les estendre en [?] autres [p]rovinces [?] d'autant plus incommoder [315], mais si elle ne vouloit porter tant
+de despence a la fois, [?] il luy est (?) [a] considerer que pour} le bien general des affaires. Il est cependant
+que {ses secours cessent, lesquelz, regardant a ce qui} s'est passé, apportant peu d'advancement pour le so[?]ire (?)
+d'Iceulx, et plustost causent la ruine {des dites provinces que leur soulagement; n'y e[?] que (?) les forces estant
+debiles et quasy} egales de part et d'aultre, elles n'entreprennent rien de grand, se contentant de prendre quelques
+petites villes de peu d'importance, dont l'ennemy se rend puis apres maistre a son tour, ou en attaque d'aultres a
+mesme temps desquelles il se prenant (?). Estant a croyre qu'il serviroit plus a leur repos {de se resouldre a tenir
+deux (?) [?] armées (?) ensemble, moiennant qu'on t[?] (?) lesdits ennemis. Suivront (?) la guerre dedans les
+provinces [?] seroient contraincts de conquerir (?) a l[?] [?] ... [?] voiant (?) presser, que commencent ainsi
+[?] ... [?] leroit (?) les esperances, [f]eroit oublier les miseres passées et releveroit les courages des
+catholiques [?]} prendre des resolutions formes et solides tendentes a un establissement certain {pour eux, a la
+ruine et confusion de leurs [ennemis] (?). Et si lors sa dite majesté declaroit quelque affection particuliere en
+la nomination du roy} il ne falloit doubter que chascun ne s'accordat a luy complaire et obeir, les uns guidés d'une
+pure franche et liberale volonté, les aultres meus des obligations grandes qu'ilz luy avoient {d'un si puissant
+secours; [et] ceux [?] qui pour quelques respects s'y rendroient difficiles, y seroient portés a le faire [?] ...
+[?] aussi bien les [?] ... [?]} lors les raisons qui se peuvent alleguer {de l'utilité qu'aporte le nom [et la]
+presence d'un roy en l'Estat [?] ... [les c]oeurs (?) d'un chacun pour} l'esperance que les uns auroient qu'apres son
+establissement il recognoistroit leurs services, et les aultres d'estre relevez des opressions qu'ilz auroient
+souffert. Que l'une des plus importantes observations que peult faire {un grand monar[que] (?), [ce] semble, est de
+[?] les [?] (?) conditions et affections (?) [?] des nations qui luy sont subjectes et} celles desquelles il se veult
+servir, et scavoir discerner la differance qui est en chascune d'Icelles, affin que {[?] ... avec (?) ce qu'il
+co[gn]oistra (?)} les rendre plus flexibles et leur estre plus tolerable {[?] ... [d']eux (?), estant bien plus
+aisé que par sa prudence il se command[e] (?) ... employe (?) ses [?] ... de penser ... tant de milliers d'hommes
+...} [continues on f. 49r]
+
+
+## f. 49r
+
+{[s]e trouuoit lors a [?] malade, qu'en eschauffement(?) de dispositions [?] fai|ct [?] ouurage au [315], et
+rassembla(n)t ses forces s'estoit allé [?] les [?] deuant Chartres, qu'il auoit prins(e) [?] quelques autres villes par le
+moyen des [?] il(?) estoit demeuré en [?] de toute la [?] contre les meilleures(?) [?] ... [?] ... [?] les choses
+necessaires a la vie et les armes a la main, qu'il auoit faict [?] la [?] Noyon a la veue de [?] lequel [?] ses(?) forces
+[?] pour le secourir, resolu de l'executer, en auoit esté empesché pour auoir esté contrarié(?), et son dessein [?] le
+prince d'Ascoly(?), lequel auoit la conduite du secours enuoyé [?], qui auoit donné occasion de [?]armer(?) partout
+[?] hault(?) et [?] estoit plaisir de laisser [c]onquerir(?) [?] a l'heretique [?] pied [?], qu'il [v]audroit(?) mieux la
+luy donner, en asseurant la religion que les persuasions desquelles on auoit usé(?) a l'endroict des peuples(?), que
+[?] renouuelleroit(?) en brief [une armée(?)] plus puissante que la precedente [?] n'auroient [peu] empescher que [?]
+les [forces(?)] d'Allemaigne et [?] ne fussent iointes au [315] [?] auant qu'il parust, et que partant il y estoit
+loisible d'entreprendre [?] sembleroit(?) les villes qui n'auoient receu garnison [?] eussent receu [?] voulant demeurer
+libres(?) [?] destruicte auec [?] la necessité de leur [?] son place forte et d'importance; en auoit une de ceste façon
+mesmes suiuie depuis de deux autres, sans la resolution qu'il auoit prinse d'aler sans perdre temps droict au(?) [?],
+apres auoir recueilli [?] tant des forces de [?] iusques(?) a quinze mil hommes de pied et de trois a quatre mil
+cheuaux, auoit desiré entreprendre quelque chose [?] en attendant Son Altesse, mais que l'on auoit refusé de le faire
+[?] sa conduite, uiuant cependant si dissolument que tout le monde en esclatoit. [?] ce secours [?] l'on disoit porter
+enuie a ce que [?] auoit laissé entier [?] le uouloir ruiner [?] estant entré en [?] n'auoit esté [?] l'on pas secourir
+[?] faisoit [?] n'auoit de la foiblesse et [?] qu'on l'ait secouru d'hommes auec quelques heureux succés. Depuis ayant
+l'occasion [?] toute et prit Caudebec [?] le [315] ayant incontinant [?] tourné la teste et s'estant campé pres l'armée
+catholique, monstrant tous les iours un tres grand desir de uenir au combat, contraint a la fin par le deffault de uiures
+de passer [la] riuiere [?] se retirer(?) en grande [?] Rouen iusques aupres de Chasteau Thierry, ou les [ennemis(?)]
+[?] dissipez [?] apres auoir repassé [?] paruenu a Chalons en Champaigne, [?] s'estans separez d'auec luy ses(?)
+Allemands [et] Suisses pour la plus part, [?] demeuroit neantmoins maistre de la campagne, faisoit croire [?] auoir eu
+deux si puissantes armées [?] qu'il n'y a plus d'espoir de ueoir les affaires(?) redressées par} la guerre
+principalement, pour auoir ceste remarque quoy a laissé passer plusieurs occasions sans uouloir combatre, quoy qu'au
+iugement de plusieurs auec aduantaige; qui faisoit qu'en plusieurs endroicts {on prestoit l'oreille aux bruits que
+meschamment sement les ennemis et autres peu affectionnés a la cause, lesquelz pensoient(?) obscurcir l'honneur de Sa
+Maiesté et diminuer sa reputation, disent que [?] en feut reprinse la deffence non pour le [?] heresie(?) [?]} mais poulsé
+de ses propres interestz, ayant iugé n'y auoir meilleur moyen de {ranger(?) ses subiectz rebelles des Pais Bas a la
+raison que nourrissant(?) la guerre(?) parmy(?)} les François, lesquelz par icelle seroient diuertis de leur donner ayde.
+Cependant pour le bien et repos de {[?] que [?] la paix(?) et meure(ment?) [?] en attendant [?] fomenter l'un des
+partis} auec aussy [?].
+
+
+## f. 49v
+
+quil prenne dauantage sur laultre, comme que les ennemys {se preualent (?) des [?]} (decoded letters "des c a m e s e"; gloss "ragnia") voulans que toutes choses demeurent en telle balance que tous venans a [underlined: s c v X] {[d]ebilit[er] (?) [?] [egal]ement (?), et a le disposer deux a sa volunte (?) sur [le] royaume (?) [?] dissipe[?] [?]ement ceste (?)} couronne, {que venant a se} separer entre plusieurs en prenant par mesme moyen sa part aux endroicts quil luy seront plus commodes, {elle perde toute occasion [a] de ialousie de} sa grandeur passer, laquelle seule a pour trauerser {ses entreprinses, et pouuoit faire le mesme a ses successeurs sil demeuroit en son entier}. Confortent ceste opinion par ce exemple de ce qui cest passe, {disans que sa dite Maieste ayant este plusieurs a[?] endormy de lestat des affaires (?), et de ses} remedes necessaires y estre appliques par son dit, pourtant dauantage {[?] ayant tousiours continue (?) de disposer la [?] [?] ceux a} vne longueur qui ne promet point de fin, concluans quil fault infailliblement croyre que {[l]es forces [?] sabatent (?) pour faire [?] … quelle ne a pu [?] deuenir la dite [?] … de plus [?]}.
+
+Et monstrant questans entre pareillement Catholiques et aussy desireux de la conseruation de la religion que entre qui se sont vnis et liges soubs pretexte de la maintenir, voudroient aussi pou(r) souffrir la diminution dIcelle, non que leuersion (&?) pour y auoir semblable Interest, {mais quayant pleu a Dieu lappeller comme par miracle a la succession de ceste dignite, veu que} tant daultres le precedoient en Icelle qui par raison {naturellement debuoient lexclure, laissant} des enfans, il le fault recognoir(e), {quoyquils soient heretiques; et esperent (?) quil luy touchera (?) la [?] … [ne] luy fera pas [g]race de le reunir, rauoir en [?] mise (?); et quand il demeureroit en son opinion sans la vouloir [?] … [a] cause que (?)} estant la cause de laquelle Il sagit celle du mesme dieu, Il est a croyre quil ne la abandonnera, et les Catholiques {[?] de party daultre [?] … le pouuoir [?] … [?]} se fera auec luy, quil ne sera en son pouuoir dy rien. Jmmonde (?) estant principalement seul {a randre (?) ceste (?) secte [?] … toutefoys aulcun (?) … et qui ayant vescu des sa ieunesse en} perpetuelle peine et trauail, pauure et miserable, desirera tant le repos, estant comme il est {desia sur le retour de son aage, quil ne sestudiera qua le conseruer pour luy [et (?)]} ses subiectz. Et quand Il luy prendroit enuye den disposer (aucunement, word circled) oy. auroit plus gangne {sur luy en faisant la paix quen plusieurs batailles}, & parce qualors Indubitablement toutz {les Catholiques suniroient contre (?) luy} et auec Iuste raison se tiendroient {libres du serment de fidelite quilz luy auroient preste, quilz [ne] dient (?) aussy [?] … non seulement naffermira la religion, mais} partant dImpietes qui se commettent, ausquelles la pluspart sabandonnent par lImpunite dIcelles, latheisme se va coulant et prenant pied peu a peu.
+
+Quenchores que telles raisons se puissent refuter et confondre par daultres plus pregnants et suffisants, si est ce questant {dicte(s)} {a gens matez des maux soufferts et plains de desespoir de mieux}, qui aprehendent plus vifuement la menace de la ruine presante pour entre eux et les leur par la continuation de la guerre que celle qui leur pourroit causer {lestablissement du [315] (= Roy?) plus [?] … [qui] reçoiuent (?) facilement} telles Impressions, lesquelles conformes a leurs Inclinations et procedant de {personnes qui sont parens, amis (written twice) ou [?] (voisins?), dune mesme nation}, nais et nourris soubz mesmes loix, monstrans auoir les mesmes Interestz et portee pareilz regrets de lInjure du temps, {il est a craindre quon sy laisse aller, quoyque les princes catholiques y [?] de toute leur force, que [lon] pourroit (?) preuenir ceste conclusion si preiudiciable a la religion catholique non seulement en [?] mais en} toutes aultres regions de la Chrestiente. Bon quon (?) ceste particularite {elle (?) [?] … quil pleust a Sa Maieste recognoissant (?) [?] … est seule qui peult doner guerison a ceste maladie, apres (?) [?] quelle le [?] pour vne action si plaine de piete adioustera au nom quil porte (?) de Catholique non seulement celuy de tres chrestien, mais de liberateur de la Chrestiente, considerer que ainsi que le [?] … honneur (?) [?]} (continues on f. 50r)
+
+
+## f. 50r
+
+{[?] toutes contraires, et si vous considerez comment peu a peu ilz vont minant l'authorité de celuy (?), ayant premierement
+osté la disposition des finances, le commandement aux armes (?), et que par pratiques (?) [et] aultres voyes ilz luy diminuent
+le credit, tant qu'il [?] … [?] … que leur intention est de l'abaisser le plus qu'ilz pourront (?). Dieu veulle que je me trompe,
+et ne scay s'ilz en parvenoient (?) a leurs [?], ains s'il y auroit plus de seurté parmy eux qu'a leurs siens (?) … a l'endroit
+de ceulx (?) qui l[uy] nuisent (?) … [?] … n'estant bien [?] … que [?] peu de satisfaction d'eux, quant [?] a (?) commencé du
+traicté avec l'un, comme de valet a maistre.} Il a la pulce en l'oreille et ne dict pas ce qu'il en pense. Je l'ay recogneu
+{d'un Jacobin, son confesseur, nommé Cor[?]} & lequel est a la suite de ceste court pour ses affaires, quoy qu'ilz ayent
+supply[é] {[davantage (?)] … [?] … des estatz (?) … que} les [~~estatz~~] ne correspondront pas a ce que pretend {[310] et
+l'ambassadeur [?]} a esté renvoyé sans aultre esclaircissement sur ses demandes, lesquelles je ne scay que par conjecture
+{au couvert (?) [?] de Milan et don [?] … [?] … ambassadeur … [?]}, lequel vous cognoisses, dont il ne se sent contenté,
+ayant envoyé la despeche qui luy a esté donnee, et attend commandement de ce qu'il aura a faire sur icelle a Madrid.
+{Puisque (?) le traictement est si egal partout} que l'un ne doibt estre jaloux des aultres {[?] … [?] … [?] advance (?),
+de tant que [?] … se debvroient mieux recognoistre, et} que le plus sage en fist la premiere ouverture, affin que chascun
+relaschant quelque chose de ses affections particulieres {[?] s'unissent (?) en une union si [estroicte (?)] que l'on
+[?] n'eust partout [?] … [?]} ressentir egalement des aultres, qui seroit le vray moyen {d'eschapper les resolutions que l'on
+a prises par deça [?] … [?] … de plus de respect} que l'oy (= l'on) ne faict ce que l'oy m'a promis de commodité a Madrid
+{[?] pour [?] … les commandemens de [?] … puisque [?] … au credit [?] … que [?]}. Je m'opiniastre en ceste court pour
+essayer de tirer une derniere resolution sur la partie de cinquante mil escutz dont les seigneurs don Joan et don Martin de
+Idiaquez me donnent tousiours esperance. Je vous ay mandé par ma precedente que je m'y estois acheminé pour {[?] … congé du
+Roy afin de m'en retourner, comme j'estimois le faire, ayant prins [?] de ma demande} le long temps que l'on avoit tardé sans
+me respondre; mais puis que l'on m'a donné {moyen (?) de sejourner davantage, j'attendray une [?] tout le mois; pour quoy
+s'il [est] la volonté de [?] et la vostre … [?] … [?] il ne m'est pourveu de moyens, je prendray ma derniere resolution,
+[?] d'autant (?) plus … [?] … retourner (?) … [?] … les langaiges qui m'ont esté tenus, et ayant esté vaines (?) mes
+plaintes sans que les miennes (?) [ayent] esté entendues … [?] … sans [?] … vostre [?] … tesmoignage (?) que [?] …
+[?] inutile}. Je vous baise bien humblement les mains et prie Dieu qu'il vous conserve en santé tres heureuse et longue vye.
+A Burgos le xiij septembre 1592.
+
+*Postscript:* {Le Baston (?) a esté despesché a Palentia, a ce que j'entends, fort a son contentement; il s'est tenu
+couvert de [?] … qu'il m'a [?] … avoir … au Roy (?)}, mais la bonne chere quoy luy a faict et l'honneur qu'il a receu,
+jusques a luy envoyer {des chevaux du logis [?] de [?]} quand il alloit parler a luy, me faict penser qu'il a {[?] …
+avantages (?) … que les siens … particulieres}. Vous le cognoisses mieulx que moy et pourrez conjecturer ce qui est de la
+verité.
+
+(left margin) Tripta [= triplicata] — Vre bien humble et obeissant serviteur, Pelissier

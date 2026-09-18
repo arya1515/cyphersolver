@@ -429,6 +429,15 @@ dubellay/ref/tomokiyo_*.png
 dubellay/ref/cryptiana_*.htm
 dubellay/ref/manifest_*.json
 dubellay/ref/oai_*.xml
+# sega1593: page images, line crops, renders, model weights and LM (regenerate with fetch_canvases.py, seglines.py, seg2.py, boot3.py)
+sega1593/img/
+sega1593/lines/*.png
+sega1593/lines/*.npy
+sega1593/tmp/
+sega1593/*.npy
+sega1593/*.pt
+sega1593/*.pkl
+sega1593/*.log
 # hesse1603: Internet Archive page images, strips and bulky OCR/hOCR texts (refetch: see hesse1603/NOTES.md §1); keep Tomokiyo's key image and the page map
 hesse1603/img/
 hesse1603/crops/
@@ -437,6 +446,117 @@ hesse1603/src/*.xml
 hesse1603/src/*.txt
 hesse1603/src/*.htm
 hesse1603/src/pages_text.json
+
+# raince: Gallica canvases and generated hand-transcription crops; keep the published keys and documented controls
+raince/img/c*.jpg
+raince/img/bands/
+raince/img/tmp/
+raince/img/gg/
+raince/img/gs/
+raince/img/gz/
+raince/img/zoom/
+raince/img/zoom2/
+raince/img/zoom3/
+raince/img/zoom31/
+raince/tmpzoom/
+raince/img/*_gloss_top.png
+raince/tmp_*.py
+f2984/
+
+# Sormano: IIIF pages, working crops and fetched metadata; keep Lasry's verified key image
+sormano/*.jpg
+sormano/*.png
+!sormano/key_lasry3.png
+sormano/*.html
+sormano/manifest.json
+sormano/pagination.xml
+sormano/decode1.json
+
+# Rennes: downloaded pages, generated tokens and local editions; keep Tomokiyo's two published key images
+rennes1563/img/
+rennes1563/tok55/
+rennes1563/ed/
+rennes1563/henryiii.htm
+rennes1563/images/*
+!rennes1563/images/CharlesIX_Rennes.png
+!rennes1563/images/CharlesIX_Rennes2.png
+
+# Herbault: see the herbault1626 rules below
+
+# raince: derived images and language models (regenerate with bands3.py / lmns.py)
+raince/img/lines/
+raince/img/bands/
+raince/img/zoom.png
+raince/img/z_*.png
+raince/img/ov*.png
+raince/img/fol*.png
+raince/*.pkl
+f2984/
+raince/feats.npy
+raince/post.npy
+raince/img/idx/
+# sormano: downloaded Gallica page images and crops
+sormano/raw/
+
+# yard1699: Yale IIIF page images, key sheet and crops, fetched manifests (refetch: see yard1699/NOTES.md §1)
+yard1699/img/
+yard1699/man/
+yard1699/__pycache__/
+# erving1807 / jqa: NARA microfilm frames (M31 reels 7, 8, 12; M35 reels 2, 3), sheets, crops, Founders/LoC downloads
+erving1807/img*/
+erving1807/sheets*/
+erving1807/crops/
+erving1807/cal/
+erving1807/loc/
+erving1807/fo/
+erving1807/*.html
+erving1807/*.json
+erving1807/v_*.png
+erving1807/*.log
+jqa/img*/
+jqa/sheets*/
+jqa/v/
+jqa/*.json
+jqa/*.log
+# adrian1521: PARES page images, Danvila scans, upscaled crops
+adrian1521/img/
+adrian1521/crops/
+adrian1521/strips/
+adrian1521/ln/
+adrian1521/danvila/*.jpg
+adrian1521/danvila/mhe*.txt
+adrian1521/spanish2.htm
+
+# norfolk1570: derived crops and re-downloadable IIIF images/manifest
+norfolk1570/view/
+norfolk1570/img/
+norfolk1570/manifest.json
+
+# soglia1848: language-model tables, corpora, solver runs, line strips, downloaded pages and the full-size scan
+soglia1848/*.bin
+soglia1848/*.npy
+soglia1848/it19.txt
+soglia1848/corpus/
+soglia1848/corpus_fr/
+soglia1848/corpus_la/
+soglia1848/runs/
+soglia1848/strips/
+soglia1848/native/*.exe
+soglia1848/blog.html
+soglia1848/soglia-cryptogram.png
+soglia1848/__pycache__/
+
+# orpo1942: source PDFs and their text dumps, n-gram tables, compiled solvers
+orpo1942/*.pdf
+orpo1942/*.bin
+orpo1942/*.exe
+orpo1942/eaves.txt
+orpo1942/mcts.txt
+orpo1942/wb_*.txt
+orpo1942/__pycache__/
+bordeaux/IMG_*
+!vatican5/IA-2_reread.txt
+
 # sormano1529: Gallica microfilm openings, page images and reading crops (refetch with fetch.sh / region.sh / zoom.sh)
 sormano1529/img/
 sormano1529/crops/

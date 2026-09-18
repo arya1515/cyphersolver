@@ -1,6 +1,12 @@
 # Nevers to Revol, Vese (Vezza?) 7 October 1593, BnF fr. 3986 f. 146v (Gallica btv1b9060631k canvas 287),
 # cipher no. 60, copy. Nine text lines in the block at 0.29-0.46 of page height; lines 2-4 wholly in cipher,
 # lines 1, 5-8 mixed clear/cipher. Transcribed 17 Sept 2026 from the full-resolution IIIF image, deskewed -2.25 deg.
+#
+# REVISED READING GUIDE (17 Sept 2026, second pass at 3.2x): like the interlined Instruction (fr. 3985
+# c. 264-268) and f. 157v, this copy MIXES faded clear cursive with cipher. Several stretches transcribed
+# below as symbol runs are in fact clear French run together (e.g. line 3 middle: "jamais et leur la...";
+# line 4-5: "sur et pour...", "Mr L... morgue..."). Re-segment clear vs cipher against the atlas
+# (atlas60.md) before trusting any symbol below that is not one of the anchors.
 # Tags as in key60.txt; [clear: ...] for plaintext words; ? = uncertain glyph; | = quarter boundary in the crops.
 #
 L1: [clear ... lay] oe p~ p w | |- 2 y r A+ | A+‡ p~ E p+ ∂ c g X++ 9 ꝝ

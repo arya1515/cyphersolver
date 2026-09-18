@@ -1,0 +1,31 @@
+init -1310.0
+  sweep 1 score -1078.1
+  sweep 2 score -1032.0
+  sweep 3 score -1032.0
+  sweep 1 score -1063.3
+  sweep 2 score -1032.1
+  sweep 3 score -971.6
+  sweep 4 score -944.1
+  sweep 5 score -901.9
+  sweep 6 score -901.9
+randstart 0 -901.9 best -1032.0 61s
+  sweep 1 score -1169.0
+  sweep 2 score -1134.7
+  sweep 3 score -1134.7
+randstart 1 -1134.7 best -901.9 82s
+  sweep 1 score -1068.2
+  sweep 2 score -992.0
+  sweep 3 score -992.0
+randstart 2 -992.0 best -901.9 102s
+  sweep 1 score -1099.8
+  sweep 2 score -1072.8
+  sweep 3 score -1005.5
+  sweep 4 score -1005.5
+randstart 3 -1005.5 best -901.9 131s
+  sweep 1 score -936.3
+  sweep 2 score -892.4
+  sweep 3 score -892.4
+randstart 4 -892.4 best -901.9 151s
+BEST -892.4
+de orpio doolinoauxo npe rl ieur en tenaies se dpc de rieussen ttaxes penne d elieue s e seraeffeebe fro nirab repres se duc de ritasses titoffe ra ytanera it hen treure crangen lspoururo senera le ncarn y de lifieenne fistcn en d sultarobe de cenoera ittaetg olt isi cc hc super up petlenre de et antsor yenatta tsgen er u s iedee de ge ciota esser fe lice trontour se origno re en arecross per pernorde s pourr oure liener dees longeris dea scganoita de ncerer en de iiple u st pgl ygner opourenr it turha ninices se d oue de n etcreer de acer ie bon t le quesquen dobliananita eg li
+MAP {0: 'gt', 1: 'er', 2: 'ix', 3: 'ly', 4: 'cp', 5: 'dq', 6: 'er', 7: 'bo', 8: 'an', 9: 'fs', 10: 'an', 11: 'cp', 12: 'hu', 13: 'bo', 14: 'an', 15: 'hu', 16: 'fs', 17: 'fs', 18: 'ly', 19: 'gt', 22: 'hu'}

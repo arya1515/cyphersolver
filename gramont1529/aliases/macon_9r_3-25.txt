@@ -1,0 +1,24 @@
+# f9r cipher transcription (yc = crop centre, fraction of height). Format: Lnn yc | clear-before [..] | aliases
+L03 0.105 | [clear ... ] X o 5 A 4 G {30} o
+L04 0.124 | G X n o 6 9 A g 7 o U R = A o E 9 X f H 6
+L05 0.143 | 3 o 7 U D H o P R + 7 5 R o P D S o S A D 7 5 o 7 f m + E 9 & 5 o U 9 R 6
+L06 0.161 | X o 4 8 = A G 3 A 7 o 5 b X 3 R f q U 9 5 b P A 6 b = D m R U b D A R
+L07 0.181 | 6 L l X o P D m r r + 4 f E D M P R o n
+L08 0.200 | [fust parle] + n V 5 A 4 G {30} 5 U M 3 R A + g ? s o U 5 o ? H f 6 M 9 | 3 U o 4 6 + 7
+L09 0.218 | A o P 4 o F A W 9 | 5 U 5 A 4 G = L o E 9 X f U 6 n  [then clear]
+L10 0.233 | [Laussi(?) Quel me semble] G C n A 4 o X o 5 A s L M N l o 6 f 7 V D U X f A R 6 m 4
+L11 0.2515 | X o 6 5 A 4 G s M 3 R A 3 g o 6 X 9 5 A 4 G {30} o 6 G P D m R o 7 G A o r 9 M
+L12 0.269 | b 7 T 6 o P R o 4 A P L G o R 3 X + 5 o U f G A D 7 5 U 5 A 4 T {20} n ~
+L13 0.2865 | M 3 A 6 F 3 A g 7 + 7 G N o X 9 6 G R f m U o R M 3 U m + A 6 C + 6 3 A 7 4 G o
+L14 0.3035 | T o P D m E + 5 b M f m R o r P X U U 6 R o G o 7 U 9 b 6 P o R + 7 G
+L15 0.3195 | 3 U D A R 6 m w f R G [blot] F 3 U o m R 5 U 5 A 4 T C o A g 7 o U R 4 ~ r
+L16 0.336 | [Suyvant ma (?) lettre faccen tout droit (?)] G M b S A R o X + G A 7 T ? 9 3 8 A 7 6 L
+L17 0.352 | 5 A 4 G F r 8 b o m R o  [Et davantaige ...]
+L18 0.381 | [de Lyon quant dernierement fauvre(?) a Castyon(?) les imposepartes(?)] [blot] 6 ? f ? ? s   (raised, partly blotted; unread)
+L19 0.396 | [trouve toutes le monsr le Cardinal de Tournon.] P n 3 R X [blot-shadow, unread]
+L20 0.414 | X + 4 f 7 F o 5 9 R + G A f 7 5 U {40} 3 U o 4 X 9 G U R 4 6 o V 9 R A F L o 4
+L21 0.430 | l 9 R o M 7 G  [Ce que le Roy ... ce que se pense qu... ]
+L22 0.4475 | X 9 5 A 4 G {30} M 3 F 3 A 4 G 5 A R o P + R X 8 5 A 4 G X + G A 7 n  [pour]
+L23 0.465 | [me donner a entendre] G l 3 F U D 7 G R f m V o E + X o 6 5 A 4 G s M 3 R A 3
+L24 0.4825 | g o 6 7 ? b 6 n A l 3 U R + D 4 c 3 6 A f 7 5 o C 9 5 b 4 l 3 E o n P 3 R G A
+L25 0.5125 | + l 5 9 {20} 4 o L U A l V U m 6 P l 3 A R + 4 f 7 6 A 5 o R 9 R  [clear: Et ...]

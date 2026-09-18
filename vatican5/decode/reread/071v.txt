@@ -1,0 +1,53 @@
+# 071v re-read (IMG_R92_I694_P4.jpg). Line numbers = cipher lines 1-21 of the page block (the #COMMENTS line is not counted). Positions refer to transcript token indices (1-based, '.'/'-'/':'/'?' tokens counted).
+1: 3 8 7 3 6 5 2 9 2 7 4 7 8 0 1 9 8 0 6 0 3 6 7 2 5 7 7 7 6 9 . 7 3 8 0 3 2 4 7 7 3 4 9 2 7^. 5 7^. 5 7 6 7 5 0 3 0 5 0 8 2 4
+DIFF: 37:3->2 (probable; z-form with bottom bar into 4, same group as l.12 pos36) | ADDED inline dot after 43 (9 . 2) | 28:7 could be 2 (z-like, ligatured to 6; kept 7) | 54-56 '3 0 5': blotted/overwritten mass, cannot confirm (image shows 0, z/3, blot, 3/5-like, then 0 8 2 4; kept transcript)
+2: 9 0 4 0 3 7 2 4 . 7 3 5 7 2^. 9 7 8 9 7 2 8 9 0 8 0 3 4 2 4 6 0 3 2 7^. 4 0 3 8 0 2 8 . 5 0 3 6 3 5 7 8 9 7 3 6 2 0^. 5 7 3 ?
+DIFF: 7:7->2 (clear z with bottom bar) | ADDED inline dot after 8 (4 . 7) | 19:3->2 (probable) | ADDED inline dot after 40 (8 . 5) | 54:0^. dot sits over the 0/5 boundary (0^. or 5^.; kept 0^.)
+3: 8 7 8 2 . 6 7 9 4 7 2 8 . 7 3 6 8 7 0 7 5 - 8 1 5^. 7 8 8 0 8 9 . 0 3 4 0 8 0 5 8 0 4 0 1 4 9 7 3 5 7^- 2^. 2 7 8 2 2 7 5 0 8 7 3 6 5 7 ?
+DIFF: 50:7^.->7^- (mark over 7 is a short horizontal dash, not a dot; 51:2^. is a true dot) | 13 '.' (8 . 7): only a faint baseline smudge, weakly confirmed
+4: 8 0 1 2 7 2 5 2 0 . 3 4 . 5 7^. 8 0 4 2 7 5 2 8 7^. 2 8 . 5 7 2 7 4 . 5 5 7 2 4 5 7 4 0 6 8 0 4 . 7 3 6 4 0^. 2 7 8 0 9 . 5 7 8 2
+DIFF: 34-39 '5 7 2 7 4 .' DELETE: transcriber dittography, group occurs only once in image | 58:0->0^. (ADDED dot above 0 in '4 0 2 7 8')
+5: 2 7 5 7 5 6 4 7 9 2 7^. 6^. 0 5 7 2 4 2 7 4 7 0 6 7 3 8 2 5 2 9 . 7 3 5 0 8 9 0 8 0 8 0 5 . 7 3 6 5 7 4 6 8 9 0 8 7 7 3 4 : 0 8 3 5 7
+DIFF: 21-24 '. 2 7 4' DELETE: dittography, image reads '0 5 7 2 4 2 7 4 7 0 6 7 3 8', no dot there
+6: 8 0 5 8 0 4 . 6 7^. 4 9 7 2 6 8 8 0 4 . 7 3 6 0 5^, 7 3 6 2 7 4 7 0 8 2 1 5 2 9 6 7 2 4 7 3 4 0 3 5 . 0 1 5 9 7 8 1 8 0 2 5 0 3
+DIFF: 9:7->7^. (ADDED tick above 7 in '. 6 7 4 9') | 24:5->5^, (tick/comma above 5 in '6 0 5 7 3') | 30:7 DELETE (image '2 7 4 7 0 8', one 7) | 33:0^,->0 (no mark above this 0; the comma is the one over pos 24, i.e. MOVED) | 42:3->2 (probable, z-form before 4) | 63:3 at gutter could be 7 (cut)
+7: 8 0 5 . 2 7^. 0 3 5 5 7 8 2 0 4 7 5 . 0 1 5 5 7 4 0 5 8 9 0 8 2 9 . 5 7 2 6 0 3 8 5 0 7 6 8 0 2 5 8 0 5 8 0 6 7 9 8 0 3 5 5 7 5 2 7 ?
+DIFF: ADDED inline dot after 3 (5 . 2) | 64:1->7 (clear top bar) | 62:5 could be 1 (plain slanted stroke)
+8: 7 3 6 2 7 5 9 7 8 2 7 8 9 0 5 2 6 4 5 2 8 2 5 7 2 7^. 9 6 7 7^. 2 0 8 0 4 2 7 5 0 4 9 0 3 5 9 3 8 7 3 8 0 6 3 5 2 ?
+DIFF: none (43:3 in '8 7 3 8 0' kept; 55 '2' followed by gutter)
+9: 7 0 6 7 3 8 2 5 8 0 6 4 7 9 8 1 0 3 8 1 5 2 9 0 3 8 2 7 5 9 7 5 6 4 7 9 5 0 3 8 2 7 5 0 3 1 3 7 6 8 9 2 7^. 0 3 6 ?
+DIFF: 5:3 ambiguous (could be 2; kept 3) | 43-48 '5 0 3 8 2 7' DELETE: dittography, image has one '5 0 3 8 2 7 5 0 3 1 3' | 59:7->7^. (ADDED dot above 7 in '2 7 0 3 6')
+10: 4 8 0 8 9 0 8 2 4 9 8 9 0 8 2 7 3 5 8 0 8 9 2 7^. 8 0 3 5 2 7 4 9 7 8 0 2 6 7 2 2 6 0 8 0 3 6 9 7 3 5 7 5 2 6 5 7
+DIFF: INSERT 9 after 21 (image '5 8 0 8 9 2 7^. 8', 9 with long descender) | INSERT 7 after 36 (image '0 2 6 7 2 2 6 0 8') | 51:2 is written as a superscript above/before the 6 (correction), reading order 5 2 6 accepted
+11: 5 0 3 8 0 2 4 9 8 3 7 8 8 0 4 2 7^. 5 7 8 2 0 3 5 7 7 6 3 7 8 0 5 7 3 5 0 3 8 0 1 2 2 7 4 0 5 2 5 5 7 8 2 ?
+DIFF: 26:3->7 (probable; straight descender like neighbouring 7, unlike the 3 at 28) | 3:3 could be 2
+12: 5 7 9 8 0 4 0^. 5 5 7 5 2 5 8 0 5 7 3 6 2 7 4 9 7 2 7 4 2 8 2 9 7 8 0 3 2 4 7 3 4 0 4 5 7 2 5 7 3 8 8 ?
+DIFF: 36:3->2 (probable; z-form with bottom bar into 4) | 48:3 confirmed (kinked, not 7)
+13: 5 0 3 5 2 3 5 8 0 5 7 3 8 0 3 8 7 5 6 6 5 7 8 2 8 0 1 9 8 0 4 7^. 2 0 3 4 2 7^. 5 7 5 8 0 6 2 5 7 4 0 3 8 9 0 1 8 3 7 4
+DIFF: none (struck '3 5' after 16:8 confirmed deleted in MS and correctly omitted)
+14: 9 0 7 8 8 1 2 7 6 4 2 7 4 9 7 8 3 7 8 . 8 0 4 . 0 5 2 5 9 . 6 7 3 4 7 1 4 2 7^. 4 0^. 5 2 5 2 7 5 1 0 5 ?
+DIFF: 45:7->2 (clear z with bottom bar) | possible tiny mark at line start before 1:9 (stray/separator, low confidence, not added)
+15: 2 8 9 0 8 0 1 2 7 8 9 7 2 8 7 0 5 8 0 6 0 3 . 7 5 8 0 5 9 0 . 3 8 2^. 7 0 3 6 0 1 8 3 7 . 4 2 9 0 7 8 5 7 8 2 4 9 4 0
+DIFF: 7:4->1 (single slanted stroke, possibly 5; definitely not 4) | 58:0^.->0 (no dot above final 0; only gutter specks)
+16: 8 0 2 8 2 7^. 5 7 8 2 0 3 4 2 9 0 8 0 8 9 0 8 5 7^. 0 4 7 9 4 7 5 2 5 7 7 3 6 9 2 7 4 3 8 6^. 0 0 5 7 2 ?
+DIFF: none firm | 36:3 could be 2 (z-form)
+17: 7 6 0 6 3 4 8 1 7 2 7 4 0 5^. 2 7 4 0 8 0 2 8 8 0 5 5 7 3 6 1 6 7 3 8 1 2 0 3 8 9 6 7 9 5 7 6 1 5 7 5 2 8 0 6
+DIFF: 13:0^.->0 and 14:5->5^. (dot sits over the head of the 5, right of the 0; MOVED, moderate)
+18: 8 0 2 5 0 3 8 2^. 7 0 3 6 8 0 3 4 5 6 1 8 0 4 7 7 6 9 1 7 7 5 5 2 6 5^- 9 0 8 7 7 3 4 0 6 2 7 4 0 6 4 7 2 0 ?
+DIFF: 24:3->7 (probable; straight descender, no mid-bulge) | 34:5->5^- (ADDED dash-like mark above the 5 in '2 6 5 9')
+19: 7 5 5 8 0 5 5 7 3 9 6 7 0 8 0 5 7 0 2 5 9 7 3 6 9 4 0^. 2 7 8 0 9 0 3 5 2^. 7 0 3 6 7 0 6 7 4 9 5 0 3 1 2 7 ?
+DIFF: none | faint loop above/right of 32:9 (probably show-through or correction stroke, not a digit)
+20: 2 7 4 3 8 9 6^. 0 0 5 9 7 8 2 6 7 2^. 8 9 0 8 0^. 5 6 0 3 2^. 7 0 3 5 6 1 8 0 4 0 8 7 7 3 4 0 6 3 7 6 2 9 3 5 8 0 ?
+DIFF: 44-47 '6 3 4 0' DELETE: dittography, image '8 7 7 3 4 0 6 3 7 6 2 9 3 5 8 0' | 22:0^. dot sits over the 0/5 boundary (kept 0^.) | trailing backtick after ? is a stray character
+21: 5^. 7 9 6 7 2 4 3 5 9 2 7 4 9 7 3 4 7 0 9 7 3 6 7 5 2 5 7 1 8 0 3 5 9 8 1 7 3 5 8 0 4 7 8 9 7 4 8 0 6 2 7 6 ? 9 0
+DIFF: none
+
+SUMMARY
+digits read: 1160
+disagreements: 30 firm/probable entries (incl. 4 dittography blocks = 20 surplus tokens; plus ~9 noted ambiguities)
+ - transcriber dittographies (tokens to delete): l4 '5 7 2 7 4 .', l5 '. 2 7 4', l9 '5 0 3 8 2 7', l20 '6 3 4 0'
+ - omissions (insert): l10 9 after pos21, 7 after pos36
+ - extra digit: l6 one 7 of '2 7 7 4'
+ - digit changes: l2 p7 7->2; l7 p64 1->7; l14 p45 7->2; l15 p7 4->1(/5); probable 3->2 (l1 p37, l2 p19, l6 p42, l12 p36); probable 3->7 (l11 p26, l18 p24)
+dots: confirmed ~24 of 27 transcript dots/marks; moved 3 (l6 0^, -> over 5 at p24; l17 0^. -> 5^.; l3 7^. is a dash ^-); absent 1 (l15 final 0^.); added 8 (inline: l1 after p43, l2 after p8 and p40, l7 after p3; above: l4 p58 0, l6 p9 7, l9 p59 7, l18 p34 5 dash); ambiguous placement 0/5 at l2 p54, l20 p22
+original '?' tokens: all 13 (l2,3,7,8,9,11,12,14,16,18,19,20 line-end; l21 p54) sit at the binding gutter where digits disappear into the fold: unresolved from this image. l21 '? 9 0': a digit is partly visible after 6 at the gutter, the '9 0' are not visible.

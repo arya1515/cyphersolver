@@ -1,0 +1,239 @@
+  it 0 ll -35957.5
+  it 10 ll -35174.3
+  it 20 ll -35114.3
+  it 30 ll -34975.7
+  it 40 ll -34882.4
+  it 50 ll -34806.3
+  it 60 ll -34753.3
+  it 70 ll -34718.5
+restart 0 ll -34697.7 255s
+restart 1 ll -34709.8 251s
+restart 2 ll -34655.7 255s
+restart 3 ll -34584.3 249s
+0 n=113 loi l:0.46 o:0.18 i:0.15 pair ly 0.47
+1 n=405 eno e:0.66 n:0.06 o:0.05 pair er 0.69
+2 n=192 sen s:0.71 e:0.18 n:0.05 pair fs 0.71
+3 n=157 omc o:0.62 m:0.09 c:0.06 pair bo 0.62
+5 n=367 ert e:0.54 r:0.28 t:0.13 pair er 0.82
+7 n=172 uin u:0.38 i:0.35 n:0.09 pair hu 0.39
+11 n=125 utd u:0.53 t:0.25 d:0.10 pair hu 0.53
+12 n=135 noi n:0.29 o:0.22 i:0.22 pair an 0.33
+13 n=124 sor s:0.28 o:0.22 r:0.16 pair fs 0.28
+14 n=234 nca n:0.29 c:0.15 a:0.13 pair an 0.43
+15 n=233 apm a:0.42 p:0.16 m:0.15 pair an 0.42
+18 n=136 atb a:0.38 t:0.20 b:0.11 pair an 0.38
+20 n=201 ocq o:0.86 c:0.08 q:0.04 pair bo 0.86
+23 n=197 ute u:0.35 t:0.23 e:0.11 pair hu 0.39
+24 n=225 nei n:0.58 e:0.18 i:0.14 pair an 0.62
+25 n=123 alr a:0.20 l:0.14 r:0.11 pair an 0.21
+26 n=215 tra t:0.21 r:0.16 a:0.13 pair gt 0.32
+27 n=376 elr e:0.25 l:0.23 r:0.15 pair er 0.4
+28 n=264 sdt s:0.48 d:0.13 t:0.13 pair fs 0.48
+29 n=215 sin s:0.53 i:0.12 n:0.06 pair fs 0.53
+30 n=246 eri e:0.58 r:0.18 i:0.09 pair er 0.77
+31 n=124 era e:0.42 r:0.21 a:0.16 pair er 0.62
+33 n=96 iad i:0.67 a:0.09 d:0.05 pair ix 0.67
+35 n=142 itu i:0.25 t:0.25 u:0.21 pair ix 0.26
+38 n=122 deu d:0.21 e:0.17 u:0.10 pair dq 0.21
+39 n=67 uqe u:0.88 q:0.04 e:0.03 pair hu 0.88
+40 n=265 uev u:0.63 e:0.16 v:0.08 pair hu 0.64
+42 n=192 afb a:0.35 f:0.16 b:0.10 pair an 0.4
+43 n=162 dcq d:0.51 c:0.32 q:0.05 pair dq 0.56
+44 n=92 lao l:0.30 a:0.23 o:0.19 pair ly 0.3
+45 n=194 esa e:0.44 s:0.15 a:0.11 pair er 0.47
+46 n=173 tse t:0.37 s:0.24 e:0.13 pair gt 0.37
+48 n=152 gtp g:0.35 t:0.26 p:0.12 pair gt 0.61
+49 n=164 tps t:0.47 p:0.28 s:0.17 pair gt 0.48
+50 n=160 eab e:0.27 a:0.17 b:0.13 pair er 0.36
+51 n=134 ale a:0.36 l:0.25 e:0.12 pair an 0.36
+52 n=116 eav e:0.60 a:0.16 v:0.11 pair er 0.6
+53 n=144 mol m:0.28 o:0.24 l:0.14 pair mz 0.29
+54 n=164 qos q:0.36 o:0.25 s:0.17 pair dq 0.37
+56 n=201 nir n:0.41 i:0.41 r:0.06 pair an 0.41
+57 n=203 csp c:0.57 s:0.09 p:0.07 pair cp 0.64
+58 n=50 lfn l:0.25 f:0.21 n:0.21 pair fs 0.37
+59 n=233 era e:0.39 r:0.33 a:0.16 pair er 0.72
+61 n=188 nar n:0.41 a:0.25 r:0.19 pair an 0.66
+62 n=102 lpr l:0.33 p:0.29 r:0.11 pair ly 0.37
+63 n=136 evt e:0.65 v:0.15 t:0.05 pair er 0.67
+64 n=305 mia m:0.31 i:0.21 a:0.14 pair mz 0.32
+65 n=227 ert e:0.50 r:0.26 t:0.07 pair er 0.76
+67 n=164 nae n:0.39 a:0.19 e:0.17 pair an 0.58
+68 n=93 pes p:0.37 e:0.15 s:0.13 pair cp 0.37
+69 n=114 riv r:0.39 i:0.21 v:0.19 pair er 0.43
+MAP {0: 'ly', 1: 'er', 2: 'fs', 3: 'bo', 5: 'er', 7: 'hu', 11: 'hu', 12: 'an', 13: 'fs', 14: 'an', 15: 'an', 18: 'an', 20: 'bo', 23: 'hu', 24: 'an', 25: 'an', 26: 'gt', 27: 'er', 28: 'fs', 29: 'fs', 30: 'er', 31: 'er', 33: 'ix', 35: 'ix', 38: 'dq', 39: 'hu', 40: 'hu', 42: 'an', 43: 'dq', 44: 'ly', 45: 'er', 46: 'gt', 48: 'gt', 49: 'gt', 50: 'er', 51: 'an', 52: 'er', 53: 'mz', 54: 'dq', 56: 'an', 57: 'cp', 58: 'fs', 59: 'er', 61: 'an', 62: 'ly', 63: 'er', 64: 'mz', 65: 'er', 67: 'an', 68: 'cp', 69: 'er'}
+L1 kylutcesmnenanslepousesconnegereevouvechangueceuttumlap
+L2 culeasouintetesaedecedecureunduccuneoanecetsentponqueaaasig
+L3 nsletconnesasentettrelsonceceiantecprenneeaalionseiteracation
+L4 dechommesecoutefontsetcesnougeneeconstrenoseetonsceshomaara
+L5 eetedecusditesapeuxsensvourveconquedemennauaeconnegai
+L6 tacommeteecostieconneqvectiondudesenecquivresquelanspa
+L7 rommenallassrementsdelafmortequuanteeevouventepartisinae
+L8 gesontouvernescessenforescossonscoueeecelutranceeteontaarecl
+L9 epeenqueepuitdeseeautontionsetecaeepousconsealeleuxgeaete
+L10 ngedurlesdecomequeeuscoursqueleetresulseutreealedelesm
+L11 endesuissoncensindellecetcequelaouitapousdeppoinllion
+L12 setdellacontreepeslelesacenequonneuregetouvequederaieu
+L13 commendentsuprousassousourssdepuetremmentaureisallementi
+L14 tquelesemeedeesourqueprouecontourauiausecresoueenta
+L15 rluideteeunetlesurchevoquesavousdesentioncondrepaieuxg
+L16 elavendesrolususresquncunntequensabreetregar
+L17 esdertemenesouteterainquesiondisetoeesucunpquisleconme
+L18 laccondensconcondevoiresunedelesioneurceseennpouvece
+L19 eeillegraitetquesconduierassindesqueethosempouiteeroyeut
+L20 reteesdesaversainiseesiontquiqueescerocherantporelntque
+L21 deseisnnesconnesezdellesuoiencesneentealulas
+L22 eresuesdesoncacassespoureponcequerouscarioniter
+L23 lepromecheveupleselalesdedegieleserenouslecontedevequensi
+L24 nceitionsonsansuscepelupennageudprrinelcusquisneete
+L25 quedueredessetletrendretalesoncouveneettreequelag
+L26 neveurreletongitesemepenveousenleedidecescuresdelleq
+L27 ueoelenneunssoiressonsanegaeredendenestesarteseumr
+L28 eiuonsdeleconsoletredesdecespouiieedescepripar
+L29 itsousouechemeoceeleperebonlefauxeaseme
+L30 etaesirelepoustemoemonnesurludantaelib
+L31 uententecmieselusresetestrecegriememairecutati
+L32 onduesdechevoncocierlesdeseseequelesiruge
+L33 rieespandevoursetlemeetaesmesteurestrepouta
+L34 eroonquedeseonsonspeourconnelesoesresmrinquilanttoncel
+L35 lestreedunegletcentruitespeuraneocclaitpresendholulleet
+L36 perentconneeneesquissacsquationtfaitparlnous
+L37 coutseneencoressurseausentenueserlescomentsscouteesantall
+L38 escascholtsonneteretenssevouvecentenducheuxmentsducangedem
+L39 induuseesponquelquestueregeetouslesdeesiupasoantesecleb
+L40 onnepeprembensuritauncesetseetielsnealonrevouprietrelondestea
+L41 neseuxdestrlulsneepontedesoutecelomenuedequsdeveconaa
+L42 edesecontentreetdeenceeteneecunvoumenosseseenobeintira
+L43 preconduetenquesseuseemonouseetlecruncseteutentousquead
+L44 equaveretrnielencouvousencesqueeponteeuenrestansparig
+L45 einesavencetousmentaunaundesesceeedeseursecoresouslort
+L46 ionairflusimatimaroforegaegamengrigecommenentenomentrour
+L47 lesalapeulsseulequisassammeeteuselesuiseieesplerecequein
+L48 sanelagereieenuneellenioneepluyauaainguesuelesolefaiffita
+L49 ententesaeleconneatsurlesdeabletembrnslauculiti
+L50 olnnllesoetuelamblequefainautereauxdunismooitquele
+L51 iussetsfoetquelledillechapentrembrtentieeetresas
+L52 snespuelansdonailletldelasspapaiainmou
+L53 ifauissemeambeeuinaroissronnedembreeesubaiegar
+L54 deraticsasleufoitionnemedeflieurleseeueolur
+L55 aetcummesseuraiscesconstrensonnuesconteuissinquesiavendo
+L56 uelesfautioslonsprenneecomenfintieresquonrentrouccluiss
+L57 ansanchancientcetouestretrouenteanimfareeapasem
+L58 emanstrequelerenalaetseeseemonrescueesesluiont
+L59 eteunobrespouvequequencoucdesdechantentparioussaimemeetsaent
+L60 ceturetapedeseandrusioinquelacoueeonducetreseuccunied
+L61 efaainuneprevouedeslesquisancestendeseaesonnnquadelentp
+L62 aronarelignoucilesprommensleilsmablesnensanensdesparesess
+L63 itnetrastrellessesmablionglierunesceducomenenesueetetellriisi
+L64 montsablecondinteendesconcesbonpoutmaactauxressecrestreavouaaiennv
+L65 oigrangladretellesonsieculespaspartssalortapefainesolluscomenquanmouru
+L66 ientlutredelantenetepouvrangeceenlusmredelndeeelecesouremed
+L67 anccitleasasoueiemanenveemeleupacransifainpareeandeuntante
+L68 otrneurommaigremeusemestetsimeticetleenenllechantioncea
+L69 forcetaupluilsonsfaisessassuseceembassantionauxsendren
+L70 tausaentsationtcousevoyestrepaaisnaidemaalaffiauseauonnou
+L71 rdisseondesleoutcommenissalaesperemblnstcecueraiseteseu
+L72 ranepaesaenousaenieulontcontantsiontumoyageablesies
+L73 mairemarleetaetamantenmeparcosfeeutseelletereeuredecuser
+L74 eeventmequparquinquasslesetantcrofthablesedassefettremetrelesp
+L75 aretquemalationeeuaeeusestetlimelleurantestousnaoomentdume
+L76 nsseverenussionespaformiteaputtotiontetdencespiens
+L77 eutsaaussapassesissandeleulaquenseromplesmaintionsentee
+L78 vouseancoureleescasineetquieuneleslleurambeaiessantenesondrelletplufa
+L79 itilegareleisatrenurerudeelteaimenabontpouvecondonneelespopretquecomment
+L80 ratteobnemenlconfeavaisouveensfaicuauxementpouvairegagn
+L81 eneteetessaanspronmensitesmeesiontmentenedenansonsestender
+L82 tanssinlculununesacrequnencegainquelelembonsureepouseeatereutreg
+L83 evouraunueeatsenpondelassuonmoiectretesencergedesondep
+L84 ouparupartiosletensdegoccationmempourarouenenfortrefordiecepa
+L85 sceuregrantsentationnedeecequespouvssolonesurchaisetro
+L86 urommepaedicieravrnelonalevoineuelamepalleeetioncerdefo
+L87 reculechretgarlusantsdesequienesquispossencononneenportierenteete
+L88 ndunessonneeuesauterenostreeseatcemeenerouveincersoneuedeconte
+L89 geionnesontaquessesonnenesouepepossesaurssersesquecelem
+L90 ouenemecondeechausontequelquelestraitpasaaiedapeundemaireof
+L91 fauxprelaisetleelacontlesontaalentrunespeetruetrentainem
+L92 blepoursdontestrnlicetaitleleaualteniseupreleceesilegenaeent
+L93 defresdeleunageocundeduauselessntpapieraitionfaeseuxaounsiouraitd
+L94 esfaiseneteurlensesionfeuecoussuresquelesaveraisprethombonnefrrb
+L95 eeetagiisdocisaurenteelecesdechoineldesonnetcascepersonnestof
+L96 olaspeleeeconnestionoedeseroiresoequeeoimunepronqueremeter
+L97 esueseaprrgesquelearesionnelereconnetrffraitaineaireccor
+L98 talaupasaustremenvoyansaconsonsontusesetquestretrreinerestpa
+L99 uaaroisseranetreprrsitevoinseurandecteensouationnoctettouveetenv
+L100 oquiproirederavoyestotionsiongeramareouroigneperleconnep
+L101 aresmonceatieietiquespoursentrresquonneuedemanesuesennee
+L102 sderesdeegardespasselainefauraernupousmerlansitentssualient
+L103 quesiansaflacquetetreculaeeafdembassafaillaffitabbeen
+L104 slestrommetaeuremlresegereationdidegalaffaitionsleursqueletea
+L105 itesdelaquerpeursaasadesperoutreaeaiueransetdeeaucardeaun
+L106 leurquengieeunbondediteetaequisseslesdessouiremusetlope
+L107 atpentedeessesconteeaucuevonterosencarceetlemoaupan
+L108 situeletquelandrecouvouvecessentemmantonteuxplorpeoarleparorm
+L109 aegaontdesonneancedecosntausprecondesedemienousserentc
+L110 omeedeeendesdeconsmenaealedenousquouroeloncertientanle
+L111 aelaulletousestendedevousepreaiecuelesceumoyentesonsetouel
+L112 larbassembregareseenemeduchaperiviteroiarigoeenvequ
+L113 iaeseaeerietvoisquieutfeneffanavaitmeesdedelesmaa
+L114 raitenemoisfaisasoiengeesqueraitoapieraeendecouppousauommenserat
+L115 cuslesaueueseconsencequellegilleprellesesansleresdecteepagered
+L116 upoutrelquaravoubonuemedilscemartvopcememeuieledeausceutleenet
+L117 ouaesiesaneesetepeuxetrecuuleplundionneureaieuichamarga
+L118 geededenaundesecceprenumoyaunauxcuneeneserieusregnevecon
+L119 slignessemasiinducoliterlescolusenesletousvouessadelacicorom
+L120 entetqueleetousunnelaautdontemaggegenmaiefaatemarreeusseaiten
+L121 tepuiltiontdemequelusseurageevoiseeceeterautaetaeauneuxan
+L122 graeterpeesetetioniededequesmieurpeetaooblequesourae
+L123 taretntsdempacontcoutenteempapeuneprommeeleduraieturtpeaartor
+L124 saveuedechemeparocoufantqontssupurchaasonsentrelaqu
+L125 eraoartceuetennieedeapourlemelesonfitntlamaiteesesro
+L126 rtunpartabbetquiamemblemusorregerafoncrompletsaf
+L127 fromaiserequillesvouroursuauiannllettressavot
+L128 reauaepalauoreeautmelansneettoconneditaanourleseseuxi
+L129 megageavoletlestobassesondangentremenitrecesepluteacetoue
+L130 iliestetiuiendevoscemdecortionegeaieuillessobson
+L131 guedectontiteseeleductreetestanguelapropourquelernea
+L132 incarretaeseeatiquilememelleaamaisfaireetementergee
+L133 glequaaleansqueuieranclambaibentsibearaigneique
+L134 lumoiparintqueceeeleenepaaitenaquelepaeslemait
+L135 illetpourismalaalealanaffunnmbeapagemestpaesa
+L136 betarandegoecequesoiefamancessentoeconnouvoursarle
+L137 precenamemblesaibleslegallemeueagnompariseaudemaitpa
+L138 graltaaitaittefaiblesiantapourseeanalaesmabbe
+L139 escapregaiegeedelestrenaepouveearai
+L140 trellemarlequellemalamemoireeasaie
+L141 raparielagaelaarmnnteesalierambalemel
+L142 desueleniaimasdelistiegintmaindellitaulsonloia
+L143 lliblesproireparmatsoutparameialbeafoignesalleaaieaaieg
+L144 agimpleblepeaalitauengeeseteemenientagnepasohantiongesen
+L145 neortarteeremblessalteleleseinairelaraeenpeurl
+L146 abbeapeuseurroiciprintreteafaiseolaatrquelagrableur
+L147 ssafaitfaitgeauprequesaitambavainteeeaaalard
+L148 ancaprommunpreaeseleglagnelaedannsurnesuedemairesou
+L149 biestqueeeuirenallesoambetavantpublesapenteunetquecol
+L150 iaraieissialatelaitsemarquartalteequelagrailiconti
+L151 treneoleffaiterepormiaeseaeaagemeliteitaufaidecut
+L152 metegumemailesemeffamblembasqualsamaitparimplu
+L153 ifaireafaincequauillentabeielaeealeuelutemaelagiefiaafa
+L154 iliquelaitlepluefecommefaauelefasaupeuxiitseuemauifaisl
+L155 uspoucomeenlisaegedansvoquulemacedocoluimunciontsdesl
+L156 eeteeentquelesquierantaeraemeleciitrequarremantememarl
+L157 estaesparecleseasentelempentquespasarmieavoutepaepepu
+L158 ilsenduculsartmensaedelsonsdusioeeparei
+L159 aibliquelleandesquaeignesemarlesembasauneas
+L160 eiauntlutuoutequelemaierebotegalisigarfa
+L161 ieraisquileremarluiaarequisibentereausanceapro
+L162 meproyaetortionsiegesdelausuilsireaparauolapesa
+L163 bliquemourellenolaulmefonmeeuegeaetfaiiiiso
+L164 uveequessurlettiqunileasierecarleegeenaefeab
+L165 ienlereaublestrinosestrrelepoiresurieauara
+L166 aationauxarisescueibrelartenteeffaueeremlle
+L167 steomenagraitaieusasorinememoyentlemesfa
+L168 iremaateeperlifaetememillesa
+L169 isaissuraequafeatemontquavoasonfartessiqu
+L170 auairlesteullregligullesduquelailela
+L171 feieequellamaissublemeseulesaablef
+L172 amansmaireldeefoluieaffraitqui
+L173 paguediagnellemaitoofainiaafo
+L174 rtetafaistepromepregorgaaurana
+L175 ambreelometouterequelommealigiee

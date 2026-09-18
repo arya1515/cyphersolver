@@ -146,3 +146,29 @@ computation, and it was not started.
 
 Other volumes from the selection (fr. 15906, fr. 15900, fr. 15891) were not swept: their downloads were killed with
 the throttling and not resumed.
+
+### SOLVED, 17 Sept 2026 — 13 July 1572 (ff. 60–61)
+
+The key was recovered by the hand-anchor route the NOTES above prescribed, and it reads the target. Steps:
+(1) hand-transcribe the 16 July block at glyph level (`hand/ct_f62.txt`, `hand/ct_f62v.txt`); (2) anchor on
+the f. 62r interlinear glosses ("pouvez", "leur délivrance", "au 30") and the verbatim f. 64 reading; (3)
+anchored HMM alignment → homophone counts (`hand/anchor_align2.py`, `hand/key2.json`, `hand/key_counts.json`);
+(4) beam decode with a 16th-c. French 5-gram model (`hand/lm_decode.py`, width 300).
+
+The 1.3–1.4 glyph/letter ratio was a **segmenter artefact**, not nulls or multi-stroke letters: at glyph level
+one glyph = one letter. Nulls are a small set {*, C, mq, j} plus low-rate per-symbol nulls. This is why every
+automatic aligner sat at baseline — the segmentation, not the model, was wrong. Transcription by hand, budgeted
+not automated, was the way through, exactly as the goal directed.
+
+**Control (decisive):** decoding the 16 July block with this key reproduces the decipherer's own gloss verbatim,
+line 22 = "...leur delivrance des espagnols a ce moyen...", matching the f. 62r gloss and the f. 64 reading.
+
+**The 13 July despatch is partly enciphered**: clear-text bands carry the narrative (f. 60v C3–C7: Spanish troop
+counts "troys mil hommes de pied & cinq cens chevaux" at Mons, German regiments at Maastricht "nouvellement leuez";
+f. 61r sign-off "De Bruxelles ce [Ve] jour de Juillet 1572 / de Mondoucet"), and 22 + 1 + 6 cipher lines
+(J1–J22, K1, M1–M6) decode in stretches: religieuse, Espaigne, saint père, Escosse, troupes de terre, le pape,
+Angleterre, catholique, ministres, liberté, "le prince... service du roi", "parenté entre les autres cour[s]",
+"avaient esté capitulé". Full reading in `reading.md`; consolidated output `hand/decode_all.txt`.
+
+Catalogue entry 1 moved from open to resolved (**read**). Remaining: `\todo` fills and DECODE registration are
+Daniel's steps; HistoCrypt 2027 draft to write in `papers/histocrypt/`.

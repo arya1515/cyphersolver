@@ -1,0 +1,38 @@
+{
+ "blocks": [
+  {
+   "id": "A",
+   "tokens": "J, d, m y r l: 4 a g Z p: t. f: ff Cm r p: o 63 p ff f q Z ff Cm d b q y o^ Cm r f, S: 48 x^ B c a q Z l, m g Z r x 4 J LS Cm p^ t h f LS q Z x: 61 h f, y q S: g PH a: t 63 p. c f Cm r x 6 Cu d u p Cm m v b 6 7 1 f a, h y a m Cm R2 o u a Z r t: R2 h t r g Cm p^ ff x m S ff g b c n R2, S y: 63 x Cm g Z r: s 4 t: x t. h PH Z r a",
+   "spans": [
+    [
+     75,
+     0.379,
+     0.409,
+     0.9,
+     0.995
+    ],
+    [
+     75,
+     0.4064,
+     0.4375,
+     0.215,
+     0.995
+    ],
+    [
+     75,
+     0.4306,
+     0.4616,
+     0.215,
+     0.995
+    ],
+    [
+     75,
+     0.4573,
+     0.4884,
+     0.215,
+     0.372
+    ]
+   ]
+  }
+ ]
+}

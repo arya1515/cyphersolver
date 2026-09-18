@@ -140,3 +140,30 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
   other five is now fully in hand, the blocker is palaeographic (copyist's forms), not cryptographic.
 * Next pass: build a glyph atlas of the copyist's forms from the crib page f. 151 (same hand as the copies), then
   re-transcribe f. 146v and f. 157v with that atlas before touching ff. 88, 176, 198.
+
+## Addendum, same day: the Instruction crib found twice over
+
+* Memoires de Nevers part 2 IS on Gallica: ark bpt6k64451005 (969 views, "avec mode texte"). It is not returned
+  by SRU dc.date/creator searches; it was reached through the catalogue notice cb31011834g. OCR per page via
+  RequestDigitalElement E=ALTO (rate limit: one fetcher, >10 s spacing, 429s otherwise and the block lasts
+  minutes). The Instruction of 31 Aug 1593 is at views 541-548 = pp. 492-499, saved in
+  instruction_31aug_print.txt. ContentSearch on the ark works for spot lookups (Reuol at PAG_324/425/453/513).
+* Better still: the manuscript Instruction in fr. 3985 (canvases 260-269 fetched at full resolution; cipher
+  pages 264, 266, 268) is INTERLINED with the office decipherment in the same copyist's hand as the Revol
+  letters. The glosses match the print word for word (second/third/fourth/fifth parties of the proposition,
+  "du droit de la couronne", "quites et absouls du serment de fidelite", "et jure a leur sacre",
+  "et garde apres inuiolablement", "qu'il n'y aura ..."). Three full pages of glyph-plaintext pairs in the
+  target hand: this, not f. 151 alone, is the glyph-atlas source for the next pass.
+* So the copyist-forms blocker now has two independent controls: the interlined Instruction (fr. 3985
+  c. 264-268) aligned against the print, and the interlined 7 Oct King's letter (fr. 3986 c. 296-297).
+
+* Caution recorded after re-reading f. 157v at 3.2x with the atlas: much of what was transcribed there as
+  symbols is faded clear cursive run together (line 1 ends "...qui ne ... pan...", line 2 has long clear
+  stretches). ct_3986_f157v.txt over-reads cipher; the true cipher on that page is shorter than four full
+  lines. Re-segment clear vs cipher before re-transcribing. The f. 146v block (canvas 287) is real cipher
+  throughout and stays the primary target for the atlas pass.
+
+* f. 146v recut at 3.2x into sixths (N146_* in session scratch, region x 0.12-0.92, y 0.40-0.72 of canvas 287,
+  deskew -1.0 deg, ten line peaks at 68/176/284/392/504/608/728/840/952/1064 of the region). Line 2 tile 3
+  shows a clean run `++ p (perp) u r u y S f (perp) -e T y p` consistent with the atlas (y=s, T=n, ++=u);
+  full alignment of the nine lines against atlas60.md is the remaining work of the next pass.

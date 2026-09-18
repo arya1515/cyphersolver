@@ -1,0 +1,314 @@
+{
+ "findings": {
+  "adfgvx, 1918": "2026-09-15",
+  "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
+  "armstrong to madison, 20 february 1808": "2026-09-16",
+  "berthier to napoleon, 1812": "2026-09-15",
+  "birago to nevers, 1571": "2026-09-16",
+  "blume salamanca telegram, 1937": "2026-09-15",
+  "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
+  "bordeaux to brienne, 1653": "2026-09-16",
+  "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
+  "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
+  "catokwacopa, 1875": "2026-09-15",
+  "censorship manual steganograms, ww2": "2026-09-15",
+  "charles i and nicholas to boswell, 1643": "2026-09-15",
+  "charles i, 1648": "2026-09-15",
+  "chinese gold bars, 1933": "2026-09-15",
+  "colbert passages, 1674–75": "2026-09-16",
+  "copenhagen cryptogram": "2026-09-15",
+  "debosnys, 1882–83": "2026-09-15",
+  "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
+  "ferdinand iii, 1634–40": "2026-09-15",
+  "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
+  "feuquières to catinat, 1691": "2026-09-15",
+  "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
+  "from warsaw, 24 december 1627": "2026-09-16",
+  "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
+  "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
+  "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
+  "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
+  "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
+  "henry of navarre to ségur, 1585–86": "2026-09-16",
+  "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
+  "jean du bellay to montmorency, london, 1529": "2026-09-17",
+  "koehler cryptograms, 1944": "2026-09-15",
+  "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
+  "lanssac’s polish election letters, april–may 1573": "2026-09-17",
+  "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
+  "louis xiv to chaulnes, 1690": "2026-09-15",
+  "maltravers to ormonde, 1634–35": "2026-09-15",
+  "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
+  "moray to wood, 1568": "2026-09-15",
+  "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
+  "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
+  "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
+  "perwich to arlington, 1670": "2026-09-15",
+  "philip ii to mendoza, 7 september 1589": "2026-09-17",
+  "richard forster, 1644": "2026-09-16",
+  "robert yard to the earl of manchester, whitehall, 12 and 16 october 1699": "2026-09-18",
+  "roosevelt cryptogram, 1935": "2026-09-16",
+  "schmeh’s top 50": "2026-09-15",
+  "scorpion letters, 1991": "2026-09-15",
+  "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
+  "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
+  "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
+  "urquhart’s cyphral octastich, 1652": "2026-09-16",
+  "vatican part 5, 1542": "2026-09-15",
+  "vatican part 5, 1542: the manuscript images": "2026-09-18",
+  "voynich manuscript": "2026-09-15"
+ },
+ "pages": {
+  "adfgvx": {
+   "first": "2026-09-15",
+   "hash": "3c92a0b51d89",
+   "updated": "2026-09-15"
+  },
+  "adrian1521": {
+   "first": "2026-09-18",
+   "hash": "30b38659c55d",
+   "updated": "2026-09-18"
+  },
+  "armstrong": {
+   "first": "2026-09-14",
+   "hash": "c351cec849d3",
+   "updated": "2026-09-18"
+  },
+  "bethune": {
+   "first": "2026-09-17",
+   "hash": "0c9fc6ba1255",
+   "updated": "2026-09-17"
+  },
+  "bordeaux1653": {
+   "first": "2026-09-18",
+   "hash": "2051bcf8ada6",
+   "updated": "2026-09-18"
+  },
+  "boswell": {
+   "first": "2026-09-15",
+   "hash": "574c70450c0e",
+   "updated": "2026-09-16"
+  },
+  "catalogue": {
+   "first": "2026-09-17",
+   "hash": "9a72ddd6745a",
+   "updated": "2026-09-18"
+  },
+  "catinat1691": {
+   "first": "2026-09-16",
+   "hash": "0b8b89f55675",
+   "updated": "2026-09-16"
+  },
+  "copenhagen": {
+   "first": "2026-09-15",
+   "hash": "cc32d051056f",
+   "updated": "2026-09-15"
+  },
+  "debosnys": {
+   "first": "2026-09-15",
+   "hash": "a7bc68819e01",
+   "updated": "2026-09-15"
+  },
+  "esp318": {
+   "first": "2026-09-17",
+   "hash": "66a5df7206cc",
+   "updated": "2026-09-17"
+  },
+  "famous": {
+   "first": "2026-09-15",
+   "hash": "19d36c06beee",
+   "updated": "2026-09-17"
+  },
+  "feuquieres": {
+   "first": "2026-09-16",
+   "hash": "d887c70d7bda",
+   "updated": "2026-09-16"
+  },
+  "forster": {
+   "first": "2026-09-15",
+   "hash": "56d440a87323",
+   "updated": "2026-09-16"
+  },
+  "goldbar": {
+   "first": "2026-09-15",
+   "hash": "bc2a87ccb6ae",
+   "updated": "2026-09-15"
+  },
+  "gramont1529": {
+   "first": "2026-09-18",
+   "hash": "d747fd5c84cc",
+   "updated": "2026-09-18"
+  },
+  "herbault1626": {
+   "first": "2026-09-18",
+   "hash": "489d2c583d58",
+   "updated": "2026-09-18"
+  },
+  "hesse1603": {
+   "first": "2026-09-17",
+   "hash": "bf6ae60aa8aa",
+   "updated": "2026-09-17"
+  },
+  "huangxing": {
+   "first": "2026-09-15",
+   "hash": "9103089ff7e8",
+   "updated": "2026-09-15"
+  },
+  "hyde": {
+   "first": "2026-09-15",
+   "hash": "0676c928d4f7",
+   "updated": "2026-09-15"
+  },
+  "index": {
+   "first": "2026-09-14",
+   "hash": "53ca35f097e5",
+   "updated": "2026-09-18"
+  },
+  "lanssac": {
+   "first": "2026-09-17",
+   "hash": "6a03729626b9",
+   "updated": "2026-09-17"
+  },
+  "legation": {
+   "first": "2026-09-18",
+   "hash": "0c9be5496dc0",
+   "updated": "2026-09-18"
+  },
+  "lucca": {
+   "first": "2026-09-16",
+   "hash": "695bc0947f2a",
+   "updated": "2026-09-16"
+  },
+  "mendoza1589": {
+   "first": "2026-09-17",
+   "hash": "e5f07b39ee83",
+   "updated": "2026-09-17"
+  },
+  "mondoucet": {
+   "first": "2026-09-17",
+   "hash": "30ad92dfe08a",
+   "updated": "2026-09-17"
+  },
+  "nevers1593": {
+   "first": "2026-09-17",
+   "hash": "282f9be7a6cb",
+   "updated": "2026-09-17"
+  },
+  "norfolk1570": {
+   "first": "2026-09-18",
+   "hash": "34109d756cdc",
+   "updated": "2026-09-18"
+  },
+  "ormonde": {
+   "first": "2026-09-15",
+   "hash": "54145087d76c",
+   "updated": "2026-09-15"
+  },
+  "orpo1942": {
+   "first": "2026-09-18",
+   "hash": "be4a11d97de7",
+   "updated": "2026-09-18"
+  },
+  "pelissier1592": {
+   "first": "2026-09-18",
+   "hash": "decacef135ce",
+   "updated": "2026-09-18"
+  },
+  "raince": {
+   "first": "2026-09-17",
+   "hash": "b283aa4c0b52",
+   "updated": "2026-09-17"
+  },
+  "richelieu": {
+   "first": "2026-09-14",
+   "hash": "53bd2ef837b3",
+   "updated": "2026-09-15"
+  },
+  "roosevelt": {
+   "first": "2026-09-16",
+   "hash": "9ac4b91cc028",
+   "updated": "2026-09-16"
+  },
+  "scorpion": {
+   "first": "2026-09-15",
+   "hash": "24dff7e26485",
+   "updated": "2026-09-15"
+  },
+  "segur": {
+   "first": "2026-09-16",
+   "hash": "e990d84671e4",
+   "updated": "2026-09-16"
+  },
+  "soglia1848": {
+   "first": "2026-09-18",
+   "hash": "8596184dee8d",
+   "updated": "2026-09-18"
+  },
+  "solved": {
+   "first": "2026-09-17",
+   "hash": "73fcd857cda7",
+   "updated": "2026-09-18"
+  },
+  "sormano": {
+   "first": "2026-09-17",
+   "hash": "2b7fdfe51a53",
+   "updated": "2026-09-17"
+  },
+  "sormano1529": {
+   "first": "2026-09-18",
+   "hash": "f11ba22b8817",
+   "updated": "2026-09-18"
+  },
+  "sunintercepts": {
+   "first": "2026-09-18",
+   "hash": "afa62db09c42",
+   "updated": "2026-09-18"
+  },
+  "sunyatsen": {
+   "first": "2026-09-15",
+   "hash": "e2e2e6fb8a35",
+   "updated": "2026-09-18"
+  },
+  "toledo1565": {
+   "first": "2026-09-18",
+   "hash": "5aa62c52a134",
+   "updated": "2026-09-18"
+  },
+  "urquhart": {
+   "first": "2026-09-16",
+   "hash": "e49e8e334d8e",
+   "updated": "2026-09-16"
+  },
+  "vasto1527": {
+   "first": "2026-09-18",
+   "hash": "7791a018a971",
+   "updated": "2026-09-18"
+  },
+  "vatican": {
+   "first": "2026-09-15",
+   "hash": "2b13fe545c20",
+   "updated": "2026-09-18"
+  },
+  "vich1511": {
+   "first": "2026-09-18",
+   "hash": "7d7993ec3c0b",
+   "updated": "2026-09-18"
+  },
+  "voynich": {
+   "first": "2026-09-15",
+   "hash": "5cf6e86d9647",
+   "updated": "2026-09-15"
+  },
+  "warsaw": {
+   "first": "2026-09-16",
+   "hash": "9c7b6c79ee6a",
+   "updated": "2026-09-16"
+  },
+  "yard1699": {
+   "first": "2026-09-18",
+   "hash": "841d993d9e34",
+   "updated": "2026-09-18"
+  }
+ }
+}

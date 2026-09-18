@@ -1,0 +1,196 @@
+# The Ferdinand-Vich cipher of 1511-12 (AHN Estado 8715 N.41/N.45/N.46/N.52BIS/N.57/N.60)
+
+Recovered by aligning N.46 (5 Jul 1511) and N.52BIS (1 Mar 1512) with the clerk decipherments
+filed with them, then extended from the readings of N.45, N.57 and N.60.
+Glyph labels are the ASCII names used in the transcriptions (legend at the head of each).
+
+## Alphabet (homophonic)
+
+| letter | signs |
+|---|---|
+| a | `to`, `7`, `b` |
+| b | `B` |
+| c | `ch` |
+| d | `oo` |
+| e | `4h`, `3` |
+| f | `gh` |
+| g | `o` |
+| h | `O` |
+| i | `e`, `Z` |
+| l | `c` |
+| ll | `7o` |
+| m | `q` |
+| n | `11`, `W` |
+| o | `ah`, `T` |
+| p | `P`, `SS`, `mt` |
+| r | `40`, `tt`, `E` |
+| s | `d`, `eh` |
+| t | `X`, `g`, `9` |
+| u | `3t` |
+| v | `V` |
+| y | `8` |
+| z | `p` |
+
+## Code groups
+
+| group | value |
+|---|---|
+| `&` | y |
+| `dai` | como |
+| `das` | ducado |
+| `day` | direys |
+| `daz` | dize |
+| `dee` | general |
+| `dex` | deve |
+| `dez` | dezir |
+| `di` | cardenal |
+| `die` | cosa |
+| `dieb` | cosas |
+| `dih` | con |
+| `dij` | cierto |
+| `diy` | cierto |
+| `diz` | de |
+| `doh` | contra |
+| `dot` | dos |
+| `dox` | duque |
+| `dur` | duque |
+| `dux` | duque |
+| `fac` | dichas |
+| `fae` | dicha |
+| `fak` | el |
+| `fan` | en |
+| `far` | dar |
+| `fat` | forma |
+| `fax` | franceses |
+| `fef` | emperador |
+| `feh` | estado |
+| `fem` | es |
+| `fen` | esto |
+| `fep` | hazer |
+| `fer` | dio |
+| `fex` | fe |
+| `fib` | febrero |
+| `fic` | del |
+| `fid` | despues |
+| `fim` | esta |
+| `fio` | ferrara |
+| `fiq` | victoria |
+| `fir` | del |
+| `fis` | febrero |
+| `fit` | capitan |
+| `flart` | me |
+| `fol` | ellas |
+| `foo` | ducados |
+| `fop` | hecho |
+| `fos` | deseo |
+| `fub` | daño |
+| `fud` | dicho |
+| `fue` | saber |
+| `fug` | señor |
+| `fuj` | exercito |
+| `fun` | esta |
+| `fuq` | francia |
+| `fur` | dela |
+| `gab` | assi |
+| `gaf` | aqui |
+| `gak` | aquella |
+| `ged` | amistad |
+| `gib` | franceses |
+| `gih` | dexar |
+| `gik` | agora |
+| `gno` | bien |
+| `go` | aunque |
+| `gol` | alguna |
+| `gor` | venir |
+| `gos` | ciudad |
+| `goy` | cartas |
+| `gub` | armas |
+| `guj` | esto |
+| `guo` | bien |
+| `gup` | batalla |
+| `guz` | consejo |
+| `hag` | havemos |
+| `hah` | he |
+| `hap` | havemos |
+| `has` | lo |
+| `hat` | luego |
+| `heg` | haveys |
+| `heh` | ha |
+| `hel` | ingalaterra |
+| `hep` | julio |
+| `hes` | lugar |
+| `hib` | guerra |
+| `hig` | haver |
+| `hih` | ha |
+| `hik` | italia |
+| `hiz` | mar |
+| `hob` | largo |
+| `hor` | la |
+| `hub` | gente |
+| `huf` | he |
+| `huz` | mas |
+| `keg` | pero |
+| `mac` | mil |
+| `mag` | otro |
+| `mah` | dezir |
+| `mak` | napoles |
+| `maq` | otro |
+| `mar` | mil |
+| `mee` | muy |
+| `mef` | manera |
+| `mem` | nro |
+| `meq` | otra |
+| `mik` | no |
+| `miq` | orden |
+| `mix` | papa |
+| `moe` | mucho |
+| `mok` | nos |
+| `mul` | negocio |
+| `mum` | ninguna |
+| `mye` | papa |
+| `myk` | no |
+| `ob` | ga |
+| `pag` | quales |
+| `par` | recebido |
+| `pax` | su |
+| `pef` | que |
+| `peh` | quiere |
+| `pic` | potencia |
+| `pid` | presa |
+| `pio` | rey |
+| `pip` | razon |
+| `plart` | mi |
+| `plort` | al |
+| `plu` | ni |
+| `plut` | ni |
+| `pob` | si |
+| `poj` | rey |
+| `raf` | por |
+| `ref` | para |
+| `rie` | pued |
+| `rif` | porque |
+| `roc` | parece |
+| `rof` | paraque |
+| `rug` | parte |
+| `sal` | todo |
+| `sap` | venecianos |
+| `sat` | uno |
+| `seg` | viene |
+| `seh` | se |
+| `sel` | todo |
+| `set` | una |
+| `sod` | ser |
+| `sok` | fiar |
+| `soq` | verdad |
+| `soy` | yo |
+| `sub` | vras |
+| `suk` | tiene |
+| `sum` | tierra |
+| `sus` | um |
+| `suy` | ia |
+
+153 groups recovered. Groups still unread print in [brackets] in the decodes.
+
+Known traps: `fug` senor vs `fuq` Francia; `plart` mi vs `plort` al (the N.45 and N.60
+transcribers disagree); the barred q is m with two bars and a with one; in N.60 a tailed
+8-sign reads i/j where the N.57 legend calls it b; `P` serves j/y as well as p in N.60.

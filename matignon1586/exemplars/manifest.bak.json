@@ -1,0 +1,950 @@
+[
+ {
+  "file": "exemplars/f18r_l2_17_o.png",
+  "letter": "o",
+  "src": "f18r line 2",
+  "box": [
+   2104,
+   2156,
+   177,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_18_n.png",
+  "letter": "n",
+  "src": "f18r line 2",
+  "box": [
+   2180,
+   2229,
+   173,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_19_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   2254,
+   2286,
+   178,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_20_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   2313,
+   2379,
+   174,
+   217
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_23_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2716,
+   2827,
+   138,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_01_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   102,
+   131,
+   161,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_02_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   169,
+   228,
+   159,
+   202
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_04_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   465,
+   497,
+   138,
+   196
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_05_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   536,
+   557,
+   155,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_08_e.png",
+  "letter": "e",
+  "src": "f18r line 2",
+  "box": [
+   959,
+   988,
+   138,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_09_r.png",
+  "letter": "r",
+  "src": "f18r line 2",
+  "box": [
+   1007,
+   1092,
+   138,
+   207
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_10_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   1124,
+   1168,
+   138,
+   199
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_11_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   1201,
+   1240,
+   153,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_15_ss.png",
+  "letter": "ss",
+  "src": "f18r line 2",
+  "box": [
+   1941,
+   2020,
+   138,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_16_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2040,
+   2074,
+   173,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2g14_01_s.png",
+  "letter": "s",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   102,
+   131,
+   161,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_02_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   169,
+   228,
+   159,
+   202
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_03_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   270,
+   330,
+   138,
+   192
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_04_f.png",
+  "letter": "f",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   346,
+   445,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_05_u.png",
+  "letter": "u",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   465,
+   497,
+   138,
+   196
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_06_s.png",
+  "letter": "s",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   536,
+   557,
+   155,
+   198
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_07_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   584,
+   652,
+   138,
+   206
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_08_a.png",
+  "letter": "a",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   669,
+   748,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_10_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   959,
+   1016,
+   138,
+   198
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_11_r.png",
+  "letter": "r",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1032,
+   1092,
+   138,
+   207
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_12_t.png",
+  "letter": "t",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1124,
+   1168,
+   138,
+   199
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_13_i.png",
+  "letter": "i",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1201,
+   1240,
+   153,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_14_e.png",
+  "letter": "e",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1260,
+   1310,
+   163,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_19_ss.png",
+  "letter": "ss",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   1941,
+   2020,
+   138,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l2g14_20_i.png",
+  "letter": "i",
+  "src": "f18r line 2 (gap 14)",
+  "box": [
+   2040,
+   2074,
+   173,
+   218
+  ],
+  "crib": "f19r line 1 \"ste fust aduertie et plustost que nous eussions\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_01_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   109,
+   148,
+   277,
+   325
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_02_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   163,
+   205,
+   287,
+   337
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_03_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   229,
+   269,
+   257,
+   326
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_04_t.png",
+  "letter": "t",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   295,
+   362,
+   257,
+   331
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_05_c.png",
+  "letter": "c",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   384,
+   418,
+   271,
+   329
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_06_o.png",
+  "letter": "o",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   452,
+   508,
+   257,
+   324
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_07_n.png",
+  "letter": "n",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   530,
+   556,
+   284,
+   329
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_08_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   574,
+   631,
+   277,
+   323
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_09_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   648,
+   691,
+   279,
+   324
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_10_i.png",
+  "letter": "i",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   720,
+   749,
+   268,
+   334
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_11_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   768,
+   874,
+   277,
+   314
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_12_d.png",
+  "letter": "d",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   889,
+   945,
+   257,
+   316
+  ],
+  "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_13_a.png",
+  "letter": "a",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   961,
+   1122,
+   257,
+   330
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_14_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1155,
+   1192,
+   275,
+   318
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_15_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1210,
+   1241,
+   285,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_16_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1280,
+   1326,
+   257,
+   323
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_17_m.png",
+  "letter": "m",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1342,
+   1395,
+   286,
+   321
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_18_b.png",
+  "letter": "b",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1438,
+   1507,
+   290,
+   319
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_19_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1533,
+   1570,
+   275,
+   329
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_20_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1596,
+   1674,
+   272,
+   327
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_21_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1695,
+   1751,
+   288,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_22_d.png",
+  "letter": "d",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1767,
+   1807,
+   267,
+   335
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_23_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1827,
+   2040,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_24_c.png",
+  "letter": "c",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2063,
+   2098,
+   299,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_25_a.png",
+  "letter": "a",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2142,
+   2167,
+   293,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_26_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2191,
+   2242,
+   271,
+   333
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_27_t.png",
+  "letter": "t",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2256,
+   2297,
+   257,
+   332
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_28_i.png",
+  "letter": "i",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2344,
+   2385,
+   299,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_29_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2410,
+   2485,
+   296,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_30_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2502,
+   2549,
+   257,
+   333
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_31_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2565,
+   2597,
+   295,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_32_b.png",
+  "letter": "b",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2645,
+   2695,
+   257,
+   315
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_33_o.png",
+  "letter": "o",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2709,
+   2770,
+   264,
+   328
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_34_u.png",
+  "letter": "u",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2815,
+   2830,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_35_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2846,
+   2897,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_01_g.png",
+  "letter": "g",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   115,
+   248,
+   381,
+   448
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_02_o.png",
+  "letter": "o",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   272,
+   385,
+   389,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_03_u.png",
+  "letter": "u",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   409,
+   450,
+   381,
+   446
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_04_l.png",
+  "letter": "l",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   489,
+   498,
+   402,
+   450
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_05_o.png",
+  "letter": "o",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   513,
+   585,
+   398,
+   457
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_06_n.png",
+  "letter": "n",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   600,
+   650,
+   381,
+   446
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_07_f.png",
+  "letter": "f",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   666,
+   714,
+   396,
+   442
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_08_e.png",
+  "letter": "e",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   729,
+   859,
+   384,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_09_i.png",
+  "letter": "i",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   874,
+   903,
+   398,
+   447
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_10_s.png",
+  "letter": "s",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   930,
+   957,
+   381,
+   441
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_11_t.png",
+  "letter": "t",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   992,
+   1072,
+   381,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/CODE_l2_16_plustost.png",
+  "letter": "plustost",
+  "src": "f18r l2 box16 = code 52",
+  "box": [
+   1444,
+   1553,
+   161,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l2_17_que.png",
+  "letter": "que",
+  "src": "f18r l2 box17 = code 14",
+  "box": [
+   1586,
+   1684,
+   165,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l4_25_que.png",
+  "letter": "que",
+  "src": "f18r l4 box25 = code 14",
+  "box": [
+   2160,
+   2347,
+   381,
+   461
+  ],
+  "crib": "code group"
+ }
+]

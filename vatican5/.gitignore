@@ -6,3 +6,11 @@ mt.htm
 mt2.json
 mtl.json
 __pycache__/
+decode/*.jpg
+decode/*.png
+decode/cookie.txt
+img/*.jpg
+img/*.png
+decode/crops/
+decode/DOC_*
+img/*.txt

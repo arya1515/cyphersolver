@@ -1,0 +1,108 @@
+  it 0 ll -9252.9
+  it 10 ll -8702.3
+  it 20 ll -8571.8
+  it 30 ll -8476.3
+  it 40 ll -8432.1
+  it 50 ll -8409.9
+  it 60 ll -8396.2
+  it 70 ll -8387.5
+restart 0 ll -8382.6 63s
+restart 1 ll -8368.3 63s
+restart 2 ll -8357.8 63s
+0 n=43 ian i:0.34 a:0.23 n:0.19 pair an 0.41
+1 n=181 eai e:0.37 a:0.36 i:0.14 pair er 0.41
+2 n=63 scg s:0.33 c:0.26 g:0.12 pair fs 0.33
+3 n=29 ouy o:0.73 u:0.13 y:0.10 pair bo 0.73
+5 n=151 esr e:0.57 s:0.28 r:0.13 pair er 0.7
+7 n=61 unr u:0.45 n:0.29 r:0.20 pair hu 0.45
+11 n=24 lmi l:0.68 m:0.18 i:0.11 pair ly 0.68
+12 n=44 lmq l:0.47 m:0.31 q:0.09 pair ly 0.47
+13 n=36 tem t:0.58 e:0.18 m:0.14 pair gt 0.58
+14 n=55 tru t:0.60 r:0.17 u:0.16 pair gt 0.6
+15 n=17 lgv l:0.38 g:0.28 v:0.17 pair ly 0.38
+18 n=8 tqm t:0.60 q:0.17 m:0.10 pair gt 0.61
+20 n=81 oaf o:0.79 a:0.19 f:0.01 pair bo 0.79
+23 n=70 rei r:0.55 e:0.19 i:0.15 pair er 0.74
+24 n=83 uia u:0.25 i:0.23 a:0.17 pair hu 0.25
+25 n=10 oty o:0.55 t:0.24 y:0.17 pair bo 0.55
+26 n=38 sdp s:0.36 d:0.36 p:0.10 pair fs 0.37
+27 n=61 aqu a:0.40 q:0.23 u:0.10 pair an 0.4
+28 n=93 sce s:0.53 c:0.10 e:0.10 pair fs 0.61
+29 n=66 tes t:0.36 e:0.27 s:0.22 pair gt 0.37
+30 n=52 iag i:0.61 a:0.17 g:0.07 pair ix 0.61
+31 n=13 oru o:0.45 r:0.42 u:0.07 pair bo 0.46
+33 n=10 etn e:0.95 t:0.01 n:0.01 pair er 0.95
+35 n=33 eun e:0.40 u:0.37 n:0.07 pair er 0.4
+38 n=16 msr m:0.84 s:0.12 r:0.01 pair mz 0.84
+39 n=16 nrd n:0.98 r:0.00 d:0.00 pair an 0.98
+40 n=85 nai n:0.68 a:0.20 i:0.07 pair an 0.88
+42 n=21 usx u:0.76 s:0.19 x:0.03 pair hu 0.76
+43 n=84 lpt l:0.58 p:0.29 t:0.06 pair ly 0.58
+44 n=30 esd e:0.70 s:0.20 d:0.04 pair er 0.7
+45 n=28 oue o:0.26 u:0.24 e:0.14 pair bo 0.26
+46 n=44 rut r:0.42 u:0.26 t:0.19 pair er 0.42
+48 n=36 cru c:0.47 r:0.29 u:0.12 pair cp 0.47
+49 n=45 tsc t:0.31 s:0.21 c:0.14 pair gt 0.32
+50 n=36 tci t:0.43 c:0.16 i:0.15 pair gt 0.43
+51 n=14 xpl x:0.47 p:0.41 l:0.09 pair ix 0.47
+52 n=19 eva e:0.43 v:0.34 a:0.17 pair er 0.43
+53 n=29 ebv e:0.79 b:0.07 v:0.07 pair er 0.79
+54 n=26 onf o:0.81 n:0.06 f:0.06 pair bo 0.85
+56 n=32 ers e:0.67 r:0.17 s:0.11 pair er 0.84
+57 n=70 iph i:0.34 p:0.20 h:0.20 pair ix 0.34
+58 n=4 aqe a:0.55 q:0.38 e:0.01 pair an 0.56
+59 n=35 eqh e:0.88 q:0.08 h:0.01 pair er 0.88
+61 n=73 ina i:0.33 n:0.13 a:0.12 pair ix 0.33
+62 n=32 dar d:0.38 a:0.21 r:0.12 pair dq 0.38
+63 n=61 edn e:0.59 d:0.16 n:0.16 pair er 0.59
+64 n=47 nuk n:0.79 u:0.19 k:0.01 pair an 0.79
+65 n=52 ead e:0.37 a:0.27 d:0.21 pair er 0.37
+67 n=46 tbe t:0.41 b:0.16 e:0.15 pair gt 0.41
+68 n=33 rvs r:0.91 v:0.07 s:0.00 pair er 0.91
+69 n=17 dta d:0.83 t:0.12 a:0.01 pair dq 0.83
+MAP {0: 'an', 1: 'er', 2: 'fs', 3: 'bo', 5: 'er', 7: 'hu', 11: 'ly', 12: 'ly', 13: 'gt', 14: 'gt', 15: 'ly', 18: 'gt', 20: 'bo', 23: 'er', 24: 'hu', 25: 'bo', 26: 'fs', 27: 'an', 28: 'fs', 29: 'gt', 30: 'ix', 31: 'bo', 33: 'er', 35: 'er', 38: 'mz', 39: 'an', 40: 'an', 42: 'hu', 43: 'ly', 44: 'er', 45: 'bo', 46: 'er', 48: 'cp', 49: 'gt', 50: 'gt', 51: 'ix', 52: 'er', 53: 'er', 54: 'bo', 56: 'er', 57: 'ix', 58: 'an', 59: 'er', 61: 'ix', 62: 'dq', 63: 'er', 64: 'an', 65: 'er', 67: 'gt', 68: 'er', 69: 'dq'}
+L1 skintitontabbesdecontechaitecessadonneleducaeverdinnava
+L2 inquesquetrecequelaperailzentlatincestespartearoymonqulxdud
+L3 iquechabbesesaquettedegochamanterepaiereeequisoutreseexpienou
+L4 relionneteierrauquesachationcetiellesteepouveclachisionsdes
+L5 eeuslainsleursetantsaisnontfaitionalionausquipordeche
+L6 uxpluyataapourrelembainaltroilemisademeninietentlemoru
+L7 nobleauxquesainteurlestmeoitionnetreafforraitersquequitq
+L8 uecommendesaitionteeposechestoutporavaliantentpiesavaitudita
+L9 itsaitneadantlasaidesoiteolferaitauxantpouvenissintcasara
+L10 iremardesluionslreintiondignesdetsesursursdesinalaitle
+L11 semazausrommementrandetactionsquonestiontpardemieapos
+L12 setlapappoblepareteetasthereenobieneaveconnepuiresonqu
+L13 ionnoulalusureentdeconsonssespauquiagneligneausqueandire
+L14 contlementaldecontourtiongtouslestresntetescommequi
+L15 donalieroitallignepardepreentoutlesaiecortousdesinerqu
+L16 elleoulisfoirantsarladinuelafraiticipardectr
+L17 equestresdesourquesdebontequelusavoussuiaiceautdememoy
+L18 auppoupartouehommentedesreemonntvourletacequevouverc
+L19 equedecdeureconnelablerestesublesquespresancoueseemoyeus
+L20 pouversesidescounesdesionterroirecharommeetaccomentdont
+L21 sesansuilesouteserlaiiquierettetbatarquinett
+L22 reetreslesochemisquesonnerabliontionsiieeaparte
+L23 parsontparderrisseuxdeclemedembasdesderelepourepardeueese
+L24 miretcomoyesbientpardindebierantrequisaproynetteesp
+L25 ouslentelassifaideableatunetommendemaardinqunaitd
+L26 iedeledeparlacluitaveraitionsquiaalalapettreetletavo
+L27 uvouvequelacequeaselussresireglablicequetieritaint
+L28 rellierenepoucamitdeparletesconnedelesporderme
+L29 ntcontonglignyavaiairedecommempluiscouv
+L30 equisedepartissavereotinquepapeauxquei
+L31 naleqursineaffinisetquecunepardembregueihauxqu
+L32 ellestrapaienthoiresdeclesetdetredefrance
+L33 quessuiiseroissesdantequeonellerequeseconse
+L34 vronionedesalasondreentpoutedecquesesedemblefaitravait
+L35 quesdealalesqurieresautetdansttemplagesteigeaproinaysou
+L36 ressdelolusaneeculessilsonaumoirquelaiationt
+L37 ientsimerchoseteurseleseuretlesdefachandescolourequedripo
+L38 ssiationdefoiteresavaitlepouviluilducultementquelapouremon
+L39 neunetercommememondellesaviesonfaitpasserrisetationvois
+L40 orteressentaienderdettesausfairequissambrentagemartextelarcom
+L41 mesantdellesnequeavoiresesqueditiontquiliongliretabou
+L42 rleseholtablesdelafitairemaitairtuntdescossemoyantdedu
+L43 despoulafficonnesansealafortdelesmenlisarditatrommunegl
+L44 iontneseurleseationdonseuhislepartelaineuesgraicattec
+L45 onnesprettererenaurtellnblesesperaletquelaledesonsaean

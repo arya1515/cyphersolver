@@ -1,0 +1,931 @@
+.mw-parser-output .quality-msg{margin:0 auto 10px auto;width:90%;font-size:90%;background:var(--background-color-neutral-subtle);color:var(--color-base);border:1px solid #aaa;border-left:10px solid #1e90ff}.mw-parser-output .quality-ns0 .quality-msg{margin:0 auto 3px auto;width:33em;font-size:100%}.mw-parser-output .quality-indice .quality-msg{display:inline-grid;font-size:100%;width:auto}.mw-parser-output .quality-msg-image{padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .quality-msg-text,.mw-parser-output .quality-msg-text2{padding:0.25em 0.5em}.mw-parser-output .quality-ns0 .quality-msg-text{font-size:90%}.mw-parser-output .quality-indice .quality-msg-text{font-size:90%}.mw-parser-output .quality-msg-imageright{padding:2px 4px 2px 0;text-align:center}
+
+
+Questo testo è riletto e controllato.
+
+
+ .mw-parser-output .testi{width:33em;text-align:justify;margin:0 auto;font-family:Georgia,Times New Roman,Times,serif}.mw-parser-output .testi p{text-indent:2em}.mw-parser-output .indent p{text-indent:inherit}.mw-parser-output #box_esterno.diritto,.mw-parser-output #box_esterno.tesi{width:43em;font-family:sans-serif}.mw-parser-output .intest-titolo{font-size:130%;font-weight:bold;margin-top:16px;margin-bottom:16px}.mw-parser-output .intest-sottotitolo{font-size:90%;font-weight:bold;margin-top:-10px;margin-bottom:25px}.mw-parser-output .intest-autore{font-size:120%;font-weight:bold;margin-bottom:25px}.mw-parser-output .intest-large{font-size:110%;margin-bottom:25px}.mw-parser-output .intest-sezione{font-size:110%}.mw-parser-output .intest-normal{font-size:96%;margin-bottom:5px}.mw-parser-output .intest-icona-left{float:left}.mw-parser-output .intest-icona-right{float:right}.mw-parser-output .intest-icona-left,.mw-parser-output .intest-icona-right{min-width:25px;height:25px;user-select:none}.mw-parser-output #box_intestazione,.mw-parser-output #box_edizione{padding:1ex 2ex 1ex 2ex;margin:auto}.mw-parser-output #box_intestazione{text-align:center}.mw-parser-output .box_sottopagina{margin-bottom:10px!important}.mw-parser-output .intest-right{text-align:right;user-select:none}.mw-parser-output .wsExport-container{text-align:center;margin-bottom:5px}.mw-parser-output .ricerca-container{margin:16px 0}.mw-parser-output .sfondo{background-color:#F1F1DE}.mw-parser-output .bibbia .sfondo{background-color:#F1F1DE}.mw-parser-output .cantastoria .sfondo{background-color:#E9F1DE}.mw-parser-output .cristianesimo .sfondo{background-color:#EEF1DE}.mw-parser-output .diritto .sfondo{background-color:#E6ECFF}.mw-parser-output .duecento .sfondo{background-color:#F9F1DE}.mw-parser-output .economia .sfondo{background-color:#D0FFE0}.mw-parser-output .letteratura .sfondo{background-color:#FFF0E0}.mw-parser-output .matematica .sfondo{background-color:#D0FF90}.mw-parser-output .opensource .sfondo,.mw-parser-output .open_source .sfondo{background-color:#F1F1DE}.mw-parser-output .teatro .sfondo{background-color:#f5efde}.mw-parser-output .tesi .sfondo{background-color:#EADEF1}.mw-parser-output .scienza .sfondo,.mw-parser-output .testi_scientifici .sfondo{background-color:#C0F0A0}.mw-parser-output .bordo{border:1px solid #CCCC99}.mw-parser-output .bibbia .bordo{border:1px solid #CCCC99}.mw-parser-output .cantastoria .bordo{border:1px solid #B8CC99}.mw-parser-output .cristianesimo .bordo{border:1px solid #C3CC99}.mw-parser-output .duecento .bordo{border:1px solid #E8CC99}.mw-parser-output .economia .bordo,.mw-parser-output .matematica .bordo,.mw-parser-output .scienza .bordo,.mw-parser-output .testi_scientifici .bordo{border:1px solid #90D0A0}.mw-parser-output .letteratura .bordo{border:1px solid #E0C0B0}.mw-parser-output .diritto .bordo,.mw-parser-output .opensource .bordo,.mw-parser-output .open_source .bordo{border:1px solid #99A6CC}.mw-parser-output .teatro .bordo{border:1px solid #d4caa8}.mw-parser-output .tesi .bordo{border:1px solid #BB99CC}.mw-parser-output .testi span+a.new[title*="Pagina:"]{display:block;text-indent:0}.mw-parser-output .testi span+a.new[title*="Pagina:"]:after{content:"\a0 (da trascrivere)"}
+<dc:title> Diario del principe Agostino Chigi Albani </dc:title>
+<dc:creator opt:role="aut">Agostino Chigi Albani della Rovere</dc:creator>
+<dc:date></dc:date>
+<dc:subject>diari/Storia di Roma</dc:subject>
+<dc:rights>CC BY-SA 3.0</dc:rights>
+<dc:rights>GFDL</dc:rights>
+<dc:relation>Indice:Diario del principe Agostino Chigi Albani I.djvu</dc:relation>
+<dc:identifier>//it.wikisource.org/w/index.php?title=Diario_del_principe_Agostino_Chigi_Albani/Anno_1848&oldid=-</dc:identifier>
+<dc:revisiondatestamp>20260424211355</dc:revisiondatestamp>
+//it.wikisource.org/w/index.php?title=Diario_del_principe_Agostino_Chigi_Albani/Anno_1848&oldid=-
+20260424211355
+
+
+
+ Diario del principe Agostino Chigi Albani - Anno 1848 Agostino Chigi Albani della RovereDiario del principe Agostino Chigi Albani I.djvu
+Agostino Chigi Albani della Rovere -  Diario del principe Agostino Chigi Albani  Anno 1848
+Informazioni sulla fonte del testo
+.mw-parser-output .barraCapitolo{width:100%;border:1px #aaa solid;margin-bottom:20px;margin-top:10px}.mw-parser-output .barraCapitolo td{line-height:normal;font-size:smaller}.mw-parser-output .frecciaCapitolo{padding:3px;color:#808080}.mw-parser-output .capitoloPrec{padding:3px;width:50%;text-align:left}.mw-parser-output .capitoloSucc{padding:3px;width:50%;text-align:right}
+
+
+
+◄
+
+Anno 1847
+
+Anno 1849
+
+►
+
+
+.mw-parser-output .numeropagina{position:absolute;z-index:100;left:1em;font-size:80%;text-indent:0;font-style:normal;background-color:var(--background-color-base,white);min-width:10em;user-select:none}[p. 5 modifica]
+Anno 1848
+
+
+
+
+
+GENNAIO
+
+
+
+
+Sabato 1. — Nella notte sono stati spediti degli ordini allarmanti a tutti i quartieri civici, si crede perchè si temesse qualche dimostrazione popolare troppo strepitosa sotto il colore di augurii per il Capo d’anno al S. Padre. Tali precauzioni non sono piaciute molto al popolo. Questa sera un attruppamento di gente proveniente da Trastevere con torcie e vociferazioni si è incamminata verso il Quirinale, ove erano chiusi tutti i portoni, e le strade, che ci danno accesso, occupate da truppa di linea, cavalleria, carabinieri, ecc. La Guardia del quartiere civico posto sotto il palazzo Grazioli a piazza di Venezia, ha fatto retrocedere l’attruppamento e smorzare le torcie. Intanto (per quanto si è potuto sapere questa sera) il Principe Corsini,[1] accompagnato da molta gente, con applausi, si è recato dal Papa (come il Principe Doria ed Aldobrandini, Tenenti Colonnelli civici, dal Segretario di Stato) per calmare i timori concepiti, e pare abbiano riportate risposte sodisfacenti. Oggi è stata pubblicata una specie di proclama del nuovo Senato Romano, che oggi stesso è entrato in esercizio. [p. 6 modifica]
+
+
+Domenica 2. — Circa le tre pomeridiane il Papa, pare, per dare una prova della sua fiducia nel popolo, e distruggere l’impressione prodotta dall’avvenuto di ieri, è uscito ed è andato a palazzo Vaticano, ed al ritorno è passato per il Corso, accompagnato e seguito da una folla immensa, che applaudiva e chiedeva fiducia nel popolo; il che era scritto anche in un gran cartello portato da Brunetti, detto Ciceruacchio[2], montato dietro alla seconda carrozza del Papa. A Montecavallo la folla si è dissipata tranquillamente. Questa sera i teatri Tordinona e Valle sono stati illuminati. Il Principe Corsini, che ha presieduto all’ispezione nel primo, è stato molto applaudito.
+
+
+Lunedì 3 — Oggi il Card. Altieri[3] ha dato un gran pranzo a tutto il Consiglio Municipale e vi è stato invitato anche il Consiglio Amministrativo della Presidenza di Roma e Comarca. Il pranzo è stato nella sala grande del palazzo Altieri, molto bene ornata ed illuminata. Questa sera poi il Cardinale medesimo ha tenuto gran società con numerosissimo invito, e con buffet nella sala del pranzo, che è stata pure aperta ed illuminata.
+
+
+Martedì 4. — Nel Diario di oggi si è veduta annunziata la nomina di Mons. Amici alla carica di Ministro dell’Interno, di Monsig. Sbarretti a quella di Segretario del Consiglio dei Ministri, e di Monsig. Pentini a quella di vice-Presidente della Consulta. Questa sera il corpo del defunto D. Carlo Torlonia è stato trasportato in carrozza alla chiesa de’ S.S. Apostoli, con lungo giro e con immenso accompagnamento di torcie, del battaglione civico, di cui era Tenente Colonnello, della uffizialità di tutti gli altri corpi militari, delle ragazze di un Conservatorio a S. Onofrio, che egli manteneva, e di un’infinità di persone addette in qualche modo al Defunto e alla Famiglia. [p. 7 modifica]
+
+
+Mercoledì 5. — Questa mattina ai SS. Apostoli si è fatto il solenne funerale a D. Carlo Torlonia, con grande apparatura della Chiesa e con tutti gli onori militari ecc. Il corpo questa sera doveva trasportarsi a S. Pantaleo per essere ivi umato nella sepoltura gentilizia, dicesi, finchè non sia condotta a termine la Cappella Torlonia a S. Giovanni Laterano.
+
+
+Venerdì 7. — Un ordine circolare del Segretario di Stato, pubblicato da qualche giorno, prescrive qualche nuova disposizione sulla Censura. I Censori destinati alla stampa periodica sono portati a 4, e salariati. È proibita la vendita dei giornali fuori dei locali delle rispettive Direzioni, è proibito di lasciare in bianco, o marcare con puntini gli articoli riprovati dalla censura ecc. ecc.
+
+
+Lunedì 10. — Questa, sera è partito per Bologna il corpo del defunto Avv. Silvani[4], uno dei deputati della Consulta, collocato in una diligenza, accompagnato fino alla porta dalla Guardia civica, e da molte persone con torcie.
+
+
+Martedì 12. — Ieri sera il Card. Massimi, assistendo a Palazzo al Consiglio dei Ministri, fu sorpreso da uno sturbo, da cui per il momento rinvenne talmente che restò sino al termine della sessione; ma tornando a casa, nel salire i primi gradini della scala, gli sopraggiunse un nuovo insulto così forte, che convenne portarlo a braccia fino al suo appartamento, ove posto in letto, non molto dopo cessò di vivere nella fresca età di 42 anni. — Questa mattina nella chiesa di S. Carlo al Corso, dai nazionali Milanesi si è celebrato un funerale in suffragio di quelli, che sono rimasti morti in un movimento popolare, seguito a Milano giorni sono, e nel quale la forza militare fece uso delle armi.
+
+
+Sabato 15. — Questa mattina il Papa è andato ad assistere alla Cappella per le esequie del Card. Massimi a S. Lorenzo e Damaso, ove il suo corpo fu trasportato ieri sera e dove ha disposto di essere sepolto nella Cappella gentilizia della sua Famiglia. [p. 8 modifica]
+
+
+Domenica 16. — Da ieri sera è voce generale che sia giunta da Napoli notizia ufficiale di una rivoluzione seguíta a Palermo, in seguito di cui la città era rimasta in mano al popolo sollevato, la truppa parte defezionata, parte disarmata e rinchiusa nei Forti, e che da Napoli si spedivano bastimenti e truppa a quella volta. Alcuni aggiungono che la rivoluzione si estenda a tutta la Sicilia.
+
+
+Lunedì 17. — Oggi per la prima volta si è pubblicata la Gazzetta di Roma che rimpiazza il Diario di Roma e le Notizie del giorno; qual foglio sarà quotidiano, meno il mercoledì e la Domenica, in cui non viene la Posta; e conterrà una parte ufficiale. Nel numero di oggi si è veduta annunziata la nomina di Mons. Rusconi alla carica di Ministro dei Lavori pubblici, in luogo del Card. Massimi defunto, e di D. Pompeo Gabrielli a quella di Ministro delle Armi. — Le lettere di Napoli confermano la rivolta di Palermo, accaduta il giorno 12 corrente, e la spedizione di truppa colà per mezzo di vapori. Non si conoscono però i dettagli precisi del fatto per mancanze di notizie dirette da Palermo.
+
+
+Giovedì 20. — Dalle lettere di Napoli si sente che la truppa spedita a Palermo era sbarcata, ma che nè questa nè le forze marittime avevano ancora incominciato ad agire contro la città, la quale era tuttora in potere dei sollevati, ad eccezione dei forti, che erano in mano delle truppe reali.
+
+
+Venerdì 21. — Nella notte scorsa è partito il Card. Ferretti per Ravenna ove è destinato Legato straordinariamente in luogo del Card. Bofondi, nominato Segretario di Stato; il che ha annunziato oggi la Gazzetta di Roma. — Si sente da Napoli che era colà tornato il Conte dell’Aquila, fratello del Re, che si era imbarcato colla spedizione per Palermo; e che in seguito il Re si era determinato a emanare alcuni decreti di concessioni (che sono venuti stampati) uno dei quali portante la separazione totale del governo e amministrazione della Sicilia da quella di Napoli, e la nomina del Conte dell’Aquila a Luogotenente generale di quel Regno. Si sperava che dopo ciò la crisi potesse avere una soluzione pacifica.
+
+
+Sabato 22. — Questa mattina nella chiesa della Sapienza [p. 9 modifica]quella scolaresca ha voluto celebrare un funerale per alcuni scolari dell’Università di Pavia, che si dice siano rimasti morti in un conflitto colla forza militare austriaca. Benchè non dovesse in tal funzione pronunziarsi alcun discorso, gli scolari hanno trasportato in chiesa il pulpito, ed il P. Gavazzi barnabita ha perorato. — Si scrive da Napoli che il Conte dell’Aquila non era ancora ripartito, e che nulla si sapea direttamente da Palermo. È comparso un altro decreto reale, che accorda maggior facilità alla stampa ecc. Si sente nel tempo stesso che la provincia di Salerno sia in piena rivolta.
+
+
+Lunedì 24. — Di Palermo non si sa altro se non che le cose stavano nel medesimo stato. Molte persone di qualità erano riuscite a fuggire, ed erano arrivate a Napoli.
+
+
+Giovedì 27. — Lo stato delle cose a Palermo pare, secondo le notizie di oggi, che resti sempre lo stesso. Un sordo fermento sembra che si scorga tanto in tutto il resto della Sicilia, quanto nel Regno di Napoli.
+
+
+Venerdì 28. — Questa mattina l’Ab. Mazzani, professore in Sapienza di meccanica e idraulica, il quale sinora era stato molto accetto agli scolari, e che avea cooperato alla funzione funebre di Sabato scorso, è stato accolto ed inseguito con fischi dagli scolari stessi, che pare lo credessero colpevole di aver denunziato il P. Gavazzi, che perorò nella suddetta funzione: in seguito di che (il Gavazzi) è stato mandato a far gli esercizi, si dice, alla Polveriera.
+
+
+Sabato 29. — L’Ab. Mazzani è andato questa mattina a far la sua lezione alla Sapienza, ed in seguito della intervenzione (per quanto si dice) di persone pacifiche e bene intenzionate, tutto è passato tranquillamente.
+
+
+Domenica 30. — Essendo giunta la notizia che il Re di Napoli ha dato ai suoi Stati una Costituzione (quale si dice ad instar di quella del Belgio), questa sera un certo numero di persone con alcune torcie ha percorso più volte il Corso, facendo sentire degli Evviva e delle acclamazioni clamorose analoghe alla circostanza. La lezione dell’Ab. Mazzani alla Sapienza non passò poi tanto tranquillamente, quanto si era detto, ed egli partendo dovè passare per una porta segreta. [p. 10 modifica]
+
+
+Lunedì 31. — Questa sera (forse a causa del cattivo tempo) non vi è stata alcuna dimostrazione popolare per la Costituzione di Napoli; per altro il teatro Tordinona è stato illuminato, ed anche al palazzo Farnese si è fatta illuminazione.
+
+
+
+
+FEBBRAIO
+
+
+
+
+Martedì 1. — Si è pubblicata una Notificazione del Magistrato Romano, con cui sono invitati tutti a illuminare le proprie case doman l’altro 3 corrente per festeggiare la Costituzione di Napoli. Oggi è arrivato da Ravenna il Cardinale Bofondi, nuovo Segretario di Stato.
+
+
+Giovedì 3. — Fin da questa mattina tutte le finestre e balconi del Corso sono stati ornati di parati, e bandiera. Questa sera poi un gran raduno di gente (la maggior parte con coccarde dei colori italici e bandiere simili) partendo dal Popolo, si è recato al Campidoglio, ove si è cantato un inno composto e messo in musica per la circostanza. Passando avanti il palazzo Altieri, il Cardinale ha parlato dal balcone, esortando tutti ad astenersi da ogni dimostrazione che potesse dispiacere al S. Padre. Si è notato che i Civici ed anche i Carabinieri portavano i colori italiani. Per la città si è fatta generale illuminazione.
+
+
+Domenica 6. — In questi giorni vari ecclesiastici, alcuni de’ quali appartenenti al Capitolo di S. Pietro, essendosi fatti vedere in pubblico con un cappello tondo (in luogo del solito triangolare) con piccola falda ed un cordoncino pendente, il Card. Vicario, con un ordine affisso in tutte le Sacrestie, ha vietato qualunque innovazione nel vestiario dei preti.
+
+
+Martedì 8. — Oggi, tra l’una e le due pomeridiane, si è formato un grande attruppamento di popolo incominciato in piazza Colonna in seguito di una voce sparsa, che il Consiglio dei Ministri si fosse opposto al piano adottato dalla Consulta per un aumento di forza militare ecc. ecc., e si è quindi recato al palazzo Corsini per impegnare il Senato ad andare a presentare al Papa (come ha fatto questa sera) le domande del popolo per l’armamento sudetto, e per la secolarizzazione di tutti i Ministeri. Al ritorno è stato accompagnato da una folla [p. 11 modifica]immensa con torcie grida di diverse specie ecc. Anche i Principi Borghese ed Aldobrandini sono andati nella giornata più volte a Monte Cavallo. La risposta del Papa è stata, che quanto all’aumento egli già lo stava disponendo, ed era già di concerto col Re di Sardegna per avere degli ufficiali onde organizzarlo; e quanto ai Ministeri, tra giorni era risoluto di secolarizzare altri due, oltre a quello delle Armi, che lo è già stato.
+
+
+Mercoledì 9. — Questa sera si è tenuto un Consiglio Straordinario di Ministri, a cui sono stati chiamati anche il Principe Corsini, il Principe Rospigliosi, il Duca di Rignano ed il Principe di Teano, D. Michele Gaetani.
+
+
+Giovedì 10. — Questa sera è stato affisso una specie d’indirizzo intestato Pius P.P. IX ai Romani, nel quale il S. Padre inculcando sempre la tranquillità, li rassicura contro i timori di aggressione; promette la realizzazione delle concessioni promesse, in aspettativa delle altro ecc. In seguito di ciò un gruppo di gente è andato per il Corso colle solite acclamazioni.
+
+
+Venerdì 11. — Oggi il Papa ha chiamato a sè tutto lo Stato Maggiore Civico e di linea a cui ha dichiarato che affidava la Sua persona e l’ordine pubblico. Un poco più tardi, cioè verso le 4 e le 5 pomeridiane, una gran quantità di gente (compresa la scolaresca della Sapienza) tra la quale moltissimi Civici e Militari di ogni specie, con bande e con bandiere di tutti i colori, partendo dal Popolo, si è recata (previo il permesso) a Monte Cavallo, per attestare al Papa il grandimento dell’Atto pubblicato ieri. Essendosi il Papa mostrato alla loggia, una voce si è intesa, che ha altamente gridato, che si volevano tutti i Ministri secolari; ed allora il S. Padre, prima di dare la benedizione, ha parlato al popolo con parole di bontà e di qualche fermezza insieme, quali pare siano state accolte favorevolmente; e l’unione si è tranquillamente sciolta. Nella Gazzetta di Roma di oggi si è annunziato che i Ministri hanno quasi tutti data la loro dimissione.
+
+
+Sabato 12. — La Gazzetta nostra di oggi porta la nomina del Conte Pasolini al Ministero dell’Agricoltura, Commercio, [p. 12 modifica]ed arti, dell’avv. Sturbinetti a quello dei Lavori Pubblici, e di D. Michele Gaetani a quello di Polizia, in seguito delle rispettive rinunzie del Card. Riario Carmelengo, di Mons. Rusconi e di Mons. Savelli. Le rinunzie di tutti gli altri Ministri non costa sinora che siano state accettate. — Questa sera a Tordinona è andata in scena una nuova opera del Maestro Verdi intitolata I Masnadieri, e vi è intervenuto (cosa che forse da un secolo non si era veduto a Roma) il Card. Altieri nel palco della Deputazione di faccia, come Presidente di Roma e Comarca.
+
+
+Domenica 13. — È voce comune che nella notta scorsa siano seguiti degli arresti di varie persone, quasi tutte estere, e che si dice fossero di opinioni alquanto esagerate. Questa mattina il Papa ha fatto intimare un Concistoro segreto per domattina alle 10 antimeridiane. Oggi dopo pranzo il Papa è andato a S. Pietro, ove si è celebrato un Triduo (cominciato Venerdì scorso) di suo ordine per i presenti bisogni. Vari battaglioni di truppa civica, parte per la strada, e parte sulla piazza di S. Pietro si sono trovati al suo passaggio e gli hanno fatto plauso, non però irregolare. Questa sera a Tordinona, essendo giunta la notizia della Costituzione accordata dal Re di Sardegna ai suoi stati (e si dice anche dal gran Duca di Toscana) vi sono stati degli strepitosi applausi all’uno e all’altro.
+
+
+Lunedì 14. — Questa mattina il Papa ha tenuto il Concistoro Segreto, ignorandosi quali materie vi sieno state trattate, È stata nominata una Commissione (già annunziata) incaricata di coadiuvare nelle disposizioni già date, e proporne altre, che siano conciliabili coll’autorità pontificia e coi bisogni del giorno. Essa è composta dei Cardinali Bofondi Segretario di Stato, Castracane, Ostini, Orioli, Altieri e Antonelli, e dei Monsignori Corboli-Bussi, Bernabò, e Mertel come Segretario. In prima sera qualche raduno di gente con torcie si è recata all’abitazione dei Ministro di Sardegna ed al Palazzo di Firenze, facendo plauso alle concessioni delle respettive Costituzioni.
+
+
+Martedì 15. — Corre voce che nella notte scorsa sia seguito [p. 13 modifica]qualche altro arresto. Ai Cardinali componenti la Commissione pubblicata ieri è stato aggiunto il Card. Vizzardelli. In seguito della dimissione richiesta (ed accordata in termini molto onorifici) da Monsig. Amici Ministro dell’Interno, gli è stato surrogato Monsig. Pentini. Tanto l’una che l’altra nomina è riportata nella Gazzetta di Roma di oggi.
+
+
+Mercoledì 16. — Questa sera il Card. Altieri ha assistito allo spettacolo al teatro Valle, nel palco della Deputazione. Avendo la Guardia civica attuale fatta istanza di continuare a prestare il servizio nell’anticamera pontificia, come lo prestava l’antica, ed essendole ciò stato accordato, fino da ieri è entrata in possesso di tale onore.
+
+
+Sabato 19. — Essendosi ricevuta colla posta di oggi stampata la Costituzione data dal Gran Duca di Toscana ai suoi Stati, questa sera vi è stata una dimostrazione di plauso con bandiere, torcie e banda principalmente (in assenza del Ministro) al Console toscano Pandolfini al Palazzo di Firenze.
+
+
+Domenica 20. — Oggi tutti i battaglioni della Guardia civica divisi in sei legioni, formata ognuna da due battaglioni, e in numero (per quanto si è detto) di sette in ottomila uomini nei totale, si sono recati con tutto lo Stato Maggiore al Vaticano nel cortile di Belvedere, ed il Papa, che vi è andato da Monte Cavallo, ha data loro la benedizione da una specie di loggia espressamente praticata, dopo una breve allocuzione. Nel cortile non è stata ammessa alcuna persona non appartenente al Corpo civico; alle finestre però ne sono state ammesse con biglietti del Maggiordomo. La truppa è ritornata poco prima delle 6.
+
+
+Lunedì 21. — È arrivato un Indirizzo della Municipalità di Bologna al Papa, in cui si chiede la Costituzione. Pare che quella di Spoleto abbia fatto altrettanto.
+
+
+Venerdì 25. — Essendosi nei giorni scorsi formata, per ordine pontificio, una Commissione di alcune signore ed ecclesiastici con Mons. Borromeo per Segretario, all’oggetto di procurare dei soccorsi agli artisti, operai, ecc., che si trovano senza lavoro, questa ha deputato per ogni Rione una Signora ed un Prelato o Sacerdote per raccogliere sussidii  [p. 14 modifica]caritatevoli al fine suddetto. Il che già hanno cominciato ad eseguire.
+
+
+Sabato 26. — Oggi è cominciato il Carnevale. Le novità introdotte dappresso al nuovo stabilimento del Municipio sono le seguenti. Questa mattina il Principe Corsini Senatore in uniforme civica, circondato da vari individui di quella milizia, è andato a fare l’ispezione ai palchi del Corso, come faceva il Presidente delle strade. Oggi poi, in luogo del Governatore il Card. Altieri, Presidente di Roma e Cormarca, è andato in gran treno, scortato da Civici e Pompieri, percorrendo tutto il Corso, ad assistere dal solito locale del palazzo di Venezia, e lo stesso ha fatto dopo il secondo sparo il Senatore e tutti i Conservatori, collo stesso accompagnamento, e preceduto dai Pali portati dai così detti Fedeli a piedi (e non a cavallo come per il passato, nè ieri furono portati in giro come al solito) e la mossa è stata data da uno dei Consiglieri Municipali deputato ai pubblici spettacoli. L’atto di sommissione degli Ebrei è stato quest’anno abolito[5].
+
+
+
+
+MARZO
+
+
+
+
+Venerdì 3. — Tutt’oggi si è stato in continuo ondeggiamento sulle notizie della rivoluzione di Parigi del giorno 22 del mese scorso e seguenti, e questa sera finalmente si è avuto quella inaspettata, che dal giorno 26 dappresso l’abdicazione del Re era stato proclamato il Governo Repubblicano. — Oggi si è pubblicata una Notificazione di Mons. Pro-Tesoriere Ministro delle finanze, in virtù della quale ed in attenzione di una riforma del sistema monetario pontificio, le monete di 5 franchi del valore di baj. 92 sono portate a quello di baj. 93, e i così detti Napoleoni d’oro da scudi 3,71 a scudi 3,72 ed in proporzione le loro frazioni. [p. 15 modifica]
+
+
+Sabato 4. — Non molti schiarimenti di più si sono avuti (o almeno non si sono divulgati) sugli avvenimenti di Parigi. Resta però confermata l’abdicazione del Re in favore del nipote Conte di Parigi, che non è stata ammessa, e non vi è molto da dubitare sullo stabilimento del Governo Repubblicano. Questa sera un centinaio di persone con torcie ha percorso piazza di Spagna e le strade adiacenti applaudendo a questa rivoluzione.
+
+
+Domenica 5. — Oggi l’Ambasciatore di Francia ha ricevuto qualche notizia di Parigi. Si conferma pienissimamente lo stabilimento del Governo Repubblicano. Quanto alla morte del Re Luigi Filippo (che circola da due o tre giorni, e che alcuni dicono seguita a Vincennes, altri appena giunto in Inghilterra) non pare ve ne sia positiva certezza, benchè si seguiti ad affermare. Sembra certo che la Repubblica sin stata proclamata anche nel Belgio. Qualche voce annunzia dei movimenti rivoluzionari anche in Inghilterra. Oggi tra le 4 e le 5 pomeridiane una gran riunione di gente si è fermata avanti al palazzo Theodoli, ove nel locale del Circolo dei Commercianti si era dato un gran pranzo di Nazionali Piemontesi, con alla testa il Ministro. Dopo il pranzo il Ministro è stato accompagnato alla sua abitazione da tutto quel numeroso stuolo con banda, una quantità di bandiere (varie delle quali portate da donne, avanti alla testa la Marchesa Pareto moglie del Ministro) e strepitose acclamazioni.
+
+
+Lunedì 6. — Questa mattina si è adunato il Consiglio Municipale in Campidoglio per sentire la lettura di un Indirizzo al S. Padre (che ne era già al giorno), in cui si implora la difinitiva organizzazione del regime costituzionale. Immediatamente dopo l’adunanza il Senatore, coi Conservatori e nove Consiglieri estratti a sorte, si è recato a Palazzo a presentarlo, ed il Papa nella risposta ha data l’assicurazione che tali voti sarebbero adempiti tra pochi giorni. Oggi si sono ricevute le lettere e i giornali di Francia; ma non si è saputo molto di più di quello che si conosceva.
+
+
+Martedì 7. — Il Corso è stato popolato. I moccoletti non vi sono stati. Fino da ieri circolavano degli indirizzi stampati ai Romani, in cui si pregavano a sacrificare questo divertimento. [p. 16 modifica]per mostrare agli abitanti della Lombardia il dispiacere per le circostanze, nelle quali si trovano. Al contrario non vi era nessun ordine dell’Autorità; anzi il Municipio aveva notificato che, per indicare più precisamente l’ora della cessazione dei moccoletti, all’un’ora di notte si sarebbe fatto un quarto sparo di mortaletti, come è stato eseguito. La conclusione è stata peralto, che nessuno si è azzardato di accender lumi. Tre battaglioni di Guardia Civica (oltre la solita forza) hanno armato il Corso, rimanendo la truppa di linea sulle piazze. L’Ambasciatore di Francia ha calata l’arme, e sostituita una bandiera nazionale tricolore; e lo stesso si è fatto all’Accademia di Francia.
+
+
+Mercoledì 8. — È giunto in Roma da due giorni il Marchese di Laiatico D. Neri Corsini, secondogenito del Principe, e si dice incaricato di una missione presso il Governo nostro, e quello di Napoli.
+
+
+Giovedì 9. — È stata pubblicata una Notificazione del Tesoriere Ministro delle Finanze, colla quale si accorda la facoltà a tutti quelli, che ritengono in enfiteusi fondi appartenenti a Luoghi Pii, Corporazioni Religiose ecc. in tutto lo Stato di affrancare in mano del Governo i rispettivi canoni, al saggio graduato in proporzione delta durata delle enfiteusi[6]. — Si assicura che l’Ambasciatore di Francia abbia ricevuta l’autorizzazione del Governo Provisorio della Repubblica di continuare interinalmente la sue funzioni.
+
+
+Venerdì 10. — Questa mattina il Papa ha tenuto un Concistoro che è durato dalle 10 quasi alle 3 pomeridiane. Oggi nell’andare a prendere le Reliquie, che si espongono a San Pietro nei Venerdì di Marzo, e che si conservano nella loggia detta di S. Elena, si è trovato essere stata derubata l’insigne [p. 17 modifica]Reliquia della Testa di S. Andrea (portatavi da Pio II) insieme colla sua custodia arricchita di pietre preziose, e di considerabile valore. Il furto pare sia stato eseguito in parte con chiavi false, ed in parte con sfascio. — Nella Gazzetta nostra di questa sera si sono vedute annunziate le seguenti spontanee rinunzie, cioè del Card. Bofondi, Segretario di Stato, Ministro dell’Estero, a Presidente del Consiglio de’ Ministri (surrogato il Card. Antonelli); di Monsig. Roberti, Ministro di Grazia e Giustizia (surrogato l’avv. Sturbinetti), di Monsig. Pentini, Ministro dell’Interno (surrogato il Sig. Gaetano Recchi), restando il primo vice-Presidente della Consulta di Stato; di D. Pompeo Gabrielli, Ministro delle Armi (surrogato il Principe Aldobrandini); di D. Michele Gaetani Ministro della Polizia (surrogato l’avv. Galletti di Bologna). Alle Finanze resta Monsig. Morichini; ai Lavori pubblici il Sig. Giuseppe Minghetti di Bologna in luogo di Sturbinetti; all’Istruzione pubblica resta il Cardinale Mezzofanti, ed al Commercio il Conte Pasolini.
+
+
+Sabato 11. — Oggi si è adunata la Congregazione dei Cardinali, che fu incaricata della formazione dello Statuto costituzionale. — In questi giorni essendosi allarmati tutti i possessori de’ biglietti della Banca Romana, si sono affollati per cambiarli, il che ha posto la Banca stessa in qualche imbarazzo; ma tutti sono stati pagati. Nella Gazzetta di questa sera si è pubblicato uno stato attivo e passivo di quello stabilimento, tendente a rassicurare il pubblico. — Corre una voce generale che i Gesuiti vadano ad abbandonare tutte le loro case e collegi di Roma, e che tutte le famiglie, che hanno dei giovani nel Noviziato e nei Collegi, siano state avvisate di ritirarli. — Pare che le cose della Sicilia siano state conciliate, ed in un supplemento della Gazzetta di oggi si riporta un Decreto Reale, che convoca il Parlamento Siciliano (a forma della Costituzione del 1812) per il giorno 25 del mese corrente.[7]
+
+
+Domenica 12. — Oggi a S. Pietro si è incominciato un Triduo per ottenere la grazia del ritrovamento della testa di [p. 18 modifica]S. Andrea. Il Capitolo Vaticano con pubblico affisso ha promesso un premio di scudi cinquecento a chi darà indizî atti a scoprire l’autore del furto di quella insigne Reliquia. A fine di tutelare il credito della Banca Romana, i principali Banchieri di Roma, ed anche qualche proprietario, hanno notificato al pubblico di esser pronti a realizzare i Biglietti della Banca sudetta a chiunque li presenti.
+
+
+Lunedì 13. — Questa mattina il Papa ha tenuto un altro Concistoro, che è durato dalle 10 antimeridiane alle tre circa pomeridiane, ed in esso (come annunzia la nostra Gazzetta) il S. Collegio ha unanimemente approvato il nuovo Piano di Costituzione, pregando il S. Padre di munirlo della sua approvazione, e farlo pubblicare.
+
+
+Martedì 14. — Tutt’oggi e questa sera sono stati considerabilmente rinforzati tutti i quartieri Civici, e delle forti pattuglie hanno circolato segnatamente nei contorni di tutte le case dei Gesuiti, contro le quali pare si temesse qualche attacco; niente però è accaduto. Continua il concorso alla Banca Romana per cambiare i Biglietti, malgrado tutte le garanzie ed assicurazioni offerte al pubblico.
+
+
+Mercoledì 15. — Questa mattina prima del mezzogiorno è stato pubblicato ed affisso il tanto aspettato Statuto Costituzionale. Fra le 4 e le 5 pomeridiane una gran quantità di persone ordinate a plotone con moltissime bandiere di tutte le nazioni o stati italiani, e portando tutti le coccarde tricolori italiane (compresi i militari), ed essendovi anche molte donne, con canto d’inni, acclamazioni ecc., partendo dal Popolo per il Corso (ove tutte le finestre erano ornate di parati), si è recata a Monte Cavallo, ove pure è andata una gran parte dei battaglioni civici in arme col Generale Principe Rospigliosi e Stato Maggiore alla testa; ed il Papa ha dato a tutti dalla loggia la sua benedizione. Questa sera si è fatta illuminazione per la città a forma di un invito del Magistrato.
+
+
+Giovedì 16. — Questa mattina il Municipio ha fatto cantare un Te Deum nella chiesa di Aracoeli per lo Statuto Costituzionale. In seguito il Senato si è recato al Quirinale, a presentare un Indirizzo di ringraziamento al S. Padre, che ha [p. 19 modifica]data benigna risposta. Oggi poi verso le 4 pomeridiane il Senato stesso, con tutto il Consiglio Municipale, con un accompagnamento non molto ordinato di gente, di militari di ogni arma, senza armi, di Civici, si è portato a visitare la Chiesa di S. Pietro. Si sono, per questa cerimonia, richieste carrozze a tutti, e noi ne abbiamo fornita una. Anche oggi si sono messi i parati alle finestre, e fatta l’illuminazione questa sera.
+
+
+Venerdì 17. — La conciliazione degli affari di Sicilia, che si sperava, non si è realizzata, e pare si vada piuttosto allontanando.
+
+
+Sabato 18. — Il March. Patrizi ha rinunziato il comando dell’ottavo battaglione civico, di cui è stato sin qui Tenente Colonnello.
+
+
+Domenica 19. — Un’Ordinanza del Ministro dell’Interno, pubblicata oggi, annunzia che d’ora innanzi le Bandiere Pontificie bianche e gialle avranno le così dette cravatte dei tre colori italici, cioè verde, rosso e bianco.
+
+
+Lunedì 20. — Oggi circa le 4 pomeridiane la Guardia Nobile in corpo è andata a presentare al S. Padre i suoi ringraziamenti per averla nello Statuto Costituzionale posta a carico della sua (diremo così) Lista Civile, che si è riservata di 600 mila scudi. La rinunzia del March. Patrizi non è stata accettata, pare con applauso del suo battaglione. Un ordine del giorno, inserito nella Gazzetta di Roma, prescrive a tutti gli individui facienti parte della Guardia Civica di portare al petto la coccarda dei colori italici.
+
+
+Martedì 21. — Essendo giunta questa mattina la notizia di una rivoluzione accaduta a Vienna nei giorni 12, 13 e 14 corrente, colla prigionia della famiglia Imperiale, la fuga del Principe di Metternich, la concessione di una Costituzione (alcuni dicono collo stabilimento del Governo Repubblicano), una truppa immensa di popolo si è recata al Palazzo di Venezia, esigendo che si calasse l’Arme Imperiale, al che essendosi l’Ambasciatore ricusato, il popolo stesso è salito a staccarla e farla cadere, calpestandola e mutilandola in mezzo agli applausi i più strepitosi, ed al suono di tutte le campane della città, [p. 20 modifica]sostituendovi la Bandiera dell’Alta Italia.[8] Niuno però della famiglia, nè degli addetti dell’Ambasciata ha sofferto insulti. In seguito il popolo è andato a tutte le case, sulle quali esistevano le Armi d’Austria (la nostra fra le altre), ed ha fatta la stessa operazione, meno alcune poche, i padroni delle quali sono stati in tempo di calarle da loro stessi. Tutte queste Armi sono state poi raccolte ed incendiate sulla piazza del Popolo. Verso le 4 pomeridiane un numero grandissimo di gente, con le bandiere di diverse nazioni, bande, canti, passando per il Corso, è andata al Campidoglio, ove nella Chiesa di Aracoeli si è cantato un solenne Te Deum. Questa sera poi, oltre l’illuminazione per tutta la città, si sono fatti per il Corso i così detti Moccoletti, che sono stati copiosi oltre ogni credere e clamorosi, ed hanno durato circa un’ora e mezza di notte:[9] i canti però ed i suoni hanno continuato sino a notte molto avanzata.
+
+
+Mercoledì 22. — Avendo l’Ambasciatore d’Austria dichiarato al Governo che se non si rimovevano le bandiere, che erano state appese in due parti del palazzo di Venezia, egli non avrebbe potuto continuare il suo soggiorno, e che domandava in tal caso i passaporti; nella notte scorsa la Polizia le ha fatte togliere, non senza però della opposizione popolare. Si sta ancora all’oscuro sui risultati della rivoluzione di Vienna.
+
+
+Giovedì 23. — In un diluvio di notizie o incomplete, o anche contradittorie, quello che pare ufficialmente certo è che il giorno 16 corrente, dopo molte concessioni fatte dall’Imperatore, Vienna era tranquilla, e il Governo si manteneva. Altrettanto certo pare però che tutto il Regno Lombardo-Veneto sia rivoltato; che a Milano, dopo una lotta sanguinosa, la forza austriaca abbia dovuto cedere, come anche a Mantova ecc. ecc. Si aggiunge che le truppe piemontesi siano entrate nel Milanese; che da Bologna e da Toscana sia marciata gente sopra Modena [p. 21 modifica]e Parma ecc. ecc. In seguito di queste notizie si è destato nella popolazione un entusiasmo generale per amarsi e marciare verso l’Alta Italia; e nel Colosseo, ove si è radunata un’infinità di gente, che è stata replicatamente arringata dal P. Gavazzi e da altri, si è aperta sul momento una sottoscrizione per l’arruolamento di volontari, e lo stesso si fa questa notte in tutti i quartieri civici. Intanto questa notte stessa partiranno i Dragoni, i quali oggi hanno passata la rivista sulla piazza di S. Pietro verso la sera.
+
+
+Venerdì 24. — Questa mattina sono partiti i Dragoni e della truppa di fanteria, per i Vapori sino a Ponte Felice. Nelle ore pomeridiane sulla piazza di S. Pietro si è fatta la rivista dei Civici e degli altri volontari, che si sono ascritti per marciare. Il Papa, che è andato oggi a S. Pietro (come andò ieri a S. Maria Maggiore per un Triduo alla Madonna, che è stato celebrato) ha dato loro la benedizione. Il Marchese Patrizi, che aveva determinato di partire con ambedue i figli grandi, pare che resterà, e partiranno solo i figli. Fra le tante e tante notizie sparse oggi, vi è quella che un corpo di volontari bolognesi sia entrato a Modena (dove si dice fuggito il duca colla famiglia), e vi abbia proclamato il Governo Pontificio. — Colla data del 23 fu pubblicata ieri una Notificazione del Tesoriere Ministro delle Finanze, la quale annunzia che d’ora innanzi i frutti del consolidato e d’ogni altra passività permanente del Governo si pagherà non più per trimestre, ma per semestre, e in conseguenza il pagamento del trimestre, di Gennaio, Febbraio e Marzo, che si aveva in Aprile, si effettuerà nel venturo Luglio.
+
+
+Sabato 25. — Questa mattina col corriere è arrivato Carlo Lavaggi da Forlì, ove si è disciolto il Collegio dei Gesuiti, di cui faceva parte in qualità di maestro. Non si è fatta questa mattina la cappella Papale alla Minerva, atteso il generale restauro, che ci si sta facendo; per cui la chiesa è chiusa nella maggior parte. Questa mattina in piazza Venezia, in piazza Colonna ed in quella di S. Eustachio si sono cominciate a ricevere pubblicamente le sottoscrizioni per l’armamento dei Volontarii, ed a tale effetto vi sono stati eretti dei pulpiti e palchi (a piazza [p. 22 modifica]Colonna, addosso alla Colonna) con sopra un tavolino, a cui sedevano le persone a ciò destinate. Questa sera una gran turba di Volontari con torcie e tamburi è andata a Monte Cavallo chiedendo la benedizione del Papa, che però si sente non siasi affacciato a darla, ma ha permesso che andasse una rappresentanza a riceverla. Il March. Patrizi padre pare che poi partirà anch’esso unitamente ai figli. Niente di più preciso si è saputo oggi relativamente alle nuove estere. Si conferma però pienamente la partenza del Duca e di tutta la sua famiglia da Modena ove si è formato un governo provvisorio, non essendosi voluta riconoscere la Reggenza lasciata dal Duca. La Guardia Civica, in seguito della partenza della truppa di linea, ha cominciato a montare alla Gran Guardia, al Comando generale alla Pilotta, alla Banca Romana, al Campidoglio, alla Guardia Reale ecc.
+
+
+Domenica 26. — Questa mattina sono partiti di buon’ora i Volontari civici e parte dei non civici, ed i due figli del March. Patrizi sono partiti anch’essi. Oggi si sono continuate a ricevere come ieri le offerte per l’armamento dei Volontari. È stato pubblicato un Invito del Municipio Romano a prendere azioni nell’imprestito di 200 mila scudi già deliberato all’oggetto di costruire abitazioni per la gente povera.
+
+
+Lunedì 27. — È stata prorogata per altri due giorni la Colletta per l’armamento dei Volontari. Il March. Patrizi è partito alle 5 di questa mattina per Posta per andare a raggiungere il Corpo in cui sono i figli. Le nuove interessanti dell’Estero giunte nella giornata sono: 1° la evacuazione di Venezia per parte della truppa austriaca, dappresso capitolazione e la proclamazione della Repubblica; 2° il Manifesto del Re di Sardegna, che annunzia l’ingresso della sua armata in soccorso dei popoli emancipati della Lombardia e dello Stato Veneto; 3° la liberazione di Milano. Grandi applausi e folla al palazzo del Ministro di Sardegna questa sera, e illuminazione improvvisata per il Corso. Un Ordine del giorno del Comando generale della Guardia Civica ingiunge agli individui della medesima di indossare sempre l’uniforme.
+
+
+Martedì 28. — Nella notte scorsa nuovi attruppamenti e [p. 23 modifica]minaccie alle case dei Gesuiti. Oggi uno stuolo di nazionali senesi si è recato alla chiesa di S. Marco, e vi ha fatto cantare un Te Deum. Poco più si è saputo di ciò che si sapeva riguardo a nuove estere. Si annunzia la continuazione dei movimenti rivoluzionari in Prussia, e l’abdicazione del Re di Baviera in favore del Principe Ereditario suo figlio.
+
+
+Mercoledì 29. — Questa mattina è giunta la corrispondenza di Milano, che mancava da molti giorni, e porzione di quella di Francia, che era pure in ritardo considerabile. — Ieri il Card. Castracane per commissione del Papa si portò dal Generale dei Gesuiti a manifestargli l’intenzione del S. Padre, quale era che si disciogliessero, abbandonando le loro case, scuole, collegi ecc, (per quanto si dice) nel termine di 3 giorni. In conseguenza di ciò sin da oggi dopo pranzo sono cessate le scuole al Collegio Romano.
+
+
+Giovedì 30. — Si assicura che il Card. Vicario abbia preso il possesso del Collegio Romano, e che domani saranno ivi trasferite ed aperte le scuole dell’Apollinare.
+
+
+Venerdì 31. — È stata pubblicata ed affissa al pubblico una specie di Allocuzione o Indirizzo del Papa agli Italiani relativamente agli avvenimenti attuali, concepita in termini piuttosto generici. Questa mattina si è poi effettuata realmente la traslazione delle Scuole e dei Maestri dell’Apollinare al Collegio Romano, ed hanno incominciato le lezioni. La voce comune di oggi (riguardo all’Estero) si è che le truppe austriache abbiano abbandonato Mantova, Verona e tutto il resto, che ancora occupavano in Italia. Una risoluzione del Ministro delle Armi, riportata nella nostra Gazzetta di oggi, annunzia che rimane chiusa la mobilizzazione degli individui della Guardia Civica, come pure l’arruolamento dei Volontari.
+
+
+
+
+APRILE
+
+
+
+
+Sabato 1. — In seguito di notizie avute dal Papa (s’ignora per qual mezzo) questa mattina Monsig. Lucidi, Economo della Fabbrica di S. Pietro e Canonico, si è recato, si dice, in unione ad alcuni ministri di Polizia fuori della porta di San Pancrazio, ed ivi in un vicolo senza riuscita scavando si è [p. 24 modifica]ritrovata intatta nella sua teca, e coi sigilli del Card. Giustiniani di bo: me: già Arciprete di San Pietro, che al suo tempo aveva dovuto riconoscerla, la insigne Reliquia derubata della Testa di S. Andrea, e si è ritrovato parimenti il Busto di argento, in cui si custodiva, mutilato e in parte soggettato alla fusione, come anche si è ritrovato un involto con le pietre, che lo adornavano, se non tutte almeno in parte. Il Papa, a cui è stata subito portata, con molta sua consolazione l’ha fatta collocare per ora nella sua cappella segreta.[10] Per tale ritrovamento questa sera d’ordine del Card. Vicario, all’Avemaria hanno suonato a festa tutte le campane, e si è fatta illuminazione per tutta la città, ed anche la Cupola di S. Pietro è stata illuminata a fiaccole.
+
+
+Domenica 2. — Questa sera al quartiere delle Guardie Nobili a Monte Cavallo è stato inaugurato il Busto del Papa con illuminazione di fiaccole, paratura del quartiere medesimo, rinfresco dato dal Comandante ecc. Tutte le guardie hanno ricevuto l’ordine di portare al petto la coccarda mista dei colori pontificî, ed italici, ed alla loro Bandiera è stata apposta la cravatta dei colori italiani.
+
+
+Lunedì 3. — Oggi è stata pubblicata la legge elettorale in esecuzione di quanto viene prescritto dallo Statuto Costituzionale. Oggi i detenuti nelle carceri nuove, avendo replicatamente insultata e minacciata la Forza Civica, che ora vi sta in guardia, gettando anche qualche sasso sulla sentinella; questa ha fatto fuoco contro la ferrata, ma il colpo ha investito i ferri, senza ferire alcuno.
+
+
+Mercoledì 5. — Questa mattina il Capitolo di S. Pietro ha trasportato processionalmente dal Quirinale alla chiesa di S. Andrea della Valle la ricuperata Testa di S. Andrea. Oggi poi alle 3 pomeridiane con solennissima processione dalla chiesa medesima è stata restituita a quella di S. Pietro. La processione è stata formata da tutto il clero secolare e regolare, in tutto [p. 25 modifica]e per tutto come quella del Corpus Domini. Quattro Canonici di S. Pietro in dalmatica portavano a’ vicenda il Talamo, su cui posava in una grande urna la Reliquia nella sua Custodia di Argento in forma di globo, e quattro Vescovi in piviale e mitria portavano i Cordoni; il Baldacchino era portato dai Camerieri segreti. Seguiva immediatamente il Papa, preceduto dal Magistrato Romano, e seguito dai Cardinali in numero di 19, e cinque o sei vi si sono aggiunti in S. Pietro. Veniva poi tutta l’Anticamera pontificia. Andavano appresso anche molte signore e donne civili colla torcia. Lo Stato Maggiore della Guardia Civica (che ha guarnita tutta la strada percorsa dalla processione) e tutti i così detti Circoli con candele, e con bandiere di tutti i colori alla testa, chiudevano la marcia. A S. Pietro la Reliquia è stata collocata sull’altare papale ed il Papa ha dato con essa la benedizione. Questa sera si è fatta illuminazione per tutta la città ed anche alla Cupola di S. Pietro.
+
+
+Domenica 9. — Essendo giunti da molti giorni a Civitavecchia, e ultimamente da Civitavecchia a Roma, due pezzi di Cannone del calibro di 9 libbre di palla, che la città di Genova ha mandato in dono alla Guardia Civica di Roma, oggi nelle ore pomeridiane un picchetto di cavalleria civica (che si sta formando) con alcuni artiglieri pure civici di recente istituzione, è andato a prenderli al Castel S. Angelo, ove erano depositati, e tirati da cavalli di alcuni nostri Signori, li hanno trasportati alla piazza del Popolo, e di là, accompagnati da buon numero di truppa Civica con bande, e seguiti da tutti i Circoli colle solite bandiere, al Campidoglio, ove da due Deputati genovesi, che hanno complimentato il Magistrato Romano, ne è stata fatta la consegna allo Stato Maggiore Civico, e per ultimo sono stati ricondotti in Castello. A tutte le finestre per il Corso fino al Campidoglio sono stati messi i parati.
+
+
+Lunedì 10. — Il Card. Mezzofanti (ancora non ristabilito da una lunga e molto pericolosa malattia nervosa) ha rinunziato la Prefettura della Congregazione degli studî e al Ministero della Pubblica Istruzione ed il Card. Vizzardelli gli è stato sostituito.
+
+
+Martedì 11. — Una inquietitudine nata sulle provvidenze, [p. 26 modifica]che il Ministero avrebbe preso per provvedere alle urgenti necessità dell’Erario, produsse fino da ieri al giorno un attruppamento sulla piazza dei SS. Apostoli, che si riusci a dissipare colla promessa delle provvidenze sudette per oggi. Oggi poi alla stessa ora si sono formati gli attruppamenti tanto ai SS. Apostoli, quanto anche a Piazza Colonna, in aspetto non molto tranquillizzante, che hanno durato fino a sera, e si è riuscito a discioglierli con qualche somma di denaro distribuita a molti che si dicevano artisti e operai senza lavoro, e che si erano uniti. Si assicura che Torlonia e Valentini abbiano concorso a questa distribuzione. Verso sera è stata pubblicata un’ordinanza di Mons. Morichini, Ministro delle Finanze, (il quale si assicura che abbia data la sua dimissione), colla quale si ordina il corso forzato dei Biglietti della Banca Romana per tre mesi, scorsi i quali saranno cambiati con dei Boni dell’Erario portanti frutto, realizzabili a scadenze, e ipotecati sui beni delle Corporazioni Religiose. La Banca Romana si limiterà alle operazioni dello sconto e di quelle col Governo. La somma dei Biglietti, che potrà emettere la Banca, è limitata a 800000 scudi, in luogo di un milione e 600000 permessogli nella sua istituzione.
+
+
+Mercoledì 12. — Anche oggi alla stessa ora di ieri vi sono stati dei tentativi di attruppamento delta solita classe di gente a piazza di Spagna, ai SS. Apostoli ed a piazza di Venezia; ma la truppa civica molto rinforzata, e che aveva ricevuto degli ordini assai positivi, li ha dissipati e fatto molti arresti di individui muniti di armi, e si dice anche di danaro.
+
+
+Giovedi 13. — Oggi sono continuati gli arresti; ma non pare che vi siano stati serî tentativi di attruppamenti.
+
+
+Sabato 15. — Nei giorni scorsi è partito Mons. Corboli, si dice, per il quartiere generale del Re di Sardegna in Lombardia[11]. Si assicura che ieri fu fatto prendere il possesso del [p. 27 modifica]locale del Collegio Romano per il Seminario Romano, che vi sarà traslocato quanto prima.
+
+
+Domenica delle Palme 16. — Da varî giorni le Guardie Nobili hanno ricevuto l’ordine di andar sempre in uniforme. Due Ordinanze del Ministro delle Finanze sono state pubblicate con una delle quali si impone l’anticipazione di 3 dodicesimi della dativa e emessi in tre rate, cioè nei 3 trimestri avvenire dell’anno corrente, da rimborsarsi nei venturi anni 1849-50-51; coll’altra si annunzia lo stabilimento di un nuovo corso di Posta per il giorno di mercoledì, che attualmente ne era privo.
+
+
+Lunedì 17. — Il Seminario è stato già trasportato in gran parte al Collegio Romano, ed i seminaristi sin da ieri hanno cominciato ad ufficiare nella chiesa di S. Ignazio. Quella del Gesù è ufficiata per ora, come è possibile, da alcuni alunni del Collegio Germanico, che sono ancora rimasti in Roma, essendone partita la massima parte. Sono vari giorni che è tornato in Roma il Card. Ferretti il quale tempo fa (non si sa troppo perchè) partì insalutato hospite da Ravenna, ove era legato, e si è andato trattenendo in diversi luoghi per istrada.
+
+
+Martedì 10. — Ieri fu demolito il recinto, che separava il Ghetto dal resto della città, e ciò con consenso ed ordine superiore [12].
+
+
+Martedì 25. — Nella nostra Gazzetta d’oggi si è annunziata la dimissione accordata a Mons. Morichini Tesoriere Generale e Ministro delle Finanze, e la nomina in suo luogo del Signor Annibale Simonetti, figlio del Principe Simonetti di Osimo, sin qui membro della Consulta di Stato.
+
+
+Sabato 29. — Questa mattina il Papa ha tenuto un Concistoro segreto, e vi ha pronunciata una Allocuzione, in cui principalmente ha confutate le voci sparse (specialmente negli stati austriaci di Germania), che egli abbia istigato e promosso in Italia e fuori d’Italia, che abbia voluto farsi [p. 28 modifica]capo di una Repubblica Italiana, di aver voluto dilatare i limiti dello stato pontificio, di far la guerra ad altre Potenze ecc.[13]. Oggi è uscita l’ordinanza del nuovo Ministro delle Finanze, colla quale si accenna il metodo dell’annunziato concambio dei Biglietti della Banca con Boni del Tesoro e vi è unita una prima nota dei Beni ecclesiastici ipotecati per sicurezza dei medesimi ecc.
+
+
+Domenica 30. — La giornata si è passata in continua agitazione. In seguito all’Allocuzione del Papa nel Concistoro di ieri, tutto il Ministero in corpo ha dato la sua dimissione, compreso il Card. Antonelli Segretario di Stato (a cui si dice surrogato il Card. Ferretti). In seguito le deputazioni di tutti i Casini e Circoli si sono recate a Monte Cavallo, esigendo energicamente la revoca di quanto il Papa ha dichiarato riguardo al non far la guerra, coll’alternativa, in caso di rifiuto, della formazione immediata di un Governo provvisorio. Si assicura che i Ministri di Sardegna, Toscana e Napoli abbiano presentata una protesta nello stesso senso, riguardo alla suddetta dichiarazione del Papa. Si assicura altresì che il Papa abbia preso tempo fino a domani per vedere se è possibile di trovare un temperamento. Intanto verso sera è stata mandata a tutte le Porte della Città una guardia di truppa civica, con ordine di non far sortire alcuno. Questa sera doveva esservi la Girandola, che era preparata, ma è stata contramandata.
+
+
+
+
+MAGGIO
+
+
+
+
+Lunedì 1. — La giornata è stata agitata niente meno di ieri. Questa mattina il Ministero ha fatto pubblicare che aveva riprese le sue funzioni, e che unanime col suo Presidente avrebbe cominciato ad agire con tutto lo zelo e vigore per la Causa Italiana. Ciò non pare abbia contentato i Circoli popolari, e questa sera vi è stato grande attruppamento e rumore a quello che si aduna nel palazzo Theodoli, e non se ne sa ancora il risultato. Questa mattina Brunetti con della forza civica si è [p. 29 modifica]recato alla Posta, ove ha preso tutte le lettere dirette a Cardinali e le ha portate in Campidoglio al Municipio, ove è accorso un raduno di persone, che credeva dovessero ivi leggersi in pubblico; ma sopraggiunto il Ministro delle Finanze Simonetti con energiche parole, le ha prese e più tardi rimandate alla Posta, ove pure si è radunato il popolo; ma si sono poi rilasciate. I corrieri sono partiti con qualche difficoltà, e dopo qualche discreta visita. Continua sempre il divieto di uscire dalle Porte della Città. — Oggi il Papa ha mandati a prendere e condurre a stare in Palazzo (questa almeno è la pubblica voce) i Cardinali Lambruschini, Mattei, Gizzi, Della Genga e Bernetti. Quanto a Della Genga, si è trovata della difficoltà a levarlo da casa e trasportarlo, accompagnato dal Maggiordomo a Monte Cavallo; ma pure è riuscito, benchè con fischi ecc. Quanto poi a Bernetti, i Civici hanno assolutamente impedito l’ingresso alla carrozza, che andava a prenderlo, e che ha dovuto retrocedere. Non si conosce, precisamente ciò che abbia dato luogo a questa misura[14].
+
+
+Martedì 2. — La giornata è stata meno agitata di quella che poteva aspettarsi. Questa mattina è stato affisso alle porte delle chiese una specie di Motuproprio del Papa (che è stato però ben presto strappato) in cui dopo una esposizione di tutto l’operato da lui, dal suo avvenimento al Pontificato, in vantaggio de’ sudditi, e dopo aver giustificato il suo costante rifiuto di ogni dichiarazione di guerra, esprime il suo orrore, per le minacce, che dice essersi fatte di voler il sangue di persone costituite in eminenti dignità ecclesiastiche[15]. È uscita anche una Notificazione bastantemente energica del Ministro di Polizia Galletti sugli atti prepotenti ed arbitrarî, di ieri, ed un ordine del giorno del Principe Rospigliosi Comandante della guardia Civica che inculca la conservazione dell’ordine ecc. [p. 30 modifica]Si era detto che il medesimo avrebbe dato la sua dimissione dopo che ieri essendo andato per ordine del Papa a prendere il Card. Bernetti, gli fu dai Civici stessi impedito; ma pare che questa dimissione o sia non vera, o non accettata. Pare che il Ministero sia di nuovo costituito, ad eccezione dei due Cardinali Antonelli e Vizzardelli, succedendo al primo, come Presidente, il Conte Mamiani, ed al secondo l’Avv. Rossi, come Ministro della Pubblica Istruzione. La consegna (che ancora resta a sapersi da chi ordinata) di non uscire dalle porte della città, pare sia stata, se non altro modificata, ed io ho potuta andare questa sera a villa Patrizi.
+
+
+Mercoledì 3. — Seguita l’agitazione e l’incertezza senza manifestazioni clamorose, almeno fino a sera. È stato notificato al pubblico che il Ministero avendo dato definitivamente la sua dimissione (dopo aver provvisoriamente riassunte le funzioni), il S. Padre aveva incaricato il Sig. Conte Mamiani di formare un nuovo Ministero, restando intanto i rispettivi sostituti al disbrigo degli affari correnti. Il Magistrato Romano ha pubblicato che durante la vacanza del Ministero, i capi di battaglioni civici, con un assessore legale ed un cancelliere giudicheranno le cause economiche civili e criminali. Questa sera in casa del Conte Mamiani si sono adunati i disegnati pel nuovo Ministero (che ancora non si conoscono se non imperfettamente) per leggere il suo Proclama politico, già concertato con S. Santità. Le guardie nobili, che da giorni sono state tutta la notte a Monte Cavallo, oggi ne sono state dispensate.
+
+
+Giovedì 4. — È stato pubblicato ed affisso un Indirizzo del Municipio Romano al Papa, che fu deliberato in un consiglio generale tenuto ieri sera, ed è stato presentato questa mattina, e si vocifera che non sia molto piaciuto nè al Papa, nè al pubblico. Nella Gazzetta di questa sera si è veduta la lista del nuovo Ministero, che è composto come segue. Presidente il Card. Ciacchi e pro interim il Card. Orioli, Ministro dell’Interno il Conte Mamiani, delle Finanze L’Avv. Lunati, degli Affari Esteri secolari il Conte Marchetti, di Grazia e Giustizia l’Avv. de Rossi, delle Armi il Principe Doria, dei Lavori Pubblici, Agricoltura, e della Polizia l’Avv. Galletti il [p. 31 modifica]quale però è intanto partito per Bologna, per tornare, si dice, tra quindici giorni. Le Poste continuano ad essere custodite dalla Guardia Civica, ed i preti ed i frati incontrano delle difficoltà a sortire.
+
+
+Venerdì 5. — Le novità della giornata sono state le seguenti. La rinuncia del Principe Rospigliosi, comandante della Guardia civica, a cui pare si pensi sostituire il Principe Aldobrandini; l’altro del Conte Bolognetti Castellano del Forte S. Angelo, colla sostituzione in sua vece interinalmente del Colonnello Stuart; (questa sostituzione rimane sospesa per il rifiuto, che ha fatto la Guardia civica, al Ministro della guerra, Principe Doria in persona, di evacuare il Castello che ha occupato in questi passati giorni). È stato anche pubblicato un programma della politica adottato dal nuovo Ministero. Questa sera, al tardi, si è pure reso pubblico un bollettino di un fatto d’armi molto vantaggioso al Re Carlo Alberto che ha riportato in persona a Bussolengo.
+
+
+Sabato 6. — La Guardia civica ha lasciato la custodia delle Porte, ma non quella del Castel S. Angelo, che non pare ancora disposta ad abbandonare. I Cardinali ritirati a Monte Cavallo continuano a starvi, ma sono usciti (almeno alcuni) per la città, senza ostacolo. Si assicura questa sera che l’Ambasciatore d’Austria abbia ricevuto i passaporti e che domani non sarà più in Roma.
+
+
+Domenica 7. — Qualche ora dopo mezzogiorno sono arrivati (non si sa a quale oggetto) due fratelli del Santo Padre, e sono andati a smontare alla locanda di Spilmann a strada delta Croce, ove è accorsa molta gente; circa le sei pomeridiane si sono recati al Quirinale in carrozza con accompagnamento di un certo numero di persone e civici, tutti in perfetto silenzio. Fin da questa mattina per il Corso erano esposte bandiere pontificie e italiche segnatamente ai Casini. Si assicura che questa mattina la Guardia civica abbia abbandonato il Castello, e che il Colonnello Stuart, nuovo castellano provvisorio, ne abbia assunto il comando. Essa Guardia civica, che sin qui era stata sotto la dipendenza della Segreteria di Stato, passa sotto quella del Ministero dell’Interno. [p. 32 modifica]
+
+
+Martedì 9. — Avendo il Papa ricevuto ieri tutto il battaglione civico di Trastevere (che aveva fornito la guardia Reale) questo onore sarà, cominciando da oggi reso comune a tutti gli altri battaglioni. La nostra Gazzetta di oggi annunzia la nomina del Principe Aldobrandini al comando provvisorio della Guardia civica. La stessa Gazzetta porta che sono stati dati i passaporti all’Ambasciatore d’Austria, e che il governo si occupa delle disposizioni per assicurare la sua persona nello stradale che deve percorrere. — Essendo morto ieri l’Avv. Benedetti, consultore di Stato, questa sera il suo convoglio funebre è stato accompagnato da molto numero di persone (segnatamente del ceto legale) con torcie, dalla Guardia civica ecc.
+
+
+Venerdì 12. — I Cardinali ritirati al Palazzo Quirinale, si assicura che tra ieri sera e questa mattina, siano ritornati alle loro rispettive abitazioni.
+
+
+Sabato 13. — Nella nostra Gazzetta di questa sera si riporta la nota tanto dei Membri dell’alto Consiglio, quanto dei Consiglieri di Stato.
+
+
+Lunedì 15. — Oggi si è avuta notizia di un fatto d’armi tra il Corpo comandato dal generale Ferrari, ed uno di Austriaci, nel primo de’ quali si trova il March. Patrizi coi due suoi figli; i nostri dopo essersi battuti con coraggio per molte ore, pare che essendo mancato un rinforzo, che era stato promesso, siano rientrati a Treviso in buon ordine e con poca perdita[16]. I Patrizî sono rimasti illesi. — Oggi il Papa, dopo due settimane circa che non era uscito di casa, è andato a S. Maria Maggiore per un Triduo, che si è celebrato in tutte le Patriarcali per il buon esito delle prossime elezioni. Fin da ieri sera è tornato a Roma il Ministro di Polizia Galletti.
+
+
+Mercoledì 17. — Ieri sera è partito il Conte Lützow ex-ambasciatore d’Austria per Civitavecchia, ove s’imbarcherà sopra un vapore da guerra, che ha ottenuto dall’ammiraglio della squadra inglese, che sta a Malta. La famiglia lo seguirà [p. 33 modifica]al più presto. — Si sono ricevute da Napoli nuove di un gran trambusto cominciato colà sabato sera, e continuato tutta la giornata di Domenica. Il motivo, o pretesto, è stato il non volersi la Camera dei Pari, che doveva adunarsi, come l’altra dei deputati, il giorno 15, cioè Lunedì. I risultati, che si conoscono sono combattimenti tutta la Domenica tra la truppa di linea, la Guardia Nazionale in qualche parte, ed in qualche parte il popolo; la soccombenza almeno per ora della Guardia Nazionale e la sua dissoluzione, la dimissione del Ministero e l’incarico dato al Principe di Cariati di formarne uno nuovo; la proroga di un mese per l’apertura delle Camere; Napoli è in istato d’assedio.[17]
+
+
+Giovedì 18. — Oggi sono cominciate le operazioni elettorali nei 6 collegi di Roma (come in tutto lo Stato), ma essendo mancato il tempo non si sono potuti compire tutti gli scrutini per la nomina dei presidenti e degli scrutatori.
+
+
+Venerdì 19. — Oggi si sono continuate le operazioni elettorali, ma per quanto si sente, l’elezione dei Deputati non ha potuto aver luogo, non avendo alcuno dei candidati riunito la maggiorità dei voti necessari. — Mons. Corboli-Bussi ha data la sua dimissione dalla carica di Segretario della Congregazione sugli affari ecclesiastici straordinari; ma il Papa (per quanto annunzia la nostra Gazzetta di oggi) non gli ha accordato che un temporaneo riposo.
+
+
+Sabato 20. — Oggi nei 6 collegi elettorali di Roma si è compita l’elezione de’ Deputati, e sono stati nominati il principe Borghese, il Conte Mamiani, e gli Avv. Sturbinetti, de Rossi, Lunati e  Ciccognani.
+
+
+Domenica 21. — Oggi è partita la contessa Lützow e tutta la famiglia per Civitavecchia ove è attesa dal vapore inglese che deve trasportarla a Trieste.
+
+
+Lunedì 22. — Oggi il Papa è uscito a passeggiare, il che non aveva fatto da un gran pezzo, e solo oggi a otto andò ad un Triduo a S. Maria Maggiore. Ieri sera si è festeggiato [p. 34 modifica]al quartiere civico, posto nel palazzo del principe Colonna, l’istallazione del principe D. Alessandro Torlonia al comando di quel battaglione ritenuto sino alla morte da D. Carlo Torlonia, e rinunciato dal successore Comm. de Rossi. Il nuovo comandante, con superiore permesso, è stato eletto dal medesimo battaglione.
+
+
+Martedì 23. — Con ordinanza del ministro di Polizia il corpo dei così detti Bersaglieri viene riunito a quello dei Carabinieri.
+
+
+Mercoledì 24 — Essendo giunto in Roma il celebre scrittore Ab. Gioberti[18] il quale si è recato a piedi al palazzo del Ministro di Sardegna, vi è stato accompagnato e festeggiato da molta gente, e questa sera tutti i Casini, che sin da oggi avevano esposte diverse bandiere, sono stati illuminati. Oggi si sono ricevuti alcuni dettagli sui gravissimi disordini accaduti il giorno 15 corrente a Parigi, ove l’Assemblea nazionale è stata assalita dal partito comunista, terminando col disciogliersi; e pare che i Comunisti abbiano avuto il disopra, e si siano impadroniti del potere. Vi è qualche voce, che susseguentemente sia stato ristabilito l’ordine, ma nulla si sa di preciso.
+
+
+Giovedì 25. — Questa mattina l’Ab. Gioberti è stato ricevuto dal Papa. Da Parigi si è saputo che realmente la stessa sera del 15 l’ordine fu ristabilito (e continuava anche nel giorno susseguente), l’Assemblea di nuovo istallata, ed arrestati vari dei capi della sommossa. — Oggi i pubblici Fogli annunziano che l’Imperatore d’Austria, colla famiglia, il giorno 17 era partito da Vienna per Innsbruk senza saputa (pare) del Ministero, che l’ha annunziato ai pubblico, allegando motivi di salute, che gli erano state fatte delle spedizioni per pregarlo a ritornare e che la tranquillità il giorno 18 regnava a Vienna ecc. Sui veri motivi di questa poco comprensibile risoluzione regna perfetta oscurità. [p. 35 modifica]
+
+
+Venerdì 26. — Oggi in un supplemento alla nostra Gazzetta si annunzia che il Papa ha scritto una lettera (di cui non riporta il testo) all’imperatore d’Austria, per procurare la pace, ponendo sempre per base il riconoscimento della indipendenza e nazionalità italiana, al quale effetto spedirebbe un Delegato Apostolico straordinario alle parti contendenti. Un tale annunzio è seguito da un indirizzo di ringraziamento e di lodi per parte del Ministero. In conseguenza di ciò i Casini colle bandiere ed una discreta quantità di popolo si sono recati nella piazza di Monte Cavallo al ritorno del Papa dalla Cappella (di S. Filippo) a fargli applauso ed a riceverne la benedizione.
+
+
+Sabato 27. — Questa mattina è partito Mons. Morichini, incaricato di una missione presso l’Imperatore d’Austria, ed il Re Carlo Alberto con carattere di Delegato Apostolico Straordinario. La lettera del Papa all’Imperatore d’Austria oggi si è resa pubblica colle stampe e si vendeva per le strade.
+
+
+Mercoledì 31. — Pare certo che avendo il Card. Ciacchi ricusato di assumere l’impiego di segretario di Stato, sia stato destinato a tal carica il Card. Soglia vescovo d’Osimo che pare rassegnato ad accettarlo.
+
+
+
+
+GIUGNO
+
+
+
+
+Giovedì 1. — Questa mattina adunatosi il Consiglio Municipale ha aggregato alla cittadinanza Romana l’Ab. Gioberti, che è stato condotto in Campidoglio e ricondotto a casa in una carrozza del Senato, con accompagnamento di civici, e da un numero di altre persone. — Essendo giunta la notizia della resa di Peschiera, e di un fatto d’arme seguito a Goito, colla vittoria delle truppe Piemontesi, sotto gli ordini del Re in persona, questa sera per invito del Municipio si è fatta illuminazione per tutta la città, e avanti al palazzo del Ministro di Sardegna è andata molta gente ad applaudire con bandiere, bande ecc. ecc. Oggi sono arrivate alcune centinaia di Volontari dalla provincia di Campagna che vanno a militare in Lombardia. La nostra banda Civica è andata ad incontrarli. Si sente che ieri sera è arrivato il Card. Soglia nuovo Segretario di Stato. [p. 36 modifica]
+
+
+Domenica 4. — Questa mattina l’Ab. Gioberti si è recato alla Sapienza ove è stato ricevuto ed acclamato con molta solennità. L’Ab. Rezzi, professore di eloquenza nell’Università, gli ha indirizzato un discorso a cui esso ha risposto[19]. Fra le deliberazioni del Consiglio Municipale di ieri si assicura vi sia stata quella che la strada detta sin qui Borgognona, ove è situata la locanda in cui ha alloggiato esso abate Gioberti, prenda il nome di via Gioberti[20].
+
+
+Lunedì 5. — Questa mattina è seguita l’apertura dei Consigli Legislativi nel salone del palazzo della Cancelleria. I componenti i due consigli adunatisi al Popolo, sono partiti di là in molte carrozze, preceduti da quelle del Senato Romano, dalle bandiere dei Rioni, e con corteggio di truppa, specialmente civica, bande ecc. e seguiti da diversi circoli sotto le loro insegne. Il Card. Altieri, delegato Pontificio, si è recato in gran treno dal Quirinale alla Cancelleria (ove i Deputati; e i Membri dell’alto Consiglio, dopo di aver sentito la Messa a S. Lorenzo e Damaso, avevano preceduto alle operazioni preliminari), ed ivi ha aperta la sessione con un discorso, che ha chiuso per oggi la funzione. Mons. Muzzarelli è nominato Presidente dell’Alto Consiglio e D. Pietro Odescalchi ed il Conte Pasolini Vice-Presidenti. — È stato pubblicato un Motuproprio del Papa sulla stampa, quale Legge aveva riservata a sè nello Statuto Costituzionale. — Questa sera si sono replicate le illuminazioni per la città. — È giunta notizia di una nuova rivoluzione seguita a Vienna il giorno 27 dello scorso mese per fatto specialmente del corpo degli studenti, e che in seguito di ciò si esigeva l’allontanamento immediato della truppa regolare da Vienna e il ritorno dell’Imperatore nel termine di 14 giorni. Correva altresì la notizia della resa di Mantova in seguito di una rivolta delle truppe Ungheresi e dei reggimenti Italiani; ma sino a questa sera non si conferma. [p. 37 modifica]
+
+
+Martedì 6. — Pare certo che tutte o quasi tutte le truppe Napoletane che erano andate verso l’alta Italia, in seguito di ordini ricevuti dal loro governo, retrocedano per ritornare nel regno. Questo fatto nella disposizione in cui sono gli spiriti nelle nostre provincie, che devono traversare, fa temere di qualche collisione.
+
+
+Giovedì 8. — È giunto in Roma il Generale Ferrari, comandante le nostre truppe nello Stato Veneto, non conoscendosi i motivi di questa venuta[21].
+
+
+Venerdì 9. — Questa mattina si sono adunati segretamente il Consiglio dei Deputati e l’alto Consiglio; il primo nel salone della Cancelleria, il secondo in quello dell’Apollinare. Nel primo il Ministro dell’Interno Conte Mamiani, nel secondo il Ministro degli affari esteri, Sig. Marchetti, hanno letto il programma dell’attuale Ministero.
+
+
+Sabato 10. — La nostra Gazzetta di questa sera annunzia l’arrivo di Mons. Ferreri reduce dalla sua missione a Costantinopoli recando seco i magnifici regali che il gran Signore invia al Papa. — Ha dato motivo a delle ciarle l’improvviso allontanamento dal Palazzo Pontificio e la probabile partenza da Roma di Monsignor Sbarretti stato già vicario del S. Padre, quando era vescovo d’Imola, e che egli aveva chiamato presso di sè nel principio del Pontificato, e che era attualmente Segretario del Consiglio dei Ministri. Si vuole però che la cosa non abbia motivo politico.
+
+
+Domenica 11 Pentecoste. — Fin da ieri è partito l’Abate Gioberti che nel suo soggiorno in Roma ha alloggiato all’Hôtel d’Angleterre nella strada sin qui Borgognona, e vi è stata sempre una numerosa guardia d’onore civica.
+
+
+Mercoledì 14. — Oggi è stato pubblicato un Bollettino in data dell’11 da Padova, che porta un nuovo attacco degli Austriaci in forza considerevole contro Vicenza, di cui in  [p. 38 modifica]sostanza non si sapeva l’esito, ma si credeva poter sperare che fosse favorevole al corpo italiano, il quale la difendeva. Tutti stanno in aspettazione. — Avendo il March. Patrizi mandato la sua rinuncia al Comando dell’ottavo battaglione civico, il battaglione stesso con grande maggiorità di voti lo ha di nuovo eletto. — Si dice che il General Ferrari sia ripartito.
+
+
+Giovedì 15. — Oggi, da un bollettino che si è pubblicato, si è ricevuto la notizia che, dopo un fuoco di molte ore, le truppe italiane, sotto il comando del generale Durando, che occupavano Vicenza, in seguito ad un concordato, l’avevano evacuata cogli onori militari, e colla condizione di non agire contro le truppe austriache per lo spazio di tre mesi. Fra i morti si conta il negoziante di campagna romano Natale del Grande, che partì coi Volontari civici, ed aveva il grado di Colonnello[22].
+
+
+Venerdì 16. — Questa mattina prima di andare al Consiglio della Comarca sono andato a vedere i regali del Gran Signore al Papa[23] che sono esposti a Monte Cavallo nell’appartamento ove alloggiò l’Imperatore d’Austria. Essi consistono in una sella, valdrappa e intiera armatura di cavallo ricamata in oro (di cui sono pure le staffe), e guarnita tutta di gran quantità di brillanti, quattro dei quali agli angoli della valdrappa di grossezza e valore considerabile, in un parato di velluto contratagliato con fondo di oro; in molte pezze di cachemir bianco, ed in molte pezze di tappeti. Oltre tutto ciò, il Papa ha ricevuto pure una tabacchiera col ritratto del Gran Signore ricchissimamente ornata di brillanti, ed un medaglione simile per il suo segretario di Stato: nè l’uno nè l’altro erano esposti. Oggi da Civitavecchia è giunta una notizia di una nuova sollevazione a Napoli, colla fuga del Re, l’abdicazione, [p. 39 modifica]pubblicazione della costituzione del 1812 ecc. ecc. Niente però sino a tutta questa sera ha confermato tale notizia.
+
+
+Sabato 17. — Questa sera, ricorrendo il giorno della creazione del Papa, si sono fatte le solite illuminazioni per la città, ed un discreto numero di gente s’è recato al palazzo Quirinale per far plauso al S. Padre che l’ha benedetta. — Da Napoli non si ha niente sin qui che confermi le voci di ieri.
+
+
+Domenica 18. — Si assicura che sia oggi partito per Napoli il conte Ludolf ministro di quella corte da cui aveva ricevuto una staffetta qualche giorno prima.
+
+
+Lunedì 19. — Oggi il Papa ha ricevuto l’intero consiglio dei Deputati che lo aveva domandato per felicitarlo sull’anniversaria ricorrenza della sua Esaltazione.
+
+
+Martedì 20. — Si ha dalla nostra Gazzetta di oggi l’arrivo di Monsignor Morichini a Innsbruck, ove trovasi attualmente l’Imperatore d’Austria, la notte del 10 corrente. — Questa mattina il Papa ha ricevuto il complimento dell’alto Consiglio in corpo per l’anniversario della creazione.
+
+
+Mercoledì 21. — Ieri sera e questa sera si sono fatte le illuminazioni per la città per l’anniversario della incoronazione del Papa.
+
+
+Giovedì 22. — Ieri è arrivato il nuovo ministro destinato dalla Repubblica Francese presso la S. Sede M. d’Harcourt. — Son arrivati ieri da Civitavecchia i sei cavalli arabi mandati al Papa in regalo dal gran Signore[24].
+
+
+Venerdì 23. — Mons. Muzzarelli ha dato la sua dimissione dalla presidenza dell’alto Consiglio, e la pubblica voce la attribuisce ad una dimostrazione di malcontento fattagli dal Papa in termini piuttosto vivi ieri mattina nella camera dei Paramenti a S. Pietro. Questa mattina l’alto Consiglio è stato presieduto da D. Pietro Odescalchi, uno dei vice-Presidenti.
+
+
+Lunedì 26. — La rinunzia di Mons. Muzzarelli non pare sia stata accettata dal Papa; non ha però presieduto l’alto Consiglio neppure nella seduta di questa mattina. [p. 40 modifica]
+
+
+Mercoledì 28. — Questa mattina Monsig. Muzzarelli ha presieduto la seduta dell’alto Consiglio.
+
+
+
+
+LUGLIO
+
+
+
+
+Domenica 2. — Questa sera s’è aperto con solennità sulla piazza di S. Maria in Trastevere, il nuovo quartiere del battaglione civico di quel Rione, ed il principe Corsini che ne è il Comandante, ha fatto un numeroso invito, trattamento di gelati, orchestre ecc. La festa era stata disintimata quest’oggi, e poi intimata di nuovo. Si dice ne sia stata cagione un qualche rumore suscitatosi nel popolo per un ordine dato dal Municipio di ammettere gli Ebrei al servizio della Guardia Civica. Quest’ordine dato (dicesi) senza saputa del Comando generale aveva prodotto la dimissione del principe Aldobrandini Comandante; ma pare che la cosa sia stata accomodata o almeno sopita. — Si vanno ricevendo per dispacci telegrafici notizie della terribile sommossa di Parigi, che cominciò il giorno 22 dello scorso mese, ed ha continuato per tre o quattro giorni con grandissimo spargimento di sangue, ed orrori inauditi; pare che il giorno 27 la tranquillità fosse ristabilita!!
+
+
+Martedì 4. — Il marchese Patrizi ha mandato la sua rinunzia al grado di Tenente-Colonnello dell’ottavo battaglione civico, che lo aveva eletto di nuovo. — Si continua a parlare della dimissione del principe Aldobrandini dal comando generale della Guardia Civica.
+
+
+Mercoledì 5. — Si sente da Parigi che tra le vittime della orribile lotta, che ha allagato di sangue quella città, si conta il suo Arcivescovo ferito mortalmente mentre si era recato ad una delle barricate per portare parole di pace agl’insorti!!
+
+
+Giovedì 6. — Qualche giornale riporta (ed è stato anche affisso al pubblico) un dispaccio del cardinal Soglia, Segretario di Stato, diretto a Mons. Viale-Prelà, Nunzio a Vienna, in cui si confermano i sentimenti del Papa riguardo alla guerra e si dichiara che le dichiarazioni del Ministero non sono conformi alle intenzioni del S. Padre. Questo dispaccio una parte del quale è in cifre, pare sia stato intercettato a Torino o a Milano ed il giornale promette un premio a chi lo decifrerà. Si  [p. 41 modifica]prevede che la cosa possa portare delle conseguenze. — Oggi il principe di Campagnano ha ricevuto la nomina di membro dell’alto Consiglio. Contemporaneamente sono stati nominati il principe Doria, il principe Ruspoli, il Duca Braschi, Prospero Bernini, l’Avv. Vannutelli ed un tal conte Rondinini. — Si assicura che ieri sera sia giunto in Roma il generale Durando.
+
+
+Venerdì 7. — Si parla della rinunzia di Mons. Pallavicini, Maggiordomo, (che è partito da vari giorni per Genova) per motivo di salute che è veramente molto deteriorata.
+
+
+Sabato 8. — Non pare, avrà luogo (almeno per questa causa) la crisi ministeriale che si temeva in seguito della pubblicazione del card. Soglia. Si dice di più che il Papa non abbia avuto difficoltà di comunicare al Ministero la parte del dispaccio medesimo, che era in cifra.
+
+
+Lunedì 10. — Questa mattina il Papa ha ricevuto l’Indirizzo di risposta del Consiglio dei Deputati. La risposta che è stata stampata pare che non sia interamente consonante alle idee espresse nell’Indirizzo stesso. — Secondo le voci, che corrono, sembra che possa poi aver luogo quanto prima un cambiamento nel Ministero.
+
+
+Martedì 11. — Si è pubblicata colle stampe una allocuzione pronunciata dal Papa nel Concistoro del 3 corrente relativa agli affari dei cattolici in Russia, ed una specie di concordato stabilito con quell’Imperatore sino dall’anno scorso sulla provvista dei Vescovati di rito Latino vacanti accennandosi lusinghe e speranze per la conciliazione di molti e gravissimi altri articoli, che pur troppo da gran tempo ne hanno necessità in quell’Impero ecc.
+
+
+Giovedì 13. — Questa mattina a S. Maria Maggiore si è celebrato un funerale per il defunto Arcivescovo di Parigi, ucciso sulle barricate nell’ultima insurrezione, mentre recava al popolo parole di conciliazione. Il Papa vi ha assistito coi cardinali Palatini, i vescovi assistenti al soglio, oltre altri Arcivescovi e Vescovi presenti in Roma.
+
+
+Venerdì 14. — Nella giornata di oggi nel tratto di strada dalle Frattocchie a Albano sono state fermate e spogliate varie persone e qualche legno da alcuni grassatori (sul numero dei [p. 42 modifica]quali variano le voci) e nella notte scorsa nel sito stesso è stato ucciso un carabiniere della brigata di Albano.
+
+
+Sabato 15. — Nella nostra Gazzetta d’oggi si annunzia che il Parlamento di Sicilia ha eletto in re dell’isola il Duca di Genova secondogenito del Re di Sardegna.
+
+
+vedDomenica 16. — Tutti i battaglioni civici sono andati (ognuno in una chiesa a portata del suo Rione) ad assistere ad un Te Deum che si è cantato per la ricorrenza anniversaria della istituzione di quella milizia. — Questa sera il circolo popolare è andato a fare una dimostrazione di plauso all’abitazione del conte Mamiani; il quale oggi corre voce che resta al Ministero. — Ieri è ritornato a Roma Mons. Morichini dalla sua missione presso l’imperatore d’Austria, quale pare non abbia avuto risultato. — È tornato pure da Napoli il conte Ludolf e si dice che debba ripartire per una missione straordinaria a Parigi e Londra.
+
+
+Lunedì 17. — Nella notte è giunta una staffetta da Ferrara che ha recato la notizia dell’occupazione di quella città fatta da un corpo di truppa austriaca. Si dice di 5000 uomini. — Corre voce che la provincia di Bologna mediti di offrire di concerto con altre provincie dello stato nostro la sua dedizione al Re Carlo Alberto.
+
+
+Martedì 18. — Il corpo di truppa austriaca che si è avanzato sotto Ferrara (ma non è entrato in città) ha richiesto che si approvisionasse quella fortezza[25] per due mesi, con qualche minaccia in caso di rifiuto; ed ottenuto ciò pare che le truppe si siano allontanate. Il Papa ha indirizzato su questo fatto una protesta a tutto il Corpo Diplomatico, sottoscritta dal Cardinal Soglia Segretario di Stato; qual protesta essendo stata comunicata questa mattina dal Ministero al Consiglio dei Deputati, questo ha deliberato all’istante un indirizzo al S. Padre, per ringraziarlo della comunicazione ed eccitarlo a prendere rigorose misure ecc.
+
+
+Mercoledì 19. — Questa mattina una quantità di gente dalla [p. 43 modifica]piazza di S. Lorenzo in Lucina (ove era stata convocata, con pubblico affisso) si è recato con una bandiera alla testa al palazzo della Cancelleria ed ha presentata al Consiglio dei Deputati una petizione riguardante le misure più energiche di guerra ecc. Il Presidente ha risposto che la petizione nelle forme del Regolamento sarebbe esaminata e discussa domani. In seguito di che l’attruppamento si è disciolto senza alcuna violenza. — E voce comune che una parte della truppa Civica avesse oggi l’intenzione di tornare ad occupare il Castello e le porte; ma la cosa non ha sino a questa sera avuto effetto.
+
+
+Giovedì 20. — Questa mattina la Deputazione del Consiglio dei Deputati e dell’alto Consiglio (ed il Principe di Campagnano ha fatto parte della seconda) si son recate al Quirinale per presentare al Papa i loro rispettivi indirizzi ai quali il S. Padre ha dato, pare, bastantemente soddisfacenti risposte. — Ieri pare che effettivamente un certo numero di civici si presentassero arbitrariamente al Castel S. Angelo per occuparlo, e che il comandante Colonnello Stuart, come era naturale, vi si opponesse, facendo anche alzare i ponti. — La precipitazione con cui, secondo la relazione, gli Austriaci lasciarono le vicinanze di Ferrara, si era attribuita a qualche scontro, per loro svantaggioso, con le truppe Piemontesi: ma sinora nulla di nuovo e sembra che non abbiano abbandonato almeno totalmente le rive del Po.
+
+
+Venerdì 21. — Si aspetta da un momento all’altro il cambiamento del nostro Ministero.
+
+
+Martedì 25. — Questa mattina è arrivata una legione di nostri civici volontari reduci da Vicenza comandata dal maggiore Galletti. Il Senato Romano, una Deputazione del Consisiglio dei Deputati e 4 battaglioni della truppa civica sono andati ad incontrarla fuori della porta del Popolo e per la strada del Corso (ove erano i parati a tutte le finestre) è andata a piazza di Venezia ove secondo un ordine del giorno del Comando Generale Civico, gli individui dovevano ritornare ai rispettivi battaglioni, a cui appartenevano, ma pare che non abbiano voluto separarsi, e siano perciò stati accasermati. A piazza di Venezia si è suscitato (non si sa bene come, ma si [p. 44 modifica]crede per opera dei ladri) un allarme per cui la gente si è data alla fuga con perdita di cappelli, orologi, orecchini ecc.; ma senza alcuna disgrazia.
+
+
+Mercoledì 26. — Questa mattina il battaglione dei volontari civici arrivato ieri ha persistito a non volersi disciogliere ed a voler essere acquartierato separatamente e, ricusando qualunque altra caserma, ha voluto essere alloggiato nella Casa del Gesù che ha occupato di fatto.
+
+
+Giovedì 27. — Ieri sera nelle vicinanze della piazza San Marco fu ucciso con un colpo di stile nella gola un tale abate Ximenes, Maestro alle scuole del Collegio Romano, e che si dice scrivesse in qualcuno degli infiniti giornali che si pubblicano a Roma.
+
+
+Venerdì 28. — Secondo le voci del giorno, pare che il Ministero, almeno in gran parte resti a posto.
+
+
+Sabato 29. — Si sta in grande aspettativa di sentir nuove dell’esito dei combattimenti, che si sa in genere esser seguiti dal 22 al 24 corrente, presso Mantova e Verona tra l’armata austriaca e piemontese. Dalle voci che circolano alcuni attribuiscono il vantaggio alla seconda, almeno nel risultato finale.
+
+
+Domenica 30. — Oggi si è pubblicato un bollettino semi-ufficiale, che porta in genere nuove di strepitosa vittoria riportata dal Re Carlo Alberto sopra gli Austriaci, che avrebbero perduto 6000 prigionieri, 40 cannoni, 13 bandiere ecc. ecc. senza però precisi dettagli; un’altra staffetta è venuta stasera da Ferrara che sembra non far che confermare le predette notizie. Oggi dopo pranzo la legione dei volontari reduci, con dei distaccamenti dei battaglioni della Guardia civica di Roma, è andata a Villa Borghese a fare una passeggiata militare fraterna. Questa sera poi una truppa di gente, con torcie, bandiere ecc. e facendo evviva strepitose a Carlo Alberto Re d’Italia, si è portata al Campidoglio e a Monte Citorio, facendo suonare in ambedue i luoghi le rispettive campane come pure in varie chiese. A ciò è succeduto uno sparar di fucili che ha continuato quasi fino alle tre dopo la mezza notte e che ha messo in allarme tutta la città, ed anche i contorni.
+
+
+Lunedì 31. — Una notificazione del Card. Vicario affissa [p. 45 modifica]oggi, annunziava un Te Deum a S. Andrea della Valle, oggi dopo pranzo in ringraziamento al Signore per gli ultimi gloriosi fatti del Re Carlo Alberto, come conducente alla pace. Si dice però sia stata sospesa questa funzione sino a notizie più sicure dei fatti medesimi, sui quali le notizie di oggi pare abbiano sparsa qualche incertezza, non si sa se fondata o no.[26]
+
+
+
+
+AGOSTO
+
+
+
+
+Martedì 1. — Questa mattina il consiglio dei Deputati in seguito alle notizie non troppo felici dell’armata piemontese, ha deliberato un indirizzo al Papa, che ha mandato, e si è dichiarato in seduta permanente sino alla risposta; quale però essendo stata che l’avrebbe data questa sera alle 9, il Consiglio si è disciolto. Questa sera essendo andata la deputazione a Monte Cavallo (ove si è recata pure una deputazione del Circolo Popolare con torcie e bandiere) il Papa l’ha ricevuta ed ha data la risposta, che si dice non abbia soddisfatto. L’attruppamento non molto numeroso, nel ritorno da Monte Cavallo andava prorompendo in grida, che (per quanto corre voce) non annunziavano contentamento. Niente di più si è saputo oggi riguardo agli avvenimenti della guerra.
+
+
+Mercoledì 2. — Questa mattina è stata rinforzata la guardia a tutti i quartieri civici, ed un appostamento di alcune centinaia di uomini alla gran guardia, ove mancando il locale sono venuti a stabilirsi nel nostro cortile verso le 9 antimeridiane e vi sono rimasti sino a circa un’ora di notte. Il conte Mamiani ha dato nuovamente e pare definitivamente la sua dimissione dal Ministero.
+
+
+Giovedì 3. — Questa mattina è stato affisso (e in più luoghi lacerato poco dopo) una specie di Motuproprio del Papa, in cui si annunzia la definitiva rinunzia del Ministero intiero, e che il conte Odoardo Fabbri, sin qui pro-legato di Urbino [p. 46 modifica]e Pesaro, da lui chiamato a Roma, formerà parte della nuova combinazione ministeriale. L’avv. Sereni di Perugia, Presidente del consiglio dei Deputati che fu gravemente insultato Martedì sera dall’attruppamento popolare nel ritornare da Monte Cavallo, ha dato la sua rinunzia, ed è partito da Roma.
+
+
+Venerdì 4. — Il Principe Aldobrandini, comandante la guardia civica, ha dato la sua dimissione. Si dicono partiti da Roma segretamente i cardinali Lambruschini, Antonelli, Ferretti e della Genga e qualcuno vi aggiunge anche cardinale Mai.
+
+
+Domenica 6. — Oggi dopo pranzo è stato affisso un proclama del Ministro delle Armi, che annunzia l’occupazione di Ferrara fatta da un corpo Austriaco, che si dirigeva anche ad occupare Ravenna e, si dice, anche Bologna; e invita tutti ad accorrere alla difesa formando un campo alla Cattolica ecc. Ciò ha prodotto una grande agitazione del popolo, che ha cominciato a far sortire dal corso tutte le carrozze con generale timore e apprensione. Si prevedeva per questa sera qualche strepitosa dimostrazione popolare; ma non ha avuto luogo. Si dice solo che della gente si sia recata al palazzo Colonna, ove abita l’Ambasciatore di Francia.
+
+
+Lunedì 7. — Oggi è stata affissa una Protesta a nome del Papa, sottoscritta dal Card. Soglia contro l’occupazione delle Legazioni per parte dell’armata austriaca, e in essa Protesta si dichiara di avere implorato l’aiuto delle Potenze amiche. Si è veduto anche stampato il Proclama del generale Welden, comandante il corpo d’armata suddetto, che è concepito in termini minacciosi. — Benchè questa mattina il Conte Fabbri e qualcuno altro individuo del nuovo Ministero siansi presentati alla Camera dei Deputati, non si è veduta annunziata sin qui alcuna nomina ufficiale.
+
+
+Martedì 8. — Oggi circa le 23 ore si è fatta una dimostrazione popolare preceduta dalla bandiera Francese per presentare all’Ambasciatore di Francia una petizione, munita di molte sottoscrizioni, onde ottenere l’intervento della Repubblica a favore della causa italiana; e la deputazione che l’ha presentata pare abbia riportata risposta bastantemente soddisfacente. Si è pubblicata una nuova protesta firmata dal nuovo Ministero [p. 47 modifica](meno che dal Conte Campello, Ministro delle Armi che ha dato la sua dimissione dopo 3 o 4 giorni dalla sua istallazione) contro l’occupazione austriaca, e nello stesso tempo un dispaccio del Card. Soglia al Card. Marini, Legato di Forlì con cui gli si ingiunge di recarsi subito presso il generale Welden in unione del Principe Corsini e Principe Simonetti, che vanno a partire da Roma a momenti, per intimargli, che se non evacuerà immediatamente lo Stato pontificio, il S. Padre farà uso di tutti i mezzi, che sono a sua disposizione, per costringervelo. Ambedue sono concepiti in termini molto forti. — Non pare si sappia positivamente se le truppe austriache sieno entrate a Bologna, — Nella Gazzetta di oggi sono indicati i nuovi Ministri che sono (oltre il Card. Soglia Presidente) il Conte Fabbri dell’Interno, l’Avv. de Rossi di grazia e giustizia, Lauri alle finanze, Guarini ai lavori pubblici, commercio ecc. Galletti alla Polizia e in sua assenza l’assessore Perfetti ed alle Armi come direttore temporaneo Gaggiotti. Resta sempre scoperto ed in sospeso il Ministero degli affari esteri secolari.
+
+
+Mercoledì 9. — Oggi sono partiti per la loro missione presso il generale Welden, il principe Corsini ed il Conte Guarini, in luogo di Simonetti, che si è scusato. — Pare che anche il Ministero degli Affari Esteri secolari sia riunito nel Cardinale Soglia, segretario di Stato, e pare che egli figurerà tra i Ministri responsabili, e si presenterà alle Camere all’occorrenza.
+
+
+Giovedì 10. — In seguito ad una convenzione tra il generale Welden e il pro-legato di Bologna Bianchetti le truppe austriache non sono entrate in città, rimanendo in una posizione che in parte la circonda; riservandosi solo la guardia di tre porte.
+
+
+Venerdì 11. — Oggi si è pubblicato un bollettino sottoscritto da tutto il Ministero, in cui si annunzia che il giorno 8 a Bologna il popolo assalì le truppe austriache postate intorno alla città, le respinse facendo circa 30 prigionieri e prendendo loro 3 cannoni.
+
+
+Sabato 12. — Da Bologna si sente che gli Austriaci si siano ritirati da quei contorni dopo qualche conflitto decisivamente svantaggioso per loro. Dalla Romagna accorreva tutta [p. 48 modifica]la truppa ivi esistente a quella volta. — Si va confermando in genere la notificazione sparsa da qualche giorno della capitolazione di Milano, mediante il convenuto ritiro delle truppe Piemontesi di là del Ticino, ma non vi ha nulla di autentico e di dettagliato. — Verso sera un drappello non molto numeroso di gente con una bandiera, si è recato per il Corso a Monte Cavallo ove poco dopo si è disciolto non conoscendosene l’oggetto.
+
+
+Domenica 13. — Oggi dopo pranzo tutti i battaglioni civici seguiti da gente che portava la bandiera di Bologna si sono portati sulla piazza di Montecavallo, ed il Papa ha dato loro la benedizione, senza indirizzar loro nessuna parola, come forse pareva che si aspettasse. — È stato nominato Ministro delle Armi il generale Latour, sin qui comandante i reggimenti esteri al servizio pontificio.
+
+
+Lunedì 14. — Oggi si sono avute notizie più dettagliate della capitolazione di Milano, e dell’ingresso in quella città delle truppe austriache, con più quella di un armistizio di sei settimane concluso tra il re Carlo Alberto ed il Maresciallo Radetzky.
+
+
+Martedì 15. — Corre una seconda voce, proveniente, si dice, da Civitavecchia che la popolazione di Milano essendosi rivoltata abbia scacciate le truppe austriache.
+
+
+Mercoledì 16. — Niuna conferma ancora della espulsione degli Austriaci da Milano. — Avendo un certo numero di guardie nobili fatto presentare al Papa l’istanza di marciare alla difesa dello Stato; si assicura che sia stata favorevolmente accolta.
+
+
+Venerdì 18. — Essendo giunto a Roma il corpo del Colonnello Del Grande, comandante già della prima legione dei volontari Civici, che fu ucciso a Vicenza; questa sera verso l’Ave-Maria è stato trasportato alla chiesa del Gesù sopra un carro tirato da 4 cavalli coperto da una coltre, i lembi della quale erano sostenuti da 4 colonnelli civici, tra i quali vi era il Principe di Campagnano. Il convoglio funebre, che è passato per il Corso, venendo dal Popolo, ove si è radunato, era composto dai Religiosi Cappuccini, dalla porzione della Legione [p. 49 modifica]già comandata dal Defunto che si trova in Roma, da tutta l’Ufficialità di ogni arma, da due plotoni ciascuno di 6 battaglioni civici, dai Circoli.
+
+
+Sabato 19. — Questa mattina nella chiesa del Gesù si è fatto il solenne funerale al Colonnello del Grande, con tutti gli onori militari e coll’assistenza di tutta l’ufficialità di tutti i corpi dell’alto Consiglio, del Consiglio dei Deputati, del Municipio ecc.; Mons. Lucciardi ha pontificato. — Par sicuro che il conte Lovatelli pro-legato di Ferrara sia stato nominato Ministro delle Armi in luogo del Generale Latour, che non ha accettato l’impiego.
+
+
+Domenica 20. — Questa mattina sono ritornati il Principe Corsini ed il Conte Guarini dalla loro missione, e si dice abbiano riportate dal Generale Welden assicurazioni della intiera evacuazione (già quasi del tutto effettuata) dello Stato pontificio, e di nessuna altra occupazione per l’avvenire. Non si sa se si esige in reciprocanza alcuna condizione dal nostro Governo.
+
+
+Martedì 22. — Si sente che l’Imperatore d’Austria colla famiglia sia partito agli 8 corrente da Innsbruk per ritornare a Vienna.
+
+
+Giovedì 24. — È oggi voce comune che Lovatelli non abbia accettato il Ministero delle Armi.
+
+
+Sabato 26 — L’alto Consiglio ed il Consiglio dei Deputati sono stati prorogati al 15 del futuro novembre. La relativa ordinanza è stata recata stamattina ai due Consigli dai Ministri di Grazia e Giustizia e dell’Interno.
+
+
+Martedì 29. — Da Bologna si sente che si continua lo stato d’inquietudine per parte dei così detti Corpi franchi quali si dice abbiano voluto il cangiamento dei membri del Comitato, e l’arresto del Colonnello Zuccheri dei Dragoni.
+
+
+Mercoledì 30. — Le notizie da Bologna non sono ancora rassicuranti sul ristabilimento della tranquillità. — Livorno è in istato di piena insurrezione. — La truppa è stata disarmata e rinchiusa; si è formato un governo provvisorio sotto il titolo di Comitato di pubblica sicurezza ecc. ecc.
+
+
+Giovedì 31. — A Bologna niente di nuovo in meglio. — Livorno continua sempre nello stesso stato di dichiarata  [p. 50 modifica]indipendenza dal Governo toscano, il quale pare stia patteggiando col popolo, che è padrone del paese.
+
+
+
+
+SETTEMBRE
+
+
+
+
+Venerdì 1. — A Livorno continua lo stato di perfetta anarchia ed insubordinazione totale. — Di Bologna nulla di nuovo.
+
+
+Sabato 2. — A Livorno pare che stessero per entrare, senza opposizione le truppe del governo.
+
+
+Lunedì 4. — A Bologna si sente che siano state uccise dai popolani armati undici persone.
+
+
+Martedì 5. — Oggi si è saputo che Livorno è di nuovo in rivolta ed anarchia. Secondo le notizie incomplete che si hanno, il popolo si era battuto con la truppa che aveva avuto lampeggio e si era ritirata nei forti (dopo aver perduto 4 cannoni) e da questi tirava sulla città. S’ignora l’esito finale.
+
+
+Mercoledì 6. — Ieri sera partì il Ministro di Polizia Galletti per Bologna, ove continuano le uccisioni, il numero delle quali ascende, si dice, sin qui a 25!
+
+
+Giovedì 7. — Era corsa voce che, questa sera avrebbe avuto luogo una dimostrazione popolare al palazzo dell’Ambasciatore di Francia. Ma non si è verificata, o almeno, se vi è stata, è stata talmente poco numerosa, che non si è fatta rimarcare.
+
+
+Sabato 9. — Le nuove del giorno sono che l’Austria abbia ricusato di accettare la mediazione della Francia e della Inghilterra e che nei porti di Marsiglia e Tolone si era imbarcata della truppa diretta a soccorrere Venezia.
+
+
+Lunedì 11. — Si ha da Napoli che il giorno 7 corrente le truppe napoletane comandate dal Generale Filangeri s’impadronirono di Messina e di quasi tutti i piccoli bastimenti siciliani, dopo una ostinata resistenza di due giorni. — Pare, secondo tutte le notizie, che vada a rinnovarsi la guerra.
+
+
+Martedì 12. — Oggi corre voce che la mediazione della Francia e dell’Inghilterra sia stata poi accettata dall’Austria, e che in conseguenza sia stato sospeso l’imbarco di truppe francesi per l’Italia.
+
+
+ [p. 51 modifica]
+
+
+Mercoledì 13. — Oggi è stata pubblicata un’ordinanza del Ministero delle Finanze in cui si annunzia che nella ultima serie, che resta a emettersi di scudi 250000 di Boni del tesoro, per la somma di 30000 scudi ne verranno creati di scudi due, e per 32000 di uno scudo, e nè questi, nè quelli porteranno interesse. — Un’ordinanza del Ministero di Polizia, pure pubblicata oggi, proibisce provvisoriamente l’estrazione dallo Stato, senza uno speciale permesso, d’ogni moneta d’oro o d’argento, verghe, metalli preziosi ecc. eccettuato il danaro per uso proprio limitato a scudi 250 per persona. — Prende piede la voce della formazione di un nuovo Ministero, alla testa del quale sarebbe l’ex-ambasciatore di Francia Rossi.
+
+
+Sabato 16. — La Gazzetta di oggi riporta la nomina del nuovo Ministero formato come segue. Presidente e Ministro degli Affari esteri il Card. Soglia, Ministro dell’Interno e interinalmente delle Finanze Cav. Rossi, dell’Istruzione pubblica il Card. Vizzardelli, di Grazia e Giustizia l’avv. Ciccognani, del Commercio il prof. Montanari, dei Lavori pubblici e per interim delle Armi il Duca di Rignano, Ministro senza portafoglio il Conte Guarini, sostituto delle Finanze il Cav. Righetti. Del Ministro di Polizia non si fa menzione, e non si sa se continuerà ad occuparlo l’avv. Galletti.
+
+
+Lunedì 18. — Un’ordinanza del nuovo Ministero di oggi dichiara soppresso il Ministero di Polizia, e le sue attribuzioni riunite a quelle del Ministro dell’Interno; con altra simile viene revocata quella del 13 corrente proibitiva dell’estrazione delle monete, verghe e metalli preziosi ecc.
+
+
+Martedì 19. — Oggi dopo pranzo i due battaglioni dei volontari, che formano la legione acquartierata al Gesù, è andata ad una rivista nel cortile di Belvedere al Vaticano.
+
+
+Venerdì 22. — Dalla Gazzetta d’oggi si rileva essere stato spedito al generale Zucchi, il dispaccio che lo nomina ad essere Ministro delle Armi di questo Governo.
+
+
+Sabato 23. — Questa mattina la prima legione romana, che stava accasermata al Gesù, è partita alla volta di Cesena sotto il comando del colonnello Galletti.
+
+
+Venerdì 29. — Questa mattina il Papa è andato a S. Michele a Ripa, percorrendo, per l’andata e il ritorno, quasi [p. 52 modifica]tutto Trastevere, ove le finestre e molti punti delle strade erano ornate di tappeti.
+
+
+Sabato 30. — Due ordinanze ministeriali sono state pubblicate oggi, una sullo stabilimento di una linea telegrafica da Roma a Ferrara per Bologna e Ancona, e da Roma a Civitavecchia; l’altra sulle pensioni dei militi delle legioni civiche, e volontari rimasti feriti.
+
+
+
+
+OTTOBRE
+
+
+
+
+Domenica 1. — Avendo il Marchese Patrizi persistito costantemente nel non accettare il comando dell’ottavo battaglione civico, a cui era stato eletto a grande maggiorità, ed essendosi anche da vari giorni assentato da Roma per sottrarsi a tutte le istanze e pressioni; oggi è stato nominato in sua vece il March. Pio Capranica che era il secondo nella terna.
+
+
+Lunedì 16. — Per la via di Ancona si è ricevuta la notizia che il giorno 6 corrente è accaduta un’altra gravissima sommossa a Vienna nella quale fu massacrato il Ministro della Guerra Latour e che l’Imperatore era partito, si diceva, per Francfort.
+
+
+Martedì 24. — Ieri sera in seguito di rissa tra Ebrei e Civici una numerosa truppa di popolo fece irruzione nel Ghetto, minacciando incendio, sfascio di botteghe ecc. ecc. e fu necessario farvi accorrere molta forza anche di cavalleria. — Anche da Albano, Genzano ecc. sono stati richiamati tutti i carabinieri disponibili; il che ha prodotto un certo allarme.
+
+
+Venerdì 27. — A Civitavecchia, contemporaneamente all’affare del Ghetto di Roma, i Forzati tentarono un ammutinamento che fu represso colla forza essendone rimasto ucciso uno, e vari feriti.
+
+
+Lunedì 30. — Oggi il nuovo Ministro delle Armi, Generale Zucchi, giunto da tre giorni a Roma, ha passato in rivista sulla piazza di S. Pietro tutta la truppa di linea esistente in Roma, ed anche il battaglione dei ragazzi detto della Speranza.
+
+
+
+
+NOVEMBRE
+
+
+
+
+Venerdì 3. — Avendo il clero regolare e secolare dello Stato pontificio risoluto di offrire al Governo la somma di 4 [p. 53 modifica]milioni di scudi pagabili in quindici anni, onde ritirare dal corso i due milioni di boni del Tesoro ultimamente emessi e togliere l’ipoteca imposta a garanzia dei medesimi sui beni ecclesiastici; il Papa con suo chirografo diretto al cardinale Orioli, prefetto della Congregazione dei Vescovi e Regolari (per mezzo del quale era passata l’offerta) ha accettato l’offerta stessa, incaricando il suddetto Cardinale della esecuzione.
+
+
+Sabato 4. — Questa sera si è aperto il teatro Argentina, che il Municipio, in seguito del rifiuto del proprietario Principe Torlonia, ha ottenuto giudizialmente in contenzioso amministrativo in affitto coattivo.
+
+
+Domenica 5. — Il Card. Antonelli è nominato Prefetto dei Palazzi Apostolici ed in tal qualità presiederà una Congregazione composta di vari Cardinali e di altri soggetti secolari che avrà l’amministrazione dei Palazzi Apostolici; ed il nuovo Maggiordomo da nominarsi pare non debba avere che la parte puramente esecutiva.
+
+
+Lunedì 6. — È partito sin da ieri il Ministro delle Armi Generale Zucchi per Ferrara ove è accaduta qualche sommossa per aver voluto un tal Console Austriaco alzare l’arme imperiale sulla porta della sua casa, che si dice essere stata saccheggiata. — È andato seco il Conte Gamba deputato di Ravenna. Pare che il viaggio del Ministro abbia anche per oggetto l’ispezione delle truppe pontificie nelle provincie.
+
+
+Venerdì 10. — Secondo le ultime notizie ufficiali, le truppe imperiali austriache sono entrate a Vienna di viva forza il giorno prima del corrente dopo aver respinte le truppe insurrezionali dell’Ungheria, che si erano avanzate in soccorso di Vienna stessa. L’avvicinamento di questi aveva indotti i Viennesi a tentar di non eseguire la resa già convenuta due o tre giorni avanti.
+
+
+Mercoledì 15. — Questa mattina si sono riaperti tanto l’Alto Consiglio, quanto quello dei Deputati, dopo la proroga. Il Ministro dell’interno e interino delle Finanze, nel recarsi in carrozza al secondo, è stato accolto sulla piazza della Cancelleria con fischi strepitosi, ed essendo poi smontato alla scala, al principio della medesima è stato circondato da un gruppo [p. 54 modifica]di persone ed è stato ferito nella gola con colpi di pugnale, per i quali, trasportato nelle camere del Card. Gazzoli che abita nel palazzo della Cancelleria, è rimasto esanime quasi al momento. I due suoi figli si trovavano sulla piazza quando succedeva questo terribile fatto. Questa sera una truppa composta di popolo e di carabinieri ha girato per Roma fino ad ora tarda, con torcie, bandiere ecc., e dicesi che l’oggetto fosse di affraternizzare i carabinieri stessi col popolo e con gli altri corpi militari.
+
+
+Giovedì 16. — Dopo il mezzogiorno un radunamento di gente assai numeroso, cui si è aggiunto gran numero di civici, carabinieri e militari di ogni arme, si è recato dal Popolo a Montecavallo per chiedere l’immediata formazione di un nuovo Ministero, secondo la lista di persone che presentavano, al che il Papa ha risposto che aveva dato commissione al signor Avv. Galletti di tal formazione. Tale risposta (replicata più volte per mezzo del Galletti stesso) non ha soddisfatto il popolo che per tutta la giornata ha continuato le sue clamorose insistenze, tentando di forzare e anche incendiare le porte del palazzo, che erano chiuse. Disgraziatamente alcuni della guardia svizzera hanno fatto fuoco sul popolo e sono rimasti feriti (per quanto si assicura) due civici. L’irritamento allora è accresciuto a dismisura, si sono cominciate ad erigere delle barricate nelle vicinanze del palazzo, si è fatto fuoco contro il medesimo, si è trasportato sulla piazza un cannone, che era depositato alla Pilotta. Solamente verso le 8 della sera, avendo il Papa finalmente e pienamente acconsentito alle richieste, ed essendosi a stento ottenuto che (almeno per questa sera) non si consegnassero gli Svizzeri, che avevano fatto fuoco, e che si volevano nelle mani per fucilarli; il popolo si è ritirato come anche tutto il militare. Nel tempo della agitazione quasi tutte le porte delle botteghe e case si sono chiuse e la maggior parte della popolazione si è ritirata.
+
+
+Venerdì 17. — Questa mattina è stata sciolta la Guardia Svizzera e la truppa civica è subentrata alla guardia del Palazzo Apostolico. — Nella Gazzetta di oggi si è annunziata la formazione del nuovo Ministero come segue: affari esteri Conte [p. 55 modifica]Mamiani, Interno Avv. Galletti, Grazia e Giustizia Avv. Sereni, Commercio e Lavori pubblici Dott. Sterbini, Armi Conte Campello, Finanze Avv. Lunati, Presidente del Consiglio dei Ministri coll’Istruzione pubblica ab. Rosmini, ed, avendo questi ricusato Monsig. Muzzarelli. — Pare certo che il Duca di Rignano che faceva parte dell’ultimo Ministero, sia partito da Roma, e lo stesso, si assicura, abbiano fatto alcuni Cardinali tra i quali il Card. Lambruschini, la cui abitazione alla Consulta fu invasa ieri dalla gente armata, salvandosi a stento la persona. — Il Corpo diplomatico restò in permanenza al Quirinale fino a ieri sera al tardi, e vi è tornato questa mattina. — Da un colpo di fucile tirato dal campanile di S. Carlino alle 4 Fontane, restò ucciso l’ab. Palma segretario delle lettere latine, e che per conseguenza aveva l’abitazione in Palazzo; egli fu colpito nella sua camera, avendo il colpo traversata la finestra. — Questa sera, tra le dieci e le undici si è avuta una bellissima Aurora Boreale. Questa meteora, che si può calcolare abbia durato (almeno nel suo maggiore vigore) circa una mezz’ora, si estendeva per un notabile spazio dell’atmosfera da tramontana a ponente.
+
+
+Sabato 18. — A richiesta del Comandante del Castel S. Angelo, Colonnello Stuart, 50 uomini di truppa civica sono entrati nel forte in rinforzo della guarnigione. — Il Colonnello Gallieno è stato nominato al Comando generale della guardia civica (rinunciato già dal Principe Aldobrandini) e promosso al grado di tenente Generale. Nella scorsa notte una truppa di gente e di militari con torcie ed acclamazioni ha girato per Roma sino alle due o alle tre dopo la mezzanotte. Questa sera, in seguito ad un invito affisso sin da questa mattina, uno stuolo numeroso di popolo, pare con torcie, è andato al palazzo del Governo per rallegrarsi col Sig. Galletti, Ministro dell’Interno e della Polizia e che pare si voglia anche al comando del Corpo dei Carabinieri. Questa sera il teatro di Argentina è stato illuminato e vi è stato cantato l’Inno popolare del
+Maestro Magazzari.
+
+
+Domenica 19. — Essendo giunto il nuovo Ministro delle Armi Conte Campello, questa sera il Circolo Popolare con gran [p. 56 modifica]seguito di gente, torcie ecc., è andato a complimentarlo alla sua abitazione sul palazzo del Gallo (olim Ceva) a Colonna Traiana.
+
+
+Lunedì 20. — La forza civica, che guarnisce il Castello unitamente alla linea è assai più numerosa di quello che si era detto. Pare che anche alle porte della città dovrà esser posta una guardia civica.
+
+
+Martedì 21. — Questa sera il Circolo Popolare accompagnato da dragoni, carabinieri ecc. con torcie e banda, è andato al palazzo Madama (ove si era fatta illuminazione) per festeggiare la destinazione del ministro Galletti al comando generale del corpo dei carabinieri.
+
+
+Mercoledì 22. — Tre deputati di Bologna al Corpo legislativo (come lo era l’ucciso ministro Rossi) hanno dato la loro dimissione e sono partiti da Roma, e la nostra Gazzetta di oggi riporta quelle di altri tre. — Secondo la voce comune una gran parte dei cardinali si è allontanata successivamente da Roma in questi giorni.
+
+
+Giovedì 23. — La Gazzetta di questa sera annunzia che Monsig. Morandi, Fiscale generale, si è dimesso dal suo impiego. Questa sera è arrivato il conte Mamiani ministro degli Affari esteri.
+
+
+Venerdì 24. — Circa le 4 pomeridiane è partito l’Ambasciatore di Francia. Si racconta che abbia detto di andare a Palo per prendere l’aria di mare per 2 o 3 giorni. — Questa sera si dice che il Papa abbia ringraziati i quattro prelati, suoi camerieri segreti.
+
+
+Sabato 25. — Di buon’ora s’è cominciato a vociferare che il Papa nella notte era partito da Roma, senza sapersi precisamente per qual direzione. Circa il mezzogiorno è stata affissa una carta sottoscritta da tutto il Ministero, meno il conte Mamiani, in cui si partecipa la partenza del S. Padre in seguito di cattivi consigli; ma assicura che il Ministero di concerto con le Camere e col Municipio ha preso tutte le misure per la conservazione dell’ordine e della quiete, e che tutta la forza di qualunque arma veglia per tale oggetto. Più tardi si è pure pubblicata una lettera del Papa al Marchesi Sacchetti (che da [p. 57 modifica]qualche tempo faceva le funzioni di Maggiordomo) in cui il S. Padre raccomanda ai Ministri presenti il paese, il Palazzo e gli individui addetti al medesimo che dichiara aver ignorato la sua risoluzione. Qual lettera è stata comunicata dal ministro Galletti al Corpo diplomatico. — In tutta la giornata e serata ha regnato perfetta tranquillità. La Gazzetta di questa sera annunzia che il conte Mamiani ha accettato il ministero degli Affari esteri che sin qui pareva esitasse ad assumere.
+
+
+Domenica 26. — Anche oggi si è mantenuta perfetta tranquillità. — Questa mattina essendosi innalzata (secondo il solito dei giorni festivi) la bandiera pontificia sul Castello, si dice sia stata applaudita. — Questa mattina si è adunato l’alto Consiglio, come ieri quello dei Deputati, ed ha ricevuto dal Ministero comunicazione di ciò, che ieri comunicò in istampa. — Per quanto si assicura le famiglie Borghese, Doria, il Duca e Duchessa di Castel Vecchio con D. Filippo Barberini sono partiti da Roma come pure la Duchessa Cesarini ed il Principe Orsini colla famiglia che sta per ora a Albano.
+
+
+Lunedì 27. — Tre altri Deputati Bolognesi, hanno dato, per quanto si assicura, la loro dimissione. — Continua la tranquillità nel paese. — In mezzo a molte voci diverse e contradittorie si sta sempre nell’oscurità sulla direzione presa dal Papa. Quello che si pretende certo si è che siasi imbarcato a Civitavecchia sopra un vapore francese. — Questa mattina a S. Andrea della Valle si è celebrato un funerale per i morti nella presa di Vienna ed il P. Ventura ha pronunziata una orazione funebre.
+
+
+Martedì 28. — Questa mattina si è adunato il Consiglio della Comarca in casa del March. Sacripante, attesa l’assenza del Card. Altieri Presidente, che si è allontanato da Roma come quasi tutti i Cardinali. — Pare che il Ministero creda di sapere con certezza che il Papa sia sbarcato a Gaeta.
+
+
+Mercoledì 29. — Non resta più dubbio che il Papa sia a Gaeta, giacchè vari nostri Romani, come Doria, Borghese ecc. nel loro passaggio per Napoli l’hanno veduto colà. Resta sempre l’incertezza se sia andato per mare o per terra; ma pare più probabilmente per terra. [p. 58 modifica]
+
+
+Giovedì 30. — Ieri giunse in Roma il P. Gavazzi, che fu arrestato a Bologna e veniva condotto all’ergastolo di Corneto; ma giunto a Viterbo fu dal popolo liberato, ed è venuto a Roma (si dice) per poco tempo, per quindi passare a Venezia. — Niente di più sul Papa. Fra le tante voci sparse vi è quella che il giorno 2 dell’entrante mese andrà a tenere un concistoro, chi dice a Napoli, chi a Benevento.
+
+
+
+
+DICEMBRE
+
+
+
+
+Venerdì 1. — Il Municipio ha fatto notificare che per venire al soccorso di tutte quelle persone che vivono del teatro, i teatri (previo il permesso ottenuto dall’autorità ecclesiastica) continueranno ad agire sino al 14 del corrente mese, esclusa la vigilia della festa della Concezione.
+
+
+Sabato 2. — Alcune notizie, che circolano questa sera, fanno prevedere per domani qualche cosa di decisivo sulla nostra situazione politica.
+
+
+Domenica 3. — Questa mattina si è cominciato a divulgare che il Papa ha invitato tutto il Corpo diplomatico a recarsi presso di lui a Gaeta; quale invito è fatto per mezzo del Card. Antonelli, e che, con altro atto contrasegnato dal medesimo, dichiarando nulli tutti gli atti dell’attuale Ministero, nomina un Governo provvisorio composto dal Card. Castracane, dai Principi di Palestrina e di Roviano, dal March. Bevilacqua (v’è chi dice anche dal generale Zucchi) e da Mons. Ianni.
+
+
+Lunedì 4. — Nella scorsa notte il Consiglio dei Deputati ha tenuta seduta pubblica che è durata dalle 11 alle 2,30 dopo mezza notte. — Le risoluzioni prese sono in sostanza, che non si attenda l’atto firmato dal Papa in Gaeta ai 27 del caduto, come incostituzionale, non autentico ecc. ecc.; che i Ministri seguano ad esercitare le loro attribuzioni; che si spedisca subito una deputazione al Papa per invitarlo a tornare; che si inviti l’alto Consiglio a far lo stesso; che si pubblichino dei Proclami a tutte le popolazioni dello stato, alla guardia Civica per il buon ordine ecc.: il che è stato eseguito questa mattina. I prescelti per la Deputazione del Consiglio dei Deputati sono l’Ab. Rezzi [p. 59 modifica]e il Dott. Fusconi; per l’alto Consiglio Mons. Mertel e il Marchese Paolucci; e per il Municipio (che anch’esso invia una Deputazione) il Senatore Corsini e i Professori Pieri ed Arrighi.
+
+
+Martedì 5. — Questa mattina sono partite per Gaeta le Deputazioni nominate ieri, e di colà è ritornato il Marchese Sacchetti, Foriere dei Palazzi Apostolici. — Si sono dimessi i Ministri Lunati delle Finanze e Sereni della giustizia. Il conte Mamiani ha assunto provvisoriamente il primo Ministero, e Mons. Muzzarelli il secondo.
+
+
+Mercoledì 6. — Ha dato luogo a molti discorsi l’apparizione avanti Civitavecchia di qualche bastimento francese (alcuni dicono con truppa da sbarco), che dopo qualche comunicazione col console di quella nazione si è allontanato. Su questo fatto regna della incertezza e della oscurità. — Questa mattina il card. Barberini, che era sin qui rimasto a Roma è partito anch’esso alla volta di Napoli.
+
+
+Giovedì 7. — Questa sera sono ritornate a Roma le tre Deputazioni partite ieri l’altro, le quali non hanno potuto oltrepassare il confine.
+
+
+Venerdì 8. — I Deputati ritornati ieri sera, giunti a Portella furono avvertiti, che vi era l’ordine di non lasciarli passare; in seguito di che tornarono a Terracina, di dove spedirono al Card. Antonelli a Gaeta, informandolo dell’oggetto della loro missione presso S. Santità. Esso Cardinale rispose che sua Santità, avendo già date le sue disposizioni col suo atto del 27 novembre, era dispiacente di non poter ricevere Deputazioni; ma che pregava caldamente il Signore per la tranquillità di Roma e dello Stato. — Nella seduta del Consiglio dei Deputati tenuta questa mattina si è risoluto di nominare (come è stato fatto) una Commissione per provvedere alla mancanza del potere esecutivo. Pare che non sia escluso di concertarsi col Card. Castracane.
+
+
+Sabato 9. — Questa sera a Argentina si è data un’accademia a beneficio di Venezia.
+
+
+Domenica 10. — Questa sera si vociferava che il Cardinale Castracane, in seguito di una staffetta ricevuta da Gaeta, abbia mandato a chiamare il principe di Palestrina. [p. 60 modifica]
+
+
+Lunedì 11. — Questa mattina il Consiglio dei Deputati ha deliberato che si formi una Giunta di Stato, che faccia le funzioni del potere esecutivo sino a che il Santo Padre non ritorni o destini persone a rappresentarlo. L’Alto Consiglio ha sanzionato tal deliberazione. Non sono ancora formalmente nominati i componenti la Giunta, ma si assicura che saranno il principe Corsini, il senatore di Bologna e il Gonfaloniere d’Ancona. — La nostra Gazzetta annunzia l’abdicazione dell’Imperatore d’Austria in favore dell’Arciduca Francesco Giuseppe figlio del suo fratello.
+
+
+Martedì 12. — Questa mattina è arrivato il Generale Garibaldi, e questa sera, essendo andato al Circolo Popolare, è stato ricondotto a casa con applausi.
+
+
+Domenica 17. — Questa sera si è fatta una dimostrazione del Circolo Popolare, si dice, anche a nome dei Circoli delle provincie, onde ottenere la formazione di un’Assemblea Costituente, per rifondere lo Statuto dato dal Papa. Un gran numero di gente si è recato prima all’abitazione del Generale Garibaldi, poi al Quirinale ove il Ministro ha promesso di presentare domani la petizione al Consiglio dei Deputati, ove si è data appuntamento per un’ora pomeridiana.
+
+
+Lunedì 18. — La dimostrazione popolare, che doveva farsi al Consiglio dei Deputati questa mattina, non ha avuto luogo, e la petizione relativa alla Costituente sarà presentata da una Deputazione.
+
+
+Martedì 19. — Dopo mezzo giorno ha battuto la Generale in tutti i Circondari della truppa Civica che ha preso le armi, ed ha stazionato, oltre che al Quirinale in varie altre piazze. Sembrava che ciò fosse all’oggetto di mantener l’ordine, in occasione che il circolo Popolare doveva andare a presentare un nuovo più pressante indirizzo al Ministero per la Costituente, come anche per ottenere l’allontanamento di molti individui esteri che passano per perturbatori della pubblica quiete, un drappello dei quali, che verso sera tornava da Montecavallo con una bandiera, è stato fischiato, attaccato e disperso dal popolo. La Guardia Civica è rimasta sotto le armi sino alle 10 della sera, e per quanto si è saputo, essa è stata [p. 61 modifica]che ha esatto dal Ministero l’impegno di far decretare domani la Costituente, e nello stesso tempo l’allontanamento degli Esteri sopradetti. — È partito, o parte questa notte il Principe Barberini, si dice, per Gaeta.
+
+
+Mercoledì 20. — Il Principe Barberini è poi partito per Gaeta alle 5 circa di questa mattina col figlio D. Filippo. — Questa mattina si è pubblicato un Proclama della Giunta suprema di Governo (composta dal Principe Corsini, avv. Galletti e Conte Camerata) diretto ai popoli di Roma e dello Stato, nel quale annunzia di avere assunto l’incarico, sin che la Costituente (quale promette di dar opera onde venga convocata al più presto) abbia deliberato intorno al nostro ordine politico. — Si assicura che oggi sia partito il Generale Garibaldi ed altri esteri.
+
+
+Venerdì 22. — Circolano delle voci di dimissione data dal Ministro dell’Interno e Finanze Mamiani; ma nulla si è veduto di autentico.
+
+
+Sabato 23. — Oggi la Gazzetta ha annunziato la formazione di un nuovo Ministero, e la rinuncia del Conte Mamiani per ragione di salute. Presidente, col Ministero dell’Istruzione pubblica e interinalmente quello degli Affari Esteri, Monsignor Muzzarelli, Interno l’Avv. Armellini, Giustizia l’Avv. Galeotti, Finanze e Presidente di Polizia per Roma e Comarca Mariani,
+Sterbini, e Campello restano ai loro posti.
+
+
+Domenica 24. — Per ordine del Vicariato in tutte le chiese ove si celebrava l’ufficio e la messa in questa notte, si è trasportato a domattina.
+
+
+Lunedì 25. — Il Generale Gallieno comandante la Guardia Civica ha dato la sua dimissione e sinora non si conosce il successore. — Oggi il principe di Campagnano ha ricevuto un dispaccio del nuovo Ministro dell’interno Sig. Mariani in cui gli annunzia che ha disposto di provvedere all’impiego di Ispettore Generale delle Poste sinora da lui occupato. Simile annunzio hanno ricevuto il Principe Massimo, Sopraintendente Generale delle Poste.
+
+
+Martedì 26. — Questa mattina è ritornato da Gaeta il principe Barberini col figlio. — Questa mattina si è trovata [p. 62 modifica]affissa alla porta delle Patriarcali, e in molti altri luoghi di Roma una Protesta del Papa, colla quale dichiara nulli tutti gli atti fatti posteriormente al 15 novembre, e particolarmente l’istituzione della Suprema Giunta di Stato. Tale Protesta è stata da per tutto quasi subito staccata.
+
+
+Giovedì 28. — Questa mattina il Ministro dell’Interno, Armellini, avendo portato per la seconda volta al Consiglio dei Deputati il progetto di legge per la convocazione della Costituente, ed il Consiglio non essendosi trovato che in piccolissimo numero, il Ministero ha dichiarato chiusa la sessione dei Consigli e pare che domani la Giunta suprema di Stato pubblicherà in suo nome la legge sudetta. La Giunta è ridotta a due soggetti, cioè Galletti e Camerata, giacchè si dà per sicura la rinuncia del Principe Corsini.
+
+
+Venerdì 29. — Verso sera è stato affisso l’atto della convocazione della Costituente, ed all’Ave Maria il Castel S. Angelo ha fatto una Salve di 101 colpi di artiglieria, e le campane hanno suonato per un’ora. L’atto è sottoscritto dai due residuali membri della Giunta e da tutto il Ministero. — Il Sig. Masi è stato nominato Comandante della Guardia civica ed il Sig. De Angelis Capo dello Stato Maggiore.
+
+
+Domenica 31. — Un avviso del Municipio, affisso ieri sera e sottoscritto solamente dal segretario, annunzia che questa sera e domani sera vi saranno due orchestre sulla piazza del Popolo per festeggiare la pubblicazione seguita ier l’altro, esortando i cittadini a illuminare le abitazioni e addobbare le finestre. L’addobbo non è seguito quasi in nessun luogo. L’illuminazione questa sera è stata piuttosto scarsa, fuori poi del Corso si può dir nulla. — Al solito Te Deum al Gesù, ove solevano intervenire il Papa ed i Cardinali, ha assistito lo Stato Maggiore della Guardia Civica, e si dice anche il Ministero e la Giunta.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note
+
+↑ Questi era stato eletto Senatore sul fine del 1847; vedi parte I°. pag. 201.
+
+↑ Angelo Brunetti soprannominato comunemente Ciceruacchio che, uscito dal popolo, seppe acquistarsi fra questo una specie di primato negli anni famosi del 1848 e 1849.
+
+↑ Il Cardinal Altieri era presidente di Roma e Comarca, ufficio equivalente a quello dei nostri prefetti di provincia.
+
+↑ Il Silvani era morto il 4 novembre 1847; vedi parte I°, pag. 203.
+
+↑ L’Università degli Ebrei ogni anno doveva inviare tre rappresentanti a prestare omaggio ai Conservatori ed al Senatore di Roma nelle ore pomeridiane del primo Sabato di Carnevale. L’atto umiliante venne abolito da Pio IX col Motu-proprio del 1° ottobre 1847. Vedasi a questo proposito: Luigi Pompili - Olivieri. - Il Senato Romano - Roma 1886 - vol. II pag. 49-50.
+
+↑ Il Governo di Roma, in mezzo al grande dissesto finanziario in cui viveva, fu costretto a ricorrere a provvedimenti fiscali di varia natura; come si vede, e si vedrà meglio in seguito, in quei giorni non si facceva punto scrupolo di porre le mani sopra i beni appartenenti ai Luoghi Pii ed alle Congregazioni religiose. — Confr. Luigi Carlo Farini — Lo Stato Romano dal 1815 al 1850, Firenze 1850, vol. I pag. 285-309; vol. II pag. 47, 50.
+
+↑ La pacificazione non si ottenne invece che molto più tardi.
+
+↑ Gli Avvenimenti di Vienna giunsero a Roma molto esagerati; tanta era l’eccitazione degli animi in quei giorni che tutti prestarono piena fede a notizie che forse essi stessi avevano cooperato ad ingrandire. La bandiera dell’Alta Italia di cui qui si parla è il Tricolore.
+
+↑ I moccoletti, nel Carnevale ultimo, non erano stati tenuti, attese le tristi condizioni politiche dei popoli della Lombardia.
+
+↑ Questa preziosa reliquia, che si conservava in S. Pietro, era stata da tempo trafugata: vedi la nota del Diarista del 10 Marzo di questo stesso anno, pagg. 16 e 17.
+
+↑ Monsignor Corboli-Bussi, il più caro e devoto a Pio IX, fu mandato come Legato straordinario del Papa a Carlo Alberto, durante la campagna del 1848 in Lombardia con importanti missioni politiche. Confr. Luigi Carlo Farini - lib. cit. vol. II pag. 53.
+
+↑ La demolizione venne fatta di notte, perchè il volgo mormorava e censurava amaramente queste innovazioni che lo ponevano a contatto con gente che gli avevano insegnato ad odiare ed a disprezzare.
+
+↑ L’Allocuzione in parola è riportata dal Farini libr. cit. vol. II pagg. 92-98.
+
+↑ Alcuni di questi Cardinali erano dalla voce pubblica accusati di aver spinto il Papa alla famosa allocuzione del 29 aprile, e quindi contro di essi suonavano le minaccie della folla esasperata.
+
+↑ Il Motuproprio di cui si fa qui parola si può leggere per intero in Farini - libr. cit. pag. 106-108.
+
+↑ È questo il fatto d’armi dell’otto e nove maggio presso Cornuda, nel quale i volontari romani resistettero per due giorni agli Austriaci che stavano loro contro con forze numericamente molto superiori.
+
+↑ Il vero ispiratore di queste dimostrazioni fu il re, che non ebbe scrupolo di allearsi coi lazzaroni per riuscire nel suo intento liberticida.
+
+↑ L’Ab. Vincenzo Gioberti era venuto in Roma, come era già stato in altre città italiane, per preparare gli animi alla fusione della Lombardia e della Venezia col Piemonte, come anche per fare ossequio al Pontefice liberale.
+
+↑ Ved. Cugnoni - Vita di Luigi Maria Rezzi - Imola, Galeati, 1879 pag. 295.
+
+↑ II cambiamento avvenne ma durò poco e diè luogo a varie pasquinate. Confr. Pompili, libr. cit. pag. 154.
+
+↑ Era stato richiamato in Roma dal Ministero, con la speranza di toglier di mezzo alle truppe volontarie romane la causa principale della discordia che regnava e che le aveva divise in due partiti, regio e repubblicano.
+
+↑ Il fatto d’arme del 24 maggio a Vicenza è meritamente glorioso pel nome italiano e romano specialmente; sino al 10 Giugno i nostri tennero le posizioni occupate con mirabile valore, ma finalmente dovettero cedere davanti al sopraggiungere di numerose nuove forze austriache.
+
+↑ Ved. la nota del giorno 10 pag. 37.
+
+↑ Vedi la nota del giorno 10 a pag. 37 e quella del giorno 16 a pag. 38.
+
+↑ Questa fortezza già da tempo era in mano della forza austriaca.
+
+↑ Purtroppo i fatti d’arme dei quali si fa qua parola furono disastrosi per l’Italia, nel loro risultato finale; quando furono conosciute le notizie sul vero esito di essi, furono dimenticate le feste progettate ed in tutti subentrò uno scoramento ed una preoccupazione minacciosa.
+
+
+
+
+
+
+
+

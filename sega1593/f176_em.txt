@@ -1,0 +1,46 @@
+  it 0 ll -8233.6
+  it 10 ll -7762.5
+  it 20 ll -7691.6
+  it 30 ll -7607.9
+  it 40 ll -7554.0
+  it 50 ll -7526.7
+  it 60 ll -7509.8
+  it 70 ll -7499.8
+restart 0 ll -7494.7 45s
+restart 1 ll -7531.0 48s
+restart 2 ll -7531.0 64s
+restart 3 ll -7528.0 64s
+1 n=27 lrd l:0.35 r:0.33 d:0.20 pair ly 0.35
+2 n=111 aie a:0.63 i:0.23 e:0.05 pair an 0.63
+3 n=70 ali a:0.36 l:0.22 i:0.20 pair an 0.37
+4 n=111 nec n:0.37 e:0.31 c:0.10 pair er 0.4
+5 n=129 trl t:0.71 r:0.16 l:0.06 pair gt 0.71
+7 n=24 arp a:0.44 r:0.26 p:0.18 pair an 0.47
+8 n=92 mue m:0.29 u:0.19 e:0.19 pair mz 0.29
+9 n=49 nsh n:0.41 s:0.30 h:0.07 pair an 0.41
+10 n=49 fbr f:0.51 b:0.23 r:0.13 pair fs 0.51
+11 n=97 cde c:0.70 d:0.26 e:0.02 pair cp 0.7
+12 n=87 sdt s:0.53 d:0.21 t:0.10 pair fs 0.56
+15 n=271 ent e:0.77 n:0.11 t:0.06 pair er 0.77
+16 n=91 sni s:0.70 n:0.14 i:0.04 pair fs 0.7
+17 n=73 lgu l:0.50 g:0.19 u:0.16 pair ly 0.5
+18 n=27 rpo r:0.37 p:0.28 o:0.19 pair er 0.37
+19 n=60 upt u:0.61 p:0.21 t:0.06 pair hu 0.61
+20 n=68 ldu l:0.24 d:0.19 u:0.14 pair dq 0.25
+21 n=33 ouq o:0.44 u:0.24 q:0.15 pair bo 0.44
+22 n=26 uiq u:0.72 i:0.09 q:0.07 pair hu 0.72
+23 n=35 ogt o:0.70 g:0.18 t:0.10 pair bo 0.71
+24 n=62 rml r:0.50 m:0.32 l:0.10 pair er 0.51
+25 n=92 iun i:0.42 u:0.29 n:0.15 pair ix 0.42
+27 n=41 esd e:0.73 s:0.15 d:0.09 pair er 0.73
+29 n=50 vip v:0.30 i:0.28 p:0.17 pair ix 0.31
+30 n=53 tai t:0.42 a:0.32 i:0.19 pair gt 0.42
+31 n=141 eia e:0.32 i:0.14 a:0.13 pair er 0.4
+32 n=16 ecd e:0.30 c:0.25 d:0.25 pair dq 0.32
+33 n=95 oav o:0.74 a:0.17 v:0.04 pair bo 0.74
+35 n=83 enq e:0.43 n:0.33 q:0.07 pair er 0.44
+36 n=48 pad p:0.57 a:0.21 d:0.13 pair cp 0.57
+37 n=54 ier i:0.22 e:0.16 r:0.15 pair er 0.31
+38 n=19 ipl i:0.85 p:0.06 l:0.05 pair ix 0.85
+39 n=64 rsb r:0.65 s:0.12 b:0.08 pair er 0.65
+MAP {1: 'ly', 2: 'an', 3: 'an', 4: 'er', 5: 'gt', 7: 'an', 8: 'mz', 9: 'an', 10: 'fs', 11: 'cp', 12: 'fs', 15: 'er', 16: 'fs', 17: 'ly', 18: 'er', 19: 'hu', 20: 'dq', 21: 'bo', 22: 'hu', 23: 'bo', 24: 'er', 25: 'ix', 27: 'er', 29: 'ix', 30: 'gt', 31: 'er', 32: 'dq', 33: 'bo', 35: 'er', 36: 'cp', 37: 'er', 38: 'ix', 39: 'er'}
