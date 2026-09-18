@@ -8,7 +8,8 @@ fr = [float(v) for v in sys.argv[4:8]] if len(sys.argv) > 7 else [0.10, 0.12, 0.
 pct = '0,0,50,100' if side == 'left' else '50,0,50,100'
 src = f'hi/{name}.jpg'
 if not os.path.exists(src):
-    url = f'https://gallica.bnf.fr/iiif/ark:/12148/btv1b9061879d/f{canvas}/pct:{pct}/4400,/0/native.jpg'
+    ark = os.environ.get('ARK', 'btv1b9061879d')
+    url = f'https://gallica.bnf.fr/iiif/ark:/12148/{ark}/f{canvas}/pct:{pct}/4400,/0/native.jpg'
     open(src, 'wb').write(urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=240).read())
 im = ImageOps.autocontrast(Image.open(src).convert('L'), 1)
 W, H = im.size
