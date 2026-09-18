@@ -264,3 +264,30 @@ suggested it would. So the tool does not just anchor, it says which stretches ca
 **This is the piece that was missing.** Mining no longer depends on my judgement about where I am
 in the text: the landmarks fix position, the ratio audits the transcription, and only stretches
 that pass get labelled.
+
+
+## The audit calibrates the segmenter
+
+The segmenter's `gap` (how far apart two ink runs must be before they count as separate figures)
+had been set by eye — 18 on f. 196, 14 on f. 143 — with nothing to check it against. The ratio
+audit supplies the check, because the plaintext fixes how many figures a stretch *must* contain.
+
+Boxes found on f. 18r's first three full cipher lines, by gap:
+
+| gap | boxes per line | total |
+|---|---|---|
+| 8 | 37, 35, 38 | **110** |
+| 10 | 36, 35, 33 | 104 |
+| 12 | 32, 35, 31 | 98 |
+| 14 | 29, 35, 31 | 95 |
+| 16 | 28, 31, 26 | 85 |
+| 18 | 24, 24, 23 | 71 |
+
+f. 19r's first two lines hold 128 letters, so those cipher lines must carry roughly 120–130
+figures. **Gap 8 is the setting**; 18 — what the hand-labelling on line 2 used — was losing nearly
+a third of the figures by merging them, which is exactly why that line threw up so many `MULTI`
+boxes and why the second stretch audited at 1.71.
+
+So the free parameter that has been guessed at throughout this target is now pinned by
+measurement. Re-segmenting at gap 8 and re-running `align.py` is the immediate next step, and the
+audit will say whether it worked before anything is labelled.
