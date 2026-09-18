@@ -496,3 +496,5 @@ f2984/
 raince/feats.npy
 raince/post.npy
 raince/img/idx/
+# sormano: downloaded Gallica page images and crops
+sormano/raw/
