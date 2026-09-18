@@ -170,6 +170,11 @@ n-with-cross-tail is M, not Y). His two 7-forms — plain 7 = D, 7 with a small 
 *franceses*, and the clusters separate them where the eye at this resolution does not; the hybrid decode now runs
 with Lasry's assignment for both.
 
+A word-segmentation pass over the hybrid decode with a Spanish lexicon (`f122r_words.txt`, non-words bracketed) is the
+honest measure of where it stands: only the eye-checked stretches segment into words; most lines are still runs of
+letters in which the verified signs are right and the filled ones are guesses. Lines 14–16 add *…que aca… con ha…*,
+*…quedar… que… Francia…*, *…si a tratado… que gouernad… pero*.
+
 What is not done: about a quarter of the glyphs are model-filled, and the `~` stretches of `f122r_hybrid.txt` are
 plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
 strips, correct the machine letter where the sign disagrees, resolve the 7-forms by cluster — and f. 122v (five
