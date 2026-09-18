@@ -30,7 +30,8 @@ CODE = {  # code groups -> words / syllables
     # from N.45 (Apr 1511), agent alignment
     'plut': 'ni', 'fen': 'esto', 'fio': 'ferrara', 'dur': 'duque', 'poj': 'rey', 'rug': 'parte',
     'mag': 'otro', 'peh': 'quiere', 'mef': 'manera', 'heg': 'haveys', 'dex': 'deve', 'fae': 'dicha',
-    'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho',
+    'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho', 'dez': 'dezir', 'hah': 'he', 'foo': 'ducados', 'dot': 'dos',
+    'gol': 'alguna', '&': '·',
 }
 
 def decode(tokens):
