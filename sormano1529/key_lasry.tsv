@@ -1,0 +1,47 @@
+# Sormano's cipher (BnF fr. 3096, 1529), key broken by George Lasry in 2023.
+# Transcribed here from the exemplar table on S. Tomokiyo, "French Ciphers during the Reign of Francis I",
+# cryptiana.web.fc2.com/code/francis.htm, section "Sormano's Cipher", image GL/BnF_fr3096_f113.png
+# (saved as src/lasry_sormano_key.png). The table is built from our own glossed control f. 113 and gives
+# about ten handwritten exemplars per value, which is what makes eye-identification reliable.
+# A homophonic symbol cipher: 4 forms for a, 4 for e, 4 for i, 3 for o, 4 for u/v, plus doubles CC and LL.
+glyph_shape	value	note
+capital V	a	4 forms for a
+round U	a
+pi with a tick / apostrophe	a	distinguish from the clean pi = n
+figure 3	a
+tau / small t	b	only 2 exemplars in the table
+closed triangle	c
+two crossed bars (like a double-struck =)	cc	doubled letter
+c or e with a tail (like a reversed epsilon)	d
+pi with a tick, taller	e	4 forms for e
+k	e
+Gamma / r-like	e
+figure 7	e
+double f (ff)	f
+capital S	g
+capital E	h
+capital Y	i	4 forms for i
+circle with a central dot	i	NOT a stop mark, as I had guessed
+capital P	i
+figure 4	i
+square with a central dot	ll	doubled letter
+figure 9	l	the value that unblocks "calzolite"
+g with a crossed tail	m
+clean pi	n
+U with a vertical stroke (Cyrillic-like Ц)	o	3 forms for o
+plain vertical stroke (like 1)	o
+delta / figure-8 form	o
+figure 6	p
+inverted triangle	q
+capital Q	r
+T with a double crossbar	s	2 forms for s
+reversed C (like an open-left square)	s
+chi / small x	t
+capital T	v	4 forms for u/v
+alpha	v
+Y with a mark	v
+capital H	v
+large X	x
+# Not in Lasry's table: z, and any null or nomenclator. The goal description for this item claims further
+# additions proved on the leaves - a null (tall looped sign), a crossbarred long-s = e, and a DUCA
+# nomenclator (large double circle) - which would be beyond this table and are not yet verified here.

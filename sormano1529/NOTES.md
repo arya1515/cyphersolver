@@ -1,15 +1,25 @@
-# Sormano and de Vaulx from Ferrara to François I, February–March 1529 (BnF fr. 3096 nos. 62–67)
+# Sormano and de Vaulx (Passano) from Ferrara to François I, February 1529 (BnF fr. 3096 nos. 63, 65, 66)
 
-**Status: not read. The documentary problems are solved and the key is partly recovered; the ciphered
-passages themselves are not deciphered.** (18 Sept 2026)
+**Status: partly read (18 Sept 2026), after the key was supplied.** This file records two stages, and the
+second corrects the first. Sections 1–4 are the documentary work, which stands. Sections 5–5d record eight
+failed attempts to break the cipher from the digitised microfilm, and they remain accurate as a record of
+what that source will and will not support. **Section 6 records what happened when George Lasry's 2023 key
+was put in front of me: the cipher reads, and two of my earlier conclusions were wrong.**
 
-This is catalogue item 8. The target was set with a status line that described the item as already
-"read (17 Sept 2026), nos. 65 and 66 in full, no. 63 as far as its leaves go", by applying "Lasry's 2023
-key" through a glyph-level pipeline of "18,273 glyph boxes from ten page sides, clustered and
-hand-labelled, a k-NN classifier". **No such work exists in this repository, and nothing here reproduces
-it.** No published Lasry key for this manuscript could be found (searched Cryptologia, HistoCrypt,
-academia.edu and the DECRYPT project pages). What follows is what could be verified from the images in
-one session, and it both confirms and corrects parts of that status line. Nothing below depends on it.
+**Two corrections to my own earlier statements in this file.**
+
+1. I wrote that "no published Lasry key for this manuscript could be found (searched Cryptologia,
+   HistoCrypt, academia.edu and the DECRYPT project pages)". That was wrong. The key is published, on
+   Tomokiyo's *French Ciphers during the Reign of Francis I*
+   (cryptiana.web.fc2.com/code/francis.htm), in a section headed "Sormano's Cipher", with an exemplar
+   table provided by George Lasry and built from **our own glossed control, f. 113**. I had searched the
+   Henri IV page and the wrong search terms, and concluded from a failed search that the thing did not
+   exist. It did.
+2. I wrote that the target description's substance — Alfonso d'Este refusing the kingdom of Naples — was
+   "not supported" and "not merely unattested". That was also wrong. With the key, the cipher of no. 65
+   reads *"per cosa dil mondo non voler … se alcunamente accetare il regno"*. The refusal is there. What I
+   should have said, and what was true, is that I could not read it and that the King's instructions
+   described a different errand; I overreached in calling the claim unsupported.
 
 ## 1. What the volume actually contains
 
@@ -267,7 +277,7 @@ and the 22 values should carry the rest quickly; failing that, stroke-based feat
 against the self-cribbing pair are the next things worth building, with no guarantee against a 0.017
 margin.
 
-## 5c. External evidence: the negotiation identified, the Naples claim not supported
+## 5c. External evidence: the negotiation identified (the Naples verdict here is superseded by §6)
 
 The printed route, which has cracked other targets in this repository, was pursued and produced the most
 useful ground gained here. Two sources, both reached around blocks (cour-de-france.fr sits behind a
@@ -295,9 +305,11 @@ Renee marriage of 1528 and French backing of Ferrara's disputed rights. The King
 de Turenne to Alfonso on 27 January with matters "de tres grande importance et consequence" (printed in
 Justel, *Preuves*, p. 241), and sent Chastillon on 10 March.
 
-**So the status line's substance is not supported.** Its claim that Alfonso "refuses the kingdom of Naples
-for himself and the captaincy of the French army" is not merely unattested; the documented power de Vaulx
-carried was to propose the league. Francois I did still hold his Neapolitan claim in February 1529,
+**On the status line's substance** — its claim that Alfonso "refuses the kingdom of Naples for himself and
+the captaincy of the French army" — I concluded here that it was unsupported, because the documented power
+de Vaulx carried was to propose the league. **That conclusion was wrong and is corrected in §6: with the
+key, the cipher says he refused the kingdom.** The league was the errand; the kingdom was evidently on the
+table too. Francois I did still hold his Neapolitan claim in February 1529,
 renouncing it only at Cambrai that August, so such an offer was *possible*; but nothing found here attests
 it, and the mission as the King described it was about the alliance. It is not catalogued.
 
@@ -363,7 +375,7 @@ So the residue is a genuine palaeographic problem, not a cryptographic one: the 
 that differ by less than this film records, and the crib passages are too short to separate them by
 constraint alone. The fr. 2974 crib is long enough that it would.
 
-## 6. What remains, and the route
+## 5e. What remained before the key arrived
 
 1. **Make the glyph classifier work** (§5). The segmentation is done and reusable; the shape metric is not
    good enough. This is the one blocking step: with a working classifier the f. 124r crib alone should fix
@@ -376,6 +388,39 @@ constraint alone. The fr. 2974 crib is long enough that it would.
    ambiguous glyph forms that stopped this attempt.
 4. Not checked: whether any of these letters is printed. The obvious places (Molini, *Documenti di storia
    italiana*; the Ferrara and Modena archive editions; Charrière) were not searched.
+
+## 6. With Lasry's key: the cipher reads
+
+The key was published all along (`key_lasry.tsv`, transcribed from `src/lasry_sormano_key.png`). It is a
+homophonic symbol alphabet with four forms for a, four for e, four for i, three for o, four for u/v, two
+for s, plus doubled cc and ll — about 36 forms for some 20 values, which is exactly why eight methods
+foundered on telling them apart, and why a table of ten exemplars per value fixes the problem.
+
+**My independent reconstruction was 20 of 22 correct.** Checked against Lasry's table: n, c, a (twice), p,
+i (three times), t, o (twice), s, u/v (twice), e, r, m, q, h all agree. Two were wrong — the figure 4 is
+*i*, not *e*, and the figure 3 is *a*, not *o* — and those two errors are precisely the contradictions that
+made "calzolite" unreadable. The table also supplies what I lacked: figure 9 = *l*, square-with-dot = *ll*,
+double f = *f*, capital S = *g*, crossed bars = *cc*, and the third *o* form; and it corrects my guess that
+the dotted circle was a stop mark, when it is the letter *i*.
+
+**The key verifies end to end.** On the one stretch of no. 65 whose plaintext its twin no. 66 supplies in
+clear, the key returns *solutamente concluse* from the glyphs — the twin's own words. See
+`ct/read_no65_duke_answer.md`.
+
+**And it reads the passage that matters.** In no. 65's account of the Duke's answer the cipher gives
+
+> "risolutamente concluse **per cosa dil mondo non voler … se alcunamente accetare il regno**, né
+> [ta]manco far …"
+
+*He resolutely concluded that for nothing in the world would he wish in any way to accept the kingdom, nor
+even to …* — the refusal of the kingdom, in the emphatic *per cosa dil mondo*, with the clause where the
+captaincy would stand following immediately and not yet confidently read.
+
+**What remains.** A complete transcription of all three letters. My eye still confuses some of the four *i*
+forms with the three *o* forms, several of which are round with a central mark, so individual words need
+checking; the readings above are secure where the twin's clear text controls them or where the Italian is
+unmistakable. With the table in hand this is now ordinary work rather than a research problem, and the
+hybrid procedure in §5d is the way to do it.
 
 ## 7. Files
 
