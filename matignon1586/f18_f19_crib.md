@@ -739,3 +739,48 @@ narrows from line to line, and so does the right gap. The landmark gives the fix
 between two code groups has a known figure count, and the gap for that line is whatever makes the
 boxes match it. Line 3's exemplars were cut at the wrong gap and are suspect despite auditing at
 background, and they should be re-cut before anything else is mined.
+
+
+## Forced alignment, a cleaned set, and an honest score
+
+`forcealign.py` aligns a line's boxes to its known plaintext **by content** — each box scored against
+each letter's exemplars, and a DP choosing whether a box takes one letter, two (a digraph, or two
+figures merged), none (a null or a fragment), or shares one letter with its neighbour (a figure the
+segmenter split). On line 3 it found by itself what the counts could only hint at:
+
+```
+1:r 2:e 3:e 4:t 5:c 6:o 7:n 8:s 9:e 10:i 11:l 12:d  13-14:a 15-16:s 17-18:s 19-20:e 21-22:m
+23-24:b 25-26:l 27-28:e 29:- 30-31:r 32:- 33:- 34-35:d
+```
+
+The first twelve boxes pair one-to-one and **confirm the hand labels exactly**; from box 13 on,
+**every figure is split in two**. The old labels on boxes 13–35 — one letter per box, running on
+into *castillebour* — were wrong from start to finish.
+
+Rejected in this pass: the over-split line-3 batch (23), and the merged-pair crops minted from the
+alignment (10), which audited at 80 % because a crop of two boxes is a different shape from a crop
+of one whatever its label. With the earlier 35, **58 exemplars rejected in all**, kept in
+`exemplars/rejected/` for the record. Disagreement on the clean set fell from ~60 % to **52 %**, and
+the drop was across every batch, not just the ones touched: a bad batch pollutes its neighbours'
+matches.
+
+### The score, rebuilt honestly
+
+The old baseline scored line 3 against *"re et conseil dassembler de castillebourg"*. Line 3 does
+not carry that; it ends at *d'assembler d*. So the earlier 94 % was measured against a wrong truth.
+`baseline.py` now uses the landmark-corrected plaintext and separates the lines that read their own
+exemplars from the one that does not:
+
+```
+f.18r l2   30/46  =  65.2 %   s tel est a ie rtie e plustost que i ssions ie uasa
+f.18r l3   15/22  =  68.2 %   re et conseil dit saint cli iuste pere et su
+f.18r l4   31/33  =  93.9 %   e castille bourg ou lontes et que i auois   (partly circular)
+f.18r l5   17/17  = 100.0 %   plus d instruction se il lio                  (partly circular)
+
+non-circular   45/68 = 66.2 %   <- the number to watch
+```
+
+Lines 4 and 5 reading at 94 % and 100 % mostly shows the anchored labels are *consistent* — it does
+not show the pipeline can read unseen text, because their exemplars came from them. **The honest
+figure is 66 %**, on lines whose exemplars did not come from themselves. Everything claimed from here
+on should move that number.

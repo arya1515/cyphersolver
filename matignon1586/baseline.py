@@ -1,27 +1,34 @@
-"""Measured baseline for the figures-to-French pipeline, so a later pass can tell whether it helped.
+"""Measured baseline for the figures-to-French pipeline.
 
-Character overlap against the crib's known plaintext on three lines of f. 18r. The measure is
-generous (longest-common-subsequence blocks) but it is the same measure every time, which is the
-point: a number to beat rather than an impression of the output.
+Truths are f. 19r's plaintext as corrected by the code-group landmarks (see f18_f19_crib.md): line 3
+carries only "re et conseil d'assembler d" - earlier baselines scored it against a longer, wrong
+truth - and line 4 opens "e castillebourg" and reads "j'avois", not "je n'avois".
+
+Lines 4 and 5 are partly circular: their exemplars were cut from them, albeit labelled by the
+code-14 anchor rather than by hand. Line 2 is the honest control - its exemplars have not changed
+since it was hand-labelled, so movement there comes from the rest of the set.
 """
-import difflib
-CASES = [
- ("f.18r l2", "ste f est a bert ie e plustost que es sions ueue et",
-              "ste fust aduertie et plustost que nous eussions uictoi"),
- ("f.18r l3", "re et conseil des sembler de castille bour",
-              "re et conseil dassembler de castillebourg"),
- ("f.18r l4", "que ou lon feis tel lon ou loit ie quels i est",
-              "g ou lon feist que ie nauois plus dinstruction"),
-]
-def score(cases=CASES):
-    tot_r = tot_n = 0
-    for name, got, truth in cases:
-        g, t = got.replace(' ',''), truth.replace(' ','')
-        m = sum(b.size for b in difflib.SequenceMatcher(None, g, t).get_matching_blocks())
-        tot_r += m; tot_n += len(t)
-        print(f'  {name}: {m:3d}/{len(t):3d} = {100*m/len(t):5.1f} %')
-    print(f'  overall {tot_r}/{tot_n} = {100*tot_r/tot_n:.1f} %')
-    return tot_r/tot_n
+import difflib, subprocess, sys, re
+TRUTH = {2: "ste fust aduertie et plustost que nous eussions uictoi",
+         3: "re et conseil dassembler d",
+         4: "e castillebourg ou lon feist que iauois",
+         5: "plus dinstructions"}
+CIRCULAR = {4, 5}
+def read_lines():
+    out = subprocess.run([sys.executable, 'readleaf.py', 'hi/f18rflat.png', 'f18r_lines.txt', '14',
+                          ','.join(map(str, TRUTH))], capture_output=True, text=True).stdout
+    return {int(m.group(1)): m.group(2) for m in re.finditer(r'line\s+(\d+) \(\d+ figures\): (.*)', out)}
+def score():
+    got = read_lines(); tr = tn = 0; hr = hn = 0
+    for ln, t in TRUTH.items():
+        g = got.get(ln, '').replace(' ', ''); tt = t.replace(' ', '')
+        g = g[:len(tt) + 6]                              # do not credit text past the truth's end
+        m = sum(b.size for b in difflib.SequenceMatcher(None, g, tt).get_matching_blocks())
+        tr += m; tn += len(tt)
+        if ln not in CIRCULAR: hr += m; hn += len(tt)
+        flag = '  (partly circular)' if ln in CIRCULAR else ''
+        print(f'  f.18r l{ln}: {m:3d}/{len(tt):3d} = {100*m/len(tt):5.1f} %   {got.get(ln,"")}{flag}')
+    print(f'  all lines        {tr}/{tn} = {100*tr/tn:.1f} %')
+    print(f'  non-circular     {hr}/{hn} = {100*hr/hn:.1f} %   <- the number to watch')
 if __name__ == '__main__':
-    print('2026-09-17  79 exemplars / 17 of 22 letters / gap 14, bonus 1.6, code floor 0.93')
     score()
