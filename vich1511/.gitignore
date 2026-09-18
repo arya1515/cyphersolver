@@ -3,3 +3,6 @@ lines/
 half/
 crops/
 *.html
+*.png
+n73_solve_*.txt
+__pycache__/
