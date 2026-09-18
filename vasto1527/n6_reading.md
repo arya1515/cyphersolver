@@ -2,8 +2,7 @@
 
 The catalogue lists this as "Rapport, en espagnol, avec chiffre, à l'empereur" (no author). It is del Vasto's.
 It opens "A seis de noviembre escrivi a V. M. muy largo y tanbien a xxvij de setiembre, cuyos duplicados
-van con esta", names Juan Baptista Castaldo as bearer, and is written in the same secretary's hand as nos. 10
-and 19. The Prince of Orange is "ido/venido" and is about to take command, which dates it to early December 1527.
+van con esta", and reports the agreement for the Pope's liberty "y de los cardenales". Del Vasto stays in Rome only until the Prince of Orange arrives, "el qual se espera que verna de aqui a tres dias", which dates it to early December 1527.
 
 **Cipher.** This is Lasry's "Gasto–Charles V Cipher 2": a Caesar +1 substitution over a 21-letter alphabet,
 with homophones, plus a nomenclator of three-letter groups beginning with b-, c- or d-. Lasry's preliminary

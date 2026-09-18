@@ -53,6 +53,7 @@
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
@@ -156,7 +157,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "9d8ac74cace1",
+   "hash": "da51d8867d5d",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -241,7 +242,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "b68f61e13df4",
+   "hash": "73fcd857cda7",
    "updated": "2026-09-18"
   },
   "sormano": {
@@ -268,6 +269,11 @@
    "first": "2026-09-16",
    "hash": "e49e8e334d8e",
    "updated": "2026-09-16"
+  },
+  "vasto1527": {
+   "first": "2026-09-18",
+   "hash": "7791a018a971",
+   "updated": "2026-09-18"
   },
   "vatican": {
    "first": "2026-09-15",
