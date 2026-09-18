@@ -642,3 +642,28 @@ f. 19r transcribed, which is the same gate as everything else here.
 
 That is worth recording plainly, because the alternative was to note that the output looked better,
 call the mining a success, and carry on. It did look better. The number says we cannot yet tell.
+
+
+## Figure-unit arithmetic, and a prediction that lands
+
+Counting the plaintext in *figure units* — one per letter, one per coded word — places any passage
+on the cipher without transcribing a figure. Checked against the two stretches already labelled by
+hand, it runs about **four units long over 125**, and the reason is digraph figures: the doubled-s
+that reads *ss* swallows a letter, and there are others. So the arithmetic locates a **line**
+reliably and a **box** only to ±4.
+
+That is still enough to predict. f. 19r line 4 — *"…de la ville qui estoient fort estonnez"* — puts
+the code group for *qui* near f. 18r line 8, box 26. Rendering that line's boxes:
+
+* **box 29 carries a code group `14`** — three boxes later than predicted, inside the known drift,
+  and *que* for *qui* is the clerk's latitude, not an error. **The prediction lands.**
+* **box 24 carries `82`.** Tomokiyo's nomenclature gives **82 = le Prince de Condé**.
+
+The second is the first piece of *content* this crib has yielded that is not already in the clear on
+f. 19: a code group naming Condé, in a despatch about the Guyenne siege, four boxes from a *qui*
+that the decipherment puts in the middle of *"les habitans de la ville qui estoient fort estonnez"*.
+Whatever f. 19 says at that point, the figure says **Condé**.
+
+It also adds a sixth landmark — `14`, `25`, `52`, `24`, `35`, `82` — and confirms that scanning a
+line for numerals is the cheapest way to find them, since they stand out among letter-shapes without
+any matching at all.
