@@ -5,7 +5,8 @@ import sys, io, itertools, statistics
 from family import code2ch, CONS, VOW, make_table, score_codes
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 KNOWN = {'swatow1916': (8, 'eaiou', 0), 'shanghai1917': (7, 'aeuoi', 0),
-         'shanghai1916': (0, 'ioaeu', 1), 'manila1916': (4, 'oeuai', 0)}   # (rotation, vowel order, reversed)
+         'shanghai1916': (0, 'ioaeu', 1), 'manila1916': (4, 'oeuai', 0), 'yamada1916': (12, 'euioa', 0),
+         'seito1916': (9, 'uieoa', 0), 'sanfran1916': (17, 'oeuai', 0)}   # (rotation, vowel order, reversed)
 def segs_of(words):
     segs, cur, pos = [], [], 0
     for w in words:

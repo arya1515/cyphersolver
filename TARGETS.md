@@ -57,6 +57,7 @@ Tomokiyo, who solicits contributions on the page.
 | Ormonde-Maltravers Cipher (1634-1635) | solved: alphabet recovered, both passages read, nomenclator confirmed from Knowler 1739 (185/149 unidentified) | `ormonde/`, docs/ormonde.html |
 | Undeciphered Superscription by Hyde (1659-1660) | not a cipher — dummy numbers (1724 editor) | `hyde/`, docs/hyde.html |
 | Telegram to Sun Yat-sen (1916) | solved | `sunyatsen/`, docs/sunyatsen.html |
+| Sun Yat-sen intercepted telegrams, JACAR 1.6.1.4-2-1-2 vols 2–4 (1916–17) | mostly solved 2026-09-18 | `sunyatsen/y1916/NOTES.md`, `sunyatsen/y1917/NOTES.md`; open: 文密 six-vowel code (Jul 1916–Jun 1917), Swatow original not in 088300/088400 |
 | Letter of Richard Forster (1644) | found already read by others (Lasry, Biermann, Pitt Sept 2026); alphabet verified blind here, 31/34 symbols | `forster/` |
 | Variable-length figure code, Austrian archives: DECODE R2159 (1644) | read in full; polyphonic 24-figure alphabet | `lucca/`, docs/lucca.html |
 | Variable-length figure code, Austrian archives: DECODE R1408 (Warsaw 1627) | read in full; ordered alphabet with syllables, nulls and word codes | `warsaw/`, docs/warsaw.html |

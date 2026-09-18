@@ -124,3 +124,9 @@ Tomokiyo transcribed it; there is no h/n or e/c ambiguity to exploit here as the
 `zpo ngobunibai` cannot be parsed into consonant-vowel pairs at any edit distance of three or less (`tail.py`), and
 the three lost characters stay lost. The "high-resolution look" this file asked for has been taken and closes
 the point.
+
+## The wider series (2026-09-18)
+
+The Ministry of Communications' intercept files (JACAR B03050088300 … B03050090200) hold dozens more telegrams
+in the same condenser family, each correspondent with its own key. See `y1916/NOTES.md` and `y1917/NOTES.md`. The Swatow
+operator original is not in B03050088300 or B03050088400.
