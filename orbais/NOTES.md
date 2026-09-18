@@ -41,7 +41,32 @@ These readings are new (cribs from context, all mutually consistent):
 - Signature: "vostre treshumble servit[eu]r **2 V ⊡ m ħ** p[rese]nte ses treshumbles recommandations": b-a-r-o-? (2=b as in
   the key). The name is probably **Baron** or Barot. The annealer also lands on "baron" in every run.
 
-## Open groups
+## Sign values from fr. 4715 f. 2 (same cipher, decipherment written ABOVE each cipher line)
+
+Aligned word by word:
+
+- line 1: "[jay] receu vre" = ʃ ⊡ θ 8 y ɔ b ⊡ x̶
+- line 2: "encores … nouveles de … qui … madame" = θ H W ce m x̶ ÷ … ◻ ce ◻′ φ x̶ + y ÷ · 1 · ε · ∇ − 7 ɔ x y
+- line 3: "aurez subiect d'estre satisf[aict] de nous … Je loue Dieu … aultant de content"
+  = ω ɔ m θ Δ · ÷ b z g θ W ꝏ · 7 θ q δ m x̶ · q v δ 9 q … 1 · H ce ɔ ÷ … + ce ɔ θ · 3 ẋ θ ɔ … ω φ + δ − ◻ ꝏ · 1 · 8 ce ◻ δ y ◻ ꝏ
+- line 4: "monde" = ∇ ce ◻ 7 θ; "desiré" = 7 θ q 9 m y; "bien" = z 9 θ ◻; "home" = 4 ce ÿ y
+- later: "chacun" = W 4 v 8 ɔ ◻
+
+This confirms Tomokiyo's 4=h, 3=d, 8=c, 1=de, ε=qui, ∇=m, +=l, φ=u/v, y=e, and adds 7=d, z=b, H=n, δ=t, q=s, g=i, ẋ (dotted x)=i.
+In 4715 the plain m is r, but in no. 62 the tailed m is o ("protection", "Baron").
+
+## Further readings in no. 62 using these values
+
+- **S1: "b 1 6 Ⱥ ÷ W 4 æ ⊡ − | ʃ" = "[b] de-pesche-ra [ʃ]"**, i.e. "…**depeschera** … dedans deux jours …". 1 is the code for de,
+  6=p, W 4=ch. The first b is probably a code sign for the subject (the Pope?). ʃ is t in the key, or a code.
+- **G: "Depuis que ⌘ Ƒ τ x̶ tt ◻ ∇ V 9 | ooo ⊡ Ⱥ" = "[⌘ Ƒ τ] mon maitre a esté retiré"**. The second line has the *dotted*
+  square (r), so the tail is t-r-e; ∇=m. It is probably "Monseigneur le Cardinal mon maitre" (⌘, Ƒ, τ = code signs).
+- S2 "Ƒ 3 tt h Ⱥ ◻" = "? d o ? e n". If Ƒ = "le" (as in G), this reads "le **doyen**" (h=y), which is a guess.
+- C "φ tt o V æ ʃ ÷" = "vo? a ? t s". Possibly "vo[s] faits" (reading o as f, æ as i), but that is not supported by the key.
+- I "W tt ◻ Ⱥ 9 ⊡ x̶ x̶" = "c o n e i r (+2 nulls?)". Not resolved.
+- H "ʃ ɔ θ ɸ ɔ ◻ η − 7 6 ɸ 2". Not resolved.
+
+## Open groups (original notes)
 
 Transcription labels as in `solve.py`:
 
@@ -71,8 +96,17 @@ So the table can't be applied blindly.
 
 ## Status
 
-The bound keys are **tested and none fits**. The cipher is identified as Tomokiyo's Nevers-Piles alphabet. The letter's
-substance is in clear (above). The cipher groups are read **in part**: Cassin, "la protection", "vostre", the signature
-b-a-r-o-?. About 5 groups (~55 signs) remain unread. They need the fr. 4715 f. 2 transcription or the fr. 3612 key.
+The bound keys were **tested, and none fits**. The cipher is Tomokiyo's Nevers-Piles alphabet, whose values are
+supplemented from fr. 4715 f. 2. The letter's substance is in clear.
+
+Cipher groups read so far:
+- **Mons. Cassin**
+- **la protection**
+- **vostre regne**
+- **depeschera**
+- **… mon maitre a esté retiré**
+- the signature **Baron**. A "Sr Baron" writes in the same 1593 League dossier as Piles (Gallica btv1b9059406b, piece u).
+
+Still open, about 30 signs: the code signs ⌘ Ƒ τ ʃ, and groups C, H and I.
 
 Images: `img/` (git-ignored). Crops `grp_*.jpg` show each cipher group at native resolution.
