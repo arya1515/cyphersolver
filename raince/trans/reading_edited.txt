@@ -1,0 +1,151 @@
+# Nicolas Raince to Anne de Montmorency: the ciphered residue of BnF fr. 2984, read
+
+Read 17 September 2026 off the Gallica microfilm (ark btv1b90598430) with Tomokiyo's 1526 key
+as re-measured in CALIBRATION.md. 86 of the 106 lines were read glyph by glyph against
+numbered-token images (gold/labels.txt); the machine decode was used only to scaffold the
+reading, never to fill a gap. Word division and the expansion of abbreviations are editorial.
+
+Conventions
+  …        a stretch that did not resolve; nothing is supplied by conjecture
+  [ ]      letters supplied by the editor where the sense is certain
+  (?)      a reading that fits the glyphs and the sense but is not secure
+  (con)    the *con* word sign; (l'empereur), (le pape) likewise
+  ·        the unidentified bold double-barred glyph, which always falls at a clause
+           boundary and is probably a point or a fourth null (see NOTES.md)
+  -        a word broken at the end of a line and continued on the next
+
+Lines are numbered within the segmented region, not from the top of the page: p. 29 line 01
+here is line 11 of the leaf (lines 1–10 carry the contemporary gloss and were not segmented).
+
+--------------------------------------------------------------------------------
+p. 29 — 13 May 1526, first ciphered page (lines 11–35 of the leaf)
+--------------------------------------------------------------------------------
+
+03  … de la ca[pi]tulation faicte …
+05  … qu'en sera perpetuelle memoire, et qu'il ne cesser[a]
+06  jamais qu'il n'ayt destruict ledict seigneur …
+07  … d'autres propo[s] … ains de vert[u] et mensonges … il s'est …
+08  … court … depuis …
+09  … ensemble … les bourguignons …
+10  … ont receu … de Castille, qu'ilz disent …
+11  et (con)duict ensuivie(?) pour perdre la belle occasion qu'il avoi-
+12  -t … et que sans eul[x] il avoit delib-
+13  -eré prendre le chemin de Valence … à ceste fin, et qu'il ne voul-
+14  -oyent qu'il feust … si grant seigneur. Les castilliens li-
+15  -sent(?) au (con)traire que lesdessusdict[z] sont … cas …
+16  … et qu'il[z] seront cause de la destruction, de la part d'avoir faic-
+17  -t capituler avec … pour … France(?), et sont bien [en]voyé de se
+18  rompre … Ledict He[rr]er[a](?) doit partir de
+19  dans deux ou troys jours pour s'en retourner, et …
+20  …s qui estoit en la court de Savoye est party pour venir icy.
+21  Si la … quelque chose de … vous en serez … adverty[z]
+22  · Monseigneur … estant aujourd'huy avec … il m'a parlé,
+23  encores, entre autres choses, bien longuement de … et de
+24  monseigneur … et m'a chargé vous faire … à tous de …
+25  … [tres]humbles recommandations. Et n'est possible … monstrer plus a[ffe]-
+
+--------------------------------------------------------------------------------
+p. 30 — 13 May 1526, second page (whole)
+--------------------------------------------------------------------------------
+
+01  -ction, et à vous faire tous services et plaisirs · qu'il est. (L'empereur) est
+02  esbay de ce que … n'a escript autrement, aucune(?) part deça, depuis s-
+03  -on retour … en son royaume; et m'en a parlé plusieurs fois, mesm-
+04  -ement que ledict seigneur n'a envoyé quelque personaige pour vi-
+05  -siter de sa part, pour autant que messire Ca?in n'avoit faicte
+06  [faict] entendre, à son retour de …, que mondict seigneur l'Admiral luy av-
+07  -oit dict que seroit celuy qui y tiendroit. J'ay tousiours
+08  respondu à ce que ce qu'on a envoyé d'icy et de Venise par devers
+09  ledict seigneur … n'estre besoing aussi.
+10  Ledict messire Ca?in y a satisfaict par ses lettres · qui est
+11  le tout autant, et que ce … n'est faict que pour bon respect, qui n'
+12  est accepté de luy en satisfaction; s'en est bien …aincte à moy de
+13  deux ou trois fois qui a[voit] deu venir à Rome … de l'espece dessusdi-
+14  -cte, disant prendre tout pour le mieul[x] … Bien est vray, monsei-
+15  -gneur, que … des foys … qui deust cause de …
+16  -bahyr, et que ce qu'il avoit faict si soudainement … en veu[e] de y-
+17  … avec … pourroit causer occasion que l'on ne s'asseure … est en-
+18  -cores en tout de luy. Il respondit que ce temps là n'estoit pas e-
+19  … avoit eu … de quoy, monseigneur, je vous ay bien vou-
+20  -lu advertir, pour ce que j'a[y] … esté, et sont … encores
+21  … peu de doubte, mesmement pour ce qu'on ne s'escript p-
+22  -oint autrement, ne icy ne à Venise. Ledict … m'a faict vng discours
+23  … les beaulx … partit … que leur presente … disant que …
+24  … entendre ilz feroyent et asseureroyent leurs estat[z]
+25  sans … de despence, et leur promect … tout plaisir d'autres cho-
+26  -ses qui ont du vray semblable … ainsi feust que …
+27  en besoing … que non … et luy ay bien … respondu …
+28  …t il se seroit asseuré de … leur doneroit … en nostre …
+31  … endent bien, tout … ains …
+33  a esté donné à … que vng gentilhomme, duquel …
+34  … de France; escolle(?) … qu'il avoit envoyé …
+35  … à son retour … et ledict avoir sceu … court … tout ce qui se-
+
+--------------------------------------------------------------------------------
+p. 31 — 13 May 1526, third page (25 ciphered lines; the clear close follows,
+       transcribed in trans/p31_clear_close.txt)
+--------------------------------------------------------------------------------
+
+02  … Roche(?) pres de … verité, et c'est …
+05  … d'autant que j'ay peu … plus oultre … ay sceu …
+07  … [ce] qu'il ne luy [a]voit parler … cause de que … suspects
+08  … la peste qui est au logis … dudict Luc…
+09  a escript … croy, monseigneur, qu'à v… et ce que j'ay esté
+10  …s foys escript des advis qui viennent aux imperiaulx par leu[rs]
+11  …ens le fera … ne sçay pas où il …
+12  … point de faulte; cela porte, et port[e] …
+13  … es grant dommaige en toutes les sortes qu'on pourroit …
+14  …-er, car les gens ludict(?) sont nuyt et jour avec lesdict[z] …
+16  · [il] y ayt grant obligation pour les dommaiges qu'ilz disent ledict avoir s-
+17  v…ert pour luy voulan[t](?) …
+19  -mement cognoistre bien le personage et sa portee; mais ce qu…
+20  -lement j'en voy … advertir …
+21  …t un jour, en plaine place pres du palais, un nommé Pietro Anthonio …
+22  secretaire ou serviteur dudict, qui estoit icy pour luy …
+23  propos … quel estoit cause de tout le mal … deux ou trois fois
+25  … dict à me dire telles paroles(?) … est
+
+--------------------------------------------------------------------------------
+p. 105 — 20 November 1526 (the unglossed lower part of the leaf)
+--------------------------------------------------------------------------------
+
+01  … feust … trainct[é] en bref …
+02  …me, et s'en fuire; et que encores … luy feist … la grace
+03  … qui a … peust … faire s[e]cre[te]ment · et … pontif-
+04  -icat seroit la cause de la totale(?) ruine de sa maison, de-
+06  -rant … si pron…le …
+07  … est la plus gr[ande] … et ma…icte … la … pre-
+08  -sence de … que je escrip[s] … sent
+09  · … et que … l'on penseroit … y respondre de
+10  part de nature, l'in… ne de tro[uv]er … icy; et qu'il ne [e]s-
+11  -t jamais pensé que les choses … prinst, et le for[t]-
+13  sincerement … qu'il estoit … en besoing … faict
+14  …el que … et que l'i[n]convenient … peril à qu[oy] …
+17  …loit qu'il feist … ce q…
+18  faict … qu[e] …
+20  et aussi qu'il estoit … bien cler que n'estoit … dicte de
+
+--------------------------------------------------------------------------------
+What the ciphered passages are about
+--------------------------------------------------------------------------------
+
+The 13 May 1526 letter, written nine days before the League of Cognac was signed, reports
+on the Emperor's side of the negotiation and on the movement of agents: someone "qui estoit
+en la court de Savoye est party pour venir icy"; the Castilians and "les bourguignons";
+a plan to "prendre le chemin de Valence"; a capitulation already made, which "il[z] seront
+cause de la destruction … de la part d'avoir faict capituler"; an agent Herrera(?) who
+"doit partir … dans deux ou troys jours pour s'en retourner". Rome's own despatches are
+described as going "d'icy et de Venise par devers ledict seigneur", and the Emperor "est
+esbay de ce que … n'a escript autrement". The Admiral of France is quoted at second hand
+("mondict seigneur l'Admiral luy avoit dict que seroit celuy qui y tiendroit"). The plague
+is in Rome ("la peste qui est au logis"), advices reach the Imperials through their own
+people ("des advis qui viennent aux imperiaulx par leurs …"), a named man — Pietro Anthonio,
+secretary or servant of the same — was taken "un jour, en plaine place pres du palais", and
+there is talk of "grant obligation pour les dommaiges qu'ilz disent ledict avoir …".
+The clear close of the same letter, on p. 31, expects Andrea Doria at Civitavecchia within
+a day with six galleys and two brigantines.
+
+The 20 November letter, two months after the Colonna raid on the Vatican, turns on the
+Pope: a pontificate that "seroit la cause de la totale ruine de sa maison" — Clement VII
+and the Medici — with talk of doing something "secretement", of flight ("s'en fuire"), of
+"le peril à quoy", and of what "l'on penseroit".

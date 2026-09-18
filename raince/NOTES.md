@@ -151,6 +151,17 @@ pleine place pres du palais", "qu'il avoit envoye de … **Naples**", and on p. 
 20 November letter, "seroit la cause de la totale ruine de sa maison" — Clement VII and the
 Medici, two months after the Colonna raid on the Vatican.
 
+### The reading
+
+`trans/reading_edited.txt` is the reading: the ciphered residue of pp. 29-31 and p. 105 set out
+as running French, with editorial word division, `[ ]` for letters supplied, `(?)` for readings
+that fit but are not secure, and `...` for what did not resolve. **Nothing is supplied by
+conjecture**: a gap is left as a gap. 86 of the 106 lines were read glyph by glyph; the other 20
+are lines where the hand reading added nothing over the machine decode and are left out of the
+edited text rather than dressed up. `trans/reading.txt` is the same material line by line with
+each line marked `H` (hand) or `M` (machine) so the two are never confused, and
+`trans/p31_clear_close.txt` holds the clear close of the 13 May letter.
+
 ### Lines read glyph by glyph
 
 `bandsi.py PAGE LINE` writes `img/idx/<page>_<NN>.png`: the line at 2x with every token boxed
