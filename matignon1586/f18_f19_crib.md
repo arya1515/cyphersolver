@@ -991,3 +991,27 @@ The loop is identical for every leaf and every step in it is checked: known text
 verified by the code groups read as numerals → exemplars, cleaned by audit, ablation and the gutter
 test → read the unknown lines → their confident stretches become known text. f. 196 is the next to
 start, because its seed is the strongest: two cribs, at both ends of the block.
+
+
+## f. 143: codes written as split digits, pinned by eye; the held-out score moves
+
+On f. 143 the scribe writes a code group as **two separate digits** — *13* as a "1" and a "3", *14* as
+a "1" and a "4" — and the segmenter splits them, while neighbouring letters are sometimes merged two to
+a box. The aligner absorbs either problem alone; together they make it slip. Line 5 showed both: boxes
+1 and 2 are *me* and *nt* merged, boxes 3–4 are the **1** and **3** of *qui*, 12–13 the **1** and **4**
+of *que*.
+
+`segalign.py` makes numerals verified by eye into **hard segment boundaries** and aligns only the letter
+stretches between them. Line 5 then comes out exactly as the images show it:
+
+```
+1:me 2:nt 3-4:<qui> 5:l 6:a 7:y 8-9:t 10:e 11:t 12-13:<que>
+14:s 15:e 16:n 17:e 18:s 19:e 20:r 21:o 22:i 23:t 24:c 25:e 26:p 27:e 28:t 29:i 30:t 31:e 32:d 33:e 34:s 35:fa
+```
+
+— *"ment [qui]l ayt et [que] se ne seroit ce petite des fa-"*, 26 one-to-one pairs.
+
+`mintseg.py` mints them and ablates against **f. 143's own held-out lines (6 and 7, never minted
+from)**. Five exemplars were rejected (*n*, *o*, *s*) and the held-out score rose **32.1 → 37.7 %**.
+f. 143's set is 110 exemplars over 15 letters. It is the first time a held-out score on a *target*
+leaf has been measured moving — the loop is running on a leaf that has no crib.

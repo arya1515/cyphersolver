@@ -1126,5 +1126,257 @@
    382
   ],
   "crib": "forced alignment, gap 6"
+ },
+ {
+  "file": "exemplars/f143/l5_05_l.png",
+  "letter": "l",
+  "src": "f143 l5",
+  "box": [
+   485,
+   546,
+   511,
+   542
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_06_a.png",
+  "letter": "a",
+  "src": "f143 l5",
+  "box": [
+   572,
+   634,
+   502,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_07_y.png",
+  "letter": "y",
+  "src": "f143 l5",
+  "box": [
+   652,
+   701,
+   481,
+   539
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_10_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   924,
+   959,
+   500,
+   530
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_11_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   966,
+   994,
+   504,
+   524
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_15_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1256,
+   1333,
+   469,
+   528
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_17_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1405,
+   1458,
+   470,
+   538
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_19_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1546,
+   1588,
+   486,
+   521
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_20_r.png",
+  "letter": "r",
+  "src": "f143 l5",
+  "box": [
+   1621,
+   1659,
+   466,
+   519
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_22_i.png",
+  "letter": "i",
+  "src": "f143 l5",
+  "box": [
+   1738,
+   1766,
+   484,
+   527
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_23_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   1793,
+   1860,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_24_c.png",
+  "letter": "c",
+  "src": "f143 l5",
+  "box": [
+   1903,
+   1946,
+   464,
+   541
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_25_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   1957,
+   1993,
+   466,
+   533
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_26_p.png",
+  "letter": "p",
+  "src": "f143 l5",
+  "box": [
+   2026,
+   2066,
+   482,
+   514
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_27_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2090,
+   2142,
+   468,
+   510
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_28_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   2150,
+   2239,
+   464,
+   522
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_29_i.png",
+  "letter": "i",
+  "src": "f143 l5",
+  "box": [
+   2266,
+   2290,
+   470,
+   508
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_30_t.png",
+  "letter": "t",
+  "src": "f143 l5",
+  "box": [
+   2326,
+   2390,
+   476,
+   504
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_31_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2407,
+   2454,
+   464,
+   504
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_32_d.png",
+  "letter": "d",
+  "src": "f143 l5",
+  "box": [
+   2487,
+   2640,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l5_33_e.png",
+  "letter": "e",
+  "src": "f143 l5",
+  "box": [
+   2657,
+   2790,
+   464,
+   544
+  ],
+  "crib": "segalign line 5, codes pinned by eye"
  }
 ]
