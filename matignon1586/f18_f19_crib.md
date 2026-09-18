@@ -1063,3 +1063,20 @@ Two explanations, both tested:
 So the gap between the two hands is real and **not yet explained or fixed.** The feature is not the
 cause either — size, blur and aspect handling move both sets only a few points. The rebuilt set is kept
 as `manifest_f18g7.json` for the record; `manifest.json` is unchanged.
+
+
+## "Castillebourg" is Castillon — which dates the crib
+
+The place written *Castil* + *lebourg* in f. 19r line 2 is **Castillon** (Castillon-la-Bataille, on the
+Dordogne), with *bourg* its town — Mayenne's long siege of Castillon was the main operation of the
+royal army in Guyenne in the summer of 1586. That fixes the context of the f. 18/19 despatch — a
+council of war about Castillon, the townsmen "fort estonnez", the governor's return, the cold in the
+trenches — and very probably of ff. 196/201 as well, which report "le commencement de ce siège".
+
+## Archival search, first pass: nothing in print
+
+The rarest words and phrases of the texts known so far (*Castillebourg*, *Bosseval*, *batterie de
+quinze canons*, and the Castets / Sainte-Bazeille operations of f. 143) find no printed edition of
+these despatches on the open web. The unsearched candidate is the *Archives historiques du
+département de la Gironde* (56 volumes on Gallica), which prints Matignon's correspondence; a targeted
+pass over the volumes covering 1586 is the remaining way to find a clear text in print.
