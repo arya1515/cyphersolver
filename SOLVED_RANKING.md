@@ -64,10 +64,10 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 
 ### Provisional additions, 18 Sept 2026
 
-Nine more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
+Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster.
+Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -80,10 +80,12 @@ Mendoza, and Erving 1807 below Forster.
 | p14 | **Ferdinand the Catholic → Jerónimo de Vich**, AHN Estado 8715 N.45, N.57, N.60, Apr 1511 – Sept 1512 | 1511–12 | 2 | 4 | 3 | 4 | 1 | 3 | **2.90** | Key rebuilt from two deciphered siblings, not broken cold, then read three letters it was not built from; about 22,500 signs and groups transcribed from PARES. High on content: Ferdinand's own account of how his army was pushed into Ravenna, the Sforza restoration and the call for spiritual war on Louis XII. Novelty held to 3 because Terrateig 1963 (not seen) prints Ferdinand's letters from this legajo and may include these. On no list. Held down on verification and completeness: the checks are internal, some groups unread, and the siblings N.41 and 8714 were not used |
 | p15 | **Mary Queen of Scots → the Duke of Norfolk**, "the 20th" [Feb or Mar 1570], Cotton MS Caligula C II f. 74r | 1570 | 2 | 3 | 3 | 3 | 2 | 3 | **2.65** | Key in print (Tomokiyo, rebuilt from the deciphered siblings) and checked on f. 66r; no cryptanalysis beyond reading signs. Novelty is limited: Tomokiyo's overlay already had most of the letters, and what is new is the continuous reading, the gap fills, the names and the date. Content: the Norfolk marriage intrigue after Moray's murder, with Elizabeth blaming Mary for it. Five unkeyed signs and a few words open |
 | p16 | **Cardinal Soglia → the nuncio Viale Prelà**, Rome 15 June 1848 (*L'Italia del Popolo*, 30 June 1848) | 1848 | 4 | 3 | 5 | 3 | 2 | 3 | **3.55** | Ciphertext-only recovery of a system nobody had described for this text: word separator, 64-cell table with syllables, alphabetical 8XXX code, and a synthetic control behind the negative. Never read before, and the paper offered a prize for it in 1848. Content: a papal counter-order to the nuncio that came a day late. Transcription supplied, one digit restored. On no list, only a Cipherbrain post. Ten code words read from context and checked by rank, eleven open |
+| p17 | **Bordeaux → Brienne**, London, 30 May 1653, BL Add MS 4200 f. 88 | 1653 | 2 | 3 | 5 | 4 | 2 | 4 | **3.25** | Read with the Deciphering Branch's own key sheet (DECODE R7537), so 2 not higher, although the design had been identified and a solver built for it beforehand. Never read before: the English worksheets stop at frequency counts. Research: the DECODE key found, the transcription re-checked on the images and 21 faults fixed, the duplicates collated. Content: the envoy's precedence complaint after the Bordeaux deputies' reception and the advice to hold back French mediation, during the Fronde's last months. On Tomokiyo's list only. Held on completeness by six nomenclature codes and a dozen rare tokens |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
-p14 0.50 + 1.00 + 0.60 + 0.40 + 0.10 + 0.30; p15 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30; p16 1.00 + 0.75 + 1.00 + 0.30 + 0.20 + 0.30.
+p14 0.50 + 1.00 + 0.60 + 0.40 + 0.10 + 0.30; p15 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30; p16 1.00 + 0.75 + 1.00 + 0.30 + 0.20 + 0.30;
+p17 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.40.
 
 ## By single axis
 
@@ -261,7 +263,7 @@ description in the axis table, 5 = the high one, 3 = a typical entry on Tomokiyo
   Richelieu. Confirming it would take the DECODE record and the archive's own finding aid for each.
 - **Historical weight** is judged from the plaintext as read. For Ségur, Warsaw and Lucca the word-signs
   and names still open could raise or lower it.
-- **Difficulty** compares finished work. Items closed as unsolved (Bordeaux, SP 53, Ottobon, BLUME) were
+- **Difficulty** compares finished work. Items closed as unsolved (SP 53, Ottobon, BLUME) were
   harder than anything here and are ranked in the tracker, not on this page.
 
 Checked: every row against the Solved, Explained and Found-solved tables of README.md and the tracker rows of

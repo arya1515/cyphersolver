@@ -1,0 +1,41 @@
+# Bordeaux to [Brienne], London, 30 May 1653 NS — BL Add MS 4200 ff. 88-90 (DECODE R8390)
+# Read 2026-09-18 with the English Deciphering Branch's key sheet BL Add MS 32263 f.1 (DECODE R7537,
+# "To Mr. Bordeaux French M.r at London 1653 / Key & Calculation"), completed from context (key_guess.txt),
+# on the transcription corrected against the page images (ct2.txt). Raw run: plain_run.txt / plain_tokens.txt.
+# Original spelling kept; word division, apostrophes and punctuation are editorial.
+# [..] = token not read, {..} = nomenclature code (name/word) not recovered, (?) = doubtful.
+
+[clear] Cellecy vous fera veoir que la nouvelle de mon retour en France n'est pas vraye.
+
+[cipher] Ce n'est pas que si nos affaires estoyent plus florissantes nous n'eussions sujet de
+tesmoi[g]ner quelque mescontentement de la reception qui a esté faite aux deputez de Bordeaux.
+Ils ont esté entendus par deux commissaires du Conseil, et l'audiance que j'avois demandée au
+General ne me fut donnée qu'après la leur. L'on d'y de[..]er(?) ; ils [..]rent leurs propositions
+{332} au {396‾} [..] separées(?) {344}, et je croy que l'on y delibere aussi bien que sur les
+miennes, quoy qu'après les resolutions prises dans le Parlement(?) il ne restast plus qu'à signer
+les traitez dont nous estions demeurez d'accord. L'on m'advertist de plusieurs endroits
+qu'indirectement on veut y secourir Bordeaux. C'est pourquoy si vous n'avés point encores offert
+vostre mediation, elle se pourroit surseoir jusqu'à ce que je voye quelle sera la conduite de cet
+Estat. Je n'ay pas laissé dans mon dernier discours d'asseurer que Sa Majesté [s'y](?)
+employeroit avec affection ; mais s'ils prennent des mesures avec Bordeaux, ils n'auront pas
+grande confiance à nostre bonne volonté. La crainte que si la [France](?) se trouve purgée de
+seditions elle ne favorise le parti du {25‾}, et la retraite que l'on a donnée au {28‾}, sont
+capables de fort [faire?] prendre au General une resolution contraire à nos interests. Si les
+{43‾} envoyent icy des deputez pour traiter de [30'] comme l'on publie, il se [35']era encores
+plus. Ce n'est pas que son interest propre ne le deust obliger de rechercher nostre alliance,
+mais il croit y p[68'] à temps quand mesmes il auroit delivré Bordeaux de la misere où elle se
+trouve. Dans peu de jours j'en seray informé avec plus de certitude.
+
+[clear] On n'a point icy aucune nouvelle de la flotte depuis qu'elle a paru à la hauteur
+d'Escosse ... Le gouvernement est tousjours en mesme estat; mais l'on croit que dans [..] Cromwel
+aura ung corps composé de sept vingt personnes choisis par l'armée, et approuvés par les provinces.
+... Le resident de Suede n'a peu encore [avoir] de response sur son offre, ny le Portugais de
+resolution sur son traité de paix. ... De Bordeaux. A Londres 30 May 1653 [N.S.]
+(clear close read from the duplicate R8391 ff. 93-93v at preview resolution; '...' = not transcribed)
+
+# Sense: the English Council heard the Bordeaux (Ormée) deputies through two commissioners before
+# giving the French resident his audience with Cromwell ("le General"); the treaty agreed after the
+# Parliament's resolutions is unsigned; England may help Bordeaux indirectly, so Brienne should hold
+# back any offer of French mediation; English fear that a France rid of the Fronde would back the
+# Stuart cause ({25‾}, {28‾} probably Charles II / the Stuart court in France) could turn Cromwell
+# against French interests.

@@ -8,6 +8,7 @@
   "blume salamanca telegram, 1937": "2026-09-15",
   "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
   "bordeaux to brienne, 1653": "2026-09-16",
+  "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
@@ -74,6 +75,11 @@
    "first": "2026-09-17",
    "hash": "0c9fc6ba1255",
    "updated": "2026-09-17"
+  },
+  "bordeaux1653": {
+   "first": "2026-09-18",
+   "hash": "2051bcf8ada6",
+   "updated": "2026-09-18"
   },
   "boswell": {
    "first": "2026-09-15",
@@ -142,7 +148,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "189d116a26b9",
+   "hash": "03b5999ab746",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -222,7 +228,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "23ec94de4e9b",
+   "hash": "d086ba51421f",
    "updated": "2026-09-18"
   },
   "sormano": {

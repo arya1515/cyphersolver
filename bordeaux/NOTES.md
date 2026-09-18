@@ -1,11 +1,11 @@
-# Antoine de Bordeaux, French resident in London: two ciphers of 1653-54 — attempted 2026-09-16
+# Antoine de Bordeaux, French resident in London: two ciphers of 1653-54 — item A read 2026-09-18
 
 Cryptiana, *Ciphers Early in the Reign of Louis XIV*, §3 "Correspondence Intercepted in England (1653)"
 (`louisxiv0.htm#SEC3`). Two items:
 
 | | document | DECODE | status here |
 |---|---|---|---|
-| A | Bordeaux → [Brienne], 30 May 1653 NS; BL Add MS 4200 f. 88 (Thurloe's papers), 7 pp.; duplicates of the opening (f. ?, R8393) and the ending (R8391); English worksheets R8386, R8388, R8389 | R8390 | **attempted, not solved**: design identified, ciphertext-only attack fails |
+| A | Bordeaux → [Brienne], 30 May 1653 NS; BL Add MS 4200 f. 88 (Thurloe's papers), 7 pp.; duplicates of the opening (f. ?, R8393) and the ending (R8391); English worksheets R8386, R8388, R8389 | R8390 | **read 2026-09-18** with the English key sheet R7537 + page images; see *Result* below |
 | B | Mazarin → Bordeaux, 22 June 1654, copy; BnF Mélanges de Colbert 11 ff. 479-481 | R9482 | **solved by George Lasry, 19 Feb 2025**; key published on cryptiana (`louisxiv_0mazarin.png`); the ciphertext itself is not accessible here |
 
 ## Item A: the 1653 letter
@@ -81,11 +81,42 @@ likely the prime series is not (only) syllables, or the transcription's diacriti
 to preserve the order: control 5 shows that misreading one diacritic in ten already drops the solver to 52 % and 9 % on two seeds, with scores in the real cipher's band, so a *provisional* transcription is enough to explain the failure on its own. Design B, which would put ~90 homophones on 24
 letters, is beyond ciphertext-only reach at this length even in a clean control. **No reading is reported.**
 
-**Ways in.** (1) DECODE login: the page images of R8390 (to fix the diacritics, which decide the whole
+**Ways in (as of 2026-09-16; (1) done 2026-09-18, see Result).** (1) DECODE login: the page images of R8390 (to fix the diacritics, which decide the whole
 structure), and R7537, the 1653 English key for "Mr. Bordeaux". (2) The plaintext: the Saint-Germain
 letter-book Birch quoted (now BnF, fonds Saint-Germain français) or AE Corr. pol. Angleterre 62 for 30 May
 1653; either would give the key by alignment. (3) A second letter in the same cipher (Bordeaux's despatches
 of April-July 1653 were routinely intercepted).
+
+## Result (2026-09-18): item A read
+
+DECODE access came through (session cookie; images local and git-ignored). **R7537 (BL Add MS 32263 f. 1)** is headed
+"To Mr. Bordeaux French M.r at London 1653 / Key & Calculation / Discovered Aug. 20th 1832" (the year reads 1832; the sheet is
+printed ledger paper numbered 2801-3000, so a later Deciphering Branch working, not a 1653 original). It is a worksheet:
+a left column of candidate letters per number, and boxes of settled values. Transcribed in `key7537.txt`. It confirms the design A
+hypothesis exactly: **plain 15-37 = a-z; the prime, two-dot and overbar series are alphabetical CV syllabaries with words
+embedded** (prime: pa 25' … pu, pour 31', par 32', qui 38', que 39', ra 42' … se 53' … te 63' … ve 73' … vous 79';
+two-dot: da 19¨ … du, dans 24¨, et 28¨, estre, estat 32¨, fa 37¨ … fu, fort 42¨, ge 49¨ … ha 60¨ … hu, ja-ju 66¨-70¨, il,
+la 73¨ … lu, les, leur 79¨, leurs 83¨, ma 84¨ …, na 96¨ … nu 100¨; overbar: ba 83‾ … bu, bien, bon, ca 93‾ … cu 97‾).
+Graphic signs (from the sheet's "Principal" list and context): u=n, m=e, a=r, x=o, **x p=a** (compound), p=p, ꝺ=u, **∂=n**,
+q=i, ll=r, 4-/4=s, ≠=g, h=p, H/e=z, 9=i, φ=y, λ=s, θ=i, ω=n, o=x, y=p, ff=t, 〃=n, )=n; plain homophones above 37
+(38=et, 43=re, 54=si, 97=ne, …) are the syllable numbers written without their mark. Context-derived additions are in
+`key_guess.txt`; `key_work.txt` = both; `apply_key.py key_work.txt` decodes `ct2.txt`.
+
+**Why the solver failed.** Checking the page images (`ct2.txt`, 21 corrections, one of them the 52' in *commissaires* restored from the duplicate R8393) showed that Tomokiyo's "d" merges two glyphs,
+ꝺ = u and ∂ = n; tokens are dropped (line 2 lost 76¨ and 27); marks are lost (97¨→97, 96¨→96‾, 74'/79'); and the cipher
+clerk himself often omits the diacritic (plain 38/43/45/54/97 for the marked syllables). The design was right. What broke the
+solver was the transcription plus the clerk's own slips, as control 5 predicted.
+
+**Content** (`plaintext_1653.txt`): the Council heard the Bordeaux (Ormée) deputies through two commissioners before
+Cromwell ("le General") gave Bordeaux his audience; the treaty agreed after the Parliament's resolutions is still unsigned;
+England may help Bordeaux indirectly, so Brienne should hold back the offer of French mediation; English fear that a France
+rid of sedition would back the Stuart party could push Cromwell against French interests. The letter continues in clear
+(ff. 89v-90: news of the fleet off Scotland).
+
+**Still open:** name codes 25‾, 28‾ (probably Charles II / the Stuart court), 43‾ (the Bordelais?), 332, 344, 396‾; the rare
+tokens 6¨, 10, 30', 35', 68', 98, 14', 46¨ (context: "la [France?]"); "fort" at 42¨ where context wants "faire".
+R8392 has **no images** on DECODE (0 attached, checked logged-in). R8391 (f. 92 frequency count, which lists d and ∂ as separate signs; ff. 93-93v a duplicate of the ending that agrees
+token for token, so 68' and 24 are genuine) and R8393 (duplicate of lines 1-9) checked; R8386-9 not yet used.
 
 ## Item B: the 1654 copy
 
