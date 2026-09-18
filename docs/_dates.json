@@ -1,5 +1,6 @@
 {
  "findings": {
+  "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
@@ -101,7 +102,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "d5d745e783dd",
+   "hash": "f5b7fe42c872",
    "updated": "2026-09-18"
   },
   "catinat1691": {
@@ -176,7 +177,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d8184ee6e5eb",
+   "hash": "39a74f1e9b56",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -212,6 +213,11 @@
   "norfolk1570": {
    "first": "2026-09-18",
    "hash": "34109d756cdc",
+   "updated": "2026-09-18"
+  },
+  "orbais": {
+   "first": "2026-09-18",
+   "hash": "ccee9e72fe58",
    "updated": "2026-09-18"
   },
   "ormonde": {
@@ -261,7 +267,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "7453932a9ead",
+   "hash": "bebae83f3a48",
    "updated": "2026-09-18"
   },
   "sormano": {
@@ -321,7 +327,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "c1d2c7f04cc7",
+   "hash": "17735e220afa",
    "updated": "2026-09-18"
   },
   "yard1699": {
