@@ -625,3 +625,94 @@ This removes route (b) of "Final status" above: the images cannot restore a word
 had. They remain worth having for dot placement, the uncertain digits, the 069v cleartext frame, and the IA-1
 sibling (record 91). The statistical result that digit 4 behaves as a null / word separator stands and is the only
 segmentation signal on offer.
+
+## 2026-09-18: the DECODE images and the IA-1 sibling, used
+
+Downloaded from DECODE (Daniel's account): record 92 (the eight 400-dpi page images, the transcription, the address
+leaf) and record 91 (IA-1: five page images, its transcription, four document images). Images live in `decode/` and
+`img/` and are git-ignored (Vatican copyright); only derived text is kept.
+
+### What the downloads are
+
+* **DECODE's R92 transcription `DOC_R92_D1633_1633.txt` is byte-identical to the MysteryTwister text.** No second
+  transcription exists; the images are the only new evidence.
+* `DOC_R92_D1211_1211.png` is the address leaf: "Al Rev.mo mons. come fratello il vesc.o di Tropea Nuntio di N.S."
+  (Poggio was bishop of Tropea), endorsed "Roma 1542, dal Card.le Farnese". 073v closes "Da Roma alli XV di Aprile
+  1542 ... Come fratello Il Car. Farnese".
+* The four R91 document images are cleartext Farnese letters of summer 1542 ("dup.to di 7 d'Agosto"; legations of
+  Contarini to the Emperor and Sadoleto to France). No key sheet, no decipherment.
+* The faint writing between the cipher lines (e.g. 070v) is **show-through** of the recto cleartext: mirrored, it
+  reads "dar notitia ... circa la materia della ..." and "per questa causa principali è stato mandato" from 070r.
+  There is no interlinear decipherment.
+
+### IA-1 (R91) is a different key and a different design
+
+| | IA-2 (this) | Spain IA-1 (R91) | Portugal IA-1 (Part 4, solved) |
+|---|---|---|---|
+| digits | 6552 | 2956 | 10934 |
+| doubled digits vs chance | **0.30** | 0.88 | 0.57 |
+| commonest digits | 7 .18, 0 .13, 8 .13, 5 .13 | 8 .19, 1 .16, 6 .12, 2 .12 | 2 .28, 1 .16, 4 .14 |
+| digit 1 | .03 | .16 | .16 |
+
+IA-1 (a December letter on the Nuremberg diet and Buda, 1541) has no doubling suppression, and its wide gaps (185
+groups of 2-12 digits) are not word division. Lasry–Megyesi–Kopal's "another key" is confirmed; nothing transfers.
+
+### The image-verified transcript
+
+Seven page agents re-read every cipher line of 070r-073r against the 400-dpi images (`decode/reread/*.txt`, one
+file per page, every disagreement listed with the image reading). `decode/build_reread.py` assembles them into
+**`IA-2_reread.txt`** (parse5 format).
+
+* 151 digit positions touched (2.3%): 62 substitutions, 39 insertions, 22 deletions. The largest single fault:
+  on 071v the transcriber **copied four groups twice** (l.4 `5 7 2 7 4 .`, l.5 `. 2 7 4`, l.9 `5 0 3 8 2 7`, l.20
+  `6 3 4 0`). 072v l.3 has `6 0 8 0` struck through in the MS (removed); 073r l.10 and l.16 have struck glyphs.
+* Commonest confusion: the flat-topped 3 against the z-shaped 2 and the barred 7, and an L-shaped glyph read as 1
+  in some places and 2 in others.
+* Dots: of the 202 transcribed dots nearly all are confirmed over the stated digit; a handful moved, ~20 added, a
+  few absent (flourishes). 222 dots now. 52 `?` remain, mostly at the binding fold of 071v and under blots.
+* **Baseline dots** (" . " between digits) exist on 071r-073r only, ~90 of them; parse5 always dropped them. The
+  digit before one is 4 or 9 in half the cases. Too sparse to be word division (Lasry is right); they read like
+  clause punctuation.
+
+**None of the structural statistics moves.** Doubles, the dot carriers (7 96, 2 41, 0 29), the digit after a dot
+(7/2/0/5), the dot bigrams (27·, 57·, 40·; ·72, ·27, ·70, ·05), the vowel set and the unit inventory are what the
+earlier sessions measured on the old text. The transcript was sound; the images confirm it rather than change it.
+
+### A new exclusion: no renumbering of the printed Farnese keys
+
+A doubled digit stays doubled under any relabelling of a key, so the doubled-digit rate is a key-family invariant.
+Italian (cipher orthography, h and double letters dropped, null after 37% of words) encoded with each printed key:
+
+| encoding | doubled digits | / chance |
+|---|---|---|
+| Meister key 1 (Montepulciano 1539-42) | 9.7% | 0.82 |
+| Meister key 2 ("mandata per il Montepulciano") | 7.8% | 0.63 |
+| random polyphonic single digits | 6.4% | 0.48 |
+| **IA-2** | **3.6%** | **0.30** |
+
+Key 2 would put ~510 doubles in 6552 digits; IA-2 has 233, a gap of about 12 standard deviations. So IA-2 is not
+key 1 or key 2 renumbered, and not any single-digit polyphonic design: its key was built so the same digit almost
+never has to be written twice. Only 7, 5 and 8 double at all (81, 63, 36); 0, 4, 6, 9, 1 essentially never.
+That is what disjoint prefix/suffix classes in a syllabary give, with 7/5/8 the digits that serve on both sides.
+
+### Status
+
+Not solved. The DECODE material is exhausted: the images give a better transcript (dittographies removed, dots
+checked, struck digits identified) but no separators, no decipherment and no key, and IA-1 is another key. The
+routes are unchanged: the key (Chigi M II 49), or the clear copy (Chigi L III 65 ff. ~165-190, Lettere de'
+Principi 14 A, Naples Carte Farnesiane 723), or more ciphertext in the same key from Segr. Stato Spagna 1A ff.
+7-123 (1539-48), which DECODE does not hold.
+
+### DECODE searched for further material (2026-09-18)
+
+Public `RecordsList?cmd=search&search=` queries: Farnese (7 hits, only R91/R92 before 1579), Poggio 0, Montepulciano 0,
+Tropea 0, Chigi 0, Paolo III 0, Spagna/Spain/SdS_Spain (Vatican Spain dossiers start 1566 after IA), years 1538-1548
+(Florence ASFi keys 1541-43 = Medici, Bavarian keys, Simancas 1543 = Charles V, Venice 1545-46: no papal item).
+Nothing else from the Farnese chancery of Paul III is catalogued. The only unexamined papal keys are the four undated
+Camera Apostolica doss. 393 records (R23, R202, R203, R204; Latin/Italian), a long shot worth one look by hand.
+
+The four Camera Apostolica records were fetched and read (images in `img/`, git-ignored). They are the **Avignon
+keys of Gabriele de Lavinde, c. 1379** ("Ego Gabriel de Lavinde ... d(omi)no n(ost)ro p(a)p(e) Clemente", the
+antipope Clement VII): monoalphabetic symbol alphabets with a few nulls, and small nomenclators of letter-pair codes
+(Papa, Cardinales, Rex Francie, Imperator, Florentini ...), plus one Occitan note of 1400-ish dated at Avignon. No
+digits, no syllabary, 160 years too early. Irrelevant to IA-2. DECODE now holds nothing further for this cipher.

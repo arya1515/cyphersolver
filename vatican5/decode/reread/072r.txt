@@ -1,0 +1,51 @@
+1: 9 0 1^. 5 7 8 2 2 7^. 2 7 4 0 6 9 . 8 2 5 2 6 2 7 8 2 2 7 5 8 0 5 0^. 5 0 3 1/5 4 0^. 5 1 4^.? 0 3 1 8 0 4 7 3 6 9 5 7 6 1 2 7^. 0 3 5
+DIFF: 35:1->1/5 (ambiguous) [glyph is s-shaped: 5 or 1]; 40:4^.->4 (dot not seen; unverified) [dot over 4 not seen in image]
+2: 4 3 7 8 2 8 0 5 7 3 8 0 3 9 . 5 7 2^. 8 3 7 8 8 0 4 5 . 6 1 9 8 0 4 0 6 3^. 7 5 2 7 6 5 5 7 1^. 9 7 2 0 3 6 2 7 5 3 8 7 8 0 9
+DIFF: 29:0->8 [order is 9 8 0 4 (tall 8 then round 0)]; 30:8->0
+3: 6 7 7 3 6 8 8 0 5 9 6 7 7 4 3 8 7 3 6 9 0^. 5 6 0 3 2 7^. 0 8 7 7 3 4 0 8 0 5/9 8 0 4 9 8 0 8 5^. 7 8 0 4 9 7 3 5 0 3 1 8 0 2 7 4 1
+DIFF: 37:5->5/9 (ambiguous) [glyph has descender like 9]; 58+:(none)->2 [clear "8 0 2 7 4 1" at line end]
+4: # 3 6 9 3 4 7 3 8 7 5 5/1 7 8 2 0 5 8 0 6 0 3 7 5 7 9 5 7^. 2 0 8 0 4 7 3 6 0 6 9 7 3 8 2 6 4 8 1 6 7 0 8 0 5 7 0 7 5
+DIFF: 1:?-># [not a digit: flourish/sign mark at line start]; 12:5->5/1 (ambiguous) [plain stroke without s-loop, may be 1]; after 49:"."->(none) [no mark visible between 7 and 0]
+5: 9 7 3 6 4 6 9 0 1^. 7 8 4 2 . 6 2^. 7 8 1 1 8 0 4 1 0 3 8 0 6 3 5 9 3 8 7 8 0 8 9 0 3 5 2 6 0 5 7 4 0 8 0 5 2 7^. 6^. 0 1 8 7 3
+DIFF: none
+6: 2 5 5 7 8 2 0 3 4 6 7 9 2 1 0 3 1 0 4 2 7 5 5 7 6 9 8 0 1 0 3 4 7^- 3 8 0 3 5 7 2 8 3 7 5 8 0 4 3 4 7 3 8 7 5 5 7 8 2
+DIFF: 14:?->1 [tall stroke before 0]
+7: 6 0 3 2^. 7 0 3 2 7 5 5 7 6 8 0 1 0 3 4 6^. 0 5 7^. 0 4 0 3 4 0 3 4 2 . 7 4 9 7 4 0 2 7 8 2 5 2 7^. 0^. 5 8 7 3 6 7 5 6 5
+DIFF: none
+8: 4 7 2 0 3 6 7 5 5 8 0 5 9 5 5 7^. 3 5 5 2 7 1 2 9 7 3 8 . 0 3 5 0 1 3 5 7 3 8 0 3 5 6 2 8 0 4 3 7 6 2 3 5 8 0 4 8 1
+DIFF: 22:?->1 [short stroke; probable 1]
+9: 4 3 7 8 2 0 4 9 3 5 2^. 7^. 7 8 5 7 2 7 4 9 7^. 2 6 7^. 2 0 8 0 4 2 6 3 5 7 . 7 5 5 7 4 . 9 7 2 8 7 9 2 7 4 9 7 8 0 8 4
+DIFF: 25:?->2 [z-shaped 2]
+10: 8 0 6 7 3 6 3 5 7 7 3 4 7 8 3 4 0 3 9 8 0 4 5 7 6 1 7^. 2 0 8 0 4 . 2 6 0 5 7 8 8 0 4 5 7 3 1 7 7^. 2 9 7 3 6
+DIFF: none
+11: 5 1 8 2 9 5 2 7 4 9 7 2 7 4 2 8 2 9 2 7 4 9 7 0 3 5 0 5 7 8 0 8 9 6 7 9 2 7 7 5 5 2 6 9 6 7 0 6 8 3/2 8 2 7 4 9 7 0 3 6 5 0
+DIFF: 50:3->3/2 (ambiguous) [z-like; 2 or 3]
+12: 3 8 0 2 6 2 7 5 2 6 7 2^. 9 7 8 2 7 8 0 5 2 6 6 9 2^. 7 0 3 6 5 0 3 5 0 8 7 7 8 5 5 7 4 0 8 0 4 0 3 9 5 7 8 2 0 3 5
+DIFF: none
+13: 7 3 6 3 7 8 0 5 7 3 6 5 7 2 7 4 9 7 5 8 1 2 7 6 1 6 8 0 5 2 8 7 2^. 5 9 8 ? ? ? ? 8 0 2 6 0 3 1 4 7 2^. 3 5 2 6 8 0 6 3 9 6
+DIFF: 25:?->1 [6 1 6 8 0]; 29:?->5 [s-shaped 5, probable]; 33:2^-->2^. [mark over 2 is a short dot/tick, not a dash]
+14: 8 1 5 7 8 2 0 3 5 7 5 1 5 2 7 3 6 5 9 7 3 8 0 3 8 8 0^. 8 1 8 7 3 6 9 0 3 4 3 7 2 5 2 7 3 6 5 9 7 3 8 0 3 5 2^. 7 0 3 8 5 7
+DIFF: 60:?->7 [last glyph is 7]; 27:0^. mark position ambiguous (0 or next 8) [ink blot above sits between 0 and following 8]
+15: 2 7 4 5 7^. 0 6 5 7 1 4 3^. 5 7 2 ? 5 2 9 1 4 0 3 8 7 7 7 4 8 0 8 7 8 2 9 7 8 8 0 4 7^. 2 0 3 5/1 7 5 8 9 0 8 5 7 8 2 0 3 6 2 7 5 0 6
+DIFF: 45:5->5/1 (ambiguous) [plain stroke, may be 1]
+16: 2 7^. 9 5 7 4 8 0 8 9 0 8 2 4 0 1 2 7 8 9 7 3 8 2 6 7 7^. 2 0 8 0 8 9 0 1 0 5 7 8 7 0 6 7 9 6 7 3/7 8 5 7 6 3 6 9 3 7 5 2 7^. 0^. 5 5 :
+DIFF: 29:9->0 [round 0, no descender]; 47:3->3/7 (ambiguous) [looks like 7 (top bar, no curl)]; 63:?->: [not a digit: colon/semicolon-like mark]
+17: 5 7 4 0 5 4 2 5 9 0 5 7 8 2 7 6 3 7 6 2 7 5 2 9 7^- 2 0 3 4 2^. 7^. 0 6 5 5 7 8 2 7 3 5 2 9^. 4^. 7 2 6 2^. 7 4 9 7 3 6 0 3 5
+DIFF: none
+18: 5 7^, 0 6 0 5 5 7 8 9 7 7 3 4 5 7^. 2 7 4 2 5 7^. 3 5 2 7 5 3 5 2 8 0 8 9 1 8 2 5 0 3 5 3 5 7 5 6 4 2 5 7 6 8 7 5 9 3 5 7 2 5 0 8 0 6 8 1
+DIFF: 25:3->2 [z-shaped 2]
+19: 6 0^. 7 8 0 8 0 6 5 9 0 6 2 7 1 2 5 9 8 1 0 3 4 5 7 2 4 3 8 8 9 5 8 1 9 2 7 4 9 1 7 7 8 2 7 6 2 7^, 7 3 6 2 7^. 2 0 3 4 2 7^.
+DIFF: 40:?->1; 41:?->7 [blotted 7]; 43:9->8 [unmistakable 8]; 45:3->7 [plain 7]; 47:3->2 [z-shaped 2]
+20: 9 0 6 5 7 4 8 0 2 5 5 7 8 2 0^. 5 5 7^. 0 6 0 3^. 5 0 2 7 8 2^. 5^. 9 5 7 5 2 8 0 8 9 5 0 3 2 7 1 9 7 5 6 7 7 3 2 6 8 8 0 4 7 8 9
+DIFF: 8:?->0 [blotted round glyph after 8; probable 0]
+21: 7 3 6 5 7 2 4 7 8 0 8 0 7 5 9 7 8 9 7 3 6 8 3 7 8 8 0 4 8 1 8 0 5 7 9 8 0 4 1 4 0 3 8 7 8 0 6 8 2 6 9 2^. 7 7 8 0 4 0 6 3 3 5
+DIFF: 3:8->6 [6 (single lower loop, ascender)]; 36:0->8 [tall looped 8]
+22: 2 7 8 9 0 8 5 7^. 8 2 1 0 4 9 8 1^. 6 7 8 0 8 2 8 9 0 8 5 7 2 4 5 7 6 4 7 3 6 0 5 5 7 8 2 2 7^. 5 7 8 2 8 0 5 0 3 8 8 0 8 0 6 3 5
+DIFF: none
+
+SUMMARY (072r, 22 cipher lines)
+Digits read: 1297 tokens (incl. unresolved ?); transcript had 16 "?".
+Disagreements listed: 31 = 11 "?" resolutions + 7 digit substitutions (L16 9->0; L18 3->2; L19 9->8, 3->7, 3->2; L21 8->6, 0->8) + 1 transposition on L2 (9 0 8 4 -> 9 8 0 4, 2 entries) + 1 insertion (L3, a 2 near line end) + 1 mark change (L13 dash->dot) + 1 stray "." absent (L4) + 6 ambiguous alternatives (L1 1/5, L3 5/9, L4 5/1, L11 3/2, L15 5/1, L16 3/7) + 1 unverified dot (L1 4^.) + 1 dot-position query (L14).
+Marks: transcript has 65 marks (60 "^.", 2 "^,", 3 "^-"). Confirmed where visible: ~52; moved: 0 firm (L14 0^. may belong to following 8); added: 0; absent/unverified: L1 4^. not seen; L4 standalone "." not seen; L13 2^- is a dot, not a dash. Marks on L17-L19 (9^.,4^.,2^.,7^. on L17; 7^.,7^. on L18; 0^. on L19) sit under heavy show-through and could not be verified.
+"?" resolutions: L4 pos1 -> non-digit sign (flourish); L6 pos14 -> 1; L8 pos22 -> 1 (probable); L9 pos25 -> 2; L13 pos25 -> 1, pos29 -> 5 (probable), pos37-40 (4 x ?) -> unreadable blot, kept; L14 pos60 -> 7; L15 pos16 -> unresolved; L16 pos63 -> non-digit mark (":"); L19 pos40 -> 1, pos41 -> 7; L20 pos8 -> 0 (probable, blotted).
+Caveat: the scribe's 3 and 7 (and 5 and 1) are often hard to tell apart at this scan resolution; only the clearest cases are listed as firm.

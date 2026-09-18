@@ -1,0 +1,41 @@
+1: 1 4 7 5 4 . 4 5 7 8 9 2 0 3 6 5 7 2 8 5 7 5 2 5 3 8 7 8 0 6 2^. 7 0 3 . 6 6 2? 8 0 8 9 0 8 . 7? 7 5 2 0 6 7 2 5 0 3 3 5 2 2^. 7 0 8
+DIFF: 38:?->2? (z-shaped glyph under show-through stroke; 2/3 ambiguous); 46:3->7? (top bar + straight stem like following 7; 3/7 ambiguous)
+2: 7 3 8 0 3 1 5 0 8 0 4 . 9 5 7 8 2 5 7? 7 3 3? . 2 0 3 4 . 5 0 7? 8 1 5 2 9 5 7 8 2 3 7 4 2 0 7 5 9 4 5 7 8 2 5 0 3 8 0 2 4 2 6 0
+DIFF: ins before 10: 0 (image reads 5 0 8 0 4 . 9; transcript omits the second 0); 18:7 ambiguous 7/9 (loop at top); 21:5->3? (same ʒ shape as preceding 3; 3/5 ambiguous); 30:3->7? (straight top bar; 3/7 ambiguous)
+3: 5 7 8 8 0 4 9 . 4 7 3 6 0 8 7 5 7 4 1 1 4 9 8 1 0 6 8 1 8 7 2 8 0 4 5 5 7 4 2 8 6 7 9 5 7 1 6 9 2 7 5 0 8 0 8 0 3 9 0 1 4 1 7 2
+DIFF: 31:1->2 (clear z-form 2 between 7 and 8); ins before 41: 6 (glyph with ascender between 8 and 7: image 2 8 6 7 9 5 7)
+4: 4 5 7 6 4 9 7 8 0 3 8 0 8 7 6 8 0 4 2 6 4 9 7 3 6 5 7 5 2 3 5 9 6 0 3 2^. 7 0 3 0 3 1 4 7 5 4 9 5 2 7 4 3 6 7 2 7 6 5 8 0 4
+DIFF: 36:2->2^. (dot/tick above the 2 after 6 0 3)
+5: 5 3 7 4 2 8 0 6 3 7 6 2 7 5 2 9 0 8 7 5 1 6 8 0 5 7 7 7/3 4 5 7 1 2 8 7 7? 6 7 7 5 2 9 3 5 0 5 7 3 8 3 7 5 7 8 0 6 . 1 7 8 2
+DIFF: 36:3->7? (bar + long straight descender; 3/7 ambiguous)
+6: 5 7 2 7 4 2 5 5 7^. 0 6 8 0 2 7 4 5 7 8 2 9 8 0 4 0 8 7^. 2 0 8 0 4 3 4 8 0 4 8 5 7 8 2 9 0 8 3 5 7 0 3 6 2 7 8 . 0 3 8 7 5 8
+DIFF: ins before 52: 2 (image 3 6 2 7 8 . 0; z-form 2 clearly between 6 and 7)
+7: 2 8 0 7 5 9 7 3 8 0 3 7 3 8 8 0 4 2 6 7 3 4 0 3 3 7 4 . 9 4 0 8 5 7 1 2 8 9 5 0 8 2 7 4 9 . 3 7 4 7 7 3 5 3 8 7 8 0 4 3 0
+DIFF: none
+8: 7 5 6 4 2 9 . 3 5 6 7 . 2^. 2? 0 3 1 7 2 2^. 3 4 7 3 4 0 6 0 6 5 9 5 7^. 0 6 8 3 5 7 2 7 5 8 0 4 7 3 6 7/3 3 5 2 9 5 0 3 2 8 1 9
+DIFF: 14:7->2? (z-form with bottom stroke; 2/7 ambiguous); 20:7^.->2^. (dotted glyph has a bottom stroke like the scribe's 2; dot is over it; moderately sure)
+9: 0 3 8 7 5 5 8 0 4 9 . 2 7 5 0 3 7 3? 6 0 6 3 4/9 2 7 4 5 6 0 6 4 7 9 2 7^. 2 7 4 9 4 7 5 7 6 4 5 7 4 2 8 0 1 7 4 2 6
+DIFF: 18:3 ambiguous 2/3 (z-form)
+10: 3 8 7 3 6 4 8 8 0 6 5 3 7 3 8 0 3 5 3 7 4 2 0 7 ? 5 7 2? 4 6 . 7 2 6 0 2 7 5 . 5 0 3? 7 3 8 8 0 4 . 0 6 7 5 7 4 2^. 9 2 6 7 7
+DIFF: 28:3->2? (clear z-form after crossed-out glyphs; 2/3 ambiguous); 42:3 ambiguous 2/3 (blotted z-form); ins before 57: 9 2 (image ends 7 4 2^. 9 2 6 7 7; 9 with long descender and a z-form 2 clearly visible); 59:3->7 (final glyph is bar + straight stem, same as preceding 7)
+11: 4 0 3 3 7 4 9 . 2 7? 4 0 6 0 3 5 3 7 4 2 8 0 6 3 7 6 2 7 5 8 0 6 4 7 . 7 3 8 0 3 9 . 2 7 5 0 8 0 8 0 3 4 9 . 2 7 4 3 8 4
+DIFF: 10:7 ambiguous 7/2 (z-form with smeared foot); 46:0 is written as a small superscript circle above the 8 at 47, not inline (insertion mark or degree-like mark; transcript puts it inline)
+12: 7 5 7 5 0 3 8 0 2 5 9 . 5 7 3 1 7 5 8 0 6 4 7 . 7 3 6 7 5 8 .? 7 8 0 6 5 7^. 1 4 0 3 8 7 7 3 4 0^. 5 5 7 8 2 3 8 8 0 8 2 9 2 7^. 7 8 0 3 0 1
+DIFF: ins before 12: "." (dot at top level between 9 and 5, not in transcript); 30:"." between 8 and 7 not visible in image
+13: 4 7 3 4 7 6 7 6 9 4 . 0 6 5 7 4 0 5 7 3 5 2 9 3 5 8 ? 8 2 6 9? 4 3 7 4 3^. 8 7 8 0 4 5 7? 3 6 7 4 1 5 8 0 6 4 7 9 5 0 3
+DIFF: 36:3->3^. (compact dot above left part of the 3 before 8 7 8; faint trail below it, so possibly show-through); 43:7 ambiguous 7/2 (z-form); faint vertical mark above it may be a dot
+14: 2 2 1 9 7 5 8 1 5 7 8 2 7^. 2 0 8 0 4 8 3 7 8 8 0 4 9 0 6 8 7 3 6 7 5 6 5 9 2 7 4 9 7 7 3 4 8 0 4 6 . 7 5 7 5 2 3 5 9 2^. 7 0 3 2 7^.?
+DIFF: 25:4 has a small ring/circle above it (like the superscript 0 on line 11); may be show-through; 64:7^. digit ambiguous 1/7 (short faint stroke, tiny top bar); dot confirmed above it
+15: 7 1 3 8 2 4 7 3 6 3 7 5 ? 8 0 6 5 7 8 2 0^. 5 1 8 7 3 8 2 5 0 6 6 0 3 0 1 2 7 8 0 4 0 8 2 7 4 7 7/3 3 4 6 0 3 9 2^. 7 0 3 8 0 6
+DIFF: 21:?^.->0^. (small closed loop with dot above); 61:6?->6 (faint but ascender visible)
+16: 7 5 4 ? 8 2 7 5 1 5 9 0 3 5 0? 2 4 ? 5 8 9? 6^. 0 7 8 0 5 2 5 5 9 1/2 6 0 5 8 0
+DIFF: 15:?->0? (loop with cross-bar, blotted); 21:1->9? (glyph has a looped head and long descender; possibly 1 9)
+
+SUMMARY 073r
+digit tokens read: 932 over 16 cipher lines (line 16 ends at a struck stroke; the rest of the page is cleartext)
+disagreements listed: 30 (firm: L2 ins 0; L3 31:1->2, ins 6; L4 dot added on 2; L6 ins 2; L10 ins "9 2" and 59:3->7; L12 "." added; L15 ?^.->0^.; moderate: L8 20:7^.->2^., L16 21:1->9?, L13 dot on 3; rest are flagged 2/3/7 z-form ambiguities)
+dots (^.): 17 in transcript -> 17 confirmed present over the stated digit (L8 20 and L14 64 confirmed dot but digit questioned), 0 moved, 2 added (L4 pos36 over 2; L13 pos36 over 3, possibly show-through), 0 absent
+baseline "." tokens: 1 added (L12 between 9 and 5), 1 not seen (L12 pos30)
+superscript marks: L11 pos46 "0" is superscript over the 8, not inline; L14 small ring above 4 at pos25 (not in transcript)
+original "?" resolved: L1-38 -> 2? (tentative); L10-25 unresolved (crossed out); L13-27 unresolved (overwritten); L13-31 "9?" unresolved (blot); L15-13 unresolved (blot); L15-21 ?^. -> 0^.; L15-61 6? -> 6; L16-4 unresolved (blot); L16-15 -> 0? (tentative); L16-18 unresolved (blot)
+caveat: the scribe writes 2, 3 and 7 all with a top bar and often a foot (z-form), so 2/3/7 substitutions are flagged as ambiguous rather than asserted

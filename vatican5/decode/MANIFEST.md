@@ -51,6 +51,10 @@ into a file named `cookie.txt` in this folder (one line, the header value only),
 
 The script never prints or stores the cookie anywhere else; delete `cookie.txt` afterwards (it is git-ignored).
 
+**Fetched 2026-09-18** (records 92 and 91, all files; 93-94 not fetched). Results in `../NOTES.md`, section
+"2026-09-18": DECODE's R92 transcription is byte-identical to the MysteryTwister text; the image re-read is
+`reread/*.txt` → `../IA-2_reread.txt`; IA-1 is a different key.
+
 ## What the files settle
 
 George Lasry (e-mail to Daniel, 16 Sep 2026, copying Beata Megyesi): in the Challenge 5 documents, unlike other

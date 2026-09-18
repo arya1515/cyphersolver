@@ -128,7 +128,7 @@ PAGES = [
          quote='&ldquo;he was angry [with the Lord Deputy] &hellip; upon his motion [Ormonde] is to be a councellor&rdquo;'),
     dict(slug='vatican', label='Vatican', year='1542', y=1542, place='Rome &rarr; Spain', st='stuck', stt='family identified',
          title='The Vatican cipher of April 1542 &mdash; an Antonio Elio cipher',
-         blurb='Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Six sessions, five model classes excluded against matched controls, the Meister keys verified from the scans.',
+         blurb='Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Seven sessions, five model classes excluded against matched controls, the Meister keys excluded under any renumbering, and the 400&nbsp;dpi images read against the transcript: no separators, no decipherment, no key.',
          quote='27 and 80 end a third of the words &middot; 441 repeated 7-grams against 5 in a shuffle'),
     dict(slug='warsaw', label='Warsaw', year='1627', y=1627, place='Warsaw', st='solved', stt='solved',
          title='From Warsaw, 24 December 1627 &mdash; an alphabet in plain order',

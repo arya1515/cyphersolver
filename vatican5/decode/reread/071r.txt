@@ -1,0 +1,58 @@
+# 071r re-read against IMG_R92_I693_P3.jpg. Positions = 1-based digit index within the transcript line (separator tokens . , ^, not counted).
+# 'd?' = unsure reading; '+afterN' = token(s) present in image but missing from transcript after digit N; '[tentative]' = ambiguous, both readings given.
+L1 (58 digits): 1 4 0 3 7 5 8 2 9 0 3 8 3 7 4 2 0 7 8 2 7 4 3 8 7 3 8 0 3 8 0 8 3 5 7 4 4 2^. 7 0 3 6 8 0 5 7 3 6 8 9 0 8 5 7 8 2 2 7^.
+DIFF: 58:7->7^. (dot added above final 7)
+L2 (59 digits): 2^, 7 7 8 0 4 5 0 5 7 8 0 3 7 3 6 0 8 7 5 7 4 2 7^. 0 6 3 7 5 9 7 3 6 5 2 3 5 2 9 0 3 8 2 7 8 7 8 0 4 7 5 1 6 9 4 2 7 4 2
+DIFF: none
+L3 (57 digits): 8 2 8 7 2 4 7 4 7 3 6 2 6 2 7 4 2 7 2 5 2 9 7 3 1 8 2 7 4 0 8 0 3 1 7 5 2 7^. 0 3 5 5 7^. 0 5 2 7 4 3 8 0 6 5 7 4 0 5
+DIFF: 17:7->(absent) (7 not present: image reads 6 2 7 4 2 7 2 5)
+L4 (58 digits): 9 0 5 7 8 2 5 2 9 7 5 2 5 7 3 7 2 1 8 0 4 9 7 3 6 1 7 5 5 2 3 5 8 0 5 2 7 4 3 5 7 4 0 8 0 5 7 3 5 9 7 5 5 0 3 8 2 8
+DIFF: none
+L5 (60 digits): 8 1 7 3 6 7 5 1 6 6 7 0 6 8 3 8 5 7^. 0 6 8 9 0 8 7 7 3 4 1 8 7 3 1 8 0 4 5 7 8 2 9 6 0 3 5 7 5 0 5 8 0 4 5 0 3 2 7 1 7 4
+DIFF: 18:7->7^. (dot added above 7 (before 0); mark over 6 at pos 10 is show-through)
+L6 (58 digits): 7 2 4 7 0 1 2 7 8 0 4 7 3 6 8 0 5 0 3 6? 2 7 4 3 5 7 5 9 7 5 7 6 5 9 0 3 5 0 3 8 0 2 5 2 7^. 6 0 3 3 6? 8 0 8 2 9 6 7 0?
+DIFF: 4:1->7 (clear top bar); 20:8->[tentative] 6? (delta-shaped glyph without upper loop, 8/6); 50:8->[tentative] 6? (same form as pos 20, 8/6); 58:?->[tentative] 0? (small round glyph at torn edge)
+L7 (60 digits): 6 8 7 8 9 8 1 5 2 3 5 2 9 9 2 7 8 7 8 0 4 7 5 1 6 9 5 7 5 2 8 2 7^. 2 6 7 2^. 8 7 3 5 8 0 5 7 9 8 0 4 0 5 7 5 8 0 6 4 7 3 6
+DIFF: 3:1->7 (top bar joined to following 8)
+L8 (59 digits): 8 0 8 3 5 7 4 5 2 5 7 8 0 6 2 7^, 6? 3 8 0 6 8 7 4 6 7 4 2 7 3 6 7 8 9 2 7^. 3 5 0 3 8 9 0 8 7 8 5 7 4 0 5 5 1 8 2 9 0 8 2
+DIFF: 5:8/5->5 (Gamma-form 5); 6:9->7 (clear 7); 17:0->[tentative] 6? (loop with short ascender, 0/6)
+L9 (60 digits): 1 6 8 0 6 4 9 5 7 8 2 7^, 2 0 8 0 4 5 7 4 9 5 7 8 2 6 0 3 2^. 7 0 3 0^, 6 3 7 5 9 0 3 5 0 5 7 8 0 5 9 5 7 1 2 8 2 7 4 3 8 7 3
+DIFF: none
+L10 (58 digits): 9 0 4 5 7 2 5 4 7 3 8 8 0 4 0^, 5 : 2 6 3 8 8 0 8 7 7 3 4 9 8 0 1 9^- 8 0 8 7^, 2 0 8 0 8 2^, 7 4 7 0 6 7 3 8 2 5 8 0 6 4 7 ?
+DIFF: 10:2->3 (has 3 descender); +after16:->: (colon separator between 5 and 2 (0^, mark over pos 15 also present)); 32:9->9^- (dash above 9 (straddling toward the 1)); +after57:->? (partial glyph after final 7 at binding)
+L11 (60 digits): 0 3 6 1 7 3 6 8 0 6 4 7 3 6 9 4 0^, 2 7 8 0 9 0 5 2 5 5 7 2 4 7 8 0 6 0 8 3 5 7 3 5 0 3 9 0 1 4 2 7 5 7 8 0 4 7 3 6 2 7 4
+DIFF: none
+L12 (60 digits): 9 7 2 7 4 2 8 2 9 5 0 3 5 0 5 7 8 0 5 2 7^. 8 0 6 3 7 5 2 5 9^. 2 7 4 7^.? 8 0 2 5 5 0 3 8 0 1 2 2 7 4 9 6 7 8 0 1 9 8 0 8 7^. 2
+DIFF: 30:9->9^. (dark dot above 9); 34:7->[tentative] 7^.? (blob on top of 7 before 8, possibly a dot); 44:2->1 (short curved stroke, not z-form 2)
+L13 (59 digits): 6? 3 8 5 7 5 2 8 0 6 8 1 3 4 7 3 6 2 7 0 6 1 4 0 3 7 5 8 2 5 7 4 0^. 3 8 3^. 7 4 2 0 7 8 7 3 8? 4 0^. 8 1 5 7 8 2 4 2^. 7 7 7 3
+DIFF: 1:0->[tentative] 6? (thin ascender, 0/6); +after35:->3^. (3 with dot above omitted: image 0^. 3 8 3^. 7 4 2); 44:5->[tentative] 8? (loop with ascender, 5/8); +after52:->4 2^. (omitted: image 8 2 4 2^. 7 7 7 3)
+L14 (64 digits incl. final ?): 5 0 3 8 6 5 7 5 6 5 8 0 5 7 8 9 7 3 6 8 7 8 0 8 9 2 7^. 6 0 3 7 3 6 0 8 5 7 7 5 7 4 : 5 7 2 8 7 3 8 8 0 4 9 7 3 8 0 3 5 2 3 5 8 0 ?
+DIFF: +after41: '^,' -> ':' (the mark after 4 is a colon separator on the line, not a comma above a digit); 64:? stays ? (torn edge, only a short low stroke)
+L15 (59 digits): 9 0 6 8 0 6 2 6 6 7 5 7 0 7 6 9 0^. 5 4 0 3 8 0 2 8 5 0 3 8 0 1 8 0 8 6 9 7 5 5 0 3 8 2 8 0 3 8 2^. 7 0 3 6 5 1 8 2 5 6 9
+DIFF: 48:2->2^. (dot added above 2 (before 7 0 3 6))
+L16 (62 digits): 4 2 7 3 6 7 8 9 5 7^, 3 5 7 2 7^, 2 5 7, 3 6 9 5 7 5 7 5 5 2 9 8 8 0 6 5 7 9 7 3 8 0 3 8 7 5 1^- 6 7^. 2 0 1 5 5 7 5 2 8 0 8 2 7^, 0 9?
+DIFF: 25:1/7->7 (1/7 resolved: 7 with top bar); 35:3->7 (straight stem, no mid kink (before 9,)); 62:9->[tentative] 9? (final 9 not visible at torn edge)
+L17 (61 digits): 6 8 0 4 2 7^, 2 5 9 3 5 2^. 7 7 8 0 4 5 0 3 8 9 , 3 7 5 7 8 0 8 2 6 8 . 7 3 5 9 . 3 8 8 0 8 2 1 6 0 1 9 . 8 3 7 4 2 0 7 5 . 8 0 5 7 3 6
+DIFF: +after52:->0 7 (omitted: image 8 3 7 4 2 0 7 5 : 8)
+L18 (60 digits): 9 2 7 5 2 6 2 7 5 2 0 3 8 . 7 3 8 9 0 4 0 3 7 3 5 8 0 6 . 8 1 4 3 6 7 6 9 . 0 1 4 6 . 5 3? 7 2 4 5 7 2 6 6 . 5 7 8 2 5 7 6 1 2 6 0
+DIFF: +after35:->. (low dot after 9 not in transcript); 37:1/2->1 (1/2 resolved: L-form, same letterform as 21:3/21:18); +after39:->. (low dot after 6 not in transcript); 41:3->[tentative] 3? (3/7 ambiguous)
+L19 (61 digits): 5 7 8 8 0 6 9 5 7 2 6 3 5 5 7 8 2 2 7^, 5 1 8 7 7 1 4 . 7 8 0 3 9 0 8 0 5 8 0 4 8 2 7 0 3 8 0 6 5 0 . 8 0 6 . 9 2 7? 4 9 . 7 3 6 3 4
+DIFF: +after48:->. (low dot after 6 5 0 not in transcript); 54:7->[tentative] 7? (z-like, 7/2)
+L20 (59 digits): 0 3 8 0 6 . 0 4 0 3 7 3 5 8 0 6 . 7 2 4 7 6 . 8 1 0 4 0 2 6 8 0 6 . 7 3 6 5 7 7 2? 5 2 9 5 0 3 5? 7 5 1 8 2 5 9 . 2^. 7 7 7 3 4 5 7^.
+DIFF: 37:3->[tentative] 2? (z-form without mid kink, 3/2); 44:5->[tentative] 5? (closed top loop, 5/8)
+L21 (59 digits): 3 7 1 0 8 2 4 . 6 7 8 0 2 5 8 0 8 . 7 1 8 0 6 9 5 7 8 2 7^. 2 0 8 0 4 . 1 8 2 0 4 9 7 3 5 0^. 5 5 7^. 0 6 . 5 7 4 8 0 1 8 7 2 8 . 2 6
+DIFF: +after47:->. (low dot between 6 and 5 not in transcript); 53:1/2->1 (1/2 resolved: L-form as at pos 3); 56:1/2->2 (1/2 resolved: z-form with top bar)
+SUMMARY (071r = IMG_R92_I693_P3.jpg, 21 cipher lines)
+Digits read: 1251 (incl. 3 '?' placeholders). Transcript: 1246. Net +5 = +3 (L13) +2 (L17) -1 (L3) +1 trailing ? (L10).
+Firm disagreements: 27 (6 digit changes, 4 indels, 5 added marks, 5 slash resolutions, 6 separators, 1 trailing glyph)
+  - digit changes (6): L6:4 1->7, L7:3 1->7, L8:6 9->7, L10:10 2->3, L12:44 2->1, L16:35 3->7
+  - omissions/insertions (4 events): L3:17 extra 7 not in image; L13 '3^.' missing after pos 35; L13 '4 2^.' missing after pos 52; L17 '0 7' missing after pos 52 (reads 4 2 0 7 5 : 8)
+  - marks added (5): L1:58 7^., L5:18 7^., L10:32 9^- (dash), L12:30 9^., L15:48 2^.  (plus two dotted digits inside the L13 insertions: 3^., 2^.)
+  - slash tokens resolved (5): L8:5 8/5->5, L16:25 1/7->7, L18:37 1/2->1 (L-form), L21:53 1/2->1 (L-form), L21:56 1/2->2 (z-form with top bar)
+  - separators (6): colon added L10 after pos 16; L14 '^,' after pos 41 is a line colon, not a mark; low dots added L18 after 35 and 39, L19 after 48, L21 after 47
+  - trailing partial glyph after last digit of L10 ('?')
+Tentative (ambiguous, both readings given, not counted): 12 -- L6:20 8/6, L6:50 8/6, L8:17 0/6, L12:34 possible dot on 7, L13:1 0/6, L13:44 5/8, L16:62 9 not visible at the edge, L18:41 3/7, L19:54 7/2, L20:37 3/2, L20:44 5/8, L6:58 ?->0?
+Marks: 36 marked digits in transcript checked, all present over the digit given (none moved, none absent); L14 '^,' reinterpreted as a colon. Added: 5 firm (+2 inside the L13 insertions, +1 possible at L12:34).
+Original '?' tokens: L6:58 -> 0? (small round glyph at torn edge, still unsure); L14:64 -> unresolved (torn edge, only a short low stroke).
+Faint reddish marks over L5:10 (6) and L7:34 (2) judged to be show-through, not dots.
+Letterform note: the 'L' shape (stem + foot joined to the next digit) is the transcriber's '1' (21:3, 21:18); the 'z' with a top bar is 2.

@@ -55,6 +55,7 @@
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
+  "vatican part 5, 1542: the manuscript images": "2026-09-18",
   "voynich manuscript": "2026-09-15"
  },
  "pages": {
@@ -155,7 +156,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "51347366ed70",
+   "hash": "9d8ac74cace1",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -270,8 +271,8 @@
   },
   "vatican": {
    "first": "2026-09-15",
-   "hash": "8d6a047a3e64",
-   "updated": "2026-09-15"
+   "hash": "2b13fe545c20",
+   "updated": "2026-09-18"
   },
   "vich1511": {
    "first": "2026-09-18",
