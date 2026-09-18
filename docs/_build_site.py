@@ -584,6 +584,8 @@ def process(path):
     if s.startswith('﻿'): s = s[1:]
     rec = page_dates(slug, s)
     page = next((p for p in PAGES if p['slug'] == slug), None)
+    if page and '<section class="hero">' not in s:
+        print(f'  note: {slug}.html has no hero section (kicker, title, byline); every write-up has one')
     nav = nav_html(slug)
     if '<!-- site:nav -->' in s: s = s.replace('<!-- site:nav -->', nav, 1)
     else: s = re.sub(r'<header class="nav">.*?</header>|<nav class="nav">.*?</nav>', lambda m: nav, s, count=1, flags=re.S)
