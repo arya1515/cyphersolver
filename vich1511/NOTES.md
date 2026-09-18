@@ -79,7 +79,8 @@ campaign, and the weightiest of the three.
   that **Massimiliano, son of Duke Ludovico**, be put into the state by the Emperor's hand, precisely so
   that Pope and Venice lose the suspicion that Milan is being taken for the Emperor; the essential
   article is that possession of the state and its fortresses be taken "sin dilación". A marriage for the
-  infante **don Fernando** with the duke's daughter is in view.
+  infante **don Fernando** with "la fija de la duquesa de Milan" (so the decode; the notes earlier said
+  the duke's daughter) is in view.
 - **Venice and the papal claims** (p. 9). Venice should not be barred from recovering its old terraferma
   towns, or it will not pay; the Pope, however, is trying to appropriate **Parma, Piacenza, Modena and
   Reggio** against the capitulation of the League — "ninguno de los de la liga haga cosa en perjuizio de
@@ -96,8 +97,9 @@ campaign, and the weightiest of the three.
 **Checks.** The key was built from N.46 and N.52BIS alone and then read three letters it was not built
 from. Each letter's place and date come out of the clear-text subscription and match the catalogue
 (Seville, Burgos, Logroño). The contents fit their dates independently: the March 1511 cardinal
-promotion, Ravenna, the Navarre bulls. In N.57 the proverb *echar la soga tras el caldero* is spelled
-out letter by letter, not taken from code groups.
+promotion, Ravenna, the Navarre bulls. In N.57 the proverb *echar la soga tras el caldero* is mostly
+spelled out letter by letter (it does use `fak` el and `plort` al in c-al-dero, which supports `plort` = al
+against the N.60 transcriber's mi).
 
 ## N.73 (1515) — not read
 
@@ -127,4 +129,7 @@ crib or a sibling. Its clear text: docket "a 26 de octubre 1515", opening "videl
   would close most of them.
 - The q = m/a sign split, and `plart`/`plort`, want a careful re-reading against the images.
 - N.73 (1515) needs a different approach.
-- Whether Terrateig 1963 already printed any of this.
+- Whether Terrateig 1963 already printed any of this. Search of 18 Sept 2026 (snippets only): vol. II prints
+  Ferdinand's letters to Vich from AHN Estado as numbered documents, with plates of ciphered letters and their
+  decipherments; no snippet or citation names 4 Apr 1511, 5 June 1512 or 1 Sept 1512. Unresolved: assume it
+  may print them until the book is seen.

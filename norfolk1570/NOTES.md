@@ -46,7 +46,7 @@ with δ, would ƀ, you ʃ, your ∂; names: Q. of England V, B. of Ross IV, Murr
 23 til death. {Mary}. The tventi of this instant.
 
 Dating: after Moray's murder (Linlithgow, 23 Jan 1570, harquebus shot) — Elizabeth suspects Mary ("gives me
-the wyte of Murray death"); Morton rumoured on the move; Gilbert Talbot at hand. So 20 Feb or 20 Mar 1570.
+the wyte of Murray death"); Morton rumoured on the move; Lord Talbot at hand (in 1570 the courtesy title of Shrewsbury's eldest son Francis, not Gilbert, who took it in 1582). So 20 Feb or 20 Mar 1570.
 
 ### Open points
 - Unkeyed signs: ⊕ (l.2), ⊘ with inner b (l.8, a person), ø (l.13), ⊗ (l.17), {a—}/{o—} dash signs (ll.5, 11).

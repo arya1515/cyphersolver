@@ -532,3 +532,26 @@ adrian1521/spanish2.htm
 norfolk1570/view/
 norfolk1570/img/
 norfolk1570/manifest.json
+
+# soglia1848: language-model tables, corpora, solver runs, line strips, downloaded pages and the full-size scan
+soglia1848/*.bin
+soglia1848/*.npy
+soglia1848/it19.txt
+soglia1848/corpus/
+soglia1848/corpus_fr/
+soglia1848/corpus_la/
+soglia1848/runs/
+soglia1848/strips/
+soglia1848/native/*.exe
+soglia1848/blog.html
+soglia1848/soglia-cryptogram.png
+soglia1848/__pycache__/
+
+# orpo1942: source PDFs and their text dumps, n-gram tables, compiled solvers
+orpo1942/*.pdf
+orpo1942/*.bin
+orpo1942/*.exe
+orpo1942/eaves.txt
+orpo1942/mcts.txt
+orpo1942/wb_*.txt
+orpo1942/__pycache__/

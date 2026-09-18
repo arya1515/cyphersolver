@@ -8,6 +8,7 @@
   "blume salamanca telegram, 1937": "2026-09-15",
   "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
   "bordeaux to brienne, 1653": "2026-09-16",
+  "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
@@ -18,10 +19,12 @@
   "debosnys, 1882–83": "2026-09-15",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
   "ferdinand iii, 1634–40": "2026-09-15",
+  "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
   "feuquières to catinat, 1691": "2026-09-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
   "from warsaw, 24 december 1627": "2026-09-16",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
+  "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
@@ -33,6 +36,7 @@
   "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "maltravers to ormonde, 1634–35": "2026-09-15",
+  "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
   "moray to wood, 1568": "2026-09-15",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
@@ -138,7 +142,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "eb9513977cda",
+   "hash": "189d116a26b9",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -171,10 +175,20 @@
    "hash": "282f9be7a6cb",
    "updated": "2026-09-17"
   },
+  "norfolk1570": {
+   "first": "2026-09-18",
+   "hash": "34109d756cdc",
+   "updated": "2026-09-18"
+  },
   "ormonde": {
    "first": "2026-09-15",
    "hash": "54145087d76c",
    "updated": "2026-09-15"
+  },
+  "orpo1942": {
+   "first": "2026-09-18",
+   "hash": "be4a11d97de7",
+   "updated": "2026-09-18"
   },
   "raince": {
    "first": "2026-09-17",
@@ -201,9 +215,14 @@
    "hash": "e990d84671e4",
    "updated": "2026-09-16"
   },
+  "soglia1848": {
+   "first": "2026-09-18",
+   "hash": "8596184dee8d",
+   "updated": "2026-09-18"
+  },
   "solved": {
    "first": "2026-09-17",
-   "hash": "e099aefd8306",
+   "hash": "23ec94de4e9b",
    "updated": "2026-09-18"
   },
   "sormano": {
@@ -235,6 +254,11 @@
    "first": "2026-09-15",
    "hash": "8d6a047a3e64",
    "updated": "2026-09-15"
+  },
+  "vich1511": {
+   "first": "2026-09-18",
+   "hash": "7d7993ec3c0b",
+   "updated": "2026-09-18"
   },
   "voynich": {
    "first": "2026-09-15",

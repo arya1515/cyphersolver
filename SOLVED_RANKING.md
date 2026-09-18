@@ -64,9 +64,10 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 
 ### Provisional additions, 18 Sept 2026
 
-Six more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
-Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 beside Feuquières, Adams No. 88 just above
-Warsaw, Yard 1699 beside Béthune, Adrian 1521 level with Mendoza, and Erving 1807 below Forster.
+Nine more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
+Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
+just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
+Mendoza, and Erving 1807 below Forster.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -76,9 +77,13 @@ Warsaw, Yard 1699 beside Béthune, Adrian 1521 level with Mendoza, and Erving 18
 | p11 | **Robert Yard → the Earl of Manchester**, Whitehall, 12 and 16 Oct 1699, Beinecke OSB MSS fc37 box 2/49, 2/51 | 1699 | 1 | 3 | 4 | 4 | 2 | 5 | **2.90** | No cryptanalysis: the key was a printed code sheet in the same Manchester papers at Yale, transcribed (1,456 slots) and validated on the 5 Oct sibling's contemporary decipherment. Both letters read end to end, 368 groups, five slips marked. Novelty held to 4 because Tomokiyo had named the code and decoded the first groups, and Cole's *Memoirs* (1733) was not re-checked. Content: intelligence traffic, the Dover watch for Mills and Lord Drummond's priest and reports of a design at Saint-Germain; no decision of state |
 | p12 | **Adrian of Utrecht, the Admiral and the Constable → Charles V**, Vitoria, 30 Dec 1521, AGS Estado leg. 8 no. 150 | 1521 | 2 | 3 | 2 | 4 | 1 | 4 | **2.55** | Found in print (Pérez Gredilla's decipherment in Danvila, MHE 38, 1899), then used as a crib: ciphertext transcribed from PARES and aligned on `xif` = V. M., the nomenclator rebuilt with its alphabet-block code initials. Corrects the dead king from England to Manuel I of Portugal and reads or corrects about 17 of c. 25 unread groups. Low on difficulty and novelty (plaintext in print), on no list; held on completeness by about ten open groups and a rough sign alphabet at PARES resolution |
 | p13 | **G. W. Erving → Madison**, Madrid, 24 Mar 1807, Pinckney's code | 1807 | 1 | 2 | 2 | 4 | 1 | 5 | **2.15** | Holes in a decode already in print closed from the two received copies and Pinckney's decoded despatches; the only loss is Erving's own. Low on difficulty (Madison had the key), novelty (the editors had suggested two of the corrections) and profile (on no list); high on verification and research (three microfilm and LoC sources collated) |
+| p14 | **Ferdinand the Catholic → Jerónimo de Vich**, AHN Estado 8715 N.45, N.57, N.60, Apr 1511 – Sept 1512 | 1511–12 | 2 | 4 | 3 | 4 | 1 | 3 | **2.90** | Key rebuilt from two deciphered siblings, not broken cold, then read three letters it was not built from; about 22,500 signs and groups transcribed from PARES. High on content: Ferdinand's own account of how his army was pushed into Ravenna, the Sforza restoration and the call for spiritual war on Louis XII. Novelty held to 3 because Terrateig 1963 (not seen) prints Ferdinand's letters from this legajo and may include these. On no list. Held down on verification and completeness: the checks are internal, some groups unread, and the siblings N.41 and 8714 were not used |
+| p15 | **Mary Queen of Scots → the Duke of Norfolk**, "the 20th" [Feb or Mar 1570], Cotton MS Caligula C II f. 74r | 1570 | 2 | 3 | 3 | 3 | 2 | 3 | **2.65** | Key in print (Tomokiyo, rebuilt from the deciphered siblings) and checked on f. 66r; no cryptanalysis beyond reading signs. Novelty is limited: Tomokiyo's overlay already had most of the letters, and what is new is the continuous reading, the gap fills, the names and the date. Content: the Norfolk marriage intrigue after Moray's murder, with Elizabeth blaming Mary for it. Five unkeyed signs and a few words open |
+| p16 | **Cardinal Soglia → the nuncio Viale Prelà**, Rome 15 June 1848 (*L'Italia del Popolo*, 30 June 1848) | 1848 | 4 | 3 | 5 | 3 | 2 | 3 | **3.55** | Ciphertext-only recovery of a system nobody had described for this text: word separator, 64-cell table with syllables, alphabetical 8XXX code, and a synthetic control behind the negative. Never read before, and the paper offered a prize for it in 1848. Content: a papal counter-order to the nuncio that came a day late. Transcription supplied, one digit restored. On no list, only a Cipherbrain post. Ten code words read from context and checked by rank, eleven open |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
-p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50.
+p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
+p14 0.50 + 1.00 + 0.60 + 0.40 + 0.10 + 0.30; p15 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30; p16 1.00 + 0.75 + 1.00 + 0.30 + 0.20 + 0.30.
 
 ## By single axis
 
