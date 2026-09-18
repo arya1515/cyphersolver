@@ -1065,13 +1065,15 @@ cause either — size, blur and aspect handling move both sets only a few points
 as `manifest_f18g7.json` for the record; `manifest.json` is unchanged.
 
 
-## "Castillebourg" is Castillon — which dates the crib
+## "Castillebourg" is *not* the 1586 siege of Castillon (identification withdrawn)
 
-The place written *Castil* + *lebourg* in f. 19r line 2 is **Castillon** (Castillon-la-Bataille, on the
-Dordogne), with *bourg* its town — Mayenne's long siege of Castillon was the main operation of the
-royal army in Guyenne in the summer of 1586. That fixes the context of the f. 18/19 despatch — a
-council of war about Castillon, the townsmen "fort estonnez", the governor's return, the cold in the
-trenches — and very probably of ff. 196/201 as well, which report "le commencement de ce siège".
+An earlier note here identified *Castil* + *lebourg* as Castillon-la-Bataille and the despatch as part of
+Mayenne's siege of Castillon. **That does not fit the dates.** The siege of Castillon culminated in late
+August 1586 (an agreement made "au camp devant Castillon" on 30 August), whereas f. 18/19 sits at the
+front of a volume running January–July 1586, beside Forget's letter of 24 January, and its own text
+speaks of *"les froidz … devenuz tres grandz"* for the soldiers in the trenches — a **winter** operation.
+The place stays unidentified: a winter siege in Guyenne or Périgord in January 1586, somewhere read
+*Castil…bourg*. The earlier claim is withdrawn rather than silently changed.
 
 ## Archival search, first pass: nothing in print
 
