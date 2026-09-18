@@ -26,6 +26,7 @@
   "from warsaw, 24 december 1627": "2026-09-16",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
+  "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
@@ -89,7 +90,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "1110ff9f1a75",
+   "hash": "860f60f24f2d",
    "updated": "2026-09-18"
   },
   "catinat1691": {
@@ -132,6 +133,11 @@
    "hash": "bc2a87ccb6ae",
    "updated": "2026-09-15"
   },
+  "gramont1529": {
+   "first": "2026-09-18",
+   "hash": "d747fd5c84cc",
+   "updated": "2026-09-18"
+  },
   "hesse1603": {
    "first": "2026-09-17",
    "hash": "bf6ae60aa8aa",
@@ -149,7 +155,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "6b06868a4787",
+   "hash": "51347366ed70",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -234,7 +240,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "fba7320d0cab",
+   "hash": "b68f61e13df4",
    "updated": "2026-09-18"
   },
   "sormano": {

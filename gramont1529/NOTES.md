@@ -54,6 +54,11 @@ are identified.
 Prior art still to look at: B. Wirtz-Daviau's edition of Chabot's 1529 embassy (may quote Gramont's letters
 from a contemporary decipherment).
 
+## Site
+
+Written up as `docs/gramont1529.html` (18 Sept 2026) with four figures cut from the Gallica scans; README Solved
+row, SOLVED_CATALOGUE 33, SOLVED_RANKING p18 (3.50, provisional), solved.html row, index finding.
+
 ## Tools
 
 `thumbs.py` (Gallica thumbnails), `sheet.py` (contact sheet), `full.py` (full-res canvases, 8 s spacing,

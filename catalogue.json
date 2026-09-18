@@ -164,7 +164,8 @@
    "difficulty": 4,
    "score_note": "Scored as first assigned; all four letters read, see gramont1529/NOTES.md. No cryptanalysis needed: the keys are Lasry's. Residue is transcription-limited; a few code signs are identified from context only.",
    "verify": "Check B. Wirtz-Daviau's edition of Chabot's 1529 embassy for contemporary decipherments of Gramont's letters; collate the loosely read clear text of the Mâcon letter.",
-   "outcome": "read"
+   "outcome": "read",
+   "writeup": "gramont1529.html"
   },
   {
    "id": 7,
