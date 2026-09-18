@@ -967,3 +967,27 @@ exemplars → read the unknown lines → their confident stretches become known 
 crib and is furthest along; f. 143 now has a start. The other target leaves need their hands
 identified first — which leaves share a secretary with f. 18 or f. 143 decides whether they inherit
 a set or need one of their own.
+
+
+## f. 196 is not in f. 18's hand either — so the plan is per leaf
+
+f. 196 read with f. 18's exemplars gives noise on the very line whose text is known from the f. 201
+crib (*"…arrivé tant travaillé qu'il y a gaigné"*). f. 143 did the same. The scribe changes from leaf
+to leaf, and the big crib's images serve its own hand only.
+
+That fixes the shape of the remaining work. **The crib's lasting product is the table** — every
+figure's letter, confirmed against plaintext, and the four code values checked (14, 25, 52, 35) —
+plus the method and the checks. The images have to be rebuilt for each hand from text already known
+**on that leaf**. For each target, what that seed is:
+
+| leaf | seed for its own exemplar set |
+|---|---|
+| f. 143 | its own opening, already read (reproduces Tomokiyo); set started, 15 letters |
+| f. 196 | the f. 201 crib — clear text at head *and* foot of the same despatch |
+| f. 201 | the same despatch as f. 196; if one hand, the two share a set |
+| f. 110, 123–124, 150, 154, 173 | no crib: hand transcription read with the table, as f. 143's opening was, then bootstrap |
+
+The loop is identical for every leaf and every step in it is checked: known text → forced alignment,
+verified by the code groups read as numerals → exemplars, cleaned by audit, ablation and the gutter
+test → read the unknown lines → their confident stretches become known text. f. 196 is the next to
+start, because its seed is the strongest: two cribs, at both ends of the block.
