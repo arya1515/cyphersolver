@@ -1,78 +1,108 @@
-# Ferdinand the Catholic → Jerónimo de Vich (Rome), AHN Estado 8715
+# Ferdinand the Catholic → Jerónimo de Vich (Rome), AHN Estado 8714/8715
 
-PARES search "Vich cifrada" lists the ciphered letters in the Vich archive (AHN, Archivos privados):
+PARES search "Vich cifrada" lists the ciphered letters in the Vich family archive (AHN, Archivos privados):
 
-| Signature | Date | PARES id | Status on PARES |
+| Signature | Date | PARES id | State |
 |---|---|---|---|
-| 8714 N.12 | 1508-09-30 | 12751356 | with decipherment |
-| 8714 N.26 | 1509-07-28 | 12751370 | with decipherment |
-| 8714 N.39 | 1510-05-13 | 12751383 | with decipherment |
-| 8715 N.41 | 1510-05-22 | 12751386 | with decipherment |
-| 8715 N.45 | 1511-04-04 | 12751390 | **cipher only** |
-| 8715 N.46 | 1511-07-05 | 12751391 | with decipherment (used for the key) |
-| 8715 N.52BIS | 1512-03-01 | 12760824 | with decipherment (used for the key) |
-| 8715 N.57 | 1512-06-05 | 12751402 | **cipher only — read here** |
-| 8715 N.60 | 1512-09-01 | 12751405 | **cipher only**, same system (same code groups: `fak`, `diz`, `pef`, `sub`, `goy`, `fol`) |
-| 8715 N.73 | 1515-10-26 | 12751418 | **cipher only**, *different* system (groups `xed`, `yob`, `tok`, `zre`) |
-| 8715 N.74 | 1519-01-30 | 12751419 | Charles I, with decipherment, different system |
-| 8715 N.79 | "1500" | 12751424 | "Clave de cifra" (2 images, not yet examined) |
+| 8714 N.12 | 1508-09-30 | 12751356 | cipher + contemporary decipherment |
+| 8714 N.26 | 1509-07-28 | 12751370 | cipher + decipherment |
+| 8714 N.39 | 1510-05-13 | 12751383 | cipher + decipherment |
+| 8715 N.41 | 1510-05-22 | 12751386 | cipher + decipherment |
+| **8715 N.45** | **1511-04-04** | 12751390 | cipher only — **read here** (Seville) |
+| 8715 N.46 | 1511-07-05 | 12751391 | cipher + decipherment (key source) |
+| 8715 N.52BIS | 1512-03-01 | 12760824 | cipher + decipherment (key source) |
+| **8715 N.57** | **1512-06-05** | 12751402 | cipher only — **read here** (Burgos) |
+| **8715 N.60** | **1512-09-01** | 12751405 | cipher only — **read here** (Logroño) |
+| 8715 N.73 | 1515-10-26 | 12751418 | cipher only — **different key, not read** (Pedrezuela) |
+| 8715 N.74 | 1519-01-30 | 12751419 | Charles I, cipher + decipherment, another system |
+| 8715 N.79 | "1500" | 12751424 | "Clave de cifra": a plain letter→sign table, not the key to any of these |
 
-No publication of N.57's text was found (web search, 2026-09-18).
+**Caveat on prior work.** The Barón de Terrateig, *Política en Italia del Rey Católico 1507–1516.
+Correspondencia inédita con el embajador Vich* (CSIC, Madrid 1963, 2 vols.) edits this correspondence.
+I could not consult it (the one online review returns HTTP 403), so whether he printed texts for
+N.45/N.57/N.60 is unverified. PARES itself records no decipherment for them, and no text of them was
+found online.
 
-## The 1511–12 system
+## The 1511–12 cipher
 
-A small code (three-letter lowercase pseudo-syllables, CVC: `pef` que, `diz` de, `fak` el, `fem` es,
-`fan` en, `hor` la, `has` lo, `mix` papa, `hib` guerra, `fef` emperador, `sap` venecianos …) mixed
-with a homophonic alphabet of figures and marks (`40` r, `4h`/`3` e, `ah`/`T` o, `to`/`7`/`b` a,
-`ch` c, `oo` d, `d`/`eh` s, `11`/`W` n, `X`/`g`/`9` t …). Words are spelled out when not in the code.
-Values: `decode.py`. They come from lining up N.46 and N.52BIS against the clerk's decipherments.
-The glyph labels are my own ASCII names for the symbols; the legend is at the top of
-`n57_transcription.txt`.
+One key serves N.41, N.45, N.46, N.52BIS, N.57 and N.60. It is a nomenclator:
 
-## N.57, Burgos, 5 June 1512: reading
+- **A homophonic alphabet** of figures and marked letters — `40` r, `4h`/`3` e, `ah`/`T` o,
+  `to`/`7`/`b` a, `ch` c, `oo` d, `11`/`W` n, `X`/`g`/`9` t, `d`/`eh` s, `q` m, `o` g, `O` h,
+  `mt`/`SS`/`P` p, `tt` r. Words not in the code are spelled out with these.
+- **Code groups**, three letters, for words *and* for syllables: `pef` que, `diz` de, `dih` con,
+  `fak` el, `hor` la, `has` lo, `raf` por, `rif` porque, `mix`/`mye` papa, `fef` emperador,
+  `sap` venecianos, `fio` ferrara, `fuq` francia, `dur`/`dox` duque, `hib` guerra — and syllabic
+  ones like `pob` si (in *si-t-io*), `flart` me (in *pri-me-ras*), `mik` no (in *me-no-r*).
+- Full list: `key.md`; machine-readable in `decode.py`; ~120 groups recovered.
 
-The decode (`n57_decode_v1.txt`) runs as continuous Castilian for about 90% of the text. About 40
-groups are still unassigned. They are shown in brackets there and marked "…" below.
+**How it was recovered.** N.46 and N.52BIS carry the clerk's decipherment on the following leaves.
+Lining the two up word by word gives the alphabet and the common groups; the readings of N.45, N.57
+and N.60 then supplied the rest. Two traps: `fug` (señor) and `fuq` (Francia) are near-identical, as
+are `plart` (mi) and `plort` (al); and the barred q is m in most places but a in a few, so there are
+probably two similar signs that this transcription merges.
 
-The subject is the **battle of Ravenna (11 April 1512)**. Ferdinand blames the viceroy
-(*nuestro capitán general*, Ramón de Cardona) for accepting battle against every rule of war. He says
-the army was pushed into it by the papal side's threats that the Pope would stop paying and come to terms
-with France. He tells Vich not to repeat the mistake, to get the Pope and Venice to pay their share,
-and to arrange a matter secretly, "without the Pope feeling it", and report back.
+## What the three letters say
 
-Normalised reading, with gaps:
+**N.45 — Seville, 4 April 1511** (378 lines, ~7% still unread; `n45_pp*`). A long complaint against
+Julius II and a set of instructions. Ferdinand is angry at the publication of the new cardinals, at the
+Pope absolving the Venetians and treating with them "sin dezirme ni comunicarme", at the priory of San
+Juan, and at the Pope's refusal to follow his counsel, from which followed *la rota* of the papal army.
+Then the business: press the **Emperor–Venice concord** (with draft terms — Padua and Treviso to stay
+with Venice in fief against tribute; Verona, Vicenza, Riva, Rovereto, Peschiera to the Emperor), settle
+**Ferrara**, keep the Pope's army in a safe place, and deliver orders to **Fabrizio Colonna** under an
+enclosed letter of credence. He warns that France is offering him a separate perpetual alliance without
+the Emperor and that he will not take it, and that a rupture would wreck his crusade against the Moors.
 
-> … los de nuestro campo que vieron … y los que nos escrivieron … que las cosas que vos … continuo
-> les escrevistes, apretando lo sobre … con grandíssima … de su capitán general, muy principalmente
-> que no cumpliese sino lo que yo por tantas cartas les he enviado a dezir, y según … encarecidamente
-> me escrevía de antes de la batalla, que por la vida no convenía que se retirasen … diziéndole que
-> assí ge lo he escrito a mi aviso. Conozco que dizen verdad, y que el miedo que tenían de los que
-> estavan … y las cosas que de[b]í escrevía del nuestro campo el capitán general, que los que estavan
-> en él pervirtiessen toda la orden de guerra; porque la verdad es que todo … del comienço … el cabo …
-> contra toda orden de guerra. Y dizen que … por vos … assí, porque a cada cosa … les dezía que si no la
-> hazían el Papa no cumpliría la paga y que se concertaría con … y por otra … mi cabo escrevía … que se …
-> si se retirassen; que estas cosas lo apretaron a que se pusiessen en la … y desaventajados que se
-> pusieron, ya que no fiziessen lo que yo les he enviado a dezir. Que claro está que no se … no
-> retirarse, que está lo que vos les escrevíades de ponerse en … donde no viniesse a batalla, que está lo
-> que yo les … conocía que en esto estava la … porque lo … y tened por cierto que las cosas de guerra es
-> muy peligroso … lo que están ausentes dellas, que siempre se ha de remitir a los que las tienen
-> presentes. … Todo esto digo porque de aquí adelante miréys mucho en no caer en tal yerro, que sería
-> echar la soga tras el caldero. Lo que en este caso de la guerra toca a vos, es procurar que el Papa y
-> venecianos cumplan … su parte de la paga, que por la … negociar muy bien lo … y la conclusión de lo
-> del Emperador y … las otras negociaciones, que puede[n] daño … para el bien de la empresa, y la de …
-> no la tengáys en poco … que hazía se bien aquella en ella … Y digo que la tratéys … sin que la sienta
-> el Papa, y teniéndola concertada hazédmelo saber, que yo daré orden cómo se efectúe.
-> — En Burgos a v de junio de dxij.
+**N.57 — Burgos, 5 June 1512** (35 lines, ~8% unread; `n57_*`). The aftermath of **Ravenna**
+(11 April 1512). Ferdinand reconstructs how his army was pushed into battle: Vich's own letters, and
+the papal side, pressed the viceroy Ramón de Cardona, saying that **if they did not fight, the Pope
+would not meet the pay and would come to terms with France** — against Ferdinand's repeated written
+orders not to risk a battle. "Las cosas de guerra es muy peligroso [para] los que están ausentes
+dellas; siempre se ha de remitir a los que las tienen presentes." Do not do it again, he says, or it
+would be *echar la soga tras el caldero*. Then: get the Pope and the Venetians to pay their share, push
+the Emperor's business to a conclusion, and **treat the Ferrara business secretly, "sin que la sienta
+el Papa"**, reporting back so he can give orders.
 
-**Checks that the key is right:** the key taken from N.46 and N.52BIS reads a letter it was not built
-from. Place and date agree with the clear-text subscription (Burgos, 5 June 1512). The topic fits the
-date: Ravenna, and the payment dispute inside the Holy League. The proverb *echar la soga tras el
-caldero* comes out of spelled-out letters, which are not code words.
+**N.60 — Logroño, 1 September 1512** (432 lines, ~15% unread; `n60_pp*`). Written from the Navarre
+campaign. It opens on **the bulls for Navarre** that Vich had sent, and on the Pope acting "en
+quebrantamiento de lo que tiene asentado" with him; Ferdinand fears the design will end with the French
+king "tornar a apoderarse de Italia". The bulk is again the **Emperor–Venice peace**: Vicenza, raising
+the Venetian tribute, what the Emperor keeps, and how far Ferdinand will go as guarantor; plus Ferrara,
+a cardinal's business, and instructions to keep pressing on both fronts at once.
 
-## Still open
+**Checks.** The key was built from N.46 and N.52BIS alone and then read three letters it was not built
+from. Each letter's place and date come out of the clear-text subscription and match the catalogue
+(Seville, Burgos, Logroño). The contents fit their dates independently: the March 1511 cardinal
+promotion, Ravenna, the Navarre bulls. In N.57 the proverb *echar la soga tras el caldero* is spelled
+out letter by letter, not taken from code groups.
 
-- About 40 unassigned groups in N.57 (`sil`, `goe`, `gue`, `rug`, `hno`, `fep`, `sig`, `mag`, `feg` …).
-  More sibling alignment would close most of them; N.41 and the 8714 decipherments are untouched.
-- N.45 and N.60 are in the same system and are the next letters to read.
-- N.73 (1515) is a different key.
-- N.79 "Clave de cifra" is not yet examined.
+## N.73 (1515) — not read
+
+`n73_transcription.txt` (124 lines, 3,177 tokens, 197 distinct) and `n73_freq.txt`. It is a different
+system: mostly three-letter code groups (`sin` 151, `sud` 97, `no` 93, `zre` 89, `xed` 68) with a
+smaller set of signs (`X` 171, `TH` 170, `PHI` 163, `RH` 151). No deciphered sibling exists for it:
+the nearest, N.74 of 1519, is Charles I's and is a third system (its `sex` = papa, `mod` = tiene,
+`sin` = de). Attacks tried and failed (`solve73.py`, `solve73g.py`): annealing against the repo's
+Spanish 5-gram model with the lowercase groups split into letters, as whole units, and as context
+breaks around symbol runs. All gave ~-2.7 to -3.5 per character with seeds disagreeing — no solution.
+Symbol runs are short (median 3), so there is little for an n-gram model to hold onto; this one needs a
+crib or a sibling. Its clear text: docket "a 26 de octubre 1515", opening "videlicet iterum", ending
+"en Pedrezuela a xxvj de otubre de dxv".
+
+## Files
+
+- `pares.py` search/image client; `lines.py`, `half.py` page-to-strip cutters.
+- `n45_pp03-09.txt`, `n45_pp10-15.txt`, `n57_transcription.txt`, `n60_pp03-09.txt`,
+  `n60_pp10-15.txt` — transcriptions in ASCII glyph labels (legend at the head of each).
+- `*_decoded.txt`, `n57_decode_v3.txt` — decodes; unread groups print in [brackets].
+- `decode.py` the key, `key.md` the human-readable key.
+- Images are not committed; re-fetch with `python pares.py img <pares-id> <prefix>`.
+
+## Open
+
+- ~7–15% of groups per letter still unread; the untouched decipherments (N.41 and the three in 8714)
+  would close most of them.
+- The q = m/a sign split, and `plart`/`plort`, want a careful re-reading against the images.
+- N.73 (1515) needs a different approach.
+- Whether Terrateig 1963 already printed any of this.

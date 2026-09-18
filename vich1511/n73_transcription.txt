@@ -1,0 +1,168 @@
+# AHN Estado 8715 N.73 - Ferdinand to Jeronimo de Vich (Rome), Pedrezuela, 26 Oct 1515
+# Pass-1 transcription from lines/s73p*_*.png (3 manuscript lines per strip). Different system from N.57.
+# Lowercase tokens = code-group words as written (long-s written 's'). '?' = illegible token.
+# 'gso' is written as a word (g + long-s + raised o) and kept as a lowercase group.
+#
+# SYMBOL LEGEND (label : glyph)
+#  PHI  : two small loops side by side on a descending stem ending in a dot (phi / "ꝕ"-like); very frequent
+#  RS   : 'r' joined to a long-s/ß hook with long descender ("rſ", "rß")
+#  RH   : 'r' (x-like) with double oblique bar ("r#")
+#  KH   : capital R/k-like letter with double bar ("R#", "k#")
+#  TH   : 't' with double bar ("t#")
+#  AH   : 'a' with double bar ("a#")
+#  MH   : 'm' with bar/cross at end ("m+")
+#  B8   : ß/8-like sign with descender (looks like "ȝ"/"g" on a stem)
+#  N8   : 8/delta-like figure, loop below open hook above ("γ"/"8" standing alone, no stem)
+#  Z    : standalone flat 'z' (2-like)
+#  ZO   : large looping 'y/z' with small 'o' subscript at the end ("Ƶo")
+#  ZH   : 'z' with p-like descender ("ʒp"/"zp")
+#  GS   : 'g' followed by s-shaped tail ("gſ"), without the raised o (cf. word gso)
+#  O    : small round o standing alone
+#  OT   : o with trailing horizontal stroke ("o-", sigma-like)
+#  X    : standalone x (often with a hooked lower-left tail)
+#  CT   : 'c' + two short uprights under a bar ("cπ", "cii")
+#  YH   : 'y' with horizontal bar through the descender
+#  BO   : 'b' with raised o (often with over-bar) ("b°")
+#  FH   : f/long-s with crossbar ("ƒ", "ŧ")
+#  SL   : two parallel long slashes ("//")
+#  LAM  : lambda/caret sign ("Λ")
+#  DH   : d with crossed ascender ("đ")
+#  EQ   : '=' with a vertical ("‡", "=|")
+#  SUPNO: superscript "no" with a dot, written after PHI (probably a mark/nulla, kept as token)
+#  QH   : looped q-like sign with cross (rare, line starts)
+#  CD   : reversed-c / hook sign "ɔ-" (rare)
+#  V    : small v/~ (rare)
+#  rare singletons, uncertain: SS (long double s), LO, PH, OS, Q, PSI, D, CII, 7H
+#
+# clear (docket, top margin p1): a 26 de octubre 1515
+# clear: videlicet iterum
+# clear (docket, top margin): a 26 de octubre 1515
+# clear: [v]idelicet iterum
+L101: sef sio tok RS RH B8 TH PHI sin O X KH no TH soo PHI su Z PHI rak su RS RH B8 PHI TH
+L102: CD TH CII RH TH PHI yob xil YH yob beq YH RS gso no KH ZO Z xno FH LO RH yob xnl Z xad PHI
+L103: QH RS KH sud sio TH ne RS V B8 zo KH ZH zoq xed PHI dug PHI sud QH V RS KH BO CD see OT Z xo
+L104: GS TH YH sud GS TH OT sud sio zre beq yob beq xed PHI zre sud X KH PHI zre xno tok RS RH YH PHI
+L105: sin O B8 KH no TH yob xnl xeb xed PHI V RH pn zoq YH pab xed PHI xiz PHI zre yob xad PHI see
+L106: PHI dug PHI gso RH no B8 Z PHI X no saq PHI xeb PHI TH FH ynb tok RS RH B8 OT xed X RH B8 rak
+L107: sen PHI yaz KH RH PHI Z B8 KH GS TH see CD RS YH GS Z GS TH sim zre suo RS Z sud xeb no sin
+L108: RH B8 xnp PHI su Z PHI tok RS KH Z gso RH no B8 Z PHI dug PHI YH dej Z B8 sin CT TH DH sud B8 Z xad
+L109: rak no sin KH GS TH sin sen PHI su AH TH zre xeb CT RS RH GS TH sud QH Z X sud suo X
+L110: xns xin rak no sin no TH sud RS ZH B8 zre yob xed PHI TH N8 RH X RS BO YH xad O RS
+L111: B8 Z sud be sud xeb zre B8 RH X sin CT RH B8 Z X O zre xny sem bne tir bne rak sin
+L112: PHI YH yob xed B8 RH xoo bae TH FH sin xoo bay YH poz sud no Z B8 GS O X bon sin
+L113: tir B8 bne bne tok dam FH yin no TH beo PHI xed PHI reh PHI sud teb sin sim CT RH
+L114: gso KH AH B8 TH zre TH YH sio FH yaz ynb rak dah X ip xin ZO Z B8 O RS KH SL Z GS TH
+L115: YH CT RH TH B8 rak no sin no TH soo KH sud RS RH B8 xed MH xed zre X Z see yem
+L116: YH RS RS O FH sud LO RH B8 xoo FH O GS TH suo sud gak OT RH X no Z B8 bne rak sug xeb
+L117: AH RS Z X GS O FH GS TH sin san xad zre sio OT Z CT KH no RS xed GS TH zre xaz sud
+L118: xad PHI rue PHI xeb CT RS RH GS Z tok X RH B8 yin ynb no B8 RH AH RS Z rak ynb FH PH RS
+L119: yom bae FH PHI Z N8 KH GS RS B8 KH O YH dik sud bao PHI xad PHI rie PHI YH yin sin soo tok
+L120: zre N8 B8 O GS TH xed seg OT Z CT KH no RS xed OT KH TH FH xeb sin CT RH B8 TH rak sin
+L121: xez yee reh xed tok sud PH RS Z B8 GS O X pab sin dah tok dam xnk sud X KH PHI
+L122: CT X TH xno no KH GS TH zre Z X sin no Z B8 O xed seg yin rak soq bae FH CT RH X KH
+L123: RS KH X dem sud xed PHI OT Z CT no RS xed CD KH TH FH sin zre ral sim suh YH OT TH xoo
+L124: AH TH bip Z X sin no Z GS O PHI YH pib AH RS Z X GS O B8 Z nab zre yob xed OT Z CT KH no
+L125: RS xed OT KH TH FH sud xed xif AH RH FH ZH B8 pif suo OT Z CT KH no RS xed GS TH YH zre
+L126: beo RS RH X zre sim suh YH dem YH be ZH RS KH bae RH B8 ZH ZO TH PHI B8 RH bae B8 no KH X sif
+L127: zuy YH sin no sin sud B8 sin ZH CD tok B8 PSI RH sud teb sin pnk B8 Z ynb san xnk
+L128: yob xed seg OT Z CT KH no RS xed CD KH TH ZO sin yed yob zre suo yin zre
+L129: ZH RS KH RH B8 ZH Z bne FH no Z B8 rak suq xed tok X oso yob sey B8 OT Z YH CT LAM
+L130: B8 Z xnz sud bao soo xnk V RH sag dem xeb OT B8 RH TH ynb OT B8 RH ZH B8 RH bae xeb
+L131: xad zre yob ynh doc RH B8 ZH 7H yaz dah pif yem xeb gso RH tok RS ZH YH PHI sud
+L132: Z PHI TH ZO Z B8 xed sud X KH X OT Z xed N8 B8 Z xez sud soo bae xeb baf sin MH TH B8
+L133: OT O B8 gso RH sud xoo ynz ynb zre yob suo Z GS RS RH CD bae GS Z no zre yob PHI TH
+L134: N8 RH B8 RS KH Z YH gso TH O RS B8 Z sud be tok RS RH ZO TH PHI zoq xeb sud PHI ZO Z YH ?
+L135: ynb sin MH xed zre X OT Z pin pud sio rak xom sin MH RS ZH ZO TH YH Z
+L136: ynb ZO TH yin gso RH zre GS Z ZO TH PHI bon PHI yom PHI QH TH KH Z xeb PHI YH sin
+L137: zek zre gso RH tok RS RH ZO DH TH PHI sud pnk PHI YH CT TH DH RH B8 xoy PHI yez PHI YH
+L138: suo GS TH PHI yob bae PHI YH yob xed YH AH Q KH Z rok SS RS ZH sin zih zre gso RH
+L201: SS RS KH bae RH bne TH MH sin sud X YH yin rak sin pnk sud sod PHI YH sud bon PHI yom PHI RS RH
+L202: no Z DH xel sin sax xeb gso RH sin OS Z DH LO RH FH soo PHI CT B8 KH EQ X KH OS BO TH PHI no RS B8 ZH
+L203: Z GS TH PHI YH Z OT RS RH B8 sud bne zre sud xed xoo PHI ? xeo sut OT RH sod sin ? sud yem
+L204: KH RS gso BO TH yaz pif MH KH FH sod PHI xeb sud PHI Z ZO CT O X bae OT Z PHI O YH sod PHI ne
+L205: PHI sod Z xad PHI sud xed xif xns sin no RS X O bnz ? xad PHI sin PHI sud xed YH AH gso BO O
+L206: YH zre peb bos yob OT RH X no KH X BO ZO TH zre byo pnd bae xad PHI rie PHI CT RH X bne RS
+L207: ZH X O ZO TH PHI sin xad zre sio Z bne FH no O GS TH rak xed sif X Z YH rak PHI no Z FH
+L208: OT KH Z zre sep xad MH ZH X KH ZO TH PHI YH zre baf tok CT RH ZO KH no BO GS TH sio B8 RH RS
+L209: sin ynb CT X TH RS O B8 bae gso RH PHI TH ZO TH PHI rak PHI no O FH no sin by RS KH GS TH B8 sin
+L210: YH zre yin be zuf FH no TH X FH O B8 Z RS ZH ynb X YH sin suh GS TH X RH zre RS ZH B8 FH O
+L211: sin yez YH bupo xno sud xed sin CT X RH PHI O YH dem CT RH X bne RS ZH X TH bu sin
+L212: xad sud tok TH noo pef YH sin zre X RH B8 pnk B8 O RH OT tok X suq sud teb zre bac PHI SUPNO
+L213: yob bac ynz sud RS ZH tok X RH X xad xoo PHI ZO TH YH ZO TH PHI no X O X zre bac sin MH
+L214: RS RH X OT TH YH ynh PHI PHI TH ? TH X TH CT KH Z PHI sud gso RH TH FH yob zre bin zoh
+L215: AH xad X BO YH KH TH FH RH O YH bnz AH Z FH O X Z tok X KH sin GS TH xad peb bon sud xad
+L216: rok B8 KH TH boi X RH CT X ZH KH sin su ? bac MH xed zre X Z YH zre rak bae sud B8 RH piq
+L217: zre bae pif AH dif yin bne MH RS B8 Z CT RS RH sud tok RS RH B8 rak sin zuy sin sin no X O
+L218: GS TH bao PHI xad PHI rie PHI sin sen yob zre xed sud bac PHI SUPNO PHI TH xad xeb bae X RS RH bae
+L219: xeb ynb GS O X pne pif zuy ynb CT TH sud X xeo KH TH B8 tok X RH B8 xad zre SS RS KH
+L220: bae RH B8 ZH sin teb YH sef zre xad tok dam sib O CT TH sud X O B8 bne see sy soe YH MH
+L221: gso KH O YH CT TH FH RH B8 yez sud bac ZO O xeb sin sin bac ZO TH CT TH FH no KH MH BO O O
+L222: GS TH yob by bel sud xad sin CT KH B8 BO no RS pif YH no sin CT TH B8 pif sud xed YH AH gso
+L223: KH O yob CT TH sud B8 xno KH TH X tok X RH X xad zre ZH RS KH bae RH X ZH sin beo xed
+L224: QH CT KH O FH GS Z no zre sin xad zre tok xnp PHI O xeb PHI zre sud X RH O FH xad PHI suq YH xad
+L225: zuf FH YH zre yob soo xno CT O X sin OT ZH zre sin xez xeo bac PHI SUPNO sud RS RH sin OT RS
+L226: OT tok B8 xez yin see zuy bae xeb O X sin no O FH GS TH xed bao PHI xad PHI rie EQ tir xno
+L227: no RH yob zre sud sio xeo byo bne AH RS xo YH xns ril YH Z X sin no QH FH GS TH xed bac
+L228: PHI SUPNO D TH xad xeb CT RS RH sud by xam CT RH gso KH AH X TH PHI O YH GS O xeb PHI Z ynb
+L229: xed GS KH AH FH BO GS Z X sud bac yez YH pif sy sud xed YH AH gso BO Z YH no TH ZO RH sin
+L230: QH sin CT xad sud xed yin yis zre sin yem KH RS gso KH TH Z X sin no TH rak sin
+L231: zil gso RS YH PHI sud soq ZO RS RH X no TH yob xno sod see xod sud CT Z RS KH O zre xeb
+L232: baf xeb xed AH RS O X GS TH yaz CT RS PHI TH rak sen sin xaq xnz pif yem YH O yed
+L233: YH AH gso KH O YH FH O OT KH TH sud SL Z xed OT BO PHI ZO Z YH beo PHI xed EQ xnz sin YH no X Z
+L234: N8 O KH TH PHI zre sep KH RS LAM TH xad zef xeb CT RS su son sin zuy tok X RH X bae xed
+L235: seg yin yis xeb bne O X sin no O X Z YH zre xoo X RH piq bac PHI SUPNO zre yob CT RH X
+L236: bac Z bae TH FH sud bae PHI CT O X KH sin no sin YH yez PHI KH FH OT gso BO FH O GS Z PHI O
+L237: suq xeb tok AH O reh zre bae O no xo KH RH X O bac CT Z PHI Z zaf CT X TH OT RS
+L238: X RH sud RH OT tok X gso RH saf YH zre sod gso RH O OT RS RH X GS TH dem yob
+L301: zre soo YH sud SL TH xns xin rak no sin no TH see sag xoo bay yaz zre yin sud PHI
+L302: xny bel peb xad tok X xoo no KH GS TH yob CT X TH RS O X bae boi ZO TH PHI
+L303: rak PHI no O FH no sin sin by RS BO X gso RH sin xed seg PHI O FH no Z sin CT X sio
+L304: zre bao PHI gso RH sud RS RH ZO TH PHI GS O X AH X O OT KH Z PHI yob san YH no xo
+L305: N8 O KH Z X sud CT X TH bne AH RS BO X pnd rok xaz X sin YH xam N8 BO RS O B8
+L306: sey X OT O PHI YH rak xam RS ynb TH FH YH rak MH TH X xoo GS O GS xed seg xoy
+L307: PHI Z FH no BO X BO ZO xif ynb zre rak sin pnk sud sod PHI xny bel
+L308: PHI pif AH O ZO TH PHI rak xoy tok no sin OT KH TH FH YH zre dem sin CT RH X TH sin bao
+L309: sin RS KH FH O OT gso RH ZO sin OT KH O zre yin xed rae zre no sin RH ZO TH PHI sue xed
+L310: sud MH sin bac TH FH sud teb sin xns taq YH xed sud xny PHI OT TH ZO RS FH su sin PHI
+L311: tox KH RS PHI no BO X BO ZO OT pif MH tox sin xib GS O X Z rok sin PHI xns OT RS ZO
+L312: CT gso KH GS O bnz YH zue dem xed bos pud yob xam xil yob zue xad PHI sag EQ xny
+L313: PHI OT TH ZO RS FH sin sin PHI tok FH zre GS O GS TH xns zre N8 X O GS TH PHI YH O xno GS
+L314: X sin no O GS TH PHI sud xed seg por YH zre dem CT RH X bne RS RH X O FH GS TH xnk CT
+L315: RH X bne RS RH X TH sin xed seg xif YH OT RS ZO CT gso BO sin GS TH xad zre yob xoo
+L316: ynz PHI TH YH yed KH RH sin OT X BO no TH pif sag xoo bay YH poz X RH CT X RH KH RH
+L317: su sin GS TH gso RH AH X O RS RH ZO sin no RH sud xed seg bac FH RH AH gso BO AH RH
+L318: OT BO YH ZO FH GS O FH GS TH gso RH xns sin no X RH OT tok xno FH no RH zre sud pef
+L319: O sud xed FH no RH bne AH RS O X sud sud OT O KH RH X sin yae no pif YH RH ? TH
+L320: YH zre pib gso RH KH RH sin N8 KH O GS TH O V O FH GS Z X zre bae xad PHI sag PHI be
+L321: KH RS LAM BO RH X sin dam N8 RS sin no TH TH N8 TH gso RS BO RH X sin xaf O ? sin
+L322: MH O RS TH X sud xoy PHI Z FH no BO X KH ZO xif xnk dem bos yob rak zre xad tok
+L323: X O FH zre sin no pif roy xaf bae FH GS BO xed OT KH TH FH pif AH dif bne tar rak
+L324: san PHI xnk tok X RH X RS ynb GS O X no FH no RH YH rak N8 RS sin rak bne KH TH
+L325: bao xad zre bne O xeb YH rak RS RH ynb sin sio RH xnk xed sof YH rak bne X RS O
+L326: OT KH TH FH sud teb YH xnk xed X RH bae PHI no sin OT KH O sud suq tok PHI no O RH
+L327: OT tok X xad PHI sud teb rak sin pnk sud sod PHI xny bel YH zre pib KH RH sin
+L328: OT X KH no TH pif suh X TH AH O FH GS TH gso RH zre RS sin AH O xaf sin xez
+L329: Z sin no sin sud X sin xed seg sin CT X RH PHI O xnk xad tok sin N8 BO O GS TH
+L330: Z TH MH X sin OT RH X pif yem yob sin sud zre dem gso sin X RS RH AH TH
+L331: xns O MH RH OT no RS TH PHI O xno FH no RH zre xeb sud PHI ZO Z YH sin xnk
+L332: bos yob rel zre xeb xad tok X sin YH zre rak no KH FH RS O FH GS TH bac bae
+L333: DH AH RS xad X dol YH sin MH RS RH X OT TH CT ? ? RS RH ? sin yob
+L334: ynz sin xed seg xoy PHI O FH no KH X BO ZO O xif YH tok AH O FH YH CT X TH OT RS X
+L335: sin rak bac ZO O su gso BO AH sin OT BO O sin MH O RS TH X saf bao xad zre
+L336: bne O yeb YH rak RS RH ynb sin sio RH xnk xed sof YH rak bne X RS O OT KH TH FH
+L337: sud teb YH xnk xed X RH bae PHI no sin OT KH O sud xad PHI sag suq xny PHI OT TH
+L401: ZO ? FH sin sin PHI rak zre xed MH pif no O FH GS TH xad PHI yae PHI rie PHI dem ? FH
+L402: CT TH O TH zos MH pif no O X ynb MH pif no ? X RH KH O ZO Z PHI O xed sof sud reb
+L403: YH O xed CT X TH bne OT RS OT KH TH FH sud xed seg sin CT X RH PHI Z YH O sio CT X TH
+L404: CT TH bae no TH gso sin sin N8 BO O GS O sud X BO X YH TH MH X sin OT RH X bao xad
+L405: zre xam dor RH X KH sud PHI zre rak RS sin AH O xnk sin MH TH X OT O X xad EQ
+L406: FH O ynb yex xad PHI YH xnk zue bae xeb KH RS LAM BO RH X sin dam N8 RS sin no TH
+L407: O xed seg sin CT X RH PHI Z N8 RS sin RS O FH xaf OT sen bae FH sin xeo OT KH TH DH
+L408: pif AH dif YH tok X RH X xno RH YH PHI bok xaf rak GS RS CT gso KH OT Z GS O PHI
+L409: YH no X KH CT gso KH OT Z GS Z PHI doc Z PHI pob xnl YH yob beq xad zre sin bao
+L410: xad bac PHI TH sag bne KH BO X KH RH X ZH YH xad zre xam pae bne TH MH X sin
+L411: OT KH RH X FH
+# clear: en pedrezuela a xxvj de otubre de dxv   (followed by the royal rubric)
+# clear (address panel, p4): al don geronymo de vich del su consejo y su embaxador en corte de roma
+# clear (p4): el rey ; secretarial endorsement at left partly illegible
+# NOTE: strips s73p4_04..07 are show-through / address panel, no cipher lines.
