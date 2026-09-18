@@ -13,10 +13,11 @@ with `…` where the transcription is still too uncertain to stand.
 > **[lines 1–7]** … m'estant laissé entendre [49] il se vouloit départir du **[roi de Navarre]**,
 > duquel je scai qu'il est très malcontant; et ayant considéré que je l'ay tousjours ou y tenir
 > pour le meilleur, comme de [49] commandement qu'il ayt, et que ce ne seroit [une] petite faveur
-> pour ses affaires que de … traicté avec luy, et en considé[ration] …
+> pour ses affaires que de … [t]raicté avec luy, et en considération d'une …
 
-> **[lines 10–13]** … le et service; il m'a promis de vous … faire pendant ce temps … ou à la
-> vérité il s'est résolu … à tout ce qu'en … la composition de sa place, laquelle estoit encore …
+> **[lines 9–13]** … pour … il m'a promis de vous … faire pendant ce temps; et … où, à la vérité,
+> il s'est résolu … à tout ce que … sçavons voulu … la composition de sa place, laquelle estoit
+> encore …
 
 > **[lines 16–19]** … eust importé … de séjour qui nous est très … parce qu'il m'eust fallu passer
 > … mon cousin … passer … couru en ennemi …
@@ -30,8 +31,10 @@ above reproduces his opening and runs about three times as far, besides the late
 
 ## Confidence
 
-Lines 1–7 and 10–13 are read; lines 8–9, 14–15 and 19–21 carry glyph errors and are given only
-where the French is unambiguous. The residue is a transcription problem, not a cryptanalytic one:
+Lines 1–7 and 9–13 are read; lines 8, 14–15 and 19–21 carry glyph errors and are given only
+where the French is unambiguous. Line 7 closed on a second pass at five tiles per line, which
+also settled two more confusable pairs: the two long-s figures (one **c**, one **u**) and the two
+double-stroke figures (one **n**, one **o**) — *consideration* forces the second of each. The residue is a transcription problem, not a cryptanalytic one:
 the key resolves every glyph whose shape is correctly identified, and the confusable set
 (three "6"-like shapes for **i**, **n** and **s**; two round shapes for **a** and **m**; the
 **e** family) is exactly where the errors fall.
