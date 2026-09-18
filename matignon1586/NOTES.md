@@ -170,3 +170,24 @@ is the transcription of a 16th-century hand, not the cipher, which is solved.
 2. **f. 143's** remaining eight lines.
 3. **f. 154, 173** (clear openings, ~25-30 lines each).
 4. **f. 110** (48 lines, faded) and **ff. 123-124** (140 lines) last: most text, worst conditions.
+
+
+## Line placement is the unglamorous blocker
+
+Worth writing down because it cost more than anything else here. Tiling a block into per-line
+images needs the line centres to within about a fifth of the line pitch, or the tile clips and the
+figures cannot be read. On these leaves the pitch is *not* constant — it wanders by 10-15 % from
+line to line — so none of these alone is enough:
+
+* a uniform grid from a comb fit (drifts; this is what silently corrupted the second half of the
+  first f. 143 pass);
+* local refinement on the ink profile (jumps to a neighbouring line);
+* re-centring on the median glyph-box centre (`recenter.py` — returns almost no correction,
+  because the boxes are already symmetric about the wrong centre);
+* centre of mass of the x-height band (`center2.py` — best of the four, still leaves a systematic
+  offset that varies per leaf and has to be found by eye on an overlay).
+
+What works, and what the next pass should just do: draw the fitted lines on the flattened block,
+look at the overlay, and set the per-leaf offset by hand — then tile with a band of about half the
+pitch. f. 143 and f. 201 both fitted cleanly this way; f. 196 (the smallest hand) still does not,
+and that is why its 32 lines are untranscribed while f. 201's fit is ready to use.
