@@ -667,3 +667,33 @@ Whatever f. 19 says at that point, the figure says **Condé**.
 It also adds a sixth landmark — `14`, `25`, `52`, `24`, `35`, `82` — and confirms that scanning a
 line for numerals is the cheapest way to find them, since they stand out among letter-shapes without
 any matching at all.
+
+
+## Three errors the landmarks have caught in my plaintext — and what that means
+
+Every code group is a word whose position the arithmetic predicts. Where the prediction and the
+figure disagree, one of the two readings is wrong, and so far it has been mine every time:
+
+1. **A phantom.** f. 19r line 1 appeared to read *"…advertie. Heut Jo. plustost…"*. The cipher has a
+   single two-figure box there, so the plaintext is two letters: **et**. "Heut Jo." is not part of
+   the decipherment.
+2. **A dropped phrase.** Code `14` (*que*) sits at f. 18r line 4 box 25, thirteen figures later than
+   my reading of f. 19r line 2 put it. **Thirteen letters were skipped**, probably at the gutter.
+3. **A missing *parce que*.** f. 18r line 6 ends with code `35`, which Tomokiyo gives as *parce
+   que*. By the arithmetic that falls inside f. 19r line 3, where my transcription reads
+   *"…il nous Ma[jes]té considérant que les cho[ses]…"* — with no *parce que* anywhere in it.
+
+Three errors in roughly a dozen lines of quick transcription is about what a first pass over a
+sixteenth-century secretary hand should produce. The conclusion is not that the method is fragile —
+it is that **the method is catching them**, which is precisely what a crib of 1,650 figures against
+1,800 letters is for.
+
+**The practical consequence:** more mining should wait on a careful second pass over f. 19r. Labelling
+figures against a plaintext with three known errors in it will mint wrong exemplars, and a wrong
+exemplar is worse than a missing one — it pollutes every later match. The order of work is
+therefore: re-read f. 19r line by line against the code-group positions, *then* mine.
+
+The landmark positions already computed give the check for that re-reading: `52` and `14`/`25` in
+f. 19r line 1, `14` again 13 figures past *feist* in line 2, `35` in line 3, `82` (**le Prince de
+Condé**) and `14` in line 4. Any transcription that does not put those words at those figure counts
+is wrong somewhere, and the count says roughly where.
