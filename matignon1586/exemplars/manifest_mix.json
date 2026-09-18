@@ -3130,5 +3130,233 @@
    544
   ],
   "crib": "segalign line 5, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_04_s.png",
+  "letter": "s",
+  "src": "f143 l1",
+  "box": [
+   599,
+   675,
+   47,
+   125
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_06_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   843,
+   893,
+   88,
+   115
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_07_a.png",
+  "letter": "a",
+  "src": "f143 l1",
+  "box": [
+   925,
+   993,
+   73,
+   114
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_08_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1001,
+   1041,
+   69,
+   112
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_09_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   1053,
+   1118,
+   57,
+   124
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_10_l.png",
+  "letter": "l",
+  "src": "f143 l1",
+  "box": [
+   1165,
+   1204,
+   78,
+   114
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_11_a.png",
+  "letter": "a",
+  "src": "f143 l1",
+  "box": [
+   1234,
+   1306,
+   69,
+   116
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_12_i.png",
+  "letter": "i",
+  "src": "f143 l1",
+  "box": [
+   1332,
+   1356,
+   71,
+   113
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_16_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1623,
+   1694,
+   47,
+   121
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_17_t.png",
+  "letter": "t",
+  "src": "f143 l1",
+  "box": [
+   1732,
+   1786,
+   69,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_18_e.png",
+  "letter": "e",
+  "src": "f143 l1",
+  "box": [
+   1816,
+   1863,
+   55,
+   95
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_19_n.png",
+  "letter": "n",
+  "src": "f143 l1",
+  "box": [
+   1895,
+   1924,
+   47,
+   95
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_20_d.png",
+  "letter": "d",
+  "src": "f143 l1",
+  "box": [
+   1952,
+   2065,
+   55,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_26_s.png",
+  "letter": "s",
+  "src": "f143 l1",
+  "box": [
+   2513,
+   2534,
+   47,
+   76
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_27_e.png",
+  "letter": "e",
+  "src": "f143 l1",
+  "box": [
+   2560,
+   2595,
+   47,
+   109
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_28_u.png",
+  "letter": "u",
+  "src": "f143 l1",
+  "box": [
+   2616,
+   2690,
+   47,
+   99
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_29_o.png",
+  "letter": "o",
+  "src": "f143 l1",
+  "box": [
+   2706,
+   2750,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_30_u.png",
+  "letter": "u",
+  "src": "f143 l1",
+  "box": [
+   2774,
+   2811,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
+ },
+ {
+  "file": "exemplars/f143/l1_31_l.png",
+  "letter": "l",
+  "src": "f143 l1",
+  "box": [
+   2848,
+   2909,
+   47,
+   127
+  ],
+  "crib": "segalign line 1, codes pinned by eye"
  }
 ]

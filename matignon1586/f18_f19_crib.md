@@ -1015,3 +1015,20 @@ stretches between them. Line 5 then comes out exactly as the images show it:
 from)**. Five exemplars were rejected (*n*, *o*, *s*) and the held-out score rose **32.1 → 37.7 %**.
 f. 143's set is 110 exemplars over 15 letters. It is the first time a held-out score on a *target*
 leaf has been measured moving — the loop is running on a leaf that has no crib.
+
+
+## f. 143 line 1, and the held-out test is too small to steer
+
+Line 1 with its numerals pinned — box 1 the end of the clear *j'auray*, 2–3 a short preamble, **49**
+split across 22–23, **12** (*il*) across 24–25 — aligns as *"s'estant laisse entendre [49] [il] se
+voul-"*. The structure checks: 18 boxes for the 21 letters of *s'estant laisse entendre* is three
+merges, and three boxes are visibly merged (*x∂*, *yy*, *£h*). Boxes 13–14 were one letter out against
+the images and are rejected; the rest minted. **f. 143's set: 129 exemplars over 15 letters.**
+
+The held-out score went 37.7 → 34.0 % with this line and did not move when the two wrong boxes came
+out. That is the finding worth recording: **f. 143's held-out test is ~53 characters (lines 6–7), so
+two characters is four points, and neither the rise on line 5 nor this dip can be told from noise.**
+Every leaf will hit the same wall — each has only a little verified text, used both to build and to
+test. The fix is to hold out by *figure* rather than by line: leave-one-exemplar-out, where each
+exemplar is predicted from all the others and scored on whether it gets its own letter, uses every
+labelled figure as test data without spending any of them.
