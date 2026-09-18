@@ -79,6 +79,32 @@ Other words the key produces unprompted, none of them supplied to the search:
 *quartiers* · *clairement* · *commandement* · *conserver la plaine* · *ramener mon armée* ·
 *aultres commoditez* · *il fauldra* · *recepvoir* · *de prudence*
 
+## 4b. Tested against nulls
+
+The objection to everything above is that the search maximises a French 4-gram score over 44
+free parameters on ~1050 characters, so it has a standing incentive to produce French-looking
+strings with or without plaintext underneath — and words picked out by eye are no defence,
+because the chooser knows the subject. The pipeline was therefore run unchanged on nulls with
+no plaintext: same symbols, same frequencies, same segment lengths, order shuffled. Scoring
+blind: dictionary coverage and distinct French words of 6+ letters, from a corpus word list
+with no names and nothing from this letter. Full output in `control_null.txt`.
+
+| | 4-gram | coverage | distinct 6+ letter words |
+|---|---|---|---|
+| **manuscript** | **−2.10** | **83.0%** | **33** |
+| null mean of 5 | −2.73 | 74.6% | 1.2 (range 0–3) |
+
+Thirty-three against nought to three decides it: there is real French under this transcription.
+Coverage barely separates the two and is a weak statistic here, since short function words can
+be assembled out of anything. The blind list returned *clairement, resolution, paroistre,
+quartiers, pourtant, secours* — the words found earlier by eye, now found without choosing them.
+
+It also returned *uilains*, which in a u/v-folded model is *vilains*, sitting immediately after
+*chasteau* and sharing its final u: the decode gives **chasteauilains** where the name wants
+**chasteauuilains**. One symbol short. That is a transcription slip rather than a fault in the
+key, but it is a slip, so the crib is eight letters secure and six more probable — not fifteen
+letters proved.
+
 ## 5. What the ciphered passages say
 
 Read with care. The decode scores −2.10 per character against −1.93 for real French and

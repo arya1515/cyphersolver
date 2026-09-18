@@ -113,6 +113,28 @@ induced letter frequency.
 
 With that, the cipher breaks. Key, evidence and reading: **`ct/no97_reading.md`**.
 
+## 5b. Tested against nulls
+
+The search maximises a French 4-gram score over 44 free parameters on ~1050 characters, so it
+could in principle manufacture French from nothing; and words picked out by eye prove little
+when the chooser knows the subject. Run unchanged on nulls with no plaintext — same symbols,
+same frequencies, same segment lengths, order shuffled — and scored blind on dictionary
+coverage and distinct French words of six letters or more:
+
+| | 4-gram | coverage | distinct 6+ letter words |
+|---|---|---|---|
+| **manuscript** | **−2.10** | **83.0%** | **33** |
+| null mean of 5 | −2.73 | 74.6% | 1.2 (range 0–3) |
+
+Thirty-three against nought to three. There is real French under this transcription and the key
+exposes a substantial part of it. Coverage barely separates the two and is a weak statistic
+here. Full output in `ct/control_null.txt`, script `nulltest.py`.
+
+One correction the blind list forces: it returns *uilains*, i.e. *vilains* under u/v folding,
+immediately after *chasteau* and sharing its final u. The decode gives **chasteauilains** where
+the name wants **chasteauuilains** — one symbol short. A transcription slip, not a key fault,
+but it means the crib is eight letters secure and six more probable, not fifteen proved.
+
 ## 6. How good the reading is, measured
 
 The solution scores −2.10 per character, against −1.93 for real 16th-century French, −1.63 for the

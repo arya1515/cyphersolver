@@ -21,7 +21,7 @@
   </nav>
 </div></header>
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#premise">The verification question, answered negatively</a><a href="#unpublished">No key has ever been published</a><a href="#glyphs">The letterforms are ordinary letters</a><a href="#search">The search had to be rebuilt, and the failure wa</a><a href="#key">The key, and why it is right</a><a href="#letter">What the ciphered passages say</a><a href="#residuals">How good the reading is, and what remains</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#premise">The verification question, answered negatively</a><a href="#unpublished">No key has ever been published</a><a href="#glyphs">The letterforms are ordinary letters</a><a href="#search">The search had to be rebuilt, and the failure wa</a><a href="#key">The key, and why it is right</a><a href="#null">Tested against nulls, because the search could h</a><a href="#letter">What the ciphered passages say</a><a href="#residuals">How good the reading is, and what remains</a></nav>
 <div class="callout">
 <strong>Summary.</strong> A copy of a letter from Charles III, duke of Lorraine, to his son the comte de Vaud&eacute;mont, Nancy, 18 June 1592, bound in BnF Fran&ccedil;ais 3621 as no. 97. The DECODE database
 holds a record for this exact piece and gives its status as <em>Non-decrypted</em>; no key for it has ever been published, and the hoped-for crib &mdash; the ciphered originals of the January intercepts whose
@@ -128,7 +128,32 @@ depend on the language model, on the 4-gram score, or on my judgement about what
 <p>Words the key produces unprompted, none of them supplied to the search: <em>munitions</em> three times, <em>promesses</em>, <em>prisonniers</em>, <em>resolution</em>, <em>secours</em>,
 <em>quartiers</em>, <em>clairement</em>, <em>commandement</em>, <em>conserver la plaine</em>, <em>ramener mon arm&eacute;e</em>, <em>aultres commoditez</em>, <em>il fauldra</em>, <em>recepvoir</em>.</p>
 
-<h2 id="letter"><span class="num">06</span>What the ciphered passages say</h2>
+<h2 id="null"><span class="num">06</span>Tested against nulls, because the search could have manufactured this</h2>
+<p>There is an obvious objection to everything above, and it is the right one to raise. The search maximises a French 4-gram score over 44 free parameters on about a thousand characters.
+A procedure like that has a standing incentive to produce French-looking strings whether or not any plaintext is underneath, and <em>chasteau</em> is built from four of the commonest 4-grams in
+the language. Words picked out of the decode by eye are no defence either, because I chose which words to look for knowing what the letter was about.</p>
+<p>So the pipeline was run unchanged on nulls that contain no plaintext at all: the same 44 symbols, the same frequencies, the same segment lengths, with the order shuffled away.
+Scoring was made blind &mdash; dictionary coverage and a count of distinct French words of six letters or more, against a word list built from the corpus, with no names and nothing taken from this letter.</p>
+<table>
+<thead><tr><th></th><th>4-gram score</th><th>Dictionary coverage</th><th>Distinct words of 6+ letters</th></tr></thead>
+<tbody>
+<tr><td><b>The manuscript</b></td><td><b>&minus;2.10</b></td><td><b>83.0%</b></td><td><b>33</b></td></tr>
+<tr><td>Null 101</td><td>&minus;2.72</td><td>75.2%</td><td>0</td></tr>
+<tr><td>Null 102</td><td>&minus;2.81</td><td>72.6%</td><td>1</td></tr>
+<tr><td>Null 103</td><td>&minus;2.61</td><td>78.7%</td><td>3</td></tr>
+<tr><td>Null 104</td><td>&minus;2.80</td><td>72.4%</td><td>2</td></tr>
+<tr><td>Null 105</td><td>&minus;2.68</td><td>74.1%</td><td>0</td></tr>
+<tr><td><em>Null mean</em></td><td><em>&minus;2.73</em></td><td><em>74.6%</em></td><td><em>1.2</em></td></tr>
+</tbody>
+</table>
+<p>The long-word count is the one that decides it. Shuffled symbols of identical frequency yield between nought and three French words of six letters or more; the manuscript yields
+<strong>thirty-three</strong>. The blind list contains <em>clairement, resolution, paroistre, quartiers, pourtant, secours</em> &mdash; the same words found earlier by eye, now found without
+anyone choosing them. Coverage barely separates the two, which is worth noting: coverage is a weak statistic here, because short function words can be assembled out of anything.</p>
+<p>The blind list also returned <em>uilains</em>. In a u/v-folded model that is <em>vilains</em>, and it sits in the decode immediately after <em>chasteau</em>, sharing its final u:
+the page gives <b>chasteauilains</b> where the name wants <b>chasteauuilains</b>. One symbol short, which is a transcription slip rather than a fault in the key &mdash; but it is a slip,
+and the crib is therefore eight letters secure and six more probable, not fifteen letters proved.</p>
+
+<h2 id="letter"><span class="num">07</span>What the ciphered passages say</h2>
 <p>The ciphered matter is the military business that the clear text only skirts, and it belongs to the same operation as the clear postscript. The Duke writes of the promises made and not kept,
 &ldquo;de tant de &hellip; ses promesses &hellip; qu&rsquo;ils avoient fait&rdquo;; of <strong>prisonniers</strong> and, repeatedly, of <strong>munitions</strong> &mdash; the word returns at the very end
 of the letter, where the cipher stops and the clear resumes with &ldquo;si munitions&rdquo;. He orders his son to <strong>recepvoir mon commandement</strong> and to <strong>conserver la plaine</strong>.
@@ -151,7 +176,7 @@ in brackets and nothing tidied. The recognisable French is in bold; the rest is 
 <p>139 and 145 carry a third of the nomenclator between them and are plainly the two things this letter is about; on the evidence of the clear text they ought to be Chasteauvillain and Chaulmont,
 or a person and a place of that weight. But that is inference, not reading, and it is left as inference. No key survives to supply the values, and a single letter does not constrain them.</p>
 
-<h2 id="residuals"><span class="num">07</span>How good the reading is, and what remains</h2>
+<h2 id="residuals"><span class="num">08</span>How good the reading is, and what remains</h2>
 <p>The solution scores &minus;2.10 per character. Real sixteenth-century French scores &minus;1.93 under the same model, and the true key of a clean control scores &minus;1.63. The gap is measured, not
 guessed at. Controls in which six to twelve pairs of distinct glyphs are deliberately transcribed as the same form &mdash; which is how by-eye reading of barred and dotted variants fails &mdash; score
 &minus;2.15 to &minus;2.23 and recover 65 to 75 per cent of letters. That is what this decode looks like. Random transcription noise was calibrated separately and does not account for it; the error is
