@@ -337,7 +337,10 @@ is exactly what this attempt lacked. **fr. 2974 is not digitised**, and it is th
 (Lyon 27 Sept 1528, anc. 8536 = fr. 3011 fo. 85; Ferrara 13 Apr 1529, anc. 8499 = fr. 2974 fo. 94;
 Vercelli 4 Dec 1530, anc. 8513 = fr. 2988 fo. 84; and two later ones) **only the 13 April 1529 letter
 carries the cipher-with-decipherment note**. The others he describes simply as "E autografa". So there is
-exactly one printed crib for this cipher in existence, and exactly one manuscript that carries it: its notice offers only "Document de
+exactly one printed crib for this cipher in existence, and exactly one manuscript that carries it.
+Two further possibilities were checked and closed: Molini reproduces no facsimile plate of any cipher in the
+volume, and no published key for a Francois I-era French cipher of this family could be found (Tomokiyo's
+Cryptiana has pages on the ciphers of Henri III and Henri IV but none for the 1520s-30s): its notice offers only "Document de
 substitution : MFICHE Français 2974", reproduction matrix **S 39769**. One order, or one reader in Paris,
 finishes this target. Molini does not print nos. 63, 65 or 66 - his 1529 contents run 4, 7, 8 and 28
 February and then March - so those letters remain unprinted and unread.
