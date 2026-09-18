@@ -41,6 +41,9 @@ and 117v (`n43/pairs_c246.txt`, `pairs_c247.txt`, `pairs_c248.txt`: 1,485 glosse
   - They agree with one another and with the block layout: do 277 and de 279 share a block, as do me 358 and
     la 364.
   - These are the least certain values. None changes the sense of a sentence.
+  - A targeted scan of ff. 119r–120r **confirmed three of them from the contemporary glosses: 279 = de, 364 = la,
+    354 = ne** (underlined 354 = en). None was contradicted; the other 17 do not occur in the glossed text
+    (`n43/scan_119_120.md`).
 
 ## Text
 
@@ -68,7 +71,8 @@ de la paix des deux couronnes".
   the body hardly uses, which may be why the contemporary decipherer did not gloss it.
   - Checks against the complete f. 117v pairs: 46 = e, 59 = i and 38 = n agree with the alphabet layout.
 
-- The mémoire is undated. The opening says the conference (Rueil, from 4 March 1649) has already been granted
+- **Date: 5 March 1649.** The deciphered last line of f. 120r reads "le 5me mars 1649" (`n43/scan_119_120.md`).
+- (Superseded:) The mémoire is undated. The opening says the conference (Rueil, from 4 March 1649) has already been granted
   and that the Archduke's slowness in sending help provoked it. That places it in early or mid March 1649,
   before nos. 41–42 (26–27 March).
 - Slips in the original:
