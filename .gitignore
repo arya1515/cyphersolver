@@ -527,3 +527,8 @@ adrian1521/ln/
 adrian1521/danvila/*.jpg
 adrian1521/danvila/mhe*.txt
 adrian1521/spanish2.htm
+
+# norfolk1570: derived crops and re-downloadable IIIF images/manifest
+norfolk1570/view/
+norfolk1570/img/
+norfolk1570/manifest.json
