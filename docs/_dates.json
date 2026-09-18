@@ -2,6 +2,7 @@
  "findings": {
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
+  "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
@@ -98,13 +99,18 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "9a72ddd6745a",
+   "hash": "4ddb556f6508",
    "updated": "2026-09-18"
   },
   "catinat1691": {
    "first": "2026-09-16",
    "hash": "0b8b89f55675",
    "updated": "2026-09-16"
+  },
+  "clair357": {
+   "first": "2026-09-18",
+   "hash": "4c2f4aee4bc0",
+   "updated": "2026-09-18"
   },
   "copenhagen": {
    "first": "2026-09-15",
@@ -168,7 +174,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0bcc88b36cbb",
+   "hash": "933b1d45aa65",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -253,7 +259,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "3613e8370c93",
+   "hash": "16141f8ac0a1",
    "updated": "2026-09-18"
   },
   "sormano": {
