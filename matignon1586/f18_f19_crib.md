@@ -35,6 +35,37 @@ The clear opening of f. 18r, read off the leaf, sets the scene:
 
 and f. 19r continues, in clear, what the figures say.
 
+## Two independent confirmations of the pairing
+
+Reading the first figures of f. 18r against the first line of f. 19r:
+
+* f. 19r line 1 begins **"Que sa Ma[jes]té fust advertie …"** and the cipher begins `14` — *que* —
+  followed by nine figures for the nine letters of *sa maieste*, then four for *fust*.
+* A little further along the cipher carries the code group **`52`**, and the clear text has
+  **"plustost"** at exactly that point. Tomokiyo lists 52 = *plustost* in his nomenclature; this is
+  the first time that value has been checked against a plaintext.
+
+So the pairing is not an inference from Tomokiyo's note — it is verified on the leaf twice over.
+
+## One warning for whoever aligns it
+
+The figure values coming out of this crib do **not** agree with the ones the f. 196/201 crib gives
+under the same ad-hoc names: the f. 18 crib wants (reading my own shorthand) Δ = e, x = m, t = i,
+where f. 196's crib wanted Δ = r, x = a, t = e. Two readings are possible and they must be
+distinguished before any of this is trusted:
+
+1. the shapes really are different and my ASCII shorthand has collided — which is likely, since
+   this cipher has several near-identical figures and the shorthand was never grounded in an image;
+2. or ff. 18-21 and ff. 196/201 are **not in the same key**, and Tomokiyo's single paragraph has
+   lumped together two ciphers. Note that f. 18 is written *by* Mayenne (it confers "avec Monsieur
+   le Mareschal de Matignon"), while f. 196 is written *about* him ("Monsieur du Mayne vous a faict
+   une autre despesche"), so they are not from the same desk.
+
+The way to settle it, and the reason this crib is worth the work, is to stop naming figures
+altogether: segment f. 18r/18v into glyph boxes, align the boxes to f. 19's known plaintext, and
+keep the **images** as labelled exemplars. Then match each undeciphered leaf's boxes against those
+exemplars by shape. That answers the question and builds the table in the same pass.
+
 ## Why this is the thing to do next
 
 Everything attempted here has been limited by transcription, not by cryptanalysis, and every
