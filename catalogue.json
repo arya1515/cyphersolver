@@ -128,15 +128,16 @@
    "ark2": "btv1b9060253s",
    "folio_note": "",
    "cls": "C",
-   "seen": "catalogue",
+   "seen": "image",
    "source": "BnF harvest",
-   "status": "Tomokiyo's 1526 key re-measured off his table and verified glyph for glyph on the leaf (the earlier reading of it had l/m/n shifted one column); ~106 lines of pp. 29-31 and p. 105 read to ~86% of letters by a shape-constrained LM solver (raince/draft5.txt), six lines read glyph by glyph; the clear close of 13 May 1526 transcribed (Andrea Doria at Civitavecchia). Blocked on transcription accuracy, not cryptanalysis.",
+   "status": "Read in part 17 Sept 2026. Tomokiyo's 1526 key re-measured off his table image (reading it by eye had shifted l/m/n one column, and H is an s) and verified glyph for glyph on the leaf; 86 of the ~106 ciphered lines of pp. 29-31 (13 May) and p. 105 (20 Nov) read by hand and set out as running French in raince/trans/reading_edited.txt, gaps left as gaps, plus the clear close of 13 May (Andrea Doria expected at Civitavecchia with six galleys, nine days before Cognac). New from the cipher: the court of Savoye, Castille and the Bourguignons, 'le chemin de Valence', the Admiral of France, the plague in Rome, advices reaching the Imperials by their own people, a man named Pietro Anthonio taken by the palace, and (20 Nov) a pontificate that 'seroit la cause de la totale ruine de sa maison'. Gallica leaf numbers run two apart: they are page numbers on odd pages, not a half-filmed volume.",
    "why": "League of Cognac, the Colonna raid on Rome (Sept 1526), prelude to the Sack; Aug 1529 = Cambrai and Bologna.",
    "importance": 4,
    "solvability": 3,
    "difficulty": 4,
    "score_note": "Eight letters in presumably one system give enough text for a statistical attack; no key in print that we know of.",
-   "verify": "Tomokiyo's François I era article; Omont's inventory for a decipherment elsewhere in fr. 2984."
+   "verify": "Tomokiyo's François I era article; Omont's inventory for a decipherment elsewhere in fr. 2984.",
+   "outcome": "read in part"
   },
   {
    "id": 6,

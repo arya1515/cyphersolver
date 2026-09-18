@@ -31,6 +31,7 @@
   "maltravers to ormonde, 1634–35": "2026-09-15",
   "moray to wood, 1568": "2026-09-15",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
+  "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "richard forster, 1644": "2026-09-16",
@@ -65,7 +66,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0ddaad5a79d5",
+   "hash": "90475c12fa4a",
    "updated": "2026-09-17"
   },
   "catinat1691": {
@@ -120,7 +121,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "28571115f30d",
+   "hash": "f2789f5876af",
    "updated": "2026-09-17"
   },
   "lanssac": {
@@ -153,6 +154,11 @@
    "hash": "54145087d76c",
    "updated": "2026-09-15"
   },
+  "raince": {
+   "first": "2026-09-17",
+   "hash": "b283aa4c0b52",
+   "updated": "2026-09-17"
+  },
   "richelieu": {
    "first": "2026-09-14",
    "hash": "53bd2ef837b3",
@@ -175,7 +181,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "ec9dc3d956e2",
+   "hash": "94a03359c1cb",
    "updated": "2026-09-17"
   },
   "sunyatsen": {

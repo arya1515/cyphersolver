@@ -42,10 +42,10 @@ Score = 0.25 D + 0.25 H + 0.20 N + 0.10 R + 0.10 F + 0.10 V.
 
 ### Provisional additions, 17 Sept 2026
 
-Five items read after the ranking above was compiled. Scored on the same axes and formula by the assistant
+Six items read after the ranking above was compiled. Scored on the same axes and formula by the assistant
 alone, not worked out in the appendix and not folded into the by-axis lists; Daniel is to check the scores
-before the tables are merged. Where they would fall: Lanssac between Feuquières and Ormonde, the other four
-between Warsaw and Boswell.
+before the tables are merged. Where they would fall: Lanssac between Feuquières and Ormonde, Raince between Huang Xing and Urquhart,
+the other four between Warsaw and Boswell.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -54,9 +54,10 @@ between Warsaw and Boswell.
 | p3 | **Nevers → Pisany**, 8 Sept and 14 Oct 1593, fr. 3985 f. 209 and fr. 3986 f. 168 | 1593 | 2 | 3 | 4 | 4 | 2 | 2 | **2.85** | Tomokiyo's Nevers key no. 46 re-read at glyph level from fr. 3995 f. 87, checked against the office's decipherment of a Gondi letter, then applied: 8 Sept whole, 14 Oct in long stretches, both unread before. The five Revol letters are a separate key (no. 60) and stay open |
 | p4 | **Philip II → Mendoza**, 7 Sept 1589, fr. 3641 ff. 10/14 and 12/76 | 1589 | 2 | 3 | 2 | 4 | 2 | 3 | **2.55** | Resolved rather than solved: f. 14 and f. 76 are the 1589 decipherer's fair copies of ff. 10 and 12, so the "second undeciphered letter" was never a cipher. Group-by-group alignment rebuilds part of Cg.13 (c. 70 syllables, c. 50 code groups), fills groups the decipherers left blank and corrects two readings. Fourteen groups open; needs Devos 1950 |
 | p5 | **Jean du Bellay → Montmorency**, 16 June 1529, fr. 3078 no. 3 | 1529 | 2 | 3 | 3 | 3 | 2 | 2 | **2.55** | The residue of catalogue item 4, whose other letters proved to be in print (Le Grand 1688, Bourrilly 1905). Key re-derived on the leaf from the 22 June interlinear (B = o, the word signs *bien*, *fault*, *paix*), confirmed by reading the 17 Oct 1529 letter against Le Grand; about 60 % of the 16 June signs read in stretches. Divorce-negotiation news of 1529 |
+| p6 | **Nicolas Raince → Montmorency**, Rome, 13 May and 20 Nov 1526, fr. 2984 pp. 29–31 and 105 | 1526 | 2 | 4 | 5 | 4 | 2 | 2 | **3.30** | The key was in print and useless, because reading which glyph sits under which letter in Tomokiyo's table image by eye slips a column: the first pass here had l, m and n each one place wrong. Re-measured off the image, the table resolves a control line glyph for glyph, and 86 of about 106 lines that exist in no edition were then read by hand off a microfilm. Low on difficulty (the system was published), high on novelty and content: the negotiation nine days before the League of Cognac, and the Medici pontificate as 'la totale ruine de sa maison' two months after the Colonna raid. Held down on completeness — 20 lines are machine-only and the read lines carry gaps |
 | — | **Henri IV → Landgrave Maurice of Hesse-Kassel**, seven passages, 1602–09 | 1602–09 | 1 | 4 | 5 | 3 | 2 | 4 | **3.10** | Provisional. No cryptanalysis: Rommel's 1846 key applied to his 1840 figures, about 4,100 groups transcribed by eye. Never in clear before (Tomokiyo and the Lettres missives list them undeciphered). Content: the King's plan of a Protestant-German and Dutch front against the Spanish design on the Diet, 20 May 1606, and the two-million-livres subsidy, 22 Dec 1605 |
 
-Arithmetic: p1 1.00 + 0.75 + 0.80 + 0.50 + 0.20 + 0.40; p2 0.75 + 0.75 + 0.60 + 0.40 + 0.20 + 0.20; p3 0.50 + 0.75 + 0.80 + 0.40 + 0.20 + 0.20;
+Arithmetic: p6 0.50 + 1.00 + 1.00 + 0.40 + 0.20 + 0.20; p1 1.00 + 0.75 + 0.80 + 0.50 + 0.20 + 0.40; p2 0.75 + 0.75 + 0.60 + 0.40 + 0.20 + 0.20; p3 0.50 + 0.75 + 0.80 + 0.40 + 0.20 + 0.20;
 p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.20.
 
 ## By single axis
