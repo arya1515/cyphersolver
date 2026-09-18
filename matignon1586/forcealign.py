@@ -24,7 +24,7 @@ from readleaf import vec_from
 
 def load_exemplars():
     """Letters keyed by themselves; code groups keyed as <word>, e.g. <que>, <plustost>."""
-    man = json.load(open('exemplars/manifest.json'))
+    man = json.load(open(__import__('os').environ.get('EXMAN','exemplars/manifest.json')))
     by = {}
     for m in man:
         key = m['letter'] if len(m['letter']) == 1 else '<' + m['letter'] + '>'

@@ -217,3 +217,4 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 | Target | Status | Dir |
 |---|---|---|
 | Beale Paper No. 1 | fabrication (evidence in notes) | `beale/` |
+| Yard → Earl of Manchester, Whitehall 12 & 16 Oct 1699 (Yale OSB MSS fc37 b.2 ff. 49, 51) | solved 2026-09-18: read in full with the Manchester papers' own key (Yale OID 2046948, THE=454 template), validated on the deciphered 5 Oct sibling; hunt for Mills, Lord Drummond's priest, Lebrun/Dunster/Gray letter | `yard1699/` |

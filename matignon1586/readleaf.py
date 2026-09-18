@@ -42,7 +42,7 @@ def vec_from(arr):
     v = np.asarray(canv, dtype=np.float32).ravel(); v -= v.mean()
     return v/(np.linalg.norm(v) or 1.0)
 
-man = json.load(open('exemplars/manifest.json'))
+man = json.load(open(__import__('os').environ.get('EXMAN','exemplars/manifest.json')))
 EX = [(m['letter'], vec_from(np.asarray(Image.open(m['file']).convert('L')))) for m in man]
 
 CODE_MIN = 0.93   # code groups are distinctive numerals: only accept a very close match

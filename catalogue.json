@@ -832,6 +832,33 @@
    "verify": "Nothing left to verify on the leaf; the asterisked code-word proposals need the Simancas table (Devos 1950).",
    "writeup": "mendoza1589.html",
    "outcome": "resolved"
+  },
+  {
+   "id": 33,
+   "counted": true,
+   "year": 1565,
+   "date": "16 Jul 1565",
+   "title": "Garcia de Toledo to Philip II, duplicate ciphered despatch (Great Siege of Malta)",
+   "correspondents": "Garcia Alvarez de Toledo, viceroy of Sicily and capitan general del Mar → Philip II (in manos del secretario Francisco de Eraso)",
+   "place": "Messina → the Court",
+   "language": "Spanish",
+   "region": "Spain",
+   "period": "1560-1589",
+   "shelfmark": "AGS Estado leg. 1394 no. 247 (EST,LEG,1394,247)",
+   "ark": "PARES catalogo/show/3576569; dbCode 27138924",
+   "folio_note": "6 images: ff. 1r, 1v, 2r, 2v, address leaf (twice); ViewImage.do route, max 915 px",
+   "cls": "A",
+   "seen": "image",
+   "source": "own sweep (Spanish archives)",
+   "status": "Solved 18 Sept 2026. Homophonic substitution on two-digit figures 12–43 in plain alphabetical order (vowels and u/v three figures each, consonants one, no nulls, no nomenclator), used inline in otherwise-clear Spanish; 1,930 figure groups, read end to end. Broken from clear-text cribs: the run after 'los' is *seiscientos*, the run after 'puso' is *en tiera*; the alphabetical order then predicted f=21, x=41, y=42, z=43, each confirmed on *effetos*, *baxeles*, *yban*, *plazer*. Content: the 600 soldiers Cardona landed all entered Il Borgo safely; La Valette wept embracing them; a forbidden sortie killed 200 Turks; a second relief run was waved off by the Grand Master's fire-signals four miles from the harbour mouth and the galleys slipped back to sea (reported by *Mosiur de Lenni* = Andrea Provana di Leinì, with Çanoguera piloting); Turkish lines 'seven, eight and ten palms high', 1,500 Turks at the water, sickness in the Ottoman camp; Algiers squadron off Cabo Bono; 40,000 escudos a month for the ships, half of 48,000 ducados already spent, fortification of Syracuse and Augusta; 'El estar sin galeras me destruye'.",
+   "why": "The viceroy's own account, a week after the Piccolo Soccorso, of a failed second relief of Birgu and of what Sicily could and could not pay for. Tomokiyo's unsolved pages do not list it and PARES records no decipherment.",
+   "importance": 5,
+   "solvability": 5,
+   "difficulty": 2,
+   "score_note": "Solved; kept for the record.",
+   "verify": "Done: images on PARES, figures transcribed digit for digit in toledo1565/transcription.txt, all 1,930 groups inside 12–43, all 32 codes used, no odd-length runs.",
+   "writeup": "toledo1565/NOTES.md, toledo1565/reading.md",
+   "outcome": "solved"
   }
  ]
 }

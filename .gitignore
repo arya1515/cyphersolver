@@ -498,3 +498,8 @@ raince/post.npy
 raince/img/idx/
 # sormano: downloaded Gallica page images and crops
 sormano/raw/
+
+# yard1699: Yale IIIF page images, key sheet and crops, fetched manifests (refetch: see yard1699/NOTES.md §1)
+yard1699/img/
+yard1699/man/
+yard1699/__pycache__/

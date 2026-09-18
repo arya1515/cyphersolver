@@ -924,3 +924,46 @@ With the edge gone, line 8 aligns 30 boxes to 31 tokens and **the aligner still 
 last box**, now a wide merged figure that reads like "14 r". That says the plaintext tail given for
 line 8 is wrong, not that *z* is there: *fort estonnez* probably ends before the cipher line does.
 **z remains unobtained**, and the letters held are 18 of 22 — missing q, x, y, z.
+
+
+## Exemplars do not transfer between hands — so f. 143 gets its own set
+
+Re-tested with the cleaned, flattened set: f. 18's exemplars still read f. 143 as noise. Same cipher,
+different secretary; a figure means the same letter in both hands but is drawn differently. The
+crib yields the **table**; the **images** are per hand. `forcealign.py` and `readleaf.py` now take the
+exemplar set from `EXMAN`, and f. 143 has its own (`exemplars/manifest_f143.json`, `exemplars/f143/`).
+
+It is bootstrapped from f. 143's own partly-read text, with **code groups as the check**, since a
+numeral is the one figure that can be verified by eye:
+
+* f. 143 line 2 against *"oit de partir du [76] du[que]l je scai [qui]l est tres"* — 33 tokens, which
+  is exactly the number of figures in the hand transcription. First pass put `<que>` and `<qui>` on
+  boxes that read **14** and **13**, but `<roinav>` one box early (the **76** is at box 14). Seeding
+  f. 143's set with those three eye-verified codes corrected the whole line (score 19.93 → 23.23);
+  every letter then agrees with the key for this hand.
+* line 3, *malcontant et aiant considéré [que] je l'ai [tous]jo-*: **35 boxes for 35 tokens, all
+  one-to-one**, and `<tous>` lands on a box reading **47**. But the **14** is split across two boxes
+  (a "1" and a "4"), and the aligner labelled the "4" as *i* — the same code drawn as one box on line 2
+  and two on line 3. Boxes 27–32 rejected.
+* line 4, *[jo]urs ou y tenir pour le meileur comme de [49] ande-*: 34 of 35 one-to-one, and `<49>`
+  on a box reading **49**.
+
+**f. 143's set: 89 letter exemplars over 15 letters, codes 49, que, qui, roinav (76), tous (47).**
+
+Read against lines 5–7, which it was not built from:
+
+```
+line 5: et t datee de ne seroit ie re et ne de
+known:  ment quil ayt et que ce ne seroit ce petite des fa
+```
+
+**"ne seroit"** comes out in place, non-circularly, from f. 143's own hand. The rest is still noise:
+fifteen letters is where f. 18's set was when it too read only fragments.
+
+### The shape of what remains
+
+For each hand, the loop is the same: known text → forced alignment checked by the code groups →
+exemplars → read the unknown lines → their confident stretches become known text. f. 18 has the big
+crib and is furthest along; f. 143 now has a start. The other target leaves need their hands
+identified first — which leaves share a secretary with f. 18 or f. 143 decides whether they inherit
+a set or need one of their own.

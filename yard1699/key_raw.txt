@@ -1,0 +1,350 @@
+# THE=454 key (Yale OSB MSS fc37 Box 18 f.47, OID 2046948). Format: start: e1|e2|...  consecutive numbers skipping those ending 5 or 9.
+# empty slot = blank (unassigned). '=' prefix none. Handwritten entries marked with *.
+# ---- col1 letters
+3: a|a|a|a|a|a
+11: b|b|b|b|b|b
+18: c|c|c|c|c|c|c
+27: d|d|d|d|d|d
+34: e|e|e|e|e|e
+42: f|f|f|f|f|f
+50: g|g|g|g|g
+56: h|h|h|h|h
+62: i|i|i|i|i
+68: k|k|k|k
+73: l|l|l|l|l
+80: m|m|m|m|m|m
+87: n|n|n|n|n
+93: o|o|o|o|o
+100: p|p|p|p|p|p|p
+108: q|q|q
+112: r|r|r|r|r|r
+120: s|s|s|s|s|s|s|s
+130: t|t|t|t|t|t|t
+138: v|v|v|v|v
+144: w|w|w|w|w|w
+152: x|x|x
+156: y|y|y
+160: z|z|z
+# ---- col2
+163: af|as|ac|ab|ad|
+171: ba|be|bi|bo|*because|
+178: ca|ce|ci|co|cion|*contrivance|
+187: da|de|di|dence||
+194: ed|el|er|es||
+202: fa|fe|fi|fo||
+210: ga|ge|gi||
+216: ha|he|hi|ho|
+222: ja|je|jo|ju|
+228: ka|ke|ki|
+233: la|le|li|lo|
+240: ma|me|mi|mo||
+247: na|ne|ni||
+253: or|of|ol|ob|
+260: pa|pe|pi|po|pu||
+268: qu|qua|
+272: ra|re|ri|ro|ru|
+280: sa|se|si|so|su|st||
+290: ta|te|ti|to|tu|ts|
+298: va|ve|vi||
+304: wa|we|wi|wo||
+312: xe||xa
+316: ye||
+320: ze||
+# ---- col3
+323: ar|ary|an|at|ap|always
+331: bre|bu|by|bl|*by what|
+338: cu|ch|cr|cl|coll||
+347: do|du|dr|Dr.||
+354: ect|en|ex|ence||
+362: fu|fl|fit|fix||
+370: go|gu|gr||
+376: hu|his|her|had|
+382: ir|if|is|it|*Lords Justices
+388: ko|King||
+393: lu|ly|let|life|
+400: mu|my|mis|Mr.||
+407: no|nu|ns||
+413: oc|od|op|os|
+420: ph|pr|pl|per|pre||
+428: que|qui|
+432: ry|rs|ris|red|run|
+440: sp|sw|sh|sea|Sr|she||
+450: tr|tl|ty|th|the|tru|
+458: vo|vour|vr||
+464: wh|war|will|way||
+472: xo|xi|xia
+476: yet||
+480: zeal||
+# ---- col4
+483: ard|am|all|are|accord|Ally
+491: br|ble|bly|bla|*by reason|
+498: ction|con|can|come|cile|*Cantorbury|
+507: dis|did|don|day|despise|division
+514: em|est
+617: ent|eue||
+622: for|fill|fail|fick|fight|
+630: gh|gon|get||
+636: hap|hast|how|here|hire
+642: in|ish|im|ill|*Jersey Earl
+648: *kind|knot|keep|
+653: last|law|like|live|
+660: man|may|men|must||
+667: nt|nance|not||
+673: on|of|ord|om|
+680: pro|put|pay|port|pass||
+688: quit|quest|
+692: ring|rest|rule|rash|raise|
+700: spy|safe|sure|six|ship|sent||
+710: ted|*the|ten|two|this|that|
+718: us|un|up||
+724: who|why|well|west||
+732: xie||xieu
+736: you||
+740: ||
+# ---- col5
+743: anc|act|arm|ation|and|appro
+751: but|by the|been|both|by this|
+758: case|care|court|count|ceive|*Catalonia|*Cadiz
+767: dare|doth|draw|doubt|destruction|distrust
+774: end|else|Earl|eight|East|
+782: full|few|free|first|fear|fall
+790: give|gain|gard||
+796: high|hath|him|hope|head
+802: joy|ion|ing|isle|*Joyeuse M.
+808: knew|know|knave|
+813: late|love|lead|long|
+820: most|meet|more|move|ment|
+827: nor|new|nigh||
+833: ous|old|out|one|
+840: part|pray|prize|place|peace|pension|
+848: quick|Queen|
+852: right|reign|relish|relinquish|repair|
+860: send|such|susp|shire|shall|some|*Sixty|south
+870: take|then|time|teen|their|they|
+878: um|use|ven||
+884: wish|were|went|writ||
+892: xu||xio
+896: your|yoak|
+900: ||
+# ---- col6
+903: age|and|and the|action|any|access
+911: bring|better|before|betray||
+918: cause|chief|charg|crown|could|credit|Convoy
+927: Duke|damage|did not|doth not|degree|detain
+934: ever|effect|either|Emperor|Engineer|
+942: find|false|five|from|for this|
+950: great|grant|good||
+956: horse|hear|have|hence|hand
+962: just|judge|I|ity|ition
+968: kind|kindness||
+973: lesse|losse|least|leave|
+980: make|much|made|mean||
+987: next|nine|now||
+993: our|own|ought|of the|
+1000: press|pleas|pound|Prince|principal|Priest|
+1008: quiet|quality|
+1012: resi|relat|reduc|resist|read|
+1020: str|since|serve|speed|state|seize|*Seven|*Sixteen
+1030: them|these|those|trade|there|thing|
+1038: ver|urgent|urge||Viceroy
+1044: with|want|what|was||
+1052: ||
+1056: year|yield|
+1060: ||
+# ---- col7
+1063: able|agree|abou|after|alter|Austria
+1071: besiege|begin|best|behind|bestow|Brest
+1078: correspond|Catholick|commerce|can not|confess|*Conty Prince|custome
+1087: desire|diver|delay|Duty|Diet|Deputy
+1094: express|Envoy|extraordinary|examin|exceed|encourage
+1102: faith|force|field|feeble|fast|fifteen
+1110: Grace|Guarant|gratifie|grave|
+1116: house|herewith|herein|help|*hatred
+1122: in the|in to|it is|if it|include
+1128: the King|Kingdom||
+1133: loose|Lord|learn|*Last?|
+1140: march|mind|might|many|morning|
+1147: need|name|north|*Nineteen|
+1153: over|offer|oblig|observ|
+1160: Paris|provi|prison|protes|publi|Pope|
+1168: quarter|quarrel|
+1172: refus|rebel|report|reason|ratifie|Revolution
+1180: should|Ship|still|sum|shall be|shall not||Sicily
+1190: three|turn|treat|town|think|traffick|Treasury
+1198: very|unto|upon||Union
+1204: word|when|where|worth||
+1212: ||
+1216: young|youth|
+1220: ||
+# ---- col8
+1223: assur|Army|active|agent|assist|*Admiralty
+1231: business|brought|brave|believe|*befriend|*Bastille
+1238: City|Castle|conclu|consid|Cannon|Counsellor|convenience
+1247: Dutch|dependencies|demand|detriment|debate|Dowager
+1254: engage|expect|eleven|excel|exchange|*Eighty
+1262: fleet|friend|foot|four|frequent|
+1270: Guard|guift|gentle|generous|
+1276: have not|hath had|have had|himself|
+1282: *Irish|intelligence|impossible|imprudent|Italy
+1288: knowing|knowledge|knitt|
+1293: league|let not|let the|Lieutenant|likelyhood
+1300: month|mutual|may not|Merchant||
+1307: neer|nothing|nest|negotiation|
+1313: order|Office|other|offend|
+1320: princi|Papist|person|propos|power|Plantations|
+1328: quantity|Question|
+1332: Rome|resolu|restore|relieve|religion|refuge
+1340: scot|secur|save|satisf|signif|safety|siege|*Seventy
+1350: tion|thirty|traytor|thence|though|trample|tumult
+1358: under|upper|undo|until|united
+1364: work|week|weak|which|*West|
+1372: ||
+1376: Yourself|Your Lordship|
+1380: *Zeal||
+# ---- col9
+1383: affect|arriv|advise|article|Address|assembly
+1391: between|Bribe|bribery|bold|boldness|
+1398: Cipher|commi|concern|consider|Captain|concert|Confedera
+1407: distinct|distinguish|disowne|declar|direct|depend
+1414: entire|employ|Enemy|Emissary|eminent|
+1422: forty|fifty|for the|Frontiers|*fourteen|Fire
+1430: glory|govern|Government|*Galley|
+1436: Hague|honest|hither|hinder|
+1442: imploy|imply|Ireland|Irish|*India
+1448: K. of France|K. of Spain|K. of the Romans|
+1453: Lady|little|letter|let it|language
+1460: memorial|master|market|material|merchandise|moderat
+1467: navy|Nation|never|Naples|*Ninety
+1473: object|oppos|occur|obey|ordinary
+1480: people|prepare|possib|pistol|powder|presumption|
+1488: ||
+1492: receive|refer|Regiment|*refus|remain|refitting
+1500: sincer|sort|success|secret|secresy|severe|Sea|*Seventeen
+1510: twenty|tamper|temper|through|to the|towards|
+1518: Victory|voyage|unless||utmost
+1524: would|wealth|will be|will not|whole|
+1532: ||
+1536: *Your||
+1540: zound||
+# ---- col10
+1543: answer|associat|among|Admiral|admire|advice
+1551: base|blind|blow|borrow|blast|*Bart Captain
+1558: Colonel|counsel|carefull|careless|contribut|conference|*Chancellor Lord
+1567: danger|deliver|design|defeat|difficult|determin
+1574: Elector|English|England|exact|extravagant|enterprize
+1582: *four?|France|?foreign(fold)|fortifi|freedom|
+1590: Germain|Garrison|Genoua|*Griffin Lord|
+1596: having|honour|Holland|hers|*Honourable
+1602: inform|import|Island|inflict|Jesuit
+1608: K. of Poland|K. of Sweden|K. of England|
+1613: labour|loyal|*Castle?|leader|lessen
+1620: matter|Majesty|message|mediat|Milan|Madrid
+1627: necessity|necessary|numerous|number|notwithstanding
+1633: opportun|occasion|obedience|obstacle|*Oropesa Conde
+1640: promis|present|perform|proclaim|prejudic|perceive|promotion
+1648: qualification||
+1652: remonstra|rendevous|reciprocal|rescind|refine|Regent
+1660: seaven|supply|Spain|Stockholme|seldom|Summer|slight|strife
+1670: trouble|thirteen|twelve|to be|themselves|thus|Train
+1678: victual|venture|vigilent|Venice|*Vaudemont P.
+1684: Welch|winter|warrant|welfare||
+1692: ||
+1696: *Your Lordship||
+1700: zealous||
+# ---- col11
+1703: affair|acquaint|abstain|abscond|absen|Artillery
+1711: Bassa|blame|Bishop|bounty|*Bouillon Card.|*Bonrepos
+1718: Commission|confide|confidence|confusion|Caball|command|*Conde Prince
+1727: disguise|disburse|dispatch|discover|defensive|*distinct
+1734: Excellence|expectation|excuse|extreme|expel|*Eighteen
+1742: fortun|French|?(fold)|*faile|fatall|*fortunate
+1750: general|gracious|grief|grievous|
+1756: harbour|happen|hundred|happi|*Hemskerke
+1762: instruct|journey|intimat|*Import|Instrument
+1768: K. of Portugal|K. of Denmark||
+1773: liberty|London|late King|late Queen|Lisbon
+1780: Minister|Marquis|Money|meddle|manage|*Mantua D.
+1787: nevertheless|noble|Nobility|Neuter|*Nancy
+1793: opinion|overture|obscur|obtain|
+1800: private|Princes|Parliament|Portugal|particular|prohibit|prolong
+1808: Q. of France|Q. of Spain|Q. of the Romans
+1812: resistance|restrain|render|rescue|respit|Resident
+1820: service|Swede|Spanish|Succour|Servant|sure|starve|sterling
+1830: thousand|thought|trouble|trust|truth|true|travel
+1838: undertake|understand|undergo|Vienna|*Vauban
+1844: whosoever|whatsoever|whensoever|wherefore||West-Indies
+1852: ||
+1856: yesterday|yesternight|
+1860: Zealand||
+# ---- col12
+1863: alternative|artifice|amicable|ambition|ambitious|Amsterdam
+1871: Bavaria Elector|Brandenburg|Bohemia|Belgrade|Buda|*Berwick D.
+1878: carry|capitulat|condition|Copenhagen|Commissioner|*Chateaurenaud|*Collegue
+1887: disgrace|discharge|disagre|dissemble|dissimulation|detention
+1894: entertain|enter|embrace|enable|equal|exclude
+1902: faction|favour|?(fold)|*few|find|forbear
+1910: Governor|groundless|||*Gloucester D.
+1916: |His Majesty|Her Majesty|Hanover|
+1922: interest|integrity|insinuat|imperfect|Italian
+1928: |||
+1933: licence|*League|*Lexington L.|Liege|
+1940: magazin|manifest|magnify|*Melford Ld|*Middleton Ld|*Manchester E.
+1947: negotiat|need|needful|neighbour|
+1953: oblivion|omitt|omision|offensive|Ordinance
+1960: Pardon|*particular|prescribe|preclude|prevail|prevaricat|possession
+1968: *Q. Mary||
+1972: River|Rhine|raine|repose|reply|Ratisbonne
+1980: sufficien|Souldier|Scotland|Swiss|Spaniard|Swisserland|Steward|stipulation
+1990: treason|*traitor|task|tell|told|Truce|tyrant
+1998: untimely|unmask|usefull|*uninhabited|
+2004: withstanding|whither|why not|whisper||
+# ---- col13
+2023: Ambassador|ambiguous|*Auersberg Envoy|*Apaffi Pr.|appoint|Arch Bishop
+2031: Baden P. Lewis|*Breiner C.|*Boufflers|*Borgomanero C.|Brigadier|*Beauvilliers D.
+2038: Christendom|*Carlingford C.|*Castel?|*Croy D.|Circle|*Chateauneuf|*Choiseul M.
+2047: distress|dissolve|Dutchy|Dutchess|Dragoon|draught
+2054: endeavour|*Eugene Pr.|Esseck|exercise|evening|
+2062: Francfort|Flanders|follow|?(fold)|forsake|Florence Duke
+2070: *Goertz Baron|*Galway Ld|||
+2076: heretofore|hereafter|henceforth||
+2082: Impos|instill|inforce|infringe|Intention
+2088: *Kinski C.|*Kaunitz C.||
+2093: Landgrave|Luxemburg|Lorraine|*Lorge Duke|
+2100: Meuse|Munition|Munster|Mediterranean|*Maine Duke|*Marli
+2107: Notable|*Noailles M.|*needless||Neutrality
+2113: *Orleans D.|original|obstruction||
+2120: Plenipotentiary|*Pager Ld|President Ld|privilege|preliminary|pretension|*Polish Minr
+2128: Q. of Poland|Q. of England|Q. of Portugal
+2132: rob|remedy|refund|responsible|revenge|
+2140: *Staremberg C.|Swabia|Saxony|*Schoning Gen.|*Shrewsbury Ld|*Save?|subsist|support
+2150: *Teckoli|Transilvania|*Trenchard S.|*Tallard C.|Toulon||
+2158: usuall|unkind|unwilling|value|uproar
+2164: Westphalia|*Windisgratz C.|*Wallestein C.|*Waradin|Wales|*Wirtemberg D.
+2172: ||
+2176: ||
+2180: ||
+# ---- col14 (mostly handwritten)
+2183: *Anjou Duke|Audience|Alliance|*Almirante de Castilla||
+2191: *Burgundy D.|*Berry D.|*Barbesieux|*Burgundy Duchess|*Berlips Countess|*Bergeick Count
+2198: *Chartres Duke|Cessation|consequence|conjuncture|*Catinat Mar.||
+2207: Dauphin|*Duras Duke|*Dutch Minister||*Danish Minister|
+2214: *Estrees Mal|*exclusive|Evasion|*Emperors Minister||
+2222: ||*Foreigne?||*Fontainbleau|
+2230: German|Geneva|*Guiscard Comte||
+2236: ||*Harcourt Marq.|*Harach Comte|
+2242: *Immoderate|Injunction|Immoveable|Improve|*Imprisonment
+2248: |||
+2253: *Leganes Marq.|*Lorrain Duke|*La Chaise Pere||
+2260: *Monterey Conde|*Maintenon|*Martinitz Comte|Marseilles||*Monaco P.
+2267: notice|notification|*Nuncio at Paris|*Neufchatel|
+2273: *Orleans Dutchess||||
+2280: *Pontchartrain|*Pomponne Marq.|*Pensioner of Holland|*Privy Seal Ld|||
+2288: *Quiros Don||
+2292: riot|rifle|Republick|*represent|redress|recompense
+2300: Savoy D.|States General|Sultan|*Spanish Minister|*Savoy Minister|||*Swedish Minister
+2310: *Toledo Card.|*Torcy Marq.|*Toulouse Count|*Tourville Mar.|||
+2318: *Villars Marq.|*Versailles|*Villeroy Mar.||
+2324: *Wales pretended P.||||*Wolfenbuttle D.
+2332: |||
+2336: |||
+2340: |||
