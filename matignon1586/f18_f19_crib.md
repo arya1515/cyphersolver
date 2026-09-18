@@ -109,3 +109,25 @@ is certain — *eussions*, eight letters — look at the eight figures under it,
 the plaintext. Each such stretch mints labelled exemplars for the confusable pairs, and the pairs
 are exactly what is blocking the eight undeciphered leaves. ~1,650 figures of f. 18 are available
 to be mined this way, and the anchors (`14` que, `25` nous, `52` plustost) locate the stretches.
+
+
+## The loop mints its first corrections
+
+At eight tiles a line the figures of f. 18r separate cleanly. Taking the stretch straight after the
+code group `25` (*nous*), where f. 19r fixes the plaintext as **eussions**, and assigning the
+figures *from* those letters:
+
+| figure | (before q) | q | long-s with looped descender | filled round | 7 | ·v· | x-like |
+|---|---|---|---|---|---|---|---|
+| letter | e | **u** | **ss** | **i** | **o** | **n** | **s** |
+
+Three of these — q = u, 7 = o, ·v· = n — agree with the key already in hand, which is the check
+that the stretch is correctly located. The other three are gains:
+
+* a **doubled-s figure**, not in Tomokiyo's table at all;
+* a filled round figure = **i**;
+* an x-like figure = **s** — and this is the point of the whole exercise, because it is *distinct*
+  from the x-like figure that reads **e** on f. 143. That pair is one of the confusables that has
+  blocked every leaf in this target, and the crib has just separated it.
+
+`key_crib.json` holds them. Each further anchored stretch on f. 18's ~1,650 figures does the same.

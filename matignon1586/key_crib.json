@@ -1,0 +1,10 @@
+{
+ "_note": "Values read off f.18r against f.19r's known plaintext - assigned FROM the plaintext, not guessed from the figure. These are the ones the crib has minted so far.",
+ "_stretch_eussions": "f.18r line 2, immediately after code 25 (nous): the eight letters of 'eussions' sit under seven figures, one of which is a doubled-s.",
+ "q":["u"], "ss_fig":["ss"], "0":["i"], "7":["o"], ".v.":["n"], "x2":["s"],
+ "_agrees_with_existing_key": ["q=u", "7=o", ".v.=n"],
+ "_new": {"ss_fig":"a doubled-s figure (long-s with a looped descender) - not in Tomokiyo's table",
+          "0":"a filled round figure = i",
+          "x2":"an x-like figure = s, DISTINCT from the x-like figure that is e on f.143 - this is one of the confusable pairs that has blocked every leaf, now separated by the crib"},
+ "_codes_confirmed": {"14":"que", "25":"nous", "52":"plustost"}
+}
