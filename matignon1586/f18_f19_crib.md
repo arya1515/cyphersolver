@@ -212,3 +212,28 @@ f. 19 first; the cipher side is already segmented and rendered by script. So the
 
 Ten to fifteen lines done this way covers the alphabet and its homophones. Nothing in it requires
 a judgement the plaintext does not already make for you.
+
+
+## Negative result worth having: the two sides are not line-for-line
+
+f. 18r cipher line 3, decoded with the key, gives
+
+> tes les o de ce m n br nu et de mai le b uus pouues o
+
+while f. 19r line 2 reads *"Conseil d'assembler de Castillebourg où l'on feist … que je n'avois
+plus d'instruction"*. Those do not align, even allowing for transcription slips — the fragments
+that do read (*de*, *les*, *et de*, *le*) are not where that plaintext would put them.
+
+So **cipher line n does not correspond to plaintext line n**. The count already said as much —
+f. 18r + 18v carry ~1,650 figures against f. 19r + 19v's ~1,800 letters, and the two pages have
+different line lengths — but it is worth stating flatly, because the mining procedure above
+silently assumed a line-for-line join when it moved from line 2 to line 3.
+
+**The fix is cumulative alignment, not per-line.** Concatenate the cipher figures in order and the
+plaintext in order, and carry a running offset: each code group (`14` que, `25` nous, `52`
+plustost, `13` qui, `12` il) is a landmark that re-synchronises the two streams, and the stretches
+between landmarks are what get labelled. Line 2 worked precisely *because* it contained three
+landmarks in a row; line 3, on this transcription, contains none that I can place.
+
+That is the procedure to implement next, and it is mechanical: find the landmarks, anchor, label
+between them.
