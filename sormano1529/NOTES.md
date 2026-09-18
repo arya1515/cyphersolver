@@ -207,6 +207,7 @@ and this film does not support one. Three methods were tried and all fail at the
 | nearest-template classification, line 1 templates onto line 2 | 26 % correct |
 | reading by eye, on text whose plaintext is not known in advance | gibberish |
 | grayscale NCC patches, leave-one-out 1-NN over the crib | 11 % |
+| language-model Viterbi decoding (`decode.py`) | fluent Italian-looking nonsense |
 
 Resolution was checked rather than assumed: the IIIF service reports the master as 8657 x 5876 for the
 whole opening, about 4,300 px per page, so the 3600-wide crops used above are 4x interpolation of a
@@ -221,6 +222,29 @@ is sound as a *check* on the key but it is not evidence that I can transcribe bl
 conclusion of no. 65, where nothing is known in advance, my own glyph reading returns strings that are not
 Italian. The one genuinely blind success is short: the six glyphs after "quasi", which read *chiaro*
 unprompted, and which is why the h value is trustworthy.
+
+**The sixth attempt is the important one, and it is a warning.** The correct technique for a noisy
+substitution is to treat the glyph reading as probabilistic and decode under a language model, and the
+letters themselves supply 7,194 characters of clear text in exactly the right orthography to train one.
+`decode.py` does this: nearest-exemplar emission scores from the 161 labelled crib glyphs, an Italian
+character 4-gram model, Viterbi. Run on the ciphered conclusion of no. 65 it returns, for its seven lines:
+
+    echeretantacontaracherarandetolandicheretrarerararen
+    onerarererarereranetarenenondendetonderiochera
+    raralentanererenetondiondereteneranecherandeta
+    ...
+
+This is fluent-looking Italian and it is entirely invented. With emission evidence near 40 % the language
+model stops correcting the shape model and starts generating: the output is a chain of the corpus's
+commonest patterns, *che*, *tanta*, *ra*, *onde*, assembled into nothing. A reader who did not check it
+against the glyphs would take it for a decipherment.
+
+That is the trap this target sets, and it is why the passages at issue need per-glyph evidence before
+anyone catalogues a reading of them. The substantive claims in the status line this work was given -
+Alfonso d'Este refusing Naples and the captaincy, pleading want of provisions, the agents calling his
+difficulties pretexts - sit exactly in the conclusion paragraph that both clerks enciphered, which is the
+passage that produces the invented text above. I can neither confirm nor refute them, and I have not
+catalogued them.
 
 The common cause is measurable: about 35 symbol forms, several of them minimal variants of one another
 (two rho-like forms separating *i* from *l*, triangle against alpha, chi against hooked-4, plain stroke
