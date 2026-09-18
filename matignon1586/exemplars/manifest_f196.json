@@ -1,0 +1,206 @@
+[
+ {
+  "file": "exemplars/f196/l4_17_qui.png",
+  "letter": "qui",
+  "src": "f196 l4 code (verified by eye)",
+  "box": [
+   1892,
+   1948,
+   448,
+   506
+  ],
+  "crib": "numeral read off the leaf"
+ },
+ {
+  "file": "exemplars/f196/l4_01_i.png",
+  "letter": "i",
+  "src": "f196 l4",
+  "box": [
+   279,
+   336,
+   434,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_02_u.png",
+  "letter": "u",
+  "src": "f196 l4",
+  "box": [
+   359,
+   441,
+   451,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_03_e.png",
+  "letter": "e",
+  "src": "f196 l4",
+  "box": [
+   483,
+   524,
+   459,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_04_t.png",
+  "letter": "t",
+  "src": "f196 l4",
+  "box": [
+   569,
+   595,
+   481,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_05_a.png",
+  "letter": "a",
+  "src": "f196 l4",
+  "box": [
+   642,
+   682,
+   462,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_06_n.png",
+  "letter": "n",
+  "src": "f196 l4",
+  "box": [
+   727,
+   793,
+   450,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_07_t.png",
+  "letter": "t",
+  "src": "f196 l4",
+  "box": [
+   827,
+   872,
+   474,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_08_t.png",
+  "letter": "t",
+  "src": "f196 l4",
+  "box": [
+   896,
+   974,
+   468,
+   514
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_09_r.png",
+  "letter": "r",
+  "src": "f196 l4",
+  "box": [
+   1001,
+   1062,
+   434,
+   507
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_10_a.png",
+  "letter": "a",
+  "src": "f196 l4",
+  "box": [
+   1097,
+   1174,
+   434,
+   495
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_11_u.png",
+  "letter": "u",
+  "src": "f196 l4",
+  "box": [
+   1228,
+   1265,
+   434,
+   494
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_12_a.png",
+  "letter": "a",
+  "src": "f196 l4",
+  "box": [
+   1297,
+   1340,
+   450,
+   495
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_13_i.png",
+  "letter": "i",
+  "src": "f196 l4",
+  "box": [
+   1374,
+   1553,
+   443,
+   508
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_14_l.png",
+  "letter": "l",
+  "src": "f196 l4",
+  "box": [
+   1598,
+   1634,
+   434,
+   486
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_15_l.png",
+  "letter": "l",
+  "src": "f196 l4",
+  "box": [
+   1652,
+   1750,
+   434,
+   501
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ },
+ {
+  "file": "exemplars/f196/l4_16_e.png",
+  "letter": "e",
+  "src": "f196 l4",
+  "box": [
+   1794,
+   1832,
+   434,
+   478
+  ],
+  "crib": "f.201 clear: \"...arr|iue tant trauaille qu il y a gaigne\", anchored on 13 at box 17"
+ }
+]
