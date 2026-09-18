@@ -10,8 +10,8 @@ Leopold Wilhelm. It runs to seven pages, ff. 117r–120r (Gallica canvases 245�
 
 ## How the code works (rebuilt here)
 
-The key was rebuilt from 1,380 glossed groups that agents transcribed from ff. 118r and 118v
-(`n43/pairs_c247.txt`, `n43/pairs_c248.txt`; partial `pairs_c246.txt`). `n43/buildkey.py` tallies them into
+The key was rebuilt from the glossed groups that agents transcribed from ff. 118r, 118v
+and 117v (`n43/pairs_c246.txt`, `pairs_c247.txt`, `pairs_c248.txt`: 1,485 glossed groups). `n43/buildkey.py` tallies them into
 `n43/key43.txt`.
 
 - **Single letters: four interleaved alphabets.**
@@ -61,6 +61,12 @@ cardinal". f. 118v: the Mazarin article, and the Archduke "aura tout sujet de se
 de la paix des deux couronnes".
 
 ## Notes
+
+- **Why the opening was left undeciphered.** The second-series syllables (277, 279, 314, 321, 354, 358, 364, 390,
+  400, 439–445) and the alphabet values 37, 80, 81 and 86 never occur in the glossed text of ff. 117v–118v
+  (1,485 glossed groups): no pair confirms them and none contradicts them. The opening leans on a part of the key
+  the body hardly uses, which may be why the contemporary decipherer did not gloss it.
+  - Checks against the complete f. 117v pairs: 46 = e, 59 = i and 38 = n agree with the alphabet layout.
 
 - The mémoire is undated. The opening says the conference (Rueil, from 4 March 1649) has already been granted
   and that the Archduke's slowness in sending help provoked it. That places it in early or mid March 1649,
