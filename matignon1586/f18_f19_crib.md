@@ -613,3 +613,32 @@ the exemplar set.
 That spread is the argument in one table: **the variable is letter coverage, and nothing else.**
 The next pass should move 17 of 22 upward and watch this number, rather than reading the output and
 forming an impression of it.
+
+
+## The baseline catches its own weakness
+
+Mining *"que ie nauois plus dinstruction"* added 24 exemplars and brought **p** in — 18 of 22
+letters now, missing only h, q, x, y, z. The output visibly improved: line 2 turned `f est` into
+**`fust`**, exact; line 4 gained **`tion`** and `que i en au o` for *que ie nauois*.
+
+And the score went **down**:
+
+```
+                     before   after
+  f.18r l2            71.7 %   65.2 %
+  f.18r l3            94.4 %   94.4 %
+  f.18r l4            44.7 %   50.0 %
+  overall             70.0 %   69.2 %
+```
+
+One character in 120. That is not a regression, it is **noise** — and the useful finding is about
+the measure, not the pipeline: **three lines and 120 characters is too small a test set to detect
+anything.** A change of ±1 character means nothing, and if the next pass "improves" the score by a
+point it will mean nothing either.
+
+So the baseline as built is under-powered, and its first real job was to expose that. Before it can
+be trusted to steer the work it needs ten or fifteen scored lines, not three — which means more of
+f. 19r transcribed, which is the same gate as everything else here.
+
+That is worth recording plainly, because the alternative was to note that the output looked better,
+call the mining a success, and carry on. It did look better. The number says we cannot yet tell.
