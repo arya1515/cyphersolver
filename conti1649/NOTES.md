@@ -1,6 +1,6 @@
 # Prince de Conti's ciphered mémoires, 26–27 March 1649 (BnF fr. 3854 nos. 41–42)
 
-Catalogue item 26. Worked 18 Sept 2026. **Status: found already solved.**
+Catalogue item 26. Worked 18 Sept 2026. **Status: read.** First deciphered by Lasry (2023). Re-deciphered independently here from my own transcription; see READING.md.
 
 ## Where the items are
 
@@ -34,13 +34,13 @@ cipher was brought to light by Camille Desenclos (Lachenicht & Braun 2021, p. 87
 - The images match the paper's Figures 1 and 8 sign for sign where compared (f. 115 lines 1–3, f. 113r opening).
 - `check_key.py` runs the final key over my hand copy of Figure 8. **234 of 237** cipher/plain pairs fit the key.
   The three misses and four length mismatches are slips in my copy of the figure, not problems with the key.
-- One reading in the paper is open: "Monsieur de Longueville traittera avec Monsieur de *Tenerande(?)*" (f. 113r,
-  ll. 12–13).
-  - On the leaf the word is `a ẽ g i d J g m e`. Under the key that is T/P/A/B · E/G · N · C/Z · R · A · N · S/D/X ·
-    E/G, i.e. **TENCRANDE**, not "Tenerande".
-  - I could not identify the person. It is probably a garbled name with a slip in the enciphering; the Normandy
-    governorships (Pont-de-l'Arche, Caen) are where Longueville's demands lay.
-  - This is left open. It is not proposed as a correction.
+- **Independent decipherment.** I transcribed all three pages from the images myself (`transcription.txt`) and decoded
+  them with the key (`decode.py`, then word-level rescoring in `decode2.py` → `decoded.txt`). The normalized text is in
+  `READING.md`. It agrees with Lasry's §4 throughout and adds small corrections: *ne* pouvant; *pour insister* à
+  demander in no. 42; the B⟨l⟩etaigne slip. Details are in READING.md.
+- "Monsieur de *Tenerande*" (f. 113r, ll. 16–17): the cipher is `a ẽ g ı ∂ J g m e`. In this hand `ı` is the E sign,
+  so it reads TENERANDE, as Lasry has it. An earlier note of mine, "TENCRANDE", misread that sign and is withdrawn.
+  The person is still unidentified.
 - "dix(six?) mil hommes": m = S/D/X is genuinely ambiguous. The ciphertext cannot settle it.
 
 ## Files
