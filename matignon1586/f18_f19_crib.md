@@ -84,3 +84,28 @@ undeciphered leaves have no unknown figures left in them.
 * plaintext side: `hi/f19rflat.png` + `f19r_lines.txt` (33 lines), tiles cut at `hi/P_*`;
   transcription so far in `f19r_clear.md`.
 * decode with `KEY=key.json python dec.py`, diff against the plaintext, correct the key, repeat.
+
+
+## First pass through the loop, and what it shows
+
+Lines 2-3 of f. 18r transcribed from faded tiles and run against the key:
+
+```
+que s ie ee fu
+u tat au comme s de ours  plustost que nous eu  ro nee nee p me p
+tes les o de ce m n br nu et de mai le b uus pouues o
+```
+
+`plustost que nous eu[ssions]` again falls out of the figures, so the anchor holds. But the
+stretches between the code groups do not yet agree with f. 19's plaintext, and the diagnosis is
+sharp: the same ASCII token comes out needing two different letters within one line — my `4e` has
+to be both *t* and *a*, my `x` both *e* and *n*. That is not the key being wrong. It is two
+near-identical figures being read as one, which is the same failure that has run through this whole
+target.
+
+**The consequence is the method, not a setback.** With the plaintext known, the fix does not
+require reading the figures correctly first. It runs the other way: take a stretch whose plaintext
+is certain — *eussions*, eight letters — look at the eight figures under it, and assign them from
+the plaintext. Each such stretch mints labelled exemplars for the confusable pairs, and the pairs
+are exactly what is blocking the eight undeciphered leaves. ~1,650 figures of f. 18 are available
+to be mined this way, and the anchors (`14` que, `25` nous, `52` plustost) locate the stretches.
