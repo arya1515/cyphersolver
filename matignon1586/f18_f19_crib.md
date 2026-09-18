@@ -453,3 +453,35 @@ exemplars cut from f. 18 do not transfer to it. So the crib gives the *table* �
 which letter — but each leaf still needs its own figures matched against exemplars in its own hand,
 or the shared table applied through a transcription. That is a real limit on how far one crib
 carries, and it was not visible before there was a working pipeline to expose it.
+
+
+## Coverage is the whole story: 14 letters to 16, and the line reads
+
+Mining the rest of f. 18r line 3 took the exemplar set from 42 figures over 14 letters to **65 over
+16** — the gain being a, b, c, d, l, m, o, r, the letters *assembler de Castillebourg* needed.
+Re-running `readleaf.py` on the same three lines:
+
+```
+before (14 letters)   line 3: re et conseil dit soil iir tlr sa sa uie et su
+after  (16 letters)   line 3: re et conseil des sembler de castille bour
+   truth:                     re et conseil d assembler de castillebourg
+```
+
+**Forty characters of the line now read.** Line 2 also improves — `ste f est a bert ie ie le d ions
+ueue et` against a truth of `ste fust aduertie et [52][14][25] eussions uictoi` — and that gain is
+*not* circular: line 2's own exemplars did not change, only line 3's were added, and line 2 got
+better because the letters it needed finally had figures behind them.
+
+Line 3 reading itself back is partly circular and is not offered as proof. The proof is line 2, and
+the trend.
+
+### The remaining gap, named exactly
+
+16 of 22 letters covered. Missing: **g, h, p, q, x, y, z** — the rare ones, which is why they have
+not turned up in three crib lines of ordinary prose. They will come from lines containing words
+like *que*, *quelque*, *pays*, *chose*, *hommes*. The code groups also need exemplars of their own:
+`52`, `14`, `25` currently decode as letters because nothing in the set says they are codes, which
+is what mangles the middle of line 2.
+
+So the two things between here and a read leaf are: **seven more letters, and the code groups**.
+Both come from more crib lines, and the count of letters covered says exactly how far along it is.

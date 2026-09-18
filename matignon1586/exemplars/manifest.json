@@ -502,5 +502,281 @@
    316
   ],
   "crib": "f19r \"\u2026uictoire et conseil d assembler\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_13_a.png",
+  "letter": "a",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   961,
+   1122,
+   257,
+   330
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_14_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1155,
+   1192,
+   275,
+   318
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_15_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1210,
+   1241,
+   285,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_16_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1280,
+   1326,
+   257,
+   323
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_17_m.png",
+  "letter": "m",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1342,
+   1395,
+   286,
+   321
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_18_b.png",
+  "letter": "b",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1438,
+   1507,
+   290,
+   319
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_19_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1533,
+   1570,
+   275,
+   329
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_20_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1596,
+   1674,
+   272,
+   327
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_21_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1695,
+   1751,
+   288,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_22_d.png",
+  "letter": "d",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1767,
+   1807,
+   267,
+   335
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_23_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   1827,
+   2040,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_24_c.png",
+  "letter": "c",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2063,
+   2098,
+   299,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_25_a.png",
+  "letter": "a",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2142,
+   2167,
+   293,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_26_s.png",
+  "letter": "s",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2191,
+   2242,
+   271,
+   333
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_27_t.png",
+  "letter": "t",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2256,
+   2297,
+   257,
+   332
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_28_i.png",
+  "letter": "i",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2344,
+   2385,
+   299,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_29_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2410,
+   2485,
+   296,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_30_l.png",
+  "letter": "l",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2502,
+   2549,
+   257,
+   333
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_31_e.png",
+  "letter": "e",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2565,
+   2597,
+   295,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_32_b.png",
+  "letter": "b",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2645,
+   2695,
+   257,
+   315
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_33_o.png",
+  "letter": "o",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2709,
+   2770,
+   264,
+   328
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_34_u.png",
+  "letter": "u",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2815,
+   2830,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l3g14_35_r.png",
+  "letter": "r",
+  "src": "f18r line 3 (gap 14)",
+  "box": [
+   2846,
+   2897,
+   257,
+   337
+  ],
+  "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
  }
 ]
