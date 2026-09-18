@@ -109,6 +109,14 @@ the four gaps then resolved: the inverted triangle is q and capital H is u (comp
 **c-h-i-a-r-o**, giving the three-barred E as h. That stretch is enciphered in *both* copies, so
 "il parlar suo fu di sorte che Jo Sormano mi parue quasi chiaro" is text that has not been read before.
 
+**A third glossed run in no. 62, and the same wall.** f. 113v is blank, so no. 62 is a single leaf, but its
+show-through revealed a third ciphered stretch I had not transcribed, on f. 113r after "tutto in
+confusione: Quanto", glossed above in the contemporary hand "ala carrica del capitaneo". Its glyphs read
+v, box-with-dot, round-u, triangle, long-s, looped-h, round-u, B, rho, triangle, squared-pi, rho, psi,
+tailed-4. Two known values land correctly (round-u = a, triangle = c) but no consistent alignment to
+"ala carrica del capitaneo" survives: the run demands *l* and *r* at positions where the same shapes give
+*a* and *c* elsewhere. The same two-similar-triangles problem, on a third independent passage.
+
 **Where it stops.** Line 2 continues with nine glyphs that the crib says must spell *calzolite*, and two
 of those positions demand *l* where the same shapes elsewhere demand *i*. So the hand uses at least two
 rho-like forms that this microfilm will not separate, and the same is true of the triangle/alpha,
