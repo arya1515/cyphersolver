@@ -163,7 +163,7 @@ decipherment whose text Molini already printed. Aligning that printed plaintext 
 form, which is exactly what this attempt lacked. Of the five Sormano letters Molini prints, only this one carries the cipher note; the others he calls simply “È autografa”. And it is the one manuscript of
 the group the BnF has not digitised: microfiche only, reproduction matrix <strong>S 39769</strong>. Molini does not print nos. 63, 65 or 66, so those remain unprinted as well as unread.</p>
 
-<h2 id="method"><span class="num">07</span> Method, and the procedure to use next</h2>
+<h2 id="method"><span class="num">08</span> Method, and the procedure to use next</h2>
 <p>Because no imaging libraries were available, the pipeline is pure Python: <code>sips -s format bmp</code> writes an uncompressed BMP which is parsed directly, then thresholding, connected components,
 text-band detection from the horizontal ink profile, cleanup that splits run-together glyphs and absorbs fragments, shape clustering, and crib alignment by iterated Needleman&ndash;Wunsch. On the f. 124r
 crib it finds 4 of 4 text lines and 161 components against 161 letters, which is itself independent proof that the passage is letter-for-letter with no syllable groups.</p>
@@ -171,7 +171,7 @@ crib it finds 4 of 4 text lines and 161 components against 161 letters, which is
 seven times. Reading whole lines by eye mis-segments; classifying automatically mis-identifies; the hybrid does neither, and produces sharp legible words. It is what a reader with the fr. 2974 crib should
 use.</p>
 
-<h2 id="sources"><span class="num">08</span> Sources</h2>
+<h2 id="sources"><span class="num">10</span> Sources</h2>
 <ul>
 <li>BnF Français 3096, ff. 113&ndash;124 (Gallica, ark btv1b9060015d); Français 3000 f. 74 (ark btv1b9060027m); notices cc49559v, cc49428t, cc494576, cc494626.</li>
 <li>Giuseppe Molini, <em>Documenti di storia italiana copiati su gli originali autentici e per lo più autografi esistenti in Parigi</em>, II (Florence, 1837).</li>
