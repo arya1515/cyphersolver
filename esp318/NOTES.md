@@ -126,6 +126,14 @@ ciphers are — a homophonic alphabet drawn with letter-shaped signs, interleave
 problem is a missing key, not a misread structure. A solver that treats the groups as unknown words while solving
 the sign alphabet against Spanish is the next tool to build; the segmentation is already in place.
 
+One cheap alternative was tested and failed. If the letter groups were not code units but runs of letter-shaped
+signs (as the *Cifra general*'s alphabet is), a plain homophonic solver on the character stream would break the leaf.
+Lines 1–21 of f. 118r were transcribed sign by sign (`ct93_eye.txt`, 1,016 tokens, 40 distinct signs) and annealed
+against the Spanish 5-gram model from eight starts (`solve93.py`): the best key scores −3.5 nats a token where real
+Spanish scores −1.8, and the output is vowel soup. The token statistics say why: 66 % of all `p` signs occur inside
+`pie`, 28 % of `g` inside `gto`, and the top trigrams (`gto` ×21, `pie` ×19, `gnꝺ` ×15, `heg` ×13) are far too
+concentrated for letter runs. The groups are atomic. No. 93 is a nomenclator problem and needs the key.
+
 A second candidate, untested because unpublished: Galende Díaz's file BRAH 9/15 opens with **"Cifra del visorrey"
 (ff. 1–6)**, which he describes but does not reproduce. No. 94 is a viceroy's letter.
 
@@ -157,8 +165,9 @@ Checked by eye on the strips, with Lasry's key, the following read cleanly (line
 of the 1490s, about the French — *franceses*, *Francia* — and about what a *Señoría* (Venice? the letter is dated
 8 January 1497, three days before Federico's no. 5) can or cannot be made to do; `bac` and `bon` are nomenclator
 groups (the `bon` on line 8 sits between *…mas…* and *que*). Two of Lasry's signs were corrected on the way (the
-n-with-cross-tail is M, not Y; plain 7 is D in *puedan* but S in *franceses* and *escreuir*, so the two 7-forms his
-key separates really are two signs and the clusters, not the eye, must tell them apart).
+n-with-cross-tail is M, not Y). His two 7-forms — plain 7 = D, 7 with a small o = S — are confirmed by *puedan* and
+*franceses*, and the clusters separate them where the eye at this resolution does not; the hybrid decode now runs
+with Lasry's assignment for both.
 
 What is not done: about a quarter of the glyphs are model-filled, and the `~` stretches of `f122r_hybrid.txt` are
 plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
