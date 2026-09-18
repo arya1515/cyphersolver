@@ -8,7 +8,7 @@ LET = {  # single symbols -> letters (homophones)
     '40': 'r', '4h': 'e', '3': 'e', 'ah': 'o', 'T': 'o', 'to': 'a', 'q': 'm', '7': 'a', 'b': 'a',
     'ch': 'c', 'c': 'l', 'oo': 'd', '11': 'n', 'X': 't', 'g': 't', 'P': 'p', 'SS': 'p', 'e': 'i',
     'Z': 'i', '8': 'y', 'B': 'b', 'd': 's', 'eh': 's', 'V': 'v', '3t': 'u', 'gh': 'f', '7o': 'll',
-    '9': 't', 'p': 'z', 'W': 'n', 'o': 'g', 'O': 'h', 'E': 'r',
+    '9': 't', 'p': 'z', 'W': 'n', 'mt': 'p', 'tt': 'r', 'o': 'g', 'O': 'h', 'E': 'r',
 }
 CODE = {  # code groups -> words / syllables
     'pef': 'que', 'diz': 'de', 'dih': 'con', 'fak': 'el', 'fem': 'es', 'fan': 'en', 'has': 'lo',
@@ -27,6 +27,10 @@ CODE = {  # code groups -> words / syllables
     'huz': 'mas', 'fud': 'dicho', 'hik': 'italia', 'myk': 'no', 'rie': 'pued', 'fat': 'forma', 'dieb': 'cosas', 'fic': 'del',
     'soq': 'verdad', 'daz': 'dize', 'gup': 'batalla', 'fur': 'dela', 'guo': 'bien', 'dij': 'cierto', 'diy': 'cierto',
     'hih': 'ha', 'fue': 'saber', 'far': 'dar', 'pid': 'presa', 'gaf': 'aqui', 'guj': 'esto', 'meq': 'otra',
+    # from N.45 (Apr 1511), agent alignment
+    'plut': 'ni', 'fen': 'esto', 'fio': 'ferrara', 'dur': 'duque', 'poj': 'rey', 'rug': 'parte',
+    'mag': 'otro', 'peh': 'quiere', 'mef': 'manera', 'heg': 'haveys', 'dex': 'deve', 'fae': 'dicha',
+    'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho',
 }
 
 def decode(tokens):
