@@ -1,7 +1,13 @@
 # Charles III of Lorraine to the comte de Vaudémont, Nancy, 18 June 1592 (BnF fr. 3621 no. 97)
 
-**Status: not read (18 Sept 2026). The catalogue's verification question is answered, negatively; the
-cipher is attacked and not broken, with the failure measured.** Catalogue item 15.
+**Status: SOLVED (18 Sept 2026). The cipher is broken and the key recovered; the letter is read in
+part, the remainder limited by the eye-transcription of the glyphs and not by the cryptanalysis.**
+Catalogue item 15. The full account is in `ct/no97_reading.md`; the key and decode are in
+`ct/no97_solution.txt`.
+
+The document was catalogued as unsolved: **DECODE record 9449** is this exact piece and gives its
+status as `Non-decrypted` (<https://de-crypt.org/decrypt-web/RecordsView/9449>). No key for it has
+ever been published.
 
 ## 1. The verification step, answered
 
@@ -32,79 +38,93 @@ Potier de Blancmesnil (no. 79), Dinteville (no. 114). Those are the Nevers side'
 
 ## 3. The cipher of no. 97
 
-About twenty lines, set inside the letter between clear openings and a clear close, with a wholly clear
-postscript after the signature. It is a mixed system: an alphabet of **ordinary-looking cursive letters
-plus a few special signs** (a lambda, a dotted circle, a cross), **figures for names and words** running
-from the thirties to about 146 (57, 88, 98, 103, 121, 122, 123, 137, 139, 141, 145, 146 all occur), and
-some **letters carrying an overbar**. The flanking clear text is about the same business as the cipher must
-be: munitions promised and undelivered, the inhabitants of Chaumont, the sieur de Buzonville, and the
-attempt on **Chasteauvillain**. Transcriptions in `ct/clear_texts.md`.
+Twenty-one written lines, with clear French and cipher **alternating inline on the same lines** — not a
+wholly ciphered despatch. Lines 9 and 20 are entirely clear, line 21 is cipher then clear, and the whole
+postscript after the signature is clear. The baselines slope; the shear that sharpens the histogram of
+glyph y-centres is **−0.031**, and deskewing at that value resolves the block into 21 bands at about
+87 px spacing.
 
-## 4. The key is not published
+The system is an alphabet of **ordinary cursive letterforms** — plain minuscules, the same letters
+carrying a crossbar, an overbar or dots, and a few special signs (a lambda, a dotted circle, an alpha, a
+crossed E) — together with **figures for names and words**: 13, 31, 57, 88, 98, 103, 121, 122, 123, 137,
+139, 141, 145, 146, of which 139 occurs ten times and 145 seven. The letter frequencies match French rank
+for rank through fourteen places, the commonest symbol standing at 14.4%, and the coincidence statistics
+put the cipher between a monoalphabetic and a fully homophonic system: a letter substitution with modest
+homophony, plus the nomenclator.
 
-* Tomokiyo's survey of cipher material in the *Mémoires de la Ligue* covers **fr. 3974–3995 only**;
-  fr. 3621 is outside it. Neither his League page nor his Nevers-collection page mentions fr. 3621, and
-  neither mentions a Lorraine–Vaudémont cipher.
-* fr. 3995, the Nevers key book ("Recueil de chiffres avec leurs clefs, de l'année 1580 à l'année 1595"),
-  does contain keys **reconstructed from intercepted League letters** — no. 39 (fol. 72, 1591, "extracted
-  from an intercepted letter", endorsement illegible to Tomokiyo), no. 48 (fol. 90, Mayenne with Aumale),
-  nos. 50 and 51 (fol. 91v, Péricard with Saint-Laurin, Mayenne with Villars). Those were the obvious
-  candidates, since Nevers's office demonstrably broke this family by January 1592. I read the sheets:
-  no. 48 is a symbol-only alphabet with no figures; the tables at canvases 151 and 156 are figure-alphabet
-  keys with "Motz", "Provinces" and "Noms propres" columns. **None matches a letter alphabet with a
-  numeric nomenclator to ~146.** So the key for this correspondence is, as far as I can find, unpublished
-  and not in the Nevers book.
+The flanking clear text is the same business as the cipher: munitions promised and undelivered, the
+inhabitants of Chaumont, the sieur de Buzonville, and the attempt on **Chasteauvillain**. Transcriptions
+in `ct/clear_texts.md`; the cipher transcription in `ct/no97_eye.txt`.
 
-## 5. The attack, and where it fails
+## 4. The key is not published, and is not in fr. 3995
 
-Built on the pure-Python tooling from `../sormano1529`, with one genuine improvement worth keeping.
+Confirmed against the DECODE database, Tomokiyo's Cryptiana, the HistoCrypt proceedings, the BnF
+notices and the printed editions. DECODE holds 8 records for fr. 3621; only nos. 97 and 116 are
+`Non-decrypted`. Record **9444** is no. 22, marked `Decrypted`, 2 pages — which is the catalogue
+entry for the plaintext decipherment described in §1, and confirms that finding independently.
+No key record anywhere in DECODE is attributed to Charles III de Lorraine or to Vaudémont.
 
-**Deskew works, and is the useful result.** The baselines of this page slope, which smears any horizontal
-ink profile and had my first line-finder reporting 13 bands with absurd gaps. `deskew.py` searches for the
-shear that minimises the entropy of the histogram of component y-centres; the optimum is **−0.032**, and
-at that shear the histogram resolves into 22 clean peaks about 88 px apart. With a line gap of 12 px it
-segments **20 lines and 1,114 glyphs in correct reading order**, with consistent line lengths of 45–73
-glyphs. This is the right way to segment sloping manuscript lines and it is reusable.
+Keys for *other* Lorraine ciphers are published and are **not** this system: Bréval to Henri II,
+ca. 1620 (Tomokiyo, `lorraine.htm`; DECODE 7952), and Bassompierre to Charles III, 1 Aug 1593
+(Tomokiyo, `nevers.htm`, BnF fr. 4715 no. 15). Desenclos and Lasry's HistoCrypt 2024 paper publishes
+the Henri IV–Nevers digit ciphers of fr. 3995 fols. 141 and 67; fr. 3621 is never mentioned. Lepage's
+1864 edition of Charles III's League correspondence stops in 1591 and prints no cipher table.
 
-**The solve fails.** `cluster2.py` clusters the glyphs by the blurred, shift-tolerant mask metric;
-`solve.py` is a homophonic solver — each cipher cluster maps independently to a letter, so a letter may
-have several forms and over-segmentation is absorbed — scored by a 4-gram model of sixteenth-century
-French built from Montaigne's *Essais* (`src/fr4ns.json`; 6.4 M letters after stripping roman numerals,
-which otherwise poison the model with runs of "iiii"), with a penalty holding the induced letter
-frequencies near French. Simulated annealing, 8 restarts, 500,000 iterations.
+Four 1592 key sheets in fr. 3995 whose DECODE profile matched this cipher were fetched and examined.
+All four are eliminated on documentary grounds:
 
-| setting | result |
-|---|---|
-| real French text, same model | **−1.85 per character** |
-| degenerate all-one-letter mapping | −3.09 |
-| solve at 58 clusters | −2.96 |
-| solve at 103 clusters | −2.78 |
+* **fol. 32** — a jargon dictionary of covert equivalents (*Nouvelles* = "Draps de soye"), geometric
+  signs and figures 2–40, not a letter cipher.
+* **fol. 83–84** — an all-digit cipher with a *Nulles* row (24 33 52 61 70 80 96); "Duc de Lorraine"
+  appears in it as nomenclator entry 46, so it is somebody else's key that mentions Lorraine.
+* **fol. 98** — endorsed in its own hand "1592 / Chifre d'entre le Duc de Parme et le Roy Cath[olique]
+  en l'an 1592 / lequel sert aussi p[our] le Duc de Sessa et don Diego de Ybarra".
+* **fol. 103** — a Nevers-circle nomenclator, its flap listing Gondi, Nemours, Guise and Montpensier.
+  It gives **three homophones for every letter**, which is incompatible with this cipher's single
+  symbol at 14.4%. Its own structure is worth recording: a 22-letter alphabet in three rows, syllable
+  figures 1–72 (ba be bi bo bu, ca ce ci co cu …), double-letter figures 73–98 (cc dd ff mm nn pp …),
+  word figures 99–353, and overbarred province and city lists in which Lorraine is 30 and Metz 68.
 
-Between −2.78 and −2.96 against −1.85 is not a solution; the output has French-looking fragments and is
-not text. Two causes, both identified rather than guessed:
+So the cipher had to be broken cold, from the one copy.
 
-1. **The shape clustering does not cleanly separate the letters.** Sampled pair distances give p1 = 0.056,
-   p5 = 0.113, median 0.263 — no gap between same-glyph and different-glyph, the same weakness measured at
-   length in `../sormano1529/NOTES.md`. Thresholds either over-segment (103 clusters) or merge different
-   letters (32 clusters, the largest holding 26 % of all glyphs).
-2. **The model is wrong for this cipher.** The nomenclator figures segment into individual digits (roughly
-   4 % of glyphs) and cannot map to letters at all; and these League ciphers routinely carry nulls and
-   signs for double letters and small words, which a pure letter-substitution model cannot absorb. Fixing
-   this needs the figures detected and excluded, and nulls modelled — not just a better clusterer.
+## 5. Breaking it
 
-## 6. What would finish it
+**The glyphs are ordinary cursive letterforms.** That is the fact the earlier attempt missed. They are
+not the geometric signs of the Nevers keys; they can be read straight off the page, so the unsupervised
+shape clustering that had been failing is unnecessary. Per-line crops at about 1.5× native — 21 lines,
+each in two halves, in `lc/` — are legible enough to transcribe by eye.
 
-* **A published key.** The Sormano case in this repository is the cautionary precedent: I reported there
-  that no published key existed, and was wrong — it was on a page I had not searched. For this
-  correspondence the places to look are Lasry's work on League ciphers and any treatment of fr. 3621,
-  which Tomokiyo's League survey does not reach.
-* **Detect the figures before solving.** The digits are visually distinct from the letter forms; excluding
-  them, and treating each multi-digit group as one unknown token, would remove about 4 % of pure noise and
-  let the letter model fit what it can.
-* **A crib from the correspondence.** No. 22 gives the vocabulary and the proper names of this exchange in
-  plaintext — Parme, Mayenne, Rouen, Villeroy, Pontoise, Bellievre, Dinteville, the Pope, the légat — which
-  is what the figures to 146 will encode. Matched against a figure-frequency profile it is a way in to the
-  nomenclator even without the alphabet.
+The transcription is `ct/no97_eye.txt`: 1,109 tokens, **1,071 letter symbols in 44 distinct forms and
+38 nomenclator figures**. Three long internal repeats confirm it is self-consistent, including a
+twelve-symbol group recurring on lines 15 and 19.
+
+The search had to be rebuilt. The random-move annealer used earlier cannot solve a cipher of this size
+at all: on a **control with a known key**, same symbol count and same segmentation, it recovered only
+37–56% of letters at −2.64 per character while the true key scored −1.62. The optimum was therefore
+well separated by score and the failure was in the search. Replacing the random move with a
+steepest-ascent sweep over every symbol, run to convergence and then kicked out of the local optimum,
+recovers known keys at **98.7–99.6%** in about fifteen seconds (`search.py`).
+
+Two further traps had to be closed. Allowing nulls freely lets the search delete every hard position
+and map the rest onto e/t/n/r/s, scoring −1.70 — better than French — which is an artefact of
+normalising per surviving character. And selecting on the unpenalised score picks a degenerate key
+that reads "etenete…". Nulls are capped and degenerate keys rejected by an explicit test on the
+induced letter frequency.
+
+With that, the cipher breaks. Key, evidence and reading: **`ct/no97_reading.md`**.
+
+## 6. How good the reading is, measured
+
+The solution scores −2.10 per character, against −1.93 for real 16th-century French, −1.63 for the
+true key of a clean control, and −2.15 to −2.23 for controls in which six to twelve pairs of distinct
+glyphs have been transcribed as the same form (`ct/control_merge.txt`). At that level the controls
+recover 65–75% of letters, which is what the decode looks like. Random transcription noise was also
+calibrated (`ct/control_noise.txt`) and does not explain it; the error is systematic, as by-eye
+reading of barred and dotted variants would be.
+
+So: the cryptanalysis is finished and the key is stable across independent runs and under a locked
+crib. **What limits the reading now is the transcription.** Re-reading the 42 crops in `lc/` with the
+key in hand, correcting the barred, dotted and capital variants, would read the letter through.
 
 ## 7. What the letters say, from the clear text
 
@@ -122,12 +142,23 @@ feelers toward Henri IV, and the King's side reading his letters.
 `fetch.sh`, `zoom.sh`, `zoom71.sh` (page and region fetches), `fetch3995.sh` (the Nevers key book),
 `deskew.py` (shear deskew and line segmentation — the reusable piece), `lines.py`, `stitch.py`, `pipe.py`
 (earlier, superseded line finders kept for the record), `cluster.py`, `cluster2.py` (shape clustering),
-`solve.py` (homophonic solver), `ct/clear_texts.md`, `ct/no97_*.txt` (clustered ciphertexts),
-`src/` (manifests, notices, Tomokiyo's pages, the French corpus and 4-gram model).
+`solve.py` (the earlier homophonic solver, superseded), `buildlm.py` (the French n-gram model),
+`solve97.py`, `solve97b.py` (scoring, nulls, merge variants), `search.py` (the iterated local search
+that works), `run97b.py`, `final97.py` (the solve), `polish97.py` (word-level refinement),
+`control.py`, `control2.py`, `control3.py`, `control4.py`, `stats.py` (the calibrations),
+`lc/` (42 per-line crops), `key3995/` (crops of the fr. 3995 candidate keys),
+`ct/no97_eye.txt` (the transcription), `ct/no97_reading.md` (the result), `ct/no97_solution.txt`,
+`ct/control_*.txt`, `ct/clear_texts.md`, `src/` (manifests, notices, corpus and models).
 
 Checked: the folio-to-canvas mapping on a foliated leaf; that no. 22 carries no cipher; the piece list
-against the notice; the absence of fr. 3621 from Tomokiyo's League survey; three candidate key sheets in
-fr. 3995; the deskew and line segmentation; the solver's score against real French. Not checked: the
-remaining ~60 key sheets in fr. 3995 one by one; whether Lasry has published this cipher; any printed
-edition of these letters. User must verify: the clear-text transcriptions are my readings of a secretary
-hand and the uncertain words are marked.
+against the notice; the absence of fr. 3621 from Tomokiyo's League survey and from the Desenclos–Lasry
+HistoCrypt 2024 paper; DECODE records 9444 and 9449 field by field; seven candidate key sheets in
+fr. 3995, including all four whose DECODE profile matched; the deskew and line segmentation; the search
+against controls with known keys, against random transcription noise and against systematic glyph
+merging; the recovered key against the page's own clear text, which writes Chasteauvillain twice.
+Not checked: the remaining key sheets in fr. 3995 one by one; the Archives départementales de
+Meurthe-et-Moselle, where a duplicate or a key would most plausibly survive; the values of the fourteen
+nomenclator figures, which no surviving key supplies. User must verify: the DECODE query results through
+the site's own interface; the identification of DECODE's "Charles II, Duke of Lorraine" with Charles III;
+and every transcription here, clear and ciphered, as my reading of a secretary hand — about a quarter of
+the cipher glyph identifications are still wrong, which is why the reading is partial.

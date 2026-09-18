@@ -1,0 +1,8 @@
+merged_pairs  distinct_syms  IC1      recovered_raw  letter_acc
+       0          42.7    0.04201    -1.9084      80.5%
+       3          40.0    0.04445    -2.0212      83.0%
+       6          37.0    0.04670    -2.1469      72.8%
+       9          34.0    0.04857    -2.1534      72.1%
+      12          31.7    0.05456    -2.2334      64.9%
+
+manuscript: 44 distinct, IC1 0.05915, best non-degenerate raw see run97b

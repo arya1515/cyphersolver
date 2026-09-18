@@ -1,0 +1,71 @@
+
+FINAL raw -2.0992  (real French -1.93; clean control -1.63;
+   control with 6-12 systematically merged symbol pairs -2.15 to -2.23)
+
+KEY  (cipher symbol -> plaintext; the model folds u/v and i/j, as the period does)
+  A -> e
+  B -> p
+  C -> t
+  D -> s
+  E -> c
+  F -> o
+  G -> u *locked by the chasteau crib
+  H -> h *locked by the chasteau crib
+  J -> s
+  K -> u
+  L -> u
+  M -> e
+  N -> r
+  O -> d
+  P -> n
+  Q -> a
+  R -> o
+  S -> n
+  T -> e
+  U -> s
+  V -> c
+  W -> e
+  Y -> e
+  Z -> r
+  a -> i
+  b -> p
+  c -> t *locked by the chasteau crib
+  d -> q
+  f -> c *locked by the chasteau crib
+  g -> u
+  i -> a *locked by the chasteau crib
+  j -> n
+  m -> y
+  n -> s *locked by the chasteau crib
+  o -> r
+  p -> n
+  q -> d
+  r -> o
+  s -> n
+  t -> e *locked by the chasteau crib
+  v -> r
+  x -> s
+  y -> l
+  z -> m
+
+L00 esiauesteuintinimentnesmalesatistaitedupeusdeuecutionu <139> 
+L01  <57> eetceulpdela <98> ctontdetantdenesesespromeses <141> yauoientaitl
+L02 ede <145> saristeretde <122>  <123> upiotniersretomunitionsndresesra
+L03 eientait <139> enletairesentenureseclairementamudits <57> retlesde
+L04 putesdec <98> set <139> nemanueiesameessemandermatina <141> ssconpnso
+L05 issentleiustesmelcontantemetttu <139> aiendoisauoirl <137> eilet
+L06 .auldraruulerdeprudeneeesauit <141> s/ene <145> delaisentsatoutascou
+L07 pnetdemunitiotsercheuaulpd# <121> uonetaultrelcomoditese [[p mand-]] 
+L08  [[aussi si dieu nous fault la grace de prendre Chasteauvillain]] ersu <57>  <145> cde <31> ndecelaplanei
+L09 ltauldraenleremeurc <13> oulsetluuedire <139> mmeaescriresesatitden..
+L10 recepuoirrmon#comandemettre.nepeidaioulmetrelquelqquipourucom <31> 
+L11 nderetuonseruerlaplaneiquantane <139> sceulpde. <88> ceauoieituerlmoulpourta
+L12 ireespaseraeulpuostorlesenleuresespromeresnemeesindueirontsetreo
+L13 lumenteieneleterauletdesmaittnatotieuouldiraurapresleuecctsde-
+L14 chasteauilainss <145> nntaisesderamenermonarmedooitesesquartiersde-
+L15 lataulchea:etmepreaduertilantuuiour <139>  <145> upourdesadiuerie <145>  <31> n
+L16 derauleechemins <139> tiendressilneuosulstaultpourtanttaireparoistreauld
+L17 isdese <88>  <31> resolutione <146> eienlerpeudemoienqetsecours <139>  <145> tromespard
+L18 elapournauainerletenhtdudintonchasteauilaitsainsu <139> lonauoitsepromisse
+L19  [[et de la ilz pourroient tascher de remedier, ou bien juger le peu de suiect qui me doibt occasionner]] 
+L20 esurtesesproemmesaestairesparerroultremadintese <103> ee. [[[dire] si munitions]] 

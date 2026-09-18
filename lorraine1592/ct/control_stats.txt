@@ -1,0 +1,9 @@
+MANUSCRIPT  BnF fr. 3621 no. 97
+  symbols 1054  distinct 44
+  IC1 0.05915   IC2 0.005950 over 1008 pairs, 360 distinct   trigram-repeat 39.8%
+
+CONTROLS  real French enciphered letter-for-letter, same size and segmentation
+  44-symbol homophonic       IC1 0.04157 [0.03942-0.04710]  IC2 0.002572 [0.002108-0.003860]  tri-rep 19.3%
+  22-symbol monoalphabetic   IC1 0.08335 [0.07909-0.09436]  IC2 0.010345 [0.008941-0.015183]  tri-rep 61.4%
+
+  plain French (22 letters)  IC1 0.07947  IC2 0.008941  tri-rep 58.5%
