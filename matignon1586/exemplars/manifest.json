@@ -910,5 +910,41 @@
    461
   ],
   "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/CODE_l2_16_plustost.png",
+  "letter": "plustost",
+  "src": "f18r l2 box16 = code 52",
+  "box": [
+   1444,
+   1553,
+   161,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l2_17_que.png",
+  "letter": "que",
+  "src": "f18r l2 box17 = code 14",
+  "box": [
+   1586,
+   1684,
+   165,
+   218
+  ],
+  "crib": "code group"
+ },
+ {
+  "file": "exemplars/CODE_l4_25_que.png",
+  "letter": "que",
+  "src": "f18r l4 box25 = code 14",
+  "box": [
+   2160,
+   2347,
+   381,
+   461
+  ],
+  "crib": "code group"
  }
 ]

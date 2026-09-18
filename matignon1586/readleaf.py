@@ -16,6 +16,7 @@ import pickle
 
 D = pickle.load(open('lm.pkl','rb')); CNT = D['cnt']; N = D['N']
 AL = 'abcdefghilmnopqrstuxyz'; LAM = 0.4
+CHAR_BONUS = 1.6   # ~ the model's mean per-character cost
 def clogp(ctx, ch):
     tot = 0.0; w = 1.0
     for n in range(N, 1, -1):
@@ -68,8 +69,15 @@ def read(src, ysfile, gap, lines):
             nb = []
             for txt, sc in beams:
                 for l, pen in cl[:3]:
-                    if len(l) != 1: continue
-                    nb.append((txt+l, sc+pen+clogp(txt[-(N-1):], l)))
+                    # Beam search over variable-length emissions is biased towards short ones:
+                    # a code group emitting eight characters pays eight characters of log-prob
+                    # while a letter pays one, although both consume exactly one figure. Offset it
+                    # with a per-character bonus at the model's average cost, so hypotheses that
+                    # consume the same number of figures are compared on equal terms.
+                    sc2 = sc + pen; c = txt
+                    for ch in l:
+                        sc2 += clogp(c[-(N-1):], ch) + CHAR_BONUS; c += ch
+                    nb.append((c, sc2))
             nb.sort(key=lambda x: -x[1])
             seen = set(); out = []
             for txt, sc in nb:

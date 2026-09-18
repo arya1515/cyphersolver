@@ -509,3 +509,39 @@ and a transcription error on either side shows up as a landmark that lands in th
 Also seen: an unmistakable **X** at box 21. Neither Tomokiyo's table nor anything recovered here
 has an x, and in a French plaintext x is rare enough that a figure standing plainly for it, in the
 middle of a line, is more likely a **null**. Worth testing once the coverage is complete.
+
+
+## Code groups decode in place, once the beam is made length-fair
+
+Adding three code exemplars (`52` = *plustost*, `14` = *que*, twice) did nothing at first, and the
+reason was a bug in the decoder rather than in the evidence. Beam search over variable-length
+emissions is biased towards short ones: a code group that emits eight characters pays eight
+characters of log-probability while a letter pays one, though **both consume exactly one figure**.
+The beam therefore always preferred a letter. Offsetting with a per-character bonus at the model's
+mean cost (`CHAR_BONUS = 1.6`) makes hypotheses that consume the same number of figures comparable.
+
+```
+line 2 (29 figures): ste f est a le rti de plustost que es sions ueue et
+   truth:            ste fust aduertie et  PLUSTOST QUE NOUS eussions uictoi
+
+line 3 (35 figures): re et conseil des sembler de castille bour
+   truth:            re et conseil d assembler de castillebourg
+```
+
+**`plustost que` comes out exact, in place, from the ink.** Line 3 is essentially right end to end;
+line 2 runs at roughly two thirds with the code groups correct.
+
+## Score at this point
+
+| | |
+|---|---|
+| exemplars | 79 figures |
+| letters covered | **17 of 22** — missing h, p, q, x, y, z |
+| code groups | 3 (`52`, `14`×2); `25` and the rest still to cut |
+| best line | f. 18r line 3, read end to end from figures alone |
+| pipeline | `readleaf.py` — segment, match, beam; no figure is ever named |
+
+The two things still between this and a read leaf were named earlier as *seven letters and the code
+groups*. The code groups are now demonstrated. Five letters remain, all rare, and they will come
+from crib lines containing *chose*, *pays*, *quelque*, *hommes* — f. 19r line 4, *"changera tant par
+les habitans de la ville qui estoient fort estonnez"*, carries h, p, q and z in one line.
