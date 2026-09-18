@@ -17,6 +17,7 @@
   "censorship manual steganograms, ww2": "2026-09-15",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
   "charles i, 1648": "2026-09-15",
+  "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
   "chinese gold bars, 1933": "2026-09-15",
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
@@ -103,7 +104,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "f5b7fe42c872",
+   "hash": "b9474e51e7f1",
    "updated": "2026-09-18"
   },
   "catinat1691": {
@@ -178,7 +179,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "a55bf5b68187",
+   "hash": "929e6287e93f",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -189,6 +190,11 @@
   "legation": {
    "first": "2026-09-18",
    "hash": "0c9be5496dc0",
+   "updated": "2026-09-18"
+  },
+  "lorraine1592": {
+   "first": "2026-09-18",
+   "hash": "54e3de0121ca",
    "updated": "2026-09-18"
   },
   "lucca": {
@@ -333,7 +339,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "7ded664ae780",
+   "hash": "80c0f621c94d",
    "updated": "2026-09-18"
   },
   "yard1699": {

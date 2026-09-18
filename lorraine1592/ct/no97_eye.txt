@@ -1,0 +1,45 @@
+# BnF fr. 3621 no. 97, f. 109 (Gallica canvas f227): "Coppie d'une lettre de Monsieur de
+# Lorraine a Monsieur de Vaudemont", 18 June 1592.
+# By-eye transcription of the ciphered portions, read from per-line crops lc/L{00..20}{a,b}.jpg
+# fetched from the IIIF region x=490+, y=980+ of the native 4046x5762 image, shear -0.031.
+#
+# One line per manuscript line. Tokens separated by spaces.
+# Figures (nomenclator) in angle brackets. Clear text in [[ ]]. Uncertain glyph suffixed ?
+#
+# GLYPH KEY (transcription token -> letterform seen)
+#   a b c d f g i l m n o q t v y   ordinary minuscule
+#   s = long s              r = the r/hook form        x = the looped x (ae-like)
+#   z = the 3-shaped z
+#   L = l with crossbar     T = t with crossbar        G = g with crossbar
+#   C = c with overbar      K = c with two dots under  N = n with two dots under
+#   J = n with descending tail   S = long s with overbar   O = o with mark above
+#   M = double m with overbar and underline
+#   W = lambda form         Y = gamma form             P = the pi form
+#   Q = alpha form          D = o with central dot     B = the beta-like b
+#   E = capital E           U = capital E with vertical bar   H = looped e
+#   F = capital H (crossed) V = small square with dot  Z = reversed 3
+#   A = the large X / doubled vertical   R = dagger form   p = p with barred descender
+#   j = the figure-4 form
+#   . : / - punctuation as written    # inked-out blot
+#
+L00 W D a i L t n c t g a s c a s a z t s c j W x z i y A n i c a n c i a c M q G B t G x q t G t f G c a r s G <139>
+L01 <57> T t c f t g y B q t y Q <98> E c r s c q t c i s c q t p? t J t n A x b o r z t J t J <141> m i g r a t S c i a c y
+L02 W q t <145> x i N a n c t o t c q t <122> <123> G b a r c s a t o n o t c F z G s a c a r s J j q N t J t x o i
+L03 T a t s c i a c <139> M P y t c i a o t J t s c t s G o t J W f y i a o t z t s c i z G q a c D <57> Z t c y t J q T
+L04 B g c t J q t E <98> x t C <139> s t z i s G T a t J i z t W D J t z i s q t o z i C a s i <141> J U f r s B s x R
+L05 a U n t s c y t a G n C t x z t y f r s c i s c t z t c c C G <139> Q a t s q r a J i G r a o y <137> M a y T c
+L06 . i G y q o i o L G y t o q t B v G q t s T T A x i K a C <141> J / Y s t <145> q t y i a n t s c U Q c r G c i x f r G
+L07 B P t c q t z G s a c a r C J t Z f H t G i G y B q # <121> G r j t c i G y c o t y f r z r q a c t J M [[p mand-]]
+L08 [[aussi si dieu nous fault la grace de prendre Chasteauvillain]] A Z n L <57> <145> E q t <31> s q t V Y y i B y i s t a
+L09 y c i G y q o i W P y t o t z t K o f <13> r L y x t C y G L T q a o t <139> z z t Q t n f o a o t J A x i c a C q t s ..
+L10 o t f T B G r a v o z r s # f r z i s q t z t c c Z M . s t B t a q i a r L y z t C o t y d G t y d d G a B r G o L f r z <31>
+L11 s q t o t c G r s J t o G t o y i B y i s t a d G i s c i s t <139> x f T G y B q t . <88> E t Q G r a t a c G t o y z r L y B r G o c i
+L12 a o t Y x B i n t v i t G y B G r J c r o y t n W P y t G o T J t n b o r z t N t n s T z T t D a s q G t a o r s c U T C o t r
+L13 y G z t s C M a t s T y t c t o i L y t C q t n z i a C c s i c r c a t G r G y q a o i L Z i B o t J y t K t f f C U q t -
+L14 f H i n c t i G a y i a s D x <145> s j c i a J t J q t o i z t s T o z r s i o z T q r r a c t J Y x d G i o c a t o J q t -
+L15 y i c i G y f H t Q : t c z t B o T i q G t o c a y i s C G G a r G o <139> <145> L B r G Z O t J i O a G t o a t <145> <31> s
+L16 q t v i L y t T f H t z a s D <139> C a t s q o t J U a y s T G r D G y x c i G y c B r G o c i s C c i a o t B i v r a n c o t i G y q
+L17 a n q t x W <88> <31> o t n r y G c a r s M <146> T a t s y t Z b t G q t z r a t s d T c n t f r g o n <139> <145> c o r z T n B i o q
+L18 t y i B r G o p i G i a s T o y t C t s H c q G q a s c r s f H i n c t i G a y i a C x i a s n L <139> y r s i G r a C U W B o r z a n x M
+L19 [[et de la ilz pourroient tascher de remedier, ou bien juger le peu de suiect qui me doibt occasionner]]
+L20 W n G o c t J t n B o r W z z t n i t J c i a o t U B i N t v o r G y C o T z i q a s c t x Y <103> T M . [[[dire] si munitions]]
