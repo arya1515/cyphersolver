@@ -657,12 +657,14 @@ the code group for *qui* near f. 18r line 8, box 26. Rendering that line's boxes
 
 * **box 29 carries a code group `14`** — three boxes later than predicted, inside the known drift,
   and *que* for *qui* is the clerk's latitude, not an error. **The prediction lands.**
-* **box 24 carries `82`.** Tomokiyo's nomenclature gives **82 = le Prince de Condé**.
+* box 24 carries a figure that **looks like** `82`, which Tomokiyo gives as *le Prince de Condé*.
 
-The second is the first piece of *content* this crib has yielded that is not already in the clear on
-f. 19: a code group naming Condé, in a despatch about the Guyenne siege, four boxes from a *qui*
-that the decipherment puts in the middle of *"les habitans de la ville qui estoient fort estonnez"*.
-Whatever f. 19 says at that point, the figure says **Condé**.
+> **Retracted as a finding (18 Sept).** This was reported as the crib's first piece of new content —
+> "a code group naming Condé". It was a claim about a *shape*. In this cipher digits are also
+> letter-figures (7 = o, 6 = i/n/s, 3 = e, 8 = g), so a digit-shaped pair is not thereby a code
+> group, and the plaintext at that point contains no Condé. Forced alignment of the same line (see
+> below) gives the box a letter. Condé may or may not be named in this despatch; this figure does not
+> show it. Kept here, struck, so the error is visible.
 
 It also adds a sixth landmark — `14`, `25`, `52`, `24`, `35`, `82` — and confirms that scanning a
 line for numerals is the cheapest way to find them, since they stand out among letter-shapes without
@@ -885,3 +887,40 @@ The lesson is general and worth keeping. Audits by similarity find exemplars tha
 ablation finds exemplars that *act* wrong, and those are not the same set — none of these three had
 been flagged. From here, every new batch is ablated letter by letter against the held-out lines
 before it is kept.
+
+
+## Two errors caught on line 8, one of them an earlier claim
+
+Line 8 aligned **31 boxes to 31 tokens, every one one-to-one**, against *"de la ville qui
+s'estoient fort estonnez"* — and delivered `31:z`, the missing *z*. Rendering the boxes showed both
+parts of that were wrong:
+
+1. **The *z* is the page edge.** Box 31 is not a figure; it is the dark gutter stripe at the line's
+   end. The aligner must consume every box, *z* was the last token, and the edge was the last box. The
+   "perfect" 31-for-31 was a coincidence of counts, with the edge padding the total. **A matching box
+   count is not evidence of a correct alignment** — only content is.
+2. **The Condé claim does not stand** (struck above): the "82"-shaped figure is at box 25, the aligner
+   reads it as a letter, and digit-shapes are letter-figures in this cipher.
+
+Nothing from line 8 is minted, and *z* is **not** in the set. The segmenter now drops page-edge
+stripes (tall, near-solid, at the end of a line) before anything is counted, since an edge that
+enters the box count will corrupt every alignment on that line, not just its last box.
+
+
+### The gutter filter, and what it turned up
+
+Measured on line 8, the stripe spans the **whole** band (80 of 80 px) at fill 0.33 and gray 129,
+where the tallest real figures (the long-s) reach about nine-tenths of the band at fill 0.15–0.20
+and gray ~170. The segmenter now drops any box that spans ≥ 97 % of the band at fill > 0.25. It
+drops one box on most lines of f. 18r, which is right: every line runs into the gutter.
+
+A scan of the existing set for crops near the right edge and dark found **one exemplar that was the
+gutter stripe**, labelled *s* — `f18r_l4anc_31_s.png`, the last box of line 4, carrying the last
+letter of *iauois* because it was the last box. Rejected. It had passed both the similarity audit
+and ablation, which is the reason to test for it directly: a stripe matches nothing well, so it
+drags nothing, so neither check notices it — but it corrupts the alignment of its own line.
+
+With the edge gone, line 8 aligns 30 boxes to 31 tokens and **the aligner still hands *z* to the
+last box**, now a wide merged figure that reads like "14 r". That says the plaintext tail given for
+line 8 is wrong, not that *z* is there: *fort estonnez* probably ends before the cipher line does.
+**z remains unobtained**, and the letters held are 18 of 22 — missing q, x, y, z.

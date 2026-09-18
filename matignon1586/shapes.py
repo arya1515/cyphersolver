@@ -29,6 +29,13 @@ def line_boxes(bw, y, half, gap):
         sub = band[:, x:z]
         rows = np.where(sub.sum(axis=1) > 0)[0]
         if not len(rows): continue
+        # page edge / gutter stripe: spans nearly the whole band and is nearly solid ink. It is not a
+        # figure, and letting it into the box count corrupts every alignment on the line.
+        # Measured on f. 18r line 8: the stripe spans the whole band (80/80) with fill 0.33, where
+        # the tallest real figures (long-s) reach ~0.9 of the band at fill ~0.15-0.2.
+        fill = sub.sum() / max(1, sub.size)
+        if (rows[-1] - rows[0] + 1) >= 0.97 * band.shape[0] and fill > 0.25:
+            continue
         out.append((x, z, int(max(0,y-half)+rows[0]), int(max(0,y-half)+rows[-1])+1))
     return out
 

@@ -888,18 +888,6 @@
   "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4anc_31_s.png",
-  "letter": "s",
-  "src": "f18r_l4anc",
-  "box": [
-   2817,
-   2892,
-   381,
-   461
-  ],
-  "crib": "anchored on l4 box25 = code 14 (que)"
- },
- {
   "file": "exemplars/f18r_l5anc_01_p.png",
   "letter": "p",
   "src": "f18r_l5anc",
