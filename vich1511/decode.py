@@ -37,6 +37,9 @@ CODE = {  # code groups -> words / syllables
     'heg': 'haveys', 'hes': 'lugar', 'pic': 'potencia', 'gno': 'bien', 'mye': 'papa', 'dox': 'duque',
     'dux': 'duque', 'dur': 'duque', 'fax': 'franceses', 'fuq': 'francia', 'gub': 'armas', 'sat': 'uno',
     'set': 'una', 'ged': 'amistad', 'di': 'cardenal', 'plu': 'ni', 'far': 'dar',
+    # from N.60 (1 Sep 1512)
+    'mar': 'mil', 'das': 'ducado', 'gib': 'franceses', 'maq': 'otro', 'pio': 'rey', 'fer': 'dio',
+    'sok': 'fiar',
 }
 
 def decode(tokens):

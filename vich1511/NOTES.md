@@ -34,7 +34,7 @@ One key serves N.41, N.45, N.46, N.52BIS, N.57 and N.60. It is a nomenclator:
   `fak` el, `hor` la, `has` lo, `raf` por, `rif` porque, `mix`/`mye` papa, `fef` emperador,
   `sap` venecianos, `fio` ferrara, `fuq` francia, `dur`/`dox` duque, `hib` guerra — and syllabic
   ones like `pob` si (in *si-t-io*), `flart` me (in *pri-me-ras*), `mik` no (in *me-no-r*).
-- Full list: `key.md`; machine-readable in `decode.py`; ~120 groups recovered.
+- Full list: `key.md`; machine-readable in `decode.py`; ~130 groups recovered.
 
 **How it was recovered.** N.46 and N.52BIS carry the clerk's decipherment on the following leaves.
 Lining the two up word by word gives the alphabet and the common groups; the readings of N.45, N.57
@@ -44,7 +44,7 @@ probably two similar signs that this transcription merges.
 
 ## What the three letters say
 
-**N.45 — Seville, 4 April 1511** (378 lines, ~7% still unread; `n45_pp*`). A long complaint against
+**N.45 — Seville, 4 April 1511** (378 lines, ~5% still unread; `n45_pp*`). A long complaint against
 Julius II and a set of instructions. Ferdinand is angry at the publication of the new cardinals, at the
 Pope absolving the Venetians and treating with them "sin dezirme ni comunicarme", at the priory of San
 Juan, and at the Pope's refusal to follow his counsel, from which followed *la rota* of the papal army.
@@ -54,7 +54,7 @@ with Venice in fief against tribute; Verona, Vicenza, Riva, Rovereto, Peschiera 
 enclosed letter of credence. He warns that France is offering him a separate perpetual alliance without
 the Emperor and that he will not take it, and that a rupture would wreck his crusade against the Moors.
 
-**N.57 — Burgos, 5 June 1512** (35 lines, ~8% unread; `n57_*`). The aftermath of **Ravenna**
+**N.57 — Burgos, 5 June 1512** (35 lines, ~7% unread; `n57_*`). The aftermath of **Ravenna**
 (11 April 1512). Ferdinand reconstructs how his army was pushed into battle: Vich's own letters, and
 the papal side, pressed the viceroy Ramón de Cardona, saying that **if they did not fight, the Pope
 would not meet the pay and would come to terms with France** — against Ferdinand's repeated written
@@ -64,12 +64,24 @@ would be *echar la soga tras el caldero*. Then: get the Pope and the Venetians t
 the Emperor's business to a conclusion, and **treat the Ferrara business secretly, "sin que la sienta
 el Papa"**, reporting back so he can give orders.
 
-**N.60 — Logroño, 1 September 1512** (432 lines, ~15% unread; `n60_pp*`). Written from the Navarre
-campaign. It opens on **the bulls for Navarre** that Vich had sent, and on the Pope acting "en
-quebrantamiento de lo que tiene asentado" with him; Ferdinand fears the design will end with the French
-king "tornar a apoderarse de Italia". The bulk is again the **Emperor–Venice peace**: Vicenza, raising
-the Venetian tribute, what the Emperor keeps, and how far Ferdinand will go as guarantor; plus Ferrara,
-a cardinal's business, and instructions to keep pressing on both fronts at once.
+**N.60 — Logroño, 1 September 1512** (432 lines, ~14% unread; `n60_pp*`). Written from the Navarre
+campaign, and the sharpest of the three. It opens on **the bulls for Navarre** that Vich had sent, and on
+the Pope acting "en quebrantamiento de lo que tiene asentado" with him. Then:
+
+- **The Emperor–Venice peace**, again, and urgently: give way over Vicenza if Venice raises the tribute;
+  "que se abrevie la conclusión"; if it drags, the Emperor will despair of the League and tie himself to
+  France for good, since everything the Emperor has done "ha sido por las promesas que yo le he hecho".
+- **Spiritual war on Louis XII.** Ferdinand wants the Pope to use "las armas espirituales": to deprive
+  the king of his crown, of **Guyenne and Normandy** — assigning them to England — as a "príncipe fautor
+  y receptador de cismáticos y heréticos", to absolve his provinces and subjects from obedience, and to
+  grant crusade bulls against him; citing precedents against the Emperor Frederick and King Pedro. He
+  asks for the bull of Guyenne and Normandy to be sent to him.
+- **Money and Milan.** Pensions to hold an Italian power steady: twenty thousand ducats a year from the
+  Pope and Venice, twenty thousand more from another party, as much again from Ferdinand — fifty
+  thousand in all, "y no se olvide de aqueste artículo, que es muy sustancial".
+- **Ferrara after Milan.** If the Pope insists on starting with Ferrara, Vich is to insist on finishing
+  the French in the state of Milan first, "que esto es lo que cumple a su bien y a Italia"; and on a
+  mutual-defence arrangement so that each member of the League is secured in its Italian state.
 
 **Checks.** The key was built from N.46 and N.52BIS alone and then read three letters it was not built
 from. Each letter's place and date come out of the clear-text subscription and match the catalogue
@@ -101,7 +113,7 @@ crib or a sibling. Its clear text: docket "a 26 de octubre 1515", opening "videl
 
 ## Open
 
-- ~7–15% of groups per letter still unread; the untouched decipherments (N.41 and the three in 8714)
+- ~5–15% of groups per letter still unread; the untouched decipherments (N.41 and the three in 8714)
   would close most of them.
 - The q = m/a sign split, and `plart`/`plort`, want a careful re-reading against the images.
 - N.73 (1515) needs a different approach.

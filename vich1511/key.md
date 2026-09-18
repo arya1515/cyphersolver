@@ -2,8 +2,7 @@
 
 Recovered by aligning N.46 (5 Jul 1511) and N.52BIS (1 Mar 1512) with the clerk decipherments
 filed with them, then extended from the readings of N.45, N.57 and N.60.
-Glyph labels are the ASCII names used in the transcriptions (legend at the head of
-`n57_transcription.txt`).
+Glyph labels are the ASCII names used in the transcriptions (legend at the head of each).
 
 ## Alphabet (homophonic)
 
@@ -38,11 +37,13 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 |---|---|
 | `&` | · |
 | `dai` | como |
+| `das` | ducado |
 | `day` | direys |
 | `daz` | dize |
 | `dee` | general |
 | `dex` | deve |
 | `dez` | dezir |
+| `di` | cardenal |
 | `die` | cosa |
 | `dieb` | cosas |
 | `dih` | con |
@@ -51,17 +52,22 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `diz` | de |
 | `doh` | contra |
 | `dot` | dos |
+| `dox` | duque |
 | `dur` | duque |
+| `dux` | duque |
 | `fac` | dichas |
 | `fae` | dicha |
 | `fak` | el |
 | `fan` | en |
 | `far` | dar |
 | `fat` | forma |
+| `fax` | franceses |
 | `fef` | emperador |
+| `feh` | estado |
 | `fem` | es |
 | `fen` | esto |
 | `fep` | hazer |
+| `fer` | dio |
 | `fib` | febrero |
 | `fic` | del |
 | `fid` | despues |
@@ -75,22 +81,28 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `fol` | ellas |
 | `foo` | ducados |
 | `fop` | hecho |
+| `fos` | deseo |
 | `fub` | daño |
 | `fud` | dicho |
 | `fue` | saber |
 | `fug` | señor |
 | `fuj` | exercito |
 | `fun` | esta |
+| `fuq` | francia |
 | `fur` | dela |
 | `gab` | assi |
 | `gaf` | aqui |
 | `gak` | aquella |
+| `ged` | amistad |
+| `gib` | franceses |
 | `gik` | agora |
+| `gno` | bien |
 | `go` | aunque |
 | `gol` | alguna |
 | `gor` | venir |
 | `gos` | ciudad |
 | `goy` | cartas |
+| `gub` | armas |
 | `guj` | esto |
 | `guo` | bien |
 | `gup` | batalla |
@@ -104,6 +116,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `heh` | ha |
 | `hel` | ingalaterra |
 | `hep` | julio |
+| `hes` | lugar |
 | `hib` | guerra |
 | `hig` | haver |
 | `hih` | ha |
@@ -118,6 +131,8 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `mag` | otro |
 | `mah` | dezir |
 | `mak` | napoles |
+| `maq` | otro |
+| `mar` | mil |
 | `mee` | muy |
 | `mef` | manera |
 | `mem` | nro |
@@ -128,16 +143,22 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `moe` | mucho |
 | `mok` | nos |
 | `mul` | negocio |
+| `mum` | ninguna |
+| `mye` | papa |
 | `myk` | no |
+| `ob` | ga |
 | `pag` | quales |
 | `par` | recebido |
 | `pax` | su |
 | `pef` | que |
 | `peh` | quiere |
+| `pic` | potencia |
 | `pid` | presa |
+| `pio` | rey |
 | `pip` | razon |
 | `plart` | mi |
-| `plort` | mi |
+| `plort` | al |
+| `plu` | ni |
 | `plut` | ni |
 | `pob` | si |
 | `poj` | rey |
@@ -150,10 +171,13 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `rug` | parte |
 | `sal` | todo |
 | `sap` | venecianos |
+| `sat` | uno |
 | `seg` | viene |
 | `seh` | se |
 | `sel` | todo |
-| `sod` | sera |
+| `set` | una |
+| `sod` | ser |
+| `sok` | fiar |
 | `soq` | verdad |
 | `soy` | yo |
 | `sub` | vras |
@@ -161,4 +185,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `sus` | um |
 | `suy` | ia |
 
-124 groups recovered so far. Groups still unread print in [brackets] in the decodes.
+149 groups recovered. Groups still unread print in [brackets] in the decodes.
+
+Known traps: `fug` senor vs `fuq` Francia; `plart` mi vs `plort` al; the barred q is m in
+most places but a in a few; in N.60 a tailed 8-sign reads i/j where N.57 labels it b.
