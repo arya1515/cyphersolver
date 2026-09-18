@@ -1,27 +1,34 @@
 # Partial key of the Sormano cipher, BnF fr. 3096 (Ferrara, 1529)
-# Glyphs are described in words because the shapes have no stable Unicode equivalents.
-# "crib 67" = the four-line cipher on f. 124r deciphered in the margin by a contemporary hand.
-# "gloss 62" = the interlinear decipherment on f. 113r.
-# Status: firm = fixed by two or more independent occurrences in a crib; provisional = one occurrence only.
-glyph_description	approx	value	status	evidence
-tau, plain capital T	T	u	firm	crib 67 "un"; gloss 62 "de un capitaneo"
-pi, capital	n1	n	firm	crib 67 "un", "capitaneo", "nominato" (twice)
-closed triangle, apex up	D	c	firm	crib 67 + gloss 62 "capitaneo"
-capital V	V	a	firm	gloss 62 / crib 67 "capitaneo"
-figure-6 with closed loop	b6	p	firm	gloss 62 / crib 67 "capitaneo"
-rho with descender	p1	i	firm	"capitaneo"; "fanti"(?) ; "nominato" context
-chi / x	X	t	firm	"capitaneo", "nominato"
-upsilon / round u	u1	a	firm	"capitaneo", "nominato"
-figure-4 with hooked foot	y4	e	firm	"capitaneo"
-plain vertical stroke (like 1)	i1	o	firm	"capitaneo", "nominato"
-capital pi with squared shoulders	P2	o	provisional	"nominato" (first o)
-g with crossed tail	gb	m	firm	"nominato"
-psi / Y	Y	i	firm	"nominato"
-reversed E	E2	s	provisional	crib 67 line 1 final "sui"
-alpha	a1	u	provisional	crib 67 line 1 final "sui"
-q with tail	q1	i	provisional	crib 67 line 1 final "sui"
-small square / box	box	f	provisional	crib 67 line 3, reading "fanti"
-# Structural signs (not letters)
-double-crossed vertical stroke	tie	-	firm	heads the cipher run on f. 124r and the margin note that deciphers it; a reference mark, not a letter
-circle with central dot	circ	-	firm	stands at the ends of cipher runs in nos. 65, 66, 67; a stop or section mark
-two glyphs glossed "de Venetiani"	-	Venetiani	firm	f. 116v, contemporary interlinear gloss: the cipher carries a nomenclator group for the Venetians
+# Glyphs are described in words: the shapes have no stable Unicode equivalents.
+# Evidence: "L1" = line 1 of the four-line cipher on f. 124r, read glyph by glyph from crops/z128_L1exact.jpg
+#   against the contemporary marginal decipherment, which gives "un capitaneo sui" for those 13 glyphs.
+#   "L2" = line 2 of the same run, giving "...eri nominato" (crops/z128_L2start.jpg, z128_L2b1.jpg).
+#   "g62" = the interlinear decipherment on f. 113r, which spells the same word "capitaneo".
+# Confidence: firm = same value in two independent lines or letters; good = one clean occurrence.
+glyph_description	value	confidence	evidence
+pi (two legs, flat top)	n	firm	L1 twice ("un", "capitaneo"), L2 twice ("nominato"), g62
+closed triangle, apex up	c	firm	L1 "capitaneo", g62 "capitaneo"
+capital V	a	good	L1 "capitaneo" (first a)
+round u (upsilon)	a	firm	L1 "capitaneo" (second a), L2 "nominato"
+figure-6 with closed loop	p	good	L1 "capitaneo", g62
+rho / p with long descender	i	good	L1 "capitaneo"
+chi / x	t	firm	L1 "capitaneo", L2 "nominato"
+figure-4 with hooked foot	e	good	L1 "capitaneo"
+plain vertical stroke (like 1)	o	firm	L1 "capitaneo", L2 "nominato"
+reversed E	s	good	L1 "sui"
+alpha	u	good	L1 "sui"
+figure-4 with tail	i	good	L1 "sui"
+figure-7 / gamma	e	good	L2 "...eri"
+Q with tail	r	good	L2 "...eri"
+b / 5 with descender	i	good	L2 "...eri"
+L+I ligature	o	good	L2 "nominato"
+g with crossed tail	m	good	L2 "nominato"
+psi / Y	i	good	L2 "nominato"
+# Structure established
+# Homophones: a = V and round-u; i = rho, 4-with-tail, b-with-descender, psi; o = stroke and L+I; e = 4-hooked and 7.
+#   Three or four alternatives for each common vowel, one or two for consonants.
+# double-crossed vertical stroke	-	firm	heads the cipher on f. 124r and the margin note that deciphers it: a tie mark, not a letter
+# circle with central dot	-	firm	ends cipher runs in nos. 65, 66, 67: a stop or section mark
+# two glyphs glossed "de Venetiani"	Venetiani	firm	f. 116v interlinear gloss: the cipher had a nomenclator
+# Unresolved: at least two rho-like forms must be distinguished (one = i, one = l), and the
+#   triangle/alpha, chi/4-hooked and stroke/4-with-tail pairs are not separable on this microfilm.

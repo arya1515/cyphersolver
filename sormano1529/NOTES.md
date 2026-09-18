@@ -81,17 +81,24 @@ of the Urbino letter ("Mando ancora a vra un doppio d'una lra la qual scrivo al 
 
 ## 3. The partial key
 
-`key_partial.tsv` lists 17 glyph values with the evidence for each, 13 of them fixed by two or more
-independent occurrences. The chain is: the interlinear gloss on f. 113r and the first line of the crib on
-f. 124r both spell *capitaneo*, giving c, a, p, i, t, a, n, e, o and (from *un*) u; the second line of the
-crib then spells *nominato* with the same glyphs for n, a, t, o and adds o, m, i. That the two letters,
-written five weeks apart, use the same glyphs for the same letters is the check that the key is real.
+`key_partial.tsv` gives 18 glyph values with the evidence for each. The chain is short and checkable:
 
-What is **not** recovered: the full homophone set. Beyond line 1 and the word *nominato* the crib would
-not align consistently under my transcription — at least two visually similar triangular glyphs and
-several similar "3 / reversed-E / z" forms are not reliably separable on this microfilm at the
-magnification available, and a value read as *c* in one line is demanded as *z* in the next, which cannot
-both be true. That is a transcription problem, not a cipher problem, and it is where this attempt stopped.
+* **Line 1 of the f. 124r crib is read glyph by glyph.** At high magnification (`crops/z128_L1exact.jpg`)
+  it is exactly 13 glyphs, and the marginal decipherment gives exactly 13 letters for them,
+  "n capitaneo sui" (the tie mark and the *u* of *un* falling outside the segmented range). That fixes
+  n, c, a, p, i, t, a, n, e, o, s, u, i on twelve distinct glyphs.
+* **Line 2 then confirms four of them independently.** Its opening reads "...eri nominato"
+  (`crops/z128_L2start.jpg`), and *nominato* is spelled with the same glyphs for n, a, t and o that line 1
+  gives, five words later and in a different word. It adds e, r, i, o, m, i.
+* The interlinear gloss on f. 113r spells *capitaneo* with the same glyphs again, five weeks earlier.
+
+The cipher's design is therefore clear: a homophonic symbol alphabet with three or four alternatives for
+each common vowel (a has at least two forms, i at least four, o two, e two) and one or two for consonants.
+
+**Where it stops.** Line 2 continues with nine glyphs that the crib says must spell *calzolite*, and two
+of those positions demand *l* where the same shapes elsewhere demand *i*. So the hand uses at least two
+rho-like forms that this microfilm will not separate, and the same is true of the triangle/alpha,
+chi/hooked-4 and stroke/tailed-4 pairs. That is the wall: not the cipher, but the image.
 
 ## 4. What the letters say, from the clear text alone
 
@@ -136,41 +143,44 @@ copies. The clear text gives only "so great and honoured an offer", the request 
 insistence that the King would require nothing but what was reasonable. The content of the offer is not
 read here, and I found no evidence for it in these leaves.
 
-## 5. The glyph pipeline: segmentation works, shape matching does not
+## 5. The glyph pipeline: what it does and where it fails
 
-Because no imaging libraries are installed, the pipeline was built in pure Python: `sips -s format bmp`
-writes an uncompressed 24-bit BMP, which `glyphs.py` parses directly. `glyphs.py` does thresholding,
-8-connected components and features; `glyphs2.py`/`glyphs3.py` add band detection from the horizontal ink
-profile and merging of vertically stacked fragments; `glyphs4.py` does average-linkage agglomerative
-clustering on normalised binary masks; `align.py` aligns a cluster sequence to a known plaintext by
-iterated Needleman-Wunsch and reads off the key.
-
-Run on the four-line crib of f. 124r (`./zoom.sh 128 4980 950 3650 560 cribfull 3650`), the results are:
+No imaging libraries are installed, so the pipeline is pure Python: `sips -s format bmp` writes an
+uncompressed BMP and `glyphs.py` parses it. `glyphs2/3.py` add band detection from the horizontal ink
+profile; `clean.py` drops edge artefacts, splits run-together glyphs at vertical profile minima and
+absorbs stray fragments; `glyphs6.py` holds the shape metric; `solve.py` and `align.py` derive a key from
+a crib. On the four-line crib of f. 124r the results are:
 
 | step | result |
 |---|---|
-| ink threshold | Otsu picks 153, which is paper; 130 is right, the paper floor being visible in the profile |
-| text bands | 4 found, at y 34–75, 168–213, 310–352, 458–502: exactly the four cipher lines |
-| components per line | 17, 48, 47, 53 = **165**, against **161** letters in the marginal decipherment |
-| shape clustering | fails |
+| ink threshold | Otsu returns 153, which is paper; 130 is right |
+| text bands found | 4 of 4, at y 34–75, 168–213, 310–352, 458–502 |
+| components after cleanup | 13, 48, 45, 55 = **161**, against **161** letters in the decipherment |
+| line 1 against the crib | 13 components, 13 letters, read correctly glyph by glyph |
+| shape classification | fails: 26 % on line 2 from line 1 templates, 40 % under blind clustering |
 
-The segmentation is therefore good enough: the line detection is exact and the component count is within
-about 3 % of the letter count, which independently confirms that the cipher is letter-for-letter. The
-clustering is what fails. Aligned against the known plaintext, the best mapping is consistent for only
-62 of 160 aligned positions (39 %), and single clusters absorb up to 29 glyphs spread over 12 different
-letters.
+The segmentation is sound, and the fact that cleanup lands on 161 components for 161 letters is itself
+independent proof that the cipher is letter-for-letter with no syllable groups in this passage.
 
-The cause is measured, not guessed. On line 1, whose reading is known by eye (tie mark, then
-u n c a p i t a n e o s u i), the pairwise Jaccard distance between normalised 16 × 16 masks is 0.41–0.50
-for the closest pairs and 0.60–0.83 for unrelated ones. Same-letter pairs are therefore only marginally
-closer than different-letter pairs, and no threshold separates them. Bounding-box normalisation plus
-ink-density masks is too crude for this hand at microfilm resolution: stroke weight, the slant, and broken
-or touching strokes dominate the distance.
+**The shape metric was tuned, measured, and is still not good enough.** Binary overlap (Jaccard) on a hand
+this thin fails outright: a one-pixel offset destroys the overlap, and on line 1 it ranked wrong pairs as
+the closest. Blurring the mask before comparing fixes the gross failure. Sweeping grid size, aspect
+handling and blur against line 1, where every glyph identity is known, the best variant is a 24 x 24
+stretched mask, one box-blur pass, cosine distance minimised over shifts of +/- 2 cells: it makes the one
+true repeated pair on that line (the two *n*'s) the global minimum, at 0.122 against a nearest wrong pair
+at 0.139. But that margin is 0.017, and the median pair distance is only 0.41. Same-glyph and
+different-glyph distances overlap heavily, so clustering 161 glyphs into about 30 groups is mostly wrong,
+and a classifier trained on line 1 reads line 2 at 26 %.
 
-What would fix it, in order of likely payoff: stroke thinning and shape-context or Zernike features rather
-than raw masks; translation- and slant-tolerant matching; supervised templates seeded from the two
-contemporary decipherments instead of blind clustering; and, above all, better images than a 1960s
-microfilm. None of that was attempted here.
+The confusions are specific and they are the ones a human eye also fails on here: two rho-like forms
+(i against l), triangle against alpha, chi against hooked-4, plain stroke against tailed-4. Some are
+harmless, because the two forms encode the same letter (V and round-u are both *a*), and some are fatal.
+
+What would remove the wall, in order: better images, since 50–60 pixels per glyph on a 1960s microfilm is
+the binding constraint and the IIIF service serves no more than the film holds; then stroke-based features
+(skeleton, junctions, shape context) instead of blurred masks; then joint decoding, using the
+self-cribbing pair's long known plaintexts and Italian letter statistics to constrain the assignment
+rather than deciding each glyph on shape alone.
 
 ## 6. What remains, and the route
 
