@@ -42,3 +42,32 @@ score collapses every figure onto `i`, which is exactly what the first run did.
 Two changes fix it: drop Roman-numeral tokens when building the model, and require a context to be
 attested at least 15 times before it is used (a stray eight occurrences of `iiiii` were doing the
 damage). Now: French −1.51, a page of `i` −2.16, random letters −3.99.
+
+## A crib for the second cipher: f. 79r's margin
+
+f. 79r (canvas 85 right) is Mayenne's own letter — *"Du camp de Tonneins ce v.e mars 1586"*, signed
+**Charles de Lorraine** — and it carries a seven-line cipher block inside the clear text with **its
+decipherment written down the left margin**. The margin's line-openings are lost in the binding, but
+what survives reads:
+
+> … ne paroistra pour … campagne … avant … plustost que **Janvier** … **recouvrement** [des]
+> **places** … aussy, et y **rafraischir** … **l'armée sur la fin de l'automne. Je pouray mettre en
+> liberté** … **la Rouergue et la Quercy**, qui e[st] … **fruict** que je [pré]tends … **vous
+> pourrez attendre** … ceste **année**.
+
+**The anchor.** Of the crib words, *rouergue* has a distinctive repeat structure — r·o·u·e·r·g·u·e,
+i.e. the pattern X Y Z W X V Z W. Searched against the block's 244 figures it has **exactly one
+match**, at position 133:
+
+```
+4+  6  h  e  4+  B  h  e
+r   o  u  e  r   g  u  e
+```
+
+So in this cipher `4+`=r, `6`=o, `h`=u, `f`=e, `B`=g — and none of those agree with the solved
+Cipher-1, where `4+`=m and `h`=e. That is independent proof, from a crib rather than from
+statistics, that the second cipher is a different key.
+
+Five letters are not a solution. What they are is the start of one, and the method that produced
+them — pattern-matching a rare word shape against the figure stream — is the method that will
+produce the rest as more of the margin is recovered.
