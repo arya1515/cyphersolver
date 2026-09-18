@@ -237,3 +237,30 @@ landmarks in a row; line 3, on this transcription, contains none that I can plac
 
 That is the procedure to implement next, and it is mechanical: find the landmarks, anchor, label
 between them.
+
+
+## `align.py`: landmark alignment, with a built-in quality check
+
+Written to do the cumulative alignment above. It pairs each code figure with the next matching word
+in the plaintext, which re-synchronises the streams, and reports for each stretch between landmarks
+the figure count, the letter count, and **the ratio between them**. That ratio is the check: a
+homophonic cipher with occasional doubled figures should run at roughly 0.9–1.0 figures per letter,
+so a stretch that comes out near 1.0 is correctly transcribed and ready to label, and one that
+does not is flagged before any labelling is done on it.
+
+First run, over the figures transcribed so far:
+
+```
+figures 80  letters 128  landmarks 4
+  figs (1,26)   n= 25   letters n= 23   ratio=0.92   samaiestefustaduertieet
+  figs (29,80)  n= 51   letters n= 87   ratio=1.71   eussionsuictoireetconseildassembler...
+```
+
+The first stretch — *sa maieste fust aduertie et*, 25 figures for 23 letters — is clean, which
+independently confirms the hand-labelling done on line 2 above. The second is at 1.71, i.e. about
+35 figures short: the segmenter has merged boxes there, exactly as the `MULTI` flags on line 2
+suggested it would. So the tool does not just anchor, it says which stretches can be trusted.
+
+**This is the piece that was missing.** Mining no longer depends on my judgement about where I am
+in the text: the landmarks fix position, the ratio audits the transcription, and only stretches
+that pass get labelled.
