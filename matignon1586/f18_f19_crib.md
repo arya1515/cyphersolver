@@ -697,3 +697,45 @@ The landmark positions already computed give the check for that re-reading: `52`
 f. 19r line 1, `14` again 13 figures past *feist* in line 2, `35` in line 3, `82` (**le Prince de
 Condé**) and `14` in line 4. Any transcription that does not put those words at those figure counts
 is wrong somewhere, and the count says roughly where.
+
+
+## The exemplar audit catches a bad batch — and the fix exposes over-segmentation
+
+**f. 19r line 2 re-read at eight tiles** gives a firm tail: *"…de Castillebourg où l'on feist que
+**j'avois** plus d'**instructions**"*. Not *je n'avois*; no dropped phrase at all. So the
+thirteen-figure discrepancy was never in the plaintext — it was in my labelling of the cipher.
+
+**The audit found it.** For each exemplar, take its nearest look-alike on a *different* line and ask
+whether they carry different letters. Some disagreement is the background — the figures really are
+confusable — and on the carefully anchored lines 2 and 3 it ran at 40–50 %. The "goulonfeist" batch
+from line 4 ran at **82 %**: nine of eleven. It had been built on the wrong line start, and it had
+also been producing a **circular** match — line 4 "reading" *ou lon feis* only because those very
+exemplars were cut from line 4 with those labels.
+
+Rejected it, plus the two batches downstream of the *je n'avois* misreading (35 exemplars in all,
+moved to `exemplars/rejected/`), and re-anchored on the one hard fact — **line 4 box 25 is code
+`14`, the *que* after *feist*** — reading backwards and forwards from it. With 110 exemplars the
+background has risen to about 60 % (more exemplars, more look-alikes), and the batches now sit
+level:
+
+| batch | disagreement |
+|---|---|
+| line 2 (hand-anchored) | 61 % |
+| line 3 (hand-anchored) | 60 % |
+| line 4 (re-anchored on `14`) | 63 % |
+| line 5 (re-anchored on `14`) | 59 % |
+
+Uniform, where before one batch stood out. That is the best evidence available that the
+re-anchored labels are right.
+
+### What the anchor exposes
+
+Reading backwards from box 25, line 4 must open *e castillebourg…*, so line 3 must **end** at
+*…d'assembler d*. Line 3 therefore carries *re et conseil d'assembler d* — **22 figures of
+plaintext. At gap 14 the segmenter gives it 35 boxes.** At gap 18 it gives 24.
+
+So line 3 is over-segmented, and the gap calibrated on line 2 is not universal: the hand widens and
+narrows from line to line, and so does the right gap. The landmark gives the fix — every stretch
+between two code groups has a known figure count, and the gap for that line is whatever makes the
+boxes match it. Line 3's exemplars were cut at the wrong gap and are suspect despite auditing at
+background, and they should be re-cut before anything else is mined.

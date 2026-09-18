@@ -780,138 +780,6 @@
   "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
  },
  {
-  "file": "exemplars/f18r_l4g14_01_g.png",
-  "letter": "g",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   115,
-   248,
-   381,
-   448
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_02_o.png",
-  "letter": "o",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   272,
-   385,
-   389,
-   461
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_03_u.png",
-  "letter": "u",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   409,
-   450,
-   381,
-   446
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_04_l.png",
-  "letter": "l",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   489,
-   498,
-   402,
-   450
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_05_o.png",
-  "letter": "o",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   513,
-   585,
-   398,
-   457
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_06_n.png",
-  "letter": "n",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   600,
-   650,
-   381,
-   446
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_07_f.png",
-  "letter": "f",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   666,
-   714,
-   396,
-   442
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_08_e.png",
-  "letter": "e",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   729,
-   859,
-   384,
-   461
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_09_i.png",
-  "letter": "i",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   874,
-   903,
-   398,
-   447
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_10_s.png",
-  "letter": "s",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   930,
-   957,
-   381,
-   441
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
-  "file": "exemplars/f18r_l4g14_11_t.png",
-  "letter": "t",
-  "src": "f18r line 4 (gap 14)",
-  "box": [
-   992,
-   1072,
-   381,
-   461
-  ],
-  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
- },
- {
   "file": "exemplars/CODE_l2_16_plustost.png",
   "letter": "plustost",
   "src": "f18r l2 box16 = code 52",
@@ -948,291 +816,567 @@
   "crib": "code group"
  },
  {
-  "file": "exemplars/f18r_l4g14_26_i.png",
+  "file": "exemplars/f18r_l4anc_01_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   115,
+   248,
+   381,
+   448
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_02_c.png",
+  "letter": "c",
+  "src": "f18r_l4anc",
+  "box": [
+   272,
+   385,
+   389,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_03_a.png",
+  "letter": "a",
+  "src": "f18r_l4anc",
+  "box": [
+   409,
+   450,
+   381,
+   446
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_04_s.png",
+  "letter": "s",
+  "src": "f18r_l4anc",
+  "box": [
+   489,
+   498,
+   402,
+   450
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_05_t.png",
+  "letter": "t",
+  "src": "f18r_l4anc",
+  "box": [
+   513,
+   585,
+   398,
+   457
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_06_i.png",
   "letter": "i",
-  "src": "f18r l4",
+  "src": "f18r_l4anc",
+  "box": [
+   600,
+   650,
+   381,
+   446
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_07_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   666,
+   714,
+   396,
+   442
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_08_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   729,
+   859,
+   384,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_09_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   874,
+   903,
+   398,
+   447
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_10_b.png",
+  "letter": "b",
+  "src": "f18r_l4anc",
+  "box": [
+   930,
+   957,
+   381,
+   441
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_11_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   992,
+   1072,
+   381,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_12_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
+  "box": [
+   1090,
+   1145,
+   399,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_13_r.png",
+  "letter": "r",
+  "src": "f18r_l4anc",
+  "box": [
+   1173,
+   1222,
+   381,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_14_g.png",
+  "letter": "g",
+  "src": "f18r_l4anc",
+  "box": [
+   1252,
+   1357,
+   409,
+   447
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_15_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   1377,
+   1431,
+   381,
+   448
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_16_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
+  "box": [
+   1453,
+   1504,
+   403,
+   445
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_17_l.png",
+  "letter": "l",
+  "src": "f18r_l4anc",
+  "box": [
+   1523,
+   1611,
+   385,
+   453
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_18_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
+  "box": [
+   1627,
+   1680,
+   413,
+   452
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_19_n.png",
+  "letter": "n",
+  "src": "f18r_l4anc",
+  "box": [
+   1712,
+   1744,
+   414,
+   459
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_20_f.png",
+  "letter": "f",
+  "src": "f18r_l4anc",
+  "box": [
+   1768,
+   1827,
+   403,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_21_e.png",
+  "letter": "e",
+  "src": "f18r_l4anc",
+  "box": [
+   1862,
+   1916,
+   418,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_22_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
+  "box": [
+   1936,
+   1988,
+   417,
+   454
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_23_s.png",
+  "letter": "s",
+  "src": "f18r_l4anc",
+  "box": [
+   2028,
+   2054,
+   415,
+   458
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_24_t.png",
+  "letter": "t",
+  "src": "f18r_l4anc",
+  "box": [
+   2089,
+   2130,
+   416,
+   461
+  ],
+  "crib": "anchored on l4 box25 = code 14 (que)"
+ },
+ {
+  "file": "exemplars/f18r_l4anc_26_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
   "box": [
    2373,
    2532,
    405,
    461
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4g14_27_e.png",
-  "letter": "e",
-  "src": "f18r l4",
+  "file": "exemplars/f18r_l4anc_27_a.png",
+  "letter": "a",
+  "src": "f18r_l4anc",
   "box": [
    2549,
    2575,
    409,
    461
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4g14_28_n.png",
-  "letter": "n",
-  "src": "f18r l4",
+  "file": "exemplars/f18r_l4anc_28_u.png",
+  "letter": "u",
+  "src": "f18r_l4anc",
   "box": [
    2590,
    2602,
    438,
    461
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4g14_29_a.png",
-  "letter": "a",
-  "src": "f18r l4",
+  "file": "exemplars/f18r_l4anc_29_o.png",
+  "letter": "o",
+  "src": "f18r_l4anc",
   "box": [
    2625,
    2694,
    381,
    461
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4g14_30_u.png",
-  "letter": "u",
-  "src": "f18r l4",
+  "file": "exemplars/f18r_l4anc_30_i.png",
+  "letter": "i",
+  "src": "f18r_l4anc",
   "box": [
    2719,
    2776,
    390,
    442
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l4g14_31_o.png",
-  "letter": "o",
-  "src": "f18r l4",
+  "file": "exemplars/f18r_l4anc_31_s.png",
+  "letter": "s",
+  "src": "f18r_l4anc",
   "box": [
    2817,
    2892,
    381,
    461
   ],
-  "crib": "f19r \"que ie nauois\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_01_i.png",
-  "letter": "i",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_01_p.png",
+  "letter": "p",
+  "src": "f18r_l5anc",
   "box": [
    82,
    169,
    509,
    589
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_02_s.png",
-  "letter": "s",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_02_l.png",
+  "letter": "l",
+  "src": "f18r_l5anc",
   "box": [
    209,
    309,
    520,
    577
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_03_p.png",
-  "letter": "p",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_03_u.png",
+  "letter": "u",
+  "src": "f18r_l5anc",
   "box": [
    339,
    429,
    509,
    589
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_04_l.png",
-  "letter": "l",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_04_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
   "box": [
    466,
    511,
    519,
    555
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_05_u.png",
-  "letter": "u",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_05_d.png",
+  "letter": "d",
+  "src": "f18r_l5anc",
   "box": [
    541,
    579,
    509,
    554
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_06_s.png",
-  "letter": "s",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_06_i.png",
+  "letter": "i",
+  "src": "f18r_l5anc",
   "box": [
    600,
    635,
    510,
    559
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_07_d.png",
-  "letter": "d",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_07_n.png",
+  "letter": "n",
+  "src": "f18r_l5anc",
   "box": [
    671,
    733,
    520,
    545
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_08_i.png",
-  "letter": "i",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_08_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
   "box": [
    760,
    802,
    509,
    554
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_09_n.png",
-  "letter": "n",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_09_t.png",
+  "letter": "t",
+  "src": "f18r_l5anc",
   "box": [
    832,
    904,
    509,
    567
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_10_s.png",
-  "letter": "s",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_10_r.png",
+  "letter": "r",
+  "src": "f18r_l5anc",
   "box": [
    936,
    1019,
    509,
    578
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_11_t.png",
-  "letter": "t",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_11_u.png",
+  "letter": "u",
+  "src": "f18r_l5anc",
   "box": [
    1037,
    1120,
    509,
    565
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_12_r.png",
-  "letter": "r",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_12_c.png",
+  "letter": "c",
+  "src": "f18r_l5anc",
   "box": [
    1147,
    1457,
    517,
    589
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_13_u.png",
-  "letter": "u",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_13_t.png",
+  "letter": "t",
+  "src": "f18r_l5anc",
   "box": [
    1475,
    1518,
    522,
    570
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_14_c.png",
-  "letter": "c",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_14_i.png",
+  "letter": "i",
+  "src": "f18r_l5anc",
   "box": [
    1538,
    1651,
    509,
    569
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_15_t.png",
-  "letter": "t",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_15_o.png",
+  "letter": "o",
+  "src": "f18r_l5anc",
   "box": [
    1671,
    1728,
    539,
    567
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_16_i.png",
-  "letter": "i",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_16_n.png",
+  "letter": "n",
+  "src": "f18r_l5anc",
   "box": [
    1750,
    2105,
    509,
    584
   ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  },
  {
-  "file": "exemplars/f18r_l5g14_17_o.png",
-  "letter": "o",
-  "src": "f18r l5",
+  "file": "exemplars/f18r_l5anc_17_s.png",
+  "letter": "s",
+  "src": "f18r_l5anc",
   "box": [
    2120,
    2216,
    539,
    589
   ],
-  "crib": "f19r \"plus dinstruction\""
- },
- {
-  "file": "exemplars/f18r_l5g14_18_n.png",
-  "letter": "n",
-  "src": "f18r l5",
-  "box": [
-   2243,
-   2278,
-   543,
-   582
-  ],
-  "crib": "f19r \"plus dinstruction\""
+  "crib": "anchored on l4 box25 = code 14 (que)"
  }
 ]
