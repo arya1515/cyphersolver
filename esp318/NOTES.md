@@ -175,7 +175,11 @@ honest measure of where it stands: only the eye-checked stretches segment into w
 letters in which the verified signs are right and the filled ones are guesses. Lines 14–16 add *…que aca… con ha…*,
 *…quedar… que… Francia…*, *…si a tratado… que gouernad… pero*.
 
-What is not done: about a quarter of the glyphs are model-filled, and the `~` stretches of `f122r_hybrid.txt` are
+The line-by-line result of the walk is `f122r_reading.md`: every line has verified stretches, the nomenclator groups
+are located (`bac`, `bon` ×2, `bnh` ×4, `dal`, `bed`?), and lines 19–20 give *…quieren go|uernar…* across the line
+break. It is a reading of perhaps two thirds of the signs, not a text.
+
+What is not done: about a third of the glyphs remain unresolved, and the `~` stretches of `f122r_hybrid.txt` are
 plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
 strips, correct the machine letter where the sign disagrees, resolve the 7-forms by cluster — and f. 122v (five
 lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is needed from cryptanalysis.
