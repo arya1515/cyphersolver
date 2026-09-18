@@ -34,13 +34,15 @@ One key serves N.41, N.45, N.46, N.52BIS, N.57 and N.60. It is a nomenclator:
   `fak` el, `hor` la, `has` lo, `raf` por, `rif` porque, `mix`/`mye` papa, `fef` emperador,
   `sap` venecianos, `fio` ferrara, `fuq` francia, `dur`/`dox` duque, `hib` guerra — and syllabic
   ones like `pob` si (in *si-t-io*), `flart` me (in *pri-me-ras*), `mik` no (in *me-no-r*).
-- Full list: `key.md`; machine-readable in `decode.py`; ~130 groups recovered.
+- Full list: `key.md`; machine-readable in `decode.py`; 153 groups recovered.
 
 **How it was recovered.** N.46 and N.52BIS carry the clerk's decipherment on the following leaves.
 Lining the two up word by word gives the alphabet and the common groups; the readings of N.45, N.57
 and N.60 then supplied the rest. Two traps: `fug` (señor) and `fuq` (Francia) are near-identical, as
 are `plart` (mi) and `plort` (al); and the barred q is m in most places but a in a few, so there are
-probably two similar signs that this transcription merges.
+probably two similar signs that this transcription merges. The transcribers of N.45 and N.60 also read
+`plort` differently (al / mi), so that group and its neighbours `plart`, `flart`, `flort` need one
+careful pass against the images before they are trusted.
 
 ## What the three letters say
 
@@ -65,23 +67,31 @@ the Emperor's business to a conclusion, and **treat the Ferrara business secretl
 el Papa"**, reporting back so he can give orders.
 
 **N.60 — Logroño, 1 September 1512** (432 lines, ~14% unread; `n60_pp*`). Written from the Navarre
-campaign, and the sharpest of the three. It opens on **the bulls for Navarre** that Vich had sent, and on
-the Pope acting "en quebrantamiento de lo que tiene asentado" with him. Then:
+campaign, and the weightiest of the three.
 
-- **The Emperor–Venice peace**, again, and urgently: give way over Vicenza if Venice raises the tribute;
-  "que se abrevie la conclusión"; if it drags, the Emperor will despair of the League and tie himself to
-  France for good, since everything the Emperor has done "ha sido por las promesas que yo le he hecho".
-- **Spiritual war on Louis XII.** Ferdinand wants the Pope to use "las armas espirituales": to deprive
-  the king of his crown, of **Guyenne and Normandy** — assigning them to England — as a "príncipe fautor
-  y receptador de cismáticos y heréticos", to absolve his provinces and subjects from obedience, and to
-  grant crusade bulls against him; citing precedents against the Emperor Frederick and King Pedro. He
-  asks for the bull of Guyenne and Normandy to be sent to him.
-- **Money and Milan.** Pensions to hold an Italian power steady: twenty thousand ducats a year from the
-  Pope and Venice, twenty thousand more from another party, as much again from Ferdinand — fifty
-  thousand in all, "y no se olvide de aqueste artículo, que es muy sustancial".
-- **Ferrara after Milan.** If the Pope insists on starting with Ferrara, Vich is to insist on finishing
-  the French in the state of Milan first, "que esto es lo que cumple a su bien y a Italia"; and on a
-  mutual-defence arrangement so that each member of the League is secured in its Italian state.
+- **Reproach to Julius II** (pp. 3–5). The bulls Vich had sent; the Pope acting "en quebrantamiento de
+  lo que tiene asentado"; Ferdinand's account of what he has spent "por tierra y por mar" to rescue the
+  Pope, the Church and Italy, and of the Pope's ingratitude in not paying his troops as the League
+  requires. He traces it to the Pope's suspicion "que el Emperador y yo nos [hemos de apoderar] de
+  Italia, no siendo assí la verdad", and tells Vich to remove that suspicion; he will persevere
+  "constantíssimamente" all the same.
+- **The Sforza restoration in Milan** (pp. 6–8), the core of the letter. The Emperor and Ferdinand agree
+  that **Massimiliano, son of Duke Ludovico**, be put into the state by the Emperor's hand, precisely so
+  that Pope and Venice lose the suspicion that Milan is being taken for the Emperor; the essential
+  article is that possession of the state and its fortresses be taken "sin dilación". A marriage for the
+  infante **don Fernando** with the duke's daughter is in view.
+- **Venice and the papal claims** (p. 9). Venice should not be barred from recovering its old terraferma
+  towns, or it will not pay; the Pope, however, is trying to appropriate **Parma, Piacenza, Modena and
+  Reggio** against the capitulation of the League — "ninguno de los de la liga haga cosa en perjuizio de
+  otra".
+- **Spiritual war on Louis XII** (pp. 10–11). Ferdinand wants "las armas espirituales": the king
+  deprived of his crown and of **Guyenne and Normandy** — assigned to England — as a "príncipe fautor y
+  receptador de cismáticos y heréticos", his subjects absolved of obedience, crusade granted against
+  him, citing precedents against the Emperor Frederick and King Pedro. Send me the bull, he says.
+- **Money, and Milan before Ferrara** (pp. 12–15). Pensions of fifty thousand ducats a year in all to
+  hold an Italian power steady, "y no se olvide de aqueste artículo, que es muy sustancial"; and if the
+  Pope insists on starting with Ferrara, Vich is to insist on finishing the French in the state of Milan
+  first, plus a mutual-defence arrangement securing each member of the League in its Italian state.
 
 **Checks.** The key was built from N.46 and N.52BIS alone and then read three letters it was not built
 from. Each letter's place and date come out of the clear-text subscription and match the catalogue

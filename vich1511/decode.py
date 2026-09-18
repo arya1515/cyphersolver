@@ -31,7 +31,7 @@ CODE = {  # code groups -> words / syllables
     'plut': 'ni', 'fen': 'esto', 'fio': 'ferrara', 'dur': 'duque', 'poj': 'rey', 'rug': 'parte',
     'mag': 'otro', 'peh': 'quiere', 'mef': 'manera', 'heg': 'haveys', 'dex': 'deve', 'fae': 'dicha',
     'mac': 'mil', 'guz': 'consejo', 'fep': 'hazer', 'mul': 'negocio', 'mak': 'napoles', 'fop': 'hecho', 'dez': 'dezir', 'hah': 'he', 'foo': 'ducados', 'dot': 'dos',
-    'gol': 'alguna', '&': '·',
+    'gol': 'alguna', '&': 'y',
     # from N.45 pp.10-15 (second-half alignment)
     'fos': 'deseo', 'mef': 'manera', 'mum': 'ninguna', 'feh': 'estado', 'ob': 'ga', 'sod': 'ser',
     'heg': 'haveys', 'hes': 'lugar', 'pic': 'potencia', 'gno': 'bien', 'mye': 'papa', 'dox': 'duque',
@@ -39,7 +39,7 @@ CODE = {  # code groups -> words / syllables
     'set': 'una', 'ged': 'amistad', 'di': 'cardenal', 'plu': 'ni', 'far': 'dar',
     # from N.60 (1 Sep 1512)
     'mar': 'mil', 'das': 'ducado', 'gib': 'franceses', 'maq': 'otro', 'pio': 'rey', 'fer': 'dio',
-    'sok': 'fiar',
+    'sok': 'fiar', 'sum': 'tierra', 'hiz': 'mar', 'gih': 'dexar', 'fex': 'fe', 'mac': 'mil',
 }
 
 def decode(tokens):

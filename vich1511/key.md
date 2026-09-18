@@ -35,7 +35,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 
 | group | value |
 |---|---|
-| `&` | · |
+| `&` | y |
 | `dai` | como |
 | `das` | ducado |
 | `day` | direys |
@@ -68,6 +68,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `fen` | esto |
 | `fep` | hazer |
 | `fer` | dio |
+| `fex` | fe |
 | `fib` | febrero |
 | `fic` | del |
 | `fid` | despues |
@@ -95,6 +96,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `gak` | aquella |
 | `ged` | amistad |
 | `gib` | franceses |
+| `gih` | dexar |
 | `gik` | agora |
 | `gno` | bien |
 | `go` | aunque |
@@ -121,6 +123,7 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `hig` | haver |
 | `hih` | ha |
 | `hik` | italia |
+| `hiz` | mar |
 | `hob` | largo |
 | `hor` | la |
 | `hub` | gente |
@@ -182,10 +185,12 @@ Glyph labels are the ASCII names used in the transcriptions (legend at the head 
 | `soy` | yo |
 | `sub` | vras |
 | `suk` | tiene |
+| `sum` | tierra |
 | `sus` | um |
 | `suy` | ia |
 
-149 groups recovered. Groups still unread print in [brackets] in the decodes.
+153 groups recovered. Groups still unread print in [brackets] in the decodes.
 
-Known traps: `fug` senor vs `fuq` Francia; `plart` mi vs `plort` al; the barred q is m in
-most places but a in a few; in N.60 a tailed 8-sign reads i/j where N.57 labels it b.
+Known traps: `fug` senor vs `fuq` Francia; `plart` mi vs `plort` al (the N.45 and N.60
+transcribers disagree); the barred q is m with two bars and a with one; in N.60 a tailed
+8-sign reads i/j where the N.57 legend calls it b; `P` serves j/y as well as p in N.60.
