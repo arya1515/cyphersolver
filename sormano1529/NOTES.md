@@ -206,6 +206,14 @@ and this film does not support one. Three methods were tried and all fail at the
 | blind shape clustering of the 161 crib glyphs, then alignment | 40 % consistent |
 | nearest-template classification, line 1 templates onto line 2 | 26 % correct |
 | reading by eye, on text whose plaintext is not known in advance | gibberish |
+| grayscale NCC patches, leave-one-out 1-NN over the crib | 11 % |
+
+Resolution was checked rather than assumed: the IIIF service reports the master as 8657 x 5876 for the
+whole opening, about 4,300 px per page, so the 3600-wide crops used above are 4x interpolation of a
+50-60 px glyph and no further detail exists. (That mismatch between the image space and the manifest
+canvas, 9120 x 6250, is also why line positions estimated from the manifest kept landing a line out.)
+Greyscale matching, which usually beats binarisation on degraded print, is *worse* here: 11 % against
+40 %. Its confusion list is instructive and matches the eye's failures exactly: t/e, a/v, i/l, r/s.
 
 The third is the decisive one, and it exposes a caveat on the second section above. In the 21-letter
 verification the plaintext was known, so expectation helped me choose between similar forms; that reading
