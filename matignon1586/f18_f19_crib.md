@@ -372,3 +372,44 @@ and the line 2/3 boundary of the cipher falls where it should: line 2's last six
 *uictoi*, line 3 opens *r*, *e*. Line 3's box 3 is then the d-shaped figure that line 2 labelled
 **e**, which is the cross-check reported above, now standing on a firm boundary rather than a
 guessed one.
+
+
+## `checkex.py`: the confusable figures are measured, and they are not separable by shape
+
+With 42 labelled exemplars in hand, every pair was compared by normalised correlation. Two results.
+
+**The control passes.** Eight pairs come out at 1.000 — these are the same boxes mined twice, once
+at gap 18 and once at gap 14, and they agree on the letter every time. The two passes are
+consistent.
+
+**The confusables are quantified.** Six pairs above 0.80 carry *different* letters:
+
+| correlation | letters |
+|---|---|
+| 0.925 | **e / u** |
+| 0.914 | **i / n** |
+| 0.911 | **s / i** |
+
+These are exactly the pairs that have blocked this target all along, and they are not a
+transcription failure — they are figures that genuinely resemble each other at 0.91–0.93
+correlation on the manuscript. **No classifier, and no amount of care with the eye, will separate
+them at this resolution.**
+
+### What that changes
+
+It reframes the problem, and it explains every dead end hit tonight. If the figures for *i*, *n*
+and *s* cannot be told apart by sight, then **at the level of reading, this cipher behaves as a
+polyphonic one**: a figure is not one letter but a small set, and only the language can choose
+between them. That is why:
+
+* the shape classifier (`shapes.py`) failed and was always going to;
+* `key.json`'s entry `"6": ["i","n","s"]` — written early as a workaround — was the correct model
+  all along;
+* the beam decoder reaches roughly 60 % of words rather than 95 %: it is doing the right thing
+  against an irreducibly ambiguous input;
+* and the same figure "needed two letters" in line after line. It did.
+
+The consequence for the remaining work is concrete: the decoder should be given the ambiguity
+explicitly, as a set per figure with the exemplar evidence behind it, and the reading should be a
+Viterbi over those alternatives against the French model — the approach that closed the Lucca
+polyphonic cipher in this repo — rather than a substitution with a table.
