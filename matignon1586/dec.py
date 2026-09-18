@@ -1,6 +1,6 @@
 import json,sys
 from solve import beam, segment
-key=json.load(open('key.json'))
+import os;key=json.load(open(os.environ.get("KEY","key.json")))
 AL=list('abcdefghilmnopqrstuxyz')
 def decode(line, width=300):
     toks=line.split()
