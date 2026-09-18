@@ -441,3 +441,7 @@ hesse1603/src/pages_text.json
 sormano1529/img/
 sormano1529/crops/
 sormano1529/src/*.html
+# herbault1626: Gallica microfilm openings and reading crops (refetch with fetch.sh / region.sh / zoom.sh)
+herbault1626/img/
+herbault1626/crops/
+herbault1626/src/*.html
