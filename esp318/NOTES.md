@@ -116,6 +116,16 @@ and `muy` occurs in no. 93. That is a lead, not a demonstration: both Bergenroth
 (Bergenroth's own sheet counts 89 unidentified symbols), and most groups in nos. 93–94 are in neither. Testing it
 needs a full transcription of one of the two.
 
+The same segmentation run over f. 118r (`f118r_glyphs.pkl`, 910 glyphs on 33 lines, `ov/m93a.png`) makes the
+architecture measurable rather than impressionistic. The clean clusters split into two kinds. Single signs with
+letter-like frequencies: the p-with-loop sign in three drawings (81 tokens, 9 % — a vowel), the `oo` ligature (24),
+the heavy double bar (22), the `ʒ`/h-like sign (21), the `re` ligature (15), `ꝺ` (14), the triple stroke (13), and
+`+ ÷ :/`. And letter groups that recur as units: `gto` alone occurs 15 times on the page, `zoc`, `zen`, `hac`,
+`mae`, `maq`, `muy`, `zup`, `gne`, `mat`, `zel` several times each. So the leaf is exactly what the office's other
+ciphers are — a homophonic alphabet drawn with letter-shaped signs, interleaved with a CVC nomenclator — and the
+problem is a missing key, not a misread structure. A solver that treats the groups as unknown words while solving
+the sign alphabet against Spanish is the next tool to build; the segmentation is already in place.
+
 A second candidate, untested because unpublished: Galende Díaz's file BRAH 9/15 opens with **"Cifra del visorrey"
 (ff. 1–6)**, which he describes but does not reproduce. No. 94 is a viceroy's letter.
 
