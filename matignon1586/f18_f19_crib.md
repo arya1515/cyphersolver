@@ -413,3 +413,43 @@ The consequence for the remaining work is concrete: the decoder should be given 
 explicitly, as a set per figure with the exemplar evidence behind it, and the reading should be a
 Viterbi over those alternatives against the French model — the approach that closed the Lucca
 polyphonic cipher in this repo — rather than a substitution with a table.
+
+
+## `readleaf.py`: figures in, French out, with no figure ever named
+
+The pipeline the exemplars were built for: segment a line, match every box against the labelled
+exemplars to get a distribution over letters, and beam-search those distributions against the
+French model. Nothing is transcribed and no figure is given a name.
+
+Run on f. 18r, the leaf the exemplars come from:
+
+```
+line 2 (29 figures): ste f est a le roi ei il l dion sui uoie
+   truth:            ste fust aduertie et [52][14][25] eussions uictoi
+
+line 3 (35 figures): re et conseil dit soil iir tlr sa sa uie et su
+   truth:            re et conseil d assembler de Castillebourg ...
+```
+
+**`re et conseil d` — fifteen characters, exactly right, straight out of the ink.** And `ste f` at
+the head of line 2. That is the loop closing: image → letter distribution → French, with the
+plaintext nowhere in the process.
+
+### Where it stops, and why
+
+Both lines degrade after the opening, and the reason is coverage, not method. The exemplar set is
+42 figures over **14 letters**, weighted heavily to e, i, s, t, u — the letters that happened to
+fall in the two crib lines mined so far. *assembler de Castillebourg* needs a, m, b, c, g, which
+are thin or absent, so the beam has nothing to match and falls back on the language model alone.
+
+The alphabet with its homophones is on the order of 90 distinct figures. Two crib lines gave 42
+exemplars over 14 letters; ten to fifteen lines should give the lot. **The measurement to watch is
+letters covered, and it is the only thing between here and reading the leaves.**
+
+### One caveat found in passing
+
+The same pipeline run on f. 143 produces noise. f. 143 is a different secretary's hand, and
+exemplars cut from f. 18 do not transfer to it. So the crib gives the *table* — which figure means
+which letter — but each leaf still needs its own figures matched against exemplars in its own hand,
+or the shared table applied through a transcription. That is a real limit on how far one crib
+carries, and it was not visible before there was a working pipeline to expose it.
