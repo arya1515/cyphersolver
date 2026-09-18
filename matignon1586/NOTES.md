@@ -278,3 +278,11 @@ scored **better** than French (−1.53 vs −1.51 per character) — so the cold
 figure onto `i`. Dropping Roman-numeral tokens and requiring a context to be attested 15 times gives
 French −1.51, all-`i` −2.16, random −3.99. The old model is kept as `lm_v1.pkl`, the old scorer as
 `solve_v1.py`.
+
+## f. 110: identified, transcribed in part, not read
+
+See `f110_status.md`. It is in the same key (decoded with the solved key it beats scrambled keys by
++2.07 per figure), but 18 of its 54 lines are transcribed and none of it reads continuously. The
+diagnosis is transcription, not cryptanalysis: a solver seeded with the solved key moves 23 of 27
+shared labels away from it, which means my names for this scribe's shapes do not match the figures
+the key is keyed on. The fix is an exemplar set for this hand.
