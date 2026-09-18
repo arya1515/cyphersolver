@@ -333,7 +333,11 @@ So the one document that would break our letters is **BnF Français 2974, fo. 94
 Montmorency from Ferrara, 13 April 1529, in Sormano's cipher, carrying a contemporary interlinear
 decipherment whose text Molini already printed. Aligning that printed plaintext against those glyphs gives
 a long crib in the right cipher and should yield the whole alphabet with several exemplars per form, which
-is exactly what this attempt lacked. **fr. 2974 is not digitised**: its notice offers only "Document de
+is exactly what this attempt lacked. **fr. 2974 is not digitised**, and it is the only candidate: of the five Sormano letters Molini prints
+(Lyon 27 Sept 1528, anc. 8536 = fr. 3011 fo. 85; Ferrara 13 Apr 1529, anc. 8499 = fr. 2974 fo. 94;
+Vercelli 4 Dec 1530, anc. 8513 = fr. 2988 fo. 84; and two later ones) **only the 13 April 1529 letter
+carries the cipher-with-decipherment note**. The others he describes simply as "E autografa". So there is
+exactly one printed crib for this cipher in existence, and exactly one manuscript that carries it: its notice offers only "Document de
 substitution : MFICHE Français 2974", reproduction matrix **S 39769**. One order, or one reader in Paris,
 finishes this target. Molini does not print nos. 63, 65 or 66 - his 1529 contents run 4, 7, 8 and 28
 February and then March - so those letters remain unprinted and unread.
