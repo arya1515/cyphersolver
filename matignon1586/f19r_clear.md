@@ -6,7 +6,7 @@ Ordinary French secretary hand, 33 lines. Read with `mtile.py` at three tiles a 
 Lines 1–8, with `…` where a word is not yet settled:
 
 1. Que sa Ma[jes]té fust advertie … plustost que nous eussions victoire e[t]
-2. … de … de Castillebourg où il ne f[e]ust que je n'avois plus d'instruction
+2. … de … de Castillebourg où **l'on feist** … **que je n'avois plus d'instruction**
 3. … à nulle cause. Il nous … Ma[jes]té, considérant que les cho-
 4. -ses sont ung peu changées tant par les habitans de la ville qui estoient fort estonnez
 5. … ou reprim[ent] … pas ce retour de m[onsieu]r le gouverneur de Coul… aut…
@@ -30,3 +30,11 @@ times.
 `hi/P_*`. f. 18r's cipher is set up the same way (`hi/f18rflat.png`, `f18r_lines.txt`, 22 lines)
 and segments to ~29 figures a line, 624 in all, which against f. 19's letter count gives the
 ~0.9 figures per letter a homophonic cipher with code groups should give.
+
+
+## Line 2 settled at six tiles
+
+The tail of line 2 is now firm: **"…où l'on feist … que je n'avois plus d'instruction"**. The head
+("Castel… de …") still has two words unsettled, and that matters, because the mining lays letters
+across boxes by position: an unsettled word means the boxes under it cannot be labelled. f. 18r
+line 3's 24 boxes are segmented and rendered and waiting on exactly those two words.
