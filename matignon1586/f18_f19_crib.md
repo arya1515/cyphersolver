@@ -851,3 +851,37 @@ visibly the *n*-figure where the aligner puts *s* — so it is held back rather 
 doubled-s). *h* is in. *m* has dropped out — the only *m* was in the over-split line-3 batch,
 rejected above — and will come back from any solid stretch with *maieste* or *commencement* in it.
 Missing: m, q, x, y, z.
+
+
+## m comes in, and the set is cleaned by ablation rather than by eye
+
+Line 6 at gap 12 is the cleanest alignment yet — **33 boxes to 33 tokens, score 22.03**, 30
+one-to-one pairs — and the *m* of *mais* lands on its own box (13). Minting it brought the set to
+**18 of 22 letters**.
+
+It also dropped the non-circular score from **69.1 % to 54.4 %** — ten characters on 68, which is
+not noise. The alignment is sound, so this is not ordinary mislabelling. Two explanations were
+tested and **rejected**:
+
+* *the matcher should lean harder on the language model* — softening the shape evidence made it
+  worse (47 %), and top-k made no difference;
+* *fragments* — tiny boxes normalise into generic blobs that match everything; but only four
+  exemplars are small, and none is in the new batch.
+
+What worked was **leave-one-letter-out ablation**: remove the batch's exemplars one letter at a
+time and re-score.
+
+```
+drop line-6 "r"      +11.8 points   <- harmful
+drop line-6 <que>     +8.8 points   <- harmful
+drop line-6 "d"       +7.4 points   <- harmful
+(every other letter, including the new m)    ~0
+```
+
+Three single exemplars out of thirty did all the damage. Removed, the score returns to **69.1 %**
+with *m* kept: a new letter and no regression.
+
+The lesson is general and worth keeping. Audits by similarity find exemplars that *look* wrong;
+ablation finds exemplars that *act* wrong, and those are not the same set — none of these three had
+been flagged. From here, every new batch is ablated letter by letter against the held-out lines
+before it is kept.

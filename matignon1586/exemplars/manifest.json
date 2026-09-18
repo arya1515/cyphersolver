@@ -1128,90 +1128,6 @@
   "crib": "forced alignment of line 5"
  },
  {
-  "file": "exemplars/f18r_l6fa_07_u.png",
-  "letter": "u",
-  "src": "f18r_l6fa",
-  "box": [
-   746,
-   776,
-   621,
-   671
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_11_c.png",
-  "letter": "c",
-  "src": "f18r_l6fa",
-  "box": [
-   1132,
-   1257,
-   621,
-   699
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_13_s.png",
-  "letter": "s",
-  "src": "f18r_l6fa",
-  "box": [
-   1327,
-   1455,
-   621,
-   691
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_15_d.png",
-  "letter": "d",
-  "src": "f18r_l6fa",
-  "box": [
-   1547,
-   1626,
-   621,
-   701
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_16_e.png",
-  "letter": "e",
-  "src": "f18r_l6fa",
-  "box": [
-   1668,
-   1704,
-   621,
-   698
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_19_n.png",
-  "letter": "n",
-  "src": "f18r_l6fa",
-  "box": [
-   1933,
-   2043,
-   651,
-   701
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
-  "file": "exemplars/f18r_l6fa_28_s.png",
-  "letter": "s",
-  "src": "f18r_l6fa",
-  "box": [
-   2810,
-   2867,
-   621,
-   701
-  ],
-  "crib": "forced alignment of line 6"
- },
- {
   "file": "exemplars/f18r_l7g7_01_s.png",
   "letter": "s",
   "src": "f18r_l7g7",
@@ -1522,5 +1438,329 @@
    832
   ],
   "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_01_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   104,
+   234,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_02_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   252,
+   288,
+   648,
+   697
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_03_u.png",
+  "letter": "u",
+  "src": "f18r_l6g12",
+  "box": [
+   330,
+   465,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_06_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   646,
+   721,
+   630,
+   668
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_07_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   746,
+   776,
+   621,
+   671
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_08_l.png",
+  "letter": "l",
+  "src": "f18r_l6g12",
+  "box": [
+   794,
+   866,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_09_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   878,
+   932,
+   624,
+   676
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_10_o.png",
+  "letter": "o",
+  "src": "f18r_l6g12",
+  "box": [
+   949,
+   1000,
+   640,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_11_u.png",
+  "letter": "u",
+  "src": "f18r_l6g12",
+  "box": [
+   1023,
+   1116,
+   621,
+   687
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_12_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1132,
+   1191,
+   621,
+   699
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_13_m.png",
+  "letter": "m",
+  "src": "f18r_l6g12",
+  "box": [
+   1203,
+   1257,
+   631,
+   682
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_14_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   1271,
+   1309,
+   621,
+   679
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_15_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   1327,
+   1377,
+   647,
+   691
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_16_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1389,
+   1455,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_17_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   1478,
+   1512,
+   621,
+   690
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_18_o.png",
+  "letter": "o",
+  "src": "f18r_l6g12",
+  "box": [
+   1547,
+   1626,
+   621,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_19_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   1668,
+   1704,
+   621,
+   698
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_20_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   1729,
+   1843,
+   621,
+   693
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_21_i.png",
+  "letter": "i",
+  "src": "f18r_l6g12",
+  "box": [
+   1867,
+   1911,
+   656,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_23_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   1995,
+   2043,
+   669,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_25_a.png",
+  "letter": "a",
+  "src": "f18r_l6g12",
+  "box": [
+   2204,
+   2263,
+   628,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_26_n.png",
+  "letter": "n",
+  "src": "f18r_l6g12",
+  "box": [
+   2290,
+   2342,
+   658,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_27_t.png",
+  "letter": "t",
+  "src": "f18r_l6g12",
+  "box": [
+   2355,
+   2410,
+   657,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_29_l.png",
+  "letter": "l",
+  "src": "f18r_l6g12",
+  "box": [
+   2500,
+   2553,
+   654,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_30_e.png",
+  "letter": "e",
+  "src": "f18r_l6g12",
+  "box": [
+   2572,
+   2629,
+   656,
+   700
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_31_s.png",
+  "letter": "s",
+  "src": "f18r_l6g12",
+  "box": [
+   2646,
+   2710,
+   654,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
+ },
+ {
+  "file": "exemplars/f18r_l6g12_32_c.png",
+  "letter": "c",
+  "src": "f18r_l6g12",
+  "box": [
+   2728,
+   2775,
+   658,
+   701
+  ],
+  "crib": "forced alignment of line 6 at gap 12, 33 boxes to 33 tokens"
  }
 ]

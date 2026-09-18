@@ -47,7 +47,11 @@ EX = [(m['letter'], vec_from(np.asarray(Image.open(m['file']).convert('L')))) fo
 
 CODE_MIN = 0.93   # code groups are distinctive numerals: only accept a very close match
 
-def cands_for(box_img, topk=5, temp=12.0):
+import os
+TOPK = int(os.environ.get('RL_TOPK', '5')); TEMP = float(os.environ.get('RL_TEMP', '12.0'))
+
+def cands_for(box_img, topk=None, temp=None):
+    topk = topk or TOPK; temp = temp or TEMP
     v = vec_from(box_img)
     sims = sorted(((float(v@e), l) for l, e in EX), reverse=True)
     # a multi-letter (code) candidate has to clear CODE_MIN on its own similarity, otherwise a
