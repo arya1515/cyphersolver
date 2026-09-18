@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python docs/_check_writeup.py --hook start",
+            "timeout": 30,
+            "statusMessage": "Write-up audit"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python docs/_check_writeup.py --hook stop",
+            "timeout": 30,
+            "statusMessage": "Checking for finished targets without a write-up"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,7 @@
 # William Perwich to Lord Arlington, Paris, 9 April 1670 — solved in 2025, and reproduced here
 
+Status: no write-up (found solved by others in 2025; reproduced here only, pruned from the site lists 17 Sept 2026).
+
 TNA SP 78/129 f.180, published by the National Archives in August 2025 and transcribed by Satoshi
 Tomokiyo. Roughly 500 cipher cells laid out as lines across two manuscript pages, embedded in an
 otherwise plain English despatch.

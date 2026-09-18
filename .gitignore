@@ -202,7 +202,10 @@ voynich/data/IT2a-n.*
 voynich/data/RF1b-er.*
 voynich/data/ZL3b-n.txt
 voynich/__pycache__/
-.claude/
+# .claude: keep the shared project settings (hooks) and skills, ignore the rest (settings.local.json, worktrees)
+.claude/*
+!.claude/settings.json
+!.claude/skills/
 scorpion/results_*.txt
 # goldbar: downloaded IACR photographs and enlarged crops used for the transcription check
 goldbar/work/
