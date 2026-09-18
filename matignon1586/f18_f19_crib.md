@@ -485,3 +485,27 @@ is what mangles the middle of line 2.
 
 So the two things between here and a read leaf are: **seven more letters, and the code groups**.
 Both come from more crib lines, and the count of letters covered says exactly how far along it is.
+
+
+## The cipher finds a gap in my reading of the plaintext
+
+Line 4's boxes 12–26 rendered: box 24 is a clear **4**, box 25 holds **`14`** — the code group for
+*que* — and box 21 is a plain **X**.
+
+That `14` is a hard landmark, and it does not sit where my transcription puts *que*. f. 19r line 2
+was read here as *"…où l'on feist que je n'avois plus d'instruction"*, which would put *que*
+immediately after *feist* — at box 12. It is at box 25. **Thirteen figures of plaintext are missing
+from my reading of that line.**
+
+So the line is not *"où l'on feist que je n'avois…"* but *"où l'on feist [≈13 letters] que je
+n'avois…"*, and the eye skipped a phrase — probably at the gutter, where line 2 of f. 19r is
+tightest.
+
+This is the second time the figure count has corrected the plaintext rather than the other way
+round (the first was *et* for the spurious "Heut Jo."). It is worth stating as a property of a
+crib of this size: **with ~1,650 figures against ~1,800 letters, the two sides audit each other**,
+and a transcription error on either side shows up as a landmark that lands in the wrong place.
+
+Also seen: an unmistakable **X** at box 21. Neither Tomokiyo's table nor anything recovered here
+has an x, and in a French plaintext x is rare enough that a figure standing plainly for it, in the
+middle of a line, is more likely a **null**. Worth testing once the coverage is complete.

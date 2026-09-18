@@ -778,5 +778,137 @@
    337
   ],
   "crib": "f19r \"uictoire et conseil dassembler de Castillebourg\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_01_g.png",
+  "letter": "g",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   115,
+   248,
+   381,
+   448
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_02_o.png",
+  "letter": "o",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   272,
+   385,
+   389,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_03_u.png",
+  "letter": "u",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   409,
+   450,
+   381,
+   446
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_04_l.png",
+  "letter": "l",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   489,
+   498,
+   402,
+   450
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_05_o.png",
+  "letter": "o",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   513,
+   585,
+   398,
+   457
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_06_n.png",
+  "letter": "n",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   600,
+   650,
+   381,
+   446
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_07_f.png",
+  "letter": "f",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   666,
+   714,
+   396,
+   442
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_08_e.png",
+  "letter": "e",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   729,
+   859,
+   384,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_09_i.png",
+  "letter": "i",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   874,
+   903,
+   398,
+   447
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_10_s.png",
+  "letter": "s",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   930,
+   957,
+   381,
+   441
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
+ },
+ {
+  "file": "exemplars/f18r_l4g14_11_t.png",
+  "letter": "t",
+  "src": "f18r line 4 (gap 14)",
+  "box": [
+   992,
+   1072,
+   381,
+   461
+  ],
+  "crib": "f19r \"\u2026castillebourg ou lon feist\u2026\""
  }
 ]
