@@ -132,32 +132,38 @@ A second candidate, untested because unpublished: Galende Díaz's file BRAH 9/15
 The dates make either plausible: no. 94 is Messina, 27 April 1503 — the day before Cerignola — and no. 93 is Venice,
 24 February 1504, in the weeks after the Garigliano.
 
-## No. 95 — Lasry's key applied by machine: three quarters of the leaf keyed, Spanish throughout
+## No. 95 — Lasry's key applied by machine and checked by eye: a Spanish letter about the French, read in stretches
 
 Solved "approximately" by George Lasry in May 2022; Tomokiyo prints the key as an image only
 (`lit/crypt/img/GL_BnF_es318_f122.png`, saved here), and no plaintext has been published. The alphabet is homophonic,
 one to three signs per letter, plus unassigned signs and the code groups `bac bnh bon dah daf dae oht bed dal boo del`.
 
-Reading the symbols by eye was not reliable enough (÷ against ≐, plain 7 against ᵒ7 and crossed 7), so f. 122r was
-segmented and clustered instead: adaptive-threshold binarisation (`seg.py`), connected components grouped into
-glyphs by x-overlap with diacritics attached (`glyphs.py`, 963 glyphs on 31 lines, median 31 a line), Ward
-clustering of 28×28 bitmaps (`cluster.py`, `montage.py`), and the clusters labelled from the montages against
-Lasry's key (`assign95.py`). The clean clusters carry 64 % of the glyphs and their frequencies are Spanish to the
-letter (E 9 %, A 7 %, O 5 %, N 5 %, S, C, U, R, D, M, T, I, Q ≈ 1 %). The remaining boxes — mostly two signs
-touching, or a sign cut by a descender from the line above — were re-explained with the cluster templates by FFT
-correlation (`localseg2.py`/`localseg3.py`), which lifts the keyed share to 72–79 % (`f122r_reseg_keyed.txt`,
-`f122r_local2_keyed.txt`). Two of Lasry's assignments were corrected on the way: the plain 7 is S, not D (the
-word *escreuir* reads e-s-c-r-e-u-i-r only so), and the n-with-cross-tail sign is M, not Y.
+Reading the signs by eye alone was not reliable (÷ against ≐, plain 7 against ᵒ7 and crossed 7), so f. 122r was
+segmented and clustered: adaptive-threshold binarisation (`seg.py`), connected components grouped into glyphs by
+x-overlap with diacritics attached (`glyphs.py`: 963 glyphs on 31 lines), Ward clustering of 28×28 bitmaps
+(`cluster.py`, `montage.py`), the clusters labelled from the montages against Lasry's key (`assign95.py`). The clean
+clusters carry 64 % of the glyphs and their frequencies are Spanish to the letter (E 9 %, A 7 %, O 5 %, N 5 %, S, C,
+U, R, D, M, T, I, Q ≈ 1 %). The rest — two signs touching, or a sign cut by a descender from the line above — is
+re-explained by FFT correlation against the cluster templates (`localseg2.py`, `viterbi95.py`), and a beam search
+over a 5-gram Spanish model (`lm.py`, Don Quijote) fills those boxes while the verified glyphs stay fixed
+(`hybrid95.py` → `f122r_hybrid.txt`, where `~` marks model-filled positions). Annotated strips with the machine
+letter under each glyph (`ov/A95_NNa|b.png`) are the instrument for checking it.
 
-What comes out is Spanish without a language model touching it: line 8 *…toconesto…* (con esto), 11
-*sen[n]oria…que…etmene…os por*, 12 *que…mucho…que…haga*, 13 *…con esto…acorde…o buen…*, 15 *…que…amis[tad]…
-ynorancia…*, 16 *…tratado…que gouierna[n]…pero*, 17 *…muy grandes cosas…no creo que…*, 18 *…que se est[a]…
-parte aun*, 19 *que…en…que…quieren*, 22 *por obra…creo que…amigo*, 23 *escreuir a…*, 25 *dificultad…en los…*,
-1 *…aqui…*. A 5-gram Spanish model (`lm.py`, Don Quijote) with the verified clusters held fixed (`solve95d.py`)
-confirms the assignment but cannot yet fill the rest: a quarter of the glyphs are still gaps or unlabelled small
-clusters, and at that density the model's guesses do not stabilise across seeds. Finishing it is a line-by-line
-correction of the machine transcription against the strips in `ov/R95_*.png`, not more cryptanalysis. f. 122v
-(five lines) runs through the same templates (`f122v_reseg.pkl`) but is thinner and not yet read.
+Checked by eye on the strips, with Lasry's key, the following read cleanly (line numbers of f. 122r):
+3 *…r. Despues…*; 4 *…emos franceses…* (the y-with-crossbar is F, as in his key); 6 *[bac] que puedan merc[ed]…
+[de] Francia…* (the dotted x is his *p*); 8 *…con esto…*; 11 *Señoría … que esta … por*; 12 *que … mucho … haga*;
+16 *…que go[u]ierna[n]… pero*; 17 *…muy grandes cosas … no creo que…*; 19 *que se … encubre … que … quieren*;
+22 *por obra creo que … amigo*; 23 *escreuir a…*; 25 *dificultad … en los…*. The letter is Spanish, in a court hand
+of the 1490s, about the French — *franceses*, *Francia* — and about what a *Señoría* (Venice? the letter is dated
+8 January 1497, three days before Federico's no. 5) can or cannot be made to do; `bac` and `bon` are nomenclator
+groups (the `bon` on line 8 sits between *…mas…* and *que*). Two of Lasry's signs were corrected on the way (the
+n-with-cross-tail is M, not Y; plain 7 is D in *puedan* but S in *franceses* and *escreuir*, so the two 7-forms his
+key separates really are two signs and the clusters, not the eye, must tell them apart).
+
+What is not done: about a quarter of the glyphs are model-filled, and the `~` stretches of `f122r_hybrid.txt` are
+plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
+strips, correct the machine letter where the sign disagrees, resolve the 7-forms by cluster — and f. 122v (five
+lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is needed from cryptanalysis.
 
 ## What is in this directory
 
