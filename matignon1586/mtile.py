@@ -18,6 +18,14 @@ which = sys.argv[7] if len(sys.argv) > 7 else None
 im = ImageOps.autocontrast(Image.open(src).convert('L'), 1)
 A = np.array(im).astype(np.float32)
 ys = [int(v) for v in open(ysfile).read().split(',')]
+
+# snap each fitted centre to the local ink maximum, so a per-leaf offset never has to be set by
+# hand again: the profile peak is the line, whatever the fit said
+_ink = (A < (A.mean() - 0.45*A.std())).sum(axis=1).astype(float)
+_ink = np.convolve(_ink, np.ones(11)/11, 'same')
+_pitch = int(np.median(np.diff(ys))) if len(ys) > 2 else 100
+_w = max(10, int(0.38*_pitch))
+ys = [int(max(0, y-_w) + np.argmax(_ink[max(0, y-_w):min(len(_ink), y+_w)])) for y in ys]
 sel = [int(v)-1 for v in which.split(',')] if which else range(len(ys))
 H, W = A.shape
 for i in sel:
