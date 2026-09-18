@@ -19,8 +19,8 @@ with `…` where the transcription is still too uncertain to stand.
 > il s'est résolu … à tout ce que … sçavons voulu … la composition de sa place, laquelle estoit
 > encore …
 
-> **[lines 16–19]** … eust importé … de séjour qui nous est très … parce qu'il m'eust fallu passer
-> … mon cousin … passer … couru en ennemi …
+> **[lines 14–19]** … pour nous retenir … ce que … encore … [i]l eust importé … de séjour qui nous
+> est très … parce qu'il m'eust fallu passer … empê[cher] … me passer … pour ce … pour tous …
 
 > **[lines 20–21]** … premier … ay verbalement … ne promeu de …
 
@@ -31,7 +31,8 @@ above reproduces his opening and runs about three times as far, besides the late
 
 ## Confidence
 
-Lines 1–7 and 9–13 are read; lines 8, 14–15 and 19–21 carry glyph errors and are given only
+Lines 1–7, 9–14 and 17 are read; the rest give clauses but not continuous text. Two passes at
+five tiles a line were needed; lines 8, 14–15 and 19–21 carry glyph errors and are given only
 where the French is unambiguous. Line 7 closed on a second pass at five tiles per line, which
 also settled two more confusable pairs: the two long-s figures (one **c**, one **u**) and the two
 double-stroke figures (one **n**, one **o**) — *consideration* forces the second of each. The residue is a transcription problem, not a cryptanalytic one:
