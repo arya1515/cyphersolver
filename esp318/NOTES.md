@@ -159,7 +159,8 @@ letter under each glyph (`ov/A95_NNa|b.png`) are the instrument for checking it.
 
 Checked by eye on the strips, with Lasry's key, the following read cleanly (line numbers of f. 122r):
 3 *…r. Despues…*; 4 *…emos franceses…* (the y-with-crossbar is F, as in his key); 6 *[bac] que puedan merc[ed]…
-[de] Francia…* (the dotted x is his *p*); 8 *…con esto…*; 11 *Señoría … que esta … por*; 12 *que … mucho … haga*;
+[de] Francia…* (the dotted x is his *p*); 8 *…con esto…*; 11 *Señoría … que esta … por*; 12 *que me toca… mucho… será… que [bnh]… haga* (the group `bnh` written in clear letters mid-line); 13 *con esto…
+acorde… lo bueno…*;
 16 *…que go[u]ierna[n]… pero*; 17 *…muy grandes cosas … no creo que…*; 19 *que se … encubre … que … quieren*;
 22 *por obra creo que … amigo*; 23 *escreuir a…*; 25 *dificultad … en los…*. The letter is Spanish, in a court hand
 of the 1490s, about the French — *franceses*, *Francia* — and about what a *Señoría* (Venice? the letter is dated
