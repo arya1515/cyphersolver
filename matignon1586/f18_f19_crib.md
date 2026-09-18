@@ -170,3 +170,26 @@ is here, against known plaintext, unambiguously **s**.
 Repeat over f. 18's ~1,650 figures. The output is a labelled image set covering every homophone,
 which is what a shape classifier needed and never had, and what the eight undeciphered leaves can
 then be matched against.
+
+
+## Yield: one line of the crib is worth fifteen exemplars
+
+f. 18r line 2 aligns against f. 19r line 1 end to end. The plaintext
+*…[que sa maie]**ste fust aduertie** … **plustost que nous eussions victoire**…* lays fifteen
+letters across boxes 1–12, the code groups `52` / `14` / `25` anchor boxes 13–14, and *eussions*
+runs 15–19. That single line yields **15 single-figure exemplars covering nine distinct letters**
+(e, i×3, n, o, r, s×3, ss, t×2, u×2), plus seven boxes holding two or three figures, kept whole
+and flagged `MULTI`.
+
+At that rate the alphabet with its homophones is covered by **ten to fifteen lines of the crib,
+not all fifty-seven**. That is the useful number: completing this key is a morning's work, not a
+campaign. The campaign is reading the eight leaves afterwards — but with no unknown figures left
+in them.
+
+### And a confusable caught in the act
+
+Box 11 and box 17 are both 7-shapes with a dot. Against the plaintext, box 11 is **i** (in
+*aduertie*) and box 17 is **o** (in *eussions*). Either they are two figures the eye merges, or one
+of them is mis-segmented. Both are now saved as labelled images side by side, which is the only way
+that question was ever going to be answered — and it is the same question, in miniature, that has
+blocked this target from the start.

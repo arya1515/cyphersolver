@@ -58,5 +58,125 @@
    214
   ],
   "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_01_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   102,
+   131,
+   161,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_02_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   169,
+   228,
+   159,
+   202
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_04_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   465,
+   497,
+   138,
+   196
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_05_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   536,
+   557,
+   155,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_08_e.png",
+  "letter": "e",
+  "src": "f18r line 2",
+  "box": [
+   959,
+   988,
+   138,
+   198
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_09_r.png",
+  "letter": "r",
+  "src": "f18r line 2",
+  "box": [
+   1007,
+   1092,
+   138,
+   207
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_10_t.png",
+  "letter": "t",
+  "src": "f18r line 2",
+  "box": [
+   1124,
+   1168,
+   138,
+   199
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_11_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   1201,
+   1240,
+   153,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_15_ss.png",
+  "letter": "ss",
+  "src": "f18r line 2",
+  "box": [
+   1941,
+   2020,
+   138,
+   218
+  ],
+  "crib": "f19r line 1"
+ },
+ {
+  "file": "exemplars/f18r_l2_16_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2040,
+   2074,
+   173,
+   218
+  ],
+  "crib": "f19r line 1"
  }
 ]
