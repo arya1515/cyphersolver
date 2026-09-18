@@ -193,3 +193,22 @@ Box 11 and box 17 are both 7-shapes with a dot. Against the plaintext, box 11 is
 of them is mis-segmented. Both are now saved as labelled images side by side, which is the only way
 that question was ever going to be answered — and it is the same question, in miniature, that has
 blocked this target from the start.
+
+
+## Where the mining stands, and what gates it
+
+f. 18r line 3 is segmented and its 24 boxes rendered (`f18r_l3_boxes.json`, `hi/l3box_*.png`).
+Labelling them is blocked on one thing only: f. 19r line 2 has to be read precisely first. It is
+legible but not yet settled — it runs something like "Castel… de …bourg … de Castillebourg où
+j[e]…", and until the words are fixed the letters cannot be laid against the boxes.
+
+**That is the whole gate on this method.** Every cipher line needs its plaintext span read off
+f. 19 first; the cipher side is already segmented and rendered by script. So the order of work is:
+
+1. transcribe f. 19r lines 2–12 (the plaintext for f. 18r's 22 cipher lines) — clear secretary
+   hand, three tiles a line with `mtile.py`;
+2. for each cipher line, render its boxes and lay the letters across them;
+3. save every box as a labelled image.
+
+Ten to fifteen lines done this way covers the alphabet and its homophones. Nothing in it requires
+a judgement the plaintext does not already make for you.
