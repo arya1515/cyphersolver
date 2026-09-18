@@ -184,6 +184,15 @@ line above cannot contaminate it (`band95.py`), made things worse, not better: t
 and nearest-neighbour matching of the mutilated shapes against the labelled glyphs collapsed to *d*/*n*. The junk
 boxes are touching signs, not descenders; the fix is a stroke-level segmentation, which is a different project.
 
+The stroke-level route was then tried after all (`linedp95.py`): every labelled template slid along each line
+band by FFT correlation, a dynamic programme tiling the line left to right with area-proportional scores and a
+per-column penalty for skipped ink, then a beam decode over the tiles' emission vectors. With the tile count right
+(≈30 a line) the raw tiling reads the same lines the eye did — 16 *…si a tratado… que gouiernad…*, 17 *…muy… no
+creo que…*, 22 *por obra…*, 25 *dificultad… en los* — and no more: 23 % of tiles have their top two letters within
+0.05 of NCC, and the language model, given that freedom, writes Don Quijote over them (*don quiiote que el que*).
+Three independent readings (eye, cluster-hybrid, tiling) now agree on the same two thirds and disagree on the
+same third. The limit is the sign shapes at this resolution, not the method.
+
 What is not done: about a third of the glyphs remain unresolved, and the `~` stretches of `f122r_hybrid.txt` are
 plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
 strips, correct the machine letter where the sign disagrees, resolve the 7-forms by cluster — and f. 122v (five
