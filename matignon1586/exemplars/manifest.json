@@ -1,0 +1,62 @@
+[
+ {
+  "file": "exemplars/f18r_l2_17_o.png",
+  "letter": "o",
+  "src": "f18r line 2",
+  "box": [
+   2104,
+   2156,
+   177,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_18_n.png",
+  "letter": "n",
+  "src": "f18r line 2",
+  "box": [
+   2180,
+   2229,
+   173,
+   218
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_19_s.png",
+  "letter": "s",
+  "src": "f18r line 2",
+  "box": [
+   2254,
+   2286,
+   178,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_20_u.png",
+  "letter": "u",
+  "src": "f18r line 2",
+  "box": [
+   2313,
+   2379,
+   174,
+   217
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ },
+ {
+  "file": "exemplars/f18r_l2_23_i.png",
+  "letter": "i",
+  "src": "f18r line 2",
+  "box": [
+   2716,
+   2827,
+   138,
+   214
+  ],
+  "crib": "f19r line 1 \"plustost que nous eussions victoire\""
+ }
+]

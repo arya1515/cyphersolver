@@ -131,3 +131,42 @@ that the stretch is correctly located. The other three are gains:
   blocked every leaf in this target, and the crib has just separated it.
 
 `key_crib.json` holds them. Each further anchored stretch on f. 18's ~1,650 figures does the same.
+
+
+## Labelled exemplars, which is the artifact that survives
+
+The recurring failure in this target has been that ASCII shorthand collides: I call two
+near-identical figures by one name, and the same name then needs two letters. Names cannot be
+fixed by more care; they have to be dropped. So the crib's output is stored as **images with
+letters attached**, in `exemplars/` with `exemplars/manifest.json`.
+
+First five, cut from f. 18r line 2 under f. 19r's "plustost que nous eussions victoire":
+
+| exemplar | letter | note |
+|---|---|---|
+| `f18r_l2_17_o.png` | **o** | a 7-with-dot; agrees with the existing key's 7 = o |
+| `f18r_l2_18_n.png` | **n** | the dotted-v; agrees with ·v· = n |
+| `f18r_l2_19_s.png` | **s** | a curl — this is the figure that has been read as *e* elsewhere |
+| `f18r_l2_20_u.png` | **u** | an L/1 shape |
+| `f18r_l2_23_i.png` | **i** | a c-shape |
+
+Two boxes on that stretch hold two figures each and are kept whole, flagged `PAIR`, so they are
+never used as single-figure exemplars.
+
+The first two agreeing with the key is the control: it says the stretch is correctly located, so
+the other three are trustworthy. And the third is the prize — a figure that had been read as *e*
+is here, against known plaintext, unambiguously **s**.
+
+## The procedure, stated once
+
+1. `mtile.py` at eight tiles a line makes f. 18's figures individually legible.
+2. Segment the line (`shapes.line_boxes`, gap 18 on this hand) and render the boxes numbered.
+3. Locate the stretch with a code group (`14` que, `25` nous, `52` plustost) and read the letters
+   off f. 19.
+4. Save each box as `exemplars/<leaf>_<line>_<box>_<letter>.png`.
+5. When a stretch's first figures agree with the existing key, the location is confirmed and the
+   rest of that stretch can be trusted.
+
+Repeat over f. 18's ~1,650 figures. The output is a labelled image set covering every homophone,
+which is what a shape classifier needed and never had, and what the eight undeciphered leaves can
+then be matched against.
