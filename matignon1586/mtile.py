@@ -39,9 +39,19 @@ for i in sel:
     fade = np.where(keep, 1.0, 0.0)[:, None]
     sub = sub*fade + (255 - (255-sub)*0.22)*(1-fade)   # neighbours washed out, not removed
     img = Image.fromarray(np.clip(sub, 0, 255).astype(np.uint8))
+    _slope = float(_os.environ.get('MT_SLOPE', '0') or 0)
     for j in range(ntile):
         x0 = W*j//ntile; x1 = min(W, W*(j+1)//ntile + 70)
-        t = img.crop((x0, 0, x1, img.height))
+        if _slope:
+            dy = int(_slope * ((x0 + x1)/2 - W/2))
+            yc = y + dy
+            s0, s1 = max(0, yc-half-half//2), min(H, yc+half+half//2)
+            sb = A[s0:s1].copy(); rr = np.arange(s0, s1)
+            kp = ((rr >= yc-band//2) & (rr <= yc+band//2)).astype(float)[:, None]
+            sb = sb*kp + (255-(255-sb)*0.22)*(1-kp)
+            t = Image.fromarray(np.clip(sb, 0, 255).astype(np.uint8)).crop((x0, 0, x1, s1-s0))
+        else:
+            t = img.crop((x0, 0, x1, img.height))
         sc = 1900/t.width
         t = t.resize((int(t.width*sc), int(t.height*sc)), Image.LANCZOS)
         t.save(f'{out}_{i+1:02d}_{j}.png')
