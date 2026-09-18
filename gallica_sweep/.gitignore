@@ -20,3 +20,6 @@ notice_*.html
 decode_*.html
 search_*.html
 *.log
+mondoucet/f1573/*.npy
+mondoucet/f1573/*.png
+mondoucet/f1573/s2*/
