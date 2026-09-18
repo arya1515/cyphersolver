@@ -47,42 +47,40 @@ Reading the first figures of f. 18r against the first line of f. 19r:
 
 So the pairing is not an inference from Tomokiyo's note — it is verified on the leaf twice over.
 
-## One warning for whoever aligns it
+## Settled: it is one key, and the existing table already half-reads this leaf
 
-The figure values coming out of this crib do **not** agree with the ones the f. 196/201 crib gives
-under the same ad-hoc names: the f. 18 crib wants (reading my own shorthand) Δ = e, x = m, t = i,
-where f. 196's crib wanted Δ = r, x = a, t = e. Two readings are possible and they must be
-distinguished before any of this is trusted:
+An earlier pass here suspected ff. 18-21 might be in a different cipher from ff. 196/201, because
+hand-assigned figure values disagreed. That was my own shorthand colliding on near-identical
+shapes, not two ciphers. The test that settles it: feed f. 18's first cipher figures to the key
+derived from f. 143 — Tomokiyo's table as corrected here — and it returns
 
-1. the shapes really are different and my ASCII shorthand has collided — which is likely, since
-   this cipher has several near-identical figures and the shorthand was never grounded in an image;
-2. or ff. 18-21 and ff. 196/201 are **not in the same key**, and Tomokiyo's single paragraph has
-   lumped together two ciphers. Note that f. 18 is written *by* Mayenne (it confers "avec Monsieur
-   le Mareschal de Matignon"), while f. 196 is written *about* him ("Monsieur du Mayne vous a faict
-   une autre despesche"), so they are not from the same desk.
+> que · s ie ee fu · ut au au uc **ma este** ours **plustost que nous eu son** ee le e p ma p
 
-The way to settle it, and the reason this crib is worth the work, is to stop naming figures
-altogether: segment f. 18r/18v into glyph boxes, align the boxes to f. 19's known plaintext, and
-keep the **images** as labelled exemplars. Then match each undeciphered leaf's boxes against those
-exemplars by shape. That answers the question and builds the table in the same pass.
+against f. 19r's clear
 
-## Why this is the thing to do next
+> Que sa **Majesté** fust advertie … **plustost que nous eussions** victoire et …
 
-Everything attempted here has been limited by transcription, not by cryptanalysis, and every
-confusable pair that has been separated was separated by a crib. This crib is an order of
-magnitude larger than the f. 196/201 one:
+*plustost que nous eussions* comes out of the figures exactly, and *ma este* is *Majesté*. The
+key is the same one; the residue is transcription, as everywhere else in this target.
 
-1. With the plaintext known, a transcription of the cipher does not have to be right — it has to be
-   *alignable*. A mis-seen figure shows up as a mismatch against a known letter and is corrected on
-   the spot, instead of having to be guessed from context.
-2. 2,500 aligned figures give many exemplars of every homophone, which is what the shape
-   classifier needed and never had (`shapes.py` failed on 30 exemplars).
-3. The result is the complete Mayenne–Forget Cipher-1 table — not Tomokiyo's partial one — after
-   which the eight undeciphered leaves are a transcription exercise with no unknown figures left.
+## What this makes possible
 
-## Set-up already done
+This is the first point in the whole target where the loop closes:
 
-`hi/f18r.jpg`, `hi/f18v.jpg`, `hi/f19r.jpg` fetched at native resolution; `hi/f19rflat.png`
-flattened and `f19r_lines.txt` fitted (32 lines, pitch 125, clean). `mtile.py` now snaps each
-fitted centre to the local ink maximum, so the per-leaf offset that cost so much time no longer has
-to be set by hand.
+1. the key already reads perhaps half the figures of f. 18;
+2. f. 19 supplies the other half as known plaintext;
+3. so every figure the key gets wrong is *visible* — it decodes to a letter the plaintext says is
+   something else — and can be corrected on the spot rather than guessed from context.
+
+That is a convergent procedure, not an open-ended one, and it runs over ~1,650 figures. It should
+resolve precisely the values that have blocked every leaf: the three near-identical figures for
+**i / n / s**, the two round ones for **a / m**, and the **e / r** pair. With those fixed the eight
+undeciphered leaves have no unknown figures left in them.
+
+## How to run it
+
+* cipher side: `hi/f18rflat.png` + `f18r_lines.txt` (22 lines) and f. 18v; tile with
+  `mtile.py`, which fades the neighbouring lines.
+* plaintext side: `hi/f19rflat.png` + `f19r_lines.txt` (33 lines), tiles cut at `hi/P_*`;
+  transcription so far in `f19r_clear.md`.
+* decode with `KEY=key.json python dec.py`, diff against the plaintext, correct the key, repeat.
