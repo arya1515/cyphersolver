@@ -545,3 +545,21 @@ The two things still between this and a read leaf were named earlier as *seven l
 groups*. The code groups are now demonstrated. Five letters remain, all rare, and they will come
 from crib lines containing *chose*, *pays*, *quelque*, *hommes* — f. 19r line 4, *"changera tant par
 les habitans de la ville qui estoient fort estonnez"*, carries h, p, q and z in one line.
+
+
+## More landmarks in the cipher: codes 24 and 35
+
+Scanning f. 18r lines 5–7 for code groups — they stand out, being figures rather than letter-shapes
+— turns up **`24`** (struck through, mid-line 5) and **`35`** at the end of line 6. Tomokiyo gives
+24 = *nostre* and 35 = *parce que*.
+
+Neither has been checked against a plaintext before. They are also two more anchors for
+`align.py`: the landmark set on f. 18r is now `14`, `25`, `52`, `24`, `35`, which is roughly one
+every line and a half — dense enough that the cumulative alignment cannot drift far before being
+pulled back.
+
+The struck-through `24` is worth a note of its own. A deleted code group means the clerk
+*enciphered a word and then cancelled it*, which the decipherment on f. 19 will silently not
+contain. Any alignment that assumes every figure produces a letter will lose a beat there, so
+struck figures have to be found and skipped — one more reason the landmark-and-audit approach is
+right and a straight position count is not.
