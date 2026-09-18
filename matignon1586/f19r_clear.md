@@ -8,7 +8,7 @@ Lines 1–8, with `…` where a word is not yet settled:
 1. Que sa Ma[jes]té fust advertie … plustost que nous eussions victoire e[t]
 2. **Conseil d[e] [a]ssembl[er/ée] de Castillebourg où l'on feist … que je n'avois plus d'instruction**
 3. … à nulle cause, il nous … **Mais** considérant que ces so[nt] …   *(not "Ma[jes]té": at six tiles the word is plainly **Mais**, which also reads better — the landmark discrepancy on this line is what prompted the re-reading)*
-4. -ses sont ung peu changées tant par les habitans de la ville qui estoient fort estonnez
+4. **changera tant par ce que les habitans de la ville qui s'estoient fort estonnez**   *(firm at six tiles; "par ce que" = parce que)*
 5. … ou reprim[ent] … pas ce retour de m[onsieu]r le gouverneur de Coul… aut…
 6. … noz lieux forces. Que les froidz sont devenuz tres grandz, que pour
 7. … tenir les soldatz dans les tranchées sans grande …
@@ -72,3 +72,20 @@ yet: the ±4 drift has accumulated far enough by line 6 to put the landmark in t
 line, or Tomokiyo's value for 35 is wrong. The second would be worth knowing; it is the kind of
 thing a crib this size exists to settle, and it will settle itself once the plaintext either side is
 firm.
+
+
+## Line 4 firm, and the *parce que* found
+
+At six tiles line 4 reads **"changera tant par ce que les habitans de la ville qui s'estoient fort
+estonnez"**. The words I had skated over as *"tant par … l[es] … que"* are **par ce que** — *parce
+que* written in three words, which is how the secretary writes it.
+
+That closes the discrepancy left open above. f. 18r line 6 ends with code `35`, Tomokiyo's *parce
+que*; the arithmetic had put it in f. 19r line 3, which has no *parce que*; it is in line 4. So:
+
+* **Tomokiyo's 35 = *parce que* is confirmed** against a plaintext — the fourth nomenclature value
+  checked this way, after 14, 25 and 52;
+* the figure arithmetic was **one line out**, not wrong: accumulated drift of the kind already
+  measured (±4 units per 125) is enough to cross a line boundary by the sixth line.
+
+And the line carries what the mining needs: **h** twice (*changera*, *habitans*).

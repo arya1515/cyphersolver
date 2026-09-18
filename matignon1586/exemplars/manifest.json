@@ -1212,123 +1212,315 @@
   "crib": "forced alignment of line 6"
  },
  {
-  "file": "exemplars/f18r_l7fa_02_e.png",
+  "file": "exemplars/f18r_l7g7_01_s.png",
+  "letter": "s",
+  "src": "f18r_l7g7",
+  "box": [
+   96,
+   260,
+   756,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_02_e.png",
   "letter": "e",
-  "src": "f18r_l7fa",
+  "src": "f18r_l7g7",
   "box": [
    299,
    337,
    758,
    803
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_04_s.png",
+  "file": "exemplars/f18r_l7g7_03_s.png",
   "letter": "s",
-  "src": "f18r_l7fa",
+  "src": "f18r_l7g7",
+  "box": [
+   356,
+   424,
+   752,
+   797
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_04_s.png",
+  "letter": "s",
+  "src": "f18r_l7g7",
   "box": [
    453,
    506,
    756,
    832
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_06_n.png",
+  "file": "exemplars/f18r_l7g7_05_o.png",
+  "letter": "o",
+  "src": "f18r_l7g7",
+  "box": [
+   520,
+   555,
+   752,
+   796
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_06_n.png",
   "letter": "n",
-  "src": "f18r_l7fa",
+  "src": "f18r_l7g7",
   "box": [
    586,
-   729,
+   669,
    752,
    826
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_07_t.png",
+  "file": "exemplars/f18r_l7g7_07_t.png",
   "letter": "t",
-  "src": "f18r_l7fa",
+  "src": "f18r_l7g7",
+  "box": [
+   681,
+   729,
+   752,
+   793
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_08_u.png",
+  "letter": "u",
+  "src": "f18r_l7g7",
   "box": [
    763,
    832,
    752,
    832
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_12_c.png",
-  "letter": "c",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_09_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   846,
+   881,
+   752,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_10_g.png",
+  "letter": "g",
+  "src": "f18r_l7g7",
+  "box": [
+   898,
+   936,
+   752,
+   806
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_11_p.png",
+  "letter": "p",
+  "src": "f18r_l7g7",
+  "box": [
+   964,
+   1023,
+   758,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_12_e.png",
+  "letter": "e",
+  "src": "f18r_l7g7",
+  "box": [
+   1046,
+   1085,
+   762,
+   825
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_13_u.png",
+  "letter": "u",
+  "src": "f18r_l7g7",
   "box": [
    1102,
-   1206,
+   1134,
    755,
    807
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_14_n.png",
-  "letter": "n",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_14_c.png",
+  "letter": "c",
+  "src": "f18r_l7g7",
+  "box": [
+   1141,
+   1206,
+   756,
+   800
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_15_h.png",
+  "letter": "h",
+  "src": "f18r_l7g7",
+  "box": [
+   1227,
+   1256,
+   752,
+   804
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_16_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
   "box": [
    1287,
+   1338,
+   752,
+   798
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_17_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   1349,
    1440,
    752,
    811
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_19_n.png",
-  "letter": "n",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_18_g.png",
+  "letter": "g",
+  "src": "f18r_l7g7",
+  "box": [
+   1467,
+   1633,
+   752,
+   814
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_19_e.png",
+  "letter": "e",
+  "src": "f18r_l7g7",
+  "box": [
+   1648,
+   1708,
+   778,
+   818
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_20_r.png",
+  "letter": "r",
+  "src": "f18r_l7g7",
+  "box": [
+   1760,
+   1806,
+   752,
+   816
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_21_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
+  "box": [
+   1832,
+   1886,
+   752,
+   812
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_22_t.png",
+  "letter": "t",
+  "src": "f18r_l7g7",
   "box": [
    1923,
-   2045,
+   1976,
    767,
-   832
+   821
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_20_t.png",
-  "letter": "t",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_23_a.png",
+  "letter": "a",
+  "src": "f18r_l7g7",
   "box": [
-   2080,
+   1984,
+   2045,
+   779,
+   832
+  ],
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
+ },
+ {
+  "file": "exemplars/f18r_l7g7_24_n.png",
+  "letter": "n",
+  "src": "f18r_l7g7",
+  "box": [
+   2090,
    2133,
    752,
    830
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_27_n.png",
-  "letter": "n",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_25_t.png",
+  "letter": "t",
+  "src": "f18r_l7g7",
   "box": [
-   2646,
-   2790,
-   752,
+   2167,
+   2215,
+   773,
    832
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  },
  {
-  "file": "exemplars/f18r_l7fa_28_s.png",
-  "letter": "s",
-  "src": "f18r_l7fa",
+  "file": "exemplars/f18r_l7g7_26_parceque.png",
+  "letter": "parceque",
+  "src": "f18r_l7g7",
   "box": [
-   2833,
-   2854,
-   752,
+   2233,
+   2273,
+   793,
    832
   ],
-  "crib": "forced alignment of line 7"
+  "crib": "forced alignment of line 7 at gap 7, run 1-26 only"
  }
 ]

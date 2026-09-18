@@ -53,12 +53,17 @@ def align(bvecs, text, by, skip=-0.55, split=-0.35, digraph=-0.15):
     D = np.full((n+1, m+1), NEG); D[0, 0] = 0.0
     back = {}
     E = [[emission(b, by, ch) for ch in text] for b in bvecs]
+    known = [ch in by for ch in text]
     for i in range(n+1):
         for j in range(m+1):
             if D[i, j] == NEG: continue
             cands = []
             if i < n and j < m:   cands.append((i+1, j+1, E[i][j], '1'))
-            if i < n and j+1 < m: cands.append((i+1, j+2, 0.5*(E[i][j]+E[i][j+1]) + digraph, '2'))
+            # A digraph may not contain a token that has no exemplars: averaging an unknown letter's
+            # flat prior with a well-matched neighbour's score lets the aligner hide the unknown
+            # letter inside a pair, which is exactly how h kept coming out as "ha".
+            if i < n and j+1 < m and known[j] and known[j+1]:
+                cands.append((i+1, j+2, 0.5*(E[i][j]+E[i][j+1]) + digraph, '2'))
             if i < n:             cands.append((i+1, j, skip, '0'))
             if i+1 < n and j < m: cands.append((i+2, j+1, max(E[i][j], E[i+1][j]) + split, 's'))
             for ni, nj, s, op in cands:

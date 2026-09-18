@@ -823,3 +823,31 @@ figure once the text is there (it is robust to the segmentation slop that defeat
 train/test split needs more lines of known plaintext than the two currently held out; and the missing
 letters h, q, x, y, z are in f. 19's text and will arrive on their own once it is read. The aligner
 can help with the reading, scoring rival readings of a doubtful word, but the reading has to be done.
+
+
+## h comes in — once the aligner is stopped from hiding it
+
+Line 7 is the opposite of line 3: **under**-segmented. At gap 14 it gives 28 boxes against 37
+tokens and the aligner crams nine digraphs. The segmenter bottoms out at 33 boxes even at gap 7,
+because some figures are physically joined and no gap setting splits connected ink; but 33 is far
+closer, and at gap 7 the alignment score rises from 19.21 to 21.11 with 26 one-to-one pairs instead
+of 19.
+
+Both *h*s still came out paired with *a* — `16:ha`, `28:ha`. Rendering the boxes showed that was
+not the manuscript: box 16 is a single **E**-shaped figure, box 28 a single **·V·** (which is *n*).
+It was the aligner. *h* had no exemplars, so it carried only a flat prior, and a digraph averages
+two emissions — pairing the unknown *h* with a well-matched *a* hid *h*'s poor score inside the pair.
+**Digraphs are now forbidden when either token has no exemplars.** With that one change:
+
+```
+14:c 15:h 16:a 17:n 18:g 19:e 20:r 21:a     <- "changera", eight one-to-one pairs
+26:<parceque>                               <- the code group alone on its box
+```
+
+Minted boxes 1–26 of line 7 only. The tail, *les habitans*, still needs digraphs, and box 28 is
+visibly the *n*-figure where the aligner puts *s* — so it is held back rather than minted wrong.
+
+**Now 121 exemplars, 17 of 22 letters, four code groups** (`plustost`, `que`, `parceque`, and the
+doubled-s). *h* is in. *m* has dropped out — the only *m* was in the over-split line-3 batch,
+rejected above — and will come back from any solid stretch with *maieste* or *commencement* in it.
+Missing: m, q, x, y, z.
