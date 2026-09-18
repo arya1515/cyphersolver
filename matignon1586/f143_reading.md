@@ -75,3 +75,43 @@ f. 144r (canvas 151 right) is a clear letter in a heavily corrected hand, beginn
 que Vostre Majesté…"*, and running onto f. 144v with its own signature. The opening does not repeat
 f. 143's (*"Sire, j'ay mandé…"*), so it is a separate letter — a draft or minute from another hand —
 and not a decipherment of f. 143.
+
+
+## f. 143v, the second page of cipher: transcribed in full and read in long stretches
+
+All 33 cipher lines of the verso were transcribed at two tiles a line (`f143v_cipher.txt`) and decoded
+with the key and the period-French model (`reading_f143v.txt`). The page reads as a continuous
+argument about the terms offered to the captain of a place Mayenne is besieging — a sum of money
+paid over three years, a royal pardon, and the governor's surrender of the place:
+
+> **[lines 1–7]** … luy fai[re] payer dans trois ans … la somme de douze … de luy faire obtenir … de
+> son … de le rendre, et oultre … pour luy faire avoir … un **pardon** de tous [ses] … que je supplie
+> très humblement Vostre Majesté … de vouloir confirmer … ainsi que j'en aye …
+
+> **[lines 8–12]** … me suis résolu … que je ne me fusse pas tant advancé de traicter … car … de
+> rendre son … **parce qu'il ne** se peut ayder …
+
+> **[lines 13–15]** … du comte, **de sa femme** et … **à ses enfans; et quand au pardon, il ne peut
+> estre valable qu'il n'ayt passé au Parlement** …
+
+> **[lines 16–24]** … il est certain qu'ils ne … pas … **qu'il n'ait obey** … et du tout renvoyé à
+> l'aultre partie … pour la **somme** dont il en a … une partie … **qu'il nous a espargné** … et de
+> l'autre, **elle n'est pas aussi du tout inutile, ayant de luy ceste obligation de ne porter les
+> armes** …
+
+> **[lines 25–33]** … **j'ay grande espérance de l'en retenir du tout, et ce faisant** … **place de
+> conséquence — c'est ce qui m'a peu … plus volontiers en ce traicté** … **s'il luy plaist entendre
+> son intention** … la parole …
+
+**What the despatch is.** Mayenne reports to the King that he has negotiated the surrender of a
+place held by a captain, on terms that need the King's confirmation: money over three years, a
+pardon that "cannot be valid until it has passed the Parlement", and an obligation "not to bear
+arms"; he explains why he went so far in treating ("a place of consequence"), and asks the King to
+make his intention known. The recto's closing lines — *"la composition de sa place, laquelle
+estoit encore…"* and *"il m'a promis de vous … faire pendant ce temps"* — are the same negotiation.
+
+**Coverage, honestly.** Roughly half the verso reads as continuous French; the rest is fragments.
+With the recto at about two thirds, **f. 143 as a whole — about 54 cipher lines — is now read in
+substance**, the subject, the terms and the request all being recoverable, though not word for word.
+The remaining gaps are transcription slips in single figures, which is where a second pass at higher
+magnification has closed lines before.
