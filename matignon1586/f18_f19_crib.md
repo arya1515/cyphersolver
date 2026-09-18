@@ -283,11 +283,22 @@ Boxes found on f. 18r's first three full cipher lines, by gap:
 | 16 | 28, 31, 26 | 85 |
 | 18 | 24, 24, 23 | 71 |
 
-f. 19r's first two lines hold 128 letters, so those cipher lines must carry roughly 120–130
-figures. **Gap 8 is the setting**; 18 — what the hand-labelling on line 2 used — was losing nearly
-a third of the figures by merging them, which is exactly why that line threw up so many `MULTI`
-boxes and why the second stretch audited at 1.71.
+**Correction.** A first reading of that table said "gap 8", from a three-line total measured
+against a loosely estimated plaintext span. That was wrong, and the right test is narrower: line 2
+is the one line whose span is known *exactly*, because it was hand-labelled — 15 letters of
+*ste fust aduertie*, the three code groups `52`/`14`/`25`, the 8 of *eussions*, and 4 into
+*uictoire*: **30 figures**. Against that:
 
-So the free parameter that has been guessed at throughout this target is now pinned by
-measurement. Re-segmenting at gap 8 and re-running `align.py` is the immediate next step, and the
-audit will say whether it worked before anything is labelled.
+| gap | boxes on line 2 | error |
+|---|---|---|
+| 8 | 37 | +7 |
+| 10 | 36 | +6 |
+| 12 | 32 | +2 |
+| **14** | **29** | **−1** |
+| 16 | 28 | −2 |
+| 18 | 24 | −6 |
+
+So **gap 13–14** for this hand — splitting figures at 8, merging them at 18. The three-line total
+pointed the wrong way because the plaintext span it was compared against was a guess, which is a
+fair warning about the audit: it is only as good as the certainty of the plaintext behind it.
+Calibrate on hand-labelled spans, not on estimated ones.
