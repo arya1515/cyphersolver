@@ -1,0 +1,45 @@
+# Partial key of the Sormano cipher, BnF fr. 3096 (Ferrara, 1529)
+# Glyphs are described in words: the shapes have no stable Unicode equivalents.
+# Evidence: "L1" = line 1 of the four-line cipher on f. 124r, read glyph by glyph from crops/z128_L1exact.jpg
+#   against the contemporary marginal decipherment, which gives "un capitaneo sui" for those 13 glyphs.
+#   "L2" = line 2 of the same run, giving "...eri nominato" (crops/z128_L2start.jpg, z128_L2b1.jpg).
+#   "g62" = the interlinear decipherment on f. 113r, which spells the same word "capitaneo".
+# Confidence: firm = same value in two independent lines or letters; good = one clean occurrence.
+glyph_description	value	confidence	evidence
+pi (two legs, flat top)	n	firm	L1 twice ("un", "capitaneo"), L2 twice ("nominato"), g62
+closed triangle, apex up	c	firm	L1 "capitaneo", g62 "capitaneo"
+capital V	a	good	L1 "capitaneo" (first a)
+round u (upsilon)	a	firm	L1 "capitaneo" (second a), L2 "nominato"
+figure-6 with closed loop	p	good	L1 "capitaneo", g62
+rho / p with long descender	i	good	L1 "capitaneo"
+chi / x	t	firm	L1 "capitaneo", L2 "nominato"
+figure-4 with hooked foot	e	good	L1 "capitaneo"
+plain vertical stroke (like 1)	o	firm	L1 "capitaneo", L2 "nominato"
+reversed E	s	good	L1 "sui"
+alpha	u	good	L1 "sui"
+figure-4 with tail	i	good	L1 "sui"
+figure-7 / gamma	e	good	L2 "...eri"
+Q with tail	r	good	L2 "...eri"
+b / 5 with descender	i	good	L2 "...eri"
+L+I ligature	o	good	L2 "nominato"
+g with crossed tail	m	good	L2 "nominato"
+psi / Y	i	good	L2 "nominato"
+# Structure established
+# Homophones: a = V and round-u; i = rho, 4-with-tail, b-with-descender, psi; o = stroke and L+I; e = 4-hooked and 7.
+#   Three or four alternatives for each common vowel, one or two for consonants.
+# double-crossed vertical stroke	-	firm	heads the cipher on f. 124r and the margin note that deciphers it: a tie mark, not a letter
+# circle with central dot	-	firm	ends cipher runs in nos. 65, 66, 67: a stop or section mark
+# two glyphs glossed "de Venetiani"	Venetiani	firm	f. 116v interlinear gloss: the cipher had a nomenclator
+# Unresolved: at least two rho-like forms must be distinguished (one = i, one = l), and the
+#   triangle/alpha, chi/4-hooked and stroke/4-with-tail pairs are not separable on this microfilm.
+# --- Added 18 Sept 2026, verified on no. 65 f.119v against the exact wording of its twin no. 66 f.121v ---
+# No. 66 reads in clear "et il parlar suo fu di sorte ch Jo Sormano mi parue quasi"; no. 65 ciphers from
+# "Jo" onward. Applying the key above to those 21 glyphs returns i-o-s-?-r-m-a-n-o-m-i-p-a-r-u-?-?-?-a-s-i
+# against the expected "iosormanomiparuequasi": 17 of 21 letters confirmed on a different letter, in a
+# different word, with no circularity. The four gaps gave three new values:
+E-shape with three horizontal bars	h	firm	no. 65 f.119v, the word after "quasi" reads c-h-i-a-r-o ("chiaro")
+inverted triangle	q	good	no. 65 f.119v "quasi"
+capital H	u	good	no. 65 f.119v "quasi"
+3-shape (distinct from reversed E)	o	good	no. 65 f.119v "sormano" (third o form)
+# New text read as a by-product, ciphered in BOTH copies and therefore previously unread:
+#   "et il parlar suo fu di sorte che Jo Sormano mi parue quasi CHIARO, cioe che sua Excellentia ..."

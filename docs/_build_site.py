@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260917b'
+VERSION = '20260918a'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -46,7 +46,7 @@ FINDINGS_REGION = re.compile(r'<h2 id="recent">.*?(?=\n<h2|\n<!-- |\Z)', re.S)
 GENERATED = [
     r'<header class="nav">.*?</header>', r'<nav class="nav">.*?</nav>', r'<footer.*?</footer>',
     r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
-    r'<!-- cards:start -->.*?<!-- cards:end -->',
+    r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
@@ -128,7 +128,7 @@ PAGES = [
          quote='&ldquo;he was angry [with the Lord Deputy] &hellip; upon his motion [Ormonde] is to be a councellor&rdquo;'),
     dict(slug='vatican', label='Vatican', year='1542', y=1542, place='Rome &rarr; Spain', st='stuck', stt='family identified',
          title='The Vatican cipher of April 1542 &mdash; an Antonio Elio cipher',
-         blurb='Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Six sessions, five model classes excluded against matched controls, the Meister keys verified from the scans.',
+         blurb='Farnese to the nuncio Poggio, four folios, 6,549 digits, open since Lasry set it in 2019. Not read, but named: a polyphonic-syllabic cipher of the design Antonio Elio built for Paul III&rsquo;s chancery. Seven sessions, five model classes excluded against matched controls, the Meister keys excluded under any renumbering, and the 400&nbsp;dpi images read against the transcript: no separators, no decipherment, no key.',
          quote='27 and 80 end a third of the words &middot; 441 repeated 7-grams against 5 in a shuffle'),
     dict(slug='warsaw', label='Warsaw', year='1627', y=1627, place='Warsaw', st='solved', stt='solved',
          title='From Warsaw, 24 December 1627 &mdash; an alphabet in plain order',
@@ -160,6 +160,18 @@ PAGES = [
          blurb='The 1819 editor of Catinat&rsquo;s papers printed seven court despatches of July&ndash;September 1691 in figures and could not read them; Bazeries rebuilt the code from them in 1893, printed two in clear for the Man in the Iron Mask, and stopped. His table reads all seven from the library&rsquo;s OCR of the volume, 12,362 groups, checked against the page images; the two he printed agree at 98 and 99 %. The other five are read here for the first time, among them the King&rsquo;s twenty-page letter of 14 September: bring the army back over the Alps, hold the passes, keep Carmagnole to cover the negotiation with the Pope, then burn it, and take Coni in the winter.',
          quote='&ldquo;je me suis d&eacute;termin&eacute; &agrave; pr&eacute;f&eacute;rer le parti solide &agrave; l&rsquo;honorable&rdquo; &middot; Louis XIV, 14 September 1691',
          rights='Page images: Bayerische Staatsbibliothek, CC BY-NC-SA'),
+    dict(slug='herbault1626', label='Herbault', year='1626', y=1626, place='Paris &rarr; Rome', st='solved', stt='resolved',
+         author='Arya Sanketbhai Patel',
+         title='Herbault to B&eacute;thune, 13 February 1626 &mdash; the decipherment three folios away',
+         blurb='The one letter marked &ldquo;avec chiffre&rdquo; and not &ldquo;avec chiffre et d&eacute;chiffrement&rdquo; among some thirty of 1625&ndash;26 to the ambassador in Rome. It is not an undeciphered text: no. 26 is not a second letter but the same despatch, carrying the same cipher with the plaintext written between the lines in 1626. Identity fixed on the word-for-word clear text, the cipher runs falling at the same points and matching groups. The ciphered passages are the papal Legate and &ldquo;le Pape pour l&rsquo;acheminement de ces troupes in la Valteline&rdquo;, the admission that France made peace with the Huguenots because &ldquo;le faix d&rsquo;une double guerre ne se pouvoit plus supporter&rdquo;, the Dutch squadron sailing home with the Huguenot admiral, and Savoy&rsquo;s attempt to engage France against Spain six weeks before Monz&oacute;n. Contributed by Arya Sanketbhai Patel.',
+         quote='&ldquo;principallement sy le Pape entroit dans la partialit&eacute;&rdquo;',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='sormano1529', label='Sormano', year='1529', y=1529, place='Ferrara &rarr; France', st='partial', stt='key supplied, substance read',
+         author='Arya Sanketbhai Patel',
+         title='Sormano and Passano from Ferrara &mdash; eight failures, a published key, and two corrections',
+         blurb='Three ciphered letters of Fran&ccedil;ois I&rsquo;s agents at Ferrara, February 1529. Eight independent methods failed on a 1960s microfilm that will not separate thirty-six symbol forms &mdash; and then George Lasry&rsquo;s 2023 key, published all along on a page I had not searched, read them. It also graded the attempt: 20 of the 22 values derived here were right, and the two wrong ones were exactly what had blocked it. The Duke&rsquo;s answer comes out as <em>&ldquo;risolutamente concluse per cosa dil mondo non voler &hellip; se alcunamente accetare il regno&rdquo;</em> &mdash; Alfonso d&rsquo;Este refusing the kingdom for nothing in the world. With the documentary findings from the failure: no. 63&rsquo;s lost third sheet, the duplicate that cribs its twin, and Passano identified. The page also records two things this write-up previously got wrong. Contributed by Arya Sanketbhai Patel.',
+         quote='&ldquo;per cosa dil mondo non voler &hellip; accetare il regno&rdquo; &middot; 20 of 22 values right',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
     dict(slug='hesse1603', label='Hesse', year='1602&ndash;09', y=1605, place='Paris &rarr; Kassel', st='solved', stt='read',
          author='Arya Sanketbhai Patel',
          title='Henri IV to Landgrave Maurice &mdash; the figures Rommel printed in 1840 and the key he printed in 1846',
@@ -170,11 +182,21 @@ PAGES = [
          title='Urquhart&rsquo;s Cyphral Octastich &mdash; a book cipher on his own Jewel, read without the plaintext',
          blurb='Eight lines and a &ldquo;Decagram&rdquo; of numbers on the last leaf of The Jewel (1652), Schmeh&rsquo;s Top 50 no. 28. Number k indexes a word on physical page k of the book, and Urquhart took the first word of the initial he needed: a habit checkable without any plaintext. The public transcription was thirteen numbers short; the 1983 edition&rsquo;s photographs on the HCPortal give 285, which decode straight with 238 of 284 first-occurrence hits against 0.43 for shuffled and random-page controls, into a royalist prayer for Charles II. Vals AI published the rule in August 2026 as a Claude Fable 5.1 result; the companion distich claim does not reproduce.',
          quote='&ldquo;Great Lord, mantaine that regal familie &hellip; Our Emperour, King, Monarch and Protector&rdquo;'),
+    dict(slug='reserva12', label='Reserva 12', year='1413&ndash;16', y=1414, place='Barcelona &rarr; the King of Aragon', st='found', stt='read in 1931',
+         title='A Catalan letter in transposition, Barcelona 2 May [1413&ndash;16] &mdash; ACA Reserva 12',
+         blurb='The oldest item on DECODE with a public image, listed as an undeciphered cipher of unknown type. It is a Catalan letter to the King written down the columns of each block, the word chunks cut by slashes, and Xavier de Salas explained the rule and printed the whole text in 1931, in the article the record itself cites. The rule is checked here on the image: the first block reads <em>Senyor, jo us auie quezacom escrit&hellip;</em> A royal financial officer in Barcelona, with Roger de Pallars, urges Ferdinand I to leave Val&egrave;ncia and hold the corts, and defends his own accounts.',
+         quote='&ldquo;No us anugets de legir, car con lest ho ajats prazer n&rsquo;aurets e no playarets l&rsquo;afany&rdquo;',
+         rights='Manuscript rights: Arxiu de la Corona d&rsquo;Arag&oacute;'),
     dict(slug='esp318', label='Espagnol 318', year='1497&ndash;1504', y=1497, place='Naples, Venice, Messina &rarr; Spain', st='partial', stt='keys found, part read',
          title='Espagnol 318 &mdash; five ciphered letters of the Catholic Monarchs, and which keys open them',
          blurb='The oldest item in the catalogue, and four different answers. No.&nbsp;5 was never open: Ivan Parisi printed the whole text in 2020, having found that the king of Naples had his secret letter enciphered in the Spanish ambassador&rsquo;s own cipher, by the ambassador&rsquo;s hand. No.&nbsp;92, the Great Captain to Lorenzo Su&aacute;rez of 17 August 1500, is written in the <em>Cifra general de los Reyes Cat&oacute;licos</em> that Galende D&iacute;az printed in 1994 &mdash; proposed by Tomokiyo from the look of the code groups, proved here against eight words a later hand wrote between the lines, with no misses; the key is transcribed, 683 groups, and the letter is readable. No.&nbsp;95 has George Lasry&rsquo;s alphabet and no published text: segmenting and clustering its 963 signs reads about two thirds, Spanish, about the French and about what a <em>Se&ntilde;or&iacute;a</em> can be brought to do. Nos.&nbsp;93 and 94 stay unread but are named: their code initials exclude both printed keys and point at the <em>Gran cifra</em> of 1501&ndash;04, whose only reconstruction sits in a Madrid manuscript that is not served online.',
          quote='&ldquo;y tiempo, por estar en tanto&rdquo; &middot; the glossator&rsquo;s own words, from the printed key',
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='vasto1527', label='Del Vasto 1527', year='1527&ndash;28', y=1527.8, place='Rome and Madrid &rarr; Charles V', st='partial', stt='two of three read',
+         title='Del Vasto to Charles V and a letter to &ldquo;Garbino&rdquo;, 1527&ndash;28 &mdash; one found solved, one read, one without its key',
+         blurb='Three imperial ciphers in BnF fr. 3022, listed with no decipherment. Del Vasto&rsquo;s letter from Ischia of 27 September 1527 had been solved by George Lasry and Satoshi Tomokiyo. The anonymous &ldquo;report&rdquo; is del Vasto&rsquo;s own letter of December 1527: Lasry had its letters, and about forty of its code groups are identified here, which makes it readable as his plan to march on Siena, Perugia and Urbino. The Madrid letter to &ldquo;Garbino&rdquo; is in Hieronimo Ranzo&rsquo;s initial-letter code. Its numbering is not alphabetical, and without the table only its function words come out.',
+         quote='&ldquo;el ex&eacute;rcito por lo de advenir no se puede sostener desta manera&rdquo; &middot; del Vasto, December 1527',
+         rights='Manuscript images: Biblioth&egrave;que nationale de France'),
     dict(slug='raince', label='Raince', year='1526', y=1526, place='Rome &rarr; the Court', st='partial', stt='read in part',
          title='Raince to Montmorency, Rome, 1526 &mdash; the key was misread by one column',
          blurb='Eight ciphered despatches of the French embassy&rsquo;s secretary at Rome sit in BnF fr. 2984; about 106 lines of them, the 13 May and 20 November 1526 letters to Montmorency, exist in no edition. The obstacle was never cryptanalytic. Tomokiyo published the key in 2020, but reading which glyph sits under which letter in his table by eye slips a column: <em>l</em>, <em>m</em> and <em>n</em> were each a place wrong, and every reading built on it was corrupt. Measured off the image instead &mdash; every ink blob within 15&nbsp;px of a header column &mdash; the table resolves a control line glyph for glyph with nothing left over, and 86 of the 106 lines then read by hand from the microfilm. Nine days before the League of Cognac: the Castilians and the Bourguignons, <em>le chemin de Valence</em>, a capitulation for which <em>ilz seront cause de la destruction</em>, the plague in Rome, advices reaching the Imperials by their own people, and a man taken <em>un jour, en plaine place pres du palais</em>. Two months after the Colonna raid, a pontificate that <em>seroit la cause de la totale ruine de sa maison</em>. The clear close of 13 May, transcribed here, expects Andrea Doria at Civitavecchia within a day with six galleys.',
@@ -184,6 +206,11 @@ PAGES = [
          title='Sormano and de Vaulx to Fran&ccedil;ois I, February 1529 &mdash; the duke of Ferrara declines the crown of Naples',
          blurb='Three ciphered despatches of the French agents at Ferrara, BnF fr. 3096 nos. 63, 65 and 66, listed unread beside two glossed siblings. Lasry&rsquo;s key holds; the leaves add a null, a nomenclator for the duke and four letter forms. Eighteen thousand signs segmented from the Gallica scans, clustered and classified, then every line read on review sheets; the duplicate pair, which enciphers different stretches, checks itself. Alfonso d&rsquo;Este will not take the kingdom or the captaincy of the French army, and the agents call his difficulties pretexts, eight months before Cambrai.',
          quote='&ldquo;risolutamente concluse per cosa dil mondo non voler per s&eacute; alcunamente accettare il regno et manco far l&rsquo;impresa a suo nome&rdquo;',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='gramont1529', label='Gramont 1529&ndash;37', year='1529&ndash;37', y=1529.8, place='Rome, Venice &rarr; the Court', st='solved', stt='read',
+         title='Gramont, M&acirc;con and Langeac to Montmorency, 1529&ndash;1537 &mdash; four keys solved in 2023, four letters never read',
+         blurb='Four ciphered letters to the grand ma&icirc;tre from the French ambassadors at Rome and Venice, catalogued with no decipherment. Each has its own key, and Lasry had reconstructed all four from siblings; nobody had applied them. Read: Saint-Pol and the Venetians in January 1529; Clement VII on the council, his dream and his feigned illness on the road to Bologna in October 1529; the princes&rsquo; return in 1530; Paul III and the Farnese marriage in 1537.',
+         quote='&ldquo;le concile general, lequel il craignoit sur toutes les choses de ce monde&rdquo;',
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
     dict(slug='adrian1521', label='Adrian 1521', year='1521', y=1521, place='Vitoria &rarr; Charles V', st='found', stt='printed reading corrected',
          title='Adrian of Utrecht, the Admiral and the Constable to Charles V, 30 December 1521 &mdash; a printed decipherment checked and corrected',
@@ -235,11 +262,31 @@ PAGES = [
          blurb='BnF fr. 4735 f. 124, catalogued &ldquo;avec chiffre&rdquo; with no decipherment. The key is a homophonic letter cipher with word signs, recovered from a sibling letter whose Court decipherment survives as gutter-cut marginal notes (&ldquo;car je n&rsquo;ay pas cinquante escuz&rdquo;) and checked against the fragments on f. 124 itself. Both passages read, and the key then opens the three election letters whose only &ldquo;decipherment&rdquo; was that cut gloss: the Polish nation &ldquo;autant v&eacute;nale &hellip; comme sont les Allemans&rdquo;, the Emperor&rsquo;s three hundred thousand spent for nothing, and on 9 May the election carried against the Sultan, the Emperor, the princes of the Empire, Spain, Muscovy and Sweden, &ldquo;qui tous estoient bandez contre vostre Majest&eacute;&rdquo;. Tomokiyo&rsquo;s published table for the cipher is corrected.',
          quote='&ldquo;qui tous estoient bandez contre vostre Majest&eacute;&rdquo; &middot; P&#322;ock, 9 May 1573',
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='pelissier1592', label='Pelissier 1592', year='1592', y=1592.7, place='Burgos &rarr; France', st='partial', stt='read in part',
+         title='Pelissier to Jeannin, Burgos, 13 September 1592 &mdash; the League&rsquo;s agent at Philip II&rsquo;s court',
+         blurb='Nine pages, mostly in cipher, that Tomokiyo lists as only partially deciphered: the League&rsquo;s agent in Spain reporting to Mayenne&rsquo;s councillor four months before the Estates of 1593. Tomokiyo&rsquo;s key for Pelissier&rsquo;s later letters fits. About 18,400 signs transcribed and beam-decoded against period French; half to two-thirds of the cipher reads. Philip grants 500 ducats, Pelissier argues against holding the Estates now and for two armies at 300,000 &eacute;cus a month, and reports the case being made in France for Navarre.',
+         quote='&ldquo;la nomination d&rsquo;un roy legitime pour l&rsquo;opposer a l&rsquo;heretique et tyran&rdquo;',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='orbais', label='Orbais 1589', year='1589', y=1589.65, place='Rome &rarr; Paris', st='partial', stt='read in part',
+         title='A letter from Rome to the abb&eacute; d&rsquo;Orbais, 23 August 1589 &mdash; the three keys bound with it do not fit',
+         blurb='BnF fr. 3413 no. 62 was catalogued with three cipher keys bound in the same volume that might read it. None does. The letter, from a secretary of Cardinal Pellev&eacute; in Rome to Jean de Piles of the League&rsquo;s council in Paris, is almost all in clear and carries the news of Henri&nbsp;III&rsquo;s murder as it reached Rome. Its ninety-odd signs of cipher are in the Nevers&ndash;Piles alphabet that Tomokiyo identified. His partial table was filled out from a deciphered letter of 1586 in fr. 4715 in the same cipher. Read: <em>Cassin</em>, <em>la protection</em>, <em>vostre regne</em>, <em>depeschera</em>, <em>mon maitre a est&eacute; retir&eacute;</em>, and the signature, probably <em>Baron</em>. About thirty signs, most of them code signs, remain open.',
+         quote='&ldquo;le Roy a est&eacute; tu&eacute;, et c&rsquo;est le Roy de Navarre qui l&rsquo;a faict faire&rdquo;',
+         rights='Manuscript images: Biblioth&egrave;que nationale de France'),
+    dict(slug='lorraine1592', label='Lorraine 1592', year='1592', y=1592, place='Nancy &rarr; Vaud&eacute;mont', st='partial', stt='key recovered, read in part',
+         title='Charles III of Lorraine to Vaud&eacute;mont, 18 June 1592 &mdash; a cipher catalogued as undecrypted, broken',
+         blurb='BnF Fran&ccedil;ais 3621 no. 97, recorded in the DECODE database as <em>Non-decrypted</em>, with no key ever published and no crib in the volume: the January intercepts it was hoped to match exist only as a plaintext decipherment. An earlier attempt failed by treating it as a symbol cipher and clustering the glyphs by shape. They are <strong>ordinary cursive letterforms</strong> and can simply be read. The old solver was then shown, on controls with known keys, to be incapable of a cipher this size &mdash; 37&ndash;56% of letters at &minus;2.64 where the true key scored &minus;1.62 &mdash; and was replaced by a steepest-ascent search that recovers known keys at 98.7&ndash;99.6%. The key it found is verified against the manuscript, not the model: the group spelling <em>chasteau</em> occurs twice in the cipher, and Chasteauvillain stands in the clear on the same page. The Duke orders his son to conserve the plain and to bring the army back into the quarters of La Fauche.',
+         quote='&ldquo;ramener mon arm&eacute;e &hellip; es quartiers de la Faulche&rdquo; &middot; DECODE 9449: Non-decrypted',
+         rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
     dict(slug='nevers1593', label='Nevers 1593', year='1593', y=1593.5, place='Nevers &rarr; Rome', st='partial', stt='2 of 7 read',
          title='Nevers to Pisany, 1593 &mdash; the numerical key reads two letters, and the other five were never in it',
          blurb='Seven ciphered copies of the duc de Nevers&rsquo; letters from the road to Rome, catalogued as one office&rsquo;s key. They are two. Tomokiyo&rsquo;s Nevers cipher no. 46, read from the full-resolution table in fr. 3995 and checked against the office&rsquo;s own decipherment of a Gondi letter, resolves every figure of the two letters to Pisany: the 8 September letter whole, the 14 October one in long stretches. The five letters to Revol are in the Court&rsquo;s symbol cipher no. 60; one copy is in clear, one carries ninety symbols, three were not reached.',
          quote='&ldquo;l&rsquo;on n&rsquo;a volont&eacute; de contanter le Pape, que l&rsquo;on n&rsquo;y aille poynt&rdquo;',
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
+    dict(slug='clair357', label='Clairambault 357, 1586', year='1586', y=1586.8, place='Angoumois &rarr; a League leader', st='found', stt='decipherment found',
+         title='An anonymous figure cipher of October 1586 &mdash; the &ldquo;unread&rdquo; two thirds were deciphered in 1586, on the next leaf and between the lines',
+         blurb='A League-period letter in two-digit figures, listed with a partial key and two thirds of its first page unread. The volume holds its own decipherment: folio 168 is a clear text of the cipher down to a cross mark, and from that cross to the end the decipherer wrote the plaintext between the lines. Tomokiyo&rsquo;s key agrees with the glosses (<em>Guienne</em>, <em>tres confident</em>, <em>Fum&eacute;</em>), which also give 87&nbsp;=&nbsp;e and the King of Navarre&rsquo;s sign. The letter: Fum&eacute;, vice-admiral of Guyenne and Navarre&rsquo;s Catholic confidant, keeps proposing a reconciliation between Navarre and the addressee, probably Guise, while Catherine de M&eacute;dicis negotiates.',
+         quote='&ldquo;Fum&eacute;, visadmiral de Guienne, tres confident du Roy de Navarre, bien qu&rsquo;il soit catholique&rdquo;',
+         rights='Manuscript images: Biblioth&egrave;que nationale de France'),
     dict(slug='mendoza1589', label='Mendoza 1589', year='1589', y=1589, place='San Lorenzo &rarr; Paris', st='found', stt='resolved',
          title='Philip II to Mendoza, 7 September 1589 &mdash; the &ldquo;second undeciphered letter&rdquo; is the decipherer&rsquo;s copy',
          blurb='BnF fr. 3641 holds both of Philip II&rsquo;s letters of that day twice: the originals in the general cipher Cg.13 and the 1589 decipherer&rsquo;s fair copies, laid out like the originals with the unread code words in the margin, one of them miscatalogued as a second cipher letter. Aligning the pairs rebuilds some seventy syllables and fifty code groups of Cg.13, reads groups the decipherers left blank (respeto, vuestro, negocio) and corrects their &ldquo;Francia&rdquo; to England. Fourteen groups open.',
@@ -322,35 +369,166 @@ PAGES = [
          quote='Fame is a poor guide to tractability.'),
     dict(slug='solved', label='What has been read', year='catalogue', y=9998, place='Catalogue', st='partial', stt='solved catalogue',
          title='What has been read, and how',
-         blurb='Thirty-one ciphers solved, read or partly read, from an unaddressed Spanish cipher of January 1497 to Sun Yat-sen&rsquo;s telegrams of 1917, each with the thing that actually broke it, and an account of what a frontier AI did well on the way and where it stopped.',
-         quote='Eight to a solver, fourteen to a printed or archived sibling, five to looking at the leaf, two verifications.'),
+         blurb='Thirty-four ciphers solved, read or partly read, from an unaddressed Spanish cipher of January 1497 to Sun Yat-sen&rsquo;s telegrams of 1917, each with the thing that actually broke it, and an account of what a frontier AI did well on the way and where it stopped.',
+         quote='Eight to a solver, seventeen to a printed or archived sibling, five to looking at the leaf, two verifications.'),
 ]
-IMAGES = {'breves1603': ('breves1603_key_leaf.jpg', 'BnF fr. 3462 f. 103, the key of Savary de Brèves for 1602–03: persons in the left column, the alphabet across the top, the nomenclator below, doubles and nulls at the foot on the right', 'Bibliothèque nationale de France'), 'soglia1848': ('soglia1848_block_head.jpg', "The Roman reprint of L'Italia del Popolo, 30 June 1848: the clear opening of Cardinal Soglia's dispatch and the first lines of digits, 5 the word break, 8XXX the code", 'Tony Gaffney, via Klaus Schmeh, Cipherbrain'), 'vich1511': ('vich1511_n46_cipher_decipher.jpg', "AHN Estado 8715 N.46, 5 July 1511: the opening lines of the cipher above the opening of the clerk's decipherment, Con beltran de cordona que partio de Sevilla a xvj de junio", 'Archivo Histórico Nacional (PARES)'), 'norfolk1570': ('norfolk1570_f74r_lines.jpg', 'BL Cotton MS Caligula C II f. 74r, the left half of the first five cipher lines of Mary to Norfolk, the 20th [1570]: I have, my oun good lord', 'British Library'), 'orpo1942': ('orpo1942_redform.jpg', 'W/T Red Form from intercept station 51 for the Mogilev message of 16 June 1942, with the discriminator ARTTN and the first cipher groups', 'NARA, RG 457, HCC, Box 202, via Weierud (CryptoCellar, 2020)'), 'legation': ('legation_no88.jpg', "NARA M35 reel 3 frame 0206, No. 88 of 25 June 1812: the clerk's pencil decode above the code groups stops where Ford's nine undecyphered lines begin", 'National Archives and Records Administration'), 'sunintercepts': ('sunintercepts_tenkiutai.jpg', 'Dai Jitao to Sun Yat-sen, 26 March 1917: condenser words on the received-message form, signed Tenkiutai; the last word ends in the rhyme code for the 26th', 'JACAR'), 'adrian1521': ('adrian1521_f1r_head.jpg', 'AGS Estado leg. 8 no. 150, f. 1r: the address, the clear opening and the first cipher lines, where Gredilla read the death of the King of England', 'Archivo General de Simancas, via PARES'), 'toledo1565': ('toledo1565_f1r_lead.jpg', "AGS Estado leg. 1394 no. 247 f. 1r, the first lines of García de Toledo's letter of 16 July 1565, figure runs inline in the clear Spanish, among them seiscientos soldados and en tiera", 'Archivo General de Simancas (PARES)'), 'yard1699': ('yard1699_oct12.jpg', 'Yard to Manchester, Whitehall, 12 October 1699, p. 1: runs of figure groups set inside the clear English', 'Beinecke Rare Book and Manuscript Library, Yale University'), 'sormano': ('sormano_f121r_head.jpg', 'BnF fr. 3096 f. 121r, the head of no. 66 with the docket duplicata, the clear opening and the first cipher runs', 'Bibliothèque nationale de France'), 'esp318': ('esp318_f116r_gloss.jpg', 'BnF Espagnol 318 f. 116r, two ciphered lines with a later hand carrying a partial decipherment written small between them', 'Bibliothèque nationale de France'), 'raince': ('raince_p30_lines.jpg', "BnF fr. 2984 p. 30, the first three lines of the second ciphered page of the letter of 13 May 1526", 'Bibliothèque nationale de France'), 'richelieu': None, 'bethune': ('bethune_f34.jpg', 'BnF fr. 3484 f. 34r, the first enciphered passage of Henri IV to Béthune, 10 November 1601', 'Bibliothèque nationale de France'), 'feuquieres': ('feuquieres_p283.jpg', 'Mémoires de Catinat 1819, vol. II p. 283, the ciphered despatch', 'Bayerische Staatsbibliothek'), 'urquhart': None, 'mondoucet': None, 'nevers1593': ('nevers1593_f209_lines.jpg', 'BnF Français 3985 f. 209, the copy of Nevers to Pisany of 8 September 1593, figures inside the clear text', 'Bibliothèque nationale de France'), 'mendoza1589': ('mendoza1589_f14.jpg', 'BnF Français 3641 f. 14, the copy made by the 1589 decipherer of letter A, with the unread code groups underlined and listed in the margin', 'Bibliothèque nationale de France'), 'hesse1603': ('hesse1603_p310.jpg', 'Rommel 1840, p. 310, a page of the King\'s letter of 20 May 1606 in figures', 'Internet Archive'), 'catinat1691': ('catinat1691_p320.jpg', 'Mémoires de Catinat 1819, vol. II p. 320, the start of the King\'s letter of 14 September 1691 in figures', 'Bayerische Staatsbibliothek'), 'ormonde': ('ormonde_p28.jpg', 'Page of the Maltravers to Ormonde cipher letter, 1634', 'Ormonde manuscripts'), 'vatican': ('vatican_meister176.jpg', 'Meister 1906, page 176: the Farnese chancery keys of 1539 to 1542, including the last cipher with Poggio', 'Meister, Die Geheimschrift, 1906, via the Internet Archive'), 'lucca': None, 'boswell': None, 'forster': None, 'warsaw': None, 'hyde': ('hyde_p396.jpg', 'Page 396 of the Life of Barwick, 1724, with the ciphered superscription', 'Life of Barwick, 1724'), 'armstrong': ('armstrong_ps.jpg', 'The coded postscript of Armstrong to Madison, 30 August 1808', 'Founders Online'), 'debosnys': ('debosnys_verse.png', 'Debosnys cipher poem in his invented script, 1883', ''), 'sunyatsen': ('sunyatsen_telegram.png', 'The Swatow telegram to Sun Yat-sen, 3 April 1916', 'JACAR'), 'huangxing': ('huangxing_telegram.png', 'Telegram from Huang Xing, 25 May 1916', 'JACAR'), 'adfgvx': None, 'goldbar': ('goldbar_bar.jpg', 'One of the seven Chinese gold bars with its Latin-letter strings', 'IACR'), 'roosevelt': ('roosevelt_fig2.jpg', 'The Roosevelt letter of 1935: three lines of digits, the letter lines, a skull and crossbones and a dagger through a boot', 'The Friedman Legacy, NSA 1992, Internet Archive scan'), 'copenhagen': ('copenhagen_note.jpg', 'The Copenhagen cryptogram: three lines of digits, letters and strokes', 'Scan published by Klaus Schmeh, Cipherbrain, 2015'), 'scorpion': ('scorpion_s1.jpg', 'Scorpion cipher S1, 70 symbols in a 10 by 7 grid, 1991', 'FBI release via Oranchak and Schmeh'), 'voynich': ('voynich_f34r.jpg', 'Voynich manuscript, folio 34r: a herbal page with four paragraphs of Voynichese', 'Beinecke MS 408, public domain, via Wikimedia Commons'), 'famous': None, 'solved': None}
+IMAGES = {'lorraine1592': ('lorraine1592_f109_cipher.jpg', 'BnF Fran\u00e7ais 3621 f. 109, a line of the cipher: ordinary cursive letterforms, opening with the group that spells chasteau', 'Biblioth\u00e8que nationale de France'), 'reserva12': ('reserva12_block1.jpg', 'ACA Reserva 12, the first lines of the strip: Senyor jous / pus compli / escriua ja, to be read down the columns of the block', 'Arxiu de la Corona d’Aragó, via DECODE R10170'), 'orbais': ('orbais_f126v_depeschera.jpg', 'BnF fr. 3413 f. 126v, to the abbé d’Orbais, 23 August 1589: Les jugemens de Dieu sont fort profons et inscrutables, then the cipher signs of depeschera, dedans deux jours', 'Bibliothèque nationale de France'), 'clair357': ('clair357_f167r_glosses.jpg', 'BnF Clairambault 357 f. 167r: two-digit figures with the 1586 decipherer’s words written between the lines, Fumé, visadmiral, du Roy de Navarre', 'Bibliothèque nationale de France'), 'breves1603': ('breves1603_key_leaf.jpg', 'BnF fr. 3462 f. 103, the key of Savary de Brèves for 1602–03: persons in the left column, the alphabet across the top, the nomenclator below, doubles and nulls at the foot on the right', 'Bibliothèque nationale de France'), 'pelissier1592': ('pelissier1592_f46r_head.jpg', 'BnF Français 3982 f. 46r, Pelissier to Jeannin, Burgos, 13 September 1592: the clear opening and the first rows of cipher, with the decipherer’s scattered glosses', 'Bibliothèque nationale de France'), 'soglia1848': ('soglia1848_block_head.jpg', "The Roman reprint of L'Italia del Popolo, 30 June 1848: the clear opening of Cardinal Soglia's dispatch and the first lines of digits, 5 the word break, 8XXX the code", 'Tony Gaffney, via Klaus Schmeh, Cipherbrain'), 'vich1511': ('vich1511_n46_cipher_decipher.jpg', "AHN Estado 8715 N.46, 5 July 1511: the opening lines of the cipher above the opening of the clerk's decipherment, Con beltran de cordona que partio de Sevilla a xvj de junio", 'Archivo Histórico Nacional (PARES)'), 'norfolk1570': ('norfolk1570_f74r_lines.jpg', 'BL Cotton MS Caligula C II f. 74r, the left half of the first five cipher lines of Mary to Norfolk, the 20th [1570]: I have, my oun good lord', 'British Library'), 'orpo1942': ('orpo1942_redform.jpg', 'W/T Red Form from intercept station 51 for the Mogilev message of 16 June 1942, with the discriminator ARTTN and the first cipher groups', 'NARA, RG 457, HCC, Box 202, via Weierud (CryptoCellar, 2020)'), 'legation': ('legation_no88.jpg', "NARA M35 reel 3 frame 0206, No. 88 of 25 June 1812: the clerk's pencil decode above the code groups stops where Ford's nine undecyphered lines begin", 'National Archives and Records Administration'), 'sunintercepts': ('sunintercepts_tenkiutai.jpg', 'Dai Jitao to Sun Yat-sen, 26 March 1917: condenser words on the received-message form, signed Tenkiutai; the last word ends in the rhyme code for the 26th', 'JACAR'), 'adrian1521': ('adrian1521_f1r_head.jpg', 'AGS Estado leg. 8 no. 150, f. 1r: the address, the clear opening and the first cipher lines, where Gredilla read the death of the King of England', 'Archivo General de Simancas, via PARES'), 'toledo1565': ('toledo1565_f1r_lead.jpg', "AGS Estado leg. 1394 no. 247 f. 1r, the first lines of García de Toledo's letter of 16 July 1565, figure runs inline in the clear Spanish, among them seiscientos soldados and en tiera", 'Archivo General de Simancas (PARES)'), 'yard1699': ('yard1699_oct12.jpg', 'Yard to Manchester, Whitehall, 12 October 1699, p. 1: runs of figure groups set inside the clear English', 'Beinecke Rare Book and Manuscript Library, Yale University'), 'sormano': ('sormano_f121r_head.jpg', 'BnF fr. 3096 f. 121r, the head of no. 66 with the docket duplicata, the clear opening and the first cipher runs', 'Bibliothèque nationale de France'), 'esp318': ('esp318_f116r_gloss.jpg', 'BnF Espagnol 318 f. 116r, two ciphered lines with a later hand carrying a partial decipherment written small between them', 'Bibliothèque nationale de France'), 'gramont1529': ('gramont1529_f45r_head.jpg', 'BnF fr. 3091 f. 45r, the clear opening of Gramont to Montmorency, 11 October 1529, and the first lines of the five pages of cipher', 'Bibliothèque nationale de France'), 'raince': ('raince_p30_lines.jpg', "BnF fr. 2984 p. 30, the first three lines of the second ciphered page of the letter of 13 May 1526", 'Bibliothèque nationale de France'), 'richelieu': None, 'bethune': ('bethune_f34.jpg', 'BnF fr. 3484 f. 34r, the first enciphered passage of Henri IV to Béthune, 10 November 1601', 'Bibliothèque nationale de France'), 'feuquieres': ('feuquieres_p283.jpg', 'Mémoires de Catinat 1819, vol. II p. 283, the ciphered despatch', 'Bayerische Staatsbibliothek'), 'urquhart': None, 'mondoucet': None, 'nevers1593': ('nevers1593_f209_lines.jpg', 'BnF Français 3985 f. 209, the copy of Nevers to Pisany of 8 September 1593, figures inside the clear text', 'Bibliothèque nationale de France'), 'mendoza1589': ('mendoza1589_f14.jpg', 'BnF Français 3641 f. 14, the copy made by the 1589 decipherer of letter A, with the unread code groups underlined and listed in the margin', 'Bibliothèque nationale de France'), 'herbault1626': ('herbault1626_f73r.jpg', 'BnF Français 3669 f. 73r, figure cipher with the 1626 decipherment written under each line', 'Bibliothèque nationale de France'), 'sormano1529': ('sormano1529_f124.jpg', 'BnF Français 3096 f. 124r, four lines of cipher with the contemporary decipherment down the margin', 'Bibliothèque nationale de France'), 'hesse1603': ('hesse1603_p310.jpg', 'Rommel 1840, p. 310, a page of the King\'s letter of 20 May 1606 in figures', 'Internet Archive'), 'catinat1691': ('catinat1691_p320.jpg', 'Mémoires de Catinat 1819, vol. II p. 320, the start of the King\'s letter of 14 September 1691 in figures', 'Bayerische Staatsbibliothek'), 'ormonde': ('ormonde_p28.jpg', 'Page of the Maltravers to Ormonde cipher letter, 1634', 'Ormonde manuscripts'), 'vatican': ('vatican_meister176.jpg', 'Meister 1906, page 176: the Farnese chancery keys of 1539 to 1542, including the last cipher with Poggio', 'Meister, Die Geheimschrift, 1906, via the Internet Archive'), 'lucca': None, 'boswell': None, 'forster': None, 'warsaw': None, 'hyde': ('hyde_p396.jpg', 'Page 396 of the Life of Barwick, 1724, with the ciphered superscription', 'Life of Barwick, 1724'), 'armstrong': ('armstrong_ps.jpg', 'The coded postscript of Armstrong to Madison, 30 August 1808', 'Founders Online'), 'debosnys': ('debosnys_verse.png', 'Debosnys cipher poem in his invented script, 1883', ''), 'sunyatsen': ('sunyatsen_telegram.png', 'The Swatow telegram to Sun Yat-sen, 3 April 1916', 'JACAR'), 'huangxing': ('huangxing_telegram.png', 'Telegram from Huang Xing, 25 May 1916', 'JACAR'), 'adfgvx': None, 'goldbar': ('goldbar_bar.jpg', 'One of the seven Chinese gold bars with its Latin-letter strings', 'IACR'), 'roosevelt': ('roosevelt_fig2.jpg', 'The Roosevelt letter of 1935: three lines of digits, the letter lines, a skull and crossbones and a dagger through a boot', 'The Friedman Legacy, NSA 1992, Internet Archive scan'), 'copenhagen': ('copenhagen_note.jpg', 'The Copenhagen cryptogram: three lines of digits, letters and strokes', 'Scan published by Klaus Schmeh, Cipherbrain, 2015'), 'scorpion': ('scorpion_s1.jpg', 'Scorpion cipher S1, 70 symbols in a 10 by 7 grid, 1991', 'FBI release via Oranchak and Schmeh'), 'voynich': ('voynich_f34r.jpg', 'Voynich manuscript, folio 34r: a herbal page with four paragraphs of Voynichese', 'Beinecke MS 408, public domain, via Wikimedia Commons'), 'famous': None, 'solved': None}
 
-GROUPS = [('Solved', lambda p: p['st'] == 'solved'), ('Explained', lambda p: p['st'] == 'found'),
-          ('Partly read', lambda p: p['st'] == 'partial' and p['slug'] not in ('famous', 'solved')),
-          ('Attempted, not solved', lambda p: p['st'] == 'stuck'), ('Survey', lambda p: p['slug'] in ('solved', 'famous'))]
+SURVEYS = ('famous', 'solved')
+# chip value on writeups.html, menu label, badge class, predicate
+GROUPS = [('solved', 'Solved', 'solved', lambda p: p['st'] == 'solved'),
+          ('found', 'Explained', 'found', lambda p: p['st'] == 'found'),
+          ('partial', 'Partly read', 'partial', lambda p: p['st'] == 'partial' and p['slug'] not in SURVEYS),
+          ('stuck', 'Attempted, not solved', 'stuck', lambda p: p['st'] == 'stuck'),
+          ('survey', 'Surveys', 'todo', lambda p: p['slug'] in SURVEYS)]
+NAV_LATEST = 6          # write-ups shown in the menu; the rest are one click away on writeups.html
+
+def kind_of(p): return 'survey' if p['slug'] in SURVEYS else p['st']
 
 def nav_html(current):
-    items = []
-    for gname, pred in GROUPS:
-        ps = sorted([p for p in PAGES if pred(p)], key=lambda p: p['y'])
-        if not ps: continue
-        lis = ''.join(f'<li><a href="{p["slug"]}.html"{" aria-current=\"page\"" if p["slug"] == current else ""}>'
-                      f'<span class="st {p["st"]}">{p["stt"]}</span><b>{p["label"]}</b><span class="yr">{p["year"]}</span></a></li>' for p in ps)
-        items.append(f'<div class="grp"><h4>{gname}</h4><ul>{lis}</ul></div>')
+    """The Write-ups menu. It stopped listing every page when the count passed forty: it now shows the newest few,
+    the counts by outcome (each a link into the filtered index) and the way to the full list on writeups.html."""
+    cur = lambda slug: ' aria-current="page"' if slug == current else ''
+    latest = sorted([p for p in PAGES if p['slug'] not in SURVEYS],
+                    key=lambda p: (DATES['pages'].get(p['slug'], {}).get('first', TODAY), p['y']), reverse=True)[:NAV_LATEST]
+    lis = ''.join(f'<li><a href="{p["slug"]}.html"{cur(p["slug"])}><span class="st {p["st"]}">{p["stt"]}</span>'
+                  f'<b>{p["label"]}</b><span class="yr">{p["year"]}</span></a></li>' for p in latest)
+    groups = ''.join(f'<li><a href="writeups.html#kind={key}"><span class="st {cls}">{sum(1 for p in PAGES if pred(p))}</span>'
+                     f'<b>{name}</b></a></li>' for key, name, cls, pred in GROUPS)
+    on = ' class="active"' if current == 'writeups' or any(p['slug'] == current for p in PAGES) else ''
+    panel = (f'<div class="grp"><h4>Latest</h4><ul>{lis}</ul></div>'
+             f'<div class="grp"><h4>By outcome</h4><ul>{groups}</ul></div>'
+             f'<div class="foot"><a href="writeups.html"{cur("writeups")}>All {len(PAGES)} write-ups, with filters &rarr;</a>'
+             f'<a href="writeups.html#src=notes">Results only in the notes</a></div>')
     return (
         f'<header class="nav"><div class="in">\n'
         f'  <a class="brand" href="index.html"><span class="glyph">972</span><span>{SITE}</span></a>\n'
         f'  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>\n'
         f'  <nav id="sitemenu" class="links" aria-label="Site">\n'
-        f'    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
-        f'      <div class="panel">{"".join(items)}</div></details>\n'
+        f'    <details class="menu"><summary{on}>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
+        f'      <div class="panel wp">{panel}</div></details>\n'
         f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>Catalogue</a>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
         f'  </nav>\n</div></header>')
+
+# ---------------------------------------------------------------------------
+# writeups.html: every write-up, filterable, followed by the results that exist only as notes in the repository.
+# The second list is read from ../README.md, whose Results tables are the ledger every session keeps: a row whose
+# "Where" column links to a site page is a write-up (checked against PAGES), any other row is notes only.
+PERIODS = [('1500s', 'to 1599', lambda y: y < 1600), ('1600s', '1600s', lambda y: 1600 <= y < 1700),
+           ('1800s', '1700s and 1800s', lambda y: 1700 <= y < 1900), ('1900s', '1900s', lambda y: 1900 <= y < 9000)]
+KINDS = [('solved', 'solved'), ('found', 'explained or found solved'), ('partial', 'partly read'),
+         ('stuck', 'attempted, not solved'), ('offline', 'waiting on an archive'), ('survey', 'survey')]
+# README section heading, status class, badge text
+README_SECTIONS = [('### Solved', 'solved', 'solved'), ('### Explained', 'found', 'explained'),
+                   ('### Partly read', 'partial', 'partly read'), ('### Found already solved', 'found', 'found solved'),
+                   ('### Attempted and closed', 'stuck', 'attempted'), ('### Offline only', 'offline', 'offline only'),
+                   ('### In progress', 'partial', 'in progress')]
+
+def period_of(y):
+    return next((k for k, _, f in PERIODS if f(y)), 'survey')
+
+def repo_url(link):
+    if link.startswith('http'): return link
+    link = link.lstrip('./')
+    return f'{REPO}/{"tree" if link.endswith("/") else "blob"}/main/{link}'
+
+def md_inline(s):
+    """The little Markdown the README cells use: links, bold, italic, code."""
+    s = html.escape(s, quote=False)
+    s = re.sub(r'\[([^\]]+)\]\(([^)\s]+)\)', lambda m: f'<a href="{repo_url(m.group(2))}" rel="noopener">{m.group(1)}</a>', s)
+    s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
+    s = re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])', r'<i>\1</i>', s)
+    s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
+    return s
+
+def plain(s):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
+
+def year_of(date):
+    m = re.search(r'(\d{4})', date)
+    if m: return int(m.group(1))
+    m = re.search(r'(\d{2})th c', date)
+    return int(m.group(1)) * 100 - 50 if m else 0
+
+def readme_notes():
+    """Rows of the README results tables that have no site page: target, date, result, link, status."""
+    try: text = (HERE.parent / 'README.md').read_text(encoding='utf-8')
+    except FileNotFoundError: return []
+    slugs = {p['slug'] for p in PAGES}
+    notes, seen_pages, st = [], set(), None
+    for line in text.splitlines():
+        if line.startswith('## '): st = None
+        if line.startswith('### '):
+            st = next(((k, t) for h, k, t in README_SECTIONS if line.startswith(h)), None); continue
+        if not st or not line.startswith('| ') or line.startswith('| Target') or line.startswith('|---'): continue
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if len(cells) < 4: continue
+        target, date, result, where = cells[0], cells[1], cells[-2], cells[-1]
+        pages = re.findall(r'cyphersolver/([a-z0-9]+)\.html', where)
+        if pages:
+            for slug in pages:
+                if slug in slugs: seen_pages.add(slug)
+                else: print(f'  note: README links {slug}.html, which is not in the manifest')
+            continue
+        links = re.findall(r'\]\(([^)\s]+)\)', where)
+        if not links: continue
+        notes.append(dict(target=md_inline(target), date=html.escape(date, quote=False), y=year_of(date),
+                          result=md_inline(result), url=repo_url(links[0]), st=st[0], stt=st[1]))
+    for slug in sorted(slugs - seen_pages - set(SURVEYS)):
+        print(f'  note: {slug}.html has no README row')
+    return notes
+
+def writeups_html():
+    def q(*parts): return html.escape(plain(' '.join(parts)).lower(), quote=True)
+    rows = []
+    for p in sorted(PAGES, key=lambda p: p['y']):
+        rows.append(f'<li data-kind="{kind_of(p)}" data-period="{period_of(p["y"])}" data-src="page" '
+                    f'data-q="{q(p["label"], p["title"], p["place"], p["year"], p["blurb"], p["stt"])}">'
+                    f'<a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span>'
+                    f'<span class="t">{p["title"]}</span>{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span>'
+                    f'<span class="b">{p["blurb"]}</span></a></li>')
+    notes = readme_notes()
+    nrows = []
+    for n in sorted(notes, key=lambda n: n['y']):
+        nrows.append(f'<li data-kind="{n["st"]}" data-period="{period_of(n["y"])}" data-src="notes" '
+                     f'data-q="{q(n["target"], n["result"], n["date"], n["stt"])}">'
+                     f'<a href="{n["url"]}" rel="noopener"><span class="st {n["st"]}">{n["stt"]}</span>'
+                     f'<span class="t">{n["target"]}</span><span class="dt">notes &#8599;</span><span class="yr">{n["date"]}</span>'
+                     f'<span class="b">{n["result"]}</span></a></li>')
+    chips = lambda facet, vals: ''.join(f'<button type="button" class="chip" data-facet="{facet}" data-val="{k}" aria-pressed="false">{label}</button>' for k, label in vals)
+    total = len(rows) + len(nrows)
+    return (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f'<title>All write-ups &mdash; {len(rows)} ciphers by outcome and date, and {len(nrows)} results still in the notes</title>\n'
+        f'<meta name="description" content="Every write-up on the site, filterable by outcome, period and text, followed by the '
+        f'results that exist only as notes in the repository: read, explained, attempted or waiting on an archive.">\n'
+        f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>\n<body id="top">\n<!-- site:nav -->\n\n'
+        '<section class="hero">\n'
+        f'  <p class="kicker">Index &middot; {len(rows)} write-ups &middot; {len(nrows)} results only in the notes</p>\n'
+        '  <h1>Every write-up</h1>\n'
+        '  <p class="sub">Each cipher this site has worked on, in date order, with its outcome. Filter by outcome or period, or search '
+        'the titles and summaries. The second list is work that exists only as notes in the repository: results not yet written up, '
+        'attempts closed from the evidence, and items waiting on an archive.</p>\n'
+        '  <div class="jump"><a href="#pages">Write-ups</a><a href="#notes">Only in the notes</a><a href="solved.html">What has been read</a><a href="catalogue.html">Catalogue</a></div>\n'
+        '  <p class="meta">Daniel Bourdeau</p>\n</section>\n\n<main>\n\n'
+        '<div class="wfilters" role="search">\n'
+        f'  <div class="facet"><span class="flabel">Outcome</span>{chips("kind", KINDS)}</div>\n'
+        f'  <div class="facet"><span class="flabel">Period</span>{chips("period", [(k, l) for k, l, _ in PERIODS])}</div>\n'
+        f'  <div class="facet"><span class="flabel">Where</span>{chips("src", [("page", "site page"), ("notes", "notes only")])}</div>\n'
+        '  <div class="facet"><span class="flabel">Search</span><input id="wq" type="search" placeholder="titles, places, summaries" aria-label="Search the write-ups">'
+        '<button type="button" class="chip" id="wreset">reset</button></div>\n'
+        f'  <p class="wcount" id="wcount" aria-live="polite">All {total} entries</p>\n</div>\n\n'
+        '<section class="wsec" id="pages">\n<h2 id="write-ups"><span class="num">01</span> Write-ups</h2>\n'
+        '<ul class="list wl">\n' + '\n'.join(rows) + '\n</ul>\n</section>\n\n'
+        '<section class="wsec" id="notes">\n<h2 id="only-in-the-notes"><span class="num">02</span> Only in the notes</h2>\n'
+        f'<p>Results recorded in the repository <a href="{REPO}#results" rel="noopener">README</a> that have no page here yet. '
+        'Each row links to the folder with the notes, transcriptions and code. The rows are read from the README at build time, '
+        'so a result lands here as soon as it is logged there.</p>\n'
+        '<ul class="list wl">\n' + '\n'.join(nrows) + '\n</ul>\n</section>\n\n</main>\n<!-- site:footer -->\n</body>\n</html>\n')
 
 def footer_html(current):
     order = sorted([p for p in PAGES if p['slug'] not in ('famous', 'solved')], key=lambda p: p['y'])
@@ -421,6 +599,8 @@ def process(path):
     if s.startswith('﻿'): s = s[1:]
     rec = page_dates(slug, s)
     page = next((p for p in PAGES if p['slug'] == slug), None)
+    if page and '<section class="hero">' not in s:
+        print(f'  note: {slug}.html has no hero section (kicker, title, byline); every write-up has one')
     nav = nav_html(slug)
     if '<!-- site:nav -->' in s: s = s.replace('<!-- site:nav -->', nav, 1)
     else: s = re.sub(r'<header class="nav">.*?</header>|<nav class="nav">.*?</nav>', lambda m: nav, s, count=1, flags=re.S)
@@ -481,7 +661,9 @@ def process(path):
         rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
                        f'{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
         cards = ('<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in feat) + '</div>\n'
-                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n<!-- cards:end -->')
+                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n'
+                 f'<p class="allws"><a href="writeups.html">All {len(PAGES)} write-ups, filterable by outcome and period, '
+                 f'with the results that are still only in the notes &rarr;</a></p>\n<!-- cards:end -->')
         if '<!-- cards:start -->' in s:
             s = re.sub(r'<!-- cards:start -->.*?<!-- cards:end -->', lambda m: cards, s, flags=re.S)
         else:
@@ -494,6 +676,9 @@ def process(path):
     return slug
 
 if __name__ == '__main__':
+    for f in sorted(HERE.glob('*.html')):      # date every page before any menu is built: the menu lists the newest
+        page_dates(f.stem, f.read_text(encoding='utf-8').lstrip('﻿'))
+    (HERE / 'writeups.html').write_text(writeups_html(), encoding='utf-8')
     done = [process(p) for p in sorted(HERE.glob('*.html'))]
     save_dates(DATES)
     print('built', ', '.join(done))

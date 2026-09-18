@@ -28,6 +28,10 @@ These are the "two thirds" that Tomokiyo called unread. The key agrees with both
   which is git-ignored and can be re-fetched with `python ../vasto1527/clairfetch.py btv1b9001053r img full 331,332,333`.
 - Crop tools: `linecrop.py` and `stack.py` (a line at a given y, cut in three stacked parts at 1.5×).
 
+Note that f. 167r is not solid cipher: the writer drops into clear for stretches (l. 2 ends "Bourdeaux", l. 3 reads
+"tres fasché du bon terme en quoy sont voz affaires", in clear, before the figures resume), and f. 168 copies those
+stretches too.
+
 ## System (Tomokiyo's table, checked and extended)
 
 The system is a homophonic two-digit figure substitution written as a continuous stream, with a few nomenclator signs,
@@ -74,7 +78,7 @@ continuous clear text. The glossed part is given as the glosses read, and figure
 ### f. 168r (= f. 167r, ll. 1-30 in cipher)
 
 > Jay receu voz deux lettres en ung mesme temps, dont jay faict communication a M^r de la Forest et M^r de Corbet.
-> Charry de nome [?] estant trespassé du bra[s?], … sont voz affaires, et que serez rentré dedans au plustost [?].
+> Charry … estant tres fasché du bon terme en quoy sont voz affaires, et que serez rentré dedans au plustost [?].
 > Indisposé d'une maladye qui ma travaillé pres de deux moys, qui a empesché vous escrire. Pendant ce temps la
 > qui fut la cause que le commis a l'abbé de la Couronne [labbé written above a struck word], par le moyen se
 > debvroit entendre … de M^r de Nemours [?], et remettre vingt [?] de leurs troupes [?] qui prendroit a moy

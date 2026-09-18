@@ -1,7 +1,10 @@
 {
  "findings": {
+  "a catalan letter to the king of aragon, barcelona, 2 may [1413–16]": "2026-09-18",
+  "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
+  "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
@@ -14,6 +17,7 @@
   "censorship manual steganograms, ww2": "2026-09-15",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
   "charles i, 1648": "2026-09-15",
+  "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
   "chinese gold bars, 1933": "2026-09-15",
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
@@ -26,10 +30,12 @@
   "from warsaw, 24 december 1627": "2026-09-16",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
+  "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
+  "herbault to béthune, 13 february 1626": "2026-09-18",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "koehler cryptograms, 1944": "2026-09-15",
@@ -42,6 +48,7 @@
   "moray to wood, 1568": "2026-09-15",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
+  "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "richard forster, 1644": "2026-09-16",
@@ -50,11 +57,14 @@
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
+  "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
+  "vatican part 5, 1542: the manuscript images": "2026-09-18",
   "voynich manuscript": "2026-09-15"
  },
  "pages": {
@@ -90,18 +100,23 @@
   },
   "breves1603": {
    "first": "2026-09-18",
-   "hash": "511f82b54eb5",
+   "hash": "682bb7ed4faf",
    "updated": "2026-09-18"
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6644d708048d",
+   "hash": "d59f8a2f85c7",
    "updated": "2026-09-18"
   },
   "catinat1691": {
    "first": "2026-09-16",
    "hash": "0b8b89f55675",
    "updated": "2026-09-16"
+  },
+  "clair357": {
+   "first": "2026-09-18",
+   "hash": "4c2f4aee4bc0",
+   "updated": "2026-09-18"
   },
   "conti1649": {
    "first": "2026-09-18",
@@ -143,6 +158,16 @@
    "hash": "bc2a87ccb6ae",
    "updated": "2026-09-15"
   },
+  "gramont1529": {
+   "first": "2026-09-18",
+   "hash": "d747fd5c84cc",
+   "updated": "2026-09-18"
+  },
+  "herbault1626": {
+   "first": "2026-09-18",
+   "hash": "3896075f49c1",
+   "updated": "2026-09-18"
+  },
   "hesse1603": {
    "first": "2026-09-17",
    "hash": "bf6ae60aa8aa",
@@ -160,7 +185,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "2986632565c7",
+   "hash": "34ced79c4964",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -171,6 +196,11 @@
   "legation": {
    "first": "2026-09-18",
    "hash": "0c9be5496dc0",
+   "updated": "2026-09-18"
+  },
+  "lorraine1592": {
+   "first": "2026-09-18",
+   "hash": "54e3de0121ca",
    "updated": "2026-09-18"
   },
   "lucca": {
@@ -198,6 +228,11 @@
    "hash": "34109d756cdc",
    "updated": "2026-09-18"
   },
+  "orbais": {
+   "first": "2026-09-18",
+   "hash": "ccee9e72fe58",
+   "updated": "2026-09-18"
+  },
   "ormonde": {
    "first": "2026-09-15",
    "hash": "54145087d76c",
@@ -208,10 +243,20 @@
    "hash": "be4a11d97de7",
    "updated": "2026-09-18"
   },
+  "pelissier1592": {
+   "first": "2026-09-18",
+   "hash": "decacef135ce",
+   "updated": "2026-09-18"
+  },
   "raince": {
    "first": "2026-09-17",
    "hash": "b283aa4c0b52",
    "updated": "2026-09-17"
+  },
+  "reserva12": {
+   "first": "2026-09-18",
+   "hash": "2ecca4bd760e",
+   "updated": "2026-09-18"
   },
   "richelieu": {
    "first": "2026-09-14",
@@ -240,13 +285,18 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "325c352e56f0",
+   "hash": "d25fa81bdf77",
    "updated": "2026-09-18"
   },
   "sormano": {
    "first": "2026-09-17",
    "hash": "2b7fdfe51a53",
    "updated": "2026-09-17"
+  },
+  "sormano1529": {
+   "first": "2026-09-18",
+   "hash": "26be796eb43c",
+   "updated": "2026-09-18"
   },
   "sunintercepts": {
    "first": "2026-09-18",
@@ -268,10 +318,15 @@
    "hash": "e49e8e334d8e",
    "updated": "2026-09-16"
   },
+  "vasto1527": {
+   "first": "2026-09-18",
+   "hash": "7791a018a971",
+   "updated": "2026-09-18"
+  },
   "vatican": {
    "first": "2026-09-15",
-   "hash": "8d6a047a3e64",
-   "updated": "2026-09-15"
+   "hash": "2b13fe545c20",
+   "updated": "2026-09-18"
   },
   "vich1511": {
    "first": "2026-09-18",
@@ -287,6 +342,11 @@
    "first": "2026-09-16",
    "hash": "9c7b6c79ee6a",
    "updated": "2026-09-16"
+  },
+  "writeups": {
+   "first": "2026-09-18",
+   "hash": "699ee9659750",
+   "updated": "2026-09-18"
   },
   "yard1699": {
    "first": "2026-09-18",

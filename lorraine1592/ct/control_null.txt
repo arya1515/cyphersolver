@@ -1,0 +1,14 @@
+MANUSCRIPT   raw -2.0992   word-coverage 83.0%   distinct long words 33
+   longest found: clairement, resolution, paroistre, quartiers, pourtant, solution, quartier, contant, uilains, emettre, secours, resolut
+
+NULLS  (same symbols and frequencies, order shuffled - no plaintext present)
+  null 101  raw -2.7180   coverage 75.2%   long words  0   e.g. 
+  null 102  raw -2.8098   coverage 72.6%   long words  1   e.g. dictee
+  null 103  raw -2.6130   coverage 78.7%   long words  3   e.g. ressens, enerue, oeuure
+  null 104  raw -2.8043   coverage 72.4%   long words  2   e.g. terminee, termine
+  null 105  raw -2.6800   coverage 74.1%   long words  0   e.g. 
+
+  null mean: raw -2.7250  coverage 74.6%  long words 1.2
+  manuscript: raw -2.0992  coverage 83.0%  long words 33
+
+[exited with code 0]

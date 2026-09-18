@@ -1,0 +1,13 @@
+full/
+th_*/
+work_*/
+Ls/
+G7/
+*.jpg
+!img/*
+man_*.json
+z*.png
+q*.png
+t0*.png
+k*.png
+t1*.png

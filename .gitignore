@@ -481,8 +481,7 @@ rennes1563/images/*
 !rennes1563/images/CharlesIX_Rennes.png
 !rennes1563/images/CharlesIX_Rennes2.png
 
-# Herbault: downloaded Gallica pages and exploratory crops; no durable reading exists yet
-herbault1626/
+# Herbault: see the herbault1626 rules below
 
 # raince: derived images and language models (regenerate with bands3.py / lmns.py)
 raince/img/lines/
@@ -556,3 +555,24 @@ orpo1942/mcts.txt
 orpo1942/wb_*.txt
 orpo1942/__pycache__/
 bordeaux/IMG_*
+!vatican5/IA-2_reread.txt
+
+# sormano1529: Gallica microfilm openings, page images and reading crops (refetch with fetch.sh / region.sh / zoom.sh)
+sormano1529/img/
+sormano1529/crops/
+sormano1529/src/*.html
+# herbault1626: Gallica microfilm openings and reading crops (refetch with fetch.sh / region.sh / zoom.sh)
+herbault1626/img/
+herbault1626/crops/
+herbault1626/src/*.html
+# lorraine1592: Gallica page images, crops and the downloaded French corpus (rebuild: see NOTES.md)
+lorraine1592/img/
+lorraine1592/img3995/
+lorraine1592/crops/
+lorraine1592/lc/
+lorraine1592/key3995/
+lorraine1592/src/*.html
+lorraine1592/src/*.htm
+lorraine1592/src/mont_*.txt
+lorraine1592/src/corpus_fr.txt
+lorraine1592/src/*.xml

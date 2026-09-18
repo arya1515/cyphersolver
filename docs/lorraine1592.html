@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charles III of Lorraine to Vaudémont, 18 June 1592 — a cipher catalogued as undecrypted, broken</title>
+<meta name="description" content="BnF Français 3621 no. 97, recorded in the DECODE database as Non-decrypted with no key ever published. The glyphs turn out to be ordinary cursive letterforms; the key was recovered by a search calibrated on known-key controls, and is verified against the page's own clear text.">
+<link rel="stylesheet" href="style.css?v=20260918a">
+<meta name="date" content="2026-09-18">
+<meta name="last-modified" content="2026-09-18">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li><li><a href="soglia1848.html"><span class="st solved">read</span><b>Soglia 1848</b><span class="yr">1848</span></a></li><li><a href="legation.html"><span class="st partial">gaps read</span><b>Erving &amp; Adams</b><span class="yr">1807&ndash;12</span></a></li><li><a href="yard1699.html"><span class="st solved">read</span><b>Yard 1699</b><span class="yr">1699</span></a></li><li><a href="bordeaux1653.html"><span class="st solved">read</span><b>Bordeaux 1653</b><span class="yr">1653</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">26</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">9</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">12</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">5</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">2</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 54 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<section class="hero">
+  <div class="cipherstrip">f H i n c t i G &middot; f H i n c t i G a y i a s n<br>c h a s t e a u &middot; c h a s t e a u [u] i l a i n s</div>
+  <p class="kicker">Nancy &rarr; the comte de Vaud&eacute;mont &middot; letter cipher with nomenclator figures, inline with clear French &middot; 18 June 1592 &middot; key recovered, read in part</p>
+  <h1>Charles III of Lorraine to Vaud&eacute;mont, 18 June 1592 &mdash; a cipher catalogued as undecrypted, broken</h1>
+  <p class="sub">BnF Fran&ccedil;ais 3621 no. 97, f. 109 &middot; the Duke writes to his son in the field about Chasteauvillain, munitions and prisoners &middot; DECODE record 9449 has it as <em>Non-decrypted</em>, and no key was ever published</p>
+  <p class="sub">The glyphs are ordinary cursive letters, not symbols to cluster &middot; the key was recovered by a search calibrated on known-key controls and checked against the page&rsquo;s own clear text &middot; about a quarter of the glyph readings are still wrong, so the letter is read in part</p>
+  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-18">18 September 2026</time></p>
+</section>
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#premise">The verification question, answered negatively</a><a href="#unpublished">No key has ever been published</a><a href="#glyphs">The letterforms are ordinary letters</a><a href="#search">The search had to be rebuilt, and the failure wa</a><a href="#key">The key, and why it is right</a><a href="#null">Tested against nulls, because the search could h</a><a href="#letter">What the ciphered passages say</a><a href="#residuals">How good the reading is, and what remains</a></nav>
+<div class="callout">
+<strong>Summary.</strong> A copy of a letter from Charles III, duke of Lorraine, to his son the comte de Vaud&eacute;mont, Nancy, 18 June 1592, bound in BnF Fran&ccedil;ais 3621 as no. 97. The DECODE database
+holds a record for this exact piece and gives its status as <em>Non-decrypted</em>; no key for it has ever been published, and the hoped-for crib &mdash; the ciphered originals of the January intercepts whose
+decipherment is no. 22 of the same volume &mdash; does not exist, because no. 22 carries no cipher at all. So the cipher had to be broken cold, from the single copy.
+It broke. The thing that had blocked an earlier attempt was an assumption: that the symbols needed to be clustered by shape. <strong>They are ordinary cursive letterforms</strong> and can simply be read.
+The recovered key is verified against the manuscript itself &mdash; the eight-symbol group that spells <em>chasteau</em> occurs twice in the cipher, and <em>Chasteauvillain</em> stands in the clear on the same page.
+<em>Status: cipher broken and the key recovered; the letter read in part. What now limits the reading is the eye-transcription of the glyphs, not the cryptanalysis, and the gap is measured rather than asserted.</em>
+<em>Contributed by aryasn2026 in <a href="https://github.com/dbourdeau/cyphersolver/pull/4" rel="noopener">pull request #4</a>, 18 September 2026, and merged after review.</em>
+</div>
+
+<h2 id="premise"><span class="num">01</span>The verification question, answered negatively</h2>
+<p>The task came with an instruction to check something first: look in Fran&ccedil;ais 3621 for the ciphered originals of the letters intercepted in January 1592. They are not there.
+<strong>No. 22, at folio 31, is a plaintext decipherment only</strong> &mdash; a fair copy of the French of three intercepted Vaud&eacute;mont letters, with no cipher anywhere on the sheet, headed
+&ldquo;Dechiffrement des lettres de Monsieur de Vaudemont &agrave; Monsieur de Lorraine [son] pere, interceptees et apportees &agrave; Monsieur de Dinteville, le XX[e] Janvier 1592&rdquo;.
+Nothing else in the volume is described as intercepted. The DECODE database confirms it independently: its record for no. 22 is marked <em>Decrypted</em> and runs to two pages.
+So the scoring note attached to this target &mdash; if no. 22&rsquo;s decipherment corresponds to a cipher copy elsewhere in the volume the key falls, otherwise a single copy &mdash; resolves to the second branch.</p>
+
+<h2 id="unpublished"><span class="num">02</span>No key has ever been published</h2>
+<p>This is the one claim in the write-up that is a negative, so it was checked hard, and it rests on a positive catalogue statement rather than on absence of hits.
+DECODE record 9449 is this letter, by shelfmark, sender, receiver and date, and its status field reads <code>Non-decrypted</code>; its symbol set is recorded as
+&ldquo;Graphic signs Alphabet Numerical&rdquo;, which matches what is on the page. Of the eight DECODE records for Fran&ccedil;ais 3621 only this one and no. 116 are undecrypted.
+No key record anywhere in DECODE is attributed to Charles III de Lorraine or to Vaud&eacute;mont.</p>
+<p>Keys for <em>other</em> Lorraine ciphers are published and are not this system: Br&eacute;val to Henri II of about 1620, and Bassompierre to Charles III of 1 August 1593, both reconstructed by Satoshi Tomokiyo.
+Desenclos and Lasry&rsquo;s 2024 paper publishes the Henri IV&ndash;Nevers digit ciphers of Fran&ccedil;ais 3995; Fran&ccedil;ais 3621 is never mentioned in it.
+Henri Lepage&rsquo;s 1864 edition of Charles III&rsquo;s League correspondence stops in 1591 and prints no cipher table.</p>
+<p>Four key sheets of 1592 in the Nevers key book, Fran&ccedil;ais 3995, whose DECODE profile matched this cipher, were fetched and examined. All four are eliminated on documentary grounds.</p>
+<table>
+<thead><tr><th>Sheet</th><th>What it actually is</th></tr></thead>
+<tbody>
+<tr><td>fol. 32</td><td>A jargon dictionary of covert equivalents &mdash; <em>Nouvelles</em> = &ldquo;Draps de soye&rdquo;, <em>Necessit&eacute;</em> = &ldquo;Medecine&rdquo; &mdash; in geometric signs and figures 2&ndash;40. Not a letter cipher.</td></tr>
+<tr><td>fol. 83&ndash;84</td><td>An all-digit cipher with a <em>Nulles</em> row. &ldquo;Duc de Lorraine&rdquo; appears in it as nomenclator entry 46, so it is somebody else&rsquo;s key that mentions Lorraine.</td></tr>
+<tr><td>fol. 98</td><td>Endorsed in its own hand: &ldquo;1592 / Chifre d&rsquo;entre le Duc de Parme et le Roy Cath[olique] en l&rsquo;an 1592 / lequel sert aussi p[our] le Duc de Sessa et don Diego de Ybarra&rdquo;.</td></tr>
+<tr><td>fol. 103</td><td>A Nevers-circle nomenclator, its flap listing Gondi, Nemours, Guise and Montpensier. It gives <strong>three homophones for every letter</strong>, which is incompatible with this cipher&rsquo;s single symbol standing at 14.4%.</td></tr>
+</tbody>
+</table>
+<p>That last sheet is worth recording for its own sake, because it shows what a full French key of this milieu contains: a 22-letter alphabet in three rows of homophones, syllable figures 1&ndash;72
+(<em>ba be bi bo bu, ca ce ci co cu</em> and so on), double-letter figures 73&ndash;98, word figures 99&ndash;353, and overbarred lists of provinces and towns in which Lorraine is 30 and Metz 68.</p>
+
+<h2 id="glyphs"><span class="num">03</span>The letterforms are ordinary letters</h2>
+<p>An earlier attempt on this piece treated the cipher the way one treats a symbol cipher: segment the glyphs, cluster them by shape, solve the cluster sequence. The segmentation worked.
+The baselines of this page slope, and the shear that sharpens the histogram of glyph y-centres is &minus;0.031; deskewing at that value resolves the block into 21 line bands at about 87&nbsp;px spacing
+in the native 4046&nbsp;&times;&nbsp;5762 image. The clustering did not work, and it never would have, because it was unnecessary. <strong>These glyphs are ordinary cursive minuscules</strong> &mdash; the
+same letters as the clear text, some carrying a crossbar, an overbar or dots, with a handful of special signs &mdash; and at about one and a half times native they can be read straight off the page.</p>
+<figure><img src="lorraine1592_f109_cipher.jpg" alt="A line of the cipher of BnF Français 3621 folio 109, showing discrete cursive letterforms rather than geometric symbols" loading="lazy">
+<figcaption>BnF Fran&ccedil;ais 3621 f. 109, the opening of line 15. The first eight forms are the group that spells <em>chasteau</em>. Biblioth&egrave;que nationale de France.</figcaption></figure>
+<p>The letter is also not a wholly ciphered despatch: clear French and cipher <strong>alternate inline on the same lines</strong>. Lines 9 and 20 are entirely clear, line 21 is cipher then clear,
+and the whole postscript after the signature is clear. The eye transcription records 1,109 tokens &mdash; 1,071 letter symbols in 44 distinct forms, and 38 nomenclator figures, of which 139 occurs
+ten times and 145 seven. Three long internal repeats, including a twelve-symbol group recurring on lines 15 and 19, confirm the transcription is self-consistent.</p>
+<p>What kind of cipher it is can be settled before solving it. The letter-symbol frequencies match French rank for rank through fourteen places, the commonest symbol standing at 14.4%.
+The coincidence statistics place it between a purely monoalphabetic and a fully homophonic system, which is to say a letter substitution with modest homophony, plus the numeric nomenclator.</p>
+<table>
+<thead><tr><th></th><th>IC, single</th><th>IC, digraph</th><th>Trigram repeat</th></tr></thead>
+<tbody>
+<tr><td>This cipher</td><td>0.0592</td><td>0.00595</td><td>39.8%</td></tr>
+<tr><td>44-symbol homophonic control</td><td>0.0416</td><td>0.00257</td><td>19.3%</td></tr>
+<tr><td>22-symbol monoalphabetic control</td><td>0.0834</td><td>0.01034</td><td>61.4%</td></tr>
+<tr><td>Plain French</td><td>0.0795</td><td>0.00894</td><td>58.5%</td></tr>
+</tbody>
+</table>
+
+<h2 id="search"><span class="num">04</span>The search had to be rebuilt, and the failure was proved first</h2>
+<p>The solver used in the earlier attempt could not have broken this cipher, and the way to establish that is not to argue about it but to give the solver a cipher whose key is known.
+On a control of the same symbol count, the same length and the same segmentation, built by enciphering real French, the random-move annealer recovered <strong>37 to 56 per cent</strong> of letters
+and scored &minus;2.64 per character, while the true key scored &minus;1.62. The optimum was therefore well separated by score, and the failure was in the search rather than in the information available.</p>
+<p>Replacing the random move with a steepest-ascent sweep &mdash; for each symbol in turn, try every plaintext letter and keep the best &mdash; run to convergence and then kicked out of the local
+optimum, recovers known keys at <strong>98.7 to 99.6 per cent</strong> in about fifteen seconds.</p>
+<p>Two traps had to be closed on the way, and both are the kind that produce a confident wrong answer. Allowing the search to mark symbols as nulls lets it delete every hard position and map the
+rest onto e, t, n, r and s, scoring &minus;1.70 &mdash; better than real French &mdash; which is purely an artefact of normalising the log-probability per surviving character. And selecting the best
+key by unpenalised score picks a degenerate key that reads <em>etenete&hellip;</em>. Nulls are capped, and degenerate keys are rejected by an explicit test on the induced letter frequency.</p>
+
+<h2 id="key"><span class="num">05</span>The key, and why it is right</h2>
+<p>The recovered mapping is stable: independent runs from different seeds, and a run with the crib locked, converge on it. The period folds u with v and i with j, and the model follows.
+Written the way a key of the time would be written, plaintext first, it is:</p>
+<table>
+<thead><tr><th>Plain</th><th>Cipher letterforms</th><th>Plain</th><th>Cipher letterforms</th></tr></thead>
+<tbody>
+<tr><td><b>a</b></td><td>alpha form &middot; <i>i</i></td><td><b>n</b></td><td>pi form &middot; long-s with overbar &middot; the figure-4 form &middot; <i>p</i> &middot; <i>n</i></td></tr>
+<tr><td><b>c</b></td><td>capital E &middot; small square with dot &middot; <i>f</i></td><td><b>o</b></td><td>capital H crossed &middot; dagger form &middot; the r/hook form</td></tr>
+<tr><td><b>d</b></td><td>o with a mark above &middot; <i>q</i></td><td><b>p</b></td><td>the beta-like b &middot; <i>b</i></td></tr>
+<tr><td><b>e</b></td><td>the large X &middot; double m with overbar &middot; t with crossbar &middot; lambda form &middot; gamma form &middot; <i>t</i></td><td><b>q</b></td><td><i>d</i></td></tr>
+<tr><td><b>h</b></td><td>looped e</td><td><b>r</b></td><td>n with two dots under &middot; reversed 3 &middot; <i>o</i> &middot; <i>v</i></td></tr>
+<tr><td><b>i</b></td><td><i>a</i></td><td><b>s</b></td><td>o with central dot &middot; n with descending tail &middot; capital E barred &middot; long s &middot; looped x</td></tr>
+<tr><td><b>l</b></td><td><i>y</i></td><td><b>t</b></td><td>c with overbar &middot; <i>c</i></td></tr>
+<tr><td><b>m</b></td><td>the 3-shaped z</td><td><b>u</b> (and v)</td><td>g with crossbar &middot; c with two dots under &middot; l with crossbar &middot; <i>g</i></td></tr>
+</tbody>
+</table>
+<p>Two things are worth reading off that table. The cipher letterforms have nothing to do with the letters they stand for &mdash; cursive <i>f</i> is <b>c</b>, <i>n</i> is <b>s</b>, <i>c</i> is <b>t</b>,
+<i>t</i> is <b>e</b> &mdash; which is exactly why a reader who took the page for badly spelled French would get nowhere. And the homophones fall where a cipher clerk would put them: six forms for
+<b>e</b>, five each for <b>n</b> and <b>s</b>, four for <b>r</b> and <b>u</b>, one apiece for the rare letters.</p>
+<p>The table also shows its own defect, and it is the useful kind. <strong>Five letters &mdash; b, f, g, x and z &mdash; come out with no cipher value at all</strong>, and <b>i</b> with only one form
+although French needs it as often as <b>s</b>. Over a thousand characters those letters should appear some thirty-five times between them. Their absence is not a property of the cipher; it is where the
+mis-transcribed glyphs have gone, and it marks precisely which forms to look at again.</p>
+<p>The verification does not depend on the language model at all. The eight-symbol group that the key renders <strong>chasteau</strong> occurs at two separate places in the cipher, on line 15 and on
+line 19. <strong>Chasteauvillain stands in the clear on the same page</strong>, twice: in the body at line 9, &ldquo;aussi si dieu nous fault la grace de prendre Chasteauvillain&rdquo;, and again in the
+postscript. The key was not fitted to that word &mdash; the 4-gram search produced it, and locking it afterwards changed nothing else.</p>
+<figure><img src="lorraine1592_f109_clear.jpg" alt="A line of clear French on the same page reading: aussi si dieu nous fault la grace de prendre Chasteau" loading="lazy">
+<figcaption>The same page, line 9, in clear: &ldquo;aussi si dieu nous fault la grace de prendre Chasteau[villain]&rdquo;. Biblioth&egrave;que nationale de France.</figcaption></figure>
+<p>Form by form, at both occurrences:</p>
+<table>
+<thead><tr><th>Letterform on the page</th><th>plain <i>f</i></th><th>looped <i>e</i></th><th>plain <i>i</i></th><th>plain <i>n</i></th><th>plain <i>c</i></th><th>plain <i>t</i></th><th>plain <i>i</i></th><th><i>g</i> with crossbar</th></tr></thead>
+<tbody><tr><td><b>Reads</b></td><td>c</td><td>h</td><td>a</td><td>s</td><td>t</td><td>e</td><td>a</td><td>u</td></tr></tbody>
+</table>
+<p>Eight forms, none of them standing for itself, producing a place name that the same scribe wrote out in clear two inches higher up the page. That is the whole argument, and it does not
+depend on the language model, on the 4-gram score, or on my judgement about what reads like French.</p>
+<p>Words the key produces unprompted, none of them supplied to the search: <em>munitions</em> three times, <em>promesses</em>, <em>prisonniers</em>, <em>resolution</em>, <em>secours</em>,
+<em>quartiers</em>, <em>clairement</em>, <em>commandement</em>, <em>conserver la plaine</em>, <em>ramener mon arm&eacute;e</em>, <em>aultres commoditez</em>, <em>il fauldra</em>, <em>recepvoir</em>.</p>
+
+<h2 id="null"><span class="num">06</span>Tested against nulls, because the search could have manufactured this</h2>
+<p>There is an obvious objection to everything above, and it is the right one to raise. The search maximises a French 4-gram score over 44 free parameters on about a thousand characters.
+A procedure like that has a standing incentive to produce French-looking strings whether or not any plaintext is underneath, and <em>chasteau</em> is built from four of the commonest 4-grams in
+the language. Words picked out of the decode by eye are no defence either, because I chose which words to look for knowing what the letter was about.</p>
+<p>So the pipeline was run unchanged on nulls that contain no plaintext at all: the same 44 symbols, the same frequencies, the same segment lengths, with the order shuffled away.
+Scoring was made blind &mdash; dictionary coverage and a count of distinct French words of six letters or more, against a word list built from the corpus, with no names and nothing taken from this letter.</p>
+<table>
+<thead><tr><th></th><th>4-gram score</th><th>Dictionary coverage</th><th>Distinct words of 6+ letters</th></tr></thead>
+<tbody>
+<tr><td><b>The manuscript</b></td><td><b>&minus;2.10</b></td><td><b>83.0%</b></td><td><b>33</b></td></tr>
+<tr><td>Null 101</td><td>&minus;2.72</td><td>75.2%</td><td>0</td></tr>
+<tr><td>Null 102</td><td>&minus;2.81</td><td>72.6%</td><td>1</td></tr>
+<tr><td>Null 103</td><td>&minus;2.61</td><td>78.7%</td><td>3</td></tr>
+<tr><td>Null 104</td><td>&minus;2.80</td><td>72.4%</td><td>2</td></tr>
+<tr><td>Null 105</td><td>&minus;2.68</td><td>74.1%</td><td>0</td></tr>
+<tr><td><em>Null mean</em></td><td><em>&minus;2.73</em></td><td><em>74.6%</em></td><td><em>1.2</em></td></tr>
+</tbody>
+</table>
+<p>The long-word count is the one that decides it. Shuffled symbols of identical frequency yield between nought and three French words of six letters or more; the manuscript yields
+<strong>thirty-three</strong>. The blind list contains <em>clairement, resolution, paroistre, quartiers, pourtant, secours</em> &mdash; the same words found earlier by eye, now found without
+anyone choosing them. Coverage barely separates the two, which is worth noting: coverage is a weak statistic here, because short function words can be assembled out of anything.</p>
+<p>The blind list also returned <em>uilains</em>. In a u/v-folded model that is <em>vilains</em>, and it sits in the decode immediately after <em>chasteau</em>, sharing its final u:
+the page gives <b>chasteauilains</b> where the name wants <b>chasteauuilains</b>. One symbol short, which is a transcription slip rather than a fault in the key &mdash; but it is a slip,
+and the crib is therefore eight letters secure and six more probable, not fifteen letters proved.</p>
+
+<h2 id="letter"><span class="num">07</span>What the ciphered passages say</h2>
+<p>The ciphered matter is the military business that the clear text only skirts, and it belongs to the same operation as the clear postscript. The Duke writes of the promises made and not kept,
+&ldquo;de tant de &hellip; ses promesses &hellip; qu&rsquo;ils avoient fait&rdquo;; of <strong>prisonniers</strong> and, repeatedly, of <strong>munitions</strong> &mdash; the word returns at the very end
+of the letter, where the cipher stops and the clear resumes with &ldquo;si munitions&rdquo;. He orders his son to <strong>recepvoir mon commandement</strong> and to <strong>conserver la plaine</strong>.
+He names <strong>Chasteauvillain</strong>, and states the intention <strong>de ramener mon arm&eacute;e &hellip; es quartiers de la Faulche</strong> &mdash; La Fauche lies between Neufch&acirc;teau and
+Chaumont, exactly the theatre the clear postscript describes. He demands to be <em>pr&eacute;adverti</em>. Near the end come <strong>resolution</strong>, <strong>le peu de moien</strong> and
+<strong>secours</strong>, and Chasteauvillain once more, with <em>l&rsquo;on avoit &hellip; promis</em>.</p>
+<p>Because the reading is partial it is worth showing the actual output rather than only the words picked out of it. Four lines, exactly as the key produces them, with the nomenclator figures
+in brackets and nothing tidied. The recognisable French is in bold; the rest is where the mis-transcribed glyphs fall.</p>
+<pre><code>15  <b>chasteau</b>ilainss [145] nntaises<b>deramenermonarme</b>dooites<b>esquartiers</b>de-
+12  nderet<b>uonseruerlaplane</b>iquantane [139] sceulpde. [88] ceauoieituerlmoulpourta
+18  isdese [88] [31] <b>resolution</b>e [146] eienler<b>peudemoien</b>qet<b>secours</b> [139] [145] tromespard
+19  elapournauainerletenhtdudinton<b>chasteau</b>ilaitsainsu [139] <b>lonauoit</b>se<b>promis</b>se</code></pre>
+<p>That is what a solved key and an imperfect transcription look like together: the words stand out whole, the joins between them do not.</p>
+<p>Around them the clear text, transcribed separately, supplies the rest: the grace of taking Chasteauvillain, Chaulmont, the sieur de Buzonville, la Glosiere, the munitions promised and the siege.</p>
+<p>What the letter will not give up is the nomenclator. Thirty-eight figures stand in the cipher, for names and words that the key would have listed:</p>
+<table>
+<thead><tr><th>Figure</th><th>139</th><th>145</th><th>31</th><th>57</th><th>141</th><th>88</th><th>98</th><th>13</th><th>103</th><th>121</th><th>122</th><th>123</th><th>137</th><th>146</th></tr></thead>
+<tbody><tr><td><b>Times used</b></td><td>10</td><td>7</td><td>4</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody>
+</table>
+<p>139 and 145 carry a third of the nomenclator between them and are plainly the two things this letter is about; on the evidence of the clear text they ought to be Chasteauvillain and Chaulmont,
+or a person and a place of that weight. But that is inference, not reading, and it is left as inference. No key survives to supply the values, and a single letter does not constrain them.</p>
+
+<h2 id="residuals"><span class="num">08</span>How good the reading is, and what remains</h2>
+<p>The solution scores &minus;2.10 per character. Real sixteenth-century French scores &minus;1.93 under the same model, and the true key of a clean control scores &minus;1.63. The gap is measured, not
+guessed at. Controls in which six to twelve pairs of distinct glyphs are deliberately transcribed as the same form &mdash; which is how by-eye reading of barred and dotted variants fails &mdash; score
+&minus;2.15 to &minus;2.23 and recover 65 to 75 per cent of letters. That is what this decode looks like. Random transcription noise was calibrated separately and does not account for it; the error is
+systematic, as it should be.</p>
+<p>So the cryptanalysis is finished and about a quarter of the glyph identifications are still wrong. Re-reading the 42 per-line crops with the key now in hand, correcting the barred, dotted and capital
+variants one at a time, would read the letter through. The fourteen nomenclator figures remain unassigned: no key survives, so their values can only come from context or from a second letter in the same
+cipher. The Archives d&eacute;partementales de Meurthe-et-Moselle, unexamined here, is where a duplicate or a key would most plausibly survive.</p>
+<p class="rights">Manuscript rights: Biblioth&egrave;que nationale de France.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Biblioth&egrave;que nationale de France</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="orbais.html" rel="prev">&larr; Orbais 1589 1589</a><a href="pelissier1592.html" rel="next">Pelissier 1592 1592 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260918a"></script>
+</body>
+</html>
