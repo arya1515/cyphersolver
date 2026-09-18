@@ -179,6 +179,11 @@ The line-by-line result of the walk is `f122r_reading.md`: every line has verifi
 are located (`bac`, `bon` ×2, `bnh` ×4, `dal`, `bed`?), and lines 19–20 give *…quieren go|uernar…* across the line
 break. It is a reading of perhaps two thirds of the signs, not a text.
 
+A last mechanical attempt, clipping every glyph to its line band before segmentation so that descenders from the
+line above cannot contaminate it (`band95.py`), made things worse, not better: the band cut the tall signs in half,
+and nearest-neighbour matching of the mutilated shapes against the labelled glyphs collapsed to *d*/*n*. The junk
+boxes are touching signs, not descenders; the fix is a stroke-level segmentation, which is a different project.
+
 What is not done: about a third of the glyphs remain unresolved, and the `~` stretches of `f122r_hybrid.txt` are
 plausible Spanish rather than read Spanish. The remaining work is mechanical — walk the 31 lines on the annotated
 strips, correct the machine letter where the sign disagrees, resolve the 7-forms by cluster — and f. 122v (five
