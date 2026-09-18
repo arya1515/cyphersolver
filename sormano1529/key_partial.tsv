@@ -32,3 +32,14 @@ psi / Y	i	good	L2 "nominato"
 # two glyphs glossed "de Venetiani"	Venetiani	firm	f. 116v interlinear gloss: the cipher had a nomenclator
 # Unresolved: at least two rho-like forms must be distinguished (one = i, one = l), and the
 #   triangle/alpha, chi/4-hooked and stroke/4-with-tail pairs are not separable on this microfilm.
+# --- Added 18 Sept 2026, verified on no. 65 f.119v against the exact wording of its twin no. 66 f.121v ---
+# No. 66 reads in clear "et il parlar suo fu di sorte ch Jo Sormano mi parue quasi"; no. 65 ciphers from
+# "Jo" onward. Applying the key above to those 21 glyphs returns i-o-s-?-r-m-a-n-o-m-i-p-a-r-u-?-?-?-a-s-i
+# against the expected "iosormanomiparuequasi": 17 of 21 letters confirmed on a different letter, in a
+# different word, with no circularity. The four gaps gave three new values:
+E-shape with three horizontal bars	h	firm	no. 65 f.119v, the word after "quasi" reads c-h-i-a-r-o ("chiaro")
+inverted triangle	q	good	no. 65 f.119v "quasi"
+capital H	u	good	no. 65 f.119v "quasi"
+3-shape (distinct from reversed E)	o	good	no. 65 f.119v "sormano" (third o form)
+# New text read as a by-product, ciphered in BOTH copies and therefore previously unread:
+#   "et il parlar suo fu di sorte che Jo Sormano mi parue quasi CHIARO, cioe che sua Excellentia ..."

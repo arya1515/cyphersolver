@@ -95,6 +95,20 @@ of the Urbino letter ("Mando ancora a vra un doppio d'una lra la qual scrivo al 
 The cipher's design is therefore clear: a homophonic symbol alphabet with three or four alternatives for
 each common vowel (a has at least two forms, i at least four, o two, e two) and one or two for consonants.
 
+**Verified on an independent letter.** The strongest check does not use the 1529 decipherer at all. No. 66
+reads in clear "et il parlar suo fu di sorte ch Jo Sormano mi parue quasi", and no. 65 ciphers that same
+sentence from "Jo" onward, so the twin supplies the plaintext in the clerk's own spelling. Applying the key
+to those 21 glyphs of no. 65 returns
+
+    expected   i o s o r m a n o m i p a r u e q u a s i
+    key gives  i o s ? r m a n o m i p a r u ? ? ? a s i
+
+17 of 21 letters, in a different letter of the correspondence, in words the crib never contained. Three of
+the four gaps then resolved: the inverted triangle is q and capital H is u (completing "quasi"), and a
+3-shape is a third form of o. Immediately after "quasi" the cipher continues with six glyphs that read
+**c-h-i-a-r-o**, giving the three-barred E as h. That stretch is enciphered in *both* copies, so
+"il parlar suo fu di sorte che Jo Sormano mi parue quasi chiaro" is text that has not been read before.
+
 **Where it stops.** Line 2 continues with nine glyphs that the crib says must spell *calzolite*, and two
 of those positions demand *l* where the same shapes elsewhere demand *i*. So the hand uses at least two
 rho-like forms that this microfilm will not separate, and the same is true of the triangle/alpha,
