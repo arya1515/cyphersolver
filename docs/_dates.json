@@ -5,6 +5,7 @@
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
   "blume salamanca telegram, 1937": "2026-09-15",
+  "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
   "bordeaux to brienne, 1653": "2026-09-16",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
@@ -38,6 +39,7 @@
   "roosevelt cryptogram, 1935": "2026-09-16",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
+  "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
@@ -66,7 +68,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "90475c12fa4a",
+   "hash": "e3a4401cb04d",
    "updated": "2026-09-17"
   },
   "catinat1691": {
@@ -83,6 +85,11 @@
    "first": "2026-09-15",
    "hash": "a7bc68819e01",
    "updated": "2026-09-15"
+  },
+  "esp318": {
+   "first": "2026-09-17",
+   "hash": "5e8bae26cc7d",
+   "updated": "2026-09-17"
   },
   "famous": {
    "first": "2026-09-15",
@@ -121,7 +128,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "f2789f5876af",
+   "hash": "387d358f9ebb",
    "updated": "2026-09-17"
   },
   "lanssac": {
@@ -181,7 +188,12 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "94a03359c1cb",
+   "hash": "d9d1862ec9da",
+   "updated": "2026-09-17"
+  },
+  "sormano": {
+   "first": "2026-09-17",
+   "hash": "2b7fdfe51a53",
    "updated": "2026-09-17"
   },
   "sunyatsen": {
