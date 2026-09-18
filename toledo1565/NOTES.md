@@ -83,6 +83,16 @@ non-duplicate original in the same legajo, which this letter says "yra con esta"
 of Mdina's own letter, would be the natural place for a contemporary Spanish decipherment to align
 against; that check is still open.
 
+## PARES search route (worked out here)
+
+The results table is server-rendered, so no browser is needed: with a cookie jar,
+`GET /ParesBusquedas20/catalogo/find?nm=&texto=<words>&anio1=<y>&anio2=<y>` returns the hits
+(`catalogo/show/<id>` links in the HTML), and `signatura=EST%2CLEG%2C1394%2C247` finds one record by
+shelfmark. A *partial* signature such as `EST,LEG,1394` returns "No se han encontrado datos" — the field
+matches whole shelfmarks only, which is why the legajo cannot be listed that way. `catalogo/description/<id>`
+gives the record's text; neighbouring ids are unrelated documents, not neighbouring folios.
+Searching *carta cifrada Toledo* limited to 1565 returns exactly one García de Toledo item: this one.
+
 ## Open questions
 
 - `yaretas` (f. 2v, line 2) — figures are unambiguous (42 12 35 20 37 14 36). Read as *jaretas*, the
