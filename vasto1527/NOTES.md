@@ -56,7 +56,7 @@ So a number carries no positional information. Other bases:
 | Ranzo's signed letters, BnF fr. 2988 ff. 2r–v, 9r–10v (ark btv1b9059908w, views 6, 7, 17–20) | ~2,600 | `n20/ranzo_c0*.txt`, transcribed by six subagents. f. 2v is marked "dup.ª" (duplicate). |
 | **Total** | ~3,900 | 316 group types shared between the two sources |
 
-fr. 2988's other "pièces en chiffre" (views 43–87, alternating with clear copies of Doria letters, July–Aug 1528) are a dense symbol cipher of the French side, not this code; checked views 56 and 60. Not yet transcribed: Ranzo in fr. 3019 no. 27 (f. 73, ark btv1b9059994n, view ≈ 140–148 not located) and
+fr. 2988's other "pièces en chiffre" (views 43–87, alternating with clear copies of Doria letters, July–Aug 1528) are a dense symbol cipher of the French side, not this code; checked views 56 and 60. Ranzo in fr. 3019 no. 27 (f. 73) is views 114–116 of btv1b9059994n: signed 'Hieronimo Ranzo', all in cipher, no interlinear or separate decipherment (view 118 is an unrelated 1559 docket); not transcribed. No duplicate or crib either: the no. 20 and Ranzo transcriptions share nothing longer than stock three- and four-group phrases. Cipherbrain (17 May 2016, comments by Norbert Biermann and Thomas, 2017) found no known nomenclator for Ranzo's code. Also and
 possibly fr. 3019 no. 36 (f. 94, "Reporto de homo … venuto da Genova", chiffré).
 
 **Clair. 327 ff. 279–280** (btv1b9000764n views 263–264) is an 18th-century copy of no. 20. It is headed
