@@ -437,3 +437,7 @@ hesse1603/src/*.xml
 hesse1603/src/*.txt
 hesse1603/src/*.htm
 hesse1603/src/pages_text.json
+# sormano1529: Gallica microfilm openings, page images and reading crops (refetch with fetch.sh / region.sh / zoom.sh)
+sormano1529/img/
+sormano1529/crops/
+sormano1529/src/*.html

@@ -1,0 +1,27 @@
+# Partial key of the Sormano cipher, BnF fr. 3096 (Ferrara, 1529)
+# Glyphs are described in words because the shapes have no stable Unicode equivalents.
+# "crib 67" = the four-line cipher on f. 124r deciphered in the margin by a contemporary hand.
+# "gloss 62" = the interlinear decipherment on f. 113r.
+# Status: firm = fixed by two or more independent occurrences in a crib; provisional = one occurrence only.
+glyph_description	approx	value	status	evidence
+tau, plain capital T	T	u	firm	crib 67 "un"; gloss 62 "de un capitaneo"
+pi, capital	n1	n	firm	crib 67 "un", "capitaneo", "nominato" (twice)
+closed triangle, apex up	D	c	firm	crib 67 + gloss 62 "capitaneo"
+capital V	V	a	firm	gloss 62 / crib 67 "capitaneo"
+figure-6 with closed loop	b6	p	firm	gloss 62 / crib 67 "capitaneo"
+rho with descender	p1	i	firm	"capitaneo"; "fanti"(?) ; "nominato" context
+chi / x	X	t	firm	"capitaneo", "nominato"
+upsilon / round u	u1	a	firm	"capitaneo", "nominato"
+figure-4 with hooked foot	y4	e	firm	"capitaneo"
+plain vertical stroke (like 1)	i1	o	firm	"capitaneo", "nominato"
+capital pi with squared shoulders	P2	o	provisional	"nominato" (first o)
+g with crossed tail	gb	m	firm	"nominato"
+psi / Y	Y	i	firm	"nominato"
+reversed E	E2	s	provisional	crib 67 line 1 final "sui"
+alpha	a1	u	provisional	crib 67 line 1 final "sui"
+q with tail	q1	i	provisional	crib 67 line 1 final "sui"
+small square / box	box	f	provisional	crib 67 line 3, reading "fanti"
+# Structural signs (not letters)
+double-crossed vertical stroke	tie	-	firm	heads the cipher run on f. 124r and the margin note that deciphers it; a reference mark, not a letter
+circle with central dot	circ	-	firm	stands at the ends of cipher runs in nos. 65, 66, 67; a stop or section mark
+two glyphs glossed "de Venetiani"	-	Venetiani	firm	f. 116v, contemporary interlinear gloss: the cipher carries a nomenclator group for the Venetians
