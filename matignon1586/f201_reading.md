@@ -8,10 +8,21 @@ Transcription in `f201_cipher.txt`.
 
 ## The check: the two leaves agree, figure for figure
 
-ff. 196 and 201 were transcribed independently, weeks of work apart, from different images.
-They share **23 runs of eight consecutive identical figures** (840 and 987 figures respectively).
-Two independent transcriptions cannot agree on eight-figure strings by accident: this confirms both
-that they carry the same despatch and that the transcriptions are substantially right.
+ff. 196 and 201 were transcribed independently, from different images. Aligned figure by figure,
+**57% of their figures are identical**, with **8 maximal runs of eight or more identical figures**
+(longest 12). A control that shuffles one side gives 12% and no runs at all. Two independent
+transcriptions cannot agree like that by accident: the leaves carry one despatch and the
+transcriptions are substantially right.
+
+**Correction.** An earlier note here said "23 runs of eight consecutive identical figures". That
+counted overlapping eight-figure windows, not runs, and overstated the independence of the evidence;
+the figures above are the right ones.
+
+**And the 43% that differ are not transcription noise.** A homophonic cipher gives the clerk several
+figures per letter, so enciphering the same sentence twice does not produce the same figures. The
+long identical runs are stretches where he copied; the rest is where he re-enciphered and chose
+differently. That is itself worth recording: f. 201 is not a copy of f. 196 but a re-encipherment of
+the same text.
 
 ## The reading
 

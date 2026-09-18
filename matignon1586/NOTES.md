@@ -237,9 +237,12 @@ army's pay crisis), **f. 173** (33 lines, to the King: no one will lend and no o
 **"le mareschal de Matignon"**, and **fr. 15571 f. 177** (28 lines, Mayenne's design for Gascony,
 31 Dec 1585). See the `f*_reading.md` files.
 
-**The ff. 196/201 check.** The two leaves were transcribed independently and share **23 runs of
-eight consecutive identical figures**. That is not reachable by chance, and it validates both
-transcriptions at once.
+**The ff. 196/201 check.** The two leaves were transcribed independently. Aligned figure by figure,
+**57% of their figures are identical**, with 8 maximal runs of eight or more (longest 12); shuffling
+one side gives 12% and no runs. That validates both transcriptions at once. (An earlier note said
+"23 runs of eight" - that counted overlapping windows, not runs.) The 43% that differ are not noise:
+a homophonic cipher offers several figures per letter, so f. 201 is a **re-encipherment** of the
+same text, not a copy of f. 196.
 
 **The target is at least three ciphers** — see `ciphers.md`. ff. 123–124 and f. 110 do not answer to
 the solved key, on figure statistics and on a crib. fr. 15571's ciphered page at canvas 187 left is

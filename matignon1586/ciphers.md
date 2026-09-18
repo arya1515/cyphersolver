@@ -71,3 +71,35 @@ statistics, that the second cipher is a different key.
 Five letters are not a solution. What they are is the start of one, and the method that produced
 them — pattern-matching a rare word shape against the figure stream — is the method that will
 produce the rest as more of the margin is recovered.
+
+## Where the second cipher actually stands
+
+All four pages of ff. 123–124 are now transcribed: **4,278 figures, 74 symbols**, 58 figures per
+symbol — a healthy amount of ciphertext for a cold solve. It still does not break.
+
+**The number that makes this interpretable.** Decode the *solved* leaves with the *known* key and
+score the result with the same character model, and a correct solution of this cipher family scores
+about **−2.40 per figure** (f. 154 −2.40, f. 173 −2.48, f. 196 −2.41, f. 201 −2.31). It is not −1.5:
+the gap is the cost of homophones, code groups and my own transcription noise. The cold solve of
+ff. 123–124 reaches **−2.85**. So the search is close to, but clearly short of, a solution — and
+"close" here is measured against what success actually looks like, not against perfect French.
+
+**Two crib pages for this key.** ff. 78v and 79r each carry a cipher block inside the clear text
+*with its decipherment written down the margin*. f. 78v's margin gives a near-complete plaintext:
+
+> De sorte que je presupose que nous puissions … descharger **la Garonne**, de quatre places qu'ils
+> y tiennent, qui sont **Castets, Ste Bazeille, Caumont et le Mas** … et puis que pour cela y
+> consumera deux mois … **Clerac, Monflanquin** … **Montségur** … où l'on assiège …
+
+Both blocks are transcribed (408 and 244 figures) and `cribfit.py` fits a key by rewarding decodes
+whose n-grams occur in the crib. It recovers *casteus* and *clerac* in the right part of the block —
+the alignment is real — but not yet a key that reads the whole passage.
+
+**Why the crib has not closed it, and what would.** Most crib words have **no** figure-sequence with
+their repeat pattern: *bazeille*, *montauban*, *presupose*, *puissions*, *descharger* all score zero
+hits, while *rouergue* and *garonne* have exactly one each. A cipher that spells every letter singly
+cannot do that. The reading is that this key, like Cipher-1, writes **doubled letters and common
+syllables as single figures**, so plaintext and ciphertext are not the same length and pattern
+matching mostly fails. The fix is not more search: it is a calibrated glyph inventory for this hand —
+the exemplar-set work that was done for Cipher-1's hands — so that the figure stream fed to the
+solver is right. That is the next session's job.
