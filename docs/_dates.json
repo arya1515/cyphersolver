@@ -29,6 +29,7 @@
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
+  "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
@@ -89,6 +90,11 @@
    "first": "2026-09-15",
    "hash": "574c70450c0e",
    "updated": "2026-09-16"
+  },
+  "breves1603": {
+   "first": "2026-09-18",
+   "hash": "682bb7ed4faf",
+   "updated": "2026-09-18"
   },
   "catalogue": {
    "first": "2026-09-17",
@@ -157,7 +163,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "da51d8867d5d",
+   "hash": "7b4e277ee7e4",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -242,7 +248,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "73fcd857cda7",
+   "hash": "3613e8370c93",
    "updated": "2026-09-18"
   },
   "sormano": {
