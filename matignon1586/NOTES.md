@@ -191,3 +191,39 @@ What works, and what the next pass should just do: draw the fitted lines on the 
 look at the overlay, and set the per-leaf offset by hand — then tile with a band of about half the
 pitch. f. 143 and f. 201 both fitted cleanly this way; f. 196 (the smallest hand) still does not,
 and that is why its 32 lines are untranscribed while f. 201's fit is ready to use.
+
+
+## The f. 18/f. 19 crib and the figures-to-French pipeline
+
+The second half of the 17 Sept 2026 work turned on a crib Tomokiyo mentions in one clause and never
+uses: **f. 18 is ciphered and f. 19 is its decipherment in clear**, about 1,650 figures with their
+plaintext beside them. Full account in [`f18_f19_crib.md`](f18_f19_crib.md). In short:
+
+* The pairing is verified twice on the leaf — f. 19r opens *"Que sa Majesté fust advertie"* against
+  a cipher opening with `14` (*que*), and the cipher carries `52` where the clear reads *plustost*,
+  the first check of Tomokiyo's nomenclature against a plaintext.
+* It is **one key** across the leaves; an apparent contradiction with the ff. 196/201 crib was my
+  own shorthand colliding on near-identical figures, not two ciphers.
+* The confusable figures were **measured**: i/n, s/i and e/u sit at 0.91–0.93 correlation on the
+  manuscript. They are not separable by shape at any resolution available, so **at the level of
+  reading this cipher is polyphonic** — a figure is a small set of letters and only the language
+  chooses. That explains every dead end: the shape classifier was always going to fail, and the
+  early workaround `"6": ["i","n","s"]` in `key.json` was the right model all along.
+* So the crib's output is stored as **labelled images**, not names: `exemplars/` with a manifest.
+  103 figures over 18 of 22 letters at the time of writing; missing h, q, x, y, z.
+* `readleaf.py` reads a line from figures alone — segment, match against exemplars, beam-decode
+  with code groups — and recovers about **70 % of plaintext characters** on the crib leaf, with
+  f. 18r line 3 read end to end: *"re et conseil des sembler de castille bour"*.
+* Every free parameter is pinned by measurement against known plaintext, not by taste: segmenter
+  gap 14, per-character bonus 1.6, code similarity floor 0.93.
+* `baseline.py` scores the pipeline so a later pass can tell whether it helped — and its first job
+  was to show that three lines is too small a test set to detect anything.
+
+**The variable that remains is letter coverage.** Line 3 reads at 94 % because its letters are
+covered; line 4 at 45 % because *instruction* wants p and q. Nothing else in the pipeline is
+uncertain.
+
+Two practical findings for whoever continues: **proper names are the densest exemplar source** (they
+are spelled out rather than hidden in code groups — *Matignon* on f. 19r line 13 is nine consecutive
+certain figures), and **exemplars do not transfer between scribal hands** — the same pipeline run on
+f. 143 gives noise, because that is a different secretary.
