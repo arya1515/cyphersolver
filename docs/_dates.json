@@ -32,6 +32,7 @@
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
+  "herbault to béthune, 13 february 1626": "2026-09-18",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "koehler cryptograms, 1944": "2026-09-15",
@@ -53,6 +54,7 @@
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
+  "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
@@ -174,7 +176,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "933b1d45aa65",
+   "hash": "86dc7f855078",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -259,7 +261,7 @@
   },
   "solved": {
    "first": "2026-09-17",
-   "hash": "16141f8ac0a1",
+   "hash": "7453932a9ead",
    "updated": "2026-09-18"
   },
   "sormano": {

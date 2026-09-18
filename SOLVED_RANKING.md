@@ -67,7 +67,7 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18) beside Vich 1511–12, and Gramont 1529–37 (p19) just below Feuquières.
+Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18) beside Vich 1511–12, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -83,13 +83,15 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p17 | **Bordeaux → Brienne**, London, 30 May 1653, BL Add MS 4200 f. 88 | 1653 | 2 | 3 | 5 | 4 | 2 | 4 | **3.25** | Read with the Deciphering Branch's own key sheet (DECODE R7537), so 2 not higher, although the design had been identified and a solver built for it beforehand. Never read before: the English worksheets stop at frequency counts. Research: the DECODE key found, the transcription re-checked on the images and 21 faults fixed, the duplicates collated. Content: the envoy's precedence complaint after the Bordeaux deputies' reception and the advice to hold back French mediation, during the Fronde's last months. On Tomokiyo's list only. Held on completeness by six nomenclature codes and a dozen rare tokens |
 | p18 | **A. Pelissier → Pierre Jeannin**, Burgos, 13 Sept 1592, BnF fr. 3982 no. 22 | 1592 | 2 | 4 | 4 | 4 | 2 | 2 | **3.10** | Key in print (Tomokiyo, from Pelissier's later letters) and confirmed by the decipherer's glosses, so 2; the work was ~18,400 signs transcribed from the Gallica scans and beam-decoded. Never read before and weighty: Spanish policy toward the League and the Estates in the autumn of 1592, the two-army plan and its cost, the case for Navarre as argued in France. Low on completeness: half to two-thirds read |
 | p19 | **Gramont, Mâcon and Langeac → Montmorency**, Venice and Rome, 1529–37, fr. 3083 no. 8, fr. 3091 no. 23, fr. 3071 nos. 4, 7 | 1529–37 | 2 | 4 | 5 | 4 | 2 | 4 | **3.50** | Keys in print (Lasry 2023) but never applied, so 2; the work was reading ~9,000 signs from the scans, six unlisted code signs, and dating. Content is the French line to Clement VII before Bologna (council, Florence, the Admiral's mission) and Paul III's Farnese marriage threat of 1537. Verification: a contemporary decipherment slip for the Mâcon f. 9v passage |
+| p20 | **Phelipeaux d'Herbault → Philippe de Béthune**, Paris, 13 Feb 1626, BnF fr. 3669 no. 25 | 1626 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Resolved rather than solved, like Mendoza: the catalogue's one undeciphered letter is a copy of no. 26, which carries the 1626 decipherer's interlinear plaintext, so 1 on difficulty and 2 on novelty (read in 1626, never printed). The ciphered passages matter (the Valtelline, the reason for the Huguenot peace, Savoy pressing France towards war with Spain six weeks before Monzón); identity checked on the clear text, the run boundaries and matching groups. Only on the BnF harvest list. |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
 p14 0.50 + 1.00 + 0.60 + 0.40 + 0.10 + 0.30; p15 0.50 + 0.75 + 0.60 + 0.30 + 0.20 + 0.30; p16 1.00 + 0.75 + 1.00 + 0.30 + 0.20 + 0.30;
 p17 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.40;
 p18 0.50 + 1.00 + 0.80 + 0.40 + 0.20 + 0.20;
-p19 0.50 + 1.00 + 1.00 + 0.40 + 0.20 + 0.40.
+p19 0.50 + 1.00 + 1.00 + 0.40 + 0.20 + 0.40;
+p20 0.25 + 0.75 + 0.40 + 0.30 + 0.10 + 0.40.
 
 ## By single axis
 
