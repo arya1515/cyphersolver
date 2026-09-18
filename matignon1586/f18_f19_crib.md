@@ -589,3 +589,27 @@ disappear, and line 2's reading improves as a side effect —
 This is the last of the decoder's free parameters to be pinned by measurement rather than taste:
 segmenter gap 14, character bonus 1.6, code floor 0.93 — each one fixed against a stretch of known
 plaintext rather than by how the output looked.
+
+
+## A number to beat
+
+The pipeline's output has been described so far by quoting the good bits, which is the easiest way
+to fool yourself. `baseline.py` scores it instead: character overlap against the crib's known
+plaintext on three lines of f. 18r, by the same measure every time.
+
+```
+2026-09-17   79 exemplars / 17 of 22 letters / gap 14, bonus 1.6, code floor 0.93
+  f.18r l2:  33/ 46 =  71.7 %
+  f.18r l3:  34/ 36 =  94.4 %
+  f.18r l4:  17/ 38 =  44.7 %
+  overall    84/120 =  70.0 %
+```
+
+**70 % of plaintext characters, from the figures alone, with nothing named.** Line 3 at 94 % is the
+ceiling this approach reaches when the letters it needs are covered; line 4 at 45 % is what happens
+when they are not — its plaintext runs through *instruction*, wanting p and q, both missing from
+the exemplar set.
+
+That spread is the argument in one table: **the variable is letter coverage, and nothing else.**
+The next pass should move 17 of 22 upward and watch this number, rather than reading the output and
+forming an impression of it.
