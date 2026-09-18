@@ -44,3 +44,20 @@ the key resolves every glyph whose shape is correctly identified, and the confus
 
 `12` il · `13` qui · `14` que · `17` car · `25` nous · `26` vous/leur · `35` parce que ·
 `47` tous · `49` **unidentified, occurs four times on this page** · `76` le roi de Navarre.
+
+
+## A visual key for this hand (18 Sept)
+
+`key143_a.png` / `key143_b.png`: every letter's figures as actually drawn by f. 143's secretary, cut
+from forced alignments of lines 1–5 with the code groups pinned by eye. Most rows are clean,
+consistent families — *a* ơ/Δ, *n* ·v·, *r* £, *t* Ƶe/m, *o* 7, *p* c, *s* Ɗ/∂, and the codes 13, 14,
+47, 49, 76 — and are the reference for transcribing the rest of the leaf by eye. Two rows (*m*, *i*)
+visibly contain mislabels and are not to be trusted until cleaned.
+
+Comparison of the two readers on this leaf, all 21 lines: the **token transcription + key + language
+model** reads about two thirds; the **image pipeline with f. 143's own figure set** reads fragments
+(*ne seroit*, *mal con tant et ayant*, *tenir pour le me[il]leur*). Transcription by eye against the
+visual key is therefore the way to finish this leaf; the image set's job is to supply that key.
+
+Lines 14–15 re-transcribed against it give *"a[s]ses bo[n]e pour nous reten[ir]…"* — close to what
+the earlier pass had, which says the residue on the weak lines is not naming inconsistency alone.
