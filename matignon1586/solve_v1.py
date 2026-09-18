@@ -2,8 +2,6 @@ import pickle, math, sys, json, collections
 D=pickle.load(open('lm.pkl','rb')); CNT=D['cnt']; N=D['N']
 AL='abcdefghilmnopqrstuxyz'   # no j k v w (period orthography: u=v, i=j)
 LAM=0.4
-MINCTX=15   # a context must be properly attested: 8 stray 'iiiii' once made runs of i
-            # score better than French, which let the solver collapse onto one letter
 def logp(ctx, ch):
     # interpolated backoff
     p=0.0; w=1.0; tot=0.0
@@ -14,7 +12,7 @@ def logp(ctx, ch):
         c=ctx[-(n-1):] if n>1 else ''
         if len(c)<n-1: continue
         den=CNT[n-1][c] if n>1 else 0
-        if den<MINCTX: continue
+        if den<2: continue
         num=CNT[n][c+ch]
         tot+=w*LAM*(num/den); w*=(1-LAM)
         if w<1e-6: break

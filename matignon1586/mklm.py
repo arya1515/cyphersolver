@@ -5,7 +5,12 @@ def norm(t):
     t=t.lower()
     t=t.replace('v','u').replace('j','i').replace('w','u').replace('k','c')
     t=re.sub(r'[^a-z]+',' ',t)
-    return re.sub(r'\s+',' ',t).strip()
+    t=re.sub(r'\s+',' ',t).strip()
+    # Roman numerals survive v->u/j->i as runs of i and x and wreck the model:
+    # 'iiii' then scores better than French. Drop them.
+    keep=[w for w in t.split()
+          if not (('iii' in w) or re.fullmatch(r'x+[uixlcdm]*', w) or re.fullmatch(r'[ui]{2,}', w))]
+    return ' '.join(keep)
 txt=[]
 for f in glob.glob('../bethune/xivrey/*.txt'):
     txt.append(norm(open(f,encoding='utf-8',errors='ignore').read()))
