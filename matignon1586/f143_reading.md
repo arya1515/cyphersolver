@@ -1,5 +1,11 @@
 # fr. 15572 f. 143 (Mayenne to Henri III), the cipher block
 
+> **Correction (18 Sept): f. 143 is not 21 lines of cipher.** The verso, f. 143v (canvas 151 left), is
+> a **second full page of cipher, about 33 lines**, ending in three lines of clear and the close. The
+> 21 lines treated below as "the cipher block" are the **recto only**. Every "about two thirds read"
+> said of f. 143 in this repository refers to the recto: of the whole leaf's ~54 cipher lines, roughly
+> **a quarter** is read. f. 143v has not been transcribed at all.
+
 Canvas 150 right page of ark `btv1b9061879d`. The leaf opens in clear — Marmande, Sainte-Bazeille,
 Castets, the march of the army and the capitulation — and the last 21 lines are in
 Mayenne–Forget's Cipher-1, with no decipherment on the leaf.
@@ -61,3 +67,11 @@ visual key is therefore the way to finish this leaf; the image set's job is to s
 
 Lines 14–15 re-transcribed against it give *"a[s]ses bo[n]e pour nous reten[ir]…"* — close to what
 the earlier pass had, which says the residue on the weak lines is not naming inconsistency alone.
+
+
+## f. 144 checked as a possible clear copy — it is not
+
+f. 144r (canvas 151 right) is a clear letter in a heavily corrected hand, beginning *"Sire, Combien
+que Vostre Majesté…"*, and running onto f. 144v with its own signature. The opening does not repeat
+f. 143's (*"Sire, j'ay mandé…"*), so it is a separate letter — a draft or minute from another hand —
+and not a decipherment of f. 143.
