@@ -60,6 +60,7 @@
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "nicolò sadoleto to ercole i d’este, pozsony, july–november 1482": "2026-09-19",
+  "nuncio acciaiuoli from lisbon, 1758–60": "2026-09-19",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
@@ -85,6 +86,11 @@
   "voynich manuscript": "2026-09-15"
  },
  "pages": {
+  "acciaiuoli1757": {
+   "first": "2026-09-19",
+   "hash": "e47d2a1a0bfe",
+   "updated": "2026-09-19"
+  },
   "adfgvx": {
    "first": "2026-09-15",
    "hash": "3c92a0b51d89",
@@ -137,7 +143,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "35c79e63402b",
+   "hash": "6b7e6d07b237",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -232,7 +238,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "027be2cf732a",
+   "hash": "c3d76697cead",
    "updated": "2026-09-19"
   },
   "kurtz1639": {
@@ -442,7 +448,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d9bd1ebb6708",
+   "hash": "1bcf1158faa1",
    "updated": "2026-09-19"
   },
   "yard1699": {

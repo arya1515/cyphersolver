@@ -595,3 +595,6 @@ florence1429/keys/*.png
 # lang: fetched corpora and built model tables (regenerate with python -m lang.lm <model>)
 lang/corpora/
 lang/cache/
+acciaiuoli1757/img/
+acciaiuoli1757/decode/*.png
+acciaiuoli1757/decode/*.htm
