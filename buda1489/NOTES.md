@@ -74,3 +74,8 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   figures 8 / 1 5 stand for numerals. Unknown signs listed by the agent: 7-shaped stroke (L2 49, L6 4, L9 25),
   barred 6 + p (L5 45, L6 47), b with dot (L6 6), q with tilde (L6 33), "+" (L6 40), tall s with curl (L7 15,
   L8 44), z with slash (L7 27), m with double slash (L9 41, L10 31). `r1098_reading.md` holds the text.
+- 22:10: 1489 letter (Vestigia 2831) p. 1 ll. 1–10 transcribed (564 signs): ll. 1–2 reproduce Somogyi exactly; l. 3
+  new: "non e dubio che lui non desidera la pace et non tanto pero che…"; ll. 4–10 only in fragments ("andare ad
+  la dieta", "imputare che … la pratica", "pare anche … per non … niente … et pero", "a la pace", "che niuno …
+  dove"). Raw contrast-stretched crops (`img/crops/raw2831_L*.png`) read better than boxed strips; the ε-form is
+  ambiguous between e and o and needs settling from 267/R1098 before the second pass. `v2831_reading.md`.
