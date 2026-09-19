@@ -29,6 +29,7 @@
   "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
   "feuquières to catinat, 1691": "2026-09-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
+  "frederick the great to louis michell, berlin, 28 december 1751": "2026-09-19",
   "from warsaw, 24 december 1627": "2026-09-16",
   "galeotto da ricasoli to the dieci di balía, urbino, early 1425": "2026-09-18",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
@@ -125,7 +126,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6ff7420c95d7",
+   "hash": "756fbdcfa1f7",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -215,7 +216,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "eca7e61532b5",
+   "hash": "c9911257ec9c",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -252,6 +253,11 @@
    "first": "2026-09-17",
    "hash": "e5f07b39ee83",
    "updated": "2026-09-17"
+  },
+  "michell1751": {
+   "first": "2026-09-19",
+   "hash": "a3e182765276",
+   "updated": "2026-09-19"
   },
   "mondoucet": {
    "first": "2026-09-17",
@@ -400,7 +406,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "860c5fd59138",
+   "hash": "86aaedbbf04e",
    "updated": "2026-09-19"
   },
   "yard1699": {

@@ -447,7 +447,7 @@
    "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 198",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1955: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Rhis letter to the Prussian resident in London was intercepted in The Hague.",
+   "status": "DECODE R1955: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Rhis letter to the Prussian resident in London was intercepted in The Hague. 19 Sept 2026: viewed. Opens in clear \"Toutes vos dépêches m'ont été bien rendues et la dernière est du 14e de ce mois\", then a numerical code with half-groups (1½, 150½, 660½), unlike its sibling R1957, which was identified here as the King's immediate letter printed in Politische Correspondenz 8 no. 5263 (see michell1751/). This is the ministerial letter of the same day; ministerial rescripts are not in the Politische Correspondenz, so no printed text is known.",
    "why": "Ciphered letter of King Frederick II (the Great) of Prussia (1712-1786) to Louis Michell (1712-1786), Prussian resident in London, 28 Dec 1751; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 2,
@@ -7938,41 +7938,6 @@
     1060,
     1061,
     1953
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 215,
-   "counted": true,
-   "year": 1751,
-   "date": "28 Dec 1751",
-   "title": "King Frederick II (the Great) of Prussia (1712-1786) (Berlin) to Louis Michell (1712-1786), Prussian resident in London",
-   "correspondents": "King Frederick II (the Great) of Prussia (1712-1786) → Louis Michell (1712-1786), Prussian resident in London",
-   "place": "Berlin, Prussia",
-   "language": "French",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 198",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1957: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: This letter, addressed to th Prussian resident in London, was intercepted in The Hague.There is a letter of the same date with different lkength. It is unlikely to be an isolog, because the same channel was used.",
-   "why": "Ciphered letter of King Frederick II (the Great) of Prussia (1712-1786) to Louis Michell (1712-1786), Prussian resident in London, 28 Dec 1751; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1957",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1957"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1957
    ],
    "scored": "rule"
   },
