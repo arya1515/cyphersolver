@@ -112,6 +112,11 @@
    "kind": "sibling key",
    "what": "Fagel family key sets NA 1.10.29 inv. 1257-1267 (DECODE R2842-R2852), one interior page each: all Dutch-vocabulary codes.",
    "result": "ruled out"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Grand Chiffre R1024 with every constant offset -2600..+2600, scored on syllable fit: best offsets give nonsense.",
+   "result": "ruled out"
   }
  ],
  "outcome": {
