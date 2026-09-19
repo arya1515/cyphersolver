@@ -19,8 +19,23 @@ The letter opens **in clear** and drops into cipher mid-sentence:
 | 5 | ʃ93 13∆ x 56 71 11 ∇12 x 67 6 ∂43 28 92 44 x pra 3∆ 59 11 ʒ 3̊91 u 42 72 58 92ʃ41 ʒ 2899 | **todos a lo so de** · **a** · **y no continua** · **es la de** · **ni si le ti**· |
 | 6 | 97r ∂2572 43 ï ï x n12 x 11 x 58 50. 73 43 rom 66 x 85 98 27 82 13 70 mon ∂ca 88 1173r 66 | **rio y casi si no** · **a ni di a de alegan se no** · **que aya recivido su** · **yo** · **que** |
 
-The three-letter groups — *pra, rom, mon, xen, vul, cil, denp, hes, dur* — are this cipher's nomenclature,
-which Tomokiyo notes in passing (*vas* for *segnor*) but does not tabulate; they are not yet resolved.
+| 7 | 83∆ 50 pra 11 dur 66 x 42 48 x 56 x 11 27 7r 40 13 ∂ x 48 11 ï 91 x 56̊ ʒel 11 hes dur 66 pra | **tos ga** · **de** · **que a ni me a lo a de ci** · **na do y a lo de** · · **de** · · **que** · |
+| 8 | 73 64 58 43 2̄6r 66 2̄4 10 40 97 x 58 50. 73 x 23 x 81∂ 72 43 94 82 ʃ73 | **se na le no** [26]**r que** [24] **da na ria le gan se a be a te y si no tuvi**· |
+| 9 | 90^ 20 ʃ^ 75 93 66 3^ 2̄3 83 58 79 98 27 ʃ 73 76 11. 74 57. 28 3̊ 59 91 ʃ 50 pra | **tas bu**· **pu to que es** [23] **to le pa re ci** [en] **se po den** · **la te** [en] **ga** · |
+| 10 | 28 98 64 48 41 91. 66 3̊ 91 46 8̊ gar 26. 25 ∂66 n̂ pun 7 99 22 8 ∂ 11 28 17 x 25 66 82r | **co re na me ne ten que e te mo** · · **cen ca y que es** · **ra bi** [de] **y de co ci a ca que vio** |
+
+## The limit on this letter
+
+Lines 7-10 decode to clean syllables but not to continuous Spanish, and the reason is structural rather than
+palaeographic: this cipher's **nomenclature is not published anywhere**. Its three-letter groups — *pra, dur,
+hes, ʒel, gar, pun, rom, mon, xen, vul, cil, denp* — carry much of the sense, and Tomokiyo notes only one of
+them in passing (*vas* = *segnor*) without tabulating the rest.
+
+**Checked and excluded:** BnF fr. 3995 f. 101 (canvas 194), the large multi-column nomenclature on the leaves
+adjacent to the Spanish office key, is **Italian, not Spanish** — *Austria, Ambasciatore, Assemblea,
+Battaglia, Bisogno, Borbone, Borgo o Sobborgo, Cardinale di, Castello, Cattolici, Concilio generale,
+Congregazione generale, Corte di* — so it belongs to another correspondence and does not serve this cipher.
+The Feria-Mansfeld nomenclature has still to be found.
 
 ## Sense
 

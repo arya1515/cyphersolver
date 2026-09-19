@@ -241,5 +241,9 @@ With the office key the four leaves decode. Readings in `reading45.md`, `reading
 - **no. 68, f. 145** (Ibarra, Paris): a **different cipher** — the Feria-Mansfeld key, transcribed to
   `keyM.tsv`. Clear opening running into cipher: *aguarda cavalleria ... que aya recivido su ...*
 
-Still open: a scatter of groups in every letter, the nomenclature of the Feria-Mansfeld cipher (its
-three-letter groups *pra, rom, mon, xen, vul, cil*), and the last lines of nos. 45 and 79.
+Still open: a scatter of groups in every letter, the later lines, and **the nomenclature of the
+Feria-Mansfeld cipher**, which is the one real gap left. Its three-letter groups (*pra, dur, hes, gar, pun,
+rom, mon, xen, vul, cil*) carry much of no. 68's sense, Tomokiyo tabulates none of them, and the obvious
+candidate was checked and excluded: **fr. 3995 f. 101 (canvas 194) is an Italian nomenclature**, not a
+Spanish one (*Austria, Ambasciatore, Assemblea, Battaglia, Bisogno, Borbone, Cardinale di, Castello,
+Cattolici, Concilio generale, Corte di*). It belongs to another correspondence.
