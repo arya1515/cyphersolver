@@ -32,10 +32,30 @@ match with the daughter of don […].
 
 New sign values from this page: 7 = f, n + crossed 4 = ss, q^o = re, b^a = na, d: = fi, 8 = g in "gli/voglia".
 
-## Page 1, lines 16–18 (by eye on stacked raw crops `img/crops/stack2831p1_L*.png`)
-16. [F]edrico et […] ho […] le parole che ha dicto
-17. al Ser.mo Re che […] vogli[a] havere rispecto al honore de la
-18. [M̸ = la sua Maesta?] pa[ce?] […] pero che dice […]
+## Page 1, lines 16–29 (`trans/v2831p1_read3.md`)
 
-**New sign:** the "7"-shaped stroke = f ("Fedrico" = Emperor Frederick III, l. 16); the same sign in R1098
-ll. 2, 6, 9 should therefore be read f.
+16. Fedrico, et gli ne ho facte quelle coniecture pri[ma?] [de] le parole che ha dicto
+17. al Ser.mo Re, che […] a stare […] voglia havere rispecto al honore de la
+18. [la sua Maesta]; pare [gli] non importare altro ch'a questo, pero che dice […]
+19. liberamente questa aff[init]a essere facta in suo dispecto, [et] non [gli] pare
+20. vederli meglio per el quale […] debia tenere ch'el sia satisfacto
+21. al honore suo, stando questa affinita, se gia non volesseno che […]
+22. […] che e imposibile […] non ca[pit…] […]
+23. havendolo el Ser.mo Re [dicto?] dire ad messer Francesco che vole [ch'a]ndasse a ta[…]
+24. […] questi prelati che [poco?] et non li [la sua Maesta] sono intrati con la et del […]
+25. […] hanno dubitato non che lo Ser.mo Re havesse […] proposito et che […]
+26. […]lesse […] la sua Maesta monstrando de [mand]arlo per […] el tractato de su[…]
+27. la figliola de don Federico, che gli e dispiaciuto da morte quando
+28. fosse stato […] apresso uno gentilhomo napolitano che e con
+29. lo dicto ambasiatore; ha havuto ad dire ad persona che lo ha […]   (continues on p. 2)
+
+**Sense of ll. 16–29:** Maffeo has drawn his conjectures from what the Emperor Frederick said. The King must
+have regard to the Queen's honour; he says freely that this match [of John Corvinus] was made to spite her, and
+he must hold that his honour is satisfied, unless they wanted […]. The King had messer Francesco told to go …;
+the prelates suspected the King had some plan […] the Queen, showing the treaty of […]. The daughter of don
+Federico [of Aragon], who was mortally displeased when [the match] was […] with a Neapolitan gentleman who is
+with the said ambassador; he has had it said to someone that […].
+
+New signs: x' = do ("stando", "havendo", "quando"); a: = gli ("meglio"); a· = m ("morte"); looped b + o = st;
+o-bar stands for b in several words ("liberamente", "debia", "imposibile", "ambasiatore").
+
