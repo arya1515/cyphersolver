@@ -16,12 +16,16 @@ quoted, and it **agrees with the decode** — an independent check on the key fr
 | 9 | 23 48^ 2̃8 23 4 12 h 16. 6 64 del 23 4873 n̂ 17 87 2 4 88 ʃ 80. 12 n | **de los** · **de a bi** · **con** · **na** [del] **de** · **es ci vi o a ve en tan bi e** | — |
 | 10 | 95 n̂ xir 23 73 61 82 n 63 ʃ ∂ä 23 vom hur 22 4 4 48 2 92. 20 | **xa es** · **de que no tiene** [en] · **de** [**legato**] [**mucho**] **di a a lo o si du** | — |
 
+| 11 | 91 23 88. 23 66: 23: 48^ ∂ol^ ʒ 56 xoxt 17 21 16. n̂ 81 73 65 90 23 | **se de ven** · **de perderlos** · **a mo** · **cido con este que pasa de** |
+| 12 | ʒ 8̈8 23 76 17 13 23 45 pa 73 55. 21 8̈8 n̂ 87: 56 ʒ 48 ũ 23 55 38 ʃ 46 3 | · [re]**cibido de la** · **que mando** · **es vir mo a lo** · **de mayo** [en] **le** |
+| 13 | 48^ ī9 23^ 81 ʃ 23 48 23 ∂ir 73 93 ũ n̂ 83 nor 91 ∇ 2̃6 48 76 91: 89 | **los** · **deste** [en] **de lo de** · **que so** · **esto** [**negocios**] **se** · **lo po ser** · |
+
 ## Sense
 
 Sessa to the King from Rome, 30 June 1593, on despatches of the 30th of the previous month; what is **offered
 in particular concerning the affairs of France**, of which he despatches shortly; a letter that went **by way
 of the sea** and has been **put off from day to day**; the King **waiting to see whether some certain news
-would come**; a **fresh letter**; and the **legate**, of whom he **has not much** …
+would come**; a **fresh letter**; the **legate**, of whom he **has not much** …; the risk **of losing them**; what he has **received** of the letter **that he sent** in **May**; and these **negocios**.
 
 The gloss and the decode agree wherever both survive, which checks the office key against a contemporary
 decipherment on a third letter of the group.
