@@ -1,0 +1,421 @@
+{
+ "schema_version": 1,
+ "target": "kauderbach1754",
+ "title": "Johann Heinrich Kauderbach (The Hague) to Dresden, 1754-56, intercepted despatches with passages in figures (KHA Prins Willem V inv. 201, DECODE R1043-R2082)",
+ "documents": [
+  {
+   "id": "R2078",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R2078",
+   "date": "23 Dec 1754",
+   "year": 1754,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 1231,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R2078.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R2078_D3618_3618.txt (manual, 2021)",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R1958",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R1958",
+   "date": "20 Jun 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 542,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R1958.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R1958.txt, from the images",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R2079",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R2079",
+   "date": "6 Jul 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 558,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R2079.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R2079.txt, from the images",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R2080",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R2080",
+   "date": "22 Jul 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 1260,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R2080.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R2080.txt, from the images",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R1959",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R1959",
+   "date": "5 Aug 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 391,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R1959.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R1959.txt, from the images (DECODE dates it 1758; the heading reads 1755)",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R2081",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R2081",
+   "date": "12 Aug 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 802,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R2081.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R2081.txt, from the images",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R2082",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R2082",
+   "date": "15 Aug 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 425,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R2082.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R2082.txt, from the images",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R1044",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R1044",
+   "date": "29 Sep 1755",
+   "year": 1755,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 628,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R1044.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R1044_D1952_1952.txt (manual, 2020)",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R1954",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R1954",
+   "date": "16 Mar 1756",
+   "year": 1756,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 1621,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R1954.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "trans/R1954.txt, from a photocopy in a letter-like hand; many digits inferred from the pair rules",
+    "image_quality": "poor",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  },
+  {
+   "id": "R1043",
+   "shelfmark": "KHA The Hague, Prins Willem V inv. 201; DECODE R1043",
+   "date": "25 May 1756",
+   "year": 1756,
+   "country": "Saxony-Poland",
+   "route": "The Hague -> Dresden",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: never solved."
+   },
+   "length": {
+    "tokens": 1054,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R1043.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R1043_D1956_1956.txt (manual, 2020)",
+    "image_quality": "good",
+    "notes": "Counts are two-figure groups after removing the nulls 5 and 8 and realigning (align/decode.py)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Two-figure letter-and-syllable cipher, one code per value (about 60 codes), written without separation, with the digits 5 and 8 as nulls and names in clear capitals.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": 62,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false,
+   "max_per_vowel": 1,
+   "max_per_consonant": 1
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "names"
+   ],
+   "unread_groups": 4
+  },
+  "nulls": {
+   "present": true,
+   "count": 2
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "sibling_key": "Kauderbach's 1761 key, HStAD 10024 Loc. 08236/11 Bl. 5 (DECODE R936): same design and vocabulary, different numbers.",
+  "notes": "Names are capitals with ./. in clear (S./., Q./., P./.), meanings differing from the 1761 table. 13 may be y and re."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE notes that the Hague cabinet never solved them; no printed decipherment found.",
+   "found": "unknown",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "sibling key"
+  ],
+  "attack": "sibling key",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "curl (DECODE)",
+   "python"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "DECODE records fetched with the session cookie: 32 page images, 3 transcriptions (R1043, R1044, R2078).",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Web search for a printed decipherment or edition of Kauderbach's despatches.",
+   "result": "failed"
+  },
+  {
+   "kind": "statistics",
+   "what": "Digit counts, successor table, 2- and 3-figure phase IC on the DECODE transcriptions: no fixed period; long exact repeats show a fixed code.",
+   "result": "partial"
+  },
+  {
+   "kind": "transcription",
+   "what": "Seven records transcribed from the images by sub-agents (one died on an oversized-image error and was re-run); R1954 in a letter-like hand only partly reliable.",
+   "result": "worked"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Mixed 1/2/3-figure group rules by first digit scored by entropy; EM segmentation of 1-4-figure tokens.",
+   "result": "failed"
+  },
+  {
+   "kind": "statistics",
+   "what": "Removing 5 and 8 as single-figure nulls restores a clean 2-figure phase (IC 0.027 vs 0.021; 4-figure 0.155/0.161 vs 0.103); Viterbi realignment gives a table of about 60 two-figure codes.",
+   "result": "worked"
+  },
+  {
+   "kind": "solver",
+   "what": "Homophonic letter solver (quadgram coordinate ascent, validated 98% on synthetic French through the same pipeline) in French, German, Dutch, Italian, word-reversed French, with nulls, syllable values or merged look-alike figures.",
+   "result": "failed"
+  },
+  {
+   "kind": "crib",
+   "what": "Pattern cribs for long repeats (guerre, Angleterre) seeded into the solver.",
+   "result": "failed"
+  },
+  {
+   "kind": "sibling key",
+   "what": "DECODE key listing searched; Kauderbach's 1761 key (R936) fetched: one code per letter or syllable, capitals for names, a declared null. Numbers do not fit; vocabulary adopted (m restored from the image).",
+   "result": "worked"
+  },
+  {
+   "kind": "solver",
+   "what": "Simulated annealing over one-to-one assignments of the codes onto the 1761 vocabulary, char-4-gram score; seeds 22 and 24 converged to the same key (-3.85/letter).",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Key refined by reading and an extended vocabulary (in, ou, qu, st, par, pas, qui, pour, fai, ke, z; 01/12 swapped); ten letters read by two sub-agents, one per five letters.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Content checked against history: Holderness's warning and the 30,000-man augmentation (Jul 1755), Kniphausen at Compiegne, the Treaty of Versailles of 1 May 1756 with its neutrality clause.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.998,
+  "grades": "unknown",
+  "verification": [
+   "historical consistency",
+   "key confirms"
+  ],
+  "notes": "fraction_read = share of the 8,512 groups carrying a key value (only 10, 20, 40, 90 guessed, 12 occurrences). Readers estimate 65-97% of the text read in sense per letter; R1954 weakest; the clear sigla are read from context only."
+ }
+}

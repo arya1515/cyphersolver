@@ -46,6 +46,7 @@
   "herbault to béthune, 13 february 1626": "2026-09-18",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
+  "kauderbach from the hague to dresden, 1754–56": "2026-09-19",
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
@@ -149,7 +150,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "bf498dfd5e5f",
+   "hash": "0c2dd9534d43",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -244,7 +245,12 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ebced33fa356",
+   "hash": "5bba36fe48b2",
+   "updated": "2026-09-19"
+  },
+  "kauderbach1754": {
+   "first": "2026-09-19",
+   "hash": "dc1117baa31b",
    "updated": "2026-09-19"
   },
   "kurtz1639": {
@@ -454,7 +460,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a654469180d9",
+   "hash": "96024d80dd9c",
    "updated": "2026-09-19"
   },
   "yard1699": {
