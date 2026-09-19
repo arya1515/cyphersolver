@@ -1,0 +1,118 @@
+{
+ "schema_version": 1,
+ "target": "fagel1804",
+ "title": "Robert Fagel (The Hague) to Prince William V, 18 June 1804 (KHA A31 PWV inv. 337; DECODE R2238)",
+ "documents": [
+  {
+   "id": "R2238",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, A31 Prins Willem V, inv. nr. 337; DECODE R2238",
+   "date": "18 Jun 1804",
+   "year": 1804,
+   "country": "Batavian Republic",
+   "route": "The Hague -> William V (in exile)",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record; none found in print."
+   },
+   "length": {
+    "tokens": 128,
+    "distinct": 99,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ciphertext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R2238_I15526_P3 (full resolution, deskewed line crops)",
+    "image_quality": "good",
+    "notes": "128 figure groups counted by regex after removing clear words and superscript marks; _check_profile --measure --digits gives 101 comma-separated words (dot-joined groups counted as one). Superscript marks (c, 3, 6, 9, fractions) uncertain."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Numerical code of 2-4 digit groups up to 2510, commas between words and dots joining groups within a word, clear endings (t, e, s) appended to some groups, embedded in a clear French letter.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "separator symbol",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "Keys tested and ruled out: the Stadholder's Grand Chiffre of 1782 (DECODE R1024, Euler) plain and with every start of its additive Tableau; the 1790s Orange name key R2240; Dutch codebooks R1035 (1803) and R1891 (1798). Siblings R2236/R2237/R2239 in the same inv. nr. use a different small-number system."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE status non-decrypted; no decipherment on the letter",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "DECODE API and filesrv image download",
+   "PIL deskew and line crops",
+   "key lookup and Tableau start-point brute force (python)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE R2238 record and its three page images with the session cookie; page 3 carries the cipher, pages 2 and 1 are clear.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the cipher passage (128 groups, one interlinear insertion) and the clear context.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Grand Chiffre du Stadhouder (R1024, 1782) via the DECODE key transcription, direct lookup.",
+   "result": "ruled out"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Grand Chiffre with the additive Tableau (11 rows x 17 values) from every row and column start, scored on syllable fit of dot-joined groups.",
+   "result": "ruled out"
+  },
+  {
+   "kind": "sibling key",
+   "what": "R2240 Orange key (letters 1-100, names 100-6006); R1035 and R1891 Dutch codebooks; siblings R2236, R2237, R2239 in the same inventory number.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Key not located. The code (about 2500 groups) is too large for 128 groups of text without the key; next step is the KHA's William V / Fagel papers for a code book of 1801-1806."
+ }
+}
