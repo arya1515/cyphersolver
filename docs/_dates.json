@@ -73,6 +73,7 @@
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
+  "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
@@ -95,6 +96,11 @@
    "first": "2026-09-14",
    "hash": "c351cec849d3",
    "updated": "2026-09-18"
+  },
+  "balbases1677": {
+   "first": "2026-09-19",
+   "hash": "d458d383131b",
+   "updated": "2026-09-19"
   },
   "bethune": {
    "first": "2026-09-17",
@@ -128,7 +134,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e27e97f13ccb",
+   "hash": "a5955268448c",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -218,7 +224,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "fde829cb8450",
+   "hash": "0730c57219ce",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -418,7 +424,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "b4ce726a652b",
+   "hash": "01f888d44b23",
    "updated": "2026-09-19"
   },
   "yard1699": {

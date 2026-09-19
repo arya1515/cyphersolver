@@ -1,0 +1,73 @@
+{
+ "schema_version": 1,
+ "target": "balbases1677",
+ "title": "Balbases (Nijmegen) to Fuenmayor (Copenhagen), 1677-78, DECODE R985-R998",
+ "documents": [
+  {
+   "id": "margined",
+   "shelfmark": "AGR Brussels, Secrétairerie d'État et de Guerre 2559 (DECODE R985-R991, R993-R995)",
+   "date": "Jun 1677 - Feb 1678",
+   "year": 1677,
+   "country": "Spain",
+   "route": "Nijmegen -> Copenhagen",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["interlinear"], "source": "Contemporary decipherment in the left margin of ten letters"},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "source": "DECODE images; DECODE's own transcriptions omit cipher lines", "image_quality": "good", "notes": "8,150 cipher groups across all 14 letters (NOTES); not split per letter."}
+  },
+  {
+   "id": "unread",
+   "shelfmark": "AGR Brussels, SEG 2559 (DECODE R992, R996, R997, R998)",
+   "date": "Sep 1677 - Mar 1678",
+   "year": 1678,
+   "country": "Spain",
+   "route": "Nijmegen -> Copenhagen",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["none"]},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "image_quality": "good"}
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "syllabic", "nomenclator"],
+  "summary": "Syllabic nomenclator with homophones: numbers for letters and CV syllables, disguised letter-pair syllables, word codes, nulls.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {"width": "1-3", "separation": "spaces"},
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": true, "note": "A '+' mark distinguishes groups (3+, e 2+, struck d = que)."},
+  "homophones": {"used": true, "max_per_vowel": 2, "max_per_consonant": 3},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["syllables", "common words", "names", "places", "titles"], "unread_groups": "unknown"},
+  "nulls": {"present": true, "count": 9},
+  "key_order": "random",
+  "word_division": "none",
+  "sibling_key": "Eight Brussels keys of 1647-98 (R958-R965) checked; none fits.",
+  "notes": "About 3% of groups unassigned, mostly rare 3-digit name codes."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "partial", "where": "Marginal decipherments on 10 of 14 letters", "found": "before attempt", "used": true},
+  "inputs": ["images", "known plaintext"],
+  "attack": "known plaintext",
+  "human_role": "Supplied the DECODE cookie.",
+  "tools": ["n-gram anchor search (ngram.py)", "hard-EM monotone aligner (align2.py)", "dec.py"],
+  "models": ["unknown"],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {"date": "2026-09-19", "kind": "sibling key", "what": "Tried eight Brussels keys from the same series.", "result": "ruled out"},
+  {"date": "2026-09-19", "kind": "transcription", "what": "Two agents transcribed every cipher line and margin line from the images.", "result": "worked"},
+  {"date": "2026-09-19", "kind": "crib", "what": "Anchors from n-grams repeated across letters, checked against the margin text.", "result": "worked"},
+  {"date": "2026-09-19", "kind": "solver", "what": "Hard-EM monotone aligner of tokens to margin plaintext, seeded by the anchors; converged in two rounds.", "result": "worked"},
+  {"date": "2026-09-19", "kind": "reading", "what": "Key applied to the four letters with no margin.", "result": "worked"},
+  {"date": "2026-09-19", "kind": "verification", "what": "Key reproduces the ten margins; Ghent's fall (9 Mar 1678) appears in R998.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.97,
+  "verification": ["contemporary decipherment", "historical consistency"],
+  "notes": "Four previously unread letters read in gist."
+ }
+}
