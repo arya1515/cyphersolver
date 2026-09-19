@@ -49,6 +49,7 @@
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
+  "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "richard forster, 1644": "2026-09-16",
@@ -105,7 +106,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "a1ed0a8866e6",
+   "hash": "ed1502640d60",
    "updated": "2026-09-18"
   },
   "catinat1691": {
@@ -185,7 +186,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "34ced79c4964",
+   "hash": "3f2d78083095",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -245,7 +246,7 @@
   },
   "pelissier1592": {
    "first": "2026-09-18",
-   "hash": "decacef135ce",
+   "hash": "e90d1c359576",
    "updated": "2026-09-18"
   },
   "raince": {
@@ -345,7 +346,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "4431850080ce",
+   "hash": "1f21c8ce83c7",
    "updated": "2026-09-18"
   },
   "yard1699": {
