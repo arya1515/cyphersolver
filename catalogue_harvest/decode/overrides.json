@@ -1,0 +1,336 @@
+[
+ {
+  "ids": [
+   8345
+  ],
+  "action": "exclude",
+  "reason": "BL Add MS 32091 f. 213 is the Moray → John Wood letter, already a repo target (moray/)."
+ },
+ {
+  "ids": [
+   9876,
+   9885,
+   9886,
+   9896,
+   9899,
+   9900,
+   9903,
+   9905,
+   9904
+  ],
+  "action": "exclude",
+  "reason": "RAH 9/31 and 9/34, Luis Fernández (Rome): the Sessa 1524 series, already a repo target (sessa1524/)."
+ },
+ {
+  "ids": [
+   1084,
+   1148,
+   1159
+  ],
+  "action": "exclude",
+  "reason": "Maffeo da Treviglio / Buda correspondence in the Sforzesco: already a repo target (buda1489/)."
+ },
+ {
+  "ids": [
+   3672,
+   3662,
+   3663,
+   2288,
+   2289,
+   2290,
+   2291,
+   2292
+  ],
+  "action": "exclude",
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/)."
+ },
+ {
+  "ids": [
+   4226,
+   4227,
+   4250,
+   4251,
+   3694,
+   3698
+  ],
+  "action": "exclude",
+  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/)."
+ },
+ {
+  "ids": [
+   4229
+  ],
+  "action": "exclude",
+  "reason": "Jean du Bellay, fr. 3040: covered by catalogue no. 4 (dubellay/) and the gramont1529 key survey."
+ },
+ {
+  "ids": [
+   4258,
+   4267,
+   4269
+  ],
+  "action": "exclude",
+  "reason": "Sormano and de Vaulx (Ferrara), fr. 3096: catalogue no. 8, read (sormano/)."
+ },
+ {
+  "ids": [
+   4279,
+   4274
+  ],
+  "action": "exclude",
+  "reason": "La Guiche and Tournon, fr. 3138: catalogue no. 10."
+ },
+ {
+  "ids": [
+   9460,
+   9459
+  ],
+  "action": "exclude",
+  "reason": "fr. 3623 nos. 60 and 78: catalogue no. 30 (Champagne news-letters to Nevers)."
+ },
+ {
+  "ids": [
+   2294,
+   2295,
+   2293
+  ],
+  "action": "exclude",
+  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (superscript/, vasto1527/)."
+ },
+ {
+  "ids": [
+   2230,
+   2231
+  ],
+  "action": "exclude",
+  "reason": "fr. 3541, Henri IV (Villeroy) to Savary de Brèves 1603: catalogue no. 23 (breves1603/)."
+ },
+ {
+  "ids": [
+   2075,
+   2076
+  ],
+  "action": "exclude",
+  "reason": "fr. 3789, the Court to Savary de Brèves 1610: catalogue no. 25."
+ },
+ {
+  "ids": [
+   2754
+  ],
+  "action": "exclude",
+  "reason": "Melchior de Sabran 1636: Tomokiyo's DECODE note records Daniel Bourdeau's solution of 15 Sept 2026."
+ },
+ {
+  "ids": [
+   2787
+  ],
+  "action": "exclude",
+  "reason": "Villeroi to Henry III, 1577: solved by Sergey Ryabov (Tomokiyo, Unsolved Historical Ciphers)."
+ },
+ {
+  "ids": [
+   361
+  ],
+  "action": "exclude",
+  "reason": "Catherine of Aragon to Ferdinand, 1509: solved by Victor and Thomas Bosbach in 2018 (Tomokiyo)."
+ },
+ {
+  "ids": [
+   2788
+  ],
+  "action": "exclude",
+  "reason": "Catherine de Médicis to du Croc, 27 Apr 1567: already a repo target (ducroc/)."
+ },
+ {
+  "ids": [
+   4233,
+   4234,
+   4235
+  ],
+  "action": "patch",
+  "note": "Related repo work: gramont1529/NOTES.md identifies 'Mascon's cipher' with fr. 3053 and Lasry's key for it was applied there to the 1537 letter, so these Rome letters of 1536–37 may read with that key.",
+  "patch": {
+   "cls": "A",
+   "solvability": 4,
+   "difficulty": 2
+  }
+ },
+ {
+  "ids": [
+   4256
+  ],
+  "action": "patch",
+  "note": "Same volume as the Sormano–de Vaulx letters read here (sormano/); test those keys first."
+ },
+ {
+  "ids": [
+   3697
+  ],
+  "action": "patch",
+  "note": "Same volume (fr. 3091) as letters read in raince/ and gramont1529/; check Lasry's GL.htm keys for Selve."
+ },
+ {
+  "ids": [
+   4155,
+   4158,
+   4167,
+   4162,
+   4165,
+   4157
+  ],
+  "action": "patch",
+  "note": "Same volume as catalogue no. 13 (Anonymous to Mercœur, fr. 15564 f. 151); Tomokiyo notes other Mercœur-circle letters there were solved by G. Lasry.",
+  "patch": {
+   "cls": "B"
+  }
+ },
+ {
+  "ids": [
+   8774
+  ],
+  "action": "patch",
+  "note": "Same Blenheim volume as the Geertruidenberg target (geertruidenberg/, ff. 38–41), a different leaf."
+ },
+ {
+  "ids": [
+   4931
+  ],
+  "action": "patch",
+  "note": "Same Cotton volume as Mary Queen of Scots to Norfolk (norfolk1570/, f. 74, read here); a different letter."
+ },
+ {
+  "ids": [
+   8348,
+   8347
+  ],
+  "action": "patch",
+  "note": "moray/NOTES.md lists Add MS 33531 items; Bain no. 1103 records the 20 July 1569 Throckmorton letter as 'in cipher deciphered', so check Bain before attacking."
+ },
+ {
+  "ids": [
+   9451
+  ],
+  "action": "patch",
+  "note": "blancmesnil/NOTES.md works in the same fr. 3621 series."
+ },
+ {
+  "ids": [
+   788,
+   752,
+   925,
+   785,
+   790,
+   923,
+   787,
+   929
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's Unsolved Historical Ciphers list (Henrietta Maria, 1645–46), where he posts a provisional transcription; the forster/ target here read a related Forster letter."
+ },
+ {
+  "ids": [
+   4838,
+   4839,
+   4840
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's list (ciphers related to Walsingham)."
+ },
+ {
+  "ids": [
+   9255,
+   9222,
+   9226,
+   9232,
+   9221,
+   9223,
+   9225,
+   9224,
+   9227,
+   9220
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's list (Nicholas Throckmorton, 1559): he notes the meaningful superscripts are two-digit numbers."
+ },
+ {
+  "ids": [
+   8559
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's list (Bishop of Worcester's cipher, 1527); he notes the figure range does not match the 1537 Doria cipher."
+ },
+ {
+  "ids": [
+   9619,
+   9620,
+   9621,
+   9635,
+   9639,
+   9653,
+   9637,
+   9640,
+   9641,
+   9651,
+   9657,
+   9633,
+   9636,
+   9670,
+   9677,
+   9689
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "Tomokiyo's list: Alonso Sánchez to Charles V (1522–23); he reconstructed the cipher from letters whose plaintext survives.",
+  "patch": {
+   "cls": "B",
+   "solvability": 4
+  }
+ },
+ {
+  "ids": [
+   4450
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's list (Hieronimo Ranzo); the same code as the Ranzo letters tracked in TARGETS.md (superscript/)."
+ },
+ {
+  "ids": [
+   2753
+  ],
+  "action": "patch",
+  "on_list": "Tomokiyo",
+  "note": "On Tomokiyo's list (Sabran, 1630s); the enclosure cipher of Odoardo Farnese's letter is the open part."
+ },
+ {
+  "ids": [
+   1101,
+   1102,
+   1103,
+   1106
+  ],
+  "action": "patch",
+  "note": "Oldest-cipher candidate (oldest/CANDIDATES.md B2): Sadoleto's 1483 letters in b. 1/10 (R1107–R1118) are partially decrypted and sibling letters in the same buste are 'Decrypted' with keys and cribs on DECODE; images also on Vestigia (vestigia.hu). If read, 1482 would beat the repo's 1497 record.",
+  "patch": {
+   "importance": 4,
+   "cls": "A",
+   "solvability": 4,
+   "difficulty": 3
+  }
+ },
+ {
+  "ids": [
+   1156
+  ],
+  "action": "patch",
+  "note": "King Matthias Corvinus himself writing to Ercole I d'Este in the year of his war with Frederick III; same Ferrara–Hungary cipher family as Sadoleto's letters (oldest/CANDIDATES.md B2).",
+  "patch": {
+   "importance": 4,
+   "cls": "B"
+  }
+ }
+]

@@ -1,0 +1,8 @@
+list.json
+views*.jsonl
+groups.json
+*.log
+__pycache__/
+dump_views_b.py
+dump_views_c.py
+coverage.py

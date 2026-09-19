@@ -1,0 +1,4665 @@
+[
+ {
+  "key": [
+   "London",
+   "",
+   "",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   2970
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2970,
+    "name": "BL_Add_MS_32305_014-017",
+    "holder": "",
+    "city": "London",
+    "date": "1742-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "London?, England?",
+    "clear": "",
+    "plain": "",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 18983",
+   "King Charles I",
+   "Prince Rupert",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   4921
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4921,
+    "name": "BL_Add_MS_18983_014",
+    "holder": "British Library, Add MS 18983, f 14.",
+    "city": "London",
+    "date": "1645-04-29",
+    "author": "King Charles I",
+    "sender": "",
+    "receiver": "Prince Rupert",
+    "origin": "Oxford",
+    "clear": "English",
+    "plain": "English",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Noted in top right-hand corner as 'Duplicate' but evidently written in the King's hand and with his signature. Largely in (undeciphered) cipher. 17th-century endorsement notes the cipher but not the contents."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32091",
+   "...",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   8345
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8345,
+    "name": "BL_Add_MS_32091_213",
+    "holder": "British Library, Add MS 32091 f 213-214.",
+    "city": "London",
+    "date": "1558-07-18",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32256",
+   "Mr. Jones",
+   "Ben. Schaeblin",
+   1750
+  ],
+  "n": 1,
+  "ids": [
+   9218
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9218,
+    "name": "BL_Add_MS_32256_235",
+    "holder": "British Library, Add MS 32256 f 235.",
+    "city": "London",
+    "date": "1753",
+    "author": "Mr. Jones",
+    "sender": "",
+    "receiver": "Ben. Schaeblin",
+    "origin": "Hague",
+    "clear": "...",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9219,
+    "year": 1760,
+    "holder": "British Library, Add MS 32256 f 236.",
+    "author": ""
+   },
+   {
+    "id": 9217,
+    "year": 1750,
+    "holder": "British Library, Add MS 32256 f 233-234.",
+    "author": ""
+   },
+   {
+    "id": 9216,
+    "year": 1750,
+    "holder": "British Library, Add MS 32256 f 231-232.",
+    "author": ""
+   },
+   {
+    "id": 9215,
+    "year": 1750,
+    "holder": "British Library, Add MS 32256 f 229-230.",
+    "author": ""
+   },
+   {
+    "id": 9214,
+    "year": 1750,
+    "holder": "British Library, Add MS 32256 f 228.",
+    "author": ""
+   },
+   {
+    "id": 9213,
+    "year": 1750,
+    "holder": "British Library, Add MS 32256 f 227.",
+    "author": ""
+   },
+   {
+    "id": 9212,
+    "year": 1749,
+    "holder": "British Library, Add MS 32256 f 226.",
+    "author": ""
+   },
+   {
+    "id": 9211,
+    "year": 1749,
+    "holder": "British Library, Add MS 32256 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9210,
+    "year": 1746,
+    "holder": "British Library, Add MS 32256 f 223-224.",
+    "author": "Sheridan?"
+   },
+   {
+    "id": 9209,
+    "year": 1746,
+    "holder": "British Library, Add MS 32256 f 221-222.",
+    "author": "Sheridan?"
+   },
+   {
+    "id": 9208,
+    "year": 1746,
+    "holder": "British Library, Add MS 32256 f 219-220.",
+    "author": ""
+   },
+   {
+    "id": 9207,
+    "year": 1746,
+    "holder": "British Library, Add MS 32256 f 215-218.",
+    "author": "Meridan?"
+   }
+  ],
+  "decode_keys_total": 94
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32270",
+   "Count Visconti",
+   "Visconti",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   7931
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 7931,
+    "name": "BL_Add_MS_32270_042",
+    "holder": "British Library, Add MS 32270 f 42.",
+    "city": "London",
+    "date": "1727",
+    "author": "Count Visconti",
+    "sender": "",
+    "receiver": "Visconti",
+    "origin": "Germany, Brufselles",
+    "clear": "",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8048,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 294-295.",
+    "author": "Gansinot   Palatinate"
+   },
+   {
+    "id": 8047,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 293.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8046,
+    "year": 1736,
+    "holder": "British Library, Add MS 32270 f 291-292.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8045,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 290.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8044,
+    "year": 1733,
+    "holder": "British Library, Add MS 32270 f 289.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8043,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 288.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8042,
+    "year": 1761,
+    "holder": "British Library, Add MS 32270 f 286.",
+    "author": "Hessel - Cassel"
+   },
+   {
+    "id": 8041,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 284-285.",
+    "author": "Hessel - Cassel"
+   },
+   {
+    "id": 8040,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 282-283.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8039,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 280-281.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8038,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 278-279.",
+    "author": "Alt   Hessel - Cassel"
+   },
+   {
+    "id": 8037,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 276-277.",
+    "author": "Alt   Hessel - Cassel"
+   }
+  ],
+  "decode_keys_total": 101
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32270",
+   "Palm",
+   "Visconti",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   7930
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 7930,
+    "name": "BL_Add_MS_32270_041",
+    "holder": "British Library, Add MS 32270 f 41.",
+    "city": "London",
+    "date": "1727-03-14",
+    "author": "Palm",
+    "sender": "",
+    "receiver": "Visconti",
+    "origin": "Germany",
+    "clear": "",
+    "plain": "...",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Syllables, nulls",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Calculations."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8048,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 294-295.",
+    "author": "Gansinot   Palatinate"
+   },
+   {
+    "id": 8047,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 293.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8046,
+    "year": 1736,
+    "holder": "British Library, Add MS 32270 f 291-292.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8045,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 290.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8044,
+    "year": 1733,
+    "holder": "British Library, Add MS 32270 f 289.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8043,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 288.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8042,
+    "year": 1761,
+    "holder": "British Library, Add MS 32270 f 286.",
+    "author": "Hessel - Cassel"
+   },
+   {
+    "id": 8041,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 284-285.",
+    "author": "Hessel - Cassel"
+   },
+   {
+    "id": 8040,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 282-283.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8039,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 280-281.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8038,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 278-279.",
+    "author": "Alt   Hessel - Cassel"
+   },
+   {
+    "id": 8037,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 276-277.",
+    "author": "Alt   Hessel - Cassel"
+   }
+  ],
+  "decode_keys_total": 101
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32270",
+   "Palm",
+   "Staremberg",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   7927
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 7927,
+    "name": "BL_Add_MS_32270_016",
+    "holder": "British Library, Add MS 32270 f 16-17.",
+    "city": "London",
+    "date": "1719/1839",
+    "author": "Palm",
+    "sender": "",
+    "receiver": "Staremberg",
+    "origin": "Germany",
+    "clear": "...",
+    "plain": "",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8048,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 294-295.",
+    "author": "Gansinot   Palatinate"
+   },
+   {
+    "id": 8047,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 293.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8046,
+    "year": 1736,
+    "holder": "British Library, Add MS 32270 f 291-292.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8045,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 290.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8044,
+    "year": 1733,
+    "holder": "British Library, Add MS 32270 f 289.",
+    "author": "Wacktendonck   Palatinate"
+   },
+   {
+    "id": 8043,
+    "year": 1732,
+    "holder": "British Library, Add MS 32270 f 288.",
+    "author": "Wachtendonck   Palatinate"
+   },
+   {
+    "id": 8041,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 284-285.",
+    "author": "Hessel - Cassel"
+   },
+   {
+    "id": 8040,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 282-283.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8039,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 280-281.",
+    "author": "Heffvis?   Hessel - Cassel"
+   },
+   {
+    "id": 8038,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 278-279.",
+    "author": "Alt   Hessel - Cassel"
+   },
+   {
+    "id": 8037,
+    "year": 1742,
+    "holder": "British Library, Add MS 32270 f 276-277.",
+    "author": "Alt   Hessel - Cassel"
+   },
+   {
+    "id": 8036,
+    "year": 1719,
+    "holder": "British Library, Add MS 32270 f 274-275.",
+    "author": "Alt   Hessel - Cassel"
+   }
+  ],
+  "decode_keys_total": 93
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32280",
+   "",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   8871
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8871,
+    "name": "BL_Add_MS_32280_003",
+    "holder": "British Library, Add MS 32280 f 3.",
+    "city": "London",
+    "date": "1723/1842",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8920,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 117-120.",
+    "author": ""
+   },
+   {
+    "id": 8893,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 65.",
+    "author": ""
+   },
+   {
+    "id": 8892,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 63-64.",
+    "author": ""
+   },
+   {
+    "id": 8891,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 59-62.",
+    "author": ""
+   },
+   {
+    "id": 8887,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 50-51.",
+    "author": ""
+   },
+   {
+    "id": 8885,
+    "year": 1746,
+    "holder": "British Library, Add MS 32280 f 47-48.",
+    "author": ""
+   },
+   {
+    "id": 8884,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 43-46.",
+    "author": ""
+   },
+   {
+    "id": 8883,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 30-42.",
+    "author": ""
+   },
+   {
+    "id": 8882,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 26-29.",
+    "author": ""
+   },
+   {
+    "id": 8881,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 19-25.",
+    "author": ""
+   },
+   {
+    "id": 8880,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 15-18.",
+    "author": ""
+   },
+   {
+    "id": 8879,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 14.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 19
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32280",
+   "...",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   8870
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8870,
+    "name": "BL_Add_MS_32280_001",
+    "holder": "British Library, Add MS 32280 f 1-2.",
+    "city": "London",
+    "date": "1723/1842",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8920,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 117-120.",
+    "author": ""
+   },
+   {
+    "id": 8893,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 65.",
+    "author": ""
+   },
+   {
+    "id": 8892,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 63-64.",
+    "author": ""
+   },
+   {
+    "id": 8891,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 59-62.",
+    "author": ""
+   },
+   {
+    "id": 8887,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 50-51.",
+    "author": ""
+   },
+   {
+    "id": 8885,
+    "year": 1746,
+    "holder": "British Library, Add MS 32280 f 47-48.",
+    "author": ""
+   },
+   {
+    "id": 8884,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 43-46.",
+    "author": ""
+   },
+   {
+    "id": 8883,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 30-42.",
+    "author": ""
+   },
+   {
+    "id": 8882,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 26-29.",
+    "author": ""
+   },
+   {
+    "id": 8881,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 19-25.",
+    "author": ""
+   },
+   {
+    "id": 8880,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 15-18.",
+    "author": ""
+   },
+   {
+    "id": 8879,
+    "year": 1723,
+    "holder": "British Library, Add MS 32280 f 14.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 19
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32287",
+   "",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   7707
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 7707,
+    "name": "BL_Add_MS_32287_037",
+    "holder": "British Library, Add MS 32287 f 37-40.",
+    "city": "London",
+    "date": "1716/1836",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Cipher text(?) with drafts(?)."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 7751,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 172-173.",
+    "author": ""
+   },
+   {
+    "id": 7735,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 135-136.",
+    "author": ""
+   },
+   {
+    "id": 7733,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 132-133.",
+    "author": ""
+   },
+   {
+    "id": 7731,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 129.",
+    "author": ""
+   },
+   {
+    "id": 7727,
+    "year": 1755,
+    "holder": "British Library, Add MS 32287 f 121.",
+    "author": "Haslang"
+   },
+   {
+    "id": 7726,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 111-120.",
+    "author": ""
+   },
+   {
+    "id": 7725,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 109-110.",
+    "author": "Wynantz"
+   },
+   {
+    "id": 7724,
+    "year": 1753,
+    "holder": "British Library, Add MS 32287 f 107-108.",
+    "author": "Wynantz"
+   },
+   {
+    "id": 7723,
+    "year": 1752,
+    "holder": "British Library, Add MS 32287 f 101-106.",
+    "author": "Scheffer"
+   },
+   {
+    "id": 7722,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 99-100.",
+    "author": "B. de Scheffer"
+   },
+   {
+    "id": 7721,
+    "year": 1749,
+    "holder": "British Library, Add MS 32287 f 97-98.",
+    "author": "Wynantz"
+   },
+   {
+    "id": 7720,
+    "year": 1716,
+    "holder": "British Library, Add MS 32287 f 90-96.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 40
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32305",
+   "",
+   "",
+   1700
+  ],
+  "n": 6,
+  "ids": [
+   2963,
+   2964,
+   2965,
+   2968,
+   2972,
+   2974
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2963,
+    "name": "BL_Add_MS_32305_005",
+    "holder": "British Library, Add MS 32305 f 5.",
+    "city": "London",
+    "date": "1700-01-01/1799",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "...",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator, unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2964,
+    "name": "BL_Add_MS_32305_006",
+    "holder": "British Library, Add MS 32305 f 6.",
+    "city": "London",
+    "date": "1719-02-01",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "...",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator, unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2965,
+    "name": "BL_Add_MS_32305_007",
+    "holder": "British Library, Add MS 32305 f 7.",
+    "city": "London",
+    "date": "1719-02-10",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "...",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator, unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2968,
+    "name": "BL_Add_MS_32305_011-012",
+    "holder": "British Library, Add MS 32305 f 11-12.",
+    "city": "London",
+    "date": "1742-03-01",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2972,
+    "name": "BL_Add_MS_32305_022-023",
+    "holder": "British Library, Add MS 32305 f 22-23.",
+    "city": "London",
+    "date": "1745-01-19",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "London?, England?",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2974,
+    "name": "BL_Add_MS_32305_025-028",
+    "holder": "British Library, Add MS 32305 f 25-28.",
+    "city": "London",
+    "date": "1749-11-17",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "...",
+    "plain": "...",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator, unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 2969,
+    "year": 1742,
+    "holder": "British Library, Add MS 32305 f 13.",
+    "author": "Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32305",
+   "",
+   "",
+   1750
+  ],
+  "n": 2,
+  "ids": [
+   2978,
+   2979
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2978,
+    "name": "BL_Add_MS_32305_032-033",
+    "holder": "British Library, Add MS 32305 f 32-33.",
+    "city": "London",
+    "date": "1750-01-25",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Dresden, Germany",
+    "clear": "...",
+    "plain": "...",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 2979,
+    "name": "BL_Add_MS_32305_034",
+    "holder": "British Library, Add MS 32305 f 34.",
+    "city": "London",
+    "date": "1753-08-09",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hague, Netherlands",
+    "clear": "...",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 2969,
+    "year": 1742,
+    "holder": "British Library, Add MS 32305 f 13.",
+    "author": "Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32650",
+   "Sir Ralph Sadler",
+   "King Henry VIII",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4924
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4924,
+    "name": "BL_Add_MS_32650_214-216",
+    "holder": "British Library, Add MS 32650, f 214-216.",
+    "city": "London",
+    "date": "1543-04-22",
+    "author": "Sir Ralph Sadler",
+    "sender": "",
+    "receiver": "King Henry VIII",
+    "origin": "Edinburgh",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32657",
+   "Edward Wotton, ambassador to Scotland",
+   "Sir Francis Walsingham, Secretary of State",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4842
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4842,
+    "name": "BL_Add_MS_32657_173-174",
+    "holder": "British Library, Add MS 32657, f 173-174.",
+    "city": "London",
+    "date": "1547/1590",
+    "author": "Edward Wotton, ambassador to Scotland",
+    "sender": "",
+    "receiver": "Sir Francis Walsingham, Secretary of State",
+    "origin": "England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32657",
+   "Sir Francis Walsingham, Secretary of State",
+   "Edward Wotton, ambassador to Scotland",
+   1550
+  ],
+  "n": 4,
+  "ids": [
+   4838,
+   4839,
+   4840,
+   4844
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4838,
+    "name": "BL_Add_MS_32657_125-127",
+    "holder": "British Library, Add MS 32657, f 125-127.",
+    "city": "London",
+    "date": "1585-07-28",
+    "author": "Sir Francis Walsingham, Secretary of State",
+    "sender": "",
+    "receiver": "Edward Wotton, ambassador to Scotland",
+    "origin": "Nonsuch, England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 4839,
+    "name": "BL_Add_MS_32657_140-141",
+    "holder": "British Library, Add MS 32657, f 140-141.",
+    "city": "London",
+    "date": "1585-08-07",
+    "author": "Sir Francis Walsingham, Secretary of State",
+    "sender": "",
+    "receiver": "Edward Wotton, ambassador to Scotland",
+    "origin": "Court, England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 4840,
+    "name": "BL_Add_MS_32657_163-164",
+    "holder": "British Library, Add MS 32657, f 163-164.",
+    "city": "London",
+    "date": "1585-08-21",
+    "author": "Sir Francis Walsingham, Secretary of State",
+    "sender": "",
+    "receiver": "Edward Wotton, ambassador to Scotland",
+    "origin": "Court, England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 4844,
+    "name": "BL_Add_MS_32657_194-195",
+    "holder": "British Library, Add MS 32657, f 194-195.",
+    "city": "London",
+    "date": "1585-09-10",
+    "author": "Sir Francis Walsingham, Secretary of State",
+    "sender": "",
+    "receiver": "Edward Wotton, ambassador to Scotland",
+    "origin": "Court, England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 32657",
+   "Edward Wotton, ambassador to Scotland",
+   "Sir Francis Walsingham, Secretary of State",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   4841,
+   4843
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4841,
+    "name": "BL_Add_MS_32657_167-168",
+    "holder": "British Library, Add MS 32657, f 167-168.",
+    "city": "London",
+    "date": "1585-08-25",
+    "author": "Edward Wotton, ambassador to Scotland",
+    "sender": "",
+    "receiver": "Sir Francis Walsingham, Secretary of State",
+    "origin": "England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 4843,
+    "name": "BL_Add_MS_32657_175-176",
+    "holder": "British Library, Add MS 32657, f 175-176.",
+    "city": "London",
+    "date": "1585-09-01",
+    "author": "Edward Wotton, ambassador to Scotland",
+    "sender": "",
+    "receiver": "Sir Francis Walsingham, Secretary of State",
+    "origin": "England, Scotland",
+    "clear": "English",
+    "plain": "English",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 33531",
+   "...",
+   "Lorde Regent of Scotlande",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   8348
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8348,
+    "name": "BL_Add_MS_33531_079",
+    "holder": "British Library, Add MS 33531 f 79-80.",
+    "city": "London",
+    "date": "1569-07-26",
+    "author": "...",
+    "sender": "",
+    "receiver": "Lorde Regent of Scotlande",
+    "origin": "England, Scotland",
+    "clear": "...",
+    "plain": "...",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 33531",
+   "...",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   8347
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8347,
+    "name": "BL_Add_MS_33531_073",
+    "holder": "British Library, Add MS 33531 f 73-74.",
+    "city": "London",
+    "date": "1568-01",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 33591",
+   "William Cecil, 1st Baron Burghley",
+   "Sir Ralph Sadler and Sir James Croft",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   4847,
+   4860
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4847,
+    "name": "BL_Add_MS_33591_102-103",
+    "holder": "British Library, Add MS 33591, f 102-103.",
+    "city": "London",
+    "date": "1559-09-11",
+    "author": "William Cecil, 1st Baron Burghley",
+    "sender": "",
+    "receiver": "Sir Ralph Sadler and Sir James Croft",
+    "origin": "",
+    "clear": "English",
+    "plain": "English",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from William Cecil, 1st Baron Burghley, to Sir Ralph Sadler and Sir James Croft, Deputy of Ireland and Controller of the Royal Household."
+   },
+   {
+    "id": 4860,
+    "name": "BL_Add_MS_33591_248",
+    "holder": "British Library, Add MS 33591, f 248.",
+    "city": "London",
+    "date": "1559-10-30",
+    "author": "William Cecil, 1st Baron Burghley",
+    "sender": "",
+    "receiver": "Sir Ralph Sadler and Sir James Croft",
+    "origin": "",
+    "clear": "English",
+    "plain": "English",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 4851,
+    "year": 1554,
+    "holder": "British Library, Add MS 33591, f 166-167.",
+    "author": "Thomas Randolph?"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4107",
+   "Queen Anne",
+   "Charles Mordaunt",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   4878
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4878,
+    "name": "BL_Add_MS_4107_184",
+    "holder": "British Library, Add MS 4107, f 184.",
+    "city": "London",
+    "date": "1711-02-22/1712",
+    "author": "Queen Anne",
+    "sender": "",
+    "receiver": "Charles Mordaunt",
+    "origin": "",
+    "clear": "English",
+    "plain": "English",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Instruction sent from Queen Anne to Charles Mordaunt, Earl of Peterborough and Monmouth. For his embassy to Turin."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Henry Percy",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9256
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9256,
+    "name": "BL_Add_MS_4136_172",
+    "holder": "British Library, Add MS 4136 f 172.",
+    "city": "London",
+    "date": "1559-07-23",
+    "author": "Henry Percy",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Nicholas Thorkmorton, Mr. Lomer, Randolph",
+   "Secretary Cecill, The Queen",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9255
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9255,
+    "name": "BL_Add_MS_4136_169",
+    "holder": "British Library, Add MS 4136 f 169-171.",
+    "city": "London",
+    "date": "1560/1562",
+    "author": "Nicholas Thorkmorton, Mr. Lomer, Randolph",
+    "sender": "",
+    "receiver": "Secretary Cecill, The Queen",
+    "origin": "Edinburgh, Bonneval, Blois, Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "4 encrypted messages."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Sr. Thomas Smith",
+   "Secretary Cecill, The Queen",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9254
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9254,
+    "name": "BL_Add_MS_4136_167",
+    "holder": "British Library, Add MS 4136 f 167-168.",
+    "city": "London",
+    "date": "1562/1564",
+    "author": "Sr. Thomas Smith",
+    "sender": "",
+    "receiver": "Secretary Cecill, The Queen",
+    "origin": "..., Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "3 encrypted messages."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Sr. Thomas Smith",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   9252,
+   9253
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9252,
+    "name": "BL_Add_MS_4136_163",
+    "holder": "British Library, Add MS 4136 f 163-165.",
+    "city": "London",
+    "date": "1562/1564",
+    "author": "Sr. Thomas Smith",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "4 encrypted messages."
+   },
+   {
+    "id": 9253,
+    "name": "BL_Add_MS_4136_166",
+    "holder": "British Library, Add MS 4136 f 166.",
+    "city": "London",
+    "date": "1564",
+    "author": "Sr. Thomas Smith",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Marseilles, Arles, Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "4 encrypted messages."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Sr. Henry Norreys",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9251
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9251,
+    "name": "BL_Add_MS_4136_161",
+    "holder": "British Library, Add MS 4136 f 161-163.",
+    "city": "London",
+    "date": "1567-03-09",
+    "author": "Sr. Henry Norreys",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Sr. Thomas Smith, Mr. Middelmore, Sr. Henry Norreys",
+   "The Queen, Secretary Cecill",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9250
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9250,
+    "name": "BL_Add_MS_4136_159",
+    "holder": "British Library, Add MS 4136 f 159-161.",
+    "city": "London",
+    "date": "1563/1567",
+    "author": "Sr. Thomas Smith, Mr. Middelmore, Sr. Henry Norreys",
+    "sender": "",
+    "receiver": "The Queen, Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "13 encrypted messages."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Sr. Thomas Smith",
+   "The Queen",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   9248,
+   9249
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9248,
+    "name": "BL_Add_MS_4136_157_2",
+    "holder": "British Library, Add MS 4136 f 157.",
+    "city": "London",
+    "date": "1562-01-27",
+    "author": "Sr. Thomas Smith",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9249,
+    "name": "BL_Add_MS_4136_158",
+    "holder": "British Library, Add MS 4136 f 158.",
+    "city": "London",
+    "date": "1562-01-27",
+    "author": "Sr. Thomas Smith",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Mr. Middelmore",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   9246,
+   9247
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9246,
+    "name": "BL_Add_MS_4136_155",
+    "holder": "British Library, Add MS 4136 f 155-157.",
+    "city": "London",
+    "date": "1563-07-19",
+    "author": "Mr. Middelmore",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9247,
+    "name": "BL_Add_MS_4136_157",
+    "holder": "British Library, Add MS 4136 f 157.",
+    "city": "London",
+    "date": "1563-07-26",
+    "author": "Mr. Middelmore",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Nicholas Thorkmorton",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 5,
+  "ids": [
+   9222,
+   9226,
+   9232,
+   9233,
+   9245
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9222,
+    "name": "BL_Add_MS_4136_111",
+    "holder": "British Library, Add MS 4136 f 111-112.",
+    "city": "London",
+    "date": "1559-03-09/1560",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9226,
+    "name": "BL_Add_MS_4136_120",
+    "holder": "British Library, Add MS 4136 f 120-122.",
+    "city": "London",
+    "date": "1559-03-21",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9232,
+    "name": "BL_Add_MS_4136_134_2",
+    "holder": "British Library, Add MS 4136 f 134-135.",
+    "city": "London",
+    "date": "1562-09-09",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9233,
+    "name": "BL_Add_MS_4136_135",
+    "holder": "British Library, Add MS 4136 f 135-136.",
+    "city": "London",
+    "date": "1562-10-30",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9245,
+    "name": "BL_Add_MS_4136_153",
+    "holder": "British Library, Add MS 4136 f 153-155.",
+    "city": "London",
+    "date": "1563-09-20",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Nicholas Thorkmorton",
+   "The Queen",
+   1550
+  ],
+  "n": 11,
+  "ids": [
+   9221,
+   9223,
+   9225,
+   9228,
+   9229,
+   9230,
+   9231,
+   9234,
+   9242,
+   9243,
+   9244
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9221,
+    "name": "BL_Add_MS_4136_110",
+    "holder": "British Library, Add MS 4136 f 110.",
+    "city": "London",
+    "date": "1559-03-09/1560",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9223,
+    "name": "BL_Add_MS_4136_112",
+    "holder": "British Library, Add MS 4136 f 112-116.",
+    "city": "London",
+    "date": "1559-03-15",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9225,
+    "name": "BL_Add_MS_4136_118",
+    "holder": "British Library, Add MS 4136 f 118-120.",
+    "city": "London",
+    "date": "1559-03-21",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9228,
+    "name": "BL_Add_MS_4136_123",
+    "holder": "British Library, Add MS 4136 f 123-129.",
+    "city": "London",
+    "date": "1562-09-24",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "7",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9229,
+    "name": "BL_Add_MS_4136_129",
+    "holder": "British Library, Add MS 4136 f 129-133.",
+    "city": "London",
+    "date": "1562-10-15",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9230,
+    "name": "BL_Add_MS_4136_133",
+    "holder": "British Library, Add MS 4136 f 133.",
+    "city": "London",
+    "date": "1562-08-05",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9231,
+    "name": "BL_Add_MS_4136_134",
+    "holder": "British Library, Add MS 4136 f 134.",
+    "city": "London",
+    "date": "1562-09-09",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9234,
+    "name": "BL_Add_MS_4136_136",
+    "holder": "British Library, Add MS 4136 f 136-138.",
+    "city": "London",
+    "date": "1563-11-01",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9242,
+    "name": "BL_Add_MS_4136_149",
+    "holder": "British Library, Add MS 4136 f 149-150.",
+    "city": "London",
+    "date": "1562-01-03",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9243,
+    "name": "BL_Add_MS_4136_150",
+    "holder": "British Library, Add MS 4136 f 150-151.",
+    "city": "London",
+    "date": "1562-01-06",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9244,
+    "name": "BL_Add_MS_4136_151",
+    "holder": "British Library, Add MS 4136 f 151-153.",
+    "city": "London",
+    "date": "1562-01-13",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "...",
+   "",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   9238,
+   9241
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9238,
+    "name": "BL_Add_MS_4136_142",
+    "holder": "British Library, Add MS 4136 f 142-143.",
+    "city": "London",
+    "date": "1562-01-02",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9241,
+    "name": "BL_Add_MS_4136_148",
+    "holder": "British Library, Add MS 4136 f 148-149.",
+    "city": "London",
+    "date": "1563-01-15",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Amiral",
+   "D. Angle",
+   1550
+  ],
+  "n": 3,
+  "ids": [
+   9237,
+   9239,
+   9240
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9237,
+    "name": "BL_Add_MS_4136_141",
+    "holder": "British Library, Add MS 4136 f 141-142.",
+    "city": "London",
+    "date": "1562-01-02",
+    "author": "Amiral",
+    "sender": "",
+    "receiver": "D. Angle",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9239,
+    "name": "BL_Add_MS_4136_143",
+    "holder": "British Library, Add MS 4136 f 143-146.",
+    "city": "London",
+    "date": "1562-01-24",
+    "author": "Amiral",
+    "sender": "",
+    "receiver": "D. Angle",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9240,
+    "name": "BL_Add_MS_4136_146",
+    "holder": "British Library, Add MS 4136 f 146-148.",
+    "city": "London",
+    "date": "1562-01-29",
+    "author": "Amiral",
+    "sender": "",
+    "receiver": "D. Angle",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Thomas Smith",
+   "Secretary Cecill, The Queen",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9236
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9236,
+    "name": "BL_Add_MS_4136_140",
+    "holder": "British Library, Add MS 4136 f 140.",
+    "city": "London",
+    "date": "1562/1563",
+    "author": "Thomas Smith",
+    "sender": "",
+    "receiver": "Secretary Cecill, The Queen",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "5 short encrypted messages."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Mr. Lomer",
+   "Secretary Cecill",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9235
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9235,
+    "name": "BL_Add_MS_4136_138",
+    "holder": "British Library, Add MS 4136 f 138-139.",
+    "city": "London",
+    "date": "1563-12",
+    "author": "Mr. Lomer",
+    "sender": "",
+    "receiver": "Secretary Cecill",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Nicholas Thorkmorton",
+   "The Lords of the Council",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   9224,
+   9227
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9224,
+    "name": "BL_Add_MS_4136_116",
+    "holder": "British Library, Add MS 4136 f 116-118.",
+    "city": "London",
+    "date": "1559-03-15",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Lords of the Council",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9227,
+    "name": "BL_Add_MS_4136_122",
+    "holder": "British Library, Add MS 4136 f 122-123.",
+    "city": "London",
+    "date": "1559-03-21",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "The Lords of the Council",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Nicholas Thorkmorton",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9220
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9220,
+    "name": "BL_Add_MS_4136_110",
+    "holder": "British Library, Add MS 4136 f 110.",
+    "city": "London",
+    "date": "1559-03-08/1560",
+    "author": "Nicholas Thorkmorton",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "English",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "Thorkmorton",
+   "Secretary Cecill; Lords of the Council",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   3026
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3026,
+    "name": "BL_Add_MS_4136_100-101",
+    "holder": "British Library, Add MS 4136 f 100-101.",
+    "city": "London",
+    "date": "1560-02-08",
+    "author": "Thorkmorton",
+    "sender": "",
+    "receiver": "Secretary Cecill; Lords of the Council",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "2 letters. #should be splitted Images should be uploaded (Satoshi Tomokiyo)."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 4136",
+   "",
+   "",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   2988,
+   2989
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2988,
+    "name": "BL_Add_MS_4136_032",
+    "holder": "British Library, Add MS 4136 f 32.",
+    "city": "London",
+    "date": "1559-07-10",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Western manuscripts",
+    "clear": "",
+    "plain": "English",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator, unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "(Satoshi Tomokiyo, 17 September 2023) This is an extract of ciphered segments from a partially enciphered letter. The full letter not found in Patrick Forbes (1740), A Full View Of The Public Transactions In the Riegn of Q. Elisabeth ( Google ) around p.156. What I call \"Throckmorton's Cipher 1\" is used. The ciphertext in the margin (about half of the sheet) is unidentified."
+   },
+   {
+    "id": 2989,
+    "name": "BL_Add_MS_4136_033",
+    "holder": "British Library, Add MS 4136 f 33.",
+    "city": "London",
+    "date": "1559-08-08/1568",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Paris, Western manuscripts",
+    "clear": "",
+    "plain": "English",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "(Satoshi Tomokiyo, 16 September 2023) This is an extract of ciphered segments from a partially enciphered letter. The full letter deciphered is printed in Patrick Forbes (1740), A Full View Of The Public Transactions In the Riegn of Q. Elisabeth ( Google ) p.195 The line by \"Mr John Wod\" is in a different cipher, not deciphered."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9262,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 180-185.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9261,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 179.",
+    "author": "Sr. Thomas Smith  Western manuscripts"
+   },
+   {
+    "id": 9260,
+    "year": 1560,
+    "holder": "British Library, Add MS 4136 f 177-178.",
+    "author": "Nicholas Thorkmorton  Western manuscripts"
+   },
+   {
+    "id": 9257,
+    "year": 1566,
+    "holder": "British Library, Add MS 4136 f 172.",
+    "author": "Henry Percy  Western manuscripts"
+   }
+  ],
+  "decode_keys_total": 4
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Add MS 61575",
+   "Frederic, Re di Prussia",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   8774
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8774,
+    "name": "BL_Add_MS_61575_095",
+    "holder": "British Library, Add MS 61575 f 95.",
+    "city": "London",
+    "date": "1702/1723",
+    "author": "Frederic, Re di Prussia",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 8770,
+    "year": 1702,
+    "holder": "British Library, Add MS 61575 f 79.",
+    "author": ""
+   },
+   {
+    "id": 8769,
+    "year": 1702,
+    "holder": "British Library, Add MS 61575 f 78.",
+    "author": ""
+   },
+   {
+    "id": 8768,
+    "year": 1702,
+    "holder": "British Library, Add MS 61575 f 76-77.",
+    "author": "..."
+   },
+   {
+    "id": 8767,
+    "year": 1712,
+    "holder": "British Library, Add MS 61575 f 72-75.",
+    "author": ""
+   },
+   {
+    "id": 8766,
+    "year": 1712,
+    "holder": "British Library, Add MS 61575 f 69-71.",
+    "author": ""
+   },
+   {
+    "id": 8765,
+    "year": 1712,
+    "holder": "British Library, Add MS 61575 f 66-68.",
+    "author": ""
+   },
+   {
+    "id": 8764,
+    "year": 1712,
+    "holder": "British Library, Add MS 61575 f 64-65.",
+    "author": ""
+   },
+   {
+    "id": 8763,
+    "year": 1711,
+    "holder": "British Library, Add MS 61575 f 62-63.",
+    "author": ""
+   },
+   {
+    "id": 8762,
+    "year": 1702,
+    "holder": "British Library, Add MS 61575 f 61.",
+    "author": ""
+   },
+   {
+    "id": 8761,
+    "year": 1712,
+    "holder": "British Library, Add MS 61575 f 60.",
+    "author": ""
+   },
+   {
+    "id": 8760,
+    "year": 1706,
+    "holder": "British Library, Add MS 61575 f 58-59.",
+    "author": "P. M. ?"
+   },
+   {
+    "id": 8759,
+    "year": 1704,
+    "holder": "British Library, Add MS 61575 f 55-57.",
+    "author": "Borrneved?"
+   }
+  ],
+  "decode_keys_total": 14
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Caligula C II",
+   "Thomas Randolph",
+   "Thomas Radcliffe, 3rd Earl of Sussex",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4931
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4931,
+    "name": "BL_Cotton_MS_Caligula_C_II_277",
+    "holder": "British Library, Cotton MS Caligula C II. f 277.",
+    "city": "London",
+    "date": "1569/1572",
+    "author": "Thomas Randolph",
+    "sender": "",
+    "receiver": "Thomas Radcliffe, 3rd Earl of Sussex",
+    "origin": "Edinburgh, England, Scotland",
+    "clear": "English?",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 4930,
+    "year": 1569,
+    "holder": "British Library, Cotton MS Caligula C II. f 76-77.",
+    "author": "England, Scotland"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Galba B V",
+   "Thommas Spynelly",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8416
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8416,
+    "name": "BL_Cotton_MS_Galba_B_V_040",
+    "holder": "British Library, Cotton MS Galba B V f 40-41.",
+    "city": "London",
+    "date": "1516-02",
+    "author": "Thommas Spynelly",
+    "sender": "",
+    "receiver": "",
+    "origin": "...",
+    "clear": "...",
+    "plain": "...",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C III",
+   "Edw. Lee",
+   "",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   8472,
+   8473
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8472,
+    "name": "BL_Cotton_MS_Vespanian_C_III_244",
+    "holder": "British Library, Cotton MS Vespanian C III f 244.",
+    "city": "London",
+    "date": "1526-05-13",
+    "author": "Edw. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8473,
+    "name": "BL_Cotton_MS_Vespanian_C_III_245",
+    "holder": "British Library, Cotton MS Vespanian C III f 245.",
+    "city": "London",
+    "date": "1526-05-13",
+    "author": "Edw. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C III",
+   "Edw. Lee Almosinar",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8465
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8465,
+    "name": "BL_Cotton_MS_Vespanian_C_III_238",
+    "holder": "British Library, Cotton MS Vespanian C III f 238.",
+    "city": "London",
+    "date": "1526-04-15",
+    "author": "Edw. Lee Almosinar",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C III",
+   "Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 4,
+  "ids": [
+   8458,
+   8459,
+   8460,
+   8462
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8458,
+    "name": "BL_Cotton_MS_Vespanian_C_III_227",
+    "holder": "British Library, Cotton MS Vespanian C III f 227.",
+    "city": "London",
+    "date": "1526-03-12",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8459,
+    "name": "BL_Cotton_MS_Vespanian_C_III_228",
+    "holder": "British Library, Cotton MS Vespanian C III f 228.",
+    "city": "London",
+    "date": "1526-03-13",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8460,
+    "name": "BL_Cotton_MS_Vespanian_C_III_229",
+    "holder": "British Library, Cotton MS Vespanian C III f 229.",
+    "city": "London",
+    "date": "1526-03-12",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8462,
+    "name": "BL_Cotton_MS_Vespanian_C_III_232",
+    "holder": "British Library, Cotton MS Vespanian C III f 232.",
+    "city": "London",
+    "date": "1526-04-15",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Civill",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Cysar-Augusta, Edw. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8602
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8602,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_341",
+    "holder": "British Library, Cotton MS Vespanian C IV f 341.",
+    "city": "London",
+    "date": "1529-04-20",
+    "author": "Cysar-Augusta, Edw. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English?",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Ed. Lee, Hir. Eps. Wigorn.",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8587
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8587,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_311",
+    "holder": "British Library, Cotton MS Vespanian C IV f 311.",
+    "city": "London",
+    "date": "1529-02-09",
+    "author": "Ed. Lee, Hir. Eps. Wigorn.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolet",
+    "clear": "English?",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 12,
+  "ids": [
+   8536,
+   8537,
+   8538,
+   8542,
+   8543,
+   8544,
+   8549,
+   8550,
+   8561,
+   8566,
+   8585,
+   8586
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8536,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_130",
+    "holder": "British Library, Cotton MS Vespanian C IV f 130-131.",
+    "city": "London",
+    "date": "1527-05-23",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8537,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_132",
+    "holder": "British Library, Cotton MS Vespanian C IV f 132-133.",
+    "city": "London",
+    "date": "1527-05-23",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8538,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_138",
+    "holder": "British Library, Cotton MS Vespanian C IV f 138-139.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolite",
+    "clear": "English",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8542,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_146",
+    "holder": "British Library, Cotton MS Vespanian C IV f 146.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8543,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_147",
+    "holder": "British Library, Cotton MS Vespanian C IV f 147.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8544,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_148",
+    "holder": "British Library, Cotton MS Vespanian C IV f 148.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8549,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_154",
+    "holder": "British Library, Cotton MS Vespanian C IV f 154.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8550,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_155",
+    "holder": "British Library, Cotton MS Vespanian C IV f 155.",
+    "city": "London",
+    "date": "1527-06-05",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Valedolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8561,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_166",
+    "holder": "British Library, Cotton MS Vespanian C IV f 166.",
+    "city": "London",
+    "date": "1527-06-16",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8566,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_178",
+    "holder": "British Library, Cotton MS Vespanian C IV f 178-181.",
+    "city": "London",
+    "date": "1527-07-17",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "English",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8585,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_310d",
+    "holder": "British Library, Cotton MS Vespanian C IV f 310d.",
+    "city": "London",
+    "date": "1529-02-09",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valoleti",
+    "clear": "English?",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8586,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_310e",
+    "holder": "British Library, Cotton MS Vespanian C IV f 310e.",
+    "city": "London",
+    "date": "1529-02-09",
+    "author": "Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolet",
+    "clear": "English?",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Hier. Eps. Wigorn, Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8582
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8582,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_300",
+    "holder": "British Library, Cotton MS Vespanian C IV f 300.",
+    "city": "London",
+    "date": "1528-11-18",
+    "author": "Hier. Eps. Wigorn, Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valadolit",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Epus Wigorn, Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8578
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8578,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_284",
+    "holder": "British Library, Cotton MS Vespanian C IV f 284.",
+    "city": "London",
+    "date": "1528-10-16",
+    "author": "Epus Wigorn, Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English?",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Eps. Wign., E. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8575
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8575,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_262",
+    "holder": "British Library, Cotton MS Vespanian C IV f 262-265.",
+    "city": "London",
+    "date": "1528-07-28",
+    "author": "Eps. Wign., E. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valolit",
+    "clear": "English?",
+    "plain": "English?",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "B. Worc., Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8574
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8574,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_259",
+    "holder": "British Library, Cotton MS Vespanian C IV f 259-261.",
+    "city": "London",
+    "date": "1528",
+    "author": "B. Worc., Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English?",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Eps. Wigorn, Ed. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8573
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8573,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_238",
+    "holder": "British Library, Cotton MS Vespanian C IV f 238-239.",
+    "city": "London",
+    "date": "1527-12-26",
+    "author": "Eps. Wigorn, Ed. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Burgos",
+    "clear": "English?",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Eps. Wigorn, Ed. Lee, Francis Poynts",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8568
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8568,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_186",
+    "holder": "British Library, Cotton MS Vespanian C IV f 186-188.",
+    "city": "London",
+    "date": "1527-07-27",
+    "author": "Eps. Wigorn, Ed. Lee, Francis Poynts",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English",
+    "plain": "English",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Sr. Fra. Poynts",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8567
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8567,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_182",
+    "holder": "British Library, Cotton MS Vespanian C IV f 182-185.",
+    "city": "London",
+    "date": "1527-07-28",
+    "author": "Sr. Fra. Poynts",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "English",
+    "pages": "8",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Fran. Poynts",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8565
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8565,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_174",
+    "holder": "British Library, Cotton MS Vespanian C IV f 174-177.",
+    "city": "London",
+    "date": "1527-07-17",
+    "author": "Fran. Poynts",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "English",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "B. Worcester, E. Lee",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8559
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8559,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_164",
+    "holder": "British Library, Cotton MS Vespanian C IV f 164.",
+    "city": "London",
+    "date": "1527",
+    "author": "B. Worcester, E. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "B. Worecster, Ed. Lee Eleem.",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8557
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8557,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_162",
+    "holder": "British Library, Cotton MS Vespanian C IV f 162.",
+    "city": "London",
+    "date": "1527",
+    "author": "B. Worecster, Ed. Lee Eleem.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Bpp. Worecestr, Ed. Lee Eleem.",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8556
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8556,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_161",
+    "holder": "British Library, Cotton MS Vespanian C IV f 161.",
+    "city": "London",
+    "date": "1527",
+    "author": "Bpp. Worecestr, Ed. Lee Eleem.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Eps. Wigorn, Ed. Lee Eleem.",
+   "",
+   1500
+  ],
+  "n": 3,
+  "ids": [
+   8553,
+   8554,
+   8555
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8553,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_158",
+    "holder": "British Library, Cotton MS Vespanian C IV f 158.",
+    "city": "London",
+    "date": "1527",
+    "author": "Eps. Wigorn, Ed. Lee Eleem.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8554,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_159",
+    "holder": "British Library, Cotton MS Vespanian C IV f 159.",
+    "city": "London",
+    "date": "1527",
+    "author": "Eps. Wigorn, Ed. Lee Eleem.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8555,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_160",
+    "holder": "British Library, Cotton MS Vespanian C IV f 160.",
+    "city": "London",
+    "date": "1527",
+    "author": "Eps. Wigorn, Ed. Lee Eleem.",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Eps. Wigorn, Ed. Lee Eleemosinar",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8552
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8552,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_157",
+    "holder": "British Library, Cotton MS Vespanian C IV f 157.",
+    "city": "London",
+    "date": "1527-07",
+    "author": "Eps. Wigorn, Ed. Lee Eleemosinar",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Edouard Lee Almosinar",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   8551
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8551,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_156",
+    "holder": "British Library, Cotton MS Vespanian C IV f 156.",
+    "city": "London",
+    "date": "1527",
+    "author": "Edouard Lee Almosinar",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania",
+    "clear": "English",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Ed. Lee Almosinar",
+   "",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   8547,
+   8548
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8547,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_152",
+    "holder": "British Library, Cotton MS Vespanian C IV f 152.",
+    "city": "London",
+    "date": "1527-06-29",
+    "author": "Ed. Lee Almosinar",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8548,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_153",
+    "holder": "British Library, Cotton MS Vespanian C IV f 153.",
+    "city": "London",
+    "date": "1527-06-29",
+    "author": "Ed. Lee Almosinar",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valdolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "London",
+   "British Library, Cotton MS Vespanian C IV",
+   "Edw. Lee",
+   "",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   8533,
+   8535
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 8533,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_120",
+    "holder": "British Library, Cotton MS Vespanian C IV f 120-121.",
+    "city": "London",
+    "date": "1527-04-20",
+    "author": "Edw. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valodolit",
+    "clear": "English",
+    "plain": "English",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 8535,
+    "name": "BL_Cotton_MS_Vespanian_C_IV_125",
+    "holder": "British Library, Cotton MS Vespanian C IV f 125.",
+    "city": "London",
+    "date": "1527-05-06",
+    "author": "Edw. Lee",
+    "sender": "",
+    "receiver": "",
+    "origin": "Hispania, Valedolit",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ }
+]

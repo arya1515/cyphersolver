@@ -1,0 +1,4046 @@
+[
+ {
+  "key": [
+   "",
+   "",
+   "Charles IX",
+   "Philibert du Croc",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   2789
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2789,
+    "name": "Charles_IX_to_Philibert_du_Croc",
+    "holder": "",
+    "city": "",
+    "date": "1550-01-01/1574",
+    "author": "Charles IX",
+    "sender": "",
+    "receiver": "Philibert du Croc",
+    "origin": "",
+    "clear": "",
+    "plain": "probably French",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Printed in Paul Destray (1924), Un diplomate français du XVIe siècle: Philibert du Croc (Gallica) (p.80 and the next leaf). See S. Tomokiyo, \"French ciphers during the Reigns of Charles IX and Henry III\" (http://cryptiana.web.fc2.com/code/henryiii.htm) for contemporary ciphers."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "",
+   "",
+   "Catherine de Medicis",
+   "Philibert du Croc",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   2788
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2788,
+    "name": "Catherine_de_Medicis_to_Philibert_du_Croc",
+    "holder": "",
+    "city": "",
+    "date": "1567-04-27",
+    "author": "Catherine de Medicis",
+    "sender": "",
+    "receiver": "Philibert du Croc",
+    "origin": "Saint-Maur, France",
+    "clear": "French",
+    "plain": "probably French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Printed in Paul Destray (1924), Un diplomate français du XVIe siècle: Philibert du Croc (Gallica) (p.53 and the leaf next to p.56). Another image from the archives is posted at Cipherbrain (https://scienceblogs.de/klausis-krypto-kolumne/2021/05/19/die-verschluesselten-briefe-von-katharina-und-maria-von-medici/). See S. Tomokiyo, \"French ciphers during the Reigns of Charles IX and Henry III\" (http://cryptiana.web.fc2.com/code/henryiii.htm) for contemporary ciphers."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "",
+   "",
+   "Nicolas Desmarets",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   10198
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 10198,
+    "name": "Desmaretz_1",
+    "holder": "",
+    "city": "",
+    "date": "1710-06-04",
+    "author": "",
+    "sender": "Nicolas Desmarets",
+    "receiver": "",
+    "origin": "Marly, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "A long, secret, partially encrypted letter in which the Controller General of Finances, in close collaboration with the Minister of War, relays the King's instructions for negotiations during the Spanish War. The image is not in the public domain. It can be published only with the Library's permission.ű Thanks to Alexander Pillon for the database contribution."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "",
+   "private?",
+   "Nicolas de Neufville, Seigneur de Villeroi",
+   "Henry III of France",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   2787
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2787,
+    "name": "Villeroi_to_Henry_III_1577",
+    "holder": "private?",
+    "city": "",
+    "date": "1577-09-08",
+    "author": "Nicolas de Neufville, Seigneur de Villeroi",
+    "sender": "",
+    "receiver": "Henry III of France",
+    "origin": "Bergerac, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Sold at an auction (https://www.traces-ecrites.com/document/precieuse-lettre-codee-de-villeroy-a-henri-iii-lors-de-la-negociation-de-la-paix-de-bergerac/). See S. Tomokiyo, \"French ciphers during the Reigns of Charles IX and Henry III\" (http://cryptiana.web.fc2.com/code/henryiii.htm) for contemporary ciphers. The \"Preliminary Assignment\" document was derived from interlinear decipherment, but has not been verified. The uploader cannot yet read the text with this preliminary key."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Berlin",
+   "Koninklijk Huisarchief (KHA), Prins Willem V, inv.nr. 198",
+   "King Frederick II (the Great) of Prussia (1712-1786)",
+   "Louis Michell (1712-1786), Prussian resident in London",
+   1750
+  ],
+  "n": 1,
+  "ids": [
+   1955
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1955,
+    "name": "KHA_A31_PWV_inr198__Frederick_the_Great_to_Michell_1751-12-28(1)",
+    "holder": "Koninklijk Huisarchief (KHA), Prins Willem V, inv.nr. 198.",
+    "city": "Berlin",
+    "date": "1751-12-28",
+    "author": "King Frederick II (the Great) of Prussia (1712-1786)",
+    "sender": "idem",
+    "receiver": "Louis Michell (1712-1786), Prussian resident in London",
+    "origin": "London, England",
+    "clear": "French",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Rhis letter to the Prussian resident in London was intercepted in The Hague."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief",
+   "Bernardo de  Salinas, Spanish ambassador in London",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   968
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 968,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1676Oct6",
+    "holder": "Algemeen Rijksarchief",
+    "city": "Brussels",
+    "date": "1676-10-06",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encrypted periods can be found in the matgin. A known-plaintext attack may enable us toreassemble the key."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief",
+   "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   1010
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1010,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Sep04",
+    "holder": "Algemeen Rijksarchief",
+    "city": "Brussels",
+    "date": "1677-09-04",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 1236",
+   "Gottfried Freiherr van Swieten (1733-1803)",
+   "Johann Karl Philipp von Cobenzl (1712-1770)",
+   1750
+  ],
+  "n": 2,
+  "ids": [
+   956,
+   957
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 956,
+    "name": "ARA_BRUS_SEG_inr1236ff344-345VanSwieten to Cobenzl1759Feb4",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 1236",
+    "city": "Brussels",
+    "date": "1759-02-04",
+    "author": "Gottfried Freiherr van Swieten (1733-1803)",
+    "sender": "Idem",
+    "receiver": "Johann Karl Philipp von Cobenzl (1712-1770)",
+    "origin": "",
+    "clear": "French",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter in French with unsolved lines in code. Freiherr van Swieten was an Austrian diplomat of Dutch descent reporting about French troop movements in Germany to Count Cobenzl, his former superior and Austrian Viceroy in Brussels."
+   },
+   {
+    "id": 957,
+    "name": "ARA_Brus_SEG_inr.1236ff327-328VanSwietentoCobenzl_1759Jun14",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 1236",
+    "city": "Brussels",
+    "date": "1759-06-14",
+    "author": "Gottfried Freiherr van Swieten (1733-1803)",
+    "sender": "Idem",
+    "receiver": "Johann Karl Philipp von Cobenzl (1712-1770)",
+    "origin": "Bonn, Germany",
+    "clear": "French",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter with encrypted paragraph without recognizable separation of codegroups. A solution may be included on a separate sheet. This should be checked with a known plaintext attack."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Pablo de Doria, Marques de los Balbases (1628-1699)",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   985
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 985,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Aug03",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1577-08-03",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the codematerial is written separatly in the margin."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Bernardo de  Salinas, Spanish ambassador in London",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 6,
+  "ids": [
+   966,
+   969,
+   970,
+   971,
+   972,
+   973
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 966,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1676Aug21",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-08-21",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The presence of a number of letters from various Spanish diplomats in north western Europe to Balthasar de Fuenmayor,Spanish ambassador in Denmark and later in the Dutch Republic, all written between 1674 and 1679, is worth an explanation. IFrom the days of Archduke and Archduchess Albert and Isabella, Brussels was the center of Spanish foreign policy in north western Europe and probably this remained to be case during much of the 17th century, but this does not explain everything. In this particular case we are deaking with a 4-page encrypted letter with a barely readable solution written in "
+   },
+   {
+    "id": 969,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1676Sept8",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-09-08",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encryteds period is written in the margin. A known plaintext attack should allow us to reconstruct the key."
+   },
+   {
+    "id": 970,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1676Sept15",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-09-15",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The encrypted paragraphs are solved in the margin, leaving uncertain which word or letter belongs to which codegroup."
+   },
+   {
+    "id": 971,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1677Jan1",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-01-01",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encrypted parts of the letter is written in margin. Therefor it is unclear which word, or syllable, or letter for that matter, belongs to which codegroup."
+   },
+   {
+    "id": 972,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1677Jan26",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-01-26",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encrypted paragraphs is written in the margin, leaving uncertain which word or which syllable belongs to which codegroup."
+   },
+   {
+    "id": 973,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1677Mar2",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-03-02",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encrypted part is written in the margin, leaving uncertain which word, or syllable goes to which codegroup."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Bernardo de  Salinas, Spanish ambassador in London",
+   "Balthasar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   967
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 967,
+    "name": "ARA_Brus_SEG_inr.2559_Salinas_to_Fuenmayor_1676Dec8",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-12-08",
+    "author": "Bernardo de  Salinas, Spanish ambassador in London",
+    "sender": "Idem",
+    "receiver": "Balthasar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "London, England",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution of the encrypted paragraphs is written in the margin. A known- plaintext attack should enable us to Uncover the key."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Don Pedro de Ronquillo (1635-)",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   974
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 974,
+    "name": "ARA_Brus_SEG_inr.2559_Ronquillo_to_Fuenmayor_1676Dec21",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-12-21",
+    "author": "Don Pedro de Ronquillo (1635-)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Don Pedro de Ronquillo was the Spanish ambassasor in Venice and later in England. In theat capacity he seems to have the successor of Don Bernardo de Salinas, but at the time of writing this epistle, Ronquillo was negotiating the peace in Nimwegen. There is no apparent differende between the cipher of Salinas and that of Ronquillo, but this doesn&lsquot;t mean that it is the same. If it is, it can mean two things: (1) that they are using the Grand Chiffre of State, at the disposal of all ambassadors for communications between one ambassy and all others, or (2) that the Spanish embassy in Londo"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Don Pedro de Ronquillo (1635-), Spanish ambassador in Venice, later in England and negotiator in Nimwegen.",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   975
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 975,
+    "name": "ARA_Brus_SEG_inr.2559_Ronquillo_to_Fuenmayor_1676Dec28",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1676-12-28",
+    "author": "Don Pedro de Ronquillo (1635-), Spanish ambassador in Venice, later in England and negotiator in Nimwegen.",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "8",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Second letter from Nimwegen to Fuenmayor by Ronquillo. Rhe solution of the encrypted paragraphs is written in the margin, but ther is now apparent connenction between words or syllables and codegroups."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Pablo de Doria, Marques de los Balbases (1628-1699)",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 13,
+  "ids": [
+   986,
+   987,
+   988,
+   989,
+   990,
+   991,
+   992,
+   993,
+   994,
+   995,
+   996,
+   997,
+   998
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 986,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Aug29",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-08-29",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written separately in margin, without indication about the key. A memorandum written in French by the French delgation is included as an annex."
+   },
+   {
+    "id": 987,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Jul28",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-07-28",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written separately in the margin, without unveiling the key."
+   },
+   {
+    "id": 988,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Jun29",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-06-29",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written seperately in the margin, without unveiling the key."
+   },
+   {
+    "id": 989,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Oct21",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-10-21",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without giving away the key."
+   },
+   {
+    "id": 990,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Oct19",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-10-09",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, U",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Yhe solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 991,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Sep05",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-09-05",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "Spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without indicating the key."
+   },
+   {
+    "id": 992,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Sep14",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-09-14",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Yhird unsolved letter to Fuenmayor in the collection."
+   },
+   {
+    "id": 993,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1677Dec28",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-12-28",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in margin, without giving away the key."
+   },
+   {
+    "id": 994,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1678Feb15",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1678-02-15",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "S",
+    "plain": "Spanish",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without unveiling the key."
+   },
+   {
+    "id": 995,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1678Jan26",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1678-01-26",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the mrgin, without unveiling the key."
+   },
+   {
+    "id": 996,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1678Mar01",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1678-03-01",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Fourth unsolved letter to Fuenmayor in the collection."
+   },
+   {
+    "id": 997,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1678Mar08",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1678-03-08",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Fifth unsolved letter to Fuenmayor."
+   },
+   {
+    "id": 998,
+    "name": "ARA_Brus_SEG_inr.2559_Doria_to_Fuenmayor_1678Mar22",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1678-03-22",
+    "author": "Pablo de Doria, Marques de los Balbases (1628-1699)",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Nimwegen, United Provinces",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Sixth unsolved letter to Fuenmayor."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 9,
+  "ids": [
+   1002,
+   1003,
+   1004,
+   1005,
+   1006,
+   1007,
+   1008,
+   1009,
+   1011
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1002,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Dec04",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-12-04",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 1003,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Dec11",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-12-11",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 1004,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Nov13",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-11-13",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Seventh unsolved letter to Fuenmayor in this collecrion."
+   },
+   {
+    "id": 1005,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Nov20",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-11-20",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Eighth&lsquot; unsolved letter to Fuenmayor."
+   },
+   {
+    "id": 1006,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Oct02",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-10-02",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 1007,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Oct09",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-10-09",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 1008,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Oct16",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-10-16",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key and is difficult to read, perhaps because of the poor quality of the digital copy."
+   },
+   {
+    "id": 1009,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Sep25",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-09-25",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   },
+   {
+    "id": 1011,
+    "name": "ARA_Brus_SEG_inr.2559_Carpio_to_Fuenmayor_1677Sep18",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-09-18",
+    "author": "Gaspar Mendez de Haro, 7th Marques de Carpio (1629-1687),Spanish ambassador in Rome",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Rome, Italy",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+   "Conde de Hernan  Nunez, Spanish ambassor in Sweden",
+   "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+   1650
+  ],
+  "n": 4,
+  "ids": [
+   1012,
+   1013,
+   1014,
+   1015
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1012,
+    "name": "ARA_Brus_SEG_inr.2559_Nunez_to_Fuenmayor_1674Dec05",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1674-12-05",
+    "author": "Conde de Hernan  Nunez, Spanish ambassor in Sweden",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Stockholm, Sweden",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key. The plaintext is iexceptionally easy to read."
+   },
+   {
+    "id": 1013,
+    "name": "ARA_Brus_SEG_inr.2559_Nunez_to_Fuenmayor_1674Dec15",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1674-12-15",
+    "author": "Conde de Hernan  Nunez, Spanish ambassor in Sweden",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Stockholm, Sweden",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without unveiling the key and exceptionally easy to read."
+   },
+   {
+    "id": 1014,
+    "name": "ARA_Brus_SEG_inr.2559_Nunez_to_Fuenmayor_1674Dec19",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1674-12-19",
+    "author": "Conde de Hernan  Nunez, Spanish ambassor in Sweden",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Stockholm, Sweden",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without unveiling the key."
+   },
+   {
+    "id": 1015,
+    "name": "ARA_Brus_SEG_inr.2559_Nunez_to_Fuenmayor_1674Dec26",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "city": "Brussels",
+    "date": "1677-12-26",
+    "author": "Conde de Hernan  Nunez, Spanish ambassor in Sweden",
+    "sender": "Idem",
+    "receiver": "Balthazar de Fuenmayor, Spanish ambassador in Denmark",
+    "origin": "Stockholm, Sweden",
+    "clear": "spanish",
+    "plain": "Spanish",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The solution is written in the margin, without revealing the key."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 964,
+    "year": 1647,
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre, inv.nr. 2559",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Brussels",
+   "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre,inv.nr. 1236",
+   "Gottfried Freiherr van Swieten (1733-1803)",
+   "Johann Karl Philipp von Cobenzl (1712-1770)",
+   1750
+  ],
+  "n": 1,
+  "ids": [
+   955
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 955,
+    "name": "ARA_Brus_SEG_inr.1236f141vSwietentoCobenzl_withoutdate",
+    "holder": "Algemeen Rijksarchief, Secretairerie d&lsquot;Etat et de Guerre,inv.nr.  1236",
+    "city": "Brussels",
+    "date": "1757-01-01/1759",
+    "author": "Gottfried Freiherr van Swieten (1733-1803)",
+    "sender": "Idem",
+    "receiver": "Johann Karl Philipp von Cobenzl (1712-1770)",
+    "origin": "Germany",
+    "clear": "French",
+    "plain": "French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Encrypted letter without date, 90 codegroups in sum total. The plaintext written separately on the lower part of the sheet of paper is likely to be the solution of the ciphertext above. Only a known plaintext attack can prove this. Van Swieten knew Count Cobenzl -the Governor of the Austrian Netherlands on behalf of Maria Theresia- well, because he lived in Brussels between 1755 and 1757. Yhius letter seems to be written later, during a trip or short stay in Germany"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "Military History Archive, 1548/3",
+   "Ferdinand I",
+   "Johann Malvezzi",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   366
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 366,
+    "name": "MILITARIA_ARCH_1548_3",
+    "holder": "Military History Archive, 1548/3.",
+    "city": "Budapest",
+    "date": "1548-01-23",
+    "author": "Ferdinand I",
+    "sender": "",
+    "receiver": "Johann Malvezzi",
+    "origin": "Augsburg, Constantinople",
+    "clear": "Latin",
+    "plain": "Latin",
+    "pages": "8",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary",
+   "Ferenc Rákóczi II",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   483
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 483,
+    "name": "NAH_P237_FEST_10_D_2_42",
+    "holder": "National Archives of Hungary, P237 Festetics 10. d. 2. 42-44.",
+    "city": "Budapest",
+    "date": "1711-06-07",
+    "author": "Ferenc Rákóczi II",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Latin",
+    "plain": "Latin",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 648,
+    "year": 1671,
+    "holder": "National Archives of Hungary, P1238 Mihály Teleki Collection. Miscellaneous documents. Cipher keys. ",
+    "author": "Ferenc Nádasdy"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, E199 8. pallium 1. 01",
+   "Ferenc Wesselényi",
+   "",
+   1650
+  ],
+  "n": 1,
+  "ids": [
+   674
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 674,
+    "name": "NAH_E199_8_1_01",
+    "holder": "National Archives of Hungary, E199 8. pallium 1. 01.",
+    "city": "Budapest",
+    "date": "1664-01-01/1670",
+    "author": "Ferenc Wesselényi",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Latin",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "simple substitution",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 33. 140-143",
+   "János Pápai, Ferenc Horváth",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   823
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 823,
+    "name": "NAH_G15_CAPS_C_FASC_33_140",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 33. 140-143.",
+    "city": "Budapest",
+    "date": "1706-12-19",
+    "author": "János Pápai, Ferenc Horváth",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "Constantinople",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 33. 34-37",
+   "János Pápai, Ferenc Horváth",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   805
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 805,
+    "name": "NAH_G15_CAPS_C_FASC_33_34",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 33. 34-37.",
+    "city": "Budapest",
+    "date": "1706-05-01",
+    "author": "János Pápai, Ferenc Horváth",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "Constantinople",
+    "clear": "Hungarian",
+    "plain": "Hungarian",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 36. 18-21",
+   "Constantinpole envoys",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   796
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 796,
+    "name": "NAH_G15_CAPS_C_FASC_36_18",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 36. 18-21.",
+    "city": "Budapest",
+    "date": "1706-01-01",
+    "author": "Constantinpole envoys",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "Hungarian",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 36. 5-8",
+   "Constantinpole envoys",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   793
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 793,
+    "name": "NAH_G15_CAPS_C_FASC_36_5",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 36. 5-8.",
+    "city": "Budapest",
+    "date": "1706-01-01",
+    "author": "Constantinpole envoys",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "Hungarian",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 39. 115-117",
+   "Ferenc Rákóczi II",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   852
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 852,
+    "name": "NAH_G15_CAPS_C_FASC_39_115",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 39. 115-117.",
+    "city": "Budapest",
+    "date": "1704-01-01/1708",
+    "author": "Ferenc Rákóczi II",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 39. 277-279",
+   "Pompeio Cesoni (Ferenc Rákóczi II)",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   902
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 902,
+    "name": "NAH_G15_CAPS_C_FASC_39_277",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 39. 277-279.",
+    "city": "Budapest",
+    "date": "1707-10-15",
+    "author": "Pompeio Cesoni (Ferenc Rákóczi II)",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "French",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 39. 312-314",
+   "Ferenc Rákóczi II",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   912
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 912,
+    "name": "NAH_G15_CAPS_C_FASC_39_312",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 39. 312-314.",
+    "city": "Budapest",
+    "date": "1704-01-01/1708",
+    "author": "Ferenc Rákóczi II",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. C. Fasc. 39. 346-347",
+   "Ferenc Rákóczi II",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   922
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 922,
+    "name": "NAH_G15_CAPS_C_FASC_39_346",
+    "holder": "National Archives of Hungary, G15 Caps. C. Fasc. 39. 346-347.",
+    "city": "Budapest",
+    "date": "1704-01-01/1708",
+    "author": "Ferenc Rákóczi II",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. D. Fasc. 80",
+   "Mihály Hentér",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   496
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 496,
+    "name": "NAH_G15_CAPS_D_FASC_80_38",
+    "holder": "National Archives of Hungary, G15 Caps. D. Fasc. 80. fol. 38.",
+    "city": "Budapest",
+    "date": "1707-01-01",
+    "author": "Mihály Hentér",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "simple substitution, nomenclator",
+    "symbols": "alphabet, numerical, graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. D. Fasc. 80. 110-111",
+   "",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   784
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 784,
+    "name": "NAH_G15_CAPS_D_FASC_80_110",
+    "holder": "National Archives of Hungary, G15 Caps. D. Fasc. 80. 110-111.",
+    "city": "Budapest",
+    "date": "1707-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. D. Fasc. 81. 5",
+   "András Bay",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   478
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 478,
+    "name": "NAH_G15_CAPS_D_FASC_81_5",
+    "holder": "National Archives of Hungary, G15 Caps. D. Fasc. 81. 5.",
+    "city": "Budapest",
+    "date": "1706-03-08",
+    "author": "András Bay",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. E. Fasc. 109. 85-90",
+   "János Pápai, Ferenc Horváth",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   757
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 757,
+    "name": "NAH_G15_CAPS_E_FASC_109_85",
+    "holder": "National Archives of Hungary, G15 Caps. E. Fasc. 109. 85-90.",
+    "city": "Budapest",
+    "date": "1708-05-16",
+    "author": "János Pápai, Ferenc Horváth",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "Balar",
+    "clear": "Hungarian",
+    "plain": "Hungarian",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. E. Fasc. 80. 2-11",
+   "János Pápai, Ferenc Horváth",
+   "Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   765
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 765,
+    "name": "NAH_G15_CAPS_E_FASC_80_2",
+    "holder": "National Archives of Hungary, G15 Caps. E. Fasc. 80. 2-11.",
+    "city": "Budapest",
+    "date": "1707-01-05",
+    "author": "János Pápai, Ferenc Horváth",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II",
+    "origin": "Balar",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. H. Fasc. 226. 31-33",
+   "János Pápai",
+   "Ferenc Rákóczi II?",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   731
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 731,
+    "name": "NAH_G15_CAPS_H_FASC_226_31",
+    "holder": "National Archives of Hungary, G15 Caps. H. Fasc. 226. 31-33.",
+    "city": "Budapest",
+    "date": "1710-03-06",
+    "author": "János Pápai",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II?",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "simple substitution",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. H. Fasc. 226. 85-88",
+   "János Pápai",
+   "Ferenc Rákóczi II?",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   740
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 740,
+    "name": "NAH_G15_CAPS_H_FASC_226_85",
+    "holder": "National Archives of Hungary, G15 Caps. H. Fasc. 226. 85-88.",
+    "city": "Budapest",
+    "date": "1710-01-01",
+    "author": "János Pápai",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II?",
+    "origin": "Constantinople",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "National Archives of Hungary, G15 Caps. H. Fasc. 226. 89-96",
+   "János Pápai",
+   "Ferenc Rákóczi II?",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   741
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 741,
+    "name": "NAH_G15_CAPS_H_FASC_226_89",
+    "holder": "National Archives of Hungary, G15 Caps. H. Fasc. 226. 89-96.",
+    "city": "Budapest",
+    "date": "1710-05-08",
+    "author": "János Pápai",
+    "sender": "",
+    "receiver": "Ferenc Rákóczi II?",
+    "origin": "Constantinople",
+    "clear": "Hungarian",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Separate code characters for syllables",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Budapest",
+   "Ráday Archives, C64-4d2-10. 92-95",
+   "László Vetési Kökényesdi (sometimes alias Casimirius de Miloftzky)",
+   "Pál Ráday, Ferenc Rákóczi II",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   473
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 473,
+    "name": "RAD_ARCH_Rakoczi_C64_4d2_10_92",
+    "holder": "Ráday Archives, C64-4d2-10. 92-95.",
+    "city": "Budapest",
+    "date": "1705-01-01/1706",
+    "author": "László Vetési Kökényesdi (sometimes alias Casimirius de Miloftzky)",
+    "sender": "",
+    "receiver": "Pál Ráday, Ferenc Rákóczi II",
+    "origin": "",
+    "clear": "Hungarian",
+    "plain": "Hungarian",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Dresden",
+   "Saxon State Archive, Saxon Main State Archive Dresden",
+   "Heinrich Anton von Zeschau",
+   "Albin Leo von Seebach",
+   1800
+  ],
+  "n": 4,
+  "ids": [
+   5005,
+   5006,
+   5007,
+   5008
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 5005,
+    "name": "Ciphered Letter of De Zeschau to De Seebach, 18.01.1841, HStAD, 10731 Sächsische Gesandtschaft in Russland, Nr. 12",
+    "holder": "Saxon State Archive, Saxon Main State Archive Dresden",
+    "city": "Dresden",
+    "date": "1841-01-18",
+    "author": "",
+    "sender": "Heinrich Anton von Zeschau",
+    "receiver": "Albin Leo von Seebach",
+    "origin": "Dresden, St. Petersburg",
+    "clear": "French",
+    "plain": "French",
+    "pages": "9",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic",
+    "symbols": "numerical",
+    "cipher_other": "Numbers without withspaces",
+    "symbol_other": "",
+    "access": "login",
+    "info": "interlinear decrypted, but unfortunately rubbed out"
+   },
+   {
+    "id": 5006,
+    "name": "Ciphered Letter of De Zeschau to De Seebach, 06.04.1842 HStAD, 10731 Sächsische Gesandtschaft in Russland, Nr. 12",
+    "holder": "Saxon State Archive, Saxon Main State Archive Dresden",
+    "city": "Dresden",
+    "date": "1842-04-06",
+    "author": "",
+    "sender": "Heinrich Anton von Zeschau",
+    "receiver": "Albin Leo von Seebach",
+    "origin": "Dresden, St. Petersburg",
+    "clear": "French",
+    "plain": "French",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic",
+    "symbols": "",
+    "cipher_other": "Numbers without withspaces",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 5007,
+    "name": "Ciphered Letter of De Zeschau to De Seebach, 13.06.1846, HStAD, 10731 Sächsische Gesandtschaft in Russland, Nr. 12",
+    "holder": "Saxon State Archive, Saxon Main State Archive Dresden",
+    "city": "Dresden",
+    "date": "1842-06-13",
+    "author": "",
+    "sender": "Heinrich Anton von Zeschau",
+    "receiver": "Albin Leo von Seebach",
+    "origin": "Dresden, St. Petersburg",
+    "clear": "german",
+    "plain": "German",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic",
+    "symbols": "numerical",
+    "cipher_other": "Numbers without withspaces",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 5008,
+    "name": "Ciphered Letter of De Zeschau to De Seebach, 26.10.1843, HStAD, 10731 Sächsische Gesandtschaft in Russland, Nr. 12",
+    "holder": "Saxon State Archive, Saxon Main State Archive Dresden",
+    "city": "Dresden",
+    "date": "1843-10-26",
+    "author": "",
+    "sender": "Heinrich Anton von Zeschau",
+    "receiver": "Albin Leo von Seebach",
+    "origin": "Dresden, St. Petersburg",
+    "clear": "german",
+    "plain": "German",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic",
+    "symbols": "numerical",
+    "cipher_other": "Numbers without withspaces",
+    "symbol_other": "",
+    "access": "login",
+    "info": "spaces between numbers are marked with pencil cuts"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives",
+   "Henrietta-Maria, Queen of England and her assistants",
+   "Charles I, King of England",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   788
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 788,
+    "name": "TNA_SP106/10_UND_(0218-0221)",
+    "holder": "The National Archives",
+    "city": "Kew",
+    "date": "1645-09-22",
+    "author": "Henrietta-Maria, Queen of England and her assistants",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undecrypted letter or letter-fragment by \"104,\" rougly 1800 codegroups in sum total. Similar to: TNA_1SP106/10_UND_(0216-0217) and all the uploads mentioned there. There are two keys involved: 1) For 218, 220, 221 2) For 219"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 1999,
+    "year": null,
+    "holder": "The National Archives",
+    "author": "Germany"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives",
+   "Dr Stephen Goff(e)",
+   "Henrietta-Maria, Queen of England and Charles I, King of England",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   928
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 928,
+    "name": "TNA_SP106/10_UND_(0245-0246)",
+    "holder": "The National Archives",
+    "city": "Kew",
+    "date": "1645-01-21",
+    "author": "Dr Stephen Goff(e)",
+    "sender": "",
+    "receiver": "Henrietta-Maria, Queen of England and Charles I, King of England",
+    "origin": "The Hague, Netherlands",
+    "clear": "",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter, or part of letter, roughly 1750 codegroups in sum total Possibly related to YNA_SP106/10_(0207-210) and consecutive items. [POINTERS: 752; 754; 785; 789; 790; 923; 924; 925; 929.]"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 1999,
+    "year": null,
+    "holder": "The National Archives",
+    "author": "Germany"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives",
+   "",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   927
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 927,
+    "name": "TNA_SP106/10_UND_(0241-0243)",
+    "holder": "The National Archives",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "simple substitution",
+    "symbols": "",
+    "cipher_other": "",
+    "symbol_other": "geometrical (Freemasonry alphabet)",
+    "access": "login",
+    "info": "Undeciphered letter in the masonic alphabet, say 800 codegroups in sum total."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 2000,
+    "year": 1913,
+    "holder": "The National Archives",
+    "author": "Germany Berlin"
+   },
+   {
+    "id": 1999,
+    "year": null,
+    "holder": "The National Archives",
+    "author": "Germany"
+   },
+   {
+    "id": 1998,
+    "year": 1913,
+    "holder": "The National Archives",
+    "author": "Germany Berlin"
+   },
+   {
+    "id": 1932,
+    "year": 1912,
+    "holder": "The National Archives",
+    "author": "Germany Berlin"
+   },
+   {
+    "id": 1931,
+    "year": 1912,
+    "holder": "The National Archives",
+    "author": "Germany Berlin"
+   },
+   {
+    "id": 1930,
+    "year": 1912,
+    "holder": "The National Archives",
+    "author": "Germany Berlin"
+   }
+  ],
+  "decode_keys_total": 6
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "",
+   "",
+   1550
+  ],
+  "n": 7,
+  "ids": [
+   657,
+   660,
+   664,
+   704,
+   720,
+   721,
+   930
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 657,
+    "name": "TNA_SP106/10_UND_(0128-0138)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English, Italian",
+    "plain": "Italian, Spanish, French",
+    "pages": "9",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "This is clearly the worksheet of a codebreaker. This can be derived, not only from the fact that the lines of code are only partly decrypted, but also from the various code-sequences scribbeld in the margin with identical codegroups in the middle. Th e handwriting seems to indicate that thisis document is probaly late Tudor or early Stuart in origin, but except for Thomas Phelippes who worked for Walshingham, no other codebreakers from this period are known. [POINTER: 660; 664]"
+   },
+   {
+    "id": 660,
+    "name": "TNA_SP106/10_UND_(0139-0140)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Intercept, consisting of 15 lines, partly in cleartext, partly in code with solutions written above the codegroups in a different handwritng, resembling the handwriting of the codebreaker, seen at work in TNA_SP106/10_(0128-0138). [POINTER: 657; 664]"
+   },
+   {
+    "id": 664,
+    "name": "TNA_SP106/10_UND_(0167-0169)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "An intercept, consisting of rougly 500 codegroups (45 lines of code) and a few lines of cleartext, partly splved in the same handwriting as we see in TNA_106/10_UND_(0128-0138). There are 3 images, containing 4 (octavio) pages. [POINTERS: 657; 660]"
+   },
+   {
+    "id": 704,
+    "name": "TNA_SP106/10_UND_(0186-0187)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1714",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Intercepted letter, partly solved by a codebreaker. Lines numbered from 1 tot 46, round and about 700 codegroups in sum total. Letterindicator: \"3\". The dating, either late Tudor or Stuart, isbased on the handwriting alone. [POINTERS: 720; 721; 722]"
+   },
+   {
+    "id": 720,
+    "name": "TNA_SP106/10_UND_(0188-0189)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1714",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker, possibly related to the intercepted letter in: TNA_SP106/10_(0186-0187). The dating, either late Tudor or Stuart, is based on the handwriting alone. [POINTERS: 704; 721; 722]"
+   },
+   {
+    "id": 721,
+    "name": "TNA_SP106/10_UND_(0190-0192)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1714",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Intercepted letter, partly solved with marginal notes in the handwriting of the codebreaker. Numbered lines, 26 with slightly less than 300 codegroups in sum total. Similar to TNA_SP105/10_(0186-0187) and TNA_SP106/10_(0193-0195). The dating, either late Tudor or Stuart, is based on the handwriting alone. [POINTERS: 704; 720; 722]"
+   },
+   {
+    "id": 930,
+    "name": "TNA_SP106/10_UND_(0249)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1558-11-17/1603",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "A strip of paper with 4 lines of code, slightly more than 100 codegroups in sum total. The use of esoterical symbls suggests Elizabethan origin."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "",
+   "",
+   1600
+  ],
+  "n": 4,
+  "ids": [
+   656,
+   662,
+   722,
+   931
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 656,
+    "name": "TNA_SP106/10_UND_(0067)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1603-03-14/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ten lines of ciphertext written in between numbered lines of cleartext in Engllsh, many of these lines are numbered. It seems unlikely that the cleartext is the solution of the cuphertext, however, because the handwriting is too regular. Thehandwriting and the use of numerals seem to point to the reign of James I."
+   },
+   {
+    "id": 662,
+    "name": "TNA_SP106/10_UND_(0008)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1600-01-01/1699",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "English",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Fragment of a partly coded letter, mostly solved, but barely readable, because only a slice of paper is left. The dating is probably mid 17th century, based on the handwriting alone."
+   },
+   {
+    "id": 722,
+    "name": "TNA_SP106/10_UND_(0193-0195)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1625-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "probably Italian",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator, homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Intercepted letter, partly solved and with marginal notes of a codebreaker.Numbered lines, 48 in sum total comprising of roughly 500 codegroups. The year 1625 points to a hitherto unknown codebreaker during the reign of King James VI and I. [POINTERS: 704; 720; 721]"
+   },
+   {
+    "id": 931,
+    "name": "TNA_SP106/10_UND_(0251)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "A stirp of paper with 8 lines of codes, including 3-digit numerals, slightly less than 240 codegroups in sum total. \"(1) Septembre 1645\" is written on the first line, therefor this document is likely to be related to the English Civil War."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "Henrietta-Maria, Queen of England",
+   "Charles I, King of England",
+   1600
+  ],
+  "n": 2,
+  "ids": [
+   752,
+   925
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 752,
+    "name": "TNA_SP106/10_UND_(0207-0210)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-09-01",
+    "author": "Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undecrypted letter with indicator \"9\" by \"126\",, 4 images, 5 pages with slighlty less than 30 lines of code, each line comprising of round and about 15 codegroups with 4 marginal lines of code added, roughly 450 c0degroups per page, less than 2500 groups in sum total. Clear handwriting. The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 754;785; 787; 789; 790; 923; 924; 925; 928; 929.]"
+   },
+   {
+    "id": 925,
+    "name": "TNA_SP106/10_UND_(0238-0240)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1646-01-01",
+    "author": "Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "Paris, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter with index number: \"3\", consisting of slightly more than 1000 codegroups. Similar to the previous upload and all others, starting with TNA_SP106/10_(0207-0210). The dating is based on the handwriting alone. [POINTERS: 762; 754; 785; 787; 789; 790; 923; 924; 928; 929.]"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "Assistant of Henrietta-Maria, Queen of England",
+   "Charles I, King of England",
+   1600
+  ],
+  "n": 4,
+  "ids": [
+   785,
+   790,
+   923,
+   924
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 785,
+    "name": "TNA_SP106/10_UND_(0213-0215)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-09-01",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "English",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undecrypted letter by \"120,\" 3 pages with slighgly more than 80 lines of code, over 1600 codegroups in sum total. Similar to: TNA_SP106/10_(0207-0210); and id_(0211-0212). The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 787; 789; 790; 923; 924; 925; 928; 929.]"
+   },
+   {
+    "id": 790,
+    "name": "TNA_SP106/10_UND_(0230-0232)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-09-22",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undecrypted letter or fragment of a letter, roughly 800 codegroups in sum total. Similar to INA_SP106/10_(0223-0228) and all the uploads mentioned there. The dating Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 785; 787; 789; 923; 924; 925; 928; 929.]"
+   },
+   {
+    "id": 923,
+    "name": "TNA_SP106/10_UND_(0233-0234)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-09-29",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter, or part of a letter, by \"120\"; round and about 750 codegroups. Probably a homophonic substitution cipher with plaintext in French. Similar to all previous uploads starting with SP106/10_UND_(0207-9210). The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 785; 787; 789; 790; 924; 925; 928; 929.]"
+   },
+   {
+    "id": 924,
+    "name": "TNA_SP106/10_UND_(0235-0236)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1646-06-26",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Charles I, King of England",
+    "origin": "Paris, France",
+    "clear": "",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter, or part of a letter, consisting of 1000 codegroups in sum total.. Similar to the previous upload and all others starting with: TNA_SP106/10_UND_(0207-0210). The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 785; 787; 789; 790; 923; 925; 928; 929.]"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "Assistant of Henrietta-Maria, Queen of England",
+   "Henrietta-Maria, Queen of England and Charles I, King of England",
+   1600
+  ],
+  "n": 2,
+  "ids": [
+   787,
+   929
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 787,
+    "name": "TNA_SP106/10_UND_(0216-0217)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-07-29",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Henrietta-Maria, Queen of England and Charles I, King of England",
+    "origin": "St Germain, France",
+    "clear": "",
+    "plain": "French",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter fragment, 600 codegroups in sum total. Mainly one- and two-digit numbers, suggesting that we are dealing here with a hompophonic substitution cipher. The three-digit numbers may signify names. Similar to: TNA_SP106/10_(0213-0215) and all the other uploads mentioned there. The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 785; 789; 790; 923; 924; 925; 928; 929.]"
+   },
+   {
+    "id": 929,
+    "name": "TNA_SP106/10_UND_(0247)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1646-01-26",
+    "author": "Assistant of Henrietta-Maria, Queen of England",
+    "sender": "",
+    "receiver": "Henrietta-Maria, Queen of England and Charles I, King of England",
+    "origin": "Paris, France",
+    "clear": "",
+    "plain": "English",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undeciphered letter, or part of a letter by \"298\", slightly more than 300 codegroups in sum total. Possibly related to: TNA_SP106/10_(0207-0210).The dating, Hanoverian, is based on the handwriting alone. [Pointers: 752; 754; 785; 787; 789; 790;923; 924; 925; 928.]"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "Lord Digby",
+   "Charles I, King of England?",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   789
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 789,
+    "name": "TNA_SP106/10_UND_(0223-0228)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-05-25",
+    "author": "Lord Digby",
+    "sender": "",
+    "receiver": "Charles I, King of England?",
+    "origin": "Tutbury, England",
+    "clear": "",
+    "plain": "English",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Undecrypted letter or fragment of a letter, roughly 3000 codegroups in sum total. Similar to TNA_SP106/10_(0216-0217) and all the uploads mentioned there. A few words in cleartext seem to suggest that the plaintext language is French. The dating, Hanoverian, is based on the handwriting alone. [POINTERS: 752; 754; 785; 787; 790; 923; 924; 925; 928; 929.]"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "Unknown",
+   "Lord Goring",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   932
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 932,
+    "name": "TNA_SP106/10_UND_(0251-0252)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "1645-06-05",
+    "author": "Unknown",
+    "sender": "",
+    "receiver": "Lord Goring",
+    "origin": "York, England",
+    "clear": "",
+    "plain": "English",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Two strips of paper with 4, resp. 6 lines of code, 140 and 200 codegroups in sum total. The almost exclusive use of 1- and 2-digit numbers suggests that we are dealing with a homophonic substitution cipher. On the basis of storage and handwriting it seems likely that we are dealing with the same cipher here, but this has yet to be established. This cipher probably dates from the English Civil War."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 10",
+   "",
+   "",
+   null
+  ],
+  "n": 7,
+  "ids": [
+   658,
+   661,
+   663,
+   667,
+   684,
+   701,
+   702
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 658,
+    "name": "TNA_SP106/10_UND_(0125)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheet of a codebreaker."
+   },
+   {
+    "id": 661,
+    "name": "TNA_SP106/10_UND_(0141-0143)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian and English",
+    "plain": "unknown",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "An intercept with a mixture of cleartext and lines of code in different handwritings, as if a codebreaker used an intercept he could not deal with to make notes of his own. WE find both Italian and English."
+   },
+   {
+    "id": 663,
+    "name": "TNA_SP106/10_UND_(0020)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheet of a codebreaker, mainly consisitng of rows of numbers and some comment."
+   },
+   {
+    "id": 667,
+    "name": "TNA_SP106/10_UND_(0164-0166)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker. The language of the intercepted message is unclear."
+   },
+   {
+    "id": 684,
+    "name": "TNA_SP106/10_UND_(0170-0171)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker."
+   },
+   {
+    "id": 701,
+    "name": "TNA_SP106/10_UND_(0175-0177)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker."
+   },
+   {
+    "id": 702,
+    "name": "TNA_SP106/10_UND_(0181-0182)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 725,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   },
+   {
+    "id": 659,
+    "year": null,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 10.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 5",
+   "King Charles I",
+   "William Boswell (1585-1650)",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   413
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 413,
+    "name": "TNA_SP106/5_CharlesI_(0020-0021)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "city": "Kew",
+    "date": "1628-01-01",
+    "author": "King Charles I",
+    "sender": "",
+    "receiver": "William Boswell (1585-1650)",
+    "origin": "",
+    "clear": "English and Latin",
+    "plain": "probably English too, but strictly speaking unknown",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "10 lines of ciphertext, constituted by esoteric symbols without word or codegroup separation, suggesting that every sign contitutes a codegroup in itself. Adressed to: \"My worthy and most esteemed Cousin William Bosmwell,\" which may indicate that the author wasn&lsquot;t His Majesty after all."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 419,
+    "year": 1625,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": ""
+   },
+   {
+    "id": 418,
+    "year": 1625,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": ""
+   },
+   {
+    "id": 416,
+    "year": 1625,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": "Flanders"
+   },
+   {
+    "id": 415,
+    "year": 1628,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": "France"
+   },
+   {
+    "id": 414,
+    "year": 1625,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": "United Provinces"
+   },
+   {
+    "id": 373,
+    "year": 1635,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": "Spain"
+   },
+   {
+    "id": 370,
+    "year": 1630,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 5.",
+    "author": "Spain"
+   }
+  ],
+  "decode_keys_total": 7
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 7",
+   "",
+   "",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   597
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 597,
+    "name": "TNA_SP106/7_Anne_(0091-0092)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "city": "Kew",
+    "date": "1702-03-08/1837",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "French",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Part of letter with instructions for operating \"the Cipher with Baron Stosch and Mr. Walton. The examples given seem to refer to a nomenclature consisting of letter pairs rather than words, but there are also lines unsolved. The nomenclature in question could not yet be identified."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 598,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 596,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 593,
+    "year": 1696,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 591,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 589,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 588,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 587,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 565,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 563,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "Switzerland"
+   },
+   {
+    "id": 556,
+    "year": 1702,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 531,
+    "year": 1731,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "United Provinces The Hague"
+   },
+   {
+    "id": 530,
+    "year": 1740,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 16
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, State Papers, inv.nr. 106 box 7",
+   "Mr. Eichel",
+   "",
+   1750
+  ],
+  "n": 1,
+  "ids": [
+   595
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 595,
+    "name": "TNA_SP106/7_Anne_(0020)",
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "city": "Kew",
+    "date": "1758-01-01",
+    "author": "",
+    "sender": "Mr. Eichel",
+    "receiver": "",
+    "origin": "",
+    "clear": "English",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "An unsolved letter by Mr. Eichel, probably from Russia. The code maybe found in TNA_SP106/7_Anne_(0021-0022)."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 594,
+    "year": 1758,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "Russia"
+   },
+   {
+    "id": 591,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 589,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   },
+   {
+    "id": 563,
+    "year": 1735,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "Switzerland"
+   },
+   {
+    "id": 532,
+    "year": 1778,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "Ottoman Empire Algiers"
+   },
+   {
+    "id": 531,
+    "year": 1731,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": "United Provinces The Hague"
+   },
+   {
+    "id": 530,
+    "year": 1740,
+    "holder": "The National Archives, State Papers, inv.nr. 106 box 7.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 7
+ },
+ {
+  "key": [
+   "Kew",
+   "The National Archives, Syate Papers inv",
+   "",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   703
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 703,
+    "name": "TNA_SP106/10_UND_(0184-0185)",
+    "holder": "The National Archives, Syate Papers inv. nr. 106, box 10",
+    "city": "Kew",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Enlgish",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Worksheets of a codebreaker."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Klášter (by Nepomuk)",
+   "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdo",
+   "Kurtz von Senftenau, Sigismund",
+   "Trauttmansdorff, Maximilian von",
+   1600
+  ],
+  "n": 7,
+  "ids": [
+   3811,
+   3812,
+   3813,
+   3814,
+   4625,
+   4645,
+   4736
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3811,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-01-17",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-01-17",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "9",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical, whitespace",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Kurtz von Senftenau, Sigismund Trauttmansdorff, Maximilian von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných"
+   },
+   {
+    "id": 3812,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1638-02-03",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1638-02-03",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "25",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical, whitespace",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Kurtz von Senftenau, Sigismund Trauttmansdorff, Maximilian von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných"
+   },
+   {
+    "id": 3813,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-01-27",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-01-27",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "38",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical, whitespace",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Kurtz von Senftenau, Sigismund Trauttmansdorff, Maximilian von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných"
+   },
+   {
+    "id": 3814,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639?",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg?, Germany?",
+    "clear": "German",
+    "plain": "German",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical, whitespace",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The letter is not dated. The place and the date of origin are only estimates. After deciphering the letter, it will be probably possible to refine the estimate. The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Ku"
+   },
+   {
+    "id": 4625,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-02-10",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-02-10",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "9",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Kurtz von Senftenau, Sigismund Trauttmansdorff, Maximilian von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných"
+   },
+   {
+    "id": 4645,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-02-13",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-02-13",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "Two copies of letters of the Swedish field marshal Johan Banér are attached to the letter. The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text may also contain Latin phrases or words. The cleartext is not completely inline, but is situated after the ciphertext. For more information about the sender and receiver see e. g.: "
+   },
+   {
+    "id": 4736,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-04-14",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-04-14",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Trauttmansdorff, Maximilian von",
+    "origin": "Glückstadt, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and receiver see e. g.: Kurtz von Senftenau, Sigismund Trauttmansdorff, Maximilian von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Klášter (by Nepomuk)",
+   "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdo",
+   "Kurtz von Senftenau, Sigismund",
+   "von Schwarzenberg, [Johann Adolf I.]",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   4734
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4734,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-04-08",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-04-08",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "von Schwarzenberg, [Johann Adolf I.]",
+    "origin": "Glückstadt, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "This document is a copy of a letter from Sigismund Kurtz von Senftenau to the Count von Schwarzenberg (probably Johan Adolph I.). This copy was sent to Maximilian von Trauttmansdorff. The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender and"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Klášter (by Nepomuk)",
+   "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdo",
+   "Kurtz von Senftenau, Sigismund",
+   "Ferdinand III, Holy Roman Emperor",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   3815
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3815,
+    "name": "SOAP_Rd_Trauttmansdorff_inv.nr.200_Kurtz_to_Trauttmansdorff_1639-02-06",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Trauttmansdorffů, inv. nr. 200, karton nr. 9.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1639-02-06",
+    "author": "Kurtz von Senftenau, Sigismund",
+    "sender": "Kurtz von Senftenau, Sigismund",
+    "receiver": "Ferdinand III, Holy Roman Emperor",
+    "origin": "Hamburg, Germany",
+    "clear": "German",
+    "plain": "German",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical, whitespace",
+    "cipher_other": "Other: Bigrams, Nulls",
+    "symbol_other": "Other: Greek alphabet",
+    "access": "public",
+    "info": "The letter is among the documents of Maximilian von Trauttmansdorff, but it was addressed directly to Ferdinand III, Holy Roman Emperor, as is clear from the address in the letter head. The reconstructed key contains homophonic substitution, bigrams (one ciphertext character for one bigram) and nulls. The ciphertext characters are mostly numeric, less alphabetic (more Latin and less Greek alphabet) and there are also a few graphic signs. The language of the cleartext and the plaintext is German, but the text also contains a lot of Latin phrases or words. For more information about the sender a"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Klášter (by Nepomuk)",
+   "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrät",
+   "Windischgrätz, Leopold Viktorin von",
+   "Windischgrätz, Ernst Friedrich von",
+   1700
+  ],
+  "n": 1,
+  "ids": [
+   5029
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 5029,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.1433_L._V._von_Windischgraetz_to_E._F._von_Windischgraetz_1721-11-18",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 1433, karton nr. 202.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1721-11-18",
+    "author": "Windischgrätz, Leopold Viktorin von",
+    "sender": "Windischgrätz, Leopold Viktorin von",
+    "receiver": "Windischgrätz, Ernst Friedrich von",
+    "origin": "Brussels, Belgium",
+    "clear": "German",
+    "plain": "German",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "public",
+    "info": "For more information about the sender and receiver see e. g.: Windischgrätz, Ernst Friedrich von Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 5018,
+    "year": 1720,
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. n",
+    "author": "Austria"
+   },
+   {
+    "id": 5017,
+    "year": 1720,
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. n",
+    "author": "Austria"
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Klášter (by Nepomuk)",
+   "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrät",
+   "Charles VI, Holy Roman Emperor",
+   "Windischgrätz, Leopold Viktorin von",
+   1700
+  ],
+  "n": 6,
+  "ids": [
+   5019,
+   5020,
+   5021,
+   5022,
+   5023,
+   5024
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 5019,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.694_Karl_VI._to_L._V._von_Windischgraetz_1720-02-03",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 694, karton nr. 5.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1720-02-03",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Other: Bigrams, Nulls, Characters for punctuation",
+    "symbol_other": "",
+    "access": "public",
+    "info": "For the copy of the letter see: DECRYPT-WEB R5020 (de-crypt.org) For the key to the cipher see: DECRYPT-WEB R5017 (de-crypt.org) The letter contains information that a new key for communication with the Emperor will be sent to Leopold Viktorin von Windischgrätz. For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   },
+   {
+    "id": 5020,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.5_Karl_VI._to_L._V._von_Windischgraetz_1720-02-03",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 5, book nr. 5., pp. 401-404",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1720-02-03",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "numerical",
+    "cipher_other": "Other: Bigrams, Nulls, Characters for punctuation",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Copy of the letter. For the original letter see: DECRYPT-WEB R5019 (de-crypt.org) For the key to the cipher see: DECRYPT-WEB R5017 (de-crypt.org) The letter contains information that a new key for communication with the Emperor will be sent to Leopold Viktorin von Windischgrätz. For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   },
+   {
+    "id": 5021,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.694_Karl_VI._to_L._V._von_Windischgraetz_1720-04-13",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 694, karton nr. 5.",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1720-04-13",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Nulls",
+    "symbol_other": "",
+    "access": "public",
+    "info": "For the copy of the letter see: DECRYPT-WEB R5022 (de-crypt.org) For the key to the cipher see: DECRYPT-WEB R5018 (de-crypt.org) For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   },
+   {
+    "id": 5022,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.5_Karl_VI._to_L._V._von_Windischgraetz_1720-04-13",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 5, book nr. 5., pp. 404-407",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1720-04-13",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Nulls",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Copy of the letter. For the original letter see: DECRYPT-WEB R5021 (de-crypt.org) For the key to the cipher see: DECRYPT-WEB R5018 (de-crypt.org) For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   },
+   {
+    "id": 5023,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.5_Karl_VI._to_L._V._von_Windischgraetz_1720-07-24",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 5, book nr. 5., pp. 407-409",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1720-07-24",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Nulls",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Copy of the letter. Original letter not found yet. For the key to the cipher see: DECRYPT-WEB R5018 (de-crypt.org) For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   },
+   {
+    "id": 5024,
+    "name": "SOAP_Rd_Windischgraetz_inv.nr.5_Karl_VI._to_L._V._von_Windischgraetz_1722-04-11",
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 5, book nr. 5., pp. 414-416",
+    "city": "Klášter (by Nepomuk)",
+    "date": "1722-04-11",
+    "author": "Charles VI, Holy Roman Emperor",
+    "sender": "Charles VI, Holy Roman Emperor",
+    "receiver": "Windischgrätz, Leopold Viktorin von",
+    "origin": "Wien, Austria",
+    "clear": "German",
+    "plain": "German",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "Other: Nulls",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Copy of the letter. Original letter not found yet. For the key to the cipher see: DECRYPT-WEB R5018 (de-crypt.org) For more information about the sender and receiver see e. g.: Charles VI, Holy Roman Emperor Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastního archivu v Plzni. In: Západočeské archivy 2012, pp. 44–72."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 5018,
+    "year": 1720,
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. n",
+    "author": "Austria"
+   },
+   {
+    "id": 5017,
+    "year": 1720,
+    "holder": "Státní oblastní archiv v Plzni, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. n",
+    "author": "Austria"
+   }
+  ],
+  "decode_keys_total": 2
+ }
+]

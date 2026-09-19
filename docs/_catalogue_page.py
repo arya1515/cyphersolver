@@ -33,12 +33,27 @@ def esc(t):
     return html.escape(str(t), quote=False)
 
 
-def ark_links(e):
+def is_ark(a):
+    return bool(re.match(r'^(btv1b|bpt6k)\w+$', a or ''))
+
+
+def link_pairs(e):
+    """(label, href) for each Gallica ark and each extra link (e['links'], e.g. DECODE records); href None = text only."""
     out = []
     for k in ('ark', 'ark2'):
         a = e.get(k)
-        if a: out.append(f'<a href="{GALLICA}{a}" rel="noopener">{a}</a>')
-    return ' · '.join(out)
+        if a: out.append((a, GALLICA + a if is_ark(a) else None))
+    for l in e.get('links') or []:
+        out.append((l['label'], l['href']))
+    return out
+
+
+def ark_links(e):
+    return ' · '.join(f'<a href="{h}" rel="noopener">{esc(t)}</a>' if h else esc(t) for t, h in link_pairs(e))
+
+
+def md_links(e, sep):
+    return sep.join((f'[{t}]({h})' if h else t) if not is_ark(t) else f'ark {t}' for t, h in link_pairs(e))
 
 
 # ---------- Markdown ----------
@@ -47,7 +62,7 @@ def md_table(entries, outcome=False):
     rows = [f'| {first} | # | Date | Item | Shelfmark / access | Status & prior art | Why it matters | Imp. | Solv. | Diff. | Cls | Seen |',
             '|---|---|---|---|---|---|---|---|---|---|---|---|']
     for e in entries:
-        arks = '; '.join(f'ark {e[k]}' for k in ('ark', 'ark2') if e.get(k))
+        arks = md_links(e, '; ')
         shelf = e['shelfmark'] + (f' ({arks})' if arks else '') + (f'; {e["folio_note"]}' if e.get('folio_note') else '')
         seen = '●' if e['seen'] == 'image' else '◇'
         lead = f"**{e['outcome']}**" if outcome else f"**{priority(e)}**"
@@ -58,7 +73,7 @@ def md_table(entries, outcome=False):
 def md_also(entries):
     out = []
     for e in entries:
-        arks = ', '.join(f'ark {e[k]}' for k in ('ark', 'ark2') if e.get(k))
+        arks = md_links(e, ', ')
         out.append(f"- **{e['title']}**, {e['date']}, {e['shelfmark']}{(', ' + arks) if arks else ''}. {e['status']} {e['why']} "
                    f"Imp. {e['importance']}, solv. {e['solvability']}, diff. {e['difficulty']}, class {e['cls']}, priority {priority(e)}.")
     return '\n'.join(out)
@@ -85,10 +100,12 @@ def dots(v, cls=''):
 
 
 def row(e):
-    arks = ' · '.join(f'<a href="{GALLICA}{e[k]}" rel="noopener">{e[k]}</a>' for k in ('ark', 'ark2') if e.get(k))
+    arks = ark_links(e)
     seen = '<span class="seen img" title="viewed on the image">●</span>' if e['seen'] == 'image' else '<span class="seen cat" title="catalogue description only">◇</span>'
     noted = '' if e['counted'] else ' <span class="noted">noted</span>'
     if e.get('outcome'): noted += f' <span class="noted out">{esc(e["outcome"])}</span>'
+    if e.get('scored') == 'rule': noted += ' <span class="noted" title="scored by script from DECODE metadata, not reviewed">rule-scored</span>'
+    if e.get('on_list'): noted += f' <span class="noted" title="also on this list">{esc(e["on_list"])} list</span>'
     detail = (f'<div class="det"><div><b>Correspondents.</b> {esc(e["correspondents"])} · {esc(e["place"])} · {esc(e["language"])}</div>'
               f'<div><b>Shelfmark.</b> {esc(e["shelfmark"])}{(" · " + arks) if arks else ""}{(" · " + esc(e["folio_note"])) if e.get("folio_note") else ""}</div>'
               f'<div><b>Status and prior art.</b> {esc(e["status"])}</div>'
@@ -119,13 +136,14 @@ def build_html():
     periods = sorted({e['period'] for e in E}); regions = sorted({e['region'] for e in E}); sources = sorted({e['source'] for e in E})
     data_js = json.dumps({'weights': W, 'entries': E}, ensure_ascii=False).replace('</', '<\\/')
     n_all, n_img = len(E), sum(1 for e in E if e['seen'] == 'image')
+    n_dec = sum(1 for e in E if e.get('source') == 'DECODE')
     page = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catalogue of unsolved historical ciphers — {len(counted)} open targets, scored</title>
-<meta name="description" content="Undeciphered historical cipher letters, 1497–1650, not on the standard unsolved lists, harvested from the BnF catalogue on Gallica and the fine print of the cryptiana articles. Each scored for historical importance, solvability and difficulty; filter, sort and reweight the priority score.">
+<meta name="description" content="Undeciphered historical cipher letters, 1475–1900, not on the standard unsolved lists, harvested from the BnF catalogue on Gallica, the fine print of the cryptiana articles and the DECODE database. Each scored for historical importance, solvability and difficulty; filter, sort and reweight the priority score.">
 <link rel="stylesheet" href="style.css">
 <style>
 .ctl{{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:.9rem 1.1rem .5rem;margin:1.2rem 0 .8rem}}
@@ -176,9 +194,9 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
 <!-- site:nav -->
 
 <section class="hero">
-  <p class="kicker">Gallica · BnF catalogue harvest · cryptiana fine print · 1497–1650 · {len(counted)} open targets · {n_res} taken to the leaf and read, partly read or closed · {len(E) - len(counted) - n_res} noted · unvalidated</p>
+  <p class="kicker">Gallica · DECODE · cryptiana fine print · 1475–1900 · {len(counted)} open targets · {n_res} taken to the leaf and read, partly read or closed · {len(E) - len(counted) - n_res} noted · unvalidated</p>
   <h1>Catalogue of unsolved historical ciphers</h1>
-  <p class="sub">What is still in cipher in the digitised French diplomatic volumes, and nobody has put on a list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries that have since been read, partly read or closed here carry an <b>outcome</b> tag and sit at the foot of the default order.</p>
+  <p class="sub">What is still in cipher in the digitised diplomatic volumes, and nobody has read. The first entries came from the French volumes on Gallica; the rest ({n_dec}) from the DECODE database, every ciphertext record it marks non-decrypted or partly decrypted, grouped into letters and series and checked against this repository's own targets and Tomokiyo's list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries that have since been read, partly read or closed here carry an <b>outcome</b> tag and sit at the foot of the default order.</p>
   <p class="sub">Scores are judgements from catalogue descriptions and the literature, not from the leaves: {n_img} of {n_all} entries have been viewed on the image, and each carries the check that would confirm it is open. Data: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/catalogue.json" rel="noopener">catalogue.json</a> · text: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/CATALOGUE.md" rel="noopener">CATALOGUE.md</a>.</p>
   <p class="meta">Daniel Bourdeau · September 2026</p>
 </section>
@@ -216,7 +234,7 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
 
 <h2>How the scores were set</h2>
 <p><b>Importance</b> asks what a full reading would add: 5 for a first-hand report of a major event by a principal witness (du Bellay in London 1529, Lanssac at the Polish election), 2 for routine business. <b>Solvability</b> asks whether the material online is enough: 5 when deciphered siblings of the same hand and year sit in the same volume, 1 for one short letter in an unknown language. <b>Difficulty</b> is the technical work at the keyboard: 1 for aligning a known sibling, 5 for a statistics-only attack on a large homophonic nomenclator. The default priority weights importance {W['importance']}, solvability {W['solvability']} and ease {W['ease']} (ease is 6 minus difficulty), rescaled to 0–10; move the sliders to see the order change. Every score is a judgement made before viewing the leaf, so treat the order as a work plan, not a finding.</p>
-<p><b>Checked:</b> catalogue descriptions and item numbering; presence or absence of a decipherment item in each volume; shelfmarks from the IIIF manifests; fr. 16127 and fr. 3484 f. 34 on the image. <b>Not checked:</b> the other leaves; Tomokiyo's François I article; the Scheurer, Savasse and Mousset editions; DECODE. <b>User must verify</b> each entry on the image and in the literature before attacking it.</p>
+<p><b>Checked:</b> catalogue descriptions and item numbering; presence or absence of a decipherment item in each volume; shelfmarks from the IIIF manifests; fr. 16127 and fr. 3484 f. 34 on the image. For the DECODE entries: the record metadata and notes, key records from the same archive series, overlap with this repository's targets and with Tomokiyo's list (30 groups dropped as solved or already tracked). <b>Not checked:</b> the other leaves; Tomokiyo's François I article; the Scheurer, Savasse and Mousset editions; any DECODE image. Entries tagged <i>rule-scored</i> were scored by a script from DECODE's metadata (a key in the series or on the leaf, length, language, who wrote to whom) and not yet reviewed by hand. <b>User must verify</b> each entry on the image and in the literature before attacking it.</p>
 </main>
 <!-- site:footer -->
 <script id="catdata" type="application/json">{data_js}</script>

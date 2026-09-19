@@ -1,0 +1,3883 @@
+[
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Luis Fernández?",
+   "",
+   1500
+  ],
+  "n": 9,
+  "ids": [
+   9675,
+   9684,
+   9685,
+   9686,
+   9687,
+   9688,
+   9772,
+   9775,
+   9787
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9675,
+    "name": "BRAH_Signatura-9/28_20",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 97–98.",
+    "city": "Madrid",
+    "date": "1523-05-23",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9684,
+    "name": "BRAH_Signatura-9/28_23",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 187–194.",
+    "city": "Madrid",
+    "date": "1523-06-30",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice?, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "16",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9685,
+    "name": "BRAH_Signatura-9/28_24",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 194–195.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9686,
+    "name": "BRAH_Signatura-9/28_25",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 197–198.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9687,
+    "name": "BRAH_Signatura-9/28_26",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 199–208.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "20",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9688,
+    "name": "BRAH_Signatura-9/28_27",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 209–211.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9772,
+    "name": "BRAH_Signatura-9/28_43",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 629–635.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "14",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9775,
+    "name": "BRAH_Signatura-9/28_44",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 641–642.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9787,
+    "name": "BRAH_Signatura-9/28_46",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 639–640.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Luis Fernández",
+   "",
+   1500
+  ],
+  "n": 5,
+  "ids": [
+   9692,
+   9694,
+   9764,
+   9765,
+   9771
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9692,
+    "name": "BRAH_Signatura-9/28_31",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 313–318.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "12",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9694,
+    "name": "BRAH_Signatura-9/28_34",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 499–503.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9764,
+    "name": "BRAH_Signatura-9/28_35",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 505–510.",
+    "city": "Madrid",
+    "date": "1523-07",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "12",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9765,
+    "name": "BRAH_Signatura-9/28_36",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 512–515.",
+    "city": "Madrid",
+    "date": "1523-07",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9771,
+    "name": "BRAH_Signatura-9/28_42",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 622–629.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "16",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Alonso Sánchez",
+   "",
+   1500
+  ],
+  "n": 7,
+  "ids": [
+   9670,
+   9677,
+   9689,
+   9690,
+   9767,
+   9769,
+   9770
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9670,
+    "name": "BRAH_Signatura-9/28_15",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 18–24.",
+    "city": "Madrid",
+    "date": "1523-05",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9677,
+    "name": "BRAH_Signatura-9/28_22",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 148–152.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9689,
+    "name": "BRAH_Signatura-9/28_28",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 224–226.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9690,
+    "name": "BRAH_Signatura-9/28_29",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 226–228.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9767,
+    "name": "BRAH_Signatura-9/28_38",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 563–564.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9769,
+    "name": "BRAH_Signatura-9/28_40",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 569–571.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9770,
+    "name": "BRAH_Signatura-9/28_41",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 572–574.",
+    "city": "Madrid",
+    "date": "1523-08",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Lope Hurtado de Mendoza",
+   "",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   9683,
+   9695
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9683,
+    "name": "BRAH_Signatura-9/28_22",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 171.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9695,
+    "name": "BRAH_Signatura-9/28_33",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 339–340.",
+    "city": "Madrid",
+    "date": "1523-06",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Lope de Soria",
+   "Charles V, Holy Roman Emperor",
+   1500
+  ],
+  "n": 11,
+  "ids": [
+   9488,
+   9489,
+   9490,
+   9491,
+   9492,
+   9493,
+   9494,
+   9495,
+   9496,
+   9497,
+   9498
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9488,
+    "name": "BRAH_Signatura-9/28_1",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 248–249.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9489,
+    "name": "BRAH_Signatura-9/28_2",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 250–251.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9490,
+    "name": "BRAH_Signatura-9/28_3",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 252–253.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9491,
+    "name": "BRAH_Signatura-9/28_4",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 440–442.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9492,
+    "name": "BRAH_Signatura-9/28_5",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 443–448.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9493,
+    "name": "BRAH_Signatura-9/28_6",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 449–455.",
+    "city": "Madrid",
+    "date": "1523-07-20",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "7",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9494,
+    "name": "BRAH_Signatura-9/28_7",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 478–479.",
+    "city": "Madrid",
+    "date": "1524",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1524."
+   },
+   {
+    "id": 9495,
+    "name": "BRAH_Signatura-9/28_8",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 480–481.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9496,
+    "name": "BRAH_Signatura-9/28_9",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 482–483.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9497,
+    "name": "BRAH_Signatura-9/28_10",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 577–579.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1523."
+   },
+   {
+    "id": 9498,
+    "name": "BRAH_Signatura-9/28_11",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 581–584.",
+    "city": "Madrid",
+    "date": "1524",
+    "author": "Lope de Soria",
+    "sender": "",
+    "receiver": "Charles V, Holy Roman Emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter from Lope de Soria to Carlos V, dated 1524 (?)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Alonso Sánchez",
+   "",
+   null
+  ],
+  "n": 3,
+  "ids": [
+   9671,
+   9672,
+   9674
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9671,
+    "name": "BRAH_Signatura-9/28_16",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 40–43.",
+    "city": "Madrid",
+    "date": "05",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9672,
+    "name": "BRAH_Signatura-9/28_17",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 78–79.",
+    "city": "Madrid",
+    "date": "05",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9674,
+    "name": "BRAH_Signatura-9/28_19",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 81–82.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Alonso Sánchez",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Luis Fernández?",
+   "",
+   null
+  ],
+  "n": 2,
+  "ids": [
+   9668,
+   9669
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9668,
+    "name": "BRAH_Signatura-9/28_13",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 12–18.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "14",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9669,
+    "name": "BRAH_Signatura-9/28_14",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 18–24.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "14",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/28",
+   "Lope Hurtado de Mendoza",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9667
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9667,
+    "name": "BRAH_Signatura-9/28_12",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/28, f. 6–8.",
+    "city": "Madrid",
+    "date": "05-05",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/29",
+   "Luis Fernández",
+   "",
+   1500
+  ],
+  "n": 6,
+  "ids": [
+   9837,
+   9838,
+   9839,
+   9840,
+   9842,
+   9843
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9837,
+    "name": "BRAH_Signatura-9/29_5",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 70–71.",
+    "city": "Madrid",
+    "date": "1523-09",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9838,
+    "name": "BRAH_Signatura-9/29_6",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 86–87.",
+    "city": "Madrid",
+    "date": "1523-10",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9839,
+    "name": "BRAH_Signatura-9/29_7",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 88–89.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9840,
+    "name": "BRAH_Signatura-9/29_8",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 279–284.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9842,
+    "name": "BRAH_Signatura-9/29_10",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 484–489.",
+    "city": "Madrid",
+    "date": "1523-10",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "12",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9843,
+    "name": "BRAH_Signatura-9/29_11",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 490–493.",
+    "city": "Madrid",
+    "date": "1523",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/29",
+   "Luis Fernández",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9835
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9835,
+    "name": "BRAH_Signatura-9/29_3",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 55–56.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/29",
+   "Luis Fernández?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9833
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9833,
+    "name": "BRAH_Signatura-9/29_1",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/29, f. 29–33.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/30",
+   "Lope Hurtado de Mendoza",
+   "",
+   null
+  ],
+  "n": 5,
+  "ids": [
+   9846,
+   9866,
+   9867,
+   9868,
+   9869
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9846,
+    "name": "BRAH_Signatura-9/30_3",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/30, f. 130–133.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9866,
+    "name": "BRAH_Signatura-9/30_6",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/30, f. 285–286.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9867,
+    "name": "BRAH_Signatura-9/30_7",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/30, f. 351.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9868,
+    "name": "BRAH_Signatura-9/30_8",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/30, f. 430–431.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9869,
+    "name": "BRAH_Signatura-9/30_9",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/30, f. 444–445.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Lope Hurtado de Mendoza",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/31",
+   "Luis Fernández",
+   "",
+   null
+  ],
+  "n": 4,
+  "ids": [
+   9876,
+   9885,
+   9886,
+   9887
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9876,
+    "name": "BRAH_Signatura-9/31_7",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/31, f. 96.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9885,
+    "name": "BRAH_Signatura-9/31_16",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/31, f. 197–199.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9886,
+    "name": "BRAH_Signatura-9/31_17",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/31, f. 201–203.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9887,
+    "name": "BRAH_Signatura-9/31_18",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/31, f. 274–277.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/34",
+   "Luis Fernández",
+   "",
+   1500
+  ],
+  "n": 5,
+  "ids": [
+   9896,
+   9899,
+   9900,
+   9901,
+   9902
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9896,
+    "name": "BRAH_Signatura-9/34_1",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 6–9.",
+    "city": "Madrid",
+    "date": "1525",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9899,
+    "name": "BRAH_Signatura-9/34_4",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 194–195.",
+    "city": "Madrid",
+    "date": "1525",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9900,
+    "name": "BRAH_Signatura-9/34_5",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 271–272.",
+    "city": "Madrid",
+    "date": "1525",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9901,
+    "name": "BRAH_Signatura-9/34_6",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 300–303.",
+    "city": "Madrid",
+    "date": "1525",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9902,
+    "name": "BRAH_Signatura-9/34_7",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 313–315.",
+    "city": "Madrid",
+    "date": "1525-05",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/34",
+   "Luis Fernández",
+   "",
+   null
+  ],
+  "n": 2,
+  "ids": [
+   9903,
+   9905
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9903,
+    "name": "BRAH_Signatura-9/34_8",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 351–352.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   },
+   {
+    "id": 9905,
+    "name": "BRAH_Signatura-9/34_10",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 383–388.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "12",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "Biblioteca de la Real Academia de la Historia, Signatura 9/34",
+   "Luis Fernández?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9904
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9904,
+    "name": "BRAH_Signatura-9/34_9",
+    "holder": "Biblioteca de la Real Academia de la Historia, Signatura 9/34, f. 379–382.",
+    "city": "Madrid",
+    "date": "",
+    "author": "Luis Fernández?",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "National Library of Spain, MSS/20212/39/1-2",
+   "Charles Poupet de Lachaulx",
+   "Charles I",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1187
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1187,
+    "name": "NLS_MSS_20212_39_1_2",
+    "holder": "National Library of Spain, MSS/20212/39/1-2",
+    "city": "Madrid",
+    "date": "1522-01-01",
+    "author": "Charles Poupet de Lachaulx",
+    "sender": "",
+    "receiver": "Charles I",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "Spanish",
+    "pages": "18",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic",
+    "symbols": "alphabet, graphic signs, numerical",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Madrid",
+   "National Library of Spain, MSS/20213/27",
+   "Rodrigo Niño",
+   "Charles I",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1182
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1182,
+    "name": "NLS_MSS_20213_27",
+    "holder": "National Library of Spain, MSS/20213/27",
+    "city": "Madrid",
+    "date": "1522-03-19",
+    "author": "Rodrigo Niño",
+    "sender": "",
+    "receiver": "Charles I",
+    "origin": "Naples",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Mantova",
+   "Mantova State Archive",
+   "",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   1854
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1854,
+    "name": "Mantova enciphered letters",
+    "holder": "Mantova State Archive",
+    "city": "Mantova",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 1853,
+    "year": null,
+    "holder": "Mantova State Archive",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Marburg",
+   "Hessisches Staatsarchiv Marburg",
+   "",
+   "",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   4500
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4500,
+    "name": "Hstam_4_d_nr_1218_49",
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "city": "Marburg",
+    "date": "1635/1652",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Enciphered manuscript from the time of the Thirty Years' War for officers and civil servants https://arcinsys.hessen.de/arcinsys/detailAction.action?detailid=v1923393"
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 4692,
+    "year": 1670,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4691,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4690,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4688,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4687,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4593,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4592,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4591,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4590,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4589,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4588,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   },
+   {
+    "id": 4587,
+    "year": 1600,
+    "holder": "Hessisches Staatsarchiv Marburg",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 137
+ },
+ {
+  "key": [
+   "Milano",
+   "State Archives of Milano, Sf. 642/5, 3, Milan correspondence",
+   "Maffeo da Treviglio",
+   "Giovanni Galeazzo Maria Sforza",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1084
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1084,
+    "name": "SAMi_Sf_642_5_3",
+    "holder": "State Archives of Milano, Sf. 642/5, 3, Milan correspondence",
+    "city": "Milano",
+    "date": "1490-05-07",
+    "author": "Maffeo da Treviglio",
+    "sender": "",
+    "receiver": "Giovanni Galeazzo Maria Sforza",
+    "origin": "Buda, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Milano",
+   "State Archives of Milano, Sf. Ung. b. 645/1, 1, 7, 5, Milan correspondence",
+   "Ludovico Sforza?",
+   "Bartolomeo Calco?",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1148
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1148,
+    "name": "SAMi_Sf_Ung_b_645_1_1_7_5",
+    "holder": "State Archives of Milano, Sf. Ung. b. 645/1, 1, 7, 5, Milan correspondence",
+    "city": "Milano",
+    "date": "1491-11-22",
+    "author": "Ludovico Sforza?",
+    "sender": "",
+    "receiver": "Bartolomeo Calco?",
+    "origin": "Vigevano?",
+    "clear": "Italian, Latin",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Milano",
+   "State Archives of Milano, Sf. Ung. b. 645/7, 24, Milan correspondence",
+   "Tamás Bakócz?",
+   "Maffeo Trevigliano",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1159
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1159,
+    "name": "SAMi_Sf_Ung_b_645_7_24",
+    "holder": "State Archives of Milano, Sf. Ung. b. 645/7, 24, Milan correspondence",
+    "city": "Milano",
+    "date": "1491-10-18",
+    "author": "Tamás Bakócz?",
+    "sender": "",
+    "receiver": "Maffeo Trevigliano",
+    "origin": "Buda, Hungary",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 1/9, 11, Envoy reports, Ferrara",
+   "Nicolo Sadoleto",
+   "Ferdinand I",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1103
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1103,
+    "name": "SAMo_Amb_b_1_9_11",
+    "holder": "State Archives of Modena, Ambasciatori b. 1/9, 11, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1482-08-17",
+    "author": "Nicolo Sadoleto",
+    "sender": "",
+    "receiver": "Ferdinand I",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 1/9, 26, Envoy reports, Ferrara",
+   "Nicolo Sadoleto",
+   "Ercole I d&lsquot;Este",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1106
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1106,
+    "name": "SAMo_Amb_b_1_9_26",
+    "holder": "State Archives of Modena, Ambasciatori b. 1/9, 26, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1482-11-27",
+    "author": "Nicolo Sadoleto",
+    "sender": "",
+    "receiver": "Ercole I d&lsquot;Este",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 1/9, 7, Envoy reports, Ferrara",
+   "Nicolo Sadoleto",
+   "Ercole I d&lsquot;Este",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1101
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1101,
+    "name": "SAMo_Amb_b_1_9_7",
+    "holder": "State Archives of Modena, Ambasciatori b. 1/9, 7, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1482-07-15",
+    "author": "Nicolo Sadoleto",
+    "sender": "",
+    "receiver": "Ercole I d&lsquot;Este",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 1/9, 8, Envoy reports, Ferrara",
+   "Nicolo Sadoleto",
+   "Ercole I d&lsquot;Este",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1102
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1102,
+    "name": "SAMo_Amb_b_1_9_8",
+    "holder": "State Archives of Modena, Ambasciatori b. 1/9, 8, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1482-07-16",
+    "author": "Nicolo Sadoleto",
+    "sender": "",
+    "receiver": "Ercole I d&lsquot;Este",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/12, 12, Envoy reports, Ferrara",
+   "Giovanni Battista Bonzagni",
+   "Ippolito I d&lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1125
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1125,
+    "name": "SAMo_Amb_b_4_12_12",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/12, 12, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1514-12-28",
+    "author": "Giovanni Battista Bonzagni",
+    "sender": "",
+    "receiver": "Ippolito I d&lsquot;Este",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/12, 4, Envoy reports, Ferrara",
+   "Giovanni Battista Bonzagni",
+   "Ippolito I d&lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1123
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1123,
+    "name": "SAMo_Amb_b_4_12_4",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/12, 4, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1512-08-02",
+    "author": "Giovanni Battista Bonzagni",
+    "sender": "",
+    "receiver": "Ippolito I d&lsquot;Este",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/12, 6, Envoy reports, Ferrara",
+   "Giovanni Battista Bonzagni",
+   "Ippolito I d&lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1124
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1124,
+    "name": "SAMo_Amb_b_4_12_6",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/12, 6, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1512-08-04",
+    "author": "Giovanni Battista Bonzagni",
+    "sender": "",
+    "receiver": "Ippolito I d&lsquot;Este",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/22, 5, Envoy reports, Ferrara",
+   "Benedetto Jantini",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1126
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1126,
+    "name": "SAMo_Amb_b_4_22_5",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/22, 5, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1517-01-01",
+    "author": "Benedetto Jantini",
+    "sender": "",
+    "receiver": "",
+    "origin": "Ferrara",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/22, 6, Envoy reports, Ferrara",
+   "Benedetto Jantini",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1127
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1127,
+    "name": "SAMo_Amb_b_4_22_6",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/22, 6, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1518-03-06",
+    "author": "Benedetto Jantini",
+    "sender": "",
+    "receiver": "",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. Hardly damaged."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/23, 1, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "Bonaventura Pistofilo",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1128
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1128,
+    "name": "SAMo_Amb_b_4_23_1",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/23, 1, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1519-03-09",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "Bonaventura Pistofilo",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/23, 10a, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1135
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1135,
+    "name": "SAMo_Amb_b_4_23_10a",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/23, 10a, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1519-01-01",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "",
+    "origin": "Buda?, Hungary?",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/23, 11, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1136
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1136,
+    "name": "SAMo_Amb_b_4_23_11",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/23, 11, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1520-03-08",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/23, 5a, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "Bonaventura Pistofilo",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1131
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1131,
+    "name": "SAMo_Amb_b_4_23_5a",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/23, 5a, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1519-05-12",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "Bonaventura Pistofilo",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/23, 8a, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "Bonaventura Pistofilo",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1134
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1134,
+    "name": "SAMo_Amb_b_4_23_8a",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/23, 8a, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1519-06-12",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "Bonaventura Pistofilo",
+    "origin": "Buda, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/26, 3, Envoy reports, Ferrara",
+   "Alfonso Cistarelli",
+   "Ippolito I d&lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1137
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1137,
+    "name": "SAMo_Amb_b_4_26_3",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/26, 3, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1520-07-25",
+    "author": "Alfonso Cistarelli",
+    "sender": "",
+    "receiver": "Ippolito I d&lsquot;Este",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "numerical",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/28, 10, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "Alfonso I &lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1138
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1138,
+    "name": "SAMo_Amb_b_4_28_10",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/28, 10, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1521-02-16",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "Alfonso I &lsquot;Este",
+    "origin": "Buda, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Ambasciatori b. 4/28, 13, Envoy reports, Ferrara",
+   "Giuliano Caprile",
+   "Alfonso I &lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1139
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1139,
+    "name": "SAMo_Amb_b_4_28_13",
+    "holder": "State Archives of Modena, Ambasciatori b. 4/28, 13, Envoy reports, Ferrara",
+    "city": "Modena",
+    "date": "1521-04-06",
+    "author": "Giuliano Caprile",
+    "sender": "",
+    "receiver": "Alfonso I &lsquot;Este",
+    "origin": "Eger, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, CPE 1622 b. 1/3, 2, 2a",
+   "Mátyás Hunyadi",
+   "Ercole I d&lsquot;Este",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1156
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1156,
+    "name": "SAMo_CPE_1622_b_1_3_2_2a",
+    "holder": "State Archives of Modena, CPE 1622 b. 1/3, 2, 2a",
+    "city": "Modena",
+    "date": "1482-06-01",
+    "author": "Mátyás Hunyadi",
+    "sender": "",
+    "receiver": "Ercole I d&lsquot;Este",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Cancelleria, 1523, b. 2/2, 2, 5a",
+   "Beatrice d&lsquot;Aragona",
+   "Eleonora d&lsquot;Aragona",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1141
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1141,
+    "name": "SAMo_Canc_1623_b_2_2_2_5a",
+    "holder": "State Archives of Modena, Cancelleria, 1523, b. 2/2, 2, 5a",
+    "city": "Modena",
+    "date": "1482-06-08",
+    "author": "Beatrice d&lsquot;Aragona",
+    "sender": "",
+    "receiver": "Eleonora d&lsquot;Aragona",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "numerical, graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 10",
+   "Beatrice d&lsquot;Aragona",
+   "Eleonora d&lsquot;Aragona",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1142
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1142,
+    "name": "SAMo_Cart_1623_b_2_2_2_10",
+    "holder": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 10",
+    "city": "Modena",
+    "date": "1486-03-08",
+    "author": "Beatrice d&lsquot;Aragona",
+    "sender": "",
+    "receiver": "Eleonora d&lsquot;Aragona",
+    "origin": "Buda, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 18",
+   "Beatrice d&lsquot;Aragona",
+   "Eleonora d&lsquot;Aragona",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1143
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1143,
+    "name": "SAMo_Cart_1623_b_2_2_2_18",
+    "holder": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 18",
+    "city": "Modena",
+    "date": "1486-05-02",
+    "author": "Beatrice d&lsquot;Aragona",
+    "sender": "",
+    "receiver": "Eleonora d&lsquot;Aragona",
+    "origin": "Buda, Hungary",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 4a",
+   "Beatrice d&lsquot;Aragona",
+   "Eleonora d&lsquot;Aragona",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   1140
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1140,
+    "name": "SAMo_Cart_1623_b_2_2_2_4a",
+    "holder": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 4a",
+    "city": "Modena",
+    "date": "1482-05-31",
+    "author": "Beatrice d&lsquot;Aragona",
+    "sender": "",
+    "receiver": "Eleonora d&lsquot;Aragona",
+    "origin": "Pozsony",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "",
+    "symbols": "numerical, graphic signs",
+    "cipher_other": "Homophonic or simple substitution",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Modena",
+   "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/7, 11",
+   "Beatrice d&lsquot;Aragona",
+   "Ippolito I d&lsquot;Este",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1154
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1154,
+    "name": "SAMo_Cart_1623_b_2_7_11",
+    "holder": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/7, 11",
+    "city": "Modena",
+    "date": "1504-05-29",
+    "author": "Beatrice d&lsquot;Aragona",
+    "sender": "",
+    "receiver": "Ippolito I d&lsquot;Este",
+    "origin": "Napoli",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "simple substitution, homophonic, nomenclator",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "",
+   "",
+   1450
+  ],
+  "n": 14,
+  "ids": [
+   9291,
+   9319,
+   9322,
+   9323,
+   9325,
+   9367,
+   9408,
+   9409,
+   9410,
+   9413,
+   9416,
+   9417,
+   9424,
+   9427
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9291,
+    "name": "BayHStA_KAA_4591_036",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 36.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9319,
+    "name": "BayHStA_KAA_4591_096",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 96-114.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "17",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive. Dots. #LB"
+   },
+   {
+    "id": 9322,
+    "name": "BayHStA_KAA_4591_121",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 121-122.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive. #LA szép"
+   },
+   {
+    "id": 9323,
+    "name": "BayHStA_KAA_4591_123",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 123.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9325,
+    "name": "BayHStA_KAA_4591_129",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 129.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9367,
+    "name": "BayHStA_KAA_4591_169",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 169.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive. Partly encrypted cipher."
+   },
+   {
+    "id": 9408,
+    "name": "BayHStA_KAA_4591_236",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 236-239.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9409,
+    "name": "BayHStA_KAA_4591_240",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 240-243.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "8",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9410,
+    "name": "BayHStA_KAA_4591_244",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 244-247.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9413,
+    "name": "BayHStA_KAA_4591_252",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 252-256.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "8",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9416,
+    "name": "BayHStA_KAA_4591_262",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 262-263.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9417,
+    "name": "BayHStA_KAA_4591_264",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 264.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9424,
+    "name": "BayHStA_KAA_4591_274",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 274.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9427,
+    "name": "BayHStA_KAA_4591_287",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 287.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9423,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 272-273.",
+    "author": ""
+   },
+   {
+    "id": 9422,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 271.",
+    "author": ""
+   },
+   {
+    "id": 9421,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 270.",
+    "author": ""
+   },
+   {
+    "id": 9420,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 268.",
+    "author": ""
+   },
+   {
+    "id": 9419,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 267.",
+    "author": "B. B. Buce Alberto"
+   },
+   {
+    "id": 9402,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9401,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 224.",
+    "author": "..."
+   },
+   {
+    "id": 9400,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 222-223.",
+    "author": "Duce Gulielmo  Bavaria"
+   },
+   {
+    "id": 9399,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 221.",
+    "author": ""
+   },
+   {
+    "id": 9398,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 220.",
+    "author": ""
+   },
+   {
+    "id": 9396,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 218.",
+    "author": ""
+   },
+   {
+    "id": 9395,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 217.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 102
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "...",
+   "",
+   1450
+  ],
+  "n": 3,
+  "ids": [
+   9403,
+   9414,
+   9415
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9403,
+    "name": "BayHStA_KAA_4591_226",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 226-228.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9414,
+    "name": "BayHStA_KAA_4591_257",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 257-259.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "...",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   },
+   {
+    "id": 9415,
+    "name": "BayHStA_KAA_4591_260",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 260-261.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "...",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9423,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 272-273.",
+    "author": ""
+   },
+   {
+    "id": 9422,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 271.",
+    "author": ""
+   },
+   {
+    "id": 9421,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 270.",
+    "author": ""
+   },
+   {
+    "id": 9420,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 268.",
+    "author": ""
+   },
+   {
+    "id": 9419,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 267.",
+    "author": "B. B. Buce Alberto"
+   },
+   {
+    "id": 9402,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9401,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 224.",
+    "author": "..."
+   },
+   {
+    "id": 9400,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 222-223.",
+    "author": "Duce Gulielmo  Bavaria"
+   },
+   {
+    "id": 9399,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 221.",
+    "author": ""
+   },
+   {
+    "id": 9398,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 220.",
+    "author": ""
+   },
+   {
+    "id": 9396,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 218.",
+    "author": ""
+   },
+   {
+    "id": 9395,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 217.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 102
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "Cornelio Sperantio",
+   "...",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   9412
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9412,
+    "name": "BayHStA_KAA_4591_249",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 249.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "Cornelio Sperantio",
+    "sender": "",
+    "receiver": "...",
+    "origin": "",
+    "clear": "...",
+    "plain": "...",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9423,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 272-273.",
+    "author": ""
+   },
+   {
+    "id": 9422,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 271.",
+    "author": ""
+   },
+   {
+    "id": 9421,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 270.",
+    "author": ""
+   },
+   {
+    "id": 9420,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 268.",
+    "author": ""
+   },
+   {
+    "id": 9419,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 267.",
+    "author": "B. B. Buce Alberto"
+   },
+   {
+    "id": 9402,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9401,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 224.",
+    "author": "..."
+   },
+   {
+    "id": 9400,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 222-223.",
+    "author": "Duce Gulielmo  Bavaria"
+   },
+   {
+    "id": 9399,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 221.",
+    "author": ""
+   },
+   {
+    "id": 9398,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 220.",
+    "author": ""
+   },
+   {
+    "id": 9396,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 218.",
+    "author": ""
+   },
+   {
+    "id": 9395,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 217.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 102
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "Cornelio Sperantio",
+   "",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   9411
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9411,
+    "name": "BayHStA_KAA_4591_248",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 248.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "Cornelio Sperantio",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "...",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9423,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 272-273.",
+    "author": ""
+   },
+   {
+    "id": 9422,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 271.",
+    "author": ""
+   },
+   {
+    "id": 9421,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 270.",
+    "author": ""
+   },
+   {
+    "id": 9420,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 268.",
+    "author": ""
+   },
+   {
+    "id": 9419,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 267.",
+    "author": "B. B. Buce Alberto"
+   },
+   {
+    "id": 9402,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9401,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 224.",
+    "author": "..."
+   },
+   {
+    "id": 9400,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 222-223.",
+    "author": "Duce Gulielmo  Bavaria"
+   },
+   {
+    "id": 9399,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 221.",
+    "author": ""
+   },
+   {
+    "id": 9398,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 220.",
+    "author": ""
+   },
+   {
+    "id": 9396,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 218.",
+    "author": ""
+   },
+   {
+    "id": 9395,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 217.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 102
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "Augurellio",
+   "...",
+   1450
+  ],
+  "n": 1,
+  "ids": [
+   9407
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9407,
+    "name": "BayHStA_KAA_4591_232",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 232-235.",
+    "city": "München",
+    "date": "1475/1625",
+    "author": "Augurellio",
+    "sender": "",
+    "receiver": "...",
+    "origin": "",
+    "clear": "...",
+    "plain": "...",
+    "pages": "5",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9423,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 272-273.",
+    "author": ""
+   },
+   {
+    "id": 9422,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 271.",
+    "author": ""
+   },
+   {
+    "id": 9421,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 270.",
+    "author": ""
+   },
+   {
+    "id": 9420,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 268.",
+    "author": ""
+   },
+   {
+    "id": 9419,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 267.",
+    "author": "B. B. Buce Alberto"
+   },
+   {
+    "id": 9402,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 225.",
+    "author": ""
+   },
+   {
+    "id": 9401,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 224.",
+    "author": "..."
+   },
+   {
+    "id": 9400,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 222-223.",
+    "author": "Duce Gulielmo  Bavaria"
+   },
+   {
+    "id": 9399,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 221.",
+    "author": ""
+   },
+   {
+    "id": 9398,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 220.",
+    "author": ""
+   },
+   {
+    "id": 9396,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 218.",
+    "author": ""
+   },
+   {
+    "id": 9395,
+    "year": 1475,
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 217.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 102
+ },
+ {
+  "key": [
+   "München",
+   "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591",
+   "...",
+   "",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   9426
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9426,
+    "name": "BayHStA_KAA_4591_281",
+    "holder": "Bavaria Main State Archive, Kurbayern Äußeres Archiv 4591 f 281.",
+    "city": "München",
+    "date": "1619",
+    "author": "...",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "...",
+    "plain": "",
+    "pages": "10",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ }
+]

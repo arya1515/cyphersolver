@@ -1,0 +1,232 @@
+[
+ {
+  "decode_ids": [
+   2788
+  ],
+  "reason": "Catherine de Médicis to du Croc, 27 Apr 1567: already a repo target (ducroc/).",
+  "batch": "1"
+ },
+ {
+  "decode_ids": [
+   2787
+  ],
+  "reason": "Villeroi to Henry III, 1577: solved by Sergey Ryabov (Tomokiyo, Unsolved Historical Ciphers).",
+  "batch": "1"
+ },
+ {
+  "decode_ids": [
+   8345
+  ],
+  "reason": "BL Add MS 32091 f. 213 is the Moray → John Wood letter, already a repo target (moray/).",
+  "batch": "2"
+ },
+ {
+  "decode_ids": [
+   9876,
+   9885,
+   9886,
+   9887
+  ],
+  "reason": "RAH 9/31 and 9/34, Luis Fernández (Rome): the Sessa 1524 series, already a repo target (sessa1524/).",
+  "batch": "4"
+ },
+ {
+  "decode_ids": [
+   9896,
+   9899,
+   9900,
+   9901,
+   9902,
+   9903,
+   9904,
+   9905
+  ],
+  "reason": "RAH 9/31 and 9/34, Luis Fernández (Rome): the Sessa 1524 series, already a repo target (sessa1524/).",
+  "batch": "4"
+ },
+ {
+  "decode_ids": [
+   1084
+  ],
+  "reason": "Maffeo da Treviglio / Buda correspondence in the Sforzesco: already a repo target (buda1489/).",
+  "batch": "4"
+ },
+ {
+  "decode_ids": [
+   1148
+  ],
+  "reason": "Maffeo da Treviglio / Buda correspondence in the Sforzesco: already a repo target (buda1489/).",
+  "batch": "4"
+ },
+ {
+  "decode_ids": [
+   1159
+  ],
+  "reason": "Maffeo da Treviglio / Buda correspondence in the Sforzesco: already a repo target (buda1489/).",
+  "batch": "4"
+ },
+ {
+  "decode_ids": [
+   3672
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   3662,
+   3663
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4229
+  ],
+  "reason": "Jean du Bellay, fr. 3040: covered by catalogue no. 4 (dubellay/) and the gramont1529 key survey.",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4226,
+   4227
+  ],
+  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4250,
+   4251
+  ],
+  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   3694
+  ],
+  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   3698
+  ],
+  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4258,
+   4267,
+   4269,
+   4273
+  ],
+  "reason": "Sormano and de Vaulx (Ferrara), fr. 3096: catalogue no. 8, read (sormano/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4279
+  ],
+  "reason": "La Guiche and Tournon, fr. 3138: catalogue no. 10.",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   4274
+  ],
+  "reason": "La Guiche and Tournon, fr. 3138: catalogue no. 10.",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   9460
+  ],
+  "reason": "fr. 3623 nos. 60 and 78: catalogue no. 30 (Champagne news-letters to Nevers).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   9459
+  ],
+  "reason": "fr. 3623 nos. 60 and 78: catalogue no. 30 (Champagne news-letters to Nevers).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2754
+  ],
+  "reason": "Melchior de Sabran 1636: Tomokiyo's DECODE note records Daniel Bourdeau's solution of 15 Sept 2026.",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2294,
+   2295
+  ],
+  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (superscript/, vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2293
+  ],
+  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (superscript/, vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2288
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2289
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2290,
+   2291
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2292
+  ],
+  "reason": "BnF fr. 3022: Del Vasto and the imperial papers, catalogue no. 7 (vasto1527/).",
+  "batch": "5"
+ },
+ {
+  "decode_ids": [
+   2230,
+   2231
+  ],
+  "reason": "fr. 3541, Henri IV (Villeroy) to Savary de Brèves 1603: catalogue no. 23 (breves1603/).",
+  "batch": "6"
+ },
+ {
+  "decode_ids": [
+   2075,
+   2076
+  ],
+  "reason": "fr. 3789, the Court to Savary de Brèves 1610: catalogue no. 25.",
+  "batch": "6"
+ },
+ {
+  "decode_ids": [
+   361
+  ],
+  "reason": "Catherine of Aragon to Ferdinand, 1509: solved by Victor and Thomas Bosbach in 2018 (Tomokiyo).",
+  "batch": "6"
+ }
+]

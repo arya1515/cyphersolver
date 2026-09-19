@@ -1,0 +1,3808 @@
+[
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_10",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9559
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9559,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_10",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_10",
+    "city": "Naples",
+    "date": "1816-10-17",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_11",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9560
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9560,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_11",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_11",
+    "city": "Naples",
+    "date": "1816-10-19",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_12",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9561
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9561,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_12",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_12",
+    "city": "Naples",
+    "date": "1816-11-30",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "7",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_13",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9562
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9562,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_13",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_13",
+    "city": "Naples",
+    "date": "1816-12-03",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_14",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9563
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9563,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_14",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_14",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_15",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9564
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9564,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_15",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_15",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_16",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9565
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9565,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_16",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_16",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_17",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9566
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9566,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_17",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_17",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_18",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9567
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9567,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_18",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_18",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Naples, Italy",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_21",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9570
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9570,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_21",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_21",
+    "city": "Naples",
+    "date": "1823",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_30",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9579
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9579,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_30",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_30",
+    "city": "Naples",
+    "date": "1816-09-26",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_33",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9582
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9582,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_33",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_33",
+    "city": "Naples",
+    "date": "1817-11-14",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_34",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9583
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9583,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_34",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_34",
+    "city": "Naples",
+    "date": "1819-04-03",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_35",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9584
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9584,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_35",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_35",
+    "city": "Naples",
+    "date": "1819-07-13",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_36",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9585
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9585,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_36",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_36",
+    "city": "Naples",
+    "date": "1819-10-28",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_37",
+   "Principe di Castelcicala",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9586
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9586,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_37",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_37",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_38",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9587
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9587,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_38",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_38",
+    "city": "Naples",
+    "date": "1816-10-23",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian?",
+    "plain": "",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_39",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9588
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9588,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_39",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_39",
+    "city": "Naples",
+    "date": "1823",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_4",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9553
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9553,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_4",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_4",
+    "city": "Naples",
+    "date": "1816-04-01",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_5",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   9554
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9554,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_5",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_5",
+    "city": "Naples",
+    "date": "",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_6",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9555
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9555,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_6",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_6",
+    "city": "Naples",
+    "date": "1816-06-03",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "Paris, France",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_7",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9556
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9556,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_7",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_7",
+    "city": "Naples",
+    "date": "1816-10-30",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_8",
+   "Principe di Castelcicala",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9557
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9557,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_8",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_8",
+    "city": "Naples",
+    "date": "1816-09-06",
+    "author": "",
+    "sender": "Principe di Castelcicala",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Ciphertext that might belong to the plaintexts in box 2317."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Naples",
+   "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_9",
+   "Marchese di Ciscello? Principe di Castelcicala?",
+   "",
+   1800
+  ],
+  "n": 1,
+  "ids": [
+   9558
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9558,
+    "name": "ASN_Ministerio.degli.affari.esteri.2337_9",
+    "holder": "Archivio di Stato di Napoli, Ministerio degli affari esteri 2337_9",
+    "city": "Naples",
+    "date": "1816-10-04",
+    "author": "",
+    "sender": "Marchese di Ciscello? Principe di Castelcicala?",
+    "receiver": "",
+    "origin": "London, England",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": ""
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "New Haven",
+   "Beinecke Rare Book and Manuscript Library, Mellon MS 136",
+   "Johann Arndt (1555-1621)",
+   "",
+   1750
+  ],
+  "n": 1,
+  "ids": [
+   2873
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2873,
+    "name": "Yale_Beinecke_Mellon_MS_136",
+    "holder": "Beinecke Rare Book and Manuscript Library,  Mellon MS 136",
+    "city": "New Haven",
+    "date": "1798-09-18",
+    "author": "Johann Arndt (1555-1621)",
+    "sender": "",
+    "receiver": "",
+    "origin": "Glücksbrunn, Germany",
+    "clear": "German, Hebrew, Latin",
+    "plain": "",
+    "pages": "129",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Also available at https://collections.library.yale.edu/catalog Only short parts are encrypted. Das zweyte Silentium Dei in Königs Salomonis des Weisen paradiessischen Lustgarten"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "New Haven",
+   "Beinecke Rare Book and Manuscript Library, Mellon MS 29",
+   "Elia da Cortona (1180-1253)",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   2877
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2877,
+    "name": "Yale_Beinecke_ Mellon_MS_29_Lumen_luminum",
+    "holder": "Beinecke Rare Book and Manuscript Library, Mellon MS 29",
+    "city": "New Haven",
+    "date": "1525-01-01",
+    "author": "Elia da Cortona (1180-1253)",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice?, Italy",
+    "clear": "Latin",
+    "plain": "",
+    "pages": "68",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Also available at https://collections.library.yale.edu/catalog Manuscript on paper of Elias Cortonensis O.F.M., Lumen luminum, said according to this copy to have been composed in 1315, an erroneous date, and drawn from Saracen and Hebrew sources, translated into Latin. With a cryptic text, ascribed to a church figure, with a cipher code; and miscellaneous recipes in Italian. Binding: Original, North Italian. Dark leather, the sides ruled with triple bordering lines to form a rectangle within a rectangle, the smaller rectangle with a roll tool of vinelike foliage impressed in blind, a smaller "
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque National Ancien Fonds inv.nr. 2988",
+   "Hieronimo Ranzo",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   1894
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 1894,
+    "name": "BNdF__AncienFonds_invnr.2988ff9-11",
+    "holder": "Bibliotheque National  Ancien Fonds inv.nr. 2988",
+    "city": "Paris",
+    "date": "1520-01-01/1529",
+    "author": "Hieronimo Ranzo",
+    "sender": "",
+    "receiver": "",
+    "origin": "Venice, Italy",
+    "clear": "",
+    "plain": "Italian",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "nomenclator",
+    "symbols": "alphabet",
+    "cipher_other": "",
+    "symbol_other": "the letters of the alphabet have indexnumbers",
+    "access": "login",
+    "info": "Hieronimo Ranzo who served as secretary to Mertcurino Arborio di Gattinara, chancellor of Emperor Charels V. The use of letters with ondexnumbers seems to indicate that we are dealing with a nomenclator from Venice. The year was given by the Bibliotheque National and may not be correct."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 15564",
+   "",
+   "Philippe-Emmanuel, duke of Mercoeur",
+   1550
+  ],
+  "n": 3,
+  "ids": [
+   4155,
+   4158,
+   4167
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4155,
+    "name": "BNF_Français_15564_027",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 27.",
+    "city": "Paris",
+    "date": "1587-02-04",
+    "author": "",
+    "sender": "",
+    "receiver": "Philippe-Emmanuel, duke of Mercoeur",
+    "origin": "",
+    "clear": "French",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4158,
+    "name": "BNF_Français_15564_078",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 78.",
+    "city": "Paris",
+    "date": "1587-04-13",
+    "author": "",
+    "sender": "",
+    "receiver": "Philippe-Emmanuel, duke of Mercoeur",
+    "origin": "",
+    "clear": "French",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4167,
+    "name": "BNF_Français_15564_151",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 151.",
+    "city": "Paris",
+    "date": "1587-06-20",
+    "author": "",
+    "sender": "",
+    "receiver": "Philippe-Emmanuel, duke of Mercoeur",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 15564",
+   "",
+   "Philippe-Emmanuel, duke of Mercoeur ?",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   4162,
+   4165
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4162,
+    "name": "BNF_Français_15564_119",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 119.",
+    "city": "Paris",
+    "date": "1587-05-27",
+    "author": "",
+    "sender": "",
+    "receiver": "Philippe-Emmanuel, duke of Mercoeur ?",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4165,
+    "name": "BNF_Français_15564_142",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 142.",
+    "city": "Paris",
+    "date": "1587-06-20",
+    "author": "",
+    "sender": "",
+    "receiver": "Philippe-Emmanuel, duke of Mercoeur ?",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 15564",
+   "",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4157
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4157,
+    "name": "BNF_Français_15564_030",
+    "holder": "Bibliotheque nationale de France (BnF), Français 15564 fol. 30.",
+    "city": "Paris",
+    "date": "1587-02-05",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "Villeroy",
+    "clear": "French",
+    "plain": "",
+    "pages": "9",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/. Partly encrypted."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3022",
+   "",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   3672
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3672,
+    "name": "BNF_Français_3029_164",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 164.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 3665,
+    "year": 1500,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 50.",
+    "author": ""
+   },
+   {
+    "id": 3664,
+    "year": 1500,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 48.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3022",
+   "",
+   "Charles V. emperor",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   3662,
+   3663
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3662,
+    "name": "BNF_Français_3022_20",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 20.",
+    "city": "Paris",
+    "date": "1520-01-11/1530",
+    "author": "",
+    "sender": "",
+    "receiver": "Charles V. emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3663,
+    "name": "BNF_Français_3022_39",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 39.",
+    "city": "Paris",
+    "date": "1520-01-11/1530",
+    "author": "",
+    "sender": "",
+    "receiver": "Charles V. emperor",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "homophonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 3665,
+    "year": 1500,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 50.",
+    "author": ""
+   },
+   {
+    "id": 3664,
+    "year": 1500,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3022 fol. 48.",
+    "author": ""
+   }
+  ],
+  "decode_keys_total": 2
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3029",
+   "",
+   "",
+   1500
+  ],
+  "n": 20,
+  "ids": [
+   3666,
+   3667,
+   3668,
+   3669,
+   3671,
+   3673,
+   3674,
+   3675,
+   3676,
+   3677,
+   3678,
+   3679,
+   3680,
+   3681,
+   3682,
+   3683,
+   3684,
+   3685,
+   3686,
+   3687
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3666,
+    "name": "BNF_Français_3029_67",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 67.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3667,
+    "name": "BNF_Français_3029_100",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 100.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3668,
+    "name": "BNF_Français_3029_102-103",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 102-103.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3669,
+    "name": "BNF_Français_3029_105",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 105.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3671,
+    "name": "BNF_Français_3029_162",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 162.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3673,
+    "name": "BNF_Français_3029_166",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 166.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3674,
+    "name": "BNF_Français_3029_168",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 168.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3675,
+    "name": "BNF_Français_3029_172",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 172.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3676,
+    "name": "BNF_Français_3029_174",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 174.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3677,
+    "name": "BNF_Français_3029_176",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 176.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3678,
+    "name": "BNF_Français_3029_182",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 182.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3679,
+    "name": "BNF_Français_3029_186",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 186.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3680,
+    "name": "BNF_Français_3029_188",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 188.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3681,
+    "name": "BNF_Français_3029_190",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 190.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3682,
+    "name": "BNF_Français_3029_191",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 191.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3683,
+    "name": "BNF_Français_3029_193",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 193.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3684,
+    "name": "BNF_Français_3029_195",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 195.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3685,
+    "name": "BNF_Français_3029_197",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 197.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3686,
+    "name": "BNF_Français_3029_199",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 199.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3687,
+    "name": "BNF_Français_3029_202",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 202.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3029",
+   "",
+   "Francis I (King of France)",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   3670
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3670,
+    "name": "BNF_Français_3029_134-135",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3029 fol. 134-135.",
+    "city": "Paris",
+    "date": "1530-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "Francis I (King of France)",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3034",
+   "Ambrozio Bizozola",
+   "Maximiliano Sforza",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4224
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4224,
+    "name": "BNF_Français_3034_156",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3034 fol. 156.",
+    "city": "Paris",
+    "date": "1520/1529",
+    "author": "",
+    "sender": "Ambrozio Bizozola",
+    "receiver": "Maximiliano Sforza",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown, polyphonic",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3034",
+   "",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4223
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4223,
+    "name": "BNF_Français_3034_154",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3034 fol. 154.",
+    "city": "Paris",
+    "date": "1528-08-30",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Campo a Landriano",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3040",
+   "Jean du Bellay",
+   "Anne de Montmorency ?",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4229
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4229,
+    "name": "BNF_Français_3040_068",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3040 fol. 68.",
+    "city": "Paris",
+    "date": "1526/1529",
+    "author": "",
+    "sender": "Jean du Bellay",
+    "receiver": "Anne de Montmorency ?",
+    "origin": "London",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/. Partly encrypted."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3040",
+   "Gabriel de Gramont, bishop of Tarbes",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   4226,
+   4227
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4226,
+    "name": "BNF_Français_3040_016",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3040 fol. 16.",
+    "city": "Paris",
+    "date": "1529-10-05",
+    "author": "",
+    "sender": "Gabriel de Gramont, bishop of Tarbes",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4227,
+    "name": "BNF_Français_3040_018",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3040 fol. 18.",
+    "city": "Paris",
+    "date": "1520/1539",
+    "author": "",
+    "sender": "Gabriel de Gramont, bishop of Tarbes",
+    "receiver": "Anne de Montmorency",
+    "origin": "Boulogne",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3045",
+   "George de Selve, bishop of Lavaur",
+   "Francis Ist, King of France",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4232
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4232,
+    "name": "BNF_Français_3045_042",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3045 fol. 42.",
+    "city": "Paris",
+    "date": "1536-07-05",
+    "author": "",
+    "sender": "George de Selve, bishop of Lavaur",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Venise",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "14",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/. Partly encrypted."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3045",
+   "Galeas Visconti",
+   "Angelo Bolano",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4230
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4230,
+    "name": "BNF_Français_3045_028",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3045 fol. 28.",
+    "city": "Paris",
+    "date": "1528-10-12",
+    "author": "",
+    "sender": "Galeas Visconti",
+    "receiver": "Angelo Bolano",
+    "origin": "Alexandria",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3053",
+   "",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 8,
+  "ids": [
+   4233,
+   4234,
+   4235,
+   4238,
+   4239,
+   4240,
+   4247,
+   4248
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4233,
+    "name": "BNF_Français_3053_006",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 6.",
+    "city": "Paris",
+    "date": "1536-01-29",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "6",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/. Partly encrypted."
+   },
+   {
+    "id": 4234,
+    "name": "BNF_Français_3053_016",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 16.",
+    "city": "Paris",
+    "date": "1536-02-09",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "7",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4235,
+    "name": "BNF_Français_3053_021",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 21.",
+    "city": "Paris",
+    "date": "1536-02-15",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "4",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4238,
+    "name": "BNF_Français_3053_032",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 32.",
+    "city": "Paris",
+    "date": "1536-09-16",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/. Partly encrypted."
+   },
+   {
+    "id": 4239,
+    "name": "BNF_Français_3053_035",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 35.",
+    "city": "Paris",
+    "date": "1537-04-06",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "8",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4240,
+    "name": "BNF_Français_3053_040",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 40.",
+    "city": "Paris",
+    "date": "1536-09-22",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Orvieto",
+    "clear": "French",
+    "plain": "French",
+    "pages": "2",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4247,
+    "name": "BNF_Français_3053_077",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 77.",
+    "city": "Paris",
+    "date": "1536-09-24",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "Orvieto",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4248,
+    "name": "BNF_Français_3053_085",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3053 fol. 85.",
+    "city": "Paris",
+    "date": "1536",
+    "author": "",
+    "sender": "",
+    "receiver": "Anne de Montmorency",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3070",
+   "Guido Ramgone",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4249
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4249,
+    "name": "BNF_Français_3070_081",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3070 fol. 81.",
+    "city": "Paris",
+    "date": "1530-01-10",
+    "author": "",
+    "sender": "Guido Ramgone",
+    "receiver": "Anne de Montmorency",
+    "origin": "Venise",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3071",
+   "Charles de Hémard de Denonville, cardinal of Macon",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   4250,
+   4251
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4250,
+    "name": "BNF_Français_3071_009",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3071 fol. 9.",
+    "city": "Paris",
+    "date": "1537-04-11",
+    "author": "",
+    "sender": "Charles de Hémard de Denonville, cardinal of Macon",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4251,
+    "name": "BNF_Français_3071_017",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3071 fol. 17.",
+    "city": "Paris",
+    "date": "1537-07-21",
+    "author": "",
+    "sender": "Charles de Hémard de Denonville, cardinal of Macon",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3083",
+   "Jean de Langeac, bishop of Avranches",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   3694
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3694,
+    "name": "BNF_Français_3083_020-021",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3083 fol. 20-21.",
+    "city": "Paris",
+    "date": "1520-01-11/1540",
+    "author": "",
+    "sender": "Jean de Langeac, bishop of Avranches",
+    "receiver": "Anne de Montmorency",
+    "origin": "Venice, Italy",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3091",
+   "Gabriel de Gramont, bishop of Tarbes",
+   "Anne de Montmorency",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   3698
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3698,
+    "name": "BNF_Français_3091_045-047",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3091 fol. 45-47.",
+    "city": "Paris",
+    "date": "1520-01-11/1540",
+    "author": "",
+    "sender": "Gabriel de Gramont, bishop of Tarbes",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome, Italy",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3091",
+   "George de Selve, bishop of Lavaur",
+   "Franis I, King of France",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   3697
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3697,
+    "name": "BNF_Français_3091_025",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3091 fol. 25.",
+    "city": "Paris",
+    "date": "1535-09-14",
+    "author": "",
+    "sender": "George de Selve, bishop of Lavaur",
+    "receiver": "Franis I, King of France",
+    "origin": "Venice, Italy",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3092",
+   "",
+   "",
+   1500
+  ],
+  "n": 3,
+  "ids": [
+   3699,
+   3700,
+   3701
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3699,
+    "name": "BNF_Français_3092_101",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3092 fol. 101.",
+    "city": "Paris",
+    "date": "1520-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3700,
+    "name": "BNF_Français_3092_103-104",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3092 fol. 103-104.",
+    "city": "Paris",
+    "date": "1520-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 3701,
+    "name": "BNF_Français_3092_107",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3092 fol. 107.",
+    "city": "Paris",
+    "date": "1520-01-11/1540",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3096",
+   "Gaspard Sormano, Joachim de Vaulx",
+   "Francis Ist, King of France",
+   1500
+  ],
+  "n": 4,
+  "ids": [
+   4258,
+   4267,
+   4269,
+   4273
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4258,
+    "name": "BNF_Français_3096_115",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3096 fol. 115.",
+    "city": "Paris",
+    "date": "1528-02",
+    "author": "",
+    "sender": "Gaspard Sormano, Joachim de Vaulx",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Ferrare",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4267,
+    "name": "BNF_Français_3096_119",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3096 fol. 119.",
+    "city": "Paris",
+    "date": "1528-02-23",
+    "author": "",
+    "sender": "Gaspard Sormano, Joachim de Vaulx",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Ferrare",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4269,
+    "name": "BNF_Français_3096_121",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3096 fol. 121.",
+    "city": "Paris",
+    "date": "1528-02-23",
+    "author": "",
+    "sender": "Gaspard Sormano, Joachim de Vaulx",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Ferrare",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4273,
+    "name": "BNF_Français_3096_123",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3096 fol. 123.",
+    "city": "Paris",
+    "date": "1528-02",
+    "author": "",
+    "sender": "Gaspard Sormano, Joachim de Vaulx",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Ferrare",
+    "clear": "Italian",
+    "plain": "Italian?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3096",
+   "Galeas Visconti",
+   "Francis Ist, King of France",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4256
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4256,
+    "name": "BNF_Français_3096_091",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3096 fol. 91.",
+    "city": "Paris",
+    "date": "1529-06-12",
+    "author": "",
+    "sender": "Galeas Visconti",
+    "receiver": "Francis Ist, King of France",
+    "origin": "Campo in la pieve de Loccate",
+    "clear": "Italian",
+    "plain": "Italian",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3138",
+   "Claude de la Guiche, seigneur de Mirepoix",
+   "Anne de Montmorency",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4279
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4279,
+    "name": "BNF_Français_3138_059",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3138 fol. 059.",
+    "city": "Paris",
+    "date": "1551-11-22",
+    "author": "",
+    "sender": "Claude de la Guiche, seigneur de Mirepoix",
+    "receiver": "Anne de Montmorency",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3138",
+   "François, cardinal of Tournon",
+   "Henri II, King of France",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4274
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4274,
+    "name": "BNF_Français_3138_021",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3138 fol. 021.",
+    "city": "Paris",
+    "date": "1556-02-27",
+    "author": "",
+    "sender": "François, cardinal of Tournon",
+    "receiver": "Henri II, King of France",
+    "origin": "Fossenbrum",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3621",
+   "Joachim de Jaucourt Baron de Dinteville",
+   "Duke of Nivernois",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9451
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9451,
+    "name": "BnF_Français 3621_8",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3621, no. 116, f. 130.",
+    "city": "Paris",
+    "date": "1592-07-03",
+    "author": "Joachim de Jaucourt Baron de Dinteville",
+    "sender": "",
+    "receiver": "Duke of Nivernois",
+    "origin": "Langres, France",
+    "clear": "French",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter, with cipher and decryption, from Joachim de Jaucourt Baron de Dinteville to the Duke of Nivernois. From Langres, July 3rd 1592. The image is not in the public domain. Publishing is only possible with permission from the library."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3623",
+   "",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9460
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9460,
+    "name": "BnF_Français 3623_9",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3623, no. 78, f. 111.",
+    "city": "Paris",
+    "date": "1591",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "French",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Letter, with cipher, about the sizes of the Nivernais. 1591. The image is not in the public domain. Publishing is only possible with permission from the library."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9453,
+    "year": 1590,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3623, no. 23, f. 35.",
+    "author": "France Paris"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3623",
+   "",
+   "Duke of Nevers",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   9459
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 9459,
+    "name": "BnF_Français 3623_8",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3623, no. 60, f. 88.",
+    "city": "Paris",
+    "date": "1590-06-07",
+    "author": "",
+    "sender": "",
+    "receiver": "Duke of Nevers",
+    "origin": "",
+    "clear": "French",
+    "plain": "French",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Opinions, with cipher, to the Duke of Nevers. The 7th June 1590. The image is not in the public domain. Publishing is only possible with permission from the library."
+   }
+  ],
+  "decode_keys": [
+   {
+    "id": 9453,
+    "year": 1590,
+    "holder": "Bibliotheque nationale de France (BnF), Français 3623, no. 23, f. 35.",
+    "author": "France Paris"
+   }
+  ],
+  "decode_keys_total": 1
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3975",
+   "Louis Gonzaga, duke of Nevers",
+   "Robert de La Vieuville",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4289
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4289,
+    "name": "BNF_Français_3975_101",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3975 fol. 101.",
+    "city": "Paris",
+    "date": "1587-09-30",
+    "author": "",
+    "sender": "Louis Gonzaga, duke of Nevers",
+    "receiver": "Robert de La Vieuville",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3975",
+   "",
+   "Louis Gonzaga, duke of Nevers",
+   1550
+  ],
+  "n": 2,
+  "ids": [
+   4285,
+   4286
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4285,
+    "name": "BNF_Français_3975_028",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3975 fol. 28.",
+    "city": "Paris",
+    "date": "1587-03-27",
+    "author": "",
+    "sender": "",
+    "receiver": "Louis Gonzaga, duke of Nevers",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   },
+   {
+    "id": 4286,
+    "name": "BNF_Français_3975_030",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3975 fol. 30.",
+    "city": "Paris",
+    "date": "1587-04-04",
+    "author": "",
+    "sender": "",
+    "receiver": "Louis Gonzaga, duke of Nevers",
+    "origin": "Rome",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3976",
+   "",
+   "",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   3708
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3708,
+    "name": "BNF_Français_3976_133-134",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3976 fol. 133-134.",
+    "city": "Paris",
+    "date": "1588-06-06",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3976",
+   "",
+   "Louis Gonzaga, duke of Nevers",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   3705
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 3705,
+    "name": "BNF_Français_3976_062",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3976 fol. 62.",
+    "city": "Paris",
+    "date": "1588-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "Louis Gonzaga, duke of Nevers",
+    "origin": "",
+    "clear": "French",
+    "plain": "French?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliotheque nationale de France (BnF), Français 3979",
+   "Vincenzo Gonzaga, duke of Nevers",
+   "Louis Gonzaga, duke of Nevers",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   4176
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4176,
+    "name": "BNF_Français_3979_092",
+    "holder": "Bibliotheque nationale de France (BnF), Français 3979 fol. 92.",
+    "city": "Paris",
+    "date": "1590-09-17",
+    "author": "",
+    "sender": "Vincenzo Gonzaga, duke of Nevers",
+    "receiver": "Louis Gonzaga, duke of Nevers",
+    "origin": "",
+    "clear": "Italian",
+    "plain": "",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the archive. Images are available at https://archivesetmanuscrits.bnf.fr/."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France (BnF), Français 20506",
+   "Hieronimo Ranzo",
+   "",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   4450
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 4450,
+    "name": "BnF_fr20506_f136",
+    "holder": "Bibliothèque nationale de France (BnF), Français 20506, f.136",
+    "city": "Paris",
+    "date": "1525/1550",
+    "author": "Hieronimo Ranzo",
+    "sender": "",
+    "receiver": "",
+    "origin": "Italy?",
+    "clear": "",
+    "plain": "",
+    "pages": "5",
+    "status": "Non-decrypted",
+    "cipher_types": "",
+    "symbols": "",
+    "cipher_other": "roman letters with superscript digits",
+    "symbol_other": "",
+    "access": "login",
+    "info": "A copy of BnF fr.2988, f.9 For similar ciphers (with roman letters with superscript digits), see S. Tomokiyo, \"Venetian Ciphers with Superscripts\" at http://cryptiana.web.fc2.com/code/venetian.htm The uploader is unsure whether the envelope of f.139 belongs to this or to the next piece."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France (BnF), italien 1583",
+   "",
+   "",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   7898
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 7898,
+    "name": "BnF_1583_068",
+    "holder": "Bibliothèque nationale de France (BnF), italien 1583, f 68.",
+    "city": "Paris",
+    "date": "",
+    "author": "",
+    "sender": "",
+    "receiver": "",
+    "origin": "",
+    "clear": "",
+    "plain": "",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The image is not in the public domain. Publishing it is only possible with the permission of the Archive."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Baluze 155",
+   "Louis XIII",
+   "Melchior de Sabran",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   2748
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2748,
+    "name": "BnF_Baluze155_f79",
+    "holder": "Bibliothèque nationale de France, Baluze 155, f.79-80",
+    "city": "Paris",
+    "date": "1631-03-28",
+    "author": "Louis XIII",
+    "sender": "Bouthillier",
+    "receiver": "Melchior de Sabran",
+    "origin": "Dijon, France",
+    "clear": "French",
+    "plain": "probably French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "For an overview of contemporary ciphers, see S. Tomokiyo, \"French Ciphers during the Reign of Louis XIII\" (http://cryptiana.web.fc2.com/code/louisxiii.htm)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Baluze 156",
+   "Odoardo Farnese, Duke of Parma?",
+   "Melchior de Sabran?",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   2753
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2753,
+    "name": "BnF_Baluze156_f40",
+    "holder": "Bibliothèque nationale de France, Baluze 156, f.39-41",
+    "city": "Paris",
+    "date": "1637-05-27",
+    "author": "Odoardo Farnese, Duke of Parma?",
+    "sender": "",
+    "receiver": "Melchior de Sabran?",
+    "origin": "Plaisance, Italy",
+    "clear": "",
+    "plain": "French or Italian?",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The sheet including the ciphertext (f.40) is assumed to belong to the letter of f.39. For an overview of contemporary ciphers, see S. Tomokiyo, \"French Ciphers during the Reign of Louis XIII\" (http://cryptiana.web.fc2.com/code/louisxiii.htm)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Baluze 156",
+   "Melchior de Sabran?",
+   "\"Mr de ch. g^r\"",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   2754
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2754,
+    "name": "BnF_Baluze156_f157",
+    "holder": "Bibliothèque nationale de France, Baluze 156, f.157-158",
+    "city": "Paris",
+    "date": "1636-02-09",
+    "author": "Melchior de Sabran?",
+    "sender": "",
+    "receiver": "\"Mr de ch. g^r\"",
+    "origin": "",
+    "clear": "French",
+    "plain": "probably French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "alphabet, numerical",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "For an overview of contemporary ciphers, see S. Tomokiyo, \"French Ciphers during the Reign of Louis XIII\" (http://cryptiana.web.fc2.com/code/louisxiii.htm)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Clairambault 325",
+   "Bayard",
+   "Montmorency",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   2285
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2285,
+    "name": "BnF_Clair325_f84",
+    "holder": "Bibliothèque nationale de France, Clairambault 325, f.84",
+    "city": "Paris",
+    "date": "1526-01-05",
+    "author": "Bayard",
+    "sender": "Bayard",
+    "receiver": "Montmorency",
+    "origin": "",
+    "clear": "French",
+    "plain": "probably French",
+    "pages": "1",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The ciphertext is short. The marginal note \"jay respondu que je navoye veu icy nul homme de par vous\"[?] seems irrelevant to the cipher. For contemporary ciphers, see S.Tomokiyo, \"French Ciphers during the Reign of Francis I\" at http://cryptiana.web.fc2.com/code/francis.htm"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 18043",
+   "Louis XIII",
+   "Brulart de Leon",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   2785
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2785,
+    "name": "BnF_fr18043_f83",
+    "holder": "Bibliothèque nationale de France, Français 18043, f.83-84",
+    "city": "Paris",
+    "date": "1615-09-15",
+    "author": "Louis XIII",
+    "sender": "Brulart de Sillery",
+    "receiver": "Brulart de Leon",
+    "origin": "Poictyers[?], France",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, numerical",
+    "cipher_other": "numbers with diacritics",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Some passages are not deciphered. The uploader could not read them with the reconstructed key. They may be partially or totally nulls. The volume includes many other letters partly in cipher addressed to Brulart de Leon by Louis XIII, Marie de Medicis, or Puysieux. For contemporary French ciphers (including the key to this cipher), see S. Tomokiyo, \"French Ciphers during the Reign of Louis XIII\" (http://cryptiana.web.fc2.com/code/louisxiii.htm)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 18044",
+   "Louis XIII",
+   "Brulart de Leon",
+   1600
+  ],
+  "n": 1,
+  "ids": [
+   2786
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2786,
+    "name": "BnF_fr18044_f109",
+    "holder": "Bibliothèque nationale de France, Français 18044, f.109-110",
+    "city": "Paris",
+    "date": "1617-07-25",
+    "author": "Louis XIII",
+    "sender": "Brulart de Sillery",
+    "receiver": "Brulart de Leon",
+    "origin": "Paris, France",
+    "clear": "French",
+    "plain": "French",
+    "pages": "3",
+    "status": "Partially decrypted",
+    "cipher_types": "homophonic, nomenclator",
+    "symbols": "graphic signs, numerical",
+    "cipher_other": "numbers with diacritics",
+    "symbol_other": "",
+    "access": "public",
+    "info": "Some symbols are not deciphered. At least some of them are insignificant (because of cancelling symbols). The volume includes some other letters partly in cipher addressed to Brulart de Leon (f.20, f.168, f.184, f.283, f.315). For contemporary French ciphers (including the key to this cipher), see S. Tomokiyo, \"French Ciphers during the Reign of Louis XIII\" (http://cryptiana.web.fc2.com/code/louisxiii.htm)."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 20974",
+   "",
+   "Duc de Guise?",
+   1550
+  ],
+  "n": 1,
+  "ids": [
+   2276
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2276,
+    "name": "BnF_fr20974_p1",
+    "holder": "Bibliothèque nationale de France, Français 20974, p.1-3",
+    "city": "Paris",
+    "date": "1556-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "Duc de Guise?",
+    "origin": "France?",
+    "clear": "",
+    "plain": "Probably French",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs",
+    "cipher_other": "",
+    "symbol_other": "",
+    "access": "login",
+    "info": "See S.Tomokiyo, \"Duke of Guise&lsquot;s Ciphers (1556) in BnF fr.20974\" for an overview of the volume. 3rd page looks upside down."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 2988",
+   "Hieronimo Ranzo",
+   "Venetian government?",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   2294,
+   2295
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2294,
+    "name": "BnF_fr2988_f02",
+    "holder": "Bibliothèque nationale de France, Français 2988, f.2",
+    "city": "Paris",
+    "date": "1520-01-01/1540",
+    "author": "Hieronimo Ranzo",
+    "sender": "Hieronimo Ranzo",
+    "receiver": "Venetian government?",
+    "origin": "",
+    "clear": "",
+    "plain": "Italian?",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "",
+    "cipher_other": "probably code with word initial",
+    "symbol_other": "letter with superscript figure",
+    "access": "login",
+    "info": "For similar ciphers with superscripts, see S.Tomokiyo, \"Venetian Ciphers with Superscripts\" (http://cryptiana.web.fc2.com/code/venetian.htm). The cipher letters in this volume are interleaved with letters in clear. Though the uploader does NOT consider the letters in clear are the plaintexts for the letters in cipher, the possibility should be born in mind."
+   },
+   {
+    "id": 2295,
+    "name": "BnF_fr2988_f09",
+    "holder": "Bibliothèque nationale de France, Français 2988, f.9-11",
+    "city": "Paris",
+    "date": "1520-01-01/1540",
+    "author": "Hieronimo Ranzo",
+    "sender": "Hieronimo Ranzo",
+    "receiver": "Venetian government?",
+    "origin": "",
+    "clear": "",
+    "plain": "Italian?",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "",
+    "cipher_other": "probably code with word initial",
+    "symbol_other": "letter with superscript figure",
+    "access": "login",
+    "info": "For similar ciphers with superscripts, see S.Tomokiyo, \"Venetian Ciphers with Superscripts\" (http://cryptiana.web.fc2.com/code/venetian.htm). The cipher letters in this volume are interleaved with letters in clear. Though the uploader does NOT consider the letters in clear are the plaintexts for the letters in cipher, the possibility should be born in mind."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 3019",
+   "Hieronimo Ranzo",
+   "Venetian government?",
+   null
+  ],
+  "n": 1,
+  "ids": [
+   2293
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2293,
+    "name": "BnF_fr3019_f73",
+    "holder": "Bibliothèque nationale de France, Français 3019, f.73-74",
+    "city": "Paris",
+    "date": "",
+    "author": "Hieronimo Ranzo",
+    "sender": "Hieronimo Ranzo",
+    "receiver": "Venetian government?",
+    "origin": "",
+    "clear": "",
+    "plain": "probably Italian",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "",
+    "cipher_other": "probably code with initial of word",
+    "symbol_other": "letter with superscript figure",
+    "access": "login",
+    "info": "F.96-102 contains a key (only addenda and jargon). The uploader considers f.75 (mentioning \"... pour les mois de mars et avril 1559\") does NOT belong to this and that this piece is from the 1520s or 1530s. For similar ciphers, see S.Tomokiyo, \"Venetian Ciphers with Superscripts\" at http://cryptiana.web.fc2.com/code/venetian.htm"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 3022",
+   "Juan Perez",
+   "Emperor Charles V",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   2288
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2288,
+    "name": "BnF_fr3022_f12",
+    "holder": "Bibliothèque nationale de France, Français 3022, f.12-15",
+    "city": "Paris",
+    "date": "1527-09-24",
+    "author": "Juan Perez",
+    "sender": "Juan Perez",
+    "receiver": "Emperor Charles V",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "probably Spanish",
+    "pages": "2",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "probably three-letter code",
+    "symbol_other": "",
+    "access": "login",
+    "info": "Another copy is in BnF Clair.326, f.491-495. The images include similar-looking f.20. See S.Tomokiyo, \"Ciphers during the Reign of Emperor Charles V\" (http://cryptiana.web.fc2.com/code/spanish2.htm) for contemporary Spanish ciphers."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 3022",
+   "",
+   "Emperor Charles V",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   2289
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2289,
+    "name": "BnF_fr3022_f16",
+    "holder": "Bibliothèque nationale de France, Français 3022",
+    "city": "Paris",
+    "date": "1527-01-01",
+    "author": "",
+    "sender": "",
+    "receiver": "Emperor Charles V",
+    "origin": "",
+    "clear": "Spanish",
+    "plain": "probably Spanish",
+    "pages": "3",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "probably three-letter code",
+    "symbol_other": "",
+    "access": "login",
+    "info": "See S.Tomokiyo, \"Ciphers during the Reign of Emperor Charles V\" (http://cryptiana.web.fc2.com/code/spanish2.htm) for contemporary Spanish ciphers."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 3022",
+   "Marquese del Gasto",
+   "Emperor Charles V",
+   1500
+  ],
+  "n": 2,
+  "ids": [
+   2290,
+   2291
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2290,
+    "name": "BnF_fr3022_f26",
+    "holder": "Bibliothèque nationale de France, Français 3022, f.26-28",
+    "city": "Paris",
+    "date": "1527-09-27",
+    "author": "Marquese del Gasto",
+    "sender": "Marquese del Gasto",
+    "receiver": "Emperor Charles V",
+    "origin": "Ysola",
+    "clear": "Spanish",
+    "plain": "probably Spanish",
+    "pages": "4",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "probably three-letter code",
+    "symbol_other": "",
+    "access": "login",
+    "info": "See S.Tomokiyo, \"Ciphers during the Reign of Emperor Charles V\" (http://cryptiana.web.fc2.com/code/spanish2.htm) for contemporary Spanish ciphers."
+   },
+   {
+    "id": 2291,
+    "name": "BnF_fr3022_f40",
+    "holder": "Bibliothèque nationale de France, Français 3022, f.40-43, 39",
+    "city": "Paris",
+    "date": "1527-11-06",
+    "author": "Marquese del Gasto",
+    "sender": "Marquese del Gasto",
+    "receiver": "Emperor Charles V",
+    "origin": "Rome, Italy",
+    "clear": "Spanish",
+    "plain": "probably Spanish",
+    "pages": "7",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "graphic signs, alphabet",
+    "cipher_other": "probably three-letter code",
+    "symbol_other": "",
+    "access": "login",
+    "info": "The images include seemingly similar f.39. See S.Tomokiyo, \"Ciphers during the Reign of Emperor Charles V\" (http://cryptiana.web.fc2.com/code/spanish2.htm) for contemporary Spanish ciphers."
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ },
+ {
+  "key": [
+   "Paris",
+   "Bibliothèque nationale de France, Français 3022",
+   "",
+   "probably Venetian government",
+   1500
+  ],
+  "n": 1,
+  "ids": [
+   2292
+  ],
+  "known": [],
+  "records": [
+   {
+    "id": 2292,
+    "name": "BnF_fr3022_f44",
+    "holder": "Bibliothèque nationale de France, Français 3022, f.44-47",
+    "city": "Paris",
+    "date": "1528-04-11",
+    "author": "",
+    "sender": "",
+    "receiver": "probably Venetian government",
+    "origin": "Madrid, Spain",
+    "clear": "Italian",
+    "plain": "probably Italian",
+    "pages": "6",
+    "status": "Non-decrypted",
+    "cipher_types": "unknown",
+    "symbols": "",
+    "cipher_other": "Probably code with initial of represented word",
+    "symbol_other": "Alphabetical letter with superscript figure",
+    "access": "login",
+    "info": "F.96-102 contains a key (only addenda and jargon). For similar ciphers, see S.Tomokiyo, \"Venetian Ciphers with Superscripts\" at http://cryptiana.web.fc2.com/code/venetian.htm"
+   }
+  ],
+  "decode_keys": [],
+  "decode_keys_total": 0
+ }
+]
