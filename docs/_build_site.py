@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260918b'
+VERSION = '20260919a'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
