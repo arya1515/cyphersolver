@@ -4,6 +4,12 @@ Historical cipher targets, one folder per target with a `NOTES.md`, and a GitHub
 The layout, the build scripts and the reading conventions are in `README.md` (Repository layout, The website,
 Conventions). Read them before touching `docs/`.
 
+## Shared assets
+
+Language models live in `lang/` (`lang/README.md`): a corpus registry, a model registry and one n-gram engine, e.g.
+`from lang import lm; lm.load('fr-1600-letters')`. Use one of its models, or add a corpus/model there, rather than
+writing a new `<target>/lm.py`. `lm.best_language(text)` is a quick language check on a decrypt.
+
 ## A target is finished only when it is written up
 
 Finishing a cipher (read, read in part, explained, found already solved, or attempted and closed from the
