@@ -58,14 +58,13 @@ before 1497 that is a text cipher. The candidates below are what is left.
 - Salas dates the content 1413-1416 (Ferdinand I); "ca. 1420" is his palaeographic guess. DECODE cites the
   article yet still lists the record as non-decrypted.
 
-### A4. Heidelberg, Cod. Pal. germ. 597, "Alchymey teuczsch", East Bavaria 1426, ff. 70–71
-- DECODE R2876 "Non-decrypted"; free images at https://digi.ub.uni-heidelberg.de/diglit/cpg597 (scripted fetch
-  blocked; use the browser or the IIIF manifest). Handschriftencensus 10300: cipher passages on ff. 70–71, the
-  compiler's own crossed-out alphabet on f. 1r ("…das man nicht sul verstehen das es ein alfabet sei"), cover-names
-  on f. 5v. Bischoff 1954 lists it among non-diplomatic secret scripts.
-- Almost certainly a short monoalphabetic German recipe cipher with its key on f. 1r: high feasibility, low
-  difficulty, and check Bischoff and the 2014 Kalning–Miller–Zimmermann catalogue for a prior reading first.
-- If read: **1426**, but a German alchemical text, not diplomacy.
+### A4. Heidelberg, Cod. Pal. germ. 597, "Alchymey teuczsch", East Bavaria 1426 — RULED OUT (read 1869)
+- Checked 2026-09-18, see `heidelberg597/NOTES.md` and the write-up (heidelberg597.html). Wattenbach broke the
+  sign alphabets in 1869 (Anzeiger NF 16, cols. 264-268, facsimiles and plaintexts of ff. 1r, 5v, 6v); Eis
+  1957/1982 printed extracts; the 2014 Heidelberg catalogue (pp. 257-260) gives its cipher quotations resolved.
+  DECODE R2876 "Non-decrypted" is stale. "ff. 70-71" was Bischoff's 1954 item numbering, not folios.
+- The struck alphabets on f. 1r and f. 91v/6v were recovered and checked against the printed plaintexts. What
+  remains is a transcription of the recipe leaves, of philological value only.
 
 ## Tier B: solid reads that would beat 1497 but not 1449
 
@@ -131,7 +130,7 @@ embassy at Buda, 1489–92
 2. ~~A2~~ ruled out (1524, Sessa; see above). It stays worth reading as an ordinary 1520s target.
 3. ~~A3 (1420)~~ ruled out 2026-09-18: Salas read it in 1931 (see above).
 4. **B3** (1489–92) in parallel as the sure thing: Somogyi's key plus sibling decipherments.
-5. **A4** and **B1** as quick checks (a day each).
+5. **B1** as a quick check (A4 is ruled out: read by Wattenbach 1869).
 
 ## Access notes
 - DECODE public records serve full-resolution images without login at

@@ -135,6 +135,12 @@ Ordered by how much this repo added.
 
 1. **ADFGVX, Eastern Front 1918.** The 2017 thread consolidated, Lasry's sixteenth key rebuilt, Biermann's
    method reimplemented and re-deriving seven pages blind; the ten open messages shown to be garbles.
+2. **Alchymey teuczsch, Heidelberg Cod. Pal. germ. 597, 1426.** Read by Wattenbach in 1869. The compiler's struck
+   24-sign alphabet (f. 1r) and the invocation alphabet (ff. 6v, 91v) recovered from the images and checked on his
+   plaintexts; a third set fixed for eleven letters from the 2014 catalogue's reading of f. 93r; the "ff. 70–71"
+   pointer shown to be Bischoff's item numbers. Ruled out as a record candidate.
+3. **Letter to the King of Aragon, ACA Reserva 12, [1413–16].** Printed by Salas in 1931; the column-transposition
+   rule checked on the archive's image.
 
 Perwich, the Feynman ciphers, Ferdinand III, Milroy, the Confederate dictionary code and Mazarin–Bordeaux 1654 were found
 solved by others with nothing added here and are no longer listed (removed 17 September 2026).

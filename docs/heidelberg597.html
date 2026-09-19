@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alchymey teuczsch, East Bavaria 1426 (Cod. Pal. germ. 597) — Read in 1869</title>
+<meta name="description" content="Heidelberg Cod. Pal. germ. 597, a German alchemical recipe book dated 1426 and listed on DECODE as non-decrypted, uses three home-made sign alphabets. Wilhelm Wattenbach broke them in 1869 and printed facsimiles with their plaintexts. The compiler&rsquo;s crossed-out alphabet on f. 1r and the invocation alphabet of f. 6v are recovered here from the images and checked against the printed readings; a third set is identified and partly fixed. The target was a candidate for the oldest cipher read by this project and is ruled out.">
+<link rel="stylesheet" href="style.css?v=20260918b">
+<meta name="date" content="2026-09-18">
+<meta name="last-modified" content="2026-09-18">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li><li><a href="soglia1848.html"><span class="st solved">read</span><b>Soglia 1848</b><span class="yr">1848</span></a></li><li><a href="legation.html"><span class="st partial">gaps read</span><b>Erving &amp; Adams</b><span class="yr">1807&ndash;12</span></a></li><li><a href="yard1699.html"><span class="st solved">read</span><b>Yard 1699</b><span class="yr">1699</span></a></li><li><a href="bordeaux1653.html"><span class="st solved">read</span><b>Bordeaux 1653</b><span class="yr">1653</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">27</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">10</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">11</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">5</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 54 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="cipherstrip">▪ o 2 ∴ ⊡ 8 Y ˥ : ɓ 4 &hellip; &nbsp;= a b c d e f g h i k l &hellip;<br>vnd ich ˥ ▪ o ⊡ ● &nbsp;= vnd ich hab es<br>ϙ : ɓ 4 ▪ ● &nbsp;= niklas</div>
+  <p class="kicker">East Bavaria, near Passau · home-made sign alphabets · 1426 · found already read</p>
+  <h1>Alchymey teuczsch: the ciphers of an alchemists&rsquo; notebook, 1426</h1>
+  <p class="sub">Heidelberg, Universit&auml;tsbibliothek, Cod. Pal. germ. 597 &middot; paper, 95 leaves, Bavarian German &middot; DECODE R2876, &ldquo;non-decrypted&rdquo;</p>
+  <p class="sub">A circle of gold-makers wrote their recipes in German and hid the substance names in signs of their own. The compiler put the key on the first leaf and struck it through. Wilhelm Wattenbach read it in 1869. The alphabets are recovered here from the images and checked against his plaintexts; nothing here was deciphered that was not already in print.</p>
+  <p class="meta">Daniel Bourdeau &middot; resolved <time datetime="2026-09-18">18 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#book">The book</a><a href="#keya">The crossed-out alphabet on f. 1r</a><a href="#keyb">The second alphabet: the invocation on f. 6v</a><a href="#setc">The third set: boxes, stars and T</a><a href="#recipes">The recipes and the glossary</a><a href="#record">Why it was looked at</a><a href="#open">What remains open</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> The book came up as a candidate for the oldest cipher this project could read, on the strength of a DECODE record marked &ldquo;non-decrypted&rdquo; and a pointer to &ldquo;ff. 70&ndash;71&rdquo;. Neither holds. The &ldquo;70&ndash;71&rdquo; are Bernhard Bischoff&rsquo;s item numbers in his 1954 survey of secret scripts, not folios, and those leaves are blank. The ciphers were broken in 1869 by Wilhelm Wattenbach, who printed three facsimiles with their readings and called them easy. Gerhard Eis printed more in 1957 and 1982, and the 2014 Heidelberg catalogue gives its quotations from the cipher passages resolved. What was done here: every leaf was surveyed for cipher; the compiler&rsquo;s crossed-out alphabet on f.&nbsp;1r and the second alphabet on f.&nbsp;6v and f.&nbsp;91v were recovered and checked against the printed plaintexts; and a third sign set, the one on f.&nbsp;1r lines 1&ndash;2, ff.&nbsp;5v&ndash;6r, 44v and 93r, was identified and partly fixed.
+<em>Status: found already read. Open: a continuous transcription of the recipe passages, the f.&nbsp;6r glossary and f.&nbsp;44v has never been printed. It needs the doubtful signs of two keys settled first, and its value is for the history of alchemy, not for cryptography.</em>
+</div>
+
+<h2 id="book"><span class="num">01</span> The book</h2>
+<p>A small paper book, 22.5 by 15.5 cm, written in several Bavarian hands and dated on f.&nbsp;9r: <em>Das puch ist angehaben ym [tauro] xiiii und xxvj</em>, begun with the sun in Taurus, 1426. Most of the recipes are headed with the name of Niklas Jankowitz. Other names are Michael von Pirpach, over a list of lucky and unlucky days, and Michel Wulfing, over a fever charm. A note on f.&nbsp;94r records that on the Saturday of Easter week [14]23 &ldquo;we&rdquo; gave &ldquo;our multiplication&rdquo; to one Frydryce to work, weighed at four pounds less two lot. An address formula to Leonhard, bishop of Passau from 1424, places the circle. The book is sewn into an unexecuted 1413 charter of the Landgraves of Leuchtenberg, counts of Hals, taking the Jew Salman Teublin into their service and binding him to teach them three of his best arts.</p>
+<p>The cipher is not a letter but a working notebook&rsquo;s protection. Recipes are in clear German, and the substance names, quantities and some whole sentences are in signs. A survey of all 85 images, covers included, finds cipher on f.&nbsp;1r, ff.&nbsp;5v&ndash;7r, 9r&ndash;15v, 20r&ndash;22r, 44v, 46r&ndash;v, 54r&ndash;61r, 79ar, 91v and 93r.</p>
+
+<h2 id="keya"><span class="num">02</span> The crossed-out alphabet on f.&nbsp;1r</h2>
+<figure><img src="heidelberg597_lead.jpg" alt="Four struck lines of geometric signs; the third line is an unbroken run of about twenty-four signs followed by the clear words vnd ich" loading="lazy">
+<figcaption>Cod. Pal. germ. 597 f.&nbsp;1r. Lines 1&ndash;2 in the third sign set; line 3 the alphabet, run together, then <em>vnd ich</em> in clear and the signs for <em>hab es</em>; line 4 the rest of the sentence. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>Wattenbach read the leaf in 1869: <em>Das ist ein abc vnd das haben wir selbs neus gemacht, abcdefghiklmnopqrſstuwschch vnd ich hab es darum gar an ein ander gesetzt das man nicht sul versten das es ein alfabet sei</em> &mdash; &ldquo;This is an ABC that we made ourselves, new, and I have set it all together so that no one should understand that it is an alphabet.&rdquo; The alphabet is written without a break, and the whole leaf is struck through. Wattenbach thought the strike was there because the key was too easy to guess; it is still legible.</p>
+<p>With the strike line removed from the image, the run gives twenty-four signs in the order of the alphabet the text names:</p>
+<table>
+<tr><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th><th>i</th><th>k</th><th>l</th><th>m</th></tr>
+<tr><td>▪</td><td>o</td><td>2</td><td>∴</td><td>⊡</td><td>8</td><td>Y</td><td>˥</td><td>:</td><td>ɓ</td><td>4</td><td>ꝝ</td></tr>
+<tr><th>n</th><th>o</th><th>p</th><th>q</th><th>r</th><th>ſ</th><th>s</th><th>t</th><th>u</th><th>w</th><th>sch</th><th>ch</th></tr>
+<tr><td>ϙ</td><td>88</td><td>ꝗ</td><td>ꝁ</td><td>×</td><td>F</td><td>●</td><td>◒</td><td>•</td><td>T</td><td>⊙</td><td>♣</td></tr>
+</table>
+<p>The signs are rendered with the nearest typographic shape. Two checks in running text:</p>
+<ul>
+<li>Line 3 continues after the clear <em>vnd ich</em> with ˥&nbsp;▪&nbsp;o&nbsp;⊡&nbsp;●, which is <em>hab es</em>, as Wattenbach printed.</li>
+<li>The recipe heading on f.&nbsp;11r reads ϙ&nbsp;:&nbsp;ɓ&nbsp;4&nbsp;▪&nbsp;● &middot; Y&nbsp;▪&nbsp;ϙ&nbsp;ɓ&nbsp;?&nbsp;:&nbsp;2, <em>niklas gank?icz</em>, with one sign unread. A modern reader had already pencilled &ldquo;= Niklas Gankwiz&rdquo; beside it.</li>
+</ul>
+<figure><img src="heidelberg597_f11r.jpg" alt="A line of signs followed by a pencil note reading = Niklas Gankwiz" loading="lazy">
+<figcaption>f.&nbsp;11r, the name in the f.&nbsp;1r alphabet, with a modern pencil gloss. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>The first eleven values, a to l, are clear on the image, and a, b, c, e, g, h, i, k, l and s are checked in running text. The last thirteen are read from the shape of the signs under the heaviest part of the strike, and only a few of them have been met in running text; they are grade C.</p>
+
+<h2 id="keyb"><span class="num">03</span> The second alphabet: the invocation on f.&nbsp;6v</h2>
+<figure><img src="heidelberg597_f6v.jpg" alt="Three lines of signs made of strokes, loops and figures like 3, 8 and 9" loading="lazy">
+<figcaption>f.&nbsp;6v, the opening prayer in the second alphabet. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>Wattenbach printed f.&nbsp;6v with its reading: <em>In dem namen des faters vnd des suns vnd des heiligen geistes so fach ich schuldiger man dises buch an</em>, &ldquo;In the name of the Father and of the Son and of the Holy Ghost I, a guilty man, begin this book.&rdquo; Segmenting the three lines and laying them against the text gives nineteen values: : i, a hooked Y n, 3 d, a trefoil on a stem e, Ω with an inner triangle m, a stroke a, a tall stroke medial s, a blob final s, a ring with a tail f, a T with a wavy top r, a ring with a dot h, T l, a looped stem g, two loops on a stem t, a ring with a 3-tail sch, an 8 with an inner loop b, a c joined to a 2 for ch, 9 o, and a cup with a 3 for the <em>u</em> of <em>vnd</em>. Every word of the prayer reads with them.</p>
+<figure><img src="heidelberg597_f91v.jpg" alt="A struck line of stroke-and-figure signs between ruled columns" loading="lazy">
+<figcaption>f.&nbsp;91v, the second alphabet written out in order and struck through. Its opening signs agree with the values from f.&nbsp;6v. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>The same set is written out in alphabetical order on f.&nbsp;91v and crossed out, like the first. Wattenbach did not reproduce that leaf, and the catalogue notes it only as an alphabet.</p>
+
+<h2 id="setc"><span class="num">04</span> The third set: boxes, stars and T</h2>
+<figure><img src="heidelberg597_f5v.jpg" alt="Six lines of German with runs of boxed signs, dotted boxes, stars and T-shapes" loading="lazy">
+<figcaption>f.&nbsp;5v, the preface to the glossary of cover-names, clear German with runs of the third set. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>Wattenbach wrote that f.&nbsp;1r uses &ldquo;two different systems&rdquo;. Lines 1&ndash;2 of that leaf are in a third set built from boxes with and without dots, stars and T-shapes, which also carries the preface and glossary on ff.&nbsp;5v&ndash;6r and the notes on ff.&nbsp;44v and 93r. Two printed readings fix part of it:</p>
+<ul>
+<li>f.&nbsp;1r line 1, <em>Das ist ein abc</em>: Das [✱&nbsp;中&nbsp;⊡̈] [⊡&nbsp;✱&nbsp;T] [▪&nbsp;o&nbsp;2].</li>
+<li>f.&nbsp;93r, read in the 2014 catalogue as <em>Nota wir haben versucht das [in dem caichen] der [iuncfrawn]</em>, &ldquo;we have tried it in the sign of the Virgin&rdquo;: [✱&nbsp;T] [∴&nbsp;⊡&nbsp;■] [2&nbsp;▪&nbsp;✱&nbsp;2&nbsp;⊏&nbsp;⊡&nbsp;T].</li>
+</ul>
+<figure><img src="heidelberg597_f93r.jpg" alt="Two lines: Nota wir haben versucht das, then signs; a second line of signs" loading="lazy">
+<figcaption>f.&nbsp;93r, the Virgo note. Universit&auml;tsbibliothek Heidelberg.</figcaption></figure>
+<p>Together they give ▪ a, o b, 2 c, ∴ d, ⊡ e, ⊏ h, ✱ i, T n, a filled box m, a box on a stem s and a box with two dots t. The a, b, c, d and e are the signs of the f.&nbsp;1r alphabet. The i and n are not, and T, which is <em>w</em> in the f.&nbsp;1r alphabet, is <em>n</em> here. The s and t rest on one word each. The glossary on f.&nbsp;6r uses further dotted-box variants and has not been read.</p>
+
+<h2 id="recipes"><span class="num">05</span> The recipes and the glossary</h2>
+<p>The glossary on f.&nbsp;5v was printed by Wattenbach in its resolved form: aqua fortis is called &ldquo;the sharp water&rdquo;, sal ammoniac &ldquo;sal&rdquo;, its oil &ldquo;Nyczadar&rdquo;, common salt &ldquo;sal aller&rdquo;, gold &ldquo;the yellow earth&rdquo;, silver &ldquo;the white earth&rdquo;, green oil &ldquo;vitriol&rdquo;. The cover-names were meant to spare the writers from enciphering every substance, and the recipes still mix them with signs.</p>
+<p>In the recipes (ff.&nbsp;7r&ndash;22r, 46r&ndash;v, 54r&ndash;61r), the signs are mostly those of the f.&nbsp;1r alphabet, as the name on f.&nbsp;11r shows, with admixtures from the others; Bischoff noted that the sets are also used mixed. The runs are short, from one to a few words, and recur: the most frequent group appears about a dozen times on ff.&nbsp;10v&ndash;15r. f.&nbsp;79ar holds a struck table of sign groups, each over a pair of signs, which looks like a list of substances with their symbols.</p>
+
+<h2 id="record"><span class="num">06</span> Why it was looked at</h2>
+<p>The project&rsquo;s oldest read cipher is from 1497, and a list of earlier candidates was drawn up to try to beat it. This book was on it at 1426 for three reasons: DECODE lists it as non-decrypted, with 85 images; the Handschriftencensus entry cites Bischoff for &ldquo;S.&nbsp;12 (Nr.&nbsp;70&ndash;71)&rdquo;, which was read as cipher on ff.&nbsp;70&ndash;71; and the key was said to be on f.&nbsp;1r. The first check on any target is for a prior reading. Wattenbach&rsquo;s 1869 note, with its facsimiles of f.&nbsp;1r, f.&nbsp;5v and f.&nbsp;6v and their plaintexts, settles it. The book is ruled out as a record candidate.</p>
+
+<h2 id="open"><span class="num">07</span> What remains open</h2>
+<ul>
+<li>A continuous transcription of the enciphered recipe passages, f.&nbsp;9r lines 7&ndash;12, the f.&nbsp;6r glossary and f.&nbsp;44v. Eis printed extracts only.</li>
+<li>The last thirteen signs of the f.&nbsp;1r alphabet (m to ch), grade C until they are met in running text.</li>
+<li>One sign of the name on f.&nbsp;11r (<em>o</em> or <em>w</em>).</li>
+<li>The third set beyond the eleven letters fixed above, and the table on f.&nbsp;79ar.</li>
+</ul>
+
+<h2 id="sources"><span class="num">08</span> Sources</h2>
+<ul>
+<li>Heidelberg, Universit&auml;tsbibliothek, Cod. Pal. germ. 597, <a href="https://digi.ub.uni-heidelberg.de/diglit/cpg597" rel="noopener">digital facsimile</a> (Public Domain Mark). DECODE record <a href="https://de-crypt.org/decrypt-web/RecordsView/2876" rel="noopener">R2876</a>.</li>
+<li>Wilhelm Wattenbach, &ldquo;Alchymey teuczsch&rdquo;, <em>Anzeiger f&uuml;r Kunde der deutschen Vorzeit</em> NF 16 (1869), cols. 264&ndash;268, with facsimiles of f.&nbsp;1r, f.&nbsp;5v and f.&nbsp;6v. <a href="https://archive.org/details/anzeigerfurkunde16germ" rel="noopener">Internet Archive</a>.</li>
+<li>Bernhard Bischoff, &ldquo;&Uuml;bersicht &uuml;ber die nichtdiplomatischen Geheimschriften des Mittelalters&rdquo;, <em>MI&Ouml;G</em> 62 (1954), pp. 1&ndash;27, items 70&ndash;71. <a href="https://www.mgh-bibliothek.de/dokumente/b/b023446.pdf" rel="noopener">MGH library PDF</a>.</li>
+<li>Gerhard Eis, &ldquo;Alchymey teuczsch&rdquo;, <em>Ostbairische Grenzmarken</em> 1 (1957), pp. 11&ndash;16; reprinted in <em>Medizinische Fachprosa des sp&auml;ten Mittelalters und der fr&uuml;hen Neuzeit</em> (Amsterdam, 1982), pp. 307&ndash;315.</li>
+<li>Pamela Kalning, Matthias Miller and Karin Zimmermann, <em>Die Codices Palatini germanici in der Universit&auml;tsbibliothek Heidelberg (Cod. Pal. germ. 496&ndash;670)</em> (Wiesbaden, 2014), pp. 257&ndash;260. <a href="https://digi.ub.uni-heidelberg.de/diglit/miller2014" rel="noopener">Digitised</a>.</li>
+<li><a href="https://handschriftencensus.de/10300" rel="noopener">Handschriftencensus 10300</a>.</li>
+</ul>
+<p class="muted">Notes, key tables and the segmentation scripts are in the repository (<code>heidelberg597/</code>); the page images are not committed. The readings of f.&nbsp;1r, f.&nbsp;5v and f.&nbsp;6v are Wattenbach&rsquo;s, and that of f.&nbsp;93r the Heidelberg catalogue&rsquo;s. The recovery of the sign values from the images is this project&rsquo;s.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript images: Universit&auml;tsbibliothek Heidelberg, Public Domain Mark</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="voynich.html" rel="prev">&larr; Voynich c.1420</a><a href="esp318.html" rel="next">Espagnol 318 1497&ndash;1504 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260918b"></script>
+</body>
+</html>

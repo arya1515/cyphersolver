@@ -4,6 +4,7 @@
   "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
+  "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "berthier to napoleon, 1812": "2026-09-15",
@@ -164,6 +165,11 @@
    "hash": "d747fd5c84cc",
    "updated": "2026-09-18"
   },
+  "heidelberg597": {
+   "first": "2026-09-18",
+   "hash": "48757d408cd2",
+   "updated": "2026-09-18"
+  },
   "herbault1626": {
    "first": "2026-09-18",
    "hash": "3896075f49c1",
@@ -186,7 +192,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3f2d78083095",
+   "hash": "dcc0f3c709f3",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -346,7 +352,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1f21c8ce83c7",
+   "hash": "351b8b606ca1",
    "updated": "2026-09-18"
   },
   "yard1699": {

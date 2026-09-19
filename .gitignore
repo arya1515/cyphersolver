@@ -579,3 +579,10 @@ lorraine1592/src/*.htm
 lorraine1592/src/mont_*.txt
 lorraine1592/src/corpus_fr.txt
 lorraine1592/src/*.xml
+heidelberg597/img/
+heidelberg597/crops/
+heidelberg597/*.jpg
+heidelberg597/*.pdf
+heidelberg597/*.json
+heidelberg597/*.txt
+heidelberg597/hsc.html
