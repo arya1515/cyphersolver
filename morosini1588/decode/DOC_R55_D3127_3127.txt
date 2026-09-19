@@ -1,0 +1,90 @@
+#KEY: reconstructed
+#CATALOG NAME: ASV - F22
+#LANGUAGE: IT
+#TRANSCRIBER NAME: George Lasry
+Exception in thread "main" java.lang.NullPointerException
+	at Profile.combinedMessage(Profile.java:206)
+	at Main.main(Main.java:54)
+#DATE OF TRANSCRIPTION: October 24, 2020
+#STATUS: Reconstructed
+#ORIGIN-CITY: Rome
+#ORIGIN-COUNTRY: Italy - The Vatican
+#DATE: 1585-01-01 - 1589-12-31
+
+<NOTE ED Variable length, not deterministic.>
+<NOTE ED Regular elements - 1 digit, 2 digits, or 3 digits.>
+<NOTE ED Nomenclature elements - 3 digits, dot on middle one.>
+<NOTE ED Key here is incomplete - full key in Meister P 393 (n. 40).>
+
+8|(80-89) - <NULL>
+
+2|21|212 - a
+72 - acchioche
+67 - accio
+92 - ancora
+93 - ancorche
+24|42 - b
+94 - benche
+25|52 - c
+56 - che
+63 - chi
+79 - come
+22 - cr
+26|62 - d
+153|35|5 - e
+03|30 - f
+23 - fr
+04|40 - g
+59 - gr
+14|41 - h
+17|171|7 - i
+06|60 - k
+05|50 - l
+27 - lt
+02|20 - m
+29 - mp
+0|01|10 - n
+61|71 - non
+77 - nondimeno
+31 - nt
+32 - ntr
+191|9|91 - o
+07|70 - p
+64 - per
+65 - perche
+66 - perioche
+33 - pr
+09|90 - qu
+95 - qua
+96 - que
+97 - qui
+00|1|13 - r
+4|45|54 - s
+34 - sc
+36 - scr
+57 - sf
+39 - sfr
+42+ - sg
+43 - sgr
+44 - sp
+46 - spr
+47 - st
+49 - str
+15|51|6 - t
+49+ - tr
+173|3|37 - u
+11 - x
+12 - z
+
+11^.1 - Il Papa
+11^.3 - Re di Francia|M-ta Chist-ma
+11^.6 - La Regina Madre
+12^.5 - Gran Turco
+12^.9 - Duca di
+16^.1 - quanti
+16^.3 - quantunque
+16^.5 - quelli
+16^.6 - questi
+16^.7 - V.S. Illma
+22^.1 - Lettere
+22^.7 - Heretici

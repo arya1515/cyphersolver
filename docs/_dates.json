@@ -14,6 +14,7 @@
   "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
   "bordeaux to brienne, 1653": "2026-09-16",
   "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
+  "cardinal morosini, legate in france, to cardinal montalto, 1588–89": "2026-09-19",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
@@ -127,7 +128,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "1d6747ecc325",
+   "hash": "e27e97f13ccb",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -217,7 +218,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "42ca9d23a741",
+   "hash": "fde829cb8450",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -264,6 +265,11 @@
    "first": "2026-09-17",
    "hash": "30ad92dfe08a",
    "updated": "2026-09-17"
+  },
+  "morosini1588": {
+   "first": "2026-09-19",
+   "hash": "dc008598856a",
+   "updated": "2026-09-19"
   },
   "nevers1593": {
    "first": "2026-09-17",
@@ -412,7 +418,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d93c1f6ae782",
+   "hash": "b4ce726a652b",
    "updated": "2026-09-19"
   },
   "yard1699": {

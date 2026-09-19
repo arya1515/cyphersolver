@@ -92,6 +92,7 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p26 | **Nicolò Sadoleto → Ercole I d'Este**, Pozsony, 16 July 1482, ASMo Ambasciatori Ungheria b. 1/9 no. 8 (DECODE R1102) | 1482 | 2 | 4 | 4 | 3 | 1 | 3 | **3.00** | Alphabet rebuilt from two sibling letters with contemporary clear copies, so D 2. The seven lines had no decipherment and carry real news: the Venetian counter-offer to Matthias at the start of the War of Ferrara (Veglia, a fleet command for János Corvin, 100,000 a year), the same sum Sadoleto later quotes as Matthias's price. Read in gist only, with a nomenclator group and a dozen signs open, so R 3; two of the four catalogue items were read at the time |
 | p27 | **Marqués del Carpio (Rome) → Baltasar de Fuenmayor**, 1677, AGR Brussels SEG 2559 (DECODE R1002–R1011) | 1677 | 2 | 3 | 3 | 3 | 1 | 4 | **2.55** | The key was rebuilt from the cipher, but eight letters had marginal decipherments to align against, so D is 2. Two letters were catalogued as unread, though each proved to carry a faint margin, and no key had been published, so N is 3. Content: the Spanish ambassador's quarrel with Innocent XI, and the 1677 campaign seen from Rome (Messina, Charleroi, Freiburg, d'Estrées at Turin). V 4: the whole file reads, with three code words conjectural |
 | p28 | **Unknown writer → "Monsieur"**, 17th c., TNA SP 106/10 ff. 241–243 (DECODE R927) | 17th c. | 4 | 4 | 1 | 2 | 1 | 3 | **2.80** | D 4: no key, no crib, no clear sibling; the pencil key on the flap was a false lead, and the homophonic system was recovered from a hand transcription by quadgram annealing. N 4: catalogued as undeciphered. H 1: a private client-to-patron letter, unnamed. R 2: writer and date unknown. V 3: last page nearly throughout, first page in fragments |
+| p29 | **Cardinal Gian Francesco Morosini → Cardinal Montalto**, Blois–Moulins, 1588–89, AAV Segr. Stato Francia 22 (DECODE R18–R58) | 1588–89 | 1 | 5 | 4 | 3 | 1 | 4 | **3.10** | D 1: Meister printed the key in 1906; the only obstacle was cutting unseparated 1–3 digit homophones, done by a language-model beam search. H 5: the papal legate's own account of Blois, the Guise murders and the League's crisis. N 4: DECODE lists the file as partially decrypted and no plaintext or edition exists. R 3: 36 records sorted out of a mixed run, two keys. V 4: 34 of 36 read end to end, letter slips and a few dotted codes open |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
@@ -105,7 +106,8 @@ p26 0.50 + 1.00 + 0.80 + 0.30 + 0.10 + 0.30;
 p22 0.75 + 0.75 + 0.80 + 0.40 + 0.10 + 0.30; p23 0.50 + 0.50 + 0.80 + 0.50 + 0.10 + 0.30;
 p24 0.25 + 1.00 + 0.80 + 0.40 + 0.10 + 0.40;
 p27 0.50 + 0.75 + 0.60 + 0.30 + 0.10 + 0.40;
-p28 1.00 + 1.00 + 0.20 + 0.20 + 0.10 + 0.30.
+p28 1.00 + 1.00 + 0.20 + 0.20 + 0.10 + 0.30;
+p29 0.25 + 1.25 + 0.80 + 0.30 + 0.10 + 0.40.
 
 ## By single axis
 
