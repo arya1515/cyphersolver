@@ -81,7 +81,7 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
 - `docs/index.html`: a new `<li>` at the top of the first `<ul class="findings">` under Recent findings:
   `<li><b>Who to whom, date</b> &mdash; <span class="fnd">outcome in one line</span> … <a href="<slug>.html">write-up</a></li>`.
   The builder dates it and folds the list.
-- `docs/solved.html` (solved and partly read only): a `<tr>` in the right table, then recount the sentences in
+- `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in
   "The short version" (items, read in full, in long stretches, to a solver, to a sibling or key).
 
 ## 4. Build, check, commit

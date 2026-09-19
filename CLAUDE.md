@@ -11,7 +11,7 @@ evidence) is the first half of the job. The second half is the write-up, and it 
 
 1. Run the `/writeup <folder>` skill (`.claude/skills/writeup/SKILL.md`). It lists every surface a result must
    reach: the `docs/<slug>.html` page, the `PAGES` and `IMAGES` manifest in `docs/_build_site.py`, the README
-   results row with its write-up link, the Recent findings line on `docs/index.html`, the `docs/solved.html` row,
+   results row with its write-up link, the Recent findings line on `docs/index.html`, the `unpublished/solved.html` row (optional while unpublished),
    `SOLVED_CATALOGUE.md`, `SOLVED_RANKING.md`, `TARGETS.md`, `catalogue.json`, and the rebuild.
 2. `python docs/_check_writeup.py <slug>` must print `result: complete` before the work is reported as done.
 3. `python docs/_check_writeup.py --audit` lists finished targets that never got a write-up. The SessionStart hook
