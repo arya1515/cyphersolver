@@ -447,10 +447,10 @@
    "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 198",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1955: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Rhis letter to the Prussian resident in London was intercepted in The Hague. 19 Sept 2026: viewed. Opens in clear \"Toutes vos dépêches m'ont été bien rendues et la dernière est du 14e de ce mois\", then a numerical code with half-groups (1½, 150½, 660½), unlike its sibling R1957, which was identified here as the King's immediate letter printed in Politische Correspondenz 8 no. 5263 (see michell1751/). This is the ministerial letter of the same day; ministerial rescripts are not in the Politische Correspondenz, so no printed text is known.",
+   "status": "DECODE R1955: Non-decrypted, 2 pp., nomenclator, numerical. 19 Sept 2026: transcribed in full (michell1751/transcription_r1955.txt). Heading \"Lettre du Roi de Prusse au Secrétaire Michell du 28 Decemb. 1751\", clear opening \"Toutes vos dépêches m'ont été bien rendues et la dernière est du 14e de ce mois\", 362 code groups (2 to 5346, with half-groups 1½, 10½, 40½, 150½, 180½, 660½), dated and signed Féderic. Only one letter of this date to Michell is in Politische Correspondenz 8 (no. 5263 = R1957), so this is the ministerial rescript and has no printed text. 295 of the 362 groups are distinct and the commonest occurs 5 times: a large two-part homophonic code, not breakable from this letter alone. It would need the Prussian ministerial code of 1751 (GStA), Lyonet's Dutch decipherments, or British decyphers of Michell's mail.",
    "why": "Ciphered letter of King Frederick II (the Great) of Prussia (1712-1786) to Louis Michell (1712-1786), Prussian resident in London, 28 Dec 1751; what the cipher hides is not known.",
    "importance": 3,
-   "solvability": 2,
+   "solvability": 1,
    "difficulty": 5,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
    "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
@@ -466,6 +466,7 @@
    "decode_ids": [
     1955
    ],
+   "outcome": "attempted, open",
    "scored": "rule"
   },
   {

@@ -71,3 +71,21 @@ ministerial one (R1955) and this immediate one, both intercepted and copied in T
   images git-ignored.
 - *Politische Correspondenz Friedrich's des Grossen*, Bd. 8 (1882), no. 5263, pp. 576–577:
   https://archive.org/details/politischecorres08freduoft
+
+## R1955, the other letter of 28 December 1751: attempted, open
+
+Worked 19 Sept 2026 (catalogue entry for DECODE R1955). Transcribed in full in `transcription_r1955.txt`.
+
+- The Dutch copy is headed *Lettre du Roi de Prusse au Secrétaire Michell du 28 Decemb. 1751* and signed *Féderic*, but
+  the *Politische Correspondenz* prints only one letter to Michell of that date (no. 5263 = R1957). This one is the
+  ministerial rescript, issued in the King's name and not printed.
+- The clear opening is *Toutes vos dépêches m'ont été bien rendues et la dernière est du 14e de ce mois*. Then come 362
+  code groups (2 to 5346, most under 3600, with half-groups 1½, 10½, 40½, 150½, 180½, 660½) and the date.
+- It shares no code with R1957: only 19 of their distinct groups coincide, and those are chance collisions.
+- 295 of the 362 groups are distinct, and the commonest (2, 230) occurs 5 times. That is a large two-part code with
+  homophones even for *de* and *que*, so ciphertext-only analysis has nothing to work with. The pair 1487 50 recurs 3×.
+- No printed or online decipherment was found. What could open it: the Prussian ministerial code of 1751 (GStA PK, I. HA
+  Rep. 96 / Rep. 9 Chiffres), Pierre Lyonet's decipherments for the States General (see K. de Leeuw, *Diplomacy &
+  Statecraft* 10, 1999), British decyphers of Michell's correspondence (BL Add MS Newcastle papers; TNA SP 107), or
+  other rescripts to Michell in the same code with known content. DECODE R1953 (von der Hellen to the King, 4 Jan 1752,
+  KHA inv. 196) is the nearest candidate for a sibling in the same ministerial code; not yet viewed.
