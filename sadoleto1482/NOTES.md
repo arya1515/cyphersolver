@@ -78,3 +78,18 @@ non lassasse pretermittere questa opportunità laquale mai più fo, né forse se
   repeats. Ercole's replies (Minute nos. 1–3, Vestigia 1252/1250/1251) may paraphrase the Venetian offer.
 - R1103: Vestigia 1294 is the same Ferrante copy; no second exemplar found. Only better imaging would help.
 - The 1479–80 Sadoleto–Naples key (ASMo Cifrario b. 4 fasc. 1, Cremonini n. 39) should be compared with this key.
+
+## The 1483 letters (b. 1/10, DECODE R1107–R1118), checked 19 Sep 2026
+Every one has a contemporary decipherment, so none is an unread target:
+| DECODE | no. | date | decipherment |
+|---|---|---|---|
+| R1107 | 4 | 11 Mar (to Ferrante) | 4a, 4b (Vestigia 1365, 4008) |
+| R1108 | 9a | 16 Mar | is itself the clear copy of no. 9 (Vestigia 1374) |
+| R1109 | 13 | 4 Apr (to Ferrante) | clear slips pasted over pp. 1–2 on the leaf ("cum questa conclusione…", "…se dice qua"; p. 2 "…ne voglio ponere os in coelum"); visible on the DECODE images, not on Vestigia's (slips lifted) |
+| R1110, R1111, R1117 | 15, 19a, 26 | | DECODE "Decrypted" (15a, 19a, 26a) |
+| R1112 / R1113 | 20 / 20a | 31 May | 20a (Vestigia 1393) is the clear copy |
+| R1114 | 21 | 7 Jun | 21a (Vestigia 1395) |
+| R1115 | 24a | 10 Aug | is itself the decipherment of no. 24 (Vestigia 1400) |
+| R1116 | 25 | Zagreb 3 Oct | clear slip at the foot ("Ma lo effecto e questo che nulla speranza…") keyed to the cipher |
+| R1118 | 27 | 30 Nov | clear slip at the foot keyed by a caret: "Ma com scripsi a V.S. no gli [s]panza questo accordo col turcho…"; checked against cipher l. 1 with the 1482 key ("…ma come scripsi a … non gli …") |
+The same key applies (verified on R1118). Outcome for the 1483 batch: found read at the time; nothing to add.

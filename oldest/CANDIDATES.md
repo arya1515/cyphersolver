@@ -80,6 +80,7 @@ Cesare Valentini, Pozsony 1486 (R1119, R1121); Beltrame Costabili, Esztergom 149
 - Italian, homophonic with nomenclator, 2–7 pp. each, "Partially decrypted"; sibling letters in the same buste are
   "Decrypted" (keys and cribs). Images in DECODE (login) and the Vestigia database (https://www.vestigia.hu).
 - If read: **1483**.
+- **Checked 19 Sept 2026 (`sadoleto1482/`): closed.** 1482: R1102 read in gist here; R1101, R1106 read at the time. 1483 (R1107–R1118): every letter has a contemporary decipherment (filed copies or clear slips pasted on the leaf). Valentini and Costabili not checked.
 
 ### B3. ASMi Carteggio Sforzesco, Potenze Estere, Ungheria b. 642/645/650: Maffeo da Treviglio and the Milanese
 embassy at Buda, 1489–92 — **READ, 19 September 2026** (see `buda1489/`, site page buda1489.html)
