@@ -103,3 +103,9 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   inside the cipher ("etiam apud", "Fidem", "Sed hoc non fallet divinam sapientiam").
   Second passes running on p2 ll. 21–32 and p3 ll. 15–28 with boxed strips (`seg/strips2/`), which are sharper
   than the stacked crops and keep the sign numbering.
+- 19 Sep 00:40: **the 22 Nov 1489 letter is read**: all four pages, `v2831_reading.md`. Page 4 carries only two
+  cipher lines, then a clear postscript with the date and Maffeo's signature. Gains of the second passes:
+  "octo di, o dece al piu", "del Turco", "la singulare observantia de questo Ser.mo Re", "non e da prestare fede",
+  "de insolente, intolerabile", "sopra la dote". Unidentified signs left: q^s+x̄ (a place-name nomenclator?),
+  ♀, a capital-E sign, a wavy null. Both agents found the glyph-box line assignment unreliable in the lower half
+  of pp. 2–3 — read from the plates directly next time.
