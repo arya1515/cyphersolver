@@ -1,0 +1,265 @@
+{
+ "schema_version": 1,
+ "target": "hm1645",
+ "title": "Henrietta Maria's household to Charles I, 1645-46, TNA SP 106/10 (DECODE R785, R787, R790, R923, R924, R929)",
+ "documents": [
+  {
+   "id": "R785",
+   "shelfmark": "TNA SP 106/10 ff. 213-215 (DECODE R785)",
+   "date": "1 Sept 1645",
+   "year": 1645,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  },
+  {
+   "id": "R787",
+   "shelfmark": "TNA SP 106/10 ff. 216-217 (DECODE R787)",
+   "date": "July-Aug 1645",
+   "year": 1645,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "French",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  },
+  {
+   "id": "R790",
+   "shelfmark": "TNA SP 106/10 ff. 230-232 (DECODE R790)",
+   "date": "22 Sept 1645",
+   "year": 1645,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  },
+  {
+   "id": "R923",
+   "shelfmark": "TNA SP 106/10 ff. 233-234 (DECODE R923)",
+   "date": "29 Sept 1645",
+   "year": 1645,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  },
+  {
+   "id": "R924",
+   "shelfmark": "TNA SP 106/10 ff. 235-236 (DECODE R924)",
+   "date": "Jan 1646",
+   "year": 1646,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  },
+  {
+   "id": "R929",
+   "shelfmark": "TNA SP 106/10 ff. 247 (DECODE R929)",
+   "date": "26 Jan 1646",
+   "year": 1646,
+   "country": "France",
+   "route": "Henrietta Maria's household (St Germain / Paris) to Charles I",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed keys and plaintexts uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by Sofia Pettersson, 2019",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Numerical homophonic alphabets (1-2 digit values, up to 5 homophones) with a nomenclator of 3-digit numbers, or letter+digit groups in the Jan 1646 key; four key periods per Lasry.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "unknown"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 5,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "random",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Same series as DECODE R752, R788, R789, R925, R928 (all read by Lasry)",
+  "notes": "Four keys: TNA SP 106, SP106-2, SP106-5, SP106-8."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "DECODE record files (Lasry, 2020-10-23)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "key application to DECODE transcription"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "Fetched the six DECODE record pages with the shared cookie; each links Lasry's reconstructed key and plaintext (2020-10-23) for the whole ff. 207-247 run.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "control",
+   "what": "Applied Lasry's SP106-5 alphabet to Pettersson's raw transcription of f. 247 (R929); reads English matching his plaintext.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms"
+  ],
+  "notes": "Nothing new; nomenclator numbers remain open in Lasry's plaintexts. Catalogue entries 54, 55, 59, 60 resolved."
+ }
+}
