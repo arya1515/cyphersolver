@@ -332,5 +332,262 @@
    "importance": 4,
    "cls": "B"
   }
+ },
+ {
+  "ids": [
+   9660,
+   9661,
+   9662,
+   9663,
+   9664,
+   9665,
+   9666
+  ],
+  "action": "patch",
+  "note": "Same writer as the sessa1524/ target (Luis Fernández, the Duke of Sessa's secretary in Rome), a year earlier: the Sessa key work there is the starting point.",
+  "patch": {
+   "cls": "B",
+   "solvability": 4
+  }
+ },
+ {
+  "ids": [
+   5019
+  ],
+  "action": "patch",
+  "note": "The key is DECODE R5017 and a copy of the first letter is R5020, so this is a direct reading, not cryptanalysis.",
+  "patch": {
+   "why": "The Emperor's own ciphered letters to Count Leopold Viktorin von Windischgrätz, one of his envoys, in the years of the Congress of Cambrai; one letter announces a new key.",
+   "importance": 3,
+   "solvability": 5,
+   "difficulty": 1,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Solvability 5 and difficulty 1 because the key is on DECODE; importance 3 because the content is unknown and probably routine instructions."
+  }
+ },
+ {
+  "ids": [
+   3811
+  ],
+  "action": "patch",
+  "note": "DECODE's uploader reconstructed the key (homophonic with bigram signs and nulls; Mírka, Západočeské archivy 2012) but uploaded no plaintext: the reading should follow once the key is applied across 106 pages.",
+  "patch": {
+   "why": "The imperial vice-chancellor Kurz von Senftenau reporting from Hamburg in 1638–39, where the preliminaries of the Westphalian peace were being negotiated with Sweden and France, to Trauttmansdorff, Schwarzenberg and Ferdinand III.",
+   "importance": 4,
+   "solvability": 4,
+   "difficulty": 2,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Importance 4 for the Hamburg peace talks; solvability 4 because the key exists but is not published in full."
+  }
+ },
+ {
+  "ids": [
+   9220
+  ],
+  "action": "patch",
+  "note": "The Calendar of State Papers, Foreign (1558–64) prints many of these despatches, often from deciphered copies, so the first check is whether CSP already gives the ciphered passages.",
+  "patch": {
+   "why": "Throckmorton's despatches from France, 1559–63: the Tumult of Amboise, Mary Stuart's return to Scotland, the First War of Religion and the English occupation of Le Havre.",
+   "importance": 4,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Importance 4; solvability 3 until CSP is checked."
+  }
+ },
+ {
+  "ids": [
+   1101
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "The Ferrarese ambassador at Matthias Corvinus's court during the War of Ferrara (1482–84), when Ercole I d'Este's survival against Venice hung on Hungarian and Neapolitan support.",
+   "importance": 4,
+   "solvability": 4,
+   "difficulty": 3,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Pre-1497: a reading would give the repo its oldest read cipher."
+  }
+ },
+ {
+  "ids": [
+   4233
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "Letters from Rome to the grand maître in 1536–37, the months of Charles V's triumphal entry into Rome, his challenge to François I before the pope, and the renewal of the war.",
+   "importance": 3,
+   "solvability": 4,
+   "difficulty": 2,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
+ },
+ {
+  "ids": [
+   9608
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "The imperial ambassador at Venice in 1522, reporting to Charles V while Venice was being brought out of the French alliance, the negotiation that ended in the treaty of July 1523.",
+   "importance": 4,
+   "solvability": 4,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Importance 4 for the Venetian realignment; Tomokiyo's reconstruction makes it B."
+  }
+ },
+ {
+  "ids": [
+   966
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "The Spanish envoy in London writing to Spain's ambassador at The Hague in 1676–77, as Charles II's government moved towards the Orange marriage and away from France during the Dutch War.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
+ },
+ {
+  "ids": [
+   785
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "The queen's household at Saint-Germain writing to Charles I in the last year of the first Civil War, when Henrietta Maria was seeking French, Irish and papal help.",
+   "importance": 4,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Importance 4 for the royalist negotiations of 1645–46."
+  }
+ },
+ {
+  "ids": [
+   9248
+  ],
+  "action": "patch",
+  "note": "The Calendar of State Papers, Foreign prints Smith's despatches; check it first.",
+  "patch": {
+   "why": "Sir Thomas Smith, Elizabeth's ambassador in France, 1562–64: the English at Le Havre, its loss, and the Treaty of Troyes.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "A",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
+ },
+ {
+  "ids": [
+   1128
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "A Ferrarese agent at Eger, the Hungarian see held by Ippolito d'Este, writing to Ferrara in 1519–21 on Hungarian affairs on the eve of Mohács.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
+ },
+ {
+  "ids": [
+   1156
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "King Matthias Corvinus himself writing to Ercole I d'Este in June 1482, in the War of Ferrara and in his own war with Frederick III.",
+   "importance": 4,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Pre-1497: an oldest-cipher candidate with only one page of text."
+  }
+ },
+ {
+  "ids": [
+   1140
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "Queen Beatrice of Hungary, Ercole I d'Este's sister-in-law, writing to her sister Eleonora and her nephew Ippolito, from 1482 onwards.",
+   "importance": 4,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Pre-1497 in part: DECODE dates the group 1482–1504, check which letters are before 1497."
+  }
+ },
+ {
+  "ids": [
+   18
+  ],
+  "action": "patch",
+  "note": "No Acta Nuntiaturae Gallicae volume for Morosini (nuncio 1587–89) was found in a quick search; the decifrati may still be in the busta.",
+  "patch": {
+   "why": "The nuncio in France reporting to Rome in 1588–89: the Day of the Barricades, the Estates of Blois, the murder of the Guises and of Henri III.",
+   "importance": 5,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Importance 5: a principal witness of the League's crisis; solvability 3 because the decifrati have not been looked for."
+  }
+ },
+ {
+  "ids": [
+   93
+  ],
+  "action": "patch",
+  "note": "Serrano, Correspondencia diplomática entre España y la Santa Sede durante el pontificado de S. Pío V (1914), prints this correspondence for 1567–68 (HathiTrust): check whether it gives these letters before attacking.",
+  "patch": {
+   "why": "Pius V's cardinal-nephew writing to the nuncio in Spain in 1568, the year of Don Carlos's arrest and death and of the Morisco rising.",
+   "importance": 4,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
+ },
+ {
+  "ids": [
+   62
+  ],
+  "action": "patch",
+  "note": "",
+  "patch": {
+   "why": "The nuncio in Paris in 1625 on the Valtelline war, when French troops had driven the papal garrisons out of the valley.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "cls": "B",
+   "scored": "reviewed",
+   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed."
+  }
  }
 ]

@@ -22,16 +22,34 @@
  },
  {
   "decode_ids": [
+   9668,
+   9669,
+   9675,
+   9684,
+   9685,
+   9686,
+   9687,
+   9688,
+   9692,
+   9694,
+   9764,
+   9765,
+   9771,
+   9772,
+   9775,
+   9787,
+   9833,
+   9835,
+   9837,
+   9838,
+   9839,
+   9840,
+   9842,
+   9843,
    9876,
    9885,
    9886,
-   9887
-  ],
-  "reason": "RAH 9/31 and 9/34, Luis Fernández (Rome): the Sessa 1524 series, already a repo target (sessa1524/).",
-  "batch": "4"
- },
- {
-  "decode_ids": [
+   9887,
    9896,
    9899,
    9900,
@@ -89,6 +107,7 @@
  },
  {
   "decode_ids": [
+   3698,
    4226,
    4227
   ],
@@ -106,13 +125,6 @@
  {
   "decode_ids": [
    3694
-  ],
-  "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
-  "batch": "5"
- },
- {
-  "decode_ids": [
-   3698
   ],
   "reason": "Gramont, Mâcon and Langeac letters in fr. 3040, 3071, 3083, 3091: catalogue no. 6, read (gramont1529/).",
   "batch": "5"
@@ -164,15 +176,9 @@
  },
  {
   "decode_ids": [
+   2293,
    2294,
    2295
-  ],
-  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (superscript/, vasto1527/).",
-  "batch": "5"
- },
- {
-  "decode_ids": [
-   2293
   ],
   "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (superscript/, vasto1527/).",
   "batch": "5"

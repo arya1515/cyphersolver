@@ -70,8 +70,15 @@ def period(y):
     return "unknown"
 
 
+DISPLAY = [("Thorkmorton", "Throckmorton"), ("Cecill", "Cecil"), ("Vespanian", "Vespasian"), ("ambassor", "ambassador"),
+           ("unkwown", "unknown"), ("Constantinopel", "Constantinople")]
+
+
 def ent(s):
-    return re.sub(r"&[lr]squot;|&[lr]squo;", "'", s or "").replace("&amp;", "&")
+    s = re.sub(r"&[lr]squot;|&[lr]squo;", "'", s or "").replace("&amp;", "&")
+    for x, y in DISPLAY:
+        s = s.replace(x, y)
+    return s
 
 
 def clean(s):
@@ -85,6 +92,16 @@ def score(g):
     li = info.lower()
     author = clean(g["key"][2]) or clean(rs[0]["sender"])
     recv = clean(g["key"][3])
+    authors = {clean(r["author"]) for r in rs if clean(r["author"])}
+    if len(authors) > 1:            # a merged series: name the sender once, without co-signers or descriptors
+        author = min(authors, key=len).split(",")[0].rstrip("? ")
+    recvs = []
+    for r in rs:
+        x = clean(r["receiver"]).split(",")[0].rstrip("? ")
+        if x and x not in recvs:
+            recvs.append(x)
+    if len(recvs) > 1:
+        recv = " / ".join(recvs[:3]) + (" and others" if len(recvs) > 3 else "")
     origin = next((r["origin"] for r in rs if r["origin"]), "")
     city = g["key"][0]
     dates = [fmt_date(r["date"]) for r in sorted(rs, key=lambda r: r["date"] or "9999") if fmt_date(r["date"])[0]]
@@ -108,14 +125,18 @@ def score(g):
     cited_key = bool(re.search(r"for the key to the cipher see|key attached|contains a key|reconstructed key|"
                                r"including the key to this cipher|the key was reconstructed", li))
     on_leaf = bool(re.search(r"deciphered within the letter|decipherments within the letter|solution is written in "
-                             r"the margin|deciphered in the original|with cipher and decryption|interlinear decipherment|"
+                             r"the margin|deciphered in (the )?original|solution of the codematerial is written|with cipher and decryption|interlinear decipherment|"
                              r"possibly already deciphered", li))
     printed = bool(re.search(r"\bprinted in\b|deciphered is printed|\bed\. |article published", li))
     series_keys = g.get("decode_keys_total", 0)
     near_key = any(k["year"] and years and abs(k["year"] - y) <= 10 for k in g.get("decode_keys", []))
 
+    key_record = bool(re.search(r"for the key to the cipher see", li))
+    residue = bool(re.search(r"could not read them with the reconstructed key|some (passages|symbols) are not deciphered", li))
     # class and solvability
-    if cited_key or on_leaf:
+    if key_record:
+        cls, solv, diff = "A", 5, 1
+    elif cited_key or on_leaf:
         cls, solv, diff = "A", 4, 2
     elif near_key:
         cls, solv, diff = "A", 4, 3
@@ -152,8 +173,10 @@ def score(g):
     if y and y < 1500 and imp < 4:
         imp += 1                     # early ciphers are scarce
 
+    if residue:
+        imp = max(1, imp - 1)        # mostly read already with the reconstructed key; only a residue is open
     counted = bool(author or recv) and bool(y)
-    if on_leaf and not partial and cls == "A":
+    if on_leaf:
         counted = False              # read at the time; a transcription job, not a cipher problem
 
     ids = g["ids"]
@@ -171,6 +194,12 @@ def score(g):
     if series_keys and not cited_key:
         notes.append(f"{series_keys} key record(s) from the same series on DECODE" +
                      (f", nearest R{g['decode_keys'][0]['id']} ({g['decode_keys'][0]['year']})" if g['decode_keys'] else ""))
+    if on_leaf:
+        notes.append("so the text was read at the time and this is a transcription job, listed as noted rather than open")
+    if residue:
+        notes.append("the uploader read it with a reconstructed key except some passages, so only a residue is open")
+    if key_record:
+        notes.append("the key itself is a DECODE record, so a reading should be direct")
     if notes:
         status += "; ".join(notes) + ". "
     hold = " ".join(r["holder"] for r in rs)
@@ -317,9 +346,14 @@ JUNK_ORIGIN = {"Western manuscripts", "unknown", "Unknown", "..."}
 GENERIC = re.compile(r"(?i)^(the secretariat|unknown|unknown sender|[.]{3}|idem.*|unkwown.*|)$")
 
 
+ALIAS = {"morosino": "morosini", "thorkmorton": "throckmorton"}
+
+
 def norm_author(a):
-    a = re.sub(r"\(.*?\)|\?", "", ent(a or "")).lower()
-    return re.sub(r"[^a-zà-ÿ]+", " ", a).strip()
+    """Sender's name for merging: before the first comma, no dates or query marks, spelling variants folded."""
+    a = re.sub(r"\(.*?\)|\?", "", ent(a or "")).split(",")[0].lower()
+    a = re.sub(r"[^a-zà-ÿ]+", " ", a).strip()
+    return " ".join(ALIAS.get(w, w) for w in a.split())
 
 
 def prepare(G):
@@ -330,12 +364,16 @@ def prepare(G):
                 r["date"] = DATE_FIX[r["id"]]
             if r["origin"] in JUNK_ORIGIN:
                 r["origin"] = ""
+            m = re.match(r"(\d{4})[^/]*/(\d{4})$", r["date"] or "")
+            if m and int(m.group(2)) - int(m.group(1)) > 30:      # a volume's date span, not the letter's date
+                r["info"] = f"DECODE's date {m.group(1)}/{m.group(2)} is the span of the volume. " + r["info"]
+                r["date"] = ""
     merged, index = [], {}
     for g in G:
         a = g["key"][2]
         base = re.sub(r"(,\s*\d+[a-z]?)+(?=,|$)", "", g["key"][1])
         g["key"][1] = base
-        k = (g["key"][0], base, norm_author(a))
+        k = (g["key"][0], base.split(",")[0].strip(), norm_author(a))   # one named sender within one archive
         if GENERIC.match(a or "") or not norm_author(a):
             merged.append(g)
             continue
