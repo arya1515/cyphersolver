@@ -63,6 +63,7 @@
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
+  "spanish despatches of 1593: miranda, sessa and ibarra": "2026-09-19",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
@@ -110,8 +111,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ed1502640d60",
-   "updated": "2026-09-18"
+   "hash": "41dbd35ade4d",
+   "updated": "2026-09-19"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -200,8 +201,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "62f85d19bc7c",
-   "updated": "2026-09-18"
+   "hash": "c40d59132c8d",
+   "updated": "2026-09-19"
   },
   "lanssac": {
    "first": "2026-09-17",
@@ -303,6 +304,11 @@
    "hash": "0d7b1a496a0e",
    "updated": "2026-09-18"
   },
+  "sessa1593": {
+   "first": "2026-09-19",
+   "hash": "cbd60aa6e762",
+   "updated": "2026-09-19"
+  },
   "soglia1848": {
    "first": "2026-09-18",
    "hash": "8596184dee8d",
@@ -370,8 +376,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a8cff511e983",
-   "updated": "2026-09-18"
+   "hash": "ab2b70cf728a",
+   "updated": "2026-09-19"
   },
   "yard1699": {
    "first": "2026-09-18",

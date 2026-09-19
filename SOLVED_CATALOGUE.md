@@ -74,6 +74,7 @@ but are not "solved" in the sense of the title.
 | Hyde's ciphered superscriptions | 1659–60 | 15 Sept 2026 | Dummy numbers "only to puzzle the Enemy", per the 1724 editor and the 1721 Hyde–Barwick key | Bibliography: the answer was in print for 300 years |
 | D'Agapeyeff challenge | 1939 | 15 Sept 2026 | Not enciphered English | Language test only |
 | Beale Paper no. 1 | 1885 | 14 Sept 2026 | Fabrication argued; book-cipher scan over Gutenberg negative | Argument, not proof |
+| 40 | **Conde de Miranda → duque de Feria; duque de Sessa → Ibarra; Sessa → Philip II; Ibarra from Paris**, BnF fr. 3983 nos. 45, 79 and fr. 3984 nos. 47, 68 (catalogue item 19) | 1593 | 19 Sept 2026 | Key found, letters read in part | Tomokiyo's two keys were published as images a text dump drops; his table has the syllables but no nomenclature. The catalogue's own *verify* step — DECODE for Sessa — returns two records that are **keys, not letters** (4076, 4077), both naming BnF fr. 3995. **Folio 97 there is the Spanish office's own key**, complete with the nomenclature, and it confirms Tomokiyo's syllable table against the original. Leaves located by the BnF dépouillement plus a folio→canvas calibration | The piece→folio→canvas map for both volumes, fetching the two key images, the DECODE route to fr. 3995 f. 97, the key file and decoder, and the reading of f. 98* |
 
 ## 4. Found already solved by others (lists stale)
 
