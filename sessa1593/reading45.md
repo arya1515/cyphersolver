@@ -21,6 +21,7 @@ ring = -h-, hook = -l-, bar = the number itself, umlaut = doubled consonant, T =
 | 12 | 84 87 n 76 ral 56 55 23 Jep: 16 6̲1T 45 66: 93 64 73 | **tuviere** [lettera] **me ma de** [causa]**r** · **la per**· |
 | 14 | n 46 32 75 9 4 21.23 46 68 ũ ʒ38 n̂ 12 4: ʒ 24: | · **donde le po**· **es**[cri]**biar a dar** |
 | 15 | ä 30.76 19 21 92 29 n · ner ä 65 · ʒ ʒe se 69 n | **algun recado, si fuere** · **a pa**· **se puede** |
+| 16 | 24 91: 23 cer 73 61 91 n. 82 n. 24 68: 73 45 43 75 73 | **dar de manera que no se entienda, por que la hora que** |
 | 17 | 63 75 73 23 ʒ 8ö | · (then in clear) *Dios Gu. al S. de Nap.s a 25 de hebre.o 1593* |
 
 Sense of the letter so far: Miranda writes to Feria under cover of an errand (*con este achaque*), as a
@@ -29,7 +30,7 @@ confidant; the business is being pursued **at the expense of the purse** (*a cos
 this, which I** …; **I refer myself to his prudence. I only beg him that** …; **where he may** write **to
 give some message, if it should be** …
 
-Lines 3, 7, 10, 13, 16 and the unresolved groups above are still open. The nomenclature groups now
+Lines 3, 7, 10 and 13 and the unresolved groups above are still open. The nomenclature groups now
 resolve from fr. 3995 fol. 97 (hur = *mucho*, cer = *manera*, vul = *estados*, vos = *Roma*,
 ra = *lettera*, ʃes = *causa*, norî = *negocios*, xel = *exercito*, dox = *mas*, nes = *quando*,
 tas = *Rey*, tis = *Reyno*, sas = *remedio*, pem = *reputacion*).
