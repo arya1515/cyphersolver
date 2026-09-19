@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sadoleto at Pozsony (1482) — Read in part</title>
+<meta name="description" content="The ciphered despatches of Nicol&ograve; Sadoleto, Ercole I d'Este's ambassador to Matthias Corvinus in the first months of the War of Ferrara (ASMo Ambasciatori Ungheria b. 1/9; DECODE R1101&ndash;R1106). The sign cipher is rebuilt from two letters that survive with contemporary clear copies, and the seven cipher lines of 16 July 1482, which have none, are read in gist: a Venetian offer to Matthias of Veglia, a fleet command for his natural son and 100,000 ducats a year.">
+<link rel="stylesheet" href="style.css?v=20260918b">
+<meta name="date" content="2026-09-19">
+<meta name="last-modified" content="2026-09-19">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="windischgraetz1720.html"><span class="st solved">read</span><b>Windischgr&auml;tz 1720</b><span class="yr">1720&ndash;22</span></a></li><li><a href="buda1489.html"><span class="st solved">read</span><b>Buda 1489</b><span class="yr">1489&ndash;90</span></a></li><li><a href="sadoleto1482.html" aria-current="page"><span class="st partial">read in part</span><b>Sadoleto 1482</b><span class="yr">1482</span></a></li><li><a href="matthias1482.html"><span class="st found">read in 1877</span><b>Matthias 1482</b><span class="yr">1482</span></a></li><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">30</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">11</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">12</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">7</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 61 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="cipherstrip">&gt; u &phi; &#658;&rho; &middot; &#407;&#1100;&rarr;&pi;&#658;&rho; &middot; |&#658;&rho;&Delta;&omega;&mu;&#658;&rho;&#1073;&#1100;&eta;<br>B u d a &middot; V e g l a &middot; c a p i t a n e o<br>&Delta; = p &middot; &#1073; = n &middot; &#1100; = e &middot; &#658;&rho; = a &middot; 8 = f &middot; &ldquo;quid&rdquo; = perch&egrave;</div>
+  <p class="kicker">Pozsony &rarr; Ferrara &middot; sign cipher, monoalphabetic with homophones &middot; July&ndash;November 1482 &middot; read in part</p>
+  <h1>Sadoleto at Pozsony, 1482: the Venetian counter-offer</h1>
+  <p class="sub">Archivio di Stato di Modena, Cancelleria, Ambasciatori, Ungheria b. 1/9 &middot; four ciphered despatches of Nicol&ograve; Sadoleto, Ferrara&rsquo;s envoy to Matthias Corvinus, catalogued in DECODE as partly decrypted (R1101, R1102, R1103, R1106)</p>
+  <p class="sub">The key is rebuilt from two sibling letters that carry contemporary clear copies &middot; two of the four targets turn out to have been deciphered at the time &middot; the seven unread lines of 16 July 1482 are read in gist &middot; one faded block gives only fragments</p>
+  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-19">19 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#documents">The documents</a><a href="#key">The key, from two cribs</a><a href="#r1102">Pozsony, 16 July 1482: what Venice offered the K</a><a href="#r1103">Pozsony, 17 August 1482: a faded block</a><a href="#method">Method</a><a href="#residuals">What remains uncertain</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> In the spring of 1482 Venice attacked Ferrara, and Ercole I d&rsquo;Este sent Nicol&ograve; Sadoleto to Matthias Corvinus to bring Hungary into the war on the side of the League (Naples, Milan, Florence, the Pope). His despatches from Buda and Pozsony were never printed: the nineteenth-century Hungarian copyists passed them over. DECODE lists four of the 1482 letters as partly decrypted. The images, on DECODE and on the Vestigia database, show a sign cipher with word divisions kept and clear words mixed in. Two sibling letters survive with the Ferrarese chancery&rsquo;s clear copies beside them (Vestigia 1283 for 15 July and 1295 for 31 August 1482); aligning them sign by sign gives the alphabet, about twenty-five signs with homophones for the vowels and <i>n</i>, <i>r</i>. With it, two of the four DECODE targets turn out to be read already: 15 July has its clear copy (no. 7a) and 27 November has two sheets of decipherment (nos. 26a, 26b). The letter of 16 July 1482 has no clear copy, and its seven cipher lines are read here in gist. Sadoleto learnt in secret that the other side had written to Francesco Quirino at Matthias&rsquo;s court offering the King Veglia, the command of the fleet for his natural son, and a hundred thousand a year. The faded four-line block of 17 August (the copy of his letter to King Ferrante) gives only fragments.
+</div>
+
+<h2 id="documents"><span class="num">01</span> The documents</h2>
+<p>The file holds forty-seven reports of Sadoleto, June 1482 to November 1483, most in his own hand, with a handful of ducal minutes in reply (M&aacute;tyus 2020). Vestigia catalogues all of them with images; DECODE has eighteen of those with cipher. The ones that matter here:</p>
+<table>
+<tr><th>Item</th><th>Date, place</th><th>Form</th><th>Status found</th></tr>
+<tr><td>DECODE R1101 &middot; b. 1/9 no. 7 (Vestigia 1284)</td><td>15 July 1482, Pozsony</td><td>four pages, long cipher passages</td><td>no. 7a (Vestigia 1283) is the full contemporary clear copy: <b>read at the time</b>; used as a crib</td></tr>
+<tr><td><b>DECODE R1102 &middot; no. 8 (Vestigia 1286)</b></td><td><b>16 July 1482, Pozsony</b></td><td>clear letter, seven lines of cipher at the foot of p. 2</td><td><b>no clear copy: read here in gist</b></td></tr>
+<tr><td><b>DECODE R1103 &middot; no. 11 (Vestigia 1294)</b></td><td><b>17 August 1482, Pozsony</b></td><td>copy for Ercole of Sadoleto&rsquo;s letter to King Ferrante; four faint cipher lines on p. 2</td><td><b>no clear copy: fragments only</b></td></tr>
+<tr><td>DECODE R1104 &middot; no. 13 (Vestigia 1298)</td><td>31 August 1482, Pozsony</td><td>one page, mostly cipher</td><td>&ldquo;Decrypted&rdquo;: clear copies 13a and 13b (Vestigia 1295, 1297); used as a crib</td></tr>
+<tr><td>DECODE R1106 &middot; no. 26 (Vestigia 1318)</td><td>27 November 1482, Pozsony</td><td>four pages, partly cipher</td><td>two sheets of decipherment, 26a and 26b (Vestigia 1319, 4004): <b>read at the time</b></td></tr>
+</table>
+<p>DECODE&rsquo;s &ldquo;partially decrypted&rdquo; on R1101 and R1106 reflects that the decipherments are filed as separate items and were not attached to the records; the contemporaries read both letters in full.</p>
+
+<figure><img src="sadoleto1482_lead.jpg" alt="Seven lines of cipher signs at the foot of a letter page." loading="lazy"><figcaption>The seven cipher lines of 16 July 1482 at the foot of p. 2. Line 1 reads <i>essendo in Buda per partire per venire a Posonia</i>; the last line <i>per mare, et gli voleva dare ogni anno cento milia</i>. <span class="muted">ASMo, Ambasciatori, Ungheria b. 1/9 no. 8; image DECODE (R1102).</span></figcaption></figure>
+
+<h2 id="key"><span class="num">02</span> The key, from two cribs</h2>
+<p>No Este key for this embassy is known. The archive&rsquo;s <i>Cifrario</i> series holds a key &ldquo;per corrispondere con Nicol&ograve; Sadoletti a Napoli tra 1479 e 1480&rdquo;, rebuilt by nineteenth-century archivists (Cremonini 2017, n. 39), but it is not digitised. The key was therefore rebuilt from the letters.</p>
+<p>The cipher keeps word divisions, which makes alignment straightforward. The clear copy 7a of 15 July runs &ldquo;&hellip; volesse unirse e pigliare questa impresa, e non lassasse pretermittere questa opportunit&agrave; laquale mai pi&ugrave; fo, n&eacute; forse sera, e che lo facesse per lo amore &hellip;&rdquo;, and the first lines of the cipher on the original&rsquo;s second page match it word for word. The one-page letter of 31 August and its clear 13a confirm it: &ldquo;epsa me dice che &egrave; certa che la liga non &hellip; perch&egrave; Millano et Fiorenza non voriano &hellip;&rdquo;. One habit shows up at once: where 13a has <i>perch&egrave;</i> the original writes <i>quid</i> in ordinary letters, which works as a code word hiding in plain sight.</p>
+<table>
+<tr><th>Sign</th><th>Value</th><th>Sign</th><th>Value</th><th>Sign</th><th>Value</th></tr>
+<tr><td>&#658;&rho;, &ndash;1</td><td>a</td><td>&rarr;, )</td><td>g</td><td>3, &eta;, round 6</td><td>o</td></tr>
+<tr><td>&gt;</td><td>b</td><td>2</td><td>h</td><td>&Delta; (stem through apex)</td><td>p</td></tr>
+<tr><td>| (plain stroke)</td><td>c</td><td>&omega;</td><td>i</td><td>&Delta; with looped apex</td><td>q</td></tr>
+<tr><td>&phi;</td><td>d</td><td>&pi;</td><td>l</td><td>&#383;, &Gamma;</td><td>r</td></tr>
+<tr><td>&#1100; (6 with a stem), small &Gamma;</td><td>e</td><td>4</td><td>m</td><td>7</td><td>s</td></tr>
+<tr><td>8</td><td>f</td><td>&#1073; (flat-topped 6)</td><td>n</td><td>&mu;, &rho;</td><td>t</td></tr>
+<tr><td>u, &#1080;</td><td>u</td><td>&#407; (v with a loop)</td><td>v</td><td>&#649;&rho;</td><td>et</td></tr>
+</table>
+<p>The table is in <code>sadoleto1482/key_working.md</code> with the aligned words for each sign. It is a plain alphabet with a few alternative signs for common letters; no syllable signs were needed. The nomenclator is small or rarely used: one group in the letter of 16 July does not spell out and is almost certainly a code word (below).</p>
+
+<h2 id="r1102"><span class="num">03</span> Pozsony, 16 July 1482: what Venice offered the King</h2>
+<p>The letter&rsquo;s clear part is routine news of the court. The last seven lines are in cipher.</p>
+<blockquote>
+Essendo in Buda per partire per venire a Posonia, sapi per gran secreto da [&hellip;] Francesco como [X] haveva scripto ad Francesco Quirino, che &egrave; qua, fo[sse] a &hellip; gli fa[cesse] &hellip; como [X] voleva havere seco bona a[micit]ia, et voleva dargli Vegla, et voleva lo figlio (e bastardo) per loco capitaneo de la [arma]ta per mare, et gli voleva dare ogni anno cento milia.
+</blockquote>
+<p>&ldquo;Being in Buda about to leave to come to Pozsony, I learnt in great secret from [&hellip;] Francesco that [X] had written to Francesco Quirino, who is here, [&hellip;] that [X] wanted to have good friendship with him, and wanted to give him Veglia, and wanted his son (the bastard) as captain-general of the fleet at sea, and would give him a hundred thousand every year.&rdquo;</p>
+<p>The anchors are words that could be nothing else: <i>Buda</i>, <i>Posonia</i>, <i>Francesco</i> twice, <i>Quirino</i>, <i>Vegla</i>, <i>capitaneo</i>, <i>per mare</i>, <i>ogni anno</i>, <i>cento milia</i>. The sense fits the moment. Veglia (Krk) had been taken by Venice from Count Giovanni Frankopan in 1480, and the count was at Matthias&rsquo;s court that summer (13a: &ldquo;le qui lo Conte Zohane da Vegla&rdquo;). The &ldquo;son, the bastard&rdquo; can only be J&aacute;nos Corvin, Matthias&rsquo;s natural son and intended heir. The sum is the telling detail. Six weeks later, in the letter of 31 August, Sadoleto told Ercole that Matthias &ldquo;per cento milia ducati ogni anno pigliaria la impresa&rdquo;, that is, would enter the war for the League for a hundred thousand ducats a year. The cipher of 16 July shows where that price came from: it was the figure the other side had already put on the table.</p>
+<p>[X] is a five-sign group that occurs twice, after <i>como</i> both times, as the subject of <i>haveva scripto</i> and of <i>voleva havere seco bona amicitia</i>. It does not spell a word in the letter key, so it is a nomenclator entry, and the context makes it the Venetian side, most likely &ldquo;la Signoria&rdquo;. The informant&rsquo;s title before <i>Francesco</i> is another three-sign group not yet read.</p>
+
+<h2 id="r1103"><span class="num">04</span> Pozsony, 17 August 1482: a faded block</h2>
+<p>R1103 is the copy, sent to Ercole, of Sadoleto&rsquo;s letter to King Ferrante of Naples. Four lines of cipher in the middle of p. 2 have faded almost to the colour of the paper. Contrast stretching on the blue channel brings out perhaps half the signs, and they give fragments only: &ldquo;&hellip; se tener che &hellip; et &hellip; lo credo &hellip;&rdquo;, &ldquo;&hellip; suoi &hellip;&rdquo;, &ldquo;&hellip; vostro &hellip; meco &hellip; che &hellip;&rdquo;. The clear text around the block concerns the King&rsquo;s price for joining the League and the hundred thousand ducats, so the block probably says something about that, but no reading is offered. It needs better imaging of the original.</p>
+
+<h2 id="method"><span class="num">05</span> Method</h2>
+<p>All images are 4320 &times; 3240 two-page spreads, fetched from DECODE with a logged-in session and from Vestigia, which needs no login. The cipher lines were cut into strips, glyphs segmented by connected components and numbered on the strip (the segmentation script is the one written for the Milanese letters of 1489, see <a href="buda1489.html">Buda 1489</a>), and read by eye against the clear copies. The pairs of signs most easily confused were settled on high-magnification crops: the two &Delta; forms (<i>p</i> and <i>q</i>, which differ only in the loop at the apex), the stemmed and flat-topped sixes (<i>e</i> and <i>n</i>), and the long <i>&#383;</i> against &Gamma;.</p>
+
+<h2 id="residuals"><span class="num">06</span> What remains uncertain</h2>
+<ul>
+<li>16 July, line 1 and lines 5&ndash;7 (Buda, Posonia, Veglia, the son, the fleet, the hundred thousand): <b>H</b>.</li>
+<li>16 July, lines 2&ndash;3 to &ldquo;Francesco Quirino, che &egrave; qua&rdquo;: <b>C</b>. The informant&rsquo;s title (a three-sign group before <i>Francesco</i>) is unread. <b>I</b></li>
+<li>[X], the five-sign group read as the Venetian side: a nomenclator entry, identified from context only. <b>M</b></li>
+<li>16 July, end of line 3 and start of line 4 (&ldquo;fo[sse] a &hellip; gli fa[cesse] &hellip;&rdquo;): about a dozen signs not resolved. <b>I</b></li>
+<li>&ldquo;a[micit]ia&rdquo; at the start of line 5 and &ldquo;[arma]ta&rdquo; at the end of line 6: <b>M</b>.</li>
+<li>17 August: fragments only. <b>I</b></li>
+<li>27 November: the decipherment sheets 26a and 26b were located but not aligned sign by sign with the cipher.</li>
+</ul>
+
+<h2 id="sources"><span class="num">07</span> Sources</h2>
+<ul>
+<li>DECODE database, records R1101&ndash;R1106 (ASMo, Ambasciatori, Ungheria b. 1/9 nos. 7, 8, 11, 13, 16, 26): <a class="ext" href="https://de-crypt.org/decrypt-web/RecordsView/1102" rel="noopener">R1102 &#8599;</a>, <a class="ext" href="https://de-crypt.org/decrypt-web/RecordsView/1103" rel="noopener">R1103 &#8599;</a>.</li>
+<li>Vestigia database (P&aacute;zm&aacute;ny P&eacute;ter Catholic University): 1283 (7a), 1284, 1286, 1294, 1295 (13a), 1297 (13b), 1298, 1318, 1319 (26a), 4004 (26b): <a class="ext" href="https://www.vestigia.hu/documents/1286" rel="noopener">vestigia.hu &#8599;</a>.</li>
+<li>Norbert M&aacute;tyus, &ldquo;Nicol&ograve; Sadoleto k&ouml;vetj&aacute;r&aacute;sa Magyarorsz&aacute;gon (1482&ndash;1483)&rdquo;, <i>Vestigia</i> 3 (2020), 150&ndash;163, on the embassy and on why the letters were never printed: <a class="ext" href="https://real.mtak.hu/119767/9/Vestigia3.pdf" rel="noopener">real.mtak.hu &#8599;</a>.</li>
+<li>Judit W. Somogyi, in the same volume, 216&ndash;230, n. 25: the letter of 24 June 1482 carries a marginal decipherment.</li>
+<li>Cremonini, &ldquo;Note sulle testimonianze dell&rsquo;Archivio di Stato di Modena&hellip;&rdquo;, <i>Rivista di Studi Ungheresi</i> 16 (2017), 105&ndash;154, n. 39: the 1479&ndash;80 Sadoleto key in ASMo, <i>Cifrario</i> b. 4 fasc. 1.</li>
+<li>Iv&aacute;n Nagy and Albert B. Ny&aacute;ry, <i>Magyar diplom&aacute;cziai eml&eacute;kek M&aacute;ty&aacute;s kir&aacute;ly kor&aacute;b&oacute;l</i>, vol. 3 (1877), which prints the Este correspondence of 1482 but none of Sadoleto&rsquo;s letters.</li>
+</ul>
+
+<p class="muted">The key with the aligned words, the transcription of 13a, the glyph-by-glyph reading of 16 July, the DECODE and Vestigia record data, and the segmentation scripts are in <a href="https://github.com/dbourdeau/cyphersolver/tree/main/sadoleto1482">sadoleto1482/</a> in the repository. The archive images are not redistributed; the one crop on this page is shown for identification.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Archivio di Stato di Modena (images not reproduced)</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="matthias1482.html" rel="prev">&larr; Matthias 1482 1482</a><a href="buda1489.html" rel="next">Buda 1489 1489&ndash;90 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260918b"></script>
+</body>
+</html>

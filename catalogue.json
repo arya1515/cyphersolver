@@ -5482,7 +5482,7 @@
    "shelfmark": "ASMo, Ambasciatori b. 1/9, Envoy reports, Ferrara (4 items)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R1101–R1106 (4 records): Partially decrypted, 12 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. Oldest-cipher candidate (oldest/CANDIDATES.md B2): Sadoleto's 1483 letters in b. 1/10 (R1107–R1118) are partially decrypted and sibling letters in the same buste are 'Decrypted' with keys and cribs on DECODE; images also on Vestigia (vestigia.hu). If read, 1482 would beat the repo's 1497 record. ",
+   "status": "Read in part 19 Sept 2026 (sadoleto1482/). The sign cipher (monoalphabetic with homophones, word divisions kept, 'quid' = perchè) was rebuilt from R1101 and R1104 against their contemporary clear copies on Vestigia (1283 = no. 7a; 1295 = 13a). R1101 and R1106 turn out to have been read at the time (7a; 26a/26b = Vestigia 1319, 4004). R1102 (16 Jul 1482), seven cipher lines with no clear copy, read in gist: the Venetian side's offer to Matthias of Veglia, a fleet command for his natural son János Corvin, and 100,000 a year. Open: one nomenclator group, the informant's title, a dozen signs; R1103's faded four-line block gives fragments only.",
    "why": "The Ferrarese ambassador at Matthias Corvinus's court during the War of Ferrara (1482–84), when Ercole I d'Este's survival against Venice hung on Hungarian and Neapolitan support.",
    "importance": 4,
    "solvability": 4,
@@ -5516,7 +5516,9 @@
     1103,
     1106
    ],
-   "scored": "reviewed"
+   "scored": "reviewed",
+   "outcome": "read in part",
+   "writeup": "sadoleto1482.html"
   },
   {
    "id": 155,
