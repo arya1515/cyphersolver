@@ -40,6 +40,7 @@
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
+  "henrietta maria’s household to charles i, 1645–46": "2026-09-19",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
   "herbault to béthune, 13 february 1626": "2026-09-18",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
@@ -212,6 +213,11 @@
    "hash": "bf6ae60aa8aa",
    "updated": "2026-09-17"
   },
+  "hm1645": {
+   "first": "2026-09-19",
+   "hash": "3dec8fa52c06",
+   "updated": "2026-09-19"
+  },
   "huangxing": {
    "first": "2026-09-15",
    "hash": "9103089ff7e8",
@@ -224,7 +230,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0730c57219ce",
+   "hash": "9216ff074dd9",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -424,7 +430,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "01f888d44b23",
+   "hash": "a1b61c0df060",
    "updated": "2026-09-19"
   },
   "yard1699": {

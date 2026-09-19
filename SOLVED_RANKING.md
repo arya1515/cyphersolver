@@ -67,7 +67,7 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Sadoleto 1482 (p26, added 19 Sept) sits just below Adams No. 88 and just above Warsaw. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw. Sessa 1524 (p23) sits among the lower partial reads, just above Herbault 1626. Charles VI to Windischgrätz 1720–22 (p24) sits beside Yard 1699, whose case it repeats: the key in the same papers, read straight off.
+Mendoza, and Erving 1807 below Forster. The Henrietta Maria letters of 1645–46 (p31, found already read by Lasry) sit just below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Sadoleto 1482 (p26, added 19 Sept) sits just below Adams No. 88 and just above Warsaw. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw. Sessa 1524 (p23) sits among the lower partial reads, just above Herbault 1626. Charles VI to Windischgrätz 1720–22 (p24) sits beside Yard 1699, whose case it repeats: the key in the same papers, read straight off.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -94,6 +94,7 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p28 | **Unknown writer → "Monsieur"**, 17th c., TNA SP 106/10 ff. 241–243 (DECODE R927) | 17th c. | 4 | 4 | 1 | 2 | 1 | 3 | **2.80** | D 4: no key, no crib, no clear sibling; the pencil key on the flap was a false lead, and the homophonic system was recovered from a hand transcription by quadgram annealing. N 4: catalogued as undeciphered. H 1: a private client-to-patron letter, unnamed. R 2: writer and date unknown. V 3: last page nearly throughout, first page in fragments |
 | p29 | **Cardinal Gian Francesco Morosini → Cardinal Montalto**, Blois–Moulins, 1588–89, AAV Segr. Stato Francia 22 (DECODE R18–R58) | 1588–89 | 1 | 5 | 4 | 3 | 1 | 4 | **3.10** | D 1: Meister printed the key in 1906; the only obstacle was cutting unseparated 1–3 digit homophones, done by a language-model beam search. H 5: the papal legate's own account of Blois, the Guise murders and the League's crisis. N 4: DECODE lists the file as partially decrypted and no plaintext or edition exists. R 3: 36 records sorted out of a mixed run, two keys. V 4: 34 of 36 read end to end, letter slips and a few dotted codes open |
 | p30 | **Marqués de los Balbases (Nijmegen) → Baltasar de Fuenmayor**, 1677–78, AGR Brussels SEG 2559 (DECODE R985–R998) | 1677–78 | 3 | 3 | 4 | 3 | 1 | 3 | **3.00** | D 3: no key survives and none of the series keys fits; the table was recovered by anchoring and EM alignment against ten margin decipherments. N 4: four letters had never been deciphered. H 3: Spain's Nijmegen plenipotentiary on the northern war, Bremen, the Brunswick rank quarrel and the fall of Ghent. V 3: 97% of groups keyed, name codes and a few homophones open |
+| p31 | **Henrietta Maria's household (St Germain, Paris) → Charles I**, 1645–46, TNA SP 106/10 ff. 213–247 (DECODE R785–R929) | 1645–46 | 1 | 4 | 1 | 2 | 2 | 3 | **2.15** | D 1: Lasry's keys applied, no cryptanalysis. H 4: the queen's circle on French, Lorraine and papal help in the last year of the first Civil War. N 1: read by Lasry on DECODE in 2020. F 2: on Tomokiyo's unsolved list. V 3: key checked on one letter; name codes open |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
@@ -109,7 +110,8 @@ p24 0.25 + 1.00 + 0.80 + 0.40 + 0.10 + 0.40;
 p27 0.50 + 0.75 + 0.60 + 0.30 + 0.10 + 0.40;
 p28 1.00 + 1.00 + 0.20 + 0.20 + 0.10 + 0.30;
 p29 0.25 + 1.25 + 0.80 + 0.30 + 0.10 + 0.40;
-p30 0.75 + 0.75 + 0.80 + 0.30 + 0.10 + 0.30.
+p30 0.75 + 0.75 + 0.80 + 0.30 + 0.10 + 0.30;
+p31 0.25 + 1.00 + 0.20 + 0.20 + 0.20 + 0.30.
 
 ## By single axis
 

@@ -1,6 +1,6 @@
 # Henrietta Maria's household (St Germain / Paris) to Charles I, 1645–46 — TNA SP 106/10 — NOTES
 
-Status: no write-up
+Status: written up (docs/hm1645.html)
 
 **Verdict: already READ, by George Lasry (DECODE uploads dated 2020-10-23).** Catalogue entry 59 (DECODE R785, R787,
 R790, R923, R924, R929) and its siblings, entries 54 (R752), 55 (R928) and 60 (R789), are all covered. Nothing about
