@@ -70,6 +70,7 @@
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
+  "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
@@ -117,9 +118,14 @@
    "hash": "1013d64632e6",
    "updated": "2026-09-19"
   },
+  "carpio1677": {
+   "first": "2026-09-19",
+   "hash": "ece1fb061228",
+   "updated": "2026-09-19"
+  },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "8ac356a4a001",
+   "hash": "6ff7420c95d7",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -209,7 +215,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "6449d6eee81e",
+   "hash": "eca7e61532b5",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -394,7 +400,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d521887df382",
+   "hash": "860c5fd59138",
    "updated": "2026-09-19"
   },
   "yard1699": {
