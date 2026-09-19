@@ -93,3 +93,13 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   "l'insaciabile ira de Iunone" for Queen Beatrice. New signs: a+ = Ex.tia Vostra, n^e = ll; clear Latin words
   occur inside the cipher. **Blocked: monthly spend limit reached** (claude.ai/settings/usage), so no further
   agents can run. Remaining: p. 2 ll. 17–32 and pp. 3–4 (crops ready), plus the open signs listed above.
+- 23:50: all four pages of the 1489 letter now have a first reading. Page 4 holds only 2 cipher lines (ending
+  "al Soldano"); its lines 3–17 are CLEAR: a private postscript about Maffeo's own money (the 200 ducats for
+  messer Francesco, "piu de 150 ducati del mio", the "novita facta de Cancelleri", "et in lassignatione facta ad
+  la Cancellaria"), then "A V.ra Ex. de continuo me recomando. Bude xxij Novembris 1489" and the signature
+  "Magister Trivilien[sis]". Page 2 ll. 17–20: "per la experientia del passato se po iudicare del futuro, le
+  littere in cifra che forono intercepte, le quale duplicate sono state scoperte…". More signs: tt = n with a
+  long crossbar, nn = n+, ss = n+crossed-4; capitals B. C. S. = madonna Bianca / zo. Corvino / S.V.; clear Latin
+  inside the cipher ("etiam apud", "Fidem", "Sed hoc non fallet divinam sapientiam").
+  Second passes running on p2 ll. 21–32 and p3 ll. 15–28 with boxed strips (`seg/strips2/`), which are sharper
+  than the stacked crops and keep the sign numbering.
