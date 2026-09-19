@@ -83,3 +83,8 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   `r1098_reading.md`); ll. 7–10 restate the clear page 2 ("lo legato et li altri oratori … havemo deliberato
   partire ali 15 de questo … recta via ad Vienna"), which confirms the key. Numerals are written as figures;
   "q" in "legato" = ga (Somogyi a3).
+- 22:30: page 1 of the 1489 letter (29 lines) read in gist; text and sense in `v2831_reading.md`, sign-by-sign
+  notes in `trans/v2831p1_read2.md` and `_read3.md`. Sign values gained on the way: 7=f, n+crossed4=ss, q^o=re,
+  b^a=na, d:=fi, 8=g/n, x'=do, a:=gli, looped-b+o=st, o-bar often b. Open: the σ pronoun, the "affinita" word,
+  and the stained right ends of ll. 21–26. Page 2 agent killed by the session limit (resets 02:10); pages 2–4
+  crops ready as `img/crops/stack2831p2..p4_L*.png`.
