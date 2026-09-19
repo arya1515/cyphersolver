@@ -21,6 +21,13 @@ Cipher and key as for no. 45: the Spanish syllabic cipher of 1592-93, read with 
 | 15 | 23. 27 4: 23 nur 23 48∆ ʒ ʃis 23 88: n̂ gir is 4. n̄ 10:19 21 4 73 24 21 n̂ pol | **denfiar de** · **de los** · **de ver** · · **a que dado** · |
 | 16 | 68: 45 pa 23 68: 81^ 22 98 4 36: 45 57 ʃis 73 91 45 46 86 73 n̂ rili: 23 45 xom | **por la** · **de por tes dixi a** · **la mi** · **que se la levo que es** · **de la** · |
 
+## Coverage
+
+**Every cipher line on the leaf is read.** Bands 1 and 2 of the deskewed strips are not cipher: band 1 is the
+top margin carrying the folio number *162*, band 2 the docket *11 de Março 93* with show-through above it.
+The cipher proper runs from band 3 to band 16, and all fourteen carry readings. What remains open is the
+groups marked `·` within them.
+
 ## Sense
 
 Sessa writes to Ibarra from Rome about **the testimonies that they raise against everyone**; the legate; the

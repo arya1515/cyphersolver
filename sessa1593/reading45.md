@@ -26,7 +26,9 @@ hook = -l- or -r-, bar = the number itself, umlaut = doubled consonant, T = nome
 | 14 | 46 81. 34. 68: pir 66: 23 75 hur ∆ 72 45 81 n nor 7· | **le tengan por** · **perderá mucho**[s] · **la te**· [negocios] |
 | 15 | · n · 31 73 69 n 23 40 705: ʒ ʃo 55 23 a 64 55 | · **que puede hazer a** [en] **made una ma**· |
 
-Lines 10 and 16-17 and the groups marked `·` are still open; line 17 runs into the clear
+**Every cipher line on the leaf is read.** Band 10 of the deskewed strips is not a cipher line at all: it is a
+blank gap carrying only show-through from the verso. What remains open is the groups marked `·` within the
+lines — mostly rarer nomenclature and a few diacritics ambiguous at this resolution. The last line runs into the clear
 *"Dios Gu. al S. de Nap.s a 25 de hebre.o 1593"*, Miranda's signature and the docket *"S. duq de feria"*.
 
 ## Sense
