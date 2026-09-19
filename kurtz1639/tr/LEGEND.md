@@ -1,0 +1,30 @@
+# Sign legend (kurtz1639) — append only
+- `#z-tail` : z/3-shaped sign with a long sweeping tail below the line
+- `α` : alpha-like loop sign (written like a lowercase alpha / "a" with open tail)
+- `c` : open c-shaped sign, like a 6 without its loop closed (distinct from 6)
+- `π` : pi-shaped sign (two uprights under a bar)
+- `#s-long` : tall long-s / f-like stroke used as a cipher sign
+- `#hook` : small hook/check-mark sign at line end
+- `w` : w-shaped sign
+- `ψ` : fork/psi-shaped sign like a 9 with a cup top and long descender (distinct from plain 9)
+- `x` : x-like crossed sign (written like "æ"/x with a loop), distinct from α
+- `#4-hook` : lightning-shaped 4 with a hook (Ϟ), used as a cipher sign
+- `#s-cross` : long-s/f with a crossbar
+- `#dot` : small raised dot/cross between numbers
+- `n`, `d` : plain small letters n / d occurring among the numbers
+- `#ins` : insertion mark (crossed 4/9-like sign) tying body text to a margin addition
+- `#A` : capital-A-like sign (seen once, R3811 23101 margin)
+- `k` : small k-like letter after numbers
+- `Δ` : triangle/delta sign
+- `#s-loop` : long-s with a closed loop (ß-like) used as a sign
+- `#z-bar` : z with a horizontal crossbar (Ƶ)
+- `p`, `v`, `y` : plain small letters p / v / y occurring among the numbers (R3812)
+- `4+` : 4 with a cross stroke (in-line; cf. #ins)
+- `φ` : 6/0-like oval with a vertical stroke through it (ф); may be a variant of ψ (both appear in '73 28 _ 13/14 36') — kept distinct
+- `#l-loop` : looped ℓ-like sign (tall loop, like a script l / ℓ), R3813 — distinct from #s-long
+- `#sect` : §-like hooked sign (like a 6 with a tail/hook on top), R3813
+- `m`, `e` : plain small letters m / e among the numbers (R3813; `m` often in "29 m 28 #s-long")
+- `m`, `r` : small plain letters m / r among numbers (R3812)
+- conventions used in R3811/R3812 files: `~..~` struck-through, `[..]` digits/letters written above the line as a correction/insertion
+- `λ` : lambda-like sign (slanted stroke with a hooked foot, like λ / a crossed long stroke), frequent in R3815 and R4625 P5; often next to #s-long / #s-loop — may be a variant of #s-loop
+- `#hash` : double-crossed sign like # / ‡ (two uprights with two crossbars) among the numbers (R4734 P5, R4736 P1/P3)

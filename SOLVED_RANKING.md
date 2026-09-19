@@ -67,7 +67,7 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster. The Henrietta Maria letters of 1645–46 (p31, found already read by Lasry) sit just below Forster. Lope de Soria 1523 (p32) sits at the top of the provisional rows, just above Buda 1489. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Sadoleto 1482 (p26, added 19 Sept) sits just below Adams No. 88 and just above Warsaw. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw. Sessa 1524 (p23) sits among the lower partial reads, just above Herbault 1626. Charles VI to Windischgrätz 1720–22 (p24) sits beside Yard 1699, whose case it repeats: the key in the same papers, read straight off.
+Mendoza, and Erving 1807 below Forster. The Henrietta Maria letters of 1645–46 (p31, found already read by Lasry) sit just below Forster. Kurz von Senftenau's Hamburg letters of 1639 (p33, key rebuilt, read in part) score 3.25. Lope de Soria 1523 (p32) sits at the top of the provisional rows, just above Buda 1489. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Sadoleto 1482 (p26, added 19 Sept) sits just below Adams No. 88 and just above Warsaw. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw. Sessa 1524 (p23) sits among the lower partial reads, just above Herbault 1626. Charles VI to Windischgrätz 1720–22 (p24) sits beside Yard 1699, whose case it repeats: the key in the same papers, read straight off.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -96,6 +96,7 @@ Mendoza, and Erving 1807 below Forster. The Henrietta Maria letters of 1645–46
 | p30 | **Marqués de los Balbases (Nijmegen) → Baltasar de Fuenmayor**, 1677–78, AGR Brussels SEG 2559 (DECODE R985–R998) | 1677–78 | 3 | 3 | 4 | 3 | 1 | 3 | **3.00** | D 3: no key survives and none of the series keys fits; the table was recovered by anchoring and EM alignment against ten margin decipherments. N 4: four letters had never been deciphered. H 3: Spain's Nijmegen plenipotentiary on the northern war, Bremen, the Brunswick rank quarrel and the fall of Ghent. V 3: 97% of groups keyed, name codes and a few homophones open |
 | p31 | **Henrietta Maria's household (St Germain, Paris) → Charles I**, 1645–46, TNA SP 106/10 ff. 213–247 (DECODE R785–R929) | 1645–46 | 1 | 4 | 1 | 2 | 2 | 3 | **2.15** | D 1: Lasry's keys applied, no cryptanalysis. H 4: the queen's circle on French, Lorraine and papal help in the last year of the first Civil War. N 1: read by Lasry on DECODE in 2020. F 2: on Tomokiyo's unsolved list. V 3: key checked on one letter; name codes open |
 | p32 | **Lope de Soria → Charles V and Gattinara**, Genoa, June–Aug 1523, RAH Salazar A-28 (DECODE R9488–R9498) | 1523 | 4 | 4 | 5 | 4 | 1 | 3 | **3.80** | D 4: key A had no key, crib or sibling and was broken ciphertext-only by a substitution solver on a Castilian 4-gram model; key B came from a court decipherment. H 4: the Venetian league, a plan to seize Bergamo and Brescia, Siena, Andrea Doria's first approach to the Emperor. V 3: several code groups open, key-B passages graded C/M. |
+| p33 | **Ferdinand Sigmund Kurz von Senftenau (Hamburg) → Trauttmansdorff**, Jan–Apr 1639, SOA Plzeň RA Trauttmansdorff inv. 200 (DECODE R3811–R4736) | 1639 | 3 | 4 | 4 | 4 | 1 | 2 | **3.25** | D 3: a contemporary gloss on one page; the syllable table was deduced from it and the rest solved with a structured annealer. H 4: the imperial vice-chancellor at the Hamburg peace preliminaries. N 4: Mírka read one letter (2012, unprinted); eight never read. R 4: 73 images transcribed, DECODE's 1638 date corrected. V 2: key complete, single-pass transcription leaves 20–45% garbled |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
@@ -113,7 +114,8 @@ p28 1.00 + 1.00 + 0.20 + 0.20 + 0.10 + 0.30;
 p29 0.25 + 1.25 + 0.80 + 0.30 + 0.10 + 0.40;
 p30 0.75 + 0.75 + 0.80 + 0.30 + 0.10 + 0.30;
 p31 0.25 + 1.00 + 0.20 + 0.20 + 0.20 + 0.30;
-p32 1.00 + 1.00 + 1.00 + 0.40 + 0.10 + 0.30.
+p32 1.00 + 1.00 + 1.00 + 0.40 + 0.10 + 0.30;
+p33 0.75 + 1.00 + 0.80 + 0.40 + 0.10 + 0.20.
 
 ## By single axis
 

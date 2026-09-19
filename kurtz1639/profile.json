@@ -1,0 +1,365 @@
+{
+ "schema_version": 1,
+ "target": "kurtz1639",
+ "title": "Kurz von Senftenau (Hamburg) to Trauttmansdorff, 1638-39, DECODE R3811-R4736",
+ "documents": [
+  {
+   "id": "R3812",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R3812)",
+   "date": "1639-02-03",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 5526,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (14 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R3811",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R3811)",
+   "date": "1639-01-17",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ]
+   },
+   "length": {
+    "tokens": 1613,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (6 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R3813",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R3813)",
+   "date": "1639-01-27",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 7799,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (20 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R3814",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R3814)",
+   "date": "1639 (undated)",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 1919,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (5 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R3815",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R3815)",
+   "date": "1639-02-06",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 860,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (4 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R4625",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R4625)",
+   "date": "1639-02-10",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 2077,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (7 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R4645",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R4645)",
+   "date": "1639-02-13",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 1236,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (9 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R4734",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R4734)",
+   "date": "1639-04-08",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 480,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (5 files)",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "R4736",
+   "shelfmark": "SOA Plzeň, Klášter u Nepomuka, RA Trauttmansdorffů, inv. č. 200, kart. 9 (DECODE R4736)",
+   "date": "1639-04-14",
+   "year": 1639,
+   "country": "Holy Roman Empire",
+   "route": "Hamburg -> Vienna",
+   "language": "German",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 1403,
+    "unit": "symbols",
+    "measured": true,
+    "file": "coverage.json"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE public images (3 files)",
+    "image_quality": "good"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Homophonic cipher: 1-40 and letter/graphic signs for single letters (some for letter pairs), 41-100 for consonant+vowel syllables in a regular reverse-alphabet table, a few nulls.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {
+   "width": "1-2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "sibling_key": "unknown",
+  "notes": "unknown"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary interlinear decipherment of R3811 p.1; Mírka 2012 rebuilt the key and read R3811 (summary only, key not printed)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "known plaintext"
+  ],
+  "attack": "known plaintext",
+  "human_role": "None beyond the goal statement.",
+  "tools": [
+   "parse.py",
+   "solve2.py structured annealer",
+   "pick.py LM value ranking",
+   "kwic.py",
+   "decode.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "access",
+   "what": "Fetched 9 DECODE records and 73 public images; no key record or transcription on DECODE.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "Found Mírka's Crypto-World 11-12/2012 reprint: key rebuilt from R3811 p.1 interlinear, only R3811 read, key not printed.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "transcription",
+   "what": "Four agents transcribed all 73 images token by token (tr/), with the ~210 interlinear glosses on R3811 pp.1-2.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Free homophonic annealing (symbol -> letter/CV bigram/null) with a German 5-gram model on R3813.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Same with a letter-frequency (KL) penalty.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "hypothesis",
+   "what": "From the glosses: 41-100 are consonant+vowel signs, two consonants per ten (reverse alphabet), units o i e a; 1-40 and signs are single letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Structured annealer (one consonant per half, one value per single sign) seeded with 17 gloss values, on R3811-R3813, then all records.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Irregular fifth-place signs (pu lu mu hu ku du gu bu cu us ru) and two-letter single signs (te se si ve so ti tu) fixed from context and LM ranking.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "All nine letters deciphered with key.json (read/*.txt); 98.3% of 22,913 cipher tokens given a value.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.983,
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense."
+ }
+}

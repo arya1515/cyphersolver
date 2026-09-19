@@ -46,6 +46,7 @@
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "koehler cryptograms, 1944": "2026-09-15",
+  "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "lope de soria to charles v, genoa, 1523": "2026-09-19",
@@ -136,7 +137,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6a1359ffe808",
+   "hash": "35c79e63402b",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -231,7 +232,12 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0ac71ef25acb",
+   "hash": "027be2cf732a",
+   "updated": "2026-09-19"
+  },
+  "kurtz1639": {
+   "first": "2026-09-19",
+   "hash": "dd1452a72916",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -436,7 +442,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "19b22b87255e",
+   "hash": "d9bd1ebb6708",
    "updated": "2026-09-19"
   },
   "yard1699": {

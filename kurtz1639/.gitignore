@@ -1,0 +1,12 @@
+img/
+corpus_de17.txt
+de_early5.npy
+lit/
+decode/
+*.log
+key_*.json
+k*.json
+fix*.json
+seed*.json
+!key.json
+__pycache__/
