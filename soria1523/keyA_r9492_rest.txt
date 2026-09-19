@@ -1,0 +1,32 @@
+# R9492 (Soria to Charles V, Genoa, July 1523): all cipher outside the f.444r-445v block (keyA_r9492_f444.txt).
+# Survey of P1-P6: the only other cipher is on P5 right page (f.448r): a 3-line block in the closing and a
+# 8-line Post data. It is NOT key A: the signs are the key-B type (lemniscate, alpha+, m-with-bar, code words
+# sub/zog/zof/yed/xip/xin/xab/tef/si/pu/yoc, cf. keyB.md). The key-A letter scheme does not fit, so signs are
+# named by the legend below (matched to keyB.md letters where the shape is the same).
+# Legend (this file):
+#  8 = lemniscate (lying ∞)          E = standing figure-8 / delta-like (keyB E)
+#  w = two joined circles with bar (ꝏ)   oo = two small circles linked by a stroke
+#  t = tau-shaped T-bar sign          L = L-shaped hook with raised stroke
+#  T = triangle ▽                     X = crossed x (æ-like)
+#  M = m with crossing stroke (m+)    N = m with stroke underneath (m underlined)
+#  A = alpha with cross below (ɑ+)    a = plain alpha α
+#  F = p with double cross-bar on descender (ǂ)   Q = q with crossed tail
+#  D = ∂-like sign with hook (ɗ)      r = small r/ɤ-like sign
+#  R = ℞-like sign (L8 only)          v = check/√-like sign
+#  h = h-like sign                    9# = 9 with small # superscript;  ^b = small superscript b after a sign
+#  @ = circle with dot (⊙)            P = capital P with loop (L4 only)
+#  c 2 4 7 9 y as written; lower-case code words as written.
+# Word spacing is the writer's.
+# block 1: P5 right (f.448r) top, after "Estando para cerrar la pnte", before "enesta no dire otra cosa"
+L1: {fH} yef 8XQtM9r zub 4 t w oo t c
+L2: zog DEtX7 T AtE^b si yoc pu cM 4yNrc289F pup tab zog
+L3: pef xip sub to rhtX7 @ E
+# block 2: P5 right (f.448r) Post data, after "Post data", before "En este mismo dia tengo letra del abbad de najara"
+L4: gto P sub cQ7y9F pu yed t#8chM c yoc yeb DEtX7y zof
+L5: yif tEc v 8y LQy pes xap zog^b zof pu Qa yic sub tef pub pu2 pob
+L6: tef yed pep M zid a haX8hM si sub ynfy yic xin^b 9#a v7c8E
+L7: zog xab T tol^b pel 9#ayLQyE^b si ynfE 2McQy8E cahQv27y
+L8: LERr9cQ8y LrMac zof yoc T pof c xip xip sub tef N8cay
+L9: zof xin h8XMha T si yof 8t72r^b AEy wa9r sub pu M8c
+L10: LM yif pel 9#8yLQy zof xip c7y hr 2Fc4Qyr T yoc pu
+L11: M8cLQcM zog zub aLc7^b 9Q8^b zof pep 8 h8XMha ///

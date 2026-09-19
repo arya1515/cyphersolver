@@ -1,0 +1,469 @@
+{
+ "schema_version": 1,
+ "target": "soria1523",
+ "title": "Lope de Soria (Genoa) to Charles V and Gattinara, 1523, RAH Salazar A-28 (9/28), DECODE R9488-R9498",
+ "documents": [
+  {
+   "id": "R9488",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 248-249 (DECODE R9488)",
+   "date": "June 1523",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key A.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key A."
+   }
+  },
+  {
+   "id": "R9489",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 250-251 (DECODE R9489)",
+   "date": "June 1523 (duplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key A.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key A."
+   }
+  },
+  {
+   "id": "R9490",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 252-253 (DECODE R9490)",
+   "date": "June 1523 (triplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key A.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key A."
+   }
+  },
+  {
+   "id": "R9491",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 440-442 (DECODE R9491)",
+   "date": "20 Jul 1523",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Gattinara",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  },
+  {
+   "id": "R9492",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 443-448 (DECODE R9492)",
+   "date": "Jul 1523",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key A.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key A."
+   }
+  },
+  {
+   "id": "R9493",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 449-455 (DECODE R9493)",
+   "date": "Jul 1523 (duplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key A.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key A."
+   }
+  },
+  {
+   "id": "R9494",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 478-479 (DECODE R9494)",
+   "date": "26 Jul 1523",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  },
+  {
+   "id": "R9495",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 480-481 (DECODE R9495)",
+   "date": "26 Jul 1523 (duplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  },
+  {
+   "id": "R9496",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 482-483 (DECODE R9496)",
+   "date": "26 Jul 1523 (triplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  },
+  {
+   "id": "R9497",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 577-579 (DECODE R9497)",
+   "date": "13 Aug 1523",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  },
+  {
+   "id": "R9498",
+   "shelfmark": "RAH Colección Salazar y Castro A-28 (9/28) ff. 581-584 (DECODE R9498)",
+   "date": "13 Aug 1523 (duplicate)",
+   "year": 1523,
+   "country": "Spain",
+   "route": "Genoa -> Charles V's court",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter. Key B.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "unknown",
+    "notes": "Key B."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "homophonic"
+  ],
+  "summary": "Two keys, each a homophonic letter alphabet of signs plus three-letter lower-case code groups for common words and names.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": "unknown",
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "partial",
+  "doubled_letters": "unknown",
+  "sibling_key": "Key B also in R9844 (9/30 ff. 34-36, Soria to Gattinara, Dec 1523) with the court's decipherment.",
+  "notes": "Key A (June-July 1523): ~25 signs, a few homophones, word division kept, code words (leh=en). Key B (from late July 1523): homophonic letters + many three-letter codes, crib from R9844."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE Non-decrypted; CSP Spain vol. 2 no. 586 calendars f. 577 from clear parts only",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "sibling key"
+  ],
+  "attack": "sibling key",
+  "human_role": "none this session (DECODE cookie from an earlier session)",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "access",
+   "what": "Fetched all 35 images of R9488-R9498 and the metadata via the DECODE API.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "CSP Spain vol. 2 (BHO): only f. 577 calendared, from the clear parts.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "sibling key",
+   "what": "Searched DECODE for decrypted Soria records; found R9844 (9/30) with cipher and court decipherment in key B.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "sibling key",
+   "what": "Checked the BRAH 9/15 key book (R9815-R9832) for either key; no alphabet matches.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "sibling key",
+   "what": "Checked a decrypted 9/28 sibling of another envoy (Alonso Sanchez, R9768) for a shared key; different cipher.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "crib",
+   "what": "Aligned the first R9844 cipher lines with the clear: code groups sub, yed, xab, xin, xud, si, tef, zeb and a dozen letter values.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Read R9497 (13 Aug 1523) key-B cipher lines 1-7 with the R9844 key: Andrea Doria and the Prince of Salerno discontented with the King of France; approach via Jeronimo Doria.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Subagent read R9494 (26 Jul 1523) key-B blocks: courier, 28,000 escudos for Swiss in Constance, 12,000 to the treasurer; collated with R9495.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Subagent first pass on R9491 (20 Jul, to Gattinara) key-B block: Siena under the Emperor's hand; much of the key-B letter alphabet in this letter still unassigned.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "transcription",
+   "what": "Transcribed R9492 f. 444r-445v key-A block (~1060 signs, 31 lines) with an ASCII glyph scheme.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "statistics",
+   "what": "Sign counts showed ~25 signs, word division kept, lone 'f' 10x (=y), c followed by T 43x (a c+T ligature).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Simulated-annealing substitution solver with a 4-gram model of Danvila's 1520-21 Castilian documents; 'f'=y fixed; found the key-A alphabet (liga general, cinco mil infantes, exercito) from random starts; c+T merged as d.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "hypothesis",
+   "what": "Hand refinement: alpha=o, q=o (lone q = que), 9/p=a, z=e, e/n=s, c=n, 2=l, code leh=en.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "unknown",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [],
+  "notes": "In progress."
+ }
+}
