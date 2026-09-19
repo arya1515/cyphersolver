@@ -81,8 +81,14 @@ Cesare Valentini, Pozsony 1486 (R1119, R1121); Beltrame Costabili, Esztergom 149
   "Decrypted" (keys and cribs). Images in DECODE (login) and the Vestigia database (https://www.vestigia.hu).
 - If read: **1483**.
 
-### B3. ASMi Carteggio Sforzesco, Potenze Estere, Ungheria b. 642 and 645: Maffeo da Treviglio and the Milanese
-embassy at Buda, 1489–92
+### B3. ASMi Carteggio Sforzesco, Potenze Estere, Ungheria b. 642/645/650: Maffeo da Treviglio and the Milanese
+embassy at Buda, 1489–92 — **READ, 19 September 2026** (see `buda1489/`, site page buda1489.html)
+- Done: the letters of 22 Nov 1489 (Vestigia 2831, four pages, only its first two lines ever deciphered) and 12 Jan 1490
+  (DECODE R1098). Somogyi's key is printed only as numbers; her numbering follows first appearance in the letter of
+  2 Apr 1490, which has a contemporary clear copy, so the numbers were matched back to the signs. **This beats the
+  project's 1497 record: 1489.** R1155, R1147 and R1152 proved to have clear copies or to be clear drafts; R1146 and
+  R1158 are in other ciphers and are still unread — the abbot of Forlì's cipher (R1146) has its crib in the printed
+  "Extractus Cifare Abatis Forliviensis" and is the obvious next target here.
 - DECODE R1098 (12 Jan 1490, 2 pp.), R1152, R1155 (Lanterio → Maffeo, 14 Sep 1492, 6 pp.), R1158 (1492, 4 pp.),
   R1146–R1147 (abbot of Forlì, 16 Oct 1491); "Partially decrypted". Somogyi 2016 (Verbum,
   https://www.epa.oszk.hu/05200/05289/00028/pdf/EPA05289_verbum_2016_1-2_195-217.pdf) reconstructed Maffeo's

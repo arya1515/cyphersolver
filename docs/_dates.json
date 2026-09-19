@@ -46,6 +46,7 @@
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
   "louis xiv to chaulnes, 1690": "2026-09-15",
+  "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
   "maltravers to ormonde, 1634–35": "2026-09-15",
   "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
   "matthias corvinus to ercole i d’este, pozsony, 1 june 1482": "2026-09-19",
@@ -109,6 +110,11 @@
    "first": "2026-09-18",
    "hash": "682bb7ed4faf",
    "updated": "2026-09-18"
+  },
+  "buda1489": {
+   "first": "2026-09-19",
+   "hash": "1013d64632e6",
+   "updated": "2026-09-19"
   },
   "catalogue": {
    "first": "2026-09-17",
@@ -202,7 +208,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "31611b0cf7fc",
+   "hash": "f51685d87a37",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -382,7 +388,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3a65394ade2e",
+   "hash": "420055dbe466",
    "updated": "2026-09-19"
   },
   "yard1699": {
