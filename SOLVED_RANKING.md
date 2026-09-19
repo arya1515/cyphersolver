@@ -67,7 +67,7 @@ p4 0.50 + 0.75 + 0.40 + 0.40 + 0.20 + 0.30; p5 0.50 + 0.75 + 0.60 + 0.30 + 0.20 
 Ten more items, scored the same way and with the same caveat: the assistant's scores, for Daniel to check before merging.
 Where they would fall: the Sun Yat-sen intercepts beside Lanssac, Toledo 1565 and Soglia 1848 beside Feuquières, Adams No. 88
 just above Warsaw, Yard 1699 and Vich 1511–12 beside Béthune, Mary to Norfolk just above Adrian 1521, Adrian level with
-Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw.
+Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same day) sits just below Huang Xing, Pelissier 1592 (p18, rescored after the calibrated re-reading) level with Louvois and Louis XIV, and Gramont 1529–37 (p19) just below Feuquières. Herbault 1626 (p20, contributed by Arya Sanketbhai Patel) sits just above Erving 1807; Conti 1649 (p21) beside Bordeaux 1653. Ricasoli 1425 (p22) sits with Armstrong, just above Warsaw. Sessa 1524 (p23) sits among the lower partial reads, just above Herbault 1626.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -86,6 +86,7 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p20 | **Phelipeaux d'Herbault → Philippe de Béthune**, Paris, 13 Feb 1626, BnF fr. 3669 no. 25 | 1626 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Resolved rather than solved, like Mendoza: the catalogue's one undeciphered letter is a copy of no. 26, which carries the 1626 decipherer's interlinear plaintext, so 1 on difficulty and 2 on novelty (read in 1626, never printed). The ciphered passages matter (the Valtelline, the reason for the Huguenot peace, Savoy pressing France towards war with Spain six weeks before Monzón); identity checked on the clear text, the run boundaries and matching groups. Only on the BnF harvest list. |
 | p21 | **Prince de Conti → Laigue and Noirmoutier**, Paris, March 1649, BnF fr. 3854 nos. 41–43 | 1649 | 2 | 4 | 4 | 4 | 1 | 4 | **3.20** | Nos. 41–42 already read (Lasry 2023), so their share adds only corrections. No. 43's key was rebuilt from the clerk's glosses, not broken cold, hence D 2; but its opening had never been read and the body, though glossed in 1649, is unpublished. Content: the Frondeurs' secret line to the Archduke during Rueil, the conference as a stalling device and the promise to break it when Spain enters France. Not on any list (catalogue only). Four blotted places open |
 | p22 | **Galeotto Fibindacci da Ricasoli → the Signoria of Florence**, Urbino, early 1425, ASF Dieci di Balìa, Responsive 2 no. 171 | 1425 | 3 | 3 | 4 | 4 | 1 | 3 | **3.10** | The oldest letter read in this repository. Gabbrielli's 1863 key and glosses did a third of the work; the three long runs he left unread were aligned sign by sign and his null list corrected. Never printed, so the text is new, though the key has been in print since 1902. Two word signs from context and five letter values on this letter only keep V at 3 |
+| p23 | **Duke of Sessa (Luis Fernández de Córdoba) → Charles V**, Rome, 18 Apr 1524, RAH Salazar A-31 ff. 128–131 | 1524 | 2 | 2 | 4 | 5 | 1 | 3 | **2.70** | Key rebuilt from the court's decipherments of sibling letters, so 2. Routine embassy news, though never read: Bergenroth skipped the letter. Research 5: a century typo corrected, eight siblings aligned across three volumes, template matching over ~110 pages. Completeness 3: word-level reading, four groups open |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
@@ -95,7 +96,7 @@ p18 0.50 + 1.00 + 0.80 + 0.50 + 0.20 + 0.40;
 p19 0.50 + 1.00 + 1.00 + 0.40 + 0.20 + 0.40;
 p20 0.25 + 0.75 + 0.40 + 0.30 + 0.10 + 0.40;
 p21 0.50 + 1.00 + 0.80 + 0.40 + 0.10 + 0.40;
-p22 0.75 + 0.75 + 0.80 + 0.40 + 0.10 + 0.30.
+p22 0.75 + 0.75 + 0.80 + 0.40 + 0.10 + 0.30; p23 0.50 + 0.50 + 0.80 + 0.50 + 0.10 + 0.30.
 
 ## By single axis
 

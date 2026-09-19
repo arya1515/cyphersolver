@@ -64,6 +64,7 @@
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
@@ -199,7 +200,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "a9e51999ee7c",
+   "hash": "62f85d19bc7c",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -297,6 +298,11 @@
    "hash": "e990d84671e4",
    "updated": "2026-09-16"
   },
+  "sessa1524": {
+   "first": "2026-09-18",
+   "hash": "0d7b1a496a0e",
+   "updated": "2026-09-18"
+  },
   "soglia1848": {
    "first": "2026-09-18",
    "hash": "8596184dee8d",
@@ -364,7 +370,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "74292bd054da",
+   "hash": "a8cff511e983",
    "updated": "2026-09-18"
   },
   "yard1699": {

@@ -1,0 +1,24 @@
+# Sessa -> Charles V, Rome 18 Apr 1524 (RAH 9/31 = Salazar A-31 f.128r-v; duplicate ff.130-131). Cipher passage, pass 1.
+# Two copies collated (f.128 = R9877_P1 right page; f.130 = R9878_P1 right page). f~ = clear/cipher switch. ꝑo = plural-s sign.
+# ꝺ and 3 are two r-like signs not yet told apart reliably; g and 3 similar; x and ⅄ similar.
+[clear] ... exortase a sus. q buscase alguna buena forma de paz. esto es lo q me ha Referido α—
+L0: f~ v db mus ꝑo rad ꝑo vo ꝑo ler le mus ꝑo lif 3 z y gap le nf 4 do x
+L1: ꝑo Jim nf g ttt bo3 do gap sof ꝺ x α boe ꝺ an # 4 gap g3 oo Є x ꝺ o     (f.130: ...gap g3 oo Є x ꝺ o)
+L2: Є x ꝺ α suf 4 cih ꝑo z rus hay lex f~ me parece q concuerda mucho
+L3: con lo primero y postrero q el dicho obpo dize al maestro de postas
+L4: f~ bla g qid mus 4 ꝺ α α coh α f~ pedirle q haya provisio f~ sof
+L5: per ꝺ α kel ꝑo ttt α ꝑo Jim sof cum nf g ꝺ cih α g ꝺ qid ram
+L6: kef ꝑo v ⅄g gap ꝺ boy kef ꝑo gap lex v ꝺ g bad do f~ pues tiene
+L7: color para ello / aviendo comenzado f~ mus hud suf α Jep 4 bob ꝺ
+L8 (f.128v): q α f~ entender lo q mas podre α— Al visorrey escrivo en el mismo punto / Sa.ma Ce. Ca. Mt. nro sor guarde la Sa.ma persona de V.M. con augmento de mayores Reynos e Senorios / De Roma xviij de Abril 1524
+
+# ---- pass 2 (token sheets tok/f128_L*.png, lines located by ink profile; token numbers in brackets) ----
+# Signs: ꝑo = plural -s (follows the group); ꝑ = y (the p-with-bar sign, = q+ of pass 1); Ɉ = d (hooked y-like sign, distinct from g); ꝺ = r (6-like); 3 = i; g = e; nf = p; 4 = o; α = a; ott = t; tto = b; ttt = c(a)?; cih = su.
+P1: f~ v db | mus | ꝑo?rad | ꝑo?vo | ꝑo | lex | le | mus ꝑo | lif | ꝺ z y | gap | le | nf 4 | do x
+P2: ꝑo | Jim | nf g | ttt | bo3 | do | gap | sof | ꝺ x | α | boe | ꝺ an | # 4 | gap | ꝺ 3 | oo | Є
+P3: Є | x | ꝺ | α | suf 4 | cih | ꝑo | z | rus | hay | lex | f~ me parece q concuerda mucho
+P4: con lo primero y postrero q el dicho obpo dize al maestro de postas
+P5: f~ | b | la | g | qid | mus | 4 ꝺ α | α | coh | α | f~ pedirle q haya provisio f~ | sof
+P6: per ꝺ α | kel ꝑo | ttt α ꝑo | Jim | sof | cum | nf g ꝺ | cih | α Ɉ | 3 | qid | ram
+P7: kef ꝑo | ⅄ | g | gap | ꝺ | boy | kef ꝑo | gap | lex | v | ꝺ | g | bad | do | f~ pues tiene
+P8: color para ello / aviendo comenzado f~ | mus | hud | suf α | lep | ꝑ | bob | ꝺ
