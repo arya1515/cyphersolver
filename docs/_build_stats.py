@@ -81,7 +81,8 @@ def load():
 
 def timeline_svg(items):
     dated = [it for it in items if it['year']]
-    x0, x1 = 1480, 2000
+    x0 = min(1480, int(min(it['year'] for it in dated) // 100 * 100))  # start at the oldest item's century
+    x1 = 2000
     W, H, top, lane_h, r = 1000, 150, 26, 12, 4.5
     def X(y): return 30 + (y - x0) / (x1 - x0) * (W - 60)
     # lane assignment: greedy, avoid overlap within 12 px
@@ -99,7 +100,7 @@ def timeline_svg(items):
     out = [f'<svg class="tl" viewBox="0 0 {W} {H}" role="img" aria-label="Every target placed by date and coloured by outcome" preserveAspectRatio="xMidYMid meet">']
     base = top + nl * lane_h + 4
     out.append(f'<line x1="30" y1="{base}" x2="{W-30}" y2="{base}" class="axis"/>')
-    for c in range(1500, 2001, 100):
+    for c in range((x0 + 99) // 100 * 100, 2001, 100):
         x = X(c)
         out.append(f'<line x1="{x:.1f}" y1="{base-4}" x2="{x:.1f}" y2="{base+4}" class="axis"/>')
         out.append(f'<text x="{x:.1f}" y="{base+18}" class="tick" text-anchor="middle">{c}</text>')
