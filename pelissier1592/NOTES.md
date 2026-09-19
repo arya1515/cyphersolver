@@ -1,4 +1,4 @@
-# A. Pelissier → Pierre Jeannin, Burgos, 13 September 1592 — **read (partly)**
+# A. Pelissier → Pierre Jeannin, Burgos, 13 September 1592 — **read** (94% of the cipher words; key calibrated)
 
 BnF fr. 3982 no. 22, ff. 46r–50r, nine pages; address leaf f. 50v. Gallica ark `btv1b9060543f`; canvases 100–108.
 The letter is mostly cipher, with clear-text passages and a few scattered interlinear glosses by a contemporary
@@ -9,7 +9,37 @@ He reconstructed Pelissier's key from ff. 111 and 50 (nos. 45/46, Madrid, 27 Oct
 decipherment on f. 115). His key image is `league2_key.png`, with zoomed crops in `crops/k0-k3.png`. A web search
 (2026-09-18) found no published decipherment of no. 22.
 
-## Result
+## Pass 3 (2026-09-18/19): key calibrated against nos. 45/46, whole letter re-read
+
+- **Calibration.** Pelissier's letters nos. 45 and 46 (ff. 111r, 113r-v; Madrid, 27 Oct 1592) were aligned sign by sign
+  with their clear-text decipherment on f. 115r-v: 1,764 signs (`cal/align_111.txt`, `cal/align_113.txt`, tables in
+  `cal/table_*.txt`, exemplar crops in `cal/atlas/`). This confirms Tomokiyo's key and splits the look-alike glyph families
+  that pass 1-2 had merged. The result is `GLYPHS.md`. Main corrections: plain 4 is n (or m), never t (t is the hooked z4 / 4y);
+  T with a tail is s (and the hooked τ is g); plain 56 = y, flourished s6 = c; the barred 8 = q; + = h and II = l, never e;
+  π = i, never s (ϖ = s); 7 = b (or h).
+- **Diagnostic.** Before re-reading, a decode that let every token take any letter at a penalty (`diag.py`) showed the merged
+  tokens directly (4 → t 355 times, + → e, II → e, o → r/c, T → p/g), matching what the calibration found.
+- **Re-reading.** All nine pages were re-read row by row against the scans with the split tokens (`PASS3.md`; `# p3:`
+  comments in `t*.txt`; pass-2 states frozen as `t*_p2.txt`, `reading_*_p2.md`).
+- **Coverage.** Counting words inside the deciphered {…} stretches: pass 2 read 3,342 words with 413 [?] gaps (89%, 82%
+  firm); pass 3 reads 3,734 words with 256 gaps (94%, 90% firm; (?) doubtful words fell from 278 to 158). The remaining gaps
+  are single hard glyphs, holes in the paper (f. 50r C13), and a few names.
+- **Code groups.** 315 = the Béarnais (again confirmed: "appeler [315] (comme par miracle) a la succession de ceste
+  dignite"). 310 (f. 50r) = probably the Duke of Savoy: "ne correspondront pas a ce que pretend [310], et l'ambassadeur a
+  esté renvoyé sans aultre esclaircissement sur ses demandes", next to the governor of Milan. 441 (f. 49v) = probably
+  France: "non seulement en [441] mais en toutes aultres regions de la Chrestiente". Each occurs once; context only.
+- **Newly read, for example:** the 500-ducat grant "qui valent enuiron quatre cens cinquante escus, ou plus", payable at
+  Madrid "ou Je me pouuois retirer auec les ambassadeurs et aultres estans par deça de la part de princes estrangiers" (46r);
+  Corbie and Amiens among the Picardy places at risk (46v); the need "que l'on mist sus deux armées" (47r); Mayenne under
+  the cardinal de Bourbon pressing for his "deliurance" (47v); a war "si sanglante … ne pardonnant a aage ni sexe" (48r);
+  "un corps de sept ou huit mil Alemans … Espaignolz et Wallons" (48v); Chartres, Noyon, "les forces d'Allemaigne et
+  Angleterre iointes au [315]", Caudebec, Chasteau Thierry (49r); Philip as "liberateur de la Chrestienté" (49v);
+  "ilz luy diminuent le credit … l'abaisser le plus qu'ilz pourront. Dieu veulle que je me trompe" and Pelissier's plan to
+  take his leave if not provided for within the month (50r).
+- **Still open.** The confessor's name on f. 50r reads c-o-r-n-e | n-t-(u/e) ("Cornente"?), doubtful; about 250 [?] words,
+  listed per page under "Rows still unresolved" in `reading_<folio>.md`.
+
+## Result (pass 2)
 
 - **The key.** Tomokiyo's key reads this letter. It is a homophonic alphabet: 2–7 signs per letter, some two-digit
   number signs (24/26/28/30/33/36/44/56/60/80), `vv` = et, a few doubled-letter signs (rr, ss, uu) and several nulls.

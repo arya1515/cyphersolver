@@ -1,0 +1,210 @@
+# f.113r (img/c234.jpg), Pelissier no. 46 (Madrid 27 Oct 1592), cipher runs aligned against
+#  (a) the interlinear glosses on f.113r itself, and
+#  (b) the clear-text decipherment on f.115r lower half ("Mr. J'ay attendu le temps ...", see clear_113.txt).
+# R<n> = cipher tokens, P<n> = plaintext letter per token. `_` null, `?` unsure, `?x` = probably x.
+# Row numbers = cipher lines of f.113r counted from the first cipher line (row 1 = tail of the 3rd text line).
+# yc = approx. full-res y of the cipher baseline in c234.jpg; x ranges approximate.
+# Split tokens used here (beyond TOKENS.md) are defined in table_113.txt.
+# Cipher wording differs from f.115 in places ("m'arrive autre commandement" vs f.115 "aucun commandement";
+# "je y" vs "J'y"); the plaintext row follows the cipher + gloss, not f.115.
+
+# row 1  yc~2440  x 3950-4330  (after clear "la volonte de Monseigneur et la vostre")
+R1: C  #o 80 pi 36 Lo
+P1: _  _  s  i  v  o
+
+# row 2  yc~2500  "(vo)us eussiez jugé mon sejour plus long par deça" (+ clear "necessaire" in pale ink after it)
+R2: L Tx x0 S  A  3   ph D dz 6d ... X  12 t  4 #  F  4  k  g  33 6f lam d  r  E  II 36 Tx I  Lo 8  12 26 x  Q  #  n  e3 s6 q
+P2: u s  _  e  u  ss? i  e z? j  _   u? g  e  m _  o  n  s  e  j  o? _   u  r  p  l  u  s  l  o  n  g  p  a  r  _  d  e  c  a
+# NB in "eussiez": the tall loop-stroke before A may be A's own lead-in; `3` (ʒ under A) has to carry "ss" (or b/null).
+# X (bold barred ✗) under gloss "u" of "jugé"; 6d = 6 with a dot/flag above = j here.
+
+# row 3  yc~2610  x 3380-4330  (after clear "pour son service je me retourner(ay) a la court")
+R3: #  ... Tp 24 L  30 #  E  r  S  s  v  Q  D  bo F  4  Sg 6f #
+P3: _  _   p  o  u  r  _  p  r  e  n  d  r  e  c  o  n  g  e? _
+# Q = big closed-loop ∂ (r); D = small ∂ with ascender bent left (e); bo = ball with long stroke rising right (c).
+
+# row 4  yc~2700  "du roy je y sejourneray quelques jours pour m'instruire"
+R4: 6  A  30 F  44 n  g  60 lam H  e3 ph o  36 r  8  S  30 q  56 Hq ?  D  p  Z8 d  t  80 6f Lo 36 r  Tx E  24 L  Q  4  33 #  8  Tx x0
+P4: d  u  r  o  y  j? e? y  _   s? e  j  o  u  r  n  e  r  a  y  q  u? e  l  q  u  e  s  j  o  u  r  s  p  o  u  r  m  i  _  n  s  _
+# n g = "je" of the gloss "Je y" (f.115: J'y); H (slanted ℋ, no lead-in) sits where gloss has "s" of sejourneray.
+# Z8 = 8 with a horizontal bar through it (q).  Tx = flat ⊤ with a 2/x-shaped tail = s (tt).
+
+# row 5  yc~2790  x 1650-2250, then clear "le mieux qu'il me sera possible et prendre quelque lumiere", then T at line end
+R5: h  30 A  33 r  g  lam ... T
+P5: t  r  u  i  r  e  _   _   a
+
+# row 6  yc~2880  "(a)ux resolutions qui s'y preparent pour l'advenir si"
+R6: 36 lam oH C  30 S  80 Lo II L  4  pi o  s  dz 28 e# ph Tx 56 #3 r  D  26 T  Q  e3 4  4y #  Ip F  A  30 p  x  v  A  Te 8  x0 6f r  80
+P6: u  _   x  _  r  e  s  o  l  u  t  i  o  n  s  q  u? i  s  y  p? r  e  p  a  r  e  n  t  _  p? o  u  r  l  a  d  v  e? n  _  i? r  s
+# 4 = t in "resolutions"; 56 (plain, no flourish) = y in "s'y".  Ip = ⊥/I-shaped sign standing where "p" of pour is.
+
+# row 7  yc~2975  "(s)i la il ne m'arrive autre commandement je prendray le"
+R7: pi II q  ph I  4  e3 ... oo T  rr 6f 36 e3 T  A  h  30 S  #  dc Ib HH 4  x  8  n  D  oo t  s  24 ph lam g  E  r  e3 8  n  Q  q  44 ... I
+P7: i  l  a  i  l  n  e  _   m  a  rr i  v  e  a  u  t  r  e  _  c  o  m  m  a  n  d  e  m  e  n  t  j  _   e  p  r  e  n  d  r  a  y  _   l
+# rr = single tall ∫ with left-curling foot (gloss "rr" of m'arrive).  24 = t here (key t cell "z4").
+
+# row 8  yc~3065  "e chemin plus court pour aler trouver [Mr] esperant"
+R8: S  z  +  D  HH 33 o  8  26 p  X  80 s6 F  A  30 4y #  I  6f d  30 x  m  t  8  h  r  9  f  e3 30 262 ... S  h  r0 D  Q  30 q  4  4y #o
+P8: e  c  h  e  m  i  ?  n  p  l  u  s  c  o  u  r  t  _  p? o  u  r  a  l  e  r? t  r  o  u  e  r  Mr  _   e  s? p? e  r? r? a  n  t  _
+# 262 = code group with gloss "Mr" (f.115: "pour aller trouver Mr.").  s6 = flourished 56 = c (court).
+
+# row 9  yc~3150  "de sa bonte et vostre amitie qu'il ne me sera imputé a"
+R9: n  t  80 T  7y I  8  h  g  w  36 6  sQ 24 3  x0 e3 f  oo pi 4y ph S  C  28 X  6f p  4  D  4  t  Tx g  Q  T  33 HH E  d  4  e3 q
+P9: d  e  s  a  b  o  n  t  e  et v  o  s  t  r  _  e  a  m  i  t  i  e  _  q  u  i  l  n  e  m  e  s  e  r  a  i  m  p  u  t  e  a
+# 7y = "7"-like ɤ/ƴ with crossbar (gloss "b" of bonte) - the key's b sign, NOT h.  I (flat-topped Ɨ) = o in bonte.
+# sQ = tall ʃ with a closed loop at its foot (s).  4 in "imputé" = t.  q at line end = a.
+
+# row 10 yc~3240  "faulte d'avoir usé de ceste façon apres avoir deme(uré)"
+R10a: q  x  36 I  4y S
+P10a: f  a  u  l  t  e
+R10b: sQ 6  D  s  f  A  o  pi r
+P10b: _? d  ?  ?  a  v  o  i  r
+# gloss "d'avoir" above; D s = 2 signs with no letter to take (apostrophe? "de avoir"?) - not forced.
+R10c: X  4# t
+P10c: u  s? e
+R10d: n  g  dc e3 8  9  h
+P10d: d  e  c  e  s? t? t?
+# "ceste": 8 and 9 do not fit their key values (n, f); unresolved. Then "S S uavrg F so .. F 8 q z 8 D D T" = "façon apres":
+# NOT aligned (small cursive signs, probably partly a clear word written in cipher-hand; gloss illegible).
+R10e: T  X  Lo ph 8  v  e3 oo g
+P10e: a  v  o  i  r? d  e  m  e
+# 8 = r in "avoir"?? (key 8 = n).  Gloss "avoir" + "dem" confirms the rest.
+
+# row 11 yc~3320  "(deme)uré un an entier sans nouvelles de sa part" then clear "lesquelles je n'ay peu recevoir d'ailleurs..."
+R11: X  L  30 e3 A  4  lam x  8  S  s  4y D  8  D  30 C  Tx f  4  80 ... 4_ 8  s6 t  8  dz n  g  80 T  Tp 6  q  r  24 #  C
+P11: _  u  r  e  u  n  _   a  n  e  n  t  i? e? ?  r  _  s  a  n  s  _   n? o? u? v? e? ?  d  e  s  a  p  ?  a  r  t  _  _
+# "nouvelles": 6 signs for 9 letters -> not forced (marked ?). "entier": D 8 D for "ie" -> one extra sign.
+
+# row 12 yc~3490  (after clear "...difficulte et incommodite") "et six mois sans avoir receu aucunes lettres ny ..."
+R12: w  k  pi oH oo lam Lo ph Sc ... 80 f  8  dz T  36 F  6^ r  Q  S  q  C  D  A  q  L  dc #x 8  t
+P12: et s  i  x  m  _   o  i  s  _   s  a  n  s  a  v  o  i  r  r  e? c? _  e? u  a  u  c  u  n  e
+# Sc = long ʃ with a c-hook at the top-right (s).  "receu" = Q S q C D A: gloss "rece" only partly legible.
+R12b: I  9  4y 4y 30 D  80?
+P12b: l  e? t  t  r  e  s
+# the rest of row 12 ("s D f SS m d 8 f 4 :") = "ny nouvelles ny"? not aligned.
+
+# row 13 yc~3570  "commandemens de luy ny de Monsieur ..."
+R13: 4  dz 24 HH 4_ q  s  n  t  oo g  8  h  v  e3 II L  60 X  4  #  60
+P13: n? c  o  m  m  a  n  d  e  m  e  n  t  d  e  l  u  y  _  n  _  y
+# glosses "n co mm and dem(ens)" over it.  dz (δ-over-ʓ ligature) = c here, not s.
+
+# --- continued (second session). Clear text corrected: f.115v reads "ny de vous Monsieur qui m'avez tant asseuré que
+#     je serois satisfait a toutes les occasions" (not "de Monsieur qui m'eust").
+# row 13 tail  yc~3605  x 3150-4420, after "...60 X 4 # 60" (ny). Gloss "(de) ... sieur ... qui m'"
+R13b: m  Y  d  Lo F  30 dz HH Lo 3  tt pi D  e3 r  H  X  ... A  ph X
+P13b: d  e? v  o? u? ?  s  m  o  n? s  i  e  u? r  q  _  _   u  i  _
+# Y = big ɤ (no crossbar) under "de" - not in key as e; unsure. tt = π with k-like tail (πk) = s.  H = ℋ (no lead-in) = q.
+# 3 (pale ʒ) stands for n of Monsieur?? (or null; then one letter missing).
+
+# row 14  yc~3690  "m'aviés tant asseuré que je serois satisfaict a toutes"
+R14: 4  q  Xu  33  t  80  4y  T  4  z4  f  J  S  d  r  e3  28  L  D  p  s6  Tz  S  30  o  dl  pi  4y  80  x  h  ph  k  9  q  6^  s6  z4  f  h  dl  36  z4  dz
+P14: m  a  u  i  e  s  t  a  n  t  a  ss e  u  r  e  q  u  e  j? e? s  e  r  o  ?  i  t? s  a  t  i  s  f  a  i  c  t  a  t  o  u  t  s
+# 4 (plain, long stem, no base) = m in "m'aviés" (gloss "m'auiez"); 4 = n in "tant".  Xu = ✗ with a J-hook (key u cell 4).
+# z4 = small z+4 (key t cell) = t.  4y (4 with y-loop tail) = t.  Tz (T with z-tail, key s cell 4) = s, NOT g.
+# 6^ = bold 6 = i (satisfaict); s6 = flourished 56 = c (satisfaiCt).  p s6 under "je": not forced (p = φ-long = i/j?).
+# "serois" has one surplus sign (o + dl), and "toutes" lacks its e.  dl = δ with tall straight ascender (o).
+
+# row 15  yc~3790  "(les) occasions si dieu me faict la grace d'arriver sans"  (gloss confirms throughout)
+R15: 24 ... fe z  x  80 pi dl 4  Tz dz ph n  6^ t  A  HH g  r0 q  33 dc 4y p  f  12 r  q  dc e3 6  #  60 T  rr pi d  S  30 k  f  8  Tz X
+P15: o  _   c  c  a  s  i  o  n  s  s  i  d  i  e  u  m  e  f  a  i  c  t  l  a  g  r  a  c  e  d  _  _? a  rr i  v  e  r  s  a  n  s  _
+# "les" of "a toutes les" not in the cipher (or merged in row 14's end).  fe = long ʃ carrying a small ε (c, gloss "oc").
+# 4 = n (occasioNs); 8 = n (saNs); 6^ = б, 6 with a flat top bar = i (dIeu); 6 (plain, no bar) = d (d'arriver).
+# p (long stem, loop at top right) = l (La).  r0 = small plain r = f (Faict).  Tz = s twice.  12 = g (Grace).
+# X at line end = bold ✗ null.  60 after "d # " has no letter (null or doubled a?).
+
+# row 16  yc~3885  x 1650-3200 "fortune ce sera avec l'intention", then clear "de service en ce que je seray jugé capable ..."
+R16: 9  24 Q  h  A  s  D  80 t  dz g  30 f  q  L  e3 ... dc 33 C  8  4y S  s  h  ph Lo 4  X  lam
+P16: f  o  r  t  u  n  e  s  e  s  e  r  a  a  v  e  _   c  i  _  n  t  e  n  t  i  o  n  _  _
+# 9 (ϙ-like 9 with open descender, gloss "f") = f.  Q = closed-loop ∂ = r.  "ce" is spelt "se" (80 t).
+# Lo here is a cross whose vertical rises well above the bar and barely below it (⊥, o) - easily taken for + (h).
+# "l'" of l'intention: no sign (C, a null, stands there).  4 = n (intentioN).
+
+# row 17  yc~4365  after clear "...et monstrer son filz en quartion(?)" ; f.115v: "et ce quartier pour divertir l'esp(er)ance que les peuple(s)"
+R17: lam E  #o F  36 r  ... n  pi L  D  Q  z4 ph r  II t  Tl #  Tp q  4  dz II 80 C  H  X  e3 I  S  80 lam 26 #o A  E  II t  dz
+P17: _   p  _  o  u  r  _   d  i  v  e  r  t  i  r  l  e  s  _  p  a  n  c  e? s? _  q  u  e  l  e  s  _   p  e? u  p  l  e  s
+# "l'esp(er)ance": the decipherer's gloss writes p-with-bar over Tp; the cipher has no signs for "er".  The II after dz
+# (x~3160) must be e if the word is "esperances" - suspicious, see table (II = l everywhere else).
+# X = u in "que" (bold ✗ here is u, not null).  I = l, S (tall double ʃʃ) = e in "les".  #o (‡ on δ) under "pe" of peuples: e?
+# Tl = T with an ℓ-loop (like Tz) = s.  26 = p.
+
+# row 18  yc~4455  "(peuples) de la [prouince?] tournent sur celuy qui ... [la fille]"  (f.115v: "peuple de la p... tournent
+#   sur celuy(?) qu'il y porte la fille(?)" - clear copy itself hard to read here)
+R18: #x n  g  p  T  26 #  d  f  Lo ph e3 8  4y z4 24 L  30 X  8  S  o. Tz ... A  r  s  D  p  d  44 Z8 L  #  36 pi t  8  E  dl r  4y q
+P18: _  d  e  l  a  p  _  ?  ?  o  ?  ?  ?  t  ?  o  u  r  _  n  e  n  s? _   u  r  c? e  l  u  y  q  u  _  ?  ?  ?  ?  p  o  r  t  a
+# gloss: "de" / "la" / "p?o?ssession|prouince" / "tournent" / "sur" / "celuy?" / "qui" / ... / "fille".  Only the anchored
+# words are trusted: "de la", "tour(n)ent", "sur", "celuy", "qui", "porta".
+# 8 = q in "qui" (gloss q directly over the 8); 44 = y (celuY); Tz ııı A r = "sur" (Tz = s).  s under gloss "c" of celuy?
+# row 18 tail re-read with row 19: "... sur celuy qui en porta le tiltre": 8 L # 36 pi t 8 E dl r 4y q = q u _ ? i e n p o r t a
+#   (36 surplus).  So E = p, dl (δ with ascender) = o, 4y = t, q = a (porta; clear copy "porte").
+
+# row 19  yc~4545  x 1600-2250, then clear "aussy pour donner loysir a ceulx qui sont assemblez a"
+R19: II e3 bc  4y ph p  z4 Q  S  #
+P19: l  e  _   t  i  l  t  r  e  _
+# gloss "tiltre".  4 = t here (tilTre); Q (closed-loop ∂) = r.  bc = small backward ɔ = null.
+
+# row 20  yc~4665  x 2830-4450, after clear "...assemblez a Tarassone pour les estatz d'Arragon"
+#   f.115v: "de penser et deliberer consentir"; the cipher (and gloss) say "de penser en leur conscience"
+R20: #o n  e3 26 S  4  Tz D  Q  t  8  II g  A  30 dc F  8  Tz s5 rho  pi e3
+P20: _  d  e  p  e  n  s  e  r  e  n  l  e  u  r  c  o  n  s  c  _? i  e
+# 4 = n (peNser).  s5 = small ʂ/5-like s with a tail curling down-left = c (consCience; also celuy, row 18) - not the n "s".
+# rho = small loop with tail (δ-like, pale): no letter. word continues on row 21 ("nce").
+
+# row 21  yc~4755  "(conscie)nce sur quelques articles qu'il leur a faict proposer"  (gloss throughout)
+R21: lam 4  dc S  80 Xu r  ... d  Z8 L  D  p  H  A  t  Tz 9  Q8 4y 33 s6 II g  k  Z8 36 pi I  B  e3 Xu 30 f  9  x  dl z  24 r  Lo E  dl dz S
+P21: _   n  c  e  s  u  r  _   ?  q  u  e  l  q  u  e  s  a  r  t  i  c  l  e  s  q  u  i  l  l  e  u  r  a  f  a  i  c  t? r  o  p  o  s  e
+# 8 = q twice (Quelques, Qu'il); H (ℋ without lead-in) = q.  Q8 = 8-shaped closed loop with a hooked top = r (aRticles),
+#   not n: compare row 10 "avoir" where an "8" also stands for r.  4 = n (Nce).  s6 = c.  Xu (✗ with J-hook) = u twice.
+# B = bold β/ß-like sign = l (Leur).  9 = a here ("articles"; key a cell ϙ) but f in Faict: 9 serves both (see table).
+# "proposer": the p has no sign (24 before r may be it - key p has 26, not 24) ; "er" runs on to row 22.
+#  (row 21 end corrected: "... dl dz S" = o s e ; the r of proposeR is the 30 opening row 22.)
+
+# row 22  yc~4830  "(propose)r pour les tenir desormais en ..."  (f.115v paraphrases: "pour les unir ... et oster ce plus")
+R22: 30 T  dl g  r  II D  8  f  4y #  t  4  pi Q  n  g  k  F  30 HH T  ph Tz E  8
+P22: r  p  o  u? r  l  e  ?  s  t  _  e  n  i  r  d  e  s  o  r  m  a  i  s  e  n
+# gloss "pour", "les", "tenir", "desormais", "en".  4 = n (teNir); Q = r (tenir); F = o (desOrmais); Tz = s.
+# g under "u" of pour: g (ʒ with closed lower loop) is e everywhere else - probably a slip or a u-glyph I cannot separate.
+# 8 after "le" has no letter ("les" = II D + f(long ʃ = s?)).  Rest of row 22 (v ııı SS Xu 26 6 ...) not aligned.
+
+# ======================= f.113v (img/c235.jpg), cipher block at the top =======================
+# Above V1 the gloss line "L'Inquisition ... a Sarragosse de laquelle il veult faire une" (f.115v: "la maison ou se tient
+# l'Inquisition a Sarragosse de laquelle il veult faire une citadelle pareillement ...").
+# V1  yc~2050  x 1050-4000
+V1: z4 p  ph 8  H  X  6^ Tz 33 4y ph dl 8  q  dz T  rr x  gz Lo J  S  n  t  p  f  28 Xu D  m  g  6^ II L  e3 d  I  z4 9  x  pi r  S  A  C  4  D
+Q1: _? l  i  n  q  u  i  s  i  t  i  o  n  a  s  a  rr a  g  o  ss e  d  e  l  a  q  u  e  l  e  i  l  v  e  u  l  t  f  a  i  r  e  u  _  n  e
+# Every sign anchored by the gloss.  X (plain bold ✗) = u in inQUisition; Xu (✗ with J hook) = u in laqUelle.
+# 6^ (б) = i twice.  II = l (iL veult).  4 = n (uNe).  8 = n twice.  H = q.  9 = f (Faire).  m = l (laqueLe).
+# rr = single tall ʃ = rr (saRRagosse, as in key).  gz = ε-like sign with a top tail = g.  z4 (first sign): null or "l'".
+
+# V2  yc~2145  gloss "citadelle pareillement pour n'estre importuné en l'executi(on)"
+V2: z  ph 4y T  n  t  m  g  E  x  r  e3 pi m  S  4b D  4  z4 Tp dl L  Q  8  t  Tz 4y 30 9  6^ HH 26 F  30 4y A  4  e3 S  s  II D  oH t  dc X  4y ph
+Q2: c  i  t  a  d  e  l  e  p  a  r  e  i  l  e  m  e  n  t  p  o  u  r  n  e  s  t  r  e  i  m  p  o  r  t  u  n  e  e  n  l  e  x  e  c  u  t  i
+# 4b = 4 whose stem ends in a foot/curl (pareileMent) = m, next to a plain 4 = n (pareilemeNt), see atlas.  4 = n (importuNe).
+# z = c (Citadele).  Tp = cross-topped hooked T with a descender = p (Pour).  L (ℓ, e-like loop) = u (poUr).
+# 9 (ϙ with open descender) = e here (n'estrE)?? - 9 is f elsewhere; could be the key e cell "g" written open. Marked in table.
+# X (bold ✗) = u (execUtion).  oH = x.  dc = c.  D = e twice.  m = l (citadeLe, pareiLement).
+
+# V3  yc~2240  gloss "(executi)on de la justice qu'il veult estre faicte de b(i)en ..."
+V3: Lo s  n  g  p  T  pi X  k  4y ph 6c e3 28 D- 33 p  36 S  A  II z4 D  80 h  r  t  v  f  pi dc 4y 9
+Q3: o  n  d  e  l  a  j  u  s  t  i  c  e  q  u  i  l  v  e  u  l  t  e  s  t  r  e  f  a  i  c  t  e
+# Lo = o, s = n (executiON).  g here has a short straight tail (q-like) but is e (dE).  X (bold ✗) = u (jUstice).
+# 6c = 6 with a flourish on top (б-flourish, key c cell 3) = c (justiCe).  D- = ∂ with a crossbar = u (qUil)?
+# 4 = t (veulT).  v (ɤ) = f here (Faicte; half of a vv?).  f (long ʃ with crossbar) = a (fAicte), as in the key.
+# 9 at the end = e (faictE) - same q/9/g-family problem as V2.  36 read as 36 (u/v); could be 26.
+
+# V3 end (x 2900-4100, continues V3): "de b(i)en trois c(ens)"  - gloss partly legible
+V3b: ... v  e3 Xb f  S  8  h  r  Lo pi Tz dc
+Q3b: _   d  e  b  ?  e  n  t  r  o  i  s  c
+# (the 9 before ııı is V3's last sign, faictE.)  v (ɤ) = d here (De) but f in Faicte (V3).  f under the i of bien: ?
+# Xb = ✗ with a horizontal bar (Ӿ) = b (Bien), key b is ɤ-with-bar; not u, not null.
+
+# V4  yc~2335  "(c)ens personnes a ce que l'on m'a asseuré qu'ils ..."
+V4: D  4  tt Tp e3 t  30 dz Lo o. 9  80 q  s6 e3 Z8 H  f  Y  II Lo 4  q  80 t  T  f  D  X  r  t  H  A  pi
+Q4: e  n  s  p  e  _  r  s  o  n  e  s  a  c  e  q  u  e? _  l  o  n  ?  ?  ?  ?  ?  e  u  r  e  q  u  i
+# tt = π with a hooked tail (ϖ) = s (ceNS).  o. = o with a dot = n.  8 = q (Que).  9 = e (personnEs).
+# X (bold ✗) = u (asseUré).  H = ℋ with heavy strokes = q (Qu'ils).  "m'a ass-" not aligned (q 80 t T f).
+
+# --- retokenised after zoom checks (see table_113.txt, "families"):
+# R19 tilTre and V3 veulT: the "4" is z4 (4 with a hooked lead-in on the crossbar), not plain 4.
+# V2 4b (pareileMent) has a foot serif; R14 m'aviés 4 shows no foot at this resolution (left as 4).
+
+# 8 retokenised Z8 (8 with a horizontal stroke through the waist) where it = q: R18 qui, R21 quelques/qu'il, V4 que.

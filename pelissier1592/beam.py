@@ -41,7 +41,7 @@ def decode(toks,B=300,PEN=1.0,ret_all=False):
         cur=list(seen.values())[:B]
         if i==n: return cur[0]
         t=toks[i]
-        opts=[(1,C.get(t,[('['+t+']',0)]))]
+        opts=[(1,C.get(t,[('['+t+']',4)]))]
         for L in (2,3):
             if i+L<=n and tuple(toks[i:i+L]) in MULTI: opts.append((L,MULTI[tuple(toks[i:i+L])]))
         for L,cands in opts:

@@ -1,0 +1,180 @@
+# f.111r (no. 45) token -> letter table, from cal/align_111.txt (R1-R10 top half, R11-R23 bottom half to "conserver").
+# Regenerate: python table111.py (counts) ; python mktable111.py (this file).  "_" = null, "?" = unresolved.
+#
+# TOKEN LEGEND (tokens beyond TOKENS.md, and splits of its merged families)
+#  dp   delta with a straight/looped ascender and a round closed bowl (the "o" of TOKENS)      -> o
+#  dc   delta whose top curls back over to the left in a hook (key c column, 1st cell)       -> c
+#  D    small open-curl delta / backward-6, no ascender loop                                  -> e (once c)
+#  Q    big open upper loop over a closed bowl (the r-glyph)                                   -> r
+#  Q8   delta with a CLOSED loop on top of the bowl (8-like)                                   -> r  (8o, same family: o once)
+#  rho  small p-loop (top half only)                                                            -> o / l
+#  qo   ring sitting on a straight descender (female-sign shape)                               -> a (11), o (1, "volonte")
+#  q9   9-shaped: open bowl + descender                                                        -> f
+#  q    top-half transcription of the ring-on-stem family (not split there)                    -> a
+#  T    flat-topped T                                                                          -> a
+#  Tr   small T whose bar ends in a hook to the right (tau)                                    -> s
+#  Tp   T with hooked top (top half, "par")                                                    -> p
+#  T~   top-half name for pi/T with a tail                                                     -> s
+#  T+   T whose stem is crossed (dagger-like)                                                  -> a
+#  f    tall long-s crossed by a bar (reaching well above the line)                            -> a (once e)
+#  t    small crossed t / epsilon-with-tail                                                    -> e
+#  t4   small t with a tail (only in "que", R20)                                               -> q?
+#  4    plain 4                                                                                -> n (24), m (5), t (2)
+#  4_   4 with a base / cross foot (top half)                                                  -> m
+#  4y   4 whose cross-stroke ends in a curl/loop                                               -> t
+#  z4   z joined to 4                                                                          -> t
+#  8    plain 8                                                                                -> n (19), q (3)
+#  8o   8 with an open looped ascender                                                         -> o ("honnestete")
+#  B8   8 crossed by a slanting stroke                                                         -> u ("une")
+#  Z    8/x in a box                                                                           -> s ("use"), z ("hazard")
+#  X    x whose lower-left stroke has a loop / bar                                             -> u / v
+#  #x   bold plain X-cross (the null form)                                                     -> null
+#  x    small plain x                                                                          -> a
+#  Hh   slanted H preceded by a 6-shaped lead-in loop                                          -> q ("que") and g ("guelle", "longuement")
+#  H    plain slanted H                                                                        -> q
+#  hb   h with a bar through the stem ("m'est")                                                -> s?
+#  7    y-shape / 7 with crossbar                                                              -> h (top half), b ("bonne"); 7b = b ("tumber")
+#  eL   loop-l                                                                                 -> u
+#  u    small cursive u                                                                        -> d (4x)
+#  n    top-half cursive n                                                                     -> d
+#  d    looped-ascender d                                                                      -> u
+#  s6c / s6   flourished 56: the 5 is a long s-like stroke with a hook, the 6 sits high       -> c
+#  56   compact plain "56"                                                                     -> y (Ducroy, jay) ; c in R17 "indiscretement" (flourished form, see atlas c_56)
+#  6^   6/8 with a flat bar on top                                                             -> i
+#  lam  lambda-like cross with long ascending stroke                                           -> null
+#  V    v-shape (R20 "grandeur")                                                               -> g?
+#  Fo/Fu top-half split of F (double-barred) read o / u;  F (bottom half)                      -> o
+#  K / k                                                                                       -> s
+#  dz   delta over z ligature                                                                  -> s
+#  J    tall double long-s                                                                     -> ss (once s, "sieur")
+#  II   box-like double bar -> l ;  I plain barred I -> l ;  Lo bold-footed inverted T -> o
+#  tt   pi with an s-like hook on top                                                          -> i ("mettrois"), s (top half)
+#  Other tokens as in TOKENS.md.
+
+# COUNTS  token  n  letter:count ...
+4        32  n:24  m:5  t:2  ?:1
+t        29  e:28  ?:1
+S        29  e:29
+D        27  e:25  c:1  ?:1
+r        25  r:23  ?:2
+e3       25  e:23  ?:2
+8        23  n:19  q:3  _:1
+A        22  u:17  v:4  ?:1
+30       21  r:20  ?:1
+pi       20  i:14  j:4  ?:2
+h        20  t:19  ?:1
+9        19  e:16  f:3
+z4       17  t:17
+v        16  d:16
+X        16  u:13  _:2  v:1
+HH       15  m:15
+Q        15  r:15
+T        14  a:13  o:1
+x        14  a:13  _:1
+s        14  n:13  ?:1
+4y       13  t:13
+g        13  e:13
+dp       13  o:13
+eL       12  u:11  v:1
+dc       12  c:10  ?:1  e:1
+Lo       12  o:12
+ph       12  i:12
+E        12  p:6  e:6
+qo       12  a:11  o:1
+f        11  a:10  e:1
+...      10  _:10
+80       10  s:10
+dz       10  s:10
+oo       10  m:9  ?:1
+q         9  a:9
+K         9  s:9
+#         8  _:8
+36        8  u:6  v:1  o:1
+I         7  l:7
+C         7  _:7
+z         7  c:6  ?:1
+II        7  l:7
+Tr        7  s:5  r:1  ?:1
+56        7  c:5  y:2
+#o        6  _:6
+n         6  d:6
+#x        6  _:6
+d         6  u:4  v:1  ?:1
++         6  h:6
+s6c       6  c:6
+Fo        6  o:5  u:1
+24        6  o:6
+44        5  y:5
+H         5  q:5
+Fu        5  u:5
+60        5  y:5
+vv        5  et:4  ff:1
+6         5  d:2  i:2  y:1
+p         5  l:4  ?:1
+33        5  i:3  j:2
+T~        5  s:5
+J         5  ss:4  s:1
+u         5  d:4  ?:1
+rho       4  o:2  l:2
+7         4  h:2  ?:1  b:1
+4_        4  m:4
+26        4  p:4
+lam       4  _:4
+k         3  s:3
+Tz        3  g:2  z:1
+6^        3  i:3
+28        3  q:3
+Tp        3  p:2  ?:1
+q9        3  f:3
+m         3  l:3
+Hh        3  g:2  q:1
+Q8        3  r:2  ?:1
+s6        2  y:1  c:1
+oH        2  x:2
+tt        2  s:1  i:1
+o.        2  n:2
+Z         2  s:1  z:1
+8o        2  o:1  ?:1
+19        2  f:2
+F         2  o:2
+8b        1  u:1
+?blot     1  _:1
+dx        1  c:1
+?pp       1  ?r:1
+o         1  o:1
+?blotq    1  q:1
+h2        1  s:1
+As        1  s:1
+L         1  v:1
+hb        1  s:1
+z?        1  g:1
+T+        1  a:1
+7b        1  b:1
+B8        1  u:1
+V         1  ?:1
+t4        1  q:1
+a         1  ?:1
+t?        1  ?:1
+
+# DISAGREEMENTS with Tomokiyo's key (league2_key.png) / TOKENS.md, with row refs (Rn.i = row n, i-th token)
+- 4  = m: R11.30 R11.34 R17.5 R18.3 R19.10  [me, commettre, on m'a, tement]. Plain 4 = t: R1.34 R23.36.
+     Shape check (atlas m_4_*, n_4_*): m-4s are not visibly different from n-4s; the n-4 of "pardon" even has a foot bar.
+- 8  = q: R2.8 R15.16 R16.19 ("que" x3).
+- X  = null: R11.3 R19.43 (bold plain cross; the looped/barred X is always u/v).
+- A  = v: R8.21 R15.37 R20.15 R22.15 ; A read i? once in "prejudice" (R20).
+- 6  = i: R11.18 R19.36 ; = y: R15.35 ; = d: R3.1 R12.17.
+- 56 = y: R12.25 R21.30 (compact 56: Ducroy, jay); the flourished s6/s6c = c. TOKENS says 56 = c always.
+- qo (ring-on-stem, key a) = o: R15.26 ("volonte").
+- 36 = o: R15.28 ("volonte", key u).
+- Hh = g: R19.18 R23.30 ("guelle", "longuement"); = q in "que": R17.33.
+- Tr (tau) = s: R17.2 R17.11 R19.33 R20.17 R22.11.
+- f (tall crossed long-s, key a) = e once: R6.23.
+- E: square E = p R6.10 R9.40 R11.26 R20.4 R21.17 R23.23 ; round epsilon (e3) = e; E read e: R6.31 R7.29 R8.5 R8.36 R9.18 R9.39.
+- pi = j: R2.11 R6.32 R21.28 R23.37 ; 33 = j: R18.7 R20.34 (i/j same letter).
+- tt = i (key s): R18.16.
+- hb = s (not in key) R11.13 ; t4 = q? R20.30.
+- 7 = b (key h): R15.21 ; 7b R19.1.
+- B8 = u (not in key): R19.7.
+- Z = s: R14.20 ; Z = z: R18.24.
+- 44 = y, 60 = y, 24 = o, 26 = p, 28 = q, 19 = f, 33 = i/j: as in the key.
+- Signs not in the key/TOKENS: hb, B8, T+, Hh (as q/g), t4, V; lighter-ink corrections (Lo/8/pi/4 in R21, dc in R16).

@@ -1,0 +1,138 @@
+# f.111r (img/c230.jpg), Pelissier to Mayenne, Madrid 27 Oct 1592 (no. 45). Cipher aligned against the interlinear
+# glosses on f.111r and the clear-text decipherment on f.115r (top half, to "De Madrid le xxvij octob. 1592 Pellissier").
+# One token per cipher sign; P rows give the plaintext letter for each token (`_` null, `?` unsure, `=` word gap not used).
+# Word boundaries are shown with ` | ` in both rows. Token names: see table_111.txt (legend at top).
+# Line numbers Cn = cipher lines of f.111r from the top; approx y (full-res) in brackets.
+
+# C1 [y~750]  ayant demeure un an entier sans aultres moyens
+R1: q #o 44 ... T 8 4y # | n D HH t eL r g | #x A 8 | x s | e3 4 z4 pi S Q | 80 T s dz | f d I 4 30 D k | oo rho s6 t C 4 dz
+P1: a _  y  _   a n t  _ | d e m  e u  r e | _  u n | a n | e  n t  i  e r | s  a n s  | a u l t r  e s | m  o   y  e _ n s
+
+# C2 [y~880]  que ceux que j'ay recherché ça et là sur mon credit
+R2: H Fu g | dc e3 A oH | 8 8b S | pi x 60 | 30 D z + t r s6c 7 ?blot g | dx q | vv | II T | K Fu 30 | HH Lo 8 | dc r e3 v ph z4 ...
+P2: q u  e | c  e  u x  | q u  e | j  a y  | r  e c h e r c    h _     e | c   a | et | l  a | s u  r  | m  o  n | c  r e  d i  t  _
+
+# clear: "avec beaucoup de difficulte et impossibilite", then cipher tail [y~960]: de les restituer
+R3: 6 e3 p #x S 80 | Q D k h 33 z4 eL t ?pp #x
+P3: d e  l _  e s  | r e s t i  t  u  e ?r  _
+
+# C3 [y~1060]  du mien et six mois sans que m'ayez faict cest honeur
+R4: v A | oo pi 9 4 | vv #o | dz ph oH | HH o pi tt | 80 f s K | H Fo e3 | 4_ x 60 S Tz | 9 q 6^ z 4y | s6c D 80 z4 | + rho o. t d Q
+P4: d u | m  i  e n | et _  | s  i  x  | m  o i  s  | s  a n s | q u  e  | m  a y  e z  | f a i  c t  | c   e s  t  | h o   n  e u r
+
+# C4 [y~1180]  de me commander aucune chose pour vostre service
+R5: n g C HH e3 | dc Fo oo 4_ f 8 v S 30 | T A dc Fu 4 D | z + 24 dz t | 26 Lo X r | 36 Fo K z4 Q g | dz e3 r X pi s6c S
+P5: d e _ m  e  | c  o  m  m  a n d e r  | a u c  u  n e | c h o  s  e | p  o  u   r | v  o  s t  r e | s  e  r u   i c   e
+
+# clear: "quoy que je vous aye informe infinies fois combien il mestoit necessaire quil fust pourveu a lun et laultre
+#  se mest Monseigneur un argument", then cipher:
+# C5 [y~1520]  suffisant pour cognoistre que mon sejour
+R6: 80 #o X vv ph T~ q 4 h | E dp A r | s6c T Tz 4 Lo pi T~ z4 Q f | 28 eL 9 | 4_ dp s | dz E pi 24 eL
+P6: s  _  u ff i  s  a n t | p o  u r | c   o g  n o  i  s  t  r e | q  u  e | m  o  n | s  e j  o  u
+# NB "cognoistre": T (flat) read o, f (crossed long s) read e -- both off-key, see table. 24 in sejour = o.
+
+# C6 [y~1620]  r(sejour) par deca ne vous est utile ny necessaire et encor
+R7: 30 | Tp q Tr | n S dc q | 8 D | eL Fo 36 K | t 80 4y | ... A z4 pi I g | 8 #x 44 ... | s E s6c S J q ph 30 D | vv t 8 D 7 Lo 30
+P7: r  | p  a r  | d e c  a | n e | v  o  u  s | e s  t  | _   u t  i  l e | n _  y  _   | n e c   e ss a i r  e | et e n c ? o  r
+# (7 in "encor": no letter; either a slip or a null)
+
+# C7 [y~1720]  es que y estant venu par vostre commandement il
+R8: g T~ | ?blotq X E | 60 | S dz z4 q s 4y | d D 8 36 | Tp x r | ... A 24 T~ h 30 t | dc Fo 4_ HH x 8 n g oo E s h | 6^ p
+P8: e s  | q      u e | y  | e s  t  a n t  | v e n u  | p  a r | _   v o  s  t r  e | c  o  m  m  a n d e m  e n t | i  l
+# C7 end / C8  eust este seant que [j]eusse attendu vostre conge pour
+R9: S # 36 h2 h | D k z4 t | As g f 8 4y | 28 C A E | S Fu J D | q h t 4 n Fu | L dp T~ 4y r 9 | s6c Lo 4 Tz E | E 24 d 30
+P9: e _ u  s  t | e s t  e | s  e a n t  | q  _ u e | e u  ss e | a t e n d u  | v o  s  t  r e | c   o  n g  e | p o  u r
+# C9 [y~1910]  faire ma retraite
+R10: ... 9 x pi 30 S | HH f | Q D h r T ph 4y t #x
+P10: _   f a i  r  e | m  a | r e t r a i  t  e _
+
+# ==== bottom half (second session) ====
+# clear: "ainsy que je vous en ay supplie treshumblement par plusieurs de mes lettres neantmoins apres que", then cipher.
+# f.115r: "apres que le credit m'est failly y ayant pour me commettre a cest sieur recherche l'an de Ducroy [?] par le
+#  moyen dud. s. don Idiaques"  (f.111 gloss: "Le credit m[est] fai[l]ly ayant pour me commettre a cest / sieur recherche lan de ducroy")
+# C10 [y~2130]
+R11: p g X dc 30 # e3 v pi h | HH S hb z4 ... | q9 x 6 m 44 | qo 60 T 4 h | E dp A r | 4 D | z Lo 4 HH t h r 9 | #o e3 Tp t z4
+P11: l e _ c  r  _ e  d i  t  | m  e s  t  _   | f  a i l y  | a  y  a n t | p o  u r | m e | c o  m m  e t r e | _  ?  ?  ?  t
+# NB y of "failly y" not written (44 = y once). "4" twice = m (me, commettre) and once = n (ayant). hb = h with a bar
+#  through the stem (read s in m'est; off-key). Last group "a cest": #o null + e3 Tp t z4 unresolved (only z4=t certain).
+# C11 [y~2230]
+R12: J D A Q | 30 t dc + 9 r s6 + e3 | rho f s | 6 u S | v X dc 24 x 56 | # #o
+P12: s e u r | r  e c  h e r c  h e  | l   a n | d ? e | d u c  o  _ y  | _ _
+# "sieur" with the i not enciphered (J = long-s pair). "recherche": the "1" before 9 is a dagger-shaped + (h).
+#  "de": u (small cursive u) apparently a null or slip. "Ducroy" written du-c-o-y (r not enciphered); x = heavy ✗ null.
+#  56 here = y (plain 56 without the s-flourish).
+# clear: "par le moyen du seigneur don Joan de Idiaques et recogneu par le langaige quil me tint lors dont jay adverty
+#  monsieur le president Jannin", then cipher (gloss "La lon").
+# C12 [y~2440, end of the Jannin line]
+R13: oo II f I dp # 4
+P13: ?  l  a l o  _ n
+# f.115r "la longueur dont on a use a satisfaire a ma demande"; f.111 gloss "longueur de laquelle on y a use a satisfaire a ma demande"
+# C13 [y~2560]
+R14: z? ... 36 t A r | v g | I qo H X e3 m S | Lo 8 | T | eL Z D | x | dz T h pi K q9 f ph r t | qo | HH T | n C g oo x 8 v e3 #x
+P14: g  _   u  e u r | d e | l a  q u e  l e | o  n | a | u  s e | a | s  a t i s  f  a i  r e | a  | m  a | d _ e m  a n d e  _
+# "laquelle" with one l; "on y a" with y not enciphered. q9 (9-shaped loop, open) = f; qo (ring on straight stem) = a.
+#  tall crossed long-s (f) = a, small crossed t = e.
+# f.111 gloss "que lhonnestete plus que la bonne volonte y avoit faict condescendre"
+# C14 [y~2660]
+R15: H X S I + 8o 4 D dz 4y t h e3 | 26 rho | 8 A S | II T | 7 dp o. D | X qo II 36 # 4 h g | p r | 6 | qo A 24 pi z4 | 9
+P15: q u e l h o  n e s  t  e t e  | p  l   | q u e | l  a | b o  n  e | v o  l  o  _ n t e | ? ? | y | a  v o  i  t  | f
+# "honnestete" with single n: + h, 8o (8 with a looped ascender) o, 4 = n, then 4y (4 with a curl at the foot of the
+#  cross-stroke) = t.  "plus": only 26 rho (p l) then some lighter-ink marks ("atez"-like) - not transcribed.
+#  8 = q in "que". 7 (y-shape with crossbar) = b. "volonte": qo = o and 36 = o (both off-key, see table).
+#  p r before "y" unexplained (not in either clear text). 6 = y. 24 = o.
+# f.111 gloss "[fai]ct & condescendre ce que y retournant deux[?] ou autres fois"; f.115 "faict condescendre ce que y
+#  retournant deux au[ltres] fois ayant ..."
+# C15 [y~2750]
+R16: lam T+ ph 56 z4 | dc Fo 8 u e3 K z S 4 v r D | vv | 8 A t | 60 | Q 9 h Lo eL 30 lam 4 x s 4y | d s e3 | qo A h r S | 19 Lo
+P16: _   a  i  c  t  | c  o  n d e  s c e n d r e | et | q u e | y  | r e t o  u  r  _   n a n t  | ? ? ?  | a  u t r e | f  o
+# "aict": lam (λ-like, long ascender) null; T+ (a T whose stem is crossed, dagger-like) = a. The c of condescendre is a
+#  lighter-ink δ (correction). vv = "et" where f.115 has "ce": the gloss above has "&".  Q (∂ with closed loop) = r;
+#  9 = e. "deux ou": d s e3 unresolved (the gloss is illegible here). qo = a in "autres" (s of autres not enciphered?).
+# gloss "[fo]is on m'a refusé ce[?] ...ou[t?] aussy resolument que indiscretement"; f.115 "fois on m'a y refus... aussi
+#  resolument que indiscretement"
+# C16 [y~2830]
+R17: pi Tr | Lo 4 | 4 D | 30 t q9 X Tr 9 | r z 4 8o h | qo eL J 44 | ... | Q e3 80 dp II A HH S s 4y | Hh X D | pi 4 v ph K 56 30 t #o
+P17: i  s  | o  n | m ? | r  e f  u s  e | ? ? ? ?  ? | a  u  ss y  | _   | r e  s  o  l  u m  e n t  | q  u e | i  n d i  s c  r  e _
+# "on ma": 4 = n and the next 4 (with a δ-loop joined at its foot) = m; the a is not visible as a separate sign (D?).
+#  Tr = small T with a hook to the right = s (twice: "is", "refuse"). "r z 4 8o h" = f.115's word between refuse and
+#  aussi, unresolved. J = ss. s = n, 4y = t. Hh = H with a 6-shaped lead-in stroke = q ("que"). 56 = c (indiscretement).
+# gloss/f.115 "[indiscre]tement. Je me mettrois en ce hazard qui me feroit tumber ..."
+# C17 [y~2910 left, sloping to ~2990 right]
+R18: z4 9 4 e3 8 4y | 33 S | HH D | oo t h 30 Lo tt 80 | 9 s | 56 e3 | 7 f Z T r v | 28 eL 33 | oo S | 19 D Q dp pi 4y | z4 A HH
+P18: t  e m e  n t  | j  e | m  e | m  e t r  o  i  s  | e n | c  e  | h a z a r d | q  u  i  | m  e | f  e r o  i  t  | t  u m
+# 4 = m in "tement". tt = pi with an s-like hook on top, read i here (key: s). 7 = h; f (tall crossed long s) = a;
+#  Z (boxed/barred 8) = z. 28 = q. "mettrois": one t not enciphered.
+# f.115 "tumber en une misere la guelle que me rendroit si ridicule"; gloss "...en une m[isere] ... la guelle ... me rendroit si ridicule"
+# C18 [y~3010 left, ~3060 right]
+R19: 7b C t 30 | 9 4 | B8 8 e3 | 4 pi 80 S r D | II qo Hh eL t m 9 | oo e3 | Q S 4 u r dp ph z4 | Tr ph | Q 6 v 33 56 X p D X
+P19: b  _ e r  | e n | u  n e  | m i  s  e r e | l  a  g  u  e l e | m  e  | r e n d r o  i  t  | s  i  | r i d i  c  u l e _
+# "misere": 4 and pi in lighter ink (added). B8 = 8 crossed by a stroke (ẞ-like) = u. Hh (6-shaped lead-in + H) = g in
+#  "guelle" (cf. q in "que", R17). u (small cursive u) = d. Tr = s. 6 = i. 56 = c. final X null.
+# gloss/f.115 "au prejudice de vostre grandeur que j'aurois perdu en un moment [f.115: assez promptement] la reputation
+#  que j'ay essaye ..."
+# C19 [y~3110 left, ~3170 right]
+R20: lam qo 36 | E Q8 t ph eL u A 56 9 | v e3 | A dp Tr h Q S | V r 30 T 4 v D X r | t4 d a t | 33 x A Q8 F ph K | 26 9 30 v X
+P20: _   a  u  | p r  e i  u  d ? c  e | d e  | v o  s  t r e | ? r ?  a n d e u r | q  u ? e | j  a u r  o i  s | p  e r  d u
+# Q8 = δ with a closed loop on top (8-like) = r (prejudice, aurois). A = i? in "prejudice" (off-key; A elsewhere = u/v).
+#  A = v in "vostre". "grandeur": V (v-shape) = g?, then r 30 (an extra r?). "que": t4 = small crossed t with a tail,
+#  d = looped-ascender d (u), a = a plain-looking a (null?), t = e. 26 = p.
+# C20 [y~3200]
+R21: ... e3 8 eL 4 | HH dp oo S 4 4y | I qo | Q Q8 dc E 36 z4 T h 6^ Lo 8 8 | H t | pi x 56 | 9
+P21: _   e  n u  n | m  o  m  e n t  | l a  | r ?  ?  p u  t  a t i  o  n _ | q e | j  a y  | e
+# 4 = n twice; 4y = t. qo = a. "reputation": second and third sign unresolved (Q8 and a plain hooked δ for "e");
+#  6^ (8/6 with a flat bar on top) = i; Lo and first 8 in lighter ink (corrections), second 8 dark (duplicate?).
+#  "que": u not enciphered. 56 = y (plain 56, "jay").
+# C20 cont. [right end, y~3250] + C21 [y~3290]: "essaye de conserver" (f.115 "essaye de ce ferme"?; gloss "conserve[r]")
+R22: 9 J qo 44 e3 | v S | z dp 4 Tr # | dc r A t 30 lam C
+P22: e ss a y  e  | d e | c o  n s  _ | e  r v e r  _   _
+# 4 = n. Tr = s. plain δ = e at the start of "erver". Then clear "du mieulx que jay peu ...".
+# clear "... me rendroit capable de", then cipher. f.115 "pardon sans s'attendre plus longuement. Je m'en retourneray
+#  donc vers vous ..."
+# C22 [y~3500 left, ~3560 right]
+R23: 26 # f 30 u dp 4 | Tr pi pi | dz x C 8 | K qo h e3 s v Q S | E I A 80 | II F 4 Hh X D HH t s 4 | pi 9 HH e3 8 | r S t?
+P23: p  _ a r  d o  n | ?  ?  ?  | s  a _ n | s a  t e  n d r e | p l u s  | l  o n g  u e m  e n t | j  e m  e  n | r e ?
+# 4 = n (pardon, longuement), final 4 of longuement = t (plain 4 after s). Tr pi pi: a word not in f.115 (gloss over it
+#  looks like "p..it"). u = d. Hh (δ with a long curling tail joined to a loop) = g in "longuement".
+# ---- NOT YET ALIGNED: the rest of f.111r: C23-C24 (y~3600-3680, "[re]tourneray donc ... mon principal ... desir
+#  est pour user mes jours ..."), then clear "continuant le treshumble service ... vous cognoistre", then 4 cipher lines
+#  (y~3880-4250, "je m'en vois a la court ... resolutions ... affin qua mon arrivee a vous je"), then clear to the end.

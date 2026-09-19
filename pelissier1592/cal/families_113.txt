@@ -1,0 +1,42 @@
+
+# ================= Families: how to tell them apart (f.113r/v evidence; atlas crops in cal/atlas/*_113*.png) =================
+# 4  (n / m / t): plain 4, closed triangle, stem moderately below baseline = n (21x: taNt R14, peNser R20,
+#    iNtentioN R16, uNe V1).  4 with a hooked lead-in curling left off the crossbar ("z4"/"ɀ4") = t (tilTre R19, veulT V3;
+#    atlas t_4_113a/b are really this shape).  4 with a short foot serif at the stem bottom = m (pareileMent V2, atlas
+#    m_4_113b; key "4_").  BUT m also comes out of plain-looking 4s (R2 Mon, R4 M'instruire, R7 comMandement, R9 Me,
+#    R14 M'aviés; atlas m_4_113a): the foot is often too small to see, so 4 = n with m as a real alternative (~5/26).
+# X  (u / null): ✗ with a horizontal BAR through the crossing (ӿ), compact, x-height = u (inqUisition V1, qUe R17,
+#    jUstice V3, execUtion V2, asseUré V4); the same with the right leg curling into a J-hook (Xu) = u (laqUelle V1,
+#    m'aUiés R14, conscience/leUr R21).  Large plain ✗ with long straight strokes, NO bar, usually light and at a line or
+#    word end = null (R2, R12, R15 end, R16 end; atlas null_X_113a).  Plain small x without bar = a.
+# +  (h / o): compact + with the bar at mid-height, arms of equal length = h (cHemin R8, atlas h_plus_113a, the only h).
+#    ⊥: long horizontal at the BASELINE with the vertical rising from it (sometimes poking a little below) = o
+#    (Lo, 15x: bOnte, iOn, pOur, intentiOn R16, Lo V1; atlas o_Lo_113a/b).  Don't read a low-barred cross as +.
+# II (l / e): tall ∐ with bars/serifs above x-height and a foot = l (14x: iL V1, Le R19, Les R20, atlas l_II_113a/b).
+#    One squat x-height "ɪɪ" with flat top and bottom bars stands where e is needed (esperancEs R17.24, atlas eQ_II_113a);
+#    single case, flag only.
+# o-family: plain round δ with straight ascender (o, dl) = o (11x); closed-loop ∂ with curled top (Q) = r (13x, pouR,
+#    tenIR, tiltRe); δ whose ascender curls over into a long hook to the right (dc) = c (11x, graCe, laiCt, conCience);
+#    the 8-shaped closed loop with hooked top (Q8) = r once (aRticles).  No o/r confusion inside a word here.
+# pi (i / s): plain π (two legs, flat top) = i every time (19x); π whose right leg ends in a hooked tail (tt, ϖ) = s
+#    (monSieur R13b, ceNS V4).  Never saw plain π = s.
+# A  (u / n): A = u (19x) or v (2x, avoir, aduenir); never n.  n in this letter is 8, 4, s (small s, 9x) or o. (o dot).
+# 6  (d / i): 6 whose top is a flat bar running right (б, "6^", often bold) = i (6x: dIeu R15, satIsfaict R14, inquIsition V1, laquelle Il V1, Importuné V2);
+#    plain 6 with a rounded top curving over = d (3x: D'arriver R15, De R9); the difference is slight - bar vs curve.
+#    6 with a flourish/loop on top (6c) = c (justiCe V3); 6 with a dot/flag (6d) = j once (Jugé R2).
+# Z  (z / s): no boxed z in f.113.  The barred 8 (Z8) is q (below).
+# 8  (n / q): plain upright 8 (both loops closed, free-standing) = n (22x).  8 with a horizontal stroke through the
+#    waist/lower loop, usually a lead-in from the left = q (Z8, 5x: Qui R18, Quelques, Qu'il R21, Que V4, Quelques R4).
+#    Remaining 8 oddities (avoir R10e, entier R11) are in unaligned, damaged stretches.
+# 60 (i / y): 60 = y (3x: nY R13 twice, one more in R13); one 60 in d'arriver R15 has no letter (null or doubled).  Never i here.
+# 9  (f / a / e): 9 (ϙ-like with an OPEN descender turning left) = f (Faire V1, Fortune R16, Faict R21) but also e at
+#    word ends on f.113v (n'estrE V2, faictE V3, personnEs V4) and a once (Articles R21).  The ϙ with a CLOSED ball and
+#    straight stem (q) = a (18x).  So open-9 is f/e - check the key's e cell for a "g"-like 9.
+# r0 small plain r = f (Faict R15).  v (ɤ) = d (De V3b, 5x) but f in Faicte V3 (1x).  3 (ʒ) = b/null in key: here r/ss/n?
+# 56 plain = y (s'Y R6 x2); s6 flourished = c (5x: Court, satisfaiCt, Celuy).  s5 (small ʂ with down-left tail) = c.
+# T family: flat ⊤ (T) = a 16x; T with z-tail (Tz) = s 11x (NOT g); T with 2/x tail (Tx) = s 7x; hooked cross-topped T with
+#    descender (Tp) = p 5x; 12 ("1τ") = g (Grace, lanGaige).  So "Tz" in the brief (g?) is s here.
+# f (long ʃ with crossbar) = a 12x (fAicte V3, fAire), once s, once u.  q/x/T/f are the four a-signs, as in the key.
+# New signs not in TOKENS.md: Xb (✗ with horizontal bar = b, Bien V3b), 7y (7-like ɤ with bar = b, Bonté R9),
+#    B (bold β = l, Leur R21), gz (ε with top tail = g, sarraGosse V1), rr (single tall ʃ with curled foot = rr), 262 (code
+#    group glossed "Mr", R8), oH (x), s5, D- (∂ with crossbar = u?), bc (small backward ɔ, null), x0 (small o/x null).
