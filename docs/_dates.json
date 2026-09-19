@@ -29,6 +29,7 @@
   "feuquières to catinat, 1691": "2026-09-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
   "from warsaw, 24 december 1627": "2026-09-16",
+  "galeotto da ricasoli to the dieci di balía, urbino, early 1425": "2026-09-18",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
@@ -151,6 +152,11 @@
    "hash": "d887c70d7bda",
    "updated": "2026-09-16"
   },
+  "florence1429": {
+   "first": "2026-09-18",
+   "hash": "fabd537d8a63",
+   "updated": "2026-09-18"
+  },
   "forster": {
    "first": "2026-09-15",
    "hash": "56d440a87323",
@@ -193,7 +199,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "71cd42fa02ae",
+   "hash": "a9e51999ee7c",
    "updated": "2026-09-18"
   },
   "lanssac": {
@@ -358,7 +364,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "68bcb3b48a38",
+   "hash": "74292bd054da",
    "updated": "2026-09-18"
   },
   "yard1699": {
