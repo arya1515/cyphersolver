@@ -79,3 +79,7 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   la dieta", "imputare che … la pratica", "pare anche … per non … niente … et pero", "a la pace", "che niuno …
   dove"). Raw contrast-stretched crops (`img/crops/raw2831_L*.png`) read better than boxed strips; the ε-form is
   ambiguous between e and o and needs settling from 267/R1098 before the second pass. `v2831_reading.md`.
+- 22:40: R1098 second pass by eye on raw crops: all ten lines now read in gist (text and English in
+  `r1098_reading.md`); ll. 7–10 restate the clear page 2 ("lo legato et li altri oratori … havemo deliberato
+  partire ali 15 de questo … recta via ad Vienna"), which confirms the key. Numerals are written as figures;
+  "q" in "legato" = ga (Somogyi a3).
