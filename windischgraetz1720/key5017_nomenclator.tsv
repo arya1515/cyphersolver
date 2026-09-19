@@ -1,0 +1,599 @@
+401	Auch	m
+402	auf? [auch]	m
+403	aus?	m
+404	acht	h
+405	achtzig	h
+406	als=alt	m
+407	alle:in?	l
+408	allergnädigst	m
+409	allerunterthänigst? [allerwünscht]	l
+410	Aprilis	h
+411	Augustus	h
+412	assurire	m
+413	allianz	h
+414	alliiren:ter? [allyrn:tr]	l
+415	ambassadeur	h
+416	administr:iren/ation?	m
+417	aequivalent	h
+418	Amalia	h
+419	armee	h
+420	armistice	h
+421	artillerie	h
+422	articul	h
+423	admiral	h
+424	Augsburg	h
+425	Abt Du Bois	h
+426	Duc Berwic[k]	h
+427	Bothmar	h
+428	Bings	h
+429	Bentenrieder	h
+430	Beretti Landi	h
+431	Du Bourg	h
+432	Bernsdorff	h
+433	Bayern:isch	m
+434	Böheimb	m
+435	Brandenburg	h
+436	Brabandt	m
+437	Bremen? [Breda]	l
+438	Braunschweig	h
+439	Berlin	m
+440	beschweren? [Beschwerung]	l
+441	Barcellona	h
+442	Brüssel	h
+443	Bonn	h
+444	Burgund	h
+445	barriere	h
+446	Bey	m
+447	Bürger:schafft	m
+448	Burgermeister	m
+449	Bischoff:e, Bisthum	m
+450	Baron	h
+451	Berg	m
+452	Befehl:en	m
+453	Bericht:en	m
+454	Bezahlung:en? [Beyrathung]	l
+455	Belagerung:en	m
+456	Mr. Carpenter	h
+457	Colster	h
+458	Cadagan	h
+459	Colloredo im M[...]?	m
+460	Campagne	h
+461	Capitulation:en?	m
+462	Cardinal	h
+463	Cathol:isch	m
+464	Camer	m
+465	Catalonien	h
+466	Cavallerie	h
+467	Cantzley:er	m
+468	Churfürst:lich, thum	m
+469	Chur Prinz	h
+470	Crays:e? [Creyß]	l
+471	Cron	h
+472	Cron Prinz	h
+473	Copenhagen	m
+474	Collegium:a	h
+475	commandiren:ant	m
+476	compagnie	h
+477	commissarius:ion	h
+478	corpo	h
+479	courrier	h
+480	congress	h
+481	conjunctur	h
+482	communicir:en=ation	m
+483	Czaar	h
+484	Cölln	m
+485	conferenz:ien	m
+486	constitution:iren	m
+487	convent	h
+488	Cassel	h
+489	P. Conti	h
+490	Duc [d'] Hesse	m
+491	Dantzig	h
+492	Dännemarck	h
+493	Dähnen:isch	m
+494	der	h
+495	dem:den	h
+496	dass:das	m
+497	damit	h
+498	December	h
+499	Dom[b]:capitul	m
+500	Dresden	m
+501	Deputation:iren? [intrin]	m
+502	defensiv:ion:dian?	l
+503	Divers:ion	m
+504	division	h
+505	dragoner	h
+506	drey:er	h
+507	dreyssig:ter	h
+508	dreyzehn:der	m
+509	durch	h
+510	Durlach	h
+511	Darmbstatt:isch	m
+512	Durchläucht:ig	m
+513	Duc d'Anjou	h
+514	darum, darauf	m
+515	Ein:erst?	l
+516	euch:er	m
+517	und? [end]	l
+518	Elbe	m
+519	Engelländ:isch, er	m
+520	empfang:en, erhalt?	m
+521	Ertz	m
+522	Ertzhertzog:in, thum	m
+523	Erb	m
+524	Erbland	h
+525	eroberen:ung	m
+526	Eleonora	h
+527	Euer	m
+528	E. K. und E. M.	m
+529	Elsass	m
+530	Escadra	h
+531	Envoye	h
+532	Evangelisch	h
+533	P. Eugene	h
+534	Erb Prinz	h
+535	comma	h
+536	Februarius	h
+537	Feldt Marschall	h
+538	fluss	h
+539	flotta	h
+540	Feldt:zug	h
+541	Franken:isch	m
+542	Franckfurt	h
+543	Franckreich:isch, zös	m
+544	Frau	h
+545	Frieden	h
+546	Fürst:en:lich, thum	m
+547	Freyherr	m
+548	Feind:schafft	h
+549	Freund:schafft	h
+550	fünf:ter	m
+551	fünfzehn:der	m
+552	fünfzig:ter	m
+553	Fussvolck	m
+554	Florenz:tiner	h
+555	forth, Fort	m
+556	errans	h
+557	Gehorsam? [Geheimb]	l
+558	Gemahl:in	h
+559	gesandter	m
+560	geheim:nus? [und]	l
+561	... geld	m
+562	Granitz	m
+563	General:ität	m
+564	General Staaten	h
+565	graff:in:schafft:lich	m
+566	garant:ie:iren	m
+567	garnison	h
+568	gouvern:eur:iren	m
+569	Gottorff	h
+570	gnad:ig:igst	m
+571	gewesen	m
+572	genug	m
+573	gross	h
+574	gegen	m
+575	gulden	m
+576	Gröningen	h
+577	Genua	h
+578	errans	h
+579	Hamburg	h
+580	Hannover	h
+581	handel:en:ung	m
+582	Mr. Hoop	m
+583	halb	m
+584	Hauß	m
+585	Haag	m
+586	Hertzog:lich:thum	m
+587	Hzg. von Lorrain? [Herr v. Lorrain]	l
+588	Herrschafft	h
+589	Hessen:isch	h
+590	Holland:isch	h
+591	Holstein	h
+592	hoch:höchst	h
+593	hoff:lich	m
+594	heurath:en	m
+595	helffen:hülff	m
+596	heraussen? [Hrassen]	l
+597	hundert[h]	m
+598	Hoff Kr[iegs] Praesid[ent]?	m
+599	Hoff Cantzley:er	h
+600	Hungarn:isch	h
+601	hab:en	m
+602	hat:en	m
+603	Heinsius	h
+604	hin:hinweg	m
+605	Ihr	h
+606	Ihro Mayt.	h
+607	Januarius	h
+608	Insul	m
+609	ihm? [inn]	m
+610	ist	m
+611	ation:ion:ision	m
+612	isch	m
+613	ing? [ung]	m
+614	Junius	h
+615	Julius	h
+616	Italien:isch	h
+617	inform:ation:iren	h
+618	instru:iren:ction	m
+619	interesse	h
+620	Jahr	h
+621	ihm:ihn	m
+622	ich	h
+623	Instrument	m
+624	Jurisdiction	h
+625	Irland	h
+626	Indien	m
+627	errans	h
+628	Kayser:lich	h
+629	Kays. Mayt.	h
+630	Kayserin	h
+631	König:lich:reich	h
+632	Königin	h
+633	Krieg	h
+634	Kein? [Rom]	l
+635	Kreis? [Keil, Kail]	l
+636	kunfft	m
+637	Kön. Böhm.?	m
+638	Kommen? [Kammern]	l
+639	Kirchen-Staat	h
+640	Kriegs Cantzley	h
+641	Limburg	h
+642	Lagern? [Laagen]	l
+643	Land	h
+644	Landgraff	h
+645	lang	h
+646	lassen	h
+647	lieutenant	h
+648	London	h
+649	Leuth	m
+650	Lüttig	h
+651	Luxemburg	h
+652	Lothringen	h
+653	lig	m
+654	Lord	h
+655	legation, Secre[tarius]	m
+656	lien? [lion]	l
+657	Mr. Moroille [Morville]	m
+658	Majus	h
+659	Monarch:ie	h
+660	Martius	h
+661	Marquis	h
+662	Miquelets	h
+663	Marggraff	h
+664	March:iren	m
+665	Mayland:isch	h
+666	Mann:schafft	m
+667	Maynz:isch	h
+668	Madrit	h
+669	Mecklenburg	h
+670	macht:ig	h
+671	Mediator:ion	m
+672	Mylord	h
+673	missverstand:nus? [mü...ständnus]	l
+674	Marschall	h
+675	machen	m
+676	Mayt.	h
+677	madame	h
+678	mons:r, monsgr	m
+679	man	m
+680	mehr	h
+681	Minister:ium	h
+682	Moscau:witer	m
+683	mich	h
+684	mit	h
+685	mir	h
+686	mein	h
+687	Münster:isch	h
+688	Mähren	m
+689	mission	h
+690	meist:en? [mächt:en, maßl:en]	l
+691	munition	h
+692	München	h
+693	Mosel	m
+694	Metz? [Maltz]	l
+695	Meyster	m
+696	Mayn	m
+697	Mantua	h
+698	Mardick	h
+699	G. V. Mo[t]sch? [unclear name]	l
+700	gl. Mercy	h
+701	Million	h
+702	Nach:dem	h
+703	nach:st	m
+704	nicht	h
+705	noch	h
+706	nun	h
+707	nur	h
+708	neun:ter	h
+709	neunzehn	h
+710	neunzig:ter	h
+711	nation:al	h
+712	Niederland	h
+713	Nord:en	h
+714	Neapel	h
+715	negotiation:iren	m
+716	neutral:ität	h
+717	noth:durfft:nöthig	m
+718	November	h
+719	nieder	h
+720	Nuncius	h
+721	nutz:lich	h
+722	nachdruck:lich? [nachricht:lich]	l
+723	Nürnberg	h
+724	Nancy	h
+725	Namur	h
+726	Norwegen:isch	m
+727	Norris	h
+728	comma	h
+729	Ober	h
+730	Obrist:er	m
+731	oder	h
+732	ohne	h
+733	offt	h
+734	orth	h
+735	ordre:nen:ung	m
+736	offert:iren	m
+737	officier	h
+738	october	h
+739	ombrage	h
+740	Österreich:en:isch	m
+741	Osnabrück	h
+742	Ottoman:isch	h
+743	Osten	h
+744	orient:al	h
+745	occident:al	h
+746	olive:isch? [olim]	l
+747	offensiv	h
+748	oberpfaltz	h
+749	D. Orleans	h
+750	obwohl:schon	m
+751	Mr. Prie	h
+752	Paris	h
+753	Prinz	h
+754	J. Päbstl. Heylig.	m
+755	pass:iren	m
+756	passage	h
+757	Parlement	h
+758	parthey:partie	m
+759	Pfaltz:isch	h
+760	pferdt	m
+761	particular	h
+762	praetension:diren:dent	m
+763	praesid:ent:iren	m
+764	plenipotenz:tiarius	h
+765	Port	h
+766	Pforten	m
+767	Pohlen:isch	h
+768	Portugal:äisch? [esisch]	m
+769	Preussen:isch	h
+770	platz	m
+771	provinz	h
+772	project	h
+773	propos:ition:iren	h
+774	public:iren:ation	h
+775	proviant	h
+776	Pampeluna	h
+777	Piemont:esisch	h
+778	Pair	h
+779	Philipsburg	h
+780	principal	h
+781	pension:air	h
+782	protest:iren:ant:ation	m
+783	p.te cum comate	m
+784	Quadruple	h
+785	quartier	h
+786	quantum	h
+787	question	h
+788	quantität	h
+789	punctum	h
+790	Rung? [Rang]	l
+791	rand? [rund]	l
+792	ratifi:ciren:cation	m
+793	Ragotzy	h
+794	Ritter:schafft	h
+795	Regent	h
+796	Rath	h
+797	Regier:ung	h
+798	Republique	h
+799	Reich	h
+800	Regensburg	h
+801	recht	h
+802	Resident:iren	m
+803	Regiment	h
+804	religion	h
+805	restitut:iren:ion	m
+806	Reichs Stadt	h
+807	resolution:iren	m
+808	Ryswick:isch	m
+809	Rhein	h
+810	reyss:en? [weiss:en]	l
+811	Rastatt	h
+812	rasiren	m
+813	Rom	h
+814	Robethon	h
+815	Rheinfels	m
+816	p.tu cum comate	m
+817	Mr. Schaub	h
+818	Mr. St. Saforin	h
+819	Stanhop	h
+820	Stairs	h
+821	Card: Saxen Zeitz	h
+822	Card: Schrotenb[ach]	m
+823	sechs:ter	m
+824	sechzehn:der	m
+825	sechzig	m
+826	September	h
+827	Savoyen	h
+828	Sachsen:isch?	l
+829	Satisfaction:iren	h
+830	Schweden:isch	h
+831	Schwerin	m
+832	Schonen	m
+833	schreiben	h
+834	schiff	h
+835	siegel	m
+836	Mr. Seneterre	h
+837	schafft? [schrifft]	l
+838	Schlesien	h
+839	Schwaben:isch	m
+840	Schweitz:er:isch	m
+841	Secret:ät?:arius	m
+842	Statthalter:ey	m
+843	Statt	m
+844	Staat	h
+845	Senat	h
+846	Stockholm	h
+847	Stralsund	h
+848	Stettin	h
+849	seyn:sein	m
+850	sieben:der	m
+851	siebenzehn	m
+852	siebenzig	m
+853	Stanislas	h
+854	Spannien:isch	h
+855	Standt	m
+856	Stifftung? [Beystung]	l
+857	Schottland	h
+858	sonst	m
+859	sondern:auch	m
+860	Sie	m
+861	sich	h
+862	sollen	h
+863	solche:den?	l
+864	schick:en:ung	m
+865	Sultan	h
+866	Summa:arisch	m
+867	Success:sion	m
+868	sion	m
+869	sité:sität	m
+870	Succurs:iren	m
+871	Stub? [Staub]	l
+872	H. g. Sinzendorff Hoffkantzler Ex.	m
+873	H. g. Schönborn RVC. Ex.	m
+874	Siebenbürgen	h
+875	Strassburg	h
+876	Steyer	h
+877	schliessen:schluss	m
+878	Sardinien	h
+879	Sicilien	h
+880	Sund	h
+881	H. g. Stella	h
+882	g. Schlick E[x].	m
+883	Tag	h
+884	Tausend	m
+885	Tractamenthal? [unclear T-word ending -thal]	l
+886	Tönningen	m
+887	Tartarey:isch	m
+888	Teutsch:en:land	m
+889	Teutschmeister:thum	m
+890	Tractat:iren	h
+891	Trouppen	h
+892	Theil	h
+893	Thorn	m
+894	Thun	m
+895	Toscana:isch	h
+896	Torris	m
+897	Türcken:isch	h
+898	Transport:iren	h
+899	tion	m
+900	tät	m
+901	Trier	h
+902	H. g. O.H.M. Trautson	m
+903	titul	h
+904	duo p.ta	h
+905	Vor? [Ver, Von]	l
+906	Verden	m
+907	Verfass:ung?	l
+908	Vizir	h
+909	unmittelb[ar]?	l
+910	Viel	m
+911	Vielleicht	m
+912	Volck	m
+913	vier:ter	h
+914	vierzehn:der	h
+915	vierzig	h
+916	universal	h
+917	unter	h
+918	vor	h
+919	vorder	m
+920	Vortheil:hafft	m
+921	Vergleich:en	m
+922	Vollmacht	m
+923	victorie:siren	m
+924	vice	h
+925	undt	m
+926	undt	m
+927	von:vom	m
+928	über	h
+929	ung	m
+930	visite	h
+931	übrig	h
+932	Utrecht	h
+933	Venedig:dian	m
+934	uns	m
+935	Ulm	h
+936	g. Virmont	h
+937	duo p.ta	h
+938	Weixel	h
+939	Wetzlar:isch? [Wyz-sachen:isch]	l
+940	Wolffenbüttel	h
+941	H. g. Windischgrätz Hoff Kr. Pres. Ex.	m
+942	Wien:er:isch	h
+943	Wirtemberg	h
+944	Würtzburg	h
+945	wahl:en	m
+946	wissen	h
+947	wir	h
+948	werden	h
+949	Westphalen? [Weissfalt]	l
+950	Wissmar	h
+951	weil	h
+952	will:wollen	h
+953	wormit	h
+954	würde	h
+955	wurde	m
+956	wäre? [waren]	m
+957	wie	h
+958	wegen	h
+959	Worms	h
+960	P. Wallis	h
+961	H. g. Windischgr[ätz]	m
+962	wenn? [wann; superscript "abgereiset"?]	l
+963	wochen:tlich	m
+964	zwey:ter	h
+965	zwantzig:ter	h
+966	zwölff	h
+967	zwischen	h
+968	zahlen	m
+969	zehn:ter	h
+970	zum:zur	m
+971	ziffer	h
+972	zu fuss	h
+973	zu pferd	h
+974	zusammen	h
+975	zwar	h
+976	Zelande	h
+977	zustehen? [zuziehen, zutehen]	l
+978	(blank)	h
+979	(blank)	h
+980	(blank)	h
+981	(blank)	h
+982	(blank)	h
+983	(blank)	h
+984	(blank)	h
+985	(blank)	h
+986	(blank)	h
+987	(blank)	h
+988	(blank)	h
+989	(blank)	h
+990	(blank)	h
+991	(blank)	h
+992	(blank)	h
+993	(blank)	h
+994	(blank)	h
+995	(blank)	h
+996	(blank)	h
+997	(blank)	h
+998	(blank)	h
+999	(blank)	h

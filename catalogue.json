@@ -1929,66 +1929,6 @@
    "scored": "rule"
   },
   {
-   "id": 69,
-   "counted": true,
-   "year": 1720,
-   "date": "3 Feb 1720 – 11 Apr 1722",
-   "title": "Charles VI, Holy Roman Emperor (Wien) to Windischgrätz, Leopold Viktorin von, 6 ciphertexts",
-   "correspondents": "Charles VI, Holy Roman Emperor → Windischgrätz, Leopold Viktorin von",
-   "place": "Wien, Austria",
-   "language": "German",
-   "region": "Bohemia",
-   "period": "1701-1800",
-   "shelfmark": "SOA Plzeň, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrät (6 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R5019–R5024 (6 records): Non-decrypted, 22 pp., homophonic, nomenclator; alphabet, graphic signs, numerical; images public. Not viewed here. DECODE's notes point to a key or a reconstructed key; the key itself is a DECODE record, so a reading should be direct. DECODE note: For the copy of the letter see: DECRYPT-WEB R5020 (de-crypt.org) For the key to the cipher see: DECRYPT-WEB R5017 (de-crypt.org) The letter contains information that a new key for communication with the Emperor will be sent to Leopold Viktorin von Windischgrät… The key is DECODE R5017 and a copy of the first letter is R5020, so this is a direct reading, not cryptanalysis.",
-   "why": "The Emperor's own ciphered letters to Count Leopold Viktorin von Windischgrätz, one of his envoys, in the years of the Congress of Cambrai; one letter announces a new key.",
-   "importance": 3,
-   "solvability": 5,
-   "difficulty": 1,
-   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Solvability 5 and difficulty 1 because the key is on DECODE; importance 3 because the content is unknown and probably routine instructions.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R5019",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5019"
-    },
-    {
-     "label": "DECODE R5020",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5020"
-    },
-    {
-     "label": "DECODE R5021",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5021"
-    },
-    {
-     "label": "DECODE R5022",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5022"
-    },
-    {
-     "label": "DECODE R5023",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5023"
-    },
-    {
-     "label": "DECODE R5024",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5024"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    5019,
-    5020,
-    5021,
-    5022,
-    5023,
-    5024
-   ],
-   "scored": "reviewed"
-  },
-  {
    "id": 70,
    "counted": false,
    "year": 1742,

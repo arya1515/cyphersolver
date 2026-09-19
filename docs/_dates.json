@@ -19,6 +19,7 @@
   "charles i and nicholas to boswell, 1643": "2026-09-15",
   "charles i, 1648": "2026-09-15",
   "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
+  "charles vi to count windischgrätz, vienna, 1720–1722": "2026-09-19",
   "chinese gold bars, 1933": "2026-09-15",
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
@@ -111,7 +112,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ef4b101dbb30",
+   "hash": "4bce1bf42f65",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -201,7 +202,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "15e5d886fc33",
+   "hash": "31611b0cf7fc",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -374,9 +375,14 @@
    "hash": "9c7b6c79ee6a",
    "updated": "2026-09-16"
   },
+  "windischgraetz1720": {
+   "first": "2026-09-19",
+   "hash": "b5a54e19805c",
+   "updated": "2026-09-19"
+  },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3bda79f4e7f6",
+   "hash": "3a65394ade2e",
    "updated": "2026-09-19"
   },
   "yard1699": {
