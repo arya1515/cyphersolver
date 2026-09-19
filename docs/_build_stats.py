@@ -11,7 +11,8 @@ Categories are the README's own sections. Every number on the page is derived he
   closed    ### Attempted and closed             (attacked with controls; the notes say why it stops)
   offline   ### Offline only                     (nothing more can be done online)
   active    ### In progress
-Overrides: rows whose target text matches OVERRIDE are moved (Forster sits in the README's Solved table but was read by others).
+Overrides: rows whose target text matches OVERRIDE are moved (Forster sits in the README's Solved table but was read by others;
+Voynich sits in 'Partly read or adjudicated' as adjudicated, and nothing of it was read).
 """
 import re, pathlib, html, datetime
 
@@ -29,7 +30,7 @@ SECTIONS = [
     ('offline', '### Offline only'),
     ('active',  '### In progress'),
 ]
-OVERRIDE = {'Forster': 'found'}
+OVERRIDE = {'Forster': 'found', 'Voynich': 'closed'}  # Voynich sits under 'adjudicated': tested, not read
 LABEL = {
     'read': 'read', 'nothing': 'no message', 'partly': 'partly read', 'found': 'already solved elsewhere',
     'closed': 'closed, with the reason', 'offline': 'waiting on an archive', 'active': 'in progress',

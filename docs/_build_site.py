@@ -380,7 +380,7 @@ PAGES = [
          title='The Scorpion letters &mdash; two ciphers below the unicity distance',
          blurb='Two Zodiac-style cryptograms sent to John Walsh in 1991, 70 and 180 symbols with 53 and 145 distinct. Both carry more key than the English text has redundancy, so fluent false solutions are guaranteed; matched controls produce them at 3 to 13 percent accuracy, and a claimed 2018 solution is tested against the same rule.',
          quote='S5: every repeat at a multiple of 16 &middot; key 682 bits against 576 of redundancy'),
-    dict(slug='voynich', label='Voynich', year='c.1420', y=1420, place='Beinecke MS 408', st='partial', stt='adjudicated',
+    dict(slug='voynich', label='Voynich', year='c.1420', y=1420, place='Beinecke MS 408', st='stuck', stt='adjudicated, not read',
          title='The Voynich manuscript &mdash; hoax, cipher or language, adjudicated',
          blurb='Six computational tests on the transliteration against eleven languages and implemented hoax generators, each re-run adversarially, and five literature sweeps. A plain or simply enciphered European language is excluded on transliteration-robust entropy; a verbose encoding and a structured meaningless text are left roughly even, with the tests that would separate them.',
          quote='h2 2.2&ndash;2.9 bits against a 3.3 floor &middot; slot grammar 1.7&ndash;2.3&times; more rigid than any language'),
