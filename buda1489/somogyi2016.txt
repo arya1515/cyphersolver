@@ -1,0 +1,797 @@
+                                Judit W. Somogyi
+
+                CARATTERISTICHE STRUTTURALI
+            DI CIFRARI MONOALFABETICI ITALIANI
+
+                         NEI SECOLI XIV E XV
+
+1. Introduzione
+
+Nell'Europa del Trecento, con l'incremento dei rapporti politici ed economici,
+l'informazione acquista sempre maggiore importanza e, in parallelo, aumenta
+anche l'esigenza di rendere nascoste certe notizie. Nella seconda parte del secolo,
+nell'ambito delle relazioni diplomatiche della corte papale e di alcune repubbli-
+che e signorie italiane, si ricorre sempre più frequentemente all'uso di un nuovo
+sistema comunicativo, inviando dei messaggi cifrati sistematicamente (Berardi
+& Beutelspacher 2001: 158). Ciò significa che, nella registrazione dei testi formu-
+lati in latino o in volgare, al sistema d'uso viene associato un diverso sistema di
+scrittura: alcune lettere diplomatiche sono redatte non solo nel sistema alfabetico
+bensì ­ per assicurare che il loro contenuto rimanga riservato ai soli destina-
+tari ­ con l'uso dei crittogrammi. Nel '400 il crittosistema monoalfabetico, che
+prevede la sostituzione simbolica di una lettera servendosi d'un solo alfabeto
+sostitutivo, si sviluppa dinamicamente e si arricchisce di soluzioni individuali, tra
+cui numerose anche dotate di caratteristiche particolari. Tale metodo nel secolo
+sucessivo verrà superato dal sistema polialfabetico (che si serve della permutazio-
+ne della posizione delle lettere, vale a dire che non si modificano solo i caratteri del
+testo ma si cambia anche la loro posizione), teorizzato da Leon Battista Alberti,
+"padre della crittografia occidentale" (Kahn 1998: XI), in una sua opera del 1466
+(dal titolo De componendis Cyfris) ma utilizzato solo a partire dagli inizi del '500.
+
+   In seguito trattiamo cifrari dei secoli XIV e XV con l'intento di avere maggiore
+conoscenza delle proprietà strutturali degli strumenti fondamentali dei crittosi-
+stemi monoalfabetici, cioè i cifrari in cui sono depositati gli elementi di ciascun
+sistema, per comprendere meglio i sistemi stessi. La nostra attenzione si con-
+centra sulle tecniche di crittazione prescritte nelle chiavi analizzate: osserviamo
+  judit w. somogyi
+
+e descriviamo le principali caratteristiche di tali tecniche nella loro complessità
+in relazione alla sicurezza. Nel secondo capitolo dello studio, in seguito ad alcune
+considerazioni generali, che riguardano la scrittura come sistema di codici non-
+ché i sistemi alfabetico e crittografico, presentiamo la struttura generale dei cifrari
+tre- e quattrocenteschi, individuando le loro parti principali (2.3.). Nel sottocapi-
+tolo 2.4. descriviamo la scala di sicurezza che abbiamo elaborato, per valutare e
+caratterizzare, in forma essenziale, ogni cifrario messo in esame. Nel 3. capitolo
+sono presentate le chiavi del corpus. Nella nostra analisi gli aspetti formali dei
+cifrari hanno rilevanza minima, dato che studiamo la loro struttura e non le loro
+caratteristiche grafiche, per cui l'esame è condotto su chiavi pubblicate in edizioni
+a stampa (3.1. e 3.2.). Nel sottocapitolo 3.3. presentiamo una chiave che abbiamo
+ricostruito in base ai testi cifrati da Buglio Maffeo di Treviglio (ambasciatore del
+duca di Milano) e la loro versione decifrata. Il nostro corpus si divide in tre parti:
+il primo gruppo contiene 28 cifrari trecenteschi raccolti nel manuale di Gabriele
+de Lavinde (Meister 1906); il secondo sottocorpus enumera 26 tavole del '400
+più una del 1395 (Meister 1902); il terzo consta di alcune lettere cifrate e decifrate,
+custodite nell'Archivio di Stato di Milano (Carteggio Visconteo-Sforzesco, buste
+642, 650) e del cifrario ricostruito in base a tali lettere.
+
+2. Questioni generali
+
+2.1. La scrittura come sistema di codici
+
+Tra le numerose definizioni di scrittura, come più affine all'argomento del pre-
+sente studio, ne abbiamo scelto una, più specifica, d'approccio linguistico (occi-
+dentale), che vede la scrittura come lo "specchio più o meno fedele della lingua
+parlata [...] dunque, in sostanza come sequenza di segni che trascrivono suoni
+della lingua" (Cardona 2009: 5). I sistemi di scrittura alfabetici si distinguono da
+altri sistemi (non alfabetici) perché utilizzano i loro simboli per rappresentare
+singoli elementi fonici della lingua, anche se uno stesso elemento alfabetico non
+ha necessariamente valore fonetico in tutti i sistemi alfabetici in uso.
+
+   Accanto ai simboli di valore fonico, in ogni sistema, possono ricorrere sim-
+boli grafici non alfabetici, di valore fonico o privo di esso (per esempio: segni di
+articolazione testuale; segni interpuntivi di pausa; simboli attitudinali o di emo-
+zione, che sono frequenti negli scritti di CMC). I sistemi di scrittura alfabetici
+constano di un insieme di tali simboli grafici e delle regole riguardanti l'uso di
+essi. Ogni società forma il proprio sistema di scrittura convenzionale, aperto e
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+a disposizione dell'intera comunità linguistica (con il presupposto che si sappia
+leggere e/o scrivere), di uso comune in tutti i campi; tuttavia, in ogni società pos-
+sono formarsi sottosistemi interni, in certi settori e per certi fini, che funzionano
+parallelamente al sistema convenzionale.
+
+2.2. Sistema alfabetico e sistema crittografico
+
+Nella crittografia occidentale dei secoli XIV e XV i "critto sistemi" si basano sul
+sistema di scrittura alfabetico: essi ricodificano i testi `chiari' ­ cioè scritti con
+l'uso del sistema alfabetico ­ sostituendone elementi e unità grafiche con simboli
+(ad es. disegni di fantasia, lettere prese dall'alfabeto greco, numeri ecc.), detti cifre.
+Ambedue i sistemi adoperano segni grafici con valori linguistici (fonico, diacri-
+tico e/o paragrafematico) e con valore solo grafico. I simboli e le principali regole
+dei crittosistemi sono registrati nei cifrari, che risultano perciò strumenti indi-
+spensabili nell'uso del crittosistema, nelle fasi di codificazione e decodificazione
+dei testi. Un testo cifrato implica l'esistenza d'una chiave che contenga l'insieme
+di segni per la corrispondenza tra il sistema alfabetico e il crittosistema. Va pure
+detto che la corrispondenza tra i due sistemi non può essere del tutto perfetta,
+dato che nel crittosistema sono presenti elementi inesistenti nel sistema alfabe-
+tico (come le "nulle" cioè simboli grafici senza valore linguistico che servono ad
+aumentare il grado di sicurezza del testo cifrato).
+
+2.3. Struttura generale dei cifrari
+
+Nei cifrari si possono individuare quattro parti strutturali, non tutte necessa-
+riamente presenti in ogni tavola. Un cifrario può essere dotato di un titolo, in
+cui eventualmente sono indicati gli utenti oppure il destinatario, la data del-
+la compilazione o della validità del cifrario; qualche volta è nominato anche il
+compilatore del cifrario. Segue la parte fondamentale dei cifrari con l'elenco delle
+lettere dell'alfabeto ed i simboli grafici corrispondenti. Il numero delle lettere può
+variare da venti a ventitré, la differenza è data dalla presenza o l'assenza delle
+lettere k, x, y, z. In molti cifrari appaiono anche altre corrispondenze tra unità
+alfabetiche o non alfabetiche e simboli. Nei cifrari del nostro corpus ricorrono le
+seguenti unità alfabetiche da sostituire: consonanti doppie; sillabe (costituite da
+una consonante e da una vocale del tipo ba, be, bi ecc., quindi sono escluse quelle
+con gruppi eteroconsonantici: bra, bre ecc.); parole lessicali e grammaticali; nomi
+  judit w. somogyi
+
+di persona, di luogo, oppure altre espressioni raggruppate a parte (nomenclatore).
+Come unità non alfabetiche da sostituire si trovano numeri (arabi); segni d'abbre-
+viazione (oppure i cosiddetti titoli); segni d'avviso; segni d'interpunzione; nulle
+(si veda l'elenco completo in 2.4.). Nei cifrari possono apparire anche istruzioni o
+regole, in forma esplicita, riguardo alla crittazione o alla decrittazione, alla lingua
+usata (o da usare), all'aspetto grafico delle cifre ecc., come si trova anche in un
+cifrario cinquecentesco (Cifra a Monsignor Costa [...] data in Roma 11 Octobris
+1583): "Quando si haverà da scrivere in cifra si doverà prima stendere in carta
+tutto quello che si haverà da scrivere et tenerlo avanti quando si scrive per non
+fare errore." (Meister 1906: 298). Tuttavia va osservato che non tutte le regole del
+crittosistema appaiono esplicitamente nei cifrari: in genere non sono presenti le
+regole "convenzionali" di crittazione, per esempio l'uso della scriptio continua
+(cioè la completa mancanza di cesure) "che non offre appigli e soste all'occhio ma
+solo un nastro continuo di simboli" (Cardona 1983: 70) o l'abbandono di altri
+strumenti demarcativi e paragrafematici di uso comune nei sistemi alfabetici
+(Cardona 2009: 75).
+
+2.4. Sistemi di sicurezza
+
+I cifrari si distinguono per il loro sistema di sicurezza, vale a dire per gli elementi
+e i procedimenti che prescrivono di adoperare nel corso della crittazione e della
+decrittazione, allo scopo di rendere il testo inintelligibile. I risultati dei nostri
+esami, condotti riguardo alle pratiche indicate nei cifrari, ci hanno indotto alla
+costruzione di una "scala di sicurezza" per valutare e caratterizzare ciascun si-
+stema. La scala che proponiamo segnala due aspetti: a) il grado di sostituzione
+delle lettere dell'alfabeto, vale a dire il numero dei simboli cifranti in rapporto
+al numero delle lettere (valore indicato con un numero arabo); b) la presenza
+di componenti di sicurezza aggiunti, cioè elementi che integrano la sostituzione
+delle lettere, per conferire maggiore sicurezza al sistema, ad es. la sostituzione di
+consonanti geminate con un simbolo (valore indicato con una o più maiuscole).
+Dopo tale valutazione ogni cifrario potrà essere caratterizzato da un'etichetta
+indicante, con una sigla, la sua struttura di sicurezza in modo essenziale. Ogni
+sigla si compone, presumibilmente, di un numero da 1 a 4 (poiché i crittosistemi
+si servono spesso della sostituzione delle lettere) ed eventualmente di una o più
+maiuscole da A a L (in base alle caratteristiche strutturali di ciascun cifrario),
+secondo le corrispondenze seguenti:
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+a) Grado di sostituzione delle lettere dell'alfabeto indicato nel cifrario:
+
+1 = sostituzione di alcune lettere dell'alfabeto indicato (non tutte le lettere);
+
+2 = sostituzione di tutte le lettere dell'alfabeto indicato;
+3 = sostituzione omofonica di vocali dell'alfabeto indicato (solo la presenza del-
+
+   la sostituzione omofonica, non considerando il numero degli omofoni o il
+   numero delle vocali sostituite con omofoni);
+4 = sostituzione omofonica di vocali e di consonanti dell'alfabeto indicato, solo
+   la presenza della sostituzione omofonica, non considerando il numero degli
+   omofoni o il numero delle vocali o consonanti sostituite con omofoni;
+
+b) Presenza di elementi di sicurezza aggiunti:
+
+A = cifre con valore nullo;
+
+B = cifra per parola (grammaticale) rappresentata da un unico grafema (&, 9);
+C = cifra per parola (lessicale o grammaticale) scritta con lettere (che, per ecc.);
+D = nomenclatore (elenco di nomi propri o comuni da sostituire con cifra);
+E = cifra per consonanti geminate (bb, cc ecc.);
+F = cifra per sillabe (ba, be ecc.);
+G = cifra per altro (per es. un segno di avviso in Pi1 (si veda la tab. 3);
+H = cifra per numeri;
+K = sostituzione con una parola intera al posto di un simbolo;
+L = presenza di indicazioni o di regole;
+Xo = la letterina o nell'indice superiore di qualsiasi maiuscola di sopra indica la
+
+   presenza di omofoni (senza contarne il numero di tali omofoni).
+
+Un cifrario di struttura meno elaborata avrà l'etichetta di una sigla semplice, per
+es. 2A, vale a dire che accanto alla sostituzione completa dell'alfabeto (2) in esso
+saranno presenti anche cifre con valore nullo (A); si veda L5, L8 nell'allegato n. 2.
+Il metodo che proponiamo può essere utile per caratterizzare ciascun cifrario
+in modo schematico ma con gli stessi parametri, per dare luogo ad un'eventuale
+classificazione delle strutture analizzate. Tuttavia, come si vedrà, tale caratteriz-
+zazione non è sempre sufficiente per esaminare le proprietà di ciascuna struttura,
+perciò la valutazione di ogni cifrario sarà integrata con il numero delle cifre da
+esso proposte.
+                           judit w. somogyi
+
+3. Analisi dei cifrari
+
+3.1. Cifrari del Trecento
+3.1.1. I cifrari
+
+L'analisi seguente è condotta in base all'edizione a stampa del manoscritto tre-
+centesco del Manuale di Gabriele de Lavinde (1379) (Vat. Arch. Collect. 393 f.
+166­181). Nell'edizione curata da Aloys Meister (Meister 1906: 171­176) la raccolta
+delle tavole è ampliata con note e spiegazioni del curatore. L'opera presenta 28
+cifrari numerati più uno senza numero: esso è quasi identico al cifrario che porta
+il numero 13, le differenze riguardano il numero e l'ordine degli elementi nella
+parte del nomenclatore (45 nella versione numerata contro i 41 in quella senza
+numero). Probabilmente si tratta d'una copia del cifrario n. 13; ambedue mancano
+di qualsiasi indicazione riguardo agli utenti, alla data ecc., e sono segnalati da
+Meister con l'etichetta [Anonym]. Per la nostra analisi prendiamo in considera-
+zione solo la versione numerata. I cifrari in seguito saranno indicati ciascuno
+con una sigla composta da L più un numero (in ordine dell'edizione stampata,
+cioè L1, L2 ecc.) secondo l'elenco seguente:
+
+L1 = Et primo cum domino nostro papa Clemente.
+
+L2 = Ziffera cum Bertholamo secretario domini Raznalducii de Montevirdi do-
+   mino civitatis Firmane.
+
+L3 = Ziffera cum Lapo de Ricasulis et saulo nato suo, quando ivit ad cardinales
+   italicos.
+
+L4 = Ziffera fr. Iohannis de Bononia offic. Reginalis cum qua scribere vult mihi.
+L5 = Ziffera quam dedi fr. Iohanni de Bononia, cum qua sibi scribere debeo.
+L6 = Ziffera cum fr. Iohane Guidonis de Forlinis, qui ivit ad partes Italie de man-
+
+   dato domini nostri pape cum domino episcopo Vencionensi.
+L7 = Ziffera cum domino Nicolao de Neapoli regni Sicilie canonico.
+L8 = Ziffera cum Ferdinando Sancii de moya Conchensis dioc. castellano Roche
+
+   papalis Anchonitane, et cum eadem scribere debet domino nostro pape et
+   dominus noster sibi.
+L9 = Ziffera cum domino fratri Angelo Feduccio de Bibiena episcopo Pensau-
+   riensi, quando ivit ad partes Yspanie, Aragonie, Portugalie et Navarie.
+L10 = Ziffera cum Cavallino de Cavallis familiari domini nostri pape Clementis.
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+L11 = Ziffera cum domino Antonio de Guntuariis conscibario domini comitis
+   Virtutum.
+
+L12 = Ziffera nova cum Alderico de Interminellis de Luca, quia antiquam ha-
+   buit dominus Caleatus de Malatestis tempore captionis mee (et Cassori de
+   Ubaldinis).
+
+L13 = Zifera [Anonym].
+L14 = Ziffera domini abbatis Sti. B. de Ferraria.
+L15 = Ziffera cum domino episcopo Senorum et cum dominio Gubernatori Pa-
+
+   viensi.
+L16 = Ziffera cum domino meo domino Io. episcopo Veneciarum.
+L17 = Ziffera cum Gubernatori de Merlio magistro hospicii.
+L18 = Ziffera cum domino meo domino Gubernatori de Ravenna, cum qua etiam
+
+   scribit domino nostro.
+L19 = Ziffera cum Gaspario de Ubaldinis, per quam etiam scribere debet domino
+
+   nostro et dominus noster sibi.
+L20 = Ziffera cum domino fratre B. de Padua ordinis minorum magister in sacra
+
+   pagina et cum eadem ziffera debet scribere domino nostro et domino magno
+   Matheo ordinis predicti.
+L21 = Ziffera cum domino Iacobo de cavallis episcopo Vercellarum.
+L22 = Ziffera domini abbatis Sti. Bertholdi prope Ferrariam.
+L23 = Ziffera magistri Petracini de Sassolo secretarii domini episcopi Castellani.
+L24 = Ziffera castellani Anchone cum domino archiepiscopo Ispalensi.
+L25 = Ziffera cum domino fratri Angelo de Spoleto generali ministro ordinis fra-
+   trum minorum, quando ivit ad spaniam et Iohanni de Segnelis.
+L26 = Ziffera Guigonis Iarenti de Aquis, quam habet cum domino Petro Raynaldi
+   iudice primario appellationum provincie, reperta ad banchum.
+L27 = Ziffera cum domino meo domino cardinali Sti. Eustacii mei Gabrielis del
+   Lavinde de Parma. VIIIo octubris.
+L28 = Ziffera cum fratre Iohanne de Seganellis de Parma potestate et capitano
+   civitatis Ananie.
+
+I 28 cifrari non sono completamente dissimili l'uno dall'altro: alcuni sono ripe-
+tuti nella raccolta senza un minimo di cambiamento, sostituendo quindi solo il
+destinatario, per es. il cifrario L1 è ripreso come L7, L10, L11, vale a dire che (non
+  judit w. somogyi
+
+considerando il titolo) L1 = L7 = L10 = L11. Altri sono riusati come varianti dopo
+qualche leggera modifica, per es. il L9 e il L17 sono le varianti di L1, cambiando il
+simbolo di sostituzione in alcuni casi, in L9 per le lettere n e r, in L17 per le lettere
+v e z. Il numero delle strutture autonome della raccolta si riduce quindi a 12: le
+altre sono riprese in forma invariata o con minime variazioni (come è segnalato
+pure da Meister nella sua edizione per cui si rimanda all'allegato n. 2). L'elenco
+seguente rappresenta le relazioni tra le 28 strutture della raccolta, con l'ipotesi che
+l'ordine dei cifrari nel manuale più o meno rispecchi l'ordine cronologico della
+genesi dei cifrari in questione (cioè che L1 sia veramente il primo tra i cifrari).
+I numeri scritti in grassetto corrispondono ai cifrari autonomi (oggetto della
+nostra analisi), quelli tra parentesi indicano i cifrari ripresi in forma invariata,
+il corsivo segnala le varianti:
+
+L1 (L7; L9; L10; L11; L17 (L19; L20; L21; L22; L27)); L2; L3; L4, L5 (L6); L8; L12 (L15
+(L16; L18; L25; L28)); L13; L14; L23; L24; L26.
+
+Nell'elenco di sopra spiccano L1 e L12 come i cifrari più volte ripetuti: il primo è
+ripreso in totale 10 volte, il secondo 5 volte. Casi particolari sono i cifrari L17 e L15
+i quali, benché entrambi siano varianti (rispettivamente di L1 e di L12), saranno
+riusati cinque (e quattro) volte. Merita forse un'osservazione il fatto che, sui 12
+cifrari, 8 rimangono (almeno nella raccolta) isolati cioè senza ripresa.
+
+3.1.2. Le parti strutturali nei cifrari
+
+L'opera comincia con una dichiarazione del compilatore del manuale, la quale
+informa il lettore che i cifrari della raccolta sono quelli che egli aveva nella corri-
+spondenza con l'antipapa Clemente [VII] e con molti altri. Ad eccezione di L13,
+nel titolo latino dei cifrari sono nominati il destinatario (i destinatari) o l'autore
+(se questo non è Lavinde, per es. L4, L26) della cifra in questione, qualche volta
+è indicata, in modo approssimativo, pure una collocazione spaziale o temporale
+(si veda per es. L3). Il manoscritto che ospita il manuale porta la data del 1379,
+tuttavia i cifrari possono essere stati compilati nel periodo precedente, dato che
+non hanno l'indicazione precisa riguardo alla data (giorno, mese o anno) della
+loro nascita, salvo L27 in cui risulta "VIIIo octubris". Oltre il titolo, ciascuna
+tavola riporta l'elenco delle lettere, in molte è presente qualche altro componente
+di sicurezza; i cifrari sono privi di istruzioni o di regole.
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+3.1.3. Sistema di sicurezza nei cifrari
+
+A nostro avviso, le 12 strutture presentano le caratteristiche principali della prassi
+di crittazione usata nell'Italia del '300, prassi chiamata spesso `medioevale', che si
+basa sulla sostituzione monoalfabetica biunivoca (monofonica), in cui una lettera
+è sostituita con una cifra. Nonostante l'etichetta `medioevale', che potrebbe dare
+l'idea di minima elaborazione, quasi tutti e 12 i cifrari individuati come strutture
+autonome custodiscono un sistema di sicurezza proprio perché, all'infuori del-
+la sostituzione di lettere (con simbolo), adottano diverse tecniche per ottenere
+maggiore sicurezza. Per indicare (sommariamente) le variabilità di tali tecniche,
+quindi per dimostrare che la prassi monoalfabetica vada ben oltre una semplice
+sostituzione meccanica di una lettera con un simbolo, ci serviamo della scala di
+sicurezza presentata sopra (in 2.4.), caratterizzando cioè ogni cifrario (autono-
+mo) con una sigla. La tabella n. 1 riporta i cifrari autonomi del manuale di Lavin-
+de, con le relative sigle assegnate in base alle caratteristiche di ciascun cifrario.
+
+        Tabella 1: Sistemi di sicurezza nei cifrari del manuale di G. Lavinde
+
+      L1 L2 L3 L4 L5 L8 L12 L13 L14 L23 L24 L26
+      2A 2A 2C 1 2A 2A 2A 2D 2A 2AB 2 1D
+
+Dalla tabella risulta che il sistema di sicurezza più frequente nei cifrari del ma-
+nuale è quello che prevede, accanto alla sostituzione di tutte le lettere dell'alfabeto,
+l'utilizzo di nulle (2A). In più dell'ottanta percento dei cifrari sono presenti due
+fattori di sicurezza, in L23 ve ne sono tre (2AB). Tuttavia sono osservabili anche
+sistemi semplici, che si servono esclusivamente della sostituzione di tutte (L24) o
+solo di alcune (L4) lettere dell'alfabeto.
+
+   Il numero dei simboli cifranti in questo periodo non è ancora molto elevato,
+ciò nonostante, come indice di variabilità, anche questo aspetto merita di esser
+preso in considerazione. Nella tabella n. 2 segnaliamo il numero totale delle cifre
+impiegate, indicando (fra parentesi) pure la loro distribuzione, riportando cioè le
+cifre riservate per la sostituzione delle lettere dell'alfabeto, separatamente da quel-
+le delle altre funzioni, secondo la valutazione di sopra. Per maggiore chiarezza,
+accostiamo ai dati delle caratteristiche numeriche quelli di sicurezza (ripetendo i
+dati della tab. 1).
+       judit w. somogyi
+
+  Tabella 2: Numero delle cifre e sistemi di sicurezza
+          nei cifrari del manuale di G. Lavinde
+
+       Numero delle cifre Sistema di sicurezza
+
+  L1   26 (20+6)         2A
+
+  L2   25 (20+5)         2A
+
+  L3   26 (23+3)         2C
+
+  L4   4 (4)             1
+
+  L5   25 (20+5)         2A
+
+  L8   27 (21+6)         2A
+
+  L12  26 (20+6)         2A
+
+  L13  68 (23+45)        2D
+
+  L14  27 (22+5)         2A
+
+  L23  35 (23+3+9)       2AB
+
+  L24  21 (21)           2
+
+  L26  33 (5+28)         1D
+
+Sono da notare i cifrari L4 e L13 (il primo per il bassissimo, il secondo ­ al con-
+trario ­ per l'elevato numero dei simboli proposti); inoltre L26: nonostante il
+totale delle cifre sia relativamente alto (33), se si considera la loro distribuzione
+funzionale (soprattutto nello specchio della frequenza delle lettere), non sembra
+offrire un sistema molto affidabile.
+
+3.2. Cifrari quattrocenteschi
+3.2.1. I cifrari del secondo sottocorpus
+
+Per il secondo sottocorpus abbiamo scelto 26 tavole del Quattrocento ed una
+costruita alla fine del Trecento, tra quelle pubblicate da Meister (Meister 1902:
+14­60). Si tratta di cifrari usati in varie cancellerie, legate a grandi città (Mila-
+no, Modena, Mantova, Firenze, Siena, Lucca, Pisa, Genova); sono pubblicati da
+Meister e raggruppati in base al luogo della loro origine e nel probabile ordine
+cronologico (dato che non tutti sono datati). Nel presente studio essi saranno de-
+nominati con una sigla alludente alla città d'origine e all'ordine di successione del-
+la pubblicazione; per agevolare l'identificazione, nell'elenco seguente riportiamo
+il titolo e la sigla corrispondente dei cifrari:
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+Mi1 = Zifra ill.me domine et ducisse Mediolani cum ser.mo domino Rege Ferdi-
+   nando 1448 die 14 martii.
+
+Mi2 = Cum illustre comite Hieronimo 10. Januarii 1483.
+Mo1 = MCCCCXXXV die XXIII junii In Milano. Zifra datum Ugutioni de Abba-
+
+   tia segretario ill. dom. Marchionis Extensis.
+Mo2 = (Ziffra pape cum amico tam in vulgari quam latino sermone.)
+Mo3 = 1441 die XI Augusti. In Fossadalbaro.
+Mo4 = Utenda cum ill. d. Marchione Montisferrati. Reperta die XIII Febr. 1469 et
+
+   missa per Joannem Gabbum.
+Mo5 = [s. tit. orig.]
+Mo6 = [s. tit. orig.]1
+Ma1 = Cum Paulo 1395. [in calce:] Ambasciate faciende per Paulum de Armaninis
+
+   Regi Ungarie parte magnifici domini Francisci Gonzaga et littere per ipsum
+   super his scripte 1395.
+Ma2 = Cum Simeone de crema. Zifra ultima 1401.
+Ma3 = Cum Amorato de Torollis. Jam diu.
+Ma4 = Zifra comunis cum ... [sic!] Residentibus in Mantua.
+Ma5 = Zifra ultima cum magnifico domino Karolo de Malatestis.
+Ma6 = Cum magnifico domino Malatesta Pensauri etc.
+Ma7 = Cum d. abbate Sti. Andree quando ivit ad Serenissimum Regem Rupertum
+   novum electum.
+Fi1 = Cifra Decemviri di Balia 1414.
+Fi2 = Cifra di Galiotto Fibindacci da Ricasoli 1424.
+Si1 = Di m. Antonio Petruccio 1433.
+Si2 = Cifra mandata a Ludovico di Salimbene potesta di Casole mandata ac mons.
+   A. vescovo di Chiusco ambasciadore a Roma.
+Si3 = Cifra data (al conte Carlo) domino Antonio Petruccio.
+Lu1 = Alia cyfra cum prelibato domino episcopo.
+Lu2 = Cyfra cum domino Ladislao.
+
+  1 Nota del curatore: Chiffre zwischen dem Kaiser und dem Herzog von Ferrara.
+  judit w. somogyi
+
+Lu3 = Cyfra cum domino Marino caravello et cum domino Zaccaria Trevisano
+   de Venetiis. Ac etiam cum fratre Bernardo de Dandolo notario in cancellaria
+   Venetorum.
+
+Pi1 = 1442 Nov. 7.
+
+Ge1 = 1481 Mai 29. Zifra datum Francisco de Vernacia pro Mediolano et pro Ca-
+   talonia.
+
+Ge2 = Zifra cum Alexandro Sauli et Nicolao Spinula oratoribus ad ser.mum Ce-
+   sarem.
+
+3.2.2. Le parti strutturali dei cifrari
+
+Tranne Mo5 e Mo6, tutte le tavole sono dotate del titolo. Ad eccezione di Lu4,
+i cifrari elencano le lettere dell'alfabeto; Ma2 e Ma3 si servono esclusivamente
+della sostituzione delle lettere (come risulta anche nella tabella n.3 in avanti). In
+cinque cifrari appare qualche indicazione o regola. In Mo2 e Mo3 è stabilita la
+lingua del testo da cifrare (rispettivamente: volgare e latino; solo volgare). In Mi2
+si spiega l'uso dei segni d'avviso, cioè di quelle cifre che segnalano l'inizio e la fine
+d'una sequenza di simboli, i quali in tal modo isolati (perché racchiusi dai segni
+d'avviso) non hanno alcun significato, come se fossero nulle (com'è osservabile
+nell'allegato n. 2: "Quicquid positum fuerit inter hec signa [...] nihil importabit.").
+La regola in Ma7 insegna il metodo d'un altro tipo di neutralizzazione del valore
+linguistico delle cifre, con la modificazione della loro forma grafica rispetto a
+quella rappresentata nel cifrario: "Nota quod ex scriptis litteris seu figuris, que
+punctate sunt desuper, sine puncto nichil relevant. Et que non sunt punctate, si
+punctentur similiter nichil valent" (Meister 1902: 42).
+
+   Il cifrario pisano (Pi1), che presenta una struttura piuttosto semplice sia per il
+numero delle cifre proposte sia per la combinazione dei componenti di sicurezza
+(si veda la tab. 3), è sorprendentemente ricco nel fornire delle regole. In esso
+prima si spiega la forma grafica dei simboli per sostituire sette parole frequenti,
+poi si dettagliano i tre simboli che corrispondono ai tituli indicanti la mancanza
+di una m o n, oppure la geminazione della consonante. Infine seguono le cifre
+per cinque segni interpuntivi, di cui, per quattro, è indicata anche la funzione
+(Meister 1902: 58­59).
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+3.2.3. Componenti di sicurezza
+
+Nelle chiavi quattrocentesche la novità più saliente è l'introduzione degli omo-
+foni, vale a dire la sostituzione della stessa lettera con più cifre. Tale procedi-
+mento, da una parte, riesce ad attenuare i problemi legati alla frequenza delle
+lettere, dall'altra parte porta all'incremento del numero delle cifre impiegate come
+sostituenti di vocali e/o consonanti. La tabella n. 3 riporta il numero delle cifre
+prescritte in ciascun cifrario ed il loro sistema di sicurezza.
+
+Tabella 3: Numero delle cifre e sistemi di sicurezza nei cifrari
+                     del secondo sottocorpus
+
+Mi1 (1448)  Numero delle cifre      Sistema di sicurezza
+Mi2 (1483)
+Mo1 (1435)  152 (44+14+1+28+65)     4ABDF
+Mo2         146 (47+7+6+6+67+11+2)  4ABoCDEGL
+Mo3 (1441)  163 (67+44+9+6+35+2)    4ABoCDE
+Mo4 (1469)  86 (56+6+1+13+10)       4ABDEL
+Mo5         92 (49+7+6+18+12)       4ABoDEL
+Mo6         97 (43+8+3+10+31+12)    3ABCDE
+Ma1 (1395)  65 (27+7+3+17+11)       3ABDEK
+Ma2 (1401)  39 (27+12)              3DK
+Ma3         29 (23+6)               2A
+Ma4         35 (35)                 3
+Ma5         23 (23)                 2
+Ma6         32 (23+9)               2A
+Ma7         33 (23+7+3)             2AB
+Fi1 (1414)  33 (23+5+3+2)           2ABD
+Fi2 (1424)  45 (33+12)              4BL
+Si1 (1433)  38 (35+3)               4C
+Si2         96 (43+17+6+30)         4ACDK
+Si3         30 (25+5)               4Do
+Lu1         105 (42+18+35+10)       3ADEK
+Lu2         94 (38+12+33+11)        3ADEK
+Lu3         61 (38+7+1+15)          3ABDK
+Lu4         87 (27+8+1+51)          3ABDK
+Pi1 (1442)  88 (22+50+10)           2DoHK
+Ge1 (1481)  17 (17)                 D
+Ge2         40 (25+7+8)             2CGL
+            49 (31+7+11)            3ADK
+            47 (26+5+1+15)          3ACDK
+  judit w. somogyi
+
+Nella prima colonna si ripete (fra parentesi) anche l'anno di compilazione del
+cifrario; nella seconda colonna è segnato il totale delle cifre proposte, dettagliato
+(fra parentesi) secondo i componenti del sistema di sicurezza, elencati nella terza
+colonna. (Si ricorda che alle maiuscole K e L non corrisponde alcun numero dato,
+esse indicano semplicemente la presenza d'una parola al posto d'un simbolo (K)
+e la presenza di qualche indicazione o regola di crittazione o decrittazione (L).
+Nel conteggio delle cifre una parola cifrante risulta con valore di un simbolo.)
+
+   Nel nostro corpus alcuni cifrari propongono un numero elevato di simboli
+come sostituenti di lettere dell'alfabeto, per es. Mo1= 67 cifre; Mo2 = 56; Mo3 =
+49 ecc., in opposizione ai sistemi trecenteschi di un massimo di 23 cifre (come
+risulta nella tab. 2). Tuttavia la prassi di impiegare più simboli, per sostituire lo
+stesso elemento, non si limita alle lettere: in alcune chiavi risultano più simboli
+per le parole (frequenti) rese con un unico grafema, come & per et ecc. (fattore
+indicato nella scala con Bo, cfr. 2.4.), oppure per gli elementi del nomenclatore
+(Do), per es. Si1, Lu3.
+
+   Nel secolo XV appaiono pure altre unità da sostituire con cifre: consonanti
+geminate (E), sillabe (F), numeri (H), aumentando il carattere ibrido dei sistemi
+(Ong 1986: 131). In alcuni cifrari del corpus si osserva la "sostituzione per reperto-
+rio" (Costamagna 1968: 39), vale a dire che, al posto dei simboli, ricorrono parole
+intere in funzione di nulle o per sostituire nomi (propri) elencati nel nomencla-
+tore, ad esempio in Si2 arbor, fons, crimens ecc. sono parole nihil importantes,
+il toponimo Pisa va sostituito con pons, la locuzione Gentes Senensium con la
+parola sol ecc. In Mo5 nel nomenclatore appaiono verbi con cui sostituire: dolet,
+canit, ambulat, plorat ecc.; in Lu3 ad ogni espressione del nomenclatore sono
+assegnati due sostituenti: una cifra ed una parola. Il fatto di impiegare una pa-
+rola, con valore d'un solo simbolo, è un ulteriore elemento di sicurezza: l'aspetto
+visivo d'un testo cifrato con il susseguirsi, senza cesure, delle cifre, la presenza
+di alcune parole come catene di simboli alfabetici tra le cifre, nonché il conte-
+nuto semantico di tali parole, possono risultare fuorvianti nella decrittazione.
+
+   Per l'elaborazione e l'impiego di nuovi elementi di sicurezza, l'inventario delle
+cifre diventa più numeroso, inoltre aumentano le possibilità combinatorie. Il nu-
+mero più elevato di simboli caratterizza la chiave Mo1, in cui il totale (163 cifre) è
+quasi dieci volte più alto di quello proposto in Lu4 (17 cifre). Fra tali punti estremi
+i cifrari si collocano nel seguente ordine decrescente: Mo1 (163) > Mi1 (152) >
+Mi2 (146) > Si2 (115) > Mo4 (97) > Fi2 (96) > Si3 (94) > Mo3 (92) > Lu3 (88) >
+Lu2 (87) > Mo2 (86) > Mo5 (65) > Lu1 (61) > Ge1 (49) > Ge2 (47) > Ma7 (45) >
+Pi1 (40) > Mo6 (39) > Fi1 (38) > Ma2 (35) > Ma5 (33) = Ma6 (33) > Ma4 (32) >
+Si1 (30) > Ma1 (29) > Ma3 (23) > Lu4 (17). Il totale dei simboli usati considerato
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+in sé potrebbe dare informazioni su alcune caratteristiche del sistema, ad es. un
+numero elevato di cifre potrebbe far pensare alla presenza di diversi componenti
+di sicurezza, come è testimoniato in Mi2 (si veda nell'allegato n. 3), in cui i 146
+simboli si distribuiscono per 7 componenti di sicurezza (4ABoCDEG).2 Un totale
+relativamente basso però non indica necessariamente un sistema di sicurezza
+povero: benché Ma2 si serva di 35 cifre con la sola funzione di sostituire le lettere,
+Ma5 e Ma6 ­ ambedue con 33 simboli ­ utilizzano sistemi più elaborati con 3
+(Ma5) o 4 (Ma6) componenti. Questi ultimi due cifrari esemplificano anche il
+fatto che la sola conoscenza del numero delle cifre, che appaiono in un cifrario
+oppure in un testo cifrato, non sembra essere sufficiente per caratterizzare il crit-
+tosistema. Dall'altra parte, la nozione in sé delle combinazioni dei componenti
+di sicurezza è ugualmente insufficiente per la valutazione affidabile d'un siste-
+ma. Nel nostro corpus Si2 e Si3 condividono la stessa struttura di combinazione
+(3ADEK), come pure Lu1 e Lu2 (3ABDK), però si distinguono nel numero dei
+simboli, non solo nel totale di essi, ma anche nella loro distribuzione, a seconda
+dei componenti, cfr. nella tab. 3 ad es. le 51 espressioni del nomenclatore in Lu2
+contro le 15 di quello in Lu1.
+
+   Se si osserva la struttura interna delle combinazioni, prendendo in conside-
+razione solamente il numero degli elementi combinanti, la scala varia da uno a
+otto. Tre chiavi propongono esclusivamente la sostituzione delle lettere; tre tavole
+propongono 2 componenti, quattro tavole ne indicano 3. Altre quattro chiavi
+hanno la struttura di 4 elementi; la struttura più frequente si nota in sette cifrari
+con 5 elementi; in cinque tavole si trovano 6 componenti, infine la struttura con
+8 elementi risulta solo in un cifrario. Nel confronto sul totale dei simboli tra le
+chiavi, che condividono le stesse caratteristiche numeriche di combinazioni, si
+possono osservare notevoli differenze, come ad es. tra quelle con 5 elementi se-
+condo l'ordine seguente: Mi1 (152) > Si2 (105) > Fi2 (96) > Si3 (94) > Lu2 (87) >
+Lu1 (61) > Ge2 (47).
+
+   Dall'esame di sopra risulta che i crittosistemi, descritti nei cifrari del secon-
+do sottocorpus, presentano un quadro assai variegato con notevoli differenze,
+le quali non possono essere spiegate solo con fattori cronologici. Nei primi de-
+cenni del secolo, accanto ai sistemi poveri (nel senso di pochi simboli e pochi
+elementi di sicurezza, ad es. Ma2, Ma3 ecc.) si fanno vivi anche crittosistemi
+più complessi, come ad es. Fi2 (del 1424, osservabile nell'allegato n. 4), Mo1 (del
+1435). Quasi tutti gli elementi di sicurezza, individuati sopra, appaiono già nella
+prima parte del secolo. Parallelamente allo sviluppo successivo dei sistemi, tutta-
+
+  2 A cui si aggiunge L.
+  judit w. somogyi
+
+via, si manifestano sempre più evidentemente i limiti di tali sistemi. L'incremen-
+to del numero dei simboli cifranti e la crescita della complessità strutturale nei
+sistemi conduce all'aggravarsi delle operazioni di crittazione e di decrittazione,
+dato che esse richiedono più tempo e maggiore attenzione, inoltre aumenta il
+rischio di commettere più errori. Nonostante i sistemi sempre più forti, le esigen-
+ze di sicurezza implicano modifiche costanti, vale a dire ripetute rielaborazioni
+e ­ ovviamente ­ rispedizioni dei cifrari modificati ai destinatari.
+
+3.3. Il cifrario ricostruito di Buglio Maffeo di Treviglio
+3.3.1. Ricostruzione d'un cifrario
+
+Negli archivi delle cancellerie è frequente che d'una lettera cifrata si conservi
+anche la sua variante decifrata. Mettendo a confronto le due versioni (la cifrata
+con quella decifrata), con un minuzioso lavoro d'osservazione (fra l'altro) della
+ricorrenza di certi simboli o gruppi di simboli, nella maggior parte dei casi è
+possibile ricostruire la chiave. Il solo confronto del numero totale delle lettere
+del testo chiaro con quello dei simboli ricorrenti nel testo cifrato non dà alcuna
+soluzione, visto che una cifra può avere più valori, ad es. può sostituire una lettera,
+una sillaba, una parola, oppure ha valore nullo ecc., trattandosi anche del primo
+simbolo del testo. Decodificare un testo cifrato per conoscere il suo contenuto,
+senza possederne la chiave, significa praticamente anche la ricostruzione più o
+meno totale di essa, nonostante l'intento sia diverso. Una ricostruzione consape-
+vole d'un cifrario, eseguita con il confronto delle due versioni (cifrata e decifrata)
+dello stesso testo, può essere motivata da diverse ragioni. Essa può riferirsi, ad
+esempio, alle caratteristiche strutturali del cifrario stesso (complessità degli ele-
+menti di sicurezza, numero dei simboli ecc.); alla prassi di crittazione osservabile
+nel testo cifrato (l'alternanza degli omofoni ecc.). Un cifrario ricostruito può ser-
+vire a conoscere il contenuto di testi cifrati con la stessa chiave, ma mancanti
+della loro versione decifrata; ad osservare le caratteristiche della lingua e degli
+usi linguistici nelle versioni (cifrata e decifrata) dello stesso testo ecc. Va tuttavia
+osservato che per l'esatta identificazione di tutti i simboli ricorrenti nelle lettere
+messe in analisi, spesso, ci vogliono ulteriori esami (estendendo l'analisi anche
+su altre lettere cifrate dalla stessa persona). Similmente può essere difficile deter-
+minare il totale delle cifre proposte nella chiave, la presenza di parole frequenti,
+rappresentate con un unico grafema (B) oppure indicazioni e/o regole esplicite.
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+3.3.2. Il cifrario ricostruito di Buglio Maffeo di Treviglio
+
+Buglio Maffeo (Maffeo de Bullis) di Treviglio (1430 Treviglio ­ 1498 Roma) si
+trova a Buda a partire dall'estate del 1489; tra il 1490 e il 1493 egli è l'ambasciatore
+del duca di Milano, Lodovico M. Sforza (E. Kovács 2003). L'Archivio di Stato di
+Milano custodisce numerose sue lettere scritte in questo periodo, in veste di am-
+basciatore, di cui alcune risultano in forma cifrata ed accompagnate dalla loro
+versione decifrata. Dopo alcune analisi comparative di coppie di lettere (con
+versioni cifrata e decifrata),3 abbiamo ricostruito un cifrario­base, usato pro-
+babilmente in questo periodo da Maffeo. Tale nostra ipotesi ha avuto conferma
+quando, con l'aiuto del cifrario ricostruito, abbiamo fatto la prova di decifrazione
+di una lettera cifrata, e tale operazione è risultata fruttuosa, svelando una versione
+intelligibile del testo. Nel processo della ricostruzione, per comodità, abbiamo
+sostituito ogni simbolo con un numero a due cifre (o con una combinazione d'una
+lettera e un numero, per es. a2). Per dimostrazione (considerando anche le ragioni
+di spazio), in seguito trascriviamo le prime due righe della lettera cifrata del 22. 11.
+14894 (reperibile solo nella forma cifrata), in due versioni: trascritta con numeri
+(a) e decifrata in base alla chiave ricostruita (b). I simboli equivalenti alle cifre
+si susseguono in scriptura continua ma sono separati l'uno dall'altro mediante
+un mezzo punto:
+
+(a) La Ex.tia vra
+35·49·58·18·24·17·18·11·17·26·59·11·19·35·58·18·22·12·35·41·18·19·29·36·22·11·
+37·61·17·18·36·11·84·38·36·18·22·40·30·24·65·18·26·59·50·24·47 || 26·59·18·
+65·58·11·17·35·18·58·11·04·59·18·65·58·32·a1·18·58·18·54·42·17·18·19·34·30·43·
+16·65·59·30·23·12·32·34·30·65·40·22·35·36·20·32·11·19·58·22·18·21·30·19·47 ||
+
+(b) La Ex.tia vra
+i·n·t·e·n·d·e·a·d·q·u·a·l·i·t·e·r·m·i·n·e·l·a·p·r·a·ti·ca·d·e· p·a·ce·et·p·e·r·
+c·o·n·s·e·q·u·e·n·te || q·u·e·s·t·a·d·i·e·t·a·q·u·e·s·t·o· ser.moRedehungaria·
+e·t·e·ne·ro·d·e·l·h·o·no·re·s·u·o·co·m·o·h·o·s·c·r·i·p· t·o·a·l·t·r·e·u·o·l·te ||
+
+  3 La data delle lettere con due versioni: 02.04.1490 (Inf. 267 e 268); 06.04.1490 (Inf. 276 e 277);
+22.05.1490 (Inf. 249 e 256); 15.07.1490 (Inf. 213 e 214); 03.09.1490 (Inf. 200 e 201). Ciascuna lettera
+è registrata, con una breve descrizione e delle foto digitali, nel sistema Infocus sul sito del pro-
+gramma di ricerca Vestigia (http://vestigia.hu); fra parentesi è indicato il numero di registrazione
+Infocus (Inf.).
+
+  4 Inf. 2831.
+  judit w. somogyi
+
+Anche in questo piccolo campione è osservabile che nella prima riga i 47 simboli
+sostituiscono 52 lettere, dato che ricorrono 4 cifre di valore sillabico, inoltre le
+lettere a ed e hanno un omofono, n anche due omofoni.
+
+   Servendosi della scala di sicurezza usata sopra per la valutazione dei cifrari,
+il cifrario di Maffeo, in base alle lettere del corpus, potrebbe avere lo schema
+seguente: 4ACDEF (con l'osservazione che la presenza degli elementi di sicurez-
+za indicati con B [parola grammaticale con grafema] e L [indicazioni o regole
+esplicite] non è ricavabile dai testi analizzati). Più dettagliatamente, nella chiave
+di Maffeo 21 lettere hanno simboli sostituenti (mancano k e y). Ad ogni vocale
+è assegnato almeno un omofono; tra le consonanti, a sette corrisponde una sola
+cifra, mentre otto dispongono di un omofono, n anche di quattro. In totale ci sono
+quindi 13 cifre vocaliche (considerando la lettera u con valore vocalico) e 28 cifre
+consonantiche. Inoltre, nel cifrario sono presenti simboli con valore nullo (A) e
+cifre sostituenti per parole grammaticali (C).5 L'analisi comparativa delle versioni
+(cifrata e decifrata) della stessa lettera ha reso possibile l'identificazione di alcuni
+nomi propri del nomenclatore (D). Infine risultano più consonanti geminate (E)
+e numerose sillabe (F), ciascuna con un simbolo sostituente. Il cifrario ricostruito
+è osservabile nell'allegato n. 4.
+
+4. Conclusioni
+
+Per concludere le nostre analisi, facciamo qualche breve affermazione riassuntiva.
+Da una parte, si è dimostrato che fin dalla fine del Trecento esistono crittosistemi
+che utilizzano diverse tecniche per ottenere maggiore sicurezza, tuttavia nei cifra-
+ri trecenteschi analizzati si possono osservare strutture semplici che (con qualche
+eccezione) utilizzano pochi simboli. La maggior parte dei cifrari del `400, invece,
+presenta sistemi più complessi, alcuni pure con elevato numero di simboli e di
+elementi di sicurezza. Sembra tuttavia che le caratteristiche di tali sistemi non
+siano determinate da fattori cronologici o di localizzazione geografiche (anche
+se non è esclusa la presenza di proprietà locali) bensì dall'inventore del cifrario.
+Dall'altra parte, l'esame dei cifrari del manuale di Lavinde ha svelato un meto-
+do economico, vale a dire una prassi in cui ­ con poche o senza modifiche dei
+simboli ­ si riutilizza lo stesso cifrario ripetutamente. Tale "economia" (che non
+esige giustificazioni particolari se si considerano le fatiche spirituali e fisiche im-
+
+  5 Le sequenze di tipo ma, me, se che ricorrono nelle lettere cifrate di Maffeo, ora come parole
+(congiunzione, pronome ecc.), ora come sillaba, sono contate tra le sillabe (F).
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+plicate dalla preparazione di cifrari nonché dalle operazioni di crittazione e de-
+crittazione, ma che comunque significa un rischio vero e proprio per la sicurezza
+del sistema) sopravvive nel secolo seguente. Ne da conferma anche il fatto che la
+chiave ricostruita di Buglio Maffeo di Treviglio, che abbiamo ricavato in base ad
+alcune sue lettere cifrate nel 1490, ha reso possibile la decrittazione di un altro
+suo scritto cifrato del 1489.
+
+Bibliografia
+
+Berardi, L. & A. Beutelspacher (2001): Crittologia. Come proteggere le informazioni riservate. Mi-
+   lano: Franco Angeli.
+
+Cardona, G. R. (1983): Culture dell'oralità e culture della scrittura. In: A. Asor Rosa (ed) Letteratura
+   italiana, vol. 2. Produzione e consumo. Torino: Einaudi. 25­101.
+
+Cardona, G. R. (2009): Antropologia della scrittura. Torino: UTET.
+E. Kovács, Péter (2003): Corvin János házassága és a magyar diplomácia [Il matrimonio di Giovanni
+
+   Corvino e la diplomazia ungherese]. Századok 137: 958­71.
+Kahn, D. (1994): Introduzione. In: A. Buonafalce (ed) Dello scrivere in cifra di Leon Battista Alberti.
+
+   Torino: Galimberti Tipografi Editori.
+Meister, A. (1902): Die Anfängen der modernen diplomatischen Geheimschrift. Paderborn: Schö-
+
+   ningh.
+Meister, A. (1906): Die Geheimschrift im Dienste der Päpstlichen kurie von ihren Anfängen bis zum
+
+   ende des XVI. Jahrhunderts. Paderborn: Schöningh.
+Ong, W. J. (1986): Oralità e scrittura. Bologna: il Mulino.
+  judit w. somogyi
+
+Allegato 1: Cifrari trecenteschi nel Manuale di Gabriele di Lavinde (Meister 1906: 172)
+         caratteristiche strutturali di cifrari monoalfabetici italiani 
+Allegato 2: Cifrario del 1483, Milano (Meister 1902: 31)
+  judit w. somogyi
+
+Allegato 3: Cifrario del 1424, Firenze (Meister 1902: 50)
+caratteristiche strutturali di cifrari monoalfabetici italiani 
+
+Allegato 4: Il cifrario ricostruito di Buglio Maffeo di Treviglio
+
+    Il cifrario ricostruito di Buglio Maffeo di Treviglio (in trascrizione numerica)
+
+a b c d e f g h i lmn o p q r s t u x z
+
+11 13 40 17 18 33 53 34 35 19 12 24 30 36 26 22 44 20 21 74 94
+
+29 67 98 50 96                 95  41 32 46 04 42 65 58 27
+
+39           55                    43                              59
+
+                                   49
+
+                                   54
+
+Nulle: 66 · 75 · 76 · 80 · 88
+
+et in che
+38 56 63
+
+Gemme: ff ll nn ss tt
+           90 57 99 48 72
+
+Sillabe: bo ca ce ci co cu do fa fe fi fo ga ma me mo na ne no ra re ri ro sa
+          01 61 84 a5 23 93 77 02 69 60 92 a3 71 64 85 68 54 43 25 16 70 52 14
+          se si so su ta te ti to tu
+          51 45 28 78 31 47 37 15 86
+
+Il vescovo varadino 87         S. V. [Signoria Vostra] 62
+
+ser.mo Re de Hungaria a1       madonna Bianca  89
+
+zo. Corvino  83                la sua Maesta   a2
+

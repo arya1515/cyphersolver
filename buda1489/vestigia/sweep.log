@@ -1,0 +1,8 @@
+titkosírás -> 9 docs, total 9
+rejtjel -> 2 docs, total 2
+cifra -> 64 docs, total 64
+Lanterio -> 25 docs, total 25
+Forlì -> 18 docs, total 18
+Traceback (most recent call last):
+  File "<stdin>", line 18, in <module>
+OSError: [Errno 22] Invalid argument: 'vestigia/search_rows.json'

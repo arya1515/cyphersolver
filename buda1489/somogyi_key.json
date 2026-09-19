@@ -1,0 +1,10 @@
+{"_source": "Somogyi 2016, Verbum 17, Allegato 4 (numeric transcription of Maffeo da Treviglio's reconstructed key)",
+ "letters": {"a":["11","29","39"],"b":["13","67"],"c":["40","98"],"d":["17"],"e":["18","50","55"],"f":["33","96"],"g":["53"],"h":["34"],"i":["35"],"l":["19","95"],"m":["12"],"n":["24","41","43","49","54"],"o":["30","32"],"p":["36","46"],"q":["26","04"],"r":["22","42"],"s":["44","65"],"t":["20","58"],"u":["21","27","59"],"x":["74"],"z":["94"]},
+ "nulls": ["66","75","76","80","88"],
+ "words": {"38":"et","56":"in","63":"che","87":"il vescovo varadino","62":"S.V.","a1":"ser.mo Re de Hungaria","89":"madonna Bianca","83":"zo. Corvino","a2":"la sua Maesta"},
+ "geminates": {"90":"ff","57":"ll","99":"nn","48":"ss","72":"tt"},
+ "syllables": {"01":"bo","61":"ca","84":"ce","a5":"ci","23":"co","93":"cu","77":"do","02":"fa","69":"fe","60":"fi","92":"fo","a3":"ga","71":"ma","64":"me","85":"mo","68":"na","54":"ne","43":"no","25":"ra","16":"re","70":"ri","52":"ro","14":"sa","51":"se","45":"si","28":"so","78":"su","31":"ta","47":"te","37":"ti","15":"to","86":"tu"},
+ "line1_1489": "35 49 58 18 24 17 18 11 17 26 59 11 19 35 58 18 22 12 35 41 18 19 29 36 22 11 37 61 17 18 36 11 84 38 36 18 22 40 30 24 65 18 26 59 18 24 47",
+ "line1_1489_plain": "i n t e n d e a d q u a l i t e r m i n e l a p r a ti ca d e p a ce et p e r c o n s e q u e n te",
+ "line2_1489": "26 59 18 65 58 11 17 35 18 58 11 04 59 18 65 58 32 a1 18 58 18 54 42 17 18 19 34 30 43 16 65 59 30 23 12 32 34 30 65 40 22 35 36 58 32 11 19 58 22 18 21 30 19 47",
+ "line2_1489_plain": "q u e s t a d i e t a q u e s t o [ser.mo Re de Hungaria] e t e ne r(42) d e l h o no re s u o co m o h o s c r i p t o a l t r e u o l te"}

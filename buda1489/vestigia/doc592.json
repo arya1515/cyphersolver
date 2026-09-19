@@ -1,0 +1,843 @@
+{
+ "component": "Documents/ShowDocument",
+ "props": {
+  "errors": {},
+  "language": "en",
+  "auth": {
+   "user": null
+  },
+  "flash": {
+   "timestamp": "2026-09-18T17:02:41.098351Z"
+  },
+  "stats": {
+   "global": {
+    "documents": [
+     12,
+     6,
+     4759
+    ],
+    "places": 1968,
+    "people": 5339
+   },
+   "user": {
+    "documents": [
+     0,
+     0,
+     0
+    ],
+    "places": 0,
+    "people": 0
+   }
+  },
+  "document": {
+   "id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+   "archive_id": "01jzq10rc1p93yn5pd6zbmnvkd",
+   "archive_ref": "ms. 4936, A milánói fejedelem diplomáciai levelezése (1490-1491), no. 74",
+   "status": 2,
+   "vestigia_id": 592,
+   "df": null,
+   "title": "forlii apát levele",
+   "date_from": "1491-09-16",
+   "date_to": "1491-09-16",
+   "format": "extract-copy",
+   "length": 2,
+   "summary": null,
+   "incipit": "Credo significareti tutto questo processo",
+   "explicit": "recreationis causa. Bene valete.",
+   "comment": null,
+   "funding": "OTKA 81430",
+   "material": "paper",
+   "category": null,
+   "bibliography": [],
+   "import_raw": {
+    "v22": "592",
+    "szulo": null,
+    "techid": "1357811358",
+    "csoport": "MTMI",
+    "egyedi_azonosito": "ms. 4936, A milánói fejedelem diplomáciai levelezése (1490-1491), no. 74",
+    "df": null,
+    "megnevezes": "forlii apát levele",
+    "letrehozo_neve": null,
+    "kiadas_helye": "Pétervárad",
+    "cimzettkedvezmenyezett": null,
+    "cimzett_helye": "Milano",
+    "datum1": "1491-09-16",
+    "datum2": "1491-09-16",
+    "nyelv": "latin, olasz",
+    "fennmaradasi_forma": "kivonatos másolat",
+    "irattipus": "nem meghatározott",
+    "anyaga": "papír",
+    "terjedelem": "2",
+    "kapcsolodo_testuletekcsaladokszemelyek": null,
+    "kapcsolodo_helyek": null,
+    "eleje": "Credo significareti tutto questo processo",
+    "vege": "recreationis causa. Bene valete.",
+    "regeszta": null,
+    "megjegyzesek": null,
+    "regi_megjegyzes": null,
+    "regi_irattipus": null,
+    "publikaciok": null,
+    "mellerendelo_kapcsolatok": null,
+    "adatbazison_kivuli_kapcsolat": null,
+    "szint": "egyes irat",
+    "regi_jelzetek": null,
+    "tamogatasi_megjegyzes": "OTKA 81430",
+    "felvetelszam": "3",
+    "ellenorizni": null,
+    "hu_mnl_ol": null
+   },
+   "import_errors": null,
+   "parent_id": null,
+   "created_by": {
+    "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+    "name": "Adminisztrátor",
+    "email": "sebezhetetlen98@gmail.com",
+    "email_verified_at": "2025-07-09T07:40:56.000000Z",
+    "last_login": "2026-07-12 13:21:42",
+    "role": 2,
+    "created_at": "2025-07-09T07:19:05.000000Z",
+    "updated_at": "2026-07-12T13:21:42.000000Z",
+    "reason_for_registration": null,
+    "accepted_at": "2025-09-25T14:34:51.000000Z",
+    "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+   },
+   "updated_by": {
+    "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+    "name": "Adminisztrátor",
+    "email": "sebezhetetlen98@gmail.com",
+    "email_verified_at": "2025-07-09T07:40:56.000000Z",
+    "last_login": "2026-07-12 13:21:42",
+    "role": 2,
+    "created_at": "2025-07-09T07:19:05.000000Z",
+    "updated_at": "2026-07-12T13:21:42.000000Z",
+    "reason_for_registration": null,
+    "accepted_at": "2025-09-25T14:34:51.000000Z",
+    "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+   },
+   "created_at": "2025-07-09T07:31:35.000000Z",
+   "updated_at": "2025-07-10T06:42:55.000000Z",
+   "deleted_at": null,
+   "public_id": "592",
+   "can_update": false,
+   "errors": [],
+   "public_images": true,
+   "places": [
+    {
+     "id": "01jzq16nm9tc9d3yn50k8932ah",
+     "name_primary_hu": "Pétervárad",
+     "name_primary_it": "Pétervárad",
+     "name_primary_en": "Pétervárad",
+     "osm_id": null,
+     "lat": null,
+     "lon": null,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000152",
+      "nev": "Pétervárad",
+      "nevnyelve": "magyar",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000152",
+        "nev": "Petrovaradin",
+        "nevnyelve": "szerb",
+        "nevprior": null,
+        "szint": "település"
+       },
+       {
+        "id": "VG000152",
+        "nev": "Varadinum Petri",
+        "nevnyelve": "latin",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:34.000000Z",
+     "updated_at": "2025-07-09T07:25:37.000000Z",
+     "can_update": false,
+     "pivot": {
+      "document_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+      "place_id": "01jzq16nm9tc9d3yn50k8932ah",
+      "place_type": "created_at"
+     },
+     "names": [
+      {
+       "id": "01jzq16nmb1wjwfwp7fdpffvtn",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Pétervárad",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:34.000000Z",
+       "updated_at": "2025-07-09T07:25:34.000000Z"
+      },
+      {
+       "id": "01jzq16nn2nzyj0xgk29sfgb1v",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Petrovaradin",
+       "primary": false,
+       "comment": null,
+       "language": "sr",
+       "created_at": "2025-07-09T07:25:34.000000Z",
+       "updated_at": "2025-07-09T07:25:34.000000Z"
+      },
+      {
+       "id": "01jzq16rmf2yx3w1tj3t24qmam",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Varadinum Petri",
+       "primary": false,
+       "comment": null,
+       "language": "la",
+       "created_at": "2025-07-09T07:25:37.000000Z",
+       "updated_at": "2025-07-09T07:25:37.000000Z"
+      }
+     ]
+    },
+    {
+     "id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+     "name_primary_hu": "Milánó",
+     "name_primary_it": "Milánó",
+     "name_primary_en": "Milánó",
+     "osm_id": "R44915",
+     "lat": 45.4641943,
+     "lon": 9.1896346,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000121",
+      "nev": "Milano",
+      "nevnyelve": "olasz",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000121",
+        "nev": "Milánó",
+        "nevnyelve": "magyar",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:33.000000Z",
+     "updated_at": "2025-07-11T05:41:05.000000Z",
+     "can_update": false,
+     "pivot": {
+      "document_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+      "place_id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+      "place_type": "recipient"
+     },
+     "names": [
+      {
+       "id": "01jzq16mj8byfrws8dscad66gj",
+       "nameable_id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Milano",
+       "primary": false,
+       "comment": null,
+       "language": "it",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-11T05:41:05.000000Z"
+      },
+      {
+       "id": "01jzq16mk20kswz75qr8bym26t",
+       "nameable_id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Milánó",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-11T05:41:05.000000Z"
+      }
+     ]
+    }
+   ],
+   "authors": [],
+   "creation_places": [
+    {
+     "id": "01jzq16nm9tc9d3yn50k8932ah",
+     "name_primary_hu": "Pétervárad",
+     "name_primary_it": "Pétervárad",
+     "name_primary_en": "Pétervárad",
+     "osm_id": null,
+     "lat": null,
+     "lon": null,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000152",
+      "nev": "Pétervárad",
+      "nevnyelve": "magyar",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000152",
+        "nev": "Petrovaradin",
+        "nevnyelve": "szerb",
+        "nevprior": null,
+        "szint": "település"
+       },
+       {
+        "id": "VG000152",
+        "nev": "Varadinum Petri",
+        "nevnyelve": "latin",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:34.000000Z",
+     "updated_at": "2025-07-09T07:25:37.000000Z",
+     "laravel_through_key": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq16nmb1wjwfwp7fdpffvtn",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Pétervárad",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:34.000000Z",
+       "updated_at": "2025-07-09T07:25:34.000000Z"
+      },
+      {
+       "id": "01jzq16nn2nzyj0xgk29sfgb1v",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Petrovaradin",
+       "primary": false,
+       "comment": null,
+       "language": "sr",
+       "created_at": "2025-07-09T07:25:34.000000Z",
+       "updated_at": "2025-07-09T07:25:34.000000Z"
+      },
+      {
+       "id": "01jzq16rmf2yx3w1tj3t24qmam",
+       "nameable_id": "01jzq16nm9tc9d3yn50k8932ah",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Varadinum Petri",
+       "primary": false,
+       "comment": null,
+       "language": "la",
+       "created_at": "2025-07-09T07:25:37.000000Z",
+       "updated_at": "2025-07-09T07:25:37.000000Z"
+      }
+     ]
+    }
+   ],
+   "recipients": [],
+   "recipient_places": [
+    {
+     "id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+     "name_primary_hu": "Milánó",
+     "name_primary_it": "Milánó",
+     "name_primary_en": "Milánó",
+     "osm_id": "R44915",
+     "lat": 45.4641943,
+     "lon": 9.1896346,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000121",
+      "nev": "Milano",
+      "nevnyelve": "olasz",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000121",
+        "nev": "Milánó",
+        "nevnyelve": "magyar",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:33.000000Z",
+     "updated_at": "2025-07-11T05:41:05.000000Z",
+     "laravel_through_key": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq16mj8byfrws8dscad66gj",
+       "nameable_id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Milano",
+       "primary": false,
+       "comment": null,
+       "language": "it",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-11T05:41:05.000000Z"
+      },
+      {
+       "id": "01jzq16mk20kswz75qr8bym26t",
+       "nameable_id": "01jzq16mj6wwqm5gsf4vwmvsq8",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Milánó",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-11T05:41:05.000000Z"
+      }
+     ]
+    }
+   ],
+   "parent": null,
+   "mentioned_places": [],
+   "mentioned_people": [],
+   "archive": {
+    "id": "01jzq10rc1p93yn5pd6zbmnvkd",
+    "name_primary_hu": "Milánói másolatok",
+    "name_primary_it": "Milánói másolatok",
+    "name_primary_en": "Milánói másolatok",
+    "code": "MTMI",
+    "short": null,
+    "level": "fond",
+    "show": true,
+    "location": "",
+    "url": null,
+    "comment": null,
+    "created_at": "2025-07-09T07:22:20.000000Z",
+    "updated_at": "2025-07-09T07:22:20.000000Z",
+    "path": {},
+    "parent_id": "01jzq10rbtc7kwfh3725mhh8ky",
+    "created_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "updated_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "public": true,
+    "names": [
+     {
+      "id": "01jzq10rc23dbjahdnpxt0r6ag",
+      "nameable_id": "01jzq10rc1p93yn5pd6zbmnvkd",
+      "nameable_type": "App\\Models\\Archive",
+      "name": "Milánói másolatok",
+      "primary": true,
+      "comment": null,
+      "language": "hu",
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "01jzq10rbn9x7whr9vdp49t3gw",
+      "name_primary_hu": "Magyar Tudományos Akadémia Könyvtár és Információs Központ",
+      "name_primary_it": "Magyar Tudományos Akadémia Könyvtár és Információs Központ",
+      "name_primary_en": "Magyar Tudományos Akadémia Könyvtár és Információs Központ",
+      "code": "MTAK",
+      "short": "MTA KIK",
+      "level": "institution",
+      "show": true,
+      "location": "Budapest 1051 Budapest, Széchenyi István tér 9.",
+      "url": "https://konyvtar.mta.hu/",
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": null,
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10rbp2xxa1b5t03jpjee9",
+        "nameable_id": "01jzq10rbn9x7whr9vdp49t3gw",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Magyar Tudományos Akadémia Könyvtár és Információs Központ",
+        "primary": true,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10rbtc7kwfh3725mhh8ky",
+      "name_primary_hu": "Kézirattár és régi könyvek gyűjteménye",
+      "name_primary_it": "Kézirattár és régi könyvek gyűjteménye",
+      "name_primary_en": "Kézirattár és régi könyvek gyűjteménye",
+      "code": "MTMS",
+      "short": null,
+      "level": "fond-group",
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10rbn9x7whr9vdp49t3gw",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10rbv86sm17wd5dpfwnpf",
+        "nameable_id": "01jzq10rbtc7kwfh3725mhh8ky",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Kézirattár és régi könyvek gyűjteménye",
+        "primary": true,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     }
+    ]
+   },
+   "languages": [
+    {
+     "code": "la",
+     "pivot": {
+      "document_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+      "language_code": "la"
+     }
+    },
+    {
+     "code": "it",
+     "pivot": {
+      "document_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+      "language_code": "it"
+     }
+    }
+   ],
+   "files": [
+    {
+     "id": "01jzq4b20g10sq4ts5p8ddk2re",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+     "uuid": "e16b02ab-199f-4979-8f6b-9f6f3d603ec6",
+     "collection_name": "default",
+     "name": "1357811358.jpg",
+     "file_name": "01jzq1hp0rdv5fxf2vpxyqj0cj-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 589712,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "a0b1784d5401b71ebe7d3fd9f66da204a9e964dfa98f6297d6b54e55499e4c6b",
+      "zip_filename_prefix": "01jzq1hp0rdv5fxf2vpxyqj0cj/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 1,
+     "created_at": "2025-07-09T08:20:23.000000Z",
+     "updated_at": "2025-07-09T08:20:24.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzq4b20g10sq4ts5p8ddk2re/conversions/01jzq1hp0rdv5fxf2vpxyqj0cj-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzq4b20g10sq4ts5p8ddk2re/conversions/01jzq1hp0rdv5fxf2vpxyqj0cj-1-web.jpg"
+    },
+    {
+     "id": "01jzq4b2p51cacaeb2ctv8yaba",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+     "uuid": "d8bc61fc-4385-45ef-a51b-81f123787051",
+     "collection_name": "default",
+     "name": "1357811358-2.jpg",
+     "file_name": "01jzq1hp0rdv5fxf2vpxyqj0cj-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 558662,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "08d02f2121f5e3211ef5699b0787c3ad0e20282f0f4b4998369d670607520558",
+      "zip_filename_prefix": "01jzq1hp0rdv5fxf2vpxyqj0cj/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 2,
+     "created_at": "2025-07-09T08:20:24.000000Z",
+     "updated_at": "2025-07-09T08:20:25.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzq4b2p51cacaeb2ctv8yaba/conversions/01jzq1hp0rdv5fxf2vpxyqj0cj-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzq4b2p51cacaeb2ctv8yaba/conversions/01jzq1hp0rdv5fxf2vpxyqj0cj-1-web.jpg"
+    }
+   ],
+   "related_documents_left": [],
+   "related_documents_right": [
+    {
+     "id": "01jzq1qyvf9c284ftva5b1za6z",
+     "archive_id": "01jzq10qxrgrgnv1q1tfg1af7r",
+     "archive_ref": "sc. 645, Ungheria (1491-1530), 1491, ottobre, no. 6, 3",
+     "status": 2,
+     "vestigia_id": 2016,
+     "df": "DF 295070",
+     "title": "Nicolò Bartolini levele Ludovico Maria Sforza részére",
+     "date_from": "1491-09-16",
+     "date_to": "1491-09-16",
+     "format": "original",
+     "length": 4,
+     "summary": null,
+     "incipit": null,
+     "explicit": "hec ioco recreationis casu.",
+     "comment": null,
+     "funding": "OTKA 81430",
+     "material": "paper",
+     "category": null,
+     "bibliography": [],
+     "import_raw": {
+      "v22": "2016",
+      "szulo": null,
+      "techid": "1400782050",
+      "csoport": "PEUN",
+      "egyedi_azonosito": "sc. 645, Ungheria (1491-1530), 1491, ottobre, no. 6, 3",
+      "df": "DF 295070",
+      "megnevezes": "Nicolò Bartolini levele Ludovico Maria Sforza részére",
+      "letrehozo_neve": "Nicolò Bartolini",
+      "kiadas_helye": "Pécsvárad",
+      "cimzettkedvezmenyezett": "Ludovico Maria Sforza",
+      "cimzett_helye": null,
+      "datum1": "1491-09-16",
+      "datum2": "1491-09-16",
+      "nyelv": "olasz, titkosírás",
+      "fennmaradasi_forma": "eredeti",
+      "irattipus": "nem meghatározott",
+      "anyaga": "papír",
+      "terjedelem": "4",
+      "kapcsolodo_testuletekcsaladokszemelyek": null,
+      "kapcsolodo_helyek": null,
+      "eleje": null,
+      "vege": "hec ioco recreationis casu.",
+      "regeszta": null,
+      "megjegyzesek": null,
+      "regi_megjegyzes": null,
+      "regi_irattipus": null,
+      "publikaciok": null,
+      "mellerendelo_kapcsolatok": "591 COP, 592 COP",
+      "adatbazison_kivuli_kapcsolat": null,
+      "szint": "egyes irat",
+      "regi_jelzetek": null,
+      "tamogatasi_megjegyzes": "OTKA 81430",
+      "felvetelszam": "4",
+      "ellenorizni": null,
+      "hu_mnl_ol": "X 10889.-DF295070"
+     },
+     "import_errors": [
+      "[image-sources] This document has images uploaded from multiple sources"
+     ],
+     "parent_id": null,
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:35:00.000000Z",
+     "updated_at": "2025-07-10T06:42:55.000000Z",
+     "deleted_at": null,
+     "public_id": "2016",
+     "can_update": false,
+     "pivot": {
+      "doc_b_id": "01jzq1hp0rdv5fxf2vpxyqj0cj",
+      "doc_a_id": "01jzq1qyvf9c284ftva5b1za6z",
+      "id": "01jzq1qyxp8y25s1nckbfwkjvj",
+      "relation_type": "copy"
+     }
+    }
+   ],
+   "enclosed_documents": []
+  }
+ },
+ "url": "/documents/592",
+ "version": "76a2068b1670357589207111f0814522",
+ "encryptHistory": false,
+ "clearHistory": false
+}
