@@ -1,0 +1,18 @@
+# Gallica page images, region crops, contact sheets and downloaded editions
+# (refetch with fetch.py / fetchr.py / fetchb.py; see NOTES.md section 2)
+img/
+br/
+lines370/
+*.png
+!clusters.png
+manifest.json
+# derived segmentation / clustering data (regenerate with seg2.py, digits.py, glyphs.py, cluster.py)
+seg370.json
+comps.json
+glyphs.json
+labels.json
+*.npy
+# downloaded sources; keep Tomokiyo's two published Maisse key images, which are the evidence
+src/*
+!src/henryiv_Maisse1.png
+!src/henryiv_Maisse2.png

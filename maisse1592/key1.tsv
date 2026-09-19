@@ -1,0 +1,30 @@
+# Maisse's Cipher (1592), BnF fr.16093 — key published by S. Tomokiyo (cryptiana,
+# "French Ciphers during the Reign of Henry IV", henryiv_Maisse1.png, "Cipher used in
+# BnF fr.16093 f.317"). Simple substitution, 22-letter alphabet (i=j, u=v), plus doubles.
+7	a
+8	b
+9	c
+10	d
+11	e
+1	f
+2	g
+3	h
+4	i
+5	l
+6	m
+12	n
+13	o
+14	p
+15	q
+16	r
+17	s
+18	t
+19	u
+20	x
+21	y
+22	z
+66	ff
+67	mm
+68	nn
+72	ss
+73	uu

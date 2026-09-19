@@ -35,6 +35,8 @@
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
+  "henri iv to maisse at venice, 1592–93": "2026-09-19",
+  "henri iv to maisse at venice, 3 november 1592 – 27 april 1593": "2026-09-19",
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
   "herbault to béthune, 13 february 1626": "2026-09-18",
@@ -110,8 +112,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ed1502640d60",
-   "updated": "2026-09-18"
+   "hash": "eee67298f5b6",
+   "updated": "2026-09-19"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -200,8 +202,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "62f85d19bc7c",
-   "updated": "2026-09-18"
+   "hash": "1555c10ee742",
+   "updated": "2026-09-19"
   },
   "lanssac": {
    "first": "2026-09-17",
@@ -222,6 +224,11 @@
    "first": "2026-09-16",
    "hash": "695bc0947f2a",
    "updated": "2026-09-16"
+  },
+  "maisse1592": {
+   "first": "2026-09-19",
+   "hash": "75fdc8ca98dd",
+   "updated": "2026-09-19"
   },
   "maria1435": {
    "first": "2026-09-18",
@@ -370,8 +377,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a8cff511e983",
-   "updated": "2026-09-18"
+   "hash": "c9c05b55d8a4",
+   "updated": "2026-09-19"
   },
   "yard1699": {
    "first": "2026-09-18",
