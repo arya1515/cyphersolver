@@ -1273,41 +1273,6 @@
    "scored": "rule"
   },
   {
-   "id": 56,
-   "counted": false,
-   "year": null,
-   "date": "undated",
-   "title": "Unknown sender to unknown recipient",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "Kew",
-   "language": "unknown",
-   "region": "England",
-   "period": "unknown",
-   "shelfmark": "TNA",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R927: Non-decrypted, 3 pp., simple substitution; symbols not given; images login. Not viewed here. 6 key record(s) from the same series on DECODE, nearest R2000 (1913). DECODE note: Undeciphered letter in the masonic alphabet, say 800 codegroups in sum total.",
-   "why": "Ciphered letter of Unknown sender to unknown recipient; what the cipher hides is not known.",
-   "importance": 1,
-   "solvability": 2,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R927",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/927"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    927
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 57,
    "counted": false,
    "year": null,

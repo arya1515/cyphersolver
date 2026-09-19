@@ -91,6 +91,7 @@ Mendoza, and Erving 1807 below Forster. Bordeaux 1653 (p17, added later the same
 | p25 | **Maffeo da Treviglio → Ludovico Sforza**, Buda, 22 Nov 1489 and 12 Jan 1490, ASMi Sforzesco 650 and 642/1, 4 | 1489–90 | 3 | 4 | 5 | 5 | 1 | 4 | **3.70** | The oldest text read in this repository, and the oldest previously unread ciphertext read here by any route. D 3: the key existed in print but only as numbers with no sign images, so it had to be re-anchored to the shapes through a cipher-and-clear pair, and about twenty signs were then recovered from the letters themselves. N 5: of the 1489 letter only its first two lines had ever been deciphered, and the 1490 letter not at all. H 4: Matthias Corvinus's peace with Frederick III and the Diet, the two rival marriages for John Corvinus, the queen's opposition, and a warning that intercepted cipher letters had been read. R 5: three archives' catalogues reconciled, three sibling records shown to be already deciphered and set aside. V 4: pp. 1–2 of 1489 read nearly throughout, p. 3 in patches |
 | p26 | **Nicolò Sadoleto → Ercole I d'Este**, Pozsony, 16 July 1482, ASMo Ambasciatori Ungheria b. 1/9 no. 8 (DECODE R1102) | 1482 | 2 | 4 | 4 | 3 | 1 | 3 | **3.00** | Alphabet rebuilt from two sibling letters with contemporary clear copies, so D 2. The seven lines had no decipherment and carry real news: the Venetian counter-offer to Matthias at the start of the War of Ferrara (Veglia, a fleet command for János Corvin, 100,000 a year), the same sum Sadoleto later quotes as Matthias's price. Read in gist only, with a nomenclator group and a dozen signs open, so R 3; two of the four catalogue items were read at the time |
 | p27 | **Marqués del Carpio (Rome) → Baltasar de Fuenmayor**, 1677, AGR Brussels SEG 2559 (DECODE R1002–R1011) | 1677 | 2 | 3 | 3 | 3 | 1 | 4 | **2.55** | The key was rebuilt from the cipher, but eight letters had marginal decipherments to align against, so D is 2. Two letters were catalogued as unread, though each proved to carry a faint margin, and no key had been published, so N is 3. Content: the Spanish ambassador's quarrel with Innocent XI, and the 1677 campaign seen from Rome (Messina, Charleroi, Freiburg, d'Estrées at Turin). V 4: the whole file reads, with three code words conjectural |
+| p28 | **Unknown writer → "Monsieur"**, 17th c., TNA SP 106/10 ff. 241–243 (DECODE R927) | 17th c. | 4 | 4 | 1 | 2 | 1 | 3 | **2.80** | D 4: no key, no crib, no clear sibling; the pencil key on the flap was a false lead, and the homophonic system was recovered from a hand transcription by quadgram annealing. N 4: catalogued as undeciphered. H 1: a private client-to-patron letter, unnamed. R 2: writer and date unknown. V 3: last page nearly throughout, first page in fragments |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
@@ -103,7 +104,8 @@ p21 0.50 + 1.00 + 0.80 + 0.40 + 0.10 + 0.40;
 p26 0.50 + 1.00 + 0.80 + 0.30 + 0.10 + 0.30;
 p22 0.75 + 0.75 + 0.80 + 0.40 + 0.10 + 0.30; p23 0.50 + 0.50 + 0.80 + 0.50 + 0.10 + 0.30;
 p24 0.25 + 1.00 + 0.80 + 0.40 + 0.10 + 0.40;
-p27 0.50 + 0.75 + 0.60 + 0.30 + 0.10 + 0.40.
+p27 0.50 + 0.75 + 0.60 + 0.30 + 0.10 + 0.40;
+p28 1.00 + 1.00 + 0.20 + 0.20 + 0.10 + 0.30.
 
 ## By single axis
 
