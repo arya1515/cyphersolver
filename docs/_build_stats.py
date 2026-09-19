@@ -66,8 +66,12 @@ def load():
         j = text.find('\n### ', i + 1); j = len(text) if j < 0 else j
         k = text.find('\n## ', i + 1)
         if 0 <= k < j: j = k
+        cols = []
         for line in text[i:j].splitlines():
-            if not line.startswith('| ') or line.startswith('| Target') or line.startswith('|---'):
+            if line.startswith('| Target'):
+                cols = [c.strip() for c in line.strip().strip('|').split('|')]
+                continue
+            if not line.startswith('| ') or line.startswith('|---'):
                 continue
             cells = [c.strip() for c in line.strip().strip('|').split('|')]
             if len(cells) < 2:
@@ -77,18 +81,23 @@ def load():
             for key, dest in OVERRIDE.items():
                 if key in name:
                     c = dest
-            items.append(dict(name=name, date=date.strip(), year=parse_year(date), cat=c))
+            m = re.search(r'write-up\]\((?:https://dbourdeau\.github\.io/cyphersolver/)?([\w.-]+\.html)\)', cells[-1])
+            note = strip_md(cells[-2]) if len(cells) >= 4 else ''
+            head2 = cols[-2] if len(cols) >= 4 else ''
+            when = strip_md(cells[2]) if len(cells) >= 5 else ''
+            items.append(dict(name=name, date=date.strip(), year=parse_year(date), cat=c, note=note,
+                              notehead=head2, when=when, whenhead=cols[2] if len(cols) >= 5 else '',
+                              href=m.group(1) if m else ''))
     return items
 
 def timeline_svg(items):
     dated = [it for it in items if it['year']]
-    x0 = min(1480, int(min(it['year'] for it in dated) // 100 * 100))  # start at the oldest item's century
-    x1 = 2000
-    W, H, top, lane_h, r = 1000, 150, 26, 12, 4.5
+    x0, x1 = min(1480, min(it['year'] for it in dated) // 50 * 50 - 10), 2000
+    c0 = (x0 // 100 + 1) * 100          # first century line on the axis
+    W, top, lane_h, r = 1000, 34, 13, 4.6
     def X(y): return 30 + (y - x0) / (x1 - x0) * (W - 60)
-    # lane assignment: greedy, avoid overlap within 12 px
-    lanes = []
-    placed = []
+    # lane assignment: greedy, avoid overlap within 11 px
+    lanes, placed = [], []
     for it in sorted(dated, key=lambda d: d['year']):
         x = X(it['year'])
         for li, last in enumerate(lanes):
@@ -97,19 +106,43 @@ def timeline_svg(items):
         else:
             lanes.append(x); placed.append((it, x, len(lanes) - 1))
     nl = len(lanes)
-    H = top + nl * lane_h + 30
-    out = [f'<svg class="tl" viewBox="0 0 {W} {H}" role="img" aria-label="Every target placed by date and coloured by outcome" preserveAspectRatio="xMidYMid meet">']
-    base = top + nl * lane_h + 4
+    base = top + nl * lane_h + 6
+    H = base + 30
+    out = [f'<div class="tlwrap"><svg class="tl" viewBox="0 0 {W} {H}" role="img" aria-label="Every target placed by date and coloured by outcome" preserveAspectRatio="xMidYMid meet">']
+    out.append('<defs><filter id="tlglow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.2"/></filter>'
+               '<linearGradient id="tlfade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity="0"/>'
+               '<stop offset="1" stop-color="currentColor" stop-opacity=".07"/></linearGradient></defs>')
+    for k, c in enumerate(range(c0 - 100, 2000, 100)):   # alternating century bands with a faint era label
+        a, b = max(30, X(c)), X(c + 100)
+        if k % 2 == 0:
+            out.append(f'<rect class="band" x="{a:.1f}" y="{top-18}" width="{b-a:.1f}" height="{base-top+18}" fill="url(#tlfade)"/>')
+        out.append(f'<text class="era" x="{(a+b)/2:.1f}" y="{top-6}" text-anchor="middle">{c//100+1}th c.</text>')
+    for c in range(c0 - 50, 2001, 50):
+        x = X(c)
+        if x < 30: continue
+        out.append(f'<line x1="{x:.1f}" y1="{top-2}" x2="{x:.1f}" y2="{base}" class="grid{" major" if c % 100 == 0 else ""}"/>')
     out.append(f'<line x1="30" y1="{base}" x2="{W-30}" y2="{base}" class="axis"/>')
-    for c in range((x0 + 99) // 100 * 100, 2001, 100):
+    for c in range(c0, 2001, 100):
         x = X(c)
         out.append(f'<line x1="{x:.1f}" y1="{base-4}" x2="{x:.1f}" y2="{base+4}" class="axis"/>')
         out.append(f'<text x="{x:.1f}" y="{base+18}" class="tick" text-anchor="middle">{c}</text>')
-    for it, x, li in placed:
-        y = base - 8 - li * lane_h
-        title = html.escape(f"{it['name']} ({it['date']}): {LABEL[it['cat']]}")
-        out.append(f'<g class="pt {it["cat"]}"><title>{title}</title><circle cx="{x:.1f}" cy="{y}" r="{r}" fill="{COLOR[it["cat"]]}"/></g>')
-    out.append('</svg>')
+    out.append(f'<g class="cursor" aria-hidden="true"><line class="cur-line" x1="0" x2="0" y1="{top-2}" y2="{base}"/>'
+               f'<rect class="cur-box" x="-19" y="{base+5}" width="38" height="17" rx="4"/><text class="cur-yr" x="0" y="{base+17.5}" text-anchor="middle"></text></g>')
+    for n, (it, x, li) in enumerate(placed):
+        y = base - 9 - li * lane_h
+        e = lambda v: html.escape(v, quote=True)
+        title = e(f"{it['name']} ({it['date']}): {LABEL[it['cat']]}")
+        attrs = (f' data-name="{e(it["name"])}" data-date="{e(it["date"])}" data-year="{it["year"]}" data-cat="{it["cat"]}"'
+                 f' data-label="{e(LABEL[it["cat"]])}" data-note="{e(it["note"])}" data-notehead="{e(it["notehead"])}"'
+                 f' data-when="{e(it["when"])}" data-whenhead="{e(it["whenhead"])}"')
+        dot = (f'<circle class="halo" cx="{x:.1f}" cy="{y}" r="{r+2.5}" fill="{COLOR[it["cat"]]}" filter="url(#tlglow)"/>'
+               f'<circle class="core" cx="{x:.1f}" cy="{y}" r="{r}" fill="{COLOR[it["cat"]]}"/>')
+        style = f' style="--i:{n};--dy:{base - y}px"'
+        if it['href']:
+            out.append(f'<a class="pt {it["cat"]}" href="{it["href"]}" aria-label="{title}"{attrs}{style}>{dot}</a>')
+        else:
+            out.append(f'<g class="pt {it["cat"]}" tabindex="0" aria-label="{title}"{attrs}{style}>{dot}</g>')
+    out.append('</svg><div class="tltip" role="tooltip" hidden></div></div>')
     return '\n'.join(out)
 
 def build(items):
@@ -127,7 +160,7 @@ def build(items):
         f'<span class="seg {c}" style="flex:{n[c]};background:{COLOR[c]}" title="{n[c]} {LABEL[c]}"></span>'
         for c in order if n[c])
     legend = ''.join(
-        f'<span class="lg"><i style="background:{COLOR[c]}"></i>{n[c]} {LABEL[c]}</span>' for c in order if n[c])
+        f'<button type="button" class="lg" data-cat="{c}" aria-pressed="false"><i style="background:{COLOR[c]}"></i>{n[c]} {LABEL[c]}</button>' for c in order if n[c])
     lines = []
     lines.append('<!-- stats:start -->')
     lines.append('<section class="scoreboard" id="scoreboard" aria-labelledby="sb-h">')
@@ -141,7 +174,7 @@ def build(items):
     lines.append(f'<div class="sb-big"><b>{n["closed"]}</b><span>attacks that stop with a stated reason and a control that passed where the target failed. A negative here says something; it is not a shrug.</span></div>')
     lines.append(f'<div class="sb-big"><b>{silence:,}</b><span>years of silence ended, summed over the {len(read)} texts read: each had waited from its date until {YEAR_NOW}. The oldest is {oldest["name"].split(",")[0].split(" (")[0]} ({oldest["date"]}).</span></div>')
     lines.append('</div>')
-    lines.append(f'<p class="sb-note">Every target by date, {min(span)}&ndash;{max(span)}. Hover a dot for the name and outcome.</p>')
+    lines.append(f'<p class="sb-note">Every target by date, {min(span)}&ndash;{max(span)}. Hover or tap a dot for the story; click a colour in the legend to isolate an outcome.</p>')
     lines.append(timeline_svg(items))
     lines.append(f'<p class="sb-foot">Counted from the results tables in the <a href="https://github.com/dbourdeau/cyphersolver#results">repository README</a> by <code>_build_stats.py</code>; regenerated {datetime.date.today():%d %B %Y}. &ldquo;Already solved elsewhere&rdquo; and &ldquo;no message&rdquo; are not decipherments and are not counted as such. Forster (1644) is counted among those read by others. Rows are documents, not correspondents: S&eacute;gur f.&nbsp;143 and Urquhart&rsquo;s distich stand as separate open items beside the letters and the octastich that were read.</p>')
     lines.append('</section>')

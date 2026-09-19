@@ -250,3 +250,67 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
   const qm=/[?&]q=([^&#]+)/.exec(location.search);
   if(qm && !document.getElementById('q')){ input.value=decodeURIComponent(qm[1].replace(/\+/g,' ')); open(); }
 })();
+// ledger timeline: drop-in entrance, year cursor, rich tooltip (hover, focus, tap to pin), legend filters
+(function(){
+  const svg=document.querySelector('svg.tl'); if(!svg) return;
+  const wrap=svg.parentNode, tip=wrap.querySelector('.tltip'), cur=svg.querySelector('.cursor'), curYr=cur&&cur.querySelector('.cur-yr');
+  const pts=[...svg.querySelectorAll('.pt')];
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce && 'IntersectionObserver' in window){
+    svg.classList.add('pre');
+    const io=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)){ svg.classList.remove('pre'); svg.classList.add('armed'); io.disconnect(); } },{threshold:.3});
+    io.observe(svg);
+  }
+  const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const clip=(s,n)=>s.length>n? s.slice(0,s.lastIndexOf(' ',n)).replace(/[;,.:]$/,'')+'…' : s;
+  let pinned=null, hot=null;
+  function show(p){
+    const d=p.dataset, col=getComputedStyle(p.querySelector('.core')).fill;
+    tip.style.setProperty('--c',col);
+    const link=p.tagName.toLowerCase()==='a';
+    tip.innerHTML=`<div class="tt-in"><span class="tt-yr">${esc(String(d.year))}</span>`+
+      `<span class="tt-pill"><i></i>${esc(d.label)}</span>`+
+      `<div class="tt-name">${esc(clip(d.name,110))}</div><div class="tt-date">${esc(d.date)}${d.when?` · ${esc(d.whenhead.toLowerCase())} ${esc(d.when)}`:''}</div>`+
+      (d.note?`<p class="tt-note"><b>${esc(d.notehead)}</b>${esc(clip(d.note,190))}</p>`:'')+
+      `<div class="tt-go"><span>${link?'Read the write-up →':'Notes only, no page yet'}</span><span>${link&&matchMedia('(hover:none)').matches?'tap again':''}</span></div>`+
+      `<span class="tt-arrow"></span></div>`;
+    tip.hidden=false;
+    if(hot) hot.classList.remove('hot'); hot=p; p.classList.add('hot'); svg.classList.add('dim');
+    // place above the dot, clamped inside the wrapper; flip below if no room
+    const wr=wrap.getBoundingClientRect(), pr=p.querySelector('.core').getBoundingClientRect();
+    const cx=pr.left+pr.width/2-wr.left, tw=tip.offsetWidth, th=tip.offsetHeight;
+    let x=Math.max(4,Math.min(wr.width-tw-4,cx-tw/2)), y=pr.top-wr.top-th-14, below=false;
+    if(pr.top-th-14<8){ y=pr.bottom-wr.top+14; below=true; }
+    tip.classList.toggle('below',below);
+    tip.style.setProperty('--tx',x+'px'); tip.style.setProperty('--ty',y+'px');
+    tip.style.setProperty('--ax',(cx-x)+'px'); tip.style.setProperty('--ox',(cx-x)+'px');
+    requestAnimationFrame(()=>tip.classList.add('show'));
+    if(cur){ const c=p.querySelector('.core'); cur.setAttribute('transform',`translate(${c.getAttribute('cx')},0)`); curYr.textContent=d.year; cur.classList.add('on'); }
+  }
+  function hide(){
+    if(pinned) return;
+    tip.classList.remove('show'); if(hot) hot.classList.remove('hot'); hot=null; svg.classList.remove('dim'); if(cur) cur.classList.remove('on');
+  }
+  pts.forEach(p=>{
+    p.addEventListener('pointerenter',e=>{ if(e.pointerType!=='touch' && !pinned) show(p); });
+    p.addEventListener('pointerleave',e=>{ if(e.pointerType!=='touch') hide(); });
+    p.addEventListener('focus',()=>{ if(!pinned) show(p); });
+    p.addEventListener('blur',hide);
+    p.addEventListener('click',e=>{
+      // touch: first tap pins the card, second tap on the same dot follows the link
+      if(matchMedia('(hover:none)').matches && pinned!==p){ e.preventDefault(); pinned=null; show(p); pinned=p; tip.classList.add('pinned'); }
+    });
+  });
+  document.addEventListener('click',e=>{ if(pinned && !pinned.contains(e.target) && !tip.contains(e.target)){ pinned=null; tip.classList.remove('pinned'); hide(); } });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape' && hot){ pinned=null; hide(); } });
+  window.addEventListener('resize',()=>{ pinned=null; hide(); });
+  // legend chips isolate one or more outcomes
+  const legend=document.querySelector('.sb-legend');
+  if(legend) legend.addEventListener('click',e=>{
+    const b=e.target.closest('.lg'); if(!b) return;
+    b.setAttribute('aria-pressed', b.getAttribute('aria-pressed')==='true' ? 'false' : 'true');
+    const on=[...legend.querySelectorAll('.lg[aria-pressed=true]')].map(x=>x.dataset.cat);
+    legend.classList.toggle('filtering',on.length>0);
+    pts.forEach(p=>p.classList.toggle('off', on.length>0 && !on.includes(p.dataset.cat)));
+  });
+})();
