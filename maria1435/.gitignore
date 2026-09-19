@@ -1,0 +1,7 @@
+img/
+keys/
+crops/
+lm/
+*.jpg
+*.png
+*.pdf

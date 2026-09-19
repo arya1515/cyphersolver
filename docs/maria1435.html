@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Queen Mar&iacute;a to Alfonso V, Valencia 1435 &mdash; Attempted</title>
+<meta name="description" content="Queen Mar&iacute;a of Castile, lieutenant-general of Aragon, to her husband Alfonso V, Valencia, 5 August 1435, the day of the battle of Ponza: a register copy in ACA Canciller&iacute;a reg. 3225 f. 59r (DECODE R10171) with 42 cipher signs in three runs inside clear Catalan. Attempted September 2026, not read: both printed Aragonese keys of the decade tested (1429 and 1437), four neighbouring registers swept page by page on PARES (1,414 images, no cipher anywhere), and a crib-anchored language-model attack run. The 1429 key&rsquo;s nomenclator seems to match the letter&rsquo;s word signs; its alphabet does not. What is needed is in archives, not online.">
+<link rel="stylesheet" href="style.css?v=20260918b">
+<meta name="date" content="2026-09-18">
+<meta name="last-modified" content="2026-09-18">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li><li><a href="soglia1848.html"><span class="st solved">read</span><b>Soglia 1848</b><span class="yr">1848</span></a></li><li><a href="legation.html"><span class="st partial">gaps read</span><b>Erving &amp; Adams</b><span class="yr">1807&ndash;12</span></a></li><li><a href="yard1699.html"><span class="st solved">read</span><b>Yard 1699</b><span class="yr">1699</span></a></li><li><a href="bordeaux1653.html"><span class="st solved">read</span><b>Bordeaux 1653</b><span class="yr">1653</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">27</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">10</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">11</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">6</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 55 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+<section class="hero">
+  <div class="cipherstrip">&hellip; instancia dels [ff 6 8 &#9651; 8 &#8988; b) 8 6 &#8224; 8] los daquest Regne &hellip;<br>&hellip; he treballat que [&#541; a ff 8 9 d 3 8 v 8 6 8 2 &#8857;] es continuada daci a tots sants &hellip;<br>&#9651; = <i>regne d&rsquo;Arag&oacute;</i>? &middot; &#8988; = <i>Catalunya</i>? &middot; b) = <i>rei de Castella</i>? (1429 nomenclator)</div>
+  <p class="kicker">Valencia &rarr; Alfonso V at Gaeta &middot; signs in a clear Catalan letter &middot; 5 August 1435 &middot; attempted, not read</p>
+  <h1>Queen Mar&iacute;a to Alfonso V, Valencia, 5 August 1435</h1>
+  <p class="sub">Arxiu de la Corona d&rsquo;Arag&oacute;, Canciller&iacute;a, reg. 3225 f. 59r (DECODE R10171, public): the register copy of a short letter from the queen, lieutenant-general of the Crown, to her husband, written on the day he was defeated and captured at Ponza. Forty-two cipher signs in three runs sit inside the clear Catalan.</p>
+  <p class="sub">Both printed Aragonese keys of the decade were obtained and tested, the queen&rsquo;s and the king&rsquo;s registers for 1421&ndash;39 were swept page by page on PARES, and the signs were attacked with a Catalan language model. Nothing reads. The text is too short on its own, and every online source that could hold more of this cipher is now exhausted.</p>
+  <p class="meta">Daniel Bourdeau &middot; attempted <time datetime="2026-09-18">18 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#letter">The letter</a><a href="#signs">The signs</a><a href="#keys">The two printed keys</a><a href="#siblings">The search for sibling letters</a><a href="#method">The direct attack</a><a href="#open">What remains open, and what would finish it</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> This is the oldest ciphertext on DECODE with a public image that nobody has read: a letter of Queen Mar&iacute;a of Castile to Alfonso V, Valencia, 5 August 1435. The clear text says that, at the instance of certain parties and of &ldquo;those of this kingdom&rdquo;, she has worked so that something &ldquo;is continued from now until All Saints&rdquo;. That is almost certainly the truce of Majano with Castile, which expired on 16 July 1435 and which the queens of Aragon and Navarre had extended. The cipher itself is 42 signs in three runs. The Castile-war key of 1429 (Cort&egrave;s &amp; Pons 1986) and the Montcada&ndash;Amat key of 1437 (Arag&oacute; 1968) were both obtained. The 1437 alphabet is unrelated. The 1429 alphabet does not fit either, but its nomenclator appears to: the letter&rsquo;s dotted and odd signs match its word signs for the kingdom of Aragon, Catalonia, the king of Castile and Navarre, which would make the first run a list of the parties to the truce. That is a hypothesis from four or five sign matches, not a reading. The sibling letters that would settle it are not online: reg. 3225 itself is not digitised, and four neighbouring registers (3226, 3224, 3113, and the king&rsquo;s 2693), 1,414 images, contain no cipher sign at all. The king&rsquo;s register does show why: his chancery registered ciphered letters in clear, among them his letter to the queen of 27 July 1435, marked <i>in ciffra</i>.
+<em>Status: attempted, not read. What would finish it is in three archives: the other 1435 folios of ACA reg. 3225, the second key in Valencia, B.A.H.M. ms. 677 ff. 160&ndash;161, and any key of the queen&rsquo;s side at the Arxiu del Regne de Val&egrave;ncia.</em>
+</div>
+
+<h2 id="letter"><span class="num">01</span> The letter</h2>
+
+<p>Folio 59r (&ldquo;LVIIII&rdquo;) of reg. 3225 carries three items, all dated Valencia, 5 August 1435: a letter to the queen&rsquo;s procurator at the Roman curia, one to the vice-chancellor and ambassador Jacme Pelegr&iacute;, and one to the king. Only the last contains cipher. By the numbering of the series, reg. 3225 is <i>Secretorum locumtenentiae reginae Mariae</i> 4, the queen&rsquo;s secret register for late 1423 to early 1437. PARES has neither a description nor images of it; DECODE holds this one page, uploaded in February 2026.</p>
+
+<figure><img src="maria1435_f59r_letter.jpg" alt="ACA reg. 3225 f. 59r: the queen's letter to the king, with cipher signs in the first four lines" loading="lazy"><figcaption>ACA, Canciller&iacute;a, reg. 3225 f. 59r, the letter to the king: three runs of signs in the first four lines of the text, then the clear close, <i>Scripta en Valencia a v dagost 1435</i>, and the subscription <i>Senyor, vostra humil muller la Reyna d&rsquo;Arag&oacute; e de Sic&iacute;lia</i>. Arxiu de la Corona d&rsquo;Arag&oacute;, via DECODE R10171.</figcaption></figure>
+
+<p>Working reading of the clear text, with the runs in brackets:</p>
+
+<blockquote><p>Molt alt e molt excellent Senyor. Apres humil recomendacio, a [gran?] instancia dels <b>[run 1]</b> los daquest Regne, veents la gran necessitat, he treballat que <b>[run 2]</b> es continuada daci a tots sants. E <b>[run 3]</b> / stat exseguit e complit tot quant per vostra senyoria es stat manat, segons per mossen Matheu Pujades &hellip; daco e dels altres fets ha avisada vostra excellencia, la qual me mane lo que li sia plasent, e la qual nostre Senyor exalte longament. Scripta en Valencia a v dagost 1435. &mdash; Senyor, vostra humil muller la Reyna d&rsquo;Arag&oacute; e de Sic&iacute;lia, qui humilment se recomana en vostra gracia e merce. La Reyna.</p></blockquote>
+
+<p>&ldquo;Most high and excellent lord. After humble recommendation: at the [great] instance of [run 1] and those of this kingdom, seeing the great need, I have worked so that [run 2] is continued from now until All Saints. And [run 3] has been carried out and fulfilled, everything your lordship ordered, as mossèn Mateu Pujades has informed your excellency of this and the other matters.&rdquo;</p>
+
+<h2 id="signs"><span class="num">02</span> The signs</h2>
+
+<p>Transcribed sign by sign from 5&times; to 7&times; crops. The runs mix digit-like forms (2, 3, 6, 8, 9), letter-like forms (a, d, n, v, M, &#541;, a doubled f with a bar) and figures: a triangle, a square hook, a b in a bracket, a circle with a dot, a cross on a curved foot, two E-shapes. Three of them (the hook, the bracketed b and the dotted circle) are flanked by dots, the usual mark of a nomenclator word. The 8 comes in three forms: plain, with a stroke at the top right, and with a tail at the lower left, and the tailed form follows every 6.</p>
+
+<table>
+<thead><tr><th>Run</th><th>Clear before</th><th>Signs</th><th>Clear after</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>instancia dels</td><td class="c">ff 6 8&#803; &#9651; 8 &middot;&#8988;&middot; &middot;b)&middot; 8&#697; 6 &#8224; 8&#697;</td><td>los daquest Regne</td></tr>
+<tr><td>2</td><td>he treballat que</td><td class="c">&#541; a ff 8&#697; 9 d 3 8&#697; v 8&#697; 6 8&#803; 2 &middot;&#8857;&middot;</td><td>es continuada daci a tots sants</td></tr>
+<tr><td>3</td><td>E</td><td class="c">E n 8&#697; a 8 3 2 8&#697; d ff 8 6 8&#803; &#8707; 8&#697; M &#541;</td><td>/ stat exseguit e complit</td></tr>
+</tbody></table>
+<p class="muted">8&#697; = 8 with a top-right stroke; 8&#803; = 8 with a lower-left tail. DECODE&rsquo;s description counts four runs because run 3 breaks across a line end.</p>
+
+<h2 id="keys"><span class="num">03</span> The two printed keys</h2>
+
+<p><b>1437, Montcada and Amat.</b> The key of the embassy of Guillem Ramon de Montcada and Antoni Amat to Charles VII, dated 18 March 1437 (ACA, Cartas Reales Alfonso IV, Varios 69; Arag&oacute;, <i>Cuadernos de Arqueolog&iacute;a e Historia de la Ciudad</i> 12, 1968; DECODE R10183, public; PARES 3205682). Its alphabet is dots, strokes and small hooks, one sign per letter; its nomenclator of about ninety entries uses a triangle for <i>treva</i> and a circle for <i>naus</i>. The alphabet shares nothing with the letter.</p>
+
+<p><b>1429, the Castile war.</b> The key published by Josepa Cort&egrave;s Escriv&agrave; and Vicent Pons Al&oacute;s, &ldquo;Una clau criptogr&agrave;fica d&rsquo;Alfons el Magn&agrave;nim per a la guerra amb Castella (1429)&rdquo;, <i>Saitabi</i> 36 (1986), pp. 25&ndash;36: Biblioteca-Arxiu Hist&ograve;ric Maiansi&agrave; (Col&middot;legi del Corpus Christi, Val&egrave;ncia), ms. 677 f. 435v, headed <i>cum baiulo generali Valencie</i>, the king&rsquo;s key with his batle general Joan Mercader. It has seventeen consonant signs, three signs for each vowel, nine nulls (<i>nichil importantes</i>), and a nomenclator of persons, places and terms of war drawn for the conflict with Castile.</p>
+
+<ul>
+<li><b>Alphabet: no fit.</b> A few shapes recur (a crossed triple stroke for f, 8-like forms among the homophones of a and u, a 2-shaped q, a 3-shaped y), but a reading built on them gives nothing.</li>
+<li><b>Nomenclator: a plausible fit.</b> The letter&rsquo;s triangle matches the key&rsquo;s <i>regne d&rsquo;Arag&oacute;</i> (a triangle on a base); its dotted square hook, the key&rsquo;s <i>Catalunya</i> (a barred hook); its dotted bracketed b, the key&rsquo;s <i>rei de Castella</i> (a looped b set between dots); its 6 with a top stroke, the key&rsquo;s curl for <i>Navarra</i> or <i>naus</i>; and a plain 3 is one of the key&rsquo;s nulls.</li>
+</ul>
+
+<p>On that reading run 1 would say, roughly, &ldquo;at the instance of [&hellip;] Navarre, Aragon and Catalonia, the king of Castile [&hellip;] and those of this kingdom&rdquo;, with the plain 8 as <i>e</i>, &ldquo;and&rdquo;. That suits a letter about extending a truce among Aragon, Navarre and Castile. It rests on four or five sign matches, and the alphabet signs between the word signs stay unassigned, so it is recorded here as a hypothesis, not a reading. The article also notes a second alphabet in the same volume, &ldquo;aliud abecedarium in libro intitulato Segon d&rsquo;estols e armades, cartes CLX&ndash;CLXI&rdquo;, which has not been published.</p>
+
+<h2 id="siblings"><span class="num">04</span> The search for sibling letters</h2>
+
+<p>Forty-two signs cannot fix a homophonic alphabet, so the plan was to find more text in the same key. Reg. 3225 is not on PARES (only 460 of the 866 registers of Alfonso IV are described there), so five neighbours were fetched in full and read page by page:</p>
+
+<table>
+<thead><tr><th>Register</th><th>Series</th><th>Span</th><th>Images</th><th>Cipher</th></tr></thead>
+<tbody>
+<tr><td>3226</td><td>Secretorum loc. reginae Mariae 5</td><td>Mar 1437 &ndash; Apr 1438</td><td>264</td><td>none</td></tr>
+<tr><td>3224</td><td>Secretorum loc. reginae Mariae 3</td><td>Aug 1421 &ndash; Nov 1423</td><td>286</td><td>none</td></tr>
+<tr><td>3113</td><td>Comune Sigilli Secreti loc. 6</td><td>June 1432 &ndash; 21 June 1435</td><td>472</td><td>none</td></tr>
+<tr><td>2693</td><td>Secretorum 3 (the king)</td><td>1431 &ndash; July 1435</td><td>392</td><td>none</td></tr>
+</tbody></table>
+
+<p>The queen&rsquo;s letters to the king in these registers, and her instructions to envoys in Castile, are all in clear. Reg. 3113 stops on 21 June 1435, before the truce expired. The Cartas Reales of Alfonso IV on PARES (3,055 items with images) hold thirteen pieces of 1435, none from the king to the queen and none in cipher.</p>
+
+<p>The king&rsquo;s register explains the silence. His chancery copied ciphered despatches in clear and marked them <i>fuit expedita in cifra</i>: to his envoys at Rome in 1434, to the bishop of Lleida, to his almoner at Basel, to the archbishop of Zaragoza on 26 July 1435 (&ldquo;the peace with Castile is signed and to be kept secret&rdquo;), and to the queen herself on 27 July 1435.</p>
+
+<figure><img src="maria1435_king_in_ciffra.jpg" alt="ACA reg. 2693, the king's letter to the queen of 27 July 1435, registered in clear, with the note In ciffra at the foot" loading="lazy"><figcaption>ACA, Canciller&iacute;a, reg. 2693 f. 187r: Alfonso to the queen, <i>Reyna molt cara e molt amada muller</i>, from the siege of Gaeta, 27 July 1435, registered in clear and marked <i>In ciffra</i> at the foot. The letter itself explains: <i>les vies d&rsquo;aqui no son prou segures, conve scriure ab ciffra</i>, &ldquo;the roads from here are not safe enough; one must write in cipher&rdquo;. The ciphered original, received in Valencia, has not been found. Archivo de la Corona de Arag&oacute;n, via PARES.</figcaption></figure>
+
+<p>So a king&ndash;queen cipher was in use in the very week before her letter. The queen&rsquo;s secretary copied cipher into the register; the king&rsquo;s did not. The only place more of her side can survive is reg. 3225 itself, and the only place his ciphered originals can survive is among the letters she received, which on PARES do not include them.</p>
+
+<h2 id="method"><span class="num">05</span> The direct attack</h2>
+
+<p>A Catalan letter-quadgram model was built from about three million characters of Catalan text, and a simulated annealer searched one-sign-one-letter keys over the three runs, each scored with its clear context on both sides and the dotted signs treated as word boundaries. Without cribs it returns fluent-looking nonsense, as 42 signs must. Every crib is penalised heavily: <i>la treua</i> at the head of run 2 costs 63 log-units against the free optimum, <i>treua</i> at any offset 35 to 90, <i>tregua</i> 61 or more, <i>castella</i> anywhere in run 3 between 50 and 128, and most other offsets are impossible because a repeated sign would have to stand for two letters. With the 1429 nomenclator applied the result is the same. A plain substitution does not carry the expected words, which points to homophones, nulls and word signs, and those cannot be recovered from this little text.</p>
+
+<h2 id="open"><span class="num">06</span> What remains open, and what would finish it</h2>
+
+<ul>
+<li><b>All 42 signs are unread.</b> The nomenclator identifications above are graded M (possible) in the README&rsquo;s scale; the reading of run 2 as the truce, and of the plain 8 as <i>e</i>, as C (likely) and M.</li>
+<li><b>ACA reg. 3225,</b> the other folios of 1435 (roughly ff. 50&ndash;80), for more letters in the same cipher. It is not digitised; a reproduction request to the ACA is the direct route.</li>
+<li><b>The second alphabet of B.A.H.M. ms. 677, ff. 160&ndash;161,</b> in the Col&middot;legi del Corpus Christi, Val&egrave;ncia, the likeliest printed-adjacent source for a Valencian key of these years.</li>
+<li><b>A key of the queen&rsquo;s side</b> at the Arxiu del Regne de Val&egrave;ncia, where the batle general&rsquo;s papers are kept.</li>
+</ul>
+
+<h2 id="sources"><span class="num">07</span> Sources</h2>
+<ul>
+<li>ACA, Canciller&iacute;a, reg. 3225 f. 59r: DECODE R10171, <a href="https://de-crypt.org/decrypt-web/RecordsView/10171">de-crypt.org/decrypt-web/RecordsView/10171</a> (public image).</li>
+<li>ACA, Canciller&iacute;a, regs. 3224, 3226, 3113 and 2693 on PARES: <a href="https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/13153136">3224</a>, <a href="https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/13153139">3226</a>, <a href="https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/13351606">3113</a>, <a href="https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/13383291">2693</a> (the letter to the queen of 27 July 1435 is image 374).</li>
+<li>The 1437 key: ACA, Cartas Reales Alfonso IV, Varios 69, <a href="https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/3205682">PARES 3205682</a>, DECODE R10183; A. M. Arag&oacute;, &ldquo;Una clau criptogr&agrave;fica del segle XV&rdquo;, <i>Cuadernos de Arqueolog&iacute;a e Historia de la Ciudad</i> 12 (1968), pp. 171&ndash;176, <a href="https://www.barcelona.cat/museuhistoria/sites/default/files/cahc-12-1968.pdf">PDF</a>.</li>
+<li>The 1429 key: J. Cort&egrave;s Escriv&agrave; and V. Pons Al&oacute;s, &ldquo;Una clau criptogr&agrave;fica d&rsquo;Alfons el Magn&agrave;nim per a la guerra amb Castella (1429)&rdquo;, <i>Saitabi</i> 36 (1986), pp. 25&ndash;36, <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=1027494">Dialnet</a>, full text on <a href="https://roderic.uv.es/items/e47ad020-0b9e-4686-9b5c-c5c67da3cdd9">RODERIC</a>.</li>
+<li>The truce: <a href="https://es.wikipedia.org/wiki/Treguas_de_Majano">Treguas de Majano</a>; M. Gual Camarena, &ldquo;Las treguas de Majano entre Arag&oacute;n, Navarra y Castilla (1430)&rdquo;, <i>Cuadernos de Historia de Espa&ntilde;a</i> 16 (1951), pp. 79&ndash;109.</li>
+<li>Context: T. Earenfight, <i>The King&rsquo;s Other Body: Mar&iacute;a of Castile and the Crown of Aragon</i> (2010), and her 1997 dissertation on the lieutenancy; E. Sanahuja, <i>Edad Media</i> 21 (2020), n. 54, for the Aragonese keys known before 1440.</li>
+</ul>
+
+<p class="muted">Transcription, notes, the solver and the PARES fetcher are in <a href="https://github.com/dbourdeau/cyphersolver/tree/main/maria1435"><code>maria1435/</code></a>. Page images are not in the repository.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Images: Arxiu de la Corona d&rsquo;Arag&oacute;, via DECODE R10171 and PARES</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="heidelberg597.html" rel="prev">&larr; Alchymey teuczsch 1426</a><a href="esp318.html" rel="next">Espagnol 318 1497&ndash;1504 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260918b"></script>
+</body>
+</html>

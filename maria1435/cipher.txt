@@ -1,0 +1,10 @@
+# ACA reg. 3225 f. 59r, Queen María to Alfonso V, Valencia 5 Aug 1435: cipher runs, one sign per token.
+# Sign names: ff  6  8 (plain)  8R (8 with top-right stroke)  8L (8 with left tail, only after 6)  tri (triangle)
+#   sq (square hook, dotted)  bp (b with bracket, dotted)  O (circle with dot, dotted)  t (cross)  z (ȝ)
+#   a d n v M (letter-like)  2 3 9  E (E-shaped)  E2 (turned E with three bars)
+# run1: "a [p...] instancia dels" ... "los daquest Regne"
+ff 6 8L tri 8 sq bp 8R 6 t 8R
+# run2: "he treballat que" ... "es continuada daci a Tots Sants"
+z a ff 8R 9 d 3 8R v 8R 6 8L 2 O
+# run3: "E" ... "/ stat exseguit e complit tot quant per vostra senyoria es stat manat"
+E n 8R a 8 3 2 8R d ff 8 6 8L E2 8R M z
