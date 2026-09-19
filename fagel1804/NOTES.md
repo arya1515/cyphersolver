@@ -49,7 +49,7 @@ groups containing 6 or 8 are the looped digit tops, not marks.
 
 The code has about 2,500 groups, and a 128-group text cannot yield it without a key. The key is most likely among
 the KHA papers of William V's exile or the Fagel family papers (NA 1.10.29, which DECODE indexes for keys of
-1680-1793: R2792-R2852; the first pages of the eleven undated sets R2842-R2852 were sampled on 19 Sept and are covers or indexes, the contents not yet examined). Checking those key records for a French code of 1795-1806 whose range
+1680-1793: R2792-R2852). The eleven undated sets R2842-R2852 were sampled on 19 Sept (a page a third of the way in): all are Dutch-vocabulary codes, so ruled out for a French letter. The KHA itself is what remains. Checking those key records for a French code of 1795-1806 whose range
 covers 2510 is the next step.
 
 DECODE images are git-ignored (`img/`, `key*/`, `decode/`, `lines/`). Only derived text is committed.

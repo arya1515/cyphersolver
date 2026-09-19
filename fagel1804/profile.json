@@ -107,6 +107,11 @@
    "kind": "sibling key",
    "what": "R2240 Orange key (letters 1-100, names 100-6006); R1035 and R1891 Dutch codebooks; siblings R2236, R2237, R2239 in the same inventory number.",
    "result": "ruled out"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Fagel family key sets NA 1.10.29 inv. 1257-1267 (DECODE R2842-R2852), one interior page each: all Dutch-vocabulary codes.",
+   "result": "ruled out"
   }
  ],
  "outcome": {
