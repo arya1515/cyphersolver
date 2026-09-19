@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matthias Corvinus to Ercole I d'Este (1482) — Read in 1877</title>
+<meta name="description" content="King Matthias Corvinus wrote to Duke Ercole I of Ferrara from Pozsony on 1 June 1482, in the first weeks of the War of Ferrara, with the military passages in a sign cipher. DECODE lists the letter (R1156) as partially decrypted, but it was printed in full in 1877 and again by Fraknói in 1895. Here the cipher runs are read sign by sign from the image, a working key is rebuilt, and four garbled passages of the printed text are corrected, among them the closing sentence that the edition prints as nonsense.">
+<link rel="stylesheet" href="style.css?v=20260918b">
+<meta name="date" content="2026-09-19">
+<meta name="last-modified" content="2026-09-19">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="matthias1482.html" aria-current="page"><span class="st found">read in 1877</span><b>Matthias 1482</b><span class="yr">1482</span></a></li><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li><li><a href="soglia1848.html"><span class="st solved">read</span><b>Soglia 1848</b><span class="yr">1848</span></a></li><li><a href="legation.html"><span class="st partial">gaps read</span><b>Erving &amp; Adams</b><span class="yr">1807&ndash;12</span></a></li><li><a href="yard1699.html"><span class="st solved">read</span><b>Yard 1699</b><span class="yr">1699</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">28</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">11</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">11</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">7</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 58 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="cipherstrip">⊐ 2 ·ıı· 5 Ŧ 4 &nbsp;= m i tt e r e<br>⊤ V ᒧ 9 ϲ + &nbsp;= v a l e n t<br>Ŧ S L &nbsp;⊏ Π L ⊥ Ŧ V L &nbsp;= res nostras</div>
+  <p class="kicker">Pozsony &rarr; Ferrara · letter substitution with homophones and three name signs · 1 June 1482 · found already read</p>
+  <h1>Matthias Corvinus to Ercole I d&rsquo;Este, 1 June 1482</h1>
+  <p class="sub">Modena, Archivio di Stato, Carteggio principi esteri 1622, b. 1/3, nos. 2, 2a &middot; one page, Latin, with about fifteen runs in cipher &middot; DECODE R1156, &ldquo;partially decrypted&rdquo;</p>
+  <p class="sub">The King of Hungary tells his brother-in-law, whom Venice had just attacked, what help he can send and why it cannot yet get through. The cipher was read in the nineteenth century and the letter is in print. The runs are read again here from the image, and four places where the printed text went wrong are put right.</p>
+  <p class="meta">Daniel Bourdeau &middot; resolved <time datetime="2026-09-19">19 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#letter">The letter</a><a href="#cipher">The cipher</a><a href="#reading">The reading</a><a href="#corrections">What the printed text got wrong</a><a href="#open">What remains uncertain</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> The letter came up as a pre-1497 candidate in the catalogue: a King of Hungary writing in cipher in 1482, marked on DECODE as only partly decrypted. It is not unread. <em>Magyar diplomácziai emlékek</em> III (1877) printed it from the Modena original, and Vilmos Fraknói reprinted it in <em>Mátyás király levelei</em> II (1895), no. 131, noting that the original is &ldquo;partly written in secret signs&rdquo;. The cipher is a simple one: invented signs for the letters, two to four signs for the common vowels, doubled letters marked by dots, and three signs for names (Venice, King Ferdinand of Naples, Matthias himself). Aligning the runs with the printed text rebuilds most of the key. The key then shows the edition wrong in four places. The hussars are the ones &ldquo;who are worth more than the rest&rdquo; (<em>valent</em>, printed &ldquo;valoris (sic)&rdquo;). Balázs Magyar leaves with troops (<em>gentibus</em>), not servants. The closing sentence, printed as nonsense, reads <em>Speramus cito nos res nostras ita disposituros, ut meliori postea modo vos iuvare possemus</em>. And the &ldquo;contemporary regest&rdquo; Fraknói prints at the foot is the letter&rsquo;s own last sentence, half in cipher.
+<em>Status: found already read; corrected here. Open: one run after <em>faciet</em> and the clear verb before it, and the two name signs after <em>regina</em>.</em>
+</div>
+
+<h2 id="letter"><span class="num">01</span> The letter</h2>
+<p>Venice declared war on Ferrara in May 1482. Duke Ercole I d&rsquo;Este was married to Eleonora of Aragon, daughter of King Ferdinand of Naples and sister of Beatrix, Queen of Hungary since 1476. Eleonora wrote to her sister and brother-in-law for help. Matthias answered from Pozsony (Pressburg, Bratislava) on the first of June. He was himself at war with the Emperor Frederick III, whose lands lay between Hungary and Italy.</p>
+<p>The letter is one page of Latin in a chancery hand, with the address and a red seal on the verso. The courtesies and the reasoning are in clear. The numbers, the troops, the route, the names and the plan are in cipher, set into the clear lines as short runs. DECODE holds two images (I5815, I5816). The archive keeps the rights, and the images are not reproduced here.</p>
+
+<h2 id="cipher"><span class="num">02</span> The cipher</h2>
+<p>Each letter of the Latin is replaced by an invented sign. Many signs look like numerals or letters turned about (5, 4, 9, 2, 3, 7, 8, a reversed C, L, T and its inversion ⊥, Ŧ, Π, Λ, ⊏, ⊐, ∃, ∅), which makes the runs look like a string of figures at first sight. Vowels and the commonest consonants have two to four signs each. A doubled letter is one sign between dots, ·ıı· for <em>tt</em> in <em>mittere</em> and <em>mitteremus</em>. There are no word breaks inside a run, but the runs themselves are mostly single words or short phrases, spaced like the clear text.</p>
+<p>The working key below comes from lining up each run with the printed text and keeping only values that recur in at least two words:</p>
+<table>
+<thead><tr><th>letter</th><th>signs</th><th>letter</th><th>signs</th></tr></thead>
+<tbody>
+<tr><td>a</td><td>8, V</td><td>n</td><td>⊏, ϲ</td></tr>
+<tr><td>b</td><td>d</td><td>o</td><td>7, Π, Λ, +</td></tr>
+<tr><td>c</td><td>Ͻ (reversed C)</td><td>p</td><td>⊔</td></tr>
+<tr><td>d</td><td>2, ᑐ</td><td>q</td><td>=</td></tr>
+<tr><td>e</td><td>5, 4, 9, ς</td><td>r</td><td>Ŧ</td></tr>
+<tr><td>f</td><td>ϵ (once)</td><td>s</td><td>L, Γ, S</td></tr>
+<tr><td>g</td><td>ᒪ (hooked L)</td><td>t</td><td>⊥, +</td></tr>
+<tr><td>h</td><td>6</td><td>u / v</td><td>⊤, ∃</td></tr>
+<tr><td>i</td><td>2, 3, ∅</td><td>tt</td><td>·ıı·</td></tr>
+<tr><td>l</td><td>σ, ᒧ</td><td colspan="2"></td></tr>
+<tr><td>m</td><td>⊐, ᑐ</td><td colspan="2"></td></tr>
+</tbody></table>
+<p>Name signs: a looped ampersand for <em>Veneti</em> (and <em>Venetorum</em>), a crossed square for <em>regi Ferdinando</em>, and a q with a looped tail for <em>Rex Hungarie</em>, the King referring to himself. Some signs seem to serve two letters (+ for o, t and e; 2 for i and d). With about 330 signs of cipher in all, the sample is too short to tell whether these are true homophones shared between letters or two similar shapes that a transcription from the image cannot separate.</p>
+
+<h2 id="reading"><span class="num">03</span> The reading</h2>
+<p>Clear text in roman, the cipher runs in brackets, corrections to the printed text in bold. The first lines of the letter, all in clear, are as Fraknói prints them.</p>
+<blockquote>
+<p>&hellip; statim cum domina regina consorte nostra statuimus [mittere] in [subsidium] [vestrum] [quingentos] [equites], inter [quos] essent [centum] [usarones], idest [homines] levis [armature], qui plus [ceteris] <strong>[valent]</strong>. Sed cum examinaremus cum domina regina &lsaquo;two signs&rsaquo; et [aliis] nostris, per [quam] [viam] possemus [eos] [mittere], non invenimus aliquam [tutam]. &hellip;</p>
+<p>In crastinum hinc recedet [Mager] [Balas] [capitaneus] [noster] cum [pluribus] <strong>[gentibus]</strong>, iturus in [Croatiam] versus [confinia] [Venetorum], ubi [plures] etiam [congregabit]; et quotienscunque inventa erit [tuta] [transeundi] [via], statim significet [Regi Hungarie] et illic faciet [?] [venient].</p>
+<p><strong>Speramus cito nos [res] [nostras] ita [disposituros], ut meliori postea modo [vos] [iuvare] possemus.</strong> <strong>[Rex Hungarie] [scripsit] [regi Ferdinando] quomodo possent [diverti] [Veneti] et [confundere] [eos] et cum paucis [pecuniis].</strong></p>
+<p>Dat. Posonii, primo Junii 1482.</p>
+</blockquote>
+<p>&ldquo;&hellip; at once, with our lady the queen, we decided to send five hundred horse to your aid, among them a hundred hussars, that is light horse, who are worth more than the rest. But when we considered with the queen and our other counsellors by what road we could send them, we found none safe. &hellip; Tomorrow our captain Balázs Magyar leaves here with a large force for Croatia, towards the Venetian border, where he will gather more; and whenever a safe way through is found, he is to tell the King of Hungary at once, and they will come there. We hope soon to have our own affairs so arranged that afterwards we can help you better. The King of Hungary has written to King Ferdinand how the Venetians might be drawn off and thrown into confusion, and at small cost.&rdquo;</p>
+
+<h2 id="corrections"><span class="num">04</span> What the printed text got wrong</h2>
+<ol>
+<li><strong>&ldquo;qui plus ceteris valoris (így)&rdquo;.</strong> The run is v-a-l-e-n-t. The hussars are the ones &ldquo;who are worth more than the others&rdquo;. The editor printed a non-word and marked it <em>sic</em>.</li>
+<li><strong>&ldquo;cum pluribus servis&rdquo;.</strong> The run is g-e-n-t-i-b-u-s, with the same hooked-L <em>g</em> as <em>congregabit</em>. Balázs leaves with troops, which suits a captain sent to gather more on the Venetian border.</li>
+<li><strong>&ldquo;Speramus nos eos nostris contra dispositiones ut meliori postea modo possemus (így)&rdquo;.</strong> The edition skipped the clear word <em>cito</em>, took r-e-s for <em>eos</em> and n-o-s-t-r-a-s for <em>nostris</em>, turned d-i-s-p-o-s-i-t-u-r-o-s into &ldquo;contra dispositiones&rdquo;, and left out v-o-s i-u-v-a-r-e, the verb the sentence needs. Read from the signs, the sentence is sound Latin: <em>Speramus cito nos res nostras ita disposituros, ut meliori postea modo vos iuvare possemus.</em></li>
+<li><strong>The &ldquo;regest&rdquo;.</strong> Fraknói ends the letter with the date and gives, as a regest written &ldquo;at the end of the letter in a contemporary hand&rdquo;, the words <em>Rex Hungarie scripsit regi Ferdinando, quomodo possent diverti Veneti et confundere eos et cum paucis pecuniis</em>. That is the letter&rsquo;s own last sentence, in the same hand, before the date, with the three name signs and s-c-r-i-p-s-i-t, d-i-v-e-r-t-i, c-o-n-f-u-n-d-e-r-e, e-o-s and p-e-c-u-n-i-i-s in cipher. His words are right, but he placed the sentence outside the letter. The verso carries only the address and the seal, so if a separate decipherment exists it is on leaf 2a, which DECODE did not image.</li>
+</ol>
+
+<h2 id="open"><span class="num">05</span> What remains uncertain</h2>
+<ul>
+<li><em>statim significet [Regi Hungarie] et illic faciet [?] [venient]</em>. The printed text has <em>convenire</em>. The run after <em>faciet</em> is the looped-q name sign followed by v-e-n-i-e-n-t (grade C). The same sign may stand here for <em>quod</em> or for the syllable <em>con-</em>. The clear verb before the first q-sign looks more like <em>sufficietur</em> than <em>significet</em> on the image (grade M). The sense is not in doubt.</li>
+<li>Two name signs after <em>cum domina regina</em> are not in the printed text and are not read (grade I).</li>
+<li>Signs that serve two letters (+, 2) and the single <em>f</em> are grade C. The rest of the key is grade H, confirmed on two or more words.</li>
+<li>The two lines Fraknói gives about the letter to King Ferdinand (&ldquo;Scripsimus regi Ferdinando, ut rex ipse vel dux Ferrarie possent aliquem excogitare modum&hellip;&rdquo;) were checked only where they are in cipher (<em>modum</em>, <em>tuto</em>, <em>mitteremus</em>). His &ldquo;libenter mitteremus (így)&rdquo; stands as printed: the run does spell m-i-tt-e-r-e-m-u-s.</li>
+</ul>
+
+<h2 id="sources"><span class="num">06</span> Sources</h2>
+<ul>
+<li>Modena, Archivio di Stato, Cancelleria ducale, Carteggio principi esteri 1622, b. 1/3, nos. 2, 2a. Images: <a href="https://de-crypt.org/decrypt-web/RecordsView/1156">DECODE R1156</a> (login; images I5815 recto, I5816 verso).</li>
+<li>Fraknói Vilmos, <em>Mátyás király levelei. Külügyi osztály</em>, vol. II, 1480&ndash;1490 (Budapest: MTA, 1895), no. 131, pp. 232&ndash;233. <a href="https://mek.oszk.hu/07100/07105/pdf/matyaslev2.pdf">MEK 07105</a>.</li>
+<li>Nagy Iván and Nyáry Albert (eds.), <em>Magyar diplomácziai emlékek Mátyás király korából</em>, vol. III (Budapest, 1877), no. 14, the first printing, cited by Fraknói.</li>
+<li>Related letters of the same Ferrara&ndash;Hungary correspondence (Sadoleto 1482&ndash;83, Valentini 1486, Costabili 1489&ndash;93) are in ASMo, Ambasciatori, Ungheria, and on <a href="https://www.vestigia.hu">Vestigia</a>.</li>
+</ul>
+
+<p class="muted">Notes, the DECODE record and a text copy of the edition are in the repository folder <a href="https://github.com/dbourdeau/cyphersolver/tree/main/matthias1482"><code>matthias1482/</code></a>. The images stay out of the repository at the archive&rsquo;s request.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Archivio di Stato di Modena (images not reproduced)</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="maria1435.html" rel="prev">&larr; Mar&iacute;a 1435 1435</a><a href="esp318.html" rel="next">Espagnol 318 1497&ndash;1504 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260918b"></script>
+</body>
+</html>

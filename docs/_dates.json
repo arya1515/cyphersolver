@@ -47,6 +47,7 @@
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "maltravers to ormonde, 1634–35": "2026-09-15",
   "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
+  "matthias corvinus to ercole i d’este, pozsony, 1 june 1482": "2026-09-19",
   "moray to wood, 1568": "2026-09-15",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
@@ -110,8 +111,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "15050bae8de4",
-   "updated": "2026-09-18"
+   "hash": "e6b22336edbb",
+   "updated": "2026-09-19"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -200,8 +201,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "944429a63eca",
-   "updated": "2026-09-18"
+   "hash": "15e5d886fc33",
+   "updated": "2026-09-19"
   },
   "lanssac": {
    "first": "2026-09-17",
@@ -227,6 +228,11 @@
    "first": "2026-09-18",
    "hash": "f5347baa86dd",
    "updated": "2026-09-18"
+  },
+  "matthias1482": {
+   "first": "2026-09-19",
+   "hash": "e8456c553844",
+   "updated": "2026-09-19"
   },
   "mendoza1589": {
    "first": "2026-09-17",
@@ -370,8 +376,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "7b2b48e0435d",
-   "updated": "2026-09-18"
+   "hash": "3bda79f4e7f6",
+   "updated": "2026-09-19"
   },
   "yard1699": {
    "first": "2026-09-18",

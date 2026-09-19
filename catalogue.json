@@ -6285,7 +6285,7 @@
    "shelfmark": "ASMo, CPE 1622 b. 1/3, 2, 2a",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R1156: Partially decrypted, 1 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. King Matthias Corvinus himself writing to Ercole I d'Este in the year of his war with Frederick III; same Ferrara–Hungary cipher family as Sadoleto's letters (oldest/CANDIDATES.md B2). ",
+   "status": "19 Sept 2026: found already read. Printed in Magyar diplomácziai emlékek III (1877) no. 14 and by Fraknói, Mátyás király levelei II (1895) no. 131, from this original. The letter is Latin, not Italian. Cipher runs read here from the DECODE image: letter substitution with homophones and three name signs (Venetians, King Ferdinand, Matthias); working key rebuilt. Four printed passages corrected: valent (not 'valoris'), gentibus (not 'servis'), the closing 'Speramus cito nos res nostras ita disposituros, ut meliori postea modo vos iuvare possemus', and the 'regest' is the letter's own last sentence. Open: 'faciet ꝗ venient' vs printed 'convenire'; two name signs after 'regina'. DECODE R1156: Partially decrypted, 1 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. King Matthias Corvinus himself writing to Ercole I d'Este in the year of his war with Frederick III; same Ferrara–Hungary cipher family as Sadoleto's letters (oldest/CANDIDATES.md B2). ",
    "why": "King Matthias Corvinus himself writing to Ercole I d'Este in June 1482, in the War of Ferrara and in his own war with Frederick III.",
    "importance": 4,
    "solvability": 3,
@@ -6304,7 +6304,9 @@
    "decode_ids": [
     1156
    ],
-   "scored": "reviewed"
+   "scored": "reviewed",
+   "outcome": "closed: already in print",
+   "writeup": "matthias1482.html"
   },
   {
    "id": 160,
