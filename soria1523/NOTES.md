@@ -1,51 +1,73 @@
-# Lope de Soria (Genoa) to Charles V, 1523-24 — RAH Salazar A-28 (9/28), DECODE R9488-R9498
+# Lope de Soria (Genoa) to Charles V, 1523 — RAH Salazar A-28 (9/28), DECODE R9488-R9498
 
 Status: in progress
 
+Catalogue entry 149 ("Lope de Soria to Charles V, 11 ciphertexts", scored by rule). Worked 2026-09-19.
+
 ## The records
 
-| DECODE | ff. (9/28) | date | addressee | key |
-|---|---|---|---|---|
-| R9488 | 248-249 | Genoa, [?] June 1523 | Emperor | A |
-| R9489 | 250-251 | same letter, duplicate | Emperor | A |
-| R9490 | 252-253 | same letter, triplicate | Emperor | A |
-| R9491 | 440-442 | Genoa, 20 July 1523 | Gattinara ("Ill.tre Señor") | B |
-| R9492 | 443-448 | Genoa, July 1523 | Emperor | A |
-| R9493 | 449-455 | same letter, duplicate | Emperor | A |
-| R9494 | 478-479 | Genoa, 26 July 1523 | Emperor | B |
-| R9495 | 480-481 | same, duplicate | Emperor | B |
-| R9496 | 482-483 | same, triplicate | Emperor | B |
-| R9497 | 577-579 | Genoa, 13 Aug 1523 | Emperor | B |
-| R9498 | 581-584 | same, duplicate | Emperor | B |
+| DECODE | ff. (9/28) | date (from the letter) | addressee | cipher | reading file |
+|---|---|---|---|---|---|
+| R9488 | 248-249 | Genoa, June 1523 | Emperor | A | read_r9488.md |
+| R9489 | 250-251 | same letter, duplicate | Emperor | A | collated in keyA_june.txt |
+| R9490 | 252-253 | same letter, triplicate | Emperor | A | spot-collated |
+| R9491 | 440-442 | Genoa, 20 July 1523 | Gattinara ("V. Señoria") | B | read_r9491.md (+ _b) |
+| R9492 | 443-448 | Genoa, July 1523 | Emperor | A body, B closing/post data | read_r9492.md |
+| R9493 | 449-455 | same letter, duplicate | Emperor | A/B | not collated |
+| R9494 | 478-479 | Genoa, 26 July 1523 | Emperor | B | read_r9494.md |
+| R9495 | 480-481 | same, duplicate | Emperor | B | used to check R9494 |
+| R9496 | 482-483 | same, triplicate | Emperor | B | not collated |
+| R9497 | 577-579 | Genoa, 13 Aug 1523 | Emperor | B | read_r9497.md (+ _full) |
+| R9498 | 581-584 | same, duplicate | Emperor | B | used to check R9497 |
 
-DECODE's "1524" for R9494 and "1524 (?)" for R9498 are wrong: both are dated 1523 in the letters.
-Images: `img/` (git-ignored; fetched with the bordeaux cookie 2026-09-19). Not public domain.
+DECODE's "1524" for R9494 and "1524 (?)" for R9498 are wrong: both letters are dated 1523.
+Images: `img/` (git-ignored; fetched 2026-09-19 with the bordeaux cookie). Not public domain: RAH permission needed.
 
 ## Prior work
 
-- Bergenroth, CSP Spain vol. 2 no. 586 calendars f. 577 (13 Aug 1523) from its clear parts only; no decipherment.
-  The other ten items are not calendared in vol. 2 (Soria's 1523 June/July letters are absent).
+- Bergenroth, CSP Spain vol. 2 no. 586 calendars f. 577 (13 Aug 1523) from the clear parts only; no
+  decipherment. The other items are not calendared.
 - DECODE: all eleven "Non-decrypted".
-- The BRAH 9/15 key book (DECODE R9815-R9832, early 16th-century Spanish keys) was checked page by page:
-  no alphabet matches key A or key B.
+- No key for either cipher found: the BRAH 9/15 key book (DECODE R9815-R9832) was checked page by page; none of
+  its alphabets matches. A decrypted sibling of another envoy (Alonso Sánchez, R9768) uses a different cipher.
 
-## Two keys
+## Key B: from a court decipherment
 
-- **Key A** (June-July 1523): graphic signs (ǂ ʒ ⊖ α ε π ꝑ ∂ б tt-ligature 9 7 3 2 c) plus lower-case trigram
-  code words lod, lih, lib, luc, lim, leh, cap, dus, mos, rip, rap, sag.
-- **Key B** (from late July 1523): letters and signs (∞ φ δ ƀ ▽ ꝑ m# 4 7 9 6 3 c r y q h w) plus trigram codes
-  sub, yed, xab, xip, xin, xud, zog, zof, zeb, zif, tef, tin, tun, yef, yoc, soc, pos, pic, tab, sab...
+DECODE R9844 (9/30 ff. 34-37, status Decrypted) is Soria to Gattinara, Genoa 30 Dec 1523, with the court's
+"A claro / B claro" decipherment on ff. 36r-36v. Aligning its cipher (ff. 34r-35r) with the clear gave the
+first code groups and letters (keyB_r9844.txt, keyB.md): homophonic letters plus a large three-letter code
+(sub = que, zog = de, yed = en, xab = Francia, pic tab = su Magestad, ...). Consolidated letter table at the end
+of keyB.md.
 
-## The key-B crib: R9844 (9/30 ff. 34-37)
+## Key A: broken ciphertext-only
 
-DECODE R9844 (status Decrypted) is Soria to Gattinara, Genoa 30 Dec 1523 + postscript 11 Jan 1524: cipher on
-ff. 34r-35r in key B with the court's "A claro"/"B claro" decipherment on ff. 36r-36v. Transcription and alignment
-in `keyB_r9844.txt`. First values: sub=que, yed=en, xab=francia, xin=la, xud=guerra, si=por, tef=no, zeb=alla;
-letters ∞/m#=a, c=r, r=o, y=n, 6/9=d, δ=e, φ=t, 4=p, m=f, f=z, q=j, 7=e.
+No crib or key. The R9492 block (f. 444r-445v, ~1060 signs) was transcribed into ASCII glyph names
+(keyA_r9492_f444.txt) and attacked with a simulated-annealing substitution solver (solve/hc.py) scored by a
+character 4-gram model of Danvila's Castilian documents of 1520-21 (adrian1521/danvila/mhe37.txt). Two
+observations set it up: ~25 signs with word division kept (so nearly monoalphabetic), a lone sign 10x (= y),
+and c+ꜩ always together (one sign, d). The solver produced "la liga general", "cinco mil infantes",
+"exercito" from random starts; the rest was fixed by hand (keyA.md). Homophones confirmed by the three copies of
+the June letter: α/ꝓ = o, ʒ/crossed ʒ = e, 9/ꝑ = a. Code words: cap = que, lod = de, luc = duque, lih = Milan,
+cip = Venecia, mos = infanteria, lim = mil, leh = en, sig lod saq = Rey de Francia, rap = Italia.
+
+Soria changed ciphers in late July 1523: R9492's body is key A and its closing and post data are key B.
+
+## What the letters say (so far)
+
+- June (R9488): Milan's secretary in Venice with the Infante's mandate to conclude the league; 18,000 ducats;
+  Caracciolo off to Venice; infantry mutiny, pay, the Doge's offer of 500 infantry for a month.
+- July (R9492): the French king's expected descent on Italy; 5,000 infantry in Provence; fear that the
+  [rip] will play the Emperor as Ottaviano Fregoso played the league in 1515; money for pay. Post data (key B):
+  Monsieur de Beaurain (Adrien de Croÿ, envoy to Bourbon) has arrived.
+- 20 July to Gattinara (R9491): Siena, its "comunidades" and "tiranos", to be governed at the Emperor's hand;
+  Beaurain at Turin.
+- 26 July (R9494): Beaurain is the bearer; a Piedmontese courier; 28,000 escudos to a doctor at Constance to pay
+  Swiss who are to descend on France; 12,000 to the treasurer.
+- 13 Aug (R9497): Andrea Doria and the Prince of Salerno discontented with the King of France; Jeronimo Doria's
+  approach; Antoniotto Adorno; the republic's capitulation.
 
 ## Plan
 
-1. Finish the R9844 alignment -> key B table.
-2. Read R9491, R9494-96, R9497-98 with it.
-3. Key A: ciphertext-only (homophonic + code), with cribs from the key-B letters of the same weeks
-   (R9491 of 20 July to Gattinara against R9492 to the Emperor).
+1. Finish key-B readings (R9491 second pass, R9497 full) and collate duplicates.
+2. Check R9492 f.444 transcription against R9493 and improve the key-A reading.
+3. Write up.

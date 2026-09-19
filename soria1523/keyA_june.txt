@@ -1,0 +1,64 @@
+# Lope de Soria, Genoa, June 1523, to Charles V -- cipher block (key A), three copies R9488 / R9489 / R9490.
+# Base text: R9488 (f.248r = img P2 right page, then f.248v = img P1 left page). One line per R9488 MS line.
+# Line numbers: L01-L09 = f.248r lines 1-9; L10-L28 = f.248v lines 1-19.
+# Glyph names as keyA_r9492_f444.txt:
+#  z = tailed z   Z = crossed z (ǂ)   O = circle with bar   o = plain o   T = tt-ligature   a = alpha  e = epsilon
+#  c  2 3 7 9 as written (7 includes the '6-hanging-below' form, as in keyA 'ZeOo73zc')
+#  f = phi   p = p with loop   P = p with double cross-bar   q = '2' with looped tail   Q = 9/q with crossed tail
+#  d = partial-d   b = 6 with ascender bar   n = pi   L = L-hook   V = triangle
+# New signs:
+#  U = small circle with a cross-stroke on its right (o+): L02 zUo9, L28 end, R9489 opens "Z o+"
+#  S = small closed 'S/5'-shaped sign sitting on the line, loop at the base (f.248r L1 only so far)
+#  Y = T-like sign with a double bar on top (like ╤) (f.248r L2)
+#  R = small circle on a short stem (like ♀), occurs before 9 or p: 7cR9cTz, cRp (maybe a 9 variant)
+#  H = heavy '#' (double-crossed hatch, bigger than T) (f.248r L3)
+# Lower-case three-letter code words (lod lih luc cap cip cae dus mos ...) kept as words. Spacing is the writer's.
+# {x} = doubtful or variant reading; {?} = illegible.
+L01: To{R9489: Z o+} p 9cn7d{oo?; R9489 7}eda zS{=e form; R9489 Ze}Oo77{R9489 73}Zc lod{R9489 cTZ} lih Oqda{R9489 Oadq} Tzc7pc{R9489 Tzc79c} c3{read T3; R9489 c3}
+L02: zUo9{R9489 Z3p} cap Zo9{o read O; R9489 zo9} pY779{R9489 Y739} Ta{R9489 cTa} zc{R9489 Zc} 3zcZO79{R9489 cip (code word)} 3cnzOoZ{R9489 zcnzOoZ}
+L03: T9o7a{R9489 To77q} cTHZ2{H superfluous: plain needs cTZ2 del; R9489 cTz2} luc lod lih z2 V392 937p To97 cTq{R9489 p379 To9f cTa}
+L04: z2d9c cTpTa{R9489 cTpTq} cTZ27 cR9cTz{R9489 cTZ2 7cR9cTz} b9op OacO237o
+L05: 29 27Pp Oac{R9489 Oqc} 2qe{R9489 2ae} cip cae f cap bqo{R9489 bao} zeTa Z2 luc
+L06: lod lih 937p boqd ZTz{R9489 zT7; plain needs e t i} cTq{R9489 cTa} 92 cT7OQa 7cR9cTz{R9489 7cR9cTZ} cT7
+L07: zLof aOQq d72{R9489 looks lim} cT3O9 cTae f cap Oac ZeTq Tz
+L08: c79c bao O7ZoTq cap nz OqcO23fo79{q read d; R9489 OqcO237o79} 2p{R9489 29} cT7
+L09: OQ9{R9489 OQp} 27Pp{7 read 2; R9489 27P9} fbao ZeTq nz b9oT7p Oqc{R9489 Oac} cT727
+L10: PzcO79{R9489 PZcO79} z2 baoTqcaT 9o7q O9opOQq2a{R9489 O9op OQa2q}
+L11: b9op 7op3Zcz O79{R9489 7o po cip} f 9cn7 d7eda zeOo73zc{R9489 ZeOo73Zc}
+L12: lod lih Oadq 937Zc{R9489 937zc} cTqnz{R9489 cTanz} OadZc{R9489 OqdZc} O{mark below}9 cTq{R9489 cTa} lod pdaT7{R9489 9daT7; R9490 9daT7}
+L13: c9o297cRp{R9489 c9o29 mos (code word); R9490 cpo nz 29 7cR9} cTZo79{R9490 cTZo7p} lod dus 2ze 937pc Zc379
+L14: cTa{R9490 cTq} 3c9 b9Pp{read bpP9; R9489,R9490 b9Pp} f cap Oac zeTq{R9489 ZeTq} bZcn93pc{R9490 bzc..} lod nqnz{R9489 nqnZ; R9490 cTzna nz?}
+L15: P9o2p{R9489 Pp9o2p; R9490 P9o2p} bao{R9489,R9490 bqo} 9Pqop{R9489 PPaop; R9490 9Paop} fbpoo9{doubtful; R9489 fb9o9; R9490 fb9op} ZeTq{R9489,R9490 omit} 9Op79o{R9489 pO93po; R9490 9Op79o} cTZb9{R9489 lod b9; R9490 cTz b9}
+L16: Ppo2Ze{R9489 Ppo2ze} 2a{R9490 2q} cap nZ2ze{R9490 nz2Ze} cTZ3z{R9490 cTz3Z} 9c ZeOo7Tq{R9489 ZOo7Ta; R9490 ZeOo7Ta} Z2{R9490 z2} luc
+L17: lod lih fz2{R9489 fZ2} nZc7ao{R9489 nZcfao} boaebzoq{R9489 baebZoq} 92 luc lod cop{sic, not cap} cap V37
+L18: Zo9{R9489 zop} ZeRqo{R9489 ze Rao} O{mark below}9onz{R9489 O9onZ} lod 9f3cTpo Oac 92P3c9n3dp{R9489 p2P3c9 n3d9}
+L19: lod cT7cZoae{R9489 cT7cZoqe} fZ2{R9489 f32?} Yzebqc{R9489 YZebqc} cTZ{R9489 cT7a} cap cq b3Z cTz cT9o cT7
+L20: czoqebzoa{R9489 czoaebZoq} cap Tad9op V37c7ZcTae 7cR9cTZe
+L21: cTz2ae{R9489 cTZ2ae} cTz2{R9489 cTZ2} ZmzoO7Ta{R9489 ZmZo O7Tq} b9op cap zeTZc9V37{R9489 ZeTzc 9V37}
+L22: f2ae b9Pp o9{R9489 b9PPo9} bao3cdZe{R9489 bqo3cdZe} fb9oZOZ2z{R9489 f b9ozOZ2z} cap Oac
+L23: zeTa{R9489 ZeTq} cTZeO9o Pp lod P9eTq{P read p; R9489 P9eTq} 92{R9489 po2} ZmzoO7Ta f
+L24: P39o cT9 dz7qo{R9489 dZ7ao} ZeT9 O73 cT9 cT f{blotted} V37 T9 Z23ea
+L25: 92qe{R9489 92ae} cap T7zcZc O9opq{R9489 O9oPq} bao{R9489 bqo} dus lod bzcT7o2z{R9489 bzcT7o2Z}
+L26: cT7cZoae{R9489 cT7cZoa} f 9Z2 cTz{R9489 po zz, no cTz} cT9o2ae{R9489 cT9o2qe} lod d9czop cap
+L27: c9{R9489 c9cT7} cT7 pT7zc{R9489 9T7Zc} cTZ n7cq{R9489 cTZn7 ca} . 9 .{R9489 po} n3 baob7q 7cTzoZ{R9489 7cTzoz}
+L28: nz Z{written as ≠} U{R9489 ends 'nZ po To'}
+# end of cipher block; clear follows 'Segun publican los franceses ...'
+
+# ---------------------------------------------------------------------------------------------
+# Collation notes
+# R9489 f.250r-f.251v: collated line by line against all of L01-L28 (the line breaks differ; variants shown in {}).
+# R9490 f.252r?-253v: collated only in spot checks (f.253v lines 1-4 = L12-L16). Not a full collation.
+# R9488 L01 opens 'To p'; R9489 opens 'Z(≠) o+'; R9488 ends 'nz ≠ o+', R9489 ends 'nZ po To'.
+#
+# Systematic differences between copies (homophones)
+#  a ~ q  the commonest swap, dozens of cases: Oac/Oqc, 2qe/2ae, bao/bqo, cTa/cTq, Ta/Tq, OQq2a/OQa2q,
+#         cT7cZoae/cT7cZoqe, czoqebzoa/czoaebZoq. Both = o in the key.
+#  z ~ Z  very frequent: zeTq/ZeTq, cTz2/cTZ2, bzc/bZc, Pzc/PZc, 937Zc/937zc, zeOo73zc/ZeOo73Zc. Both = e.
+#  9 ~ p  frequent: Tzc7pc/Tzc79c, 2p/29, OQ9/OQp, pdaT7/9daT7, 27Pp/27P9, Zo9/zop, 7cRp/7cR9, c9o/cpo. Both = a.
+#  p ~ P  occasional: O9opq/O9oPq, 9Pp/9PP (P = g, so these may be errors rather than homophones).
+#  f ~ 7  in 'concluyria' (R9488 23fo79 vs R9489 237o79) and nZc7ao/nZcfao: y/i.
+#  3 ~ 7  in 'arriuado' (R9488 pY779, R9489 Y739), 'escriuen' (L01), 'acauar' (L15: R9488 and R9490 7, R9489 3).
+#  code word vs spelled-out: R9489 'cip' where R9488 spells 3zcZO79 (L02, 'uenecia') and '7op3Zcz O79' (L11);
+#         R9489 'mos' where R9488 has '7cRp cTZo79' (L13, 'infanteria'). R9489 'lim' where R9488 has d72 (L07, 'mil').
+#
+# New signs: R (= f in the plaintext check), Y (= r/rr), U (o+), S (e form, once), H (superfluous, once), m (as keyA).

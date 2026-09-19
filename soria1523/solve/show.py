@@ -1,4 +1,4 @@
-import sys,re; sys.path.insert(0,'solve'); import hc
+import sys,re,io; sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding="utf-8"); sys.path.insert(0,'solve'); import hc
 K=dict(x.split('=') for x in sys.argv[2].split(','))
 for l in open(sys.argv[1],encoding='utf-8'):
     m=re.match(r'\s*(L\d+):(.*)',l)

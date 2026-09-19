@@ -63,3 +63,30 @@ Glyph distinctions: ∞ (horizontal eight) = a; 8 (upright eight) = e; ɑ+ (a wi
 New code groups: zic = principe; soc = rey (also 'yoc soc' = el rey); yeb = dicho; pep r. = pariente;
 pup tab = V. Magestad; pic tab = su Magestad; peb = servi- (peb hqr = servicio); xuf = dicho?; yic = do?/ ;
 pes = ?; sa = dize?; zid = buena?; pap = voluntad?; xob, paf, pub, tin = open. Opener signs Θ E, fE.
+
+## Consolidated letter table (19 Sept, from R9844, R9497, R9494, R9491, R9492 f.448)
+Different transcribers named the same shapes differently; this is the reconciled list.
+| plain | signs |
+|---|---|
+| a | ∞ (lying eight), M#/m+ (m with bar(s)), α, K (crossed alpha, also 'ha') |
+| b | ɡ̣ (g with loop below), D / ɡʒ (in Beaurren) |
+| c | h, f |
+| d | 9, 6 |
+| e | 7, E/δ (standing eight with head), 8 (upright eight), H |
+| f | m, m̲/N (m underlined) |
+| g | 9# (9 with double bar), E (once, 'gouernase') |
+| h | z, ʒ |
+| i | q, 4 (informado), r4 |
+| l | V |
+| m | 2 |
+| n | y |
+| o | r, ꝑ̄/F (p with bar), ꝑ° = pro |
+| p | ɑ+ / A (alpha with cross) |
+| r | c |
+| rr | X |
+| s | ƀ (b with bar), ϖ/w, θ, ω |
+| t | φ, L |
+| u/v | ▽/T (also the word 'y'), t, + |
+| z | Ƶ (7 with bar), f? |
+Code additions: yoc yeb = el dicho; DEtX7(y) = Beaurren (Monsieur de Beaurain); yef also = syllable 'es';
+yic = syllable '-do'; seb = qual?; sa = para?; pep = un?; xod = ha; pup = V. (V. Magestad / V. Señoria).
