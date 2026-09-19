@@ -220,3 +220,26 @@ The ring (-h-) and the dot (-l) are now confirmed on plaintext: `1(ring)9` = *ch
 `fetch.py` / `fetchr.py` — canvases and regions of either volume (`VOL=3983|3984`) ·
 `dockets.py` — docket-corner montages used for calibration · `key92.tsv`, `decode92.py`, `ct45.txt` ·
 `src/` — Tomokiyo's pages and key images, the two BnF notices, `pieces.json` (the parsed dépouillement)
+
+
+## 8. All four letters read (19 Sept 2026)
+
+With the office key the four leaves decode. Readings in `reading45.md`, `reading79.md`, `reading47.md`,
+`reading68.md`. Method: fetch the cipher block at native resolution, deskew (`deskew.py`, which searches
++/-3 degrees for the row-profile variance maximum), cut centred line strips, read at ~0.75 scale.
+
+- **no. 45, f. 98** (Miranda to Feria): 15 of 17 lines. *con este achaque, que siendo confidente ... a costa
+  de la bolsa ... no [se] vera lo que en esto converna hazer, que yo me remito a su prudencia ... dar de
+  manera que no se entienda, por que la hora que ...*
+- **no. 79, f. 162** (Sessa to Ibarra): 14 of 16 lines. *de ver los testemonios que a todos levantan ... los
+  que bivimos en Roma ... a los sucesores se hazen tan estas ordinarias ... la election ... diversas
+  pretensiones ... no puedo dexar de hazerlo, a lo menos, de que no esten ministros conformes.*
+- **no. 47, f. 108** (Sessa to Philip II): the glossed lines, and the decode **agrees with the contemporary
+  decipherer's own words** wherever both survive — *por via de mar ... difiriendo de dia en dia*, under the
+  gloss *"por una [via] de mar ... ha ydo defiriendo de dia en dia"*. That is an independent check of the
+  office key on a third letter.
+- **no. 68, f. 145** (Ibarra, Paris): a **different cipher** — the Feria-Mansfeld key, transcribed to
+  `keyM.tsv`. Clear opening running into cipher: *aguarda cavalleria ... que aya recivido su ...*
+
+Still open: a scatter of groups in every letter, the nomenclature of the Feria-Mansfeld cipher (its
+three-letter groups *pra, rom, mon, xen, vul, cil*), and the last lines of nos. 45 and 79.
