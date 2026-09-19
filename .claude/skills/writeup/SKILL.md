@@ -74,10 +74,15 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
 - `SOLVED_RANKING.md` (solved and partly read only): a `pN` provisional row with the six axis scores and the
   weighted score, and the sentence in the preamble that places it; add the score line at the foot.
 - `TARGETS.md`: if the target was in the open list, move it to "Done elsewhere in this repo" with the status text.
-- `catalogue.json` (catalogue items only): set `outcome`, `status` (dated, what was read and what is open) and
-  `"writeup": "<slug>.html"`. Dump with `indent=1, ensure_ascii=False`, no trailing newline. Before regenerating,
-  diff `CATALOGUE.md`'s status cell for the entry against the json and copy anything longer into the json first:
-  the generator overwrites the md from the json.
+- `catalogue.json` (catalogue items only): the catalogue holds open targets only, so **take the entry out**.
+  If the target was read, partly read, resolved or found already in print, delete its entry (ids are never
+  reused) and add its id to the list in `CATALOGUE.md` under "Read or resolved here, and removed". If the entry
+  covers several items and only some were read, narrow it to the unread ones (title, date, shelfmark, status)
+  and set `"outcome": "attempted, open"`; a target attempted and closed unread keeps its entry with the same
+  outcome. Before deleting, make sure the README row or `SOLVED_CATALOGUE.md` carries everything the entry's
+  status said. Also look for the target under another name: DECODE entries carry `decode_ids`, so match the
+  record numbers (`R1234`) in the folder's NOTES against them. Dump with `indent=1, ensure_ascii=False` and a
+  trailing newline.
 - `docs/index.html`: a new `<li>` at the top of the first `<ul class="findings">` under Recent findings:
   `<li><b>Who to whom, date</b> &mdash; <span class="fnd">outcome in one line</span> … <a href="<slug>.html">write-up</a></li>`.
   The builder dates it and folds the list.
