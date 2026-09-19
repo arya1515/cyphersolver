@@ -192,7 +192,7 @@ def audit(brief=False):
         for r in notes_only: print(f'   [{r["section"][:22]}] {key_words(r["target"])}  ->  {", ".join(sorted(r["dirs"]))}/')
 
     # 3. catalogue.json outcomes with no write-up link
-    cat = [e for e in catalogue() if e.get('outcome') and not e.get('writeup')]
+    cat = [e for e in catalogue() if e.get('outcome') and not e['outcome'].startswith('attempted') and not e.get('writeup')]
     print(f'C. catalogue.json entries with an outcome but no "writeup": {len(cat)}')
     for e in cat: print(f'   #{e.get("id")} {str(e.get("title", ""))[:60]}  (outcome: {e.get("outcome")})')
     problems += len(cat)

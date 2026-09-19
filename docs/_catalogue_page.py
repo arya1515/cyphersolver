@@ -83,9 +83,7 @@ def update_md():
     p = ROOT / 'CATALOGUE.md'
     s = p.read_text(encoding='utf-8')
     counted = sorted([e for e in DATA['entries'] if e['counted'] and is_open(e)], key=lambda e: (-priority(e), e['id']))
-    resolved = sorted([e for e in DATA['entries'] if e['counted'] and not is_open(e)], key=lambda e: e['id'])
     also = sorted([e for e in DATA['entries'] if not e['counted']], key=lambda e: (-priority(e), e['id']))
-    s = re.sub(r'<!-- resolved:start -->.*?<!-- resolved:end -->', lambda m: '<!-- resolved:start -->\n' + md_table(resolved, outcome=True) + '\n<!-- resolved:end -->', s, flags=re.S)
     s = re.sub(r'## The \d+ open targets, by priority', f'## The {len(counted)} open targets, by priority', s)
     s = re.sub(r'<!-- table:start -->.*?<!-- table:end -->', lambda m: '<!-- table:start -->\n' + md_table(counted) + '\n<!-- table:end -->', s, flags=re.S)
     s = re.sub(r'<!-- also:start -->.*?<!-- also:end -->', lambda m: '<!-- also:start -->\n' + md_also(also) + '\n<!-- also:end -->', s, flags=re.S)
@@ -132,7 +130,6 @@ def build_html():
     E = DATA['entries']
     ordered = sorted(E, key=lambda e: (not is_open(e), not e['counted'], -priority(e), e['id']))
     counted = [e for e in E if e['counted'] and is_open(e)]
-    n_res = sum(1 for e in E if e['counted'] and not is_open(e))
     periods = sorted({e['period'] for e in E}); regions = sorted({e['region'] for e in E}); sources = sorted({e['source'] for e in E})
     data_js = json.dumps({'weights': W, 'entries': E}, ensure_ascii=False).replace('</', '<\\/')
     n_all, n_img = len(E), sum(1 for e in E if e['seen'] == 'image')
@@ -194,9 +191,9 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
 <!-- site:nav -->
 
 <section class="hero">
-  <p class="kicker">Gallica · DECODE · cryptiana fine print · 1482–1841 · {len(counted)} open targets · {n_res} taken to the leaf and read, partly read or closed · {len(E) - len(counted) - n_res} noted · unvalidated</p>
+  <p class="kicker">Gallica · DECODE · cryptiana fine print · 1482–1841 · {len(counted)} open targets · {len(E) - len(counted)} noted · read ones moved to <a href="solved.html">solved</a> · unvalidated</p>
   <h1>Catalogue of unsolved historical ciphers</h1>
-  <p class="sub">What is still in cipher in the digitised diplomatic volumes, and nobody has read. The first entries came from the French volumes on Gallica; the rest ({n_dec}) from the DECODE database, every ciphertext record it marks non-decrypted or partly decrypted, grouped into letters and series and checked against this repository's own targets and Tomokiyo's list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries that have since been read, partly read or closed here carry an <b>outcome</b> tag and sit at the foot of the default order.</p>
+  <p class="sub">What is still in cipher in the digitised diplomatic volumes, and nobody has read. The first entries came from the French volumes on Gallica; the rest ({n_dec}) from the DECODE database, every ciphertext record it marks non-decrypted or partly decrypted, grouped into letters and series and checked against this repository's own targets and Tomokiyo's list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries read, partly read, resolved or found already in print here are taken out of the catalogue and listed on the <a href="solved.html">solved</a> page; those attempted here without a reading stay, tagged <b>attempted, open</b>.</p>
   <p class="sub">Scores are judgements from catalogue descriptions and the literature, not from the leaves: {n_img} of {n_all} entries have been viewed on the image, and each carries the check that would confirm it is open. Data: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/catalogue.json" rel="noopener">catalogue.json</a> · text: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/CATALOGUE.md" rel="noopener">CATALOGUE.md</a>.</p>
   <p class="meta">Daniel Bourdeau · September 2026</p>
 </section>
@@ -217,7 +214,7 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
   {facet('source', 'Source', sources)}
   {facet('seen', 'Seen', ['image', 'catalogue'])}
   {facet('counted', 'Set', ['counted', 'also noted'])}
-  {facet('outcome', 'Outcome', ['open', 'attempted, open', 'read', 'partly read', 'resolved', 'closed: already in print'])}
+  {facet('outcome', 'Outcome', ['open', 'attempted, open'])}
   <div class="count" id="count"></div>
 </div>
 <div class="legend"><span>click a column to sort, a row to expand</span><span>● viewed on the image</span><span>◇ catalogue description only</span><span>gold dots importance / solvability</span><span>red dots difficulty</span></div>
