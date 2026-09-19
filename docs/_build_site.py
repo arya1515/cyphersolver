@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260918a'
+VERSION = '20260918b'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -44,7 +44,7 @@ def fmt_date(iso, short=False):
 
 FINDINGS_REGION = re.compile(r'<h2 id="recent">.*?(?=\n<h2|\n<!-- |\Z)', re.S)
 GENERATED = [
-    r'<header class="nav">.*?</header>', r'<nav class="nav">.*?</nav>', r'<footer.*?</footer>',
+    r'<header class="nav">.*?</header>', r'<div class="search" id="search".*?</div>\n</div>', r'<nav class="nav">.*?</nav>', r'<footer.*?</footer>',
     r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
     r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
@@ -410,9 +410,22 @@ def nav_html(current):
         f'      <div class="panel wp">{panel}</div></details>\n'
         f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>Catalogue</a>\n'
+        f'    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
-        f'  </nav>\n</div></header>')
+        f'  </nav>\n</div></header>\n' + SEARCH_HTML)
+
+SEARCH_HTML = (
+    '<div class="search" id="search" hidden>\n'
+    '  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">\n'
+    '    <form class="sform" role="search" onsubmit="return false">\n'
+    '      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>\n'
+    '      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">\n'
+    '      <button type="button" class="sclose" aria-label="Close search">Esc</button>\n'
+    '    </form>\n'
+    '    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>\n'
+    '    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>\n'
+    '  </div>\n</div>')
 
 # ---------------------------------------------------------------------------
 # writeups.html: every write-up, filterable, followed by the results that exist only as notes in the repository.
@@ -603,6 +616,7 @@ def process(path):
     if page and '<section class="hero">' not in s:
         print(f'  note: {slug}.html has no hero section (kicker, title, byline); every write-up has one')
     nav = nav_html(slug)
+    s = re.sub(r'\n?<div class="search" id="search".*?</div>\n</div>', '', s, count=1, flags=re.S)
     if '<!-- site:nav -->' in s: s = s.replace('<!-- site:nav -->', nav, 1)
     else: s = re.sub(r'<header class="nav">.*?</header>|<nav class="nav">.*?</nav>', lambda m: nav, s, count=1, flags=re.S)
     s = re.sub(r'(</div></header>)(\s*</div></header>)+', r'\1', s)      # stray closers left by an earlier build
@@ -676,10 +690,68 @@ def process(path):
     path.write_text(s, encoding='utf-8')
     return slug
 
+# ---------------------------------------------------------------------------
+# Search.  search.json is a flat list of entries that the overlay in site.js
+# loads the first time the box is opened: one entry per page (title, blurb and
+# opening text) and one per h2 section (heading and the section's text), each
+# with the URL that lands on it, plus one per entry of ../catalogue.json.  The
+# text is the page as a reader sees it, tags removed, so a word from a quoted
+# cipher line or a footnote is found as readily as a title.  Keys: u url,
+# t title, h section heading, p page label, y year, st status class,
+# stt status text, b body text.
+def visible_text(frag):
+    frag = re.sub(r'<(script|style|svg)\b.*?</\1>', ' ', frag, flags=re.S)
+    frag = re.sub(r'<[^>]+>', ' ', frag)
+    frag = html.unescape(frag).replace('\xa0', ' ')
+    return re.sub(r'\s+', ' ', frag).strip()
+
+def search_entries():
+    out = []
+    for path in sorted(HERE.glob('*.html')):
+        slug = path.stem
+        if slug in ('catalogue', 'writeups'): continue   # catalogue from catalogue.json below; writeups is a list of the pages
+        s = path.read_text(encoding='utf-8')
+        s = re.sub(r'<header class="nav">.*?</header>|<div class="search" id="search".*?</div>\n</div>|<footer.*?</footer>|'
+                   r'<nav class="toc".*?</nav>', ' ', s, flags=re.S)
+        p = next((q for q in PAGES if q['slug'] == slug), None)
+        tm = re.search(r'<h1[^>]*>(.*?)</h1>', s, re.S) or re.search(r'<title>(.*?)</title>', s, re.S)
+        title = visible_text(p['title'] if p else (tm.group(1) if tm else slug))
+        m = re.search(r'<main>(.*?)</main>', s, re.S)
+        body = m.group(1) if m else s
+        hero = re.search(r'<(header|section|div) class="hero.*?</\1>', s, re.S)
+        hero = re.sub(r'<div class="cipherstrip">.*?</div>', ' ', hero.group(0), flags=re.S) if hero else ''   # decorative digits
+        base = dict(p=visible_text(p['label']) if p else {'index': 'Overview'}.get(slug, title), y=visible_text(p['year']) if p else '',
+                    st=p['st'] if p else '', stt=p['stt'] if p else '')
+        parts = re.split(r'(?=<h2 id="[^"]+")', body)
+        intro = visible_text((p['blurb'] if p else '') + ' ' + hero + ' ' + parts[0])
+        out.append(dict(base, u=f'{slug}.html', t=title, h='', b=intro))
+        for part in parts[1:]:
+            hm = re.match(r'<h2 id="([^"]+)"[^>]*>(.*?)</h2>', part, re.S)
+            if not hm: continue
+            head = visible_text(re.sub(r'<span class="num">.*?</span>', '', hm.group(2)))
+            text = visible_text(part[hm.end():])
+            if not text and not head: continue
+            out.append(dict(base, u=f'{slug}.html#{hm.group(1)}', t=title, h=head, b=text))
+    try:
+        cat = json.loads((HERE.parent / 'catalogue.json').read_text(encoding='utf-8'))
+        for e in cat['entries']:
+            b = ' · '.join(str(e.get(k) or '') for k in ('correspondents', 'place', 'shelfmark', 'status', 'why', 'verify', 'outcome'))
+            out.append(dict(u=f'catalogue.html#e{e["id"]}', t=e['title'], h='', p='Catalogue',
+                            y=str(e.get('date') or e.get('year') or ''), st='', stt=f'no. {e["id"]}', b=visible_text(b)))
+    except FileNotFoundError:
+        pass
+    return out
+
+def write_search_index():
+    entries = search_entries()
+    (HERE / 'search.json').write_text(json.dumps(entries, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    return len(entries)
+
 if __name__ == '__main__':
     for f in sorted(HERE.glob('*.html')):      # date every page before any menu is built: the menu lists the newest
         page_dates(f.stem, f.read_text(encoding='utf-8').lstrip('﻿'))
     (HERE / 'writeups.html').write_text(writeups_html(), encoding='utf-8')
     done = [process(p) for p in sorted(HERE.glob('*.html'))]
     save_dates(DATES)
+    print('search index:', write_search_index(), 'entries')
     print('built', ', '.join(done))

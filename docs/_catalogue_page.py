@@ -244,7 +244,9 @@ Array.prototype.forEach.call(document.querySelectorAll('.chip[data-facet]'),func
 document.getElementById('q').addEventListener('input',function(ev){{state.q=ev.target.value.trim().toLowerCase();render();}});
 [['w_imp','imp'],['w_sol','sol'],['w_eas','eas']].forEach(function(p){{document.getElementById(p[0]).addEventListener('input',function(ev){{state.w[p[1]]=ev.target.value/100;render();}});}});
 document.getElementById('reset').addEventListener('click',function(){{state.q='';state.sort='prio';state.dir=-1;state.w={{imp:D.weights.importance,sol:D.weights.solvability,eas:D.weights.ease}};state.f={{}};document.getElementById('q').value='';document.getElementById('w_imp').value=state.w.imp*100;document.getElementById('w_sol').value=state.w.sol*100;document.getElementById('w_eas').value=state.w.eas*100;Array.prototype.forEach.call(document.querySelectorAll('.chip[data-facet]'),function(b){{b.setAttribute('aria-pressed','false');}});render();}});
+var qm=/[?&]q=([^&#]+)/.exec(location.search);if(qm){{var qv=decodeURIComponent(qm[1].replace(/\\+/g,' '));document.getElementById('q').value=qv;state.q=qv.trim().toLowerCase();}}
 render();
+var hm=/^#e(\\d+)$/.exec(location.hash);if(hm&&rows[hm[1]]){{var r0=rows[hm[1]].e;if(r0.getAttribute('aria-expanded')!=='true')toggle(r0);r0.scrollIntoView({{block:'center'}});}}
 }})();
 </script>
 </body>

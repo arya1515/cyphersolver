@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catalogue of unsolved historical ciphers — 11 open targets, scored</title>
 <meta name="description" content="Undeciphered historical cipher letters, 1497–1650, not on the standard unsolved lists, harvested from the BnF catalogue on Gallica and the fine print of the cryptiana articles. Each scored for historical importance, solvability and difficulty; filter, sort and reweight the priority score.">
-<link rel="stylesheet" href="style.css?v=20260918a">
+<link rel="stylesheet" href="style.css?v=20260918b">
 <style>
 .ctl{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:.9rem 1.1rem .5rem;margin:1.2rem 0 .8rem}
 .ctl .row{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center;margin-bottom:.5rem}
@@ -62,10 +62,22 @@ tr.d td{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 12
       <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="orpo1942.html"><span class="st stuck">double pass not broken</span><b>Police radiograms</b><span class="yr">1942</span></a></li><li><a href="sunintercepts.html"><span class="st solved">read</span><b>Sun Yat-sen wires</b><span class="yr">1916&ndash;17</span></a></li><li><a href="soglia1848.html"><span class="st solved">read</span><b>Soglia 1848</b><span class="yr">1848</span></a></li><li><a href="legation.html"><span class="st partial">gaps read</span><b>Erving &amp; Adams</b><span class="yr">1807&ndash;12</span></a></li><li><a href="yard1699.html"><span class="st solved">read</span><b>Yard 1699</b><span class="yr">1699</span></a></li><li><a href="bordeaux1653.html"><span class="st solved">read</span><b>Bordeaux 1653</b><span class="yr">1653</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">26</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">9</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">12</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">5</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">2</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 54 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
     <a href="index.html#recent">Latest</a>
     <a href="catalogue.html" aria-current="page">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
     <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
     <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
   </nav>
 </div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
 
 <section class="hero">
   <p class="kicker">Gallica · BnF catalogue harvest · cryptiana fine print · 1497–1650 · 11 open targets · 15 taken to the leaf and read, partly read or closed · 7 noted · unvalidated</p>
@@ -139,9 +151,11 @@ Array.prototype.forEach.call(document.querySelectorAll('.chip[data-facet]'),func
 document.getElementById('q').addEventListener('input',function(ev){state.q=ev.target.value.trim().toLowerCase();render();});
 [['w_imp','imp'],['w_sol','sol'],['w_eas','eas']].forEach(function(p){document.getElementById(p[0]).addEventListener('input',function(ev){state.w[p[1]]=ev.target.value/100;render();});});
 document.getElementById('reset').addEventListener('click',function(){state.q='';state.sort='prio';state.dir=-1;state.w={imp:D.weights.importance,sol:D.weights.solvability,eas:D.weights.ease};state.f={};document.getElementById('q').value='';document.getElementById('w_imp').value=state.w.imp*100;document.getElementById('w_sol').value=state.w.sol*100;document.getElementById('w_eas').value=state.w.eas*100;Array.prototype.forEach.call(document.querySelectorAll('.chip[data-facet]'),function(b){b.setAttribute('aria-pressed','false');});render();});
+var qm=/[?&]q=([^&#]+)/.exec(location.search);if(qm){var qv=decodeURIComponent(qm[1].replace(/\+/g,' '));document.getElementById('q').value=qv;state.q=qv.trim().toLowerCase();}
 render();
+var hm=/^#e(\d+)$/.exec(location.hash);if(hm&&rows[hm[1]]){var r0=rows[hm[1]].e;if(r0.getAttribute('aria-expanded')!=='true')toggle(r0);r0.scrollIntoView({block:'center'});}
 })();
 </script>
-<script src="site.js?v=20260918a"></script>
+<script src="site.js?v=20260918b"></script>
 </body>
 </html>
