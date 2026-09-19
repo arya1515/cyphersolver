@@ -1,6 +1,6 @@
 # Lope de Soria (Genoa) to Charles V, 1523 — RAH Salazar A-28 (9/28), DECODE R9488-R9498
 
-Status: in progress
+Status: read in part (written up as docs/soria1523.html)
 
 Catalogue entry 149 ("Lope de Soria to Charles V, 11 ciphertexts", scored by rule). Worked 2026-09-19.
 
@@ -66,8 +66,7 @@ Soria changed ciphers in late July 1523: R9492's body is key A and its closing a
 - 13 Aug (R9497): Andrea Doria and the Prince of Salerno discontented with the King of France; Jeronimo Doria's
   approach; Antoniotto Adorno; the republic's capitulation.
 
-## Plan
+## Open
 
-1. Finish key-B readings (R9491 second pass, R9497 full) and collate duplicates.
-2. Check R9492 f.444 transcription against R9493 and improve the key-A reading.
-3. Write up.
+- Key-A codes rip (Venetians?), pur, qed (Swiss?), mul; key-B groups listed in docs/soria1523.html section 09.
+- R9496, R9498 not collated sign by sign. R9492 reading final: read_r9492_v2.md.

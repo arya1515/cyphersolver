@@ -48,6 +48,7 @@
   "koehler cryptograms, 1944": "2026-09-15",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
+  "lope de soria to charles v, genoa, 1523": "2026-09-19",
   "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
@@ -135,7 +136,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "444d79435af4",
+   "hash": "6a1359ffe808",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -230,7 +231,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "9216ff074dd9",
+   "hash": "0ac71ef25acb",
    "updated": "2026-09-19"
   },
   "lanssac": {
@@ -363,6 +364,11 @@
    "hash": "d25fa81bdf77",
    "updated": "2026-09-18"
   },
+  "soria1523": {
+   "first": "2026-09-19",
+   "hash": "80b86d23105c",
+   "updated": "2026-09-19"
+  },
   "sormano": {
    "first": "2026-09-17",
    "hash": "2b7fdfe51a53",
@@ -430,7 +436,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a1b61c0df060",
+   "hash": "19b22b87255e",
    "updated": "2026-09-19"
   },
   "yard1699": {

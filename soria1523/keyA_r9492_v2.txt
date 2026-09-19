@@ -1,0 +1,47 @@
+# R9492 key-A cipher block, second reading (2026-09-19), f.444r L1-L13 + f.445v L14-L32, one line per MS line.
+# Re-read at 2x/4x from img/IMG_R9492_I44719_P2.jpg (right page, lower half) and _P3.jpg (left page, top).
+# Collated with the duplicate R9493 (img/IMG_R9493_I44726_P6.jpg, f.450v left page 25 lines + f.451r top 5 lines).
+# Glyph scheme as keyA_r9492_f444.txt / keyA_june.txt. {R93 x} = R9493 reading; {=x} = my note/value.
+# Corrections to the key found in this pass:
+#  d (partial-d) = m, not r: mes, como, cinco mil, armada, mar, amigos, milagro, manera, mas, comenzar.
+#  q-with-stem-and-loop (hooked q, 'ꝗ') is very often R = f: fasta, fara, faran, fuera, forma, fizo, efetos, fec..
+#     where the difference from q (ꝓ = o / que) is only the length of the stem; marked R where the value is f.
+#  'Lo' (L-hook + small circle, written as a unit) = ç/z: fizo, vez, deçia, veçes, doçientas, començarles.
+#  Y (T with double bar) = r (rr): guerra, tierra.
+#  n (π) confirmed = s in pasar (b9npo, R93 same).
+#  P (p with double bar) takes both g (gente, grisones, enemigo, amigos, luego, seguirian, milagro) and a
+#     (esperauan, armar, usaran, enviar, alguna?) -- two forms not separated reliably on this image.
+#  7 (slanted/hanging) = i, but b/v in 73Zcae 'buenos', 73Zcq 'bueno', 7oze9ca 'bresano', 7zoP9da 'bergamo'.
+#  cT = d, but c+T = nt in cTZ 'nte' (veinte), 73cT.. 'junta..', ZcTo9o 'entrar', 7cRpcTze 'infantes'.
+L1: TZ lod 2zac ZeOo73zc 92ae 3z7 cTZ f Toze cTz2 dzeb9
+L2: n9cTq Oad2q Zebzo93pc cap 3zc cTo7p 9Oo7{R93 pOo7} d37 bozeTa{R93 bozeTq}
+L3: z2 sig lod saq b9op{R93 b9o9} b9npo leh fT927p{R93 fT9279} bzoq fpeT9 pPao9
+L4: canz 73cTP39c{R93 73cT93pc} PzcTz lod P3zYp b9op cap b3ZcT9c b9n9o
+L5: T9c bozeTa{R93 bozenTa} Oac zmZoO7Tq baTo7p nzo cap bzcn9nzc
+L6: lod b9n9o Oac nq2a 29 PzcTZ cTpodqe{R93 cT9od9e} Oac Zebzo9cOp
+L7: cap Op29Oqc{R93 O92po9c} 2ae qed f Oac 29 Zebzo9cOp cTz 2ae cip cae f
+L8: bzcn9cTa 392zonZ cTZ 2ae O7cOqd72 7cRpcTze{R93 7cq9cTze} cap
+L9: T7zcZ leh boazcO9 bpoq9 bacz o zcZ2 pod9cTp lod d9o
+L10: z fa TzcPq 937eq{R93 937ea} lod 7ozeP zeP{R93 omits zeP} Oadq lod 9Oo7 Pc RzO q 2p 2z
+L11: 39o 2ae rip cTaLo7Zc T9e 3P29e{R93 3p29e} lod OanP2zTze Q?o
+L12: Lo79 T7zYp lod 2ae Po7 eacZe fb7zcna cap nz9c bpoq
+L13: 9odPo 92qe qed fOozq cap 2ae cT7OQqe rip 3e9oPc Oqc
+L14: {pur} 2ae To9Tqe cap 3ea aT937pcq{R93 a aT937pcq} Og9cba RoPPaeq V39cTq
+L15: nz R7Loa 2p 27Pp ZZczo92{R93 PzZcZo92} fb9nP3p{R93 fb9n93p} ZeTz sig lod saq
+L16: leh rap cap 3c9 3zLo cqe cTZLo79 cap V3Zo779{R93 V3Zo7p} ZcTo9o leh
+L17: 29 27P9 f aTo9e3ZLoZe cT93p b92p7ope bqo cT729T9o
+L18: R9eTp{Q read; =fasta} cap b9nq z2 cT7Oqa sig f 92 qop Z2 nz cTzO29oq
+L19: c3zeTo q Zczd7Pa f 9cn7 b7zcna cap R9Opc{R93 R9opc} 2ae rip
+L20: cap cT729Tpo9c z2 pOaocT7q Oac {pur} R9eTp{R93 R9eT9} 3zo 2ea{R93 2a cap}
+L21: cap R9oPZ2{R93 R9op z2} sig lod saq fn73zopc cap n7zcZ Rqodp b9oq3z
+L22: c7o q zc37Po ZmzoO7Tq leh rap nzo9c nze 9d7Pae f
+L23: cq RPo9c paOaocT7a Oqc {pur} f 937zc cTa cTz nzo cTZeT9
+L24: d9czop R3zo9 73Zcq{R93 73Zca} Oadzc O9o2Ze 23zPa 29 P3zY9{R93 R3zY9} mul{R93 nul}
+L25: cTzeTa nz nzP37o79c cTae 73Zcae ZRzTae 2a 3cq cap
+L26: nz cTZePoP39o79 z2 ZeT9cTq lod lih cTz2 9bae7zcTa
+L27: cTz2 ZmzoO7Ta f zeT9o7p dz7qo 92a79 cTa zcZ2
+L28: 3zoP9d9ea f 7oze9ca{R93 7oZn9ca} f 2aToa cap 23Z Pq nzo79 Ta
+L29: d9 cTa 7zoP9da{R93 7zoPPda} lod cTacTz baTo7pc n9O9o cT7czoae
+L30: b9op 92P3cp b9Pp 92pa{R93 92p} mos f cq nzo7p d72 9Poa cap
+L31: nz Tad9nz bozeTa 7ozn9 q 3zoac9 f 93zo T9cTq
+L32: d9e cT7czoae b9o9 2aeP9eTae cTz2 ZmZoO7Ta p ol

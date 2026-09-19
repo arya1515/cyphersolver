@@ -457,13 +457,40 @@
    "kind": "hypothesis",
    "what": "Hand refinement: alpha=o, q=o (lone q = que), 9/p=a, z=e, e/n=s, c=n, 2=l, code leh=en.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "transcription",
+   "what": "June letter transcribed and collated across its three copies (R9488 full, R9489 full, R9490 spot); copy-to-copy variants confirmed the key-A homophones and fixed code words cip, mos, lim.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "June letter read end to end with key A; cap=que, lod=de, luc=duque, lih=Milan from context.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "verification",
+   "what": "R9492 key-A block re-read at high zoom and collated with the duplicate R9493; d=m, long-stem hook=f corrected; reads continuously.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Key-B passages of R9491 (Siena), R9492 f.448, R9494 and R9497 read in substance; Beaurain identified.",
+   "result": "partial"
   }
  ],
  "outcome": {
-  "class": "unknown",
+  "class": "read in part",
   "fraction_read": "unknown",
   "grades": "unknown",
-  "verification": [],
-  "notes": "In progress."
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "June and July key-A letters read nearly throughout; key-B passages in substance. Open: key-A codes rip, pur, qed, mul; about a dozen key-B groups."
  }
 }
