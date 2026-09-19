@@ -1,0 +1,36 @@
+group	value	confidence	evidence
+867	il y a	H	pos351 Bussemaker quote 'Il y a quelques villes'
+669	villes	H	pos353 quote
+224	ministres	H	pos356 quote
+294	hollandais/Hollande	H	pos357 'ministres hollandais' (quote); pos137 'aux Etats de Hollande'
+1117	dan	H	pos363 dan-ger (quote); pos176 'le danger'; pos71 'dan(s) laquelle'
+813	ger	H	pos364, 177 danger
+578	religion	H	pos367 quote; pos181 'la religion protestante'
+670	protest	M	pos182 'religion [670]ant'
+831	an	H	pos376 an-im-e (animé, quote); key_M 'an', R1054 'sans' is a homophone use elsewhere
+902	er	M	pos144 'haranguer en faveur' (key_M 'accord' does not fit)
+58	fa	M	pos146 en fa-veu-r; pos199 'le fa-s-se' (key_M 'che' does not fit either place)
+668	veu	M	pos147 fa-veu-r
+487	r	M	pos140 ha-r-an-gue, pos148 faveu-r
+955	an/ra	?	pos141 ha-r-an-gue (key 'ra'; ra fits 226, 388)
+1166	present	M	pos156 re-present-er vivement
+729	cas	M	pos195 'au cas qu'elle', pos27 'en ce cas'
+556	ssi	M	pos228 au-ssi
+852	os	H	pos279-280, 304 d'Os-tende (doubled 852 852 at 279-280, one probably a slip)
+352	os	H	pos383 'l'évènement d'Os-tende'
+950	port	H	pos287 Nieu-port, 302 'le port', 387 pour-ra (por)
+793	ses	M	pos296 'les gens sen-sés sentent'
+973	le	?	pos301 'que le port d'Ostende' (R1054 had 'on')
+125	in	M	pos307 in-ter-dit
+72	ams	M	pos313 Ams-terdam (R1054 'tieres'); pos116 unclear
+204	terdam	M	pos314 Ams-terdam et Rotterdam
+1140	commerce	M	pos326 'profiteront d'un [1140] que l'Angleterre faisoit avec les Pais-Bas' (Bussemaker 'handel')
+900	s	M	pos9 démarche-s; pos270
+225	dic	M	pos10 dic-te-es 'dictées par son coeur'
+1132	at	M	pos52 'sans at-tendre les ordres'
+163	c	?	pos48 'je c-rois devoir' (conflicts with R1054 'a')
+786	rai	M	pos77 'je tâche-rai'
+515	prince	M	pos98 'M. le [515] son fils'
+1185	iter	M	pos105 mér-iter la bienveillance
+22	di?	?	pos69 'une audi-ence' (elsewhere samajeste)
+274	altesse royale?	?	pos130, 399 'son [274]' = the Gouvernante (subject of 'elle' after)

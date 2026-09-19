@@ -1,0 +1,20 @@
+group	value	conf	evidence
+11	venir	H	"J'ai fait [11] chez moi"; "ce qu'il fera à l'a-[11]" (end)
+727	moi	M	"fait venir chez [727] l'Italien" (R1064 'mois')
+994	x	H	"à ce pri-[994] il partira"; "y mettre le pri-[994]"
+1048	vos	H	"j'attendrai sur cela [1048] ordres avec impatience"
+116	pas	M	"tout ce qui se [116]-ra de secret" (passera)
+1160	tri	M	"ses in(868)-[1160]-gues dans les cours"
+868	in	M	written 068: "in-tri-gues" (matches R1064/R1076)
+970	projets/desseins	?	"les [970] de l'Angleterre contre nos possessions"; "les [970] proposés aux ministres" (x3)
+556	contre	?	"[970] de l'Angleterre [556] nos possessions dans les deux Indes"
+868	Indes	?	written 060: "dans les deux [868]" (clashes with 'in' above; may be 860 or a separate group)
+893	et	M	"forces de terre [893] de mer"
+631	avoir	M	"qu'il prétend d'[631] rendre" (R1064 'avoit')
+1116	res	H	"il [1116]-te-roit ici à un ducat par jour"
+1084	es	M	"si vous agréez [1084] [1135] services"
+1135	ses	M	as above; "de toutes [1135] intrigues"
+912	gne	M	"de toutes les [869] de ca-m-pa-[912] pour cette année" (key 'accompagn')
+735	assez	M	"son départ ne sçauroit être [735] ..."
+224	ministres	M	"proposés aux [224]" (R1070)
+327	écrit	?	"ce [327] de [391] par M..." (R1064)

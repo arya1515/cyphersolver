@@ -1,0 +1,22 @@
+group	value	conf	evidence
+600	fin	H	"apprenons en-fin"; "je fin-is par lui dire"
+225	c	H	"pro te c tion"; "res pe c teront"
+1084	es	H	"d es co r te(r)" twice
+992	r	H	"d es co r te(r)" twice
+716	am	H	Am-ster-da-m x3
+481	da	H	Am-ster-da-m x3
+826	hors	M	"deux hors d etat d aller"
+1184	etat(s)	M	"hors d etat"; "les etats [generaux]"
+945	peu(x)	M	"je ne peux vous depeindre"; "dans peu de jours"
+868	in	M	de-pe-in-dre
+1116	res	M	"les Anglois res-pe-c-teront la navigation"; fits poorly "qu on ver-res"
+294	hollandois	?	"navigation hollandois-e"
+1001	conduite	M	"je leur dois ma conduite et les demarches"
+1188	demarches	M	same
+989	tour	M	"mon re-tour ici"
+729	ca	M	"dont je suis ca-pa-ble"
+812	ble	M	same
+1099	is	M	"convo-is"; "j allo-is"
+200	harengs	?	"preneurs de [200]"; Bussemaker herring privileges
+125+422	generaux	?	"les Etats [generaux]"
+105	null	M	"troupes de (105) re" = de terre?

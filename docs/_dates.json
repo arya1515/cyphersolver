@@ -26,6 +26,7 @@
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
   "debosnys, 1882–83": "2026-09-15",
+  "d’affry from the hague to rouillé and bernis, 1757–58": "2026-09-19",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
   "ferdinand iii, 1634–40": "2026-09-15",
   "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
@@ -101,6 +102,11 @@
    "hash": "30b38659c55d",
    "updated": "2026-09-18"
   },
+  "affry1757": {
+   "first": "2026-09-19",
+   "hash": "1e39c1b5eb01",
+   "updated": "2026-09-19"
+  },
   "armstrong": {
    "first": "2026-09-14",
    "hash": "c351cec849d3",
@@ -143,7 +149,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6b7e6d07b237",
+   "hash": "bf498dfd5e5f",
    "updated": "2026-09-19"
   },
   "catinat1691": {
@@ -238,7 +244,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "c3d76697cead",
+   "hash": "ebced33fa356",
    "updated": "2026-09-19"
   },
   "kurtz1639": {
@@ -448,7 +454,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1bcf1158faa1",
+   "hash": "a654469180d9",
    "updated": "2026-09-19"
   },
   "yard1699": {

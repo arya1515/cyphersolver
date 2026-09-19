@@ -1,0 +1,9 @@
+img/
+sm/
+__pycache__/
+deleeuw_thesis.pdf
+na_10150.xml
+corpus_fr.txt
+coquelle.txt
+decode/*.htm
+decode/v*.json

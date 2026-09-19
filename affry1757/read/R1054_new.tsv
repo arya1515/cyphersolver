@@ -1,0 +1,57 @@
+group	value	confidence	evidence
+425	paroit	H	pos147 'il me [425] qu'il seroit' = crib 'il me paroit'; homophone of 752 (pos217)
+1084	es	H	pos151 es-sen-ti-el (essentiel); pos261 des-tre-es (d'Estrées)
+792	sent/sens	H	key_M 'ressent' wrong: pos206 'je sens', pos327 'fissent', pos339 's'écartassent'
+140	ti	H	pos153 essen-ti-el; pos274 communica-ti-on
+557	el	H	pos154 essenti-el
+992	des	M	pos162 'm'envoyer [992] ordres sur le champ'; crib has 'ordre de demander' (abridged/reworded)
+1136	cham	M	pos166 'sur le [1136][338][371]' = 'champ'; key_M 'char'
+338	p?	?	pos167 in 'champ' (1136 338 371), split uncertain
+371	une?	?	pos168 before 1045 'un'; possibly 'une' or 'p'
+505	confirmation	H	pos170 crib 'une confirmation de tout ce que'
+413	declaration	H	pos187 crib 'une déclaration de leur part'
+193	t	H	pos191 'par-t' (key_M 'prom' wrong)
+940	ront/ont	M	pos195 'fe-[940]' = feront; pos177 'ont'
+749	ca	M	pos196 'ca-m-per' = camper (key_M 'donne' wrong here)
+207	fron	M	pos203 'leur [207][72]' = frontieres
+72	tieres	?	pos204 end of 'frontieres' (key_M 'ta')
+1016	cette	H	pos212 crib 'de cette proposition'
+1000	elle	H	pos219 'qu'elle devient', pos239 'qu'elle avoit'
+66	tu	H	pos224 na-tu-re-l-le (key_M 'ance' wrong)
+435	nt	M	pos231 'ajoute-nt'? crib 'en y ajoutant'
+194	que/qu'	H	pos232 'que S.M.', pos238 'qu'elle', pos278 'mais que'
+148	juste	H	pos236 crib 'par la juste confiance'
+1101	confiance	M	pos237 key 'con'; next group is qu' so 1101 carries the whole word
+163	a	M	pos240 'qu'elle a-voit'
+895	voit	M	pos241 key 'devoir'; crib 'avoit'
+874	ro	H	pos245, 292 pa-ro-le (parole) twice
+627	hautes	H	pos249, 331 'leur hautes puissances' = L.H.P. twice
+261	puissances	H	pos250 DECODE '26?' at right margin = 261 truncated (cf pos332)
+136	point	H	pos252 'n'a point ordonné'
+576	p	H	pos263 p-rendre
+75	rendre	M	pos264 p-[75]
+800	des	H	pos265, 279, 322 before precautions/demarches (key_M 'seil' wrong)
+698	precautions	H	pos266, 280 twice
+866	pour	H	pos267 crib 'pour la sureté'
+662	surete	H	pos269 crib
+7	ca	M	pos273 communi-ca-ti-on
+973	on	M	pos275 communicati-on (crib 'du' before royaume not in cipher)
+1112	en	M	pos283 devi-en-droi-ent
+779	droi	M	pos284 key_M 'droits'
+344	donn	H	pos294 donn-e 'la parole donnée'
+368	gouvernement	M	pos297 crib 'le Gouvernement'
+1186	etoit	?	pos298 crib 'étoit'; then 1075 732 134 = en-trai-ne
+1075	en	?	pos299 entraine
+732	trai	?	pos300 key_M 'ai'
+831	sans	H	pos305 parti-sans
+307	forc	M	pos310 forc-(é) crib 'forcé'; also pos86 'forc-e par les pla..'
+26	insulte	M	pos313 crib 'par l'insulte du peuple' (single occurrence)
+945	peup	H	pos315 peup-le
+335	dispositions	H	pos319 crib
+1150	s	H	pos334 s'ecartassent; pos347 sages-se
+705	ec	H	pos335 s'-ec-ar-ta-s-sent
+1173	s	H	pos338
+834	elles	H	pos342 'malgré Elles'
+671	regles	H	pos351 crib 'de leurs règles'
+303	gouvernante	?	pos11 'l'objet du voyage de [303]' (Bussemaker: reis der Gouvernante)
+373	voyage	?	pos8 'l'objet du [373]'

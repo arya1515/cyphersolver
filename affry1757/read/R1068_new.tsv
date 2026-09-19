@@ -1,0 +1,15 @@
+group	value	confidence	evidence
+911	co	M	pos33 'M. de [911]-l-lo-re-[599]' = Colloredo (Austrian minister in London)
+599	do	M	pos37 Collore-do; R1074 pos392 Mac-do-na.. (sibling value 'peine' does not fit either)
+982	d'	M	pos43 'faire passer à M. [982]-a-re-m-be-r-[367]' = d'Aremberg
+487	r	M	pos48 Aremb-e-r-g
+367	g	M	pos49 Arember-g; R2067 l.2 os-na-br-[367] = Osnabrug
+72	é	M	pos30 char-r-ge-[72] 'chargé'; R1074 inter-[72] 'intérêts'
+1136	char	H	pos27, as R1074 pos423
+992	r	H	pos28 char-r-ge
+63	vez/urez?	?	pos19 'vous sa-[63]' = savez/saurez
+806	mieux?	?	pos20 'vous saurez [806] que moi ce dont il est chargé' (key_M 'lon' does not fit)
+727	moi	M	pos22 '[806] que [727] ce dont'
+664	hier?	?	pos7 'il a passé [664] au soir'
+1096	?	?	pos10 'au soir [1096] un courrier': 'ici'? (Ir? in R1074, Am/Ro? in R2067)
+402	à	H	pos44 'passer à M. d'Aremberg'

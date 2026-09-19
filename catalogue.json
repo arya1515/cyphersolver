@@ -7319,41 +7319,6 @@
    "scored": "rule"
   },
   {
-   "id": 211,
-   "counted": true,
-   "year": 1757,
-   "date": "22 Jul 1757",
-   "title": "Louis Auguste Comte d'Affry (1713-1793), French ambassador in The Hague (The Hague) to Antoine Louis Rouillé (1689-1761), Foreign Secretary of King Louis XV",
-   "correspondents": "Louis Auguste Comte d'Affry (1713-1793), French ambassador in The Hague → Antoine Louis Rouillé (1689-1761), Foreign Secretary of King Louis XV",
-   "place": "The Hague, United Provinces",
-   "language": "French",
-   "region": "France",
-   "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 192",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1070: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Intercepted codeletter without solution.",
-   "why": "Ciphered letter of Louis Auguste Comte d'Affry (1713-1793), French ambassador in The Hague to Antoine Louis Rouillé (1689-1761), Foreign Secretary of King Louis XV, 22 Jul 1757; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1070",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1070"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1070
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 212,
    "counted": true,
    "year": 1795,
@@ -7385,75 +7350,6 @@
    "source": "DECODE",
    "decode_ids": [
     2242
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 213,
-   "counted": true,
-   "year": 1757,
-   "date": "6 Jan 1757 – 17 Jan 1758",
-   "title": "Louis Auguste Comte d'Affry (1713-1793) (T) to François Armand d'Usson Marquis de Bonnac (1716-1778) / Antoine Louis Rouillé (1689-1761) / Etienne François Marquis de Stainville and others, 11 ciphertexts",
-   "correspondents": "Louis Auguste Comte d'Affry (1713-1793) → François Armand d'Usson Marquis de Bonnac (1716-1778) / Antoine Louis Rouillé (1689-1761) / Etienne François Marquis de Stainville and others",
-   "place": "T, United Provinces",
-   "language": "French",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 192 (11 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1054–R2067 (11 records): Non-decrypted, 37 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Intercepted letter without solution. The second page of this intercept has still to be copied and added.",
-   "why": "Ciphered despatches of Louis Auguste Comte d'Affry (1713-1793) to François Armand d'Usson Marquis de Bonnac (1716-1778) / Antoine Louis Rouillé (1689-1761) / Etienne François Marquis de Stainville and others, 6 Jan 1757 – 17 Jan 1758; what the cipher hides is not known.",
-   "importance": 4,
-   "solvability": 3,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1054",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1054"
-    },
-    {
-     "label": "DECODE R1064",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1064"
-    },
-    {
-     "label": "DECODE R1065",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1065"
-    },
-    {
-     "label": "DECODE R1067",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1067"
-    },
-    {
-     "label": "DECODE R1068",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1068"
-    },
-    {
-     "label": "DECODE R1071",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1071"
-    },
-    {
-     "label": "+5 more records",
-     "href": null
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1054,
-    1064,
-    1065,
-    1067,
-    1068,
-    1071,
-    1072,
-    1073,
-    1074,
-    1076,
-    2067
    ],
    "scored": "rule"
   },

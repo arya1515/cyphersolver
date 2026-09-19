@@ -1,0 +1,51 @@
+group	value	confidence	evidence
+660	pru	H	pos44 em-[660]-nt 'emprunt'; pos211 d'em-[660]-n-ter 'emprunter'; pos494 im-[660]-dent 'imprudent'
+435	nt	M	pos45 empru-nt (agrees with R1054 'nt'); pos161, 496 unclear
+27	millions	M	pos48 'un emprunt de [675=2] [27]'; pos216 'emprunter aujourd'hui quatre [27] à quatre ou quatre et demi pour cent'
+675	2/deux	M	pos47 before 27 millions (R1070 '2')
+366	ef	M	pos58 [366][482]-ti-ve-ment 'effectivement'
+482	c/k	M	pos59 effe-c-tivement; pos391, 528 'Ma-c' (Irish name Mac..); pos453 'régiment de Bu-c-[446]' (Bulkeley/Buckley)
+1186	été/étoit	M	pos63 's'il en avoit effectivement été [question]'; pos131 'qu'on s'étoit si mal conduit'
+741	question	?	pos64 'effectivement été [741]'
+198	nous/y	?	pos68 's'il [198] auroit été [385] de trouver'; pos237 'les fonds que [198] devions affecter' -> nous
+683	trouv	M	pos74 [683]-er 'trouver' (R1070 'trouver')
+487	er	M	pos75 trouv-er, pos100 désir-er, pos503; R1068 pos48 Aremb-e-r(g)
+145	mesures?	?	pos95 'on a pris à ce sujet toutes les [145] que je pouvois désirer'
+127	de grandes?	?	pos115 'il n'auroit pas été [127] difficultés' (DECODE '1^. 2 7' = 127)
+568	somme	M	pos121 'de lever cette [568]'
+75	cla?	?	pos125 pro-[75]-ma-tion 'proclamation'? (R1054 'rendre' in p-rendre)
+898	it/uit	H	pos4 extra-it, pos136 condu-it, pos520 instru-it (as in siblings)
+160	gens/agents	M	pos142 'y avoit employé des [160] si maladroits'
+1084	es	H	pos483 des es-pi-ons 'espions'; pos147 (after maladroits) unclear
+868	in	H	pos150 [868]-é-vi-ta-ble 'inévitable'
+1016	cette	H	pos156 'que cette affaire ne parvint'; pos441 'que cet homme' (DECODE '1^./1 0 1^./1 6')
+728	affaire	M	pos157 'cette [728] ne parvint' (key_M 'af')
+199	connoissance	H	pos164 'parvint à la [199] du ministère'; pos301 'une parfaite [199] du pays'
+749	eu	M	pos171 'ce qui a [749] lieu' (key_M/R1054 'ca')
+1116	res	M	pos182 [1116]-te 'il reste'
+1115	encore	?	pos184 'il reste [1115] des moyens'
+71	qu'à	M	pos207 'il ne tient [71] nous d'emprunter'
+394	fond(s)	H	pos235 'à l'égard des [394] que nous devions affecter'; pos296 'un pro-[394] secret' = profond
+72	ts/ê	M	pos252 inter-[72] 'intérêts'; R1068 pos30 char-r-ge-[72] 'chargé'
+357	op	M	pos257 d'[357]-er-er 'd'opérer' (R1073 'opé')
+317	argent	M	pos273 'faire entrer en France le [317]'
+86	France	H	pos271 'en [86]'; pos403 'arrivé depuis peu de [86]' (key_M 'françois')
+931	roient	M	pos314 ser-[931] 'seroient employés'
+639	droit	H	pos322 'il faut-droit' = faudroit; pos146 mal-a-droits
+88	atten	M	pos338 j'-[88]-droi-i 'j'attendrai'; pos466 'faire quelques [88]' (attention)
+1135	vos	M	pos341 'j'attendrai [1135] ordres'
+599	do	M	pos392 Ma-c-do-na-[514] 'Macdonald'; R1068 Co-l-lo-re-do 'Colloredo' (sibling 'peine' wrong)
+514	ld	?	pos394 Macdona-[514]
+1191	Sr/nommé	?	pos389 'le [1191] Mac...', pos526 'du [1191] Mac'
+945	peu/peut	H	pos401 'depuis peu de France'; pos491 'il seroit peut-être'
+1090	être	H	pos492 peut-[1090]; pos518 'moyen d'[1090] instruit'
+1136	char	H	pos423 [1136]-r-ge 'chargé' (key_M original 'char'; R1068 same)
+992	r	H	pos424 char-r-ge
+132	commis	M	pos428 [132]-sion 'commission'
+164	ennemis	M	pos436 'de la part de nos [164]'
+163	sai(s)?	?	pos439 'Je [163] que cet homme a servi'
+446	kley?	?	pos454 'régiment de Bu-c-[446]' (Irish regiment Bulkeley)
+1096	Ir?	?	pos470 '[1102] et [1096]-la-n-dois qui sont dans nos troupes' = Irlandois?; conflicts with R2067 '[1096]-st-ter-dam'
+1102	Ecossois?	?	pos468 'faire quelques attentions aux [1102] et Irlandois'
+911	co	M	R1068 Co-l-lo-re-do; pos199 here unclear
+777	méfiance?	?	pos506 'dangereux de [718]er de la [777] aux autres'

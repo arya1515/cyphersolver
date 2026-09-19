@@ -1,0 +1,267 @@
+{
+ "schema_version": 1,
+ "target": "affry1757",
+ "title": "Comte d'Affry (The Hague) to Rouillé and Bernis, 1757-58, intercepted code letters (KHA Prins Willem V inv. 192, DECODE R1052-R1076)",
+ "documents": [
+  {
+   "id": "codeA",
+   "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1052, R1053, R1062-R1065, R1072, R1073, R1075, R1076",
+   "date": "6 Jan - 17 Feb 1757",
+   "year": 1757,
+   "country": "France",
+   "route": "The Hague -> Versailles",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Decipherment sheets not imaged; decipherments in Nationaal Archief 1.01.50 inv. 221/223 not digitised."
+   },
+   "length": {
+    "tokens": 5011,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher_A.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R*.txt (manual, 2019-2020)",
+    "image_quality": "good",
+    "notes": "Uncertain digits marked ? in DECODE; first reading kept. R2067 has no transcription."
+   }
+  },
+  {
+   "id": "codeB",
+   "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1066-R1069, R1054, R1070, R1074",
+   "date": "Feb 1757 - 17 Jan 1758",
+   "year": 1757,
+   "country": "France",
+   "route": "The Hague -> Versailles",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Decipherment sheets not imaged; decipherments in Nationaal Archief 1.01.50 inv. 221/223 not digitised."
+   },
+   "length": {
+    "tokens": 3512,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher_B.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R*.txt (manual, 2019-2020)",
+    "image_quality": "good",
+    "notes": "Uncertain digits marked ? in DECODE; first reading kept. R2067 has no transcription."
+   }
+  },
+  {
+   "id": "codeC",
+   "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1071",
+   "date": "7 Aug 1757",
+   "year": 1757,
+   "country": "France",
+   "route": "The Hague -> Versailles",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Decipherment sheets not imaged; decipherments in Nationaal Archief 1.01.50 inv. 221/223 not digitised."
+   },
+   "length": {
+    "tokens": 761,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher_C.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R*.txt (manual, 2019-2020)",
+    "image_quality": "good",
+    "notes": "Uncertain digits marked ? in DECODE; first reading kept. R2067 has no transcription."
+   }
+  },
+  {
+   "id": "R2067",
+   "shelfmark": "KHA Prins Willem V inv. 192; DECODE R2067",
+   "date": "17 Jan 1758",
+   "year": 1758,
+   "country": "France",
+   "route": "The Hague -> Versailles",
+   "language": "French",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "decode/R2067_transcription.txt, from the images",
+    "image_quality": "good",
+    "notes": "DECODE has no transcription for this record."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Numeric word-and-syllable nomenclator of about 1,200 groups (1-1199) with homophones, one code for d'Affry's letters Jan 1757 - Jan 1758; R1071 in another code.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1 to 4",
+   "separation": "dots"
+  },
+  "distinct_symbols": 1047,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "notes": "Groups separated by dots; code identified per letter by group-frequency cosine."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary decipherments by Lyonet (Nationaal Archief 1.01.50 inv. 221, 223; not digitised); Dutch summaries with verbatim French sentences printed by Bussemaker, BMHG 27 (1906)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "crib",
+   "known plaintext"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "curl (DECODE API)",
+   "python"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "DECODE records R1052-R1076 fetched with the session cookie: 65 images and 18 digit transcriptions.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "DECODE 'solution on separate sheets' checked: no decipherment among the images.",
+   "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "De Leeuw thesis (2000) and Nationaal Archief 1.01.50 inventory: decipherments exist as inv. 221/223, not digitised; Bussemaker 1906 (DBNL) prints Dutch summaries with verbatim French sentences for 7 Jan, 1 Feb, 1 Apr, 19 Jul, 22 Jul 1757.",
+   "result": "partial"
+  },
+  {
+   "kind": "statistics",
+   "what": "Group-frequency cosine between letters splits the series into three codes (A Jan-Feb 1757, B Apr 1757-Jan 1758, C R1071).",
+   "result": "worked"
+  },
+  {
+   "kind": "statistics",
+   "what": "Numeric clustering of the 100 most frequent groups tested for a one-part (ordered) code: 23 adjacent pairs vs 15 random.",
+   "result": "failed"
+  },
+  {
+   "kind": "crib",
+   "what": "Bussemaker's verbatim 19 July 1757 passage placed in R1054 by the repeat 800 698 = 'des précautions' (13 groups apart vs 12 words); word-and-syllable code confirmed.",
+   "result": "worked"
+  },
+  {
+   "kind": "crib",
+   "what": "Bussemaker's 22 Jul and 1 Apr sentences: 'le danger de la religion' = 878 1117 813 1138 583 578 found in R1070 and R1054.",
+   "result": "partial"
+  },
+  {
+   "kind": "literature search",
+   "what": "Coquelle, L'alliance franco-hollandaise (1904) on archive.org: verbatim quotes of d'Affry despatches, but of dates not in this set.",
+   "result": "failed"
+  },
+  {
+   "kind": "solver",
+   "what": "Coordinate-ascent LM solver (char 5-gram, corpus = clear parts of the letters + Coquelle) over group->string assignments from the crib seeds.",
+   "result": "failed"
+  },
+  {
+   "kind": "crib",
+   "what": "Local hard-EM aligner (cribalign.py) of the 19 Jul crib against R1054: second half aligned (des précautions, L.H.P., malgré, sagesse).",
+   "result": "partial"
+  },
+  {
+   "kind": "literature search",
+   "what": "Re-examination of the images: the 'separate sheets' are imaged after all; Lyonet's clear decipherments found for R1052, R1053, R1062, R1063, R1065, R1066, R1069, R1075.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Clear copies transcribed from the images and aligned group by group with the cipher (EM aligner plus hand and sub-agent alignment) to rebuild the key.",
+   "result": "partial"
+  },
+  {
+   "kind": "verification",
+   "what": "Bussemaker's verbatim sentences (19 Jul, 22 Jul, 1 Apr) and Coquelle's quotation of the Gouvernante recur group for group in the key readings of R1054, R1070 and R1067.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Nine undeciphered letters (R1064, R1067, R1068, R1070, R1072, R1073, R1074, R1054, R1076) read with the voted key (651 groups) plus context inference by sub-agents, one letter each; DECODE digit slips (looped 8 read as 0, merged groups) corrected on the images.",
+   "result": "worked"
+  },
+  {
+   "kind": "statistics",
+   "what": "R1071 (to Stainville, Aug 1757) tested against the key: nonsense, a different code.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.87,
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "fraction_read = share of groups in the nine undeciphered letters that carry a key value (4,564/5,245); readings fill a few per cent more from context. R1072 weakest (~65% in sense); R1071 (different code) unread; R2067 transcribed and read separately."
+ }
+}
