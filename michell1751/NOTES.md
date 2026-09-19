@@ -88,4 +88,4 @@ Worked 19 Sept 2026 (catalogue entry for DECODE R1955). Transcribed in full in `
   Rep. 96 / Rep. 9 Chiffres), Pierre Lyonet's decipherments for the States General (see K. de Leeuw, *Diplomacy &
   Statecraft* 10, 1999), British decyphers of Michell's correspondence (BL Add MS Newcastle papers; TNA SP 107), or
   other rescripts to Michell in the same code with known content. DECODE R1953 (von der Hellen to the King, 4 Jan 1752,
-  KHA inv. 196) is the nearest candidate for a sibling in the same ministerial code; not yet viewed.
+  KHA inv. 196) was checked the same day and is in a different, smaller code (groups under ~1650, frequent repeats), so it is no sibling of R1955.
