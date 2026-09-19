@@ -59,3 +59,32 @@ with the said ambassador; he has had it said to someone that […].
 New signs: x' = do ("stando", "havendo", "quando"); a: = gli ("meglio"); a· = m ("morte"); looped b + o = st;
 o-bar stands for b in several words ("liberamente", "debia", "imposibile", "ambasiatore").
 
+
+## Page 2, lines 1–16 (`trans/v2831p2_read.md`; the page has 32 lines, 17–32 not yet read)
+
+1. …de don Federico, a che lo ambasiatore lo doveva mandare ad Napoli lui per questi[?]
+2. et, respondendoli colui parerli imposibile essendo [cocto?] questo de Milano,
+3. solenemente replico essere vero, dicendo che la parentata de Milano era gia [conclusa?]
+4. Sono ancora stati de cortesani li quali, havendo inteso de la deliberatione
+5. che era facta, che messere Francisco and[a]sse ad Napoli, gli hanno dicto: "Voi andarete
+6. ad disfare quello che haveti cocto!" Etiam ancora che lo prenominato ambasiatore
+7. se sia doluto in nome del re suo de la Ex.tia Vostra, pero che, quando lo Ser.mo Re dicesse ad messere
+8. Francesco de l'andare ad Napoli, gli […] che vole […] conciliasse lo re
+9. Ferdinando con la Ex.tia Vostra. Io li significo liberamente a la Ex.tia Vostra quello sento, et l'ingenio
+10. mio et porge, ad potere de […] iuditio la Ex.tia Vostra, che e sapientissima, ne pigliare[a]
+11. quella parte che gli parera, pur che […] questo per constante: che la sua Maesta gli
+12. voglia quello dolce[?] et […] che si possi volere ad capitale[?] […]
+13. […] et che non habia restare per lei ad [fare?] omne prova se possi avertere
+14. […] lo Ser.mo Re da proposito, anchora che [venisse?] la […] che […]
+15. et in questo non cedera a la insaciabile ira de Iunone[?] […] et […]
+16. *(clear Latin)* "etiam apud" istos[?], ne el patre, et per mancare de inservire ad lo apetito suo si […]
+
+**Sense:** the Neapolitan ambassador was to be sent to Naples; told that was impossible since the Milan match
+was already cooked, he solemnly insisted the Milanese marriage alliance was already concluded. Courtiers,
+hearing that messer Francesco was to go to Naples, told him "you are going to undo what you have cooked".
+The ambassador has complained in his king's name of Ludovico Sforza. Maffeo writes plainly what he feels and
+leaves the judgement to Ludovico, "who is most wise": the Queen wants […], and no effort should be spared to
+turn the King from his purpose; in this he will not yield "to the insatiable wrath of Juno" (Beatrice).
+
+**New signs:** a+ (a with a cross) = Ex.tia Vostra; n^e = ll ("quello", "quella"); a word or two of clear Latin
+appears inside the cipher (l. 16 "etiam apud").

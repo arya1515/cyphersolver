@@ -88,3 +88,8 @@ Somogyi's numbers and of 267 with the clear extract 268 gives glyph → value.
   b^a=na, d:=fi, 8=g/n, x'=do, a:=gli, looped-b+o=st, o-bar often b. Open: the σ pronoun, the "affinita" word,
   and the stained right ends of ll. 21–26. Page 2 agent killed by the session limit (resets 02:10); pages 2–4
   crops ready as `img/crops/stack2831p2..p4_L*.png`.
+- 23:00: page 2 ll. 1–16 read (`trans/v2831p2_read.md`): the Milan match "era gia conclusa", the courtiers'
+  "voi andarete ad disfare quello che haveti cocto", the Neapolitan ambassador's complaint against Ludovico,
+  "l'insaciabile ira de Iunone" for Queen Beatrice. New signs: a+ = Ex.tia Vostra, n^e = ll; clear Latin words
+  occur inside the cipher. **Blocked: monthly spend limit reached** (claude.ai/settings/usage), so no further
+  agents can run. Remaining: p. 2 ll. 17–32 and pp. 3–4 (crops ready), plus the open signs listed above.
