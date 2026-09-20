@@ -5,6 +5,7 @@
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
   "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
+  "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
   "armstrong to madison, 20 february 1808": "2026-09-16",
@@ -150,8 +151,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0c2dd9534d43",
-   "updated": "2026-09-19"
+   "hash": "c470256a9633",
+   "updated": "2026-09-20"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -245,8 +246,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5bba36fe48b2",
-   "updated": "2026-09-19"
+   "hash": "2bc7e0006156",
+   "updated": "2026-09-20"
   },
   "kauderbach1754": {
    "first": "2026-09-19",
@@ -363,6 +364,11 @@
    "hash": "de0f29f48ea2",
    "updated": "2026-09-19"
   },
+  "sanchez1522": {
+   "first": "2026-09-20",
+   "hash": "f8ef6929101f",
+   "updated": "2026-09-20"
+  },
   "scorpion": {
    "first": "2026-09-15",
    "hash": "24dff7e26485",
@@ -460,8 +466,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "96024d80dd9c",
-   "updated": "2026-09-19"
+   "hash": "f3f795c62da6",
+   "updated": "2026-09-20"
   },
   "yard1699": {
    "first": "2026-09-18",

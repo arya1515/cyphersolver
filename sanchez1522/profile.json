@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "target": "sanchez1522",
+  "title": "Alonso Sánchez (Venice) to Charles V, 1522 — RAH Salazar 9/23–9/26, DECODE R9593–R9657",
+  "documents": [
+    {
+      "id": "R9653",
+      "shelfmark": "RAH, Signatura 9/26, f. 299-301 (DECODE R9653)",
+      "date": "20 Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": 8,
+        "unit": "mixed",
+        "measured": false,
+        "file": "read_r9653.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "fair",
+        "notes": "Only the two-line foot cipher paragraph of f. 299r is transcribed so far; the count is the resolved code groups in that paragraph, counted by hand from read_r9653.md, not measured by _check_profile.py. The six-line head cipher paragraph is faint with ink bleed and is not yet transcribed."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic",
+      "nomenclator"
+    ],
+    "summary": "Homophonic substitution alphabet with three nulls, plus a nomenclator of consonant-vowel-consonant code groups assigned in alphabetical order of the plaintext.",
+    "symbol_kind": "letters and symbols",
+    "distinct_symbols": 181,
+    "diacritics": {
+      "used": true,
+      "note": "A 'q' with a double bar suffixed to a code group marks the plural ending -s."
+    },
+    "homophones": {
+      "used": true,
+      "max_per_vowel": 4,
+      "max_per_consonant": 4
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 181,
+      "kinds": [
+        "common words",
+        "names",
+        "places",
+        "titles",
+        "word parts"
+      ],
+      "unread_groups": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 3
+    },
+    "key_order": "partly alphabetical",
+    "word_division": "kept",
+    "doubled_letters": "unknown",
+    "sibling_key": "Juan Manuel's 1522 Rome cipher (DECODE R9499-R9529), same design, different values; also reconstructed by Tomokiyo."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "online",
+      "where": "S. Tomokiyo, 'Correspondence in Cipher of Imperial Ambassadors Alonso Sanchez and Juan Manuel (1522)', https://cryptiana.web.fc2.com/code/AlonsoSanchez.htm, posted 6 September 2025. Gives the substitution alphabet, ~177 code groups, and the deciphered opening lines of R9593-R9632.",
+      "found": "before attempt",
+      "used": true
+    },
+    "inputs": [
+      "images",
+      "published key",
+      "published reading"
+    ],
+    "attack": "published key",
+    "human_role": "supplied the DECODE login cookie (reused from an earlier target); set the goal.",
+    "tools": [
+      "PIL crops/upscaling of DECODE images",
+      "ordering analysis of the nomenclator (key_codes.tsv)"
+    ],
+    "models": [
+      "claude-opus-5[1m]"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-20",
+    "last_date": "2026-09-20"
+  },
+  "solution": [
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "Searched for a prior decipherment; found Tomokiyo's article of 6 Sept 2025, which reconstructs the whole cipher from the contemporary decipherment attached to DECODE R9605. Saved to tomokiyo/.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Pulled DECODE record pages R9603-R9657 and tabulated the metadata (decode/getrec.py, decode/meta.py).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Checked the catalogue entry against the records: the run is 9/23-9/26 not 9/24, every record is dated 1522 so nothing reaches the July 1523 treaty, nine of the tail records are Lope Hurtado de Mendoza not Sánchez, and almost all carry a contemporary decipherment (DECODE 'Inline Cleartext: Yes').",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "statistics",
+      "what": "Transcribed Tomokiyo's nomenclator to key_codes.tsv and tested its ordering: codes are C1(16) x V(5) x C3(9) and sorting by (C1, C3, V) puts the plaintext in alphabetical order, so unassigned codes are bracketed by their neighbours.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Fetched DECODE images for R9633-R9657, the 9/26 tail that Tomokiyo's article does not cover.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "prediction",
+      "what": "Predicted the unassigned numerals of the c-block by interpolation: cef=xxvi, cif=xxvii, cof=xxviii, cuf=xxix, cab/ceb/cib=xv/xvi/xvii.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Read the two-line foot cipher paragraph of R9653 f. 299r: 'cartas de Francia de xxvi y xxvii del passado de ...', which confirms the predicted cef=xxvi and cif=xxvii. Read the clear middle of the leaf (the siege of Rhodes) from the image.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Attempted the six-line head cipher paragraph of R9653 f. 299r; ink bleed from the facing leaf leaves it not confidently transcribable at the available resolution.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Checked whether the Lope Hurtado de Mendoza letters of the same group use Sánchez's cipher. R9648 f. 260v gives code groups ending in p and z (tep, tap, xulz), finals absent from Sánchez's third-position inventory {b c d f g h l m n}; so his key is a third member of the family, not Sánchez's. Whether it is Juan Manuel's is not settled.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "read in part",
+    "fraction_read": 0.6,
+    "verification": [
+      "key confirms",
+      "historical consistency"
+    ],
+    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. What is added here is the correction of the catalogue entry's shelfmark, date range and authorship; the ordering analysis of the nomenclator; the c-block numeral series, of which cef=xxvi and cif=xxvii are confirmed in text and were not in the published key; and the first reading of part of R9653, which lies outside Tomokiyo's coverage. fraction_read is the share of the resolved foot paragraph of R9653 only; the rest of the 29-record group is untouched. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target."
+  }
+}
