@@ -120,6 +120,34 @@
         "image_quality": "good",
         "notes": "DECODE records this as Non-decrypted, and it has no clear version or duplicate anywhere. Used as the independent control on the key; only 'el papa' read so far."
       }
+    },
+    {
+      "id": "R9652",
+      "shelfmark": "RAH, Signatura 9/26, f. 295-296 (DECODE R9652)",
+      "date": "Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 2,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": 0,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "fair",
+        "notes": "DECODE calls this Partially decrypted, but the leaf carries NO cipher at all - it is written entirely in the clear and signed Lope Hurtado. The 'partial' status appears to reflect faded show-through at the head of the page. Read complete as read_r9652.md; there is nothing here to decipher."
+      }
     }
   ],
   "system": {
@@ -387,15 +415,21 @@
       "kind": "reading",
       "what": "Read R9644 and R9650 complete, from the clerks' own contemporary clear versions (ff. 241-242 and f. 272), transcribed from the images into read_r9644.md and read_r9650.md. R9648 is R9644's duplicate so the same clear reads it too. Three of the nine records now have their content read in full; the ciphered leaves of those letters are read in part against the same text.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "R9652 read complete: it carries NO cipher. DECODE calls it 'Partially decrypted' but the leaf is written entirely in the clear and signed Lope Hurtado; the status appears to reflect faded show-through at the head. Content: the licenciado Bernardino, a 'gran bellaco' the Duke of Sessa wants arrested, and Adrian VI declining a night arrest in Rome while offering a formal suplicacion instead; plus the viceroy of Naples' despatch on the siege of Rhodes forwarded to the Emperor. That last ties this correspondence to Sanchez's R9653 of 20 Nov, which carries the Rhodes news from Venice - Rome and Venice reporting the same disaster in the same fortnight, in two different ciphers, bound in the same volume.",
+      "result": "worked"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.35,
+    "fraction_read": 0.45,
     "verification": [
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. Those three letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 57 code and sign values fixed against that plaintext and 19 probable, kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the six records with no clear version (R9634, R9645, R9646, R9649, R9652, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - nine signs fixed, the rest limited by per-glyph discrimination on these scans."
+    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 57 code and sign values fixed against that plaintext and 19 probable, kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the six records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - nine signs fixed, the rest limited by per-glyph discrimination on these scans."
   }
 }
