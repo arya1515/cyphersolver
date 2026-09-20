@@ -59,7 +59,7 @@
         "by": "llm from images",
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
-        "notes": "f. 20r is a full page of about 25 lines of cipher. The code groups are transcribed and resolved; the spelled-out letter runs between them are only partly transcribed, so the count is of resolved code groups, counted by hand from read_r9635.md, not measured by _check_profile.py."
+        "notes": "f. 20r is a full page of about 25 lines of cipher. Every line now carries a reading; the page is read throughout in substance while a scatter of spelled runs inside partially-read lines stays open. It is not a word-perfect diplomatic edition. The token count is of resolved code groups, counted by hand from edition/r9635_f20r.md, not measured by _check_profile.py."
       }
     }
   ],
@@ -288,11 +288,17 @@
       "kind": "reading",
       "what": "l. 5 of R9635 f. 20r: xof veg + p-r-i-m-e-r-o + xig ta = 'da el primero de es[te]', which fixes B = m on this page independently of 'camino' in R9605. At high zoom the ending of capitulacion on l. 11 is the curly second form of c that Tomokiyo draws as backwards-3, so capitulacion is settled rather than inferred. Coverage about nine tenths of f. 20r; ll. 8, 15, 16 remain.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Last lines of R9635 f. 20r: l. 15 = 'xviii mil ducados primer[o]', l. 13 'vuestra magestad', l. 16 'das las'. Every line of the page now has a reading of some kind; the page is read throughout in substance (subject, sums, parties, drift of the argument) while a scatter of spelled runs inside partially-read lines stays open. Recorded caveat: the crops were cut by dividing the written area into 25 equal bands, so line numbers are approximate and may be out by one; the readings are anchored to their own words, not to the numbering.",
+      "result": "partial"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.55,
+    "fraction_read": 0.6,
     "verification": [
       "key confirms",
       "contemporary decipherment",
