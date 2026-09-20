@@ -324,6 +324,33 @@ The two spelled words either side check the alphabet again: *honrrado* and *appr
 
 Fifty values confirmed, ten probable.
 
+## Where the work is now limited: the alphabet, not the nomenclator
+
+The two halves of this cipher are not equally tractable at the resolution DECODE serves.
+
+**The nomenclator is easy.** The code groups are three-letter latin trigrams written plainly —
+`ton`, `zar`, `rab`, `xul`, `top`, `zil`, `taf` — and they read off the page without difficulty.
+Fifty of them are now fixed, including the high-frequency spine (*que, de, no, y, por, la, lo, los,
+el, en, es, si, con, papa, arçobispo, vuestra magestad*), and they carry most of the content.
+
+**The alphabet is hard.** The spelled runs between the codes need per-glyph discrimination that the
+images do not reliably support. Nine signs are fixed — `⊃`=p, `8`=e, `ʒ`=r, `x`/`6`=d, `L`=i, `7`=a,
+`4`=n, `m`=o — every one of them cross-checked on several words. Beyond that the transcriptions
+start to contradict each other:
+
+- *tiene* wants `∞` = t, but my reading of *pensaria* wants `∞` = s;
+- *venga* as transcribed wants `L` = v, but *perdida* fixes `L` = i;
+- *Cosenza* comes out as eight signs for seven letters, with `ɣ` apparently serving as both c and z
+  and `ᵹ` as both o and s.
+
+At least one transcription in each pair is wrong. Rather than pick whichever reading suits, those
+signs are left unassigned. **This is the same wall the sanchez1522 work hit**: the codes read, the
+letters need a picture-book built glyph by glyph against known plaintext, and that is slow work on
+these scans.
+
+The practical consequence is that Hurtado's letters will read *in substance* — subject, parties,
+sums, the drift of the argument — well before they read word for word.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.

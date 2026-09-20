@@ -129,7 +129,7 @@
     ],
     "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with homophones at code level (ta and tu both = 'no'), codes used for syllables as well as whole words, and long words spelled letter by letter between the codes.",
     "symbol_kind": "letters and symbols",
-    "distinct_symbols": "unknown",
+    "distinct_symbols": 50,
     "diacritics": {
       "used": "unknown"
     },
@@ -319,6 +319,12 @@
       "kind": "key from source",
       "what": "rab = vuestra magestad, from 'zar rab' falling exactly on 'de v. ma' in section C, and from rab being one of the commonest groups on every leaf - which is what 'vuestra magestad' should be in despatches to the Emperor. The spelled words either side check the alphabet again: 'honrrado' and 'approvechado' both end a-d-o, with n inside the first, every sign having come from R9644. Fifty confirmed, ten probable.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Attempted to extend the substitution alphabet from spelled words with known plaintext (Cosenza, venga, tiene, pensaria). Blocked: the transcriptions contradict each other - tiene wants one sign = t where pensaria wants it = s; venga wants a sign = v where perdida fixes it = i; Cosenza comes out eight signs for seven letters with two signs apparently doing double duty. At least one transcription in each pair is wrong, so those signs are left unassigned rather than picking whichever suits. Same wall as sanchez1522: the three-letter code groups read off the page easily, the spelled letter-signs need a picture-book built glyph by glyph against known plaintext.",
+      "result": "failed"
     }
   ],
   "outcome": {
@@ -328,6 +334,6 @@
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Opened 2026-09-20 on an unpublished cipher. R9644 carries both the ciphered letter and the clerk's full clear version (ff. 241-242), keyed by marginal letters; forty-four code and sign values are fixed against that plaintext and eleven more are probable, kept apart in a confidence column. The key then reads a short passage of R9648, which DECODE calls Non-decrypted - 'y que el papa no esta en que venga', 'que nueva tenia de Francia' - the first previously-unread text of Hurtado's read here. That passage leans on the duplicate's plaintext as well as the key, so it is a foothold rather than a reading; nothing runs continuously yet. The key was then tested on R9656, an independent despatch of 20 Nov with no clear version and no duplicate, and read 'el papa' there unaided - the validation that the key is real and not fitted to its own evidence. Next: the rest of the R9644 crib, then R9650 and R9652, then the remaining non-decrypted records."
+    "notes": "Opened 2026-09-20 on an unpublished cipher. R9644 carries both the ciphered letter and the clerk's full clear version (ff. 241-242), keyed by marginal letters; forty-four code and sign values are fixed against that plaintext and eleven more are probable, kept apart in a confidence column. The key then reads a short passage of R9648, which DECODE calls Non-decrypted - 'y que el papa no esta en que venga', 'que nueva tenia de Francia' - the first previously-unread text of Hurtado's read here. That passage leans on the duplicate's plaintext as well as the key, so it is a foothold rather than a reading; nothing runs continuously yet. The key was then tested on R9656, an independent despatch of 20 Nov with no clear version and no duplicate, and read 'el papa' there unaided - the validation that the key is real and not fitted to its own evidence. Next: the rest of the R9644 crib, then R9650 and R9652, then the remaining non-decrypted records. The limiting factor is now the substitution alphabet, not the nomenclator: nine signs are fixed and cross-checked, but further ones need per-glyph discrimination the scans do not reliably support, so these letters will read in substance well before they read word for word."
   }
 }
