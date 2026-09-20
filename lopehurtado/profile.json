@@ -140,7 +140,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 55,
+      "entries": 61,
       "kinds": [
         "common words",
         "names",
@@ -356,6 +356,12 @@
       "date": "2026-09-20",
       "kind": "crib",
       "what": "Found that R9650 also has its own full clear version, on f. 272, headed 'Al Rey - De Lope Hurtado de ...' exactly as R9644's. So there are TWO complete cribs covering two different letters. R9650's brings vocabulary the first lacks - franceses, Italia, dinero, Leon, yglesia, Hieronymo Adorno, don Joan Manuel, visorey de Napoles, posta - which are exactly the content nouns the key is short of. It also gives the letters' subject independently of the cipher: the French determined to come into Italy and sending a great sum of money to Lyon, the Pope to do what he can, Adorno having intercepted letters, the archbishop of Bari the channel to the Emperor.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "R9650 f. 269 (the cipher whose clear is f. 272) against 'que los franceses son determinados de venir en Italia, y enbian gran suma de dinero a Leon, y que es menester'. Eight placements of already-fixed values land correctly in one sentence of a letter the first crib does not cover - ton, zar three times, y-uc, q twice, y-af, xul. The slots give the content nouns the key was short of, recorded as probable since token counts are not exact: franceses, Italia, dinero, Leon, gran, suma. Sixty-one entries, fifty-five confirmed.",
       "result": "worked"
     }
   ],

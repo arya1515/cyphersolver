@@ -406,6 +406,25 @@ It also tells us what the letters are *about*, independently of the cipher: the 
 determined to come into Italy and are sending a great sum of money to Lyon; the Pope must do what he
 can; Adorno has intercepted letters; the archbishop of Bari is the channel to the Emperor.
 
+### The second crib starts paying
+
+R9650 f. 269 is the ciphered letter whose clear is f. 272, and it opens with the same words *ayer
+vino posta del arçobispo de Bari* standing in the clear on the cipher page itself. A few lines down,
+against *En substancia me dize que **los franceses son determinados de venir en Italia, y enbian gran
+suma de dinero a Leon, y que es** menester…*:
+
+> ‖ `ʃta` │B│ **`ton`** `xul`+s `ɣunʒᵹ` `ᵹᵹ4` **`zar`** `ᵹ8ʒ…xmᵹ` **`zar`** `Lᵹtip` **`ɣuc`** `xLɡ`
+> **`ɋ`** `ɣuc`·`ᵹᵹ74` `xᵹb` `ʃed℔` **`zar`** `ɣab` `ʃʃ` `xiLᵹ4` **`ɋ`** **`ton`** **`ɣaf`** …
+
+`ton`, `zar` (×3), `ɣuc`, `ɋ` (×2), `ɣaf` and `xul` all land correctly — eight placements of
+already-fixed values in one sentence of a letter the first crib does not cover.
+
+And the slots give the **content nouns the key was short of**, recorded as probable since the
+token counts are not exact: `ɣunʒᵹ` *franceses*, `xLɡ` *Italia*, `ɣab` *dinero*, `xiLᵹ4` *Leon*,
+`xᵹb` *gran*, `ʃed℔` *suma*.
+
+Sixty-one entries now, fifty-five of them confirmed.
+
 ## A measured coverage number
 
 `decode.py` resolves a transcribed token string against `key_codes.tsv`. It applies **only the
