@@ -423,7 +423,19 @@ And the slots give the **content nouns the key was short of**, recorded as proba
 token counts are not exact: `ɣunʒᵹ` *franceses*, `xLɡ` *Italia*, `ɣab` *dinero*, `xiLᵹ4` *Leon*,
 `xᵹb` *gran*, `ʃed℔` *suma*.
 
-Sixty-one entries now, fifty-five of them confirmed.
+A few words on, against *y que **el papa haga lo que** pudiere, pues le va mas que a nadie*:
+
+> **`ɋ`** **`ton`** **`ɣub`** **`taf`** `xLᵹ7` **`xul`** **`ton`** `⊃Lxᵹᵹ℔ᵹᵹ` │ *pues le va mas q a
+> nadie*
+> = **y** **que** **el** **papa** haga **lo** **que** pudiere
+
+Six fixed values round a single unknown, which the sense then fixes: **`xLᵹ7` = *haga***, promoted
+from probable — it was in the same slot in R9644's section A (*no haga lo que es obligado*), and a
+value that turns up twice in the same construction across two letters is not a coincidence.
+
+And at the end of the line `zar rab` = *de v. ma* again.
+
+Sixty-one entries now, fifty-six of them confirmed.
 
 ## A measured coverage number
 

@@ -363,6 +363,12 @@
       "kind": "key from source",
       "what": "R9650 f. 269 (the cipher whose clear is f. 272) against 'que los franceses son determinados de venir en Italia, y enbian gran suma de dinero a Leon, y que es menester'. Eight placements of already-fixed values land correctly in one sentence of a letter the first crib does not cover - ton, zar three times, y-uc, q twice, y-af, xul. The slots give the content nouns the key was short of, recorded as probable since token counts are not exact: franceses, Italia, dinero, Leon, gran, suma. Sixty-one entries, fifty-five confirmed.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "R9650 f. 269 against 'y que el papa haga lo que pudiere': six fixed values (q, ton, y-ub, taf, xul, ton) round a single unknown, which the sense fixes as haga - promoted from probable, having been in the same slot in R9644 section A ('no haga lo que es obligado'). A value turning up twice in the same construction across two different letters is not coincidence. zar rab = 'de v. ma' again at the end of the line. Fifty-six confirmed.",
+      "result": "worked"
     }
   ],
   "outcome": {
