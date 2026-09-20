@@ -1,0 +1,828 @@
+{
+ "schema_version": 1,
+ "target": "nunzio1718",
+ "title": "Segreteria di Stato (Rome) to the Nuncio in Spain, 24 ciphered despatches, 4 Jan 1718 - 6 Jan 1720, ASV Segr. Stato Spagna 364D (DECODE R154-R177)",
+ "documents": [
+  {
+   "id": "R154",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 1 (DECODE R154)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 2954,
+    "distinct": 177,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-1.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R155",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 2 (DECODE R155)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 768,
+    "distinct": 101,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-2.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R156",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 3 (DECODE R156)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 3837,
+    "distinct": 159,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-3.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R157",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 4 (DECODE R157)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 167,
+    "distinct": 53,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-4.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R158",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 5 (DECODE R158)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 3537,
+    "distinct": 169,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-5.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R159",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 6 (DECODE R159)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 229,
+    "distinct": 62,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-6.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R160",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 7 (DECODE R160)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 131,
+    "distinct": 49,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-7.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R161",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 8 (DECODE R161)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 567,
+    "distinct": 80,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-8.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R162",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 9 (DECODE R162)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1034,
+    "distinct": 95,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-9.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R163",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 10 (DECODE R163)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 2468,
+    "distinct": 137,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-10.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R164",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 11 (DECODE R164)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 296,
+    "distinct": 72,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-11.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R165",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 12 (DECODE R165)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 531,
+    "distinct": 91,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-12.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R166",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 13 (DECODE R166)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 484,
+    "distinct": 97,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-13.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R167",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 14 (DECODE R167)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 9751,
+    "distinct": 244,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-14.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R168",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 15 (DECODE R168)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 519,
+    "distinct": 94,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-15.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R169",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 16 (DECODE R169)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 715,
+    "distinct": 100,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-16.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R170",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 17 (DECODE R170)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 2234,
+    "distinct": 187,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-17.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R171",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 18 (DECODE R171)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1175,
+    "distinct": 114,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-18.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R172",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 19 (DECODE R172)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 899,
+    "distinct": 119,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-19.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R173",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 20 (DECODE R173)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 770,
+    "distinct": 122,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-20.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R174",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 21 (DECODE R174)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 80,
+    "distinct": 46,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-21.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R175",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 22 (DECODE R175)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 79,
+    "distinct": 45,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-22.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R176",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 23 (DECODE R176)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 926,
+    "distinct": 108,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-23.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "R177",
+   "shelfmark": "ASV, Segr. Stato, Spagna 364D, item 24 (DECODE R177)",
+   "year": 1718,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin",
+     "separate collection"
+    ],
+    "source": "Thin contemporary marginal glosses on the leaves (a few words per page, several wrong); the full reading is George Lasry's segmented decipherment filed on the DECODE record, October 2020.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 92,
+    "distinct": 36,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/364D-24.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "EHum / KaJo, 2016-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Undivided digit stream: two-digit homophones for letters and a few syllables, four-digit nomenclator groups prefixed 4, and the single digit 3 as a null.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2 and 4",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": 399,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 6,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 399,
+   "kinds": [
+    "word parts",
+    "common words",
+    "names",
+    "titles"
+   ],
+   "unread_groups": 135
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "sibling_key": "None needed: the same key serves Spagna 364C (items 1-32) and 364D (items 1-24), 1717-1720.",
+  "notes": "Nomenclator runs: 4001-4078 particles and endings; 4079-4296 nouns and names A-R; 4401-4479 S-V; 4485-4531 calendar and day numbers; 4532-4543 and 4552-4563 two parallel Gennaio-Dicembre month runs; 4535-4619 a second alphabetical run A-T; scattered blocks at 4681, 4706, 4870+. Lasry's filed key gives 268 of the 399 four-digit groups used in the corpus; 61 more were recovered in this session, leaving 135 distinct groups (3.4% of nomenclator tokens) without a value. The digit 3 is a null, except when it falls among the three digits following a 4 prefix, where it belongs to the nomenclator group."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "George Lasry's reconstructed key and segmented decipherment of the whole S364 corpus, both filed as attachments on every one of DECODE R154-R177; key dated 24 October 2020",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "key from archive",
+   "published reading"
+  ],
+  "attack": "key from archive",
+  "human_role": "Supplied the DECODE session cookie used to download the record attachments.",
+  "tools": [
+   "corpus.py (parser for the aligned decipherment)",
+   "ctx.py (context viewer for unvalued groups)",
+   "measure.py (coverage)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Fetched the 24 DECODE record pages R154-R177 with the project cookie and downloaded all 72 attached documents.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Checked the attachments before attacking anything: each record carries the per-item transcription, a reconstructed key signed George Lasry, 24 October 2020, and a 783 KB file holding his segmented decipherment of Spagna 364C/1-32 and 364D/1-24.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "verification",
+   "what": "Confirmed all 24 of the 364D items are present in that decipherment and measured its coverage: 34,243 cipher tokens, 33,408 valued, 97.6% read. The catalogue's 'noted, a transcription job' rating and DECODE's 'partially decrypted' status both understated it.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "statistics",
+   "what": "Compared the filed key against the corpus: 268 four-digit entries against 399 four-digit groups in use, leaving 189 groups without a value in 715 tokens, 11.0% of all nomenclator usage.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "hypothesis",
+   "what": "The key is alphabetical in runs, so every unvalued group has a bracket from its nearest valued neighbours; combined with contexts from the 84,961-token corpus this should fix most of them without cryptanalysis.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Recovered 61 groups, each on at least two independent contexts and usually the alphabetical bracket too (promozione, aggiustamento, giurisdizione, vascelli, Vicere, tribunale, corriere, cifra, negoziato and the rest). Resolved the calendar block as two parallel Gennaio-Dicembre runs at 4532-4543 and 4552-4563.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "control",
+   "what": "4538=Luglio, derived from the month run's offset, is independently confirmed by 'delli 12 Luglio passato, qual appunto fu il giorno della promozione del Sig. Card.' - Alberoni was created cardinal on 12 July 1717.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "verification",
+   "what": "Re-measured with the recovered groups applied: unknown nomenclator usage falls from 11.0% to 3.4% of nomenclator tokens corpus-wide (715 to 221), and over 364D alone from 8.0% to 3.4%; whole-text reading of 364D rises from 97.56% to 97.89%.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 0.9789,
+  "verification": [
+   "key confirms",
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Solved by George Lasry in October 2020 and already read on the DECODE records when this session began; nothing about the system was open. What is new here is the measurement of that reading and 61 additional nomenclator values that extend his key. Verification detail: coverage measured token by token off Lasry's aligned decipherment; each recovered group rests on two or more independent contexts and usually the alphabetical bracket; 4538=Luglio matches the known date of Alberoni's promotion, 12 July 1717."
+ }
+}

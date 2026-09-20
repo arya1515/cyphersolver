@@ -168,7 +168,16 @@ Ordered by how much this repo added.
    in 1895. The cipher runs re-read from the image and a working key rebuilt; four garbled passages of the print
    corrected (*valent*, *gentibus*, the closing *Speramus cito nos res nostras ita disposituros…*, and the "regest"
    shown to be the letter's own last sentence).
-3. **Alonso Sánchez (Venice) to Charles V, 1522, RAH Salazar 9/23–9/26 (DECODE R9593–R9657).** Reconstructed
+3. **Segreteria di Stato (Rome) to the Nuncio in Spain, 1718–1720, ASV Segr. Stato Spagna 364D (DECODE R154–R177).**
+   Solved by George Lasry in October 2020; his reconstructed key and his segmented decipherment of the whole Spagna 364
+   corpus are attached to every one of the 24 records, so the despatches were readable throughout. Measured here token by
+   token at 97.6 % (33,408 of 34,243 groups). The unfinished part was the nomenclator: 189 of the 399 four-digit groups in
+   use carried no value, 11.0 % of nomenclator tokens. Because the key is alphabetical in runs, each has a bracket, and 61
+   were recovered against the 85,000-token corpus — *promozione*, *aggiustamento*, *giurisdizione*, *tribunale*,
+   *vascelli*, *Vicerè*, *corriere*, *cifra*, *negoziato* — with the calendar block resolved into two parallel
+   Gennaio–Dicembre runs and 4538 *Luglio* confirmed by the date of Alberoni's promotion. Unknown nomenclator usage
+   3.4 % after. Two corrections to the filed key (4474 = *Vicerè*, 4535 = *Aprile*).
+4. **Alonso Sánchez (Venice) to Charles V, 1522, RAH Salazar 9/23–9/26 (DECODE R9593–R9657).** Reconstructed
    and published by Tomokiyo on 6 Sept 2025. The catalogue entry corrected on three counts (four volumes not one;
    all of it 1522, so the July 1523 treaty is not in it; nine letters by Lope Hurtado de Mendoza), and the records
    shown to carry contemporary decipherments — unedited, not unread. The nomenclator shown to be alphabetically
@@ -176,11 +185,11 @@ Ordered by how much this repo added.
    in text. Two letters beyond Tomokiyo's list read in part here: R9653 (the siege of Rhodes in clear, a ciphered
    postscript) and R9635 (a whole page of cipher on the sums owed by the Signoria, "mas de xv mil ducados", with a
    patchy interlinear decipherment). Lope Hurtado's letters separated off as a third cipher.
-4. **Alchymey teuczsch, Heidelberg Cod. Pal. germ. 597, 1426.** Read by Wattenbach in 1869. The compiler's struck
+5. **Alchymey teuczsch, Heidelberg Cod. Pal. germ. 597, 1426.** Read by Wattenbach in 1869. The compiler's struck
    24-sign alphabet (f. 1r) and the invocation alphabet (ff. 6v, 91v) recovered from the images and checked on his
    plaintexts; a third set fixed for eleven letters from the 2014 catalogue's reading of f. 93r; the "ff. 70–71"
    pointer shown to be Bischoff's item numbers. Ruled out as a record candidate.
-5. **Letter to the King of Aragon, ACA Reserva 12, [1413–16].** Printed by Salas in 1931; the column-transposition
+6. **Letter to the King of Aragon, ACA Reserva 12, [1413–16].** Printed by Salas in 1931; the column-transposition
    rule checked on the archive's image.
 
 Perwich, the Feynman ciphers, Ferdinand III, Milroy, the Confederate dictionary code and Mazarin–Bordeaux 1654 were found

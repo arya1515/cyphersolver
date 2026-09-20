@@ -84,6 +84,7 @@
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
+  "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
@@ -152,7 +153,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "cfb86fe14a48",
+   "hash": "9a2abaf87555",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -252,7 +253,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5f5a5e2d1662",
+   "hash": "e12fec49ae9d",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -324,6 +325,11 @@
    "first": "2026-09-18",
    "hash": "34109d756cdc",
    "updated": "2026-09-18"
+  },
+  "nunzio1718": {
+   "first": "2026-09-20",
+   "hash": "5fa98b2304ab",
+   "updated": "2026-09-20"
   },
   "orbais": {
    "first": "2026-09-18",
@@ -472,7 +478,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "321137dca437",
+   "hash": "d6152cf81520",
    "updated": "2026-09-20"
   },
   "yard1699": {
