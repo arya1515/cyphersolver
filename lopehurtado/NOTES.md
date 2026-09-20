@@ -464,6 +464,31 @@ misses are of two kinds: a few nomenclator codes not yet met, and the spelled ru
 alphabet. That is the honest state of the key — good enough to follow the sense of a passage, not
 good enough to edit one.
 
+## f. 239: sections B, C and D
+
+The third ciphered leaf carries the rest of the letter, marked **B**, **C** and **D** in the margin.
+
+Section **B**, against *… que **sin el no hay nada, y con el** por lo de aqui esta perdido …*:
+
+> `ton` **`ʃubʒ`** **`ɣub`** **`tu`** … **`xur zun`** **`ɋ`** **`zil`** **`ɣub`** …
+> = que **sin** **el** **no** … **na·da** **y** **con** **el** …
+
+**`ʃubʒ` = *sin*** — `sub` (*si*) plus one sign — and `xur`+`zun` = *nada* turns up yet again.
+
+Section **C**, against *… que su Sa **da señal de paz**, y que **el Rey de Francia** pedia salvo
+conducto por enbiar **embaxador** a su Sa … **pues queda de la** guerra honrrado y approvechado*:
+
+> **`zun`** `ᵹ847ᵹ` **`zar`** **`tef`** **`ɋ`** **`ton`** **`ɣub`** `taʒ` … **`zil`** … **`teɡ`**
+> **`ɣuc`** … `ɣed` **`ʃʃ`** … / **`tel`** **`ton`**·**`zun`** **`zar`** …
+> = **da** señal **de** **paz**, **y** **que** **el** Rey … **con** … **para** **en** … embaxador
+> **su** … / **pues** **que·da** **de** …
+
+**`tel` = *pues*** is new and confirmed by an exact slot, and it is immediately followed by
+`ton`+`zun` = *que*+*da* = **queda**, which confirms both of those a further time. `taʒ` = *Rey* and
+`ɣed` = *embaxador* are recorded as probable.
+
+Sixty-nine entries, forty-nine confirmed code values.
+
 ## The records with no crib: measured, not guessed
 
 Of the nine, four are read complete as to content (`read_r9644.md`, `read_r9650.md`,

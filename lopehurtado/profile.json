@@ -157,7 +157,7 @@
     ],
     "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with homophones at code level (ta and tu both = 'no'), codes used for syllables as well as whole words, and long words spelled letter by letter between the codes.",
     "symbol_kind": "letters and symbols",
-    "distinct_symbols": 47,
+    "distinct_symbols": 49,
     "diacritics": {
       "used": "unknown"
     },
@@ -168,7 +168,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 47,
+      "entries": 49,
       "kinds": [
         "common words",
         "names",
@@ -451,6 +451,12 @@
       "kind": "access",
       "what": "Checked whether DECODE holds anything better, using the logged-in cookie. It does not. The full-size file filesrv returns IS the 3440x2465 two-page opening already fetched (1.45 MB); MASTER_, MS_, ORIG_ and .tif variants all come back as the server's 5,244-byte not-found placeholder. The Image Manager (/decrypt-web/ImagesList) answers 'You do not have permission to access' with this cookie - it is a viewer session, not an editor one, so its zoom view is unreachable too. The ceiling is DECODE's stored derivative copy, which confirms that lifting the alphabet limit needs the RAH's own digitisation rather than anything further from DECODE.",
       "result": "ruled out"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "Walked f. 239, the third ciphered leaf, marked B/C/D in the margin. Section B against 'que sin el no hay nada, y con el' gives su-b-r = 'sin' (sub 'si' plus one sign) and xur+zun = nada again. Section C against 'da senal de paz ... el Rey de Francia ... por enbiar embaxador a su Sa ... pues queda de la guerra' gives tel = 'pues', confirmed by an exact slot and immediately followed by ton+zun = que+da = 'queda', which confirms both a further time; ta-r = Rey and y-ed = embaxador recorded as probable. Eighty entries, forty-nine confirmed code values.",
+      "result": "worked"
     }
   ],
   "outcome": {
