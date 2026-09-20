@@ -68,14 +68,14 @@
       "nomenclator",
       "homophonic"
     ],
-    "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with long words spelled letter by letter between the codes; same family as Sanchez's and Juan Manuel's 1522 ciphers but a distinct key.",
+    "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with homophones at code level (ta and tu both = 'no'), codes used for syllables as well as whole words, and long words spelled letter by letter between the codes.",
     "symbol_kind": "letters and symbols",
     "distinct_symbols": "unknown",
     "diacritics": {
       "used": "unknown"
     },
     "homophones": {
-      "used": "unknown"
+      "used": true
     },
     "nomenclator": {
       "present": true,
@@ -185,6 +185,12 @@
       "kind": "verification",
       "what": "Retracted an earlier probable value: zar = 'Bari' was wrong. zar is frequent and falls here in the slot 'los criados de su Sa'; it is now carried as 'de' or 'su', still probable. The confirmed/probable split in key_codes.tsv is what caught this - no probable value had been used to derive anything.",
       "result": "ruled out"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "A line of R9644 f. 238 aligned end to end with the plaintext, nothing left over: 'ta xil+s zun+z xur zun q x-i-r-i-a ton tu ton+ria ton xul' = 'no les dar nada y diria que no queria que lo'. Gives ta = no (a homophone of tu, both in the same line, so the cipher has homophones at code level), xil = le, q = y, and the ending -ria. Shows codes carrying syllables: xur+zun = na+da, ton+ria = que+ria, with zun the same 'da' confirmed earlier in 'da por'. Nineteen confirmed, thirteen probable.",
+      "result": "worked"
     }
   ],
   "outcome": {

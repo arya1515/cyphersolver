@@ -146,7 +146,24 @@ re-confirms `zun` = *da*.
 in the slot *los criados **de su** Sa*; it is now carried as *de* or *su*, still probable. This is why
 the probable values are kept out of any derivation.
 
-Thirteen values confirmed, thirteen probable.
+### The next line aligns end to end
+
+The following line of cipher matches the plaintext token for token with nothing left over:
+
+| `ta` | `xil`+s | `zun`+`ʒ` | `xur` `zun` | `ɋ` | `x∞ʒ∞7` | `ton` | `tu` | `ton`+`℔∞7` | `ton` | `xul` |
+|---|---|---|---|---|---|---|---|---|---|---|
+| no | les | dar | **na·da** | y | diria | que | no | **que·ria** | que | lo |
+
+Three things come out of it.
+
+1. **Two codes for *no*.** `ta` and `tu` both stand for it, in the same line — the cipher has
+   homophones at the code level, not only in the alphabet.
+2. **Codes carry syllables.** `xur`+`zun` = *na*+*da*, and `ton`+`℔∞7` = *que*+*ria*. `zun` is the
+   same *da* confirmed earlier in *da por*; here it is the second syllable of *nada*. Word boundaries
+   go both ways in this cipher exactly as they do in Sánchez's.
+3. `x∞ʒ∞7` is five signs for the five letters of *diria*, consistent with `ʒ` = r.
+
+Nineteen values confirmed, thirteen probable.
 
 ## Next
 
