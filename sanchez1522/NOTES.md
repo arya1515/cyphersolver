@@ -196,6 +196,29 @@ f. 20r word by word against the signs beneath it, which pins each homophone in *
 and then the unglossed lines and the rest of the group follow. That is edition work against a published
 key, not cryptanalysis.
 
+## R9605 gives ground truth, and it changes two things
+
+R9605 (9/24 f. 39-44, 7 May 1522) is the record Tomokiyo broke the cipher from, and its images show
+why: the **cipher and the clerk's full contemporary decipherment sit on facing leaves**. Fetched here
+and aligned at the end of the letter (`calibration_r9605.md`):
+
+> *plegue adios* `nuf` `pac` `ɡɣβ4q4` `vog` `veg` `zn·β·aɥ` `nuf` = "plegue a Dios **no lo yerre en el
+> camino**"
+
+`vog veg` = *en el* is Tomokiyo's own way in, met here in situ. Two things follow that the key alone
+could not give:
+
+1. **Code groups are used for syllables, not only whole words.** `nuf` is *no* the adverb, and in the
+   next breath the final syllable of *cami-no*. A reading that assumes one group = one word will
+   mis-segment.
+2. **The lookalike signs separate.** *camino* needs `β` = **m**; *ahora* (`nx#Ɋn`, R9635 f. 20r) needs
+   `Ɋ` = **r**; the bold `∞` is **g**. All three are a "g"-shape at DECODE's resolution and they are
+   the single largest source of error in the spelled runs.
+
+This is the calibration route: align the whole of R9605's cipher against its decipherment - several
+hundred signs of ground truth - to fix each homophone in this scribe's hand, then carry it to the
+unglossed pages. That is the next session's work.
+
 ## What is left
 
 The other 27 records. Most of them have a contemporary decipherment bound in — though R9635 shows the

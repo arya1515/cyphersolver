@@ -99,7 +99,7 @@
     "key_order": "partly alphabetical",
     "word_division": "kept",
     "doubled_letters": "unknown",
-    "sibling_key": "Juan Manuel's 1522 Rome cipher (DECODE R9499-R9529), same design, different values; also reconstructed by Tomokiyo."
+    "sibling_key": "Juan Manuel's 1522 Rome cipher (DECODE R9499-R9529), same design, different values; also reconstructed by Tomokiyo. R9605 and R9613 carry full contemporary decipherments on leaves facing their cipher, and are the calibration source for the hand."
   },
   "conditions": {
     "prior_solution": {
@@ -198,6 +198,24 @@
       "kind": "hypothesis",
       "what": "Settled the notation: pol9 = pol (mi) + the letter sign for l = 'mil' (the l sign reads as a g in this hand); g-y + lal (publica) = 'republica'; the opening nulls are padded with the meaningless clear words 'como' and 'quien', which is what Tomokiyo's 'como quierr' note under the nulls column means.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Fetched R9605 (the record Tomokiyo broke the cipher from) and found its cipher and the clerk's full contemporary decipherment on facing leaves. Aligned the end of the letter: 'plegue adios nuf pac g-y-B-4-q-4 vog veg zn-B-ai nuf' = 'plegue a Dios no lo yerre en el camino', with vog veg = 'en el' met in situ.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Two findings from that alignment: code groups are used for syllables as well as whole words (nuf is 'no' the adverb and the last syllable of cami-no), so one-group-one-word segmentation fails; and the lookalike signs separate as B = m (camino), curly-q = r (ahora), bold-infinity = g, which is the largest source of error in reading the spelled runs at DECODE's resolution.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Attempted a continuous reading of the spelled-out letter runs on R9635 f. 20r. Not achieved: separating B / curly-q / bold-infinity is a judgement call at each occurrence and guessing them yields plausible Spanish that is not what the page says. Left marked rather than filled in; the R9605 calibration is the route through.",
+      "result": "failed"
     }
   ],
   "outcome": {
