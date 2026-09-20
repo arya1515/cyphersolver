@@ -254,7 +254,26 @@ Everything in bold is a value won earlier and reappearing correctly; `tef` = *pa
 *la paz por los infieles y por la necessidad* is continuous previously-unread text — Hurtado
 reporting that the Pope wanted peace because of the Turks and because of the Emperor's need.
 
-Forty-six values confirmed, eleven probable.
+### The alphabet decodes a word on its own
+
+On f. 264 of R9648, between the clear words *antes de agora* and *si se oviera hecho*:
+
+> ‖ `tu` `ʃu` `ᵹ…7` **`℔ᵹ8ʒxL6m`** **`xur zun`**
+> = no se [h]uviera **perdido** **nada**
+
+`℔ᵹ8ʒxL6m` spells out p-e-r-d-i-d-o. Six of those signs — `8`=e, `ʒ`=r, `x`=d, `L`=i, `6`=d, `m`=o —
+were derived on R9644 from *perdida*, *pensaria* and *Pedro*, and every one of them is correct here in
+a word decoded without being looked for. `xur zun` = *na*+*da* likewise reappears intact.
+
+The whole sentence then runs: *y antes de agora **no se huviera perdido nada**, si se oviera hecho
+como muchas vezes yo lo escrevi a v. Mt* — Hurtado telling the Emperor that nothing would have been
+lost had his advice been taken earlier.
+
+R9644 carries this same sentence in the clear, being the duplicate, so the reading is corroborated
+rather than unsupported; but the **decoding** was done from the key, not read off the crib, and that
+is the test the key needed to pass.
+
+Forty-seven values confirmed, eleven probable.
 
 ## Next
 

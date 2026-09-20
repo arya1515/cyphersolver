@@ -264,11 +264,17 @@
       "kind": "reading",
       "what": "More of R9648 f. 262 reads: 'ton y-ub zed' before the clear 'le avia embiado la carta' = 'que el arcobispo', giving zed = arcobispo, a name-code for the archbishop of Bari. And a continuous run 'la paz por los infieles y por la necessidad', where la, por, los and y are all values won earlier and reappearing correctly, and tef = paz is new. Forty-six confirmed, eleven probable.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "The alphabet decodes a word on its own. On R9648 f. 264, between the clear words 'antes de agora' and 'si se oviera hecho', the cipher gives 'tu su <run> <8-sign run> xur zun' = 'no se [h]uviera perdido nada'. The eight-sign run spells p-e-r-d-i-d-o, and six of those signs (e, r, d, i, d, o) were derived on R9644 from 'perdida', 'pensaria' and 'Pedro' - every one correct here in a word decoded without being looked for. xur+zun = na+da reappears intact. R9644 carries the same sentence in the clear, being the duplicate, so the reading is corroborated rather than unsupported; but the decoding was done from the key, not read off the crib.",
+      "result": "worked"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.08,
+    "fraction_read": 0.1,
     "verification": [
       "contemporary decipherment",
       "key confirms"
