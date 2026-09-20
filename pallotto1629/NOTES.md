@@ -11,9 +11,11 @@ The catalogue entry said "what the cipher hides is not known". It is known, and 
 ## What the target actually is
 
 The manuscript is free on DigiVatLib: <https://digi.vatlib.it/view/MSS_Barb.lat.6960>, 194 pages,
-IIIF manifest at `/iiif/MSS_Barb.lat.6960/manifest.json`. The images are small — the IIIF `info.json`
-gives a maximum of **748 × 1088 px** per page, an old bitonal microfilm scan. Everything larger that the
-server returns is an upscale. This matters: see "Why the key is not recovered" below.
+IIIF manifest at `/iiif/MSS_Barb.lat.6960/manifest.json`. Those images are small — the IIIF `info.json`
+gives a maximum of **748 × 1088 px** per page, an old bitonal microfilm scan, and anything larger the server
+returns is an upscale. **DECODE has better scans of the same leaves**: `IMG_R286_I2489_P1.png` and
+`IMG_R286_I2490_P2.png` are **1491 × 2066**, four times the pixel area, behind the login (cookie recipe in the
+`decode-access` memory). Use DECODE's images, not DigiVatLib's, for any transcription work here.
 
 DECODE's `additional_information` gives each record's page range in that same DigiVatLib pagination,
 so DECODE page *n* = canvas *n*. Ranges are in `decode_records.txt`.
@@ -55,7 +57,7 @@ the Emperor and the French envoy Sabran over Casale, Susa and the Grisons passes
 Numeric, written as an unbroken stream of digits with decorative spacing. Transcriptions of all 28
 ciphertexts were made for DECODE in 2019–20 by volunteers and are downloadable as `DOC_R*.txt`
 (saved in `decode/`, fetched with the cookie recipe in the `decode-access` memory).
-112,805 digits in total; R286 alone has 3,570.
+112,805 digits in total; R286 alone has 3,573 (measured with `docs/_check_profile.py --measure`).
 
 Digit frequencies are strongly uneven (0 = 16.1 %, 4 = 4.8 %), and adjacent digits carry ~0.18 bits of
 mutual information — so the stream is structured, not random.
@@ -84,24 +86,68 @@ H  O  R  I  C  E  V  U  T  A  L  A  R  I  S  P  O  S  T  A  D  A  T  A  M  I  I
 ```
 
 27 letters with two independent repeat confirmations (38 = T twice, 23 = I twice; p ≈ 0.006 by chance).
-The 28th code conflicts and the alignment never recovers. Iterating a banded DP aligner (2-digit codes plus
-1-/3-digit resync ops for transcription slips) over the whole of R286 against a hand-corrected crib of
-Nr. 153 tops out at about **55 % code→letter consistency** — far above the 20 % baseline, far below the
-~95 % that would mean the key is in hand.
+The 28th code conflicts and the alignment never recovers. Re-read on DECODE's better scan the line is
+essentially the same (two substitutions, no length change), so **the break is not a transcription artefact at
+that point**. Iterating a banded DP aligner over the whole of R286 reaches about 55 % code→letter consistency,
+but the held-out test below shows that figure is worthless — it is the aligner fitting the crib.
 
-## Why the key is not recovered
+## Why the key is not recovered — measured, with controls
 
-Most likely the transcriptions, not the cipher. Checking DECODE's line 1 of p. 5 against my own reading of
-the image, the two agree on the first 22 digits and then differ by about six digits, including a
-±2-digit difference in length, over a 74-digit line. A single inserted or dropped digit flips the phase for
-the rest of the line, which is exactly what would erase the phase signal in the statistics above and break
-a letter-level alignment every ~27 letters. Line 2 by contrast matched almost exactly, so the error rate is
-uneven rather than uniform.
+Two experiments were run after the first pass, and they change the earlier conclusion.
 
-At 748 px per page the digits are roughly ten pixels wide and individual strokes are genuinely ambiguous.
-A key recovery needs a fresh, accurate transcription, and that needs better images than the BAV serves
-publicly — a new capture of ff. 2–3, 5–6 and the other cipher leaves would probably be enough, since the
-plaintext of every passage is already known from Kiewning and can be used as a crib.
+**1. Held-out test. The "key" recovered from R286 carries no information.**
+Learn a table on the first 55 % of R286 against the crib, freeze it, then align the remaining digits to the
+remaining crib and count confirmations (a confirmation = the code was already in the table and agrees).
+Against eight controls that keep the same table but shuffle the letters among the codes:
+
+| | confirmations per letter | DP score |
+|---|---|---|
+| learned key | 0.355 | −3266 |
+| shuffled controls (mean of 8) | 0.359 | −3313 |
+
+No separation. The same test for a "2-digit codes + nulls, no digit slips" model gives 0.440 against a control
+mean of 0.431 — again nothing. **The ~55 % consistency reported in the first pass was the aligner fitting the
+crib, not a key.** Any claim of a partial key here would have been wrong.
+
+**2. Positive control. The pipeline works; this material defeats it.**
+Encipher the same crib with a random two-digit homophonic key, damage the digit stream with single-digit
+insertions and deletions at a given rate, and run the identical learner. Fraction of the true key recovered:
+
+| digit error rate | key recovered |
+|---|---|
+| 0 % | 100 / 100 |
+| 0.5 % | 87 / 100 |
+| 1.7 % | 7 / 100 |
+| 4 % | 19 / 100 |
+
+So the method is sound, and it needs a transcription accurate to better than about **0.5 % of digits**. Above
+roughly 1 %, a two-digit key cannot be recovered from this much text even when the plaintext is known, because
+each inserted or dropped digit flips the code phase for everything after it.
+
+**Correction to the first pass.** It said the images top out at 748 × 1088 px and that DECODE's transcription of
+p. 5 line 1 differs from a fresh reading by about six digits in seventy-four including a length difference. Both
+statements were wrong, and the error was mine:
+
+* 748 × 1088 is DigiVatLib's maximum, but **DECODE serves its own scans of the same leaves at 1491 × 2066** —
+  four times the pixel area (`IMG_R286_I2489_P1.png`, `IMG_R286_I2490_P2.png`, behind the login).
+* Re-read on that better scan, line 1 differs from DECODE's transcription in **two digits out of seventy-four,
+  both substitutions, with no length difference** (they read 93 where the scan shows 73, and 30 where it shows
+  38). My earlier six-digit discrepancy was my own misreading of the low-resolution image. On line 2 the two
+  readings differ by a digit or two and possibly in length, so the transcription still cannot be assumed exact —
+  but DECODE's is better than the first pass credited, and no length error is demonstrated.
+
+**Where that leaves it.** With DECODE's transcription no two-digit key generalises, with or without nulls. Two
+explanations remain open and cannot be separated from this material: either the transcription carries enough
+length errors to defeat recovery (the synthetic control shows ~1 % would be enough), or the cipher is not a
+fixed-width substitution of this plaintext at all. The opening still aligns for 27 letters with two repeat
+confirmations — which on its own is about a 1-in-180 coincidence, and was found by choosing the best-matching
+start, so it is suggestive and no more.
+
+**The concrete next step**, and the reason this is worth returning to: DECODE's 1491 × 2066 scans are good enough
+for a careful transcription, and the plaintext of every passage is already known from Kiewning. A transcription
+of one sheet at better than 0.5 % digit error would settle it either way. Doing that by eye is slow and my own
+attempt was not clearly better than DECODE's; the repository's existing approach for this — glyph segmentation
+and clustering, as used for the Sormano and Gramont leaves — is the tool to build.
 
 ## Files
 

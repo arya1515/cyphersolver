@@ -227,8 +227,9 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 - **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, catalogue 237, BAV Barb.lat. 6960, DECODE R286–R313 — contents found
   in print, 20 Sept 2026. Kiewning's *Nuntiatur des Pallotto*, Bd. 2 (1897) prints the despatches from the Roman
-  office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken and the
-  key is not recovered. The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
+  office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken, the key is not
+  recovered and no partial key is claimed; the failure is measured and needs a transcription better than ~0.5 %
+  digit error, which DECODE's 1491×2066 scans can support. The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
   [pallotto1629/](pallotto1629/).
 
 - **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.

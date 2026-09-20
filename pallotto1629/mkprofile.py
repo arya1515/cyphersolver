@@ -29,7 +29,7 @@ for r in sorted(pages):
         "transcription": {
             "by": "DECODE",
             "source": "DECODE DOC_R%d_*.txt, transcribed 2019-20 by volunteers" % r,
-            "image_quality": "poor",
+            "image_quality": "fair",
             "notes": ("Digits only; the transcription records single digits, so the manuscript's "
                       "grouping is lost. Tokens measured are digits, not code groups; the code "
                       "width is undetermined."),
@@ -38,9 +38,11 @@ for r in sorted(pages):
     if r == 286:
         d["date"] = "4 Aug 1629"
         d["pages"] = 2
-        d["transcription"]["notes"] += (" Line 1 of p. 5 was re-read here from the image and differs "
-                                        "from DECODE's by about six digits in 74, including a "
-                                        "two-digit length difference; line 2 matched.")
+        d["transcription"]["notes"] += (" Line 1 of p. 5 was re-read here from DECODE's 1491x2066 scan: it "
+                                        "differs from DECODE's transcription in two digits of 74, both "
+                                        "substitutions, with no length difference. Line 2 differs by a digit "
+                                        "or two and possibly in length, so the transcription is close but "
+                                        "cannot be assumed exact.")
     docs.append(d)
 
 prof = {
@@ -55,7 +57,7 @@ prof = {
    "digit_groups": {"width": "unknown", "separation": "contiguous"},
    "distinct_symbols": 10,
    "diacritics": {"used": False,
-                  "note": "None recorded by the DECODE transcribers; the images are too coarse to see whether the hand marks any figure."},
+                  "note": "None recorded by the DECODE transcribers, and none seen on DECODE's 1491x2066 scan of p. 5."},
    "homophones": {"used": True},
    "nomenclator": {"present": False},
    "nulls": {"present": False},
@@ -65,7 +67,7 @@ prof = {
              "and adjacent digits carry ~0.18 bits of mutual information, so the stream is structured. "
              "No phase preference was found for two-digit codes (IC 0.01462 at phase 0 vs 0.01466 at "
              "phase 1; even- and odd-position digit distributions agree to 0.2%) or for three-digit "
-             "codes, which is also what frequent one-digit transcription slips would produce. "
+             "codes, which is also what one-digit transcription slips at about 1% would produce. "
              "distinct_symbols is the digit alphabet, not the key's code groups, which are unknown."),
  },
  "conditions": {
@@ -92,7 +94,7 @@ prof = {
  },
  "solution": [
   {"date": "2026-09-20", "kind": "access",
-   "what": "Found the manuscript free on DigiVatLib (Barb.lat. 6960, 194 canvases) and fetched the IIIF manifest; the service maximum is 748x1088 px per page, an old bitonal microfilm scan.",
+   "what": "Found the manuscript free on DigiVatLib (Barb.lat. 6960, 194 canvases) and fetched the IIIF manifest; that service maximum is 748x1088 px per page, an old bitonal microfilm scan. DECODE's own scans of the same leaves, found later, are four times larger.",
    "result": "partial"},
   {"date": "2026-09-20", "kind": "access",
    "what": "Mapped DECODE R286-R313 to DigiVatLib page ranges from each record's additional_information; established that the volume interleaves cipher sheets with clear register pages.",
@@ -122,7 +124,13 @@ prof = {
    "what": "Tested a syllabic two-digit nomenclator by aligning codes to plaintext spans of one to four letters; every well-attested code collapsed to a single letter, so no syllable table.",
    "result": "ruled out"},
   {"date": "2026-09-20", "kind": "control",
-   "what": "Re-read line 1 of p. 5 from the image and compared with DECODE's transcription: agreement on the first 22 digits, then about six differences in 74 digits including a two-digit length difference; line 2 matched almost exactly. A dropped or inserted digit flips the code phase for the rest of a line, which accounts for both the missing phase signal and the broken alignments.",
+   "what": "Held-out test: learned a two-digit table on the first 55% of R286 against the crib, froze it, and aligned the remainder. Confirmations per letter 0.355 against a mean of 0.359 over eight controls that shuffle the letters among the same codes; DP score -3266 against -3313. The same test for a 2-digit-plus-nulls model gives 0.440 against 0.431. No separation: the earlier 55% consistency was the aligner fitting the crib, not a key.",
+   "result": "ruled out"},
+  {"date": "2026-09-20", "kind": "control",
+   "what": "Positive control: enciphered the same crib with a random two-digit homophonic key, damaged the digit stream with single-digit insertions and deletions, and ran the identical learner. True key recovered 100/100 at 0% digit error, 87/100 at 0.5%, 7/100 at 1.7%, 19/100 at 4%. The method is sound; it needs a transcription better than about 0.5% digit error.",
+   "result": "worked"},
+  {"date": "2026-09-20", "kind": "access",
+   "what": "Found that DECODE serves its own scans of these leaves at 1491x2066 (IMG_R286_I2489_P1.png, IMG_R286_I2490_P2.png), four times the pixel area of DigiVatLib's 748x1088. Re-read p. 5 line 1 on it: it differs from DECODE's transcription in two digits of 74, both substitutions, no length difference - correcting an earlier claim of about six differences including a length change, which was a misreading of the low-resolution image.",
    "result": "worked"},
   {"date": "2026-09-20", "kind": "reading",
    "what": "Content of the despatches recovered from Kiewning's printed contemporary decipherment, not from the cipher: Pallotto's mediation between the Emperor and the French envoy Sabran over the Mantuan succession, Casale, Susa and the Grisons passes, Aug-Nov 1629.",
@@ -132,12 +140,15 @@ prof = {
    "class": "already solved",
    "verification": ["contemporary decipherment", "independent clear copy", "historical consistency"],
    "notes": ("The catalogue said 'what the cipher hides is not known'; it is known, and has been in print "
-             "since 1897, from the Roman office's own decipherments. The cipher itself was not broken "
-             "here: the key is not recovered and the code width is undetermined. The block is the source "
-             "material - at 748 px per page the figures are about ten pixels wide, and DECODE's digit "
-             "transcriptions carry slips often enough to break a letter-level alignment every ~27 letters. "
-             "Since the plaintext of every passage is known from Kiewning, a fresh accurate transcription "
-             "from better images would very likely give the key."),
+             "since 1897, from the Roman office's own decipherments. The cipher itself was not broken here and "
+             "no partial key is claimed: a held-out test shows the table learned from R286 predicts unseen text "
+             "no better than a shuffled control (0.355 vs 0.359), so the 55% consistency of the first pass was "
+             "overfitting. A positive control on synthetic ciphertext recovers a random key 100/100 from a clean "
+             "transcription, 87/100 at 0.5% digit error and 7/100 at 1.7%, so the method is sound and the limit "
+             "is the transcription. Two explanations remain open and cannot be separated from this material: "
+             "length errors in the transcription, or the cipher not being a fixed-width substitution of this "
+             "plaintext. The concrete next step is a transcription at better than 0.5% digit error from DECODE's "
+             "1491x2066 scans, by glyph segmentation and clustering rather than by eye."),
  },
 }
 
