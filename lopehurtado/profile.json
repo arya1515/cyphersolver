@@ -139,7 +139,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 49,
+      "entries": 50,
       "kinds": [
         "common words",
         "names",
@@ -312,6 +312,12 @@
       "date": "2026-09-20",
       "kind": "key from source",
       "what": "R9648 f. 264 after the clear 'A lo q he entendido': 'zil y-ub zed zar <spelled Cosenza>' against section B of the R9644 plaintext = 'con el arcobispo de Cosenza'. Gives zil = con, re-confirms zed = arcobispo in a second context, and promotes zar = de, now attested three times (de su Sa, de Francia, de Cosenza) - which matters because zar is one of the commonest groups on every leaf. Forty-nine confirmed, ten probable.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "rab = vuestra magestad, from 'zar rab' falling exactly on 'de v. ma' in section C, and from rab being one of the commonest groups on every leaf - which is what 'vuestra magestad' should be in despatches to the Emperor. The spelled words either side check the alphabet again: 'honrrado' and 'approvechado' both end a-d-o, with n inside the first, every sign having come from R9644. Fifty confirmed, ten probable.",
       "result": "worked"
     }
   ],

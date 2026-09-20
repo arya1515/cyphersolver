@@ -307,7 +307,22 @@ against section B of the R9644 plaintext. That gives **`zil` = *con***, re-confi
 (*de su Sa*, *de Francia*, *de Cosenza*), which matters because `zar` is one of the commonest groups
 on every leaf.
 
-Forty-nine values confirmed, ten probable.
+### The commonest group of all
+
+A little further on the same leaf, against section C of the plaintext (*… por la necessidad de v. ma,
+pues queda de la guerra honrrado y approvechado. Yo dixe a su Sa …*):
+
+> … `zar` **`rab`** … `ᵹᵹ497xm` `ɋ` `7℔℔…xm` │ *yo dixe a su S. q v. Mt.*
+> = … de **v. ma** … **honrrado** **y** **approvechado** …
+
+`zar rab` falls exactly on *de v. ma*, and `rab` is one of the commonest groups on every leaf of
+every letter — which is what *vuestra magestad* ought to be in despatches addressed to the Emperor.
+**`rab` = *vuestra magestad***.
+
+The two spelled words either side check the alphabet again: *honrrado* and *approvechado* both end
+`…7 x m` = a-d-o, with `4` = n inside the first. Every one of those signs came from R9644.
+
+Fifty values confirmed, ten probable.
 
 ## Next
 
