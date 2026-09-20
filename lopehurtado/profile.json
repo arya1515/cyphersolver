@@ -199,7 +199,7 @@
       "crib"
     ],
     "attack": "crib",
-    "human_role": "redirected the session to this target; supplied the DECODE login cookie used earlier.",
+    "human_role": "redirected the session to this target; supplied the DECODE login cookie reused from an earlier target. Would need to fetch higher-resolution images from the RAH's own Biblioteca Digital, which blocks automated access, to lift the alphabet limit.",
     "tools": [
       "PIL crops/upscaling of DECODE images",
       "decode.py (confirmed-only resolver with coverage measure)"
@@ -439,6 +439,12 @@
       "kind": "control",
       "what": "Re-measured coverage after the downgrade, with decode.py applying confirmed values only: R9650 f. 270 still 62%. The coverage figures were carried almost entirely by the code groups, so the downgrade does not move them - which is itself the evidence that the nomenclator and the alphabet are independent, and that the reading rests on the safe half.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Established what would actually finish this, and that it needs the human. DECODE serves these leaves at 3440x2465 for a TWO-PAGE opening - about 1700 px across a folio, enough for the latin trigrams and not enough to tell two similar cursive signs apart. That is the measured cause of the alphabet limit. The volume is in the Coleccion Salazar y Castro, which the RAH is digitising at bibliotecadigital.rah.es; those images would be far better than DECODE's derivative copies. But that site returns HTTP 403 to automated requests and puts a bot check in front of its search, so it needs Daniel to fetch, exactly as DECODE's image server needs his logged-in cookie. Searching there for 'Salazar y Castro, A-26' and pulling ff. 237-243, 260-272, 334-335 at full resolution would unblock the alphabet and with it the five uncribbed records.",
+      "result": "failed"
     }
   ],
   "outcome": {

@@ -534,6 +534,30 @@ these scans.
 The practical consequence is that Hurtado's letters will read *in substance* — subject, parties,
 sums, the drift of the argument — well before they read word for word.
 
+## The one thing that would finish this: better images
+
+The blocker is measured, not guessed. DECODE serves these leaves at **3440 × 2465 for a two-page
+opening** — about 1700 px across a folio, which is enough for the latin trigrams and not enough to
+tell two similar cursive signs apart. That is why the code groups are confirmed and the alphabet is
+not, and no amount of further crib-walking changes it.
+
+The volume is in the **Colección Salazar y Castro**, which the Real Academia de la Historia has been
+digitising at its own Biblioteca Digital (<https://bibliotecadigital.rah.es>). If Salazar 9/26 is
+there, its images will be far better than DECODE's derivative copies, and the alphabet becomes
+ordinary work rather than guesswork.
+
+**This needs Daniel**, not the session: `bibliotecadigital.rah.es` returns HTTP 403 to automated
+requests and puts a bot check in front of its search, exactly as DECODE's image server needs a
+logged-in cookie ([[decode-access]]). Searching there for *Salazar y Castro, A-26* (the old
+signature for 9/26) and pulling ff. 237–243, 260–272 and 334–335 at full resolution would unblock:
+
+- the substitution alphabet, and with it a word-perfect edition of the ciphered leaves;
+- the five records with no clear version (R9634, R9645, R9646, R9649, R9656), which currently read
+  in substance only.
+
+Until then the honest ceiling is the one recorded above: the nomenclator reads, the spelled runs do
+not.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.
