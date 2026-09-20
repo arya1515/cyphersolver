@@ -45,6 +45,30 @@ mais=A, nous=>, ont=delta2, par=at, plus=quote2, puis=tz, quant=Omega, que=qq-ba
 l'Empereur=e-grave-like, Roy de Boheme=V-dot
 
 ## State
+
+Status: read in part.
+
+**fr. 3181 f. 55 (Catherine de Médicis to Rennes, 31 July 1563) is read in part** — see
+`READING.md` and `decode.py`. The thirteen ciphered lines were never deciphered: La
+Ferrière printed the letter in *Lettres de Catherine de Médicis* II, pp. 79-81 and set the
+whole block as `[ ]` with the footnote "Partie chiffrée"; Tomokiyo lists f. 55 as
+undeciphered. Tomokiyo's reconstructed key works on it once calibrated on this scribe's
+shapes, which was done against the line-by-line margin decipherment of the sibling letter
+f. 57 (13 Aug 1563, view 38), whose first ciphered line reads `que les princes`.
+
+Continuous stretches recovered include: *sceu ce que vous avez descouvert*, *du mariage*,
+*vostre advis*, *d'iceulx en mon intention*, *ayt tenu ce chemin*, *ce qui pourra*,
+*entendu ce que le*, *vous mist en avant, qui l'avoit*, *l'avancement du concile, à ce
+que*, *chacun faict*, *de ce concile, mais nous*, *avoir l'utilité qui en sortira*,
+*mect des se[ss]ions*, *que vous avez oy*, *par lettres*. The subject is the Council of
+Trent and the Habsburg marriage negotiation — which is why it was enciphered, while the
+Havre-de-Grâce news in the same letter was left in clear.
+
+Not yet attempted: 500 Colbert 390 p. 139 and p. 357, and 500 Colbert 392 p. 231 (same
+cipher; images fetched to `img/`, which is git-ignored — `fetch.py` and `fetch3181.py`
+rebuild it; note fr. 3181 folio = Gallica view + 19, so f. 55 = view 36).
+
+## Setup (earlier session)
 This is setup and key calibration, not a completed decipherment. No continuous reading of any of the four target letters has been established.
 
 - Images fetched locally (img/): fr3181 v33-v42 (ff. 52-61), c390 v70-73 + v179-181, c392 v112-115.

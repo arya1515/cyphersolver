@@ -19,6 +19,7 @@
   "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
   "cardinal morosini, legate in france, to cardinal montalto, 1588–89": "2026-09-19",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
+  "catherine de médicis to the bishop of rennes, 31 july 1563": "2026-09-20",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
@@ -158,7 +159,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "96ecef3f9bf1",
+   "hash": "0eb8e74c8da6",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -258,7 +259,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "aeabd59bfc97",
+   "hash": "e0ba100e3777",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -370,6 +371,11 @@
    "first": "2026-09-17",
    "hash": "b283aa4c0b52",
    "updated": "2026-09-17"
+  },
+  "rennes1563": {
+   "first": "2026-09-20",
+   "hash": "3b1101678045",
+   "updated": "2026-09-20"
   },
   "reserva12": {
    "first": "2026-09-18",
@@ -503,7 +509,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "b41dd1042aaa",
+   "hash": "38f63b28ed5a",
    "updated": "2026-09-20"
   },
   "yard1699": {

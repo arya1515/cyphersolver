@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "target": "rennes1563",
+  "title": "Catherine de Medicis to Bernardin Bochetel, bishop of Rennes, 31 July 1563",
+  "documents": [
+    {
+      "id": "fr3181-f55",
+      "shelfmark": "BnF fr. 3181 f. 55",
+      "date": "31 July 1563",
+      "year": 1563,
+      "country": "France",
+      "route": "camp before Le Havre -> imperial court (Vienna)",
+      "language": "French",
+      "pages": 1,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": ["none"],
+        "source": "La Ferriere printed the letter (Lettres de Catherine de Medicis II, pp. 79-81) but set the ciphered block as '[ ]' with the footnote 'Partie chiffree'; Tomokiyo lists f. 55 as undeciphered.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 401,
+        "distinct": 71,
+        "unit": "symbols",
+        "measured": true,
+        "file": "cipher_f55.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Gallica IIIF, ark btv1b9059845t view 36, native 8720x5935",
+        "image_quality": "good",
+        "notes": "Thirteen ciphered lines between the clear 'c'est pour' and the clear 'Au demourant'. Transcribed glyph by glyph from region crops at native resolution; token boundaries are mine. Several r/s, e/o and l/t homophones are near identical in this hand and remain uncertain, chiefly on lines 2, 4, 8, 12 and 13."
+      }
+    }
+  ],
+  "system": {
+    "types": ["homophonic", "nomenclator"],
+    "summary": "Homophonic substitution on invented signs, two to eight per letter, with about thirty word-signs and a set of nulls that includes ordinary French words written in clear.",
+    "symbol_kind": "letters and symbols",
+    "distinct_symbols": 110,
+    "diacritics": {"used": true, "note": "an overbar distinguishes homophones, e.g. 10 (i) from 10-bar (i), and marks the word-signs que (q-q bar), qui (V bar), la (mn bar)."},
+    "homophones": {"used": true, "max_per_vowel": 6, "max_per_consonant": 8},
+    "nomenclator": {
+      "present": true,
+      "entries": 32,
+      "kinds": ["common words", "titles"],
+      "unread_groups": 0
+    },
+    "nulls": {"present": true, "count": 16},
+    "key_order": "random",
+    "word_division": "none",
+    "doubled_letters": "written twice",
+    "sibling_key": "Tomokiyo's reconstruction of the Bishop of Rennes' cipher 1561-1564 (cryptiana.web.fc2.com/code/henryiii.htm, images/CharlesIX_Rennes.png), built from the glossed letters of 500 Colbert 390 and BnF fr. 3158 f. 1; used.",
+    "notes": "Nulls include the clear French words que, est, pour, plus, xix, vre, do, fo, written in line so the page reads as if partly in clear. l'Empereur and Roy de Boheme have their own signs."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "La Ferriere (1885) prints the letter with the ciphered block left blank as 'Partie chiffree'; Tomokiyo marks f. 55 undeciphered while publishing a reconstructed key for the cipher.",
+      "found": "during attempt",
+      "used": false
+    },
+    "inputs": ["images", "cleartext context", "published key", "crib"],
+    "attack": "published key",
+    "human_role": "set the target and the order of work; supplied no images, transcription or reading.",
+    "tools": ["Gallica IIIF region requests", "PIL line/region segmentation (segment.py)", "glyph-to-letter decoder (decode.py)"],
+    "models": ["claude-opus-5[1m]"],
+    "sessions": 2,
+    "first_date": "2026-09-17",
+    "last_date": "2026-09-20"
+  },
+  "solution": [
+    {"date": "2026-09-17", "kind": "access", "what": "Identified the four target items and their Gallica arks and views; fetched page images.", "result": "worked"},
+    {"date": "2026-09-17", "kind": "key from source", "what": "Copied Tomokiyo's reconstructed Rennes key (1561-1564) into key.md as an ASCII glyph table.", "result": "partial"},
+    {"date": "2026-09-17", "kind": "transcription", "what": "First attempt to transcribe f. 55 from 2500-px page images.", "result": "failed"},
+    {"date": "2026-09-20", "kind": "literature search", "what": "Located the letter in La Ferriere, Lettres de Catherine de Medicis II, pp. 79-81: the clear text on both sides of the cipher matches the page, and the ciphered block is printed as '[ ]' with the footnote 'Partie chiffree'. Confirms the passage was never read.", "result": "worked"},
+    {"date": "2026-09-20", "kind": "access", "what": "Re-fetched images at native resolution by IIIF region request (8720x5935); corrected fetch.py's stale view numbers for fr. 3181 (folio = view + 19, so f. 55 = view 36).", "result": "worked"},
+    {"date": "2026-09-20", "kind": "crib", "what": "Calibrated the key on this scribe's shapes against the line-by-line margin decipherment of the sibling letter f. 57 (13 Aug 1563, view 38); its first ciphered line reads 'que les princes', fixing p, r, i, n, c and e.", "result": "worked"},
+    {"date": "2026-09-20", "kind": "transcription", "what": "Transcribed all thirteen ciphered lines of f. 55 into 401 glyph tokens from native-resolution thirds.", "result": "partial"},
+    {"date": "2026-09-20", "kind": "reading", "what": "Decoded the token stream with the calibrated key; recovered continuous French including 'sceu ce que vous avez descouvert', 'du mariage', 'vostre advis', 'd'iceulx en mon intention', 'ayt tenu ce chemin', 'entendu ce que le', 'vous mist en avant, qui l'avoit', 'l'avancement du concile, a ce que', 'de ce concile, mais nous', 'avoir l'utilite qui en sortira', 'que vous avez oy', 'par lettres'.", "result": "partial"},
+    {"date": "2026-09-20", "kind": "verification", "what": "The reading is consistent with the clear text framing it (Catherine answers Rennes' letter of 18 June) and with the situation: the Council of Trent's closing sessions and the Habsburg marriage negotiation are enciphered while the Havre-de-Grace news in the same letter is left in clear.", "result": "worked"}
+  ],
+  "outcome": {
+    "class": "read in part",
+    "fraction_read": 0.6,
+    "verification": ["key confirms", "historical consistency"],
+    "notes": "The key assigns a letter to nearly every token (397 of 401), but only about three fifths of the passage resolves into securely read French; the rest is blocked by near-identical r/s, e/o and l/t homophones in this hand, not by the key. Lines 2, 4, 8, 12 and 13 are the weakest. The three sibling items (500 Colbert 390 pp. 139 and 357, 500 Colbert 392 p. 231) are in the same cipher and were not attempted."
+  }
+}

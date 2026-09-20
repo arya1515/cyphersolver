@@ -42,10 +42,10 @@ Score = 0.25 D + 0.25 H + 0.20 N + 0.10 R + 0.10 F + 0.10 V.
 
 ### Provisional additions, 17 Sept 2026
 
-Seven items read after the ranking above was compiled. Scored on the same axes and formula by the assistant
+Eight items read after the ranking above was compiled. Scored on the same axes and formula by the assistant
 alone, not worked out in the appendix and not folded into the by-axis lists; Daniel is to check the scores
 before the tables are merged. Where they would fall: Lanssac between Feuquières and Ormonde, Raince between Huang Xing and Urquhart,
-the other four between Warsaw and Boswell.
+the other four between Warsaw and Boswell, and Rennes 1563 (p42) beside Miranda/Sessa.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -105,6 +105,7 @@ Mendoza, and Erving 1807 below Forster. The Henrietta Maria letters of 1645–46
 | p39 | **A Jacobean codebreaker's file of Italian intercepts**, TNA SP 106/10 ff. 128–195, 202–205 (DECODE R657, R660, R664, R704, R720–R722, key R725) | c. 1623–24 | 2 | 3 | 4 | 5 | 4 | 2 | **3.25** | D 2: no cryptanalysis was needed — the contemporary codebreaker had done it, and the work was to find the sheet he wrote it on and to read his hand. H 3: the Spanish Match and the Palatinate seen from inside the English government's postal attack, but no single despatch yet read through. N 4: nothing of SP 106/10 has a modern edition; the published SP 106 transcriptions stop at volume 4. R 5: seven catalogue records joined into one case, a sixty-seven-year date span narrowed to two years, three ciphers separated where the catalogue has one, one worksheet re-filed, and the key transcribed. V 2: the system is fully described and the first cipher's key complete, but only fragments of the letters are read |
 | p40 | **Henri IV → Maisse**, BnF fr. 16093 ff. 370, 373, 406, 410 | 1592–93 | 2 | 4 | 5 | 4 | 3 | 5 | **3.85** | A published key that nobody had applied, recovered from image files a text dump hides, then checked letter-for-letter against a clear copy found by a separate route; low on difficulty, high on novelty and verification |
 | p41 | **Conde de Miranda, duque de Sessa, Diego de Ibarra**, BnF fr. 3983 nos. 45, 79; fr. 3984 nos. 47, 68 | 1593 | 3 | 4 | 5 | 4 | 3 | 4 | **3.75** | The office's own key, with the nomenclature no published table has, recovered by following the catalogue's own DECODE step into a volume this repository already uses; high on novelty, held back because the letters are not yet transcribed |
+| p42 | **Catherine de Médicis and the Court (camp before Le Havre) → the bishop of Rennes**, BnF fr. 3181 f. 55 | 1563 | 3 | 4 | 5 | 4 | 3 | 4 | **3.85** | A passage that the standard edition printed as an empty bracket and that no one has read since 1563. Difficulty 3: the key was published, but it is a table of shapes and had to be matched to this scribe — the move that unlocked it was noticing that the sibling letter two folios on carries a line-by-line decipherment in its margin. Novelty 5: La Ferrière footnoted it *« Partie chiffrée »* and Tomokiyo lists it undeciphered. Weight 4: the Council of Trent and the Habsburg marriage, put in cipher in the same letter that sends the fall of Le Havre in clear. Fullness 3: about three fifths read, the rest limited by palaeography, not by the key |
 
 Arithmetic: p8 0.75 + 1.00 + 1.00 + 0.50 + 0.10 + 0.30; p9 0.75 + 1.00 + 1.00 + 0.30 + 0.10 + 0.40; p10 0.50 + 0.75 + 1.00 + 0.40 + 0.20 + 0.20;
 p11 0.25 + 0.75 + 0.80 + 0.40 + 0.20 + 0.50; p12 0.50 + 0.75 + 0.40 + 0.40 + 0.10 + 0.40; p13 0.25 + 0.50 + 0.40 + 0.40 + 0.10 + 0.50;
