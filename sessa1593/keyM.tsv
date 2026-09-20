@@ -1,0 +1,71 @@
+# Cipher between the Count of Mansfeld and the Duke of Feria (1593), used also by Don Diego de Ibarra
+# in Paris. Key published by S. Tomokiyo, cryptiana "Spanish Ciphers during the Reign of Philip II",
+# image spanish3mansfeld.png. Cited by him at BnF fr. 3984 ff. 130, 145. A DIFFERENT numbering from the
+# 1592-93 cipher of key92.tsv. Letters: a=x/2, e=p/3, o=r, u=n, y=d-stroke; "de"=8.
+# Marks: ~ doubling consonant, + final -l, v final -n, . final -r, ° final -s,
+#        bar = number per se, infinity = -l-, + = -r-, r = -h-
+24	ba
+23	be
+22	bi
+21	bo
+20	bu
+25	ca
+26	ce
+27	ci
+28	co
+29	cu
+10	da
+11	de
+12	di
+13	do
+18	fe
+17	fi
+15	fu
+50	ga
+51	ge
+53	go
+54	gu
+60	hu
+34	ja
+59	la
+58	le
+56	lo
+55	lu
+49	ma
+48	me
+47	mi
+46	mo
+45	mu
+40	na
+41	ne
+42	ni
+43	no
+44	nu
+79	pa
+78	pe
+76	po
+75	pu
+65	qua
+66	que
+67	quo
+99	ra
+98	re
+97	ri
+96	ro
+74	sa
+73	se
+72	si
+71	so
+70	su
+90	ta
+91	te
+92	ti
+93	to
+94	tu
+84	va
+83	ve
+82	vi
+85	ya
+86	ye
+88	yo
+8	de

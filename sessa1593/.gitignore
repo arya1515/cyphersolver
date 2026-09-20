@@ -1,0 +1,12 @@
+# Gallica page images, contact sheets, calibration montages and working crops
+img3983/
+img3984/
+img3995/
+L98/
+L108/
+*.png
+# downloaded sources; keep Tomokiyo's two published key images and the parsed piece list
+src/*
+!src/phelippes2.png
+!src/spanish3mansfeld.png
+!src/pieces.json

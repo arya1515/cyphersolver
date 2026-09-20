@@ -1,0 +1,256 @@
+{
+ "schema_version": 1,
+ "target": "sessa1593",
+ "title": "Spanish despatches of 1593: Miranda to Feria, Sessa to Ibarra, Sessa to Philip II, Ibarra from Paris (BnF fr. 3983 nos. 45, 79; fr. 3984 nos. 47, 68)",
+ "documents": [
+  {
+   "id": "no45",
+   "shelfmark": "BnF fr. 3983 no. 45, f. 98 (ark btv1b9059406b, canvas 178)",
+   "date": "25 de hebrero 1593",
+   "year": 1593,
+   "country": "Spain",
+   "route": "Naples (conde de Miranda) -> duque de Feria",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": 53,
+    "distinct": 36,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct45.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica scan, native 4810x6996, read line by line after deskewing",
+    "image_quality": "good",
+    "notes": "ct45.txt holds the first three lines transcribed group by group; the reading of 15 of the leaf's 17 lines is in reading45.md."
+   }
+  },
+  {
+   "id": "no79",
+   "shelfmark": "BnF fr. 3983 no. 79, f. 162 (canvas 286)",
+   "date": "11 de março 1593",
+   "year": 1593,
+   "country": "Spain",
+   "route": "Rome (duque de Sessa) -> Diego de Ibarra",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false,
+    "file": "reading79.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica scan, deskewed line strips",
+    "image_quality": "good",
+    "notes": "About 25 dense lines of cipher; 14 of 16 lines of the cipher block read, in reading79.md, not kept as a separate group-by-group file."
+   }
+  },
+  {
+   "id": "no47",
+   "shelfmark": "BnF fr. 3984 no. 47, f. 108 (ark btv1b9060633d, canvas 198)",
+   "date": "30 de junio 1593",
+   "year": 1593,
+   "country": "Spain",
+   "route": "Rome (duque de Sessa) -> Philip II (copy)",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary decipherer's glosses written above the cipher lines (the BnF notice's 'commencement de dechiffrement'), in a much lighter ink",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false,
+    "file": "reading47.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica scan, native 4950x6646, contrast stretched per line",
+    "image_quality": "fair",
+    "notes": "The glosses sit close to the paper tone; contrast stretching reads some lines cleanly and amplifies the laid-paper texture on the fainter ones."
+   }
+  },
+  {
+   "id": "no68",
+   "shelfmark": "BnF fr. 3984 no. 68, f. 145 (canvas 268)",
+   "date": "10 de julio 1593",
+   "year": 1593,
+   "country": "Spain",
+   "route": "Paris (Diego de Ibarra) -> the Duke of Feria's correspondence",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "reading68.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica scan, deskewed line strips",
+    "image_quality": "good",
+    "notes": "A different cipher from the other three: the Feria-Mansfeld key, transcribed to keyM.tsv."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "syllabic",
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Spanish office cipher of 1592-93: two-digit numbers carry consonant-vowel syllables, a small homophonic symbol alphabet carries bare letters, diacritics add a final consonant, and two- and three-letter groups carry the nomenclature; no. 68 is a second cipher of the same office (Feria-Mansfeld, 1593) with three-letter word codes and higher figures.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "2-4",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 133,
+  "diacritics": {
+   "used": true,
+   "note": "Dot above = final -l, + = -m, dot after = -n, : = -r, ^ = -s, ring = -h-; bar above = the number itself; umlaut = doubled consonant; a top sign marks a code word. Confirmed on plaintext (achaque, bolsa, del passado, con)."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 42,
+   "kinds": [
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": 10
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "special sign (umlaut on the syllable)",
+  "sibling_key": "Tomokiyo's key images phelippes2.png (Spanish Cipher 1592-1593) and spanish3mansfeld.png (Feria/Mansfeld 1593), published on cryptiana as images; and the office's own key, BnF fr. 3995 fol. 97 (canvas 188), found through DECODE key records 4076 and 4077",
+  "notes": "fr. 3995 f. 97 confirms Tomokiyo's syllable table against the original and adds the nomenclature he lacks (aunque, alli, armas, autoridad, causa, exercito, estados, election, Francia, magestad, ministro, negocios, Rey, Reyno, religion, reputacion, Roma, seignor and more). fr. 3995 f. 101 was checked and excluded: it is an Italian nomenclature belonging to another correspondence."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Keys published by Tomokiyo as images on cryptiana (spanish3.htm), reconstructed from other letters and never applied to these four; the office's own key survives at BnF fr. 3995 f. 97 and is catalogued on DECODE as records 4076-4077; a contemporary decipherer glossed part of no. 47. No published reading of any of the four letters.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "key from archive",
+   "sibling key"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level only: the target was taken from the repository's catalogue and worked by the model in Claude Code; no target-specific intervention recorded.",
+  "tools": [
+   "Gallica IIIF fetchers (fetch.py, fetchr.py, fetch3995.py)",
+   "docket-corner montages for the folio-to-canvas calibration (dockets.py)",
+   "deskewing and line cutting (deskew.py, lines.py, lines2.py, lines47.py)",
+   "key files and decoders (key92.tsv, keyM.tsv, decode92.py, decodeM.py)",
+   "viewers (vc.py, vd.py, vl.py)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "Tomokiyo's Spanish page fetched as HTML rather than as the text dump in gallica_sweep/src: his key tables are images, and two of them cover exactly the folios this entry cites.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "access",
+   "what": "The catalogue's piece numbers resolved to folios through the BnF depouillement, and the folio-to-canvas map for fr. 3983 and fr. 3984 built by reading folio numbers off top strips and interpolating; all four leaves located.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "key from source",
+   "what": "Tomokiyo's Spanish Cipher (1592-93) transcribed to key92.tsv and applied to nos. 45 and 79: Spanish comes out (supongo que hava de ser, siendo confidente, a costa de la bolsa, a los sucesores, conviene), but with holes wherever the nomenclator is used.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "hypothesis",
+   "what": "No. 68's figures run far higher and the leaf carries three-letter word groups, so it is the Feria-Mansfeld cipher, as Tomokiyo's citation of f. 145 says, not the cipher of the other three.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "sibling key",
+   "what": "The entry's own verify step followed: DECODE returns two records for these correspondents and both are keys, not letters, pointing into BnF fr. 3995. Folio 97 is the office's own key, complete with the nomenclature Tomokiyo lacks; key92.tsv extended to 133 entries.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "control",
+   "what": "The contemporary interlinear gloss on no. 47 checked against the key's own output on a third letter: del Passado con, por via de mar, difiriendo de dia en dia - agreement wherever both survive, and the bar, umlaut and trailing dot settled.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "All four leaves read line by line from deskewed strips: 15 of 17 lines on no. 45, 14 of 16 on no. 79, the glossed lines on no. 47, and the opening of no. 68 with keyM.tsv.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "verification",
+   "what": "The obvious candidate for the missing Feria-Mansfeld nomenclature, fr. 3995 f. 101, fetched and excluded: it is an Italian nomenclature belonging to another correspondence.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Three letters read in substance on the office key and checked against a contemporary decipherment; a scatter of groups in every letter and the later lines remain, and the nomenclature of the Feria-Mansfeld cipher of no. 68 is the one real gap."
+ }
+}
