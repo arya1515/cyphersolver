@@ -31,6 +31,36 @@
         "image_quality": "fair",
         "notes": "Only the two-line foot cipher paragraph of f. 299r is transcribed so far; the count is the resolved code groups in that paragraph, counted by hand from read_r9653.md, not measured by _check_profile.py. The six-line head cipher paragraph is faint with ink bleed and is not yet transcribed."
       }
+    },
+    {
+      "id": "R9635",
+      "shelfmark": "RAH, Signatura 9/26, f. 20-22 (DECODE R9635)",
+      "date": "16 Sept 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 5,
+      "cleartext_in_document": "none",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary decipherment, patchy - most lines unglossed",
+        "partial": true
+      },
+      "length": {
+        "tokens": 25,
+        "unit": "mixed",
+        "measured": false,
+        "file": "read_r9635.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "good",
+        "notes": "f. 20r is a full page of about 25 lines of cipher. The code groups are transcribed and resolved; the spelled-out letter runs between them are only partly transcribed, so the count is of resolved code groups, counted by hand from read_r9635.md, not measured by _check_profile.py."
+      }
     }
   ],
   "system": {
@@ -150,15 +180,34 @@
       "kind": "hypothesis",
       "what": "Checked whether the Lope Hurtado de Mendoza letters of the same group use Sánchez's cipher. R9648 f. 260v gives code groups ending in p and z (tep, tap, xulz), finals absent from Sánchez's third-position inventory {b c d f g h l m n}; so his key is a third member of the family, not Sánchez's. Whether it is Juan Manuel's is not settled.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Read R9635 f. 20r (16 Sept 1522, outside Tomokiyo's range) in part: a full page of cipher with a patchy interlinear decipherment. Recovered 'das cartas de vuestra magestad', 'los de esta republica', 'del senor infante', 'ducados allende de los otros xviii mil', 'mas de xv mil ducados', with the glosses 'obligados ... fuessen restituydas sus bienes'. Subject: sums owed by the Signoria under the capitulation and restitution of goods seized from imperial vassals.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "cab = xv, predicted from the ordering rule, attested in 'ped xig cab pol9 vud+s' = 'mas de xv mil ducados'. Third of the seven predicted numerals confirmed in text; none contradicted.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Settled the notation: pol9 = pol (mi) + the letter sign for l = 'mil' (the l sign reads as a g in this hand); g-y + lal (publica) = 'republica'; the opening nulls are padded with the meaningless clear words 'como' and 'quien', which is what Tomokiyo's 'como quierr' note under the nulls column means.",
+      "result": "worked"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.6,
+    "fraction_read": 0.45,
     "verification": [
       "key confirms",
+      "contemporary decipherment",
       "historical consistency"
     ],
-    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. What is added here is the correction of the catalogue entry's shelfmark, date range and authorship; the ordering analysis of the nomenclator; the c-block numeral series, of which cef=xxvi and cif=xxvii are confirmed in text and were not in the published key; and the first reading of part of R9653, which lies outside Tomokiyo's coverage. fraction_read is the share of the resolved foot paragraph of R9653 only; the rest of the 29-record group is untouched. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target."
+    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. Added here: the catalogue entry's shelfmark, date range and authorship corrected; the ordering rule of the nomenclator, and from it a c-block numeral series of which cab = xv, cef = xxvi and cif = xxvii are confirmed in text and were not in the published key; and first readings of parts of R9635 and R9653, both outside Tomokiyo's coverage. fraction_read is the share of code groups resolved on the two leaves worked; the spelled-out letter runs and the other 27 records are open. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target."
   }
 }

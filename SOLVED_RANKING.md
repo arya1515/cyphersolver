@@ -171,8 +171,10 @@ Ordered by how much this repo added.
    and published by Tomokiyo on 6 Sept 2025. The catalogue entry corrected on three counts (four volumes not one;
    all of it 1522, so the July 1523 treaty is not in it; nine letters by Lope Hurtado de Mendoza), and the records
    shown to carry contemporary decipherments — unedited, not unread. The nomenclator shown to be alphabetically
-   ordered, which fills the c-block numerals: `cef` = xxvi and `cif` = xxvii predicted and then confirmed in R9653,
-   a letter beyond Tomokiyo's list here read in part. Lope Hurtado's letters separated off as a third cipher.
+   ordered, which fills the c-block numerals: `cab` = xv, `cef` = xxvi and `cif` = xxvii predicted and then confirmed
+   in text. Two letters beyond Tomokiyo's list read in part here: R9653 (the siege of Rhodes in clear, a ciphered
+   postscript) and R9635 (a whole page of cipher on the sums owed by the Signoria, "mas de xv mil ducados", with a
+   patchy interlinear decipherment). Lope Hurtado's letters separated off as a third cipher.
 4. **Alchymey teuczsch, Heidelberg Cod. Pal. germ. 597, 1426.** Read by Wattenbach in 1869. The compiler's struck
    24-sign alphabet (f. 1r) and the invocation alphabet (ff. 6v, 91v) recovered from the images and checked on his
    plaintexts; a third set fixed for eleven letters from the 2014 catalogue's reading of f. 93r; the "ff. 70–71"
