@@ -457,6 +457,12 @@
       "kind": "key from source",
       "what": "Walked f. 239, the third ciphered leaf, marked B/C/D in the margin. Section B against 'que sin el no hay nada, y con el' gives su-b-r = 'sin' (sub 'si' plus one sign) and xur+zun = nada again. Section C against 'da senal de paz ... el Rey de Francia ... por enbiar embaxador a su Sa ... pues queda de la guerra' gives tel = 'pues', confirmed by an exact slot and immediately followed by ton+zun = que+da = 'queda', which confirms both a further time; ta-r = Rey and y-ed = embaxador recorded as probable. Eighty entries, forty-nine confirmed code values.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "CORRECTION to an overstatement. Measured R9656, the uncribbed control, at 42% - lower than R9645's 57% - and its output is fragments ('no ... el papa ... la ... que ... su el papa'), not substance. I had been describing the five uncribbed records as reading 'in substance'; measured, they do not. The honest ceiling on an uncribbed letter is roughly half the tokens, concentrated in function words and names, with the content words as the misses: enough to say what a passage is about when surrounding clear text helps, not enough to read one. R9648 and R9650 score higher partly because their cribs were walked. Corrected in NOTES.md, profile.json and the write-up.",
+      "result": "ruled out"
     }
   ],
   "outcome": {

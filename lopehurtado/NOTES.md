@@ -500,14 +500,23 @@ and there the key has to work alone. Measured with `decode.py`, which applies co
 | R9648 f. 262 (duplicate of R9644) | 9 Nov | 70% |
 | R9650 f. 270 | Nov | 62% |
 | **R9645 f. 243** (no crib) | Nov | **57%** |
-| **R9656 f. 334** (no crib) | 20 Nov | *el papa* read unaided |
+| **R9656 f. 334** (no crib) | 20 Nov | **42%** |
 
 R9645 decodes to *… se si no con […] con vuestra magestad, que no […] en […] esta[do] […] de
 vuestra magestad …* — the shape of the sentence and its subject, with the content words missing.
 
-That is the honest ceiling of the present key on an uncribbed letter: **the function words and the
-names resolve, the spelled content words do not.** These five letters will read in substance and not
-word for word until the alphabet is fuller.
+**A correction to an earlier claim in this file.** I had written that the five uncribbed records
+"read in substance". Measured, they do not. R9656 comes out at **42%**, and what it yields is
+
+> `?` `?` `?` **no** `?` `?` `?` **el papa** `?` **la** `?` `?` `?` **que** `?` **su** **el papa**
+
+— fragments, not substance. The subject can sometimes be identified (this stretch is plainly about
+the Pope) and the parties can be named, but the letters do not read.
+
+The honest ceiling of the present key on an **uncribbed** letter is therefore: **roughly half the
+tokens, concentrated in the function words and the names; the content words are the misses.** That is
+enough to say what a passage is about when the surrounding clear text helps, and not enough to read
+one. R9648 and R9650 score higher (70%, 62%) partly because their cribs were walked.
 
 ## Correction: the alphabet signs are downgraded to probable
 
