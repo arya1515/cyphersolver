@@ -360,7 +360,26 @@ Seven fixed values in a row, and one more instance of the stem-plus-ending patte
 on its own. Either it means *Sa* and the *su* is sometimes coded separately, or it means the whole
 title and section A wrote *su* twice. Not settled, and recorded as *Sa / su Sa*.
 
-Fifty-two values confirmed, fifteen probable.
+### The end of f. 237, and a second sign for o
+
+The last two lines of the leaf run against *Yo he preguntado a su Sa lo que le parece **del duque**,
+y me dixo que estava contento, **lo que no quedo de don Joan** segun dizen todos*:
+
+> *yo he preguntado a su S. lo q le parece* │ ‖ **`zarᵹ`** **`ɣᵹb`** │ *y me dixo q estava contento*
+> │ **`xul`** **`ton`** **`tu`** **`ton`·`x`·`m`** **`zar`** **`x`·`ᵹ`·`4`** `ʒLʃʃ4` `ʃob` `ɣL4`
+
+- **`ɣᵹb` = *duque*** — the Duke of Sessa, the imperial ambassador at Rome, who with the Pope and
+  the archbishop makes three of the four men these letters are about.
+- **`zarᵹ` = *del***, `zar` (*de*) plus one sign.
+- **`ton`·`x`·`m` = *que*+d+o = *quedo***, a code finished with two alphabet signs.
+- **`x`·`ᵹ`·`4` = d-o-n = *don***, spelled outright — and that fixes **`ᵹ` = o**, a second sign for
+  o beside `m`.
+
+That last one matters beyond the word: `ᵹ` was one of the signs whose readings contradicted each
+other, and it turns out to be a homophone of `m`. Part of the alphabet tangle recorded above was a
+missing homophone rather than a bad transcription.
+
+Fifty-five values confirmed, thirteen probable.
 
 ## Where the work is now limited: the alphabet, not the nomenclator
 

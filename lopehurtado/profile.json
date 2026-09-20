@@ -135,11 +135,12 @@
     },
     "homophones": {
       "used": true,
-      "max_per_consonant": 2
+      "max_per_consonant": 2,
+      "max_per_vowel": 2
     },
     "nomenclator": {
       "present": true,
-      "entries": 52,
+      "entries": 55,
       "kinds": [
         "common words",
         "names",
@@ -336,6 +337,12 @@
       "date": "2026-09-20",
       "kind": "verification",
       "what": "Paragraph 2 of R9644 f. 237 against its clear: 'porque su Sa tenia tanta passion que no conocia lo que don Joan'. Seven fixed values in a row (top, ton, s-id, ton, tu, zil, xul, ton), plus another instance of the stem-plus-ending pattern - zil (con) + spelled 'ocia' = 'conocia', the third construction zil has appeared in. Three new probables: tenia, tanta, don. Noted but not settled: s-id stood beside su-su (su) as 'su Sa' in section A but carries 'su Sa' alone here, so either it means Sa with su sometimes coded separately, or it means the whole title.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "End of R9644 f. 237 against 'lo que le parece del duque ... lo que no quedo de don Joan segun dizen todos'. Gives y-o-b = duque (the Duke of Sessa, imperial ambassador at Rome); zar+one sign = del; ton+d+o = 'quedo', a code finished with two alphabet signs; and d-o-n spelled outright, which fixes a second sign for o beside m. That last matters beyond the word: this sign was one of those whose readings contradicted each other, and it turns out to be a homophone, so part of the earlier alphabet tangle was a missing homophone rather than a bad transcription. Fifty-five confirmed, thirteen probable.",
       "result": "worked"
     }
   ],
