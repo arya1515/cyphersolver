@@ -1,0 +1,6 @@
+{
+ "name": "it-clean-nosp",
+ "order": 5,
+ "alpha": "abcdefghilmnopqrstuz",
+ "engine": "dense"
+}

@@ -47,6 +47,11 @@ alone, not worked out in the appendix and not folded into the by-axis lists; Dan
 before the tables are merged. Where they would fall: Lanssac between Feuquières and Ormonde, Raince between Huang Xing and Urquhart,
 the other four between Warsaw and Boswell, and Rennes 1563 (p42) beside Miranda/Sessa.
 
+Not ranked: **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, BAV Barb.lat. 6960, 1629 (catalogue 237). Its contents were
+identified in Kiewning's 1897 edition and confirmed against the register, but no cipher was broken and no key
+recovered, so there is nothing to score on these axes. See [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) §4 and
+[pallotto1629/](pallotto1629/).
+
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | p1 | **Lanssac → Charles IX**, Warsaw, 26 Apr 1573, fr. 4735 f. 124, and ff. 160, 164, 174 | 1573 | 4 | 3 | 4 | 5 | 2 | 4 | **3.65** | Homophonic letter cipher with word signs, read from the Gallica images: key pinned from the glossed sibling f. 154v and the gutter-cut fragments, then confirmed by a pinned annealer against shuffled and blind controls; 96 of 100 signs; the same key reads three 1 and 9 May election letters. The Polish election bought by the Emperor and by France. Tomokiyo's table corrected |

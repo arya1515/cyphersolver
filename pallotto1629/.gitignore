@@ -1,0 +1,9 @@
+img/
+*.jpg
+__pycache__/
+it_clean5.npy
+it_nosp5.npz.npy
+rec286.htm
+craw.txt
+crib153.raw.txt
+DOC_R286.txt

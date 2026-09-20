@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pallotto to Barberini, 1629 &mdash; already in print</title>
+<meta name="description" content="Twenty-eight ciphered passages in the register of Giovanni Battista Pallotto, nuncio to the Emperor, BAV Barb.lat. 6960, catalogued as undeciphered with their contents unknown. The contents have been in print since 1897: Hans Kiewning&rsquo;s volume of the Nuntiaturberichte prints these despatches from the Roman office&rsquo;s own contemporary decipherments. The identification is confirmed against the register&rsquo;s clear pages. The cipher itself is not broken here: the code width is undetermined and the key is not recovered, and the reason is measured.">
+<link rel="stylesheet" href="style.css?v=20260919a">
+<meta name="date" content="2026-09-20">
+<meta name="last-modified" content="2026-09-20">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="hellen1752.html"><span class="st stuck">unsolved; investigation open</span><b>Hellen 1752–1763</b><span class="yr">1752&ndash;63</span></a></li><li><a href="nunzio1718.html"><span class="st found">already solved; key extended</span><b>Nunziatura di Spagna 1718</b><span class="yr">1718&ndash;20</span></a></li><li><a href="ceva1632.html"><span class="st partial">read in part</span><b>Barberini to Ceva 1632</b><span class="yr">1632</span></a></li><li><a href="pallotto1629.html" aria-current="page"><span class="st found">already in print</span><b>Pallotto to Barberini 1629</b><span class="yr">1629</span></a></li><li><a href="sp106box10.html"><span class="st partial">file explained, read in part</span><b>SP 106/10 codebreaker</b><span class="yr">1623&ndash;24</span></a></li><li><a href="charlesixducroc.html"><span class="st found">already solved</span><b>Charles IX to du Croc</b><span class="yr">1565&ndash;67 or 1572</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">37</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">19</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">20</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">8</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 85 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+<section class="hero">
+  <div class="cipherstrip">55 70 83 65 03 29 00 69 38 73 &middot; 11 36 50 23 22 07 92 20 86<br>H&nbsp;O&nbsp;&nbsp;R&nbsp;I&nbsp;C&nbsp;E&nbsp;V&nbsp;U&nbsp;T&nbsp;A &middot; L&nbsp;A&nbsp;&nbsp;R&nbsp;I&nbsp;S&nbsp;P&nbsp;O&nbsp;S&nbsp;T&nbsp;A<br>&hellip; the opening of the despatch of 4 August 1629, and where the alignment stops</div>
+  <p class="kicker">Vienna &rarr; Rome &middot; numeric cipher, code width undetermined &middot; August&ndash;November 1629 &middot; contents already in print</p>
+  <h1>Pallotto to Barberini, 1629</h1>
+  <p class="sub">Twenty-eight ciphered passages in the register of Monsignor Giovanni Battista Pallotto, archbishop of Thessalonica and nuncio to the Emperor: Vatican City, BAV, Barb.lat. 6960, digitised in full on DigiVatLib. DECODE carries them as R286&ndash;R313, all &ldquo;Non-decrypted&rdquo;, and the catalogue entry said that what the cipher hides is not known.</p>
+  <p class="sub">It is known. Hans Kiewning printed these despatches in 1897 from the Roman office&rsquo;s own decipherments, and the register&rsquo;s clear pages confirm the identification word for word. The cipher itself is a separate question, and it is not answered here.</p>
+  <p class="meta">Daniel Bourdeau &middot; resolved <time datetime="2026-09-20">20 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#volume">The volume and the twenty-eight ciphertexts</a><a href="#print">The contents, printed in 1897</a><a href="#cipher">The cipher, and why it is not broken here</a><a href="#open">What stays open</a><a href="#sources">Sources</a></nav>
+<div class="callout">
+<strong>Summary.</strong> Barb.lat. 6960 is the Barberini register of Pallotto&rsquo;s nunciature at the imperial court in the second half of 1629, the months when the Mantuan succession was pushing the Emperor and France towards war. Its 194 pages interleave sheets written entirely in figures with pages of clear Italian. DECODE catalogued twenty-eight of the ciphered sheets as undeciphered, with no indication of their contents. Their contents have been published since 1897: Hans Kiewning&rsquo;s volume of the <em>Nuntiaturberichte aus Deutschland</em> for 1629 prints some forty of Pallotto&rsquo;s despatches under the heading <em>dechiffr.</em>, taken from the copies received and deciphered in Rome, now ASV, Nunz. di Germania 119. The first ciphered sheet, pp. 5&ndash;6, is headed in clear <em>Di Vienna 4 di Agosto</em> and is Kiewning&rsquo;s Nr. 153; the register&rsquo;s clear pages on either side of it run straight through the cipher sheet and carry that document&rsquo;s wording exactly, and p. 13 is its second enclosure, again verbatim. So the historical question the catalogue asked is closed. The cryptanalytic one is not. The cipher is numeric and written without separation, and its code width could not be established: there is no phase preference for two-digit or three-digit codes anywhere in the 112,805 digits. The opening twenty-seven letters of the 4 August despatch do align as two-digit codes, with two independent repeat confirmations, and then the alignment breaks and never recovers; the best any aligner reached over a whole despatch was about 55 per cent consistency. The likely cause is measured rather than assumed: DigiVatLib&rsquo;s images top out at 748&nbsp;&times;&nbsp;1088 pixels, DECODE&rsquo;s transcriptions of them carry slips, and a single dropped digit flips the code phase for the rest of a line.
+<em>Status: contents already in print; key not recovered. What would finish the cipher is a better scan of the cipher leaves, since the plaintext of every passage is already known and can be used as a crib.</em>
+</div>
+
+<h2 id="volume"><span class="num">01</span> The volume and the twenty-eight ciphertexts</h2>
+
+<p>Barb.lat. 6960 is on DigiVatLib at <a class="ext" href="https://digi.vatlib.it/view/MSS_Barb.lat.6960" rel="noopener">digi.vatlib.it/view/MSS_Barb.lat.6960</a>, 194 pages, with an IIIF manifest. It is an old bitonal microfilm scan and the image service&rsquo;s own <code>info.json</code> gives a maximum of <strong>748 &times; 1088 pixels</strong> per page; anything larger the server returns is an upscale of that. At that size a figure is about ten pixels wide.</p>
+
+<p>DECODE&rsquo;s records R286&ndash;R313 are the twenty-eight ciphered passages; R315 is the volume as a whole, described there as &ldquo;mixed ciphertext and cleartext&rdquo;. Each record&rsquo;s note gives its page range in the same DigiVatLib pagination, so DECODE page <em>n</em> is canvas <em>n</em>. The ranges run from pp. 5&ndash;6 to pp. 192&ndash;193, and the volume&rsquo;s own title describes the ciphers of Pallotto <em>dal 4 agosto al 29 settembre 1629</em>, though the records carry dates as late as 29 November.</p>
+
+<p>The cipher sheets are written across the full width of the page in a dense unbroken stream of figures, about thirty lines to the page and some sixty-six figures to the line. The clear pages are written quite differently, in a narrow column on the right of the leaf with a wide margin. The two alternate through the volume.</p>
+
+<figure><img src="pallotto1629_lead.jpg" alt="The head of page 5 of Barb.lat. 6960: the clear heading Di Vienna 4 di Agosto and Ill.mo et R.mo Sig.r Card.le P.rone, a struck-out line of plaintext, and then four lines of unbroken figures" loading="lazy">
+<figcaption>Barb.lat. 6960, p. 5: the first ciphered sheet, headed in clear <em>Di Vienna 4 di Agosto &middot; Ill.<sup>mo</sup> et R.<sup>mo</sup> Sig.<sup>r</sup> Card.<sup>le</sup> P.<sup>rone</sup></em>, with a struck-out opening line of plaintext above the figures. &copy; Biblioteca Apostolica Vaticana.</figcaption></figure>
+
+<p>Transcriptions of all twenty-eight were made for DECODE by volunteers in 2019 and 2020 and are downloadable as <code>DOC_R*.txt</code>. They record the figures one digit at a time, so the manuscript&rsquo;s (decorative and irregular) grouping is lost. Measured, they come to 112,805 digits; the shortest is R308 at 854, the longest R306 at 9,332, and R286 &mdash; the one worked in detail here &mdash; has 3,573.</p>
+
+<h2 id="print"><span class="num">02</span> The contents, printed in 1897</h2>
+
+<p>The relevant edition is Hans Kiewning (ed.), <em>Nuntiaturberichte aus Deutschland nebst erg&auml;nzenden Aktenst&uuml;cken. Vierte Abteilung: 17. Jahrhundert</em>, Band 2: <em>Nuntiatur des Pallotto 1628&ndash;1630</em>, 2: <em>1629</em> (Berlin 1897). It is on archive.org as item <code>4-2_20200807</code>, in full text.</p>
+
+<p>Kiewning works from the copies received in Rome, ASV, Nunz. di Germania 119, and heads each ciphered despatch <em>dechiffr.</em> with the date the Roman office deciphered it &mdash; Nr. 153 is &ldquo;Pallotto an Barberini, 1629 August 4, dechiffr. 22. August&rdquo;. What he prints is therefore the contemporary decipherment. He gives the substantive passages in Italian verbatim and summarises the rest in German regesta, so the coverage is close to complete but not literally complete.</p>
+
+<p>Two checks tie the register to the edition.</p>
+
+<p><strong>The 4 August despatch.</strong> The cipher on pp. 5&ndash;6 is headed <em>Di Vienna 4 di Agosto</em>, which is Nr. 153. The clear pages around it are not a decipherment written against the cipher but the register&rsquo;s own fair copy, and they run straight through the cipher sheet: p. 4 ends <em>&hellip; non haver facolt&agrave; di accettar altro partito, che&rsquo;l proposto in</em> and p. 7 resumes <em>nome del suo R&egrave;</em>. That sentence is Kiewning&rsquo;s Nr. 153 word for word.</p>
+
+<p><strong>The enclosure.</strong> Page 13 is the paper Kiewning prints as Nr. 153, <em>Beilage II, Propositione P. Valeriano per Sabran</em> (his source: Bibl. Barber. LXIX 60 fol. 122). The manuscript reads, and the edition prints:</p>
+
+<blockquote><p>&hellip; il quale aggiunse di pi&ugrave;, che fatta la pace, quando S. S.<sup>t&agrave;</sup>, come padre comune, proponga una lega et unione di questi eserciti, affine di abbatter il Turco commune nemico del nome christiano, che S. M.<sup>t&agrave;</sup> mandaria plenipotentiarii in Italia, acci&ograve; N. S.<sup>re</sup> potesse concludere cos&igrave; gran negotio, con che il demonio resteria ingannato e burlato.</p></blockquote>
+
+<figure><img src="pallotto1629_clear.jpg" alt="Page 13 of Barb.lat. 6960, clear Italian in a narrow column: the proposal that the Pope, as common father, propose a league to strike the Turk, and that the Emperor send plenipotentiaries to Italy, with the devil left cheated and mocked" loading="lazy">
+<figcaption>Barb.lat. 6960, p. 13: the enclosure to the despatch of 4 August 1629, printed by Kiewning as Nr. 153 <em>Beilage II</em> &mdash; P. Valeriano Magno&rsquo;s proposal for Sabran, ending <em>con che il demonio resteria ingannato e burlato</em>. &copy; Biblioteca Apostolica Vaticana.</figcaption></figure>
+
+<p>What the ciphers hide, then, is the business of the Mantuan succession crisis in the second half of 1629: Pallotto&rsquo;s attempts, working through the Capuchin P. Valeriano Magno and the imperial minister Eggenberg (<em>Echembergh</em> in the despatches), to mediate between the Emperor and the French envoy Sabran over Casale and Monferrato, the civil rather than armed possession of the duchies, the withdrawal of the French from Susa and the imperial troops from the Grisons, and, behind it, the fear that the real object was to humble Venice and restore imperial authority in Italy.</p>
+
+<h2 id="cipher"><span class="num">03</span> The cipher, and why it is not broken here</h2>
+
+<p>The figures are numeric only, written without separators. Across all twenty-eight ciphertexts the digit frequencies are markedly uneven &mdash; 0 at 16.1 per cent, 4 at 4.8 per cent &mdash; and adjacent digits carry about 0.18 bits of mutual information, so the stream is structured rather than random. Beyond that the structure would not resolve.</p>
+
+<p><strong>The code width does not show.</strong> For a fixed-width numeric code one phase should stand out from the others. None does. Taking the twenty-eight ciphertexts together, the index of coincidence of two-digit codes is 0.01462 at phase 0 and 0.01466 at phase 1, and the digit distributions at even and odd positions agree to within 0.2 per cent at every digit. Three-digit codes behave the same way at all three phases.</p>
+
+<p><strong>The crib takes hold and then lets go.</strong> With the plaintext of Nr. 153 in hand, the opening of R286 aligns exactly, as two-digit codes, for twenty-seven letters:</p>
+
+<pre><code>55 70 83 65 03 29 00 69 38 73 11 36 50 23 22 07 92 20 86 72 52 06 38 97 12 33 23
+H  O  R  I  C  E  V  U  T  A  L  A  R  I  S  P  O  S  T  A  D  A  T  A  M  I  I
+</code></pre>
+
+<p>That is not merely a fresh assignment at every step: 38 occurs twice and is T both times, 23 occurs twice and is I both times, which by chance would happen about once in 180 tries. The twenty-eighth code conflicts, and from there nothing is consistent. A banded dynamic-programming aligner over the whole despatch, allowing two-digit codes plus one- and three-digit resynchronisation for transcription slips, and iterating the code table to convergence against a hand-corrected 3,359-letter crib, reached about 55 per cent code-to-letter consistency &mdash; well above the 20 per cent a wrong alignment gives, well below what a recovered key looks like.</p>
+
+<p><strong>Ciphertext-only search fails.</strong> Fixed-multiset simulated annealing over the hundred two-digit codes, on 5,000 codes of text, scored by a space-free Italian five-gram model built for this from the repository&rsquo;s clean Italian corpora (12.0 million characters), settles at &minus;3.54 log-probability per character where real Italian of the period scores about &minus;1.5. A syllabic reading of the same codes &mdash; each two-digit group standing for one to four letters &mdash; was tested against the known plaintext and collapsed back to single letters for every well-attested code, so there is no syllable table to find.</p>
+
+<p><strong>The likely cause.</strong> Line 1 of p. 5 was re-read here from the image and compared with DECODE&rsquo;s transcription of it. The two agree on the first twenty-two digits and then differ by about six digits out of seventy-four, including a difference of two in the total length. Line 2, read the same way, matched almost exactly. A single digit dropped or added flips the code phase for the whole of the rest of a line &mdash; which would both erase the phase signal in the statistics above and break a letter-level alignment every twenty-odd letters, exactly the two symptoms observed. At 748 pixels to the page the individual strokes are genuinely ambiguous, and this is the resolution the library publishes.</p>
+
+<h2 id="open"><span class="num">04</span> What stays open</h2>
+
+<ul>
+<li>The key is not recovered, and the code width is undetermined. Nothing in this write-up should be read as a decipherment made here: every Italian word quoted above comes from Kiewning&rsquo;s edition or from the register&rsquo;s own clear pages.</li>
+<li>The twenty-seven-letter alignment at the head of R286 is suggestive, not established. It is consistent with a two-digit homophonic substitution, and with a run of luck.</li>
+<li>Kiewning&rsquo;s coverage is close to complete but not literal: where he gives a German regest rather than the Italian, the exact wording of that passage is still only in the cipher.</li>
+<li>The sibling volume is the obvious next step: catalogue entry 236, BAV Barb.lat. 6956 &mdash; seventy ciphered sheets of the same nunciature for 1628, DECODE R215&ndash;R318 &mdash; is still open, and Kiewning&rsquo;s Band 1 (1628, Berlin 1895) covers exactly those months. That has not been checked here.</li>
+<li>What would finish it: a fresh capture of the cipher leaves at a workable resolution, or a careful new transcription from the originals. The plaintext of every passage is already known, so a good transcription of a single sheet should give the key outright.</li>
+</ul>
+
+<h2 id="sources"><span class="num">05</span> Sources</h2>
+
+<ul>
+<li>Vatican City, Biblioteca Apostolica Vaticana, <strong>Barb.lat. 6960</strong> &mdash; <a class="ext" href="https://digi.vatlib.it/view/MSS_Barb.lat.6960" rel="noopener">DigiVatLib</a>, 194 pages. Cipher sheets at pp. 5&ndash;6, 10&ndash;12, 35&ndash;37, 40&ndash;42, 46&ndash;47, 55&ndash;57, 62&ndash;64, 68&ndash;70, 75&ndash;76, 80, 83&ndash;84, 90&ndash;91, 97&ndash;99, 105, 109&ndash;110, 113&ndash;114, 119&ndash;120, 124&ndash;125, 130&ndash;131, 135&ndash;136, 140&ndash;142, 146&ndash;147, 152, 155&ndash;156, 163&ndash;165, 174&ndash;176, 181&ndash;183, 192&ndash;193. Images &copy; Biblioteca Apostolica Vaticana.</li>
+<li><strong>DECODE</strong> records R286&ndash;R313 (the ciphertexts, with 2019&ndash;20 transcriptions) and R315 (the volume).</li>
+<li>Hans Kiewning (ed.), <em>Nuntiaturberichte aus Deutschland nebst erg&auml;nzenden Aktenst&uuml;cken. Vierte Abteilung: 17. Jahrhundert</em>, Band 2: <em>Nuntiatur des Pallotto 1628&ndash;1630</em>, 2: <em>1629</em> (Berlin 1897) &mdash; <a class="ext" href="https://archive.org/details/4-2_20200807" rel="noopener">archive.org, item 4-2_20200807</a>. Band 1 (1628) was published in 1895.</li>
+<li>Kiewning&rsquo;s manuscript sources for the despatches: ASV, Nunz. di Germania 119 (the deciphered copies received in Rome) and Bibl. Barber. LXIX&ndash;LXX for the Barberini side.</li>
+</ul>
+
+<p class="muted">Working files, the DECODE transcriptions, the crib, the aligners and the solver: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/pallotto1629">pallotto1629/</a>.</p>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Biblioteca Apostolica Vaticana</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="richelieu.html" rel="prev">&larr; Richelieu 1629</a><a href="ceva1632.html" rel="next">Barberini to Ceva 1632 1632 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260919a"></script>
+</body>
+</html>
