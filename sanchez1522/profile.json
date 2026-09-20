@@ -216,6 +216,18 @@
       "kind": "transcription",
       "what": "Attempted a continuous reading of the spelled-out letter runs on R9635 f. 20r. Not achieved: separating B / curly-q / bold-infinity is a judgement call at each occurrence and guessing them yields plausible Spanish that is not what the page says. Left marked rather than filled in; the R9605 calibration is the route through.",
       "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "Continued the R9605 alignment: xel def = 'del visorey', ded+xof = 'venida', pog = 'mesmo', suf = 'hago', and the spelled run for 'escrivo' fixes z=c, curly-q=r, ai=i, m=v, #=o against ground truth. Correction to the published key: va = 'despacho', not Tomokiyo's 'desponho' (not a Spanish word), which also explains his puzzled 'me desponho x-e-r-o-n que' in R9623.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Checked whether the c-block numeral run starts where assumed, by aligning the group cud against the clear at 'que fue a ...'. Inconclusive: the date there is written over a correction and reads as two dates (xxv y xxvij), so it cannot be matched to one group. cab, cef and cif are unaffected, each having been confirmed in its own context.",
+      "result": "partial"
     }
   ],
   "outcome": {

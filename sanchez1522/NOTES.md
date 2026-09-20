@@ -219,6 +219,26 @@ This is the calibration route: align the whole of R9605's cipher against its dec
 hundred signs of ground truth - to fix each homophone in this scribe's hand, then carry it to the
 unglossed pages. That is the next session's work.
 
+### The calibration begun, and a correction to the published key
+
+Continuing the same passage of R9605 f. 44 against the clear *"la venida del visorey **con todas las
+postas**, que despacho y escrivo"*:
+
+- `xel def` = *del visorey*; `ded xof` = *veni*+*da* = *venida* — verbatim, and more code groups
+  carrying syllables.
+- **`va` = *despacho*, not "desponho".** Tomokiyo's table gives `va` = *desponho*, which is not a
+  Spanish word; the clear reads *que despacho y escrivo* with `ho` = *que* and `va` in that slot. It
+  also explains his puzzled "me desponho x-e-r-o-n que" in R9623. Corrected in `key_codes.tsv`.
+- The spelled run for *escrivo* is seven signs for seven letters, fixing `z` = c, `ɡ` = r, `aɥ` = i,
+  `m` = **v**, `#` = o with ground truth beneath them. This is the method working.
+- `pog` = *mesmo*, `suf` = *hago*, in "y lo mesmo hago".
+
+One check came out **inconclusive** and is recorded as such: the clear at "que fue a …" stands over
+the group `cud`, which Tomokiyo reads "xxiv?". Had the clear read *xxv*, the c-block series would
+shift by one. It does not settle it — the date is written over a correction and reads as something
+like *xxv y xxvij*, two dates, so it cannot be matched to one group. `cab`, `cef` and `cif` do not
+depend on it: each was confirmed in its own context, independently of where the run starts.
+
 ## What is left
 
 The other 27 records. Most of them have a contemporary decipherment bound in — though R9635 shows the
