@@ -225,6 +225,8 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.
+
 - **Beatrice d'Aragona**, catalogue 160, DECODE R1140–R1143 and R1154 — earlier readings located, 20 Sept 2026. Four cipher letters in editions of 1877–78; R1154 is plain Italian of 29 May 1505. March Virtus/Fortis/M. markers remain unexplained. See [beatrice1482/](beatrice1482/).
 
 - **Milanese embassy at Buda, 1489–92** (ASMi Sforzesco 642/645/650; DECODE R1098, Vestigia 2831) — read, 19 Sept 2026.

@@ -94,6 +94,7 @@
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
+  "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
@@ -167,7 +168,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "482031602efb",
+   "hash": "d7e2035c1fbd",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -277,7 +278,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "98418ff620b9",
+   "hash": "ad41a249ea3c",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -485,6 +486,11 @@
    "hash": "e2e2e6fb8a35",
    "updated": "2026-09-18"
   },
+  "throckmorton": {
+   "first": "2026-09-20",
+   "hash": "9d90ba936e80",
+   "updated": "2026-09-20"
+  },
   "toledo1565": {
    "first": "2026-09-18",
    "hash": "5aa62c52a134",
@@ -527,7 +533,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f0df0cd86f60",
+   "hash": "d5650f676fb5",
    "updated": "2026-09-20"
   },
   "yard1699": {

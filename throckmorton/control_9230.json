@@ -1,0 +1,20 @@
+{
+  "record": "R9230",
+  "image": "images/IMG_R9230_I43201_P.jpg",
+  "location": "f.133, first line of numbered extract (1), immediately after the clear boundary word before and a null; crop aug5_1.png",
+  "key_source": "R9262 P1 alphabet",
+  "notation": "ASCII labels refer to shapes in the archived alphabet. Dots and colons are distinguishing marks, not punctuation. Word spaces are editorial. This short check was made after the published counterpart was known.",
+  "key": {
+    "4_plain": "o", "6_dot": "r", "l_crossloop": "l", "e_square": "e",
+    "a_angle": "a", "n_backloop": "n", "7_dot": "s", "2_plain": "o",
+    "4_dot": "r", "b_Ushape": "b", "6_colon": "u", "g_7shape": "g",
+    "8_plain": "e", "8_dot": "s"
+  },
+  "words": [
+    ["4_plain", "6_dot", "l_crossloop", "e_square", "a_angle", "n_backloop", "7_dot"],
+    ["2_plain", "4_dot"],
+    ["b_Ushape", "6_colon", "6_dot", "g_7shape", "8_plain", "8_dot"]
+  ],
+  "published_comparison": "Forbes II (1741), p.12: Orleans or Burges; CSP Foreign V no.425 paragraph 11 modernizes Burges as Bourges. No.426 is a separate decipher.",
+  "caution": "Fifteen alphabet tokens only; the rest of this passage is identified in print but has not been transcribed token by token here."
+}

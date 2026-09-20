@@ -121,3 +121,6 @@ These are patterns over the 18 items above, not measurements.
 **Checked:** the item list, dates, shelfmarks and method summaries against README.md, SOLVED_RANKING.md and the git log of 16–17 Sept 2026.
 **Not checked:** the per-target NOTES.md for each item were not re-read for this compilation; percentages and counts are copied from the README rows.
 **User must verify:** the "where the AI did the work" column and sections 5–6. They are the assistant's own view of the sessions and may over- or under-credit either party. All output is unvalidated until reviewed.
+
+
+Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).

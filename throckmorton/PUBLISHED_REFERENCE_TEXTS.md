@@ -1,0 +1,1617 @@
+# Published reference texts
+
+Source: Joseph Stevenson (ed.), Calendar of State Papers, Foreign, Elizabeth, historical public-domain editions, digital text from British History Online. These are calendar summaries and transcriptions, not fresh decryptions. Generated from the cached source pages.
+
+## R9220: 7–8 March 1560 → Cecil
+
+[CSP 2, 837](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp426-444) — Key control verified; shared leaf also contains R9221.
+
+837. Throckmorton to Cecil.
+1. Notwithstanding their show of amity, the French go on
+with their preparations by sea and land. The captains of
+both are at Court, attending for despatch. Two of the
+Almains are sent, one into the Palsgrave's country and the
+other into Gueldres to levy men, and others are on their despatch on all sides. Some of the men pass through France to
+Dieppe or Calais, and the rest upon the sea coast of Basse
+Germany; yet he does not perceive they are assured of any
+shipping but at the Countess of Emden's hand. He has told
+the Ambassador of Spain of the levying in Gueldres, that he
+may advertise the Governor of Flanders, and his brother to
+stop their way. They cannot be ready and embarked before
+May; if Cecil does which he may he will have the advantage.
+The Marquis d'Elbœuf is stayed because he is not strong
+enough, and when reinforced he goes forward with his charge.
+2. He thinks that instructions should be sent to Lord
+Montague, or the Ambassador in Spain, to move King Philip
+that in case the French invade England he will declare
+himself enemy to the French, according to the old treaty. It
+may be said that the Queen takes the treaty to be inviolable.
+The sooner the message is sent the better. Wishes the instructions to be sent three ways; by post through France,
+by sea, and by Sir Thomas Gresham's means, who may deliver
+his packet to M. d'Arras, by him to be sent to his brother
+here and from him conveyed into Spain.
+3. The French sent lately letters into Scotland by four
+ways; by a courier in Killygrew's company, by Flanders,
+by Calais, and through England, by Cornwall; which he fears
+more for rebellion than for Scotland. One Wilson, a Scotchman, arrived here on the 4th inst. with letters from Scotland,
+and passed through England unknown, and once he passed as
+a scholar going to Louvain; whereat the writer marvels much.
+Cecil should also beware of Italians there; for these men use
+them for intelligence, and of late an Italian was sent over
+hither by De la Cievre. Advises him to take good heed who
+passes to and fro on the Borders and on the sea coast on this
+side, for nothing can more serve France's turn than to have
+intelligence from Scotland. Assures Cecil that no Scotchman
+passes hence without his [the writer's] knowledge, but it is
+to serve the French.
+[Page 437]
+4. The Duke of Guise and the Cardinal of Lorraine have
+discovered a conspiracy wrought against themselves and their
+authority, which they have bruited to be meant only for the
+King. They are in such fear as to wear privy coats, and at
+night are guarded with pistoliers and men at arms, and have
+apprehended eight or nine and put them to torture. The
+Lord Davy Hamilton, Suselis, and Stewart are removed from
+Bois de Vincennes and brought, with some others, muffled
+here. This Court is in great trouble and know not which
+side to turn; and to colour the matter the more they bruit
+that the King of Spain has advertised that this conspiracy is
+meant against the King. The matter is presently hot and
+like enough to become hotter, and if ever time offered to
+do what the English have need to do, it is now. For the
+Dowager has advertised them here (by Wilson) that if she be
+reinforced by May she hopes to keep good, but, these things
+proceeding to a garboil, they here shall have other matter to
+look to. Therefore he says again, Chafe the iron while it is
+hot.
+5. John Ribaud and John Ross arrived here yesterday, and
+to-day are despatched to the coast to put their ships in readiness with all speed. The Marquis and his wife are gone from
+Dieppe to Fecamp. Throckmorton marvels at Wilson's passing (who is despatched back this 6 March) as he went by
+post; by means of whose report of Lord Hume, the said Lord
+being answered with delay in his suit, is better regarded than
+he was like to be. Hereof the writer advertises Cecil expressly, as he doubts he shall not of a good time have the
+like commodity.
+6. Wilson said that he dares not land in Scotland for fear
+of the Queen's ships, and therefore minds to go to Flanders
+and land about Essex or Sussex, as a Fleming, or else at
+Newcastle from Calais or Newhaven. He reported that Lord
+Hume has an Englishman upon the Borders in England as his
+servant, who is his spy, and by whose means Wilson shall be
+conveyed into Scotland. Wishes the Duke of Norfolk to have
+an eye to Wilson and other Scotchmen passing to and fro,
+and also to learn who it is who serves Lord Hume.
+7. In handling the matters with Scotland and in receiving
+the hostages, the matter should be so used that the French
+should have no cause to think England mistrusts them.
+Assures him that what the Queen has already done has
+gained such reputation and credit that she is more dreaded
+and esteemed abroad than her sister was with all her great
+marriage and alliance. He has written to the Lord Admiral
+to appoint some man to remain at Dunkirk for conveying
+letters over into England; for the circumstances thereof he
+refers him to his Lordship's letter.—Amboise, 7 March 1559.
+in the morning.
+8. P.S.—Being ready to seal this letter he understands that
+the fear of this commotion is so great that on the 6th inst. the
+Duke of Guise, the Cardinal Lorraine, the Grand Prior, and
+[Page 438]
+all the Knights of the Order that were here watched all night
+long in the Court, and the gates of the town were all shut
+and kept. Advises that the Queen cause the Count Helvenstein
+to write to the Duke of Cleves to prevent the Frenchmen
+from levying men in his country.
+9. Begs him to obtain permission for Jones to be abroad a
+longer time, whereby he may serve the Queen. He means to
+retire to Dole in Burgundy.
+10. He has opened his packet to enclose in it a letter signifying that the Bishop of Valence is a man of great experience
+and cunning practice, and will go beyond Cievre, of whose
+complexion he is. Wishes in no wise he went to Scotland.
+As they send no commission to go through with anything, it
+is clear they trifle to win time, and they rather increase their
+preparations for war. What will be the end of this conspiracy
+God knows. Divers arquebusiers this morning came into this
+town, and order is given that all prisoners detained within
+the realm of France for religion shall be released.
+11. Wishes that nothing were treated of with the French
+touching the Scots, without the Scots being made privy
+thereto, and that nothing were accorded without their consent. The Duke of Nemours and Count Mirandola with divers
+others were yesterday sent abroad to make scout watch. Order
+is given for the coming to Court of 400 men at arms. The
+Admiral of France and D'Andelot are suspected to be parties
+in the broil. Wilson will come thither with the Bishop of
+Valence, whose name is Monluc.—Amboise, 8 March 1559.
+Signed.
+Orig., the greater portion in cipher, deciphered. Add.
+Endd. Pp. 6.
+March 8.R. O.
+
+## R9221: 9 March 1560 → Queen
+
+[CSP 2, 844](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp426-444) — Date/addressee match; same image as R9220.
+
+844. Throckmorton to the Queen.
+1. The 8th inst. he received her letters of the 17th of
+February by Cavalcanti, whom he will advise how to behave
+here. He thinks that the pension of 100l. which she has
+bestowed upon Cavalcanti is well employed.
+2. On 7th and 8th he wrote to her and sent her packets, one
+by Dieppe and the other by Flanders. By that of the 8th
+he advertised her of the coming of the Bishop of Valence from
+this King, who said he should have his despatch about the
+10th inst. But this morning the Bishop sent word to the
+writer that he was commanded this day to depart before noon,
+requesting letters to her and her officers at Dover, which
+Throckmorton granted. He is of the Privy Council here, and
+often employed in ambassades and other services of estate
+and trust; he is well learned in divinity and other sciences.
+3. On the 7th the Bishop came to him and declared that the
+King had appointed him to declare some griefs to the Queen,
+and trusted that there should be nothing omitted for the
+establishing of a good peace. He also said that the Queen
+Dowager of Scotland had so often written to this King for
+her return to this realm and to be eased of those troubles,
+that the King cannot refuse her request, and thinks that she
+shall shortly come into France. Refers her to his letter to
+Cecil for an account of this bearer, the Bishop.—Amboise,
+9 March 1559. Signed.
+Orig., with seal. Portions in cipher, deciphered. Add.
+Endd. Pp. 3.
+March 9.R. O. Forbes, 1. 358.
+
+## R9222: 9 March 1560 → Cecil
+
+[CSP 2, 845](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp426-444) — Date/addressee match.
+
+845. Throckmorton to Cecil.
+1. Sent him on the 7th inst a packet by Dieppe and on the
+8th another by Flanders, both of one tenor. Has therein
+described the bearer. He is as cunning as Cievre, or beyond
+him. Cecil may perceive that they protract the time, since
+the person mentioned has no commission to go through with
+anything.
+2. Wilson, a Scotchman, has passed to and from Scotland
+through England. He took shipping at Dover on 28th Feb.
+and landed at Dieppe. Cecil should write to the captain
+of the castle at Dover to take heed to these things. Wilson
+intends to embark in Flanders and to descend into the North
+parts of Scotland, or else at Newcastle, and so pass their
+frontier. The French, for the sure conveyance of their packets,
+have devised now to send their couriers by sea to Aberdeen,
+Montrose, or Dundee, and so by the north parts. Wishes
+the Duke of Châtellerault to be advertised hereof.
+3. He has received by Guido Cavalcanti, on the 8th inst.,
+a letter from the Queen. The hostages are at Calais, ready
+to pass over. He has not accepted them, but said that he
+would understand of them, and then allow or disallow; by
+this Cecil may perceive that the French proceed without
+order in this doing. The Marquis de Neile should not be
+[Page 443]
+released. By his absence his wife may do service in Bretaigne; his presence takes the same away. For all their
+good countenances, they here make great preparations. Ribaud
+and Ross are despatched to make ready all the ships they
+can, both their own and all other strangers, except the King
+of Spain's subjects. They cannot be ready before May. The
+Marquis stays, because he is not strong enough. Advises
+that instructions were sent to Lord Montague, or the Ambassador in Spain to have in remembrance the old treaty
+between England and Spain, if the French invade the
+former.
+4. A conspiracy has been here revealed against the house
+of Guise, which has much troubled them. It is somewhat
+appeased, and the King goes abroad on hunting. The French
+have sent to levy men in the Palsgrave's country and Guelderland. He has written to the Lord Admiral by his last
+to appoint some discreet man to take a house at Dunkirk
+for conveying letters over into England. The Queen by her
+doings is more esteemed and dreaded than her sister was.
+This bearer will sue the Queen to have the Dowager of
+Scotland to pass through England. Throckmorton wishes
+the handling of matters for hostages with Scotland to be
+such as Scots may think they do not mistrust them. The
+Bishop is come now upon his departure.—Amboise, 9 March
+1559. Signed.
+5. P. S.—The Bishop of Valence has instructions to desire
+licence for the Dowager of Scotland, and such Frenchmen
+as are in Scotland, to pass through England into France,
+and also to desire the Earl of Arran and the Congregation
+to permit them to depart quietly, giving them licence to live
+to their conscience, so as they forget not their duty to their
+Sovereign and old alliance with France. If the matter between
+the French and English come to hostages, the personages meet
+for that purpose are, the Dukes of Nemours and Longueville,
+the Prince of Joinville, eldest son of the Duke of Guise, and
+the Count d'Eu, eldest son to the Duke of Nevers; he means
+that if hostages are to be demanded, then they shall be
+these. The French make great preparations, and mean only
+to bring the Queen asleep to win time; and ere their offers
+be performed in deed, their ships and men of war will be
+ready.—Amboise, 9 March 1559. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd.
+Pp. 3.
+March 9.R. O.
+
+## R9223: 15 March 1560 → Queen
+
+[CSP 2, 859](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp444-455) — Date/addressee match.
+
+859. Throckmorton to the Queen.
+1. On the 12th inst., her courier, Frances, arrived at
+Amboise with the letters of herself and the Council of the
+7th. According to her instructions he repaired on the 13th
+to the Court; and after having dined with the Cardinal
+(who was accompanied with the Chancellor, Olivier, the
+Prince of Joinville, the Archbishop of Vienne (Marillac), the
+Bishop of Orleans, and divers others of the long robe),
+the Cardinal retired with him to his chamber, where he told
+him that the King and he had received letters from their
+Ambassador in England containing the effect of certain
+articles proponed to him there, which Throckmorton would
+more amply dilate to them.
+2. Thereupon the writer declared he had done what he
+could tending to peace between the Queen and the French
+King; that the French Ambassador had made an appearance
+of the good disposition of the King to accord all things
+touching the Queen and the matters of Scotland, and that
+she had commanded him to open to the King the means
+that may confirm the same and establish perpetual peace
+between them; which not being accorded, she could not be
+persuaded that the amity could long endure without jealousy
+and doubt, specially considering the late suspicions. The
+writer said also that by letters received from the Queen he
+understood that their Ambassador had travailed with the
+[Page 449]
+same to have all things friendly compounded, and for that
+purpose had given occasion of devising certain articles, whereof the French Ambassador allowed part, rejected others
+offered by the Queen, and misliked others, although without
+these last the Queen saw no surety could follow.
+3. Here the Cardinal said that Throckmorton had made
+a fair proposition in words as though the Queen desired
+peace, and yet by his doings it seemed as if she minded to
+break. To which the writer made no answer, but continued
+his tale; and said that among other things, their Ambassador had accorded that these innovations made by the King
+here and the Queen his wife touching her arms and title,
+should forthwith be reformed and cease for ever. Whereunto, said the Cardinal, he has gone besides his commission;
+for he had no ground from them to proceed in this sort,
+further than to say that it should be no hindrance to the
+amity. "But no marvel" quoth he, "for he hath from the
+beginning had such a disposition to bring things to quiet
+as he, without respect to anything else, hath clean forgotten
+himself."
+4. The writer then declared the articles about the withdrawal of the French troops from Scotland and the sending
+of a commission for that purpose.
+5. The Cardinal desired to have these articles in writing.
+Throckmorton answered that he had no commission for so
+doing, but at length thought good (under protest) to draw
+them out in such a form that they cannot take advantage
+by any of them. A copy of which he sends.
+6. Hereupon, being brought to the King, he delivered her
+letters and then declared what he had proposed to the
+Cardinal. Whereunto the King said nothing, but pressed
+him to put the matter in writing. He answered with the
+same protestations as he had made to the Cardinal, and
+promised to put the same in articles.
+7. From him he was conducted by M. de Randan, (brother
+to the Conte Rochefaucault) to the Queen Mother, to whom
+also he delivered her letters and commendations, who thanked
+the Queen, and made the like request as the King and Cardinal. Whereunto Throckmorton agreed as before. The
+Cardinal desired the writer to signify to the Queen a conspiracy wrought against him and the Duke, his brother,
+which arose from Geneva. Throckmorton said that the Queen
+would be sorry to hear of it, and would aid the King against
+such meddlers. The Cardinal said that some of them had been
+met, and on the 12th inst. eighteen men were apprehended
+by M. de Sansar near Tours, every one of them carrying
+behind him on horseback a bag full of pistoletts, shot, and
+powder. This is all that passed between the King, the
+Queen Mother, the Cardinal, and the writer.
+8. The same evening he sent the Articles to the Cardinal,
+praying him to return an answer likewise in writing to be
+sent to the Queen. He said he would show them to the King,
+[Page 450]
+consider them, and then give answer; for which the writer
+waited till the 13th, when, not hearing from him, he sent
+again, alleging that the Queen's courier only stayed for his
+answer, whom she would think long in returning. He answered that the King had seen them, but had not resolved
+thereupon. Wherefore, weighing that on the 13th inst.,
+about midnight, they despatched one to their Ambassador in
+England without giving the writer knowledge, and that the
+expedition of the Queen's affairs is of so great importance, he
+has thought good to despatch this bearer, so that she may not
+be abused by any indirect dealing, and also understand what
+he does here, the better to proceed with the French King's
+ministers on that side.
+9. He has understood from the Spanish Ambassador that on
+the 14th inst., there passed by this Court a courier from Spain
+into Flanders, who carried letters to M. de Glaion, a man
+of experience and of the Privy Council, to pass over into
+England to the Queen; and that also another should be
+appointed, whom he knew not, to come to this Court; both
+to travail to compound matter between the Queen and the
+French King. He perceived also that the Bishop of Limoges,
+resident with the King of Spain for this King, sent a courier,
+who arrived within four hours after the other, who makes
+her proceedings other than they are, for his master's advantage. Hereupon, fearing lest the King of Spain, through
+ignorance of her proceedings, might conceive otherwise than
+well, the writer thought it not amiss to make the Spanish Ambassador privy to the Articles delivered by him to the French
+King. He said plainly that she could desire no less; that she
+had reason to demand a great deal more, that the French in
+refusing to satisfy her in the same would seem unreasonable;
+and he was sure his master, understanding this much, (whatever the French Ambassador might say,) would mislike their
+proceeedings, and would be gladder and more esteem the
+Queen if she do as she may do and make an end to her
+advantage. He assured the writer that Glaion was a wise
+man, and would consider as well as any man the necessity
+of amity between England and the Low Country, and said
+the other would not be here so soon but that his master
+might be advertised of her proceedings; and asked for a copy
+of the Articles to send the same to the King of Spain, who,
+being instructed accordingly, would give less ear to the French
+persuasions. To this Throckmorton consented; whereupon
+the Ambassador told him he would despatch one into Spain
+in post.
+10. Guido Cavalcanti bears great affection to the Queen's
+service, and follows the writer's advice in his proceedings. He
+is in good grace with the Cardinal of Lorraine and the Duke
+of Guise, who (Cavalcanti says) said they would sell lands,
+goods, and all that ever they had rather than agree to the
+Articles, and yet he knows if she stands in them they will
+condescend thereunto. Their case is such now that they
+[Page 451]
+cannot choose; for they have nothing ready for the war and
+are in doubtful terms at home. They have so many irons in
+the fire, they cannot tell which way to turn them. Cavalcanti
+also says, that the Queen's proceedings are so liked among the
+strangers of this Court, that her realm has more estimation
+than when it had Calais, so if the end succeed she shall during
+her time be quiet and these men afraid to enter into war with
+her. Here they will do nothing but trifle to win time and make
+as much preparation as they may. He advises her not to let
+the occasion slip, as in their present condition they will be glad
+to make an honourable end with her and perhaps grant more
+than is yet spoken of. As long as the house of Guise rules in
+France these "pikes" will never be forgotten, but revenge
+will be sought. He advises, for the prevention of malice hereafter from the French, that the King of Spain and the
+Emperor be desired to make a treaty of continual peace
+between her and the French King, with capitulation that whoever first breaks, the other two, with the aid of the Prince
+injured, shall set upon the beginner of the war. In respect
+of the state of Christendom, this will be well for the Emperor; and King Philip being occupied with his country
+upon Barbary, will give good ear thereunto, especially since
+the French will not attempt anything against the Low
+Countries for fear of the Queen. He advisedly omitted to
+make mention of the 3rd Article, (which is to have the
+matter brought to communication,) because, before the coming
+of her courier, he understood it was the only point the French
+desired, and whereby they might have most colour to win time.
+It is understood here, by a post from Scotland on the 11th
+inst., that Leith is not guardable ten days, unless they have
+present relief.
+11. He advises her,—in case Cievre or M. de Valence desire
+to have audience, and in their declaration to be made to her
+of the proceedings here between the Cardinal and himself,
+upon the arrival of the courier despatched on the 13th inst.
+without his knowledge, do not give a resolute answer touching
+the demands he has proponed to them, and that to her
+satisfaction,—to answer them that she will stay treating with
+them till she hears from him what answer he receives on this
+side. He begs her in that case to order that neither Cievre
+nor any other send any despatches into Scotland; and that
+if she perceives they mind not to resolve upon answer to
+the Articles ministered by him to them, to revoke him with
+great speed and secresy, and then take her opportunity to
+constrain them to come to better terms.
+12. He is glad that Glaion repairs into England; she can
+win him to be affectionate to her and her realm, for he is
+a man worthy to be won and to be made of.
+13. There is granted to the King here 600,000 francs only
+for the rigging of ships and provision of victuals. John Ribaud
+and Ross continue still upon the sea coasts for the preparation of ships. The garboil here is now very hot, which
+[Page 452]
+troubles them sore and will rather increase, and here is
+already sending out of horsemen and pistoliers on all sides.
+The Pope has granted the request of the Emperor for his
+coronation; and Cardinal Morone shall go into Almaine for
+that purpose; who is not thoroughly cleared of the causes
+charged to him during his imprisonment. The Pope has
+referred the matter of the Council to the Emperor. The
+Cardinal of Guise has returned to this Court. The Cardinal
+of Bellay, Dean of the College, is dead, and in his stead
+Cardinal Tournon is like to be elected. The Pope demanded
+licence of this King to bestow the Cardinal Bellay's benefices,
+because he died at Rome. The enterprise of Tripoli is broken,
+the revolt being pacified and quieted by Dracut Raiz; to
+whom the Turk has sent a succour of thirty galleys to defend
+the sea coast. So King Philip's enterprise failed, and his
+men of war are constrained to retire.—Amboise, 15 March
+1559. Signed.
+14. P. S.—The Marshal of St. André was, the 15th inst., sent
+forth with 300 horsemen to Tours for apprehending certain
+companies there; and the Duke of Nemours and the Admiral
+of France the same day were also sent forth with 200 others
+for the empeaching of another company not far hence.
+Orig. Large portions in cipher, deciphered. Add. Endd.
+Pp. 13.
+March 15.R. O. Forbes, 1. 369.
+
+## R9224: 15 March 1560 → Council
+
+[CSP 2, 860](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp444-455) — Date/addressee match.
+
+860. Throckmorton to the Council.
+On the 12th inst. he received their letters of the 7th inst.
+by Francisco, the courier, and others from the Queen. He
+recapitulates the information and advice contained in his
+letter of the same date to the Queen. Recommends to them
+M. de Glajeon, sent from the King of Spain, to be entertained
+as appertains to such a personage.—Amboise, 15 March 1559,
+at 8 p.m. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd.
+Pp. 9.
+March 15.R.O. Haynes, p. 262.
+
+## R9225: 21 March 1560 → Queen
+
+[CSP 2, footnote 1](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp462-476) — CSP prints this in a footnote because the State Paper Office original could not then be located.
+
+Throckmorton to the Queen.
+1. The 16th inst. in the morning he despatched letters to her. The 14th inst.
+there came to Tours a captain named Castelnovo, a Baron of Gascony, of
+10,000 francs revenue, accompanied with five other captains named De Ronnay,
+Garreau, Masere, Lavignac, and Ydron, all of them of very good skill in the
+wars, with thirty others in their company, who were lodged in an inn of the
+town named the Galley. The Count Sansar, a Knight of the Order, was sent
+with a band of horsemen to Tours, to prevent any great assembly, and also to
+take heed what men resorted to the town and where they lodged. Understanding
+of the lodging of Castelnovo at the inn, he sent to have it for himself. Castelnovo refused to dislodge, and demanded of the Count whether he had a commission from the King, and if he had he would dislodge; but else not. The
+matter of reasoning passed so long that he with his thirty men set upon the
+Count and his fifty, and compelled him to retreat to get more force. In the
+meantime Castelnovo and his men got themselves out of the town and repaired
+to Noysay, three English miles from Amboise, where they were taken by the
+Duke of Nemours and brought to the Court. They said they minded no hurt to
+the King, and that they had another King whom they sought to serve and have
+his law established.
+2. On the 16th about fifty persons more were taken, for the most part artificers,
+who were dismissed and pardoned, except four of the chiefest; to every one of
+whom (for that they were spoiled), the King gave a crown apiece; and to one
+who was hurt in the head five crowns. Hereupon a declaration of pardon was
+made to all such as were up, if they would retire and disperse, except to such as
+were preachers and came in armour towards the King; for it was said that there
+were great numbers ready to assemble in four quarters of the realm which were
+in small companies; by means whereof sometimes more and sometimes less
+were taken by the King's scouts, the chief stayed, and the others set at liberty
+and pardoned.
+3. It was thought that this was but a popular commotion and not to be feared,
+when, unlooked for, on the 17th a company of 150 horsemen well appointed
+approached the Court gates and shot off their pistols at the church of the
+Bonhommes. Whereupon great alarm continued; the drum was stricken; and
+the horsemen, seeing they were too few to resist the King's horsemen, fled
+away, leaving two behind, whose horses had been slain. This caused upon a
+sudden a sharp determination to minister justice, and the two last taken were
+hanged, and two others for company, and afterwards divers more were taken and
+nine men hanged; all of whom died very assuredly and constantly for religion
+in singing of psalms. Divers were drowned in sacks, and some appointed to
+die on the wheel. M. de Sansar found twenty-five in a house together, and
+because they would not come out, he set fire to it; whereupon they issued, and
+one of them, seeing his fellows taken, returned back and burned himself. The
+17th twenty-two of these rebels were drowned in sacks; and on the night of the
+18th twenty-five more. Among these that are taken there are eighteen of the
+bravest captains in France. As they are taken they are questioned and condemned to die.
+4. News arrived of a worse matter. There is a stir of Gascons, who are ready
+to repair hitherward; the like in Bretague and Normandy, where they have
+assailed the Marquis d'Albœuf and his company, who is either hurt or slain.
+Whereupon they here have consulted to fortify and intrench the castle.
+5. The Queen may now see what advantage she has over the French, who are
+so troubled that they know not where to levy any force. He has often called
+upon them for answer to the Articles; it is easy to perceive they do nothing but
+to win time. It will be to her advantage to have gained somewhat of the
+French, before the King of Spain interposes himself in these matters, rather than
+to come barely thereto, having done nothing; whereby he shall have less regard
+to her than shall be for her honour and commodity. Begs her to have him
+revoked, as he is in much danger of his life. The French practise the stealing
+away their hostages in England, in going about to change them for others on
+this side, whom he has not allowed, nor can allow, but the Vidâme of Amiens.
+On the 18th inst. the Duke of Lorraine arrived here in post with thirty horse.
+6. Having sent to the Cardinal this day to know the reply to the Articles, he
+answered that the King had concluded thereupon and had determined to send
+the same in writing to the Bishop of Valence with commission to proceed thereupon with her; and that the writer should not need to look for any other answer.
+He thinks it a strange kind of dealing that he should tell them what he has to
+say, and should receive no answer; if they meant plainly they would not use
+this sort of proceeding. He does not believe that the Bishop has power to determine anything, but only to practise so as to win more time. He fears that
+whatever the Bishop does they here will say he has passed his commission. He
+trusts she and the Council will require to see his commission. They have said
+that they know how to handle her, which makes them bolder to presume. Let
+her beware that their wiles cause her not to forego her occasion to provide for
+her honour and surety for ever.
+7. On the 20th, La Renaudiere, surnamed La Forest, a captain among these
+rebels, being before killed by such as went to take him, was hanged on a gibbet
+before the Court gate. This day was proclaimed a general pardon for all men
+in this conspiracy, with order to repair to their dwelling places not above three
+or four in company; and if they assembled in greater company they should be
+exempt from the pardon. Castelnovo confessed that he should have conducted
+such as stirred in Berry; that Masieres should have led them of Gascony, and
+Ranaudiere them of Provence; and that the cause of their haste was to kill the
+Duke of Guise and the Cardinal of Lorraine; and then to have sent for the rest
+of the conspirators to assist them. They are here in great fear and know not
+what to do.
+8. John Ribaud has prested and stayed sixteen hulks at the bay, the least of
+500 and some 600 tons apiece, and is repaired to this Court to get money to put
+the same in order. They mind to furnish forth in all seventy ships of war as
+soon as they can get them. An Italian, named Attilio Trento, (who was with
+her at Hatfield soon after her trouble, and about the time that King Philip departed out of England for Flanders,) bears her such affection as to offer her his
+service for her better intelligence how things go on in this Court, whereunto he
+has very good means. Throckmorton begs to know what pension she will
+appoint him if she entertain him. He has already devised the means how he
+shall serve.—Amboise, 21 March 1559. Signed.
+Orig. Portions in cipher, deciphered.
+2. Another copy is in the Duke's letter-book at Hatfield House.
+3. A copy in MS., endorsed by Cecil, exists in the collection at Hatfield
+House.
+4. Cecil's original draft of this paper occurs in B.M. Cal. B. x. 81.
+5. The Queen to Norfolk.
+March 30.MS. Hatfield House. Haynes, p. 274.
+The Bishop of Valence, who was sent hither about thirteen days past from
+the French King, to treat of matters wherein she showed herself offended, and
+therein for lack of authority, or such like, has proceeded to no purpose but
+delay of time, is now desirous to repair into Scotland; alleging that he has commandment from his master to the Queen Dowager and Scots for an accord of
+their griefs. The Queen has licensed him to do so, and has sent with him Henry
+Killigrew to conduct him to the Duke, in order that he may be safely conducted
+to the Queen.
+Cecil's draft.
+6. In this and the subsequent letters of Edwards' it has been considered unnecessary to preserve the terms under which he seeks to disguise his meaning.
+7. A draft of this Proclamation, in English, the joint production of Cecil and
+Petrie, is preserved at Hatfield House, and is employed as the basis of the
+abstract given above. See also B. M. Harl. 293, 121 b., and 1244, 249, and
+MS. Béthune (Paris), 8666, 43.
+8. From this point the letter is written with a different ink.
+9. The Council to Norfolk.
+March 22.MS. Hatfield House. Haynes, p. 267.
+1. For the purpose of inducing the Queen to suspend hostilities in Scotland,
+the French King has sent hither M. Monluc, Bishop of Valence, whose excuses
+for injuries done to her in assuming her arms and usurping her style and title
+are vain and evil grounded; and they seek nothing else by their talk than to
+gain time, which has been lost on their parts, and now with more speed must
+be recovered.
+2. The Queen is determined that the Duke shall proceed according to his
+former instructions, and at the time appointed the Lord Grey shall enter
+Scotland with the army, and with the aid of the Scotch expel such forces
+of Frenchmen as are there, and such Scotchmen as take their part against
+the liberty of their country. For speedy execution thereof, the Queen sends
+by Lestrange the ratifications of such articles as were agreed upon by the
+Duke and the Lord Lieutenant of Scotland, the same to be signified to them with
+all speed, lest any doubt be conceived by them through slackness; and upon
+receiving the hostages into his hands he is to deliver the ratifications to the
+Lords of Scotland.
+3. If after the entry any Frenchman would depart out of Scotland, the same is
+to have safe conduct, and by some convenient means he shall notify to the French
+and Scotchmen that such of them as will not continue in their obstinacy against
+Scotland shall have safe conduct to pass safely from thence; but such Scottish
+men as shall continue to oppugn the liberty of their country shall be handled with
+all extremities and be counted as traitors.
+Copy. Endd. by Cecil.
+
+## R9226: 21 March 1560 → Cecil
+
+[CSP 2, 882](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp462-476) — Date/addressee match.
+
+882. Throckmorton to Cecil.
+1. He wrote last on the 15th inst. by Barnaby. Refers him
+to his letter of same date to the Queen for information
+since the 15th inst. Thinks good to advertise her of the
+garboils here. Unless the French think that she dallies
+with them, he knows not what they mean. Their present affairs
+are great and many. They will accord with her demands,
+but redeem the time till these garboils are overblown and
+their affairs in better readiness. Whatever the Ambassador
+promises, when they come to the execution they will be far
+enough from it. She should compel them to agree to such
+reason as she will require of them.
+2. Cecil wrote in his last letters of the 7th, that the advance
+of the Duke of Norfolk was deferred from the 25th to the 28th,
+which makes the writer wish that there were no longer delay.
+There are not many enemies in Scotland; they have not
+many places, nor are these strong, nor can they have help from
+hence. Since 1 Sept. the writer has still called to have this
+matter to be followed. If they were then in ill case to withstand the Queen, they are now in a great deal worse and we in
+far better order. Now is the opportunity; now may she
+do what she will. Whereunto this stir will grow Godknows,
+for he hears they begin to stir in a great many more places.
+3. To hear often from hence is requisite, and 100l. (or indeed
+500l.) should not be spared. If things grow to extremities
+[Page 465]
+here he knows not in what case he is like to be, and therefore
+despatches this while he may. It were meet he were revoked,
+for the Ambassador of Spain told him that the French
+conceived he was a great party in these garboils.
+4. Has received an answer from the Cardinal, for which he
+refers Cecil to his [the writer's] letter to the Council. They
+must stand stoutly with the Bishop of Valence, to whom
+the matter is committed. John Combes is much offended
+with the writer for having written about him to the Council;
+it is strange how he should have any inkling thereof. Every
+three or four days a post comes hither from the Ambassador
+Sevre. Florence de Diaceto, misliking the offer made by the
+Queen, has entered the service of the King of France with
+his old pension, of which the arrears are confirmed to him.
+He is shortly to be employed upon the affairs of England and
+Scotland.
+5. Has written to Lord Arundel in behalf of William and
+Augustine Haward, of Sevenoaks, in Kent, two poor serving
+men, who having committed a small robbery in Kent about
+a year ago, came over into France, where they have wandered up and down since Hallontide [1 Nov.] last. Asks Cecil
+to help them.—Amboise, 21 March 1559. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd. Pp. 9.
+March 21.R. O.
+
+## R9227: 21 March 1560 → Council
+
+[CSP 2, 881](https://www.british-history.ac.uk/cal-state-papers/foreign/vol2/pp462-476) — Date/addressee match.
+
+881. Throckmorton to the Council. (fn. 1) 
+1. Since the despatch of his last letters to the Queen, and
+to them on the 15th inst. he has not slacked to ask an
+answer to what he proposed to the King from the Queen,
+[Page 463]
+and delivered to the Cardinal of Lorraine. This morning the
+20th he sent again to the Cardinal, who said the King had
+concluded thereupon, and would send the same to the Bishop
+of Valence, now in England, to proceed thereupon with the
+Queen. Throckmorton asked whether he should have no
+other answer, as he had trusted to have had the King's answer
+in writing; whereunto the Cardinal answered that the King
+minded to do as he said. He thinks this a cold kind of
+dealing, that having put him off so long for an answer, now
+to make it after this sort, and make him privy to no part of
+it, nor send him word of it, but that he must thus wrest it
+from them. What need is there for an Ambassador here,
+when he receives no answer to his matter, as they have
+used of late more than once? He thinks they do it but to
+dally with the time rather than to go the right way. Thinks
+that the Bishop shall have no commission to end these things,
+but only power to talk and argue of the same with the Queen,
+and, having heard her answer, will perhaps say he will write
+to the King thereof, and so win more time.
+2. In his last letters the writer said that when he told the
+Cardinal of Lorraine that their Ambassador Sevre had agreed
+to certain things, he answered that Sevre had forgotten himself and passed his commission; being told to talk of matters,
+but conclude nothing. And seeing he behaved as though he
+had authority, and yet had none, this writer thinks it will
+[Page 464]
+be the same with this Bishop. He hopes the Queen and
+Council will require to see his commission, and if he has power
+to end the same in deed and that out of hand, then he is
+not to be refused an audience; and yet (in Throckmorton's
+opinion) this should by no means hinder things abroad, for
+that will make them the sooner come to reason. If he has
+no such authority then he should be handled as he deserves;
+wherein he will not take upon himself to advise their Lordships.
+Having heard that these men say they know how to handle
+the Queen and gain time, and have delayed till March what
+she should have done in December, it makes him more earnest
+to entreat the Council to beware of their wiles, to let them
+win no more time, for this is their intent.
+3. He sends off Francis, the courier, with the Cardina lof
+Lorraine's answer and with what he has written to the
+Queen. There was to-day granted a general pardon for all
+of the late conspiracy, remitting all that is past, so that each
+of them return to their habitation or country, not above
+three or four in a company; or if more are found together,
+or if they remain in any place, then they are exempt from the
+pardon. And although things be now calmed and this business
+is little spoken of, yet the Duke of Guise and Cardinal of
+Lorraine live in great fear and know not whom to trust.—
+Amboise, 21 March 1559. Signed.
+Orig., with seal. Portions in cipher, deciphered. Add.
+Endd. Pp. 5.
+March 21.R. O. Forbes, 1. 384.
+
+## R9228: 24 September 1562 → Queen
+
+[CSP 5, 690](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp315-322) — Date/addressee match.
+
+690. Throckmorton to the Queen.
+1. Recapitulates the information contained in his letter to
+the Queen, of Sept. 20. The Prince and Admiral have
+asked him to request her to send them some money, and also
+that her force may pass to this side with all speed. Has
+informed Warwick by this bearer in what terms he is here,
+and how things stand. The Prince of Condé hath desired
+him that this schedule inclosed may be delivered to De La
+Haye. Stopped this despatch until he heard how his servant
+(sent the 20th inst.,) was used by the Queen Mother for his
+passport, who was despatched from the King's camp on the
+22nd inst. with a passport. On the same day the Queen
+Mother returned one of his servants, accompanied by one
+of the King's trumpets, by whom she sent him a letter, the
+copy of which he sends herewith with his answer to her.
+2. At present the King is at Gaillon, at a house of the
+Cardinal of Bourbon, not far from Rouen; his camp marches
+towards Rouen with all speed, meaning to surprise that town
+before she can put any force in it, and prevent the descent of
+her men at Newhaven and Dieppe, especially at Newhaven.
+3. The Prince is informed by Count Rochefoucault that by
+the end of this month he and Durasso will be well advanced
+hitherwards with 8,000 foot and 1,000 horse. The Prince
+is resolved to take the field (leaving a garrison in this
+town), as soon as he is informed of the descent of her forces
+and the repair of D'Andelot with the Almaines. If she aids
+them now, they assure him they will never make an accord
+with their adversaries but such as she allows.
+3. The Prince and Admiral request her to send them two
+or three skilful pioneers; he hopes she will not let her force
+which may pass to this side be unprovided in that sort.
+Has not heard from her since the 16th August.—Orleans,
+24 Sept. 1562. Signed.
+Orig. Nearly entirely in cipher. Add. Endd. Pp. 9.
+Sept. 24.
+
+## R9229: 15 October 1562 → Queen
+
+[CSP 5, 848](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp358-373) — Date/addressee match.
+
+848. Throckmorton to the Queen.
+1. Wrote to her on 27th ult., enclosed to the Earl of Warwick, which is taken by those of the Papists' camp, which
+he repeated in his of the 9th inst., sent by a Frenchman
+named Captain Charmu. She will perceive by that, and by
+the manner of his writing thereof, (fn. 3) with what difficulty he
+now sends to her. Sends copies of his letters to the Queen
+Mother and the King of Navarre. Middlemore (whom he had
+sent) found the Court at Rouville, four leagues from Rouen;
+they being on horseback to take their journey to the camp
+before Rouen; where Middlemore repaired also. As soon as
+he arrived, the Constable committed him to the guard of a
+gentleman (so that he should confer with no man), and
+shortly after he was brought to the King, the Queen Mother,
+the Duke of Orleans, the King of Navarre, the Cardinal of
+Ferrara, the Duke of Guise, the Constable, St. André, and
+others.
+2. The Queen Mother said to him no safe conduct could be
+of greater assurance for Throckmorton than the quality of an
+ambassador; and then made a long declaration of his ingratitude; he who had forgotten how he was bound to the King, her
+husband, for his life, which was in jeopardy in the time of the
+late Queen Mary, when he left England to come to France
+for safety. The Duke of Guise added that he wished that he
+[Throckmorton] were with those at Newhaven or Dieppe,
+who should be visited as they deserved.
+3. The Queen Mother refused him a safe conduct. Marshal
+Brisac lately used the following words of him: That whatever it cost they must get him into their hands, and without
+delay must cut off his head, he being the most dangerous instrument of his nation for them; and that they will find articles
+enough to make his process. The Queen Mother has charged
+M. De Sevre to practise with Smith, so as to discredit his
+[Throckmorton's] doings. These are the causes why he does
+not accompany Smith to the Court unless he have safe conduct;
+so he remains at Orleans to attend her further order. Middle-
+[Page 369]
+more attends upon Smith to the Court. He cannot as yet
+for her service disfurnish himself of John Barnaby, his
+secretary.
+4. Condé and the Admiral will not be able to leave this
+town to put themselves in the field, either to fight with their
+enemies or to succour Dieppe or Newhaven (for they take
+Rouen to be lost), until the latter end of this month.
+M. D'Andelot (partly by his sickness, and lack of money to
+pay the Almain soldiers for their levying and first musters,)
+has stayed his advance. He cannot be near this town or
+Paris until about the 22nd inst. The Count De Rochefoucault
+and M. Durasse have been retarded by M. De Monluc with a
+force of Spaniards; so that they cannot be here before the
+22nd inst. Thus the defending of Dieppe and Newhaven is
+entirely in her hands.
+5. The Duke of Etampes and M. De Martigues have
+marched from Bretagne with 4,000 men to reinforce the
+King. Condé and the Admiral desire the Queen to send
+some of her ships upon the coast of Bretagne, there to make
+incursions; thereby to stay Etampes in that country.
+6. D'Andelot on the 4th inst. was at Salbourg, in Lorraine;
+he will be at Châtillion on the Seine on the 20th inst.; and
+from thence approach either towards Paris, or hither.
+7. Mount St. Katharine being taken, those within Rouen
+talked of surrendering the town upon conditions, "which
+parliament lasted two or three days." Offers were proposed
+by those of the King's camp, but they within the town
+(taking courage at the arrival of four ensigns of Englishmen,)
+refused all conditions. The battery was renewed furiously
+in sundry places. Here they are desperate of Rouen, and yet
+relieved by hope of the valiantness of the English. At
+Dieppe there are 600 Englishmen arrived under Captain
+Ormesby, which place if assaulted would require at least
+4,000 men for the guard thereof. At Newhaven eighteen
+sail had arrived with 1,500 Englishmen; which is a small
+number for guarding that place; it requiring at least,
+if besieged, 4,000 men. Of these numbers landed at Dieppe
+and Newhaven there can be no convenient succours taken
+for the relief of Rouen.
+8. St. André has gone to intercept the coming of D'Andelot.
+The house of Guise (with the advice of the Cardinal of
+Ferrara and the Spanish Ambassador here,) have lately
+despatched Villemort and La Croque, servants to the Queen
+of Scotland. to pass through England, to make troubles,
+to exasperate the Queen of Scotland and her papistical
+Council to make some troubles upon the frontiers of England,
+and to do what they can to deprive the Earl of Mar. Lethington, and all others who favour the Protestant religion, of
+their authority about the said Queen. There are practices to
+cause trouble in Ireland; the Bishop of Aquila is set on by
+these men. The last despatch sent from the King's camp into
+England was to will the French Ambassador there and the
+[Page 370]
+hostages to shift for themselves an I retire from thence with
+all speed.
+9. The messenger who carried his despatch of the 27th ult.
+directed to her and the Earl of Warwick was put to death
+in the King's camp, he being a Frenchman. The Cardinal of
+Lorraine thinks at this Council at Trent to bring to pass a
+marriage with the Queen of Scots, his niece, and Ferdinand,
+the second son of the Emperor; and to conclude the league,
+offensive and defensive, amongst the Papists. The Cardinal
+will work what he can to transfer by resignation the empire
+unto the said Ferdinand, to the disappointment of Maximilian,
+King of Bohemia. At his leaving this Court for Trent he
+made a long oration against Condé and his party for bringing
+into this realm Englishmen.
+10. He hopes she wills not name Brisac as the author
+of his destruction, for thereby the party would be known
+from whom he had the intelligence, he being the only person
+to whom it was spoken. Sends herewith a cipher from the
+Prince and the Admiral, which is sent to her so they may
+hear from one another, of which they desire to be advertised
+by M. De La Haye.
+Orig. Draft. Considerable portions underlined, to be
+expressed in cipher. Endd.: 15 Oct. 1562. By Sir T.
+Smith's courier and Tho. Danzes. Pp. 8.
+Oct. 15.
+
+## R9230: 5 August 1562 → Queen
+
+[CSP 5, 425](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp197-215) — Orleans/Burges passage matched to CSP paragraph 11 and the corresponding Forbes letter.
+
+425. Throckmorton to the Queen.
+1. Received her letters of the 28th ult. on the 1st inst., by
+Francisco. Mewtas had not then left, but his passport was
+[Page 209]
+granted on the 2nd inst.; whereupon he left Paris on the 3rd inst.,
+intending to embark at Dieppe. The writer then demanded
+audience, which was granted on the 3rd inst. about five
+o'clock in the afternoon, at La Tuilerie, adjoining the Louvre,
+the King's new palace in Paris.
+2. Having presented the Queen's letters for his revocation,
+the Queen Mother answered that many outrages had been
+committed against him, but that the King had so provided
+that they should be stopped.
+3. He answered that the fury of these people comes upon
+them by tides. After they had levelled their arquebuses at
+his house, and the King sent M. De Randan about the same,
+they remained peaceable for a time.
+4. The Queen Mother said that seeing it was the
+Queen's pleasure to revoke him, it was reasonable that they
+should know also that M. De Vielleville and their Ambassador might safely return. In the meantime she desired him
+to tarry in France, and not to think it strange. He answered
+he was sure there would be no impeachment in England if
+it was their wish to revoke their Ambassador, and that M.
+De Vielleville would find all honour at the Queen's hands.
+If M. De Foix should reside there as Ambassador, the Queen
+had commanded him to say that he should be well treated.
+5. The Queen Mother then made a long discourse of her
+proceedings, and laid all the blame upon the Prince of Condé,
+saying that they thought the Queen would rather have given
+aid to the King.
+6. He said the Queen could not satisfy all suspicious minds,
+but the cause of his revocation well appeared to be for another
+respect than to meddle in these matters. He then said he
+had heard that the Prince desires nothing but that the edict of
+January may take place, as was decreed by the King, herself,
+the King of Navarre, the Council, and all the Courts of Parliament of France; and he asked her whether it had been
+annulled by as great authority as it was made? The Queen
+answered, she had done all she could, and it concerned her
+most for her son's interest.
+7. He then took his leave, and requested, since it was
+their pleasure to stay him for a time, till they gave revocation for their Ambassador, that he might send a courier
+to inform the Queen of his stay, and the cause thereof, which
+was granted to him. He then took his leave of the King
+of Navarre, who used the same speech for his revocation as
+the Queen Mother had, and also concluded that he should
+not depart until they were sure their Ambassador should
+not be impeached. He then took his leave, and also the
+same of Marshal Brisac. The Cardinal of Guise being there
+at his entry, did not stay till the end of the conference.
+8. If M. De Vielleville has passed into England, he hopes
+the Queen will recommend to him that her Ambassador have
+free passage homewards, and also that M. De Foix may pass
+[Page 210]
+no further than London until she hears from him that he is
+licensed to depart towards Boulogne from Paris.
+9. Paris has lent again 200,000 crowns to maintain this
+war against the Prince, so now they have lent 400,000
+crowns.
+10. On the 3rd inst. the King and Queen Mother went
+to Madrid, three leagues from Paris.
+11. Notwithstanding the great show of besieging Orleans
+or Bourges, the greatest force shall be applied against Rouen,
+Newhaven, and Dieppe, places meet for the Queen to be
+jealous of. Informed her in his last that Troyes was taken
+to the Prince's use, which is not verified yet. There is a
+great bruit that Chalons in Champagne is taken by the
+Conte de Seningham to the Prince's use. He also mentioned
+in his last that the Conte de Rochefocault was in Poitiers;
+since then he has retired farther into the country of Saintonge, there to assemble forces for the succour of the Prince;
+and since the Conte left Poictiers, the Conte De Villars accompanied by the Conte De Luyda and M. De Montpezat
+(son-in-law of Conte De Villars) has taken the same, where
+great cruelties have been used.
+12. The great defeat so much spoken of between M. De
+Monluc and M. De Durazze is now said to be of small consequence, for there was not thirty persons killed on both
+sides.
+13. The bruit is rife that the King of Spain sends forthwith 3,000 footmen and 2,000 horsemen and that the Papists
+aid him by way of Bayonne and Bordeaux; 4,000 by Marseilles
+from Milan, and 2,000 horsemen and 4,000 footmen from the
+Low Countries. This report is a surmise of the Papists to
+frighten the Protestant party.
+14. On the other side the Almains, which M. D'Andelot
+brings to aid the Prince, are not far from the frontiers of
+France. The Almain Princes have proclaimed the troops
+under the Conte Ringrave and Rocquendolf to be rebels, and
+have confiscated their lands and goods.
+15. Since his last, two regiments of lansknets have marched
+through Paris. The Conte Ringrave (their colonel) dined
+with him, and declared his willingness to do the Queen
+service. He told him that she was informed of his worthiness by his acquaintances in England, such as the Lord
+Admiral; and that his doings in this cause might confirm
+the same. The Conte said, because the Queen took great
+pleasure in good horses, and such as be a little "scarbillade,"
+[high mettled], he had an ambling horse which he would
+present to her.
+16. Sends herewith the recusations of the Prince sent to
+the Court of Parliament of Paris, to denounce the incompetency of those judges who accorded the sentence of his
+condemnation, together with a memorial lately sent to him
+from the Prince by one his secretaries to testify his doings
+at the last conferences with the Queen Mother.
+[Page 211]
+17. On the 5th inst. Marshal Brisac, Governor of Paris,
+advised him to change his lodging and take a house nearer
+his own within the town, for his better surety, which was
+recommended to him the day before by the King, the Queen
+Mother, and the King of Navarre, because the people in the
+quarter where he lodged were more inclined to evil doings
+than those within the town. Whether this motion proceeded for his safety, or to remove him from the place where he
+is, he knows not; but he thought it meet to inform the Queen
+hereof.
+18. Marshal St. André, since Poitiers was taken, has been
+sent thither, and has scoured all Guienne and Gascony of the
+Protestants remaining there, with the aid of some Spaniards
+that should enter at Bayonne.
+19. On the 4th inst. James Beaton, servant to the Queen
+of Scots, and son of the late Cardinal Beaton, left Paris for
+Boulogne or Calais, to embark, and pass through England
+into Scotland. He has been despatched by the Cardinal of
+Lorraine, and would not take his letters to the Queen, or to
+any of the Council, or other officers for his passage. He is
+very vain, and one of the worst affected to England of his
+nation; and he carries with him as ill devices against her as
+the Papists here can devise. The Earl of Mar, and others
+about the Queen of Scots, could tell her what sort of man he
+is. His errand hither was to christen in the Queen's (his
+mistress's) name, Madame De Martigues' child; but he does
+not return with so good an errand, but to procure that some
+business may be done upon the frontier of Scotland against
+England.—Paris, 5 August 1562. Signed.
+Orig. Considerable portions in cipher. Add. Endd. by
+Cecil. Pp. 11.
+August 5.
+
+## R9231: 9 September 1562 → Queen
+
+[CSP 5, 596](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp275-293) — Date/addressee match.
+
+596. Throckmorton to the Queen.
+1. Before leaving Paris he informed Brisac, Governor of
+Paris (who has the oversight of him), that he meant for surer
+passage to Bourges to go by St. Mathurin, Montargis, and
+Gien, a way not haunted with men of war. Brisac told him
+he could not allow him to travel that way, saying those
+towns were at the Prince of Condé's devotion; but that if
+he will go by Chartres, Bonneval, Châteaudun, and Blois, he
+[Brisac] would guarantee him to go safely.
+2. He went the way Brisac prescribed, and passed safely
+until the 1st inst.; he overtook the artillery beyond
+Châteaudun, near La Ferté, in the Beauce. Had not been
+long in the train when the avant couriers of the Catholic party
+discovered their enemy of Orleans. To avoid disaster he sent
+to the Admiral (who was chieftain of the Protestant party)
+to ask for security for himself and his train; when at that
+instant the Admiral charged on their enemies. He, chancing
+to be in the fury of the charge, was taken and spoiled of all
+he had; above 6,000 crowns of the sun; and had not M. De
+Grmamont come to their succour, they must have been cut in
+pieces.
+3. The Admiral defeated their enemies, whereof 300 were
+slain, and many wounded; they also took six cannons, and
+forty-three carts loaded with powder, and some bullets. He
+has lost the Queen's instructions, letters, ciphers, and all notes
+and papers of consequence, so he is without means to accomplish her charge. This bearer, Francisco, accompanied
+him, and can bear testimony of his losses.
+4. The Admiral was accompanied by MM. De Grammont,
+De Janlis, and De Fontenay (brother to De Rohan), and
+800 or 900 horse. After the victory, not having the means
+to carry away the ammunition and artillery, they burnt the
+powder and destroyed the artillery. Then they marched to
+Orleans, where they advised him to go with them for safety,
+which he yielded to.
+5. They arrived at Orleans about 2 o'clock a.m. next day.
+He has lodged in the Admiral's house, where he has continued
+since his arrival; and the Prince and he have often declared
+that their chiefest trust, next to God, was in the Queen.
+[Page 290]
+6. The state of Orleans is thus, viz.: There are 1,200 horsemen in the town, and 5,000 footmen, beside the inhabitants.
+They do not want victuals for six months. The Prince has
+had nine or ten cannons and culverins made within the town,
+and they will make seven or eight more. They have fortified
+almost all the weak places with platforms, ravelines, and
+parapets. The counterscarp is in a manner finished. They
+have a good store of powder, but they had some misfortune
+heretofore by fire. The plague is very rife here, and daily
+diminishes their numbers. The Princess of Condé, her eldest
+son, and Madame l'Admiral, are within the town.
+7. Besides the victory named was another won on the same
+day by M. Durasse against M. De Monluc, in Gascony, where
+there was slain 800 horsemen and 1,000 footmen. On the
+same day Bourges surrendered to the Queen Mother and the
+King of Navarre, by M. De Yvoy, the manner of which
+capitulation she will perceive by a memoir enclosed.
+8. M. D'Andelot makes his musters in Lorraine on the
+15th inst., of 4,000 horsemen and 6,000 footmen, upon the
+charge of the Princes of Almaine, who will not take any
+money of the Prince to pay their soldiers until the matter is
+brought to some other point. They are satisfied to take
+D'Andelot's promise and bill for the money by them disbursed.
+9. The King dislodged from Bourges on the 6th inst., and
+from thence his camp marched to St. Palais with the intention
+to pass the country of Sologne, taking the way to Aubigny,
+belonging to the Earl of Lennox's brother, and so pass the
+River Loire at Gien. The Constable and the Duke of Guise
+are resolved to convert the greatest part of their force against
+Rouen and Newhaven; for they are informed that those
+places are unmanned. Also they suspect that the Queen
+will succour those places. They intend to impeach D'Andelot's coming with the Almains.
+10. The Bishop of Orleans and M. D'Alluy (one of the four
+principal secretaries) are despatched from the King's camp
+into Piedmont, to make restitution of the holds there to the
+Duke of Saxony. The regiment of Frenchmen in Bourges
+since the rendition are secretly retired. They had promised to
+serve against the Prince of Condé, but especially against the
+Englishmen and Almaines. Of these soldiers 600 or 700 came
+to this town to serve the Prince of Condé.
+11. There is great practice made by the Queen Mother to
+win MM. De Janlis and De Grammont from the Prince. The
+two chieftains at the conflict, where he met with his misfortune, behaved valiantly.
+12. Wrote a letter to Vielleville to inform the Queen Mother
+of his disaster, and to know what he should do; the copy of
+which, with Vielleville's answer, he sends herewith. They
+sent a trumpet for him to Orleans, to conduct him to the
+King, to whom he will depart as soon as he can. In the
+meantime he sends Francisco, her courier, with this despatch.
+[Page 291]
+13. Sir Peter Mewtas "is departed to God's mercy at
+Dieppe." The Papists not being strong enough to exterminate
+the Protestants in this country by force, and understanding
+the Queen's preparations on one side, and the coming of
+Almaines on the other, again offer to the Prince of Condé the
+observation of the edict of January.
+14. He has recovered all the Queen's plate, her instructions
+lately sent him to negotiate with the Queen Mother, her
+cipher, with other papers, part of his apparel, some of his
+horses, and 350 crowns.
+15. After three years and six months service here, he hopes
+she will deliver him of this charge by her speedy revocation.
+He sends herewith a declaration, lately set forth by the Prince
+of Condé, upon the judgment given against him and them for
+rebellion.
+16. It will appear very strange to the Queen Mother that
+the Queen should send a minister to negotiate with her in
+such matters, being unauthorized by her letters of credence.
+—Orleans, 9 Sept. 1562. Signed.
+Orig. Portions in cipher, deciphered. Pp. 9.
+Sept. 9.
+
+## R9232: 9 September 1562 → Cecil
+
+[CSP 5, 597](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp275-293) — Opening refers to dispatching Francisco on the ninth. No.597 is the principal candidate; keep no.599 for comparison.
+
+597. Throckmorton to Cecil.
+This day (9th inst.) he despatched Francisco, the courier, in
+post, with advertisements of the surrendering of Bourges,
+etc. They have offered to the Prince of Condé the observation
+of the edict of January, which is but to trap the Admiral. It
+will not be amiss for Cecil to tell M. De La Haye that the
+Prince and his party should make no composition, unless
+England is agreeable thereunto, the Queen being at such
+charge. The writer has barely escaped with his life. Through
+the Prince he has recovered part of what he lost. He does not
+think his cipher fell into any man's hand, but it should be
+changed, and another sent by Cecil's next despatch. It is
+necessary for Cecil to have an eye to M. Nantouillet and his
+doings, he being the most dangerous hostage that is in
+England.—Orleans, 9 Sept. 1562. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd. by
+Cecil's secretary. Pp. 3.
+Sept. 9.
+
+## R9233: 30 October 1562 → Cecil
+
+[CSP 5, 935](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp398-418) — Date/addressee match.
+
+935. Throckmorton to Cecil.
+1. Received his letter of the 11th inst. on the 19th inst.
+and thereby perceives his infelicity since his doings are neither
+grateful there nor here. Is sorry he has not been able to please
+the Queen so much as others have done, but he can advow
+what he has written to be true by greater authority than
+M. De Foix. Amongst his surmises he informed the Queen
+that he [the writer] was willingly taken by the Admiral at
+Châteaudun.
+2. MM. De Briquemault and De La Haye should be well
+used and the matter so handled as they may advertise the
+Prince and Admiral of the Queen's devotion to their cause.
+Cannot leave here until Condé procures him either the King's
+passport, or makes him an open passage.
+3. Begs Cecil to send some preachers to Newhaven, Dieppe,
+and Rouen, to retain the people in the fear of God, and has
+written to Ormsby once or twice to remind him [Cecil]
+thereof.
+4. The recovery of Calais shall be as honourable as the loss
+thereof was dishonourable. Hopes Cecil will not allow Dieppe
+and Newhaven to be lost for lack of men, as Rouen is likely
+to be.—Orleans, 30 Oct. 1562. Signed.
+Orig. Add. Endd. Portions in cipher, deciphered.
+Pp. 3.
+Oct. 30.
+
+## R9234: 1 November 1563 → Queen
+
+[CSP 6, 1356](https://www.british-history.ac.uk/cal-state-papers/foreign/vol6/pp578-593) — Manuscript date agrees with 1563; do not change to 1562 just because preceding letters are earlier.
+
+1356. Throckmorton to the Quen.
+1. Is straighter kept than before. The French have great
+occasion to desire peace, for these reasons, viz.: The division
+of religion may be named the first; the quarrel betwixt the
+houses of Guise and Châtillion, the latter being now fortified
+with the countenance of the Constable and his friends; the
+quarrels for the insolence committed since the beginning of
+these troubles; the Queen's desire to govern all, who therefore nourishes the pike betwixt these houses, thinking thereby
+to retain her authority. To these may be added, the poverty
+of the Crown; its small credit abroad and at home for not
+paying its debts; the doubtful terms and hollow amity
+betwixt Scotland and France; the few able men of appearance to make war by sea; the evil state of the King's navy;
+the disadvantage which the realm receives by not trafficking
+with England (whereby the French want yearly of four or
+five millions of gold), and the great fear they have of the
+marriage of the Queen of Scotland with the Prince of Spain.
+But now they are not so desirous of peace as they were.
+The reasons are that now they hope that this marriage shall
+quail; they also feel no war at her hands by sea, nor such
+impeachment of vent of their commodities as they mistrusted.
+And seeing nothing to endanger them, they will not harken
+to peace, unless it be to her disadvantage.
+2. They quietly make their herring fishing and all their
+weekly business without impeachment; and much of it upon
+her coast. Their fish markets were never better furnished.
+Their mackerel fishing and the fishing of the New Land fish
+does not begin till next spring.
+3. The Constable at his [Throckmorton's] first arrival on
+this side did as much procure his arrest as any of the Council.
+But since his last conference with him on the 1st ult., he has
+[Page 580]
+employed himself to have him enlarged. The Queen Mother
+will not condescend thereto, her malice being increased towards
+him by Secretary Aubespine and the French Ambassador there.
+4. No man more desires to compound these matters to her
+contentation than the Constable. Herewith she will receive
+a letter which Cardinal Guise sent him, and one from him to
+the Cardinal.
+5. Smith (accompanied with De Mauvissiere) had permission
+to come and speak with him, to whom he declared that
+another than he should be in the commission with him
+[Smith] to treat of the peace with the French, and that he
+might be safely returned thither before his colleague comes
+hither.
+6. She has served herself by some on this side the sea, for
+whose entertainment he asks that 300 or 400 crowns of the
+sun be delivered without delay.
+7. The voyage into Lorraine (where the Cardinal of the
+same should have met with this King as Legate from the
+Bishop of Rome,) is broken, as he hears, by the Constable.—
+Castle of St. Germain-en-Laye, 1 Nov. 1563.
+8. P.S.—Hears that the Cardinal of Lorraine is at Rome,
+greatly honoured and much made of by the Bishop there.
+Here is some bruit that Orleans, Montauban in Guienne, St.
+Lo in Normandy, and certain other towns shall be further
+dismantled; which gives some argument that the Queen
+Mother does not mean best to the Prince of Condé, the
+Admiral, and that party. The Cardinal of Châtillon and M.
+D'Andelot are at Paris. The Admiral is at his own house,
+and will come shortly to the Court. The King is at Villiers-
+Cotterets. The Prince of Spain has been sick of tertian ague,
+and is recovered. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd.
+Pp. 6.
+Nov. 1.
+
+## R9242: 3 January 1563 → Queen
+
+[CSP 6, 12](https://www.british-history.ac.uk/cal-state-papers/foreign/vol6/pp1-19) — DECODE uses old-style 1562.
+
+12. Throckmorton to the Queen.
+1. Perceives Smith has advertised her of the battle of the
+19th ult., betwixt Dreux and Masieres. The writer being a
+spectator of it, will signify what he saw and knows.
+2. Both armies were determined, as it seemed by their
+proceedings, to give battle; Condé being resolved to pass the
+river Dare at Dreux, which the Constable and Duke were
+resolved to impeach. Each party persisting in their opinions,
+the battle began at noon, and continued till night. The
+vanguard of the Prince's side (being conducted by the
+Admiral and his brother), accompanied by the Marshal of
+Hesse and five cornets of "reighters," defeated the Constable,
+who was taken, being wounded with a pistol-shot on his
+nether lip, but not dangerously; who was with speed taken
+to Orleans. Having thus defeated the Constable, they
+followed the enemy so broken. The vanguard, led by the
+Duke of Guise, stood firm in a place of advantage. The Prince
+charged the same, and was defeated, he being also taken by
+M. D'Anville. Four cornets of reiters accompanying the
+Prince were so " esbranled " with two or three shots of great
+artillery, that they would not come to the fight.
+3. The footmen of the Duke of Guise did their devoir well,
+especially the Swiss; but those of the Prince, as well Frenchmen and Almains (both in the vanguard and the battle),
+behaved very ill; and such as he [the Prince] had the leading
+of, behaved much worse. Guise had twenty-two pieces of
+artillery, and shot four volleys against their enemies. The
+Prince's artillery was badly conducted, having four field
+pieces, two cannon, and a culverin, and never shot a shot, nor
+stood him in stead. D'Aumale was overthrown, and in danger
+[Page 007]
+of being taken, but was rescued by succours of his brother,
+the Duke of Guise.
+4. The Duke behaved himself like a great and valiant
+captain, for the victory is to be ascribed to him only;
+although being victors their damage is greater than those who
+are defeated. He remained lord of the field; he won four
+pieces of artillery; he encamped over the dead bodies; albeit
+the Admiral went not far from thence that night. The Duke
+caused view to be made of the dead bodies, his army had the
+spoil of them; and caused divers to be buried. His army
+won the ensigns of the Prince's footmen; which were offered
+up with procession and great solemnity upon Christmas Day
+at Dreux. Thus he was victor.
+5. When it is remembered that the Constable, being chief
+of the one army, and the Prince of the other, are both
+prisoners; St. André slain, who is said to have had the
+principal leading of the vanguard, and the Duke of Guise
+the leading of the horsemen; the Duke of Nevers wounded,
+as it is not likely he can escape (although it happened by
+casualty); MM. De la Brosse and Givry slain; M. De Montbron, the Constable's son, and many other gentlemen slain and
+sore hurt, and six or seven score gentlemen of quality being
+prisoners; in counterpoise whereof, of men of quality only
+Mons. D'Arpajon was slain on the Prince's side, MM. De
+Mouy and De la Curée taken prisoners; the Prince not
+having lost above seven score of his horsemen (as the Admiral
+has sent Throckmorton word since the battle), the adversaries
+having lost three hundred gentlemen;—he therefore thinks
+the victory may be called doubtful, and not advantageous to
+the Prince's adversaries; and he is sure it is of no advantage
+to the French King and his country.
+6. The Prince's Almain footmen did not strike stroke,
+therefore they were defeated in running away. The Duke of
+Guise took to mercy 2,000 of them, whereof he has sent into
+Almain 1,500 of them (without weapons) with white rods in
+their hands; who have made oath never to bear arms against
+this King nor the said Duke. The other 500, being very
+well armed, have taken oath to serve the King against her
+[Elizabeth], and are sent with Bassompierre, the Rhinegrave's
+Lieutenant (who has also with him the ten ensigns of
+Almains, who were under his leading), into Normandy,
+there to be employed against the English, where also is sent
+to be the King's Lieutenant, M. De Vielleville, now Marshal of
+France, having the state of St. André.
+7. When the writer saw the Prince taken, he retired
+himself with three of his servants, and Perucel, the Prince's
+preacher (sometime the Queen's servant, by the name of
+Francis De la Riviere), to Nogent-le-Roy; where the Duchess
+of Bouillon with difficulty suffered him to enter the Castle.
+She immediately advertised the Duke of Guise of his being
+there, and that night order was given for a guard to watch
+him in his lodging; which was coloured because the people
+[Page 008]
+should not commit any excess against him. In the said town
+he remained under guard five days, in which time he spoke
+twice with the Duchess, who treated him very well, and gave
+him a dinner in her castle. She is a widow, and daughter to
+the Duchess of Valentinois.
+8. The 24th ult., he was sent with guard to the Duke of
+Guise's camp. The Duke (who had almost dined before his
+arrival) gave order that he should dine in his [the Duke's]
+chamber, where he remained two hours after dinner before he
+spoke with the Duke, who excused himself by the manifold
+business now cast upon him through the misfortune to the
+Constable and St. André. They were now, he said, without
+a commander, until the King or Queen Mother appoints one;
+during which time the army had appointed him for their
+chief. He said he knew Throckmorton was at the battle, of
+which he desired his opinion.
+9. Throckmorton answered he was there at the beginning;
+but when he saw every man prepared for fighting, he withdrew himself. The Duke asked whether he bore arms, and
+how he was mounted. He said he was mounted upon a little
+"hacquenay," and armed as he saw him then. The Duke
+made great search to find out whether he wore armour or not.
+Having spent an hour in discoursing of the battle, the Duke
+told him he could not very well accommodate him [Throckmorton] with lodging in the camp; and so much the worse,
+because he understood Throckmorton had lost his train and
+baggage. Thereupon he called M. De Surdeval (Captain of
+Belle Isle and Croissy in Brittany), to accompany him to the
+castle of Mesieres, where he should lodge for that night. The
+Duke desired him to dine the next day with him, when he
+would talk more at large.
+10. The 25th ult., being Christmas day, he went to the
+camp about ten o'clock a.m., the Duke being at Dreux with
+his captains at high Mass, to offer up the ensigns won at the
+battle, and to make a general procession for their victory; so
+it was twelve o'clock before he returned to his camp, at which
+time the Duke of Etampes arrived from the King and Queen
+Mother. He dined that day with the Dukes of Guise and
+Etampes, who were accompanied by MM. De Sansac and De
+Martigues, and Counts Charny and Brian, MM. D'Ossune
+and De Biron. After dinner the Dukes retired to confer
+together, and left him with the Knights of the Order.
+Having spent an hour together they sent for him into the
+Duke of Guise's bed-chamber; the Dukes with MM. De
+Sansac and D'Ossune and himself being the only persons
+there.
+11. Guise said that Throckmorton had been some time at
+Orleans in the company of these men whom they had defeated,
+but who may still cause trouble to this realm; the rather if
+they have the Queen's aid as she has done, at which the King
+marvels. He being her minister here, and suspected of being
+a great author of all these troubles, they had thought good
+[Page 009]
+to confer with him, and to know by what means he can help
+them out of their trouble as he had done to get them in; and
+further that they may know by him the Queen's intention,
+and what she desires.
+12. Answered, that since being at Orleans (which was
+caused through the difficulty made to grant him a passport to
+come thence), he has but little understood her determination;
+because he could not send safely to her, nor she to him. By
+his last advertisements from her, he perceives that she would
+be contented this realm were in repose, and would more
+readily put her helping hand thereto than some of the officers
+and councillors of this realm. Being charged as an author
+of these troubles, he said he would tell him frankly what he
+heard, and what he judges; at which the Duke said it would
+give them pleasure if he would deal with them frankly.
+
+## R9243: 6 January 1563 → Queen
+
+[CSP 6, 35](https://www.british-history.ac.uk/cal-state-papers/foreign/vol6/pp19-35) — DECODE uses old-style 1562.
+
+35. Throckmorton to the Queen.
+1. Informed her on the 3rd by Francisco, of the issue of the
+battle, and the state he was in. On the 5th inst., the King
+left Paris for Chartres, there to find the Queen. Neither of
+them intend to return to Paris for a long time; for that
+reason the Admiral and his force (about 6,000 horsemen, and
+5,000 footmen) have passed the Loire, and gone towards
+Lyons, intending to join the Baron Des Adrets, and also the
+forces from Languedoc, sent by his brother the Cardinal
+Châtillon and M. De Cursolles.
+2. The treaty of peace is still in hand, wherein the Queen
+Mother and the Constable employ themselves. The Admiral
+is more firm now than he was before the battle, both in his
+conditions and answers. Some judge the peace is more
+forward than it appears, because the Chief President and
+other councillors of the Parliament have gone to Chartres by
+the Queen's commandment, to yield to such articles as
+hitherto they and the Parisians have impugned. The Prince is
+[Page 021]
+guarded by D'Amville very straightly, and is at this dispatch
+in a castle, within a league of Chartres.
+3. Has advised Smith (notwithstanding the Queen Mother's
+order) to repair to the Court, and take Mr. Somer with him,
+who has not yet had audience.
+4. Means to accompany Smith to Chartres, to know what
+they intend to do with him. If he does not return shortly to
+the Queen, hopes she [Elizabeth] will declare to the French
+Ambassador there that she thinks it strange he [Throckmorton] cannot return according to her commandment, and
+the like to Smith to use to the Queen Mother and Council
+here.
+5. It is necessary for her to have some one to reside
+continually with the Admiral's force, of which she should be
+truly informed, so as not to depend only upon advertisements
+from her Ambassador here or upon such intelligences as she
+may receive from the Admiral, who will use things to their
+own advantage. Recommends Henry Middlemore.—St. Denis,
+6 Jan. 1562. Signed.
+Orig., with seal. Portions in cipher, deciphered. Add.
+Endd. Pp. 3.
+Jan. 6.Forbes, ii. 266.
+
+## R9244: 13 January 1563 → Queen
+
+[CSP 6, 83](https://www.british-history.ac.uk/cal-state-papers/foreign/vol6/pp35-55) — DECODE uses old-style 1562.
+
+83. Throckmorton to the Queen.
+1. On the 10th inst. Smith, Somers, and Throckmorton
+arrived at Chartres. On the 11th inst. Smith and Somers had
+audience, but he was not admitted. For satisfaction of the
+Queen's demands they had good words, which is the only
+payment made at the despatch hereof. Their resolute answer
+was not given.
+2. Both armies have passed the Loire at Beaugency, and at
+present are in Berry, where it is thought they will fight
+again. It is said the Baron des Adrets has accorded with
+the Duke de Nemours in such manner as Dauphiné should be
+surrendered to the said Duke. If there should be another
+battle similar to the last, the noblesse of France will be
+shrewdly wasted; for at the last there were 800 gentlemen
+slain. Since his last letters the Duke of Nevers, MM.
+D'Annebault and La Brosse's son have died of their hurts;
+and he hears there are four or five hundred of good quality
+besides. The Prince still remains prisoner, and has been kept
+in a castle (a league from Chartres) for ten days. He is
+looked to arrive at Chartres this day, but will remain under
+guard. M. Damville, who had charge of him, repairs to the
+[Page 040]
+Duke of Guise's camp; also a number of new knights of the
+Order, which were made on the 12th inst., numbering thirty-
+three. Marshal Vielleville has gone to besiege Dieppe.
+Marshal Brissac is sent as the King's Lieutenant into
+Normandy, who will employ his force upon Tancarville, and
+attempt some enterprise against Newhaven, or build forts
+thereabouts to beat the Haven. It will not be good for the
+Queen's purpose to suffer Dieppe to be taken, or for her men
+at Newhaven to be idle. Howsoever the French satisfy her
+by some public act to testify a meaning of peace, they do not
+intend to keep it, but will not abstain from expelling her
+men from Tancarville and Newhaven, if they can once come
+to a point amongst themselves, either by accord or by victory.
+She might more have made her advantage upon their decla-
+ration of war, and have made war indeed.
+3. This day the Queen Mother sent word she would speak
+with him; but he does not expect his despatch until she
+sees the issue of these matters. If the Duke of Guise prospers
+he looks for no speedy despatch. The Constable remains at
+Orleans, and his wife has liberty to go to him there. The
+Duke of Guise is Governor of Champagne; the Prince of
+Roche-sur-Yon is Governor of Dauphiné, and the Duke of
+Nemours is Governor of Lionois. Languedoc is at the Prince
+of Condé's devotion, so are Lyons and Lionois and a great
+part of Dauphiné, if the Baron des Adrets has not revolted.
+M. de Soubize keeps Lyons.
+4. Sent the Queen a letter of the 7th inst., to be conveyed
+to her by order of Montgomery. M. de Montbron is in
+Valence, and keeps it. The Duke of Nemours is at Ville-
+franche with his force. The Duke of Guise will in no wise
+accord to peace until the Protestants are utterly exterminated.
+The Queen Mother seems now to lean more to peace than she
+did before, and to accept more reasonable conditions for the
+matters of religion. It is said the Constable and the Prince
+of Condé shall commune together. Hears there is some
+practice to surprise one of the Isles of Jersey and Guernsey.
+Advises her to give orders to those in command to look to
+those places. Also that they are arming some ships upon the
+coast of Bretagne; therefore her merchants are not to be over
+hazardous.—Chartres, 13 January 1562. Signed.
+Orig. Portions in cipher, deciphered. Add. Endd.
+Pp. 4.
+Jan. 13.
+
+## R9245: 20 September 1563 → Cecil
+
+[CSP 6, 1233](https://www.british-history.ac.uk/cal-state-papers/foreign/vol6/pp516-536) — Date/addressee match; CSP explicitly says cipher deciphered.
+
+1233. Throckmorton to Cecil.
+1. Smith has returned this month two of the writer's letters
+addressed to Cecil. He might have sent them well enough
+before his arrest. Perceives that at home they fear these men
+more than they need. Hears that they suspect the French
+will invade England. "God knoweth they be far from it,
+and unable to do. They fear your sea war more than
+you need do theirs. This King is able to make no ships
+to the seas, otherwise than to provoke his subjects to arm
+on their own adventures. Their poverty is such, the revenues
+of the Crown so spoiled and wasted, their credit so diminished
+as they be unable to make any attempt but within their
+own realm. Their late war of Newhaven, if it had been to
+be executed abroad, would have been but weak. Assuredly
+those that put doubts into your heads of invasion do play
+with you as folks do with children when they tell them of
+Robin Goodfellow."
+2. Is sorry they have discovered how greedy the English are
+for peace, and how little provision he gives there to annoy
+them.
+3. The Papists of Paris will not deliver their arms, according
+to the King's order. The Protestants of Lyons remain in the
+same terms.
+4. The discord betwixt the houses of Guise and Châtillion
+is so great that the whole realm is divided thereabouts. As
+many great personages are on the Admiral's side as on the
+other. If Cecil means to set the writer at liberty he must
+[Page 531]
+not suffer Smith to negotiate anything without him, for by
+that means he will serve the writer's credit of an Ambassador. But in no wise must he suffer the French Ambassador
+there to have better treatment than he has here, and asks
+him to believe no other advertisements but his. Cannot
+allow that no other persons should have conduct to pass
+to and fro but such as Smith has named of his own servants,
+who are not the fittest men for such a time and such
+messages. Barlow can run well and has discretion. Refers
+to Smith the nomination of two of the four of his servants,
+yet asks leave to nominate two others, viz., John Barnaby,
+servant to Lord Robert, and John Rogers, his own servant.
+5. Three marriages are taken here for concluded, wrought
+by the Cardinal of Lorraine, viz., the French King with
+the second daughter of the King of the Romans, the Prince
+of Spain with his eldest daughter, and Charles of Austria
+with the Queen of Scots.
+6. The French Ambassadors at Rome and Trent are revoked,
+and the French King means to protest against the Council.
+The Queen Mother is sick and in danger. If she dies, the
+Prince of Condé, the Constable, and the house of Chatillion
+will rule all; here are likely to be great garboils, especially
+if she dies. They are not to show themselves too greedy
+of a peace, specially to Smith. The King of Spain makes
+show to trouble the Queen of Navarre's country, and invade
+Navarre; he is therefore about to crown Don Carlos, his
+son, King of Navarre.
+7. The Prince of Condé, accompanied with the Prince of
+Pourçain and Conte Rochefoucault, is departed from the
+Court and gone to his house in Picardy named Murette.
+8. Since the 19th, when the premises were written, the Queen
+Mother is past all danger, so all things are likely to go here
+as before, all at her devotion. This day the house of Guise
+repairs to the Court to Meulan, and the King means to keep
+the feast of St. Michael at Poissy.
+9. These folks are in some unkindness with the Duke ot
+Savoy, because in his sickness he sent his son to the Castle
+of Milan, whereby he means his house should run the fortune
+of Spain. It is not the least good turn that England could
+demand the death of Baron De Clere; for besides that he
+was not the best affected to them, he was a shrewd seaman, and with half a dozen more was slain in a particular
+quarrel at Caen.—Castle of St. Germain, 20 Sept. 1563.
+Signed.
+10. P.S.—Prays him to credit no advertisements touching
+his usage but his own.
+Orig. Endd. Portions in cipher, deciphered. The P.S.
+in Throckmorton's hol. Pp. 2.
+Sept. 20.
+
+## R9255: 22 November 1562 (Throckmorton portion) → Queen
+
+[CSP 5, 1099](https://www.british-history.ac.uk/cal-state-papers/foreign/vol5/pp480-494) — Composite record: Smith, Throckmorton, Somer and Randolph. Throckmorton is on ff.169–170. The catalogue author Lomer is apparently Somer. Other writers require separate keys.
+
+1099. Throckmorton to the Queen.
+1. Hopes she will admonish Warwick at Newhaven to
+take heed, for there are practices to introduce such numbers,
+[Page 485]
+under colour of religion, as may be able to expel her men.
+Also to give order that the places meetest to be fortified by
+the enemy near Newhaven be not surprised. Also that the
+Earl recover all the places on both sides the Seine between
+Newhaven and Rouen.
+2. His letters of the 20th inst. remain in his hands for
+want of means to send them. Condé being ready to batter
+Corbeil, the Queen Mother sent her principal ecuyer (M. De
+St. Mesme) with a letter to the Prince, informing him of the
+death of the King his brother. St. Mesme had also credence
+to tell the Prince that she was desirous to end these troubles,
+and that the Prince should enjoy his due rank; also that the
+King and she might come to the Prince, or the Prince come
+to them; but she saw difficulties, the passages being guarded.
+Her letter has impeached the battery against Corbeil. This
+delay will be to the Prince's disadvantage. D'Andelot is sick
+at Orleans.
+3. Notwithstanding the Queen Mother's fair words she
+was contented that, on the 20th inst., the Parliament of Paris
+agreed to make the King (being but twelve years old) major,
+and permit at the same time that the Duke of Guise, the
+Constable, and the whole of Paris should make request unto
+her to take the government of the King and of this realm
+into her own hands; and in so doing, the Duke of Guise and
+the Constable, with the aid of the town of Paris, would
+stand with her in the same, and spend their lives therein.
+The Duke D'Aumale, after the writing hereof, arrived at
+Corbeil with more force and munition, and has the chief
+command there.—Essone, 22 Nov. 1562. Signed.
+Orig. Portions in cipher. Add. Endd. Pp. 3.
+Nov. 22.

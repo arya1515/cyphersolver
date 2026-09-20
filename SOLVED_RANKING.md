@@ -341,3 +341,6 @@ Checked: every row against the Solved, Explained and Found-solved tables of READ
 TARGETS.md as of commit d1abee8; the five provisional rows against SOLVED_CATALOGUE.md and the per-target NOTES on 17 Sept 2026. Not checked: the per-target NOTES.md for facts beyond those tables; whether any
 "first reading" has a prior in an archive finding aid. User must verify: the axis scores and weights, which are
 editorial.
+
+
+Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).
