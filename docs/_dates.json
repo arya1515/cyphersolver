@@ -9,6 +9,7 @@
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
   "armstrong to madison, 20 february 1808": "2026-09-16",
+  "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
   "blume salamanca telegram, 1937": "2026-09-15",
@@ -151,13 +152,18 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "71f4395514da",
+   "hash": "cfb86fe14a48",
    "updated": "2026-09-20"
   },
   "catinat1691": {
    "first": "2026-09-16",
    "hash": "0b8b89f55675",
    "updated": "2026-09-16"
+  },
+  "ceva1632": {
+   "first": "2026-09-20",
+   "hash": "c61190ca8e8d",
+   "updated": "2026-09-20"
   },
   "clair357": {
    "first": "2026-09-18",
@@ -246,7 +252,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "9588ef2c53b7",
+   "hash": "5f5a5e2d1662",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -466,7 +472,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "5c38491da744",
+   "hash": "321137dca437",
    "updated": "2026-09-20"
   },
   "yard1699": {

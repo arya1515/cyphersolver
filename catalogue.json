@@ -8671,61 +8671,6 @@
    "scored": "rule"
   },
   {
-   "id": 248,
-   "counted": false,
-   "year": 1632,
-   "date": "28 Jun 1632",
-   "title": "Cardinal Barberini (France) to Nuncio Ceva (in Paris), 5 ciphertexts",
-   "correspondents": "Cardinal Barberini → Nuncio Ceva (in Paris)",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1611-1650",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 346 (5 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R75–R84 (5 records): Partially decrypted, 9 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE's notes say there is a contemporary decipherment on the leaf; so the text was read at the time and this is a transcription job, listed as noted rather than open. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Deciphered in original. Comment from archive: Lettere orig. scritte dal card. Barberini a mons. Ceva, nunzio straordinario in Parigi, con altre lettere e brevi per diversi personaggi, nella sua andata alla nunziature, negli'anni 1632, 1633, 1634, et in …",
-   "why": "Ciphered despatches of Cardinal Barberini to Nuncio Ceva (in Paris), 28 Jun 1632; what the cipher hides is not known.",
-   "importance": 4,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Open the images and check how much of the cipher the contemporary decipherment covers.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R75",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/75"
-    },
-    {
-     "label": "DECODE R77",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/77"
-    },
-    {
-     "label": "DECODE R78",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/78"
-    },
-    {
-     "label": "DECODE R82",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/82"
-    },
-    {
-     "label": "DECODE R84",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/84"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    75,
-    77,
-    78,
-    82,
-    84
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 249,
    "counted": false,
    "year": 1718,

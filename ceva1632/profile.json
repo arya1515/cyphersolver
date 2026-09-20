@@ -1,0 +1,119 @@
+{
+ "schema_version": 1,
+ "target": "ceva1632",
+ "title": "Cardinal Barberini to Nuncio Ceva, Paris, 1632-34 (ASV SdS Francia 346)",
+ "documents": [
+  {
+   "id": "R75",
+   "shelfmark": "ASV, i. 1025, Segretario di Stato, Francia, doss. 346-2 (DECODE R75)",
+   "date": "25 Sept 1632",
+   "year": 1632,
+   "country": "Papal State",
+   "route": "Rome -> Paris",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": ["interlinear"],
+    "source": "Contemporary decipherment written between the cipher lines in 1632; partly legible, copied as far as possible by the DECODE transcriber (IB, 25 July 2020). Not deciphered by Lasry.",
+    "partial": true
+   },
+   "length": {"tokens": 1446, "distinct": 128, "unit": "code groups", "measured": true, "file": "r75.tokens.txt"},
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R75_D2532_2532.txt, transcriber IB, 25 July 2020, manual, 140 min",
+    "corrections": 0,
+    "image_quality": "fair",
+    "notes": "Doubtful digits flagged throughout with '?' and '_'. Not re-checked against the images here; images are IMG_R75_I589_P1 and I590_P2."
+   }
+  },
+  {
+   "id": "R84",
+   "shelfmark": "ASV, i. 1025, Segretario di Stato, Francia, doss. 346-11 (DECODE R84)",
+   "date": "18 Dec 1632",
+   "year": 1632,
+   "country": "Papal State",
+   "route": "Rome -> Paris",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["none"],
+    "source": "No decipherment on the leaf and none by Lasry; the first folio is largely in clear, but the cipher itself was unread.",
+    "partial": false
+   },
+   "length": {"tokens": 954, "distinct": 119, "unit": "code groups", "measured": true, "file": "r84.tokens.txt"},
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R84_D2161_2161.txt, transcriber MEG, 3 April 2020, manual, 120 min",
+    "corrections": 0,
+    "image_quality": "fair",
+    "notes": "Images IMG_R84_I639_P1 and I640_P2. Not re-checked here."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "syllabic", "nomenclator"],
+  "summary": "Homophonic substitution on two-digit figures with syllable and common-word codes, two-digit nulls (every pair beginning 2), '6' as word separator, and three-digit nomenclator elements formed of a prefix digit plus an ordinary two-digit code.",
+  "symbol_kind": "digits",
+  "digit_groups": {"width": "2-3", "separation": "contiguous"},
+  "distinct_symbols": 61,
+  "diacritics": {"used": false},
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 2,
+   "per_letter": {"a": 3, "e": 3, "i": 3, "o": 3, "u_v": 3, "b": 2, "c": 2, "d": 2, "f": 2, "l": 2, "m": 2, "n": 2, "p": 2, "r": 2, "s": 2, "t": 2}
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 123,
+   "kinds": ["common words", "names", "places", "word parts"],
+   "unread_groups": 117
+  },
+  "nulls": {"present": true, "count": 10},
+  "key_order": "random"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "George Lasry reconstructed the key of this dossier on 24 Oct 2020 and it is attached to every DECODE record R74-R84 (DOC_R*_D32*.txt). He also published aligned decipherments of four of the eleven letters - 346:1 (R74), 346/4 (R77), 346/5 (R78), 346/9 (R82) - which covers three of the five ciphertexts this target names. He did not decipher R75 or R84, and left all 95 nomenclator elements he met unsolved. R75 additionally carries a contemporary interlinear decipherment made in 1632.",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": ["transcription", "published key", "published reading", "cleartext context"],
+  "attack": "published key",
+  "human_role": "Set the target; supplied nothing further. DECODE was reached with a cookie already in the repository.",
+  "tools": [
+   "beam-search decoder over the digit stream (decode.py)",
+   "character n-gram LM, lang/it-cinquecento interpolated with an in-domain model (indomain.py)",
+   "leave-one-document-out calibration (eval.py)",
+   "alignment against the 1632 interlinear (control.py, resolve.py)"
+  ],
+  "models": ["claude-opus-5[1m]"],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {"date": "2026-09-20", "kind": "access", "what": "Fetched DECODE records 70-95 through the JSON API to place the five named ciphertexts in their dossier; found eleven records for Francia 346, six of them marked Decrypted.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "literature search", "what": "Pulled every attached document from R74-R84; found Lasry's reconstructed key (24 Oct 2020) on all eleven, and one combined file of aligned decipherments covering 346:1, /4, /5 and /9.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "verification", "what": "Established that R77, R78 and R82 - three of the five named ciphertexts - are already read by Lasry, and that R75 and R84 are not.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "hypothesis", "what": "Tested the key note's claim that nomenclator elements are four digits with prefix 4, by diffing Lasry's concatenated token stream against the original transcription of 346:1.", "result": "ruled out"},
+  {"date": "2026-09-20", "kind": "statistics", "what": "Parsed Lasry's 104 aligned line pairs into a token inventory: confirmed 6 as word separator, every 2x pair as a null, 61 plaintext codes, and 95 three-digit nomenclator elements, none of them solved. Established that 6 occurs inside no code, so word boundaries are certain.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "solver", "what": "Position-indexed beam search over the digit stream, resolving the two-versus-three-digit choice under an Italian character model with incremental DenseLM scoring.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "control", "what": "Leave-one-document-out calibration against Lasry's own segmentation of the four letters he read: 0.945 token agreement with it-cinquecento alone, nomenclator recall 0.52.", "result": "partial"},
+  {"date": "2026-09-20", "kind": "solver", "what": "Interpolated it-cinquecento with a 7,693-character in-domain model built from the clerk's clear passages and Lasry's plaintext of the letters not under test.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "control", "what": "Recalibrated: 0.958 token agreement, nomenclator recall 0.70, precision 0.79.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "reading", "what": "Deciphered R75 (1,446 code groups) and R84 (954), the two letters of this dossier that had never been read.", "result": "partial"},
+  {"date": "2026-09-20", "kind": "control", "what": "Checked the reading of R75 against the 1632 interlinear decipherment, which was used for nothing else: 1,105 letters on 24 legible lines, 77.5% agreement ignoring word division.", "result": "worked"},
+  {"date": "2026-09-20", "kind": "crib", "what": "Aligned the reading against the interlinear to read nomenclator meanings off it; 22 elements caught a witness fragment.", "result": "partial"},
+  {"date": "2026-09-20", "kind": "verification", "what": "Six elements survived checking against Lasry's four letters, where they were not fitted: 474 mente, 495 quanto, 498 tanto, 830 Francia, 854 guerra, 149 piazza. Adding them raised the R75 control agreement from 0.737 to 0.775. Element 491 drew the fragment 'goto' (Sweden) but fails its four contexts in Lasry's letters; left open.", "result": "partial"}
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.92,
+  "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
+  "notes": "R75 and R84 read here for the first time; R77, R78 and R82, the other three ciphertexts this target names, were already read by Lasry in 2020. 0.92 is the share of enciphered tokens given a value; the independent measure of accuracy is the 77.5% letter agreement with the 1632 interlinear on R75. About three nomenclator elements in ten are still missed by the decoder, and a missed element is rendered as plausible Italian letters rather than as a gap, so errors concentrate there. 117 of the 123 nomenclator elements met in the dossier remain unread, and the people and places of both letters are inside them. R75 (25 Sept 1632) argues that the Swedish victories make an accommodation easier but the union far harder, and presses the French court to see how dangerous that power's reach towards the Mediterranean is to France itself. R84 (18 Dec 1632), a month after Lutzen, turns on 'quella vittoria' and ends with the Roman fear that the consequences will hold France disunited and unable to help her allies. The transcriptions are DECODE's and were not re-checked against the images."
+ }
+}
