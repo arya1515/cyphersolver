@@ -163,7 +163,18 @@ Three things come out of it.
    go both ways in this cipher exactly as they do in Sánchez's.
 3. `x∞ʒ∞7` is five signs for the five letters of *diria*, consistent with `ʒ` = r.
 
-Nineteen values confirmed, thirteen probable.
+### Three codes chained into one word
+
+The next line gives `… ɋ xul h℔∞ ℔ xᵹ∞ **ton zun ℔∞74** ᵷard zilᵹ84 …` against the plaintext
+*… y los criados **quedarian** descontentos …*:
+
+> `ton` + `zun` + `℔∞74` = *que* + *da* + *rian* = **quedarian**
+
+`zun` = *da* is now confirmed a third time, in a third role: a whole word in *da por*, the second
+syllable of *na·da*, and the middle syllable of *que·da·rian*. The ending `℔∞74` is `℔∞7` (*-ria*)
+plus `4`, which gives the letter **`4` = n** — the same sign as the *n* of the spelled *pensaria*.
+
+Twenty-one values confirmed, thirteen probable.
 
 ## Next
 

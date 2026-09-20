@@ -191,6 +191,12 @@
       "kind": "key from source",
       "what": "A line of R9644 f. 238 aligned end to end with the plaintext, nothing left over: 'ta xil+s zun+z xur zun q x-i-r-i-a ton tu ton+ria ton xul' = 'no les dar nada y diria que no queria que lo'. Gives ta = no (a homophone of tu, both in the same line, so the cipher has homophones at code level), xil = le, q = y, and the ending -ria. Shows codes carrying syllables: xur+zun = na+da, ton+ria = que+ria, with zun the same 'da' confirmed earlier in 'da por'. Nineteen confirmed, thirteen probable.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "ton+zun+ria-n = que+da+rian = 'quedarian' on R9644 f. 238 against the plaintext. Three codes chained into one word. zun = da now confirmed in three distinct roles: a whole word (da por), the second syllable of na-da, and the middle syllable of que-da-rian. The ending gives the letter 4 = n, matching the n of the spelled pensaria. Twenty-one confirmed, thirteen probable.",
+      "result": "worked"
     }
   ],
   "outcome": {
