@@ -186,6 +186,45 @@ Expected under the hypothesis: with ~130 windows per record per phase and a 6 % 
 fixed-width encipherment of printed text should have produced of the order of eight zero-false-positive hits on
 R286 alone. Observing none puts the probability at roughly e⁻⁸.
 
+**5. What the cipher IS: deterministic code groups, not homophones.**
+Every test so far is negative. This one is positive, and it constrains the system. Count repeated digit
+substrings across all 28 ciphertexts (112,805 digits) against an independent control with the same digit
+frequencies:
+
+| substring length | repeats in the cipher | iid control | ratio |
+|---|---|---|---|
+| 4 | 105,170 | 102,865 | 1.0× |
+| 6 | 64,083 | 9,590 | 6.7× |
+| 8 | 28,519 | 91 | 313× |
+| 10 | 12,109 | 1 | 12,000× |
+| 16 | 966 | 0 | — |
+| 24 | 39 | 0 | — |
+
+Thirty-nine repeated twenty-four-digit strings where chance gives none. **A well-made homophonic cipher cannot
+do this** — homophones exist precisely to destroy repetition. This is the signature of a code or nomenclator in
+which a given word or syllable is written the same way every time. It also explains why every homophonic attack
+above failed, and why no phase preference shows: deterministic groups of *varying length*.
+
+Segmenting the corpus by BPE gives 266 token types over 44,816 tokens, mean 2.5 digits per token, lengths
+spread over 1–7 — syllable-scale, and not a fixed width.
+
+**6. Two more hypotheses ruled out.**
+
+* *Polyphonic, one digit per letter.* The repeat spectrum of R286 matches the crib's at roughly 1:1 (3,570
+  digits against 3,359 letters), which would mean one digit per letter — impossible for 21 letters over 10
+  digits unless the cipher is polyphonic, each digit standing for several letters. Then *equal letters force
+  equal digits*, the reverse of every test above. Longest consistent letter→digit run: **17 letters**, against
+  shuffled controls of 18, 19, 18. Chance.
+* *BPE tokens as word codes.* Encipherment preserves order, so a repeated token should land on the same
+  plaintext word each time. Token types whose occurrences share a common word: 16 of 74, against shuffled
+  controls of 13, 12, 13. Not significant.
+
+**A correction.** Earlier I reported the absence of phase preference at widths two and three as evidence against
+fixed-width codes. That reading was too strong: at the observed ~1.7 % digit error a 3,570-digit document
+carries ~60 slips, each flipping the phase for the rest of the line, which would wash out a genuine phase signal
+on its own. The phase test is inconclusive. The sound version of that claim is the corpus search in §4, which is
+calibrated against exactly this noise.
+
 **Where that leaves it.** Transcription noise is no longer a sufficient explanation. On this evidence
 **the ciphertexts are not fixed-width (2, 3 or 4 digit) substitutions of any text printed in Kiewning's 1629
 volume** — not of Nr. 153, and not of any other despatch in it. Two possibilities survive, and they are now the
@@ -197,8 +236,11 @@ whole question:
 2. The sheets encipher **text that is not in the edition**: Kiewning prints the substance in Italian but
    summarises the rest in German regesta, and those passages exist nowhere in print.
 
-Both are testable — the first with a variable-length version of the run-length tool, the second by comparing a
-ciphertext's length against the portion of its despatch that Kiewning only summarises. The contents of the despatches are unaffected by any of this — they rest
+The repeat spectrum in §5 makes the first the strong favourite: deterministic, variable-length groups are
+exactly what produces 39 repeated 24-digit strings. And the second is entirely live, because the clear pages of
+the volume do **not** contain the ciphered passage — pp. 3–4 and 7–9 run continuously *through* the cipher sheet
+— so the Italian of what pp. 5–6 encipher may survive only in ASV, Nunz. di Germania 119, which is not
+digitised. If so, no work on this crib can succeed, however good the transcription or the solver. The contents of the despatches are unaffected by any of this — they rest
 on Kiewning and on the register's own clear pages, not on any decipherment made here.
 
 **The concrete next step**, and the reason this is worth returning to: DECODE's 1491 × 2066 scans are good enough

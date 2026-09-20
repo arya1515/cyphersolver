@@ -51,15 +51,15 @@ prof = {
  "title": "Pallotto to Barberini, 1629 - 28 ciphered despatches of the nuncio at Vienna (BAV, Barb.lat. 6960)",
  "documents": docs,
  "system": {
-   "types": ["undetermined"],
-   "summary": "Numeric cipher written as an unbroken digit stream; the code width could not be established, no alignment signal to the known plaintext exists at width two, and the key was not recovered.",
+   "types": ["code", "nomenclator", "undetermined"],
+   "summary": "Numeric cipher written as an unbroken digit stream, with deterministic variable-length code groups (39 repeated 24-digit strings where chance gives none, which excludes real homophony); the group width could not be established and the key was not recovered.",
    "symbol_kind": "digits",
    "digit_groups": {"width": "unknown", "separation": "contiguous"},
    "distinct_symbols": 10,
    "diacritics": {"used": False,
                   "note": "None recorded by the DECODE transcribers, and none seen on DECODE's 1491x2066 scan of p. 5."},
-   "homophones": {"used": True},
-   "nomenclator": {"present": False},
+   "homophones": {"used": False},
+   "nomenclator": {"present": True},
    "nulls": {"present": False},
    "key_order": "unknown",
    "word_division": "none",
@@ -67,7 +67,8 @@ prof = {
              "and adjacent digits carry ~0.18 bits of mutual information, so the stream is structured. "
              "No phase preference was found for two-digit codes (IC 0.01462 at phase 0 vs 0.01466 at "
              "phase 1; even- and odd-position digit distributions agree to 0.2%) or for three-digit "
-             "codes, which is also what one-digit transcription slips at about 1% would produce. "
+             "codes - though that phase test is inconclusive on its own, since ~1.7% digit slips randomise the "
+             "phase; the calibrated corpus search is the sound version of the claim. "
              "distinct_symbols is the digit alphabet, not the key's code groups, which are unknown. "
              "A run-length control puts the longest consistent two-digit alignment to the known plaintext at 39 "
              "letters against a chance baseline of 36-39, where a synthetic two-digit cipher at the same "
@@ -140,6 +141,12 @@ prof = {
    "result": "ruled out"},
   {"date": "2026-09-20", "kind": "control",
    "what": "Corpus search (hunt.py). For a substitution, equal codes force equal letters, so each cipher window's repeated-code pairs require the plaintext to repeat at those offsets; checked exactly over all 1,161,303 letters of Kiewning with one bitmask per gap. Calibrated by planting the true plaintext: a synthetic cipher hits its true position in 253/254 windows when clean and 16/254 at 1.7% digit noise, with zero false positives. Applied to R286, R292, R306 and R311 at widths 2, 3 and 4: zero genuine hits (the four apparent width-3 hits all land in the edition's index of Roman numerals). A real fixed-width encipherment of printed text should have given of the order of eight hits on R286 alone, so p ~ e^-8. The ciphertexts are not fixed-width substitutions of anything printed in the volume.",
+   "result": "ruled out"},
+  {"date": "2026-09-20", "kind": "statistics",
+   "what": "Repeat spectrum over all 112,805 digits against an iid control with the same digit frequencies: repeated substrings of length 8 number 28,519 against 91, length 10 number 12,109 against 1, and there are 39 repeated 24-digit strings where chance gives none. A well-made homophonic cipher cannot produce this, so the system uses deterministic code groups - a code or nomenclator in which a word or syllable is always written the same way. BPE segmentation gives 266 token types over 44,816 tokens, mean 2.5 digits, lengths 1-7: syllable-scale and not fixed width. This is the one positive structural finding.",
+   "result": "worked"},
+  {"date": "2026-09-20", "kind": "hypothesis",
+   "what": "Polyphonic one-digit-per-letter: the repeat spectra of R286 and the crib match at about 1:1 (3,570 digits, 3,359 letters), so tested the reverse constraint that equal letters force equal digits. Longest consistent letter-to-digit run 17 letters against shuffled controls of 18, 19, 18. Also tested BPE tokens as word codes by whether a repeated token lands on the same plaintext word: 16 of 74 token types against controls of 13, 12, 13. Both chance.",
    "result": "ruled out"},
   {"date": "2026-09-20", "kind": "reading",
    "what": "Content of the despatches recovered from Kiewning's printed contemporary decipherment, not from the cipher: Pallotto's mediation between the Emperor and the French envoy Sabran over the Mantuan succession, Casale, Susa and the Grisons passes, Aug-Nov 1629.",

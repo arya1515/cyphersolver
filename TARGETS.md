@@ -230,7 +230,8 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
   office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken, the key is not
   recovered and no partial key is claimed; calibrated controls rule out every fixed-width hypothesis: a search of
   all 1,161,303 letters of the edition finds no window of four ciphertexts enciphering anything in print at
-  width 2, 3 or 4. What survives is a variable-length nomenclator, or passages given only as German regest. The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
+  width 2, 3 or 4. One positive finding identifies the system: 39 repeated 24-digit
+  strings where chance gives none — a code with deterministic variable-length groups, not a homophonic cipher. The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
   [pallotto1629/](pallotto1629/).
 
 - **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.
