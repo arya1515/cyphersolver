@@ -663,7 +663,7 @@ def nav_html(current):
         f'    <details class="menu"><summary{on}>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
         f'      <div class="panel wp">{panel}</div></details>\n'
         f'    <a href="index.html#recent">Latest</a>\n'
-        f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>Catalogue</a>\n'
+        f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>The Unsolved Catalogue</a>\n'
         f'    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'

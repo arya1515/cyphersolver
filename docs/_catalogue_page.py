@@ -139,7 +139,7 @@ def build_html():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Catalogue of unsolved historical ciphers — {len(counted)} open targets, scored</title>
+<title>The Unsolved Catalogue — {len(counted)} open targets, scored</title>
 <meta name="description" content="Undeciphered historical cipher letters, 1482–1841, not on the standard unsolved lists, harvested from the BnF catalogue on Gallica, the fine print of the cryptiana articles and the DECODE database. Each scored for historical importance, solvability and difficulty; filter, sort and reweight the priority score.">
 <link rel="stylesheet" href="style.css">
 <style>
@@ -192,7 +192,7 @@ tr.d td{{padding:0 1.2rem 1rem 1.2rem;background:color-mix(in srgb,var(--gold) 1
 
 <section class="hero">
   <p class="kicker">Gallica · DECODE · cryptiana fine print · 1482–1841 · {len(counted)} open targets · {len(E) - len(counted)} noted · read ones moved to <a href="solved.html">solved</a> · unvalidated</p>
-  <h1>Catalogue of unsolved historical ciphers</h1>
+  <h1>The Unsolved Catalogue</h1>
   <p class="sub">What is still in cipher in the digitised diplomatic volumes, and nobody has read. The first entries came from the French volumes on Gallica; the rest ({n_dec}) from the DECODE database, every ciphertext record it marks non-decrypted or partly decrypted, grouped into letters and series and checked against this repository's own targets and Tomokiyo's list. Each entry is scored 1–5 for <b>historical importance</b> (what the text could add), <b>solvability</b> (odds of a full reading with the material online) and <b>difficulty</b> (the technical work), and the <b>priority</b> is a weighted blend you can reweight. Class <b>A</b> means siblings with decipherment in the same volume, <b>B</b> a partial key or known family in print, <b>C</b> no key and no sibling. Entries read, partly read, resolved or found already in print here are taken out of the catalogue and listed on the <a href="solved.html">solved</a> page; those attempted here without a reading stay, tagged <b>attempted, open</b>.</p>
   <p class="sub">Scores are judgements from catalogue descriptions and the literature, not from the leaves: {n_img} of {n_all} entries have been viewed on the image, and each carries the check that would confirm it is open. Data: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/catalogue.json" rel="noopener">catalogue.json</a> · text: <a href="https://github.com/dbourdeau/cyphersolver/blob/main/CATALOGUE.md" rel="noopener">CATALOGUE.md</a>.</p>
   <p class="meta">Daniel Bourdeau · September 2026</p>
