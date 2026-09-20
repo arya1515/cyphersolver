@@ -140,7 +140,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 61,
+      "entries": 65,
       "kinds": [
         "common words",
         "names",
@@ -368,6 +368,12 @@
       "date": "2026-09-20",
       "kind": "key from source",
       "what": "R9650 f. 269 against 'y que el papa haga lo que pudiere': six fixed values (q, ton, y-ub, taf, xul, ton) round a single unknown, which the sense fixes as haga - promoted from probable, having been in the same slot in R9644 section A ('no haga lo que es obligado'). A value turning up twice in the same construction across two different letters is not coincidence. zar rab = 'de v. ma' again at the end of the line. Fifty-six confirmed.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "R9650 f. 269 against 'y por lo que deve, no se ponga en esto': seven fixed values in one short clause (q, top, xul, ton, zar, tu, su, y-uc). New probables from the gaps: deve, ponga, esto, and cartas from the phrase before. Sixty-five entries, fifty-six confirmed.",
       "result": "worked"
     }
   ],

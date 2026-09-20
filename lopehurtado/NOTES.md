@@ -435,7 +435,16 @@ value that turns up twice in the same construction across two letters is not a c
 
 And at the end of the line `zar rab` = *de v. ma* again.
 
-Sixty-one entries now, fifty-six of them confirmed.
+And again in the next sentence, against *y **por lo que** deve, **no se** ponga **en** esto*:
+
+> **`ɋ`** **`top`** **`xul`** **`ton`** `xiL` **`zar`** … **`tu`** **`ʃu`** `ᵹᵹq℔℔` **`ɣuc`** `ɣif`
+> = **y por lo que** deve **de** … **no se** ponga **en** esto
+
+Seven fixed values in one short clause. New probables from the gaps: `xiL` *deve*, `ᵹᵹq℔℔` *ponga*,
+`ɣif` *esto*, and `ᵹeɡʒ` *cartas* from the phrase before (*de unas cartas que ha tomado por amor de
+v. ma*).
+
+Sixty-five entries now, fifty-six of them confirmed.
 
 ## A measured coverage number
 
