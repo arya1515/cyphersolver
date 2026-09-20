@@ -381,6 +381,24 @@ missing homophone rather than a bad transcription.
 
 Fifty-five values confirmed, thirteen probable.
 
+## A measured coverage number
+
+`decode.py` resolves a transcribed token string against `key_codes.tsv`. It applies **only the
+confirmed values**; probable ones print in `<angle brackets>` so they can never be mistaken for
+evidence, and unknown tokens print as `?tok` with a coverage figure.
+
+Run on two lines picked from records the key was *not* built on:
+
+| line | result | coverage |
+|---|---|---|
+| R9650 f. 270 | `?` que nunca hombre `?` con otros no `?` `?` les `?` por | **8/13 = 62%** |
+| R9648 f. 262 | que nueva tenia `?` Francia `?` `?` que el arçobispo | **7/10 = 70%** |
+
+So roughly **two tokens in three** now resolve on sight, in letters the crib does not cover. The
+misses are of two kinds: a few nomenclator codes not yet met, and the spelled runs, which need the
+alphabet. That is the honest state of the key — good enough to follow the sense of a passage, not
+good enough to edit one.
+
 ## Where the work is now limited: the alphabet, not the nomenclator
 
 The two halves of this cipher are not equally tractable at the resolution DECODE serves.

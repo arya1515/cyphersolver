@@ -173,7 +173,8 @@
     "attack": "crib",
     "human_role": "redirected the session to this target; supplied the DECODE login cookie used earlier.",
     "tools": [
-      "PIL crops/upscaling of DECODE images"
+      "PIL crops/upscaling of DECODE images",
+      "decode.py (confirmed-only resolver with coverage measure)"
     ],
     "models": [
       "claude-opus-5[1m]"
@@ -343,6 +344,12 @@
       "date": "2026-09-20",
       "kind": "key from source",
       "what": "End of R9644 f. 237 against 'lo que le parece del duque ... lo que no quedo de don Joan segun dizen todos'. Gives y-o-b = duque (the Duke of Sessa, imperial ambassador at Rome); zar+one sign = del; ton+d+o = 'quedo', a code finished with two alphabet signs; and d-o-n spelled outright, which fixes a second sign for o beside m. That last matters beyond the word: this sign was one of those whose readings contradicted each other, and it turns out to be a homophone, so part of the earlier alphabet tangle was a missing homophone rather than a bad transcription. Fifty-five confirmed, thirteen probable.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Built decode.py, which applies only confirmed values (probables print in angle brackets, unknowns as ?tok) and reports coverage. Measured on two lines from records the key was not built on: R9650 f. 270 gives 8/13 = 62%, R9648 f. 262 gives 7/10 = 70%. So roughly two tokens in three resolve on sight in letters the crib does not cover. The misses are a few unmet nomenclator codes and the spelled runs, which need the alphabet. Good enough to follow the sense of a passage, not good enough to edit one.",
       "result": "worked"
     }
   ],
