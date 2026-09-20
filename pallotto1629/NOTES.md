@@ -156,12 +156,49 @@ The real material sits exactly on its own chance baseline. The synthetic cipher 
 real transcription is five times longer. This method also recovers 81 of 100 key codes from the noisy synthetic
 text, where the earlier DP learner managed 7 — so it is not that the tool is too weak.
 
+**4. Corpus search: the ciphertexts do not encipher anything in the printed volume.**
+The run-length test compares one ciphertext with one crib. This one compares four ciphertexts with the *whole*
+edition at once, exactly. For a substitution, equal codes force equal letters, so take a window of the cipher,
+list every pair of positions in it holding the same code, and require the plaintext to repeat at exactly those
+offsets. Checked over 1,161,303 letters of Kiewning with one bitmask per gap (`hunt.py`).
+
+Calibrated by planting the true plaintext in the corpus and enciphering it with a random key:
+
+| | windows hitting the true position | false positives |
+|---|---|---|
+| synthetic, clean transcription | 253 / 254 | 0 |
+| synthetic, 1.7 % digit noise | **16 / 254** | 0 |
+
+So at the real noise level about 6 % of windows still give an exact hit, with no false positives at all. Then:
+
+| record | width 2 | width 3 | width 4 |
+|---|---|---|---|
+| R286 | 0 / 266 | 1 / 261 | 0 / 256 |
+| R292 | 0 / 460 | 0 / 456 | 0 / 452 |
+| R306 | 0 / 710 | 2 / 705 | 0 / 700 |
+| R311 | 0 / 510 | 1 / 505 | 0 / 500 |
+
+The four apparent width-3 hits are artefacts: every one lands in the edition's index of Roman numerals
+(`XIUXXUXXUIXXUIIXXUIII…` at corpus position ~1,137,400), a degenerate stretch where any repeat pattern matches.
+Genuine hits: **none**, anywhere.
+
+Expected under the hypothesis: with ~130 windows per record per phase and a 6 % per-window hit rate, a real
+fixed-width encipherment of printed text should have produced of the order of eight zero-false-positive hits on
+R286 alone. Observing none puts the probability at roughly e⁻⁸.
+
 **Where that leaves it.** Transcription noise is no longer a sufficient explanation. On this evidence
-**R286 is not a two-digit homophonic encipherment of the text Kiewning prints as Nr. 153.** What remains open:
-the code width may not be two (though no phase structure shows at width three either); the cipher sheet
-pp. 5–6 may encode a different despatch, or a version of it whose wording differs materially from the
-Rome-received copy Kiewning used; or the system may be nomenclator-heavy or variable-length, in which case no
-fixed-width alignment can ever match. The contents of the despatches are unaffected by any of this — they rest
+**the ciphertexts are not fixed-width (2, 3 or 4 digit) substitutions of any text printed in Kiewning's 1629
+volume** — not of Nr. 153, and not of any other despatch in it. Two possibilities survive, and they are now the
+whole question:
+
+1. The system is **not fixed-width** — a nomenclator with variable-length groups, in which no fixed-width
+   alignment can ever match however good the transcription. The absence of any phase preference at widths two
+   and three points the same way.
+2. The sheets encipher **text that is not in the edition**: Kiewning prints the substance in Italian but
+   summarises the rest in German regesta, and those passages exist nowhere in print.
+
+Both are testable — the first with a variable-length version of the run-length tool, the second by comparing a
+ciphertext's length against the portion of its despatch that Kiewning only summarises. The contents of the despatches are unaffected by any of this — they rest
 on Kiewning and on the register's own clear pages, not on any decipherment made here.
 
 **The concrete next step**, and the reason this is worth returning to: DECODE's 1491 × 2066 scans are good enough

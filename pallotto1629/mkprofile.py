@@ -138,6 +138,9 @@ prof = {
   {"date": "2026-09-20", "kind": "control",
    "what": "Run-length test. Long consistent runs cannot be faked: inside a window a repeated code must carry the same letter. Scanning every (digit offset, crib offset) pair, the longest consistent two-digit run between R286 and the plaintext of Nr. 153 is 39 letters; controls that shuffle the crib letters give 39, 39, 36, 38, 36 and reversing the cipher gives 39. A synthetic two-digit cipher over the same text at 1.7% digit noise gives 207, and a clean one 2705. The same method recovers 81/100 key codes from the noisy synthetic text where the DP learner managed 7. The real material sits exactly on its chance baseline: there is no alignment signal, so transcription noise is not a sufficient explanation, and R286 is not a two-digit homophonic encipherment of Nr. 153. This also retires the 27-letter opening match, which is below the 36-39 chance baseline.",
    "result": "ruled out"},
+  {"date": "2026-09-20", "kind": "control",
+   "what": "Corpus search (hunt.py). For a substitution, equal codes force equal letters, so each cipher window's repeated-code pairs require the plaintext to repeat at those offsets; checked exactly over all 1,161,303 letters of Kiewning with one bitmask per gap. Calibrated by planting the true plaintext: a synthetic cipher hits its true position in 253/254 windows when clean and 16/254 at 1.7% digit noise, with zero false positives. Applied to R286, R292, R306 and R311 at widths 2, 3 and 4: zero genuine hits (the four apparent width-3 hits all land in the edition's index of Roman numerals). A real fixed-width encipherment of printed text should have given of the order of eight hits on R286 alone, so p ~ e^-8. The ciphertexts are not fixed-width substitutions of anything printed in the volume.",
+   "result": "ruled out"},
   {"date": "2026-09-20", "kind": "reading",
    "what": "Content of the despatches recovered from Kiewning's printed contemporary decipherment, not from the cipher: Pallotto's mediation between the Emperor and the French envoy Sabran over the Mantuan succession, Casale, Susa and the Grisons passes, Aug-Nov 1629.",
    "result": "worked"},
@@ -158,7 +161,11 @@ prof = {
              "alignment signal and noise is not a sufficient explanation. R286 is not a two-digit homophonic "
              "encipherment of Kiewning's Nr. 153. Open: whether the code width differs, whether the sheet encodes "
              "another despatch or a materially different wording, or whether the system is nomenclator-heavy or "
-             "variable-length."),
+             "variable-length. A corpus search over all 1,161,303 letters of the edition then closed the first two: "
+             "at widths 2, 3 and 4 no window of R286, R292, R306 or R311 enciphers any text printed in the volume, "
+             "against a calibrated expectation of ~8 zero-false-positive hits on R286 alone. What survives is "
+             "either a variable-length nomenclator, or text that is not in print because Kiewning gives it only "
+             "as German regest."),
  },
 }
 

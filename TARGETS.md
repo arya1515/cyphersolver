@@ -228,8 +228,9 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 - **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, catalogue 237, BAV Barb.lat. 6960, DECODE R286–R313 — contents found
   in print, 20 Sept 2026. Kiewning's *Nuntiatur des Pallotto*, Bd. 2 (1897) prints the despatches from the Roman
   office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken, the key is not
-  recovered and no partial key is claimed; a run-length control rules out a two-digit encipherment of
-  Kiewning's text (longest consistent run 39 letters, chance baseline 36–39, synthetic at the same noise 207). The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
+  recovered and no partial key is claimed; calibrated controls rule out every fixed-width hypothesis: a search of
+  all 1,161,303 letters of the edition finds no window of four ciphertexts enciphering anything in print at
+  width 2, 3 or 4. What survives is a variable-length nomenclator, or passages given only as German regest. The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
   [pallotto1629/](pallotto1629/).
 
 - **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.
