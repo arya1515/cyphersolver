@@ -239,6 +239,33 @@ shift by one. It does not settle it — the date is written over a correction an
 like *xxv y xxvij*, two dates, so it cannot be matched to one group. `cab`, `cef` and `cif` do not
 depend on it: each was confirmed in its own context, independently of where the run starts.
 
+### The opening of R9605 read straight through, and the sign table it fixes
+
+f. 39r is R9605's first cipher page and f. 42 the first page of the clerk's decipherment; they align
+from the first word. Clear: *"Ya dixe a V. Mag. que el embaxador de Hungria fue respondido de los
+desta republica con buenas palabras…"*. Cipher:
+
+| cipher | plaintext |
+|---|---|
+| `cig` | **ya** (code) |
+| `vu`·o·ɣ | **di**+x+e = *dixe* |
+| `dom pud` `ho` `veg` | vuestra magestad que el |
+| `vam` `vuc`·ɡ | **embaxa**+**do**+r = *embaxador* |
+| `n·℔·∞` `ɡ·aɥ` | Hun-gria, spelled across the line break |
+| `sa` | **fue** |
+| `ɡ·ɣ·q·ao·#·&` `vu` `vuc` | r-e-s-p-o-n + **di** + **do** = *respondido* |
+| `xig vum` `ɡ·ɣ lal` | de esta + r-e + **publica** = *desta republica* |
+| `xa` `yuc`·n+s | con **buen**+a+s = *con buenas* |
+
+Nothing there is a guess: the clerk's plaintext stands over every group on the facing leaf. It fixes,
+against ground truth rather than by eye: `n`=a, `ɣ`=e, `ɡ`=r, `aɥ`=i, `o`=x, `#`=o, `q`=s, `ao`=p,
+`&`=n, `m`=v, `z`=c, `β`=m, `ɋ`=s. (`q`=s here against Tomokiyo's alphabet column `q`=t — two similar
+glyphs, the pair to watch next.) The table is carried in `alpha.py`, ground-truth values marked.
+
+**Reading R9605 is not itself a new reading** — the Emperor's clerk deciphered it in 1522. Its value
+is the sign table, which is what the genuinely unread pages of the 9/26 tail need; carrying it to
+R9635 f. 20r and the rest is now mechanical rather than a matter of judgement.
+
 ## What is left
 
 The other 27 records. Most of them have a contemporary decipherment bound in — though R9635 shows the

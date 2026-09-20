@@ -1,7 +1,26 @@
 # -*- coding: utf-8 -*-
-"""Sign -> plaintext letter, read off Tomokiyo's alphabet table (tomokiyo/AlonsoSanchez.png)
-and expressed in the transcription labels used for the code groups.
+"""Sign -> plaintext letter for Sanchez's 1522 cipher, in the transcription labels used for the
+code groups. Values marked GT are fixed by ground truth: the alignment of R9605's cipher with the
+clerk's 1522 decipherment on the facing leaves (see calibration_r9605.md). The rest are read off
+Tomokiyo's hand-drawn alphabet table and are provisional.
 Multi-character labels must be tried longest-first."""
+
+# fixed against R9605 + its contemporary decipherment (calibration_r9605.md)
+GROUND_TRUTH = {
+ 'n':'a',   # dixe A, buenAs
+ 'y':'e',   # dixE, rEspondido, rEpublica   (the label 'y' = the curl Tomokiyo draws for e)
+ 'g':'r',   # embaxadoR, Respondido, Republica
+ 'ai':'i',  # HungRIa, escrIvo
+ 'o':'x',   # diXe
+ '#':'o',   # respOndidO, escrivO
+ 'q':'s',   # reSpondido  (NB Tomokiyo's alphabet gives q = t; two similar glyphs)
+ 'ao':'p',  # resPondido
+ '&':'n',   # respoNdido
+ 'm':'v',   # escriVo
+ 'z':'c',   # esCrivo, Camino
+ 'B':'m',   # caMino
+ 's':'s',   # buenaS, loS  (the q-with-double-bar, used as the plural)
+}
 ALPHA = {
  'n':'a',  '3f':'a',
  'b':'b',

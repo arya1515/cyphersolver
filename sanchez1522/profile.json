@@ -228,6 +228,12 @@
       "kind": "verification",
       "what": "Checked whether the c-block numeral run starts where assumed, by aligning the group cud against the clear at 'que fue a ...'. Inconclusive: the date there is written over a correction and reads as two dates (xxv y xxvij), so it cannot be matched to one group. cab, cef and cif are unaffected, each having been confirmed in its own context.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Aligned the opening of R9605 (f. 39r) with the first page of its 1522 decipherment (f. 42), straight through: cig='ya', vu+x+e='dixe', vam+vuc+r='embaxador', spelled Hun-gria, sa='fue', r-e-s-p-o-n+di+do='respondido', de esta + r-e + publica = 'desta republica', xa + buen+a+s = 'con buenas'. Fixes the sign table against ground truth: n=a, y-curl=e, curly-q=r, ai=i, o=x, #=o, q=s, ao=p, &=n, m=v, z=c, B=m, plural=s. Note q=s here against Tomokiyo's alphabet q=t, two similar glyphs. Carried into alpha.py with the ground-truth values marked.",
+      "result": "worked"
     }
   ],
   "outcome": {

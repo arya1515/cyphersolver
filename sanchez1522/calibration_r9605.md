@@ -87,3 +87,69 @@ dates rather than one, so it cannot be matched to the single group `cud`. **Left
 The values `cab` = xv, `cef` = xxvi and `cif` = xxvii do not depend on this: they were each confirmed
 in their own context (*mas de xv mil ducados*; *cartas de Francia de xxvi y xxvii del passado*, two
 consecutive days), independently of where the run starts.
+
+## The opening of R9605, read straight through against the clear
+
+f. 39r is the first cipher page; f. 42 the first page of the clerk's decipherment. The two align from
+the first word. Decipherment:
+
+> *Ya dixe a V. Mag. que el embaxador de Hungria fue respondido de los desta republica con buenas
+> palabras…*
+
+Cipher, f. 39r ll. 1–2 (`‖` a null, *italic* = written in the clear on the page):
+
+```
+‖ como ‖ quien ‖ | cig | vu·o·ɣ | n | dom pud | ho | veg | vam vuc·ɡ | xig | n·℔·∞
+ɡ·aɥ | sa | ɡ·ɣ·q·ao·#·& vu vuc | xig | pac+s | xig vum | ɡ·ɣ lal | xa | yuc·n+s
+```
+
+Term by term, with the clear underneath at every point:
+
+| cipher | plaintext | how |
+|---|---|---|
+| `cig` | **ya** | code |
+| `vu`·o·ɣ | **di**+x+e = *dixe* | code `vu` (di), then the signs for x and e |
+| `n` | a | letter |
+| `dom pud` | vuestra magestad | code |
+| `ho` `veg` | que el | code |
+| `vam` `vuc`·ɡ | **embaxa**+**do**+r = *embaxador* | two codes, then the sign for r |
+| `xig` | de | code |
+| `n·℔·∞` `ɡ·aɥ` | Hun-gria | spelled across the line break |
+| `sa` | **fue** | code |
+| `ɡ·ɣ·q·ao·#·&` `vu` `vuc` | r-e-s-p-o-n + **di** + **do** = *respondido* | spelled, then two codes |
+| `pac`+s | los | code |
+| `xig vum` | de esta | code |
+| `ɡ·ɣ` `lal` | r-e + **publica** = *republica* | spelled, then code |
+| `xa` | con | code |
+| `yuc`·n+s | **buen**+a+s = *buenas* | code, then two signs |
+
+Nothing here is a guess: every group has the clerk's own plaintext standing over it on the facing leaf.
+
+## The sign values this fixes
+
+| sign | letter | fixed by |
+|---|---|---|
+| `n` | a | *dixe **a***, *buen**a**s* |
+| `ɣ` | e | *dix**e***, *r**e**spondido*, *r**e**publica* |
+| `ɡ` | r | *embaxado**r***, ***r**espondido*, ***r**epublica* |
+| `aɥ` | i | *Hung**ri**a*, *escr**i**vo* |
+| `o` | x | *di**x**e* |
+| `#` | o | *resp**o**ndido*, *escriv**o*** |
+| `q` | s | *re**s**pondido* |
+| `ao` | p | *res**p**ondido* |
+| `&` | n | *respo**n**dido* |
+| `m` | v / u | *escri**v**o* |
+| `z` | c | *es**c**rivo*, *ca**m**ino* |
+| `β` | m | *ca**m**ino* |
+| `ɋ` | s (plural) | *buena**s***, *lo**s*** |
+
+Note `q` = s here against `q` = t in Tomokiyo's alphabet column: two similar glyphs, and this is the
+pair to watch next.
+
+## What this does and does not amount to
+
+It calibrates the hand, and it shows the method reading continuously — but on a letter the Emperor's
+clerk had already deciphered in 1522. **Reading R9605 is not a new reading.** Its value is that the
+sign table above, every value of it resting on ground truth rather than on eye, is what the genuinely
+unread pages of the 9/26 tail need. Carrying it across to R9635 f. 20r and the rest is the next step,
+and it is now a mechanical one rather than a matter of judgement.
