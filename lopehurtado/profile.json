@@ -331,6 +331,12 @@
       "kind": "verification",
       "what": "Section A of R9644 (f. 237, marked A in the margin) aligned against its clear on f. 241. Six values already fixed - tu (no), xul (lo), ton (que), y-af (es), zil (con), rab (vuestra magestad) - all fall in their right places across one long sentence, the densest single check the key has had. New: su-su = 'su' and s-id = 'Sa' (Su Santidad, the Pope), from the pair standing at 'su Sa' in 'prevenga a su Sa'. Three more probable: obligado, haga, dezir. Fifty-two confirmed, twelve probable.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Paragraph 2 of R9644 f. 237 against its clear: 'porque su Sa tenia tanta passion que no conocia lo que don Joan'. Seven fixed values in a row (top, ton, s-id, ton, tu, zil, xul, ton), plus another instance of the stem-plus-ending pattern - zil (con) + spelled 'ocia' = 'conocia', the third construction zil has appeared in. Three new probables: tenia, tanta, don. Noted but not settled: s-id stood beside su-su (su) as 'su Sa' in section A but carries 'su Sa' alone here, so either it means Sa with su sometimes coded separately, or it means the whole title.",
+      "result": "worked"
     }
   ],
   "outcome": {

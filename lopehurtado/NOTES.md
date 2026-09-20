@@ -346,7 +346,21 @@ New from it: **`ʃʃ` = *su*** and **`ʃid` = *Sa*** (Su Santidad, the Pope), fr
 Three more are probable — `tad` *obligado*, `xLʒ` *haga*, `ɣʒʒ` *dezir* — sitting in slots the sense
 fixes but the counts do not.
 
-Fifty-two values confirmed, twelve probable.
+The paragraph after it does the same. Clear: *Assi mesmo fue bien escrivir largo, **porque su Sa
+tenia tanta passion que no conocia lo que** don Joan le havia servido*. Cipher:
+
+> … **`top`** **`ton`** **`ʃid`** `ᵹ847` `ʃuf` `ʒ7xʒᵹᵹ4` **`ton`** **`tu`** **`zil`**+`mɡᵹᵹ`
+> **`xul`** **`ton`** `xᵹ4` `LL741` …
+> = **por** **que** **su Sa** tenia tanta passion **que** **no** **con**·ocia **lo** **que** don Joan
+
+Seven fixed values in a row, and one more instance of the stem-plus-ending pattern: **`zil` (*con*)
++ a spelled *ocia* = *conocia***, which is the third construction `zil` has been seen in.
+
+`ʃid` is worth a note. In section A it stood beside `ʃʃ` (*su*) as *su Sa*; here it carries *su Sa*
+on its own. Either it means *Sa* and the *su* is sometimes coded separately, or it means the whole
+title and section A wrote *su* twice. Not settled, and recorded as *Sa / su Sa*.
+
+Fifty-two values confirmed, fifteen probable.
 
 ## Where the work is now limited: the alphabet, not the nomenclator
 
