@@ -235,7 +235,26 @@ matters. Seven new values come out of it — **`taf` = *papa***, **`ɣof` = *est
 duplicate's plaintext rather than standing on the key alone, so it is a foothold rather than a
 reading. But the mechanism now works end to end: crib → key → a record nobody had read.
 
-Forty-four values confirmed, eleven probable.
+### And it keeps reading
+
+Further down the same leaf of R9648, against section C of the R9644 plaintext:
+
+> `ton` `ɣub` `zed` │ *le avia embiado la carta de v. Mt* │ = **que el arçobispo** …
+
+giving **`zed` = *arçobispo*** — a name-code for the man who runs through this whole
+correspondence, the archbishop of Bari.
+
+And a few words on:
+
+| `ton` | … | `xuɡ` | `tef` | `top` | `xul`+s | `ᵹʒ℔ʒℇᵹʒᵹ` | `ɋ` | `top` | `xuɡ` | … |
+|---|---|---|---|---|---|---|---|---|---|---|
+| que | desseava mucho | **la** | **paz** | **por** | **los** | infieles | **y** | **por** | **la** | necessidad |
+
+Everything in bold is a value won earlier and reappearing correctly; `tef` = *paz* is new. The run
+*la paz por los infieles y por la necessidad* is continuous previously-unread text — Hurtado
+reporting that the Pope wanted peace because of the Turks and because of the Emperor's need.
+
+Forty-six values confirmed, eleven probable.
 
 ## Next
 

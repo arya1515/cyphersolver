@@ -61,6 +61,36 @@
         "image_quality": "good",
         "notes": "Used so far only to confirm that the same key runs across Hurtado's letters; not transcribed."
       }
+    },
+    {
+      "id": "R9648",
+      "shelfmark": "RAH, Signatura 9/26, f. 260-265 (DECODE R9648)",
+      "date": "9 Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 12,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "unrelated source"
+        ],
+        "source": "none of its own; cribbed from R9644's clear version, the two being duplicate despatches",
+        "partial": true
+      },
+      "length": {
+        "tokens": 20,
+        "unit": "code groups",
+        "measured": false,
+        "file": "NOTES.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "good",
+        "notes": "DECODE records this as Non-decrypted. Two short passages on f. 262 read here; the count is of code groups resolved, counted by hand."
+      }
     }
   ],
   "system": {
@@ -228,11 +258,17 @@
       "kind": "reading",
       "what": "First previously-unread text read: R9648 f. 262, nine cipher tokens against nine plaintext words with nothing left over - 'y que el papa no esta en que venga' - and 'que nueva tenia de Francia' after the clear words 'pregunte a su S.'. The values q=y, ton=que and tu=no, won on R9644, reappear here correctly, which is the check that matters. Seven new values: taf=papa, y-of=esta, y-uc=en, te-r=nueva, tenia, y-on=Francia, and the spelled 'venga'; y-ub=el promoted from probable. Short, and leaning on the duplicate's plaintext rather than the key alone, so a foothold rather than a reading.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "More of R9648 f. 262 reads: 'ton y-ub zed' before the clear 'le avia embiado la carta' = 'que el arcobispo', giving zed = arcobispo, a name-code for the archbishop of Bari. And a continuous run 'la paz por los infieles y por la necessidad', where la, por, los and y are all values won earlier and reappearing correctly, and tef = paz is new. Forty-six confirmed, eleven probable.",
+      "result": "partial"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.05,
+    "fraction_read": 0.08,
     "verification": [
       "contemporary decipherment",
       "key confirms"
