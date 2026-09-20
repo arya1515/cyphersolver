@@ -117,6 +117,11 @@
    "kind": "sibling key",
    "what": "Grand Chiffre R1024 with every constant offset -2600..+2600, scored on syllable fit: best offsets give nonsense.",
    "result": "ruled out"
+  },
+  {
+   "kind": "literature search",
+   "what": "Swept all 6,396 DECODE key records for keys dated 1790-1815 (149) and French-language keys from 1780 (30): apart from those already tested, none is Dutch or Orange; the BL Add MS 32257/32264/32292 French keys are intercepted French government ciphers. Web search found no printed decipherment and no KHA cipher key online.",
+   "result": "failed"
   }
  ],
  "outcome": {
