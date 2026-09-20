@@ -264,6 +264,12 @@
       "kind": "reading",
       "what": "Edition pass continued on R9635 f. 20r: ll. 4, 9 and 10 added. l. 9 gives nul(obliga)+vuc(do)+s = 'obligados', which is exactly the word the 1522 decipherer wrote in the gloss above that stretch - key, alphabet and gloss agreeing independently. Coverage now about half the page; ll. 5, 8, 11-13, 15-21, 23-25 left untranscribed. The token gta, a dozen occurrences and not a possible code (middle position not a vowel), is left unresolved rather than forced.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Edition continued: ll. 9(right), 11 and 13 of R9635 f. 20r. 'me lo que antes de ahora'; yig(capitula)+c-i-o-n = 'capitulacion'; 'que quien Inglaterra que los' with hec = Inglaterra. Coverage now about three fifths of the page; ll. 5, 8, 15-21, 23-25 still untranscribed.",
+      "result": "partial"
     }
   ],
   "outcome": {
