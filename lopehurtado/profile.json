@@ -139,11 +139,13 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": "unknown",
+      "entries": 49,
       "kinds": [
         "common words",
         "names",
-        "places"
+        "places",
+        "titles",
+        "syllables"
       ],
       "unread_groups": "unknown"
     },
@@ -304,6 +306,12 @@
       "date": "2026-09-20",
       "kind": "control",
       "what": "THE VALIDATION THAT MATTERS. Everything so far leaned somewhere on R9644's plaintext, R9648 being its duplicate. R9656 (ff. 334-335, headed 'De Lope Hurtado de xx de noviembre') is a different despatch three weeks later with no clear version and no duplicate. The key reads there unaided: after the clear words 'las cartas traxo don Correo q vino con la valante', the cipher gives '|| tu n7 <2 runs> y-ub taf' = 'no ... EL PAPA', with y-ub = el and taf = papa both won on R9648 against R9644's crib. Elsewhere on the leaf ton, zar, y-of, sub and tu all fall in slots that make sense. The three unresolved units are left blank rather than guessed.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "R9648 f. 264 after the clear 'A lo q he entendido': 'zil y-ub zed zar <spelled Cosenza>' against section B of the R9644 plaintext = 'con el arcobispo de Cosenza'. Gives zil = con, re-confirms zed = arcobispo in a second context, and promotes zar = de, now attested three times (de su Sa, de Francia, de Cosenza) - which matters because zar is one of the commonest groups on every leaf. Forty-nine confirmed, ten probable.",
       "result": "worked"
     }
   ],

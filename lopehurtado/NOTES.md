@@ -295,7 +295,19 @@ letter that has none.
 The three unresolved units between *no* and *el papa* are left blank rather than guessed; the sense
 wants something like "no ha querido ver", but wanting is not evidence.
 
-Forty-seven values confirmed, eleven probable.
+### One more from the crib
+
+R9648 f. 264, after the clear words *A lo q he entendido*:
+
+> ‖ `ɣʒ` `ʃta` **`zil`** **`ɣub`** **`zed`** **`zar`** `ɣᵹᵹ84ɣ` │ *trata de algunas cosas su S.*
+> = … **con el arçobispo de** Cosenza …
+
+against section B of the R9644 plaintext. That gives **`zil` = *con***, re-confirms `zed` =
+*arçobispo* in a second context, and promotes **`zar` = *de*** — now attested three times over
+(*de su Sa*, *de Francia*, *de Cosenza*), which matters because `zar` is one of the commonest groups
+on every leaf.
+
+Forty-nine values confirmed, ten probable.
 
 ## Next
 
