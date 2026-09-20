@@ -4556,7 +4556,7 @@
    "shelfmark": "RAH, Signatura 9/26 (8 items)",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R9634–R9659 (8 records): Partially decrypted, 46 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. | Checked 20 Sept 2026 while working entry #143 (see sanchez1522.html): these letters are bound with Alonso Sánchez's in Salazar 9/26 and look like more of the same, but they are in a different cipher — the code groups take finals (tep, tap, -z) that Sánchez's key, whose third position is strictly b c d f g h l m n, does not contain. Juan Manuel's Rome cipher does use p r s t z as finals, but none of the groups legible on R9648 f. 260v has a value in Tomokiyo's Juan Manuel table either, and that table is itself a partial recovery, so it is not settled whether this is Juan Manuel's key or a third one. Several of these records carry contemporary decipherments, so the same route Tomokiyo took is open. Worth its own target. | Opened as its own target 20 Sept 2026 (lopehurtado/). No published decipherment: Tomokiyo's 2025 article covers Sanchez and Juan Manuel only and does not mention Hurtado. The way in is R9644, which holds both the ciphered letter (ff. 238-239) and a full contemporary clear version (f. 242), headed 'Claro' section by section and keyed to the cipher by marginal letters A, B, C. Seven code values fixed against that plaintext on an exact-count run - ton=que, tab=nunca, xud=hombre, xul=lo, [y]m=fue, xon=mas, tu=no - plus eleven probable. xul='lo' here against 'despues' in Sanchez proves the keys distinct. Nothing read as continuous text yet.",
+   "status": "Worked 20 Sept 2026 (lopehurtado/). **Cipher broken and the key rebuilt.** These nine records are bound among Alonso Sánchez's Venice letters and were catalogued with them, but are in a different, unpublished cipher: Sánchez's code groups end strictly in b c d f g h l m n, Hurtado's take finals p and z, and xul is 'despues' in Sánchez against 'lo' here. Tomokiyo's 2025 article reconstructs Sánchez's cipher and Juan Manuel's and does not mention Hurtado. The crib was bound with the cipher: R9644 and R9650 each carry the clerk's own full contemporary clear version beside the ciphered leaves, keyed by marginal letters A/B/C, and R9648 is R9644's duplicate. 57 code and sign values fixed against that plaintext, 19 probable and kept apart in a confidence column (an audit for conflicts produced 4 retractions). The key reads where it was not built: 70%, 62% and 57% of tokens in R9648, R9650 and R9645, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Structure not in the published account of the sibling ciphers: homophones at code level, codes carrying syllables, and codes running together to make one word. Four letters read complete as to content - Adrian VI temporising between Charles V and Francis I, the French determined to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, a Pope 'tan escasso que nunca hombre lo fue mas' whose household goes unpaid. Correction to DECODE: R9652 carries no cipher at all and its status should be 'not enciphered'. Open: the five records with no clear version (R9634, R9645, R9646, R9649, R9656) read in substance and not word for word; the substitution alphabet is thin, nine signs fixed.",
    "why": "Ciphered despatches of Lope Hurtado de Mendoza to unknown recipient, Sep 1522 – 9 Nov 1522; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
@@ -4606,7 +4606,9 @@
     9656,
     9659
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "read in part",
+   "writeup": "lopehurtado.html"
   },
   {
    "id": 145,

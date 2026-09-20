@@ -421,6 +421,12 @@
       "kind": "reading",
       "what": "R9652 read complete: it carries NO cipher. DECODE calls it 'Partially decrypted' but the leaf is written entirely in the clear and signed Lope Hurtado; the status appears to reflect faded show-through at the head. Content: the licenciado Bernardino, a 'gran bellaco' the Duke of Sessa wants arrested, and Adrian VI declining a night arrest in Rome while offering a formal suplicacion instead; plus the viceroy of Naples' despatch on the siege of Rhodes forwarded to the Emperor. That last ties this correspondence to Sanchez's R9653 of 20 Nov, which carries the Rhodes news from Venice - Rome and Venice reporting the same disaster in the same fortnight, in two different ciphers, bound in the same volume.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Measured the key on R9645, a record with no crib of any kind: 57% of tokens resolve with confirmed values only. It decodes to 'se si no con [...] con vuestra magestad, que no [...] en [...] esta[do] [...] de vuestra magestad' - the shape and subject of the sentence with the content words missing. That is the honest ceiling of the present key on an uncribbed letter: function words and names resolve, spelled content words do not.",
+      "result": "partial"
     }
   ],
   "outcome": {

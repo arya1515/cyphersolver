@@ -464,6 +464,26 @@ misses are of two kinds: a few nomenclator codes not yet met, and the spelled ru
 alphabet. That is the honest state of the key — good enough to follow the sense of a passage, not
 good enough to edit one.
 
+## The records with no crib: measured, not guessed
+
+Of the nine, four are read complete as to content (`read_r9644.md`, `read_r9650.md`,
+`read_r9652.md`, and R9648 as R9644's duplicate). The other five have no clear version anywhere,
+and there the key has to work alone. Measured with `decode.py`, which applies confirmed values only:
+
+| record | date | measured coverage |
+|---|---|---|
+| R9648 f. 262 (duplicate of R9644) | 9 Nov | 70% |
+| R9650 f. 270 | Nov | 62% |
+| **R9645 f. 243** (no crib) | Nov | **57%** |
+| **R9656 f. 334** (no crib) | 20 Nov | *el papa* read unaided |
+
+R9645 decodes to *… se si no con […] con vuestra magestad, que no […] en […] esta[do] […] de
+vuestra magestad …* — the shape of the sentence and its subject, with the content words missing.
+
+That is the honest ceiling of the present key on an uncribbed letter: **the function words and the
+names resolve, the spelled content words do not.** These five letters will read in substance and not
+word for word until the alphabet is fuller.
+
 ## Where the work is now limited: the alphabet, not the nomenclator
 
 The two halves of this cipher are not equally tractable at the resolution DECODE serves.

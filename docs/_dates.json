@@ -54,6 +54,7 @@
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "lope de soria to charles v, genoa, 1523": "2026-09-19",
+  "lope hurtado de mendoza (rome) to charles v, 1522": "2026-09-20",
   "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
@@ -153,7 +154,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "9a2abaf87555",
+   "hash": "ea3bc2fd2a94",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -253,7 +254,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "e12fec49ae9d",
+   "hash": "e3f067ca1d3d",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -275,6 +276,11 @@
    "first": "2026-09-18",
    "hash": "0c9be5496dc0",
    "updated": "2026-09-18"
+  },
+  "lopehurtado": {
+   "first": "2026-09-20",
+   "hash": "fb86d2ea7f27",
+   "updated": "2026-09-20"
   },
   "lorraine1592": {
    "first": "2026-09-18",
@@ -478,7 +484,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d6152cf81520",
+   "hash": "d1950787a0f8",
    "updated": "2026-09-20"
   },
   "yard1699": {
