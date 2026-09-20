@@ -174,7 +174,29 @@ The next line gives `… ɋ xul h℔∞ ℔ xᵹ∞ **ton zun ℔∞74** ᵷard 
 syllable of *na·da*, and the middle syllable of *que·da·rian*. The ending `℔∞74` is `℔∞7` (*-ria*)
 plus `4`, which gives the letter **`4` = n** — the same sign as the *n* of the spelled *pensaria*.
 
-Twenty-one values confirmed, thirteen probable.
+### The letter alphabet starts to come out
+
+The end of the same paragraph aligns exactly — four cipher units for four words:
+
+| `∞L84℔ɋ` | `⊃8ʒxL67` | `xuɡ` | `ɣufɋ` |
+|---|---|---|---|
+| tiene | **perdida** | la | esperança |
+
+*perdida* is spelled out, seven signs for seven letters, and that hands over a first slice of the
+**substitution alphabet**:
+
+| sign | `⊃` | `8` | `ʒ` | `x` | `6` | `L` | `7` | `4` |
+|---|---|---|---|---|---|---|---|---|
+| letter | p | e | r | **d** | **d** | i | a | n |
+
+Two signs for **d** in one word — homophones in the alphabet as well as in the codes. The values
+cross-check against the spelled *pensaria* earlier in the paragraph (same `⊃`, `8`, `7`, `4`) and
+against `ʒ` = r, already confirmed twice.
+
+Thirty-one values confirmed, thirteen probable.
+
+*One caution:* the sign transcribed `∞` reads as **t** in *tiene* but seemed to be **s** in
+*pensaria*. One of the two transcriptions is wrong. It is left unassigned rather than guessed.
 
 ## Next
 
