@@ -324,6 +324,30 @@ The two spelled words either side check the alphabet again: *honrrado* and *appr
 
 Fifty values confirmed, ten probable.
 
+## Section A confirms the spine
+
+f. 237 carries the head of the ciphered letter, with **A** in the margin against the passage the
+clear (f. 241) gives as:
+
+> Ha sido muy bien que v. ma **prevenga a su Sa** de lo que conviene a su servicio, porque aunque
+> **no haga lo que es obligado, no se disculpe despues con dezir que v. ma** no le mando prevenir…
+
+The cipher runs, with the unbolded parts standing in the clear on the cipher page itself:
+
+> *ha seido muy bien q v. Mt* │ `℔ᵹʒʒLℇ7` `ℇ7` **`ʃʃ`** **`ʃid`** │ *de lo que conviene a su servicio,
+> por q aunq* │ ‖ `ɣʒ` **`tu`** `xLʒ` `ℇ7` **`xul`** **`ton`** **`ɣaf`** `tad` `xᵹ` **`tu`** `ʃu`
+> `xᵹᵹɡLʒʒx℔` `ɣ7` **`zil`** `ɣʒʒ` **`ton`** **`rab`** │ *no le mando prevenir*
+
+Six values already fixed — `tu` *no*, `xul` *lo*, `ton` *que*, `ɣaf` *es*, `zil` *con*, `rab`
+*vuestra magestad* — all fall in their right places across a long sentence. That is the densest
+single check the key has had.
+
+New from it: **`ʃʃ` = *su*** and **`ʃid` = *Sa*** (Su Santidad, the Pope), from `ʃʃ ʃid` = *su Sa*.
+Three more are probable — `tad` *obligado*, `xLʒ` *haga*, `ɣʒʒ` *dezir* — sitting in slots the sense
+fixes but the counts do not.
+
+Fifty-two values confirmed, twelve probable.
+
 ## Where the work is now limited: the alphabet, not the nomenclator
 
 The two halves of this cipher are not equally tractable at the resolution DECODE serves.

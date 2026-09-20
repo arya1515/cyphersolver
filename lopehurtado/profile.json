@@ -139,7 +139,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 50,
+      "entries": 52,
       "kinds": [
         "common words",
         "names",
@@ -325,6 +325,12 @@
       "kind": "transcription",
       "what": "Attempted to extend the substitution alphabet from spelled words with known plaintext (Cosenza, venga, tiene, pensaria). Blocked: the transcriptions contradict each other - tiene wants one sign = t where pensaria wants it = s; venga wants a sign = v where perdida fixes it = i; Cosenza comes out eight signs for seven letters with two signs apparently doing double duty. At least one transcription in each pair is wrong, so those signs are left unassigned rather than picking whichever suits. Same wall as sanchez1522: the three-letter code groups read off the page easily, the spelled letter-signs need a picture-book built glyph by glyph against known plaintext.",
       "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Section A of R9644 (f. 237, marked A in the margin) aligned against its clear on f. 241. Six values already fixed - tu (no), xul (lo), ton (que), y-af (es), zil (con), rab (vuestra magestad) - all fall in their right places across one long sentence, the densest single check the key has had. New: su-su = 'su' and s-id = 'Sa' (Su Santidad, the Pope), from the pair standing at 'su Sa' in 'prevenga a su Sa'. Three more probable: obligado, haga, dezir. Fifty-two confirmed, twelve probable.",
+      "result": "worked"
     }
   ],
   "outcome": {
