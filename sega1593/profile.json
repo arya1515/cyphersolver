@@ -1,0 +1,165 @@
+{
+ "schema_version": 1,
+ "target": "sega1593",
+ "title": "Baudouin-Desportes to Aldobrandini and to Frachetta, Paris 22 July 1593, BnF fr. 3984 ff. 186, 189",
+ "documents": [
+  {
+   "id": "f186",
+   "shelfmark": "BnF fr. 3984 f. 186 (no. 88)",
+   "date": "22 Jul 1593",
+   "year": 1593,
+   "country": "Catholic League",
+   "route": "Paris -> Pietro Aldobrandini, Rome",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Tomokiyo: enciphered passages undeciphered"
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica microfilm btv1b9060633d, full-resolution IIIF canvases; CNN classifier plus hand reading",
+    "image_quality": "fair",
+    "notes": "c. 74 cipher lines; classifier top-1 0.73-0.79, hand reading c. 70 %."
+   }
+  },
+  {
+   "id": "f189",
+   "shelfmark": "BnF fr. 3984 f. 189 (no. 90)",
+   "date": "... Jul 1593",
+   "year": 1593,
+   "country": "Catholic League",
+   "route": "Paris -> Girolamo Frachetta",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Tomokiyo: undeciphered"
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica microfilm btv1b9060633d",
+    "image_quality": "fair",
+    "notes": "33 lines wholly in cipher. NOTES give c. 5,000 glyphs for the two letters together."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "polyphonic",
+   "nomenclator"
+  ],
+  "summary": "Catholic League polyphonic cipher: eleven glyphs each stand for two letters (a/n ... m/z), with signs for que, qui, pour and a few code signs.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Tomokiyo's reconstructed League key (mayenne.htm) and the same-day letter to Lisieux (f. 188, deciphered on ff. 184-185) used for 1,108 aligned glyphs",
+  "notes": "Occasional null strokes; the decipherer normalised spellings."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists f. 186 and f. 189 as undeciphered",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "known plaintext"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "seg2.py (glyph segmentation)",
+   "boot2.py kNN, boot3.py CNN alignment",
+   "cnn.py classifier",
+   "soft_decode.py, decode_line.py (LM beam)",
+   "crib_search.py",
+   "fr6_period.pkl period-French LM"
+  ],
+  "models": [
+   "claude-fable-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "Tomokiyo's League polyphonic key and folio list confirm the task is transcription, not key recovery.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "sibling key",
+   "what": "f. 188v aligned to its decipherment f. 185: 1,108 labelled glyphs of the same hand.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "CNN, kNN, SVM and self-training classifiers read held-out glyphs at 73-79 % top-1; hand reading c. 70 %.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "control",
+   "what": "Soft LM decoding of held-out f. 188v ll. 7-10 recovers only 30-40 % of letters.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "crib",
+   "what": "Line-by-line alignment of f. 186v and f. 189 against the Lisieux text versus a shuffled control: no verbatim shared passage.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Needs a >90 % glyph class string: more labels from f. 176/f. 177, a human glyph transcription, or the recipients' clear copies."
+ }
+}

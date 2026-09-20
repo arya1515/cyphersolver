@@ -1,0 +1,99 @@
+{
+ "schema_version": 1,
+ "target": "blancmesnil",
+ "title": "Nicolas Potier de Blancmesnil to the Duke of Nevers, 'ce dernier juin', BnF fr. 3633 f. 24 no. 15",
+ "documents": [
+  {
+   "id": "f24",
+   "shelfmark": "BnF fr. 3633 f. 24, no. 15",
+   "date": "ce dernier juin",
+   "year": "unknown",
+   "country": "France",
+   "route": "unknown -> Duke of Nevers",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "None known; sibling Blancmesnil letters with interlinear decipherments are in fr. 3616/3621 (DECODE R9434-9448, images restricted)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "none: the ciphertext was never in hand",
+    "image_quality": "no images",
+    "notes": "fr. 3633 is not digitised (Gallica SRU, DECODE). Tomokiyo says only that the letter 'contains some phrases in cipher'. Entry kept because the schema needs one document; every value beyond the catalogue description is unknown, and the unit and transcription.by are placeholders."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Unknown; the Potier-Nevers homophonic letter-and-symbol cipher of 1589 (fr. 3987 f. 1) is the candidate key.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "sibling_key": "Potier-Nevers cipher reconstructed by Tomokiyo from fr. 3987 f. 1, and the fr. 3616/3621 decipherments; not applied (no ciphertext).",
+  "notes": "symbol_kind is that of the candidate key, not observed."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "No decipherment of this letter catalogued",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "Gallica SRU API",
+   "DECODE record search"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Gallica SRU for fr. 3633 (three query forms) and the source page's catalogue link, which resolves to fr. 4736.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "DECODE search for 3633; Blancmesnil siblings with decipherments located in fr. 3616/3621 metadata only, images restricted.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "offline only",
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked at the ciphertext: needs a reader's copy of fr. 3633 f. 24, then the Potier-Nevers key or the fr. 3616 decipherments."
+ }
+}

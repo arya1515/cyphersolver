@@ -1,0 +1,265 @@
+{
+ "schema_version": 1,
+ "target": "lanssac",
+ "title": "Lanssac to Charles IX, Warsaw, 26 April 1573, BnF fr. 4735 no. 51 f. 124, and the sibling election letters ff. 160, 164, 174",
+ "documents": [
+  {
+   "id": "f124",
+   "shelfmark": "BnF fr. 4735 no. 51, f. 124 (Gallica btv1b9060724s canvas 242)",
+   "date": "26 Apr 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Warsaw -> Charles IX",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary decipherment written in the outer margin, cut by the gutter on the microfilm; only line ends survive.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 106,
+    "distinct": 40,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f124_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
+    "image_quality": "fair",
+    "notes": "NOTES give 100 signs (96 read); the measured 106 tokens include syllable and word signs written as tag names. Glyph conflations (3/hooked 3, cross forms, two et forms) told apart by context."
+   }
+  },
+  {
+   "id": "f160",
+   "shelfmark": "BnF fr. 4735 no. 63, f. 160 (canvas 307)",
+   "date": "1 May 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Poland -> Charles IX",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Gutter-cut marginal gloss",
+    "partial": true
+   },
+   "length": {
+    "tokens": 91,
+    "distinct": 34,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f160_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans",
+    "image_quality": "fair"
+   }
+  },
+  {
+   "id": "f164",
+   "shelfmark": "BnF fr. 4735 no. 65, f. 164 (canvas 313)",
+   "date": "1 May 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Poland -> Anjou",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Gutter-cut marginal gloss",
+    "partial": true
+   },
+   "length": {
+    "tokens": 181,
+    "distinct": 42,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f164_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans",
+    "image_quality": "fair",
+    "notes": "Four runs of 3-7 signs unread."
+   }
+  },
+  {
+   "id": "f174",
+   "shelfmark": "BnF fr. 4735, f. 174 (canvas 329)",
+   "date": "9 May 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Plock -> Charles IX",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Gutter-cut marginal gloss",
+    "partial": true
+   },
+   "length": {
+    "tokens": 127,
+    "distinct": 34,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f174_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans",
+    "image_quality": "fair"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic letter cipher in graphic signs, two or three signs per common letter, with a dozen syllable and word signs (et, nt, st, de, ou, ns, car, pour, Allemagne, l'Empereur).",
+  "symbol_kind": "symbols",
+  "distinct_symbols": 47,
+  "diacritics": {
+   "used": true,
+   "note": "A dot under the m sign makes st."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 4,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": false,
+   "count": 0
+  },
+  "key_order": "unknown",
+  "word_division": "separator symbol",
+  "doubled_letters": "unknown",
+  "sibling_key": "Tomokiyo's reconstructed table for the Monluc/Lansac ciphers (henryiii_Lansac.png), shifted by one letter from m onward; compared, corrected, not used as the key.",
+  "notes": "47 signs met in f. 124 and the glossed siblings; commas, points and short bars separate words. Three signs (4, the n-bar, 3-hook) unread in session 1, some fixed in session 2."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary marginal decipherment, cut by the gutter on the microfilm; Tomokiyo's table (cryptiana henryiii.htm) with no reading of any letter",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "crib",
+   "cleartext context"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "fetch_range.py",
+   "strips.py",
+   "French 5-gram annealer (solve.py)",
+   "lattice beam decode (lattice.py)",
+   "controls.py"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "Tomokiyo's table and Noailles 1867 checked; the 26 April letter is in neither, Tomokiyo gives no reading.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "access",
+   "what": "Fetched the Gallica IIIF microfilm scans of ff. 121-164 with back-off.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "Transcribed 741 tokens from f. 124, f. 154, f. 154v l. 1 and f. 156.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "crib",
+   "what": "Glossed sibling f. 154v l. 1 'car je n'ay pas cinquante' fixed 12 signs and showed Tomokiyo's row shifted.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "crib",
+   "what": "Passage 2 of f. 124 read by hand against its gloss 'pour le moins esté retenu'.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "solver",
+   "what": "Pinned 5-gram annealer over the whole transcription filled the free signs.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "control",
+   "what": "Shuffled-token and blind runs: shuffled score far worse; blind run finds a better-scoring wrong key (6 of 21 crib letters).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "Lattice beam decode of both f. 124 passages; 96 of 100 signs read.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "Key carried to ff. 160, 164, 174; read in substance, short runs open.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "verification",
+   "what": "Readings agree with the surviving gloss fragments on every leaf.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "matched control",
+   "historical consistency"
+  ],
+  "notes": "f. 124: 96 of 100 signs; siblings read in substance with four unread runs on f. 164."
+ }
+}

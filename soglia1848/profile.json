@@ -1,0 +1,160 @@
+{
+ "schema_version": 1,
+ "target": "soglia1848",
+ "title": "Cardinal Soglia to nuncio Viale Prelà, Rome 15 June 1848, printed in L'Italia del Popolo no. 40",
+ "documents": [
+  {
+   "id": "dispatch",
+   "shelfmark": "L'Italia del Popolo no. 40 (Milan, 30 Jun 1848), Roman broadsheet reprint (Tip. Puccinelli); Cipherbrain 13 Dec 2014",
+   "date": "15 Jun 1848",
+   "year": 1848,
+   "country": "Papal States",
+   "route": "Rome -> Innsbruck",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Spada prints only the clear covering letter and a paraphrase; Il Labaro (7 Jul 1848) printed a guess."
+   },
+   "length": {
+    "tokens": 955,
+    "distinct": 10,
+    "unit": "symbols",
+    "measured": true,
+    "file": "ct2.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "Joe's transcription (blog comment #4) checked line by line against the scan",
+    "corrections": 1,
+    "image_quality": "good",
+    "notes": "Counted as single digits (955), not as groups: the text mixes the separator 5, two-digit groups and 8XXX codes. One dropped 4 restored on line 12."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "code",
+   "nomenclator"
+  ],
+  "summary": "Two-digit 64-cell table of letters, homophones and syllables over digits {0,1,2,3,4,6,7,9}, 5 as word separator, 8XXX one-part alphabetical code for words, lone 1-4 as punctuation.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": 11
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "alphabetical",
+  "word_division": "separator symbol",
+  "doubled_letters": "written twice (70 70 = w)",
+  "sibling_key": "Same design as the 1814 Vienna nunciature cipher (Ramliden); not used as a key.",
+  "notes": "Code stems combine with spelled endings; one print error (4 printed as 5)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Posted as unsolved on Cipherbrain 2014; no reading in Spada or Il Labaro",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "runpar.py",
+   "synth.py (control)",
+   "native/isa.cs nomenclator annealer",
+   "run_i.py",
+   "run_f.py",
+   "rankfit2.py",
+   "windows2.py",
+   "codefill2.py"
+  ],
+  "models": [
+   "unknown"
+  ],
+  "sessions": "unknown",
+  "first_date": "unknown",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "kind": "transcription",
+   "what": "Checked Joe's transcription against the scan; restored one digit.",
+   "result": "worked"
+  },
+  {
+   "kind": "statistics",
+   "what": "5 as word separator (92 of 102 runs even); 8 never in second position of a dinome.",
+   "result": "worked"
+  },
+  {
+   "kind": "solver",
+   "what": "One-letter-per-group annealing in Italian, French, Latin.",
+   "result": "failed"
+  },
+  {
+   "kind": "control",
+   "what": "Synthetic control solved exactly by the same annealer.",
+   "result": "worked"
+  },
+  {
+   "kind": "solver",
+   "what": "Injective letters+syllables nomenclator annealer produced circostanze, intendendosi, indirizzata.",
+   "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Pinned those words and read the rest by hand; parsed 8XXX codes.",
+   "result": "worked"
+  },
+  {
+   "kind": "prediction",
+   "what": "Alphabetical code order: linear rank model on 9 anchors checks the context readings of code words.",
+   "result": "partial"
+  },
+  {
+   "kind": "verification",
+   "what": "Content fits Lützow's departure, the nuncio at Innsbruck and Morichini (Chigi diary, DBI).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "historical consistency",
+   "key confirms"
+  ],
+  "notes": "11 code groups open, including the date of the earlier letter."
+ }
+}

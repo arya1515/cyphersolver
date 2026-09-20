@@ -1,0 +1,169 @@
+{
+ "schema_version": 1,
+ "target": "yard1699",
+ "title": "Robert Yard to the Earl of Manchester, Whitehall, 12 and 16 Oct 1699 (Beinecke OSB MSS fc37 box 2 folders 49, 51)",
+ "documents": [
+  {
+   "id": "oct12",
+   "shelfmark": "Beinecke OSB MSS fc37 box 2 folder 49 (OID 16601173)",
+   "date": "12 Oct 1699",
+   "year": 1699,
+   "country": "England",
+   "route": "Whitehall -> Paris (Manchester's embassy)",
+   "language": "English",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Catalogued as undeciphered (Beinecke, HMC 8th Rep.); Tomokiyo decoded only the first groups. Cole's Memoirs (1733) not checked.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 196,
+    "distinct": 133,
+    "unit": "code groups",
+    "measured": false,
+    "file": "oct12_ct.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Yale IIIF images 16601219-22",
+    "image_quality": "good",
+    "notes": "Groups sit dotted inside brackets among clear words, which --measure does not split; counted by splitting the bracketed runs on dots. NOTES give 368 groups for both letters, which matches 196 + 172."
+   }
+  },
+  {
+   "id": "oct16",
+   "shelfmark": "Beinecke OSB MSS fc37 box 2 folder 51 (OID 16601175)",
+   "date": "16 Oct 1699",
+   "year": 1699,
+   "country": "England",
+   "route": "Whitehall -> Paris (Manchester's embassy)",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Catalogued as undeciphered; Tomokiyo decoded only the first groups.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 172,
+    "distinct": 118,
+    "unit": "code groups",
+    "measured": false,
+    "file": "oct16_ct.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Yale IIIF images 16601223-26",
+    "image_quality": "good",
+    "notes": "Counted as for oct12. Two forms of the digit 2, one like 'V', checked on enlarged crops."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "syllabic",
+   "code"
+  ],
+  "summary": "One-part printed nomenclator template (letters, two syllable columns, words and names) numbered 3-2342 by hand, with every number ending 5 or 9, the range 516-617 and unassigned slots used as nulls.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "dots"
+  },
+  "distinct_symbols": 1456,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 1456,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Deciphered sibling of 5 Oct 1699 (OID 16601172) used to validate the key",
+  "notes": "distinct_symbols and entries are the 1,456 assigned slots transcribed from the key; three slots in a fold unreadable. Yard's copy differs from Manchester's in three values (42/48 = e, 21 = d, 483 = and)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Tomokiyo (cryptiana glorious.htm) identified THE=454 and decoded the first groups of each letter",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "key.py",
+   "dec.py",
+   "crop.py, kcrop.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "key from source",
+   "what": "Found the Manchester papers' 'Diplomatic cipher, contemporary copy' (box 18/47) at Yale and transcribed its 1,456 slots.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "Key checked against the contemporary interlinear decipherment of the 5 Oct 1699 sibling.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "Transcribed the cipher groups of both target letters from the IIIF images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "Decoded all groups of both letters; three value differences in Yard's copy found from context.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 1.0,
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Five slips of Yard's pen noted; names agree with Beinecke summaries of neighbouring letters."
+ }
+}

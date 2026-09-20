@@ -1,0 +1,122 @@
+{
+ "schema_version": 1,
+ "target": "roosevelt",
+ "title": "Roosevelt cryptogram, 1935, numeric block (Schmeh Top 50 no. 17)",
+ "documents": [
+  {
+   "id": "numberblock",
+   "shelfmark": "Secret Service sheet received 24 Apr 1935, reproduced in The Friedman Legacy (NSA 1992) fig. 2, p. 8",
+   "date": "24 Apr 1935 (receiving stamp)",
+   "year": 1935,
+   "country": "United States",
+   "language": "unknown",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Friedman read only the letter part ('Did you ever bite a lemon?'); nothing for the digits."
+   },
+   "length": {
+    "tokens": 52,
+    "distinct": 52,
+    "unit": "code groups",
+    "measured": false,
+    "file": "cipher.txt"
+   },
+   "transcription": {
+    "by": "human (project)",
+    "source": "Internet Archive 300 ppi scan of The Friedman Legacy, checked against the Cipherbrain image",
+    "image_quality": "fair",
+    "notes": "--measure gives 57 tokens / 52 distinct, counting the zero groups and the final dash as tokens; the numbers proper are 52 (1..52, each once). The third line of cipher.txt does not match the sequence quoted in NOTES."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "not a cipher"
+  ],
+  "summary": "A permutation of 1-52, each once, with four groups of zeros; statistics fit a list written by hand.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 52,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "not applicable",
+  "word_division": "none",
+  "doubled_letters": "not applicable",
+  "sibling_key": "none",
+  "notes": "Tick-joined pairs are exactly 10-52, single digits exactly 1-9; rising-sequence and rank-correlation tests favour hand enumeration over a shuffled deck."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Ernst 2017 (Cipherbrain comments) argued the block is a doodle; no reading exists",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "structure.py (permutation statistics, shuffles, GSR riffle model)",
+   "solve_ordered.py (annealer over ordered keys, Copenhagen 5-gram English LM)"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Digits read from the 300 ppi scan; tick-joined pairs taken as one number.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "statistics",
+   "what": "Block shown to be a permutation of 1-52; rank correlation, consecutive runs and rising sequences against shuffles and riffle models.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Ordered-key homophonic controls on 52-letter English passages recovered 7 of 8 at 88-100 %.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Six ordered-key readings of the block (sequence and inverse, both alphabets, zero groups as breaks) give no English.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Ernst's 2017 doodle claim confirmed; no message."
+ }
+}

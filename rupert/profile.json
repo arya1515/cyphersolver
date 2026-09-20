@@ -1,0 +1,145 @@
+{
+ "schema_version": 1,
+ "target": "rupert",
+ "title": "Maurice to Rupert, Worcester, 7 July 1645, and royalist intercepts, BL Add MS 72438 ff. 9-10 (1646)",
+ "documents": [
+  {
+   "id": "maurice1645",
+   "shelfmark": "Printed in Warburton, Memoirs of Prince Rupert (1849) iii. 133; original presumably BL Add MS 18980-82",
+   "date": "7 Jul 1645",
+   "year": 1645,
+   "country": "England",
+   "route": "Worcester -> Rupert at Bristol",
+   "language": "English",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No key or decipherment known in print."
+   },
+   "length": {
+    "tokens": 93,
+    "distinct": 63,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Warburton 1849 (archive.org OCR), ciphertext in maurice1645.py",
+    "image_quality": "no images",
+    "notes": "Count from NOTES; the ciphertext sits in a Python script, not a text file."
+   }
+  },
+  {
+   "id": "addms72438-f9",
+   "shelfmark": "BL Add MS 72438 ff. 9-10 (DECODE R8623, R8624)",
+   "date": "13 and 21 May 1646",
+   "year": 1646,
+   "country": "England",
+   "language": "English",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "BL catalogue: 'undecoded cipher'."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo prints the first two lines of f. 9 only",
+    "image_quality": "no images",
+    "notes": "Full ciphertext not available online."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Royalist numeric nomenclator: two-digit figures for letters, figures from about 100 to 398 (1645) or 500 (1646) for words.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 63,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": "unknown",
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Charles I-Rupert-Digby-Ormonde 1644-45 and Nicholas-Rupert July 1645 keys tested by range: do not fit",
+  "notes": "Distinct symbols counted for the 1645 letter only (18 below 100, 45 above)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "none found",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "maurice1645.py (structure statistics)",
+   "get_warburton.py, find_letter.py",
+   "thumbsize.py"
+  ],
+  "models": [
+   "unknown"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "transcription",
+   "what": "Maurice's letter taken from the Warburton OCR; structure counted.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "sibling key",
+   "what": "Known royalist key ranges compared with the 1645 figures.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "access",
+   "what": "Keys and originals located in BL Add MS 18980-82 and 72438; BL images offline since 2023, DECODE private.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "offline only",
+  "verification": [
+   "none"
+  ],
+  "notes": "Needs the BL images back online or DECODE access with BL permission; 49 Digby keys in Add MS 72438 would likely read the intercepts by trial."
+ }
+}

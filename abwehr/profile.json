@@ -1,0 +1,133 @@
+{
+ "schema_version": 1,
+ "target": "abwehr",
+ "title": "The Koehler cryptograms, Abwehr Hamburg -> Paris, February 1944 (Kahn, Cryptologia 5(2), 1981)",
+ "documents": [
+  {
+   "id": "koehler5",
+   "shelfmark": "British archives copy published by Kahn, Cryptologia 5(2), April 1981 (reference unknown); messages 237, 178, 137, 140, 229",
+   "date": "Feb 1944",
+   "year": 1944,
+   "country": "Germany",
+   "route": "New York -> Hamburg -> Paris (Abwehrleitstelle Frankreich)",
+   "language": "unknown",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No plaintext published; the FBI plaintexts of the Koehler channel are not public."
+   },
+   "length": {
+    "tokens": 924,
+    "distinct": 26,
+    "unit": "letters",
+    "measured": false,
+    "file": "msgs.py"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Kahn, Cryptologia 5(2), 1981, checked against the printing (msgs.py)",
+    "corrections": 1,
+    "image_quality": "no images",
+    "notes": "Five messages of 237, 178, 140, 140 and 229 letters; the one headed 137 has 140. Count 924 / 26 distinct measured with --measure --letters on a scratch export of msgs.py (the text lives in a Python file). One correction: message 137 group 17 is ayddq, not ayddg."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Letter cipher with near-flat letter counts (IC 0.0398); monoalphabetic, transposition, periodic, autokey, standard-tableau running key, Gronsfeld and Enigma excluded; mixed-tableau running key or one-time pad remain.",
+  "symbol_kind": "letters",
+  "distinct_symbols": 26,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Hoover (1946) names a book cipher on a Dutch prayer book for the FBI-run Koehler channel; the book is not identified. Not used.",
+  "notes": "Chi-squared 57.9 against uniform (c low, z high) excludes machine output; no depth between messages."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "No reading known; Schmeh Top 50 no. 47 lists it as unsolved",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "IC and periodic statistics (periodic.py)",
+   "quadgram hill-climb, German/English/Dutch (lm.py)",
+   "running-key likelihood test against simulated controls"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "transcription",
+   "what": "Checked the circulating text against the Cryptologia printing; one letter corrected.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "IC 0.0398 over 924 letters excludes monoalphabetic, transposition and ABC-Verfahren.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Periodic Vigenere/Beaufort/variant Beaufort, periods 1-26, quadgram hill-climb in three languages against shuffled controls.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Ciphertext autokey offsets 1-40, standard-tableau running key and Gronsfeld tested by likelihood against true running-key controls.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Letter counts against simulated Enigma output: p = 0.0003, any Enigma excluded; no depth between messages.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Background (Hoover 1946, Johnson via Schmeh 2021): prayer-book cipher; book, FBI plaintexts and Kahn's archive source not available.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "grades": "unknown",
+  "verification": [
+   "none"
+  ],
+  "notes": "Skipped as intractable: mixed-tableau running key or one-time pad, no crib. Reopens with the FBI case file, Kahn's source file or the prayer book."
+ }
+}

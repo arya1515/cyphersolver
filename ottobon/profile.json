@@ -1,0 +1,68 @@
+{
+ "schema_version": 1,
+ "target": "ottobon",
+ "title": "Doge and Senate (subscribed Marco Ottobon) to Giovanni Mocenigo, 27 April 1589, BNE Mss/994 ff. 34-38",
+ "documents": [
+  {
+   "id": "ff35-38",
+   "shelfmark": "BNE Mss/994 ff. 34-38 (DECODE R2252)",
+   "date": "27 Apr 1589",
+   "year": 1589,
+   "country": "Venice",
+   "route": "Venice -> Giovanni Mocenigo, ambassador in France",
+   "language": "Italian",
+   "pages": 7,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["none"], "source": "Valle de la Cerda's solution is lost; the register copy (ASVe Senato Secreta 1589) was not consulted."},
+   "length": {"tokens": 1528, "distinct": 196, "unit": "code groups", "measured": true, "file": "ct_all.txt"},
+   "transcription": {
+    "by": "llm from images",
+    "source": "BNE Digital viewer images (about 130 dpi) downloaded by Daniel",
+    "image_quality": "poor",
+    "notes": "First pass, about 70 % reliable per token; confusions h20/h50/h52/h22, 1/7, 2/9, 3/5."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "nomenclator", "syllabic"],
+  "summary": "Venetian letter-plus-figure nomenclator of the Zifra Prima type: base letters a c d f g h with figures 1-99 for letters, syllables and words mixed.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {"width": "1-2", "separation": "spaces"},
+  "distinct_symbols": 196,
+  "diacritics": {"used": false},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": "unknown", "unread_groups": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Zifra Prima sheets DECODE R1789/R1790 (ASVe CX Cifre b. 4 r. 16 ff. 64, 79) identified from Tomokiyo's description, not obtained",
+  "notes": "Composition inferred from statistics (IC 0.0135, figures on every base letter, not N.11); nothing decoded."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "where": "Valle de la Cerda read it c. 1589 but the solution is lost", "found": "not found", "used": false},
+  "inputs": ["images", "cleartext context"],
+  "attack": "ciphertext-only",
+  "human_role": "Downloaded the BNE viewer images behind the Cloudflare check.",
+  "tools": ["cutpage.py, cutmanual.py (line crops)", "solve_letters.py (5-gram Italian annealer)", "solve_units.py (letter/syllable/wildcard annealer)", "matched synthetic controls"],
+  "models": ["claude-fable-5-1"],
+  "sessions": 3,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {"date": "2026-09-16", "kind": "access", "what": "BNE and DECODE image routes tried by script; Cloudflare Turnstile and DECODE login block them.", "result": "failed"},
+  {"date": "2026-09-16", "kind": "literature search", "what": "Catalogue, people, Venetian zifra granda syllabary (Bonavoglia) recorded as a candidate key.", "result": "partial"},
+  {"date": "2026-09-16", "kind": "access", "what": "Daniel downloaded the viewer images.", "result": "worked"},
+  {"date": "2026-09-16", "kind": "transcription", "what": "All seven cipher pages transcribed at first pass, 1,528 tokens; clear passages read.", "result": "partial"},
+  {"date": "2026-09-16", "kind": "statistics", "what": "Figure distribution rules out N.11 and matches the 1577-78 Zifra Prima type.", "result": "worked"},
+  {"date": "2026-09-16", "kind": "control", "what": "Letter and letter-plus-wildcard annealers on matched synthetic nomenclators recover 0-9 % of letters.", "result": "failed"},
+  {"date": "2026-09-16", "kind": "solver", "what": "Same annealers on the target give vowel or syllable soup, no separation from shuffles.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": ["matched control"],
+  "notes": "Routes: key sheets DECODE R1789/R1790, register copy in ASVe Senato Secreta 1589, or a 300-dpi scan."
+ }
+}

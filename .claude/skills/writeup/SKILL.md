@@ -86,6 +86,9 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
 - `docs/index.html`: a new `<li>` at the top of the first `<ul class="findings">` under Recent findings:
   `<li><b>Who to whom, date</b> &mdash; <span class="fnd">outcome in one line</span> … <a href="<slug>.html">write-up</a></li>`.
   The builder dates it and folds the list.
+- `<folder>/profile.json`: run the `/profile <folder>` skill. It records the cipher parameters, the challenge
+  conditions, the solution steps and the outcome in fixed fields for the LLM-performance paper.
+  `python docs/_check_profile.py <folder>` must print `result: valid`.
 - `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in
   "The short version" (items, read in full, in long stretches, to a solver, to a sibling or key).
 

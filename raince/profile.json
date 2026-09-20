@@ -1,0 +1,159 @@
+{
+ "schema_version": 1,
+ "target": "raince",
+ "title": "Nicolas Raince to Montmorency, Rome, 13 May and 20 Nov 1526, BnF fr. 2984 pp. 29-31 and p. 105",
+ "documents": [
+  {
+   "id": "residue1526",
+   "shelfmark": "BnF fr. 2984 pp. 29-31 (no. 7) and p. 105 (no. 24)",
+   "date": "13 May 1526; 20 Nov 1526",
+   "year": 1526,
+   "country": "France",
+   "route": "Rome -> Montmorency",
+   "language": "French",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Later gloss on the first c. 13 lines of p. 29 and c. 12 lines of p. 105; the rest unread anywhere found",
+    "partial": true
+   },
+   "length": {
+    "tokens": 5629,
+    "distinct": 70,
+    "unit": "symbols",
+    "measured": false,
+    "file": "raince_cipher.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "Gallica microfilm btv1b90598430; connected-component segmentation clustered to 70 classes, then hand-read glyph by glyph on numbered-token images",
+    "image_quality": "poor",
+    "notes": "Counted by splitting raince_cipher.txt on ';' (the --measure tool reads each semicolon line as one token); distinct = 70 clusters, not true glyph types. 106 lines of about 50 glyphs."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Monoalphabetic substitution in graphic signs with homophones for a e i o r u, three nulls and three word-signs (con, l'empereur, le pape).",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 4,
+   "max_per_consonant": 3,
+   "per_letter": {
+    "a": 4,
+    "e": 3,
+    "i": 4,
+    "o": 2,
+    "r": 3,
+    "u/v": 4,
+    "p": 2
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 3,
+   "kinds": [
+    "word parts",
+    "titles"
+   ],
+   "unread_groups": 1
+  },
+  "nulls": {
+   "present": true,
+   "count": 3
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Tomokiyo's published 1526 key (same key serves fr. 3040 f. 21) used directly; his 1529 key is a different key",
+  "notes": "One glyph (bold stem with two crossbars, ten occurrences at clause boundaries) is in no published table."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Key published by Tomokiyo 2020 without plaintext; partial glosses on the leaves; other letters of the volume read by Mignet 1886 and Bourrilly 1901",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "cleartext context"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "seg2.py (segmentation, clustering)",
+   "solve3.py, solve140.py (shape-constrained hill-climb)",
+   "period-French 6-gram LM (lmns.py)",
+   "htr2.py classifier",
+   "decode2.py beam",
+   "bandsi.py numbered-token images"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "Tomokiyo's keys, DECODE records, Mignet 1886 and Bourrilly 1901 located; unread residue isolated to pp. 29-31 and p. 105.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "key from source",
+   "what": "Tomokiyo's key table read by eye; l, m, n shifted one column.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "solver",
+   "what": "Blind cluster-to-letter solver in session 1 collapses to a degenerate map.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "key from source",
+   "what": "Key re-measured programmatically off the image; control line resolves glyph for glyph.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "solver",
+   "what": "Shape-constrained hill-climb over 70/140 clusters with a 6-gram LM gives draft5, about 86 % of letters right.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "86 of 106 lines read glyph by glyph against numbered-token images; 20 lines left with a machine decode only.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "86 of about 106 lines hand-read (reading.txt marks H/M lines, not the H/C/M/I grades). Limit is microfilm resolution and segmentation."
+ }
+}

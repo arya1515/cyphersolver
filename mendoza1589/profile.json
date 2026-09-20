@@ -1,0 +1,181 @@
+{
+ "schema_version": 1,
+ "target": "mendoza1589",
+ "title": "Philip II to Bernardino de Mendoza, San Lorenzo, 7 September 1589, the two letters of BnF fr. 3641 (ff. 10/14 and 12/76)",
+ "documents": [
+  {
+   "id": "A_f10",
+   "shelfmark": "BnF fr. 3641 f. 10 (address f. 11); decipherer's copy f. 14",
+   "date": "7 Sep 1589",
+   "year": 1589,
+   "country": "Spain",
+   "route": "San Lorenzo -> Paris",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "1589 decipherer's fair copy, f. 14, with ten nomenclator groups left blank",
+    "partial": true
+   },
+   "length": {
+    "tokens": 317,
+    "distinct": 105,
+    "unit": "mixed",
+    "measured": true,
+    "file": "f10_cipher.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF native-resolution images (btv1b52508089f)",
+    "image_quality": "good",
+    "notes": "Measured with the clear heading and subscription lines skipped; the count still includes 11 '|' line-end marks."
+   }
+  },
+  {
+   "id": "B_f12",
+   "shelfmark": "BnF fr. 3641 f. 12 (address f. 13); decipherer's copy f. 76",
+   "date": "7 Sep 1589",
+   "year": 1589,
+   "country": "Spain",
+   "route": "San Lorenzo -> Paris",
+   "language": "Spanish",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "1589 decipherer's fair copy, f. 76 (miscatalogued by Omont), with fourteen groups left blank",
+    "partial": true
+   },
+   "length": {
+    "tokens": 505,
+    "distinct": 160,
+    "unit": "mixed",
+    "measured": true,
+    "file": "f12_cipher.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF native-resolution images",
+    "image_quality": "good",
+    "notes": "Measured with the first clear lines skipped; the count still includes 19 '|' marks, some clear words of line 3 and 16 groups struck by the encipherer."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "syllabic",
+   "nomenclator",
+   "homophonic"
+  ],
+  "summary": "Philip II's general cipher Cg.13: figures for letters and syllables in rows of five, letter marks for endings, and three-letter lowercase code words for a nomenclator.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Marks after a group add n, s or r; a bar over a group doubles the consonant; a small stroke inserts r."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": 14
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "doubled_letters": "bar over the group",
+  "sibling_key": "Tomokiyo's published fragment of the Cg.13 table and Phelippes's interlinear decipherment of f. 5 (same cipher); both used to confirm values.",
+  "notes": "Some 70 syllables, five ending marks and about 50 nomenclator groups rebuilt in key_cg13_partial.tsv."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "The 1589 decipherer's copies in the same volume, ff. 14 and 76",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "known plaintext",
+   "published key"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "access",
+   "what": "Gallica native images of ff. 10-15 and 76-77 fetched under throttling.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "Both cipher originals and both decipherer's copies transcribed.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "The 'second undeciphered letter' (f. 14) identified as the decipherer's copy of f. 10; f. 76 as that of f. 12.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "Pairs aligned group by group; partial Cg.13 table rebuilt, consistent with Tomokiyo's fragment at all eleven overlaps.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "sibling key",
+   "what": "Phelippes's interlinear f. 5 confirms syllable values and adds five code words.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "Cross-reading the letters fills groups the decipherers left blank (pur, mes, san, dun, tam) and corrects two copyist errors; fourteen groups still open.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Additions beyond the 1589 copies: several nomenclator readings and two copyist corrections; asterisked proposals unverified without the Simancas table."
+ }
+}

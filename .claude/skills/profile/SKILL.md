@@ -1,0 +1,56 @@
+---
+name: profile
+description: Create or update a target's profile.json, the fixed-field record of the cipher system, the ciphertexts, what the model was given, the solution steps and the outcome, used for the LLM-performance paper with George Lasry. Use when starting a new target, after each solution step, when a target is finished (the writeup skill calls it), when `docs/_check_profile.py --audit` lists a target as missing, or when the user says "profile it". Argument is the target's folder name, e.g. /profile toledo1565.
+argument-hint: <folder>
+---
+
+# Profile a target
+
+Target: `$ARGUMENTS`. The file is `<folder>/profile.json`, shaped by `profile.schema.json` at the repository
+root. Read the schema's descriptions before filling a field you have not filled before. Worked examples:
+`toledo1565/profile.json` (read, crib attack), `bordeaux/profile.json` (read with an archive key after a failed
+solver), `orpo1942/profile.json` (not read, two documents).
+
+The profile is data for a paper on how well LLMs attack historical ciphers. Every field must be something a
+reader could check against the folder. Rules:
+
+1. **Source every value from the folder.** Read `NOTES.md`, the key files, the ciphertext and transcription files,
+   and `git log --format='%ad %s %(trailers:key=Co-Authored-By,valueonly)' --date=short -- <folder>/` for dates,
+   sessions and model ids. Do not fill a field from general knowledge of the cipher.
+2. **Measure counts, do not copy them.** Run
+   `python docs/_check_profile.py --measure <folder>/<file>` with `--digits`, `--width N`, `--letters` or
+   `--drop-first` as the file needs, and put the result in `documents[].length` with `"measured": true` and
+   `"file"`. If the measured count differs from the NOTES, keep the measured one and say why in
+   `transcription.notes`. A count taken from NOTES or a source gets `"measured": false`.
+3. **Write "unknown" rather than guess.** Any field may be `"unknown"`. A guessed value is worse than a gap,
+   because the analysis cannot tell them apart. Required fields are never omitted.
+4. **One document entry per ciphertext unit** (a letter, a message, or a set under one key that was attacked as
+   one). Documents that the project never had in hand do not get an entry.
+5. **Prior solution is the contamination field.** Record whether a reading existed anywhere before this project
+   read it (archive decipherment, print, online), when it was found relative to the attempt, and whether the
+   reading used it. Check NOTES' prior-work section and the README row.
+6. **Solution steps in order, failures included.** One step per distinct move: access, transcription,
+   statistics, hypothesis, crib, solver, control, sibling key, key from source, prediction, reading,
+   verification, literature search. Dates where the notes or git give them.
+7. **Outcome** uses one fixed class. `fraction_read` is the share of enciphered tokens given a value; count it
+   from the reading file when there is one, otherwise "unknown". `grades` counts H/C/M/I readings only when the
+   reading marks them.
+
+Keep `system.summary` to one sentence. Put prose in the `notes` fields, and keep those short: NOTES.md stays
+the narrative.
+
+## While a target is in progress
+
+Create the profile on the first session with what is known (documents, system as far as established,
+conditions). Append a solution step when each move ends, whether it worked or not. That record is the one the
+paper needs, and it cannot be rebuilt accurately afterwards.
+
+## Check
+
+```
+python docs/_check_profile.py <folder>
+```
+
+It must print `result: valid`. Unknown fields are listed as gaps and are allowed. Then
+`python docs/_export_profiles.py` should include the target without a skip line. Stage `<folder>/profile.json`
+by explicit path.

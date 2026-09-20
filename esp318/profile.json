@@ -1,0 +1,278 @@
+{
+ "schema_version": 1,
+ "target": "esp318",
+ "title": "BnF Espagnol 318, the five ciphered letters of the Catholic Monarchs' correspondence, 1497-1504 (catalogue item 9)",
+ "documents": [
+  {
+   "id": "no5",
+   "shelfmark": "BnF Espagnol 318 no. 5, ff. 5-6v",
+   "date": "11 Jan 1497",
+   "year": 1497,
+   "country": "Naples",
+   "route": "San Germano -> the Catholic Monarchs",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Parisi, SSMD n.s. IV (2020) 157-177",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica ark btv1b52503046q",
+    "image_quality": "good",
+    "notes": "Only nomenclator groups checked against Parisi on the leaf."
+   }
+  },
+  {
+   "id": "no92",
+   "shelfmark": "BnF Espagnol 318 no. 92, f. 116r-v",
+   "date": "17 Aug 1500",
+   "year": 1500,
+   "country": "Spain",
+   "route": "Gonzalo Fernández de Córdoba -> Lorenzo Suárez",
+   "language": "Spanish",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial decipherment by a later hand between the lines of f. 116r",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica full images; ct92_glosses.txt, ct92_specimen.txt",
+    "image_quality": "good",
+    "notes": "Only glossed groups and a specimen line transcribed."
+   }
+  },
+  {
+   "id": "no93",
+   "shelfmark": "BnF Espagnol 318 no. 93, f. 118r-v",
+   "date": "24 Feb 1504",
+   "year": 1504,
+   "country": "Spain",
+   "route": "Venice -> the Catholic Monarchs",
+   "language": "Spanish",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 1016,
+    "distinct": 40,
+    "unit": "symbols",
+    "measured": true,
+    "file": "ct93_eye.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "f. 118r lines 1-21 sign by sign; segmentation of the page gives 910 glyphs on 33 lines",
+    "image_quality": "good",
+    "notes": "Transcribed as a character stream in which the CVC code groups are split into letter signs; covers lines 1-21 of f. 118r only."
+   }
+  },
+  {
+   "id": "no94",
+   "shelfmark": "BnF Espagnol 318 no. 94, ff. 120r-121v",
+   "date": "27 Apr 1503",
+   "year": 1503,
+   "country": "Spain",
+   "route": "Messina -> Ferdinand",
+   "language": "Spanish",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica full images",
+    "image_quality": "good",
+    "notes": "Not transcribed; code groups sampled only."
+   }
+  },
+  {
+   "id": "no95",
+   "shelfmark": "BnF Espagnol 318 no. 95, f. 122r-v",
+   "date": "8 Jan 1497",
+   "year": 1497,
+   "country": "Spain",
+   "route": "unknown",
+   "language": "Spanish",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Lasry 2022 reconstructed the alphabet (key image on cryptiana); no plaintext published"
+   },
+   "length": {
+    "tokens": 963,
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Segmentation and Ward clustering of f. 122r (glyphs.py, cluster.py)",
+    "image_quality": "fair",
+    "notes": "963 glyphs on 31 lines of f. 122r (NOTES); f. 122v (five lines) not done. Touching signs defeat segmentation for about a third."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Secretariat ciphers of Ferdinand: homophonic sign alphabet interleaved with three-letter CVC nomenclator groups, a different key per letter.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 683,
+   "kinds": [
+    "common words",
+    "names",
+    "titles"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Escrivà no. 1 (no. 5), Cifra general de los RRCC (no. 92, Galende Díaz 1994), Gran cifra 1501-04 (Bergenroth, suspected for nos. 93-94, not obtained).",
+  "notes": "Five letters under at least four keys. entries 683 = Cifra general code groups (plus 21 personal symbols); no. 95 max 3 signs per letter (Lasry)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "No. 5 printed by Parisi 2020; no. 95 key by Lasry 2022; no. 92 key printed by Galende Díaz 1994 and partial interlinear gloss; nos. 93-94 none",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "known plaintext"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "seg.py, glyphs.py (segmentation)",
+   "cluster.py, montage.py, assign95.py (Ward clustering and labelling)",
+   "localseg2.py, viterbi95.py, hybrid95.py (template matching and beam search)",
+   "lm.py (Spanish 5-gram)",
+   "linedp95.py (DP tiling)",
+   "band95.py",
+   "solve93.py",
+   "decode.py"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "access",
+   "what": "Mapped the five ciphered letters in the volume from the manifest and notice (catalogue listed four).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "No. 5 found printed by Parisi 2020; no. 95 key found in Lasry/Tomokiyo.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "key from source",
+   "what": "No. 92 matched to the Cifra general (Galende Díaz 1994) against eight interlinear glosses, no misses; key transcribed (683 groups).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "No. 92 specimen line decoded: 'y tiempo, por estar en tanto'.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "statistics",
+   "what": "No. 93 f. 118r segmented and clustered: sign alphabet plus CVC groups; code initials point to the Gran cifra.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "solver",
+   "what": "No. 93 as plain homophonic letter stream, annealed against Spanish 5-grams.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "No. 95 f. 122r segmented and Ward-clustered, clusters labelled from Lasry's key (64 % clean clusters).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "No. 95 hybrid decode checked by eye: franceses, Francia, que puedan, muy grandes cosas; about two thirds of signs; two Lasry signs corrected.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "Band-clipped segmentation and DP template tiling for no. 95; no gain beyond the same two thirds.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms"
+  ],
+  "notes": "No. 5 already solved; no. 92 keyed, text not transcribed; no. 95 about two thirds; nos. 93-94 unread, blocked on BNE MSS 20.211/52."
+ }
+}

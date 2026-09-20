@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "target": "zhongshan",
+ "title": "Telegrams from the sunken gunboat Zhongshan (c.1938)",
+ "documents": [
+  {
+   "id": "published-fragment",
+   "shelfmark": "unknown (Zhongshan Warship Museum holdings; fragment via Tomokiyo)",
+   "year": 1938,
+   "country": "China",
+   "language": "Chinese",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "The museum reported 352 of 891 read by 2009; nothing published."
+   },
+   "length": {
+    "tokens": 7,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo's catalogue entry: opening 7115 6752 7022 0735 1378 and closing 7456 0582",
+    "image_quality": "no images",
+    "notes": "Only the preamble and the date groups are published; they are in the standard telegraph code."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "He Mi, a separately compiled Nationalist codebook, named in a preamble written in the standard Chinese telegraph code.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "4",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "sibling_key": "Standard Chinese telegraph code (sunyatsen/cn.csv) used for the preamble only",
+  "notes": "Codebook order differs from the standard code in ways no digit permutation produces (per Tomokiyo on sibling Qing Mi)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Tomokiyo read the preamble and date; the museum read 352 of 891 telegrams, unpublished",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "standard telegraph code table (sunyatsen/cn.csv)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Looked for the telegram corpus; none is online.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "verification",
+   "what": "Preamble and closing decoded with the standard code: 'Minister Chen, He Mi' and the 21st, 11am-1pm.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "He Mi as the standard code through a condenser (the Sun Yat-sen route).",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked at the source: a bespoke codebook needs the unpublished 891 telegrams."
+ }
+}

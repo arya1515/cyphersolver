@@ -1,0 +1,147 @@
+{
+ "schema_version": 1,
+ "target": "ormonde",
+ "title": "Maltravers to Ormonde, cipher passages of 13 Sept 1634 and 22 Jan 1634/5 (HMC Ormonde I, pp. 28-29)",
+ "documents": [
+  {
+   "id": "letters1634-35",
+   "shelfmark": "Kilkenny Castle (Ormonde MSS), printed in HMC Calendar of the MSS of the Marquess of Ormonde, vol. I (1895), pp. 28-29",
+   "date": "13 Sept 1634; 22 Jan 1634/5",
+   "year": 1634,
+   "country": "England",
+   "route": "Dorking and Whitehall -> Ormond in Ireland",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No key or decipherment in the HMC volume or its New Series; Tomokiyo lists the letters as unsolved."
+   },
+   "length": {
+    "tokens": 59,
+    "distinct": 39,
+    "unit": "mixed",
+    "measured": false,
+    "file": "ciphertext.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "HMC Ormonde I (1895), IA calmarqormonde01greauoft, OCR checked against page scans p28.jpg, p29.jpg",
+    "image_quality": "good",
+    "notes": "--measure --digits on ciphertext.txt gives 61 tokens / 40 distinct because it also counts figures in the clear/header text; the cipher figures themselves are 59 (39 distinct) as in NOTES. Two letters under one key attacked as one set."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Regular block alphabet (19 consonants three consecutive figures each from 7, vowels from 64), nulls 91-111 and a numbered nomenclator from 112, inline in clear English.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "commas"
+  },
+  "distinct_symbols": 39,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_consonant": 3,
+   "max_per_vowel": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 9,
+   "kinds": [
+    "names",
+    "common words",
+    "titles"
+   ],
+   "unread_groups": 2
+  },
+  "nulls": {
+   "present": true,
+   "count": 9
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "written with consecutive figures of the letter's block (49 50 = tt, 28 29 = ll)",
+  "sibling_key": "Tomokiyo's early Stuart Wentworth ciphers show the same regular type; none is this key and none was used",
+  "notes": "Vowel block sizes cannot be fixed from the text; 1-6 unassigned. 185 and 149 (persons) unidentified; 26 is a misfit in 'angry'."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists as unsolved; no key or decipherment in HMC",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "analyze.py (structure, regular-grid scan by English quadgram score)",
+   "find_cipher_runs.py"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "access",
+   "what": "Letters and page scans taken from the HMC Ormonde I volume on the Internet Archive; figures checked against the scans.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Ranges separated: 91-111 nulls at run edges, 112+ standalone codes, below 91 letters; doubled letters on consecutive figures.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "crib",
+   "what": "'letters', 'councellor', 'Crosby', 'a', 'angry' placed from the clear context.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Regular grid of three figures per consonant from 7; exhaustive scan of 42 regular grids ranks it first.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "reading",
+   "what": "All spelled words read; nomenclator codes glossed from context.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "verification",
+   "what": "Nomenclator checked against Wentworth's dispatches in Knowler's Strafforde's Letters (1739): seven of nine codes fixed.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Two person-codes (185, 149) in one clause unidentified; vowel block boundaries not fixable."
+ }
+}

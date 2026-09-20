@@ -1,0 +1,66 @@
+{
+ "schema_version": 1,
+ "target": "geertruidenberg",
+ "title": "Torcy to the plenipotentiaries at Geertruidenberg (3 Apr 1710) and Villars to Polignac (1 Jun 1710), BL Add MS 61575",
+ "documents": [
+  {
+   "id": "torcy",
+   "shelfmark": "BL Add MS 61575 ff. 38-41 (DECODE R8755)",
+   "date": "3 Apr 1710",
+   "year": 1710,
+   "country": "France",
+   "language": "unknown",
+   "pages": 5,
+   "cleartext_in_document": "unknown",
+   "plaintext": {"location": ["none"], "source": "Endorsed 'M Blencow cannot decypher them'; no decipherment known"},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "DECODE", "source": "DECODE R8755 transcription behind login; Tomokiyo's file is a dead link", "image_quality": "no images", "notes": "Only high-frequency groups known from Tomokiyo (groups to at least 821)."}
+  },
+  {
+   "id": "villars",
+   "shelfmark": "BL Add MS 61575 f. 44 (DECODE R8756)",
+   "date": "1 Jun 1710",
+   "year": 1710,
+   "country": "France",
+   "language": "unknown",
+   "pages": 2,
+   "cleartext_in_document": "unknown",
+   "plaintext": {"location": ["none"]},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "DECODE", "source": "DECODE R8756, behind login", "image_quality": "no images"}
+  }
+ ],
+ "system": {
+  "types": ["code"],
+  "summary": "Numeric codes (Torcy's with groups to at least 821); Tomokiyo says the two letters use different ciphers.",
+  "symbol_kind": "digits",
+  "digit_groups": {"width": "unknown", "separation": "unknown"},
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "sibling_key": "Suggested, not tried: 1702 Usson code and Tomokiyo's item 11B Geertruidenberg-period code",
+  "notes": "Blocked at the ciphertext; design is a guess in NOTES."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "found": "not found", "used": false},
+  "inputs": [],
+  "attack": "none",
+  "human_role": "DECODE registration or email to Tomokiyo left to Daniel",
+  "tools": [],
+  "models": ["claude-fable-5-1"],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {"date": "2026-09-16", "kind": "access", "what": "Sought the ciphertext: Tomokiyo's files 404, DECODE images need login (thumbnail only), BL volume not digitised.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "offline only",
+  "verification": ["none"],
+  "notes": "Nothing attempted; needs the DECODE transcription or the BL images."
+ }
+}

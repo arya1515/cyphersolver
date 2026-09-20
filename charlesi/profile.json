@@ -1,0 +1,157 @@
+{
+ "schema_version": 1,
+ "target": "charlesi",
+ "title": "Charles I in the Isle of Wight, the two unread cipher letters of 22 May and 1 August 1648",
+ "documents": [
+  {
+   "id": "1648-05-22",
+   "shelfmark": "Printed in John Albin, History of the Isle of Wight (1795) p. 237",
+   "date": "22 May 1648",
+   "year": 1648,
+   "country": "England",
+   "route": "Carisbrooke Castle -> Edward Worsley",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 112,
+    "distinct": 76,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo (cryptiana charlesii.htm), checked group by group against Albin 1795 leaf 258",
+    "corrections": 0,
+    "image_quality": "good",
+    "notes": "Codes held in letters.py (Python), not measurable with --measure; counts from NOTES."
+   }
+  },
+  {
+   "id": "1648-08-01",
+   "shelfmark": "Printed in Original Letters",
+   "date": "1 Aug 1648",
+   "year": 1648,
+   "country": "England",
+   "route": "Carisbrooke Castle -> Prince Charles",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 88,
+    "distinct": 66,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo (cryptiana charlesii.htm)",
+    "image_quality": "unknown",
+    "notes": "Counts from NOTES; codes held in letters.py."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Numeric nomenclator of unknown key; the 22 May cipher gives consecutive numbers as homophones of one letter and uses 1-97 and 204-416 only.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "unknown"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Published Biermann/Bosbach/Brown Sept-Nov 1648 nomenclator and the Titus cipher (from Hillier 1852) both tested and excluded.",
+  "notes": "395 is a man's name (King's own postscript to the 16 May letter). A 7-group near-repeat (+-1) in the 22 May letter is not chance (p < 1/20,000)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Solvers in 2021 read four other letters only; Albin calls these 'totally unintelligible'",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "images",
+   "sibling key",
+   "cleartext context"
+  ],
+  "attack": "sibling key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "test_key.py (key application, English bigram null model)",
+   "titus_vs_worsley.py",
+   "hillier.py",
+   "structure.py",
+   "nearrepeat.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "sibling key",
+   "what": "Applied the published Sept-Nov 1648 nomenclator with the two solved letters as controls: 43% and 48% uninterpretable, language z-scores inside the null.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "transcription",
+   "what": "Checked the 22 May groups against Albin 1795; found the 16 May letter with one cipher group, 395 = a man's name.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "sibling key",
+   "what": "Compared repertoires with the Titus cipher harvested from Hillier 1852: bands 98-203 and above 416 empty in Worsley (p = 1.4e-10).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Hapax rates 43% and 59%; the 7-group near-repeat is significant, so consecutive numbers are homophones.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "grades": "unknown",
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Two candidate keys excluded; the letters are too short and non-repeating for ciphertext-only analysis."
+ }
+}

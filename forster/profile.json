@@ -1,0 +1,135 @@
+{
+ "schema_version": 1,
+ "target": "forster",
+ "title": "Sir Richard Forster, 13 May 1644, Archives départementales du Val-d'Oise 68.H.8, 3e liasse",
+ "documents": [
+  {
+   "id": "13may1644",
+   "shelfmark": "Archives départementales du Val-d'Oise 68.H.8, 3e liasse",
+   "date": "13 May 1644",
+   "year": 1644,
+   "country": "unknown",
+   "route": "unknown",
+   "language": "French",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "Key and reading by R. Pitt, GitHub robertpitt/forster-cipher (14 Sept 2026); earlier readings by George Lasry and Norbert Biermann (unpublished, per Britland)",
+    "partial": false
+   },
+   "length": {
+    "tokens": 207,
+    "distinct": 34,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo's blog transcription (21 Sept 2021), from Britland's typeset text; identical to Pitt's input",
+    "image_quality": "no images",
+    "notes": "_check_profile --measure on ciphertext.txt gives 229 tokens / 53 distinct because the file keeps the clear words inline; the 207 cipher tokens and 34 symbols are the NOTES count. Four tokens conflict with the reading (slips)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Mixed homophonic alphabet of 18 numbers and 16 letters, 1-3 signs per plaintext letter, comma-separated word groups, no nomenclator seen.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {
+   "width": "1-2",
+   "separation": "dots"
+  },
+  "distinct_symbols": 34,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 3
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "random",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "Ormonde and Boswell Stuart keys expected by the tracker; they do not apply",
+  "notes": "Commas mark word or word-pair boundaries; t has three signs, u only one."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Pitt's GitHub key (Sept 2026); Lasry and Biermann earlier",
+   "found": "unknown",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "key.py (key application)",
+   "permutation control with French 5-gram model (solve.py, solve2.py)",
+   "blind homophonic solver with matched controls (control134.py)"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Found the passage already read by Lasry, Biermann and Pitt (key public on GitHub).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "207 tokens, 34 symbols, IC 0.047; not a regular Stuart key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "reading",
+   "what": "Applied Pitt's key; four single-token slips found.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "Permutation control of Pitt's key against a French 5-gram model, z = 7.5 and 8.8.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Blind recovery from ciphertext using word boundaries: 31 of 34 symbols, with six matched controls.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "matched control"
+  ],
+  "notes": "Nothing new about the text; the addition is the control and the blind recovery."
+ }
+}

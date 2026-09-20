@@ -1,0 +1,139 @@
+{
+ "schema_version": 1,
+ "target": "moray",
+ "title": "Regent Moray to John Wood, Edinburgh, 13 July 1568 (BL Add MS 32091 f. 213)",
+ "documents": [
+  {
+   "id": "f213",
+   "shelfmark": "BL Add MS 32091 f. 213",
+   "date": "13 Jul 1568",
+   "year": 1568,
+   "country": "Scotland",
+   "route": "Edinburgh -> London",
+   "language": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Not in Bain's Calendar of Scottish Papers ii; no clear text online."
+   },
+   "length": {
+    "tokens": 134,
+    "distinct": 32,
+    "unit": "symbols",
+    "measured": false,
+    "file": "elizabeth_moray.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo, cryptiana elizabeth.htm (image stewart.jpg returns 404)",
+    "image_quality": "no images",
+    "notes": "Semicolon-separated file the measure tool does not split; counts from NOTES. BL viewer offline, so symbol identities are unchecked."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "32 symbols (x and z families with variants, numbers 10-19, letters) with repeats suggesting a homophonic alphabet; not read, word codes possible.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": 32,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "The Queins Cipher (HMC 6th Report) and the 1569-71 Scottish keys checked; none matches the symbol set.",
+  "notes": "IC 0.0496; 9 hapax. No single symbol behaves as a null or separator."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists it unsolved",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "Scots quadgram and 5-gram models (lm.py, qg.py, ng5.py)",
+   "simulated annealing (solve2.py-solve5.py)",
+   "matched controls (control2.py, control3.py)",
+   "nulltest.py, famtest.py",
+   "crib dragging (cribdrag.py)"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Catalogue of Additions, Bain ii, HMC 6th Report and DECODE searched; letter not in print.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Counts, IC, repeats; 'r 17 10' = the tried and not preferred.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "5-gram Scots annealer reads 5 of 6 matched 134-letter controls.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Homophonic annealing under Scots, English, French and Latin models.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Nulls, separators and merged variant families tested.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Rare symbols as word codes; matched control shows the test has no power.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "crib",
+   "what": "Twenty words and names dragged over 730 placements; none supported.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Undetermined: name-heavy plaintext or word codes; needs the page or a second letter in the cipher."
+ }
+}

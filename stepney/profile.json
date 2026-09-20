@@ -1,0 +1,133 @@
+{
+ "schema_version": 1,
+ "target": "stepney",
+ "title": "George Stepney to the Earl of Manchester, Vienna, 23 March 1702 (Yale OSB MSS fc37; DECODE R2864)",
+ "documents": [
+  {
+   "id": "23mar1702",
+   "shelfmark": "Yale Beinecke OSB MSS fc37, Box 8 folder 40 (DECODE R2864)",
+   "date": "23 Mar 1702",
+   "year": 1702,
+   "country": "England",
+   "route": "Vienna -> Paris",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; HMC 8th Report calendars it 'Partly in cipher' without decipherment."
+   },
+   "length": {
+    "tokens": 24,
+    "distinct": 23,
+    "unit": "code groups",
+    "measured": false,
+    "file": "ciphertext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Yale IIIF images 16601263-16601270",
+    "corrections": 1,
+    "image_quality": "unknown",
+    "notes": "Counted from the file's group list: --measure --digits also picks up dates. Tomokiyo's 412 is 413 in the MS."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "code"
+  ],
+  "summary": "Numeric nomenclator of 2-3 digit groups (30-847) apparently in letter, syllable and word tiers, not the THE=454 key.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2-3",
+   "separation": "dots"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "unread_groups": 23
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "THE=454 Manchester cypher (R2858) tested and ruled out; 'Mr Stepney's cipher' not found.",
+  "notes": "Tier structure inferred from group ranges only."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Not in HMC 8th Report or Court and Society; DECODE Non-decrypted",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "analyze.py (THE=454 partial key and null-rule test)",
+   "yale_iiif.py"
+  ],
+  "models": [
+   "unknown"
+  ],
+  "sessions": "unknown",
+  "first_date": "unknown",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Located the letter at Yale and downloaded all eight IIIF canvases.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the letter and 24 groups; corrected 412 to 413.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "HMC 8th Report, Court and Society, Tomokiyo: no decipherment; Manchester asked for Mr Stepney's cipher in Aug 1701.",
+   "result": "partial"
+  },
+  {
+   "kind": "key from source",
+   "what": "Applied the reconstructed THE=454 key and its null rule.",
+   "result": "ruled out"
+  },
+  {
+   "kind": "statistics",
+   "what": "Group ranges suggest letters/syllables/words tiers; one repeat only.",
+   "result": "partial"
+  },
+  {
+   "kind": "crib",
+   "what": "Context cribs for the two passages; unverifiable with 24 groups.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "offline only",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Key or plaintext likely in TNA SP 105/106 or BL Add MSS 7058-7078, not online."
+ }
+}

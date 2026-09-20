@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "target": "buda1489",
+ "title": "Milanese embassy at Buda, 1489-90: Maffeo da Treviglio's cipher (ASMi Sforzesco 642/650)",
+ "documents": [
+  {
+   "id": "V2831",
+   "shelfmark": "ASMi Sforzesco 650, 1489 no. 8 (Vestigia 2831)",
+   "date": "Bude xxij Novembris 1489",
+   "year": 1489,
+   "country": "Milan",
+   "route": "Buda -> Milan (Ludovico Sforza)",
+   "language": "Italian",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Somogyi 2016 (Verbum 17) printed the decipherment of lines 1-2 only",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Vestigia 3240x4320 images, segmented into strips and crops",
+    "image_quality": "fair",
+    "notes": "Only p. 1 ll. 1-10 (564 signs) were transcribed to tokens; the rest was read by eye from crops, so no full sign count exists. Lines 1-2 reproduce Somogyi exactly. Page 4 has two cipher lines, then a clear postscript."
+   }
+  },
+  {
+   "id": "R1098",
+   "shelfmark": "ASMi Sforzesco 642/1,4 (DECODE R1098)",
+   "date": "12 Jan 1490",
+   "year": 1490,
+   "country": "Milan",
+   "route": "Buda -> Milan (Ludovico Sforza)",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; the clear page 2 restates part of the cipher block"
+   },
+   "length": {
+    "tokens": 469,
+    "unit": "symbols",
+    "measured": false,
+    "file": "trans/r1098p1.csv"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images fetched by Daniel (git-ignored)",
+    "image_quality": "fair",
+    "notes": "Count from NOTES (agent's 469 signs); the CSV mixes clear and cipher rows, so not measured. Agent pass conflated z/3, d/ð, s/ſ, u/v; second pass by eye on raw crops."
+   }
+  },
+  {
+   "id": "V267",
+   "shelfmark": "ASMi Sforzesco (Vestigia 267; clear extract 268)",
+   "date": "2 Apr 1490",
+   "year": 1490,
+   "country": "Milan",
+   "route": "Buda -> Milan",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "Contemporary clear extract, Vestigia 268",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false,
+    "file": "trans/v267.csv"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Vestigia images",
+    "image_quality": "fair",
+    "notes": "Calibration letter: aligned with its clear extract to pin glyphs to Somogyi's numbers."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "Italian monoalphabetic-homophonic cipher of letter-like signs, figures and marks, with vowel homophones, nulls, geminate and syllable signs and a small nomenclator.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Superscript a/e/o/u/t/s, macron, stroke and dot turn a base sign into a syllable or another letter (q^e = re, m^a = sa, m-macron = b)."
+  },
+  "homophones": {
+   "used": true,
+   "per_letter": {
+    "n": 5
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 6,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "titles"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": 5
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "special sign",
+  "sibling_key": "none",
+  "notes": "Per Somogyi 2016: 21 letters, 5 nulls, et/in/che signs, 5 geminates, 32 syllable signs, 6 nomenclator entries. Her key is numeric only; glyphs were pinned here via Vestigia 267/268. Unidentified signs remain (q^s+x-bar, a capital-E sign, a wavy null)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Somogyi 2016: key in numeric form and lines 1-2 of the 22 Nov 1489 letter",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "known plaintext"
+  ],
+  "attack": "published key",
+  "human_role": "Fetched the DECODE images behind login.",
+  "tools": [
+   "seg/segment.py (connected-component segmentation)",
+   "seg/strips.py",
+   "align.py",
+   "decode.py",
+   "transcription agents"
+  ],
+  "models": [
+   "claude-fable-5-1",
+   "claude-opus-5"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "Somogyi 2016 key and cipher/clear pairs; Vestigia API and DECODE records located; clear copies found for R1155 and R1147.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "Segmentation and agent transcription of R1098, 267 and 2831 p. 1 strips; several agents lost to the rate limit.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "key from source",
+   "what": "Somogyi's numbers follow first occurrence in 267, so aligning 267 with its clear extract 268 pins glyphs to values; 267 decodes almost verbatim.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "R1098 read in gist, all ten cipher lines.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "R1098 ll. 7-10 restate the letter's clear page 2.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "2831 ll. 1-2 reproduce Somogyi's printed decipherment exactly.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "22 Nov 1489 letter read across all four pages, new sign values gained along the way.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "verification": [
+   "matched control",
+   "independent clear copy",
+   "key confirms"
+  ],
+  "notes": "Readings are in gist in places; a few signs unidentified and stained line ends. 'matched control' refers to Somogyi's printed lines 1-2."
+ }
+}

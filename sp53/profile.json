@@ -1,0 +1,194 @@
+{
+ "schema_version": 1,
+ "target": "sp53",
+ "title": "Mary Queen of Scots papers residue: TNA SP 53/16 nos. 78 and 79 and SP 53/22 f. 52",
+ "documents": [
+  {
+   "id": "no78",
+   "shelfmark": "TNA SP 53/16 no. 78",
+   "year": "unknown",
+   "country": "unknown",
+   "route": "unknown -> Mr Tempest, Paris",
+   "language": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 507,
+    "distinct": 132,
+    "unit": "symbols",
+    "measured": false,
+    "file": "SP53_16_78.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo (cryptiana), glyph-label transcription",
+    "image_quality": "no images",
+    "notes": "Counts from NOTES: the semicolon-separated file does not split under --measure. Clear French lines not transcribed."
+   }
+  },
+  {
+   "id": "no79",
+   "shelfmark": "TNA SP 53/16 no. 79",
+   "year": "unknown",
+   "country": "unknown",
+   "route": "unknown -> Dr Barret, Rheims",
+   "language": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 644,
+    "distinct": 102,
+    "unit": "symbols",
+    "measured": false,
+    "file": "SP53_16_79.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo (cryptiana)",
+    "image_quality": "no images",
+    "notes": "Plus 27 illegible slots; letter suffixes a-f on 21 base labels. Counts from NOTES."
+   }
+  },
+  {
+   "id": "f52",
+   "shelfmark": "TNA SP 53/22 f. 52",
+   "year": "unknown",
+   "country": "unknown",
+   "language": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 84,
+    "distinct": 22,
+    "unit": "symbols",
+    "measured": false,
+    "file": "SP53_22_52.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo, inline in mary.htm",
+    "image_quality": "no images"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Probably symbol ciphers of the Mary-Castelnau class transcribed as glyph labels; design not established.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "SP 53/22 f. 53 (Paris-Rheims numeric key) suggested but not tried; published Mary-Castelnau keys do not apply.",
+  "notes": "Symbol-cipher nature is an inference from Tomokiyo's labelling convention; images would settle it."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists them as undeciphered; web search found nothing",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "blocks2.py (block-key coordinate descent)",
+   "homo.py / homo2.py (homophonic annealing)",
+   "fasthomo.py / fasthomo_w.py / fasthomo_skip.py (numba homophonic pipeline)",
+   "make_control2.py / make_control_nomen.py / make_control_nulls.py"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 3,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Published Mary-Castelnau keys do not apply; Tomokiyo already tried neighbouring keys.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Alphabetical-block letter cipher in English, French, Latin; controls solved.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Unstructured homophonic annealing; matched controls not solved.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Numbers are glyph labels; nos. 78 and 79 share one key, pooled to 1151 tokens.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "Pooled 1151-token controls with the old annealer.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Numba pipeline with reheat reads clean 507- and 1151-token controls and a word-sign control.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "No. 78 and no. 79 under the new pipeline in five languages; pooling scores worse, same-key claim withdrawn.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Nulls-plus-nomenclator control at 507 tokens.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Not homophonic letter ciphers with a modest nomenclator in five languages; heavy nomenclator or nulls remain open. f. 52 below unicity. Needs images and SP 53/22 keys."
+ }
+}

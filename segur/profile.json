@@ -1,0 +1,296 @@
+{
+ "schema_version": 1,
+ "target": "segur",
+ "title": "Henry of Navarre to Ségur, BnF 500 de Colbert 401 ff. 233, 239, 288v, 333, 366 (1585-86)",
+ "documents": [
+  {
+   "id": "f233",
+   "shelfmark": "BnF 500 de Colbert 401 f. 233",
+   "date": "... Oct 1585",
+   "year": 1585,
+   "country": "Navarre",
+   "route": "Henry of Navarre -> Ségur in Germany",
+   "language": "French",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Listed unsolved by Tomokiyo"
+   },
+   "length": {
+    "tokens": 219,
+    "distinct": 78,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_233.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica ark btv1b10035574w, full-resolution IIIF",
+    "image_quality": "good",
+    "notes": "Measured with --digits: letter-written word-signs (pi, na, etc.) excluded; NOTES give 220 tokens including them."
+   }
+  },
+  {
+   "id": "f239",
+   "shelfmark": "BnF 500 de Colbert 401 f. 239",
+   "date": "... Feb 1586",
+   "year": 1586,
+   "country": "Navarre",
+   "route": "Montauban -> Ségur",
+   "language": "French",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 67,
+    "distinct": 46,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_239.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF",
+    "image_quality": "good",
+    "notes": "--digits count; NOTES give 70 tokens including letter-written signs."
+   }
+  },
+  {
+   "id": "f288v",
+   "shelfmark": "BnF 500 de Colbert 401 f. 288v",
+   "date": "1 Apr 1586 (slip attached)",
+   "year": 1586,
+   "country": "Navarre",
+   "route": "Henry of Navarre -> Ségur",
+   "language": "French",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 180,
+    "distinct": 80,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_288.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF, disputed digits re-read at 2x",
+    "image_quality": "good",
+    "notes": "--digits count; NOTES give 196 tokens including letter-written signs."
+   }
+  },
+  {
+   "id": "f333",
+   "shelfmark": "BnF 500 de Colbert 401 f. 333",
+   "date": "10 Jul 1586",
+   "year": 1586,
+   "country": "Navarre",
+   "route": "La Rochelle -> Ségur",
+   "language": "French",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Tomokiyo's key reconstructed from the f. 321 interlinear; no plaintext of f. 333 found"
+   },
+   "length": {
+    "tokens": 108,
+    "distinct": 62,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_333.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF at 2x",
+    "image_quality": "good",
+    "notes": "--digits count; NOTES give 121 tokens."
+   }
+  },
+  {
+   "id": "f366",
+   "shelfmark": "BnF 500 de Colbert 401 f. 366",
+   "date": "[autumn 1586]",
+   "year": 1586,
+   "country": "Navarre",
+   "route": "Henry of Navarre -> Ségur",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 20,
+    "distinct": 18,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_366.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF at 3x",
+    "image_quality": "good",
+    "notes": "--digits count; NOTES give 24 tokens. Found in the sweep; not on Tomokiyo's list."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "Figures 1-53 for letters (two or three homophones, alphabetical), doubles and a null, 54-123 an alphabetical syllabary of fourteen consonants by five vowels, word-signs in letters and a few higher numbers.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 3
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": 1
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "special sign (1 = ée, 2 = ll, square = ss)",
+  "sibling_key": "Tomokiyo's f. 321 key (same design, shifted by eight) used to read f. 333; f. 143 (1583) is another key, not read",
+  "notes": "h has three homophones despite being a consonant; about a dozen letter-written word-signs and three numbers (180, 215?, 900) glossed or open."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Tomokiyo's reconstructed f. 321 key (sibling); no plaintext of ff. 233, 239, 288v",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "sibling key"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "fetch_gallica.py",
+   "solve.py (structured annealer, 5-gram French LM, clear text as context)",
+   "solve_mono.py (design-constrained annealer)",
+   "control.py, eval_control.py (matched controls)",
+   "decode.py"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "access",
+   "what": "Gallica images blocked (transient).",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Gallica IIIF fetched with a browser User-Agent.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "ff. 233, 239, 288v, 143 transcribed from full-resolution images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "statistics",
+   "what": "Frequencies of the upper figures mod 5 show blocks of five: an alphabetical syllabary.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Catherine de Médicis letters under random keys of the same shape; 64-start model 47-90 %, corrected 54-start model 96.6 %.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Structured annealer with the clear French as context recovers the key; syllabary start corrected from 64 to 54 by the reading.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "reading",
+   "what": "Three letters read in substance; word-signs partly glossed.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "sibling key",
+   "what": "f. 333 read with Tomokiyo's f. 321 key; whole volume swept, f. 366 found.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Free annealer on f. 333 alone fails (below unicity); matched control of the same size fails likewise.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Design-constrained annealer re-derives the f. 333 key blind, 93 % of letter tokens; matched alphabetical control 90 %.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "reading",
+   "what": "f. 366 (24 tokens) tried with both keys; two of three lines do not read.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "matched control",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "ff. 233, 239, 288v read in substance; f. 333 read with the sibling key; f. 366 left open; f. 143 (1583) another key, not read."
+ }
+}

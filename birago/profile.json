@@ -1,0 +1,176 @@
+{
+ "schema_version": 1,
+ "target": "birago",
+ "title": "Lodovico Birago to the Duke of Nevers, Saluzzo, 13 Nov 1571, BnF fr. 3251 f. 119 (numeric cipher paragraph)",
+ "documents": [
+  {
+   "id": "f119",
+   "shelfmark": "BnF fr. 3251 f. 119 (Gallica btv1b9060248g, view 120)",
+   "date": "13 Nov 1571",
+   "year": 1571,
+   "country": "France",
+   "route": "Saluzzo -> Duke of Nevers",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 483,
+    "distinct": 18,
+    "unit": "symbols",
+    "measured": true,
+    "file": "ct2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full size (8521 x 5849 px), glyph-level re-transcription at 2-3x",
+    "corrections": 4,
+    "image_quality": "good",
+    "notes": "Tokens are single digits (483); the 18 distinct include marked digits. NOTES also record 15 null letters and 9 wavy signs. Under the best design the digits pair into 228 tokens over 62 symbols. Corrections to Tomokiyo: wavy sign standalone, marks over single digits (two unrecorded), a phantom '12', one missing 1."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Probably two-digit homophonic figures for letters with marked one- or two-digit code groups, a wavy inline word-sign and null letters; not established.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "variable",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": 62,
+  "diacritics": {
+   "used": true,
+   "note": "Bar, dots and cross over single digits appear to mark code groups; wavy sign inline."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 16,
+   "kinds": [
+    "names"
+   ],
+   "unread_groups": 16
+  },
+  "nulls": {
+   "present": true,
+   "count": 15
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Ceppo-Nevers and Nevers-Birago symbol ciphers (1570-72, same volume) and the Nevers 1574 key (fr. 3315): different systems, not applicable.",
+  "notes": "Prefix/suffix variable-length codes, structured homophony and polyphonic single figures excluded against matched controls. 75 pairings satisfy the even-run constraint. Nomenclator kinds are a guess from context; entries = the 16 marked groups."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists it as unsolved; no comments, no GitHub prior art",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "prefix/suffix code scans",
+   "pairing DP",
+   "Italian 5-gram annealer (par.py)",
+   "word-level objective (wordscore.py, anneal2.py)",
+   "polyphonic Viterbi annealer (poly.py)",
+   "syllabic annealer (syll.py)",
+   "matched controls"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Gallica full-size images fetched.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Glyph-level re-transcription corrects Tomokiyo's text.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "hypothesis",
+   "what": "Variable-length prefix and suffix figure codes with null letters, tested against controls.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "hypothesis",
+   "what": "Two-digit letters with marked code groups: 75 pairings, 228 tokens over 62 symbols.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "5-gram annealing up to 120 x 400k restarts and 4M-step slow anneals; fails matched controls at this homophony.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Word-level objective ranks the truth first on controls but the search does not find it; consensus across restarts empty.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "hypothesis",
+   "what": "Structured homophony (offsets, shared digits) collapse rules.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "hypothesis",
+   "what": "Polyphonic single figures (Lucca type), method reads its control 3/3.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Syllabic two-digit alphabet annealer; fails its control, not validated.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "sibling key",
+   "what": "Sweep of all 118 remaining openings of fr. 3251 for a second letter in the figure cipher; Nevers 1574 key checked.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "grades": "unknown",
+  "verification": [
+   "none"
+  ],
+  "notes": "Below the unicity distance of the available models at this homophony; needs a sibling letter, the key or a crib."
+ }
+}

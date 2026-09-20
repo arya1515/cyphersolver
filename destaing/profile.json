@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "target": "destaing",
+ "title": "D'Estaing to Gérard, Fort Royal (Martinique), 30 April 1779, Clements Library, Clinton Papers 64:14",
+ "documents": [
+  {
+   "id": "30apr1779",
+   "shelfmark": "William L. Clements Library, Clinton Papers vol. 64:14",
+   "date": "30 Apr 1779",
+   "year": 1779,
+   "country": "France",
+   "route": "Fort Royal, Martinique -> Philadelphia",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "A deciphered copy may be in AAE, CP États-Unis suppl. t. 1 (not online), or a British decrypt in TNA; not seen"
+   },
+   "length": {
+    "tokens": 217,
+    "distinct": 105,
+    "unit": "code groups",
+    "measured": false,
+    "file": "destaing_cryptiana.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo, cryptiana transcription",
+    "image_quality": "no images",
+    "notes": "Count from NOTES (217 numbers, 105 distinct, max 597). The file mixes cryptiana's prose with the ciphertext, so the tool cannot isolate it: --digits gives 225 (includes dates and numbers in the prose), and skipping lines with words gives 206 (drops a 10-group line ending in clear 'Je me flatte')."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "French numeric code of about 600 elements (letters, syllables, words), two cipher blocks around a clear passage.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 105,
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Luzerne 1781 code (cryptiana) checked: a different, larger code (to 1199). Not usable.",
+  "notes": "distinct_symbols is the NOTES count of distinct groups in the ciphertext; the key size (~600) is inferred from the maximum 597."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Possible deciphered copy in AAE or TNA, not checked",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Counted 217 numbers, 105 distinct, max 597: a ~600-element code.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Doniol iv 130-131 and Meng 1939 checked: cribs for the 9 March letter only; 30 April letter not printed.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "sibling key",
+   "what": "Luzerne 1781 code compared; different code.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Skipped: 217 tokens of a 600-group code with no key material; needs the AAE copy."
+ }
+}

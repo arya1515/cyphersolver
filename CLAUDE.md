@@ -27,6 +27,19 @@ evidence) is the first half of the job. The second half is the write-up, and it 
 If a target is genuinely not finished, or deliberately not written up (found solved by others with nothing added
 here), put `Status: in progress` or `Status: no write-up` in the first forty lines of its `NOTES.md`.
 
+## Every target keeps a profile.json
+
+The project is being written up with George Lasry as a paper on how LLMs perform against historical ciphers.
+The analysis runs on `<folder>/profile.json`, a fixed-field record of the cipher system, the ciphertexts, what
+the model was given, the solution steps and the outcome (`profile.schema.json`; the `/profile` skill).
+
+- On the first session with a target, create its profile with what is known. Write `"unknown"`, never a guess.
+- After each move (transcription, hypothesis, solver run, crib, key found, control), append a solution step,
+  including the ones that fail. This record cannot be rebuilt accurately afterwards.
+- Measure lengths with `python docs/_check_profile.py --measure <file>`; do not copy counts from memory.
+- Record whether a reading already existed anywhere and when it was found: that is the contamination question.
+- `python docs/_check_profile.py <folder>` must print `result: valid`. `_check_writeup.py` requires it too.
+
 ## Working in the shared checkout
 
 - Several sessions share this working tree and switch its branch. Run `git status -sb` before committing; if the

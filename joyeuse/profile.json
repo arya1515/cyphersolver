@@ -1,0 +1,142 @@
+{
+ "schema_version": 1,
+ "target": "joyeuse",
+ "title": "Cardinal de Joyeuse to Villars, Rome, 15 February 1594, BnF 500 de Colbert 33 f. 539",
+ "documents": [
+  {
+   "id": "f539",
+   "shelfmark": "BnF 500 de Colbert 33 f. 539 (Gallica btv1b10033958p canvas 544; DECODE R2281)",
+   "date": "15 Feb 1594",
+   "year": 1594,
+   "country": "France",
+   "route": "Rome -> Rouen",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 358,
+    "distinct": 147,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full-resolution image, glyph-level, single pass",
+    "image_quality": "good",
+    "notes": "--measure on ct_f539.txt gives 369 / 135 because it counts the 11 '|' line markers and normalises some suffixes; NOTES count 358 tokens, 147 distinct used. Several base identities are judgement calls."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "Graphic-sign cipher in three layers: about 80 unmarked homophonic letter signs, about 50 marked syllable signs, and numeric code groups for names.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 147,
+  "diacritics": {
+   "used": true,
+   "note": "Dot, two dots, cross, hash, hat, bar mark a second series of about 48 signs."
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "names"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "sibling_key": "Lasry's f. 555 Senecey key, Tomokiyo's f. 530 alphabet and the Caulet-Joyeuse 1593 key checked: different designs, not applied",
+  "notes": "Structure is a hypothesis from the counts; not confirmed by a reading."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE R2281 non-decrypted; Tomokiyo lists it as undeciphered",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "homophonic simulated annealing (solve.py)",
+   "matched controls (control.py)",
+   "16th-century French 5-gram model"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Identified f. 539 as Gallica canvas 544 and fetched the full-resolution image.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Glyph-level transcription, 358 tokens in three layers.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "sibling key",
+   "what": "Lasry's f. 555 key, f. 530 alphabet and Caulet-Joyeuse 1593 key compared structurally.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Three matched controls of the same design: solver recovers 2-18 %.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Letter-layer anneal on the target, six seeds: unrelated fragments, no agreement.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "literature search",
+   "what": "Sibling letters ff. 535-553 and DECODE R2279-R2281 checked; no key.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Closed against controls; reopens with the key or a second letter in the same cipher."
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "schema_version": 1,
+ "target": "catokwacopa",
+ "title": "The Catokwacopa advertisements, The Standard, 8 and 20 May 1875 (Schmeh Top 50 no. 8)",
+ "documents": [
+  {
+   "id": "ads-1875",
+   "shelfmark": "The Standard, p. 1 col. 2, 8 and 20 May 1875",
+   "date": "8 and 20 May 1875",
+   "year": 1875,
+   "country": "England",
+   "route": "unknown",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Only competing modern blog readings (Bosbach, Estes, Ernst, Krajčovič); no authoritative plaintext."
+   },
+   "length": {
+    "tokens": 441,
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Thomas Ernst's BNA-verified transcription (ads.py)",
+    "image_quality": "unknown",
+    "notes": "Letter totals 222 and 219 from NOTES; the text lives in ads.py (Python), which --measure cannot read, so not measured. The two ads are halves of one text, attacked as one unit."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "transposition"
+  ],
+  "summary": "Each plaintext phrase split into two order-preserving halves, one per advertisement, with letters dropped; nothing substituted.",
+  "symbol_kind": "letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "not applicable",
+  "word_division": "partial",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "The type enum has no 'split with omissions'; transposition is the nearest. Numerals and dashes sit in the same slots in both ads; the pairing of lines beats 100,000 random re-pairings."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Cipherbrain / klausschmeh.net threads 2015-2026: DYING DECLARATION, the Oxford vocabulary, QUI FIT",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published reading"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "mech.py (pairing test, exact costs)",
+   "search.py (open-vocabulary exact-interleaving search)",
+   "names.py (name-frame test)",
+   "latin.py (Latin vocabulary search)"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Permutation test of line-length differences: the line pairing is structural (no random re-pairing in 100,000 comes as close).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "hypothesis",
+   "what": "Positional rule: consonant-initial words begin in the 8 May half, vowel-initial mostly in the 20 May half.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "verification",
+   "what": "Exact omission/misprint costs of every published reading; DYING DECLARATION exact, SIGNED and MASTER PUPIL need misprints.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Open-vocabulary search over 30,000 words, with and without names; new exact readings for lines 18, 21, 14.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "Name-frame test with 1,645 proper nouns: CONINGTON, JOWETT, SHIRLEY and HERTFORD are each the only name that fits.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Latin vocabulary search on line 29 (control: line 17 returns QUI FIT first).",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "matched control",
+   "historical consistency"
+  ],
+  "notes": "Oxford reading right in outline; lines 9/26, 12, 23 and 29 undetermined."
+ }
+}

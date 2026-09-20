@@ -148,6 +148,17 @@ def check_slug(slug):
                 or any(f'{f}/' in str(e.get('status', '')) for f in folders))]
     item(not cat, 'catalogue.json no longer lists the target (read/resolved entries are removed, see the skill)'
          + (': still there as #' + ', #'.join(str(e.get('id')) for e in cat) if cat else ''), warn=True)
+    for folder in sorted(folders):
+        prof = ROOT / folder / 'profile.json'
+        good = False
+        if prof.exists():
+            try:
+                import _check_profile, io, contextlib
+                with contextlib.redirect_stdout(io.StringIO()):
+                    good = _check_profile.check(folder, quiet=True)[0] == 'valid'
+            except Exception:
+                good = False
+        item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
     if mine:
         name = key_words(mine[0]['target'])
         for f in ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md'):

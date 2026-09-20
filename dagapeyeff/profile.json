@@ -1,0 +1,139 @@
+{
+ "schema_version": 1,
+ "target": "dagapeyeff",
+ "title": "D'Agapeyeff challenge cipher, Codes and Ciphers (OUP, 1939) p. 158",
+ "documents": [
+  {
+   "id": "challenge",
+   "shelfmark": "D'Agapeyeff, Codes and Ciphers (1939, first edition) p. 158",
+   "year": 1939,
+   "country": "United Kingdom",
+   "language": "unknown",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "None published; the author reportedly forgot how he enciphered it"
+   },
+   "length": {
+    "tokens": 196,
+    "distinct": 18,
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Printed text (ciphertext held in ct.py; wiki.txt)",
+    "image_quality": "no images",
+    "notes": "395 digits in 79 five-digit groups; trailing 000 dropped gives 392 digits = 196 Polybius pairs (NOTES). Held in a .py file, so not measured with the tool."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Digit pairs with first digit in {6,7,8,9,0} and second in {1-5}, i.e. a 5x5 Polybius square; 18 of 25 cells used; no English signal under any tested variant.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 18,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "The book's own worked Polybius example with plaintext, used as positive control.",
+  "notes": "Printed in five-digit groups; pair structure is the Polybius reading. Cell sequence behaves like near-uniform random data."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "control.py",
+   "keyed.py (calibration, transposition hill-climb)",
+   "solve.py (null sweep)",
+   "free.py (non-bijective annealing)",
+   "diag.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Confirmed the 5x5 Polybius pair structure; 18 of 25 cells used.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "The book's worked Polybius example (known English) passes frequency and digram tests; the challenge fails them.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Best-case chi-squared 34.1 vs English 95th percentile 13.0; 0 of 3000 English samples as bad.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Columnar transposition hill-climb on digram repeats, 4-28 columns, against shuffled controls.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Book's null rule swept at every period and offset.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Non-bijective (homophonic/polyphonic) annealing; degenerates, no better than shuffles.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Other plaintext languages, periodicity (IC by period), n-gram repetition.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Concluded the encipherment was botched and there is no recoverable plaintext; heavy null insertion not excluded."
+ }
+}

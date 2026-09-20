@@ -1,0 +1,153 @@
+{
+ "schema_version": 1,
+ "target": "adrian1521",
+ "title": "Adrian of Utrecht, the Admiral and the Constable of Castile to Charles V, Vitoria, 30 Dec 1521, AGS Estado leg. 8 no. 150",
+ "documents": [
+  {
+   "id": "est8_150",
+   "shelfmark": "AGS Estado leg. 8 no. 150 (PARES 13002542)",
+   "date": "30 Dec 1521",
+   "year": 1521,
+   "country": "Spain",
+   "route": "Vitoria -> Charles V (Flanders)",
+   "language": "Spanish",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Claudio Perez Gredilla's decipherment, printed by Danvila, Memorial Historico Espanol 38 (1899), pp. 703-705, with about 25 groups unread",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES images (~1000 px), crop and upscale",
+    "image_quality": "poor",
+    "notes": "--measure gives 1312 whitespace tokens / 575 distinct, but sign runs are written as single {braced} tokens and clear words are mixed in, so the enciphered-token count is not known. Several sign readings still rough; alphabet homophones not separated."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "homophonic",
+   "syllabic"
+  ],
+  "summary": "Mixed nomenclator: two- and three-letter code groups for words and syllables with initials in plaintext-alphabet blocks, plus a homophonic alphabet of letters, figures and signs.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "A sign suffix on a code group marks inflection (mix la / mix= las)."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": 10
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "partial",
+  "doubled_letters": "unknown",
+  "sibling_key": "Adrian's own dotted trigraph code (PTR 2/1/94-101) and the Estado 8/112 sign cipher checked: different systems, not used.",
+  "notes": "Triple-barred staff and P4 open and close paragraphs. Code-group initials follow the alphabet in blocks (r a-, f c-, l d-f, ... x v-y); order within a block not recoverable."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Danvila, Memorial Historico Espanol 38 (1899), pp. 703-705 (Gredilla's decipherment)",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published reading"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "PARES image fetcher (pares.py)",
+   "chunk alignment on xif = V. M. anchors (chunks.py)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "access",
+   "what": "PARES description and images fetched (zoom 10 route).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "OCR search of the archive.org MHE 38 scan finds Gredilla's printed decipherment.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "Ciphertext transcribed from upscaled line crops.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Adrian's other 1520-21 cipher letters with decipherments checked for a shared code.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "Cipher aligned with the print chunk by chunk (19 xif anchors); code and partial alphabet rebuilt.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "prediction",
+   "what": "About 17 of Gredilla's unread groups read or corrected by in-letter cross-reference and the alphabetical block ranges; four edition misprints shown.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "Rey de Inglaterra corrected to the King of Portugal (Manuel I, d. 13 Dec 1521) from the cipher and the letter's content.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Read in full via the 19th-century decipherment, checked and corrected; about ten groups open (suf, xub, yo, ren nod, xac, sif, tib, xit, Lag, ne)."
+ }
+}

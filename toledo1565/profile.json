@@ -1,0 +1,171 @@
+{
+ "schema_version": 1,
+ "target": "toledo1565",
+ "title": "García de Toledo to Philip II, 16 July 1565 (Great Siege of Malta), AGS Estado leg. 1394 no. 247",
+ "documents": [
+  {
+   "id": "duplicado",
+   "shelfmark": "AGS Estado leg. 1394 no. 247",
+   "date": "16 Jul 1565",
+   "year": 1565,
+   "country": "Spain",
+   "route": "Messina -> Madrid",
+   "language": "Spanish",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves or the address leaf; no edition found (searched 2026-09-18). The non-duplicate original, not yet located, may carry one."
+   },
+   "length": {
+    "tokens": 1937,
+    "distinct": 34,
+    "unit": "code groups",
+    "measured": true,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES JPEGs, about 915x1250 px, read from crops upscaled 2.5-5x",
+    "image_quality": "fair",
+    "notes": "NOTES give 1,930 groups in range 12-43; the measured 1,937 and 34 distinct include a few stray figures outside the cipher runs. Confusable pairs 17/19, 35/36, 35/38, 13/14, corrected by decoding nonsense."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Homophonic substitution on two-digit figures 12-43 in alphabetical order, used inline in clear Spanish; no nomenclator, no nulls.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": 32,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 1,
+   "per_letter": {
+    "a": 3,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": 3,
+    "f": 1,
+    "g": 1,
+    "h": 1,
+    "i": 3,
+    "l": 1,
+    "m": 1,
+    "n": 1,
+    "o": 3,
+    "p": 1,
+    "q": 1,
+    "r": 1,
+    "s": 1,
+    "t": 1,
+    "u/v": 3,
+    "x": 1,
+    "y": 1,
+    "z": 1
+   }
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false,
+   "count": 0
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "written twice (n doubled for ñ); sometimes written once",
+  "sibling_key": "none used",
+  "notes": "Enciphered runs stand between clear words, which gave the cribs."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo lists 1565 Malta cipher letters as undeciphered and not this one; PARES has no decipherment",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "decode.py (key application)",
+   "render.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "access",
+   "what": "Worked out the PARES image route (cookie jar, dbCode, zoom 10) and fetched six images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "Transcribed the figure runs digit for digit with the clear text around them.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "crib",
+   "what": "Runs beside clear words read as 'seiscientos' and 'en tiera', fixing a c d e i l n o r s t.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "prediction",
+   "what": "Key order is alphabetical, so the remaining letters (f, x, y, z) were predicted from their neighbours and confirmed in words.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "Decoded the whole letter; nonsense in the output located misread digits, which were corrected on the images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "All groups in 12-43, all 32 used, no odd runs; names such as Provana di Leinì fit the Sicilian record for July 1565.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "verification",
+   "what": "Found the same-day companion letter EST,LEG,1394,249 (duplicate, one page) by PARES search; its cipher runs decode with the same key (entrado el socorro, Cabo Bono, Argel, las galeras con la gente a la Goleta, partiran las galeras manana), adding a barred-theta sign for ll. Not read in full.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 1.0,
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Open word readings only (yaretas, secanos); every group has a value."
+ }
+}

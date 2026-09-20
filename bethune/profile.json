@@ -1,0 +1,238 @@
+{
+ "schema_version": 1,
+ "target": "bethune",
+ "title": "Henri IV to Philippe de Bethune (Rome), 9, 10 and 22 Nov 1601, BnF fr. 3484 nos. 7, 8, 12",
+ "documents": [
+  {
+   "id": "10nov",
+   "shelfmark": "BnF fr. 3484 no. 8, f. 34r-v",
+   "date": "10 Nov 1601",
+   "year": 1601,
+   "country": "France",
+   "route": "Paris -> Rome",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "The minute in clear, f. 36r-v (item 9, 'copie du n. precedent')",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "corpus_v2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF, 2000 and 3996 px, crops at 1.5x-4x",
+    "image_quality": "fair",
+    "notes": "About 480 symbols in four blocks per NOTES; corpus_v2.txt pairs them with plaintext, so not measured."
+   }
+  },
+  {
+   "id": "9nov",
+   "shelfmark": "BnF fr. 3484 no. 7, f. 33r",
+   "date": "9 Nov 1601",
+   "year": 1601,
+   "country": "France",
+   "route": "Paris -> Rome",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaf; a clear copy may be in Cinq cents de Colbert 346 or Halphen's edition, neither consulted."
+   },
+   "length": {
+    "tokens": 970,
+    "distinct": 91,
+    "unit": "mixed",
+    "measured": false,
+    "file": "ct_f33_v2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF, 4x sixth-line crops",
+    "image_quality": "fair",
+    "notes": "Counted by a scratch script over the token field (the --measure line mode also counts the line labels and bars: 992/63). Three glyph families (g, m, r variants) are not separable at the available resolution; the transcription caps decoding at about 71 % of letters."
+   }
+  },
+  {
+   "id": "22nov",
+   "shelfmark": "BnF fr. 3484 no. 12, ff. 46r-47v",
+   "date": "22 Nov 1601",
+   "year": 1601,
+   "country": "France",
+   "route": "Saint-Germain-en-Laye -> Rome",
+   "language": "French",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 1879,
+    "distinct": 65,
+    "unit": "mixed",
+    "measured": false,
+    "file": "ct_22nov.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF, crops",
+    "image_quality": "fair",
+    "notes": "80 cipher runs; counted by a scratch script over the token field (the file has label columns)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator",
+   "syllabic"
+  ],
+  "summary": "Villeroy-office cipher: letters as figures and letter-shaped symbols with homophones, marked letters (comma, one or two dots) for words in alphabetical series, two-digit figures for names and syllables.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Comma, one dot or two dots on a letter select a word series (f, = le; x, = que; t: = de)."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 4,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "syllables",
+    "names",
+    "titles"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "doubled_letters": "special sign (phi doubles the preceding symbol)",
+  "sibling_key": "Bazeries 1901 prints the 1599 key given to Bethune's brother, same office and design, other values; used for the design only.",
+  "notes": "Known names: 48 Cardinal, 17 Aldobrandin, 7 le Roy d'Espagne; 61 qui, 63 re, 65 si, 68 tout, 71 tion, 73 vostre. 72 = vous proposed, unconfirmed."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Clear minute of the 10 Nov letter (f. 36) and marginal glosses of other letters in the same volume; none for 9 or 22 Nov",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "known plaintext",
+   "cleartext context",
+   "sibling key"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "EM alignment of cipher and minute (em_align.py)",
+   "character 5-gram Viterbi (decode.py)",
+   "lexicon decoder (worddecode.py)",
+   "bigram word-lattice decoder (decode2.py)",
+   "oracle ceiling and control harness (oracle.py, eval.py)",
+   "glyph segmentation (seg.py, align.py, align2.py)"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "access",
+   "what": "Volume fetched from Gallica; leaves mapped; the clear minute of 10 Nov found at f. 36 by reading the sheets.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "crib",
+   "what": "EM alignment of the 10 Nov cipher with its minute plus the glossed passages of 8 Nov and 10 Dec gives the letter values and word signs.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "10 Nov letter read in full against the minute.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "9 Nov letter decoded with the key and language-model decoders: about six words in ten.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "4x re-transcription fixed the doubling sign and the syllable groups 61-73.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "control",
+   "what": "Oracle on the known-plaintext blocks: transcription caps decoding at about 71 % of letters; decoder already at the ceiling.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "solver",
+   "what": "Automatic glyph segmentation and template alignment.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "22 Nov letter transcribed in full; clear text read, cipher runs decode to fragments only.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "control",
+   "what": "Full-resolution re-reading and figure-split lattice on f. 33; union of two independent readings worth about 2.9 points.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "literature search",
+   "what": "Xivrey, Melanges de Colbert 17, fr. 3677/3678 excluded; Cinq cents de Colbert 346 and Halphen's edition identified, not accessible.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "independent clear copy",
+   "historical consistency"
+  ],
+  "notes": "10 Nov read in full; 9 Nov about six words in ten; 22 Nov clear text read, cipher in fragments. Open code groups include 44, 45, 62, 66-72, 26-28, 5, 3, 8."
+ }
+}

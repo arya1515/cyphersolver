@@ -1,0 +1,134 @@
+{
+ "schema_version": 1,
+ "target": "sunyatsen",
+ "title": "Telegram to Sun Yat-sen, Swatow to Tokyo, 3 April 1916 (JACAR B03050738800)",
+ "documents": [
+  {
+   "id": "swatow",
+   "shelfmark": "JACAR B03050738800, frame 680682",
+   "date": "3 Apr 1916",
+   "year": 1916,
+   "country": "China",
+   "route": "Swatow -> Tokyo",
+   "language": "Chinese",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "The Japanese Foreign Ministry could not read it; the file holds no solution."
+   },
+   "length": {
+    "tokens": 177,
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "Tomokiyo's transcription checked against the JACAR PDF (600 dpi render of frame 0296)",
+    "corrections": 4,
+    "image_quality": "good",
+    "notes": "177 code letters per NOTES; no ciphertext file to measure. Four letters corrected on the image (gedocijiga, xitonatula, kufonemige, baxuxepeja)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code",
+   "superencipherment"
+  ],
+  "summary": "Standard Chinese telegraph code condensed to consonant-vowel syllables by a systematic table (20 consonants rotated to l, vowels e a i o u, column-major 01-00), no additive.",
+  "symbol_kind": "letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "doubled_letters": "not applicable",
+  "sibling_key": "Same family as Yamada Junzaburō's two published condenser tables; used to define the search family.",
+  "notes": "Ten letters (five syllables, two codes) per word; 46 of 50 distinct syllables confirmed."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo's attempts with the Yamada tables negative (blog 12 Dec 2021)",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "transcription",
+   "images",
+   "sibling key"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Supplied the 11-page JACAR PDF",
+  "tools": [
+   "parse.py",
+   "family.py (brute force of 57,600 systematic keys)",
+   "build_lm.py (Chinese unigram LM)",
+   "fix.py / lookup.py",
+   "tail.py",
+   "decode.py"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Syllable statistics: Yamada's 20 consonants, rare u pointing to a vowel-major table.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "solver",
+   "what": "Brute force of the systematic condenser family scored by a Chinese character LM; winner 49 points clear.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "reading",
+   "what": "Decoded 41 of about 44 characters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "verification",
+   "what": "Four doubtful codes fixed by sense and confirmed in the handwriting; content matches Mo Qingyu's March 1916 rising.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "transcription",
+   "what": "Tail checked on a 600 dpi render: the garble is the operator's; three characters unrecoverable.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "historical consistency",
+   "key confirms"
+  ],
+  "notes": "41 of about 44 characters; the last three codes are garbled in the received copy."
+ }
+}

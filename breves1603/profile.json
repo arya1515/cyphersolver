@@ -1,0 +1,134 @@
+{
+ "schema_version": 1,
+ "target": "breves1603",
+ "title": "Henri IV to Savary de Brèves, Constantinople, 1603, BnF fr. 3541 ff. 60-104 (catalogue item 23)",
+ "documents": [
+  {
+   "id": "fr3541-1603",
+   "shelfmark": "BnF fr. 3541 ff. 60-104 (anc. Béthune 9021)",
+   "date": "18 Feb - 23/24 Dec 1603",
+   "year": 1603,
+   "country": "France",
+   "route": "Paris and court -> Constantinople",
+   "language": "French",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate collection"
+    ],
+    "source": "Berger de Xivrey, Lettres missives t. VI (1853), from the Monmerqué clear copy: 18 Feb, 31 Mar, 17 Apr in full, nine as summaries; BnF fr. 4029 ff. 117v-129 holds all twelve in clear (not digitised).",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "unknown",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "No ciphertext in hand: fr. 3541 is not digitised. Tomokiyo's partial reading of f. 60 was the only cipher-side material.",
+    "image_quality": "no images",
+    "notes": "Twelve ciphered letters under one key, treated as one set. The project never had the ciphertext; the key (fr. 3462 f. 103) was transcribed in key.md."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic figure alphabet (2-4 homophones a letter) with a nomenclator of numbers 10-99 and signs, doubles and nulls, per the key in fr. 3462 f. 103.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "unknown",
+   "separation": "unknown"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Doubles marked with a caret (13 49 57 30 97 38 70)."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 4,
+   "max_per_consonant": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names",
+    "titles"
+   ]
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "special sign (caret on the Doubles)",
+  "sibling_key": "Key found in BnF fr. 3462 f. 103 (Tomokiyo's 'Savary de Breves' Cipher 1602-1603'); f. 104 is the different 1604 'Chiffre reformé pour Levant'.",
+  "notes": "The key checks against Tomokiyo's partial reading of f. 60 (aussi 11, avec 12, faire 92, fault 93, a = 7/3/5)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Berger de Xivrey 1853 (from a contemporary clear copy); BnF fr. 4029 clear register copy; Tomokiyo's partial reading of f. 60",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "published reading",
+   "key from archive"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "key from source",
+   "what": "Found the office key in BnF fr. 3462 f. 103 (Gallica canvas 109) and transcribed it; checked it against Tomokiyo's partial f. 60 reading.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "Located the clear text in Berger de Xivrey, Lettres missives VI: three letters in full, nine in summary; corrected Tomokiyo's f. 60 overlay.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "access",
+   "what": "Searched Gallica SRU, the BnF notice and Desenclos 2018 for images of fr. 3541.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "BnF catalogue search found fr. 4029, a clear register copy of all twelve 1603 letters, not digitised.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms"
+  ],
+  "notes": "Not deciphered here: the ciphertext of fr. 3541 is not online. Clear text exists in print (3 full, 9 summaries) and in fr. 4029."
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "schema_version": 1,
+ "target": "pelissier1592",
+ "title": "A. Pelissier to Pierre Jeannin, Burgos, 13 September 1592 (BnF fr. 3982 no. 22)",
+ "documents": [
+  {
+   "id": "no22",
+   "shelfmark": "BnF fr. 3982 no. 22, ff. 46r-50r (Gallica btv1b9060543f, canvases 100-108)",
+   "date": "xiij septembre 1592",
+   "year": 1592,
+   "country": "France (Catholic League)",
+   "route": "Burgos -> Jeannin (Mayenne's council)",
+   "language": "French",
+   "pages": 9,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Scattered interlinear glosses by a contemporary decipherer; Tomokiyo calls the letter 'only partially deciphered'",
+    "partial": true
+   },
+   "length": {
+    "tokens": 18451,
+    "unit": "symbols",
+    "measured": true,
+    "file": "t46r.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica full-resolution scans",
+    "image_quality": "good",
+    "notes": "Sum over the nine page files t46r-t50r.txt, each measured with --drop-first --skip '^\\[\\[' (clear passages dropped); NOTES give about 18,400 signs in 377 runs. Look-alike glyph families merged in passes 1-2 were split in pass 3 after calibration."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic alphabet of 2-7 signs per letter (symbols and some two-digit numbers), a few doubled-letter signs, vv = et, nulls, and rare three-digit code groups for names.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "2-3",
+   "separation": "mixed"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Hooks, flourishes, tails and bars separate look-alike signs (s6 = c vs 56 = y; hooked tau = p; barred 8 = q)."
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 3,
+   "kinds": [
+    "names",
+    "places"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "special sign (rr, ss, uu)",
+  "sibling_key": "Pelissier's nos. 45/46 (Madrid, 27 Oct 1592) with clear decipherment on f. 115; Tomokiyo's key reconstructed from them, used",
+  "notes": "Code groups seen: 315 = the Béarnais (firm), 310 = probably Savoy, 441 = probably France (context only, once each)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary interlinear glosses on the letter; key published by Tomokiyo (cryptiana league.htm); no published decipherment of no. 22",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "sibling key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "quadgram beam search (beam.py, cands.txt)",
+   "open-letter diagnostic (diag.py)",
+   "sibling alignment tables (cal/)",
+   "frequency hill-climbing (solve.py, refine2.py)",
+   "crop.py, bands3.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "Tomokiyo's key image and web search: no published decipherment of no. 22.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "377 cipher runs transcribed sign by sign (pass 1, agents).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "solver",
+   "what": "Re-deriving the key by letter-frequency hill-climbing on the noisy transcription collapsed to an all-e attractor.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "key from source",
+   "what": "Tomokiyo's key applied with a quadgram beam search over each sign's candidate letters; glosses agree.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "Pass 2 re-reading: 89% of cipher words.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Calibration: nos. 45/46 aligned sign by sign with the f. 115 clear text (1,764 signs), splitting merged glyph families.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "control",
+   "what": "Open-letter diagnostic decode showed the merged tokens directly, matching the calibration.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Pass 3 re-read all nine pages with the split tokens: 94% of cipher words.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.94,
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Fraction is of cipher words (3,734 read, 256 gaps), not signs. Code group 310 and the confessor's name doubtful."
+ }
+}

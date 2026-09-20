@@ -1,0 +1,171 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Cipher target profile",
+ "description": "One file per target, <target>/profile.json. Describes the challenge (cipher system, ciphertexts, what the model was given) and the solution (ordered steps, outcome) in fixed terms, for the analysis of LLM performance on historical ciphers. Any leaf value may also be the string \"unknown\": that marks a gap explicitly and is counted by docs/_check_profile.py. Counts that can be measured from a file in the target folder carry a 'measured' flag; set it true only when docs/_check_profile.py --measure produced the number.",
+ "type": "object",
+ "required": ["schema_version", "target", "title", "documents", "system", "conditions", "solution", "outcome"],
+ "properties": {
+  "schema_version": {"const": 1},
+  "target": {"type": "string", "description": "Folder name."},
+  "title": {"type": "string"},
+  "documents": {
+   "type": "array", "minItems": 1,
+   "description": "One entry per ciphertext (letter, message, page group) treated as a unit.",
+   "items": {
+    "type": "object",
+    "required": ["id", "shelfmark", "year", "country", "language", "cleartext_in_document", "plaintext", "length", "transcription"],
+    "properties": {
+     "id": {"type": "string"},
+     "shelfmark": {"type": "string"},
+     "date": {"type": "string", "description": "As on the document, e.g. '16 Jul 1565'."},
+     "year": {"type": "integer"},
+     "country": {"type": "string", "description": "Issuing power (the chancery that owned the cipher), e.g. 'Spain', 'France', 'Milan'."},
+     "route": {"type": "string", "description": "Sender place -> recipient place."},
+     "language": {"type": "string", "description": "Plaintext language."},
+     "pages": {"type": "integer"},
+     "cleartext_in_document": {
+      "type": "string", "enum": ["none", "interspersed", "separate passages", "mostly clear"],
+      "description": "Text written only in clear, never enciphered."
+     },
+     "plaintext": {
+      "type": "object",
+      "description": "A decipherment or clear copy of the enciphered text, made by anyone other than this project.",
+      "required": ["location"],
+      "properties": {
+       "location": {"type": "array", "items": {"type": "string", "enum": ["none", "interlinear", "margin", "separate paragraph", "separate folio", "separate collection", "printed edition", "unrelated source"]}},
+       "source": {"type": "string"},
+       "partial": {"type": "boolean"}
+      }
+     },
+     "length": {
+      "type": "object",
+      "required": ["tokens", "unit"],
+      "properties": {
+       "tokens": {"type": "integer", "description": "Enciphered tokens only; clear words excluded."},
+       "distinct": {"type": "integer"},
+       "unit": {"type": "string", "enum": ["letters", "symbols", "code groups", "mixed"]},
+       "measured": {"type": "boolean"},
+       "file": {"type": "string", "description": "Ciphertext file in the target folder the count comes from."}
+      }
+     },
+     "transcription": {
+      "type": "object",
+      "required": ["by"],
+      "properties": {
+       "by": {"type": "string", "enum": ["llm from images", "human (project)", "published", "DECODE", "challenge setter", "mixed"]},
+       "source": {"type": "string"},
+       "corrections": {"type": "integer", "description": "Tokens corrected against the images during the work."},
+       "image_quality": {"type": "string", "enum": ["good", "fair", "poor", "no images"]},
+       "notes": {"type": "string"}
+      }
+     }
+    }
+   }
+  },
+  "system": {
+   "type": "object",
+   "required": ["types", "summary", "symbol_kind", "distinct_symbols", "diacritics", "homophones", "nomenclator", "nulls", "key_order"],
+   "properties": {
+    "types": {"type": "array", "minItems": 1, "items": {"type": "string", "enum": [
+     "monoalphabetic", "homophonic", "polyphonic", "syllabic", "nomenclator", "code", "transposition", "polygraphic", "polyalphabetic", "superencipherment", "not a cipher", "other", "undetermined"]},
+     "description": "All components that occur. More than one means combined."},
+    "summary": {"type": "string", "description": "One sentence, e.g. 'homophonic substitution on two-digit figures 12-43, no nomenclator'."},
+    "symbol_kind": {"type": "string", "enum": ["digits", "letters", "symbols", "digits and symbols", "letters and symbols", "digits and letters"]},
+    "digit_groups": {
+     "type": "object",
+     "description": "Only when symbol_kind involves digits.",
+     "properties": {
+      "width": {"type": "string", "description": "'2', '1-3', 'variable'."},
+      "separation": {"type": "string", "enum": ["contiguous", "dots", "commas", "spaces", "mixed"]}
+     }
+    },
+    "distinct_symbols": {"type": "integer", "description": "Distinct signs or code groups in the key or, if unknown, in the ciphertext."},
+    "diacritics": {
+     "type": "object",
+     "required": ["used"],
+     "properties": {"used": {"type": "boolean"}, "note": {"type": "string", "description": "What the marks do, e.g. 'prime, two dots, overbar select three syllable series'."}}
+    },
+    "homophones": {
+     "type": "object",
+     "required": ["used"],
+     "properties": {
+      "used": {"type": "boolean"},
+      "max_per_vowel": {"type": "integer"},
+      "max_per_consonant": {"type": "integer"},
+      "per_letter": {"type": "object", "additionalProperties": {"type": "integer"}}
+     }
+    },
+    "nomenclator": {
+     "type": "object",
+     "required": ["present"],
+     "properties": {
+      "present": {"type": "boolean"},
+      "entries": {"type": "integer", "description": "Code groups for words, names or syllables in the key (or seen in the text)."},
+      "kinds": {"type": "array", "items": {"type": "string", "enum": ["syllables", "word parts", "common words", "names", "places", "titles", "phrases"]}},
+      "unread_groups": {"type": "integer"}
+     }
+    },
+    "nulls": {"type": "object", "required": ["present"], "properties": {"present": {"type": "boolean"}, "count": {"type": "integer"}}},
+    "key_order": {"type": "string", "enum": ["alphabetical", "partly alphabetical", "random", "keyword-derived", "not applicable"],
+     "description": "Whether the key assigns signs in alphabetical order, so that known values predict the rest."},
+    "word_division": {"type": "string", "enum": ["none", "kept", "separator symbol", "partial"]},
+    "doubled_letters": {"type": "string", "description": "How doubles are shown: 'written twice', 'special sign', 'written once'."},
+    "sibling_key": {"type": "string", "description": "A known related key (same office, same family), and whether it was used."},
+    "notes": {"type": "string"}
+   }
+  },
+  "conditions": {
+   "type": "object",
+   "required": ["prior_solution", "inputs", "attack", "human_role", "models"],
+   "properties": {
+    "prior_solution": {
+     "type": "object",
+     "required": ["exists"],
+     "description": "Whether a reading existed anywhere before this project read it. This is the contamination question.",
+     "properties": {
+      "exists": {"type": "string", "enum": ["no", "in archive", "in print", "online", "partial"]},
+      "where": {"type": "string"},
+      "found": {"type": "string", "enum": ["before attempt", "during attempt", "after reading", "not found"]},
+      "used": {"type": "boolean", "description": "True if the reading drew on it."}
+     }
+    },
+    "inputs": {"type": "array", "items": {"type": "string", "enum": [
+     "images", "transcription", "cleartext context", "key from archive", "sibling key", "published key", "crib", "known plaintext", "published reading"]},
+     "description": "What the attack actually started from."},
+    "attack": {"type": "string", "enum": ["archive decipherment", "ciphertext-only", "crib", "known plaintext", "sibling key", "key from archive", "published key", "none"]},
+    "human_role": {"type": "string", "description": "What the human did: supplied logins or images, pointed at a source, corrected a reading, nothing."},
+    "tools": {"type": "array", "items": {"type": "string"}, "description": "Solvers and scripts used, e.g. 'simulated annealing (solver.py)', 'n-gram LM'."},
+    "models": {"type": "array", "items": {"type": "string"}, "description": "Model ids that did the work."},
+    "sessions": {"type": "integer"},
+    "first_date": {"type": "string", "description": "YYYY-MM-DD"},
+    "last_date": {"type": "string", "description": "YYYY-MM-DD"}
+   }
+  },
+  "solution": {
+   "type": "array",
+   "description": "Ordered steps, recorded as they happen. Failed steps count too.",
+   "items": {
+    "type": "object",
+    "required": ["kind", "what", "result"],
+    "properties": {
+     "date": {"type": "string"},
+     "kind": {"type": "string", "enum": ["access", "transcription", "statistics", "hypothesis", "crib", "solver", "control", "sibling key", "key from source", "prediction", "reading", "verification", "literature search"]},
+     "what": {"type": "string"},
+     "result": {"type": "string", "enum": ["worked", "partial", "failed", "ruled out"]}
+    }
+   }
+  },
+  "outcome": {
+   "type": "object",
+   "required": ["class", "verification"],
+   "properties": {
+    "class": {"type": "string", "enum": ["read", "read in part", "not read", "not a cipher", "already solved", "offline only"]},
+    "fraction_read": {"type": "number", "minimum": 0, "maximum": 1, "description": "Share of enciphered tokens given a value."},
+    "grades": {"type": "object", "properties": {"H": {"type": "integer"}, "C": {"type": "integer"}, "M": {"type": "integer"}, "I": {"type": "integer"}},
+     "description": "Counts of readings by grade, README Conventions."},
+    "verification": {"type": "array", "items": {"type": "string", "enum": ["matched control", "independent clear copy", "contemporary decipherment", "key confirms", "historical consistency", "none"]}},
+    "notes": {"type": "string"}
+   }
+  }
+ }
+}

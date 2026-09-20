@@ -1,0 +1,258 @@
+{
+ "schema_version": 1,
+ "target": "vich1511",
+ "title": "Ferdinand the Catholic to Jerónimo de Vich, AHN Estado 8715 N.45 (1511), N.57, N.60 (1512) and N.73 (1515)",
+ "documents": [
+  {
+   "id": "N.45",
+   "shelfmark": "AHN Estado 8715 N.45 (PARES 12751390)",
+   "date": "4 Apr 1511",
+   "year": 1511,
+   "country": "Spain",
+   "route": "Seville -> Rome",
+   "language": "Spanish",
+   "pages": 13,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "PARES records no decipherment; Terrateig 1963 vol. II may print it, not consulted"
+   },
+   "length": {
+    "tokens": 9959,
+    "unit": "mixed",
+    "measured": true,
+    "file": "n45_pp03-09.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES images, cut into line strips",
+    "image_quality": "unknown",
+    "notes": "Sum of the two files measured with --drop-first (5,633 + 4,326). Pages 3-15."
+   }
+  },
+  {
+   "id": "N.57",
+   "shelfmark": "AHN Estado 8715 N.57 (PARES 12751402)",
+   "date": "5 Jun 1512",
+   "year": 1512,
+   "country": "Spain",
+   "route": "Burgos -> Rome",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "PARES records no decipherment; Terrateig 1963 not consulted"
+   },
+   "length": {
+    "tokens": 988,
+    "distinct": 140,
+    "unit": "mixed",
+    "measured": true,
+    "file": "n57_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES images",
+    "image_quality": "unknown",
+    "notes": "Measured with --drop-first."
+   }
+  },
+  {
+   "id": "N.60",
+   "shelfmark": "AHN Estado 8715 N.60 (PARES 12751405)",
+   "date": "1 Sep 1512",
+   "year": 1512,
+   "country": "Spain",
+   "route": "Logroño -> Rome",
+   "language": "Spanish",
+   "pages": 13,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "PARES records no decipherment; Terrateig 1963 not consulted"
+   },
+   "length": {
+    "tokens": 11612,
+    "unit": "mixed",
+    "measured": true,
+    "file": "n60_pp03-09.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES images",
+    "image_quality": "unknown",
+    "notes": "Sum of the two files measured with --drop-first (6,407 + 5,205). The two transcribers of N.45 and N.60 read 'plort' differently."
+   }
+  },
+  {
+   "id": "N.73",
+   "shelfmark": "AHN Estado 8715 N.73 (PARES 12751418)",
+   "date": "26 Oct 1515",
+   "year": 1515,
+   "country": "Spain",
+   "route": "Pedrezuela -> Rome",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; no deciphered sibling in the same key"
+   },
+   "length": {
+    "tokens": 3177,
+    "distinct": 197,
+    "unit": "mixed",
+    "measured": true,
+    "file": "n73_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "PARES images (lines/s73p*)",
+    "image_quality": "unknown",
+    "notes": "Measured with --drop-first; matches NOTES."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator",
+   "syllabic"
+  ],
+  "summary": "Nomenclator: homophonic alphabet of figures and marked letters plus three-letter code groups for words and syllables (N.73 is a different, unread system).",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Barred and flourished forms distinguish signs (barred q, k-flourish on myk); a merged q sign may hide two values."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 3,
+   "per_letter": {
+    "a": 3,
+    "e": 2,
+    "i": 2,
+    "n": 2,
+    "o": 2,
+    "p": 3,
+    "r": 3,
+    "s": 2,
+    "t": 3
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 153,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ]
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Deciphered siblings N.46 and N.52BIS (same key, clerk decipherments) used to rebuild it",
+  "notes": "153 is groups recovered, alphabet included; the real key size is unknown. key_order 'random' is from the code values in key.md, not stated in NOTES."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Terrateig, Política en Italia del Rey Católico (1963) vol. II prints Ferdinand's letters to Vich; not seen",
+   "found": "during attempt",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "sibling key",
+   "known plaintext"
+  ],
+  "attack": "sibling key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "pares.py",
+   "lines.py, half.py (strip cutters)",
+   "decode.py",
+   "solve73.py, solve73g.py (Spanish 5-gram annealing)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-18",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {
+   "date": "2026-09-18",
+   "kind": "access",
+   "what": "PARES search 'Vich cifrada' listed the ciphered letters; images fetched.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Aligned N.46 and N.52BIS with their clerk decipherments to rebuild alphabet and common groups.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "N.57 read with the rebuilt key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "N.45 read; key extended, fug/fuq and plort corrected.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "N.60 read; key at 153 groups.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "solver",
+   "what": "N.73: Spanish 5-gram annealing with groups split, whole, and as context breaks.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "Terrateig 1963 searched by snippet; dates not found, book not seen.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "verification",
+   "what": "Clear subscriptions give place and date matching the catalogue; content fits Ravenna, the 1511 promotion, the Navarre bulls.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read."
+ }
+}

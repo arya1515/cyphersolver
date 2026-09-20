@@ -1,0 +1,76 @@
+{
+ "schema_version": 1,
+ "target": "bordeaux",
+ "title": "Antoine de Bordeaux (London) to Brienne, 30 May 1653 NS, BL Add MS 4200 ff. 88-90 (Thurloe intercept)",
+ "documents": [
+  {
+   "id": "A",
+   "shelfmark": "BL Add MS 4200 ff. 88-90 (DECODE R8390; duplicates R8391, R8393)",
+   "date": "30 May 1653",
+   "year": 1653,
+   "country": "France",
+   "route": "London -> Paris",
+   "language": "French",
+   "pages": 7,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["separate collection"],
+    "source": "No decipherment of the letter exists. The English Deciphering Branch's key sheet for 'Mr. Bordeaux' 1653 (BL Add MS 32263 f. 1, DECODE R7537) is a key, not a plaintext; it was the source of the reading.",
+    "partial": true
+   },
+   "length": {"tokens": 813, "distinct": 149, "unit": "mixed", "measured": true, "file": "ct2.txt"},
+   "transcription": {
+    "by": "mixed",
+    "source": "Tomokiyo's provisional transcription (810 tokens, 156 symbols), corrected against DECODE page images",
+    "corrections": 21,
+    "image_quality": "good",
+    "notes": "The provisional transcription merged two glyphs and dropped diacritics; that alone defeated the ciphertext-only solver."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "syllabic", "nomenclator"],
+  "summary": "Letters as graphic signs and plain numbers 15-37; three diacritic-marked number series (prime, two dots, overbar) are alphabetical CV syllabaries with common words embedded; a few name codes.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {"width": "1-3", "separation": "spaces"},
+  "distinct_symbols": 156,
+  "diacritics": {"used": true, "note": "Prime, two dots and overbar on numbers select the syllable series; the clerk often omits them."},
+  "homophones": {"used": true, "max_per_vowel": "unknown", "max_per_consonant": "unknown"},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["syllables", "common words", "names"], "unread_groups": 14},
+  "nulls": {"present": "unknown"},
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "doubled_letters": "ll is a sign of its own",
+  "sibling_key": "Brienne's Cipher 2 (1651) and Lasry's key for Mazarin to Bordeaux (1654): same design, different values. Used for the design hypothesis only.",
+  "notes": "14 unread: name codes 25‾ 28‾ 43‾ 332 344 396‾ and the rare tokens 6¨ 10 30' 35' 68' 98 14' 46¨."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "in archive", "where": "English Deciphering Branch key sheet, BL Add MS 32263 f. 1 (DECODE R7537)", "found": "during attempt", "used": true},
+  "inputs": ["transcription", "images", "key from archive", "sibling key"],
+  "attack": "key from archive",
+  "human_role": "Supplied the DECODE login (session cookie) for the key sheet and page images.",
+  "tools": ["6-gram French language model (lm.py)", "simulated annealing with monotone syllabary alignment (solver.py)", "matched controls (make_control.py)", "apply_key.py"],
+  "models": ["claude-fable-5-1", "claude-opus-5"],
+  "sessions": 2,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-18"
+ },
+ "solution": [
+  {"date": "2026-09-16", "kind": "statistics", "what": "Symbol classes, token counts and IC (0.019) on the provisional transcription.", "result": "worked"},
+  {"date": "2026-09-16", "kind": "hypothesis", "what": "Design A from sibling keys of the same office: marked series are alphabetical syllabaries, overbar and three-digit groups are nomenclature.", "result": "worked"},
+  {"date": "2026-09-16", "kind": "literature search", "what": "Plaintext sought in Birch (Thurloe SP i) and Guizot's despatches; 30 May 1653 in neither. Found DECODE R7537, the English key for 'Mr. Bordeaux' 1653.", "result": "partial"},
+  {"date": "2026-09-16", "kind": "control", "what": "Solver recovers 99 % on design-A controls of equal length; 52 % and 9 % when 10 % of diacritics are misread.", "result": "worked"},
+  {"date": "2026-09-16", "kind": "solver", "what": "Ciphertext-only annealing on the real text, 21+ seeds over series orders and unit lists.", "result": "failed"},
+  {"date": "2026-09-18", "kind": "key from source", "what": "Transcribed key sheet R7537; it confirms design A exactly.", "result": "worked"},
+  {"date": "2026-09-18", "kind": "transcription", "what": "Checked the page images: 21 corrections, two merged glyphs split, lost marks restored.", "result": "worked"},
+  {"date": "2026-09-18", "kind": "reading", "what": "Applied the key plus context-derived additions; letter read except name codes and rare tokens.", "result": "worked"},
+  {"date": "2026-09-18", "kind": "verification", "what": "Duplicate of the ending (R8391) agrees token for token; content fits the Ormée negotiations of May 1653.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": ["key confirms", "matched control", "historical consistency"],
+  "notes": "Solver failure explained by transcription noise, as the noisy control predicted."
+ }
+}

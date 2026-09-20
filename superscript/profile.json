@@ -1,0 +1,87 @@
+{
+ "schema_version": 1,
+ "target": "superscript",
+ "title": "1520s superscript-digit ciphers (Worcester 1526/1529, Gilino 1527, Garbino 1528)",
+ "documents": [
+  {
+   "id": "worcester-R8476",
+   "shelfmark": "BL Cotton MS Vespasian C III f. 304 (DECODE R8476)",
+   "year": "unknown",
+   "country": "England",
+   "language": "Latin",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "image_quality": "no images",
+    "notes": "Placeholder: no images obtained (DECODE private, BL viewer unreliable, Gallica blocked), nothing transcribed. Other items: R8589, R8590 (deciphered), R8613, R8572, BnF Clair. 327 ff. 279-280."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Letters with superscript digits, per cryptiana's partial syllable table; not examined here.",
+  "symbol_kind": "digits and letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "sibling_key": "R8590 deciphered letter (key source) not obtained."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "R8590 is deciphered; cryptiana has a partial syllable table",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "unknown"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "access",
+   "what": "Tried DECODE (login required), BL digitised manuscripts and Gallica for images.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "offline only",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked on image access; no ciphertext in hand."
+ }
+}

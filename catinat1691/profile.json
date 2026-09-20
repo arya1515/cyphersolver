@@ -1,0 +1,339 @@
+{
+ "schema_version": 1,
+ "target": "catinat1691",
+ "title": "Louvois and Louis XIV to Catinat, seven Grand Chiffre despatches, 8 July - 14 Sept 1691 (Mémoires de Catinat 1819, t. II pp. 295-342)",
+ "documents": [
+  {
+   "id": "L1",
+   "shelfmark": "Mémoires et correspondance du maréchal de Catinat (1819) t. II pp. 295-299",
+   "date": "8 Jul 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "Versailles -> army of Piedmont",
+   "language": "French",
+   "pages": 5,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Bazeries, Le Masque de fer (1893) pp. 42-46, in full",
+    "partial": false
+   },
+   "length": {
+    "tokens": 1082,
+    "distinct": 338,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L1.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR of the 1819 print, tokenised by extract3.py, doubtful stretches checked on the page images",
+    "corrections": "unknown",
+    "image_quality": "good",
+    "notes": "Measured with --digits over the [p.N] group lines; the count includes the page labels and clear dates, so it exceeds the file header's 1,074 groups."
+   }
+  },
+  {
+   "id": "L2",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 299-304",
+   "date": "9 Jul 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "Versailles -> army of Piedmont",
+   "language": "French",
+   "pages": 6,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Bazeries 1893 pp. 47-48, opening 130 groups only",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1619,
+    "distinct": 358,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L2.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes page labels and clear dates; header gives 1,611 groups."
+   }
+  },
+  {
+   "id": "L3",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 305-309",
+   "date": "19 Aug 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "Versailles -> army of Piedmont",
+   "language": "French",
+   "pages": 5,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate collection"
+    ],
+    "source": "Bazeries 1893 pp. 292-300, from the minute at the Dépôt de la guerre vol. 1041 f. 362",
+    "partial": false
+   },
+   "length": {
+    "tokens": 1270,
+    "distinct": 321,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L3.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes page labels and clear dates; header gives 1,259 groups."
+   }
+  },
+  {
+   "id": "L4",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 309-315",
+   "date": "24 Aug 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "court -> army of Piedmont",
+   "language": "French",
+   "pages": 7,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Bazeries 1893 p. 266, one passage (Casale, Crenan)",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1203,
+    "distinct": 324,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L4.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes page labels and clear dates; header gives 1,193 groups."
+   }
+  },
+  {
+   "id": "L5",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 315-318",
+   "date": "29 Aug 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "court -> army of Piedmont",
+   "language": "French",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 498,
+    "distinct": 242,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L5.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes 4 page labels and 2 clear date tokens; header gives 492 groups."
+   }
+  },
+  {
+   "id": "L6",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 318-320",
+   "date": "6 Sept 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "Versailles -> army of Piedmont",
+   "language": "French",
+   "pages": 3,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 409,
+    "distinct": 222,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L6.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes page labels and clear dates; header gives 402 groups."
+   }
+  },
+  {
+   "id": "L7",
+   "shelfmark": "Mémoires de Catinat (1819) t. II pp. 320-342",
+   "date": "14 Sept 1691",
+   "year": 1691,
+   "country": "France",
+   "route": "Fontainebleau -> army of Piedmont",
+   "language": "French",
+   "pages": 23,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 6358,
+    "distinct": 469,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letters/L7.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "MDZ hOCR, checked on page images",
+    "image_quality": "good",
+    "notes": "Count includes page labels and clear dates; header gives 6,331 groups."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "homophonic",
+   "syllabic",
+   "code"
+  ],
+  "summary": "The Grand Chiffre de 1691: a numeric nomenclator of 587 groups for letters, CV syllables, word stems, whole words and nulls.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 587,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 587,
+   "kinds": [
+    "syllables",
+    "word parts",
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": 7
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Bazeries' reconstruction of the Grand Chiffre (../feuquieres/grand_chiffre_1691.tsv, 587 entries, 91 blank), used as the key.",
+  "notes": "Six groups printed above 587 in 1819 and one damaged glyph stay unread; about a hundred groups fall on entries Bazeries left blank and are read from context."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Bazeries 1893 printed L1 and L3 in clear and parts of L2 and L4; L5-L7 never printed in clear",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "images",
+   "published key",
+   "published reading"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "extract3.py (hOCR tokeniser)",
+   "segment.py (dynamic-programming word segmenter over a period lexicon)",
+   "validate.py (difflib control alignment)",
+   "verify_crops.py"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Fetched MDZ hOCR and IIIF page images of Mémoires de Catinat t. II.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Tokenised the figures from the hOCR, dropping specks, running heads and show-through glyphs; split into seven letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "key from source",
+   "what": "Applied Bazeries' 1893 Grand Chiffre table and segmented the output with a period lexicon.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Aligned the decode of L1 and L3 with Bazeries' clear text: 98.1% and 99.1% of characters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "verification",
+   "what": "Checked 137 doubtful stretches on page crops; 7 OCR errors and 3 dates corrected.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "reading",
+   "what": "Read all seven letters, five of them for the first time in print.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "matched control",
+   "independent clear copy",
+   "historical consistency"
+  ],
+  "notes": "Seven groups unread (six misprinted above 587, one damaged); about a hundred blank-table groups read from context."
+ }
+}

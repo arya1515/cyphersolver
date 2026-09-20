@@ -1,0 +1,121 @@
+{
+ "schema_version": 1,
+ "target": "napoleon",
+ "title": "Berthier to Napoleon, 22 December 1812 (with the unpublished letter to Marmont, 1807)",
+ "documents": [
+  {
+   "id": "berthier1812",
+   "shelfmark": "Archives nationales AF/IV/1643 plaquette 1/VI (probable, from the répertoire); printed by Vilcoq 1969",
+   "date": "22 Dec 1812",
+   "year": 1812,
+   "country": "France",
+   "route": "Gumbinnen/Königsberg -> Napoleon",
+   "language": "French",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Candidate only: Chuquet, 1812, la guerre de Russie, 3rd series (1912), Berthier's letters XIX and XXIII of 22 Dec from the same carton; no alignment made",
+    "partial": true
+   },
+   "length": {
+    "tokens": 326,
+    "distinct": 208,
+    "unit": "code groups",
+    "measured": true,
+    "file": "berthier_ct.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Tomokiyo (cryptiana unsolved.htm, napoleon2.htm) after Vilcoq, Revue Historique de l'Armée 4 (1969)",
+    "image_quality": "no images",
+    "notes": "Opening portion only. NOTES give 325 groups and 207 distinct; measured 326/208. The two cryptiana pages disagree at 356/656."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "One-part or unknown-order code of about 1200 numeric groups (2-1388), used across its whole range; 64 % hapax.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 208,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "sibling_key": "Tomokiyo's Berthier cipher of May 1813 (et = 197, 413, 534, 821) noted, not applied.",
+  "notes": "Marmont 1807 letter not in hand (no ciphertext published), so no document entry."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Archivist's note says the first copy was deciphered; Chuquet 1912 prints Berthier's 22 Dec letters in clear, unconfirmed as this text",
+   "found": "during attempt",
+   "used": false
+  },
+  "inputs": [
+   "transcription"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "berthier.py (structure and compatibility statistics)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "325 groups, 207 distinct, 64 % hapax, flat occupancy over about 1200 entries: no frequency signal.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Archives nationales répertoire places the letters in AF/IV/1643; Chuquet 1912 prints them in clear from that carton.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "control",
+   "what": "Hapax and distinct-count comparison with Chuquet's letter XXIII; consistent, no alignment proposed.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Vilcoq 1969 (full ciphertext) and Napoleon's reply of 30 Dec 1812 sought online; not reachable.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked on the full ciphertext in Vilcoq 1969; with it, a known-plaintext alignment against Chuquet becomes possible."
+ }
+}

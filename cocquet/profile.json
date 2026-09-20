@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "target": "cocquet",
+ "title": "Cocquet to Mangot, Rome, 13? November 1616, BnF Clairambault 369 ff. 316-317",
+ "documents": [
+  {
+   "id": "f317",
+   "shelfmark": "BnF Clairambault 369 f. 317 (Gallica btv1b9000782k, canvas 329)",
+   "date": "13? Nov 1616",
+   "year": 1616,
+   "country": "France",
+   "route": "Rome -> Paris",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Not in DECODE; Tomokiyo lists it as not deciphered."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full-resolution images (about 6100 x 5000), line strips",
+    "image_quality": "good",
+    "notes": "No labelled transcription made; NOTES estimate about 150-170 glyphs in nine runs, segmentation uncertain."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Letter shapes, ligatures and a few figures in nine short runs inside clear French; system not established.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Underlined pairs and ö with two dots; function unknown."
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Baugy, Castille, Du Maurier (Clair 369) and anonymous Clair 372 f. 169 and 373 f. 303 keys compared by repertoire; none matches.",
+  "notes": "About 40-50 distinct units (provisional)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo: not deciphered; no DECODE record",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-16",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-16",
+   "kind": "access",
+   "what": "Located f. 317 as Gallica canvas 329 and fetched full-resolution images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "statistics",
+   "what": "Gate measurement: about 160 glyphs over 40-50 units in nine runs, the du Croc regime, below threshold.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "sibling key",
+   "what": "Compared the repertoire with five period keys from Clair 369, 372, 373.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "literature search",
+   "what": "Searched DECODE for Cocquet, Mangot, Trainel, Clairambault and Tomokiyo's Louis XIII page for siblings.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "grades": "unknown",
+  "verification": [
+   "none"
+  ],
+  "notes": "Closed at the gate; reopen only with a second Cocquet letter or the embassy key."
+ }
+}

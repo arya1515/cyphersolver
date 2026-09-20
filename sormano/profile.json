@@ -1,0 +1,193 @@
+{
+ "schema_version": 1,
+ "target": "sormano",
+ "title": "Sormano and de Vaulx to François I, Ferrara, February 1529, BnF fr. 3096 nos. 63, 65, 66",
+ "documents": [
+  {
+   "id": "no65",
+   "shelfmark": "BnF français 3096 no. 65, ff. 119-120",
+   "date": "23 Feb 1529",
+   "year": 1529,
+   "country": "France",
+   "route": "Ferrara -> François I",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; the duplicate no. 66 writes much of the same matter in clear.",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false,
+    "file": "n65_transcription.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica btv1b9060015d; glyph segmentation, clustering, k-NN, every line checked by eye",
+    "image_quality": "unknown",
+    "notes": "Transcription records decoded letters, not sign labels, so no count can be measured; 18,273 signs were segmented across the three letters (README)."
+   }
+  },
+  {
+   "id": "no66",
+   "shelfmark": "BnF français 3096 no. 66, ff. 121-122 (docketed duplicata)",
+   "date": "23 Feb 1529",
+   "year": 1529,
+   "country": "France",
+   "route": "Ferrara -> François I",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; no. 65 writes some of the same matter in clear.",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false,
+    "file": "n66_transcription.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica btv1b9060015d",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "no63",
+   "shelfmark": "BnF français 3096 no. 63, ff. 115-116",
+   "date": "after 23 Feb 1529",
+   "year": 1529,
+   "country": "France",
+   "route": "Ferrara -> François I",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false,
+    "file": "n63_transcription.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica btv1b9060015d",
+    "image_quality": "unknown",
+    "notes": "Breaks off at the foot of f. 116v; final leaf not located."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic substitution on symbols with special signs for cc and ll, a null, and a double-circle nomenclator sign for duca.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "titles"
+   ]
+  },
+  "nulls": {
+   "present": true,
+   "count": 1
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "special sign (cc, ll)",
+  "sibling_key": "Lasry's 2023 key (published on Cryptiana), verified on the glossed control no. 62 (f. 113) and no. 67; used.",
+  "notes": "Corrections proved on the leaves: crossbarred long-s = e, a tall looped null, double circle = duca, ꝓ = d."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Lasry's 2023 key on Cryptiana (Tomokiyo); no reading of these letters",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "cleartext context"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "extract.py (glyph inventory)",
+   "cluster.py (k-means)",
+   "classify.py + pdec.py (k-NN)",
+   "tmatch.py (glyph search)",
+   "wstrip.py / gmont.py / chunk.py"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-17",
+  "last_date": "2026-09-17"
+ },
+ "solution": [
+  {
+   "date": "2026-09-17",
+   "kind": "verification",
+   "what": "Checked Lasry's key against the interlinear decipherment of control no. 62.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "transcription",
+   "what": "Segmented, clustered, hand-labelled and k-NN-classified the glyphs; checked every line by eye.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "key from source",
+   "what": "Applied the key; found a null, crossbarred long-s = e and the duca sign on the leaves.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "crib",
+   "what": "Aligned nos. 65 and 66, which encipher different passages, as a mutual crib.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "reading",
+   "what": "Read nos. 65 and 66 in full and no. 63 as far as its leaves go.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "matched control",
+   "independent clear copy"
+  ],
+  "notes": "No. 63's last leaf is missing."
+ }
+}

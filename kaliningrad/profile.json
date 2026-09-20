@@ -1,0 +1,96 @@
+{
+ "schema_version": 1,
+ "target": "kaliningrad",
+ "title": "Kaliningrad (Baltiysk) bottle post, found 2015 (Schmeh Top 50 no. 19)",
+ "documents": [
+  {
+   "id": "bottle",
+   "shelfmark": "Two photographs published on Schmeh's blog (Kaliningrad-Cryptogram1.png, Kaliningrad-Cryptogram-2.png)",
+   "year": "unknown",
+   "country": "unknown",
+   "language": "unknown",
+   "pages": 2,
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Two published photographs",
+    "image_quality": "poor",
+    "notes": "Transcription attempted and abandoned: faint cursive, bleed-through, n/u/v/w not separable. About a thousand characters by others' estimate."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Latin-letter text of about a thousand characters with primed consonants and dotted initialism groups; system undetermined.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Primes on d l n s t z (and others), umlauts, circumflex, underlines; the primes match Russian palatalisation in transliteration."
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "notes": "Published IC 0.054 and a 37-character alphabet come from readers, not verified here."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "A 2021 blog comment claimed the 1876 Russian Synodal Bible as plaintext source, method never posted",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-15"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "transcription",
+   "what": "Transcription from the two photographs attempted and abandoned as too error-prone.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Observed the alphabet (no j p q x y) and primed consonants matching Russian transliteration; dotted initialism groups noted as a possible crib.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked on transcription, not cryptanalysis."
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "target": "urquhart",
+ "title": "Sir Thomas Urquhart's Cyphral Octastich (The Jewel, 1652) and Cyphral Distich",
+ "documents": [
+  {
+   "id": "octastich",
+   "shelfmark": "Last leaf of Ekskybalauron / The Jewel (London, 1652); reprinted Jack and Lyall 1983 p. 212",
+   "date": "London, March 7, 1651 / 17, 1652",
+   "year": 1652,
+   "country": "Scotland",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "Vals AI, 31 Aug 2026 (Claude Fable 5.1 result); not used for the reading here",
+    "partial": true
+   },
+   "length": {
+    "tokens": 285,
+    "unit": "code groups",
+    "measured": false,
+    "file": "ct.py"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "HCPortal photographs of the 1983 edition (src/octastich_part1.jpg, part2.jpg)",
+    "corrections": 14,
+    "image_quality": "good",
+    "notes": "Count from NOTES (numbers held in ct.py, not a plain file). Schmeh's public transcription had 272: two run-over lines omitted, one '2' dropped, one 6/16 misread."
+   }
+  },
+  {
+   "id": "distich",
+   "shelfmark": "Maitland Club Works (1834) p. 417",
+   "year": 1834,
+   "country": "Scotland",
+   "language": "unknown",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "Claimed Proquiritation reading (Aug 2026 claim); does not reproduce here",
+    "partial": false
+   },
+   "length": {
+    "tokens": 64,
+    "unit": "code groups",
+    "measured": false,
+    "file": "ct.py"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Schmeh / 1834 Works OCR (src/maitland1834.txt)",
+    "image_quality": "fair",
+    "notes": "Year is the printing that carries it; composition date unknown. 1834 reads 5.38.5 where Schmeh has 5.33.5."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "Book cipher on the book itself: number n at position k gives the initial of the first word beginning with the needed letter, found as word n of physical page k of The Jewel (1652).",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "dots"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "not applicable",
+  "word_division": "none",
+  "doubled_letters": "written twice",
+  "sibling_key": "none",
+  "notes": "System is for the octastich; the distich's construction is not established."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Vals AI, 31 Aug 2026, same rule and plaintext for the octastich; distich claim also published",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "pages.py (EEBO-TCP A95749 page parser)",
+   "align.py (DP alignment)",
+   "first-occurrence test with shuffled and random-page controls"
+  ],
+  "models": [
+   "claude-opus-5",
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "literature search",
+   "what": "Provenance objection checked on the 1653 scan and Wilcock 1899.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-15",
+   "kind": "statistics",
+   "what": "Octastich measured on Schmeh's 272 numbers and called a book cipher by shape; judged unattackable without the key text.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "hypothesis",
+   "what": "The poem names its key text (Exskybalauron): number k indexes a word on physical page k of The Jewel.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "DP alignment of Schmeh's defective 272 numbers against TCP pages.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Fresh 285-number transcription from the 1983 photographs.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "reading",
+   "what": "Straight decode one number per physical page: 238/284 first-occurrence hits.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Shuffled numbers and random page orders give 0.43 (max 0.51).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "control",
+   "what": "Distich Proquiritation rule: 34/64 hits, chance, no English; page-index variants also at chance.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.788,
+  "verification": [
+   "matched control",
+   "historical consistency"
+  ],
+  "notes": "Octastich read except ten letters of line 5 (TCP defect at pp. 149-158); distich (64 numbers) unread. Fraction = 275 of 349 numbers across both."
+ }
+}

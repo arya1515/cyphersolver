@@ -1,0 +1,133 @@
+{
+ "schema_version": 1,
+ "target": "colbert",
+ "title": "Colbert correspondence ciphers: Charost (Calais, 3 July 1675) and Gravel to Maulevrier (Mainz, 16 Aug 1674), Mélanges de Colbert 172 and 168bis",
+ "documents": [
+  {
+   "id": "b+c",
+   "shelfmark": "BnF Mélanges de Colbert 172 ff. 23-24 (DECODE R2734) and 168bis ff. 553-554 (DECODE R2733)",
+   "date": "16 Aug 1674 and 3 Jul 1675",
+   "year": 1675,
+   "country": "France",
+   "route": "Calais / Mainz -> Colbert / Maulevrier",
+   "language": "French",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No clear copy found among the 22 other Charost letters, the Maulevrier letters or Clément."
+   },
+   "length": {
+    "tokens": 106,
+    "distinct": 55,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct_shared.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF images of both letters",
+    "corrections": 1,
+    "image_quality": "good",
+    "notes": "Two letters in one key attacked together. Tomokiyo's sample has 232 where the page reads 282. Item a (Gravel, 1665, three names) is a different cipher and was not attacked."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Plain figure groups 52-489 without diacritics, shared by Charost and Gravel (probably Maulevrier's key); alphabetical letter-and-syllable designs excluded, perhaps a word nomenclator.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 55,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Published Colbert-office keys 1665-74 compared; none uses plain three-digit groups above ~316.",
+  "notes": "13 groups shared between the letters; phrase 75 282 284 415 recurs; both end a sentence on 437 415 48x."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE lists both as non-decrypted",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "monotone annealer (solve_mono.py, solve_regions.py)",
+   "matched controls (control.py, control2.py)",
+   "Gallica IIIF/SRU scripts"
+  ],
+  "models": [
+   "claude-fable-5-1"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-15",
+  "last_date": "2026-09-16"
+ },
+ "solution": [
+  {
+   "date": "2026-09-15",
+   "kind": "access",
+   "what": "Assessed the three passages via DECODE and Gallica tooling; marked stuck.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "transcription",
+   "what": "Transcribed the Charost and Gravel cipher groups from the Gallica images; corrected the Charost date to 1675.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "statistics",
+   "what": "Shared groups and phrases show b and c are one key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "literature search",
+   "what": "Read every Charost and Maulevrier letter online via the printed catalogue: all in clear, no sibling ciphertext or clear copy.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-16",
+   "kind": "solver",
+   "what": "Monotone annealer on strict and looser alphabetical designs with matched controls: controls read, target fails.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "grades": "unknown",
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Needs Maulevrier's key or a clear copy of the 3 July 1675 news."
+ }
+}
