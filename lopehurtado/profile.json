@@ -91,6 +91,35 @@
         "image_quality": "good",
         "notes": "DECODE records this as Non-decrypted. Two short passages on f. 262 read here; the count is of code groups resolved, counted by hand."
       }
+    },
+    {
+      "id": "R9656",
+      "shelfmark": "RAH, Signatura 9/26, f. 334-335 (DECODE R9656)",
+      "date": "20 Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": 2,
+        "unit": "code groups",
+        "measured": false,
+        "file": "NOTES.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "good",
+        "notes": "DECODE records this as Non-decrypted, and it has no clear version or duplicate anywhere. Used as the independent control on the key; only 'el papa' read so far."
+      }
     }
   ],
   "system": {
@@ -270,6 +299,12 @@
       "kind": "verification",
       "what": "The alphabet decodes a word on its own. On R9648 f. 264, between the clear words 'antes de agora' and 'si se oviera hecho', the cipher gives 'tu su <run> <8-sign run> xur zun' = 'no se [h]uviera perdido nada'. The eight-sign run spells p-e-r-d-i-d-o, and six of those signs (e, r, d, i, d, o) were derived on R9644 from 'perdida', 'pensaria' and 'Pedro' - every one correct here in a word decoded without being looked for. xur+zun = na+da reappears intact. R9644 carries the same sentence in the clear, being the duplicate, so the reading is corroborated rather than unsupported; but the decoding was done from the key, not read off the crib.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "THE VALIDATION THAT MATTERS. Everything so far leaned somewhere on R9644's plaintext, R9648 being its duplicate. R9656 (ff. 334-335, headed 'De Lope Hurtado de xx de noviembre') is a different despatch three weeks later with no clear version and no duplicate. The key reads there unaided: after the clear words 'las cartas traxo don Correo q vino con la valante', the cipher gives '|| tu n7 <2 runs> y-ub taf' = 'no ... EL PAPA', with y-ub = el and taf = papa both won on R9648 against R9644's crib. Elsewhere on the leaf ton, zar, y-of, sub and tu all fall in slots that make sense. The three unresolved units are left blank rather than guessed.",
+      "result": "worked"
     }
   ],
   "outcome": {
@@ -279,6 +314,6 @@
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Opened 2026-09-20 on an unpublished cipher. R9644 carries both the ciphered letter and the clerk's full clear version (ff. 241-242), keyed by marginal letters; forty-four code and sign values are fixed against that plaintext and eleven more are probable, kept apart in a confidence column. The key then reads a short passage of R9648, which DECODE calls Non-decrypted - 'y que el papa no esta en que venga', 'que nueva tenia de Francia' - the first previously-unread text of Hurtado's read here. That passage leans on the duplicate's plaintext as well as the key, so it is a foothold rather than a reading; nothing runs continuously yet. Next: the rest of the R9644 crib, then R9650 and R9652, then the remaining non-decrypted records."
+    "notes": "Opened 2026-09-20 on an unpublished cipher. R9644 carries both the ciphered letter and the clerk's full clear version (ff. 241-242), keyed by marginal letters; forty-four code and sign values are fixed against that plaintext and eleven more are probable, kept apart in a confidence column. The key then reads a short passage of R9648, which DECODE calls Non-decrypted - 'y que el papa no esta en que venga', 'que nueva tenia de Francia' - the first previously-unread text of Hurtado's read here. That passage leans on the duplicate's plaintext as well as the key, so it is a foothold rather than a reading; nothing runs continuously yet. The key was then tested on R9656, an independent despatch of 20 Nov with no clear version and no duplicate, and read 'el papa' there unaided - the validation that the key is real and not fitted to its own evidence. Next: the rest of the R9644 crib, then R9650 and R9652, then the remaining non-decrypted records."
   }
 }

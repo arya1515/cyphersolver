@@ -273,6 +273,28 @@ R9644 carries this same sentence in the clear, being the duplicate, so the readi
 rather than unsupported; but the **decoding** was done from the key, not read off the crib, and that
 is the test the key needed to pass.
 
+### The key stands on its own: R9656, an independent letter
+
+Everything so far leaned, somewhere, on R9644's plaintext — R9648 being its duplicate. **R9656**
+(9/26 ff. 334–335) is not. It is headed *Al Rey — De Lope Hurtado, de xx de noviembre*: a different
+despatch, three weeks later, with **no clear version and no duplicate**. If the key is real it must
+read there unaided.
+
+It does. On f. 334, after the clear words *las cartas traxo don Correo q vino con la valante*:
+
+> ‖ `tu` `n7` `Lᵹʒᵹ` `∞∞` **`ɣub`** **`taf`**
+> = no … **el papa**
+
+`ɣub` = *el* and `taf` = *papa* were both won on R9648 against R9644's crib, and both read correctly
+here in a letter that crib does not cover. Elsewhere on the same leaf `ton` (*que*), `zar` (*de*),
+`ɣof` (*esta*), `sub` (*si*) and `tu` (*no*) all fall in slots that make sense.
+
+**This is the validation that matters.** The key was built on one letter's crib and reads in another
+letter that has none.
+
+The three unresolved units between *no* and *el papa* are left blank rather than guessed; the sense
+wants something like "no ha querido ver", but wanting is not evidence.
+
 Forty-seven values confirmed, eleven probable.
 
 ## Next
