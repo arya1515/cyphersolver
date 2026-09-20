@@ -258,6 +258,12 @@
       "kind": "key from source",
       "what": "New code value: lel = 'puede', bracketed between lal (publica) and lol (pudi) and fixed by sense in 'no se puede perder nada'. Also observed a code group used mid-word for a syllable (perder = p-e-r + xig(de) + r), the pattern R9605 showed with cami + nuf(no) = camino.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Edition pass continued on R9635 f. 20r: ll. 4, 9 and 10 added. l. 9 gives nul(obliga)+vuc(do)+s = 'obligados', which is exactly the word the 1522 decipherer wrote in the gloss above that stretch - key, alphabet and gloss agreeing independently. Coverage now about half the page; ll. 5, 8, 11-13, 15-21, 23-25 left untranscribed. The token gta, a dozen occurrences and not a possible code (middle position not a vowel), is left unresolved rather than forced.",
+      "result": "partial"
     }
   ],
   "outcome": {
