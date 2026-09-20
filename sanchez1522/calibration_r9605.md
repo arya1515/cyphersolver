@@ -153,3 +153,29 @@ clerk had already deciphered in 1522. **Reading R9605 is not a new reading.** It
 sign table above, every value of it resting on ground truth rather than on eye, is what the genuinely
 unread pages of the 9/26 tail need. Carrying it across to R9635 f. 20r and the rest is the next step,
 and it is now a mechanical one rather than a matter of judgement.
+
+
+## Carrying the table to R9635 f. 20r: what actually blocks it
+
+Applied to the first line of the unread page, the calibrated table does **not** immediately unlock it,
+and the reason corrects an earlier diagnosis in this folder.
+
+The line is `‖ como ‖ quien ‖ | deg | ho | feb | ʒnɡ | xof+s | yeh+s | xig | dom | pud`. The tail is
+secure — *das cartas de vuestra magestad*, and the opening nulls with their *como / quien* padding
+match R9605 exactly. But `deg`, `feb` and `ʒnɡ` resolve to nothing: `deg` is not in the nomenclator and
+falls in the d-block between *visorey de Napoles* and *vimes*; `feb` likewise sits between *tene* and
+*tanta*; `ʒnɡ` spells *y-a-r* under the table, which is not a word.
+
+Sense requires something like *recebi* in that slot (compare Tomokiyo's opening of R9594, "recebi da-s
+la-s cartas de vuestra magestad"), and the code for *recebi* is `hug` — nothing like what is written.
+
+So the bottleneck is **not** the sign table, as this folder previously supposed. It is the step before
+it: turning the cursive shapes on the page into labels. R9605's hand and R9635's differ enough that a
+shape read confidently as `d` there is something else here, and a wrong label produces a code group
+that either does not exist or exists with the wrong value. The table can only be applied to a correct
+transcription.
+
+What that means for the method: the alignment has to be done **on the image**, glyph against the
+clerk's word above it, building a picture-book of each sign as *this* scribe forms it — not by
+transcribing to labels first and resolving afterwards. That is slower, and it is the honest route.
+Recorded here so the next session does not repeat the shortcut.
