@@ -13,9 +13,9 @@ xu	hara	probable	"xul ton xu" = "lo que hara"
 zed	de	probable	same
 xett	gastar	probable	"y no gastar nada"
 ɣ7zun	nada	probable	same
-sub	si	probable	"si ser pudiesse"
+sub	si	confirmed	two contexts: "si ser pudiesse"; and the exact slot "si no los otros" on f.238
 ʃu℔	ser	probable	same
-ɣaf	es	probable	as a syllable: ɣaf+ʃif = "esta", ɣaf+... = "escasso"
+ɣaf	es	confirmed	two contexts: as a syllable in "esta"/"escasso"; and the slot "y es sin comparacion" on f.238
 zun	da	confirmed	"zun top" + clear "descargo de los q" against plaintext "da por descargo"
 Ɉ℔ɸʒx℔4	servidor (spelled)	probable	long spelled run in the slot for "servidor" in "las obras ningun servidor de v. ma"
 ∞7∞ᵷLʒ#8ʃ3m	satisfecho (spelled)	probable	ten-sign run in the slot for "satisfecho", immediately before "zun top"
@@ -23,7 +23,7 @@ zun	da	confirmed	"zun top" + clear "descargo de los q" against plaintext "da por
 teɡ	para	confirmed	same run
 zunʒ	dar	confirmed	same sentence; = zun (da) + the letter r, which re-confirms zun
 ʒ	r (letter)	confirmed	twice: the r of "pensaria" spelled out, and zun+ʒ = "dar"
-zar	de or su	probable	in the slot "los criados DE SU Sa"; supersedes the earlier guess "Bari", which was wrong
+zar	de	probable	"los criados DE su Sa"; and "7zar" in the slot for "de" in "que nueva tenia de Francia" (R9648). Supersedes the earlier guess "Bari", which was wrong
 ʃid	Sa / su Sa	probable	same slot
 ta	no	confirmed	R9644 f.238 vs clear f.241, fully aligned run "no les dar nada y diria que no queria que lo"; a homophone of tu
 xil	le (+s = les)	confirmed	same run
@@ -46,4 +46,13 @@ L	i (letter)	confirmed	"perdida"
 7	a (letter)	confirmed	"perdida"; also the a of "pensaria"
 ⊃8xʒm	Pedro (spelled)	confirmed	R9644 f.238 vs clear f.241 "El camarero Pedro es el principal"; five signs for five letters, with p/e/d/r already confirmed
 m	o (letter)	confirmed	the final letter of the spelled "Pedro"
-ɣub	El	probable	same sentence, in the slot before the spelled camarero/Pedro
+ɣub	el	confirmed	R9648 f.262, exact-count run "y que el papa no esta en que venga"
+tod	otro (+s = otros)	confirmed	R9644 f.238 "los otros si no los", exact slot
+# --- first values won on a NON-DECRYPTED record (R9648 f. 262) ---			
+taf	papa	confirmed	R9648 f.262, exact-count run "y que el papa no esta en que venga"
+ɣof	esta	confirmed	same run
+ɣuc	en	confirmed	same run
+L84ℇ℔	venga (spelled)	confirmed	same run
+teʒ	nueva	confirmed	R9648 f.262, "que nueva tenia de Francia"
+ᵹʒ4∞	tenia	confirmed	same run
+ɣon	Francia	confirmed	same run

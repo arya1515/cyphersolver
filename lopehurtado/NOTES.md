@@ -206,6 +206,37 @@ Thirty-three values confirmed, fourteen probable.
 *One caution:* the sign transcribed `∞` reads as **t** in *tiene* but seemed to be **s** in
 *pensaria*. One of the two transcriptions is wrong. It is left unassigned rather than guessed.
 
+## The key reads a record DECODE calls non-decrypted
+
+R9648 (9/26 ff. 260–265, 9 Nov 1522, **Non-decrypted**) turns out to carry the same matter as
+R9644's clear — *pregunte a su S.* and *le avia embiado la carta de v. Mt y q esperava saber lo de
+Yngalaterra* stand in the clear on its leaves, answering to section **C** of the R9644 plaintext.
+Hurtado sent his despatches in duplicate, so one clear version serves both.
+
+That makes R9644's plaintext a crib for R9648 as well, and the key built on it reads there. On
+f. 262, nine cipher tokens against nine plaintext words, with nothing left over:
+
+| `ɋ` | `ton` | `ɣub` | `taf` | `tu` | `ɣof` | `ɣuc` | `ton` | `L84ℇ℔` |
+|---|---|---|---|---|---|---|---|---|
+| y | que | el | papa | no | esta | en | que | venga |
+
+and immediately after the clear words *pregunte a su S.*:
+
+| `ton` | `teʒ` | `ᵹʒ4∞` | `7zar` | `ɣon` |
+|---|---|---|---|---|
+| que | nueva | tenia | de | Francia |
+
+`ɋ`, `ton` and `tu` are values won on R9644 and reappearing here correctly, which is the check that
+matters. Seven new values come out of it — **`taf` = *papa***, **`ɣof` = *esta***, **`ɣuc` = *en***,
+**`teʒ` = *nueva***, **`ᵹʒ4∞` = *tenia***, **`ɣon` = *Francia***, and the spelled *venga* — plus
+`ɣub` = *el* promoted from probable, and support for `zar` = *de*.
+
+**This is the first previously-unread text of Hurtado's read here.** It is short, and it leans on the
+duplicate's plaintext rather than standing on the key alone, so it is a foothold rather than a
+reading. But the mechanism now works end to end: crib → key → a record nobody had read.
+
+Forty-four values confirmed, eleven probable.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.
