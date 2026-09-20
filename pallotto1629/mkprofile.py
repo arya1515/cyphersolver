@@ -52,7 +52,7 @@ prof = {
  "documents": docs,
  "system": {
    "types": ["undetermined"],
-   "summary": "Numeric cipher written as an unbroken digit stream; the code width could not be established and the key was not recovered.",
+   "summary": "Numeric cipher written as an unbroken digit stream; the code width could not be established, no alignment signal to the known plaintext exists at width two, and the key was not recovered.",
    "symbol_kind": "digits",
    "digit_groups": {"width": "unknown", "separation": "contiguous"},
    "distinct_symbols": 10,
@@ -68,7 +68,10 @@ prof = {
              "No phase preference was found for two-digit codes (IC 0.01462 at phase 0 vs 0.01466 at "
              "phase 1; even- and odd-position digit distributions agree to 0.2%) or for three-digit "
              "codes, which is also what one-digit transcription slips at about 1% would produce. "
-             "distinct_symbols is the digit alphabet, not the key's code groups, which are unknown."),
+             "distinct_symbols is the digit alphabet, not the key's code groups, which are unknown. "
+             "A run-length control puts the longest consistent two-digit alignment to the known plaintext at 39 "
+             "letters against a chance baseline of 36-39, where a synthetic two-digit cipher at the same "
+             "transcription noise gives 207 - so the stream is not a two-digit substitution of that plaintext."),
  },
  "conditions": {
    "prior_solution": {
@@ -109,8 +112,8 @@ prof = {
    "what": "Downloaded DECODE's 2019-20 digit transcriptions of all 28 ciphertexts (DOC_R*.txt) with the stored session cookie.",
    "result": "worked"},
   {"date": "2026-09-20", "kind": "crib",
-   "what": "Aligned the opening of R286 against the known opening of Nr. 153 as two-digit codes: 27 letters align exactly (HORICEVUTALARISPOSTADATAMII) with two independent repeat confirmations, 38=T and 23=I.",
-   "result": "partial"},
+   "what": "Aligned the opening of R286 against the known opening of Nr. 153 as two-digit codes: 27 letters align exactly (HORICEVUTALARISPOSTADATAMII) with two repeat confirmations, 38=T and 23=I. Read at the time as roughly a 1-in-180 coincidence; the later run-length control shows 27 is BELOW the chance baseline of 36-39 for this material, so it is not evidence.",
+   "result": "ruled out"},
   {"date": "2026-09-20", "kind": "solver",
    "what": "Ran banded DP EM aligners over the whole of R286 against a hand-corrected 3,359-letter crib of Nr. 153, with two-digit codes plus one-/three-digit resync operations for transcription slips; best code-to-letter consistency about 55%, against a 20% naive baseline.",
    "result": "partial"},
@@ -132,6 +135,9 @@ prof = {
   {"date": "2026-09-20", "kind": "access",
    "what": "Found that DECODE serves its own scans of these leaves at 1491x2066 (IMG_R286_I2489_P1.png, IMG_R286_I2490_P2.png), four times the pixel area of DigiVatLib's 748x1088. Re-read p. 5 line 1 on it: it differs from DECODE's transcription in two digits of 74, both substitutions, no length difference - correcting an earlier claim of about six differences including a length change, which was a misreading of the low-resolution image.",
    "result": "worked"},
+  {"date": "2026-09-20", "kind": "control",
+   "what": "Run-length test. Long consistent runs cannot be faked: inside a window a repeated code must carry the same letter. Scanning every (digit offset, crib offset) pair, the longest consistent two-digit run between R286 and the plaintext of Nr. 153 is 39 letters; controls that shuffle the crib letters give 39, 39, 36, 38, 36 and reversing the cipher gives 39. A synthetic two-digit cipher over the same text at 1.7% digit noise gives 207, and a clean one 2705. The same method recovers 81/100 key codes from the noisy synthetic text where the DP learner managed 7. The real material sits exactly on its chance baseline: there is no alignment signal, so transcription noise is not a sufficient explanation, and R286 is not a two-digit homophonic encipherment of Nr. 153. This also retires the 27-letter opening match, which is below the 36-39 chance baseline.",
+   "result": "ruled out"},
   {"date": "2026-09-20", "kind": "reading",
    "what": "Content of the despatches recovered from Kiewning's printed contemporary decipherment, not from the cipher: Pallotto's mediation between the Emperor and the French envoy Sabran over the Mantuan succession, Casale, Susa and the Grisons passes, Aug-Nov 1629.",
    "result": "worked"},
@@ -147,8 +153,12 @@ prof = {
              "transcription, 87/100 at 0.5% digit error and 7/100 at 1.7%, so the method is sound and the limit "
              "is the transcription. Two explanations remain open and cannot be separated from this material: "
              "length errors in the transcription, or the cipher not being a fixed-width substitution of this "
-             "plaintext. The concrete next step is a transcription at better than 0.5% digit error from DECODE's "
-             "1491x2066 scans, by glyph segmentation and clustering rather than by eye."),
+             "plaintext. The run-length control then settled that: the longest consistent two-digit run is 39 "
+             "letters against a chance baseline of 36-39 (synthetic at the same noise: 207), so there is no "
+             "alignment signal and noise is not a sufficient explanation. R286 is not a two-digit homophonic "
+             "encipherment of Kiewning's Nr. 153. Open: whether the code width differs, whether the sheet encodes "
+             "another despatch or a materially different wording, or whether the system is nomenclator-heavy or "
+             "variable-length."),
  },
 }
 

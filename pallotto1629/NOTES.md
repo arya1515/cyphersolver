@@ -78,18 +78,20 @@ mutual information — so the stream is structured, not random.
   known plaintext collapses back to single letters for every well-attested code, so there is no evidence
   for a syllable table.
 
-**What survives.** The opening of R286 does align letter-for-letter with the known opening of Nr. 153:
+**What looked like evidence, and is not.** The opening of R286 does align letter-for-letter with the known
+opening of Nr. 153:
 
 ```
 55 70 83 65 03 29 00 69 38 73 11 36 50 23 22 07 92 20 86 72 52 06 38 97 12 33 23
 H  O  R  I  C  E  V  U  T  A  L  A  R  I  S  P  O  S  T  A  D  A  T  A  M  I  I
 ```
 
-27 letters with two independent repeat confirmations (38 = T twice, 23 = I twice; p ≈ 0.006 by chance).
-The 28th code conflicts and the alignment never recovers. Re-read on DECODE's better scan the line is
-essentially the same (two substitutions, no length change), so **the break is not a transcription artefact at
-that point**. Iterating a banded DP aligner over the whole of R286 reaches about 55 % code→letter consistency,
-but the held-out test below shows that figure is worthless — it is the aligner fitting the crib.
+27 letters with two independent repeat confirmations (38 = T twice, 23 = I twice). I first read that as roughly
+a 1-in-180 coincidence. **It is not: 27 is below chance.** See the run-length test below — random controls on this
+material reach consistent runs of 36 to 39 letters. The opening match is unremarkable and should never have been
+presented as support. Re-read on DECODE's better scan the line is essentially the same (two substitutions, no
+length change), so the break at letter 28 is not a transcription artefact either. Iterating a banded DP aligner
+over the whole of R286 reaches about 55 % code→letter consistency, which the held-out test below shows is worthless.
 
 ## Why the key is not recovered — measured, with controls
 
@@ -136,12 +138,31 @@ statements were wrong, and the error was mine:
   readings differ by a digit or two and possibly in length, so the transcription still cannot be assumed exact —
   but DECODE's is better than the first pass credited, and no length error is demonstrated.
 
-**Where that leaves it.** With DECODE's transcription no two-digit key generalises, with or without nulls. Two
-explanations remain open and cannot be separated from this material: either the transcription carries enough
-length errors to defeat recovery (the synthetic control shows ~1 % would be enough), or the cipher is not a
-fixed-width substitution of this plaintext at all. The opening still aligns for 27 letters with two repeat
-confirmations — which on its own is about a 1-in-180 coincidence, and was found by choosing the best-matching
-start, so it is suggestive and no more.
+**3. Run-length test: there is no alignment signal at all.**
+A crib aligner can fake a fit, but a long *consistent* run cannot be faked easily: inside one window a repeated
+code must carry the same letter and the map must stay a function, so a false run dies at its first repeat
+conflict. Scan every (digit offset, crib offset) pair in a band, extend each run while it stays consistent under
+two-digit codes, and take the longest:
+
+| | longest consistent run |
+|---|---|
+| real R286 against the plaintext of Nr. 153 | **39 letters** |
+| control: crib letters shuffled (5 runs) | 39, 39, 36, 38, 36 |
+| control: cipher reversed | 39 |
+| synthetic two-digit cipher, same text, 1.7 % digit noise | **207 letters** |
+| synthetic two-digit cipher, clean transcription | 2705 letters |
+
+The real material sits exactly on its own chance baseline. The synthetic cipher at the *same* noise level as the
+real transcription is five times longer. This method also recovers 81 of 100 key codes from the noisy synthetic
+text, where the earlier DP learner managed 7 — so it is not that the tool is too weak.
+
+**Where that leaves it.** Transcription noise is no longer a sufficient explanation. On this evidence
+**R286 is not a two-digit homophonic encipherment of the text Kiewning prints as Nr. 153.** What remains open:
+the code width may not be two (though no phase structure shows at width three either); the cipher sheet
+pp. 5–6 may encode a different despatch, or a version of it whose wording differs materially from the
+Rome-received copy Kiewning used; or the system may be nomenclator-heavy or variable-length, in which case no
+fixed-width alignment can ever match. The contents of the despatches are unaffected by any of this — they rest
+on Kiewning and on the register's own clear pages, not on any decipherment made here.
 
 **The concrete next step**, and the reason this is worth returning to: DECODE's 1491 × 2066 scans are good enough
 for a careful transcription, and the plaintext of every passage is already known from Kiewning. A transcription
