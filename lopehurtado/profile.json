@@ -167,6 +167,24 @@
       "kind": "verification",
       "what": "Checked R9650 f. 270 (the other Decrypted record): ton tab xud stand there in identical forms, and top again immediately precedes clear words in a slot reading 'por disimular en este caso' - a third independent context for top = por. tu and zun recur. So Hurtado used one key across these letters and values won on R9644 carry to the rest, which is what makes the six non-decrypted records reachable.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "crib",
+      "what": "Found the start of the clear version on f. 241 ('Al Rey - de Lope Hurtado, de Roma, del primero de noviembre', then Claro, then lettered sections), so the clear runs ff. 241-242 and covers the cipher of ff. 238-239 from its start.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "Aligned the stretch after the clear words 'si algo se le dixesse': cipher '<8-sign run> ton [b]z7 teg' against plaintext 'pensaria que era para'. New confirmed values era and para, plus the letter r attested twice (the r of the spelled pensaria, and zun+r = dar, which re-confirms zun = da). Thirteen confirmed, thirteen probable.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Retracted an earlier probable value: zar = 'Bari' was wrong. zar is frequent and falls here in the slot 'los criados de su Sa'; it is now carried as 'de' or 'su', still probable. The confirmed/probable split in key_codes.tsv is what caught this - no probable value had been used to derive anything.",
+      "result": "ruled out"
     }
   ],
   "outcome": {

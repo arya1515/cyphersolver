@@ -114,6 +114,40 @@ slot that reads *por disimular en este caso* — a **third** independent context
 So Hurtado used one key across these letters, and values won on R9644 carry to the rest. That is what
 makes the six non-decrypted records reachable once the key is far enough along.
 
+## The clear version begins on f. 241, and gives the opening of the letter
+
+`IMG_R9644_I45411_P1.jpg` shows f. 241: *Al Rey — de Lope Hurtado, de Roma, del primero de
+noviembre*, then **Claro**, then the plaintext in lettered sections (A …). So the clear runs
+ff. 241–242 and covers the cipher of ff. 238–239 from its start.
+
+Its third paragraph is the crib for the top of the cipher page:
+
+> **Es muy bien lo que v. ma dize que lo que hoviere de hazerse con** los criados de su Sa
+> **primero los sepa, pero hasta que v. ma les de lo que fuere servido, si algo se le dixesse**
+> pensaria que era para no les dar nada …
+
+(bold = what stands in the clear on the *cipher* page too; the rest is enciphered there.)
+
+Aligning the enciphered stretch after *si algo se le dixesse*:
+
+| cipher | plaintext |
+|---|---|
+| `⊃84∞7ʒ∞7` | **pensaria** — eight signs for eight letters |
+| `ton` | **que** (again) |
+| `ᵷʒ7` | **era** |
+| `teɡ` | **para** |
+| later, `zun`+`ʒ` | **dar** |
+
+New confirmed values: **`ᵷʒ7` = *era***, **`teɡ` = *para***, and the letter **`ʒ` = r** — the last
+attested twice over, in the *r* of the spelled *pensaria* and in `zun`+`ʒ` = *dar*, which in turn
+re-confirms `zun` = *da*.
+
+**A retraction.** The earlier probable `zar` = *Bari* was wrong. `zar` is frequent, and here it falls
+in the slot *los criados **de su** Sa*; it is now carried as *de* or *su*, still probable. This is why
+the probable values are kept out of any derivation.
+
+Thirteen values confirmed, thirteen probable.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.
