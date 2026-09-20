@@ -76,7 +76,7 @@
     },
     "homophones": {
       "used": true,
-      "note": "at both levels: two codes for 'no' (ta, tu), and two signs for the letter d within the single spelled word 'perdida'"
+      "max_per_consonant": 2
     },
     "nomenclator": {
       "present": true,
@@ -204,6 +204,12 @@
       "kind": "key from source",
       "what": "Exact-count run at the end of the paragraph: four cipher units for 'tiene perdida la esperança'. 'perdida' is spelled out, seven signs for seven letters, which hands over a first slice of the substitution alphabet: p, e, r, d (two different signs), i, a, and n. Cross-checks against the spelled 'pensaria' earlier and against r, already confirmed twice. Thirty-one confirmed, thirteen probable. One sign left unassigned: it reads t in 'tiene' but seemed s in 'pensaria', so one transcription is wrong and it is not guessed.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Pushed a profile.json with a non-schema field (system.homophones.note) which made _check_profile.py report INVALID; caught on the next check and fixed in the following commit. The homophone observation (two codes for 'no'; two signs for the letter d inside the spelled 'perdida') is kept in NOTES.md, where prose belongs, and recorded in the schema as max_per_consonant = 2.",
+      "result": "failed"
     }
   ],
   "outcome": {
