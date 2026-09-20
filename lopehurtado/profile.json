@@ -445,6 +445,12 @@
       "kind": "access",
       "what": "Established what would actually finish this, and that it needs the human. DECODE serves these leaves at 3440x2465 for a TWO-PAGE opening - about 1700 px across a folio, enough for the latin trigrams and not enough to tell two similar cursive signs apart. That is the measured cause of the alphabet limit. The volume is in the Coleccion Salazar y Castro, which the RAH is digitising at bibliotecadigital.rah.es; those images would be far better than DECODE's derivative copies. But that site returns HTTP 403 to automated requests and puts a bot check in front of its search, so it needs Daniel to fetch, exactly as DECODE's image server needs his logged-in cookie. Searching there for 'Salazar y Castro, A-26' and pulling ff. 237-243, 260-272, 334-335 at full resolution would unblock the alphabet and with it the five uncribbed records.",
       "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Checked whether DECODE holds anything better, using the logged-in cookie. It does not. The full-size file filesrv returns IS the 3440x2465 two-page opening already fetched (1.45 MB); MASTER_, MS_, ORIG_ and .tif variants all come back as the server's 5,244-byte not-found placeholder. The Image Manager (/decrypt-web/ImagesList) answers 'You do not have permission to access' with this cookie - it is a viewer session, not an editor one, so its zoom view is unreachable too. The ceiling is DECODE's stored derivative copy, which confirms that lifting the alphabet limit needs the RAH's own digitisation rather than anything further from DECODE.",
+      "result": "ruled out"
     }
   ],
   "outcome": {

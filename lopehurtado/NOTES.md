@@ -541,7 +541,18 @@ opening** — about 1700 px across a folio, which is enough for the latin trigra
 tell two similar cursive signs apart. That is why the code groups are confirmed and the alphabet is
 not, and no amount of further crib-walking changes it.
 
-The volume is in the **Colección Salazar y Castro**, which the Real Academia de la Historia has been
+**DECODE has been checked with the cookie, and has nothing better.** The logged-in session does
+fetch the images (that is how `img/` was filled), but:
+
+- the full-size file `IMG_R9644_I45410_P1.jpg` *is* what `filesrv` returns — 1.45 MB, 3440 × 2465
+  for the two-page opening. There is no larger variant: `MASTER_`, `MS_`, `ORIG_` and `.tif` names
+  all come back as the server's 5,244-byte not-found placeholder;
+- the Image Manager (`/decrypt-web/ImagesList`) answers **"You do not have permission to access"**
+  with this cookie. It is a viewer session, not an editor one, so its zoom view cannot be reached
+  either.
+
+So the ceiling is DECODE's stored copy, and it is a derivative. The volume is in the
+**Colección Salazar y Castro**, which the Real Academia de la Historia has been
 digitising at its own Biblioteca Digital (<https://bibliotecadigital.rah.es>). If Salazar 9/26 is
 there, its images will be far better than DECODE's derivative copies, and the alphabet becomes
 ordinary work rather than guesswork.
