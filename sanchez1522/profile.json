@@ -240,6 +240,24 @@
       "kind": "transcription",
       "what": "Applied the calibrated sign table to the first line of the unread R9635 f. 20r. It does not unlock it: deg, feb and z-n-r resolve to nothing, though the tail ('das cartas de vuestra magestad') and the null padding are secure. This corrects an earlier diagnosis in this folder - the bottleneck is not the sign table but the step before it, turning the cursive shapes into labels. R9605's hand and R9635's differ enough that a shape read as 'd' in one is something else in the other, and a wrong label yields a code group that does not exist or has the wrong value. The alignment must be done on the image, glyph against the clerk's word above it, not by transcribing to labels first.",
       "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Corrected the model of the writing, which was the real blocker: everything is written in ordinary latin-looking cursive, with three-letter trigrams as nomenclator codes and single letters/short runs as the substitution alphabet (n=a, y=e, g=r, o/x=x, #=o, ao=p, m=u/v, z=c, B=m, 9=l, q-double-bar=s). Verified on R9605 f. 39r l. 1 against the clerk's plaintext: cig vu-o-y n dom pud ho veg = 'Ya dixe a vuestra magestad que el'.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Edition pass on R9635 f. 20r (edition/r9635_f20r.md). ll. 2-3 read continuously: 'pues en esto no se puede perder nada ... con los de esta republica'. About a third of the page read; ll. 4-5, 8-13, 15-21, 23-25 left untranscribed rather than inferred.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "New code value: lel = 'puede', bracketed between lal (publica) and lol (pudi) and fixed by sense in 'no se puede perder nada'. Also observed a code group used mid-word for a syllable (perder = p-e-r + xig(de) + r), the pattern R9605 showed with cami + nuf(no) = camino.",
+      "result": "worked"
     }
   ],
   "outcome": {
@@ -250,6 +268,6 @@
       "contemporary decipherment",
       "historical consistency"
     ],
-    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. Added here: the catalogue entry's shelfmark, date range and authorship corrected; the ordering rule of the nomenclator, and from it a c-block numeral series of which cab = xv, cef = xxvi and cif = xxvii are confirmed in text and were not in the published key; and first readings of parts of R9635 and R9653, both outside Tomokiyo's coverage. fraction_read is the share of code groups resolved on the two leaves worked; the spelled-out letter runs and the other 27 records are open. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target. The R9605 calibration fixes the sign values against ground truth but does not by itself unlock the unread pages: the binding constraint is the transcription of the cursive shapes, which differ between scribes, and that has to be done glyph by glyph on the image."
+    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. Added here: the catalogue entry's shelfmark, date range and authorship corrected; the ordering rule of the nomenclator, and from it a c-block numeral series of which cab = xv, cef = xxvi and cif = xxvii are confirmed in text and were not in the published key; and first readings of parts of R9635 and R9653, both outside Tomokiyo's coverage. fraction_read is the share of code groups resolved on the two leaves worked; the spelled-out letter runs and the other 27 records are open. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target. The R9605 calibration fixes the sign values against ground truth but does not by itself unlock the unread pages: the binding constraint is the transcription of the cursive shapes, which differ between scribes, and that has to be done glyph by glyph on the image. An edition pass against the published key then began (edition/), reading about a third of R9635 f. 20r continuously and adding lel = 'puede' to the key."
   }
 }

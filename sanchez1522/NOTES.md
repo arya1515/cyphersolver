@@ -266,6 +266,35 @@ glyphs, the pair to watch next.) The table is carried in `alpha.py`, ground-trut
 is the sign table, which is what the genuinely unread pages of the 9/26 tail need; carrying it to
 R9635 f. 20r and the rest is now mechanical rather than a matter of judgement.
 
+## The edition pass: the model of the writing was wrong
+
+The earlier failure here came from a wrong model of the page, now corrected. **Everything is written
+in ordinary latin-looking cursive.** The two systems are told apart by shape-length and context:
+
+- **three-letter latin trigrams are nomenclator codes** (`xig`, `vog`, `dom`, `pud`, `lig`, `nuc`),
+  read straight off Tomokiyo's table;
+- **single letters and short runs between them are the substitution alphabet**, where letterform and
+  value differ: `n`=a, `y`=e, `g`=r, `o`/`✗`=x, `#`=o, `ao`=p, `m`=u/v, `z`=c, `β`=m, `9`=l, and the
+  q-with-double-bar = s;
+- three nulls open each paragraph, padded with the clear words *como* and *quien*.
+
+Verified on R9605 f. 39r l. 1 against the clerk's plaintext on the facing leaf: `cig vu·o·y n dom pud
+ho veg` = "Ya dixe a vuestra magestad que el", with `vu`(di)+`o`(x)+`y`(e) = *dixe*.
+
+With that, R9635 f. 20r reads. The edition is `edition/r9635_f20r.md`; ll. 2-3 run continuously:
+
+> `lig vog vom nuf gad lel` ao-y-g-`xig`-g `nuc` … `xa pac`+s `xig vum` g-y-`lal`
+> = **"pues en esto no se puede perder nada … con los de esta republica"**
+
+Two things in that sentence are new. **`lel` = *puede***, a code Tomokiyo never recovered, bracketed
+between `lal` *publica* and `lol` *pudi* and fixed by sense. And *perder* is written p-e-r + `xig`
+(*de*) + r — a code group used mid-word for a syllable, the pattern R9605 showed with *cami* +
+`nuf`(*no*) = *camino*.
+
+Coverage of the page: ll. 2-3 continuous, plus the passages at ll. 6, 7, 14, 22; l. 1 partly; about a
+third in all. The remaining lines are the same work at the same zoom, cryptanalytically unremarkable,
+and are left untranscribed rather than filled in by inference.
+
 ## What is left
 
 The other 27 records. Most of them have a contemporary decipherment bound in — though R9635 shows the
