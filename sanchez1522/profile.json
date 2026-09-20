@@ -294,6 +294,12 @@
       "kind": "reading",
       "what": "Last lines of R9635 f. 20r: l. 15 = 'xviii mil ducados primer[o]', l. 13 'vuestra magestad', l. 16 'das las'. Every line of the page now has a reading of some kind; the page is read throughout in substance (subject, sums, parties, drift of the argument) while a scatter of spelled runs inside partially-read lines stays open. Recorded caveat: the crops were cut by dividing the written area into 25 equal bands, so line numbers are approximate and may be out by one; the readings are anchored to their own words, not to the numbering.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Moved to R9635 f. 21 (edition/r9635_f21.md): two more full pages of cipher, denser than f. 20r. The decipherer's gloss 'obligados ... fuessen restituydas sus tierras' continues here. A paragraph written entirely in the clear, marked A in the margin, reads in full: Richard Pace (Micer Ricardo Paceo), Henry VIII's envoy at Venice, has given Sanchez an enclosed memorial and asked him to press the Emperor for the letters Pace wants for the Pope and for don Juan (Juan Manuel at Rome); Sanchez seconds it. This fixes the identification behind the code hec = Inglaterra met on f. 20r. The two leaves are not yet transcribed line by line.",
+      "result": "partial"
     }
   ],
   "outcome": {
