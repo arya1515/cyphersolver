@@ -375,15 +375,27 @@
       "kind": "key from source",
       "what": "R9650 f. 269 against 'y por lo que deve, no se ponga en esto': seven fixed values in one short clause (q, top, xul, ton, zar, tu, su, y-uc). New probables from the gaps: deve, ponga, esto, and cartas from the phrase before. Sixty-five entries, fifty-six confirmed.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Consolidation audit of the key: cross-checked every value for two codes claiming the same plaintext. Four retractions, kept in the file as commented RETRACTED lines rather than deleted - zed='de' (superseded by zed=arcobispo, confirmed twice), the sign-pair='el' (early non-exact alignment; el is y-ub, confirmed three times), one 'tenia' (conflicts with the confirmed one; one transcription is wrong), and one 'nada' (a misreading of xur+zun). The only surviving multi-claims are genuine homophones, each confirmed in evidence: two codes for 'no', two signs for d, two signs for o.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Read R9644 and R9650 complete, from the clerks' own contemporary clear versions (ff. 241-242 and f. 272), transcribed from the images into read_r9644.md and read_r9650.md. R9648 is R9644's duplicate so the same clear reads it too. Three of the nine records now have their content read in full; the ciphered leaves of those letters are read in part against the same text.",
+      "result": "worked"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.1,
+    "fraction_read": 0.35,
     "verification": [
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Opened 2026-09-20 on an unpublished cipher. R9644 carries both the ciphered letter and the clerk's full clear version (ff. 241-242), keyed by marginal letters; forty-four code and sign values are fixed against that plaintext and eleven more are probable, kept apart in a confidence column. The key then reads a short passage of R9648, which DECODE calls Non-decrypted - 'y que el papa no esta en que venga', 'que nueva tenia de Francia' - the first previously-unread text of Hurtado's read here. That passage leans on the duplicate's plaintext as well as the key, so it is a foothold rather than a reading; nothing runs continuously yet. The key was then tested on R9656, an independent despatch of 20 Nov with no clear version and no duplicate, and read 'el papa' there unaided - the validation that the key is real and not fitted to its own evidence. Next: the rest of the R9644 crib, then R9650 and R9652, then the remaining non-decrypted records. The limiting factor is now the substitution alphabet, not the nomenclator: nine signs are fixed and cross-checked, but further ones need per-glyph discrimination the scans do not reliably support, so these letters will read in substance well before they read word for word."
+    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. Those three letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 57 code and sign values fixed against that plaintext and 19 probable, kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the six records with no clear version (R9634, R9645, R9646, R9649, R9652, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - nine signs fixed, the rest limited by per-glyph discrimination on these scans."
   }
 }
