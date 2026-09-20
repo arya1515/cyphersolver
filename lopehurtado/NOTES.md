@@ -193,7 +193,15 @@ Two signs for **d** in one word — homophones in the alphabet as well as in the
 cross-check against the spelled *pensaria* earlier in the paragraph (same `⊃`, `8`, `7`, `4`) and
 against `ʒ` = r, already confirmed twice.
 
-Thirty-one values confirmed, thirteen probable.
+### A name spelled out
+
+Further down, between *a v. Mt.* and the clear words *es el principal*, the cipher carries the
+plaintext **El camarero Pedro**. *Pedro* is spelled `⊃ 8 x ʒ m` — five signs for five letters, of
+which p, e, d and r are already confirmed, so the last one falls out: **`m` = o**.
+
+The alphabet so far: `⊃`=p, `8`=e, `ʒ`=r, `x`/`6`=d, `L`=i, `7`=a, `4`=n, `m`=o.
+
+Thirty-three values confirmed, fourteen probable.
 
 *One caution:* the sign transcribed `∞` reads as **t** in *tiene* but seemed to be **s** in
 *pensaria*. One of the two transcriptions is wrong. It is left unassigned rather than guessed.
