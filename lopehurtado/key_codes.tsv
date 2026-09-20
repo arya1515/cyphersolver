@@ -22,7 +22,7 @@ zun	da	confirmed	"zun top" + clear "descargo de los q" against plaintext "da por
 ᵷʒ7	era	confirmed	R9644 f.238 vs clear f.241: "si algo se le dixesse pensaria QUE ERA PARA no les dar nada"
 teɡ	para	confirmed	same run
 zunʒ	dar	confirmed	same sentence; = zun (da) + the letter r, which re-confirms zun
-ʒ	r (letter)	confirmed	twice: the r of "pensaria" spelled out, and zun+ʒ = "dar"
+ʒ	r (letter)	probable	twice: the r of "pensaria" spelled out, and zun+ʒ = "dar" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
 zar	de	confirmed	three contexts: "los criados DE su Sa"; "que nueva tenia DE Francia"; and "con el arcobispo DE Cosenza" (R9648 f.264). Supersedes the earlier guess "Bari", which was wrong
 ʃid	Sa (Su Santidad)	confirmed	R9644 f.237 section A: 'ʃʃ ʃid' = 'su Sa' in 'prevenga a su Sa'
 ta	no	confirmed	R9644 f.238 vs clear f.241, fully aligned run "no les dar nada y diria que no queria que lo"; a homophone of tu
@@ -32,20 +32,20 @@ xur	na (syllable)	confirmed	same run: xur+zun = na+da = "nada"
 ℔∞7	-ria (ending)	confirmed	same run: ton+℔∞7 = que+ria = "queria"
 x∞ʒ∞7	diria (spelled)	confirmed	same run, five signs for d-i-r-i-a
 ℔∞74	-rian (ending)	confirmed	R9644 f.238: ton+zun+℔∞74 = que+da+rian = "quedarian"
-4	n (letter)	confirmed	twice: the n of the spelled "pensaria", and the -n of "quedarian"
+4	n (letter)	probable	twice: the n of the spelled "pensaria", and the -n of "quedarian" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
 ∞L84℔ɋ	tiene	confirmed	R9644 f.238 vs clear f.241, exact-count run "tiene perdida la esperança"
 ⊃8ʒxL67	perdida (spelled)	confirmed	same run; seven signs for the seven letters p-e-r-d-i-d-a
 xuɡ	la	confirmed	same run
 ɣufɋ	esperança	confirmed	same run
 # --- letter alphabet, from the spelled "perdida" ---			
-⊃	p (letter)	confirmed	"perdida"; also the p of the spelled "pensaria"
-8	e (letter)	confirmed	"perdida"; also the e of "pensaria"
-x	d (letter)	confirmed	"perdida"
-6	d (letter, homophone of x)	confirmed	"perdida" spells d twice, with two different signs
-L	i (letter)	confirmed	"perdida"
-7	a (letter)	confirmed	"perdida"; also the a of "pensaria"
+⊃	p (letter)	probable	"perdida"; also the p of the spelled "pensaria" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
+8	e (letter)	probable	"perdida"; also the e of "pensaria" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
+x	d (letter)	probable	"perdida" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
+6	d (letter, homophone of x)	probable	"perdida" spells d twice, with two different signs — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
+L	i (letter)	probable	"perdida" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
+7	a (letter)	probable	"perdida"; also the a of "pensaria" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
 ⊃8xʒm	Pedro (spelled)	confirmed	R9644 f.238 vs clear f.241 "El camarero Pedro es el principal"; five signs for five letters, with p/e/d/r already confirmed
-m	o (letter)	confirmed	the final letter of the spelled "Pedro"
+m	o (letter)	probable	the final letter of the spelled "Pedro" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
 ɣub	el	confirmed	R9648 f.262, exact-count run "y que el papa no esta en que venga"
 tod	otro (+s = otros)	confirmed	R9644 f.238 "los otros si no los", exact slot
 # --- first values won on a NON-DECRYPTED record (R9648 f. 262) ---			
@@ -68,7 +68,7 @@ xLᵹ7	haga	confirmed	two contexts: R9644 section A "no haga lo que es obligado"
 # RETRACTED  ᵹ847 = "tenia"  — conflicts with ᵹʒ4∞ = tenia (confirmed); one of the two transcriptions is wrong
 ʃuf	tanta	probable	same slot
 xᵹ4	don (spelled d-o-n)	confirmed	R9644 f.237 last line, exact slot "quedo de don Joan"; fixes ᵹ = o
-ᵹ	o (letter, homophone of m)	confirmed	the o of the spelled "don" (x-ᵹ-4 = d-o-n) in "quedo de don Joan"
+ᵹ	o (letter, homophone of m)	probable	the o of the spelled "don" (x-ᵹ-4 = d-o-n) in "quedo de don Joan" — DOWNGRADED 2026-09-20: this rests on eye-transcription of a glyph, not on a latin-legible trigram. An 8x zoom on the spelled "perdido" shows two signs that must be different letters looking near-identical at the zoom these values were read at.
 ɣᵹb	duque	confirmed	R9644 f.237 "ℋ zarᵹ ɣᵹb" at the clear's "del duque" — the Duke of Sessa, imperial ambassador at Rome
 zarᵹ	del	confirmed	same: zar (de) + one sign
 # --- names and content nouns, from the R9650 crib (f.269 cipher vs f.272 clear) ---			

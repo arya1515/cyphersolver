@@ -484,6 +484,29 @@ That is the honest ceiling of the present key on an uncribbed letter: **the func
 names resolve, the spelled content words do not.** These five letters will read in substance and not
 word for word until the alphabet is fuller.
 
+## Correction: the alphabet signs are downgraded to probable
+
+An 8× zoom on the spelled *perdido* in R9648 f. 264 settles a doubt the other way from the hoped-for
+one. At that magnification the word resolves into seven distinct glyphs, as it should — but the
+signs in positions 2 and 6, which must be **e** and **d**, look near-identical. They were read as
+different letters at the zoom the alphabet values were taken at.
+
+The conclusion is uncomfortable and is recorded rather than buried: **the nine alphabet values were
+labelled `confirmed` on weaker evidence than that word implies**, and all ten sign entries are
+**downgraded to `probable`**, with the reason written into each row.
+
+The distinction that matters, and that the audit should have drawn earlier:
+
+- **Code groups are safe.** They are written as ordinary latin trigrams — `ton`, `zar`, `rab`,
+  `xul` — legible without paleographic judgement, and they cross-check against each other across
+  letters and constructions. Forty-seven of them stand.
+- **Alphabet signs are not.** They rest on discriminating one cursive shape from another at the
+  limit of what the scans carry. Any of them could be a homophone of a sign I have read as something
+  else, and *perdido* shows exactly that failure mode.
+
+`decode.py` now shows every alphabet value in angle brackets, so no reading can lean on one without
+it being visible.
+
 ## Where the work is now limited: the alphabet, not the nomenclator
 
 The two halves of this cipher are not equally tractable at the resolution DECODE serves.

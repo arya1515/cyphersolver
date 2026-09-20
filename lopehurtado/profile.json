@@ -157,7 +157,7 @@
     ],
     "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with homophones at code level (ta and tu both = 'no'), codes used for syllables as well as whole words, and long words spelled letter by letter between the codes.",
     "symbol_kind": "letters and symbols",
-    "distinct_symbols": 50,
+    "distinct_symbols": 47,
     "diacritics": {
       "used": "unknown"
     },
@@ -168,7 +168,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 65,
+      "entries": 47,
       "kinds": [
         "common words",
         "names",
@@ -427,6 +427,18 @@
       "kind": "control",
       "what": "Measured the key on R9645, a record with no crib of any kind: 57% of tokens resolve with confirmed values only. It decodes to 'se si no con [...] con vuestra magestad, que no [...] en [...] esta[do] [...] de vuestra magestad' - the shape and subject of the sentence with the content words missing. That is the honest ceiling of the present key on an uncribbed letter: function words and names resolve, spelled content words do not.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "CORRECTION. An 8x zoom on the spelled 'perdido' in R9648 f. 264 shows the word resolving into seven distinct glyphs, but with the signs in positions 2 and 6 - which must be e and d - looking near-identical. They had been read as different letters at the lower zoom the alphabet values were taken at. So the nine alphabet values were labelled 'confirmed' on weaker evidence than that word implies. All ten sign entries downgraded to probable, with the reason written into each row; decode.py now shows every alphabet value in angle brackets. The distinction the earlier audit should have drawn: code groups are written as ordinary latin trigrams, legible without paleographic judgement and cross-checking against each other, so the 47 of them stand; alphabet signs rest on discriminating cursive shapes at the limit of the scans and do not.",
+      "result": "ruled out"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Re-measured coverage after the downgrade, with decode.py applying confirmed values only: R9650 f. 270 still 62%. The coverage figures were carried almost entirely by the code groups, so the downgrade does not move them - which is itself the evidence that the nomenclator and the alphabet are independent, and that the reading rests on the safe half.",
+      "result": "worked"
     }
   ],
   "outcome": {
@@ -436,6 +448,6 @@
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 57 code and sign values fixed against that plaintext and 19 probable, kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the six records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - nine signs fixed, the rest limited by per-glyph discrimination on these scans."
+    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 47 CODE values fixed against that plaintext and 29 probable (the 10 substitution-alphabet signs were downgraded to probable on 20 Sept after an 8x zoom showed signs that must be different letters looking near-identical at the zoom they were read at; the code groups, being plain latin trigrams that cross-check, are unaffected), kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the six records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - nine signs fixed, the rest limited by per-glyph discrimination on these scans."
   }
 }
