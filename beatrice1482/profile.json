@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "target": "beatrice1482",
+  "title": "Beatrice d'Aragona: DECODE R1140, R1141, R1142, R1143, R1154",
+  "documents": [
+    {
+      "id": "R1140",
+      "shelfmark": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 4a",
+      "date": "1482-05-31",
+      "year": 1482,
+      "country": "Hungary",
+      "route": "Pozsony -> Ferrara",
+      "language": "Italian",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "printed edition"
+        ],
+        "source": "MDE III (1877), no. 10, pp. 13-14",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "published",
+        "source": "MDE III (1877), no. 10, pp. 13-14",
+        "image_quality": "good",
+        "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+      }
+    },
+    {
+      "id": "R1141",
+      "shelfmark": "State Archives of Modena, Cancelleria, 1523, b. 2/2, 2, 5a",
+      "date": "1482-06-08",
+      "year": 1482,
+      "country": "Hungary",
+      "route": "Pozsony -> Ferrara",
+      "language": "Italian",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "printed edition"
+        ],
+        "source": "MDE III (1877), no. 12, pp. 16-17",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "published",
+        "source": "MDE III (1877), no. 12, pp. 16-17",
+        "image_quality": "good",
+        "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+      }
+    },
+    {
+      "id": "R1142",
+      "shelfmark": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 10",
+      "date": "1486-03-08",
+      "year": 1486,
+      "country": "Hungary",
+      "route": "Buda -> Ferrara",
+      "language": "Italian",
+      "pages": 5,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "printed edition"
+        ],
+        "source": "MDE IV (1878), supplement no. 45, pp. 367-368 (cipher passage); MDE III no. 54 p. 67 (closing); Berzeviczy 1914 no. LVI (plain body)",
+        "partial": "unknown"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "published",
+        "source": "MDE IV (1878), supplement no. 45, pp. 367-368 (cipher passage); MDE III no. 54 p. 67 (closing); Berzeviczy 1914 no. LVI (plain body)",
+        "image_quality": "good",
+        "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+      }
+    },
+    {
+      "id": "R1143",
+      "shelfmark": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/2, 2, 18",
+      "date": "1486-05-02",
+      "year": 1486,
+      "country": "Hungary",
+      "route": "Buda -> Ferrara",
+      "language": "Italian",
+      "pages": 3,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "source": "MDE III (1877), no. 75, pp. 93-96; manuscript decipherment slips in images P1/P4",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "published",
+        "source": "MDE III (1877), no. 75, pp. 93-96; manuscript decipherment slips in images P1/P4",
+        "image_quality": "good",
+        "notes": "Identified older reading by manuscript/edition comparison; no fresh exhaustive glyph transcript. R1143 photographs include repeated views with slips moved."
+      }
+    },
+    {
+      "id": "R1154",
+      "shelfmark": "State Archives of Modena, Carteggio Principi Esteri, 1623, b. 2/7, 11",
+      "date": "1505-05-29",
+      "year": 1505,
+      "country": "Hungary",
+      "route": "Napoli -> Ferrara",
+      "language": "Italian",
+      "pages": 1,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "printed edition"
+        ],
+        "source": "Berzeviczy (1914), no. CCCII, pp. 423-424; this is a plain letter, not a decipherment",
+        "partial": false
+      },
+      "length": {
+        "tokens": 0,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "published",
+        "source": "Berzeviczy (1914), no. CCCII, pp. 423-424; this is a plain letter, not a decipherment",
+        "image_quality": "good",
+        "notes": "Plain Italian: no cipher tokens. Date corrected against manuscript and edition."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "Four mixed plain/cipher letters in graphic substitution systems, plus one misclassified plain Italian letter; no key reconstructed here.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "Cipher alphabets differ; March 1486 closing states a new key is enclosed. R1154 is not a cipher. Exact system properties remain unmeasured."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in print",
+      "where": "MDE III 1877, IV 1878, Berzeviczy 1914; R1143 also has manuscript decipherment slips. R1154 is plain text.",
+      "found": "before attempt",
+      "used": true
+    },
+    "inputs": [
+      "images",
+      "published reading"
+    ],
+    "attack": "none",
+    "human_role": "Supplied target catalogue entry and pointed out available DECODE cookie.",
+    "models": [
+      "GPT-6"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-20",
+    "last_date": "2026-09-20",
+    "tools": [
+      "Python urllib (authorized DECODE downloads)",
+      "pypdf source extraction",
+      "pypdfium2 page rendering",
+      "Pillow manuscript previews"
+    ]
+  },
+  "solution": [
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Extracted five exact dates, recipients and shelfmarks from cached DECODE metadata; web reader could not open live DECODE page.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "Retrieved Cryptiana index and Berzeviczy 1914 OCR. Located 8 March 1486 letter in no. LVI, not yet compared to cipher.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Used existing user-authorized DECODE cookie to acquire all 18 images. R1143 has repeated photographs with decipherment slips moved.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "Located MDE III nos. 10 and 12 for both 1482 letters, III no. 75 for May 1486, IV supplement no. 45 for March cipher and III no. 54 for its closing.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Matched dates, clear wording, cipher boundaries and R1143 manuscript slips to older readings. Rendered print confirms italics and March Virtus/Fortis/M. markers. No exhaustive key verification claimed.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "R1154 is plain Italian, explicitly says per non havere cifra; manuscript dates it quingentesimo quinto (1505), agreeing with Berzeviczy no. CCCII.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Visual inspection of MDE III p. 17 corrects OCR holla to printed balla. Preserve machine extracts as uncorrected evidence.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Checked saved source extracts against body-text phrases; corrected initial Berzeviczy extraction that matched the contents entries instead of the letters. Report, profile and local write-up checks passed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "fraction_read": "unknown",
+    "verification": [
+      "independent clear copy",
+      "historical consistency"
+    ],
+    "notes": "Prior-art resolution: four letters have older printed readings, one is not a cipher. March edition retains unexplained Virtus/Fortis/M. markers. No new decipherment, recovered key or measured glyph coverage."
+  }
+}

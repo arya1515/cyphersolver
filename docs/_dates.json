@@ -11,6 +11,7 @@
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
+  "beatrice d’aragona, 1482–1505": "2026-09-20",
   "berthier to napoleon, 1812": "2026-09-15",
   "birago to nevers, 1571": "2026-09-16",
   "blume salamanca telegram, 1937": "2026-09-15",
@@ -127,6 +128,11 @@
    "hash": "d458d383131b",
    "updated": "2026-09-19"
   },
+  "beatrice1482": {
+   "first": "2026-09-20",
+   "hash": "f8049ea24b68",
+   "updated": "2026-09-20"
+  },
   "bethune": {
    "first": "2026-09-17",
    "hash": "0c9fc6ba1255",
@@ -159,7 +165,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0eb8e74c8da6",
+   "hash": "06a27cabd7d5",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -259,7 +265,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "e0ba100e3777",
+   "hash": "44f1e7d4eeb2",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -509,7 +515,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "38f63b28ed5a",
+   "hash": "bd67b9ae1ad9",
    "updated": "2026-09-20"
   },
   "yard1699": {

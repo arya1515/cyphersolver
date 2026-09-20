@@ -165,6 +165,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 ## Third tier: found already solved by others
 
+**Beatrice d'Aragona (1482–1505; catalogue 160)** — source identification, not ranked as a new cryptanalytic solve. Four readings in MDE III–IV (1877–78); R1154 plain and dated 1505, with Berzeviczy (1914) no. CCCII as control. March editorial markers remain unverified. [Write-up](https://dbourdeau.github.io/cyphersolver/beatrice1482.html).
+
 Ordered by how much this repo added.
 
 1. **ADFGVX, Eastern Front 1918.** The 2017 thread consolidated, Lasry's sixteenth key rebuilt, Biermann's

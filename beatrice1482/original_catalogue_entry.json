@@ -1,0 +1,55 @@
+{
+ "id": 160,
+ "counted": true,
+ "year": 1482,
+ "date": "31 May 1482 – 29 May 1504",
+ "title": "Beatrice d'Aragona (Pozsony) to Eleonora d'Aragona / Ippolito I d'Este, 5 ciphertexts",
+ "correspondents": "Beatrice d'Aragona → Eleonora d'Aragona / Ippolito I d'Este",
+ "place": "Pozsony",
+ "language": "Italian",
+ "region": "Italy",
+ "period": "before 1497",
+ "shelfmark": "ASMo, Cancelleria, b. 2/2 (5 items)",
+ "folio_note": "",
+ "cls": "B",
+ "status": "DECODE R1140–R1154 (5 records): Partially decrypted, 13 pp., homophonic, nomenclator, simple substitution; graphic signs, numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. ",
+ "why": "Queen Beatrice of Hungary, Ercole I d'Este's sister-in-law, writing to her sister Eleonora and her nephew Ippolito, from 1482 onwards.",
+ "importance": 4,
+ "solvability": 3,
+ "difficulty": 3,
+ "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Pre-1497 in part: DECODE dates the group 1482–1504, check which letters are before 1497.",
+ "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+ "ark": "",
+ "links": [
+  {
+   "label": "DECODE R1140",
+   "href": "https://de-crypt.org/decrypt-web/RecordsView/1140"
+  },
+  {
+   "label": "DECODE R1141",
+   "href": "https://de-crypt.org/decrypt-web/RecordsView/1141"
+  },
+  {
+   "label": "DECODE R1142",
+   "href": "https://de-crypt.org/decrypt-web/RecordsView/1142"
+  },
+  {
+   "label": "DECODE R1143",
+   "href": "https://de-crypt.org/decrypt-web/RecordsView/1143"
+  },
+  {
+   "label": "DECODE R1154",
+   "href": "https://de-crypt.org/decrypt-web/RecordsView/1154"
+  }
+ ],
+ "seen": "catalogue",
+ "source": "DECODE",
+ "decode_ids": [
+  1140,
+  1141,
+  1142,
+  1143,
+  1154
+ ],
+ "scored": "reviewed"
+}
