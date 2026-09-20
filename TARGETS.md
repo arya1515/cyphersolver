@@ -46,6 +46,14 @@ print, catalogue wrong) · `stuck` · `offline-only` (needs archive access or co
 | 29 | Warsaw, 24 Dec 1627, Italian, to the Bishop of Olmütz? (DECODE R1408; cryptiana variable2.htm) | 1627 | Medium | **solved** | `warsaw/` | 2026-09-16: 295 two-figure groups, 13 word codes, letter pairs, nulls *a m*. Homophonic substitution with the alphabet in plain order (odd 13-33 = a-m, even 14-32 = n-z), letter pairs as consonant alternates (ll t, th l, zg r, lu d, fi n, pr ff), 01-09 / 40-50 as syllables and particles (si non ne de con al la di de da che se). Found by a 5-gram + dictionary-coverage annealer converging from random and seeded starts (−371 vs −843…−893 on three shuffles); the alphabet order was not given to the solver. Every spelled word reads: a promised canonry of *Olmiz* for one of the sons of "this Most Serene [Queen]" has not been carried out and "these Majesties" want it; places *Nicolspurg* and *Olmiz* point to Cardinal Dietrichstein as addressee (inference). Ten word codes and three small groups glossed only. DECODE still Non-decrypted |
 | 38 | Del Vasto → Charles V and the Garbino memoir, BnF fr. 3022 nos. 6, 10, 20 (catalogue item 7, class C) | 1527–28 | Hard | **no. 10 found-solved (Lasry 2023 / Tomokiyo 2026); no. 6 read (codes identified this session); no. 20 not solved** | `vasto1527/` | 2026-09-18. No. 6 is del Vasto's own Dec 1527 letter (cites his 6 Nov and 27 Sept letters; awaits Orange "de aqui a tres dias"). Lasry's Cipher-2 letter-level decryption checked against f. 16v, and ~40 of its b-/c-/d- code groups identified from context (doz=Lautreque, deh=la Marca, bog=buelta, ceg=hombre, daf=quiere, dor=para, baf=primero, dnb=dinero, biq=duque, boq=estado …); edited reading in `vasto1527/n6_reading.md`. No. 20 is Italian, Madrid 11 Apr 1528, to "Garbino", in the same code as Hieronimo Ranzo's signed letters (fr. 2988 ff. 2, 9–10). The code is initial-letter + number, with non-alphabetical numbering (tested; z≈−0.5 vs a +6.5 power control); the addition sheet and jargon are at ff. 48–50v. ~3,900 groups transcribed (no. 20 + Ranzo). The word annealer recovers only the function-word skeleton (46 % token / 9 % type accuracy on a held-out control). Clair. 327 ff. 279–280 is an undeciphered 18th-c. copy of no. 20. Needs the base key or cribs. See `vasto1527/NOTES.md` |
 
+## Open investigation update: Hellen, 1752–1763
+
+20 September 2026: seven catalogue ciphertexts and supporting R1046 remain unread.
+The transcription parser was audited; random code ordering and homophone clusters
+remain hypotheses. Next: retrieve Fagel 5206 decipherments (1752–1753) and check
+for the 4 January letter. [Progress report](https://dbourdeau.github.io/cyphersolver/hellen1752.html)
+· [audit](hellen1752/AUDIT_2026-09-20.md).
+
 ## Where we are ahead of the source (2026-09-15)
 
 The source page (last modified 6 Sept 2026) still lists these as unsolved. Results here are not yet reported to

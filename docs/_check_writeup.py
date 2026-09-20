@@ -161,7 +161,8 @@ def check_slug(slug):
         item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
     if mine:
         name = key_words(mine[0]['target'])
-        for f in ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md'):
+        ledgers = ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md') if st != 'stuck' else ('TARGETS.md',)
+        for f in ledgers:
             item(name.lower() in read(ROOT / f).lower(), f'{f} mentions "{name}" (checked by name, confirm the row by eye)',
                  warn=(f == 'TARGETS.md'))
     print('  result:', 'complete' if ok else 'INCOMPLETE - see MISS lines')

@@ -185,6 +185,7 @@ Nothing more can be done online; the key or the text is located in an archive.
 
 | Target | Date | State | Where |
 |---|---|---|---|
+| Hellen → Frederick II, KHA Prins Willem V inv. 196 (seven catalogue targets plus R1046) | 1752–1763 | **Unsolved; investigation open** (20 Sept 2026). Transcription parser audited; repeated passage confirmed on the manuscript. Fagel 5206 lists deciphered letters from 1752–1753, but no matching text or key has been verified. | [`hellen1752/`](hellen1752/) · [write-up](https://dbourdeau.github.io/cyphersolver/hellen1752.html) |
 | "BLUME SALAMANCA" telegrams, Zurich → London | 1937 | Transposition of telegraphic Spanish. Every single transposition and every double columnar with a second key of ten or fewer letters excluded against planted controls (lag scan plus exhaustive second-key enumeration). Open: double columnar with two long keys; needs the second telegram. Attempted, not solved | [`blume/`](blume/) |
 | "KR Blitz" Enigma message, OB Oberrhein → OKW, 10 Jan 1945 (TARGETS no. 19) | 1945 | Ciphertext-only attack begun 16 Sept 2026; the first pass is partial and has produced no convincing plaintext | [`enigma/`](enigma/) |
 

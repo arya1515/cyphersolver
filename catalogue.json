@@ -7035,8 +7035,8 @@
    "counted": true,
    "year": 1752,
    "date": "4 Jan 1752 – 5 Jul 1763",
-   "title": "W.B. von der Hellen (The Hague) to Frederick I King of Prussia (1712-1786) / King Frederick I t of Prussia (the Great) (1712-1786), 7 ciphertexts",
-   "correspondents": "W.B. von der Hellen → Frederick I King of Prussia (1712-1786) / King Frederick I t of Prussia (the Great) (1712-1786)",
+   "title": "W.B. von der Hellen (The Hague) to Frederick II of Prussia, 7 ciphertexts",
+   "correspondents": "W.B. von der Hellen → Frederick II of Prussia (1712–1786)",
    "place": "The Hague, United Provinces",
    "language": "French",
    "region": "Low Countries",
@@ -7044,13 +7044,13 @@
    "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 196 (7 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1045–R1953 (7 records): Non-decrypted, 16 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Intercepted letter, unsolved.",
-   "why": "Ciphered despatches of W.B. von der Hellen to Frederick I King of Prussia (1712-1786) / King Frederick I t of Prussia (the Great) (1712-1786), 4 Jan 1752 – 5 Jul 1763; what the cipher hides is not known.",
+   "status": "20 Sept 2026: attempted, open. Existing DECODE images and transcriptions audited; uncertainty-preserving parser added and repeated R1953 passage confirmed on the manuscript. No verified plaintext or key. Fagel 5206 lists digitized decipherments from 1752–1753; no matching text retrieved.",
+   "why": "Intercepted reports from The Hague to Frederick II; the enciphered passages remain unread in this investigation.",
    "importance": 4,
    "solvability": 3,
    "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+   "score_note": "Original rule-based scores retained; the 20 Sept 2026 audit does not establish codebook ordering or a verified decipherment.",
+   "verify": "Retrieve Nationaal Archief 1.10.29, Fagel 5206 and check for 4 Jan 1752; collate doubtful figures and marks against manuscript images. Do not assume the 1763 key is the same.",
    "ark": "",
    "links": [
     {
@@ -7078,11 +7078,11 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1061"
     },
     {
-     "label": "+1 more records",
-     "href": null
+     "label": "DECODE R1953",
+     "href": "https://de-crypt.org/decrypt-web/RecordsView/1953"
     }
    ],
-   "seen": "catalogue",
+   "seen": "images and transcriptions; spot-checked",
    "source": "DECODE",
    "decode_ids": [
     1045,
@@ -7093,7 +7093,9 @@
     1061,
     1953
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "hellen1752.html"
   },
   {
    "id": 217,
@@ -7315,8 +7317,8 @@
    "counted": true,
    "year": 1763,
    "date": "15 Apr 1763",
-   "title": "W.B. von der Hellen, Prussian envoy (The Hague) to Frederick I King of Prussia (1712-1786)",
-   "correspondents": "W.B. von der Hellen, Prussian envoy → Frederick I King of Prussia (1712-1786)",
+   "title": "W.B. von der Hellen (The Hague) to Frederick II of Prussia, 15 April 1763",
+   "correspondents": "W.B. von der Hellen → Frederick II of Prussia (1712–1786)",
    "place": "The Hague, United Provinces",
    "language": "French",
    "region": "Low Countries",
@@ -7324,13 +7326,13 @@
    "shelfmark": "Koninklijk Huisarchief,Prins Willem V, inv.nr. 196",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1046: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Intercepted letter, unsolved.",
-   "why": "Ciphered letter of W.B. von der Hellen, Prussian envoy to Frederick I King of Prussia (1712-1786), 15 Apr 1763; what the cipher hides is not known.",
+   "status": "20 Sept 2026: attempted, open. Existing DECODE images and transcriptions audited; uncertainty-preserving parser added and repeated R1953 passage confirmed on the manuscript. No verified plaintext or key. Fagel 5206 lists digitized decipherments from 1752–1753; no matching text retrieved.",
+   "why": "Intercepted reports from The Hague to Frederick II; the enciphered passages remain unread in this investigation.",
    "importance": 3,
    "solvability": 2,
    "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+   "score_note": "Original rule-based scores retained; the 20 Sept 2026 audit does not establish codebook ordering or a verified decipherment.",
+   "verify": "Retrieve Nationaal Archief 1.10.29, Fagel 5206 and check for 4 Jan 1752; collate doubtful figures and marks against manuscript images. Do not assume the 1763 key is the same.",
    "ark": "",
    "links": [
     {
@@ -7338,12 +7340,14 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1046"
     }
    ],
-   "seen": "catalogue",
+   "seen": "images and transcriptions; spot-checked",
    "source": "DECODE",
    "decode_ids": [
     1046
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "hellen1752.html"
   },
   {
    "id": 224,

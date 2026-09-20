@@ -43,6 +43,7 @@
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
+  "hellen to frederick ii, 1752–1763": "2026-09-20",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
   "henri iv to maisse at venice, 1592–93": "2026-09-19",
@@ -165,7 +166,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "06a27cabd7d5",
+   "hash": "ba347aa582ba",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -238,6 +239,11 @@
    "hash": "48757d408cd2",
    "updated": "2026-09-18"
   },
+  "hellen1752": {
+   "first": "2026-09-20",
+   "hash": "2922b851654b",
+   "updated": "2026-09-20"
+  },
   "herbault1626": {
    "first": "2026-09-18",
    "hash": "3896075f49c1",
@@ -265,7 +271,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "44f1e7d4eeb2",
+   "hash": "bb7d881ba0ee",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -515,7 +521,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "bd67b9ae1ad9",
+   "hash": "1679de3d8592",
    "updated": "2026-09-20"
   },
   "yard1699": {
