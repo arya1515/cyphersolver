@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "target": "charlesixducroc",
+ "title": "Charles IX to Philibert du Croc, undated (1565–1567 or 1572), DECODE R2789",
+ "documents": [
+  {
+   "id": "R2789",
+   "shelfmark": "Archives départementales de la Nièvre, fonds du Bourg de Bozas (exact cote not given by Destray)",
+   "date": "undated (1565–1567 or 1572)",
+   "year": 1565,
+   "country": "France",
+   "route": "French court -> Scotland",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": ["unrelated source"],
+    "source": "George Lasry's plaintext overlay, published by Satoshi Tomokiyo on Cryptiana on 25 May 2022",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Lasry overlay checked against authenticated DECODE scans and Destray's Gallica facsimile",
+    "image_quality": "good",
+    "notes": "The published overlay leaves several groups as question marks; READING.md preserves those gaps. No independent sign-by-sign ciphertext transcription was made."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "nomenclator"],
+  "summary": "A sixteenth-century French homophonic symbol substitution with special signs for common words, names, and titles.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "variable",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": true},
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": ["common words", "names", "places", "titles", "phrases"],
+   "unread_groups": "unknown"
+  },
+  "nulls": {"present": "unknown", "count": "unknown"},
+  "key_order": "unknown",
+  "word_division": "partial",
+  "doubled_letters": "unknown",
+  "sibling_key": "Lasry's published key for this Charles IX–du Croc system; the 27 April 1567 Catherine de Médicis–du Croc letter uses a different symbol set.",
+  "notes": "The classification and word-sign values come from Lasry's published overlay/key, not a key reconstructed in this project."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Satoshi Tomokiyo, Cryptiana, GL.htm, overlay supplied by George Lasry",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": ["images", "published reading", "published key"],
+  "attack": "none",
+  "human_role": "The user logged in to DECODE, making the authenticated images available in the in-app browser.",
+  "tools": ["authenticated browser access", "literature search", "image comparison"],
+  "models": ["gpt-5"],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Opened DECODE R2789 with the user's authenticated session and exported both manuscript pages.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Read Destray's cited edition and found the same facsimile on Gallica; it identifies the item as document XLIII, without place or date.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Followed the cited Cryptiana prior art and found George Lasry's complete-page plaintext overlays published in 2022.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "verification",
+   "what": "Compared the DECODE scans, Destray's Gallica facsimile, and Lasry's overlays; page layout, signatures, and every visible line correspond.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Transcribed the published overlay diplomatically and normalized its secure substance, retaining all visible gaps and uncertain phrases.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": ["historical consistency"],
+  "notes": "The prior solution reads the letter in substance but leaves several signs or short phrases unresolved. No new cryptanalytic solve is claimed."
+ }
+}

@@ -315,41 +315,6 @@
    "verify": "Sweep fr. 3977 around no. 96 for cipher leaves."
   },
   {
-   "id": 34,
-   "counted": true,
-   "year": 1550,
-   "date": "1 Jan 1550",
-   "title": "Charles IX to Philibert du Croc",
-   "correspondents": "Charles IX → Philibert du Croc",
-   "place": "",
-   "language": "probably French",
-   "region": "Other",
-   "period": "1497-1559",
-   "shelfmark": "",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R2789: Non-decrypted, 2 pp., type not given; graphic signs; images public. Not viewed here. DECODE cites a printed text or article: check whether it already reads the cipher. DECODE note: Printed in Paul Destray (1924), Un diplomate français du XVIe siècle: Philibert du Croc (Gallica) (p.80 and the next leaf). See S. Tomokiyo, \"French ciphers during the Reigns of Charles IX and Henry III\" (http://cryptiana.web.fc2.com/code/henryiii.htm) for con…",
-   "why": "Ciphered letter of Charles IX to Philibert du Croc, 1 Jan 1550; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Read the cited publication first: it may already give the reading.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2789",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2789"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2789
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 35,
    "counted": true,
    "year": 1710,

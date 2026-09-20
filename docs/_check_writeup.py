@@ -38,6 +38,7 @@ def manifest():
     images = {}
     if im:
         for m in re.finditer(r"'([a-z0-9]+)': (\(|None)", im.group(1)): images[m.group(1)] = m.group(2) == '('
+    for m in re.finditer(r"^IMAGES\['([a-z0-9]+)'\] = (\(|None)", s, re.M): images[m.group(1)] = m.group(2) == '('
     version = re.search(r"^VERSION = '([^']+)'", s, re.M)
     return pages, images, version.group(1) if version else ''
 
