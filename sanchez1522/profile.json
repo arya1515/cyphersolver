@@ -282,11 +282,17 @@
       "kind": "reading",
       "what": "Edition continued: ll. 22-25 of R9635 f. 20r. 'darian todos los ...'; 'no pude de ... los'; 'si no se ... en'; and the page ends opening a fresh paragraph with the three nulls and 'los de esta republica'. cag is proposed as xxx (end of the numeral run, immediately before cig 'ya') but marked probable, not certain, being one slot past the attested run. Coverage about six sevenths of the page; ll. 5, 8, 15, 16 still untranscribed.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "l. 5 of R9635 f. 20r: xof veg + p-r-i-m-e-r-o + xig ta = 'da el primero de es[te]', which fixes B = m on this page independently of 'camino' in R9605. At high zoom the ending of capitulacion on l. 11 is the curly second form of c that Tomokiyo draws as backwards-3, so capitulacion is settled rather than inferred. Coverage about nine tenths of f. 20r; ll. 8, 15, 16 remain.",
+      "result": "partial"
     }
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": 0.45,
+    "fraction_read": 0.55,
     "verification": [
       "key confirms",
       "contemporary decipherment",
