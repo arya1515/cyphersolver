@@ -32,6 +32,35 @@
         "image_quality": "good",
         "notes": "Only the crib passage on f. 238 is transcribed so far; the count is of code groups aligned to the clear with exact word counts, counted by hand, not measured by _check_profile.py."
       }
+    },
+    {
+      "id": "R9650",
+      "shelfmark": "RAH, Signatura 9/26, f. 269-272 (DECODE R9650)",
+      "date": "Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 10,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "DECODE records this as Decrypted; a contemporary clear version is bound with it",
+        "partial": true
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "good",
+        "notes": "Used so far only to confirm that the same key runs across Hurtado's letters; not transcribed."
+      }
     }
   ],
   "system": {
@@ -131,6 +160,12 @@
       "date": "2026-09-20",
       "kind": "key from source",
       "what": "Second anchor on f. 238: 'zun top' immediately before the clear words 'descargo de los q', against plaintext 'da por descargo de lo que dexa'. Confirms top = por in an independent context and gives zun = da. Also shows long words spelled letter by letter between the codes (a ten-sign run where 'satisfecho' must be, an eight-sign run where 'servidor' must be). Nine values now confirmed, twelve probable, kept apart in a confidence column.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Checked R9650 f. 270 (the other Decrypted record): ton tab xud stand there in identical forms, and top again immediately precedes clear words in a slot reading 'por disimular en este caso' - a third independent context for top = por. tu and zun recur. So Hurtado used one key across these letters and values won on R9644 carry to the rest, which is what makes the six non-decrypted records reachable.",
       "result": "worked"
     }
   ],

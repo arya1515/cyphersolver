@@ -100,6 +100,20 @@ Nine values are now confirmed against the clerk's own plaintext, twelve more pro
 `key_codes.tsv` file keeps the two apart in a `confidence` column; nothing probable is being used to
 derive anything else.
 
+## The key is shared across his letters
+
+R9650 (9/26 ff. 269–272, the other *Decrypted* record) carries the same forms. On f. 270:
+
+> `ᵹᵹʒ` **`ton` `tab` `xud`** `ɣifLᵹ` `zil` `tod` · **`tu`** `ʃʃ℔℔ᵹLᵷ9ʒ7` `zun℔` `xil` `to7` **`top`** ·
+> *disimular en este caso v. Mt.*
+
+`ton tab xud` stands there in identical forms, and `top` again immediately precedes clear words in a
+slot that reads *por disimular en este caso* — a **third** independent context for `top` = *por*.
+`tu` and `zun` recur too.
+
+So Hurtado used one key across these letters, and values won on R9644 carry to the rest. That is what
+makes the six non-decrypted records reachable once the key is far enough along.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.
