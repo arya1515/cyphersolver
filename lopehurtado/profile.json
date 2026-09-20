@@ -47,8 +47,8 @@
         "location": [
           "separate folio"
         ],
-        "source": "DECODE records this as Decrypted; a contemporary clear version is bound with it",
-        "partial": true
+        "source": "its own full contemporary clear version on f. 272, headed as R9644's is",
+        "partial": false
       },
       "length": {
         "tokens": "unknown",
@@ -350,6 +350,12 @@
       "date": "2026-09-20",
       "kind": "control",
       "what": "Built decode.py, which applies only confirmed values (probables print in angle brackets, unknowns as ?tok) and reports coverage. Measured on two lines from records the key was not built on: R9650 f. 270 gives 8/13 = 62%, R9648 f. 262 gives 7/10 = 70%. So roughly two tokens in three resolve on sight in letters the crib does not cover. The misses are a few unmet nomenclator codes and the spelled runs, which need the alphabet. Good enough to follow the sense of a passage, not good enough to edit one.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "crib",
+      "what": "Found that R9650 also has its own full clear version, on f. 272, headed 'Al Rey - De Lope Hurtado de ...' exactly as R9644's. So there are TWO complete cribs covering two different letters. R9650's brings vocabulary the first lacks - franceses, Italia, dinero, Leon, yglesia, Hieronymo Adorno, don Joan Manuel, visorey de Napoles, posta - which are exactly the content nouns the key is short of. It also gives the letters' subject independently of the cipher: the French determined to come into Italy and sending a great sum of money to Lyon, the Pope to do what he can, Adorno having intercepted letters, the archbishop of Bari the channel to the Emperor.",
       "result": "worked"
     }
   ],

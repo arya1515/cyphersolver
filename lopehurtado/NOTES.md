@@ -381,6 +381,31 @@ missing homophone rather than a bad transcription.
 
 Fifty-five values confirmed, thirteen probable.
 
+## A second complete crib: R9650 f. 272
+
+R9650 has its own clear version, on **f. 272**, headed *Al Rey — De Lope Hurtado de …* exactly as
+R9644's does. It is a full letter, and a rich one:
+
+> Ayer vino posta **del arçobispo de Bari**; scrivieme de [xxiii] … dize que antes de seys dias
+> enbiaria aqui uno suyo con quien avisaria largo … En substancia me dize que **los franceses son
+> determinados de venir en Italia, y enbian gran suma de dinero a Leon**, y que es menester que se
+> entienda en la defensa, y que **el papa** haga lo que pudiere, pues le va mas que a nadie. Y he
+> dicho a su Sa que de **Hieronymo Adorno** me ha venido este aviso de unas cartas que ha tomado por
+> amor de v. ma … por servicio de Dios y remedio de la yglesia y de su estado deve pensar lo que ha
+> de hazer sin dilatar mas, porque despues no havra tiempo … trabajare de saber lo que el arçobispo
+> scrive y vere la respuesta de su Sa. Y luego avisare a v. ma, que agora no puede ser, porque **el
+> duque** me ha scrito que oy partira la posta … Yo le he avisado desto y a **don Joan Manuel** y al
+> **visorey de Napoles** …
+
+So there are **two complete cribs**, not one, covering two different letters — and this one brings
+new vocabulary the first does not have: *franceses*, *Italia*, *dinero*, *Leon*, *yglesia*,
+*Hieronymo Adorno*, *don Joan Manuel*, *visorey de Napoles*, *posta*. Those are exactly the content
+nouns the key is short of.
+
+It also tells us what the letters are *about*, independently of the cipher: the French are
+determined to come into Italy and are sending a great sum of money to Lyon; the Pope must do what he
+can; Adorno has intercepted letters; the archbishop of Bari is the channel to the Emperor.
+
 ## A measured coverage number
 
 `decode.py` resolves a transcribed token string against `key_codes.tsv`. It applies **only the
