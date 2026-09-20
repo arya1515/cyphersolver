@@ -79,6 +79,27 @@ Six tokens against six words, in a sentence with no room for slippage:
 
 Carried in `key_codes.tsv`.
 
+## A second anchor, on the same leaf
+
+Lower on f. 238 the cipher runs `… ɣof ∞7∞ᵷLʒ#8ʃ3m zun top │ descargo de los q │ …`, with
+*descargo de los q* standing in the clear on the cipher page. The plaintext at that point (f. 242)
+reads:
+
+> … las obras ningun servidor de v. ma la esta satisfecho; **da por descargo** de lo que dexa de
+> fazer la obligacion que tiene a procurar la paz …
+
+So `zun top` = **da por**, which
+
+- **confirms `top` = *por*** in a second, independent context (the first was `top ton` = *porque*);
+- gives **`zun` = *da***;
+- and shows the ten-sign run `∞7∞ᵷLʒ#8ʃ3m` standing where *satisfecho* must be, and the eight-sign
+  run `Ɉ℔ɸʒx℔4` where *servidor* must be — so long words are spelled out letter by letter between the
+  codes, as in Sánchez's cipher.
+
+Nine values are now confirmed against the clerk's own plaintext, twelve more probable. The
+`key_codes.tsv` file keeps the two apart in a `confidence` column; nothing probable is being used to
+derive anything else.
+
 ## Next
 
 - Work the rest of the R9644 alignment section by section, using the marginal A/B/C keys.

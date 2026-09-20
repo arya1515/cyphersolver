@@ -39,7 +39,7 @@
       "nomenclator",
       "homophonic"
     ],
-    "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, plus a substitution alphabet for spelled runs; same family as Sanchez's and Juan Manuel's 1522 ciphers but a distinct key.",
+    "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, with long words spelled letter by letter between the codes; same family as Sanchez's and Juan Manuel's 1522 ciphers but a distinct key.",
     "symbol_kind": "letters and symbols",
     "distinct_symbols": "unknown",
     "diacritics": {
@@ -125,6 +125,12 @@
       "date": "2026-09-20",
       "kind": "verification",
       "what": "Cross-checked against the sibling keys: xul = 'lo' here but 'despues' in Sanchez, so the keys are provably distinct. None of the seven confirmed codes appears in Tomokiyo's 173-code Juan Manuel table either, which is consistent with a third key but not conclusive since that table is partial.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "Second anchor on f. 238: 'zun top' immediately before the clear words 'descargo de los q', against plaintext 'da por descargo de lo que dexa'. Confirms top = por in an independent context and gives zun = da. Also shows long words spelled letter by letter between the codes (a ten-sign run where 'satisfecho' must be, an eight-sign run where 'servidor' must be). Nine values now confirmed, twelve probable, kept apart in a confidence column.",
       "result": "worked"
     }
   ],
