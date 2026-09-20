@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "target": "lopehurtado",
+  "title": "Lope Hurtado de Mendoza (Rome) to Charles V, 1522 — RAH Salazar 9/26, DECODE R9634–R9656",
+  "documents": [
+    {
+      "id": "R9644",
+      "shelfmark": "RAH, Signatura 9/26, f. 237-243 (DECODE R9644)",
+      "date": "1 Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 14,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary clear version on f. 242, headed 'Claro' section by section and keyed to the cipher by marginal letters A, B, C",
+        "partial": false
+      },
+      "length": {
+        "tokens": 7,
+        "unit": "code groups",
+        "measured": false,
+        "file": "key_codes.tsv"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20",
+        "image_quality": "good",
+        "notes": "Only the crib passage on f. 238 is transcribed so far; the count is of code groups aligned to the clear with exact word counts, counted by hand, not measured by _check_profile.py."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator",
+      "homophonic"
+    ],
+    "summary": "Three-letter consonant-vowel-consonant nomenclator codes mixed inline with clear Spanish, plus a substitution alphabet for spelled runs; same family as Sanchez's and Juan Manuel's 1522 ciphers but a distinct key.",
+    "symbol_kind": "letters and symbols",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": "unknown",
+      "kinds": [
+        "common words",
+        "names",
+        "places"
+      ],
+      "unread_groups": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": "unknown"
+    },
+    "key_order": "unknown",
+    "word_division": "kept",
+    "doubled_letters": "unknown",
+    "sibling_key": "Alonso Sanchez's 1522 Venice cipher and Juan Manuel's 1522 Rome cipher, both reconstructed by Tomokiyo; same design, provably different values (xul = 'lo' here, 'despues' in Sanchez)."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "Tomokiyo's 2025 article covers Sanchez (R9593-R9632) and Juan Manuel (R9499-R9529) only; Lope Hurtado is not mentioned and his records fall outside both ranges. A web search returns no decipherment.",
+      "found": "not found",
+      "used": false
+    },
+    "inputs": [
+      "images",
+      "crib"
+    ],
+    "attack": "crib",
+    "human_role": "redirected the session to this target; supplied the DECODE login cookie used earlier.",
+    "tools": [
+      "PIL crops/upscaling of DECODE images"
+    ],
+    "models": [
+      "claude-opus-5[1m]"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-20",
+    "last_date": "2026-09-20"
+  },
+  "solution": [
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Established in the sanchez1522 session that these nine records are not in Sanchez's cipher: his codes end strictly in b c d f g h l m n, Hurtado's take finals p and z.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "Searched for a published decipherment of Hurtado's cipher. None: Tomokiyo's article covers Sanchez and Juan Manuel only and does not mention him; web search returns nothing. The key is unpublished.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Split the nine Lope Hurtado records out of sanchez1522 into their own target with images and DECODE metadata.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "crib",
+      "what": "Found that R9644 carries both the ciphered letter (ff. 238-239) and a full contemporary clear version (f. 242), headed 'Claro' section by section and keyed to the cipher by marginal letters A, B, C.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "key from source",
+      "what": "Aligned the cipher against the clear on an exact-count run: 'ton tab xud xul y-m xon' against 'que nunca hombre lo fue mas', six tokens for six words in a sentence with no room for slippage, plus tu = no from 'no apretallo mucho'. Seven values confirmed; eleven more read as probable from the surrounding sentence where counts are not exact.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Cross-checked against the sibling keys: xul = 'lo' here but 'despues' in Sanchez, so the keys are provably distinct. None of the seven confirmed codes appears in Tomokiyo's 173-code Juan Manuel table either, which is consistent with a third key but not conclusive since that table is partial.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "not read",
+    "fraction_read": 0.0,
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "notes": "Opened 2026-09-20. The cipher is unpublished and the crib is in hand; seven code values are fixed against the clerk's own plaintext and eleven more are probable. Nothing is read yet as continuous text. Next: work the rest of the R9644 alignment section by section using the marginal A/B/C keys, then R9650 and R9652 as further cribs, then apply the rebuilt key to the six non-decrypted records."
+  }
+}
