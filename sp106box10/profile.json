@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "target": "sp106box10",
+  "title": "TNA SP 106/10: a codebreaker's file of Italian intercepts and worksheets, c. 1623-24 (DECODE R657, R660, R664, R704, R720, R721, R722; key R725)",
+  "documents": [
+    {
+      "id": "R657",
+      "shelfmark": "TNA, SP 106/10, ff. 128-138 (DECODE R657)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 9,
+      "cleartext_in_document": "interspersed",
+      "plaintext": { "location": ["interlinear", "margin"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "not transcribed this session; nine worksheet pages in the two-figure system A." }
+    },
+    {
+      "id": "R660",
+      "shelfmark": "TNA, SP 106/10, ff. 139-140 (DECODE R660)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 2,
+      "cleartext_in_document": "interspersed",
+      "plaintext": { "location": ["interlinear"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "read on screen, not yet transcribed to file; 15 numbered lines, three-figure system B." }
+    },
+    {
+      "id": "R664",
+      "shelfmark": "TNA, SP 106/10, ff. 167-169 (DECODE R664)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 3,
+      "cleartext_in_document": "interspersed",
+      "plaintext": { "location": ["interlinear"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "f. 1 (lines 34-45) read from the images this session; about 500 groups in all per DECODE, not counted here." }
+    },
+    {
+      "id": "R704",
+      "shelfmark": "TNA, SP 106/10, ff. 186-187 (DECODE R704)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 2,
+      "cleartext_in_document": "none",
+      "plaintext": { "location": ["interlinear"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "46 numbered lines, about 700 groups per DECODE; letter-plus-figure system C; not transcribed this session." }
+    },
+    {
+      "id": "R720",
+      "shelfmark": "TNA, SP 106/10, ff. 188-189 (DECODE R720)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 2,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": { "location": ["none"], "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "fair", "notes": "codebreaker's worksheet: three-figure groups and trial Italian word-lists; belongs with system B, not with R704 as DECODE suggests." }
+    },
+    {
+      "id": "R721",
+      "shelfmark": "TNA, SP 106/10, ff. 190-192 (DECODE R721)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 3,
+      "cleartext_in_document": "none",
+      "plaintext": { "location": ["interlinear", "margin"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "26 numbered lines, about 300 groups per DECODE; system C; not transcribed this session." }
+    },
+    {
+      "id": "R722",
+      "shelfmark": "TNA, SP 106/10, ff. 193-195 (DECODE R722)",
+      "year": 1623,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "Italian",
+      "pages": 3,
+      "cleartext_in_document": "none",
+      "plaintext": { "location": ["interlinear"], "source": "the contemporary English codebreaker", "partial": true },
+      "length": { "tokens": 0, "unit": "code groups", "measured": false },
+      "transcription": { "by": "llm from images", "image_quality": "good", "notes": "system C; not transcribed this session." }
+    }
+  ],
+  "system": {
+    "types": ["nomenclator", "homophonic", "syllabic", "code"],
+    "summary": "Three ciphers in one codebreaker's file: (A) a two-figure Italian nomenclator whose groups are read as letter, word-list 1 or word-list 2 according to whether they carry no mark, a bar or a dot; (B) a three-figure syllabic code used in letters written half in clear; (C) a letter-plus-figure syllabary.",
+    "symbol_kind": "digits and letters",
+    "digit_groups": { "width": "2-3", "separation": "spaces" },
+    "distinct_symbols": 190,
+    "diacritics": { "used": true, "note": "In system A a bar over a two-figure group makes it a word of one nomenclator list and a dot makes it a word of a second list; a bare group is a single letter. The contemporary codebreaker states this himself on the key sheet." },
+    "homophones": { "used": true, "max_per_vowel": 2 },
+    "nomenclator": { "present": true, "entries": 90, "kinds": ["syllables", "common words", "names", "places", "titles"], "unread_groups": 140 },
+    "nulls": { "present": true, "count": 3 },
+    "key_order": "random",
+    "word_division": "partial",
+    "sibling_key": "DECODE R725 (TNA SP 106/10 ff. 202-203, 205), the codebreaker's own reconstructed key for system A; used.",
+    "notes": "System A's key survives as R725, catalogued separately from the seven ciphertext records and not part of the original target list."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "the contemporary English codebreaker's own partial solutions, written interlinearly on the intercepts themselves and summarised as a key on DECODE R725; no modern edition (the published SP 106 transcriptions cover only SP 106/1-4)",
+      "found": "during attempt",
+      "used": true
+    },
+    "inputs": ["images", "cleartext context", "key from archive"],
+    "attack": "key from archive",
+    "human_role": "nothing beyond setting the target; images fetched with the project DECODE cookie",
+    "tools": ["PIL rotation and cropping"],
+    "models": ["claude-opus-5[1m]"],
+    "sessions": 1,
+    "first_date": "2026-09-20",
+    "last_date": "2026-09-20"
+  },
+  "solution": [
+    { "date": "2026-09-20", "kind": "access", "what": "Fetched DECODE metadata for R657, R660, R664, R704, R720, R721 and the pointers; identified the seventh record as R722 and a key record R725 in the same run of shelfmarks. Downloaded all 28 images with the project cookie.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "key from source", "what": "Read DECODE R725, 'The Alphabett of Single Letters' - the contemporary codebreaker's fair key: a 20-value letter alphabet, a list of single letters standing for whole words, and two nomenclator word-lists.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "hypothesis", "what": "Identified from the key sheet's own note ('It seemes there are numbers of woordes expressed by this difference of - over the figures') that a bar and a dot over a two-figure group select two different word-lists.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "hypothesis", "what": "Dated the group from the recovered nomenclature - Marques Inichiosa (the Marques de la Inojosa, ambassador in England 1623-24), Palatinato, Il Principe, C. Barberino, Papa, Nuncio, Imbassiatore di Venetia - against DECODE's date, which is only the volume span 1558/1625.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "statistics", "what": "Surveyed all 22 ciphertext pages and found they use three different systems, not one: R657 (two-figure), R660/R664/R720 (three-figure), R704/R721/R722 (letter-plus-figure). DECODE groups R720 with R704; the figures show it belongs with R660/R664.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "reading", "what": "Rebuilt about 45 values of the three-figure code (system B) by aligning the codebreaker's interlinear syllables against the groups on R664 f. 1, anchored on unambiguous words ('senza', 'della loro sicurezza', 'quelle de nuovo').", "result": "partial" },
+    { "date": "2026-09-20", "kind": "verification", "what": "Checked the rebuilt values for consistency across lines 34-45; the apparent conflict at 252/359 resolved when 'senza' was seen to run over a line break (252 se + 359 n + 560 za), which confirms the alignment method.", "result": "worked" },
+    { "date": "2026-09-20", "kind": "literature search", "what": "Web search for any modern edition of SP 106/10; the published SP 106 transcription site covers only volumes 1-4, and nothing else was found.", "result": "worked" }
+  ],
+  "outcome": {
+    "class": "read in part",
+    "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
+    "notes": "The case is explained and dated and system A's key is fully transcribed; system B is read in fragments from a partly rebuilt code. Systems B and C are not yet carried to a continuous reading, and no sender or recipient is yet named."
+  }
+}

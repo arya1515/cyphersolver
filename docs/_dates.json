@@ -1,6 +1,7 @@
 {
  "findings": {
   "a catalan letter to the king of aragon, barcelona, 2 may [1413–16]": "2026-09-18",
+  "a jacobean codebreaker’s file of italian intercepts, tna sp 106/10, c. 1623–24": "2026-09-20",
   "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
@@ -154,7 +155,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e532e643867e",
+   "hash": "ee530cfdd6c8",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -254,7 +255,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "b25799b423f6",
+   "hash": "070018c5918a",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -427,6 +428,11 @@
    "hash": "26be796eb43c",
    "updated": "2026-09-18"
   },
+  "sp106box10": {
+   "first": "2026-09-20",
+   "hash": "96daa571590c",
+   "updated": "2026-09-20"
+  },
   "sp106r927": {
    "first": "2026-09-19",
    "hash": "076ab88eff07",
@@ -484,7 +490,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d1950787a0f8",
+   "hash": "4ed7067f66af",
    "updated": "2026-09-20"
   },
   "yard1699": {
