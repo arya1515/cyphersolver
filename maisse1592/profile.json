@@ -1,0 +1,260 @@
+{
+ "schema_version": 1,
+ "target": "maisse1592",
+ "title": "Henri IV to Andre Hurault de Maisse, ambassador at Venice, 3 November 1592 - 27 April 1593 (BnF fr. 16093 ff. 370, 373, 406, 410)",
+ "documents": [
+  {
+   "id": "f370",
+   "shelfmark": "BnF fr. 16093 f. 370 (ark btv1b90074656, canvas 419; old Harlay ms. 1024 piece 224)",
+   "date": "3 Nov 1592",
+   "year": 1592,
+   "country": "France",
+   "route": "S. Denis -> Maisse at Venice",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "Contemporary clerk's copy, fully in clear, BnF NAF 6984 (fonds Brienne 13) fol. 102v, ark btv1b100904592; located through the Harlay piece number in Berger de Xivrey, Lettres missives t. III",
+    "partial": false
+   },
+   "length": {
+    "tokens": 80,
+    "distinct": 19,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct370.txt"
+   },
+   "transcription": {
+    "by": "human (project)",
+    "source": "Gallica scan at native 7029x6142, read at 4.5-6x",
+    "image_quality": "good",
+    "notes": "Only the opening of the leaf is transcribed group by group: 80 groups of the roughly 630 on the recto. The rest reads with the same key by spot decoding."
+   }
+  },
+  {
+   "id": "f373",
+   "shelfmark": "BnF fr. 16093 f. 373 (canvas 422; Harlay piece 226)",
+   "date": "7 Nov 1592",
+   "year": 1592,
+   "country": "France",
+   "route": "the Court -> Maisse at Venice",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "Brienne 13 = NAF 6984 fol. 104v, in clear",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "human (project)",
+    "source": "not transcribed; read from the clear copy",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "f406",
+   "shelfmark": "BnF fr. 16093 f. 406 (canvas 457; Harlay piece 247); duplicate of f. 404, which carries a partial interlinear decipherment",
+   "date": "8 Feb 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Chartres -> Maisse at Venice",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection",
+     "interlinear"
+    ],
+    "source": "Brienne 13 = NAF 6984 fol. 171r in clear; and the contemporary interlinear decipherment on the duplicate f. 404",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "human (project)",
+    "source": "not transcribed; read from the clear copy",
+    "image_quality": "good"
+   }
+  },
+  {
+   "id": "f410",
+   "shelfmark": "BnF fr. 16093 f. 410 (canvas 461; Harlay piece 251); f. 412 is its duplicate",
+   "date": "27 Apr 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Mantes -> Maisse at Venice",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "Brienne 13 = NAF 6984 fol. 193v, in clear",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "human (project)",
+    "source": "not transcribed; read from the clear copy",
+    "image_quality": "good"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic",
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Two ciphers, not one: ff. 370 and 373 use a simple substitution on a 22-letter alphabet in figures 1-22 with doubled-letter signs (66, 67, 68, 72, 73) and a sparse nomenclator above the band; ff. 404/406 and 410 use a mixed system in which letter-shaped symbols carry the letters and two-digit figures the nomenclator.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "1-2",
+   "separation": "mixed"
+  },
+  "distinct_symbols": 27,
+  "diacritics": {
+   "used": true,
+   "note": "Overbars on the leaf mark ordinary scribal abbreviation in the plaintext spelling (l[ett]res, occa[si]on), not cipher values; separating dots divide figures."
+  },
+  "homophones": {
+   "used": true,
+   "per_letter": {
+    "d": 2
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "titles",
+    "places"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "alphabetical",
+  "word_division": "kept",
+  "doubled_letters": "special sign (ff, mm, nn, ss, uu)",
+  "sibling_key": "Tomokiyo's reconstructions from the sibling leaves of the same volume, published as images on cryptiana (henryiv_Maisse1.png from f. 317; henryiv_Maisse2.png from f. 344 etc.), used; Savasse (1997) reconstructed cipher 1 independently from the Manuscrit Revol",
+  "notes": "Cipher 1 key: a=7 b=8 c=9 d=10 e=11 f=1 g=2 h=3 i=4 l=5 m=6 n=12 o=13 p=14 q=15 r=16 s=17 u=19 x=20 y=21 z=22; ff=66 mm=67 nn=68 ss=72 uu=73. An omega-shaped sign on f. 370 is a second sign for d and is absent from Tomokiyo's table. Cipher 2 is the same key Henri IV calls 'le double du chiffre que j'ay envoye aud. de Breves'."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "A key for each of the two ciphers published by Tomokiyo as images on cryptiana, reconstructed from sibling leaves but never applied to these four, which he lists as undeciphered; contemporary clear copies of all four letters in Brienne 13 (NAF 6984), unprinted; Berger de Xivrey prints a sibling (t. III p. 719)",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "sibling key",
+   "known plaintext"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level only: the target was taken from the repository's catalogue and worked by the model in Claude Code; no target-specific intervention recorded.",
+  "tools": [
+   "Gallica IIIF fetchers (fetch.py, fetchr.py, fetchb.py)",
+   "segmentation and reading aids (seg.py, seg2.py, boxes.py, zoom.py, montage.py)",
+   "glyph clustering (glyphs.py, digits.py, cluster.py), left unfinished",
+   "blind known-plaintext alignment with a shuffled-cipher control (align.py, align2.py, control.py)",
+   "key application (decode.py, key1.tsv)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-19"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "Tomokiyo's Henri IV page re-read as HTML rather than as the text dump in gallica_sweep/src: the four leaves fall in two different cipher sections, each with siblings in the same volume, so the entry's class B and 'no sibling found' were both wrong.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "access",
+   "what": "fr. 16093 resolved to ark btv1b90074656 by Gallica SRU and the folio-to-canvas offsets calibrated by reading folio numbers off the leaves.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "transcription",
+   "what": "The opening of f. 370 transcribed group by group (80 groups) from the native-resolution scan.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "statistics",
+   "what": "Blind frequency analysis of the transcription: 94% of groups in a contiguous band 1-22, commonest value 14.5%, sparse values above the band - a simple substitution with a small nomenclator, not the assumed homophonic system.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Blind known-plaintext alignment of the transcription against the Brienne clear text placed 12 groups against a shuffled-cipher control of mean 8.2 and p95 11 - at the noise floor, because the transcription mis-split 9 7 as 97 and homophony was wrongly assumed.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "crib",
+   "what": "The old Harlay piece numbers on each leaf (224, 226, 247, 251) matched to Berger de Xivrey's citations, which give a clear copy in fonds Brienne 13 = NAF 6984 for each; the four copies located on the images by heading and preamble.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "key from source",
+   "what": "Tomokiyo's two key images fetched from his page (invisible in a text dump) and cipher 1 transcribed to key1.tsv.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "control",
+   "what": "The key applied to the 80 transcribed groups of f. 370 and the result normalised against Brienne 13 fol. 102v: 81 of 81 characters identical.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "All four letters read from the Brienne clear copies; f. 406 shown to be the duplicate of f. 404, so the four leaves are three despatches.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 1.0,
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "The content of all four letters is settled by the contemporary clear copies. Group-by-group decipherment covers only the transcribed opening of f. 370, verified letter-for-letter; ff. 373, 406 and 410 are not transcribed, and cipher 2 was not applied."
+ }
+}

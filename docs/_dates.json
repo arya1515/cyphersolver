@@ -43,6 +43,8 @@
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
   "henri iv to landgrave maurice of hesse-kassel, 1602–1609": "2026-09-17",
+  "henri iv to maisse at venice, 1592–93": "2026-09-19",
+  "henri iv to maisse at venice, 3 november 1592 – 27 april 1593": "2026-09-19",
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henrietta maria’s household to charles i, 1645–46": "2026-09-19",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
@@ -155,7 +157,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ee530cfdd6c8",
+   "hash": "2b3b58fe4f3b",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -255,7 +257,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "070018c5918a",
+   "hash": "d5d2f2c14efb",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -292,6 +294,11 @@
    "first": "2026-09-16",
    "hash": "695bc0947f2a",
    "updated": "2026-09-16"
+  },
+  "maisse1592": {
+   "first": "2026-09-19",
+   "hash": "75fdc8ca98dd",
+   "updated": "2026-09-19"
   },
   "maria1435": {
    "first": "2026-09-18",
@@ -490,7 +497,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "4ed7067f66af",
+   "hash": "a75a14e285aa",
    "updated": "2026-09-20"
   },
   "yard1699": {
