@@ -4458,5 +4458,34 @@
     "note": "Letter E of Kopal & Waldispühl 2023, deciphered completely (Szklow, 22 Feb 1575, a copy)."
    }
   }
+ },
+ "jones1753": {
+  "writeup": "https://dbourdeau.github.io/cyphersolver/jones1753.html",
+  "key": {
+   "none": "not a cipher; the letter is in clear"
+  },
+  "cite": null,
+  "fields": {
+   "sender": "C. Ben. Schaeblin",
+   "receiver": "Mr Jones",
+   "place": "The Hague",
+   "date": "1753-01-16",
+   "document_types": "clear letter about compiling a cipher (not a ciphertext)",
+   "cipher_types": "none (not a cipher)",
+   "cleartext_language": "English"
+  },
+  "records": {
+   "R9218": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Not a cipher: clear English letter from C. Ben. Schaeblin, The Hague, 16 Jan 1753, TO Mr Jones (sender/receiver swapped). Proposes a new French cipher of 3000 numbers modelled on the English one, disguised by reversing/rotating figures or adding a dummy figure; the only numbers are worked examples on 1753.",
+    "reading": null,
+    "transcription": [
+     "jones1753/transcription.txt"
+    ],
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }

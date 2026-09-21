@@ -126,6 +126,7 @@
   "roell to van dedem, 9 february 1809": "2026-09-21",
   "roosevelt cryptogram, 1935": "2026-09-16",
   "sauli and riario, portugal to the secretariat, 1579–81": "2026-09-21",
+  "schaeblin to mr jones, the hague, 16 jan 1753": "2026-09-21",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
   "sir henry norreys to cecil, paris, 1567–68 (decode r9251)": "2026-09-21",
@@ -275,7 +276,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "3974d086d6bd",
+   "hash": "5d9aa4af8d52",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -460,7 +461,12 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "127e9d5199bf",
+   "hash": "e35f5486a48e",
+   "updated": "2026-09-21"
+  },
+  "jones1753": {
+   "first": "2026-09-21",
+   "hash": "e6de77b4b5be",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -935,7 +941,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "4067dade6190",
+   "hash": "2c6f98a75855",
    "updated": "2026-09-21"
   },
   "yard1699": {

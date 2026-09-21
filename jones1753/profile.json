@@ -1,0 +1,53 @@
+{
+ "schema_version": 1,
+ "target": "jones1753",
+ "title": "C. Ben. Schaeblin (The Hague) to Mr Jones, 16 January 1753, BL Add MS 32256 f. 235 (DECODE R9218)",
+ "documents": [
+  {
+   "id": "R9218",
+   "shelfmark": "BL Add MS 32256 f. 235r-v; DECODE R9218",
+   "date": "1753-01-16",
+   "year": 1753,
+   "country": "Netherlands",
+   "route": "C. Ben. Schaeblin, The Hague -> Mr Jones (DECODE has the direction reversed)",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["none"], "source": "Nothing enciphered; the letter is in clear.", "partial": false},
+   "length": {"tokens": 0, "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Authenticated DECODE images IMG_R9218_I43158_P1/P2", "corrections": 0, "image_quality": "good", "notes": "Full text in transcription.txt; no enciphered tokens, only worked examples on the number 1753."}
+  }
+ ],
+ "system": {
+  "types": ["not a cipher"],
+  "summary": "Clear English letter proposing a new French numerical nomenclator of 3000 groups modelled on the English cipher, with transposition-of-figures and dummy-figure disguises.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": false},
+  "homophones": {"used": false},
+  "nomenclator": {"present": false},
+  "nulls": {"present": false},
+  "key_order": "not applicable"
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "where": "Not needed: the letter is in clear.", "found": "not found", "used": false},
+  "inputs": ["images"],
+  "attack": "none",
+  "human_role": "Supplied the DECODE login cookie earlier (bordeaux/decode/cookie.txt) and posed the target with /goal from the catalogue; nothing else.",
+  "tools": ["DECODE authenticated image server", "PIL resize"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "access", "what": "Fetched the DECODE R9218 record page and its two images with the stored cookie.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "reading", "what": "Found no cipher: a clear English letter from Schaeblin to Mr Jones (direction reversed on DECODE) about compiling a new French cipher; transcribed in full.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "One web search for Schaeblin as cipher-maker or decipherer, 1753.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "verification": ["historical consistency"],
+  "notes": "Letter read in full; DECODE's nomenclator/numerical tags describe the cipher it proposes."
+ }
+}
