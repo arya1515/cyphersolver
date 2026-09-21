@@ -3016,6 +3016,29 @@
      "sent": false
     }
    }
+  },
+  "throck1560": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/throck1560/NOTES.md (notes only, no site page)",
+   "key": {
+    "none": "not tested: no images on the record; Throckmorton's ciphers are R9260 (first, second) and R9262 (third)"
+   },
+   "cite": "CSP Foreign, Elizabeth, ii (1865), nos. 706 and 751; Patrick Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, vol. I (London 1740), pp. 324-25 and 328",
+   "fields": {
+    "plaintext_lang": "English",
+    "cleartext_lang": "English",
+    "author": "Nicholas Throckmorton",
+    "city": "Paris; Blois"
+   },
+   "records": {
+    "R3026": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Two letters: Throckmorton to Cecil, 8 Feb 1559/60 (CSP For. ii 706, Forbes i 324-25) and Throckmorton to the Lords of the Council, Blois 20 Feb 1559/60 (CSP For. ii 751, Forbes i 328). Both originals in TNA carry the ciphered portions deciphered at the time; Forbes printed them in full in 1740. No images yet on this record.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

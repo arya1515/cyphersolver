@@ -1,0 +1,144 @@
+{
+ "schema_version": 1,
+ "target": "throck1560",
+ "title": "Throckmorton to Cecil (8 Feb) and to the Lords of the Council (20 Feb 1560), BL Add MS 4136 ff. 100-101 (DECODE R3026)",
+ "documents": [
+  {
+   "id": "R3026a",
+   "shelfmark": "BL Add MS 4136 ff. 100-101 (DECODE R3026)",
+   "date": "8 Feb 1560",
+   "year": 1560,
+   "country": "France",
+   "route": "Throckmorton (Paris) to Cecil (London)",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear",
+     "printed edition"
+    ],
+    "source": "CSP Foreign ii no. 706; Forbes, Full View i (1740) 324-25",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Forbes, Full View i (1740), printed plaintext only",
+    "image_quality": "no images",
+    "notes": "DECODE R3026 has no images attached; ciphertext not seen."
+   }
+  },
+  {
+   "id": "R3026b",
+   "shelfmark": "BL Add MS 4136 ff. 100-101 (DECODE R3026)",
+   "date": "20 Feb 1560",
+   "year": 1560,
+   "country": "France",
+   "route": "Throckmorton (Blois) to the Lords of the Council (London)",
+   "language": "English",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear",
+     "printed edition"
+    ],
+    "source": "CSP Foreign ii no. 751; Forbes, Full View i (1740) 328",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "Forbes, Full View i (1740), printed plaintext only",
+    "image_quality": "no images",
+    "notes": "DECODE R3026 has no images attached; ciphertext not seen."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "Throckmorton's cipher (first/second on R9260, third on R9262); which one is not testable without images. The contemporary R9220 letters use the third.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "DECODE marks graphic signs; no ciphertext seen."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "CSP Foreign ii nos. 706, 751 (1865), \"portions in cipher, deciphered\"; Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, vol. I (London 1740), pp. 324-25, 328",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "text search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE R3026 with the shared cookie: no image or document files attached (Tomokiyo note: images should be uploaded).",
+   "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "Placed ff.100-101 before f.110 (R9220, 7-8 Mar 1560); grepped the Forbes Full View i OCR for February 1559/60: letters to Cecil 8 Feb (pp.324-25) and to the Council, Blois 20 Feb (p.328).",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "CSP Foreign ii nos. 706 and 751 describe both as originals with portions in cipher, deciphered; no. 751 cites Forbes i 328.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 2
+  },
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Read at the time and printed by Forbes 1740; ciphertext not seen (no images). Catalogue entry 96 removed, no write-up."
+ }
+}

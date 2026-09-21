@@ -1327,41 +1327,6 @@
    "scored": "rule"
   },
   {
-   "id": 96,
-   "counted": true,
-   "year": 1560,
-   "date": "8 Feb 1560",
-   "title": "Throckmorton to Secretary Cecil; Lords of the Council",
-   "correspondents": "Throckmorton → Secretary Cecil; Lords of the Council",
-   "place": "London",
-   "language": "unknown",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 4136 f 100-101",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R3026: Non-decrypted, 2 pp., unknown; graphic signs; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560). DECODE note: 2 letters. #should be splitted Images should be uploaded (Satoshi Tomokiyo).",
-   "why": "Ciphered letter of Throckmorton to Secretary Cecil; Lords of the Council, 8 Feb 1560; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R3026",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/3026"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    3026
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 97,
    "counted": false,
    "year": 1559,
