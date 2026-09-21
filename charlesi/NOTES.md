@@ -231,3 +231,17 @@ The originals of the two Worsley letters are on display at Carisbrooke Castle Mu
   Carisbrook Castle* (1852)
 * Letter-code identifying Z as Worsley and W as Titus: Peter Barwick, *The Life of the Reverend Dr.
   John Barwick* (English edition 1724), p. 395
+
+## 7. The original leaf (21 Sept 2026)
+
+The 1 August letter is DECODE **R8342** (BL Harley MS 6988 f. 208; old foliation 127), which the
+catalogue listed as "Charles R. to unknown recipient" (entry 135). The recipient is the Prince of
+Wales. The leaf was checked against `letters.py`, and the transcription holds. The superscript groups
+(379, 126, 329 165, 77, 5 20, 381) are the King's own insertions, most of them over struck groups
+that cannot be read. The group before 107 could be 69 rather than 60. Halliwell, *Letters of the
+Kings of England* ii (1846) 449–450, prints the clear text and notes only that "part of the original
+is written in cipher". The "key" record R8341 (Harley 6988 f. 194, 1646) is a graphic-sign
+substitution and cannot be the key for a numeric nomenclator. Nothing new opens the letter, so it
+stays unread. The "noble Frend" who brought the cipher to the Prince in August 1648 is most likely
+Lauderdale, which points the key search at the Lauderdale papers as well as the Clarendon and
+Nicholas papers.

@@ -4630,6 +4630,27 @@
      "reading_not_needed": true
     }
    }
+  },
+  "charles1648": {
+   "writeup": null,
+   "key": null,
+   "cite": "J. O. Halliwell, Letters of the Kings of England ii (1846) 449-450 (clear text only)",
+   "fields": {
+    "sender": "Charles I",
+    "receiver": "Charles, Prince of Wales",
+    "city": "Carisbrooke, Isle of Wight",
+    "cipher_types": "nomenclator (numbers 1-592)"
+   },
+   "records": {
+    "R8342": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Recipient is the Prince of Wales (opening 'Charles', 'your Brother', signed 'Your loving Father'). Clear letter with 99 cipher groups; the King's superscript insertions are corrections. Clear text printed by Halliwell 1846 (from 'MS. Harl. 6988 f. 127', the old foliation) without the cipher. The published Sept-Nov 1648 King's key does not fit; key R8341 is a different (graphic) cipher.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

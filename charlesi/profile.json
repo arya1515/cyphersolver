@@ -143,6 +143,12 @@
    "kind": "statistics",
    "what": "Hapax rates 43% and 59%; the 7-group near-repeat is significant, so consecutive numbers are homophones.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Viewed the original on DECODE R8342 (Harley 6988 f.208): the Original Letters/cryptiana transcription matches the leaf; superscript groups are the King's insertions over struck groups; the group before 107 may be 69 not 60. R8341 is a graphic-sign key and cannot apply. Halliwell 1846 prints the clear text only.",
+   "result": "failed"
   }
  ],
  "outcome": {
