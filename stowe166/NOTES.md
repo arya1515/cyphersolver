@@ -1,6 +1,6 @@
 # Stowe MS 166: Edmondes to Burghley, 1592–1594 (DECODE R7770–R7775)
 
-Status: read in part
+Status: in progress — read in part
 
 Catalogue entry: "Lord Threr? to unknown recipient, 5 ciphertexts". DECODE's author field is the
 **addressee**: the letters are to the Lord Treasurer (Burghley). Stowe MS 166 is volume 1 of the papers of

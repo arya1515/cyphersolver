@@ -1,6 +1,6 @@
 # Ferdinand I to Johann Malvezzi, Augsburg, 23 January 1548 (DECODE R366)
 
-Status: read in part
+Status: in progress — read in part
 
 Hadtörténelmi Levéltár (Military History Archive), Budapest, 1548/3 · DECODE R366 · 8 pp. · Latin ·
 homophonic cipher with graphic signs · DECODE status "partially decrypted".
