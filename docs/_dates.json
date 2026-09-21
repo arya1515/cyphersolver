@@ -84,6 +84,7 @@
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
   "richard forster, 1644": "2026-09-16",
+  "robert fagel to william v, 18 june 1804": "2026-09-21",
   "robert yard to the earl of manchester, whitehall, 12 and 16 october 1699": "2026-09-18",
   "roosevelt cryptogram, 1935": "2026-09-16",
   "schmeh’s top 50": "2026-09-15",
@@ -173,7 +174,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "4d251ae1a31a",
+   "hash": "79dbf8df707a",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -225,6 +226,11 @@
    "first": "2026-09-17",
    "hash": "66a5df7206cc",
    "updated": "2026-09-17"
+  },
+  "fagel1804": {
+   "first": "2026-09-21",
+   "hash": "1ef8fc0450e0",
+   "updated": "2026-09-21"
   },
   "famous": {
    "first": "2026-09-15",
@@ -293,7 +299,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "75619842ae2d",
+   "hash": "2b2c80a25bec",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -563,7 +569,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f0fb5d326506",
+   "hash": "70aa40085608",
    "updated": "2026-09-21"
   },
   "yard1699": {
