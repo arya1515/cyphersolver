@@ -48,3 +48,13 @@ letter, once in the annex, where it is preceded by 269). It is probably a recurr
   If the book is one-part, that would bracket much of the letter.
 - The Kingdom of Holland's legation codes, 1806–1810: NA 2.01.08 (BuZa 1796–1810) code-book inventory numbers, or
   the Van der Goes papers.
+
+## Correction from the archive inventory (21 Sept 2026)
+
+The Nationaal Archief inventory of 2.01.08 (downloaded PDF) describes inv. nr. 281 as *Missiven van J.F.G. van Spaen
+en G. van Riemsdijk, commissarissen voor de overname der gecedeerde districten, de Lijmers, Huyssen, Malburgen en
+Zevenaar, jul 1806 – mei 1809*. The letter therefore comes from the Dutch commissioners for the takeover of the
+districts ceded around Zevenaar, not from an ambassador to "the Court of Westphalia". Düsseldorf was the capital of
+the Grand Duchy of Berg, the other party to the exchange. G.C. van Spaen's own legation letters (Berlin, 1802–1807)
+are inv. nrs. 244–248. The signature read from the preview looks like "G. C. van Spaen", but a J.F.G. reading was not
+ruled out. The subject is very probably the territorial handover. That context does not give a crib.
