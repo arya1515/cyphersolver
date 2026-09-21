@@ -1,8 +1,15 @@
-# TNA SP 106/10 — a codebreaker's worksheets and the intercepts they belong to (DECODE R657, R660, R664, R704, R720, R721, R722; key R725)
+# TNA SP 106/10 — a codebreaker's worksheets and the intercepts they belong to (DECODE R657, R660, R664, R704, R720, R721, R722; key R725; worksheets R658, R661, R663, R667, R684, R701, R702)
 
 Outcome: read in part (2026-09-20). The seven records shown to be one case and dated to 1623-24; the codebreaker's
 own key (R725) transcribed in full and the system explained; about 45 values of the three-figure code rebuilt and
 phrases read. Neither long letter is read through yet. Written up as `docs/sp106box10.html`.
+
+Update 2026-09-21 (catalogue id 62): the seven further "unknown to unknown" records R658, R661, R663, R667, R684,
+R701, R702 are more sheets of the same file. R658 is the codebreaker's own grid of the three-figure code, which R701
+calls **"the Venetian Cifer"**; with it the code is rebuilt as a systematic syllabary (117 values in
+`cat62/venetian_code.tsv`, 102 written by the codebreaker, 15 predicted), and three values in the section below are
+corrected (260 ta, 262 ti, 263 to, 459 r). A second three-figure code is worked on R667/R684/R701 p.3/R702 p.1: that is the lost 46-line letter of the R703
+section above. See "Catalogue 62" at the end.
 
 ## The group
 
@@ -179,3 +186,90 @@ at Kew; with it, R701 p. 3 and the fragments would be a strong start.
 - System A: R657's nine worksheet pages against the R725 key.
 - Identify the letters' sender and recipient (the Venetian ambassador's, the nuncio's, or the Spanish
   ambassador's correspondence), and the codebreaker.
+
+## Catalogue 62: the rest of the file (R658, R661, R663, R667, R684, R701, R702), 2026-09-21
+
+Catalogue entry 62 ("Unknown sender to unknown recipient, 7 ciphertexts", DECODE R658-R702) lists seven more
+records from the same box and the same hand. None of them is an intercept. They are the codebreaker's work
+sheets, and two of them hold his solved tables. Images fetched as before (`cat62/img.py`, cookie; git-ignored).
+
+("Second code" = the three-figure code of the lost 46-line letter, R703 section above.)
+
+| record | ff. | what it is |
+|---|---|---|
+| R658 | 125 | **The Venetian code grid.** Every group 136-565 set out in columns by hundreds, with his count of occurrences under each and his value over it; a side list of word groups (238 esser, 349, 369 nostro/nostra/nostre, 411 qui, 430 passato/passata, 467 questo, 568 vostro, 440 Spagn-). Upside down in the scan. |
+| R661 | 141-143 | An English political draft in clear ("It may bee evident to all men that frame judgment of affaires… to cutt of that supply of treasure that the K. of Sp. hath for the Indies… Portugall…"), reused: three-figure lines of second-code in the margin, and on p.2 numbered lines of the intercept (l. 1-38) with his trial words ("il Re", "lo haveva", "bisogno", "allora che come"). |
+| R663 | 20 | Italian syllable drills (ba be bi bo bu, baba bebe…) and an Italian-English word list (Laicale, Lambiccare "to distill", Lasciare "to permitt"…), with a few second-code groups. |
+| R667 | 164-166 | **Second-code count grid**, groups 200-577 in ruled boxes with occurrence counts and a few values (244 ra, 245 re, 246 ri, 247 ro; 540, 541 dal, 542 del, 543 dil); p.2 a dictionary trawl for words in *gra-/gua-* and trial syllable patterns. |
+| R684 | 170-171 | Second-code: lines of the intercept (l. 2-27) with trial syllables; groups by frequency ("3 times", "9 times", "13 times", "15 times": 244 fifteen times); trial pairs *da ba, da ca, da fa…* |
+| R701 | 175-177 | p.1: a syllabary (Ba Be Bi… Sta Ste…) and **"Wordes marked with letters in the Venetian Cifer: 369° nostro, 340° misura(?), 467° questo, 369ᵉ nostre, 420' altri, 233ʳ esser, 121ᶜ, 430ᵃ passata"**. p.2: a short text in a letter cipher (below). p.3: second-code values in runs (366-370 la le li lo lu; 375-378 da de di do; 209-213 va ve vi vo vu; 231-235 sa se si so su; 333-336 cha che chi cho; 322-326 pra pre pri pro pru; 510-514 sta… ; 244 ri, 245 re). |
+| R702 | 181-182 | p.1: Italian-English dictionary trawl (Bala-, Cola-, Fala-, Mala-) against numbered lines of the second-code intercept (li. 25 `495 391 540 395 207` "a ta n do"; li. 32, 38, 42, 44). **p.2: system B phrases with his glosses** (below). |
+
+### System B = "the Venetian Cifer", rebuilt
+
+R701 p.1 names the three-figure code with superscript word-endings "the Venetian Cifer", and those words (369
+nostro, 467 questo, 430 passato) are the ones on R658's side list, so the grid R658 is that code, the code of R664
+and R660. The grid shows it is a **systematic syllabary**: each consonant takes five consecutive rows in the order
+a e i o u, and each hundreds column a different consonant:
+
+    row  x51-x55: 1 ra-ru   2 sa-su   3 sca-scu  4 stra-stru  5 sta-stu
+    row  x42-x46: 1 na-nu   2 pa-pu   3 ?        4 pra-pru    5 qua-quo
+    row  x60-x64: 1 ?       2 ta-tu   3 tra-tru  4 va-vu      5 za-zu
+    row  x56:     a  e  i  o  s(?)     x57-x59: single consonants (157 b, 257 f, 357 l, 457 p; 158 c, 258 g, 358 m, 458 q; 159 d, 359 n, 459 r)
+    x33-x37: 4 la-lu, 5 ma-mu;  x15-x19: 3 ca-cu, 5 da-du;  words: 339 liga, 340 lettere, 439 per, 165 che, 465 quel
+
+A word group takes a superscript letter for its ending (369° nostro, 369ª nostra, 369ᵉ nostre): these are the
+"wordes marked with letters". The table is in `cat62/venetian_code.tsv` (grade H where the codebreaker wrote the
+value, P where only the pattern predicts it).
+
+**Check.** `cat62/check_r702.py` decodes every group string the codebreaker glossed on R702 p.2: 46/46 groups
+fall in the table, and each string gives his gloss:
+
+    356 318 436 143 435   i co lo ne li      "i colonelli"
+    341 433 436 154       del la lo ro       "della loro"
+    252 359 518 253       se n do si         "sendosi"
+    167 252 459 [459] 253 con se r (r) si   "conservarsi"
+    165 245 556 253 156 526 445 534 261 459  che po s si a mo pro me te r  "che possiamo prometter"
+    260 359 263           ta n to            "(in) tanto"
+    260 261               ta te              "(capi)tate"
+
+He also glossed "di 24 di maggio", "del campo", "per nome suo", "sono capitate", "nol portar", "efficacia",
+"medesime conciette" on the same sheet: the letter he was reading dates from late May and speaks of a camp and of
+colonels, which fits 1624 (Mansfeld's levies) or 1625 but is not proof.
+
+**Corrections to the 2026-09-20 values** (from gloss alignment on R664 alone): 260 is ta (not "mento"), 262 ti (not
+to), 263 to (not ti), 459 r (not v), 411 is qui in the grid (R664 gloss "que"); 316 "ta" does not fit the
+ca-cu run 315-319 and is doubtful.
+
+### Which code is "the Venetian Cifer"? (reconciling with the R703 section)
+
+The R703 session, working the same day in parallel, read R701's heading as naming the code of the lost 46-line
+letter. The heading's words, though, are the words of R658's side list (369 nostro/nostra/nostre, 467 questo, 430
+passato/passata), and R658 is the grid of the R664/R660 code (111-568: 152 re, 154 ro, 165 che, 560 za, all fixed on
+R664). The lost letter's table (R701 p.3: 244 ra, 245 re, 366-370 la-lu) is a different table (R658: 244 pi, 245
+po, 433-437 la-lu). So the label belongs, on the evidence of the sheet itself, to the R664/R660 code; the lost letter
+is in a second table, perhaps a later key of the same Venetian correspondence. Either way, both are three-figure
+syllabaries built the same way (consonant runs with the vowel in the last digit).
+
+### The second three-figure code (the lost letter)
+
+R667, R684, R701 p.3, R702 p.1 and the R661 margins work a different code: groups 200-599, the same syllable read
+in several series (do = 207 and 378; a = 495 and 430?), laid out in ascending runs (366-370 la-lu, 209-213 va-vu,
+231-235 sa-su, 333-336 cha-cho). The intercept it belongs to is the lost 46-line letter of the R703 section and is not among the
+imaged records; only its line fragments survive here, glossed as trial syllables. Not read.
+
+### R701 p.2, a short letter cipher
+
+    Esg frp rohxog x rygo fa ombhpeip / nb waltmg bxdos ipdlts kd kek rxiro /
+    ids pydo pnydquosdpr np oi ia / xohocfog frp bhpeocfscu kssp ttmoh / tt aal
+
+(ε and δ-shaped letters transcribed E/d.) The codebreaker underlined the repeats *frp … frp* and *rygo / pydo*. A
+one-to-one substitution annealed against Italian, English, Spanish, French and Latin models (`cat62/mono701.py`)
+gives nothing: not a simple substitution as transcribed, or too short. Open.
+
+### Outcome for catalogue 62
+
+Explained: all seven records are worksheets of the SP 106/10 codebreaker, not intercepts; two are his solved
+tables, which rebuild the Venetian code of R664/R660 and correct it. No new letter is read through. Catalogue id
+62 removed. Open: the second code and its missing intercept (see the R703 section), the R701 p.2 letter cipher, R661's English draft (not
+identified).

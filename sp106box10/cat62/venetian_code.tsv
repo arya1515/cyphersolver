@@ -1,0 +1,121 @@
+# System B, the "Venetian Cifer" (R701 p.1 heading), three-figure syllabic code.
+# Rebuilt from the codebreaker's grid R658 (every group 136-565 with a count and his value) and his glosses on R702 p.2.
+# grade: H = written on R658 or R702 by the codebreaker; P = predicted from the table's pattern (consonant x a-e-i-o-u
+# in five consecutive rows, one consonant per hundreds column), not seen written.
+# Words take a superscript ending letter: 369° nostro, 369ª nostra, 369ᵉ nostre ("Wordes marked with letters").
+group	value	grade	source
+111	al	H	R664 gloss (sp106box10 notes)
+142	na	P	R658 row pattern
+143	ne	H	R658; R702 "i co lo ne li"
+144	ni	P	R658 row pattern
+145	no	P	R658 row pattern
+146	nu	H	R664 gloss
+151	ra	H	R658
+152	re	H	R658; R664
+153	ri	H	R658 (written pri, struck)
+154	ro	H	R658; R702 "della loro"
+155	ru	P	pattern
+156	a	H	R658 column head; R702
+157	b	H	R658
+158	c	H	R658
+159	d	H	R658
+165	che	H	R658; R702
+167	con	H	R702 "conservarsi"
+242	pa	H	R658
+243	pe	H	R658
+244	pi	H	R658
+245	po	H	R658; R702 "possi"
+246	pu	H	R658 column head
+251	sa	H	R658
+252	se	H	R658; R702; R664
+253	si	H	R658; R702; R664
+254	so	H	R658
+255	su	H	R658
+256	e	H	R658 column head
+257	f	H	R658
+258	g	H	R658
+259	h	P	R658 (sign unclear)
+260	ta	H	R658; R702 "capitate", "in tanto" (notes of 2026-09-20 had "mento": corrected)
+261	te	H	R658; R702 "capitate", "prometter"
+262	ti	H	R658 (notes had "to": corrected)
+263	to	H	R658; R702 "in tanto" (notes had "ti": corrected)
+264	tu	H	R658
+315	ca	P	pattern (notes had 316 "ta")
+316	ce	P	pattern
+317	ci	P	pattern
+318	co	H	R702 "i colonelli", "come", "col"
+319	cu	H	R664
+339	liga	H	R658 (word)
+340	lettere	H	R658 (word); R664
+341	del	H	R702 "della loro"
+351	sca	H	R658
+352	sce	H	R658
+353	sci	P	pattern
+354	sco	H	R658
+355	scu	H	R658
+356	i	H	R658; R702 "i colonelli"
+357	l	H	R658; R664
+358	m	H	R658
+359	n	H	R658; R702 "sendosi", "in tanto"
+360	tra	H	R658
+361	tre	H	R658
+362	tri	H	R658
+363	tro	H	R658
+364	tru	H	R658
+369	nostro	H	R658; R701 (word, ending by superscript)
+411	qui	H	R658 word list (R664 gloss "que")
+430	passato	H	R658; R701 (word, ending by superscript)
+433	la	H	R664; R702 "della"
+434	le	H	R664
+435	li	H	R702 "colonelli"
+436	lo	H	R658; R702
+437	lu	H	R658
+439	per	H	R658 (word)
+440	Spagn(a)	H	R658 word list, reading uncertain
+442	pra	H	R658 (written pla)
+443	pre	H	R658
+444	pri	H	R658
+445	pro	H	R658; R702 "prometter"
+446	pru	H	R658 column head
+451	stra	H	R658
+452	stre	P	pattern
+453	stri	P	pattern
+454	stro	P	pattern
+456	o	H	R658 column head; R664
+457	p	H	R658
+458	q	H	R658
+459	r	H	R658; R702 "conservarsi", "prometter" (notes had "v": corrected)
+460	va	H	R658
+461	ve	H	R658; R664
+462	vi	H	R658
+463	vo	H	R658
+465	quel	H	R658
+467	questo	H	R658; R701 (word)
+515	da	H	R664
+516	de	H	R664; R702
+517	di	P	pattern
+518	do	H	R664; R702 "sendosi"
+519	du	P	pattern
+526	mo	H	R702 "possiamo" (homophone of 536)
+533	ma	P	pattern
+534	me	H	R702 "come", "prometter"
+535	mi	H	R664
+536	mo	H	R658; R702 "temo"
+537	mu	H	R658; R664
+542	qua	H	R658; R664
+543	que	H	R658
+544	qui	H	R658
+545	quo	H	R658
+551	sta	H	R658
+552	ste	H	R658
+553	sti	H	R658
+554	sto	H	R658
+555	stu	H	R658
+556	s	H	R702 "possi" (R658 column head unclear)
+557	l	H	R702 "col" (homophone of 357)
+560	za	H	R658; R664 "senza"
+561	ze	H	R658
+562	zi	H	R658
+563	zo	H	R658
+564	zu	H	R658
+568	vostro	H	R658 (word)

@@ -2,3 +2,8 @@ img/
 sm/
 rot/
 *.png
+cat62/img/
+cat62/sm/
+cat62/crop/
+cat62/rec*.htm
+cat62/views.jsonl

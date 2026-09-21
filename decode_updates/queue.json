@@ -1671,7 +1671,88 @@
    "skip": "in progress: several passages unread, no end-to-end reading yet"
   },
   "sp106box10": {
-   "skip": "system B read only in fragments; no continuous reading to upload yet"
+   "writeup": "https://dbourdeau.github.io/cyphersolver/sp106box10.html",
+   "key": {
+    "file": "sp106box10/cat62/venetian_code.tsv",
+    "lang": "Italian",
+    "how": "the codebreaker's own grid R658 of the three-figure Venetian code, a systematic syllabary; key R725 for the two-figure system"
+   },
+   "cite": null,
+   "fields": {
+    "start_year": "1623",
+    "end_year": "1624",
+    "plaintext_language": "Italian",
+    "document_type": "codebreaker's worksheet (not an intercept)"
+   },
+   "records": {
+    "R658": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Codebreaker's count-and-value grid of the three-figure 'Venetian Cifer' (the code of R660/R664), groups 136-565; with it the code is a systematic syllabary, table in sp106box10/cat62/venetian_code.tsv. Same file as R657-R725, c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R661": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not an intercept: an English political draft in clear (Spain's treasure from the Indies, Portugal), reused by the SP 106/10 codebreaker for line fragments of a second three-figure code. c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false,
+     "fields": {
+      "cleartext_language": "English"
+     }
+    },
+    "R663": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Codebreaker's worksheet: Italian syllable drills and an Italian-English word list, a few three-figure groups. Same file as R657-R725, c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R667": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Codebreaker's count grid of a second three-figure code (groups 200-577) and dictionary trawls; the intercept it belongs to is not among the imaged records. c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R684": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Codebreaker's worksheet on the second three-figure code: numbered lines of a missing intercept with trial syllables and frequency lists. c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R701": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Codebreaker's worksheet: syllabary; list of 'Wordes marked with letters in the Venetian Cifer' (369 nostro, 467 questo); p.2 a short letter cipher, unread; p.3 values of the second three-figure code. c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R702": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Codebreaker's worksheet: p.1 dictionary trawl for the second code; p.2 Venetian-code group strings with his glosses ('i colonelli', 'sendosi', 'che possiamo prometter', 'di 24 di maggio'), all decoded by the rebuilt table. c. 1623-24.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R703": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not a letter: a codebreaker's worksheet (index of groups 200-399 by line, glossed fragments) on a lost 46-line Italian letter in what he calls the 'Venetian Cifar'; same letter worked on R661, R667, R684, R701, R702, R720; his partial syllabic key is R701 p.3. SP 106/10 file of 1623-24 (see R725). The intercept itself is not among the DECODE records.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   },
   "burghley1559": {
    "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/burghley1559/NOTES.md (notes only, no site page)",
@@ -4067,22 +4148,6 @@
     "decode_status": "Non-decrypted",
     "proposed": "Non-decrypted",
     "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   }
-  }
- },
- "sp106box10": {
-  "writeup": "https://dbourdeau.github.io/cyphersolver/sp106box10.html",
-  "key": null,
-  "cite": null,
-  "fields": {},
-  "records": {
-   "R703": {
-    "decode_status": "Partially decrypted",
-    "proposed": "Partially decrypted",
-    "note": "Not a letter: a codebreaker's worksheet (index of groups 200-399 by line, glossed fragments) on a lost 46-line Italian letter in what he calls the 'Venetian Cifar'; same letter worked on R661, R667, R684, R701, R702, R720; his partial syllabic key is R701 p.3. SP 106/10 file of 1623-24 (see R725). The intercept itself is not among the DECODE records.",
     "reading": null,
     "sent": false,
     "reading_not_needed": true
