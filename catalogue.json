@@ -1451,46 +1451,6 @@
    "scored": "rule"
   },
   {
-   "id": 85,
-   "counted": true,
-   "year": 1559,
-   "date": "11 Sep 1559 – 30 Oct 1559",
-   "title": "William Cecil, 1st Baron Burghley to Sir Ralph Sadler and Sir James Croft, 2 ciphertexts",
-   "correspondents": "William Cecil, 1st Baron Burghley → Sir Ralph Sadler and Sir James Croft",
-   "place": "London",
-   "language": "English",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Add MS 33591 (2 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R4847–R4860 (2 records): Non-decrypted, 2 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R4851 (1554). DECODE note: Letter from William Cecil, 1st Baron Burghley, to Sir Ralph Sadler and Sir James Croft, Deputy of Ireland and Controller of the Royal Household.",
-   "why": "Ciphered despatches of William Cecil, 1st Baron Burghley to Sir Ralph Sadler and Sir James Croft, 11 Sep 1559 – 30 Oct 1559; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4847",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4847"
-    },
-    {
-     "label": "DECODE R4860",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4860"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4847,
-    4860
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 86,
    "counted": true,
    "year": 1711,

@@ -1,0 +1,159 @@
+{
+ "schema_version": 1,
+ "target": "burghley1559",
+ "title": "William Cecil to Sir Ralph Sadler and Sir James Croft, 11 Sep and 30 Oct 1559, BL Add MS 33591 (DECODE R4847, R4860)",
+ "documents": [
+  {
+   "id": "R4847",
+   "shelfmark": "BL Add MS 33591 f. 102 (DECODE R4847)",
+   "date": "11 Sep 1559",
+   "year": 1559,
+   "country": "England",
+   "route": "Cecil (near Stamford) to Sadler and Croft (Berwick)",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Clifford, Sadler State Papers I (1809), no. XXXVI, p. 437 (cipher printed deciphered)",
+    "partial": false
+   },
+   "length": {
+    "tokens": 12,
+    "distinct": 11,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images of f. 102r",
+    "image_quality": "good",
+    "notes": "Only two cipher groups: the sign ② and '+ H oo'; the transcription file holds the ciphered sentence with its clear words."
+   }
+  },
+  {
+   "id": "R4860",
+   "shelfmark": "BL Add MS 33591 f. 248 (DECODE R4860)",
+   "date": "30 Oct 1559",
+   "year": 1559,
+   "country": "England",
+   "route": "Cecil (London) to Sadler and Croft",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Clifford, Sadler State Papers I (1809), no. XCVII, pp. 526-527",
+    "partial": false
+   },
+   "length": {
+    "tokens": 0,
+    "distinct": 0,
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "No cipher found on either page; the letter is wholly in clear."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "Cecil's 'new ciphre' of Sept 1559: a sign for a person (② = Earl of Arran) and signs for a sum (+ H oo = 200 crowns); only two groups used. Randolph's key R4851 (31 Aug 1559) in the same volume does not contain them.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "kinds": [
+    "names"
+   ]
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "notes": "Too little cipher to rebuild the system."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Arthur Clifford (ed.), The State Papers and Letters of Sir Ralph Sadler, vol. I (Edinburgh 1809), nos. XXXVI and XCVII",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R4847, R4860 and the key record R4851 with the shared DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "R4847 is in clear except '② borrowed of me at his being at London + H oo'; R4860 has no cipher at all.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Checked R4851 (ff. 166-167, endorsed 'Rand. Ciphre. Aug. 31 1559'): Randolph's nomenclator, no ② sign, does not apply.",
+   "result": "failed"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "From context (Arran's secret passage through London to Cecil, late Aug 1559), ② = the Earl of Arran and '+ H oo' a sum of money.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Found both letters in Clifford's Sadler State Papers I (1809): 'Therle of Arrayn borrowed of me at his being at London 200 crowns', the cipher printed as deciphered by a contemporary hand.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 2
+  },
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Printed in 1809. The cipher is two groups in one letter; the other letter is in clear. Catalogue entry 85 removed, no write-up."
+ }
+}
