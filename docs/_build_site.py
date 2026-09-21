@@ -436,7 +436,7 @@ PAGES = [
          rights='Manuscript images: Archivo Hist&oacute;rico Nacional (PARES)'),
     dict(slug='ayala1516', label='Ayala 1516', year='1516', y=1516.66, place='Brussels &rarr; Cardinal Cisneros', st='partial', stt='read in part',
          title='Diego L&oacute;pez de Ayala to Cardinal Cisneros, 30 August 1516 &mdash; a &ldquo;Non-decrypted&rdquo; letter read with a sibling key',
-         blurb='DECODE R9954 is five pages of invented signs from Cisneros&rsquo;s agent at the court of King Charles, catalogued as Non-decrypted. Tomokiyo&rsquo;s key for Ayala&rsquo;s letter of 12 July (R10024) reads it unchanged. About two thirds is read: the sale of vacant Castilian offices around Chi&egrave;vres, Queen Germaine&rsquo;s dealings with France, the peace of Noyon to be proclaimed, and the King&rsquo;s departure for Spain fixed on 30 August.',
+         blurb='DECODE R9954 is five pages of invented signs from Cisneros&rsquo;s agent at the court of King Charles, catalogued as Non-decrypted. Tomokiyo&rsquo;s key for Ayala&rsquo;s letter of 12 July (R10024) reads it unchanged. About nine tenths is read: the sale of vacant Castilian offices around Chi&egrave;vres, Queen Germaine&rsquo;s dealings with France, the peace of Noyon to be proclaimed, and the King&rsquo;s departure for Spain fixed on 30 August.',
          quote='&ldquo;cerca de los oficios que estan vacos en estos reynos&rdquo;',
          rights='Archivo General de Simancas, via DECODE R9954'),
     dict(slug='spinelly1516', label='Spinelly 1517', year='1517', y=1517.1, place='Brussels &rarr; Henry VIII', st='solved', stt='read',

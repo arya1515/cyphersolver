@@ -13,20 +13,46 @@
    "language": "Spanish",
    "pages": 8,
    "cleartext_in_document": "separate passages",
-   "plaintext": {"location": ["none"], "source": "no decipherment on the record; read with Tomokiyo's key rebuilt from R10024", "partial": true},
-   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
-   "transcription": {"by": "llm from images", "source": "read directly from DECODE images AGS 0002-0006 into plain_0002_0003.txt and plain_0004_0006.txt", "image_quality": "fair", "notes": "Deciphered line by line from the images without a separate sign transcription, so no token count; lower half of AGS 0003 faded with show-through."}
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "no decipherment on the record; read with Tomokiyo's key rebuilt from R10024",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "read directly from DECODE images AGS 0002-0006 into plain_0002_0003.txt and plain_0004_0006.txt",
+    "image_quality": "fair",
+    "notes": "Deciphered line by line from the images without a separate sign transcription, so no token count; lower half of AGS 0003 faded with show-through."
+   }
   }
  ],
  "system": {
-  "types": ["monoalphabetic", "nomenclator"],
+  "types": [
+   "monoalphabetic",
+   "nomenclator"
+  ],
   "summary": "Simple substitution of invented signs for Spanish letters, with a few name and word signs (Xebres, que).",
   "symbol_kind": "symbols",
   "distinct_symbols": "unknown",
-  "diacritics": {"used": "unknown"},
-  "homophones": {"used": true},
-  "nomenclator": {"present": true},
-  "nulls": {"present": "unknown"},
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
   "key_order": "unknown",
   "word_division": "partial",
   "doubled_letters": "unknown",
@@ -39,26 +65,63 @@
    "found": "not found",
    "used": false
   },
-  "inputs": ["images", "published key"],
+  "inputs": [
+   "images",
+   "published key"
+  ],
   "attack": "published key",
   "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, and posed the problem with /goal. No target-specific intervention recorded.",
-  "tools": ["image viewing", "DECODE API", "web search"],
-  "models": ["claude-opus-5"],
+  "tools": [
+   "image viewing",
+   "DECODE API",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
   "sessions": 2,
   "first_date": "2026-09-21",
   "last_date": "2026-09-21"
  },
  "solution": [
-  {"kind": "access", "what": "DECODE record R9954 and its 8 images fetched; page order mapped to AGS 0001-0008.", "result": "worked"},
-  {"kind": "literature search", "what": "Tomokiyo spanish2C: same cipher as R10024, key rebuilt there; no reading printed.", "result": "worked"},
-  {"kind": "key from source", "what": "Tomokiyo's key figure transcribed to KEY.md and applied to AGS 0002 line 1: 'cerca delos oficios que estan vacos en estos reynos'.", "result": "worked"},
-  {"kind": "reading", "what": "AGS 0002-0006 deciphered line by line; 0002 and 0005 in full, 0003 and 0006 to mid-page, 0004 partly letter by letter.", "result": "partial"},
-  {"kind": "literature search", "what": "Real Academia de Toledo Documentos inéditos (1516-1517) searched: no. 36 is a different, clear Ayala letter of the same day; Gayangos 1867 prints Cisneros's side only.", "result": "ruled out"}
+  {
+   "kind": "access",
+   "what": "DECODE record R9954 and its 8 images fetched; page order mapped to AGS 0001-0008.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Tomokiyo spanish2C: same cipher as R10024, key rebuilt there; no reading printed.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Tomokiyo's key figure transcribed to KEY.md and applied to AGS 0002 line 1: 'cerca delos oficios que estan vacos en estos reynos'.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "AGS 0002-0006 deciphered line by line; 0002 and 0005 in full, 0003 and 0006 to mid-page, 0004 partly letter by letter.",
+   "result": "partial"
+  },
+  {
+   "kind": "literature search",
+   "what": "Real Academia de Toledo Documentos inéditos (1516-1517) searched: no. 36 is a different, clear Ayala letter of the same day; Gayangos 1867 prints Cisneros's side only.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Second image pass at 2x with autocontrast by two agents: AGS 0003 lines 18-26 read; weak lines on 0002, 0004, 0006 re-read; key corrections Phi=m, hook=j, I-sign and looped sign = s, X. = q inside words, H. = Xebres confirmed in context.",
+   "result": "worked"
+  }
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
-  "verification": ["historical consistency"],
-  "notes": "About two thirds read in sense: offices and Chièvres, Queen Germaine, the peace of Noyon, Charles's departure fixed on 30 Aug. AGS 0003 lines 18-31 and 0006 lines 13-24 unread."
+  "fraction_read": 0.9,
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "About nine tenths read in sense after a second pass: offices and Chièvres, the Orders, Queen Germaine, the peace of Noyon, Charles's departure, Chièvres and the Chancellor. Single words open on each page."
  }
 }
