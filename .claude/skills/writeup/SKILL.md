@@ -108,6 +108,27 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
 - Add the slug to `IMAGES`: `('<slug>_lead.jpg', 'caption', 'credit')`, or `None`. Every page needs the key.
 - If the page is solved or partly read, update the `solved` survey entry's blurb and quote counts.
 
+## 2a. The explore features: reveal, atlas, key web
+
+The "How it was solved" replay needs nothing: the build draws it from `profile.json` (three steps or more). The other
+three are data files you edit by hand; each is a few lines, and skipping one leaves the target off that feature.
+
+- **Watch it decipher** (`docs/reveal/<slug>.json`, rendered by `cipher-reveal.js`): only when the repository holds a
+  sign-level transcription paired with a key or decoder. Run the target's own decoder over one continuous passage of
+  40–250 groups, ideally the one the page quotes; never fill values from memory or from the plaintext alone. Format:
+  `{"slug", "anchor": "<h2 id the reveal goes under>", "title", "caption", "unit", "key_note",
+  "tokens": [{"g": "972", "p": "the", "cls": ""}]}` with `cls` one of `unk` (p `?`), `unc`, `code`, `plain` (clear
+  text, `g` empty), `null`. Check the result against the page's reading and mark disagreements `unc`. The build
+  places the figure once, after the anchor h2. Copy an existing file (`reveal/armstrong.json`, `reveal/toledo1565.json`).
+- **Atlas** (`docs/atlas.json`): for each letter with a known origin and destination, append
+  `{"slug", "doc", "year": <decimal>, "date", "from", "to", "st", "label"}` to `letters`, adding any new city to
+  `places` as `[lat, lon]`. A court or a person goes where they were at that date; leave a letter out rather than guess.
+  `st` is the page's `st`.
+- **Key web** (`docs/keys.json`): when a named key read this target (a sibling's key, a DECODE key record, Lasry's or
+  Tomokiyo's table, a key rebuilt here), add a `links` entry `{"key", "target": "<slug>", "how": "read unchanged" |
+  "adapted" | "rebuilt from" | "partial", "note"}`, and a `keys` entry `{"id": "k-…", "label", "kind", "by", "year",
+  "note"}` if the key is new. Only edges the NOTES state explicitly.
+
 ## 3. The ledgers in the repository root
 
 - `README.md`: one row in the matching `## Results` table (Solved / Explained / Partly read or adjudicated /
