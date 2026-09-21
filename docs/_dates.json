@@ -31,6 +31,7 @@
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
   "castelcicala to the marchese di circello and to medici, 1816–1823": "2026-09-21",
   "castelcicala to the marchese di circello, 1816–1819": "2026-09-21",
+  "catherine de médicis and the bishop of rennes, 1562–64": "2026-09-21",
   "catherine de médicis to the bishop of rennes, 31 july 1563": "2026-09-20",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
@@ -494,7 +495,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d6f1abdd47b6",
+   "hash": "161b7c09d2d0",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -764,7 +765,7 @@
   },
   "rennes1563": {
    "first": "2026-09-20",
-   "hash": "700463b86bb7",
+   "hash": "1519f6203a1a",
    "updated": "2026-09-21"
   },
   "reserva12": {
@@ -1019,7 +1020,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "4ae1d6fdcb85",
+   "hash": "9c5ae94c80e0",
    "updated": "2026-09-21"
   },
   "yard1699": {

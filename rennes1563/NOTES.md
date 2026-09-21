@@ -48,25 +48,39 @@ l'Empereur=e-grave-like, Roy de Boheme=V-dot
 
 Status: read in part.
 
-**fr. 3181 f. 55 (Catherine de Médicis to Rennes, 31 July 1563) is read in part** — see
-`READING.md` and `decode.py`. The thirteen ciphered lines were never deciphered: La
-Ferrière printed the letter in *Lettres de Catherine de Médicis* II, pp. 79-81 and set the
-whole block as `[ ]` with the footnote "Partie chiffrée"; Tomokiyo lists f. 55 as
-undeciphered. Tomokiyo's reconstructed key works on it once calibrated on this scribe's
-shapes, which was done against the line-by-line margin decipherment of the sibling letter
-f. 57 (13 Aug 1563, view 38), whose first ciphered line reads `que les princes`.
+Four letters in the same cipher, each read from its own image with values calibrated on
+contemporary glossed letters in the same hand (21 Sept 2026). Share of cipher signs in
+secure + probable French:
 
-Continuous stretches recovered include: *sceu ce que vous avez descouvert*, *du mariage*,
-*vostre advis*, *d'iceulx en mon intention*, *ayt tenu ce chemin*, *ce qui pourra*,
-*entendu ce que le*, *vous mist en avant, qui l'avoit*, *l'avancement du concile, à ce
-que*, *chacun faict*, *de ce concile, mais nous*, *avoir l'utilité qui en sortira*,
-*mect des se[ss]ions*, *que vous avez oy*, *par lettres*. The subject is the Council of
-Trent and the Habsburg marriage negotiation — which is why it was enciphered, while the
-Havre-de-Grâce news in the same letter was left in clear.
+| Item | Date | Reading file | Read |
+|---|---|---|---|
+| fr. 3181 f. 55, Catherine | 31 July 1563 | `f55_v2_reading.md` | ~91% (80 secure, 11 probable) |
+| 500 Colbert 390 p. 357 | late summer 1564 | `c390_p357_reading.md` | ~94% |
+| 500 Colbert 392 p. 231, Bourdin | Dec 1562 | `c392_p231_reading.md` | ~80% |
+| 500 Colbert 390 p. 139, "Deschiffrez vous mesmes" | 1562-63 | `c390_p139_v3_reading.md` | ~63% (36 secure, 27 probable) |
 
-Not yet attempted: 500 Colbert 390 p. 139 and p. 357, and 500 Colbert 392 p. 231 (same
-cipher; images fetched to `img/`, which is git-ignored — `fetch.py` and `fetch3181.py`
-rebuild it; note fr. 3181 folio = Gallica view + 19, so f. 55 = view 36).
+Token-weighted, about 82% of the 2,035 transcribed signs.
+
+- **f. 55**: Council of Trent and the Habsburg marriage; "avancer le concile", "pour le bien
+  de la Chrestienté", "ce qui se promect des sessions de Decembre, desquelz vous avez oy
+  parler, vous estant dernierement à … Trante".
+- **p. 357**: the precedence dispute at the imperial court (1564, after Ferdinand I's
+  death): "il fauldra prandre autre pretexte que celuy porté par la depesche du s[ieu]r
+  Charon… laisser là quelque secretaire ou aucun des vostres, advisés soubz couleur d'aucuns
+  voz affaires particuliers".
+- **Colbert 392 p. 231**: Bourdin encloses Catherine's letter of 15 Dec 1562 (La Ferrière I
+  448-451) on the secret marriage overture; its leak to Spain ("sçavoit incontinant en
+  Espaigne"), "[s]a femme … triumphe de la premiere ouverture que vous luy feistes de ce
+  mariage", closing "d'amitié et alliance… à l'honneur de Dieu et au repos de la
+  chrestienté". Clear end with date on p. 232.
+- **p. 139**: a secret note, "decipher it yourself, trust no clerk, burn it": "que je vous
+  tienne pour trop advisé et affectionné et loyal serviteur du roy mon fils… les yeux ouverts
+  pour observer… mon cousin… ses actions… beau frère".
+
+Method: `lattice.py` (beam decoder, fr-1530-despatches model) over per-glyph candidate sets;
+per-hand values from the glossed siblings in `fr3181_glossed.md` (f. 57-58) and
+`colbert390_glossed.md` (p. 138, pp. 189/199, 221-231). Crib material from La Ferrière in
+`cribs.md`. Crops are git-ignored and rebuilt from Gallica.
 
 ## Setup (earlier session)
 This is setup and key calibration, not a completed decipherment. No continuous reading of any of the four target letters has been established.
@@ -79,15 +93,15 @@ This is setup and key calibration, not a completed decipherment. No continuous r
 - f. 55 = fr3181 v36: 17 lines of cipher then clear text (Havre de Grace / Queen of England passage in clear).
 
 ## Remaining gaps
-- fr. 3181 f. 55, weakest lines 2, 4, 8, 12, 13 (about two fifths of the passage) - blocker: illegible; key gives a value to 397 of 401 tokens, but near-identical r/s, e/o, l/t homophones in this hand keep the French from resolving
-- 500 Colbert 390 p. 139 (~20 lines, 'Deschiffrez vous mesmes') - blocker: not-attempted; same cipher; image fetched, not worked
-- 500 Colbert 390 p. 357 (~25 lines) - blocker: not-attempted; same cipher; image fetched, not worked
-- 500 Colbert 392 p. 231 (Bourdin, ~30 lines) - blocker: not-attempted; image fetched, not worked; the Rennes2 (Lorraine) key not tried either
+- fr. 3181 f. 55, about 9% of signs (ꝥ, ɼ, εʃ, ɾ, 'h Ə'; runs on lines 4, 8, 9) - blocker: no-key-material; the signs occur in no glossed passage in this hand (f. 57-58 aligned in full; the Colbert 390 glosses are in another hand)
+- 500 Colbert 390 p. 357, about 16 signs at the end of line 3 / start of line 4, one sign in line 10 - blocker: no-key-material; the run fits "l'Empereur" by pattern only; no gloss or print
+- 500 Colbert 392 p. 231, about 20% (runs on lines 4, 5, 7, 8-9, 11-17, 22) - blocker: no-key-material; W, ss, tt, πꝫ, t7 and "maue" occur once or twice and in no glossed passage of Colbert 390 pp. 189-231
+- 500 Colbert 390 p. 139, about 37% (lines 3-4, 7, 8-10, 12-14) - blocker: illegible; faint ink and heavy nulls; ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ unglossed anywhere found
 
 ## Escalation
-- [x] siblings: f. 52 and f. 57 (glossed siblings) opened; the f. 57 margin decipherment used to calibrate the scribe's shapes
-- [x] clear-pages: clear part of f. 55 (Havre-de-Grâce passage) and La Ferrière's print of the letter used for context
-- [x] known-keys: Tomokiyo's Bishop of Rennes key (CharlesIX_Rennes.png) applied
-- [x] print: La Ferrière, Lettres de Catherine de Médicis II pp. 79-81 ('Partie chiffrée'); Tomokiyo henryiii.htm
-- [x] key-rebuild: key calibrated on this scribe's shapes against the f. 57 line-by-line gloss (decode.py, segment.py)
-- [ ] retry: not done — rerun lines 2, 4, 8, 12, 13 with more calibration from the f. 52/f. 57 glosses, and read the three Colbert letters with the calibrated key
+- [x] siblings: fr. 3181 f. 52, f. 57, f. 58 and Colbert 390 pp. 138, 189/199, 221-231, 241 opened; f. 57-58 and p. 138 give the hands' values; Colbert 392 p. 232 is the clear end of the Bourdin letter
+- [x] clear-pages: clear parts of all four letters used for context; Colbert 392 p. 232 dates the Bourdin letter
+- [x] known-keys: Tomokiyo's Bishop of Rennes key; the Rennes2 (Lorraine) key checked, not this cipher
+- [x] print: La Ferrière I-II (cribs.md): none of the four passages printed; Bourdin's enclosure is Catherine 15 Dec 1562; Tomokiyo lists all four as undeciphered
+- [x] key-rebuild: per-hand values from glossed siblings, LM lattice decoding
+- [x] retry: every letter re-run after each new value set; p. 139 control re-run withdrew four readings
