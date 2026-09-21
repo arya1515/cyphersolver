@@ -1,0 +1,135 @@
+{
+ "schema_version": 1,
+ "target": "ormanetto1576",
+ "title": "Ormanetto / Clementino, Spain nunciature to the Secretariat, 1576-77 (ASV Segr. Stato Spagna 10; DECODE R117-R118)",
+ "documents": [
+  {
+   "id": "R118",
+   "shelfmark": "ASV Segr. Stato Spagna 10, f. 365 (DECODE R118)",
+   "date": "unknown",
+   "year": 1576,
+   "country": "Spain",
+   "route": "Madrid (nunciature) -> Rome (Secretariat of State)",
+   "language": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "The Italian note on the leaf was tested as a crib and does not fit; no decifrato found."
+   },
+   "length": {
+    "tokens": 389,
+    "distinct": 10,
+    "unit": "symbols",
+    "measured": true,
+    "file": "r118_cipher.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R118_I869_P1",
+    "image_quality": "good",
+    "notes": "Digits only; the barred-4 sign and dots over digits are not counted. Lines 3-6 less secure."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "unknown"
+  ],
+  "summary": "Contiguous numeric cipher with dotted digits and a barred-4 sign; system not established.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "R117 (the other record) is a clear Spanish memorial with Roman-numeral ducat sums, not a cipher. Lasry's 1580 Como key (R72) structure does not fit: odd second digits occur."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Possibly calendared in Olarra-Larramendi, Correspondencia ... Felipe II (not checked, not online)",
+   "found": "unknown",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "crib_align.py (beam-search crib aligner with shuffled-crib control)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Downloaded the three DECODE images of R117 and R118 with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Read R117: a clear Spanish memorial on the Pamplona vacancy; the figures are Roman-numeral ducat sums.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the six lines of R118 figures from zoomed crops.",
+   "result": "partial",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Compared with Lasry's 1580 Como key (R72): even-second-digit letter codes cannot produce this text.",
+   "result": "ruled out",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "crib",
+   "what": "Aligned the Italian note under the cipher as its plaintext: 43 distinct tokens for 60 letters.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "control",
+   "what": "Same aligner on three shuffles of the note: 47, 51, 48 tokens; the note is not a clear fit.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Searched DECODE metadata for a Spain nunciature key 1570-80: none.",
+   "result": "failed",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "matched control"
+  ],
+  "notes": "R117 not a cipher; R118 needs the key or the Rome decifrato."
+ }
+}

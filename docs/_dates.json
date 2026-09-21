@@ -87,6 +87,7 @@
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "nicolò sadoleto to ercole i d’este, pozsony, july–november 1482": "2026-09-19",
   "nuncio acciaiuoli from lisbon, 1758–60": "2026-09-19",
+  "ormanetto and clementino, spain nunciature, 1576–77 (asv segr. stato spagna 10)": "2026-09-21",
   "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
   "paris 1719 and the carré letters, 1742–45 (bl add ms 32305)": "2026-09-21",
@@ -209,7 +210,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "043a3031f9a8",
+   "hash": "9568973a19a9",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -359,7 +360,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3d51e6e630ff",
+   "hash": "5223abf5d15e",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -456,6 +457,11 @@
    "first": "2026-09-18",
    "hash": "ccee9e72fe58",
    "updated": "2026-09-18"
+  },
+  "ormanetto1576": {
+   "first": "2026-09-21",
+   "hash": "00fc19dd1c7b",
+   "updated": "2026-09-21"
   },
   "ormonde": {
    "first": "2026-09-15",
@@ -684,7 +690,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "2493dca0c33f",
+   "hash": "18fa62b334fc",
    "updated": "2026-09-21"
   },
   "yard1699": {
