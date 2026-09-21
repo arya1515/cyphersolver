@@ -137,7 +137,7 @@ p36 1.00 + 0.75 + 1.00 + 0.40 + 0.10 + 0.30.
 ### Provisional additions, 20 September 2026: Egmond and Groffey
 
 Charles of Egmond (p43, 3.15) sits just above Armstrong in this provisional scoring; no claim of an independently confirmed first reading is made.
-Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal. Van Reede 1787 (p46, 2.85) sits just below it: an archive key again, with the transcription as the obstacle. De Swart 1782 (p45, 3.05) is the same kind of result: an archive key for a letter DECODE said had none. Alessandrino 1568 (p47, 2.65) is lower: the key was already reconstructed and published, and only the letter choice was left.
+Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal. Van Reede 1787 (p46, 2.85) sits just below it: an archive key again, with the transcription as the obstacle. De Swart 1782 (p45, 3.05) is the same kind of result: an archive key for a letter DECODE said had none. Alessandrino 1568 (p47, 2.65) is lower: the key was already reconstructed and published, and only the letter choice was left. The Ralph Boswell newsletter of 1627 (p49, 1.65, found already read by Mark Woodard) ranks lowest: a published key, with only the sender and date added.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -147,6 +147,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p46 | **Arend Willem van Reede (Berlin) → Van de Spiegel**, NA 3.01.26 inv. 190 (DECODE R1026, R1027) | 29 Dec 1787, 4 Mar 1788 | 2 | 3 | 4 | 3 | 2 | 3 | **2.85** | Archive key (the 1782 Grand Chiffre, R1024) confirmed on a known-plaintext control; the work was the transcription, where one catch-all sign hid different digits and was resolved by a language model. New reading of the 1788 alliance negotiation; held down by the garbled stretches and the unread 1793 letter |
 | p47 | **Cardinal Alessandrino → the nuncio in Spain**, AAV Segr. Stato Spagna 6/I and 6/II (DECODE R93–R102, R115) | 1568–69 | 2 | 3 | 3 | 4 | 1 | 3 | **2.65** | Published reconstructed key (Lasry 2020) with no plaintext; the work was choosing each digit's letter under a language model. Eleven papal letters of 1568–69 read for the first time online; held down because the key was already known and Serrano 1914 may print some in clear |
 | p48 | **Conde de Hernán Núñez (Stockholm) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R1012–R1015) | Dec 1674 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Margins on every passage and a sibling key already rebuilt here (Balbases 1677), so D 1 and N 2; the work was recognising the key and checking the margins against it. Sweden on the eve of the Scanian War, verified group by group |
+| p49 | **Sir Ralph Boswell → William Boswell**, TNA SP 106/5 ff. 20–21 (DECODE R413, catalogued as Charles I to Boswell) | 15 Dec 1627 | 1 | 2 | 2 | 1 | 1 | 3 | **1.65** | D 1: Woodard's 2021 monoalphabetic key applied. H 2: court news on Buckingham before the 1628 Parliament. N 2: read by Woodard; sender, date and two signs added here. F 1: a DECODE record only. V 3: key consistent on all 442 signs; one pair unread |
 
 ## By single axis
 
@@ -378,3 +379,5 @@ Van Reede provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×3 + 0.10×2 + 0
 Alessandrino provisional score: 0.25×2 + 0.25×3 + 0.20×3 + 0.10×4 + 0.10×1 + 0.10×3 = **2.65**.
 
 Hernán Núñez provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **2.20**. It sits at the foot of the provisional rows (p48): margins and a sibling key left little to break.
+
+Ralph Boswell provisional score: 0.25×1 + 0.25×2 + 0.20×2 + 0.10×1 + 0.10×1 + 0.10×3 = **1.65**.

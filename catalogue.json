@@ -1091,41 +1091,6 @@
    "scored": "rule"
   },
   {
-   "id": 63,
-   "counted": true,
-   "year": 1628,
-   "date": "1 Jan 1628",
-   "title": "King Charles I to William Boswell (1585-1650)",
-   "correspondents": "King Charles I → William Boswell (1585-1650)",
-   "place": "Kew",
-   "language": "probably English too, but strictly speaking unknown",
-   "region": "England",
-   "period": "1611-1650",
-   "shelfmark": "TNA, State Papers, inv.nr. 106 box 5",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R413: Non-decrypted, 2 pp., unknown; graphic signs; images login. Not viewed here. 7 key record(s) from the same series on DECODE, nearest R419 (1625). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: 10 lines of ciphertext, constituted by esoteric symbols without word or codegroup separation, suggesting that every sign contitutes a codegroup in itself. Adressed to: \"My worthy and most esteemed Cousin William Bosmwell,\" which may indicate that the author wa…",
-   "why": "Ciphered letter of King Charles I to William Boswell (1585-1650), 1 Jan 1628; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R413",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/413"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    413
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 64,
    "counted": false,
    "year": null,

@@ -92,6 +92,7 @@
   "roosevelt cryptogram, 1935": "2026-09-16",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
+  "sir ralph boswell to william boswell, december 1627": "2026-09-21",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
@@ -166,6 +167,11 @@
    "hash": "574c70450c0e",
    "updated": "2026-09-16"
   },
+  "boswell1628": {
+   "first": "2026-09-21",
+   "hash": "9003127239f7",
+   "updated": "2026-09-21"
+  },
   "breves1603": {
    "first": "2026-09-18",
    "hash": "682bb7ed4faf",
@@ -183,7 +189,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "615b8ea5b3d7",
+   "hash": "75ea3f3ea1cd",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -313,7 +319,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3300421a2d13",
+   "hash": "0c248aeeed88",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -593,7 +599,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "e661799eec11",
+   "hash": "3580bd521ef7",
    "updated": "2026-09-21"
   },
   "yard1699": {
