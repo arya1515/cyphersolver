@@ -665,3 +665,7 @@ stowe166/img/
 # eichel1758: DECODE images, record pages (JWT) and transcriptions
 eichel1758/decode/*
 !eichel1758/decode/score.py
+nino1522/img/
+nino1522/crops/
+nino1522/lit/
+nino1522/decode/rec*.htm

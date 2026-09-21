@@ -2049,26 +2049,31 @@
    "shelfmark": "National Library of Spain, MSS/20213/27",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1182: Non-decrypted, 3 pp., homophonic; graphic signs, numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html.",
+   "status": "DECODE R1182: Non-decrypted. Viewed here 21 Sept 2026: a clear Spanish letter with one 8-line ciphered paragraph on f. 1v, bracketed by the nulls 'mer' ... 'mer por'. The system is Kolosova's Cifra 15 (Rodrigo Niño 1522: simple substitution with syllable nulls; Kolosova 2017 thesis pp. 452-459, 2024 book, via Tomokiyo), but her key was not reachable (RODERIC PDF lacks the chapter; the book is paid). A ciphertext-only annealing attack on the eye transcription did not converge. Notes: nino1522/NOTES.md.",
    "why": "Ciphered letter of Rodrigo Niño to Charles I, 19 Mar 1522; what the cipher hides is not known.",
    "importance": 3,
-   "solvability": 2,
+   "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+   "verify": "Get the Ko.15 alphabet from Kolosova 2024 ('Cifrarios', pp. 171-224), or a full-resolution BNE BDH scan of MSS/20213/27.",
    "ark": "",
    "links": [
     {
      "label": "DECODE R1182",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1182"
+    },
+    {
+     "label": "Notes",
+     "href": "https://github.com/dbourdeau/cyphersolver/blob/main/nino1522/NOTES.md"
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     1182
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 152,

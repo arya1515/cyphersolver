@@ -1,0 +1,130 @@
+{
+ "schema_version": 1,
+ "target": "nino1522",
+ "title": "Rodrigo Niño (Naples) to Charles V, 19 March 1522, one ciphered paragraph (BNE MSS/20213/27; DECODE R1182)",
+ "documents": [
+  {
+   "id": "R1182",
+   "shelfmark": "Biblioteca Nacional de España, MSS/20213/27; DECODE R1182",
+   "date": "1522-03-19",
+   "year": 1522,
+   "country": "Spain",
+   "route": "Naples -> Charles V",
+   "language": "Spanish",
+   "pages": 3,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaf or on DECODE."
+   },
+   "length": {
+    "tokens": 128,
+    "distinct": 88,
+    "unit": "mixed",
+    "measured": true,
+    "file": "cipher_p2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R1182_I5903_P1, I5904_P2",
+    "image_quality": "poor",
+    "notes": "8 cipher lines on f. 1v; signs are about 12 px high and several pairs cannot be told apart reliably."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic"
+  ],
+  "summary": "Letter substitution in graphic signs with word spaces, and syllable-shaped nulls (mer, mor, pu, por) per Kolosova's Cifra 15; a double-barred cross sign follows many signs.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": 31,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "Lope Hurtado 1522 key (lopehurtado/key_codes.tsv) compared by eye: different system"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Kolosova 2017 thesis (Cifra 15, pp. 452-459) and 2024 book, via Tomokiyo cryptiana spanish2C; key not seen here; not confirmed that this letter is one of her three",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Selected the target; the DECODE session cookie was supplied earlier.",
+  "tools": [
+   "DECODE authenticated image download",
+   "DECODE API metadata",
+   "lang es-golden-age 5-gram simulated annealing",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE metadata and images P1-P2 of R1182 with the saved cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Viewed the images: the letter is clear Spanish except one 8-line ciphered paragraph on f. 1v, opening [mer] and closing [mer por].",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Tomokiyo spanish2C: Kolosova's Ko.15 (Rodrigo Niño 1522) is a simple substitution with nulls mer/mor/pu/por, which matches this block.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Fetched Kolosova's thesis from RODERIC (hdl 10550/66216): a 148-page version with no Niño chapter; the 2024 Salamanca book is paid.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Eye transcription of the 8 lines into ASCII sign codes (cipher_p2.txt), 128 words.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Simulated annealing with es-golden-age 5-grams, max two signs per letter; variants dropping '#' and/or 'o' as nulls and merging '#' into the preceding sign. Best -2.9 to -3.5 per char (Spanish about -1.1), unreadable.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Closed as attempted. The system is in print (Kolosova, Cifra 15), but the key was not reachable here and a blind attack on 336 doubtful signs with unresolved nulls did not converge."
+ }
+}
