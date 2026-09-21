@@ -1,0 +1,77 @@
+{
+ "schema_version": 1,
+ "target": "poyntz1527",
+ "title": "Lee and Poyntz to Wolsey, Valladolid, July 1527 (BL Cotton MS Vespasian C IV ff. 182-185; DECODE R8567)",
+ "documents": [
+  {
+   "id": "R8567",
+   "shelfmark": "BL Cotton MS Vespasian C IV ff. 182-185 (DECODE R8567)",
+   "date": "1527-07-19",
+   "year": 1527,
+   "country": "England",
+   "route": "Spain (imperial court) -> England (Wolsey)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["interlinear"],
+    "source": "Contemporary decipherment written above each cipher run on f. 184v."
+   },
+   "length": {
+    "tokens": 44,
+    "distinct": 39,
+    "unit": "mixed",
+    "measured": true,
+    "file": "plaintext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R8567_I39514_P6",
+    "image_quality": "good",
+    "notes": "Only the interlinear decipherment was transcribed; the sign cipher itself was spot-checked, not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": ["nomenclator"],
+  "summary": "Lee-Worcester sign cipher (1526-29): graphic-sign alphabet with word and name signs.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": true},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Tomokiyo's Lee-Worcester key, document on the DECODE record",
+  "notes": "Three short cipher runs in a long clear despatch."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Interlinear contemporary decipherment on f. 184v; Tomokiyo key on DECODE R8567",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": ["images"],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Downloaded the 8 DECODE images and the attached key document with the session cookie.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "verification", "what": "Read the pages: a clear English despatch of Lee and Poyntz to Wolsey; cipher only in three runs on f. 184v.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "transcription", "what": "Transcribed the contemporary interlinear decipherment of the three runs.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "key from source", "what": "Spot-checked one run against Tomokiyo's Lee-Worcester key: sigma tau c c bottom = c a n n o under 'can not'.", "result": "worked", "date": "2026-09-21"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1,
+  "verification": ["contemporary decipherment"],
+  "notes": "Read at the time; nothing new to read."
+ }
+}
