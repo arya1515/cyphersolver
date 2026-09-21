@@ -149,6 +149,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p48 | **Conde de Hernán Núñez (Stockholm) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R1012–R1015) | Dec 1674 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Margins on every passage and a sibling key already rebuilt here (Balbases 1677), so D 1 and N 2; the work was recognising the key and checking the margins against it. Sweden on the eve of the Scanian War, verified group by group |
 | p49 | **Sir Ralph Boswell → William Boswell**, TNA SP 106/5 ff. 20–21 (DECODE R413, catalogued as Charles I to Boswell) | 15 Dec 1627 | 1 | 2 | 2 | 1 | 1 | 3 | **1.65** | D 1: Woodard's 2021 monoalphabetic key applied. H 2: court news on Buckingham before the 1628 Parliament. N 2: read by Woodard; sender, date and two signs added here. F 1: a DECODE record only. V 3: key consistent on all 442 signs; one pair unread |
 | p50 | **Bernardo de Salinas (London) and Pedro Ronquillo (Nijmegen) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R966–R984, R1001) | 1676–78 | 1 | 3 | 3 | 3 | 1 | 3 | **2.30** | A sibling key applied unchanged (D 1); the work was re-segmenting DECODE's transcriptions. Four letters with no margin, two catalogued as non-decrypted, read in gist, so N 3 |
+| p51 | **Antonio Sauli and Cardinal Riario (Portugal) → the papal Secretariat**, ASV Segr. Stato Portogallo 8 (DECODE R190–R194) | 1579–81 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Contemporary decipherments over nearly every passage and a published key (Lasry 2020), so D 1 and N 2; the work was transcribing R192–R194 and checking them against the glosses, which added five code words. Riario's legation on the Piedmont plot and the papal troops for Ireland |
 
 ## By single axis
 
@@ -384,3 +385,4 @@ Hernán Núñez provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10�
 Ralph Boswell provisional score: 0.25×1 + 0.25×2 + 0.20×2 + 0.10×1 + 0.10×1 + 0.10×3 = **1.65**.
 
 Salinas/Ronquillo provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.30** (p50).
+Sauli and Riario provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **2.20**.

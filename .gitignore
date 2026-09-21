@@ -611,3 +611,8 @@ deswart1782/croiset_codebook_paper.txt
 deswart1782/vendor/
 deswart1782/oterleek-codes/
 deswart1782/r20*_linecrops/
+
+# sauli1579: DECODE images (ASV, not public domain)
+sauli1579/img/
+sauli1579/decode/*.png
+sauli1579/decode/*.htm

@@ -8192,61 +8192,6 @@
    "scored": "rule"
   },
   {
-   "id": 260,
-   "counted": false,
-   "year": 1579,
-   "date": "23 Jan 1579",
-   "title": "Antonio Sauli and Riario (Portugal) to The Secretariat, 5 ciphertexts",
-   "correspondents": "Antonio Sauli and Riario → The Secretariat",
-   "place": "Portugal",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 8 (5 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R190–R194 (5 records): Partially decrypted, 22 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE's notes say there is a contemporary decipherment on the leaf; so the text was read at the time and this is a transcription job, listed as noted rather than open. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Ciphers within cleartext, with decipherments within the letter. Comment from archive: Portogallo. Mons. Sauli, nuntio '79; legato Riario, '80, '81. Lett. Orig. e cifre di Antonio Sauli alla Segreteria, 23/1 1579-9/12 1579. ff. 2-74 Lett. O…",
-   "why": "Ciphered despatches of Antonio Sauli and Riario to The Secretariat, 23 Jan 1579; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Open the images and check how much of the cipher the contemporary decipherment covers.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R190",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/190"
-    },
-    {
-     "label": "DECODE R191",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/191"
-    },
-    {
-     "label": "DECODE R192",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/192"
-    },
-    {
-     "label": "DECODE R193",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/193"
-    },
-    {
-     "label": "DECODE R194",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/194"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    190,
-    191,
-    192,
-    193,
-    194
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 261,
    "counted": false,
    "year": 1566,

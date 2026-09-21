@@ -225,6 +225,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **Antonio Sauli and Cardinal Riario (Portugal) → the Secretariat, 1579–81**, catalogue 260, DECODE R190–R194. Read from the contemporary decipherments, checked with Lasry's key, 21 Sept 2026. See `sauli1579/`.
 - **Cardinal Alessandrino → the nuncio in Spain, 1568–69**, catalogue 253 and 254, DECODE R93–R102 and R115. Read end to end with Lasry's reconstructed polyphonic key, 21 Sept 2026. See `alessandrino1568/`.
 
 - **Arend Willem van Reede → Van de Spiegel / Secret Committee, Berlin, 1787–1793**, DECODE R1026/R1027/R1893. R1026 and R1027 read with the 1782 Grand Chiffre (R1024), 452 of 472 groups, 21 Sept 2026; R1893 is another code, not read. See [vanreede1787/](vanreede1787/).

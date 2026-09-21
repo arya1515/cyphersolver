@@ -1,0 +1,173 @@
+{
+ "schema_version": 1,
+ "target": "sauli1579",
+ "title": "Sauli and Riario (Portugal) to the papal Secretariat, 1579-81 (ASV Segr. Stato Portogallo 8, DECODE R190-R194)",
+ "documents": [
+  {
+   "id": "R190-R191",
+   "shelfmark": "ASV Segreteria di Stato, Portogallo 8, ff. 92r-101r (DECODE R190, R191)",
+   "date": "unknown",
+   "year": 1580,
+   "country": "Papal States",
+   "route": "Portugal -> Rome",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment; Lasry's DECODE decryption (DOC_R190_D3249, 2020)."
+   },
+   "length": {
+    "tokens": 2392,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Midas 2017 transcription as decrypted by Lasry (DOC_R190_D3249)",
+    "image_quality": "good",
+    "notes": "Count of groups in Lasry's decryption file, counted by script, not by the profile checker; 474 marked uncertain. Not re-transcribed here."
+   }
+  },
+  {
+   "id": "R192-R194",
+   "shelfmark": "ASV Segreteria di Stato, Portogallo 8, ff. 195-197, 236-238, 281 (DECODE R192, R193, R194)",
+   "date": "Oct 1580 - 1581",
+   "year": 1580,
+   "country": "Papal States",
+   "route": "Badajoz, Elvas, Lisbon -> Rome",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment over nearly every passage; R193 p.3 a clear decifrato."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "sauli1579/transcription_R192.md, transcription_R193_R194.md (per-passage digit strings from the DECODE images)",
+    "image_quality": "good",
+    "notes": "About 106 cipher passages; digit strings read approximately and checked against the glosses, not an independent full count."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Two-digit homophones for letters with a few two-digit code words, single digit 9 as null word separator.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names",
+    "titles",
+    "places"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": 1
+  },
+  "key_order": "unknown",
+  "word_division": "separator symbol",
+  "sibling_key": "none",
+  "notes": "Lasry's key (DOC_R190_D3258) plus 16 Inghilterra, 30 S.S.ta, 36 Francia, 40 cattolici, 10 Italia(?) found here; 20/28, 72/82 and 4-digit prefixes unsettled."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Contemporary interlinear decipherments on the letters; Lasry's reconstructed key and R190-R191 decryption on DECODE (Oct 2020)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key",
+   "cleartext context"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "decrypt.py (Lasry's key as a table decoder)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "DECODE R190-R194 metadata, 22 page images and DOC attachments fetched with the session cookie; Lasry's key and his R190-R191 decryption found on the records.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Web search for an edition of Riario's legation letters; none found.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Lasry's reconstructed key coded as decrypt.py.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Cipher passages of R192-R194 (11 pp.) transcribed as digits by two image agents, with the interlinear glosses and page summaries.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Each decrypt compared with the contemporary gloss: agreement wherever legible; only one short tail on R192 p.1 lacks a gloss.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Code words added to the key from gloss alignment: 16 Inghilterra, 30 S.S.ta, 36 Francia, 40 cattolici, 10 Italia(?).",
+   "result": "partial",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "contemporary decipherment"
+  ],
+  "notes": "Read from the contemporary decipherments, checked with the key; a few code groups (20/28, 72/82, 4-digit prefixes, one tail) open."
+ }
+}
