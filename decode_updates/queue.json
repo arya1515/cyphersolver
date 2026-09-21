@@ -4263,6 +4263,159 @@
      "reading_not_needed": true
     }
    }
+  },
+  "fr3029": {
+   "writeup": null,
+   "key": {
+    "decode": "none on record; Lasry 2023 key (cryptiana GL.htm)",
+    "lang": "FR"
+   },
+   "cite": "Tomokiyo, cryptiana GL.htm, 'De la Tremoille's(?) Cipher': broken by G. Lasry 2023 (and N. Biermann)",
+   "fields": {
+    "date": "11 Jan 1530 is unsupported; Tomokiyo dates the letters ??1520-1521"
+   },
+   "records": {
+    "R3666": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3667": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3668": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3669": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3671": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3673": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3674": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3675": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3676": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3677": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3678": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3679": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3680": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3681": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3682": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3683": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3684": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3685": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3686": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    },
+    "R3687": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Cipher broken by George Lasry 2023 (cryptiana GL.htm, BnF fr.3029/3092 group); decipherments of f.67 and f.186 printed there.",
+     "reading": [],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
