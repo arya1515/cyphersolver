@@ -1522,41 +1522,6 @@
    "scored": "rule"
   },
   {
-   "id": 104,
-   "counted": true,
-   "year": 1529,
-   "date": "20 Apr 1529",
-   "title": "Cysar-Augusta, Edw. Lee (Hispania) to unknown recipient",
-   "correspondents": "Cysar-Augusta, Edw. Lee → unknown recipient",
-   "place": "Hispania",
-   "language": "English",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Vespasian C IV f 341",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R8602: Non-decrypted, 2 pp., unknown; alphabet; images login. Not viewed here.",
-   "why": "Ciphered letter of Cysar-Augusta, Edw. Lee to unknown recipient, 20 Apr 1529; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8602",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8602"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8602
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 105,
    "counted": true,
    "year": 1528,

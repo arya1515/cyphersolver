@@ -35,3 +35,13 @@ Prior art: read at the time; Tomokiyo published the key (cryptiana); the letters
 Papers Henry VIII vol. IV. The sister record R8567 (Lee and Poyntz, July 1527) was closed the same way (poyntz1527/).
 BL images are behind the DECODE login and not public domain: kept git-ignored in img/.
 Removed from the catalogue 21 Sept 2026.
+
+## Catalogue 104: R8602, Saragossa 20 April 1529
+
+DECODE R8602 ("Cysar-Augusta, Edw. Lee (Hispania) to unknown recipient", Cotton Vesp. C IV f. 341, new foliation 317,
+2 pp.) was a separate catalogue entry. Both images downloaded and read 21 Sept 2026: it is a **clear** English despatch
+of Lee alone to Wolsey ("Please it your grace to understand..."), about the monitories from Rome to the archbishop of
+Toledo and the bishop of Palencia over the pensions due to Wolsey, and Lee's bills of exchange with the bishop of
+Worcester and Francis Poyntz. Dated "at Cesaraugusta the xx of April 1529", with a postscript and the signature
+"Edouarde Lee". There is no cipher on either page. "Cysar-Augusta" is the place of writing, not a co-sender. Removed from
+the catalogue 21 Sept 2026; DECODE correction queued.

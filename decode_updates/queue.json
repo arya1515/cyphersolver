@@ -3317,6 +3317,14 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8602": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee to Cardinal Wolsey, Saragossa ('Cesaraugusta') 20 April 1529, with a postscript; no cipher on either page. Recipient is Wolsey, not unknown; sender field 'Cysar-Augusta, Edw. Lee' conflates the place of writing with the sender.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  }

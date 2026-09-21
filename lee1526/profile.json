@@ -56,7 +56,7 @@
   "word_division": "unknown",
   "doubled_letters": "unknown",
   "sibling_key": "Tomokiyo's Lee-Worcester key, document on DECODE R8566",
-  "notes": "Cipher only in four short runs of R8566. The other 16 DECODE records (R8458-R8460, R8462, R8536-R8538, R8542-R8544, R8549, R8550, R8561, R8585-R8587) are clear despatches with no cipher, so they are not listed as documents."
+  "notes": "Cipher only in four short runs of R8566. The other 16 DECODE records (R8458-R8460, R8462, R8536-R8538, R8542-R8544, R8549, R8550, R8561, R8585-R8587, and R8602 of 20 Apr 1529 added later) are clear despatches with no cipher, so they are not listed as documents."
  },
  "conditions": {
   "prior_solution": {
@@ -102,6 +102,18 @@
    "what": "Spot-checked against Tomokiyo's Lee-Worcester key: signs under 'possibilite ... good' read p-o-ss-i-b-i-l-i-t-e and g-o-o-d.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "access",
+   "what": "Downloaded the two images of DECODE R8602 (catalogue 104, Cotton Vesp. C IV f. 341, 20 Apr 1529) with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Looked at both pages: a clear English despatch of Lee to Wolsey dated at Saragossa 20 April 1529, with postscript and signature; no cipher.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
@@ -110,6 +122,6 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read."
+  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher."
  }
 }
