@@ -6117,41 +6117,6 @@
    "scored": "rule"
   },
   {
-   "id": 255,
-   "counted": true,
-   "year": 1625,
-   "date": "3 Jan 1625",
-   "title": "Bernardino Naro (France) to The secretariat",
-   "correspondents": "Bernardino Naro → The secretariat",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1611-1650",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 62",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R59: Non-decrypted, 4 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Only a couple of lines of cipher within cleartext. Comment from archive: Letter originale dell arciv. di Damiata, nunzio, alla Segretaria, dal 3 gennaio 1625 al 19 decembre 1625. ff. 264. Lett originale et cifre di Bernardino Naro alla Segretaria, dal 22 decem…",
-   "why": "Ciphered letter of Bernardino Naro to The secretariat, 3 Jan 1625; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R59",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/59"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    59
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 257,
    "counted": true,
    "year": 1625,

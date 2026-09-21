@@ -2796,6 +2796,18 @@
       }
      ],
      "sent": false
+    },
+    "R59": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: three passages glossed on the leaf; Biermann-Bosbach key fits. Bernardino Naro, Paris, 14 Apr 1625 (not 3 Jan).",
+     "reading": [
+      {
+       "file": "damiata1624/NOTES.md",
+       "section": "## What the records are"
+      }
+     ],
+     "sent": false
     }
    }
   }
