@@ -148,6 +148,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p47 | **Cardinal Alessandrino → the nuncio in Spain**, AAV Segr. Stato Spagna 6/I and 6/II (DECODE R93–R102, R115) | 1568–69 | 2 | 3 | 3 | 4 | 1 | 3 | **2.65** | Published reconstructed key (Lasry 2020) with no plaintext; the work was choosing each digit's letter under a language model. Eleven papal letters of 1568–69 read for the first time online; held down because the key was already known and Serrano 1914 may print some in clear |
 | p48 | **Conde de Hernán Núñez (Stockholm) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R1012–R1015) | Dec 1674 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Margins on every passage and a sibling key already rebuilt here (Balbases 1677), so D 1 and N 2; the work was recognising the key and checking the margins against it. Sweden on the eve of the Scanian War, verified group by group |
 | p49 | **Sir Ralph Boswell → William Boswell**, TNA SP 106/5 ff. 20–21 (DECODE R413, catalogued as Charles I to Boswell) | 15 Dec 1627 | 1 | 2 | 2 | 1 | 1 | 3 | **1.65** | D 1: Woodard's 2021 monoalphabetic key applied. H 2: court news on Buckingham before the 1628 Parliament. N 2: read by Woodard; sender, date and two signs added here. F 1: a DECODE record only. V 3: key consistent on all 442 signs; one pair unread |
+| p50 | **Bernardo de Salinas (London) and Pedro Ronquillo (Nijmegen) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R966–R984, R1001) | 1676–78 | 1 | 3 | 3 | 3 | 1 | 3 | **2.30** | A sibling key applied unchanged (D 1); the work was re-segmenting DECODE's transcriptions. Four letters with no margin, two catalogued as non-decrypted, read in gist, so N 3 |
 
 ## By single axis
 
@@ -381,3 +382,5 @@ Alessandrino provisional score: 0.25×2 + 0.25×3 + 0.20×3 + 0.10×4 + 0.10×1 
 Hernán Núñez provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **2.20**. It sits at the foot of the provisional rows (p48): margins and a sibling key left little to break.
 
 Ralph Boswell provisional score: 0.25×1 + 0.25×2 + 0.20×2 + 0.10×1 + 0.10×1 + 0.10×3 = **1.65**.
+
+Salinas/Ronquillo provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.30** (p50).

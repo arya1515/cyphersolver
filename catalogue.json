@@ -338,72 +338,6 @@
    "scored": "rule"
   },
   {
-   "id": 37,
-   "counted": true,
-   "year": 1676,
-   "date": "21 Aug 1676 – 2 Mar 1677",
-   "title": "Bernardo de  Salinas, Spanish ambassador in London (London) to Balthazar de Fuenmayor / Balthasar de Fuenmayor, 8 ciphertexts",
-   "correspondents": "Bernardo de  Salinas, Spanish ambassador in London → Balthazar de Fuenmayor / Balthasar de Fuenmayor",
-   "place": "London, England",
-   "language": "Spanish",
-   "region": "Low Countries",
-   "period": "1651-1700",
-   "shelfmark": "ARA Brussels (8 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R966–R973 (8 records): Partially decrypted, 39 pp., nomenclator; alphabet, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R964 (1647). DECODE note: The solution of the encrypted periods can be found in the matgin. A known-plaintext attack may enable us toreassemble the key. ",
-   "why": "The Spanish envoy in London writing to Spain's ambassador at The Hague in 1676–77, as Charles II's government moved towards the Orange marriage and away from France during the Dutch War.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R966",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/966"
-    },
-    {
-     "label": "DECODE R967",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/967"
-    },
-    {
-     "label": "DECODE R968",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/968"
-    },
-    {
-     "label": "DECODE R969",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/969"
-    },
-    {
-     "label": "DECODE R970",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/970"
-    },
-    {
-     "label": "DECODE R971",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/971"
-    },
-    {
-     "label": "+2 more records",
-     "href": null
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    966,
-    967,
-    968,
-    969,
-    970,
-    971,
-    972,
-    973
-   ],
-   "scored": "reviewed"
-  },
-  {
    "id": 39,
    "counted": true,
    "year": 1757,
@@ -445,46 +379,6 @@
     955,
     956,
     957
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 41,
-   "counted": true,
-   "year": 1676,
-   "date": "21 Dec 1676 – 28 Dec 1676",
-   "title": "Don Pedro de Ronquillo (1635-) (Nimwegen) to Balthazar de Fuenmayor, Spanish ambassador in Denmark, 2 ciphertexts",
-   "correspondents": "Don Pedro de Ronquillo (1635-) → Balthazar de Fuenmayor, Spanish ambassador in Denmark",
-   "place": "Nimwegen, United Provinces",
-   "language": "Spanish",
-   "region": "Low Countries",
-   "period": "1651-1700",
-   "shelfmark": "ARA Brussels, Secretairerie d'Etat et de Guerre, inv.nr. 2559 (2 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R974–R975 (2 records): Partially decrypted, 12 pp., nomenclator; alphabet, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R964 (1647). DECODE note: Don Pedro de Ronquillo was the Spanish ambassasor in Venice and later in England. In theat capacity he seems to have the successor of Don Bernardo de Salinas, but at the time of writing this epistle, Ronquillo was negotiating the peace in Nimwegen. There is no…",
-   "why": "Ciphered despatches of Don Pedro de Ronquillo (1635-) to Balthazar de Fuenmayor, Spanish ambassador in Denmark, 21 Dec 1676 – 28 Dec 1676; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R974",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/974"
-    },
-    {
-     "label": "DECODE R975",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/975"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    974,
-    975
    ],
    "scored": "rule"
   },

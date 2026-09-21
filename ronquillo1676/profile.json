@@ -1,0 +1,71 @@
+{
+ "schema_version": 1,
+ "target": "ronquillo1676",
+ "title": "Salinas (London) and Ronquillo (Nijmegen) to Fuenmayor, 1676-78, DECODE R966-R984, R1001",
+ "documents": [
+  {
+   "id": "margined",
+   "shelfmark": "AGR Brussels, Secrétairerie d'État et de Guerre 2559 (DECODE R966-R969, R971, R972, R974-R981, R983, R1001)",
+   "date": "Aug 1676 - May 1677",
+   "year": 1677,
+   "country": "Spain",
+   "route": "London / Nijmegen -> Copenhagen",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["margin"], "source": "Contemporary decipherment in the left margin"},
+   "length": {"tokens": 20644, "unit": "code groups", "measured": false},
+   "transcription": {"by": "DECODE", "source": "DECODE DOC transcriptions (2020)", "image_quality": "good", "notes": "Counts from read.py after segmentation; three transcription conventions."}
+  },
+  {
+   "id": "unmargined",
+   "shelfmark": "AGR Brussels, SEG 2559 (DECODE R970, R973, R982, R984)",
+   "date": "Sep 1676 - Mar 1678",
+   "year": 1678,
+   "country": "Spain",
+   "route": "London / Nijmegen -> Copenhagen",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["none"]},
+   "length": {"tokens": 2819, "unit": "code groups", "measured": false},
+   "transcription": {"by": "DECODE", "source": "DECODE DOC transcriptions", "image_quality": "good", "notes": "R982 transcription poor."}
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "syllabic", "nomenclator"],
+  "summary": "The Balbases 1677 syllabic nomenclator: numbers for letters and CV syllables, disguised letter-pair syllables, word codes, nulls.",
+  "symbol_kind": "digits and letters",
+  "digit_groups": {"width": "1-3", "separation": "spaces"},
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": true, "note": "Struck d = que; '+' marks struck groups."},
+  "homophones": {"used": true, "max_per_vowel": 2, "max_per_consonant": 3},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["syllables", "common words", "places"], "unread_groups": "unknown"},
+  "nulls": {"present": true, "count": "unknown"},
+  "key_order": "random",
+  "word_division": "none",
+  "sibling_key": "balbases1677/key.json with the hernannunez1674 additions fits unchanged.",
+  "notes": "88.4% of groups read; the residue is transcription noise."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "partial", "where": "Marginal decipherments on 16 of 20 letters; sibling key rebuilt in this project", "found": "before attempt", "used": true},
+  "inputs": ["transcription", "known plaintext"],
+  "attack": "known plaintext",
+  "human_role": "Supplied the DECODE cookie; asked to try the Balbases key on the rest of the volume.",
+  "tools": ["read.py", "seg.py (DP segmenter)"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "sibling key", "what": "Applied the Balbases key to all 20 remaining SEG 2559 cipher records.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "transcription", "what": "Six records typed with no group boundaries read 0%; rejoined and segmented by DP over the key vocabulary.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "transcription", "what": "Mapped DECODE's 'Infinity' sign in R970/R973 to c+vowel.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "verification", "what": "Key output agrees with the 16 marginal decipherments; four unmargined letters read in gist.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.88,
+  "verification": ["contemporary decipherment", "historical consistency"],
+  "notes": "Two DECODE 'non-decrypted' letters (R982, R984) and two unmargined ones read in gist."
+ }
+}
