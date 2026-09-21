@@ -56,5 +56,22 @@ keys.append(dict(id='pigpen', seal='W', name='The spy in the Low Countries', who
                  kind='pigpen', dec=dec, enc=inv(dec), fold={'j': 'i', 'v': 'u'},
                  note='Nine box shapes, plain for a to i, with a dot below for k to s and a dot inside for t to z. The shapes are drawn '
                       'here in textbook grid form; the letter values are those of the key rebuilt from f. 39v.'))
+# 5. Henri IV to Maurice of Hesse-Kassel, 1602-04: numbered letters, with a comma, two dots or an overbar marking word codes
+import sys; sys.path.insert(0, str(ROOT / 'hesse1603')); import key as hk
+OVER = lambda n: ''.join(ch + '̅' for ch in str(n))
+dec = {str(n): p for n, p in hk.LET.items()}
+for table, mark in ((hk.VIRG, lambda n: f'{n},'), (hk.DOTS, lambda n: f'{n}:'), (hk.BAR, OVER)):
+    for n, p in table.items():
+        if re.fullmatch(r"[A-Za-zéèàç' ]+", p): dec[mark(n)] = p.lower()
+keys.append(dict(id='hesse', seal='H', name='The King of France', who='Henri IV to Maurice of Hesse-Kassel', year=1603, slug='hesse1603',
+                 kind='letters', dec=dec, enc=inv(dec), fold={'j': 'i', 'v': 'u', 'w': 'u', 'k': 'c', 'z': 's'},
+                 note='Two-digit figures with two to seven choices a letter; the same numbers with a comma, two dots or a bar over them '
+                      'stand for words: 17, = la, 39, = mon, 31 with a bar = Pape.'))
+# 6. Kauderbach to Friedrich August II, 1754-58: unseparated Saxon figures, letters and syllables (key rebuilt against the 1761 key)
+kd = json.loads((ROOT / 'kauderbach1754' / 'key.json').read_text(encoding='utf-8'))
+dec = {g: p for g, p in kd.items() if isinstance(p, str) and re.fullmatch(r'[a-z]+', p)}
+keys.append(dict(id='kauderbach', seal='K', name='The Saxon resident', who='Kauderbach to Friedrich August II, The Hague', year=1755, slug='kauderbach1754',
+                 kind='letters', dec=dec, enc=inv(dec), fold={'j': 'i', 'v': 'u', 'w': 'u', 'q': 'k', 'k': 'c'},
+                 note='Two-digit figures for letters and common syllables (02 de, 41 la, 62 que), written in the originals without breaks between the groups.'))
 OUT.write_text(json.dumps(dict(keys=keys), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 print(OUT, [(k['id'], len(k['dec'])) for k in keys])

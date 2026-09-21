@@ -94,7 +94,7 @@
     ctx.fillStyle='rgba(50,6,4,.75)'; ctx.fillText(letter,1.5,4); ctx.fillStyle='rgba(255,200,185,.28)'; ctx.fillText(letter,-.5,2);
     ctx.restore();
   }
-  function draw(key,tokens,sig,seed){
+  function draw(key,tokens,sig,seed,to){
     const rand=seeded(seed), W=1100, M=110, ink='#2b1c0e';
     const fs=key.kind==='pigpen'?0:(key.kind==='code'?40:44), gap=key.kind==='pigpen'?10:18, lh=key.kind==='pigpen'?74:66;
     ctx.font=`${fs||40}px "IM Fell English", Georgia, serif`;
@@ -106,13 +106,14 @@
       if(x+w>W-2*M && lines[lines.length-1].length){ lines.push([]); x=0; if(t.g==='|') continue; }
       lines[lines.length-1].push({t,w,x}); x+=w+gap;
     }
-    const H=Math.max(1150, 360+lines.length*lh+(sig?120:0)+330);
+    const H=Math.max(1150, 360+(to?80:0)+lines.length*lh+(sig?120:0)+330);
     cv.height=H; paper(W,H,rand);
     ctx.fillStyle=ink; ctx.strokeStyle=ink; ctx.textBaseline='alphabetic';
     ctx.font='italic 26px "IM Fell English", Georgia, serif'; ctx.globalAlpha=.8;
     ctx.fillText(`In the cipher of ${key.who}, ${key.year}`,M,150);
     ctx.globalAlpha=1; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(M,172); ctx.lineTo(M+180,172); ctx.stroke();
     let y=270;
+    if(to){ ctx.font='italic 38px "IM Fell English", Georgia, serif'; ctx.fillText(to,M,y-10); y+=80; }
     for(const line of lines){
       for(const {t,w,x} of line){
         const jx=(rand()-.5)*2, jy=(rand()-.5)*3;
@@ -133,7 +134,7 @@
 
   // ---------------------------------------------------------------- the page
   let key=K[0], tokens=[], seed=Date.now()%100000;
-  const msg=$('msg'), sig=$('sig');
+  const msg=$('msg'), sig=$('sig'), to=$('to');
   $('keys').innerHTML=K.map(k=>`<button type="button" class="sl-key" data-k="${k.id}" aria-pressed="false"><b>${k.name}</b><span>${k.who}, ${k.year}</span><i></i></button>`).join('');
   const btns=[...document.querySelectorAll('.sl-key')];
   function sample(k){ const t=encipher(k,'burn this letter'); return k.kind==='pigpen'?'☐ ⊔ ┗ ┓ · ☐':t.map(x=>x.g||x.p).filter(g=>g!=='|').join(' '); }
@@ -146,10 +147,10 @@
     const n=tokens.filter(t=>t.g&&t.g!=='|').length, clear=tokens.filter(t=>t.cls==='plain').length;
     $('count').textContent=`${msg.value.length} / 400`;
     $('stats').textContent=`${n} ${key.kind==='code'?'code groups':key.kind==='pigpen'?'signs':'figures'}`+(clear?`, ${clear} left in clear (the key has no sign for them)`:'');
-    fontsReady.then(()=>draw(key,tokens,sig.value.trim(),seed));
+    fontsReady.then(()=>draw(key,tokens,sig.value.trim(),seed,to.value.trim()));
   }
   let tmr=0; const later=()=>{ clearTimeout(tmr); tmr=setTimeout(()=>update(false),120); };
-  msg.addEventListener('input',later); sig.addEventListener('input',later);
+  msg.addEventListener('input',later); sig.addEventListener('input',later); to.addEventListener('input',later);
   $('reroll').addEventListener('click',()=>update(true));
   const say=t=>{ $('status').textContent=t; setTimeout(()=>{ if($('status').textContent===t) $('status').textContent=''; },4000); };
   $('dl').addEventListener('click',()=>cv.toBlob(b=>{ const a=document.createElement('a'); a.href=URL.createObjectURL(b);
@@ -157,28 +158,28 @@
   // the sealed link: key, groups (clear words prefixed with ~), signature; never the plaintext
   const pack=()=>tokens.map(t=>t.g==='|'?'|':t.g||('~'+t.p)).join('.');
   $('link').addEventListener('click',async()=>{
-    const url=`${location.origin}${location.pathname}#k=${key.id}&c=${encodeURIComponent(pack())}`+(sig.value.trim()?`&s=${encodeURIComponent(sig.value.trim())}`:'');
+    const url=`${location.origin}${location.pathname}#k=${key.id}&c=${encodeURIComponent(pack())}`+(sig.value.trim()?`&s=${encodeURIComponent(sig.value.trim())}`:'')+(to.value.trim()?`&t=${encodeURIComponent(to.value.trim())}`:'');
     try{ await navigator.clipboard.writeText(url); say('Sealed link copied. Only the ciphertext travels in it.'); }catch(e){ prompt('Copy this link',url); }
   });
 
   // ---------------------------------------------------------------- receiving a sealed link
   const h=new URLSearchParams(location.hash.slice(1));
   if(h.get('k') && h.get('c') && byId[h.get('k')]){
-    const k=byId[h.get('k')], c=h.get('c').split('.'), s=h.get('s')||'';
+    const k=byId[h.get('k')], c=h.get('c').split('.'), s=h.get('s')||'', tt=h.get('t')||'';
     const tk=c.map(g=>g==='|'?{g:'|',p:' ',cls:'null'}:g[0]==='~'?{g:'',p:g.slice(1),cls:'plain'}:{g,p:k.dec[g]??'?',cls:k.dec[g]?'':'unk'})
       .filter(t=>!(k.kind==='pigpen' && t.g==='|'));
     key=k; tokens=c.map(g=>g==='|'?{g:'|',p:' ',cls:'null'}:g[0]==='~'?{g:'',p:g.slice(1),cls:'plain'}:{g,p:k.dec[g]||'?'});
     $('recv').hidden=false;
-    $('recv-h').textContent=s?`${s} has sent you a letter in cipher`:'Someone has sent you a letter in cipher';
+    $('recv-h').textContent=(s?`${s} has sent `:'Someone has sent ')+(tt?`${tt} a letter in cipher`:'you a letter in cipher');
     $('recv-p').innerHTML=`It is written in the cipher of ${k.who}, ${k.year}. Scroll down and it will decipher itself with the key rebuilt on <a href="${k.slug}.html">that write-up</a>; hover a group to see every place it recurs. Then write one back.`;
     const data={title:`A letter in the cipher of ${k.who.split(',')[0]}`,unit:k.kind==='code'?'code groups':k.kind==='pigpen'?'signs':'figures',
       caption:`Sent with a sealed link from ${SITE}/secret.html.`,key_note:k.note,tokens:tk};
     const fig=$('recv-reveal'); fig.dataset.src=URL.createObjectURL(new Blob([JSON.stringify(data)],{type:'application/json'}));
     const s2=document.createElement('script'); s2.src='cipher-reveal.js?again'; document.body.appendChild(s2);
-    msg.value=''; sig.value='';
+    msg.value=''; sig.value=''; to.value='';
     btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===key.id));
     $('keynote').innerHTML=`${key.note} <a href="${key.slug}.html">The write-up &rarr;</a>`;
-    fontsReady.then(()=>draw(key,tokens,s,seed));
+    fontsReady.then(()=>draw(key,tokens,s,seed,tt));
     msg.addEventListener('focus',()=>{ if(!msg.value) update(false); },{once:true});
   } else update(true);
 })();
