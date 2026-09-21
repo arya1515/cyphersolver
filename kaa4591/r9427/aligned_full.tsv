@@ -1,0 +1,37 @@
+line	piece	cipher	gloss	alignment
+1	0	b E 3 v E d w H E y m ^	d u r ch l e u ch t i g	b=(initial ornament) E=d 3=u v=r E=ch d=l w=e H=u E=ch y=t m=i ^=g
+1	1	8 9 E H 4 A 9 g Q D 3 y \x	h o ch g e b o r n f u r s	8=h 9=o E=ch H=g 4=e A=b 9=o g=r Q=n D=f 3=u y=r \x=s
+1	2	\x y q Q T w 8 q 6 m H r	s t e n g ? ? e d i g h	\x=s y=t q=e Q=n T=g w=n? 8=e? q=d? 6=i m=? H=g r=h  [fursten gnedig(er) h(err)]
+1	3	r o w d q Q E w x	h ? e ? r ? d e n?	r=h w=e q=r E=d w=e x=n?  [herr ... den?] gloss top-cut, weak
+2	0	8 5 p 4 Q 0 P v	h a b e n w i r	8=h 5=a p=b 4=e Q=n 0=w P=i v=r
+2	1	P v w 3 v Q X 8 q 3 4 ^ w m	i r e w (r) (n) [FG] n e u e z e i	w=e 3=w v=r Q=n? X=[F.G. code] 8=n?/ain? q=e 3=u 4=e ^=z w=e m=i  [ewr F.G. (ai)n neue zei(tung)]
+2	2	m y X p H \x 9 L n n H 4	(i) t u n g  s o  s e ? u e	m=i y=t X=u(here small x-form, not FG hourglass?) p=n H=g \x=s 9=o L=s n=e n=? H=u 4=e  [zeitung so se.ue]
+2	3	4 v b 5 H b q Q \x 5	e ? l a n d  e n s ? (gloss cramped under line 1)	4=e v=?(ng) b=l? 5=a H=n? b=d q=e Q=n \x=s 5=?  [(En)gland ... ens]  WEAK
+3	0	m o y 5 Q 6 w g Q \x 5 E 4	m i s t a n d e r n  g e s ch (e)	m=m o=i(s?) y=(s)t 5=a Q=n 6=d w=e g=r Q=n | \x 5 E 4 under "gesch(e)": \x=g? 5=e? E=sch/ch 4=e  [mi(s)standern gesche(hen)]
+3	1	E 4 Q w 3 v X p w y v 4 b 4 8	ch e n  e w r  [FG]  b e t ? e  ? e n	E=ch 4=e Q=n | w=e 3=w v=r X=[F.G.] | p=b w=e y=t v=? 4=e b=? 4=e 8=n?  [(gesche)hen ewr FG bet.e ...]
+3	2	4 8 6 y T 3 ^ w H m E H y x	e n d t  i n  d e m  e r k l ?	4=e 8=n 6=d y=t | T=i 3=n | ^=d w=e H=m | m=e E=r H=k y=l x=?  [endt in dem erkl(ert?)] gloss drifts; tail uncertain
+3	3	x w v 8 9 b 4 Q 6 y	(illegible, rubbed)	-
+4	0	w 3 v X r o p 4 Q \x 9	e w r [fg] h a b e n  s o	w=e 3=w v=r X=[F.G.] r=h o=a p=b 4=e Q=n \x=s 9=o
+4	1	\x 9 T 4 E \x w 7 @ D 5 T w Q	s o l ? ch  s e m ? f ? ? e n	\x=s 9=o T=l 4=(l/i?) E=ch \x=s w=e 7=m @=?(m) D=f 5=a? T=? w=e Q=n  [so(l)ich se.m f..en]
+4	2	w Q E 4 w p 4 + m d \x m E 5	e n  l e i b  ? ? ? s ? t e ?	w=e Q=n | E=l? 4=e w=i? p=b | 4=e +=null? m d \x=s m E 5 unclear  [..en leib ...] WEAK
+4	3	E 5 H w g m g p y o q v	h a b e ? n  ? i ? ...	E=h? 5=a H=b? w=e g=? m=n? rest illegible  [..haben..] WEAK
+5	0	p w 4 b Q w 3 4 T w m y	k? e i [struck: habe] n e b? e t t	p=k?/h? w=e 4=i? | b Q w 3 under struck gloss | 4=n?e T=b? w=e m=t? y=t  WEAK (gloss partly struck through by the glossator)
+5	1	y 3 Q H w 3 v X H 9 Q 8 m	(t?) u n g  e w r [FG]  v o n  m ?	y=t? 3=u Q=n H=g | w=e 3=w v=r X=[F.G.] | H=v/u 9=o Q=n | 8=m? m=?  [..ung ewr FG von m..]
+5	2	m y q 8 ^ 3 p m \x L 4 Q	(n) o l e n  z u  l e s ? e n	m=o? y=l q=e 8=n | ^=z 3=u | p=l? m=e \x=s L=s? 4=e Q=n  [..(w)olen zu lesen]
+5	3	Q ^ 3 H 4 y g 5 H 4 Q	(n) ? ? g e t  h a t  ? ?	Q=n H=g 4=e y=t g=h? 5=a H=t? 4=e? Q=n?  [..g et hat ..] WEAK
+7	0	[ornament] 21 Aprilis	(no gloss)	-
+7	1	e H 5 4 Q 4 v 6 4 \x e +	? l u n e  d i e t ...	5=l? 4=u? Q=n 4=e v=d?/r 6=i? 4=e \x=t?/s e+=? WEAK
+7	2	+ A 9 y 5 b 8o 4 4 4 o 7 m	n o t a b l e ? e  u n d  m i	+=null A=n 9=o y=t 5=a b=b 8o(8 with small o on top)=l 4=e | 4=? 4=e? | 4=u? o=nd? | 7=m m=i  [notable ... und mi(t)]
+7	3	m y p v 4 w D q 8	i t  b r i e f e n	m=i y=t p=b v=r 4=i w=e D=f q=e 8=n  [mit briefen]
+8	0	5 Q K 9 7 4 Q E 4 w 7 m	a n k o m e n  d i e  m u	5=a Q=n K=k 9=o 7=m 4=e Q=n | E=d 4=i w=e | 7=m m=u
+8	1	v m m v T 4 Q E 4 w e	s  m o ? t e n  d i e  k	v=s?(r) m=m m=o? v=r?/s T=t 4=e Q=n E=d 4=i w=e e=k(start of kw..)  [(mu)s(s) mo(r/s)ten die k..]
+8	2	e + 5 3 \x ^ 4 + ^ m 4 E 4 Q	k w a n s  z u  s e h e ? n	e=k +=w? 5=a 3=n? \x=s | ^=z 4=u | +^=s? m=e 4=h? E=e? 4=?(i) Q=n  [kwans zu sehen..] offsets drift
+8	3	Q p w D 9 b E 4 Q 7 P	(e)n  b e f o l ch e n  m i	Q=n p=b w=e D=f 9=o b=l E=ch 4=e Q=n 7=m P=i  [befolchen mi(t)]
+9	0	y E 4 7 z Q b 5 d y E 5 \x	i d e m a n  h a l t  d a s	y=i/j E=d 4=e 7=m z=a Q=n | b=h 5=a d=l y=t | E=d 5=a \x=s  [iedman halt. das]
+9	1	L n E e + S 3 7 y 5 m d	s i ch  ? ?  ? ? m i t ...	L=s n=i E=ch | e+=?(gloss ff/ss?) S=? 3=? | 7=m y=i? 5=t? m d ?  [sich .. mit] WEAK
+9	2	m d p w r H p 4 v y p 5 v 3	t ? l e k w ? ? t  w a r u	m=t? d=b/g? p=l? w=e r=k? H=w? p 4 v =? y=t | p=w?(b) 5=a v=r 3=u  [..t ble kw.. t warum(b)]
+9	3	3 7 p E 9 E 4 v 9 e +	u m b  d o ch  ? n e  k	3=u 7=m p=b | E=d 9=o E=ch | 4=? v=n? 9=e? | e+=k  [(war)umb doch .ne k..]
+10	0	4 7 w \x 9 6 5 Q H .H 9 Q	w i e  s t a n d  n o n	4=w? 7=i? w=e | \x=s 9=t? 6=? 5=a Q=n H=d | .H(dotted)=n? 9=o Q=n  [wie stand non(d)..]
+10	1	9 Q 4 v 4 v e+ \x y 5 Q E	o n d ? e r  ?  s t a n d	9=o Q=n 4=d? v=? 4=e v=r | e+=?(hin?) | \x=s y=t 5=a Q=n E=d  [..ond.er .. stand]
+10	2	E 4o p 4 \x e - Q 8 m E y	d  u n d  b e s e n  n i ch t	E=d | 4o(4 with o)=und | p=b 4=e \x=s e-=e? Q=n | 8=n m=i E=ch y=t  [(stan)d und besen? nicht]
+10	3	T w r + v 4 p w H	g e sch ? e h e n	T=g w=e r+=sch v=? 4=e p=h? w=e H=n?  [geschehen]

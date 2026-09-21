@@ -1,0 +1,47 @@
+sign	letter(s)	count(weak=0.5)	all_readings	R9410_code
+4	e	34.5	e:26 i:4 u:2 l:0.5 ne:0.5 h:0.5 w:0.5 d:0.5	4
+Q	n	28	n:28	q
+w	e	26	e:25 n:0.5 i:0.5	w
+E	d	21.5	d:9 ch:9 sch:1 r:1 l:0.5 h:0.5 e:0.5	E
+y	t	19	t:13.5 l:2 i:1.5 r:1 s)t:1	y
+\x	s	15	s:14 g:0.5 t:0.5	x
+5	a	15	a:13.5 e:0.5 l:0.5 t:0.5	5
+m	i	14.5	i:6 e:3 m:2 t:1 o:1 u:1 n:0.5	m
+H	g	13.5	g:5 u:2 n:1 m:1 k:1 v:1 d:1 b:0.5 t:0.5 w:0.5	#
+9	o	13	o:12 e:0.5 t:0.5	9
+3	u	12.5	u:7 w:4 n:1.5	3
+v	r	11.5	r:9.5 ng:0.5 d:0.5 s(r:0.5 n:0.5	v
+p	b	11.5	b:8 n:1 l:1 k:0.5 w(b:0.5 h:0.5	n
+7	m	8.5	m:8 i:0.5	7
+8	n	8	n:5 h:2 e:0.5 m:0.5	8
+q	e	6.5	e:5 r:1 d:0.5	Q?
+T	g	5.5	g:2 i:1 l:1 t:1 b:0.5	Q
+^	z	5	z:3 g:1 d:1	t
+b	l	4.5	l:1.5 d:1 b:1 h:1	b
+D	f	4	f:4	D
+6	d	3.5	d:2 i:1.5	6
+r	h	3.5	h:3 k:0.5	c
+d	l	2.5	l:2 b:0.5	d
+g	r	2.5	r:2 h:0.5	g
+L	s	2.5	s:2.5	L
+A	b	2	b:1 n:1	(none)
+P	i	2	i:2	p
+n	e	2	e:1 i:1	m?
+o	a	2	a:1 i(s:0.5 nd:0.5	o
++	null	2	null:1.5 w:0.5	+
+e	k(start	2	k(start:1 k:1	a
+e+	k	2	k:1 gloss:0.5 hin:0.5	a+
+0	w	1	w:1	o
+X	u(here	1	u(here:1	X
+top)	l	1	l:1	?
+K	k	1	k:1	J
+z	a	1	a:1	j
+o)	und	1	und:1	?
+r+	sch	1	sch:1	c+?
+x	n	0.5	n:0.5	?
+@	m	0.5	m:0.5	A
++^	s	0.5	s:0.5	+t
+.H(dotted)	n	0.5	n:0.5	?
+e-	e	0.5	e:0.5	a
+X	F.G. (code)	5	code sign after w3v (ewr)	X
+# Decode-test refinements (R9410 codes; no R9427 gloss evidence): jo/j=h (handlung, halben, hochsten), c=c (bedanckt, turcken), a+=? (not k; frequent word sign, perhaps 'des/die'), n(R9410 pi)=b vs v open (bil=vil?), R(4o)=und, 3=u/w, E=d and ch (two values, or two look-alike signs), 4=e (i in 'die','briefen')

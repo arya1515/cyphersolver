@@ -21,7 +21,7 @@ they are separate letters in at least six systems, several with their key a few 
 | R9325 | 129 | Latin note, Fulda affair (1576) | letter substitution + nomenclator | **R9324 (f.124–127)** | **read** |
 | R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | signs | ? | |
 | R9408 | 236–239 | long unseparated text, some clear words | System A | Augurelio R9369? | |
-| R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | open |
+| R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | **broken**, read in part |
 | R9410 | 244–247 | German, 1535, clear words mixed in | System A | ? | |
 | R9413 | 252–256 | long unseparated text, partial interlinear notes | System A | ? | |
 | R9416 | 262–263 | pp.1–2 a Bavarian servant to his duke, "eritags nach Jacobi" (Tuesday after 25 July): troops in Austria/Styria, asks for 7 years' pension and the Oberrichter post at Straubing; pp.3–4 another sign set | homophonic signs | interlinear | pp.1–2 **read at the time**; pp.3–4 **broken ciphertext-only** (de-1500s model), report on the Pressburg talks between the two kings and the Turk |
@@ -88,14 +88,18 @@ cipher (sign codes f/z/j, H/K split in v2) is a homophonic simple substitution; 
 persons (probably Ferdinand, Gritti's party, the Hungarian king). State: read in part — running German with local
 errors; a clean reading needs the v2 transcription re-keyed and the 'y' sign split.
 
-## System A′ (R9409, R9410, R9427) — open
+## System A′ (R9409, R9410, R9427; R9408 and R9413 being transcribed) — key from the R9427 gloss, read in part
 
-R9427's gloss shows the most frequent group w3vX = "ewr F.G." (X a code sign for Fürstliche Gnaden). R9410's own crib
-and R9427's gloss agree on 5 a, 4/ω e, □ n, p i. Annealing (free, pinned, with compounds zo/CH/c+/4g merged, with nulls)
-on R9410 (1,423 signs) and on 3,000-sign samples of R9409 gives German fragments ("seiner zeit darum", "ewr F.G. mit",
-"die", "der") but not running text: the system is not a plain homophonic letter substitution at the level transcribed
-(likely polyphonic or syllabic signs, or sign splits the transcription merges). The R9368 key (another alphabet of the
-same family, glossed) does not fit. Next: align R9427's gloss sign by sign at full zoom for a complete key.
+A full-zoom alignment of R9427's gloss (lines 1–5, 7–10; `r9427/aligned_full.tsv`, `r9427/key_full.tsv`) gives a
+homophonic letter substitution with a code sign X = "F.G." (w3vX = "ewr F.G."). In R9410 codes: 4 e, w e, q(□) n,
+8 n ("48" = -en), y(ÿ) t, x s, 5 a, m i, p i, #(‡) g, Q g, 9 o, 3 u, v(↓) r, n(π) w, 7 m, t z, b l, d l, D f, 6 d,
+g r, L s, J k, j h, c c, E d and ch (two look-alikes or a homophone), Ro = "und", a+ a word sign (open).
+With the key pinned, R9410 f.244 reads as running German with local errors (`sysA/r9410_decrypt_working.txt`):
+"…seiner zeit darumb … ausserhalb eur F.G. … des handlung … handelt nit so vil … bedanckt sich … zum hochsten …
+gegen eur F.G. … in dergleichen fal … dienen … freundt … turcken … bruederlich halten … zu besorgen … eur F.G.
+angezaigt … gehorsamen underthenigen … meinen genedigsten herren … datum", Anno 35. R9409 (11,311 signs) reads in
+part the same way (`r9409/decrypt_working.txt`): "genedig… februari… angezaigt… der turckische kaiser… Ferdinand…
+bruederlich halten…". State: broken; clean readings need the E/a+ signs settled and word division restored.
 
 ## Steps
 
