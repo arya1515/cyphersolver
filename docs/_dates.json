@@ -106,6 +106,7 @@
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
+  "prospero santa croce to cardinal del monte, 1553": "2026-09-21",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
   "richard forster, 1644": "2026-09-16",
   "robert fagel to william v, 18 june 1804": "2026-09-21",
@@ -395,7 +396,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3ab8334289f5",
+   "hash": "8a3be6817404",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -628,6 +629,11 @@
    "hash": "4b2b2b2a04fc",
    "updated": "2026-09-21"
   },
+  "santacroce1552": {
+   "first": "2026-09-21",
+   "hash": "0e35f59b851e",
+   "updated": "2026-09-21"
+  },
   "sauli1579": {
    "first": "2026-09-21",
    "hash": "611e5dca1ced",
@@ -780,7 +786,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1177cfc2799f",
+   "hash": "e5286fa7651b",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -2441,6 +2441,72 @@
      "sent": false
     }
    }
+  },
+  "santacroce1552": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/santacroce1552.html",
+   "key": {
+    "decode": "George Lasry's reconstructed key attached to these records (DOC_R*_D3201-3205)",
+    "lang": "IT"
+   },
+   "cite": "J. Lestocquoy (ed.), Correspondance du nonce en France Prospero Santa Croce (1552-1554), Acta Nuntiaturae Gallicae 9, Rome/Paris 1972",
+   "fields": {},
+   "records": {
+    "R6": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), Lestocquoy 1972 no. 67; Lasry's key on the record reproduces it. Letter dated 1553-03-26, not 28 Jul 1552 (volume start).",
+     "reading": null,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1553-03-26"
+     },
+     "sent": false
+    },
+    "R7": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), no. 71; Lasry's key on the record reproduces it. Letter dated 1553-04-05, not 28 Jul 1552 (volume start).",
+     "reading": null,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1553-04-05"
+     },
+     "sent": false
+    },
+    "R8": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), no. 112; Lasry's key on the record reproduces it. Letter dated 1553-09-28, not 28 Jul 1552 (volume start).",
+     "reading": null,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1553-09-28"
+     },
+     "sent": false
+    },
+    "R9": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), no. 124; Lasry's key on the record reproduces it. Letter dated 1553-12-14, not 28 Jul 1552 (volume start). The three cancelled cipher lines are the clear P.S. below them (santacroce1552/r9_cancelled.txt).",
+     "reading": null,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1553-12-14"
+     },
+     "sent": false
+    },
+    "R10": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), second letter of 23 Dec 1553; Lasry's key on the record reproduces it. Letter dated 1553-12-23, not 28 Jul 1552 (volume start).",
+     "reading": null,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1553-12-23"
+     },
+     "sent": false
+    }
+   }
   }
  }
 }

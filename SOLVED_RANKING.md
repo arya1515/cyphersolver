@@ -206,6 +206,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 ## Third tier: found already solved by others
 
+**Prospero Santa Croce (nuncio in France) → Cardinal del Monte (1553; catalogue 245)**: read at the time and printed deciphered (Lestocquoy 1972, ANG 9); Lasry's key on DECODE reproduces it. Only R9's cancelled postscript cipher is read here. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/santacroce1552.html).
+
 **Etienne Bourdeaux (Berlin) → Maarten van der Goes (1801; catalogue 228)** — read from the ministry’s contemporary clear copy, which DECODE had imaged under the neighbouring record R1946; no cryptanalysis, the code groups not aligned. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1944.html).
 
 **Sir Nicholas Throckmorton (Greenwich) → the Regent Moray (1569; catalogue 83)**: read at the time (interlinear, Bain no. 1103, Tomokiyo's key); the stain-faded passages read again from the cipher with the published key. Ranked as source identification and text recovery, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/throck1569.html).

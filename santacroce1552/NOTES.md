@@ -1,14 +1,13 @@
 # Prospero Santa Croce (nuncio in France) to Cardinal Innocenzo del Monte, 1553 (ASV Segr. Stato, Francia 3; DECODE R6–R10) — NOTES
 
-Status: no write-up
 
 **Verdict: closed, already solved and in print.** All five DECODE records are ciphered passages of letters from
 Santa Croce's first French nunciature. Each was deciphered on arrival, and the decifrati are bound with the
 originals in Nunziatura di Francia 3. All five letters are printed with the cipher passages already deciphered in
 J. Lestocquoy (ed.), *Correspondance du nonce en France Prospero Santa Croce (1552–1554)*, Acta Nuntiaturae
 Gallicae 9 (Rome/Paris 1972). George Lasry put a scan of that volume and his reconstruction of the letter key on
-all five records on 24 Oct 2020. This session adds nothing new, so catalogue entry 245 is removed and there is no
-site page. Session 2026-09-21 (Claude Opus 5).
+all five records on 24 Oct 2020. The only new reading is R9's cancelled cipher lines (below). Catalogue entry 245 is removed;
+written up at the user's request as docs/santacroce1552.html. Session 2026-09-21 (Claude Opus 5).
 
 ## Sources (DECODE, fetched with the shared cookie; images and PDF stay in the git-ignored main-checkout folder)
 
