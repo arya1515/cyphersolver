@@ -1,7 +1,7 @@
 # Lord Cobham to Walsingham, May–June 1588 (BL Harley MS 287, DECODE R8490/R8492/R8495/R8496): key partly rebuilt, not read
 
 Catalogue item: "Cobham (Belgia) to Walsingham, 4 ciphertexts" (DECODE R8490, R8492, R8495, R8496; rule-scored).
-Outcome: **attempted, open.** The cipher system has been identified and most of its alphabet has been rebuilt from
+Outcome: **read in part** (see READING.md; was "attempted, open" until the solver loops of 21 Sept). The cipher system has been identified and most of its alphabet has been rebuilt from
 the decrypted sibling letters in the same volume. Only fragments of the four letters read with confidence.
 
 ## The documents
@@ -92,7 +92,7 @@ Fragments only, grade M (probable) unless marked:
 3. Merge with cypher-7e's `harley287` key for R8477–R8487.
 4. Read the passages. The letters are in plain English and the context is known (Bourbourg talks, Armada news).
 
-Status: attempted, key partly rebuilt, open.
+Status: read in part.
 - Cross-link: cypher-7e read R8482-R8487 (docs/harley287.html, harley287/key.tsv); its key has narrow ∧ = s, wide ∧ = t.
 
 ## Second pass, 21 Sept 2026 (with the harley287 key)

@@ -229,14 +229,19 @@
    "kind": "reading",
    "what": "Solver loop 1: re-read f.80/f.88 runs at 2x full resolution against solver candidates; 'haven' (f.80 and f.88, fixes c=a and L=e) and 'so forwarde in the action that he promised Q[ueen]' (f.80) confirmed; f.88: 'have promised the haven of ...' to Parma.",
    "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Solver loops on deskewed lines of ff. 88, 92, 96v with leads from harley287 READING and CSP Foreign 1588 (Semple to Scotland): Italians, Antonio, deliverd, divers, number of, within France, servants, priests, Portugals(?), Bruges(?).",
+   "result": "partial"
   }
  ],
  "outcome": {
-  "class": "not read",
-  "fraction_read": 0.15,
+  "class": "read in part",
+  "fraction_read": 0.35,
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Key partly rebuilt from glossed siblings; fragments read. Needs a sign-level transcription."
+  "notes": "Sign inventory and codes fixed from glossed siblings; about a third of cipher words read (H/M); remaining runs have polyphonic or unglossed signs."
  }
 }
