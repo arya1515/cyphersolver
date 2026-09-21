@@ -1278,29 +1278,25 @@
    "id": 78,
    "counted": false,
    "year": 1719,
-   "date": "1 Feb 1719 – 17 Nov 1749",
-   "title": "Unknown sender (Paris) to unknown recipient, 6 ciphertexts",
+   "date": "7 Feb 1719 – 19 Jan 1745",
+   "title": "Paris 1719 and Carré 1742–45 code letters, 4 ciphertexts",
    "correspondents": "Unknown sender → unknown recipient",
    "place": "Paris, France",
    "language": "...",
    "region": "England",
    "period": "1701-1800",
-   "shelfmark": "BL, Add MS 32305 (6 items)",
+   "shelfmark": "BL, Add MS 32305 (4 items)",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R2963–R2974 (6 records): Partially decrypted, 21 pp., homophonic, nomenclator, unknown; numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R2969 (1742). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: DECODE's date 1700/1799 is the span of the volume.",
+   "status": "Viewed 21 Sept 2026 (bl32305/). R2963 and R2974 were deciphered at the time and are dropped. R2964/R2965 (Paris 7 and 10 Feb 1719): two-part 3-figure code, ~12 contemporary glosses, 354 groups in f. 6. R2968/R2972 (and R2970): letters to Mr Carré, Pall Mall, 1742–45, all figures, no gloss; R2969 is a frequency count, not a key.",
    "why": "Ciphered despatches of Unknown sender to unknown recipient, 1 Feb 1719 – 17 Nov 1749; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
+   "verify": "Needs the key or a clear copy: Newcastle/Carteret papers, SP 107, SP 78.",
    "ark": "",
    "links": [
-    {
-     "label": "DECODE R2963",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2963"
-    },
     {
      "label": "DECODE R2964",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2964"
@@ -1316,23 +1312,19 @@
     {
      "label": "DECODE R2972",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2972"
-    },
-    {
-     "label": "DECODE R2974",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2974"
     }
    ],
    "seen": "catalogue",
    "source": "DECODE",
    "decode_ids": [
-    2963,
     2964,
     2965,
     2968,
-    2972,
-    2974
+    2972
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "bl32305.html"
   },
   {
    "id": 79,

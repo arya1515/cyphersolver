@@ -88,6 +88,7 @@
   "nuncio acciaiuoli from lisbon, 1758–60": "2026-09-19",
   "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
+  "paris 1719 and the carré letters, 1742–45 (bl add ms 32305)": "2026-09-21",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
@@ -170,6 +171,11 @@
    "hash": "0c9fc6ba1255",
    "updated": "2026-09-17"
   },
+  "bl32305": {
+   "first": "2026-09-21",
+   "hash": "b70fbb1720aa",
+   "updated": "2026-09-21"
+  },
   "bordeaux1653": {
    "first": "2026-09-18",
    "hash": "2051bcf8ada6",
@@ -202,7 +208,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "cf89b1b9c1ab",
+   "hash": "ebfbd01830bf",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -347,7 +353,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "471639deef89",
+   "hash": "886783da47bd",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -672,7 +678,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "40a6a6ca6d11",
+   "hash": "3d6de9331e10",
    "updated": "2026-09-21"
   },
   "yard1699": {
