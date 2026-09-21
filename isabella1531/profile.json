@@ -1,0 +1,125 @@
+{
+ "schema_version": 1,
+ "target": "isabella1531",
+ "title": "AGS Estado leg. 496, DECODE R9955 (Charles V to Isabella, Regensburg 30 Apr 1532) and R9956 (Cobos? to Vazquez de Molina?, Brussels 11 Jan 1531)",
+ "documents": [
+  {
+   "id": "R9955",
+   "shelfmark": "AGS, Estado, leg. 496, ff. 195-196 (DECODE R9955)",
+   "date": "30 Apr 1532",
+   "year": 1532,
+   "country": "Germany",
+   "route": "Charles V (Regensburg) to the Empress Isabella",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "contemporary decipherment on a separate sheet (Tomokiyo)",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "not transcribed; images not viewed",
+    "image_quality": "unknown",
+    "notes": "Closed from the literature before viewing."
+   }
+  },
+  {
+   "id": "R9956",
+   "shelfmark": "AGS, Estado, leg. 496, ff. 205-206 (DECODE R9956)",
+   "date": "11 Jan 1531",
+   "year": 1531,
+   "country": "Belgium",
+   "route": "Francisco de los Cobos? (Brussels) to Juan Vazquez de Molina?",
+   "language": "Spanish",
+   "pages": "unknown",
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "contemporary decipherment on a separate sheet (Tomokiyo)",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "not transcribed; images not viewed",
+    "image_quality": "unknown",
+    "notes": "Closed from the literature before viewing."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "General Spanish cipher of Charles V's court, AGS Estado leg. 1.1.1 doc. 112 (per Tomokiyo); not rebuilt here.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Taken from Tomokiyo's summary; not verified on the images."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Contemporary decipherments on separate sheets for both; R9955 printed in Luo (2021, thesis, Universitat de Valencia) p. 285; both identified by Tomokiyo (cryptiana).",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": ["published reading"],
+  "attack": "none",
+  "human_role": "Project-level: set up Claude Code with Opus 5 and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "literature search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "literature search",
+   "what": "Grepped the cached Tomokiyo page (vasto1527/prior/spanish2C_now.htm) for R9955/R9956: both deciphered at the time on separate sheets, R9955 printed in Luo 2021 p. 285; R9956 not from Isabella.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Nothing new read. DECODE metadata corrected (R9955 direction and date; R9956 sender, recipient). Catalogue entry 200 removed; no write-up."
+ }
+}

@@ -4612,5 +4612,26 @@
     "reading_not_needed": true
    }
   }
+ },
+ "isabella1531": {
+  "writeup": null,
+  "key": {
+   "decode": "AGS Estado leg. 1.1.1 doc. 112 (per Tomokiyo)",
+   "lang": "ES"
+  },
+  "cite": "Luo, Wanruo (2021), thesis, Universitat de Valencia, p. 285; Tomokiyo, cryptiana.web.fc2.com",
+  "fields": {},
+  "records": {
+   "R9955": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Charles V to the Empress Isabella, Regensburg, 30 April 1532 (AGS Estado 496 ff. 195-196), not Isabella to Charles, not 1531. Deciphered at the time on a separate sheet; printed in Luo (2021) p. 285. Cipher AGS Estado leg. 1.1.1 doc. 112 (Tomokiyo)."
+   },
+   "R9956": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Brussels, 11 January 1531 (ff. 205-206). Not from Isabella, who was never in Brussels: signature probably 'Covos Comendador Mayor' (Francisco de los Cobos) to 'muy noble señor sobrino', probably Juan Vázquez de Molina (Tomokiyo). Deciphered at the time on a separate sheet. Cipher AGS Estado leg. 1.1.1 doc. 112."
+   }
+  }
  }
 }
