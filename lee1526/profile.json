@@ -132,6 +132,24 @@
    "what": "Read the full clear text of R8578 (both pages) into r8578_reading.txt.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "access",
+   "what": "Downloaded the two images of DECODE R8582 (catalogue 105, Vesp. C IV f. 300/old 276, 18 Nov 1528).",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Applied Tomokiyo's Lee-Worcester key to R8582: 'worde for worde', 'erle of Desmonte' read; a full cipher page, no interlinear decipherment.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Letters and Papers IV no. 4948 calendars R8582 as cipher with 'Decipher of the above by Tuke' at f. 276*; summary agrees (earl of Desmond's courier).",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
@@ -140,6 +158,6 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher. R8578 (catalogue 106, 16 Oct 1528) is the same: clear, no cipher."
+  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher. R8578 (catalogue 106, 16 Oct 1528) is the same: clear, no cipher. R8582 (catalogue 105, 18 Nov 1528) is a full cipher page, read at the time by Tuke (L&P IV 4948 ii)."
  }
 }

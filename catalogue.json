@@ -1522,41 +1522,6 @@
    "scored": "rule"
   },
   {
-   "id": 105,
-   "counted": true,
-   "year": 1528,
-   "date": "18 Nov 1528",
-   "title": "Hier. Eps. Wigorn, Ed. Lee (Hispania) to unknown recipient",
-   "correspondents": "Hier. Eps. Wigorn, Ed. Lee → unknown recipient",
-   "place": "Hispania, Valadolit",
-   "language": "unknown",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Vespasian C IV f 300",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R8582: Non-decrypted, 1 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here.",
-   "why": "Ciphered letter of Hier. Eps. Wigorn, Ed. Lee to unknown recipient, 18 Nov 1528; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 1,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8582",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8582"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8582
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 107,
    "counted": true,
    "year": 1528,

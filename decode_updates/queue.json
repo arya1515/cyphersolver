@@ -3333,6 +3333,14 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8582": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted (at the time)",
+    "note": "Ghinucci and Lee to Wolsey, Valladolid 18 Nov 1528, in the Lee-Worcester cipher (key: Tomokiyo, document on R8566). Deciphered at the time by Tuke on the following leaf (Vesp. C IV f. 276* old foliation), calendared in Letters and Papers Henry VIII IV no. 4948. Recipient Wolsey; language English.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  }

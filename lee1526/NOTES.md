@@ -56,3 +56,21 @@ Dartmouth, a merchant's claim against Don Hurtado and the Emperor's offer of com
 sign, so DECODE's "Non-decrypted" and "alphabet" are wrong. Closed and removed from the catalogue 21 Sept 2026.
 
 The full text of R8578, read from the images, is in [r8578_reading.txt](r8578_reading.txt): after Radcliff's suit, the letter tells how a young English merchant, who came under Don Iñigo de Mendoza's safe conduct, got the Emperor's written order to sell his two seized ships and goods and give him half. The Emperor's order cites only the safe conduct, so suitors without one can expect worse.
+
+## Catalogue 105: R8582 (18 Nov 1528), the one real cipher letter of the series
+
+Catalogue no. 105 ("Hier. Eps. Wigorn, Ed. Lee (Hispania) to unknown recipient", Vesp. C IV f. 300, old foliation 276,
+DECODE R8582, 2 pp.). Both images downloaded 21 Sept 2026. Unlike its siblings this one **is** a cipher letter: a full
+page of the Lee-Worcester sign cipher with a few clear phrases ("the xx of october came a shippe of Saint Sebastians
+from ...", "your grace ... in his continuall expences"), dated "at Valadolit the xviij of November 1528", signed
+"Hier. Eps Wigorniens / Edouardus Lee"; page 2 is the address leaf, docketed "Letters from the Emp.'s Embassadors
+... in November". No interlinear decipherment on the DECODE images.
+
+Tomokiyo's key (DECODE R8566) reads it: `ϒ⊥x0v e ϒ⊥x0v` = "worde for worde", `vx9v θ 0v4ɔ⊥cʒv` = "erle of Desmonte".
+
+**Read at the time and calendared.** Letters and Papers Henry VIII IV no. 4948 (Vesp. C. IV. 276): "Ghinucci and Lee
+to Wolsey ... P. 1, cipher. Add. Endd." and "ii. Decipher of the above by Tuke. P. 1" (ibid. f. 276*). The calendar
+summary (Badcocke's letters; Schercce, a courier of the earl of Desmond's, arrived 15 Oct; truce on the Spain-Guyenne
+frontier; the Emperor to go to Italy in spring) agrees with the key test above. Tuke's decipherment, on the next leaf,
+is not among DECODE's images. Nothing new to read; closed and removed from the catalogue 21 Sept 2026, DECODE
+correction queued (status Decrypted at the time, recipient Wolsey, key R8566).
