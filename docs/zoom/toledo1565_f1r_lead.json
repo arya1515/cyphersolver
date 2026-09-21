@@ -1,0 +1,30 @@
+{
+ "image": "toledo1565_f1r_lead.jpg",
+ "source": "toledo1565/transcription.txt (glosses from the f. 1r caption on docs/toledo1565.html)",
+ "lines": [
+  {
+   "x": 0.02,
+   "y": 0.08,
+   "w": 0.97,
+   "h": 0.32,
+   "text": "Llevo tan 3538 4229 . 2938183812 a V. Mag. el correo passado que no me ha pa-",
+   "gloss": "Llevo tan [ruyn] . [nueua] a V. Mag. el correo passado que no me ha pa-"
+  },
+  {
+   "x": 0.02,
+   "y": 0.42,
+   "w": 0.97,
+   "h": 0.3,
+   "text": "rescido detener este para que 1829 3312353718 la mejore. los 3618243616241829",
+   "gloss": "rescido detener este para que [en parte] la mejore. los [seiscientos]"
+  },
+  {
+   "x": 0.02,
+   "y": 0.74,
+   "w": 0.97,
+   "h": 0.26,
+   "text": "373036 3630271713173136 que don Juan de Cardona puso 1929 3725193514 fue",
+   "gloss": "[soldados] que don Juan de Cardona puso [en tiera] fue"
+  }
+ ]
+}

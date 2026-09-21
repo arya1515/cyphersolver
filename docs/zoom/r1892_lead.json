@@ -1,0 +1,38 @@
+{
+ "image": "r1892_lead.jpg",
+ "source": "r1892/transcription_p2.txt (pairs top-over-bottom), gloss from r1892/decrypt_p2.txt",
+ "lines": [
+  {
+   "x": 0.4818,
+   "y": 0.0,
+   "w": 0.4364,
+   "h": 0.3295,
+   "text": "<theta> 32 41 65 32 65 52 43 43 15 35 65 52 11 55 32 51 13",
+   "gloss": "DEngeneraalbertincy"
+  },
+  {
+   "x": 0.0364,
+   "y": 0.3523,
+   "w": 0.9591,
+   "h": 0.2386,
+   "text": "55 32 31 51 65 32 21 55 51 34 [wrwog] 55 32 34 65 11 41 65 33 43 15 35 65 33 22 32 31 43 32 31 65 52 65 25 35 31 31 65 15 65 32 11 65 34 65 35 35 65 32",
+   "gloss": "indcenzich [wrwog] inhetgevalbevondanderembddelentehebben"
+  },
+  {
+   "x": 0.0364,
+   "y": 0.6136,
+   "w": 0.9591,
+   "h": 0.2386,
+   "text": "34 65 11 52 43 44 44 65 25 35 15 65 25 65 32 11 11 65 21 43 25 65 32 11 65 34 22 42 31 65 32 31 43 32 <theta> 41 65 32 65 31 55 65 <gamma> 33 52 13 12 55 15 15 55 41",
+   "gloss": "hetrassemblementtezamentehoudendanDEgenedie <gamma> vrywillig"
+  },
+  {
+   "x": 0.0364,
+   "y": 0.8523,
+   "w": 0.9591,
+   "h": 0.1477,
+   "text": "<H> 22 55 15 15 65 32 15 43 43 11 65 32 <lambda> 11 65 15 43 43 11 65 32 55 32 <circle-cross> <hook> <c-symbol> [wrwog in dat geval ook]",
+   "gloss": "<H> oillenlaaten <lambda> telaatenin <circle-cross>  <hook>  <c-symbol>  [wrwog in dat geval ook]"
+  }
+ ]
+}

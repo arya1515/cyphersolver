@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260921b'
+VERSION = '20260921c'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -50,6 +50,7 @@ GENERATED = [
     r'<script src="site\.js[^"]*"></script>',
     r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>',
     r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
+    r'<script src="zoom\.js[^"]*" defer></script>\n?',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
 
@@ -1259,6 +1260,10 @@ def process(path):
         m = re.search(r'<h2 id="sources"', s)
         s = s[:m.start()] + block + s[m.start():] if m else s.replace('</main>', block + '</main>', 1)
         s = s.replace('</body>', f'<script src="solve-replay.js?v={VERSION}" defer></script>\n</body>', 1)
+    # the deep-zoom viewer on every page with a figure image (zoom.js; overlays from docs/zoom/<image>.json)
+    s = re.sub(r'<script src="zoom\.js[^"]*" defer></script>\n?', '', s)
+    if re.search(r'<figure[^>]*>\s*<img', s):
+        s = s.replace('</body>', f'<script src="zoom.js?v={VERSION}" defer></script>\n</body>', 1)
     # versions, anchor for "Top", script
     s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
     if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)

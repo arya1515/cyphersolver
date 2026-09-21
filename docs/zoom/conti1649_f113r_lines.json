@@ -1,0 +1,70 @@
+{
+ "image": "conti1649_f113r_lines.jpg",
+ "source": "conti1649/transcription.txt, gloss from conti1649/decoded.txt",
+ "lines": [
+  {
+   "x": 0.0179,
+   "y": 0.122,
+   "w": 0.975,
+   "h": 0.0976,
+   "text": "Jcctg nle [Monsieur Le] nrgmtild mie grtdnrnmatid",
+   "gloss": "== f113r (no. 41, 26 March 1649)"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.2276,
+   "w": 0.975,
+   "h": 0.1057,
+   "text": "mJsie ue maJa [des choses] armtatliniga [comme]",
+   "gloss": "AFFIN QUE monsieur le MONSIEUR SEE NOIR MO MS TIER"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.3415,
+   "w": 0.975,
+   "h": 0.1008,
+   "text": "euuem mie aJmmiga J mitga iiedJtg [il sera] Jlidat",
+   "gloss": "SAH CE LE STAT des choses POSITI UEMENT comme"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.4634,
+   "w": 0.975,
+   "h": 0.1089,
+   "text": "[Que] urg tgmtmai [fort dans la] irgcidigie mld uim",
+   "gloss": "ELLES SEE PASSENT A DE INT CE GRAIN il sera AUERTI"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.5854,
+   "w": 0.975,
+   "h": 0.1057,
+   "text": "tgaidiam [du] aJduiniga me grdnJgmte [avec lequel le]",
+   "gloss": "que LON INSISTE fort dans la CONFERENCE SUR LES"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.6992,
+   "w": 0.975,
+   "h": 0.1057,
+   "text": "aJduiniga mie aJdtm ema aeuueniga trtga nle [hier]",
+   "gloss": "INTERETS du PARLEMENT DE NORMANDIE avec lequel le"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.813,
+   "w": 0.975,
+   "h": 0.1057,
+   "text": "ue adeniid adeimtmiga [et le] adeimtmiga me nimniia",
+   "gloss": "PARLEMENT SEE PARIS EST TELLEMENT IOINT QUE hier"
+  },
+  {
+   "x": 0.0179,
+   "y": 0.9106,
+   "w": 0.975,
+   "h": 0.0894,
+   "text": "[declarerent que si le] aJduiniga me grdnJgmte [n'estoit]",
+   "gloss": "LE PRE MGER TREZ DISENT et le TREZ DISENT DE MESME ET"
+  }
+ ]
+}

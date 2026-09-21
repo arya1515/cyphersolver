@@ -1,0 +1,46 @@
+{
+ "image": "lanssac_f124.jpg",
+ "source": "lanssac/ct_f124.txt (provisional glyph names), gloss from lanssac/reading.txt",
+ "lines": [
+  {
+   "x": 0.2313,
+   "y": 0.1033,
+   "w": 0.7063,
+   "h": 0.0803,
+   "text": "Sire s3 g N ff d IIII 3 x | x g N pi longs 8inf Ti ast Fq Lo B r oo 7 c",
+   "gloss": "despuis les dangiers qu'encontrent en Allemagne les françois qui passent, et vostre ser{o r h e} (passage ll. 1-3)"
+  },
+  {
+   "x": 0.1125,
+   "y": 0.1793,
+   "w": 0.825,
+   "h": 0.0818,
+   "text": "et phi x B , r s Z , T ast Lo , of Fq | Fq T s cross c phi g . ff r . phi y pi g Lo x B .",
+   "gloss": "despuis les dangiers qu'encontrent en Allemagne les françois qui passent, et vostre ser{o r h e} (passage ll. 1-3)"
+  },
+  {
+   "x": 0.1125,
+   "y": 0.2554,
+   "w": 0.4375,
+   "h": 0.0717,
+   "text": "et T g 3 Fq x . Lo r phi c phi cross - | ast",
+   "gloss": "despuis les dangiers qu'encontrent en Allemagne les françois qui passent, et vostre ser{o r h e} (passage ll. 1-3)"
+  },
+  {
+   "x": 0.1125,
+   "y": 0.7862,
+   "w": 0.8187,
+   "h": 0.0775,
+   "text": "doubte cross T x . 8 c Ti oo g . ast 8 r . Ti phi x 3 ast s ot . ocross r Tl y x g Ti 7 cross ast . Lh",
+   "gloss": "pour le moins esté retenu ou empesché de passer oultre. Mais (passage ll. 9-10)"
+  },
+  {
+   "x": 0.1125,
+   "y": 0.8551,
+   "w": 0.4375,
+   "h": 0.0717,
+   "text": "y pi g Lo x phi c ff 3 IIII Fq r . Tl - | pi B Lo",
+   "gloss": "pour le moins esté retenu ou empesché de passer oultre. Mais (passage ll. 9-10)"
+  }
+ ]
+}

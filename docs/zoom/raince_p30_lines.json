@@ -1,0 +1,29 @@
+{
+ "image": "raince_p30_lines.jpg",
+ "source": "raince/trans/reading.txt (H lines: one letter per cipher token, read against the measured key), gloss from raince/trans/verified_lines.txt",
+ "lines": [
+  {
+   "x": 0.0688,
+   "y": 0.1026,
+   "w": 0.9125,
+   "h": 0.2974,
+   "text": "[cipher; letter per token] ctio ? eavous faire tous seruices et plaisirs ? qui l est ?? est",
+   "gloss": "-ction e[t](?) [_] a vous faire tous [_] services et plaisirs ? qu'il est. L'empereur est-"
+  },
+  {
+   "x": 0.0688,
+   "y": 0.4103,
+   "w": 0.9125,
+   "h": 0.2974,
+   "text": "[cipher; letter per token] esbay de ce que ? n a escript autrement au ? ne par deca depuis s",
+   "gloss": "esbay de ce que ?'?n n'a escript autrement ..."
+  },
+  {
+   "x": 0.0688,
+   "y": 0.7179,
+   "w": 0.9125,
+   "h": 0.2821,
+   "text": "[cipher; letter per token] on retour en son royaume et mena parle plusieurs fois mes m"
+  }
+ ]
+}

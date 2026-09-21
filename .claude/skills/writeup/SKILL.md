@@ -128,6 +128,11 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
   Tomokiyo's table, a key rebuilt here), add a `links` entry `{"key", "target": "<slug>", "how": "read unchanged" |
   "adapted" | "rebuilt from" | "partial", "note"}`, and a `keys` entry `{"id": "k-…", "label", "kind", "by", "year",
   "note"}` if the key is new. Only edges the NOTES state explicitly.
+- **Zoom overlay** (`docs/zoom/<image name>.json`, optional): every figure image already opens in the deep-zoom viewer
+  (`zoom.js`). To lay the transcription over a line crop, give `{"image", "source", "lines": [{"x", "y", "w", "h",
+  "text", "gloss"}]}` with the box in fractions of the image, placed by looking at the image; `text` from the repo's
+  transcription, `gloss` its reading. Only when the transcription matches the visible lines one for one. `"iiif"`
+  (an info.json URL) swaps in the archive's full-resolution image.
 
 ## 3. The ledgers in the repository root
 

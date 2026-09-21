@@ -286,6 +286,24 @@ def check_slug(slug):
         item(bool(q) and not todo, f'decode_updates/queue.json queues the DECODE edits for {folder} '
              f'(python decode_updates/queue.py add {folder}, fill the TODOs; or queue.py skip {folder} "<why>")'
              + (': TODO fields left' if todo else ''))
+    # the explore data (skill step 2a): nudges only, since many targets have no named key or no known route
+    try: kw = json.loads(read(HERE / 'keys.json') or '{}')
+    except ValueError: kw = {}
+    try: at = json.loads(read(HERE / 'atlas.json') or '{}')
+    except ValueError: at = {}
+    for folder in sorted(folders):
+        try: p = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+        except ValueError: continue
+        keyed = (p.get('conditions') or {}).get('attack') in ('sibling key', 'key from archive', 'published key') or any(
+            s.get('kind') in ('sibling key', 'key from source') and s.get('result') in ('worked', 'partial') for s in p.get('solution') or [])
+        if keyed:
+            item(any(l.get('target') == slug for l in kw.get('links', [])),
+                 f'docs/keys.json links the key that read {folder} (its profile names a sibling, archive or published key)', warn=True)
+        routed = [d for d in p.get('documents') or [] if '->' in str(d.get('route', '')) and '?' not in str(d.get('route', ''))
+                  and 'unknown' not in str(d.get('route', '')).lower()]
+        if routed:
+            item(any(l.get('slug') == slug for l in at.get('letters', [])),
+                 f'docs/atlas.json maps the letters of {folder} ({len(routed)} documents have a route)', warn=True)
     if mine:
         name = key_words(mine[0]['target'])
         ledgers = ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md') if st != 'stuck' else ('TARGETS.md',)

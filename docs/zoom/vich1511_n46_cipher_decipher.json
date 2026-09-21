@@ -1,0 +1,27 @@
+{
+ "image": "vich1511_n46_cipher_decipher.jpg",
+ "source": "docs/vich1511.html caption (the clerk's decipherment, lower panel only; the cipher lines above are not transcribed in the repo)",
+ "lines": [
+  {
+   "x": 0.06,
+   "y": 0.588,
+   "w": 0.9,
+   "h": 0.122,
+   "text": "Con beltran de cordona que partio de Sevilla a xvj de junio respondi"
+  },
+  {
+   "x": 0.06,
+   "y": 0.716,
+   "w": 0.9,
+   "h": 0.122,
+   "text": "a vuestras letras y scrivi todo lo que mas me ocorria; despues no he"
+  },
+  {
+   "x": 0.06,
+   "y": 0.848,
+   "w": 0.28,
+   "h": 0.122,
+   "text": "recebido vuestras"
+  }
+ ]
+}
