@@ -283,8 +283,8 @@
   },
   "egmond": {
    "first": "2026-09-20",
-   "hash": "528688d6184e",
-   "updated": "2026-09-20"
+   "hash": "1c97973c16f2",
+   "updated": "2026-09-21"
   },
   "esp318": {
    "first": "2026-09-17",
@@ -308,8 +308,8 @@
   },
   "florence1429": {
    "first": "2026-09-18",
-   "hash": "fabd537d8a63",
-   "updated": "2026-09-18"
+   "hash": "6f912ac75e7a",
+   "updated": "2026-09-21"
   },
   "forster": {
    "first": "2026-09-15",
@@ -323,8 +323,8 @@
   },
   "gramont1529": {
    "first": "2026-09-18",
-   "hash": "d747fd5c84cc",
-   "updated": "2026-09-18"
+   "hash": "a6c596c4d074",
+   "updated": "2026-09-21"
   },
   "haga1620": {
    "first": "2026-09-21",
@@ -388,7 +388,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "741cc16d5233",
+   "hash": "73bde774bccc",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -473,8 +473,8 @@
   },
   "norfolk1570": {
    "first": "2026-09-18",
-   "hash": "34109d756cdc",
-   "updated": "2026-09-18"
+   "hash": "a1c8768be36a",
+   "updated": "2026-09-21"
   },
   "nunzio1718": {
    "first": "2026-09-20",
@@ -653,8 +653,8 @@
   },
   "sormano": {
    "first": "2026-09-17",
-   "hash": "2b7fdfe51a53",
-   "updated": "2026-09-17"
+   "hash": "bec4ac774df2",
+   "updated": "2026-09-21"
   },
   "sormano1529": {
    "first": "2026-09-18",
@@ -688,8 +688,8 @@
   },
   "toledo1565": {
    "first": "2026-09-18",
-   "hash": "5aa62c52a134",
-   "updated": "2026-09-18"
+   "hash": "a200e4ae6a2e",
+   "updated": "2026-09-21"
   },
   "urquhart": {
    "first": "2026-09-16",
@@ -738,7 +738,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "44db6a14feb2",
+   "hash": "4d4582aad6ff",
    "updated": "2026-09-21"
   },
   "yard1699": {
