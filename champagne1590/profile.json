@@ -90,6 +90,36 @@
     "image_quality": "fair",
     "notes": "One group of mixed figures and signs."
    }
+  },
+  {
+   "id": "n55",
+   "shelfmark": "BnF fr. 3625 no. 55, f. 66r (Gallica btv1b52511322v canvas 143)",
+   "date": "9 Jul 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Lauriere (Chalons) -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "one gloss on the leaf ('come'); sibling no. 10 (f. 10r) carries an interlinear decipherment of the same code",
+    "partial": true
+   },
+   "length": {
+    "tokens": 86,
+    "unit": "code groups",
+    "measured": false,
+    "file": "ct_3625_55.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution",
+    "image_quality": "fair",
+    "notes": "Groups mix figures with attached letters and signs; count made by hand."
+   }
   }
  ],
  "system": {
@@ -128,7 +158,7 @@
   "key_order": "alphabetical",
   "word_division": "none",
   "sibling_key": "none; Tomokiyo's Nevers key no. 46 checked and does not fit; siblings nos. 26/27 in another key",
-  "notes": "Fr. 3625 no. 55 (Laurière) not located; its sibling no. 10 has an interlinear decipherment."
+  "notes": "No. 55 (Lauriere, f. 66r) is a mixed syllabic figure-and-sign code; sibling no. 10 has an interlinear decipherment."
  },
  "conditions": {
   "prior_solution": {
@@ -202,6 +232,24 @@
    "kind": "access",
    "what": "Search for fr. 3625 no. 55 across canvases 13-64 and 81-200: not found; no. 10 found at f. 10r with interlinear decipherment.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "OAI item list of fr. 3625 matched to folios (no. 49 = f. 61, dated 3 not 9 July); no. 55 found at f. 66r, canvas 143; canvases 65-80 and 201-270 looked over.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "No. 55 transcribed (8 runs, 86 groups); first three runs of no. 10 aligned with their interlinear decipherment.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Groups shared with no. 10's glossed runs read in no. 55: que le Roy soit encores, la volonte du pape, aussitost; about 15 of 86 groups.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -213,6 +261,6 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 78 and fr. 3625 no. 55 open."
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 read in fragments from no. 10's glosses; no. 78 open."
  }
 }

@@ -14,9 +14,10 @@ two-digit substitution whose table is in alphabetical order with homophones; a f
 lines of no. 25 give the anchors, and the monotone order fills the rest: 10 of the 12 cipher passages read in whole
 or in part (e.g. "la rupture de l'edict [de] l'union", "contre la ligue", "de la defiance du [17]", "M. de Chazeron",
 "du sr Ludovic"). **No. 78** (1591) has one group of about six mixed signs, too short to read. **Fr. 3625 no. 55**
-(Laurière, Châlons, 9 July 1593) was **not located** on the Gallica images in this session (canvases 13–64 and 81–200
-checked at thumbnail size, the likely ones at page size); no. 10 (Laurière, 13 July, f. 10r, canvas 31) was found, a symbol-and-figure cipher with the
-office's interlinear decipherment, so it is the key source for no. 55 once no. 55 is found.
+(Laurière, Châlons, 9 July 1593) is **f. 66r (canvas 143)**, found in a second pass from the OAI item list. It is in
+the same mixed code (figures of 1–3 digits with letters and signs, a syllabic nomenclator) as Laurière's 13 July
+letter (no. 10, f. 10r), whose interlinear decipherment gives a handful of shared groups: no. 55 is read only in
+fragments ("... que le Roy soit encores ...", "... la volonté du pape ... aussitost ...").
 
 ## Prior work checked
 
@@ -102,9 +103,39 @@ Champagne, in clear). Canvases 13–64 and 81–200 were inspected at thumbnail 
 Laurière's hand with cipher. Open: locate no. 55 (canvases 65–80 and 201–270 not yet scanned), then transcribe no. 10
 as the key source.
 
+## Fr. 3625 no. 55 found (second pass, 21 September 2026)
+
+The OAI item list of fr. 3625 fixes the order: no. 49 = f. 61 (Trésoriers de France, Châlons, **3** July, not 9 July:
+the earlier note misread the date), no. 50 = f. 62, nos. 51–53 = ff. 63–64, so no. 55 falls at f. 66. F. 66r (canvas
+143) is Laurière's letter, "Chalons ce IX juillet 1593", signed Laurière: clear French with eight cipher runs, 86 groups
+(`ct_3625_55.txt`). One word of decipherment is written over the first group ("come" over 347) and "n" over one 304;
+otherwise no decipherment on the leaf. Canvases 65–80 and 201–270 were also looked over at thumbnail size: no other
+Laurière letter.
+
+The key source is no. 10 (f. 10r). Its first three runs were aligned with the interlinear decipherment
+(`ct_3625_10_glossed.txt`): ✗ = que, 335 = le Roy, 141 = soit, 288 = Catholique, 101 54y+ = Sa Majesté, 184y = auroit,
+346 = volonté, 59 = du, XX = pape, 25 103 56nΔ = qu'aussitost. The code is syllabic and mixed (10 54 20 17 under
+"parole", 262 under "de luy"), so single groups cannot be read from context alone.
+
+Groups of no. 55 that recur in the glossed runs of no. 10:
+
+| No. 55 | Reading from no. 10 | Grade |
+|---|---|---|
+| 347 | come (gloss on no. 55 itself) | H |
+| 59 ✗ (line 1) | du ... que | C |
+| 25 ✗ 335 141 encores (line 5) | ... que le Roy soit encores | C |
+| 26.6. 346. 59 XX (line 7) | ... la volonté du pape | C |
+| 286 103 56nΔ (line 7) | ... aussitost | C |
+| 304 ✗ (line 8) | ... que | C |
+
+About 15 of 86 groups read (C). Context in clear: "Il est tres necessaire que ceulx qui ayment cest estat s'y
+treuvent ... la remise seroit trop prejudiciable", "la rupture de la tresve", "faire une election d'ung a la devotion
+du Roy d'Espagne". Reading the rest needs the other glossed runs of no. 10 (about ten more lines) aligned group by
+group; not done in this session.
+
 ## What is open
 
-* Fr. 3625 no. 55 not located; no. 10 not transcribed.
+* Fr. 3625 no. 55: about 70 of 86 groups unread; the remaining glossed runs of no. 10 are the route.
 * The two no. 24 passages, the first half of one no. 25 passage, the name in no. 60, all code numbers of the
   two-digit key; no. 78's one group.
 
@@ -112,4 +143,6 @@ as the key source.
 
 * `ct_3623_twodigit.txt` — figures of nos. 24, 25, 60 (104 tokens, 40 distinct, measured).
 * `ct_3623_78.txt` — the one group of no. 78.
+* `ct_3625_55.txt` — no. 55's eight runs (86 groups).
+* `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment.
 * Images in `img/` (git-ignored, not committed).
