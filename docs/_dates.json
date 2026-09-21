@@ -137,6 +137,7 @@
   "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "van reede to william v, berlin, 4 february 1792": "2026-09-21",
+  "van spaen to van der goes, 14–15 january 1808": "2026-09-21",
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
   "voynich manuscript": "2026-09-15"
@@ -394,7 +395,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "2222a2f1262b",
+   "hash": "3ab8334289f5",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -697,6 +698,11 @@
    "hash": "076ab88eff07",
    "updated": "2026-09-19"
   },
+  "spaen1808": {
+   "first": "2026-09-21",
+   "hash": "cc5166f75f27",
+   "updated": "2026-09-21"
+  },
   "sunintercepts": {
    "first": "2026-09-18",
    "hash": "afa62db09c42",
@@ -774,7 +780,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a88630b9c033",
+   "hash": "1177cfc2799f",
    "updated": "2026-09-21"
   },
   "yard1699": {

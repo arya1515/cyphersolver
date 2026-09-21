@@ -1,6 +1,5 @@
 # Van Spaen (Düsseldorf) to Van der Goes, 14–15 Jan 1808 (DECODE R1941; catalogue 226)
 
-Status: in progress
 
 The letter is still unread: DECODE has no key for this code and nothing is in print. It stays in the catalogue as "attempted, open".
 

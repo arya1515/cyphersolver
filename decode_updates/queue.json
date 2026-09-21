@@ -2380,6 +2380,29 @@
      "sent": false
     }
    }
+  },
+  "spaen1808": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/spaen1808.html",
+   "key": {
+    "decode": "none: no key found (metadata correction only)"
+   },
+   "cite": "Nationaal Archief 2.01.08 inventory, inv. 281",
+   "fields": {
+    "author": "J.F.G. (or G.C.) van Spaen and G. van Riemsdijk, commissioners for the takeover of the ceded districts (Lijmers, Huissen, Malburgen, Zevenaar)",
+    "origin_region": "Grand Duchy of Berg",
+    "cipher_types": "code",
+    "plaintext_lang": "unknown"
+   },
+   "records": {
+    "R1941": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "No reading attached for the annex said to be solved; letter (228 groups) and annex (75) transcribed, no key found. Inv. 281 per NA inventory = ceded-districts commissioners, Düsseldorf = Grand Duchy of Berg, not Westphalia.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }
