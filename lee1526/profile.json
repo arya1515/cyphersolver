@@ -126,6 +126,12 @@
    "what": "Looked at both pages of R8578: a clear English despatch of Ghinucci and Lee to Wolsey, Valladolid 16 Oct 1528, on English ships seized by the Emperor's subjects; no cipher sign on either page.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Read the full clear text of R8578 (both pages) into r8578_reading.txt.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {

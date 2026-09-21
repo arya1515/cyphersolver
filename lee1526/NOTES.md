@@ -54,3 +54,5 @@ Ghinucci and Lee to Wolsey ("Please it your grace"), Valladolid, 16 October 1528
 Edouardus Leus". It concerns English ships and goods seized by the Emperor's subjects (Radcliff's suit, the ships of
 Dartmouth, a merchant's claim against Don Hurtado and the Emperor's offer of compensation). Neither page has a cipher
 sign, so DECODE's "Non-decrypted" and "alphabet" are wrong. Closed and removed from the catalogue 21 Sept 2026.
+
+The full text of R8578, read from the images, is in [r8578_reading.txt](r8578_reading.txt): after Radcliff's suit, the letter tells how a young English merchant, who came under Don Iñigo de Mendoza's safe conduct, got the Emperor's written order to sell his two seized ships and goods and give him half. The Emperor's order cites only the safe conduct, so suitors without one can expect worse.
