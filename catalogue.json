@@ -3122,8 +3122,8 @@
    "counted": true,
    "year": 1816,
    "date": "1 Apr 1816 – 28 Oct 1819",
-   "title": "Principe di Castelcicala (Paris) to unknown recipient, 9 ciphertexts",
-   "correspondents": "Principe di Castelcicala → unknown recipient",
+   "title": "Principe di Castelcicala (London, Paris) to the Marchese di Circello, 9 ciphertexts",
+   "correspondents": "Fabrizio Ruffo, principe di Castelcicala → Marchese di Circello (Secretary of State, Naples)",
    "place": "Paris, France",
    "language": "Italian",
    "region": "Italy",
@@ -3131,13 +3131,13 @@
    "shelfmark": "ASNa, Ministerio degli affari esteri 2337_33 (9 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R9553–R9586 (9 records): Non-decrypted, 13 pp., unknown; numerical; images login. Not viewed here. DECODE note: Ciphertext that might belong to the plaintexts in box 2317.",
-   "why": "Ciphered despatches of Principe di Castelcicala to unknown recipient, 1 Apr 1816 – 28 Oct 1819; what the cipher hides is not known.",
+   "status": "Seen 21 Sept 2026 (castelcicala1816/NOTES.md). Code headed 'Cifra della Segreteria di Stato', groups 14–2460, no word division; 331 groups transcribed. No key or decipherment: the box 2317 record R9549 uses a different code, and the decrypted box 2337 siblings are 1850s–60s in other codes. No edition found.",
+   "why": "Ciphered despatches of the Neapolitan ambassador to his foreign minister, 1816–1819; content unknown.",
    "importance": 3,
-   "solvability": 3,
+   "solvability": 1,
    "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+   "score_note": "Reviewed by hand 21 Sept 2026 after viewing the images.",
+   "verify": "Look for the 1816–19 Segreteria di Stato codebook or deciphered copies in ASNa Esteri; too little text for a ciphertext-only attack.",
    "ark": "",
    "links": [
     {
@@ -3169,7 +3169,7 @@
      "href": null
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     9553,
@@ -3182,7 +3182,8 @@
     9585,
     9586
    ],
-   "scored": "rule"
+   "scored": "reviewed",
+   "outcome": "attempted, open"
   },
   {
    "id": 168,

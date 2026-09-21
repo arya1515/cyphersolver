@@ -3575,5 +3575,88 @@
     "reading_not_needed": true
    }
   }
+ },
+ "castelcicala1816": {
+  "writeup": null,
+  "key": null,
+  "cite": null,
+  "fields": {
+   "sender": "Fabrizio Ruffo, principe di Castelcicala",
+   "receiver": "Marchese di Circello (Tommaso di Somma)"
+  },
+  "records": {
+   "R9553": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9555": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9556": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9557": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9582": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9583": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9584": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9585": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R9586": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }

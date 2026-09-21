@@ -1,0 +1,131 @@
+{
+ "schema_version": 1,
+ "target": "castelcicala1816",
+ "title": "Castelcicala to the Marchese di Circello, 1816-1819 (ASNa Esteri 2337; DECODE R9553, R9555-R9557, R9582-R9586)",
+ "documents": [
+  {
+   "id": "R9553-R9586",
+   "shelfmark": "ASNa, Ministero degli affari esteri 2337_4-2337_37; DECODE R9553, R9555, R9556, R9557, R9582, R9583, R9584, R9585, R9586",
+   "date": "1 Apr 1816 - 28 Oct 1819",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London/Paris -> Naples",
+   "language": "Italian",
+   "pages": 13,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on DECODE or in print; box 2317 record R9549 uses a different code."
+   },
+   "length": {
+    "tokens": 331,
+    "distinct": 208,
+    "unit": "code groups",
+    "measured": true,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images, 3 of 13 pages transcribed",
+    "image_quality": "good",
+    "notes": "Dotted numerical groups 14-2460; some groups carry a trailing 0."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "The Neapolitan Segreteria di Stato's general numerical code (groups 14-2460), no word division.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 10,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "unknown"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE marks all nine non-decrypted; no edition found",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "none",
+  "human_role": "Selected the target; the DECODE session cookie was already in the repository.",
+  "tools": [
+   "DECODE authenticated image download",
+   "DECODE API metadata",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched metadata for DECODE R9542-R9590 through the API and the 28 images of the target and of box 2317/2337 siblings with the shared cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Web search for a printed or published decipherment of the 1816-19 Castelcicala despatches.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed 331 groups from R9553 p.1, R9582 and R9585; identified the recipient (Circello) and the code name (Cifra della Segreteria di Stato).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Compared with the box 2317 record R9549 that DECODE suggests holds the plaintexts: its cipher uses a different code (frequent groups 441, 486, 563, 1144; range to ~1999).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Checked the decrypted box 2337 siblings: 1850s-60s telegrams and letters in other codes.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "statistics",
+   "what": "Frequency and repeat count: 208 distinct groups in 331 over a ~2,500-group code, repeated multi-group phrases; too little text for a ciphertext-only attack.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Needs the Segreteria di Stato codebook of 1816-19 or deciphered copies in ASNa."
+ }
+}
