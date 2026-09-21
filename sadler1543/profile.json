@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "target": "sadler1543",
+ "title": "Sir Ralph Sadler (Edinburgh) to Henry VIII, 22 Apr 1543, BL Add MS 32650 ff. 214-216 (DECODE R4924)",
+ "documents": [
+  {
+   "id": "R4924",
+   "shelfmark": "BL Add MS 32650 ff. 214-216 (DECODE R4924)",
+   "date": "22 Apr 1543",
+   "year": 1543,
+   "country": "Scotland",
+   "route": "Sadler (Edinburgh) to Henry VIII",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "separate folio",
+     "printed edition"
+    ],
+    "source": "Decipher bound at fol. 218; Clifford, Sadler State Papers I (1809) pp. 158-160; Bain, Hamilton Papers I (1890) no. 362",
+    "partial": false
+   },
+   "length": {
+    "tokens": 0,
+    "distinct": 0,
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "not transcribed; images not viewed",
+    "image_quality": "unknown",
+    "notes": "Closed from the printed editions before viewing the images."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "unknown"
+  ],
+  "summary": "Sadler's 1543 embassy cipher; DECODE describes it as alphabet, graphic signs and numerals. Not examined.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Not examined; the fol. 218 decipher would serve as a full crib."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Clifford (ed.), Sadler State Papers I (1809) pp. 158-160; Bain (ed.), Hamilton Papers I (1890) no. 362, noting the contemporary decipher at fol. 218",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "cleartext context",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "literature search",
+   "what": "Add MS 32646-57 = Hamilton Papers; grepped Bain's Hamilton Papers I (archive.org djvu text) for fol. 214: no. 362, 'In cypher ... (2) A decypher of the same letter [fol. 218]', citing Sadler Papers i. 158-60.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Checked Clifford's Sadler State Papers I (1809) pp. 158-160: the 22 April 1543 letter printed in full in clear (Sir George Douglas reports Arran's turn to Beaton; advises writing in cypher).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 1
+  },
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Printed 1809 and calendared 1890; images not viewed; catalogue entry 80 removed, no write-up."
+ }
+}

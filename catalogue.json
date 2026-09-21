@@ -1165,41 +1165,6 @@
    "scored": "rule"
   },
   {
-   "id": 80,
-   "counted": true,
-   "year": 1543,
-   "date": "22 Apr 1543",
-   "title": "Sir Ralph Sadler (Edinburgh) to King Henry VIII",
-   "correspondents": "Sir Ralph Sadler → King Henry VIII",
-   "place": "Edinburgh",
-   "language": "unknown",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Add MS 32650, f 214-216",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R4924: Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here.",
-   "why": "Ciphered letter of Sir Ralph Sadler to King Henry VIII, 22 Apr 1543; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 1,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4924",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4924"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4924
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 81,
    "counted": true,
    "year": 1585,

@@ -2507,6 +2507,23 @@
      "sent": false
     }
    }
+  },
+  "sadler1543": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/sadler1543/NOTES.md (notes only, no site page)",
+   "key": {
+    "decode": "none needed (the contemporary decipher is bound at fol. 218)"
+   },
+   "cite": "Arthur Clifford (ed.), The State Papers and Letters of Sir Ralph Sadler, vol. I (Edinburgh, 1809), pp. 158-160; Joseph Bain (ed.), The Hamilton Papers, vol. I (Edinburgh, 1890), no. 362, pp. 522-523",
+   "fields": {},
+   "records": {
+    "R4924": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Already in print (1809, 1890). A contemporary decipher of the letter is bound in at fol. 218 (Bain, Hamilton Papers I no. 362), and Clifford prints the full text: Sir George Douglas warns Sadler that Arran has turned to Cardinal Beaton and the French party, and advises him to write in cipher from now on.",
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }
