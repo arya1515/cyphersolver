@@ -620,6 +620,11 @@ PAGES = [
          blurb='DECODE lists three ciphered letters of the Dutch envoy at Berlin as non-decrypted. The French despatches of December 1787 and March 1788 are in William V&rsquo;s Grand Chiffre of 1782 (DECODE R1024), confirmed on a control letter with known plaintext; the digits the DECODE transcription left under one catch-all sign were resolved with a French language model. They report the King of Prussia&rsquo;s refusal to guarantee the Dutch possessions overseas in the 1788 alliance, and Russian and Austrian moves in the Turkish war. The 1793 letter to the Secret Committee is in another, marked three-digit code and stays unread.',
          quote='&ldquo;le Roi a dit qu&rsquo;il ne pouvoit pas garantir nos possessions d&rsquo;outre-mer&rdquo;',
          rights='Manuscript image: Nationaal Archief, The Hague, via DECODE R1026'),
+    dict(slug='vanreede1792', label='Van Reede 1792', year='1792', y=1792.1, place='Berlin &rarr; The Hague', st='solved', stt='read',
+         title='Van Reede to William V, 1792 &mdash; the lemon-juice letter',
+         blurb='A one-page letter in William V&rsquo;s Grand Chiffre, catalogued on DECODE as partially decrypted with its contents unknown. Read in full with the 1782 key R1024. It is a cover note: the Prince&rsquo;s secretary Larrey is told that the enclosure&rsquo;s four blank half-pages carry writing in lemon juice, and that the figures after the message are nulls.',
+         quote='&ldquo;il y a du citron sur les quatre demi-pages blanches de l&rsquo;incluse&rdquo;',
+         rights='Manuscript image: Koninklijk Huisarchief, The Hague, via DECODE R1057'),
     dict(slug='r1944', label='Bourdeaux 1801', year='1801', y=1801.1, place='Berlin &rarr; The Hague', st='found', stt='clear copy found',
          title='Bourdeaux to Van der Goes, 31 January 1801 &mdash; the clear copy, misfiled under another record',
          blurb='DECODE lists R1944, the Batavian charg&eacute; Bourdeaux&rsquo;s ciphered dispatch no. 16 from Berlin, as non-decrypted. Its clear copy is the third image of the next record, R1946, on the following folio (294, 295). It reports that the Danish diplomat Rosenkrantz, sent away from Petersburg, blamed a servant who copied his cipher, while the Prussian envoy Lusi said the desk holding it had been forced. The code groups are not yet aligned to the text.',
@@ -729,6 +734,7 @@ IMAGES['rakoczi1707'] = None
 IMAGES['rakoczi1704'] = None
 IMAGES['papai1706'] = None
 IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philibert du Croc: the main letter in graphic cipher, with the signature and postscript lower on the leaf', 'Archives d&eacute;partementales de la Ni&egrave;vre, reproduced by Destray (1924), via Gallica and DECODE R2789')
+IMAGES['vanreede1792'] = ('vanreede1792_lead.jpg', 'Van Reede to William V, 4 February 1792: the figures with the contemporary pencil gloss &mdash; ci tro n sur le(s) &hellip; demi', 'Koninklijk Huisarchief, The Hague, via DECODE R1057')
 IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch of 29 December 1787, first page: the gloss dites &hellip; avant hier over the first groups, 2750 &hellip; 2578 3350', 'Nationaal Archief, The Hague, via DECODE R1026')
 IMAGES['haga1620'] = ('haga1620_lead.jpg', 'R2113 p.2, Constantinople 31 March 1620: clear Dutch with the cipher spans inline, (44) ende (45) arbeiden bij (4) om tyt te winnen', 'Nationaal Archief, The Hague, via DECODE R2113')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')

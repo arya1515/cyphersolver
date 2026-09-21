@@ -5640,41 +5640,6 @@
    "writeup": "hellen1752.html"
   },
   {
-   "id": 217,
-   "counted": true,
-   "year": 1792,
-   "date": "4 Feb 1792",
-   "title": "Arend Willem baron van Reede (1747-1815), Dutch Ambassador in Berlin (Berlin) to Stadholder Prins Wilem V (1748-1806)",
-   "correspondents": "Arend Willem baron van Reede (1747-1815), Dutch Ambassador in Berlin → Stadholder Prins Wilem V (1748-1806)",
-   "place": "Berlin, Prussia",
-   "language": "French",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 205",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R1057: Partially decrypted, 1 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The code used in this letter is the \"Grand Chiffre\" of {rince William V, indicating that the information it contained was too sensitive to be dealt with by the cipher secretary of the States General S.E. Croiset, who was considered to be politically unreliable…",
-   "why": "Ciphered letter of Arend Willem baron van Reede (1747-1815), Dutch Ambassador in Berlin to Stadholder Prins Wilem V (1748-1806), 4 Feb 1792; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1057",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1057"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1057
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 218,
    "counted": true,
    "year": 1795,

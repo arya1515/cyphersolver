@@ -2338,6 +2338,23 @@
      "sent": false
     }
    }
+  },
+  "vanreede1792": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/vanreede1792.html",
+   "key": {
+    "decode": "R1024"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R1057": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read in full with the Grand Chiffre key R1024: cover note announcing lemon-juice writing on the enclosure; the last 21 groups are declared nulls. Transcription group 4204 should be 4202.",
+     "reading": "decode_updates/decryptions/R1057.txt",
+     "sent": false
+    }
+   }
   }
  }
 }
