@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260919a'
+VERSION = '20260921a'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -970,6 +970,8 @@ def nav_html(current):
         f'      <div class="panel wp">{panel}</div></details>\n'
         f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>The Unsolved Catalogue</a>\n'
+        f'    <a href="atlas.html"{cur("atlas")}>Atlas</a>\n'
+        f'    <a href="keys.html"{cur("keys")}>Key web</a>\n'
         f'    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>\n'
         f'    <a class="ext" href="{REPO}" rel="noopener">Code &#8599;</a>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
@@ -1314,6 +1316,10 @@ if __name__ == '__main__':
     done = [process(p) for p in sorted(HERE.glob('*.html'))]
     save_dates(DATES)
     print('search index:', write_search_index(), 'entries')
+    # pages.json: label, year and outcome of every write-up, for the atlas and the key web
+    meta = [dict(slug=p['slug'], label=plain(p['label']), title=plain(p['title']), y=p['y'], st=p['st'], stt=plain(p['stt']))
+            for p in PAGES if p['slug'] not in SURVEYS]
+    (HERE / 'pages.json').write_text(json.dumps(meta, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print('built', ', '.join(done))
 IMAGES['poupet1522'] = ('poupet1522_lead.jpg', 'Passage A in cipher and in the 1522 decipherment: <em>Combien que je vouldroie mectre mon ame en gaige</em>', 'Biblioteca Nacional de Espa&ntilde;a, via DECODE R1187')
 IMAGES['santacroce1552'] = ('santacroce1552_lead.jpg', 'ASV Francia 3 f. 248r (DECODE R9), Paris, 14 December 1553: three cipher lines struck through, the same postscript written in clear beneath', 'Archivio Apostolico Vaticano, via DECODE R9')

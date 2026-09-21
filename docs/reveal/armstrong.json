@@ -1,0 +1,242 @@
+{
+ "slug": "armstrong",
+ "title": "The postscript, 30 August 1808",
+ "caption": "The 49-group coded postscript to Armstrong's private letter to Madison, Library of Congress, James Madison Papers, reel 10.",
+ "unit": "code groups",
+ "tokens": [
+  {
+   "g": "1394",
+   "p": "ru"
+  },
+  {
+   "g": "1116",
+   "p": "s"
+  },
+  {
+   "g": "1273",
+   "p": "el",
+   "cls": "unc"
+  },
+  {
+   "g": "250",
+   "p": "ought",
+   "cls": "unc"
+  },
+  {
+   "g": "1165",
+   "p": "to"
+  },
+  {
+   "g": "1405",
+   "p": "be"
+  },
+  {
+   "g": "972",
+   "p": "the"
+  },
+  {
+   "g": "148",
+   "p": "consul",
+   "cls": "unc"
+  },
+  {
+   "g": "1459",
+   "p": "he"
+  },
+  {
+   "g": "1482",
+   "p": "is"
+  },
+  {
+   "g": "1201",
+   "p": "a"
+  },
+  {
+   "g": "821",
+   "p": "n"
+  },
+  {
+   "g": "130",
+   "p": "America",
+   "cls": "unc"
+  },
+  {
+   "g": "821",
+   "p": "n"
+  },
+  {
+   "g": "1429",
+   "p": "by"
+  },
+  {
+   "g": "720",
+   "p": "bir",
+   "cls": "unc"
+  },
+  {
+   "g": "970",
+   "p": "th"
+  },
+  {
+   "g": "",
+   "p": "and",
+   "cls": "plain"
+  },
+  {
+   "g": "1482",
+   "p": "is"
+  },
+  {
+   "g": "",
+   "p": "much better",
+   "cls": "plain"
+  },
+  {
+   "g": "992",
+   "p": "qua",
+   "cls": "unc"
+  },
+  {
+   "g": "1319",
+   "p": "li"
+  },
+  {
+   "g": "1048",
+   "p": "fi(ed)",
+   "cls": "unc"
+  },
+  {
+   "g": "584",
+   "p": "than"
+  },
+  {
+   "g": "687",
+   "p": "any"
+  },
+  {
+   "g": "249",
+   "p": "other"
+  },
+  {
+   "g": "736",
+   "p": "can"
+  },
+  {
+   "g": "1013",
+   "p": "di"
+  },
+  {
+   "g": "750",
+   "p": "da"
+  },
+  {
+   "g": "967",
+   "p": "te"
+  },
+  {
+   "g": "",
+   "p": "In a word",
+   "cls": "plain"
+  },
+  {
+   "g": "1459",
+   "p": "he"
+  },
+  {
+   "g": "1482",
+   "p": "is"
+  },
+  {
+   "g": "1202",
+   "p": "above",
+   "cls": "unc"
+  },
+  {
+   "g": "1561",
+   "p": "men"
+  },
+  {
+   "g": "",
+   "p": "in general. Next to",
+   "cls": "plain"
+  },
+  {
+   "g": "927",
+   "p": "him"
+  },
+  {
+   "g": "1090",
+   "p": "in"
+  },
+  {
+   "g": "1052",
+   "p": "fit",
+   "cls": "unc"
+  },
+  {
+   "g": "832",
+   "p": "ness"
+  },
+  {
+   "g": "1482",
+   "p": "is"
+  },
+  {
+   "g": "934",
+   "p": "o"
+  },
+  {
+   "g": "510",
+   "p": "mea"
+  },
+  {
+   "g": "860",
+   "p": "ly"
+  },
+  {
+   "g": "",
+   "p": "but",
+   "cls": "plain"
+  },
+  {
+   "g": "1459",
+   "p": "he"
+  },
+  {
+   "g": "1482",
+   "p": "is"
+  },
+  {
+   "g": "1320",
+   "p": "like"
+  },
+  {
+   "g": "384",
+   "p": "ward",
+   "cls": "unc"
+  },
+  {
+   "g": "1280",
+   "p": "en"
+  },
+  {
+   "g": "1216",
+   "p": "an"
+  },
+  {
+   "g": "1481",
+   "p": "ir"
+  },
+  {
+   "g": "1483",
+   "p": "ish",
+   "cls": "unc"
+  },
+  {
+   "g": "555",
+   "p": "man",
+   "cls": "unc"
+  }
+ ],
+ "key_note": "The THE=972 code, about 580 of its 1,600 groups rebuilt from State Department pencil decodes (NARA M34 roll 13) and a known-plaintext letter of 4 May 1806."
+}

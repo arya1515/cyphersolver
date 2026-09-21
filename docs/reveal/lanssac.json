@@ -1,0 +1,243 @@
+{
+ "slug": "lanssac",
+ "title": "Warsaw, 26 April 1573: “pour le moins esté retenu”",
+ "caption": "The second cipher passage of Lanssac's letter to Charles IX from Poland, BnF fr. 4735 f. 124, set in its clear-text sentence.",
+ "unit": "signs",
+ "tokens": [
+  {
+   "g": "",
+   "p": "… j'eusse sans doubte ",
+   "cls": "plain"
+  },
+  {
+   "g": "pour",
+   "p": "pour"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ol",
+   "p": "l"
+  },
+  {
+   "g": "X",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "8",
+   "p": "m"
+  },
+  {
+   "g": "c",
+   "p": "o"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "nn",
+   "p": "n"
+  },
+  {
+   "g": "g",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ast",
+   "p": "e"
+  },
+  {
+   "g": "st",
+   "p": "st"
+  },
+  {
+   "g": "G",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "phi",
+   "p": "r"
+  },
+  {
+   "g": "X",
+   "p": "e"
+  },
+  {
+   "g": "3",
+   "p": "t",
+   "cls": "unc"
+  },
+  {
+   "g": "ast",
+   "p": "e"
+  },
+  {
+   "g": "s",
+   "p": "n"
+  },
+  {
+   "g": "ot",
+   "p": "u"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "de4",
+   "p": "ou",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "G",
+   "p": "e"
+  },
+  {
+   "g": "ll",
+   "p": "m"
+  },
+  {
+   "g": "Y",
+   "p": "p"
+  },
+  {
+   "g": "X",
+   "p": "e"
+  },
+  {
+   "g": "g",
+   "p": "s"
+  },
+  {
+   "g": "7",
+   "p": "c"
+  },
+  {
+   "g": "h",
+   "p": "h"
+  },
+  {
+   "g": "ast",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "4h",
+   "p": "de"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "Y",
+   "p": "p"
+  },
+  {
+   "g": "pi",
+   "p": "a"
+  },
+  {
+   "g": "g",
+   "p": "s"
+  },
+  {
+   "g": "Lo",
+   "p": "s"
+  },
+  {
+   "g": "X",
+   "p": "e"
+  },
+  {
+   "g": "phi",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "c",
+   "p": "o"
+  },
+  {
+   "g": "ff",
+   "p": "u"
+  },
+  {
+   "g": "3",
+   "p": "l"
+  },
+  {
+   "g": "sh",
+   "p": "t"
+  },
+  {
+   "g": "F",
+   "p": "r"
+  },
+  {
+   "g": "G",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ll",
+   "p": "m"
+  },
+  {
+   "g": "pi",
+   "p": "a"
+  },
+  {
+   "g": "qq",
+   "p": "i"
+  },
+  {
+   "g": "Lo",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": ", la grace à Dieu, je me suis rendu …",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "Invented signs for letters, a few syllables and words (pour, st, de, ou); the key was fixed from a decipherer's gloss on this passage and a glossed sibling, f. 154v. Word spacing is editorial; the sign read t in retenu is transcribed as the conflated 3, and ou may be et."
+}

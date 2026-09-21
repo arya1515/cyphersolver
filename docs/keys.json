@@ -1,0 +1,894 @@
+{
+ "keys": [
+  {
+   "id": "k-balbases",
+   "label": "Balbases key (SEG 2559)",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1677,
+   "note": "Rebuilt from the ten margined letters of Balbases, then read the rest of the series unchanged."
+  },
+  {
+   "id": "k-r1892",
+   "label": "Orange 6x6 digit-pair square",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1795,
+   "note": "Broken ciphertext-only on R1892, then read R2242 unchanged."
+  },
+  {
+   "id": "k-r1024",
+   "label": "DECODE R1024 Grand Chiffre",
+   "kind": "DECODE key record",
+   "by": "William V's chancery",
+   "year": 1782,
+   "note": "The 1782 Grand Chiffre of William V, filed on DECODE."
+  },
+  {
+   "id": "k-r639",
+   "label": "DECODE R639 (Bonac et Graffei)",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": null,
+   "note": "Preserved Rakoczi-circle key among the NAH G15 records."
+  },
+  {
+   "id": "k-r580",
+   "label": "DECODE R580 Pápai key",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": null,
+   "note": "The envoy's own numeric key, never linked to his letters on DECODE."
+  },
+  {
+   "id": "k-r1038",
+   "label": "DECODE R1038 Croiset key",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1765,
+   "note": "Croiset's 1765 key."
+  },
+  {
+   "id": "k-r2233",
+   "label": "DECODE R2233",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1801,
+   "note": "Wolff/Wilhelmina key, the record after the letter."
+  },
+  {
+   "id": "k-r2235",
+   "label": "DECODE R2235 five-alphabet key",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1796,
+   "note": "Five alphabets, changing every line."
+  },
+  {
+   "id": "k-r2118",
+   "label": "DECODE R2118",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1620,
+   "note": "Key filed in the same DECODE series as Haga's letters."
+  },
+  {
+   "id": "k-r2237",
+   "label": "DECODE R2237 word list",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1795,
+   "note": "Orange word-list code; the table was rebuilt from R2237."
+  },
+  {
+   "id": "k-r367",
+   "label": "DECODE R367",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1548,
+   "note": "Key filed at the same shelfmark as the letter."
+  },
+  {
+   "id": "k-r5017",
+   "label": "DECODE R5017/R5018 Windischgrätz keys",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1720,
+   "note": "Two keys named on the DECODE record; each reads different letters."
+  },
+  {
+   "id": "k-mirka",
+   "label": "Mírka's key on R5029",
+   "kind": "scholar's key",
+   "by": "Mírka",
+   "year": 1721,
+   "note": "Key sheet attached to the record as a spreadsheet."
+  },
+  {
+   "id": "k-r725",
+   "label": "DECODE R725",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1623,
+   "note": "Key of the SP 106/10 codebreaker's file."
+  },
+  {
+   "id": "k-lasry-sp106-5",
+   "label": "Lasry's SP 106/5 King–Queen key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1645,
+   "note": "Lasry's reconstruction of the Charles I–Henrietta Maria cipher."
+  },
+  {
+   "id": "k-lasry-spagna6",
+   "label": "Lasry's Spagna 6 nunciature key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1568,
+   "note": "Polyphonic key, one digit standing for two letters."
+  },
+  {
+   "id": "k-lasry-ceva",
+   "label": "Lasry's Barberini–Ceva key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1632,
+   "note": "Reconstructed 24 Oct 2020, on the DECODE records."
+  },
+  {
+   "id": "k-lasry-dandini",
+   "label": "Lasry's key D3190 (R72)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1580,
+   "note": "Letter key permuted inside Lasry's frame."
+  },
+  {
+   "id": "k-lasry-sauli",
+   "label": "Lasry's Portugal nunciature key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1579,
+   "note": "Checked against contemporary decipherments."
+  },
+  {
+   "id": "k-lasry-lucini",
+   "label": "Lasry's key (R121)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1767,
+   "note": "Filed for R121, read R120 too."
+  },
+  {
+   "id": "k-lasry-acciaiuoli",
+   "label": "Lasry's key D3232",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1758,
+   "note": "Lisbon nunciature key."
+  },
+  {
+   "id": "k-lasry-1718",
+   "label": "Lasry's Spagna 1718 key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1718,
+   "note": "268-entry nomenclator."
+  },
+  {
+   "id": "k-lasry-1736",
+   "label": "Lasry's Spagna 423 key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1736,
+   "note": "Key without its nomenclator."
+  },
+  {
+   "id": "k-lasry-santacroce",
+   "label": "Lasry's Santa Croce key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1552,
+   "note": "Applied to the 2016 DECODE transcriptions."
+  },
+  {
+   "id": "k-lasry-gl",
+   "label": "Lasry's French keys (Cryptiana GL.htm)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1529,
+   "note": "Tables from 2022-23 on Tomokiyo's GL.htm page."
+  },
+  {
+   "id": "k-lasry-esp318",
+   "label": "Lasry's Esp 318 key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1500,
+   "note": "Applied by machine to no. 95."
+  },
+  {
+   "id": "k-lasry-bergamo",
+   "label": "Lasry's key (Bergamo)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 1585,
+   "note": "Nunciature key with some codes missing."
+  },
+  {
+   "id": "k-meister",
+   "label": "Meister's nunciature key",
+   "kind": "scholar's key",
+   "by": "A. Meister",
+   "year": 1588,
+   "note": "On the DECODE record, used with a language-model segmenter."
+  },
+  {
+   "id": "k-bb6956",
+   "label": "Biermann–Bosbach Barb. Lat. 6956 key",
+   "kind": "scholar's key",
+   "by": "Biermann & Bosbach",
+   "year": 1629,
+   "note": "Recovered 2018; Lasry: same key as Barb. Lat. 6960."
+  },
+  {
+   "id": "k-tomokiyo-1522",
+   "label": "Tomokiyo's Sánchez/Manuel 1522 key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1522,
+   "note": "Published Sept 2025."
+  },
+  {
+   "id": "k-tomokiyo-r10024",
+   "label": "Tomokiyo's R10024 key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1516,
+   "note": "Rebuilt from a 19th-century decipherment."
+  },
+  {
+   "id": "k-tomokiyo-norris",
+   "label": "Tomokiyo's Cecil–Norris table",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1567,
+   "note": "Partial table from Cabala."
+  },
+  {
+   "id": "k-tomokiyo-rennes",
+   "label": "Tomokiyo's Bishop of Rennes key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1563,
+   "note": "Reconstructed key image CharlesIX_Rennes."
+  },
+  {
+   "id": "k-tomokiyo-pelissier",
+   "label": "Tomokiyo's Pelissier key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1592,
+   "note": "Rebuilt from nos. 45/46."
+  },
+  {
+   "id": "k-tomokiyo-segur",
+   "label": "Tomokiyo's f. 321 key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1586,
+   "note": "Henry of Navarre's cipher."
+  },
+  {
+   "id": "k-tomokiyo-1529",
+   "label": "Tomokiyo's 1529 key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1529,
+   "note": "Francis I cipher table."
+  },
+  {
+   "id": "k-tomokiyo-clair",
+   "label": "Tomokiyo's Henri III table",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": 1586,
+   "note": "Table henryiii_Anonymous."
+  },
+  {
+   "id": "k-somogyi2016",
+   "label": "Somogyi's 1489 key",
+   "kind": "scholar's key",
+   "by": "Judit W. Somogyi",
+   "year": 2016,
+   "note": "Numeric key, re-anchored to signs here."
+  },
+  {
+   "id": "k-somogyi2025",
+   "label": "Somogyi's 2025 decipherments",
+   "kind": "scholar's key",
+   "by": "W. Somogyi",
+   "year": 2025,
+   "note": "Two printed decipherments used as cribs."
+  },
+  {
+   "id": "k-sessa",
+   "label": "Sessa 1523-25 key",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1524,
+   "note": "Built from the sessa1524 siblings' clears; shared groups tie the 1523 letters to it."
+  },
+  {
+   "id": "k-lope1523",
+   "label": "Lope Hurtado R9846 clear",
+   "kind": "contemporary key",
+   "by": "",
+   "year": 1523,
+   "note": "Bound clear copy f. 133r used as crib."
+  },
+  {
+   "id": "k-vich",
+   "label": "Vich N.46/N.52BIS key",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1511,
+   "note": "Built on two letters, then read three it was not built on."
+  },
+  {
+   "id": "k-lyonet",
+   "label": "Lyonet's decipherments",
+   "kind": "contemporary key",
+   "by": "Pieter Lyonet",
+   "year": 1757,
+   "note": "Imaged as 'clear pages' on DECODE."
+  },
+  {
+   "id": "k-r936",
+   "label": "DECODE R936 (1761 Saxon key)",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1761,
+   "note": "Its vocabulary was the annealing target."
+  },
+  {
+   "id": "k-kurtz",
+   "label": "R3811 glosses",
+   "kind": "contemporary key",
+   "by": "",
+   "year": 1639,
+   "note": "Syllable-table key from interlinear glosses."
+  },
+  {
+   "id": "k-cobham",
+   "label": "Harley 287 glosses",
+   "kind": "contemporary key",
+   "by": "",
+   "year": 1588,
+   "note": "Key rebuilt from glossed sibling letters in the volume."
+  }
+ ],
+ "links": [
+  {
+   "key": "k-balbases",
+   "target": "balbases1677",
+   "how": "rebuilt from",
+   "note": "ten margined letters"
+  },
+  {
+   "key": "k-balbases",
+   "target": "hernannunez1674",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-balbases",
+   "target": "ronquillo1676",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r1892",
+   "target": "r1892",
+   "how": "rebuilt from",
+   "note": "ciphertext-only annealing"
+  },
+  {
+   "key": "k-r1892",
+   "target": "r2242",
+   "how": "read unchanged",
+   "note": "same key, in part"
+  },
+  {
+   "key": "k-r1024",
+   "target": "vanreede1787",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r1024",
+   "target": "vanreede1792",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r639",
+   "target": "rakoczi1704",
+   "how": "read unchanged",
+   "note": "R912, R922 at about 97%"
+  },
+  {
+   "key": "k-r639",
+   "target": "rakoczi1707",
+   "how": "read unchanged",
+   "note": "fits 92% of groups"
+  },
+  {
+   "key": "k-r580",
+   "target": "papai1706",
+   "how": "read unchanged",
+   "note": "seven of eight letters"
+  },
+  {
+   "key": "k-r1038",
+   "target": "deswart1782",
+   "how": "read unchanged",
+   "note": "96.7% of groups"
+  },
+  {
+   "key": "k-r2233",
+   "target": "r2232",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r2235",
+   "target": "r2234",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r2118",
+   "target": "haga1620",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r2237",
+   "target": "hereditary1796",
+   "how": "rebuilt from",
+   "note": "R2237 table plus context"
+  },
+  {
+   "key": "k-r367",
+   "target": "malvezzi1548",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-r5017",
+   "target": "windischgraetz1720",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-mirka",
+   "target": "windischgraetz1721",
+   "how": "partial",
+   "note": "23 codes open"
+  },
+  {
+   "key": "k-r725",
+   "target": "sp106box10",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-sp106-5",
+   "target": "rupert1645",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-sp106-5",
+   "target": "hm1645",
+   "how": "read unchanged",
+   "note": "Lasry's own DECODE readings"
+  },
+  {
+   "key": "k-lasry-spagna6",
+   "target": "alessandrino1568",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-spagna6",
+   "target": "nuncio1566",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-ceva",
+   "target": "ceva1632",
+   "how": "read unchanged",
+   "note": "the two letters he skipped"
+  },
+  {
+   "key": "k-lasry-dandini",
+   "target": "dandini1580",
+   "how": "adapted",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-sauli",
+   "target": "sauli1579",
+   "how": "read unchanged",
+   "note": "5 code words added"
+  },
+  {
+   "key": "k-lasry-lucini",
+   "target": "lucini1767",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-acciaiuoli",
+   "target": "acciaiuoli1757",
+   "how": "adapted",
+   "note": "25 codes added"
+  },
+  {
+   "key": "k-lasry-1718",
+   "target": "nunzio1718",
+   "how": "adapted",
+   "note": "gaps filled"
+  },
+  {
+   "key": "k-lasry-1736",
+   "target": "nunzio1736",
+   "how": "adapted",
+   "note": "nomenclator recovered by context"
+  },
+  {
+   "key": "k-lasry-santacroce",
+   "target": "santacroce1552",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "gramont1529",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "rome1536",
+   "how": "read unchanged",
+   "note": "Mâcon table"
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "sormano1529",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "vasto1527",
+   "how": "read unchanged",
+   "note": "solved by Lasry 2023"
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "charlesixducroc",
+   "how": "partial",
+   "note": "Lasry's overlay"
+  },
+  {
+   "key": "k-lasry-esp318",
+   "target": "esp318",
+   "how": "partial",
+   "note": "no. 95 in stretches"
+  },
+  {
+   "key": "k-lasry-bergamo",
+   "target": "bergamo1585",
+   "how": "partial",
+   "note": ""
+  },
+  {
+   "key": "k-meister",
+   "target": "morosini1588",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-bb6956",
+   "target": "pallotto1629",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-tomokiyo-1522",
+   "target": "sanchez1522",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-tomokiyo-1522",
+   "target": "sanchez1523",
+   "how": "read unchanged",
+   "note": "code unchanged from 1522"
+  },
+  {
+   "key": "k-tomokiyo-r10024",
+   "target": "ayala1516",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-tomokiyo-norris",
+   "target": "norreys1567",
+   "how": "partial",
+   "note": ""
+  },
+  {
+   "key": "k-tomokiyo-rennes",
+   "target": "rennes1563",
+   "how": "adapted",
+   "note": "calibrated on this scribe"
+  },
+  {
+   "key": "k-tomokiyo-pelissier",
+   "target": "pelissier1592",
+   "how": "adapted",
+   "note": "calibrated on siblings"
+  },
+  {
+   "key": "k-tomokiyo-segur",
+   "target": "segur",
+   "how": "read unchanged",
+   "note": "f. 333"
+  },
+  {
+   "key": "k-tomokiyo-1529",
+   "target": "raince",
+   "how": "read unchanged",
+   "note": "after an off-by-one fix"
+  },
+  {
+   "key": "k-tomokiyo-clair",
+   "target": "clair357",
+   "how": "adapted",
+   "note": "87 = e added"
+  },
+  {
+   "key": "k-somogyi2016",
+   "target": "buda1489",
+   "how": "adapted",
+   "note": ""
+  },
+  {
+   "key": "k-somogyi2025",
+   "target": "caprile1519",
+   "how": "rebuilt from",
+   "note": "EM key from cribs"
+  },
+  {
+   "key": "k-sessa",
+   "target": "sessa1524",
+   "how": "rebuilt from",
+   "note": ""
+  },
+  {
+   "key": "k-sessa",
+   "target": "sessa1523",
+   "how": "read unchanged",
+   "note": "pass-15 key"
+  },
+  {
+   "key": "k-lope1523",
+   "target": "lopehurtado1523",
+   "how": "rebuilt from",
+   "note": ""
+  },
+  {
+   "key": "k-vich",
+   "target": "vich1511",
+   "how": "rebuilt from",
+   "note": ""
+  },
+  {
+   "key": "k-lyonet",
+   "target": "affry1757",
+   "how": "rebuilt from",
+   "note": ""
+  },
+  {
+   "key": "k-r936",
+   "target": "kauderbach1754",
+   "how": "adapted",
+   "note": "one-to-one annealing"
+  },
+  {
+   "key": "k-kurtz",
+   "target": "kurtz1639",
+   "how": "rebuilt from",
+   "note": ""
+  },
+  {
+   "key": "k-cobham",
+   "target": "cobham1588",
+   "how": "rebuilt from",
+   "note": "read in part"
+  },
+  {
+   "key": "k-cobham",
+   "target": "harley287",
+   "how": "rebuilt from",
+   "note": ""
+  }
+ ],
+ "sources": [
+  {
+   "id": "s-lasry",
+   "label": "George Lasry"
+  },
+  {
+   "id": "s-tomokiyo",
+   "label": "Satoshi Tomokiyo"
+  },
+  {
+   "id": "s-somogyi",
+   "label": "Judit W. Somogyi"
+  },
+  {
+   "id": "s-decode",
+   "label": "DECODE database"
+  }
+ ],
+ "source_links": [
+  {
+   "source": "s-decode",
+   "key": "k-r1024"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r639"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r580"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r1038"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r2233"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r2235"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r2118"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r2237"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r367"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r5017"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r725"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-sp106-5"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-spagna6"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-ceva"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-dandini"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-sauli"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-lucini"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-acciaiuoli"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-1718"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-1736"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-santacroce"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-gl"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-esp318"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-bergamo"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-1522"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-r10024"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-norris"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-rennes"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-pelissier"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-segur"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-1529"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-clair"
+  },
+  {
+   "source": "s-somogyi",
+   "key": "k-somogyi2016"
+  },
+  {
+   "source": "s-somogyi",
+   "key": "k-somogyi2025"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r936"
+  }
+ ]
+}

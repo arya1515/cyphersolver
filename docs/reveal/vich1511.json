@@ -1,0 +1,1134 @@
+{
+ "slug": "vich1511",
+ "title": "Burgos, 5 June 1512: “echar la soga tras el caldero”",
+ "caption": "Six cipher lines (23–28) of Ferdinand the Catholic's letter to his ambassador in Rome, Jerónimo de Vich, after Ravenna, AHN Estado 8715 N.57 (Archivo Histórico Nacional, Madrid).",
+ "unit": "signs and code groups",
+ "tokens": [
+  {
+   "g": "raf",
+   "p": "por",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "dij",
+   "p": "cierto",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "die",
+   "p": "cosa",
+   "cls": "code"
+  },
+  {
+   "g": "eh",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "diz",
+   "p": "de",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hib",
+   "p": "guerra",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "mee",
+   "p": "muy",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "P",
+   "p": "p"
+  },
+  {
+   "g": "fak",
+   "p": "el",
+   "cls": "code"
+  },
+  {
+   "g": "e",
+   "p": "i"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "T",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pih",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hoe",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "has",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fim",
+   "p": "esta",
+   "cls": "code"
+  },
+  {
+   "g": "W",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "to",
+   "p": "a"
+  },
+  {
+   "g": "B",
+   "p": "b"
+  },
+  {
+   "g": "seh",
+   "p": "se",
+   "cls": "code"
+  },
+  {
+   "g": "W",
+   "p": "n"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fir",
+   "p": "del",
+   "cls": "code"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pob",
+   "p": "si",
+   "cls": "code"
+  },
+  {
+   "g": "fan",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "P",
+   "p": "p"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "4h",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "seh",
+   "p": "se",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hih",
+   "p": "ha",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "diz",
+   "p": "de",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "3",
+   "p": "e"
+  },
+  {
+   "g": "plart",
+   "p": "mi",
+   "cls": "code"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "e",
+   "p": "i"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "has",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "eh",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "suk",
+   "p": "tiene",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "P",
+   "p": "p"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "fan",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "g",
+   "p": "t"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "g",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "phi",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "gil",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "&",
+   "p": "y",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "sal",
+   "p": "todo",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "T",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "oo",
+   "p": "d"
+  },
+  {
+   "g": "e",
+   "p": "i"
+  },
+  {
+   "g": "o",
+   "p": "g"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "rif",
+   "p": "porque",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "oo",
+   "p": "d"
+  },
+  {
+   "g": "gaf",
+   "p": "aqui",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "fur",
+   "p": "dela",
+   "cls": "code"
+  },
+  {
+   "g": "W",
+   "p": "n"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "4h",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "plort",
+   "p": "al",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "4h",
+   "p": "e"
+  },
+  {
+   "g": "8",
+   "p": "y"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "moe",
+   "p": "mucho",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fan",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "mik",
+   "p": "no",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "b",
+   "p": "a"
+  },
+  {
+   "g": "o",
+   "p": "g"
+  },
+  {
+   "g": "4h",
+   "p": "e"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fan",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "plort",
+   "p": "al",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "8",
+   "p": "y"
+  },
+  {
+   "g": "3",
+   "p": "e"
+  },
+  {
+   "g": "7o",
+   "p": "ll"
+  },
+  {
+   "g": "T",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "sod",
+   "p": "ser",
+   "cls": "code"
+  },
+  {
+   "g": "suy",
+   "p": "ia",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "4h",
+   "p": "e"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "heh",
+   "p": "ha",
+   "cls": "code"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "o",
+   "p": "g"
+  },
+  {
+   "g": "to",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "to",
+   "p": "a"
+  },
+  {
+   "g": "eh",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fak",
+   "p": "el",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "plort",
+   "p": "al",
+   "cls": "code"
+  },
+  {
+   "g": "diz",
+   "p": "de",
+   "cls": "code"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "has",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fan",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "g",
+   "p": "t"
+  },
+  {
+   "g": "3",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "b",
+   "p": "a"
+  },
+  {
+   "g": "eh",
+   "p": "s"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fur",
+   "p": "dela",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "hib",
+   "p": "guerra",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "X",
+   "p": "t"
+  },
+  {
+   "g": "T",
+   "p": "o"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "b",
+   "p": "a"
+  },
+  {
+   "g": "B",
+   "p": "b"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fep",
+   "p": "hazer",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "V",
+   "p": "v"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "d",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "sab",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fem",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "P",
+   "p": "p"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "ah",
+   "p": "o"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "V",
+   "p": "v"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "b",
+   "p": "a"
+  },
+  {
+   "g": "40",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "pef",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fak",
+   "p": "el",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "mix",
+   "p": "papa",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "8",
+   "p": "y"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "sap",
+   "p": "venecianos",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ch",
+   "p": "c"
+  },
+  {
+   "g": "sus",
+   "p": "um",
+   "cls": "code"
+  },
+  {
+   "g": "P",
+   "p": "p"
+  },
+  {
+   "g": "hor",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "W",
+   "p": "n"
+  }
+ ],
+ "key_note": "Single signs are homophones for letters; three-letter groups (die, hib, mix, sap …) stand for syllables and words. The key was rebuilt from sibling letters with their contemporary decipherments; word division is editorial."
+}

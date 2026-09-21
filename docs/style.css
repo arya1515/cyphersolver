@@ -519,3 +519,44 @@ html.sopen{overflow:hidden}
   .sbox{max-height:calc(100vh - 1.2rem);max-height:calc(100dvh - 1.2rem)}
   .shint span:not(.sn){display:none}
 }
+
+/* ---------------------------------------------------------------- cipher reveal (cipher-reveal.js) */
+.creveal{text-align:left;margin:2rem 0;padding:1.2rem 1.3rem 1rem;border:1px solid var(--rule);border-radius:var(--radius);
+  background:radial-gradient(600px 200px at 10% 0%,var(--glow1),transparent 70%),var(--panel);box-shadow:var(--shadow);min-height:12rem}
+.creveal .cr-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap}
+.creveal h3{margin:.15rem 0 0;font-family:var(--display);font-size:1.2rem;color:var(--head)}
+.cr-kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.cr-ctl{display:flex;gap:.4rem}
+.cr-ctl button{font:500 .74rem var(--mono);padding:.35rem .7rem;border-radius:999px;border:1px solid var(--rule);background:var(--bg);color:var(--ink2);cursor:pointer}
+.cr-ctl button:hover,.cr-ctl button[aria-pressed=true]{border-color:var(--gold);color:var(--gold2)}
+.cr-bar{height:2px;background:var(--rule);border-radius:2px;margin:.9rem 0 .2rem;overflow:hidden}
+.cr-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));box-shadow:0 0 12px var(--gold)}
+.cr-tiles{display:flex;flex-wrap:wrap;gap:.4rem .3rem;margin-top:.8rem;align-items:flex-end}
+.cr-t{transition:transform .25s,background .2s,border-color .2s,opacity .2s}
+.cr-t[tabindex]{cursor:pointer}
+.cr-t .p{min-height:1.2em}
+.cr-t:not(.done):not(.plain) .p{color:var(--muted);font-family:var(--mono);font-style:normal;font-size:.8rem}
+.cr-t.done:not(.plain){animation:crpop .5s ease-out}
+@keyframes crpop{0%{box-shadow:0 0 0 0 var(--gold);transform:translateY(-2px)}100%{box-shadow:0 0 0 7px transparent;transform:none}}
+.cr-t.null .p{color:var(--muted)}
+.creveal.tracing .cr-t:not(.hl):not(.hom){opacity:.32}
+.cr-t.hl{background:var(--gold);border-color:var(--gold);transform:translateY(-3px)}
+.cr-t.hl .p,.cr-t.hl .g{color:var(--gold-ink)!important}
+.cr-t.hom{border-color:var(--violet);background:var(--violet-bg);transform:translateY(-2px)}
+.cr-t.hom .p{color:var(--violet)!important}
+.creveal.cipher .cr-t:not(.plain) .p{visibility:hidden}
+.creveal.cipher .cr-t:not(.plain) .g{font-size:.85rem;color:var(--ink)}
+.cr-info{font-family:var(--mono);font-size:.76rem;color:var(--muted);margin:.9rem 0 .3rem;min-height:1.3em}
+.cr-info .cr-g{color:var(--gold2)} .cr-info .cr-p{color:var(--head);font-family:var(--display);font-style:italic;font-size:.95rem} .cr-homs{color:var(--violet)}
+.cr-key summary{cursor:pointer;font-family:var(--mono);font-size:.74rem;color:var(--ink2);letter-spacing:.04em;padding:.3rem 0}
+.cr-key summary span{color:var(--muted);margin-left:.4rem}
+.cr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(6.5rem,1fr));gap:.25rem;margin:.5rem 0;max-height:18rem;overflow:auto;padding-right:.3rem}
+.cr-k{display:flex;align-items:baseline;gap:.4rem;padding:.2rem .45rem;border-radius:6px;border:1px solid var(--rule);background:var(--bg);color:var(--ink2);font:inherit;cursor:pointer;text-align:left;min-width:0}
+.cr-k b{font:600 .72rem var(--mono);color:var(--muted)} .cr-k i{font-family:var(--display);color:var(--gold2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cr-k small{margin-left:auto;font:.62rem var(--mono);color:var(--muted)}
+.cr-k.hl{background:var(--gold);border-color:var(--gold)} .cr-k.hl b,.cr-k.hl i,.cr-k.hl small{color:var(--gold-ink)}
+.cr-k.hom{border-color:var(--violet);background:var(--violet-bg)}
+.cr-k.unk i,.cr-t.unk .p{color:var(--red)} .cr-t.unc .p{color:var(--amber)} .cr-t.code .p,.cr-k.code i{color:var(--blue)}
+.cr-note{font-size:.85rem;color:var(--muted);margin:.3rem 0}
+.creveal figcaption{font-size:.85rem;color:var(--muted);margin-top:.6rem;border-top:1px solid var(--rule);padding-top:.6rem}
+@media (max-width:600px){.creveal{padding:1rem .8rem}.cr-grid{grid-template-columns:repeat(auto-fill,minmax(5.5rem,1fr))}}

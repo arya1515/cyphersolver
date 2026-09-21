@@ -1,0 +1,2878 @@
+{
+ "places": {
+  "Amsterdam": [
+   52.37,
+   4.9
+  ],
+  "Arles": [
+   43.68,
+   4.63
+  ],
+  "Augsburg": [
+   48.37,
+   10.9
+  ],
+  "Avignon": [
+   43.95,
+   4.81
+  ],
+  "Berlin": [
+   52.52,
+   13.4
+  ],
+  "Blois": [
+   47.59,
+   1.33
+  ],
+  "Bourbon-l'Archambault": [
+   46.58,
+   3.06
+  ],
+  "Bremen": [
+   53.08,
+   8.8
+  ],
+  "Brussels": [
+   50.85,
+   4.35
+  ],
+  "Buda": [
+   47.5,
+   19.04
+  ],
+  "Burgos": [
+   42.34,
+   -3.7
+  ],
+  "Chartres": [
+   48.45,
+   1.49
+  ],
+  "Constantinople": [
+   41.01,
+   28.98
+  ],
+  "Copenhagen": [
+   55.68,
+   12.57
+  ],
+  "Dresden": [
+   51.05,
+   13.74
+  ],
+  "Düsseldorf": [
+   51.23,
+   6.78
+  ],
+  "Eger": [
+   47.9,
+   20.38
+  ],
+  "El Escorial": [
+   40.59,
+   -4.15
+  ],
+  "Ferrara": [
+   44.84,
+   11.62
+  ],
+  "Florence": [
+   43.77,
+   11.26
+  ],
+  "Hamburg": [
+   53.55,
+   9.99
+  ],
+  "Innsbruck": [
+   47.27,
+   11.39
+  ],
+  "Kassel": [
+   51.31,
+   9.48
+  ],
+  "Le Havre": [
+   49.49,
+   0.11
+  ],
+  "Lisbon": [
+   38.72,
+   -9.14
+  ],
+  "Logroño": [
+   42.47,
+   -2.45
+  ],
+  "London": [
+   51.51,
+   -0.13
+  ],
+  "Madrid": [
+   40.42,
+   -3.7
+  ],
+  "Mantes": [
+   48.99,
+   1.72
+  ],
+  "Marseille": [
+   43.3,
+   5.37
+  ],
+  "Messina": [
+   38.19,
+   15.55
+  ],
+  "Milan": [
+   45.46,
+   9.19
+  ],
+  "Mogilev": [
+   53.9,
+   30.33
+  ],
+  "Moulins": [
+   46.57,
+   3.33
+  ],
+  "Naples": [
+   40.85,
+   14.27
+  ],
+  "Narbonne": [
+   43.18,
+   3.0
+  ],
+  "Nijmegen": [
+   51.84,
+   5.86
+  ],
+  "Norham": [
+   55.72,
+   -2.16
+  ],
+  "Orvieto": [
+   42.72,
+   12.11
+  ],
+  "Ostend": [
+   51.23,
+   2.92
+  ],
+  "Ourscamp": [
+   49.54,
+   2.95
+  ],
+  "Oxford": [
+   51.75,
+   -1.26
+  ],
+  "Paris": [
+   48.86,
+   2.35
+  ],
+  "Pedrezuela": [
+   40.74,
+   -3.61
+  ],
+  "Pignerol": [
+   44.89,
+   7.33
+  ],
+  "Poissy": [
+   48.93,
+   2.05
+  ],
+  "Pozsony": [
+   48.15,
+   17.11
+  ],
+  "Płock": [
+   52.55,
+   19.7
+  ],
+  "Rome": [
+   41.9,
+   12.5
+  ],
+  "Saint-Denis": [
+   48.94,
+   2.36
+  ],
+  "Saint-Germain-en-Laye": [
+   48.9,
+   2.09
+  ],
+  "Seville": [
+   37.39,
+   -5.98
+  ],
+  "Sluys": [
+   51.31,
+   3.39
+  ],
+  "St Petersburg": [
+   59.94,
+   30.31
+  ],
+  "Stockholm": [
+   59.33,
+   18.07
+  ],
+  "Suze": [
+   45.14,
+   7.05
+  ],
+  "Swatow": [
+   23.35,
+   116.68
+  ],
+  "The Hague": [
+   52.08,
+   4.3
+  ],
+  "Tokyo": [
+   35.68,
+   139.69
+  ],
+  "Toulouse": [
+   43.6,
+   1.44
+  ],
+  "Turin": [
+   45.07,
+   7.69
+  ],
+  "Tutbury": [
+   52.86,
+   -1.69
+  ],
+  "Urbino": [
+   43.73,
+   12.64
+  ],
+  "Valence": [
+   44.93,
+   4.89
+  ],
+  "Venice": [
+   45.44,
+   12.33
+  ],
+  "Versailles": [
+   48.8,
+   2.13
+  ],
+  "Vienna": [
+   48.21,
+   16.37
+  ],
+  "Warsaw": [
+   52.23,
+   21.01
+  ]
+ },
+ "letters": [
+  {
+   "slug": "florence1429",
+   "doc": "no171",
+   "year": 1425.5,
+   "date": "1424 (Florentine style), early 1425 n.s.",
+   "from": "Urbino",
+   "to": "Florence",
+   "st": "solved",
+   "label": "Ricasoli 1425"
+  },
+  {
+   "slug": "beatrice1482",
+   "doc": "R1140",
+   "year": 1482.38,
+   "date": "1482-05-31",
+   "from": "Pozsony",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Beatrice d’Aragona"
+  },
+  {
+   "slug": "beatrice1482",
+   "doc": "R1141",
+   "year": 1482.46,
+   "date": "1482-06-08",
+   "from": "Pozsony",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Beatrice d’Aragona"
+  },
+  {
+   "slug": "sadoleto1482",
+   "doc": "R1101",
+   "year": 1482.54,
+   "date": "15 Jul 1482",
+   "from": "Pozsony",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Sadoleto 1482"
+  },
+  {
+   "slug": "sadoleto1482",
+   "doc": "R1102",
+   "year": 1482.54,
+   "date": "16 Jul 1482",
+   "from": "Pozsony",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Sadoleto 1482"
+  },
+  {
+   "slug": "beatrice1482",
+   "doc": "R1142",
+   "year": 1486.21,
+   "date": "1486-03-08",
+   "from": "Buda",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Beatrice d’Aragona"
+  },
+  {
+   "slug": "beatrice1482",
+   "doc": "R1143",
+   "year": 1486.38,
+   "date": "1486-05-02",
+   "from": "Buda",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Beatrice d’Aragona"
+  },
+  {
+   "slug": "buda1489",
+   "doc": "V2831",
+   "year": 1489.88,
+   "date": "Bude xxij Novembris 1489",
+   "from": "Buda",
+   "to": "Milan",
+   "st": "solved",
+   "label": "Buda 1489"
+  },
+  {
+   "slug": "buda1489",
+   "doc": "R1098",
+   "year": 1490.04,
+   "date": "12 Jan 1490",
+   "from": "Buda",
+   "to": "Milan",
+   "st": "solved",
+   "label": "Buda 1489"
+  },
+  {
+   "slug": "buda1489",
+   "doc": "V267",
+   "year": 1490.29,
+   "date": "2 Apr 1490",
+   "from": "Buda",
+   "to": "Milan",
+   "st": "solved",
+   "label": "Buda 1489"
+  },
+  {
+   "slug": "beatrice1482",
+   "doc": "R1154",
+   "year": 1505.38,
+   "date": "1505-05-29",
+   "from": "Naples",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Beatrice d’Aragona"
+  },
+  {
+   "slug": "vich1511",
+   "doc": "N.45",
+   "year": 1511.29,
+   "date": "4 Apr 1511",
+   "from": "Seville",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Vich 1511–12"
+  },
+  {
+   "slug": "vich1511",
+   "doc": "N.57",
+   "year": 1512.46,
+   "date": "5 Jun 1512",
+   "from": "Burgos",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Vich 1511–12"
+  },
+  {
+   "slug": "vich1511",
+   "doc": "N.60",
+   "year": 1512.71,
+   "date": "1 Sep 1512",
+   "from": "Logroño",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Vich 1511–12"
+  },
+  {
+   "slug": "vich1511",
+   "doc": "N.73",
+   "year": 1515.79,
+   "date": "26 Oct 1515",
+   "from": "Pedrezuela",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Vich 1511–12"
+  },
+  {
+   "slug": "spinelly1516",
+   "doc": "R8416",
+   "year": 1517.12,
+   "date": "1517-02-01",
+   "from": "Brussels",
+   "to": "London",
+   "st": "solved",
+   "label": "Spinelly 1517"
+  },
+  {
+   "slug": "caprile1519",
+   "doc": "R1128",
+   "year": 1519.21,
+   "date": "9 Mar 1519",
+   "from": "Eger",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Caprile 1519–21"
+  },
+  {
+   "slug": "caprile1519",
+   "doc": "R1138",
+   "year": 1521.12,
+   "date": "16 Feb 1521",
+   "from": "Buda",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Caprile 1519–21"
+  },
+  {
+   "slug": "caprile1519",
+   "doc": "R1139",
+   "year": 1521.29,
+   "date": "6 Apr 1521",
+   "from": "Buda",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Caprile 1519–21"
+  },
+  {
+   "slug": "raince",
+   "doc": "residue1526",
+   "year": 1526.38,
+   "date": "13 May 1526; 20 Nov 1526",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Raince"
+  },
+  {
+   "slug": "gramont1529",
+   "doc": "langeac1529",
+   "year": 1529.04,
+   "date": "14 Jan [1529]",
+   "from": "Venice",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Gramont 1529–37"
+  },
+  {
+   "slug": "sormano1529",
+   "doc": "fr3096-63-65-66",
+   "year": 1529.12,
+   "date": "23-27 Feb 1529",
+   "from": "Ferrara",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Sormano"
+  },
+  {
+   "slug": "sormano",
+   "doc": "no65",
+   "year": 1529.12,
+   "date": "23 Feb 1529",
+   "from": "Ferrara",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Sormano 1529"
+  },
+  {
+   "slug": "sormano",
+   "doc": "no66",
+   "year": 1529.12,
+   "date": "23 Feb 1529",
+   "from": "Ferrara",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Sormano 1529"
+  },
+  {
+   "slug": "sormano",
+   "doc": "no63",
+   "year": 1529.12,
+   "date": "after 23 Feb 1529",
+   "from": "Ferrara",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Sormano 1529"
+  },
+  {
+   "slug": "gramont1529",
+   "doc": "gramont1529",
+   "year": 1529.79,
+   "date": "11 Oct [1529]",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Gramont 1529–37"
+  },
+  {
+   "slug": "gramont1529",
+   "doc": "gramont1530",
+   "year": 1530.54,
+   "date": "21 July [1530]",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Gramont 1529–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4248",
+   "year": 1536.5,
+   "date": "1536, no date on the crops",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4238",
+   "year": 1536.71,
+   "date": "Sept 1536",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4240",
+   "year": 1536.71,
+   "date": "2 Sept 1536",
+   "from": "Orvieto",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4247",
+   "year": 1536.71,
+   "date": "1 Sept 1536 (letter 2); letter 1 of the same days",
+   "from": "Orvieto",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4233",
+   "year": 1537.04,
+   "date": "26 Jan 1536 o.s. (= 1537)",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4234",
+   "year": 1537.12,
+   "date": "Feb 1536 o.s. (= 1537)",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4235",
+   "year": 1537.12,
+   "date": "15 Feb 1536 o.s. (= 1537)",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "gramont1529",
+   "doc": "macon1537",
+   "year": 1537.29,
+   "date": "11 Apr 1537",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Gramont 1529–37"
+  },
+  {
+   "slug": "rome1536",
+   "doc": "R4239",
+   "year": 1537.29,
+   "date": "6 Apr 1537",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Mâcon 1536–37"
+  },
+  {
+   "slug": "malvezzi1548",
+   "doc": "R366",
+   "year": 1548.5,
+   "date": "1548",
+   "from": "Augsburg",
+   "to": "Constantinople",
+   "st": "partial",
+   "label": "Ferdinand I to Malvezzi 1548"
+  },
+  {
+   "slug": "guiche1551",
+   "doc": "laguiche1551",
+   "year": 1551.88,
+   "date": "1551-11-22",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "La Guiche 1551"
+  },
+  {
+   "slug": "santacroce1552",
+   "doc": "R6",
+   "year": 1553.21,
+   "date": "26 Mar 1553",
+   "from": "Poissy",
+   "to": "Rome",
+   "st": "found",
+   "label": "Santa Croce 1553"
+  },
+  {
+   "slug": "santacroce1552",
+   "doc": "R7",
+   "year": 1553.29,
+   "date": "5 Apr 1553",
+   "from": "Poissy",
+   "to": "Rome",
+   "st": "found",
+   "label": "Santa Croce 1553"
+  },
+  {
+   "slug": "santacroce1552",
+   "doc": "R8",
+   "year": 1553.71,
+   "date": "28 Sep 1553",
+   "from": "Ourscamp",
+   "to": "Rome",
+   "st": "found",
+   "label": "Santa Croce 1553"
+  },
+  {
+   "slug": "santacroce1552",
+   "doc": "R9",
+   "year": 1553.96,
+   "date": "14 Dec 1553",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "found",
+   "label": "Santa Croce 1553"
+  },
+  {
+   "slug": "santacroce1552",
+   "doc": "R10",
+   "year": 1553.96,
+   "date": "23 Dec 1553",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "found",
+   "label": "Santa Croce 1553"
+  },
+  {
+   "slug": "guiche1551",
+   "doc": "noailles1558",
+   "year": 1558.88,
+   "date": "1558-11-13",
+   "from": "Venice",
+   "to": "Paris",
+   "st": "partial",
+   "label": "La Guiche 1551"
+  },
+  {
+   "slug": "percy1559",
+   "doc": "R9256",
+   "year": 1559.54,
+   "date": "23 Jul 1559",
+   "from": "Norham",
+   "to": "London",
+   "st": "stuck",
+   "label": "Percy to Cecil 1559"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "01",
+   "year": 1563.04,
+   "date": "17 Jan 1562/3",
+   "from": "Chartres",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "03",
+   "year": 1563.21,
+   "date": "7 Mar 1562/3",
+   "from": "Blois",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "04",
+   "year": 1563.21,
+   "date": "12 Mar 1562/3",
+   "from": "Blois",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "rennes1563",
+   "doc": "fr3181-f55",
+   "year": 1563.54,
+   "date": "31 July 1563",
+   "from": "Le Havre",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Rennes 1563"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "08",
+   "year": 1564.71,
+   "date": "1 Sep 1564",
+   "from": "Valence",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "09",
+   "year": 1564.71,
+   "date": "3 Sep 1564",
+   "from": "Valence",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "10",
+   "year": 1564.79,
+   "date": "4 Oct 1564",
+   "from": "Avignon",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "11",
+   "year": 1564.88,
+   "date": "13 Nov 1564",
+   "from": "Marseille",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "12",
+   "year": 1564.88,
+   "date": "20 Nov 1564",
+   "from": "Arles",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "13",
+   "year": 1564.88,
+   "date": "22 Nov 1564",
+   "from": "Arles",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "14",
+   "year": 1564.88,
+   "date": "24 Nov 1564",
+   "from": "Arles",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "15",
+   "year": 1565.04,
+   "date": "7 Jan 1564/5",
+   "from": "Narbonne",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "16",
+   "year": 1565.12,
+   "date": "9 Feb 1564/5",
+   "from": "Toulouse",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "toledo1565",
+   "doc": "duplicado",
+   "year": 1565.54,
+   "date": "16 Jul 1565",
+   "from": "Messina",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Toledo 1565"
+  },
+  {
+   "slug": "smith1562",
+   "doc": "17",
+   "year": 1566.21,
+   "date": "22 Mar 1565/6",
+   "from": "Bourbon-l'Archambault",
+   "to": "London",
+   "st": "found",
+   "label": "Smith 1563–66"
+  },
+  {
+   "slug": "norreys1567",
+   "doc": "siblings1567-68",
+   "year": 1567.46,
+   "date": "4 June 1567 - 24 Feb 1567/8",
+   "from": "Paris",
+   "to": "London",
+   "st": "partial",
+   "label": "Norreys 1567–68"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R85",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R86",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R87",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R88",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R89",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "nuncio1566",
+   "doc": "R90",
+   "year": 1567.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1567"
+  },
+  {
+   "slug": "norreys1567",
+   "doc": "9mar1568",
+   "year": 1568.21,
+   "date": "9 Mar 1567/8",
+   "from": "Paris",
+   "to": "London",
+   "st": "partial",
+   "label": "Norreys 1567–68"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R93",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R94",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R95",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R96",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R97",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R98",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R99",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R100",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R101",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R102",
+   "year": 1568.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "alessandrino1568",
+   "doc": "R115",
+   "year": 1569.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Alessandrino 1568"
+  },
+  {
+   "slug": "norfolk1570",
+   "doc": "f74r",
+   "year": 1570.12,
+   "date": "20th [Feb or Mar 1570]",
+   "from": "Tutbury",
+   "to": "London",
+   "st": "solved",
+   "label": "Mary to Norfolk"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f124",
+   "year": 1573.29,
+   "date": "26 Apr 1573",
+   "from": "Warsaw",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f174",
+   "year": 1573.38,
+   "date": "9 May 1573",
+   "from": "Płock",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "ormanetto1576",
+   "doc": "R118",
+   "year": 1576.5,
+   "date": "unknown",
+   "from": "Madrid",
+   "to": "Rome",
+   "st": "stuck",
+   "label": "Ormanetto 1576"
+  },
+  {
+   "slug": "dandini1580",
+   "doc": "R72",
+   "year": 1580.38,
+   "date": "16 May 1580",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Como to Dandini 1580"
+  },
+  {
+   "slug": "dandini1580",
+   "doc": "R73",
+   "year": 1580.5,
+   "date": "unknown",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Como to Dandini 1580"
+  },
+  {
+   "slug": "bergamo1585",
+   "doc": "R16",
+   "year": 1586.21,
+   "date": "3 Mar 1586",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Paris nunciature, Francia 18"
+  },
+  {
+   "slug": "bergamo1585",
+   "doc": "R17",
+   "year": 1587.5,
+   "date": "unknown",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Paris nunciature, Francia 18"
+  },
+  {
+   "slug": "needham1587",
+   "doc": "f39",
+   "year": 1587.54,
+   "date": "28 Jul 1587",
+   "from": "Sluys",
+   "to": "London",
+   "st": "solved",
+   "label": "Needham before Sluys 1587"
+  },
+  {
+   "slug": "harley287",
+   "doc": "22mar",
+   "year": 1588.21,
+   "date": "22 Mar 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "solved",
+   "label": "Cobham at Ostend 1588"
+  },
+  {
+   "slug": "harley287",
+   "doc": "middelburg",
+   "year": 1588.21,
+   "date": "Mar 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "solved",
+   "label": "Cobham at Ostend 1588"
+  },
+  {
+   "slug": "harley287",
+   "doc": "20mar",
+   "year": 1588.21,
+   "date": "20 Mar 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "solved",
+   "label": "Cobham at Ostend 1588"
+  },
+  {
+   "slug": "cobham1588",
+   "doc": "R8490",
+   "year": 1588.38,
+   "date": "5 May 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "partial",
+   "label": "Cobham 1588"
+  },
+  {
+   "slug": "cobham1588",
+   "doc": "R8495",
+   "year": 1588.38,
+   "date": "27 May 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "partial",
+   "label": "Cobham 1588"
+  },
+  {
+   "slug": "cobham1588",
+   "doc": "R8496",
+   "year": 1588.46,
+   "date": "9 Jun 1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "partial",
+   "label": "Cobham 1588"
+  },
+  {
+   "slug": "cobham1588",
+   "doc": "R8492",
+   "year": 1588.5,
+   "date": "1588",
+   "from": "Ostend",
+   "to": "London",
+   "st": "partial",
+   "label": "Cobham 1588"
+  },
+  {
+   "slug": "morosini1588",
+   "doc": "meister40-set",
+   "year": 1588.62,
+   "date": "Aug 1588 - Jul 1589",
+   "from": "Blois",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Morosini 1588"
+  },
+  {
+   "slug": "morosini1588",
+   "doc": "f22b-set",
+   "year": 1589.38,
+   "date": "spring 1589 (R54: Moulins, 11 May 1589)",
+   "from": "Moulins",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Morosini 1588"
+  },
+  {
+   "slug": "mendoza1589",
+   "doc": "A_f10",
+   "year": 1589.71,
+   "date": "7 Sep 1589",
+   "from": "El Escorial",
+   "to": "Paris",
+   "st": "found",
+   "label": "Mendoza 1589"
+  },
+  {
+   "slug": "mendoza1589",
+   "doc": "B_f12",
+   "year": 1589.71,
+   "date": "7 Sep 1589",
+   "from": "El Escorial",
+   "to": "Paris",
+   "st": "found",
+   "label": "Mendoza 1589"
+  },
+  {
+   "slug": "maisse1592",
+   "doc": "f370",
+   "year": 1592.88,
+   "date": "3 Nov 1592",
+   "from": "Saint-Denis",
+   "to": "Venice",
+   "st": "solved",
+   "label": "Maisse 1592–93"
+  },
+  {
+   "slug": "maisse1592",
+   "doc": "f406",
+   "year": 1593.12,
+   "date": "8 Feb 1593",
+   "from": "Chartres",
+   "to": "Venice",
+   "st": "solved",
+   "label": "Maisse 1592–93"
+  },
+  {
+   "slug": "maisse1592",
+   "doc": "f410",
+   "year": 1593.29,
+   "date": "27 Apr 1593",
+   "from": "Mantes",
+   "to": "Venice",
+   "st": "solved",
+   "label": "Maisse 1592–93"
+  },
+  {
+   "slug": "bethune",
+   "doc": "10nov",
+   "year": 1601.88,
+   "date": "10 Nov 1601",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "partial",
+   "label": "Béthune 1601"
+  },
+  {
+   "slug": "bethune",
+   "doc": "9nov",
+   "year": 1601.88,
+   "date": "9 Nov 1601",
+   "from": "Paris",
+   "to": "Rome",
+   "st": "partial",
+   "label": "Béthune 1601"
+  },
+  {
+   "slug": "bethune",
+   "doc": "22nov",
+   "year": 1601.88,
+   "date": "22 Nov 1601",
+   "from": "Saint-Germain-en-Laye",
+   "to": "Rome",
+   "st": "partial",
+   "label": "Béthune 1601"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "22nov1602",
+   "year": 1602.88,
+   "date": "22 Nov 1602",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "12jan1603",
+   "year": 1603.04,
+   "date": "12 Jan 1603",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "breves1603",
+   "doc": "fr3541-1603",
+   "year": 1603.12,
+   "date": "18 Feb - 23/24 Dec 1603",
+   "from": "Paris",
+   "to": "Constantinople",
+   "st": "found",
+   "label": "Brèves 1603"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "27dec1604",
+   "year": 1604.96,
+   "date": "27 Dec 1604",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "28apr1605",
+   "year": 1605.29,
+   "date": "28 Apr 1605",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "22dec1605",
+   "year": 1605.96,
+   "date": "22 Dec 1605",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "20may1606",
+   "year": 1606.38,
+   "date": "20 May 1606",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "hesse1603",
+   "doc": "24jan1609",
+   "year": 1609.04,
+   "date": "24 Jan 1609",
+   "from": "Paris",
+   "to": "Kassel",
+   "st": "solved",
+   "label": "Hesse"
+  },
+  {
+   "slug": "haga1620",
+   "doc": "R2113",
+   "year": 1620.12,
+   "date": "1 Feb 1620 and 31 Mar 1620",
+   "from": "Constantinople",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "Haga at the Porte"
+  },
+  {
+   "slug": "haga1620",
+   "doc": "R2115",
+   "year": 1620.29,
+   "date": "24 Apr 1620 and 4 May 1620",
+   "from": "Constantinople",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "Haga at the Porte"
+  },
+  {
+   "slug": "r1874",
+   "doc": "R1874",
+   "year": 1628.79,
+   "date": "26 October 1628",
+   "from": "Madrid",
+   "to": "Venice",
+   "st": "found",
+   "label": "Mocenigo 1628"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R287",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R288",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R289",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R290",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R291",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R292",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R293",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R294",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R295",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R296",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R297",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R298",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R299",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R300",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R301",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R302",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R303",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R304",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R305",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R306",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R307",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R308",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R309",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R310",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R311",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R312",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R313",
+   "year": 1629.5,
+   "date": "1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "pallotto1629",
+   "doc": "R286",
+   "year": 1629.62,
+   "date": "4 Aug 1629",
+   "from": "Vienna",
+   "to": "Rome",
+   "st": "found",
+   "label": "Pallotto to Barberini 1629"
+  },
+  {
+   "slug": "riksarkivet1628",
+   "doc": "bremen1631",
+   "year": 1631.88,
+   "date": "27 Nov and ? Dec 1631",
+   "from": "Bremen",
+   "to": "Hamburg",
+   "st": "partial",
+   "label": "Bremen to Salvius 1631"
+  },
+  {
+   "slug": "ceva1632",
+   "doc": "R75",
+   "year": 1632.71,
+   "date": "25 Sept 1632",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Barberini to Ceva 1632"
+  },
+  {
+   "slug": "ceva1632",
+   "doc": "R84",
+   "year": 1632.96,
+   "date": "18 Dec 1632",
+   "from": "Rome",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Barberini to Ceva 1632"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R3811",
+   "year": 1639.04,
+   "date": "1639-01-17",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R3813",
+   "year": 1639.04,
+   "date": "1639-01-27",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R3812",
+   "year": 1639.12,
+   "date": "1639-02-03",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R3815",
+   "year": 1639.12,
+   "date": "1639-02-06",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R4625",
+   "year": 1639.12,
+   "date": "1639-02-10",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R4645",
+   "year": 1639.12,
+   "date": "1639-02-13",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R4734",
+   "year": 1639.29,
+   "date": "1639-04-08",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R4736",
+   "year": 1639.29,
+   "date": "1639-04-14",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "kurtz1639",
+   "doc": "R3814",
+   "year": 1639.5,
+   "date": "1639 (undated)",
+   "from": "Hamburg",
+   "to": "Vienna",
+   "st": "partial",
+   "label": "Kurz von Senftenau 1639"
+  },
+  {
+   "slug": "boswell",
+   "doc": "charles_f217",
+   "year": 1643.88,
+   "date": "2 Nov 1643",
+   "from": "Oxford",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "Boswell"
+  },
+  {
+   "slug": "boswell",
+   "doc": "nicholas_f219",
+   "year": 1643.88,
+   "date": "2 Nov 1643",
+   "from": "Oxford",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "Boswell"
+  },
+  {
+   "slug": "bordeaux1653",
+   "doc": "A",
+   "year": 1653.38,
+   "date": "30 May 1653",
+   "from": "London",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Bordeaux 1653"
+  },
+  {
+   "slug": "hyde",
+   "doc": "superscriptions",
+   "year": 1659.71,
+   "date": "29 Sept 1659; 17 Oct 1659; 14 Jan 1660; 16 Jan 1660",
+   "from": "Brussels",
+   "to": "London",
+   "st": "found",
+   "label": "Hyde"
+  },
+  {
+   "slug": "hernannunez1674",
+   "doc": "letters",
+   "year": 1674.96,
+   "date": "5-26 Dec 1674",
+   "from": "Stockholm",
+   "to": "Copenhagen",
+   "st": "solved",
+   "label": "Hernán Núñez 1674"
+  },
+  {
+   "slug": "balbases1677",
+   "doc": "margined",
+   "year": 1677.46,
+   "date": "Jun 1677 - Feb 1678",
+   "from": "Nijmegen",
+   "to": "Copenhagen",
+   "st": "solved",
+   "label": "Balbases 1677"
+  },
+  {
+   "slug": "balbases1677",
+   "doc": "unread",
+   "year": 1678.71,
+   "date": "Sep 1677 - Mar 1678",
+   "from": "Nijmegen",
+   "to": "Copenhagen",
+   "st": "solved",
+   "label": "Balbases 1677"
+  },
+  {
+   "slug": "feuquieres",
+   "doc": "herleville1690",
+   "year": 1690.71,
+   "date": "6 Sep 1690",
+   "from": "Versailles",
+   "to": "Pignerol",
+   "st": "solved",
+   "label": "Feuquières"
+  },
+  {
+   "slug": "feuquieres",
+   "doc": "feuquieres1691",
+   "year": 1691.04,
+   "date": "25 Jan 1691",
+   "from": "Pignerol",
+   "to": "Suze",
+   "st": "solved",
+   "label": "Feuquières"
+  },
+  {
+   "slug": "yard1699",
+   "doc": "oct12",
+   "year": 1699.79,
+   "date": "12 Oct 1699",
+   "from": "London",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Yard 1699"
+  },
+  {
+   "slug": "yard1699",
+   "doc": "oct16",
+   "year": 1699.79,
+   "date": "16 Oct 1699",
+   "from": "London",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Yard 1699"
+  },
+  {
+   "slug": "anne1711",
+   "doc": "R4878",
+   "year": 1712.12,
+   "date": "22 Feb 1711/12",
+   "from": "London",
+   "to": "Turin",
+   "st": "found",
+   "label": "Queen Anne to Peterborough 1712"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R154",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R155",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R156",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R157",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R158",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R159",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R160",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R161",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R162",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R163",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R164",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R165",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R166",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R167",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R168",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R169",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R170",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R171",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R172",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R173",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R174",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R175",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R176",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1718",
+   "doc": "R177",
+   "year": 1718.5,
+   "date": "1718",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1718"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/1",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/2",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/3",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/4",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/5",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/6",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/7",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/8",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/9",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/10",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "nunzio1736",
+   "doc": "423/11",
+   "year": 1736.5,
+   "date": "1736",
+   "from": "Rome",
+   "to": "Madrid",
+   "st": "found",
+   "label": "Nunziatura di Spagna 1736"
+  },
+  {
+   "slug": "hellen1752",
+   "doc": "r1953",
+   "year": 1752.04,
+   "date": "4 Jan 1752",
+   "from": "The Hague",
+   "to": "Berlin",
+   "st": "stuck",
+   "label": "Hellen 1752–1763"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R2078",
+   "year": 1754.96,
+   "date": "23 Dec 1754",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R1958",
+   "year": 1755.46,
+   "date": "20 Jun 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R2079",
+   "year": 1755.54,
+   "date": "6 Jul 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R2080",
+   "year": 1755.54,
+   "date": "22 Jul 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R1959",
+   "year": 1755.62,
+   "date": "5 Aug 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R2081",
+   "year": 1755.62,
+   "date": "12 Aug 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R2082",
+   "year": 1755.62,
+   "date": "15 Aug 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R1044",
+   "year": 1755.71,
+   "date": "29 Sep 1755",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R1954",
+   "year": 1756.21,
+   "date": "16 Mar 1756",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "kauderbach1754",
+   "doc": "R1043",
+   "year": 1756.38,
+   "date": "25 May 1756",
+   "from": "The Hague",
+   "to": "Dresden",
+   "st": "solved",
+   "label": "Kauderbach 1754"
+  },
+  {
+   "slug": "hellen1752",
+   "doc": "r1049",
+   "year": 1756.71,
+   "date": "7 Sep 1756",
+   "from": "The Hague",
+   "to": "Berlin",
+   "st": "stuck",
+   "label": "Hellen 1752–1763"
+  },
+  {
+   "slug": "affry1757",
+   "doc": "codeA",
+   "year": 1757.04,
+   "date": "6 Jan - 17 Feb 1757",
+   "from": "The Hague",
+   "to": "Versailles",
+   "st": "partial",
+   "label": "d’Affry 1757"
+  },
+  {
+   "slug": "affry1757",
+   "doc": "codeB",
+   "year": 1757.12,
+   "date": "Feb 1757 - 17 Jan 1758",
+   "from": "The Hague",
+   "to": "Versailles",
+   "st": "partial",
+   "label": "d’Affry 1757"
+  },
+  {
+   "slug": "affry1757",
+   "doc": "codeC",
+   "year": 1757.62,
+   "date": "7 Aug 1757",
+   "from": "The Hague",
+   "to": "Versailles",
+   "st": "partial",
+   "label": "d’Affry 1757"
+  },
+  {
+   "slug": "affry1757",
+   "doc": "R2067",
+   "year": 1758.04,
+   "date": "17 Jan 1758",
+   "from": "The Hague",
+   "to": "Versailles",
+   "st": "partial",
+   "label": "d’Affry 1757"
+  },
+  {
+   "slug": "acciaiuoli1757",
+   "doc": "p117",
+   "year": 1758.71,
+   "date": "12 Sep 1758 - 1760",
+   "from": "Lisbon",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Acciaiuoli 1758"
+  },
+  {
+   "slug": "hellen1752",
+   "doc": "set1763",
+   "year": 1763.29,
+   "date": "15 Apr - 5 Jul 1763",
+   "from": "The Hague",
+   "to": "Berlin",
+   "st": "stuck",
+   "label": "Hellen 1752–1763"
+  },
+  {
+   "slug": "lucini1767",
+   "doc": "r120",
+   "year": 1767.79,
+   "date": "13 Oct 1767",
+   "from": "Madrid",
+   "to": "Rome",
+   "st": "solved",
+   "label": "Lucini 1767"
+  },
+  {
+   "slug": "deswart1782",
+   "doc": "R1036",
+   "year": 1782.21,
+   "date": "8 Mar 1782",
+   "from": "St Petersburg",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "De Swart 1782"
+  },
+  {
+   "slug": "rechteren1785",
+   "doc": "R1039",
+   "year": 1785.71,
+   "date": "23 Sept / 4 Oct 1785",
+   "from": "St Petersburg",
+   "to": "The Hague",
+   "st": "found",
+   "label": "Rechteren 1785"
+  },
+  {
+   "slug": "deswart1782",
+   "doc": "R1040",
+   "year": 1787.88,
+   "date": "29 Nov 1787",
+   "from": "St Petersburg",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "De Swart 1782"
+  },
+  {
+   "slug": "vanreede1787",
+   "doc": "DECODE R1026",
+   "year": 1787.96,
+   "date": "29 Dec 1787",
+   "from": "Berlin",
+   "to": "The Hague",
+   "st": "partial",
+   "label": "Van Reede 1787"
+  },
+  {
+   "slug": "vanreede1787",
+   "doc": "DECODE R1027",
+   "year": 1788.21,
+   "date": "4 Mar 1788",
+   "from": "Berlin",
+   "to": "The Hague",
+   "st": "partial",
+   "label": "Van Reede 1787"
+  },
+  {
+   "slug": "dedem1788",
+   "doc": "DECODE R2120",
+   "year": 1788.96,
+   "date": "22 Dec 1788",
+   "from": "Constantinople",
+   "to": "The Hague",
+   "st": "stuck",
+   "label": "Van Dedem 1788–99"
+  },
+  {
+   "slug": "dedem1788",
+   "doc": "DECODE R2122",
+   "year": 1789.04,
+   "date": "15 Jan 1789",
+   "from": "Constantinople",
+   "to": "The Hague",
+   "st": "stuck",
+   "label": "Van Dedem 1788–99"
+  },
+  {
+   "slug": "vanreede1792",
+   "doc": "DECODE R1057",
+   "year": 1792.12,
+   "date": "4 Feb 1792",
+   "from": "Berlin",
+   "to": "The Hague",
+   "st": "solved",
+   "label": "Van Reede 1792"
+  },
+  {
+   "slug": "dedem1788",
+   "doc": "DECODE R2131",
+   "year": 1793.12,
+   "date": "9 Feb 1793",
+   "from": "Constantinople",
+   "to": "The Hague",
+   "st": "stuck",
+   "label": "Van Dedem 1788–99"
+  },
+  {
+   "slug": "vanreede1787",
+   "doc": "DECODE R1893",
+   "year": 1793.21,
+   "date": "24 Mar 1793",
+   "from": "Berlin",
+   "to": "The Hague",
+   "st": "partial",
+   "label": "Van Reede 1787"
+  },
+  {
+   "slug": "r1944",
+   "doc": "R1944",
+   "year": 1801.04,
+   "date": "31 Jan 1801",
+   "from": "Berlin",
+   "to": "The Hague",
+   "st": "found",
+   "label": "Bourdeaux 1801"
+  },
+  {
+   "slug": "r2232",
+   "doc": "R2232",
+   "year": 1801.54,
+   "date": "1801-07-25",
+   "from": "The Hague",
+   "to": "London",
+   "st": "solved",
+   "label": "Wolff to Wilhelmina 1801"
+  },
+  {
+   "slug": "r1942",
+   "doc": "R1942",
+   "year": 1803.54,
+   "date": "5 Jul 1803",
+   "from": "St Petersburg",
+   "to": "The Hague",
+   "st": "found",
+   "label": "Hogendorp 1803"
+  },
+  {
+   "slug": "spaen1808",
+   "doc": "R1941-letter",
+   "year": 1808.04,
+   "date": "14 Jan 1808",
+   "from": "Düsseldorf",
+   "to": "The Hague",
+   "st": "stuck",
+   "label": "Van Spaen 1808"
+  },
+  {
+   "slug": "spaen1808",
+   "doc": "R1941-annex",
+   "year": 1808.04,
+   "date": "15 Jan 1808",
+   "from": "Düsseldorf",
+   "to": "The Hague",
+   "st": "stuck",
+   "label": "Van Spaen 1808"
+  },
+  {
+   "slug": "roell1809",
+   "doc": "R1469",
+   "year": 1809.12,
+   "date": "9 Feb 1809",
+   "from": "Amsterdam",
+   "to": "Constantinople",
+   "st": "stuck",
+   "label": "Roell to Van Dedem 1809"
+  },
+  {
+   "slug": "roell1809",
+   "doc": "R1470",
+   "year": 1809.5,
+   "date": "unknown",
+   "from": "Amsterdam",
+   "to": "Constantinople",
+   "st": "stuck",
+   "label": "Roell to Van Dedem 1809"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9553",
+   "year": 1816.29,
+   "date": "1 Apr 1816",
+   "from": "London",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9555",
+   "year": 1816.46,
+   "date": "3 Jun 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9556",
+   "year": 1816.62,
+   "date": "30 Aug 1816",
+   "from": "London",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9579",
+   "year": 1816.71,
+   "date": "26 Sep 1816",
+   "from": "London",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9557",
+   "year": 1816.71,
+   "date": "6 Sep 1816",
+   "from": "London",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9558",
+   "year": 1816.79,
+   "date": "4 Oct 1816",
+   "from": "London",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9559",
+   "year": 1816.79,
+   "date": "17 Oct 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9560",
+   "year": 1816.79,
+   "date": "19 Oct 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9587",
+   "year": 1816.79,
+   "date": "23 Oct 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9561",
+   "year": 1816.88,
+   "date": "30 Nov 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9562",
+   "year": 1816.96,
+   "date": "3 Dec 1816",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9566",
+   "year": 1816.96,
+   "date": "1 Dec 1816 (no. 3874; plus a fragment in another hand)",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9582",
+   "year": 1817.88,
+   "date": "14 Nov 1817",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9584",
+   "year": 1819.54,
+   "date": "13 Jul 1819",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9570",
+   "year": 1823.71,
+   "date": "11 Sep? 1823",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9569",
+   "year": 1823.71,
+   "date": "4 Sep 1823",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9571",
+   "year": 1823.71,
+   "date": "8 Sep 1823",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "castelcicala1816",
+   "doc": "R9589",
+   "year": 1823.79,
+   "date": "9 Oct 1823",
+   "from": "Paris",
+   "to": "Naples",
+   "st": "partial",
+   "label": "Castelcicala 1816–23"
+  },
+  {
+   "slug": "soglia1848",
+   "doc": "dispatch",
+   "year": 1848.46,
+   "date": "15 Jun 1848",
+   "from": "Rome",
+   "to": "Innsbruck",
+   "st": "solved",
+   "label": "Soglia 1848"
+  },
+  {
+   "slug": "sunyatsen",
+   "doc": "swatow",
+   "year": 1916.29,
+   "date": "3 Apr 1916",
+   "from": "Swatow",
+   "to": "Tokyo",
+   "st": "solved",
+   "label": "Sun Yat-sen"
+  },
+  {
+   "slug": "orpo1942",
+   "doc": "A115",
+   "year": 1942.46,
+   "date": "16 Jun 1942",
+   "from": "Mogilev",
+   "to": "Berlin",
+   "st": "stuck",
+   "label": "Police radiograms"
+  }
+ ]
+}
