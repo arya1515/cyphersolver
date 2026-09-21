@@ -1854,6 +1854,96 @@
      }
     }
    }
+  },
+  "sanchez1523": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/sanchez1523.html",
+   "key": {
+    "file": "sanchez1522/key_codes.tsv",
+    "lang": "ES",
+    "how": "the 1522 key unchanged (Tomokiyo 2025 plus this project's additions)"
+   },
+   "cite": "G. A. Bergenroth (ed.), Calendar of State Papers, Spain, vol. 2 (1866), nos. 549, 552, 554, 558, abstracts from the contemporary decipherings",
+   "fields": {
+    "cipher_types": "homophonic, nomenclator",
+    "plaintext_lang": "Spanish",
+    "receiver": "Charles V, Holy Roman Emperor"
+   },
+   "records": {
+    "R9670": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, 8 May 1523, duplicate of CSP Spain 2 no. 549 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9671": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, 8 May 1523 = CSP Spain 2 no. 549 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9672": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, c. 20 May 1523, cf. CSP Spain 2 no. 552 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9674": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, 20 May 1523, duplicate ('es treslado de otro') of CSP Spain 2 no. 552 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9677": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, early June 1523, probably CSP Spain 2 no. 554 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9689": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, 13 June 1523 = CSP Spain 2 no. 558 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9690": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "To Charles V, 13 June 1523, CSP Spain 2 no. 558 (Bergenroth 1866, abstract from the contemporary deciphering). Key: Sánchez's 1522 cipher, unchanged. Not re-edited.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9767": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Sánchez to Charles V, Venice 16 Aug 1523; not in CSP. Clear text in full; cipher read at code-group level, spelled runs partly (1522 key, Tomokiyo 2025).",
+     "reading": [
+      {
+       "file": "sanchez1523/read_r9767.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9769": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "Caracciolo and Sánchez to Charles V, Venice 16 Aug 1523; almost entirely in clear; not in CSP.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9770": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "Duplicate of R9769 ('es treslado de otro'); short cipher head not read.",
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }

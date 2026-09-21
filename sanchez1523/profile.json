@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "target": "sanchez1523",
+  "title": "Alonso Sánchez (Venice) to Charles V, May–August 1523 — RAH Salazar 9/28, DECODE R9670–R9770",
+  "documents": [
+    {
+      "id": "R9670",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 18-24 (DECODE R9670)",
+      "date": "8 May 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 10,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Viewed; not transcribed. Duplicate of CSP 549."
+      }
+    },
+    {
+      "id": "R9671",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 40-43 (DECODE R9671)",
+      "date": "8 May 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 8,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Viewed; not transcribed."
+      }
+    },
+    {
+      "id": "R9672",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 78-79 (DECODE R9672)",
+      "date": "c. 20-23 May 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Viewed; not transcribed."
+      }
+    },
+    {
+      "id": "R9674",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 81-82 (DECODE R9674)",
+      "date": "20 May 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Viewed; not transcribed. Marked 'es treslado de otro'."
+      }
+    },
+    {
+      "id": "R9677",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 148-152 (DECODE R9677)",
+      "date": "early June 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 10,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Viewed; not transcribed. CSP match (no. 554) probable, not certain."
+      }
+    },
+    {
+      "id": "R9689",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 224-226 (DECODE R9689)",
+      "date": "13 June 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Not viewed page by page; identified by folio with CSP 558."
+      }
+    },
+    {
+      "id": "R9690",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 226-228 (DECODE R9690)",
+      "date": "13 June 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": [
+          "printed edition",
+          "separate folio"
+        ],
+        "partial": true,
+        "source": "Bergenroth, CSP Spain vol. 2 (1866): English abstract made from the contemporary deciphering, which is filed separately in the volume"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Not viewed page by page; identified by folio with CSP 558."
+      }
+    },
+    {
+      "id": "R9767",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 563-564 (DECODE R9767)",
+      "date": "16 Aug 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Clear text transcribed; the two cipher passages on f. 563r transcribed at code-group level, spelled runs only partly (read_r9767.md). Token count not measured."
+      }
+    },
+    {
+      "id": "R9769",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 569-571 (DECODE R9769)",
+      "date": "16 Aug 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Clear text read at sight for identification; not edited."
+      }
+    },
+    {
+      "id": "R9770",
+      "shelfmark": "RAH, Signatura 9/28 (Salazar A-28), f. 572-574 (DECODE R9770)",
+      "date": "16 Aug 1523",
+      "year": 1523,
+      "country": "Spain",
+      "route": "Venice -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "mostly clear",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-21",
+        "image_quality": "good",
+        "notes": "Duplicate of R9769 ('es treslado de otro'); short cipher passage not read."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic",
+      "nomenclator"
+    ],
+    "summary": "Homophonic substitution alphabet with three nulls, plus a nomenclator of consonant-vowel-consonant code groups assigned in alphabetical order of the plaintext.",
+    "symbol_kind": "letters and symbols",
+    "distinct_symbols": 181,
+    "diacritics": {
+      "used": true,
+      "note": "A 'q' with a double bar suffixed to a code group marks the plural ending -s."
+    },
+    "homophones": {
+      "used": true,
+      "max_per_vowel": 4,
+      "max_per_consonant": 4
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 181,
+      "kinds": [
+        "common words",
+        "names",
+        "places",
+        "titles",
+        "word parts"
+      ],
+      "unread_groups": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 3
+    },
+    "key_order": "partly alphabetical",
+    "word_division": "kept",
+    "doubled_letters": "unknown",
+    "sibling_key": "Juan Manuel's 1522 Rome cipher (DECODE R9499-R9529), same design, different values; also reconstructed by Tomokiyo. R9605 and R9613 carry full contemporary decipherments on leaves facing their cipher, and are the calibration source for the hand."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in print",
+      "where": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 549, 552, 554, 558: English abstracts from the contemporary decipherings. Key: S. Tomokiyo, cryptiana.web.fc2.com/code/AlonsoSanchez.htm (2025), extended in this project's sanchez1522.",
+      "found": "during attempt",
+      "used": true
+    },
+    "inputs": [
+      "images",
+      "published key",
+      "sibling key",
+      "published reading",
+      "cleartext context"
+    ],
+    "attack": "sibling key",
+    "human_role": "set the goal; the DECODE login cookie was reused from an earlier target.",
+    "tools": [
+      "DECODE record scraper and image fetch (decode/)",
+      "sanchez1522/decode_tokens.py"
+    ],
+    "models": [
+      "claude-opus-5[1m]"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-21",
+    "last_date": "2026-09-21"
+  },
+  "solution": [
+    {
+      "date": "2026-09-21",
+      "kind": "access",
+      "what": "Found the ten records in the DECODE group harvest (Salazar 9/28, author Alonso Sánchez), pulled record pages and metadata; all flagged Inline Cleartext: Yes. Fetched 32 images.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "verification",
+      "what": "Viewed the images: no interlinear or facing decipherment; 'Inline Cleartext' means clear passages. Same hand and cipher as the 1522 despatches; letters addressed to the Emperor, not an unknown recipient.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "literature search",
+      "what": "Fetched Bergenroth CSP Spain vol. 2 (1523) from British History Online; nos. 549, 552, 554, 558 are these despatches (Salazar A-28, matching folios), each 'Autograph in cipher. Contemporary deciphering.'",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "verification",
+      "what": "Mapped each record to a CSP entry by date line, content and folio; R9670/R9674/R9690/R9770 are duplicates; R9767, R9769, R9770 (16 Aug 1523) are not calendared.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "sibling key",
+      "what": "Applied the 1522 key (sanchez1522/key_codes.tsv) to code groups on R9670, R9671, R9672, R9677, R9767: they read coherently; key unchanged into 1523.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "reading",
+      "what": "Read R9767 (16 Aug 1523): clear text in full; cipher passages at code-group level, spelled runs partly. Gist: French-leaning party in Venice, the treaty's money clause, the Infante not bound to the defensive league.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "fraction_read": "unknown",
+    "verification": [
+      "contemporary decipherment",
+      "key confirms",
+      "historical consistency"
+    ],
+    "notes": "The May–June despatches were deciphered at the time and calendared in English by Bergenroth in 1866; the key was published by Tomokiyo in 2025. Added here: the records identified against the Calendar, the recipient corrected (Charles V), the 1522 key shown to hold in 1523, and a partial reading of the one uncalendared ciphered letter (R9767, 16 Aug 1523). The spelled runs of R9767 and the short cipher of R9770 stay open."
+  }
+}
