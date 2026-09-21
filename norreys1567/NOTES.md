@@ -108,3 +108,15 @@ Cabala (1663) itself not fetched this session; its pp.142-173 cipher passages wo
 (g, k, q, w, the loop) and possibly the name symbols.
 
 (Control figures as re-run in work/tomokiyo_apply.out: real 8 word hits, shuffled mean 0.22, max 3.)
+
+## Cabala (1663) checked (21 Sept 2026, later)
+
+archive.org `cabalasivescrini00lond`, Cecil to Norris pp. 142-173 = leaves n172-n205; the 27 Sept 1568 letter is
+pp. 152-153 (n183-n184). Printed cipher, same system as Norreys's. For item (2) of 9 Mar:
+- The crossed arrowhead ⇸ occurs on p. 152 in "… to displease ⇸-group papists": `𝒻𝒻 ⇸ T ⊶ 4 ⊥ 4+ ρ 8 o ʒ̄`, where
+  `4 ⊥ 4+ ρ 8 o ʒ̄` = p a p i s t s. So ⇸ belongs to the preceding "all", not p, and the "Pope" reading
+  (⇸ = 4 turned) is not supported. Norreys 6 Feb (2) "[the] earl" also gives + = a.
+- Small o = t (papists here; protestants in Norreys 4 June). ∞ = l ("earl").
+- Item (2) is then "a t ? l", with the loop ℒ unmatched. No word from CSP 2054 fits, so (2) is **not read**.
+  The earlier "Catholic" (M) is withdrawn and downgraded to I.
+- Items (1) (French King, H) and (3) (unread name sign) stand. What would settle it: TNA SP 70/97 original.
