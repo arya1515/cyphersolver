@@ -164,6 +164,11 @@
     "grades": {"type": "object", "properties": {"H": {"type": "integer"}, "C": {"type": "integer"}, "M": {"type": "integer"}, "I": {"type": "integer"}},
      "description": "Counts of readings by grade, README Conventions."},
     "verification": {"type": "array", "items": {"type": "string", "enum": ["matched control", "independent clear copy", "contemporary decipherment", "key confirms", "historical consistency", "none"]}},
+    "gaps": {"type": "array", "description": "For 'read in part': every unread piece and why it stays unread (mirrors NOTES.md '## Remaining gaps').",
+     "items": {"type": "object", "required": ["item", "blocker"], "properties": {
+      "item": {"type": "string"},
+      "blocker": {"type": "string", "enum": ["no-key-material", "too-short", "illegible", "needs-physical-access", "open-codes", "not-attempted"]},
+      "detail": {"type": "string"}}}},
     "notes": {"type": "string"}
    }
   }

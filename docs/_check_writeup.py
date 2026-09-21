@@ -13,6 +13,11 @@ Run from anywhere:
                                                 worked on looks finished in its NOTES but has no write-up
 
 Exit code 1 from <slug> or --audit when something is missing; the hook modes always exit 0.
+
+A partial outcome ("read in part") is a stopping point only when it is justified: the folder's NOTES.md carries a
+`## Remaining gaps` section (every unread piece with a blocker type) and an `## Escalation` checklist (every
+standard move done or marked n/a with a reason), and profile.json has outcome.fraction_read and outcome.gaps.
+See partial_problems() and the writeup skill, section 0a.
 """
 import sys, re, json, pathlib, subprocess, time
 
@@ -84,6 +89,72 @@ def target_dirs():
         out[d.name] = dict(finished=bool(m) and not NOT_FINISHED.search(head),
                            why=(m.group(0).strip() if m else ''), mtime=notes.stat().st_mtime)
     return out
+
+# ---------------------------------------------------------------------------
+# partial readings: "read in part" has to be earned
+
+BLOCKERS = {
+    'no-key-material': 'no key on DECODE, in print, or in a sibling, and none rebuildable from the text',
+    'too-short': 'too little text to break or to extend the key',
+    'illegible': 'the scan cannot be read, and no better image exists',
+    'needs-physical-access': 'only the archive holds the missing leaf, key or better image',
+    'open-codes': 'the letter reads but nomenclator code groups do not (still workable)',
+    'not-attempted': 'not yet worked (never allowed at close)',
+}
+EXTERNAL = {'no-key-material', 'too-short', 'illegible', 'needs-physical-access'}   # blockers outside the session
+ESCALATION = [
+    ('siblings', 'neighbouring and sibling DECODE records, and leaves next to the cipher in the volume, opened'),
+    ('clear-pages', '"clear" / "cleartext" / "postscript" pages checked for being the decipherment'),
+    ('known-keys', 'every known key of the same series, archive, correspondent or decade tried'),
+    ('print', 'printed editions and calendars searched (CSP, Bain, Forbes, Fraknoi, Nuntiaturberichte, '
+              'Politische Correspondenz, Parke, Lasry GL.htm, Tomokiyo)'),
+    ('key-rebuild', 'key extended from what reads (constrained/swap annealing, seeded EM, alphabetical '
+                    'bracketing of the nomenclator, LM context)'),
+    ('retry', 'every unread group and doubtful reading retried with the extended key and regraded'),
+]
+PARTIAL = re.compile(r'status:\s*\**\s*(read in part|partly read|partial)|\bread in part\b', re.I)
+
+def section(text, name):
+    m = re.search(rf'^##\s+{name}\b.*?$(.*?)(?=^##\s|\Z)', text, re.M | re.S | re.I)
+    return m.group(1) if m else None
+
+def partial_problems(folder):
+    """(is_partial, problems, open_blockers) for a folder. Partial = profile outcome 'read in part', or no
+    profile outcome and the NOTES head says read in part."""
+    notes = read(ROOT / folder / 'NOTES.md')
+    try: prof = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+    except ValueError: prof = {}
+    out = prof.get('outcome') or {}
+    cls = out.get('class')
+    head = '\n'.join(notes.splitlines()[:40])
+    if cls != 'read in part' and not (cls is None and PARTIAL.search(head) and not NOT_FINISHED.search(head)):
+        return False, [], set()
+    probs, blockers = [], []
+    gaps = section(notes, 'Remaining gaps')
+    if gaps is None:
+        probs.append('NOTES.md has no "## Remaining gaps" section (one line per unread piece: '
+                     '"- <piece> - blocker: <type>; <why>")')
+    else:
+        lines = [l for l in gaps.splitlines() if l.strip().startswith(('-', '*'))]
+        if not lines: probs.append('"## Remaining gaps" lists nothing')
+        for l in lines:
+            m = re.search(r'blocker:\s*([a-z-]+)', l, re.I)
+            b = m.group(1).lower() if m else None
+            if b not in BLOCKERS: probs.append(f'gap without a valid blocker type: {l.strip()[:90]}')
+            elif b == 'not-attempted': probs.append(f'gap marked not-attempted: {l.strip()[:90]}')
+            if b: blockers.append(b)
+    esc = section(notes, 'Escalation')
+    if esc is None:
+        probs.append('NOTES.md has no "## Escalation" checklist (' + ', '.join(k for k, _ in ESCALATION) + ')')
+    else:
+        for k, what in ESCALATION:
+            m = re.search(rf'^\s*[-*]\s*\[(x|n/?a)\]\s*{k}\b(.*)$', esc, re.M | re.I)
+            if not m: probs.append(f'escalation step "{k}" not done ({what})')
+            elif m.group(1).lower().startswith('n') and len(m.group(2).strip(' :-')) < 10:
+                probs.append(f'escalation step "{k}" marked n/a without a reason')
+    if 'fraction_read' not in out: probs.append('profile.json outcome.fraction_read missing (share of tokens read)')
+    if not out.get('gaps'): probs.append('profile.json outcome.gaps missing (mirror the Remaining gaps list)')
+    return True, probs, set(blockers) - EXTERNAL
 
 def git(*args):
     try: return subprocess.run(['git', *args], cwd=ROOT, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=20).stdout
@@ -162,6 +233,12 @@ def check_slug(slug):
             except Exception:
                 good = False
         item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
+    # a partial reading has to be justified before it is written up as one
+    for folder in sorted(folders):
+        part, probs, _ = partial_problems(folder)
+        if part:
+            item(not probs, f'{folder}: "read in part" is justified (gaps with blockers, escalation checklist, coverage)'
+                 + ''.join(f'\n         - {p}' for p in probs))
     # a finished target read from DECODE records queues its DECODE edits (decode_updates/, see the skill)
     try:
         dq = json.loads(read(ROOT / 'decode_updates' / 'queue.json') or '{}').get('targets', {})
@@ -240,6 +317,18 @@ def audit(brief=False):
     print(f'D. Manifest / README / docs drift: {len(drift)}')
     for x in drift: print('   ' + x)
     problems += len(drift)
+
+    # 5. partial readings still workable: unjustified, or with gaps not blocked from outside (informational)
+    workable = []
+    for d in dirs:
+        part, probs, open_b = partial_problems(d)
+        if part and (probs or open_b): workable.append((d, probs, open_b))
+    print(f'E. "Read in part" targets still workable (unjustified, or gaps not blocked from outside): {len(workable)}')
+    for d, probs, open_b in workable:
+        why = f'{len(probs)} check(s) fail' if probs else 'open gaps: ' + ', '.join(sorted(open_b))
+        print(f'   {d}/  ({why})')
+        if not brief:
+            for p in probs: print(f'      - {p}')
     return problems, gaps
 
 # ---------------------------------------------------------------------------
@@ -252,7 +341,8 @@ def hook_start():
     if not problems:
         print(json.dumps({'suppressOutput': True})); return
     text = ('Write-up audit (docs/_check_writeup.py --audit). A finished cipher is not done until it is written up: '
-            'run the /writeup skill for it.\n' + buf.getvalue())
+            'run the /writeup skill for it. Section E lists partial readings that can still be pushed toward a full '
+            'reading: "read in part" is a stopping point only when every gap has an outside blocker.\n' + buf.getvalue())
     print(json.dumps({'hookSpecificOutput': {'hookEventName': 'SessionStart', 'additionalContext': text}}))
 
 def hook_stop():
@@ -262,8 +352,6 @@ def hook_stop():
         print(json.dumps({'suppressOutput': True})); return
     import io, contextlib
     with contextlib.redirect_stdout(io.StringIO()): _, gaps = audit(brief=True)
-    if not gaps:
-        print(json.dumps({'suppressOutput': True})); return
     # only targets this session worked in: a tool call whose input names a path in the folder (a folder merely
     # mentioned in prose, or in this script's own audit output, does not count); without a transcript, fall
     # back to uncommitted changes in the folder or notes edited in the last 6 h
@@ -273,18 +361,33 @@ def hook_stop():
     tool_lines = [l for l in transcript.splitlines() if '"type":"tool_use"' in l or '"type": "tool_use"' in l]
     status = git('status', '--porcelain')
     dirs = target_dirs()
-    mine = []
-    for d, why in gaps:
-        if transcript: touched = any(re.search(rf'"input":.*\b{re.escape(d)}[/\\]', l) for l in tool_lines)
-        else: touched = f' {d}/' in status or time.time() - dirs[d]['mtime'] < 6 * 3600
-        if touched: mine.append((d, why))
-    if not mine:
+    def touched(d):
+        if transcript: return any(re.search(rf'"input":.*\b{re.escape(d)}[/\\]', l) for l in tool_lines)
+        return f' {d}/' in status or time.time() - dirs[d]['mtime'] < 6 * 3600
+    mine = [(d, why) for d, why in gaps if touched(d)]
+    if mine:
+        names = ', '.join(d for d, _ in mine)
+        reason = (f'Write-up check: {names} reads as finished in NOTES.md ("{mine[0][1]}") but has no README results row '
+                  f'and no site page. Before stopping, either run the /writeup skill for it now (every surface, then '
+                  f'`python docs/_check_writeup.py {mine[0][0]}` must print "complete"), or, if it is not finished, put '
+                  f'"Status: in progress" at the top of {mine[0][0]}/NOTES.md so the check stops asking.')
+        print(json.dumps({'decision': 'block', 'reason': reason})); return
+    # a partial reading this session worked on: push it further, or justify each gap
+    part = []
+    for d in dirs:
+        if not (touched(d) if transcript else f' {d}/' in status): continue   # no mtime fallback here
+        is_part, probs, open_b = partial_problems(d)
+        if is_part and (probs or open_b): part.append((d, probs, open_b))
+    if not part:
         print(json.dumps({'suppressOutput': True})); return
-    names = ', '.join(d for d, _ in mine)
-    reason = (f'Write-up check: {names} reads as finished in NOTES.md ("{mine[0][1]}") but has no README results row '
-              f'and no site page. Before stopping, either run the /writeup skill for it now (every surface, then '
-              f'`python docs/_check_writeup.py {mine[0][0]}` must print "complete"), or, if it is not finished, put '
-              f'"Status: in progress" at the top of {mine[0][0]}/NOTES.md so the check stops asking.')
+    lines = [f'{d}: ' + ('; '.join(probs[:6]) if probs else 'gaps still open by choice: ' + ', '.join(sorted(ob)))
+             for d, probs, ob in part]
+    reason = ('Partial-reading check: "read in part" is a stopping point only when every unread piece has an outside '
+              'blocker (no-key-material, too-short, illegible, needs-physical-access). ' + ' | '.join(lines) +
+              '. Keep working the escalation steps (siblings, clear-pages, known-keys, print, key-rebuild, retry) '
+              'toward a full reading, and record each gap and step in NOTES.md "## Remaining gaps" / "## Escalation" '
+              'and profile.json outcome.gaps. If the work genuinely has to stop now, put "Status: in progress" '
+              'at the top of NOTES.md and say in your reply what is left.')
     print(json.dumps({'decision': 'block', 'reason': reason}))
 
 if __name__ == '__main__':

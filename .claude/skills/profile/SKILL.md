@@ -34,7 +34,10 @@ reader could check against the folder. Rules:
    verification, literature search. Dates where the notes or git give them.
 7. **Outcome** uses one fixed class. `fraction_read` is the share of enciphered tokens given a value; count it
    from the reading file when there is one, otherwise "unknown". `grades` counts H/C/M/I readings only when the
-   reading marks them.
+   reading marks them. For `read in part`, `fraction_read` is required and `gaps` lists every unread piece with
+   its blocker (`no-key-material`, `too-short`, `illegible`, `needs-physical-access`, `open-codes`), copied from
+   the `## Remaining gaps` section of NOTES.md (writeup skill, section 0a). The write-up checker rejects a partial
+   outcome without them.
 
 Keep `system.summary` to one sentence. Put prose in the `notes` fields, and keep those short: NOTES.md stays
 the narrative.

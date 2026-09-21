@@ -28,6 +28,11 @@ DECODE is always updated when the work adds anything, even without a reading. A 
 open" or closed unread still gets its `decode_updates/queue.json` entry in the same session: corrected metadata,
 sibling and duplicate records, and any transcription (see the writeup skill, `decode_updates/queue.json` step).
 
+**"Read in part" is a stopping point only when every unread piece has an outside blocker** (no key material,
+too short, illegible, needs physical access). Otherwise keep going: work through the escalation steps in the
+writeup skill (section 0a: siblings, clear pages, known keys, print, key rebuild, retry) and aim for a full
+reading. The checker and the Stop hook enforce the `## Remaining gaps` and `## Escalation` sections in NOTES.md.
+
 If a target is genuinely not finished, or deliberately not written up (found solved by others with nothing added
 here), put `Status: in progress` or `Status: no write-up` in the first forty lines of its `NOTES.md`.
 

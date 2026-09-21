@@ -28,6 +28,46 @@ not from memory. The slug is the folder name unless a page already exists under 
 - Dates: "Date" is the document's date. The work date is the day the finding first landed in the repository
   (`git log --diff-filter=A --format=%ad --date=short -- <folder>/ | tail -1` if it was not today).
 
+## 0a. Before writing up "read in part": push for the full reading
+
+A partial outcome is a stopping point, not a default. It is allowed only when every unread piece is blocked by
+something outside the session. Before choosing `partial`/`read in part`, work through each escalation step, and
+go back to the reading whenever a step turns something up:
+
+- `siblings`: open the neighbouring and sibling DECODE records, and the leaves next to the cipher in the volume
+  (R1944, Castelcicala, Haga, Wolff and Malvezzi were all finished this way).
+- `clear-pages`: check whether pages labelled "clear", "cleartext" or "postscript" are the decipherment (d'Affry,
+  Rechteren, Dandini).
+- `known-keys`: try every known key of the same series, archive, correspondent or decade (R784, Hernán Núñez, Rupert).
+- `print`: search the printed editions and calendars (CSP, Bain, Forbes, Fraknói, Nuntiaturberichte, Politische
+  Correspondenz, Parke, Lasry's GL.htm, Tomokiyo).
+- `key-rebuild`: extend the key from what already reads, by constrained or swap annealing, seeded EM, alphabetical
+  bracketing of the nomenclator, or LM context (Dandini, Balbases, Kauderbach, nunzio1718).
+- `retry`: run every unread group and doubtful reading again with the extended key, and regrade them.
+
+Then record the result in the folder's `NOTES.md`, which the checker parses:
+
+```
+## Remaining gaps
+- code groups 42, 57, 88 - blocker: open-codes; each occurs once, no context narrows them
+- letter of 3 May, lower half of f.12 - blocker: illegible; water stain, no other image
+- R1041 - blocker: no-key-material; different code, no key on DECODE or in print
+
+## Escalation
+- [x] siblings: R1036-R1042 opened; R1039 is the clear copy of the first segment
+- [x] clear-pages: none on the records
+- [x] known-keys: R1024, R1038 tried; R1038 fits
+- [x] print: Colenbrander, CSP grep, GL.htm: nothing
+- [x] key-rebuild: seeded anneal filled 11 groups
+- [n/a] retry: <reason, at least a few words>
+```
+
+Blockers: `no-key-material`, `too-short`, `illegible`, `needs-physical-access` count as outside the session.
+`open-codes` is allowed but keeps the target on the audit's list of workable partials (section E), and
+`not-attempted` is refused. Mirror the list into `profile.json` `outcome.gaps` and set `outcome.fraction_read`.
+`python docs/_check_writeup.py <slug>` fails a partial write-up until all of this is present. The Stop hook
+blocks once on any partial target the session worked on that is still unjustified or has open-codes gaps.
+
 ## 1. The page: `docs/<slug>.html`
 
 Copy the skeleton of a recent page. The builder regenerates nav, footer, contents strip, lead figure, byline date
