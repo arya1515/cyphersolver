@@ -1,0 +1,131 @@
+{
+ "schema_version": 1,
+ "target": "palm1727",
+ "title": "Palm (London) to Starhemberg, German letter with ciphered passages, 1727 (BL Add MS 32270 ff. 16-17; DECODE R7927, R7930)",
+ "documents": [
+  {
+   "id": "R7927",
+   "shelfmark": "British Library, Add MS 32270 ff. 16-17; DECODE R7927",
+   "date": "1727",
+   "year": 1727,
+   "country": "Holy Roman Empire",
+   "route": "London -> unknown",
+   "language": "German",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "A few groups glossed interlinearly by the Deciphering Branch (33=e, 23=n, 10=d, 15=t, 40=long s, 230=der); no full decipherment."
+   },
+   "length": {
+    "tokens": 185,
+    "distinct": 57,
+    "unit": "mixed",
+    "measured": true,
+    "file": "groups.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R7927_I35710_P1-P4 (P1 and P4 show-through only)",
+    "image_quality": "good",
+    "notes": "Clear German text in Kurrent script, with 14 ciphered passages; ct.txt keeps the clear context."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Numbers 2-79 for letters (47 values seen, about two per letter) and 3-figure groups for words and syllables (230 = der), in a mostly clear German letter.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 57,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "R7928 (Windischgraetz-Starhemberg letter key, 1-50) tested: does not fit the glosses"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Probably read at the time by the Deciphering Branch; no clear copy on DECODE, none found in print",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Selected the target; the DECODE session cookie was supplied earlier.",
+  "tools": [
+   "DECODE authenticated image download",
+   "DECODE API metadata",
+   "lang de-modern 5-gram simulated annealing",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE metadata R7927-R7930 and the images of R7927, R7928 and R7930 with the saved cookie; R7929 has no images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "R7930 turned out to be only the cover of a Palm-Visconti letter plus a 1-500 French/Italian nomenclator worksheet; the letter itself is not imaged. R7928 is a Windischgraetz-Starhemberg key fragment.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed the 14 cipher passages of R7927 with their clear context and the interlinear glosses.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Applied the R7928 letter key: it contradicts the glosses (40=r vs long s, 23=u vs n).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Simulated annealing on letter values with de-modern 5-grams, codes drawn from a word/syllable list, gloss values pinned; 6+6+6 restarts.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Web search for a printed decipherment of Palm's 1727 intercepts.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Too little ciphertext (162 letter tokens, 47 values) for ciphertext-only; needs Palm's Imperial key or the Deciphering Branch's clear copy."
+ }
+}

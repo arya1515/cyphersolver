@@ -111,6 +111,7 @@
   "ormanetto and clementino, spain nunciature, 1576–77 (asv segr. stato spagna 10)": "2026-09-21",
   "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
+  "palm to starhemberg, 1727": "2026-09-21",
   "paris 1719 and the carré letters, 1742–45 (bl add ms 32305)": "2026-09-21",
   "paris nunciature to the secretariat, 1586–87": "2026-09-21",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
@@ -279,7 +280,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "5d37060c2d03",
+   "hash": "777b9ee3234f",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -469,7 +470,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "1f1b84a99542",
+   "hash": "56e221484f1a",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -630,6 +631,11 @@
   "pallotto1629": {
    "first": "2026-09-20",
    "hash": "4a989407cd46",
+   "updated": "2026-09-21"
+  },
+  "palm1727": {
+   "first": "2026-09-21",
+   "hash": "e6e796095ee3",
    "updated": "2026-09-21"
   },
   "papai1706": {
@@ -959,7 +965,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "102492be7ce9",
+   "hash": "4eca12fe2892",
    "updated": "2026-09-21"
   },
   "yard1699": {

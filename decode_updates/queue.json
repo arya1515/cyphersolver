@@ -4238,6 +4238,31 @@
      "reading_not_needed": true
     }
    }
+  },
+  "palm1727": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/palm1727.html",
+   "key": {
+    "decode": "none: no key found (metadata correction only); R7928 (Windischgraetz) tested, does not fit"
+   },
+   "cite": null,
+   "fields": {
+    "cleartext_lang": "German",
+    "plaintext_lang": "German",
+    "cipher_types": "homophonic, nomenclator",
+    "start_year": "1727",
+    "receiver": "Count Starhemberg",
+    "origin_city": "London"
+   },
+   "records": {
+    "R7927": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "German letter of Karl Joseph von Palm, Imperial resident in London, 1727, mostly clear; 14 ciphered passages, a few groups glossed at the time (33=e 23=n 10=d 15=t 40=long s 230=der). Not read: no key found. R7930 (f.41) holds only a cover and a French/Italian decipherer worksheet, no ciphertext.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

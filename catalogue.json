@@ -589,16 +589,16 @@
    "counted": true,
    "year": 1727,
    "date": "14 Mar 1727",
-   "title": "Palm (Germany) to Visconti / Staremberg, 2 ciphertexts",
+   "title": "Palm (London) to Starhemberg, German letter with ciphered passages, 1727",
    "correspondents": "Palm → Visconti / Staremberg",
    "place": "Germany",
-   "language": "...",
+   "language": "German",
    "region": "England",
    "period": "1701-1800",
    "shelfmark": "BL, Add MS 32270 (2 items)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R7927–R7930 (2 records): Partially decrypted, 3 pp., homophonic, nomenclator, unknown; numerical; images login. Not viewed here. 101 key record(s) from the same series on DECODE, nearest R8048 (1719). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: Calculations.",
+   "status": "DECODE R7927-R7930 viewed 21 Sept 2026 (palm1727/). R7927 ff.16-17: German letter, mostly clear, 14 passages in a homophonic cipher (2-79) with 3-figure codes; a few groups glossed at the time (33=e 23=n 10=d 15=t 40=long s 230=der). R7928 = Windischgrätz-Starhemberg letter key, does not fit. R7930 f.41 = cover of a Palm-Visconti letter + French/Italian 1-500 worksheet; that letter not imaged. 162 letter tokens: 5-gram annealing failed. Needs Palm's key or the Deciphering Branch clear copy.",
    "why": "Ciphered despatches of Palm to Visconti / Staremberg, 14 Mar 1727; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 4,
@@ -622,7 +622,8 @@
     7927,
     7930
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 75,
