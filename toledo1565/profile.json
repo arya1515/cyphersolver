@@ -93,7 +93,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "no",
-   "where": "Tomokiyo lists 1565 Malta cipher letters as undeciphered and not this one; PARES has no decipherment",
+   "where": "Tomokiyo lists 1565 Malta cipher letters as undeciphered and not this one; PARES has no decipherment. 'Undeciphered' on cryptiana means no contemporary decipherment, not unsolved; whether Tomokiyo or anyone else holds this easy alphabetical key is not known.",
    "found": "not found",
    "used": false
   },
@@ -156,6 +156,12 @@
    "kind": "verification",
    "what": "Found the same-day companion letter EST,LEG,1394,249 (duplicate, one page) by PARES search; its cipher runs decode with the same key (entrado el socorro, Cabo Bono, Argel, las galeras con la gente a la Goleta, partiran las galeras manana), adding a barred-theta sign for ll. Not read in full.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Novelty re-examined. G. Lasry (21 Sept 2026): on cryptiana 'undeciphered' means no interlinear or nearby deciphered copy, not unsolved; unsolved material is on the unsolved page. The key was rebuilt here from two cribs in the clear text, but it is easy and may have been recovered before; the claim is a reading of this letter, not a first break."
   }
  ],
  "outcome": {

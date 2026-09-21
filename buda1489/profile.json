@@ -202,6 +202,12 @@
    "kind": "reading",
    "what": "22 Nov 1489 letter read across all four pages, new sign values gained along the way.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Framing corrected: 'nobody had deciphered' becomes 'no published decipherment'; Somogyi held the key and printed a specimen of the letter."
   }
  ],
  "outcome": {

@@ -122,7 +122,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "partial",
-   "where": "Lasry's 2023 key on Cryptiana (Tomokiyo); no reading of these letters",
+   "where": "Lasry's 2023 key on Cryptiana (Tomokiyo); no reading of these letters. Lasry notes the same cipher in BnF fr. 3045 f. 28 and fr. 3034 f. 154.",
    "found": "before attempt",
    "used": true
   },
@@ -178,6 +178,12 @@
    "kind": "reading",
    "what": "Read nos. 65 and 66 in full and no. 63 as far as its leaves go.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Contribution re-assessed on Lasry's note (21 Sept 2026): the key serves the whole volume, and checking for a shared key within one collection is standard, so this is not a key found elsewhere. The main achievement is transcription. The same cipher is in fr. 3045 f. 28 and fr. 3034 f. 154 (not read here)."
   }
  ],
  "outcome": {

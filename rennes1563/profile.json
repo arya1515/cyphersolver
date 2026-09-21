@@ -55,8 +55,8 @@
   },
   "conditions": {
     "prior_solution": {
-      "exists": "no",
-      "where": "La Ferriere (1885) prints the letter with the ciphered block left blank as 'Partie chiffree'; Tomokiyo marks f. 55 undeciphered while publishing a reconstructed key for the cipher.",
+      "exists": "partial",
+      "where": "La Ferriere (1885) prints the letter with the ciphered block left blank as 'Partie chiffree'; Tomokiyo marks f. 55 undeciphered while publishing a reconstructed key for the cipher. Tomokiyo held the key, so an unpublished reading may exist; 'undeciphered' on cryptiana means no contemporary decipherment.",
       "found": "during attempt",
       "used": false
     },
@@ -78,7 +78,8 @@
     {"date": "2026-09-20", "kind": "crib", "what": "Calibrated the key on this scribe's shapes against the line-by-line margin decipherment of the sibling letter f. 57 (13 Aug 1563, view 38); its first ciphered line reads 'que les princes', fixing p, r, i, n, c and e.", "result": "worked"},
     {"date": "2026-09-20", "kind": "transcription", "what": "Transcribed all thirteen ciphered lines of f. 55 into 401 glyph tokens from native-resolution thirds.", "result": "partial"},
     {"date": "2026-09-20", "kind": "reading", "what": "Decoded the token stream with the calibrated key; recovered continuous French including 'sceu ce que vous avez descouvert', 'du mariage', 'vostre advis', 'd'iceulx en mon intention', 'ayt tenu ce chemin', 'entendu ce que le', 'vous mist en avant, qui l'avoit', 'l'avancement du concile, a ce que', 'de ce concile, mais nous', 'avoir l'utilite qui en sortira', 'que vous avez oy', 'par lettres'.", "result": "partial"},
-    {"date": "2026-09-20", "kind": "verification", "what": "The reading is consistent with the clear text framing it (Catherine answers Rennes' letter of 18 June) and with the situation: the Council of Trent's closing sessions and the Habsburg marriage negotiation are enciphered while the Havre-de-Grace news in the same letter is left in clear.", "result": "worked"}
+    {"date": "2026-09-20", "kind": "verification", "what": "The reading is consistent with the clear text framing it (Catherine answers Rennes' letter of 18 June) and with the situation: the Council of Trent's closing sessions and the Habsburg marriage negotiation are enciphered while the Havre-de-Grace news in the same letter is left in clear.", "result": "worked"},
+    {"date": "2026-09-21", "kind": "literature search", "result": "partial", "what": "Prior-solution status changed from 'no' to 'partial'. G. Lasry (21 Sept 2026): on cryptiana 'undeciphered' means no interlinear or nearby deciphered copy, not unsolved; unsolved material is on the unsolved page. The page's inference 'so the passage had never been read' was withdrawn."}
   ],
   "outcome": {
     "class": "read in part",

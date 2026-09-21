@@ -450,6 +450,12 @@
    "kind": "sibling key",
    "what": "Applied the same key to R115 (Spagna 6/II/13, 1569, catalogue 254); it reads.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "result": "worked",
+   "what": "Lasry (21 Sept 2026) rates this above the cases without key recovery: transcription plus decoding under an ambiguous polyphonic key. Ranking difficulty raised from 2 to 3."
   }
  ],
  "outcome": {

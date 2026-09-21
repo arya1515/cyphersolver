@@ -165,7 +165,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "partial",
-   "where": "A key for each of the two ciphers published by Tomokiyo as images on cryptiana, reconstructed from sibling leaves but never applied to these four, which he lists as undeciphered; contemporary clear copies of all four letters in Brienne 13 (NAF 6984), unprinted; Berger de Xivrey prints a sibling (t. III p. 719)",
+   "where": "A key for each of the two ciphers published by Tomokiyo as images on cryptiana, reconstructed from sibling leaves and no reading of these four published; he lists them as undeciphered (no contemporary decipherment, not unsolved), so he may have read them; contemporary clear copies of all four letters in Brienne 13 (NAF 6984), unprinted; Berger de Xivrey prints a sibling (t. III p. 719)",
    "found": "during attempt",
    "used": true
   },
@@ -245,6 +245,12 @@
    "kind": "reading",
    "what": "All four letters read from the Brienne clear copies; f. 406 shown to be the duplicate of f. 404, so the four leaves are three despatches.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Novelty re-examined after Lasry's note on 'undeciphered'. G. Lasry (21 Sept 2026): on cryptiana 'undeciphered' means no interlinear or nearby deciphered copy, not unsolved; unsolved material is on the unsolved page. The page no longer says Tomokiyo 'never applied' his keys; the claim is a published reading only."
   }
  ],
  "outcome": {

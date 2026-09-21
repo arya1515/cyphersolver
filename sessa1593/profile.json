@@ -167,7 +167,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "partial",
-   "where": "Keys published by Tomokiyo as images on cryptiana (spanish3.htm), reconstructed from other letters and never applied to these four; the office's own key survives at BnF fr. 3995 f. 97 and is catalogued on DECODE as records 4076-4077; a contemporary decipherer glossed part of no. 47. No published reading of any of the four letters.",
+   "where": "Keys published by Tomokiyo as images on cryptiana (spanish3.htm), reconstructed from other letters with no published reading of these four; the office's own key survives at BnF fr. 3995 f. 97 and is catalogued on DECODE as records 4076-4077; a contemporary decipherer glossed part of no. 47. No published reading of any of the four letters.",
    "found": "during attempt",
    "used": true
   },
@@ -241,6 +241,12 @@
    "kind": "verification",
    "what": "The obvious candidate for the missing Feria-Mansfeld nomenclature, fr. 3995 f. 101, fetched and excluded: it is an Italian nomenclature belonging to another correspondence.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Novelty re-examined. G. Lasry (21 Sept 2026): on cryptiana 'undeciphered' means no interlinear or nearby deciphered copy, not unsolved; unsolved material is on the unsolved page. 'Never applied' replaced by 'no published reading'."
   }
  ],
  "outcome": {

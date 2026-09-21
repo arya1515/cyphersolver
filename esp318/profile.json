@@ -180,7 +180,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "partial",
-   "where": "No. 5 printed by Parisi 2020; no. 95 key by Lasry 2022; no. 92 key printed by Galende Díaz 1994 and partial interlinear gloss; nos. 93-94 none",
+   "where": "No. 5 printed by Parisi 2020; no. 95 solved by Lasry 2022 (GL.htm: 'is solved'; alphabet published as an image, no plaintext); no. 92 key printed by Galende Díaz 1994 and partial interlinear gloss; nos. 93-94 none",
    "found": "during attempt",
    "used": true
   },
@@ -263,6 +263,12 @@
    "kind": "transcription",
    "what": "Band-clipped segmentation and DP template tiling for no. 95; no gain beyond the same two thirds.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "No. 95 re-examined: cryptiana GL.htm says Lasry solved the letter itself in 2022, not just its alphabet. The page and the ranking (novelty 5 to 3) were corrected."
   }
  ],
  "outcome": {

@@ -108,7 +108,13 @@
   {"date": "2026-09-20", "kind": "reading", "what": "Deciphered R75 (1,446 code groups) and R84 (954), the two letters of this dossier that had never been read.", "result": "partial"},
   {"date": "2026-09-20", "kind": "control", "what": "Checked the reading of R75 against the 1632 interlinear decipherment, which was used for nothing else: 1,105 letters on 24 legible lines, 77.5% agreement ignoring word division.", "result": "worked"},
   {"date": "2026-09-20", "kind": "crib", "what": "Aligned the reading against the interlinear to read nomenclator meanings off it; 22 elements caught a witness fragment.", "result": "partial"},
-  {"date": "2026-09-20", "kind": "verification", "what": "Six elements survived checking against Lasry's four letters, where they were not fitted: 474 mente, 495 quanto, 498 tanto, 830 Francia, 854 guerra, 149 piazza. Adding them raised the R75 control agreement from 0.737 to 0.775. Element 491 drew the fragment 'goto' (Sweden) but fails its four contexts in Lasry's letters; left open.", "result": "partial"}
+  {"date": "2026-09-20", "kind": "verification", "what": "Six elements survived checking against Lasry's four letters, where they were not fitted: 474 mente, 495 quanto, 498 tanto, 830 Francia, 854 guerra, 149 piazza. Adding them raised the R75 control agreement from 0.737 to 0.775. Element 491 drew the fragment 'goto' (Sweden) but fails its four contexts in Lasry's letters; left open.", "result": "partial"},
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Framing corrected: 'nobody had read' becomes 'without a published reading', since Lasry held the dossier's key and may have decoded these two letters too (as with Gramont)."
+  }
  ],
  "outcome": {
   "class": "read in part",

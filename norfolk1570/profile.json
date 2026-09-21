@@ -118,6 +118,12 @@
    "kind": "verification",
    "what": "Content dated after Moray's murder (Jan 1570): Morton rumour, Lord Talbot, Elizabeth's blame.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "Novelty re-examined. G. Lasry (21 Sept 2026): on cryptiana 'undeciphered' means no interlinear or nearby deciphered copy, not unsolved; unsolved material is on the unsolved page. The key was available (Tomokiyo); the contribution is the transcription and the reading."
   }
  ],
  "outcome": {

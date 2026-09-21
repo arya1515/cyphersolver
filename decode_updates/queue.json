@@ -60,7 +60,7 @@
     "R75": {
      "decode_status": "Partially",
      "proposed": "Partially decrypted",
-     "note": "R75, R84 read for the first time (~92% tokens valued); most nomenclator names still open.",
+     "note": "R75, R84 read, with no previously published reading (~92% tokens valued); most nomenclator names still open.",
      "reading": [
       {
        "file": "ceva1632/r75.read.txt"
@@ -71,7 +71,7 @@
     "R84": {
      "decode_status": "Partially",
      "proposed": "Partially decrypted",
-     "note": "R75, R84 read for the first time (~92% tokens valued); most nomenclator names still open.",
+     "note": "R75, R84 read, with no previously published reading (~92% tokens valued); most nomenclator names still open.",
      "reading": [
       {
        "file": "ceva1632/r84.read.txt"
