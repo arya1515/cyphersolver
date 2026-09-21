@@ -9,6 +9,17 @@ Code numbers glossed on f. 79: 7 = the Queen, 10 = Lord Admiral, 15 = Duke of Pa
 - "… **to these termes** (M) as usuall **in all armadas** (H) in numbers, that at the **armada** (M) **on** … which was the 20"
 - "Dunkergh: 22 is so **forwarde** (H) in the **action** (M) that he promised Q[ueen] to … 27 to begin the …"
 
+## f. 80r, second full-resolution pass (reading_ff80_92_96_full.md)
+- New sign: a short horizontal stroke "-" = b ("be", "subiects", "Brede").
+- "hoping theym in the ◻ lances(?)"; the sign after ◻ is the circle-with-stem sign (l/t), so "expences" is doubtful.
+- "touching **hostages** (M) yt ys honorable for **7** [the Queen] (H) … **they** (H) … **to these termes** (H)"
+- "in all **armada** (H) … at the armad[a] **of Brede**(I) which was the 20 and the **subiects** (H)"
+- "22 … promised Q: to **send** (M) … 27 to begin the **openning** (M) **of the** (H)"
+- "a **broth[er]**(I) about 15 who promised the mayor … a **haven** (M) to open"
+
+## f. 81r top
+- "22 hath a **desire** (M) **to retourne** (M) from theym yf he be not more **restrain[ed]**(I)"
+
 ## f. 88r (R8492) — see reading_f88.md
 - "captain Montgomery of late gone into Scotland … **captain** (M) [name] with 40 men of …, [who] have promised
   **the haven** (H) **of Rain** (M) … **spoil** (M) … **there** (H) to **15** [Parma] (H)"
