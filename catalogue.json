@@ -990,41 +990,6 @@
    "scored": "rule"
   },
   {
-   "id": 68,
-   "counted": true,
-   "year": 1721,
-   "date": "18 Nov 1721",
-   "title": "Windischgrätz, Leopold Viktorin von (Brussels) to Windischgrätz, Ernst Friedrich von",
-   "correspondents": "Windischgrätz, Leopold Viktorin von → Windischgrätz, Ernst Friedrich von",
-   "place": "Brussels, Belgium",
-   "language": "German",
-   "region": "Bohemia",
-   "period": "1701-1800",
-   "shelfmark": "SOA Plzeň, pracoviště Klášter u Nepomuka, Rodinný archiv Windischgrätzů, inv. nr. 1433, karton nr. 202",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R5029: Non-decrypted, 8 pp., homophonic, nomenclator; numerical; images public. Not viewed here. 2 key record(s) from the same series on DECODE, nearest R5018 (1720). DECODE note: For more information about the sender and receiver see e. g.: Windischgrätz, Ernst Friedrich von Windischgrätz, Leopold Viktorin von Related paper: MÍRKA, Jakub. Raně novověká šifrovaná korespondence ve fondech šlechtických rodinných archivů Státního oblastníh…",
-   "why": "Ciphered letter of Windischgrätz, Leopold Viktorin von to Windischgrätz, Ernst Friedrich von, 18 Nov 1721; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R5029",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/5029"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    5029
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 70,
    "counted": false,
    "year": 1742,

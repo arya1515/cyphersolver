@@ -1,0 +1,134 @@
+{
+ "schema_version": 1,
+ "target": "windischgraetz1721",
+ "title": "Windischgraetz brothers, Brussels, 18 Nov 1721 (DECODE R5029)",
+ "documents": [
+  {
+   "id": "R5029",
+   "shelfmark": "SOA Plzen, Klaster u Nepomuka, RA Windischgraetz inv. 1433, karton 202 (DECODE R5029)",
+   "date": "18 November 1721",
+   "year": 1721,
+   "country": "Belgium",
+   "route": "Brussels -> Ernst Friedrich (or Leopold Viktorin) von Windischgraetz",
+   "language": "German",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No reading of this letter on DECODE; read here with Mirka's reconstructed key attached to the record."
+   },
+   "length": {
+    "tokens": 181,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "ct.txt",
+    "image_quality": "good",
+    "notes": "Bracketed clear context excluded from the count."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Two numbers per letter (1-48, A=24/36 ... Z=1/37) plus a nomenclator of codes 52-225.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "dots"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "sibling_key": "DECODE R5029 xlsx (Mirka 2023)",
+  "notes": "Cipher passages embedded in clear German."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Mirka's reconstructed key on the DECODE record; no reading of this letter",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Posed the target from the catalogue.",
+  "tools": [
+   "table decoder"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE R5029's five images, record page and attached xlsx with the project cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Found Jakub Mirka's reconstructed key (2023) as the xlsx on the record itself; the catalogue's suggested keys R5017/R5018 are the Emperor's, not this cipher.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed the 13 cipher passages (181 groups) by eye from full-resolution crops, clear context in brackets (ct.txt).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Applied Mirka's two-numbers-per-letter table with dec.py: all letter-spelled passages give German (EXCUSATION ZU MACHEN, SUCCESSION, NIEMAHLEN ANZUNEHMEN).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Tried to fix open nomenclator codes (78, 103, 182, 205...) from context; none secure.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.82,
+  "grades": {
+   "H": 148,
+   "I": 33
+  },
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "148 of 181 groups read; 23 nomenclator codes (33 groups) open."
+ }
+}

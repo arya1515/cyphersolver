@@ -116,6 +116,7 @@
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
+  "the windischgrätz brothers, brussels, 18 nov 1721": "2026-09-21",
   "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
   "vatican part 5, 1542": "2026-09-15",
@@ -200,7 +201,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "78bfa74790ac",
+   "hash": "fbebadda911a",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -345,7 +346,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "1b93947f96ed",
+   "hash": "ebee5cce566d",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -658,9 +659,14 @@
    "hash": "b5a54e19805c",
    "updated": "2026-09-19"
   },
+  "windischgraetz1721": {
+   "first": "2026-09-21",
+   "hash": "4fc234ac37ae",
+   "updated": "2026-09-21"
+  },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "ef5515b2751a",
+   "hash": "2f01f0296209",
    "updated": "2026-09-21"
   },
   "yard1699": {
