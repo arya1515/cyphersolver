@@ -3012,7 +3012,7 @@
     "R9251": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Forbes's copy of the ciphered words only. Date is 9 Mar 1567/8 Old Style = 9 Mar 1568. Only the top of p.1 is Norreys (6 Feb end, 9 Feb, 24 Feb, 9 Mar 1567/8), read in part with the Cecil-Norris cipher (Tomokiyo, from Cabala 1663); 9 Mar: group 2 'Pope'? (low confidence), two name signs unread. The rest of the record is copies of Throckmorton 27 Aug 1562, Middlemore 8 Apr 1563 and Smith 7 Mar 1562/3, in other ciphers.",
+     "note": "Forbes's copy of the ciphered words only. Date is 9 Mar 1567/8 Old Style = 9 Mar 1568. Only the top of p.1 is Norreys (6 Feb end, 9 Feb, 24 Feb, 9 Mar 1567/8), read in part with the Cecil-Norris cipher (Tomokiyo, from Cabala 1663); 9 Mar: the French King, group 2 not read, the Queen of Scots? (by position). The rest of the record is copies of Throckmorton 27 Aug 1562, Middlemore 8 Apr 1563 and Smith 7 Mar 1562/3, in other ciphers.",
      "reading": "decode_updates/decryptions/R9251.txt",
      "sent": false
     }

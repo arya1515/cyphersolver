@@ -1,6 +1,6 @@
 # Sir Henry Norreys to Cecil, 1567-68 — BL Add MS 4136 ff. 160-161 (DECODE R9251, part of R9250)
 
-Status: read in part (21 Sept 2026): siblings read with Tomokiyo's table (shuffle control), target 9 Mar 1568 group 2 "Pope"? (I), two name signs unread. Catalogue 90.
+Status: read in part (21 Sept 2026): siblings read with Tomokiyo's table (shuffle control), target 9 Mar 1568: (1) the French King (H), (2) "a t ? l" not read, (3) the Queen of Scots? (I). Catalogue 90.
 
 ## What the record is
 
@@ -46,18 +46,19 @@ Ec = the Prince of Condé, fk = the Admiral (9 Feb 6, 8, 9 and 24 Feb 2, 3, 4, s
 | 24 Feb 1568 | 2-4 | Xr Ec fk | the Protestants, the Prince, the Admiral | 2025 same order |
 | 24 Feb 1568 | 6 | m̄ | money (C) | "that they may have money" |
 | 24 Feb 1568 | 8 | ♃ ⊏ ω T 9 ш | **remain** | "will not long remain with them" |
-| **9 Mar 1568** | 1 | name sign | not read (first pass: ꝺ rotated = the French King; shape match too loose) | 2054 "the King despatched …" |
-| **9 Mar 1568** | 2 | crossed arrowhead, o, loop, ∞ (four signs) | **Pope?** (I) | "… to the Pope, the Emperor, the King Catholic, and the Swiss" |
-| **9 Mar 1568** | 3 | closed-loop name sign | not read ("the Queen [of Scots]" by position only) | "for the delivery of the Queen" |
+| **9 Mar 1568** | 1 | ꝺ (rotated) | **the [French] King** (H) | 2054 "the King despatched …"; same sign 6 Feb 5/13, 9 Feb 5 |
+| **9 Mar 1568** | 2 | crossed arrowhead, o, loop, ∞ (four signs) | not read: a t ? l | "… to the Pope, the Emperor, the King Catholic, and the Swiss" |
+| **9 Mar 1568** | 3 | ∂ (closed loop) | the Queen [of Scots]? (I) | "for the delivery of the Queen" |
 
-Grades as in README Conventions. (2) was first read as five signs, "Catholic" abbreviated (M). Re-examined on
-the image it is four signs: the arrowhead is plausibly the table's 4+ = p turned, o fits, the loop is not in the
-table, ∞ = l or an e variant; hence "Pope"? at grade I. The name signs are nomenclator entries; the name list is
-missing.
+Grades as in README Conventions. (2) is four signs. *Cabala* p. 152 prints the crossed arrowhead inside the "all"
+before *papists*, where p is 4 and 4+, so it is not p: "Pope" is withdrawn. + = a (Norreys's "earl", 6 Feb),
+o = t (*papists*), ∞ = l, the loop unmatched: "a t ? l", not read. "Catholic" (first guess) is withdrawn too.
+(1) is the same French King sign as in 6 Feb 5/13 and 9 Feb 5 (H); (3) the Queen of Scots by position only (I).
+The session note below that left (1) and (3) unread and read (2) as "Pope" is superseded.
 
 ## Open
 
-- 9 Mar (1) and (3) name signs unread, (2) "Pope" grade I; 4 June 1567 groups 1, 3, 4, 6 and 7 and 10 July (2) are not read. The
+- 9 Mar (2) not read, (3) graded I; 4 June 1567 groups 1, 3, 4, 6 and 7 and 10 July (2) are not read. The
   4 June tail matches "… France, Flanders, and England" in length only.
 - 6 Feb groups 7, 9, 12, 16, 17, 20, 23; 9 Feb 10, 11; 24 Feb 1, 7.
 - The originals in TNA SP 70/96-97 probably carry interlinear decipherments; not seen (State Papers Online).

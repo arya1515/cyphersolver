@@ -175,6 +175,11 @@
    "kind": "reading",
    "what": "Target 9 Mar 1568 re-examined on the image: (2) is four signs, tentatively 'Pope' (grade I), revising the first pass's 'Catholic' (M); (1) and (3) are nomenclator name signs, not in the table, left unread (first pass's French King identification withdrawn as too loose).",
    "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Target 9 Mar 1568 settled: (1) French King name sign restored (H, same sign as 6 Feb 5/13, 9 Feb 5); (2) 'a t ? l' not read, 'Pope' and 'Catholic' rejected on Cabala p.152 (crossed arrowhead is not p); (3) Queen of Scots? by position (I).",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -183,6 +188,6 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 2 'Pope'? grade I, items 1 and 3 (name signs) unread."
+  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I)."
  }
 }
