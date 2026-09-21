@@ -56,7 +56,7 @@
   "word_division": "unknown",
   "doubled_letters": "unknown",
   "sibling_key": "Tomokiyo's Lee-Worcester key, document on DECODE R8566",
-  "notes": "Cipher only in four short runs of R8566. The other 16 DECODE records (R8458-R8460, R8462, R8536-R8538, R8542-R8544, R8549, R8550, R8561, R8585-R8587, and R8602 of 20 Apr 1529 added later) are clear despatches with no cipher, so they are not listed as documents."
+  "notes": "Cipher only in four short runs of R8566. The other DECODE records (R8458-R8460, R8462, R8536-R8538, R8542-R8544, R8549, R8550, R8561, R8585-R8587, and R8602 of 20 Apr 1529 and R8578 of 16 Oct 1528, both added later) are clear despatches with no cipher, so they are not listed as documents."
  },
  "conditions": {
   "prior_solution": {
@@ -114,6 +114,18 @@
    "what": "Looked at both pages: a clear English despatch of Lee to Wolsey dated at Saragossa 20 April 1529, with postscript and signature; no cipher.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "access",
+   "what": "Catalogue 106 (DECODE R8578, Vesp. C IV f. 284, 16 Oct 1528, 'Epus Wigorn, Ed. Lee'): downloaded both images with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Looked at both pages of R8578: a clear English despatch of Ghinucci and Lee to Wolsey, Valladolid 16 Oct 1528, on English ships seized by the Emperor's subjects; no cipher sign on either page.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
@@ -122,6 +134,6 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher."
+  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher. R8578 (catalogue 106, 16 Oct 1528) is the same: clear, no cipher."
  }
 }

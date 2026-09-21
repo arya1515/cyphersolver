@@ -3325,6 +3325,14 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8578": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Girolamo Ghinucci (bishop of Worcester) and Edward Lee to Cardinal Wolsey, Valladolid, 16 Oct 1528, on English ships and goods seized by the Emperor's subjects; no cipher on either page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  }

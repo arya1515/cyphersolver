@@ -45,3 +45,12 @@ Toledo and the bishop of Palencia over the pensions due to Wolsey, and Lee's bil
 Worcester and Francis Poyntz. Dated "at Cesaraugusta the xx of April 1529", with a postscript and the signature
 "Edouarde Lee". There is no cipher on either page. "Cysar-Augusta" is the place of writing, not a co-sender. Removed from
 the catalogue 21 Sept 2026; DECODE correction queued.
+
+## Catalogue 106: R8578 (16 Oct 1528), added the same day
+
+Catalogue no. 106 ("Epus Wigorn, Ed. Lee (Hispania) to unknown recipient", Vesp. C IV f. 284, DECODE R8578, 2 pp.)
+belongs to the same series. Both images were downloaded and read. It is a clear English despatch in a secretary hand,
+Ghinucci and Lee to Wolsey ("Please it your grace"), Valladolid, 16 October 1528, signed "Hier. Eps Wigornien /
+Edouardus Leus". It concerns English ships and goods seized by the Emperor's subjects (Radcliff's suit, the ships of
+Dartmouth, a merchant's claim against Don Hurtado and the Emperor's offer of compensation). Neither page has a cipher
+sign, so DECODE's "Non-decrypted" and "alphabet" are wrong. Closed and removed from the catalogue 21 Sept 2026.
