@@ -1,0 +1,115 @@
+{
+ "schema_version": 1,
+ "target": "lee1526",
+ "title": "Edward Lee (and Ghinucci) to Wolsey from Spain, 1526-1529 (BL Cotton MS Vespasian C III-C IV; DECODE R8458-R8587)",
+ "documents": [
+  {
+   "id": "R8566",
+   "shelfmark": "BL Cotton MS Vespasian C IV (DECODE R8566)",
+   "date": "1527-07-17",
+   "year": 1527,
+   "country": "England",
+   "route": "Spain (imperial court) -> England (Wolsey)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary decipherment written above each of the four cipher runs."
+   },
+   "length": {
+    "tokens": 100,
+    "distinct": 62,
+    "unit": "mixed",
+    "measured": true,
+    "file": "plaintext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R8566_I39505_P2, P4, P5",
+    "image_quality": "good",
+    "notes": "Only the interlinear decipherment was transcribed; the sign cipher was spot-checked, not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Lee-Worcester sign cipher (1526-29): graphic-sign alphabet with word and name signs.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Tomokiyo's Lee-Worcester key, document on DECODE R8566",
+  "notes": "Cipher only in four short runs of R8566. The other 16 DECODE records (R8458-R8460, R8462, R8536-R8538, R8542-R8544, R8549, R8550, R8561, R8585-R8587) are clear despatches with no cipher, so they are not listed as documents."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Interlinear contemporary decipherment in R8566; Tomokiyo key on DECODE R8566",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Downloaded all 46 images of the 17 DECODE records and the key document on R8566 with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Looked at every page: 16 records are clear despatches to Wolsey with no cipher; R8566 has four short cipher runs.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the contemporary interlinear decipherment of the four runs in R8566.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Spot-checked against Tomokiyo's Lee-Worcester key: signs under 'possibilite ... good' read p-o-ss-i-b-i-l-i-t-e and g-o-o-d.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1,
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read."
+ }
+}

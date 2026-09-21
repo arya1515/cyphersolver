@@ -3169,5 +3169,155 @@
     "reading_not_needed": true
    }
   }
+ },
+ "lee1526": {
+  "writeup": null,
+  "key": {
+   "decode": "Tomokiyo's Lee-Worcester key, DOC_8566 on R8566",
+   "lang": "EN"
+  },
+  "cite": null,
+  "fields": {
+   "sender": "Edward Lee (with Girolamo Ghinucci from 1527)",
+   "receiver": "Cardinal Thomas Wolsey"
+  },
+  "records": {
+   "R8458": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8459": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8460": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8462": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8536": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8537": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8538": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8542": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8543": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8544": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8549": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8550": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8561": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8585": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8586": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8587": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee (from 1527 jointly with Girolamo Ghinucci, bishop of Worcester) to Cardinal Wolsey; no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8566": {
+    "decode_status": "Partially decrypted",
+    "proposed": "Decrypted",
+    "note": "Lee and Ghinucci to Wolsey, Valladolid, 17 July 1527. Four short runs in the Lee-Worcester sign cipher, each with a contemporary interlinear decipherment that agrees with Tomokiyo's key (attached document). Recipient: Wolsey.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }
