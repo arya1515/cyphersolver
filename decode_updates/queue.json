@@ -4068,6 +4068,54 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8552": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English leaf of the despatch of Lee, Ghinucci and Poyntz to Cardinal Wolsey, Valladolid 17 July 1527 (L&P IV no. 3271); no cipher on the page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8553": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English leaf of the despatch of Lee, Ghinucci and Poyntz to Cardinal Wolsey, Valladolid 17 July 1527 (L&P IV no. 3271); no cipher on the page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8554": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English leaf of the despatch of Lee, Ghinucci and Poyntz to Cardinal Wolsey, Valladolid 17 July 1527 (L&P IV no. 3271); no cipher on the page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8555": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English leaf of the despatch of Lee, Ghinucci and Poyntz to Cardinal Wolsey, Valladolid 17 July 1527 (L&P IV no. 3271); no cipher on the page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8568": {
+    "decode_status": "Partially decrypted",
+    "proposed": "Decrypted (at the time)",
+    "note": "Ghinucci, Lee and Poyntz to Cardinal Wolsey, Valladolid, July 1527 (L&P IV 3271-3272). Clear despatch; the cipher runs are all deciphered interlinearly in a contemporary hand. Cipher: the Lee-Worcester sign cipher (Tomokiyo's key, R8566).",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8573": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted (at the time)",
+    "note": "Ghinucci and Lee to Cardinal Wolsey, Burgos, 26 Dec 1527 (MS: 'the xxvj day of decembre 1527'); in Lee's hand. Calendared as Letters and Papers Henry VIII IV no. 3518 (misdated 26 Oct there), with 'Decipher of the above by Tuke, pp. 5' on a separate leaf not imaged here. Cipher: Lee-Worcester sign cipher (Tomokiyo's key, R8566). Recipient Wolsey.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  },

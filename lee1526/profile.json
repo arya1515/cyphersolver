@@ -215,6 +215,24 @@
    "what": "Looked at all four pages: one clear English despatch of Lee to Wolsey, Valladolid 29 June 1527 ('your grace most bounden priest'), split across the two records; no cipher sign on any page.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "access",
+   "what": "Catalogue 109 (DECODE R8552-R8555, R8568, R8573, Vesp. C IV, 1527, 'Eps. Wigorn'): downloaded all 18 images with the session cookie; contact sheet.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "R8552-R8555 are clear leaves of L&P IV 3271 (17 July 1527); R8568 has its cipher runs deciphered interlinearly.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "R8573 (Burgos, MS dated 26 Dec 1527) is a real cipher letter with no gloss; matched to L&P IV 3518 through its ciphered postscript's clear gloss ('not yet spoken of the French king's cession of the title of Milan'); L&P records Tuke's 5-page decipherment and misdates the letter 26 Oct.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {

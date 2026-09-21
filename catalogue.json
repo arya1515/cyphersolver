@@ -1288,66 +1288,6 @@
    "scored": "rule"
   },
   {
-   "id": 109,
-   "counted": true,
-   "year": 1527,
-   "date": "1527 – 26 Dec 1527",
-   "title": "Eps. Wigorn (Hispania) to unknown recipient, 6 ciphertexts",
-   "correspondents": "Eps. Wigorn → unknown recipient",
-   "place": "Hispania, Burgos",
-   "language": "English",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Vespasian C IV (6 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R8552–R8573 (6 records): Partially decrypted, 17 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here.",
-   "why": "Ciphered despatches of Eps. Wigorn to unknown recipient, 1527 – 26 Dec 1527; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8552",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8552"
-    },
-    {
-     "label": "DECODE R8553",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8553"
-    },
-    {
-     "label": "DECODE R8554",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8554"
-    },
-    {
-     "label": "DECODE R8555",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8555"
-    },
-    {
-     "label": "DECODE R8568",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8568"
-    },
-    {
-     "label": "DECODE R8573",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8573"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8552,
-    8553,
-    8554,
-    8555,
-    8568,
-    8573
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 111,
    "counted": true,
    "year": 1527,

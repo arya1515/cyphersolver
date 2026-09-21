@@ -99,3 +99,32 @@ reports the Emperor's talk about the French orator, Bourbon's death, restoring F
 articles and the castles to be put in the Emperor's hands, a French army for Italy under Lautrec, the Muscovite
 embassy, and news from Hungary (the "Black Man", Iovan Nenad, against the voivode). No page has a cipher sign.
 Closed and removed from the catalogue 21 Sept 2026; DECODE corrections queued for both records.
+
+## Catalogue 109: R8552-R8555, R8568, R8573 ("Eps. Wigorn", 1527)
+
+Catalogue no. 109 ("Eps. Wigorn (Hispania) to unknown recipient, 6 ciphertexts", Vesp. C IV, DECODE R8552-R8555,
+R8568, R8573, 18 images) is the same series: joint despatches of Ghinucci (bishop of Worcester) and Lee, with Poyntz
+in July, to Wolsey. All 18 images were downloaded and looked at 21 Sept 2026 (git-ignored in ../wigorn1527/img/).
+
+- **R8552-R8555** (ff. 157-160, old foliation 145-148): clear English leaves of the long despatch of 17 July 1527,
+  L&P IV no. 3271 (Lee, Ghinucci and Poyntz to Wolsey, "pp. 23 ... one part of this despatch is separated from the
+  other"). R8553 f. 158 is the French offer of "ij millions of crounes" with the pledges delivered on the first
+  million, as calendared. No cipher on these pages.
+- **R8568** (ff. 186-188, old foliation 174-178, Valladolid, July 1527, signed Ghinucci, Lee and Poyntz): clear text
+  with cipher runs, each deciphered interlinearly in a contemporary hand (e.g. the last page: "... burgundy, mylain,
+  ... a post into fraunce but no letter"). This is DECODE's "Partially decrypted". Calendared in L&P IV 3271-3272
+  ("the cipher deciphered by Tuke").
+- **R8573** (ff. 238-239, 4 pp., in Lee's hand, signed "Hier. Eps Wigornien / Edouarde Lee almosinar"): the real
+  cipher letter of the group. There are long runs of the Lee-Worcester sign cipher on every page, with no gloss on the
+  DECODE images, and a ciphered postscript. It is **L&P IV no. 3518**: "Ghinucci and Lee to [Wolsey]. Eleu Bayarde
+  arrived here 9 Dec. ... We proposed the duke of Richmond ... P.S. Had not yet spoken of the French king's cession
+  of the title of Milan. Signed. In Lee's hand, pp. 4. Ibid. f. 221. ii. Decipher of the above by Tuke. pp. 5." The
+  image's clear gloss beside the cipher postscript ("We have ... no thing ... yet spoken of the French king's cession
+  of the title of Mylain") matches the calendar word for word. Tuke's 5-page decipherment is a separate leaf, not
+  among DECODE's images.
+  **Date:** the manuscript reads "At Burgos the xxvj day of decembre 1527". L&P prints "Burgos, 26 Oct. 1527" and
+  files the letter under 26 October, but its own summary has Bayarde arriving on 9 December. The calendar date is a
+  slip; DECODE's 26 Dec 1527 is right.
+
+Outcome: read at the time (interlinear on R8568; Tuke's decipherment of R8573) and calendared. Nothing new to read.
+Closed and removed from the catalogue 21 Sept 2026; DECODE corrections queued.
