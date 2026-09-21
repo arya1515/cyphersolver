@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "target": "florence1429",
+  "title": "Galeotto Fibindacci da Ricasoli to the Signoria of Florence, Urbino, early 1425 (1424 Florentine style), ASF Dieci di Balìa, Responsive 2 no. 171 (DECODE R3754)",
+  "documents": [
+    {
+      "id": "no171",
+      "shelfmark": "ASF Dieci di Balìa, Responsive 2 no. 171 (old no. 168); DECODE R3754",
+      "date": "1424 (Florentine style), early 1425 n.s.",
+      "year": 1425,
+      "country": "Florence",
+      "route": "Urbino -> Florence",
+      "language": "Italian",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear",
+          "printed edition"
+        ],
+        "source": "Interlinear glosses by P. D. Gabbrielli (1863) over several runs (paolo, di madona, cintadini, il conte, sarrem andino, a lugo, madonna, el conte d'Urbino, cavalli, parenti); his key, built from these and sibling letters, printed by Meister 1902 p. 50. The letter itself never printed; the three long runs were not glossed.",
+        "partial": true
+      },
+      "length": {
+        "tokens": 110,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE image IMG_R3754_I23011_P.jpg (5512 x 3674), deskewed and cut into line strips (strips/dsk171.png)",
+        "image_quality": "good",
+        "notes": "No clean sign-only ciphertext file: TRANSCRIPTION.md and READING.md mix clear words with bracketed signs, so the count (about 110 signs in about twenty runs) is taken from NOTES and not measured. Several clear words remain palaeographic guesses."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic",
+      "nomenclator"
+    ],
+    "summary": "Homophonic substitution on invented signs with nulls and a small nomenclator of names and words, used inline in clear Italian, plus clear cover-words.",
+    "symbol_kind": "symbols",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": true,
+      "max_per_vowel": 3,
+      "max_per_consonant": 3,
+      "per_letter": {
+        "a": 3,
+        "b": 2,
+        "c": 3,
+        "d": 3,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 1,
+        "i": 3,
+        "l": 3,
+        "m": 3,
+        "n": 2,
+        "o": 3,
+        "p": 2,
+        "q": 2,
+        "r": 2,
+        "s": 2,
+        "t": 2,
+        "u": 3,
+        "v": 2
+      }
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 30,
+      "kinds": [
+        "names",
+        "places",
+        "titles",
+        "common words"
+      ],
+      "unread_groups": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 17
+    },
+    "key_order": "random",
+    "word_division": "none",
+    "doubled_letters": "written twice (MADONNA: two N signs)",
+    "sibling_key": "Gabbrielli's key 1 for Ricasoli (1863, Meister 1902 p. 50), built from nos. 163, 165, 72, 21, 91, 92; used as seeds and for alignment; new values tested on siblings nos. 21 and 91",
+    "notes": "Per-letter counts are from Gabbrielli's table as transcribed in NOTES (NOTES say 17 nulls but list 18 signs); the project added values (ɤ = A, +o = O, 9 = N, ô = T and others on this letter only) and showed ɤ is not a null. Cover-words in clear: Giovanni = the Dieci, trombetta = ambasciatore, che = cavalli, con = guerra."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "partial",
+      "where": "Gabbrielli's interlinear glosses on the letter (ASF, 1863) and his key in the ASF key volume (Yale Ilardi microfilm reel 58), printed by Meister 1902 p. 50 and Somogyi 2016; the three long runs were unread and the letter never printed",
+      "found": "during attempt",
+      "used": true
+    },
+    "inputs": [
+      "images",
+      "cleartext context",
+      "published key",
+      "crib"
+    ],
+    "attack": "published key",
+    "human_role": "Supplied the DECODE login (session cookie) for the page images; set the goal of reading the letter using the interlinear glosses as seeds. No other target-specific intervention recorded.",
+    "tools": [
+      "deskewing and line-strip crops",
+      "zoom tool (strips/)"
+    ],
+    "models": [
+      "claude-opus-5",
+      "claude-fable (version unknown)"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-18",
+    "last_date": "2026-09-21"
+  },
+  "solution": [
+    {
+      "date": "2026-09-18",
+      "kind": "access",
+      "what": "Fetched the DECODE R3754 image with the user's cookie; identified sender (Galeotto da Ricasoli), language (Italian, not Latin as DECODE says) and the interlinear glosses.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "transcription",
+      "what": "First-pass transcription of the clear text and the cipher runs with Gabbrielli's glosses.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "key from source",
+      "what": "Found Gabbrielli's 1863 key ('Cifra di Galeotto Fibindacci da Ricasoli ... 1424') on the Yale Ilardi microfilm reel 58 and tabulated it.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "reading",
+      "what": "Applied key 1: paolo, di madonna, madonna (twice), a Lugo read cleanly; the long runs on lines 7 and 11 and the line-4 run did not.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "literature search",
+      "what": "Meister 1902 p. 50 prints the key; Somogyi 2016 reproduces it; Guasti's Albizzi commissions and other sources do not print the letters.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "access",
+      "what": "Fetched siblings R3755 (Responsive 3 no. 21), R3756 (no. 91), R3757 (no. 92) and R3753; placed the letter in Galeotto's Urbino mission of Feb 1424/25.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "crib",
+      "what": "Read the three unglossed long runs sign by sign with glosses as seeds and key for alignment: MADONNA [È] PURE FEMINA E SOSPETOSA (fixed by two O signs five apart), PARENTI [E] CITADINI, ACOMANDINO A LUI.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "solver",
+      "what": "Subagent harvest of sibling runs to test the new sign values; cut off twice by usage limits.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "verification",
+      "what": "Checked new values against Gabbrielli's null row: q confirmed null (run C reread without the S), ɤ shown to be an A he misfiled, +o distinct from his o+ null.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "sibling key",
+      "what": "Tested new values on siblings: ɤ = A on no. 91 (mandato); 9 = N, +o = O, ô = T on no. 21 (andarono, tante e tali). ‖ = T, # = I, ᴗ = C, π = S, ʓ = S rest on no. 171 alone.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "reading",
+      "what": "Re-transcribed the clear text from line strips and produced a final continuous reading; word signs ■⊡ (il Papa?, from Gabbrielli's mark), E (ella?) and ≠ (il Conte) read from context.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "literature search",
+      "what": "George Lasry noted DECODE R3754 should be marked Decrypted (an interlinear decryption exists) and that siblings such as R3755 could give the full key, to be uploaded only after checking the key is not elsewhere in the collection. Not yet done.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "read",
+    "fraction_read": "unknown",
+    "grades": "unknown",
+    "verification": [
+      "contemporary decipherment",
+      "key confirms",
+      "historical consistency"
+    ],
+    "notes": "Open: word signs ■⊡ (il Papa?) and E (ella?) from context; π and ʓ in SOSPETOSA conflict with Gabbrielli; five values on this letter only; some clear words uncertain. The glosses are Gabbrielli's 1863, not contemporary."
+  }
+}

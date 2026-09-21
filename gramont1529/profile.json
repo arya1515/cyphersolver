@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "target": "gramont1529",
+  "title": "Gramont, Mâcon and Langeac to Montmorency, 1529-1537, BnF fr. 3083 no. 8, fr. 3091 no. 23, fr. 3071 nos. 4 and 7 (catalogue item 6)",
+  "documents": [
+    {
+      "id": "langeac1529",
+      "shelfmark": "BnF fr. 3083 no. 8, ff. 20-21 (Gallica btv1b90601328)",
+      "date": "14 Jan [1529]",
+      "year": 1529,
+      "country": "France",
+      "route": "Venice -> French court",
+      "language": "French",
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": ["none"],
+        "source": "No decipherment on the leaf or in print found. Lasry decoded the text in 2023 but did not publish it (personal communication, 21 Sept 2026)."
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Gallica full-resolution scan, view 36",
+        "image_quality": "good",
+        "notes": "11 cipher lines (NOTES); no glyph-alias file kept, so the sign count is not measurable."
+      }
+    },
+    {
+      "id": "gramont1529",
+      "shelfmark": "BnF fr. 3091 no. 23, ff. 45r-47v (Gallica btv1b9060253s)",
+      "date": "11 Oct [1529]",
+      "year": 1529,
+      "country": "France",
+      "route": "Rome -> French court",
+      "language": "French",
+      "pages": 6,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": ["none"],
+        "source": "No decipherment on the leaves or in print found (Wirtz-Daviau's edition of Chabot's embassy not checked). Lasry decoded the text in 2023, unpublished."
+      },
+      "length": {
+        "tokens": 4002,
+        "distinct": 37,
+        "unit": "symbols",
+        "measured": false,
+        "file": "aliases/f45r.txt ... aliases/f47v.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Gallica full-resolution canvases 49-52, line crops; glyph aliases in aliases/f45r.txt-f47v.txt",
+        "image_quality": "good",
+        "notes": "Count measured with _check_profile.py --measure --letters on the six alias files concatenated (f46r's L01| line labels stripped): 4002 signs, 37 distinct. Flagged measured false only because no single file holds it. The site's 'about 7,000 signs' is not a measured figure."
+      }
+    },
+    {
+      "id": "gramont1530",
+      "shelfmark": "BnF fr. 3071 no. 7, f. 17 (Gallica btv1b9060315f)",
+      "date": "21 July [1530]",
+      "year": 1530,
+      "country": "France",
+      "route": "Rome -> French court",
+      "language": "French",
+      "pages": 1,
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": ["none"],
+        "source": "No decipherment found. Lasry decoded the text in 2023, unpublished."
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Gallica canvas 30",
+        "image_quality": "good",
+        "notes": "14 cipher lines (NOTES); no glyph-alias file kept."
+      }
+    },
+    {
+      "id": "macon1537",
+      "shelfmark": "BnF fr. 3071 no. 4, ff. 9-10 (Gallica btv1b9060315f)",
+      "date": "11 Apr 1537",
+      "year": 1537,
+      "country": "France",
+      "route": "Rome -> French court",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": ["separate folio"],
+        "source": "Slip f. 9bis: a contemporary decipherment of the f. 9v passage, found after the reading and matching it. Lasry also decoded the letter in 2023, unpublished.",
+        "partial": true
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "mixed",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Gallica canvases 16-19; aliases in aliases/macon_9r_3-25.txt, macon_9r_26-34.txt, macon_9v.txt",
+        "image_quality": "good",
+        "notes": "About 45 lines mixed with clear text. The alias files mix line labels, clear-text brackets and {code} groups, so no clean count was measured."
+      }
+    }
+  ],
+  "system": {
+    "types": ["homophonic", "nomenclator"],
+    "summary": "Four separate keys, each a homophonic substitution on graphic signs (two to seven homophones for common letters) with doubled-letter signs, a few nulls and a handful of code signs for persons (Mâcon's as numerals 20/30/40).",
+    "symbol_kind": "digits and symbols",
+    "digit_groups": {
+      "width": "2",
+      "separation": "mixed"
+    },
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": true,
+      "max_per_vowel": "unknown",
+      "max_per_consonant": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": "unknown",
+      "kinds": ["titles", "names"],
+      "unread_groups": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": "unknown"
+    },
+    "key_order": "unknown",
+    "word_division": "none",
+    "doubled_letters": "special sign (LL, RR, SS, PP signs)",
+    "sibling_key": "Lasry's 2023 tables (cryptiana GL.htm), each built from a sibling letter (fr. 3005 f. 107; fr. 3040 f. 16 / Clair. 330 f. 53; fr. 3019 f. 20; fr. 3053), plus Tomokiyo's partial tables; used as the key for all four.",
+    "notes": "Digits occur only in the Mâcon key (codes 20, 30, 40). Code signs identified here: heart = roy and unlisted signs for Emperor, Florentines, Pope/Medici (1529); 8Δ = pape, key-ring = roy, ʃʃ-on-stem null (1530); 20/30/40 = Empereur/pape/roy (1537)."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "partial",
+      "where": "Keys published online by Lasry (tables dated 5 Nov 2023 on Tomokiyo's cryptiana GL.htm, with Tomokiyo's partial tables on francis.htm). Lasry also decoded all four texts in 2023, but those decipherments were never published (Lasry, 21 Sept 2026); 'partial' is the closest enum: the keys were public, the full reading existed but unpublished. A contemporary decipherment slip (f. 9bis) covers part of the Mâcon letter.",
+      "found": "after reading",
+      "used": false
+    },
+    "inputs": ["images", "published key"],
+    "attack": "published key",
+    "human_role": "Project-level: set up Claude Code and posed the catalogue item; no target-specific intervention recorded. Relayed Lasry's 21 Sept 2026 correction on his unpublished decipherments.",
+    "tools": ["Gallica image scripts (thumbs.py, full.py, crop.py, sheet.py)", "alias decoders (decode.py, macon_decode.py)"],
+    "models": ["claude-opus-5"],
+    "sessions": 1,
+    "first_date": "2026-09-18",
+    "last_date": "2026-09-21"
+  },
+  "solution": [
+    {
+      "date": "2026-09-18",
+      "kind": "literature search",
+      "what": "Matched the four items against Tomokiyo's francis.htm and GL.htm: four letters, four different keys, all tabulated by Lasry in 2023; no plaintext on either site.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "access",
+      "what": "Located the correct Gallica arks (fr. 3091 is btv1b9060253s, not the catalogue's) and fetched full-resolution canvases.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "transcription",
+      "what": "Transcribed the cipher of each letter at glyph level into ASCII aliases, page by page (per-page agents for the 171-line Gramont 1529 letter).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "key from source",
+      "what": "Applied Lasry's published tables to each letter (decode.py, macon_decode.py).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "reading",
+      "what": "Read Langeac 1529 and Gramont 1529 in full, Gramont 1530 about 85 %, Mâcon 1537 about 90 % of the cipher; identified code signs left blank in the tables (heart, 8Δ, key-ring, 20/30/40) and a null.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "verification",
+      "what": "The Mâcon slip f. 9bis, a contemporary decipherment of the f. 9v passage, matches the reading made first; Gramont 1529 dated by Clement VII's departure for Bologna and Orange before Florence, Gramont 1530 by the princes' return.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "literature search",
+      "what": "Correction from George Lasry: he decoded all four texts in 2023 when reconstructing the keys, but the decipherments were never published. Prior-solution record updated: a reading existed, unpublished, learned of after the reading and not used (only his keys were).",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "read",
+    "fraction_read": "unknown",
+    "grades": "unknown",
+    "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
+    "notes": "Langeac and Gramont 1529 read in full, Gramont 1530 ~85 %, Mâcon ~90 % of the cipher; no new cryptanalysis needed."
+  }
+}
