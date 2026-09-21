@@ -2717,6 +2717,52 @@
      "sent": false
     }
    }
+  },
+  "dedem1788": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/dedem1788.html",
+   "key": {
+    "none": "no key on DECODE; the Fagel series R2842-R2852 is a different code; not rebuilt from cribs R2121/R1947/R2053"
+   },
+   "fields": {},
+   "records": {
+    "R2120": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: the same two cipher pages are imaged again under R2121 (P5 = R2120 P1, P1 = R2120 P2) with the clerk's full clear decipherment on R2121 pp. 2-4. The letter is dated Pera, 22 Dec 1788, not 11 Oct 1788.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "1788-12-22"
+     },
+     "transcription": [
+      "dedem1788/tx/R2121_cipher.txt",
+      "dedem1788/tx/R2121_clear.txt"
+     ]
+    },
+    "R2122": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. Same homophonic word code as R2120/R2121, R1947, R2053; no key found. Transcription of both cipher blocks (258 groups) attached.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "dedem1788/tx/R2122_cipher.txt"
+     ]
+    },
+    "R2131": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. Same code as R2122; the 50-group paragraph is framed by 701 ... 301, as in R1947. Transcription attached.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "dedem1788/tx/R2131_cipher.txt"
+     ]
+    }
+   }
   }
  }
 }

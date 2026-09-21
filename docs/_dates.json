@@ -140,6 +140,7 @@
   "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
   "unknown sender (constantinople) to ferenc rákóczi ii, 1707": "2026-09-21",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
+  "van dedem at constantinople, 1788–1799": "2026-09-21",
   "van reede to william v, berlin, 4 february 1792": "2026-09-21",
   "van spaen to van der goes, 14–15 january 1808": "2026-09-21",
   "vatican part 5, 1542": "2026-09-15",
@@ -236,7 +237,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e382f6a7cae8",
+   "hash": "e6d6106b22fd",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -288,6 +289,11 @@
    "first": "2026-09-15",
    "hash": "a7bc68819e01",
    "updated": "2026-09-15"
+  },
+  "dedem1788": {
+   "first": "2026-09-21",
+   "hash": "b59bf485f9ce",
+   "updated": "2026-09-21"
   },
   "deswart1782": {
    "first": "2026-09-21",
@@ -406,7 +412,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "7e7d8b2a15f2",
+   "hash": "a1b7cc294c56",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -811,7 +817,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "b1c126ffa636",
+   "hash": "c39c6121b0a8",
    "updated": "2026-09-21"
   },
   "yard1699": {

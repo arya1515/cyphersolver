@@ -1,0 +1,6 @@
+img/
+keys/
+docs/
+__pycache__/
+decode_views.json
+*.json.bak

@@ -5554,9 +5554,9 @@
   {
    "id": 225,
    "counted": true,
-   "year": 1788,
-   "date": "11 Oct 1788 – 26 Aug 1799",
-   "title": "Frederik Gijsbert van Dedem tot de Gelder (1743-1820) (Constantinople) to Maarten van der Goes (1751-1826 / Laurens Pieter van de Spiegel (1737-1800), 4 ciphertexts",
+   "year": 1789,
+   "date": "15 Jan 1789 – 26 Aug 1799",
+   "title": "Frederik Gijsbert van Dedem tot de Gelder (Constantinople) to Van de Spiegel and Van der Goes, 3 unread ciphertexts (1789, 1793, 1799)",
    "correspondents": "Frederik Gijsbert van Dedem tot de Gelder (1743-1820) → Maarten van der Goes (1751-1826 / Laurens Pieter van de Spiegel (1737-1800)",
    "place": "Constantinople, Ottoman Empire",
    "language": "Dutch",
@@ -5565,7 +5565,7 @@
    "shelfmark": "NA The Hague, 02.01.08. Ministerie van Buitenlandse Zaken, 1796-1810, inv (4 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1895–R2131 (4 records): Non-decrypted, 13 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The 3-digit codegroups, marked with crosses, dashes and dots clearly point to a nomenclature manudactured bu S.E. Croiset who wante to hide the size and the alpjabetical structure in this way. This letter, marked number XVIII is accompanied by an unencrypted s…",
+   "status": "DECODE R2122, R2131, R1895 unread. R2120 (22 Dec 1788) was read at the time: its decipherment is filed as R2121. R2122/R2131: homophonic word code, no key on DECODE; cribs R2121, R1947, R2053 transcribed but do not rebuild it. R1895: different marked system.",
    "why": "Ciphered despatches of Frederik Gijsbert van Dedem tot de Gelder (1743-1820) to Maarten van der Goes (1751-1826 / Laurens Pieter van de Spiegel (1737-1800), 11 Oct 1788 – 26 Aug 1799; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 3,
@@ -5577,10 +5577,6 @@
     {
      "label": "DECODE R1895",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1895"
-    },
-    {
-     "label": "DECODE R2120",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2120"
     },
     {
      "label": "DECODE R2122",
@@ -5599,7 +5595,9 @@
     2122,
     2131
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "dedem1788.html"
   },
   {
    "id": 226,
