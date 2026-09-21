@@ -1,0 +1,93 @@
+{
+ "schema_version": 1,
+ "target": "wotton1585",
+ "title": "Edward Wotton (Scotland) to Walsingham, drafts of 25 Aug, 30 Aug and 1 Sep 1585 (DECODE R4841-R4843)",
+ "documents": [
+  {
+   "id": "R4841",
+   "shelfmark": "British Library, Add MS 32657 ff. 167-168; DECODE R4841",
+   "date": "25 Aug 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Edward Wotton (Scotland) -> Walsingham",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["none"], "source": "The draft is in clear English; only person and place names are replaced by code numbers.", "partial": false},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Authenticated DECODE scans (4774 px wide).", "corrections": 0, "image_quality": "good", "notes": "Read from the images; no full transcription file kept."}
+  },
+  {
+   "id": "R4842",
+   "shelfmark": "British Library, Add MS 32657 ff. 173-174; DECODE R4842",
+   "date": "30 Aug 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Edward Wotton (Scotland) -> Walsingham",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["none"], "source": "Clear English draft with code numbers for names.", "partial": false},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Authenticated DECODE scans.", "corrections": 0, "image_quality": "good", "notes": "Read from the images; no full transcription file kept."}
+  },
+  {
+   "id": "R4843",
+   "shelfmark": "British Library, Add MS 32657 ff. 175-176; DECODE R4843",
+   "date": "1 Sep 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Edward Wotton (Scotland) -> Walsingham",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["none"], "source": "Clear English draft with code numbers for names.", "partial": false},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Authenticated DECODE scans.", "corrections": 0, "image_quality": "good", "notes": "Read from the images; no full transcription file kept."}
+  }
+ ],
+ "system": {
+  "types": ["nomenclator"],
+  "summary": "Clear English drafts in which persons and places are written as one- or two-digit code numbers; no letter cipher.",
+  "symbol_kind": "digits",
+  "diacritics": {"used": false},
+  "homophones": {"used": false},
+  "nomenclator": {"present": true, "entries": 11, "kinds": ["names", "places"], "unread_groups": 4},
+  "nulls": {"present": false},
+  "distinct_symbols": 11,
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "not applicable",
+  "sibling_key": "unknown",
+  "notes": "Codes seen: 3, 9, 10, 19, 20, 24, 27, 32, 36, 39, 40. 10, 19, 39 certain; 3, 9, 20, 24 probable; 27, 32, 36, 40 unidentified."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "CSP Scotland vol. 8 (1914) calendars Wotton's despatches of these dates; not consulted (BHO paywalled, archive.org lending-only). DECODE lists the records as Non-decrypted.",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": ["images", "cleartext context"],
+  "attack": "none",
+  "human_role": "Posed the target from the catalogue; DECODE account cookie.",
+  "tools": ["DECODE authenticated image server", "web search"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "access", "what": "Fetched the twelve DECODE images of R4841-R4843 with the stored cookie.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "reading", "what": "Recognised the pages as Wotton's own clear-English drafts headed 'To Mr Secretary', with code numbers only for names; no letter cipher.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "hypothesis", "what": "Identified the code numbers from context: 19 Arran, 39 Master of Gray, 10 King James (certain); 9 Elizabeth/England, 20 Maxwell, 24 Huntly, 3 France (probable).", "result": "partial"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "Tried to check CSP Scotland vol. 8 for the calendared despatches and their resolved names; BHO paywalled, archive.org copy lending-only.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": {"H": 3, "C": 4, "M": 0, "I": 4},
+  "verification": ["historical consistency"],
+  "notes": "Drafts read in full; 7 of 11 code numbers identified (3 certain, 4 probable), 27, 32, 36, 40 open."
+ }
+}

@@ -2524,6 +2524,51 @@
      "reading_not_needed": true
     }
    }
+  },
+  "wotton1585": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/wotton1585.html",
+   "key": {
+    "decode": "no key; clear-English drafts, code numbers identified from context (see write-up)",
+    "lang": "EN"
+   },
+   "cite": null,
+   "fields": {
+    "cleartext_lang": "English",
+    "plaintext_lang": "English",
+    "start_day": "25",
+    "start_month": "8",
+    "start_year": "1585",
+    "end_day": "1",
+    "end_month": "9",
+    "end_year": "1585",
+    "cipher_types": "nomenclator (numeric name code only)"
+   },
+   "records": {
+    "R4841": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Wotton's own draft to Walsingham, 25 Aug 1585, ff. 167-168, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R4842": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Wotton's own draft to Walsingham, 30 Aug 1585, ff. 173-174, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R4843": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Wotton's own draft to Walsingham, 1 Sep 1585, ff. 175-176, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }

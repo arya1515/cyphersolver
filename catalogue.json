@@ -1165,51 +1165,6 @@
    "scored": "rule"
   },
   {
-   "id": 81,
-   "counted": true,
-   "year": 1585,
-   "date": "25 Aug 1585 – 1 Sep 1585",
-   "title": "Edward Wotton, ambassador to Scotland (England) to Sir Francis Walsingham, Secretary of State, 3 ciphertexts",
-   "correspondents": "Edward Wotton, ambassador to Scotland → Sir Francis Walsingham, Secretary of State",
-   "place": "England, Scotland",
-   "language": "English",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 32657 (3 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R4841–R4843 (3 records): Non-decrypted, 9 pp., unknown; numerical; images login. Not viewed here. DECODE note: DECODE's date 1547/1590 is the span of the volume.",
-   "why": "Ciphered despatches of Edward Wotton, ambassador to Scotland to Sir Francis Walsingham, Secretary of State, 25 Aug 1585 – 1 Sep 1585; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4841",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4841"
-    },
-    {
-     "label": "DECODE R4842",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4842"
-    },
-    {
-     "label": "DECODE R4843",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4843"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4841,
-    4842,
-    4843
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 82,
    "counted": true,
    "year": 1585,

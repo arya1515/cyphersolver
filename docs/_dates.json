@@ -45,6 +45,7 @@
   "dinteville to nevers, 3 july 1592": "2026-09-21",
   "dirk van hogendorp to maarten van der goes, 5 july 1803": "2026-09-20",
   "d’affry from the hague to rouillé and bernis, 1757–58": "2026-09-19",
+  "edward wotton from scotland to walsingham, aug–sept 1585": "2026-09-21",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
   "etienne bourdeaux to maarten van der goes, 31 january 1801": "2026-09-21",
   "ferdinand i (augsburg) to johann malvezzi at the porte, 23 january 1548": "2026-09-21",
@@ -231,7 +232,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "28aacc06d530",
+   "hash": "581ed4d982fc",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -396,7 +397,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "8a3be6817404",
+   "hash": "73e54b7db4d7",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -784,9 +785,14 @@
    "hash": "4fc234ac37ae",
    "updated": "2026-09-21"
   },
+  "wotton1585": {
+   "first": "2026-09-21",
+   "hash": "586aaca21caf",
+   "updated": "2026-09-21"
+  },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "e5286fa7651b",
+   "hash": "cbb4399fab7b",
    "updated": "2026-09-21"
   },
   "yard1699": {
