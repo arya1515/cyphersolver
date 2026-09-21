@@ -25,7 +25,7 @@ def decode_record(rec, h, s):
         out.append('### ' + os.path.basename(f)[:-4])
         for line in open(f, encoding='utf-8'):
             t = line.strip()
-            if not t or (t.startswith('#') and not t.startswith('##')):
+            if not t or t == '#' or t.startswith('# '):
                 continue
             if t.startswith('##'):
                 out.append(t); continue

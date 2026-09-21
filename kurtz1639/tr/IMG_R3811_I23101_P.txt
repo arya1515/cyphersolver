@@ -13,11 +13,11 @@ c 39 73 28 26 : {Mit allem ware ... herrn} 83 27
 ψ 11 100 17 52 43 #z-tail, d w 83 28 20 28 23 28 #z-tail 73 16
 π 40 6 33 40 27 26 22 10 39 x 28 84 27 16 31 6 15 #z-tail
 17 w 27 26 100 39 #s-long 12 #z-tail 78 6 ψ 26 #4-hook 13 28 83 w
-23 33 27 19 28 6? 25 37 42 38 64 #z-tail 26 {gewest,} ψ 25 π
+23 33 27 19 28 φ 25 37 42 38 64 #z-tail 26 {gewest,} ψ 25 π
 37 23 33 33 9 α 26 28 21 82 58 w #s-long {von ihm werde}
 {der ... macht dergleichen sich ... :} #ins 48
 #s-long 17 26 25 26 23 40 19 63 39 x 43 48 9 43 π 83
-#dot 48 28 17 31 37 14 28 59 #s-long 12 53 α {und wenn}
+#dot 48 28 17 31 37 14 28 59 #s-long 12 53 #a-loop {und wenn}
 {daran auß} 16 35 28 34 22 x : 32 26 26 : 17 #z-tail
 37 12 28 57 28 9, 6 16 53 30 28 13 26 71 86 33 64
 {verändert werden, den vorigen Kays. Mtt. hette}
@@ -25,7 +25,7 @@ c 39 73 28 26 : {Mit allem ware ... herrn} 83 27
 #s-long 13 #z-tail {gehabt, daß ... } 20 28 23 28 w 73
 17 α c 39 35 27 #s-long 33 72 18 33 9, {und wider}
 49 88 20 26 93 33 61 25 28 α 39 35 39 35 25 28 37 11 28 27 26 {habe}
-23 38 26 28 21 39 26 21 c 27 {Ihm occasion wollen auß handen}
+23 38 26 28 21 39 26 21 #l-loop 27 {Ihm occasion wollen auß handen}
 {lassen.}
 ## margin (left edge, beside left page; keyed by #ins)
 #ins {Wann} 37 28 15
@@ -43,7 +43,7 @@ n 28 6 73 #z-tail :
 19 25 40 20 28
 21 25 27 36 28
 14 6 30 33 20
-52 #A 6 9 31 ψ 83
+52 46 9 31 ψ 83
 ## right
 83 w 30 28 22 78 42 27 39 73 w 37 28 16 83 31
 52 39 35 26 27 59 39 72 52 19 43, 20 28 {alhie}
@@ -55,14 +55,14 @@ n 28 6 73 #z-tail :
 {gibt man ihm} 19 15 w 30 41 9 39 x 42 10 π 15 #z-tail
 13 30 #s-long 59 37 14 28 59 25 w 38 12 40 62 77 28 26
 15 35 31 20 28 16 27 26 81 39 35 16 31 83 28 23 π
-52 27 #s-long 21 52 c 30 28 14 93 31 c 28 37 28 17 38
+52 27 #s-long 21 52 c 30 28 14 93 31 #l-loop 28 37 28 17 38
 64 w 82 89, {und wie wurdt} 59 #z-tail 82 6 27, {et}
 {quo} 86 32 56 81 19 28 73 93 w: #4-hook 23 37 18 #z-tail
-93 34 13 α 40 26 18 28 81 39 35 51 39 35 59 33 27
+93 34 13 #a-loop 40 26 18 28 81 39 35 51 39 35 59 33 27
 n 33 30 41 ?(519227) n 33 86 31 26 44 51 27: 19
 #z-tail 78 64 w 38 {und} 37 28 22 31 39 34 43 16 39 35
 {machen ihm} 21 33 35 15 18 89 43 27 6 27, 82 19
-27 39 35 #4-hook 18 83 w 21 11 39 35 9 16 83 28 : {sagt}
+27 39 35 #4-hook 18 83 w 21 11 39 35 #sect 16 83 28 : {sagt}
 22 33 63 #dot 27 30 16 87 13 53 27 {zu ... wolle}
 19 28 ψ 31 72 w 53 #z-tail 24 18 39 34 : 48 #s-long 15 26
 {a me} 20 16 31 49 27 27 54 39 35 30 43 25 27

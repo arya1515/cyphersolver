@@ -2,18 +2,18 @@
 ## left
 57 26 72 33 83 27 73 17 π 40 {Am danisch hof}
 {tentantur Ministri ab Anglis, Gallis, et}
-{Suecis} 83 9 43 #l-loop 28 43 φ 93 x 25 31 6 43 π
-10 w 36 50 39 34 93 x 40 43 π 18 31 {ist}
+{Suecis} 83 9 43 #l-loop 28 43 φ 93 #f-cross 25 31 6 43 π
+10 w 36 50 39 34 93 #f-cross 40 43 π 18 31 {ist}
 {summa} 15 31 36 44 #s-long #l-loop 81 {keiner} 24 14 35 33
 17 31 39 62 52 28 26 {et omnes} 86 31 26 44
-49 88 32 30 44 78 31 62 α {non tam feliciter}
-23 28 57 27 30 41 45 36 54 x π 29 m 32
+49 88 32 30 44 78 31 6 #a-loop {non tam feliciter}
+23 28 57 27 30 41 45 36 54 #f-cross π 29 m 32
 93 53 30 41 89 18 α 43 {et} 17 π 48 42 14 86
 31 39 50 α 32
 {Bey obbeschehener sach bin ich ferner im werck}
 {gewesen, E: Ex: meine einfältige gedancken}
 {zu überschreiben, vornemblich wan} 83 28 37
-19 17 31 38 26 82 27 61 72 62 7 83 28 20 33
+19 17 31 38 26 82 27 6 17 26 27 83 28 20 33
 93 86 31 #s-long 52 28 26 {hette khönden werden,}
 {oder wenig ist} 19 17 w ψ 15 78 28 24 16 83 28
 27 #s-long 31 38 26 93 1 73 28 ψ 14 36 78 12 28
@@ -25,7 +25,7 @@
 {zu} 74 ψ 22 28 82 43 31 {auch} 82 18 22 28
 59 84 {an orth vnnd endt dergestalt} ψ 11 74
 33 9 31 {hetten, damit gleichwohl} 52 26 17 22
-35 28 62 39 73 31 21 12 #z-tail 79 31 61 8 21 28 59
+35 28 62 39 73 31 21 12 #z-tail 79 31 φ 18 21 28 59
 84 {auch ohne} 14 48 42 18 43 #z-tail ψ 10 36 100 31 38
 {vnnd} 91 83 w {gerichtet würde, durch welchen}
 {weg allein von der Cron Schweden, als die keine}
@@ -34,11 +34,11 @@
 {sach nit erschiesslich, der friedt aber schwer ab-}
 {lang zuerheben möchte sein, vnnd were: ... }
 {los alles noch, vornemblich} 83 28 43 27 48 39 26
-{der} 27 x 31 38 26 25 31 38 77 x 22 26 9 17 #z-tail
-75 18 9 π 27 x 22 31 38 26 78 #4-hook 18 6 31 24
+{der} 27 #f-cross 31 38 26 25 31 38 77 #f-cross 22 26 9 17 #z-tail
+75 18 9 π 27 #f-cross 22 31 38 26 78 #4-hook 18 6 31 24
 22 31 83 28 37 19 17 w 38 26 {in künfftiger} 46
 27 #l-loop 28 73 26 {bleiben müssen, würde}
 {sich mitlerweil schon wohl ...} 18 26 23
-38 26 44 39 x #l-loop 27 {gelegt, vnnd verstanden}
-{haben, wann nur} 82 18 39 41 w 63 34 0 27 26
-83 31 34 42 18 36 20 π 30 37 25 31 83 #s-loop x #z-tail
+38 26 44 39 #f-cross #l-loop 27 {gelegt, vnnd verstanden}
+{haben, wann nur} 82 18 39 41 w 6 33 40 27 26
+83 31 34 42 18 36 20 π 30 37 25 31 83 #s-loop #f-cross #z-tail

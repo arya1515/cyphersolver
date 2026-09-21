@@ -28,3 +28,5 @@
 - conventions used in R3811/R3812 files: `~..~` struck-through, `[..]` digits/letters written above the line as a correction/insertion
 - `λ` : lambda-like sign (slanted stroke with a hooked foot, like λ / a crossed long stroke), frequent in R3815 and R4625 P5; often next to #s-long / #s-loop — may be a variant of #s-loop
 - `#hash` : double-crossed sign like # / ‡ (two uprights with two crossbars) among the numbers (R4734 P5, R4736 P1/P3)
+- `#f-cross` : crossed ƒ-like sign in R3813 (value ta), transcribed as `x` in pass 1; distinct from the æ-like `x` (i)
+- note on `α` (2026-09-21 check): two shapes have been merged under `α`. (1) small upright "a" with a short tail (the common form; e.g. 23117 '`α 33 p 17`', P18 '`48 28 α 33`', 27184 P2 '`31 α 33 p`', '`26 α 39 35`') reads **sa** (Sachsen, Caesaris, universal-, salvus conductus, Salvius, zusammen, versamblung); (2) larger slanted looped ℒ/∝ form (e.g. 23108 '`34 12 α 58 31`' = kommen, 23117 '`π α 22 78`') reads m. Same ℒ shape is transcribed `λ` in R3815. Not yet split token by token.

@@ -1,25 +1,25 @@
 # legend: names as in tr/LEGEND.md
 ## left
-61 10 26 42 26 {ein, vnnd anderen} 57 52 27 26
-41 {durch die} 61 75 27 78 w ψ 11 17 31 37 13 28
+φ 10 26 42 26 {ein, vnnd anderen} 57 52 27 26
+41 {durch die} 6 17 52 78 w ψ 11 17 31 37 13 28
 57 43 31 {vnnd bey etlichen} 43 17 39 35 27
 44 26 73 31 36 41 27 n 28 26 44 #4-hook 18 w {Er}
 78 52 19 27 26 83 #z-tail ψ 13 33 14 35 53 {das}
 {vnnd} 25 π 40 d 31 27 26 {aber werden doch}
-d 3 27 26 52 18 59 31 38 26 27 d 71 39 35
+d #z-tail 27 26 52 18 59 31 38 26 27 d 71 39 35
 25 19 28 13 40 62 77 43 #z-tail {vnnd auf anderer}
 13 37 37 14 87 22 {soviel} 27 48 31 82 43 w
 #4-hook 12 33 63 #z-tail {Ob auch zwar gemelt khönte}
 {werden, weilen die erhaltung der} 46 28
-#l-loop 25 π 24 17 83 28 61 5 31 27 x #l-loop π 62
+#l-loop 25 π 24 17 83 28 6 15 31 27 #f-cross #l-loop π 62
 20 37 19 {so were ihm dies} 24 18 28 39 34
-25 32 4 d x 33 9 19 52 78 28 ψ 11 n 28 26
+25 32 4 d #f-cross 33 9 19 52 78 28 ψ 11 n 28 26
 44 24 18 31 {Es ist doch dargegen zube-}
 {trachten,} 83 w 53 59 28 39 34 35 {werde}
-{gedencken, Es sey auch sein} 61 7 #z-tail 27 x #l-loop π c
+{gedencken, Es sey auch sein} 6 17 #z-tail 27 #f-cross #l-loop π c
 93 27 6 28 22 17 31 {vnnd} ψ 24 18 31 {oder}
 58 35 28 46 28 #l-loop 27 27 39 35 #4-hook 19 83 w
-6 10 64 27 63 1 {das} 17 31 78 37 22 35 28
+φ 10 64 27 6 31 {das} 17 31 78 37 22 35 28
 ψ 25 27 26 18 73 w {das} 27 39 35 #4-hook 19
 ## right
 83 31 {dergestalt} 17 π 41 32 15 27 39 73 31 43
@@ -29,9 +29,9 @@ d 3 27 26 52 18 59 31 38 26 27 d 71 39 35
 {gestalt} 22 31 78 27 9 33 26 #4-hook 18 28 83 #z-tail {das}
 83 28 66 52 36 17 31 83 31 53 59 28 39 34 {den}
 36 44 37 48 31 ψ 18 w {vnter} 83 π 30 44 18
-9 φ 26 82 18 25 52 n 28 α 33 26 44 39 x 9 #z-tail
+9 φ 26 82 18 25 52 n 28 α 33 26 44 39 #f-cross 9 #z-tail
 ψ 10 26 43 17 93 w 54 39 35 27 d 39 34 71 33 π
-27 39 35 17 39 34 9 {: benehmen} 68 17 53 28 d x 33
+27 39 35 17 39 34 9 {: benehmen} 68 17 53 28 d #f-cross 33
 17 31 37 13 28 59 #s-long 12 #z-tail {von der} α 39 35 74 26
 {das sie zu sich} 27 {: vnnd das} 70 28 39 35
 15 35 53 {als wan diese} 73 17 π 62 39 73 74
@@ -40,6 +40,6 @@ d 3 27 26 52 18 59 31 38 26 27 d 71 39 35
 48 53 26 42 28 26 {würde, ob die} 39 41 31
 18 15 78 #z-tail 26 62 39 35 17 31 39 62 52 28 26 {ein}
 {vergleichen} 49 28 #s-long 85 64 28 {vnnd} 73 17 π 40
-62 39 73 26 44 39 x 9 #z-tail #s-loop {sich einzulassen,}
+62 39 73 26 44 39 #f-cross 9 #z-tail #s-loop {sich einzulassen,}
 {Es ist meines erachtens} c 39 73 43 28 82 6 27
-ψ 18 28 39 34 17 π 58 82 22 9 93 x 83 28
+#4-hook 18 28 39 34 17 π 58 82 22 9 93 #f-cross 83 28

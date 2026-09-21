@@ -4,15 +4,15 @@
 35 18 {gehandelt werden, so den frieden} 78 78
 31 18 17 53 π 27 #l-loop 39 34 9 #z-tail 46 58 43 #z-tail #s-loop
 {aufrichtig verlangen, das Salucij begeren}
-{gewesen were, der aufsehen ist verhanden,} 93 x
+{gewesen were, der aufsehen ist verhanden,} 93 #f-cross
 83 π #4-hook 25 28 38 26 19 28 22 31 17 18 ψ 14
 58 35 28 21 33 27 52 19 n 28 40 63 17 93 w
 {Es vermeint nun auf Kays. resolution, diese}
 {resolution muess} 13 83 28 57 26 9 28 24 15 27
-63 1 39 60 28 40 44 w 83 31 80 28 36 {oder} c 53
-30 43 27 27 87 #l-loop x #s-loop {gewinnen werden, solte}
+6 31 39 60 28 40 44 w 83 31 80 28 36 {oder} c 53
+30 43 27 27 87 #l-loop #f-cross #s-loop {gewinnen werden, solte}
 {es auf den ersten fahl gerichtet bleiben, so hat}
-{es billich seinen} 23 31 27 x 31 38 26 92 27 59
+{es billich seinen} 23 31 27 #f-cross 31 38 26 92 27 59
 w 31 83 27 39 60 28 37 10 28 27 9 w 15 31 9 11
 31 #s-long 13 w {wegist, Es ist aber hierbey nit so}
 {leicht auch} 40 44 w 83 #z-tail 80 28 36 22 33 27
@@ -29,16 +29,16 @@ w 53 59 28 39 34 {schon hierinnen} 30 44 18
 #z-tail π 27 39 35 #4-hook 19 38 71 37 37 26 44 39 #s-long
 28 9 {Mit dieser erwehnung, das wan Er}
 {der} 39 41 31 27 39 35 24 20 83 w {intention}
-{eigentlich hette, als wan sich auch} 93 x 69
+{eigentlich hette, als wan sich auch} 93 #f-cross 69
 17 6 28 62 59 15 18 27 26 22 26 {die Noth}
 {durch} ψ 10 18 28 74 33 9 #z-tail 93 55 18 35 19 w
 {wolte, oder aber ob mit nach erhebten} 86 31
-62 #z-tail 27 83 27 39 60 28 37 25 28 27 9 w ψ 10
+6 #z-tail 27 83 27 39 60 28 37 25 28 27 9 w ψ 10
 40 44 w 83 #z-tail 80 28 36 {dem} 66 52 36 17 31 83
 31 53 59 28 39 34 43 22 62 9 28 {das} 69 17
 6 28 27 17 31 19 w #s-long 12 #z-tail {als wan} ψ 10 n 28
 26 44 24 18 #z-tail {vnnd durch} 17 35 53 15 #z-tail 27
-39 35 24 18 83 w ψ 10 53 37 6 87 43 31 {were}
+39 35 24 18 83 w ψ 10 53 76 87 43 31 {were}
 {sie} 17 22 26 / 25 c 20 31 78 78 31 83 31 53 59
 28 39 34 {sein zwar gross, Er hab aber}
 {gleichwohl noch} 43 27 48 39 26 {vnnd} 83 31

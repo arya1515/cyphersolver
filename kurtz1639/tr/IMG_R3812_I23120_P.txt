@@ -4,8 +4,8 @@
 φ 11 94 24 19 31 27 39 35 24 20 83 31 {hab kein}
 p 43 27, {und werde sein interesse mit frieden}
 {können suchen} 37 28 21 31 39 34 43 17 39 35
-#4-hook 24 19 28 83 9 18 78 31 30 37 22 33 ψ {den}
-{frieden mit anzuschlagen} 83 28 48 94 40 27 26 {als}
+#4-hook 24 19 28 83 #sect 18 78 31 30 37 22 33 ψ {den}
+{frieden mit anzuschlagen} 83 28 49 40 27 26 {als}
 17 31 9 28 48 c k 28 {sein gleichwol} 37 28 21 31
 39 34 43 15 39 35 27 30 23 31 52 19 31 11 31 38
 9 28 83 42 27 26 17 35 43 28 34 22 x : π 23 x :
@@ -32,7 +32,7 @@ p 43 27, {und werde sein interesse mit frieden}
 72 18 28 {mit sondern allein den} 37 28 21 31 ψ
 14 c 27 39 35 18 31 46 26 27 39 35 21 37 9 28
 93 r 39 35 26 83 27 94 31 53 28 27 n 28 42 39
-35 c 31 36 84 6 33 40 27 26 18 31 {so viel} 19 28
+35 #l-loop 31 36 84 6 33 40 27 26 18 31 {so viel} 19 28
 23 28 31 73 17 32 40 {auch} 19 16 78 53 28 {curio-}
 {sitet hab penetriren können, seye folgende ge-}
 {west. 1. Hab Er Ihme die miseria und dz}
@@ -41,5 +41,5 @@ p 43 27, {und werde sein interesse mit frieden}
 {werckh in die lenge zu treiben} 83 28 39 28 13 31
 27 39 35 24 19 83 31 10 31 57 36 62 39 35 24.
 19 28 83 37 22 33 63 31 {Monuisse} 53 26 28 21
-39 28 21 c 27 17 π 48 82 43 26 {und an statt}
+39 26 21 #l-loop 27 17 π 48 82 43 26 {und an statt}
 93 78 28 9 28 22 17 31 59 35 33 60 31 83 28 26

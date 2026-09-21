@@ -45,7 +45,7 @@ def load(records=None):
         cur = []
         for line in open(f, encoding='utf-8'):
             s = line.strip()
-            if not s or s.startswith('#') or s.startswith('legend') or s.lower().startswith('legend'):
+            if not s or s == '#' or s.startswith('# ') or s.startswith('##') or s.startswith('legend') or s.lower().startswith('legend'):
                 continue
             for it in tokens_of(s):
                 if it[0] == 'clear':

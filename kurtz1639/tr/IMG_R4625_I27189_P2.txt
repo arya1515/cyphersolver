@@ -20,7 +20,7 @@ n 28 30 37 63 36 26 {das übrige aber von ihnen} 17 31
 {meinung nit, das man} 38 99 9 33 39 34 d 33 63 22 40
 37 11 18 35 43 w {vorkommen} 58 35 43 28 27 18 26 78 31 9 82
 6 28 p #s-long 12 {hinzusetzen, dann} 6 35 27 43 77 58 31 9 43 w
-{aber die da seindt,} 10 35 28 51 26 #l-loop 28 #z-tail 72 26 {wann die an}
+{aber die da seindt,} 16 35 28 51 26 #l-loop 28 37 26 {wann die an}
 {land die ein} 83 w 99 c 36 52 18 28 9 w 12 28 26 9 #z-tail {mit}
 ## right
 19 π 30 37 21 w 78 #z-tail {thun,} 16 w 83 #z-tail 20 28 40 64 #z-tail
@@ -30,11 +30,11 @@ n 28 30 37 63 36 26 {das übrige aber von ihnen} 17 31
 73 w {mit vermüthen, Militariter darnach zuwerden, da}
 {würdt man wissen,} 6 84 27 9 33 39 34 93 x {aller}
 #4-hook 19 17 9 43 #z-tail 9 28 40 100 39 35 83 27 37 18 15 w 38 27
-{und} 9 13 72 31 18 27 c 39 35 43 #s-long 42 19 28 #z-tail 6 w 83
+{und} #sect 13 72 31 18 27 c 39 35 43 #s-long 42 19 28 #z-tail 6 w 83
 {ob dann} 83 π 74 ψ 37 18 33 38 {oder wo} 9 87 23 31 {auss}
 {dem Reich} 78 73 w d 33 63 {Ist doch der} 27 39 71 #z-tail 27
 9 30 44 18 9 φ 26 {von der welt} 17 20 ψ 10 #z-tail 38 26
-93 33 39 34 17 31 39 44 15 27 6 11 40 42 #z-tail 78 #z-tail {Stalen}
+9 33 39 34 17 31 39 44 15 27 6 11 40 42 #z-tail 78 #z-tail {Stalen}
 83 28 37 19 17 w 38 26 84 42 #z-tail 53 w {für sein den} 84 27
 74 33 93 28 27 p 26 {auch} 53 10 26 44 33 #4-hook 13 33 63
 6 17 w {in somma ich weiss nichts anders zu rath.}

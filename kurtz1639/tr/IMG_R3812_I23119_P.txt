@@ -1,10 +1,10 @@
 # IMG_R3812_I23119_P  (spread). Left: end of letter (cipher), signature, clear postscript dated Hamburg 3 feb. 1639.
 # Right: "P.S." cipher postscript. No glosses.
 ## left
-α 62 85 15 11 27 19 56 50 58 31 c π, {Den}
+α 62 85 15 11 27 19 56 50 58 31 #l-loop π, {Den}
 {Herren von Schwarzenberg aber schreib ich wie}
 {der beyschluß vermag, Wann wir} 15 31 59 94 42 31
-15 31 59 94 42 17 23 26 28 21 39 #s-long c 27 {ein} 30 28 15
+15 31 59 94 42 17 23 26 28 21 39 #s-long #l-loop 27 {ein} 30 28 15
 ~13~ 31 87 30 15 10 32 74 93 31 {in} 45 31 39 k 43 86
 π 48 31 27 21 18 {so wirdt} 21 33 27 84 31 w 83 56
 81 {wie es} φ 11 15 31 89 57 52 43 31 {zu} 43 87 31
@@ -24,7 +24,7 @@
 18 31 36 62 27 39 35 19 46 26 27 39 35 21 37 9 28 {wie}
 {der} 93 x 15 35 π 19 {genendet?,} 82 27 85 28 42 28 26
 {worden, praeoccupavit den Er es seiner schuldigkeit}
-{zu sein erachtet auch hette} #z-tail 19 16 31 {relation}
+{zu sein erachtet auch hette} #a-loop 19 16 31 {relation}
 {und} 83 27 39 35 25 28 37 10 28 27 26 19 31 10 12 31
 α 39 35 27 27 18 31 93 42 39 35 26 21 31 69 x : 71 37
 {werde ... sein, den Er sich der Kay: gnadt}

@@ -5,15 +5,15 @@ p 33 58 35 28 18 28 27 22 15 31 #s-loop e #s-long 30 37
 18 43 43 d 50 #s-long 14 #z-tail n 28 25 28 α 39 35 18 w
 d 33 9 {noch mehrers. bey thunlicher Con-}
 {sultation, dem ...: 3. sub dato den 8. dieß}
-{vernehmen thun, soviel} 82 63 31 39 44 15 27 #s-loop e
-25 31 38 16 w 86 31 62 9 n #z-tail #s-long 22 π 27 39 35
-15 19 28 84 27 10 31 17 n 28 α 93 26 42 37 26
+{vernehmen thun, soviel} 82 6 31 39 44 15 27 #s-loop e
+25 31 38 16 w 86 31 6 29 n #z-tail #s-long 22 π 27 39 35
+15 19 28 84 27 10 31 17 n 28 #dot α 93 26 42 37 26
 {hat man primo auch} 19 17 w ψ 15 78 #sect 10 28 39 34
-62 39 73 99 c 27 93 1 ψ 25 31 38 86 w 15 25 31
+62 39 73 99 c 27 9 31 ψ 25 31 38 86 w 15 25 31
 39 #s-long 14 #z-tail 34 19 15 #z-tail 37 22 87 26 34 18 16 w
-44 15 26 #l-loop 31 36 61 0 59 39 73 31 {2do oben}
+44 15 26 #l-loop 31 36 6 10 59 39 73 31 {2do oben}
 d 24 19 52 36 23 10 37 17 35 28 83 28 37 11 28
-27 9 31 25 31 38 e 27 #s-long #z-tail 83 w 63 34 0 27 26
+27 9 31 25 31 38 e 27 #s-long #z-tail 83 w 6 33 40 27 26
 79 28 19 15 78 53 n 28 37 23 27 #dot 31 36 ψ 10
 83 37 19 31 82 100 w 36 15 35 43 28 18 16 78
 53 31 64 w 83 #z-tail {Ob nun} 52 39 35 26 27 23
@@ -30,7 +30,7 @@ d 33 9 25 w 38 34 13 #z-tail 9 {werden} 52 39 35
 34 42 19 36 {Zugleichen} {cum} 17 31 82 43 39
 9 e #s-loop 15 w 58 39 34 33 80 28 36 {vnd} 46 π
 58 43 31 c 18 86 31 37 16 52 19 28 9 28 74
-33 9 #z-tail #dot 19 87 51 #z-tail #dot w 26 x α #dot 40 #s-long 63 27
+33 9 #z-tail #dot 19 87 51 #z-tail #dot w 26 #f-cross α #dot 40 #s-long 63 27
 10 26 82 27 #s-long 31 75 22 31 26 17 31 9 28 43
 78 π 84 52 22 18 19 26 70 88 32 71 33
 α #s-long 23 19 20 26 43 4+ {ipse saepe non distin-}
@@ -38,5 +38,5 @@ d 33 9 25 w 38 34 13 #z-tail 9 {werden} 52 39 35
 79 83 31 80 27 39 35 82 19 72 33 37 p
 {dagegen ... } 83 28 66 52 36 37 25 28 82 27
 59 35 33 ψ 25 78 #4-hook 22 28 9 #z-tail {scheint} 52 26
-22 33 d 61 1 61 7 31 84 27 83 31 53 59 28 39 34
+22 33 d φ 11 6 17 31 84 27 83 31 53 59 28 39 34
 {vnd aber} 43 d 50 #s-long 14 31 ψ 10 18 15 63 #z-tail {die}

@@ -3,10 +3,10 @@
 74 33 40 46 π 33 19 28 w 78 93 31 {die} 78 53 44 33
 22 23 52 27 26 16 21 93 24 17 33 62 36 9 #z-tail {und}
 {der feindt} 15 19 31 27 19 16 26 27 83 28 18 33 9 31 {wenn,}
-{daß wir darnach} 68 17 31 20 w 87 28 15 18 83 #z-tail
+{daß wir darnach} 68 17 31 20 w 37 28 15 18 83 #z-tail
 93 x {Schweden mit} 19 28 73 93 31 24 11 28 83 31 #s-loop
 {Ich sage wie der feindt} 23 31 17 19 φ 13 27 26 18 73 26
-{und ehe} 18 28 24 17 83 28 11 32 40 15 31 46 π α 19 28 31
+{und ehe} 18 28 24 17 83 28 11 32 40 15 31 46 π #a-loop 19 28 31
 78 40 28 21 39 35 26 {wirdt, so ist Ihnen nit an}
 {dem} 24 14 28 26 35 13 39 35 78 91 43 31 78 63 78 31 v
 {oder} 15 33 50 27 26 42 27 c 57 10 31 38 {wann man}
@@ -18,21 +18,21 @@
 n π ψ 25 40 28 17 31 78 31 {sein,} 64 91 44 31 70 37
 #s-long 58 31 30 20 28 40 28 21 31 83 80 28 36 {daß} 59 31
 19 17 #z-tail 26 35 11 31 {dörffe, und nach Nürnberg durch}
-{was weg} 82 19 26 28 22 39 #s-long c 27 23 38 49 28 #s-long
+{was weg} 82 19 26 28 22 39 #s-long #l-loop 27 23 38 49 28 #s-long
 85 64 43 27 φ 11 40 24 17 31 78 31 {Ich darumb}
-24 21 27 ψ 10 18 28 74 33 9 31 9 12 35 33 {und} 75 19 26
+24 21 27 ψ 10 18 28 74 33 9 31 #sect 12 35 33 {und} 75 19 26
 #4-hook 13 52 26 {so müssen wir} 25 31 27 24 19 35 43 w
 ## right
 d {lang} 11 31 27 76 26 {die} 39 28 20 37 9 31 77 40 26
 {hette wol verhofft daß Ihrer Kay: Mt: nun}
 {mehr mit sanffter mühe der} 24 19 33 26 17 31
-85 33 87 28 9 27 {desiderium pacis viel} 83 19 28 #s-loop
+85 33 87 28 9 27 {desiderium pacis viel zu} 19 28 #s-loop
 73 80 31 36 ~20 28 73 80 31~ 83 40 6 33 93 31 17 31
 9 w #s-long 13 #z-tail {deinlich sein solte, die} 24 23 37 19 31 c
 23 93 28 30 28 21 18 81 57 52 28 31 {und der} n 28
 50 27 26 57 26 40 28 21 x α 39 35 {hatt} 22 33 82,
 6 w 86 31 c 62 17 27 {dieser ende} 83 31 20 37 37 20
-39 26 78 51 π α 18 31 {und ob wird darbey blei-}
+39 26 78 51 π #a-loop 18 31 {und ob wird darbey blei-}
 {ben widerumb} 82 19 20 33 93 15 31 25 31 6 28 #z-tail
 74 31 83 31 {Gewissen} 83 31 53 59 28 39 34 11 31 38
 27 39 35 24 18 83 31 27 20 17 31 38 26 36 28 14 27

@@ -2,43 +2,43 @@
 ## left
 39 41 31 {durch die} 38 42 26 9 74 #z-tail 38 26 26
 44 39 #s-long 43 #z-tail {zulassen, als die} 49 28 #s-long 85
-64 43 27 26 44 39 x #l-loop 27 {einhelig vnnd allein} 22
-10 37 α 33 x 17 #s-loop 43 64 #s-long 13 #z-tail 54 39 35 27 d
-39 34 71 33 π 29 x d 50 27 37 23 87 62 11 27
-29 m π 14 32 53 27 43 62 29 x 6 54 d 43 27
+64 43 27 26 44 39 #f-cross #l-loop 27 {einhelig vnnd allein} 22
+10 37 α 33 #f-cross 17 #s-loop 43 64 #s-long 13 #z-tail 54 39 35 27 d
+39 34 71 33 π 29 #f-cross d 50 27 37 23 87 62 11 27
+29 m π 14 32 53 27 43 62 29 #f-cross 6 54 d 43 27
 23 79 33 62 86 28 100 π 47 #l-loop 28 {zu fundieren}
-{dannenhero} 17 18 ψ 10 28 3 28 #4-hook 13 c 18 71 39 73
+{dannenhero} 17 18 ψ 10 #z-tail 83 28 #4-hook 13 c 18 71 39 73
 28 17 31 d 52 28 26 {als noch nie,}
 {Zum anderen wegen, dermblich} 15 w 27 87 13
 19 63 39 d 43 {zu resolvieren, wann die}
-27 x w 38 26 23 15 #z-tail 41 57 27 39 73 #z-tail
+27 #f-cross w 38 26 23 15 #z-tail 41 57 27 39 73 #z-tail
 69 15 6 28 #s-loop {deservieren wollen,} 16 35 58 10
-31 38 61 55 3 π 74 95 83 w 34 42 18 36 {allein}
+31 38 6 15 53 π 74 95 83 w 34 42 18 36 {allein}
 13 40 83 #z-tail 74 33 27 27 39 72 18 93 31 68 15 53
 #dot 40 c 82 23 {annemmen, selbsten} 83 π 37 18 15
 #z-tail 38 26 52 26 43 c 27 #s-long 43 #z-tail {da stehe ich sehr}
 {an, wan das in tali casu zuthun: Die} 39 60 28
-37 10 28 27 26 70 28 39 35 33 61 17 31 38 26
-ψ #4-hook 22 28 72 18 44 w 79 31 6 25 31 27 39 60
-33 82 36 {das würdt} 22 93 28 #s-loop x c 18
+37 10 28 27 26 70 28 39 35 33 6 17 31 38 26
+ψ #4-hook 22 28 72 18 44 w 79 31 φ 25 31 27 39 60
+33 82 36 {das würdt} 22 93 28 #s-loop #f-cross c 18
 ## right
-{auch halten, wann durch} 53 10 26 44 62 x 9 27
-23 31 83 43 28 27 x 31 38 26 {sowohl der}
-39 60 28 37 25 28 27 26 {als} 82 18 69 x
-59 x c 39 35 ψ 25 n 28 62 20 35 43 w {haben}
+{auch halten, wann durch} 53 10 26 44 62 #f-cross 9 27
+23 31 83 43 28 27 #f-cross 31 38 26 {sowohl der}
+39 60 28 37 25 28 27 26 {als} 82 18 69 #f-cross
+59 #f-cross c 39 35 ψ 25 n 28 62 20 35 43 w {haben}
 {dahin, wann das} 34 31 53 93 5 52 26 22 #z-tail
 83 28 27 26 ψ 10 28 α 39 73 w {thut, das}
 {wegen} 66 58 31 #4-hook 17 33 {Dahingegen wann}
-Δ 28 82 62 83 9 44 15 27 24 13 33 9
+Δ 28 82 6 28 39 44 15 27 24 13 33 9
 {wie K. H. jüngst gemelt haben,} 82 19 27 39 35
-9 18 83 #z-tail 63 31 36 27 26 83 93 33 62 28 26
-{wären, zu diesen} 19 φ 26 43 57 x #s-loop 9 26
+#sect 18 83 #z-tail 63 31 36 27 26 83 93 33 62 28 26
+{wären, zu diesen} 19 φ 26 43 57 #f-cross #s-loop 9 26
 {oder, halt ich, hat es vmbsoviel weniger zu-}
 {gelangen, weilen es nit allein} 52 26 73 28
-66 π 58 #z-tail {mit} 78 26 43 #4-hook 18 31 27 x 31 83 #z-tail
-83 28 78 27 x 33 26 {zuhandlen, sondern dass}
+66 π 58 #z-tail {mit} 78 26 43 #4-hook 18 31 27 #f-cross 31 83 #z-tail
+83 28 78 27 #f-cross 33 26 {zuhandlen, sondern dass}
 {es vnfehlbarlich wer} 83 π 37 18 15 31 38 26
-63 34 0 27 9 #z-tail 15 31 13 82 25 π 89 19 α 42 27
+6 33 40 27 9 #z-tail 15 31 13 82 25 π 89 19 α 42 27
 27 49 28 77 28 26 {werde werden, vnnd dieses}
 {der} 43 39 35 9 74 25 40 26 42 27 83 27
 30 44 78 42 27 39 73 #z-tail 37 42 83 31 27 39

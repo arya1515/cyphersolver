@@ -6,10 +6,10 @@
 {... geschehen aber zu spatt. In gazetten stehet}
 {recruten ... nach Österreich destiniert, mit}
 {wenig gelt} 34=k 23=ü? w=n? π=m 21=a #z-tail=n 22=a 33=l 72=hi 18=r 43=e? 39=c
-100=n? #s-long=si+ 43=re 3=n {und sie wenden gern} 10 31=ü? 9=bö? 35=h 58=m? #z-tail=n?
+100=n? #s-long=si+ 43=re 31=n {und sie wenden gern} 16 31=ü? 9=bö? 35=h 58=m? #z-tail=n?
 64=he? 25=ü 37=? 37 19 w {doppelter ... ist der}
 {... dann ... mag dort} 24=w 17=i 28=r 40=b 26=t 15=i 27=ch? 20
-28=r 61=w? 35=ß? 43=re #z-tail=n {der Herzogen ... feindt ...}
+n 28=r 61=w? 35=ß? 43=re #z-tail=n {der Herzogen ... feindt ...}
 39=c 17=i 3=o α=m 48=ß? #s-long=sti? 43=ra? 31=n 57=mi 26=t 83=de #z-tail=d? 10=v? 31 6=sch? 42=ra 78=gr? 31=n 16=fu? 32=n
 60=? #z-tail=gr? 78=r 28 {beiden, und ... gebracht, delatiert}
 {sich ... alle die ... All gelt}
@@ -17,23 +17,23 @@
 {und gar, ein Thaler ... gilt in 6. Monatt}
 {kaum mehr viel. ... habe ich}
 {noch kein Antwort. Wo Ihr Mtt. ich ... viel,}
-{leicht} #4-hook 25 28 38 26 17 35 π 86 α 57 26 #s-long 28 26 16 31
+{leicht} #4-hook 25 28 38 26 17 35 π 86 #a-loop 57 26 #s-long 28 26 16 31
 46 61 52 87 27 {mit mir ... Ich avanzier}
 {gleichwohl wenig ... könig}
-{erlebte, ... und} 83 28 ?(7133) 27 26 20 16
+{erlebte, ... und} 83 28 71 33 27 26 20 16
 31 15 27 73 9 35 19 #z-tail 78 α 31 9 w 44 16 27 54 39 35
-50 53 80 28 36 48 28 17 3 82 43 39 c π 6 25 9 3 37 11 28
+50 53 80 28 36 48 28 17 3 82 43 39 #l-loop π 6 25 9 3 37 11 28
 83 43 31: {potissima causa est,} 84 27 37 28 23 #z-tail 39
 34 43 16 39 35 27 39 35 #4-hook 19 83 w {und} 71 33 64 31 26
 ## right
-17 32 9 19 28 39 34 6 15 #z-tail ψ 10 π 34 14 52 36
+17 32 #sect 19 28 39 34 6 15 #z-tail ψ 10 π 34 14 52 36
 21 16 w 22 w 6 35 19 31 62 39 35 18 63 79 #s-long 14 #z-tail
 6 10 27 39 35 16 39 34 20 31, {und} 15 35 w ψ 25 83
 71 28 #s-long 43 #z-tail 84 27 19 28 44 #s-long 14 53 86 31 36 28
 18 27 #dot 27 17 #z-tail 27 39 35 #4-hook 20 83 w 52 26 83 28
 78 27 26 22 33 26 26 28 16 #z-tail 78, {und} 84 28 70 28
 39 35 23 33 63 #z-tail 38 28 19 x 18 w 37 22 18 83 44
-27 39 35 9 19 39 73 #z-tail #4-hook 13 33 63 : 14 35 53 ψ #4-hook 19
+27 39 35 #sect 19 39 73 #z-tail #4-hook 13 33 63 : 14 35 53 ψ #4-hook 19
 16 37 18 33 78 73 w 9 28 42 85 64 58 #z-tail #s-cross 57 26,
 {... solle ... ad constantiam Regis}
 {demoliert, und den Zoll eingestellt haben. Ad-}
@@ -43,7 +43,7 @@
 78 93 w {und} 82 20 27 26 19 39 34 52 6 9 33 63
 57 26 83 w 52 27 39 73 #z-tail {Volckh bereit worden}
 17 #s-cross 71 33 α #s-long 21 17 31 23 62 20 51 58 62 25 27
-18 26 37 22 87 62 11 27 83 37 19 #z-tail 82 c 28 84 27
+18 26 37 22 87 62 11 27 83 37 19 #z-tail 82 #l-loop 28 84 27
 22 31 83 43 {stehet zu ... }
 23 28 w 73 16 π {ist gestert bey mir gewesen, Consi-}
 {liatis vermeldt,} 87 63 43 6 84 27 19 28 93 x 34 23

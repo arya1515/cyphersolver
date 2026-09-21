@@ -7,7 +7,7 @@
 <meta name="description" content="Nine ciphered letters of the imperial vice-chancellor Ferdinand Sigmund Kurz von Senftenau from Hamburg and Glückstadt, January–April 1639 (SOA Plzeň, RA Trauttmansdorff, DECODE R3811–R4736). The key, never published, was rebuilt from a contemporary interlinear decipherment on one page: a regular table of consonant–vowel signs 41–100 plus homophones. All nine letters are deciphered in a first pass.">
 <link rel="stylesheet" href="style.css?v=20260919a">
 <meta name="date" content="2026-09-19">
-<meta name="last-modified" content="2026-09-19">
+<meta name="last-modified" content="2026-09-21">
 </head>
 <body id="top">
 <header class="nav"><div class="in">
@@ -40,7 +40,7 @@
   <h1>Kurz von Senftenau to Trauttmansdorff, Hamburg 1639 &mdash; the vice-chancellor&rsquo;s cipher rebuilt</h1>
   <p class="sub">SOA Plze&#328;, pracovi&scaron;t&#283; Kl&aacute;&scaron;ter u Nepomuka, Rodinn&yacute; archiv Trauttmansdorff&#367;, inv. &#269;. 200, kart. 9 &middot; DECODE R3811&ndash;R3815, R4625, R4645, R4734, R4736 &middot; 73 images, about 23,000 cipher signs</p>
   <p class="sub">A contemporary reader glossed one page; from it the whole table falls out. The other eight letters had never been deciphered.</p>
-  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-19">19 September 2026</time></p>
+  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-19">19 September 2026</time> &middot; updated <time datetime="2026-09-21">21 September 2026</time></p>
 </section>
 <main>
 <nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-letters">The letters</a><a href="#the-key">The key</a><a href="#what-the-letters-say">What the letters say</a><a href="#method">Method</a><a href="#what-remains-uncertain">What remains uncertain</a><a href="#sources">Sources</a></nav>
@@ -102,15 +102,16 @@
 <figure><img src="kurtz1639_glueckstadt.jpg" alt="Opening of the all-cipher letter from Glückstadt, 14 April 1639" loading="lazy"><figcaption>R4736, Gl&uuml;ckstadt, 14 April 1639: the letter is almost entirely in cipher. It opens <em>Von hinnen wolt man mich nit gern dimittiren &hellip;</em>. SOA Plze&#328;, via DECODE.</figcaption></figure>
 
 <h2 id="method"><span class="num">04</span>Method</h2>
-<p>Agents transcribed all 73 DECODE images token by token, two at a time. Clear text went in braces and the glosses were attached to their numbers. Plain homophonic annealing with a German 5-gram model (Grimmelshausen and Gutenberg German, early spelling) collapsed into <em>enenen&hellip;</em>, even with a letter-frequency penalty. The glosses turned the problem into a structured one: one consonant per half-ten and one value per single sign, seeded with seventeen glossed values. That solver produced fluent German on the first run (<em>ich m&uuml;esse die Kranckheit beschreiben, damit man sich den remediis darnach zu richten&hellip;</em>). The irregular signs were then fixed by reading them in context and by ranking candidate values with the language model. Of the 22,913 transcribed cipher signs, 98.3&nbsp;% now have a value.</p>
+<p>Agents transcribed all 73 DECODE images token by token, two at a time. Clear text went in braces and the glosses were attached to their numbers. Plain homophonic annealing with a German 5-gram model (Grimmelshausen and Gutenberg German, early spelling) collapsed into <em>enenen&hellip;</em>, even with a letter-frequency penalty. The glosses turned the problem into a structured one: one consonant per half-ten and one value per single sign, seeded with seventeen glossed values. That solver produced fluent German on the first run (<em>ich m&uuml;esse die Kranckheit beschreiben, damit man sich den remediis darnach zu richten&hellip;</em>). The irregular signs were then fixed by reading them in context and by ranking candidate values with the language model. Of the 22,913 transcribed cipher signs, 98.3&nbsp;% then had a value.</p>
+<p>A checked second pass followed on 21 September 2026. Agents compared every line of the 73 transcriptions with crops of the images, working from a printout of each sign&rsquo;s value, and changed a sign only where the image showed it. About 360 signs were corrected. The commonest slips were a plain <em>c</em> written for the looped sign worth <em>tu</em>, a bold 9 written for the hooked sign worth <em>w</em>, and 6 written for &phi; (<em>z</em>). In R3813 a crossed &fnof;-like sign worth <em>ta</em> had been merged with another sign. A script fault had also dropped 56 cipher lines that began with a graphic sign. The language-model score of the decipherment improved on eight of the nine letters. Of 23,699 cipher signs, 99.9&nbsp;% now have a value.</p>
 
 <h2 id="what-remains-uncertain"><span class="num">05</span>What remains uncertain</h2>
 <ul>
-<li><strong>Transcription, not key.</strong> The images were read once. The confusions 1/7, 6/0/<em>c</em>, 9/&psi;/&phi; and &ldquo;93&rdquo; versus &ldquo;9&nbsp;3&rdquo; leave 20&ndash;45&nbsp;% of each letter garbled. By eye, R4645 is the best letter (about 80&nbsp;% coherent) and R3814 and R4736 are the weakest (about 55&nbsp;%). The Latin passages suffer most.</li>
-<li>&alpha; reads <em>m</em> in most places, but before <em>l</em> it gives <em>Salv-</em> (<em>den Salvius</em>, <em>salvus conductus</em>). Probably a second sign was merged with &alpha; in transcription (grade C).</li>
+<li><strong>Transcription, not key.</strong> After the checked second pass, the garble that remains sits where the image itself does not decide: digits run together, blots and overwritten figures. The Latin passages are still the weakest. <code>tr/PASS2_LOG.md</code> lists the remaining lines file by file.</li>
+<li>&alpha; was first read as <em>m</em>, which gave <em>Salv-</em> before <em>l</em>. The images show two signs: the small upright &alpha; is <em>sa</em> (<em>Salvius</em>, <em>caesaris</em>, <em>universal-</em>, <em>Sachsen</em>), and a larger looped form is <em>m</em>. In one hand (R3813) the two shapes are hard to tell apart.</li>
 <li>99 is uncertain (<em>e</em>?), 90 occurs once, and 96 does not occur. The signs 3, 4, 5, 7, <em>m</em>, #s-loop, #dot and <em>p</em> are read as nulls or are unassigned (grade M).</li>
 <li>The recurring group read <em>ml</em> in R3812&ndash;R3814 is sometimes part of <em>universal-</em> and sometimes a name. It is unresolved.</li>
-<li>The clear postscripts and the two Ban&eacute;r copies in R4645 are not transcribed. The endorsement on R4734 (addressee) needs checking against the image.</li>
+<li>The two Ban&eacute;r copies in R4645 are transcribed: to Lüneburg, 10 January 1639, and to the Lower Saxon envoys, 29 January 1639, refusing to leave the Circle. The endorsement on R4734 names the addressee as Count Schwarzenberg. Kurz&rsquo;s own clear postscript on R4645 is only half legible.</li>
 </ul>
 
 <h2 id="sources"><span class="num">06</span>Sources</h2>

@@ -17,7 +17,7 @@ w 78 31, {Jetzt sagt man er gehe in Ostfrieß-}
 ψ 19 31 {nichts} 48 53 26 28 16 43 31 66 31 53 w,
 {wol daß die} 71 33 27 26 23 15 52 27 39 35 19
 64 31 38 26 27 26 21 31 38 26 {zu den selbigen}
-25 31 83 28 74 33 c w 36 {ein} #dot π α 22 78 33 26
+25 31 83 28 74 33 #l-loop w 36 {ein} #dot π #a-loop 22 78 33 26
 27 n 28 24 17 33 62 36 26 {hetten, Graf}
 {Gondem? hab ich communiciert litera} α 33 p 17
 24 20 78 31 {daß} 71 28 31 27 24 17 19 {auch mein}
@@ -26,12 +26,12 @@ w 78 31, {Jetzt sagt man er gehe in Ostfrieß-}
 68 31 {was er darvor} 74 23 33 9 15 25 82 89
 p {daß} 19 27 6 x 20 {nichts} 22 33 27 20 15 31 17 31
 n 31 #s-long 13 31 17 31 49 28 #s-long 85 64 43 27 26 28 21 39
-#s-long c 27 57 26 57 28 {zu kommen,} 25 #z-tail 38 83 31 53 59
+#s-long #l-loop 27 57 26 57 28 {zu kommen,} 25 #z-tail 38 83 31 53 59
 28 39 34 15 21 6 31 c 19 w {zu} 59 39 73 #z-tail {gar so weit}
 {als wann} 27 39 35 24 19 83 31 22 49 28 26 57 26
 25 31 28 74 31 38 63 31 {und} 23 33 27 84 #z-tail {den}
 34 28 15 19 36 21 11 37 83 31 53 59 28 39 34 83 93 3?
-p 43 31 {wolle,} 84 51 27 r 21 54 c 44 19 27 6 r 27 30
+p 43 31 {wolle,} 84 51 27 r 21 54 #l-loop 44 19 27 6 r 27 30
 17 89 87 27 c 56 27 {sonderlich} 78 78 31 27 39 35
 24 19 83 31 {die} 28 20 15 39 35 27 44 26 35 24 19 43 31
 {bey Ihr} π 26 84 27 24 19 28 39 34 {handtgreiflich}
@@ -41,4 +41,4 @@ p 43 31 {wolle,} 84 51 27 r 21 54 c 44 19 27 6 r 27 30
 {mit allerdings} 21 31 78 53 32 58 43 d 50 #s-long 14 53 27
 {und} 27 39 35 24 19 83 31 18 28 37 12 33 78 31 #s-long
 {andern er und das übrige was über} 83 27 48 31
-φ 19 #z-tail n 28 28 15 39 35 c 31 36 22 33 72 19 28 {...}
+φ 19 #z-tail n 28 28 15 39 35 #l-loop 31 36 22 33 72 19 28 {...}

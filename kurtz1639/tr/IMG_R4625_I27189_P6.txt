@@ -7,12 +7,12 @@
 18 π 30 37 15 #z-tail 83 w {wir werden doch} 83 #z-tail 37 19 15
 31 38 26 52 26 17 w 46 π 58 43 #z-tail {so bald sehen, und}
 {alle} 17 22 35 28 18 16 #z-tail 21 28 59 84 60 31 78 28 64 27
-62 27 9 28 9 3 w {und die} 10 #z-tail 64 27 #z-tail 54 39 35 {und}
+62 27 9 28 9 3 w {und die} 10 #z-tail 64 #z-tail 78 #z-tail 54 39 35 {und}
 # interlinear above "9 28 9 3 w": 11 25 w 27 11 (correction or alternative groups, written small)
 54 39 35 80 w #dot 57 43 w {sondern} 83 31 37 18 17 #z-tail 38 26
 9 31 #4-hook 19 15 9 π 40 61 29 p 28 9 28 {halten, wan es auch}
 p 33 17 22 35 28 {solte} #4-hook 18 28 43 #z-tail {biss die} 27 p 31 38 26
-83 28 α 39 35 55 18 38 9 20 28 83 #z-tail {und etwas} 83 w
+83 28 α 39 35 55 18 38 #sect 20 28 83 #z-tail {und etwas} 83 w
 53 59 28 39 34 {weiss Gott, wan} 19 15 w 43 d 50 #s-long 12 #z-tail
 37 23 27 26 {das würdt} 82 6 28 14 28 26 9 #z-tail 83 28
 34 42 19 36 {sein,} 17 35 43 28 71 39 35 37 10 28 27 26
@@ -24,9 +24,9 @@ p 33 17 22 35 28 {solte} #4-hook 18 28 43 #z-tail {biss die} 27 p 31 38 26
 {... den wir} 9 w 74 33 93 28 27 p 26 74 93 31 {khönden,}
 {dann was mir dessen mit} 78 52 18 62 #z-tail #4-hook 17 33 33 {so}
 {... ich es dahin gestelt sein lassen, und leben}
-{... frembd} 93 84 25 43 {ich mit} 25 #z-tail 43 w ψ 25 27 p
+{... frembd} 93 84 25 43 {ich mit} 25 #z-tail 6 43 w ψ 25 27 p
 ## right
-w 38 26 {dass ihm mit} 56 #z-tail 6 62 39 35 ψ 25 73 33 33 37 18 #z-tail
+w 38 26 {dass ihm mit} 56 36 62 39 35 ψ 25 73 33 33 37 18 #z-tail
 {gelten sein, sondern das zum theill} 82 19 27 p #z-tail 38 26
 78 78 w 83 π 37 20 15 31 38 26 {sonderlich} 82 6 28
 13 28 26 #s-loop p 9 #z-tail {nicht genungsamb} 86 13 48 42 18 43

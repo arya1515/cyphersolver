@@ -359,33 +359,68 @@
    "kind": "reading",
    "what": "All nine letters deciphered with key.json (read/*.txt); 98.3% of 22,913 cipher tokens given a value.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Checked second pass: agents compared every line of all 73 transcriptions with image crops, guided by a per-token decode; about 360 tokens corrected (c for #l-loop, 9 for #sect, 6/61 for phi, digit-group splits).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Bug fix: 56 cipher lines starting with a sign token had been skipped as comments by decode/parse; restored.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "R3813 'x' is a separate crossed-f sign = ta (LM better on R3813, worse on R3812 if applied there); split out as #f-cross.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "German 5-gram score per letter before/after the second pass: better on 8 of 9 letters (R4736 flat, more text restored).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "alpha re-valued m -> sa (Salvius, caesaris, universal-); looped variant split out as #a-loop = m on 28 image-checked tokens; LM better on every letter vs baseline.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Clear text transcribed: R4645 Banér copies (to Lüneburg 10 Jan 1639; to Lower Saxon envoys 29 Jan 1639); R4734 endorsement shows the addressee is Count Schwarzenberg.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.983,
-  "fraction_coherent": 0.65,
+  "fraction_read": 0.999,
   "verification": [
    "contemporary decipherment",
    "key confirms",
    "historical consistency"
   ],
-  "notes": "fraction_read counts cipher tokens given a value; fraction_coherent (0.65, midpoint of the 55-80% range in NOTES, an estimate) is the share of text that reads as sense. Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
+  "notes": "Key complete; all nine letters deciphered after a checked second transcription pass (21 Sept 2026, ~360 tokens corrected, 56 skipped lines restored); residual garble in lines where the image does not decide the digits, and in Latin passages. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
   "gaps": [
    {
-    "item": "All nine letters, the garbled stretches (20-45% per letter; R4736 and R3814 worst)",
-    "blocker": "not-attempted",
-    "detail": "single agent transcription pass with 1/7, 6/0/c, 9/psi/phi, 93 vs 9 3 confusions; the checked second pass the notes call for was not made"
+    "item": "Residual garbled lines in all nine letters (per file in tr/PASS2_LOG.md)",
+    "blocker": "illegible",
+    "detail": "after the checked second pass: ambiguous digit groupings, blots, overwritten digits, Latin passages"
    },
    {
-    "item": "Latin passages and the alpha sign before l ('Salv-')",
-    "blocker": "not-attempted",
-    "detail": "probably a second sign merged with alpha in transcription; not re-checked on the images"
+    "item": "Latin passages",
+    "blocker": "illegible",
+    "detail": "image-checked; residual run-together digits and blots; alpha question settled (alpha = sa, #a-loop = m)"
    },
    {
-    "item": "R4645 clear postscripts and the two Baner copies; R4734 endorsement",
-    "blocker": "not-attempted",
-    "detail": "clear text, not transcribed"
+    "item": "R4645 P6 closing and postscript in Kurz's hand",
+    "blocker": "illegible",
+    "detail": "fast cursive, about half the words unread at DECODE resolution"
    }
   ],
   "fraction_read_method": "measured",

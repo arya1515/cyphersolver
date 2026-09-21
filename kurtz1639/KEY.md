@@ -105,3 +105,9 @@ Irregular: 97 = is, 98 = es, 99 = e (uncertain), 100 = ru; 96 not seen.
 
 Values of signs seen fewer than 3 times are in key.json and are uncertain. Two-letter values for single signs (9 te, 6 se,
 c si, n ve, d so, k ti, #l-loop tu) were fixed from context and the glosses.
+
+
+## Revisions, 21 Sept 2026 (second pass)
+
+- α (small upright a) = **sa**, not m; the larger looped ℒ-form is a separate sign, `#a-loop` = **m**.
+- `#f-cross` (crossed ƒ-like sign, R3813) = **ta**; pass 1 had merged it with `x` (i).
