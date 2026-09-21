@@ -120,12 +120,24 @@
    "kind": "literature search",
    "what": "Web search for a printed decipherment of Palm's 1727 intercepts.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Longer annealing (12 restarts x 250k moves) with six gloss pins: scores scattered -1985 to -2022, no two runs agree.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Synthetic German homophonic text of the same length and symbol count (162 tokens, 47 values), true values of the 6 commonest symbols pinned: solver recovered 81/162 and 71/162 tokens (two seeds), unreadable.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "not read",
   "fraction_read": 0,
   "verification": [],
-  "notes": "Too little ciphertext (162 letter tokens, 47 values) for ciphertext-only; needs Palm's Imperial key or the Deciphering Branch's clear copy."
+  "notes": "Closed as infeasible ciphertext-only: a same-size control with correct pins reaches only 44-50% token accuracy. Needs Palm's key or the Deciphering Branch clear copy."
  }
 }

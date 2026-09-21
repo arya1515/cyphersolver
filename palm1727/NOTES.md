@@ -26,6 +26,15 @@ Starhemberg, Imperial envoy (d. 1727). Session 21 Sept 2026.
   Nothing converged. Scores stayed around −1950 and the output was word salad. The text is too short for a homophonic system
   with about two homophones per letter.
 
+## Control: why this is a skip
+
+A longer run (12 restarts × 250k moves, `anneal3.py`) gave scattered scores from −1985 to −2022, and no two runs agreed.
+`control.py` builds a synthetic German homophonic text with the same shape: 162 letter tokens over the same 47 values,
+the same code groups and the same clear context. It fixes the TRUE values of the six commonest symbols.
+The same solver then recovers only 81/162 and 71/162 tokens (seeds 1 and 2), which is unreadable. The real letter has
+fewer certain glosses, so a ciphertext-only reading is not achievable with this much text. The target is skipped until a
+key or clear copy is found.
+
 ## Prior art
 
 Searched the web for a printed decipherment of Palm's 1727 intercepts and found none. As a Deciphering Branch intercept it was
