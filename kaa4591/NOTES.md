@@ -23,7 +23,7 @@ they are separate letters in at least six systems, several with their key a few 
 | R9408 | 236–239 | Anno 1534, German report to "Sp…nio" (Sperantio?) with Latin clear passages: Hungary, the Turk, Constantinople, Syria, "dreissig tausent man aus dem teutschen land" | System A′ | R9427 gloss key | **broken**, read in part (`r9408/decrypt_working.txt`) |
 | R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | **broken**, read in part |
 | R9410 | 244–247 | German, Anno 35, to the duke: the Turks, "bruederlich halten" | System A′ | R9427 gloss key | **broken**, read in part (`sysA/r9410_decrypt_working.txt`) |
-| R9413 | 252–256 | two German letters to the duke, [July] and 7 June 1534: Niclas Jurisitz, Cornelius (Sperantio?), Antonius Rincon the French king's orator, Constantinople, Emericus (Czibak), the Turk | System A′ | R9427 gloss key | **broken**, read in part (P5–P8 being transcribed) |
+| R9413 | 252–256 | two German letters to the duke, [July] and 7 June 1534: Niclas Jurisitz, Cornelius (Sperantio?), Antonius Rincon the French king's orator, Constantinople, Emericus (Czibak), the Turk | System A′ | R9427 gloss key | **broken**, read in part (all 8 pp. transcribed, ~7,380 signs; letters of 11 July and 7 June 1534, a 3rd dated "8 Julij"; sign Z unassigned, probably a null) |
 | R9416 | 262–263 | pp.1–2 a Bavarian servant to his duke, "eritags nach Jacobi" (Tuesday after 25 July): troops in Austria/Styria, asks for 7 years' pension and the Oberrichter post at Straubing; pp.3–4 another sign set | homophonic signs | interlinear | pp.1–2 **read at the time**; pp.3–4 **broken ciphertext-only** (de-1500s model), report on the Pressburg talks between the two kings and the Turk |
 | R9417 | 264 | Łaski at Kraków, 16 June [1530], to the Bavarian secretary "Waisenfelder": Buda siege, Nicolaus Min… sent to France, meeting at Coburg | System B | rebuilt from glosses | **read** |
 | R9424 | 274–277 | German letter, cipher in Latin-letter substitution | letters | margin notes | |
@@ -104,7 +104,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 ## Remaining gaps
 
 - R9408 clean reading - blocker: none yet; decrypt working, E/X/a+ signs to settle.
-- R9413 - blocker: none yet; P1–P4 read in part with the System A′ key, P5–P8 being transcribed.
+- R9413 clean reading - blocker: none yet; all pages transcribed and decoded (`r9413/decrypt.txt`); sign Z and A unassigned.
 - R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
 - R9416 f.263 clean reading - blocker: none yet; re-key the v2 transcription, split code y.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
