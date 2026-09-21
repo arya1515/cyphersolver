@@ -627,14 +627,14 @@ body::before{content:"";position:fixed;inset:0;z-index:200;pointer-events:none;o
 blockquote.reading,blockquote.big{font-family:var(--period);font-size:1.3rem;line-height:1.55}
 /* the seal on every write-up: pressed in once, outcome in the wax */
 .hero{position:relative}
-@media (min-width:761px){.hero:has(> .seal) > .sub,.hero:has(> .seal) > h1{margin-right:6.5rem}}
-.hero .seal{position:absolute;right:1.4rem;bottom:1rem;width:5.4rem;height:5.4rem;display:grid;place-items:center;pointer-events:none;
+@media (min-width:761px){.hero:has(> .seal) > .sub,.hero:has(> .seal) > h1{margin-right:10rem}}
+.hero .seal{position:absolute;right:1.4rem;bottom:.8rem;width:8.2rem;height:8.2rem;display:grid;place-items:center;pointer-events:none;
   color:var(--wx);transform:rotate(-12deg);filter:drop-shadow(0 .25rem .4rem rgba(0,0,0,.35))}
 .hero .seal::before{content:"";position:absolute;inset:0;border-radius:51% 47% 53% 46%/48% 54% 45% 52%;
   background:radial-gradient(circle at 36% 30%,color-mix(in srgb,var(--wx) 55%,#fff) 0 10%,var(--wx) 42%,color-mix(in srgb,var(--wx) 60%,#000) 100%);
-  box-shadow:inset 0 0 0 .32rem color-mix(in srgb,var(--wx) 80%,#000),inset 0 0 0 .38rem color-mix(in srgb,var(--wx) 60%,#fff),inset .2rem .25rem .5rem var(--wax-hi)}
-.hero .seal::after{content:"";position:absolute;inset:.85rem;border-radius:50%;border:1px dashed color-mix(in srgb,var(--wx) 45%,#000)}
-.hero .seal span{position:relative;z-index:1;font:600 .62rem/1.1 var(--display);letter-spacing:.14em;text-transform:uppercase;text-align:center;max-width:3.6rem;
+  box-shadow:inset 0 0 0 .45rem color-mix(in srgb,var(--wx) 80%,#000),inset 0 0 0 .54rem color-mix(in srgb,var(--wx) 60%,#fff),inset .2rem .25rem .5rem var(--wax-hi)}
+.hero .seal::after{content:"";position:absolute;inset:1.25rem;border-radius:50%;border:1px dashed color-mix(in srgb,var(--wx) 45%,#000)}
+.hero .seal span{position:relative;z-index:1;font:600 .92rem/1.1 var(--display);letter-spacing:.14em;text-transform:uppercase;text-align:center;max-width:5.4rem;
   color:color-mix(in srgb,var(--wx) 35%,#000);text-shadow:0 1px 0 color-mix(in srgb,var(--wx) 40%,#fff)}
 .hero .seal{background:none;border:0}
 .hero .seal.solved{--wx:#9b2a22} .hero .seal.partial{--wx:#a4651c} .hero .seal.found{--wx:#2f4d7a} .hero .seal.stuck{--wx:#4a4640}
@@ -642,7 +642,7 @@ blockquote.reading,blockquote.big{font-family:var(--period);font-size:1.3rem;lin
   .hero .seal{animation:sealpress .7s cubic-bezier(.2,.9,.3,1.2) .35s both}
   @keyframes sealpress{0%{opacity:0;transform:rotate(-24deg) scale(1.6)}60%{opacity:1;transform:rotate(-10deg) scale(.94)}100%{transform:rotate(-12deg) scale(1)}}
 }
-@media (max-width:760px){.hero .seal{position:relative;right:auto;bottom:auto;margin:.9rem 0 0 .3rem;width:4.2rem;height:4.2rem}.hero .seal span{font-size:.52rem}}
+@media (max-width:760px){.hero .seal{position:relative;right:auto;bottom:auto;margin:.9rem 0 0 .3rem;width:6rem;height:6rem}.hero .seal span{font-size:.7rem;max-width:4rem}}
 @media print{body::before,.hero .seal{display:none}}
 
 /* ---------------------------------------------------------------- deep-zoom viewer (zoom.js) */
@@ -694,3 +694,7 @@ html.zv-lock{overflow:hidden}
 .randbtn{align-self:center;font:600 .82rem var(--mono);padding:.7rem 1.1rem;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:var(--gold-ink);cursor:pointer;transition:transform .2s,box-shadow .2s}
 .randbtn:hover{transform:rotate(-3deg) scale(1.04);box-shadow:0 0 18px color-mix(in srgb,var(--gold) 45%,transparent)}
 @media (max-width:600px){.livecount .lc{min-width:calc(50% - .3rem);flex:1}.randbtn{width:100%}}
+.sb-big b{transform-origin:left bottom;transition:transform .5s cubic-bezier(.2,1.6,.4,1)}
+.sb-big b.counting{transform:scale(.5);font-variant-numeric:tabular-nums}
+.sb-big b.counted{transform:scale(1);animation:sb-pop .9s cubic-bezier(.2,1.6,.4,1)}
+@keyframes sb-pop{0%{transform:scale(.5)}50%{transform:scale(1.45)}100%{transform:scale(1)}}

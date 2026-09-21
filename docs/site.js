@@ -314,3 +314,25 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
     pts.forEach(p=>p.classList.toggle('off', on.length>0 && !on.includes(p.dataset.cat)));
   });
 })();
+
+/* scoreboard numbers count up from zero and swell when they scroll into view */
+(()=>{
+  const bs=document.querySelectorAll('.sb-big b'); if(!bs.length) return;
+  const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const run=b=>{
+    const t=b.firstChild; if(!t || t.nodeType!==3) return;
+    const m=t.textContent.match(/[\d,]+/); if(!m) return;
+    const end=+m[0].replace(/,/g,''), comma=m[0].includes(','), fmt=v=>comma?v.toLocaleString('en-US'):String(v);
+    b.classList.add('counting');
+    const t0=performance.now(), dur=Math.min(2200, 900+end/15);
+    const step=now=>{
+      const k=Math.min(1,(now-t0)/dur), e=1-Math.pow(1-k,3);
+      t.textContent=t.textContent.replace(/[\d,]+/, fmt(Math.round(end*e)));
+      if(k<1) requestAnimationFrame(step); else { b.classList.remove('counting'); b.classList.add('counted'); }
+    };
+    requestAnimationFrame(step);
+  };
+  if(still || !('IntersectionObserver' in window)) return;
+  const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ io.unobserve(e.target); run(e.target); } }),{threshold:.6});
+  bs.forEach(b=>io.observe(b));
+})();

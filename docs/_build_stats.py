@@ -172,7 +172,7 @@ def build(items):
     lines.append(f'<div class="sb-big"><b>{n["read"]} <small>of {attacked}</small></b><span>attacked targets read in full or in substance, {pct}&nbsp;%. One completes an alphabet another solver published (Boswell 1643); one applies a table already in print to letters never before decoded (Catinat 1691).</span></div>')
     lines.append(f'<div class="sb-big"><b>{decided}</b><span>questions settled one way or another: read, shown to carry no message, or found already solved in print, in a comment thread, or on GitHub.</span></div>')
     lines.append(f'<div class="sb-big"><b>{n["closed"]}</b><span>attacks that stop with a stated reason and a control that passed where the target failed. A negative here says something; it is not a shrug.</span></div>')
-    lines.append(f'<div class="sb-big"><b>{silence:,}</b><span>years of silence ended, summed over the {len(read)} texts read: each had waited from its date until {YEAR_NOW}. The oldest is {oldest["name"].split(",")[0].split(" (")[0]} ({oldest["date"]}).</span></div>')
+    lines.append(f'<div class="sb-big"><b>{silence:,}</b><span>years of silence ended, summed over the {len(read)} texts read' + (f' that carry a date ({n["read"] - len(read)} undated)' if len(read) != n['read'] else '') + f': each had waited from its date until {YEAR_NOW}. The oldest is {oldest["name"].split(",")[0].split(" (")[0]} ({oldest["date"]}).</span></div>')
     lines.append('</div>')
     lines.append(f'<p class="sb-note">Every target by date, {min(span)}&ndash;{max(span)}. Hover or tap a dot for the story; click a colour in the legend to isolate an outcome.</p>')
     lines.append(timeline_svg(items))
