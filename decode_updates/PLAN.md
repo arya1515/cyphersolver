@@ -103,6 +103,26 @@ records across 26 targets; `sadoleto1482` and `sp106box10` are marked skip until
 Keys converted by hand, where the key lived in code rather than a file: `decode_updates/keys/` (warsaw, lucca,
 r1892, riksarkivet1628). The table below is the first snapshot (21 Sept); queue.json is the current list.
 
+## Decryption files: cleaned, and what to review before upload
+
+`decode_updates/decryptions/R<id>.txt` holds the public text of each record (116 files; R190/R191 need none), written
+to `decode_updates/CLEANING_BRIEF.md`: the letter text only, page markers, `<nnn>` unread groups, `{word}` inferred,
+`word?` uncertain, `[clear: ...]`, `[contemporary decipherment: ...]`. No letter of our readings was changed; the
+cleaning split run-on streams into words, normalised gap marks and dropped notes. build.py uses these files.
+
+Review by a reader of the language before upload:
+- **Machine streams split into words, many runs left joined with `?`:** alessandrino1568 (all 11), papai1706
+  (R757, R765 worst), kurtz1639 (all 9; split by script, ~40% of lines carry `?`), deswart1782 (R1036, R1040),
+  rakoczi1707 R902 (not split), ronquillo1676 R971, R974, R983, R1001 (`<W>chad<r>` artefacts, likely a glitch in
+  `ronquillo1676/read.py`; regenerate them from a fixed decoder).
+- **Thin: little of the letter is read:** sanchez1522 R9635/R9653, rome1536 R4234/R4235/R4239, sauli1579 R192-R194
+  (cipher passages only; the clear text was summarised in English), ceva1632 R75/R84, soria1523 R9494,
+  kauderbach1754 R1954, affry1757 R1072, kurtz1639 R4645/R4734/R4736.
+- **Only the contemporary decipherment, not ours:** affry1757 R1065, lopehurtado R9644/R9648/R9650, rome1536 R4248.
+- **Choices to confirm:** bordeaux R8391 (where the duplicate ending starts, check ff. 93-93v); r1892 struck groups
+  dropped; soria R9491 folio order; acciaiuoli code words written `{word}` though most come from sibling
+  decipherments; sessa R9878 treated as a token-for-token duplicate of R9877.
+
 ## Records (100)
 
 | Record | Target | DECODE now | Proposed | Note | Write-up |

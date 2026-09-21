@@ -94,7 +94,9 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   profile and their current DECODE status; fill each TODO: `proposed` status (Decrypted only if the whole letter
   reads in sense), a one-line `note`, the `reading` file, and the `key` (`{"decode": "<DECODE id>"}` when the key
   is on DECODE, otherwise `{"file", "lang", "how"}` pointing at the rebuilt key), `cite` for outside sources, and
-  `fields` for corrected cipher type or language. Drop records that are only keys or unread siblings. Then
+  `fields` for corrected cipher type or language. Drop records that are only keys or unread siblings. Write each
+  record's public reading to `decode_updates/decryptions/R<id>.txt` following `decode_updates/CLEANING_BRIEF.md`
+  (the letter text only, gap conventions, no notes or markdown). Then
   `python decode_updates/build.py <folder>` must report 0 gaps. If there is nothing to send (already read on
   DECODE, nothing added), run `queue.py skip <folder> "<why>"`. See `decode_updates/PLAN.md`.
 - `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in

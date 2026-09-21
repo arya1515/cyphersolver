@@ -99,8 +99,13 @@ def decryption_file(rec, t, q, r):
     keysrc = k.get('decode') or 'reconstructed, see the attached key file'
     head = [f'#DECRYPTION: {rec}', f'#LANGUAGE: {lang}', f'#DECRYPTED BY: {BY}', f'#DATE: {DATE}',
             f'#KEY: {keysrc}', f'#COMMENT: {r["note"]} Write-up: {q["writeup"]}',
-            '#CONVENTIONS: [x] or <x> = group not read; {x} = value inferred from context; ? = uncertain', '']
-    body = '\n\n'.join(extract(s) for s in r['reading'])
+            '#CONVENTIONS: <nnn> = code group not read; [...] = illegible or unread; {word} = value inferred from context;'
+            ' word? = uncertain; [clear: ...] = written in clear on the document; [p. N] / [f. N] = page or folio', '']
+    clean = os.path.join(ROOT, 'decode_updates', 'decryptions', f'{rec}.txt')
+    if os.path.exists(clean):
+        body = open(clean, encoding='utf-8').read().strip()
+    else:
+        body = '\n\n'.join(extract(s) for s in r['reading'])
     return '\n'.join(head) + body + '\n'
 
 
@@ -130,6 +135,8 @@ def main(argv):
                 gaps.append(f'{t} {rec}: no reading file')
             if needs_key and not q['key'].get('file'):
                 gaps.append(f'{t} {rec}: no key file')
+            if not os.path.exists(os.path.join(ROOT, 'decode_updates', 'decryptions', f'{rec}.txt')) and r.get('reading'):
+                gaps.append(f'{t} {rec}: reading not yet cleaned (decode_updates/decryptions/{rec}.txt)')
             if check:
                 continue
             d = os.path.join(OUT, rec)
