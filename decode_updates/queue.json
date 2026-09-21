@@ -4458,6 +4458,28 @@
      "sent": false
     }
    }
+  },
+  "ayala1516": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/ayala1516.html",
+   "key": {
+    "file": "ayala1516/KEY.md",
+    "lang": "ES",
+    "how": "S. Tomokiyo's key (cryptiana spanish2C) rebuilt from R10024, applied unchanged"
+   },
+   "cite": "S. Tomokiyo, cryptiana, spanish2C.htm (key of Ayala's letters, R10024)",
+   "fields": {
+    "cipher_type": "simple substitution with a few word signs (que, Xebres)",
+    "plaintext_language": "Spanish"
+   },
+   "records": {
+    "R9954": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "About two thirds read with Tomokiyo's R10024 key: offices and Chièvres, Queen Germaine, peace of Noyon, the King's departure fixed 30 Aug 1516. AGS 0003 ll. 18-31 and 0006 ll. 13-24 unread.",
+     "reading": "decode_updates/decryptions/R9954.txt",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

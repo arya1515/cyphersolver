@@ -185,6 +185,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p81 | **C. Ben. Schaeblin (The Hague) to Mr Jones**, BL Add MS 32256 f. 235 (DECODE R9218) | 1753 | 1 | 1 | 1 | 1 | 3 | 4 | **1.50** | D 1: nothing enciphered; the letter is in clear. H 1: a proposal for a French cipher, of interest for how the Hague office built codes. |
 | p82 | **Count Visconti (Brussels) with Marquis Visconti (London)**, Italian cipher key, BL Add MS 32270 f. 42 (DECODE R7931) | 1727 | 1 | 1 | 2 | 1 | 3 | 4 | **1.70** | D 1: the record is the key; nothing to break. H 1: a reconstructed key, though for Walpole-era Brussels–London traffic. N 2: DECODE typed it as a ciphertext. R 1: 193 key places. F 3: clean fair copy. V 4: the endorsement and the draft on the next leaf confirm it. |
 | p83 | **Mr Eichel → unknown**, TNA SP 106/7 image 0020 (DECODE R595) | 1758 | 2 | 1 | 3 | 1 | 3 | 3 | **1.95** | D 2: the right key had to be found among 22 records and its null rules applied. H 1: no message, a dummy sheet. N 3: DECODE listed it unsolved with the wrong key and "Russia" for Prussia. R 1: 139 groups, all void. F 3: clean hand, clear dockets. C 3: key on DECODE, nothing to transcribe beyond its record. |
+| p84 | **Diego López de Ayala (Brussels) → Cardinal Cisneros**, AGS Estado leg. 496 fol. 22 (DECODE R9954) | 1516 | 1 | 3 | 5 | 2 | 1 | 2 | **2.50** | D 1: a published sibling key applied. H 3: the regency's agent on offices, Queen Germaine and Charles's voyage. N 5: no reading anywhere. V 2: two thirds read. |
 
 ## By single axis
 
@@ -477,3 +478,4 @@ Schaeblin to Jones 1753 provisional score: 0.25×1 + 0.25×1 + 0.20×1 + 0.10×1
 Visconti 1727 provisional score: 0.25×1 + 0.25×1 + 0.20×2 + 0.10×1 + 0.10×3 + 0.10×4 = **1.70** (p82): a catalogued letter that is the Deciphering Branch's key.
 
 Eichel 1758 provisional score: 0.25×2 + 0.25×1 + 0.20×3 + 0.10×1 + 0.10×3 + 0.10×3 = **1.95** (p83): a cipher sheet made only of nulls and blank cells of key R596.
+Ayala to Cisneros 1516 provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×1 + 0.10×2 = **2.50** (p84): a Non-decrypted DECODE letter read two thirds with a published sibling key.
