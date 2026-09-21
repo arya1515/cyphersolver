@@ -149,3 +149,9 @@ Not checked: the manuscript itself (offline); the Cecil Papers (HMC Salisbury i)
 letter; Claire Webb's St Andrews thesis on Moray's diplomacy (repository returned 503 twice).
 User must verify: the conclusion "undetermined" rests on Tomokiyo's symbol identities; one misread variant
 would change the frequency profile the controls were matched to.
+
+## 2026-09-21: a second text, probably in this cipher
+
+BL Add MS 4136 f. 33 (DECODE R2989) has a 39-sign line from John Wood to Cecil, 6 Sept 1568, in the same symbol
+families (x and z with variants, g, o, e, f). See `../wod1568/NOTES.md`; Bain ii no. 804's deciphered phrase from
+that letter does not align with the line, so the Hatfield original is the next source to see.

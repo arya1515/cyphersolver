@@ -1,0 +1,159 @@
+{
+ "schema_version": 1,
+ "target": "wod1568",
+ "title": "Catalogue 97: unidentified ciphers on BL Add MS 4136 ff. 32-33 (DECODE R2988 margin, R2989 John Wood to Cecil 1568)",
+ "documents": [
+  {
+   "id": "R2989",
+   "shelfmark": "BL Add MS 4136 f. 33 (DECODE R2989)",
+   "date": "6 Sep 1568",
+   "year": 1568,
+   "country": "Scotland",
+   "route": "Edinburgh -> London",
+   "language": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Bain, Cal. Scottish Papers ii no. 804 prints one cipher phrase deciphered ('and says he must neidis haif it be on meinis or uthir'); it does not align with this line."
+   },
+   "length": {
+    "tokens": 39,
+    "distinct": 17,
+    "unit": "symbols",
+    "measured": true,
+    "file": "wood_line.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R2989_I20715_P.jpg",
+    "image_quality": "good",
+    "notes": "One line copied at the foot of a Throckmorton leaf; '/' separator and a '(J)' group of 5 signs."
+   }
+  },
+  {
+   "id": "R2988",
+   "shelfmark": "BL Add MS 4136 f. 32 (DECODE R2988)",
+   "date": "unknown",
+   "year": 1559,
+   "country": "unknown",
+   "route": "unknown",
+   "language": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "none found"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false,
+    "file": "none"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R2988_I20714_P.jpg",
+    "image_quality": "good",
+    "notes": "About 300 cursive shorthand-like signs in 12 marginal lines; not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "undetermined"
+  ],
+  "summary": "R2989: same symbol families as the Moray-Wood 1568 cipher (x and z variants, g, o, e, f); R2988 margin: a shorthand-like sign system, undetermined.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": 17,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Throckmorton's Ciphers 1 and 3 (Tomokiyo) read the other text on the leaves, not these; Moray-Wood cipher unread.",
+  "notes": "R2989 IC 0.069 on 39 signs; opens and closes with the same trigram."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo, cryptiana unsolved.htm, lists both as unidentified",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "crib"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "crib alignment search (align3.py, align4.py)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Tomokiyo unsolved.htm and project throckmorton notes: the Throckmorton text is read; the margin (R2988) and the Wood line (R2989) are the open items.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R2989 Wood line transcribed at 3x zoom, 39 signs; matched to the Moray-Wood symbol families.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Bain ii no. 804 gives the deciphered cipher phrase of Wood's 6 Sept 1568 letter.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Exhaustive alignment of the Bain phrase (letters, nulls, syllable signs; forward and reversed; all substrings) against the line.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "R2988 margin tested as mirror or inverted script.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R2988 margin sign inventory attempted; signs could not be fixed reliably from the scan.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [
+   "none"
+  ],
+  "notes": "Blocked on the Hatfield original of Wood 6 Sept 1568 and a better image of the f.32 margin."
+ }
+}

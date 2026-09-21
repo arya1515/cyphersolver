@@ -1231,8 +1231,8 @@
    "counted": false,
    "year": 1559,
    "date": "10 Jul 1559 – 8 Aug 1559",
-   "title": "Unknown sender (Paris) to unknown recipient, 2 ciphertexts",
-   "correspondents": "Unknown sender → unknown recipient",
+   "title": "Throckmorton leaves 1559: unidentified margin cipher and John Wood to Cecil 1568",
+   "correspondents": "unknown (R2988 margin); John Wood → Cecil (R2989)",
    "place": "Paris, Western manuscripts",
    "language": "English",
    "region": "England",
@@ -1240,7 +1240,7 @@
    "shelfmark": "BL, Add MS 4136 (2 items)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R2988–R2989 (2 records): Partially decrypted, 2 pp., homophonic, nomenclator, unknown; alphabet, graphic signs; images login. Not viewed here. DECODE cites a printed text or article: check whether it already reads the cipher; 4 key record(s) from the same series on DECODE, nearest R9262 (1560). DECODE note: (Satoshi Tomokiyo, 17 September 2023) This is an extract of ciphered segments from a partially enciphered letter. The full letter not found in Patrick Forbes (1740), A Full View Of The Public Transactions In the Riegn of Q. Elisabeth ( Google ) around p.156. W…",
+   "status": "Seen 2026-09-21 (wod1568/NOTES.md). The Throckmorton text on both leaves is read (Tomokiyo Ciphers 1, 3); two other ciphers are not: R2988 has ~300 shorthand-like marginal signs (not transcribed); R2989 has a 39-sign line of John Wood to Cecil, 6 Sept 1568, in the Moray-Wood symbol family. Bain ii no. 804's deciphered phrase does not align with it. Needs the Hatfield original.",
    "why": "Ciphered despatches of Unknown sender to unknown recipient, 10 Jul 1559 – 8 Aug 1559; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 4,
@@ -1258,7 +1258,7 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2989"
     }
    ],
-   "seen": "catalogue",
+   "seen": "images",
    "source": "DECODE",
    "decode_ids": [
     2988,
