@@ -1,0 +1,59 @@
+{
+ "schema_version": 1,
+ "target": "vargas1552",
+ "title": "Francisco de Vargas (Venice) to Charles V, 25 August 1552 (AGS Estado leg. 1320 ff. 35-38, DECODE R9967)",
+ "documents": [
+  {
+   "id": "R9967",
+   "shelfmark": "AGS, Estado, leg. 1320, ff. 35-38 (DECODE R9967)",
+   "date": "25 Aug 1552",
+   "year": 1552,
+   "country": "Italy",
+   "route": "Francisco de Vargas (Venice) to Charles V",
+   "language": "Spanish",
+   "pages": 16,
+   "cleartext_in_document": "unknown",
+   "plaintext": {"location": ["margin"], "source": "contemporary marginal decipherment, per Tomokiyo (cryptiana)", "partial": "unknown"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "unknown", "source": "not transcribed; images not viewed", "image_quality": "unknown", "notes": "Closed from the literature before viewing."}
+  }
+ ],
+ "system": {
+  "types": ["nomenclator"],
+  "summary": "Imperial Cipher of 1544-1554 (Tomokiyo's reconstruction), not rebuilt here.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Type taken from DECODE metadata (alphabet, graphic signs, numerical) and Tomokiyo's identification; not examined."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Contemporary marginal decipherment on the leaves; key reconstructed and identified as the Imperial Cipher of 1544-1554 by Satoshi Tomokiyo (cryptiana.web.fc2.com, Spanish ciphers of Charles V page).",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": ["published reading"],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": ["web cache search"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "literature search", "what": "Grepped the cached Tomokiyo page spanish2C_now.htm for R9967: 'Deciphered in the margin', cipher = Imperial Cipher of 1544-1554.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "verification": ["contemporary decipherment"],
+  "notes": "Nothing new read. Catalogue entry 197 removed; DECODE status correction queued; no write-up."
+ }
+}

@@ -4416,6 +4416,28 @@
      "sent": false
     }
    }
+  },
+  "vargas1552": {
+   "writeup": null,
+   "key": {
+    "decode": "not on DECODE: Imperial Cipher of 1544-1554 (Tomokiyo, cryptiana)",
+    "lang": "ES"
+   },
+   "cite": "Satoshi Tomokiyo, cryptiana.web.fc2.com, Spanish ciphers of Charles V",
+   "fields": {},
+   "records": {
+    "R9967": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Deciphered at the time in the margin (Tomokiyo, cryptiana); the cipher is the Imperial Cipher of 1544-1554.",
+     "reading": [
+      {
+       "file": "vargas1552/NOTES.md"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -3401,41 +3401,6 @@
    "scored": "rule"
   },
   {
-   "id": 197,
-   "counted": true,
-   "year": 1552,
-   "date": "25 Aug 1552",
-   "title": "Francisco de Vargas (Venice) to Charles V, Holy Roman Emperor",
-   "correspondents": "Francisco de Vargas → Charles V, Holy Roman Emperor",
-   "place": "Venice, Italy",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "AGS, sec. Estado, leg. 1320, fol. 35–38",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R9967: Non-decrypted, 16 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: Letter from Francisco de Vargas, ambassador in Venice, to His Majesty on August 25, 1552, from Venice.",
-   "why": "Ciphered letter of Francisco de Vargas to Charles V, Holy Roman Emperor, 25 Aug 1552; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9967",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9967"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9967
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 198,
    "counted": true,
    "year": 1527,
