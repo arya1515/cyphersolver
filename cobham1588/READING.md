@@ -34,6 +34,16 @@ Code numbers glossed on f. 79: 7 = the Queen, 10 = Lord Admiral, 15 = Duke of Pa
 - "**passed** (M) … in Bruges works overthrown"; "**within France** (M)"; "his **servants** (M) … **priests** (M)";
   "**seventy** (M)"
 
+## Third pass on ff. 88 (lower half), 92r and 96v (reading_f88_full.md, reading_ff80_92_96_full.md)
+- f. 88 lines 12–20 are mostly clear (Parma's commissioners; "80 sayles … with saddelles, bryddelles, bootes and
+  spurres"; "he ys goyng to Caleys"); the seven cipher words there stay unread (a recurring group "Tnn" unresolved).
+- f. 92r: "imprisoned in **Bridges** [Bruges] (M)"; "they have **charge** (M)"; "of **letters** (M)"; "**ancient of
+  Newport** (M)"; "**captain** (M) [surname] is also **in prison** (M) [at] **Bridges** (M), the cause whereof is not
+  knowen"; "of late ther are come … from **Irish** (M) **noblemen**(I)".
+- f. 96v: "**the** … **passed** (M) yn B… works overthrown"; "**within France** (M)"; "**Roper**(I) and of his
+  **servants** (M) … **priests** (M) a doctor in …"; "caried **of letters for the people** (M)".
+- New sign value: ϕ (circle crossed by stem) also = p (captain, prison, priests, people). "seventy" on f. 96v withdrawn.
+
 ## Status
 Read in part: the key and sign inventory are fixed, the code numbers glossed, and about a third of the cipher words
 read with grade H or M. The rest are unread because their signs could not be resolved confidently from the scans:

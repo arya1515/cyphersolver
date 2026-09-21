@@ -12,4 +12,20 @@ L8: lVXTlVc [...] IAIA [...] unto them 500 7nIAIAT (ensigns? I) cA8cA [...] who 
 L9: those as she more / our aboode doeth me grieve here, which
 L10: ... IHAcpllIXlnA [...] they ys ...
 L11: me the 7n?pT [...] 15 [...] V:nAcVAT [...] to XV7ALV [...] pnAV [...]
-Lines 12-21: not reached in this pass.
+Lines 12-21: see below.
+
+## Lines 12–21
+(21 Sept 2026, second pass.) The page ends at line 20 on the deskewed image (last line "delivered ... sent"); there is no line 21 of text. The lower half is mostly clear English; cipher is confined to lines 12, 17 and 19. Clear-text readings are palaeographic, cipher grades as above.
+
+L12: Tnn (ten? I; solver fuzzy don/ten) HVcnnG: [...] (solver only 'freeing', 2 edits, rejected) they that he wyll have cp-IQ--V [...] (no candidate) to ... with [...]
+L13: b?ll? the D[uke] of Parmas comm[i]ssioners ... wind(?) lyeth far(?) there   [clear, several words uncertain]
+L14: yeare; and ther b: have ... here a great Mercado ys   [clear, middle unread]
+L15: [pu]bly(?); ... days ther passed by 80 sayles which ys the Landers   [clear]
+L16: Landers with saddelles, bryddelles(?), bootes and spurres with ...   [clear]
+L17: made readie: as blade(?): and [struck; '2000' interlined] Lo?? 56 [struck; interlined TAcnn = ten/tone I] Lo...
+L18: for his Lettres(?); he ys goyng to Caleys: I praye forgett yt not.   [clear]
+L19: [T..7?]TnnX (deny? I, 1 edit) and [?.]TnnAVV [...] (no candidate) worde(s) / send money to them by such ...
+L20: delivered to be ... whether yt maye be taken and sent   [clear]
+
+Counts for lines 12-20 cipher words: H 0, M 0, I 3 (ten, ten/tone, deny), unread 4 (HVcnnG:, cp-IQ--V, TnnAVV, and the prefix of L19's first group).
+Note: the recurring group "Tnn" (L12, L17 interlineation, L19 twice) is probably one sign cluster misread as T + n n; recheck at higher zoom before trusting any of these.

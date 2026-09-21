@@ -15,7 +15,7 @@ import itertools, re, sys, collections, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 SETS = {
     'U': 'a', 'A': 'sta', '+': 'b', '8': 'c', 'D': 'd', 'T': 'dt', '7': 'e', 'H': 'f', 'G': 'g', 'h': 'h',
-    'I': 'iay', 'k': 'k', 'l': 'lt', 'm': 'm', '#': 'mn', 'n': 'n', 'z': 'o', 'd': 'od', 'c': 'oae', 'p': 'p',
+    'I': 'iay', 'k': 'k', 'l': 'ltp', 'm': 'm', '#': 'mn', 'n': 'n', 'z': 'o', 'd': 'od', 'c': 'oae', 'p': 'p',
     'V': 'r', 'y': 'ry', ':': 'uv', 'w': 'w', 'X': 'i', 'L': 'e', 'Q': 'ar', 'K': 'abcdefghiklmnoprstuwy', '?': 'abcdefghiklmnoprstuwy',
 }
 GLOSSED = """infante maior mobility of this their great desir country discours sent from upon our arrival willing

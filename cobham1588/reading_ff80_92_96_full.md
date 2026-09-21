@@ -30,3 +30,28 @@ L2 "[**I7GIA dp IXpp7#** unread: i-e-g-i-s / o-p / i-i-p-p-e-n; solver nothing] 
 - Remaining f.92r lines (imprisoned in -V?c?7A ..., charge, letters, and the four further cipher lines down to "of latte ther are ...") NOT re-read in this pass.
 
 ## f. 96v top five lines (R8496 P2) - NOT re-read in this pass; see reading_f96v.md.
+
+## f.92r lines 3–end (R8495 P1; deskew −3.25°, per-line crops at full resolution, 21 Sept 2026)
+
+Line numbering continues from the two cipher lines above ("4 sent by the Portugals? are / I7GIA ... sent by ...").
+
+L3 "imprisoned in **Bridges** [= Bruges] (-V+dӾ7A: b-r-(+ read i)-d-g-e-s; 4th sign is the o/d sign, Elizabethan 'Bridges' for Bruges; same word recurs in L8 as -V⊥dӾLA, M). It is reported that they have **charge** (8hcVX with the final sign read as Ӿ g, final e unwritten; M)"
+L4 "**detain?** (TcAA·n: d-e-t-a-(i)-n, the 5th mark a small tick read as I; I) [**l7XA** unread: l/t-e-i/g-s; 'legs' fits signs, not context] [**l+HAT nUnA** unread: l/t-b-f-s-d / n-a-n-s; solver nothing] of words of **letters** (l7AAALVA: l-e-t-t-(t)-e-r-s, one extra caret; M) whereupon (clear?)"
+L5 "to have been determined and appointed [**cn pc'n cz +lcAA** unread: o/a-n / p-e-n / o-? / b-l-o-s-s; solver nothing usable]"
+L6 "[**-λ ApLcA** unread: b-? / s-p-e-o-s] [**n7V** unread: 'ner'] [**w+Ap··Xcl** unread] — (end of sentence, flourish)"
+L7 "That day was [**Al7VLAT8:·** unread: s-l-e-r-e-t-d-c-u; solver 'already' at 2 edits, rejected] [**A+c 7n** unread: a-b-o / e-n] **ancient** (cnϸI7nA: a-n-c-i-e-n-t, the 3rd sign a stem-and-bowl read as c; solver exact with 8; M) **of** (cH, H) **Newport** (nL·\pcVA: n-e-w-p-o-r-t = Nieuport; exact; M)"
+L8 "**forward** (HdV·\VT: f-o-r-w-(a)-r-d, one letter missing; M) [**nXcH** unread: n-i-o-f]; [**··7VA** unread: 'verse' exact, no sense] **it/is** (IA, M) **to** (Ac, H) [**Ap77l** unread: s-p-e-e-l; 'speed' at 1 edit, I] [**V?XAT** unread: 'raised' at 1 edit, I]"
+L9 "**captain** (8cϕA7In: c-a-(p)-t-e-i-n, the ϕ-like sign taken as p; fuzzy 1 'captain'; M) [**-cX8L** unread: b-o-i-c-e, likely a surname; I 'Boice'?] is also **in prison** (In ϕVIAcn: i-n / p-r-i-s-o-n with ϕ for p; exact as two words; M) [**LcVA** unread: e-o-r-s] **Bridges** (-V⊥dӾLA, M) [clear: the cause whereof] is not knowen:"
+L10 "Of late ther are come to [**AA7n ϕIX** unread: two carets then e-n / p?-i-i; possibly a place name] from **Irish** (IVILAϸ: i-r-i-(e)-s-h; fuzzy 1; M) **noblemen?** (nc-l7 / ϑcn across the line end: n-o-b-l-e / ?-e-n, the ϑ unexplained as m; I) —"
+
+f.92r counts (this pass): H 2 (of in L7, to in L8), M 11 (Bridges x2, charge, letters, ancient, Newport, forward, it/is, captain, in prison, Irish), I 2 (detain, noblemen), unread 22 sign groups (incl. the surname -cX8L).
+
+## f.96v (R8496 P2; deskew −1.5°, top four cipher lines and the cipher run on the eighth line)
+
+L1 "**the** (AϸT, H) [**TVϕϕLcH** unread: d/t-r-l/t-l/t-e-o-f; perhaps '... of' with cH = of; 'troops of' does not fit the ϕ signs] [**·\7∩Aϑ·· Vϑ?+c** unread: w-e-s-s-p-u / r-p-?-b-o; solver nothing] **passed** (ϑUAAT∞: p-a-s-s-e-d with ŧ = e; exact; M) **by?** (-X: b-i/y; I) yn B[…] works overthrown" (the clear place name is not certain from the crop)
+L2 "**within** (·\⊥AϸcN: w-i-t-h-o-n, fuzzy 1; M) **France** (HVTn8L: f-r-a-n-c-e with ŧ = a; fuzzy 1; M) [**A?V:·cA** 'serves' exact, sense unclear; I] of they commanding hes informed you of"
+L3 "**Roper?** (Vcϕ7V: r-o-p-e-r with ϕ for p; a surname, exact in lexicon as 'roper'; I) and of his **servants** (A?V··7nA: s-e-r-v-e-n-t-s; fuzzy 1; M) [**⊥ϸcn** unread: i-h-o-n; 'Iohn' would fit the signs, I] **priests** (ϕV7XAA: p-r-e-i-s-t-s with ϕ for p; M) a doctor in [**AV7AA7ϑ** unread: s-r-e-s-s-e-p; solver 'treated/arrested' at 1 edit, no fit] and a"
+L4 "caried **of** (cH, H) **letters** (ϕLAAALVA: l-e-t-t-(t)-e-r-s, same spelling as f.92r L4; M) **for** (HcV, H) **the** (AϸT with ŧ = e, M) **people** (ϕ7cϕl: p-e-o-p-l; exact with ϕ = p; M) [**·\U··8T** unread: w-a-u-c-d; solver nothing] and that shortly"
+L8 "that he had **written?** (·\VLAAATn: w-r-e-t-t-(t/e)-n, one carries a tilde; I) [**AnAAT7nӾ ϕ7nc** unread: s-n-s-s-d-e-n-g / l-e-n-o] is fully ..."
+
+f.96v counts: H 3 (the, of, for), M 8 (passed, within, France, servants, priests, letters, the, people), I 4 (by, serves, Roper, written), unread 8 sign groups (incl. ⊥ϸcn, possibly "Iohn").
