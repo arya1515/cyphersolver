@@ -241,7 +241,7 @@ Wales. The leaf was checked against `letters.py`, and the transcription holds. T
 that cannot be read. The group before 107 could be 69 rather than 60. Halliwell, *Letters of the
 Kings of England* ii (1846) 449–450, prints the clear text and notes only that "part of the original
 is written in cipher". The "key" record R8341 (Harley 6988 f. 194, 1646) is a graphic-sign
-substitution and cannot be the key for a numeric nomenclator. Nothing new opens the letter, so it
+substitution and cannot be the key for a numeric nomenclator. Nothing new opens the letter. **Outcome: skipped as impossible without the key**; it
 stays unread. The "noble Frend" who brought the cipher to the Prince in August 1648 is most likely
 Lauderdale, which points the key search at the Lauderdale papers as well as the Clarendon and
 Nicholas papers.

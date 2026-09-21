@@ -1888,7 +1888,7 @@
     8342
    ],
    "scored": "reviewed",
-   "outcome": "attempted, open"
+   "outcome": "attempted, skipped: impossible without the key (no copy known; 59% hapax)"
   },
   {
    "id": 136,
