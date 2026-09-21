@@ -3781,51 +3781,6 @@
    "scored": "rule"
   },
   {
-   "id": 155,
-   "counted": true,
-   "year": 1512,
-   "date": "2 Aug 1512 – 28 Dec 1514",
-   "title": "Giovanni Battista Bonzagni (Eger) to Ippolito I d'Este, 3 ciphertexts",
-   "correspondents": "Giovanni Battista Bonzagni → Ippolito I d'Este",
-   "place": "Eger, Hungary",
-   "language": "Italian",
-   "region": "Italy",
-   "period": "1497-1559",
-   "shelfmark": "ASMo, Ambasciatori b. 4/12, Envoy reports, Ferrara (3 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R1123–R1125 (3 records): Partially decrypted, 10 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses.",
-   "why": "Ciphered despatches of Giovanni Battista Bonzagni to Ippolito I d'Este, 2 Aug 1512 – 28 Dec 1514; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1123",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1123"
-    },
-    {
-     "label": "DECODE R1124",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1124"
-    },
-    {
-     "label": "DECODE R1125",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1125"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1123,
-    1124,
-    1125
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 156,
    "counted": true,
    "year": 1517,
