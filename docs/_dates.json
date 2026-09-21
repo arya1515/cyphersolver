@@ -145,6 +145,7 @@
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
   "voynich manuscript": "2026-09-15",
+  "walsingham to edward wotton in scotland, jul–sept 1585": "2026-09-21",
   "“mr. conleys hand”, paris 1652–53": "2026-09-21"
  },
  "pages": {
@@ -405,7 +406,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "4b3d8dcd00c5",
+   "hash": "7e7d8b2a15f2",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -805,7 +806,7 @@
   },
   "wotton1585": {
    "first": "2026-09-21",
-   "hash": "586aaca21caf",
+   "hash": "7d9078885f89",
    "updated": "2026-09-21"
   },
   "writeups": {

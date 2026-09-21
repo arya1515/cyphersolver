@@ -2558,7 +2558,7 @@
     "R4841": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Wotton's own draft to Walsingham, 25 Aug 1585, ff. 167-168, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "note": "Wotton's own draft to Walsingham, 25 Aug 1585, ff. 167-168, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 3 France (probable); 27, 32, 36 unidentified. CSP Scotland viii glosses 24 = Farnihurst and 40 = Justice Clerk.",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -2566,7 +2566,7 @@
     "R4842": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Wotton's own draft to Walsingham, 30 Aug 1585, ff. 173-174, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "note": "Wotton's own draft to Walsingham, 30 Aug 1585, ff. 173-174, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 3 France (probable); 27, 32, 36 unidentified. CSP Scotland viii glosses 24 = Farnihurst and 40 = Justice Clerk.",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -2574,7 +2574,7 @@
     "R4843": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Wotton's own draft to Walsingham, 1 Sep 1585, ff. 175-176, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 24 Earl of Huntly, 3 France (probable); 27, 32, 36, 40 unidentified.",
+     "note": "Wotton's own draft to Walsingham, 1 Sep 1585, ff. 175-176, in clear English (date is 1585, not the volume span 1547/1590). No letter cipher: only one- and two-digit code numbers for persons/places. Identified from context: 19 Earl of Arran, 39 Master of Gray, 10 King James VI (certain); 9 Queen/England, 20 Lord Maxwell, 3 France (probable); 27, 32, 36 unidentified. CSP Scotland viii glosses 24 = Farnihurst and 40 = Justice Clerk.",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -2628,6 +2628,59 @@
      "reading": null,
      "sent": false,
      "reading_not_needed": true
+    }
+   }
+  },
+  "walsingham1585": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/walsingham1585.html",
+   "key": {
+    "decode": "no key; clear-English letters with a two-digit name code, identified from the glosses in CSP Scotland viii (see write-up); sign-alphabet key not found",
+    "lang": "EN"
+   },
+   "cite": "Calendar of State Papers, Scotland, vol. 8 (1585-1586), ed. W. K. Boyd (1914), nos. 40 and 65",
+   "fields": {
+    "cleartext_lang": "English",
+    "plaintext_lang": "English",
+    "cipher_types": "nomenclator (numeric name code) + a few words in a homophonic sign alphabet (R4844 only)"
+   },
+   "records": {
+    "R4838": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Walsingham to Wotton, Nonsuch, 28 Jul 1585: a signed letter in clear English; the only concealment is two-digit name numbers. Calendared in CSP Scotland viii no. 40. Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R4839": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Walsingham to Wotton, the Court, 7 Aug 1585: clear English with name numbers; calendared in CSP Scotland viii no. 65. Graphic signs: none. Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R4840": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Walsingham to Wotton, the Court, 21 Aug 1585: clear English with name numbers; not calendared; transcribed. Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
+     "reading": [
+      {
+       "file": "walsingham1585/reading_R4840.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R4844": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Walsingham to Wotton, the Court, 10 Sep 1585: clear English with name numbers and about 14 words in a sign alphabet, unread (the interlinear decipherment is blotted out; no key found). Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
+     "reading": [
+      {
+       "file": "walsingham1585/reading_R4844.txt"
+      }
+     ],
+     "sent": false
     }
    }
   }
