@@ -1685,6 +1685,9 @@
      "reading_not_needed": true
     }
    }
+  },
+  "heusner1637": {
+   "skip": "Already read on DECODE R4332 (Waldispuhl & Kopal 2024); to note: R3816 duplicates R4332's scans and the date is 15 May 1637"
   }
  }
 }

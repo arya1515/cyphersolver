@@ -62,6 +62,7 @@
   "henrietta maria’s household to charles i, 1645–46": "2026-09-19",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
   "herbault to béthune, 13 february 1626": "2026-09-18",
+  "heusner von wandersleben to oxenstierna, kassel 1637": "2026-09-21",
   "intercepts summarised for the duc de nevers, september–october 1589": "2026-09-21",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
@@ -208,7 +209,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ffd5afe04065",
+   "hash": "043a3031f9a8",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -336,6 +337,11 @@
    "hash": "bf6ae60aa8aa",
    "updated": "2026-09-17"
   },
+  "heusner1637": {
+   "first": "2026-09-21",
+   "hash": "d958d8c28f44",
+   "updated": "2026-09-21"
+  },
   "hm1645": {
    "first": "2026-09-19",
    "hash": "3dec8fa52c06",
@@ -353,7 +359,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "886783da47bd",
+   "hash": "3d51e6e630ff",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -678,7 +684,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3d6de9331e10",
+   "hash": "2493dca0c33f",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -158,6 +158,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p56 | **The Cardinal of Como (papal Secretariat) → Anselmo Dandini, nuncio in France**, ASV Segr. Stato Francia 283C (DECODE R72–R73) | 1580 | 2 | 3 | 2 | 3 | 1 | 4 | **2.30** | D 2: a letter key rebuilt by annealing inside a published frame. H 3: Rome on Henri III and a nun. N 2: R73 was read by Lasry and R72 deciphered on the leaf. |
 | p57 | **An Orange prince (son of William V) → an officer of the émigré troops**, KHA Prins Willem V inv. 339 (DECODE R1892) | c. 1795 | 3 | 3 | 5 | 4 | 1 | 3 | **3.30** | D 3: an unknown 6×6 square recovered ciphertext-only from images, but monoalphabetic. H 3: the Orange émigré corps' passage into British pay. N 5: DECODE non-decrypted, no reading known. V 3: word signs unread. |
 | p58 | **The Windischgrätz brothers (Brussels) → Count Windischgrätz**, SOA Plzeň RA Windischgrätz inv. 1433 (DECODE R5029) | 18 Nov 1721 | 1 | 3 | 2 | 3 | 1 | 3 | **2.10** | D 1: a reconstructed key (Mírka 2023) applied without change. H 3: the Congress of Cambrai, the Emperor, Prince Eugene's plan and the succession, from inside the family. N 2: the key existed but no reading of this letter. V 1: every letter passage gives German at once. Held down by 23 open codes |
+| p59 | **Sigismund Heusner von Wandersleben (Kassel) → Axel Oxenstierna**, Riksarkivet (DECODE R4332 = R3816) | 15 May 1637 | 1 | 3 | 1 | 2 | 1 | 3 | **1.80** | D 1: the published key applied. H 3: Hesse-Kassel turning from Sweden in 1637, secret gun-casting. N 1: read by Waldispühl & Kopal 2024. F 2: catalogued twice as open. |
 
 ## By single axis
 
@@ -404,3 +405,4 @@ Hentér 1707 provisional score: 0.25×1 + 0.25×2 + 0.20×3 + 0.10×1 + 0.10×1 
 Como to Dandini 1580 provisional score: 0.25×2 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **2.30** (p56): the leaf carried the plaintext; the new work was the R72 letter key.
 Orange prince c. 1795 (R1892) provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.30** (p57): a ciphertext-only break of an unknown square.
 Windischgrätz 1721 provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×3 = **2.10** (p58): the key was on the record; the new work was the transcription.
+Heusner 1637 provisional score: 0.25×1 + 0.25×3 + 0.20×1 + 0.10×2 + 0.10×1 + 0.10×3 = **1.80** (p59): already in print; the new work was the duplicate record and the date.

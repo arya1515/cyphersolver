@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "target": "heusner1637",
+ "title": "Sigismund Heusner von Wandersleben to Axel Oxenstierna, Kassel, 15 May 1637, Riksarkivet (DECODE R4332, duplicate record R3816)",
+ "documents": [
+  {
+   "id": "R4332",
+   "shelfmark": "Riksarkivet, Stockholm, Oxenstierna collection (DECODE R4332; same scans as R3816)",
+   "date": "15 May 1637 (the letter's own dating; DECODE gives 15 March)",
+   "year": 1637,
+   "country": "Germany",
+   "route": "Sigismund Heusner von Wandersleben (Kassel) to Axel Oxenstierna",
+   "language": "German",
+   "pages": 5,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "Waldispühl & Kopal, HistoCrypt 2024 pp. 249-253; key and plaintext files on DECODE R4332 (2024, 2026)",
+    "partial": true
+   },
+   "length": {
+    "tokens": 259,
+    "distinct": 75,
+    "unit": "code groups",
+    "measured": true,
+    "file": "transcription_p2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Figures of DECODE image P1 (letter page 2) transcribed from the scan here; the other pages not transcribed",
+    "image_quality": "good",
+    "notes": "Clear words replaced by '|' separators, which are counted in the measured tokens. Three single-number slips found against the published plaintext."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Numerical homophonic alphabet of 22 letters (1-8 values each, values 2-202) for words and phrases inside clear German, with three-digit codes (147-808) for names and places.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "notes": "The key file lists 47 under both O and U. The codes were left as numbers by the solvers."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "DECODE R4332 key and plaintext files; Waldispühl & Kopal, HistoCrypt 2024",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "key application to own transcription",
+   "image hash comparison"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE R4332 with the shared cookie: three page images, the key (txt) and the plaintext (doc).",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "The record cites Waldispühl & Kopal, HistoCrypt 2024, and carries their full plaintext; only the three-digit codes are left open.",
+   "result": "worked"
+  },
+  {
+   "kind": "access",
+   "what": "Fetched the sibling catalogue entry R3816 (Heusner to Oxenstierna, March 1637, 'not solved'): its three images are byte-identical (MD5) to R4332's, with pages 2 and 3 swapped.",
+   "result": "worked"
+  },
+  {
+   "kind": "control",
+   "what": "Transcribed the figures of letter page 2 from the scan (259 tokens) and applied the published homophone table: it reproduces the published plaintext apart from three slips in the new transcription.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Dated the letter from its own close, 'CASSEL den 15. May 1637' (DECODE has 15 March); proposed 503 = Landgrave Wilhelm V from context only (grade M).",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 0.95,
+  "grades": {
+   "H": 1,
+   "M": 1
+  },
+  "verification": [
+   "key confirms"
+  ],
+  "notes": "Solved by Waldispühl & Kopal 2024. Added here: R3816 is a duplicate record of the same letter, the May date, and a key check on a fresh transcription. Catalogue entries 208 and 209 removed; sixteen codes stay open."
+ }
+}
