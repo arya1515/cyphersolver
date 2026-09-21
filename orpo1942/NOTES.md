@@ -15,7 +15,14 @@ It holds six messages, which `msgs.txt` transcribes with the discriminator group
 
 **Status.** Message A115 has a plaintext: Bletchley's decrypt, reproduced in Hanyok, *Eavesdropping on Hell*
 (NSA 2005). It reports the partisan ambush on the Bobruisk–Mogilev road (16 men of Pol. Batl. 51 killed) and the
-destruction of the village of Borki, whose inhabitants were "liquidated". The five 27 February 1942 messages
+destruction of the village of Borki, whose inhabitants were "liquidated". Hanyok leaves Borki unlocated; it is
+Borki, Kirovsk district, Mogilev region, destroyed with six neighbouring settlements on 15 June 1942 by the
+Dirlewanger battalion, Einsatzkommando 8 and police after partisan attacks on the Mogilev-Bobruisk road
+(Dirlewanger's report: 2,027 dead; memorial on the site). Zhukov, *Okhotniki za partizanami. Brigada
+Dirlevangera* (military.wikireading.ru/62640), gives the same 16 dead of Pol. Batl. 51. Pointed out by Ilya
+(reader email, Sept 2026); also mogilev-region.gov.by and partizany.by/battles/tak-pogibla-derevnya.
+Crib value for the 27 Feb traffic: none found (the DK layout makes isolated place names weak cribs); the
+plaintexts of the February messages might survive in Belarusian/Russian archives, but none located. The five 27 February 1942 messages
 remain unread, as they are in Schmeh's 2021 list of unsolved WWII ciphers ("partially solved" refers to A115).
 The Bletchley decrypts of the February traffic would be in TNA HW 16/17 (verbatim German police messages; HW 16/18
 is May–June 1942), which is not online.
