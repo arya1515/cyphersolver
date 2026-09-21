@@ -80,6 +80,7 @@
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
+  "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
   "richard forster, 1644": "2026-09-16",
   "robert yard to the earl of manchester, whitehall, 12 and 16 october 1699": "2026-09-18",
@@ -171,7 +172,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "32d0af17cf61",
+   "hash": "d9064e116605",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -286,7 +287,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "8b7255f42673",
+   "hash": "9fd05529b2ef",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -408,6 +409,11 @@
    "first": "2026-09-17",
    "hash": "b283aa4c0b52",
    "updated": "2026-09-17"
+  },
+  "rakoczi1707": {
+   "first": "2026-09-20",
+   "hash": "0fb329483cd7",
+   "updated": "2026-09-20"
   },
   "rennes1563": {
    "first": "2026-09-20",
@@ -551,7 +557,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "7f23fbf140e3",
+   "hash": "1dfc5ea73378",
    "updated": "2026-09-20"
   },
   "yard1699": {

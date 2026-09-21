@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target": "rakoczi1707",
+  "title": "Philippe Groffey (?) to Ferenc Rákóczi II (Pompeio Cesoni), 15 October 1707 (DECODE R902)",
+  "documents": [
+    {
+      "id": "R902",
+      "shelfmark": "MNL OL, G15 Caps. C. Fasc. 39, pp. 277-279 (DECODE R902)",
+      "date": "15 October 1707",
+      "year": 1707,
+      "country": "France",
+      "route": "Polish-Swedish theatre -> Ferenc Rakoczi II",
+      "language": "French",
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": ["none"],
+        "source": "No prior plaintext found; this project decoded the document with preserved key DECODE R639 (Fasc. 44/08)."
+      },
+      "length": {
+        "tokens": 1108,
+        "distinct": 326,
+        "unit": "code groups",
+        "measured": true,
+        "file": "DOC_R902_D1951_1951.txt"
+      },
+      "transcription": {
+        "by": "DECODE",
+        "source": "DECODE document D1951",
+        "image_quality": "good",
+        "notes": "Manual DECODE transcription contains many one-digit errors, joined groups, and ambiguous raised leading digits."
+      }
+    }
+  ],
+  "system": {
+    "types": ["homophonic", "syllabic", "nomenclator"],
+    "summary": "One-part numerical French nomenclator, values 10-560, with homophonic letters, endings, syllables, words, names, places, and nulls.",
+    "symbol_kind": "digits",
+    "digit_groups": {"width": "2-3", "separation": "dots"},
+    "distinct_symbols": 326,
+    "diacritics": {"used": false},
+    "homophones": {"used": true, "max_per_vowel": 5, "max_per_consonant": 4},
+    "nomenclator": {"present": true},
+    "nulls": {"present": true, "count": 12},
+    "key_order": "partly alphabetical",
+    "word_division": "partial",
+    "sibling_key": "DECODE R639 / Fasc. 44/08",
+    "notes": "Key heading: De Monsieur de Bonac et Graffei."
+  },
+  "conditions": {
+    "prior_solution": {"exists": "no", "where": "DECODE marked R902 non-decrypted", "found": "before attempt", "used": false},
+    "inputs": ["images", "transcription", "key from archive", "sibling key", "known plaintext"],
+    "attack": "key from archive",
+    "human_role": "Supplied access to the authenticated DECODE session and posed the target.",
+    "tools": ["DECODE record search", "key scoring", "direct table decoder", "same-key known-plaintext validation"],
+    "models": ["gpt-5"],
+    "sessions": 1,
+    "first_date": "2026-09-20",
+    "last_date": "2026-09-20"
+  },
+  "solution": [
+    {"date": "2026-09-20", "kind": "transcription", "what": "Read the clear address A Monsieur / Monsieur Pompeio Cesoni.", "result": "worked"},
+    {"date": "2026-09-20", "kind": "sibling key", "what": "Located and applied DECODE R639, Fasc. 44/08, headed De Monsieur de Bonac et Graffei.", "result": "worked"},
+    {"date": "2026-09-20", "kind": "control", "what": "Validated the key on same-series known-plaintext documents R852 and R912.", "result": "worked"},
+    {"date": "2026-09-20", "kind": "reading", "what": "Recovered 1,020 of 1,108 transcribed groups and read the report in substance.", "result": "partial"},
+    {"date": "2026-09-20", "kind": "hypothesis", "what": "Attributed the unsigned report to Philippe Groffey from the key heading, subject, and diplomatic role.", "result": "partial"}
+  ],
+  "outcome": {
+    "class": "read in part",
+    "fraction_read": 0.72,
+    "grades": {"H": 1020, "C": 0, "M": 0, "I": 88},
+    "verification": ["key confirms", "historical consistency"],
+    "notes": "Cipher solved. Exact diplomatic edition awaits a fresh manuscript transcription because the existing DECODE digit transcript is noisy."
+  }
+}

@@ -134,13 +134,15 @@ p34 0.25 + 1.00 + 0.60 + 0.30 + 0.10 + 0.30;
 p35 0.75 + 0.75 + 0.60 + 0.50 + 0.10 + 0.30;
 p36 1.00 + 0.75 + 1.00 + 0.40 + 0.10 + 0.30.
 
-### Provisional addition, 20 September 2026: Egmond
+### Provisional additions, 20 September 2026: Egmond and Groffey
 
 Charles of Egmond (p43, 3.15) sits just above Armstrong in this provisional scoring; no claim of an independently confirmed first reading is made.
+Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | p43 | **Charles of Egmond → grand master of France**, BnF fr. 3015 no. 8 | 18 July (?), year unknown | 4 | 3 | 3 | 3 | 2 | 3 | **3.15** | Ciphertext-only graphic substitution with nulls, recovered from images after failed short probes. Full letter and address read with minor doubts. A request for support in war, without campaign year or personal names. Novelty unproven; verification is internal. |
+| p44 | **Philippe Groffey (?) → Ferenc Rákóczi II**, MNL OL G15 Caps. C. Fasc. 39 pp. 277–279 (DECODE R902) | 15 Oct 1707 | 1 | 4 | 5 | 4 | 1 | 3 | **3.05** | Preserved same-series key, independently controlled on two interlinear letters. New reading in substance and a reversal of the catalogue's direction; exact prose awaits fresh transcription and the unsigned writer remains a high-probability attribution. |
 
 ## By single axis
 
@@ -361,3 +363,5 @@ editorial.
 Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).
 
 Egmond provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×3 = **3.15**.
+
+Groffey provisional score: 0.25×1 + 0.25×4 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.05**.
