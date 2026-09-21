@@ -560,6 +560,11 @@ PAGES = [
          blurb='DECODE R1942 is Hogendorp&rsquo;s ciphered dispatch no. 12, listed as non-decrypted with its subject unknown. Sillem&rsquo;s 1890 biography says that, after Vorontsov rebuffed him, Hogendorp sought to reach Alexander I through the Dutch-born Russian general Van Suchtelen; its footnote names the source as the ciphered dispatch of the same day, no. 12. The matching 1803 codebook is DECODE R1035. The subject is secure, but the 286 groups have not yet been aligned to an exact plaintext.',
          quote='&ldquo;Hogendorp vond zijne houding althans zo wonderlijk dat hij naar andere kanalen zocht&rdquo;',
          rights='Manuscript image: Nationaal Archief, The Hague, via DECODE R1942'),
+    dict(slug='r1892', label='Orange prince 1795', year='c. 1795', y=1795.5, place='Germany &rarr; the Orange troops', st='partial', stt='read in part',
+         title='A son of William V on the &eacute;migr&eacute; rassemblement, c. 1795 &mdash; the &ldquo;non-decrypted&rdquo; R1892 is a 6&times;6 digit square',
+         blurb='DECODE R1892, two pages in the papers of Prince William V catalogued as an unsolved letter from an unknown writer. Every letter is a pair of digits 1&ndash;6 written one above the other; the square was recovered ciphertext-only from the Dutch postscript and read the French page unchanged. A son of the Stadholder tells the officer of the Dutch troops in Germany to accept it if General Dundas stops their pay or orders them to embark, and to explain their footing in British service. About thirty graphic word signs remain unread.',
+         quote='&ldquo;il faudroit y souscrire et vous borner uniquement &agrave; t&acirc;cher d&rsquo;obtenir &hellip; une gratification&rdquo;',
+         rights='Koninklijk Huisarchief, The Hague, via DECODE'),
     dict(slug='fagel1804', label='Fagel 1804', year='1804', y=1804.5, place='The Hague &rarr; William V in exile', st='stuck', stt='key not found',
          title='Robert Fagel to William V, 18 June 1804 &mdash; transcribed, every online key ruled out',
          blurb='DECODE R2238 carries 128 groups of a French syllabic nomenclator reaching at least 2510, in a letter on the 1804 settlement of the House of Orange&rsquo;s claims. Euler&rsquo;s Grand Chiffre (direct, with its additive table and under 5,000 renumberings), all KHA and Fagel family keys in DECODE, and the British Library and Uppsala French codes were tested and ruled out. The key is most likely in the undigitised KHA packet A31-902.',
@@ -642,6 +647,7 @@ IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch o
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['nevers1589'] = ('nevers1589_lead.jpg', 'BnF Fran\u00e7ais 3977 f. 318: the Recueil sommaire of letters written in cipher by the King\u2019s enemies, September and October 1589 \u2014 a digest in clear French, the cipher itself elsewhere', 'Biblioth\u00e8que nationale de France')
 IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
+IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
 
 SURVEYS = ('famous', 'solved')

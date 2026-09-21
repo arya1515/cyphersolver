@@ -8,6 +8,7 @@
   "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
+  "an orange prince to an officer of the émigré troops, c. 1795": "2026-09-21",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
   "archbishop of bremen to johan adler salvius, november–december 1631": "2026-09-21",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
@@ -199,7 +200,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6a52180f6947",
+   "hash": "78bfa74790ac",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -344,7 +345,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "36509aac3657",
+   "hash": "1b93947f96ed",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -466,6 +467,11 @@
    "first": "2026-09-18",
    "hash": "e90d1c359576",
    "updated": "2026-09-18"
+  },
+  "r1892": {
+   "first": "2026-09-21",
+   "hash": "73266981f3e2",
+   "updated": "2026-09-21"
   },
   "r1942": {
    "first": "2026-09-20",
@@ -654,7 +660,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "071469738eab",
+   "hash": "ef5515b2751a",
    "updated": "2026-09-21"
   },
   "yard1699": {

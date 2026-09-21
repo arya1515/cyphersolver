@@ -1,0 +1,166 @@
+{
+ "schema_version": 1,
+ "target": "r1892",
+ "title": "A son of William V to an officer of the Orange émigré troops, c. 1795 (KHA Prins Willem V inv. 339; DECODE R1892)",
+ "documents": [
+  {
+   "id": "R1892 p1",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
+   "date": "unknown",
+   "year": 1795,
+   "country": "Germany",
+   "route": "a son of William V -> an officer of the Orange émigré troops",
+   "language": "French",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record."
+   },
+   "length": {
+    "tokens": 1068,
+    "distinct": 70,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p1.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R1892_I9358_P1 / I9359_P2, rotated and cut into strips",
+    "image_quality": "poor",
+    "notes": "_check_profile --measure --digits counts whitespace tokens including signs, clear words and line labels; by regex the file has 1039 digit pairs and 21 signs."
+   }
+  },
+  {
+   "id": "R1892 p2",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
+   "date": "unknown",
+   "year": 1795,
+   "country": "Germany",
+   "route": "a son of William V -> an officer of the Orange émigré troops",
+   "language": "Dutch",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record."
+   },
+   "length": {
+    "tokens": 804,
+    "distinct": 54,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R1892_I9358_P1 / I9359_P2, rotated and cut into strips",
+    "image_quality": "poor",
+    "notes": "_check_profile --measure --digits counts whitespace tokens including signs, clear words and line labels; by regex the file has 790 digit pairs and 108 signs."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic"
+  ],
+  "summary": "6x6 digit square, each letter a vertical pair of digits 1-6 (top over bottom), with some thirty graphic signs for words or names.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 25,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "doubled_letters": "written out",
+  "sibling_key": "none",
+  "notes": "Pair 12 = w in Dutch and final z in French; rare pairs 53, 61-64 probably misreadings. Graphic signs act as a small nomenclator."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE status non-decrypted; no decipherment on the images",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: DECODE login cookie supplied, problem posed with /goal. No target-specific intervention.",
+  "tools": [
+   "DECODE filesrv download",
+   "PIL rotation and strips",
+   "quadgram simulated annealing (python)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R1892 images and key records R2240, R2233 with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "R2240 (four-digit Orange name key) and R2233: R1892 uses only digits 1-6.",
+   "result": "ruled out",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Digits 1-6 written as vertical pairs: a 6x6 Polybius-type square.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Two subagents transcribed page 1 (1039 pairs) and page 2 (790 pairs) as TOP+BOTTOM tokens.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "solver",
+   "what": "Many-to-one quadgram annealing on the Dutch page: collapsed onto e/n.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "solver",
+   "what": "One-to-one swap annealing with Dutch quadgrams on page 2: 'het rassemblement te zamen te houden', 'officieren'.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Same square applied to page 1 gives French; 54=q, 14=x, 13=y, 12=z(French) adjusted.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.93,
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "1816 of 1829 digit pairs mapped; about 129 graphic sign occurrences unread; fraction counts signs as enciphered tokens."
+ }
+}
