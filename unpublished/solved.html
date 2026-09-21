@@ -47,7 +47,7 @@
 <main>
 <nav class="toc" aria-label="On this page"><span>On this page</span><a href="#full">Solved or read in full</a><a href="#partly">Partly read</a><a href="#explained">Explained, verified or found already solved</a><a href="#strong">Where the AI was strongest</a><a href="#weak">Where it was weakest</a><a href="#sources">Sources and caveats</a></nav>
 <div class="callout">
-<strong>The short version.</strong> Thirty items are read in full or in substance and seven more in long stretches. Eight of them fell to a
+<strong>The short version.</strong> Thirty items are read in full or in substance and eight more in long stretches. Eight of them fell to a
 solver written for the occasion and run ciphertext-only; seventeen fell to a printed or manuscript sibling, or a key in the same archive, that nobody had connected to the
 ciphertext; six fell to looking at the leaf and seeing what it was; two are verifications of keys other people found. Every reading and every
 negative on this site was run against a matched control of the same length and design. The last two sections say where the AI was strongest
@@ -60,6 +60,9 @@ and where it was weakest, and they are a judgement, not a measurement.
 account of its contribution and is the part of this page most open to correction.</p>
 <table>
 <tr><th>Target</th><th>Date</th><th>What broke it</th><th>What the AI did</th></tr>
+<tr><td><a href="rome1536.html">The cardinal de M&acirc;con &rarr; Montmorency</a><br><small>BnF Fran&ccedil;ais 3053, eight records (DECODE R4233&ndash;R4248)</small></td><td>1536&ndash;37</td>
+<td>A key nobody had applied. Tomokiyo reconstructed this cipher from fr. 3053 itself and Lasry re-tabulated it in 2023, but no plaintext of the volume was ever published and DECODE gave the letters no sender. The signatures in clear name him: the cardinal de M&acirc;con, ambassador to Paul III. The cipher was then read line by line from the scans, and corrected from a contemporary gloss (&ldquo;quant au faict de florence&rdquo;) that shows the big curly X is Q/U, not N.</td>
+<td>Identified the sender, applied the published key, transcribed and read seven of the eight records in part, and found that the eighth is a different fr. 3053 cipher whose contemporary clear decipherment stands on the next leaf. Six decipherments in the volume served as controls; three agree word for word. About half the cipher, and three quarters of the longest letter, remain unread.</td></tr>
 <tr><td><a href="segur.html">Henry of Navarre &rarr; S&eacute;gur</a><br><small>BnF 500 Colbert 401 ff. 233, 239, 288v; then ff. 366, 333</small></td><td>1585&ndash;86</td>
 <td>461 figures transcribed from the Gallica images. The upper figures pile into one slot in five (mod 5), the signature of a syllable table in alphabetical order; a structured annealer built on that constraint, with the letters&rsquo; own clear French as context, returned a key alphabetical on its own (letters 4&ndash;47, syllables 54&ndash;123, doubles) and read a matched control at 97&nbsp;%. The volume was then swept: f. 366 in the same key, f. 333 read with Tomokiyo&rsquo;s sibling key, which is this key shifted by eight.</td>
 <td>Hypothesis first, solver second. The mod-5 observation came before any annealing and the solver was designed around it rather than run blind. The sender was corrected from Henry III to Navarre from the content. The one item solved from the leaf with no transcription and no key family known in advance.</td></tr>
