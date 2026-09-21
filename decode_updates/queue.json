@@ -3698,5 +3698,21 @@
     "reading_not_needed": true
    }
   }
+ },
+ "sp106box10": {
+  "writeup": "https://dbourdeau.github.io/cyphersolver/sp106box10.html",
+  "key": null,
+  "cite": null,
+  "fields": {},
+  "records": {
+   "R703": {
+    "decode_status": "Partially decrypted",
+    "proposed": "Partially decrypted",
+    "note": "Not a letter: a codebreaker's worksheet (index of groups 200-399 by line, glossed fragments) on a lost 46-line Italian letter in what he calls the 'Venetian Cifar'; same letter worked on R661, R667, R684, R701, R702, R720; his partial syllabic key is R701 p.3. SP 106/10 file of 1623-24 (see R725). The intercept itself is not among the DECODE records.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }

@@ -132,6 +132,7 @@
   "sir thomas smith, add ms 4136 f. 140 (decode r9236)": "2026-09-21",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
+  "sp 106/10 worksheets, r703, 1623–24": "2026-09-21",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "spanish despatches of 1593: miranda, sessa and ibarra": "2026-09-19",
   "stosch–walton cipher instructions, sp 106/7, c. 1731": "2026-09-21",
@@ -267,7 +268,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "2695a2aad27d",
+   "hash": "38f009d8d956",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -452,7 +453,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "84553a1cbf03",
+   "hash": "cc53a115745c",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -787,8 +788,8 @@
   },
   "sp106box10": {
    "first": "2026-09-20",
-   "hash": "96daa571590c",
-   "updated": "2026-09-20"
+   "hash": "1b44a918518d",
+   "updated": "2026-09-21"
   },
   "sp106r597": {
    "first": "2026-09-21",
@@ -902,7 +903,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "08dd0eac650e",
+   "hash": "dd7dfd0031db",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -134,11 +134,15 @@
     { "date": "2026-09-20", "kind": "statistics", "what": "Surveyed all 22 ciphertext pages and found they use three different systems, not one: R657 (two-figure), R660/R664/R720 (three-figure), R704/R721/R722 (letter-plus-figure). DECODE groups R720 with R704; the figures show it belongs with R660/R664.", "result": "worked" },
     { "date": "2026-09-20", "kind": "reading", "what": "Rebuilt about 45 values of the three-figure code (system B) by aligning the codebreaker's interlinear syllables against the groups on R664 f. 1, anchored on unambiguous words ('senza', 'della loro sicurezza', 'quelle de nuovo').", "result": "partial" },
     { "date": "2026-09-20", "kind": "verification", "what": "Checked the rebuilt values for consistency across lines 34-45; the apparent conflict at 252/359 resolved when 'senza' was seen to run over a line break (252 se + 359 n + 560 za), which confirms the alignment method.", "result": "worked" },
-    { "date": "2026-09-20", "kind": "literature search", "what": "Web search for any modern edition of SP 106/10; the published SP 106 transcription site covers only volumes 1-4, and nothing else was found.", "result": "worked" }
+    { "date": "2026-09-20", "kind": "literature search", "what": "Web search for any modern edition of SP 106/10; the published SP 106 transcription site covers only volumes 1-4, and nothing else was found.", "result": "worked" },
+    {"date": "2026-09-21", "kind": "access", "what": "Catalogue entry 66 (DECODE R703, ff. 184-185) taken up; fetched its two images and those of the neighbouring records R658, R661, R667, R684, R701, R702.", "result": "worked"},
+    {"date": "2026-09-21", "kind": "hypothesis", "what": "Tested whether R703's glossed fragments and group-by-line index belong to R664, R660 or the system-C letters R704/R721-R724. They do not: they come from a fourth, three-figure letter of 46 lines not among the DECODE images, worked also on R661, R667, R684, R701, R702 and R720.", "result": "worked"},
+    {"date": "2026-09-21", "kind": "key from source", "what": "Read the codebreaker's partial key for that letter on R701 p.3 (syllabary: 209-213 va-vu, 231-235 sa-su, 333-336 cha-cho, 366-370 la-lu, 375-378 da-do) and his label on R701 p.1, 'Wordes marked wth letters in the Venetian Cifar'.", "result": "partial"},
+    {"date": "2026-09-21", "kind": "reading", "what": "Applied the partial key to the fragments on R703, R702, R684 and R720: it values 4 of R703's 28 groups and contradicts the codebreaker's own glosses (244 ta/ra). No reading; R703 closed as explained, not read.", "result": "failed"}
   ],
   "outcome": {
     "class": "read in part",
     "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
-    "notes": "The case is explained and dated and system A's key is fully transcribed; system B is read in fragments from a partly rebuilt code. Systems B and C are not yet carried to a continuous reading, and no sender or recipient is yet named."
+    "notes": "The case is explained and dated and system A's key is fully transcribed; system B is read in fragments from a partly rebuilt code. Systems B and C are not yet carried to a continuous reading, and no sender or recipient is yet named. R703 (catalogue 66, 2026-09-21) is a worksheet on a fourth, lost Venetian-cipher letter worked on seven records; that letter is explained, not read."
   }
 }

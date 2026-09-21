@@ -122,6 +122,55 @@ and line 41: `240 | hoggi terzo giorno | 468 434 516 146 456 461 252 359` + line
 Enough of the code is fixed to show the letters are Italian, are about "la loro sicurezza", the cipher's own
 working, dated letters counted by "il terzo giorno", and belong with the 1623–24 nomenclature of R725.
 
+## R703 and a fourth letter: the "Venetian cifar" dossier (2026-09-21)
+
+Catalogue entry 66 (DECODE R703, TNA_SP106/10_UND_(0184-0185), "worksheets of a codebreaker", Italian) was taken
+up on its own and turned out to belong to this file. **It is not a letter and holds no text to read.** Both pages are
+the codebreaker's working sheets on a three-figure letter of 46 numbered lines that is **not among the DECODE images**:
+
+- **p. 2** (ff. 185) is a positional index, headed *linea*: every group from 200 to 399 with the lines where it stands
+  (`201. 5.13.19.21.26.31.33`, `280. 2.6.9.20 ф 24.25`, `340. 6`), notes such as "201 is a finall sillable after an
+  entire word", and counts ("201. 7 tunes", "297. 11 tunes").
+- **p. 1** (f. 184, half written upside down) carries glossed fragments of that letter under "Finall sillables" and
+  "Entire wordes assured by reiteration": `l.1 540 212 | una che`, `l.2 280 367 464 432`, `l.6 340 367 misciendosi`,
+  `l.7 245 510 Almeno`, `l.14 297 506 395 e che quello`, `l.24 325 232 540 406 432`, `l.46 540 464`; and grids of trial
+  syllables (*no a me pre / ple / ro-bo-bra …*, *resa resan resar …*) and trial words (*Rovere, Rogare, Rolare, Romano*).
+
+The index and the fragments agree with each other (280 in line 2, 340 in line 6), and they are **not** R664 or R660:
+211 stands in R664 line 38 but the index does not list line 38 for it, and 540 is *Spagnoli* in R660 but *una/n* here.
+Nor is the letter in system C (R704 and its fellows R721-R724 are letter-plus-figure).
+
+The same lost letter is worked on six other records in the box, which DECODE lists separately:
+
+| record | ff. | what it is |
+|---|---|---|
+| R661 | 141-143 | fragments by line (`l.1`, `l.11`, `l.22`, `l.42 che 250 … 540 395 207 …`) with an English memorandum |
+| R667 | 164-166 | tally grids of every group 200-599 by column (2xx/3xx/4xx/5xx) with counts, and trial syllable lists |
+| R684 | 170-171 | "wordes … in this Cifer", frequency lists by line (`232. l.44.48`, `369. l.2.31`) and more fragments: `l.7 504 207 495 … 510 al meno`, `l.25 495 391 540 395 207` |
+| R701 | 175-177 | **p. 1 headed "Wordes marked wth letters in the Venetian Cifar"**: 369º nostro, 340º misura(?), 467º questo, 420ⁱ altri, 233ʳ esser, 121ᶜ, 43ºª passata; a syllable table Ba…Sto. **p. 3 his partial key** (below). p. 2 a line of a different, letter cipher |
+| R702 | 181-182 | fragments `li.25 495 391 540 395 207` "a ta n do", `li.32 495 464 491 540 244 436` "al re s ta ua no", `li.38 525 495 541` "si a te", `li.42`, `li.44`; and an Italian-English word list copied from a dictionary (Ballatore … Galante … Maladetto) |
+| R703 | 184-185 | this record |
+| R720 | 188-189 | fragments (`l.2 280 367 464 432 434`, `l.6 542 290 | 280 367 464 432`, `l.16 350 541 513 507`, `l.22 che 525 245 541 449`), trial words |
+
+So **system B is the codebreaker's "Venetian cifar"**, and superscript letters on a group mark it as a whole word.
+R720 belongs with this letter rather than with R664.
+
+**His partial key (R701 p. 3)** is a syllabary with the vowel carried in the last digit:
+
+    209 va 210 ve 211 vi 212 vo 213 vu · 231 sa 232 se 233 si 234 so 235 su · 244 ra 245 re
+    333 cha 334 che 335 chi 336 cho · 322-326 pr- (pra … pru?) · 313 cu(?) 314 cn(?)
+    366 la 367 le 368 li 369 lo 370 lu · 375 da 376 de 377 di 378 do · 510 sha(?) 511 she 512 shi(?)
+
+It does not carry the fragments to a reading: of the 28 groups quoted on R703 it values four, and the codebreaker's
+own glosses conflict with it (R702 li.32 glosses 244 as *ta*, the key gives *ra*; R703 glosses 540 variously as
+*una* and *n*). He had not broken this letter when the file stops, and without the intercept itself (46 lines, ~500
+groups) the fragments are too few for a reading here.
+
+**Outcome for catalogue entry 66: explained, not read.** R703 is identified (a worksheet, not a letter), placed in its
+case (the 1623-24 SP 106/10 file) and tied to six sibling records and the codebreaker's own name for the cipher. The
+intercept may survive elsewhere in SP 106/10 or among the Venetian material of SP 99 / SP 106 and is worth a search
+at Kew; with it, R701 p. 3 and the fragments would be a strong start.
+
 ## Not yet done
 
 - Finish the gloss-alignment pass over R664 ff. 2–3, R660 and the R720 worksheets; the three-figure code can
