@@ -4153,5 +4153,21 @@
     "reading_not_needed": true
    }
   }
+ },
+ "chodkiewicz1575": {
+  "writeup": null,
+  "key": {
+   "decode": "Kopal & Waldispühl's reconstructed key (HistoCrypt 2023, letter E)",
+   "lang": "DE"
+  },
+  "cite": "Kopal, N. & Waldispühl, M. (2023) Two Encrypted Diplomatic Letters Sent by Jan Chodkiewicz to Emperor Maximilian II in 1574-1575. HistoCrypt 2023. https://ecp.ep.liu.se/index.php/histocrypt/article/view/160/116",
+  "fields": {},
+  "records": {
+   "R1473": {
+    "decode_status": "Partially",
+    "proposed": "Decrypted",
+    "note": "Letter E of Kopal & Waldispühl 2023, deciphered completely (Szklow, 22 Feb 1575, a copy)."
+   }
+  }
  }
 }

@@ -5183,41 +5183,6 @@
    "scored": "rule"
   },
   {
-   "id": 268,
-   "counted": true,
-   "year": 1575,
-   "date": "1575",
-   "title": "Johan Chodkiewicz to Maximilian II",
-   "correspondents": "Johan Chodkiewicz → Maximilian II",
-   "place": "Vienna",
-   "language": "German",
-   "region": "Austria",
-   "period": "1560-1589",
-   "shelfmark": "ÖStA, Haus-, Hof- und Staatsarchiv, Staatskanzlei Interiora, Chiffrenschlüssel, Kt. 14. Fasc. 20. f 210-212",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R1473: Partially decrypted, 4 pp., homophonic, simple substitution; graphic signs; images login. Not viewed here. DECODE cites a printed text or article: check whether it already reads the cipher; 225 key record(s) from the same series on DECODE, nearest R1777 (1600). DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. Article published on the document: https://ecp.ep.liu.se/index.php/histocrypt/article/view/160/116",
-   "why": "Ciphered letter of Johan Chodkiewicz to Maximilian II, 1575; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Read the cited publication first: it may already give the reading.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1473",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1473"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1473
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 269,
    "counted": true,
    "year": 1816,
