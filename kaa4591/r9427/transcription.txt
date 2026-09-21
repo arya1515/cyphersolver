@@ -22,3 +22,66 @@ P1.09 y E 4 7 z 4 Q b 5 d y E 5 \ x L n n E e + S 3 7 y 5 m b p p w r H p 4 4 v 
 g:    ? l e m a n h a l t . d a s  s i c h ? ? ? m i t ? ? l e k w ? ? ? t  w a r u m b  d o ? ? ? n e  k ...
 P1.10 {partly from overview} 4 7 w \ x 9 6 5 Q H H 9 4 4 v 4 v e + \ x y 5 Q E 4 w p 4 \ x e - Q 8 m y E y T w H + v 4 p w H
 g:    w i e  e  s t a n d  n o n d ? ? ? e ? ? ? s t a n d  u n d  b e s ? e n  n i c h t  g e s c h ? ? t ? e n
+
+# ---- CODE SYSTEM: lines 1-10 above use R9427 codes (signs.md); everything below uses R9410 codes.
+# ---- Continuation (lines 11-35 of P1, all of P2) written DIRECTLY IN R9410 CODES (sysA/signs_r9410.md),
+# ---- not in the R9427 codes of lines 1-10 above; decode with the R9410 decoder. "a+" = the a-with-cross sign.
+# ---- "nn" = the doubled-pi glyph (ππ); may be one sign, flagged. '?' after a sign = doubtful.
+== P1 ==
+11 R nn 4 w w v a+ # 9 q o 4 Q w q # m? j 5 p q 4 v c v m x y 4 q 8 5 m y d w m E 4 q
+12 6? 5 x d 7 m y p v 4 g a+ # w v y g 5 # 4 q nn w v 4 nn m w E 5 q 6? 5 x E 3 v E d b? nn w
+13 a+ w 4 q x 9 d 4 w E 9 3? 5 3 x L 3 q E 4 v 4 g q 5 m Q # 8 # x 9 4 v Q? 3 p v 4 v a+ y v 5
+14 # 4 n 9 Q 4 o v 4 y d 4 7 4 n 4 # n 4 Q 5 q t? Q 4 Q 4 q E 5 x A w x L 4 v J 5 4 q # 4 v
+15 y v 5 Q Q q t 3 q 4 7 4 7 d 5 q Q 3 w y 4 v w # m w v 3 q Q 4 v 4 g a+ v w 4 7 4 q t 3 nn w
+16 J 9 7 w q # w v x 5 3 7 w q [Et primo] S a+ # E 5 x d w g A 3 q d y E 3 v E x w 4 q R w 3 v
+17 X 8 4 d D Q w v y g 7 q y x 4 m R 4 v 4 g a+ x 9 d E w nn w o o 3 4 7 8 c? p y E 4 q d
+18 A 3 J v 4 w # 4 q t 3 x y 5 q E 4 5 d x 3 n v J 5 4 q 7 5 d # w n 4 x w q 8 9 E n 4 v d 4 q
+19 x m Q? 4 q E 4 w n w 4? d E 4 w j o w v c t? 9 Q w q # 9 q n 4 v y 4 q o 4 v # 4 v D 3 v x y
+20 4 q @ r? o 4? 7 7 n t 3 w v 9 o 4 v q 4 q Q v 9 x L 4 v o 4 m? j 3 4 # q Q x y 4 q R q Q 3 w y a+?
+21 # q # 4 t n w 4 D 4 d y 4 v S b? a+ 8 Q # w E 5 E y x D 3 v x y 4 q c? y 8 # 7 m? g p y
+22 # w y 4 7 v w E y R y m @ w d w 4 q t 4 q w 7 w q 6 5 v t 3 w v d 5 q E # v 5 D x w 4 8
+23 A w x y # w v m? j 3 # 4 q R 8 4 d D t 3 x 5 7 n y # m @? Q q 5 q d 4 v q 5 3 x d 4 q d 4
+24 a+ w q D 3 v x y 4 q R A m y 4 8 @ 5 y 4 q y 8? # q o w Q 7 m y E 4 v # w v y g 9 x y
+25 3 q # w x? x 9 d n m E w v d w 4 q x 9 Q 4 E 4 v t 3 # R A w d E 4 g x? m Q 4 p E y d 5 q
+26 m? j 5 q Q w E 4 q c J 4 q 7 m E y # w 3? 4 4 8 d w v # d 4 4 E # m v 4 q y w 3 y a+? d 5 q E
+27 d? m y w v j o 9 v y nn 5 x E w v j o 5 d nn 4 q 4 v 4 v a+ D 3 v q 4 7 w g? x m Q 4 4 v a+
+28 x 9 Q 4 E x A w 4 E m x 4 7 A 9 y 4 q 4 7 w t 3 a+ v w 4 o 4 q d 9 7 m y w v x 4 E
+29 R x w 4 q 4 x 5 E 4 q E 5 v q 5 E t 3 v 4 E y 4 q b 5 nn 4 d 5 v 5 3 D a+ d w q A 9 y 4 q
+30 p q w m d m? j m y E w v 5 q y nn m v y 5 nn # w D 4 v y m Q y E 5 x 4 v a+ 5 3 D x A w d
+31 {left-margin addition: 4 Q w p E y} E w x y 4 v 4 # w x 5 q E y 4 q 5 d x q w 7 d m E? 7 4 E c 5 w {long flourish} 5 v q nn 4 q c t w v
+32 R 7 m y m? g p v w 4 q A v 9 nn x y t 3 4 7 w R 5 q E w v q x w 4 q 4 v A 5 v y b 4 p
+33 D 3 v x y 4 q a+ m c J 4 q nn w Q 4 4 q x 5 E w q t nn 4 a+ w q w 3 v 5 Q w v X 5 3 D b 4 q
+34 d w v x 4 E A v 4 q # 3 8 Q 7 w 8? 5 q E d 4 q # w v b 9 D 7 m E A 5 d d? b 4 q 8 5 E t w J 9
+35 7 w q R E w q m? g 9 v Q w q b? d? 8 4 w t w d 5 x L 4 q a+ # O E? 5 q d 4 v 4 q w 3 4 t 4 m y 3 q Q
+(P1 has 35 lines; line 35 ends the page.)
+
+== P2 ==
+01 x 9 L m E o # w nn w q x 4 q E d 4 w d 5 x E 4 v v? E w q J 5 3 D a+ 5 q c J p 9 v # 4 q
+02 # m c t d 3 7 o 5 x 7 3 x A D d # w # 4 q R 5 q E w v A m x R q E Q 4 5 E y A w v x 9
+03 q w q 7 m y x 4 E p q c? o # q Q w v q 4 q w 4 q x y 5 y E w nn v m c t w q # w q 5 q y
+04 {left margin, with insertion cross: t? Q w D 3 v y} 7? 4 w 4 7 w a+ 5 q x w 4 q 4 v nn w x 9 d E 3 q # w 4 q Q 4 # w q {insertion cross here} R x 4 w y d 4 E
+05 y 5 # 4 A w 4 x m E A w b 5 d y 4 q R 5 d x L p 5 m? j t 3 v # c J g w 4 y 4 q Q w
+06 # w q E w 7 J w x m? j 5 v c J y x 4 q E L 4 # 9 q D v 5 q c t w q nn w nn 4 c J 4 q d? 5 4
+07 q 4 7 D d w c J 4 q A w 3 d c t w q Q w q 5 8 y 3 nn w v D 5 Q 4 8 t w D 5 q # 4 8 R b 5 v y
+08 # w v o 3 q d y 4 o t 3 nn w x 9 v # w q 7 5 q nn w v E w x 4 5 Q v m E y 4 8 d 5 x 7 5 E y
+09 E 4 x v? # q nn w v 5 y d m E w b 5 q E d 3 q # [Principium immo illius totius negotii est]
+10 [Illud?] E 5 x a+ # {dash} w 7 w v m E nn w o 4 c J # w E 5 E y x D v 5 q c t w q nn w nn 4 c J
+11 d v 3 w E w v w 4 q A v 9 nn x y R A g 4 w x y 4 v 5 d b 4 w 4 4 q nn w m o # w q 3
+12 7 w q E 5 v 3 7 o 4 q 4 a+ # w D 5 q Q w q R o 4 E 4 v 5 3 D A 3 v # a+ 5 D y 5 3 x # w
+13 d 5 x L w q R b 5 y nn w Q 4 q t 3 x w 4 q 4 7 A v 3 w E w v b 5 y w v 4 7 w # 7 nn E w v
+14 x w 4 q 4 v # q A v 4 w x y 4 v d 4 E 4 q b 5 q E d 3 q # nn w # 4 q 5 Q 4 x w R? w
+15 # 3 w y 4 v Q w q 3 7 w q R 4 q 4 8 m y nn w Q 4 q w 4 q J 9 7 w q d 5 x L w q R 4 q
+16 x 3 7 m? j 5 E 3 v E E 4 w D w v E m q 5 q E 4 a+ w q E 9 b R q nn w v w E y E 5 x w v 3 7 nn
+17 # w D 5 Q 4 q E 5 x 4 o 5 3 x E 4 x w 7 b w 3 v 5 y w g nn 5 E x w q d 5 x b 5 nn w q nn 4 v
+18 w 3 v q X 4 q 5 Q w v 4 q E w v y b w q m # J 5 4 y q m y nn w Q 4 q nn w v # w q E w q 4 8
+19 nn 4 v 3 q x R 5 Q 4 v # w b 9 v x 5 7 w nn w D w d E w q y b # q [Datum 24 Aprilis]
+20 [Anno C xxxiiij]   (= 1534?; read as written)
+21 {signature, centred: two dotted box glyphs (B-like, box on stem, each with a dot inside) + X}
+
+== P2 postscript ==
+22 [25 <Marcii struck through> Aprilis] {dash} a+ # 8 5 y E m w a+ w 3 v X A v 4 w D x 9 # q x E 3 v E x y w b 5 q
+23 A d c? q c J w q [des 23 Aprilis] t 3 J 9 7 w q m? j m y x 5 m? j nn y d w L a+ A v 4 w b w A
+24 d w 7 b? d t 3 # w a+ m c J y nn w Q 4 q Q w E 5 E y w q L y w b 5 q A 5 d E 5 nn D w v y m # w q
+25 v? L 5 # y nn 4 w m w t # 8 d y 4 7 v w m E # 4 w v d 5 L? A 3 q E x w 4 q nn m d
+26 3 q x m? j m y x w 4 q 4 q X? w 3 w q 7 w v w q X? p @? # w D 5 Q 4 q .
+(end of postscript)

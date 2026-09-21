@@ -27,7 +27,7 @@ they are separate letters in at least six systems, several with their key a few 
 | R9416 | 262–263 | pp.1–2 a Bavarian servant to his duke, "eritags nach Jacobi" (Tuesday after 25 July): troops in Austria/Styria, asks for 7 years' pension and the Oberrichter post at Straubing; pp.3–4 another sign set | homophonic signs | interlinear | pp.1–2 **read at the time**; pp.3–4 **broken ciphertext-only** (de-1500s model), report on the Pressburg talks between the two kings and the Turk |
 | R9417 | 264 | Łaski at Kraków, 16 June [1530], to the Bavarian secretary "Waisenfelder": Buda siege, Nicolaus Min… sent to France, meeting at Coburg | System B | rebuilt from glosses | **read** |
 | R9424 | 274–277 | German letter, cipher in Latin-letter substitution | letters | margin notes | |
-| R9427 | 287 | German newsletter to a duke, 15–24 April (year illegible); gloss over lines 1–10 | System A′ | partial key from gloss: 5 a, 4/ω e, □ n, p i, 8 h, 9 o, ↓ r, ÿ t, 7 m, π b, X = F.G. | open |
+| R9427 | 287 | German newsletter to a duke, dated 24 April [15]34, postscript 25 April; gloss over lines 1–10 | System A′ | partial key from gloss: 5 a, 4/ω e, □ n, p i, 8 h, 9 o, ↓ r, ÿ t, 7 m, π b, X = F.G. | **broken**, key rebuilt from its own gloss; P1 11–35 and P2 decoded (`r9427/decrypt.txt`), read in part |
 
 System A (signs ↓ ω π 4 8 ÿ …) is also the system of R9368, R9407 (Augurelio), R9411–R9412 (Cornelio Sperantio):
 the Bavarian agents in Rome/Italy, 1530s. Key R9369 (f.172) is "Dno Aurelio Augurelio".
