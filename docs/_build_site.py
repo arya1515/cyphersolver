@@ -164,6 +164,11 @@ PAGES = [
          blurb='Ten lines of invented signs in TNA SP 106/5, catalogued on DECODE as King Charles I to Boswell, 1628, and undeciphered. Mark Woodard read the monoalphabetic cipher on DECODE in 2021. Here: two of his three open signs read, the sender identified from the endorsement as Sir Ralph Boswell, and the letter dated to 15 December 1627.',
          quote='&ldquo;our greate Duke returned from Plimmouth to Whitehall, contrary to the opinion of very many&rdquo;',
          rights='The National Archives, Kew, via DECODE R413'),
+    dict(slug='r1874', label='Mocenigo 1628', year='1628', y=1628.8, place='Madrid &rarr; Venice', st='found', stt='read at the time',
+         title='Mocenigo to the Doge, Madrid 1628 &mdash; read at the time',
+         blurb='DECODE R1874, catalogued as an undated letter of unknown sender and recipient (ASVe Busta 30 f. 174), is Alvise Mocenigo&rsquo;s despatch from Madrid to the Doge and Senate of 26 October 1628, <em>CSP Venice</em> 21 no. 515. The record holds the chancery&rsquo;s decipherment of the whole letter and a second, separately enciphered copy. Paragraph marks and the three &ldquo;conte di Olivares&rdquo; group runs tie the decipherment to the numerical syllabic cipher; the key was not rebuilt.',
+         quote='&ldquo;Il Conte di Olivares ha desiderato con buone parole, et promesse condurlo &agrave; risolutione di ritornar in Fiandra&rdquo;',
+         rights='Archivio di Stato di Venezia, via DECODE R1874 (images not reproduced)'),
     dict(slug='richelieu', label='Richelieu', year='1629', y=1629, place='France', st='solved', stt='solved',
          title='Richelieu to M. de Ranc&eacute; &mdash; BnF Fran&ccedil;ais 3829',
          blurb='Ciphertext-only recovery of a homophonic alphabet with a doubling mark and nomenclature; then found to agree word for word with the decipherment Avenel printed in 1858, which the catalogues had missed.',
@@ -861,6 +866,7 @@ IMAGES['papai1706'] = None
 IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philibert du Croc: the main letter in graphic cipher, with the signature and postscript lower on the leaf', 'Archives d&eacute;partementales de la Ni&egrave;vre, reproduced by Destray (1924), via Gallica and DECODE R2789')
 IMAGES['vanreede1792'] = ('vanreede1792_lead.jpg', 'Van Reede to William V, 4 February 1792: the figures with the contemporary pencil gloss &mdash; ci tro n sur le(s) &hellip; demi', 'Koninklijk Huisarchief, The Hague, via DECODE R1057')
 IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch of 29 December 1787, first page: the gloss dites &hellip; avant hier over the first groups, 2750 &hellip; 2578 3350', 'Nationaal Archief, The Hague, via DECODE R1026')
+IMAGES['r1874'] = None
 IMAGES['haga1620'] = ('haga1620_lead.jpg', 'R2113 p.2, Constantinople 31 March 1620: clear Dutch with the cipher spans inline, (44) ende (45) arbeiden bij (4) om tyt te winnen', 'Nationaal Archief, The Hague, via DECODE R2113')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['nevers1589'] = ('nevers1589_lead.jpg', 'BnF Fran\u00e7ais 3977 f. 318: the Recueil sommaire of letters written in cipher by the King\u2019s enemies, September and October 1589 \u2014 a digest in clear French, the cipher itself elsewhere', 'Biblioth\u00e8que nationale de France')
