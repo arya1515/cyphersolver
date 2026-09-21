@@ -99,7 +99,7 @@ This is setup and key calibration, not a completed decipherment. No continuous r
 - 500 Colbert 390 p. 139, about 37% (lines 3-4, 7, 8-10, 12-14) - blocker: illegible; faint ink and heavy nulls; ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ unglossed anywhere found
 
 ## Escalation
-- [x] siblings: fr. 3181 f. 52, f. 57, f. 58 and Colbert 390 pp. 138, 189/199, 221-231, 241 opened; f. 57-58 and p. 138 give the hands' values; Colbert 392 p. 232 is the clear end of the Bourdin letter
+- [x] siblings: sister volumes Colbert 391, 394, 395 surveyed (sister_volumes.md): no deciphered passage in this cipher; fr. 3181 f. 52, f. 57, f. 58 and Colbert 390 pp. 138, 189/199, 221-231, 241 opened; f. 57-58 and p. 138 give the hands' values; Colbert 392 p. 232 is the clear end of the Bourdin letter
 - [x] clear-pages: clear parts of all four letters used for context; Colbert 392 p. 232 dates the Bourdin letter
 - [x] known-keys: Tomokiyo's Bishop of Rennes key; the Rennes2 (Lorraine) key checked, not this cipher
 - [x] print: La Ferrière I-II (cribs.md): none of the four passages printed; Bourdin's enclosure is Catherine 15 Dec 1562; Tomokiyo lists all four as undeciphered
