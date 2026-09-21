@@ -279,6 +279,12 @@
    "kind": "hypothesis",
    "what": "One-part (alphabetical) code: band-mass correlation with an alphabetical French word list r=-0.26; top values no closer to function-word positions than random.",
    "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Key hunt for the Carré code: viewed R2971 (different 4-figure code, to a prince, not Carré; its de=448/que=745 absent from the Carré text) and R2975-R2981 (1749-59 letter ciphers/codes, none in the Carré code); R2972 pencil marks shown to be sheet cross-references to recurring runs, not decipherments; web search for Carré, Pall Mall, the jeweller Chevening and Add MS 32305 found nothing.",
+   "result": "failed"
   }
  ],
  "outcome": {

@@ -4,10 +4,10 @@ Status: attempted, open. Worked 21 Sept 2026.
 
 ## The volume
 
-BL Add MS 32305 is catalogued as 39 folios of "unidentified cipher keys". The DECODE records R2963–R2979 show that it is a
+BL Add MS 32305 is catalogued as 39 folios of "unidentified cipher keys". The DECODE records R2963–R2981 show that it is a
 codebreaker's working file of intercepted letters, most of them deciphered between the lines at the time. Catalogue
 entry #78 grouped six records (R2963, R2964, R2965, R2968, R2972, R2974) under "Unknown sender (Paris)". They are not one
-correspondence. All twelve records R2963–R2974 were viewed here (images via the DECODE cookie, git-ignored in `img/`):
+correspondence. All nineteen records R2963–R2981 were viewed (R2975–R2981 on 21 Sept, key hunt) (images via the DECODE cookie, git-ignored in `img/`):
 
 | Record | Folio | What it is | State |
 |---|---|---|---|
@@ -23,6 +23,10 @@ correspondence. All twelve records R2963–R2974 were viewed here (images via th
 | R2972 | ff. 22–23 | "Lond. 19 Janv. 1745", all figures, same code as R2968 (212, 771, 283, 606…) | **attempted, closed**: transcribed |
 | R2973 | f. 24 | 6 March 1749, Vienna/Petersburg accession, code groups | glossed: read (not in #78) |
 | R2974 | ff. 25–28 | "L. 17/28 Nov. 1749", 2-figure letter cipher | deciphered letter by letter: **read** |
+| R2975–R2978 | ff. 29–33 | Dec 1749 – Jan 1750 (some Dresden), French, 2-figure letter cipher | deciphered interlinear: read (not in #78) |
+| R2979 | f. 34 | Hague 9 Aug 1753, "Hanau to Fer.", 4-figure code in a clear letter | glossed: read (not in #78) |
+| R2980 | ff. 35–36 | "A Mr de H.", London 8–12 Dec 1758, continuous 2-digit cipher | deciphered: read (not in #78) |
+| R2981 | ff. 37–39 | L. 12/23 Jan 1759, 2-figure letter cipher | deciphered: read (not in #78) |
 
 So of the six catalogued items, R2963 and R2974 were read at the time, and R2964, R2965, R2968 and R2972 are open.
 
@@ -127,6 +131,14 @@ What would break it:
 - 21 Sept 2026: fetched R2968, R2969, R2972 images (R2970 already in `decode/`); transcribed the three letters from
   the full-resolution images; checked against R2969; statistics; letter-homophonic anneal + shuffled control
   (no signal); one-part test (no signal). Conclusion above.
+
+### Key hunt (21 Sept 2026): negative
+
+- **R2975–R2981** (the rest of the volume; R2982 on is Add MS 4136): all 1749–59, letter ciphers or 4-figure codes, deciphered. None in the Carré code; no key, table or clear copy.
+- **R2971** (pencil "Carré 1742"): a French despatch from London to "V.A.S." (a prince), 1742, 4-figure syllabic code deciphered interlinear (448 = de, 745 = que, 693 = les, 4209 = la). Not to Carré, not the same code: 448 and 745 never occur in the 1323 Carré groups. The pencil heading is an archivist's.
+- **R2972's marks under groups** ("h", "e", "r?/d?", "b?") are the decipherer's cross-references to the sheet (e–h) where the same run recurs (`9 440` → h, `95 57 606 451` on f → e and on e → f, `600 707` → g), not plaintext guesses. R2972 carries no decipherment.
+- **Web search** (Carré Pall Mall 1742 cipher/Jacobite; "Add MS 32305"; Mr Carré 1742–45; the jeweller "Chevening"): nothing.
+- Still to try, offline: the Willes decipherers' letter-books, Newcastle papers Add MS 32699–32700 (Aug 1742, Jan 1745), SP 36 / SP 107 for "Carré, Pall Mall".
 
 ## Prior art
 
