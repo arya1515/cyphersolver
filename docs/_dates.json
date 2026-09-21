@@ -61,6 +61,7 @@
   "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
   "feuquières to catinat, 1691": "2026-09-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
+  "francis needham to walsingham, before sluys, 28 july 1587": "2026-09-21",
   "frederick the great to louis michell, berlin, 28 december 1751": "2026-09-19",
   "from warsaw, 24 december 1627": "2026-09-16",
   "galeotto da ricasoli to the dieci di balía, urbino, early 1425": "2026-09-18",
@@ -291,7 +292,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "f480ebeb6722",
+   "hash": "83080149c464",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -486,7 +487,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d1dcb519b644",
+   "hash": "99dc3be29c01",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -593,6 +594,11 @@
    "first": "2026-09-19",
    "hash": "dc008598856a",
    "updated": "2026-09-19"
+  },
+  "needham1587": {
+   "first": "2026-09-21",
+   "hash": "664b597adf04",
+   "updated": "2026-09-21"
   },
   "nevers1589": {
    "first": "2026-09-21",
@@ -991,7 +997,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "761f90f1b8ac",
+   "hash": "98028c148e58",
    "updated": "2026-09-21"
   },
   "yard1699": {

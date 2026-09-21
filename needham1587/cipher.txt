@@ -1,0 +1,16 @@
+# Needham to Walsingham, 28 July 1587, BL Harley MS 287 f. 39v (DECODE R8479, image 4)
+# Sign-level transcription. Shape = which sides of the box are drawn:
+#   J = right+bottom (top-left cell), U = open top, L = left+bottom, C = open right, O = full box,
+#   F = left+top, N = open bottom, 7 = top+right, D = open left.
+# Mark: none = first grid (a-i), '.' dot below = second grid (k-s), ':' dot inside = third grid (t-z).
+# '|' = visible word gap. Readings checked sign by sign on full-resolution crops.
+A  L: J C. J: O O. F D C. J: O U. U. O N O C. L O
+C  J. C. O L: O | C. O. J: | L: 7 O
+D  J: 7 O 7. | J: 7 O 7. O | L: J D. | J C. O: | U 7. D C N O | O. 7. | C. O. J: | O. 7. | L: 7 O J: 7 O 7. | J: 7 O 7. O | L: O 7. O | J C. O: | J J: | J: 7 O | L 7 J C. O U.
+G  L 7 J C. O U. | L: J D. | U ? ? ? ? O C | L: D J: 7 | 7 O. O: O D. | J C. C | F U. O: U O. J J: O D. | F J D. J: O C. O C | L: O: J: 7
+H  L 7 J O: C. O D. | D. J: 7. O C. N J: 7 C. O C | U O 7 D C. C | L: O: J: 7 | F U. J J: J: | U O. O. J: O D.
+F  J C. C | J: 7 J J: | J: 7 O
+# Glossed at the time (interlinear), transcribed for the key:
+advise   J C U: D D. O
+enemyes  O C. O L. O: O D.
+campe nor the towne   L J L. F. O | C. O. 7. | J: 7 O | J: O. L: C. O

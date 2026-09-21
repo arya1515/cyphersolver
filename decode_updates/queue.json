@@ -4651,6 +4651,35 @@
      "reading_not_needed": true
     }
    }
+  },
+  "needham1587": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/needham1587.html",
+   "key": {
+    "file": "needham1587/decode.py",
+    "lang": "EN",
+    "how": "Three-grid pigpen rebuilt from the contemporary glosses: nine box shapes plain = a-i, dot below = k-s, dot inside = t-z."
+   },
+   "cite": "CSP Foreign vol. 21 pt 3 (1929) pp. 206-8 (same-day SP 84 despatch), p. 35 n. 4 (Wilkes cipher, key in BL Add MS 5935)",
+   "fields": {
+    "plaintext_lang": "English",
+    "cipher_type": "simple substitution",
+    "sender": "Francis Needham",
+    "receiver": "Sir Francis Walsingham",
+    "origin": "before Sluys / Flushing"
+   },
+   "records": {
+    "R8479": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Francis Needham to Walsingham before Sluys. Pigpen key rebuilt from the glosses; every unglossed run of f. 39v read, one word open.",
+     "reading": [
+      {
+       "file": "needham1587/cipher.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -1820,41 +1820,6 @@
    "scored": "rule"
   },
   {
-   "id": 133,
-   "counted": true,
-   "year": 1587,
-   "date": "28 Jul 1587",
-   "title": "Needham to unknown recipient",
-   "correspondents": "Needham → unknown recipient",
-   "place": "London",
-   "language": "Englsih",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Harley MS 287 f 39-40",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R8479: Partially decrypted, 3 pp., unknown; graphic signs; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R8497 (1590).",
-   "why": "Ciphered letter of Needham to unknown recipient, 28 Jul 1587; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8479",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8479"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8479
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 135,
    "counted": true,
    "year": 1648,
