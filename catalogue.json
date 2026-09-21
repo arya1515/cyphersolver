@@ -2583,51 +2583,6 @@
    "scored": "rule"
   },
   {
-   "id": 134,
-   "counted": false,
-   "year": 1523,
-   "date": "3 Jul 1523 – Oct 1524",
-   "title": "Unknown sender to unknown recipient, 3 ciphertexts",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "London",
-   "language": "...",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Harley MS 6345 (3 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R7760–R7762 (3 records): Non-decrypted, 8 pp., nomenclator, unknown; graphic signs, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R7764 (1523). DECODE note: Mainly cleartext, using a few nomenclatures.",
-   "why": "Ciphered despatches of Unknown sender to unknown recipient, 3 Jul 1523 – Oct 1524; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R7760",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/7760"
-    },
-    {
-     "label": "DECODE R7761",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/7761"
-    },
-    {
-     "label": "DECODE R7762",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/7762"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    7760,
-    7761,
-    7762
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 135,
    "counted": true,
    "year": 1648,

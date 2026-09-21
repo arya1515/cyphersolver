@@ -3066,6 +3066,51 @@
      "reading_not_needed": true
     }
    }
+  },
+  "harley6345": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/harley6345/NOTES.md (notes only, no site page)",
+   "key": {
+    "none": "no key needed: one code name; key record R7764 (Harley 6345 f. 186) is a clear 1521 page, not a key"
+   },
+   "cite": "Letters and Papers, Henry VIII, vol. III, no. 3150 (original: BL Cotton Vespasian C.II f. 149)",
+   "fields": {
+    "cleartext_lang": "English",
+    "plaintext_lang": "English"
+   },
+   "records": {
+    "R7760": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Letter-book copy of the end of Richard Sampson and Sir Richard Jerningham (at the Emperor's court) to Wolsey, 3 July 1523 (L&P III 3150; original Cotton Vespasian C.II f. 149). In clear; the only code is the name =7h= (six times, 'Monsieur de =7h='), which is Bourbon (the calendar reads 'the article of Bourbon').",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R7761": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: first half of Wolsey to Richard Sampson, ambassador to the Emperor, October 1524, a clear letter-book copy continued in R7762 (R7761 P2 = R7762 P1). The marginal 'A' and '&' are insertion marks.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R7762": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: second half of Wolsey to Sampson, October 1524 (continues R7761). Clear copy; marginal signs are insertion marks.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R7764": {
+     "decode_status": "key",
+     "proposed": "re-type as ciphertext/clear",
+     "note": "Not a key: Harley 6345 f. 186 has the end of instructions to the ambassadors in France and a clear letter 'To my Lord Cardinal's grace', 13 Sept 1521.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

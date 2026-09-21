@@ -1,0 +1,152 @@
+{
+ "schema_version": 1,
+ "target": "harley6345",
+ "title": "Harley MS 6345: English ambassadors with Charles V (1523) and Wolsey to Sampson (1524) (DECODE R7760-R7762)",
+ "documents": [
+  {
+   "id": "R7760",
+   "shelfmark": "BL Harley MS 6345 f. 34 (DECODE R7760); original BL Cotton Vespasian C.II f. 149",
+   "date": "1523-07-03",
+   "year": 1523,
+   "country": "England",
+   "route": "Spain (imperial court) -> England (Wolsey)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "The letter is in clear; the one code name =7h= is identified from context and the L&P III 3150 calendar."
+   },
+   "length": {
+    "tokens": 78,
+    "distinct": 49,
+    "unit": "mixed",
+    "measured": true,
+    "file": "plaintext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R7760_I35089_P",
+    "image_quality": "good",
+    "notes": "Only the sentences containing the code name were transcribed."
+   }
+  },
+  {
+   "id": "R7761-R7762",
+   "shelfmark": "BL Harley MS 6345 ff. 34v-37 (DECODE R7761, R7762)",
+   "date": "1524-10",
+   "year": 1524,
+   "country": "England",
+   "route": "England (Wolsey) -> Spain (Sampson)",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No cipher: clear copy; the marginal signs are insertion marks."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R7761_I35090_P1-3, IMG_R7762_I35091_P1-4",
+    "image_quality": "good",
+    "notes": "Read but not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "One code name (=7h= for Bourbon) in a clear letter-book copy; no letter cipher.",
+  "symbol_kind": "digits and letters",
+  "distinct_symbols": 1,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "DECODE's 'encrypted characters in the margin' on R7761/R7762 are insertion marks. Key record R7764 is another clear page of the same letter-book."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Letters and Papers Henry VIII III no. 3150 (from the original, Cotton Vespasian C.II f. 149), reading 'Bourbon'",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Downloaded the 8 images of R7760-R7762 and the 2 of key record R7764 with the DECODE session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Read the pages: R7760 is a clear copy of Sampson and Jerningham's despatch of 3 July 1523 with one code name =7h=; R7761/R7762 are one clear letter, Wolsey to Sampson, Oct 1524; R7764 is a clear page (1521), not a key.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "=7h= = Bourbon, from context (the 'condition' of Monsieur de =7h=, the enterprise against France).",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "control",
+   "what": "Checked L&P III 3150 (British History Online): the calendar of the original has 'the article of Bourbon' at the same point.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "control",
+   "what": "Looked for Wolsey to Sampson Oct 1524 in L&P IV (12-20 and 28-31 Oct pages); not found there.",
+   "result": "failed",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "fraction_read": 1,
+  "verification": [
+   "independent clear copy",
+   "historical consistency"
+  ],
+  "notes": "No cipher to break: two clear letter-book copies; one code name identified (=7h= = Bourbon)."
+ }
+}
