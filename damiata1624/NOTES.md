@@ -61,6 +61,6 @@ Images: DECODE, fetched with the shared cookie into the git-ignored `damiata1624
   record carries its transcription, the key and a codebreaker.py decryption. It is the same key family as R59–R61.
   The catalogue entry is removed.
 - **Francia 6, R11 (catalogue 252):** already read; Lasry's F6 key and a decryption are on the record. Removed.
-- **Francia 18, R15–R17 (catalogue 242):** R15 read on DECODE, R16 read in part here, R17 open. See [bergamo1585/](../bergamo1585/NOTES.md).
-- **Francia 7, R12 (catalogue 258):** F6 key on the record, but no transcription and no decryption. Open.
-- **Francia 17, R13–R14 (catalogue 241):** partial F17 key ("Castelli p. 27"), R13 transcription, no decryption. Open.
+- **Francia 18, R15–R17 (catalogue 242):** R15 read on DECODE; R16 and R17 read here (Meister p. 324 and p. 393 keys). See [bergamo1585/](../bergamo1585/NOTES.md).
+- **Francia 7, R12 (catalogue 258):** read at the time: decipherments written above the cipher runs on f. 249 (1574). Removed.
+- **Francia 17, R13–R14 (catalogue 241):** R13 read at the time (interlinear: *che è portato da Mons. di Bellièvre, già stato ugonotto et hor forse atheo, in casa…*); R14 is the volume's clear subject index, not a cipher. Removed.

@@ -5860,46 +5860,6 @@
    "writeup": "ormanetto1576.html"
   },
   {
-   "id": 241,
-   "counted": true,
-   "year": 1583,
-   "date": "11 Jan 1583",
-   "title": "The bishops of Rimini and Bergamo (France) to The secretariat, 2 ciphertexts",
-   "correspondents": "The bishops of Rimini and Bergamo → The secretariat",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 17 (2 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R13–R14 (2 records): Partially decrypted, 8 pp., homophonic; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Monsignori vescovi di Rimini e di Bergamo. Lett. Orig. e cifre del nunz. Alla Segreteria, dall' II gennaio 1583 al 19 marzo 1585. ff.6-682",
-   "why": "Ciphered despatches of The bishops of Rimini and Bergamo to The secretariat, 11 Jan 1583; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R13",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/13"
-    },
-    {
-     "label": "DECODE R14",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/14"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    13,
-    14
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 242,
    "counted": true,
    "year": 1585,
@@ -6079,41 +6039,6 @@
     186,
     187,
     188
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 258,
-   "counted": true,
-   "year": 1574,
-   "date": "1 Jan 1574",
-   "title": "Nuncio Salviati, archbishop of Nazareth. (France) to The secretariat",
-   "correspondents": "Nuncio Salviati, archbishop of Nazareth. → The secretariat",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 7",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R12: Partially decrypted, 4 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Partly deciphered in the letter. Comment from archive: Nunzio Salviati. Arcivescovo di Nazarey alla Segreteria. It is not possible to automatically decrypt ciphertexts, since decryption is not deterministic. Regular codes can be of various lengths (1, 2, or 3 …",
-   "why": "Ciphered letter of Nuncio Salviati, archbishop of Nazareth. to The secretariat, 1 Jan 1574; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R12",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/12"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    12
    ],
    "scored": "rule"
   },
