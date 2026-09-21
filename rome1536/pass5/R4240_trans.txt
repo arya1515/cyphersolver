@@ -1,0 +1,28 @@
+# R4240 f. 40r (Gallica view 80) ll. 1-12 of the cipher, f. 40v (view 81) V01-V15; overlapping segment edges de-duplicated
+L01	Rr nE Uv E9 R27 Gh Eb R27 I ? Um Sinf | Q Up I
+L02	Eo S6 Tg OD I Tx | B Uv Lx C4 Eo | D5 Up F Eo Uv | Pc A3 Pn Eo | C4 L10 E9 Mq Eo Lx Tg | ET | D5 Eo Pc Uv I# S6 | C4 OD Lx
+L03	Tg I Tx Uv Eo | D5 Up | 30 | Q Uv Il | Eo S6 Tg | A+ | Pn R27 Eo S6 E9 Nx Tg | Lx Eo Uv N7 | Pc OD Rr Tx {C4|A+} | Pc A3 Rr OD LL E9
+L04	A3 Uv A+ Nx Tg | S6 OD Nx | Pc A+ R27 Tx Eo Mq Eb Nx Tx | D5 A3 Uv Eo C4 | ? | F Eo R27 D5 I Nx A+ N7 D5 Eo
+L05	ET | Eb Uv L10 X | D5 E9 | L10 A3 | Pc A+ Rr Tg | D5 Up | D5 I C4 Tx | 30 | A+ Il N7 S6 I | Q Up I L10 | Lx Uv I# | Eo S6
+L06	Tg OD I Tx | Eo S6 C4 Rr I Pc Tg | Pn A3 R27 | S6 A3 | Sinf A+ I N7 C4 Tg Eo Tx | Q Up Eo LL E9 | Eb S6 Tg
+L07	OD I Tx | Tg R27 Eo S6 | C4 OD Nx Tx Eo Nx Tg E9 | C4 OD Mq M1 Eo | A+ Uv SS I | Eo S6 Tg | D5 I Tx | L10 Eo | C4 OD
+L08	LL Eo Gh E9 | D5 Eb | Mq Eo SS I Eo Uv R27 S6 | L10 E9 S6 | C4 A+ R27 D5 I Nx A+ Uv L10 X | Q Up Eo | E9 Uv L10 X
+L09	A+ SS I S6 Tg Eo Nx Sinf | A+ Uv | D5 I C4 Tx | C4 OD Nx C4 I LL Eo | Il L10 | Lx Eo Uv R27 | Pn Uv S6 Tg | L10 OD I#
+L10	S6 I N7 L10 Eo | D5 I# | D5 I R27 Eo | ET | F A3 I Rr Eo | A+ I N7 S6 Il | Q Up I L10 Z | S6 Eo R27 OD Il Eo Nx Tg
+L11	I N7 S6 Pn I R27 Eo Z | Pc A3 Rr | Lx Eo | S6 A+ I N7 C4 Tg | Eo S6 Pc E9 R27 I Tx | S6 Uv R27 | Q Up OD I# | I L10 Z
+L12	S6 Eo Sinf Tg OD I Eo Nx Tx | D5 Eo Lx I N7 Eo Rr E9 Z | D5 E9 Uv L10 X | I# | Tg R27 OD Uv Uv Eo R27 | Eo S6 Pc E9
+V01	R27 A+ Nx S6 | I# | A8 Uv OD I R27 | Um Pn Il X | D5 Eo C4 I S6 Il Uv E9 | Rr Mq A3 I S6 | A+ I# A3 Nx Tg | C4 OD Nx S6 I
+V02	D5 Eo R27 E9 | L10 Eo | D5 I C4 Tx | 30 | Q Up Eo | C4 E9 | S6 Eo R27 OD I Tx | L10 A3 | Tg OD Tx A+ L10 Eo | R27 Uv I# Tx Eo
+V03	D5 E9 | L10 Eb Gh L10 I S6 Eo | ET | S6 A+ I Nx C4 Tx | S6 I Eo Gh E9 | A3 Pc OD S6 Tx {OD|D5} L10 I Q Up Eo | E9 LL Eo | A+
+V04	Mq Uv Eo | D5 E9 | C4 Of Nx S6 Eo I L10 | ET | A3 | D5 Eo Pc Eb S6 C4 H Eo | Uv Nx | A+ Uv D5 I Tg Eo Um R27 | D5 Eo Rr OD
+V05	Um Eo | Nx OD Mq M1 Eo | Uv Um OD R27 S6 | Eo Pn L10 A3 Mq E9 Nx Tg | Pc OD Um R27 | L10 Eo Uv Rr | A+ LL Eo R27 | I Nx Tg
+V06	Il Mq Eo R27 | L10 E9 | D5 I C4 Tx | C4 Of Nx C4 I LL Eo | L10 E9 Uv R27 | Mq A3 Nx D5 A+ Nx Tg | Eo X Pc R27 Eo SS E9 Mq
+V07	Eo Nx Tx | Q Up I L10 | I# | S6 Eo R27 A+ | Pc R27 OD C4 Eo D5 Eo | {Gh|S6} E9 L10 OD Nx | L10 A+ | D5 I S6 Pc OD S6 I Tx Il
+V08	Of Nx | D5 Uv | D5 R27 OD I Tx | ET | C4 OD Um S6 Tg Um Mq Eo | A+ Nx C4 I Eo Nx Tx N7 Eo Mq Eo N7 Tg | Of N7 S6 Eo
+V09	R27 Uv Eo E9 | Lx Eo S6 | D5 I C4 Tg Z | A+ LL Eo Mq A3 Nx S6 Rr
+V10	N7 Eo | C4 Of Nx S6 Eo Nx Tg I R27 OD Nx | Il A+ Mq A3 I S6 | C4 A+ R27 | I L10 Z | D5 I S6 Eo Nx Tg | Q Up
+V11	I L10 | Eo S6 Tg | N7 Eo S6 OD I Nx | D5 R27 Eo Ft OD R27 Mq Eo Rr | L10 Eo S6 | Mq Eo Uv R27 S6 | D5 Up | D5 I C4 Tg
+V12	30 | C4 A+ R27 D5 I Nx A+ Uv L10 X | ET | Eo Uv E9 S6 Q Up Eo Sinf | C4 Eo | Q Up I L10 Z | Nx Eo | Pc OD Uv
+V13	{Pn|Uv} OD I Eo Nx Tg | F A3 I R27 Eo | D5 S6 Tg A3 Nx S6 | Eo Uv L10 X | S6 Eo Uv L10 Eo Mq E9 Nx Tg | Q Il Uv
+V14	D5 Rr Eo L10 A3 SS
+V15	Mq N7 L10 ? Eb | D5 Uv | D5 I C4 Tg | C4 Of Nx C4 I LL Eo Rr

@@ -38,6 +38,44 @@ agree with the independent decoding word for word.
   (rom.uga.edu, "Lettres et documents de Claude Dodieu 1527-1557", which prints the neighbouring Rome/Naples
   correspondence of 1535-36), and no printed decipherment of fr. 3053 turned up.
 
+## Pass 5 (22 Sept 2026): shape-true re-transcription, about 95 % read
+
+The residue after the third pass was not in the cipher but in the transcription: the readers' one alias `ǂ` covered
+four or five distinct key signs (long hooked f = O, £ with looped foot = U/V, two-bar stroke = P, looped p-top = F,
+crossbar q = M), and the Q sign before £ had been written as Δ. A clustering pass (`pass5/cluster_REPORT.md`) showed
+it; a pilot (`pass5/pilot.md`) cut the character error rate on lines with a contemporary decipherment from 9.2 % to
+5.8 %. Every record was then re-transcribed sign by sign from the **Gallica native scans of fr. 3053**
+(ark btv1b90601432; view map in `pass5/gallica_views.md`), line baselines straightened, decoded by the key map and a
+5-gram beam under `fr-1600-letters` (`pass5/shapedec.py`), and checked against every contemporary clear text.
+
+| record | before | pass 5 | measured against |
+|---|---|---|---|
+| R4233 | ~60 % | ~95 % (1,904/2,006 letters) | four glosses: CER 8.3 % LM, ~2 % at sign level |
+| R4234 | ~75 % | ~94 % (5,369 letters) | P15 clear copy + f18v margin: CER 6.5 %; glossed lines 5.6 % |
+| R4235 | ~45 % | ~96.5 % (2,035/2,108) | P6 clear copy, P10/P11 margins, interlinear: CER 6.4 % (~0.5 % sign misreads) |
+| R4238 | ~65 % | ~94 % (767/812) | one interlinear gloss (agrees) |
+| R4239 | ~75 % | ~94 % (4,925 letters) | **ff. 37r-v are a contemporary clear copy of letter 2 (f36r L07-f38r L14)**: CER 6.1 %; f38v interlinear 3.1 % |
+| R4240 | ~85 % | ~98.5 % (829/842) | margin gloss: CER 3.8 % |
+| R4247 | ~78 % | ~98 % (letter 1 2,315/2,356; letter 2 783/784) | none; letter 2's "faded" tail is sharp on the Gallica scan |
+| R4248 | resolved | resolved | f. 86 decipherment |
+
+Most of the remaining CER against clear copies is spelling variation between the cipher and the copy (pappe/pape,
+Loys/Luis, "roy" vs "le Roy"), not misreading. **Nothing in any record is physically unreadable on the Gallica native
+scans**; the earlier "faded" lines were an artefact of the DECODE crops.
+
+New readings (details in `pass5/R<rec>_pass5.md`): R4234 names Stefano Colonna for the foot and Giovanni Battista
+Savelli for the horse, 20,000 + 10,000 + 10,000 écus, the marriages of Pier Luigi's son to duke Alessandro's widow
+and of his daughter to Cosimo de' Medici; the bishop "de Lodes" is **Lodi** (the see Simonetta held from 1536), not
+Rodez as first read; R4240 names the auditor sent to the Germans "Vuors[t]" (Peter van der Vorst, identification
+ours); R4247 letter 1 gains a whole line missed before ("l'inimitié qu'il avoit avec le dict Dorie") and its end
+(the bishop of Lodi, Verulan, Milan to be deposited with the pope, the nephews as kings of Naples and Sicily);
+letter 2 ends "il seroit icy fort difficille de recouvrer gens de cheval ne artillerie; bien trouverroit on tant de
+gens de pied, et bons, qu'on vouldroit, et beaucoup de gentilz homes forussiz"; R4235 passage D ends "ledict Vitelle
+… il n'est pas pour porter le faiz, n'ayant aussi moien de recouvrer argent"; R4233 "Le bonhomme se porte bien,
+mais il est septuagenaire et plus"; R4238 the German gentleman's quarrel "avec ung des plus grandz de sa court".
+A companion letter to the King of 15 Feb 1537 with its contemporary decipherment (BnF Dupuy 44, ff. 30-38) was
+transcribed as a content crib (`pass5/dupuy44_*.md`); it confirmed "Vitelle" and "calomnie du Turc".
+
 ## The records and what was read
 
 Images: DECODE serves the fr. 3053 scans as horizontal page-crops; they are **not in the public domain** (BnF) and
@@ -107,10 +145,10 @@ are git-ignored here (`rome1536/img/`). Per-record readings, line by line, are i
   consent. The clear text around it reports a spy set on Salviati's household, the Bohemian grant to the King of
   the Romans against the Turk, a Lutheran diet in Saxony, and the death of the marquis of Saluzzo and count
   Philippe Torniello by arquebus before Carmagnola in Holy Week.
-* **R4234 (Rome, Feb 1537), Rodez, the Farnese marriages and Pier Luigi's army.** Read for its first four pages.
+* **R4234 (Rome, Feb 1537), the bishop of Lodi, the Farnese marriages and Pier Luigi's army.** Read for its first four pages.
   Soundings on a settlement: someone is pressed to come to terms rather than declare himself an enemy; the pope
   means to wrong him through an intermediary and to bring the King to consent; cardinal Cesarini writes in the same
-  sense; the bishop of Rodez (Georges d'Armagnac, ambassador at Venice, named in a clear aside) holds that the King
+  sense; the bishop "de Lodes" — Lodi, then at Venice, whose see had passed to Cardinal Simonetta (first read as Rodez; corrected in pass 5) holds that the King
   should never consent, and the Venetians are wanted in the business. Cardinal Pisani reports on taking leave of
   the pope and on men "fort prochains et familiers" of Pier Luigi Farnese. A seigneur who got nothing from the
   pope's last distribution of benefices now despairs of the Emperor; Mâcon has cultivated him since arriving to
@@ -194,14 +232,15 @@ and per-letter confidence. Crops are made from the DECODE page-crops with PIL at
 and `img/` are git-ignored (BnF rights).
 
 ## Remaining gaps
-- residue of the read passages (R4233 ~40%, R4234 ~20%, R4235 ~20%, R4238 ~35%, R4239 ~28%, R4240 ~15%, R4247 ~20%) - blocker: illegible; barred-cross family (ǂ, £, long ƒ, ƀ) reads F/P/O/U/V/D/H/S within a line, separable only by context, and no gloss covers these groups
-- R4247 letter 2 ll. 22-27 - blocker: illegible; faded foot of P14, only fragments legible on the DECODE crop
-- proper names (Cesane, Palmier, Ambroise's surname, the Sienese gentleman) - blocker: open-codes; spelled in cipher but the letters do not settle to a known name
+- residue inside read lines, about 5 % of letters (R4233 passages 3, 4, 5, 7, 8, 9 ~100 letters; R4234 f16r L1/L3/L16/L24, f16v L2-3/L7/L9/L21/L27, f17r L4-5/L21/L23/L27/L30-31, f17v L14/L20, f18r L15-17; R4235 P7 L5 and two signs in passage B; R4238 ~45 letters; R4239 f35r L06/L24/L32, f35v L08; R4240 13 letters; R4247 ~40 letters) - blocker: illegible; ink legible on the Gallica native scans, but the sign runs are ambiguous (7 = N/B, 4 = C/R, Of/Up) and no clear copy or gloss covers them
+- R4239 short cipher runs in f36r L01-L06 and f35v L27-L31, and f38v L4 end, L8 end and the margin block (whose interlinear does not fit the signs) - blocker: illegible; not transcribed or not resolved in pass 5, no clear copy for them
+- proper names (the Sienese gentleman "For[?]", the count "Mer[?]le", Christofle's surname and two German captains in R4238, "Cesane", "Palmier") - blocker: open-codes; spelled in cipher but the letters do not settle to a known name
+- R4239 f38r L06-L07 - blocker: illegible; doubtful in the contemporary clear copy itself
 
 ## Escalation
 - [x] siblings: R4236, R4237, R4241-R4246 opened via the DECODE API: all status Decrypted, no transcription or plaintext file attached (six Rome letters to Montmorency 1535-37, one to Mâcon from Venice); outside catalogue 180 and left for a later session; every full-page view of R4234 opened (P10/P13/P14/P18 duplicate the crops; P14 = P15 clear slip used as crib)
-- [x] clear-pages: f. 86 decipherment of f. 85 found; six contemporary margin/interlinear glosses used as anchors
+- [x] clear-pages: f. 86 decipherment of f. 85; R4234 P15 (f. 18bis) and R4235 P6 clear copies; R4239 ff. 37r-v clear copy of letter 2 (found in pass 5); margins and interlinears; Dupuy 44 companion letter to the King with its decipherment
 - [x] known-keys: Mascon's cipher (Tomokiyo; Lasry 2023, gramont1529/macon_key.md); second fr. 3053 table for R4248
 - [x] print: Tomokiyo francis.htm, Lasry GL.htm, Dodieu edition (rom.uga.edu): no plaintext
 - [x] key-rebuild: key corrections from glossed lines (ꭓ = Q/U, × = N/L, Ξ = RR, 7 = N/R/B, etc.)
-- [x] retry: third pass (21 Sept) read every unread page with the corrected values (7 = N/B, 4 = C/R/T, ω = PP, Ξ = RR, ☐ = LL, ∩ = SS/P/F, ƀ = E/H/SS/Z, ʍ = U/V); remaining doubtful groups regraded above
+- [x] retry: pass 5 (22 Sept) re-transcribed every record by sign shape from the Gallica native scans and re-decoded with the key map + fr-1600-letters beam; every doubtful group retried and regraded against all contemporary clear texts

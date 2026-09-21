@@ -1577,10 +1577,13 @@
     "R4233": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "~60% read.",
+     "note": "~95% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4233.md"
+      },
+      {
+       "file": "rome1536/pass5/R4233_pass5.md"
       }
      ],
      "sent": false
@@ -1588,7 +1591,7 @@
     "R4234": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "All ~155 cipher lines read (~75%); third pass P8-P20.",
+     "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4234.md"
@@ -1601,6 +1604,9 @@
       },
       {
        "file": "rome1536/R4234_P15-P20.md"
+      },
+      {
+       "file": "rome1536/pass5/R4234_pass5.md"
       }
      ],
      "sent": false
@@ -1608,7 +1614,7 @@
     "R4235": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "All cipher read (~80%); P2-P3 and passage D (against the clear copy on P6).",
+     "note": "~96% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4235.md"
@@ -1618,6 +1624,9 @@
       },
       {
        "file": "rome1536/R4235_P8D.md"
+      },
+      {
+       "file": "rome1536/pass5/R4235_pass5.md"
       }
      ],
      "sent": false
@@ -1625,10 +1634,13 @@
     "R4238": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "~65% read.",
+     "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4238.md"
+      },
+      {
+       "file": "rome1536/pass5/R4238_pass5.md"
       }
      ],
      "sent": false
@@ -1636,7 +1648,7 @@
     "R4239": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "All passages read; P3-P15 ~72%.",
+     "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4239.md"
@@ -1646,6 +1658,9 @@
       },
       {
        "file": "rome1536/R4239_pass3.md"
+      },
+      {
+       "file": "rome1536/pass5/R4239_pass5.md"
       }
      ],
      "sent": false
@@ -1653,10 +1668,13 @@
     "R4240": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "~85% read.",
+     "note": "~98% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4240.md"
+      },
+      {
+       "file": "rome1536/pass5/R4240_pass5.md"
       }
      ],
      "sent": false
@@ -1664,13 +1682,16 @@
     "R4247": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Letter 1 ~80%, letter 2 ~75% (last six lines fragments).",
+     "note": "~98% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
        "file": "rome1536/R4247.md"
       },
       {
        "file": "rome1536/R4247_letter2.md"
+      },
+      {
+       "file": "rome1536/pass5/R4247_pass5.md"
       }
      ],
      "sent": false
