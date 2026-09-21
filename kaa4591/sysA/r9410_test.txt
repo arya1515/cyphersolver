@@ -1,0 +1,24 @@
+R9410 (KAA 4591 f.244, 1535) vs the R9368 key (sysA/key_r9368.tsv)
+
+Looked at lines 1-2 and 5-6 of f.244 (enlarged crops), plus the page overview.
+
+Signs seen on f.244 (my descriptions): ω, □ (small square), ÿ (y with two dots), ϡ/ꭓ-like hooked cross,
++, ∂, ⊓/π (very frequent), ∞/"m-bar", L, 4, 8, p (long descender), ↓ (down-arrow, very frequent),
+3/∋ (reversed-3 with bar), 5, ρ, ×(small, symmetric), Δ, ℓ (tall looped l), γ, ‡/# (double cross ++),
+"4o", 9, o, ≠-like.
+
+Coverage by the R9368 key (shape match only):
+  plausibly the same sign: ω (=w, l), 8 (i), 9 (i), 3 (e) [f.244's form is mostly a reversed ∋, doubtful],
+  "4o" (=r4, r), Δ (=tri/dl, n), o (=b), ‡/# (=hash, ch; but f.244's is ++ upright, doubtful).
+  NOT in the R9368 repertoire at all: ↓, ⊓/π, ÿ, □, ϡ, p, L, 5, ρ, ∂(as a stand-alone), ℓ, γ, small ×.
+  Conversely the R9368 staples T(n), F(a), v/√(e), Ω(u), φ(t), Ψ(t), H(h), N/M(d), ⊙(w), Yo(und) do not occur,
+  or not visibly, on f.244.
+
+Decode test (unknown signs = ?):
+  f.244 line 1: ω □ ÿ ϡ + ∂ π ∞ L 4 8 π p ℓ ω 3 ↓ ...
+      -> l ? ? ? ? ? ? ? ? ? i ? ? ? l e ? ...
+  f.244 line 6: ᛗ 5 ∋ 4 8 ∋ o 5 ∂ π 4 8 4o ∋ 5 × ω γ π ÿ ϡ ++ □
+      -> ? ? e? ? i e? b ? ? ? ? i r e? ? ? l ? ? ? ? ch? ?
+  Result: no German; ~75% of tokens unknown, and the few matched values give no word. The R9368 key does not
+  read f.244. f.244 uses a different (though graphically kindred) alphabet: the frequent ↓ and ⊓ are
+  the obvious candidates for e/n, but that is untested, not a reading.

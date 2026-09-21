@@ -54,5 +54,10 @@
   "sv-modern": {"language": "sv", "period": "1800-1920", "norm": "modern", "order": 5, "spaces": true, "sources": ["sv-gutenberg"], "use_for": "Swedish", "replaces": []},
   "pl-modern": {"language": "pl", "period": "1800-1920", "norm": "modern", "order": 5, "spaces": true, "sources": ["pl-gutenberg"], "use_for": "Polish", "replaces": []},
   "hu-modern": {"language": "hu", "period": "1800-1920", "norm": "modern", "order": 5, "spaces": true, "sources": ["hu-gutenberg"], "use_for": "Hungarian", "replaces": []},
-  "cy-modern": {"language": "cy", "period": "1800-1920", "norm": "modern", "order": 5, "spaces": true, "sources": ["cy-gutenberg"], "use_for": "Welsh", "replaces": []}
+  "cy-modern": {"language": "cy", "period": "1800-1920", "norm": "modern", "order": 5, "spaces": true, "sources": ["cy-gutenberg"], "use_for": "Welsh", "replaces": []},
+
+  "de-1500s": {"language": "de", "period": "1470-1610", "norm": "early", "order": 5, "spaces": true,
+    "sources": ["de-dta-1470-1610"], "language_id": false,
+    "use_for": "16th-century German plaintext (ducal and imperial chancery letters); i/j and u/v merged",
+    "replaces": []}
 }

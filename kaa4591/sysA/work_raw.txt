@@ -1,0 +1,113 @@
+P1 L1 c0: o=b v=e x=s wb=o T=n V=d 3=e r4=r | w=l 9=i v=e o=b [flourish]
+P1 L2 c0: w=l 9=i hash=ch v=e dl=n | w=l 9=i v=e o=b 3=e T=n
+P1 L3 c0: T=n v=e x=s | 8=i dl=n H=h F=a w=l phi=t x=s | Om=u
+P1 L1 c1: o=b hook=e r4=r | cd=w 9=i ne=r | H=h F=a o=b 3=e T=n | Om=u T=n
+P1 L2 c1: (T=m liebem) H=h 3=e ne=r r4=r T=n | Yo=und | Om=v v=e Psi=t phi=t 3=e ne=r T=n
+P1 L3 c1: Om=v v=e ne=r T=n wb=o m2=m 3=e T=n | aux=auch | 8=i ne=r?
+P1 L1 c2: T=n x=s 3=e r4=r | fo=f ne=r Om=u T=n phi=t
+P1 L2 c2: T=n | sch=sch r4=r v=e 9=i o=b 3=e T=n | x=s 3=e 9=i
+P1 L3 c2: w=l 8=i v=e o=b N=d 3=e dl=n | tc=u v=e r4=r
+P1 L4 c0: dl=n 3=e ne=r | Om=u T=n x=s 3=e r4=r | o=b v=e M=d 3=e
+P1 L5 c0: 9=i T=n | M=d 3=e ne=r | x=s F=a hash=ch v=e T=n | F
+P1 L6 c0: Om=u T=n x=s | Dl=n lam=o hash=ch | m2=m F=a ml=l w=l
+P1 L4 c1: 3=e T=n ob=c of=k H=h 3=e T=n | Yo=und | fo=f Om=u ne=r x=s
+P1 L5 c1: H=h F=a o=b v=e T=n | sq=a Om=u 4b=ß | cd=w F=a x=s
+P1 L6 c1: w=l 3=e T=n | ph=f Om=u ne=r | gg=g tc=u Psi=t phi=t | F=a T=n x=s v=e
+NOTE: ne = slanted stroke with two bars (4-like, gloss r); gg = upright double-barred stroke ‡/≠ (gloss g)
+P1 L4 c2: x=s wb=o r4=r gg=g | tc=s? lam=o | o=b(w?) 9=i ne=r   ("fursorg so wir")
+P1 L5 c2: x=s Om=u ne=r x=s F=a hash=ch 3=e T=n
+P1 L6 c2: x=s v=e hash=ch 3=e | Om=u T=n x=s | z2o=z tc=u
+P1 L7 c0: 9=i ne=r | w=l 8=i v=e o=b N=d 3=e T=n | F=a 9=i T=n | ne
+P1 L8 c0: M=d v=e r4=r | H=h F=a w=l o=b 3=e T=n | 8=i x=s phi=t
+P1 L9 c0: F=a T=n | z=e Om=u hash=ch | cd=w v=e ml=l w=l 3=e phi=t
+FIX P1 L4 c2 cross is upright cr=s
+NOTE: cr = upright plain cross + (gloss s); tc = small tilted cross (gloss u)
+P1 L7 c1: ne=r 9=i phi=t Psi=t | H=h 8=i T=n F=a Om=u x=s | z2o=z
+P1 L8 c1: Om=u T=n cr=s v=e r4=r | gg=g 3=e T=n v=e N=d 8=i gg=g x=s
+P1 L9 c1: o=b v=e 9=i | Om=u T=n x=s | v=i? r4=r | T=n Om=u 3=e Psi=t
+NOTE: cross upright/tilted not reliably distinct -> single code cr (values u and s both seen)
+P1 L7 c2: Om=u | fo=f cr=u ne=r N=d 3=e ne=r dl=n
+P1 L8 c2: gg=g x=s gg=g v=e x=s 9=i T=n Dd=d 3=e T=n   (Dd = delta with tall looped stroke, gloss d)
+P1 L9 c2: Psi=t phi=t | v=e r4=r T=n cr=u 3=e ne=r | H=h wb=o w=l
+P1 L10 c0: fh=h? v=e T=n | x=s 3=e 9=i T=n | M=d F=a m2=m 9=i     (fh = large looped script f/ʃ with lower loop)
+P1 L11 c0: phi=t? 3=e dl=n | F=a T=n phi=t cd=w Om=u ne=r Psi=t | z2o=z
+P1 L10 c1: 9=i phi=t | Om=u T=n x=s | z2o=z Om=u m2=m | fo=f cr=u ne=r
+P1 L11 c1: Om=u | gg=g v=e sch=sch ne=r 9=i o=b 3=e T=n | cd=w 3=e ne=r N=d
+P1 L10 c2: ne=r | N=d v=e r4=r w=l 9=i hash=ch 8=s? x=t?   ("furderlichst", gloss over 8/x unclear)
+P1 L11 c2: N=d v=e | Om=u T=n x=s | [CLEAR word in plain script, looks "Donnerstag"/"Dornnach"]
+P1 L12 c0: [CLEAR word, cursive, looks "gewissen"?] | z2o=z cr=u | H=h F=a w=l phi=t 3=e
+P1 L13 c0: 3=e x=s | phi=t F=a Psi=t | x=s 8=i hash=ch | T=n 9=i Psi=t
+P1 L14 c0: x=s F=a hash=ch | cd=w wb=o w=l phi=t z=e r4=r | z2o=z
+P1 L12 c1: phi=t 3=e T=n | Yo=und | cd=w wb=w? | sch=sch lam=o T=n | of=k F=a 9=i x=s
+P1 L13 c1: [CLEAR word, cursive, "Bonnutz"/"Pommer.."?] | h4=g v=e dl=n 3=e N=d 9=i gg=g     (h4 = 4-like sign with extra vertical ⊢|)
+P1 L14 c1: z2o=z F=a 9=i gg=g 3=e T=n | 9=i x=s phi=t | Om=u T=n cr=s v=e
+FIX: the row "x 3 ne w 8 hash v m2 F 9" belongs to L12 c2 (kaiserliche mai-)
+P1 L12 c2: x=s 3=e ne=r | w=l 8=i hash=ch v=e | m2=m F=a 9=i
+P1 L13 c2: gg=g ob=? w=l 8=i hash=ch | 9=i T=n | N=d 3=e t3=s    (t3 = upright stroke with three bars 丰, gloss s)
+P1 L14 c2: cr=s v=e ne=r | x=? 3=e r4=r F=a hash=ch phi=t v=e
+P1 L15 c0: T=n x=s | M=d v=e r4=r | cr=s F=a hash=ch 3=e dl=n | T
+P1 L16 c0: M=d F=a m2=m 9=i phi=t | cd=w 9=i ne=r | 8=i T=n Om=u
+P1 L15 c1: T=n lam=o hash=ch | gg=g Om=u Psi=t phi=t | v=e r4=r | ne=n? F=a
+P1 L16 c1: Om=u Dl=n x=s | v=e ne=r T=n | F=a T=n w=l 9=i gg=g v=e dl=n N=d
+P1 L15 c2: F=a Psi=t phi=t? | m2=z? cr=u | ph=f 9=i T=n N=d 3=e T=n
+P1 L16 c2: N=d 3=e T=n | x=s F=a hash=ch 3=e T=n | z=e ne=z?
+P1 L17 c2: phi=t 3=e T=n | cd=w 9=i v=e | N=d F=a T=n
+P1 L17 c0: gg=g v=e phi=t z2o=z w=l 9=i hash=ch F=a 8=i Psi=t | z
+P1 L18 c0: x=s lam=o T=n N=d 3=e r4=r | x=s z2o=z cd=w v=e 9=i
+P1 L17 c1: z=e r4=r w=l F=a T=a? gg=s? v=e dl=n | m2=m lam=o hash=ch   ("erlassen", glosses over T/gg unclear)
+P1 L18 c1: 9=i | fh=h? 3=e w=l cr=s | Om=u T=n x=s | v=e ne=r 3=e | H=h
+P1 L18 c2: H=h z=ie? ne=r | r4=r T=n | Yo=und | Om=v v=e Psi=t phi=t 3=e
+P1 L19 c0: hash=? T=n Om=u ob2=ls? | [CLEAR word(s), cursive, look like "Dero hofen"/"Drohofen"]   (ob2 = o with long horizontal bar crossing a stroke, -+o)
+P1 L20 c0: Om=u dl=n x=s | 9=i T=n x=s | lx=? w=l ml=l 9=i hash=ch   (lx = heavy lambda crossed by slash, ʎ-like)
+P1 L19 c1: [end of clear] | Yo=und | ph=f Om=u ne=r x=s phi=t w=l 9=i hash=ch 3=e T=n
+P1 L20 c1: hash=ch v=e m2=r? | cd=w wb=o ml=l w=l | cd=w v=e ne=r M=d
+P1 L19 c2: T=n | Om=v 3=e r4=r x=s F=a T=n N=d
+P1 L20 c2: M=d 3=e T=n | tri=w 9=i ob2=ss v=e T=n | z2o=z cr=u    (tri = closed triangle Δ, gloss w; ob2 = -+o, gloss ss)
+FIX P1 L20 c0: lx=b ("billich": lx w ml 9 hash = b l l i ch)
+P1 L21 c0: ne=r F=a Psi=t phi=t 3=e dl=n | M=d F=a ne=r | z2o=z Om=u
+P1 L21 c1: Om=u | cd=w 9=i ne=r | Om=u T=n x=s | h4=g v=e gg=g 3=e T=n
+P1 L21 c2: T=n | z=e Om=u hash=ch | Yo=und | M=d lam=o ob=c phi=t
+P1 L22 c0: wb=o ne=r | z=e ob=c of=k H=h v=e T=n | h4=g 3=e
+P1 L23 c0: Om=v v=e r4=r x=s 3=e hash=ch z=e dl=n | phi=t H=h Om=u
+P1 L22 c1: 3=e T=n phi=t z2o=z w=l 9=i hash=ch v=e T=n | aux=auch
+P1 L23 c1: Om=u v=e dl=n | [CLEAR word(s), cursive, "Cu..eomung..."]
+P1 L22 c2: z2o=z Om=u | ne=r F=a Psi=t phi=t 3=e T=n
+P1 L23 c2: [end CLEAR] | hh=h ir=i T=n cd=w 9=i N=d 3=e ne=r    (hh = upright post with two bars and left hook ╤; ir = horizontal bar ending in small r-curl)
+P1 L24 c2: Psi=t phi=t v=e m2=m | tri=n 9=i phi=t | Om=v v=e r4=r
+P1 L24 c0: star=g v=e h4=g? 3=e T=n | z=e Om=u hash=ch | 3=e ne=r | o..   (star = asterisk-like cross ✱)
+P1 L25 c0: HH=g? 3=e ob2=ff v=e tri=n | Yo=und | [CLEAR "was aber"]   (HH = heavy H with extra crossbar/post)
+P1 L26 c0: T=n gg=g | x=s v=e 9=i T=n | cd=w Om=u ne=r M=d z=e
+P1 L24 c1: of=k H=h v=e T=n dl=n 3=e T=n | Yo=und | gg=g Om=u Psi=t
+P1 L25 c1: [CLEAR cont. "aber Je"] | 8=i r4=r | w=l 9=i v=e o=b M=d 3=e dl=n | ne
+P1 L26 c1: z=e | Om=u T=n x=s | w=l v=e T=n gg=g 3=e r4=r
+P1 L25 c2: ne=r F=a Psi=t phi=t | Yo=und | m2=m F=a 9=i T=n Om=u
+P1 L26 c2: 9=i dl=n | fo=f ne=r F=a T=n ob=c of=k
+P1 L27 c0: r4=r v=e 9=i hash=ch | z2o=z Om=u | cr=n? v=e r4=r | H=h F
+P1 L28 c0: gg=g 3=e x=s 9=i T=n Dd=d v=e T=n | F=a dl=n | z=e
+P1 L27 c1: H=h F=a r4=r ne=r 3=e T=n | 9=i x=s phi=t | Om=u T=n x=s
+P1 L28 c1: z=e Om=u hash=ch | cd=w v=e w=l ml=l 3=e phi=t | Om=u
+P1 L27 c2: x=s 3=e r4=r | gg=g v=e Dd=n 3=e M=d 9=i gg=g x=s
+P1 L28 c2: T=n x=s | cr=u Dd=n cr=s 3=e r4=r | z=e r4=r F=a
+P1 L29 c0: Om=?(gloss blotted, a/u) hash=ch z=e r4=r lam=o ob=c of=k H=h x=s wb=o
+P1 L29 c1: cd=w (blot)=? r4=r | Om=u T=n x=s v=e r4=r x=s | H=h
+P1 L29 c2: H=h v=e ne=r r4=r T=n | Om=v 3=e phi=t Psi=t v=e r4=r (+ faint trailing signs)
+P2 L1 c0: ob=t H=h v=e m2=m ang=m 3=e r4=r w=l 9=i T=n gg=g N
+P2 L2 c0: H=h F=a o=b 3=e T=n | gg=g 3=e o=b v=e T=n | wb=w lam=o
+P2 L1 c1: M=d z=e m2=m | ob=c r4=r 9=i x=s phi=t lam=o ...   ("dem christo..")
+P2 L2 c1: wb=w lam=o ml=l w=? z=e 9=i T=n gg=g v=e o=b F=a gg=?   ("wol ein geba..")
+P2 L1 c2: lb=? | z2o=z Om=u(gloss 'g'?) o=b v=e | cd=w F=a ?=r 3=e T=n   ("zu geben waren", alignment uncertain)
+P2 L2 c2: F=a gg=g phi=t | M=d 3=e m2=m | H=h F=a ...
+P2 L3 c0: m2=m F=a T=n | z2o=z Om=u | sch=sch 9=i ob=c of=k ...   (sch = double-barred upright with loop at foot)
+P2 L3 c1: of=k 3=e dl=n | 9=u? m2=m v=e | M=d F=a o=b v=e ...   (gloss "um" spans 9+m2)
+P2 L3 c2: v=e 9=i | sch=sch r4=r 3=e 9=i o=b v=e T=n | Om=u T=n (M)   ("dabei schreiben und")
+P2 L2 c2 tail: H=h F=a T=n x=s o=b 3=e (r4)=r   ("hansober..")
+P2 L4 c0: cr=s lam=o ml=l w=l 9=i hash=ch 3=e | F=a Om=u fh=f   ("solliche auf")
+P2 L5 c0: of=k Om=u T=n 9=i gg=g ob=c w=l 9=i hash=ch   ("kunigclich")
+P2 L4 c1: N=d F=a x=s | lb=f Om=u ne=r | N=d 3=e r4=r | cd..   ("das fur der")  (lb = vertical stroke with small loop on it, lollipop)
+P2 L5 c1: hash=ch 3=e T=n | H=h lam=o fh=ff | F=a Om=u fh=ff | cr=u..   ("hoff auff")
+P2 L4 c2: cd=? 9=? hash=ch | 8=i x=s phi=t | F=a T=n Dd=d N..   ("..ch ist and..")
+P2 L5 c2: cr=u T=n x=s v=e r4=r | tri=n ob=?(gloss ch/sch?) H=h lam=o x=s   ("unser n..hos..")
+P2 L6 c0: phi=t 3=e dl=n | z2o=z Om=u | Wz=z cr=u | sch=sch 9=i ob=c ...   ("ten zu zu schic..") (Wz = W with long slash through right stroke)
+P2 L6 c1: ob=c of=k H=h 3=e T=n | M=d F=a T=n(gloss looks 'h'?) | cd=w ...   ("..cken dan w..")
+P2 L7 c2: cd=w 9=i r4=r | gg=g F=a ne=r | eps=p w=? lam=? fh=? ..   ("wir gar pel(l)..", eps = open curly ε/ℇ sign, gloss p; alignment of e/l glosses uncertain)
+P2 L8 c0: F=a T=n | cd=w 9=i dl=n phi=t Psi=t 3=e r4=r | ne=r wb=o ..   ("an wintter ro..")

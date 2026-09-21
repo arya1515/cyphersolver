@@ -4,6 +4,7 @@ Each source is resolved to lang/corpora/<id>.txt (git-ignored). A recipe may giv
     gutenberg  [ids]      Project Gutenberg plain text, header and licence stripped
     ia         [ids]      Internet Archive full text (<id>_djvu.txt)
     url        [urls]     any plain-text URL
+    dta        [ids]      Deutsches Textarchiv plain text (book/download_txt/<id>), cookie gate passed, markup cleaned
     local      [globs]    files a target already downloaded, relative to the repository root
 'local' is tried first, so nothing is downloaded twice. Because corpora are git-ignored they exist only in the
 checkout that fetched them: set CYPHER_CORPUS_ROOTS (os.pathsep-separated) to search other checkouts too.
@@ -40,6 +41,17 @@ def _get(url):
     raise RuntimeError(f'{url}: {err}')
 
 
+def clean_dta(t):
+    t = re.sub(r'\[\d{4}\]|\[Abbildung[^\]]*\]', ' ', t)
+    t = t.replace('¬\n', '').replace('ſ', 's').replace('ꝛ', 'r').replace('ͤ', 'e')
+    return re.sub(r'-\n(?=[a-zäöü])', '', t)
+
+
+def _get_dta(i):
+    req = urllib.request.Request(f'https://www.deutschestextarchiv.de/book/download_txt/{i}', headers={**UA, 'Cookie': 'verified=1'})
+    return clean_dta(urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace'))
+
+
 def _local(globs):
     for root in _roots():
         hits = {g: sorted(glob.glob(os.path.join(root, g))) for g in globs}
@@ -66,6 +78,8 @@ def fetch(sid, force=False):
             parts.append(_get(f'https://archive.org/download/{i}/{i}_djvu.txt'))
         for u in src.get('url', []):
             parts.append(_get(u))
+        for i in src.get('dta', []):
+            parts.append(_get_dta(i))
     if not parts:
         raise RuntimeError(f"source {sid}: no local copy found and no remote recipe; see its 'note' in sources.json")
     os.makedirs(STORE, exist_ok=True)

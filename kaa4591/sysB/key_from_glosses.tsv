@@ -1,0 +1,22 @@
+sign	letter	count	conflicting_letters
+3	i	117	
+X	e	95	r:1
+O+	s	79	
+U2	u	66	v:1 n:1 a:1
+OD	a	66	
+N	n	63	
+O	m	59	a:1
+M	o	55	i:1
+AST	r	50	e:1
+HH	t	48	
+W	c	35	t:8
+D	d	34	q:1
+EQ	p	23	
+9	l	20	
+B	b	13	
+Z	g	13	
+Q	q	12	
+EQs	f	5	b:1
+H	h	3	
+XH	x	3	
+T	f	2	

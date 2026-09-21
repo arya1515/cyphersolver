@@ -1,0 +1,21 @@
+R9325 = BayHStA KAA 4591 f.129, key = R9324 (f.124-127, same volume). Latin. {} = code sign from R9324 nomenclator, [n] = null.
+Transcription (ASCII: x=a t=b o=c p=d z=e(small 2) T=t(long-tail Z) R=r(b-hook/8) D=p(delta) Q=q(looped delta) S=s(Lambda) L=l(barred b)
+ C=cc  Y=ss(m with tail) g,[o],[sq],[H],[W],[8] nulls; 7 = Tironian et in clear)
+
+1 DRcTzSTxTwS xvxS [sq] SzoRTc ocxoTwd [o]      protestatus abbas . secreto coactum .
+2 xp LaTzd [H] xCzDTxRz {Pontifex} [8] ainataTacizd   ad litem . acceptare Pontificis . inhibitionem
+3 RcyxTwS {Pontifex} [W] wT ociTRxpaczipc Sz      Rogatus Pontifex . ut contradicendo se
+4 aiTzRDcixT pzcLxRzT g Saz Dciz? -> siwz Sdcize  interponat declaret . siue sponte
+5 Saws wa ociTRx ocicizS zYz [sq]                siue ui contra canones esse .
+6 Sa ap kaxT {Abbas Fuld.} xyzRz ozYxT 7 owd {Pontifex}   si id fiat Abbas agere cessat et cum Pontifice
+7 LaTayxtaT xp [o] owd ici DcYaT {Consiliarii Caes.}      litigabit ad . cum non possit Consiliarii Caesaris
+8 awpaoxtwiT xwT {Pontifex} Twd g kxoaT          iudicabunt aut Pontifex tum . facit
+9 Qcp axd wcLwap                                 quod iam uoluit(uoluid)
+10 RcyxTwS {Dux Bavariae} awXaLac SaT {Nuncius Ap.} SwxpzxT {Pontifex}   Rogatus Dux Bavariae auxilio(iuxilio) sit Nuncius suadeat Pontifici
+11 aTx xp DRcTzoTacizd wax                       ita ad protectionem uia(?)
+
+Plain (normalised):
+Protestatus [est] abbas secreto coactum [se] ad litem acceptare Pontificis inhibitionem. Rogatus Pontifex ut contradicendo se
+interponat, declaret sive sponte sive vi contra canones esse. Si id fiat, Abbas agere cessat et cum Pontifice litigabit; ad
+[quod] cum non possit, Consiliarii Caesaris iudicabunt, aut Pontifex tum facit quod iam voluit. Rogatus Dux Bavariae auxilio sit;
+Nuncius suadeat Pontifici ita ad protectionem via[m].
