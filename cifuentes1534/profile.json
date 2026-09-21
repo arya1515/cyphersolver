@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "target": "cifuentes1534",
+ "title": "Count of Cifuentes (Rome) to Charles V, 3 Sept 1534, AGS Estado leg. 862 ff. 53-54 (DECODE R9963)",
+ "documents": [
+  {
+   "id": "R9963",
+   "shelfmark": "AGS, Estado, leg. 862, ff. 53-54 (DECODE R9963)",
+   "date": "3 Sep 1534",
+   "year": 1534,
+   "country": "Italy",
+   "route": "Count of Cifuentes (imperial ambassador, Rome) to Charles V",
+   "language": "Spanish",
+   "pages": 6,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "contemporary decipherment bound as f. 54 (DECODE image 5); one marginal gloss on f. 53r",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "not transcribed; DECODE images viewed",
+    "image_quality": "good",
+    "notes": "About 36 cipher lines on ff. 53r-54r."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "syllabic"
+  ],
+  "summary": "Base signs with superscript digits for the vowel/syllable (1530s Charles V Rome type); Spanish.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "No key table built."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "contemporary decipherment bound as f. 54 of the same letter",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "literature search",
+   "what": "Grepped Tomokiyo's AGS Estado page (spanish2C_now.htm) for R9963 and Cifuentes.",
+   "result": "failed"
+  },
+  {
+   "kind": "access",
+   "what": "Fetched the 6 DECODE images with the shared cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Viewed every page: image 5 (f. 54r) is a decipherment in a secretary's hand; f. 53r has a marginal gloss of the struck first cipher line.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "The decipherment keeps the letter's clear islands ('y en este proposito me dixo que havia un mes que le', 'Tambien') at the matching places; the same cipher run stands for 'dixo el embax[ador]' in both passages.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Read at the time; decipherment bound as f. 54. Catalogue entry 205 removed; no write-up."
+ }
+}

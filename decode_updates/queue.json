@@ -4438,6 +4438,26 @@
      "sent": false
     }
    }
+  },
+  "cifuentes1534": {
+   "writeup": null,
+   "key": null,
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R9963": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: image 5 (AGS Estado 862 f. 54r) is the contemporary decipherment of the cipher on ff. 53r-54r; marginal gloss on f. 53r. Letter dated Rome, 3 Sept 1534.",
+     "reading": [
+      {
+       "file": "cifuentes1534/NOTES.md",
+       "section": "## The document"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
