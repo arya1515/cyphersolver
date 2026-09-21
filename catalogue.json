@@ -7086,41 +7086,6 @@
    "scored": "rule"
   },
   {
-   "id": 228,
-   "counted": true,
-   "year": 1801,
-   "date": "31 Jan 1801",
-   "title": "Etienne Bourdeaux, Batavian emissary in Berlin (Berlin) to Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen",
-   "correspondents": "Etienne Bourdeaux, Batavian emissary in Berlin → Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen",
-   "place": "Berlin, Prussia",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1801-1900",
-   "shelfmark": "NA The Hague, 02.01.08., Ministerie van Buitenlandse Zaken, 1796-1810, inv. nr. 257",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1944: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The nomenclator is likely to be devised by S.E. Croiset.",
-   "why": "Ciphered letter of Etienne Bourdeaux, Batavian emissary in Berlin to Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen, 31 Jan 1801; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1944",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1944"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1944
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 229,
    "counted": true,
    "year": 1620,

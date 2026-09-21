@@ -39,6 +39,7 @@
   "dirk van hogendorp to maarten van der goes, 5 july 1803": "2026-09-20",
   "d’affry from the hague to rouillé and bernis, 1757–58": "2026-09-19",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
+  "etienne bourdeaux to maarten van der goes, 31 january 1801": "2026-09-21",
   "ferdinand iii, 1634–40": "2026-09-15",
   "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
   "feuquières to catinat, 1691": "2026-09-15",
@@ -192,7 +193,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "9290317d4c26",
+   "hash": "0507fb0f995d",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -322,7 +323,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "8a35cfada30c",
+   "hash": "5501554c1fb2",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -444,6 +445,11 @@
    "first": "2026-09-20",
    "hash": "ce7b49a5ed71",
    "updated": "2026-09-20"
+  },
+  "r1944": {
+   "first": "2026-09-21",
+   "hash": "a6fe55699c09",
+   "updated": "2026-09-21"
   },
   "raince": {
    "first": "2026-09-17",
@@ -612,7 +618,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6cdae9006202",
+   "hash": "c7298e2bcb43",
    "updated": "2026-09-21"
   },
   "yard1699": {

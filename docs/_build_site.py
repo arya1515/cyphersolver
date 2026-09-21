@@ -520,6 +520,11 @@ PAGES = [
          blurb='DECODE lists three ciphered letters of the Dutch envoy at Berlin as non-decrypted. The French despatches of December 1787 and March 1788 are in William V&rsquo;s Grand Chiffre of 1782 (DECODE R1024), confirmed on a control letter with known plaintext; the digits the DECODE transcription left under one catch-all sign were resolved with a French language model. They report the King of Prussia&rsquo;s refusal to guarantee the Dutch possessions overseas in the 1788 alliance, and Russian and Austrian moves in the Turkish war. The 1793 letter to the Secret Committee is in another, marked three-digit code and stays unread.',
          quote='&ldquo;le Roi a dit qu&rsquo;il ne pouvoit pas garantir nos possessions d&rsquo;outre-mer&rdquo;',
          rights='Manuscript image: Nationaal Archief, The Hague, via DECODE R1026'),
+    dict(slug='r1944', label='Bourdeaux 1801', year='1801', y=1801.1, place='Berlin &rarr; The Hague', st='found', stt='clear copy found',
+         title='Bourdeaux to Van der Goes, 31 January 1801 &mdash; the clear copy, misfiled under another record',
+         blurb='DECODE lists R1944, the Batavian charg&eacute; Bourdeaux&rsquo;s ciphered dispatch no. 16 from Berlin, as non-decrypted. Its clear copy is the third image of the next record, R1946, on the following folio (294, 295). It reports that the Danish diplomat Rosenkrantz, sent away from Petersburg, blamed a servant who copied his cipher, while the Prussian envoy Lusi said the desk holding it had been forced. The code groups are not yet aligned to the text.',
+         quote='&ldquo;dat het bureau, waar in zyn Cyffer was, is geforceerd geworden&rdquo;',
+         rights='Manuscript images: Nationaal Archief, The Hague, via DECODE R1944 and R1946'),
     dict(slug='r1942', label='Hogendorp 1803', year='1803', y=1803, place='St Petersburg &rarr; The Hague', st='found', stt='subject identified',
          title='Hogendorp to Van der Goes, 5 July 1803 &mdash; the Van Suchtelen channel identified from print',
          blurb='DECODE R1942 is Hogendorp&rsquo;s ciphered dispatch no. 12, listed as non-decrypted with its subject unknown. Sillem&rsquo;s 1890 biography says that, after Vorontsov rebuffed him, Hogendorp sought to reach Alexander I through the Dutch-born Russian general Van Suchtelen; its footnote names the source as the ciphered dispatch of the same day, no. 12. The matching 1803 codebook is DECODE R1035. The subject is secure, but the 286 groups have not yet been aligned to an exact plaintext.',
@@ -605,6 +610,7 @@ IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philiber
 IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch of 29 December 1787, first page: the gloss dites &hellip; avant hier over the first groups, 2750 &hellip; 2578 3350', 'Nationaal Archief, The Hague, via DECODE R1026')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['nevers1589'] = ('nevers1589_lead.jpg', 'BnF Fran\u00e7ais 3977 f. 318: the Recueil sommaire of letters written in cipher by the King\u2019s enemies, September and October 1589 \u2014 a digest in clear French, the cipher itself elsewhere', 'Biblioth\u00e8que nationale de France')
+IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
 
 SURVEYS = ('famous', 'solved')
