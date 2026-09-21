@@ -6114,46 +6114,6 @@
    "scored": "rule"
   },
   {
-   "id": 229,
-   "counted": true,
-   "year": 1620,
-   "date": "1 Feb 1620 – 4 May 1620",
-   "title": "Cornelis Haga (1578-1654),  Dutch ambassador in the Ottoman Empire (Constantinople) to HHMo (Heeren Hoogmogenden der Staten Generaal), 2 ciphertexts",
-   "correspondents": "Cornelis Haga (1578-1654),  Dutch ambassador in the Ottoman Empire → HHMo (Heeren Hoogmogenden der Staten Generaal)",
-   "place": "Constantinople, Ottoman Empire",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1611-1650",
-   "shelfmark": "NA The Hague, 1.01.02 (Staten-Generaal), inventaris nummer 6894 (2 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R2113–R2115 (2 records): Non-decrypted, 7 pp., nomenclator, simple substitution; graphic signs, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R2118 (1620). DECODE note: The use of zodiacal and alchimisitc signs for codegroups in a cipher is quite uncommon in the Netherlands. [insert pointers to record numbers: 2114, 2115, 2118 ]",
-   "why": "Ciphered despatches of Cornelis Haga (1578-1654),  Dutch ambassador in the Ottoman Empire to HHMo (Heeren Hoogmogenden der Staten Generaal), 1 Feb 1620 – 4 May 1620; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2113",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2113"
-    },
-    {
-     "label": "DECODE R2115",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2115"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2113,
-    2115
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 230,
    "counted": true,
    "year": 1803,

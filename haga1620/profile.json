@@ -1,0 +1,178 @@
+{
+ "schema_version": 1,
+ "target": "haga1620",
+ "title": "Cornelis Haga (Constantinople) to the States General, Feb-May 1620, NA The Hague 1.01.02 inv. 6894 (DECODE R2113, R2115; key R2118)",
+ "documents": [
+  {
+   "id": "R2113",
+   "shelfmark": "NA The Hague, 1.01.02 (Staten-Generaal), inv. nr. 6894 (DECODE R2113)",
+   "date": "1 Feb 1620 and 31 Mar 1620",
+   "year": 1620,
+   "country": "The Netherlands",
+   "route": "Constantinople -> The Hague",
+   "language": "Dutch",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; DECODE status Non-decrypted, no transcription file on the record (checked 2026-09-21)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "R2113_reading.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE PNG scans, 5472x3648, photographed sideways; read from rotated crops",
+    "image_quality": "good",
+    "notes": "The three scans are two letters: p.1 is the clear close of 1 Feb 1620, pp.3+2 (that order) a letter of 31 Mar 1620 whose first page is not in the scans. The clear Dutch was read for sense, not transcribed verbatim."
+   }
+  },
+  {
+   "id": "R2115",
+   "shelfmark": "NA The Hague, 1.01.02 (Staten-Generaal), inv. nr. 6894 (DECODE R2115)",
+   "date": "24 Apr 1620 and 4 May 1620",
+   "year": 1620,
+   "country": "The Netherlands",
+   "route": "Constantinople -> The Hague",
+   "language": "Dutch",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; DECODE status Non-decrypted (checked 2026-09-21)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "R2115_reading.md"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE PNG scans, 5472x3648, photographed sideways; read from rotated crops",
+    "image_quality": "good",
+    "notes": "Scans are bound out of order (p.3, p.2, p.4, p.1) and hold two despatches, 24 Apr and 4 May 1620."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic",
+   "nomenclator"
+  ],
+  "summary": "Simple substitution on a 24-sign alphabet of Latin-looking signs, used for spans inside otherwise clear Dutch, with a 116-entry numeric nomenclator written in parentheses.",
+  "symbol_kind": "letters",
+  "distinct_symbols": 24,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 116,
+   "kinds": [
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": false,
+   "count": 0
+  },
+  "key_order": "random",
+  "word_division": "kept",
+  "doubled_letters": "written twice; ij written as two i-signs",
+  "sibling_key": "none used",
+  "notes": "The key is DECODE R2118, from the same inventory number. Its m cell is off the photographed sheet; m was recovered from the letters as the 4-shaped sign. Nomenclator codes 37-45 are in a column cut off by the photograph's edge. DECODE's record note calls the signs zodiacal and alchemistic; they are not."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE lists R2113 and R2115 as Non-decrypted and carries no plaintext for them; no edition of these two despatches found",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the target with /goal. No target-specific intervention.",
+  "tools": [
+   "PIL (rotation and crops)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Pulled the DECODE metadata for R2113-R2118 through the JSON API and fetched the 15 page images with the session cookie; found R2118 is the key for the series and R2114 already marked Decrypted.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Read the alphabet table off the two key pages of R2118; the signs are Latin letter shapes standing for other letters (e = 7, r = d, s = z, n = t, t = long s).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Tested the alphabet on the first cipher words of R2113 p.2: arbeiden, tusschen, suspensie, de turcken.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed and deciphered the cipher spans of R2113 and R2115 from rotated crops, in two parallel passes.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "prediction",
+   "what": "The key's m cell is not on the photographed sheet; m was inferred as the 4-shaped sign and confirmed in becomen, met, mijn, vermogen, teenemael, geconformeert.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read the nomenclator list off R2118 and resolved the codes used in the letters.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Code values check against context: [19] Buda, [62] Transylvania, [70] Spain, [3] Vizier Azem, [4] Capitan Bassa, [7] Mufti, [58] the States General, [43] the Emperor's ambassador. [50] does not fit its key line and stays open; 37-45 rest on inferred order.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Both catalogued ciphertexts read in sense; a handful of short cipher words and the code [50] stay open, and the clear Dutch was read for sense rather than transcribed verbatim."
+ }
+}

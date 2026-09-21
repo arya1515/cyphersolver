@@ -40,6 +40,7 @@
   "chinese gold bars, 1933": "2026-09-15",
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
+  "cornelis haga at constantinople to the states general, february–may 1620": "2026-09-21",
   "debosnys, 1882–83": "2026-09-15",
   "dinteville to nevers, 3 july 1592": "2026-09-21",
   "dirk van hogendorp to maarten van der goes, 5 july 1803": "2026-09-20",
@@ -216,7 +217,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "6fab9cbe4a53",
+   "hash": "4c78ea90f242",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -319,6 +320,11 @@
    "hash": "d747fd5c84cc",
    "updated": "2026-09-18"
   },
+  "haga1620": {
+   "first": "2026-09-21",
+   "hash": "a90c0c29e7e1",
+   "updated": "2026-09-21"
+  },
   "harley287": {
    "first": "2026-09-21",
    "hash": "31dd89843e7c",
@@ -376,7 +382,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "40a94b77cada",
+   "hash": "82a965aed03c",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -726,7 +732,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "0a7819a2cfd2",
+   "hash": "f5c0f7303af8",
    "updated": "2026-09-21"
   },
   "yard1699": {

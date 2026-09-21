@@ -2018,6 +2018,42 @@
      "reading_not_needed": true
     }
    }
+  },
+  "haga1620": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/haga1620.html",
+   "key": {
+    "decode": "R2118",
+    "lang": "NL"
+   },
+   "cite": null,
+   "fields": {
+    "plaintext_lang": "Dutch",
+    "cipher_types": "monoalphabetic substitution with a 116-entry numeric nomenclator; the signs are Latin letter shapes, not zodiacal or alchemistic"
+   },
+   "records": {
+    "R2113": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read with the key R2118 from the same inventory number. The three images are two letters: image 1 is the clear close of 1 Feb 1620 (no cipher), images 3+2 (that order) a letter of 31 Mar 1620 whose first page is missing. All cipher spans read; the clear text is transcribed only in part. Code (50) unresolved.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R2113.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R2115": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read with the key R2118. The four images are bound out of order (3, 2, 4, 1) and hold two despatches, 24 Apr and 4 May 1620. Cipher spans read; the clear text transcribed only in part.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R2115.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

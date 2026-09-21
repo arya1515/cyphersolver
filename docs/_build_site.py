@@ -128,6 +128,12 @@ PAGES = [
          quote='&ldquo;et per non havere cifra: non ce extendemo altramente per questa&rdquo;',
          rights='Printed edition: Nagy and Ny&aacute;ry, 1877, public domain. ASMo manuscript images not reproduced.'),
 
+    dict(slug='haga1620', label='Haga at the Porte', year='1620', y=1620.3, place='Constantinople &rarr; The Hague', st='solved', stt='read',
+         title='Cornelis Haga to the States General, February&ndash;May 1620 &mdash; the Bohemian revolt seen from the Porte',
+         blurb='DECODE lists two ciphered despatches of the first Dutch ambassador at Constantinople as non-decrypted, with a note that their signs are zodiacal and alchemistic. They are not: the cipher is a letter substitution whose signs are ordinary letter shapes, with a 116-entry numeric nomenclator, and its key sits in the same archival file as DECODE R2118. The two records hold four letters, not two, and their pages are bound out of order. The cipher carries Haga&rsquo;s advice on the Bohemian revolt &mdash; that the Hungarians should elect the King of Bohemia and proceed to the crowning of a new king &mdash; and the Porte&rsquo;s urgent questions about the truce with Spain. The key&rsquo;s cell for m falls outside the photograph and was recovered from the letters.',
+         quote='&ldquo;dat de Ongaren regem Bohemiae mede erweelden&rdquo;',
+         rights='Manuscript images: Nationaal Archief, The Hague, 1.01.02 inv. 6894, via DECODE'),
+
     dict(slug='sp106box10', label='SP 106/10 codebreaker', year='1623&ndash;24', y=1623.5, place='London', st='partial', stt='file explained, read in part',
          title='A codebreaker&rsquo;s file &mdash; the Italian intercepts of TNA SP 106/10',
          blurb='DECODE lists seven anonymous, undated, partly decrypted ciphertexts in State Papers 106 box 10. They are one case: the working file of a Jacobean codebreaker, with his solutions between the lines. The key he reconstructed is catalogued three records away as a key rather than a ciphertext, and so fell outside the target list; it sets out a two-figure cipher in which a bar or a tick over the group switches it from a letter to a word of one of two lists. Its vocabulary &mdash; Marques Inichiosa, Palatinato, C. Barberino, Il Principe &mdash; dates the file to 1623&ndash;24, against the catalogue&rsquo;s 1558/1625. The file holds three different ciphers, not one, and about forty-five values of the three-figure code were rebuilt from the codebreaker&rsquo;s own interlinear syllables.',
@@ -700,6 +706,7 @@ IMAGES['rakoczi1704'] = None
 IMAGES['papai1706'] = None
 IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philibert du Croc: the main letter in graphic cipher, with the signature and postscript lower on the leaf', 'Archives d&eacute;partementales de la Ni&egrave;vre, reproduced by Destray (1924), via Gallica and DECODE R2789')
 IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch of 29 December 1787, first page: the gloss dites &hellip; avant hier over the first groups, 2750 &hellip; 2578 3350', 'Nationaal Archief, The Hague, via DECODE R1026')
+IMAGES['haga1620'] = ('haga1620_lead.jpg', 'R2113 p.2, Constantinople 31 March 1620: clear Dutch with the cipher spans inline, (44) ende (45) arbeiden bij (4) om tyt te winnen', 'Nationaal Archief, The Hague, via DECODE R2113')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['nevers1589'] = ('nevers1589_lead.jpg', 'BnF Fran\u00e7ais 3977 f. 318: the Recueil sommaire of letters written in cipher by the King\u2019s enemies, September and October 1589 \u2014 a digest in clear French, the cipher itself elsewhere', 'Biblioth\u00e8que nationale de France')
 IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
