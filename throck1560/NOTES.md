@@ -24,6 +24,6 @@ Forbes's working file of tracings of those passages. The cipher is Throckmorton'
 are on R9260, the third on R9262 (`../throckmorton/NOTES.md`). Which one applies to ff.100-101 cannot be tested
 without images. The Feb–Mar 1560 letters on R9220 read with the third cipher, so it is the likely one.
 
-Not done: no ciphertext seen, so no token alignment. Nothing new is added, so catalogue entry 96 is removed
+No images exist online: no other DECODE record covers ff.100-101, and the BL record (040-002109587) is not digitised. Not done: no ciphertext seen, so no token alignment. Nothing new is added, so catalogue entry 96 is removed
 and there is no site page. The DECODE correction (split into two letters, give their dates, cite CSP/Forbes)
 is queued in `decode_updates/queue.json`.

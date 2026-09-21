@@ -127,6 +127,11 @@
    "kind": "literature search",
    "what": "CSP Foreign ii nos. 706 and 751 describe both as originals with portions in cipher, deciphered; no. 751 cites Forbes i 328.",
    "result": "worked"
+  },
+  {
+   "kind": "access",
+   "what": "Looked for images of ff.100-101 elsewhere: no other DECODE record in records.json covers them (R2989 f.33, R9220 f.110), and the BL catalogue record 040-002109587 (Forbes Papers V) has no digitised content.",
+   "result": "failed"
   }
  ],
  "outcome": {
