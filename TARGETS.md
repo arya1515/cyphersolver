@@ -265,7 +265,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
   nomenclator groups missing from that key. The project's own attacks failed. The sibling 6956 (catalogue 236) is
   solved by others and was removed. See [pallotto1629/](pallotto1629/).
 
-- **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.
+- **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). R2988/R2989 (catalogue 97): the 10 July 1559 letter read in part, margin and Wood line closed unread; see [wod1568/](wod1568/).
 - **Sir Thomas Smith, Add MS 4136, six records R9248–R9254 (catalogue 89)** — 18 letters 1563–66 read with Smith's key (f. 179, DECODE R9261); read at the time, 1563 ones in Forbes. 21 Sept 2026. R9236 (f. 140, catalogue 94, 21 Sept 2026) adds five letters of Oct 1562–Nov 1563 in the same key: four read and checked against Forbes/CSP; the 31 Jan 1563 advertisements fragmentary. See [write-up](https://dbourdeau.github.io/cyphersolver/smith1562.html).
 
 - **Beatrice d'Aragona**, catalogue 160, DECODE R1140–R1143 and R1154 — earlier readings located, 20 Sept 2026. Four cipher letters in editions of 1877–78; R1154 is plain Italian of 29 May 1505. March Virtus/Fortis/M. markers remain unexplained. See [beatrice1482/](beatrice1482/).

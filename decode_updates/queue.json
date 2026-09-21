@@ -4709,6 +4709,31 @@
      "reading_not_needed": true
     }
    }
+  },
+  "wod1568": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/wod1568.html",
+   "key": {
+    "decode": "Tomokiyo's Cipher 1 key attached to R2988 (DOC_2988), with seven corrections listed in wod1568/NOTES.md"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R2989": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Throckmorton's text (8 Aug 1559) read by Tomokiyo (Cipher 3; Forbes p.195). The foot line is John Wood to Cecil, 6 Sept 1568 (Moray-Wood symbol cipher), not read: 39 signs, no unique solution; Bain CSP Scot. ii 804 prints the letter.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R2988": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Throckmorton to Elizabeth, Paris, 10 July 1559: main text read ~85-90% with the attached Cipher 1 key (never printed). The marginal text is a separate word-sign code (probably a copy of the 8 July 1559 despatches, CSP For. i 947/950), not read.",
+     "reading": "decryptions/R2988.txt",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

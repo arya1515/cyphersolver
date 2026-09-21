@@ -189,6 +189,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p85 | **Prince Frederick of Orange (London) → the Hereditary Prince, 7 May 1795**, KHA Koning Willem I inv. XVIII-3 (DECODE R2242) | 1795 | 1 | 3 | 5 | 3 | 1 | 3 | **2.70** | D 1: sibling key R1892 read it unchanged. H 3: Orange court-in-exile news, spring 1795. N 5: DECODE non-decrypted. V 3: word signs unread. |
 | p86 | **The Hereditary Prince (Berlin) → Prince Frederik, 12 Mar 1796**, KHA Prins Willem V inv. 337 (DECODE R2239) | 1796 | 4 | 3 | 3 | 3 | 2 | 4 | **3.25** | D 4: the system and a 150-entry list rebuilt from a sibling's decipherment, then a printed crib found. H 3: the Prussian démarche in Paris for the Orange restoration, 1796. N 3: body in print since 1906, opening new. V 4: one word open. |
 | p87 | **Francis Needham (before Sluys) → [Walsingham], 28 Jul 1587**, BL Harley MS 287 ff. 39–40 (DECODE R8479) | 1587 | 2 | 3 | 4 | 2 | 2 | 1 | **2.55** | D 2: pigpen with the alphabet in order, key from four glosses. H 3: the failed relief of Sluys, Leicester's campaign. N 4: DECODE partially decrypted, long runs unglossed, not in CSP. V 1: one word open. |
+| p88 | **Nicholas Throckmorton (Paris) → Elizabeth I, 10 July 1559**, BL Add MS 4136 f. 32 (DECODE R2988) | 1559 | 2 | 3 | 5 | 2 | 2 | 3 | **2.95** | D 2: Tomokiyo's key with seven corrections. H 3: Throckmorton's report after Henry II's wounding. N 5: not in Forbes or CSP. V 3: 12 code signs and a few spans open. |
 
 ## By single axis
 
@@ -488,3 +489,4 @@ Ayala to Cisneros 1516 provisional score: 0.25×1 + 0.25×3 + 0.20×1 + 0.10×2 
 Prince Frederick 1795 (R2242) provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **2.70** (p85): the R1892 key read it unchanged.
 Hereditary Prince 1796 (R2239) provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×4 = **3.25** (p86): a word-list code rebuilt from its sibling's decipherment, then completed with a printed crib.
 Needham 1587 provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×2 + 0.10×1 = **2.55** (p87): a three-grid pigpen rebuilt from four contemporary glosses.
+Throckmorton 10 July 1559 provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×2 + 0.10×3 = **2.95** (p88): an unprinted letter read with a published key, corrected.
