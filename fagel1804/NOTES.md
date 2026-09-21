@@ -1,7 +1,8 @@
 # Robert Fagel to William V, The Hague, 18 June 1804 (DECODE R2238)
 
 Status: in progress — cipher transcribed and contextualized; exact plaintext still requires its missing codebook
-nPublic write-up: https://dbourdeau.github.io/cyphersolver/fagel1804.html
+
+Public write-up: https://dbourdeau.github.io/cyphersolver/fagel1804.html
 
 Koninklijk Huisarchief, The Hague, A31 Prins Willem V, inv. nr. 337. DECODE R2238 (non-decrypted, nomenclator,
 numerical, 3 pp., login). Robert Fagel (1771-1856), William V's adjutant in 1793-94, writes from The Hague to the
