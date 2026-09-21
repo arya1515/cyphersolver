@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260921c'
+VERSION = '20260921d'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -51,6 +51,7 @@ GENERATED = [
     r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>',
     r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
     r'<script src="zoom\.js[^"]*" defer></script>\n?',
+    r'<!-- live:start -->.*?<!-- live:end -->\n?', r'<script src="home\.js[^"]*" defer></script>\n?',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
 
@@ -1242,7 +1243,7 @@ def process(path):
     # "Watch it decipher": a page with docs/reveal/<slug>.json and no reveal of its own gets one, once, right after the h2
     # the data names as its "anchor" (else before the sources); from then on it is ordinary page content
     rv = HERE / 'reveal' / f'{slug}.json'
-    if rv.exists() and 'class="creveal"' not in s and '<main>' in s:
+    if slug != 'index' and rv.exists() and 'class="creveal"' not in s and '<main>' in s:
         anchor = json.loads(rv.read_text(encoding='utf-8')).get('anchor', '')
         fig = f'<figure class="creveal" data-src="reveal/{slug}.json"></figure>\n'
         m = anchor and re.search(r'<h2 id="%s"[^>]*>.*?</h2>\n?' % re.escape(anchor), s, re.S)
@@ -1272,6 +1273,10 @@ def process(path):
     s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)
     if slug == 'index':
         s = fold_findings(s)
+        s = re.sub(r'<!-- live:start -->.*?<!-- live:end -->\n?', '', s, flags=re.S)
+        s = re.sub(r'<script src="home\.js[^"]*" defer></script>\n?', '', s)
+        s = re.sub(r'(<section class="hero">.*?)(\s*<div class="jump">)', lambda m: m.group(1) + '\n' + live_html() + m.group(2), s, count=1, flags=re.S)
+        s = s.replace('</body>', f'<script src="home.js?v={VERSION}" defer></script>\n</body>', 1)
         FEATURED =['raince', 'hesse1603', 'catinat1691', 'voynich', 'feuquieres', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'sunyatsen']
         feat = [next(p for p in PAGES if p['slug'] == f) for f in FEATURED]
         rest = sorted([p for p in PAGES if p['slug'] not in FEATURED], key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] not in ('famous', 'solved') else 4, -p['y']))
@@ -1348,6 +1353,30 @@ def write_search_index():
     entries = search_entries()
     (HERE / 'search.json').write_text(json.dumps(entries, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     return len(entries)
+
+# The home page's live header (home.js): counters worked out at build time, a random-cipher button, and the list of
+# reveal passages the header deciphers in turn (reveal/index.json).
+def live_html():
+    rv = sorted(p.stem for p in (HERE / 'reveal').glob('*.json') if p.stem != 'index')
+    titles = {p['slug']: plain(p['label']) for p in PAGES}
+    (HERE / 'reveal' / 'index.json').write_text(json.dumps([dict(slug=r, label=titles.get(r, r)) for r in rv if r in titles],
+                                                           ensure_ascii=False), encoding='utf-8')
+    steps = [json.loads(p.read_text(encoding='utf-8'))['steps'] for p in (HERE / 'steps').glob('*.json')]
+    moves = sum(len(x) for x in steps)
+    dead = sum(1 for x in steps for st in x if st.get('result') in ('failed', 'ruled out'))
+    try: letters = json.loads((HERE / 'atlas.json').read_text(encoding='utf-8'))['letters']
+    except (OSError, ValueError, KeyError): letters = []
+    try: nkeys = len(json.loads((HERE / 'keys.json').read_text(encoding='utf-8'))['keys'])
+    except (OSError, ValueError, KeyError): nkeys = 0
+    years = [l['year'] for l in letters] or [0, 0]
+    stat = lambda n, lab, href: f'<a class="lc" href="{href}"><b data-n="{n}">{n:,}</b><span>{lab}</span></a>'
+    return ('<!-- live:start -->\n<div class="livecount">'
+            + stat(len([p for p in PAGES if p['slug'] not in SURVEYS]), 'ciphers written up', 'writeups.html')
+            + stat(len(rv), 'you can watch decipher', 'writeups.html')
+            + stat(moves, f'recorded moves, {dead:,} of them dead ends', '#writeups')
+            + stat(len(letters), f'letters on the map, {int(min(years))}&ndash;{int(max(years))}', 'atlas.html')
+            + stat(nkeys, 'keys in the web', 'keys.html')
+            + '<button type="button" class="randbtn" aria-label="Open a random write-up">Random cipher &rarr;</button></div>\n<!-- live:end -->')
 
 # steps/<slug>.json: the solution steps of each target's profile.json, with its conditions and outcome, for the
 # "How it was solved" replay (solve-replay.js).  A profile folder is its page's slug, give or take case.

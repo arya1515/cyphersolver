@@ -675,3 +675,22 @@ html.zv-lock{overflow:hidden}
 .zv-line .t{text-overflow:ellipsis;overflow:hidden}
 .zv.zv-off .zv-line{opacity:0;pointer-events:none}
 @media (max-width:640px){.zv-bar{flex-direction:column;gap:.5rem}.zv-cap{max-height:3em}}
+
+/* ---------------------------------------------------------------- live home header (home.js) */
+.hero .cipherstrip.live{pointer-events:auto;user-select:auto;letter-spacing:.04em;line-height:1.35;max-width:21rem;transition:opacity .5s}
+.hero .cipherstrip.live.fade{opacity:0}
+.cipherstrip .ls{display:block;margin-bottom:.45rem}
+.cipherstrip .ls .lc{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;color:color-mix(in srgb,var(--gold) 55%,transparent);transition:color .6s}
+.cipherstrip .ls .lp{display:block;min-height:1.3em;font-family:var(--period);font-size:1.02rem;letter-spacing:.01em;color:var(--gold2);text-transform:none}
+.cipherstrip .ls.done .lc{color:color-mix(in srgb,var(--gold) 30%,transparent)}
+.cipherstrip .lsrc{display:inline-block;margin-top:.2rem;font:.66rem var(--mono);letter-spacing:.08em;color:var(--muted);border:0;opacity:0;transition:opacity .6s}
+.cipherstrip .lsrc.on{opacity:1} .cipherstrip .lsrc:hover{color:var(--gold2)}
+@media (min-width:761px){.hero:has(.cipherstrip.live) > .kicker,.hero:has(.cipherstrip.live) > h1,.hero:has(.cipherstrip.live) > .sub{margin-right:23rem}}
+.livecount{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.3rem 0 .4rem;align-items:stretch}
+.livecount .lc{display:flex;flex-direction:column;justify-content:flex-start;padding:.55rem .85rem;border:1px solid var(--rule);border-radius:12px;background:var(--panel);color:var(--ink2);min-width:7.5rem;transition:border-color .2s,transform .2s}
+.livecount .lc:hover{border-color:var(--gold);transform:translateY(-2px);color:var(--ink2)}
+.livecount .lc b{font:700 1.7rem/1 var(--display);color:var(--head);font-variant-numeric:tabular-nums}
+.livecount .lc span{font:.66rem var(--mono);letter-spacing:.04em;color:var(--muted);margin-top:.3rem;max-width:12rem}
+.randbtn{align-self:center;font:600 .82rem var(--mono);padding:.7rem 1.1rem;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:var(--gold-ink);cursor:pointer;transition:transform .2s,box-shadow .2s}
+.randbtn:hover{transform:rotate(-3deg) scale(1.04);box-shadow:0 0 18px color-mix(in srgb,var(--gold) 45%,transparent)}
+@media (max-width:600px){.livecount .lc{min-width:calc(50% - .3rem);flex:1}.randbtn{width:100%}}
