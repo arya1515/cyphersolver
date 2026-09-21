@@ -59,3 +59,78 @@ depesche* (⊥⊥ = pour, as in the p. 138 hand; small y = n; ßɜℒ = ma); the
 is unexplained (null or *vous*). Open: the word after *de* in line 10 (one sign, ᴗ)), and
 the end of line 3 / start of line 4, "6 d 9 ∿ io ꭓ d λ ʒ ‡ ϑ d Z ℒ d ¢ ⊤̸ d" (le … eur …
 me p-l-e-s-?-e de), about 16 signs. About 94% of the glyphs are in the running text.
+
+## p.358 continuation
+
+The cipher runs on for ten lines at the top of p. 358 (view 181, left page), with three
+clear phrases set into it: *de quoy vous pourrez paraventure* (l. 4), *a propos mouvemen[t]*
+(l. 6), and the clear text that follows from line 10 (*Le S^r de Lanssac n'est point encore
+arrivé…*, dated 1564, signed Caterine / de l'Aubespine). Glyph transcription:
+`c390_p358.txt`. Same key as p. 357. New or confirmed values: ꭓ/xc = u (nouvelles), 6 = x
+again (*deux*), # = y (*iceluy*, *y decider*, *ny*), ſſ = o (*ou*), crossed b = t (*estre*),
+ϑ = m (*alement*, *partement*), £ = dit, + = vostre, ‡‡ probably *con*.
+
+| l. | letters (word division added) |
+|---|---|
+| 1 | toutes nouvelles de ce qui s'o[?]rira[?], principa |
+| 2 | lement de ce qui a e[?] peult estre [H] de le |
+| 3 | g[o]uvernement de la di[e]te et de ce qui se pre |
+| 4 | parera a y decider, *de quoy vous pourrez paraventure* [λ 9 +] |
+| 5 | [ter toute l-u-n-i-s-e] avant vostre dit partement, que |
+| 6 | [i e s e n u e c t … d-isposer] *a propos mouvemen* |
+| 7 | t, avancement ou retardation d'iceluy |
+| 8 | ne face prejudice à la reputation du Ro |
+| 9 | y ny à l'amitié que je desire estre [con]servée |
+| 10 | [en]tre ces deux princes. — clear: Le S^r de Lanssac… |
+
+**Running text (p. 357 end + p. 358).** … qui puisse faire sçavoir toutes nouvelles de ce qui
+s'o[ffr]ira, principalement de ce qui, peult estre, [?] de le gouvernement de la diète et de
+ce qui se preparera à y decider, de quoy vous pourrez paraventure […] avant vostre dit
+partement, que […] disposer, à propos, [que le] mouvement, avancement ou retardation
+d'iceluy ne face prejudice à la reputation du Roy ny à l'amitié que je desire estre
+conservée entre ces deux princes.
+
+**In English.** …[the man left behind] who can report all news of what may arise, above all
+of what perhaps [is said] about the government of the Diet and what is being prepared for
+decision there, of which you may perhaps [learn something] before your departure; [so that
+you may] arrange it so that the moving, hastening or delaying of that departure does no
+harm to the King's reputation nor to the friendship I wish kept between these two princes
+[Charles IX and the Emperor].
+
+**Share (275 cipher glyphs).** Secure ≈ 84% (ll. 1 first half, 3–4, 7–10, l. 5 end);
+probable ≈ 6% (*s'offrira*, *peult estre*, *gouvernement*, *diète*, *conservée/entre*);
+unread ≈ 10%: l. 2 "z d … H", l. 4 end "λ 9 +", l. 5 opening 12 signs
+(G d 5 G c λ G d 6 λ 9 io 5 d), l. 6 opening 11 signs (io d 5 ∿ 9 ꭓ d m G ✗ z Z La d).
+
+### Second pass on the open runs (2x, autocontrast)
+
+- **p.358 l. 6 opening** `io d 5 ∿ 9 ꭓ d m G ✗ z Z La d ‡y io ‡ b c ‡ d 5` = **que je remect(s)
+  à vous de disposer** (5∿9 = rem, ꭓ d = e with one null, m G = ct, ✗ null, z = à, Z = vous,
+  La d = de, then d[i]sposer). Secure except the ꭓ/✗ nulls. The sentence: *que je remects à vous
+  de disposer, à propos, [le] mouvement, avancement ou retardation d'iceluy* [= du partement].
+- **p.358 l. 2** `ʒ d` = **se** (ʒ = s, as in *se pre|parera*); ℌ = **r** (colbert390_glossed,
+  95 occurrences). So "de ce qui se peult e-s-p-[r]-e-r de le …": *de ce qui se peult espérer
+  de l'…* (probable; 5 stands for the second e or is r).
+- **p.358 l. 3 opening** `9 4 c λ 5 9 d 9 ∿ 9 G`: *[gouv/ajour]nement* is not settled; with the
+  Diet in view, *l'ajournement de la diète* fits the sense best, but 9 4 at the head does not
+  give a-j by the table. Kept probable-at-best.
+- **p.358 l. 5**: `d 6 λ 9 io 5 d` = **de lumière** (λ = u, 9 = m, io 5 = ier, d = e): *…toute
+  lumière avant vostre dit partement*. `G d 5 G c λ G` (end of what precedes) = "ter tout"; with
+  l. 4's `λ 9 +` the phrase is "[λ 9 + ter] toute lumière" — probably "[avoir] toute lumière",
+  but λ 9 + G d 5 (6 signs) is still unread.
+- **p.357 l. 3–4** `6 d 9 ∿ io ꭓ d λ ʒ ‡ ϑ d Z ℒ d ¢ ⊤̸ d` with ꭓ = u, ‡ = c: *l'enn[u]ieus,
+  ce me pl[e]ste* → **estant l'ennuieux, ce me plest de franchir clairement…** (probable: the
+  reading needs ∿ = n and a doubled e/i spelling; "since it is tiresome, it pleases me that you
+  cut it short plainly").
+- **p.357 l. 10** the one sign `ᴗ)` before *part*: probable **vostre** (…ny ouverte negociation
+  de vostre part); *ma* is the alternative.
+
+**Revised p.358 running text.** … qui puisse faire sçavoir toutes nouvelles de ce qui
+s'o[ffr]ira, principalement de ce qui se peult esperer de l'[ajour]nement de la diète et de ce
+qui se preparera à y decider, de quoy vous pourrez paraventure [avoir] toute lumière avant
+vostre dit partement; que je remects à vous de disposer, à propos, mouvement, avancement ou
+retardation d'iceluy [de sorte qu'il] ne face prejudice à la reputation du Roy ny à l'amitié
+que je desire estre conservée entre ces deux princes.
+
+**Combined share, p.357 + p.358 (478 + 275 = 753 glyphs).** Secure ≈ 88%, probable ≈ 11%,
+unread ≈ 1% (p.358 l. 4 end + l. 5 start `λ 9 + G d 5`, and the head `9 4` of l. 3).

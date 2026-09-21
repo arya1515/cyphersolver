@@ -235,3 +235,119 @@ sign inventory is the common one (La, ß, ƀƀ, q̄q̄, ‡, ♯, N, pl). Not al
 ### p.228 (v115 left, crops L115_*)
 p.228 is the address leaf ("Monsr de Rennes, conseiller …", upside down), no cipher. The 'Quant au voyage …' gloss belongs to the
 cipher at the foot of p.229 (v115_b): "z λ | u ℊ ŋ ā d | q̄q̄" = au | voyage | que (ℊ = o, ā = g). No blocking sign recognised there.
+
+## p.317 / p.313 (full decipherment)
+
+Cipher: p.317 (v159 right), a letter to Rennes with two cipher runs inside clear text (run A: after "par ou j'ay
+entendu"; run B: after "…qu'il le y laissera encores"). Decipherment: p.313 (v157 right). Line crops:
+`p317/L{nn}{0,1}.png` (run A) and `p317/M{nn}{0,1}.png` (run B); decipherment strips `p317/d0..d8.jpg`.
+Sign names here: ʓ̸ = the ʓ crossed by a thin diagonal (the common s); ∖ = hooked e-stroke; ꝺ = curly 8-shaped
+sign; M = the zigzag "W/ʍ" sign; ⊂ = the barred loop (t); ⊥ = two uprights on a base stroke (pour).
+
+### p.313 decipherment of the cipher runs
+A: "la resolution prinse par le Roy des Romains sur le faict de l'entrevue generalle, et aussi de la particuliere,
+pour laquelle facilité je le delibere en une sorte ou aultre assigner sa ditte Imperialle dedans ung mois. Chose que
+je desire singulierement, comme vous aurez peu veoir par mes deux dernieres depesches, et que je puisse estre adverty
+du temps et de la commodité de son approchement, affin que suyvant cella je puisse disposer aussi nostre voyage pour
+y apporter la commodité que je pourray. Desirant que vous puissiez tirer de luy ce qu'il aura peu descouvrir de ces
+allees et venues d'Escosse vers le Cardinal de Granvelle, du retour duquel en Flandres il n'est point de nouvelles."
+B: "Auquel il fault Monsr de Rennes que vous regardiez a disposer les choses si bien que vous aiez moyen de suivre le
+Roy des Romains a la diette, ou vous pourrez faire plus de service au Roy monsieur mon filz que vous ne feriez pas
+aupres dudict empereur. Mais est il necessaire que cella se face avecq son contentement, et s'il est possible en sorte
+qu'il vienne comme de luy." (p.313 then continues "Au demourant j'ay veu …", text not in the p.317 cipher.)
+The cipher omits a few phrases the decipherer supplied ("monsieur mon filz", "vous ne feriez pas", the second
+"la commodité") and repeats one ("de ¢ η ‡ ſſ La ıō ⊂ d" before "de son approchement").
+
+### Word alignment (cipher line · cipher · plain)
+| l. | cipher | plain |
+|---|---|---|
+| A1-2 | 6 z · ‖ tt(t) · 5 ~ ʓ̸ ſſ 6 λ ⊂ ıō ſſ aı | la · [‖ ttt ?] · resolution |
+| A2 | b ℌ ıō 9 ʓ̸ | prinse |
+| A2 | **Ꝫ** z ℌ | par |
+| A2 | ıō ʓ̸ d · at · y ʓ̸ λ 5 | (le Roy des Romains?) · sur (not split) |
+| A2-3 | 6 d · tu · y ∖ · 6 d aı ⊂ 5 λ d · cu | le · faict(code?) · de · l'entre(v)ue · ? |
+| A3 | ā ∖ 9 d 5 z N d | generalle |
+| A3 | ‡‡ · z λ **M** ıō | et · aussi |
+| A3 | y ∖ · 6 z | de · la |
+| A3-4 | at ⊂ ıō m λ ß ıō ∖ 5 d | particuliere (at = par) |
+| A4 | ⊥ · 6 z q̄q̄ N d | pour · laquelle |
+| A4 | 4 z m ıō 6 ṫ ⊂ d | facilité |
+| A4 | 5' ıō · 6 ʓ̸ d · La d 6 ıō ꝺ d 5 d | je · le · delibere (ꝺ = b) |
+| A4-5 | ∖ aı · λ 9 d · ʓ̸ ℊ 5 ơ ∖ · ſſ λ | en · une · sorte · ou |
+| A5 | z ω ơ 5 &y | a(u)ltre (&y-sign = e) |
+| A5 | z **M** ıō ā 9 d 5 | assigner |
+| A5-6 | 6 z · La ıō ∖ ‡ d · ıō ꝺ b ∖ 5 ıō z N d | la(sa) · ditte · Imperialle (ꝺ = m) |
+| A6 | La ∖ y z 9 ʓ̸ · λ 9 ā · ꝺ ſſ ıō ʓ̸ | dedans · ung · mois (struck-out "y d λ ƀ" before) |
+| A6 | m **π** ſſ ¢ d | chose (π = h) |
+| A6-7 | q̄q̄ · ıō ∖ · y ∖ ʓ̸ ıō 5 d | que · je · desire |
+| A7 | ʓ̸ ıō 9 ā λ 6 ıō d 5 ∨ ꝺ xy 9 ⊂ | singulierement |
+| A7 | **ẟ** 9 d · ∠ · z λ 5 d x · b d λ | comme · vous · aurez · peu |
+| A7-8 | ω d ſſ ıō 5 · at · 9 d ʓ̸ | veoir · par · mes |
+| A8 | ℒ d ʓ̸ ɔc ʓ̸ | deux dernieres depesches (not split) |
+| A8 | ‡‡ q̄q̄ · ıō d · b λ ıō **M** d | et que · je · puisse |
+| A8 | ǂ 5 d · z La λ d 5 ⊂ ıō | estre · adverty |
+| A9 | La λ · ⊂ d 9 b ¢ · ‡‡ · y d · 6 z | du · temps · et · de · la |
+| A9 | **ẟ** 9 ſſ La ıō ⊂ d | commodité |
+| A9 | La d · ¢ η ‡ ſſ La ıō ⊂ d | [repeat: de (com)modité] |
+| A9-10 | La ∖ ʓ̸ ſſ 9 · z m℘ 5 ſſ m e d 9 ∖ 9 ⊂ | de son · approchement (m℘ = pp, e = h) |
+| A10 | z 4 ıō 9 · q̄q̄ | affin · que |
+| A10 | ¢ λ ♯ λ z 9 σT | suyvant (♯ = y) |
+| A10 | 3 d 6 z · ıō d · Z λ ıō M d | cella · je · puisse |
+| A11 | La ıō σ̸ z ſſ σ d 5 | disposer (z = p) |
+| A11 | 9 5 d · λ c ♯ z ā d | nre (nostre) · voyage |
+| A11 | ⊥ · ♯ · z m℘ ℊ 5 σT d 5 | pour · y · apporter |
+| A11 | q̄q̄ · ıō d · ⊥ | que · je · pour(ray) |
+| A12 | y d ʓ̸ ıō 5 z 9 ⊂ · q̄q̄ · – | desirant · que · vous |
+| A12 | b λ ıō **M** ıō d x · ⊂ ıō 5 d 5 | puissiez · tirer |
+| A12 | La ∖ · 6 λ ♯ · m d · ɋ 6 · z λ … d λ | de · luy · ce · qu'il · au(ra) (p)eu |
+| A13 | La d ¢ m ſſ gꝭ 5 ıō 5 | descouvrir (gꝭ = uv) |
+| A13 | La d · m ∖ ¢ · z N &y ʓ̸ | de · ces · allees |
+| A13 | ‡‡ · λ d 9 μ ∖ ʓ̸ | et · venues (μ = u) |
+| A13 | La · ov · λ | d'Escosse? · vers? (not split) |
+| A14 | 6 d · m z 5 La ıō 9 z 6 · ā 5 z 9 λ d N N d | le · cardinal · Granvelle |
+| A14 | y λ · 5 d ⊂ ſſ λ 5 · La λ q̄q̄ 6 · d 9 · 4 6 z 9 … | du · retour · duquel · en · Flandres |
+| A15 | ıō ∨ · 9 ♯ · z · ſſ ıō 9 ⊂ · La ∖ · 9 ſſ gꝭ d N N d ʓ̸ | il · n'y · a · (p)oint · de · nouvelles |
+| B1-2 | z λ d m · 6 d q̄q̄ 6 · ıō ß · 4 z λ 6 ⊂ | auquel? · il · fault |
+| B2 | q̄q̄ · – · 5 d ā z 5 y ıō d x | que · vous · regardiez |
+| B3 | ıō ¢ b ſſ ʓ̸ d 5 · 6 d ¢ · m e ʒ ¢ d ʓ̸ | (d)isposer · les · choses (ʒ looped = o) |
+| B3 | ¢ ıō · **pl** · q̄q̄ · ∠ · z ♯ d x · 9 ſſ ♯ d 9 · La d | si · bien · que · vous · aiez · moyen · de |
+| B4 | λ ♯ λ 5 d · 6 d · ℒ y z · 6 z · ℒ d · La ıō d ‡ d | (s)uyvre · le · [Roy des Romains?] · la · ? · diette |
+| B4 | ſſ λ · ∠ · ⊥ 5 d x · ca · ‖ · La d · ¢ d … ıō m d | ou · vous · pourrez · faire? · plus · de · service |
+| B5 | z λ · 5 ſſ ♯ · q̄q̄ · z λ b 5 d ¢ · La λ y ıō m ⊂ | au · Roy · que · aupres · dudict |
+| B5 | 6° · A · ıō 6 · ♯ · 9 d m d **M** z ω 5 d | empereur? · mais? · il · est? · necessaire (ω = i) |
+| B6 | q̄q̄ · m d 6 z · ʓ̸ d · 4 z m d · z λ d m | que · cella · se · face · avecq |
+| B6 | ʓ̸ ſſ · ǂ ⊂ z 9 ⊂ … 9 ⊂ | son · contentement (ǂ = con?) |
+| B7 | ‡‡ · ¢ ıō 6 · # · z ſſ **M** ıō ꝺ 6 d | et · s'il · est · possible |
+| B7 | ꝺ 9 · ¢ ſſ 5 ⊂ d · ȳ 6 · λ ıō d ‡ ϑ d | en · sorte · qu'il · vienne |
+| B8 | La d · 6 λ ♯ | de · luy |
+
+### Sign table (blocking signs first)
+| sign | value | example word | line | confidence |
+|---|---|---|---|---|
+| **ẟ** (ꝺ with a hooked top) | **com** | ẟ 9 d = comme; ẟ 9 ſſ La ıō ⊂ d = commodité | A7, A9 | secure (two words; 9 = m supplies the second m) |
+| **M / W** (zigzag) | **ss** | aussi, assigner, puisse, puissiez, necessaire, possible | A3, A5, A8, A12, B5, B7 | secure (6 words) |
+| **Ꝫ** (ʓ with a crossbar) | p | Ꝫ z ℌ = par | A2 | probable (one word) |
+| **π** | h | m π ſſ ¢ d = chose | A6 | secure; bears on c392 πꝫ (h + ?) |
+| **tt / ttt** | null? | "6 z ‖ ttt resolution" | A1 | weak: sits between "la" and "resolution", which is complete without it |
+| ‡‡ (no tilde) | et | et aussi, et que, et de, et venues, et s'il | A3, A8, A9, A13, B7 | secure |
+| ‖ | plus | faire ‖ de service | B4 | secure (3rd instance); also stands before ttt in A1 |
+| pl | bien | si pl que vous = si bien que | B3 | secure (was probable) |
+| ⊥ | pour | pour laquelle, pour y apporter, pour(ray), pourrez | A4, A11, B4 | secure |
+| ♯ | y (also "est" in B5/B7) | suyvant, voyage, moyen, aiez, luy | A10-B8 | secure for y |
+| at | par | particuliere, par mes | A3, A7 | secure |
+| 9 | n and m | une, generalle / mes, temps, commodité, moyen | passim | secure (homophone) |
+| ꝺ | b (delibere, possible), m (Imperialle, mois) | | A4, A6, B7 | probable; two shapes may be conflated |
+| &y-sign | e | a(u)ltre, allees | A5, A13 | probable |
+| m | c | facilité, particuliere, chose, ce, dudict | passim | secure |
+| e | h | approchement, choses | A10, B3 | secure |
+| m℘ | pp | approchement, apporter | A10, A11 | secure |
+| gꝭ | uv | descouvrir, nouvelles | A13, A15 | secure |
+| y | d | desire, dedans, du, de | passim | secure |
+| ∖ | e (also t in "ditte") | generalle, en, sorte, de | passim | secure for e |
+| μ | u | venues | A13 | probable |
+| ω | v / i | veoir / necessaire | A7, B5 | probable |
+| 5 | r | resolution, sur, retour | passim | secure |
+| ʓ̸ | s | resolution, prinse, sur, desire | passim | secure |
+
+Not seen on p.317: ℛ, ℞, aʓ, ſſʓ, maue, ², ‡‡~, ss (as a separate sign), t7, ꝛ-variant. ẟao / ẟar are not
+on the page, but with ẟ = com they read as com + a o / com + a r (check "comparoir"-type words on p.139).

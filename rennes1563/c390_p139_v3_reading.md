@@ -137,7 +137,55 @@ deserve it … send it … brother-in-law … separates(?) from … well."
 Signs never glossed anywhere yet: ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ, ſſʓ. Next exemplars per colbert390_glossed.md: € and
 ll lines of p.221/p.225, then pp.223-231 and p.313/317.
 
-## Method (passes 1-5)
+## Pass 6 (values from the p.317/p.313 full decipherment: ẟ = com, Ꝫ = p/par, π = h, ‖ = plus, ‡‡ = et, pl = bien, 5 = r, ♯ = y)
+Decode after pass 6 (v3dec.py): l.4 [en] c h o s e … (π = h confirms **chose**, ℞ now null); l.7 c o [Ꝫ=p/par] e t …;
+l.8 … s d r [com] · l.9 [com-ar] ses actions …; l.12 lemér[i]ter [com-ao] n l'envoyez; l.13 … des [com-ao] · l.14 r i n c i ….
+- **l.4 "chose" is now secure** (m π ç ¢ x1 with π = h). The ℞ before it has no value and is left as a null.
+- **l.8/9**: ẟ ẓ ending l.8 and ẟar opening l.9 give "com… ses actions". *comme ses actions* is the obvious reading if
+  ẟar = comme (ẟ = com + a superscript "e"-flourish I transcribed as "ar"); not confirmed on the image.
+- **l.12**: "le mér[i]ter, [ẟao] n l'envoyez" — ẟao as *comme* gives "comme n'l'envoyez" (ungrammatical); as
+  *comment* it gives "comment l'envoyez" if 9 is absorbed. Neither closes.
+- **l.13-14**: "[ẟao] | r i n c i … bien": no com- word continues with "rinci" (com-p-rinci-?). Not read.
+- **l.7 start**: Ꝫ = p or "par": "c o p e t" / "co-par-et" — no word; the superscript m and C are the problem.
+- No other open run closes with the p.317 values. Target 95% not reached.
+
+## Running text (French, pass 6)
+[Envoyez que par] … que je vous tienne pour trop advisé et affectionné et loyal serviteur du roy mon fils pour
+vous en … bien … chose qui est … et en son service … [ne] lai[ss]eray? … vous dire qu'il vault bien que vous
+[ayez] les yeux ouverts pour observer … ses effe[ts]? … -eront … ce de mon cousin …, que les … [comme?] ses
+actions, encores que je … aucune … doubte, afin … advis, et tout ce que vous congnoistrez … le mér[i]ter,
+[comment?] l'envoyez … beau frère … [se] sépare des … bien.
+
+## Secure / probable / unread (pass 6)
+- Secure ~165 / ~440 (37%); probable ~125 (28%); unread ~35%.
+- Blocking signs now: ẟao/ẟar (what follows com-), ℛ (l.10), aʓ (l.12), ſſʓ (l.3), ʓ̃ (l.14), superscript m + C
+  before Ꝫ (l.7), ll as plus vs ss (l.5, l.7, l.10), € in "cousin" (l.8), ā (l.2), ÿ (l.10), ℊ class (l.3, l.10, l.13).
+
+## Pass 7 (ẟ + superscript = code word; c390_p117_glossed.md: ẟa = Allemaigne)
+- **ẟar (l.9) and ẟao (l.12, l.13 end) are code words**, not com- + letters. Pass-6 guesses *comme* / *comment* are withdrawn.
+  - l.8 end "¢ La ʓ ẟ ẓ": a bare ẟ + ẓ, probably a third code word of the family (or ẟ = com + ẓ null); unread.
+  - l.9 "[ẟar] ses actions, encores que je …": a person whose actions the bishop is to watch. Best fits by context:
+    *l'Empereur* or *le Roy des Romains* (Maximilian). Not decidable from p.139 alone; ⌐ (= Roy des Romains in p.117)
+    does not occur on p.139, which slightly favours ẟar = l'Empereur. **Unconfirmed.**
+  - l.12 "… le mér[i]ter, [ẟao] ſʳ 9 ß d aı … l'envoyez" and l.13 "… [se] sépare des [ẟao]": the same code word twice;
+    it is plural-compatible after "des" (… des Allemans? des princes?) and follows "le mériter". Candidates: *princes*,
+    *Protestans*, *Allemans*. Unconfirmed.
+- **ʓ = p** (p.117: propos, penser, apres) tested: l.14 "ʓ k 9 ẓ m io" = p i n · c i (no r: not "princi-");
+  l.4 "ſ mJ z ʓ G k" = a i a/p p t i (no word); l.11 "ʓ ſ La λ mJ ¢" = p a d v i s (no). No run closes.
+- **7 / ⌐ / £**: no plain 7, ⌐ or £ in the p.139 transcription; the crossed ⊬ reads y (roy, l'envoyez) and stays.
+- Nothing newly secured. Target 95% not reached.
+
+## Running text (French, pass 7)
+[Envoyez que par] … que je vous tienne pour trop advisé et affectionné et loyal serviteur du roy mon fils pour vous
+en … bien … chose qui est … et en son service … [ne] lai[ss]eray? … vous dire qu'il vault bien que vous [ayez] les
+yeux ouverts pour observer … ses effe[ts]? … -eront … ce de mon cousin …, que les … [CODE ẟ] … [CODE ẟar: l'Empereur?]
+ses actions, encores que je … aucune … doubte, afin … advis, et tout ce que vous congnoistrez … le mér[i]ter,
+[CODE ẟao] … l'envoyez … beau frère … [se] sépare des [CODE ẟao] … bien.
+
+## Secure / probable / unread (pass 7)
+- Secure ~165 / ~440 (37%); probable ~120 (27%); unread ~36% (3 code words identified as such, values open).
+
+## Method (passes 1-7)
 1. Fresh transcription from IIIF f70 (autocontrast + gamma 2.2, tiles and 1.5x zooms); p.138 gloss alignment
    rechecked; fixed-value decode with Tomokiyo key (key.md) + p.138 values; lattice (fr-1530-despatches), ≤2 values/glyph.
 2. Secure words used as exemplars to split shape classes (ʒ̶/ʒ/ʒ̂/ʓ, ſ/ſʳ, ℊ plain/looped, ✗, ll, md, ẓ, ÿ);
@@ -147,3 +195,5 @@ ll lines of p.221/p.225, then pp.223-231 and p.313/317.
    checked against other occurrences; tp = et, T = y, ✱ = blot settled; l.4, l.5, l.12 advanced.
 5. Glossed values from other Colbert 390 pages (colbert390_glossed.md) applied; runs re-decoded; readings that
    contradicted them withdrawn or downgraded.
+6. p.317/p.313 values (ẟ = com, Ꝫ, π, ‖, ‡‡, pl, 5) applied; "chose" secured, com- words located, no run closed.
+7. ẟ+superscript recognised as code words (p.117 gloss); ʓ = p tested on every ʓ run; 7/⌐/£ checked (absent).

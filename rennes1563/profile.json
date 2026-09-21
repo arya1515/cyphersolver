@@ -333,6 +333,18 @@
    "kind": "control",
    "what": "p.139 re-run with the glossed values withdrew four earlier readings (passeront, fault; laisseray and cousin downgraded) and added four (loyal, qu'il vault, ouverts, afin): a check that earlier readings were not forced.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Colbert 390 p.358 (view 181) found to continue p.357's cipher (10 lines): transcribed and read with the same values; p.357 open run read with ꭓ=u from p.358. Letter now ~99% (88% secure).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Full decipherments aligned: Colbert 390 p.317/p.313 (ẟ=com, W=ss, π=h, Ꝫ=p) and p.117-118/p.120-121 (ẟ+superscript = code word, ẟa=Allemaigne; 7=nous; ⊥⊥=pour); 1564 glossed pp.339-349 (∂ˡ=Metz). Applied to p.139 (~65%) and Colbert 392 (~85%).",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -344,9 +356,9 @@
     "detail": "signs occur in no glossed passage in this hand (f.57-58 aligned in full; Colbert 390 glosses are in the other hand)"
    },
    {
-    "item": "500 Colbert 390 p. 357, about 16 signs at end of line 3/start of line 4 and one sign in line 10",
+    "item": "500 Colbert 390 p. 358, six signs and one word head",
     "blocker": "no-key-material",
-    "detail": "run fits 'l'Empereur' by pattern only; ‡ ϑ d Z ℒ d ¢ ⊤̸ d unread; no gloss or print"
+    "detail": "p.358 continues p.357's cipher; 99% of 753 signs read, the rest unglossed"
    },
    {
     "item": "500 Colbert 392 p. 231, about 20% (runs in lines 4, 5, 7, 8-9, 11-17, 22)",
@@ -368,6 +380,6 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Four letters in the Bishop of Rennes' cipher, each in its own secretary's hand; values were calibrated per hand on contemporary glossed siblings (f.57-58 for f.55, p.138 and Colbert 390 pp.189-231 for p.139 and c392). Per letter (secure+probable): f.55 0.91, p.357 0.94, c392 p.231 0.80, p.139 0.63. What remains are signs that occur in no glossed passage, not a key problem."
+  "notes": "Four letters in the Bishop of Rennes' cipher, each in its own secretary's hand; values were calibrated per hand on contemporary glossed siblings (f.57-58 for f.55, p.138 and Colbert 390 pp.189-231 for p.139 and c392). Per letter (secure+probable): f.55 0.91, pp.357-358 0.99, c392 p.231 0.85, p.139 0.65. What remains are signs that occur in no glossed passage, not a key problem."
  }
 }

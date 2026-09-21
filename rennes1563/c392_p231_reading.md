@@ -218,3 +218,40 @@ Fraction: about **80%** secure or probable.
 
 Still unread: l.4 `d z xy 9`, l.5 `W xy u ʒ̊ d ℌ`, l.7 `z ss`, l.8-9 `ℌ z 9 tt`, l.11/17 `πꝫ` (on?),
 l.12 `La b ſſ x` and `b at`, l.13 `G`, `ƒ 7`, l.14 `t7 =`, l.16 `La xy t7`, l.22 `k est`.
+
+## Pass with the aligned decipherments (p.317/p.313, p.117)
+
+- l.5 `9 β ſ W xy u ʒ̊ d ℌ` with W = ss (secure elsewhere): **ne l'asseurer**. Now P, and the gap is closed.
+- l.4 `qq N d z xy 9 <`: **qu'elle a en vous** (que-l-e = qu'ele; z xy 9 = a en). P-, read on sense.
+- l.3 `‡‡ ~`: ‡‡ = pour is secure in the aligned letters, giving **Dernierement pour advise[r]**. P-. The tilde is
+  still unexplained, perhaps a null.
+- l.8-9 `ℌ z 9 tt`: tt = null leaves `ℌ z 9` = "ran". "il n'y [a] plus [g]ran[d] …" is still not a word
+  sequence. Unread.
+- l.11/17 `πꝫ`: π = h and ꝫ = p give "hp", which is not French. The "on" reading is withdrawn. Unread.
+- l.1 `maue`, l.2 `²`, l.7 `z ss`, l.12 `La b ſſ x` / `b at`, l.13 `G ƒ 7`, l.14 `t7 =`, l.16 `La xy t7`,
+  l.22 `k est`: no new value applies. Unread, or P- as before.
+
+Fraction: about **82%** secure or probable. The 95% target is not reached. The remaining signs have no exemplar
+in the aligned letters, or the exemplar gives no French.
+
+## Pass with p.117/p.120 values (7 = nous, £ = dit)
+
+- l.13-14 `ƒ 7 xy u ¢ ℊ d Ʒ ſ V u io ¢`: with 7 = nous this reads **[et] nous eusmes advis** (xy u ¢ ℊ d Ʒ =
+  eusmes). P. It replaces "[j']eus mes[me] advis".
+- l.14 `t7 = u c m G`: **nous [a]voit**, in "que sa femme nous avoit [fait] triumphe". P-. The same ƚ7 shape
+  reads y in "Royne" (l.1) and "il n'y" (l.8), so the shape is polyvalent.
+- l.16 `La xy t7`: **de nous**, in "Je croy bien que de nous il y aura à peu changer". P-.
+- l.7 `Ls z ss`: Ls is the £ shape = "dit". This gives "si le[dit] [z ss] Roy", with z ss probably "sieur".
+  P-: **si ledit sieur Roy**.
+- l.12, l.22 and l.8-9: no new value applies. Still unread. πꝫ (l.11, l.17) is unread.
+
+Fraction: about **85%** secure or probable. Unread: l.8-9 `ℌ z 9 tt`, l.11/17 `πꝫ`, l.12 `La b ſſ x` / `b at`,
+l.13 `G`, l.22 `k est`. l.1 "Madame" and l.2 "à vous" are P-.
+
+## Calibration against Bourdin's glossed 1561 letters (Colbert 390 v34-35; bourdin1561_glossed.md)
+
+The margin decipherments of p.67-68 confirm Ĝ = t, at = par, π = h, k = i, 7 = nous (one "vous" context) and
+£ = dit. All of these were already in `c392_p231n.txt`, so the decoded text does not change. "si le[dit] … Roy"
+(l.7) now rests on an exemplar ("dudit Roy de Dannemarcq"). The 1561 ² (a hooked raised sign = r) is a different
+shape from the c392 ², which stays a. No exemplar was found for maue, tt, small ss, ꝫ or `La b ſſ x`.
+Fraction unchanged: about 85%. Views 26-28 are not aligned yet.
