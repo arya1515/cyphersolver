@@ -101,6 +101,27 @@ angezaigt … gehorsamen underthenigen … meinen genedigsten herren … datum",
 part the same way (`r9409/decrypt_working.txt`): "genedig… februari… angezaigt… der turckische kaiser… Ferdinand…
 bruederlich halten…". State: broken; clean readings need the E/a+ signs settled and word division restored.
 
+## Remaining gaps
+
+- R9408 - blocker: none yet; transcription in progress, System A′ key should apply.
+- R9413 - blocker: none yet; transcription in progress, System A′ key should apply.
+- R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
+- R9416 f.263 clean reading - blocker: none yet; re-key the v2 transcription, split code y.
+- R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
+- R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; gloss cribs too few.
+- R9367 - blocker: no-key-material; no key in register R9423 fits; ~600 signs too short for the solver.
+- R9319 - blocker: needs-physical-access; dot grille needs cover letters f.115-118, not imaged on DECODE.
+- R9291 - blocker: none; not a ciphertext (key fragment), nothing to read.
+
+## Escalation
+
+- [x] siblings: R9324 (key of R9325), R9368 (glossed sibling of System A), R9423 register (19 keys), R9422 (1583 key) all checked.
+- [x] clear-pages: glosses used on R9322, R9323, R9416, R9417, R9427, R9424; R9319 cover letters not imaged.
+- [x] known-keys: R9423 blocks tried on R9367 (2_4 failed); R9422 on R9424 (failed).
+- [x] print: web search for KAA 4591 / Augurelio ciphers found no edition.
+- [~] key-rebuild: done for Łaski (System B) and System A′; R9424 and R9367 not rebuilt.
+- [~] retry: R9424/R9367 re-annealed with de-1500s, homophone caps and nulls; failed.
+
 ## Steps
 
 - 2026-09-21: record list from the DECODE dump (141 records in KAA 4591: 102 keys, 39 ciphertexts); images of the

@@ -526,6 +526,12 @@
    "kind": "solver",
    "what": "Annealing with nulls allowed on R9424, R9367, R9410",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Full-zoom alignment of the R9427 gloss gave the System A' key; R9410 and R9409 read in part",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -536,6 +542,54 @@
    "contemporary decipherment",
    "key confirms",
    "historical consistency"
+  ],
+  "key": "partial",
+  "gaps": [
+   {
+    "item": "R9408",
+    "blocker": "not-attempted",
+    "detail": "transcription in progress; System A' key should apply"
+   },
+   {
+    "item": "R9413",
+    "blocker": "not-attempted",
+    "detail": "transcription in progress; System A' key should apply"
+   },
+   {
+    "item": "R9409/R9410/R9427 clean readings",
+    "blocker": "open-codes",
+    "detail": "signs E (d/ch) and a+ unsettled"
+   },
+   {
+    "item": "R9416 f.263 clean reading",
+    "blocker": "not-attempted",
+    "detail": "re-key the v2 transcription"
+   },
+   {
+    "item": "R9323 lines 4, 8-10",
+    "blocker": "illegible",
+    "detail": "faint signs"
+   },
+   {
+    "item": "R9424",
+    "blocker": "no-key-material",
+    "detail": "R9422 alphabet cut and does not read; few cribs"
+   },
+   {
+    "item": "R9367",
+    "blocker": "no-key-material",
+    "detail": "no register key fits; ~600 signs"
+   },
+   {
+    "item": "R9319",
+    "blocker": "needs-physical-access",
+    "detail": "cover letters f.115-118 not imaged"
+   },
+   {
+    "item": "R9291",
+    "blocker": "no-key-material",
+    "detail": "not a ciphertext: key fragment"
+   }
   ]
  }
 }
