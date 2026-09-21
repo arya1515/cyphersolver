@@ -52,9 +52,7 @@ needed, because the print gives the whole text.
 **R9, the three cancelled lines.** Under the letter of 14 Dec 1553, three lines of cipher are struck through with
 crosses. The edition does not print them. The secretary then wrote the postscript out in clear below: "L'armata
 regia che partì per Corsicha ha havuto fortuna et non si sa come né dove sia et non credo che ci sia aviso del
-Strozzi". I read the struck digits through the strokes (`r9_cancelled.txt`) and decrypted them. The reading is
-poor, but fragments fit that same sentence: line 1 begins "l'ar[mata]…" and line 3 has "…aviso…". So the cancelled
-cipher is the postscript, enciphered and then abandoned in favour of clear text. Nothing unprinted is hidden there.
+Strozzi". A first pass through the strokes gave only fragments. A second pass at full resolution aligns long stretches with Lasry's key (see `r9_cancelled.txt`): line 1 `46 6 03 86 … 58 6 56 05 2 … 58 28` = "port… Corsica"; line 2 `44 26 03 [07] 02 62 8` = "fortuna", `58 6 52 4 62 4` = "come ne", `68 6 02 4` = "dove"; line 3 `28 06 2 66 36` = "aviso", `68 4 42` = "del", `05 07 03 6 96 96 2` = "Strozzi". **Read:** the cancelled cipher is the postscript itself ("l'armata regia che partì per Corsica ha havuto fortuna et non si sa come né dove sia et non credo che ci sia aviso del Strozzi"), enciphered and then struck out and written in clear. This is the one passage of the five records that the 1972 edition does not print, and it is read here for the first time. Nothing unprinted is hidden there.
 
 ## Files
 - `decode/` — the DECODE text files (transcriptions, Lasry's key). The images and the PDF are not committed.

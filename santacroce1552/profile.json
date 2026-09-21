@@ -249,6 +249,11 @@
    "kind": "reading",
    "what": "R9 fragments ('l'ar[mata]', 'aviso') fit the clear P.S. written below; the cancelled cipher is that P.S., abandoned.",
    "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Re-read R9's cancelled lines at full resolution; long stretches align under the key (Corsica, fortuna, come ne, dove, aviso del Strozzi): the cancelled cipher is the clear P.S. below, not printed in 1972.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -259,6 +264,6 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Read at the time and printed 1972; Lasry's key on DECODE since 2020. Catalogue entry 245 removed, no write-up."
+  "notes": "Read at the time and printed 1972; Lasry's key on DECODE since 2020. R9's cancelled cipher lines (unprinted) read here as the P.S. Catalogue entry 245 removed, no write-up."
  }
 }
