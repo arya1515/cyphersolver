@@ -1,6 +1,6 @@
 # R9408: splitting d/K and #/U (following ../sysA/r9410_split.md)
 
-Pages covered: **P1, P2, P3** (every line, half-line crops at ~2400 px, autocontrast). P4-P7 copied unchanged
+Pages covered: **P1-P5, P6 lines 1-23** (second pass added P4-P6). P6 l.24-31 and P7 not yet checked, copied unchanged. First pass: **P1, P2, P3** (every line, half-line crops at ~2400 px, autocontrast). P4-P7 copied unchanged
 into transcription_v2.txt (not yet checked).
 
 ## Counts (v1 -> v2)
@@ -36,6 +36,24 @@ into transcription_v2.txt (not yet checked).
 - P3 l.7 `L#Y`: a single stem with two crossbars (‡), not a double cross; left #.
 - P2 l.13 `w4#E`: the 4-with-bar group (as R9410 `4#o`); left #.
 - P1 l.11 the E in `yUqE3` not seen on the image.
+
+
+## Second pass: P4-P6 (P6 through l.23)
+
+| page | d | # | U |
+|---|---|---|---|
+| P4 | 30 -> 30 | 42 -> 21 | 0 -> 21 |
+| P5 | 30 -> 31 | 29 -> 15 | 0 -> 14 |
+| P6 | 22 -> 22 | 49 -> 40 | 0 -> 9 |
+
+(P6 counts include unchecked lines 24-31, still coded # from v1.)
+
+- No K confirmed. A **tall looped ʃ/ƒ sign** (loop at top, long tail down-left, about twice the height of δ) does occur:
+  P5 l.2 `x?A`, l.4 line-initial `?`, l.9 `n4wbpw` (coded b), P6 l.5 `xb.m`, l.8 `x?D`, l.14 `7bAdw`. It is coded ? or b in v1
+  and left unchanged; it is the best K candidate and should be compared with R9410's K.
+- Fixes besides U: P5 l.8 `xbb` -> `xdb`, P5 l.16 `qbb53` -> `qdb53` (first sign a plain δ).
+- Flagged: P5 l.19 `m#R?` is π t 4 σ on the image (a t-cross, not #); P4 l.27 `xbbE` probably `xd6E`; P4 l.12 `dmt`
+  may be `dnt`; P4 l.23 `n?d` and P6 l.5 `p#q` are the single-stem double-barred sign (as P3 l.7).
 
 ## Line log
 
@@ -130,3 +148,88 @@ P3 27 w#4q -> U
 P3 28 y#mq -> U; a+#o?c -> a+o?c (no double cross on the image between + and o)
 P3 29 c# = #
 P3 30 nw#m = #; D3v#3 -> U
+P4 01 c#, m#x = #
+P4 02 Dw#vX -> U; X#9, m#w = #
+P4 03 Q#q#7 -> QUqU7
+P4 04 Ew#vX -> U; d = d
+P4 05 t#myD -> U; d = d
+P4 06 c# = #; d x2 = d
+P4 07 m#w, v#m -> U; d x2 = d
+P4 08 w#vX -> U; |#vm -> U; q#97 = #
+P4 10 yy#9 -> U; d = d
+P4 11 bE#5 = #; d x2 = d
+P4 12 d = d; 'dmt' looks like d+π (dnt?) - flagged, not changed
+P4 13 X#wD -> U; m#5, x#9 = #; d = d
+P4 14 q#m = #
+P4 15 d = d
+P4 16 c#, y#5 = #; 5#D -> U; d = d
+P4 17 m#x#w -> mUxUw; d = d
+P4 18 w#vX -> U; d = d
+P4 19 v#4 -> U; c# = #; d x2 = d
+P4 20 q#5 = #; d x2 = d
+P4 21 t3#o -> U
+P4 21 x#wnn -> U; d = d
+P4 22 c# = #; d = d
+P4 23 d x3 = d; n?d: the ? is the single-stem double-barred sign (as P3 l.7 L#Y), left ?
+P4 24 no d/#
+P4 25 c# x3 = #; d = d
+P4 26 q#9 = #; d = d
+P4 27 'xbbE': image shows plain δ then б - probably xd6E, flagged not changed
+P4 28 4q#3 -> U
+P4 29 9v# -> U; d = d
+P4 30 wv#wx -> U
+P5 01 t3#w -> U; d x2 = d
+P5 02 no d/#; x?A: the ? is a long looped ƒ/ʃ sign (possibly K-like), left ?
+P5 03 c#, w#d = # ; d = d
+P5 04 line-initial ? is a big looped S/ℓ-type sign (K candidate, same as P5 l.2 x?A), left ?; d = d
+P5 05 v#v = # (slanted, left overhang)
+P5 06 d x2 = d
+P5 07 d x3 = d
+P5 08 7#Q -> U; q#x -> U; xbb -> xdb (first is plain δ)
+P5 09 n4wbpw: the b is a tall looped ʃ-like sign (K candidate, cf. l.2, l.4), left b
+P5 10 q#wa -> U; c# x2 = #; d = d
+P5 11 y#v -> U; m#w = #; 4#8 -> U
+P5 12 q#6 -> U; m#w = #; d = d
+P5 13 d x2 = d
+P5 14 d x2 = d
+P5 15 x5#y -> U; d x2 = d
+P5 16 c# = #; qbb53 -> qdb53 (plain δ then looped b)
+P5 17 m#w = #; 5Q#w -> U; d = d
+P5 18 no d/#
+P5 19 line start 'm#R?' reads on the image as π t 4 σ: the '#' is the t-cross (⊤), not a double cross - flagged, not changed; d = d
+P5 20 d x2 = d
+P5 21 c# = #; d x2 = d
+P5 22 5q#Q -> U; RQ#D -> U; d x2 = d
+P5 23 no d/#
+P5 24 t#x -> U; d x2 = d
+P5 25 4y#w -> U; d = d
+P5 26 no d/#
+P5 27 n#v -> U
+P5 28 t3#m = # (slanted); d = d
+P5 29 tw#E -> U; d = d
+P5 30 c# = #; d = d
+P6 01 3#d -> U; d = d
+P6 02 w#5 -> U; d x3 = d
+P6 03 no d/#
+P6 04 A3v#w -> U; d = d; a# group kept
+P6 05 xb.m: tall looped ʃ sign (K candidate), left b; p#q: single-stem ‡ (as P3 l.7), left #; d x2 = d
+P6 06 7#v -> U; q#3 = #; d x2 = d
+P6 07 no d/#
+P6 08 x?D: ? is the tall looped ʃ (K candidate); c# = #; d = d
+P6 09 3y# = # (slanted); w#yy -> U; d x2 = d
+P6 10 4t#w = # (left overhang)
+P6 11 d x2 = d
+P6 12 q#5, n#4 = # (slanted, seen in overlap)
+P6 13 5#D -> U; D#w, m#w = #
+P6 14 7bAdw: b is the tall looped ʃ (K candidate), left b; d = d
+P6 14 m#R = # (slanted)
+P6 15 d = d
+P6 16 c# = #
+P6 16 wq#q = #
+P6 17 v#R, q#4, q#4w = # (bar overhangs left)
+P6 18 8#w -> U; d = d
+P6 19 m#q -> U; c# = #
+P6 20 n#v -> U; other # x5 = #
+P6 21 line-initial # = #; d#q -> U; d x2 = d
+P6 22 no d/#
+P6 23 48#w, 3v#a = # (slanted)

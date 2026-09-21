@@ -2,7 +2,7 @@
 # one char per sign; ? = doubtful sign; [..] = clear text; g: = interlinear/marginal notes
 # survey: P1-P6 cipher (P1 f.236r .. P6); P7 = cipher tail + date line [Anno ... xxxiiii?] + signature, lower third; P8 = address leaf (clear), rest blank
 
-# v2: P1-P3 checked for d/K and #/U (see split.md); P4-P7 unchanged from v1
+# v2: P1-P5 and P6 l.1-23 checked for d/K and #/U (see split.md); P6 l.24-31 and P7 unchanged from v1
 == P1 (no folio visible; precedes f.236r) ==
 01 Ow3y?+4q5qt54Uwqnnwd34m8#v4wQxdwxd4qwyD5v4q
 g: small ↓-like mark above the d before 4q (sign 36)
@@ -123,40 +123,40 @@ g: small ↓/ÿ mark above the d of "bmd" (line 17)
 
 == P4 (photographed upside down; rotated 180) ==
 01 w4q48mEwvtowq4vD5v8RAwvc#nwym#xQw34nyw34v
-02 xywqE4Qw7w8q4v53Dw#vX#9xywqRmymya+mm#w8R
-03 q5E6wv9wvD5v3qQRQwnnmxwv5qt5mQ#q#79Ey4qxpE
-04 E5vq5Ew#vXn9d64xLwqt3vmEywqRxm3wv5nwvw3vX
-05 53EA534qn9dywqb5Ex4E5Yx5E4qmywvt#myDv4E65q3q
+02 xywqE4Qw7w8q4v53DwUvX#9xywqRmymya+mm#w8R
+03 q5E6wv9wvD5v3qQRQwnnmxwv5qt5mQUqU79Ey4qxpE
+04 E5vq5EwUvXn9d64xLwqt3vmEywqRxm3wv5nwvw3vX
+05 53EA534qn9dywqb5Ex4E5Yx5E4qmywvtUmyDv4E65q3q
 06 Dv4Ea+mc#wq65x73Qwq43vXn9dOSqE5qa+Ew7a+75dct
-07 wqx9dExa+mqD3vQwb5dywqB5EyRE5vD3vxm#wv#my
-08 Dv4EQ4ny65xw#vX7mQwqt354q4v|#vmxLwq#97w8
+07 wqx9dExa+mqD3vQwb5dywqB5EyRE5vD3vxmUwvUmy
+08 Dv4EQ4ny65xwUvX7mQwqt354q4v|UvmxLwq#97w8
 g: "#vmxLwq#97w8" underlined; marginal mark at left of line 8
 09 [Ceterum aliud est quod meo iudicio mihi informandu(m)? unde(?) esse videtur]
-10 EpxB::a#7myy#9vQwE5Ey47a+75dctD3v74Exwdnx
+10 EpxB::a#7myyU9vQwE5Ey47a+75dctD3v74Exwdnx
 11 7mO47w43vXb5dnwqEwqxmdnwyRQ9bE#53Dowv3w
 12 ywqyQwjo5qEwdy65xwvDv4Eymcba+75dmtxmwx5q
-13 Ewyxyw3vqX#wD4Ym#5Ywx#9dERx4dnwvx9QwA?
+13 Ewyxyw3vqXUwD4Ym#5Ywx#9dERx4dnwvx9QwA?
 14 qyn3vEwy65xwv53Dxw4q#mxywq3qEwvxy5qEwq
 15 w3vqX96wv6wvxwdnwqD5cy9vQwqb3wvqnwvQn5Qwq
 g: long line in the left margin at line 15
-16 Ra+4c#wqnmdyRx4Emmy#5#DmypywxvqXEwv75x
-17 Lwqjo5dywqE5v?nw3vXw4qQwq4Em#x#wD5Qwqt3x
-18 57ny54qw7t47dmEwqQn4qb5nnwqxmQw8w#vXn4Qwq
-19 Ewvb5dnwqwvD?v4qd5xLwqn5xq3wv6wv#4a+75vc#
+16 Ra+4c#wqnmdyRx4Emmy#5UDmypywxvqXEwv75x
+17 Lwqjo5dywqE5v?nw3vXw4qQwq4EmUxUwD5Qwqt3x
+18 57ny54qw7t47dmEwqQn4qb5nnwqxmQw8wUvXn4Qwq
+19 Ewvb5dnwqwvD?v4qd5xLwqn5xq3wv6wvU4a+75vc#
 20 bwdyE5qwv::a#?65vqQE6wq#53Dv4Eywqn9dyRnn5x
-21 L4Ew3vXwqya+b4wxLwqx9dEx#wnnwq7mvw3vXt3#o
+21 L4Ew3vXwqya+b4wxLwqx9dExUwnnwq7mvw3vXt3Uo
 22 vxywqxmnn4d4E7myx57nyEwq4-qx9w3vXa+4c#wq
 23 n?dywq7myyEw7a+75dct4qEd4Ena+d4wxLwqRw3vX
 24 XQ48Qxywv4EymQwx5E75EwqRE4wx9w3vXE4w
 25 Awvc#nwvc#Q3nwx4Eywqa+4c#wqn3vEwq79cbyo8
 26 7myya+7Qbct4qa+nn5QwvnmdRx4Ewvbwy4pq#9
 27 my4q [Vt autem de aduentu(?)] a#?EwxbbE5v53Dx4Ea+ywD4
-28 v4wvyRw3vXn4xLwqjo5nnwq6wxn5vywqmy4v4q#3vc
-29 A5djowvEwva+vw4nya+n4w4E65q64wnv4wDR49v#
-30 nwRqmy54xywv#wxwb4qjo5nnwqE5x5qEwvxq4EyxE5q
+28 v4wvyRw3vXn4xLwqjo5nnwq6wxn5vywqmy4v4qU3vc
+29 A5djowvEwva+vw4nya+n4w4E65q64wnv4wDR49vU
+30 nwRqmy54xywvUwxwb4qjo5nnwqE5x5qEwvxq4EyxE5q
 
 == P5 (f.238r, folio 238; photographed upside down, rotated 180) ==
-01 Dv4Et3#wyb69dwqxw4n5qa+9oEwyjo5qEd3qQx9:A4xjow
+01 Dv4Et3Uwyb69dwqxw4n5qa+9oEwyjo5qEd3qQx9:A4xjow
 02 yE3vE6wx?A5yyRn4EwvEwq58xy5q6nwa+w4qAw46w7
 03 yxc#wqow#d5Qyjo5yE5v?#DEwvy3vc#o4EwvQwa+v4nwq
 g: ↓ written above the x (sign 2) of line 3
@@ -164,58 +164,58 @@ g: ↓ written above the x (sign 2) of line 3
 05 ywq34vn3qEw8E5xwvnnw4y4v#v4wQqmE3qDv4Eq4yAv53
 06 Ewq89ED3vqw748my3Qwx93wv5nnwvx9dExnnwa+w4x9n9d
 07 ywa-vEwv4v?qmyyd5xLwq64wnnwRdwyxw448Lwnn?d
-08 53Djowb4q7#Qw [Ultra hoc etiam scribit] E9::a#74q#xbb
+08 53Djowb4q7UQw [Ultra hoc etiam scribit] E9::a#74qUxdb
 09 n4wbpwv9q47439qx5v?x3q3wxA5x45q37n4Ewv
-10 t37y3vc#wq#wa+4c#yEwv65qa+c5qctdwv57bwv?xt3Q
-11 93xEwvy#vm#w4nwQ4#8o-y74ynwxy4Onv4wD4q
-12 65v4qwv5Qwb5qEb3q#63yExw4q4Aw4Ew7y3vm#wqQw
+10 t37y3vc#wqUwa+4c#yEwv65qa+c5qctdwv57bwv?xt3Q
+11 93xEwvyUvm#w4nwQ4U8o-y74ynwxy4Onv4wD4q
+12 65v4qwv5Qwb5qEb3qU63yExw4q4Aw4Ew7y3vm#wqQw
 g: first four signs of line 12 underlined
 13 b5nywqQwx5qEy4qQwb5qEwdyRnwa+d9xLwqc9qD4v74w
 14 vyRE4wxwdnw8Dwxyb5dywqAw4xw4q4qwv4qR
-15 Qd53nwqt3x5#y7myyjomEwv3dw4xLyQwvA4ywvEwy
-16 O3vc#n9YwEwqbb53Dxwb4Axyt353Dv4Ey3qQ6wxDv4Ex
-17 RqE4wcv4xy4qb5pya+4m#wqEwxn4v65q5dy5Q#w
+15 Qd53nwqt3x5Uy7myyjomEwv3dw4xLyQwvA4ywvEwy
+16 O3vc#n9YwEwqdb53Dxwb4Axyt353Dv4Ey3qQ6wxDv4Ex
+17 RqE4wcv4xy4qb5pya+4m#wqEwxn4v65q5dy5QUw
 18 nwvO4Qxw448. [Insuper quid interea temporis] Ewva#::?c5
 19 m#R?qwvA4xjowvm8Ewy6w3ya+Rc5xa+5xQwb5qEwdy
 20 4xy6?xwvpLy5dE9tnQm7mq?yQwd4QwqRE4wx4nwq
 21 o4vQwvRbwvmy5qxywO4v53E4yd4E6wxQwc#d4a+wq
-22 5Ewdxmymyov4wbwqx965q#Qwyv9xyRQ#DQwb5dy4q
+22 5Ewdxmymyov4wbwqx965qUQwyv9xyRQUDQwb5dy4q
 23 65xLpE4wjowvmy5qxy4y4v53D5YwEwxAvmnnxyx3m8
-24 x5qExmQmy3qEwqt#x5QwqR3qEwyjo5qEd3qQ5dxEwv
-25 a+Qwx5qywqt3p84q84EyxqmE6wv4y#wn3qQjo5dnwq
+24 x5qExmQmy3qEwqtUx5QwqR3qEwyjo5qEd3qQ5dxEwv
+25 a+Qwx5qywqt3p84q84EyxqmE6wv4yUwn3qQjo5dnwq
 26 xy4E3wvo4Y4Qwqb5nwqn9Y48x3qEwv4q47myyE4xwv5qy
-27 n#vy5nQwDwvymQOx93?yc5mm5q4ypq4q7mybpo
+27 nUvy5nQwDwvymQOx93?yc5mm5q4ypq4q7mybpo
 28 qmyt3#m7w5dxE5qxmn9Y4qx4LmEQwn4q83qx9R
-29 n4xLwqd4E65xBc5mtm5qwv4ty5ntw#EyR4q48
+29 n4xLwqd4E65xBc5mtm5qwv4ty5ntwUEyR4q48
 30 5q4Ewjo4dDt3twa+4c#wq9myymy5Eyb5y53E4myw3q
 
 == P6 (photographed upside down, rotated 180; no folio visible) ==
-01 my3#d4ER53x6w7nwvEwqxmEpwjowvmy5qxy4Owv
+01 my3Ud4ER53x6w7nwvEwqxmEpwjowvmy5qxy4Owv
 g: a slanting stroke in the left margin before line 1
-02 nmdwvmywxLw8E?xLmwn484ty5dx39v5dnw#5Y?q
+02 nmdwvmywxLw8E?xLmwn484ty5dx39v5dnwU5Y?q
 g: small 'c'-like mark above the 4t of "484t" (line 2)
 03 74ynmvy483wvD3vy?wvEwq [Quod autem ipsi tamdiu restiterunt(?) est]
-04 [causa] 9?a#OI::73dy4x53xEwqb47b5Dy4qA3v#wyqEm
+04 [causa] 9?a#OI::73dy4x53xEwqb47b5Dy4qA3vUwyqEm
 g: "9?a#OI::" after "causa" is cipher (9 + ʒ-like sign, a#, ⊙, I-like bar sign), perhaps an abbreviated name
 05 xwdnxb.mwv4EwAv93mxp#q3wva+v4nwqb5yEpwxw
-06 dnwqjo5dy4qE4wQa+5pqt34vw7#v9xLwq#3qDy4Qwq
+06 dnwqjo5dy4qE4wQa+5pqt34vw7Uv9xLwq#3qDy4Qwq
 07 a+5Ewqx965qQ?3D::a#I5nnwvc5mtm5qwyb5yt3c?
 08 a+53R5qEwvqEwx?Ddwc#wqq4Ey?qEwvxyQwOm865q
-09 65xwv6m45vmy4qdw3y#wxyw#yyb5yRmmy4847d
+09 65xwv6m45vmy4qdw3y#wxywUyyb5yRmmy4847d
 10 pEb54qQvmxLwx37my5a+3OE4Q#wn4xwq65xwvx4E?q
 11 6wvxy8my65qEwvQxy5dyb5ynwt5dwqmy3QwqRmymy
 12 Ewvnwv3w73q#5n#4tmQwqRxma+9q6wvDv4Ewnwy
-13 6y5#D#wymEyq4EyEwxynwqm#wyx9Q?q64wAwv
+13 6y5UD#wymEyq4EyEwxynwqm#wyx9Q?q64wAwv
 14 m#R5q6wvxy4ym7tmAxEw7bAdw4nwq. [Etiam aliud]
 15 [addendum esse censui] ?po65xQdb4w5pqbwbEwva+v5yRRq
 g: '‡' under the first p and above the b before "Ewv" (line 15)
 16 Qv9xLwq#q5Ewqbwbw74v4c3xnwo4c#Avmnxyt3xyd
 g: '‡' above the second b of "bwbw" (line 16)
 17 nw4xL4qo3v#R5q#4qEwvA4a+mDt3q43ywvq#4w
-18 o4xwqb5yx4E?q58#wx4jowqxw484qAv4wxywvxy
-19 5qE7myy5pq4v5vmywqm#qc#Dv534qnnwbw3v5yE5v
-20 63vEa+#q5E3wyn#vEyR4q#wD4qc#q3x#m74qQwa+w#5
-21 #vmxLw3qEwvb5qEd#qQE5xwvnmEwvdwEmQnwv64?
+18 o4xwqb5yx4E?q58Uwx4jowqxw484qAv4wxywvxy
+19 5qE7myy5pq4v5vmywqmUqc#Dv534qnnwbw3v5yE5v
+20 63vEa+#q5E3wynUvEyR4q#wD4qc#q3x#m74qQwa+w#5
+21 #vmxLw3qEwvb5qEdUqQE5xwvnmEwvdwEmQnwv64?
 22 5qEwvxyqmynwa+4Ey5QQ4RqwvnwvEw5Qwvxw4q4v
 23 nwq4Dmcp48#wv53nyRQv9xLwA3v#a+5DyQwO9qR
 24 w3vXx9YwqnnmxLwq65xwyEwvnwo4m#4xy6wvQbbR
