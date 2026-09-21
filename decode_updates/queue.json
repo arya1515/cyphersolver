@@ -4138,6 +4138,30 @@
      "reading_not_needed": true
     }
    }
+  },
+  "visconti1727": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/visconti1727.html",
+   "key": {
+    "decode": "no key needed; the record is itself the key (Deciphering Branch reconstruction)",
+    "lang": "IT"
+   },
+   "cite": null,
+   "fields": {
+    "record_type": "key (not ciphertext)",
+    "document_types": "reconstructed key table (Deciphering Branch), not a letter",
+    "start_year": "1727",
+    "end_year": "1727"
+   },
+   "records": {
+    "R7931": {
+     "decode_status": "Partially decrypted",
+     "proposed": "N/A",
+     "note": "Not a letter: the Deciphering Branch's fair copy of its reconstructed Italian nomenclator (1-300, 193 filled) for Count Visconti at Brussels with Marq.s Visconti in London, 1727 (endorsement on image 2). Should be typed as a key, like its draft R7932 on ff. 43-44. Transcription: visconti1727/key_f42.tsv.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -620,41 +620,6 @@
    "scored": "rule"
   },
   {
-   "id": 73,
-   "counted": true,
-   "year": 1727,
-   "date": "1727",
-   "title": "Count Visconti (Germany) to Visconti",
-   "correspondents": "Count Visconti → Visconti",
-   "place": "Germany, Brufselles",
-   "language": "Italian",
-   "region": "Italy",
-   "period": "1701-1800",
-   "shelfmark": "BL, Add MS 32270 f 42",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R7931: Partially decrypted, 1 pp., homophonic, nomenclator; numerical; images login. Not viewed here. 101 key record(s) from the same series on DECODE, nearest R8048 (1719). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded.",
-   "why": "Ciphered letter of Count Visconti to Visconti, 1727; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R7931",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/7931"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    7931
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 74,
    "counted": true,
    "year": 1727,

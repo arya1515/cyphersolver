@@ -1,0 +1,135 @@
+{
+ "schema_version": 1,
+ "target": "visconti1727",
+ "title": "The Visconti Italian cipher, Brussels-London 1727, BL Add MS 32270 f. 42 (DECODE R7931)",
+ "documents": [
+  {
+   "id": "R7931",
+   "shelfmark": "BL Add MS 32270 f. 42; DECODE R7931",
+   "date": "1727",
+   "year": 1727,
+   "country": "England",
+   "route": "Deciphering Branch key for Count Visconti (Brussels) <-> Marquis Visconti (London)",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No ciphertext on the leaf: it is a reconstructed key table with an English endorsement.",
+    "partial": false
+   },
+   "length": {
+    "tokens": 193,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R7931_I35722_P1/P2",
+    "corrections": 0,
+    "image_quality": "good",
+    "notes": "193 filled places of 300 transcribed to key_f42.tsv; counted with grep over the file. Unit = filled key places."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "homophonic"
+  ],
+  "summary": "Numerical nomenclator of 300 places: single letters with homophones, doubled letters, CV syllables and about 50 names and words (Walpole, Townshend, Sinzendorff, Ostenda, Congresso...), as reconstructed by the Deciphering Branch.",
+  "symbol_kind": "digits",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 193,
+   "kinds": [
+    "names",
+    "places",
+    "titles",
+    "common words",
+    "syllables"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "distinct_symbols": 300,
+  "key_order": "partly alphabetical",
+  "word_division": "unknown",
+  "doubled_letters": "coded",
+  "sibling_key": "R7932 (working draft of the same key); R7933 (French key, same parties)",
+  "notes": "The record is the key itself; no ciphertext in this cipher is bound in Add MS 32270."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "The leaf is the Deciphering Branch's own 1727 reconstruction of the key; DECODE typed it as a ciphertext.",
+   "found": "during attempt",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, posed the target with /goal from the catalogue. No target-specific intervention.",
+  "tools": [
+   "DECODE authenticated image server",
+   "PIL crop"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Listed every DECODE record at Add MS 32270 from the harvested list: all are keys except R7927, R7929, R7930, R7931; R7932 and R7933 are Visconti keys on the next leaves.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched R7931, R7932, R7933 images with the stored DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Recognised R7931 as a fair-copy key table (1-300) endorsed 'Count Visconti at Bruxelles with Marq.s Visconti here 1727 Italian Cypher', not a letter; R7932 its working draft; R7933 a French key for the same parties.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed the 193 filled places of f. 42 to key_f42.tsv.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 191,
+   "C": 2,
+   "M": 0,
+   "I": 0
+  },
+  "verification": [
+   "none"
+  ],
+  "notes": "Catalogued ciphertext is a key table (the solution, not a message); nothing to decipher. 33 'Rialso' and 172 'Reggenza' doubtful readings."
+ }
+}

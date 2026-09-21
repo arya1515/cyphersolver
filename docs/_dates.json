@@ -47,6 +47,7 @@
   "colbert passages, 1674–75": "2026-09-16",
   "copenhagen cryptogram": "2026-09-15",
   "cornelis haga at constantinople to the states general, february–may 1620": "2026-09-21",
+  "count visconti (brussels) with marquis visconti (london), 1727": "2026-09-21",
   "debosnys, 1882–83": "2026-09-15",
   "dinteville to nevers, 3 july 1592": "2026-09-21",
   "dirk van hogendorp to maarten van der goes, 5 july 1803": "2026-09-20",
@@ -276,7 +277,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "979027393c79",
+   "hash": "07f3b3131333",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -461,7 +462,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "e35f5486a48e",
+   "hash": "ee0b81c07ec9",
    "updated": "2026-09-21"
   },
   "jones1753": {
@@ -909,6 +910,11 @@
    "hash": "7d7993ec3c0b",
    "updated": "2026-09-18"
   },
+  "visconti1727": {
+   "first": "2026-09-21",
+   "hash": "66227c052eb1",
+   "updated": "2026-09-21"
+  },
   "voynich": {
    "first": "2026-09-15",
    "hash": "5cf6e86d9647",
@@ -941,7 +947,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "2c6f98a75855",
+   "hash": "3479c1aed050",
    "updated": "2026-09-21"
   },
   "yard1699": {
