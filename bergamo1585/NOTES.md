@@ -1,0 +1,33 @@
+# Paris nunciature, bishop of Bergamo / archbishop of Nazareth, 1585–86 (ASV Segr. Stato Francia 18; DECODE R15–R17) — NOTES
+
+Status: in progress
+
+Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunciature records on DECODE (see
+[damiata1624/](../damiata1624/NOTES.md) for the 1625 volume).
+
+## The three records
+
+- **R15** (Francia 18/1, ff. 7r–v): **already read.** Lasry's decryption (DOC D3102) with the F18 key (D3103,
+  fixed-length homophonic; "also found in Meister p. 324 and in the French book, Ragazzoni"). Nothing added.
+- **R16** (Francia 18/2, f. 206r–v; cleartext heading "3 di Marzo 1586"): **decrypted here, in part.** DECODE's
+  decryption file for R16 (D3104) is byte-for-byte the R15 decryption (19,639 bytes, same text), attached to the
+  wrong record, so R16 had never actually been decrypted. The F18 key (D3105, same as R15's) applied to the DECODE
+  transcription D1610 (TimB) with `decode_with_key.py` gives readable Italian at once: 1,410 letter pairs, 66
+  unknown (transcription slips and phase breaks). Output in `R16_decryption.txt`.
+  Content: *hoggi il [58] mi ha mandato a dire … la bolla … la congregatione del clero … mal contenti dela
+  concessione dela bolla … l'alienatione … appellarsi ad futurum concilium …* — the French clergy's resistance
+  to the papal bull permitting the alienation of church property, 1586.
+  **Open:** about 20 nomenclator codes marked with a cedilla, + or – (26¸, 28+, 36¸, 20-, 58, 34, 70, …) are
+  not in Lasry's key. 26¸ behaves like *che*, 20- like *non*, 58 is a person (probably the King or a prelate), 34
+  another (probably the Pope). Filling them needs context work or Meister's full table.
+- **R17** (Francia 18/3, ff. 233r–235v): **open.** DECODE's key (D3186, ASV F22) is a different system:
+  variable-length and *not deterministic* (1–3 digit elements, 8 and 80–89 null). The note says it is incomplete
+  and that the full key is Meister p. 393 no. 40. DECODE's decryption file is a Java crash (NullPointerException),
+  so R17 has no decryption. Next step: Meister, *Die Geheimschrift im Dienste der päpstlichen Kurie* (1906), p. 393,
+  then segment the transcription D1611 with the full key and the Italian LM.
+
+## Files
+
+`key_F18_lasry.txt` (DECODE D3105), `R16_transcription_decode.txt` (DECODE D1610), `decode_with_key.py`,
+`R16_decryption.txt`. Images are on DECODE (login); not re-transcribed here: the R16 reading rests on TimB's
+transcription.

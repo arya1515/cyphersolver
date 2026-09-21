@@ -1,0 +1,124 @@
+{
+ "schema_version": 1,
+ "target": "bergamo1585",
+ "title": "Paris nunciature (bishop of Bergamo, archbishop of Nazareth) to the Secretariat, 1585-86 (ASV Segr. Stato Francia 18; DECODE R15-R17)",
+ "documents": [
+  {
+   "id": "R16",
+   "shelfmark": "ASV Segr. Stato Francia 18/2, f. 206 (DECODE R16)",
+   "date": "3 Mar 1586",
+   "year": 1586,
+   "country": "France",
+   "route": "Paris (nunciature) -> Rome (Secretariat of State)",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decifrato; DECODE's R16 decryption file is a copy of R15's."
+   },
+   "length": {
+    "tokens": 3216,
+    "distinct": 26,
+    "unit": "symbols",
+    "measured": true,
+    "file": "R16_transcription_decode.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE D1610 (TimB)",
+    "image_quality": "unknown",
+    "notes": "Used as found; not checked against the images."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Two-digit homophonic cipher (second digit usually odd), null 8, marked 2-3 digit nomenclator codes.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "mixed",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE D3103/D3105: Lasry's F18 key (Meister p. 324), used for R15",
+  "notes": "R17 uses a different, non-deterministic key (F22), not attacked."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "F18 key and an R15 decryption on DECODE (Lasry 2020); no R16 decryption",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "decode_with_key.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE R11-R17 record pages and DOC_ files with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Found R16's decryption file byte-identical to R15's (md5), so R16 was never decrypted.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Applied Lasry's F18 key to the DECODE transcription of R16: 1,410 pairs, 66 unknown, readable Italian on the 1586 alienation bull.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "R17: DECODE F22 key is incomplete (full key in Meister p. 393) and its decryption file is a crash log.",
+   "result": "partial",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "verification": [
+   "key confirms"
+  ],
+  "notes": "R16 letters read, ~20 nomenclator codes open; R15 read before; R17 open."
+ }
+}

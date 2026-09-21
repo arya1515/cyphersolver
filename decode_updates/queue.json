@@ -2838,6 +2838,29 @@
      "reading_not_needed": true
     }
    }
+  },
+  "bergamo1585": {
+   "writeup": null,
+   "key": {
+    "decode": "Lasry's F18 key already on R15/R16 (D3103, D3105)",
+    "lang": "IT"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R16": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "The decryption file on R16 (D3104) is a copy of R15's (D3102). R16 itself decrypts with the F18 key applied to TimB's transcription D1610: 1,410 pairs, 66 unknown; ~20 nomenclator codes open.",
+     "reading": [
+      {
+       "file": "bergamo1585/R16_decryption.txt",
+       "section": ""
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

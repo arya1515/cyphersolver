@@ -5913,7 +5913,7 @@
    "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 18 (3 items)",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R15–R17 (3 records): Partially decrypted, 9 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Monsignori nuntii, vescovo di Bergamo, arcivescovo di Nazaret. Cifre del Nunzio alla Segreteria.",
+   "status": "DECODE R15–R17 (3 records): Partially decrypted, 9 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Monsignori nuntii, vescovo di Bergamo, arcivescovo di Nazaret. Cifre del Nunzio alla Segreteria. Checked 21 Sept 2026: R15 read by Lasry on DECODE; R16 read in part here with his F18 key (DECODE's R16 decryption file is a copy of R15's); R17 open (F22 key incomplete, full key in Meister p. 393). See bergamo1585/.",
    "why": "Ciphered despatches of The bishop of Bergamo and the archbishop of Nazareth to The secretariat, 1 Jan 1585; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 3,
@@ -6081,109 +6081,6 @@
     188
    ],
    "scored": "rule"
-  },
-  {
-   "id": 252,
-   "counted": true,
-   "year": 1573,
-   "date": "1 Jan 1573",
-   "title": "The nuncio (France) to The secretariat",
-   "correspondents": "The nuncio → The secretariat",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 6",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R11: Partially decrypted, 5 pp., nomenclator, simple substitution; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Lettere originali e cifre del nunzio alla Segretaria. Lettere originali di Serafino Olivieri alla Segreteria.",
-   "why": "Ciphered letter of The nuncio to The secretariat, 1 Jan 1573; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R11",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/11"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    11
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 257,
-   "counted": true,
-   "year": 1625,
-   "date": "16 Feb 1625",
-   "title": "French Nuncio (France) to The Secretariat, 10 ciphertexts",
-   "correspondents": "French Nuncio → The Secretariat",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1611-1650",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 64 (10 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R62–R71 (10 records): Partially decrypted, 81 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Lettere del nuntio in Francia, 1625. Lett. Originale cifre del nunzio alla segretaria dal 16 febr 1625 al 5 decembre 1625. ff. 5-617. Min. cifre della Segretaria al nunzio, dall 11 settembre 1625 al 30 decembre 1625 ff. 345-622. mm. 310x2… ",
-   "why": "The nuncio in Paris in 1625 on the Valtelline war, when French troops had driven the papal garrisons out of the valley.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R62",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/62"
-    },
-    {
-     "label": "DECODE R63",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/63"
-    },
-    {
-     "label": "DECODE R64",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/64"
-    },
-    {
-     "label": "DECODE R65",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/65"
-    },
-    {
-     "label": "DECODE R66",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/66"
-    },
-    {
-     "label": "DECODE R67",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/67"
-    },
-    {
-     "label": "+4 more records",
-     "href": null
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    62,
-    63,
-    64,
-    65,
-    66,
-    67,
-    68,
-    69,
-    70,
-    71
-   ],
-   "scored": "reviewed"
   },
   {
    "id": 258,
