@@ -355,12 +355,13 @@
  "outcome": {
   "class": "read in part",
   "fraction_read": 0.983,
+  "fraction_coherent": 0.65,
   "verification": [
    "contemporary decipherment",
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
+  "notes": "fraction_read counts cipher tokens given a value; fraction_coherent (0.65, midpoint of the 55-80% range in NOTES, an estimate) is the share of text that reads as sense. Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
   "gaps": [
    {
     "item": "All nine letters, the garbled stretches (20-45% per letter; R4736 and R3814 worst)",

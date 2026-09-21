@@ -65,13 +65,13 @@
   {"date": "2026-09-21", "kind": "reading", "what": "Read the second cipher paragraph of R9660 f. 141r with the 1524 key; about half the tokens resolve.", "result": "partial"}
  ],
  "outcome": {
-  "class": "read in part",
+  "class": "already solved",
   "fraction_read": 0.02,
   "grades": "unknown",
   "verification": [
    "historical consistency"
   ],
-  "notes": "Four letters already in print as calendar abstracts; R9660 read in part as a sample; full transcription left, no cryptanalysis outstanding. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "notes": "Class set to already solved on 21 Sept 2026: the court deciphered these at the time and Bergenroth calendared them (CSP Spain 2); this project read only a sample of R9660 (fraction_read 0.02). Four letters already in print as calendar abstracts; R9660 read in part as a sample; full transcription left, no cryptanalysis outstanding. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
   "gaps": [
    {"item": "R9660 (20 Feb 1523, ff. 141-147), all but the sample paragraph of f. 141r", "blocker": "not-attempted", "detail": "the key applies unchanged (section 2), only the token-tile transcription was not done"},
    {"item": "R9665 (26 Apr 1523, ff. 437-438), its cipher passages", "blocker": "not-attempted", "detail": "short and mostly clear, never transcribed"},

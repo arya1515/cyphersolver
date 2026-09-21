@@ -272,7 +272,7 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count.",
+  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count.",
   "gaps": [
    {
     "item": "R4282 (Latin letter cipher, ~1,000 letters)",

@@ -1,0 +1,229 @@
+{
+ "schema_version": 1,
+ "target": "morosini1588",
+ "title": "Cardinal Morosini, legate in France, to Cardinal Montalto, 1588-89, 36 cipher enclosures (AAV Segr. Stato Francia 22, DECODE R18-R22, R27-R49, R51-R58)",
+ "documents": [
+  {
+   "id": "meister40-set",
+   "shelfmark": "AAV Segr. Stato Francia 22, items 22/1-28, 22/30-31, 22/34-37 (DECODE R18-R22, R27-R49, R51, R52, R55-R58)",
+   "date": "Aug 1588 - Jul 1589",
+   "year": 1588,
+   "country": "Vatican",
+   "route": "Paris/Blois/Tours/Moulins -> Rome",
+   "language": "Italian",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment found; clear duplicates of the covering letters only (R18/R19 DOC_1806/1807). No edition of Morosini's legation found (searched 19 Sept 2026)."
+   },
+   "length": {
+    "tokens": 232557,
+    "distinct": 10,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE volunteer transcriptions (2017), digit by digit",
+    "image_quality": "unknown",
+    "notes": "Count is single digits, not code groups: the 1-3 digit homophones run on without separators, so group count depends on the segmentation. Off-list dotted codes are thought to be transcription slips, not checked against images. Measured on the concatenation of decode/DOC_R*_D16xx-D18xx.txt (37 files for 34 records, D1806/D1807 clear duplicates excluded) with --width 1."
+   }
+  },
+  {
+   "id": "f22b-set",
+   "shelfmark": "AAV Segr. Stato Francia 22, items 22/32-33 (DECODE R53, R54)",
+   "date": "spring 1589 (R54: Moulins, 11 May 1589)",
+   "year": 1589,
+   "country": "Vatican",
+   "route": "Tours/Moulins -> Rome",
+   "language": "Italian",
+   "pages": "unknown",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; only Lasry's partial key reconstruction (DECODE 'F22b', 2020)."
+   },
+   "length": {
+    "tokens": 1448,
+    "distinct": 10,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode/DOC_R54_D1825_1825.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE volunteer transcriptions (Mar-Apr 2017)",
+    "image_quality": "unknown",
+    "notes": "Single digits counted (785 R53, 653 R54 by digit count). Some '?' digits in the transcription. Measured on DOC_R53_D1717_1717.txt + DOC_R54_D1825_1825.txt concatenated, --width 1."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Meister no. 40 (1587): homophonic letters, clusters and common words in 1-3 digit figures run together without separators, three-digit dotted nomenclator, nulls 8x; R53/R54 use a second syllabic key (F22b).",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": 10,
+  "diacritics": {
+   "used": true,
+   "note": "dot on the middle digit marks a nomenclator code (first digit in F22b)"
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 3,
+   "per_letter": {
+    "a": 3,
+    "b": 2,
+    "c": 2,
+    "d": 2,
+    "e": 3,
+    "f": 2,
+    "g": 2,
+    "h": 2,
+    "i": 3,
+    "k": 2,
+    "l": 2,
+    "m": 2,
+    "n": 3,
+    "o": 3,
+    "p": 2,
+    "qu": 2,
+    "r": 3,
+    "s": 3,
+    "t": 3,
+    "u": 3,
+    "x": 1,
+    "z": 1
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "none used",
+  "notes": "Decoded by beam search over segmentations scored with the shared it-cinquecento 5-gram model (decrypt.py). Null rule: 8 plus any following digit."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Key printed in Meister, Die Geheimschrift im Dienste der paepstlichen Kurie (1906) no. 40; Lasry's partial reconstruction on DECODE R18 (DOC_3175, Oct 2020) with the note 'full key in Meister', and his partial F22b key; no plaintext posted, records listed 'partially decrypted'.",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code and posed the problem; no target-specific intervention recorded.",
+  "tools": [
+   "decrypt.py (beam-search segmentation)",
+   "lang/ it-cinquecento model"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": "unknown",
+  "first_date": "2026-09-19",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-19",
+   "kind": "access",
+   "what": "Fetched the DECODE records R18-R58 (transcriptions, images, attached key documents); identified R23-R26 and R50 as other material.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "key from source",
+   "what": "Took the key from Meister 1906 no. 40 (scan and Lasry's reconstruction attached to R18).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "solver",
+   "what": "Wrote decrypt.py: beam search over 1-3 digit segmentations with the Italian 5-gram model, nomenclator for dotted codes.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "reading",
+   "what": "Read 34 of 36 enclosures end to end; per-item summaries written.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "sibling key",
+   "what": "Applied Lasry's partial F22b reconstruction (~70 elements) to R53/R54.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "literature search",
+   "what": "Searched for an edition of the legation (Acta Nuntiaturae Gallicae); none found.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Partial-reading audit: listed remaining gaps (F22b letters, off-list dotted codes, item 22/29) and open escalation steps.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.99,
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "gaps": [
+   {
+    "item": "R53, R54 (items 22/32-33, Tours and Moulins, spring 1589)",
+    "blocker": "no-key-material",
+    "detail": "second syllabic key F22b; only Lasry's partial reconstruction (~70 elements); Meister prints only no. 40"
+   },
+   {
+    "item": "dotted nomenclator codes outside Meister's list (162, 191, 250, 516, 617, 716, 770; ~1 per page)",
+    "blocker": "open-codes",
+    "detail": "most look like transcription slips of a dotted digit; not checked against the images"
+   },
+   {
+    "item": "item 22/29",
+    "blocker": "needs-physical-access",
+    "detail": "no DECODE record; not imaged"
+   }
+  ],
+  "notes": "fraction_read estimated: Meister-key digits 232,557 of 234,005 (99.4%) read, less ~1-3% single-letter slips and off-list codes; R53 not decoded, R54 decoded only in part. Class read in part because R53/R54 are not read."
+ }
+}

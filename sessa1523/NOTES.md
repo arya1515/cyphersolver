@@ -61,3 +61,7 @@ Images: `img/` (DECODE, fetched with the saved cookie; RAH permission required, 
 - [x] print: Bergenroth CSP Spain vol. 2 matched by folio (nos. 534, 540, 541, 544, 545); R9660 and R9665 not calendared
 - [ ] key-rebuild: not done — use the CSP 534/540/544 abstracts against their ciphertext to confirm and extend the key (vo, per, ruc, hay)
 - [ ] retry: not done — run tokens.py over R9660 ff. 141-147 and R9665 and read them with sessa1524/key_working.md
+
+Outcome class (21 Sept 2026): **already solved**. The court deciphered these letters at the time and Bergenroth
+calendared them; this project read only a sample of R9660, so "read in part" overstated its own share. The gaps above
+stay as the to-do list for a full transcription.

@@ -161,6 +161,7 @@
    "properties": {
     "class": {"type": "string", "enum": ["read", "read in part", "not read", "not a cipher", "already solved", "offline only"]},
     "fraction_read": {"type": "number", "minimum": 0, "maximum": 1, "description": "Share of enciphered tokens given a value."},
+    "fraction_coherent": {"type": "number", "minimum": 0, "maximum": 1, "description": "Share of the enciphered text whose reading makes sense, when it differs materially from fraction_read (e.g. a complete key over a noisy transcription)."},
     "grades": {"type": "object", "properties": {"H": {"type": "integer"}, "C": {"type": "integer"}, "M": {"type": "integer"}, "I": {"type": "integer"}},
      "description": "Counts of readings by grade, README Conventions."},
     "verification": {"type": "array", "items": {"type": "string", "enum": ["matched control", "independent clear copy", "contemporary decipherment", "key confirms", "historical consistency", "none"]}},
