@@ -53,20 +53,20 @@ dispongo a ello con toda la celeridad y presteza que el caso requiere."* Then:
 | line | transcription | reading |
 |---|---|---|
 | 5 end | zec | *mas* |
-| 6 | zie zag bob baq vap O B R A xo xiz xe baz xir E T R A B A I O xam vac | *[paresce?] me que si buena obra como esta, con tanto diferencia e trabajo desto armada* |
+| 6 | zie zag bob baq vap O B R A xo xiz xe baz xir E T R A B A I O xam vac | *parece me que si buena obra como esta, con tanto diferencia e trabajo desto armada* |
 | 7 | zik xem P A S A R xa S O L O xie baq-N yol R E M U N E R A C I O N | *no deve pasar caso, solo cargo sin grande remuneración* |
-| 8 | E° xob bob xiz boy bit I A baq xuy H R E A P R O P O S I T O xup bep | *[e] certificación que esta [boy] seria, si en [hrea] propósito de su* |
-| 9 | S A L T E Z A S A zik H A B L O xuy E ? O zeb bob xix boy zik | *(de su) s[us] altezas [sa?] no hablo en [esto], [zeb] que el tiempo no* |
-| 10 | bep F R E S E G U N L A N E C E S I D A D xuq S D zez bob yeb R A | *su-fre, segun la necesidad dellos [sd], por que [fabla-ra?]* |
-| 11 | xuy buy boy xuy S E M E I A N T E vog zie R I A T E ? E S E R zer R E S H E | *en tal tiempo, en semejante [vog] [zie] … [zer] …* |
-| 12 | T O A zie bob A B E N E F I C I O xiq vot Y zez xez xix ceh bob | *…toa [zie] que a beneficio de la christiandad; y por esto el yr que* |
+| 8 | E° xob bob xiz boy bit I A baq xuy H R E A P R O P O S I T O xup bep | *[e] [xob] que esta [boe/boc] seria, si empresa a propósito de su* (xuy + P R E S A = *en presa* = *empresa*; the ß sign reads P) |
+| 9 | S A L T E Z A S A zik H A B L O xuy E LL O zeb bob xix boy zik | *(de su) s[us] altezas, a[?]; no hablo en ello, [zeb] que el tiempo no* |
+| 10 | bep F R E S E G U N L A N E C E S I D A D xuq S D zez bob yeb R A | *su-fre, segun la necesidad dellos ay, por que [yeb-ra: fablara?]* |
+| 11 | xuy buy boy xuy S E M E I A N T E vog zie R I A T E ? E S E R zer R E S H E | *en tal tiempo, en semejante acatamiento pareceria tener mas respe-* (`zie`+R I A = *pareceria*; `zer` read as `zec` = *mas*; R E S P E + T O on l. 12) |
+| 12 | T O A zie bob A B E N E F I C I O xiq vot Y zez xez xix ceh bob | *-to a [lo que] parece que a beneficio de la christiandad; y por esto el yr que* |
 | 13 | T O C A A zuf ‖ yuy M O N G O L U E G O xuy O B R A yuy zer bob | *toca a mi, lo pongo luego en obra, lo [zer] que* (gloss: *lo pon[go] … luego*) |
 | 14 | xiy yuy xaq zub R E M I T O bux A [af] zez bob T E N E [..] zud xuo | *es lo del mar(?); remito se a … por que tene[mos] mejor dispusicion* (gloss: *mejor dispusicion*) |
 | 15 | E boy zez xiz R xuy baz P E L I G R O xix zol E [ap] baz L E X O S | *y tiempo, por estar en tanto peligro el negocio, e a tanto lexos* (gloss: *y tpo por estar en tanto … el negocio*) |
 | 16 | xup D O N ? ? E N E zuy zol R yuy bob [yo] xuy xaz xa bob R I X ~~xiy~~ | *de donde [..]ene puede negociar lo que yo en este caso que [rix]* (gloss: *de … puede … lo que yo … este caso*) |
 | 17 | Y viz bob bep S A L T E Z A S zik yuy A U R I A N zez zoc xiy | *y creo que su[s] altezas no lo avrian por mal; es* |
 | 18 | bob xiz N [H R E ? A A N] xaq biy bob xiz N xuy zoy xup ce bux P A S A | *que estan [..] del [Turco/Turquia] que estan en poder de venecianos se pasa-* |
-| 19 | S E N A zam zoy zec zez bob S E G U N yaz vaz xeq S ce Y O xaq zie | *-sen a nuestro poder, mas por que segun la condicion de los venecianos y o del [zie]* (glosses: *mas*, *la*, *[con]dicion*) |
+| 19 | S E N A zam zoy zec zez bob S E G U N yaz vaz xeq S ce Y O xaq zie | *-sen a nuestro poder, mas por que segun la condicion de los venecianos y o del parescer* (glosses: *mas*, *la*, *[con]dicion*) |
 | 20 | zik bue xo bux ben I A [H E P E N S A S O] bob bue xem P E D I R I S | *no [quanta] como se recebiria […] que [quanta] deve pedir […]* |
 | 21 | [O S S Y] zik vek xuy xiz zif bob «esta armada va en tanta estrañeza de reynos y la gente della mucha y de estraña condicion para cruzarse en mezcla de otra mucha gente, que sera bien que» zok xup N A R D O vik bu? | *no aquello en esta manera, que esta armada …; que sera bien que nos de [nardo?] aquella se …* |
 | 22 | P U E R T O S D E I T A [L I A] D O N D E «esta armada se pueda recoger quando el tiempo lo requiriese» | *puertos de Italia donde esta armada se pueda recoger quando el tiempo lo requiriese* |
@@ -75,7 +75,7 @@ dispongo a ello con toda la celeridad y presteza que el caso requiere."* Then:
 | 25 | Y H E R I D O S Y R O P A E V I T U A LL A S Y xez S zal | *y heridos y ropa e vituallas; y estos navios* |
 | 26 | S baq L E S ꝯ? D E R N A «reparar algo.» xup zif bob «podamos estar a» | *si les [..] reparar algo. De manera que podamos estar a* |
 | 27 | D O ? O N U E S T R O S I N «los ynconvenientes de estar en» C A S A | *[..] nuestro, sin los ynconvenientes de estar en casa* |
-| 28 | S A G E N A S S D E L E N T E C R E C E R Y xix zie zik bux zog | *agenas; [adelante] crecer; y el [zie] no se [zog]* |
+| 28 | S A G E N A S S D E L E N T E C R E C E R Y xix zie zik bux zog | *agenas; [adelante] crecer; y el parescer no se [zog]* |
 | 29 | R A P xiz xup zoh zez bob bub xix zag LL A M O ziz xix xec xup | *[rap] esta de manda[do?] por que quando el me llamó para el cerco de* |
 | 30 | zems «le demande» yuy zuf S M O zez zag H I O xup G A R C I L A | *[zems] le demandé lo mismo por [me? medio?] de Garcila-* |
 | 31 | S O «y lo ovo por bien e me» ꝯ S zu? S O A ? vur [U I E I A E A] T A | *-so, y lo ovo por bien e me con[s…] … ciudad …* |
@@ -143,11 +143,26 @@ exchange, and the bargaining over Apulian ports is the price Gonzalo sets for it
   of the letter (CODOIN, Zurita, *Noticias inéditas del Gran Capitán*, archive.org full text; Serrano y Pineda's RABM
   series was not reachable).
 
+## Third pass: Sanuto's cribs on recto ll. 8–11 (21 Sept 2026)
+
+Lines 8–11 were re-read at 1.5× the full scan with Sanuto's terms as cribs (*cruciata*/*cruzada*, *jubileo*,
+precedence, victuals *por mis dineros*). None of them is in these lines: the stretch is about whether the enterprise
+suits Their Highnesses and about the season, not the conditions, which come later (ll. 21–27, harbours and
+vituallas). The re-read did settle other things:
+
+* `zie` = *parescer* (Tomokiyo's guess, *Paresce*): `zie` + R I A + T E N E R on l. 11 reads *pareceria tener*, and
+  the value fits all five places (*parece me que…*, *parece que a beneficio…*, *del parescer*, *el parescer no se…*).
+  Galende prints *Mercadoria* against `zie` and *Paresce* against `zix`; either his plate slips or the table the
+  secretariat issued differed.
+* l. 8 *si empresa a propósito de sus altezas* (`xuy` + P R E S A, the ß sign = P); l. 9 *no hablo en ello* (crossed T =
+  LL again); l. 10 *segun la necesidad dellos ay*; l. 11 *en semejante acatamiento pareceria tener mas respeto a*
+  (`vog` = *acatamiento* as printed; `zer` read as `zec` = *mas*, r and c being close in this hand).
+
 ## Open points
 
-1. Codes still not resolved after the second pass (which settled `zap` = `zag`, `bac` = `vac`, `xie`): `zie` (×5;
-   Tomokiyo guesses *Paresce*), `zer`, `zeb`, `zems`, `xob`, `boy` in l. 8, `bog` (×3; probably `boz` = todo),
-   `vog`, `bue`, `bi?`.
+1. Codes still not resolved after the second and third passes (which settled `zap` = `zag`, `bac` = `vac`, `xie`,
+   `zie` = *parescer*, `vog`, and `zer` as `zec`): `zeb`, `zems`, `xob`, `boe`/`boc` in l. 8, `bog` (×3; probably
+   `boz` = todo), `bue`, `bi?`, `yeb`+R A in l. 10.
 2. Stretches of letter signs not resolved: ll. 11, 18, 20, 21, 27, 28, 31–32, 34, 36 of f. 116r; f. 116v l. 10.
 3. The q-with-o sign reads R in *remuneración*/*remito* and N in *necesidad* (v4, v9): either two signs the eye
    merges at this resolution or a scribal slip.
