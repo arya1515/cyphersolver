@@ -146,3 +146,35 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# ---- phrase ranking: bigram model over the 1588 calendar, beam over whole runs with clear context ----
+def bigrams(paths):
+    import math
+    uni, bi = collections.Counter(), collections.Counter()
+    for p in paths:
+        w = re.findall(r"[a-z]+", open(p, encoding='utf8', errors='ignore').read().lower())
+        w = [norm(x) for x in w]
+        uni.update(w); bi.update(zip(w, w[1:]))
+    tot = sum(uni.values())
+    def lp(a, b):
+        return math.log((bi[(a, b)] + 0.1 * uni[b] / tot * 50) / (uni[a] + 5) + 1e-9)
+    return lp
+
+
+def phrase(before, signs, after, d, lp, beam=30, k=12):
+    lex = [(v[1], v[0]) for v in d.values() if v[1]]
+    prev = norm(before.split()[-1]) if before.split() else ''
+    hyps = [(0.0, prev, [])]
+    for s in signs:
+        cands = [(0, w, n) for n, w in candidates(s, d, k)] + [(e, w, n) for e, w, n in fuzzy(s, lex, k) if e > 0]
+        if not cands:
+            cands = [(3, '[' + s + ']', 1)]
+        new = []
+        for sc, last, out in hyps:
+            for e, w, n in cands:
+                new.append((sc + lp(last, norm(w)) - 2.5 * e, norm(w), out + [w]))
+        hyps = sorted(new, reverse=True)[:beam]
+    nxt = norm(after.split()[0]) if after.split() else ''
+    hyps = sorted(((sc + (lp(l, nxt) if nxt else 0), out) for sc, l, out in hyps), reverse=True)
+    return hyps[:3]
