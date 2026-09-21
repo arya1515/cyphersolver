@@ -1331,41 +1331,6 @@
    "on_list": "Tomokiyo"
   },
   {
-   "id": 83,
-   "counted": true,
-   "year": 1569,
-   "date": "26 Jul 1569",
-   "title": "... (England) to Lorde Regent of Scotlande",
-   "correspondents": "... → Lorde Regent of Scotlande",
-   "place": "England, Scotland",
-   "language": "...",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 33531 f 79-80",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R8348: Partially decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. moray/NOTES.md lists Add MS 33531 items; Bain no. 1103 records the 20 July 1569 Throckmorton letter as 'in cipher deciphered', so check Bain before attacking.",
-   "why": "Ciphered letter of ... to Lorde Regent of Scotlande, 26 Jul 1569; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8348",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8348"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8348
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 84,
    "counted": true,
    "year": 1568,
