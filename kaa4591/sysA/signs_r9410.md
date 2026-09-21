@@ -46,6 +46,8 @@ for the other letter's key and is NOT assumed to carry over).
 | Y | Ψ fork | Psi | 1 | |
 | H | Ħ underlined H | H | 1 | |
 | Z | Z/ⵤ with bar | - | 1 | |
+| K | big looped S/ℓ (split from d; see r9410_split.md) | - | 6 (v2) | word sign, not v |
+| U | upright H double-stem (split from #; see r9410_split.md) | - | 13 (v2) | = v/u; # proper = g |
 | ? | unreadable (blots) | | 13 | |
 
 Look-alikes: 8 (round) vs X (hourglass); 3 vs E (∋); j vs J (crossbar); x vs + ; d (δ) vs b (lollipop);
