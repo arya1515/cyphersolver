@@ -1,0 +1,155 @@
+{
+ "schema_version": 1,
+ "target": "middelmore1563",
+ "title": "Henry Middelmore to Secretary Cecil, 19 and 26 July 1563, BL Add MS 4136 ff. 155-157 (DECODE R9246, R9247)",
+ "documents": [
+  {
+   "id": "R9246",
+   "shelfmark": "BL Add MS 4136 (DECODE R9246)",
+   "date": "19 Jul 1563",
+   "year": 1563,
+   "country": "France",
+   "route": "Middelmore (Rouen) to Cecil (London)",
+   "language": "English",
+   "pages": 3,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii (1741) 470-75",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (Forbes's copy of the ciphered passages)",
+    "image_quality": "good",
+    "notes": "46 numbered passages on ff.155-157; not transcribed (printed). The same record also holds the 26 July letter and the foot of f.157 (Smith 17 Jan 1562/3)."
+   }
+  },
+  {
+   "id": "R9247",
+   "shelfmark": "BL Add MS 4136 (DECODE R9247)",
+   "date": "26 Jul 1563",
+   "year": 1563,
+   "country": "France",
+   "route": "Middelmore (Vallemont near Fecamp) to Cecil (London)",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii (1741) 490-92",
+    "partial": false
+   },
+   "length": {
+    "tokens": 18,
+    "distinct": 14,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_26jul.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (Forbes's copy of the ciphered passages)",
+    "image_quality": "good",
+    "notes": "Image identical to R9246 image 3. 26 passages; only the passages used for the key check transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic",
+   "code"
+  ],
+  "summary": "Middelmore's own cipher: about 25 signs (dotted digits and symbols) for letters, words kept apart, and code signs (∞ = Newhaven). Not Smith's key R9261. Checked on passages (1),(2),(4),(6),(9) of 26 July against Forbes's printed text.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true,
+   "kinds": [
+    "places"
+   ]
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "notes": "Key not fully rebuilt; the printed text covers every passage."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Patrick Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, vol. II (London 1741), pp. 470-75 and 490-92",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "text search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R9246 (3 images) and R9247 (1 image) with the shared DECODE cookie; R9247 is byte-identical to R9246 image 3.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Compared with Smith's key R9261 (same volume): different sign set, does not apply. No Middelmore key among R9260-R9262.",
+   "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "Grepped the Forbes Full View ii OCR (from smith1562) for Middelmore: both letters printed in full from the originals, Rouen 19 July and Vallemont 26 July 1563.",
+   "result": "worked"
+  },
+  {
+   "kind": "crib",
+   "what": "Aligned 26 July passages (1)=(6) 'my grief', (2) 'sorrows', (4),(9) ∞ 'Newhaven' with Forbes; consistent monoalphabetic fit (∓=m, λ=y/i, ω=g, 4=r, 8=e, ⊏=f).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 2
+  },
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Printed 1741 by Forbes. Catalogue entry 91 removed, no write-up."
+ }
+}

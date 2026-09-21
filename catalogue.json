@@ -1242,46 +1242,6 @@
    "scored": "rule"
   },
   {
-   "id": 91,
-   "counted": true,
-   "year": 1563,
-   "date": "19 Jul 1563 – 26 Jul 1563",
-   "title": "Mr. Middelmore to Secretary Cecil, 2 ciphertexts",
-   "correspondents": "Mr. Middelmore → Secretary Cecil",
-   "place": "London",
-   "language": "unknown",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 4136 (2 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R9246–R9247 (2 records): Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560).",
-   "why": "Ciphered despatches of Mr. Middelmore to Secretary Cecil, 19 Jul 1563 – 26 Jul 1563; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9246",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9246"
-    },
-    {
-     "label": "DECODE R9247",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9247"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9246,
-    9247
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 92,
    "counted": true,
    "year": 1562,

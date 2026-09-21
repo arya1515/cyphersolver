@@ -2949,6 +2949,43 @@
      ]
     }
    }
+  },
+  "middelmore1563": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/middelmore1563/NOTES.md (notes only, no site page)",
+   "key": {
+    "none": "no key on DECODE or in the volume; the reading is Forbes's printed text"
+   },
+   "cite": "Patrick Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, vol. II (London 1741), pp. 470-75 (19 July 1563) and 490-92 (26 July 1563)",
+   "fields": {
+    "plaintext_lang": "English",
+    "cleartext_lang": "English",
+    "start_day": "19",
+    "start_month": "7",
+    "start_year": "1563",
+    "end_day": "26",
+    "end_month": "7",
+    "end_year": "1563",
+    "city": "Rouen; Vallemont (near Fecamp)",
+    "author": "Henry Middelmore"
+   },
+   "records": {
+    "R9246": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Henry Middelmore to Cecil, Rouen 19 July 1563 (ff.155v-157, passages 1-46) and Vallemont 26 July 1563 (f.157, passages 1-26). Both printed in full, deciphered, in Forbes, Full View ii 470-75 and 490-92; key fit checked on the 26 July passages. f.155 top (16)-(22) ends an earlier letter; f.157 foot is Smith to the Queen 17 Jan 1562/3 (R9248).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9247": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Duplicate: its image is byte-identical to R9246 image 3 (f.157). Henry Middelmore to Cecil, Rouen 19 July 1563 (ff.155v-157, passages 1-46) and Vallemont 26 July 1563 (f.157, passages 1-26). Both printed in full, deciphered, in Forbes, Full View ii 470-75 and 490-92; key fit checked on the 26 July passages. f.155 top (16)-(22) ends an earlier letter; f.157 foot is Smith to the Queen 17 Jan 1562/3 (R9248).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
