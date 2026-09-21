@@ -242,6 +242,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 - **Cardinal Alessandrino → the nuncio in Spain, 1568–69**, catalogue 253 and 254, DECODE R93–R102 and R115. Read end to end with Lasry's reconstructed polyphonic key, 21 Sept 2026. See `alessandrino1568/`.
 
 - **An Orange prince (son of William V) → an officer of the émigré troops, c. 1795**, DECODE R1892 (KHA Prins Willem V inv. 339). 6×6 digit square broken ciphertext-only, both pages read in part, 21 Sept 2026. See [r1892/](r1892/).
+- **Prince Frederick of Orange → the Hereditary Prince, 7 May 1795**, DECODE R2242 (KHA Koning Willem I XVIII-3). Read in part with the R1892 key, 21 Sept 2026. See [r2242/](r2242/).
 - **Arend Willem van Reede → Van de Spiegel / Secret Committee, Berlin, 1787–1793**, DECODE R1026/R1027/R1893. R1026 and R1027 read with the 1782 Grand Chiffre (R1024), 452 of 472 groups, 21 Sept 2026; R1893 is another code, not read. See [vanreede1787/](vanreede1787/).
 - **Van Reede → William V, Berlin, 4 Feb 1792**, DECODE R1057 (catalogue 217). Read with R1024, 21 Sept 2026: a cover note for a lemon-juice despatch. See [vanreede1792/](vanreede1792/).
 - **Johan Isaac de Swart → Van Bleiswijk / States-General, St Petersburg, 1782 and 1787**, catalogue 224, DECODE R1036/R1040. R1036 read at 96.7% with the 1765 Croiset key (R1038), 21 Sept 2026. The second part of R1040 reads; its first 1,928 groups are in a missing codebook. See [deswart1782/](deswart1782/).

@@ -120,6 +120,7 @@
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
+  "prince frederick of orange to the hereditary prince, 7 may 1795": "2026-09-21",
   "prospero santa croce to cardinal del monte, 1553": "2026-09-21",
   "queen anne to the earl of peterborough, 22 february 1712": "2026-09-21",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
@@ -286,7 +287,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "4e416a566317",
+   "hash": "13b89286c173",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -476,7 +477,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "f95d2681450d",
+   "hash": "bca0539ffb7f",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -697,6 +698,11 @@
   "r2234": {
    "first": "2026-09-21",
    "hash": "32e95880eec3",
+   "updated": "2026-09-21"
+  },
+  "r2242": {
+   "first": "2026-09-21",
+   "hash": "f86d340b7986",
    "updated": "2026-09-21"
   },
   "raince": {
@@ -971,7 +977,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "cc8532c3f152",
+   "hash": "24d41918b8c5",
    "updated": "2026-09-21"
   },
   "yard1699": {

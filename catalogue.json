@@ -3645,41 +3645,6 @@
    "scored": "rule"
   },
   {
-   "id": 212,
-   "counted": true,
-   "year": 1795,
-   "date": "7 May 1795",
-   "title": "Willem George Frederik, Prince of Orange-Nassau (1774-1799) (London) to Willem Frederik, Prince of Orange-Nassau ()1772-1843 (the Heredary Prince)",
-   "correspondents": "Willem George Frederik, Prince of Orange-Nassau (1774-1799) → Willem Frederik, Prince of Orange-Nassau ()1772-1843 (the Heredary Prince)",
-   "place": "London, England",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Koning Willem I, inventarisnummer XVIII-3",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R2242: Non-decrypted, 4 pp., simple substitution; numerical; images login. Not viewed here. DECODE note: The letter is not signed, but the first lines seem to indicate that we are dealing with a letter by Prince Frederik to his older brother. The encrypted part of this letter seems to written by somebody else, originating from a letter sent under cover to his ban…",
-   "why": "Ciphered letter of Willem George Frederik, Prince of Orange-Nassau (1774-1799) to Willem Frederik, Prince of Orange-Nassau ()1772-1843 (the Heredary Prince), 7 May 1795; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2242",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2242"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2242
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 214,
    "counted": true,
    "year": 1752,

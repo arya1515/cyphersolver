@@ -1,0 +1,190 @@
+{
+ "schema_version": 1,
+ "target": "r2242",
+ "title": "Prince Frederick of Orange to the Hereditary Prince, London, 7 May 1795 (KHA Koning Willem I XVIII-3; DECODE R2242)",
+ "documents": [
+  {
+   "id": "R2242 p1",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Koning Willem I, inv. XVIII-3; DECODE R2242",
+   "date": "1795-05-07",
+   "year": 1795,
+   "country": "England",
+   "route": "Prince Frederick (London) -> the Hereditary Prince",
+   "language": "Dutch",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Clear Dutch written under the four cipher lines on page 1 (contemporary)."
+   },
+   "length": {
+    "tokens": 138,
+    "distinct": 49,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p1.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R2242_I15891-I15894, rotated and cut into strips",
+    "image_quality": "fair",
+    "notes": "Token counts include word signs."
+   }
+  },
+  {
+   "id": "R2242 p3",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Koning Willem I, inv. XVIII-3; DECODE R2242",
+   "date": "1795-05-07",
+   "year": 1795,
+   "country": "England",
+   "route": "Prince Frederick (London) -> the Hereditary Prince",
+   "language": "Dutch",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record."
+   },
+   "length": {
+    "tokens": 785,
+    "distinct": 168,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p3.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R2242_I15891-I15894, rotated and cut into strips",
+    "image_quality": "fair",
+    "notes": "Token counts include word signs."
+   }
+  },
+  {
+   "id": "R2242 p4",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Koning Willem I, inv. XVIII-3; DECODE R2242",
+   "date": "1795-05-07",
+   "year": 1795,
+   "country": "England",
+   "route": "Prince Frederick (London) -> the Hereditary Prince",
+   "language": "Dutch",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record."
+   },
+   "length": {
+    "tokens": 319,
+    "distinct": 68,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p4.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R2242_I15891-I15894, rotated and cut into strips",
+    "image_quality": "fair",
+    "notes": "Token counts include word signs."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic"
+  ],
+  "summary": "6x6 digit square, each letter a vertical pair of digits 1-6 (top over bottom), with some thirty graphic signs for words or names.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 25,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "doubled_letters": "written out",
+  "sibling_key": "R1892 (same key, this project)",
+  "notes": "Same 6x6 vertical-digit-pair square as R1892; word signs partly fixed from page-1 clear text."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "page 1 carries its own clear Dutch under the cipher; pages 3-4 not deciphered anywhere",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "sibling key",
+  "human_role": "Project-level: DECODE login cookie supplied, problem posed with /goal. No target-specific intervention.",
+  "tools": [
+   "DECODE filesrv download",
+   "PIL rotation and strips",
+   "R1892 apply.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R2242 record and four images with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "DECODE note points to R1892; same vertical digit pairs, so tried the R1892 key.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "One ciphered word in the clear page 2: 24 43 25 55 15 15 65 = famille.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Two subagents transcribed p1 (4 lines), p3 (17 lines), p4 (8 lines + P.S.).",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "control",
+   "what": "Page 1 clear Dutch under the cipher agrees with the R1892-key decrypt and fixes ~12 word signs.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "p3-p4 decrypted with the R1892 key: alliance, scattered troops, Basel ratification, ambassadors to Paris, Robespierrism.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.85,
+  "verification": [
+   "historical consistency",
+   "contemporary decipherment"
+  ],
+  "notes": "All digit pairs map with the R1892 key; about twenty word signs on p3-p4 unread; several doubtful pairs in the LLM transcription."
+ }
+}

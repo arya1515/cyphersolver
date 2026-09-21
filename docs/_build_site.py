@@ -774,6 +774,11 @@ PAGES = [
          blurb='DECODE R1892, two pages in the papers of Prince William V catalogued as an unsolved letter from an unknown writer. Every letter is a pair of digits 1&ndash;6 written one above the other; the square was recovered ciphertext-only from the Dutch postscript and read the French page unchanged. A son of the Stadholder tells the officer of the Dutch troops in Germany to accept it if General Dundas stops their pay or orders them to embark, and to explain their footing in British service. About thirty graphic word signs remain unread.',
          quote='&ldquo;il faudroit y souscrire et vous borner uniquement &agrave; t&acirc;cher d&rsquo;obtenir &hellip; une gratification&rdquo;',
          rights='Koninklijk Huisarchief, The Hague, via DECODE'),
+    dict(slug='r2242', label='Prince Frederick 1795', year='1795', y=1795.35, place='London &rarr; the Hereditary Prince', st='partial', stt='read in part',
+         title='Prince Frederick of Orange to his brother, 7 May 1795 &mdash; the &ldquo;non-decrypted&rdquo; R2242 reads with the R1892 key',
+         blurb='DECODE R2242, four pages in the papers of King William I catalogued as an unread numerical substitution. The digit pairs are the square recovered for R1892, and it reads them unchanged; page 1 carries its own clear Dutch under the cipher, which confirms the key and a dozen word signs. The cipher pages report the scattered &eacute;migr&eacute; troops, the Basel ratification and envoys sent to Paris. About twenty word signs remain unread.',
+         quote='&ldquo;dan zoo zij geen Robespierismus durven te introduceeren&rdquo;',
+         rights='Koninklijk Huisarchief, The Hague, via DECODE'),
     dict(slug='r2234', label='Basle to William V 1796', year='1796', y=1796.6, place='Basle &rarr; William V', st='solved', stt='read',
          title='An Orangist at Basle to William V, 17 August 1796 &mdash; the &ldquo;non-decrypted&rdquo; R2234 reads with its own key sheet',
          blurb='DECODE R2234, one page in the papers of Prince William V catalogued as an unread homophonic letter. The key sheet R2235 in the same file gives five alphabets, D, G, L, N and R; the letter changes alphabet on every line, starting from the capital that opens each section. Read that way, a correspondent at Basle asks for money and a decision on his lodging and reports on Salm&rsquo;s hussars, Barth&eacute;lemy, Degelmann and the French armies of Italy and the Rhine.',
@@ -904,6 +909,7 @@ IMAGES['roell1809'] = ('roell1809_lead.jpg', 'R1469, first page: &ldquo;Monsieur
 IMAGES['rechteren1785'] = ('rechteren1785_lead.jpg', 'Head of the deciphered letter, &ldquo;Ont cyfferde Missive&rdquo;, 23 Sept/4 Oct 1785, with the cipher groups down the margin', 'Nationaal Archief, The Hague, via DECODE R1039')
 IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
 IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')
+IMAGES['r2242'] = ('r2242_lead.jpg', 'Page 1: four cipher lines, the clear Dutch written beneath', 'Koninklijk Huisarchief, The Hague, via DECODE R2242')
 IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D, the date in clear, then one line per alphabet', 'Koninklijk Huisarchief, The Hague, via DECODE R2234')
 IMAGES['r2232'] = ('r2232_lead.jpg', 'The opening of the letter: clear text, then the numbers with superscript indices', 'Koninklijk Huisarchief, The Hague, via DECODE R2232')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
