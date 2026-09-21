@@ -5481,41 +5481,6 @@
    "writeup": "fagel1804.html"
   },
   {
-   "id": 222,
-   "counted": true,
-   "year": 1801,
-   "date": "25 Jul 1801",
-   "title": "Wolff (The Hague) to Wilhelmina, Princess of Prussia (1751-1820)",
-   "correspondents": "Wolff → Wilhelmina, Princess of Prussia (1751-1820)",
-   "place": "The Hague, Batavian Repub;ic",
-   "language": "French",
-   "region": "Low Countries",
-   "period": "1801-1900",
-   "shelfmark": "KHA The Hague, Wilhelmina Prinses van Pruisen, inventarisnummer 192",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R2232: Non-decrypted, 3 pp., homophonic; numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R2233 (1801). DECODE note: Wilhelmina was a cousin of the Prussian king Frederick the Great and the wife of Stadholder Willem V. At the time of the writing of this letter, the couple was still living in London, as guests of the British royal family. I could not as yet establish the iden…",
-   "why": "Ciphered letter of Wolff to Wilhelmina, Princess of Prussia (1751-1820), 25 Jul 1801; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2232",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2232"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2232
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 223,
    "counted": true,
    "year": 1763,

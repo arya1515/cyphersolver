@@ -2876,6 +2876,23 @@
      "sent": false
     }
    }
+  },
+  "r2232": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/r2232.html",
+   "key": {
+    "decode": "R2233"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R2232": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the key R2233 (Wolff's letter of 8 Sept 1801): number = row of four consecutive values, superscript 1-4 (bare = 1) picks one. Pages run image 2, 3, 1. Sender signs Wolff.",
+     "reading": "decode_updates/decryptions/R2232.txt",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

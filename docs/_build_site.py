@@ -684,6 +684,11 @@ PAGES = [
          blurb='DECODE R2234, one page in the papers of Prince William V catalogued as an unread homophonic letter. The key sheet R2235 in the same file gives five alphabets, D, G, L, N and R; the letter changes alphabet on every line, starting from the capital that opens each section. Read that way, a correspondent at Basle asks for money and a decision on his lodging and reports on Salm&rsquo;s hussars, Barth&eacute;lemy, Degelmann and the French armies of Italy and the Rhine.',
          quote='&ldquo;la jonction de l&rsquo;arm&eacute;e d&rsquo;Italie &agrave; celle du Rhin par le Tyrol; cela ne ressemble pas &agrave; la paix&rdquo;',
          rights='Koninklijk Huisarchief, The Hague, via DECODE'),
+    dict(slug='r2232', label='Wolff to Wilhelmina 1801', year='1801', y=1801.6, place='The Hague &rarr; the Princess of Orange', st='solved', stt='read',
+         title='Wolff to Princess Wilhelmina, 25 July 1801 &mdash; the &ldquo;non-decrypted&rdquo; R2232 reads with the key he sent after it',
+         blurb='DECODE R2232, three pages from an unidentified Wolff at The Hague to the exiled Princess of Orange, listed as unread. The next record, R2233, is his covering letter of 8 September 1801 with the key: 45 rows of four consecutive values, a number with a superscript picking one. Applied unchanged it reads the whole letter: a 1798 plan for a landing at Le Havre and in Holland, an arrest on 14 September 1795 and 39 months in prison, and a plea for British half-pay.',
+         quote='&ldquo;je n&rsquo;aurais point soupir&eacute; 39 mois et 5 jours dans la prison&rdquo;',
+         rights='Koninklijk Huisarchief, The Hague, via DECODE'),
     dict(slug='dedem1788', label='Van Dedem 1788&ndash;99', year='1788&ndash;1799', y=1788.9, place='Constantinople &rarr; The Hague', st='stuck', stt='key not found',
          title='Van Dedem at Constantinople, 1788&ndash;1799',
          blurb='Four ciphered despatches of the Dutch ambassador to the Porte. The 1788 letter was read at the time: its decipherment is filed as DECODE R2121. The 1789 and 1793 letters use the same heavily homophonic word code, which three deciphered siblings are not enough to rebuild, and the 1799 despatch uses a different marked system.',
@@ -797,6 +802,7 @@ IMAGES['rechteren1785'] = ('rechteren1785_lead.jpg', 'Head of the deciphered let
 IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
 IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')
 IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D, the date in clear, then one line per alphabet', 'Koninklijk Huisarchief, The Hague, via DECODE R2234')
+IMAGES['r2232'] = ('r2232_lead.jpg', 'The opening of the letter: clear text, then the numbers with superscript indices', 'Koninklijk Huisarchief, The Hague, via DECODE R2232')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
 
 SURVEYS = ('famous', 'solved')

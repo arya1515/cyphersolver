@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "target": "r2232",
+ "title": "Wolff (The Hague) to Wilhelmina of Prussia, Princess of Orange, 25 Jul 1801 (KHA Wilhelmina Prinses van Pruisen inv. 192; DECODE R2232)",
+ "documents": [
+  {
+   "id": "R2232",
+   "shelfmark": "Koninklijk Huisarchief, The Hague, Wilhelmina Prinses van Pruisen (A32), inv. 192; DECODE R2232",
+   "date": "1801-07-25",
+   "year": 1801,
+   "country": "Netherlands",
+   "route": "Wolff (The Hague) -> Wilhelmina, Princess of Orange (London)",
+   "language": "French",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the DECODE images or record."
+   },
+   "length": {
+    "tokens": 1065,
+    "distinct": 119,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE IMG_R2232_I15506-15508, rotated, cut into bands",
+    "image_quality": "good",
+    "notes": "Counted with grep over ct.txt number groups (the --measure tool also counts the clear words kept in capitals: 1416 tokens)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Numbers 1-45 with superscript index 1-4: row N lists four consecutive values of one running sequence of fractions, digits and letters; the index picks one. Up to four homophones per letter.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 119,
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "alphabetical",
+  "word_division": "kept",
+  "doubled_letters": "written out",
+  "sibling_key": "DECODE R2233, Wolff's letter of 8 Sept 1801 sending the key; used directly.",
+  "notes": "Accented letters à, ô, û have their own values; the vowels a e i o u repeat after z, giving them extra homophones."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE status non-decrypted; R2233 note describes the system but gives no reading",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: DECODE login cookie supplied, problem posed with /goal. No target-specific intervention.",
+  "tools": [
+   "DECODE filesrv download",
+   "PIL rotation and crops",
+   "python substitution decoder"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R2232 (3 images) and the next record R2233 with the session cookie; R2233 is Wolff's covering letter of 8 Sept 1801 with the key.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Transcribed the R2233 key: 45 rows of four consecutive values of one sequence (0 1/8 1/4 1/2 1..9 à a..z with ô, û, then a e i o u a); group = row number + superscript index.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Tested the key on the ciphered year/place and signature of image 1: 'en 1791, à Berlin', 'Wolff'.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed all three pages (1,065 groups, 119 distinct) from rotated full-resolution bands; found page order P2, P3, P1.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Decoded mechanically; corrected a few one-place slips from context into reading.txt.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.97,
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Every group has a value; a few one-place slips corrected from context; two clear passages summarised, not transcribed."
+ }
+}
