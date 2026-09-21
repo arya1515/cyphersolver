@@ -104,6 +104,7 @@
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "spanish despatches of 1593: miranda, sessa and ibarra": "2026-09-19",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
+  "the cardinal de mâcon, rome and orvieto, to montmorency, 1536–37": "2026-09-21",
   "the conde de hernán núñez to baltasar de fuenmayor, stockholm, december 1674": "2026-09-21",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
@@ -195,7 +196,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "60f3b8915ef0",
+   "hash": "68e5876c2e8d",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -325,7 +326,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "66b35cb8484c",
+   "hash": "63c6a520b995",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -488,6 +489,11 @@
    "hash": "89201174d4d8",
    "updated": "2026-09-21"
   },
+  "rome1536": {
+   "first": "2026-09-21",
+   "hash": "d86298321347",
+   "updated": "2026-09-21"
+  },
   "ronquillo1676": {
    "first": "2026-09-21",
    "hash": "0936a922820d",
@@ -630,7 +636,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "90eb55f68479",
+   "hash": "57c4f29beb90",
    "updated": "2026-09-21"
   },
   "yard1699": {
