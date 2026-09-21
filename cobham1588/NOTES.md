@@ -93,3 +93,4 @@ Fragments only, grade M (probable) unless marked:
 4. Read the passages. The letters are in plain English and the context is known (Bourbourg talks, Armada news).
 
 Status: attempted, key partly rebuilt, open.
+- Cross-link: cypher-7e read R8482-R8487 (docs/harley287.html, harley287/key.tsv); its key has narrow ∧ = s, wide ∧ = t.
