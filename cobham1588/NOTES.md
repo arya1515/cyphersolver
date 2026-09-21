@@ -94,3 +94,29 @@ Fragments only, grade M (probable) unless marked:
 
 Status: attempted, key partly rebuilt, open.
 - Cross-link: cypher-7e read R8482-R8487 (docs/harley287.html, harley287/key.tsv); its key has narrow ∧ = s, wide ∧ = t.
+
+## Second pass, 21 Sept 2026 (with the harley287 key)
+
+Close crops (about 1.2× the full-resolution scan) of ff. 80r, 88r and 92r. Sign copies below are as seen; "?" is an
+unidentified sign. The narrow and wide ∧ forms and the ϕ-family (l / p / h) cannot be told apart reliably at this
+resolution, so the readings are from context and graded M or I.
+
+f. 80r
+- "and to our drag our forces ffrō c VIII8 f hoping them X ǂǂ ∧ϸ7 ◻ ϸ∪ǂǂ87∧ for what chaunces so ever you bestow
+  (and that must be great) it will ǂǂc∧ -7 WLϕ∧· ∧ϸ7 ϸo··7ǂǂ ⊥∧ Xd+o:·87 ) and me[mo] c: other wind hath blown …"
+  - "them in the ◻-pances": probably "expences" with ◻ standing for ex- (M). "it will not be … the haven(?) is …" (I).
+- "yf honorable for 7/∧c∂ oo7ϸ… ∪ǂǂ∧ϕ… (a long run, unread)", "as usuall in all ∧VZ∧T∧ in numbers, that at the
+  ∧VZ∧T c ǂǂ-V7oo which was the 20 and the ∧··- ⊥Ӿ8∧" (unread; ARMADA does not fit).
+
+f. 88r
+- "There is captain Montgomery of late gone into Scotland. 8⊥ϸ? ω c ǂǂ K ∪ ϕϕ ∧ ρ c V X ϸ with 40 men of ⊃8cǂǂ∪ have
+  promised ∧ϸ7 [the] ϸo··Lǂǂ of V∪+ǂǂ ∩ϕd∧ yn X c·⊥V∪ ∧ϸ7V to 15: of late there is …" (unread beyond "the").
+- next line: "… ∧7HLV∤∧ which have ⊃ẋV∧ ϕ7ǂǂ∧∤cǂǂ ϕcǂǂ∧ϸϕT …" (unread).
+
+f. 92r (27 May), after "200 mariners of Hambourgh that were at Sluys are returned to Dunkerk"
+- "⊥7ẋ⊥∧ ϕ⊥ẋϸϕ7ǂǂ and 8-ϕ⊥∪V ⊥cǂǂ ∩cǂǂ sent by …", "imprisoned in -V+o∓7∧. It is reported that they have 8ϸcVX
+  …", "of ϕ7∧∧··⊥V∧ which …" = "of letters" (M).
+
+Verdict of the second pass: not readable from the scans at sign level by this method. What would move it is a
+human transcription at the BL (or the DECODE images at full zoom, glyph by glyph, with a sign inventory drawn
+from the glossed ff. 75 and 89 first).
