@@ -1,0 +1,151 @@
+{
+ "schema_version": 1,
+ "target": "breves1610",
+ "title": "Marie de Médicis (Brulart) to Savary de Brèves, Rome, 15 Sept and 10 Nov 1610 (BnF fr. 3789)",
+ "documents": [
+  {
+   "id": "10nov1610",
+   "shelfmark": "BnF fr. 3789, stamped f. 19r (notice no. 12, 'fol. 21'); DECODE R2076",
+   "date": "10 Nov 1610",
+   "year": 1610,
+   "country": "France",
+   "route": "Paris -> Rome",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 40,
+    "distinct": 23,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_nov.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica btv1b9059628m canvas 36, full resolution",
+    "image_quality": "good",
+    "notes": "Code letters with a trailing comma are counted as separate tokens from the bare letter."
+   }
+  },
+  {
+   "id": "15sept1610",
+   "shelfmark": "BnF fr. 3789, stamped f. 17r (notice no. 11); DECODE R2075",
+   "date": "15 Sept 1610",
+   "year": 1610,
+   "country": "France",
+   "route": "Paris -> Rome",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 60,
+    "distinct": 29,
+    "unit": "mixed",
+    "measured": true,
+    "file": "ct_sept.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica btv1b9059628m canvas 32, full resolution",
+    "image_quality": "good",
+    "notes": "Two passages in one letter."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Probably the Henri IV-Brèves 1610 cipher (key BnF fr. 3642, DECODE R2077): homophonic alphabet using Latin letters as signs, plain and overbarred numeric codes and comma-marked letter codes.",
+  "symbol_kind": "digits and letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "R2077 (Henri IV to Brèves, 5 Jan 1610), key photo on DECODE",
+  "notes": "Attribution to the R2077 key rests on shared sign types and a DECODE note; not confirmed by a reading."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Tomokiyo (louisxiii.htm) and DECODE R2075/R2076: 'not deciphered'",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "key from archive",
+   "cleartext context"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "beam.py (beam search over key-derived candidate letters, fr-1600-letters LM)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Located no. 12 in the scan: notice folios run two ahead of the stamped foliation; letter is stamped f. 19 (canvas 36).",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the 10 Nov passage and the 15 Sept sibling from full-resolution canvases.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Applied values from the interlinear-deciphered Villeroy 1605 letter in the same volume (f. 26).",
+   "result": "ruled out"
+  },
+  {
+   "kind": "literature search",
+   "what": "Tomokiyo louisxiii.htm and DECODE: R2077 broken by Lasry/Biermann/Tomokiyo 2021; key in BnF fr. 3642, photo on R2077.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Read the 833-px key photo: alphabet, t-z box, codes 4-99, comma letter codes, barred 4-46; M-Z codes missing.",
+   "result": "partial"
+  },
+  {
+   "kind": "solver",
+   "what": "Beam search over each sign's candidate letters from the key reading, scored with fr-1600-letters.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": "unknown",
+  "notes": "Only 72 4 79 = [Conchine?] le pape avec is tentative. Blocked on a legible full key (BnF fr. 3642) or Lasry's R2077 decryption."
+ }
+}

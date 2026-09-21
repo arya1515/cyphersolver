@@ -148,17 +148,18 @@
    "period": "1598-1610",
    "shelfmark": "BnF fr. 3789 no. 12",
    "ark": "btv1b9059628m",
-   "folio_note": "",
+   "folio_note": "notice no. 12 = stamped f. 19r (canvas 36); sibling 15 Sept 1610 = stamped f. 17r",
    "cls": "C",
    "seen": "catalogue",
    "source": "BnF harvest",
-   "status": "No decipherment noted; the same volume holds deciphered Savoy (1606) and Villeroy (1605) letters.",
+   "status": "Attempted 21 Sept 2026: transcribed with its 15 Sept sibling (DECODE R2076/R2075). Probably the Henri IV–Brèves 1610 cipher broken by Lasry et al. 2021 (R2077; key BnF fr. 3642), but DECODE's 833-px key photo is partial and my reading of it gives no French.",
    "why": "Six months after Henri IV's assassination; the regency's Rome policy.",
    "importance": 3,
    "solvability": 2,
    "difficulty": 4,
    "score_note": "Single letter, no sibling; Brèves' other ciphers (1593–96, 1602–03) are known and worth testing.",
-   "verify": "Try Tomokiyo's Brèves keys; check Brèves' Rome despatches for a reply quoting it."
+   "verify": "Get Lasry's R2077 decryption or a legible image of BnF fr. 3642 and apply it; see breves1610/NOTES.md.",
+   "outcome": "attempted, open"
   },
   {
    "id": 30,
