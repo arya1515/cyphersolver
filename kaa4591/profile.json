@@ -1,0 +1,541 @@
+{
+ "schema_version": 1,
+ "target": "kaa4591",
+ "title": "BayHStA Kurbayern Äußeres Archiv 4591: fourteen ciphertexts bound in the Bavarian ducal key volume (DECODE R9291-R9427)",
+ "documents": [
+  {
+   "id": "R9291",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.36 (DECODE R9291)",
+   "date": "undated",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "unknown",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "A strip of cipher signs (key fragment), not a letter."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9319",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.96-114 (DECODE R9319)",
+   "date": "1583",
+   "year": 1583,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "unknown",
+   "pages": 17,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "Dot grille laid over a clear cover letter (f.115-118) that DECODE did not image."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9322",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.121-122 (DECODE R9322)",
+   "date": "24 Nov 1529",
+   "year": 1529,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "Latin",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment over lines 1-4 and the date; rest read here with the key rebuilt from it."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9323",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.123 (DECODE R9323)",
+   "date": "[1529-30]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "Latin",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Interlinear gloss over the first 3 lines; rest read here."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9325",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.129 (DECODE R9325)",
+   "date": "[1576]",
+   "year": 1576,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "Latin",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; read here with key R9324 from the same volume."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9367",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.169 (DECODE R9367)",
+   "date": "22 Mar 1535",
+   "year": 1535,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "None found."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9408",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.236-239 (DECODE R9408)",
+   "date": "[1535]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 7,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "None found; not transcribed."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9409",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.240-243 (DECODE R9409)",
+   "date": "[1530s]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 8,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "None found."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9410",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.244-247 (DECODE R9410)",
+   "date": "1535",
+   "year": 1535,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "A few interlinear letters on the last line."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9413",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.252-256 (DECODE R9413)",
+   "date": "[1530s]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 8,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial interlinear notes; not transcribed."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9416",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.262-263 (DECODE R9416)",
+   "date": "[c.1533-34]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "f.262 fully glossed at the time; f.263 glossed on its first lines only, broken here."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9417",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.264 (DECODE R9417)",
+   "date": "16 Jun [1530]",
+   "year": 1530,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "Latin",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Interlinear gloss over 14 of 28 lines; rest read here."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9424",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.274-277 (DECODE R9424)",
+   "date": "12 Jun 1583",
+   "year": 1583,
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 6,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Glosses over a few names on f.275r (Hildesheim, Würzburg, Eichstätt, Freising)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  },
+  {
+   "id": "R9427",
+   "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.287 (DECODE R9427)",
+   "date": "Apr [year illegible]",
+   "year": "unknown",
+   "country": "Germany",
+   "route": "unknown",
+   "language": "German",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Faint gloss over P1 lines 1-10."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE JPEGs, 3468x4624, read from crops",
+    "image_quality": "good",
+    "notes": ""
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "unknown"
+  ],
+  "summary": "Not one system: at least six — a letter substitution with nomenclator (R9325), a monoalphabetic graphic cipher with word signs (Łaski, R9322/23/17), homophonic graphic ciphers in German (R9416, R9368 family), a Latin-letter cipher (R9424), and a dot grille (R9319).",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "R9324 (key for R9325) in the same volume; R9423 key register of 19 1530s keys; R9422 1582-83 key probably for R9424",
+  "notes": "See NOTES.md table per record."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary interlinear decipherments on R9322, R9323, R9416, R9417, R9424 (names), R9427 and R9368 (a sibling); no edition of this volume found (web search 2026-09-21).",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "key from archive",
+   "sibling key"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: DECODE login cookie supplied; problem posed with /goal; the user asked for a period German model. No target-specific intervention.",
+  "tools": [
+   "kaa4591/anneal.py",
+   "lang de-1500s"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Web search for KAA 4591 and Augurelio ciphers",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "DECODE record list from the API dump (141 records in the volume); images of the 14 targets and 30 neighbouring keys fetched with the cookie",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "R9325 matched to key R9324 by identical null signs; applied",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Łaski cipher key rebuilt from 153 glossed word pairs on R9322/R9417; unglossed lines decoded",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R9416 f.262 gloss transcribed (read at the time)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Constrained homophonic annealing with de-modern on R9424",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Built de-1500s model from 145 Deutsches Textarchiv prints 1472-1609; annealing on R9416 f.263 (3150 signs) gave running German (Pressburg talks, Gritti)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R9416 f.263 re-transcribed splitting look-alike signs found by the solver's errors",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Key from the R9368 gloss applied to R9410",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "R9427 gloss aligned: 'ewr F.G.' anchors the R9409/R9410 system; pinned annealing on R9410 and R9409",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "R9423 key-register block 2_4 (Hz. Wilhelm) applied to R9367",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "R9422 (1582-83) Latin-letter alphabet applied to R9424",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Annealing with nulls allowed on R9424, R9367, R9410",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). Open: R9408, R9409, R9410, R9413, R9424, R9427, R9367; R9319 blocked (cover letters not imaged); R9291 is a key fragment.",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ]
+ }
+}

@@ -12,7 +12,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('file'); ap.add_argument('--model', default='de-modern')
 ap.add_argument('--chars', action='store_true'); ap.add_argument('--fix', default='')
 ap.add_argument('--iters', type=int, default=200000); ap.add_argument('--restarts', type=int, default=6)
-ap.add_argument('--nospace', action='store_true'); ap.add_argument('--cap', default='e3,n3,i2,r2,s2,t2,a2,d2,h2,u2'); ap.add_argument('--seed', type=int, default=1)
+ap.add_argument('--nospace', action='store_true'); ap.add_argument('--nulls', type=int, default=0); ap.add_argument('--cap', default='e3,n3,i2,r2,s2,t2,a2,d2,h2,u2'); ap.add_argument('--seed', type=int, default=1)
 a = ap.parse_args()
 random.seed(a.seed)
 M = lm.load(a.model, spaces=not a.nospace) if a.nospace else lm.load(a.model)
@@ -22,7 +22,7 @@ toks = sorted({t for w in words for t in w})
 fixed = dict(kv.split('=') for kv in a.fix.split(',') if kv)
 LET = 'abcdefghiklmnopqrstuwz'
 free = [t for t in toks if t not in fixed]
-CAP = {c: 1 for c in LET}; CAP.update({kv[0]: int(kv[1:]) for kv in a.cap.split(',') if kv})
+LET = LET + ('_' if a.nulls else ''); CAP = {c: 1 for c in LET}; CAP['_'] = a.nulls; CAP.update({kv[0]: int(kv[1:]) for kv in a.cap.split(',') if kv})
 from collections import Counter
 def ok(key):
     c = Counter(key[t] for t in free)
@@ -35,7 +35,7 @@ def rand_key():
 
 def text(key):
     j = '' if a.nospace else ' '
-    return j.join(''.join(key.get(t, '?') if len(key.get(t, '?')) else '' for t in w) for w in words)
+    return j.join(''.join(key.get(t, '?').replace('_', '') for t in w) for w in words)
 
 def score(key):
     return M.score_idx(M.encode(text(key)))

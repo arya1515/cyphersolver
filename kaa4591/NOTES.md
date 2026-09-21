@@ -15,19 +15,19 @@ they are separate letters in at least six systems, several with their key a few 
 | Record | Folio | What it is | System | Key | State |
 |---|---|---|---|---|---|
 | R9291 | 36 | a strip of cipher signs (alphabet row + second row), not a letter | graphic alphabet | itself a key fragment | reclassify |
-| R9319 | 96–114 | "Post Scripta": 17 pp. of squared paper with dots and crosses | grid/dot cipher | ? | |
+| R9319 | 96–114 | "Post Scripta", dockets "…83": squared grille sheets with dots, laid over a clear cover letter (f.116 visible under f.102: "Die 4 od 5000 Cronen…") | dot grille | the cover letters | **blocked**: f.115–118 not imaged on DECODE |
 | R9322 | 121–122 | f.121 Hieronymus Łaski, Buda 24 Nov 1529, copy of his letter to Count Palatine Frederick; f.122 King John of Hungary to Duke Ludwig of Bavaria, Buda 1529 | System B | rebuilt from glosses | **read** |
 | R9323 | 123 | Latin note to the Bavarian secretary (Łaski circle) | System B | rebuilt from glosses | 3 of 13 lines, rest in hand |
 | R9325 | 129 | Latin note, Fulda affair (1576) | letter substitution + nomenclator | **R9324 (f.124–127)** | **read** |
 | R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | signs | ? | |
 | R9408 | 236–239 | long unseparated text, some clear words | System A | Augurelio R9369? | |
-| R9409 | 240–243 | long unseparated text | other | ? | |
+| R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | open |
 | R9410 | 244–247 | German, 1535, clear words mixed in | System A | ? | |
 | R9413 | 252–256 | long unseparated text, partial interlinear notes | System A | ? | |
 | R9416 | 262–263 | pp.1–2 a Bavarian servant to his duke, "eritags nach Jacobi" (Tuesday after 25 July): troops in Austria/Styria, asks for 7 years' pension and the Oberrichter post at Straubing; pp.3–4 another sign set | homophonic signs | interlinear | pp.1–2 **read at the time**; pp.3–4 **broken ciphertext-only** (de-1500s model), report on the Pressburg talks between the two kings and the Turk |
 | R9417 | 264 | Łaski at Kraków, 16 June [1530], to the Bavarian secretary "Waisenfelder": Buda siege, Nicolaus Min… sent to France, meeting at Coburg | System B | rebuilt from glosses | **read** |
 | R9424 | 274–277 | German letter, cipher in Latin-letter substitution | letters | margin notes | |
-| R9427 | 287 | long unseparated text, faint interlinear decipherment at foot | System A-like | glosses | |
+| R9427 | 287 | German newsletter to a duke, 15–24 April (year illegible); gloss over lines 1–10 | System A′ | partial key from gloss: 5 a, 4/ω e, □ n, p i, 8 h, 9 o, ↓ r, ÿ t, 7 m, π b, X = F.G. | open |
 
 System A (signs ↓ ω π 4 8 ÿ …) is also the system of R9368, R9407 (Augurelio), R9411–R9412 (Cornelio Sperantio):
 the Bavarian agents in Rome/Italy, 1530s. Key R9369 (f.172) is "Dno Aurelio Augurelio".
@@ -87,6 +87,15 @@ tribute and "tausent tucaten"; "den hern Griti abgefertigt" (Alvise Gritti, kill
 cipher (sign codes f/z/j, H/K split in v2) is a homophonic simple substitution; codes "der d", "der g", "der h" are
 persons (probably Ferdinand, Gritti's party, the Hungarian king). State: read in part — running German with local
 errors; a clean reading needs the v2 transcription re-keyed and the 'y' sign split.
+
+## System A′ (R9409, R9410, R9427) — open
+
+R9427's gloss shows the most frequent group w3vX = "ewr F.G." (X a code sign for Fürstliche Gnaden). R9410's own crib
+and R9427's gloss agree on 5 a, 4/ω e, □ n, p i. Annealing (free, pinned, with compounds zo/CH/c+/4g merged, with nulls)
+on R9410 (1,423 signs) and on 3,000-sign samples of R9409 gives German fragments ("seiner zeit darum", "ewr F.G. mit",
+"die", "der") but not running text: the system is not a plain homophonic letter substitution at the level transcribed
+(likely polyphonic or syllabic signs, or sign splits the transcription merges). The R9368 key (another alphabet of the
+same family, glossed) does not fit. Next: align R9427's gloss sign by sign at full zoom for a complete key.
 
 ## Steps
 

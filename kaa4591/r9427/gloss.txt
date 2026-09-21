@@ -1,0 +1,32 @@
+R9427 BayHStA KAA 4591 f.287, P1 rotated 180. Gloss in faint lighter ink above cipher lines.
+L1 (over first cipher line, left half, first reading): a d m i ? h ? e u ? ? t ? d k o r g e p o r a b u r s ...  [uncertain]
+L2 (line beginning "15 Aprilis"?): ... h a b e n w i r ... e u n g ... e n e n ... e t  [German? 'haben wir']
+CORRECTION L1 reread at zoom: gloss = "durchleuchtig[er] hochgeborn fürs[t] ..." (German salutation). 
+ L1a signs (x-order): [big A-ornament] b E 3 v E d w H E y m ^ ; gloss letters positioned: d(over b/E) ur(over 3) ch(over v) l(over E) e(over d/w) u(over H) ch(over E) t(over y) i(over m) g(over ^)
+ L1b signs: 8 9 E H 4 A 9 g Q D 3 g A ; gloss: h(8) o(9) c/r(E) g(H) e(4) b?(A) o(9) r(g) n(Q) f(D/3) u(3/g) r(g) s(A)
+ L1c signs: x y q Q T w 8 q 6 m H r ; gloss faint: s t e n ? e r ? d i g h... -> probably "[für]st gnedig[er] h[err]" (letters: s t | ?e n | ? e r | d i g | h)
+ L1d signs: r o w d q Q E w x ; gloss: h e (r?) ... m m e n / m a n  d e ? -> "h[err] ... "; very faint, above: "mm en de i"
+L2 ("15 Aprilis" clear date, then cipher): signs 8 5 p 4 Q 0 P v w 3 v Q X 8 9 3 4 ^ w m ...; gloss "h a b e n w i r e w i n  n e u e z e i t[ung]" = "haben wir e(in) neue zeitung" (one gloss letter per sign for the first 12)
+ L2 cont.: signs w m y X p H \ x 9 L n n H 4 | 4 v b 5 H b q Q \ x 5 ; gloss "(z)e i t u n g | s o ? s e u e | e ? l a n ? ? e n ? ? m" -> "zeitung, so ... [eng?]land ..."  (rest uncertain)
+L3 signs: m o y 5 Q 6 w g Q A 5 E 4 Q o w 3 v X p w y v 4 b 4 | 8 6 y T 3 ^ w H m T H y x w v 8 9 b 4 Q 6 y ; gloss: "m i s t a n d e r n  g e s c h e h e n  e w r  f [ü]r b e t e | e n d t  i n  d e m  e r k l ? e r ..."  (German; "... geschehen, ... in dem erkl[ärt] ...")
+L4 signs: w 3 v X r - o p 4 Q A x 9 T 4 | 4 E \ x w 7 @ D 5 T w Q E 4 w p 4 | + m d \ x m E 5 H w g m g p y o q v
+ gloss: "e w r | f g (over X: X = code for F[ürstliche] G[naden]) | h a b e n (r o p 4 Q) | s o l (\ x 9 T) l c h (solich) | s e m m f ? e n ? l e i b ? ... | ? ? s e m a t e ..."  -> "ewr f.g. haben solich ..."
+ L5 gloss (partial, left): "k e i ? ? n e m e ? e t t ? ..." illegible; signs of L5 in transcription
+L6 (line above "21 Aprilis"): no gloss seen on left; mid/right gloss over the "21 Aprilis" line? -- NO: gloss band between L6 and L7 belongs to L7:
+L7 ("[ornament] 21 Aprilis" clear, then cipher): signs E - H 5 4 Q 4 v 6 4 \ x e H A 9 y 5 b | 8 4 4 4 o 7 m y p v 4 w D 9 8
+ gloss: "? ? n e ? d e t  ? ? ? ? n o t a b l e | ? i e  u n d  m i t  b r i e f e n"  (German, 'notable' written over A 9 y 5 b ...)
+L8 signs: 5 Q K 9 7 4 Q E 4 w 7 m v r | m m v T 4 Q E 4 w e + 5 3 \ ^ 4 | + ^ m 4 E 4 Q p w D 9 b E 4 Q 7 P
+ gloss: "a n k o m e n  d i e  m u ? ? | m o ? t e n  d i e  k w a n s  z u | ? ? e h e n  ? e ? ? ..."  -> "ankomen die mu[st?] ... wolten? die ... zu [s]ehen ..." ; 'ankomen' aligns 1:1 on 5 Q K 9 7 4 Q
+L9 signs: y E 4 7 z 4 Q b 5 d y E 5 \ x L n | n E e + S 3 7 y 5 m b p p w r H p 4 | 4 v y p 5 v 3 7 p E 6 E 4 v 9 e +
+ gloss: "? l e m a n h a l t .  d a s | s i c h  ? ?  ? m i t  ? ? l e  k w ? | ? ? t  w a r u m b  d o ? ? ? n e  k ? ?"  -> "... [Wi]leman halt, das sich ... warumb do[ch] ..."
+L10 signs: 4 7 w \ x 9 6 5 Q H H 9 4 4 v 4 v e + | \ x y 5 Q E 4 w p 4 \ x e - Q 8 m y E y T w H + v 4 p w H
+ gloss: "w i e  e  s t a n d  n o n d ? | ? ? e ? ? ? ? s t a n d  u n d  b e s ? | e n  n i c h t  g e s c h ? ? t ? e n"  (German; "... stand ... und ... nicht geschehen" style)
+
+SUMMARY
+- Gloss language: German (Early New High German: durchleuchtig, hochgeborn, haben wir, zeitung, ankomen, warumb, nicht geschehen).
+- Location: P1 only (after 180 rotation, the TOP of the page = lines 1-5 and 7-10). No gloss on P1 L6 or L11-end, none on P2.
+- Coverage: glosses run across whole lines (left to right margin) on L1-L4, L7-L10; L5 only partly legible. Ink is very faint; only
+  scattered words are secure: "durchleuchtig[er] hochgeborn fürst", "haben wir", "neue zeitung", "ewr f.g. haben", "notable",
+  "mit briefen", "ankomen die", "warumb", "stand und", "nicht gesch[ehen]".
+- Clear words in the cipher text: P1 L2 "15 Aprilis", P1 L7 "21 Aprilis", P1 ~L18 "Et primo"; P2 (also upside down): "25 [Maii struck] Aprilis",
+  "der 23 Aprilis", "Datu[m] 24 Aprilis", "Anno ?cccciij" (roman year, first element unclear), signature monogram of signs (L-box, box-with-dot, X).

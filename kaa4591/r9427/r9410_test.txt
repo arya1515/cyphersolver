@@ -1,0 +1,16 @@
+key (R9410 codes; x=s added from R9410 line-35 crib, unconfirmed on R9427): {'8': 'h', '5': 'a', 'n': 'b', 'b': 'b', 'q': 'n', '4': 'e', 'w': 'e', 'p': 'i', 'v': 'r', '3': 'w', '9': 'o', 'y': 't', '7': 'm', 'c': 'h', 'E': 'd', 'J': 'k', 'o': 'a', 'x': 's', 'X': '[FG]'}
+01 wqyj+dnxL48np7w5vXt3xwpq4vjwpyE5v37no9d5q[strucx:q#]d5#48
+   ent...bs.ehbimear[FG].wseiner.eitdarwmbao.an[strucx:q#].a.eh
+02 E5qpva+9q4yw3yj+jvpw#x#9dcjqpyxwpqnpda# [Das] w3vX7py
+   danir..onetewt...rie.s.o.h.nitseinbi....[Das].ewr[FG]mit
+03 dwvyv5#48Roa+7pc7myx5nnyEw79r53xL4vjo5dnw3vX
+   .ertra.eh.a..mihm.tsabbtdemo.aws.er.aa.bewr[FG]
+04 xmE4#o?wvyv5#48d5n48co5yEpwa+5nEwxa+jo5qEd3q#
+   s.de.a.ertra.eh.abehhaatdie..abdes...aand.wn.
+05 4#oEwx9r#vnx7pxD5Q48wZxD5qQ48 [halt auf dem] Ea+Ewg
+   e.adeso..rbsmis.a.ehe.s.an.eh.[halt auf dem].d..de.
+
+Assessment: partly German. Clear hits: "seiner [z]eit" (01, needs j=z), "darwmb" = darumb (01, so 3 is u/w: w/u same letter), "ewr [F.G.] mit" (02),
+"seinbi..", "tdemo", "die" (04). Frequent "48" decodes as "eh" everywhere -> 48 is probably ONE sign/digraph (en/er?), not h+e.
+Conflicts with the R9410 line-35 crib (n=w, v=s): R9427 gloss gives pi(n)=b and v=r; one of the two is homophonic or misaligned.
+Suggested additions to test: j=z, 3=u/w, 48=en or er.
