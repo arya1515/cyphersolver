@@ -1588,10 +1588,19 @@
     "R4234": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "66 of ~250 lines read (~70% of those).",
+     "note": "All ~155 cipher lines read (~75%); third pass P8-P20.",
      "reading": [
       {
        "file": "rome1536/R4234.md"
+      },
+      {
+       "file": "rome1536/R4234_P8-P12.md"
+      },
+      {
+       "file": "rome1536/R4234_P10.md"
+      },
+      {
+       "file": "rome1536/R4234_P15-P20.md"
       }
      ],
      "sent": false
@@ -1599,10 +1608,16 @@
     "R4235": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "14 of ~60 lines read.",
+     "note": "All cipher read (~80%); P2-P3 and passage D (against the clear copy on P6).",
      "reading": [
       {
        "file": "rome1536/R4235.md"
+      },
+      {
+       "file": "rome1536/R4235_P2-P3.md"
+      },
+      {
+       "file": "rome1536/R4235_P8D.md"
       }
      ],
      "sent": false
@@ -1621,13 +1636,16 @@
     "R4239": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "passages read.",
+     "note": "All passages read; P3-P15 ~72%.",
      "reading": [
       {
        "file": "rome1536/R4239.md"
       },
       {
        "file": "rome1536/R4239b.md"
+      },
+      {
+       "file": "rome1536/R4239_pass3.md"
       }
      ],
      "sent": false
@@ -1646,10 +1664,13 @@
     "R4247": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "letter 1 ~80% read; letter 2 open.",
+     "note": "Letter 1 ~80%, letter 2 ~75% (last six lines fragments).",
      "reading": [
       {
        "file": "rome1536/R4247.md"
+      },
+      {
+       "file": "rome1536/R4247_letter2.md"
       }
      ],
      "sent": false

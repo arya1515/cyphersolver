@@ -14,8 +14,10 @@ reading, not cryptanalysis. **Seven of the eight records are read in part and on
 cipher is not Mâcon's at all but a second fr. 3053 cipher, and the volume itself carries a contemporary clear
 decipherment of it on the next leaf (f. 86). Two records are read nearly throughout (R4240 ~85 %, R4247 letter 1
 ~80 %); four more are read in long stretches (R4233 ~60 %, R4235, R4238 ~65 %, R4239 in passages); the very long
-February 1537 letter R4234 (roughly 250 cipher lines, almost wholly in cipher) is read for its first
-quarter, 66 lines at about 70 %. Six contemporary
+February 1537 letter R4234 (almost wholly in cipher) is now read throughout: 66 lines in the first pass and about
+90 more (P8-P20) in a third pass the same day, at about 80 %. The third pass also read R4235 P2-P3 and passage D
+(29 + 5 lines), R4247 letter 2 (27 lines, the last six in fragments) and the hundred unread lines of R4239: every
+cipher passage in the eight records has now been deciphered at least in part. Six contemporary
 marginal or interlinear decipherments found in the volume were used as calibration anchors, and three of them
 agree with the independent decoding word for word.
 
@@ -40,17 +42,18 @@ agree with the independent decoding word for word.
 
 Images: DECODE serves the fr. 3053 scans as horizontal page-crops; they are **not in the public domain** (BnF) and
 are git-ignored here (`rome1536/img/`). Per-record readings, line by line, are in `R4233.md`, `R4234.md`,
-`R4235.md`, `R4238.md`, `R4239.md` (P2-P15), `R4239b.md` (P16-P30), `R4240.md`, `R4247.md`, `R4248.md`.
+`R4235.md`, `R4238.md`, `R4239.md` (P2-P15), `R4239b.md` (P16-P30), `R4240.md`, `R4247.md`, `R4248.md`; third pass: `R4234_P8-P12.md`,
+`R4234_P10.md`, `R4234_P15-P20.md`, `R4235_P2-P3.md`, `R4235_P8D.md`, `R4239_pass3.md`, `R4247_letter2.md`.
 
 | record | leaf | date, place | cipher | read |
 |---|---|---|---|---|
 | R4233 | f. 6 | Rome, 26 Jan 1536 o.s. (= 1537) | ~70 lines in 9 passages | ~60 %, 4 glosses used |
-| R4234 | f. 16 | Rome, Feb 1536 o.s. (= 1537) | ~250 lines, nearly the whole letter | 66 lines (P2, P3, P5, P6) ~70 % |
-| R4235 | f. 21 | Rome, 15 Feb 1536 o.s. (= 1537) | ~60 lines | 14 lines, 3 glosses; rest open |
+| R4234 | f. 16 | Rome, Feb 1536 o.s. (= 1537) | ~155 lines, nearly the whole letter | all: P2-P6 ~70 %, P8-P12 ~80 %, P16-P20 ~80 % |
+| R4235 | f. 21 | Rome, 15 Feb 1536 o.s. (= 1537) | ~60 lines | P2-P3 (29 lines) ~80 %, passage D ~92 % (clear copy on P6), glossed lines |
 | R4238 | f. 32 | Rome, [.] Sept 1536 | ~26 lines in 3 passages | ~65 % |
-| R4239 | f. 35 | Rome, 6 Apr 1537 (two letters + postscript) | ~160 lines | passages; 1 gloss |
+| R4239 | f. 35 | Rome, 6 Apr 1537 (two letters + postscript) | ~160 lines | all passages; P3-P15 third pass ~72 % |
 | R4240 | f. 40 | Orvieto, 2 Sept 1536 | 26 lines | ~85 %, 2 glosses |
-| R4247 | f. 77 | Orvieto, 1 Sept 1536 (two letters) | ~57 + ~26 lines | letter 1 ~80 %; letter 2 open |
+| R4247 | f. 77 | Orvieto, 1 Sept 1536 (two letters) | ~57 + ~26 lines | letter 1 ~80 %; letter 2 ~75 % (last 6 lines fragments) |
 | R4248 | f. 85 | 1536, no date on the crops | ~20 lines, **a different cipher** | resolved by the f. 86 decipherment |
 
 ## What the letters say
@@ -124,6 +127,35 @@ are git-ignored here (`rome1536/img/`). Per-record readings, line by line, are i
   that the cardinal of Lorraine, in his capitulation with the pope, had conceded things "never thought of before",
   which they meant to undo, leaving the whole matter to Montmorency.
 
+### Third pass (21 Sept 2026): the pages left unread
+
+* **R4234 P8-P12** (~58 lines, ~80 %): Pier Luigi Farnese's horse under Giovanni Battista Savelli ready this month,
+  foot by March; a Sienese servant of Pier Luigi says the troops, kept in Parma and Piacenza, are to garrison the
+  Milanese fortresses if the Farnese marriages persuade the Emperor to sell Pier Luigi the duchy of Milan; the pope
+  "qui est fin" will feign neutrality. Mâcon suspects a plant by the Imperialist cardinals Veroli and "Cesane", yet
+  the pope's own admissions give "grant presumption". Contarini, "imperial pour la vie", is now the pope's familiar.
+* **R4234 P16-P20** (~30 lines, ~80 %; P15 is a clear copy of P16, glosses and a margin decipherment on P19-P20):
+  messire Ambroise is wholly Imperial and "corruptible plus que tous les hommes que je congnoisse"; Mâcon fears the
+  King's new demand for three tenths on the clergy, with the three levied last year without papal leave and the
+  "calomnie du Turc", will let the pope declare against the King; asks for a ciphered royal letter to show; the
+  bishop of Lodi at Venice wants his see back from Cardinal Simonetta; Andrea Doria's letters to the count of
+  Anguillara, and Doria's talk of Spain a feint.
+* **R4235 P2-P3** (29 lines, ~80 %): the pope seeks the Milanese fortresses, claiming the King's side proposed it;
+  do not drive the pope to despair; Pier Luigi's journey to Parma was at the Emperor's request brought by messire
+  Ambrogio from Provence; the Emperor shows willing to give his natural daughter to Pier Luigi's son but not Milan
+  as dowry. **Passage D** (P8, ~92 %, contemporary clear copy on P6): "si le Roy est fort en Italie du costé de
+  Lombardie, facillement ledict estat de Florence se pourra reduire en l'ancienne liberté et devotion dudict
+  seigneur Roy…".
+* **R4247 letter 2** (Orvieto, 1 Sept 1536; 27 lines, ~75 %): the count of Pitigliano, now in the King's service,
+  advises that if the Emperor winters in Milan the King should strike at Naples, discontented and with no strong
+  places but the coast; Sicily would revolt with little help; the last six lines (artillery…) are fragments.
+* **R4239 P3-P15** (100 lines, ~72 %): the pope would use the Milan question and the Turk to leave neutrality;
+  Ridolfi's envoy Albizzi hears from the duke of Urbino of close dealings between pope and Emperor (tenths and
+  crusade taxes, a league of Italian princes); Mâcon asks for a ciphered article to show the pope "afin que si la
+  raison et l'honnesteté ne le desmeuvent … que la peur l'en peust divertir"; the Novara offer to Pier Luigi, made
+  "par [le] commandement" of the pope, whom Pier Luigi told Mâcon in the antechamber, "sans accepter ne refuser",
+  not to write to the King.
+
 ## The cipher
 
 Homophonic substitution, one glyph per letter, with doubled-letter signs, nulls and three code numbers
@@ -146,14 +178,13 @@ glossed lines, and not in the published tables:
 
 ## Open
 
-* **R4234** (~250 cipher lines) is the prize left: a February 1537 letter written almost wholly in cipher. P2, P3,
-  P5 and P6 are read at about 70 %; P8-P20 are untouched and need several dedicated passes, a page at a time.
-* The bulk of **R4235** (~45 lines on P2-P3), **R4247 letter 2** (~26 lines), and about 100 lines of **R4239**
-  (P3, P4, P6, P7, P11, P12, P14, P15) are transcribed or transcribable but not deciphered.
-* The **f. 85 cipher** (R4248) could be tabulated properly by aligning f. 85 against its f. 86 decipherment; that
-  would give a second fr. 3053 key, which Tomokiyo sketched but did not publish in full.
-* The eight sibling records DECODE marks "Decrypted" (R4236, R4237, R4241-R4246) were not read here; R4245 is
-  Selve and Rodez in Venice to Mâcon, not a Montmorency letter.
+* All cipher passages are now deciphered at least in part. What remains is residue: doubtful groups inside read
+  lines (R4239 P3 ll. 3, 10, 12; P11 ll. 1-2, 10; P14 ll. 7, 10-11, 14), R4247 letter 2 ll. 22-27 (fragments:
+  *artillerie*, {20}), R4234 P16 L6 and L15-16, P19 C3-C4, and several names (Cesane, Palmier, the Sienese
+  gentleman, Ambroise's surname).
+* The **f. 85 cipher** (R4248) could be tabulated properly by aligning f. 85 against its f. 86 decipherment.
+* DECODE's full-page .jpeg views (R4234 P1, P4, P7, P10, P13, P14, P18) are lower-resolution duplicates of the
+  crops; P14 is the inserted clear slip cropped as P15. No page of R4234 is missing.
 
 ## Method and files
 
@@ -163,16 +194,14 @@ and per-letter confidence. Crops are made from the DECODE page-crops with PIL at
 and `img/` are git-ignored (BnF rights).
 
 ## Remaining gaps
-- R4234 P8-P20 (~180 cipher lines) - blocker: not-attempted; untouched; needs page-at-a-time passes with the known key
-- R4235 P2-P3 (~45 lines) - blocker: not-attempted; transcribable, not deciphered
-- R4247 letter 2 (~26 lines) - blocker: not-attempted; not deciphered
-- R4239 P3, P4, P6, P7, P11, P12, P14, P15 (~100 lines) - blocker: not-attempted; transcribed or transcribable, not deciphered
-- residue of the read passages (R4233 ~40%, R4234 P2-P6 ~30%, R4238 ~35%, R4240 ~15%, R4247 letter 1 ~20%) - blocker: illegible; barred-cross family (ǂ, £, long ƒ) reads F/P/O/U/V/D within a line, separable only by context
+- residue of the read passages (R4233 ~40%, R4234 ~20%, R4235 ~20%, R4238 ~35%, R4239 ~28%, R4240 ~15%, R4247 ~20%) - blocker: illegible; barred-cross family (ǂ, £, long ƒ, ƀ) reads F/P/O/U/V/D/H/S within a line, separable only by context, and no gloss covers these groups
+- R4247 letter 2 ll. 22-27 - blocker: illegible; faded foot of P14, only fragments legible on the DECODE crop
+- proper names (Cesane, Palmier, Ambroise's surname, the Sienese gentleman) - blocker: open-codes; spelled in cipher but the letters do not settle to a known name
 
 ## Escalation
-- [ ] siblings: not done — R4236, R4237, R4241-R4246 (marked Decrypted on DECODE) not read
+- [x] siblings: R4236, R4237, R4241-R4246 opened via the DECODE API: all status Decrypted, no transcription or plaintext file attached (six Rome letters to Montmorency 1535-37, one to Mâcon from Venice); outside catalogue 180 and left for a later session; every full-page view of R4234 opened (P10/P13/P14/P18 duplicate the crops; P14 = P15 clear slip used as crib)
 - [x] clear-pages: f. 86 decipherment of f. 85 found; six contemporary margin/interlinear glosses used as anchors
 - [x] known-keys: Mascon's cipher (Tomokiyo; Lasry 2023, gramont1529/macon_key.md); second fr. 3053 table for R4248
 - [x] print: Tomokiyo francis.htm, Lasry GL.htm, Dodieu edition (rom.uga.edu): no plaintext
 - [x] key-rebuild: key corrections from glossed lines (ꭓ = Q/U, × = N/L, Ξ = RR, 7 = N/R/B, etc.)
-- [ ] retry: not done — rerun the earlier records' doubtful groups with the corrected values, then the unread pages
+- [x] retry: third pass (21 Sept) read every unread page with the corrected values (7 = N/B, 4 = C/R/T, ω = PP, Ξ = RR, ☐ = LL, ∩ = SS/P/F, ƀ = E/H/SS/Z, ʍ = U/V); remaining doubtful groups regraded above
