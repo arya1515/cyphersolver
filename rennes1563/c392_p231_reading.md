@@ -255,3 +255,16 @@ The margin decipherments of p.67-68 confirm Ĝ = t, at = par, π = h, k = i, 7 =
 (l.7) now rests on an exemplar ("dudit Roy de Dannemarcq"). The 1561 ² (a hooked raised sign = r) is a different
 shape from the c392 ², which stays a. No exemplar was found for maue, tt, small ss, ꝫ or `La b ſſ x`.
 Fraction unchanged: about 85%. Views 26-28 are not aligned yet.
+
+### View 26 (p.50) addendum
+
+Plain ll = q ("ll λ" = qu: communiquant, "que ce que je"). The c392 ll in l.8 carries an underline and is a
+different sign. With q it gives "il n'y q r a n …", which is not French, so it is not applied. No exemplar was
+found for πꝫ, maue, ss, tt or La b ſſ x, and the spelled-out form "6 c 9" is the only "l'on" seen. Fraction
+unchanged: about 85%.
+
+### Views 26-28 finished
+
+p.50/51 add only 7 = nous (again) and plain ll = q (again). pp.53-54 carry no decipherment and use a different
+repertoire (η, Y, va), and p.55-57 is clear. None of the c392 gap signs (maue, underlined ll, ss, tt, ꝫ,
+La b ſſ x) occurs in Colbert 390 views 26-28 or 34-35. The c392 reading is unchanged at about **85%**.

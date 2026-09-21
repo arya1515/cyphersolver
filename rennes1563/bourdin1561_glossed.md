@@ -110,3 +110,61 @@ Not aligned in this pass (a full page of cipher at p.49-50 with a margin gloss; 
 - ² in 1561 is a raised hooked 5/s shape = r. The c392 "²" is a flat small 2 and looks like a z variant (a),
   so the 1561 value is not transferred.
 - Not found: maue, tt, ss (small), ꝫ, ll-underlined. πꝫ stays unread (π = h is secure, ꝫ unknown).
+
+## View 26, p.50 (Catherine to Rennes, June 1561), partial alignment
+
+Layout: the first body lines at the top of the page are the decipherment of the first cipher lines, written
+across ("L'affection que vous avez de la bonne et estroicte ligue d'amitié et alliance avec ceste couronne …
+actendu en luy communiquant"). The margin gloss then picks up at "d'aultres affaires a faire tomber ce propos la
+comme chose impreveue a laquelle vous n'eussiez jamais pensé auparavant, et craignant que vous estimiez que ce que
+je vous en ay escript …". Clear phrases are mixed into the cipher ("feusse bien desiré par", "craignant que vous
+estimez plus que").
+
+| cipher | plain |
+|---|---|
+| … La d 6 z Ɛ xy 3 Ĝ io c 9 q̄q < z λ d θ | de l'affection que vous avez |
+| 3 # d 3 c λ ℌ c ‖ d ¢ io # 3 d q̄q | ceste couronne, si est ce que |
+| 3 **ll** λ z 9 Ĝ La ſ u 6 Ĝ ℌ xy Ʒ ſ Ɛ z io ℌ d Ʒ z ca Ĝ c g … | (communi)**q**uant d'aultres affaires à faire tom(ber) |
+| … 3 π c Ʒ d io 9 c b io 9 th z 6 ſ q̄q N d < 9 d u W io d θ | … chose inopinée à laquelle vous n'eussiez |
+| A b d 9 Ʒ + z ü b ſ ℌ z λ η Ĝ ‖ | jamais pensé auparavant et |
+| q̄q 3 d **ll** λ d io xy … | que ce **q**ue je … |
+
+### Sign table, view 26
+
+| sign | value | example |
+|---|---|---|
+| ll (plain, not underlined) | **q** (in "ll λ" = qu) | communiquant, "que ce que je" |
+| ‖ | nn / et | couronne; "auparavant et" |
+| # | est | ceste, "si est ce que" |
+| π | h | chose |
+| Ɛ | ff | affection, affaires |
+| ca | faire | "à faire tomber" |
+| La ſ u 6 Ĝ ℌ xy Ʒ | d'aultres | (the same spelling as c392 l.8 "d'aultre") |
+| A | jamais (word sign?) | "jamais pensé" (probable) |
+
+Not found on p.50: maue, ss, tt, ꝫ, the La b ſſ x group, and any sign for "on"/"l'on" other than the spelled-out
+6 c 9. Views 27-28 were not aligned.
+
+### View 26, rest of p.50 and p.51 (finished)
+
+Further readings on p.50, with the same key:
+- "3 d q̄q 7 b d 9 Ʒ c 9 ¢ ſ u c io ℌ ſ Ʒ ll u io θ" = "ce que **nous** pensons sçavoir acquis": 7 = nous, plain
+  ll = q again.
+- "La ſ u 6 Ĝ ℌ xy Ʒ ſ Ɛ z io ℌ d Ʒ z ca" = d'aultres affaires à faire (repeated).
+- ſL ("fl") recurs as a word sign next to La and 8; its value was not fixed.
+
+p.51 (right page): six cipher lines, glossed in the margin ("… des filles … d'aultres particularitez … transport
+…"). They give "La u Ĝ ℌ ſ 9 Ʒ b c ℌ Ĝ" = du transport and "‖ 6 ſ La u d 9 io ℌ" = et à l'advenir. No new signs.
+
+None of maue, underlined ll, ss, tt, ꝫ or La b ſſ x occurs on pp.50-51.
+
+## Views 27-28 (pp.53-57)
+
+- p.53 (v27 right, June 1561): a full page of cipher (about 24 lines) with **no margin gloss and no interlinear
+  decipherment**, followed by clear text ("J'ay bien voullu, en attendant ce que vous m'en ferez plus amplement
+  sçavoir …"). The repertoire differs from 1561 pp.50/67 and from c392: η, Y, va, mm and ā are frequent. It looks
+  like another key or table, so it cannot be calibrated.
+- p.54 (v28 left): two cipher lines at the top, no gloss; then clear text dated St-Germain, June 1561, signed
+  Catherine / Bourdin.
+- p.55/57 (v28 right): an all-clear letter.
+- Scanned for the target shapes: no maue, underlined ll, ss, tt, ꝫ or La b ſſ x on pp.53-54.
