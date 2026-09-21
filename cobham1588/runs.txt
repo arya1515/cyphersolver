@@ -6,7 +6,7 @@
 #   k ω (k)            l circle+stem ϕ (l t) m ∽ (m)      # plain double cross (m n)    n ǂǂ (n)
 #   z 2-shape (o)      d (o)                 c (o a e)    p loop+tail ϑ (p)             V (r)
 #   y γ (r y)          : two dots / colon (u v)           w dot+stroke (w)              X undotted x (i)
-#   L L-shape (e; glossed nowhere, fixed by 'haven' on f.88 and f.80)   K K-shape (unknown)
+#   Q reversed c ɔ (a, r?; 'Italian' f.88)   L L-shape (e; glossed nowhere, fixed by 'haven' on f.88 and f.80)   K K-shape (unknown)
 #   ? unidentified sign (any letter)         [..] code sign or number, left as is
 # Doubtful readings of a sign are written as the first choice; the solver treats every sign as its whole set.
 f80a | hoping them | Xn Ah7 [◻] pUn87A | for what chaunces so ever you bestow
@@ -21,8 +21,10 @@ f80i | that he promised Q: to | Ahnc AD V?IA | 27 to begin the
 f88a | There is captain Montgomery of late gone into Scotland. | 8IpAkcn ?UllApcV?h | with 40 men of
 f88b | with 40 men of | A8cnU | have promised
 f88c | have promised | Ah7 hc:Ln | of
-f88d | of | VUIn UpdIA | yn
-f88g | of 30 | cn Un UpVInG | the rather is
+f88d | of | VUIn ApdIl | yn
+f88g | of 30 | cnn | [struck]
+f88h | Ther | 7A?T IAQlIUnA UQV:InG cAAh7 | 
+f88i | | hdc:y IA nQpIcA UnAcnIc | 
 f88e | yn | XcIVU Ah7V | to 15:
 f88f | of latte there is | A7H?V?A | which have
 f92a | Dunkergh: 4 sent by | pcc:GlcA | are

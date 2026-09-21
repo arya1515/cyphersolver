@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SETS = {
     'U': 'a', 'A': 'sta', '+': 'b', '8': 'c', 'D': 'd', 'T': 'dt', '7': 'e', 'H': 'f', 'G': 'g', 'h': 'h',
     'I': 'iay', 'k': 'k', 'l': 'lt', 'm': 'm', '#': 'mn', 'n': 'n', 'z': 'o', 'd': 'od', 'c': 'oae', 'p': 'p',
-    'V': 'r', 'y': 'ry', ':': 'uv', 'w': 'w', 'X': 'i', 'L': 'e', 'K': 'abcdefghiklmnoprstuwy', '?': 'abcdefghiklmnoprstuwy',
+    'V': 'r', 'y': 'ry', ':': 'uv', 'w': 'w', 'X': 'i', 'L': 'e', 'Q': 'ar', 'K': 'abcdefghiklmnoprstuwy', '?': 'abcdefghiklmnoprstuwy',
 }
 GLOSSED = """infante maior mobility of this their great desir country discours sent from upon our arrival willing
 to harken by the clergy they made means popes legat and divers newe sworne perform warres given out al for
