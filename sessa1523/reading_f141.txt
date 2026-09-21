@@ -1,0 +1,32 @@
+R9660 = RAH Salazar A-27 (9/27) f. 141r, Sessa to Charles V, "En Sesa, xx de hebrero 1523".
+Second cipher paragraph (after the clear "... que hazer mi ninguna en el"), 11 lines, read by eye from the full-size
+image with the 1524 key (sessa1524/key_working.md). f~ = the clear/cipher switch sign. [..] = sign not yet valued.
+
+cipher (by line)
+ 1 f~ v db  log sis cag α d3 ꝍ α ram α bas suf α tac g 3 4 do ꝑ put gap
+ 2 qib Jap cas / d3 qid ram qib sof gap dim cob # d3 α / sof cih ꝑ do sat ttt
+ 3 boz do f~ ꝑ qib nf 9 9 3 # ꝍ 4 v α do 3 oo Є gat f~ [clear: en que se ponian] f~ mus ꝍ
+ 4 tas tt sof min f~ 3an kor tac mus ttt g ꝍ ott x ⅄ α gap qib yim sof
+ 5 [..] α x 3 [clear: estonces dava] f~ suf α bog sad sof pu3 qes f~ qib bao dim set
+ 6 sof bla α boe α coh f~ [clear: mas con color] f~ sof d3 cob ott α ꝍ ka gap sof [..]
+ 7 sof lip α do α ott d ꝍ α sof len 4 f~ [..] cob net ꝍ α [clear: disposicion de entender]
+ 8 f~ qid gob ꝍ njn [..] 9 ꝍ kef f~ ꝑ cob ler qes nf 9 ꝍ α d kef gap bas kim
+ 9 dim f~ [clear: entre tanto avisarle. Hizose asy. Fuimos en Roma a los xxvj del pasado ...]
+
+reading (known groups in plain, spelled letters hyphenated, open groups in [ ])
+ ¶ muy despues [cag] a [d3]-a-do a V.Md. de la con-[g34 do] y forma que
+ el papa [cas] / [d3] en-do el de que se si-g-[d3]-a / de su y [do sat ...]
+ ... el p-l-l-i-g-r-o m-a-n-i-f-[Є gat] "en que se ponian" / la
+ cosa [tt] de [min] / al [kor] con la c-e-r-t-i-z-a que el [yim] de
+ [..]-a-i-r "estonces dava" / de la [bog]-da de franceses / el [bao] se [set]
+ de [bla] a ve-r a Su Santidad, "mas con color" de [d3] si t-a-r-le que de [..]
+ de ningun-a-n-a-t-a-r-a de [len]-o / [..] si [net]-r-a "disposicion de entender"
+ / en [gob]-r-ha(n) [..] lo / y si no es p-l-r-a a lo que V.Md. [kim]
+ se / "entre tanto avisarle".
+
+Sense (tentative): Sessa weighs how the Pope (Adrian VI) stands toward the French; he could go to
+see His Holiness "with the pretext" of something, finding no disposition to listen, and meanwhile to report.
+The clear continues: "Hizose asy. Fuimos en Roma a los xxvj del pasado; entro con muy buen recibimiento, y el posar
+fue en palacio ..." (the viceroy of Naples, Lannoy, whose Rome visit of January 1523 this letter reports).
+This is a sample, not a reading of the letter: about half the tokens resolve with the 1524 key, the rest need the
+token-tile work that sessa1524 used (hand, not key, is the obstacle: the 1523 hand is the same writer's).
