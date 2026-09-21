@@ -42,7 +42,7 @@
   <p class="meta">Daniel Bourdeau &middot; attempted <time datetime="2026-09-21">21 September 2026</time></p>
 </section>
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-letters">The letters</a><a href="#the-key-from-the-glossed-siblings">The key, from the glossed siblings</a><a href="#what-reads">What reads</a><a href="#what-stays-open">What stays open</a><a href="#sources">Sources</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-letters">The letters</a><a href="#the-key-from-the-glossed-siblings">The key, from the glossed siblings</a><a href="#what-reads">The sign inventory, and what reads</a><a href="#what-stays-open">What stays open</a><a href="#sources">Sources</a></nav>
 <div class="callout"><strong>Summary.</strong> DECODE catalogues four letters of Lord Cobham to Walsingham from the spring of 1588 as undeciphered, of unknown cipher type. The letters are in clear English. Short passages and single words are in a script of Greek-like letters and arbitrary signs. The key record the catalogue proposed (Harley 287 f. 187, R8497) is &ldquo;the Cowler cipher for Mr Bodley&rdquo; of December 1590 and does not fit. The same volume holds Cobham&rsquo;s March and April 1588 letters in the same cipher. DECODE marks them decrypted (R8481, R8488, R8489, R8493), and their cipher passages carry a contemporary interlinear decipherment. From those glosses about twenty letters of the alphabet were rebuilt. The system is a monoalphabetic substitution with homophones for o, l, r, i and u. One sign serves for both s and t, another for both r and y. It also has nulls and a few code signs. Applied to the May&ndash;June letters, the key gives fragments only: &ldquo;of letters&rdquo;, &ldquo;imprisoned in&rdquo;, a code sign for a person. A full reading needs a clean sign-level transcription of about thirty cipher lines, which this attempt did not make. The target stays open with the key published here.</div>
 
 <h2 id="the-letters"><span class="num">01</span> The letters</h2>
@@ -59,29 +59,28 @@
 <p>On f. 75 (Ostend, 9 April 1588; R8488) the decipherer wrote the plain text over each cipher word: &ldquo;cardinal is coming&rdquo;, &ldquo;upon our arrival&rdquo;, &ldquo;willing to harken&rdquo;, &ldquo;by the clergy they made means&rdquo;, &ldquo;their great desir of&rdquo;, &ldquo;the Duke of Parma his bastard son&rdquo;. On f. 89 (R8493) the glosses read &ldquo;what may be&rdquo;, &ldquo;further hoped for at their hands&rdquo; and &ldquo;our abode in this towne is so advantagious&rdquo;. Aligning them gives the following table. The sign names are descriptive.</p>
 <table>
 <tr><th>plain</th><th>signs</th><th>plain</th><th>signs</th></tr>
-<tr><td>a</td><td>U, &cup;</td><td>l</td><td>small loop &#981;, L, &ldquo;..&rdquo; after a letter</td></tr>
-<tr><td>b</td><td>+</td><td>m</td><td>loop with tail &prop;</td></tr>
+<tr><td>a</td><td>U, &cup;</td><td>l</td><td>circle crossed by a straight stem &#981;</td></tr>
+<tr><td>b</td><td>+</td><td>m</td><td>horizontal S with a loop</td></tr>
 <tr><td>c</td><td>8</td><td>n</td><td>double-barred cross &Dagger;&Dagger;</td></tr>
 <tr><td>d</td><td>&infin;</td><td>o</td><td>z-shape, c, d</td></tr>
 <tr><td>e</td><td>7</td><td>p</td><td>&#977;</td></tr>
 <tr><td>f</td><td>H</td><td>r</td><td>V, &gamma;</td></tr>
 <tr><td>g</td><td>crossed X</td><td>s, t</td><td>&Lambda; (two near-identical forms)</td></tr>
 <tr><td>h</td><td>loop on a long stem</td><td>u, v</td><td>&ldquo;..&rdquo;, &ldquo;:&rdquo;</td></tr>
-<tr><td>i</td><td>&perp;, undotted X</td><td>w</td><td>dotted x</td></tr>
+<tr><td>i</td><td>&perp;, undotted X</td><td>w</td><td>dot and stroke</td></tr>
 <tr><td>k</td><td>&omega;</td><td>y</td><td>&gamma;</td></tr>
 </table>
 <p>Not found: j, q, x and z. Several signs on f. 88 (shapes like K, &upsilon;, &rho; and W) are not in the glosses and may be code signs. A second session working on Cobham&rsquo;s March letters (R8477&ndash;R8487) reached the same values independently from its own cribs, and read those letters: see <a href="harley287.html">Cobham at Ostend, March 1587/8</a> (key in <code>harley287/key.tsv</code>). Its table separates s (a narrow &and;) from t (a wide one), which may resolve the s/t ambiguity here.</p>
 
-<h2 id="what-reads"><span class="num">03</span> What reads</h2>
+<h2 id="what-reads"><span class="num">03</span> The sign inventory, and what reads</h2>
+<p>A third pass worked from the scans at full resolution (7,200 pixels wide), aligning about sixty glossed words on ff.&nbsp;75, 79 and 89 sign by sign. The result is <code>cobham1588/signs.tsv</code>. The families that look alike at reading size separate cleanly. p is a loop with its tail swept down-left (&ldquo;upon&rdquo;, &ldquo;popes&rdquo;, &ldquo;perswade&rdquo;). l is a circle crossed by a straight stem (&ldquo;arrival&rdquo;, &ldquo;holding&rdquo;). h is a stem with a bowl to the right (&ldquo;harken&rdquo;, &ldquo;thought&rdquo;). m is a horizontal S with a loop (&ldquo;made&rdquo;, &ldquo;commission&rdquo;), and w a dot and stroke (&ldquo;willing&rdquo;, &ldquo;sworne&rdquo;). The glosses also show that the system is more polyphonic than any simple key allows. &Lambda; is s and t (and probably a), &gamma; is r and y, c is o and once a, and the l sign once stands for t. The code numbers are glossed too: 7&nbsp;=&nbsp;her Majesty, 10&nbsp;=&nbsp;the Lord Admiral, 15&nbsp;=&nbsp;the Duke of Parma, 16&nbsp;=&nbsp;the King of Spain.</p>
 <ul>
-<li>f. 80r: &ldquo;hoping them in the &#9633; [code sign] &hellip;ances, for what chaunces so ever&rdquo;. Later: &ldquo;in all <i>&Lambda;VZ&Lambda;T&Lambda;</i> in numbers, that at the <i>&Lambda;VZ&Lambda;T</i> &hellip; which was the 20&rdquo;. The obvious guess, ARMADA, does not fit the key (V&nbsp;=&nbsp;r, Z&nbsp;=&nbsp;o), so the word is left unread. (M/I)</li>
-<li>f. 92r: &ldquo;imprisoned in &hellip;&rdquo;, &ldquo;it is reported that they have &hellip; of letters&rdquo; (&#981;7&Lambda;&Lambda;..&perp;V&Lambda;). (M)</li>
-<li>f. 88r: the clear frame gives the subject, the Scots captain Montgomery and his forty men. The cipher words hold signs not in the table. (unread)</li>
+<li>f. 80r: &ldquo;as usuall in all <b>armadas</b> in numbers, that at the <b>armada</b> &hellip; which was the 20&rdquo;. The word &Lambda;V&#8765;&Lambda;&#359;&Lambda; gives ARMADA with m glossed, if the wide &Lambda; is a and &#359; is d. Also &ldquo;hoping them in the &#9633;<b>pances</b>&rdquo;, probably &ldquo;expences&rdquo;; a run with vertical word dividers ending &ldquo;<b>to these termes</b>&rdquo;; and &ldquo;22 is &hellip; in the <b>action</b> &hellip; that he promised <b>Q[ueen]</b>&rdquo;. (M)</li>
+<li>f. 88r: &ldquo;15:&rdquo; is <b>the Duke of Parma</b>. The first cipher run probably begins &ldquo;<b>captain</b> &hellip;&rdquo; before a name, &ldquo;with 40 men of &hellip;, [who] have promised the &hellip;&rdquo;. The rest turns on signs no gloss shows. (M/I)</li>
+<li>f. 92r: &ldquo;4 sent by &hellip;&rdquo;, perhaps &ldquo;the Portugals&rdquo; (I), and &ldquo;of <b>letters</b>&rdquo; (M).</li>
 </ul>
-
 <h2 id="what-stays-open"><span class="num">04</span> What stays open</h2>
-<p>A reading of the four letters needs a sign-level transcription of their cipher passages, perhaps thirty lines in all, cut from the full-resolution scans. Next, the two &Lambda; forms (s and t) and the two &gamma; values (r and y) have to be told apart, if the hand distinguishes them at all. Finally the unidentified f. 88 signs have to be placed. The letters are in plain English on known business, so once the transcription exists the reading should follow.</p>
-
+<p>The sign inventory is now fixed, so the obstacle is no longer the image. Several signs are polyphonic and a few (an L-shape and a K-shape on f. 88, the square on f. 80, the codes 4, 22 and 27) are unglossed. The next step is mechanical: transcribe the runs sign by sign from the full-resolution crops, give each sign its set of possible letters from <code>signs.tsv</code>, enumerate each cipher word&rsquo;s readings against a word list of the 1580s, and let the clear context choose.</p>
 <h2 id="sources"><span class="num">05</span> Sources</h2>
 <ul>
 <li>British Library, Harley MS 287, via DECODE: <a href="https://de-crypt.org/decrypt-web/RecordsView/8490">R8490</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8492">R8492</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8495">R8495</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8496">R8496</a>. The glossed siblings are <a href="https://de-crypt.org/decrypt-web/RecordsView/8488">R8488</a> and <a href="https://de-crypt.org/decrypt-web/RecordsView/8493">R8493</a> (also R8481, R8489). Bodley&rsquo;s 1590 cipher is <a href="https://de-crypt.org/decrypt-web/RecordsView/8497">R8497</a>. The images are not in the public domain and are not reproduced here.</li>
