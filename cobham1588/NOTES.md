@@ -152,3 +152,22 @@ polyphonic and a few are unglossed. The next step is not more image work but a s
 possible letters (from `signs.tsv`), enumerate the readings of each cipher word against an English 1580s word list,
 and let the clear context choose. That is mechanical and can be scripted from a sign-level transcription of the
 runs, which the crops in this pass make possible.
+
+## Fourth pass, 21 Sept 2026: candidate-set solver
+
+`runs.txt` holds a sign-level transcription of 22 cipher runs (ff. 80, 88, 92) in an ASCII sign code. `solve.py` gives
+each sign its set of letters from `signs.tsv`, enumerates each cipher word's readings, and scores them against
+`wordfreq.tsv` (25,488 words from CSP Foreign vol. 21 pt 4, Jan–June 1588, 266,800 words, plus Gutenberg English
+and the glossed plaintext). Elizabethan spelling is normalised (u/v, i/j/y, doubled letters, final e). A fuzzy pass
+allows one wrong, extra or missing sign (two for words of 7+ signs). Output: `solve_out.txt`.
+
+Words the solver confirms in context (exact match unless marked "near"):
+- f. 80: "in **the** [◻] …", "it will **not be** … **the** …", "to **these** **terms**" (near), "all **armada(s)**",
+  "at the **armada** (near: arms) **on** …", "in the **action** (near) that he promised Q[ueen]".
+- f. 88: "**captain** (near, 2) …", "have promised **the** …", "in **years**(?) **there** to 15".
+- f. 92: "of **letters** (near, 2)", "they have **charge** …", "**clear**" (near), "**legat**" (near).
+
+The long runs (f. 80g, f. 88a second word, f. 88b–d, f. 92a–b, d) find no sensible word, even with two edits. That
+points at the transcription of those runs, not the key: the next step is to re-read just those runs at full
+resolution with the solver's near-candidates in view, correct `runs.txt`, and rerun. The solver makes that loop
+quick.

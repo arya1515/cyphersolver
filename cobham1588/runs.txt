@@ -1,0 +1,31 @@
+# Sign-level transcription of the cipher runs in the four Cobham letters (Harley 287), from full-resolution crops.
+# One run per line:  folio | clear text before | cipher words (space-separated) | clear text after
+# Sign codes (see signs.tsv for the glossed evidence):
+#   U cup (a)          A caret ∧ (s t a)     + (b)        8 (c)          D ∞ (d)        T barred t ŧ (d t)
+#   7 (e)              H barred H (f)        G Ӿ (g)      h stem+bowl (h)               I ⊥ (i a y)
+#   k ω (k)            l circle+stem ϕ (l t) m ∽ (m)      # plain double cross (m n)    n ǂǂ (n)
+#   z 2-shape (o)      d (o)                 c (o a e)    p loop+tail ϑ (p)             V (r)
+#   y γ (r y)          : two dots / colon (u v)           w dot+stroke (w)              X undotted x (i)
+#   ? unidentified sign (any letter)         [..] code sign or number, left as is
+# Doubtful readings of a sign are written as the first choice; the solver treats every sign as its whole set.
+f80a | hoping them | Xn Ah7 [◻] pUn87A | for what chaunces so ever you bestow
+f80b | (and that must be great) it will | ncA +7 ??lA Ah7 pz:7n IA Xd+z:87 | ) and me
+f80c | yf honorable for | 7 AcD7mncI Ap7p :VAI Ac Ah7A AcVm7A | as usuall
+f80d | as usuall in all | AVmATA | in numbers
+f80e | that at the | AVmAT dn V7DD | which was the 20
+f80f | which was the 20 and the | A: IG8A | theyr
+f80g | Dunkergh: 22 is | ncVAhwVc7 | yn the
+f80h | yn the | cAAIcn | that he promised Q:
+f80i | that he promised Q: to | Ahnc AD V?IA | 27 to begin the
+f88a | There is captain Montgomery of late gone into Scotland. | 8IpAkcn ?UllApcV?h | with 40 men of
+f88b | with 40 men of | A8cnU | have promised
+f88c | have promised | Ah7 pz:?n | of
+f88d | of | VUIn UpdIA | yn
+f88e | yn | XcIVU Ah7V | to 15:
+f88f | of latte there is | A7H?V?A | which have
+f92a | Dunkergh: 4 sent by | pcc:GlcA | are
+f92b | are | I7GIA lIGhl7n | and
+f92c | and | 8lIUV Icn Ucn | sent by
+f92d | imprisoned in | V+c?7A | it is reported that they have
+f92e | it is reported that they have | 8hcV? |
+f92f | of | l7AA:IVA | which
