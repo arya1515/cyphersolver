@@ -48,6 +48,7 @@ GENERATED = [
     r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
     r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
+    r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
 
@@ -1230,6 +1231,14 @@ def process(path):
     s = re.sub(r'<meta name="(?:date|last-modified)"[^>]*>\n?', '', s)
     s = s.replace('</head>', f'<meta name="date" content="{rec["first"]}">\n'
                              f'<meta name="last-modified" content="{rec["updated"]}">\n</head>', 1)
+    # "How it was solved": the replay of the profile's solution steps, before the sources
+    s = re.sub(r'<!-- replay:start -->.*?<!-- replay:end -->\n?', '', s, flags=re.S)
+    s = re.sub(r'<script src="solve-replay\.js[^"]*" defer></script>\n?', '', s)
+    if slug in STEPS:
+        block = f'<!-- replay:start -->\n<figure class="sreplay" data-src="steps/{slug}.json"></figure>\n<!-- replay:end -->\n'
+        m = re.search(r'<h2 id="sources"', s)
+        s = s[:m.start()] + block + s[m.start():] if m else s.replace('</main>', block + '</main>', 1)
+        s = s.replace('</body>', f'<script src="solve-replay.js?v={VERSION}" defer></script>\n</body>', 1)
     # versions, anchor for "Top", script
     s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
     if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)
@@ -1315,7 +1324,29 @@ def write_search_index():
     (HERE / 'search.json').write_text(json.dumps(entries, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     return len(entries)
 
+# steps/<slug>.json: the solution steps of each target's profile.json, with its conditions and outcome, for the
+# "How it was solved" replay (solve-replay.js).  A profile folder is its page's slug, give or take case.
+PROFILE_SLUG = {'bordeaux': 'bordeaux1653'}
+STEPS = set()
+def write_steps():
+    slugs = {p['slug'] for p in PAGES}
+    out = HERE / 'steps'; out.mkdir(exist_ok=True)
+    for f in sorted(HERE.parent.glob('*/profile.json')):
+        slug = PROFILE_SLUG.get(f.parent.name, f.parent.name.lower())
+        if slug not in slugs: continue
+        pr = json.loads(f.read_text(encoding='utf-8'))
+        steps = pr.get('solution') or []
+        if len(steps) < 3: continue
+        c = pr.get('conditions', {})
+        d = dict(slug=slug, title=pr.get('title', ''), steps=steps, outcome=pr.get('outcome', {}),
+                 attack=c.get('attack'), inputs=c.get('inputs', []), prior=c.get('prior_solution', {}),
+                 human=c.get('human_role'), first=c.get('first_date'), last=c.get('last_date'))
+        (out / f'{slug}.json').write_text(json.dumps(d, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+        STEPS.add(slug)
+    return len(STEPS)
+
 if __name__ == '__main__':
+    print('solution replays:', write_steps())
     for f in sorted(HERE.glob('*.html')):      # date every page before any menu is built: the menu lists the newest
         page_dates(f.stem, f.read_text(encoding='utf-8').lstrip('﻿'))
     (HERE / 'writeups.html').write_text(writeups_html(), encoding='utf-8')
