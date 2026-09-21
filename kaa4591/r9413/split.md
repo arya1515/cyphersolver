@@ -1,9 +1,34 @@
 # R9413: splitting d/$ and #/U (following ../sysA/r9410_split.md and ../r9408/split.md)
 
-Pages covered: **P1 (all 37 lines)** and **P2 ll. 1-10**, with two- or three-line crops in left and right halves
-(~1.4x, autocontrast) and ~2x zooms on every doubtful sign. P2 ll. 11-37 and P3-P8 are copied unchanged into
-transcription_v2.txt and have not been checked yet. P2 is curved: the right half of each line sits about one line
-lower than the left, so crop the two halves at different y.
+Pages covered: **P1 (all 37 lines), P2 (all 37 lines), P3 ll. 1-11**. The pages were cropped two or three lines at a
+time in left and right halves (~1.3-1.4x, autocontrast), with ~2x zooms on doubtful signs. P3 ll. 12-28 and P4-P8 are
+copied unchanged into transcription_v2.txt and have not been checked. P2 is curved: the right half of each line sits
+about one line lower than the left, so crop the two halves at different y.
+
+## Counts (d / $ / # / U, v1 -> v2)
+
+| page | d | $ | # | U |
+|---|---|---|---|---|
+| P1 | 46 -> 47 | 0 -> 1 | 40 -> 35 | 0 -> 4 |
+| P2 | 51 -> 46 | 0 -> 6 | 50 -> 38 | 0 -> 14 |
+| P3 (ll.1-11 checked) | 23 -> 22 | 0 -> 1 | 32 -> 30 | 0 -> 2 |
+| P4-P8 | unchanged (14, 18, 1, 0, 0 d; 28, 47, 35, 4, 0 #) | | | |
+
+The $ occurrences are P1 l.29; P2 l.1, 24 (v1 had J there), 30, 33 and 35 (x2); and P3 l.7 (line-initial).
+The big looped form is regular on P2, and v1 coded it d.
+- In this hand # is mostly the slanted ‡‡ with a bar sticking out left. U is the small upright H with the bar only
+  between or to the right of the stems, and it is common in `5UD` (P1 l.9, P2 l.17, P3 l.7).
+- Many H-shaped # on P3 have a bar joined to the neighbour on the left, so they could not be split without a zoom and were
+  kept as #. On P3 the upright H is more frequent than on P1, so a zoom pass over every remaining P3-P6 # is still needed.
+
+## Z (ƶ): a letter, = u, not a null
+
+- Z is the 4th commonest sign (451 of ~7550; w 680, v 544, q 458). A null would be scattered at random, but Z sits in
+  fixed collocations: `Zq` 81, `Zo` 68, `wZ` 80 before, `nZ` 53, `wZq` 35, `nZv` 19, `Zva+` 18. `ZZ` occurs only 2 times.
+- The existing r9413/decrypt.txt (and decrypt_v2.txt) already reads it as **u**. For example, P1 l.1
+  `...D3vxy4qZod4o...` = `f u r s t e n u a l e a` (Z = u), and `Zq` = un.
+- R9410 has Z only once. Here it takes the u/v role that U and d/v play there.
+- So Z is a letter (u), not a null. The header's "Z possibly a null" can be dropped.
 
 ## Codes
 
@@ -12,19 +37,7 @@ lower than the left, so crop the two halves at different y.
   `$` because in this file `K` already means ⱡ (the crossed L, e.g. P1 l.15 `64KJ`).
 - `#` stays for the slanted ‡‡ with the bar sticking out on the left (g). In this letter it is by far the commoner form.
 
-## Counts (checked parts only: v1 -> v2)
-
-| part | d | $ | # | U |
-|---|---|---|---|---|
-| P1 | 46 -> 47 | 0 -> 1 | 40 -> 35 | 0 -> 4 |
-| P2 ll.1-10 | d -1 (one to $) | 0 -> 1 | -4 | 0 -> 5 (one of them a sign v1 had missed) |
-
-(P1 d: +1 from `A%65`->`A%d5`, -1 to $.)
-
-- **$**: P1 l.29 `E%v$amy`, P2 l.1 `Ewv$nwq`. Every other d checked is the small δ, including line-initial d (P1 l.17).
-- **U**: P1 l.2 `65Uy`, l.9 `5UD`, l.12 `x9UZ`, `48Uwvx4`; P2 l.6 `nZvUmd`, l.7 `EyU8T`, l.8 `moqUqxUt`, l.10 `t3U4`.
-
-## Other corrections
+## Other corrections (P1, P2 ll.1-10; later ones in the line log)
 
 - P1 l.3 `%n4va+` -> `%nZva+` (ƶ); l.9 `48n4vco` -> `48nZvco` (ƶ). The v1 sometimes writes 4 for Z after π.
 - P1 l.5 `a?t3` -> `a+t3`.
@@ -99,3 +112,44 @@ P2 07 Ey#8T -> EyU8T (upright H, bar only rightwards); J d5 = d; yb5 lollipop b
 P2 08 moq#qx#t -> moqUqxUt (both upright H, bar only rightwards); wg#w, v#3 kept # (bar touches/overhangs left; doubtful)
 P2 09 t3#w = # (overhang); 48b5: δ with a dot in the bowl, not a ringed stalk - maybe d (flag, left b)
 P2 10 t3#4 -> t3U4 (small upright H); {%#} struck = #; 48dw, 5dy = d
+P2 11 75dx = d
+P2 12 5dE, J+d9 = d
+P2 13 q#w = # (bar both sides); wdn, Ed3 = d; lollipop b x2
+P2 14 v#mq -> vUmq (upright H, bar rightwards only)
+P2 14 Aw#Q = # (slanted); 75dA = d
+P2 15 w#vX -> wUvX (small upright H); 5dn = d; Eb5 lollipop b
+P2 16 a+dw = d
+P2 18 48d5 = d; no #
+P2 19 Eq#xZo -> EqUxZo (upright H, bar rightwards); y5#E = # (overhang); 75dx, 9dq, 5dn = d; qbw lollipop b
+P2 20 X#w = #
+P2 17 5#D -> 5UD (upright H, bar only between the stems); yngvy -> yn9vy (9, not γ); v#w, Mj#q = # (slanted); qEd = d
+P2 21 t3#9 = # (bar both sides); Dd3 = d
+P2 22 5d#q = # (slanted); 75dx, 75d# = d; 'ctyT3t3756' not verified sign by sign (flag)
+P2 23 %q85my -> %qb5my (8 with a ring on top = lollipop b); Z#%, w#Z = #; d5, Twd, 3wd = d
+P2 24 EwvJtwyb -> Ewv$twyb (big looped S/ℓ, same as l.1, its top stroke runs into the t; v1 had J); Zq#9 -> ZqU9 (small upright H); ybZ lollipop b
+P2 25 a+#Z, a+#E kept # (bar runs on from the +; doubtful); 9dE = d
+P2 26 5d#w = #; 'TwdJ+#48': image shows Twδ, a faint stroke, +, ‡‡ - the J is at most a faint mark (flag, left)
+P2 26 a+#m kept # (bar runs from the +); v#dw = #; 75dx = d
+P2 27 a+D3v -> a+A3v (∝-A, not Δ); v#3 = # (overhang); vb5 lollipop b
+P2 28 line end Zqnwv -> Zqnwv# (a slanted double cross after the ↓ at the right edge, dropped in v1); w#Z = #; 3wdQ (δ with the ‡ tick above), 48d5 = d; Eb9 lollipop b
+P2 29 no #; 5dn = d (not zoomed)
+P2 30 E47dwZ -> E47$wZ (big looped S/ℓ); TdwZ, 5dx, 9dy = d
+P2 31 w#4o = # (overhang)
+P2 32 5dx, 9dy (not zoomed) = d; Z#w = # (slanted)
+P2 33 Ewvdt3 -> Ewv$t3 (big looped S/ℓ, confirmed at zoom); 'J' after t3 is a slanted double cross drawn Ӿ (J code kept, flag); 7wd, Ewvd = d; 48#3, Q#w, 48# = # (slanted)
+P2 34 Zox9#4 -> Zox9U4, 48#9d -> 48U9d, 5#xE -> 5UxE (all three upright H with no left overhang at 1.3x; zooms missed on the curve, moderately sure); yb3 = ringed 8 (b); 9dT, 9dy = d
+P2 35 wxdd -> wx$d (big looped S/ℓ then δ); qdE9bZq -> q$E9bZo (second big loop; line ends ƶo, not ƶ□); Z#q = # (one double cross, bar across both stems); wJv: J drawn Ӿ (flag)
+P2 36 mvZga+ -> mv4ga+ (4 before γ, confirmed at zoom); wZq#wvy -> wZqUwvy (upright H); v4#T4: the '#' is a small blotted filled square on the image (flag, left); line end 5T4 looks like 5↑ƶo (flag, left)
+P2 37 no d/#; wb5 left (low contrast)
+P3 01 E3v?48 -> E3v448 (clear 4); wdn, 9dy = d
+P3 02 w#4 = # (bar out left)
+P3 03 9d#w, 5#y = # (bar out left); 9d = d
+P3 04 8#w kept #; the 'g' after q is a ʒ-like hook (flag); qJ3: J drawn Ӿ; line end 'cT' reads c + ƒ-like t (left)
+P3 05 n#w kept # (bar touches both neighbours); 5yg9v: image shows 5, ÿ with a stroke above, 9 - the g not seen separately (flag, left)
+P3 06 c#-type J (Ӿ) kept; lollipop b x2
+P3 07 line-initial d -> $ (big looped S/ℓ, confirmed at zoom); 5#DE -> 5UDE (small upright H, as P1/P2 5UD)
+P3 08 q#m, 48#w, 5#y kept # (bar stubs out left); myd5q: sign looks like ringed 8 at 1.4x (possibly b; flag, left); d x3 = d
+P3 09 Ev#qT -> EvUqT (upright H, bar only rightwards, confirmed at zoom); E#w (bar runs in from Ǝ), w#4, E#m kept #
+P3 10 cJ x3 = the slanted Ӿ (J code kept); Dd = d
+P3 11 E+b5qT -> E+65qT (plain б, no ring); x#9, q#5 kept # (not zoomed); 3dZ = d
+P3 12 not re-checked beyond the crop: qdA = d
