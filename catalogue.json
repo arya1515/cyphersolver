@@ -59,33 +59,6 @@
    "verify": "Check whether the Court's decipherment sits on a following leaf in each case."
   },
   {
-   "id": 11,
-   "counted": true,
-   "year": 1563,
-   "date": "31 Jul 1563; 1560s",
-   "title": "Catherine de Médicis and the Court to the bishop of Rennes",
-   "correspondents": "Catherine de Médicis; Charles IX's Court; Bourdin → Bernardin Bochetel, bishop of Rennes",
-   "place": "Court → imperial court",
-   "language": "French",
-   "region": "France",
-   "period": "1560-1589",
-   "shelfmark": "BnF fr. 3181 f. 55; 500 Colbert 390 pp. 139, 357; 500 Colbert 392 p. 231",
-   "ark": "btv1b9059845t",
-   "folio_note": "fr. 3181: folio = Gallica view + 19, so f. 55 = view 36, f. 57 = view 38. 500 Colbert 390 = btv1b10033942k (p. 139 = view 70, p. 357 = view 180); 500 Colbert 392 = btv1b100339594 (p. 231 = view 112).",
-   "cls": "B",
-   "seen": "catalogue",
-   "source": "cryptiana fine print",
-   "status": "Read in part, 20 Sept 2026. fr. 3181 f. 55 (31 July 1563) had never been deciphered: La Ferrière printed the letter in 1885 (Lettres de Catherine de Médicis II, pp. 79-81, from this folio) with the thirteen ciphered lines set as an empty bracket footnoted \"Partie chiffrée\", and Tomokiyo lists the folio as undeciphered. His reconstructed key for the Bishop of Rennes’ cipher (1561-64) does work on it, but only after being calibrated on this scribe’s hand against the sibling letter f. 57 (13 Aug 1563), which carries a line-by-line decipherment down its margin; its first ciphered line reads \"que les princes\". 401 signs transcribed from IIIF region requests at the native 8720x5935. About three fifths read, including \"sceu ce que vous avez descouvert\", \"du mariage\", \"vostre advis\", \"d’iceulx en mon intention\", \"ayt tenu ce chemin\", \"vous mist en avant, qui l’avoit\", \"l’avancement du concile, à ce que\", \"de ce concile, mais nous\", \"avoir l’utilité qui en sortira\", \"mect des se[ss]ions\". The enciphered subject is the Council of Trent and the Habsburg marriage, while the recovery of Le Havre in the same letter went in clear. Open: the remaining two fifths, blocked by near-identical r/s, e/l and o/h/t homophones in this hand rather than by the key; and the three siblings (500 Colbert 390 pp. 139 and 357, 392 p. 231), same cipher, still unread.",
-   "why": "Charles IX's majority declared at Rouen 17 Aug 1563; the last session of Trent.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Reconstructed sibling keys exist; probably a variant or a key change. Content is Court instructions to an ambassador.",
-   "verify": "Test Tomokiyo's Rennes keys on f. 55 first.",
-   "outcome": "read in part",
-   "writeup": "rennes1563.html"
-  },
-  {
    "id": 13,
    "counted": true,
    "year": 1586,
@@ -212,33 +185,6 @@
    "difficulty": 2,
    "score_note": "Laurière is a direct alignment; the news-letters may share Nevers-office keys already reconstructed by Tomokiyo.",
    "verify": "Tomokiyo's Nevers keys nos. 1–70 against no. 23."
-  },
-  {
-   "id": 31,
-   "counted": false,
-   "year": 1589,
-   "date": "Sep–Oct 1589",
-   "title": "Intercepted enemy cipher letters summarised for Nevers",
-   "correspondents": "League correspondents, intercepted → Nevers' office",
-   "place": "→ Nevers",
-   "language": "French",
-   "region": "France",
-   "period": "1589-1598",
-   "shelfmark": "BnF fr. 3977 no. 96 (the summary); intercepts to be located",
-   "ark": "btv1b9060546p",
-   "folio_note": "715 canvases",
-   "cls": "B",
-   "seen": "image",
-   "source": "BnF harvest",
-   "status": "Closed from the evidence 20 Sept 2026 (nevers1589/). The entry asked whether the intercepts survive beside the summary. They do not. fr. 3977 = ark btv1b9060546p, 715 canvases; the BnF depouillement (Memoires de la Ligue notice cc504266, fragment cd0e4184) gives 138 pieces, nos. 2-143, folios 3-423. No. 96 = folio 318 = canvas 520, and it is IN CLEAR FRENCH: a digest in fifteen numbered points, fol. 318r-319r, headed “Recueil sommaire des principaux poincts contenuz en plusieurs lettres escriptes en chiffre par les ennemis du Roy, en Septembre et Octobre 1589, et envoyees a S.A. pour estre interpretees en decembre aud. an”. Contents: Mercœur asking Spain for help, powder and money carried to Nantes by Diego Maldonado “avec le chiffre general d'Espagne” (arrived 18 Oct 1589); Mendoza and the Prevost des marchands; Mauleon and “la lettre escripte du chiffre qu'ilz ont ensemble”; the master of the posts of Bordeaux and Matignon; Villeroy's complaint; Mendoza at Bayonne on Arques and Dieppe, and Mme de Montpensier's “sornettes”; the commandeur de Diou at Rome; Spain pressing the Pope to renew the excommunication; Spain resolving to maintain the war, Parma to send forces. EVERY piece in the volume dated September or October 1589 (nos. 81, 84, 85, 89-97) is in clear: there is no ciphertext to attack under no. 96. What the sweep did find: ELEVEN other intercepted ciphered letters in the same volume, Feb-Aug 1589, each with its contemporary decipherment written word by word above the cipher - nos. 29 (f.79), 31 (f.83), 38 (f.115), 39 (f.117), 43-45 (ff.126, 128, 130: three letters Mendoza to the duke of Parma, hidden in a multi-folio entry a naive regex drops), 47 (f.135), 48 (f.137), 49 (f.139), 71 (f.191). f.126 = canvas 229 photographed. Eleven complete cipher-and-plaintext pairs for Spanish ciphers of 1589; none transcribed, no key rebuilt - an unexploited seam.",
-   "why": "Royalist codebreaking of League traffic in the autumn of 1589.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 3,
-   "score_note": "Scored “unknown whether there is any ciphertext to attack”. Answered: there is none under no. 96. The eleven deciphered intercepts elsewhere in the volume are the material worth scoring instead.",
-   "verify": "Sweep fr. 3977 around no. 96 for cipher leaves.",
-   "outcome": "closed: no ciphertext",
-   "writeup": "nevers1589.html"
   },
   {
    "id": 35,
@@ -513,43 +459,6 @@
    "decode_ids": [
     793,
     796
-   ],
-   "scored": "rule"
-  },
-  {
-   "id": 48,
-   "counted": true,
-   "year": 1707,
-   "date": "15 Oct 1707",
-   "title": "Philippe Groffey (?) to Ferenc Rákóczi II (Pompeio Cesoni)",
-   "correspondents": "Philippe Groffey (?) → Ferenc Rákóczi II (Pompeio Cesoni)",
-   "place": "Polish–Swedish theatre",
-   "language": "French",
-   "region": "Hungary",
-   "period": "1701-1800",
-   "shelfmark": "MNL OL, G15 Caps. C. Fasc. 39. 277-279",
-   "folio_note": "",
-   "cls": "C",
-   "status": "Read in part, 20 Sept 2026. The preserved key DECODE R639 identifies 1,020 of 1,108 transcribed groups (92.1%); the report can be read in substance, but DECODE's noisy digit transcription prevents a continuous diplomatic edition. The clear address proves that Pompeio Cesoni (Rákóczi) is the recipient, not the sender. The unsigned writer is probably Philippe Groffey. Manuscript images are not reproduced: DECODE states that archive permission is required.",
-   "why": "A report to Rákóczi from the Polish–Swedish theatre: Ráday's letters to Rehnskiöld, lobbying at the Swedish and Polish courts, and resistance to Swedish pressure in favour of King Stanisław.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Cipher identified from the preserved same-series key and checked on two interlinear controls; exact prose remains limited by the existing transcription.",
-   "verify": "Retranscribe the two cipher leaves directly from the manuscript and rerun the table decoder; seek independent archival confirmation of the Groffey attribution.",
-   "outcome": "Cipher identified; report read in substance; exact edition open.",
-   "writeup": "rakoczi1707.html",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R902",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/902"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    902
    ],
    "scored": "rule"
   },
@@ -4129,58 +4038,6 @@
    "scored": "rule"
   },
   {
-   "id": 154,
-   "counted": true,
-   "year": 1482,
-   "date": "15 Jul 1482 – 27 Nov 1482",
-   "title": "Nicolo Sadoleto (Pozsony) to Ferdinand I / Ercole I d'Este, 4 ciphertexts",
-   "correspondents": "Nicolo Sadoleto → Ferdinand I / Ercole I d'Este",
-   "place": "Pozsony",
-   "language": "Italian",
-   "region": "Italy",
-   "period": "before 1497",
-   "shelfmark": "ASMo, Ambasciatori b. 1/9, Envoy reports, Ferrara (4 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "Read in part 19 Sept 2026 (sadoleto1482/). The sign cipher (monoalphabetic with homophones, word divisions kept, 'quid' = perchè) was rebuilt from R1101 and R1104 against their contemporary clear copies on Vestigia (1283 = no. 7a; 1295 = 13a). R1101 and R1106 turn out to have been read at the time (7a; 26a/26b = Vestigia 1319, 4004). R1102 (16 Jul 1482), seven cipher lines with no clear copy, read in gist: the Venetian side's offer to Matthias of Veglia, a fleet command for his natural son János Corvin, and 100,000 a year. Open: one nomenclator group, the informant's title, a dozen signs; R1103's faded four-line block gives fragments only.",
-   "why": "The Ferrarese ambassador at Matthias Corvinus's court during the War of Ferrara (1482–84), when Ercole I d'Este's survival against Venice hung on Hungarian and Neapolitan support.",
-   "importance": 4,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed. Pre-1497: a reading would give the repo its oldest read cipher.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1101",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1101"
-    },
-    {
-     "label": "DECODE R1102",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1102"
-    },
-    {
-     "label": "DECODE R1103",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1103"
-    },
-    {
-     "label": "DECODE R1106",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1106"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1101,
-    1102,
-    1103,
-    1106
-   ],
-   "scored": "reviewed",
-   "outcome": "read in part",
-   "writeup": "sadoleto1482.html"
-  },
-  {
    "id": 155,
    "counted": true,
    "year": 1512,
@@ -6737,53 +6594,6 @@
     2034
    ],
    "scored": "rule"
-  },
-  {
-   "id": 231,
-   "counted": true,
-   "year": 1787,
-   "date": "29 Dec 1787 – 24 Mar 1793",
-   "title": "Arend Willem baron van Reede (1747-1615) (Berlin) to Grand Pensionary L.P. van den Spiegel  1736-1800)_ / Greffier Hendrik Fagel jr. (1765-1838) and Secret Committee of the States General, 3 ciphertexts",
-   "correspondents": "Arend Willem baron van Reede (1747-1615) → Grand Pensionary L.P. van den Spiegel  1736-1800)_ / Greffier Hendrik Fagel jr. (1765-1838) and Secret Committee of the States General",
-   "place": "Berlin, Prussia",
-   "language": "French",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "NA The Hague, Laurens Pieter van de Spiegel, inv.nr. 190 (3 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "21 Sept 2026: R1026 (29 Dec 1787) and R1027 (4 Mar 1788) read with William V's 1782 Grand Chiffre (DECODE R1024), confirmed on the control R1028; DECODE's catch-all J+ sign resolved with a French language model; 452 of 472 groups. The 1788 Prussian alliance and the overseas possessions. R1893 (24 Mar 1793, Secret Committee) is a marked three-digit code with no key: not read.",
-   "why": "Ciphered despatches of Arend Willem baron van Reede (1747-1615) to Grand Pensionary L.P. van den Spiegel  1736-1800)_ / Greffier Hendrik Fagel jr. (1765-1838) and Secret Committee of the States General, 29 Dec 1787 – 24 Mar 1793; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1026",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1026"
-    },
-    {
-     "label": "DECODE R1027",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1027"
-    },
-    {
-     "label": "DECODE R1893",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1893"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1026,
-    1027,
-    1893
-   ],
-   "scored": "rule",
-   "outcome": "read in part",
-   "writeup": "vanreede1787.html"
   },
   {
    "id": 232,
