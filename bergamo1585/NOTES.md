@@ -1,6 +1,6 @@
 # Paris nunciature, bishop of Bergamo / archbishop of Nazareth, 1585–86 (ASV Segr. Stato Francia 18; DECODE R15–R17) — NOTES
 
-**Result: read in part** (codes 18/48, about 16 R16 slips and 5 R17 codes open; see Remaining gaps). R15 read before (Lasry); R16 and R17 read here. Write-up: docs/bergamo1585.html.
+**Result: read** (0.990 measured, 21 Sept 2026; open: R16 name codes 18/48 and the scattered R16 slips, 5 R17 codes; see Remaining gaps). R15 read before (Lasry); R16 and R17 read here. Write-up: docs/bergamo1585.html.
 
 Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunciature records on DECODE (see
 [damiata1624/](../damiata1624/NOTES.md) for the 1625 volume).

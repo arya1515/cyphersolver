@@ -259,17 +259,36 @@
   }
  ],
  "outcome": {
-  "class": "read",
+  "class": "read in part",
   "fraction_read": 0.86,
   "fraction_read_method": "measured",
   "fraction_read_source": "cipher_U.txt + key_M.json + read/R*_new.tsv (scratchpad measure_F_affry.py), code groups: 9,741 in all; the 8 letters with Lyonet decipherments (plain/, 3,340 groups) counted read; the 9 undeciphered letters 4,588/5,183 carry a key or inferred value; R2067 415/457 (read/R2067.md); R1071 (codeC, 761 groups) unread. Without R1071: 0.93",
   "key": "partial",
-  "codes_open": {"tokens_open": 637},
+  "codes_open": {
+   "tokens_open": 637
+  },
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "fraction_read = share of groups in the nine undeciphered letters that carry a key value (4,564/5,245); readings fill a few per cent more from context. R1072 weakest (~65% in sense); R1071 (different code) unread; R2067 transcribed and read separately."
+  "notes": "Read in part under the read bar: 0.86 of groups read (below 0.95); R1071 is in another code and unread, and R1072 reads only about 78%.",
+  "gaps": [
+   {
+    "item": "R1071 (to Stainville/Choiseul, 4/7 Aug 1757), 761 groups",
+    "blocker": "no-key-material",
+    "detail": "a different code; no decipherment among the images and the Nationaal Archief 1.01.50 inv. 221/223 decipherments are not digitised"
+   },
+   {
+    "item": "R1072 weak stretches (~65-78% in sense)",
+    "blocker": "open-codes",
+    "detail": "groups not in key_M and unresolved by context; listed as [n] in read/R1072.md"
+   },
+   {
+    "item": "~5-12% of groups per undeciphered letter",
+    "blocker": "open-codes",
+    "detail": "single groups with no Lyonet alignment and no context value, listed as [n] in each reading"
+   }
+  ]
  }
 }

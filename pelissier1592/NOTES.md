@@ -1,4 +1,4 @@
-# A. Pelissier → Pierre Jeannin, Burgos, 13 September 1592 — **read** (94% of the cipher words; key calibrated)
+# A. Pelissier → Pierre Jeannin, Burgos, 13 September 1592 — **read in part** (93% of plaintext words measured 21 Sept 2026, ~250 gaps; key calibrated)
 
 BnF fr. 3982 no. 22, ff. 46r–50r, nine pages; address leaf f. 50v. Gallica ark `btv1b9060543f`; canvases 100–108.
 The letter is mostly cipher, with clear-text passages and a few scattered interlinear glosses by a contemporary
@@ -142,3 +142,18 @@ Pelissier was the League's (Mayenne's) agent at Philip II's court. He writes to 
 - Read code group 310, and the confessor's name on f. 50r.
 - Nos. 45 and 46 (ff. 111, 113, with the clean text on f. 115) are the calibration letters. Checking their
   sign-to-letter pairs row by row would settle the remaining homophone doubts.
+
+## Remaining gaps
+
+- code group 310 (f. 50r, probably Savoy), 441 (f. 49v, probably France) and the confessor's name on f. 50r - blocker: open-codes; each occurs once; context only
+- ~250 [?] words across the nine pages - blocker: illegible; single hard glyphs after the calibrated high-zoom re-read (pass 3), listed per page in reading_<folio>.md
+- holes in the paper, f. 50r C13 - blocker: illegible; paper lost; no other copy of no. 22
+
+## Escalation
+
+- [x] siblings: nos. 45/46 (ff. 111, 113) aligned with their decipherment on f. 115
+- [x] clear-pages: f. 115 clear decipherment used for calibration; interlinear glosses checked
+- [x] known-keys: Tomokiyo's Pelissier key applied and confirmed
+- [x] print: Tomokiyo league.htm; web search 18 Sept 2026 found no printed decipherment of no. 22
+- [x] key-rebuild: key calibrated on 1,764 aligned signs, look-alike classes split (GLYPHS.md)
+- [ ] retry: not done - the third pass on the open rows (Next steps) has not been run

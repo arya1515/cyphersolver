@@ -1,6 +1,6 @@
 # Salinas (London) and Ronquillo (Nijmegen) to Fuenmayor, 1676–78 — DECODE R966–R984, R1001
 
-Status: read
+Status: read in part (0.88 of groups measured 21 Sept 2026; R970, R973, R982, R984 read for gist)
 
 The remaining ciphered letters in Baltasar de Fuenmayor's volume, Archives générales du Royaume, Brussels,
 Secrétairerie d'État et de Guerre, inv. nr. 2559 (see [hernannunez1674](../hernannunez1674/NOTES.md),
@@ -67,3 +67,17 @@ of "?"), and its reading is gist only.
 
 `try.py` (the key plus additions), `seg.py` (segmenter), `read.py` (all twenty letters → `read/R*.txt`, each with
 DECODE's margin transcription where there is one).
+
+## Remaining gaps
+
+- R970, R973, R982, R984 (unmargined letters) unread groups: R970 23%, R973 14%, R982 29%, R984 14% - blocker: not-attempted; residue is DECODE transcription noise ('?', '*', split groups); the images were not re-transcribed, so these four are read only for gist
+- ~12% of groups across the sixteen margined letters - blocker: not-attempted; transcription noise; margins give the sense, images not re-read
+
+## Escalation
+
+- [x] siblings: all twenty letters of SEG 2559 taken; R1000 already decrypted on DECODE
+- [x] clear-pages: sixteen marginal decipherments checked against the key output
+- [x] known-keys: Balbases 1677 key (with hernannunez1674 additions) fits unchanged
+- [n/a] print: no printed edition of Fuenmayor's incoming letters is known from the sibling targets
+- [n/a] key-rebuild: the key reads every margined letter unchanged; the loss is in the transcriptions, not the key
+- [ ] retry: not done - re-transcribe the four unmargined letters from the images and rerun read.py

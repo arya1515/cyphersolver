@@ -157,7 +157,7 @@
   }
  ],
  "outcome": {
-  "class": "read in part",
+  "class": "read",
   "fraction_read": 0.99,
   "fraction_read_method": "measured",
   "fraction_read_source": "R16_decryption.txt + R17_decryption.txt (scratchpad measure_A_units.py): units = plaintext letters (one per cipher pair) + one per bracketed code/name group; unread = every <..> group in R16 (unresolved codes and slips, 43 of 1,681) and [nnn?] codes in R17 (5 of 3,292). R16 0.974, R17 0.998. R15 (Lasry) not counted.",

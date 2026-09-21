@@ -1,6 +1,6 @@
 # d'Affry (The Hague) to Rouillé / Bernis, 1757-58: intercepted code letters
 
-Status: read (write-up affry1757.html, 19 Sept 2026)
+Status: read in part (0.86 of groups measured 21 Sept 2026; R1071 unread, R1072 weak; write-up affry1757.html, 19 Sept 2026)
 
 KHA The Hague, Prins Willem V, inv.nr. 192. DECODE R1052-R1076, R2067 (catalogue: d'Affry, 11 unsolved records).
 Images (git-ignored, `img/`) and DECODE digit transcriptions (`decode/DOC_*.txt`) fetched 19 Sept 2026 with the
@@ -83,3 +83,18 @@ R1067: 056=856, 099=899 ...); groups run together (58291 = 582 91) or dropped; s
 `view.py` splits merged groups; the reading agents re-parsed from the DOC files where needed.
 
 **Open:** ~5-12% of groups per letter (listed as [n] in each reading), the weak stretches of R1072, R1071 entirely.
+
+## Remaining gaps
+
+- R1071 (to Stainville/Choiseul, 4/7 Aug 1757), 761 groups - blocker: no-key-material; a different code; no decipherment among the images and the Nationaal Archief 1.01.50 inv. 221/223 decipherments are not digitised
+- R1072 weak stretches (~65-78% in sense) - blocker: open-codes; groups not in key_M and unresolved by context; listed as [n] in read/R1072.md
+- ~5-12% of groups per undeciphered letter - blocker: open-codes; single groups with no Lyonet alignment and no context value, listed as [n] in each reading
+
+## Escalation
+
+- [x] siblings: all R1052-R1076 and R2067 opened; eight Lyonet decipherments found among the images
+- [x] clear-pages: the "clear" pages are Lyonet's decipherments, transcribed into plain/
+- [ ] known-keys: other d'Affry codes (1755-56, and to Choiseul from Dec 1758) not sought for R1071
+- [x] print: De Leeuw 2000, Bussemaker 1906, Coquelle 1904 checked
+- [x] key-rebuild: key_M.json voted from the alignments, inferred values in read/R*_new.tsv
+- [ ] retry: not recorded - no second pass over the [n] groups with the extended key

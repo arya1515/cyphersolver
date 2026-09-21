@@ -118,6 +118,7 @@
   "paris nunciature to the secretariat, 1586–87": "2026-09-21",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
+  "pelissier to jeannin, burgos, 13 september 1592: read in part": "2026-09-21",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
@@ -199,8 +200,8 @@
   },
   "affry1757": {
    "first": "2026-09-19",
-   "hash": "1e39c1b5eb01",
-   "updated": "2026-09-19"
+   "hash": "ca1916e012aa",
+   "updated": "2026-09-21"
   },
   "alessandrino1568": {
    "first": "2026-09-21",
@@ -484,7 +485,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "001aaef3463a",
+   "hash": "998539700fec",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -659,8 +660,8 @@
   },
   "pelissier1592": {
    "first": "2026-09-18",
-   "hash": "e90d1c359576",
-   "updated": "2026-09-18"
+   "hash": "fc556b047a1f",
+   "updated": "2026-09-21"
   },
   "percy1559": {
    "first": "2026-09-21",
@@ -764,7 +765,7 @@
   },
   "ronquillo1676": {
    "first": "2026-09-21",
-   "hash": "0936a922820d",
+   "hash": "ca3904a8bef9",
    "updated": "2026-09-21"
   },
   "roosevelt": {
@@ -984,7 +985,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "ec84a553889f",
+   "hash": "11f103163e0f",
    "updated": "2026-09-21"
   },
   "yard1699": {
