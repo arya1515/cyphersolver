@@ -19,7 +19,7 @@ they are separate letters in at least six systems, several with their key a few 
 | R9322 | 121–122 | f.121 Hieronymus Łaski, Buda 24 Nov 1529, copy of his letter to Count Palatine Frederick; f.122 King John of Hungary to Duke Ludwig of Bavaria, Buda 1529 | System B | rebuilt from glosses | **read** |
 | R9323 | 123 | Latin note to the Bavarian secretary (Łaski circle) | System B | rebuilt from glosses | 3 of 13 lines, rest in hand |
 | R9325 | 129 | Latin note, Fulda affair (1576) | letter substitution + nomenclator | **R9324 (f.124–127)** | **read** |
-| R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | signs | ? | |
+| R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | letter signs | **R9423 block 2_4 ("H. Wilh.")** + values from context | **broken**, read in part (`r9367/decode_test.txt`) |
 | R9408 | 236–239 | Anno 1534, German report to "Sp…nio" (Sperantio?) with Latin clear passages: Hungary, the Turk, Constantinople, Syria, "dreissig tausent man aus dem teutschen land" | System A′ | R9427 gloss key | **broken**, read in part (`r9408/decrypt_working.txt`) |
 | R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | **broken**, read in part |
 | R9410 | 244–247 | German, Anno 35, to the duke: the Turks, "bruederlich halten" | System A′ | R9427 gloss key | **broken**, read in part (`sysA/r9410_decrypt_working.txt`) |
@@ -109,7 +109,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - R9416 f.263 clean reading - blocker: none yet; v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
-- R9367 - blocker: no-key-material; no key in register R9423 fits; ~600 signs too short for the solver.
+- R9367 clean reading - blocker: none yet; key = R9423 block 2_4 (6 e, w i, 3 n, y s, o g, Δ c, 4 h, + d, 8 l, v b, ‡ v) plus context values (Λ r, q a, ẟ t, X u, C s, u o, € ch); ⊡/≈/♀ open (nulls or word signs); 2_4 to be re-read at full zoom.
 - R9319 - blocker: needs-physical-access; dot grille needs cover letters f.115-118, not imaged on DECODE.
 - R9291 - blocker: none; not a ciphertext (key fragment), nothing to read.
 
@@ -117,7 +117,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 
 - [x] siblings: R9324 (key of R9325), R9368 (glossed sibling of System A), R9423 register (19 keys), R9422 (1583 key) all checked.
 - [x] clear-pages: glosses used on R9322, R9323, R9416, R9417, R9427, R9424; R9319 cover letters not imaged.
-- [x] known-keys: R9423 blocks tried on R9367 (2_4 failed); R9422 on R9424 (failed).
+- [x] known-keys: R9423 blocks tried on R9367 — 2_4 first failed with wrong pins, then fitted when the frequent signs were re-matched by shape (reads in part); R9422 on R9424 (failed).
 - [x] print: web search for KAA 4591 / Augurelio ciphers found no edition.
 - [x] key-rebuild: Łaski (System B) from glosses; System A′ from the R9427 gloss, extended by constrained annealing over R9408+R9410 with the gloss values fixed (open signs settled: # t, o a, X e in running text, A u, S h, | e). Scoring E as d vs ch over the combined text: ch scores better (−3.458 vs −3.537 per char) but gives "charzu" for darzu, so E is two look-alike signs (d and ch) merged in transcription — needs a visual re-split on the images. R9424 and R9367: no key material to rebuild from.
 - [x] retry: R9424/R9367 re-annealed with de-1500s, homophone caps and nulls (failed). System A′ letters re-decoded with the extended key and each E resolved as d or ch by de-1500s context (`sysA_decode.py`); decrypts in `r9408/decrypt.txt`, `r9409/decrypt.txt`, `sysA/r9410_decrypt.txt`, `r9413/decrypt.txt`. Remaining noise is transcription-level (merged look-alikes, doubtful signs), not key-level.
