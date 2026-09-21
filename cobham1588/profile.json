@@ -208,11 +208,21 @@
    "kind": "transcription",
    "what": "Second pass with cypher-7e's harley287 key (narrow/wide caret = s/t): sign copies from close crops of ff. 80r, 88r, 92r; the caret forms and the l/p/h loop signs could not be told apart, so only context guesses ('expences', 'of letters').",
    "result": "failed"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Third pass: sign inventory by eye at full resolution from about 60 glossed words on ff. 75, 79, 89 (signs.tsv); separates p/l/h/m/w; shows s/t, r/y, o/a and l/t share signs; glossed code numbers 7, 10, 15, 16.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Applied the inventory to ff. 80r, 88r, 92r: 'armada(s)', 'to these termes', 'the action', '15' = Parma, 'captain'; most runs still unread because of polyphonic and unglossed signs.",
+   "result": "partial"
   }
  ],
  "outcome": {
   "class": "not read",
-  "fraction_read": 0.1,
+  "fraction_read": 0.15,
   "verification": [
    "contemporary decipherment"
   ],

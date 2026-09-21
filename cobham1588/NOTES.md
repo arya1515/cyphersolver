@@ -120,3 +120,35 @@ f. 92r (27 May), after "200 mariners of Hambourgh that were at Sluys are returne
 Verdict of the second pass: not readable from the scans at sign level by this method. What would move it is a
 human transcription at the BL (or the DECODE images at full zoom, glyph by glyph, with a sign inventory drawn
 from the glossed ff. 75 and 89 first).
+
+## Third pass, 21 Sept 2026: sign inventory by eye from the glossed leaves
+
+At full scan resolution (7200 px wide) the signs are clear. About 60 glossed words on f. 75 (R8488), f. 79 (R8489,
+16 April 1588, the richest) and f. 89 (R8493) were aligned sign by sign; the result is `signs.tsv`. What it settles:
+
+- The families that looked alike separate cleanly: **p** = loop with its tail swept down-left (upon, popes, perswade,
+  prelates, persons); **l** = circle crossed by a straight stem (arrival, legat, holding, stil); **h** = stem with a
+  bowl to the right (the, harken, thought, hands); **m** = horizontal S with a loop (made, means, perform, coming,
+  commission, him); **w** = dot and stroke (willing, newe, sworne, warres, wel).
+- The system is **more homophonic, and more polyphonic, than any key so far allowed**: ∧ is s *and* t (and, on
+  f. 80, probably a); γ is r *and* y; c is o and once a; ϕ is l and once t. That, not the image, is why the four
+  May–June letters do not fall to substitution.
+- **Code numbers** are glossed: 7 = her Majesty, 10 = the Lord Admiral, 15 = the Duke of Parma, 16 = the King of
+  Spain.
+
+New readings in the target letters (grade M unless stated):
+
+- f. 80r: "as usuall in all **armadas** in numbers, that at the **armada** …, which was the 20" — ∧V∽∧ŧ∧ with
+  ∽ = m (glossed) forces ARMADA if the wide ∧ is a and ŧ is d. "hoping them in the ◻**pances**" (ϑ = p, glossed):
+  "expences" with ◻ an unglossed sign (M). A run with vertical word-dividers ends "… **to these termes**"
+  (∧z | ∧ϸ7∧ | ∧cV∽7∧, with c = e) (M). Last lines: "… **22** is … in the **action** … that he promised
+  **Q[ueen]**: … 27 to begin …" (codes 22, 27 unglossed).
+- f. 88r: "15:" is **the Duke of Parma**. The opening cipher probably begins "**captain** …" (8⊥ϑ∧…ǂǂ) before a
+  name, then "with 40 men of …, [who] have promised the …". The rest turns on signs no gloss shows (L, K).
+- f. 92r: "**4** sent by ϑoc··Ӿϕc∧" — perhaps "Portugals" (I); "of **letters**" (M).
+
+Verdict: the sign inventory is now fixed and published; the letters remain unread because several signs are
+polyphonic and a few are unglossed. The next step is not more image work but a solver: treat each sign as a set of
+possible letters (from `signs.tsv`), enumerate the readings of each cipher word against an English 1580s word list,
+and let the clear context choose. That is mechanical and can be scripted from a sign-level transcription of the
+runs, which the crops in this pass make possible.
