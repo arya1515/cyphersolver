@@ -19,6 +19,7 @@
   "bnf espagnol 318, the catholic monarchs’ ciphered letters, 1497–1504": "2026-09-17",
   "bordeaux to brienne, 1653": "2026-09-16",
   "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
+  "cardinal alessandrino to the nuncio in spain, 1568–69": "2026-09-21",
   "cardinal morosini, legate in france, to cardinal montalto, 1588–89": "2026-09-19",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
   "catherine de médicis to the bishop of rennes, 31 july 1563": "2026-09-20",
@@ -129,6 +130,11 @@
    "hash": "1e39c1b5eb01",
    "updated": "2026-09-19"
   },
+  "alessandrino1568": {
+   "first": "2026-09-21",
+   "hash": "c5807d8606b0",
+   "updated": "2026-09-21"
+  },
   "armstrong": {
    "first": "2026-09-14",
    "hash": "c351cec849d3",
@@ -176,7 +182,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "3b08fa63cee0",
+   "hash": "2d7bccf019c9",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -301,7 +307,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "711e52f5e6d3",
+   "hash": "5f4a49db6c34",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -581,7 +587,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "62668cb5dc1c",
+   "hash": "3499a3ae8652",
    "updated": "2026-09-21"
   },
   "yard1699": {
