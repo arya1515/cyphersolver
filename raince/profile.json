@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "residue1526",
+   "read": "read in part",
    "shelfmark": "BnF fr. 2984 pp. 29-31 (no. 7) and p. 105 (no. 24)",
    "date": "13 May 1526; 20 Nov 1526",
    "year": 1526,
@@ -148,13 +149,21 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.75,
+  "fraction_read": 0.66,
+  "fraction_coherent": 0.62,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "trans/reading.txt: segmented tokens of the 106 residue lines (5,210); resolved characters on the 86 H lines count read (3,414), ? on H lines and all 20 M (machine) lines count unread.",
+  "key": "partial",
+  "codes_open": {
+   "open": 1,
+   "tokens_open": 1
+  },
   "grades": "unknown",
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "86 of about 106 lines hand-read (reading.txt marks H/M lines, not the H/C/M/I grades). Limit is microfilm resolution and segmentation. fraction_read 0.75 is an estimate from the notes (86 of 106 lines hand-read, draft about 86% right per letter), not a token count. fraction_read 0.75 is an estimate from the notes (86 of 106 lines hand-read, draft about 86% right per letter), not a token count.",
+  "notes": "86 of about 106 lines hand-read (reading.txt marks H/M lines, not the H/C/M/I grades). Limit is microfilm resolution and segmentation. fraction_coherent 0.62: letters in words kept as sense in trans/reading_edited.txt (3,233, excluding ..., [ ] supplied letters and (?) words) over the 5,210 segmented tokens; the key is settled, the loss is microfilm transcription.",
   "gaps": [
    {
     "item": "13 May 1526 letter, pp. 29-31 (96 lines): residual letter errors and ~20 machine-only lines",

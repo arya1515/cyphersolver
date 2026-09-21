@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "no45",
+   "read": "read in part",
    "shelfmark": "BnF fr. 3983 no. 45, f. 98 (ark btv1b9059406b, canvas 178)",
    "date": "25 de hebrero 1593",
    "year": 1593,
@@ -35,6 +36,7 @@
   },
   {
    "id": "no79",
+   "read": "read in part",
    "shelfmark": "BnF fr. 3983 no. 79, f. 162 (canvas 286)",
    "date": "11 de março 1593",
    "year": 1593,
@@ -64,6 +66,7 @@
   },
   {
    "id": "no47",
+   "read": "read in part",
    "shelfmark": "BnF fr. 3984 no. 47, f. 108 (ark btv1b9060633d, canvas 198)",
    "date": "30 de junio 1593",
    "year": 1593,
@@ -94,6 +97,7 @@
   },
   {
    "id": "no68",
+   "read": "read in part",
    "shelfmark": "BnF fr. 3984 no. 68, f. 145 (canvas 268)",
    "date": "10 de julio 1593",
    "year": 1593,
@@ -251,13 +255,17 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.55,
+  "fraction_read": 0.69,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "reading45/79/47/68.md tables: 935 cipher tokens in transcribed rows, 124 unresolved '·' groups; untranscribed lines added at mean line length (~114 tokens: no.45 1 line, no.79 2, no.47 lines 6, 8 and later); no.68 lines 7-10 (~90 tokens that decode to syllables but not Spanish, Feria-Mansfeld nomenclature missing) counted unread; ~720/1050. Dots undercount multi-group gaps, so this is an upper bound",
+  "key": "partial",
+  "codes_open": {"open": 10},
   "verification": [
    "contemporary decipherment",
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Three letters read in substance on the office key and checked against a contemporary decipherment; a scatter of groups in every letter and the later lines remain, and the nomenclature of the Feria-Mansfeld cipher of no. 68 is the one real gap. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "notes": "Three letters read in substance on the office key and checked against a contemporary decipherment; a scatter of groups in every letter and the later lines remain, and the nomenclature of the Feria-Mansfeld cipher of no. 68 is the one real gap. fraction_read measured from the four reading tables (see fraction_read_source). Key partial: 1592-93 office key complete (fr. 3995 f. 97) but the Feria-Mansfeld nomenclature is missing; codes_open.open counts only the ten Mansfeld groups named in NOTES, not the scatter of '·' groups.",
   "gaps": [
    {"item": "no. 68, f. 145 (Ibarra, 10 July 1593): the Feria-Mansfeld nomenclature (pra, dur, hes, gar, pun, rom, mon, xen, vul, cil)", "blocker": "no-key-material", "detail": "Tomokiyo tabulates none, and fr. 3995 f. 101 was checked and is an Italian nomenclature of another correspondence"},
    {"item": "no. 47, f. 108: the unglossed and faint later lines", "blocker": "not-attempted", "detail": "the office key applies, only lines 2-13 were read"},

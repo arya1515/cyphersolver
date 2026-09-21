@@ -30,7 +30,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9683",
@@ -59,7 +60,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9695",
@@ -88,7 +90,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9846",
@@ -117,7 +120,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9866",
@@ -146,7 +150,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9867",
@@ -175,7 +180,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9868",
@@ -204,7 +210,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9869",
@@ -233,7 +240,8 @@
         "source": "DECODE images fetched 2026-09-21",
         "image_quality": "good",
         "notes": "in progress"
-      }
+      },
+      "read": "read in part"
     }
   ],
   "system": {
@@ -376,6 +384,12 @@
         "blocker": "illegible",
         "detail": "not separable at DECODE resolution"
       }
-    ]
+    ],
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "Not measurable as 'reads': read_r*.md count tokens given a value (R9683 67/91, R9695 184/249, R9867 418/467, R9866 547/624, R9868 328/353, R9869 310/339 = 1854/2123 = 0.87), an upper bound, since most valued tokens are single letters that do not assemble into words; R9667 (362 tokens) and R9846 (888) have no coverage count. Weighting the per-letter 'reads as Spanish' judgements in NOTES by token count gives ~0.38. 0.45 kept from the notes.",
+    "key": "partial",
+    "codes_open": {
+      "open": 30
+    }
   }
 }

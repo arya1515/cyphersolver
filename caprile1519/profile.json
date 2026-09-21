@@ -31,7 +31,8 @@
     "source": "DECODE image, subagent transcription into 49 sign labels (seg21/signs.md)",
     "image_quality": "good",
     "notes": "Counted from the label transcription by script (labels, before merging m+ and n+); one reader only."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R1136",
@@ -61,7 +62,8 @@
     "source": "DECODE image, subagent transcription",
     "image_quality": "fair",
     "notes": "Faint; first line cut at the top."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R1138",
@@ -92,7 +94,8 @@
     "source": "DECODE image, subagent transcription",
     "image_quality": "good",
     "notes": "Used with V1920 (not on DECODE, 462 signs) as the crib."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R1137",
@@ -122,7 +125,8 @@
     "source": "DECODE image, subagent transcription of two-digit groups",
     "image_quality": "fair",
     "notes": "584 numeric groups and 83 other signs; group boundaries inferred (no spaces)."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R1128",
@@ -150,7 +154,8 @@
     "source": "not transcribed",
     "image_quality": "good",
     "notes": "Seven lines of the 1519 two-tier cipher."
-   }
+   },
+   "read": "not read"
   }
  ],
  "system": {
@@ -266,7 +271,7 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Key verified by reproducing Somogyi's plaintext (90% of aligned signs). R1139 and R1136 read in part; R1128 and R1137 open. fraction_read estimated from the notes (R1139 and R1136 phrases only, R1137 fragments, R1128 unread; R1129-R1135, R1138 read by others), not measured.",
+  "notes": "Key verified by reproducing Somogyi's plaintext (90% of aligned signs). R1139 and R1136 read in part; R1128 and R1137 open. fraction_read estimated from the notes (R1139 and R1136 phrases only, R1137 fragments, R1128 unread; R1129-R1135, R1138 read by others), not measured. key partial: the 1520-21 sign key is rebuilt (89.6% on Somogyi's cribs) but R1128's two-tier system and R1137's numeric key are not. R1138 marked read (Somogyi 2025).",
   "gaps": [
    {
     "item": "R1139 and R1136 (1520-21 sign cipher), unread stretches",
@@ -284,6 +289,9 @@
     "detail": "letter table and codebook incomplete; notes name the next step (careful transcription of R1133/R1131/R1132 against the 1882 decipherments) as not done"
    }
   ],
-  "fraction_read": 0.3
+  "fraction_read": 0.3,
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "NOTES prose, not measured: decrypt21_raw.txt gives a key value to 97-98% of signs of R1139/R1136 (only ? unread), but the output is garbled by transcription errors and reads only in phrases, so the value-assigned share is not the share that reads; R1137 and R1128 have no reading file.",
+  "key": "partial"
  }
 }

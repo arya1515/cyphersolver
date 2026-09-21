@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "letters",
+   "read": "read",
    "shelfmark": "AGR Brussels, Secrétairerie d'État et de Guerre 2559 (DECODE R1012-R1015)",
    "date": "5-26 Dec 1674",
    "year": 1674,
@@ -53,6 +54,9 @@
  "outcome": {
   "class": "read",
   "fraction_read": 0.93,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "read/R*.txt headers, Balbases key on DECODE transcription groups: 1,716 groups, 118 unknown (R1012 62/624, R1013 20/372, R1014 29/484, R1015 7/236); unknowns are mostly DECODE transcription slips, and every passage has a verified contemporary margin decipherment",
+  "key": "recovered",
   "verification": ["contemporary decipherment", "historical consistency"],
   "notes": "Margins verified and illegible margin words recovered from the key."
  }

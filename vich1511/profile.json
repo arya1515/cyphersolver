@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "N.45",
+   "read": "read in part",
    "shelfmark": "AHN Estado 8715 N.45 (PARES 12751390)",
    "date": "4 Apr 1511",
    "year": 1511,
@@ -34,6 +35,7 @@
   },
   {
    "id": "N.57",
+   "read": "read in part",
    "shelfmark": "AHN Estado 8715 N.57 (PARES 12751402)",
    "date": "5 Jun 1512",
    "year": 1512,
@@ -63,6 +65,7 @@
   },
   {
    "id": "N.60",
+   "read": "read in part",
    "shelfmark": "AHN Estado 8715 N.60 (PARES 12751405)",
    "date": "1 Sep 1512",
    "year": 1512,
@@ -92,6 +95,7 @@
   },
   {
    "id": "N.73",
+   "read": "not read",
    "shelfmark": "AHN Estado 8715 N.73 (PARES 12751418)",
    "date": "26 Oct 1515",
    "year": 1515,
@@ -253,7 +257,11 @@
    {"item": "unread groups in N.45, N.57, N.60 (~1,168 bracketed tokens)", "blocker": "not-attempted", "detail": "the decipherments of N.41 and 8714 N.12/N.26/N.39 would close most, and were never aligned"},
    {"item": "barred-q m/a split and plart/plort/flart/flort", "blocker": "not-attempted", "detail": "NOTES ask for a careful re-reading against the images; not done"}
   ],
-  "fraction_read": 0.74,
+  "fraction_read": 0.83,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "n45_pp*.txt, n57_transcription.txt, n60_pp*.txt, n73_transcription.txt: cipher tokens with a value in decode.py LET/CODE (scratchpad measure_F_vich.py): N.45 9,699/9,959, N.57 953/988, N.60 10,739/11,612, N.73 0/3,177 (other key); unknown groups, ? and / counted unread. Key coverage overstates sense: bracket share in the decoded outputs is 95%, 94.5%, 88% (N.45/57/60)",
+  "key": "partial",
+  "codes_open": {"open": 259, "tokens_open": 995},
   "verification": [
    "key confirms",
    "historical consistency"

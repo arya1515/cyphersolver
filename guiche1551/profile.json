@@ -30,7 +30,8 @@
     "source": "Gallica IIIF full-resolution view 65",
     "image_quality": "good",
     "notes": "First two lines struck through by the writer. The + versus barred-+ distinction may be conflated."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "noailles1558",
@@ -58,7 +59,8 @@
     "source": "Gallica view 61",
     "image_quality": "good",
     "notes": "Not transcribed."
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -198,6 +200,9 @@
     "blocker": "not-attempted",
     "detail": "left as a multi-session job; not transcribed"
    }
-  ]
+  ],
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "Whole target not measurable: Noailles' ~150 signs are not transcribed and the Seure letters (~2,000 signs, not a document entry) are unread. La Guiche alone, counted from guiche_ct.txt (406 signs) against reading_raw.txt: ~352/406 = 0.87 read (unread: most of struck lines L0-L1, the name '+arna+e' x2 = 14 signs, 'lamraq?' in L3, three '?' signs); that line judgement is by eye. 0.17 kept as the by-sign estimate over the catalogue entry.",
+  "key": "partial"
  }
 }

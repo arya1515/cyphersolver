@@ -30,7 +30,8 @@
     "source": "Gallica IIIF full resolution, 2-3x crops",
     "image_quality": "fair",
     "notes": "Copy in clear with code numbers for nine persons/places only; not tokenised."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "n24-25-60",
@@ -61,7 +62,8 @@
     "source": "Gallica IIIF full resolution, 2-3x crops",
     "image_quality": "fair",
     "notes": "Twelve short runs in one hand; interlinear glosses faint."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "n78",
@@ -89,7 +91,8 @@
     "source": "Gallica IIIF full resolution, 2-3x crops",
     "image_quality": "fair",
     "notes": "One group of mixed figures and signs."
-   }
+   },
+   "read": "not read"
   },
   {
    "id": "n55",
@@ -119,7 +122,8 @@
     "source": "Gallica IIIF full resolution",
     "image_quality": "fair",
     "notes": "Groups mix figures with attached letters and signs; count made by hand."
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -266,14 +270,22 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.45,
+  "fraction_read": 0.418,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "NOTES readings table for ct_3623_twodigit.txt (104 figures: 63 read; unkeyed codes 16/17/19/39/89/99, the open name in no. 60, the first half of the 'qu'on dict' run and both no. 24 runs unread) + ct_3625_55.txt (86 groups, 19 read per NOTES) + ct_3623_78.txt (1 group of 6 signs, unread, counted 6): 82 of 196. No. 23 (all names in its key) not counted: no transcription.",
+  "key": "partial",
+  "codes_open": {
+   "open": 6,
+   "total": 7,
+   "tokens_open": 14
+  },
   "grades": "unknown",
   "verification": [
    "key confirms",
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement.",
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there.",
   "gaps": [
    {
     "item": "Fr. 3625 no. 55 (f. 66r), 67 of 86 groups",

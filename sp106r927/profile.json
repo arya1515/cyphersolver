@@ -31,7 +31,8 @@
     "source": "DECODE images",
     "image_quality": "good",
     "notes": "p. 3 hand-transcribed (450 signs); p. 1 fragments; p. 2 not transcribed"
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -135,6 +136,13 @@
     "blocker": "not-attempted",
     "detail": "expected in the unread start of the letter"
    }
-  ]
+  ],
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "p3_plain.txt covers f. 243 only; ff. 241-242 were never transcribed, so the letter's token total cannot be counted",
+  "key": "partial",
+  "codes_open": {
+   "open": 2,
+   "total": "unknown"
+  }
  }
 }

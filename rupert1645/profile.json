@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R4921",
+   "read": "read",
    "shelfmark": "BL Add MS 18983 f. 14 (DECODE R4921)",
    "date": "29 April 1645",
    "year": 1645,
@@ -77,7 +78,11 @@
  ],
  "outcome": {
   "class": "read",
-  "fraction_read": 0.93,
+  "fraction_read": 0.95,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "ciphertext.txt: 305 groups; 15 unread = code groups with no key value, read only from context (61, 211, 186, 214, 376, 148, 412, 327, c1, d4, e4 x2, o1, 03, 05); the 30 tokens of groups 81-98 other than 95/98 counted read as nulls/stops (if counted unread: 0.85); 95=my, 98=artillery counted read",
+  "key": "partial",
+  "codes_open": {"open": 14, "total": 41, "tokens_open": 15},
   "grades": "unknown",
   "verification": ["key confirms", "historical consistency"],
   "notes": "Read with Lasry's SP106-5 key. The sense is complete; about 20 of 305 groups (code words) are open or read from context only."

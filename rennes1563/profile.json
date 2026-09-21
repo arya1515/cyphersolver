@@ -5,6 +5,7 @@
   "documents": [
     {
       "id": "fr3181-f55",
+      "read": "read in part",
       "shelfmark": "BnF fr. 3181 f. 55",
       "date": "31 July 1563",
       "year": 1563,
@@ -89,8 +90,12 @@
       {"item": "500 Colbert 390 p. 357 (~25 lines)", "blocker": "not-attempted", "detail": "same cipher; image fetched, not worked"},
       {"item": "500 Colbert 392 p. 231 (Bourdin, ~30 lines)", "blocker": "not-attempted", "detail": "image fetched, not worked; the Rennes2 (Lorraine) key not tried either"}
     ],
-    "fraction_read": 0.6,
+    "fraction_read": 0.99,
+    "fraction_read_method": "measured",
+    "fraction_read_source": "decode.py (glyph transcription of cipher_f55.txt): 397 of 401 cipher tokens given a value by the key (4 unresolved); fraction_coherent from its printed 464-letter stream, counted line by line: ~350 letters fall in stretches that read as French, the rest (garbled homophone runs such as 'oesfolrei', 'iantdemniemeoentabd') counted unread",
+    "key": "recovered",
+    "fraction_coherent": 0.75,
     "verification": ["key confirms", "historical consistency"],
-    "notes": "The key assigns a letter to nearly every token (397 of 401), but only about three fifths of the passage resolves into securely read French; the rest is blocked by near-identical r/s, e/o and l/t homophones in this hand, not by the key. Lines 2, 4, 8, 12 and 13 are the weakest. The three sibling items (500 Colbert 390 pp. 139 and 357, 500 Colbert 392 p. 231) are in the same cipher and were not attempted."
+    "notes": "fraction_coherent 0.75 = letters of decode.py's stream lying in stretches that read as French (hand count per line, ~350 of 464); lines 2, 4, 8, 12, 13 carry most of the garble. The key assigns a letter to nearly every token (397 of 401), but only about three fifths of the passage resolves into securely read French; the rest is blocked by near-identical r/s, e/o and l/t homophones in this hand, not by the key. Lines 2, 4, 8, 12 and 13 are the weakest. The three sibling items (500 Colbert 390 pp. 139 and 357, 500 Colbert 392 p. 231) are in the same cipher and were not attempted."
   }
 }

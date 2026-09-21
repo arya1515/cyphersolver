@@ -5,6 +5,7 @@
   "documents": [
     {
       "id": "R902",
+      "read": "read in part",
       "shelfmark": "MNL OL, G15 Caps. C. Fasc. 39, pp. 277-279 (DECODE R902)",
       "date": "15 October 1707",
       "year": 1707,
@@ -69,9 +70,13 @@
     "gaps": [
       {"item": "R902 (pp. 277-279), ~88 unparsed or impossible groups and the continuous diplomatic text", "blocker": "not-attempted", "detail": "residue is DECODE transcription slips (one-digit errors, joined groups); no fresh group-by-group transcription from the two cipher leaves has been made, though the images were viewable through the project account"}
     ],
-    "fraction_read": 0.72,
+    "fraction_read": 0.92,
+    "fraction_coherent": 0.72,
+    "fraction_read_method": "measured",
+    "fraction_read_source": "R902_key08_read.txt: 1,020 of 1,108 parsed DECODE groups have a value in the R639 key (NOTES; 988 of 1,076 whitespace tokens in the file), bracketed [numbers] counted unread.",
+    "key": "recovered",
     "grades": {"H": 1020, "C": 0, "M": 0, "I": 88},
     "verification": ["key confirms", "historical consistency"],
-    "notes": "Cipher solved. Exact diplomatic edition awaits a fresh manuscript transcription because the existing DECODE digit transcript is noisy."
+    "notes": "Cipher solved. Exact diplomatic edition awaits a fresh manuscript transcription because the existing DECODE digit transcript is noisy. fraction_coherent 0.72 is the earlier session's estimate of how much of the decoded text reads as sense (the key output over DECODE's noisy digits is often broken into syllable fragments); it was not counted."
   }
 }

@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "f128",
+   "read": "read in part",
    "shelfmark": "RAH Colección Salazar y Castro A-31 (9/31) ff. 128-131 (DECODE R9877, R9878 duplicate)",
    "date": "18 Apr 1524",
    "year": 1524,
@@ -142,12 +143,16 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.9,
+  "fraction_read": 0.88,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "transcription_f128.txt pass-2 lines P1-P8: 116 cipher tokens (nulls counted, f~ switches and clear excluded); unread: vo, per, rus, hay (4) and the unresolved clause 'los m-re que r-ido los que no m-r-e-van' plus the end 'r-[...]' (~10); 102/116",
+  "key": "partial",
+  "codes_open": {"open": 4, "tokens_open": 4},
   "grades": "unknown",
   "verification": [
    "historical consistency"
   ],
-  "notes": "Residue: vo, per, ruc, hay, and the clause 'los m-re que r-ido'. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "notes": "Residue: vo, per, ruc, hay, and the clause 'los m-re que r-ido'. fraction_read measured on transcription_f128.txt (102 of 116 tokens read). Key partial: 4 code groups unattested and one letter-sign value (probably v) wrong.",
   "gaps": [
    {
     "item": "group `vo` (noun after *las dichas*, f. 128r)",

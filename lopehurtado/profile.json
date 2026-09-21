@@ -31,7 +31,8 @@
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
         "notes": "Only the crib passage on f. 238 is transcribed so far; the count is of code groups aligned to the clear with exact word counts, counted by hand, not measured by _check_profile.py."
-      }
+      },
+      "read": "read"
     },
     {
       "id": "R9650",
@@ -60,7 +61,8 @@
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
         "notes": "Used so far only to confirm that the same key runs across Hurtado's letters; not transcribed."
-      }
+      },
+      "read": "read"
     },
     {
       "id": "R9648",
@@ -90,7 +92,8 @@
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
         "notes": "DECODE records this as Non-decrypted. Two short passages on f. 262 read here; the count is of code groups resolved, counted by hand."
-      }
+      },
+      "read": "read"
     },
     {
       "id": "R9656",
@@ -119,7 +122,8 @@
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
         "notes": "DECODE records this as Non-decrypted, and it has no clear version or duplicate anywhere. Used as the independent control on the key; only 'el papa' read so far."
-      }
+      },
+      "read": "read in part"
     },
     {
       "id": "R9652",
@@ -147,7 +151,8 @@
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "fair",
         "notes": "DECODE calls this Partially decrypted, but the leaf carries NO cipher at all - it is written entirely in the clear and signed Lope Hurtado. The 'partial' status appears to reflect faded show-through at the head of the page. Read complete as read_r9652.md; there is nothing here to decipher."
-      }
+      },
+      "read": "not applicable"
     }
   ],
   "system": {
@@ -500,6 +505,9 @@
         "blocker": "open-codes",
         "detail": "no clear version for them; roughly half the tokens resolve"
       }
-    ]
+    ],
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "Not measurable: decode.py coverage was run only on sample lines (R9648 f.262 70%, R9650 f.270 62%, R9645 f.243 57%, R9656 f.334 42%); no whole-letter token transcription or reading file exists for the ciphered leaves, and R9634/R9646/R9649 were never measured. 0.45 kept from the notes.",
+    "key": "partial"
   }
 }

@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R5029",
+   "read": "read in part",
    "shelfmark": "SOA Plzen, Klaster u Nepomuka, RA Windischgraetz inv. 1433, karton 202 (DECODE R5029)",
    "date": "18 November 1721",
    "year": 1721,
@@ -124,6 +125,10 @@
    {"item": "23 nomenclator codes (33 groups): 78, 99, 101, 102, 103, 111, 130, 131, 139, 146, 149, 151, 164, 167, 168, 172, 181, 182, 204, 205, 206, 209, 225", "blocker": "open-codes", "detail": "not in Mirka's key list or only guessed; no bracketing or context pass done"}
   ],
   "fraction_read": 0.82,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "ct.txt vs key.tsv/dec.py codes: 181 cipher groups (122 letter, 59 code); 148 with a value, 33 code groups open (incl. 6 tokens of Mirka's guessed codes 99/103/151/167, counted unread)",
+  "key": "partial",
+  "codes_open": {"open": 23, "total": 31, "tokens_open": 33},
   "grades": {
    "H": 148,
    "I": 33

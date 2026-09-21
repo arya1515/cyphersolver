@@ -32,7 +32,8 @@
     "corrections": 0,
     "image_quality": "good",
     "notes": "DECODE's J+ sign stands for different digits; each resolved by a French 6-gram model over the R1024 key values (resolve_j.py)."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "DECODE R1027",
@@ -63,7 +64,8 @@
     "corrections": 0,
     "image_quality": "good",
     "notes": "DECODE's J+ sign stands for different digits; each resolved by a French 6-gram model over the R1024 key values (resolve_j.py)."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "DECODE R1893",
@@ -94,7 +96,8 @@
     "corrections": 0,
     "image_quality": "fair",
     "notes": "Three-digit groups include systematic overmarks and undermarks; the supplied HU language tag is erroneous."
-   }
+   },
+   "read": "not read"
   }
  ],
  "system": {
@@ -232,11 +235,23 @@
  "outcome": {
   "class": "read in part",
   "gaps": [
-   {"item": "R1893 (24 Mar 1793, 696 tokens)", "blocker": "no-key-material", "detail": "different three-digit overmarked code, 513 distinct forms; keys R2846, R2848, R2850, R2851, R2243 tried; no crib"},
-   {"item": "R1026/R1027 groups 2637, 2800, 3660, 1250, 331, 3160, 3153, 2751, 50 and damaged groups", "blocker": "open-codes", "detail": "not in the 1782 R1024 key; 2637/2800/3660 recur, probably names"},
-   {"item": "R1026/R1027 garbled passages from DECODE digit misreads", "blocker": "not-attempted", "detail": "NOTES say a fresh transcription from the images would clear them; not done"}
+   {
+    "item": "R1893 (24 Mar 1793, 696 tokens)",
+    "blocker": "no-key-material",
+    "detail": "different three-digit overmarked code, 513 distinct forms; keys R2846, R2848, R2850, R2851, R2243 tried; no crib"
+   },
+   {
+    "item": "R1026/R1027 groups 2637, 2800, 3660, 1250, 331, 3160, 3153, 2751, 50 and damaged groups",
+    "blocker": "open-codes",
+    "detail": "not in the 1782 R1024 key; 2637/2800/3660 recur, probably names"
+   },
+   {
+    "item": "R1026/R1027 garbled passages from DECODE digit misreads",
+    "blocker": "not-attempted",
+    "detail": "NOTES say a fresh transcription from the images would clear them; not done"
+   }
   ],
-  "fraction_read": 0.39,
+  "fraction_read": 0.383,
   "grades": {
    "H": 0,
    "C": 0,
@@ -247,6 +262,14 @@
    "matched control",
    "historical consistency"
   ],
-  "notes": "R1026 and R1027 read (452 of 472 groups given a value; some passages still garbled by transcription misreads); R1893 not read."
+  "notes": "R1026 and R1027 read (452 of 472 groups given a value; some passages still garbled by transcription misreads); R1893 not read.",
+  "fraction_read_method": "measured",
+  "fraction_read_source": "ciphertext_R1026/R1027/R1893.txt (319+152+696 groups) against plaintext_R1026/R1027_raw.txt: groups left as [n?] counted unread (12 in R1026, 8 in R1027; 4 4 3 8 counted read as 4433), all of R1893 unread; 447/1167. Passages garbled by DECODE digit misreads counted as read",
+  "key": "partial",
+  "codes_open": {
+   "open": 15,
+   "total": "unknown",
+   "tokens_open": 20
+  }
  }
 }

@@ -29,7 +29,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R7771",
@@ -57,7 +58,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R7772",
@@ -85,7 +87,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R7773",
@@ -113,7 +116,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R7774",
@@ -141,7 +145,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R7775",
@@ -169,7 +174,8 @@
     "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
     "image_quality": "good",
     "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
-   }
+   },
+   "read": "read"
   }
  ],
  "system": {
@@ -290,6 +296,13 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed. fraction_read estimated from NOTES: 4 of about 35 cipher lines (f. 59) unread, plus 3-4 unconfirmed person signs; no token count file."
+  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed. fraction_read estimated from NOTES: 4 of about 35 cipher lines (f. 59) unread, plus 3-4 unconfirmed person signs; no token count file.",
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "no reading or transcription file; NOTES give readings in prose, so tokens cannot be counted (estimate: 4 of ~35 cipher lines unread)",
+  "key": "partial",
+  "codes_open": {
+   "open": 4,
+   "total": "unknown"
+  }
  }
 }

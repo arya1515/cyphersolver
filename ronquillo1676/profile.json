@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "margined",
+   "read": "read",
    "shelfmark": "AGR Brussels, Secrétairerie d'État et de Guerre 2559 (DECODE R966-R969, R971, R972, R974-R981, R983, R1001)",
    "date": "Aug 1676 - May 1677",
    "year": 1677,
@@ -18,6 +19,7 @@
   },
   {
    "id": "unmargined",
+   "read": "read in part",
    "shelfmark": "AGR Brussels, SEG 2559 (DECODE R970, R973, R982, R984)",
    "date": "Sep 1676 - Mar 1678",
    "year": 1678,
@@ -65,6 +67,9 @@
  "outcome": {
   "class": "read",
   "fraction_read": 0.88,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "read/R*.txt headers (read.py, Balbases key): 23,463 code groups, 20,727 read = 0.883; unread are mostly DECODE transcription noise (?, *, split groups); unmargined R970 77%, R973 86%, R982 71%, R984 86%",
+  "key": "recovered",
   "verification": ["contemporary decipherment", "historical consistency"],
   "notes": "Two DECODE 'non-decrypted' letters (R982, R984) and two unmargined ones read in gist."
  }

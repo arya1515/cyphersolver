@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "9mar1568",
+   "read": "read in part",
    "shelfmark": "BL Add MS 4136 f. 161 (DECODE R9251 p.1); Forbes's copy of the ciphered words",
    "date": "9 Mar 1567/8",
    "year": 1568,
@@ -32,6 +33,7 @@
   },
   {
    "id": "siblings1567-68",
+   "read": "read in part",
    "shelfmark": "BL Add MS 4136 ff. 160-161 (DECODE R9250 p.2, R9251 p.1)",
    "date": "4 June 1567 - 24 Feb 1567/8",
    "year": 1567,
@@ -185,10 +187,13 @@
  "outcome": {
   "class": "read in part",
   "fraction_read": 0.33,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "reading.md: cipher signs of the 9 Mar 1568 target, 2 of 6 read (item 1 name sign H, item 3 name sign I; the four signs of item 2 unread). Siblings (work/tomokiyo_apply.out): 38 of 51 groups read, the 13 garbled groups listed in gaps counted unread.",
+  "key": "partial",
   "verification": [
    "historical consistency"
   ],
-  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I). fraction_read 0.33 is for the target 9 Mar 1568 extract only: 1 of 3 items read at grade H.",
+  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I). fraction_read 0.33 is measured on the target 9 Mar 1568 extract only (2 of 6 signs).",
   "gaps": [
    {
     "item": "9 Mar 1568 item 2 (four signs, \"a t ? l\")",

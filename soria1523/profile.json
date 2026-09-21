@@ -30,7 +30,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key A."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9489",
@@ -59,7 +60,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key A."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9490",
@@ -88,7 +90,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key A."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9491",
@@ -117,7 +120,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9492",
@@ -146,7 +150,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key A."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9493",
@@ -175,7 +180,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key A."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9494",
@@ -204,7 +210,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9495",
@@ -233,7 +240,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9496",
@@ -262,7 +270,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9497",
@@ -291,7 +300,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9498",
@@ -320,7 +330,8 @@
     "source": "DECODE images",
     "image_quality": "unknown",
     "notes": "Key B."
-   }
+   },
+   "read": "read"
   }
  ],
  "system": {
@@ -493,10 +504,33 @@
   ],
   "notes": "June and July key-A letters read nearly throughout; key-B passages in substance. Open: key-A codes rip, pur, qed, mul; about a dozen key-B groups. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
   "gaps": [
-   {"item": "key-A code words rip, pur, qed, mul, dus, cop and the opener TZ", "blocker": "open-codes", "detail": "1-3 occurrences each, rip/pur/qed guessed from context only"},
-   {"item": "key-B groups yac, fob, taf, tu, pel, pug, zib, sib, xif, sab, 7 pes, per (and guessed paf, tin, sud, xa)", "blocker": "open-codes", "detail": "not attested in the R9844 crib"},
-   {"item": "R9493, R9496, R9498 sign-by-sign collation", "blocker": "not-attempted", "detail": "duplicates, only spot-checked"},
-   {"item": "R9491 lines 1-7 and the personal names in R9494 (grade M)", "blocker": "open-codes", "detail": "key-B values not confirmed"}
-  ]
+   {
+    "item": "key-A code words rip, pur, qed, mul, dus, cop and the opener TZ",
+    "blocker": "open-codes",
+    "detail": "1-3 occurrences each, rip/pur/qed guessed from context only"
+   },
+   {
+    "item": "key-B groups yac, fob, taf, tu, pel, pug, zib, sib, xif, sab, 7 pes, per (and guessed paf, tin, sud, xa)",
+    "blocker": "open-codes",
+    "detail": "not attested in the R9844 crib"
+   },
+   {
+    "item": "R9493, R9496, R9498 sign-by-sign collation",
+    "blocker": "not-attempted",
+    "detail": "duplicates, only spot-checked"
+   },
+   {
+    "item": "R9491 lines 1-7 and the personal names in R9494 (grade M)",
+    "blocker": "open-codes",
+    "detail": "key-B values not confirmed"
+   }
+  ],
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "read_r94*.md: readings are line tables mixing clear and cipher with prose glosses, not token-aligned, so a token share cannot be counted; 0.85 is the NOTES estimate",
+  "key": "partial",
+  "codes_open": {
+   "open": 23,
+   "total": "unknown"
+  }
  }
 }

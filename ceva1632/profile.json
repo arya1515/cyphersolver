@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R75",
+   "read": "read in part",
    "shelfmark": "ASV, i. 1025, Segretario di Stato, Francia, doss. 346-2 (DECODE R75)",
    "date": "25 Sept 1632",
    "year": 1632,
@@ -29,6 +30,7 @@
   },
   {
    "id": "R84",
+   "read": "read in part",
    "shelfmark": "ASV, i. 1025, Segretario di Stato, Francia, doss. 346-11 (DECODE R84)",
    "date": "18 Dec 1632",
    "year": 1632,
@@ -119,8 +121,13 @@
  "outcome": {
   "class": "read in part",
   "gaps": [{"item": "117 nomenclator elements of R75/R84 (89 of Lasry's 95 plus 28 new)", "blocker": "open-codes", "detail": "people and places sit inside them; interlinear on R75 fixed 6; 491 contradicts its contexts"}, {"item": "R75/R84 doubtful stretches", "blocker": "not-attempted", "detail": "transcriptions are DECODE's and were not re-checked against images R75 I589/I590, R84 I639/I640"}, {"item": "dossier key with nomenclator", "blocker": "needs-physical-access", "detail": "none on DECODE; would need the ASV"}],
-  "fraction_read": 0.92,
+  "fraction_read": 0.914,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "r75.tokens.json + r84.tokens.json with cipher.py: tokens excluding separator 6 and 2x nulls (2,095); unread = nomenclator elements not in cipher.NOMEN (119) and ?-noise digits (61). R75 0.914, R84 0.915. Nomenclator elements the decoder missed and rendered as letters count as read here; fraction_coherent corrects for that.",
+  "fraction_coherent": 0.775,
+  "key": "partial",
+  "codes_open": {"open": 68, "total": 73, "tokens_open": 119},
   "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
-  "notes": "R75 and R84 read here for the first time; R77, R78 and R82, the other three ciphertexts this target names, were already read by Lasry in 2020. 0.92 is the share of enciphered tokens given a value; the independent measure of accuracy is the 77.5% letter agreement with the 1632 interlinear on R75. About three nomenclator elements in ten are still missed by the decoder, and a missed element is rendered as plausible Italian letters rather than as a gap, so errors concentrate there. 117 of the 123 nomenclator elements met in the dossier remain unread, and the people and places of both letters are inside them. R75 (25 Sept 1632) argues that the Swedish victories make an accommodation easier but the union far harder, and presses the French court to see how dangerous that power's reach towards the Mediterranean is to France itself. R84 (18 Dec 1632), a month after Lutzen, turns on 'quella vittoria' and ends with the Roman fear that the consequences will hold France disunited and unable to help her allies. The transcriptions are DECODE's and were not re-checked against the images."
+  "notes": "R75 and R84 read here for the first time; R77, R78 and R82, the other three ciphertexts this target names, were already read by Lasry in 2020. 0.92 is the share of enciphered tokens given a value; the independent measure of accuracy is the 77.5% letter agreement with the 1632 interlinear on R75. About three nomenclator elements in ten are still missed by the decoder, and a missed element is rendered as plausible Italian letters rather than as a gap, so errors concentrate there. 117 of the 123 nomenclator elements met in the dossier remain unread, and the people and places of both letters are inside them. R75 (25 Sept 1632) argues that the Swedish victories make an accommodation easier but the union far harder, and presses the French court to see how dangerous that power's reach towards the Mediterranean is to France itself. R84 (18 Dec 1632), a month after Lutzen, turns on 'quella vittoria' and ends with the Roman fear that the consequences will hold France disunited and unable to help her allies. The transcriptions are DECODE's and were not re-checked against the images. Measured 21 Sept 2026: 0.914 of tokens get a value. fraction_coherent 0.775 = the letter agreement with the 1632 interlinear on R75 (the only independent check). codes_open counts R75/R84 only (68 of 73 distinct elements met); dossier-wide 117 of 123."
  }
 }

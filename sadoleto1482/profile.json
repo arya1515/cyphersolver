@@ -5,6 +5,7 @@
   "documents": [
     {
       "id": "R1101",
+      "read": "read",
       "shelfmark": "ASMo Ambasciatori Ungheria b. 1/9 no. 7 (DECODE R1101; Vestigia 1284)",
       "date": "15 Jul 1482",
       "year": 1482,
@@ -33,6 +34,7 @@
     },
     {
       "id": "R1102",
+      "read": "read in part",
       "shelfmark": "ASMo Ambasciatori Ungheria b. 1/9 no. 8 (DECODE R1102; Vestigia 1286)",
       "date": "16 Jul 1482",
       "year": 1482,
@@ -60,6 +62,7 @@
     },
     {
       "id": "R1103",
+      "read": "not read",
       "shelfmark": "ASMo Ambasciatori Ungheria b. 1/9 no. 11 (DECODE R1103; Vestigia 1294)",
       "date": "17 Aug 1482",
       "year": 1482,
@@ -87,6 +90,7 @@
     },
     {
       "id": "R1106",
+      "read": "read",
       "shelfmark": "ASMo Ambasciatori Ungheria b. 1/9 no. 26 (DECODE R1106; Vestigia 1318)",
       "date": "27 Nov 1482",
       "year": 1482,
@@ -619,6 +623,9 @@
   "outcome": {
     "class": "read in part",
     "fraction_read": 0.65,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "Not measurable: no token-marked reading of the whole group; R1102 working edition keeps 20 unresolved U labels over partial page-3/4 transcriptions (cipher_inventory.md: 'not a symbol count'), R1103 has no transcription, R1101/R1106 read via contemporary clear witnesses not collated word by word. Value from NOTES",
+    "key": "partial",
     "grades": "unknown",
     "verification": [
       "key confirms",

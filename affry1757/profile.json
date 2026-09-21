@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "codeA",
+   "read": "read in part",
    "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1052, R1053, R1062-R1065, R1072, R1073, R1075, R1076",
    "date": "6 Jan - 17 Feb 1757",
    "year": 1757,
@@ -33,6 +34,7 @@
   },
   {
    "id": "codeB",
+   "read": "read in part",
    "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1066-R1069, R1054, R1070, R1074",
    "date": "Feb 1757 - 17 Jan 1758",
    "year": 1757,
@@ -61,6 +63,7 @@
   },
   {
    "id": "codeC",
+   "read": "not read",
    "shelfmark": "KHA Prins Willem V inv. 192; DECODE R1071",
    "date": "7 Aug 1757",
    "year": 1757,
@@ -89,6 +92,7 @@
   },
   {
    "id": "R2067",
+   "read": "read in part",
    "shelfmark": "KHA Prins Willem V inv. 192; DECODE R2067",
    "date": "17 Jan 1758",
    "year": 1758,
@@ -256,7 +260,11 @@
  ],
  "outcome": {
   "class": "read",
-  "fraction_read": 0.87,
+  "fraction_read": 0.86,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "cipher_U.txt + key_M.json + read/R*_new.tsv (scratchpad measure_F_affry.py), code groups: 9,741 in all; the 8 letters with Lyonet decipherments (plain/, 3,340 groups) counted read; the 9 undeciphered letters 4,588/5,183 carry a key or inferred value; R2067 415/457 (read/R2067.md); R1071 (codeC, 761 groups) unread. Without R1071: 0.93",
+  "key": "partial",
+  "codes_open": {"tokens_open": 637},
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",

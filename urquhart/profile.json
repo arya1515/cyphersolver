@@ -31,7 +31,8 @@
     "corrections": 14,
     "image_quality": "good",
     "notes": "Count from NOTES (numbers held in ct.py, not a plain file). Schmeh's public transcription had 272: two run-over lines omitted, one '2' dropped, one 6/16 misread."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "distich",
@@ -59,7 +60,8 @@
     "source": "Schmeh / 1834 Works OCR (src/maitland1834.txt)",
     "image_quality": "fair",
     "notes": "Year is the printing that carries it; composition date unknown. 1834 reads 5.38.5 where Schmeh has 5.33.5."
-   }
+   },
+   "read": "not read"
   }
  ],
  "system": {
@@ -171,14 +173,25 @@
  "outcome": {
   "class": "read in part",
   "gaps": [
-   {"item": "octastich line 5, positions 151-160 (CONERTHTO + page 158)", "blocker": "needs-physical-access", "detail": "TCP text of pp. 149-158 differs from the print (near-empty p. 158); needs the 1652 leaves"},
-   {"item": "distich, 64 numbers", "blocker": "no-key-material", "detail": "claimed Proquiritation rule gives 34/64, chance; page-index variants on The Jewel and Logopandecteision at chance; key text not identified"}
+   {
+    "item": "octastich line 5, positions 151-160 (CONERTHTO + page 158)",
+    "blocker": "needs-physical-access",
+    "detail": "TCP text of pp. 149-158 differs from the print (near-empty p. 158); needs the 1652 leaves"
+   },
+   {
+    "item": "distich, 64 numbers",
+    "blocker": "no-key-material",
+    "detail": "claimed Proquiritation rule gives 34/64, chance; page-index variants on The Jewel and Logopandecteision at chance; key text not identified"
+   }
   ],
   "fraction_read": 0.788,
   "verification": [
    "matched control",
    "historical consistency"
   ],
-  "notes": "Octastich read except ten letters of line 5 (TCP defect at pp. 149-158); distich (64 numbers) unread. Fraction = 275 of 349 numbers across both."
+  "notes": "Octastich read except ten letters of line 5 (TCP defect at pp. 149-158); distich (64 numbers) unread. Fraction = 275 of 349 numbers across both.",
+  "fraction_read_method": "measured",
+  "fraction_read_source": "reading_octastich.txt + distich: numbers (letters) decoded; octastich 285 positions, 10 of line 5 unread ('_' and TCP-defect run); distich 64 numbers unread; 275/349",
+  "key": "partial"
  }
 }

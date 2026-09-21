@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "bremen1631",
+   "read": "read",
    "shelfmark": "Riksarkivet Stockholm, DECODE R4330 and R4331 (Riksarkivet_Bremen_Tott_1631-1, -2)",
    "date": "27 Nov and ? Dec 1631",
    "year": 1631,
@@ -35,6 +36,7 @@
   },
   {
    "id": "R4306",
+   "read": "not read",
    "shelfmark": "Riksarkivet, Chifferklaver låda II:133 (wrapper II:104), DECODE R4306",
    "date": "1632?",
    "year": 1632,
@@ -65,6 +67,7 @@
   },
   {
    "id": "R4284",
+   "read": "not read",
    "shelfmark": "Riksarkivet, Chifferklaver låda II:114, DECODE R4284",
    "date": "1628",
    "year": 1628,
@@ -95,6 +98,7 @@
   },
   {
    "id": "R4282",
+   "read": "not read",
    "shelfmark": "Riksarkivet, Chifferklaver låda II:113, DECODE R4282",
    "date": "unknown",
    "year": "unknown",
@@ -266,13 +270,16 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.2,
+  "fraction_read": 0.3,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "_check_profile --measure on the four transcribed documents: bremen_transcription.txt (GLOSS lines removed, --digits) 955 figures, all given a value in bremen_decoded.txt (residue = transcription slips); r4306_v2.txt 465, r4284_transcription.txt 822, r4282_transcription.txt ~1000 signs (letters, [..] clear Latin excluded), all unread; 955/~3240. Rusdorff and E 708 records not in documents[] and not counted",
+  "key": "partial",
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count.",
+  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.3 is measured over the four documents' transcriptions (Bremen 955 figures read of ~3240 cipher tokens); key partial = Bremen band key recovered, none for R4282/R4284/R4306.",
   "gaps": [
    {
     "item": "R4282 (Latin letter cipher, ~1,000 letters)",

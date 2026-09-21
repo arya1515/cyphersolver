@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R1892 p1",
+   "read": "read",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
    "date": "unknown",
    "year": 1795,
@@ -34,6 +35,7 @@
   },
   {
    "id": "R1892 p2",
+   "read": "read in part",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
    "date": "unknown",
    "year": 1795,
@@ -169,7 +171,13 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.93,
+  "fraction_read": 0.94,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "transcription_p1.txt + transcription_p2.txt with the apply.py key (scratchpad measure_C_orange.py): 1,848 of 1,958 cipher tokens read (digit pairs in the square and the circle-dot DE sign); word signs left as <..>, unmapped pairs and ?? counted unread; <struck>, parentheticals and bracketed clear words excluded. p1 1043/1056, p2 805/902.",
+  "key": "partial",
+  "codes_open": {
+   "tokens_open": 93
+  },
   "verification": [
    "historical consistency"
   ],

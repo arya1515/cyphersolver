@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R805",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. C Fasc. 33, pp. 34-37 (DECODE R805)",
    "date": "1 May 1706",
    "year": 1706,
@@ -33,6 +34,7 @@
   },
   {
    "id": "R823",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. C Fasc. 33, pp. 140-143 (DECODE R823)",
    "date": "19 December 1706",
    "year": 1706,
@@ -61,6 +63,7 @@
   },
   {
    "id": "R765",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. E Fasc. 80, pp. 2-11 (DECODE R765)",
    "date": "5 January 1707",
    "year": 1707,
@@ -89,6 +92,7 @@
   },
   {
    "id": "R757",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. E Fasc. 109, pp. 85-90 (DECODE R757)",
    "date": "16 May 1708",
    "year": 1708,
@@ -117,6 +121,7 @@
   },
   {
    "id": "R740",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. H Fasc. 226, pp. 85-88 (DECODE R740)",
    "date": "2 January 1710",
    "year": 1710,
@@ -145,6 +150,7 @@
   },
   {
    "id": "R741",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. H Fasc. 226, pp. 89-96 (DECODE R741)",
    "date": "8 May 1710",
    "year": 1710,
@@ -173,6 +179,7 @@
   },
   {
    "id": "R731",
+   "read": "not read",
    "shelfmark": "MNL OL G15 Caps. H Fasc. 226, pp. 31-33 (DECODE R731)",
    "date": "6 March 1710",
    "year": 1710,
@@ -200,6 +207,7 @@
   },
   {
    "id": "R784",
+   "read": "read",
    "shelfmark": "MNL OL G15 Caps. D Fasc. 80, pp. 110-111 (DECODE R784)",
    "date": "1707 (undated; DECODE year range)",
    "year": 1707,
@@ -348,7 +356,13 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.97,
+  "fraction_read": 0.96,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "decode.py over the DECODE transcriptions (R740 own transcription), per-record counts in NOTES table: 11,640 of 11,818 numeric groups have a key value (digit slips, joined groups, sums counted unread); R731 graphic signs (~350, untranscribed) added to the denominator as unread, so 11,640/~12,170.",
+  "key": "partial",
+  "codes_open": {
+   "tokens_open": 178
+  },
   "grades": {
    "H": 11640,
    "I": 178
@@ -357,7 +371,7 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read is lowered from 0.985 to allow for R731's untranscribed signs.",
+  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read 0.96 counts R731's ~350 untranscribed signs as unread.",
   "gaps": [
    {
     "item": "R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs",

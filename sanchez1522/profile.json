@@ -5,6 +5,7 @@
   "documents": [
     {
       "id": "R9653",
+      "read": "read in part",
       "shelfmark": "RAH, Signatura 9/26, f. 299-301 (DECODE R9653)",
       "date": "20 Nov 1522",
       "year": 1522,
@@ -34,6 +35,7 @@
     },
     {
       "id": "R9635",
+      "read": "read in part",
       "shelfmark": "RAH, Signatura 9/26, f. 20-22 (DECODE R9635)",
       "date": "16 Sept 1522",
       "year": 1522,
@@ -311,6 +313,9 @@
   "outcome": {
     "class": "read in part",
     "fraction_read": 0.6,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "Not measurable: read_r9635.md and read_r9653.md list resolved code-group phrases only; the spelled-out letter runs are not transcribed, R9653's six-line head paragraph and ff. 21-22/300-301 are untranscribed, so no token base exists. Value from NOTES (share of code groups resolved on the two leaves worked)",
+    "key": "partial",
     "verification": [
       "key confirms",
       "contemporary decipherment",

@@ -29,7 +29,8 @@
     "source": "DECODE images (BL), full resolution",
     "image_quality": "good",
     "notes": "Cipher passages set in clear English; fragments only."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R8492",
@@ -57,7 +58,8 @@
     "source": "DECODE images (BL), full resolution",
     "image_quality": "good",
     "notes": "Densest cipher of the four; not transcribed at sign level."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R8495",
@@ -85,7 +87,8 @@
     "source": "DECODE images (BL), full resolution",
     "image_quality": "good",
     "notes": "About 8 cipher lines on f. 92r."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R8496",
@@ -113,7 +116,8 @@
     "source": "DECODE images (BL), full resolution",
     "image_quality": "good",
     "notes": "Scattered cipher words, Bourbourg."
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -264,6 +268,13 @@
     "blocker": "open-codes",
     "detail": "only 'passed', 'within France', 'servants', 'priests' read; the rest turns on the same signs; f. 97r runs not in runs.txt"
    }
-  ]
+  ],
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "Not measurable: READING.md and reading_*.md list read words as fragments with grades, not aligned to the sign transcription in runs.txt (22 runs, ff. 80/88/92 only; f. 97r untranscribed), so no token count of read vs unread exists. 0.35 kept from the notes ('about a third of the cipher words read with grade H or M').",
+  "key": "partial",
+  "codes_open": {
+   "open": 3,
+   "total": 7
+  }
  }
 }

@@ -29,7 +29,8 @@
     "source": "Thomas Ernst's BNA-verified transcription (ads.py)",
     "image_quality": "unknown",
     "notes": "Letter totals 222 and 219 from NOTES; the text lives in ads.py (Python), which --measure cannot read, so not measured. The two ads are halves of one text, attacked as one unit."
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -124,13 +125,16 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.83,
+  "fraction_read": 0.747,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "catokwacopa/ads.py PAIRS (Ernst's 29 lines): characters (letters and figures) of both ads, 470; lines 9, 12, 23, 26, 29 (119 characters) counted unread, every other line counted read.",
+  "key": "not applicable",
   "grades": "unknown",
   "verification": [
    "matched control",
    "historical consistency"
   ],
-  "notes": "Oxford reading right in outline; lines 9/26, 12, 23 and 29 undetermined. fraction_read estimated as 24 of 29 lines (lines 9, 12, 23, 26, 29 undetermined), not letter-measured.",
+  "notes": "Oxford reading right in outline; lines 9/26, 12, 23 and 29 undetermined. fraction_read estimated as 24 of 29 lines (lines 9, 12, 23, 26, 29 undetermined), not letter-measured. Measured 21 Sept 2026 by characters per line (0.747; was 0.83 by lines). key 'not applicable': omission scheme, no key.",
   "gaps": [
    {
     "item": "lines 9 and 26 (mistrl / otenpu, oatvpu)",

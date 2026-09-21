@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "R4838-R4839",
+   "read": "read",
    "shelfmark": "BL Add MS 32657 ff. 125-127, 140-141 (DECODE R4838, R4839)",
    "date": "28 Jul and 7 Aug 1585",
    "year": 1585,
@@ -19,6 +20,7 @@
   },
   {
    "id": "R4840",
+   "read": "read",
    "shelfmark": "BL Add MS 32657 ff. 163-164 (DECODE R4840)",
    "date": "21 Aug 1585",
    "year": 1585,
@@ -33,6 +35,7 @@
   },
   {
    "id": "R4844",
+   "read": "read in part",
    "shelfmark": "BL Add MS 32657 ff. 194-195 (DECODE R4844)",
    "date": "10 Sep 1585",
    "year": 1585,
@@ -88,7 +91,11 @@
    {"item": "name codes 13, 14, 23, 30, 32, 37", "blocker": "open-codes", "detail": "not glossed in CSP or Wotton drafts; context too thin"},
    {"item": "clear-text gaps [..] in reading_R4840/R4844", "blocker": "not-attempted", "detail": "working transcriptions left gaps; no second pass recorded"}
   ],
-  "fraction_read": 0.6,
+  "fraction_read": 0.49,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "reading_R4840.txt, reading_R4844.txt + R4838/R4839 code lists in NOTES: 69 cipher units (name-code numbers, one per occurrence; each sign-alphabet word as one unit); read = name code graded H/C/M; unread = codes 13, 14, 23, 30, 32, 37, 9 and all 23 sign words in R4844. R4838/R4839 codes counted once each (occurrence counts not recorded)",
+  "key": "partial",
+  "codes_open": {"open": 6, "total": 18},
   "grades": "unknown",
   "verification": ["historical consistency"],
   "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread. fraction_read is a rough estimate from NOTES, not a count: name numbers mostly identified (6 of 16 open), the ~14 sign words of R4844 unread."

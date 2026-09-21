@@ -29,7 +29,8 @@
     "source": "DECODE images IMG_R366_I3424-I3431, fetched with a saved DECODE session cookie",
     "image_quality": "good",
     "notes": "Read directly from the images against the key; no separate symbol transcription file was produced. Cipher runs on pp. 1, 4, 5, 6, 7, about three pages in all."
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -122,7 +123,7 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.9,
+  "fraction_read": 0.83,
   "grades": "unknown",
   "verification": [
    "key confirms",
@@ -145,6 +146,9 @@
     "blocker": "not-attempted",
     "detail": "NOTES: \"partly read\"; read_A.md p7 lines still carry [?] groups"
    }
-  ]
+  ],
+  "fraction_read_method": "measured",
+  "fraction_read_source": "read_A.md + read_B.md (pp. 1, 4-7): per reading line, units = max(cipher word groups excluding declared nulls, plaintext words); words carrying [?], [..], [...] or ? counted unread: 442/530 = 0.83 (plain word count 443/521 = 0.85). Script measure_B_malvezzi.py (session scratchpad).",
+  "key": "partial"
  }
 }

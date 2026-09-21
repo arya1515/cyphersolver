@@ -31,7 +31,8 @@
     "source": "Gallica microfilm (MF 31394)",
     "image_quality": "poor",
     "notes": "50-60 px glyphs; homophone forms hard to separate"
-   }
+   },
+   "read": "read in part"
   }
  ],
  "system": {
@@ -130,6 +131,9 @@
     "blocker": "illegible",
     "detail": "50-60 px glyphs on MF 31394, several forms differ by less than the film records (5b); a new capture would settle them"
    }
-  ]
+  ],
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "no reading file: the three letters were never transcribed with Lasry's key (key_lasry.tsv); only short passages read in NOTES prose",
+  "key": "recovered"
  }
 }

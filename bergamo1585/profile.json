@@ -31,7 +31,8 @@
     "source": "DECODE D1610 (TimB)",
     "image_quality": "unknown",
     "notes": "Used as found; not checked against the images."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R17",
@@ -60,7 +61,8 @@
     "source": "DECODE D1611 (TimB)",
     "image_quality": "unknown",
     "notes": "Used as found."
-   }
+   },
+   "read": "read"
   }
  ],
  "system": {
@@ -156,11 +158,17 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.98,
+  "fraction_read": 0.99,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "R16_decryption.txt + R17_decryption.txt (scratchpad measure_A_units.py): units = plaintext letters (one per cipher pair) + one per bracketed code/name group; unread = every <..> group in R16 (unresolved codes and slips, 43 of 1,681) and [nnn?] codes in R17 (5 of 3,292). R16 0.974, R17 0.998. R15 (Lasry) not counted.",
+  "key": "partial",
+  "codes_open": {
+   "open": 7
+  },
   "verification": [
    "key confirms"
   ],
-  "notes": "R15 read before (Lasry); R16 read, 18 unknowns, names 18/48 unconfirmed; R17 read with Meister no. 40. fraction_read estimated from the notes (R16: 18 unknown of ~1,410 letter pairs after the Meister nomenclator; R17: 5 unknown codes; R15 read by Lasry), not measured token by token.",
+  "notes": "R15 read before (Lasry); R16 read, 18 unknowns, names 18/48 unconfirmed; R17 read with Meister no. 40. fraction_read estimated from the notes (R16: 18 unknown of ~1,410 letter pairs after the Meister nomenclator; R17: 5 unknown codes; R15 read by Lasry), not measured token by token. Measured 21 Sept 2026: 0.99 of units read (R16 0.974, R17 0.998); codes_open = R16 codes 18 and 48 plus the five R17 codes (the other R16 <..> groups are mostly transcription slips).",
   "gaps": [
    {
     "item": "R16 nomenclator codes 18 and 48",

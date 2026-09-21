@@ -29,7 +29,8 @@
     "source": "transcripts/R9554.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9558",
@@ -57,7 +58,8 @@
     "source": "transcripts/R9558.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9559",
@@ -85,7 +87,8 @@
     "source": "transcripts/R9559.txt, from the DECODE images",
     "image_quality": "fair",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9560",
@@ -113,7 +116,8 @@
     "source": "transcripts/R9560.txt, from the DECODE images",
     "image_quality": "fair",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9561",
@@ -141,7 +145,8 @@
     "source": "transcripts/R9561.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9562",
@@ -169,7 +174,8 @@
     "source": "transcripts/R9562.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9563",
@@ -197,7 +203,8 @@
     "source": "transcripts/R9563.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9564",
@@ -225,7 +232,8 @@
     "source": "transcripts/R9564.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9565",
@@ -253,7 +261,8 @@
     "source": "transcripts/R9565.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9566",
@@ -281,7 +290,8 @@
     "source": "transcripts/R9566.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9567",
@@ -309,7 +319,8 @@
     "source": "transcripts/R9567.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9570",
@@ -337,7 +348,8 @@
     "source": "transcripts/R9570.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9579",
@@ -365,7 +377,8 @@
     "source": "transcripts/R9579.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9587",
@@ -393,7 +406,8 @@
     "source": "transcripts/R9587.txt, from the DECODE images",
     "image_quality": "fair",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9588",
@@ -421,7 +435,8 @@
     "source": "transcripts/R9588.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Different code (values ~100-1100); not attacked."
-   }
+   },
+   "read": "not read"
   },
   {
    "id": "R9569",
@@ -449,7 +464,8 @@
     "source": "transcripts/R9569.txt, from the DECODE images",
     "image_quality": "fair",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9571",
@@ -477,7 +493,8 @@
     "source": "transcripts/R9571.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9589",
@@ -505,7 +522,8 @@
     "source": "transcripts/R9589.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "R9553",
@@ -533,7 +551,8 @@
     "source": "transcripts/R9553.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9555",
@@ -561,7 +580,8 @@
     "source": "transcripts/R9555.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9556",
@@ -589,7 +609,8 @@
     "source": "transcripts/R9556.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9557",
@@ -617,7 +638,8 @@
     "source": "transcripts/R9557.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9582",
@@ -645,7 +667,8 @@
     "source": "transcripts/R9582.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9583",
@@ -673,7 +696,8 @@
     "source": "transcripts/R9583.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9584",
@@ -701,7 +725,8 @@
     "source": "transcripts/R9584.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9585",
@@ -729,7 +754,8 @@
     "source": "transcripts/R9585.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Groups with a fifth digit are kept as written and treated as nulls."
-   }
+   },
+   "read": "read in part"
   },
   {
    "id": "R9586",
@@ -757,7 +783,8 @@
     "source": "transcripts/R9586.txt, from the DECODE images",
     "image_quality": "good",
     "notes": "Different code (values ~100-1100); not attacked."
-   }
+   },
+   "read": "not read"
   }
  ],
  "system": {
@@ -902,12 +929,20 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.447,
+  "fraction_read": 0.429,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "cipher/<R>.txt for all 27 documents against key.tsv (162 values, grades G/X/I): main-code groups (<5 digits; 141 five-digit nulls excluded) with a key value, 4,399 of 10,252; groups without a value counted unread. Includes the different-code R9586/R9588 (6-7%) and the glossed R9569/R9571/R9589.",
+  "key": "partial",
+  "codes_open": {
+   "open": 1334,
+   "total": 1496,
+   "tokens_open": 5853
+  },
   "grades": "unknown",
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established.",
+  "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established. Remeasured 21 Sept 2026 over all 27 documents: 0.429 (was 0.447). Having a value is not reading: no letter reads through. R9569/R9571/R9589 marked read on their contemporary interlinear decipherments.",
   "gaps": [
    {
     "item": "main-code groups without a value (55% of target groups)",

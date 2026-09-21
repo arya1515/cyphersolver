@@ -5,6 +5,7 @@
  "documents": [
   {
    "id": "f209",
+   "read": "read",
    "shelfmark": "BnF fr. 3985 no. 116, f. 209 (Gallica btv1b90606498 canvas 419)",
    "date": "8 Sep 1593",
    "year": 1593,
@@ -36,6 +37,7 @@
   },
   {
    "id": "f168",
+   "read": "read in part",
    "shelfmark": "BnF fr. 3986 no. 81, f. 168 (Gallica btv1b9060631k canvas 332)",
    "date": "14 Oct 1593",
    "year": 1593,
@@ -67,6 +69,7 @@
   },
   {
    "id": "f146v",
+   "read": "not read",
    "shelfmark": "BnF fr. 3986 no. 68, f. 146v (canvas 287)",
    "date": "7 Oct 1593",
    "year": 1593,
@@ -94,6 +97,7 @@
   },
   {
    "id": "f157v",
+   "read": "not read",
    "shelfmark": "BnF fr. 3986 no. 75, f. 157v (canvas 309)",
    "date": "9 Oct 1593",
    "year": 1593,
@@ -247,6 +251,9 @@
  "outcome": {
   "class": "read in part",
   "fraction_read": 0.3,
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "Not measurable as a token share: the Pisany letters are counted (decode_f209.txt 122/122, decode_f168.txt 268/269 figures resolve in key no. 46), but the Revol transcriptions ct_3986_f146v.txt and ct_3986_f157v.txt mix clear cursive with cipher and are not yet segmented, and four Revol passages (ff. 88, 115, 176, 198) are untranscribed, so the denominator is unknown; 0.3 is by letters (2 of 7).",
+  "key": "recovered",
   "grades": "unknown",
   "verification": [
    "key confirms",
