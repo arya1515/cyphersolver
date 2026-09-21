@@ -3304,6 +3304,36 @@
       "cipher_types": "code (two-part, 3-figure)",
       "plaintext_lang": "French?"
      }
+    },
+    "R2978": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: 'Dresde 25. Janv. 1750', French, 2-figure letter cipher (e.g. 93 s, 24 t, 54 d, 12 n); the contemporary decipherer wrote the plaintext letter by letter over every line (mentions Mr de Guydickens). Simple substitution; no code component seen.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "25 Jan 1750",
+      "origin": "Dresden",
+      "cipher_types": "simple substitution (2-figure)",
+      "plaintext_lang": "French"
+     }
+    },
+    "R2979": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not from Dresden: headed 'Hanau to Fer.', 'Hague, 9 Aout 1753'. The page is the decipherer's working copy, not the intercepted letter: clear syllables written out, unread 4-figure groups (to ~3300) left as figures, some glossed (1688 si, 1560 roi, 3227 Devonshire, 1808 Lor); ends 'Ici on parle du mariage de 3245 avec 3263' and a column of question marks. Syllabic/word code; read in part at the time, not read further here.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "date": "9 Aug 1753",
+      "origin": "The Hague",
+      "sender": "Hanau?",
+      "receiver": "Fer.?",
+      "cipher_types": "code (4-figure, syllables and words)",
+      "plaintext_lang": "French"
+     }
     }
    }
   },
