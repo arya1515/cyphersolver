@@ -154,6 +154,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p52 | **János Pápai → Ferenc Rákóczi II**, MNL OL G15 (DECODE R731–R823) | 1706–10 | 1 | 3 | 4 | 3 | 1 | 4 | **2.60** | D 1: the envoy's own key, found among DECODE's key records and applied unchanged. N 4: six letters DECODE listed as undeciphered, now read. H 3: Rákóczi's diplomacy at the Porte. V 4: 98.5% of groups keyed, continuous Hungarian and Latin. R731 (graphic signs) open. |
 | p53 | **Archbishop of Bremen → Salvius**, Riksarkivet group (DECODE R4330–R4331) | 1631 | 2 | 2 | 3 | 3 | 1 | 3 | **2.30** | D 2: key rebuilt from the clerk's glosses, the grid order predicting the unglossed letters. N 3: DECODE listed them as partially decrypted; the unglossed fifth is new. H 3: Bremen's appeal to Sweden in the winter after Breitenfeld. V 3: every group reads; transcription slips remain. |
 | p54 | **Charles Hémard de Denonville, cardinal de Mâcon (Rome, Orvieto) → Anne de Montmorency**, BnF fr. 3053, eight records (DECODE R4233–R4248) | 1536–37 | 1 | 4 | 3 | 3 | 1 | 3 | **2.50** | D 1: a published key (Tomokiyo/Lasry) applied, with corrections from a glossed line. H 4: the general council and the Germans, Doria's galleys, Milan refused to the Farnese, an estate in France for the Pope's son, in the year of the Emperor's entry into Rome. N 3: no plaintext existed anywhere and the sender was catalogued as unknown. F 3: BnF, via DECODE. V 1: six contemporary decipherments in the volume, three agreeing word for word. Held down by coverage: about half the cipher, and three quarters of the longest letter, are still unread |
+| p55 | **Mihály Hentér → Ferenc Rákóczi II**, MNL OL G 15 Caps. D Fasc. 80 fol. 38 (DECODE R496) | 8 Jul 1707 | 1 | 2 | 3 | 1 | 1 | 3 | **1.85** | D 1: the decipherment was written between the lines at the time; the key was only checked on two sibling letters. H 2: an Ottoman offer of troops and grain and Rákóczi's wait for the grand vizier. N 3: DECODE listed it as non-decrypted, misdated. V 3: substance read, some clauses bracketed. |
 
 ## By single axis
 
@@ -396,3 +397,4 @@ Pápai provisional score: 0.25×1 + 0.25×3 + 0.20×4 + 0.10×3 + 0.10×1 + 0.10
 
 Bremen provisional score: 0.25×2 + 0.25×2 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.30** (p53): the glosses did most of the work.
 Mâcon 1536–37 provisional score: 0.25×1 + 0.25×4 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.50** (p54).
+Hentér 1707 provisional score: 0.25×1 + 0.25×2 + 0.20×3 + 0.10×1 + 0.10×1 + 0.10×3 = **1.85** (p55): the plaintext was already on the leaf.
