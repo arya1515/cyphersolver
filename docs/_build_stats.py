@@ -30,6 +30,9 @@ SECTIONS = [
     ('offline', '### Offline only'),
     ('active',  '### In progress'),
 ]
+# Rows whose date carries no year but can be bracketed: counted at the latest possible year, so the
+# years-of-silence sum is never overstated. Egmond: to the grand maître (Montmorency, from 1526); Charles died June 1538.
+YEAR_BRACKET = {'Charles of Egmond': 1537}
 OVERRIDE = {'Forster': 'found', 'Voynich': 'closed'}  # Voynich sits under 'adjudicated': tested, not read
 LABEL = {
     'read': 'read', 'nothing': 'no message', 'partly': 'partly read', 'found': 'already solved elsewhere',
@@ -85,7 +88,7 @@ def load():
             note = strip_md(cells[-2]) if len(cells) >= 4 else ''
             head2 = cols[-2] if len(cols) >= 4 else ''
             when = strip_md(cells[2]) if len(cells) >= 5 else ''
-            items.append(dict(name=name, date=date.strip(), year=parse_year(date), cat=c, note=note,
+            items.append(dict(name=name, date=date.strip(), year=parse_year(date) or next((y for k, y in YEAR_BRACKET.items() if name.startswith(k)), None), cat=c, note=note,
                               notehead=head2, when=when, whenhead=cols[2] if len(cols) >= 5 else '',
                               href=m.group(1) if m else ''))
     return items
