@@ -102,6 +102,7 @@
   "matthias corvinus to ercole i d’este, pozsony, 1 june 1482": "2026-09-19",
   "mihály hentér to ferenc rákóczi ii, constantinople, 8 july 1707": "2026-09-21",
   "moray to wood, 1568": "2026-09-15",
+  "mr eichel’s cipher sheet, sp 106/7, 1758": "2026-09-21",
   "nevers to pisany, 8 september and 14 october 1593": "2026-09-17",
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "nicolò sadoleto to ercole i d’este, pozsony, july–november 1482": "2026-09-19",
@@ -277,7 +278,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "07f3b3131333",
+   "hash": "1076354a941f",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -353,6 +354,11 @@
   "egmond": {
    "first": "2026-09-20",
    "hash": "1c97973c16f2",
+   "updated": "2026-09-21"
+  },
+  "eichel1758": {
+   "first": "2026-09-21",
+   "hash": "6b2dc75804d3",
    "updated": "2026-09-21"
   },
   "esp318": {
@@ -462,7 +468,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ee0b81c07ec9",
+   "hash": "a231a106178b",
    "updated": "2026-09-21"
   },
   "jones1753": {
@@ -947,7 +953,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3479c1aed050",
+   "hash": "65e5fde83ae0",
    "updated": "2026-09-21"
   },
   "yard1699": {

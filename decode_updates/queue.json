@@ -4162,6 +4162,28 @@
      "reading_not_needed": true
     }
    }
+  },
+  "eichel1758": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/eichel1758.html",
+   "key": {
+    "decode": "R596",
+    "lang": "FR"
+   },
+   "cite": null,
+   "fields": {
+    "additional_information": "Docket reads 'Prussia 1758' (not Russia). Key is R596, not R594: under R596's null rules (numbers containing 7; 1-503, 1115-1198, 1483-1999, 2600-2802) 117/139 groups are nulls and 21 of the other 22 are blank cells of R596. The sheet carries no message.",
+    "origin_country": "Prussia"
+   },
+   "records": {
+    "R595": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "No message: every group is a null under key R596's rules or a blank cell of its table; a dummy sheet. Key R594 does not fit.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

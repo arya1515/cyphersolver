@@ -585,41 +585,6 @@
    "scored": "rule"
   },
   {
-   "id": 65,
-   "counted": true,
-   "year": 1758,
-   "date": "1 Jan 1758",
-   "title": "Mr. Eichel to unknown recipient",
-   "correspondents": "Mr. Eichel → unknown recipient",
-   "place": "Kew",
-   "language": "English",
-   "region": "England",
-   "period": "1701-1800",
-   "shelfmark": "TNA, State Papers, inv.nr. 106 box 7",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R595: Non-decrypted, 1 pp., nomenclator; numerical; images login. Not viewed here. 7 key record(s) from the same series on DECODE, nearest R594 (1758). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: An unsolved letter by Mr. Eichel, probably from Russia. The code maybe found in TNA_SP106/7_Anne_(0021-0022).",
-   "why": "Ciphered letter of Mr. Eichel to unknown recipient, 1 Jan 1758; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R595",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/595"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    595
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 74,
    "counted": true,
    "year": 1727,

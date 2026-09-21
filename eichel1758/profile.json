@@ -1,0 +1,149 @@
+{
+ "schema_version": 1,
+ "target": "eichel1758",
+ "title": "Cipher sheet from Mr Eichel, 1758, TNA SP 106/7 (DECODE R595)",
+ "documents": [
+  {
+   "id": "R595",
+   "shelfmark": "TNA SP 106/7, image 0020; DECODE R595",
+   "date": "1758",
+   "year": 1758,
+   "country": "Prussia",
+   "route": "Mr Eichel (probably A. F. Eichel, Frederick II's cabinet secretary) -> unknown; held by the Deciphering Branch",
+   "language": "none (nulls only)",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment exists; the sheet carries no message.",
+    "partial": false
+   },
+   "length": {
+    "tokens": 139,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R595_D1900_1900.txt; IMG_R595_I3870_P1",
+    "corrections": 0,
+    "image_quality": "good",
+    "notes": "139 groups counted by script from the DECODE transcription; a looped glyph transcribed '8?' is probably 0."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Numerical code of R596 (French, values 504-3293): every number containing a 7, 1-503, 1115-1198, 1483-1999 and 2600-2802 are nulls. The letter uses only nulls and cells left blank in the key.",
+  "symbol_kind": "digits",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 1696,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": true
+  },
+  "distinct_symbols": "unknown",
+  "key_order": "alphabetical",
+  "word_division": "separator symbol",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE R596 (same volume)",
+  "notes": "Key R594, named by DECODE, does not fit."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE: Non-decrypted; note points to R594 (wrong key).",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, posed the target with /goal from the catalogue. No target-specific intervention.",
+  "tools": [
+   "DECODE API and image server",
+   "Python key-coverage scorer",
+   "PIL"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched R595 and R594 metadata, images and DECODE transcriptions with the stored cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read the dockets: 'Cypher from Mr Eichel 1758', 'Prussia 1758'; Prussia, not Russia.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Applied key R594, as DECODE's note suggests.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Scored the transcriptions of 21 SP 106 and Prussian key records for coverage of the letter's groups; R596's null rules (numbers with 7, set ranges) match the letter's pattern.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Applied R596's null rules: 117/139 groups are nulls; 21 of the 22 others fall on the key's blank cells (7% base rate, p ~ 1e-23).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Reread the looped glyph as 0 instead of 8: 27 survivors, 20 blank, the rest isolated words making no sentence.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 0,
+   "C": 0,
+   "M": 0,
+   "I": 0
+  },
+  "verification": [
+   "matched control",
+   "key confirms"
+  ],
+  "notes": "Not a message: a dummy sheet written entirely in non-values of key R596 (nulls by rule and blank cells). R596 undated; its tie to Eichel not established."
+ }
+}
