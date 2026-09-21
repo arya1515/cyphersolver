@@ -338,56 +338,6 @@
    "scored": "rule"
   },
   {
-   "id": 44,
-   "counted": true,
-   "year": 1704,
-   "date": "1 Jan 1704 – 7 Jun 1711",
-   "title": "Ferenc Rákóczi II to unknown recipient, 4 ciphertexts",
-   "correspondents": "Ferenc Rákóczi II → unknown recipient",
-   "place": "Budapest",
-   "language": "Latin",
-   "region": "Hungary",
-   "period": "1701-1800",
-   "shelfmark": "MNL OL (4 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R483–R922 (4 records): Partially decrypted, 14 pp., homophonic, nomenclator; numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R648 (1671). DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered despatches of Ferenc Rákóczi II to unknown recipient, 1 Jan 1704 – 7 Jun 1711; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R483",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/483"
-    },
-    {
-     "label": "DECODE R852",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/852"
-    },
-    {
-     "label": "DECODE R912",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/912"
-    },
-    {
-     "label": "DECODE R922",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/922"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    483,
-    852,
-    912,
-    922
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 45,
    "counted": true,
    "year": 1664,

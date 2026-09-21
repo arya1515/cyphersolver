@@ -1944,6 +1944,52 @@
      "reading_not_needed": true
     }
    }
+  },
+  "rakoczi1704": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/rakoczi1704.html",
+   "key": {
+    "decode": "R639",
+    "lang": "FR"
+   },
+   "cite": null,
+   "fields": {
+    "plaintext_lang": "French"
+   },
+   "records": {
+    "R922": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Letter TO Rakoczi (Dantzig, 28 Oct); read in substance with key R639.",
+     "reading": [
+      {
+       "file": "rakoczi1704/R922_key08_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R852": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Letter TO Rakoczi (Dec.); read in substance with key R639; transcript noisy.",
+     "reading": [
+      {
+       "file": "rakoczi1704/R852_key08_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R912": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Letter TO Rakoczi (5 Nov); read in substance with key R639.",
+     "reading": [
+      {
+       "file": "rakoczi1704/R912_key08_read.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }
