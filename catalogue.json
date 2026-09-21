@@ -7260,46 +7260,6 @@
    "scored": "rule"
   },
   {
-   "id": 244,
-   "counted": false,
-   "year": 1580,
-   "date": "11 Jan 1580",
-   "title": "The Secretariat (France) to The Nuncio, 2 ciphertexts",
-   "correspondents": "The Secretariat → The Nuncio",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 283C (2 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R72–R73 (2 records): Partially decrypted, 4 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE's notes say there is a contemporary decipherment on the leaf; so the text was read at the time and this is a transcription job, listed as noted rather than open. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Deciphered in the original. Comment from archive: Letter orig. e ciffre della Segretaria al nunzio, dall' 11 gennaio 1580 al 26 dicembre 1580. ff. 1-129. mm. 280x205. ff. 130. s. 129. På första sidan i volymen: Corrispondenza fra il Cardinale di Como (G…",
-   "why": "Ciphered despatches of The Secretariat to The Nuncio, 11 Jan 1580; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Open the images and check how much of the cipher the contemporary decipherment covers.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R72",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/72"
-    },
-    {
-     "label": "DECODE R73",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/73"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    72,
-    73
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 245,
    "counted": true,
    "year": 1552,
