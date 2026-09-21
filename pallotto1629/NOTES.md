@@ -225,6 +225,49 @@ carries ~60 slips, each flipping the phase for the rest of the line, which would
 on its own. The phase test is inconclusive. The sound version of that claim is the corpus search in §4, which is
 calibrated against exactly this noise.
 
+**7. A far better crib source, which I should have found first.**
+DECODE's transcriptions carry `<CLEARTEXT>` and `<PLAINTEXT>` annotations, and I had only skimmed the head of
+R286. Across the 28 files there are **~640 clear-text annotations** and, in five records, `<PLAINTEXT>` lines —
+DECODE's mark for *a decipherment written on the document itself*:
+
+| record | clear-text marks | on-page decipherment |
+|---|---|---|
+| R298 | 68 | |
+| R296 | 63 | |
+| R305 | 54 | In un lungo discorso |
+| R307 | 53 | |
+| R292 | 51 | |
+| R301 | 40 | |
+| R309 | 35 | Con l'ord(ina)rio passato intendo che fu scritto da S. M.tà à … |
+| R308 | 22 | restati più contenti della risolutione |
+| R313 | 14 | Nel particolare |
+| R286 | 4 | (struck-out) … la risposta |
+
+This reframes the target. Most of these despatches are **mixed letters**: short ciphered runs embedded in clear
+Italian, sentence by sentence — not wholly enciphered texts. R308 reads, in the manuscript,
+
+> `Non sono` · **369092022550852359029255082700852173166 2 8** · `circa il particolare de` · **6680650 …**
+
+with the contemporary decipherer's gloss written above the figures: *restati più contenti della risolutione*.
+That is an exact crib with known boundaries, in the right register, and it is not in Kiewning at all. It also
+explains why the Kiewning crib could never have worked for records like this one: the ciphered passage is a
+clause, not a despatch.
+
+**What the R308 crib says.** 41 digits for 34 letters. Verified against DECODE's own 1523 × 2088 scan
+(`img/dec_R308.png`): the digits are as transcribed and the gloss is as read. Exhaustively searched, with both
+the two-way constraint (deterministic code, no homophones — what §5 implies) and the one-way constraint:
+
+| model | result |
+|---|---|
+| fixed width 1, 2 or 3 | no fit (41 is not divisible by 2) |
+| deterministic letter code, groups of 1–2 digits | 0 solutions (exact, `exact.py`) |
+| deterministic letter code, groups of 1–3 digits | 0 solutions (exact) |
+| 2-digit groups, syllables of 1–3 letters, two-way | 0 solutions (exhaustive, 4.0 M nodes) |
+| 2-digit groups, syllables of 1–3 letters, homophones allowed | 0 solutions (exhaustive, 7.3 M nodes) |
+
+So either the gloss does not align exactly to that run — the decipherer may have glossed only part of it, or run
+on into the next — or the system is more complex than any of these. This is where the work stands.
+
 **Where that leaves it.** Transcription noise is no longer a sufficient explanation. On this evidence
 **the ciphertexts are not fixed-width (2, 3 or 4 digit) substitutions of any text printed in Kiewning's 1629
 volume** — not of Nr. 153, and not of any other despatch in it. Two possibilities survive, and they are now the
