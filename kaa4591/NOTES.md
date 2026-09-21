@@ -108,7 +108,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
 - R9416 f.263 clean reading - blocker: none yet; v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
-- R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; gloss cribs too few.
+- R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
 - R9367 - blocker: no-key-material; no key in register R9423 fits; ~600 signs too short for the solver.
 - R9319 - blocker: needs-physical-access; dot grille needs cover letters f.115-118, not imaged on DECODE.
 - R9291 - blocker: none; not a ciphertext (key fragment), nothing to read.
