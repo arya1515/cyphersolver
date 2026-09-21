@@ -1,5 +1,60 @@
 # Nicolò Sadoleto, Ferrarese envoy to Matthias Corvinus, Pozsony 1482 (ASMo Ambasciatori Ungheria b. 1/9)
 
+Outcome: read in part (updated 21 Sep 2026; write-up docs/sadoleto1482.html revised). Remaining gaps are image-limited. See `review_20260920.md` for the new
+evidence and corrections. R1102 has substantial cipher on the facing manuscript
+page 3 beyond the seven-line block previously read. Its opening `ducati` confirms
+the currency; a later passage gives an annual payment for six or seven years.
+The follow-up `verified_groups.md` verifies literal `dom Francesco` and identifies
+X's referent as the Signoria of Venice from an occurrence in R1106 aligned with
+contemporary clear witness 26b. Several connective words and further passages
+remain unread; the historical results below preserve the earlier investigation.
+`cipher_inventory.md` also records an additional R1102 cipher line on page 4
+and possible partial interlinear plaintext; no complete separate clear copy
+of R1102 has been found.
+
+**Current reading:** `r1102_working_edition.md` consolidates the corrected
+R1102 extracts, separating its five cipher-bearing regions and identifying
+unread material consistently. `alignment_r1101.md` corrects the earlier
+R1101 page reference; `alignment_r1106.md` maps the contemporary slips.
+
+### Current evidence and reading limits
+
+- **R1101:** contemporary witness 7a exists. Original/clear boundaries and
+  several local passages agree; whole-letter word-by-word collation is unfinished.
+  DECODE I5655 is the final original page, not manuscript page 2.
+- **R1102:** literal `dom Francesco` and X's Venetian-government referent are
+  verified. The repeated group K in the opening and monetary passages refers
+  to the Hungarian king, checked against two R1101/7a passages; see
+  `repeated_k.md`. Cipher coverage includes pages 2, 3 and 4. The current edition
+  retains all unresolved U labels and uncertain readings. Vestigia's legacy
+  note reports decipherments on attached/pasted sheets, but none has yet been
+  identified as a separate complete clear witness in the cached images.
+- **R1103:** no continuous reading is established. The old fragment proposals
+  below remain tentative except isolated `vostro`, now verified against the
+  reconstructed alphabet and R1101's `nostro` control. See
+  `r1103_image_audit.md`; this does not establish a sentence.
+- **R1106:** 26a/26b cover the identified principal cipher regions, but internal
+  completeness remains unverified. `r1106_parallel_reading.md` records local
+  comparisons and spelling differences, including an omitted triangular sign
+  in `anzi`, now verified by the independent R1101/7a z control in
+  `z_control.md`.
+- **Additional controls:** `june24_control.md` locates the June letter's marginal
+  annotation. Its literal correspondence with the cipher is still unproved.
+  `published_source_leads.md` distinguishes inspected previews from unavailable
+  full texts. `source_cache_audit.md` records the still-unverified DECODE
+  attachment access separately from successful full-image access.
+
+The direct comparison of proposed R1102 `offerta`/`effecto` initially supplied
+no independent ff control. A subsequent comparison with R1101/7a `affinita`
+now establishes ff and supports `offerta` (C), resolving U02. `effecto` remains
+M because its following e is not securely separated. See `ff_control.md`.
+
+**Historical record below:** the 19 September conclusions, source table and
+open list are preserved as the earlier investigation. Claims there of complete
+clear-copy coverage, absence of R1102 decipherment evidence, seven-line-only
+R1102 coverage, or still-unresolved `dom`/X are superseded by the current
+evidence above. They must not be used as the current outcome summary.
+
 Outcome: read in part (19 Sep 2026). R1102's cipher block read in gist; R1101 and R1106 have contemporary clear
 copies on Vestigia (7a; 26a/26b), so were read at the time; R1103's faded block yields fragments only.
 
@@ -78,18 +133,3 @@ non lassasse pretermittere questa opportunità laquale mai più fo, né forse se
   repeats. Ercole's replies (Minute nos. 1–3, Vestigia 1252/1250/1251) may paraphrase the Venetian offer.
 - R1103: Vestigia 1294 is the same Ferrante copy; no second exemplar found. Only better imaging would help.
 - The 1479–80 Sadoleto–Naples key (ASMo Cifrario b. 4 fasc. 1, Cremonini n. 39) should be compared with this key.
-
-## The 1483 letters (b. 1/10, DECODE R1107–R1118), checked 19 Sep 2026
-Every one has a contemporary decipherment, so none is an unread target:
-| DECODE | no. | date | decipherment |
-|---|---|---|---|
-| R1107 | 4 | 11 Mar (to Ferrante) | 4a, 4b (Vestigia 1365, 4008) |
-| R1108 | 9a | 16 Mar | is itself the clear copy of no. 9 (Vestigia 1374) |
-| R1109 | 13 | 4 Apr (to Ferrante) | clear slips pasted over pp. 1–2 on the leaf ("cum questa conclusione…", "…se dice qua"; p. 2 "…ne voglio ponere os in coelum"); visible on the DECODE images, not on Vestigia's (slips lifted) |
-| R1110, R1111, R1117 | 15, 19a, 26 | | DECODE "Decrypted" (15a, 19a, 26a) |
-| R1112 / R1113 | 20 / 20a | 31 May | 20a (Vestigia 1393) is the clear copy |
-| R1114 | 21 | 7 Jun | 21a (Vestigia 1395) |
-| R1115 | 24a | 10 Aug | is itself the decipherment of no. 24 (Vestigia 1400) |
-| R1116 | 25 | Zagreb 3 Oct | clear slip at the foot ("Ma lo effecto e questo che nulla speranza…") keyed to the cipher |
-| R1118 | 27 | 30 Nov | clear slip at the foot keyed by a caret: "Ma com scripsi a V.S. no gli [s]panza questo accordo col turcho…"; checked against cipher l. 1 with the 1482 key ("…ma come scripsi a … non gli …") |
-The same key applies (verified on R1118). Outcome for the 1483 batch: found read at the time; nothing to add.

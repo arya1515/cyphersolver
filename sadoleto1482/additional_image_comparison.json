@@ -1,0 +1,47 @@
+[
+  {
+    "additional": "v1283_additional_HU_MNL_OL_X_10891_DF_294364_0001.jpg",
+    "closest_existing": "v1283_1_ASMO Ambasciatori Busta 1 (101).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2673
+  },
+  {
+    "additional": "v1283_additional_HU_MNL_OL_X_10891_DF_294364_0002.JPG",
+    "closest_existing": "v1283_2_ASMO Ambasciatori Busta 1 (102).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2533
+  },
+  {
+    "additional": "v1284_additional_HU_MNL_OL_X_10891_DF_294364_a_0001.jpg",
+    "closest_existing": "v1284_1_ASMO Ambasciatori Busta 1 (103).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2769
+  },
+  {
+    "additional": "v1284_additional_HU_MNL_OL_X_10891_DF_294364_a_0002.JPG",
+    "closest_existing": "v1284_2_ASMO Ambasciatori Busta 1 (104).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2655
+  },
+  {
+    "additional": "v1284_additional_HU_MNL_OL_X_10891_DF_294364_a_0003.JPG",
+    "closest_existing": "v1284_3_ASMO Ambasciatori Busta 1 (105).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2763
+  },
+  {
+    "additional": "v1318_additional_HU_MNL_OL_X_10891_DF_294396_0001.jpg",
+    "closest_existing": "v1318_1_ASMO Ambasciatori Busta 1 (152).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2543
+  },
+  {
+    "additional": "v1318_additional_HU_MNL_OL_X_10891_DF_294396_0002.JPG",
+    "closest_existing": "v1318_3_ASMO Ambasciatori Busta 1 (154).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2455
+  },
+  {
+    "additional": "v1318_additional_HU_MNL_OL_X_10891_DF_294396_0003.JPG",
+    "closest_existing": "v1318_4_ASMO Ambasciatori Busta 1 (155).JPG",
+    "mean_absolute_RGB_difference_540x405": 0.2406
+  },
+  {
+    "additional": "v1319_additional_1387657541.jpg",
+    "closest_existing": "v1319_1_HU_MNL_OL_X_10891_DF_294396_a.jpg",
+    "mean_absolute_RGB_difference_540x405": 0.53
+  }
+]

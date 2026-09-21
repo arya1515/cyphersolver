@@ -1,5 +1,16 @@
 # R1102 (Sadoleto to Ercole, Pozsony 16 Jul 1482), p. 2 cipher block (7 lines): reading by glyph
 
+**Coverage correction, 20 Sep 2026:** this file records only the bottom-left block,
+not all the letter's cipher. The facing page continues with `ducati` and contains
+further cipher passages. See `review_20260920.md` for the additional readings,
+the provisional `dom Francesco` title, source coordinates, and remaining gaps.
+
+**Subsequent verification:** `verified_groups.md` resolves the title to literal
+`dom` and verifies X's referent as the Signoria of Venice from R1106/26b.
+It also corrects `figlio` to `figliolo` and `loco` to `loro`, and supports
+`de l'armata`. The transcription below is the preserved 19 September reading;
+use these corrections when citing it.
+
 Strips: `seg/s/r1102_L0n_k.png` (numbered boxes). Glyph values in `key_working.md`. [..] = uncertain.
 
 L1: essendo in Buda per partire per venire a Posonia
