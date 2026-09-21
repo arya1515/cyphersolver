@@ -978,7 +978,6 @@ def nav_html(current):
         f'  <nav id="sitemenu" class="links" aria-label="Site">\n'
         f'    <details class="menu"><summary{on}>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>\n'
         f'      <div class="panel wp">{panel}</div></details>\n'
-        f'    <a href="index.html#recent">Latest</a>\n'
         f'    <a href="catalogue.html"{" aria-current=\"page\"" if current == "catalogue" else ""}>The Unsolved Catalogue</a>\n'
         f'    <a href="atlas.html"{cur("atlas")}>Atlas</a>\n'
         f'    <a href="keys.html"{cur("keys")}>Key web</a>\n'
