@@ -1,8 +1,6 @@
 # Sir Nicholas Throckmorton to the Regent Moray, Greenwich, 20 July 1569 (BL Add MS 33531 ff. 79–80; DECODE R8348) — NOTES
 
-Status: no write-up
-
-**Verdict: read at the time, and already calendared. Nothing new to read.** Catalogue entry 83 ("... (England) to
+**Verdict: read at the time and calendared, but a water stain has faded half of the decipherment, so every cipher passage is read again here (`reading.md`, write-up `docs/throck1569.html`).** Catalogue entry 83 ("... (England) to
 Lorde Regent of Scotlande, 26 Jul 1569") is resolved and removed. Checked in one session on 2026-09-21.
 
 ## Identification
@@ -51,8 +49,7 @@ aforesaid were of a contrarie minde for the whole, were violently constrained, a
 condescend thereunto. So as now, my good Lord, the matter is not in state of deliberation but rather requires
 expedite ... good opportunitie for execution. With further by all convenient meanes I doe wishe that you should
 concurre with your frendes here who see so far into your case, and are so content for the same, as they desire
-nothing so earnestly as your Lordship's pr[ocuring?] in that matter ..." This agrees with Bain's summary and the
-contemporary gloss; it adds wording, not content. A full transcription of the cipher was not made.
+nothing so earnestly as your Lordship's pr[ocuring?] in that matter ..." The full reading of all four pages is in `reading.md`.
 
 ## Related
 

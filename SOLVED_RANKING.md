@@ -205,6 +205,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 **Etienne Bourdeaux (Berlin) → Maarten van der Goes (1801; catalogue 228)** — read from the ministry’s contemporary clear copy, which DECODE had imaged under the neighbouring record R1946; no cryptanalysis, the code groups not aligned. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1944.html).
 
+**Sir Nicholas Throckmorton (Greenwich) → the Regent Moray (1569; catalogue 83)**: read at the time (interlinear, Bain no. 1103, Tomokiyo's key); the stain-faded passages read again from the cipher with the published key. Ranked as source identification and text recovery, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/throck1569.html).
+
 **Charles de Poupet, sieur de La Chaulx (Vitoria) → Charles V (1522; catalogue 150)**: read at the time. The contemporary decipherment is bound in with the letter (BNE 39/2); one line aligned, key not rebuilt. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/poupet1522.html).
 
 **Dirk van Hogendorp (St Petersburg) → Maarten van der Goes (1803; catalogue 227)** — content identified from Sillem&rsquo;s 1890 account and its explicit footnote to ciphered dispatch no. 12; the matching archive codebook was found, but the 286 groups have not been aligned to a verbatim plaintext. This is ranked as source identification, not as a cryptanalytic solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).

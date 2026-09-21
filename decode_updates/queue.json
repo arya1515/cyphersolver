@@ -2204,11 +2204,9 @@
    }
   },
   "throck1569": {
-   "writeup": null,
+   "writeup": "https://dbourdeau.github.io/cyphersolver/throck1569.html",
    "key": {
-    "file": null,
-    "lang": "English",
-    "how": "Tomokiyo's reconstruction, already on the record as its DOC_ file"
+    "decode": "R8348"
    },
    "cite": "Bain, Calendar of Scottish Papers ii (1900), no. 1103",
    "fields": {
@@ -2221,8 +2219,13 @@
     "R8348": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Sender Sir Nicholas Throckmorton (signed in cipher 'N. Throkmorton'); dated 'At Grenew. the 20th of July 1569' on f. 80v, not 26 July. Every cipher line carries a contemporary interlinear decipherment (faded under a water stain on ff. 79r and 80r); calendared in Bain, CSP Scotland ii no. 1103 ('in cipher deciphered').",
-     "reading": [],
+     "note": "Sender Sir Nicholas Throckmorton (signed in cipher 'N. Throkmorton'); dated 'At Grenew. the 20th of July 1569' on f. 80v, not 26 July. Every cipher line carries a contemporary interlinear decipherment (faded under a water stain on ff. 79r and 80r); calendared in Bain, CSP Scotland ii no. 1103 ('in cipher deciphered'). The faded passages are read again from the cipher with Tomokiyo's key; full text on the write-up.",
+     "reading": [
+      {
+       "file": "docs/throck1569.html",
+       "section": "text"
+      }
+     ],
      "sent": false
     }
    }

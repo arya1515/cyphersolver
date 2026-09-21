@@ -112,6 +112,7 @@
   "sauli and riario, portugal to the secretariat, 1579–81": "2026-09-21",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
+  "sir nicholas throckmorton to the regent moray, 20 july 1569": "2026-09-21",
   "sir ralph boswell to william boswell, december 1627": "2026-09-21",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
@@ -388,7 +389,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "87d0bcc8b2fe",
+   "hash": "a276c809d5f9",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -681,6 +682,11 @@
    "hash": "e2e2e6fb8a35",
    "updated": "2026-09-18"
   },
+  "throck1569": {
+   "first": "2026-09-21",
+   "hash": "9702b60f8b27",
+   "updated": "2026-09-21"
+  },
   "throckmorton": {
    "first": "2026-09-20",
    "hash": "9d90ba936e80",
@@ -738,7 +744,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "915bcd26354d",
+   "hash": "019ef82d15dd",
    "updated": "2026-09-21"
   },
   "yard1699": {

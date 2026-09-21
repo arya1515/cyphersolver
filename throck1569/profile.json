@@ -13,20 +13,46 @@
    "language": "English",
    "pages": 4,
    "cleartext_in_document": "separate passages",
-   "plaintext": {"location": ["interlinear"], "source": "contemporary interlinear decipherment on the leaf, partly faded by a water stain", "partial": false},
-   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
-   "transcription": {"by": "unknown", "source": "not transcribed in full; DECODE images viewed and cipher words decoded by eye", "image_quality": "good", "notes": "Water stain over the right half of ff. 79r and 80r fades the gloss, not the cipher."}
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "contemporary interlinear decipherment on the leaf, partly faded by a water stain",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "cipher passages read from the DECODE images by eye and decoded with Tomokiyo's key (throck1569/reading.md)",
+    "image_quality": "good",
+    "notes": "Water stain over the right half of ff. 79r and 80r fades the gloss, not the cipher."
+   }
   }
  ],
  "system": {
-  "types": ["homophonic", "nomenclator"],
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
   "summary": "Letter substitution of Latin-looking letters and invented signs for English, word division kept, a few homophones (a, b, e, i, o, u), single signs for persons (N = the Queen of Scots, L = your Lordship).",
   "symbol_kind": "symbols",
   "distinct_symbols": "unknown",
-  "diacritics": {"used": false},
-  "homophones": {"used": true},
-  "nomenclator": {"present": true},
-  "nulls": {"present": "unknown"},
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
   "key_order": "unknown",
   "word_division": "kept",
   "doubled_letters": "unknown",
@@ -39,26 +65,60 @@
    "found": "before attempt",
    "used": true
   },
-  "inputs": ["images", "published key"],
+  "inputs": [
+   "images",
+   "published key"
+  ],
   "attack": "archive decipherment",
   "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
-  "tools": ["image viewing", "archive.org full text"],
-  "models": ["claude-opus-5"],
+  "tools": [
+   "image viewing",
+   "archive.org full text"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
   "sessions": 1,
   "first_date": "2026-09-21",
   "last_date": "2026-09-21"
  },
  "solution": [
-  {"kind": "literature search", "what": "Bain, Calendar of Scottish Papers ii, grepped for 'fol. 79': no. 1103, Throckmorton to Murray, 20 July 1569, Add MS 33531 f. 79, '3 pp. In cipher deciphered', addressed 'Lorde Regent of Scotlande'.", "result": "worked"},
-  {"kind": "literature search", "what": "Cryptiana mary.htm: 'Throckmorton-Moray Cipher (1569)', f.79r-80v, key reconstructed.", "result": "worked"},
-  {"kind": "access", "what": "Fetched the 4 DECODE images and the DOC_ key image with the shared cookie.", "result": "worked"},
-  {"kind": "verification", "what": "Read the date on f. 80v: 'At Grenew. the 20th of July 1569' (DECODE has 26 Jul).", "result": "worked"},
-  {"kind": "verification", "what": "Decoded about twenty cipher words with Tomokiyo's key and matched them to the interlinear gloss (and, the, your, frends, intended, resolved, concerning, restauration, disposition, aforesaid, condescend, should, Liddington).", "result": "worked"},
-  {"kind": "reading", "what": "Read the stain-faded passages of f. 79r from the cipher; consistent with gloss and Bain; full transcription not made.", "result": "partial"}
+  {
+   "kind": "literature search",
+   "what": "Bain, Calendar of Scottish Papers ii, grepped for 'fol. 79': no. 1103, Throckmorton to Murray, 20 July 1569, Add MS 33531 f. 79, '3 pp. In cipher deciphered', addressed 'Lorde Regent of Scotlande'.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Cryptiana mary.htm: 'Throckmorton-Moray Cipher (1569)', f.79r-80v, key reconstructed.",
+   "result": "worked"
+  },
+  {
+   "kind": "access",
+   "what": "Fetched the 4 DECODE images and the DOC_ key image with the shared cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Read the date on f. 80v: 'At Grenew. the 20th of July 1569' (DECODE has 26 Jul).",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Decoded about twenty cipher words with Tomokiyo's key and matched them to the interlinear gloss (and, the, your, frends, intended, resolved, concerning, restauration, disposition, aforesaid, condescend, should, Liddington).",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Read every cipher passage of ff. 79r, 79v, 80r and the signature from half-line crops of the full-resolution scans, decoding by hand with Tomokiyo's key; checked against the surviving gloss. Name signs Z, M, La and a handful of words left uncertain.",
+   "result": "worked"
+  }
  ],
  "outcome": {
   "class": "already solved",
-  "verification": ["contemporary decipherment"],
-  "notes": "Read at the time and calendared by Bain (no. 1103). Added here: sender identified, DECODE date corrected to 20 July, key checked on the page, faded passages of f. 79r read from the cipher. Catalogue entry 83 removed; no write-up."
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Read at the time and calendared by Bain (no. 1103) in summary only; the stain-faded decipherment is replaced here by a full reading from the cipher (reading.md, write-up throck1569.html). Sender identified, DECODE date corrected to 20 July. Name signs Z, M, La unresolved. Catalogue entry 83 removed."
  }
 }
