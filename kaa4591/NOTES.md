@@ -20,7 +20,7 @@ they are separate letters in at least six systems, several with their key a few 
 | R9323 | 123 | Latin note to the Bavarian secretary (Łaski circle) | System B | rebuilt from glosses | 3 of 13 lines, rest in hand |
 | R9325 | 129 | Latin note, Fulda affair (1576) | letter substitution + nomenclator | **R9324 (f.124–127)** | **read** |
 | R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | signs | ? | |
-| R9408 | 236–239 | long unseparated text, some clear words | System A | Augurelio R9369? | |
+| R9408 | 236–239 | Anno 1534, German report to "Sp…nio" (Sperantio?) with Latin clear passages: Hungary, the Turk, Constantinople, Syria, "dreissig tausent man aus dem teutschen land" | System A′ | R9427 gloss key | **broken**, read in part (`r9408/decrypt_working.txt`) |
 | R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | **broken**, read in part |
 | R9410 | 244–247 | German, 1535, clear words mixed in | System A | ? | |
 | R9413 | 252–256 | long unseparated text, partial interlinear notes | System A | ? | |
@@ -103,7 +103,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 
 ## Remaining gaps
 
-- R9408 - blocker: none yet; transcription in progress, System A′ key should apply.
+- R9408 clean reading - blocker: none yet; decrypt working, E/X/a+ signs to settle.
 - R9413 - blocker: none yet; transcription in progress, System A′ key should apply.
 - R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
 - R9416 f.263 clean reading - blocker: none yet; re-key the v2 transcription, split code y.

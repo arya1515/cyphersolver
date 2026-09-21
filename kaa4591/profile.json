@@ -532,6 +532,12 @@
    "kind": "key from source",
    "what": "Full-zoom alignment of the R9427 gloss gave the System A' key; R9410 and R9409 read in part",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "R9408 (1534, ~7,300 signs) transcribed and read in part with the System A' key",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -546,9 +552,9 @@
   "key": "partial",
   "gaps": [
    {
-    "item": "R9408",
-    "blocker": "not-attempted",
-    "detail": "transcription in progress; System A' key should apply"
+    "item": "R9408 clean reading",
+    "blocker": "open-codes",
+    "detail": "decrypt working; E/X/a+ unsettled"
    },
    {
     "item": "R9413",
