@@ -100,3 +100,13 @@ k 1
 R 1
 * 1
 s 1
+
+## Split codes (v2, see split.md)
+
+| code | shape | notes |
+|---|---|---|
+| U | narrow upright H: two vertical stems, crossbar only between them, no overhang | split from #; = v/u in R9408/R9410 |
+| K | big looped S/ℓ word sign (R9410) | reserved; none found on P1 |
+| # | two short stems with one bar through both, overhanging both sides (incl. all `c#`) | = g in R9410 |
+
+Note: R9409 `d` is a small box with an ascender (ɖ-like); the δ itself is coded `b` here.
