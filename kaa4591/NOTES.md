@@ -106,7 +106,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - R9408 clean reading - blocker: none yet; decrypt working, E/X/a+ signs to settle.
 - R9413 clean reading - blocker: none yet; all pages transcribed and decoded (`r9413/decrypt.txt`); sign Z and A unassigned.
 - R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
-- R9416 f.263 clean reading - blocker: none yet; re-key the v2 transcription, split code y.
+- R9416 f.263 clean reading - blocker: none yet; v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; gloss cribs too few.
 - R9367 - blocker: no-key-material; no key in register R9423 fits; ~600 signs too short for the solver.
