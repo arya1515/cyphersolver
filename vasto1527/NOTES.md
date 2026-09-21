@@ -92,3 +92,7 @@ sources are:
 - `prior/`: Lasry/Tomokiyo decryption files and key images
 - `bho/`: CSP Spain III.2 pages (BHO)
 - `ita/prep.py`: corpus preparation. The corpus texts themselves are not committed.
+
+**DECODE R1894 (catalogue entry 170), 21 Sept 2026.** The record "BNdF AncienFonds invnr.2988 ff9-11" (Ranzo, Italian, 4 pp.,
+dated 1520 by BnF's 1520-29 range) is the fr. 2988 Ranzo letter already transcribed above. The record has no key, decipherment or
+transcription. Nothing new was attempted, and the entry is marked "attempted, open" in the same state as no. 20.
