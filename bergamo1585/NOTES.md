@@ -1,6 +1,6 @@
 # Paris nunciature, bishop of Bergamo / archbishop of Nazareth, 1585–86 (ASV Segr. Stato Francia 18; DECODE R15–R17) — NOTES
 
-Status: in progress
+Status: in progress (R15–R17 read; write-up pending)
 
 Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunciature records on DECODE (see
 [damiata1624/](../damiata1624/NOTES.md) for the 1625 volume).
@@ -17,14 +17,24 @@ Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunci
   Content: *hoggi il [58] mi ha mandato a dire … la bolla … la congregatione del clero … mal contenti dela
   concessione dela bolla … l'alienatione … appellarsi ad futurum concilium …* — the French clergy's resistance
   to the papal bull permitting the alienation of church property, 1586.
-  **Open:** about 20 nomenclator codes marked with a cedilla, + or – (26¸, 28+, 36¸, 20-, 58, 34, 70, …) are
+  **Nomenclator (same day):** Meister p. 324 no. 2 prints Ragazzoni's 1583 Paris key, the same letter alphabet with
+  its nomenclator (OCR in the main checkout's `vatican5/meister.txt`, ll. 59655–59920; realigned in
+  `meister324_nomenclator.txt`). Added to the decoder with a one-digit resync for transcription slips: unknowns fall
+  from 66 to 18. Confirmed by context: 26¸ che, 36¸ per, 28+ questi, 98+ essere, 20- non, 0^. con, 34 Re
+  Christianissimo, 58 Duca di Guisa (who asks for Metz), 14 Nostro Signore. **Not confirmed:** 18 and 48 (Meister's
+  Ferrara/Parma) turn up where no duke fits; the 1586 table may have moved them. The letter: Guise will not let the
+  King sell church property under the bull unless he gets Metz and money; the clergy's assembly means to appeal to a
+  future council, hoping for the Pope's help.
+  **Open (was):** about 20 nomenclator codes marked with a cedilla, + or – (26¸, 28+, 36¸, 20-, 58, 34, 70, …) are
   not in Lasry's key. 26¸ behaves like *che*, 20- like *non*, 58 is a person (probably the King or a prelate), 34
   another (probably the Pope). Filling them needs context work or Meister's full table.
-- **R17** (Francia 18/3, ff. 233r–235v): **open.** DECODE's key (D3186, ASV F22) is a different system:
+- **R17** (Francia 18/3, ff. 233r–235v): **read (same day).** Meister p. 393 no. 40 (Morosini, 1587), already
+  keyed in `morosini1588/decrypt.py`, reads DECODE's transcription D1611 on all five pages with 5 unknown codes:
+  the Duke of Lorraine and Guise, the German reiters, the Queen Mother, Schomberg (`R17_decryption.txt`). So R17 is
+  a Morosini-period letter (1587–88), not Bergamo/Nazareth. Earlier note: DECODE's key (D3186, ASV F22) is a different system:
   variable-length and *not deterministic* (1–3 digit elements, 8 and 80–89 null). The note says it is incomplete
   and that the full key is Meister p. 393 no. 40. DECODE's decryption file is a Java crash (NullPointerException),
-  so R17 has no decryption. Next step: Meister, *Die Geheimschrift im Dienste der päpstlichen Kurie* (1906), p. 393,
-  then segment the transcription D1611 with the full key and the Italian LM.
+  so R17 had no decryption before this.
 
 ## Files
 

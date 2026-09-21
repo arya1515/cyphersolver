@@ -1,0 +1,55 @@
+# Meister (1906) p. 324 no. 2, Ragazzoni (bp of Bergamo) Paris 1583; OCR in vatican5/meister.txt ll. 59655-59920, realigned by hand.
+# Plain names: exact (OCR in two columns, code after name). Marked words: the code follows the word in the OCR run; the
+# alignment is inferred and checked against R16 context (26¸ che, 36¸ per, 28+ questi, 98+ essere, 20- non).
+14 - [NOSTRO SIGNORE]
+24 - [IMPERATORE]
+34 - [RE CHRISTIANISSIMO]
+44 - [RE CATHOLICO]
+54 - [RE DI PORTUGALLO]
+64 - [RE DI POLONIA]
+74 - [REGINA MADRE]
+84 - [REGINA REGNANTE]
+94 - [REGINA CATHOLICA]
+12 - [MONS. DI ALANSON]
+22 - [CARD. DI BORBONE]
+32 - [CARD. DI LORENA]
+42 - [CARD. DI ARMIGNACH]
+52 - [CARD. RAMBUGLIETTO]
+62 - [CARD. DI SANS]
+72 - [CARD. DI GUISA]
+82 - [CARD. DI RENS]
+92 - [CARD. BIRAGO]
+16 - [REGINA DI SCOTIA]
+26 - [REGINA D'INGHILTERRA]
+36 - [REGINA DI NAVARRA]
+46 - [RE DI NAVARRA]
+56 - [PRINCIPE DI CONDE]
+66 - [GRAN TURCO]
+76 - [SIGNORI VENETIANI]
+86 - [SIGNORI SVIZZERI]
+96 - [GRAN DUCA DI TOSCANA]
+18 - [DUCA DI FERRARA]
+28 - [DUCA D'URBINO]
+38 - [DUCA DI MANTOVA]
+48 - [DUCA DI PARMA]
+58 - [DUCA DI GUISA]
+68 - [DON GIOVANNI D'AUSTRIA]
+26¸ - che
+36¸ - per
+46¸ - perche
+56¸ - ancora
+66¸ - accioche
+76¸ - quando
+86¸ - come
+96¸ - tanto
+18+ - quanti
+28+ - questi
+38+ - quelli
+48+ - qua
+58+ - que
+68+ - qui
+78+ - hauere
+88+ - hauendo
+98+ - essere
+20- - non
+0^. - con

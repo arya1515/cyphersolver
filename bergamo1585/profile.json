@@ -32,6 +32,35 @@
     "image_quality": "unknown",
     "notes": "Used as found; not checked against the images."
    }
+  },
+  {
+   "id": "R17",
+   "shelfmark": "ASV Segr. Stato Francia 18/3, ff. 233-235 (DECODE R17)",
+   "date": "unknown",
+   "year": 1587,
+   "country": "France",
+   "route": "Paris (nunciature) -> Rome",
+   "language": "Italian",
+   "pages": 5,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decifrato found."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE D1611 (TimB)",
+    "image_quality": "unknown",
+    "notes": "Used as found."
+   }
   }
  ],
  "system": {
@@ -62,7 +91,7 @@
   "word_division": "none",
   "doubled_letters": "unknown",
   "sibling_key": "DECODE D3103/D3105: Lasry's F18 key (Meister p. 324), used for R15",
-  "notes": "R17 uses a different, non-deterministic key (F22), not attacked."
+  "notes": "R17 uses Meister no. 40 (variable-length, Morosini 1587), not the F18 key."
  },
  "conditions": {
   "prior_solution": {
@@ -111,6 +140,18 @@
    "what": "R17: DECODE F22 key is incomplete (full key in Meister p. 393) and its decryption file is a crash log.",
    "result": "partial",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Meister p. 324 no. 2 (Ragazzoni 1583 key with nomenclator) from OCR; realigned and added to the R16 decoder with a one-digit resync.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "sibling key",
+   "what": "R17 decrypted with Meister p. 393 no. 40 via morosini1588/decrypt.py (LM beam search): all five pages, 5 unknown codes.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
@@ -119,6 +160,6 @@
   "verification": [
    "key confirms"
   ],
-  "notes": "R16 letters read, ~20 nomenclator codes open; R15 read before; R17 open."
+  "notes": "R15 read before (Lasry); R16 read, 18 unknowns, names 18/48 unconfirmed; R17 read with Meister no. 40."
  }
 }
