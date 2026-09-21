@@ -224,6 +224,11 @@
    "kind": "solver",
    "what": "Candidate-set word solver (solve.py): each sign a set of letters from signs.tsv, readings scored against a 1588 CSP Foreign word list with Elizabethan spelling normalised and up to 1-2 edits; over 22 transcribed runs it confirms these/terms, armada, action, captain, letters, charge; long runs on ff. 88 and 92 find no words, pointing to transcription errors.",
    "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Solver loop 1: re-read f.80/f.88 runs at 2x full resolution against solver candidates; 'haven' (f.80 and f.88, fixes c=a and L=e) and 'so forwarde in the action that he promised Q[ueen]' (f.80) confirmed; f.88: 'have promised the haven of ...' to Parma.",
+   "result": "worked"
   }
  ],
  "outcome": {

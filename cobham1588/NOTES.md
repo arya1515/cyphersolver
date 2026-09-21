@@ -171,3 +171,20 @@ The long runs (f. 80g, f. 88a second word, f. 88b–d, f. 92a–b, d) find no se
 points at the transcription of those runs, not the key: the next step is to re-read just those runs at full
 resolution with the solver's near-candidates in view, correct `runs.txt`, and rerun. The solver makes that loop
 quick.
+
+## Solver loop 1 (f. 88 first), 21 Sept 2026
+
+Re-read at 2x full resolution with the solver's candidates in view; corrections put into `runs.txt`, solver rerun.
+
+- **haven** (H): f. 88 "have promised the ϸc··Lǂǂ" and f. 80 "the ϸc··7ǂǂ is" are the same word, h-a-u-e-n. It
+  fixes two things: c stands for a here, and the L-shape (unglossed) is e.
+- **forwarde** (H): f. 80, "Dunkergh: 22 is so **forwarde** in the **action** that he promised Q[ueen] to …". The
+  first sign is the barred H (f), not n, and ·\ is w: H c V ·\ ∪ V d 7.
+- f. 88 now reads: "There is captain Montgomery of late gone into Scotland. [captain(?) + name] with 40 men of …,
+  [who] have promised **the haven** of V∪⊥ǂǂ (Rain/Rayne?) … yn … there to **15** [Parma]." CSP Foreign 1588 has
+  the King of Spain sending **Semple** (the betrayer of Lier) to Scotland in May 1588; the cipher name after "captain"
+  does not spell Semple, so it stays open.
+- "an app(e)ring" (∪ǂǂ ∪ϑ7V⊥ǂǂӾ, 1 edit) on the next f. 88 line.
+- `solve.py`: added the L sign (e), widened d to {o, d}, and a gazetteer of 1588 places and people.
+
+Open after loop 1: the name after "captain", the word after "haven of", f. 88 lines 3–6, f. 92a–d.

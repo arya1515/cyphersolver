@@ -15,14 +15,21 @@ import itertools, re, sys, collections, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 SETS = {
     'U': 'a', 'A': 'sta', '+': 'b', '8': 'c', 'D': 'd', 'T': 'dt', '7': 'e', 'H': 'f', 'G': 'g', 'h': 'h',
-    'I': 'iay', 'k': 'k', 'l': 'lt', 'm': 'm', '#': 'mn', 'n': 'n', 'z': 'o', 'd': 'o', 'c': 'oae', 'p': 'p',
-    'V': 'r', 'y': 'ry', ':': 'uv', 'w': 'w', 'X': 'i', '?': 'abcdefghiklmnoprstuwy',
+    'I': 'iay', 'k': 'k', 'l': 'lt', 'm': 'm', '#': 'mn', 'n': 'n', 'z': 'o', 'd': 'od', 'c': 'oae', 'p': 'p',
+    'V': 'r', 'y': 'ry', ':': 'uv', 'w': 'w', 'X': 'i', 'L': 'e', 'K': 'abcdefghiklmnoprstuwy', '?': 'abcdefghiklmnoprstuwy',
 }
 GLOSSED = """infante maior mobility of this their great desir country discours sent from upon our arrival willing
 to harken by the clergy they made means popes legat and divers newe sworne perform warres given out al for
 cardinal is coming prelates perswade all men action authority treat persons doth argue much was angry commission
 it drawen no soner thought upon condescend begin hope wel proue things may be caried treaty holding his forces
 about him stil what further hoped at hands our abode in towne so advantagious litle tast"""
+
+
+NAMES = """leith dumbarton dunbarton ayr air irwin irvine ryan rain kirkcudbright whithorn wigton galloway glasgow
+edinburgh aberdeen dundee montrose orkney isles ireland scotland england spain portugal lisbon flanders dunkirk
+dunkergh sluys ostend calais bruges nieuport antwerp bourbourg bullein bulleyn graveling gravelines flushing
+semple sempill huntly maxwell bothwell morton crawford errol hamilton montgomery bruce chisholm crichton
+parma mendoza guise medina sidonia recalde andrada portugals spaniards scots italians walloons almains"""
 
 
 def norm(w):
@@ -37,6 +44,8 @@ def build(paths):
         c.update(re.findall(r"[a-z]+", open(p, encoding='utf8', errors='ignore').read().lower()))
     for w in GLOSSED.split():
         c[w] += 50
+    for w in NAMES.split():
+        c[w] += 20
     with open(os.path.join(HERE, 'wordfreq.tsv'), 'w', encoding='utf8') as f:
         for w, n in c.most_common():
             if n >= 2 and len(w) > 1 or w in ('a', 'i'):
