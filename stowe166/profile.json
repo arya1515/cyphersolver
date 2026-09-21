@@ -1,0 +1,277 @@
+{
+ "schema_version": 1,
+ "target": "stowe166",
+ "title": "[Thomas Edmondes] to Lord Treasurer Burghley, 1592-1594, BL Stowe MS 166 (DECODE R7770-R7775)",
+ "documents": [
+  {
+   "id": "R7770",
+   "shelfmark": "BL Stowe MS 166 ff. 50-51 (DECODE R7770)",
+   "date": "early 1592",
+   "year": 1592,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "R7771",
+   "shelfmark": "BL Stowe MS 166 ff. 56-57 (DECODE R7771)",
+   "date": "1592",
+   "year": 1592,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "R7772",
+   "shelfmark": "BL Stowe MS 166 ff. 58-59 (DECODE R7772)",
+   "date": "3 Mar 1592",
+   "year": 1592,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "R7773",
+   "shelfmark": "BL Stowe MS 166 ff. 60-61 (DECODE R7773)",
+   "date": "16 Mar 1592",
+   "year": 1592,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "R7774",
+   "shelfmark": "BL Stowe MS 166 ff. 109-110 (DECODE R7774)",
+   "date": "Jul 1594",
+   "year": 1594,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "R7775",
+   "shelfmark": "BL Stowe MS 166 ff. 111-112 (DECODE R7775)",
+   "date": "Jul 1594",
+   "year": 1594,
+   "country": "France",
+   "route": "Henri IV's court -> London",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 6500x8800 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher lines read by context with the recovered key; no glyph-level transcription file."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Graphic-sign simple substitution of English, words divided, a few homophones (d/u share a sign, a/g), single signs for persons (9, n, pound sign), inserted as runs in clear English.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "Same key in all six letters, 1592 and 1594, in two hands."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "DECODE Non-decrypted; no decipherment on leaves; Birch 1749 does not print the passages; Butler, Edmondes Papers (1913) not checked",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: DECODE login cookie, Claude Code set-up, the problem posed with /goal; said 'continue' after a subagent was blocked.",
+  "tools": [
+   "PIL crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched 24 page images and record metadata for R7770-R7775 from DECODE with the session cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Metadata 'author: Lord Threr?' read as the addressee; BL catalogue identifies Stowe MS 166 as Edmondes's papers.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Searched Birch 1749 (archive.org text) for the passages; Butler 1913 blocked (HathiTrust 403).",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "f. 50: frequent words taken as the/of/to; then 'difficulties', 'empeachement' on f. 109v fixed most letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Subagent read f. 50 in full (marriage of the King's sister, person signs 9 and n); it was blocked by auto mode before the other pages.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read f. 57, f. 58v, f. 60v, f. 109v, f. 112 from line crops with the key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Four cipher lines on f. 59 attempted; only fragments.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed."
+ }
+}

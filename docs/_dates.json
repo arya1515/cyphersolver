@@ -158,6 +158,7 @@
   "walsingham to edward wotton in scotland, jul–sept 1585": "2026-09-21",
   "wolff to princess wilhelmina, 25 july 1801": "2026-09-21",
   "“frederic, re di prussia”, blenheim papers add ms 61575 f. 95": "2026-09-21",
+  "“lord threr?”, stowe ms 166, 1592–94": "2026-09-21",
   "“mr. conleys hand”, paris 1652–53": "2026-09-21",
   "“mr” to the duke of mercœur, 26 june [1586]": "2026-09-21"
  },
@@ -259,7 +260,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "81cab90a87ba",
+   "hash": "66ad867a226a",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -444,7 +445,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "c1de1b4e8a67",
+   "hash": "6b76c263c131",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -797,6 +798,11 @@
    "hash": "305a1dd6b162",
    "updated": "2026-09-21"
   },
+  "stowe166": {
+   "first": "2026-09-21",
+   "hash": "51a0036a4345",
+   "updated": "2026-09-21"
+  },
   "sunintercepts": {
    "first": "2026-09-18",
    "hash": "afa62db09c42",
@@ -884,7 +890,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "149e383ba03b",
+   "hash": "59fe9f034f04",
    "updated": "2026-09-21"
   },
   "yard1699": {
