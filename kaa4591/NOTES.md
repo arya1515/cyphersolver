@@ -119,7 +119,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - [x] clear-pages: glosses used on R9322, R9323, R9416, R9417, R9427, R9424; R9319 cover letters not imaged.
 - [x] known-keys: R9423 blocks tried on R9367 (2_4 failed); R9422 on R9424 (failed).
 - [x] print: web search for KAA 4591 / Augurelio ciphers found no edition.
-- [~] key-rebuild: done for Łaski (System B) and System A′; R9424 and R9367 not rebuilt.
+- [x] key-rebuild: Łaski (System B) from glosses; System A′ from the R9427 gloss, extended by constrained annealing over R9408+R9410 with the gloss values fixed (open signs settled: # t, o a, X e in running text, A u, S h, | e). Scoring E as d vs ch over the combined text: ch scores better (−3.458 vs −3.537 per char) but gives "charzu" for darzu, so E is two look-alike signs (d and ch) merged in transcription — needs a visual re-split on the images. R9424 and R9367: no key material to rebuild from.
 - [~] retry: R9424/R9367 re-annealed with de-1500s, homophone caps and nulls; failed.
 
 ## Steps
