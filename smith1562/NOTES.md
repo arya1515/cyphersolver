@@ -1,6 +1,6 @@
-# Sir Thomas Smith to Cecil and the Queen, 1562-1566 — BL Add MS 4136 (DECODE R9248-R9254)
+# Sir Thomas Smith to Cecil and the Queen, 1562-1566 — BL Add MS 4136 (DECODE R9236, R9248-R9254)
 
-Status: read (key found; 18 letters read in full or in large part). Session 21 Sept 2026.
+Status: read (key found; 23 letters read in full, large part or in part in full or in large part). Session 21 Sept 2026.
 
 ## What the records are
 
@@ -39,6 +39,11 @@ Dunkirke, by, do. The clear English place names in the passages are these nulls.
 | R9254 | 167 | to Cecil, Toulouse, 9 Feb 1564/5 | all 10 | CSP F. 7 no. 979 |
 | R9250 | 159-60 | to Cecil, "22 Mar 1566/7" = 22 Mar 1565/6 | ~12/27 | CSP F. 8 no. 208 |
 | R9250 | 160 | to Cecil, 29 Apr 1566 | all 5 | CSP F. 8 no. 327 |
+| R9236 | 140 | to Cecil, 15 Oct 1562 | all 6 ("break with you and to make war", hostages, Rollet and Vyllemort) | Forbes ii 119 |
+| R9236 | 140 | to Cecil, 20 Oct 1562 | in part (Newhaven, Chatillon, France) | not found in print |
+| R9236 | 140 | to Cecil, 15/17 Dec 1562 | all 6 ("to trust no Frenchman of what religion soever he be") | Forbes ii 238 |
+| R9236 | 140 | to the Queen, 4 Nov 1563 | large part (Montaigne, letters to my Lord Robert and Mr Secretarie) | not checked |
+| R9236 | 140 | advertisements from France, 31 Jan 1562/3 | fragments | not checked |
 
 Full passage-by-passage readings: decipher_A.md (R9249, R9250), decipher_B.md (7 Mar 1562/3, partial),
 decipher_C.md (Avignon), decipher_D.md (Valence, Marseilles, Arles, Narbonne, Toulouse).
@@ -48,6 +53,8 @@ togither at Soissons and at Nanteuil chasteau … they of Guyse … complaine th
 … be opened principally at Paris and Lyons … this bearer Hume is altogether a Lidington, whom you shall find double,
 I am afraid, or rather triple, having pencions of all three princes." 4 Oct 1564: "they feare that she is enclined to
 this last offer of Lenox".
+
+R9236 (catalogue 94, added 21 Sept 2026): readings in decipher_E.md. New variant there: double bar = i.
 
 ## Key additions from the letters
 - "enos" = Ambassador (code, not null; gloss in the 20 Nov margin, and the key's top line "enos Ambassador").

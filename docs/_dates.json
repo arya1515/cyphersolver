@@ -126,6 +126,7 @@
   "sir nicholas throckmorton to the regent moray, 20 july 1569": "2026-09-21",
   "sir ralph boswell to william boswell, december 1627": "2026-09-21",
   "sir thomas smith to cecil and the queen, france, 1563–1566": "2026-09-21",
+  "sir thomas smith, add ms 4136 f. 140 (decode r9236)": "2026-09-21",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
@@ -249,7 +250,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "81bafd8ed952",
+   "hash": "d8ed1a92e4e1",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -434,7 +435,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0ceddd683a67",
+   "hash": "efb8d4aa344d",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -729,7 +730,7 @@
   },
   "smith1562": {
    "first": "2026-09-21",
-   "hash": "7a1894dd4417",
+   "hash": "c167f53b0913",
    "updated": "2026-09-21"
   },
   "soglia1848": {

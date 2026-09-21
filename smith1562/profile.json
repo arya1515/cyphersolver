@@ -506,6 +506,146 @@
     "image_quality": "good",
     "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
    }
+  },
+  {
+   "id": "19",
+   "shelfmark": "BL Add MS 4136 f. 140 (DECODE R9236); Forbes's copy of the ciphered passages",
+   "date": "15 Oct 1562",
+   "year": 1562,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes ii 119",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil; 6 passages read, agree with Forbes. Readings in decipher_E.md, not tokenised."
+   }
+  },
+  {
+   "id": "20",
+   "shelfmark": "BL Add MS 4136 f. 140 (DECODE R9236); Forbes's copy of the ciphered passages",
+   "date": "20 Oct 1562",
+   "year": 1562,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unknown"
+    ],
+    "source": "none found",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil; Newhaven, France, 'Chatillon' read; passages (2)-(3) mostly unread. Readings in decipher_E.md, not tokenised."
+   }
+  },
+  {
+   "id": "21",
+   "shelfmark": "BL Add MS 4136 f. 140 (DECODE R9236); Forbes's copy of the ciphered passages",
+   "date": "15/17 Dec 1562",
+   "year": 1562,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes ii 238",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil; 6 passages read, agree with Forbes. Readings in decipher_E.md, not tokenised."
+   }
+  },
+  {
+   "id": "22",
+   "shelfmark": "BL Add MS 4136 f. 140 (DECODE R9236); Forbes's copy of the ciphered passages",
+   "date": "4 Nov 1563",
+   "year": 1563,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unknown"
+    ],
+    "source": "not checked",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to the Queen; read in large part (Montaigne, my Lord Robert, Mr Secretarie, Rouen). Readings in decipher_E.md, not tokenised."
+   }
+  },
+  {
+   "id": "23",
+   "shelfmark": "BL Add MS 4136 f. 140 (DECODE R9236); Forbes's copy of the ciphered passages",
+   "date": "31 Jan 1562/3",
+   "year": 1563,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unknown"
+    ],
+    "source": "not checked",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Smith's advertisements from France; mostly unread. Readings in decipher_E.md, not tokenised."
+   }
   }
  ],
  "system": {
@@ -621,6 +761,24 @@
    "kind": "verification",
    "what": "Readings agree with Forbes's printed text and CSP summaries; two date corrections (Avignon 4 Oct not 27 Oct 1564; 22 Mar 1565/6 not 1566/7).",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R9236 (f.140) fetched from DECODE; five letters' cipher passages on one leaf, nulls London/Lyn/Poole/Dover/Hastings/Garnesey identify Smith's key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Two agents deciphered the passages sign by sign with key R9261; new variant: double bar = i.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "15 Oct and 15/17 Dec 1562 agree with Forbes ii 119 and 238; 20 Oct 1562, 4 Nov 1563 and 31 Jan 1562/3 not found in Forbes, read from glyphs only.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -631,6 +789,6 @@
    "key confirms",
    "contemporary decipherment"
   ],
-  "notes": "Most passages read; code signs in the hooked-T family read from context. 12 Mar 1562/3 not transcribed (in Forbes). The 1563/4-1566 verbatim passages were only summarised in print before."
+  "notes": "Most passages read; code signs in the hooked-T family read from context. 12 Mar 1562/3 not transcribed (in Forbes). The 1563/4-1566 verbatim passages were only summarised in print before. R9236 (f.140, five further letters) added 21 Sept: two agree with Forbes, 4 Nov 1563 read in large part, 20 Oct 1562 and 31 Jan 1562/3 in part."
  }
 }
