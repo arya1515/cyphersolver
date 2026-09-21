@@ -489,56 +489,6 @@
    "scored": "rule"
   },
   {
-   "id": 42,
-   "counted": false,
-   "year": 1674,
-   "date": "5 Dec 1674 – 26 Dec 1677",
-   "title": "Conde de Hernan  Nunez, Spanish ambassador in Sweden (Stockholm) to Balthazar de Fuenmayor, Spanish ambassador in Denmark, 4 ciphertexts",
-   "correspondents": "Conde de Hernan  Nunez, Spanish ambassador in Sweden → Balthazar de Fuenmayor, Spanish ambassador in Denmark",
-   "place": "Stockholm, Sweden",
-   "language": "Spanish",
-   "region": "Low Countries",
-   "period": "1651-1700",
-   "shelfmark": "ARA Brussels, Secretairerie d'Etat et de Guerre, inv.nr. 2559 (4 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R1012–R1015 (4 records): Partially decrypted, 15 pp., nomenclator; alphabet, numerical; images login. Not viewed here. DECODE's notes say there is a contemporary decipherment on the leaf; 1 key record(s) from the same series on DECODE, nearest R964 (1647); so the text was read at the time and this is a transcription job, listed as noted rather than open. DECODE note: The solution is written in the margin, without revealing the key. The plaintext is iexceptionally easy to read.",
-   "why": "Ciphered despatches of Conde de Hernan  Nunez, Spanish ambassador in Sweden to Balthazar de Fuenmayor, Spanish ambassador in Denmark, 5 Dec 1674 – 26 Dec 1677; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Open the images and check how much of the cipher the contemporary decipherment covers.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1012",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1012"
-    },
-    {
-     "label": "DECODE R1013",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1013"
-    },
-    {
-     "label": "DECODE R1014",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1014"
-    },
-    {
-     "label": "DECODE R1015",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1015"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1012,
-    1013,
-    1014,
-    1015
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 43,
    "counted": true,
    "year": 1548,
