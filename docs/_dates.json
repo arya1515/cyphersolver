@@ -63,6 +63,7 @@
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "johan isaac de swart to pieter van bleiswijk, 8 march 1782": "2026-09-21",
+  "jános pápai to ferenc rákóczi ii, 1706–1710": "2026-09-21",
   "kauderbach from the hague to dresden, 1754–56": "2026-09-19",
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
@@ -193,7 +194,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0507fb0f995d",
+   "hash": "003d213c4ea9",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -323,7 +324,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5501554c1fb2",
+   "hash": "c724c1cc9c0c",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -434,6 +435,11 @@
   "pallotto1629": {
    "first": "2026-09-20",
    "hash": "4a989407cd46",
+   "updated": "2026-09-21"
+  },
+  "papai1706": {
+   "first": "2026-09-21",
+   "hash": "3f5ba967eee7",
    "updated": "2026-09-21"
   },
   "pelissier1592": {
@@ -618,7 +624,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "c7298e2bcb43",
+   "hash": "19464cafb155",
    "updated": "2026-09-21"
   },
   "yard1699": {
