@@ -1,0 +1,216 @@
+{
+ "schema_version": 1,
+ "target": "cobham1588",
+ "title": "Lord Cobham to Walsingham, May-June 1588 (BL Harley MS 287, DECODE R8490/R8492/R8495/R8496)",
+ "documents": [
+  {
+   "id": "R8490",
+   "shelfmark": "BL Harley MS 287 ff. 80-81 (DECODE R8490)",
+   "date": "5 May 1588",
+   "year": 1588,
+   "country": "Low Countries",
+   "route": "Cobham (Ostend / Bourbourg) -> Walsingham",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on these leaves; glossed siblings R8481, R8488, R8489, R8493 in the same volume"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (BL), full resolution",
+    "image_quality": "good",
+    "notes": "Cipher passages set in clear English; fragments only."
+   }
+  },
+  {
+   "id": "R8492",
+   "shelfmark": "BL Harley MS 287 f. 88 (DECODE R8492)",
+   "date": "1588",
+   "year": 1588,
+   "country": "Low Countries",
+   "route": "Cobham (Ostend / Bourbourg) -> Walsingham",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on these leaves; glossed siblings R8481, R8488, R8489, R8493 in the same volume"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (BL), full resolution",
+    "image_quality": "good",
+    "notes": "Densest cipher of the four; not transcribed at sign level."
+   }
+  },
+  {
+   "id": "R8495",
+   "shelfmark": "BL Harley MS 287 ff. 92-93 (DECODE R8495)",
+   "date": "27 May 1588",
+   "year": 1588,
+   "country": "Low Countries",
+   "route": "Cobham (Ostend / Bourbourg) -> Walsingham",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on these leaves; glossed siblings R8481, R8488, R8489, R8493 in the same volume"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (BL), full resolution",
+    "image_quality": "good",
+    "notes": "About 8 cipher lines on f. 92r."
+   }
+  },
+  {
+   "id": "R8496",
+   "shelfmark": "BL Harley MS 287 ff. 96-97 (DECODE R8496)",
+   "date": "9 Jun 1588",
+   "year": 1588,
+   "country": "Low Countries",
+   "route": "Cobham (Ostend / Bourbourg) -> Walsingham",
+   "language": "English",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on these leaves; glossed siblings R8481, R8488, R8489, R8493 in the same volume"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (BL), full resolution",
+    "image_quality": "good",
+    "notes": "Scattered cipher words, Bourbourg."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic",
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Substitution in Greek-like letters and signs with homophones (o, l, r, i, u), shared signs (s/t, r/y), nulls and a few code signs, set into clear English; the same system as the glossed March-April 1588 Cobham letters.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "random",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "Rebuilt from interlinear decipherments of R8488 (f. 75) and R8493 (f. 89)",
+  "notes": "DECODE R8497 (f. 187) is Bodley's 1590 cipher, a different system."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary interlinear decipherments of sibling letters (DECODE R8488, R8493); these four letters not deciphered anywhere found; not in CSP Foreign vol. 21 pt 4",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "sibling key"
+  ],
+  "attack": "sibling key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image crops (PIL)",
+   "DECODE API"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE metadata and full-resolution images of R8490-R8497.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "CSP Foreign vol. 21 pt 4, May-June 1588: calendars SP 77 Cobham letters only, not Harley 287.",
+   "result": "failed"
+  },
+  {
+   "kind": "key from source",
+   "what": "Tested the catalogue's key record R8497 (f. 187).",
+   "result": "ruled out"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Read 'in all LVZLTL' as ARMADA/ARMATA from context.",
+   "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "Found DECODE sibling records R8481, R8488, R8489, R8493 marked Decrypted, with interlinear decipherments.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Rebuilt about 20 letters of the alphabet from the f. 75 and f. 89 glosses; cross-checked with the cypher-7e session's key.",
+   "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Applied the key to ff. 80r, 88r, 92r; shared s/t and r/y signs and unidentified signs stop a full reading.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0.1,
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Key partly rebuilt from glossed siblings; fragments read. Needs a sign-level transcription."
+ }
+}

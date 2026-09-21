@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cobham to Walsingham, 1588 &mdash; Attempted</title>
+<meta name="description" content="Lord Cobham, peace commissioner in the Low Countries, to Walsingham, May&ndash;June 1588 (BL Harley MS 287 ff. 80&ndash;97; DECODE R8490, R8492, R8495, R8496). The cipher passages set into the clear English use a substitution in Greek-like letters and signs with homophones, shared signs and a few code signs. The key record the catalogue pointed to is Bodley&rsquo;s 1590 cipher, a different system. Most of the alphabet was rebuilt from the interlinear decipherments of Cobham&rsquo;s March&ndash;April letters in the same volume. Only fragments of the four letters were read.">
+<link rel="stylesheet" href="style.css?v=20260919a">
+<meta name="date" content="2026-09-21">
+<meta name="last-modified" content="2026-09-21">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="fagel1804.html"><span class="st stuck">key not found</span><b>Fagel 1804</b><span class="yr">1804</span></a></li><li><a href="r1944.html"><span class="st found">clear copy found</span><b>Bourdeaux 1801</b><span class="yr">1801</span></a></li><li><a href="r1892.html"><span class="st partial">read in part</span><b>Orange prince 1795</b><span class="yr">c. 1795</span></a></li><li><a href="vanreede1787.html"><span class="st partial">read in part</span><b>Van Reede 1787</b><span class="yr">1787&ndash;93</span></a></li><li><a href="deswart1782.html"><span class="st solved">read</span><b>De Swart 1782</b><span class="yr">1782</span></a></li><li><a href="windischgraetz1721.html"><span class="st partial">read in part</span><b>Windischgr&auml;tz 1721</b><span class="yr">1721</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">44</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">26</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">27</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">13</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 111 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">The Unsolved Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+<section class="hero">
+  <div class="cipherstrip">&Lambda;&#1016;7&perp;V &nbsp;&#1046;&gamma;7U&Lambda; &nbsp;&infin;7&Lambda;&perp;V &nbsp;Z H<br>their great desir of (f. 75, interlinear gloss) &middot; a = U, e = 7, h = &#1016;, r = V/&gamma;, s/t = &Lambda;</div>
+  <p class="kicker">Ostend and Bourbourg &rarr; Walsingham &middot; homophonic substitution in signs, inside clear English &middot; May&ndash;June 1588 &middot; not read</p>
+  <h1>Lord Cobham to Walsingham, 1588</h1>
+  <p class="sub">British Library, Harley MS 287 ff. 80&ndash;81, 88, 92&ndash;93 and 96&ndash;97 (DECODE R8490, R8492, R8495, R8496). Four letters from the English commissioner at the Bourbourg peace talks. The catalogue entry pointed to the wrong key record. The right key sits in Cobham&rsquo;s own earlier letters in the same volume, where the cipher was deciphered between the lines at the time. Most of the alphabet was rebuilt from those glosses, but the four letters were read only in fragments.</p>
+  <p class="meta">Daniel Bourdeau &middot; attempted <time datetime="2026-09-21">21 September 2026</time></p>
+</section>
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-letters">The letters</a><a href="#the-key-from-the-glossed-siblings">The key, from the glossed siblings</a><a href="#what-reads">What reads</a><a href="#what-stays-open">What stays open</a><a href="#sources">Sources</a></nav>
+<div class="callout"><strong>Summary.</strong> DECODE catalogues four letters of Lord Cobham to Walsingham from the spring of 1588 as undeciphered, of unknown cipher type. The letters are in clear English. Short passages and single words are in a script of Greek-like letters and arbitrary signs. The key record the catalogue proposed (Harley 287 f. 187, R8497) is &ldquo;the Cowler cipher for Mr Bodley&rdquo; of December 1590 and does not fit. The same volume holds Cobham&rsquo;s March and April 1588 letters in the same cipher. DECODE marks them decrypted (R8481, R8488, R8489, R8493), and their cipher passages carry a contemporary interlinear decipherment. From those glosses about twenty letters of the alphabet were rebuilt. The system is a monoalphabetic substitution with homophones for o, l, r, i and u. One sign serves for both s and t, another for both r and y. It also has nulls and a few code signs. Applied to the May&ndash;June letters, the key gives fragments only: &ldquo;of letters&rdquo;, &ldquo;imprisoned in&rdquo;, a code sign for a person. A full reading needs a clean sign-level transcription of about thirty cipher lines, which this attempt did not make. The target stays open with the key published here.</div>
+
+<h2 id="the-letters"><span class="num">01</span> The letters</h2>
+<p>William Brooke, Lord Cobham, was one of Elizabeth&rsquo;s commissioners sent to treat with Parma&rsquo;s deputies in the spring of 1588. The talks moved from Ostend to Bourbourg while the Armada was fitting out. The Calendar of State Papers Foreign (vol. 21 pt 4) calendars his letters in SP 77, but not these Harley copies. No printed decipherment of them was found.</p>
+<table>
+<tr><th>DECODE</th><th>Harley 287</th><th>Date, place</th><th>Cipher</th></tr>
+<tr><td>R8490</td><td>ff. 80&ndash;81</td><td>Ostend, 5 May 1588</td><td>about twelve cipher runs on f. 80r, two lines on f. 81r</td></tr>
+<tr><td>R8492</td><td>f. 88</td><td>1588, undated</td><td>the densest: some fourteen lines mixed with clear words (&ldquo;captain Montgomery &hellip; of late gone into Scotland &hellip; with 40 men of&rdquo;)</td></tr>
+<tr><td>R8495</td><td>ff. 92&ndash;93</td><td>27 May 1588</td><td>about eight lines on f. 92r, among news of the Armada at Lisbon and the mariners at Sluys</td></tr>
+<tr><td>R8496</td><td>ff. 96&ndash;97</td><td>Bourbourg, 9 June 1588</td><td>scattered words</td></tr>
+</table>
+
+<h2 id="the-key-from-the-glossed-siblings"><span class="num">02</span> The key, from the glossed siblings</h2>
+<p>On f. 75 (Ostend, 9 April 1588; R8488) the decipherer wrote the plain text over each cipher word: &ldquo;cardinal is coming&rdquo;, &ldquo;upon our arrival&rdquo;, &ldquo;willing to harken&rdquo;, &ldquo;by the clergy they made means&rdquo;, &ldquo;their great desir of&rdquo;, &ldquo;the Duke of Parma his bastard son&rdquo;. On f. 89 (R8493) the glosses read &ldquo;what may be&rdquo;, &ldquo;further hoped for at their hands&rdquo; and &ldquo;our abode in this towne is so advantagious&rdquo;. Aligning them gives the following table. The sign names are descriptive.</p>
+<table>
+<tr><th>plain</th><th>signs</th><th>plain</th><th>signs</th></tr>
+<tr><td>a</td><td>U, &cup;</td><td>l</td><td>small loop &#981;, L, &ldquo;..&rdquo; after a letter</td></tr>
+<tr><td>b</td><td>+</td><td>m</td><td>loop with tail &prop;</td></tr>
+<tr><td>c</td><td>8</td><td>n</td><td>double-barred cross &Dagger;&Dagger;</td></tr>
+<tr><td>d</td><td>&infin;</td><td>o</td><td>z-shape, c, d</td></tr>
+<tr><td>e</td><td>7</td><td>p</td><td>&#977;</td></tr>
+<tr><td>f</td><td>H</td><td>r</td><td>V, &gamma;</td></tr>
+<tr><td>g</td><td>crossed X</td><td>s, t</td><td>&Lambda; (two near-identical forms)</td></tr>
+<tr><td>h</td><td>loop on a long stem</td><td>u, v</td><td>&ldquo;..&rdquo;, &ldquo;:&rdquo;</td></tr>
+<tr><td>i</td><td>&perp;, undotted X</td><td>w</td><td>dotted x</td></tr>
+<tr><td>k</td><td>&omega;</td><td>y</td><td>&gamma;</td></tr>
+</table>
+<p>Not found: j, q, x and z. Several signs on f. 88 (shapes like K, &upsilon;, &rho; and W) are not in the glosses and may be code signs. A second session working on Cobham&rsquo;s March letters (R8477&ndash;R8487) reached the same values independently from its own cribs.</p>
+
+<h2 id="what-reads"><span class="num">03</span> What reads</h2>
+<ul>
+<li>f. 80r: &ldquo;hoping them in the &#9633; [code sign] &hellip;ances, for what chaunces so ever&rdquo;. Later: &ldquo;in all <i>&Lambda;VZ&Lambda;T&Lambda;</i> in numbers, that at the <i>&Lambda;VZ&Lambda;T</i> &hellip; which was the 20&rdquo;. The obvious guess, ARMADA, does not fit the key (V&nbsp;=&nbsp;r, Z&nbsp;=&nbsp;o), so the word is left unread. (M/I)</li>
+<li>f. 92r: &ldquo;imprisoned in &hellip;&rdquo;, &ldquo;it is reported that they have &hellip; of letters&rdquo; (&#981;7&Lambda;&Lambda;..&perp;V&Lambda;). (M)</li>
+<li>f. 88r: the clear frame gives the subject, the Scots captain Montgomery and his forty men. The cipher words hold signs not in the table. (unread)</li>
+</ul>
+
+<h2 id="what-stays-open"><span class="num">04</span> What stays open</h2>
+<p>A reading of the four letters needs a sign-level transcription of their cipher passages, perhaps thirty lines in all, cut from the full-resolution scans. Next, the two &Lambda; forms (s and t) and the two &gamma; values (r and y) have to be told apart, if the hand distinguishes them at all. Finally the unidentified f. 88 signs have to be placed. The letters are in plain English on known business, so once the transcription exists the reading should follow.</p>
+
+<h2 id="sources"><span class="num">05</span> Sources</h2>
+<ul>
+<li>British Library, Harley MS 287, via DECODE: <a href="https://de-crypt.org/decrypt-web/RecordsView/8490">R8490</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8492">R8492</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8495">R8495</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/8496">R8496</a>. The glossed siblings are <a href="https://de-crypt.org/decrypt-web/RecordsView/8488">R8488</a> and <a href="https://de-crypt.org/decrypt-web/RecordsView/8493">R8493</a> (also R8481, R8489). Bodley&rsquo;s 1590 cipher is <a href="https://de-crypt.org/decrypt-web/RecordsView/8497">R8497</a>. The images are not in the public domain and are not reproduced here.</li>
+<li><a href="https://www.british-history.ac.uk/cal-state-papers/foreign/vol21/no4">Calendar of State Papers Foreign, Elizabeth, vol. 21 pt 4 (January&ndash;June 1588)</a>, British History Online.</li>
+</ul>
+<p class="muted">Notes, key and profile: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/cobham1588">cobham1588/</a> in the repository.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; British Library, via DECODE</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="clair357.html" rel="prev">&larr; Clairambault 357, 1586 1586</a><a href="morosini1588.html" rel="next">Morosini 1588 1588&ndash;89 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260919a"></script>
+</body>
+</html>

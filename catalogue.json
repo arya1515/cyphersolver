@@ -3150,7 +3150,7 @@
    "shelfmark": "BL, Harley MS 287 (4 items)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R8490–R8496 (4 records): Non-decrypted, 7 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R8497 (1590).",
+   "status": "Attempted 21 Sept 2026 (cobham1588/): the key record R8497 is Bodley's 1590 cipher, not this one. About 20 letters of the alphabet were rebuilt from the interlinear decipherments of Cobham's Mar–Apr 1588 letters in the same volume (R8488, R8493). Fragments read only; needs a sign-level transcription.",
    "why": "Ciphered despatches of Cobham to Walsingham, 1588 – 9 Jun 1588; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 4,
@@ -3184,7 +3184,9 @@
     8495,
     8496
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "cobham1588.html"
   },
   {
    "id": 132,
