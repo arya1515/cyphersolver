@@ -188,3 +188,6 @@ Re-read at 2x full resolution with the solver's candidates in view; corrections 
 - `solve.py`: added the L sign (e), widened d to {o, d}, and a gazetteer of 1588 places and people.
 
 Open after loop 1: the name after "captain", the word after "haven of", f. 88 lines 3–6, f. 92a–d.
+
+## Clear-duplicate check, 21 Sept 2026
+CSP Foreign vol. 21 pt 4 calendars Cobham letters of 1, 4, 9, 13, 24, 29 May and 3, 6, 10 June 1588 (SP 77), none dated 5 May, 27 May or 9 June: no clear duplicate of these Harley letters exists in print. 3 June: "Sent the cipher by Spritwold." Lead closed.
