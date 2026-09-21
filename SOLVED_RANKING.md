@@ -137,12 +137,13 @@ p36 1.00 + 0.75 + 1.00 + 0.40 + 0.10 + 0.30.
 ### Provisional additions, 20 September 2026: Egmond and Groffey
 
 Charles of Egmond (p43, 3.15) sits just above Armstrong in this provisional scoring; no claim of an independently confirmed first reading is made.
-Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal.
+Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal. De Swart 1782 (p45, 3.05) is the same kind of result: an archive key for a letter DECODE said had none.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | p43 | **Charles of Egmond → grand master of France**, BnF fr. 3015 no. 8 | 18 July (?), year unknown | 4 | 3 | 3 | 3 | 2 | 3 | **3.15** | Ciphertext-only graphic substitution with nulls, recovered from images after failed short probes. Full letter and address read with minor doubts. A request for support in war, without campaign year or personal names. Novelty unproven; verification is internal. |
 | p44 | **Philippe Groffey (?) → Ferenc Rákóczi II**, MNL OL G15 Caps. C. Fasc. 39 pp. 277–279 (DECODE R902) | 15 Oct 1707 | 1 | 4 | 5 | 4 | 1 | 3 | **3.05** | Preserved same-series key, independently controlled on two interlinear letters. New reading in substance and a reversal of the catalogue's direction; exact prose awaits fresh transcription and the unsigned writer remains a high-probability attribution. |
+| p45 | **Johan Isaac de Swart (St Petersburg) → Pieter van Bleiswijk**, NA 3.01.25 inv. 610 (DECODE R1036) | 8 Mar 1782 | 2 | 3 | 5 | 4 | 1 | 3 | **3.05** | Archive key found for a letter DECODE called unidentified. Digit marks kept as separate groups; 34 values filled from context. 93.8% read, and the 1787 sibling read in part |
 
 ## By single axis
 
@@ -365,3 +366,5 @@ Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solutio
 Egmond provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×3 = **3.15**.
 
 Groffey provisional score: 0.25×1 + 0.25×4 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.05**.
+
+De Swart provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.05**.

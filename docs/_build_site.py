@@ -479,6 +479,11 @@ PAGES = [
          blurb='Seven intercepted letters and one supporting letter remain unread. The parser now preserves uncertain figures and marks; a repeated passage was confirmed on the manuscript. Fagel inventory 5206 lists digitized decipherments from 1752–1753, but no matching text has yet been retrieved.',
          quote='No verified plaintext; a concrete archival lead for 1752.',
          rights='Source manuscripts: KHA, Prins Willem V, inventory 196; no manuscript images reproduced'),
+    dict(slug='deswart1782', label='De Swart 1782', year='1782', y=1782.2, place='St Petersburg &rarr; The Hague', st='solved', stt='read',
+         title='De Swart to Van Bleiswijk, 8 March 1782 &mdash; the unidentified codebook was the Croiset key of 1765',
+         blurb='DECODE lists two ciphered letters of the Dutch resident at St Petersburg as non-decrypted, with a codebook that &ldquo;could not be identified&rdquo;. The despatch of 1782 is in the Croiset codebook of 1765 for the Russia legation, whose key survives as DECODE R1038. Parsed with the digit marks that make separate groups, the key and 34 values recovered from context read 93.8% of its 1,719 groups. It reports the French and Spanish answers to the Austro-Russian mediation, Catherine II&rsquo;s Greek project for Grand Duke Constantine, and Prussia&rsquo;s accession to the Armed Neutrality. The second part of the 1787 letter reads with the same key; its first 1,928 groups are in another codebook that is missing.',
+         quote='&ldquo;of nu den Keizer in dezen met haar oprecht handelt&rdquo;',
+         rights='Manuscript image: Nationaal Archief, The Hague, via DECODE R1036'),
     dict(slug='r1942', label='Hogendorp 1803', year='1803', y=1803, place='St Petersburg &rarr; The Hague', st='found', stt='subject identified',
          title='Hogendorp to Van der Goes, 5 July 1803 &mdash; the Van Suchtelen channel identified from print',
          blurb='DECODE R1942 is Hogendorp&rsquo;s ciphered dispatch no. 12, listed as non-decrypted with its subject unknown. Sillem&rsquo;s 1890 biography says that, after Vorontsov rebuffed him, Hogendorp sought to reach Alexander I through the Dutch-born Russian general Van Suchtelen; its footnote names the source as the ciphered dispatch of the same day, no. 12. The matching 1803 codebook is DECODE R1035. The subject is secure, but the 286 groups have not yet been aligned to an exact plaintext.',
@@ -556,6 +561,7 @@ IMAGES = {'egmond': ('egmond_lead.jpg', 'The ciphered address: A mon bon cousin 
 
 IMAGES['rakoczi1707'] = None
 IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philibert du Croc: the main letter in graphic cipher, with the signature and postscript lower on the leaf', 'Archives d&eacute;partementales de la Ni&egrave;vre, reproduced by Destray (1924), via Gallica and DECODE R2789')
+IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
 
 SURVEYS = ('famous', 'solved')

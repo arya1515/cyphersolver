@@ -225,6 +225,8 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **Johan Isaac de Swart → Van Bleiswijk / States-General, St Petersburg, 1782 and 1787**, catalogue 224, DECODE R1036/R1040. R1036 read at 93.8% with the 1765 Croiset key (R1038), 21 Sept 2026. The second part of R1040 reads; its first 1,928 groups are in a missing codebook. See [deswart1782/](deswart1782/).
+
 - **Dirk van Hogendorp → Maarten van der Goes, St Petersburg, 5 July 1803**, catalogue 227, DECODE R1942 — subject identified from Sillem 1890, 20 Sept 2026. His footnote assigns the Van Suchtelen passage to the ciphered dispatch no. 12 of the same day; the manuscript is headed no. 12 and the matching 1803 codebook is DECODE R1035. Exact group-by-group plaintext remains open. See [R1942/](R1942/) and the [write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).
 
 - **Charles of Egmond → grand master of France**, catalogue 28, BnF fr. 3015 no. 8 — body, both insertions and address read, 20 Sept 2026; Arnhem, apparently 18 July, no year. Minor glyph uncertainties retained; no independent key or clear copy. [Write-up](https://dbourdeau.github.io/cyphersolver/egmond.html).

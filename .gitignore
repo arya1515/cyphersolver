@@ -601,3 +601,13 @@ acciaiuoli1757/decode/*.htm
 kauderbach1754/img/
 kauderbach1754/sm/
 kauderbach1754/crop*.jpg
+
+# deswart1782: scans, third-party PDFs and texts, vendored repos
+deswart1782/*.png
+deswart1782/*.pdf
+deswart1782/*.sqlite
+deswart1782/deleeuw_thesis.txt
+deswart1782/croiset_codebook_paper.txt
+deswart1782/vendor/
+deswart1782/oterleek-codes/
+deswart1782/r20*_linecrops/

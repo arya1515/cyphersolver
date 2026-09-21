@@ -7213,46 +7213,6 @@
    "writeup": "hellen1752.html"
   },
   {
-   "id": 224,
-   "counted": true,
-   "year": 1782,
-   "date": "8 Mar 1782 – 29 Nov 1787",
-   "title": "Johan Isaac de Swart (1735-1801) (St Petersburg) to States-General of the United Provinces / Grand Pensionary Pieter van Bleiswijk (1724-1790), 2 ciphertexts",
-   "correspondents": "Johan Isaac de Swart (1735-1801) → States-General of the United Provinces / Grand Pensionary Pieter van Bleiswijk (1724-1790)",
-   "place": "St Petersburg, Russia",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "NA The Hague (2 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1036–R1040 (2 records): Non-decrypted, 32 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: Until now the codebook used by De Swart for this large encrypted letter could not be identified.",
-   "why": "Ciphered despatches of Johan Isaac de Swart (1735-1801) to States-General of the United Provinces / Grand Pensionary Pieter van Bleiswijk (1724-1790), 8 Mar 1782 – 29 Nov 1787; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1036",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1036"
-    },
-    {
-     "label": "DECODE R1040",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1040"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1036,
-    1040
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 225,
    "counted": true,
    "year": 1788,

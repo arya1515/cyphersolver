@@ -57,6 +57,7 @@
   "herbault to béthune, 13 february 1626": "2026-09-18",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
+  "johan isaac de swart to pieter van bleiswijk, 8 march 1782": "2026-09-21",
   "kauderbach from the hague to dresden, 1754–56": "2026-09-19",
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
@@ -172,8 +173,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "d9064e116605",
-   "updated": "2026-09-20"
+   "hash": "4d251ae1a31a",
+   "updated": "2026-09-21"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -209,6 +210,11 @@
    "first": "2026-09-15",
    "hash": "a7bc68819e01",
    "updated": "2026-09-15"
+  },
+  "deswart1782": {
+   "first": "2026-09-21",
+   "hash": "b4f80c59b19c",
+   "updated": "2026-09-21"
   },
   "egmond": {
    "first": "2026-09-20",
@@ -287,8 +293,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "9fd05529b2ef",
-   "updated": "2026-09-20"
+   "hash": "75619842ae2d",
+   "updated": "2026-09-21"
   },
   "kauderbach1754": {
    "first": "2026-09-19",
@@ -557,8 +563,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1dfc5ea73378",
-   "updated": "2026-09-20"
+   "hash": "33c695383397",
+   "updated": "2026-09-21"
   },
   "yard1699": {
    "first": "2026-09-18",

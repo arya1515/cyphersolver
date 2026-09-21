@@ -1,0 +1,182 @@
+{
+ "schema_version": 1,
+ "target": "deswart1782",
+ "title": "J. I. de Swart (St Petersburg) to P. van Bleiswijk, 8 March 1782, Nationaal Archief 3.01.25 inv. 610 (DECODE R1036)",
+ "documents": [
+  {
+   "id": "R1036",
+   "shelfmark": "Nationaal Archief 3.01.25 (P. van Bleiswijk) inv. 610; DECODE R1036",
+   "date": "8 Mar 1782",
+   "year": 1782,
+   "country": "Dutch Republic",
+   "route": "St Petersburg -> The Hague",
+   "language": "Dutch",
+   "pages": 9,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the record; no edition found. The key survives separately as the 1765 Croiset codebook, DECODE R1038."
+   },
+   "length": {
+    "tokens": 1719,
+    "distinct": 596,
+    "unit": "code groups",
+    "measured": true,
+    "file": "R1036_codes.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE's authenticated manual transcription of the ciphertext, checked against the nine scans",
+    "image_quality": "good",
+    "notes": "Two leaves are duplicate copies (images 5419/5421, 5420/5422). Their token sequences agree 96.7% and 99.6% and were merged, preferring readings present in the key. Marks on single digits are kept as part of the group."
+   }
+  },
+  {
+   "id": "R1040",
+   "shelfmark": "Nationaal Archief 1.01.02 (Staten-Generaal) inv. 7408; DECODE R1040",
+   "date": "29 Nov 1787",
+   "year": 1787,
+   "country": "Dutch Republic",
+   "route": "St Petersburg -> The Hague",
+   "language": "Dutch",
+   "pages": 23,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment found. Leeuw (2000) notes that two codebooks were used."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE authenticated TXT transcription, images 5453-5475",
+    "image_quality": "good",
+    "notes": "The first 1,928 groups use a different, missing key. The switch is at group 180 of image 5459."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code",
+   "nomenclator",
+   "syllabic"
+  ],
+  "summary": "Three-digit Dutch code-nomenclator (Croiset 1765, Russia legation) with words, syllables and letters; a mark on one digit makes a separate group.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 596,
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE R1038 (1765 Croiset codebook key)",
+  "notes": "Five digit marks (two strokes, underline, caret, circle, barred circle). Collapsing them to the base number creates false homographs."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "No published decipherment of R1036 or R1040 was found; the key R1038 is on DECODE",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "decode_1765.py (key parse and application)",
+   "align_known_pair*.py (R1040 crib alignment)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 2,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Fetched R1036, R1040 and R1038 scans and DECODE transcriptions, plus sibling pairs R2045, R2195, R2032, R2051 and R2052.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Leeuw 2000 and the Oterleek-codes paper (HistoCrypt 2026) identified the Croiset codebook family and the two-codebook 1787 letter. No prior decipherment was found.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "key from source",
+   "what": "Parsed DECODE's R1038 key transcription to 5,961 entries, keeping the digit marks as part of the group.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "control",
+   "what": "Tried the 1803 Croiset relative on R1036/R1040. The apparent hits gave nonsense.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Applied the key to R1036: 1,448 of 1,719 groups (84.2%). Then 25 values from repeated contexts (Spa+nje, Dene+mar+ken, lijk, ing[en]) brought it to 91.9%.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Located the codebook switch in R1040 at group 180 of image 5459 and read the second segment with the 1765 key at 84-90% a page.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "crib",
+   "what": "Aligned the 1784-86 plain/cipher pairs R2032, R2051 and R2052 to rebuild the missing first key of R1040. The transfers cover 2-3% and give no prose.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "prediction",
+   "what": "Nine more contextual values, each consistent at every occurrence: 741=haar (12x), 39=hun, 2=een, 176^^=mpli (pure et simpliciter), 410^_=zij, 681^_=mogendheden, 724=welgeval, 3^o=stel, 363^o=tusschen. R1036 now at 1,613/1,719 (93.8%).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.938,
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "R1036 read; 106 groups (92 distinct rare codes) are open. R1040 read in part: the second segment only."
+ }
+}
