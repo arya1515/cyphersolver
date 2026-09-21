@@ -167,16 +167,22 @@
    "kind": "prediction",
    "what": "Nine more contextual values, each consistent at every occurrence: 741=haar (12x), 39=hun, 2=een, 176^^=mpli (pure et simpliciter), 410^_=zij, 681^_=mogendheden, 724=welgeval, 3^o=stel, 363^o=tusschen. R1036 now at 1,613/1,719 (93.8%).",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Read 50 key entries that DECODE's R1038 transcription left illegible or mislabelled directly from the codebook scans (the word stands to the left of its code; parallel homophone columns confirm faint words). 41 were kept after checking them against the R1036 contexts (e.g. 781=geheel, 748''=commercie, 488_=Zijne Keizerlijke Majesteit, 515o=twaalf, 640 barred circle=Russisch). R1036 now at 1,663/1,719 (96.7%). The rest are low-confidence, shadowed or blank in the scans.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "read",
-  "fraction_read": 0.938,
+  "fraction_read": 0.967,
   "grades": "unknown",
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "R1036 read; 106 groups (92 distinct rare codes) are open. R1040 read in part: the second segment only."
+  "notes": "R1036 read; 56 groups (51 distinct rare codes) are open, mostly entries lost in the scan's binding shadow. R1040 read in part: the second segment only; the first needs the missing Rechteren key (NA inv. 158, not online)."
  }
 }

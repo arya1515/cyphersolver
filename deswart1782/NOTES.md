@@ -1,6 +1,6 @@
 # De Swart 1782: Dutch legation cipher from St Petersburg (DECODE R1036)
 
-Status: read (R1036, 93.8% of groups); R1040 (1787) read in part
+Status: read (R1036, 96.7% of groups); R1040 (1787) read in part
 
 ## Target
 
@@ -25,6 +25,8 @@ occurrence, which brings the reading to 1,613 groups (93.8%). They are labelled 
 `R1038_key_parsed.tsv`. Examples: `881` = *nje* (Spanje), `340^_` = *mar* (Denemarken), `176^^` = *mpli* (*pure et
 simpliciter*, twice), `741` = *haar* (the Empress, 12 times), `681^_` = *mogendheden*.
 
+A third pass read the key entries DECODE had left illegible straight from the R1038 scans (the word stands to the left of its code, and parallel columns of homophones confirm faint words). Of 50 entries read, 41 fit their R1036 contexts and were kept, for example `781` = *geheel* (*het Griekse project geheel stil*), `748^"` = *commercie* (*de vrijheid van de commercie der neutralen*), `488^_` = *Zijne Keizerlijke Majesteit*, `515^o` = *twaalf* (twelve Greek boys), `640` with a barred circle = *Russisch*. They are labelled "read from R1038 scan" in `R1038_key_parsed.tsv`, and every reading, kept or not, is in `R1038_scan_readings.tsv`. R1036 now reads 1,663 of 1,719 groups (96.7%). The 56 open groups (51 codes) are entries lost in the scan's binding shadow, blank in the book, or read with too little confidence to use.
+
 The despatch covers three matters:
 
 1. the French and Spanish answers to the Austro-Russian mediation proposal, and Britain's position on the American
@@ -33,8 +35,8 @@ The despatch covers three matters:
 3. Prussia's accession to the Armed Neutrality, and the Vice-Chancellor's talks with the Swedish and Danish
    ministers about the accession act and its secret articles.
 
-The token-level reading is `R1036_machine_decipherment.txt`, with the audit trail in `R1036_tokens.tsv`. The 106
-unread groups are all rare codes, and 92 distinct codes remain (`R1036_unknowns.txt`). A normalised opening and
+The token-level reading is `R1036_machine_decipherment.txt`, with the audit trail in `R1036_tokens.tsv`. The 56
+unread groups are all rare codes, and 51 distinct codes remain (`R1036_unknowns.txt`). A normalised opening and
 the method are in `METHOD_AND_STATUS.md`.
 
 ## R1040 (1787)

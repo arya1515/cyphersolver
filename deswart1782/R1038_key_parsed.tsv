@@ -430,7 +430,7 @@ code	plaintext	status
 "75^"""	assez?	R1038 transcription
 75^CircleWithHorizontalBar	a	R1038 transcription
 75^^	overkomst?	R1038 transcription
-75^_	<IL>	R1038 transcription
+75^_	het	read from R1038 scan
 75^o	staat	R1038 transcription
 76	<IL>	R1038 transcription
 "76^"""	<IL>	R1038 transcription
@@ -467,7 +467,7 @@ code	plaintext	status
 81^CircleWithHorizontalBar	aan	R1038 transcription
 81^^	pais	R1038 transcription
 81^_	<IL>	R1038 transcription
-81^o	<IL>	R1038 transcription
+81^o	stil	read from R1038 scan
 82	o	R1038 transcription
 "82^"""	<IL>	R1038 transcription
 82^CircleWithHorizontalBar	des	R1038 transcription
@@ -740,7 +740,7 @@ code	plaintext	status
 127	disgratier	R1038 transcription
 "127^"""	ai	R1038 transcription
 127^CircleWithHorizontalBar	zen	R1038 transcription
-127^^	<IL>	R1038 transcription
+127^^	onthaal	read from R1038 scan
 127^_	e	R1038 transcription
 127^o	<IL>	R1038 transcription
 128	<IL>	R1038 transcription
@@ -857,7 +857,7 @@ code	plaintext	status
 146^_	<IL>	R1038 transcription
 146^o	souverain	R1038 transcription
 147	<IL>	R1038 transcription
-"147^"""	<IL>	R1038 transcription
+"147^"""	appuyeeren	read from R1038 scan
 147^CircleWithHorizontalBar	zÿn Excellentie	R1038 transcription
 147^^	ou	R1038 transcription
 147^_	heid	R1038 transcription
@@ -944,7 +944,7 @@ code	plaintext	status
 161^CircleWithHorizontalBar	u	R1038 transcription
 161^^	parti	R1038 transcription
 161^_	<IL>	R1038 transcription
-161^o	<IL>	R1038 transcription
+161^o	succes	read from R1038 scan
 162	a	R1038 transcription
 "162^"""	<IL>	R1038 transcription
 162^CircleWithHorizontalBar	<IL>	R1038 transcription
@@ -1020,7 +1020,7 @@ code	plaintext	status
 174	eerd	R1038 transcription
 "174^"""	g	R1038 transcription
 174^CircleWithHorizontalBar	wederem?	R1038 transcription
-174^^	<IL>	R1038 transcription
+174^^	plaats	read from R1038 scan
 174^_	<IL>	R1038 transcription
 174^o	ne	R1038 transcription
 175	<IL>	R1038 transcription
@@ -1274,14 +1274,14 @@ code	plaintext	status
 216^^	opin	R1038 transcription
 216^_	hetten	R1038 transcription
 216^o	Vaisseau Marchand	R1038 transcription
-217	<IL>	R1038 transcription
+217	explic	read from R1038 scan
 "217^"""	andere	R1038 transcription
 217^CircleWithHorizontalBar	zulk	R1038 transcription
 217^^	oppositie	R1038 transcription
 217^o	van	R1038 transcription
 218	<IL>	R1038 transcription
 "218^"""	anker	R1038 transcription
-218^CircleWithHorizontalBar	<IL>	R1038 transcription
+218^CircleWithHorizontalBar	zwaar	read from R1038 scan
 218^^	opstand	R1038 transcription
 218^_	heden	R1038 transcription
 218^o	<IL>	R1038 transcription
@@ -1348,7 +1348,7 @@ code	plaintext	status
 229	a	R1038 transcription
 "229^"""	avec	R1038 transcription
 229^CircleWithHorizontalBar	le	R1038 transcription
-229^^	<IL>	R1038 transcription
+229^^	overzulks	read from R1038 scan
 229^_	hier	R1038 transcription
 229^o	<IL>	R1038 transcription
 230	der	R1038 transcription
@@ -1673,7 +1673,7 @@ code	plaintext	status
 283^_	u	R1038 transcription
 283^o	tres	R1038 transcription
 284	<IL>	R1038 transcription
-"284^"""	<IL>	R1038 transcription
+"284^"""	hooge geallieerde	read from R1038 scan
 284^CircleWithHorizontalBar	zigtighend	R1038 transcription
 284^^	onze	R1038 transcription
 284^_	<IL>	R1038 transcription
@@ -2048,7 +2048,7 @@ code	plaintext	status
 "346^"""	abond	R1038 transcription
 346^CircleWithHorizontalBar	haar Ho Mo	R1038 transcription
 346^^	<IL>	R1038 transcription
-346^_	<IL>	R1038 transcription
+346^_	melden	read from R1038 scan
 346^o	to	R1038 transcription
 347	et	R1038 transcription
 "347^"""	accessie?	R1038 transcription
@@ -2083,7 +2083,7 @@ code	plaintext	status
 352	<IL>	R1038 transcription
 "352^"""	afzender	R1038 transcription
 352^CircleWithHorizontalBar	<IL>	R1038 transcription
-352^^	<IL>	R1038 transcription
+352^^	ontdekken	read from R1038 scan
 352^_	r	R1038 transcription
 352^o	Tractaat von Alliante? F	R1038 transcription
 353	<IL>	R1038 transcription
@@ -2443,7 +2443,7 @@ code	plaintext	status
 "412^"""	<IL>	R1038 transcription
 412^CircleWithHorizontalBar	<IL>	R1038 transcription
 412^^	ca	R1038 transcription
-412^_	<IL>	R1038 transcription
+412^_	Zijne Majesteit	read from R1038 scan
 412^o	tegen Partÿe	R1038 transcription
 413	ere	R1038 transcription
 "413^"""	<IL>	R1038 transcription
@@ -2695,7 +2695,7 @@ code	plaintext	status
 "454^"""	<IL>	R1038 transcription
 454^CircleWithHorizontalBar	de Koning van	R1038 transcription
 454^^	<IL>	R1038 transcription
-454^_	<IL>	R1038 transcription
+454^_	Koninklijke Hoogheid	read from R1038 scan
 454^o	verander?	R1038 transcription
 455	m	R1038 transcription
 "455^"""	<IL>	R1038 transcription
@@ -2826,7 +2826,7 @@ code	plaintext	status
 476	emerit?	R1038 transcription
 "476^"""	a	R1038 transcription
 476^CircleWithHorizontalBar	<EMPTY>	R1038 transcription
-476^^	<IL>	R1038 transcription
+476^^	representatie	read from R1038 scan
 476^_	long	R1038 transcription
 476^o	ll	R1038 transcription
 477	emploÿ	R1038 transcription
@@ -2899,13 +2899,13 @@ code	plaintext	status
 "488^"""	bezeit?	R1038 transcription
 488^CircleWithHorizontalBar	Resident	R1038 transcription
 488^^	vaa	R1038 transcription
-488^_	<IL>	R1038 transcription
+488^_	Zijne Keizerlijke Majesteit	read from R1038 scan
 488^o	tegenvoordig	R1038 transcription
 489	<IL>	R1038 transcription
 "489^"""	<IL>	R1038 transcription
 489^CircleWithHorizontalBar	haar Ho Mo Ambassadeur	R1038 transcription
 489^^	a	R1038 transcription
-489^_	<IL>	R1038 transcription
+489^_	main	read from R1038 scan
 489^o	tet	R1038 transcription
 490	Esques?	R1038 transcription
 "490^"""	ble	R1038 transcription
@@ -2947,7 +2947,7 @@ code	plaintext	status
 "496^"""	<IL>	R1038 transcription
 496^CircleWithHorizontalBar	<IL>	R1038 transcription
 496^^	<IL>	R1038 transcription
-496^_	<IL>	R1038 transcription
+496^_	meer	read from R1038 scan
 496^o	tÿding	R1038 transcription
 497	even	R1038 transcription
 "497^"""	<IL>	R1038 transcription
@@ -3062,7 +3062,7 @@ code	plaintext	status
 515^CircleWithHorizontalBar	il	R1038 transcription
 515^^	protestatie	R1038 transcription
 515^_	irregilier	R1038 transcription
-515^o	<IL>	R1038 transcription
+515^o	twaalf	read from R1038 scan
 516	<IL>	R1038 transcription
 "516^"""	<EMPTY>	R1038 transcription
 516^CircleWithHorizontalBar	n	R1038 transcription
@@ -3136,7 +3136,7 @@ code	plaintext	status
 527^_	konnen	R1038 transcription
 527^o	vel	R1038 transcription
 528	e	R1038 transcription
-"528^"""	<IL>	R1038 transcription
+"528^"""	confidentie	read from R1038 scan
 528^CircleWithHorizontalBar	<IL>	R1038 transcription
 528^^	rang	R1038 transcription
 528^_	de Koning F	R1038 transcription
@@ -3372,7 +3372,7 @@ code	plaintext	status
 "567^"""	<IL>	R1038 transcription
 567^CircleWithHorizontalBar	de keizerin	R1038 transcription
 567^^	g	R1038 transcription
-567^_	<IL>	R1038 transcription
+567^_	maniere	read from R1038 scan
 567^o	victorie	R1038 transcription
 568	<IL>	R1038 transcription
 "568^"""	bombardieren F	R1038 transcription
@@ -3577,7 +3577,7 @@ code	plaintext	status
 601^CircleWithHorizontalBar	het Hof	R1038 transcription
 601^^	qu'on	R1038 transcription
 601^_	komen	R1038 transcription
-601^o	<IL>	R1038 transcription
+601^o	vrouw	read from R1038 scan
 602	e	R1038 transcription
 "602^"""	<IL>	R1038 transcription
 602^CircleWithHorizontalBar	het Hof te	R1038 transcription
@@ -3613,7 +3613,7 @@ code	plaintext	status
 607^CircleWithHorizontalBar	d' ? Envoÿe van	R1038 transcription
 607^^	rebel	R1038 transcription
 607^_	<IL>	R1038 transcription
-607^o	<IL>	R1038 transcription
+607^o	U HoogEdelGestrenge	read from R1038 scan
 608	feu	R1038 transcription
 "608^"""	<IL>	R1038 transcription
 608^CircleWithHorizontalBar	Minister	R1038 transcription
@@ -3808,7 +3808,7 @@ code	plaintext	status
 639^o	<IL>	R1038 transcription
 640	<IL>	R1038 transcription
 "640^"""	bid	R1038 transcription
-640^CircleWithHorizontalBar	<IL>	R1038 transcription
+640^CircleWithHorizontalBar	Russisch	read from R1038 scan
 640^^	af	R1038 transcription
 640^_	<IL>	R1038 transcription
 640^o	vos	R1038 transcription
@@ -3835,7 +3835,7 @@ code	plaintext	status
 644^CircleWithHorizontalBar	de Groot Vorst	R1038 transcription
 644^^	qa	R1038 transcription
 644^_	<IL>	R1038 transcription
-644^o	<IL>	R1038 transcription
+644^o	vijf	read from R1038 scan
 645	<IL>	R1038 transcription
 "645^"""	be	R1038 transcription
 645^CircleWithHorizontalBar	het Hof	R1038 transcription
@@ -4020,7 +4020,7 @@ code	plaintext	status
 675^CircleWithHorizontalBar	de Russische Troupes	R1038 transcription
 675^^	qu'on	R1038 transcription
 675^_	minder	R1038 transcription
-675^o	<IL>	R1038 transcription
+675^o	vrijheid	read from R1038 scan
 676	w	R1038 transcription
 "676^"""	<IL>	R1038 transcription
 676^CircleWithHorizontalBar	<IL>	R1038 transcription
@@ -4248,7 +4248,7 @@ code	plaintext	status
 713^^	vous	R1038 transcription
 713^_	<IL>	R1038 transcription
 713^o	<IL>	R1038 transcription
-714	<IL>	R1038 transcription
+714	gemeen	read from R1038 scan
 "714^"""	bereiden	R1038 transcription
 714^CircleWithHorizontalBar	Week	R1038 transcription
 714^^	au	R1038 transcription
@@ -4368,7 +4368,7 @@ code	plaintext	status
 733^^	proced	R1038 transcription
 733^_	a	R1038 transcription
 733^o	voor de	R1038 transcription
-734	<IL>	R1038 transcription
+734	goed	read from R1038 scan
 "734^"""	cation	R1038 transcription
 734^CircleWithHorizontalBar	<IL>	R1038 transcription
 734^^	<EMPTY>	R1038 transcription
@@ -4453,13 +4453,13 @@ code	plaintext	status
 747^_	<IL>	R1038 transcription
 747^o	<IL>	R1038 transcription
 748	ÿ	R1038 transcription
-"748^"""	<IL>	R1038 transcription
+"748^"""	commercie	read from R1038 scan
 748^CircleWithHorizontalBar	<EMPTY>	R1038 transcription
 748^^	qui	R1038 transcription
 748^_	mÿ	R1038 transcription
 748^o	<IL>	R1038 transcription
 749	de	R1038 transcription
-"749^"""	<IL>	R1038 transcription
+"749^"""	communiceeren	read from R1038 scan
 749^CircleWithHorizontalBar	het Winter Paleis	R1038 transcription
 749^^	quoi	R1038 transcription
 749^_	mÿne	R1038 transcription
@@ -4492,7 +4492,7 @@ code	plaintext	status
 "754^"""	<IL>	R1038 transcription
 754^CircleWithHorizontalBar	<IL>	R1038 transcription
 754^^	ratificatie F	R1038 transcription
-754^_	<IL>	R1038 transcription
+754^_	moe	read from R1038 scan
 754^o	<EMPTY>	R1038 transcription
 755	fort	R1038 transcription
 "755^"""	conferentie	R1038 transcription
@@ -4649,7 +4649,7 @@ code	plaintext	status
 780^^	<IL>	R1038 transcription
 780^_	<IL>	R1038 transcription
 780^o	re	R1038 transcription
-781	<IL>	R1038 transcription
+781	geheel	read from R1038 scan
 "781^"""	e	R1038 transcription
 781^CircleWithHorizontalBar	honderd	R1038 transcription
 781^^	<IL>	R1038 transcription
@@ -4725,7 +4725,7 @@ code	plaintext	status
 "793^"""	dat	R1038 transcription
 793^CircleWithHorizontalBar	r	R1038 transcription
 793^^	mot?	R1038 transcription
-793^_	<IL>	R1038 transcription
+793^_	occupe	read from R1038 scan
 793^o	vi	R1038 transcription
 794	gern	R1038 transcription
 "794^"""	dat hÿ	R1038 transcription
@@ -5101,7 +5101,7 @@ code	plaintext	status
 856	geluk	R1038 transcription
 "856^"""	d	R1038 transcription
 856^CircleWithHorizontalBar	h	R1038 transcription
-856^^	<IL>	R1038 transcription
+856^^	subject	read from R1038 scan
 856^_	no	R1038 transcription
 856^o	s	R1038 transcription
 857	<IL>	R1038 transcription
@@ -5192,7 +5192,7 @@ code	plaintext	status
 "871^"""	dat Zÿn	R1038 transcription
 871^CircleWithHorizontalBar	Vice Cancelier	R1038 transcription
 871^^	wÿ	R1038 transcription
-871^_	<IL>	R1038 transcription
+871^_	offres	read from R1038 scan
 871^o	vÿand	R1038 transcription
 872	<IL>	R1038 transcription
 "872^"""	de	R1038 transcription
@@ -5228,7 +5228,7 @@ code	plaintext	status
 "877^"""	<IL>	R1038 transcription
 877^CircleWithHorizontalBar	Panin	R1038 transcription
 877^^	revolutie	R1038 transcription
-877^_	<IL>	R1038 transcription
+877^_	ond	read from R1038 scan
 877^o	vlugt	R1038 transcription
 878	<IL>	R1038 transcription
 "878^"""	<IL>	R1038 transcription
@@ -5523,10 +5523,10 @@ code	plaintext	status
 926^^	<IL>	R1038 transcription
 926^_	n'est	R1038 transcription
 926^o	ne	R1038 transcription
-927	<IL>	R1038 transcription
+927	hoewel	read from R1038 scan
 "927^"""	ee	R1038 transcription
 927^CircleWithHorizontalBar	eerd	R1038 transcription
-927^^	<IL>	R1038 transcription
+927^^	stellen	read from R1038 scan
 927^_	nevens	R1038 transcription
 927^o	ss	R1038 transcription
 928	<IL>	R1038 transcription
@@ -5611,7 +5611,7 @@ code	plaintext	status
 "941^"""	daaromtrent	R1038 transcription
 941^CircleWithHorizontalBar	de Staats Raad	R1038 transcription
 941^^	x	R1038 transcription
-941^_	<IL>	R1038 transcription
+941^_	obtineeren	read from R1038 scan
 941^o	waar op	R1038 transcription
 942	hun	R1038 transcription
 "942^"""	daar uit	R1038 transcription
@@ -5814,7 +5814,7 @@ code	plaintext	status
 975	er	R1038 transcription
 "975^"""	dit	R1038 transcription
 975^CircleWithHorizontalBar	<EMPTY>	R1038 transcription
-975^^	<IL>	R1038 transcription
+975^^	secours	read from R1038 scan
 975^_	mÿn	R1038 transcription
 975^o	zelver	R1038 transcription
 976	is	R1038 transcription
@@ -5839,7 +5839,7 @@ code	plaintext	status
 "979^"""	<IL>	R1038 transcription
 979^CircleWithHorizontalBar	de Prins Galletzin	R1038 transcription
 979^^	<IL>	R1038 transcription
-979^_	<IL>	R1038 transcription
+979^_	misschien	read from R1038 scan
 979^o	zig	R1038 transcription
 980	<IL>	R1038 transcription
 "980^"""	<IL>	R1038 transcription

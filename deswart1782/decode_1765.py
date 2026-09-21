@@ -51,6 +51,52 @@ R1036_INFERRED = {
     "741": "haar",
 }
 
+# Entries DECODE's R1038 transcription left <IL> or mislabelled, read directly from the codebook scans
+# (third pass, 2026-09-21) and checked against their R1036 contexts.
+R1038_IMAGE_READINGS = {
+    "781": "geheel",
+    "734": "goed",
+    "714": "gemeen",
+    "217": "explic",
+    "749^\"": "communiceeren",
+    "748^\"": "commercie",
+    "528^\"": "confidentie",
+    "147^\"": "appuyeeren",
+    "284^\"": "hooge geallieerde",
+    "927": "hoewel",
+    "75^_": "het",
+    "488^_": "Zijne Keizerlijke Majesteit",
+    "496^_": "meer",
+    "489^_": "main",
+    "454^_": "Koninklijke Hoogheid",
+    "412^_": "Zijne Majesteit",
+    "346^_": "melden",
+    "567^_": "maniere",
+    "979^_": "misschien",
+    "754^_": "moe",
+    "793^_": "occupe",
+    "871^_": "offres",
+    "877^_": "ond",
+    "941^_": "obtineeren",
+    "476^^": "representatie",
+    "352^^": "ontdekken",
+    "127^^": "onthaal",
+    "229^^": "overzulks",
+    "174^^": "plaats",
+    "975^^": "secours",
+    "927^^": "stellen",
+    "856^^": "subject",
+    "81^o": "stil",
+    "161^o": "succes",
+    "515^o": "twaalf",
+    "607^o": "U HoogEdelGestrenge",
+    "601^o": "vrouw",
+    "644^o": "vijf",
+    "675^o": "vrijheid",
+    "218^CircleWithHorizontalBar": "zwaar",
+    "640^CircleWithHorizontalBar": "Russisch",
+}
+
 
 def load_key(path=KEY_TXT):
     key = {}
@@ -173,12 +219,13 @@ def decode_file(path, key):
 
 def main():
     key, conflicts = load_key()
+    key.update(R1038_IMAGE_READINGS)
     key.update(R1036_INFERRED)
     with (ROOT / "R1038_key_parsed.tsv").open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerow(["code", "plaintext", "status"])
         for code in sorted(key, key=lambda c: (int(re.match(r"\d+", c).group()), c)):
-            writer.writerow([code, key[code], "contextual inference" if code in R1036_INFERRED else "R1038 transcription"])
+            writer.writerow([code, key[code], "contextual inference" if code in R1036_INFERRED else "read from R1038 scan" if code in R1038_IMAGE_READINGS else "R1038 transcription"])
     rows = canonical_r1036(ROOT / "R1036_transcription.txt", key)
     hits = sum(value is not None for _, _, value in rows)
     print(f"key_entries={len(key)} conflicts={len(conflicts)}")

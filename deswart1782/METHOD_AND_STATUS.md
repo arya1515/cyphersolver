@@ -40,6 +40,8 @@ The literal key resolves 1,448 groups (84.2%). Thirty-four high-confidence value
 - `924` = *het*;
 - `7` = *te* (also supplied by a conflicting but legible R1038 entry).
 
+A third pass read the key entries DECODE had left illegible straight from the R1038 scans (the word stands to the left of its code, and parallel columns of homophones confirm faint words). Of 50 entries read, 41 fit their R1036 contexts and were kept, for example `781` = *geheel* (*het Griekse project geheel stil*), `748^"` = *commercie* (*de vrijheid van de commercie der neutralen*), `488^_` = *Zijne Keizerlijke Majesteit*, `515^o` = *twaalf* (twelve Greek boys), `640` with a barred circle = *Russisch*. They are labelled "read from R1038 scan" in `R1038_key_parsed.tsv`, and every reading, kept or not, is in `R1038_scan_readings.tsv`. R1036 now reads 1,663 of 1,719 groups (96.7%). The 56 open groups (51 codes) are entries lost in the scan's binding shadow, blank in the book, or read with too little confidence to use.
+
 The full token-level plaintext is in `R1036_machine_decipherment.txt`, with unresolved groups retained as `[code]`; `R1036_tokens.tsv` preserves the one-to-one ciphertext/plaintext audit trail. The decrypted despatch reports three connected diplomatic subjects:
 
 1. French and Spanish answers to the Austro-Russian preliminary peace proposal and the uncertain British response, including American independence/colonies and Gibraltar.
