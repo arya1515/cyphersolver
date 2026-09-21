@@ -238,6 +238,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 - **János Pápai → Ferenc Rákóczi II, Constantinople, 1706–1710**, catalogue 46 and 50, DECODE R731–R823. Seven of eight letters (R784, catalogue 50's 'unknown sender' 1707, added) read with the key issued to Pápai (DECODE R580), 21 Sept 2026; R731's graphic signs open. See `papai1706/`.
 - **Charles Hémard de Denonville, cardinal de Mâcon (Rome, Orvieto) → Montmorency, 1536–37**, catalogue 180, BnF fr. 3053, DECODE R4233–R4248. The catalogue's “unknown sender” identified; seven records read in part with the Tomokiyo/Lasry key and one resolved by the contemporary decipherment on f. 86, 21 Sept 2026. See `rome1536/`.
 - **Antonio Sauli and Cardinal Riario (Portugal) → the Secretariat, 1579–81**, catalogue 260, DECODE R190–R194. Read from the contemporary decipherments, checked with Lasry's key, 21 Sept 2026. See `sauli1579/`.
+- **Cardinal Alessandrino → the nuncio in Spain, 1567**, catalogue 261 ("unknown sender (Spain)"), DECODE R85–R90. Read end to end with Lasry's key for 1568, 21 Sept 2026. See `nuncio1566/`.
 - **Cardinal Alessandrino → the nuncio in Spain, 1568–69**, catalogue 253 and 254, DECODE R93–R102 and R115. Read end to end with Lasry's reconstructed polyphonic key, 21 Sept 2026. See `alessandrino1568/`.
 
 - **An Orange prince (son of William V) → an officer of the émigré troops, c. 1795**, DECODE R1892 (KHA Prins Willem V inv. 339). 6×6 digit square broken ciphertext-only, both pages read in part, 21 Sept 2026. See [r1892/](r1892/).

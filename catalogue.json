@@ -4634,66 +4634,6 @@
    "scored": "rule"
   },
   {
-   "id": 261,
-   "counted": false,
-   "year": 1566,
-   "date": "1 Jan 1566",
-   "title": "Unknown sender (Spain) to unknown recipient, 6 ciphertexts",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "Spain",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. I (6 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R85–R90 (6 records): Partially decrypted, 10 pp., nomenclator, polyalphabetic; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Comment from archive: Copia di lettere di Pio V al nunzio, 3 agosto 1566, f.2. Breve di Pio V al nunzio, 30 luglio 1566, f.4. Scritture diverse spettanti alla carcerazione e processo contro l'arcivesco di Toledo, ff. 8-63. Lettere originale di diversi a…",
-   "why": "Ciphered despatches of Unknown sender to unknown recipient, 1 Jan 1566; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R85",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/85"
-    },
-    {
-     "label": "DECODE R86",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/86"
-    },
-    {
-     "label": "DECODE R87",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/87"
-    },
-    {
-     "label": "DECODE R88",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/88"
-    },
-    {
-     "label": "DECODE R89",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/89"
-    },
-    {
-     "label": "DECODE R90",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/90"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    85,
-    86,
-    87,
-    88,
-    89,
-    90
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 262,
    "counted": false,
    "year": null,

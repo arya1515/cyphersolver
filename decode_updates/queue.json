@@ -3993,6 +3993,119 @@
      "reading_not_needed": true
     }
    }
+  },
+  "nuncio1566": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/nuncio1566.html",
+   "key": {
+    "decode": "George Lasry's reconstructed key 'ASV - S6' attached to these records (same as R93-R102)",
+    "lang": "IT"
+   },
+   "cite": "Serrano, Correspondencia diplomática (1914), not checked",
+   "fields": {},
+   "records": {
+    "R85": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (f. 165r); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R85.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    },
+    "R86": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (f. 236r); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R86.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    },
+    "R87": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (ff. 249r-250r); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R87.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    },
+    "R88": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (f. 301r-v; copy of R89); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R88.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    },
+    "R89": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (f. 314r-v; copy of R88); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R89.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    },
+    "R90": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Cardinal Alessandrino (Rome) to the nuncio G. B. Castagna (Madrid), 1567 (f. 324r; repeats the close of R88/R89); sender and year from the volume description, ff. 146-338. Read with Lasry's polyphonic key + language model; isolated letters uncertain.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R90.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Cardinal Alessandrino (Michele Bonelli)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain",
+      "date": "1567",
+      "origin": "Rome"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {
