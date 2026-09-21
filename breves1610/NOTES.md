@@ -1,6 +1,6 @@
 # Marie de Médicis → Savary de Brèves, Rome, 10 Nov 1610 (BnF fr. 3789) — catalogue item 25
 
-Status: in progress
+Status: no write-up
 
 **Result, 21 Sept 2026: attempted, not read.** The passage is found and transcribed, its sibling (15 Sept 1610) too,
 and the key it most probably uses is located. The only copy of that key available here is not good enough to apply.
@@ -47,4 +47,19 @@ itself (a related table), or both.
 1. **Lasry's R2077 decryption** (ciphertext plus plaintext) would calibrate every sign. He is the paper's
    co-author; ask him.
 2. A full-resolution image of **BnF fr. 3642** (not on Gallica, SRU search 0 hits), including the M–Z code page.
-3. Brèves's Rome despatches of Oct–Dec 1610, for a reply quoting the passage. Not searched this session.
+
+## Brèves's reply (checked 21 Sept 2026)
+
+Brèves's Rome letter-book, BnF **Cinq cents de Colbert 351** (Gallica btv1b10033961z, copies 1608–1611), pp. 724–730
+(canvases 365–368): **"A la Reyne Regente, du 9 Decembre 1610"**, opening "J'ay receu les commandemens de V.M. du 10
+Novembre". It answers the letter point by point **in paraphrase, never in her words**. It covers the pope's praise of
+the regency over Cleves-Jülich, the Cologne conference breaking up, the Milan armament, and the hope that the king of
+Spain would disarm at the pope's request. The pope approves the regency telling its ambassador in Spain that France is
+bound to protect the Duke of Savoy if attacked, and Brèves warned the pope that Spain aimed to master Italy. Savoy is
+the ciphered passage's subject, and this is its likely gist. But nothing in the reply fixes its words, so it gives no
+crib strong enough to recover signs.
+(The next letter, 14 Dec 1610, answers one of 23/24 Nov, p. 731 and canvas 370.)
+
+**Closed as unreadable from available sources:** the key photo is partial and too coarse, the reply does not quote,
+and the passage is too short (40 + 60 signs) for a ciphertext-only attack on a homophonic nomenclator. Only item 1 or
+item 2 above would reopen it.

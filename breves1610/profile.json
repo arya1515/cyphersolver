@@ -140,12 +140,17 @@
    "kind": "solver",
    "what": "Beam search over each sign's candidate letters from the key reading, scored with fr-1600-letters.",
    "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "Found Brèves's reply of 9 Dec 1610 to the 10 Nov letter (Cinq cents de Colbert 351, pp. 724-730); it paraphrases the Savoy/Spain points, no quotation of the ciphered words.",
+   "result": "partial"
   }
  ],
  "outcome": {
   "class": "not read",
   "fraction_read": 0,
   "verification": "unknown",
-  "notes": "Only 72 4 79 = [Conchine?] le pape avec is tentative. Blocked on a legible full key (BnF fr. 3642) or Lasry's R2077 decryption."
+  "notes": "Closed: key photo partial, reply of 9 Dec 1610 paraphrases only; 72 4 79 = [Conchine?] le pape avec is tentative. Reopen with Lasry's R2077 decryption or a BnF fr. 3642 image."
  }
 }
