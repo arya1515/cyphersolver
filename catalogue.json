@@ -1406,66 +1406,6 @@
    "outcome": "attempted, open"
   },
   {
-   "id": 89,
-   "counted": true,
-   "year": 1562,
-   "date": "27 Jan 1562 – 1564",
-   "title": "Sr. Thomas Smith (...) to Secretary Cecil / The Queen, 6 ciphertexts",
-   "correspondents": "Sr. Thomas Smith → Secretary Cecil / The Queen",
-   "place": "..., Western manuscripts",
-   "language": "unknown",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 4136 (6 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R9248–R9254 (6 records): Non-decrypted, 11 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560). DECODE note: 3 encrypted messages. The Calendar of State Papers, Foreign prints Smith's despatches; check it first.",
-   "why": "Sir Thomas Smith, Elizabeth's ambassador in France, 1562–64: the English at Le Havre, its loss, and the Treaty of Troyes.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Reviewed by hand 19 Sept 2026 from DECODE's metadata and the literature; leaf not viewed.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9248",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9248"
-    },
-    {
-     "label": "DECODE R9249",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9249"
-    },
-    {
-     "label": "DECODE R9250",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9250"
-    },
-    {
-     "label": "DECODE R9252",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9252"
-    },
-    {
-     "label": "DECODE R9253",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9253"
-    },
-    {
-     "label": "DECODE R9254",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9254"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9248,
-    9249,
-    9250,
-    9252,
-    9253,
-    9254
-   ],
-   "scored": "reviewed"
-  },
-  {
    "id": 90,
    "counted": true,
    "year": 1567,

@@ -1,0 +1,636 @@
+{
+ "schema_version": 1,
+ "target": "smith1562",
+ "title": "Sir Thomas Smith (France) to Cecil and the Queen, 1562/3-1566: 18 ciphered passages copied by Patrick Forbes, BL Add MS 4136 ff. 157-168 (DECODE R9248-R9254)",
+ "documents": [
+  {
+   "id": "01",
+   "shelfmark": "BL Add MS 4136 f. 157 (DECODE R9248); Forbes's copy of the ciphered passages",
+   "date": "17 Jan 1562/3",
+   "year": 1563,
+   "country": "England",
+   "route": "Chartres -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii 287-9",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to the Queen. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "02",
+   "shelfmark": "BL Add MS 4136 f. 158 (DECODE R9249); Forbes's copy of the ciphered passages",
+   "date": "27 Jan 1562/3",
+   "year": 1563,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii 315-18",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "03",
+   "shelfmark": "BL Add MS 4136 f. 163-4 (DECODE R9252); Forbes's copy of the ciphered passages",
+   "date": "7 Mar 1562/3",
+   "year": 1563,
+   "country": "England",
+   "route": "Blois -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii 350-51",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "04",
+   "shelfmark": "BL Add MS 4136 f. 167-8 (DECODE R9254); Forbes's copy of the ciphered passages",
+   "date": "12 Mar 1562/3",
+   "year": 1563,
+   "country": "England",
+   "route": "Blois -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii c.354-59",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to the Queen. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "05",
+   "shelfmark": "BL Add MS 4136 f. 159 (DECODE R9250); Forbes's copy of the ciphered passages",
+   "date": "13 Apr 1563",
+   "year": 1563,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii 384-86",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "06",
+   "shelfmark": "BL Add MS 4136 f. 159 (DECODE R9250); Forbes's copy of the ciphered passages",
+   "date": "27 Jul 1563",
+   "year": 1563,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "Contemporary decipherment on the SP 70 original; summary only in CSP Foreign vol. 6 no. 1078",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to the Queen. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "07",
+   "shelfmark": "BL Add MS 4136 f. 159 (DECODE R9250); Forbes's copy of the ciphered passages",
+   "date": "25 Jan 1563/4",
+   "year": 1564,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "SP 70 original deciphered; summary CSP Foreign vol. 7 no. 103",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "08",
+   "shelfmark": "BL Add MS 4136 f. 164 (DECODE R9252); Forbes's copy of the ciphered passages",
+   "date": "1 Sep 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Valence -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "SP 70 original deciphered; summary CSP Foreign vol. 7 no. 642",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "09",
+   "shelfmark": "BL Add MS 4136 f. 164 (DECODE R9252); Forbes's copy of the ciphered passages",
+   "date": "3 Sep 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Valence -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 650",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "10",
+   "shelfmark": "BL Add MS 4136 f. 164-5 (DECODE R9252); Forbes's copy of the ciphered passages",
+   "date": "4 Oct 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Avignon -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "SP 70 original 'portions in cipher, deciphered'; summary CSP Foreign vol. 7 no. 714",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "11",
+   "shelfmark": "BL Add MS 4136 f. 166 (DECODE R9253); Forbes's copy of the ciphered passages",
+   "date": "13 Nov 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Marseilles -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 793",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "12",
+   "shelfmark": "BL Add MS 4136 f. 166 (DECODE R9253); Forbes's copy of the ciphered passages",
+   "date": "20 Nov 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Arles -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 806",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "13",
+   "shelfmark": "BL Add MS 4136 f. 166 (DECODE R9253); Forbes's copy of the ciphered passages",
+   "date": "22 Nov 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Arles -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 808",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "14",
+   "shelfmark": "BL Add MS 4136 f. 166 (DECODE R9253); Forbes's copy of the ciphered passages",
+   "date": "24 Nov 1564",
+   "year": 1564,
+   "country": "England",
+   "route": "Arles -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "SP 70 original 'chiefly in cipher, deciphered'; summary CSP Foreign vol. 7 no. 815",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "15",
+   "shelfmark": "BL Add MS 4136 f. 167 (DECODE R9254); Forbes's copy of the ciphered passages",
+   "date": "7 Jan 1564/5",
+   "year": 1565,
+   "country": "England",
+   "route": "Narbonne -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 916",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "16",
+   "shelfmark": "BL Add MS 4136 f. 167 (DECODE R9254); Forbes's copy of the ciphered passages",
+   "date": "9 Feb 1564/5",
+   "year": 1565,
+   "country": "England",
+   "route": "Toulouse -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 7 no. 979",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "17",
+   "shelfmark": "BL Add MS 4136 f. 159-60 (DECODE R9250); Forbes's copy of the ciphered passages",
+   "date": "22 Mar 1565/6",
+   "year": 1566,
+   "country": "England",
+   "route": "Bourbon-l'Archambault -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "'partly in cipher'; summary CSP Foreign vol. 8 no. 208",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  },
+  {
+   "id": "18",
+   "shelfmark": "BL Add MS 4136 f. 160 (DECODE R9250); Forbes's copy of the ciphered passages",
+   "date": "29 Apr 1566",
+   "year": 1566,
+   "country": "England",
+   "route": "France -> England",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "summary CSP Foreign vol. 8 no. 327",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Letter to Cecil. Only the enciphered stretches, numbered by Forbes, are on the leaf; readings in decipher_A-D.md, not tokenised."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic alphabet of symbols (a-m) and digits 2-10 marked bare/dot/colon (n-p, r-s, t-u-y), dotted-letter word codes, about 30 name symbols and a list of null words (English ports, 'and', 'bycause').",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "1-2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "Dot vs colon after a digit changes its letter; dots/colons/bars around a Latin letter select the code word."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 4,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "names"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "Throckmorton's and Croft's ciphers are filed with it (R9260, R9262, R9261 p.2); not used.",
+  "notes": "Key: Add MS 4136 f. 179 'Sr Thomas Smith's Cipher' (DECODE R9261 p.1), Forbes's copy. 'enos' is Ambassador, not a null."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Contemporary decipherments on the SP 70 originals; 1562/3 letters printed in full by Forbes, A Full View (1740-41); later letters summarised in CSP Foreign vols 6-8 (1869-71)",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "key from archive",
+   "published reading"
+  ],
+  "attack": "key from archive",
+  "human_role": "Supplied the DECODE login cookie (earlier session); set the target.",
+  "tools": [
+   "PIL cropping",
+   "Forbes OCR grep",
+   "CSP Foreign pages (british-history.ac.uk)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE R9248-R9254 images and key record R9262 with the saved cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "R9262 is Throckmorton's cipher, not Smith's; the API listing of neighbouring key records found R9261, 'Sr Thomas Smith's Cipher' (f. 179).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Applied the key to 17 Jan 1562/3 passages: 'chief ... side' read at once.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "CSP Foreign vol. 6 no. 109 cites Forbes ii 287; Forbes vol. 2 OCR on archive.org prints the letter; the reading matches. Add MS 4136 identified as Forbes's deciphering file.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Transcribed and read the 1564 Arles 24 Nov passage from the glyphs; matches the CSP no. 815 summary.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "First parallel agent on the 1564-65 letters read only parts of two letters.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Agents read R9249 and R9250 letters (27 Jan and 13 Apr 1563 in full, 1563/4-1566 in part) and the 1564-65 letters in R9252-R9254 (most in large part), checking against Forbes and CSP.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Readings agree with Forbes's printed text and CSP summaries; two date corrections (Avignon 4 Oct not 27 Oct 1564; 22 Mar 1565/6 not 1566/7).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "contemporary decipherment"
+  ],
+  "notes": "Most passages read; code signs in the hooked-T family read from context. 12 Mar 1562/3 not transcribed (in Forbes). The 1563/4-1566 verbatim passages were only summarised in print before."
+ }
+}

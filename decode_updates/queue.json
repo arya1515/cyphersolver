@@ -2265,6 +2265,79 @@
      "sent": false
     }
    }
+  },
+  "smith1562": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/smith1562.html",
+   "key": {
+    "decode": "R9261"
+   },
+   "cite": "Contemporary decipherments on the TNA SP 70 originals; Forbes, A Full View ii (1741) prints the 1563 letters; CSP Foreign vi-viii calendar all; Tomokiyo, Cryptiana elizabeth.htm (key location, 2024).",
+   "fields": {},
+   "records": {
+    "R9248": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Forbes copy of the cipher passages of Smith to the Queen, Chartres, 17 Jan 1563; read with key R9261; the whole letter is printed in Forbes, Full View ii 287-9. Status change only.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9249": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Smith to Cecil, 27 Jan 1563: all 32 passages read with key R9261; agree with Forbes ii 315-18.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9249.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9252": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Three Smith letters: Blois 7 Mar 1563 (printed, Forbes ii 350-51; not in this file), Valence 1 and 3 Sep 1564, Avignon 4 Oct 1564 (heading misread as 27 Oct); read with key R9261.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9252.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9254": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Smith to Cecil, Narbonne 7 Jan 1565 and Toulouse 9 Feb 1565, read with key R9261; also Smith to the Queen, Blois 12 Mar 1563 (printed in Forbes ii, not transcribed).",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9254.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9250": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Five Smith letters (13 Apr 1563; 27 Jul 1563 to the Queen; 25 Jan 1564; 22 Mar 1566, not 1566/7; 29 Apr 1566) read in full or in part with key R9261.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9250.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9253": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Four Smith letters to Cecil: Marseilles 13 Nov, Arles 20, 22, 24 Nov 1564; read with key R9261, some signs open.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9253.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

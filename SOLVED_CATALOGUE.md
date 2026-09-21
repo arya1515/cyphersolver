@@ -159,3 +159,5 @@ These are patterns over the 18 items above, not measurements.
 
 
 Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).
+
+Sir Thomas Smith → Cecil and Elizabeth I (BL Add MS 4136 ff. 157–168, DECODE R9248–R9254, 1563–66; catalogue 89): **read at the time, re-read with the archived key, unranked**, 21 Sept 2026. Eighteen letters' cipher passages (Forbes's copies) read with Smith's key, Add MS 4136 f. 179 (DECODE R9261); the 1563 ones match Forbes's 1741 print, the 1564–66 ones were only summarised in CSP Foreign. [Write-up](https://dbourdeau.github.io/cyphersolver/smith1562.html).
