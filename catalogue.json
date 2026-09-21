@@ -6217,61 +6217,6 @@
    "scored": "rule"
   },
   {
-   "id": 245,
-   "counted": true,
-   "year": 1552,
-   "date": "28 Jul 1552",
-   "title": "Prospero S Croce (France) to Cardinale del Monte, 5 ciphertexts",
-   "correspondents": "Prospero S Croce → Cardinale del Monte",
-   "place": "France",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1497-1559",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 3 (5 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R6–R10 (5 records): Partially decrypted, 7 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Plaintext followed by cipher, some solved, some underlined numbers not transcribed that might be helpful during transcription. Comment from archive: Lettere originali e cifre di Prospero S Croce al cardinale del Monte dal 28 Luglio 1552 L 13 GENNAIO 1554. FF. …",
-   "why": "Ciphered despatches of Prospero S Croce to Cardinale del Monte, 28 Jul 1552; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R6",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/6"
-    },
-    {
-     "label": "DECODE R7",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/7"
-    },
-    {
-     "label": "DECODE R8",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8"
-    },
-    {
-     "label": "DECODE R9",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9"
-    },
-    {
-     "label": "DECODE R10",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/10"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    6,
-    7,
-    8,
-    9,
-    10
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 246,
    "counted": true,
    "year": 1767,

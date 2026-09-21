@@ -1,0 +1,264 @@
+{
+ "schema_version": 1,
+ "target": "santacroce1552",
+ "title": "Prospero Santa Croce (nuncio in France) to Cardinal del Monte, 1553, ASV Francia 3 (DECODE R6-R10)",
+ "documents": [
+  {
+   "id": "R6",
+   "shelfmark": "ASV Segr. Stato, Nunziatura di Francia 3, ff. 117r-117v (DECODE R6)",
+   "date": "26 Mar 1553",
+   "year": 1553,
+   "country": "France",
+   "route": "Poissy to Rome",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate folio"
+    ],
+    "source": "Lestocquoy 1972, no. 67, p. 157; decifrato fol. 118v",
+    "partial": false
+   },
+   "length": {
+    "tokens": 1540,
+    "distinct": 22,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode/DOC_R6_D1624_1624.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Measured count includes header, markup and stray digits of the DECODE file, not only cipher digits."
+   }
+  },
+  {
+   "id": "R7",
+   "shelfmark": "ASV Segr. Stato, Nunziatura di Francia 3, ff. 128r-128v (DECODE R7)",
+   "date": "5 Apr 1553",
+   "year": 1553,
+   "country": "France",
+   "route": "Poissy to Rome",
+   "language": "Italian",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate folio"
+    ],
+    "source": "Lestocquoy 1972, no. 71, pp. 162-163; decifrato fol. 129-130v",
+    "partial": false
+   },
+   "length": {
+    "tokens": 1323,
+    "distinct": 22,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode/DOC_R7_D1625_1625.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Measured count includes header, markup and stray digits of the DECODE file, not only cipher digits."
+   }
+  },
+  {
+   "id": "R8",
+   "shelfmark": "ASV Segr. Stato, Nunziatura di Francia 3, f. 230r (DECODE R8)",
+   "date": "28 Sep 1553",
+   "year": 1553,
+   "country": "France",
+   "route": "Abbaye d'Ourscamp to Rome",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate folio"
+    ],
+    "source": "Lestocquoy 1972, no. 112, p. 218",
+    "partial": false
+   },
+   "length": {
+    "tokens": 373,
+    "distinct": 27,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode/DOC_R8_D1626_1626.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Measured count includes header, markup and stray digits of the DECODE file, not only cipher digits."
+   }
+  },
+  {
+   "id": "R9",
+   "shelfmark": "ASV Segr. Stato, Nunziatura di Francia 3, f. 248r (DECODE R9)",
+   "date": "14 Dec 1553",
+   "year": 1553,
+   "country": "France",
+   "route": "Paris to Rome",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate folio"
+    ],
+    "source": "Lestocquoy 1972, no. 124, p. 240 (clear P.S.; the three cancelled cipher lines are not printed)",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Only three cipher lines, struck through; read through the strokes, uncertain (r9_cancelled.txt)."
+   }
+  },
+  {
+   "id": "R10",
+   "shelfmark": "ASV Segr. Stato, Nunziatura di Francia 3, f. 263r (DECODE R10)",
+   "date": "23 Dec 1553",
+   "year": 1553,
+   "country": "France",
+   "route": "Paris to Rome",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "printed edition",
+     "separate folio"
+    ],
+    "source": "Lestocquoy 1972, second letter of 23 Dec 1553, pp. 243-244",
+    "partial": false
+   },
+   "length": {
+    "tokens": 697,
+    "distinct": 32,
+    "unit": "symbols",
+    "measured": true,
+    "file": "decode/DOC_R10_D1627_1627.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Measured count includes header, markup and stray digits of the DECODE file, not only cipher digits."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Papal nunciature cipher: homophonic alphabet of 1- and 2-digit elements (e.g. A = 28|38|8), 1 as null/separator, dotted code groups; key reconstructed by Lasry 2020.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "kinds": [
+    "unknown"
+   ]
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Element boundaries are not marked; the split is ambiguous and was resolved with a language model."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Contemporary decifrati bound in Francia 3; J. Lestocquoy (ed.), Correspondance du nonce en France Prospero Santa Croce (1552-1554), Acta Nuntiaturae Gallicae 9 (1972); Lasry's key on DECODE R6-R10 (24 Oct 2020)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "published key",
+   "published reading",
+   "cleartext context"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "python",
+   "language model"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R6-R10 pages, images, 2016 transcriptions, Lasry's key file and a 288-page PDF with the DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Lasry's reconstructed key (DOC_R*_D320x) applied to the transcriptions with an it-cinquecento beam segmenter (decode.py); R8 matches its interlinear clear.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "The attached PDF is Lestocquoy 1972 (Acta Nuntiaturae Gallicae 9); located all five letters by folio (nos. 67, 71, 112, 124, second letter of 23 Dec 1553), cipher passages printed deciphered.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Decrypts of R6, R7, R8, R10 agree with the printed text where the transcription is clean.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "R9's three struck-through cipher lines, unprinted, read from the image through the cancellation strokes.",
+   "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "R9 fragments ('l'ar[mata]', 'aviso') fit the clear P.S. written below; the cancelled cipher is that P.S., abandoned.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms"
+  ],
+  "notes": "Read at the time and printed 1972; Lasry's key on DECODE since 2020. Catalogue entry 245 removed, no write-up."
+ }
+}
