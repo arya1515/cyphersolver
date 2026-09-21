@@ -1402,41 +1402,6 @@
    "scored": "rule"
   },
   {
-   "id": 100,
-   "counted": true,
-   "year": 1516,
-   "date": "Feb 1516",
-   "title": "Thommas Spynelly to unknown recipient",
-   "correspondents": "Thommas Spynelly → unknown recipient",
-   "place": "London",
-   "language": "...",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Galba B V f 40-41",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R8416: Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here.",
-   "why": "Ciphered letter of Thommas Spynelly to unknown recipient, Feb 1516; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8416",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8416"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8416
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 101,
    "counted": true,
    "year": 1526,

@@ -144,6 +144,7 @@
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
   "the windischgrätz brothers, brussels, 18 nov 1721": "2026-09-21",
+  "thomas spinelly to henry viii, brussels, 1 feb 1517": "2026-09-21",
   "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
   "unknown sender (constantinople) to ferenc rákóczi ii, 1707": "2026-09-21",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
@@ -251,7 +252,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "c392935c524a",
+   "hash": "753cd7309de5",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -436,7 +437,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "dabfaf836ee4",
+   "hash": "739184682f7a",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -779,6 +780,11 @@
    "hash": "cc5166f75f27",
    "updated": "2026-09-21"
   },
+  "spinelly1516": {
+   "first": "2026-09-21",
+   "hash": "305a1dd6b162",
+   "updated": "2026-09-21"
+  },
   "sunintercepts": {
    "first": "2026-09-18",
    "hash": "afa62db09c42",
@@ -866,7 +872,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a6b316bbe2e5",
+   "hash": "252025a61f61",
    "updated": "2026-09-21"
   },
   "yard1699": {

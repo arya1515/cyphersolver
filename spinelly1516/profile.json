@@ -1,0 +1,128 @@
+{
+ "schema_version": 1,
+ "target": "spinelly1516",
+ "title": "Thomas Spinelly to Henry VIII, Brussels, 1 February 1517 (BL Cotton MS Galba B V ff. 40-41; DECODE R8416)",
+ "documents": [
+  {
+   "id": "R8416",
+   "shelfmark": "BL Cotton MS Galba B V ff. 40-41 (DECODE R8416)",
+   "date": "1517-02-01",
+   "year": 1517,
+   "country": "England",
+   "route": "Brussels (court of Charles) -> England (Henry VIII)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No contemporary decipherment; the cipher sentence is summarised in Letters and Papers Henry VIII II no. 2862."
+   },
+   "length": {
+    "tokens": 43,
+    "distinct": 31,
+    "unit": "letters",
+    "measured": true,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE image IMG_R8416_I38887_P3",
+    "image_quality": "good",
+    "notes": "Five lines on f. 40v; signs transcribed as look-alike Unicode characters."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "monoalphabetic",
+   "nomenclator"
+  ],
+  "summary": "Monoalphabetic substitution with invented signs (Greek and Latin letters for other values), word division kept, plus word signs for of, this, that, the Emperor and probably the King.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": 26,
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "random",
+  "word_division": "kept",
+  "doubled_letters": "kept",
+  "sibling_key": "none",
+  "notes": "Five cipher lines inside a clear English despatch."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Letters and Papers Henry VIII II no. 2862 (1864) summarises the cipher sentence (Emperor to Cambrai about the 15th); no text printed",
+   "found": "after reading",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Downloaded the 4 DECODE images with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Read the pages: Spinelly autograph despatch to Henry VIII in clear English, Brussels 1 Feb 1516/17; cipher only in five lines on f. 40v.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the 43 cipher tokens from zoomed crops.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "crib",
+   "what": "Repeated 9-sign word with equal signs at positions 4 and 8 = audensier (spelled so in clear on the page); then and, the, to.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Extended the alphabet to the whole passage: Marliano, the King entry into Brussels, the Emperor to Cambrai about the xv day.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Letters and Papers Henry VIII II 2862 on British History Online: calendar summary of the cipher sentence only.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.98,
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Alphabet certain; the word sign read as the King and sigma as l are probable. Agrees with the L&P summary."
+ }
+}
