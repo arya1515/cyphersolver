@@ -1,0 +1,60 @@
+# Randolph to Sussex, Edinburgh 5 July 1570, BL Cotton Caligula C II f. 277 (DECODE R4931 = R4930 images P3/P5)
+# Token transcription of the cipher runs. Words separated by spaces, tokens by '.'.
+# '-' in the manuscript (a dash joining signs) kept as token '-'.
+# Sign names (glyph -> token):
+#  K  = x with a bar (Ӿ)          x  = plain x               e  = curly x (ꭓ, r-like)
+#  8  = figure 8                  3  = figure 3 / ʒ          4  = figure 4
+#  #  = hash                      N  = N with serifs (ᴎ)     n  = small n
+#  U  = cup u (ʋ)                 c  = c                     D  = D
+#  q  = q                         Q  = looped o with tail (ϙ) o = small circle
+#  T  = theta (θ)                 P  = double-T (Π)          E  = epsilon (ɛ)
+#  G  = gamma (Γ)                 m  = m with descender (ꭑ)  M  = m with tilde/superscript
+#  W  = pi-omega (ϖ)              w  = omega (ω)             v  = v / ν
+#  L  = lambda (λ)                s  = s                     p  = p
+#  d  = delta (δ)                 O  = libra sign (Ω, underlined)
+#  Z  = Z                         H  = H                     I  = I
+#  h  = h                         y  = y                     b  = sigma-like (б)
+#  a  = alpha (α)                 A  = a-with-hook (ϡ)       t  = t with overbar (ƭ)
+#  B  = boxed ⊟                   F  = phi (Φ)               g  = g / 9
+#  i  = dotless i                 r  = r                     X  = ≡ (triple bar)
+#  S  = ∞                         V  = V                     J  = ⍏ (arrow up)
+#  R  = ᔓ (tilde)                 Y  = ʃ long s              C  = large C (Ϲ)
+#  j  = θ-over-bar ϑ̄ (as written)  u  = small u
+#  =  = equals sign (initial)
+
+[f277r l.3, after "as this ."]
+Y.t.o.c B T.e.p N.e.o.-.o.-.O.-.U.V.D K.K.l.E.e -.T.T.- G.3.X.o.o.8
+[l.4]
+8.T.-.N m.U.3.X b.n.c.r.p.T.d.s.8 =.K.x.3.#.4.x.J.M P.P m.G.i.-.O N.K Q.3.d.8 o.U.3.E.P.x.U.R.H =.K.c.D.q.e
+[l.5]
+S.D E.K.T.e.s.n.I.V F.g 3.c K.e.b.8.3.N.e d.U.e.K x.8.D 4.v.-.O.-.8.n.o.W.T.J.g.S d.K G.n.c.8 L.i.n.e.3
+[l.6] ... then clear "full sore agaynste their willes"
+D.8.P.P.E.m 4.x.S L.I.X.e #.m
+[l.6 cont.]
+G.a.A.E.E U.T.w.G K.3 m.g.d.-.O.-.g.D
+[l.7]
+o.K.W.3.Q.n.o.m j.a.Y.j 3.E.4 M.U.N.e Z.e 3.K.D.=.v.S d.Q e.8.s.4 8.E.x.n.L.T.e.H 3.E.R X.K.e.e K.l.X.d.i
+[l.8]
+W.c.N.4.8.D.e.D.M i.E.S O.-.N.3.h.y.K.w.q m.K.m.U.e.K.8 o.-.o.X.P.e 3.E.R D.8.P.e.E.-.O d.K Q.Z.4.r.X G.8.N
+[l.9]
+e.U.K.L.e E.e.-.O.-.G.8.w m.Z.p.N.e.e.4.c.e.m.8.T.e K.v =.Q.e.q.o.T.e.E d.G.v.e m.U.T.E.T.e m.G.8.L
+[l.10] then clear "This your L. shall ..."
+M.e.s.c.e.H m.K.e.E.S.e c.E.d.Q
+# ---- second run (f277r l.16-18): "...to be sorte wth ye L." then cipher; "vottiexlyt" may be clear
+[B1]
+b C.o #.d.U.T E.y.x
+[B2 after clear 'of'?]
+C.x.4.K.E
+[B3 after clear 'what so ever']
+m.x.o.K.L.D.x Q.S C.H E.S y
+[B4 after clear 'I have']
+M.w.K.k.8.x K.l.T.d.G
+# ---- third run (f277r l.27): before clear "which I knowe will marvelouslye discomforte him"
+[C1]
+O.U.x W.K.e.T.S.R.y
+# ---- fourth run (f277r l.29): after clear "that the" (struck words), before clear "untill the Convention"
+[D1]
+m.K.e.s.4.T.U.P.a D.3.K m.x o.K.E.d.#.E.8.x.T.R #.J w.n.X
+# ---- f277v l.14: after clear "I knowe he loketh not"
+[E1]
+T.T U.K.W.8 =.c.L.D.o.E.P

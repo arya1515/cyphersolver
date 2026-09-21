@@ -237,6 +237,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 **Sir Nicholas Throckmorton (Greenwich) → the Regent Moray (1569; catalogue 83)**: read at the time (interlinear, Bain no. 1103, Tomokiyo's key); the stain-faded passages read again from the cipher with the published key. Ranked as source identification and text recovery, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/throck1569.html).
 
+**Thomas Randolph (Edinburgh) → the Earl of Sussex (5 July 1570; catalogue 99)**: read at the time (decipherment on the next leaf, f. 278 = DECODE R4932; Boyd iii no. 339); a crib attack had read ~70% independently first. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/randolph1570.html).
+
 **C. A. graaf van Rechteren tot Borgbeuningen (St Petersburg) → the Griffier (1785; catalogue 232)**: read at the time. The Griffie's decipherment is on the record itself (DECODE R1039, images 5448–5449); key not rebuilt. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/rechteren1785.html).
 
 **Charles de Poupet, sieur de La Chaulx (Vitoria) → Charles V (1522; catalogue 150)**: read at the time. The contemporary decipherment is bound in with the letter (BNE 39/2); one line aligned, key not rebuilt. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/poupet1522.html).

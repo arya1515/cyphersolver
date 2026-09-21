@@ -1,0 +1,81 @@
+{
+ "schema_version": 1,
+ "target": "randolph1570",
+ "title": "Thomas Randolph to the Earl of Sussex, Edinburgh, 5 July 1570, BL Cotton MS Caligula C II f. 277 (DECODE R4931)",
+ "documents": [
+  {
+   "id": "R4931",
+   "shelfmark": "BL, Cotton MS Caligula C II f. 277 (DECODE R4931); decipherment f. 278 (DECODE R4932)",
+   "date": "5 Jul 1570",
+   "year": 1570,
+   "country": "Scotland",
+   "route": "Thomas Randolph (Edinburgh) to Thomas Radcliffe, 3rd Earl of Sussex",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["separate folio"],
+    "source": "contemporary decipherment on the next leaf, f. 278 (DECODE R4932): cipher re-copied with plaintext written above",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "randolph1570/transcription.txt, sign tokens read by eye from the DECODE images",
+    "image_quality": "good",
+    "notes": "Five cipher runs, about 95 words. Several look-alike signs (plain/curly/barred x; 3 vs tailed 3) merged in the token transcription."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "nomenclator"],
+  "summary": "Word-divided substitution of Latin letters, figures and invented signs for English, homophones for common letters, a few signs for persons and phrases.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": false},
+  "homophones": {"used": true},
+  "nomenclator": {"present": true},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "notes": "Name signs: boxed sign = the Scottish Queen's party in Scotland, theta-theta = the Scottish Queen, Pi-Pi = the Queen of England, struck +++ = Morton."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "contemporary decipherment on f. 278 (DECODE R4932, status Decrypted); Boyd, Calendar of Scottish Papers iii (1903) no. 339 abstracts Sussex's clear copy",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": ["images", "crib"],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": ["image viewing", "archive.org full text", "n-gram annealer"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Fetched R4931 and the linked key record R4930 with the shared cookie; R4931's images are copies of R4930's P3/P5, and R4930's other pages are Burghley's Norfolk notes, not a key.", "result": "failed"},
+  {"kind": "literature search", "what": "Tomokiyo's Elizabethan cipher pages: no Randolph-Sussex key.", "result": "failed"},
+  {"kind": "literature search", "what": "Boyd CSP Scotland iii on archive.org: no. 339 abstracts the letter (Edinburgh 5 July 1570) from Sussex's clear copy.", "result": "worked"},
+  {"kind": "transcription", "what": "Token transcription of the five cipher runs from zoomed crops.", "result": "partial"},
+  {"kind": "crib", "what": "Aligned Boyd's abstract with word lengths: unto, course, and, to, conscien(ce), confidence, home cumming, souldiers may be continewed in pay.", "result": "worked"},
+  {"kind": "solver", "what": "Unconstrained homophonic anneal (en-1640s, word divisions): produced 'murderers and traitors', 'regent', 'whome ... conscience they thinke them selues ... unto'.", "result": "partial"},
+  {"kind": "solver", "what": "Anneal with crib words pinned to fill the ~25 open words: did not converge (merged sign classes).", "result": "failed"},
+  {"kind": "sibling key", "what": "Swept DECODE records of the same volume: R4932 (f. 278) is the contemporary decipherment of f. 277.", "result": "worked"},
+  {"kind": "reading", "what": "Transcribed the f. 278 glosses and checked them against the f. 277 cipher; all five runs read, three gloss words doubtful.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "verification": ["contemporary decipherment"],
+  "notes": "About 70% read by crib attack before the contemporary decipherment (f. 278) was found; it agrees with every value recovered. DECODE date 1569 corrected to 5 July 1570; R4930 is not a key. Catalogue entry 99 removed."
+ }
+}

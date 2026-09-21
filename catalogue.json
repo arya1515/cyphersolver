@@ -989,41 +989,6 @@
    "scored": "rule"
   },
   {
-   "id": 99,
-   "counted": true,
-   "year": 1569,
-   "date": "1569",
-   "title": "Thomas Randolph (Edinburgh) to Thomas Radcliffe, 3rd Earl of Sussex",
-   "correspondents": "Thomas Randolph → Thomas Radcliffe, 3rd Earl of Sussex",
-   "place": "Edinburgh, England, Scotland",
-   "language": "English",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Cotton MS Caligula C II. f 277",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R4931: Non-decrypted, 2 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R4930 (1569). Same Cotton volume as Mary Queen of Scots to Norfolk (norfolk1570/, f. 74, read here); a different letter.",
-   "why": "Ciphered letter of Thomas Randolph to Thomas Radcliffe, 3rd Earl of Sussex, 1569; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4931",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4931"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4931
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 101,
    "counted": true,
    "year": 1526,

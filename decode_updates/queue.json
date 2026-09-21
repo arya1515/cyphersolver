@@ -4680,6 +4680,35 @@
      "sent": false
     }
    }
+  },
+  "randolph1570": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/randolph1570.html",
+   "key": {
+    "decode": "no key; the contemporary decipherment is DECODE R4932 (f. 278, the next leaf)",
+    "lang": "EN"
+   },
+   "cite": "W. K. Boyd, Calendar of State Papers relating to Scotland iii (1903), no. 339",
+   "fields": {
+    "cleartext_lang": "English",
+    "plaintext_lang": "English",
+    "start_year": "1570",
+    "start_month": "7",
+    "start_day": "5",
+    "end_year": "1570",
+    "end_month": "7",
+    "end_day": "5",
+    "cipher_types": "homophonic, nomenclator"
+   },
+   "records": {
+    "R4931": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Randolph to Sussex, Edinburgh, 5 July 1570 (not 1569-72). Its five cipher runs are deciphered on the next leaf, f. 278 = DECODE R4932; R4930 is not a key (it reuses this record's images with Burghley's notes, ff. 76-77). Status change and metadata only.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
