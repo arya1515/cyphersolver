@@ -235,7 +235,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0c93e07f2ce0",
+   "hash": "e382f6a7cae8",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -405,7 +405,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "bd511500216e",
+   "hash": "4b3d8dcd00c5",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -783,6 +783,11 @@
    "hash": "5cf6e86d9647",
    "updated": "2026-09-15"
   },
+  "walsingham1585": {
+   "first": "2026-09-21",
+   "hash": "a3425c7bc538",
+   "updated": "2026-09-21"
+  },
   "warsaw": {
    "first": "2026-09-16",
    "hash": "9c7b6c79ee6a",
@@ -805,7 +810,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "affb463686db",
+   "hash": "b1c126ffa636",
    "updated": "2026-09-21"
   },
   "yard1699": {

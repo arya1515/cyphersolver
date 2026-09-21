@@ -40,3 +40,10 @@ There is no letter cipher. The drafts can be read as they stand; the only task i
 CSP Scotland vol. 8 (1914) calendars Wotton's despatches of these dates; the BHO text is paywalled and the archive.org
 copy is lending-only, so whether the calendar prints these drafts' code numbers resolved was not checked. The
 identifications above rest on the drafts' own context.
+
+## Addendum (2026-09-21, from walsingham1585)
+CSP Scotland viii *was* checked there, through the HathiTrust text-only view (miun.abe1726.0008.001). The calendar
+glosses the numbers in Wotton's despatches: Arran ["19"], Master of Gray ["39"], Justice Clerk ["40"] and
+**Farnyhurst ["24"]**, so 24 is Sir Thomas Kerr of Ferniehirst, not Huntly. No. 106 (1 Sep) calendars the R4843
+draft with "Morton" for 20 (Maxwell, styled Earl of Morton). Walsingham's side of the correspondence (R4838–R4840,
+R4844) is in [walsingham1585](../walsingham1585/NOTES.md).

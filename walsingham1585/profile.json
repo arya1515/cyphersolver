@@ -1,0 +1,91 @@
+{
+ "schema_version": 1,
+ "target": "walsingham1585",
+ "title": "Walsingham to Edward Wotton, ambassador in Scotland, 28 Jul - 10 Sep 1585, BL Add MS 32657 (DECODE R4838, R4839, R4840, R4844)",
+ "documents": [
+  {
+   "id": "R4838-R4839",
+   "shelfmark": "BL Add MS 32657 ff. 125-127, 140-141 (DECODE R4838, R4839)",
+   "date": "28 Jul and 7 Aug 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Walsingham (Nonsuch, the Court) -> Wotton (Scotland)",
+   "language": "English",
+   "pages": 4,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["printed edition"], "source": "CSP Scotland viii (Boyd 1914) nos. 40 and 65, calendared from Walsingham's drafts with names in clear.", "partial": false},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false, "file": "unknown"},
+   "transcription": {"by": "llm from images", "source": "DECODE images", "image_quality": "good", "notes": "Viewed and checked against the calendar; not transcribed in full."}
+  },
+  {
+   "id": "R4840",
+   "shelfmark": "BL Add MS 32657 ff. 163-164 (DECODE R4840)",
+   "date": "21 Aug 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Walsingham (the Court) -> Wotton (Scotland)",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {"location": ["none"], "source": "Not calendared in CSP Scotland viii.", "partial": false},
+   "length": {"tokens": "unknown", "unit": "code groups", "measured": false, "file": "reading_R4840.txt"},
+   "transcription": {"by": "llm from images", "source": "DECODE images", "image_quality": "good", "notes": "Working transcription with gaps; the only cipher is about 20 name numbers."}
+  },
+  {
+   "id": "R4844",
+   "shelfmark": "BL Add MS 32657 ff. 194-195 (DECODE R4844)",
+   "date": "10 Sep 1585",
+   "year": 1585,
+   "country": "England",
+   "route": "Walsingham (the Court) -> Wotton (Scotland)",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["interlinear"], "source": "Interlinear decipherment over each sign word, blotted out on purpose and illegible; not calendared in CSP Scotland viii.", "partial": true},
+   "length": {"tokens": "unknown", "unit": "mixed", "measured": false, "file": "reading_R4844.txt"},
+   "transcription": {"by": "llm from images", "source": "DECODE images", "image_quality": "good", "notes": "About fourteen sign words (roughly 120 signs) copied approximately; clear text transcribed with gaps."}
+  }
+ ],
+ "system": {
+  "types": ["nomenclator", "homophonic"],
+  "summary": "Plain-English letters with a two-digit name code for persons and countries, plus, in one letter, a few words in a sign alphabet with apparent homophones and dot/dash nulls.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["names", "places"], "unread_groups": 6},
+  "nulls": {"present": "unknown", "count": "unknown"},
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "none found",
+  "notes": "Name numbers identified from CSP Scotland viii glosses and Wotton's own reply drafts (R4841-R4843); 13, 14, 23, 30, 32, 37 open."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "partial", "where": "CSP Scotland viii (1914) nos. 40, 65 calendar two of the four letters from Walsingham's drafts; the calendar glosses 19, 24, 39, 40 and names 20 as Morton", "found": "during attempt", "used": true},
+  "inputs": ["images", "published reading", "cleartext context"],
+  "attack": "archive decipherment",
+  "human_role": "Set the goal; the DECODE cookie saved earlier fetched the images",
+  "tools": ["DECODE API", "HathiTrust text view", "PIL crops"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "access", "what": "Fetched DECODE metadata and 18 images of R4838-R4840, R4844 with the saved cookie; also Wotton's drafts R4841-R4843.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "transcription", "what": "Viewed every page: clear English letters with name numbers; only R4844 has sign-alphabet words.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "CSP Scotland viii via HathiTrust text view: 28 Jul = no. 40, 7 Aug = no. 65; 21 Aug and 10 Sep not calendared; BHO paywalled.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "key from source", "what": "Name code built from the calendar's bracketed glosses (19, 24, 39, 40), no. 106 (20 = Morton) and sense in Wotton's drafts (10, 11, 36).", "result": "partial"},
+  {"date": "2026-09-21", "kind": "reading", "what": "Working transcriptions of R4840 and R4844 with numbers glossed.", "result": "partial"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "Looked for Wotton's sign-alphabet key on DECODE and in Tomokiyo's Elizabethan cipher pages; none found.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "crib", "what": "Looked for cribs to the R4844 sign words; the interlinear decipherment is blotted out and Wotton's drafts carry no sign text. About 120 signs judged too few to break ciphertext-only.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": ["historical consistency"],
+  "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread."
+ }
+}

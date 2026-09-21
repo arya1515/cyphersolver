@@ -587,6 +587,11 @@ PAGES = [
          blurb='TNA SP 106/10 ff. 241&ndash;243, catalogued in DECODE as an undeciphered letter in the masonic alphabet. The textbook dotted-pigpen key pencilled on its flap reads nothing. The cipher is homophonic: cell shape plus dot count, several signs for common letters. A hand transcription of the last page let a quadgram solver find French, and the last page now reads almost in full: a client condoling to a patron over a gentleman&rsquo;s marriage and begging the continuance of his goodwill. The first page is read in fragments; writer and recipient are unnamed.',
          quote='&ldquo;et vous supplie tres humblement, monsieur, me continuer l&rsquo;honneur de vostre bienveuillance&rdquo;',
          rights='Manuscript rights: The National Archives, Kew'),
+    dict(slug='walsingham1585', label='Walsingham 1585', year='1585', y=1585.65, place='London &rarr; Scotland', st='partial', stt='read in part &mdash; 14 sign words open',
+         title='Walsingham to Edward Wotton in Scotland, July&ndash;September 1585',
+         blurb='Four letters of the Secretary to his ambassador during the Arran crisis, listed on DECODE as non-decrypted ciphers with graphic signs. They are signed letters in clear English with a two-digit name code; two are already calendared in CSP Scotland vol. 8, whose glosses fix 19 Arran, 39 the Master of Gray, 40 the Justice Clerk, 24 Farnihurst and 20 Morton. The other two are transcribed here. About fourteen words in a sign alphabet on 10 September stay unread: the decipherment written above them was blotted out.',
+         quote='&ldquo;The best is to deal warily with them all&rdquo;',
+         rights='Manuscript rights: British Library, Add MS 32657 (images via DECODE)'),
     dict(slug='wotton1585', label='Wotton 1585', year='1585', y=1585.7, place='Scotland &rarr; London', st='solved', stt='read &mdash; clear drafts, code names identified',
          title='Edward Wotton from Scotland to Walsingham, August&ndash;September 1585',
          blurb='Three despatches of the English ambassador in Scotland, listed on DECODE as non-decrypted numerical ciphers. The pages are Wotton&rsquo;s own drafts in clear English, with one- and two-digit code numbers for persons and places. Read in full, and the numbers identified from context: 19 Arran, 39 the Master of Gray, 10 King James certain, four more probable, four open. They carry the plot that toppled Arran in November 1585.',
@@ -1153,5 +1158,6 @@ if __name__ == '__main__':
     print('built', ', '.join(done))
 IMAGES['poupet1522'] = ('poupet1522_lead.jpg', 'Passage A in cipher and in the 1522 decipherment: <em>Combien que je vouldroie mectre mon ame en gaige</em>', 'Biblioteca Nacional de Espa&ntilde;a, via DECODE R1187')
 IMAGES['santacroce1552'] = ('santacroce1552_lead.jpg', 'ASV Francia 3 f. 248r (DECODE R9), Paris, 14 December 1553: three cipher lines struck through, the same postscript written in clear beneath', 'Archivio Apostolico Vaticano, via DECODE R9')
+IMAGES['walsingham1585'] = ('walsingham1585_lead.jpg', 'Add MS 32657 f. 194, 10 September 1585: &ldquo;The 13 will in no sort neither be [signs] nor otherwise make [signs] a party&rdquo;, the decipherment above blotted out', 'British Library, Add MS 32657 f. 194 (via DECODE R4844)')
 IMAGES['wotton1585'] = ('wotton1585_lead.jpg', 'Add MS 32657 f. 167: the draft of 25 August 1585, &ldquo;Sir, 39. came to me yesterday&rdquo;', 'British Library, Add MS 32657 f. 167 (via DECODE R4841)')
 IMAGES['throck1569'] = ('throck1569_lead.jpg', 'BL Add MS 33531 f. 79r, Throckmorton to Moray, 20 July 1569: cipher words among the clear text, the interlinear decipherment faded under a water stain', 'British Library, via DECODE R8348')

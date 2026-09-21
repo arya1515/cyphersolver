@@ -170,6 +170,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p67 | **Cesare Alberico Lucini (Madrid) → the Secretariat of State**, AAV Segr. Stato Spagna 304 (DECODE R120) | 13 Oct 1767 | 1 | 3 | 3 | 2 | 1 | 4 | **2.30** | D 1: Lasry's key was on the record. H 3: the nuncio's reading of Charles III's campaign against the clergy after the 1766 riots and the Jesuit expulsion. N 3: never decrypted, but the key existed. R 2: one sentence of 82 tokens. V 4: read in sense; one code open. |
 | p68 | **Edward Wotton (Scotland) → Walsingham**, BL Add MS 32657 (DECODE R4841–R4843) | 25 Aug – 1 Sep 1585 | 1 | 3 | 3 | 2 | 1 | 4 | **2.30** | D 1: clear drafts, nothing to break; only a name code identified from context. H 3: Gray's plan with England to seize the King and bring down Arran, three months before Stirling. N 3: listed non-decrypted; probably calendared in CSP Scotland 8, not checked. R 2: twelve pages, eleven code numbers. V 4: drafts read in full; four codes open. |
 | p69 | **Charles I (Oxford) → Prince Rupert**, BL Add MS 18983 f. 14 (DECODE R4921) | 29 Apr 1645 | 2 | 4 | 5 | 3 | 1 | 3 | **3.20** | D 2: a published key from a sibling cipher family, found by matching group shapes against a period tally. H 4: the King's own call on Rupert to march on Oxford, a week before the campaign that ended at Naseby. N 5: no reading anywhere before. V 3: about 15 code groups open. |
+| p70 | **Sir Francis Walsingham → Edward Wotton (Scotland)**, BL Add MS 32657 (DECODE R4838–R4840, R4844) | 28 Jul – 10 Sep 1585 | 1 | 3 | 2 | 2 | 1 | 2 | **1.95** | D 1: clear letters; the name code came from the printed calendar's glosses, and the one real cipher (14 sign words) was not broken. H 3: Walsingham's handling of Gray and Arran before the lords' return. N 2: two of four already calendared. |
 
 ## By single axis
 
@@ -438,3 +439,4 @@ Lucini 1767 provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×2 + 0.10×1 +
 Wotton 1585 provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×2 + 0.10×1 + 0.10×4 = **2.30** (p68): catalogued ciphers that turned out to be clear drafts; the work was naming the code numbers.
 
 Charles I → Rupert 1645 provisional score: 0.25×2 + 0.25×4 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **3.20** (p69): Lasry's King–Queen key applied unchanged to a letter catalogued as unread.
+Walsingham to Wotton 1585 provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×2 + 0.10×1 + 0.10×2 = **1.95** (p70): clear letters with a name code; the sign words stayed unread.
