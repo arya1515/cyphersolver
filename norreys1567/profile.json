@@ -1,0 +1,95 @@
+{
+ "schema_version": 1,
+ "target": "norreys1567",
+ "title": "Sir Henry Norreys (Paris) to Cecil, 1567-68: ciphered words copied by Patrick Forbes, BL Add MS 4136 ff. 160-161 (DECODE R9251, part of R9250)",
+ "documents": [
+  {
+   "id": "9mar1568",
+   "shelfmark": "BL Add MS 4136 f. 161 (DECODE R9251 p.1); Forbes's copy of the ciphered words",
+   "date": "9 Mar 1567/8",
+   "year": 1568,
+   "country": "England",
+   "route": "Paris -> London",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["none"],
+    "source": "Calendar summary only (CSP Foreign viii no. 2054); the original in TNA SP 70 not seen."
+   },
+   "length": {"tokens": 7, "unit": "mixed", "measured": false},
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Three numbered items: two name signs and one five-sign word; counted by eye from transcription.txt."
+   }
+  },
+  {
+   "id": "siblings1567-68",
+   "shelfmark": "BL Add MS 4136 ff. 160-161 (DECODE R9250 p.2, R9251 p.1)",
+   "date": "4 June 1567 - 24 Feb 1567/8",
+   "year": 1567,
+   "country": "England",
+   "route": "Paris/Poissy -> London",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["none"],
+    "source": "Calendar summaries CSP Foreign viii nos. 1265, 1405, 1427, 1987, 1998, 2025."
+   },
+   "length": {"tokens": "unknown", "unit": "mixed", "measured": false},
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE page images of Forbes's 1730s copy",
+    "image_quality": "good",
+    "notes": "Six sibling letters under the same system; ad hoc token names, some sign identities uncertain."
+   }
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "nomenclator"],
+  "summary": "Homophonic letter substitution with single signs for names, only sensitive words enciphered.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": true},
+  "homophones": {"used": true},
+  "nomenclator": {"present": true},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "No Norreys key on DECODE; the Throckmorton, Smith, Croft and Percy keys in the same volume do not match."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "The originals in TNA SP 70 were probably deciphered interlinear at the time; not seen. CSP calendars only the gist.",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": ["images", "crib"],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": ["crib-assignment search (work/csolve.py)"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Fetched R9251, R9250 and key records R9257, R9260-R9262 images from DECODE.", "result": "worked"},
+  {"kind": "sibling key", "what": "Compared the Throckmorton first, second and third alphabets and the Smith key with Norreys's signs.", "result": "failed"},
+  {"kind": "transcription", "what": "Tokenised all seven Norreys extracts (transcription.txt); the date is 9 Mar 1567/8 = 1568.", "result": "worked"},
+  {"kind": "literature search", "what": "Located the seven letters in CSP Foreign viii (BHO) as cribs.", "result": "worked"},
+  {"kind": "crib", "what": "Name signs Xr, Ec, fk recur in 9 Feb and 24 Feb in the calendar's order Protestants / Prince / Admiral; Lesley and Scotland fit 6 Feb groups 1 and 4.", "result": "partial"},
+  {"kind": "crib", "what": "Aligned 'the Protestants' and 'and England' in the 4 June passage; conflicts with the 6 Feb alignment (s: = e vs a).", "result": "partial"},
+  {"kind": "solver", "what": "Backtracking assignment of groups to calendar vocabulary under a consistent sign map.", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": ["unknown"],
+  "notes": "Three ciphered items only; needs the interlined originals in TNA SP 70 or a fuller homophonic solve of the 1567 passages."
+ }
+}

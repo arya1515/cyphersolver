@@ -1,0 +1,67 @@
+# Norreys -> Cecil, ciphered words as copied by Patrick Forbes, BL Add MS 4136 ff.160-161
+# (DECODE R9250 p.2 = f.160; R9251 p.1 = f.161). Space-separated sign tokens; # = single name sign.
+# Token names are ad hoc: xi=ξ, oo=∞-like double circle, P=♇ (hooked e/p shape), J=♃ (4-like with hook),
+# Gam=Γ, cup=⊔, sqc=⊏, arc=⌒, dash-a=⊣, flat=♭, 3b=3 with bar over, 3u=3 underlined, s2=s with diaeresis,
+# 7d=7 with diaeresis, ':' suffix = colon written after sign, cap=∩, perp=⊥, bow=⋈, sig=σ, hash=#
+# Dates in heading are Old Style (year from 25 March).
+[N670604 4 June 1567, CSP F viii 1265]
+1: xi oo n s2 s: cup 2 3u bow :t xi
+2: #ff
+3: xi oo P xi sqc 3b 3u 4 flat m
+4: xi v flat P m sqc hash T sig oo phi Gam X sig perp varpi cup 7d 7: n H pi sqc sh cup 2 perp sig P m hash v T E 4 perp m phi xi flat sh dash-a Zb arc J flat
+5: #c1 #b1 #P #b5
+6: #c2 3 + 7: P flat Gam lam s2 cap sqc phi m s sqc E L bow s: lam P 7d cup 2 s: cap 2 lam 7 o :t #Zx #b8 dash-a E Gam flat m pi oo T 3r dash-a
+7: xi Gam 7: m cap perp J s: flat pi sqc
+[N670706 6 July 1567, CSP 1405]
+1: rc dash-a 3b s2 sqc J 3 5: cup 7 o T 2 Gam sqc
+[N670710 10 July 1567, CSP 1427]
+2: s2 v sqc oo P J Gam cup lam varpi xi v 7d 2 J cup flat P v T s cap sqc hash xi flat m 3b s perp flat flat L X g pi 2 cup
+[N680206 6 Feb 1567/8, CSP 1987]
+1: xi dash flat 3b oo 9
+2: Zb sqc + J oo
+3: J P s: v n 3u
+4: 4 T 4: 9 3b s: sqc 3u
+5: #D
+6: #de
+7: 2 sqc perp 7: rc 3b
+8: #cross
+9: #D2 cap T 7: sqc de c
+10: #ae:h
+11: #8
+12: :t J sqc pi cup m s:
+13: #D
+14: #tt
+15: #£
+16: 3u 5: dash-a 9 flat L
+17: £ £: :£
+18: #de
+19: #phi
+20: sig flat 3 sig 9
+21: #box13
+22: #8
+23: 3 9 de sqc
+[N680209 9 Feb 1567/8, CSP 1998]
+1: Gam cup arc dash-a 7d m L
+2: #phi
+3: J sqc dash-a 3b lam m
+4: 4 dash perp hash
+5: #de
+6: #Xr
+7: 2 7d flat m
+8: #Ec
+9: #fk
+10: dash-a 4: 5: inf 5: 9 v
+11: P rc flat s s2 9 L
+[N680224 24 Feb 1567/8, CSP 2025]
+1: :f f: J sqc 2
+2: #Xr
+3: #Ec
+4: #fk
+5: #fa
+6: m-bar
+7: 4 + T 9 g T
+8: J sqc v T 9 sh
+[N680309 9 Mar 1567/8, CSP 2054]  <- DECODE R9251 target
+1: #vo
+2: + rc o l inf
+3: #d-loop
