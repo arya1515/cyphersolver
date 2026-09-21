@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "target": "papai1706",
- "title": "János Pápai (Constantinople) to Ferenc Rákóczi II, 1706-1710 (DECODE R731, R740, R741, R757, R765, R805, R823)",
+ "title": "János Pápai (Constantinople) to Ferenc Rákóczi II, 1706-1710 (DECODE R731, R740, R741, R757, R765, R784, R805, R823)",
  "documents": [
   {
    "id": "R805",
@@ -197,6 +197,34 @@
     "image_quality": "fair",
     "notes": "Six short graphic-sign passages, roughly 350 signs by eye; not transcribed."
    }
+  },
+  {
+   "id": "R784",
+   "shelfmark": "MNL OL G15 Caps. D Fasc. 80, pp. 110-111 (DECODE R784)",
+   "date": "1707 (undated; DECODE year range)",
+   "year": 1707,
+   "country": "Hungary",
+   "route": "Constantinople (unsigned, envoy's key) -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No prior plaintext on DECODE; read here with the envoy's key DECODE R580/R581."
+   },
+   "length": {
+    "tokens": 594,
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R784_D2353_2353.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R784_D2353_2353.txt",
+    "image_quality": "good",
+    "notes": "Group count from decode.py's parse; five groups split by the DECODE transcriber, rejoined from the image. Unsigned; clear cover note in another hand on p. 2."
+   }
   }
  ],
  "system": {
@@ -298,19 +326,37 @@
    "kind": "literature search",
    "what": "Web search for a printed decipherment: Benda 1963 edition of Papai's Turkish diaries exists, contents not checked.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Catalogue target 'Unknown sender to Rakoczi II, 1707' (DECODE R784): fetched record, transcription and both images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Scored every NAH key record on DECODE (97 transcriptions) against R784; the Constantinople key R581 (Papai's) gave running Hungarian.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read R784 with decode.py unchanged: 587/594 groups in key; French ambassador's report on the Porte and war.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "read in part",
   "fraction_read": 0.97,
   "grades": {
-   "H": 11053,
-   "I": 171
+   "H": 11640,
+   "I": 178
   },
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Six of seven letters read with the archive key (11,053 of 11,224 groups); R731's graphic-sign passages not read. fraction_read is lowered from 0.985 to allow for R731's untranscribed signs."
+  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read is lowered from 0.985 to allow for R731's untranscribed signs."
  }
 }

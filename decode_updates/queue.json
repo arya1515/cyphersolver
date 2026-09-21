@@ -1488,6 +1488,17 @@
       }
      ],
      "sent": false
+    },
+    "R784": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the archive key (Pápai's, R580/R581); 587/594 groups in key. Unsigned report from Rákóczi's envoy at Constantinople; plaintext Hungarian.",
+     "reading": [
+      {
+       "file": "papai1706/DOC_R784_read.txt"
+      }
+     ],
+     "sent": false
     }
    }
   },

@@ -1,6 +1,6 @@
-# János Pápai (Constantinople) to Ferenc Rákóczi II, 1706–1710 — DECODE R731, R740, R741, R757, R765, R805, R823
+# János Pápai (Constantinople) to Ferenc Rákóczi II, 1706–1710 — DECODE R731, R740, R741, R757, R765, R784, R805, R823
 
-Status: read in part — six of the seven letters read with the envoy's own key; R731 (graphic signs) not read.
+Status: read in part — seven of the eight letters read with the envoy's own key; R731 (graphic signs) not read.
 
 Catalogue entry 46 (class B, scored by rule). Worked 21 Sept 2026. Archive images are not in the public domain
 (DECODE: publishing only with the archive's permission); they are kept git-ignored in `img/`, and only derived text is
@@ -13,6 +13,7 @@ committed.
 | R805 | Caps. C Fasc. 33, pp. 34–37 | 1 May 1706, Constantinople (signed Pápai János, Horváth Ferenc) | numeric, R580 key | 336 | 336 (100%) |
 | R823 | Caps. C Fasc. 33, pp. 140–143 | 19 Dec 1706, Constantinople (Pápai, Horváth) | numeric, R580 key | 1,632 | 1,609 (98.6%) |
 | R765 | Caps. E Fasc. 80, pp. 2–11 | 5 Jan 1707 (DECODE origin "Balar") | numeric, R580 key | 4,864 | 4,787 (98.4%) |
+| R784 | Caps. D Fasc. 80, pp. 110–111 | undated (DECODE 1707), unsigned; cover note in another hand | numeric, R580 key | 594 | 587 (98.8%) |
 | R757 | Caps. E Fasc. 109, pp. 85–90 | 16 May 1708 (DECODE origin "Balar") | numeric, R580 key | 2,758 | 2,695 (97.7%) |
 | R740 | Caps. H Fasc. 226, pp. 85–88 | 2 Jan 1710, Constantinople | numeric, R580 key (one passage, p. 2–3) | 168 | 168 (100%) |
 | R741 | Caps. H Fasc. 226, pp. 89–96 | 8 May 1710, Constantinople | numeric, R580 key | 1,466 | 1,458 (99.5%) |
@@ -21,7 +22,7 @@ committed.
 Group counts are what `decode.py` parses from the DECODE transcriptions (R740: transcribed here from the images,
 `R740_transcription.txt`). "In key" groups are those with a value in the key; the rest are digit slips in the
 transcription, clear numerals (R823 opens with 400–1000 figures that are sums, not cipher) or joined groups.
-Total: 11,053 of 11,224 groups (98.5%).
+Total: 11,640 of 11,818 groups (98.5%).
 
 ## The key: DECODE R580 / R581
 
@@ -51,6 +52,17 @@ transcription, which is the cleanest).
   Daniae, Sveciae, et tamen legibus subsunt*, and the envoys' reply that Hungary cannot give up its old laws.
 - **R765, 5 Jan 1707.** Submission to the Prince's will, the Polish situation, and approaches to the French
   ambassador (*a Francia Ország oratorához elmentünk*) on the Prince's orders.
+- **R784, 1707 (added 21 Sept 2026, catalogue entry "Unknown sender to Ferenc Rákóczi II").** Unsigned, undated
+  report from Constantinople in the envoy's key: *A Francia Ország orátora jelentette … hogy semmi ratiókkal nem …
+  a Fényes Portát az hadakozásra*: the French ambassador reported that no arguments could bring the Porte to war;
+  the grandees who fought the last war have sworn to see it through (*egyátallyában effectuállyák hogy a Török
+  Császárnak hadakozásra kell resolválni magát*); the whole Turkish nation is inclined to it; France means to turn
+  Turkey wholly against the Germans (*ezt a Török Országot egészen a német ellen fordítsa*), from which Hungary would
+  get harm, not profit; the ambassador has written the same to the Tatar Khan; if Muscovy and Poland do not second
+  it, the Germans will overrun Hungary. It ends with the writer's wish to report quickly to *Nagyságod* (the Prince).
+  The DECODE transcription splits five groups (`0 79`, `221 33`, `203 273`, `92 1`, `1 00`); read as the image
+  shows them, all but one decode. On p. 2 a note in another hand, upside down, asks the Prince to keep it secret and
+  decipher it himself: *Mivel ez titok, méltóztassék … titokban tartani s maga decifrálni …*. Grade H.
 - **R757, 16 May 1708.** The Muscovite ambassador's message; the envoy cannot send money from Constantinople;
   Hentér.
 - **R740, 2 Jan 1710.** The Kiaya's answer, in cipher: *legyen patientia, [ne] siessen, várakozzék … Bécs … a

@@ -379,41 +379,6 @@
    "scored": "rule"
   },
   {
-   "id": 50,
-   "counted": true,
-   "year": 1707,
-   "date": "1 Jan 1707",
-   "title": "Unknown sender to Ferenc Rákóczi II",
-   "correspondents": "Unknown sender → Ferenc Rákóczi II",
-   "place": "Budapest",
-   "language": "Hungarian",
-   "region": "Hungary",
-   "period": "1701-1800",
-   "shelfmark": "MNL OL, G15 Caps. D. Fasc. 80. 110-111",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R784: Non-decrypted, 2 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered letter of Unknown sender to Ferenc Rákóczi II, 1 Jan 1707; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R784",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/784"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    784
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 51,
    "counted": true,
    "year": 1706,
