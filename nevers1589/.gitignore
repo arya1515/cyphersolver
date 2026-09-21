@@ -1,0 +1,6 @@
+# Gallica page images and working crops (refetch with fetch.py)
+img/
+*.png
+manifest.json
+# downloaded notice; keep the parsed piece list
+src/*.html

@@ -279,15 +279,17 @@
    "ark": "btv1b9060546p",
    "folio_note": "715 canvases",
    "cls": "B",
-   "seen": "catalogue",
+   "seen": "image",
    "source": "BnF harvest",
-   "status": "Only the 'Recueil sommaire' of the interpreted letters is described; whether the intercepts survive in the volume is unknown.",
+   "status": "Closed from the evidence 20 Sept 2026 (nevers1589/). The entry asked whether the intercepts survive beside the summary. They do not. fr. 3977 = ark btv1b9060546p, 715 canvases; the BnF depouillement (Memoires de la Ligue notice cc504266, fragment cd0e4184) gives 138 pieces, nos. 2-143, folios 3-423. No. 96 = folio 318 = canvas 520, and it is IN CLEAR FRENCH: a digest in fifteen numbered points, fol. 318r-319r, headed “Recueil sommaire des principaux poincts contenuz en plusieurs lettres escriptes en chiffre par les ennemis du Roy, en Septembre et Octobre 1589, et envoyees a S.A. pour estre interpretees en decembre aud. an”. Contents: Mercœur asking Spain for help, powder and money carried to Nantes by Diego Maldonado “avec le chiffre general d'Espagne” (arrived 18 Oct 1589); Mendoza and the Prevost des marchands; Mauleon and “la lettre escripte du chiffre qu'ilz ont ensemble”; the master of the posts of Bordeaux and Matignon; Villeroy's complaint; Mendoza at Bayonne on Arques and Dieppe, and Mme de Montpensier's “sornettes”; the commandeur de Diou at Rome; Spain pressing the Pope to renew the excommunication; Spain resolving to maintain the war, Parma to send forces. EVERY piece in the volume dated September or October 1589 (nos. 81, 84, 85, 89-97) is in clear: there is no ciphertext to attack under no. 96. What the sweep did find: ELEVEN other intercepted ciphered letters in the same volume, Feb-Aug 1589, each with its contemporary decipherment written word by word above the cipher - nos. 29 (f.79), 31 (f.83), 38 (f.115), 39 (f.117), 43-45 (ff.126, 128, 130: three letters Mendoza to the duke of Parma, hidden in a multi-folio entry a naive regex drops), 47 (f.135), 48 (f.137), 49 (f.139), 71 (f.191). f.126 = canvas 229 photographed. Eleven complete cipher-and-plaintext pairs for Spanish ciphers of 1589; none transcribed, no key rebuilt - an unexploited seam.",
    "why": "Royalist codebreaking of League traffic in the autumn of 1589.",
    "importance": 3,
    "solvability": 2,
    "difficulty": 3,
-   "score_note": "Unknown whether there is any ciphertext to attack.",
-   "verify": "Sweep fr. 3977 around no. 96 for cipher leaves."
+   "score_note": "Scored “unknown whether there is any ciphertext to attack”. Answered: there is none under no. 96. The eleven deciphered intercepts elsewhere in the volume are the material worth scoring instead.",
+   "verify": "Sweep fr. 3977 around no. 96 for cipher leaves.",
+   "outcome": "closed: no ciphertext",
+   "writeup": "nevers1589.html"
   },
   {
    "id": 35,

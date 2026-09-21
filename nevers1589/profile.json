@@ -1,0 +1,104 @@
+{
+ "schema_version": 1,
+ "target": "nevers1589",
+ "title": "Intercepted enemy cipher letters summarised for Nevers, Sept-Oct 1589 (BnF fr. 3977 no. 96)",
+ "documents": [
+  {
+   "id": "no96",
+   "shelfmark": "BnF Français 3977 no. 96, fol. 318r-319r (canvas 520), ark btv1b9060546p",
+   "date": "Sept-Oct 1589 (interpreted Dec 1589)",
+   "year": 1589,
+   "country": "unknown",
+   "route": "intercepted League and Spanish traffic -> the duc de Nevers",
+   "language": "French",
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "The piece is itself a clear digest of the interpreted letters; the ciphered originals are not in the volume."
+   },
+   "length": {
+    "tokens": 0,
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF, fr. 3977 canvas 520; points 1-9 transcribed in NOTES.md",
+    "image_quality": "good",
+    "notes": "No ciphertext: every Sept-Oct 1589 piece in the volume (nos. 81, 84, 85, 89-97) is in clear."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "not a cipher"
+  ],
+  "summary": "A clear French digest of intercepted cipher letters; the ciphertext it summarises does not survive in the volume.",
+  "symbol_kind": "letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": false
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "not applicable",
+  "notes": "The same volume holds eleven other intercepted ciphered letters (Feb-Aug 1589, nos. 29, 31, 38, 39, 43-45, 47, 48, 49, 71) with contemporary interlinear decipherments; located, not transcribed."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "BnF fr. 3977 no. 96 is the contemporary interpretation itself",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "none",
+  "human_role": "External contributor (PR #9, Arya Sanketbhai Patel); the profile was written at merge time from nevers1589/NOTES.md.",
+  "tools": [
+   "nevers1589/fetch.py"
+  ],
+  "models": [
+   "unknown"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Parsed the BnF depouillement of fr. 3977 (138 pieces) and located no. 96 at fol. 318 = canvas 520.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Read no. 96: a clear French digest in fifteen points; points 1-9 transcribed.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "hypothesis",
+   "what": "Swept every Sept-Oct 1589 piece in the volume for the ciphered originals.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "verification": [
+   "none"
+  ]
+ }
+}

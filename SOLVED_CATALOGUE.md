@@ -93,6 +93,7 @@ but are not "solved" in the sense of the title.
 |---|---|---|---|---|
 | Roosevelt cryptogram, number block (Schmeh no. 17) | 1935 | 16 Sept 2026 | A permutation of 1–52 padded with zeros; statistics of a hand-written list; ordered-key readings fail while matched controls succeed. Ernst's 2017 doodle claim confirmed | Turning a plausibility argument into a testable one: build the cipher readings that would fit, show they read controls, show they fail here |
 | Chinese gold bar cryptograms | 1933 | 15 Sept 2026 | Almost exactly ten of every letter; flatter than any cipher of a real text | Statistical observation plus knowing what real-text ciphers look like |
+| Intercepted League and Spanish letters summarised for the duc de Nevers, BnF fr. 3977 no. 96 (catalogue 31) | Sept–Oct 1589 | 20 Sept 2026 | The summary is a clear French digest; the ciphered originals are not in the volume. Eleven other intercepts of Feb–Aug 1589 with interlinear decipherments located there | Archive sweep: parsing the BnF dépouillement and reading the leaves |
 | Hyde's ciphered superscriptions | 1659–60 | 15 Sept 2026 | Dummy numbers "only to puzzle the Enemy", per the 1724 editor and the 1721 Hyde–Barwick key | Bibliography: the answer was in print for 300 years |
 | D'Agapeyeff challenge | 1939 | 15 Sept 2026 | Not enciphered English | Language test only |
 | Beale Paper no. 1 | 1885 | 14 Sept 2026 | Fabrication argued; book-cipher scan over Gutenberg negative | Argument, not proof |
