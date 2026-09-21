@@ -2054,6 +2054,66 @@
      "sent": false
     }
    }
+  },
+  "cobham1588": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/cobham1588.html",
+   "key": {
+    "file": "cobham1588/signs.tsv",
+    "lang": "English",
+    "how": "sign inventory rebuilt from the interlinear decipherments of R8488, R8489, R8493 (same volume)"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R8490": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
+     "reading": [
+      {
+       "file": "cobham1588/READING.md",
+       "section": "f. 80r"
+      }
+     ],
+     "sent": false
+    },
+    "R8492": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
+     "reading": [
+      {
+       "file": "cobham1588/READING.md",
+       "section": "f. 88r"
+      }
+     ],
+     "sent": false
+    },
+    "R8495": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
+     "reading": [
+      {
+       "file": "cobham1588/READING.md",
+       "section": "f. 92r"
+      }
+     ],
+     "sent": false
+    },
+    "R8496": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
+     "reading": [
+      {
+       "file": "cobham1588/READING.md",
+       "section": "f. 96v"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

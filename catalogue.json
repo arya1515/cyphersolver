@@ -3087,58 +3087,6 @@
    "scored": "rule"
   },
   {
-   "id": 131,
-   "counted": true,
-   "year": 1588,
-   "date": "1588 – 9 Jun 1588",
-   "title": "Cobham (Belgia) to Walsingham, 4 ciphertexts",
-   "correspondents": "Cobham → Walsingham",
-   "place": "Belgia",
-   "language": "English",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Harley MS 287 (4 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "Attempted 21 Sept 2026 (cobham1588/): the key record R8497 is Bodley's 1590 cipher, not this one. About 20 letters of the alphabet were rebuilt from the interlinear decipherments of Cobham's Mar–Apr 1588 letters in the same volume (R8488, R8493). Fragments read only; needs a sign-level transcription.",
-   "why": "Ciphered despatches of Cobham to Walsingham, 1588 – 9 Jun 1588; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8490",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8490"
-    },
-    {
-     "label": "DECODE R8492",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8492"
-    },
-    {
-     "label": "DECODE R8495",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8495"
-    },
-    {
-     "label": "DECODE R8496",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8496"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8490,
-    8492,
-    8495,
-    8496
-   ],
-   "scored": "rule",
-   "outcome": "attempted, open",
-   "writeup": "cobham1588.html"
-  },
-  {
    "id": 133,
    "counted": true,
    "year": 1587,
