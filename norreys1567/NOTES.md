@@ -1,6 +1,6 @@
 # Sir Henry Norreys to Cecil, 1567-68 — BL Add MS 4136 ff. 160-161 (DECODE R9251, part of R9250)
 
-Status: read in part (21 Sept 2026). Catalogue 90.
+Status: read in part (21 Sept 2026): siblings read with Tomokiyo's table (shuffle control), target 9 Mar 1568 group 2 "Pope"? (I), two name signs unread. Catalogue 90.
 
 ## What the record is
 
@@ -9,6 +9,8 @@ file (Add MS 4136; see [smith1562](../smith1562/NOTES.md)). Only the top of p.1 
 is Throckmorton 27 Aug 1562, Middlemore 8 Apr 1563 and Smith 7 Mar 1562/3, all in other ciphers.
 
 - The date is Old Style: "9 Mar. 1567/8" = **9 March 1568** (DECODE's "1567" is the OS year).
+- DECODE metadata to correct (queued in decode_updates): the date, and the record's contents (it also holds
+  Forbes's copies of Throckmorton 27 Aug 1562, Middlemore 8 Apr 1563 and Smith 7 Mar 1562/3).
 - The Norreys series starts on f.160 (DECODE R9250 p.2): 4 June 1567, 6 July 1567, 10 July 1567,
   6 Feb 1567/8 (groups 1-11 on f.160, 12-23 on f.161), then 9 Feb, 24 Feb and 9 Mar 1567/8 on f.161.
 - Forbes copied only the ciphered words, numbered. The target letter has three items: (1) a name sign,
@@ -44,17 +46,18 @@ Ec = the Prince of Condé, fk = the Admiral (9 Feb 6, 8, 9 and 24 Feb 2, 3, 4, s
 | 24 Feb 1568 | 2-4 | Xr Ec fk | the Protestants, the Prince, the Admiral | 2025 same order |
 | 24 Feb 1568 | 6 | m̄ | money (C) | "that they may have money" |
 | 24 Feb 1568 | 8 | ♃ ⊏ ω T 9 ш | **remain** | "will not long remain with them" |
-| **9 Mar 1568** | 1 | ꝺ (rotated) | **the [French] King** (H) | 2054 "the King despatched …" |
-| **9 Mar 1568** | 2 | + ⊳ o ℒ ∞ | Catholic, abbreviated (M) | "… the King Catholic, and the Swiss" |
-| **9 Mar 1568** | 3 | ∂ (closed loop) | the Queen [of Scots]? (I) | "for the delivery of the Queen" |
+| **9 Mar 1568** | 1 | name sign | not read (first pass: ꝺ rotated = the French King; shape match too loose) | 2054 "the King despatched …" |
+| **9 Mar 1568** | 2 | crossed arrowhead, o, loop, ∞ (four signs) | **Pope?** (I) | "… to the Pope, the Emperor, the King Catholic, and the Swiss" |
+| **9 Mar 1568** | 3 | closed-loop name sign | not read ("the Queen [of Scots]" by position only) | "for the delivery of the Queen" |
 
-Grades as in README Conventions. In (2), only the final ∞ = l is in the table; + ⊳ o ℒ are not. The reading
-rests on the calendar sentence and the name sign before it. "Swiss", the other candidate in that sentence, has
-no l.
+Grades as in README Conventions. (2) was first read as five signs, "Catholic" abbreviated (M). Re-examined on
+the image it is four signs: the arrowhead is plausibly the table's 4+ = p turned, o fits, the loop is not in the
+table, ∞ = l or an e variant; hence "Pope"? at grade I. The name signs are nomenclator entries; the name list is
+missing.
 
 ## Open
 
-- 9 Mar (2) and (3), as graded above; 4 June 1567 groups 1, 3, 4, 6 and 7 and 10 July (2) are not read. The
+- 9 Mar (1) and (3) name signs unread, (2) "Pope" grade I; 4 June 1567 groups 1, 3, 4, 6 and 7 and 10 July (2) are not read. The
   4 June tail matches "… France, Flanders, and England" in length only.
 - 6 Feb groups 7, 9, 12, 16, 17, 20, 23; 9 Feb 10, 11; 24 Feb 1, 7.
 - The originals in TNA SP 70/96-97 probably carry interlinear decipherments; not seen (State Papers Online).
@@ -68,3 +71,40 @@ no l.
    vocabulary (work/csolve.py) was inconclusive.
 5. Tomokiyo's Cecil-Norris table (from *Cabala*) applied: ruin, demaund, reason, remain, Master Stewarde fall
    out and match the calendar. The target's three items were read against no. 2054.
+
+## Tomokiyo's Cecil–Norris table (1568) applied (session 21 Sept 2026)
+
+Source: Tomokiyo, cryptiana "elizabeth" page, "Cecil-Norris Ciphers (1567-1570)" (csp/CeciltoNorris1568c.jpg),
+rebuilt from the Cabala (1663) postscript of 27 Sept 1568. Cecil's cipher was in use from 3 Nov 1567 and changed
+Oct 1568, so it covers Norris's Feb–Mar 1568 letters, and it proves to cover the 1567 ones too.
+
+**Does it fit: yes.** Script `work/tomokiyo_apply.py` (output `work/tomokiyo_apply.out`). Table signs, any
+orientation: a T ⊥ ⊣ Γ; b ξ; c ‡(#); d L J; e Π ⊔ ⊏ ♃; f ϖ; h ∩ ʊ; i ∂(♭-flag) ♀; l oo; m ɷ ↄ; n m ш; o λ ƛ;
+p 4 4:; r 2 2ƒ; s 3 3̄ 3̲ 8; t 5: s: s̈ :t; u 7 7: 7̈; y 9. Name signs (#…) are a separate nomenclator, not in the table.
+
+Readings (? = sign not in table):
+- 6 July 1567 (1): **master Steuarde** ("Stewart's name in cipher", CSP 1405) — ↄ a s t e r s t e u [o] a r d e.
+- 10 July 1567 (2): **the lord of Murrei** … (CSP 1427 "the Earl of Murray") — ʊ here = m, so the transcription's
+  `v` merges two shapes (ʊ = h, ɷ = m); rest of the group garbled ("…oma?hecbins?aiid…").
+- 4 June 1567 (6): #… **Savoia … the in[t]e[n]d to ouerthrou(t)** #Protestants? #… **a[nd] Engla[n]d** (CSP 1265
+  "the Duke of Savoy intend to overthrow the Protestants of France, Flanders and England"). Groups 1, 3, 4 do not
+  read cleanly (1 "b letters ? t b" = "by letters…"?; 4 not read — token-level transcription of this line needs redoing).
+- 6 Feb 1568: (1) **Leisly/Lesly** (ξ read l here, b in the table), (2) **[the] Earl**, (3) **Rothes**, (4) **papystes**,
+  (7) **reaums** (realms), (9) #name **haue** …, (16) **stayid**; (12) tre?ent, (20) risry, (23) sy?e unread.
+  This corrects the earlier guess: (4) is "papistes", not "Scotland".
+- 9 Feb 1568: (3) **reason**, (7) **ruin**; (1) ae?aund, (10) apt?tym, (11) omi?tyd unclear.
+- 24 Feb 1568: (8) **remayn**; (7) paay?a, (1) ??rer unclear.
+
+Control: the same tokens with the table's letters shuffled among them (1000 seeds) score mean 0.1, max 2
+dictionary-word hits against the real key's 5-8 (list in the script); the real key yields whole cribbed words
+(Rothes, papystes, Steuarde, Murrei, Savoia, overthrow) that no shuffle produces.
+
+**Target, 9 Mar 1568 (CSP 2054):** (1) and (3) are nomenclator name signs, not in the table: not read.
+(2) looked at again on target.jpg it is four signs, not five: a crossed arrowhead (plausibly the table's "4+" = p
+turned 90°), a small o, a loop (ᘓ, unmatched), ∞ (= l, or an e variant). Tentatively "p o ? l/e" — **"Pope"?**
+(CSP 2054: "to the Pope, the Emperor, the King Catholic, and the Swiss"). Low confidence.
+
+Cabala (1663) itself not fetched this session; its pp.142-173 cipher passages would supply the missing signs
+(g, k, q, w, the loop) and possibly the name symbols.
+
+(Control figures as re-run in work/tomokiyo_apply.out: real 8 word hits, shuffled mean 0.22, max 3.)
