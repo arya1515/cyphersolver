@@ -90,7 +90,8 @@
  ],
  "system": {
   "types": [
-   "homophonic"
+   "homophonic",
+   "nomenclator"
   ],
   "summary": "Graphic-sign simple substitution with a few homophones (a, i/a, w/u, g), words divided, inserted as runs in clear English.",
   "symbol_kind": "symbols",
@@ -102,7 +103,7 @@
    "used": true
   },
   "nomenclator": {
-   "present": "unknown"
+   "present": true
   },
   "nulls": {
    "present": "unknown"
@@ -172,16 +173,28 @@
    "kind": "verification",
    "what": "The cobham1588 session found the same letter values in the contemporary glosses of f. 89 (R8493).",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Second pass on full-resolution half-line crops: remaining runs of f. 70r (canal Ghent-Eecloo-Sluys, garrison, victuals), names Pigot and Barney on f. 72r, the last lines of f. 71r; nomenclator signs 15 (Parma) and square (the States) identified from context.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "CSP Foreign vol. 21 pt 4 confirms Captain Barney a prisoner at Ostend and the request for 2 or 3 pinnaces, 22 March 1588.",
+   "result": "worked"
   }
  ],
  "outcome": {
-  "class": "read in part",
+  "class": "read",
   "fraction_read": "unknown",
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Most runs on ff. 70v, 71v, 72r read; about a third of f. 70r, two names on f. 72r and the last line of f. 71r open. f. 11 (R8477) is a different letter and code, not read."
+  "notes": "Every run of ff. 70r-72v read; code 42, .7. and one surname uncertain. f. 11 (R8477), a different code of about eight groups, not read."
  }
 }

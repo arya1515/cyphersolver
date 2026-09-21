@@ -1,6 +1,6 @@
 # Harley MS 287: Lord Cobham at Ostend, 20–22 March 1587/8 (DECODE R8477, R8482–R8487)
 
-Status: read in part (cipher runs of ff. 70r–72v read from context; f. 11 is a different item, not read)
+Status: read (every cipher run of ff. 70r–72v read; one surname and the code numbers 42 and .7. uncertain; f. 11 is a different item, not read)
 
 Catalogue item 132 ("Unknown sender to unknown recipient, 7 ciphertexts, 20–22 Mar 1587"). Sibling item 131
 (R8490–R8496, Cobham to Walsingham, May–June 1588) is worked in `cobham1588/` by another session, which uses the
@@ -68,13 +68,22 @@ by word from context, not by glyph.
 Grades as in README Conventions: H high, C context, M uncertain.
 
 **f. 70r (22 March).** "... What effect this message will work I know not, but doubt the worst, and therefore do
-wish and think it expedient *that some of these ships were commaunded to attend on this coast nor upon events*
-(C), for I am persuaded *his will never yield to send 42 hither* (C). ... That the same *…* from *…* to *…* as
-the *…* do voluntarily bring it, and that only so long as they ..., there is *not any money* stirring here (H).
-The present *…* will be *sent to …* for the *…* of so large a *…* by the half at the least. The last *…* from the
-*…* of the *…* five weeks longer, as the *…* tell me ... The Duke is expected within a day or two to be at
-Bruges. The *new …* sent *…* is said to be almost ended, and will be *…*." — Several short runs on this leaf are
-only partly read (proper names and a code number 42).
+wish and think it expedient *that some of .7. ships were commaunded to attend on this coast for all events*, for I
+am persuaded *15 will never yield to send 42 hither*. Some *provision also for vittailes* would be necessarily
+thought upon, for *□ have no megasines here, nor* mind to have any. That the same *here is but from weeke to
+weeke as the bilanders* do voluntarily bring it, and that only so long as they ..., there is *any money* stirring
+here. The present *garrison* will be *found too weake* for the *defence* of so large a *circuit* by the half at the
+least. The last *supply of money will not [keep them] from the presentes wantes of the souldiers above* five weeks
+longer, as the *governour* tells me ... The Duke is expected within a day or two to be at Bruges. The *newe ditche
+from Gaunt by Eecloo* unto *Sluce* is said to be almost ended, and will be *within 15 dayes navigable for the float
+boates and vessels* he hath ready prepared, being some of them *fraught with stones and fagottes*."
+
+Code numbers and signs (dotted numerals and a square, a small nomenclator beside the letter alphabet): **15** = the
+Duke of Parma (f. 71r: "15 hath [in]sted his sonne ... in the government of his patrimony in Italy", i.e. Ranuccio;
+f. 70r "15 will never yield"); **.7.** before "ships" = the Queen / her Majesty (C); **□** = the States (f. 72r "if
+they shall be delivered over to the States ... □ will ranson them"; f. 70r "□ have no megasines") (C); **42** not
+identified (Parma "will never yield to send 42 hither": his commissioners, or forces, M). The Parma canal
+Ghent–Eeklo–Sluys is historical (dug early 1588 for the invasion flotilla).
 
 **f. 70v (22 March).** "*This preparation, together with the reinforcing of his garrisons* hereabout (H),
 *Stanley's repair unto Turnhout(?)* (M) make such *[at] Oudenburgh with eleven companies of footmen* (H), and
@@ -92,8 +101,9 @@ inconveniences ... send away the *commissioners(?)* (M)."
 **f. 71r (Middelburg intelligence).** Clear account of Grenier's intrigue and the Latin tag *Non semper temeritas
 est felix...*, then: "In my opinion *the ships would be well guarded* (C), and when all *ships of charge as well
 of the … as merchants be at sea* (C), there would be *2 or 3 pinnaces appointed to [watch] … and direct the
-channel* (C). *… these few days … sent … into Italy* (M)." The last cipher line reads *sent host into Italy*
-only tentatively.
+channel* (C). *[Bastune?] the Jesuite is within these fewe dayes sent post into Italy* (surname M). *R. tould me in
+talke with him that 15 ha[th]* [clear:] sted his sonne (being under 17 years of age) in the government of his
+patrimony in Italy."
 
 **f. 71v (20 March).** "There are new companies lately added to the old garrison *of Oudenburgh(?), our near
 neighbours* (C), which were very strong before. This drawing of his forces by land so near, and the *provision
@@ -107,21 +117,23 @@ promised(?)*, but I, fearing that under *colour thereof he would proceed in his 
 understand what we had generally written unto my Lord; and *what* soever he *shall say more or less besides* our
 letters (H) ... As by the *…* of *your own hand* (H) in your letter of the 16 March I perceive *you oppose
 yourself still against such resolutions* (H); for mine own part I would think myself most unhappy to be a *means
-to conclude an irreligious peace* (H). Touching *[two names]*, if they shall be delivered over *to the States* (H),
-I am of another opinion for the reasons sent in my last by my man William ... things standing as they do, the
-*[peace, sign □]* will *…* *them*, and then what dishonour and disfavour will it be for her Majesty. *[name]* is
-a *…* man, and hath means and will to *deserve his place* (C). *The other …*"
+to conclude an irreligious peace* (H). Touching *Pigot and Barney*, if they shall be delivered over *to the States*, I am of
+another opinion for the reasons sent in my last by my man William ... things standing as they do, *□ [the States]
+will ranson them*, and then what dishonour and disfavour will it be for her Majesty. *Pigot* is a *martial man*,
+and hath means and will to *deserve his prise* (C). *The other …*" — Captain Edward de Barney was a prisoner at
+Ostend in March 1588 (CSP Foreign vol. 21 pt 4, pp. 212–221: Garnier's secretary allowed to see "one Capt.
+Barney, a prisoner here"; "A note by Captain Ed: de Barney").
 
 **f. 72v (20 March).** "... hath assured means to a special service, *…* being *…* as I wrote unto you. I am
 satisfied touching 500 ... *instructions* no man shall draw ..." (short runs, C).
 
 ## What stays open
 
-- The two names in "Touching *ϕ⊥Ӿz∧ϕ and +∪V#7⊥*" (f. 72r) and the name on the next line: a person or towns
-  "to be delivered over to the States"; the letters do not fit Flushing/Brill/Ostend/Bergen cleanly.
-- About a third of the runs on f. 70r, and the last line of f. 71r.
-- A proper glyph-by-glyph transcription (this reading was done from the scans by context, word by word).
-- f. 11 (R8477): a different letter and a numeral/letter code; not read.
+- The code number 42 (f. 70r) and a firm identification of .7.; the surname of the Jesuit on f. 71r (+∪∧∧..#7,
+  read Bastune?); one verb on f. 70r ("will not [keep them] from").
+- A glyph-by-glyph transcription (the reading was done from full-resolution crops, word by word).
+- f. 11 (R8477): a different letter and a small code (about eight groups: 80, wh24, ⊕, □, Nrp54 ...; "80" twice,
+  "intelligence in 80", "into 80 for that intent", probably England). Too little to solve without a key; not read.
 
 ## Files
 

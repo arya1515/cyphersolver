@@ -5,13 +5,15 @@ Deciphered words in *italics*; grades H/C/M as in README Conventions.
 ## R8482
 
 **f. 70r (22 March).** "... What effect this message will work I know not, but doubt the worst, and therefore do
-wish and think it expedient *that some of these ships were commaunded to attend on this coast nor upon events*
-(C), for I am persuaded *his will never yield to send 42 hither* (C). ... That the same *…* from *…* to *…* as
-the *…* do voluntarily bring it, and that only so long as they ..., there is *not any money* stirring here (H).
-The present *…* will be *sent to …* for the *…* of so large a *…* by the half at the least. The last *…* from the
-*…* of the *…* five weeks longer, as the *…* tell me ... The Duke is expected within a day or two to be at
-Bruges. The *new …* sent *…* is said to be almost ended, and will be *…*." — Several short runs on this leaf are
-only partly read (proper names and a code number 42).
+wish and think it expedient *that some of .7. ships were commaunded to attend on this coast for all events*, for I
+am persuaded *15 will never yield to send 42 hither*. Some *provision also for vittailes* would be necessarily
+thought upon, for *□ have no megasines here, nor* mind to have any. That the same *here is but from weeke to
+weeke as the bilanders* do voluntarily bring it, and that only so long as they ..., there is *any money* stirring
+here. The present *garrison* will be *found too weake* for the *defence* of so large a *circuit* by the half at the
+least. The last *supply of money will not [keep them] from the presentes wantes of the souldiers above* five weeks
+longer, as the *governour* tells me ... The Duke is expected within a day or two to be at Bruges. The *newe ditche
+from Gaunt by Eecloo* unto *Sluce* is said to be almost ended, and will be *within 15 dayes navigable for the float
+boates and vessels* he hath ready prepared, being some of them *fraught with stones and fagottes*."
 
 ## R8483
 
@@ -33,8 +35,9 @@ inconveniences ... send away the *commissioners(?)* (M)."
 **f. 71r (Middelburg intelligence).** Clear account of Grenier's intrigue and the Latin tag *Non semper temeritas
 est felix...*, then: "In my opinion *the ships would be well guarded* (C), and when all *ships of charge as well
 of the … as merchants be at sea* (C), there would be *2 or 3 pinnaces appointed to [watch] … and direct the
-channel* (C). *… these few days … sent … into Italy* (M)." The last cipher line reads *sent host into Italy*
-only tentatively.
+channel* (C). *[Bastune?] the Jesuite is within these fewe dayes sent post into Italy* (surname M). *R. tould me in
+talke with him that 15 ha[th]* [clear:] sted his sonne (being under 17 years of age) in the government of his
+patrimony in Italy."
 
 ## R8485
 
@@ -52,10 +55,12 @@ promised(?)*, but I, fearing that under *colour thereof he would proceed in his 
 understand what we had generally written unto my Lord; and *what* soever he *shall say more or less besides* our
 letters (H) ... As by the *…* of *your own hand* (H) in your letter of the 16 March I perceive *you oppose
 yourself still against such resolutions* (H); for mine own part I would think myself most unhappy to be a *means
-to conclude an irreligious peace* (H). Touching *[two names]*, if they shall be delivered over *to the States* (H),
-I am of another opinion for the reasons sent in my last by my man William ... things standing as they do, the
-*[peace, sign □]* will *…* *them*, and then what dishonour and disfavour will it be for her Majesty. *[name]* is
-a *…* man, and hath means and will to *deserve his place* (C). *The other …*"
+to conclude an irreligious peace* (H). Touching *Pigot and Barney*, if they shall be delivered over *to the States*, I am of
+another opinion for the reasons sent in my last by my man William ... things standing as they do, *□ [the States]
+will ranson them*, and then what dishonour and disfavour will it be for her Majesty. *Pigot* is a *martial man*,
+and hath means and will to *deserve his prise* (C). *The other …*" — Captain Edward de Barney was a prisoner at
+Ostend in March 1588 (CSP Foreign vol. 21 pt 4, pp. 212–221: Garnier's secretary allowed to see "one Capt.
+Barney, a prisoner here"; "A note by Captain Ed: de Barney").
 
 ## R8487
 

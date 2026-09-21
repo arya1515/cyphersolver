@@ -1739,8 +1739,8 @@
    "records": {
     "R8482": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Lord Cobham, Ostend, 22 Mar 1587/8, p.1; cipher runs read in part",
+     "proposed": "Decrypted",
+     "note": "Lord Cobham, Ostend, 22 Mar 1587/8, p.1; cipher runs read",
      "reading": [
       {
        "file": "harley287/READING.md",
@@ -1751,7 +1751,7 @@
     },
     "R8483": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
+     "proposed": "Decrypted",
      "note": "Lord Cobham, Ostend, 22 Mar 1587/8, p.2; cipher runs read",
      "reading": [
       {
@@ -1763,8 +1763,8 @@
     },
     "R8484": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Intelligence from Middelburg enclosed with Cobham letters, Mar 1588; cipher lines read in part",
+     "proposed": "Decrypted",
+     "note": "Intelligence from Middelburg enclosed with Cobham letters, Mar 1588; cipher lines read",
      "reading": [
       {
        "file": "harley287/READING.md",
@@ -1775,7 +1775,7 @@
     },
     "R8485": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
+     "proposed": "Decrypted",
      "note": "Lord Cobham, Ostend, 20 Mar 1587/8; cipher runs read",
      "reading": [
       {
@@ -1787,8 +1787,8 @@
     },
     "R8486": {
      "decode_status": "Partially decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Lord Cobham, Ostend, 20 Mar 1587/8; cipher runs read in part (two names open)",
+     "proposed": "Decrypted",
+     "note": "Lord Cobham, Ostend, 20 Mar 1587/8; cipher runs read (Pigot and Barney)",
      "reading": [
       {
        "file": "harley287/READING.md",
@@ -1799,8 +1799,8 @@
     },
     "R8487": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Lord Cobham to [Walsingham], Ostend, 20 Mar 1587/8, signed page; short runs read in part",
+     "proposed": "Decrypted",
+     "note": "Lord Cobham to [Walsingham], Ostend, 20 Mar 1587/8, signed page; short runs read",
      "reading": [
       {
        "file": "harley287/READING.md",
