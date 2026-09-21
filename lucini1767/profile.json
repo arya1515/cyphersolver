@@ -1,0 +1,139 @@
+{
+ "schema_version": 1,
+ "target": "lucini1767",
+ "title": "Nuncio Cesare Alberico Lucini (Madrid) to the Secretariat of State, 13 Oct 1767 (AAV Segr. Stato Spagna 304, DECODE R120)",
+ "documents": [
+  {
+   "id": "r120",
+   "shelfmark": "AAV Segreteria di Stato, Spagna 304, leaves ending f. 280 (DECODE R120, ASV_i1025_SdS_Spain_304-1)",
+   "date": "13 Oct 1767",
+   "year": 1767,
+   "country": "Papal States",
+   "route": "Madrid -> Rome",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No contemporary decipherment on the imaged pages; the letter continues on a leaf DECODE did not image."
+   },
+   "length": {
+    "tokens": 152,
+    "unit": "symbols",
+    "measured": true,
+    "file": "cipher.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE DOC_R120_D2343 (MEG, June 2020), checked against the page image; one slip corrected (line 1, 3 2 3 2 6 6 -> 3 2 7 2 6 6)",
+    "image_quality": "good",
+    "notes": "152 digits = 82 tokens after parsing (2-digit elements, 4-digit codes, single-digit null 5). The cipher is the last sentence of an otherwise clear 4-page letter."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Fixed-length 2-digit homophones for letters and syllables, digit 5 a null, 4-digit nomenclator codes beginning with 8 (Lasry reconstruction, DECODE 2020).",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2 or 4",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "common words",
+    "syllables",
+    "names"
+   ],
+   "unread_groups": 1
+  },
+  "nulls": {
+   "present": true,
+   "count": 1
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "notes": "No 2-digit element begins with 5, so parsing is deterministic. Lasry's 63 = di corrected to 63 = se; 03 = chi, 8061 = qual, 8099 = zion, 8700 = anno added."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Lasry's reconstructed key (from sibling R121) attached to the DECODE record, Oct 2020; R120's own cipher passage not decrypted anywhere found",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "images",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "curl (DECODE)",
+   "python parser (decrypt.py)"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "DECODE R120 and sibling R121 fetched with the session cookie: 4 page images, MEG's transcription, Lasry's key and his R121 decryption.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Lasry's reconstructed key (DOC_R120_D3314) applied to MEG's figures: 'tumulti ... monarchia ... sollevazioni che succedono in diversi'.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Cipher lines re-read from the full-resolution image; line 1 slip corrected (in-te-r-n-i).",
+   "result": "worked"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Unassigned or misfitting groups set from context and alphabetical order: 63 = se (also fixes two places in Lasry's R121 text), 03 = chi, 8061 = qual, 8099 = zion, 8700 = anno.",
+   "result": "worked"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "8107 (between 8099 and 8140 Camera; a name in A-Ca, perhaps America) left open.",
+   "result": "failed"
+  },
+  {
+   "kind": "literature search",
+   "what": "Web search for an edition of Lucini's 1767 despatches: none found.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read",
+  "fraction_read": 0.99,
+  "grades": "unknown",
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "81 of 82 cipher tokens given a value; 8107 open. The sentence continues on the next leaf, not imaged."
+ }
+}

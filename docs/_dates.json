@@ -96,6 +96,7 @@
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "nicolò sadoleto to ercole i d’este, pozsony, july–november 1482": "2026-09-19",
   "nuncio acciaiuoli from lisbon, 1758–60": "2026-09-19",
+  "nuncio lucini from madrid, 13 oct 1767": "2026-09-21",
   "ormanetto and clementino, spain nunciature, 1576–77 (asv segr. stato spagna 10)": "2026-09-21",
   "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
@@ -228,7 +229,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "139111468e81",
+   "hash": "4c7c36c8b6c6",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -393,7 +394,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "b404a4365e73",
+   "hash": "2222a2f1262b",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -430,6 +431,11 @@
    "first": "2026-09-16",
    "hash": "695bc0947f2a",
    "updated": "2026-09-16"
+  },
+  "lucini1767": {
+   "first": "2026-09-21",
+   "hash": "6e5b10007e24",
+   "updated": "2026-09-21"
   },
   "maisse1592": {
    "first": "2026-09-19",
@@ -768,7 +774,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "674e748db28e",
+   "hash": "a88630b9c033",
    "updated": "2026-09-21"
   },
   "yard1699": {

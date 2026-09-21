@@ -2355,6 +2355,31 @@
      "sent": false
     }
    }
+  },
+  "lucini1767": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/lucini1767.html",
+   "key": {
+    "decode": "George Lasry's reconstructed key attached to R120/R121 (DOC_R120_D3314), with 63 = se (not di), 03 = chi, 8061 = qual, 8099 = zion, 8700 = anno",
+    "lang": "IT"
+   },
+   "cite": null,
+   "fields": {
+    "start_date": "1767-10-13 (the four pages are one letter of 13 Oct 1767; 2 Jun 1767 is the start of the volume)",
+    "sender": "Cesare Alberico Lucini, nuncio in Madrid"
+   },
+   "records": {
+    "R120": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "The clear letter's ciphered last sentence read with Lasry's key (one transcription slip, 63 = se); code 8107 open; the sentence continues on an unimaged leaf.",
+     "reading": [
+      {
+       "file": "lucini1767/READING.md"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

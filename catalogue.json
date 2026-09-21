@@ -6217,41 +6217,6 @@
    "scored": "rule"
   },
   {
-   "id": 246,
-   "counted": true,
-   "year": 1767,
-   "date": "2 Jun 1767",
-   "title": "Abbot Vincenti and nuncio Lucini (Spain) to The Secretariat",
-   "correspondents": "Abbot Vincenti and nuncio Lucini → The Secretariat",
-   "place": "Spain",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1701-1800",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 304",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R120: Partially decrypted, 4 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Ciphers within cleartext. Comment from archive: Cifre dell'abate Vincenti e mons. Lucini, nunzio in Madrid, giugno-decembre 1767. Tomo II. Lett. Orig .e cifre della nunziatura alla Segreteria, dal 2 giugno 1767 al 29 dicembre 1767. ff. 1-492. mm. 285x20…",
-   "why": "Ciphered letter of Abbot Vincenti and nuncio Lucini to The Secretariat, 2 Jun 1767; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R120",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/120"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    120
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 247,
    "counted": true,
    "year": 1584,
