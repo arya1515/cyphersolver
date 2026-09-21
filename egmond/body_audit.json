@@ -1,0 +1,55 @@
+{
+  "source": "Gallica btv1b9060086g view 27; opening.png and body_end.png",
+  "audited_lines": [
+    1,
+    2,
+    3,
+    9,
+    13,
+    14,
+    16
+  ],
+  "not_yet_audited": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    15
+  ],
+  "insertion": "not yet transcribed",
+  "changes": [
+    {
+      "line": 1,
+      "detail": "Five/d distinguished from zigzag/n and h-like null. Reads aduerti and donnes rather than an?uerti and ?onnes."
+    },
+    {
+      "line": 2,
+      "detail": "Seven/b distinguished from nine/e; restored missing nine/e after eight/l; zigzag distinctions. Reads possible au bien de mes affaires and ai bien."
+    },
+    {
+      "line": 3,
+      "detail": "Short zigzag n in presente; loop/straight-descender i in prier and uoulloir. Opening uouellu retained as visible, unexplained spelling rather than normalized silently."
+    },
+    {
+      "line": 16,
+      "detail": "P F A P 8 O 8 Q R gives iuillet with F/O nulls."
+    },
+    {
+      "line": 9,
+      "detail": "Image agrees with draft after treating h-like K as null: uous communiquer le tout il uous plaira lui."
+    },
+    {
+      "line": 13,
+      "detail": "Plain plus/g distinguished from angular u in seigneur. Retained cescet (ce scet) without modernization."
+    },
+    {
+      "line": 14,
+      "detail": "Removed a duplicated stroke label in recommande; seven/b and plain plus/g distinguished in bonne grace."
+    }
+  ],
+  "grade": "I for inferred values; residual ambiguous transcription M; no H or C claim"
+}

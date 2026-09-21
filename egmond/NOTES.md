@@ -208,3 +208,32 @@ the full body and address. The goal remains in progress.
 The existing private DECODE cookie was used for catalogue access; it is not part
 of this checkpoint. Cached catalogue searches supplied no matching Egmond key
 or plaintext. Sources and images remain ignored.
+
+
+## Occurrence-level image audit: address and seven body lines
+
+`address_audited.json` now separates seven/b from corner/f, long m from short n,
+and compound signs from adjacent nulls. `decode_audited.py` gives exactly:
+
+    amonboncousin
+    monsieurlegrantmaistre
+    defrance
+
+Word division: A mon bon cousin / Monsieur le grant maistre / de France.
+The address is inferred from the manuscript and working key, not an independent
+known-plaintext control. No personal name is enciphered in this reading.
+
+The same replay script uses `body_revision3.txt` and `audited_key.json`.
+`body_audit.json` records which lines were inspected: 1, 2, 3, 9, 13, 14, 16.
+Other lines are explicitly marked DRAFT, even where they resemble French.
+Opening changes recover `aduerti que donnes faueur`, `possible au bien de mes
+affaires`, and `vous ai bien ... prier voulloir`. The raw forms `sueis` and
+`uouellu` remain; they have not been silently respelled. The closing now gives
+`ce scet nostre seigneur auquel apres / mestre recommande a vostre bonne grace
+prie`. Plain plus/g differs from angular four/u; the h-like sign is provisionally
+null. This resolves several errors independently of adding expected letters.
+
+The date crop still leaves the complex sign after `di` uncertain. An eighteenth-
+of-July interpretation remains a hypothesis, not a verified date. The place-name
+also needs its own glyph audit. Nine main lines and the supralinear insertion
+remain unaudited. The target is still in progress.

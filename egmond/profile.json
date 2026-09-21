@@ -185,6 +185,12 @@
       "kind": "reading",
       "what": "Saved reproducible inferred key and uncorrected candidate French reading. Provisional address grand maistre de France cross-check supports nulls; full image audit, insertion and date remain unresolved.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Re-inspected address and body lines 1,2,3,9,13,14,16 against source crops. Saved explicit shape-token corrections and replay script, retaining unexplained spellings. Address reads A mon bon cousin / Monsieur le grant maistre / de France; nine body lines and insertion still need audit. This is image/key consistency, not an independent plaintext control.",
+      "result": "partial"
     }
   ],
   "outcome": {
@@ -193,6 +199,6 @@
     "verification": [
       "none"
     ],
-    "notes": "Unfinished inferred French reading; transcription errors and insertion unresolved. No independent plaintext or archived key verification."
+    "notes": "Partial inferred French reading with explicit image audit for address and seven main lines. Nine lines, insertion, date and place remain unresolved; no independent key/plaintext verification."
   }
 }
