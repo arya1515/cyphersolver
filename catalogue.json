@@ -3772,17 +3772,17 @@
    "id": 157,
    "counted": true,
    "year": 1519,
-   "date": "1 Jan 1519 – 6 Apr 1521",
-   "title": "Giuliano Caprile (Eger) to Bonaventura Pistofilo / Alfonso I 'Este, 7 ciphertexts",
+   "date": "9 Mar 1519",
+   "title": "Giuliano Caprile (Eger) to Bonaventura Pistofilo, 9 March 1519",
    "correspondents": "Giuliano Caprile → Bonaventura Pistofilo / Alfonso I 'Este",
    "place": "Eger, Hungary",
    "language": "Italian",
    "region": "Italy",
    "period": "1497-1559",
-   "shelfmark": "ASMo, Ambasciatori b. 4/23, Envoy reports, Ferrara (7 items)",
+   "shelfmark": "ASMo, Ambasciatori b. 4/23, 1, Envoy reports, Ferrara",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R1128–R1139 (7 records): Partially decrypted, 17 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. ",
+   "status": "DECODE R1128: seven lines in Caprile's 1519 two-tier cipher (a small letter over a base sign), no decipherment. Worked 21 Sept 2026: the rest of the item (R1129–R1139) is resolved, see caprile1519/ (1882 decipherments filed as b/c on Vestigia; R1138 read by Somogyi 2025; R1136 and R1139 read in part with a key rebuilt from her text). Subject, from the clear part and the next letter: Caprile's own lawsuit at Rome. Key obtainable from the 1882 decipherments of nos. 3–8 and 10.",
    "why": "A Ferrarese agent at Eger, the Hungarian see held by Ippolito d'Este, writing to Ferrara in 1519–21 on Hungarian affairs on the eve of Mohács.",
    "importance": 3,
    "solvability": 3,
@@ -3794,44 +3794,15 @@
     {
      "label": "DECODE R1128",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1128"
-    },
-    {
-     "label": "DECODE R1131",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1131"
-    },
-    {
-     "label": "DECODE R1134",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1134"
-    },
-    {
-     "label": "DECODE R1135",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1135"
-    },
-    {
-     "label": "DECODE R1136",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1136"
-    },
-    {
-     "label": "DECODE R1138",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1138"
-    },
-    {
-     "label": "+1 more records",
-     "href": null
     }
    ],
    "seen": "catalogue",
    "source": "DECODE",
    "decode_ids": [
-    1128,
-    1131,
-    1134,
-    1135,
-    1136,
-    1138,
-    1139
+    1128
    ],
-   "scored": "reviewed"
+   "scored": "reviewed",
+   "outcome": "attempted, open"
   },
   {
    "id": 158,
@@ -3847,7 +3818,7 @@
    "shelfmark": "ASMo, Ambasciatori b. 4/26, 3, Envoy reports, Ferrara",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R1137: Partially decrypted, 3 pp., type not given; numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses.",
+   "status": "DECODE R1137: Partially decrypted, 3 pp., type not given; numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://vestigia.hu/kereses. Attempted 21 Sept 2026 (caprile1519/): two-digit groups mostly ending in 5 or 0 (584 groups + 83 signs); a ciphertext-only anneal gives a partial key and phrases (lettere per, presto, saria meglio, non se poteria, dua milla) but no reading; transcription needs a second reader.",
    "why": "Ciphered letter of Alfonso Cistarelli to Ippolito I d'Este, 25 Jul 1520; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
@@ -3866,7 +3837,8 @@
    "decode_ids": [
     1137
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 161,

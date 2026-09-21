@@ -2126,6 +2126,58 @@
      "sent": false
     }
    }
+  },
+  "caprile1519": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/caprile1519.html",
+   "key": {
+    "file": "caprile1519/key21.json",
+    "lang": "IT",
+    "how": "Homophonic sign key rebuilt by EM alignment of the transcription against J. W. Somogyi's printed decipherment of the 16 Feb 1521 postscript (R1138 and Vestigia 1920)"
+   },
+   "cite": "J. W. Somogyi, Scriptorium VI (2025) 247-264, n. 50",
+   "fields": {
+    "R1138": {
+     "date": "1521-02-16",
+     "city": "Buda",
+     "receiver": "Alfonso I d'Este"
+    },
+    "R1139": {
+     "receiver": "Alfonso I d'Este",
+     "city": "Buda"
+    }
+   },
+   "records": {
+    "R1139": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part with the key rebuilt from Somogyi 2025; no earlier decipherment. Date 6 Apr 1521, Buda, to Duke Alfonso I.",
+     "reading": [
+      {
+       "file": "caprile1519/decrypt21_raw.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R1136": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part with the same key (1520-21 sign cipher); 8 Mar 1520, to Pistofilo.",
+     "reading": [
+      {
+       "file": "caprile1519/decrypt21_raw.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R1138": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Deciphered by J. W. Somogyi, Scriptorium VI (2025) 259-260 n. 50. Letter of 16 Feb 1521, Buda, to Duke Alfonso I.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }

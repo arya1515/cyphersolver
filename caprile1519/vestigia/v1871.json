@@ -1,0 +1,1768 @@
+{
+ "component": "Documents/ShowDocument",
+ "props": {
+  "errors": {},
+  "language": "en",
+  "auth": {
+   "user": null
+  },
+  "flash": {
+   "timestamp": "2026-09-21T14:10:16.892481Z"
+  },
+  "stats": {
+   "global": {
+    "documents": [
+     12,
+     6,
+     4759
+    ],
+    "places": 1969,
+    "people": 5339
+   },
+   "user": {
+    "documents": [
+     0,
+     0,
+     0
+    ],
+    "places": 0,
+    "people": 0
+   }
+  },
+  "document": {
+   "id": "01jzq1q7d7ddferxyrsh966eh7",
+   "archive_id": "01jzq10r8c4n7snd5mhqry776f",
+   "archive_ref": "b. 4, Giuliano Caprili (1519-1520), no. 8b",
+   "status": 2,
+   "vestigia_id": 1871,
+   "df": "DF 294925-a",
+   "title": "Giuliano Caprili levele Bonaventura Pistofilónak",
+   "date_from": "1519-06-12",
+   "date_to": "1519-06-12",
+   "format": "simple-copy",
+   "length": 14,
+   "summary": null,
+   "incipit": "Altre mie date in Agria…",
+   "explicit": "come son tenuto.",
+   "comment": null,
+   "funding": "OTKA 81430",
+   "material": "paper",
+   "category": null,
+   "bibliography": [],
+   "import_raw": {
+    "v22": "1871",
+    "szulo": null,
+    "techid": "1397474391",
+    "csoport": "AMUN",
+    "egyedi_azonosito": "b. 4, Giuliano Caprili (1519-1520), no. 8b",
+    "df": "DF 294925-a",
+    "megnevezes": "Giuliano Caprili levele Bonaventura Pistofilónak",
+    "letrehozo_neve": "Giuliano Caprili",
+    "kiadas_helye": "Eger",
+    "cimzettkedvezmenyezett": "Bonaventura Pistofilo",
+    "cimzett_helye": null,
+    "datum1": "1519-06-12",
+    "datum2": "1519-06-12",
+    "nyelv": "olasz",
+    "fennmaradasi_forma": "egyszerű másolat",
+    "irattipus": "nem meghatározott",
+    "anyaga": "papír",
+    "terjedelem": "14",
+    "kapcsolodo_testuletekcsaladokszemelyek": null,
+    "kapcsolodo_helyek": null,
+    "eleje": "Altre mie date in Agria…",
+    "vege": "come son tenuto.",
+    "regeszta": null,
+    "megjegyzesek": null,
+    "regi_megjegyzes": null,
+    "regi_irattipus": null,
+    "publikaciok": null,
+    "mellerendelo_kapcsolatok": "1870 CI",
+    "adatbazison_kivuli_kapcsolat": null,
+    "szint": "egyes irat",
+    "regi_jelzetek": null,
+    "tamogatasi_megjegyzes": "OTKA 81430",
+    "felvetelszam": "14",
+    "ellenorizni": null,
+    "hu_mnl_ol": "X 10891.-DF294925-a"
+   },
+   "import_errors": [
+    "[image-sources] This document has images uploaded from multiple sources"
+   ],
+   "parent_id": null,
+   "created_by": {
+    "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+    "name": "Adminisztrátor",
+    "email": "sebezhetetlen98@gmail.com",
+    "email_verified_at": "2025-07-09T07:40:56.000000Z",
+    "last_login": "2026-07-12 13:21:42",
+    "role": 2,
+    "created_at": "2025-07-09T07:19:05.000000Z",
+    "updated_at": "2026-07-12T13:21:42.000000Z",
+    "reason_for_registration": null,
+    "accepted_at": "2025-09-25T14:34:51.000000Z",
+    "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+   },
+   "updated_by": null,
+   "created_at": "2025-07-09T07:34:36.000000Z",
+   "updated_at": "2025-07-10T06:42:55.000000Z",
+   "deleted_at": null,
+   "public_id": "1871",
+   "can_update": false,
+   "errors": [],
+   "public_images": true,
+   "places": [
+    {
+     "id": "01jzq16g9t2x40cs29p8z7t5zm",
+     "name_primary_hu": "Eger",
+     "name_primary_it": "Eger",
+     "name_primary_en": "Eger",
+     "osm_id": "R1418156",
+     "lat": 47.8989887,
+     "lon": 20.3743665,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000048",
+      "nev": "Agria",
+      "nevnyelve": "latin",
+      "nevprior": null,
+      "szint": "település",
+      "others": []
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:28.000000Z",
+     "updated_at": "2025-07-11T06:06:14.000000Z",
+     "can_update": false,
+     "pivot": {
+      "document_id": "01jzq1q7d7ddferxyrsh966eh7",
+      "place_id": "01jzq16g9t2x40cs29p8z7t5zm",
+      "place_type": "created_at"
+     },
+     "names": [
+      {
+       "id": "01jzq16g9vp9gq1fvdcaxbsze9",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Agria",
+       "primary": false,
+       "comment": null,
+       "language": "la",
+       "created_at": "2025-07-09T07:25:28.000000Z",
+       "updated_at": "2025-07-11T06:06:14.000000Z"
+      },
+      {
+       "id": "01jzq16janb16g994kp2fk310g",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Eger",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:30.000000Z",
+       "updated_at": "2025-07-10T06:48:05.000000Z"
+      },
+      {
+       "id": "01jzq16jefkj7xdsj56cp51tqp",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Erlau",
+       "primary": false,
+       "comment": null,
+       "language": "de",
+       "created_at": "2025-07-09T07:25:30.000000Z",
+       "updated_at": "2025-07-09T07:25:30.000000Z"
+      }
+     ]
+    }
+   ],
+   "authors": [
+    {
+     "id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+     "name_primary_hu": "Giuliano Caprili",
+     "name_primary_it": "Giuliano Caprili",
+     "name_primary_en": "Giuliano Caprili",
+     "natural": 1,
+     "comment": null,
+     "import_raw": {
+      "id": "VP000313",
+      "nev": "Giuliano Caprili",
+      "nevnyelve": null,
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": null,
+      "rang": null,
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null,
+      "others": [
+       {
+        "id": "VP000313",
+        "nev": "messer Zuliano Caprile",
+        "nevnyelve": null,
+        "nevprior": "2",
+        "szuletett": null,
+        "szuletes_helye": null,
+        "fl": null,
+        "fl_helye": null,
+        "meghalt": null,
+        "halal_helye": null,
+        "foglalkozas": null,
+        "rang": null,
+        "megjegyzes": null,
+        "wikidata": null,
+        "nemzeti_nevter": null
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:22:24.000000Z",
+     "updated_at": "2025-09-04T06:33:55.000000Z",
+     "floruit_from": "1508-05-08T00:00:00.000000Z",
+     "floruit_to": "1521-09-05T00:00:00.000000Z",
+     "laravel_through_key": "01jzq1q7d7ddferxyrsh966eh7",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq10wh56k56aptqxf8d0ke2",
+       "nameable_id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Giuliano Caprili",
+       "primary": true,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:24.000000Z",
+       "updated_at": "2025-07-09T07:22:24.000000Z"
+      },
+      {
+       "id": "01jzq11bjsy0gnmgmtfxcrvbrt",
+       "nameable_id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Zuliano Caprile",
+       "primary": false,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:40.000000Z",
+       "updated_at": "2025-08-31T17:48:54.000000Z"
+      }
+     ]
+    }
+   ],
+   "creation_places": [
+    {
+     "id": "01jzq16g9t2x40cs29p8z7t5zm",
+     "name_primary_hu": "Eger",
+     "name_primary_it": "Eger",
+     "name_primary_en": "Eger",
+     "osm_id": "R1418156",
+     "lat": 47.8989887,
+     "lon": 20.3743665,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000048",
+      "nev": "Agria",
+      "nevnyelve": "latin",
+      "nevprior": null,
+      "szint": "település",
+      "others": []
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:28.000000Z",
+     "updated_at": "2025-07-11T06:06:14.000000Z",
+     "laravel_through_key": "01jzq1q7d7ddferxyrsh966eh7",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq16g9vp9gq1fvdcaxbsze9",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Agria",
+       "primary": false,
+       "comment": null,
+       "language": "la",
+       "created_at": "2025-07-09T07:25:28.000000Z",
+       "updated_at": "2025-07-11T06:06:14.000000Z"
+      },
+      {
+       "id": "01jzq16janb16g994kp2fk310g",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Eger",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:30.000000Z",
+       "updated_at": "2025-07-10T06:48:05.000000Z"
+      },
+      {
+       "id": "01jzq16jefkj7xdsj56cp51tqp",
+       "nameable_id": "01jzq16g9t2x40cs29p8z7t5zm",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Erlau",
+       "primary": false,
+       "comment": null,
+       "language": "de",
+       "created_at": "2025-07-09T07:25:30.000000Z",
+       "updated_at": "2025-07-09T07:25:30.000000Z"
+      }
+     ]
+    }
+   ],
+   "recipients": [
+    {
+     "id": "01jzq1130grejap0hnmmhvcsp7",
+     "name_primary_hu": "Bonaventura Pistofilo",
+     "name_primary_it": "Bonaventura Pistofilo",
+     "name_primary_en": "Bonaventura Pistofilo",
+     "natural": 1,
+     "comment": "",
+     "import_raw": {
+      "id": "VP001178",
+      "nev": "Bonaventura Pistofilo",
+      "nevnyelve": null,
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": null,
+      "rang": null,
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:22:31.000000Z",
+     "updated_at": "2025-09-04T06:34:15.000000Z",
+     "floruit_from": "1519-01-01T00:00:00.000000Z",
+     "floruit_to": "1521-08-01T00:00:00.000000Z",
+     "laravel_through_key": "01jzq1q7d7ddferxyrsh966eh7",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq1130j31p01t7sq8wtmdpb",
+       "nameable_id": "01jzq1130grejap0hnmmhvcsp7",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Bonaventura Pistofilo",
+       "primary": true,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:31.000000Z",
+       "updated_at": "2025-07-09T07:22:31.000000Z"
+      }
+     ]
+    }
+   ],
+   "recipient_places": [],
+   "parent": null,
+   "mentioned_places": [],
+   "mentioned_people": [],
+   "archive": {
+    "id": "01jzq10r8c4n7snd5mhqry776f",
+    "name_primary_hu": "Ungheria",
+    "name_primary_it": "Ungheria",
+    "name_primary_en": "Ungheria",
+    "code": "AMUN",
+    "short": null,
+    "level": "sub-series",
+    "show": true,
+    "location": "",
+    "url": null,
+    "comment": null,
+    "created_at": "2025-07-09T07:22:20.000000Z",
+    "updated_at": "2025-07-09T07:22:20.000000Z",
+    "path": {},
+    "parent_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+    "created_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "updated_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "public": true,
+    "names": [
+     {
+      "id": "01jzq10r8d8pgfq3ksvzvv83j7",
+      "nameable_id": "01jzq10r8c4n7snd5mhqry776f",
+      "nameable_type": "App\\Models\\Archive",
+      "name": "Ungheria",
+      "primary": true,
+      "comment": null,
+      "language": "it",
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "01jzq10qz16r9vfrhw401drjj5",
+      "name_primary_hu": "Archivio di Stato di Modena",
+      "name_primary_it": "Archivio di Stato di Modena",
+      "name_primary_en": "Archivio di Stato di Modena",
+      "code": "ASMO",
+      "short": "ASMo",
+      "level": "institution",
+      "show": true,
+      "location": "Modena",
+      "url": "https://asmo.cultura.gov.it/",
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": null,
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb7",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Archivio di Stato di Modena",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb8",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Modenai Állami Levéltár",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb9",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "State Archives of Modena",
+        "primary": false,
+        "comment": null,
+        "language": "en",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10qz6kxht0pw59bbyctvv",
+      "name_primary_hu": "Stati preunitari",
+      "name_primary_it": "Stati preunitari",
+      "name_primary_en": "Stati preunitari",
+      "code": "SPMO",
+      "short": null,
+      "level": null,
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qz16r9vfrhw401drjj5",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qz73064ghgbnpt1782j",
+        "nameable_id": "01jzq10qz6kxht0pw59bbyctvv",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Stati preunitari",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz73064ghgbnpt1782k",
+        "nameable_id": "01jzq10qz6kxht0pw59bbyctvv",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Egyesítés előtti államok",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10qznw4tkn7ghxfhrkz99",
+      "name_primary_hu": "Antichi regimi",
+      "name_primary_it": "Antichi regimi",
+      "name_primary_en": "Antichi regimi",
+      "code": "ARMO",
+      "short": null,
+      "level": null,
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qz6kxht0pw59bbyctvv",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qzpt11yjw54nwn92kr3",
+        "nameable_id": "01jzq10qznw4tkn7ghxfhrkz99",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Antichi regimi",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qzpt11yjw54nwn92kr4",
+        "nameable_id": "01jzq10qznw4tkn7ghxfhrkz99",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Régi rendszerek",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r6gk9n9r7r53rzgxpj1",
+      "name_primary_hu": "Archivio segreto Estense",
+      "name_primary_it": "Archivio segreto Estense",
+      "name_primary_en": "Archivio segreto Estense",
+      "code": "ASEX",
+      "short": "ASE",
+      "level": "main-fond-group",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qznw4tkn7ghxfhrkz99",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r6hjc651061ewek672x",
+        "nameable_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Archivio segreto Estense",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r6hjc651061ewek672y",
+        "nameable_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Este-magánlevéltár",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7fmfjg2ne6gqbn91nt",
+      "name_primary_hu": "Cancelleria, Sezione estero",
+      "name_primary_it": "Cancelleria, Sezione estero",
+      "name_primary_en": "Cancelleria, Sezione estero",
+      "code": "CEXX",
+      "short": null,
+      "level": "fond-group",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r7g8nkfqp9pr8hf4s2b",
+        "nameable_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Cancelleria, Sezione estero",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r7g8nkfqp9pr8hf4s2c",
+        "nameable_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Kancellária, külügyek",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7pp60tk92x42rb89mj",
+      "name_primary_hu": "Carteggio Ambasciatori",
+      "name_primary_it": "Carteggio Ambasciatori",
+      "name_primary_en": "Carteggio Ambasciatori",
+      "code": "AMXX",
+      "short": "Amb.",
+      "level": "fond",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r7qhcr0pvm3g81wb1g6",
+        "nameable_id": "01jzq10r7pp60tk92x42rb89mj",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Carteggio Ambasciatori",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r7rb4qjnbtpggf1j2bt",
+        "nameable_id": "01jzq10r7pp60tk92x42rb89mj",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Követek levelezése",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7yt5wwevp0hnmr4b8p",
+      "name_primary_hu": "Fuori Italia",
+      "name_primary_it": "Fuori Italia",
+      "name_primary_en": "Fuori Italia",
+      "code": "AMXF",
+      "short": null,
+      "level": "series",
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r7pp60tk92x42rb89mj",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r84ccxnnsr9ryvdvmg7",
+        "nameable_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Fuori Italia",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r84ccxnnsr9ryvdvmg8",
+        "nameable_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Itálián kívül",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     }
+    ]
+   },
+   "languages": [
+    {
+     "code": "it",
+     "pivot": {
+      "document_id": "01jzq1q7d7ddferxyrsh966eh7",
+      "language_code": "it"
+     }
+    }
+   ],
+   "files": [
+    {
+     "id": "01jzqeg75cekdvgbwvye66acrc",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "af9187e9-5702-4a94-849f-bd4434fab6bb",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0001.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2636436,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "e81ea1e87cea2e8ed2d01cceb68152b5e8ecef32f0fef25cbcf0d44934f9cb70",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 1,
+     "created_at": "2025-07-09T11:17:58.000000Z",
+     "updated_at": "2025-07-09T11:17:59.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeg75cekdvgbwvye66acrc/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeg75cekdvgbwvye66acrc/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqeg8edsv48dtgkmk8shz1b",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "de24b0ed-e599-4cd1-b09a-b64f2a1b3e1f",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0002.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2713842,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "89460fc040a37c8619e9eb58f23e9b330fa710d48967e77654296e2d0556d945",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 2,
+     "created_at": "2025-07-09T11:17:59.000000Z",
+     "updated_at": "2025-07-09T11:18:01.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeg8edsv48dtgkmk8shz1b/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeg8edsv48dtgkmk8shz1b/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqeg9mnmah87vsnrgnqa0bq",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "fbff0dd0-d31b-4b0a-b120-e24129001e4b",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0003.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2889458,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "7cb9730d4c3858c744b93f5cdcee976350b84a1c94fdb247b9ca7b63e308cc61",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 3,
+     "created_at": "2025-07-09T11:18:01.000000Z",
+     "updated_at": "2025-07-09T11:18:02.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeg9mnmah87vsnrgnqa0bq/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeg9mnmah87vsnrgnqa0bq/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegb2p2mjhhdqj6msggngz",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "0ccc3a35-a009-47bb-a247-c54c62b45867",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0004.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2946788,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "5e4fe7d598844f43f83f69a5c166f990759a54cd6d9866d5d85fd8a386e4db46",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 4,
+     "created_at": "2025-07-09T11:18:02.000000Z",
+     "updated_at": "2025-07-09T11:18:03.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegb2p2mjhhdqj6msggngz/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegb2p2mjhhdqj6msggngz/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegcdy34tg41qb38ce9ee0",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "57073468-bee0-4ee9-bafa-2955ad411b60",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0005.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2981336,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "0c93bda7c8f6bf5e83a84d7c3999c88dafadacabad6fa2d3ddea21006195baf7",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 5,
+     "created_at": "2025-07-09T11:18:03.000000Z",
+     "updated_at": "2025-07-09T11:18:05.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegcdy34tg41qb38ce9ee0/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegcdy34tg41qb38ce9ee0/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegdn8vdava5v95x9n8x1s",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "85a7cb38-fde2-4328-96a4-4f287a2b2efd",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0006.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2384032,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "411e92d455c6796f7a205f86a990c4207a873acdc444b69359d31b4b8f90bb3f",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 6,
+     "created_at": "2025-07-09T11:18:05.000000Z",
+     "updated_at": "2025-07-09T11:18:06.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegdn8vdava5v95x9n8x1s/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegdn8vdava5v95x9n8x1s/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegewpfg4hevz2aa3acp3f",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "fdd130da-56d1-4b31-a72a-0938eb2671e6",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0007.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2804642,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "b0523605c9c15919c13e804715afe3d3075f9846c891775f89c006452b7b2782",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 7,
+     "created_at": "2025-07-09T11:18:06.000000Z",
+     "updated_at": "2025-07-09T11:18:07.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegewpfg4hevz2aa3acp3f/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegewpfg4hevz2aa3acp3f/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegg4ea93wvp4qkab4ha19",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "4e73f9c8-a089-42e4-9a11-d68425883a2a",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0008.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2823200,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "0572988e75f7c0c98c14e400a4ed87d3000e9a70d5adf6cec3e295a6e42524d4",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 8,
+     "created_at": "2025-07-09T11:18:07.000000Z",
+     "updated_at": "2025-07-09T11:18:09.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegg4ea93wvp4qkab4ha19/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegg4ea93wvp4qkab4ha19/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqeghd5t4ngbtxje5k5tr3x",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "0be9e7d5-8e24-4f06-9c16-bb342cb9bd92",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0009.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2863760,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "b6c44ff28743d6f7d6f468ba39c8a29f2c60da51c80f19d08c089462c6bd261f",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 9,
+     "created_at": "2025-07-09T11:18:09.000000Z",
+     "updated_at": "2025-07-09T11:18:10.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeghd5t4ngbtxje5k5tr3x/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeghd5t4ngbtxje5k5tr3x/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegjnv9v294dzf53f1nwmm",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "64e87a68-29a2-44ba-96f4-ecd3511377af",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0010.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2874407,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "c63acc2fd24088ac10707773b6c68566e1f7e99c33099258143d2dbcb06b8ae2",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 10,
+     "created_at": "2025-07-09T11:18:10.000000Z",
+     "updated_at": "2025-07-09T11:18:11.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegjnv9v294dzf53f1nwmm/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegjnv9v294dzf53f1nwmm/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegkx56ahtzxwv8qfkrqj4",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "7fef9a0f-44c6-4c47-9479-01effc08a1b7",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0011.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2663592,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "38c45e9d24e193dd9631624ad8df18c14dd2e8e57bdb61590bd0a6a39552ac75",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 11,
+     "created_at": "2025-07-09T11:18:11.000000Z",
+     "updated_at": "2025-07-09T11:18:12.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegkx56ahtzxwv8qfkrqj4/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegkx56ahtzxwv8qfkrqj4/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegn595ecvq7ctpz4mse4m",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "e4d4b42a-9edb-4e1e-a46e-a1bd41e288d9",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0012.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2766897,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "0c05c2b0c0a72a344ed4f67873ced9976e10582001f4d525e12e5c88038ee3c7",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 12,
+     "created_at": "2025-07-09T11:18:12.000000Z",
+     "updated_at": "2025-07-09T11:18:14.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegn595ecvq7ctpz4mse4m/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegn595ecvq7ctpz4mse4m/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegpdsm9mq0z4s23vk9r00",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "ffb6d030-2c90-4fb9-b128-416dfd63dc3a",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0013.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2911625,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "7e19a1bdd81f030004ed6ffa27c2adcbe75e2311f98f1e255a54cf5207ca5208",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 13,
+     "created_at": "2025-07-09T11:18:14.000000Z",
+     "updated_at": "2025-07-09T11:18:15.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegpdsm9mq0z4s23vk9r00/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegpdsm9mq0z4s23vk9r00/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegqqkb5206gg3sxzh4rmy",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "3a8ff34e-0a43-4e82-b4c4-002d292a8b5e",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294925_a_0014.JPG",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2927014,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "b3e8557e976777479f0b6d677d78cb63f2c53708e36b6ee0d920ad2b7b645bb0",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 14,
+     "created_at": "2025-07-09T11:18:15.000000Z",
+     "updated_at": "2025-07-09T11:18:16.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegqqkb5206gg3sxzh4rmy/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegqqkb5206gg3sxzh4rmy/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.JPG"
+    },
+    {
+     "id": "01jzqegs33qwesdq2nfn6h2196",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "331c3d46-df09-43e1-9219-91352869e542",
+     "collection_name": "default",
+     "name": "1397474391.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1279599,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "20b7760bb02744f4912efc08d008e4b99006e60463b4224509fe9ae1531041ea",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 15,
+     "created_at": "2025-07-09T11:18:16.000000Z",
+     "updated_at": "2025-07-09T11:18:17.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegs33qwesdq2nfn6h2196/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegs33qwesdq2nfn6h2196/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegt160ppsgwah3bsnnazw",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "f455636e-9e1a-4208-b3b3-22612bca3b2c",
+     "collection_name": "default",
+     "name": "1397474391-10.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1318277,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "e825d69bc6dab7b0bb0beb9366b14845c789b2ee54841a69e75201b3faff3eb6",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 16,
+     "created_at": "2025-07-09T11:18:17.000000Z",
+     "updated_at": "2025-07-09T11:18:18.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegt160ppsgwah3bsnnazw/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegt160ppsgwah3bsnnazw/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegtzptabmf2znayt71r8d",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "ea9ca803-497b-4948-bacd-5fa2b9c27511",
+     "collection_name": "default",
+     "name": "1397474391-2.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1372351,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "e450d3a3c21f7138dfdc6f2467ee0e8c6c658322e0b90304c60343dae85ac02b",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 17,
+     "created_at": "2025-07-09T11:18:18.000000Z",
+     "updated_at": "2025-07-09T11:18:19.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegtzptabmf2znayt71r8d/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegtzptabmf2znayt71r8d/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegvyshxf691bkr71yqcsy",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "9e5656ab-fa30-49f6-b77a-95e1f14c0b5d",
+     "collection_name": "default",
+     "name": "1397474391-3.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1382236,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "62ab8eab1d01bdd0b120125d5c26b7354ee262fe8603180148c355ab2972e4e2",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 18,
+     "created_at": "2025-07-09T11:18:19.000000Z",
+     "updated_at": "2025-07-09T11:18:20.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegvyshxf691bkr71yqcsy/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegvyshxf691bkr71yqcsy/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegwx7qe4m80rpsqn6kpn2",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "4a13fbe5-f966-4579-a4f8-abe7281260bc",
+     "collection_name": "default",
+     "name": "1397474391-4.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1406613,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "4eb51d5c0f1776b4e6f6a296b7d62eaf7195456591985343d63ccc8bb580fde0",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 19,
+     "created_at": "2025-07-09T11:18:20.000000Z",
+     "updated_at": "2025-07-09T11:18:21.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegwx7qe4m80rpsqn6kpn2/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegwx7qe4m80rpsqn6kpn2/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegxv3qn6dvg807bjxpj47",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "79a9a531-3de7-4264-94c8-d10462c4d37a",
+     "collection_name": "default",
+     "name": "1397474391-5.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1410396,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "ab95f1887166b579d0a0e4b39a4474c3a076b76927e7bd6a33b5b3521c10a32a",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 20,
+     "created_at": "2025-07-09T11:18:21.000000Z",
+     "updated_at": "2025-07-09T11:18:22.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegxv3qn6dvg807bjxpj47/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegxv3qn6dvg807bjxpj47/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegyr0ffr0n6z5mqwc2wwj",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "797c52c1-9476-4e4b-b997-5d0ac6298dc6",
+     "collection_name": "default",
+     "name": "1397474391-6.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1286612,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "a9dd43112645cf3236ef0609409f8df0656c8589f35962372d8975096ed63a01",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 21,
+     "created_at": "2025-07-09T11:18:22.000000Z",
+     "updated_at": "2025-07-09T11:18:23.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegyr0ffr0n6z5mqwc2wwj/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegyr0ffr0n6z5mqwc2wwj/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqegzntgkpt1vrgszx78kcz",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "56dcf998-483a-482b-a2e3-5bdb2b7ff7bd",
+     "collection_name": "default",
+     "name": "1397474391-7.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1355933,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "535dd037672761b2d133371af131278071a56fab79e8fcf685274b5eaf62e128",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 22,
+     "created_at": "2025-07-09T11:18:23.000000Z",
+     "updated_at": "2025-07-09T11:18:24.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqegzntgkpt1vrgszx78kcz/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqegzntgkpt1vrgszx78kcz/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqeh0ma3yn8zrf2rwte41m3",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "ccbc2676-6601-4429-8407-9d50d3ab2035",
+     "collection_name": "default",
+     "name": "1397474391-8.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1441363,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "db8457b17274a006695082a9df58d68a4094910eae141de909ed2c23026d6707",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 23,
+     "created_at": "2025-07-09T11:18:24.000000Z",
+     "updated_at": "2025-07-09T11:18:25.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeh0ma3yn8zrf2rwte41m3/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeh0ma3yn8zrf2rwte41m3/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    },
+    {
+     "id": "01jzqeh1kh9yntqr6nm33jyvdc",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1q7d7ddferxyrsh966eh7",
+     "uuid": "518ca49e-b4e5-439e-acb1-efbb7d0b08f4",
+     "collection_name": "default",
+     "name": "1397474391-9.jpg",
+     "file_name": "01jzq1q7d7ddferxyrsh966eh7-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1454996,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "ff919b3a7f882e40e8a75a7ab80d2f27c94a1740a599fd584ce9be1f453d154a",
+      "zip_filename_prefix": "01jzq1q7d7ddferxyrsh966eh7/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 24,
+     "created_at": "2025-07-09T11:18:25.000000Z",
+     "updated_at": "2025-07-09T11:18:26.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqeh1kh9yntqr6nm33jyvdc/conversions/01jzq1q7d7ddferxyrsh966eh7-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqeh1kh9yntqr6nm33jyvdc/conversions/01jzq1q7d7ddferxyrsh966eh7-1-web.jpg"
+    }
+   ],
+   "related_documents_left": [],
+   "related_documents_right": [
+    {
+     "id": "01jzq1q7ap0c5pd7qfxx9n7wa4",
+     "archive_id": "01jzq10r8c4n7snd5mhqry776f",
+     "archive_ref": "b. 4, Giuliano Caprili (1519-1520), no. 8a",
+     "status": 2,
+     "vestigia_id": 1870,
+     "df": "DF 294925",
+     "title": "Giuliano Caprili levele Bonaventura Pistofilónak",
+     "date_from": "1519-06-12",
+     "date_to": "1519-06-12",
+     "format": "original",
+     "length": 6,
+     "summary": null,
+     "incipit": null,
+     "explicit": "altra mia expeditione.",
+     "comment": null,
+     "funding": "OTKA 81430",
+     "material": "paper",
+     "category": null,
+     "bibliography": [],
+     "import_raw": {
+      "v22": "1870",
+      "szulo": null,
+      "techid": "1397474081",
+      "csoport": "AMUN",
+      "egyedi_azonosito": "b. 4, Giuliano Caprili (1519-1520), no. 8a",
+      "df": "DF 294925",
+      "megnevezes": "Giuliano Caprili levele Bonaventura Pistofilónak",
+      "letrehozo_neve": "Giuliano Caprili",
+      "kiadas_helye": "Buda",
+      "cimzettkedvezmenyezett": "Bonaventura Pistofilo",
+      "cimzett_helye": null,
+      "datum1": "1519-06-12",
+      "datum2": "1519-06-12",
+      "nyelv": "olasz, titkosírás",
+      "fennmaradasi_forma": "eredeti",
+      "irattipus": "nem meghatározott",
+      "anyaga": "papír",
+      "terjedelem": "6",
+      "kapcsolodo_testuletekcsaladokszemelyek": null,
+      "kapcsolodo_helyek": null,
+      "eleje": null,
+      "vege": "altra mia expeditione.",
+      "regeszta": null,
+      "megjegyzesek": null,
+      "regi_megjegyzes": null,
+      "regi_irattipus": null,
+      "publikaciok": null,
+      "mellerendelo_kapcsolatok": null,
+      "adatbazison_kivuli_kapcsolat": null,
+      "szint": "egyes irat",
+      "regi_jelzetek": null,
+      "tamogatasi_megjegyzes": "OTKA 81430",
+      "felvetelszam": "6",
+      "ellenorizni": null,
+      "hu_mnl_ol": "X 10891.-DF294925"
+     },
+     "import_errors": [
+      "[image-sources] This document has images uploaded from multiple sources"
+     ],
+     "parent_id": null,
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:34:36.000000Z",
+     "updated_at": "2025-07-10T06:42:55.000000Z",
+     "deleted_at": null,
+     "public_id": "1870",
+     "can_update": false,
+     "pivot": {
+      "doc_b_id": "01jzq1q7d7ddferxyrsh966eh7",
+      "doc_a_id": "01jzq1q7ap0c5pd7qfxx9n7wa4",
+      "id": "01jzq1q7fs2vb10ma68y6s937r",
+      "relation_type": "decrypt"
+     }
+    }
+   ],
+   "enclosed_documents": []
+  }
+ },
+ "url": "/documents/1871",
+ "version": "76a2068b1670357589207111f0814522",
+ "encryptHistory": false,
+ "clearHistory": false
+}

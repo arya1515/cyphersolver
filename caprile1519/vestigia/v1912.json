@@ -1,0 +1,1279 @@
+{
+ "component": "Documents/ShowDocument",
+ "props": {
+  "errors": {},
+  "language": "en",
+  "auth": {
+   "user": null
+  },
+  "flash": {
+   "timestamp": "2026-09-21T14:11:46.666853Z"
+  },
+  "stats": {
+   "global": {
+    "documents": [
+     12,
+     6,
+     4759
+    ],
+    "places": 1969,
+    "people": 5339
+   },
+   "user": {
+    "documents": [
+     0,
+     0,
+     0
+    ],
+    "places": 0,
+    "people": 0
+   }
+  },
+  "document": {
+   "id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+   "archive_id": "01jzq10r8c4n7snd5mhqry776f",
+   "archive_ref": "b. 4, Giuliano Caprili (1520-1521), no. 3",
+   "status": 2,
+   "vestigia_id": 1912,
+   "df": "DF 294967",
+   "title": "Giuliano Caprili levele Bonaventura Pistofilónak ",
+   "date_from": "1521-01-12",
+   "date_to": "1521-01-12",
+   "format": "original",
+   "length": 1,
+   "summary": null,
+   "incipit": "Per le lettere che io scrivo…",
+   "explicit": "per honore di chi il manda.",
+   "comment": null,
+   "funding": "OTKA 81430",
+   "material": "paper",
+   "category": null,
+   "bibliography": [],
+   "import_raw": {
+    "v22": "1912",
+    "szulo": null,
+    "techid": "1397821714",
+    "csoport": "AMUN",
+    "egyedi_azonosito": "b. 4, Giuliano Caprili (1520-1521), no. 3",
+    "df": "DF 294967",
+    "megnevezes": "Giuliano Caprili levele Bonaventura Pistofilónak ",
+    "letrehozo_neve": "Giuliano Caprili",
+    "kiadas_helye": "Buda",
+    "cimzettkedvezmenyezett": "Bonaventura Pistofilo",
+    "cimzett_helye": null,
+    "datum1": "1521-01-12",
+    "datum2": "1521-01-12",
+    "nyelv": "olasz",
+    "fennmaradasi_forma": "eredeti",
+    "irattipus": "nem meghatározott",
+    "anyaga": "papír",
+    "terjedelem": "1",
+    "kapcsolodo_testuletekcsaladokszemelyek": "Alfonso Cistarelli, Pietro Antonio Bagatella",
+    "kapcsolodo_helyek": null,
+    "eleje": "Per le lettere che io scrivo…",
+    "vege": "per honore di chi il manda.",
+    "regeszta": null,
+    "megjegyzesek": null,
+    "regi_megjegyzes": null,
+    "regi_irattipus": null,
+    "publikaciok": null,
+    "mellerendelo_kapcsolatok": null,
+    "adatbazison_kivuli_kapcsolat": null,
+    "szint": "egyes irat",
+    "regi_jelzetek": null,
+    "tamogatasi_megjegyzes": "OTKA 81430",
+    "felvetelszam": "2",
+    "ellenorizni": null,
+    "hu_mnl_ol": "X 10891.-DF294967"
+   },
+   "import_errors": [
+    "[image-sources] This document has images uploaded from multiple sources"
+   ],
+   "parent_id": null,
+   "created_by": {
+    "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+    "name": "Adminisztrátor",
+    "email": "sebezhetetlen98@gmail.com",
+    "email_verified_at": "2025-07-09T07:40:56.000000Z",
+    "last_login": "2026-07-12 13:21:42",
+    "role": 2,
+    "created_at": "2025-07-09T07:19:05.000000Z",
+    "updated_at": "2026-07-12T13:21:42.000000Z",
+    "reason_for_registration": null,
+    "accepted_at": "2025-09-25T14:34:51.000000Z",
+    "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+   },
+   "updated_by": null,
+   "created_at": "2025-07-09T07:34:42.000000Z",
+   "updated_at": "2025-07-10T06:42:55.000000Z",
+   "deleted_at": null,
+   "public_id": "1912",
+   "can_update": false,
+   "errors": [],
+   "public_images": true,
+   "places": [
+    {
+     "id": "01jzq16hc1gqj153vtt3h41bs7",
+     "name_primary_hu": "Buda",
+     "name_primary_it": "Buda",
+     "name_primary_en": "Buda",
+     "osm_id": "R11177813",
+     "lat": 47.50195635,
+     "lon": 19.032478772465,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000026",
+      "nev": "Buda",
+      "nevnyelve": "magyar",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000026",
+        "nev": "Budapest",
+        "nevnyelve": "magyar",
+        "nevprior": null,
+        "szint": "település"
+       },
+       {
+        "id": "VG000026",
+        "nev": "Ofen",
+        "nevnyelve": "német",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:29.000000Z",
+     "updated_at": "2025-07-11T05:39:55.000000Z",
+     "can_update": false,
+     "pivot": {
+      "document_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+      "place_id": "01jzq16hc1gqj153vtt3h41bs7",
+      "place_type": "created_at"
+     },
+     "names": [
+      {
+       "id": "01jzq16hc3c5sae9rbpdjpere7",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Buda",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:29.000000Z",
+       "updated_at": "2025-07-09T07:25:29.000000Z"
+      },
+      {
+       "id": "01jzq16hcsc0zk7gxcv39n5vvf",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Budapest",
+       "primary": false,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:29.000000Z",
+       "updated_at": "2025-07-09T07:25:29.000000Z"
+      },
+      {
+       "id": "01jzq16n8847jxm2n1m7vf05jd",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Ofen",
+       "primary": false,
+       "comment": null,
+       "language": "de",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-09T07:25:33.000000Z"
+      }
+     ]
+    }
+   ],
+   "authors": [
+    {
+     "id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+     "name_primary_hu": "Giuliano Caprili",
+     "name_primary_it": "Giuliano Caprili",
+     "name_primary_en": "Giuliano Caprili",
+     "natural": 1,
+     "comment": null,
+     "import_raw": {
+      "id": "VP000313",
+      "nev": "Giuliano Caprili",
+      "nevnyelve": null,
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": null,
+      "rang": null,
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null,
+      "others": [
+       {
+        "id": "VP000313",
+        "nev": "messer Zuliano Caprile",
+        "nevnyelve": null,
+        "nevprior": "2",
+        "szuletett": null,
+        "szuletes_helye": null,
+        "fl": null,
+        "fl_helye": null,
+        "meghalt": null,
+        "halal_helye": null,
+        "foglalkozas": null,
+        "rang": null,
+        "megjegyzes": null,
+        "wikidata": null,
+        "nemzeti_nevter": null
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:22:24.000000Z",
+     "updated_at": "2025-09-04T06:33:55.000000Z",
+     "floruit_from": "1508-05-08T00:00:00.000000Z",
+     "floruit_to": "1521-09-05T00:00:00.000000Z",
+     "laravel_through_key": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq10wh56k56aptqxf8d0ke2",
+       "nameable_id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Giuliano Caprili",
+       "primary": true,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:24.000000Z",
+       "updated_at": "2025-07-09T07:22:24.000000Z"
+      },
+      {
+       "id": "01jzq11bjsy0gnmgmtfxcrvbrt",
+       "nameable_id": "01jzq10wh4q6e7rzpe0p9cwvrd",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Zuliano Caprile",
+       "primary": false,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:40.000000Z",
+       "updated_at": "2025-08-31T17:48:54.000000Z"
+      }
+     ]
+    }
+   ],
+   "creation_places": [
+    {
+     "id": "01jzq16hc1gqj153vtt3h41bs7",
+     "name_primary_hu": "Buda",
+     "name_primary_it": "Buda",
+     "name_primary_en": "Buda",
+     "osm_id": "R11177813",
+     "lat": 47.50195635,
+     "lon": 19.032478772465,
+     "comment": "település",
+     "import_raw": {
+      "id": "VG000026",
+      "nev": "Buda",
+      "nevnyelve": "magyar",
+      "nevprior": "1",
+      "szint": "település",
+      "others": [
+       {
+        "id": "VG000026",
+        "nev": "Budapest",
+        "nevnyelve": "magyar",
+        "nevprior": null,
+        "szint": "település"
+       },
+       {
+        "id": "VG000026",
+        "nev": "Ofen",
+        "nevnyelve": "német",
+        "nevprior": null,
+        "szint": "település"
+       }
+      ]
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzqfgg1s5ed0ht0g5x2gd4kh",
+      "name": "Szovák Márton",
+      "email": "szovakm@gmail.com",
+      "email_verified_at": "2025-07-09T11:35:40.000000Z",
+      "last_login": "2026-09-17 18:33:57",
+      "role": 2,
+      "created_at": "2025-07-09T11:35:36.000000Z",
+      "updated_at": "2026-09-17T18:33:57.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:35:01.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:25:29.000000Z",
+     "updated_at": "2025-07-11T05:39:55.000000Z",
+     "laravel_through_key": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq16hc3c5sae9rbpdjpere7",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Buda",
+       "primary": true,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:29.000000Z",
+       "updated_at": "2025-07-09T07:25:29.000000Z"
+      },
+      {
+       "id": "01jzq16hcsc0zk7gxcv39n5vvf",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Budapest",
+       "primary": false,
+       "comment": null,
+       "language": "hu",
+       "created_at": "2025-07-09T07:25:29.000000Z",
+       "updated_at": "2025-07-09T07:25:29.000000Z"
+      },
+      {
+       "id": "01jzq16n8847jxm2n1m7vf05jd",
+       "nameable_id": "01jzq16hc1gqj153vtt3h41bs7",
+       "nameable_type": "App\\Models\\Place",
+       "name": "Ofen",
+       "primary": false,
+       "comment": null,
+       "language": "de",
+       "created_at": "2025-07-09T07:25:33.000000Z",
+       "updated_at": "2025-07-09T07:25:33.000000Z"
+      }
+     ]
+    }
+   ],
+   "recipients": [
+    {
+     "id": "01jzq1130grejap0hnmmhvcsp7",
+     "name_primary_hu": "Bonaventura Pistofilo",
+     "name_primary_it": "Bonaventura Pistofilo",
+     "name_primary_en": "Bonaventura Pistofilo",
+     "natural": 1,
+     "comment": "",
+     "import_raw": {
+      "id": "VP001178",
+      "nev": "Bonaventura Pistofilo",
+      "nevnyelve": null,
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": null,
+      "rang": null,
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:22:31.000000Z",
+     "updated_at": "2025-09-04T06:34:15.000000Z",
+     "floruit_from": "1519-01-01T00:00:00.000000Z",
+     "floruit_to": "1521-08-01T00:00:00.000000Z",
+     "laravel_through_key": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq1130j31p01t7sq8wtmdpb",
+       "nameable_id": "01jzq1130grejap0hnmmhvcsp7",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Bonaventura Pistofilo",
+       "primary": true,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:31.000000Z",
+       "updated_at": "2025-07-09T07:22:31.000000Z"
+      }
+     ]
+    }
+   ],
+   "recipient_places": [],
+   "parent": null,
+   "mentioned_places": [],
+   "mentioned_people": [
+    {
+     "id": "01jzq10wwpmbad892tzykz7aa9",
+     "name_primary_hu": "Alfonso Cistarelli",
+     "name_primary_it": "Alfonso Cistarelli",
+     "name_primary_en": "Alfonso Cistarelli",
+     "natural": 1,
+     "comment": "foglalkozás: diplomata,\nrang: lovag",
+     "import_raw": {
+      "id": "VP000380",
+      "nev": "Alfonso Cistarelli",
+      "nevnyelve": null,
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": "diplomata",
+      "rang": "lovag",
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": null,
+     "created_at": "2025-07-09T07:22:25.000000Z",
+     "updated_at": "2025-09-04T06:33:57.000000Z",
+     "floruit_from": "1506-01-01T00:00:00.000000Z",
+     "floruit_to": "1520-10-14T00:00:00.000000Z",
+     "laravel_through_key": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq10wwq48497pjq2nav8dvq",
+       "nameable_id": "01jzq10wwpmbad892tzykz7aa9",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Alfonso Cistarelli",
+       "primary": true,
+       "comment": null,
+       "language": null,
+       "created_at": "2025-07-09T07:22:25.000000Z",
+       "updated_at": "2025-07-09T07:22:25.000000Z"
+      }
+     ]
+    },
+    {
+     "id": "01jzq10v5k3c1zjjx6ng9pfw66",
+     "name_primary_hu": "Pietro Antonio Bagatella",
+     "name_primary_it": "Pietro Antonio Bagatella",
+     "name_primary_en": "Pietro Antonio Bagatella",
+     "natural": 1,
+     "comment": "",
+     "import_raw": {
+      "id": "VP000086",
+      "nev": "Pietro Antonio Bagatella",
+      "nevnyelve": "olasz",
+      "nevprior": "1",
+      "szuletett": null,
+      "szuletes_helye": null,
+      "fl": null,
+      "fl_helye": null,
+      "meghalt": null,
+      "halal_helye": null,
+      "foglalkozas": null,
+      "rang": null,
+      "megjegyzes": null,
+      "wikidata": null,
+      "nemzeti_nevter": null
+     },
+     "created_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "updated_by": {
+      "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+      "name": "Adminisztrátor",
+      "email": "sebezhetetlen98@gmail.com",
+      "email_verified_at": "2025-07-09T07:40:56.000000Z",
+      "last_login": "2026-07-12 13:21:42",
+      "role": 2,
+      "created_at": "2025-07-09T07:19:05.000000Z",
+      "updated_at": "2026-07-12T13:21:42.000000Z",
+      "reason_for_registration": null,
+      "accepted_at": "2025-09-25T14:34:51.000000Z",
+      "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+     },
+     "created_at": "2025-07-09T07:22:23.000000Z",
+     "updated_at": "2025-07-09T07:22:23.000000Z",
+     "floruit_from": null,
+     "floruit_to": null,
+     "laravel_through_key": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "can_update": false,
+     "names": [
+      {
+       "id": "01jzq10v5mwh3krzztcash751g",
+       "nameable_id": "01jzq10v5k3c1zjjx6ng9pfw66",
+       "nameable_type": "App\\Models\\Person",
+       "name": "Pietro Antonio Bagatella",
+       "primary": true,
+       "comment": null,
+       "language": "it",
+       "created_at": "2025-07-09T07:22:23.000000Z",
+       "updated_at": "2025-07-09T07:22:23.000000Z"
+      }
+     ]
+    }
+   ],
+   "archive": {
+    "id": "01jzq10r8c4n7snd5mhqry776f",
+    "name_primary_hu": "Ungheria",
+    "name_primary_it": "Ungheria",
+    "name_primary_en": "Ungheria",
+    "code": "AMUN",
+    "short": null,
+    "level": "sub-series",
+    "show": true,
+    "location": "",
+    "url": null,
+    "comment": null,
+    "created_at": "2025-07-09T07:22:20.000000Z",
+    "updated_at": "2025-07-09T07:22:20.000000Z",
+    "path": {},
+    "parent_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+    "created_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "updated_by": {
+     "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+     "name": "Adminisztrátor",
+     "email": "sebezhetetlen98@gmail.com",
+     "email_verified_at": "2025-07-09T07:40:56.000000Z",
+     "last_login": "2026-07-12 13:21:42",
+     "role": 2,
+     "created_at": "2025-07-09T07:19:05.000000Z",
+     "updated_at": "2026-07-12T13:21:42.000000Z",
+     "reason_for_registration": null,
+     "accepted_at": "2025-09-25T14:34:51.000000Z",
+     "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+    },
+    "public": true,
+    "names": [
+     {
+      "id": "01jzq10r8d8pgfq3ksvzvv83j7",
+      "nameable_id": "01jzq10r8c4n7snd5mhqry776f",
+      "nameable_type": "App\\Models\\Archive",
+      "name": "Ungheria",
+      "primary": true,
+      "comment": null,
+      "language": "it",
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "01jzq10qz16r9vfrhw401drjj5",
+      "name_primary_hu": "Archivio di Stato di Modena",
+      "name_primary_it": "Archivio di Stato di Modena",
+      "name_primary_en": "Archivio di Stato di Modena",
+      "code": "ASMO",
+      "short": "ASMo",
+      "level": "institution",
+      "show": true,
+      "location": "Modena",
+      "url": "https://asmo.cultura.gov.it/",
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": null,
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb7",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Archivio di Stato di Modena",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb8",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Modenai Állami Levéltár",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz2rjyhfjet8nqd6rb9",
+        "nameable_id": "01jzq10qz16r9vfrhw401drjj5",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "State Archives of Modena",
+        "primary": false,
+        "comment": null,
+        "language": "en",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10qz6kxht0pw59bbyctvv",
+      "name_primary_hu": "Stati preunitari",
+      "name_primary_it": "Stati preunitari",
+      "name_primary_en": "Stati preunitari",
+      "code": "SPMO",
+      "short": null,
+      "level": null,
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qz16r9vfrhw401drjj5",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qz73064ghgbnpt1782j",
+        "nameable_id": "01jzq10qz6kxht0pw59bbyctvv",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Stati preunitari",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qz73064ghgbnpt1782k",
+        "nameable_id": "01jzq10qz6kxht0pw59bbyctvv",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Egyesítés előtti államok",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10qznw4tkn7ghxfhrkz99",
+      "name_primary_hu": "Antichi regimi",
+      "name_primary_it": "Antichi regimi",
+      "name_primary_en": "Antichi regimi",
+      "code": "ARMO",
+      "short": null,
+      "level": null,
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qz6kxht0pw59bbyctvv",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10qzpt11yjw54nwn92kr3",
+        "nameable_id": "01jzq10qznw4tkn7ghxfhrkz99",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Antichi regimi",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10qzpt11yjw54nwn92kr4",
+        "nameable_id": "01jzq10qznw4tkn7ghxfhrkz99",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Régi rendszerek",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r6gk9n9r7r53rzgxpj1",
+      "name_primary_hu": "Archivio segreto Estense",
+      "name_primary_it": "Archivio segreto Estense",
+      "name_primary_en": "Archivio segreto Estense",
+      "code": "ASEX",
+      "short": "ASE",
+      "level": "main-fond-group",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10qznw4tkn7ghxfhrkz99",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r6hjc651061ewek672x",
+        "nameable_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Archivio segreto Estense",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r6hjc651061ewek672y",
+        "nameable_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Este-magánlevéltár",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7fmfjg2ne6gqbn91nt",
+      "name_primary_hu": "Cancelleria, Sezione estero",
+      "name_primary_it": "Cancelleria, Sezione estero",
+      "name_primary_en": "Cancelleria, Sezione estero",
+      "code": "CEXX",
+      "short": null,
+      "level": "fond-group",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r6gk9n9r7r53rzgxpj1",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r7g8nkfqp9pr8hf4s2b",
+        "nameable_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Cancelleria, Sezione estero",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r7g8nkfqp9pr8hf4s2c",
+        "nameable_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Kancellária, külügyek",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7pp60tk92x42rb89mj",
+      "name_primary_hu": "Carteggio Ambasciatori",
+      "name_primary_it": "Carteggio Ambasciatori",
+      "name_primary_en": "Carteggio Ambasciatori",
+      "code": "AMXX",
+      "short": "Amb.",
+      "level": "fond",
+      "show": true,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r7fmfjg2ne6gqbn91nt",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r7qhcr0pvm3g81wb1g6",
+        "nameable_id": "01jzq10r7pp60tk92x42rb89mj",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Carteggio Ambasciatori",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r7rb4qjnbtpggf1j2bt",
+        "nameable_id": "01jzq10r7pp60tk92x42rb89mj",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Követek levelezése",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     },
+     {
+      "id": "01jzq10r7yt5wwevp0hnmr4b8p",
+      "name_primary_hu": "Fuori Italia",
+      "name_primary_it": "Fuori Italia",
+      "name_primary_en": "Fuori Italia",
+      "code": "AMXF",
+      "short": null,
+      "level": "series",
+      "show": false,
+      "location": "",
+      "url": null,
+      "comment": null,
+      "created_at": "2025-07-09T07:22:20.000000Z",
+      "updated_at": "2025-07-09T07:22:20.000000Z",
+      "path": {},
+      "parent_id": "01jzq10r7pp60tk92x42rb89mj",
+      "created_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "updated_by": {
+       "id": "01jzq0tt6yfcvhmkz4t9fpxg1g",
+       "name": "Adminisztrátor",
+       "email": "sebezhetetlen98@gmail.com",
+       "email_verified_at": "2025-07-09T07:40:56.000000Z",
+       "last_login": "2026-07-12 13:21:42",
+       "role": 2,
+       "created_at": "2025-07-09T07:19:05.000000Z",
+       "updated_at": "2026-07-12T13:21:42.000000Z",
+       "reason_for_registration": null,
+       "accepted_at": "2025-09-25T14:34:51.000000Z",
+       "accepted_by": "01jzq0tt6yfcvhmkz4t9fpxg1g"
+      },
+      "public": true,
+      "names": [
+       {
+        "id": "01jzq10r84ccxnnsr9ryvdvmg7",
+        "nameable_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Fuori Italia",
+        "primary": true,
+        "comment": null,
+        "language": "it",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       },
+       {
+        "id": "01jzq10r84ccxnnsr9ryvdvmg8",
+        "nameable_id": "01jzq10r7yt5wwevp0hnmr4b8p",
+        "nameable_type": "App\\Models\\Archive",
+        "name": "Itálián kívül",
+        "primary": false,
+        "comment": null,
+        "language": "hu",
+        "created_at": "2025-07-09T07:22:20.000000Z",
+        "updated_at": "2025-07-09T07:22:20.000000Z"
+       }
+      ]
+     }
+    ]
+   },
+   "languages": [
+    {
+     "code": "it",
+     "pivot": {
+      "document_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+      "language_code": "it"
+     }
+    }
+   ],
+   "files": [
+    {
+     "id": "01jzqesygzyv5y803hgsykrh3t",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "uuid": "1057a532-e518-487b-8839-13d035a58cbc",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294967_0001.jpg",
+     "file_name": "01jzq1qd0g0wtp5nekwhtx4k3b-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2581815,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "88bc474009b14b21d75c7123bf74c7908f301edcc40cda2fd6c0bd2ebcb26eb0",
+      "zip_filename_prefix": "01jzq1qd0g0wtp5nekwhtx4k3b/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 1,
+     "created_at": "2025-07-09T11:23:17.000000Z",
+     "updated_at": "2025-07-09T11:23:18.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqesygzyv5y803hgsykrh3t/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqesygzyv5y803hgsykrh3t/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-web.jpg"
+    },
+    {
+     "id": "01jzqet00c22crwp02x1nee178",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "uuid": "d6d18fca-c12e-45be-ad1f-87894d009ebd",
+     "collection_name": "default",
+     "name": "HU_MNL_OL_X_10891_DF_294967_0002.JPG",
+     "file_name": "01jzq1qd0g0wtp5nekwhtx4k3b-1.JPG",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 2563202,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "0e635629d55fbdd02a57087ac75e299ff0d8c961358b12be808882a4a7fdaa80",
+      "zip_filename_prefix": "01jzq1qd0g0wtp5nekwhtx4k3b/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 2,
+     "created_at": "2025-07-09T11:23:18.000000Z",
+     "updated_at": "2025-07-09T11:23:20.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqet00c22crwp02x1nee178/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqet00c22crwp02x1nee178/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-web.JPG"
+    },
+    {
+     "id": "01jzqet1bn6ns898mw4bhebzr7",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "uuid": "987964e0-3b92-4f2b-8c68-ef7b2d11146d",
+     "collection_name": "default",
+     "name": "1397821714.jpg",
+     "file_name": "01jzq1qd0g0wtp5nekwhtx4k3b-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1255932,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "d558516bbc4eaad2c1d9365d95aede6fe29d21849159db0dc346da6c28288329",
+      "zip_filename_prefix": "01jzq1qd0g0wtp5nekwhtx4k3b/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 3,
+     "created_at": "2025-07-09T11:23:20.000000Z",
+     "updated_at": "2025-07-09T11:23:21.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqet1bn6ns898mw4bhebzr7/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqet1bn6ns898mw4bhebzr7/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-web.jpg"
+    },
+    {
+     "id": "01jzqet2b2vf5vnfkhjnk3dfbf",
+     "model_type": "App\\Models\\Document",
+     "model_id": "01jzq1qd0g0wtp5nekwhtx4k3b",
+     "uuid": "0aef14e9-27fe-40f4-a38d-6384da97934b",
+     "collection_name": "default",
+     "name": "1397821714-2.jpg",
+     "file_name": "01jzq1qd0g0wtp5nekwhtx4k3b-1.jpg",
+     "mime_type": "image/jpeg",
+     "disk": "media",
+     "conversions_disk": "media",
+     "size": 1249169,
+     "manipulations": [],
+     "custom_properties": {
+      "hash": "5161bece7cb1eea20ca1b0130334ed635533fb595a7e84fb3911d03e640a32a9",
+      "zip_filename_prefix": "01jzq1qd0g0wtp5nekwhtx4k3b/"
+     },
+     "generated_conversions": {
+      "web": true,
+      "thumb": true
+     },
+     "responsive_images": [],
+     "order_column": 4,
+     "created_at": "2025-07-09T11:23:21.000000Z",
+     "updated_at": "2025-07-09T11:23:22.000000Z",
+     "thumb_url": "https://www.vestigia.hu/media/01jzqet2b2vf5vnfkhjnk3dfbf/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-thumb.jpg",
+     "web_url": "https://www.vestigia.hu/media/01jzqet2b2vf5vnfkhjnk3dfbf/conversions/01jzq1qd0g0wtp5nekwhtx4k3b-1-web.jpg"
+    }
+   ],
+   "related_documents_left": [],
+   "related_documents_right": [],
+   "enclosed_documents": []
+  }
+ },
+ "url": "/documents/1912",
+ "version": "76a2068b1670357589207111f0814522",
+ "encryptHistory": false,
+ "clearHistory": false
+}
