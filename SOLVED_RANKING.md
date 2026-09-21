@@ -224,6 +224,7 @@ Ranked by how firmly the negative is established and how prominent the item was.
 | 5 | D'Agapeyeff challenge | 1939 | Not enciphered English | Famous; the negative is a language test, not a full explanation |
 | 6 | Beale Paper no. 1 | 1885 | Fabrication argued in the notes; book-cipher scan negative | Famous; the fabrication case is an argument, not a proof |
 | 7 | Unknown sender → unknown recipient, BL Sloane MS 3188 ff. 109–169 (DECODE R8506–R8530) | 17th c. | 17th-century English stroke shorthand, not a cipher: notes on John Dee's spirit Actions and writings, attributed to William Shippen | Catalogue 138 + 139; settled from the images; shorthand unread |
+| 8 | W. Loeschner → unknown, ÖStA HHStA Chiffrenschlüssel Kt. 20 (DECODE R2227) | 1816 | Not a cipher: a clear German memorandum amending the Staatskanzlei cipher instruction; its number groups are worked examples with the plaintext above them | Catalogue 269; settled from the images |
 
 ## Third tier: found already solved by others
 

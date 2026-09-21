@@ -4606,6 +4606,30 @@
      "sent": false
     }
    }
+  },
+  "loeschnen1816": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/loeschnen1816.html",
+   "key": {
+    "none": "no key: clear memorandum; the examples are glossed in the document"
+   },
+   "cite": "the document itself: heading and signature (Wien am 1ten Julius 1816, W. Loeschner)",
+   "fields": {
+    "author": "W. Loeschner",
+    "receiver": "none (memorandum to the Staatskanzlei)",
+    "cleartext_lang": "German",
+    "plaintext_lang": "French (worked examples)",
+    "cipher_type": "not a cipher: instruction memorandum with glossed numeric-code examples"
+   },
+   "records": {
+    "R2227": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a ciphertext: W. Loeschner's clear German memorandum (Vienna, 1 July 1816), 'Zusätze und Abänderungen' to the instruction for the Staatskanzlei's cipher keys. Its number groups are worked examples with the French plaintext written above them.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -136,6 +136,7 @@ but are not "solved" in the sense of the title.
 | D'Agapeyeff challenge | 1939 | 15 Sept 2026 | Not enciphered English | Language test only |
 | Beale Paper no. 1 | 1885 | 14 Sept 2026 | Fabrication argued; book-cipher scan over Gutenberg negative | Argument, not proof |
 | Unknown sender → unknown recipient, BL Sloane MS 3188 ff. 109–169, DECODE R8506–R8530 (catalogue 138 + 139) | 17th c. | 21 Sept 2026 | English stroke shorthand, not a cipher: notes on Dee's spirit diaries and writings (Shippen) | Recognising shorthand from the images and the BL catalogue description |
+| W. Loeschner → unknown, ÖStA HHStA Chiffrenschlüssel Kt. 20 ff. 30–40, DECODE R2227 (catalogue 269) | 1 Jul 1816 | 21 Sept 2026 | Not a cipher: a clear memorandum on the Staatskanzlei cipher instruction; its number examples are glossed | Reading the heading, the signature and the glossed examples |
 
 ## 4. Found already solved by others (lists stale)
 

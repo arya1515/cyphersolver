@@ -175,6 +175,7 @@
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
   "voynich manuscript": "2026-09-15",
+  "w. loeschner, vienna, 1 july 1816 (decode r2227)": "2026-09-21",
   "walsingham to edward wotton in scotland, jul–sept 1585": "2026-09-21",
   "wolff to princess wilhelmina, 25 july 1801": "2026-09-21",
   "“frederic, re di prussia”, blenheim papers add ms 61575 f. 95": "2026-09-21",
@@ -290,7 +291,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "06961440cec6",
+   "hash": "f480ebeb6722",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -485,7 +486,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "998539700fec",
+   "hash": "d1dcb519b644",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -517,6 +518,11 @@
    "first": "2026-09-18",
    "hash": "0c9be5496dc0",
    "updated": "2026-09-18"
+  },
+  "loeschnen1816": {
+   "first": "2026-09-21",
+   "hash": "7a92f2deb35c",
+   "updated": "2026-09-21"
   },
   "lopehurtado": {
    "first": "2026-09-20",
@@ -985,7 +991,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "11f103163e0f",
+   "hash": "761f90f1b8ac",
    "updated": "2026-09-21"
   },
   "yard1699": {
