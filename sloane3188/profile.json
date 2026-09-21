@@ -1,0 +1,59 @@
+{
+ "schema_version": 1,
+ "target": "sloane3188",
+ "title": "BL Sloane MS 3188, ff. 109-169: shorthand notes on John Dee's spirit actions (DECODE R8506-R8530)",
+ "documents": [
+  {
+   "id": "ff109-169",
+   "shelfmark": "BL Sloane MS 3188 ff. 109-169 (DECODE R8506-R8530, 25 records)",
+   "date": "unknown",
+   "year": 1595,
+   "country": "England",
+   "route": "unknown",
+   "language": "English",
+   "pages": "unknown",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["none"], "source": "No transcription found (web search 2026-09-21)"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images R8506 p1, R8509 p1, R8520 p1",
+    "image_quality": "good",
+    "notes": "Not transcribed; three pages viewed. Year is the latest date seen on the leaves (f. 137, 1595) and language is inferred from the English shorthand system; neither is established for all 23 records."
+   }
+  }
+ ],
+ "system": {
+  "types": ["not a cipher"],
+  "summary": "17th-century English stroke shorthand (Shelton/Rich family) with longhand names, Latin tags and dates.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": true, "note": "dots, commas and small letters placed around a consonant stroke mark the vowel"},
+  "homophones": {"used": false},
+  "nomenclator": {"present": false},
+  "nulls": {"present": false},
+  "key_order": "not applicable"
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "where": "BL catalogue calls ff. 109-169 'notes in cipher by William Shippen'; no reading found", "found": "not found", "used": false},
+  "inputs": ["images", "cleartext context"],
+  "attack": "none",
+  "human_role": "Supplied the DECODE login cookie earlier (bordeaux/decode/cookie.txt); nothing else.",
+  "tools": [],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "access", "what": "DECODE metadata for R8506-R8530 and three page images fetched with the cookie", "result": "worked"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "BL catalogue and Dee bibliography: ff. 109-169 are notes by William Shippen following Dee's spirit diaries (ff. 4-108)", "result": "worked"},
+  {"date": "2026-09-21", "kind": "hypothesis", "what": "Script is stroke shorthand with positional vowel marks, not a cipher; longhand names (Uriel, Raphael, Puccius, Prage, E.K., Δ) show notes on Dee's actions", "result": "worked"},
+  {"date": "2026-09-21", "kind": "literature search", "what": "Search for an existing transcription or decipherment of the Shippen notes", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "not a cipher",
+  "verification": ["historical consistency"],
+  "notes": "Shorthand notes on an already-printed text; not read. Exact shorthand system not identified."
+ }
+}

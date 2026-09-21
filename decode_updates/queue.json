@@ -3497,6 +3497,222 @@
      "sent": false
     }
    }
+  },
+  "sloane3188": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/sloane3188.html",
+   "key": {
+    "none": "no key: shorthand, not a cipher"
+   },
+   "cite": "BL catalogue, Sloane MS 3188: ff. 109r-169v notes in cipher by William Shippen",
+   "fields": {
+    "plaintext_lang": "English",
+    "cleartext_lang": "English and Latin (longhand names, titles)",
+    "cipher_type": "not a cipher: shorthand",
+    "author": "William Shippen (per BL catalogue)",
+    "receiver": "none (private notes)"
+   },
+   "records": {
+    "R8506": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8507": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8508": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8509": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence. f. 137: note on Kelley, Pucci and Prague dated 1595.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8510": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8511": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8512": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8513": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8514": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8515": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8516": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8517": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8518": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8519": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8520": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence. f. 155: year list of Dee's writings 1547-1592.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8521": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8522": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8523": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8524": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8525": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8526": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8527": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8528": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8529": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8530": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: 17th-century English stroke shorthand with names, titles and years in longhand; notes (attributed by the BL to William Shippen) on John Dee's spirit Actions and writings, following Dee's diaries on ff. 4-108. No sender or recipient; not correspondence.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -131,6 +131,7 @@
   "sir ralph boswell to william boswell, december 1627": "2026-09-21",
   "sir thomas smith to cecil and the queen, france, 1563–1566": "2026-09-21",
   "sir thomas smith, add ms 4136 f. 140 (decode r9236)": "2026-09-21",
+  "sloane ms 3188 ff. 109–169, “unknown sender to unknown recipient”": "2026-09-21",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp 106/10 worksheets, r703, 1623–24": "2026-09-21",
@@ -269,7 +270,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "dea73269ca35",
+   "hash": "e08179b3362a",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -454,7 +455,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "c62b68d7f87f",
+   "hash": "4e6d4256860f",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -762,6 +763,11 @@
    "hash": "f3073b324b02",
    "updated": "2026-09-21"
   },
+  "sloane3188": {
+   "first": "2026-09-21",
+   "hash": "19e1f2c85c5a",
+   "updated": "2026-09-21"
+  },
   "smith1562": {
    "first": "2026-09-21",
    "hash": "81ba552cec10",
@@ -909,7 +915,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1d2f94c57347",
+   "hash": "5d154faa3de1",
    "updated": "2026-09-21"
   },
   "yard1699": {
