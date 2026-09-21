@@ -1,0 +1,113 @@
+{
+ "schema_version": 1,
+ "target": "renard1554",
+ "title": "Simon Renard (London) to Prince Philip, 19 Feb 1554, AGS Estado leg. 808 f. 184 (DECODE R9959)",
+ "documents": [
+  {
+   "id": "R9959",
+   "shelfmark": "AGS Estado leg. 808 f. 184 (DECODE R9959)",
+   "date": "19 Feb 1554",
+   "year": 1554,
+   "country": "England",
+   "route": "Renard (London) to Prince Philip",
+   "language": "French",
+   "pages": 6,
+   "cleartext_in_document": "unknown",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Contemporary Spanish version calendared in Tyler, CSP Spain XII (1949) pp. 100-123; archivist's note on f. 184v says the decipherment is in 'no. 21'",
+    "partial": false
+   },
+   "length": {
+    "tokens": 0,
+    "distinct": 0,
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "not transcribed; address leaf viewed",
+    "image_quality": "good",
+    "notes": "Closed from the calendar and Tomokiyo after viewing the address leaf."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "unknown"
+  ],
+  "summary": "Granvelle-Saint Mauris cipher of 1547-48 (Pich-Ponce PP1), per Tomokiyo; DECODE: alphabet, graphic signs, numerals. Not examined here.",
+  "symbol_kind": "unknown",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Key published by Pich-Ponce; not applied here."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Tyler (ed.), CSP Spain XII (1949), 19 Feb 1554, Simancas E. 808 (Spanish translation); Tomokiyo, cryptiana spanish2C (2026) identifies the key (PP1) and reads the opening",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "cleartext context",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "web search",
+   "DECODE"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "literature search",
+   "what": "Grepped Tomokiyo's spanish2C page cache for R9959: Renard, 19 Feb 1554, Estado 808 f. 184, cipher = Granvelle-Saint Mauris PP1, opening 'Monsieur ... puis mes dernieres lectres'.",
+   "result": "worked"
+  },
+  {
+   "kind": "access",
+   "what": "Fetched the 6 DECODE images with the stored cookie; address leaf reads 'Monseigneur le prince d'Espaigne' (recipient Philip, not Charles V as Tomokiyo heads it) and an archivist's note 'creo está descifrada en el nº 21'.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "British History Online, CSP Spain XII, Feb 1554 16-20: 'Simon Renard to Prince Philip', 19 Feb, Simancas E. 808, Spanish translation, ~650 words, opening 'Since I last wrote' = the cipher's opening.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {
+   "H": 1
+  },
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Calendared 1949 from the contemporary Spanish decipherment; key published (PP1); catalogue entry 202 removed, no write-up."
+ }
+}

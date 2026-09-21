@@ -4808,5 +4808,22 @@
     "note": "Brussels, 11 January 1531 (ff. 205-206). Not from Isabella, who was never in Brussels: signature probably 'Covos Comendador Mayor' (Francisco de los Cobos) to 'muy noble señor sobrino', probably Juan Vázquez de Molina (Tomokiyo). Deciphered at the time on a separate sheet. Cipher AGS Estado leg. 1.1.1 doc. 112."
    }
   }
+ },
+ "renard1554": {
+  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/renard1554/NOTES.md (notes only, no site page)",
+  "key": {
+   "decode": "none on DECODE; Granvelle-Saint Mauris cipher 1547-48 (PP1), published by Pich-Ponce"
+  },
+  "cite": "Royall Tyler (ed.), Calendar of State Papers, Spain, vol. XII (1949), pp. 100-123, Renard to Prince Philip, 19 Feb 1554; S. Tomokiyo, cryptiana spanish2C (2026)",
+  "fields": {},
+  "records": {
+   "R9959": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Read at the time: an archivist's note on the address leaf says the decipherment is in no. 21 of the legajo, and its Spanish version is calendared in CSP Spain XII (1949): Renard reports the discovery of the Courtenay/Elizabeth/Wyatt/Carew plot. Cipher is the Granvelle-Saint Mauris cipher (Pich-Ponce PP1).",
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }
