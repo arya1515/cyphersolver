@@ -147,6 +147,18 @@
    "kind": "literature search",
    "what": "DECODE key records, Colenbrander Gedenkstukken V, NA 2.21.008.78 (Röell papers) inventory: no key or decipherment.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Found DECODE's archive number wrong (1.02.04 = Portugal); Turkish legation is NA 1.02.20. Checked its online scans: inv. 804 (1785-93 SG copies), 988 (Röell to Testa 1809-10, clear Dutch, no 9 Feb despatch), 990 (Dedem to Testa, clear French), 980 (Testa to Dedem copies, clear).",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "French and 'Monsieur' fit Van Dedem to chargé Testa rather than Röell; no clear counterpart found.",
+   "result": "unknown"
   }
  ],
  "outcome": {

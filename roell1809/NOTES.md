@@ -46,6 +46,27 @@ The language is French per DECODE; no plaintext confirms it. No group exceeds ab
 A ciphertext-only attack on 2,600 groups of a homophonic word code with about 3,000 values is not realistic.
 Compare Dedem 1788, where even ~1,300 groups of aligned crib gave no consistent key.
 
+
+## Archive check, Nationaal Archief 1.02.20 legatie Turkije (online scans, 21 Sept 2026)
+
+DECODE's "1.02.04 legatie Turkije" is the wrong archive number: 1.02.04 is Schonenberg's Portugal legation; the Turkish
+legation is **1.02.20** (inventory `turk_inv.txt`). Its scanned items were checked page by page (scans git-ignored):
+
+- **inv. 804** (174 scans): clear Dutch *copies* of the legation's letters to the States General, 1785–93. The cipher
+  pages are not there; DECODE's "inv. 804" is probably an old number.
+- **inv. 988** (123 scans), "Dépêches de S.E. W.F. Röell … à Monsieur Gaspard Testa, Chargé d'affaires … près la
+  Sublime Porte", 1809–10: numbered, all in clear Dutch ("Mynheer"). No. 1 is 10 Jan 1809 (to Van Dedem), No. 2 is 14
+  March, No. 3 is 17 March. **Röell sent no despatch of 9 Feb 1809 in this series, and he wrote in Dutch**, so R1469/R1470
+  (French, "Monsieur") are probably not his.
+- **inv. 990** (83 scans), Van Dedem's letters to Testa from Bucharest, Vienna and Holland, 1809–11: in clear French,
+  "Monsieur" (Bucharest 17, 25, 29 Jan 1809…). No cipher and no decipherment seen.
+- **inv. 980** (143 scans), copies of Testa's letters to Van Dedem, 1808–11: clear French, "Excellence"; copies of 10 and
+  26 Feb 1809 but none of 9 Feb.
+
+The "Monsieur" salutation and the French fit Van Dedem writing to Testa better than Röell, but no clear counterpart
+of either cipher letter was found in these four files. The Croiset letters in NA 2.21.008.78 and Boon (2012) are
+not online.
+
 ## What would move it
 
 - The codebook: legation papers (NA 1.02.04 legatie Turkije, around inv. 804) or Croiset's 1808–09 letters in
