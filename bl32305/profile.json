@@ -285,6 +285,18 @@
    "kind": "literature search",
    "what": "Key hunt for the Carré code: viewed R2971 (different 4-figure code, to a prince, not Carré; its de=448/que=745 absent from the Carré text) and R2975-R2981 (1749-59 letter ciphers/codes, none in the Carré code); R2972 pencil marks shown to be sheet cross-references to recurring runs, not decipherments; web search for Carré, Pall Mall, the jeweller Chevening and Add MS 32305 found nothing.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Catalogue #79 (R2978-R2979, 'Unknown sender (Dresden)'): fetched both records' images (4 + 2 pp.) with the DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "R2978 (f. 32, Dresden 25 Jan 1750): 2-figure letter cipher deciphered letter by letter between the lines at the time (names Mr de Guydickens). R2979 (f. 34, Hague 9 Aug 1753, 'Hanau to Fer.'): the decipherer's working copy of a 4-figure syllable/word code, glossed in part, question marks where he stopped. Closed as read at the time / read in part at the time; no new decipherment attempted.",
+   "result": "worked"
   }
  ],
  "outcome": {

@@ -23,8 +23,8 @@ correspondence. All nineteen records R2963–R2981 were viewed (R2975–R2981 on
 | R2972 | ff. 22–23 | "Lond. 19 Janv. 1745", all figures, same code as R2968 (212, 771, 283, 606…) | **attempted, closed**: transcribed |
 | R2973 | f. 24 | 6 March 1749, Vienna/Petersburg accession, code groups | glossed: read (not in #78) |
 | R2974 | ff. 25–28 | "L. 17/28 Nov. 1749", 2-figure letter cipher | deciphered letter by letter: **read** |
-| R2975–R2978 | ff. 29–33 | Dec 1749 – Jan 1750 (some Dresden), French, 2-figure letter cipher | deciphered interlinear: read (not in #78) |
-| R2979 | f. 34 | Hague 9 Aug 1753, "Hanau to Fer.", 4-figure code in a clear letter | glossed: read (not in #78) |
+| R2975–R2978 | ff. 29–33 | Dec 1749 – Jan 1750 (some Dresden), French, 2-figure letter cipher | deciphered interlinear: read (R2978 = #79) |
+| R2979 | f. 34 | Hague 9 Aug 1753, "Hanau to Fer.", 4-figure code in a clear letter | decipherer's working copy, glossed in part: read in part at the time (#79) |
 | R2980 | ff. 35–36 | "A Mr de H.", London 8–12 Dec 1758, continuous 2-digit cipher | deciphered: read (not in #78) |
 | R2981 | ff. 37–39 | L. 12/23 Jan 1759, 2-figure letter cipher | deciphered: read (not in #78) |
 
@@ -144,3 +144,20 @@ What would break it:
 
 Checked: the BL catalogue description (unidentified cipher keys) and a web search for the shelfmark; no edition or
 study of these letters found. DECODE has no transcription files for any of the records.
+
+## Catalogue #79: R2978 and R2979 (checked 21 Sept 2026)
+
+The rule scorer made "Unknown sender (Dresden) to unknown recipient, 2 ciphertexts, 25 Jan 1750 – 9 Aug 1753" out of
+the last two records of the file. Both were viewed at full resolution. They are two unrelated items, and neither is open:
+
+- **R2978, f. 32 (4 pp.)**, "Dresde 25. Janv. 1750", French, a 2-figure letter cipher (e.g. 93 = s, 24 = t, 54 = d,
+  12 = n). The contemporary decipherer wrote the plaintext letter by letter over every line ("…que l'on ignore pas les
+  dangers auxquels notre position nous expose… les insinuations de Mr de Guydickens…"). Read at the time.
+- **R2979, f. 34 (2 pp.)**, "Hanau to Fer.", "Hague, 9 Aout 1753". This is not the intercepted letter itself. It is the
+  decipherer's working copy: the clear syllables written out, the unread 4-figure groups (up to about 3300) left as
+  figures, with glosses over the groups he had worked out (1688 = si in "con-si-derable", 3227 = Devonshire, 1560 = roi,
+  1808 = Lor…). The second page ends "Ici on parle du mariage de 3245 avec 3263" and a column of question marks. Read in
+  part at the time. The code is syllabic and word-level; from one working sheet, most of the unglossed groups occur once,
+  so no new reading was attempted.
+
+Catalogue #79 was removed as read at the time.

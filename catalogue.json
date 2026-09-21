@@ -858,46 +858,6 @@
    "writeup": "bl32305.html"
   },
   {
-   "id": 79,
-   "counted": false,
-   "year": 1750,
-   "date": "25 Jan 1750 – 9 Aug 1753",
-   "title": "Unknown sender (Dresden) to unknown recipient, 2 ciphertexts",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "Dresden, Germany",
-   "language": "...",
-   "region": "England",
-   "period": "1701-1800",
-   "shelfmark": "BL, Add MS 32305 (2 items)",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R2978–R2979 (2 records): Partially decrypted, 6 pp., nomenclator, simple substitution; numerical; images login. Not viewed here. 1 key record(s) from the same series on DECODE, nearest R2969 (1742). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded.",
-   "why": "Ciphered despatches of Unknown sender to unknown recipient, 25 Jan 1750 – 9 Aug 1753; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2978",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2978"
-    },
-    {
-     "label": "DECODE R2979",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2979"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2978,
-    2979
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 84,
    "counted": true,
    "year": 1568,
