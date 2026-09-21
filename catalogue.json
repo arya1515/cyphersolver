@@ -5448,7 +5448,7 @@
    "shelfmark": "BnF, Français 3621, no. 116, f. 130",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R9451: Non-decrypted, 1 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE's notes say there is a contemporary decipherment on the leaf; so the text was read at the time and this is a transcription job, listed as noted rather than open. DECODE note: Letter, with cipher and decryption, from Joachim de Jaucourt Baron de Dinteville to the Duke of Nivernois. From Langres, July 3rd 1592. The image is not in the public domain. Publishing is only possible with permission from the library. blancmesnil/NOTES.md works in the same fr. 3621 series.",
+   "status": "Attempted 21 Sept 2026, not read. The DECODE image and Gallica (btv1b52524472n view 269) show no decipherment on f. 130: two cipher passages (~10 lines) and a clear postscript. Sibling f. 128 (view 265), same signs, has an interlinear decipherment (~150 signs), but no one-sign-one-letter key fits it; code signs likely. Needs a careful sign transcription of ff. 128 and 130.",
    "why": "Ciphered letter of Joachim de Jaucourt Baron de Dinteville to Duke of Nivernois, 3 Jul 1592; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 4,
@@ -5467,7 +5467,9 @@
    "decode_ids": [
     9451
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "dinteville1592.html"
   },
   {
    "id": 184,

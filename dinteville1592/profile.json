@@ -1,0 +1,69 @@
+{
+ "schema_version": 1,
+ "target": "dinteville1592",
+ "title": "Dinteville (Langres) to the Duke of Nevers, 3 July 1592, BnF Français 3621 no. 116 f. 130 (DECODE R9451)",
+ "documents": [
+  {
+   "id": "f130",
+   "shelfmark": "BnF Français 3621 no. 116 f. 130 (DECODE R9451; Gallica btv1b52524472n view 269)",
+   "date": "3 Jul 1592",
+   "year": 1592,
+   "country": "France",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["none"], "source": "No decipherment on the leaf despite the DECODE note; postscript is clear French"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Gallica view 269 and DECODE image; not transcribed in full", "image_quality": "good"}
+  },
+  {
+   "id": "f128",
+   "shelfmark": "BnF Français 3621 f. 128 (Gallica view 265), probably no. 114",
+   "date": "Jul 1592",
+   "year": 1592,
+   "country": "France",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {"location": ["interlinear"], "source": "Contemporary decipherment written above each cipher line"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Gallica view 265; one line (50 signs) transcribed by eye", "image_quality": "good"}
+  }
+ ],
+ "system": {
+  "types": ["nomenclator", "undetermined"],
+  "summary": "Letter-and-sign substitution with apparent code signs for words; a one-sign-one-letter homophonic mapping does not fit the f. 128 crib.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "sibling_key": "f. 128 of the same volume, same sign set, with interlinear decipherment",
+  "notes": "Dots follow some signs; the decipherer wrote + and | for unexpanded signs."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "found": "not found", "used": false},
+  "inputs": ["images", "crib"],
+  "attack": "crib",
+  "human_role": "none",
+  "tools": ["align.py consistency search"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "access", "what": "DECODE R9451 image fetched with cookie; fr. 3621 found on Gallica (btv1b52524472n), ff. 127-131 viewed.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "verification", "what": "Checked f. 130 for the contemporary decipherment DECODE mentions: none; the postscript is clear French.", "result": "ruled out"},
+  {"date": "2026-09-21", "kind": "crib", "what": "Found f. 128, a sibling Dinteville letter in the same signs with interlinear decipherment.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "transcription", "what": "Transcribed 50 signs of the f. 128 second cipher line by eye.", "result": "partial"},
+  {"date": "2026-09-21", "kind": "hypothesis", "what": "One-sign-one-letter homophonic mapping with up to three null types, aligned to the interlinear (align.py).", "result": "failed"}
+ ],
+ "outcome": {
+  "class": "not read",
+  "verification": ["none"],
+  "notes": "Crib found on f. 128 but key not rebuilt; needs a careful sign transcription of ff. 128 and 130."
+ }
+}
