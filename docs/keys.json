@@ -367,6 +367,214 @@
    "by": "",
    "year": 1588,
    "note": "Key rebuilt from glossed sibling letters in the volume."
+  },
+  {
+   "id": "k-r9262",
+   "label": "DECODE R9262 (Add MS 4136 keys)",
+   "kind": "DECODE key record",
+   "by": "Throckmorton's secretariat",
+   "year": 1560,
+   "note": "key sheet at Add MS 4136 ff.177-190"
+  },
+  {
+   "id": "k-r9261",
+   "label": "DECODE R9261 Smith's cipher",
+   "kind": "DECODE key record",
+   "by": "Thomas Smith",
+   "year": 1563,
+   "note": "Add MS 4136 f.179"
+  },
+  {
+   "id": "k-woodard-r413",
+   "label": "Woodard's R413 key",
+   "kind": "scholar's key",
+   "by": "Woodard (DECODE)",
+   "year": 2021,
+   "note": "posted on DECODE R413"
+  },
+  {
+   "id": "k-waldispuhl-kopal",
+   "label": "Waldispühl & Kopal's Heusner key",
+   "kind": "scholar's key",
+   "by": "Waldispühl & Kopal",
+   "year": 2024,
+   "note": "HistoCrypt 2024"
+  },
+  {
+   "id": "k-pitt-forster",
+   "label": "Pitt's Forster key",
+   "kind": "scholar's key",
+   "by": "Robert Pitt (Lasry, Biermann earlier)",
+   "year": 2026,
+   "note": "GitHub robertpitt/forster-cipher"
+  },
+  {
+   "id": "k-petit-chiffre-1690",
+   "label": "Petit chiffre 1690",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1690,
+   "note": "rebuilt from the printed translation"
+  },
+  {
+   "id": "k-bazeries-1691",
+   "label": "Bazeries' Grand Chiffre 1691",
+   "kind": "scholar's key",
+   "by": "Étienne Bazeries",
+   "year": 1893,
+   "note": "Le Masque de fer"
+  },
+  {
+   "id": "k-rommel-hesse",
+   "label": "Rommel's printed Hesse key",
+   "kind": "contemporary key",
+   "by": "Rommel (from van der Kemp)",
+   "year": 1846,
+   "note": "printed 1846; corrected here"
+  },
+  {
+   "id": "k-gabbrielli",
+   "label": "Gabbrielli's key 1",
+   "kind": "scholar's key",
+   "by": "Gabbrielli",
+   "year": 1863,
+   "note": "tabulated key, on film"
+  },
+  {
+   "id": "k-sadoleto1482",
+   "label": "Sadoleto 1482 key",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1482,
+   "note": "from clear copies 7a/13a"
+  },
+  {
+   "id": "k-lasry-sormano",
+   "label": "Lasry's Sormano key",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": 2023,
+   "note": "Cryptiana; three corrections here"
+  },
+  {
+   "id": "k-lope1522",
+   "label": "Lope Hurtado 1522 key",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1522,
+   "note": "from the bound 'Claro' decipherment f.242"
+  },
+  {
+   "id": "k-soria-b",
+   "label": "Soria key B (R9844)",
+   "kind": "rebuilt here",
+   "by": "",
+   "year": 1523,
+   "note": "from a court decipherment R9844"
+  },
+  {
+   "id": "k-breves-fr3462",
+   "label": "BnF fr. 3462 f. 103 key",
+   "kind": "contemporary key",
+   "by": "",
+   "year": 1603,
+   "note": "Brèves's original key"
+  },
+  {
+   "id": "k-manchester1699",
+   "label": "Manchester's cypher copy (Yale)",
+   "kind": "contemporary key",
+   "by": "Deciphering office copy",
+   "year": 1699,
+   "note": "Copy of the E. of Manchester's Cypher, Yale 2046948"
+  },
+  {
+   "id": "k-r596",
+   "label": "DECODE R596",
+   "kind": "DECODE key record",
+   "by": "",
+   "year": 1758,
+   "note": "SP 106 key; R594 ruled out"
+  },
+  {
+   "id": "k-tomokiyo-mary",
+   "label": "Tomokiyo's Mary–Norfolk key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "",
+   "note": "rebuilt from Cotton Caligula C II ff. 66/69/75"
+  },
+  {
+   "id": "k-tomokiyo-maisse",
+   "label": "Tomokiyo's Maisse keys",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "",
+   "note": "rebuilt from sibling letters in fr. 16093"
+  },
+  {
+   "id": "k-champagne-f36",
+   "label": "Key bound on f. 36r",
+   "kind": "contemporary key",
+   "by": "",
+   "year": "1590",
+   "note": "the letter's own small-number key"
+  },
+  {
+   "id": "k-tomokiyo-nevers46",
+   "label": "Tomokiyo's Nevers cipher no. 46",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "",
+   "note": "Nevers key book"
+  },
+  {
+   "id": "k-tomokiyo-nevers60",
+   "label": "Tomokiyo's Nevers cipher no. 60 (Court symbols)",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "1593",
+   "note": "fr. 3995 ff. 108-110"
+  },
+  {
+   "id": "k-tomokiyo-cg13",
+   "label": "Tomokiyo's Cg.13 fragment",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "1587",
+   "note": "partial Spanish general cipher table"
+  },
+  {
+   "id": "k-r7537",
+   "label": "DECODE R7537 (English key for Bordeaux)",
+   "kind": "DECODE key record",
+   "by": "Deciphering Branch",
+   "year": 1653,
+   "note": "BL Add MS 32263 f. 1"
+  },
+  {
+   "id": "k-tomokiyo-ibarra92",
+   "label": "Tomokiyo's Spanish cipher 1592-93",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": "1592",
+   "note": "key92.tsv; office copy at BnF fr. 3995 f. 97"
+  },
+  {
+   "id": "k-r1035",
+   "label": "DECODE R1035 codebook 1803",
+   "kind": "DECODE key record",
+   "by": "Legatie Rusland",
+   "year": 1803,
+   "note": "NA 1.02.13 inv. 228"
+  },
+  {
+   "id": "k-lasry-adfgvx",
+   "label": "Lasry et al. ADFGVX keys",
+   "kind": "scholar's key",
+   "by": "Lasry, Niebel, Kopal, Wacker",
+   "year": "",
+   "note": "fourteen published three-day keys"
   }
  ],
  "links": [
@@ -729,6 +937,162 @@
    "target": "harley287",
    "how": "rebuilt from",
    "note": ""
+  },
+  {
+   "key": "k-r9262",
+   "target": "throckmorton",
+   "how": "partial",
+   "note": "verified on two samples"
+  },
+  {
+   "key": "k-r9261",
+   "target": "smith1562",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-woodard-r413",
+   "target": "boswell1628",
+   "how": "read unchanged",
+   "note": "re-derived from Woodard's alignment"
+  },
+  {
+   "key": "k-waldispuhl-kopal",
+   "target": "heusner1637",
+   "how": "read unchanged",
+   "note": "re-checked on one page"
+  },
+  {
+   "key": "k-pitt-forster",
+   "target": "forster",
+   "how": "read unchanged",
+   "note": "permutation control"
+  },
+  {
+   "key": "k-petit-chiffre-1690",
+   "target": "feuquieres",
+   "how": "rebuilt from",
+   "note": "printed translation crib"
+  },
+  {
+   "key": "k-bazeries-1691",
+   "target": "catinat1691",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-rommel-hesse",
+   "target": "hesse1603",
+   "how": "adapted",
+   "note": "corrections from the texts"
+  },
+  {
+   "key": "k-gabbrielli",
+   "target": "florence1429",
+   "how": "partial",
+   "note": ""
+  },
+  {
+   "key": "k-sadoleto1482",
+   "target": "sadoleto1482",
+   "how": "rebuilt from",
+   "note": "clear copies"
+  },
+  {
+   "key": "k-lasry-sormano",
+   "target": "sormano",
+   "how": "adapted",
+   "note": "three corrections"
+  },
+  {
+   "key": "k-lope1522",
+   "target": "lopehurtado",
+   "how": "rebuilt from",
+   "note": "contemporary decipherment"
+  },
+  {
+   "key": "k-soria-b",
+   "target": "soria1523",
+   "how": "rebuilt from",
+   "note": "key B only"
+  },
+  {
+   "key": "k-breves-fr3462",
+   "target": "breves1603",
+   "how": "partial",
+   "note": "checked on f.60"
+  },
+  {
+   "key": "k-manchester1699",
+   "target": "yard1699",
+   "how": "read unchanged",
+   "note": "letters read straight off with the contemporary key copy"
+  },
+  {
+   "key": "k-r596",
+   "target": "eichel1758",
+   "how": "explained",
+   "note": "the sheet is the nulls and blank cells of R596"
+  },
+  {
+   "key": "k-tomokiyo-mary",
+   "target": "norfolk1570",
+   "how": "partial",
+   "note": "Tomokiyo key checked on f. 66r; some nomenclator signs unkeyed"
+  },
+  {
+   "key": "k-tomokiyo-maisse",
+   "target": "maisse1592",
+   "how": "adapted",
+   "note": "published tables read the leaves; one sign added"
+  },
+  {
+   "key": "k-champagne-f36",
+   "target": "champagne1590",
+   "how": "read unchanged",
+   "note": "reads in full with the key on f. 36r"
+  },
+  {
+   "key": "k-tomokiyo-nevers46",
+   "target": "nevers1593",
+   "how": "read unchanged",
+   "note": "two Pisany letters, every figure resolves"
+  },
+  {
+   "key": "k-tomokiyo-nevers60",
+   "target": "nevers1593",
+   "how": "read unchanged",
+   "note": "five Revol letters in the Court symbol cipher"
+  },
+  {
+   "key": "k-tomokiyo-cg13",
+   "target": "mendoza1589",
+   "how": "partial",
+   "note": "alignment with the decipherer's clear copy extends the fragment; Simancas table not found"
+  },
+  {
+   "key": "k-r7537",
+   "target": "bordeaux1653",
+   "how": "read unchanged",
+   "note": "1653 letter read with the English key"
+  },
+  {
+   "key": "k-tomokiyo-ibarra92",
+   "target": "sessa1593",
+   "how": "adapted",
+   "note": "published key extended to 133 entries; read in part"
+  },
+  {
+   "key": "k-r1035",
+   "target": "r1942",
+   "how": "partial",
+   "note": "matching codebook; partial transcription, cautious reconstruction"
+  },
+  {
+   "key": "k-lasry-adfgvx",
+   "target": "adfgvx",
+   "how": "read unchanged",
+   "note": "published keys applied"
   }
  ],
  "sources": [
@@ -889,6 +1253,74 @@
   {
    "source": "s-decode",
    "key": "k-r936"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r9262"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r9261"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-woodard-r413"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-sormano"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-soria-b"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r596"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-mary"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-maisse"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-nevers46"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-nevers60"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-cg13"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r7537"
+  },
+  {
+   "source": "s-tomokiyo",
+   "key": "k-tomokiyo-ibarra92"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-r1035"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-adfgvx"
   }
- ]
+ ],
+ "unlinked": {
+  "riksarkivet1628": "key rebuilt from its own text only (Bremen grid-band key); others open",
+  "boswell": "key rebuilt from its own text only",
+  "randolph1570": "read from the contemporary decipherment (f. 278, R4932); no key",
+  "walsingham1585": "key not identified; name numbers from context only",
+  "hyde": "Barwick key tested and does not read it; key not identified",
+  "hellen1752": "not read; key not identified"
+ }
 }

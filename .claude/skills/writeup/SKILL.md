@@ -127,7 +127,9 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
 - **Key web** (`docs/keys.json`): when a named key read this target (a sibling's key, a DECODE key record, Lasry's or
   Tomokiyo's table, a key rebuilt here), add a `links` entry `{"key", "target": "<slug>", "how": "read unchanged" |
   "adapted" | "rebuilt from" | "partial", "note"}`, and a `keys` entry `{"id": "k-…", "label", "kind", "by", "year",
-  "note"}` if the key is new. Only edges the NOTES state explicitly.
+  "note"}` if the key is new. Only edges the NOTES state explicitly. When no named key read it (read from a
+  contemporary decipherment, key rebuilt from its own text only, key not identified), record that instead as
+  `"unlinked": {"<slug>": "<reason>"}`; `_check_writeup.py` warns until one or the other is there.
 - **Zoom overlay** (`docs/zoom/<image name>.json`, optional): every figure image already opens in the deep-zoom viewer
   (`zoom.js`). To lay the transcription over a line crop, give `{"image", "source", "lines": [{"x", "y", "w", "h",
   "text", "gloss"}]}` with the box in fractions of the image, placed by looking at the image; `text` from the repo's

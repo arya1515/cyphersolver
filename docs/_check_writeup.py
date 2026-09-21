@@ -297,7 +297,7 @@ def check_slug(slug):
         keyed = (p.get('conditions') or {}).get('attack') in ('sibling key', 'key from archive', 'published key') or any(
             s.get('kind') in ('sibling key', 'key from source') and s.get('result') in ('worked', 'partial') for s in p.get('solution') or [])
         if keyed:
-            item(any(l.get('target') == slug for l in kw.get('links', [])),
+            item(any(l.get('target') == slug for l in kw.get('links', [])) or slug in kw.get('unlinked', {}),
                  f'docs/keys.json links the key that read {folder} (its profile names a sibling, archive or published key)', warn=True)
         routed = [d for d in p.get('documents') or [] if '->' in str(d.get('route', '')) and '?' not in str(d.get('route', ''))
                   and 'unknown' not in str(d.get('route', '')).lower()]
