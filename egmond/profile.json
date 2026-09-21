@@ -4,7 +4,7 @@
   "title": "Charles of Egmond, BnF fr. 3015 no. 8",
   "documents": [
     {
-      "id": "letter-and-address",
+      "id": "letter-body",
       "shelfmark": "BnF français 3015 no. 8, folio 16",
       "year": "unknown",
       "country": "Guelders",
@@ -14,22 +14,45 @@
         "location": "unknown"
       },
       "length": {
-        "tokens": "unknown",
+        "tokens": 726,
         "unit": "symbols",
-        "measured": false
+        "measured": true,
+        "file": "body_complete_tokens.txt"
       },
       "transcription": {
         "by": "llm from images",
         "image_quality": "good",
-        "notes": "Sixteen main lines and two raised insertions transcribed. Body file has 726 labels (aliases included); address separately audited. Ink-heavy date u and some zigzags/crosses remain uncertain. See READING.md."
+        "notes": "Sixteen lines and two insertions; 726 labelled signs. Variants retained; blotted date u and left-bar x are marked M. No independent key or clear copy."
+      }
+    },
+    {
+      "id": "ciphered-address",
+      "shelfmark": "BnF français 3015 no. 8, folio 16",
+      "year": "unknown",
+      "country": "Guelders",
+      "language": "French",
+      "cleartext_in_document": "none",
+      "plaintext": {
+        "location": "unknown"
+      },
+      "length": {
+        "tokens": 48,
+        "unit": "symbols",
+        "measured": true,
+        "file": "address_complete_tokens.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "good",
+        "notes": "Three lines, 48 compound signs/nulls; address_audited.json records shapes and values. No personal name in the address."
       }
     }
   ],
   "system": {
     "types": [
-      "undetermined"
+      "monoalphabetic"
     ],
-    "summary": "Inferred graphic letter substitution with nulls and compound glyphs; several draft aliases remain.",
+    "summary": "Graphic letter substitution with nulls, paired-stroke compound letters and u/v shared; inferred from the letter and its address.",
     "symbol_kind": "symbols",
     "distinct_symbols": "unknown",
     "diacritics": {
@@ -53,17 +76,19 @@
       "used": false
     },
     "inputs": [
-      "images"
+      "images",
+      "cleartext context"
     ],
-    "attack": "unknown",
+    "attack": "ciphertext-only",
     "human_role": "User supplied target and Gallica link and reminded the model of the existing private DECODE cookie.",
     "models": [
-      "unknown"
+      "GPT-6 (Codex; exact runtime identifier unavailable)"
     ],
     "tools": [
       "Gallica IIIF",
       "NumPy substitution probe; existing period-French 5-gram model"
-    ]
+    ],
+    "last_date": "2026-09-20"
   },
   "solution": [
     {
@@ -215,14 +240,20 @@
       "kind": "literature search",
       "what": "Targeted searches on the newly read titles and apparent date found no matching edition or confirmed year; no external plaintext used.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "result": "worked",
+      "what": "Native-image review distinguishes the left-extending bar in lextreme from plain plus/g. It still has only one occurrence, so x remains M. Native crops confirm the anomalous literal forms; no silent emendation. All main lines, both insertions, address and clear closing accounted for."
     }
   ],
   "outcome": {
-    "class": "read in part",
-    "fraction_read": "unknown",
+    "class": "read",
+    "fraction_read": 1.0,
     "verification": [
       "none"
     ],
-    "notes": "Full candidate body, two insertions and address now read; residual M glyphs/spellings and final consistency review remain. Site write-up pending; no independent clear-copy or key verification."
+    "notes": "Every transcribed sign has a proposed letter or null value; this is coverage, not 100% confidence. Left-bar x and blotted date u remain M; anomalous literal spellings retained. Internal body/address consistency only, no independent key or clear copy."
   }
 }

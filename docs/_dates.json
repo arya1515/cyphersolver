@@ -170,7 +170,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "417ce34329fe",
+   "hash": "32d0af17cf61",
    "updated": "2026-09-20"
   },
   "catinat1691": {
@@ -207,6 +207,11 @@
    "first": "2026-09-15",
    "hash": "a7bc68819e01",
    "updated": "2026-09-15"
+  },
+  "egmond": {
+   "first": "2026-09-20",
+   "hash": "528688d6184e",
+   "updated": "2026-09-20"
   },
   "esp318": {
    "first": "2026-09-17",
@@ -280,7 +285,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0de88a51ad3f",
+   "hash": "735428e8064f",
    "updated": "2026-09-20"
   },
   "kauderbach1754": {
@@ -545,7 +550,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a9a573e44bdc",
+   "hash": "7f23fbf140e3",
    "updated": "2026-09-20"
   },
   "yard1699": {

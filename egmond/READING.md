@@ -1,6 +1,6 @@
 # Charles of Egmond to the grand master of France
 
-Status: in progress — full candidate reading; final consistency review and site write-up pending.
+Status: read, with minor glyph uncertainties and literal anomalies retained.
 
 Source: BnF français 3015, no. 8, folio 16. [Body, Gallica view 27](https://gallica.bnf.fr/ark:/12148/btv1b9060086g/f27.item); [address, view 28](https://gallica.bnf.fr/ark:/12148/btv1b9060086g/f28.item).
 
@@ -53,7 +53,7 @@ reading above. “Certain” interprets the unexpanded `aulc`; 18 July interpret
 ## Residual uncertainties and limits
 
 - **M, line 4:** the small cross assigned EX/x in `lextreme` is supported by
-  context; its visual distinction from plain plus/g needs a final inventory check.
+  context. Native-image review shows its bar extending left from the upright, unlike the plain plus/g; the value still rests on one occurrence and remains M.
 - **M, line 15:** the u in `dih[u]itieme` is ink-heavy, with its stem visible.
   The apparent date is 18 July. No year is present in the recovered date clause.
 - **M, insertion 7:** the small e after t overlaps a descender from the line above.
@@ -63,8 +63,7 @@ reading above. “Certain” interprets the unexpanded `aulc`; 18 July interpret
   in `body_audit.json`, but this does not constitute an independent decipherment.
 - The raw forms `sueis`, `uouellu`, `cosidere`, `auir`, `aulc` and the repetition
   `en ce / ce faisant` have not been silently repaired. They may reflect spelling,
-  enciphering slips, abbreviations, or residual glyph errors. Re-inspection is
-  required before choosing between those explanations.
+  enciphering slips, abbreviations, or residual glyph errors. Native-resolution re-inspection retains these shapes; it does not establish which of those explanations is responsible.
 - The title identifies the recipient as grand master of France. The actual person
   and the ambassador's personal name remain unestablished. “Commander of Saint
   John” is a title in the letter, not a recovered personal name.

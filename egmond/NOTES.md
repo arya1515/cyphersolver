@@ -1,6 +1,6 @@
 # Charles of Egmond, BnF français 3015 no. 8
 
-Status: in progress
+Status: read, with minor uncertainties retained
 
 ## 20 September 2026: source location
 
@@ -261,3 +261,23 @@ review and site write-up remain pending. Target status remains in progress.
 Searches using Gueldres/commandeur/grand maistre and Arnhem/18 juillet did not
 identify a matching edition, a verified year, or the ambassador's name. No new
 external plaintext has been used.
+
+
+## Final reading and publication review
+
+The body (16 main lines plus two insertions), address (three lines), clear closing
+and signature are all accounted for. Native-resolution crops were inspected for
+the anomalous forms. The cross in lextreme has a bar extending left from the stem,
+distinct from the plain cross used for g; x still has only one occurrence and is
+graded M. The blotted date u remains M. These are disclosed local uncertainties,
+not unresolved passages. No independent clear copy or key has been found; no
+claim of 100% letter accuracy or proven priority is made.
+
+The corrected body has 726 labelled signs and the address 48, measured from the
+replay files. The 27 body label names include u variants and a special label for
+the blotted u; they are not a claim of 27 distinct historical glyphs. The original
+catalogue's 1520s attribution is not substantiated by the recovered date. The
+reading gives Arnhem, apparently 18 July, without a year. Recipient and ambassador
+are identified only by the titles actually in the cipher.
+
+The write-up surfaces pass docs/_check_writeup.py egmond; the profile validates. The local page was inspected in the browser, including the full reading table. The decoder confirms edition-to-token fidelity and both insertion anchors. These software checks do not establish an independent historical control.

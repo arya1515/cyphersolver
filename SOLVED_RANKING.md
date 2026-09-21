@@ -134,6 +134,14 @@ p34 0.25 + 1.00 + 0.60 + 0.30 + 0.10 + 0.30;
 p35 0.75 + 0.75 + 0.60 + 0.50 + 0.10 + 0.30;
 p36 1.00 + 0.75 + 1.00 + 0.40 + 0.10 + 0.30.
 
+### Provisional addition, 20 September 2026: Egmond
+
+Charles of Egmond (p43, 3.15) sits just above Armstrong in this provisional scoring; no claim of an independently confirmed first reading is made.
+
+| # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| p43 | **Charles of Egmond → grand master of France**, BnF fr. 3015 no. 8 | 18 July (?), year unknown | 4 | 3 | 3 | 3 | 2 | 3 | **3.15** | Ciphertext-only graphic substitution with nulls, recovered from images after failed short probes. Full letter and address read with minor doubts. A request for support in war, without campaign year or personal names. Novelty unproven; verification is internal. |
+
 ## By single axis
 
 **Hardest cryptanalysis (D):** Ségur · Sun Yat-sen · Lucca · Feuquières · Richelieu. Ségur alone combined an
@@ -351,3 +359,5 @@ editorial.
 
 
 Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).
+
+Egmond provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×3 = **3.15**.

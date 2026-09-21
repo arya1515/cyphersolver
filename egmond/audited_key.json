@@ -1,6 +1,6 @@
 {
-  "status": "Occurrence-audit revision; audited body lines are listed in body_audit.json",
-  "provenance": "Full-body annealing followed by manuscript comparison and the independent address formula. No archived key or published plaintext found.",
+  "status": "Inferred final reading key; local M readings documented in READING.md",
+  "provenance": "Full-body annealing followed by manuscript comparison and the separately transcribed address formula. No archived key or published plaintext found.",
   "tokens": {
     "X": "",
     "F": "",
@@ -37,10 +37,10 @@
     "Top-bar b and f differ; the address g label is not one consistently identified glyph.",
     "DD and CE are compound shapes, not proof of two independently repeated cipher letters.",
     "Clear-text word division and u/v modernization have not been added here.",
-    "K denotes the h-like null only; earlier labels sometimes conflated it with a five/d. Unaudited lines may retain such errors.",
-    "J is plain plus/g, distinguished from angular four/u. Unaudited lines retain their old plus labels.",
+    "K denotes the h-like null only; earlier labels sometimes conflated it with a five/d. Occurrence corrections are recorded in body_audit.json.",
+    "J is plain plus/g, distinguished from angular four/u. All main lines have been re-inspected.",
     "U is rounded cup null, not angular V/a.",
-    "EX is the small cross before t in lextreme; x is contextual and its distinction from J/g needs further inventory checking.",
+    "EX is a small left-bar sign before t in lextreme; distinct from plain plus/g at native resolution, but x remains M because it has one occurrence.",
     "G/open C is h, supported jointly by Jehan, charge and the proposed Arnhem; earlier x mapping withdrawn.",
     "A_blotted in dih[u]itieme is an ink-heavy sign interpreted as u from its visible stem and date context; bracketed, grade M."
   ]

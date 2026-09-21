@@ -227,6 +227,8 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 - **Dirk van Hogendorp → Maarten van der Goes, St Petersburg, 5 July 1803**, catalogue 227, DECODE R1942 — subject identified from Sillem 1890, 20 Sept 2026. His footnote assigns the Van Suchtelen passage to the ciphered dispatch no. 12 of the same day; the manuscript is headed no. 12 and the matching 1803 codebook is DECODE R1035. Exact group-by-group plaintext remains open. See [R1942/](R1942/) and the [write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).
 
+- **Charles of Egmond → grand master of France**, catalogue 28, BnF fr. 3015 no. 8 — body, both insertions and address read, 20 Sept 2026; Arnhem, apparently 18 July, no year. Minor glyph uncertainties retained; no independent key or clear copy. [Write-up](https://dbourdeau.github.io/cyphersolver/egmond.html).
+
 - **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, catalogue 237, BAV Barb.lat. 6960, DECODE R286–R313 — contents found
   in print, 20 Sept 2026. Kiewning's *Nuntiatur des Pallotto*, Bd. 2 (1897) prints the despatches from the Roman
   office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken, the key is not
