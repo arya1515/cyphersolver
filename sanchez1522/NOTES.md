@@ -1,6 +1,7 @@
 # Alonso Sánchez (Venice) to Charles V, 1522 — RAH Salazar 9/23–9/26, DECODE R9593–R9657
 
-Status: in progress — read in part (R9635 f. 20r and R9653 f. 299r; the cipher itself was already solved by Tomokiyo 2025)
+Status: in progress
+Reading so far: read in part (R9635 f. 20r and R9653 f. 299r; the cipher itself was already solved by Tomokiyo 2025)
 
 Catalogue entry "Alonso Sánchez (Venice) to Charles V, 29 ciphertexts" (Tomokiyo list, scored B).
 Worked 2026-09-20.
