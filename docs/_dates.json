@@ -208,8 +208,8 @@
   },
   "buda1489": {
    "first": "2026-09-19",
-   "hash": "1013d64632e6",
-   "updated": "2026-09-19"
+   "hash": "ccf418f34fc4",
+   "updated": "2026-09-21"
   },
   "caprile1519": {
    "first": "2026-09-21",
@@ -233,8 +233,8 @@
   },
   "ceva1632": {
    "first": "2026-09-20",
-   "hash": "c61190ca8e8d",
-   "updated": "2026-09-20"
+   "hash": "81488beda60b",
+   "updated": "2026-09-21"
   },
   "charlesixducroc": {
    "first": "2026-09-20",
@@ -363,8 +363,8 @@
   },
   "hesse1603": {
    "first": "2026-09-17",
-   "hash": "bf6ae60aa8aa",
-   "updated": "2026-09-17"
+   "hash": "0713bc78ed4e",
+   "updated": "2026-09-21"
   },
   "heusner1637": {
    "first": "2026-09-21",
@@ -388,7 +388,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "73bde774bccc",
+   "hash": "87d0bcc8b2fe",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -428,8 +428,8 @@
   },
   "maisse1592": {
    "first": "2026-09-19",
-   "hash": "75fdc8ca98dd",
-   "updated": "2026-09-19"
+   "hash": "48dcd365f550",
+   "updated": "2026-09-21"
   },
   "maria1435": {
    "first": "2026-09-18",
@@ -473,7 +473,7 @@
   },
   "norfolk1570": {
    "first": "2026-09-18",
-   "hash": "a1c8768be36a",
+   "hash": "acdf2f731457",
    "updated": "2026-09-21"
   },
   "nunzio1718": {
@@ -558,8 +558,8 @@
   },
   "rennes1563": {
    "first": "2026-09-20",
-   "hash": "3b1101678045",
-   "updated": "2026-09-20"
+   "hash": "700463b86bb7",
+   "updated": "2026-09-21"
   },
   "reserva12": {
    "first": "2026-09-18",
@@ -633,8 +633,8 @@
   },
   "sessa1593": {
    "first": "2026-09-19",
-   "hash": "49e5eaabfa1b",
-   "updated": "2026-09-19"
+   "hash": "f3073b324b02",
+   "updated": "2026-09-21"
   },
   "soglia1848": {
    "first": "2026-09-18",
@@ -738,7 +738,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "c6135fca93db",
+   "hash": "915bcd26354d",
    "updated": "2026-09-21"
   },
   "yard1699": {
