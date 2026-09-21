@@ -1,0 +1,5 @@
+# No cipher groups on this page: clear text only.
+# clear: top (end of the clear copy of p1): de Kubo quand on a receu la lettre de M. Or[?] Rada. M. de Bertoti pourroit facilement faire imprimer les nouvelles et me les envoyer par la voye de Cracovie. [paraph]
+# clear: separate clear letter: Monseigneur / Si votre altesse Serenissime veut bien me faire remettre la lettre de M. de Bonnac No. 1. je l'enregistreray et continueray a le faire tant qu'il le plaira a V. A. S. ... de mon Zele pour son service et de ma discretion pour tout ce qu'elle voudra bien me confier. je tiendray mesme un registre particulier de toutes les lettres de change ou remise de M. de Bonnac afin que d'un coup d'oeil V. A. S. puisse voir comme elle sera avec luy.
+# clear: archive numbers 117 and 70 at bottom
+# diffs vs DECODE: 0 lines changed (no ciphertext); DECODE cleartext has misreadings (e.g. "Senemiltime" = Serenissime, "remettre" not "faire", "Cracovie", "service ... discretion", "puisse voir")

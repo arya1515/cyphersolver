@@ -6,7 +6,7 @@
     {
       "id": "R922",
       "shelfmark": "MNL OL G15 Caps. C. Fasc. 39, pp. 346-347 (DECODE R922)",
-      "date": "28 October [1707?]",
+      "date": "28 October [1707]",
       "year": 1707,
       "country": "Poland",
       "route": "Danzig -> Ferenc Rakoczi II",
@@ -19,52 +19,52 @@
         "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). Partial contemporary interlinear."
       },
       "length": {
-        "tokens": 730,
+        "tokens": 722,
         "distinct": "unknown",
         "unit": "code groups",
         "measured": true,
-        "file": "DOC_R922_D1861_1861.txt"
+        "file": "tr/R922_p1.txt"
       },
       "transcription": {
-        "by": "DECODE",
-        "source": "DECODE D1861",
+        "by": "llm from images",
+        "source": "DECODE images, MNL OL",
         "image_quality": "good",
-        "notes": "Manual DECODE transcription contains many one-digit errors, joined groups, and ambiguous raised leading digits."
+        "notes": "Re-transcribed 21 Sept 2026; DECODE text transcription used as a cross-check only."
       }
     },
     {
       "id": "R852",
       "shelfmark": "MNL OL G15 Caps. C. Fasc. 39, pp. 115-117 (DECODE R852)",
-      "date": "December [1707?]",
-      "year": 1707,
+      "date": "22 January 1706",
+      "year": 1706,
       "country": "Poland",
-      "route": "Poland -> Ferenc Rakoczi II",
+      "route": "Danzig -> Ferenc Rakoczi II",
       "language": "French",
       "cleartext_in_document": "separate passages",
       "plaintext": {
         "location": [
-          "interlinear"
+          "separate folio"
         ],
-        "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). Partial contemporary interlinear."
+        "source": "Contemporary clear copy on pp. 116-117 of the same file."
       },
       "length": {
-        "tokens": 513,
+        "tokens": 523,
         "distinct": "unknown",
         "unit": "code groups",
         "measured": true,
-        "file": "DOC_R852_D2171_2171.txt"
+        "file": "tr/R852_p1.txt"
       },
       "transcription": {
-        "by": "DECODE",
-        "source": "DECODE D2171",
+        "by": "llm from images",
+        "source": "DECODE images, MNL OL",
         "image_quality": "good",
-        "notes": "Manual DECODE transcription contains many one-digit errors, joined groups, and ambiguous raised leading digits."
+        "notes": "Re-transcribed 21 Sept 2026; DECODE text transcription used as a cross-check only."
       }
     },
     {
       "id": "R912",
       "shelfmark": "MNL OL G15 Caps. C. Fasc. 39, pp. 312-314 (DECODE R912)",
-      "date": "5 November [1707?]",
+      "date": "5 November [1707]",
       "year": 1707,
       "country": "Poland",
       "route": "Polish-Swedish theatre -> Ferenc Rakoczi II",
@@ -77,23 +77,23 @@
         "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). Partial contemporary interlinear."
       },
       "length": {
-        "tokens": 1596,
+        "tokens": 1630,
         "distinct": "unknown",
         "unit": "code groups",
         "measured": true,
-        "file": "DOC_R912_D2230_2230.txt"
+        "file": "tr/R912_p1.txt"
       },
       "transcription": {
-        "by": "DECODE",
-        "source": "DECODE D2230",
+        "by": "llm from images",
+        "source": "DECODE images, MNL OL",
         "image_quality": "good",
-        "notes": "Manual DECODE transcription contains many one-digit errors, joined groups, and ambiguous raised leading digits."
+        "notes": "Re-transcribed 21 Sept 2026; DECODE text transcription used as a cross-check only."
       }
     },
     {
       "id": "R483",
       "shelfmark": "MNL OL P237 Festetics 10. d. 2. 42-44 (DECODE R483)",
-      "date": "27 June [1711]",
+      "date": "27 June 1711",
       "year": 1711,
       "country": "Poland",
       "route": "Ferenc Rakoczi II, Lwow -> unknown",
@@ -103,20 +103,20 @@
         "location": [
           "interlinear"
         ],
-        "source": "Full contemporary interlinear decipherment on the leaves; key not rebuilt."
+        "source": "Full contemporary interlinear decipherment; key rebuilt from it here."
       },
       "length": {
-        "tokens": 2112,
+        "tokens": 2531,
         "distinct": "unknown",
         "unit": "code groups",
         "measured": true,
-        "file": "DOC_R483_D2172_2172.txt"
+        "file": "tr/R483_p1.txt"
       },
       "transcription": {
-        "by": "DECODE",
-        "source": "DECODE D2172",
+        "by": "llm from images",
+        "source": "DECODE images, MNL OL",
         "image_quality": "good",
-        "notes": "Manual DECODE transcription contains many one-digit errors, joined groups, and ambiguous raised leading digits."
+        "notes": "Re-transcribed 21 Sept 2026; DECODE text transcription used as a cross-check only."
       }
     }
   ],
@@ -161,15 +161,17 @@
       "used": false
     },
     "inputs": [
+      "images",
       "transcription",
       "key from archive",
-      "sibling key"
+      "known plaintext"
     ],
     "attack": "key from archive",
     "human_role": "Posed the target from the catalogue; supplied the DECODE session.",
     "tools": [
       "DECODE transcription fetch",
-      "direct table decoder (from rakoczi1707)"
+      "direct table decoder (from rakoczi1707)",
+      "hard-EM line aligner (interlinear to cipher)"
     ],
     "models": [
       "claude-opus-5"
@@ -214,21 +216,53 @@
       "kind": "hypothesis",
       "what": "Direction reversed for R852/R912/R922: Rakoczi is the recipient; R852 names Groffey in the third person.",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "transcription",
+      "what": "Fetched all 14 page images and re-transcribed every cipher page (R922, R912, R852, R483) with image-reading subagents; about 40% of DECODE lines corrected, two dropped lines restored.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "key from source",
+      "what": "Read the R639 key image: 45=S and 47=T (DECODE 95/96), Z 54/55/110; the table skips 173/174, which the letters use as \"de\"; 561/562 = nt from context.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "reading",
+      "what": "Corrected table on new transcriptions: R922 705/722, R912 1,586/1,630 groups keyed.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "control",
+      "what": "R852 found to carry its own clear copy (22 Jan 1706); its word codes differ from R639 (a different issue of the table).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "solver",
+      "what": "Rebuilt the R483 syllabic key by hard-EM alignment of 168 cipher lines with the interlinear: 224 codes; key reproduces 70% of the clerk letters.",
+      "result": "partial"
     }
   ],
   "outcome": {
-    "class": "read in part",
-    "fraction_read": 0.7,
+    "class": "read",
+    "fraction_read": 0.95,
     "grades": {
-      "H": 2653,
+      "H": 2291,
       "C": 0,
       "M": 0,
-      "I": 186
+      "I": 61
     },
     "verification": [
       "key confirms",
+      "independent clear copy",
+      "contemporary decipherment",
       "historical consistency"
     ],
-    "notes": "Three French letters read in substance from noisy DECODE transcripts; R483 read at the time, its key not rebuilt. Grades count R639-resolved groups over the three French letters."
+    "notes": "French: R912/R922 97% of groups keyed from image transcriptions (R639 corrected), R852 read from its clear copy. R483: read at the time (interlinear); key rebuilt from it here (224 codes, 70% letter agreement). Grades count R912+R922 groups."
   }
 }

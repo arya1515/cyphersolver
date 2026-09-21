@@ -225,7 +225,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
-- **Rákóczi letters, 1707–1711** ("Ferenc Rákóczi II to unknown recipient"), catalogue 44, DECODE R483, R852, R912, R922. Three French reports to Rákóczi read with key R639; R483 (Lwów 1711) read at the time. 21 Sept 2026. See `rakoczi1704/`.
+- **Rákóczi letters, 1707–1711** ("Ferenc Rákóczi II to unknown recipient"), catalogue 44, DECODE R483, R852, R912, R922. Three French reports to Rákóczi read (R639 corrected from its image; R852 by its clear copy); R483 (Lwów 1711) key rebuilt from its interlinear. 21 Sept 2026. See `rakoczi1704/`.
 
 - **An Orangist correspondent (Basle) → Prince William V, 17 Aug 1796**, catalogue 221, DECODE R2234 (KHA Prins Willem V inv. 339). Read with the five-alphabet key sheet R2235, one alphabet per line, 21 Sept 2026. See [r2234/](r2234/).
 - **Cornelis Haga (Constantinople) → the States General, 1620**, catalogue 229, DECODE R2113 and R2115. Both read with the key R2118, filed under the same inventory number, 21 Sept 2026; the two records hold four letters. See `haga1620/`.

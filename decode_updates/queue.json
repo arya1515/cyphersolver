@@ -1953,38 +1953,50 @@
    },
    "cite": null,
    "fields": {
-    "plaintext_lang": "French"
+    "plaintext_lang": "French (R483: Latin)",
+    "receiver": "Ferenc Rakoczi II (R852, R912, R922)"
    },
    "records": {
     "R922": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Letter TO Rakoczi (Dantzig, 28 Oct); read in substance with key R639.",
+     "proposed": "Decrypted",
+     "note": "Letter TO Rakoczi (Dantzig, 28 Oct [1707]); 97.6% of groups read with key R639 (corrected: 45=S, 47=T, 173/174=de) from a new image transcription.",
      "reading": [
       {
-       "file": "rakoczi1704/R922_key08_read.txt"
+       "file": "rakoczi1704/R922_image_read.txt"
       }
      ],
      "sent": false
     },
     "R852": {
      "decode_status": "Partially decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Letter TO Rakoczi (Dec.); read in substance with key R639; transcript noisy.",
+     "proposed": "Decrypted",
+     "note": "Letter TO Rakoczi, Dantzig 22 Jan 1706; contemporary clear copy on pp. 116-117; word codes differ from R639 (earlier issue).",
      "reading": [
       {
-       "file": "rakoczi1704/R852_key08_read.txt"
+       "file": "rakoczi1704/R852_clear.txt"
       }
      ],
      "sent": false
     },
     "R912": {
      "decode_status": "Partially decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Letter TO Rakoczi (5 Nov); read in substance with key R639.",
+     "proposed": "Decrypted",
+     "note": "Letter TO Rakoczi (5 Nov [1707]); 97.3% of groups read with key R639 (corrected) from a new image transcription.",
      "reading": [
       {
-       "file": "rakoczi1704/R912_key08_read.txt"
+       "file": "rakoczi1704/R912_image_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R483": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Rakoczi, Lwow 27 June 1711 (not 7 June); full interlinear decipherment; syllabic key (224 codes) rebuilt from it, file rakoczi1704/R483_key_rebuilt.json.",
+     "reading": [
+      {
+       "file": "rakoczi1704/R483_key_read.txt"
       }
      ],
      "sent": false

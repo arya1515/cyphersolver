@@ -1,0 +1,68 @@
+# R483 p.3 (IMG_R483_I3668_P3)
+P: et | in nostram pacisque conciliationem
+C: 440 153 {clear: Securitate} 130 116 20 370 286 112 190 167 152 140 112 25 260 428 256 60
+P: R[es]p[ubli]ca | Senatusconsulti statuto sanxit.
+C: 370 397 20 {clear: Ex Resso? / Et Resso?} 98 190 152 140 268 120 428 218 159 390 38 380 189 200 943 -
+P: generalium ordinum? i
+C: {clear: Ex adjuncta Literis Vestris Copia? Literas} 383 20 25 210 130 150 180 432 146 370 439 {clear: Du[a]e?}
+P: Imperatrici regnanti | profectus? at do- / prosecutas? ad do-
+C: 254 260 29 340 112 257 80 140 121 340 {clear: scriptas} 47 233 40 438 38 440 482
+P: r | videmus praecipitatam agnitionem archi-
+C: {clear: lente?} 180 439 432 415 190 17 112 160 340 378 378 370 260 320 76 428 256 300
+P: ducis pro Rege (Hungariae struck through) | potius pera-?/nega-?
+C: 161 340 43 112 430 47 257 373 194 340 20 60 {clear: ubi} 386 428 149 190 356 207 190
+A: (a struck-out "Hungariae" above 194 340 20 60)
+P: semus | omnes per acta
+C: 68 415 430 {clear: praefato} 190 390 420 432 485 430 356 20 40 378 {clear: Mediationis ne-}
+P: Tirnavii? | debuisse Cor-?
+C: {clear: gotiationum} 89 {clear: Ex simul? Literis? abunde informati esse} 362 30 210 340 430
+P: Regem in (Hungaria struck through) | sine
+C: 68 300 276 257 373 130 240? 140 194 204 148 485 {clear: observantia praemissorum}
+A: (DECODE 240; image shows a group like 340/240 overwritten)
+P: promulgatum pro aequanimitate mediationis
+C: 47 415 120 353 59 130 47 260 300 157 76 315 378 200 60 285 340 256 340 190 268
+P: sunt? agnoscere non potuisse | hac
+C: 260 300 20 320 96 190 92 257 96 140 386 59 354_ 68 {clear: Sperabamus enim eo} 14 40
+P: ce quatione? eos? teneri? ad restitutionem Libertatum
+C: 92 206? 485 149 139 276 51 417 100 59 428 256 60 370 35 260 59 136? 116 20 18? 340
+A: (first word likely "(hac) cessatione"? - unclear)
+P: nostrarum in quibus nos manutenere velle (a struck word "sp..") | appro-
+C: 140 177 30 149 96 190 125 146 200 300 485 257 369 464 38 60 160 {clear: ius} 20 400 47
+P: miserunt nec medium (fo- struck) fortius ad | ad
+C: 315 68 18 140 440 485 280 235 432 210 130 313 428 149 51 {clear: inveniri possimus?} 51 51
+A: (the two groups 51 51 at line end under 'ad')
+P: adjuvandos Nos quam dilatio agnitionis hujus
+C: 384 249 140 482 190 96 430 157 130 432 424 428 150 20 320 76 428 256 100
+P: ad usque effectuationem eorum
+C: 190 184 384 430 51 149 167 63 210 260 420 256 60 130 60 150 18 130 {clear: quae pro}
+P: se[?]cummuni? et | securitate Religionum in
+C: 257 172 415 76 153 {clear: exoptanda} 68 302 457 378 200 300 357 146 370 100 380 194
+P: Hungaria juste Regi debere agnoverunt
+C: 340 20 414 300 253 60 457 362 321 257 20 320 96 359 18 140 440 {clear: interim pro-}
+P: suspicari posse credimus non satis
+C: {clear: pterea Nos} 318 340 461 457 386 190 68 40 257 432 415 190 96 140 38 428 190
+P: sinceras fuisse | assecurationes
+C: 148 380 92 207 190 343 340 430 68 {clear: toties repetitas} 211 302 207 428 256 60
+P: alliatorum de restituendis et solidandis liber-
+C: 190 91 150 18 370 362 417 340 59 60 140 432 430 153 178 25 312 140 432 430
+P: tatibus nostris sed tantum modo
+C: 35 20 428 270 149 116 340 430 68 290 388 450 370 345 482 {clear: in id intendisse,}
+P: quoquo modo rebus Hungaricis diversi-
+C: {clear: ut pacatis} 187 187 345 482 257 270 149 194 100 112 430 432 409 100 256 60
+P: sionem armorum domus Austriacae fecerit? necessarium
+C: 130 181 390 18 130 13 149 261 340 20 461 60 68 362 140 200 26 20 457 210 370
+P: judicamus ut abunde demonstratis? fa-
+C: {clear: igitur} 384 432 461 415 190 159 {clear: iis} 260 30 450 380 362 362 375 238 150 340 190
+P: cile illos in opinione sua falli posse
+C: 213 112 464 340 360 85 190 340 380 150 400 340 76 256 300 268 20 213 120
+P: qui nobis media non
+C: 25 386 190 68 177 96 361 190 235 432 20 96 140 {clear: superesse credimus.}
+P: belli in casu oppressioni natio-
+C: {clear: At continuationem} 321 120 25 340 140 461 268 150 17 190 148 256 340 430
+P: nalis subsequuturae? et qui imaginantur nationem
+C: 465 445 25 190 268 30 68 302 59 477 153 177 100 125 403 445 380 69_ 465
+P: ita a nobis alienatam esse | ut? | ita
+C: 485 130 364 260 96 361 190 20 270 91 60 445 378 370 60 190 68 159 110 20
+P: nelius? / melius? | potuisset dict? millium?
+C: 477 25 149 {clear: Exoptam?} 386 59 354_ 68 200 438 315 120 25 210 370 134 315
+A: (page foot: folio 43; line continues on the next page, not supplied)

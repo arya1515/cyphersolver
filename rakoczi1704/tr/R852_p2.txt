@@ -1,0 +1,8 @@
+# No cipher groups on this page: it is a full clear-text copy (decipherment) of p1, same hand layout, 22 lines.
+# clear: a Dantzic le 22 Janvier 170[6/7] (last digit read 6 by DECODE; check against p1 date "22 Janv")
+# clear: Monseigneur j'ay receu la lettre que V. A. m'a fait l'honneur de m'escrire le 26. Xbre ... je feray passer au Sr. Grosser celles ...
+# clear: ... j'attens avec impatience d'aprendre que le Sr. Roth. ait fini avec les Srs. [Palatins], pour me venir joindre
+# clear: J'ay veu une ou deux fois un imprimé latin intitulé Mercurius hungaricus ... Berlin qu'il n'y auroit plus de hongrois depuis l'action
+# clear: (DECODE CLEARTEXT block for 4707 gives the running text; not re-transcribed here)
+# clear: archive foliation 116 at bottom
+# diffs vs DECODE: 0 lines changed (no ciphertext)

@@ -1,82 +1,114 @@
 # "Ferenc Rákóczi II to unknown recipient, 4 ciphertexts" — DECODE R483, R852, R912, R922
 
-Status: read in part. Three letters are reports *to* Rákóczi, read in substance with the preserved key DECODE R639.
-The fourth (R483) is a Latin letter in Rákóczi's name, deciphered interlinearly when it arrived. Its key was not rebuilt.
+Status: read. The three French letters (R852, R912, R922) are reports *to* Rákóczi. R912 and R922 read with the
+preserved key DECODE R639 at about 97% of groups from a fresh transcription of the images. R852 has its own clear
+copy. The Latin letter R483 is Rákóczi's own (Lwów, 27 June 1711). It carries an interlinear decipherment, and its
+syllabic key has been rebuilt from that decipherment.
 
 Catalogue item 44 (class B, scored by rule). All four records are MNL OL, and the images are not in the public
-domain, so none is reproduced here. Worked 21 Sept 2026 from the DECODE text transcriptions, fetched with
-`fetch_decode.py` through the project's DECODE account.
+domain, so none is reproduced. Worked 21 Sept 2026. Pass 1 used DECODE's text transcriptions. Pass 2 fetched the
+images (`fetch_img.py`, into the git-ignored `img/`) and re-transcribed every cipher page into `tr/`.
 
 ## Correction to the catalogue
 
 DECODE gives Ferenc Rákóczi II as the author of all four. That holds only for R483. R852, R912 and R922 address
 "Monseigneur" and "Votre Altesse" and report on Rákóczi's affairs at the Polish court, so Rákóczi is their
-**recipient**. They are the same kind of document as R902 (see `../rakoczi1707/`), which is addressed in clear to
-Rákóczi's alias Pompeio Cesoni. The catalogue's date span "1704–1711" is DECODE's range for the volume. The letters
-themselves are from 1707–08 (French) and June 1711 (Latin).
+recipient, as with R902 (`../rakoczi1707/`). The catalogue's "1704–1711" is DECODE's span for the volume.
 
-## R852, R912, R922: the Bonac–Groffey key
+## The French letters and the Bonac–Groffey key (DECODE R639)
 
-The three letters use the same one-part numerical nomenclator as R902. It survives as DECODE R639 (MNL OL G15 Caps.
-C. Fasc. 44/08, headed *De Monsieur de Bonac et Graffei*). Codes run from 10 to 560. The range 10–120 holds letters
-and endings, 121–460 syllables and words, and 461–560 names and places. The twelve odd numbers from 97 to 119 are
-nulls. `decode.py` applies the table, parsing groups as `../rakoczi1707/decode.py` does, and the output is in
-`R*_key08_read.txt`.
+The key is a one-part numerical nomenclator, codes 10–560. The twelve odd numbers 97–119 are nulls. The groups of
+500 and above that open a line (563, 564, 574, 589, 607, 609, 620 …) behave as nulls too.
 
-| Record | Shelfmark (G15 Caps. C. Fasc. 39) | Groups | In key | Date in text |
-|---|---|---|---|---|
-| R922 | pp. 346–347 | 730 | 683 (93.6%) | Dantzig, 28 October [1707?] |
-| R852 | pp. 115–117 | 513 | 497 (96.9%) | [Dantzig?], ... December [1707?] |
-| R912 | pp. 312–314 | 1,596 | 1,473 (92.3%) | "au quartier ...", 5 November [1707?] |
+Reading the key image (`img/IMG_R639_I3927_P1.png`) corrected DECODE's transcription of the table:
 
-Groups are counted by the parser. `_check_profile.py --measure` counts single digits because DECODE separates every
-digit with a space. Coverage alone proves little, since almost any number from 10 to 560 is in the table. The proof
-is that the output reads as French, with the right names in the right places.
+- S is 44, **45**, 100, 83 and T is 46, **47**, 102, 85. The 45 and 47 are overwritten on the sheet, and DECODE
+  read them as 95 and 96. On the sheet, 95 belongs to *es* and 96 to Q.
+- Z is 54, 55, 110. DECODE wrote "100/110?", which made the old decoder drop the whole Z line, and with it 55.
+- The table's numbering jumps from 172 (Da) to 175 (de). The letters use **173 and 174 as "de"** throughout
+  ("le Roy 173 Pologne", "Palatin 174 Belz"). Grade C.
+- **561 and 562 = "nt"** (after *poi-*, *souve-*), beyond the end of the table. Grade C.
 
-Most of the unread residue comes from DECODE's transcription (joined groups, one-digit slips, values above 560).
-R852 is the noisiest: *beaucoup* and *serviteur* come up where letters are expected. That points either to digit
-misreadings or to a slightly different issue of the table.
+`decode_tr.py` applies the corrected table to the new transcriptions. The old `decode.py` output on DECODE's
+transcription, `R*_key08_read.txt`, is kept for comparison.
 
-### What they say (in substance)
+| Record | Shelfmark (G15 Caps. C. Fasc. 39) | Date | Groups (image) | Keyed | Pass 1 (DECODE text) |
+|---|---|---|---|---|---|
+| R922 | pp. 346–347 | Dantzig, 28 Oct [1707] | 722 | 705 (97.6%) | 683/730 |
+| R912 | pp. 312–314 | "au quartier", 5 Nov [1707] | 1,630 | 1,586 (97.3%) | 1,473/1,596 |
+| R852 | pp. 115–117 | Dantzig, 22 Jan 1706 | 523 | clear copy on pp. 116–117 | 497/513 |
 
-- **R922** (Dantzig, 28 Oct). "Monseigneur, je me suis souvenu depuis quelque temps de l'honneur d'escrire à Vostre
-  Altesse …". The writer reports a sale (*vente*) done for Madame la Palatine de Belz (Elżbieta Sieniawska) and
-  sends an authentic copy to the sieur Kray. He says he has been kept out of the business "as far as possible" by
-  his own caution. He mentions Tököly ("Tekeli"), orders for carbines, and his coming departure "pour joindre le
-  Roy de Pologne". He asks that Kray be given the orders that would let him continue his services "à la Cour
-  de Pologne". Page 2 turns to money matters and a person who is a prisoner, and closes "je suis avec tout le respect
-  possible, Monseigneur".
-- **R852** (December). The writer acknowledges letters from Rákóczi. He will pass letters "au sieur Groffey", so
-  Groffey is named in the third person and is **not** the writer of this one. There is news of the Diet, the
-  marshal, the Germans and the Dutch, the Kingdom and Volhynia, and "vos ennemis". Letters from Monsieur Ráday and
-  Count Bercsényi ("Berthoti") are to be forwarded by way of Cracow.
-- **R912** (5 Nov). The letter gives news of King Stanisław, the Swedes, the Palatine of Belz and the Grand Hetman
-  (Sieniawski), and the Muscovites under the Field Hetman. It mentions the King of Sweden's plans for a
-  *pacification* in Poland, a new election, the Cossacks, the Emperor, and the Tsar. Rákóczi's letter to Marshal
-  Rehnskiöld is discussed, which is the same affair as R902. The Palatine of Ruthenia is also mentioned. So is a
-  regiment Rákóczi was asked to supply, which King Stanisław and the Germans are using against him, and Tököly.
-  The letter closes "avec un profond respect et un zèle parfait".
+Unread in R912 and R922: 61 groups. They are line-opening fillers of 500 and above, the closing and signature
+block of R912 p. 3 (`589 4 5 710 607 3 586 1000 …`, probably a date and a name in figures), and a handful of
+values outside the table: 93 (×3), 89 (×3), 9 (×2), 3–8 and 699. The re-transcription corrected about 40% of
+DECODE's lines. It found a line DECODE had dropped in each of R912 and R852, repeated runs, merged groups, and the
+misreadings 350/380, 324/329, 489/459/497 and 687/607.
 
-Writer: unsigned. R912 and R922 are consistent with Groffey, the agent at the Swedish and Polish courts whose
-name is in the key heading. R852 names Groffey in the third person, so at least that letter is by a colleague,
-possibly Bonac's side or Kray. Grade: attribution M.
+**R852 uses a different issue of the table.** Its letters and syllables agree with R639, but many of its word
+codes, mostly those ending in 4 (144, 254, 194, 404, 294, 314, 424 …), mean something else: 144 = *de*, 254 = *la*
+where R639 gives *beaucoup*, *jusque*. The letter's own clear copy (p. 116 and the top of p. 117, read from the
+image into `R852_clear.txt`) supplies the text, so the variant table has not been rebuilt. The date is written
+"22 janvier 1706". It speaks of "l'action", probably Zsibó (Nov 1705).
 
-## R483: Rákóczi, Lwów, 27 June [1711], Latin
+### What they say
 
-P237 Festetics 10. d. 2. 42–44, 6 pp., 2,112 groups by the parser. It is a different cipher: values run to about 800,
-and the underlying language is Latin. The whole text carries a contemporary **interlinear decipherment**, which
-DECODE transcribed as 166 PLAINTEXT lines, together with clear passages. It was read when it arrived. The opening
-reads "Leopoli vigesima septima Junii 17[11]", and the text speaks of Vienna, the allied powers, the Emperor,
-Pálffy, a manifesto "in omnibus Hungariae comitatibus … pro Rege promulgasse", and cannon brought up against "arcem
-nostram Munkácsiensem". That fits Rákóczi's exile in Poland and the siege of Munkács, which surrendered 24 June 1711.
-DECODE's 7 June 1711 is probably a misreading of the date. The R639 table gives nonsense on it, as expected.
+- **R852** (Dantzig, 22 Jan 1706). The writer acknowledges Rákóczi's letter of 26 December and will pass letters on
+  "au Sr. Groffey". He vouches for Groffey's loyalty and prudence. He waits for "le Sr. Roth." to join him. He asks
+  for a weekly Latin paper like the *Mercurius hungaricus*, because every German and Dutch gazetteer "destroys the
+  Kingdom of Hungary at his ease", and in Berlin people believed that no Hungarians were left after "l'action".
+  Bercsényi ("Bertoti") could print the news and send it by way of Cracow. P. 117 adds a short clear note offering to
+  register M. de Bonnac's letters and bills of exchange for Rákóczi.
+- **R922** (Dantzig, 28 Oct [1707]). The writer reports a sale carried out for Madame la Palatine de Belz (Elżbieta
+  Sieniawska), with an authentic copy sent to the sieur Kray. He has kept out of the business "as far as possible, by
+  my credit and my advice". There are orders for carbines. He is leaving to join the King of Poland and asks that
+  Kray be given orders so that he can continue "mes services à la Cour de Pologne". P. 2 covers money matters and a
+  prisoner.
+- **R912** (5 Nov [1707]). A survey of Polish and Swedish politics: King Stanisław, the Palatine of Belz and the
+  Grand Hetman, the Muscovites under the Field Hetman, the King of Sweden's pacification and a new election, the
+  Tsar, and Rákóczi's letter to Rehnskiöld (the affair of R902). The Palatine of Ruthenia and a regiment asked of
+  Rákóczi, which Stanisław and the Germans hold against him, also come up, as do Tököly and his siege.
 
-Open: the key of R483 has not been rebuilt, although the interlinear would allow it. DECODE's Latin transcription
-of the interlinear is heavily queried, so a clean text needs the images.
+Writer: unsigned. R852's writer names Groffey in the third person and was at Danzig. R922 is also from Danzig and
+may be the same man. Grade M. The key heading *De Monsieur de Bonac et Graffei* suggests that the key served the
+whole Bonac–Groffey correspondence.
+
+## R483: Rákóczi, Lwów, 27 June 1711 (Latin)
+
+P237 Festetics 10. d. 2. 42–44, 6 pp., 2,531 cipher groups in 180 lines (transcribed from the images, `tr/R483_p*.txt`,
+with the clerk's interlinear on the `P:` lines). The letter is signed in autograph "Franciscus Princeps" and dated in
+clear "Leopoli die 27. Junii Anno 1711". DECODE's "7 June" is wrong. It is addressed to "Fidelis nobis sincere
+dilecte", an envoy on his way to Holland who is in poor health and handles money and the mathematical instruments
+ordered from Mangold. A clear postscript deals with those instruments.
+
+**Key rebuilt.** `align483.py` aligns every cipher line with the interlinear by hard EM, with each code taking
+0–4 letters. It gives 224 codes (`R483_key_rebuilt.json`), 156 of them seen at least twice. It is a syllabic cipher
+with homophones: single letters (190/430 s, 140/380 n, 60/300 e, 20/260 a, 130/370 m), open syllables (257 re,
+428 ti, 68 se, 362 de, 96 no, 457 ri, 148 si, 92 ce, 152 co, 59 tu, 378 ta) and a few words and names.
+Decoding with the rebuilt key (`check483.py`, output `R483_key_read.txt`) reproduces 70% of the clerk's letters.
+The mismatches are rare codes, homophones seen once, and the clerk's own abbreviations. Where the clerk's words
+are doubtful, the key often settles them: "nos Regem extra dietam promulgatum non deposito [juramento] agnoscere
+non posse sine … ruina [libertatum nostrarum]", and "ne fors etiam".
+
+Content. P. 1: Rákóczi sends a copy of the "Tractatus sic dictae Pacis Carolianae" (Szatmár), which he calls a
+fraud engineered in Vienna, and reports that Archduke Charles was proclaimed king in every Hungarian county,
+contrary to the 1687 article of the Pozsony diet. P. 2: he will not recognise a king proclaimed outside a free diet.
+He appeals to the Tsar and the Polish Republic to mediate. He offers to come to a free diet in person or by
+plenipotentiaries and to recognise a lawfully crowned king, provided the confederates are restored to their
+estates. P. 3: the Allies' assurances about Hungarian liberties were a "diversio armorum" for Austria, and the war
+must go on. P. 4: Pálffy's artillery against "arcem nostram Munkatsiensem", and the restitution of Transylvanian
+liberty. P. 5: the general confederation in Poland, letters to go "per Saxoniam", the Muscovite advance, a warning
+to trust only news sent directly from Rákóczi, complaints about the Grand Chancellor's "indiscretum procedendi
+modum" and about Ráday, and letters from the Chancellor at Dukla. P. 6: receipts left with a Jew, and a member of
+the Economic Council who took treasury money for his own use.
+
+Open: an edited Latin text line by line. The material for it is here (clerk plus key reading). The key's
+single-occurrence codes (68 of 224) are grade C.
 
 ## Files
 
-- `fetch_decode.py`: fetches the four DOC transcriptions (cookie from `../bordeaux/decode/cookie.txt`).
-- `decode.py`: applies R639 (it reads `DOC_R639_D2752_2752.txt`, copied from `../rakoczi1707/`).
-- `R922_key08_read.txt`, `R852_key08_read.txt`, `R912_key08_read.txt`: readings. `R483_key08_read.txt` is kept as
-  the negative control.
+- `fetch_decode.py`, `fetch_img.py`: fetch the DOC transcriptions and the images (cookie from `../bordeaux/decode/`).
+- `tr/`: new transcriptions from the images (R922 p1–2, R912 p1–3, R852 p1–3, R483 p1–6).
+- `decode_tr.py`: the corrected R639 table. `R922_image_read.txt`, `R912_image_read.txt`: readings.
+- `R852_clear.txt`: the contemporary clear copy of R852.
+- `align483.py`, `check483.py`, `R483_key_rebuilt.json`, `R483_key_read.txt`: the R483 key and reading.
+- `decode.py`, `R*_key08_read.txt`: pass 1 on DECODE's transcriptions.
