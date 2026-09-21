@@ -1,0 +1,52 @@
+code	plain	confidence	source
+zuf	cardenal	confirmed	R9649 f.266 run 1 vs clerk's clear f.268, exact slot "el Cardenal de Santa Cruz"
+yan	fortaleza	confirmed	R9649 run 2 exact slot "en la fortaleza de Ostia"
+tun	querria	confirmed	R9649 run 2 exact slot "porque no querria darsela"
+ti	ni	probable	R9649 run 2 "darsela ni tener"
+Ꮒ	null (run opener)	confirmed	R9649 three runs, no counterpart in f.268 clear
+&	o	confirmed	R9649 Ostia x2, Bernardino, quexoso
+δ	s	confirmed	R9649 Ostia x2, quexoso (plain delta, not ∂)
+ϑ	t	confirmed	R9649 Santa, mata, Ostia, tener (open-topped 8-like sign; distinct from 8=e)
+oo	e	confirmed	R9649 tener, licenciado; fits R9656 ∠α84oo = viene(n)
+Ho	a	confirmed	R9649 Santa, mata
+ϭ	s	probable	R9649 Santa
+y(looped)	c	probable	R9649 Cruz, licenciado; conflicts 1524 y=o, likely a different glyph
+♀	z	probable	R9649 Cruz (variant of 1524 ♀=x?)
+⅋	x	probable	R9649 quexoso
+ʇ	m	probable	R9649 mata
+ʑ	y	confirmed	R9649 conjunction "y que no la de" (=1524 ʑφ)
+ʙ	b	probable	R9649 Bernardino
+ɣ̊	r	probable	R9649 Bernardino
+H	e	probable	R9649 "le" (Ɛ H)
+ƀ	n (or nc)	probable	R9649 licenciado
+∠	u/v	confirmed	R9649 Cruz + R9656 venida
+#	f	confirmed	R9646 Ferrara x2 (exact), ofrecer
+ɣ̊	r	confirmed	upgrade: R9646 era, Ferrara x2, ofrecer + R9649 Bernardino
+ɣc	c	confirmed	upgrade of 'y(looped)': R9646 ofrecer, creo + R9649 Cruz, licenciado (looped g-like sign, not 1524 y=o)
+H	e	confirmed	upgrade: R9646 necesidades + R9649 le
+ʇ	m	confirmed	upgrade: R9646 miedo + R9649 mata
+yib	duque	probable	R9646 run 1 "con el duque de Ferrara", parallel clear two lines on
+zan	como	probable	R9646 run 1 "escrevi a v. Mt. como el papa era concertado"; = 1524 zam
+ϙ	c	probable	R9646 concertado
+ɡ	n	confirmed	R9634 Proença, acordasen, viene (three words)
+ʃʃ	a	confirmed	R9634 acordasen, avrian, alojados, abiso
+Ɛ	l	confirmed	R9634 Leon, Dolfinado, soldados x2, sueldo
+xob+pl	grandes	confirmed	R9634 f.15v "con los grandes exercitos"
+yal	exercito	confirmed	R9634 four contexts (upgrades 1524 probable)
+ter	Rey de Inglaterra	confirmed	R9634 "v. Mt. y el Rey de Inglaterra" x4 (upgrades 1524 probable)
+tif	parte	confirmed	R9634 "y parte del Dolfinado"
+yeg	España	confirmed	R9634 "por Flandes ni por España"
+yol	Flandes	confirmed	same
+yof∠7	estava	probable	R9634 f.14v l.14, f.15r l.2
+xor	mu/mo	probable	R9634 "del mundo"
+ϑ	t	confirmed	R9634 pass 2: tierra x2 (f.14r l.6, l.8), fertil, tiene, tenia, toviesen x2, tienen, sostener; open-topped 8 whose top stroke curls back left (closed 8 = e). First-pass '∂' in these slots is this sign
+δ	s	re-confirmed	R9634 pass 2: bowl + short straight upright stem; cosa, dos, estas partes, soldados, toviesen, sostener (never t)
+α	i	re-confirmed	R9634 pass 2: bowl + stem slanting down-right; seiscientos, tierra, fertil, tiene, toviesen
+ϙ	r	probable	R9634 pass 2: q-shaped loop with tail in ϑα8ϙ7 = tierra (f.14r l.4, l.6); distinct from ɡ = n
+∈	g	confirmed	R9634 pass 2: crossed ε/t-like sign; ponga (f.14v l.1), Lenguado- (f.14v l.3), ligeros (f.15r l.5), segura (f.15v l.3); distinct from Ɛ = l
+xil4∈∠7x& ton	Lenguadoque	probable	R9634 f.14v l.3 "parte del Dolfinado y lo mas de Lenguadoque": xil(le)+n+g+u+a+d+o + ton(que) as syllable
+xep	mar	probable	R9634 f.14r l.7-8 "los de la xep y los de la tierra"; l.6 "de ? la xep" (fits the galleys context); one sense slot + one parallel
+ɡ̊	s (plural/letter)	confirmed	R9634 ʃadɡ̊ϑ84Hɣ̊ = sostener, ɡ̊&δϑ8ɡHɣ̊ = sostener, yofɡ̊ tifδ = estas partes
+yi4	dizen	probable	R9634 f.14r l.10 (yi = dize, 1524/R9645)
+⊤	s?	possible	R9634 f.15r l.12 tu ∂̶7⊤Hoδ84 = no pasasen (por parte donde se podria); CONFLICT 1524 ⊤ = u; one slot
+ϖ	p?	possible	R9634 f.15v l.7 ϖʃʃδ87ʇʇ = pasear; f.14v l.12 ϖ&9... = pod-; not cavallos (f.15r l.5 ɣ7ʇʇ7ϖ&δ unresolved)

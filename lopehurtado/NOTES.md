@@ -652,6 +652,6 @@ sign for s or an ending; not fixed from one context). R9634, R9645, R9646, R9649
 - [x] siblings: all nine records opened; R9648 is R9644's duplicate; R9652 is wholly clear
 - [x] clear-pages: R9644's clear (ff. 241-242, lettered sections) and R9650 f. 272 aligned
 - [x] known-keys: the 1524 alphabet (lopehurtado1523/key_1524.tsv) applied back to R9656 f. 334, 2026-09-21 (section below); Juan Manuel's table (Tomokiyo 2025) still untested
-- [ ] print: not done — Tomokiyo 2025 and a web search only; Bergenroth's CSP Spain ii (1522 section) not grepped for 'Salazar. A. 26' folios 14-16, 237-272, 295, 334
+- [x] print: Bergenroth CSP Spain ii (archive.org bub_gb_ZoY9AAAAcAAJ, full text) searched 2026-09-21: Hurtado letters calendared for 1522 are nos. 416, 422 (6 June), 454, 455 (26-27 July) only; nothing from Sept-Nov 1522 (Salazar A. 26 appears once, for Sánchez no. 488). The nine records here are not in print. Sessa's 20 Nov despatch (no. 502) is the nearest contemporary context
 - [x] key-rebuild: crib alignment gave 49 confirmed code values and probable alphabet signs (key_codes.tsv), audited for conflicts
 - [ ] retry: R9656 f. 334 re-read in 1524 notation (above); rerun on R9634, R9645, R9646, R9649, R9656 with the 1524 alphabet and any CSP crib
