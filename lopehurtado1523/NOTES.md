@@ -1,6 +1,6 @@
 # Lope Hurtado de Mendoza (Rome) to Charles V, 1523–24 — catalogue no. 148
 
-Status: read in part
+Status: in progress (read in part; retry step open)
 
 RAH Salazar A-28 (Signatura 9/28) and A-30 (9/30). DECODE R9667, R9683, R9695, R9846, R9866, R9867,
 R9868, R9869. All eight marked "Non-decrypted". Opened 2026-09-21.
