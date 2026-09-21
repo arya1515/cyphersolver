@@ -1,0 +1,253 @@
+# Bremen 1631: decipherment with the band key (4 consecutive numbers per letter):
+# 8 a 12 g 16 n 20 t 24 b 28 h 32 o 36 u 40 c 44 i 48 p 52 w 56 d 60 k 64 q 68 x 72 e 76 l 80 r 84 y 88 f 92 m 96 s 100 z
+# <..> = cipher group as deciphered here; GLOSS lines = interlinear decipherment of the time.
+# Bremen 1631: Johann Friedrich, archbishop of Bremen, to Åke Tott. German clear text + two-digit numeric cipher,
+# interlinear decipherments (lighter ink, another hand) above some groups.
+# German read diplomatically-ish from phone photos; uncertain words '?'. Numbers exactly as written.
+# Digit forms: only one form per digit seen (4 is open, 7 long-tailed, 1 plain stroke, 6 with tall loop).
+# GLOSS lines: gloss over first..last number it spans; alignment by position under the gloss (approx).
+
+## IMG_R4330_I25965_P1.jpg
+(cover sheet, not transcribed)
+
+## IMG_R4330_I25965_P2.jpg
+[address block, top right] Von Gottes gnaden Johann Friedrich, erwehlter und postulierter zu Ertz- und Bischoffen der Stiffter Bremen und Lübeck, Erbe zu Norwegen, Hertzog zu Schleswig Holstein
+Unsern gnädigen gruss in sonderbahrer wolgewogenheit? zuvor,
+Edler, Vester und Hochgelahrter besonders
+lieber, Wir haben nicht, ihr werdet unser
+jüngstes wol erhalten, und was ihr wegen des
+<succursus>, so F. eiland zugeschicket war,
+GLOSS: Succursus over 97..99
+uns möchte, gleich begehret, daraus vernehmen haben
+GLOSS: Landgraff Wilhelm? over F. ; Kön:? over U. (glosses of the abbreviations in the next line)
+wan ihr den berichtet werden, ob solte F. von U.
+mit seiner [struck: Form?] von den <westpfeli>
+GLOSS: armatur? over the struck-out word (not a number)
+<sc[3]etortert>. Und daraus nicht ab oben
+GLOSS: (none)
+<itslatdgefodert> sein, Und
+GLOSS: die Stadt? over 46..97 ; gefordert? over 77..56
+4 dan sich daher, weil dass 13 88: <gronn>
+GLOSS: Dr:? over 13..88 ; Churfürstliche? over 15..19
+<feldische> zu 31. Und <ouolfk>
+GLOSS: Schwedi..? over ~75..31 ; Stifftische? over ~31..32 ; Volck over ~36..62  (placement ambiguous, glosses may belong to line above)
+Und <ntrousel> sonsten deshalben mit
+GLOSS: stark: over 19 ; Colonien: over 21..32 ; troppen over 36..76
+<keinenwidersant>, zu 29 72:
+GLOSS: Keinen over 61..17 ; widerstandt over 74..46
+<furchten>, nachdem auch andere muss
+GLOSS: befürchten? over 88..19
+32. avisirt werden, dass selbig s:-5 75. Und auch
+GLOSS: Mich? over 32 ; conjunctio over 75
+<unszusetze>, dadurch F. 18 82.
+GLOSS: und zusatz? over 39..74 ; Krafft? over 18..82
+gehen Und in die <euserstege>
+GLOSS: äusserste over 73..75 ; gefahr over 83..72
+<fahr> kommen würden. Ob sich also hoffen? ..
+GLOSS: (none)
+<eilent> die <wsrckliche>
+GLOSS: eilent over 75..23 ; ..rheit Stifft? (possibly "sicherheit") over 55..72
+<hulf> er <folget>, zumahl <wir>
+GLOSS: folget over 88..23 ; wir over 52..83
+beyderseits mit <feindenumb>
+GLOSS: feinden over 89..17 ; ...? (unread, maybe "bekriegten") over 39..25
+<griffen> sein würden, Dannach ist
+GLOSS: (none)
+hiemit an euch unser gnädiges gesinnen, ihr wollet
+in solcher erwegung sonders fleisses befordern
+
+## IMG_R4330_I25965_P3.jpg
+(address leaf, clear) Dem Woledlen, Vesten und Hochgelarten unserm besonders lieben Johan: Salvio Königl. Schwedischen Rath, auch anietzo zu Hamburgk residierendes Ambassadeuren und der Recht Doctori,
+
+## IMG_R4330_I25965_P4.jpg
+Und die gnädigste verfügung eilends so viel immer
+müglich anbefohlen geschehen?, dass 4. nicht ver-
+lassen, sondern mit schleunigem <hulf> Und
+GLOSS: Hülff over 28..88
+<succurs> ausgeholffen werden möchte
+GLOSS: succurs over 96..97
+also dass dass <gener{5}ltots>
+GLOSS: Gen: Tott (Generall Tott) over 14..98 (Gen: over 14..19 ; Tott over ~73..78 ; placement loose)
+Und <oberst>: <dumeinetro>
+GLOSS: aber over ~35..26 ; Dänemarck? ("Dänem..") over 82..22
+<upen>. neumahe? Unverlangt <uber>
+GLOSS: truppen over 36..17
+<sant> Und 4. schleunigst <zugesrnt>
+GLOSS: überfandt? over 99..20 ; entsetzet? / "ergesandt" over 100..23 (unclear)
+werden möge, damit nicht dass werck durch
+verweilung schwerer gemacht Und 4. drüber
+dass 82 [gloss: Lübeck? / mit] trenge? Wir haben uns so weit beim-
+GLOSS: bürg? over 82 (single group; probably a nomenclator code)
+hut und es dahin bracht, dass <unser> Und
+GLOSS: (none)
+<cuolck> zu gleich die <schantze>
+GLOSS: bekandte? over 99..100 (sits over 41..18)
+Zur <burg> attaquiret Und damit im werck
+GLOSS: Burg over 24..13
+begriffen, auch, wie <itzouns>, bericht
+GLOSS: Zündt? over 44..32
+beim Rombst? schon <occupireh>, Uns
+GLOSS: occupiert over 34..28
+können aber nicht <weyter>, so <rogr>
+GLOSS: weyter over 52..84 ; progrediren over 20..82
+<lieren> es sey den dass Wir <afsi> (blot)
+GLOSS: assistent? over 11..44
+[struck: 47 ??] <stece> Uber kommen, Darumb 4.
+GLOSS: (none)
+instendig begehrent, 59, wollen sich angelegen sein
+lassen, dass der <succurs> nicht zu lang
+GLOSS: succurs over 96..97
+verweilen möge, sondern schleunigst erfolge,
+dass wollen Wir uns zu euch gentzlich versehen
+und verbleiben euch hinwiederumb mit besondern gnaden
+zu allem guten wolbeygethan. Datum in Unser Stadt
+Bremen am 27 E Novembr. 1631.
+Friedrich (signature)
+
+## IMG_R4331_I25970_P1.jpg
+(this is the continuation leaf of the letter on P2; numbering by DECODE order. See P2 first. Transcription below.)
+
+## IMG_R4331_I25970_P2.jpg  (first page of letter 2; P1 is its continuation)
+[heading] Von Gottes gnaden Johann Friedrich, erwehlter und postulierter zu Ertz- und Bischoffen der Stiffter Bremen und Lübeck, Erbe zu Norwegen, Hertzog zu Schleswig Holstein
+Unsern gnädigen gruss in sonderbahrer wolgewogenheit
+zuvor, Edler, Vester und Hochgelahrter besonders
+lieber besonder, Wir haben in Keinen zweiffel, Ihr
+werdet unser jüngstes wegen <siheuni>,
+GLOSS: schleunigen over 96..44   (10 letters / 7 groups: mismatch)
+<gen>, [gloss end] <succursbs> Und <holck>,
+GLOSS: Stärkung? over 12..17 (continuation "..rckung") ; Succurses over 97..99 ; Volck? ("Volckshülf"?) over 29..60
+<huldfchickunge> erhalten haben,
+GLOSS: (none legible)
+sintemahl? denn nun auch die [struck: festen?] Burg occupiret
+Und eingenommen, Und ob [struck, gloss above: ..Kön:?] Woll? <diereu>,
+GLOSS: die vorderen? ("di vorderen") over 56..37
+<terei>, dahin ausgelegt, so Wird doch <rei>
+GLOSS: Regimenter? ("Regimenter") over 19..31 (next line)
+<nach> umher <lande> hin Und wider <sarck>
+GLOSS: Lande over 78..73 ; Stärck? ("Stärck") over 82..85 (above line)
+<streiffen>, Und einen <ohrtnach>
+GLOSS: streiffen over 97..17 ; orth over 33..23 ; nach over 18..28
+<dem> anderen <uerwusten>, Und Wir
+GLOSS: dem over 58..92 ; gebrauchen? over 36..19 (partly legible)
+vermögen solche <nituerwehren>,
+GLOSS: nicht over 17..20 ; verwehren over 20..16
+Dan Wir auss? 4. sein? der <passen>, neben den <west>
+GLOSS: Wir auss? over (clear text) ; Küsten over 49..18
+<pfelischen>, grentzen <zuerst>,
+GLOSS: wirtschafften? over 50..18 ; überall over 100..23 (written below); einfall? over 54..20
+nothwendig gegen besorglichen <einfal>
+GLOSS: Einfall over 74..79
+das <boninghausen> Und <grons>,
+GLOSS: Königlichen over 24..96? ; Churfürstlichen? ("Kronfeldischen"?) over 14..97
+<feldlsihentroupen>, Dessen
+GLOSS: (none over 90..16) ; truppen over 22..17
+Ein starck spargiret wird, <uersiche>
+GLOSS: Vorsichtig? ("Umsichtig") over 37..73
+<ren> gnugsam? damit nicht dahero [struck: ihn] grossen
+GLOSS: Vergleich? over 81..19 (in left margin) ; auss? over the struck word
+86 Uns 82. anstossen Und zu kommen mögen
+GLOSS: aufbruch? (struck, illegible) over 82
+Wie Wir Uns aber Uns allermassen getrösten
+Und 4. [struck: Vich] darinn nicht verlassen, wir wurden <uer>
+GLOSS: Uns over 4.
+<sprochener> machen mit etlichen
+GLOSS: verstärckung? ("verstrackmar") over 98..82
+<tausendsecundiret> Und auss
+GLOSS: lautendt? over 21..99 ; secundiret over 96..23
+geholffen werden, Also haben Wir noch <die>
+GLOSS: die over 56..72
+<uestezuuersicht> noch weinig?
+GLOSS: nicht? über..(unclear "wehr überreicht"?) over 36..102 ; (rest: none)
+Uns <erligetwasuolckzu>
+GLOSS: eilig over 72..76 ; etwas over 73..54 ; Volck zufügen? over 39..100
+<hulf> überschicken Und 4. mit <lenger>
+GLOSS: auss over 4. ; länger over 79..81
+also <uerlassen> oder mit guten <uer>
+GLOSS: verlassen over 38..9 ; (none over 96..19)
+<trostungen> allein <aufhalten>
+GLOSS: vertröstungen over 23..19 ; aufhalten over 38..83 (prev line) / 10..16
+dadurch [struck: Wir; gloss: Wir] zusambt 70 [struck 8] <ndt> Und <leuten>
+GLOSS: Landt over 70..22 ; Leuten over 77..18
+gantz <periclitiren> Und in 81.
+GLOSS: periclitiren over 48..17 ; Kündlich? ("Unglück") over 81
+insonderheit <gerahten> gerathen, Und Ihnen
+GLOSS: gerathen over 15..16
+dennoch, weil es die höchste noth erfordert, es
+auch nachmahlen gnedig gesinnen, [59: struck, gloss above "Ihr"?] 59. wollet die
+gewissen auftrag Und anordnung Und verfügung
+dass <{4}seunigst> mit dannenhero?,
+GLOSS: Uns over 4. ; schleunigst over 96..22
+wo es gleich nicht sein Konte, der <uolli>
+GLOSS: völliger? ("Völligen") over 39..45
+<geanzhal>, davon ihr Uns jüngst über-
+GLOSS: anzahl over 12..76
+geschrieben, doch zum wenigsten <etwasfus>
+GLOSS: etwas over 72..54 (sits over 21..54)
+<uolckes> Und <theilsdragu>
+GLOSS: fuessvolck over 39..97 ; theils? ("theils") over 20..29 ; dragoner over 29..99
+<ner> so <uiel>, mög? nur zum fodderlichsten
+GLOSS: Mittel over 36..78 (5 letters / 4 groups) ; (56 81 10 15 39 16 73 82 end of prev line: no gloss)
+<ineilmechtigsein> können
+GLOSS: in Eil over 44..17 ; mächtig sein over 76..13 (placement approx.)
+<zumsu> [40 written above a struck group] <cus> geschickt werden Und
+GLOSS: zum Succurs over 100..98
+[G]emeinschaftlichen? zu kommen, mög, auf das die
+<unserigesehen>, dass unerträgliche
+GLOSS: Unferttige? ("Unfertige") over 36..83 ; Lehren? ("Lehren") over 44..74 (unclear)
+ter? machen gleichwol <succursuer>
+GLOSS: Succurs vorhanden over 98..99
+31 8 [struck 17] <den> Und die <hofnung> nicht gross
+GLOSS: hoffnung over 28..14 ; (36 73 82 31 8 58 74 19: none legible)
+<sincken> lassen, auch die 17. in Ungewiss?
+GLOSS: hinken? over 97..17 ; Tilly's? ("Tillisch") over 17.
+?? <tiger> gemacht werden
+GLOSS: ..ade? over ??..23
+
+## IMG_R4331_I25970_P3.jpg
+(close, clear) Und thun verbleiben euch mit allen gnaden
+und sonders wolgeneigtem willen gewogen?. Datum in Unser Stadt Bremen am 2? Decemb. Anno 1631.
+Friedrich (signature)
+
+## IMG_R4331_I25970_P4.jpg (postscript, "Postscripta"-type leaf)
+Konten 59. auch die wenige Völcker (?) dass Unsern Uns ?
+GLOSS: salvig? over 59   (= Salvius? nomenclator)
+nach einiger zu 27. zeugen, beij 5. Und 7. dass wir
+GLOSS: Zoll? over 27 ; H. Christian over 5 ; H. Georg over 7
+dahin disponiren und richten, dass 4. dass ?
+GLOSS: Wir over 4.
+nicht allein alle <rassistenie>, zu ge..
+GLOSS: guter over 83 ; assistence over 8..73 (10 groups / 10 letters)
+<warten> Und dass zu <erfrewen> halten
+GLOSS: machen over 52..17 ; refrenen?/"refrainen" over 75..18
+sondern auch gewiss <erhalten> mögen, dass
+GLOSS: erhalten over 74..19
+dem <feinde> Wo der <newenburg>
+GLOSS: feinde over 88..72 ; Nienburg ("Newenburg") over 17..12
+<hero> Und sonsten über die <aller>, durch
+GLOSS: Landt? ("Landes") over 28..35 ; Aller over 8..83
+<landluneburg> Krieges <pass>
+GLOSS: Landt over 76..58 ; Lüneburg over 78..13 ; ..? ("fuss"?) over 48..98
+<uergonnet> zu sondern Uns <leget>
+GLOSS: Verdörrnis? ("Verdörmich") over 39..80 (placement: left, may mean "Verderben") ; Legat over 79..14 ; Kaisser? / "Kauss"? over 73..23 (below)
+werden, dass 4. dahero Und auch 32. Krieg 82 Und
+GLOSS: Uns over 4. ; Bistthum Mind(en) over 32 ; Hauss? over 82
+<gefahr> widerfahren Und begegnen, wenigen
+GLOSS: gefahr over 12..81
+da die <guarnison> auss <newburg>
+GLOSS: guarnison over 13..17 ; Neuburg? ("Nieuburg") over 18..12
+auff accord abziehen solte, in <uaserm>,
+GLOSS: Unsere? ("Unsern") over 38..95
+<ertzstiftkommen> zu lassen
+GLOSS: Ertzstifft over 75..23 ; Kosten? ("Kosten") over 21..95 (approx.)
+unerstattet, sondern 4. dessweges <unter>
+GLOSS: Wir? (struck) over 4. ; weyter over 37..83
+<demaccordmitbegrif>
+GLOSS: kein accomodo (accommo) mit begreiffen over 56..88 (kein over 56..93 ; accomo over 8..34 ; mit begreiffen over 82..88)
+<fen> werden möglich, haben wir gnädigst ger..
+GLOSS: (none)
+[... 4 clear lines: "Und sollen Uns sondern lieb und angenehm sein, Und haben auch darumb hiernebenst gnädigst Zuverlangen, Wie Wir auch nicht zweiffeln, Ihr es also zu befodern auch sonders angelegen sein lassen werdet, sonsten ist auch unser gestr.."]
+begehren, dass 59 so bald müglich nahen 42, 73
+GLOSS: Salvius over 59 ; Stadt [struck word, "Minden"?] over 42..73
+Und bey 4 selbst <esnkemmen> wollen
+GLOSS: Uns over 4 ; zu kommen? ("einkommen"/"Zukommen") over 73..19
+lassen, damit auch? ... (last line, clear)

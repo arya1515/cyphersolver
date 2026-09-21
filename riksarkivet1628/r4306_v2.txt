@@ -1,0 +1,43 @@
+# R4306 page 1, v2: digit variants NOT normalised.
+# 3 = open z-like 3 with top hook/lead-in; 7 = narrow '7'/')'-like form in the tens position (70,74,77...).
+# o = 0 with extra loop/flourish ('ø'/'00'); 0 = plain small round 0. '?' = variant form uncertain.
+## IMG_R4306_I25832_P_hi.jpeg
+30 40 16 40 74 47 50 4o 77 34 42 49 50
+34 42 49 34 46 47 4o 70 34 42 3o 32 47 30 40
+41 43 42 33 74 40 3o 42 16 2o 36 74 39 40 40
+41 34 42 30 42 4o 50 7 11 43 6 43 46 33 34 42
+30 40 47 43 37 6 34 47 30 34 32 79? 34 42
+39 30 42 47 34 57 67 34 46 36 46 5 7 43
+4o 34 42 36 16 26 34 50 3o 16 32 37 4o
+34 47 52 42 34 42 33 34 41 34 4o 31
+96 34 42 36 34 42 70 42 4o 50 43 93 46 4o
+43 44 49 40 3o 34 33 34 42 39 34 96
+97 97 34 72 39 41 34 4o 44 70 47 44 93
+43 46 4o 34 42 37 74 34 46 31 34 36
+3o 42 4o 3o 30 26 74 40 43 16 19 49 97
+52 74 4o 49 97 16 97 34 42 106 Z4 42
+114 105 36 34 97 70 42 16 12 4o 11 34 42
+97 52 42 31 34 52 33 34 49 30 42 37 7o
+74 49 74 46 4o 96 93 32 39 34 42 3o 32
+50 34 11 13? 34 9o 113 97 52 42 36 30 42
+9o 97 34 42 49 66 6o 93 11 93 96 42 34
+41 34 42 50 30 9o 77 52 34 42 33 34 42
+97 7o 42 37 34 11 16 74 35 9o 49 34 40
+77 34 42 77 34 31 7o 32 93 93 32 96 70
+74 4o 36 74 11 36 34 99? 34 42 37 52? 34
+97 42 30 33 34 42 114 7o 32 96 99? 97
+44? 42 70 32 77 9o 42 43 32 37? 77 30
+32 37 9o 42 52 33 70 9o 3o 32 97 7o 34
+32 39 31 34 42 43 35 9o 42 3o 74 99?
+74 42 97 72? 93 99 76 34 11 74 42 44 34
+46 52 32 39 34 40 [arrow ->] 49 40 9o 50 34
+74 31 96 34 99 74 42 93 42 9o 35 30 42
+36 74 42 99 30 42 33 34 42 2o3 75? 34 31
+96 99 30 46 52 74 42 13? 41 70 46 3o 52
+43 41 74 16 74 42 42 93 11 93 33 3o 76 34 97 30 74 32 39 34
+131 40 52 35 3o 32 42 43 32 37 50 70 9o 33 7o 74 3o 41 44 93 96 9o
+34 74 46 9o
+# Caveats: 9-vs-4 in the tens was read as 9 when the first stroke has a long descender below the line;
+# the q-form in "42" was left as 4 throughout (nearly all 42s are written that way), so 42/92 is NOT split.
+# 'Z4' = 3 written as a descending 'ʒ'. The 7-vs-3 and o-vs-0 calls are by eye at ~1x and inconsistent
+# risk is real; treat per-token variant counts as indicative.

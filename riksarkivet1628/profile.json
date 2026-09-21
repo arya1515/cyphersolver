@@ -1,0 +1,277 @@
+{
+ "schema_version": 1,
+ "target": "riksarkivet1628",
+ "title": "Riksarkivet group of 14 DECODE records R4282-R4341 (catalogue item 207): Bremen 1631 read; R4282, R4284, R4306 attempted",
+ "documents": [
+  {
+   "id": "bremen1631",
+   "shelfmark": "Riksarkivet Stockholm, DECODE R4330 and R4331 (Riksarkivet_Bremen_Tott_1631-1, -2)",
+   "date": "27 Nov and ? Dec 1631",
+   "year": 1631,
+   "country": "Germany",
+   "route": "Johann Friedrich, archbishop of Bremen -> Johan Adler Salvius, Hamburg",
+   "language": "German",
+   "pages": 7,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary decipherment written above most number groups (about 80%).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1130,
+    "unit": "code groups",
+    "measured": true,
+    "file": "bremen_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE phone photographs, 2448 x 3264",
+    "image_quality": "fair",
+    "notes": "Measured count includes date figures and the nomenclator numbers in the clear text; about 30% of gloss words uncertain."
+   }
+  },
+  {
+   "id": "R4306",
+   "shelfmark": "Riksarkivet, Chifferklaver låda II:133 (wrapper II:104), DECODE R4306",
+   "date": "1632?",
+   "year": 1632,
+   "country": "unknown",
+   "route": "unknown -> 'Mr ?ilick', Amsterdam",
+   "language": "unknown",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "none",
+    "partial": false
+   },
+   "length": {
+    "tokens": 463,
+    "unit": "code groups",
+    "measured": true,
+    "file": "r4306_v2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE PDF, 2397 x 3884",
+    "image_quality": "good",
+    "notes": "Second transcription keeps the scribe's variant forms (34/74, 40/4o/9o, 30/3o/70/7o); whether they are distinct symbols is not settled."
+   }
+  },
+  {
+   "id": "R4284",
+   "shelfmark": "Riksarkivet, Chifferklaver låda II:114, DECODE R4284",
+   "date": "1628",
+   "year": 1628,
+   "country": "unknown",
+   "route": "unknown -> Ludwig Camerarius?",
+   "language": "Latin",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "none",
+    "partial": false
+   },
+   "length": {
+    "tokens": 756,
+    "unit": "code groups",
+    "measured": true,
+    "file": "r4284_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE PDF, 4917 x 3895 spread",
+    "image_quality": "good",
+    "notes": "About 20 multi-digit readings doubtful (possibly two numbers run together); one line written twice in the manuscript."
+   }
+  },
+  {
+   "id": "R4282",
+   "shelfmark": "Riksarkivet, Chifferklaver låda II:113, DECODE R4282",
+   "date": "unknown",
+   "year": "unknown",
+   "country": "unknown",
+   "route": "unknown",
+   "language": "Latin",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "none",
+    "partial": false
+   },
+   "length": {
+    "tokens": 973,
+    "unit": "letters",
+    "measured": true,
+    "file": "r4282_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE PDF, 2465 x 3609",
+    "image_quality": "good",
+    "notes": "One pass; u/n/M, q/g, b/h, o/8 confusions likely. Agent counted 1092 signs; the checker counts 973 letters (digit-shaped signs excluded)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Bremen 1631: two-digit homophonic substitution, four consecutive numbers per letter, the bands taken down the columns of a six-column alphabet grid, with a small nomenclator of one- and two-digit numbers.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 96,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "names",
+    "titles",
+    "common words"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": false
+  },
+  "key_order": "partly alphabetical",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "Key order: bands of four from 8 taken down the columns of a six-column grid (a g n t / b h o u / c i p w / d k q x / e l r y / f m s z). Describes the Bremen letters only. R4306 (monoalphabetic by IoC, 0.078), R4284 (108 values) and R4282 (about 33 signs, Latin) were not broken; R4333-R4341 were not worked."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Interlinear decipherment of about 80% of the Bremen groups, written at the time; DECODE status Partially decrypted",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "riksarkivet1628/solve_num.py",
+   "riksarkivet1628/qg.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched the 14 DECODE records and their images with the project cookie; found the entry is four unrelated groups (R4282/R4284/R4306 key-box ciphertexts, Bremen 1631, Rusdorff 1628, Oxenstiernska saml. E 708 of June 1633).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Agent transcriptions of R4306 (463 numbers) and R4284 (756 numbers).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "statistics",
+   "what": "R4306 IoC 0.078 (monoalphabetic); '34 42' x31.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Simple-substitution and homophonic annealing of R4306 over quadgram models in nl, de, la, fr, sv, en, it, es, pt, da; first runs collapsed to e/n strings until a search bug (free changes propagating by swaps) and a backoff-model artefact were fixed.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R4306 re-transcribed keeping digit variants (55 tokens); annealed again.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Homophonic Latin annealing of R4284 (8 x 250k), also over 4-number bands.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Fetched 70 Chifferklaver låda II key records; tested the Siebenbürgen key (R4310) and the 1632 key (R4296) on R4306 and R4284.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Bremen letters transcribed with their interlinear glosses.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Aligned glossed words to numbers: four consecutive numbers per letter.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "prediction",
+   "what": "Unglossed bands fixed from unglossed words (k, z, m, w), then the band order recognised as a six-column alphabet grid read by columns, placing q, x and y.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Every cipher group of both Bremen letters decoded (bremen_decoded.txt).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R4282 letter cipher transcribed by agent (33 sign codes).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Homophonic and substitution Latin annealing of R4282, with and without the written word divisions.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "key confirms"
+  ],
+  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked."
+ }
+}

@@ -9,6 +9,7 @@
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
+  "archbishop of bremen to johan adler salvius, november–december 1631": "2026-09-21",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
@@ -194,7 +195,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "003d213c4ea9",
+   "hash": "60f3b8915ef0",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -324,7 +325,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "c724c1cc9c0c",
+   "hash": "66b35cb8484c",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -482,6 +483,11 @@
    "hash": "53bd2ef837b3",
    "updated": "2026-09-15"
   },
+  "riksarkivet1628": {
+   "first": "2026-09-21",
+   "hash": "89201174d4d8",
+   "updated": "2026-09-21"
+  },
   "ronquillo1676": {
    "first": "2026-09-21",
    "hash": "0936a922820d",
@@ -624,7 +630,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "19464cafb155",
+   "hash": "90eb55f68479",
    "updated": "2026-09-21"
   },
   "yard1699": {

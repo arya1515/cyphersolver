@@ -618,3 +618,8 @@ sauli1579/decode/*.png
 sauli1579/decode/*.htm
 
 papai1706/img/
+
+# riksarkivet1628: DECODE images and solver caches
+riksarkivet1628/decode/
+riksarkivet1628/qg_*.npy
+riksarkivet1628/__pycache__/

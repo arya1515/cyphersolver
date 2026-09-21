@@ -4582,7 +4582,7 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/9367"
     },
     {
-     "label": "+8 more records",
+     "label": "+7 more records",
      "href": null
     }
    ],
@@ -6406,18 +6406,18 @@
    "id": 207,
    "counted": false,
    "year": 1628,
-   "date": "1628 – 1646",
-   "title": "Unknown sender to unknown recipient, 14 ciphertexts",
-   "correspondents": "Unknown sender → unknown recipient",
+   "date": "1628 – 1633",
+   "title": "Riksarkivet key-box and Oxenstierna ciphers, 12 records (Bremen 1631 read and removed)",
+   "correspondents": "unknown → Camerarius?, Amsterdam; Rusdorff → Oxenstierna; Swedish agent → Oxenstierna",
    "place": "Stockholm",
-   "language": "Latin",
+   "language": "Latin, German, Swedish",
    "region": "Scandinavia",
    "period": "1611-1650",
-   "shelfmark": "Riksarkivet, TNA of Sweden (14 items)",
+   "shelfmark": "Riksarkivet, TNA of Sweden (12 items)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R4282–R4341 (14 records): Partially decrypted, 43 pp., unknown; alphabet, graphic signs, numerical; images public. Not viewed here. 148 key record(s) from the same series on DECODE, nearest R4329 (1600). DECODE note: DECODE's date 1600/1699 is the span of the volume. Part of a collection of keys used in correspondence between: Axel Oxenstierna and the administration (1635,1636) Axel Oxenstierna and Lars Nilsson Tungel (1633) Axel Oxenstierna and Jacob de la Gardie (1635) A…",
-   "why": "Ciphered despatches of Unknown sender to unknown recipient, 1628 – 1646; what the cipher hides is not known.",
+   "status": "DECODE R4282–R4341, 12 records. Viewed 21 Sept 2026 (riksarkivet1628/): four unrelated groups. The two Bremen letters of 1631 (R4330–R4331) are read and removed from this entry. Open: R4282 (Latin letter cipher, ~33 signs), R4284 (Latin 1628, 108 numbers, Camerarius docket), R4306 (to Amsterdam 1632, monoalphabetic by IoC) — attacked by annealing in ten languages and against two box keys, not broken; R4333–R4337 (Rusdorff → Oxenstierna 1628, \"unsolved cipher\") and R4338–R4341 (E 708, Swedish, June 1633, not 1646; glossed in part at the time) not worked.",
+   "why": "Three key-box ciphertexts that resisted a first attack, and Oxenstierna correspondence of 1628 and 1633 with a key collection that may hold their keys.",
    "importance": 3,
    "solvability": 4,
    "difficulty": 3,
@@ -6438,19 +6438,11 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/4306"
     },
     {
-     "label": "DECODE R4330",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4330"
-    },
-    {
-     "label": "DECODE R4331",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4331"
-    },
-    {
      "label": "DECODE R4333",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/4333"
     },
     {
-     "label": "+8 more records",
+     "label": "+7 more records",
      "href": null
     }
    ],
@@ -6460,8 +6452,6 @@
     4282,
     4284,
     4306,
-    4330,
-    4331,
     4333,
     4334,
     4335,
@@ -6472,7 +6462,9 @@
     4340,
     4341
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "riksarkivet1628.html"
   },
   {
    "id": 208,

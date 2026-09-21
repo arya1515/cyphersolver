@@ -152,6 +152,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p50 | **Bernardo de Salinas (London) and Pedro Ronquillo (Nijmegen) → Baltasar de Fuenmayor**, AGR Brussels SEG 2559 (DECODE R966–R984, R1001) | 1676–78 | 1 | 3 | 3 | 3 | 1 | 3 | **2.30** | A sibling key applied unchanged (D 1); the work was re-segmenting DECODE's transcriptions. Four letters with no margin, two catalogued as non-decrypted, read in gist, so N 3 |
 | p51 | **Antonio Sauli and Cardinal Riario (Portugal) → the papal Secretariat**, ASV Segr. Stato Portogallo 8 (DECODE R190–R194) | 1579–81 | 1 | 3 | 2 | 3 | 1 | 4 | **2.20** | Contemporary decipherments over nearly every passage and a published key (Lasry 2020), so D 1 and N 2; the work was transcribing R192–R194 and checking them against the glosses, which added five code words. Riario's legation on the Piedmont plot and the papal troops for Ireland |
 | p52 | **János Pápai → Ferenc Rákóczi II**, MNL OL G15 (DECODE R731–R823) | 1706–10 | 1 | 3 | 4 | 3 | 1 | 4 | **2.60** | D 1: the envoy's own key, found among DECODE's key records and applied unchanged. N 4: six letters DECODE listed as undeciphered, now read. H 3: Rákóczi's diplomacy at the Porte. V 4: 98.5% of groups keyed, continuous Hungarian and Latin. R731 (graphic signs) open. |
+| p53 | **Archbishop of Bremen → Salvius**, Riksarkivet group (DECODE R4330–R4331) | 1631 | 2 | 2 | 3 | 3 | 1 | 3 | **2.30** | D 2: key rebuilt from the clerk's glosses, the grid order predicting the unglossed letters. N 3: DECODE listed them as partially decrypted; the unglossed fifth is new. H 3: Bremen's appeal to Sweden in the winter after Breitenfeld. V 3: every group reads; transcription slips remain. |
 
 ## By single axis
 
@@ -391,3 +392,5 @@ Ralph Boswell provisional score: 0.25×1 + 0.25×2 + 0.20×2 + 0.10×1 + 0.10×1
 Salinas/Ronquillo provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.30** (p50).
 Sauli and Riario provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **2.20**.
 Pápai provisional score: 0.25×1 + 0.25×3 + 0.20×4 + 0.10×3 + 0.10×1 + 0.10×4 = **2.60** (p52), level with the other archive-key readings.
+
+Bremen provisional score: 0.25×2 + 0.25×2 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×3 = **2.30** (p53): the glosses did most of the work.
