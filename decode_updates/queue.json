@@ -4106,6 +4106,38 @@
      }
     }
    }
+  },
+  "r1874": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/r1874.html",
+   "key": {
+    "decode": "no key; the contemporary decipherment imaged on this record (images 8955-8959)",
+    "lang": "IT"
+   },
+   "cite": "Calendar of State Papers, Venice, vol. 21 (1916), no. 515 (Madrid, 26 Oct 1628)",
+   "fields": {
+    "author": "Alvise Mocenigo",
+    "sender": "Alvise Mocenigo, Venetian ambassador in Spain",
+    "receiver": "Doge and Senate of Venice",
+    "start_year": "1628",
+    "start_month": "10",
+    "start_day": "26",
+    "end_year": "1628",
+    "end_month": "10",
+    "end_day": "26",
+    "city": "Madrid",
+    "plaintext_lang": "Italian",
+    "cipher_types": "nomenclator"
+   },
+   "records": {
+    "R1874": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Despatch of Alvise Mocenigo, Venetian ambassador, Madrid, 26 Oct 1628, to the Doge and Senate (CSP Venice 21 no. 515). Images 8955-8959 are the chancery's decipherment of the whole letter (paragraphs 6-9); 8960-8964 a second copy dated 26 Oct 1628 (transcription reads 1606); 8966 a deciphered page of the 29 Oct despatch. Status change and metadata only.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
