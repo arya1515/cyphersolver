@@ -828,7 +828,7 @@
     8871
    ],
    "scored": "rule",
-   "outcome": "attempted, open"
+   "outcome": "skipped: impossible without the key or the rest of the series"
   },
   {
    "id": 76,

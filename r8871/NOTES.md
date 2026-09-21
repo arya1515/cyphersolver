@@ -1,6 +1,6 @@
 # BL Add MS 32280 f. 3 (DECODE R8871): trigram fragment "Suite du No 13 / No 24"
 
-Status: in progress (attempted, open; not read, no key found)
+Status: no write-up (skipped: impossible from the available material. 77 groups of a large/enciphered code, no key on DECODE or in the volume's key records)
 
 Catalogue: "Unknown sender to unknown recipient", BL Add MS 32280 f 3, DECODE R8871 (dated 1723/1842, the span of the volume).
 
