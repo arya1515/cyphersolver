@@ -1102,41 +1102,6 @@
    "scored": "rule"
   },
   {
-   "id": 86,
-   "counted": true,
-   "year": 1711,
-   "date": "22 Feb 1711",
-   "title": "Queen Anne to Charles Mordaunt",
-   "correspondents": "Queen Anne → Charles Mordaunt",
-   "place": "London",
-   "language": "English",
-   "region": "England",
-   "period": "1701-1800",
-   "shelfmark": "BL, Add MS 4107, f 184",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R4878: Non-decrypted, 3 pp., unknown; numerical; images login. Not viewed here. DECODE note: Instruction sent from Queen Anne to Charles Mordaunt, Earl of Peterborough and Monmouth. For his embassy to Turin.",
-   "why": "Ciphered letter of Queen Anne to Charles Mordaunt, 22 Feb 1711; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4878",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4878"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4878
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 87,
    "counted": true,
    "year": 1559,

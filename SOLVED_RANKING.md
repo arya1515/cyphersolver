@@ -215,6 +215,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 ## Third tier: found already solved by others
 
+**Queen Anne → the Earl of Peterborough (1712; catalogue 86)**: printed in clear by Parke (1798) from the office draft; every code run of the signed original aligned with the print, four anchors (him, he, himself, your) guessed from context before the print was found, and DECODE's "Turin embassy" subject corrected to the Saxon mission. Ranked as source identification, not a new cryptanalytic solve.
+
 **Prospero Santa Croce (nuncio in France) → Cardinal del Monte (1553; catalogue 245)**: read at the time and printed deciphered (Lestocquoy 1972, ANG 9); Lasry's key on DECODE reproduces it. Only R9's cancelled postscript cipher is read here. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/santacroce1552.html).
 
 **Etienne Bourdeaux (Berlin) → Maarten van der Goes (1801; catalogue 228)** — read from the ministry’s contemporary clear copy, which DECODE had imaged under the neighbouring record R1946; no cryptanalysis, the code groups not aligned. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1944.html).

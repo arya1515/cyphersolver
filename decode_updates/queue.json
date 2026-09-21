@@ -3225,6 +3225,32 @@
      }
     }
    }
+  },
+  "anne1711": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/anne1711.html",
+   "key": {
+    "file": "anne1711/alignment.tsv",
+    "lang": "EN",
+    "how": "No key found. The code runs are aligned with the clear text printed by Parke (1798) i 310-311; recurring groups are constant (534 to, 678 the, 839 you, 894 him, 609 his)."
+   },
+   "cite": "G. Parke (ed.), Letters and Correspondence of Henry St. John, Lord Visc. Bolingbroke, vol. 1 (London 1798), pp. 310-311",
+   "fields": {
+    "cipher_type": "nomenclator (numerical code with nulls)",
+    "note": "Dated 22 Feb 1711/12 Old Style (1712). Subject: secret mission to the Electoral Prince of Saxony (to keep him from abjuring in Rome), not the Turin embassy."
+   },
+   "records": {
+    "R4878": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Whole text printed by Parke 1798 i 310-311; all 61 code runs aligned with it (groups 91 and 261 have no printed word).",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R4878.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
