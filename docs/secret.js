@@ -57,6 +57,7 @@
     x.putImageData(im,0,0); return c; })();
   function seeded(seed){ let s=seed>>>0||1; return ()=>{ s^=s<<13; s^=s>>>17; s^=s<<5; return ((s>>>0)%10000)/10000; }; }
   function paper(W,H,rand){
+    ctx.clearRect(0,0,W,H); ctx.beginPath(); ctx.roundRect(0,0,W,H,Math.round(Math.min(W,H)*.035)); ctx.clip();   // rounded sheet, in the PNG too
     ctx.fillStyle='#ecdcb8'; ctx.fillRect(0,0,W,H);
     const g=ctx.createRadialGradient(W/2,H*.45,Math.min(W,H)*.25,W/2,H/2,Math.max(W,H)*.75);
     g.addColorStop(0,'rgba(255,248,225,.35)'); g.addColorStop(.7,'rgba(150,110,50,.12)'); g.addColorStop(1,'rgba(90,60,20,.45)');
