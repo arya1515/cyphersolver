@@ -1,0 +1,75 @@
+{
+ "schema_version": 1,
+ "target": "damiata1624",
+ "title": "Paris nunciature (Spada, archbishop of Damiata; Bernardino Naro) to the Secretariat, 1625 (ASV Segr. Stato; DECODE R60-R61)",
+ "documents": [
+  {
+   "id": "R60",
+   "shelfmark": "ASV Segr. Stato Francia 64, ff. 137-138 (DECODE R60)",
+   "date": "15 Aug 1625",
+   "year": 1625,
+   "country": "France",
+   "route": "Paris (nunciature) -> Rome (Secretariat of State)",
+   "language": "Italian",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["interlinear"], "source": "Contemporary decipherment written above each cipher run on f. 138r."},
+   "length": {"tokens": 84, "distinct": 9, "unit": "symbols", "measured": true, "file": "r60_digits.txt"},
+   "transcription": {"by": "llm from images", "source": "DECODE images IMG_R60_I461-463", "image_quality": "good", "notes": "8/0 and 9/4 confusable; delimiter flourishes not transcribed."}
+  },
+  {
+   "id": "R61",
+   "shelfmark": "ASV Segr. Stato Francia 64, ff. 186-187 (DECODE R61)",
+   "date": "28 Feb 1625",
+   "year": 1625,
+   "country": "France",
+   "route": "Paris -> Rome (Secretariat of State)",
+   "language": "Italian",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["interlinear"], "source": "Decipherment written above the two lines of figures on f. 186r."},
+   "length": {"tokens": 123, "distinct": 10, "unit": "symbols", "measured": true, "file": "r61_digits.txt"},
+   "transcription": {"by": "llm from images", "source": "DECODE images IMG_R61_I464-466", "image_quality": "good", "notes": "Figures only; the letter-sign line on the same page is not transcribed."}
+  }
+ ],
+ "system": {
+  "types": ["homophonic", "nomenclator"],
+  "summary": "Two-digit homophonic cipher with nulls 2 and 5 and three-digit nomenclator codes followed by a null digit, used for short passages in clear Italian.",
+  "symbol_kind": "digits",
+  "digit_groups": {"width": "mixed", "separation": "contiguous"},
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": false},
+  "homophones": {"used": true},
+  "nomenclator": {"present": true},
+  "nulls": {"present": true},
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE DOC D3246/D3247 on R60/R61: Biermann-Bosbach reconstructed key for ASV F64 1625, transcribed by Lasry",
+  "notes": "R61 also has one line of letter-sign cipher, not in this key, not attacked."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "in archive", "where": "Contemporary decipherments on the leaves; key reconstructed by Biermann and Bosbach, on DECODE since 2020", "found": "before attempt", "used": true},
+  "inputs": ["images", "key from archive"],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": ["decode_with_key.py (DP segmentation over the key with gap penalty)"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Fetched the DECODE record pages, six images and the two DOC_ files with the session cookie.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "key from source", "what": "DOC_ files on both records hold the Biermann-Bosbach 1625 key (Lasry transcription).", "result": "worked", "date": "2026-09-21"},
+  {"kind": "verification", "what": "Read the pages: R60 Spada 15 Aug 1625 and R61 Naro last Feb 1625, each with an interlinear decipherment over the figures.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "transcription", "what": "Transcribed the R60 and R61 figure runs from zoomed crops.", "result": "partial", "date": "2026-09-21"},
+  {"kind": "reading", "what": "Decoded with the key: R60 'a fratelo del arcivescovo', 'gnor' under 'Monsignore'; R61 ends 'di loro natura', matching the glosses.", "result": "partial", "date": "2026-09-21"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "verification": ["contemporary decipherment"],
+  "notes": "Read at the time; key confirmed on stretches. R61 letter-sign line not attacked."
+ }
+}

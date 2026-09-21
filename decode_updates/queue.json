@@ -2763,6 +2763,41 @@
      ]
     }
    }
+  },
+  "damiata1624": {
+   "writeup": null,
+   "key": {
+    "decode": "Biermann-Bosbach reconstructed key already attached to these records (DOC_R60_D3247, DOC_R61_D3246)",
+    "lang": "IT"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R60": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: decipherment written above each cipher run on f.138r; Biermann-Bosbach key fits. Letter is Bernardino Spada (abp. of Damiata), Paris, 15 Aug 1625.",
+     "reading": [
+      {
+       "file": "damiata1624/NOTES.md",
+       "section": "## What the records are"
+      }
+     ],
+     "sent": false
+    },
+    "R61": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read at the time: decipherment written above the figures on f.186r ('A cenar l'occasione di rispettar i Francesi sospettosissimi e gelosi di loro natura'). Bernardino Naro, Paris, last Feb 1625.",
+     "reading": [
+      {
+       "file": "damiata1624/NOTES.md",
+       "section": "## What the records are"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }
