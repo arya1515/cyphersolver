@@ -1687,7 +1687,40 @@
    }
   },
   "heusner1637": {
-   "skip": "Already read on DECODE R4332 (Waldispuhl & Kopal 2024); to note: R3816 duplicates R4332's scans and the date is 15 May 1637"
+   "writeup": "https://dbourdeau.github.io/cyphersolver/heusner1637.html",
+   "key": {
+    "decode": "R4332 (Waldispühl & Kopal's key file DOC_4332_2024-Mar-26, on the record)"
+   },
+   "cite": "Waldispühl, M. & Kopal, N. 2024. Decipherment of a German encrypted letter sent from Sigismund Heusner von Wandersleben to Axel Oxenstierna in 1637. HistoCrypt 2024 Proceedings, 249-253. https://doi.org/10.58009/aere-perennius0116",
+   "fields": {
+    "R4332": {
+     "start_month": "5",
+     "end_month": "5"
+    },
+    "R3816": {
+     "start_month": "5",
+     "start_day": "15",
+     "end_month": "5",
+     "end_day": "15",
+     "origin_city": "Kassel, Germany"
+    }
+   },
+   "records": {
+    "R4332": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Date correction: the letter closes 'CASSEL den 15. May 1637', so the date is 15 May 1637, not 15 March. Key re-checked on an independent transcription of letter page 2 (reproduces the published plaintext). Record R3816 carries the same three scans (identical MD5; its P2/P3 = this record's P3/P2): the two records are one letter. Open: the three-digit codes (147-808); 747 occurs in the plaintext but is missing from the key file.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R3816": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Duplicate of R4332: the three images are byte-identical to R4332's (P1 = R4332 P1, P2 = R4332 P3, P3 = R4332 P2). The letter, Heusner von Wandersleben to Oxenstierna, Kassel 15 May 1637, was deciphered by Waldispühl & Kopal (HistoCrypt 2024); key and plaintext are on R4332. Only the three-digit codes remain open.",
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }

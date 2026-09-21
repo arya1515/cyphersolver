@@ -53,3 +53,7 @@ is in the plaintext but not in the key file's list). Context only: 164 is where 
 itself? the letter is dated there); 503 is the one person at court still Swedish-minded and "SOLL IN DAS FELD",
 most likely Landgrave Wilhelm V of Hesse-Kassel (grade M); 147 is where the guns are cast. Not pursued: the
 Hessian correspondence would settle them.
+
+## DECODE update queued
+
+`decode_updates/queue.json` (heusner1637): R4332 date 15 March → 15 May 1637, key re-check, 747 missing from the key file; R3816 marked as a duplicate of R4332 (proposed Partially decrypted, date and place filled). Not sent: needs write access.
