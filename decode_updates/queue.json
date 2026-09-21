@@ -2842,21 +2842,34 @@
    }
   },
   "bergamo1585": {
-   "writeup": null,
+   "writeup": "https://dbourdeau.github.io/cyphersolver/bergamo1585.html",
    "key": {
-    "decode": "Lasry's F18 key already on R15/R16 (D3103, D3105)",
-    "lang": "IT"
+    "file": "bergamo1585/meister324_nomenclator.txt",
+    "lang": "IT",
+    "how": "R16: Lasry's F18 key (D3105) with the nomenclator of Meister p. 324 no. 2; R17: Meister pp. 393-394 no. 40, LM segmentation"
    },
-   "cite": null,
+   "cite": "A. Meister, Die Geheimschrift im Dienste der päpstlichen Kurie (Paderborn 1906), p. 324 no. 2 and pp. 393-394 no. 40",
    "fields": {},
    "records": {
     "R16": {
      "decode_status": "Partially decrypted",
-     "proposed": "Partially decrypted",
-     "note": "The decryption file on R16 (D3104) is a copy of R15's (D3102). R16 itself decrypts with the F18 key applied to TimB's transcription D1610: 1,410 pairs, 66 unknown; ~20 nomenclator codes open.",
+     "proposed": "Decrypted",
+     "note": "The decryption file D3104 on this record is R15's (md5-identical). R16 itself, 3 Mar 1586, read with the F18 key + Meister p.324 nomenclator: Guise, Metz, the sale of church property; ~18 groups open.",
      "reading": [
       {
-       "file": "bergamo1585/R16_decryption.txt",
+       "file": "decode_updates/decryptions/R16.txt",
+       "section": ""
+      }
+     ],
+     "sent": false
+    },
+    "R17": {
+     "decode_status": "Partially",
+     "proposed": "Decrypted",
+     "note": "Read with Meister no. 40 (Morosini key, June 1587), which the key note on this record points to; the decryption file here is a Java error trace. 1587, not a Bergamo/Nazareth letter.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R17.txt",
        "section": ""
       }
      ],

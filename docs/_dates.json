@@ -103,6 +103,7 @@
   "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
   "paris 1719 and the carré letters, 1742–45 (bl add ms 32305)": "2026-09-21",
+  "paris nunciature to the secretariat, 1586–87": "2026-09-21",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
   "perwich to arlington, 1670": "2026-09-15",
@@ -193,6 +194,11 @@
    "hash": "f8049ea24b68",
    "updated": "2026-09-20"
   },
+  "bergamo1585": {
+   "first": "2026-09-21",
+   "hash": "39765b2ad979",
+   "updated": "2026-09-21"
+  },
   "bethune": {
    "first": "2026-09-17",
    "hash": "0c9fc6ba1255",
@@ -240,7 +246,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "d28110e50887",
+   "hash": "a9edf8778e8f",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -415,7 +421,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0b46c3571c61",
+   "hash": "0e69901852c6",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -835,7 +841,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f5d5bcd9237d",
+   "hash": "0dfe245b076d",
    "updated": "2026-09-21"
   },
   "yard1699": {
