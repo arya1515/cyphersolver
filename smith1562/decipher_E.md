@@ -102,3 +102,5 @@ this tyme is most necessarie."
 - 31 Jan 1562/3 advertisements: not in Forbes, not found in CSP F. 6 (Jan 26-31, Feb 1-5). (2) = "the queen of
   Navarre" (name sign = French King / K. of Navarre, used with 'queen of'). (1) "Monsieur de [?]uy", (3) and the last
   line remain fragments. This is the only part of R9236 not read.
+
+- Second pass on 31 Jan: last line reads '[?] band that [K. of Navarre] and [?day] with …'; context in CSP F. 6 (Warwick, late Jan 1563: 'the bruit of the Queen of Navarre's band'). Still not read.
