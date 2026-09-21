@@ -1,0 +1,427 @@
+{
+ "schema_version": 1,
+ "target": "nunzio1736",
+ "title": "Segreteria di Stato (Rome) to the Nunciature in Spain, 11 ciphered despatches, 14 Jul - 22 Dec 1736, ASV Segr. Stato Spagna 423 (DECODE R179-R188)",
+ "documents": [
+  {
+   "id": "423/1",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 1 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1672,
+    "distinct": 155,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-1.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/2",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 2 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 680,
+    "distinct": 110,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-2.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/3",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 3 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 125,
+    "distinct": 48,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-3.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/4",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 4 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 361,
+    "distinct": 90,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-4.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/5",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 5 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 137,
+    "distinct": 58,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-5.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/6",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 6 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 380,
+    "distinct": 86,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-6.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/7",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 7 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 753,
+    "distinct": 114,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-7.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/8",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 8 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 212,
+    "distinct": 72,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-8.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/9",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 9 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 562,
+    "distinct": 113,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-9.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/10",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 10 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1345,
+    "distinct": 126,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-10.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  },
+  {
+   "id": "423/11",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 11 (one of DECODE R179-R188)",
+   "year": 1736,
+   "country": "Papal States",
+   "route": "Rome -> Madrid",
+   "language": "Italian",
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate collection"
+    ],
+    "source": "George Lasry's segmented decipherment filed on the DECODE records, October 2020 (nomenclator groups left unvalued).",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1159,
+    "distinct": 138,
+    "unit": "code groups",
+    "measured": true,
+    "file": "lasry/423-11.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "Matt F / NiLan, 2015-17, from the ASV images; segmented into groups by Lasry, 2020",
+    "image_quality": "unknown"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Undivided digit stream: two-digit homophones for letters and syllables, four-digit nomenclator groups prefixed 1, and the digit 7 as a null.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2 and 4",
+   "separation": "contiguous"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 2
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 166,
+   "kinds": [
+    "word parts",
+    "common words",
+    "names",
+    "titles"
+   ],
+   "unread_groups": 119
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "sibling_key": "unknown",
+  "notes": "Lasry's filed key (ASV - S423) values only the two-digit elements; none of the 166 four-digit groups in the corpus (708 tokens). The nomenclator is not alphabetical as far as the recovered values show."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "George Lasry's reconstructed key ASV - S423 and segmented decipherment of Spagna 423/1-11, attached to every one of DECODE R179-R188; key dated 24 October 2020",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "key from archive",
+   "published reading"
+  ],
+  "attack": "key from archive",
+  "human_role": "Supplied the DECODE session cookie; set the target by /goal.",
+  "tools": [
+   "corpus.py",
+   "ctx.py",
+   "measure.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE R179-R188 record pages and all attachments (per-item transcriptions, key, corpus decipherment, page images).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Checked attachments first, following the Spagna 364D precedent: Lasry's key ASV - S423 (24 Oct 2020) and his segmented decipherment of all 11 items are on every record.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "statistics",
+   "what": "Parsed the aligned decipherment (9,001 tokens incl. nulls): the key values no four-digit group; 166 distinct groups, 708 tokens, unread. Text read 90.6%.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Tried the 364D alphabetical-bracket method; the 1736 nomenclator is not alphabetical (1222 -mente, 1245 -zione, 1882 Spagna, 1935 V.S.), so values must come from context alone.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Assigned 46 groups from context, accepting a value only where every occurrence reads (N.S., V.S., S. Sede, Corte, Spagna, Napoli, Brevi, Sig. Card., -mente, -zione, tutt-, molt-, altr- ...).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Re-measured: 424 of 708 nomenclator tokens valued; whole text 90.6% -> 95.3% read. Content consistent with the 1736 Spanish recruiting riots in Rome (Acquaviva, Montemar, Molina).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 0.953,
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Solved by Lasry in 2020 except the nomenclator, which his key leaves wholly unvalued; 46 groups recovered here from context, 120 open (mostly 1-2 occurrences)."
+ }
+}

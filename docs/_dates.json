@@ -149,6 +149,7 @@
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
+  "the secretariat of state to the nunciature in spain, rome to madrid, 1736": "2026-09-21",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
   "the sp 106/10 codebreaker’s own table of “the venetian cifer”, c. 1623–24": "2026-09-21",
   "the windischgrätz brothers, brussels, 18 nov 1721": "2026-09-21",
@@ -272,7 +273,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "2788920ca36f",
+   "hash": "69d78e8240de",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -457,7 +458,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "192486cf610b",
+   "hash": "95e6254bcd74",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -574,6 +575,11 @@
    "first": "2026-09-20",
    "hash": "5fa98b2304ab",
    "updated": "2026-09-20"
+  },
+  "nunzio1736": {
+   "first": "2026-09-21",
+   "hash": "b1f5c2a7e87d",
+   "updated": "2026-09-21"
   },
   "orbais": {
    "first": "2026-09-18",
@@ -917,7 +923,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "7c203781c6b2",
+   "hash": "4e15f6b66c10",
    "updated": "2026-09-21"
   },
   "yard1699": {

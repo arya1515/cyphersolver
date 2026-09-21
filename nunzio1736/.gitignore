@@ -1,0 +1,4 @@
+seq.json
+decode/*
+!decode/keep/
+ctx_all.txt
