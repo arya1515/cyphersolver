@@ -91,6 +91,7 @@ date, and `docs/_dates.json` holds them all. "Date" is the date of the document 
 
 | Target | Date | Explained | Finding | Where |
 |---|---|---|---|---|
+| Frederic, Re di Prussia → unknown recipient, BL Add MS 61575 f. 95, DECODE R8774 (catalogue 98, class A) | 1702–23 (volume span) | 21 Sept 2026 | **Not a cipher.** No numbers on the page: seven lines of plain French, spelled by ear and split into syllables, thanking the recipient for teaching the writer *d'écrire en chiffre* and wishing them a good journey. Writer and recipient unidentified | [`prussia1702/`](prussia1702/) · [write-up](https://dbourdeau.github.io/cyphersolver/prussia1702.html) |
 | Hyde's ciphered superscriptions | 1659–60 | 15 Sept 2026 | Dummy numbers "only to puzzle the Enemy", per the 1724 editor and the full Hyde–Barwick key of 1721 | [`hyde/`](hyde/) · [write-up](https://dbourdeau.github.io/cyphersolver/hyde.html) |
 | Chinese gold bar cryptograms, Shanghai | 1933 | 15 Sept 2026 | Almost exactly ten of every letter; flatter than any cipher of a real text can be. No message | [`goldbar/`](goldbar/) · [write-up](https://dbourdeau.github.io/cyphersolver/goldbar.html) |
 | Roosevelt cryptogram, number block | 1935 | 16 Sept 2026 | A permutation of 1 to 52, each once, padded with zeros; its statistics are those of a list written by hand, and the testable ordered-key cipher readings fail while matched controls succeed. Ernst's 2017 doodle claim confirmed. No message | [`roosevelt/`](roosevelt/) · [write-up](https://dbourdeau.github.io/cyphersolver/roosevelt.html) |

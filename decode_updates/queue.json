@@ -3251,6 +3251,31 @@
      "sent": false
     }
    }
+  },
+  "prussia1702": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/prussia1702.html",
+   "key": {
+    "none": "no key: the page is not enciphered"
+   },
+   "cite": null,
+   "fields": {
+    "plaintext_lang": "French",
+    "cleartext_lang": "French",
+    "symbol_sets": "not numerical: letters only (cleartext)"
+   },
+   "records": {
+    "R8774": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Not a cipher: seven lines of plain French, spelled by ear and split into syllables: 'Par celle-ci je viens vous remercier encore une fois de la peine que vous avez eue avec moi en me montrant d'écrire en chiffre, et vous assurer que je serai toujours reconnaissant, vous souhaitant un bon voyage.' No numbers on the page. Writer unidentified (no signature visible); 1702–1723 is the volume span.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "prussia1702/transcription.txt"
+     ]
+    }
+   }
   }
  },
  "rechteren1785": {

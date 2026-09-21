@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Lesson in Cipher (Blenheim Papers) — Not a cipher</title>
+<meta name="description" content="BL Add MS 61575 f. 95, catalogued on DECODE (R8774) as a non-decrypted numerical cipher of 'Frederic, Re di Prussia', 1702: the page holds no numbers. It is seven lines of plain French, spelled by ear and split into syllables, thanking someone for teaching the writer how to write in cipher.">
+<link rel="stylesheet" href="style.css?v=20260919a">
+<meta name="date" content="2026-09-21">
+<meta name="last-modified" content="2026-09-21">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="roell1809.html"><span class="st stuck">key not found</span><b>Roell to Van Dedem 1809</b><span class="yr">1809</span></a></li><li><a href="spaen1808.html"><span class="st stuck">key not found</span><b>Van Spaen 1808</b><span class="yr">1808</span></a></li><li><a href="fagel1804.html"><span class="st stuck">key not found</span><b>Fagel 1804</b><span class="yr">1804</span></a></li><li><a href="r2232.html"><span class="st solved">read</span><b>Wolff to Wilhelmina 1801</b><span class="yr">1801</span></a></li><li><a href="r1944.html"><span class="st found">clear copy found</span><b>Bourdeaux 1801</b><span class="yr">1801</span></a></li><li><a href="r2234.html"><span class="st solved">read</span><b>Basle to William V 1796</b><span class="yr">1796</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">55</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">34</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">34</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">18</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 142 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">The Unsolved Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="cipherstrip">moy en me mon trant d'es cria re / en sif fer<br>moi, en me montrant d'écrire en chiffre</div>
+  <p class="kicker">Blenheim Papers · to an unknown teacher · plain French · date unknown (volume 1702–1723) · not a cipher</p>
+  <h1>A Lesson in Cipher</h1>
+  <p class="sub">British Library, Add MS 61575 f. 95 · DECODE R8774, catalogued as a non-decrypted numerical cipher of "Frederic, Re di Prussia", 1702</p>
+  <p class="sub">There is no cipher on the leaf. It is a short thank-you note, in French, for lessons in writing in cipher.</p>
+  <p class="meta">Daniel Bourdeau &middot; resolved <time datetime="2026-09-21">21 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#page">The page</a><a href="#reading">Transcription and reading</a><a href="#why">Why it was catalogued as a cipher</a><a href="#open">What stays open</a><a href="#sources">Sources</a></nav>
+<div class="callout"><strong>Summary.</strong> Add MS 61575 is the Blenheim volume of the Marlboroughs' cipher material. Its folio 95 is on DECODE as
+R8774: "Non-decrypted", symbol set numerical, cipher type unknown, author "Frederic, Re di Prussia", dated 1702–1723 (the span of the
+volume). It entered the Unsolved Catalogue as item 98 on those metadata alone. The page image shows no numbers and no signs. It holds seven
+lines of French in a large, careful hand, spelled by ear and set out syllable by syllable in spaced columns. Read aloud, it is a thank-you
+note: the writer thanks someone for the trouble they took <em>in showing me how to write in cipher</em>, and wishes them a good journey.
+That subject explains why it was filed with the ciphers. Nothing on it is enciphered. The writer and the recipient are not identified. No
+signature survives under the ink blot below the text, and DECODE's attribution to a Prussian king cannot be checked from the leaf.</div>
+
+<h2 id="page"><span class="num">01</span> The page</h2>
+<p>One page, written in brown ink across the top half of the leaf, with a long rule below and an ink blot at the left where a signature
+could have been. The folio number 95 is at top right. The words are broken into syllables and spaced out in rough columns, as in a
+writing exercise. Spelling follows sound: <em>eun</em> for <em>une</em>, <em>Payne</em> for <em>peine</em>, <em>d'es cria re</em>
+for <em>d'écrire</em>, <em>sif fer</em> for <em>chiffre</em>, <em>as seu re</em> for <em>assurer</em>. The <em>s</em> for <em>ch</em>
+is what a German speaker would write, which fits a Prussian writer, but proves nothing about which one.</p>
+
+<h2 id="reading"><span class="num">02</span> Transcription and reading</h2>
+<p>Line for line, as written:</p>
+<pre>par cel le cy je vient vous re
+mer cier en cor eun ne foy de
+la Pay ne que vous aves eue avec
+moy en me mon trant d'es cria re
+en sif fer et vous as seu re
+que je se roys tous jours re cog naissent
+vous sou haytant eun bon voya ge.</pre>
+<p>In standard French:</p>
+<blockquote><p>Par celle-ci je viens vous remercier encore une fois de la peine que vous avez eue avec moi en me montrant d'écrire en
+chiffre, et vous assurer que je serai toujours reconnaissant, vous souhaitant un bon voyage.</p></blockquote>
+<p>"By this I come to thank you once more for the trouble you took with me in showing me how to write in cipher, and to assure you that
+I shall always be grateful, wishing you a good journey."</p>
+<p>Every word reads; the only doubt is the letter shapes of <em>eun</em> in the last line, which could be <em>un</em> with a flourish.</p>
+
+<h2 id="why"><span class="num">03</span> Why it was catalogued as a cipher</h2>
+<p>The note is <em>about</em> cipher. Someone who kept the Marlboroughs' keys filed it with them, and DECODE catalogued each leaf of the
+volume as a ciphertext or a key, with the volume's date span and a generic "numerical" symbol set. No one had looked at the image
+against the metadata. The correction has been queued for DECODE: not a cipher, cleartext French, no numbers.</p>
+
+<h2 id="open"><span class="num">04</span> What stays open</h2>
+<ul>
+<li><strong>Writer.</strong> "Frederic, Re di Prussia" comes from DECODE and is unverified. The hand and spelling suggest a young
+German-speaking writer still learning French, which fits a Prussian prince, but no name appears on the leaf.</li>
+<li><strong>Recipient.</strong> Someone who taught ciphers and was about to travel. Not identified.</li>
+<li><strong>Date.</strong> Unknown; 1702–1723 is the volume's span.</li>
+</ul>
+
+<h2 id="sources"><span class="num">05</span> Sources</h2>
+<ul>
+<li>British Library, Add MS 61575 f. 95 (Blenheim Papers), image via DECODE record
+<a href="https://de-crypt.org/decrypt-web/RecordsView/8774">R8774</a>. The image is not in the public domain and is not reproduced.</li>
+<li>Nearest key record in the same volume on DECODE: <a href="https://de-crypt.org/decrypt-web/RecordsView/8770">R8770</a> (f. 79).</li>
+</ul>
+
+<p class="muted">Transcription, reading and notes in the repository folder <a href="https://github.com/dbourdeau/cyphersolver/tree/main/prussia1702">prussia1702/</a>.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; British Library, via DECODE; image not reproduced</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="yard1699.html" rel="prev">&larr; Yard 1699 1699</a><a href="papai1706.html" rel="next">P&aacute;pai to R&aacute;k&oacute;czi 1706&ndash;10 1706&ndash;10 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260919a"></script>
+</body>
+</html>
