@@ -49,6 +49,7 @@ GENERATED = [
     r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
     r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>',
+    r'\n?<div class="parties">.*?</div><!-- /parties -->',
     r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
     r'<script src="zoom\.js[^"]*" defer></script>\n?',
     r'<!-- live:start -->.*?<!-- live:end -->\n?', r'<script src="home\.js[^"]*" defer></script>\n?',
@@ -1161,6 +1162,18 @@ def card_html(p):
             f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span>{when_html(p)}<span class="st {p["st"]}">{p["stt"]}</span></div>\n'
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
 
+PORTRAITS = json.loads((HERE / '_portraits.json').read_text(encoding='utf-8')) if (HERE / '_portraits.json').exists() else {}
+
+def parties_html(people):
+    """Sender and recipient portraits, sender first, an arrow between them when both are known."""
+    order = sorted(people, key=lambda p: p['role'] != 'sender')
+    def one(p):
+        tip = html.escape(f"{p['name']}: {p['what']}. {p['credit']}.", quote=True)
+        return (f'<figure class="party {p["role"]}"><img src="{p["img"]}" alt="{html.escape(p["name"], quote=True)}" title="{tip}" loading="lazy">'
+                f'<figcaption><span class="role">{"from" if p["role"] == "sender" else "to"}</span>{p["name"]}</figcaption></figure>')
+    sep = '<span class="arrow" aria-hidden="true">&rarr;</span>'
+    return '\n<div class="parties">' + sep.join(one(p) for p in order) + '</div><!-- /parties -->'
+
 RECENT_VISIBLE = 5      # "Recent findings" on index.html shows this many entries; the rest fold behind the button
 
 def fold_findings(s, n=RECENT_VISIBLE):
@@ -1222,6 +1235,10 @@ def process(path):
             s = re.sub(r'(<nav class="toc".*?</nav>\n)', lambda m: m.group(1) + fig, s, count=1, flags=re.S)
         else:
             s = s.replace('<main>', '<main>\n' + fig, 1)
+    # the correspondents: sender and recipient portraits from _portraits.json, under the hero title
+    s = re.sub(r'\n?<div class="parties">.*?</div><!-- /parties -->', '', s, flags=re.S)
+    if PORTRAITS.get(slug) and '<section class="hero">' in s:
+        s = re.sub(r'(<section class="hero">.*?</h1>)', lambda m: m.group(1) + parties_html(PORTRAITS[slug]), s, count=1, flags=re.S)
     # drop inline style blocks made of shared rules only
     def strip_style(m):
         rules = re.findall(r'([^{}]+)\{', m.group(1))

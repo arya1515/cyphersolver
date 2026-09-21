@@ -1,0 +1,1406 @@
+{
+ "adrian1521": [
+  {
+   "role": "sender",
+   "name": "Adrian VI",
+   "img": "portrait_adrian-vi.jpg",
+   "what": "Portrait after Jan van Scorel",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Pope Adrian VI (after Jan van Scorel).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Seated portrait, formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "alessandrino1568": [
+  {
+   "role": "sender",
+   "name": "Cardinal Alessandrino",
+   "img": "portrait_cardinal-alessandrino.jpg",
+   "what": "Portrait by Scipione Pulzone, 1586",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Cardinal Michele Bonelli (by Scipione Pulzone) - Harvard Art Museums.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "G. B. Castagna",
+   "img": "portrait_g-b-castagna.jpg",
+   "what": "Portrait as Urban VII, Jacopo del Conte",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Pope Urban VII Castagna (Jacopo del Conte, Vatican Museums).jpg"
+  }
+ ],
+ "anne1711": [
+  {
+   "role": "sender",
+   "name": "Queen Anne",
+   "img": "portrait_queen-anne.jpg",
+   "what": "Portrait by Michael Dahl, 1705",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Dahl, Michael - Queen Anne - NPG 6187.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Earl of Peterborough",
+   "img": "portrait_earl-of-peterborough.jpg",
+   "what": "Portrait, c. 1675–1700",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Charles Mordaunt.jpg"
+  }
+ ],
+ "armstrong": [
+  {
+   "role": "sender",
+   "name": "John Armstrong",
+   "img": "portrait_john-armstrong.jpg",
+   "what": "Oil portrait, 1873 (after earlier likeness)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:John Armstrong, Jr..jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "James Madison",
+   "img": "portrait_james-madison.jpg",
+   "what": "Portrait by John Vanderlyn, 1816",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:James Madison.jpg"
+  }
+ ],
+ "ayala1516": [
+  {
+   "role": "recipient",
+   "name": "Cardinal Cisneros",
+   "img": "portrait_cardinal-cisneros.jpg",
+   "what": "Portrait by Eugenio Cajés, 1604",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Francisco Jiménez de Cisneros (Eugenio Cajés 1604) retrato al óleo sobre lienzo.png"
+  }
+ ],
+ "beatrice1482": [
+  {
+   "role": "recipient",
+   "name": "Ercole I d'Este",
+   "img": "portrait_ercole-i-d-este.jpg",
+   "what": "Portrait by Dosso Dossi, c. 1524–28",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ercole I d'Este.jpg"
+  },
+  {
+   "role": "sender",
+   "name": "Beatrice of Naples",
+   "img": "portrait_beatrice-of-naples.jpg",
+   "what": "Miniature in a Corvina manuscript, c. 1483–84",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Beatrix portréja Cod. Lat. 413 Agathias De bello Gothorum.jpg"
+  }
+ ],
+ "bethune": [
+  {
+   "role": "sender",
+   "name": "Henri IV",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait by Frans Pourbus the Younger, 1610",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Philippe de Béthune",
+   "img": "portrait_philippe-de-bethune.jpg",
+   "what": "Anonymous portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Philippe de Béthune (1566-1649).jpg"
+  }
+ ],
+ "boswell": [
+  {
+   "role": "sender",
+   "name": "Charles I",
+   "img": "portrait_charles-i.jpg",
+   "what": "Portrait by Anthony van Dyck, 1636",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg"
+  }
+ ],
+ "breves1603": [
+  {
+   "role": "sender",
+   "name": "Henri IV",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait by Frans Pourbus the Younger, 1610",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  }
+ ],
+ "castelcicala1816": [
+  {
+   "role": "recipient",
+   "name": "Luigi de' Medici",
+   "img": "portrait_luigi-de-medici.jpg",
+   "what": "Portrait",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Luigi de' Medici (Regno di Napoli).JPG"
+  }
+ ],
+ "catinat1691": [
+  {
+   "role": "sender",
+   "name": "Louis XIV",
+   "img": "portrait_louis-xiv.jpg",
+   "what": "Portrait by Hyacinthe Rigaud, 1701",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis XIV of France.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Catinat",
+   "img": "portrait_catinat.jpg",
+   "what": "Portrait, early 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Catinat.jpg"
+  }
+ ],
+ "ceva1632": [
+  {
+   "role": "sender",
+   "name": "Francesco Barberini",
+   "img": "portrait_francesco-barberini.jpg",
+   "what": "Portrait, 1624",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Francesco Barberini.jpg"
+  }
+ ],
+ "champagne1590": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "charlesixducroc": [
+  {
+   "role": "sender",
+   "name": "Charles IX",
+   "img": "portrait_charles-ix.jpg",
+   "what": "Portrait by François Clouet",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg"
+  }
+ ],
+ "cobham1588": [
+  {
+   "role": "sender",
+   "name": "Lord Cobham",
+   "img": "portrait_lord-cobham.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Brooke (1527–1597), 10th Baron Cobham.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Francis Walsingham",
+   "img": "portrait_francis-walsingham.jpg",
+   "what": "Portrait by John de Critz the Elder, 1589",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Francis Walsingham by John De Critz the Elder.jpg"
+  }
+ ],
+ "conley1652": [
+  {
+   "role": "sender",
+   "name": "Abraham Cowley",
+   "img": "portrait_abraham-cowley.jpg",
+   "what": "Portrait by Peter Lely, c. 1666–67",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Abraham Cowley by Sir Peter Lely.jpg"
+  }
+ ],
+ "conti1649": [
+  {
+   "role": "recipient",
+   "name": "Archduke Leopold Wilhelm",
+   "img": "portrait_archduke-leopold-wilhelm.jpg",
+   "what": "Portrait by Pieter Thijs, 1650s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Archduke Leopold Wilhelm of Austria by Pieter Thijs.jpg"
+  },
+  {
+   "role": "sender",
+   "name": "Prince de Conti",
+   "img": "portrait_prince-de-conti.jpg",
+   "what": "Engraving by Claude Mellan, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Claude Mellan, Armand de Bourbon, Prince de Condi, NGA 73773.jpg"
+  }
+ ],
+ "dandini1580": [
+  {
+   "role": "sender",
+   "name": "Cardinal Gallio",
+   "img": "portrait_cardinal-gallio.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Tolomeo Gallio.jpg"
+  }
+ ],
+ "deswart1782": [
+  {
+   "role": "recipient",
+   "name": "Van Bleiswijk",
+   "img": "portrait_van-bleiswijk.jpg",
+   "what": "Portrait, Rijksmuseum SK-A-4336",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portret van Pieter van Bleiswijk (1724-90), raadpensionaris van Holland Rijksmuseum SK-A-4336.jpeg"
+  }
+ ],
+ "dinteville1592": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "egmond": [
+  {
+   "role": "sender",
+   "name": "Charles of Egmond",
+   "img": "portrait_charles-of-egmond.jpg",
+   "what": "Portrait by Hendrick Coster, 1638 (posthumous)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Karel-van-Gelre.jpg"
+  }
+ ],
+ "esp318": [
+  {
+   "role": "recipient",
+   "name": "Ferdinand the Catholic",
+   "img": "portrait_ferdinand-the-catholic.jpg",
+   "what": "Portrait by Michel Sittow, c. 1500",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Michel Sittow 004.jpg"
+  }
+ ],
+ "fagel1804": [
+  {
+   "role": "recipient",
+   "name": "William V",
+   "img": "portrait_william-v.jpg",
+   "what": "Miniature by Henry Bone, 1801",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William V, Prince of Orange - Bone 1801.jpg"
+  }
+ ],
+ "feuquieres": [
+  {
+   "role": "recipient",
+   "name": "Catinat",
+   "img": "portrait_catinat.jpg",
+   "what": "Portrait, early 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Catinat.jpg"
+  }
+ ],
+ "gramont1529": [
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "guiche1551": [
+  {
+   "role": "recipient",
+   "name": "Henry II",
+   "img": "portrait_henry-ii.jpg",
+   "what": "Portrait, Workshop of François Clouet",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry II of France-François Clouet (altered).jpg"
+  }
+ ],
+ "haga1620": [
+  {
+   "role": "sender",
+   "name": "Cornelis Haga",
+   "img": "portrait_cornelis-haga.jpg",
+   "what": "Anonymous portrait, Northern Netherlands, 1645",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Cornelis Haga RIJK01 SK-C-1225.JPG"
+  }
+ ],
+ "harley287": [
+  {
+   "role": "sender",
+   "name": "Lord Cobham",
+   "img": "portrait_lord-cobham.jpg",
+   "what": "Portrait, Antonis Mor",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Brooke (1527–1597), 10th Baron Cobham.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Francis Walsingham",
+   "img": "portrait_francis-walsingham.jpg",
+   "what": "Portrait, Attributed to John de Critz",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Francis Walsingham by John De Critz the Elder.jpg"
+  }
+ ],
+ "hellen1752": [
+  {
+   "role": "recipient",
+   "name": "Frederick II",
+   "img": "portrait_frederick-ii.jpg",
+   "what": "Portrait, Anton Graff",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Friedrich der Große (1781 or 1786) - Google Art Project.jpg"
+  }
+ ],
+ "henter1707": [
+  {
+   "role": "recipient",
+   "name": "Francis II Rákóczi",
+   "img": "portrait_francis-ii-rakoczi.jpg",
+   "what": "Portrait, Ádám Mányoki",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:II. Rákóczi Ferenc Mányoki.jpg"
+  }
+ ],
+ "herbault1626": [
+  {
+   "role": "recipient",
+   "name": "Philippe de Béthune",
+   "img": "portrait_philippe-de-bethune.jpg",
+   "what": "Anonymous portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Philippe de Béthune (1566-1649).jpg"
+  }
+ ],
+ "hereditary1796": [
+  {
+   "role": "sender",
+   "name": "Hereditary Prince William",
+   "img": "portrait_hereditary-prince-william.jpg",
+   "what": "Portrait, Joseph Paelinck",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Willem I in kroningsmantel.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William V",
+   "img": "portrait_william-v.jpg",
+   "what": "Miniature by Henry Bone after John Hoppner, 1801",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William V, Prince of Orange - Bone 1801.jpg"
+  }
+ ],
+ "hesse1603": [
+  {
+   "role": "sender",
+   "name": "Henri IV",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait, Frans Pourbus the Younger",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Maurice of Hesse-Kassel",
+   "img": "portrait_maurice-of-hesse-kassel.jpg",
+   "what": "Portrait, Matthäus Merian, engraving",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Moritz Landgraf von Hessen Seite 1 Bild 0001.jpg"
+  }
+ ],
+ "heusner1637": [
+  {
+   "role": "recipient",
+   "name": "Axel Oxenstierna",
+   "img": "portrait_axel-oxenstierna.jpg",
+   "what": "Portrait, After Michiel Jansz. van Mierevelt",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Axel Oxenstierna 1635.jpg"
+  }
+ ],
+ "hm1645": [
+  {
+   "role": "recipient",
+   "name": "Charles I",
+   "img": "portrait_charles-i.jpg",
+   "what": "Portrait, Anthony van Dyck",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg"
+  },
+  {
+   "role": "sender",
+   "name": "Henrietta Maria",
+   "img": "portrait_henrietta-maria.jpg",
+   "what": "Portrait, Workshop of Anthony van Dyck, c. 1636",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Workshop of Anthony van Dyck - Portrait of Henrietta Maria de Bourbon, Queen of England.jpg"
+  }
+ ],
+ "huangxing": [
+  {
+   "role": "sender",
+   "name": "Huang Xing",
+   "img": "portrait_huang-xing.jpg",
+   "what": "Photograph, c. 1910s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Huang Xing.jpg"
+  }
+ ],
+ "hyde": [
+  {
+   "role": "sender",
+   "name": "Edward Hyde",
+   "img": "portrait_edward-hyde.jpg",
+   "what": "Portrait, Adriaen Hanneman (died 1671)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Edward Hyde, 1st Earl of Clarendon by Adriaen Hanneman.jpg"
+  }
+ ],
+ "it1583": [
+  {
+   "role": "sender",
+   "name": "Francesco Sforza",
+   "img": "portrait_francesco-sforza.jpg",
+   "what": "Portrait, School of Lombardy",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Francesco Sforza.jpg"
+  }
+ ],
+ "kurtz1639": [
+  {
+   "role": "recipient",
+   "name": "Trauttmansdorff",
+   "img": "portrait_trauttmansdorff.jpg",
+   "what": "Portrait, Anselm van Hulle",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Maximilian von und zu Trauttmansdorff - Minister.jpg"
+  },
+  {
+   "role": "sender",
+   "name": "Kurz von Senftenau",
+   "img": "portrait_kurz-von-senftenau.jpg",
+   "what": "Anonymous portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ferdinand Graf von Kurtz.jpg"
+  }
+ ],
+ "lanssac": [
+  {
+   "role": "recipient",
+   "name": "Charles IX",
+   "img": "portrait_charles-ix.jpg",
+   "what": "Portrait, François Clouet",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg"
+  }
+ ],
+ "legation": [
+  {
+   "role": "sender",
+   "name": "John Quincy Adams",
+   "img": "portrait_john-quincy-adams.jpg",
+   "what": "Portrait, portrait (restored copy)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:John Q. Adams-edit.jpg"
+  }
+ ],
+ "lopehurtado": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait, Attributed to Titian",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "lopehurtado1523": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait, Attributed to Titian",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "lorraine1592": [
+  {
+   "role": "sender",
+   "name": "Charles III of Lorraine",
+   "img": "portrait_charles-iii-of-lorraine.jpg",
+   "what": "Portrait, workshop of François Clouet, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Charles III, Duke of Lorraine, by studio of François Clouet.jpg"
+  }
+ ],
+ "lucca": [
+  {
+   "role": "recipient",
+   "name": "Ferdinand III",
+   "img": "portrait_ferdinand-iii.jpg",
+   "what": "Portrait, Frans Luycx",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Frans Luycx 002 - Emperor Ferdinand III.jpg"
+  }
+ ],
+ "maisse1592": [
+  {
+   "role": "sender",
+   "name": "Henri IV",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait, Frans Pourbus the Younger",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  }
+ ],
+ "malvezzi1548": [
+  {
+   "role": "sender",
+   "name": "Ferdinand I",
+   "img": "portrait_ferdinand-i.jpg",
+   "what": "Portrait, Jan Cornelisz Vermeyen",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait paintings of Ferdinand I, Holy Roman Emperor by Jan Cornelisz Vermeyen Inv.1056.jpg"
+  }
+ ],
+ "maria1435": [
+  {
+   "role": "recipient",
+   "name": "Alfonso V",
+   "img": "portrait_alfonso-v.jpg",
+   "what": "Portrait, Jaume Mateu",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jaume Mateu - Alfons IV the Magnanimous - Google Art Project.jpg"
+  }
+ ],
+ "matthias1482": [
+  {
+   "role": "sender",
+   "name": "Matthias Corvinus",
+   "img": "portrait_matthias-corvinus.jpg",
+   "what": "Portrait, Corvinus codex miniature",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Mátyás Király arcmása.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Ercole I d'Este",
+   "img": "portrait_ercole-i-d-este.jpg",
+   "what": "Portrait, Dosso Dossi after Ercole de' Roberti",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ercole I d'Este.jpg"
+  }
+ ],
+ "mendoza1589": [
+  {
+   "role": "sender",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait, Sofonisba Anguissola",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
+ ],
+ "mercoeur1586": [
+  {
+   "role": "recipient",
+   "name": "Duc de Mercœur",
+   "img": "portrait_duc-de-mercur.jpg",
+   "what": "Portrait, Benjamin Foulon",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:FOULON-Duke of Mercoeur.jpg"
+  }
+ ],
+ "michell1751": [
+  {
+   "role": "sender",
+   "name": "Frederick II",
+   "img": "portrait_frederick-ii.jpg",
+   "what": "Portrait, Anton Graff",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Friedrich der Große (1781 or 1786) - Google Art Project.jpg"
+  }
+ ],
+ "mondoucet": [
+  {
+   "role": "recipient",
+   "name": "Charles IX",
+   "img": "portrait_charles-ix.jpg",
+   "what": "Portrait, François Clouet",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg"
+  }
+ ],
+ "morosini1588": [
+  {
+   "role": "sender",
+   "name": "Cardinal Morosini",
+   "img": "portrait_cardinal-morosini.jpg",
+   "what": "Anonymous portrait, c. 1596–99",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Giovan Francesco Cardinal Morosini.jpg"
+  }
+ ],
+ "needham1587": [
+  {
+   "role": "recipient",
+   "name": "Francis Walsingham",
+   "img": "portrait_francis-walsingham.jpg",
+   "what": "Portrait, Attributed to John de Critz",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Francis Walsingham by John De Critz the Elder.jpg"
+  }
+ ],
+ "nevers1589": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "nevers1593": [
+  {
+   "role": "sender",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "norfolk1570": [
+  {
+   "role": "sender",
+   "name": "Mary Queen of Scots",
+   "img": "portrait_mary-queen-of-scots.jpg",
+   "what": "Portrait, Unidentified painter",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Mary Queen of Scots Blairs Museum.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Duke of Norfolk",
+   "img": "portrait_duke-of-norfolk.jpg",
+   "what": "Portrait, Hans Eworth",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Hans Eworth Thomas Howard, 4th Duke of Norfolk.jpg"
+  }
+ ],
+ "norreys1567": [
+  {
+   "role": "sender",
+   "name": "Henry Norris",
+   "img": "portrait_henry-norris.jpg",
+   "what": "English school portrait, 1585",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry Norris 1st Baron Norris of Rycote.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Cecil",
+   "img": "portrait_william-cecil.jpg",
+   "what": "Portrait attributed to the workshop of Marcus Gheeraerts the Younger, late 1580s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Cecil Lord Burghley Gheeraerts Workshop.jpg"
+  }
+ ],
+ "nuncio1566": [
+  {
+   "role": "sender",
+   "name": "Cardinal Alessandrino",
+   "img": "portrait_cardinal-alessandrino.jpg",
+   "what": "Portrait by Scipione Pulzone, 1586",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Cardinal Michele Bonelli (by Scipione Pulzone) - Harvard Art Museums.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "G. B. Castagna",
+   "img": "portrait_g-b-castagna.jpg",
+   "what": "Portrait as Pope Urban VII, Jacopino del Conte, 1590",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Pope Urban VII Castagna (Jacopo del Conte, Vatican Museums).jpg"
+  }
+ ],
+ "ormonde": [
+  {
+   "role": "sender",
+   "name": "Lord Maltravers",
+   "img": "portrait_lord-maltravers.jpg",
+   "what": "Engraving after Anthony van Dyck",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henricus Arundelliae Comes, PA07884.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Earl of Ormonde",
+   "img": "portrait_earl-of-ormonde.jpg",
+   "what": "Portrait by Willem Wissing, c. 1680–85",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:James Butler, 1st Duke of Ormonde by William Wissing.jpg"
+  }
+ ],
+ "pallotto1629": [
+  {
+   "role": "sender",
+   "name": "Giovanni Battista Pallotta",
+   "img": "portrait_giovanni-battista-pallotta.jpg",
+   "what": "Engraving by Giuseppe Maria Testana, 1668",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:1629 IOANNES BAPTISTA PALLOTTUS - PALLOTTA GIOVANNI BATTISTA.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Francesco Barberini",
+   "img": "portrait_francesco-barberini.jpg",
+   "what": "Drawing by Ottavio Leoni, 1624",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Francesco Barberini.jpg"
+  }
+ ],
+ "papai1706": [
+  {
+   "role": "recipient",
+   "name": "Francis II Rákóczi",
+   "img": "portrait_francis-ii-rakoczi.jpg",
+   "what": "Portrait by Ádám Mányoki, 1712",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:II. Rákóczi Ferenc Mányoki.jpg"
+  }
+ ],
+ "pelissier1592": [
+  {
+   "role": "recipient",
+   "name": "Pierre Jeannin",
+   "img": "portrait_pierre-jeannin.jpg",
+   "what": "Engraving by Jacques Lubin, 1696",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jeannin, Pierre.jpg"
+  }
+ ],
+ "percy1559": [
+  {
+   "role": "sender",
+   "name": "Henry Percy",
+   "img": "portrait_henry-percy.jpg",
+   "what": "Posthumous portrait by Anthony van Dyck",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry Percy, 8th Earl of Northumberland (c.1532-1585) (posthumous).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Cecil",
+   "img": "portrait_william-cecil.jpg",
+   "what": "Portrait attributed to the workshop of Marcus Gheeraerts the Younger, late 1580s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Cecil Lord Burghley Gheeraerts Workshop.jpg"
+  }
+ ],
+ "poupet1522": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Seated portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "r1942": [
+  {
+   "role": "sender",
+   "name": "Dirk van Hogendorp",
+   "img": "portrait_dirk-van-hogendorp.jpg",
+   "what": "Portrait by Christoph Suhr, 1813",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:DvHogendorp.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Maarten van der Goes",
+   "img": "portrait_maarten-van-der-goes.jpg",
+   "what": "Portrait, c. 1800",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Maarten van der Goes van Dirxland.gif"
+  }
+ ],
+ "r1944": [
+  {
+   "role": "recipient",
+   "name": "Maarten van der Goes",
+   "img": "portrait_maarten-van-der-goes.jpg",
+   "what": "Portrait, c. 1800",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Maarten van der Goes van Dirxland.gif"
+  }
+ ],
+ "r2232": [
+  {
+   "role": "recipient",
+   "name": "Wilhelmina of Prussia",
+   "img": "portrait_wilhelmina-of-prussia.jpg",
+   "what": "Portrait by J. F. A. Tischbein, 1789",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Johann Friedrich August Tischbein - Portret van Frederika Sophia Wilhelmina, prinses van Pruisen (1751-1820), echtgenote van Willem V, prins van Oranje.jpg"
+  }
+ ],
+ "r2234": [
+  {
+   "role": "recipient",
+   "name": "William V",
+   "img": "portrait_william-v.jpg",
+   "what": "Miniature by Henry Bone after John Hoppner, 1801",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William V, Prince of Orange - Bone 1801.jpg"
+  }
+ ],
+ "r2242": [
+  {
+   "role": "recipient",
+   "name": "Hereditary Prince William",
+   "img": "portrait_hereditary-prince-william.jpg",
+   "what": "Portrait by Joseph Paelinck, 1819",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Willem I in kroningsmantel.jpg"
+  }
+ ],
+ "raince": [
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "rakoczi1704": [
+  {
+   "role": "recipient",
+   "name": "Francis II Rákóczi",
+   "img": "portrait_francis-ii-rakoczi.jpg",
+   "what": "Portrait by Ádám Mányoki, 1712",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:II. Rákóczi Ferenc Mányoki.jpg"
+  }
+ ],
+ "rakoczi1707": [
+  {
+   "role": "recipient",
+   "name": "Francis II Rákóczi",
+   "img": "portrait_francis-ii-rakoczi.jpg",
+   "what": "Portrait by Ádám Mányoki, 1712",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:II. Rákóczi Ferenc Mányoki.jpg"
+  }
+ ],
+ "randolph1570": [
+  {
+   "role": "recipient",
+   "name": "Earl of Sussex",
+   "img": "portrait_earl-of-sussex.jpg",
+   "what": "Portrait by a follower of Antonis Mor, 1560–65",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Thomas Radclyffe Earl of Sussex.jpg"
+  }
+ ],
+ "rennes1563": [
+  {
+   "role": "sender",
+   "name": "Catherine de' Medici",
+   "img": "portrait_catherine-de-medici.jpg",
+   "what": "Portrait attributed to Germain Le Mannier, 1547–59",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Catarina de' Medici Uffizi.jpg"
+  }
+ ],
+ "reserva12": [
+  {
+   "role": "recipient",
+   "name": "Ferdinand I of Aragon",
+   "img": "portrait_ferdinand-i-of-aragon.jpg",
+   "what": "Altarpiece detail by Juan Rodríguez de Toledo, c. 1410–15",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ferran d'Antequera al retaule Sancho de Rojas (detall).jpg"
+  }
+ ],
+ "richelieu": [
+  {
+   "role": "sender",
+   "name": "Cardinal Richelieu",
+   "img": "portrait_cardinal-richelieu.jpg",
+   "what": "Portrait by Philippe de Champaigne, 1633–40",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Cardinal de Richelieu.jpg"
+  }
+ ],
+ "riksarkivet1628": [
+  {
+   "role": "recipient",
+   "name": "Johan Adler Salvius",
+   "img": "portrait_johan-adler-salvius.jpg",
+   "what": "Lithograph by A. C. Wetterling, 1849",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Johan Adler Salvius-1849.jpg"
+  }
+ ],
+ "rome1536": [
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "ronquillo1676": [
+  {
+   "role": "sender",
+   "name": "Pedro Ronquillo",
+   "img": "portrait_pedro-ronquillo.jpg",
+   "what": "Engraving by Herman Hendrik de Quiter, 1678–79",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Quiter-pedro ronquillo.jpg"
+  }
+ ],
+ "roosevelt": [
+  {
+   "role": "recipient",
+   "name": "Franklin D. Roosevelt",
+   "img": "portrait_franklin-d-roosevelt.jpg",
+   "what": "Photograph by Elias Goldensky, 1933",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:FDR in 1933.jpg"
+  }
+ ],
+ "rupert1645": [
+  {
+   "role": "sender",
+   "name": "Charles I",
+   "img": "portrait_charles-i.jpg",
+   "what": "Portrait by Anthony van Dyck, 1636",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Prince Rupert",
+   "img": "portrait_prince-rupert.jpg",
+   "what": "Portrait by Peter Lely, 1666–71",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Peter Lely - Prince Rupert of the Rhine - Google Art Project.jpg"
+  }
+ ],
+ "sadoleto1482": [
+  {
+   "role": "recipient",
+   "name": "Ercole I d'Este",
+   "img": "portrait_ercole-i-d-este.jpg",
+   "what": "Portrait by Dosso Dossi after Ercole de' Roberti",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ercole I d'Este.jpg"
+  }
+ ],
+ "sanchez1522": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Seated portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "sanchez1523": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Seated portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "santacroce1552": [
+  {
+   "role": "sender",
+   "name": "Prospero Santa Croce",
+   "img": "portrait_prospero-santa-croce.jpg",
+   "what": "Portrait, unknown artist, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Prospero Santacroce.jpg"
+  }
+ ],
+ "sauli1579": [
+  {
+   "role": "recipient",
+   "name": "Tolomeo Gallio",
+   "img": "portrait_cardinal-gallio.jpg",
+   "what": "Portrait, unknown artist, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Tolomeo Gallio.jpg"
+  }
+ ],
+ "segur": [
+  {
+   "role": "sender",
+   "name": "Henry of Navarre",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait by Frans Pourbus the Younger, 1610",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  }
+ ],
+ "sessa1523": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "sessa1524": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "sessa1593": [
+  {
+   "role": "recipient",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait by Sofonisba Anguissola, 1565",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
+ ],
+ "smith1562": [
+  {
+   "role": "sender",
+   "name": "Sir Thomas Smith",
+   "img": "portrait_sir-thomas-smith.jpg",
+   "what": "Line engraving after an unknown artist, early 19th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Thomas Smith, ob. 1577 (c. early 19th century).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Cecil",
+   "img": "portrait_william-cecil.jpg",
+   "what": "Portrait, Workshop of Marcus Gheeraerts the Younger",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Cecil Lord Burghley Gheeraerts Workshop.jpg"
+  }
+ ],
+ "soglia1848": [
+  {
+   "role": "sender",
+   "name": "Cardinal Soglia",
+   "img": "portrait_cardinal-soglia.jpg",
+   "what": "Portrait, unknown artist, 19th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Giovanni Soglia Ceroni.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Viale Prelà",
+   "img": "portrait_viale-prela.jpg",
+   "what": "Lithograph by Josef Kriehuber, 1853",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Viale-Prelà, Michele (1798 - 1860).jpg"
+  }
+ ],
+ "soria1523": [
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "sormano": [
+  {
+   "role": "recipient",
+   "name": "Francis I",
+   "img": "portrait_francis-i.jpg",
+   "what": "Portrait by Jean Clouet, c. 1527-30",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:François Ier Louvre.jpg"
+  }
+ ],
+ "sormano1529": [
+  {
+   "role": "recipient",
+   "name": "Francis I",
+   "img": "portrait_francis-i.jpg",
+   "what": "Portrait by Jean Clouet, c. 1527-30",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:François Ier Louvre.jpg"
+  }
+ ],
+ "spinelly1516": [
+  {
+   "role": "recipient",
+   "name": "Henry VIII",
+   "img": "portrait_henry-viii.jpg",
+   "what": "Portrait by Hans Holbein the Younger, 1537",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg"
+  }
+ ],
+ "stowe166": [
+  {
+   "role": "sender",
+   "name": "Thomas Edmondes",
+   "img": "portrait_thomas-edmondes.jpg",
+   "what": "Portrait by Daniël Mijtens, 1622",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:SirThomasEdmondes.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Cecil",
+   "img": "portrait_william-cecil.jpg",
+   "what": "Portrait, Workshop of Marcus Gheeraerts the Younger",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Cecil Lord Burghley Gheeraerts Workshop.jpg"
+  }
+ ],
+ "sunintercepts": [
+  {
+   "role": "recipient",
+   "name": "Sun Yat-sen",
+   "img": "portrait_sun-yat-sen.jpg",
+   "what": "Photograph, Shanghai, 1922",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:孙中山肖像.jpg"
+  }
+ ],
+ "sunyatsen": [
+  {
+   "role": "recipient",
+   "name": "Sun Yat-sen",
+   "img": "portrait_sun-yat-sen.jpg",
+   "what": "Photograph, Shanghai, 1922",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:孙中山肖像.jpg"
+  }
+ ],
+ "throck1569": [
+  {
+   "role": "sender",
+   "name": "Nicholas Throckmorton",
+   "img": "portrait_nicholas-throckmorton.jpg",
+   "what": "Portrait, unknown artist, 1562 (NPG)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Nicholas Throckmorton from NPG.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Regent Moray",
+   "img": "portrait_regent-moray.jpg",
+   "what": "Portrait by Hans Eworth, 1561",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:James Stewart Earl of Moray.jpg"
+  }
+ ],
+ "throckmorton": [
+  {
+   "role": "sender",
+   "name": "Nicholas Throckmorton",
+   "img": "portrait_nicholas-throckmorton.jpg",
+   "what": "Portrait, unknown artist, 1562 (NPG)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Nicholas Throckmorton from NPG.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Cecil",
+   "img": "portrait_william-cecil.jpg",
+   "what": "Portrait, Workshop of Marcus Gheeraerts the Younger",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William Cecil Lord Burghley Gheeraerts Workshop.jpg"
+  }
+ ],
+ "toledo1565": [
+  {
+   "role": "sender",
+   "name": "García de Toledo",
+   "img": "portrait_garcia-de-toledo.jpg",
+   "what": "Portrait, unknown painter, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:García Álvarez de Toledo y Osorio.png"
+  },
+  {
+   "role": "recipient",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait by Sofonisba Anguissola, 1565",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
+ ],
+ "urquhart": [
+  {
+   "role": "sender",
+   "name": "Thomas Urquhart",
+   "img": "portrait_thomas-urquhart.jpg",
+   "what": "Engraving by George Glover, 1641",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Thomas Urquhart by George Glover1641.jpg"
+  }
+ ],
+ "vanreede1787": [
+  {
+   "role": "recipient",
+   "name": "Van de Spiegel",
+   "img": "portrait_van-de-spiegel.jpg",
+   "what": "Engraving, unidentified engraver, 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:LPvdSpiegel.jpg"
+  }
+ ],
+ "vanreede1792": [
+  {
+   "role": "recipient",
+   "name": "William V",
+   "img": "portrait_william-v.jpg",
+   "what": "Enamel by Henry Bone, 1801",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:William V, Prince of Orange - Bone 1801.jpg"
+  }
+ ],
+ "vasto1527": [
+  {
+   "role": "sender",
+   "name": "Alfonso d'Avalos",
+   "img": "portrait_alfonso-d-avalos.jpg",
+   "what": "Portrait by Titian, c. 1533",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Titian (Tiziano Vecellio) (Italian) - Portrait of Alfonso d'Avalos, Marquis of Vasto, in Armor with a Page - Google Art Project.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  }
+ ],
+ "vich1511": [
+  {
+   "role": "sender",
+   "name": "Ferdinand the Catholic",
+   "img": "portrait_ferdinand-the-catholic.jpg",
+   "what": "Portrait by Michel Sittow, c. 1500",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Michel Sittow 004.jpg"
+  }
+ ],
+ "walsingham1585": [
+  {
+   "role": "sender",
+   "name": "Francis Walsingham",
+   "img": "portrait_francis-walsingham.jpg",
+   "what": "Portrait attributed to John de Critz, 1589",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Francis Walsingham by John De Critz the Elder.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Edward Wotton",
+   "img": "portrait_edward-wotton.jpg",
+   "what": "Portrait, English school, late 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:English School Edward Wotton.jpg"
+  }
+ ],
+ "windischgraetz1720": [
+  {
+   "role": "sender",
+   "name": "Charles VI",
+   "img": "portrait_charles-vi.jpg",
+   "what": "Portrait attributed to Martin van Meytens, 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Martin van Meytens (attrib.) - Porträt Kaiser Karl VI.jpg"
+  }
+ ],
+ "wod1568": [
+  {
+   "role": "sender",
+   "name": "Nicholas Throckmorton",
+   "img": "portrait_nicholas-throckmorton.jpg",
+   "what": "Portrait, unknown artist, 1562 (NPG)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Nicholas Throckmorton from NPG.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Elizabeth I",
+   "img": "portrait_elizabeth-i.jpg",
+   "what": "The Darnley Portrait, c. 1575",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Darnley stage 3.jpg"
+  }
+ ],
+ "wotton1585": [
+  {
+   "role": "sender",
+   "name": "Edward Wotton",
+   "img": "portrait_edward-wotton.jpg",
+   "what": "Portrait, English school, late 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:English School Edward Wotton.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Francis Walsingham",
+   "img": "portrait_francis-walsingham.jpg",
+   "what": "Portrait attributed to John de Critz, 1589",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Sir Francis Walsingham by John De Critz the Elder.jpg"
+  }
+ ],
+ "yard1699": [
+  {
+   "role": "recipient",
+   "name": "Earl of Manchester",
+   "img": "portrait_earl-of-manchester.jpg",
+   "what": "Portrait by Sir Godfrey Kneller, c. 1712",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Charles Montagu, 1st Duke of Manchester by Sir Godfrey Kneller, Bt.jpg"
+  }
+ ]
+}

@@ -316,6 +316,11 @@ cd docs && python _build_site.py
 The builder is idempotent. The priority queue on the index page is generated separately from
 [`docs/_queue.json`](docs/_queue.json) by `python _build_queue.py`.
 
+The sender and recipient portraits under a write-up's title come from [`docs/_portraits.json`](docs/_portraits.json)
+(slug &rarr; role, name, image, what the picture is, and its Wikimedia Commons file). Only public-domain portraits
+are used, cropped to a 192-px square as `docs/portrait_<name>.jpg`. Leave a side out when the correspondent is
+anonymous, an office, or has no trustworthy portrait.
+
 Datestamps are kept in [`docs/_dates.json`](docs/_dates.json): for each page, the day the finding first landed in
 the repository and the day the page last really changed. `_build_site.py` maintains the second by hashing the page
 with everything it generates itself removed, so a rebuild that only restamps the furniture does not move the date;

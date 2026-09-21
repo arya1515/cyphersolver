@@ -99,6 +99,13 @@ img{max-width:100%}
 .hero .meta time{color:var(--ink2)}
 .hero .cipherstrip{position:absolute;right:1.2rem;top:1.4rem;font-family:var(--mono);font-size:.7rem;color:color-mix(in srgb,var(--gold) 40%,transparent);letter-spacing:.35em;user-select:none;pointer-events:none;text-align:right;line-height:1.9}
 @media (max-width:760px){.hero .cipherstrip{display:none}}
+.hero .parties{display:flex;align-items:center;gap:1.1rem;margin:.2rem 0 1rem;flex-wrap:wrap}
+.hero .party{margin:0;display:flex;align-items:center;gap:.65rem}
+.hero .party img{width:64px;height:64px;border-radius:50%;object-fit:cover;border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--rule);filter:sepia(.18) saturate(.9);background:var(--panel2)}
+.hero .party figcaption{font-style:normal;text-align:left;font-size:.95rem;color:var(--head);line-height:1.25;max-width:16ch}
+.hero .party .role{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.hero .parties .arrow{color:var(--gold);font-size:1.3rem}
+@media (max-width:760px){.hero .parties{flex-wrap:nowrap;gap:.5rem}.hero .party{gap:.45rem}.hero .party img{width:46px;height:46px}.hero .party figcaption{font-size:.84rem;max-width:11ch}.hero .parties .arrow{font-size:1.05rem}}
 .jump{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.4rem 0 .2rem}
 .jump a,.toc a{font-family:var(--mono);font-size:.76rem;letter-spacing:.04em;padding:.4rem .85rem;border-radius:999px;
   background:var(--panel);border:1px solid var(--rule);color:var(--ink2);transition:all .2s;white-space:nowrap}
