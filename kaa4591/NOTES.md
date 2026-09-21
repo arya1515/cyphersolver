@@ -105,7 +105,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 
 - R9408 clean reading - blocker: none yet; decrypt working, E/X/a+ signs to settle.
 - R9413 clean reading - blocker: none yet; all pages transcribed and decoded (`r9413/decrypt.txt`); sign Z and A unassigned.
-- R9409/R9410/R9427 clean readings - blocker: none yet; signs E (d/ch) and a+ unsettled, word division to restore.
+- R9409/R9410/R9427 clean readings - blocker: none yet; R9410 reading pass done (`sysA/r9410_reading.txt`, ~50–55% connected German); key corrections applied to `sysA_decode.py` (# g, jo = h, a+ = be; n = b/w); n and d still merge look-alikes, to split on the images at half-line zoom.
 - R9416 f.263 clean reading - blocker: none yet; v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
