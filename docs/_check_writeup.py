@@ -162,6 +162,28 @@ def check_slug(slug):
             except Exception:
                 good = False
         item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
+    # a finished target read from DECODE records queues its DECODE edits (decode_updates/, see the skill)
+    try:
+        dq = json.loads(read(ROOT / 'decode_updates' / 'queue.json') or '{}').get('targets', {})
+    except ValueError:
+        dq = {}
+    for folder in sorted(folders):
+        prof = ROOT / folder / 'profile.json'
+        if not prof.exists():
+            continue
+        try:
+            p = json.loads(read(prof))
+        except ValueError:
+            continue
+        cls = (p.get('outcome') or {}).get('class', '')
+        has_ids = any(re.search(r'\bR ?\d{2,5}\b', d.get('id', '') + ' ' + d.get('shelfmark', '')) for d in p.get('documents', []))
+        if not has_ids or cls not in ('read', 'read in part', 'partly read'):
+            continue
+        q = dq.get(folder)
+        todo = q and not q.get('skip') and 'TODO' in json.dumps(q)
+        item(bool(q) and not todo, f'decode_updates/queue.json queues the DECODE edits for {folder} '
+             f'(python decode_updates/queue.py add {folder}, fill the TODOs; or queue.py skip {folder} "<why>")'
+             + (': TODO fields left' if todo else ''))
     if mine:
         name = key_words(mine[0]['target'])
         ledgers = ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md') if st != 'stuck' else ('TARGETS.md',)

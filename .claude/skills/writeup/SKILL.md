@@ -89,6 +89,14 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
 - `<folder>/profile.json`: run the `/profile <folder>` skill. It records the cipher parameters, the challenge
   conditions, the solution steps and the outcome in fixed fields for the LLM-performance paper.
   `python docs/_check_profile.py <folder>` must print `result: valid`.
+- `decode_updates/queue.json` (targets read from DECODE records): queue the DECODE edits so they can be sent once
+  the account has write access. `python decode_updates/queue.py add <folder>` pre-fills the records from the
+  profile and their current DECODE status; fill each TODO: `proposed` status (Decrypted only if the whole letter
+  reads in sense), a one-line `note`, the `reading` file, and the `key` (`{"decode": "<DECODE id>"}` when the key
+  is on DECODE, otherwise `{"file", "lang", "how"}` pointing at the rebuilt key), `cite` for outside sources, and
+  `fields` for corrected cipher type or language. Drop records that are only keys or unread siblings. Then
+  `python decode_updates/build.py <folder>` must report 0 gaps. If there is nothing to send (already read on
+  DECODE, nothing added), run `queue.py skip <folder> "<why>"`. See `decode_updates/PLAN.md`.
 - `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in
   "The short version" (items, read in full, in long stretches, to a solver, to a sibling or key).
 
@@ -111,7 +119,7 @@ end with `result: complete` (warn lines are allowed, MISS lines are not). Then c
 shows only the intended rows.
 
 Stage by explicit path: the new page and its images, `_build_site.py`, `_dates.json`, every regenerated
-`docs/*.html`, the ledgers touched. Never `git add -A`: the shared tree carries other sessions' work. Commit subject
+`docs/*.html`, the ledgers touched, `decode_updates/queue.json`. Never `git add -A`: the shared tree carries other sessions' work. Commit subject
 `Site: write-up for <who to whom>, <dates> (<shelfmark>)`, body listing what each surface got, as in `git log
 --grep='^Site:'`. Push to `main` (`git push origin HEAD:main` from a worktree) and confirm
 `https://dbourdeau.github.io/cyphersolver/<slug>.html` after the Pages build.

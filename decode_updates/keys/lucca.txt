@@ -1,0 +1,26 @@
+<NOTE ED Polyphonic: 17, 19 each stand for either of two letters (i|n, t|s); the reading picks per occurrence with an Italian 5-gram model. Several letters have two symbols (e: 1, 7; a: 3, 9; o: 13, 18; u: 23, 25; r: 21, 32).>
+
+1 - e
+2 - g
+3 - a
+4 - b
+5 - f
+6 - c
+7 - e
+8 - d
+9 - a
+10 - h
+11 - l
+12 - m
+13 - o
+14 - n
+15 - i
+17 - i|n
+18 - o
+19 - t|s
+21 - r
+22 - t
+23 - u
+25 - u
+26 - p
+32 - r
