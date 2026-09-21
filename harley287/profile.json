@@ -1,0 +1,187 @@
+{
+ "schema_version": 1,
+ "target": "harley287",
+ "title": "Lord Cobham (Ostend) to Walsingham, 20-22 March 1587/8, BL Harley MS 287 ff. 70-72 (DECODE R8482-R8487)",
+ "documents": [
+  {
+   "id": "22mar",
+   "shelfmark": "BL Harley MS 287 ff. 70r-70v (DECODE R8482, R8483)",
+   "date": "22 Mar 1588",
+   "year": 1588,
+   "country": "England",
+   "route": "Ostend -> London",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No interlinear or marginal decipherment on the leaves; not in CSP Foreign vol. 21 pt 4 (checked 2026-09-21)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 7200x10000 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher runs read by context word by word; no glyph-level transcription file."
+   }
+  },
+  {
+   "id": "middelburg",
+   "shelfmark": "BL Harley MS 287 f. 71r (DECODE R8484)",
+   "date": "Mar 1588",
+   "year": 1588,
+   "country": "England",
+   "route": "Ostend -> London",
+   "language": "English",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No interlinear or marginal decipherment on the leaves; not in CSP Foreign vol. 21 pt 4 (checked 2026-09-21)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 7200x10000 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Enclosed intelligence from Middelburg, another hand; five cipher lines."
+   }
+  },
+  {
+   "id": "20mar",
+   "shelfmark": "BL Harley MS 287 ff. 71v-72v (DECODE R8485, R8486, R8487)",
+   "date": "20 Mar 1588",
+   "year": 1588,
+   "country": "England",
+   "route": "Ostend -> London",
+   "language": "English",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No interlinear or marginal decipherment on the leaves; not in CSP Foreign vol. 21 pt 4 (checked 2026-09-21)."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "letters",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-resolution JPEGs (about 7200x10000 px), read from line crops",
+    "image_quality": "good",
+    "notes": "Cipher runs read by context; no glyph-level transcription file."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Graphic-sign simple substitution with a few homophones (a, i/a, w/u, g), words divided, inserted as runs in clear English.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "none used (cobham1588 session confirmed the same forms from glosses on f. 89, R8493, after this key was built)",
+  "notes": "Key R8497 in the same volume (Bodley 1590) is a different system."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE lists the records as partially/non-decrypted; no decipherment on the leaves; CSP Foreign 1588 calendars other Cobham letters but not these",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "crib",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "PIL crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched the seven page images and the key record R8497 from DECODE with the session cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Checked CSP Foreign vol. 21 pt 4, March 1588 sections, for these letters.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Compared the Bodley 1590 key R8497 in the same volume.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Cipher runs beside clear words read as 'commaunded to attend', 'that bearer hath', 'instructions', 'under colour thereof', 'any money', fixing most letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read the runs of ff. 70r-72v word by word from context; long runs on f. 70v and 71v read in sense (preparations, eleven companies of footmen, subject to interception).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "The cobham1588 session found the same letter values in the contemporary glosses of f. 89 (R8493).",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Most runs on ff. 70v, 71v, 72r read; about a third of f. 70r, two names on f. 72r and the last line of f. 71r open. f. 11 (R8477) is a different letter and code, not read."
+ }
+}

@@ -159,6 +159,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p57 | **An Orange prince (son of William V) → an officer of the émigré troops**, KHA Prins Willem V inv. 339 (DECODE R1892) | c. 1795 | 3 | 3 | 5 | 4 | 1 | 3 | **3.30** | D 3: an unknown 6×6 square recovered ciphertext-only from images, but monoalphabetic. H 3: the Orange émigré corps' passage into British pay. N 5: DECODE non-decrypted, no reading known. V 3: word signs unread. |
 | p58 | **The Windischgrätz brothers (Brussels) → Count Windischgrätz**, SOA Plzeň RA Windischgrätz inv. 1433 (DECODE R5029) | 18 Nov 1721 | 1 | 3 | 2 | 3 | 1 | 3 | **2.10** | D 1: a reconstructed key (Mírka 2023) applied without change. H 3: the Congress of Cambrai, the Emperor, Prince Eugene's plan and the succession, from inside the family. N 2: the key existed but no reading of this letter. V 1: every letter passage gives German at once. Held down by 23 open codes |
 | p59 | **Sigismund Heusner von Wandersleben (Kassel) → Axel Oxenstierna**, Riksarkivet (DECODE R4332 = R3816) | 15 May 1637 | 1 | 3 | 1 | 2 | 1 | 3 | **1.80** | D 1: the published key applied. H 3: Hesse-Kassel turning from Sweden in 1637, secret gun-casting. N 1: read by Waldispühl & Kopal 2024. F 2: catalogued twice as open. |
+| p60 | **Henry Brooke, Lord Cobham (Ostend) → [Walsingham]**, BL Harley MS 287 ff. 70–72 (DECODE R8482–R8487) | 20–22 Mar 1588 | 3 | 3 | 4 | 2 | 1 | 3 | **2.90** | D 3: no key, no glosses on these leaves; broken from clear-text cribs. H 3: the 1588 peace talks weeks before the Armada. N 4: catalogued unknown-to-unknown, not read before. R 2: read in part. |
 
 ## By single axis
 
@@ -406,3 +407,4 @@ Como to Dandini 1580 provisional score: 0.25×2 + 0.25×3 + 0.20×2 + 0.10×3 + 
 Orange prince c. 1795 (R1892) provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.30** (p57): a ciphertext-only break of an unknown square.
 Windischgrätz 1721 provisional score: 0.25×1 + 0.25×3 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×3 = **2.10** (p58): the key was on the record; the new work was the transcription.
 Heusner 1637 provisional score: 0.25×1 + 0.25×3 + 0.20×1 + 0.10×2 + 0.10×1 + 0.10×3 = **1.80** (p59): already in print; the new work was the duplicate record and the date.
+Cobham at Ostend 1588 provisional score: 0.25×3 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×1 + 0.10×3 = **2.90** (p60): a cipher broken from its clear context, read in part.
