@@ -1658,46 +1658,6 @@
    "scored": "rule"
   },
   {
-   "id": 116,
-   "counted": true,
-   "year": 1527,
-   "date": "29 Jun 1527",
-   "title": "Ed. Lee Almosinar (Hispania) to unknown recipient, 2 ciphertexts",
-   "correspondents": "Ed. Lee Almosinar → unknown recipient",
-   "place": "Hispania, Valdolit",
-   "language": "English",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Vespasian C IV (2 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R8547–R8548 (2 records): Non-decrypted, 4 pp., unknown; alphabet; images login. Not viewed here.",
-   "why": "Ciphered despatches of Ed. Lee Almosinar to unknown recipient, 29 Jun 1527; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8547",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8547"
-    },
-    {
-     "label": "DECODE R8548",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8548"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8547,
-    8548
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 117,
    "counted": true,
    "year": 1586,

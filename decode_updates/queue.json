@@ -3573,6 +3573,22 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8547": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee to Cardinal Wolsey, Valladolid, 29 June 1527 (ff. 139r-v; R8547 and R8548 are the two leaves of the same letter); no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   },
+   "R8548": {
+    "decode_status": "Non-decrypted",
+    "proposed": "N/A (no cipher)",
+    "note": "Clear English despatch of Edward Lee to Cardinal Wolsey, Valladolid, 29 June 1527 (f. 140r-v; R8547 and R8548 are the two leaves of the same letter); no cipher on any page. Recipient is Wolsey, not unknown.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  },

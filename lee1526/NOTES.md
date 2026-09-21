@@ -88,3 +88,14 @@ Letters and Papers Henry VIII iv no. 2097 already prints the passage in italics:
 thereof to the Emperor's ambassador that now shall come, I think they will be glad to see your Grace content", with
 the note "The passage in cipher undeciphered" (no decipherment on the manuscript; the editors read it). The reading
 above agrees word for word. Found already in print; catalogue 102 removed 21 Sept 2026. Images git-ignored in img8465/.
+
+## Catalogue 116: R8547-R8548 (29 June 1527)
+
+Catalogue no. 116 ("Ed. Lee Almosinar (Hispania) to unknown recipient, 2 ciphertexts", Vesp. C IV ff. 139-140, new
+foliation 152-153) belongs to the same series. All four images were downloaded and read 21 Sept 2026. The two records
+are the two leaves of **one clear English despatch** of Lee alone to Wolsey, Valladolid, 29 June 1527 ("Please it your
+grace", ending "the xxix of June at Valdolit", "your grace most bounden priest", signed "Edouarde Lee Almosinar"). It
+reports the Emperor's talk about the French orator, Bourbon's death, restoring Francesco Sforza to Milan, the Pope's
+articles and the castles to be put in the Emperor's hands, a French army for Italy under Lautrec, the Muscovite
+embassy, and news from Hungary (the "Black Man", Iovan Nenad, against the voivode). No page has a cipher sign.
+Closed and removed from the catalogue 21 Sept 2026; DECODE corrections queued for both records.
