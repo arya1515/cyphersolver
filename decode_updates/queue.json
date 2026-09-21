@@ -3138,6 +3138,93 @@
      "sent": false
     }
    }
+  },
+  "bl32305": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/bl32305.html",
+   "key": {
+    "none": "no key, clear copy or decipherment found; both codes are two-part (random order)"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R2964": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Contemporary interlinear glosses only (36 re, 88 pas, 95 le, 184 que, 243 vous, 347 a, 531 pour, 652 qu'il, 786 s); glosses not alphabetical, so a two-part code; not read further. Full transcription of f. 6 attached.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "cipher_types": "code (two-part, 3-figure)",
+      "plaintext_lang": "French",
+      "cleartext_lang": "French"
+     },
+     "transcription": [
+      "bl32305/R2964_transcription.txt"
+     ]
+    },
+    "R2965": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Contemporary interlinear glosses only (36 re, 88 pas, 95 le, 184 que, 243 vous, 347 a, 531 pour, 652 qu'il, 786 s); glosses not alphabetical, so a two-part code; not read further.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "cipher_types": "code (two-part, 3-figure)",
+      "plaintext_lang": "French",
+      "cleartext_lang": "French"
+     }
+    },
+    "R2968": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. Heading \"Anonyme à Monsr Carré en Pellmall à Londres\", March 1742. Same two-part 3-figure code (~800 entries) as R2968/R2970/R2972; the three letters (1323 groups, 381 distinct) were transcribed and tested: letter-homophonic anneal no better than a shuffled control, one-part order ruled out. No key or clear copy found. R2969 is the decipherer's frequency count of R2968+R2970, not a key.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "bl32305/carre/transcription_R2968.txt"
+     ],
+     "fields": {
+      "receiver": "Mr Carré, Pall Mall, London",
+      "cipher_types": "code (two-part, 3-figure)",
+      "plaintext_lang": "French?"
+     }
+    },
+    "R2970": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. Copy, undated, to Mr Carré \"en Palmal\", London, under cover to Mr Chevening(?), jeweller near Charing Cross; signed \"Anonyme\"; endorsed \"R Aug. 22 1742\" (received 22 Aug 1742), so not 1 Jan 1742. Same two-part 3-figure code (~800 entries) as R2968/R2970/R2972; the three letters (1323 groups, 381 distinct) were transcribed and tested: letter-homophonic anneal no better than a shuffled control, one-part order ruled out. No key or clear copy found. R2969 is the decipherer's frequency count of R2968+R2970, not a key.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "bl32305/carre/transcription_R2970.txt"
+     ],
+     "fields": {
+      "date": "1742-08-22 (received; letter undated)",
+      "receiver": "Mr Carré, Pall Mall, London",
+      "cipher_types": "code (two-part, 3-figure)",
+      "plaintext_lang": "French?"
+     }
+    },
+    "R2972": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. London, 19 Jan 1745. Same two-part 3-figure code (~800 entries) as R2968/R2970/R2972; the three letters (1323 groups, 381 distinct) were transcribed and tested: letter-homophonic anneal no better than a shuffled control, one-part order ruled out. No key or clear copy found. R2969 is the decipherer's frequency count of R2968+R2970, not a key.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "bl32305/carre/transcription_R2972.txt"
+     ],
+     "fields": {
+      "cipher_types": "code (two-part, 3-figure)",
+      "plaintext_lang": "French?"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {

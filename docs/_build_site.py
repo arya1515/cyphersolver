@@ -775,7 +775,7 @@ PAGES = [
          rights='Images: Archivio Apostolico Vaticano, via DECODE'),
     dict(slug='bl32305', label='Paris 1719 / Carr&eacute;', year='1719&ndash;45', y=1719, place='Paris, London', st='stuck', stt='two-part codes, too short',
          title='Paris 1719 and Carr&eacute; 1742&ndash;45 code letters &mdash; two-part codes, not read',
-         blurb='Six DECODE records from BL Add MS 32305, catalogued as one Paris correspondence, are a codebreaker&rsquo;s working file. Two were deciphered at the time. The Paris letters of February 1719 carry about a dozen contemporary glosses; they are not alphabetical, so the code is two-part, and 354 groups with 191 distinct values cannot be broken from the ciphertext. The letters to Mr Carr&eacute; in Pall Mall, 1742&ndash;45, have no gloss at all.',
+         blurb='Six DECODE records from BL Add MS 32305, catalogued as one Paris correspondence, are a codebreaker&rsquo;s working file. Two were deciphered at the time. The Paris letters of February 1719 carry about a dozen contemporary glosses; they are not alphabetical, so the code is two-part, and 354 groups with 191 distinct values cannot be broken from the ciphertext. The letters to Mr Carr&eacute; in Pall Mall, 1742&ndash;45, have no gloss at all; all three were transcribed (1,323 groups, 381 distinct) and tested: not a letter cipher, not a one-part code, so a two-part code of about 800 entries.',
          quote='36 re &middot; 95 le &middot; 184 que &middot; 243 vous &middot; 347 a: not in alphabetical order',
          rights='Images: British Library, via DECODE'),
     dict(slug='orpo1942', label='Police radiograms', year='1942', y=1942, place='Eastern Front', st='stuck', stt='double pass not broken',

@@ -755,41 +755,6 @@
    "scored": "rule"
   },
   {
-   "id": 70,
-   "counted": false,
-   "year": 1742,
-   "date": "1 Jan 1742",
-   "title": "Unknown sender (London?) to unknown recipient",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "London?, England?",
-   "language": "unknown",
-   "region": "England",
-   "period": "1701-1800",
-   "shelfmark": "",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R2970: Non-decrypted, 5 pp., unknown; numerical; images login. Not viewed here.",
-   "why": "Ciphered letter of Unknown sender to unknown recipient, 1 Jan 1742; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 1,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2970",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2970"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2970
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 72,
    "counted": true,
    "year": 1753,
@@ -1009,16 +974,16 @@
    "counted": false,
    "year": 1719,
    "date": "7 Feb 1719 – 19 Jan 1745",
-   "title": "Paris 1719 and Carré 1742–45 code letters, 4 ciphertexts",
+   "title": "Paris 1719 and Carré 1742–45 code letters, 5 ciphertexts",
    "correspondents": "Unknown sender → unknown recipient",
    "place": "Paris, France",
    "language": "...",
    "region": "England",
    "period": "1701-1800",
-   "shelfmark": "BL, Add MS 32305 (4 items)",
+   "shelfmark": "BL, Add MS 32305 (5 items)",
    "folio_note": "",
    "cls": "B",
-   "status": "Viewed 21 Sept 2026 (bl32305/). R2963 and R2974 were deciphered at the time and are dropped. R2964/R2965 (Paris 7 and 10 Feb 1719): two-part 3-figure code, ~12 contemporary glosses, 354 groups in f. 6. R2968/R2972 (and R2970): letters to Mr Carré, Pall Mall, 1742–45, all figures, no gloss; R2969 is a frequency count, not a key.",
+   "status": "Viewed 21 Sept 2026 (bl32305/). R2963 and R2974 were deciphered at the time and are dropped. R2964/R2965 (Paris 7 and 10 Feb 1719): two-part 3-figure code, ~12 contemporary glosses, 354 groups in f. 6. R2968/R2970/R2972 (letters to Mr Carré, Pall Mall, Mar 1742, received 22 Aug 1742, 19 Jan 1745): transcribed in full (1323 groups, 381 distinct, 1–800); not a letter cipher (anneal = shuffled control), not one-part (r = −0.26): two-part code of ~800 entries, closed; R2969 is a frequency count, not a key. Former entry #70 (R2970 alone) folded in here.",
    "why": "Ciphered despatches of Unknown sender to unknown recipient, 1 Feb 1719 – 17 Nov 1749; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
@@ -1040,6 +1005,10 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2968"
     },
     {
+     "label": "DECODE R2970",
+     "href": "https://de-crypt.org/decrypt-web/RecordsView/2970"
+    },
+    {
      "label": "DECODE R2972",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2972"
     }
@@ -1050,6 +1019,7 @@
     2964,
     2965,
     2968,
+    2970,
     2972
    ],
    "scored": "rule",
