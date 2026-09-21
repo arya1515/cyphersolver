@@ -1,0 +1,107 @@
+THIRD PASS - AGS 0002 (img/R9954_p8.jpg) and AGS 0003 (img/R9954_p2.jpg)
+Key: KEY.md + tomokiyo_key.png with corrections (Φ=m, hook ∫=j, tall I=s, ∝=s, X·=que, 卄/H=f/h, H·=Xebres).
+Method: crops at 2.5-4x with autocontrast (and local threshold where needed); show-through checked
+(mirrored grey strokes above/below the lines were ignored). Grades: H certain, C confident, I illegible/unsettled.
+
+== AGS 0002 ==
+
+L5 "□Iш9*" (was "igual[?]"): signs □ | I ш 9 * ; I = s (tall I-sign, as in "Iobre"=sobre l.24, "Iela s" l.20).
+   = "y su al[teza]" (su al. is the writer's usual abbreviation, cf. l.3, l.8, l.9).
+   "dizen que v.s. los provee todos, y su al. casi en ninguno"  -> H
+   "ト9∝□" = casi (∝ = s)                                       -> H
+L6 "9トôθ≃<∫96ト9" = "aconseja aca" (∫=j, 6=a)                   -> H
+L9 end "□ô ≃< y9 ≃ô" = "que yo sepa, so[n]" (n not written; line 10 opens "estos")  -> C
+   (alternative "que yo se, paso(?)" makes no sense)
+L10-11 "Hô*<|þô": first sign = crossbar on two short stems with a long hooked descender (the same curled
+   t-form recurs at 0003 l.5); o-l-e-d-o fixed. "un regimiento de Toledo que era de baeça"; also
+   Pedro de Acuña "de to|ledo" l.14-15.  = Toledo                  -> C (sign is a t variant or H slip)
+L12 "ŧ9=<≃<" (read "rabese"): at 4x the first sign is plainly ŧ (one stem, two crossbars) = r, not ≃.
+   r-a-b-e-s-e is not a word; context "y este ___ aca que v.s. le dio a un sobrino de Carvajal".
+   Best: "sabese" (se sabe aca) with r written for s                -> I (sign unambiguous r; reading
+   "sabese" is a conjectural slip-correction, grammatical but not proven)
+L12-13 "トŧ9|ш9∫9*" = Cravajal = Carvajal                          -> H
+L14 "9トш□θ9" = Acuña (□θ = ñ)                                      -> H
+L15 "トôŧþôθ<*" (was "corregidor"): c-o-r-d-o-n-e-l = "coronel" (extra d-sign)  -> C
+   "ledo que es coronel de cierta gente del [A-sign]"
+L15 arch sign: at 4x it is a flat-topped A with crossbar and two legs = the key's A-sign ("cl"),
+   followed by a dot (nomenclator mark, like X· and H·). "gente del cl·" - as a digraph "cl" gives no
+   word; as a nomenclator word the value is unknown (candidates: rey / reyno / cardenal / clero).
+   -> I (sign identified = key's "cl" A-sign; plaintext value of the dotted code word not known)
+L16 "y o prometido": "□ ô" = "y o" (y/o, "or") - "esta pedido y o prometido para alla o hecha la
+   provision"; reading kept                                        -> C
+L19 "9X·ш□" = aqui; "□ X·" = y que                                  -> H
+L20 "H9v9 ·Φ·" (was "haga d[?]"): the dotted sign is Φ = m -> abbreviation "m[erced]"
+   "que el bien que les haga m[erced]" ; "y que v.s. se las (I<*9≃) procure"   -> C
+L22 "6 ≃ш≃" = "a sus" (the doubled "sus" was an error)              -> H
+L24 "v□θôш<≃<≃" = ginoveses (genoveses)                             -> H
+
+== AGS 0003 ==
+
+L4 "<≃⊐9 ≃ш9* Φш□ 6*<vŧ<" = "esta su al[teza] muy alegre" (not "esta[va]")  -> H
+L4-5 "≃<θô|ŧ<≃" = señores                                            -> H
+L5 "ш<θ9 ш<θ⊐< <≃⊐<θ" (curled t-sign, cf. Toledo): v-e-n-a v-e-n-t-e esten.
+   Candidates "vengan a bien [e] esten", "venan (vengan) [a] venir"; none fits all signs.  -> I
+L6 "トôθH□ŧΦ<≃" = confirmes (conformes)                              -> H
+L9 "<ト·" = etc.                                                       -> C
+L11 "9≃□ Φ<≃Φô" (was "asi desmo"): the sign after □ is Φ (circle, stem through) not þ -> "asimesmo"  -> H
+L11-12 "þ< トôΦô ≃< vô|ш□<ŧθ9" = "de como se go|vierna" (the "do" of the earlier pass does not exist) -> H
+L12 "yôŧ 9*ш9" = "por Alva" (Duke of Alba, named l.14)                -> C
+L14 "þ9*ш9 ⊐ô þ9ш□6" = "dalva. todavia" (not "t[?]ado da[?]via")     -> H
+L15 "þ9**< 9X· **ô≃ *шv9ŧ<≃" = "dalle aquellos lugares"              -> H
+L15 box/Π sign: at 3.5x it is only a heavily inked □ (= i/y), not the A-sign.
+   "□ □ô ≃□<θyŧ< *<≃ トôθ≃<|∫ô" = "y yo sienpre les conse|jo"       -> H
+L16 "þ<**9 þ□δ<" = "della dije" (δ = j hook)                         -> H
+L17 "≃<トŧ<⊐ô" = secreto                                             -> H
+L18 "X·ш□<θ < ŧ9 <* <θ=9δ9þôŧ" = "quien era el enbajador" (X·=q, δ=j)  -> H
+L18-19 "□ト | Φô <ŧy<θv9θ9þô": two heavy signs at line start (Φ m, ô o) -> "y c|[o]mo"; then
+   e-r-p-e-n-g-a-n-a-d-o. "empeñado" (fits "para escrevir mil mentiras") vs "engañado" (fits the
+   signs e-n-g-a-n-a-d-o but not the r-p).   "y como" -> C ; the participle -> I
+L19 "y9ŧ9 <≃トŧ<ш□ŧ Φ□* Φ<θ⊐□ŧ9≃" = para escrevir mil mentiras      -> H
+L20 "<∝ 9θ≃□ ôθô≃< þ9 Φшト|Hô" = "es ansi, o no se da mucho" (∝=s; □ closes "ansi"; "da mucho" not
+   "da mir|ho")   "es ansi" -> C ; "o no se" -> C (□ may be shared: "ansi, y[o] no se")
+L22 "tanta" (revised) kept                                            -> C
+L25 "eso ∝ enbio": ∝ = s; "por eso se enbio" (e unwritten)            -> C
+
+== CLEAN RUNNING TEXT ==
+Doubts left are in ⟨ ⟩.
+
+AGS 0002
+Cerca de los oficios que estan vacos en estos reynos y los inconvinientes que ay de proveerse aca a
+personas que los venden a onbres viles, dize su al[teza] que esto se mirara mucho de aqui adelante.
+Personas dizen que v. s. los provee todos, y su al[teza] casi en ninguno; por tanto que haga v. s. tan
+bien alla lo que aconseja aca, cierto que verian que alla no se proveyese en ninguno, y asi lo escrive
+su al[teza].
+Los oficios que su al[teza] a dado y prometido, que yo sepa, so[n] estos: al marques de Villena un
+regimiento de Toledo que era de Baeça; a Rodrigo Niño otro de Plasencia; y este ⟨sabese? - ciphertext
+"rabese"⟩ aca que v. s. le dio a un sobrino de Carvajal; que el regimiento de Cuenca diz que tiene su
+al[teza] para Vasco de Acuña, hermano de Pedro de Acuña de Toledo, que es coronel de cierta gente del
+⟨A-sign "cl·", nomenclator word, value unknown⟩. Crea v. s. que quanto esta vaco esta pedido y o
+prometido para alla o hecha la provision.
+Y cerca desto tanbien deve mirar v. s. que el rey tiene muchos aqui que le an servido, y que el bien que
+les haga m[erced], y que v. s. se las procure teniendo abilidad para ellas [struck: y que v. s. s por los];
+que aqui se dize que los mas oficios provee a sus criados; acuerdese de los del rey.
+Los ginoveses remiten a v. s. sobre lo de Cartajena de las galeras; algo lleva la provision de favor;
+provea v. s. alla como vere conviene a servicio del rey; no se altere por carta nin cedula que alla
+
+AGS 0003
+vea, que aca muchas cosas se proveen por ymportunidades y no por gana que se hagan.
+De la pacificacion destos reynos y de la paz que ay en ellos esta su al[teza] muy alegre, y de saber que
+estos señores condestable [e] ynfantado ⟨venaventé: v-e-n-a v-e-n-t-e, unread⟩ esten confirmes con v. s.
+para su servicio. Torno a dezir que sea tenido en mucho.
+Tanbien di aviso a su al[teza] que la reyna Germana trae tratos con franceses, etc. V. s. tiene mucha
+culpa de lo que con ella se haze, por aquello a los principios pedido. Estan ynformados; asimesmo de
+como se govierna por Alva desta negociacion de Arevalo, a ganado; que se escrive de aqui que trae tratos
+de casamiento con el duque dalva. Todavia estan estos en dalle aquellos lugares, y yo sienpre les consejo
+que lo entretengan; y todo lo que della dije con protestacion que fuese secreto.
+Tanbien avise a su al[teza] quien era el enbajador, y como ⟨erpengañado: empeñado? engañado?⟩ para
+escrevir mil mentiras; ellos estan bien ciertos que es ansi, o no se da mucho credito a sus avisos; y yo
+no se por que a ese le quiso dar v. s. tanta autoridad, aviendo sido avisado de cuan mal todos estavan
+con el en lo de las ordenes de Calatrava y Santiago y Alcantara. Por eso se enbio a v. s. el poder para
+que lo remedie, y no es menester para ello mas
+
+== COUNT ==
+Words left at I: 4
+  0002 l.12 "rabese" (r certain; "sabese" conjectural)
+  0002 l.15 dotted A-sign "cl·" (nomenclator value unknown)
+  0003 l.5 "venaventé"
+  0003 l.19 "erpengañado" (empeñado/engañado)

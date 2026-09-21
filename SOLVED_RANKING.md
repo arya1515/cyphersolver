@@ -479,5 +479,5 @@ Schaeblin to Jones 1753 provisional score: 0.25×1 + 0.25×1 + 0.20×1 + 0.10×1
 Visconti 1727 provisional score: 0.25×1 + 0.25×1 + 0.20×2 + 0.10×1 + 0.10×3 + 0.10×4 = **1.70** (p82): a catalogued letter that is the Deciphering Branch's key.
 
 Eichel 1758 provisional score: 0.25×2 + 0.25×1 + 0.20×3 + 0.10×1 + 0.10×3 + 0.10×3 = **1.95** (p83): a cipher sheet made only of nulls and blank cells of key R596.
-Ayala to Cisneros 1516 provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×1 + 0.10×2 = **2.50** (p84): a Non-decrypted DECODE letter read nine tenths with a published sibling key.
+Ayala to Cisneros 1516 provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×1 + 0.10×2 = **2.50** (p84): a Non-decrypted DECODE letter read (seven words open) with a published sibling key.
 Prince Frederick 1795 (R2242) provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **2.70** (p85): the R1892 key read it unchanged.

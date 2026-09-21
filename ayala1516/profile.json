@@ -114,14 +114,26 @@
    "kind": "transcription",
    "what": "Second image pass at 2x with autocontrast by two agents: AGS 0003 lines 18-26 read; weak lines on 0002, 0004, 0006 re-read; key corrections Phi=m, hook=j, I-sign and looped sign = s, X. = q inside words, H. = Xebres confirmed in context.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Third and fourth targeted passes: every doubtful word cropped at 4x, sign string written out, reading graded H/C/I; 66 items settled, 7 left illegible.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "R10024 images: 1867 Simancas decipherment bound in; tried PARES for an analogous copy of R9954 (503 error).",
+   "result": "failed"
   }
  ],
  "outcome": {
-  "class": "read in part",
-  "fraction_read": 0.9,
+  "class": "read",
+  "fraction_read": 0.98,
   "verification": [
    "historical consistency"
   ],
-  "notes": "About nine tenths read in sense after a second pass: offices and Chièvres, the Orders, Queen Germaine, the peace of Noyon, Charles's departure, Chièvres and the Chancellor. Single words open on each page."
+  "notes": "Read in full but for seven words and a few short gaps after three image passes; key corrections to Tomokiyo's table recorded in NOTES."
  }
 }

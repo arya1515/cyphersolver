@@ -1,6 +1,6 @@
 # Diego López de Ayala (Brussels) to Cardinal Cisneros, 30 August 1516
 
-Status: read in part (21 Sept 2026)
+Status: read (21 Sept 2026; seven words open)
 
 - AGS Estado leg. 496 fol. 22, DECODE R9954 (8 images, "Non-decrypted"). Catalogue entry from the DECODE refill, scored by rule.
 - Images (git-ignored, `img/`): DECODE P1 = AGS 0001, a clear page in Spanish. The cipher runs over AGS 0002–0006
@@ -46,3 +46,13 @@ then "== REVISED ==" re-reads at 2x with contrast). The sign groups are kept bes
 - **AGS 0006.** A request for a cédula letting Cisneros appoint presidents, and on the corregidor of Toledo. Ayala has named Don Alonso Téllez and a Don Pedro. He gave Cisneros's credence to the king alone. "El y el chanciller son una persona" (Chièvres and Chancellor Sauvage). A close urging friendship "entre v. s. y el que la desea… servicio a dios y al rey". There is no signature in cipher.
 
 Open: 0004 l.7–8, 23, 25–26 (single words); 0005 l.18 end; 0006 l.8 surname, l.17/19 openings; 0002 l.5 and 12 single words.
+
+## Third pass (21 Sept 2026): read
+
+Every doubtful word was cropped at 4x and settled against its sign string (grades H/C/I in `third_0002_0003.txt`,
+`third_0004_0006.txt`). The combined text is `reading.txt`. Seven words are left at I: 0002 l.12 "rabese", 0002 l.15 the
+dotted A-sign code word, 0003 l.5 "venavente", 0003 l.19 empeñado/engañado, 0004 l.13 "en cuanta", 0005 l.18 the
+form of "yo", and 0006 l.17 the dotted 6· person sign. A few short gaps "..." remain on 0004–0006. More key notes:
+hook = j or x (dixo), the dotted ŧ-over-ô = Francia, a curled t variant (Toledo), X· = q inside words (querria, requerile).
+R10024 (the 12 July sibling) carries a Simancas decipherment dated 5 July 1867. The endorsement on R9954 suggests a
+similar 1867 copy, which may be on PARES. PARES returned 503 on 21 Sept, so this is still to check.
