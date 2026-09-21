@@ -1,0 +1,122 @@
+{
+ "schema_version": 1,
+ "target": "lodi1584",
+ "title": "Sir Francis Englefield to the Cardinal of Como, Madrid, 15 Nov 1584 (ASV Segr. Stato, Spagna 31, ff. 209-212; DECODE R119)",
+ "documents": [
+  {
+   "id": "R119",
+   "shelfmark": "ASV Segreteria di Stato, Spagna 31, ff. 209-212 (DECODE R119)",
+   "date": "1584-11-15",
+   "year": 1584,
+   "country": "Spain",
+   "route": "Madrid (Englefield) -> Rome (Cardinal of Como)",
+   "language": "Spanish",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary decipherment written above every cipher run on the four pages."
+   },
+   "length": {
+    "tokens": 307,
+    "distinct": 179,
+    "unit": "mixed",
+    "measured": true,
+    "file": "plaintext.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R119_I880-I883 and key DOC_R119_D284_211r",
+    "image_quality": "fair",
+    "notes": "Only the interlinear decipherments were transcribed; the cipher was spot-checked against the bound key, not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Greek-like sign alphabet with a few homophones for vowels, 22 word signs, name numbers 50-94, nulls and a doubling sign; key bound with the letter (f. 211).",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "Key sheet f. 211r attached to DECODE R119 (DOC_R119_D284)",
+  "notes": "Cipher runs inside a long clear Spanish letter."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Interlinear contemporary decipherment on ff. 210-212; key on f. 211, attached to DECODE R119",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Downloaded the 4 DECODE images and 2 attached documents (key sheet, address leaf) with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Searched Knox, Letters and Memorials of Allen (1882) text and the web for an edition.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "verification",
+   "what": "Read the pages: sender is Sir Francis Englefield (cipher signature 70 = Fran.co Englefilol in the key; docket), to the Cardinal of Como, Madrid 15 Nov 1584, not the nuncio Taverna on 1 Jan 1584.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the contemporary interlinear decipherments of all cipher runs.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Spot-checked runs against the bound key: chi omega = d e, 69 = Alano, 74 = Ingalaterra, 79 = Roma, 82 = Madrid.",
+   "result": "worked",
+   "date": "2026-09-21"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 0.99,
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Read at the time; one short sign group at a hole in f. 210 unglossed. New here: correct sender, recipient and date."
+ }
+}

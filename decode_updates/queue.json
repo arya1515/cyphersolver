@@ -3013,5 +3013,36 @@
     "sent": false
    }
   }
+ },
+ "lodi1584": {
+  "writeup": null,
+  "key": {
+   "decode": "key sheet attached to R119 itself (DOC_R119_D284, f. 211r: sign alphabet, word signs, names 50-94)",
+   "lang": "ES"
+  },
+  "cite": null,
+  "fields": {
+   "author": "Sir Francis Englefield",
+   "sender": "Sir Francis Englefield",
+   "receiver": "Tolomeo Gallio, Cardinal of Como (Secretary of State)",
+   "start_year": "1584",
+   "start_month": "11",
+   "start_day": "15",
+   "end_year": "1584",
+   "end_month": "11",
+   "end_day": "15",
+   "city": "Madrid",
+   "cipher_types": "simple substitution with homophones for vowels; nomenclator"
+  },
+  "records": {
+   "R119": {
+    "decode_status": "Partially decrypted",
+    "proposed": "Decrypted",
+    "note": "Not a letter of the nuncio (the name and 1 Jan 1584 come from the volume heading): Sir Francis Englefield to the Cardinal of Como, Madrid, 15 Nov 1584, signed with cipher number 70 = 'Fran.co Englefilol' in the key; docket 'S.r Englefild ... 15 Novembre'. Every cipher run carries the contemporary interlinear decipherment, which agrees with the key bound as f. 211 (attached document). Asks for William Allen as an English cardinal on the vacancy of Milan; the Queen of Scots moved from Shrewsbury's custody; postscript on Bernardino de Mendoza's objections to 'la grande empresa'.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
+   }
+  }
  }
 }

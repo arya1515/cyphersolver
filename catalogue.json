@@ -5750,41 +5750,6 @@
    "writeup": "ormanetto1576.html"
   },
   {
-   "id": 247,
-   "counted": true,
-   "year": 1584,
-   "date": "1 Jan 1584",
-   "title": "Vescovo di Lodi (Spain) to The Secretariat",
-   "correspondents": "Vescovo di Lodi → The Secretariat",
-   "place": "Spain",
-   "language": "Spanish",
-   "region": "Papacy",
-   "period": "1560-1589",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 31",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R119: Partially decrypted, 4 pp., type not given; numerical; images login. Not viewed here. DECODE's notes point to a key or a reconstructed key. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Partly deciphered, and key attached. Comment from archive: Spagna. Mons. Vescovo di Lodi, nuntio '82, '83, '84, '85. Indice a ff. 1-2. Lett. Orig. e cifre del nunzio alla segreteria, dal 1 gennaio 1584-16 march 1585. ff. 3-282. mm. …",
-   "why": "Ciphered letter of Vescovo di Lodi to The Secretariat, 1 Jan 1584; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 4,
-   "difficulty": 2,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R119",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/119"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    119
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 250,
    "counted": true,
    "year": 1736,
