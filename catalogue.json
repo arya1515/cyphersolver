@@ -1207,41 +1207,6 @@
    "outcome": "attempted, open"
   },
   {
-   "id": 90,
-   "counted": true,
-   "year": 1567,
-   "date": "9 Mar 1567",
-   "title": "Sr. Henry Norreys to Secretary Cecil",
-   "correspondents": "Sr. Henry Norreys → Secretary Cecil",
-   "place": "London",
-   "language": "unknown",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 4136 f 161-163",
-   "folio_note": "",
-   "cls": "A",
-   "status": "DECODE R9251: Non-decrypted, 3 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560).",
-   "why": "Ciphered letter of Sr. Henry Norreys to Secretary Cecil, 9 Mar 1567; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9251",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9251"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9251
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 92,
    "counted": true,
    "year": 1562,

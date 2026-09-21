@@ -175,6 +175,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p72 | **Wolff (The Hague) → Princess Wilhelmina**, KHA Wilhelmina Prinses van Pruisen inv. 192 (DECODE R2232) | 25 Jul 1801 | 1 | 2 | 3 | 3 | 1 | 4 | **2.00** | D 1: the key was the next DECODE record, applied unchanged. H 2: a royalist's invasion plan and petition for half-pay; personal more than political. N 3: never read, key filed alongside. R 3: three pages, 1,065 groups. V 4: read in full; a few slips. |
 | p73 | **Claude de La Guiche (Rome) → Montmorency**, BnF fr. 3138 no. 22 | 22 Nov 1551 | 3 | 3 | 5 | 2 | 2 | 2 | **3.10** | D 3: ciphertext-only break of a 22-sign substitution (406 signs) by annealing. H 3: Santa Fiora sounded for France before the Sienese rising. N 5: no decipherment anywhere. |
 | p74 | **Champagne news-letters → the duc de Nevers**, BnF fr. 3623 nos. 23–25, 60 | Feb–Jun 1590 | 1 | 2 | 4 | 2 | 1 | 2 | **2.05** | D 1: one letter carried its own key; the other key rebuilt from interlinear glosses and alphabetical order. H 2: League news from Paris and Champagne, 1590. N 4: no reading anywhere before. V 2: short runs, several code numbers open. |
+| p75 | **Sir Henry Norreys (Paris) → Cecil**, BL Add MS 4136 ff. 160–161 (DECODE R9251) | 1567–68 | 1 | 2 | 3 | 1 | 2 | 2 | **1.85** | D 1: a key reconstructed by Tomokiyo from *Cabala*, applied. H 2: ambassador's reports on the second civil war in France. N 3: no decipherment known for the Norreys side. R 1: a few dozen words. F 2: Forbes's copies, symbol shapes uncertain. V 2: checked against the Calendar's summaries. |
 
 ## By single axis
 
@@ -450,3 +451,4 @@ Paris nunciature Francia 18 provisional score: 0.25×1 + 0.25×3 + 0.20×4 + 0.1
 Wolff 1801 provisional score: 0.25×1 + 0.25×2 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×4 = **2.00** (p72): the key Wolff sent six weeks later, filed next to the letter, read it at once.
 La Guiche 1551 provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×2 + 0.10×2 = **3.10** (p73): a symbol substitution with no decipherment, broken ciphertext-only.
 Champagne news-letters 1590 provisional score: 0.25×1 + 0.25×2 + 0.20×4 + 0.10×2 + 0.10×1 + 0.10×2 = **2.05** (p74): a name code with its key bound in, and an alphabetical two-digit key rebuilt from glosses.
+Norreys 1567–68 provisional score: 0.25×1 + 0.25×2 + 0.20×3 + 0.10×1 + 0.10×2 + 0.10×2 = **1.85** (p75): a reconstructed key from a printed decipherment reads Forbes's copies of the ciphered words.

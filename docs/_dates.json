@@ -122,6 +122,7 @@
   "sauli and riario, portugal to the secretariat, 1579–81": "2026-09-21",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
+  "sir henry norreys to cecil, paris, 1567–68 (decode r9251)": "2026-09-21",
   "sir henry percy to cecil, norham, 23 july 1559": "2026-09-21",
   "sir nicholas throckmorton to the regent moray, 20 july 1569": "2026-09-21",
   "sir ralph boswell to william boswell, december 1627": "2026-09-21",
@@ -250,7 +251,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "d8ed1a92e4e1",
+   "hash": "9530a87ae6ca",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -435,7 +436,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "efb8d4aa344d",
+   "hash": "fd278f94d36f",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -536,6 +537,11 @@
   "norfolk1570": {
    "first": "2026-09-18",
    "hash": "acdf2f731457",
+   "updated": "2026-09-21"
+  },
+  "norreys1567": {
+   "first": "2026-09-21",
+   "hash": "f1403b33db07",
    "updated": "2026-09-21"
   },
   "nunzio1718": {
@@ -860,7 +866,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "1afdd39e2735",
+   "hash": "57e32e838c6d",
    "updated": "2026-09-21"
   },
   "yard1699": {
