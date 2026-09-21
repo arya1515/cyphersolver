@@ -9,6 +9,7 @@
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "an orange prince to an officer of the émigré troops, c. 1795": "2026-09-21",
+  "an orangist at basle to william v, 17 august 1796": "2026-09-21",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
   "archbishop of bremen to johan adler salvius, november–december 1631": "2026-09-21",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
@@ -212,7 +213,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "f9c6256e0ebd",
+   "hash": "211e8647fc64",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -372,7 +373,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ad9a4b8469ae",
+   "hash": "021d5d04bb57",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -513,6 +514,11 @@
   "r1944": {
    "first": "2026-09-21",
    "hash": "a6fe55699c09",
+   "updated": "2026-09-21"
+  },
+  "r2234": {
+   "first": "2026-09-21",
+   "hash": "32e95880eec3",
    "updated": "2026-09-21"
   },
   "raince": {
@@ -702,7 +708,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "737029eb6b42",
+   "hash": "765200961c66",
    "updated": "2026-09-21"
   },
   "yard1699": {

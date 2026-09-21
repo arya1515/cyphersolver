@@ -225,6 +225,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **An Orangist correspondent (Basle) → Prince William V, 17 Aug 1796**, catalogue 221, DECODE R2234 (KHA Prins Willem V inv. 339). Read with the five-alphabet key sheet R2235, one alphabet per line, 21 Sept 2026. See [r2234/](r2234/).
 - **The Cardinal of Como (papal Secretariat) → Anselmo Dandini, nuncio in France, 1580**, catalogue 244, DECODE R72–R73. R73 read by Lasry (2020); R72 letter key rebuilt, matching the contemporary decipherment, 21 Sept 2026. See `dandini1580/`.
 - **János Pápai → Ferenc Rákóczi II, Constantinople, 1706–1710**, catalogue 46, DECODE R731–R823. Six of seven letters read with the key issued to Pápai (DECODE R580), 21 Sept 2026; R731's graphic signs open. See `papai1706/`.
 - **Charles Hémard de Denonville, cardinal de Mâcon (Rome, Orvieto) → Montmorency, 1536–37**, catalogue 180, BnF fr. 3053, DECODE R4233–R4248. The catalogue's “unknown sender” identified; seven records read in part with the Tomokiyo/Lasry key and one resolved by the contemporary decipherment on f. 86, 21 Sept 2026. See `rome1536/`.

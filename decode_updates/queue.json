@@ -1834,6 +1834,26 @@
      "note": "Not a cipher. The two pages (ff. 245-246) are a clear Spanish memorial, 'Copia del Memorial dado por parte del obispo de Pamplona', on the fruits of the see during the vacancy after Diego Ramírez (d. 27 Jan 1573) until Antonio Manrique's bulls (1575). The only figures are ducat sums in Roman numerals with the thousands sign (e.g. 'xbnUdn L-ix'), repeated in the margin; there is no ciphertext."
     }
    }
+  },
+  "r2234": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/r2234.html",
+   "key": {
+    "decode": "R2235"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R2234": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the key R2235 (five alphabets D,G,L,N,R): the section capital sets the first line's alphabet, then one alphabet per line in the cycle D-G-L-N-R. Not homophonic.",
+     "reading": "r2234/reading.txt",
+     "sent": false,
+     "fields": {
+      "cipher_type": "polyalphabetic (5 alphabets, one per line)"
+     }
+    }
+   }
   }
  }
 }
