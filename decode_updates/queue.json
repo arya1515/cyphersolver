@@ -2893,6 +2893,62 @@
      "sent": false
     }
    }
+  },
+  "champagne1590": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/champagne1590.html",
+   "key": {
+    "file": "champagne1590/NOTES.md",
+    "lang": "French",
+    "how": "no. 23: key slip bound on f. 36r; nos. 24/25/60: alphabetical two-digit table rebuilt from interlinear glosses"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R9453": {
+     "decode_status": "N/A (key record)",
+     "proposed": "Decrypted",
+     "note": "Clear copy with a nine-entry name code; the key is bound on f. 36r and resolves every number.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9454": {
+     "decode_status": "Decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Two short two-digit runs; the alphabet is rebuilt from no. 25 (R9455) but both runs stay open. Status stays Non-decrypted.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "champagne1590/ct_3623_twodigit.txt"
+     ]
+    },
+    "R9455": {
+     "decode_status": "Decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Two-digit alphabetical homophonic key rebuilt from interlinear glosses; most runs read.",
+     "reading": "decode_updates/decryptions/R9455.txt",
+     "sent": false
+    },
+    "R9459": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Same key as R9455; 'du sr Ludovic' read, one name open.",
+     "reading": "decode_updates/decryptions/R9459.txt",
+     "sent": false
+    },
+    "R9460": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "One group of six mixed signs near the end; too short to read.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "champagne1590/ct_3623_78.txt"
+     ]
+    }
+   }
   }
  },
  "rechteren1785": {

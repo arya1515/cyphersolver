@@ -1,0 +1,218 @@
+{
+ "schema_version": 1,
+ "target": "champagne1590",
+ "title": "Champagne news-letters to Nevers 1590-91 and Laurière to Nevers 1593, BnF fr. 3623 and fr. 3625 (catalogue item 30)",
+ "documents": [
+  {
+   "id": "n23",
+   "shelfmark": "BnF fr. 3623 no. 23, ff. 35-36 (Gallica btv1b525245007 canvases 79-81; DECODE R9453)",
+   "date": "28 Feb 1590",
+   "year": 1590,
+   "country": "France",
+   "route": "Bienvenut (Paris) -> 'Vostre Altesse'",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "key slip f. 36r bound with the copy",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "Copy in clear with code numbers for nine persons/places only; not tokenised."
+   }
+  },
+  {
+   "id": "n24-25-60",
+   "shelfmark": "BnF fr. 3623 nos. 24 (f. 37), 25 (f. 38), 60 (f. 88) (DECODE R9454, R9455, R9459)",
+   "date": "5-15 Jun 1590",
+   "year": 1590,
+   "country": "France",
+   "route": "anonymous news-letters -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "a few letters glossed over figures in nos. 25 and 60",
+    "partial": true
+   },
+   "length": {
+    "tokens": 104,
+    "distinct": 40,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct_3623_twodigit.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "Twelve short runs in one hand; interlinear glosses faint."
+   }
+  },
+  {
+   "id": "n78",
+   "shelfmark": "BnF fr. 3623 no. 78, f. 111 (DECODE R9460)",
+   "date": "1591",
+   "year": 1591,
+   "country": "France",
+   "route": "unknown -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 6,
+    "unit": "symbols",
+    "measured": false,
+    "file": "ct_3623_78.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "One group of mixed figures and signs."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "No. 23: a small name code with its key bound in; nos. 24/25/60: a two-digit homophonic alphabet in alphabetical order with a few code numbers.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 40,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 5,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "names",
+    "places"
+   ],
+   "unread_groups": 7
+  },
+  "nulls": {
+   "present": "unknown",
+   "count": "unknown"
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "sibling_key": "none; Tomokiyo's Nevers key no. 46 checked and does not fit; siblings nos. 26/27 in another key",
+  "notes": "Fr. 3625 no. 55 (Laurière) not located; its sibling no. 10 has an interlinear decipherment."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "no. 23 key slip bound with the letter (f. 36r); interlinear glosses in no. 25 and no. 60",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded.",
+  "tools": [
+   "PIL crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Tomokiyo's nevers.htm and GL.htm, DECODE list for fr. 3623/3625; no prior reading; DECODE gives folios.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Gallica thumbnails of both volumes; contact sheets; full-resolution pages of ff. 35-41, 88, 111 (fr. 3623) and ff. 10, 16 (fr. 3625).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "No. 23: key slip on f. 36r transcribed; every code number in the letter resolves.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Tomokiyo's no. 46 (nevers1593/key46.txt) tried on no. 24's figures: values do not fit.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Twelve two-digit runs of nos. 24, 25, 60 transcribed with the faint interlinear letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Interlinear glosses (Ludovic, union, a, n) give anchors; the values rise with the alphabet.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Alphabetical slots fill the table: la ligue, de la defiance du [17], de Chazeron, service read; two no. 24 runs stay open.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Search for fr. 3625 no. 55 across canvases 13-64 and 81-200: not found; no. 10 found at f. 10r with interlinear decipherment.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 78 and fr. 3625 no. 55 open."
+ }
+}

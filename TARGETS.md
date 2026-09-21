@@ -225,6 +225,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **Champagne news-letters → the duc de Nevers, 1590–91** (BnF fr. 3623 nos. 23, 24, 25, 60, 78; fr. 3625 no. 55), catalogue 30, DECODE R9453–R9455, R9459, R9460. Read in part 21 Sept 2026: no. 23 from its bound name key, nos. 24/25/60 from a rebuilt alphabetical two-digit key; no. 78 and Laurière's 9 Jul 1593 letter open. See [champagne1590/](champagne1590/).
 - **Catalogue 10, La Guiche / Noailles / Seure (1551–58)**: La Guiche read in part, Noailles read at the time; Seure open. See [guiche1551/](guiche1551/).
 
 - **Rákóczi letters, 1707–1711** ("Ferenc Rákóczi II to unknown recipient"), catalogue 44, DECODE R483, R852, R912, R922. Three French reports to Rákóczi read (R639 corrected from its image; R852 by its clear copy); R483 (Lwów 1711) key rebuilt from its interlinear. 21 Sept 2026. See `rakoczi1704/`.
