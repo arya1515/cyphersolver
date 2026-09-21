@@ -15,9 +15,9 @@
    "cleartext_in_document": "separate passages",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "no decipherment on the record; read with Tomokiyo's key rebuilt from R10024",
+    "source": "Gayangos & de la Fuente 1875, Cartas de los secretarios XLIX + LIV",
     "partial": true
    },
    "length": {
@@ -60,9 +60,9 @@
  },
  "conditions": {
   "prior_solution": {
-   "exists": "no",
-   "where": "Key published by Tomokiyo (cryptiana spanish2C) from R10024; he notes an endorsement suggesting a nineteenth-century decipherment but prints no reading, and none was found in print (Documentos inéditos 1516-1517 prints only a clear letter of the same day).",
-   "found": "not found",
+   "exists": "in print",
+   "where": "Gayangos & de la Fuente, Cartas de los secretarios del cardenal Cisneros (1875), cartas XLIX and LIV, from the 1849 Simancas decipherment",
+   "found": "after reading",
    "used": false
   },
   "inputs": [
@@ -126,14 +126,27 @@
    "kind": "literature search",
    "what": "R10024 images: 1867 Simancas decipherment bound in; tried PARES for an analogous copy of R9954 (503 error).",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Endorsement read: 'Copiado lo descifrado ... Simancas 14 Ag. 1849'. PARES has no item record; archive.org full text of Cartas de los secretarios (1875) holds the whole letter (XLIX + LIV).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Independent reading compared with the 1875 print: the seven open words settled, about half a dozen other words corrected, otherwise agreement.",
+   "result": "worked"
   }
  ],
  "outcome": {
-  "class": "read",
+  "class": "already solved",
   "fraction_read": 0.98,
   "verification": [
+   "independent clear copy",
    "historical consistency"
   ],
-  "notes": "Read in full but for seven words and a few short gaps after three image passes; key corrections to Tomokiyo's table recorded in NOTES."
+  "notes": "Read independently (about 98%) before finding the 1875 printed decipherment; the print confirms the reading and settles the last seven words."
  }
 }

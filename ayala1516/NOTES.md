@@ -1,6 +1,6 @@
 # Diego López de Ayala (Brussels) to Cardinal Cisneros, 30 August 1516
 
-Status: read (21 Sept 2026; seven words open)
+Status: found already solved: printed 1875 (found after an independent reading, 21 Sept 2026)
 
 - AGS Estado leg. 496 fol. 22, DECODE R9954 (8 images, "Non-decrypted"). Catalogue entry from the DECODE refill, scored by rule.
 - Images (git-ignored, `img/`): DECODE P1 = AGS 0001, a clear page in Spanish. The cipher runs over AGS 0002–0006
@@ -56,3 +56,23 @@ form of "yo", and 0006 l.17 the dotted 6· person sign. A few short gaps "..." r
 hook = j or x (dixo), the dotted ŧ-over-ô = Francia, a curled t variant (Toledo), X· = q inside words (querria, requerile).
 R10024 (the 12 July sibling) carries a Simancas decipherment dated 5 July 1867. The endorsement on R9954 suggests a
 similar 1867 copy, which may be on PARES. PARES returned 503 on 21 Sept, so this is still to check.
+
+## Found in print (21 Sept 2026, after the reading)
+
+The endorsement on the address leaf (AGS 0008, written upside down) reads: "En cifra … pero claro: Título de conde de la
+Gomera a Guillén Peraza" and "Copiado lo descifrado para D. … García. Simancas 14 de Ag[osto] de 1849", with a second
+"Copiado lo descifrado p[ar]a los Sres. …". PARES has no item record for Estado 496/22 (the pares.cultura.gob.es host gave
+503/502 errors; pares.mcu.es works). The Simancas copy was printed in **Gayangos & de la Fuente, *Cartas de los secretarios
+del cardenal D. Fr. Francisco Jiménez de Cisneros durante su regencia* (Madrid 1875)**, archive.org `cartasdelossecre00jime`.
+The edition splits the letter into two numbers. **Carta XLIX** (pp. 213–219, "Bruselas á 30 de Agosto de 1516", cited as
+Estado 496 fol. 318, "descifrada en parte por … Nemesio Ruiz de Alday") holds the clear opening and the cipher on offices,
+Málaga and Arévalo. **Carta LIV** (pp. 238–241, cited as Estado 496 fol. 22 and misdated 1517) holds "la paz se concluyo…"
+to the end. The printed passages are in `lit/printed_XLIX.txt` and `lit/printed_LIV.txt`.
+
+The print settles the seven open words: rabese = **sábese**; the code sign after "gente del" = **emperador**; venavente =
+**Benavente** ("condestable, infantadgo, Benavente"); **engañado**; "diziendo en **quanta perdición** están"; yo ✓; and the
+dotted 6· = Xebres ("**Mos de Xebrés oyó** la creencia"). It also corrects our readings in these places: "el de **lanuça**" (we had
+nu[n]ca), "solo por **tocar** a v. s." (we had otra carta), "después de **oyda**" (we had de mi yda), "**con fe** que me dio" and
+"**con juramento** lo comunicásemos". Apart from these and some spelling normalisation by the editors, our reading agrees with the print.
+
+For the paper: the reading was made without the edition (no contamination). The edition was found afterwards and used only for verification.

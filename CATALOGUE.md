@@ -136,7 +136,7 @@ Feuquières and Catinat); **B** partial key in print (Tomokiyo) or known family;
 
 - **212 — Prince Frederick of Orange (London) to the Hereditary Prince, 7 May 1795, KHA Koning Willem I XVIII-3 (DECODE R2242)**: read in part, 21 Sept 2026, with the R1892 digit-pair key unchanged. See [r2242/](r2242/).
 
-- **201 — Diego López de Ayala (Brussels) to Cardinal Cisneros, 30 Aug 1516, AGS Estado leg. 496 fol. 22 (DECODE R9954)**: read in part, 21 Sept 2026, with Tomokiyo's key from R10024. See [ayala1516/](ayala1516/), removed 21 Sept 2026.
+- **201 — Diego López de Ayala (Brussels) to Cardinal Cisneros, 30 Aug 1516, AGS Estado leg. 496 fol. 22 (DECODE R9954)**: read 21 Sept 2026 with Tomokiyo's key from R10024, then found printed in 1875 (Gayangos & de la Fuente, Cartas de los secretarios, XLIX + LIV). See [ayala1516/](ayala1516/), removed 21 Sept 2026.
 - **202 — Simon Renard (London) to Prince Philip, AGS Estado leg. 808 f. 184 (DECODE R9959)**: found in print, 21 Sept 2026. Read at the time (decipherment filed as no. 21 in the legajo); the Spanish version is calendared in Tyler, CSP Spain XII (1949); cipher = Granvelle-Saint Mauris PP1 (Tomokiyo). See [renard1554/](renard1554/), removed 21 Sept 2026.
 - **197 — Francisco de Vargas (Venice) to Charles V, 25 Aug 1552, AGS Estado leg. 1320 ff. 35–38 (DECODE R9967)**: already read. Deciphered at the time in the margin; Tomokiyo rebuilt the key and found it is the Imperial Cipher of 1544–1554. Nothing new to read. See [vargas1552/](vargas1552/), removed 21 Sept 2026.
 - **65 — Mr. Eichel to unknown recipient, TNA SP 106/7 (DECODE R595)**: explained, 21 Sept 2026. No message: every group is a null under key R596's rules or a blank cell of its table. See [eichel1758/](eichel1758/), removed 21 Sept 2026.
