@@ -269,22 +269,34 @@
    "kind": "literature search",
    "result": "partial",
    "what": "No. 95 re-examined: cryptiana GL.htm says Lasry solved the letter itself in 2022, not just its alphabet. The page and the ranking (novelty 5 to 3) were corrected."
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "result": "worked",
+   "what": "No. 92 ff. 116r-116v transcribed line by line (36 + 11 lines) by eye from 1:1 line strips of the 4155-px scans, against Galende's p. 167 sign alphabet; A5 (⊃#), E5 (q over k), LL (crossed T) and the con- abbreviation identified as frequent signs."
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "result": "partial",
+   "what": "No. 92 read in part (f116_reading.md): the Great Captain's terms for joining Venice against the Turk in 1500 — ports in Italy (Brindisi, Otranto in Apulia held by Venice) for sick, wounded and supplies; about three quarters of words; 11 codes contradict Galende's printed values in context (zie, zap, bog …)."
   }
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.3,
+  "fraction_read": 0.4,
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "No. 5 already solved; no. 92 keyed, text not transcribed; no. 95 about two thirds; nos. 93-94 unread, blocked on BNE MSS 20.211/52. fraction_read 0.3 is an estimate by letter from the notes (no. 5 read in print, no. 95 about two thirds of f. 122r, no. 92 one specimen line, nos. 93-94 none), not a measurement.",
+  "notes": "No. 5 already solved; no. 92 both pages transcribed and about three quarters read (21 Sept 2026); no. 95 about two thirds; nos. 93-94 unread, blocked on BNE MSS 20.211/52. fraction_read 0.3 is an estimate by letter from the notes (no. 5 read in print, no. 95 about two thirds of f. 122r, no. 92 about three quarters, nos. 93-94 none), not a measurement. Raised to 0.4 on 21 Sept 2026 when no. 92 was read.",
   "gaps": [
    {
-    "item": "No. 92 (f. 116r-v), all but one specimen line",
-    "blocker": "not-attempted",
-    "detail": "key proved (Cifra general, 8 glosses, keys/cifra_general.json); the two pages were never transcribed through decode.py"
+    "item": "No. 92 (f. 116r-v), about a quarter of the words",
+    "blocker": "open-codes",
+    "detail": "both pages transcribed and read in part (f116_reading.md); 11 code groups (zie, zap, bog, zer, zeb, zems, xob, bac, vog, xie, bue) contradict Galende's printed values in context; ~10 letter-sign stretches unplaced; needs BRAH 9/15 ff. 7-9 or a higher-magnification sign pass"
    },
    {
     "item": "No. 93 (f. 118r-v), whole letter",

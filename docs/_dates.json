@@ -67,6 +67,7 @@
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
   "giuliano caprile and alfonso cistarelli (eger) to ferrara, 1519–21": "2026-09-21",
+  "gonzalo fernández de córdoba to lorenzo suárez, 17 august 1500 (bnf espagnol 318": "2026-09-21",
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "hellen to frederick ii, 1752–1763": "2026-09-20",
   "henri iv to béthune, 9, 10 and 22 november 1601": "2026-09-17",
@@ -373,7 +374,7 @@
   },
   "esp318": {
    "first": "2026-09-17",
-   "hash": "84be3a00d736",
+   "hash": "beabd23e866c",
    "updated": "2026-09-21"
   },
   "fagel1804": {
@@ -483,7 +484,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "33eb6d11ccad",
+   "hash": "c1ac9359e7e0",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -983,7 +984,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "610fd23e2679",
+   "hash": "ec84a553889f",
    "updated": "2026-09-21"
   },
   "yard1699": {

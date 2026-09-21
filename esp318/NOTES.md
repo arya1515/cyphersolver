@@ -28,7 +28,7 @@ Folio → canvas from the IIIF manifest (`lab2canvas.json`); the volume's own fo
 | no. | ff. | canvases | letter | cipher | state |
 |---|---|---|---|---|---|
 | 5 | 5–6v | 32–35 | Federico III of Naples to the Catholic Monarchs, San Germano, 11 Jan 1497. Italian, partly in cipher | Escrivà's cipher no. 1 (Parisi 2004, app. II) | **solved and printed**, Parisi 2020 |
-| 92 | 116–116v | 440–441 | Gonzalo Fernández de Córdoba to Lorenzo Suárez, 17 Aug 1500; copy sent to Almazán. Spanish, clear and cipher mixed | **Cifra general de los Reyes Católicos** (BRAH 9/15 ff. 7–9; Galende Díaz 1994, app. 1) | **key confirmed here**; text unpublished |
+| 92 | 116–116v | 440–441 | Gonzalo Fernández de Córdoba to Lorenzo Suárez, 17 Aug 1500; copy sent to Almazán. Spanish, clear and cipher mixed | **Cifra general de los Reyes Católicos** (BRAH 9/15 ff. 7–9; Galende Díaz 1994, app. 1) | **read in part here** (21 Sept 2026, `f116_reading.md`) |
 | 93 | 118–118v | 446–447 | Lorenzo Suárez (de Figueroa), ambassador at Venice, to the Catholic Monarchs, Venice, 24 Feb 1504. Wholly in cipher | unidentified; RRCC architecture, code initials c/g/h/l/m/n/p/q/r/t/z | **open** |
 | 94 | 120–121v | 452–455 | The viceroy of Sicily to Ferdinand, Messina, 27 Apr 1503. Spanish, clear and cipher mixed, four pages | unidentified; RRCC architecture, code initials g/l/m/n/p/r/v/z | **open** |
 | 95 | 122–122v | 458–459 | Unaddressed cipher, 8 Jan 1497. Wholly in cipher, scriptio continua | alphabet reconstructed by G. Lasry, 2022 | key published, text unpublished |
@@ -94,6 +94,29 @@ the codes, and below it the inventory mark "Inventº 11 Ottº 53".
 The key is transcribed here as `keys/cifra_general.txt` / `.json`: 683 code groups from Galende Díaz's plates
 (pp. 167–173), plus the twenty-one personal symbols (Papa = A, Emperador = B, Rey de Françia = F, Rey de Spanya = G,
 Rey de Napoles = □, Don Fadrique prinçipe de Altamira = S†, …). `decode.py` applies it to a transcription.
+
+## No. 92 — both pages transcribed and read in part (21 Sept 2026)
+
+Both pages were transcribed line by line (36 lines on f. 116r, 11 on f. 116v) with the sign alphabet Galende prints on
+p. 167 (`lit/gal/p09.png`) and the code list; the transcription and a line-by-line reading are in `f116_reading.md`.
+Three things the specimen line had not shown: the fifth form of A (`⊃#`) and the fifth form of E (q with k below) are
+the commonest vowel signs; the crossed T is the key's *duplicate* LL (*vituallas*, *Pulla*, *llamó*); and the clear
+hand's *con-* abbreviation (ꝯ) is used inside the cipher (*contenté con el*, *con color de*).
+
+The letter is the Great Captain's answer to Suárez's request, on the Pope's and Venice's behalf, that he take the
+fleet against the Turk (the Cephalonia campaign of autumn 1500). He will go, but at a price: *no deve pasar … si no
+grande remuneración*; the business is *en tanto peligro … e a tanto lexos*; Venice holds *Brindizi y Otranto* in
+*Pulla*, and he asks for *puertos de Italia donde esta armada se pueda recoger quando el tiempo lo requiriese, por no
+aver de bolver tan lexos*, to land *nuestros dolientes y heridos y ropa e vituallas* and refit the ships *sin los
+ynconvenientes de estar en casas agenas*. He had asked the same through Garcilaso when the Pope called him, and got it,
+the castellans being *españoles y criados del Rey*. Suárez is to raise it *con color de nuestro descanso y reparo*.
+Verso: *segund su necesidad no creo que nada desto les sea ynposible*; the ambassador of Venice at Naples has offered
+it; *yo me desnudo y descargo*.
+
+Open: the codes `zie` (×5), `zap` (×3), `bog` (×3), `zer`, `zeb`, `zems`, `xob`, `bac`, `vog`, `xie`, `bue` do not fit
+Galende's printed values in context, so either his plates carry misprints there or the hand uses a variant; about a
+quarter of the letter-sign stretches are unresolved (list in `f116_reading.md`, Open points). About three quarters of
+the words read.
 
 ## Nos. 93 and 94 — what they are
 
@@ -237,7 +260,7 @@ lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is ne
 
 ## Remaining gaps
 
-- No. 92 (f. 116r-v), all but one specimen line - blocker: not-attempted; key proved (Cifra general, 8 glosses, keys/cifra_general.json); the two pages were never transcribed through decode.py
+- No. 92 (f. 116r-v), about a quarter of the words - blocker: open-codes; both pages transcribed and read in part (f116_reading.md); 11 code groups (zie, zap, bog, zer, zeb, zems, xob, bac, vog, xie, bue) contradict Galende's printed values in context, and ~10 letter-sign stretches are unplaced; needs BRAH 9/15 ff. 7-9 itself or a higher-magnification sign pass
 - No. 93 (f. 118r-v), whole letter - blocker: no-key-material; CVC nomenclator with atomic groups (homophonic anneal on ct93_eye.txt failed, -3.5 vs -1.8 nats); the suspected Gran cifra key survives only as Bergenroth's partial list (BNE MSS 20.211/52)
 - No. 94 (ff. 120r-121v), whole letter - blocker: not-attempted; never transcribed; Bergenroth's Gran-cifra list not tested against it (next steps 1-2 in the notes)
 - No. 95 f. 122r, about a third of the glyphs - blocker: illegible; eye, cluster-hybrid and tiling readings agree on the same two thirds; touching signs at 4100 px full resolution; the line-by-line correction walk is still to do
@@ -250,4 +273,4 @@ lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is ne
 - [ ] known-keys: not done — Escriva no. 1 and the Cifra general were excluded for 93/94 by code-initial range only; Bergenroth's Gran-cifra list (BNE MSS 20.211/52 photographs in lit/) and the unpublished 'Cifra del visorrey' (BRAH 9/15 ff. 1-6) not tested against a transcription of no. 94
 - [x] print: Parisi 2004 and 2020, Galende Diaz 1994, Tomokiyo's Spanish-cipher and Lasry pages, Quirantes 2018
 - [ ] key-rebuild: not done — a solver that treats the CVC groups of 93/94 as unknown words while annealing the sign alphabet against Spanish (named in the notes as the next tool) was not built
-- [ ] retry: not done — correct f122r_local2_keyed.txt line by line against ov/R95_*.png, run the templates over f. 122v, and decode no. 92 in full with keys/cifra_general
+- [ ] retry: not done — correct f122r_local2_keyed.txt line by line against ov/R95_*.png, run the templates over f. 122v, (no. 92 done 21 Sept 2026: both pages transcribed and read in part)
