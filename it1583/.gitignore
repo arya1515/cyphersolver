@@ -1,0 +1,9 @@
+*.png
+*.jpg
+*.pdf
+keys/
+sib/
+rec.htm
+sforza_views.jsonl
+views_summary.txt
+dump_list.py

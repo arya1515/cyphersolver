@@ -1,0 +1,168 @@
+{
+ "schema_version": 1,
+ "target": "it1583",
+ "title": "Sforza side to Giorgio (Zorzo) del Maino, reply, 4 May 1446 (BnF italien 1583 f. 68; DECODE R7898)",
+ "documents": [
+  {
+   "id": "R7898",
+   "shelfmark": "BnF italien 1583 f. 68 (Archivio Sforzesco); DECODE R7898",
+   "date": "4 May 1446",
+   "year": 1446,
+   "country": "Milan / Francesco Sforza",
+   "route": "Sforza's camp or chancery -> Giorgio del Maino (probably at Milan)",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the slip or on DECODE; Mazzatinti 1883 gives only the heading 'Risposta a quanto ha riferito Zorzo Maino (4 maggio). In cifre.'"
+   },
+   "length": {
+    "tokens": 404,
+    "distinct": 26,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f68_signs.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE image IMG_R7898_I35637_P.png (binarized scan, slip c. 1850 px wide)",
+    "image_quality": "poor",
+    "notes": "Draft only: diacritic variants (dotted c, d with apostrophe, barred g) merged; several signs uncertain. Clear Lombard Italian between the cipher runs."
+   }
+  },
+  {
+   "id": "f70",
+   "shelfmark": "BnF italien 1583 f. 70; imaged in DECODE R7899 (image P1, the slip at top right)",
+   "date": "4 May 1446",
+   "year": 1446,
+   "country": "Milan / Francesco Sforza",
+   "route": "Vincenzo Amidani (Milan) -> Francesco Sforza",
+   "language": "Italian",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment; Mazzatinti: 'Lettera di Vincenzo Amidani a Fr. Sforza (Milano 4 maggio). In cifre.'"
+   },
+   "length": {
+    "tokens": 390,
+    "distinct": 31,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f70_signs.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE image IMG_R7899_I35638_P1.png",
+    "image_quality": "fair",
+    "notes": "Draft only; a different hand with the same sign family as f. 68; sign equivalences between the two hands not certain."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Graphic-sign cipher of the Sforza chancery type: letter signs with homophones, probably signs for vowel+consonant syllables, word signs and nulls (inferred from the related Simonetta-Amidani key, ASMi Sforzesco 1597 no. 14). The actual key is not found.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": 26,
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "unknown"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "Mazzatinti's 1883 inventory lists it as 'in cifre' with no reading; no edition or decipherment found",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Selected the target; the DECODE session cookie was supplied earlier.",
+  "tools": [
+   "DECODE authenticated image and API download",
+   "archive.org full text (Archivio storico lombardo 1883)",
+   "lang/ it-cinquecento n-gram model",
+   "simulated annealing"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Downloaded the DECODE R7898 image with the saved cookie; dated in clear M cccc xlvj die iiij may (4 May 1446), mixed clear Lombard Italian and graphic cipher.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Mazzatinti's inventory of BnF ital. 1583-1593 (Archivio storico lombardo X, 1883): f. 68 = reply to what Zorzo Maino reported, in cipher; f. 70 = Vincenzo Amidani to Sforza, Milan 4 May, in cipher. No reading printed.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Draft transcription of f. 68: 404 signs, 26 types after merging diacritic variants.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Homophonic annealing with it-cinquecento, clear text as context: unconstrained, capped homophones, nulls allowed, then one-to-one swaps (solver verified on a 400-letter synthetic cipher). All nonsense or degenerate.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Word-pattern search on repeats (FpBHcdSp x2, 8zBprJFp x2, xJpg x4): FpBHcdSp fits 'uisconti' but the other repeats contradict that key.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Found f. 70 (Amidani, same day, same sign family) on DECODE R7899 image P1; transcribed 390 signs; annealing on it alone also gives nonsense.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Downloaded all 208 Sforza key records on DECODE (ASMi Carteggio Sforzesco cart. 1591, 1597, 1598) and scanned them at thumbnail size; read the headings and alphabets of the 15th-c. copies (cart. 1597 nos. 2-36). 1597 no. 14 (18th-c. copy, 'Angelus cum cifra Vincentij', shared with Stavoli, Augustinus, Baptista, Matheus, Vincentius) is the same family: homophones, vowel+consonant syllable signs, word signs (de = cross-circle, ot = divide sign), nulls. Its letter signs do not match the frequent signs of f. 68 or f. 70. 1597 no. 17 (1447, Sforza's envoys to Alfonso) does not match either.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Closed unread. Syllabic Sforza-type system on a binarized scan; needs the 1446 Maino key or a better image and a sign-exact transcription."
+ }
+}

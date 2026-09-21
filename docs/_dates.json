@@ -131,6 +131,7 @@
   "schaeblin to mr jones, the hague, 16 jan 1753": "2026-09-21",
   "schmeh’s top 50": "2026-09-15",
   "scorpion letters, 1991": "2026-09-15",
+  "sforza side to zorzo maino, 4 may 1446": "2026-09-21",
   "sir henry norreys to cecil, paris, 1567–68 (decode r9251)": "2026-09-21",
   "sir henry percy to cecil, norham, 23 july 1559": "2026-09-21",
   "sir nicholas throckmorton to the regent moray, 20 july 1569": "2026-09-21",
@@ -278,7 +279,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "1076354a941f",
+   "hash": "5d37060c2d03",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -468,7 +469,12 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "a231a106178b",
+   "hash": "1f1b84a99542",
+   "updated": "2026-09-21"
+  },
+  "it1583": {
+   "first": "2026-09-21",
+   "hash": "c84f9f87deae",
    "updated": "2026-09-21"
   },
   "jones1753": {
@@ -953,7 +959,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "65e5fde83ae0",
+   "hash": "102492be7ce9",
    "updated": "2026-09-21"
   },
   "yard1699": {

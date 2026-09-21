@@ -3306,7 +3306,7 @@
    "counted": false,
    "year": null,
    "date": "undated",
-   "title": "Unknown sender to unknown recipient",
+   "title": "Sforza side to Zorzo (Giorgio) del Maino, reply of 4 May 1446",
    "correspondents": "Unknown sender → unknown recipient",
    "place": "Paris",
    "language": "unknown",
@@ -3315,7 +3315,7 @@
    "shelfmark": "BnF, italien 1583, f 68",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R7898: Non-decrypted, 1 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the Archive.",
+   "status": "DECODE R7898, BnF ital. 1583 f. 68 = Sforza side’s reply to Zorzo Maino, 4 May 1446 (Mazzatinti 1883). Attempted 21 Sept 2026: transcribed with the same-day f. 70 (Amidani, on R7899); syllabic Sforza-type cipher, no matching key among DECODE’s Sforza keys. See it1583/.",
    "why": "Ciphered letter of Unknown sender to unknown recipient; what the cipher hides is not known.",
    "importance": 1,
    "solvability": 1,
@@ -3334,7 +3334,8 @@
    "decode_ids": [
     7898
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 193,

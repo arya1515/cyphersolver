@@ -4184,6 +4184,30 @@
      "reading_not_needed": true
     }
    }
+  },
+  "it1583": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/it1583.html",
+   "key": {
+    "decode": "none: no key found (metadata correction only)"
+   },
+   "cite": "G. Mazzatinti, Archivio storico lombardo X (1883), p. 230",
+   "fields": {
+    "date": "1446-05-04",
+    "author": "Francesco Sforza's chancery (reply to Giorgio del Maino)",
+    "receiver": "Giorgio (Zorzo) del Maino",
+    "cleartext_lang": "Italian",
+    "plaintext_lang": "Italian"
+   },
+   "records": {
+    "R7898": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "BnF ital. 1583 f. 68 = 'Risposta a quanto ha riferito Zorzo Maino (4 maggio). In cifre' (Mazzatinti 1883); dated in clear M cccc xlvj die iiij may; clear Lombard Italian with graphic cipher; not read, no key found.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
