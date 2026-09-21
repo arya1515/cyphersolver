@@ -79,6 +79,7 @@
   "kauderbach from the hague to dresden, 1754–56": "2026-09-19",
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
+  "la guiche (rome) to montmorency, 22 november 1551": "2026-09-21",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "letters to and from ferenc rákóczi ii, 1707–1711": "2026-09-21",
@@ -247,7 +248,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "640963b8484b",
+   "hash": "e1c3117e4585",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -360,6 +361,11 @@
    "hash": "a6c596c4d074",
    "updated": "2026-09-21"
   },
+  "guiche1551": {
+   "first": "2026-09-21",
+   "hash": "8c75d7c42536",
+   "updated": "2026-09-21"
+  },
   "haga1620": {
    "first": "2026-09-21",
    "hash": "a90c0c29e7e1",
@@ -422,7 +428,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "24f9d3c06317",
+   "hash": "7e778206e528",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -847,7 +853,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "51bc6d62ee68",
+   "hash": "59a86f18f238",
    "updated": "2026-09-21"
   },
   "yard1699": {
