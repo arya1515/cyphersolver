@@ -38,6 +38,7 @@
   "henri iv to savary de brèves, ambassador at constantinople, 1603": "2026-09-18",
   "henry of navarre to ségur, 1585–86": "2026-09-16",
   "herbault to béthune, 13 february 1626": "2026-09-18",
+  "intercepts summarised for the duc de nevers, september–october 1589": "2026-09-20",
   "jean du bellay to montmorency, london, 1528–29": "2026-09-17",
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "koehler cryptograms, 1944": "2026-09-15",
@@ -110,8 +111,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ed1502640d60",
-   "updated": "2026-09-18"
+   "hash": "52cdf3b6ee0d",
+   "updated": "2026-09-20"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -200,8 +201,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "62f85d19bc7c",
-   "updated": "2026-09-18"
+   "hash": "3f201df408d4",
+   "updated": "2026-09-20"
   },
   "lanssac": {
    "first": "2026-09-17",
@@ -237,6 +238,11 @@
    "first": "2026-09-17",
    "hash": "30ad92dfe08a",
    "updated": "2026-09-17"
+  },
+  "nevers1589": {
+   "first": "2026-09-20",
+   "hash": "d57868b5e75f",
+   "updated": "2026-09-20"
   },
   "nevers1593": {
    "first": "2026-09-17",
@@ -370,8 +376,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a8cff511e983",
-   "updated": "2026-09-18"
+   "hash": "7adcb99a5754",
+   "updated": "2026-09-20"
   },
   "yard1699": {
    "first": "2026-09-18",
