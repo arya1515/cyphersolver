@@ -1,6 +1,35 @@
 # Pallotto to Barberini, 1629 — ciphered despatches of the nuncio at Vienna
 
-Status: read (content recovered from the printed decipherment); key not recovered
+Status: read — contents in print (Kiewning 1897); key = the Biermann–Bosbach key of Barb.lat. 6956 (DECODE R215, 2018), identified for 6960 by George Lasry
+
+## Update, 21 Sept 2026: the key exists, and it is the 6956 key
+
+George Lasry wrote (relayed by Daniel): *"Barberiniani Latini 6960 uses the same key as Barberiniani Latini 6956
+(which was found by Norbert Biermann and Thomas Bosbach) — I found this years ago, but the DECODE DB was never
+updated."* Checked and confirmed.
+
+* The key is filed on **DECODE R215** (Barb.lat. 6956, first sheet) as documents, not as a key record, which is why
+  the metadata harvest never saw it: `DOC_R215_D1506` (Biermann's key, March 2018), `D1507` (Bosbach's), `D1508`
+  (merged), `D1505` (a codebreaker.py decryption of R215). Copies in `key6956/`.
+* The system: **two-digit homophones** for letters (a = 00/02/20, e = 09/30/90, i = 05/40/50, o = 03/07/70 …),
+  two-digit groups for syllables and short words (47 che, 52 con, 57 per, 69 di, 73 la …), **three-digit
+  nomenclator groups 200–999** for names and titles (360 Duca di Mantova, 460 Imperatore, 670 Sua Maestà …), and
+  the digits **1 and 8 as nulls / word separators**. Doubles are often written once (33 = d or dd).
+* Applied to DECODE's transcriptions of all 28 ciphertexts by DP segmentation (`key6956/apply.py`; output
+  `key6956/decrypt_6960.txt`, unedited). R286 opens **"ho riceuto la risposta datami in scritto …"** — Kiewning
+  Nr. 153 word for word — and every record decodes to running Italian. About 2,000 nomenclator groups resolve from
+  the key; **about 1,750 three-digit groups are not in the 6956 key** and stay open (they could be filled from
+  Kiewning's text, not done here), and ~200 digits fit no code (transcription slips).
+
+**What this does to the analysis below.** The measurements stand; the conclusion drawn from them did not go far
+enough. §5's "deterministic groups of varying length" was right, and it is exactly this key: one-digit nulls,
+two-digit homophones and three-digit groups in one contiguous stream, so every fixed-width alignment slipped phase
+at the first null or nomenclator group — which is why the crib run died at letter 28 and the corpus search found
+nothing. **The key was not recovered by this project.** It was recovered in 2018 by Biermann and Bosbach for
+6956, and matched to 6960 by Lasry; DECODE still lists R286–R313 as "Non-decrypted".
+
+The sibling volume 6956 (catalogue 236, DECODE R215–R285, R318) is therefore also solved by others (R215–R225
+are marked "Partially decrypted" on DECODE) and was removed from the catalogue.
 
 BAV, Barb.lat. 6960 — 28 ciphered passages in the register of Monsignor Giovanni Battista Pallotto,
 archbishop of Thessalonica, nuncio to the Emperor, 4 August – 29 November 1629.
@@ -305,5 +334,6 @@ and clustering, as used for the Sormano and Gramont leaves — is the tool to bu
 ## Next
 
 The sibling volume, **BAV Barb.lat. 6956** (catalogue entry 236, DECODE R215-R318, seventy ciphered
-sheets of the same nunciature for 1628), is still open. Kiewning's **Band 1, Nuntiatur des Pallotto 1628**
+sheets of the same nunciature for 1628), was broken by Biermann and Bosbach in 2018 (key on DECODE R215); see the
+update at the top. Open here: the ~1,750 three-digit groups of 6960 missing from that key. Kiewning's **Band 1, Nuntiatur des Pallotto 1628**
 (Berlin 1895) covers exactly those months and is the first place to look. Not checked here.

@@ -1,0 +1,119 @@
+#Biblioteca Apostolica Vaticana-Barb.lat.6956/1
+#Cipher broken by Norbert Biermann <norbert.biermann@onlinehome.de>
+#March 2018
+#homophonic with nomenclature
+#Double letters are frequently enciphered only once, especially if there is only one codegroup available, e.g. dd = 33, ff = 44 etc.
+
+#Key
+00 a
+02 a
+20 a
+24 b
+34 b
+32 c
+42 c
+33 d|dd
+09 e
+30 e
+90 e
+44 f|ff
+99 g
+55 h
+05 i
+40 i
+50 i
+66 l
+77 m
+29 n
+39 n
+03 o
+07 o
+70 o
+22 p
+27 qu
+36 r
+46 r
+23 s
+43 s
+25 t
+35 t
+04 u
+06 u
+60 u
+45 x
+26 z
+37 gli
+47 che
+49 chi
+52 con
+53 non
+54 dal
+56 del
+57 per
+59 nel
+62 ma
+63 mi
+64 se
+65 si
+67 da
+69 di
+72 al
+73 la
+74 le
+75 lo
+76 il
+79 et
+92 St
+93 to
+94 io
+95 ne
+96 no
+97 in
+200 Commissario Imperiale
+202 consiglio, -gli
+232 Ambassatore di Spagna(?)
+293 Conte
+299 commissario
+340 Casale
+354 duca
+360 Duca di Mantoua
+369 Duca di Niuers
+376 diligenza
+422 Francia
+436 Germania
+437 guerra
+460 Imperatore
+470 impresa
+474 Italia
+497 ? 
+502 Marchese
+504 Mantoua
+520 munitione|munizione
+522 Monsignore
+534 Morauia
+545 negoziazione(?)
+567 ordinazione
+569 ordine
+577 p... (principe?)
+606 Praga
+623 possesso
+633 prouincia(-e)
+635 Re
+643 Re d'llngheria
+652 ?
+670 Sua Maiestå672 Sua Maiestå Cesarea675 Sua Altezza692 Signor(?)696 Sauoia732 anche(?)1733 ancora1737 come740 essere747 hauere749 hauendo753 molto?
+755 -mente | -menti
+763 perö
+766 perché
+767 quale
+769 qualche
+772 quando
+776 quanto
+774 quello
+775 questo, -a, -i
+793 Signor Ghibellino(?) Gran..
+923 Stato Cattolico
+926 Spagn[u]olo, -i
+996 ?
+
+

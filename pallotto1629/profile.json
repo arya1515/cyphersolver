@@ -792,14 +792,13 @@
  ],
  "system": {
   "types": [
-   "code",
-   "nomenclator",
-   "undetermined"
+   "homophonic",
+   "nomenclator"
   ],
-  "summary": "Numeric cipher written as an unbroken digit stream, with deterministic variable-length code groups (39 repeated 24-digit strings where chance gives none, which excludes real homophony); the group width could not be established and the key was not recovered.",
+  "summary": "Two-digit homophonic substitution with syllable and common-word groups, three-digit nomenclator groups (200-999) for names and titles, and the digits 1 and 8 as nulls/word separators, written as a contiguous digit stream; the same key as Barb.lat. 6956 (1628), broken by Norbert Biermann and Thomas Bosbach in 2018.",
   "symbol_kind": "digits",
   "digit_groups": {
-   "width": "unknown",
+   "width": "1-3",
    "separation": "contiguous"
   },
   "distinct_symbols": 10,
@@ -808,47 +807,63 @@
    "note": "None recorded by the DECODE transcribers, and none seen on DECODE's 1491x2066 scan of p. 5."
   },
   "homophones": {
-   "used": false
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 2
   },
   "nomenclator": {
-   "present": true
+   "present": true,
+   "entries": 127,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": 1750
   },
   "nulls": {
-   "present": false
+   "present": true,
+   "count": 2
   },
-  "key_order": "unknown",
-  "word_division": "none",
-  "notes": "112,805 digits over the 28 ciphertexts. Digit frequencies are uneven (0 = 16.1%, 4 = 4.8%) and adjacent digits carry ~0.18 bits of mutual information, so the stream is structured. No phase preference was found for two-digit codes (IC 0.01462 at phase 0 vs 0.01466 at phase 1; even- and odd-position digit distributions agree to 0.2%) or for three-digit codes - though that phase test is inconclusive on its own, since ~1.7% digit slips randomise the phase; the calibrated corpus search is the sound version of the claim. distinct_symbols is the digit alphabet, not the key's code groups, which are unknown. A run-length control puts the longest consistent two-digit alignment to the known plaintext at 39 letters against a chance baseline of 36-39, where a synthetic two-digit cipher at the same transcription noise gives 207 - so the stream is not a two-digit substitution of that plaintext."
+  "key_order": "partly alphabetical",
+  "word_division": "separator symbol",
+  "notes": "112,805 digits over the 28 ciphertexts. Digit frequencies are uneven (0 = 16.1%, 4 = 4.8%) and adjacent digits carry ~0.18 bits of mutual information, so the stream is structured. No phase preference was found for two-digit codes (IC 0.01462 at phase 0 vs 0.01466 at phase 1; even- and odd-position digit distributions agree to 0.2%) or for three-digit codes - though that phase test is inconclusive on its own, since ~1.7% digit slips randomise the phase; the calibrated corpus search is the sound version of the claim. distinct_symbols is the digit alphabet, not the key's code groups, which are unknown. A run-length control puts the longest consistent two-digit alignment to the known plaintext at 39 letters against a chance baseline of 36-39, where a synthetic two-digit cipher at the same transcription noise gives 207 - so the stream is not a two-digit substitution of that plaintext. CORRECTION 21 Sept 2026: the variable-length diagnosis was right, the rest of the system was not identified here. The key (sibling, 6956) mixes two-digit homophones, three-digit nomenclator groups and one-digit nulls 1/8, which is why every fixed-width test failed and why the repeat spectrum showed deterministic variable-length groups. distinct_symbols stays the digit alphabet; the key has ~127 known entries.",
+  "doubled_letters": "written once (Biermann: dd = 33, ff = 44)",
+  "sibling_key": "Barb.lat. 6956 (1628), key recovered by Norbert Biermann and Thomas Bosbach, March 2018, filed on DECODE R215 (DOC_R215_D1506/D1507/D1508). George Lasry identified years ago that 6960 uses the same key; DECODE was never updated. Applied here 21 Sept 2026: it reads 6960."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "in print",
-   "where": "Hans Kiewning (ed.), Nuntiaturberichte aus Deutschland nebst ergaenzenden Aktenstuecken IV/2, Nuntiatur des Pallotto 1628-1630, Bd. 2: 1629 (Berlin 1897); archive.org item 4-2_20200807. Prints the contemporary Roman decipherments, headed 'dechiffr.', from ASV Nunz. di Germania 119.",
+   "exists": "online",
+   "where": "Contents: Kiewning 1897 (Nuntiatur des Pallotto, Bd. 2), from the Roman decipherments. Key: Biermann and Bosbach 2018 for the sibling Barb.lat. 6956, on DECODE R215; George Lasry had found that 6960 uses the same key (told to the project 21 Sept 2026).",
    "found": "during attempt",
    "used": true
   },
   "inputs": [
-   "images",
-   "transcription",
    "cleartext context",
+   "crib",
+   "images",
    "published reading",
-   "crib"
+   "sibling key",
+   "transcription"
   ],
   "attack": "crib",
-  "human_role": "set the target; nothing else",
+  "human_role": "set the target; on 21 Sept 2026 relayed George Lasry's note that 6960 uses the 6956 key of Biermann and Bosbach",
   "tools": [
    "banded DP crib aligner (align2.py, align3.py, align4.py, soft.py, walk.py, syll.py)",
    "fixed-multiset simulated annealing homophonic solver (hill2.py)",
    "space-free Italian 5-gram model built here from lang/corpora it-renaissance + it-gutenberg (12.0M chars, it_clean5.npy)",
    "DigiVatLib IIIF",
-   "DECODE JSON API and filesrv"
+   "DECODE JSON API and filesrv",
+   "DP segmentation with the 6956 key (key6956/apply.py)"
   ],
   "models": [
    "claude-opus-5[1m]"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-20",
-  "last_date": "2026-09-20"
+  "last_date": "2026-09-21"
  },
  "solution": [
   {
@@ -970,15 +985,28 @@
    "kind": "reading",
    "what": "Content of the despatches recovered from Kiewning's printed contemporary decipherment, not from the cipher: Pallotto's mediation between the Emperor and the French envoy Sabran over the Mantuan succession, Casale, Susa and the Grisons passes, Aug-Nov 1629.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "George Lasry reported (via Daniel) that Barb.lat. 6960 uses the same key as Barb.lat. 6956, broken by Norbert Biermann and Thomas Bosbach. Their keys and a sample decryption were found as files on DECODE R215 (D1505 decryption, D1506 Biermann key, D1507 Bosbach key, D1508 merged key, March 2018): two-digit homophones, three-digit nomenclator, nulls 1 and 8.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Applied the merged 6956 key to DECODE's transcriptions of all 28 6960 ciphertexts by DP segmentation (nulls 1/8, two-digit codes, three-digit groups). R286 opens 'ho riceuto la risposta datami in scritto', Kiewning Nr. 153 verbatim; running Italian throughout. About 2,000 nomenclator groups resolve from the key; about 1,750 three-digit groups are not in it and stay open. Output in key6956/decrypt_6960.txt, unedited.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "already solved",
   "verification": [
    "contemporary decipherment",
-   "independent clear copy",
+   "key confirms",
    "historical consistency"
   ],
-  "notes": "The catalogue said 'what the cipher hides is not known'; it is known, and has been in print since 1897, from the Roman office's own decipherments. The cipher itself was not broken here and no partial key is claimed: a held-out test shows the table learned from R286 predicts unseen text no better than a shuffled control (0.355 vs 0.359), so the 55% consistency of the first pass was overfitting. A positive control on synthetic ciphertext recovers a random key 100/100 from a clean transcription, 87/100 at 0.5% digit error and 7/100 at 1.7%, so the method is sound and the limit is the transcription. Two explanations remain open and cannot be separated from this material: length errors in the transcription, or the cipher not being a fixed-width substitution of this plaintext. The run-length control then settled that: the longest consistent two-digit run is 39 letters against a chance baseline of 36-39 (synthetic at the same noise: 207), so there is no alignment signal and noise is not a sufficient explanation. R286 is not a two-digit homophonic encipherment of Kiewning's Nr. 153. Open: whether the code width differs, whether the sheet encodes another despatch or a materially different wording, or whether the system is nomenclator-heavy or variable-length. A corpus search over all 1,161,303 letters of the edition then closed the first two: at widths 2, 3 and 4 no window of R286, R292, R306 or R311 enciphers any text printed in the volume, against a calibrated expectation of ~8 zero-false-positive hits on R286 alone. What survives is either a variable-length nomenclator, or text that is not in print because Kiewning gives it only as German regest."
+  "notes": "Contents in print since 1897 (Kiewning). The key was not recovered by this project: every attack here failed. It is the key of the sibling volume Barb.lat. 6956, broken by Biermann and Bosbach in 2018 and on DECODE R215; George Lasry had identified that it also serves 6960. Applied 21 Sept 2026, it reads all 28 ciphertexts except ~1,750 three-digit nomenclator groups absent from the key. The earlier finding of deterministic variable-length groups stands and is explained by the key (2-digit + 3-digit + 1-digit nulls). The catalogue said 'what the cipher hides is not known'; it is known, and has been in print since 1897, from the Roman office's own decipherments. The cipher itself was not broken here and no partial key is claimed: a held-out test shows the table learned from R286 predicts unseen text no better than a shuffled control (0.355 vs 0.359), so the 55% consistency of the first pass was overfitting. A positive control on synthetic ciphertext recovers a random key 100/100 from a clean transcription, 87/100 at 0.5% digit error and 7/100 at 1.7%, so the method is sound and the limit is the transcription. Two explanations remain open and cannot be separated from this material: length errors in the transcription, or the cipher not being a fixed-width substitution of this plaintext. The run-length control then settled that: the longest consistent two-digit run is 39 letters against a chance baseline of 36-39 (synthetic at the same noise: 207), so there is no alignment signal and noise is not a sufficient explanation. R286 is not a two-digit homophonic encipherment of Kiewning's Nr. 153. Open: whether the code width differs, whether the sheet encodes another despatch or a materially different wording, or whether the system is nomenclator-heavy or variable-length. A corpus search over all 1,161,303 letters of the edition then closed the first two: at widths 2, 3 and 4 no window of R286, R292, R306 or R311 enciphers any text printed in the volume, against a calibrated expectation of ~8 zero-false-positive hits on R286 alone. What survives is either a variable-length nomenclator, or text that is not in print because Kiewning gives it only as German regest.",
+  "fraction_read": 0.95
  }
 }

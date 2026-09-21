@@ -80,6 +80,7 @@
   "nicolas raince to montmorency, rome, 13 may and 20 november 1526": "2026-09-17",
   "nicolò sadoleto to ercole i d’este, pozsony, july–november 1482": "2026-09-19",
   "nuncio acciaiuoli from lisbon, 1758–60": "2026-09-19",
+  "pallotto to barberini, 1629: the key was already found": "2026-09-21",
   "pallotto to barberini, 4 august – 29 november 1629": "2026-09-20",
   "pelissier to jeannin, burgos, 13 september 1592": "2026-09-18",
   "pelissier to jeannin, burgos, 13 september 1592: read": "2026-09-18",
@@ -191,7 +192,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "cdffb7b8fe69",
+   "hash": "9290317d4c26",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -321,7 +322,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "6da430ab084c",
+   "hash": "8a35cfada30c",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -431,8 +432,8 @@
   },
   "pallotto1629": {
    "first": "2026-09-20",
-   "hash": "42ef35db1e34",
-   "updated": "2026-09-20"
+   "hash": "4a989407cd46",
+   "updated": "2026-09-21"
   },
   "pelissier1592": {
    "first": "2026-09-18",
@@ -611,7 +612,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a9aba12e50df",
+   "hash": "6cdae9006202",
    "updated": "2026-09-21"
   },
   "yard1699": {

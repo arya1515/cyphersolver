@@ -48,8 +48,9 @@ before the tables are merged. Where they would fall: Lanssac between Feuquières
 the other four between Warsaw and Boswell, and Rennes 1563 (p42) beside Miranda/Sessa.
 
 Not ranked: **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, BAV Barb.lat. 6960, 1629 (catalogue 237). Its contents were
-identified in Kiewning's 1897 edition and confirmed against the register, but no cipher was broken and no key
-recovered, so there is nothing to score on these axes. See [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) §4 and
+identified in Kiewning's 1897 edition and confirmed against the register. The key was found by others: it is the
+Biermann–Bosbach key of Barb.lat. 6956 (2018, DECODE R215), which George Lasry matched to 6960. So there is no break
+of this project's to score on these axes. See [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) §4 and
 [pallotto1629/](pallotto1629/).
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |

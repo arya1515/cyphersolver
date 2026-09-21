@@ -236,16 +236,11 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 - **Charles of Egmond → grand master of France**, catalogue 28, BnF fr. 3015 no. 8 — body, both insertions and address read, 20 Sept 2026; Arnhem, apparently 18 July, no year. Minor glyph uncertainties retained; no independent key or clear copy. [Write-up](https://dbourdeau.github.io/cyphersolver/egmond.html).
 
 - **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, catalogue 237, BAV Barb.lat. 6960, DECODE R286–R313 — contents found
-  in print, 20 Sept 2026. Kiewning's *Nuntiatur des Pallotto*, Bd. 2 (1897) prints the despatches from the Roman
-  office's own decipherments; confirmed against the register's clear pages. The cipher itself is not broken, the key is not
-  recovered and no partial key is claimed; calibrated controls rule out every fixed-width hypothesis: a search of
-  all 1,161,303 letters of the edition finds no window of four ciphertexts enciphering anything in print at
-  width 2, 3 or 4. One positive finding identifies the system: 39 repeated 24-digit
-  strings where chance gives none — a code with deterministic variable-length groups, not a homophonic
-  cipher. Most of the despatches are mixed letters with short ciphered clauses inside clear Italian, and five
-  carry a decipherment written on the page: that is the crib source the next attempt should use.
-  The sibling volume Barb.lat. 6956 (1628, catalogue 236) stays open. See
-  [pallotto1629/](pallotto1629/).
+  in print, 20 Sept 2026 (Kiewning, *Nuntiatur des Pallotto*, Bd. 2, 1897, from the Roman decipherments). Key found by
+  others, 21 Sept 2026: George Lasry had identified 6960's key as the one Norbert Biermann and Thomas Bosbach broke
+  in 2018 for the sibling Barb.lat. 6956 (on DECODE R215). Applied here, it reads all 28 records apart from ~1,750
+  nomenclator groups missing from that key. The project's own attacks failed. The sibling 6956 (catalogue 236) is
+  solved by others and was removed. See [pallotto1629/](pallotto1629/).
 
 - **Nicholas Throckmorton, Add MS 4136, twenty records (catalogue 88)** — prior printed counterparts found; R9262 verified on 42 tokens, 20 Sept 2026. See [result](throckmorton/RESULT.md). This excludes the still-open R2988 margin and R2989 John Wod material.
 
