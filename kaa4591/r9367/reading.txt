@@ -1,0 +1,39 @@
+R9367, letter of 22 March 1535 (son to father), reading with key R9423 block 2_4 ("H. Wilh. [15]25", keys9423/2_4_zoom.txt)
+Clear German in |bars| (rough, from transcription.txt); cipher decoded in {braces}. ? = doubtful, _ = unread sign,
+[#] = open sign (triple-barred cross), (c) = sign ♀ (Q), elsewhere a null. Nulls (dropped): ⊡ (D), ≈ (W), mostly ♀ (Q).
+Mapping by shape to the key: q=a  v=b/w (key B)  T(Δ)=c  +=d  6=e  J/L=f(v)  o=g  4=h  w=i  8=l  V=m(key ¥)  3=n
+  A(Λ)=r (key 7)  y=s  C=s  e(♉)=t  X(‡)=u  E(ε)=ch (key Y ε, used for ch)  u=o  P=p  H=k  K=z  O=d/n/fr?
+Key nomenclator (Bayern ♀, H. Ludwig ≈) does NOT fit the letter's frequencies: ♀ 25x, ≈ 16x, ⊡ 26x behave as nulls/word dividers
+  (e.g. "gef(Q)rag(W)t" = gefragt, "geg(D)en", "(D)leib hindurch").
+
+L01 |Anno dni. 1535 den 22 marcij an montag nach palmarum in| {c i k i w t a [#] _ e}   (unclear; place name?)
+L02 {s w a r d e [#] i n l?}
+L07 |die sach weil mich| {sa ber vir bar niwt [#] vir gketa(?) n sechen [#] s}  ~ "... ansechen ..."
+L09 {s or_s kon herc...} |ich sey schier wol halber auf| {s [#]}
+L10 {die [#]fle ih d?anc gew_?n worden} |wir sein mit grossen sorg|
+L13 |sorg| {es [#] sei fn euch wol ....} |zugesagt worden und wirt uns|
+L14 {kaum sains gehalten} |Ich bin allenthalben so und ich her komen|
+L15 |bin| {gegensp(?) uerkhuzth?af t} |worden were| {ich d?iz sund} |was| {[#] ... ch}
+L16 |ich khin und hab mich an gestert| {p(?) erfodert mich [#]sumb fil}  ~ "erfordert mich ... viel"
+L17 {seltsam(?) khinst gefragt} |ich hab| {aber a_es g verlaugnet}  ~ "seltsam künste gefragt, ich hab aber alles verlaugnet"
+L18 {so ich kan und hab vergeben} |ich sey am| {schlechter schreiber}
+L19 |der mainung| {gesent worden nach dem ich} |noch jung bin|
+L23 {[#] s_d noch nicht freintlichs(?) erfaren} |bis ich yetzt gar an|
+L30 |gar gut wie ich halt| {meines leib hindurch (fr)ind(?)en wio?ert}
+L31 {ich trag (grosse?) sorg _ hab ich merers} |vermessen| {s weder er}
+L32 {zu verrichten bais(?) ??} |herzliebster herr vater khunt ich euch|
+L33 |vil gnets oder news schreiben ...| {[#]herabr}
+L34 {laider diser zeit} |noch nit vil| {sg_use_tss(?)} |es ist|
+L36 |von etlichen| {so in gefragt} |wie er| {p die Nothaft(?) (d/fr)ring} |wir|
+L37 |... vil| {Tirckhen herauf ziechen} |got geb|
+P1 |Ich vernim| {Friderich _ Schmalcz(kalden?) vergunt}
+P2 {euch nicht guets} |ersetzt uns ob euch ab| {bei p} |wo|
+P3 {er khan sund mag s?} |darnach wissen euch|
+
+Summary: A young man (still "jung", sent to learn) writes to his father on Monday after Palm Sunday 1535 from a
+court or journey. He says he has been questioned about strange things ("seltsam künste gefragt") and denied
+everything, that he is held a poor writer, that he has not yet learned anything friendly/reliable, and that he
+carries great worry for his own body/safety. In cipher he reports news: the Turks are to come up ("Tirckhen herauf
+ziechen"), that he was asked by some people, a name like Nothaft, and in the postscript something about (Count
+Palatine?) Friedrich and Schmalkalden(?) and "euch nicht guets" (nothing good for you). The father is told he will
+be informed more fully in the next letter.

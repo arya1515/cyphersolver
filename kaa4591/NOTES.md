@@ -109,9 +109,19 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - R9416 f.263 clean reading - blocker: none yet; v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
-- R9367 clean reading - blocker: none yet; key = R9423 block 2_4 (6 e, w i, 3 n, y s, o g, Δ c, 4 h, + d, 8 l, v b, ‡ v) plus context values (Λ r, q a, ẟ t, X u, C s, u o, € ch); ⊡/≈/♀ open (nulls or word signs); 2_4 to be re-read at full zoom.
+- R9367 clean reading - blocker: none yet; key block 2_4 read at zoom (`keys9423/2_4_zoom.txt`), reading in `r9367/reading.txt`: ⊡ ≈ ♀ are nulls/dividers; # (13×) and O open; L01–02, 07, 09–10, 13 mostly unread.
 - R9319 - blocker: needs-physical-access; dot grille needs cover letters f.115-118, not imaged on DECODE.
 - R9291 - blocker: none; not a ciphertext (key fragment), nothing to read.
+
+## R9367 (f.169) — read in part
+
+Son to father, Monday after Palm Sunday, 22 March 1535. In cipher: he was questioned about strange matters
+("seltsam khinst gefragt") and denied everything ("aber a[ll]es verlaugnet"); he is taken for a poor writer
+("schlechter schreiber") and sent to learn; nothing reliable learnt yet ("noch nicht freintlichs erfaren"); fears for
+his person ("meines leib"); the Turks are coming up ("Tirckhen herauf ziechen"); a name read as Nothaft(?);
+postscript names a Friedrich and "Schmalcz" (Schmalkalden?): "euch nicht guets". Key: R9423 block 2_4, "H. Wilh.
+[15]25" (A 9, B v, C Δ, D +, E 6, F ⊥, G o, H 4, I w, K ‡, L 8, M ¥, N 3, O barred D, P two rings, Q 2, R 7, S y,
+T ♉, V ‡‡, X o-o, Y ε, Z π; und 9, auch Z, ch t, das T, ll 9, rr m); the letter adds q a, Λ r, C s, H k, K z.
 
 ## Escalation
 
