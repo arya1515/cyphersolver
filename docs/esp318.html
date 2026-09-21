@@ -7,7 +7,7 @@
 <meta name="description" content="Five ciphered letters of Ferdinand and Isabella's secretariat in BnF Espagnol 318, the earliest Spanish diplomatic ciphers online. One was solved in print in 2020; one is keyed here to the Cifra general de los Reyes Católicos and proved on the glosses written between its lines; one is read in part with George Lasry's alphabet; two are named to a cipher family whose key is not online.">
 <link rel="stylesheet" href="style.css?v=20260919a">
 <meta name="date" content="2026-09-17">
-<meta name="last-modified" content="2026-09-17">
+<meta name="last-modified" content="2026-09-21">
 </head>
 <body id="top">
 <header class="nav"><div class="in">
@@ -41,7 +41,7 @@
   <h1>Espagnol 318: five ciphered letters of the Catholic Monarchs, and which keys open them</h1>
   <p class="sub">BnF Espagnol 318 nos. 5, 92, 93, 94, 95 · Federico III of Naples, Gonzalo Fernández de Córdoba, Lorenzo Suárez at Venice, the viceroy of Sicily, and one unaddressed leaf · originals, January 1497 – February 1504</p>
   <p class="sub">Catalogue entry 9, the oldest item in it. The task was to open the ark, count the symbols and look for a gloss. There was a gloss, and it settles one of the five.</p>
-  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-17">17 September 2026</time></p>
+  <p class="meta">Daniel Bourdeau &middot; solved in part <time datetime="2026-09-17">17 September 2026</time> &middot; updated <time datetime="2026-09-21">21 September 2026</time></p>
 </section>
 
 <main>
@@ -52,8 +52,8 @@
 secret letter enciphered in the Spanish ambassador’s own cipher, by the ambassador’s hand. <strong>No. 92</strong>, the Great Captain to Lorenzo Suárez of 17 August
 1500, of which no reading has been published, is written in the <em>Cifra general de los Reyes Católicos</em> that Galende Díaz printed in 1994 — proposed by Tomokiyo from the look of
 the code groups, and proved here against eight words a later hand wrote between the lines of the leaf, with no misses. The key is transcribed, 683 code groups, and the
-letter is readable. <strong>No. 95</strong>, the unaddressed cipher of 8 January 1497, has an alphabet George Lasry reconstructed in 2022 and a plaintext nobody has
-published; segmentation and clustering of its 963 signs, with Lasry’s key on the clusters, read about two thirds of it — Spanish, about the French, and about what a
+letter is readable. <strong>No. 95</strong>, the unaddressed cipher of 8 January 1497, was solved by George Lasry in 2022, but only his alphabet was published,
+not a plaintext; segmentation and clustering of its 963 signs, with Lasry’s key on the clusters, read about two thirds of it — Spanish, about the French, and about what a
 <em>Señoría</em> can be brought to do. <strong>Nos. 93 and 94</strong> stay unread, but they are no longer “unidentified ciphers”: both are ordinary products of
 Ferdinand’s secretariat, a homophonic symbol alphabet interleaved with CVC code groups, and their code-initial range excludes both keys already in print and points at
 the <em>Gran cifra</em> of 1501–04, whose only surviving reconstruction is in a Madrid manuscript that is not served online.
@@ -220,7 +220,7 @@ after the Garigliano, when Naples had just been lost to Spain for good and Venic
 <h2 id="method"><span class="num">06</span> Method, including what failed</h2>
 <p>Almost all of the work here was bibliographic, and the order mattered: shelfmark first, cipher second. Searching Espagnol 318 rather than “Spanish cipher 1497”
 found Parisi’s article, which closed no. 5 in an afternoon; searching for the cipher family found Galende Díaz’s appendix, which is the key to no. 92; searching for
-what Tomokiyo had done found Lasry’s alphabet for no. 95, published as an image nobody had applied. Three of the five were resolved by reading rather than solving.</p>
+what Tomokiyo had done found Lasry’s solution of no. 95: cryptiana says the letter “is solved” and publishes his alphabet as an image, but no plaintext. Three of the five were resolved by reading rather than solving.</p>
 <p>The machine side was a pipeline for turning a page of signs into a sequence of letters, built for no. 95 and reusable:
 <code>seg.py</code> (binarisation), <code>glyphs.py</code> (component grouping), <code>cluster.py</code> and <code>montage.py</code> (Ward clustering and contact
 sheets), <code>assign95.py</code> (the cluster-to-letter table), <code>lm.py</code> (a Spanish 5-gram model built on <em>Don Quijote</em>, normalised to the
