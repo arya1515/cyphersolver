@@ -144,7 +144,8 @@
   "van spaen to van der goes, 14–15 january 1808": "2026-09-21",
   "vatican part 5, 1542": "2026-09-15",
   "vatican part 5, 1542: the manuscript images": "2026-09-18",
-  "voynich manuscript": "2026-09-15"
+  "voynich manuscript": "2026-09-15",
+  "“mr. conleys hand”, paris 1652–53": "2026-09-21"
  },
  "pages": {
   "acciaiuoli1757": {
@@ -234,7 +235,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "46d466762ae3",
+   "hash": "0c93e07f2ce0",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -260,6 +261,11 @@
   "cobham1588": {
    "first": "2026-09-21",
    "hash": "60da7712167f",
+   "updated": "2026-09-21"
+  },
+  "conley1652": {
+   "first": "2026-09-21",
+   "hash": "d13e255d56d3",
    "updated": "2026-09-21"
   },
   "conti1649": {
@@ -399,7 +405,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "cbf11d39590d",
+   "hash": "bd511500216e",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -799,7 +805,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "05f25978e4b0",
+   "hash": "affb463686db",
    "updated": "2026-09-21"
   },
   "yard1699": {

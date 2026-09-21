@@ -2599,6 +2599,37 @@
      "sent": false
     }
    }
+  },
+  "conley1652": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/conley1652.html",
+   "key": {
+    "decode": "none: no key found (metadata correction only)"
+   },
+   "cite": "CELM, Abraham Cowley (celm.folger.edu); docket on f.314v 'mr Cowleys Hand'",
+   "fields": {
+    "author": "Written in Abraham Cowley's hand ('mr Cowleys Hand', not 'Conleys'), for the Queen's court at Paris (Jermyn's office)",
+    "receiver": "unidentified royalist in Holland",
+    "cipher_types": "nomenclator (code words and spelled names in clear English)",
+    "cleartext_lang": "English"
+   },
+   "records": {
+    "R7768": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Clear English letter of 28 Dec 1652; 22 code numbers in four runs (names, a place) not read; Hyde-Barwick key ruled out. Image P2 (f.314v) is the same file as R7769 P1.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R7769": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Clear English letter of 3 May 1653; one code number (Mr 203) not read. Image P1 (f.314v) duplicates R7768 P2; f.315r lower half starts an unrelated letter ('My Lo:').",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }

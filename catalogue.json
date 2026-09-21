@@ -2967,8 +2967,8 @@
    "counted": true,
    "year": 1652,
    "date": "28 Dec 1652 – 3 May 1653",
-   "title": "Mr. Conleys Hand (Paris) to unknown recipient, 2 ciphertexts",
-   "correspondents": "Mr. Conleys Hand → unknown recipient",
+   "title": "Abraham Cowley's hand ('Mr. Conleys Hand'), Paris, to a royalist in Holland, 2 letters",
+   "correspondents": "Queen's court at Paris (Jermyn's office, Cowley's hand) → unidentified royalist in Holland",
    "place": "Paris",
    "language": "English",
    "region": "England",
@@ -2976,7 +2976,7 @@
    "shelfmark": "BL, Harley MS 7003 (2 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R7768–R7769 (2 records): Non-decrypted, 4 pp., nomenclator, unknown; numerical; images login. Not viewed here. DECODE note: Mainly cleartext, using a few nomenclatures.",
+   "status": "Viewed 21 Sept 2026 (DECODE R7768–R7769): clear English fair copy, docket 'mr Cowleys Hand'; 23 code numbers in five runs (names, a place). Hyde–Barwick key ruled out; not in Miscellanea Aulica. Needs a Jermyn/Queen key of 1652–53.",
    "why": "Ciphered despatches of Mr. Conleys Hand to unknown recipient, 28 Dec 1652 – 3 May 1653; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 2,
@@ -2994,13 +2994,14 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/7769"
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     7768,
     7769
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 138,

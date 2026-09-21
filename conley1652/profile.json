@@ -1,0 +1,154 @@
+{
+ "schema_version": 1,
+ "target": "conley1652",
+ "title": "Royalist letters in Abraham Cowley's hand ('Mr. Conleys Hand'), Paris 28 Dec 1652 and 3 May 1653 (BL Harley MS 7003 ff. 314-315; DECODE R7768, R7769)",
+ "documents": [
+  {
+   "id": "R7768",
+   "shelfmark": "BL Harley MS 7003 ff. 314r-314v; DECODE R7768",
+   "date": "28 Dec 1652",
+   "year": 1652,
+   "country": "England (royalist court in exile)",
+   "route": "Paris -> Holland",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the fair copy."
+   },
+   "length": {
+    "tokens": 22,
+    "distinct": 19,
+    "unit": "code groups",
+    "measured": true,
+    "file": "codes_l1.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R7768_I35114_P1-P2",
+    "image_quality": "good",
+    "notes": "Four runs of colon-separated numbers inside clear English; the whole letter is in transcription.txt."
+   }
+  },
+  {
+   "id": "R7769",
+   "shelfmark": "BL Harley MS 7003 ff. 314v-315r; DECODE R7769",
+   "date": "3 May 1653",
+   "year": 1653,
+   "country": "England (royalist court in exile)",
+   "route": "Paris -> Holland",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "mostly clear",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the fair copy."
+   },
+   "length": {
+    "tokens": 1,
+    "distinct": 1,
+    "unit": "code groups",
+    "measured": true,
+    "file": "codes_l2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R7769_I35117_P1-P2 (P1 is byte-identical to R7768 P2)",
+    "image_quality": "good",
+    "notes": "One code group (Mr 203) in the postscript."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Colon-separated numbers up to 248 inside clear English: a few code words and names apparently spelled letter by letter.",
+  "symbol_kind": "digits",
+  "distinct_symbols": 20,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "unknown"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Not in Miscellanea Aulica (1702), Cowley's printed letters to Bennet; no other print found. Clarendon State Papers calendar not checked.",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context"
+  ],
+  "attack": "none",
+  "human_role": "Selected the target from the catalogue; the DECODE session cookie was supplied earlier.",
+  "tools": [
+   "DECODE authenticated image download",
+   "archive.org full text",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Downloaded the four DECODE images of R7768/R7769; f.314v is imaged on both records.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed both letters; the docket reads 'mr Cowleys Hand' (DECODE: 'Conleys'); 23 code numbers in five runs.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Searched Miscellanea Aulica (1702) full text for Cowley's letters and web for distinctive clear phrases: not printed there.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Applied the Hyde-Barwick key (1659) to the five runs: gibberish.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Place run 248:88:46:47:96:52:7:57 = 'Scotland' from context (assistance next spring, Glencairn rising); unverified, grade M.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Clear text read; the 23 code numbers are too few for a ciphertext-only attack and no Jermyn/Queen key of 1652-53 was found."
+ }
+}
