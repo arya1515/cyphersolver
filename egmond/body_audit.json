@@ -4,23 +4,22 @@
     1,
     2,
     3,
-    9,
-    13,
-    14,
-    16
-  ],
-  "not_yet_audited": [
     4,
     5,
     6,
     7,
     8,
+    9,
     10,
     11,
     12,
-    15
+    13,
+    14,
+    15,
+    16
   ],
-  "insertion": "not yet transcribed",
+  "not_yet_audited": [],
+  "insertion": "Both insertions transcribed: entenderes above line 7, sa above line 15. See insertion7.json and insertion15.json.",
   "changes": [
     {
       "line": 1,
@@ -49,7 +48,50 @@
     {
       "line": 14,
       "detail": "Removed a duplicated stroke label in recommande; seven/b and plain plus/g distinguished in bonne grace."
+    },
+    {
+      "line": 4,
+      "detail": "n/m zigzag distinctions, rounded cup null, missing straight-descender i at end. EX/x in lextreme remains contextual. Raw cosidere has no separate n."
+    },
+    {
+      "line": 5,
+      "detail": "Removed spurious e after present; seven/b in obei. Retained raw auir without supplying expected o."
+    },
+    {
+      "line": 6,
+      "detail": "Cup null in commandemens; m/n distinctions; q and i strokes recovered in que suis; cup null at end."
+    },
+    {
+      "line": 7,
+      "detail": "First plus is g and the following curves are two r signs: guerre, not earlier ouverture hypothesis. Circle null in comme. Insertion above amplement/par reads entenderes."
+    },
+    {
+      "line": 8,
+      "detail": "Open C/h in Jehan and charge; seven/b in ambassadeur; q stem in auquel; plus/g in charge."
+    },
+    {
+      "line": 10,
+      "detail": "Circle null and n zigzags in donner; bent q stem distinct from f; i loop distinct from e in lui and besoing; seven/b and plus/g. Retained assistence and quillui spellings."
+    },
+    {
+      "line": 11,
+      "detail": "n zigzags in en and bent q stem in quil."
+    },
+    {
+      "line": 12,
+      "detail": "Seven/b and plus/g in obligeres, n in en."
+    },
+    {
+      "line": 15,
+      "detail": "Short n in en; plain plus/g in garde; open C/h in Arnhem and date. The date is dih[u]itieme, blotted u supplied with brackets. Raised DD V (sa) belongs between en and garde."
     }
   ],
-  "grade": "I for inferred values; residual ambiguous transcription M; no H or C claim"
+  "grade": "I for inferred values; residual ambiguous transcription M; no H or C claim",
+  "uncertainties": [
+    "Line 4 EX/x is inferred from lextreme; small-cross inventory remains to check.",
+    "Some m/n distinctions partly contextual because scribal zigzags vary.",
+    "Raw sueis, uouellu, cosidere, auir retained; no silent emendation.",
+    "Insertion small e after t overlaps line-6 descender.",
+    "Date ink-heavy u remains M; reading points to 18 July, with no year encoded."
+  ]
 }

@@ -237,3 +237,27 @@ The date crop still leaves the complex sign after `di` uncertain. An eighteenth-
 of-July interpretation remains a hypothesis, not a verified date. The place-name
 also needs its own glyph audit. Nine main lines and the supralinear insertion
 remain unaudited. The target is still in progress.
+
+
+## Full candidate reading, including both insertions
+
+Audited the remaining main lines and retrieved the native 4351 x 6122 scan.
+Direct Python requests were unavailable; urllib received HTTP 403; curl with a
+browser user agent succeeded. The native scan confirms the second insertion
+DD V (`sa`) above line 15. The line-7 insertion reads `entenderes`. Reinterpreting
+the disputed line-7 sign cluster as `guerre`, not `ouverture`, resolves the king's
+commands / entry into war passage. The ambassador is `le commandeur de sainct
+Iehan`; no personal name is supplied. The address names the grand master of
+France. The closing place is Arnhem and the date `dih[u]itieme de iuillet`,
+apparently 18 July, with the blotted u marked M. No year is encoded there.
+
+READING.md gives all sixteen lines, insertions, clear closing and address, with
+an English sense translation and explicit residual ambiguities. The word-divided
+lines were checked against the raw token replay. `body_complete_tokens.txt`
+measures 726 tokens and 27 labels with the standard checker; aliases and the
+blotted instance mean this is not a historical alphabet count. Full consistency
+review and site write-up remain pending. Target status remains in progress.
+
+Searches using Gueldres/commandeur/grand maistre and Arnhem/18 juillet did not
+identify a matching edition, a verified year, or the ambassador's name. No new
+external plaintext has been used.

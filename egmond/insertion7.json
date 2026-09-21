@@ -1,0 +1,25 @@
+{
+  "source": "Gallica view 27, above main line 7",
+  "image_bbox": [
+    1950,
+    1010,
+    2460,
+    1075
+  ],
+  "tokens": [
+    "Q",
+    "Z",
+    "R",
+    "Q",
+    "Z",
+    "W",
+    "Q",
+    "CE",
+    "Q",
+    "DD"
+  ],
+  "reading": "entenderes",
+  "position": "between amplement and par",
+  "status": "inferred image reading; small e after t overlaps a descender from line above; grade M there, I elsewhere",
+  "note": "Separate insertion, not a seventeenth main line."
+}

@@ -21,7 +21,7 @@
       "transcription": {
         "by": "llm from images",
         "image_quality": "good",
-        "notes": "Provisional sixteen-line shape transcript; insertion omitted and several shapes conflated. Candidate reading requires occurrence-level image audit."
+        "notes": "Sixteen main lines and two raised insertions transcribed. Body file has 726 labels (aliases included); address separately audited. Ink-heavy date u and some zigzags/crosses remain uncertain. See READING.md."
       }
     }
   ],
@@ -29,7 +29,7 @@
     "types": [
       "undetermined"
     ],
-    "summary": "Working graphic substitution hypothesis with nulls and compound signs; exact inventory unresolved.",
+    "summary": "Inferred graphic letter substitution with nulls and compound glyphs; several draft aliases remain.",
     "symbol_kind": "symbols",
     "distinct_symbols": "unknown",
     "diacritics": {
@@ -42,7 +42,7 @@
       "present": "unknown"
     },
     "nulls": {
-      "present": "unknown"
+      "present": true
     },
     "key_order": "unknown"
   },
@@ -191,6 +191,30 @@
       "kind": "verification",
       "what": "Re-inspected address and body lines 1,2,3,9,13,14,16 against source crops. Saved explicit shape-token corrections and replay script, retaining unexplained spellings. Address reads A mon bon cousin / Monsieur le grant maistre / de France; nine body lines and insertion still need audit. This is image/key consistency, not an independent plaintext control.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "verification",
+      "what": "Audited remaining main lines; resolved guerre, commander of Saint John, and Arnhem. Read raised entenderes on line 7 and newly identified sa on line 15. Native 4351 x 6122 scan obtained via curl after Python access failures.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Saved full candidate diplomatic reading and English sense translation in READING.md, preserving anomalous spellings. Date dih[u]itieme de iuillet interpreted as 18 July with M blotted u; year absent.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "statistics",
+      "what": "Standard checker measures corrected body plus both insertions at 726 signs, 27 draft labels; aliases prevent treating the latter as historical alphabet size.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "Targeted searches on the newly read titles and apparent date found no matching edition or confirmed year; no external plaintext used.",
+      "result": "partial"
     }
   ],
   "outcome": {
@@ -199,6 +223,6 @@
     "verification": [
       "none"
     ],
-    "notes": "Partial inferred French reading with explicit image audit for address and seven main lines. Nine lines, insertion, date and place remain unresolved; no independent key/plaintext verification."
+    "notes": "Full candidate body, two insertions and address now read; residual M glyphs/spellings and final consistency review remain. Site write-up pending; no independent clear-copy or key verification."
   }
 }
