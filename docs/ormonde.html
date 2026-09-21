@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Maltravers–Ormonde Cipher (1634–35) — Solved</title>
 <meta name="description" content="Recovery of the numerical cipher used by Lord Maltravers in two letters to the Earl of Ormonde, 1634–35 (HMC Ormonde MSS i.28): a regular block alphabet with nulls 91–111 and a small nomenclator; the spelled words read and the nomenclator is confirmed against Wentworth's dispatches in Knowler's Strafforde's Letters (1739).">
-<link rel="stylesheet" href="style.css?v=20260921a">
+<link rel="stylesheet" href="style.css?v=20260921b">
 <meta name="date" content="2026-09-15">
-<meta name="last-modified" content="2026-09-15">
+<meta name="last-modified" content="2026-09-21">
 </head>
 <body id="top">
 <header class="nav"><div class="in">
@@ -43,7 +43,8 @@
   <h1>Lord Maltravers to the Earl of Ormonde</h1>
   <p class="sub">Dorking, 13 September 1634 and Whitehall, 22 January 1634/5 · HMC, <em>Calendar of the Manuscripts of the Marquess of Ormonde</em>, i (1895), pp. 28–29</p>
   <p class="sub">The letter alphabet, its nulls and the layout of the key recovered from 59 printed figures; the nomenclator then confirmed clause for clause against Wentworth&rsquo;s own dispatches</p>
-  <p class="meta">Daniel Bourdeau &middot; solved <time datetime="2026-09-15">15 September 2026</time></p>
+  <p class="meta">Daniel Bourdeau &middot; solved <time datetime="2026-09-15">15 September 2026</time> &middot; updated <time datetime="2026-09-21">21 September 2026</time></p>
+<div class="seal solved" aria-hidden="true"><span>solved</span></div>
 </section>
 
 <main>
@@ -215,7 +216,7 @@ function decode(){
   renderTiles(document.getElementById('cout'),items);
   document.getElementById('ctext').textContent=words.join('').replace(/\s+/g,' ').replace(/\s*\|\s*/g,'  |  ').trim();
 }
-decode();
+addEventListener('DOMContentLoaded',decode);
 </script>
 
 <!-- replay:start -->
@@ -239,7 +240,7 @@ decode();
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="ceva1632.html" rel="prev">&larr; Barberini to Ceva 1632 1632</a><a href="heusner1637.html" rel="next">Heusner 1637 1637 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
 <script src="cipher-reveal.js" defer></script>
-<script src="solve-replay.js?v=20260921a" defer></script>
-<script src="site.js?v=20260921a"></script>
+<script src="solve-replay.js?v=20260921b" defer></script>
+<script src="site.js?v=20260921b"></script>
 </body>
 </html>

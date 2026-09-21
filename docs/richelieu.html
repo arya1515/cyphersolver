@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Richelieu's Cipher to M. de Rancé (July 1629) — Reconstruction and Verification</title>
 <meta name="description" content="Ciphertext-only reconstruction of the homophonic cipher used by Cardinal Richelieu in two letters to Denis Bouthillier de Rancé (BnF Français 3829, ff. 87 & 89), and its verification against Avenel's 1858 edition.">
-<link rel="stylesheet" href="style.css?v=20260921a">
+<link rel="stylesheet" href="style.css?v=20260921b">
 <meta name="date" content="2026-09-14">
 <meta name="last-modified" content="2026-09-21">
 </head>
@@ -44,6 +44,7 @@
   <p class="sub">July 1629 · Bibliothèque nationale de France, Français 3829, ff. 87 and 89</p>
   <p class="sub">A ciphertext-only reconstruction — and its confirmation against a decipherment printed in 1858</p>
   <p class="meta">Daniel Bourdeau &middot; solved <time datetime="2026-09-14">14 September 2026</time> &middot; updated <time datetime="2026-09-21">21 September 2026</time></p>
+<div class="seal solved" aria-hidden="true"><span>solved</span></div>
 </section>
 
 <main>
@@ -290,7 +291,7 @@ function decode(){
   renderTiles(document.getElementById('cout'),items);
   document.getElementById('ctext').textContent=words.join(' ');
 }
-decode();
+addEventListener('DOMContentLoaded',decode);
 </script>
 
 <!-- replay:start -->
@@ -314,7 +315,7 @@ the transcription <a href="https://cryptiana.web.fc2.com/code/richelieu1629.txt"
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="r1874.html" rel="prev">&larr; Mocenigo 1628 1628</a><a href="pallotto1629.html" rel="next">Pallotto to Barberini 1629 1629 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
 <script src="cipher-reveal.js" defer></script>
-<script src="solve-replay.js?v=20260921a" defer></script>
-<script src="site.js?v=20260921a"></script>
+<script src="solve-replay.js?v=20260921b" defer></script>
+<script src="site.js?v=20260921b"></script>
 </body>
 </html>

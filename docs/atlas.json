@@ -80,6 +80,10 @@
    43.77,
    11.26
   ],
+  "Genoa": [
+   44.41,
+   8.93
+  ],
   "Hamburg": [
    53.55,
    9.99
@@ -256,6 +260,10 @@
    44.93,
    4.89
   ],
+  "Valladolid": [
+   41.65,
+   -4.72
+  ],
   "Venice": [
    45.44,
    12.33
@@ -267,6 +275,10 @@
   "Vienna": [
    48.21,
    16.37
+  ],
+  "Vitoria": [
+   42.85,
+   -2.67
   ],
   "Warsaw": [
    52.23,
@@ -2873,6 +2885,386 @@
    "to": "Berlin",
    "st": "stuck",
    "label": "Police radiograms"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9644",
+   "year": 1522.88,
+   "date": "1 Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9650",
+   "year": 1522.88,
+   "date": "Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9648",
+   "year": 1522.88,
+   "date": "9 Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9656",
+   "year": 1522.88,
+   "date": "20 Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9652",
+   "year": 1522.88,
+   "date": "Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9667",
+   "year": 1523.38,
+   "date": "5 May 1523",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9683",
+   "year": 1523.46,
+   "date": "10 June 1523",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9695",
+   "year": 1523.54,
+   "date": "8 July 1523",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9846",
+   "year": 1524.12,
+   "date": "5 Feb 1524",
+   "from": "Rome",
+   "to": "Vitoria",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9866",
+   "year": 1524.12,
+   "date": "28 Feb 1524",
+   "from": "Rome",
+   "to": "Vitoria",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9868",
+   "year": 1524.21,
+   "date": "20 Mar 1524",
+   "from": "Rome",
+   "to": "Burgos",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "lopehurtado1523",
+   "doc": "R9869",
+   "year": 1524.21,
+   "date": "28 Mar 1524",
+   "from": "Rome",
+   "to": "Burgos",
+   "st": "partial",
+   "label": "Lope Hurtado 1523–24"
+  },
+  {
+   "slug": "sanchez1522",
+   "doc": "R9653",
+   "year": 1522.88,
+   "date": "20 Nov 1522",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1522"
+  },
+  {
+   "slug": "sanchez1522",
+   "doc": "R9635",
+   "year": 1522.71,
+   "date": "16 Sept 1522",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1522"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9670",
+   "year": 1523.38,
+   "date": "8 May 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9671",
+   "year": 1523.38,
+   "date": "8 May 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9672",
+   "year": 1523.38,
+   "date": "c. 20-23 May 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9674",
+   "year": 1523.38,
+   "date": "20 May 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9677",
+   "year": 1523.46,
+   "date": "early June 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9689",
+   "year": 1523.46,
+   "date": "13 June 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9690",
+   "year": 1523.46,
+   "date": "13 June 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9767",
+   "year": 1523.62,
+   "date": "16 Aug 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9769",
+   "year": 1523.62,
+   "date": "16 Aug 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sanchez1523",
+   "doc": "R9770",
+   "year": 1523.62,
+   "date": "16 Aug 1523",
+   "from": "Venice",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sánchez 1523"
+  },
+  {
+   "slug": "sessa1523",
+   "doc": "R9660",
+   "year": 1523.12,
+   "date": "20 Feb 1523",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sessa 1523"
+  },
+  {
+   "slug": "sessa1523",
+   "doc": "R9661-R9666",
+   "year": 1523.21,
+   "date": "4 Mar - 27 Apr 1523",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "found",
+   "label": "Sessa 1523"
+  },
+  {
+   "slug": "sessa1524",
+   "doc": "f128",
+   "year": 1524.29,
+   "date": "18 Apr 1524",
+   "from": "Rome",
+   "to": "Burgos",
+   "st": "partial",
+   "label": "Sessa 1524"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9488",
+   "year": 1523.46,
+   "date": "June 1523",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9489",
+   "year": 1523.46,
+   "date": "June 1523 (duplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9490",
+   "year": 1523.46,
+   "date": "June 1523 (triplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9491",
+   "year": 1523.54,
+   "date": "20 Jul 1523",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9492",
+   "year": 1523.54,
+   "date": "Jul 1523",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9493",
+   "year": 1523.54,
+   "date": "Jul 1523 (duplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9494",
+   "year": 1523.54,
+   "date": "26 Jul 1523",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9495",
+   "year": 1523.54,
+   "date": "26 Jul 1523 (duplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9496",
+   "year": 1523.54,
+   "date": "26 Jul 1523 (triplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9497",
+   "year": 1523.62,
+   "date": "13 Aug 1523",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
+  },
+  {
+   "slug": "soria1523",
+   "doc": "R9498",
+   "year": 1523.62,
+   "date": "13 Aug 1523 (duplicate)",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Soria 1523"
   }
  ]
 }

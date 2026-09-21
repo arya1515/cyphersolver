@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Armstrong's Coded Postscript to Madison (30 August 1808) — Decipherment</title>
 <meta name="description" content="Decipherment of the 49-group coded postscript in John Armstrong's private letter to James Madison of 30 August 1808 (Library of Congress, Madison Papers), using the State Department's own pencil decodes of sibling despatches to reconstruct the diplomatic code known as THE=972.">
-<link rel="stylesheet" href="style.css?v=20260921a">
+<link rel="stylesheet" href="style.css?v=20260921b">
 <meta name="date" content="2026-09-14">
 <meta name="last-modified" content="2026-09-21">
 </head>
@@ -44,6 +44,7 @@
   <p class="sub">Bourbon-l'Archambault, 30 August 1808 · Library of Congress, James Madison Papers, Series 1, reel 10 · Founders Online, Madison/99-01-02-3466</p>
   <p class="sub">Reconstruction of the “THE = 972” code from the State Department's own pencil decodes, and the reading of the postscript</p>
   <p class="meta">Daniel Bourdeau &middot; solved <time datetime="2026-09-14">14 September 2026</time> &middot; updated <time datetime="2026-09-21">21 September 2026</time></p>
+<div class="seal solved" aria-hidden="true"><span>solved</span></div>
 </section>
 
 <main>
@@ -281,7 +282,7 @@ function decode(){
   renderTiles(document.getElementById('cout'),items);
   document.getElementById('ctext').textContent=words.join(' ');
 }
-decode();
+addEventListener('DOMContentLoaded',decode);
 (function(){
   const nums=Object.keys(KEY).map(Number).sort((a,b)=>a-b);
   const cols=4, per=Math.ceil(nums.length/cols);
@@ -319,6 +320,6 @@ frames 0192–0201.</li>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="spaen1808.html" rel="prev">&larr; Van Spaen 1808 1808</a><a href="roell1809.html" rel="next">Roell to Van Dedem 1809 1809 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
 <script src="cipher-reveal.js" defer></script>
-<script src="site.js?v=20260921a"></script>
+<script src="site.js?v=20260921b"></script>
 </body>
 </html>

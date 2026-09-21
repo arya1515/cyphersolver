@@ -16,7 +16,7 @@ of "Recent findings" all carry the day the finding landed, from _dates.json, whi
 """
 import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
-VERSION = '20260921a'
+VERSION = '20260921b'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -48,6 +48,7 @@ GENERATED = [
     r'<nav class="toc".*?</nav>', r'<figure class="lead">.*?</figure>',
     r'<!-- cards:start -->.*?<!-- cards:end -->', r'<!-- site:(?:nav|footer) -->',
     r'<script src="site\.js[^"]*"></script>',
+    r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>',
     r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
     r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
 ]
@@ -1231,6 +1232,12 @@ def process(path):
     s = re.sub(r'<meta name="(?:date|last-modified)"[^>]*>\n?', '', s)
     s = s.replace('</head>', f'<meta name="date" content="{rec["first"]}">\n'
                              f'<meta name="last-modified" content="{rec["updated"]}">\n</head>', 1)
+    # the wax seal pressed into a write-up's hero: its outcome, in the colour of its badge
+    s = re.sub(r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>', '', s)
+    if page and page['slug'] not in SURVEYS and '<section class="hero">' in s:
+        word = plain(page['stt']) if len(plain(page['stt'])) <= 14 else VERB[page['st']]
+        seal = f'\n<div class="seal {page["st"]}" aria-hidden="true"><span>{html.escape(word)}</span></div>'
+        s = re.sub(r'(<section class="hero">.*?)(\n</section>)', lambda m: m.group(1) + seal + m.group(2), s, count=1, flags=re.S)
     # "Watch it decipher": a page with docs/reveal/<slug>.json and no reveal of its own gets one, once, right after the h2
     # the data names as its "anchor" (else before the sources); from then on it is ordinary page content
     rv = HERE / 'reveal' / f'{slug}.json'
