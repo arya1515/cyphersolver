@@ -1,0 +1,140 @@
+{
+ "schema_version": 1,
+ "target": "mercoeur1586",
+ "title": "Anonymous ('MR') to the duc de Mercœur, 26 June [c. 1586], BnF fr. 15564 f. 151 (catalogue item 13)",
+ "documents": [
+  {
+   "id": "f151",
+   "shelfmark": "BnF fr. 15564 f. 151 (Gallica btv1b9064027v, view 164 right)",
+   "date": "26 June [c. 1586]",
+   "year": "unknown",
+   "country": "France",
+   "route": "unknown",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the slip or in the volume.",
+    "partial": false
+   },
+   "length": {
+    "tokens": 217,
+    "unit": "symbols",
+    "measured": true,
+    "file": "cipher.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica full-resolution IIIF crops",
+    "image_quality": "good",
+    "notes": "Six cipher runs; several sign identities uncertain."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic substitution with nomenclator signs (Greek letters, geometric signs, digits, Latin letters) in six runs inside a clear letter.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": 55,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown",
+   "entries": "unknown",
+   "kinds": [],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": "unknown",
+   "count": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Lasry's 2022 fr. 15564 key tested: different sign set.",
+  "notes": "Type is inferred from 55 sign types over 217 signs."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "Lasry found it did not decipher with his fr. 15564 key (reported by Tomokiyo, unsolved.htm)",
+   "found": "before attempt",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: set up Claude Code with Opus 5 and posed the catalogue entry with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "anneal.py"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Grepped cryptiana GL.htm and unsolved.htm: Lasry solved ff. 27/78/119/142 and judged f. 151 a different key, too short.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Located f. 151 as the slip on Gallica view 164 and fetched full-resolution crops.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Compared the sign set with Lasry's fr. 15564 key: no shared signs.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Compared with Mayenne–Forget Cipher-1 (matignon1586) and the Clairambault 357 figure cipher.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed the six cipher runs (217 signs, 55 types) and the clear frame.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Homophonic simulated annealing, 4-gram French LM, 8 restarts.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Same solver on shuffled ciphertext scored as well (-1.82 vs -1.87 per sign): no signal.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "verification": [
+   "matched control"
+  ],
+  "notes": "Clear frame transcribed; cipher too short for ciphertext-only attack; needs a sibling letter or key."
+ }
+}

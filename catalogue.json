@@ -75,13 +75,14 @@
    "cls": "C",
    "seen": "catalogue",
    "source": "cryptiana fine print",
-   "status": "Tomokiyo: undeciphered; other Mercœur-circle letters in the volume were solved by G. Lasry.",
+   "status": "Tomokiyo: undeciphered; Lasry found it is not in his fr. 15564 key. Attempted here 2026-09-21: not Lasry's, Mayenne–Forget or Clair. 357 keys; too short for ciphertext-only (mercoeur1586/).",
    "why": "The League in Brittany.",
    "importance": 2,
    "solvability": 2,
    "difficulty": 4,
    "score_note": "One letter, unknown sender; Lasry's keys for the volume are the first thing to try.",
-   "verify": "Test Lasry's fr. 15564 keys; read the endorsement."
+   "verify": "Test Lasry's fr. 15564 keys; read the endorsement.",
+   "outcome": "attempted, open"
   },
   {
    "id": 18,
