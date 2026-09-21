@@ -106,6 +106,13 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   `reading: null`, `"reading_not_needed": true`, and a `note` naming where the reading is (the `sauli1579` and
   `poupet1522` entries show the pattern). Use `queue.py skip <folder> "<why>"` only when every field and the status
   on DECODE are already right and nothing is added; the reason must say so.
+
+  **This step also runs for targets that are not read.** When a DECODE target is attempted and left open, closed
+  unread, or found to duplicate another record, it gets no page, but it still gets a queue entry in the same session.
+  Use `proposed` = the current status, `reading: null`, `"reading_not_needed": true`, and `key: {"none": "<why>"}`
+  when no key is known. Put what the work found in `note`: the true date or place, sibling and duplicate records,
+  prior attempts, and where the material is. Put any ciphertext transcription in `"transcription": [<files>]`,
+  which build.py attaches as `transcription.txt`. The `ranzo1528` entry shows the pattern.
 - `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in
   "The short version" (items, read in full, in long stretches, to a solver, to a sibling or key).
 

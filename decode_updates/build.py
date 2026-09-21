@@ -109,9 +109,22 @@ def decryption_file(rec, t, q, r):
     return '\n'.join(head) + body + '\n'
 
 
+def transcription_file(rec, t, q, r):
+    # Ciphertext transcription for a record that is not read: attached so the next attempt starts from it.
+    head = [f'#TRANSCRIPTION: {rec}', f'#TRANSCRIBER NAME: {BY}', f'#DATE OF TRANSCRIPTION: {DATE}',
+            f'#COMMENT: {r["note"]} Write-up: {q["writeup"]}', '']
+    body = []
+    for f in r['transcription']:
+        body += [l.rstrip() for l in open(os.path.join(ROOT, f), encoding='utf-8')] + ['']
+    return '\n'.join(head + body)
+
+
 def info_line(t, q, r):
     k = q['key']
-    key = f'Key: DECODE {k["decode"]}.' if 'decode' in k else f'Key: reconstructed ({k.get("how")}), see the attached key file.'
+    if 'none' in k:
+        key = f'Key: none known ({k["none"]}).'
+    else:
+        key = f'Key: DECODE {k["decode"]}.' if 'decode' in k else f'Key: reconstructed ({k.get("how")}), see the attached key file.'
     cite = f' Sources: {q["cite"]}.' if q.get('cite') else ''
     return f'Updated by {BY}, {DATE}: {r["note"]} {key}{cite} Write-up: {q["writeup"]}'
 
@@ -130,7 +143,7 @@ def main(argv):
             if 'TODO' in json.dumps([r, q['key']]):
                 gaps.append(f'{t} {rec}: TODO fields left (python decode_updates/queue.py status {t})')
                 continue
-            needs_key = 'decode' not in q['key']
+            needs_key = 'decode' not in q['key'] and 'none' not in q['key']
             if not r.get('reading') and not r.get('reading_not_needed'):
                 gaps.append(f'{t} {rec}: no reading file')
             if needs_key and not q['key'].get('file'):
@@ -146,6 +159,8 @@ def main(argv):
             open(os.path.join(d, 'fields.txt'), 'w', encoding='utf-8').write('\n'.join(f) + '\n')
             if needs_key and q['key'].get('file'):
                 open(os.path.join(d, 'key.txt'), 'w', encoding='utf-8').write(key_file(rec, t, q))
+            if r.get('transcription'):
+                open(os.path.join(d, 'transcription.txt'), 'w', encoding='utf-8').write(transcription_file(rec, t, q, r))
             if r.get('reading'):
                 open(os.path.join(d, 'decryption.txt'), 'w', encoding='utf-8').write(decryption_file(rec, t, q, r))
             n += 1

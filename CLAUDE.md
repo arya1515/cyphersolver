@@ -24,6 +24,10 @@ evidence) is the first half of the job. The second half is the write-up, and it 
    shows it at the start of each session; the Stop hook blocks a stop once when a target this session worked on
    reads as finished in its NOTES but has no README row and no page.
 
+DECODE is always updated when the work adds anything, even without a reading. A DECODE target left "attempted,
+open" or closed unread still gets its `decode_updates/queue.json` entry in the same session: corrected metadata,
+sibling and duplicate records, and any transcription (see the writeup skill, `decode_updates/queue.json` step).
+
 If a target is genuinely not finished, or deliberately not written up (found solved by others with nothing added
 here), put `Status: in progress` or `Status: no write-up` in the first forty lines of its `NOTES.md`.
 

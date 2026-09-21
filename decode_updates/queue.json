@@ -2683,6 +2683,40 @@
      "sent": false
     }
    }
+  },
+  "ranzo1528": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/vasto1527.html",
+   "key": {
+    "none": "no key, clear copy or decipherment found; the numbering is not alphabetical"
+   },
+   "cite": "S. Tomokiyo, 'Venetian Ciphers with Superscripts', cryptiana",
+   "fields": {
+    "origin_city": "unknown (not Venice: Ranzo, Gattinara's secretary, wrote from the imperial court; the superscript style is not evidence of origin)"
+   },
+   "records": {
+    "R1894": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (vasto1527/n20/).",
+     "reading": null,
+     "reading_not_needed": true,
+     "transcription": [
+      "vasto1527/n20/ranzo_c017.txt",
+      "vasto1527/n20/ranzo_c018.txt",
+      "vasto1527/n20/ranzo_c019.txt",
+      "vasto1527/n20/ranzo_c020.txt"
+     ],
+     "sent": false
+    },
+    "R4450": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. A copy of BnF fr. 2988 f. 9 (DECODE R1894), whose transcription is attached there; same code as the 'Garbino' letter, BnF fr. 3022 no. 20 (Madrid, 11 Apr 1528).",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    }
+   }
   }
  }
 }
