@@ -3359,6 +3359,144 @@
      "reading_not_needed": true
     }
    }
+  },
+  "lopehurtado1523": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/lopehurtado1523.html",
+   "key": {
+    "file": "lopehurtado1523/key_1524.tsv",
+    "lang": "ES",
+    "how": "Lope Hurtado's 1522 key (lopehurtado/key_codes.tsv) revised against the clerk's clear of R9846 on f. 133r: 105 values, 65 confirmed; additions in key_1524_additions.tsv and key_1523_additions.tsv"
+   },
+   "cite": "G. A. Bergenroth (ed.), Calendar of State Papers, Spain, vol. 2 (1866), nos. 548 (R9667) and 617 (R9846), abstracts from the contemporary decipherings",
+   "fields": {
+    "R9667": {
+     "date": "1523-05-05",
+     "receiver": "Charles V, Holy Roman Emperor"
+    },
+    "R9683": {
+     "date": "1523-06 (docket 10 June 1523)",
+     "receiver": "Charles V, Holy Roman Emperor"
+    },
+    "R9695": {
+     "date": "1523-07-08",
+     "receiver": "Charles V, Holy Roman Emperor"
+    },
+    "R9846": {
+     "date": "1524-02-05 (begun 3 Feb)",
+     "shelfmark": "RAH Salazar 9/30 (A-30) ff. 130-133",
+     "receiver": "Charles V, Holy Roman Emperor"
+    },
+    "R9866": {
+     "date": "1524-02-28",
+     "shelfmark": "RAH Salazar 9/30 (A-30) ff. 285-286",
+     "receiver": "Mercurino di Gattinara, Grand Chancellor"
+    },
+    "R9867": {
+     "date": "1524-01-04",
+     "shelfmark": "RAH Salazar 9/30 (A-30) f. 351",
+     "receiver": "Charles V, Holy Roman Emperor"
+    },
+    "R9868": {
+     "date": "1524-03-20",
+     "shelfmark": "RAH Salazar 9/30 (A-30) ff. 430-431",
+     "receiver": "Mercurino di Gattinara, Grand Chancellor"
+    },
+    "R9869": {
+     "date": "1524-03-28",
+     "shelfmark": "RAH Salazar 9/30 (A-30) ff. 444-445",
+     "receiver": "Charles V, Holy Roman Emperor"
+    }
+   },
+   "records": {
+    "R9667": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Charles V, Rome 5 May 1523 = CSP Spain 2 no. 548 (Bergenroth 1866, abstract from a contemporary deciphering not among the images). The bound 'Claro' leaf is the Abbot of Najera's clear of 2 May 1523, not this letter's. Cipher runs read only in fragments.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9683": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Charles V, Rome June 1523 (docket 10 June); clear transcribed, 8 cipher lines read in fragments with the rebuilt 1524 key. Not in CSP.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9683.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9695": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Autograph draft to Charles V, Rome 8 July 1523 (DECODE: June). Clear read; cipher lines hardly read. Not in CSP.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9695.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9846": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Charles V, Rome 3/5 Feb 1524 = CSP Spain 2 no. 617. The clerk's clear of the first third is bound on f. 133r; ff. 130r-130v aligned against it clause by clause (the key's source). ff. 131r-132v not read.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/r9846_clear.txt"
+      },
+      {
+       "file": "lopehurtado1523/r9846_alignment.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9866": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Gattinara (not unknown), Rome 28 Feb 1524, in 9/30 not 9/28. Clear transcribed; cipher read a quarter to a third.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9866.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9867": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Charles V, Rome 4 Jan 1524 (date and signature spelled in cipher), in 9/30. Wholly cipher, about 60% reads as Spanish.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9867.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9868": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Gattinara (not unknown), Rome 20 Mar 1524, in 9/30. Clear transcribed; cipher of f. 430r mostly read, f. 430v not.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9868.md"
+      }
+     ],
+     "sent": false
+    },
+    "R9869": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Charles V, Rome 28 Mar 1524, in 9/30. Clear transcribed; cipher read about two thirds.",
+     "reading": [
+      {
+       "file": "lopehurtado1523/read_r9869.md"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

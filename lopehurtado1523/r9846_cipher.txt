@@ -1,0 +1,84 @@
+# R9846, RAH Salazar A-30 — Lope Hurtado to Charles V, Rome 3/5 Feb 1524 — cipher transcription
+# Tokens separated as the scribe spaces them; [..] = clear words in the cipher; (?) = doubtful sign.
+# Alphabet follows lopehurtado/key_codes.tsv where a sign matches (7 8 4 m x ʒ ∞ ⊃ ɣ ℔ ʃ). NEW SIGNS:
+#   ω   loop sign like "oo"/"∞" joined (probably = 1522 ∞; value i)
+#   ʇʇ  double-crossed tt / "#"-like sign (value r; the scribe writes 2 and 3 crossbar variants —
+#       a triple-crossed form ʇʇʇ occurs in "sobervia" and may be b/v; not separated with certainty)
+#   ∂   d-like sign with loop to left, looks like Greek delta (TWO values seen: p in capua/poco/aparejo,
+#       t in tribucion/temen -> probably two distinct forms I cannot separate at this zoom)
+#   φ   phi / q with crossbar (u/v)
+#   σ   small o with horizontal stroke (d)
+#   ß   sharp-s / beta-like sign (a)
+#   ⊤   T with overbar, descender (u)
+#   ʑφ  z-with-tail joined to phi, written as one sign (y, the conjunction and letter)
+#   ρρ  double p-like looped sign (r)
+#   ♀   circle over cross (x)
+#   ⁝   dotted colon-like mark after xu (z, in "xu⁝8" haze)
+#   (   open bracket / c-with-dot (f in afloxando)
+#   ε   epsilon (l)
+#   q   q-shaped sign (l in salida)
+#   α   alpha / "a" with open loop (i in salida)
+#   9   9-shaped sign (d)
+#   b   b-shaped sign (t)  [NB not the letter-b]
+#   c   c-shaped letter-sign (s)
+#   f   f-shaped letter-sign when standing alone (c)
+#   z   z / "2"-shaped sign standing alone (n)
+#   y   y-shaped sign standing alone (o)
+#   ʋ   upsilon / "v" with curl (m)
+#   L   L-sign (r in remedio — CONTRADICTS 1522 L = i)
+#   ℮   e-like sign in "re|tirar" (r?)
+#   D   D-shaped sign after ʃop8r (in "biesse" slot; value unknown)
+# Codes are the three-letter latin-looking groups (ton, zar, xul ...), read as they look.
+# Clear-text lines are given in full in [brackets].
+
+== f. 130r (img P1, right page) ==
+c01 [Sacra Catolica Cesarea Magestad]  (heading)
+c02 [El ppa a holgado con la nueva dela venida de mussiur de beure]
+c03 [esperale con deseo sera provechosa su venida aqui en esta]
+c04 [coyuntura general mente para todos los negocios y particular]
+c05 [para] xul zar xug zil ∂ ʇʇ ω ∂ φ f ω y 4 ton ʃu ɣʇʇ ⊤ z 7 p ∂ɣ
+c06 f y r yeb r ʃel ℔ ʑφ ⊤ σ ß yaf ʋ 8 z 8 c b 8 ʇʇ xuc b ℔
+c07 ʃφ sub xug ∂ 7 q α 9 ß zarε ʃur xu⁝ 8 ℮8 b ω φ ß ʇʇ
+c08 xul c ɣun 8 c ton 9 y z zar zᵉ ɣof 4 xu⁝ 8 ⊃ 8 4 c 7 ʇʇ
+c09 xul ton ℔ zar ʃu ʇʇ zam tep ton xug zar b 8 ʇʇ xuq xur
+c10 f ω y z zarε taf yaf ton ʃan ʑφ 7 z ɣin ʇʇ ß zar xyg 8
+c11 sub ʃop 8 r D ℔ ∂ 7 ⊃ ρ ω m teg ℔ ʇʇ ß ♀ 7 ʇʇ xug ʃad ʇʇʇ 8 ʇʇ
+c12 ʇʇ ω 7 zarε tor ʑφ yuɣ ɣʇʇ ʇʇ 7 z zar f 8 ʇʇ ℔ rab ß ʋ 8
+c13 yo ʃid ton xul ton ω ʃʃ 8 7 ʑφ φ σ ß ʇʇ ω 7 ℔ yac ʑφ
+c14 ʃif zef ʋ 8 7 yo yif yub zed zar f ℔ ∂ ⊤ 7 8 y z ton
+c15 ℔ zun σ y ʃed ʇʇ y b y zu taf ton xul zar φ 8 xu⁝ 8 ʇʇ
+c16 ye yur 9 y ton teg ρρ 8 c ω c b ω ʇʇ zu b φ ʇʇ f y teg ʇʇ 8 ʋ 8
+c17 9 ω ʃʃ ʇʇ xul zar ε ⊤ b 8 ρρ ω y teg yub ʃad ʃub 8 ʃʃʇʇ m zar
+c18 xig ʋ 8 xar ʇʇ ω ʃ ß zar ʃed f 7 c ß yaf yub xiq L 8 ʋ 8 9 ω y
+c19 yuc xob zar f 8 ʇʇ ℔ rab [es ton en esto pero Como an visto los]
+c20 xob 9 8 c xic zar rab ʑφ yub ∂ m f m zun 4 y ton ʃu ℔
+c21 xod f z y yuc yon tog tif zar yol ʑφ zar yeg ʑφ yub xip
+c22 ʇʇ 8 f 7 φ 9 y ton za 7 ω zar yeb c ʑφ xug xob f m c b 7 teg
+c23 ʃad c b 8 z 8 ʇʇ yub yal ∂ 8 ʋ 8 4 ton rab tu ʃig xap ko(?)
+c24 tal ω m ʃad c b 8 z 8 ʇʇ ʑφ ton ℔ ( ε y ♀ ß z 9 y yub ter
+c25 ʃu f ß z c 8 ∂ zil f ω 8 ʇʇ b 8 ʑφ ton xul c yun 8 c ℔ ∂ ʇʇ ω z b 8 z
+# end of f.130r
+
+== f. 130v (img P3, left page) ==
+# extra signs on this page:  ∂̶ = the ∂-sign WITH a crossbar (p; the plain ∂ = t — see alignment);
+#   ɣ̶ = ɣ with crossed tail, written "ɣʇʇ" on f.130r (g);  m̲ = underlined m (f?, in "se funde");
+#   ⁞ = triple-dot / slash punctuation mark between phrases (no value)
+v01 ℔ ʃu 4 y ʇʇ 8 7 ʇʇ xul zar za yi ʋ 8 ʃed zaf ton un ʇʇe(?) 7 zar
+v02 9 y c f m c 7 c ∂ 8 4 ω 8 z 9 m rab ℔ ∂̶ 7 ʇʇ 8 ω m xul ton xon zar
+v03 ʃu 7 yaf ton yub tor ʃu zar c b ʇʇ φ ʑφ ℔ <∂8ʇʇo underlined> ton teg yif tu
+v04 ʃu m̲ φ z 9 8 rab ʃic ʃed c yeb c ton yi ton xob ʃm ʃu ∂̶ φ 8 9 8
+v05 ʃad c b 8 z 8 ʇʇ ʃob xug c zar ⊤ 9 7 c ʑφ ton yof ∂̶ 8 ʇʇ 9 ω 9 ℔
+v06 yof xug rac ∂̶ 8 ʇʇ ʑφ f ʇʇ m ton sub ʃop 8 c 8 xap teg ton
+v07 rab ∂̶ φ 8 9 7 ʃu ɣ̶ φ ω ʇʇ yif ton ℔ ʑφ φ 9 7 ʇʇ ω ß ʃab ʑφ
+v08 zi ∂̶ φ ʇʇʇ ω f y ⁞ tu ∂̶ φ 9 ω 8 z 9 y ʃu ʇʇ yif zar c 8 ß ton ʃu
+v09 ʃil c 8 zuc 8 z b y zar ʃom z φ tef zec ton xug c f y r 7 c zar
+v10 rab ʃob z ω 8 c 8 4 ℔ tef 8 c ω 9 ß σ tog ton xiq tof 9 m ʃu z ω f ω
+v11 8 c 8 ʑφ zil xon ʇʇ 8 ∂̶ φ b 7 f ω y 4 yub maz zarε taf yaf
+v12 yef ʃad ʇʇʇ ʇʇ 8 yof zar b 8 ʇʇ ʋω(?) z 7 f ω y z rab φ 8 ß [lo que]
+v13 [mas conviene a su servicio] ⁞ [y v. Mt mande ordenar Como vengan]
+v14 [mas despachos porque el] taf [tiene por muy grande] ω ʃ m z φ ʇʇ(?)
+v15 z ω 8 z b 8 [que en tiempo de tanta] tef 8 c ω 9 ß σ [saber tan pocas vezes]
+v16 zar rab ⁞ sub xug xax ʃu ℔ zar ʃu ɣ̶ φ ω ʇʇ teg zil c 8 ʇʇ φ(?) 7 ʇʇ(?)
+v17 ʑφ ʃu ɣ̶ φ ʇʇ 7 ℮o(?) yub ʇʇʇ ⊤ 8 z ℔ 4 ω ʋ y zarε taf yub xiq
+# (the clear on f.133r ends at "el buen animo"; transcription stopped here. v12-v16 middle and
+#  v16 end read at 2x only; v12 "ʋω" and v14 end are doubtful)

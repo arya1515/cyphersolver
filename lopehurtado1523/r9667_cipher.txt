@@ -1,0 +1,28 @@
+# R9667 cipher runs, Lope Hurtado de Mendoza to Charles V, Rome 5 May 1523. Transcribed 2026-09-21
+# from IMG_R9667_I45535_P1 (right = f.6r) and _P2 (left = f.6v). Clear text in [brackets].
+# Symbols follow lopehurtado/key_codes.tsv. Latin-letter trigrams are legible; single signs are
+# eye-transcriptions at ~2x zoom and are NOT reliable (see 1522 NOTES, 2026-09-20 downgrade).
+# Legend of new/approximate symbols:
+#   ℋ  = the looped "H/&"-like sign opening run A (same shape as 1522 ℋ before zarᵹ ɣᵹb)
+#   ɛ  = small "ε/3-with-tail" sign        ∂ = "d/ẟ" looped sign (distinct from latin d?)
+#   tt = crossed double-t sign             ff = long double-s/f ligature sign
+#   &  = "&/8 with open loop" sign         6/ɣ/8/7/4/L/x/m as in 1522
+#   ɋ  = "y/g"-like descender sign (1522 ɋ = y)
+# Note: faint mirrored writing at the top of f.6r (above "de la presion de bulterra") is show-through
+# of f.6v's first cipher lines (run E), not a separate run.
+
+## f.6r
+RUN A (margin "A"): [...no se tiene por servidor de V. Mt sino por esclavo]
+  ℋ zo yub taf tu fu | zar ɋ ɛ ʃ ʈ ʒ xon yuc ɋ L ∞ tt ti yuc tudd ɋ 8 x 7 7 ton xm | ton 4 ff rab
+  [y ya estan sin ninguna esperança de bien suyo. Al presente todo lo de aca va muy bien encaminado como entendera V. Mt mas largo por las letras del duque. En estas cosas]
+RUN B: ∂ ɋ yuc yof6 | ɋ md tt ɛ xu4 xard ztt ff x & xuld ɋ tt ∂ 7 x & d zar ʃu | xeg d ra ff xuL7 yun 8d ton L 8 8 4 d 7 L tto xard
+  [porque todos estan tan alegres de lo que el papa ha hecho como yo, y lo mismo Theodorico]
+RUN C: ton 8ʃ7 zar ɛ tin xon ʃu zar d ɋ 8 d ɋ tt ∂ 7 L ff
+  [Razon es que lo que el papa ha hecho y su voluntad meresca que V. Mt les haga merced de mandar hazer naturales destos reynos a los que son mas cerca de su Sd, el memorial de los quales va con esta (= slip f.7), ... dar al camarero y a Francisco los beneficios que el papa les dio en Flandes ... Pedro de Roma diziendo que no era natural. y que en Flandes]
+RUN D: xiLd ff rab | 4 ʃ L ∂ 8 7 x m rab xul ton t 7 x tto ∂ ff xiLd zun L 7 ɋ zi t8-   (hyphen: continues on f.6v)
+## f.6v
+RUN E (continuation): yiq ton yub taf xic yo ton rab 4 ʃ L ∂ 8 ɛ oo ton zar Bens.
+  [a sus criados.]
+RUN F: tu ton ɛ L yuc xm yiLɛ t8Lɛɋ oo6 ff xul d | fedz md yuc ʃedd tas6
+  [. al pressente me parece que esta provision seria necessaria para que mejor esten en lo que son obligados al servicio de V. Mt ...]
+(No further cipher on f.6v; the rest of the letter, to "De Roma a cinco de mayo MDxxiij", is clear.)
