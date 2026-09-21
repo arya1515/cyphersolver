@@ -2351,7 +2351,7 @@
     "R9236": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Forbes copy of cipher passages of five Smith letters (to Cecil 15 Oct, 20 Oct, 15/17 Dec 1562; to the Queen 4 Nov 1563; advertisements 31 Jan 1562/3); read with key R9261 (not R9262). 15 Oct and Dec agree with Forbes, Full View ii 119, 238; 4 Nov 1563 read in large part; 20 Oct and 31 Jan in part. Readings: smith1562/decipher_E.md.",
+     "note": "Forbes copy of cipher passages of five Smith letters (to Cecil 15 Oct, 20 Oct, 15/17 Dec 1562; to the Queen 4 Nov 1563; advertisements 31 Jan 1562/3); read with key R9261 (not R9262). 15 Oct, 20 Oct, 15/17 Dec 1562 agree with Forbes, Full View ii 119, 122, 238; 4 Nov 1563 agrees with CSP Foreign vi no. 1366; 31 Jan 1562/3 advertisements read only in fragments. Readings: smith1562/decipher_E.md.",
      "reading": null,
      "sent": false,
      "reading_not_needed": false

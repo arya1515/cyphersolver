@@ -89,3 +89,16 @@ this tyme is most necessarie."
 - block 1: 8̈ (l.2); c(h)arte/dis?che group (l.2); barred ⊖ at start of l.3; ƈ with bar (l.5, a person, sender from Rouen?);
   ẇ. and ẇ: (l.6); ξ̣ with dot (read as "he"/"him", uncertain); ‖ before "wrote" in l.5 (maybe part of ⊕|).
 - block 2: mostly unread; the name in (1), the sign in (2), the words in (3) and the whole last line.
+
+## Crib checks added after the first pass (21 Sept 2026)
+- 20 Oct 1562 = Forbes ii 122 (CSP F. 5 no. 880, "a few words in cipher, deciphered"). Plaintext of the passage:
+  "[Newhaven] is not so strong as supposed; if it were summer they would attempt to afray our men thence with a
+  garden [(2) Xπ6ξL3 = garden, 9πξL = side] of chamillion [(3), first read 'Chatillon'] upon the hill on this side ...
+  things begun there by [(4) France] be not perfit." All four passages now read (glyphs + Forbes).
+- 4 Nov 1563 = CSP F. 6 no. 1366: "De Montaigne, whose carte of La Rochelle he sends herewith, and under another
+  pretence has given him letters to the Lord Robert and Mr. Secretary, to whom he wrote from Rouen of the same matter.
+  The other letters he carried himself, and in the feat whereof he wrote, thinks he can do, but this at this time is
+  most necessary." The unread group "dis?che" = la Rochelle. Read in full.
+- 31 Jan 1562/3 advertisements: not in Forbes, not found in CSP F. 6 (Jan 26-31, Feb 1-5). (2) = "the queen of
+  Navarre" (name sign = French King / K. of Navarre, used with 'queen of'). (1) "Monsieur de [?]uy", (3) and the last
+  line remain fragments. This is the only part of R9236 not read.

@@ -40,10 +40,10 @@ Dunkirke, by, do. The clear English place names in the passages are these nulls.
 | R9250 | 159-60 | to Cecil, "22 Mar 1566/7" = 22 Mar 1565/6 | ~12/27 | CSP F. 8 no. 208 |
 | R9250 | 160 | to Cecil, 29 Apr 1566 | all 5 | CSP F. 8 no. 327 |
 | R9236 | 140 | to Cecil, 15 Oct 1562 | all 6 ("break with you and to make war", hostages, Rollet and Vyllemort) | Forbes ii 119 |
-| R9236 | 140 | to Cecil, 20 Oct 1562 | in part (Newhaven, Chatillon, France) | not found in print |
+| R9236 | 140 | to Cecil, 20 Oct 1562 | all 4 (Newhaven not so strong; "a garden of chamillion upon the hill on this side") | Forbes ii 122; CSP F. 5 no. 880 |
 | R9236 | 140 | to Cecil, 15/17 Dec 1562 | all 6 ("to trust no Frenchman of what religion soever he be") | Forbes ii 238 |
-| R9236 | 140 | to the Queen, 4 Nov 1563 | large part (Montaigne, letters to my Lord Robert and Mr Secretarie) | not checked |
-| R9236 | 140 | advertisements from France, 31 Jan 1562/3 | fragments | not checked |
+| R9236 | 140 | to the Queen, 4 Nov 1563 | all (Montaigne's carte of La Rochelle, letters to my Lord Robert and Mr Secretarie) | CSP F. 6 no. 1366 |
+| R9236 | 140 | advertisements from France, 31 Jan 1562/3 | (2) the queen of Navarre; rest fragments | not found in Forbes or CSP F. 6 |
 
 Full passage-by-passage readings: decipher_A.md (R9249, R9250), decipher_B.md (7 Mar 1562/3, partial),
 decipher_C.md (Avignon), decipher_D.md (Valence, Marseilles, Arles, Narbonne, Toulouse).
