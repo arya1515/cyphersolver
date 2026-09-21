@@ -1661,6 +1661,30 @@
   },
   "sp106box10": {
    "skip": "system B read only in fragments; no continuous reading to upload yet"
+  },
+  "burghley1559": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/burghley1559/NOTES.md (notes only, no site page)",
+   "key": {
+    "decode": "none needed (only two cipher groups; the key record R4851 in the same series is Randolph's cipher of 31 Aug 1559 and does not apply)"
+   },
+   "cite": "Arthur Clifford (ed.), The State Papers and Letters of Sir Ralph Sadler, vol. I (Edinburgh, 1809), no. XXXVI p. 437 (11 Sept) and no. XCVII pp. 526-527 (30 Oct), the cipher printed as deciphered by a contemporary hand",
+   "fields": {},
+   "records": {
+    "R4847": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Already in print (1809). The letter is in clear except two cipher groups: '② borrowed of me at his being at London + H oo' = 'Therle of Arrayn borrowed of me at his being at London 200 crowns' (② = the Earl of Arran; + H oo = 200 crowns), in the 'new ciphre' Cecil had just sent to Sadler.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R4860": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "Already in print (1809). The letter is wholly in clear: there is no cipher on either page.",
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }
