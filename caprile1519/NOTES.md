@@ -89,9 +89,25 @@ meeting ("la susseguente matina"), written as Ippolito was leaving Hungary (he c
 phrases such as "lettere per", "sempre", "presto", "saria meglio", "non se poteria", "dua milla", "questi altri",
 "Antonio" (M). Not a reading; the transcription (`r1137_transcription.txt`, one reader) needs checking.
 
-**R1128 (9 Mar 1519), not read.** Two-tier sign cipher of 1519 (7 lines). Its clear part and no. 2 (V1854,
-"In un'altra mia ve mandai in zifra…") show the subject is Caprile's own lawsuit at Rome ("le ragioni mie …
-l'adversario"). The 1882 decipherments of nos. 3–8 and 10 would give the key; not attempted.
+**R1128 (9 Mar 1519), attempted 21 Sept 2026, not read.** Two-tier sign cipher of 1519 (9 lines, 183 columns in
+`t1519.txt`). Its clear part and no. 2 (V1854, "In un'altra mia ve mandai in zifra…") show the subject is Caprile's own
+lawsuit at Rome ("le ragioni mie … l'adversario").
+
+What the attempt established about the 1519 system (from R1133 = no. 7a against its 1882 decipherment 7c, `crib1519.md`;
+full column transcription `t1133_full.txt`, 27 lines, 1327 columns, 16 % illegible in a faded band):
+- The 1519 letters are copies of reports to the King of France ("Sire", "vostra maestà christianissima": the 1519
+  imperial election, Joachim [Moltzan?] at the Polish court, Poncet, the Polish and Hungarian votes).
+- A column (small sign above a base sign 7, m, n, a, t, 4) is **one plaintext letter, homophonic**: "oratore" =
+  L/7 -/n u/7 x/7 c/7 m/n -/a. Seeded EM (`syl_em2.py`) holds c/7 = o (33×), L/7 = o (24), m/n = r (22), x/7 = t (19),
+  -/n = r (13), u/7 = a (12), -/a = e (8), d/m = i (`fixed1519.json`).
+- A **bracket-L sign with an inner sign is a nomenclator word**: the run [d][s][&] recurs exactly where 7c has "de
+  vostra maesta" (lines 3 and 4). [d] = de, [s] = vostra, [&] = maesta. 245 of 1327 columns in R1133 are such codes.
+- 1882 decipherment: 2,177 letters for R1133.
+Why R1128 stays unread: 39 of its 183 columns are code words (the codebook is known for three), and only 9 of some 40
+letter-column types have reliable values; a language-model anneal over R1133+R1134+R1128 with those fixed
+(`ann1519.py`, `key1519_ann.json`) gives only scattered words. Next step: a second, careful transcription of R1133 and of
+another 1882-paired letter (R1131/5b, R1132/6b) line by line against the decipherment, to fill the letter table and the
+codebook, then R1128.
 
 ## Log
 

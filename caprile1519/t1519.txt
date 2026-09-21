@@ -1,0 +1,38 @@
+R1128 L01: -/m r/[r] c/7 1/m a/7 a/4 y/7 d/n c/7 -/m x/m s/4 L/7 L/m &/m 1/m x/n -/[&] m/n #/#
+R1128 L02: f/7 &/m o/7 z/7 t/a -/[b] c/7 y/7 z/7 9/7 -/m b/m &/7 o/m s/7 m/[a] c/7 -/[t] -/[y] &/7 -/[d]
+R1128 L03: 9/m -/[r] L/n -/[z] 9/7 b/m -/[s] o/7 &/m o/7 z/7 -/[f] 9/7 -/[&] 9/n -/[o] -/a? -/[f] 9/7 -/[a] #/m
+R1128 L04: 1/m s/m d/m 1/m L/4 o/7 -/[&] 9/a 9/7 d/7 1/n k/4 m/7 -/[m] -/[c] f/7 y/7 9/7 o/m #/7 #/7
+R1128 L05: 1/n -/[r] 9/7 b/m o/7 r/m -/[t] -/m &/7 x?/4 b/7 f/7 9/7 -/[r] -/[b] 9/7 -/[c] f/7 y/7 &/7 -/[a]
+R1128 L06: r/7 d/7 f/n -/[a] 9/7 -/[r] o/7 z/7 k/n x/m m/n -/[g] d/7 -/[x] s/m o/7 m/m s?/4 -/7 -/[#] o/7 -/a
+R1128 L07: L/n -/[g] z/7 b/t -/[o] 1/2 -/7 m/n d/t -/[y] L/4 y/7 +/m -/[u] x/7 &/m s/m z/7 -/[r] c/7 c/t -/[&]
+R1128 L08: x/7 y/7 9/7 o/7 z/7 t/a 9/7 b/m L/m -/[s] m/n u/7 z/m 1/n 9/m 9/7 L/n c/7 s/m 9/7 h/m -/m
+R1128 L09: -/[b] c/7 x/7 b/n n/n c/7 -/m L/7 1/[r] c/7 -/[c] c/7 L/m
+# R1134: page edge torn/dark at left; right half faint - left portions read, faint remainder marked #
+R1134 L01: -/n L/m o/7 z/7 r/a s/m s/7 L/n -/[y] y/7 o/7 o/7 c/a L/n # # o/m -/7 -/[s] -/m #
+R1134 L02: L/7 t/a a/t 9/7 o/n -/m s/m 1/m o/7 9/7 9/m d/[?] y/7 n/n 9?/4 m/7 L/7 c/a # # #
+R1134 L03: z/7 -/[&] y/7 9/7 d/7 -/[x] 9/7 -/[y] -/m # 9/7 m?/m c/7 y/m n/d 9/7 a/m # L/7 -/[m] -/[y] -/m #
+R1134 L04: -/7 -/m # s/r? L/n z/7 g/7 b/t -/m -/[o] 1/n L/9 y/7 b/n # #
+R1134 L05: -/[n] x/7 -/[y] y/m a/t m/n 9/n c/7 n/m -/m d/m &/m -/[m] # -/[&] c/7 -/[s] -/[a] 9/a -/[c] -/m # #
+R1134 L06: -/[b] c/7 n/m m/4 s/7 -/[m] o/m -/[o] L/7 m/m -/[f] &/7 s/m -/[m] # # #
+R1134 L07: d/7 -/[x] 9/m 9/7 L/n -/[&] y/7 -/m x/7 9/7 -/[z] -/n k/n g/7 -/[o] L/n m/m # #
+R1134 L08: 9/n g/n L/4 s/7 m/7 -/[b] c/7 t/m 9/7 -/[s] u/7 &/m c/7 -/[d] 9/7 g/n -/[&] s/7 -/[b] c/7 n/m # #
+R1134 L09: z/m s/7 9/7 -/[y] o/7 o/m -/[o] 9/m -/[t] z/7 n/m u/n 1/a c/t d/7 -/[a] m/n f/7 -/m -/a #
+R1134 L10: s/n x/m -/[x] L/n o/m c/7 d/7 -/[y] L/4 y/7 -/[b] c/7 o/m c/7 d/7 -/[y] L/4 y/7 -/[b] c/7 f/7 9/7 -/n #
+R1134 L11: f/n -/[9] o/n b/t L/7 9/7 9/7 d/m -/[L] o/7 f/n -/[t] f/n -/[c] -/[&] b/a 9/m t/m 9/7 -/[s] u/7 &/m #
+R1134 L12: -/n -/[#] o/n b/t L/7 9/7 9/7 d/m s/7 1/n 9/7 b/t 3?/m s/7 9/7 -/[y] v/m -/7 -/[2] -/n
+# R1133: left edge dark/torn on first lines; right part faint (not read, marked #)
+R1133 L01: d/7 1/e a/7 -/[x] -/[s] -/[m] -/[f] 9/7 -/[9] o/7 -/[B] 1/m -/[y] 9/7 -/n #
+R1133 L02: L/7 &/m 9/7 9/m 9/7 9/7 c/m m/n n/n n/m -/n y/7 9/7 -/[z] L/7 -/n #
+R1133 L03: #/m &/m 9/7 -/[s] L/7 -/n u/7 x/7 c/7 m/n -/a -/[d] -/[s] -/[&] L/n c/7 n/m u/7 n/m -/7 #
+R1133 L04: #/# L/7 y/7 9/7 1/n &/7 -/[a] u/7 -/m y/7 o/n m/7 z/a 9/[d] -/[s] -/[&] a/n z/7 -/n #
+R1133 L05: L/m x/m 9/7 -/[y] o/m -/[o] b/n c/7 f/n -/[x] z/7 f/a -/[z] f/n 1/7 -/[y] s/n L/7 c/n -/[t] u/7 -/m #
+R1133 L06: -/[r] -/[L] -/m y/n 9/4 L/7 L/[n] x/7 L/r -/[s] -/[m] -/a b/m 1/7 z/m d/7 r/7 o/t -/[9] -/[&] -/n #
+R1133 L07: -/[c] f/7 g/# 9/7 b/m -/[f] -/[s] -/[9] -/a m/7 y/m n/[s] u/7 &/m -/[a] o/m 9/7 u/7 -/m a/[n] -/7 #
+R1133 L08: -/[b] m/4 x/7 m/n 9/n c/7 y/7 b/7 -/[a] -/[m] 9/7 -/[x] -/[a] m/n L/m -/[t] -/[m] g/7 #
+R1133 L09: p/n -/[n] n/m o/7 z/m -/m s/n m/[d] d/7 -/[&] -/[o] o/7 z/7 i/n b/m y/n s/n b/7 x/n #
+R1133 L10: o/7 9/7 9/7 d/m p/m y/7 d/a u/7 a/m L/4 -/[m] y/7 z/7 g/7 9/7 b/m -/[s] n/n &/m x/m -/4 #
+R1133 L11: u/7 x/7 o/7 d/t L/a -/m a/7 m/7 d/7 -/[x] 9/7 x/7 -/[n] d/7 -/[z] o/7 x/m L/4 y/7 -/m #
+R1133 L12: # # # # a/# b/# -/[s] y/# 9/# -/[u] o/# -/[d] -/[y] d/7 -/[z] o/7
+# COUNTS (633 columns: R1128 183, R1134 226, R1133 224)
+# BASE: 7 230, [bracket-L] 144, m 120, n 76, a 20, 4 17, t 12, # 8, singletons 2 d 9 e r r?
+# UPPER: - 183, 9 65, L 41, o 37, c 31, y 26, d 24, m 23, s 21, b 21, z 20, 1 18, x 18, & 17, f 14, n 14, u 12, a 11, g 7, # 6, r 5, t 5, k 3, p 2, + h v i 3? 1 each
