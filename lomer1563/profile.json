@@ -1,0 +1,130 @@
+{
+ "schema_version": 1,
+ "target": "lomer1563",
+ "title": "John Somer (\"Mr. Lomer\") to Secretary Cecil, Paris, 9 December 1563, BL Add MS 4136 ff. 138-139 (DECODE R9235)",
+ "documents": [
+  {
+   "id": "R9235",
+   "shelfmark": "BL Add MS 4136 ff. 138-139 (DECODE R9235)",
+   "date": "9 Dec 1563",
+   "year": 1563,
+   "country": "France",
+   "route": "Somer (Paris) to Cecil (London)",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "CSP Foreign vi (1869) no. 1471 (calendar summary of the deciphered original)",
+    "partial": true
+   },
+   "length": {
+    "tokens": 7,
+    "distinct": 6,
+    "unit": "mixed",
+    "measured": true,
+    "file": "transcription_p1.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (Forbes's copy of the ciphered passages)",
+    "image_quality": "good",
+    "notes": "Passages (1)-(10) on ff.138-139; only passage (1) lines 2-3 transcribed for the key check. f.138 top ends a Throckmorton letter; f.139 (11)-(17) marked Sr Tho: Smith."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "code"
+  ],
+  "summary": "Throckmorton's third cipher (R9262 p.1): homophonic alphabet of dotted digits and signs, word signs (τ = the), clear-word nulls (car, hault, bab…). Checked on passage (1).",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "kinds": [
+    "common words"
+   ]
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "notes": "Key from the archive (R9262); not Smith's key R9261."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Calendar of State Papers, Foreign, Elizabeth vi (1869), no. 1471 (\"Portions in cipher, deciphered\")",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "key from archive",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "text search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched R9235 (2 images) and metadata with the shared DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Record is composite: Throckmorton (41)-(54), Somer (1)-(10) signed J. Somer, Smith (11)-(17). \"Lomer\" = Somer.",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Smith's key R9261 compared: different signs. Clear nulls (car, hault, quant, apres) point to Throckmorton's third cipher R9262.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "CSP Foreign vi Nov-Dec 1563 pages searched for Somer: no. 1471, Paris 9 Dec 1563, portions in cipher, deciphered.",
+   "result": "worked"
+  },
+  {
+   "kind": "crib",
+   "what": "Applied R9262 values to passage (1): \"from the French ambassador advertised the same\", matching CSP §3.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": {
+   "H": 1
+  },
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "Deciphered at the time; calendared CSP Foreign vi no. 1471. Catalogue entry 95 removed, no write-up."
+ }
+}

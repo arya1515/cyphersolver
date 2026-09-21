@@ -3039,6 +3039,32 @@
      "reading_not_needed": true
     }
    }
+  },
+  "lomer1563": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/lomer1563/NOTES.md (notes only, no site page)",
+   "key": {
+    "decode": "R9262, Sir Nicholas Throckmorton's third cipher (same volume, f.180)"
+   },
+   "cite": "Calendar of State Papers, Foreign, Elizabeth vi (1869), no. 1471 (Somer to Cecil, Paris, 9 Dec 1563; portions in cipher, deciphered)",
+   "fields": {
+    "plaintext_lang": "English",
+    "cleartext_lang": "English",
+    "start_day": "9",
+    "start_month": "12",
+    "start_year": "1563",
+    "city": "Paris",
+    "author": "John Somer"
+   },
+   "records": {
+    "R9235": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Author is John Somer (misread 'Lomer'), Paris, 9 Dec 1563 = CSP Foreign vi no. 1471, deciphered at the time. Key: Throckmorton's third cipher R9262 (checked on passage 1: 'from the French ambassador ... advertised the same'). f.138 top (41)-(54) ends a Throckmorton despatch; f.139 (11)-(17) is marked 'Sr Tho: Smith'.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
