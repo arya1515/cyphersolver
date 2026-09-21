@@ -1810,6 +1810,30 @@
      "sent": false
     }
    }
+  },
+  "ormanetto1576": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/ormanetto1576.html",
+   "key": {
+    "decode": "none found (no Spain nunciature key of 1570-80 on DECODE)"
+   },
+   "cite": "none",
+   "fields": {},
+   "records": {
+    "R118": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not deciphered on the page. The Italian note beneath the figures ('Il Nuntio ha trattato col Sig.r Perez tutto quello che V.S. Ill.ma scrive con la cifra di 19 di sett.re ...') is a clear message, not the decipherment: tested as a crib against the first two lines it fits no better than shuffled controls (43 distinct tokens for 60 letters vs 47-51). The cipher (389 digits, some dotted, plus a barred 4) remains unread; no key found. The note dates the letter to autumn 1576 or 1577 (Rome's cipher of 19 September), not 9 Jan 1576.",
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R117": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "sent": false,
+     "reading_not_needed": true,
+     "note": "Not a cipher. The two pages (ff. 245-246) are a clear Spanish memorial, 'Copia del Memorial dado por parte del obispo de Pamplona', on the fruits of the see during the vacancy after Diego Ramírez (d. 27 Jan 1573) until Antonio Manrique's bulls (1575). The only figures are ducat sums in Roman numerals with the thousands sign (e.g. 'xbnUdn L-ix'), repeated in the margin; there is no ciphertext."
+    }
+   }
   }
  }
 }
