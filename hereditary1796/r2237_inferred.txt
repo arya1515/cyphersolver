@@ -1,0 +1,18 @@
+# Words completed by inference (alphabetical runs of the list + all letter constraints), not read directly.
+12_=certain 14_=engager 27_=traite 28_=usage 37_=due 39_=finir 43_=lettre 46_=opposition 48_=quil 51_=toujours 55_=zelande
+56_=alliance 57_=bienfait 60_=etatsgeneraux 62_=guillaume 67_=necessaire 69_=prince 74_=union 75_=visite
+80_=delivrance 81_=egalite 84_=excellence 88_=ilya 94_=quoique 96_=souvent 97_=toutes 99_=voyage 100_=decider
+118_=propositions 126_=sentiment 127_=attachement 130_=prochain 132_=jecompte 142_=mecontent 148_=point 17_=hollande
+61_=frederic
+# from R2239 context (21 Sept 2026)
+234_=paris 211_=des 240_=sans 159^5=con 241_=suisses
+116_=retour 64_=jai 7)208^2=abl 7)208^1=able
+98_=votre 224_=londres 229_=milord 162_=elgin 207_=comte 169_=haugwitz
+71_=reputation 49_=republique 5)136^1=assur 7)136^1=sur
+33_=xavier 2)31=le
+19_=larmes
+40_=grand 210_=demarches 95_=rassemblement 176_=journal 29_=vous 208_=defavorables 8)203=ir 7)222=en 237,1=p 5)196=us
+# from the Gedenkstukken no. 752 crib and context (21 Sept 2026)
+115_=abondance 202_=avantageux 79_=cabale 87_=habitude 36_=chiffre 159_=constant 209_=desireroient 219_=instructions 114_=misere 77_=assez 76_=y
+18^4=ja 3)18=obj 3)18^1=ob 172,1,5=hi 7)172=er 5)205^1=commun 5)205^3=comm 226,1,2,5=moi 185^2=pi 1)121^1=esper 245,1,2,3=ult 7)103=ien 154,6,7=nc 164,4,5=li 1)164^3=eu
+155,5,7,8=dau 7)202=eux 6)201=aires 151,2=a 9)151=ff 8)151=eff 236_=plan 160,1,2=co 171,6,7=lo 5)59=rer 216^4=la 235,3=t 6)222=den 7)106=ses 4)204=and 3)247=er 2)21=s 187,3=a 4)187=ux

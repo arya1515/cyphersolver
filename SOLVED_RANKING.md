@@ -187,6 +187,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p83 | **Mr Eichel → unknown**, TNA SP 106/7 image 0020 (DECODE R595) | 1758 | 2 | 1 | 3 | 1 | 3 | 3 | **1.95** | D 2: the right key had to be found among 22 records and its null rules applied. H 1: no message, a dummy sheet. N 3: DECODE listed it unsolved with the wrong key and "Russia" for Prussia. R 1: 139 groups, all void. F 3: clean hand, clear dockets. C 3: key on DECODE, nothing to transcribe beyond its record. |
 | p84 | **Diego López de Ayala (Brussels) → Cardinal Cisneros**, AGS Estado leg. 496 fol. 22 (DECODE R9954) | 1516 | 1 | 3 | 5 | 2 | 1 | 2 | **2.50** | D 1: a published sibling key applied. H 3: the regency's agent on offices, Queen Germaine and Charles's voyage. N 5: no reading anywhere. V 2: two thirds read. |
 | p85 | **Prince Frederick of Orange (London) → the Hereditary Prince, 7 May 1795**, KHA Koning Willem I inv. XVIII-3 (DECODE R2242) | 1795 | 1 | 3 | 5 | 3 | 1 | 3 | **2.70** | D 1: sibling key R1892 read it unchanged. H 3: Orange court-in-exile news, spring 1795. N 5: DECODE non-decrypted. V 3: word signs unread. |
+| p86 | **The Hereditary Prince (Berlin) → Prince Frederik, 12 Mar 1796**, KHA Prins Willem V inv. 337 (DECODE R2239) | 1796 | 4 | 3 | 3 | 3 | 2 | 4 | **3.25** | D 4: the system and a 150-entry list rebuilt from a sibling's decipherment, then a printed crib found. H 3: the Prussian démarche in Paris for the Orange restoration, 1796. N 3: body in print since 1906, opening new. V 4: one word open. |
 
 ## By single axis
 
@@ -481,3 +482,4 @@ Visconti 1727 provisional score: 0.25×1 + 0.25×1 + 0.20×2 + 0.10×1 + 0.10×3
 Eichel 1758 provisional score: 0.25×2 + 0.25×1 + 0.20×3 + 0.10×1 + 0.10×3 + 0.10×3 = **1.95** (p83): a cipher sheet made only of nulls and blank cells of key R596.
 Ayala to Cisneros 1516 provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×1 + 0.10×2 = **2.50** (p84): a Non-decrypted DECODE letter read (seven words open) with a published sibling key.
 Prince Frederick 1795 (R2242) provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **2.70** (p85): the R1892 key read it unchanged.
+Hereditary Prince 1796 (R2239) provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×4 = **3.25** (p86): a word-list code rebuilt from its sibling's decipherment, then completed with a printed crib.

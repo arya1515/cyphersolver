@@ -4526,6 +4526,29 @@
      "reading": []
     }
    }
+  },
+  "hereditary1796": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/hereditary1796.html",
+   "key": {
+    "file": "hereditary1796/key_wordlist.txt",
+    "lang": "FR",
+    "how": "numbered word list rebuilt from the contemporary decipherment bound in R2237 (same list), completed with Colenbrander's printed text as a crib"
+   },
+   "cite": "H. T. Colenbrander, Gedenkstukken der algemeene geschiedenis van Nederland II (1906), no. 752, pp. 910-911 (body printed, opening paragraph omitted)",
+   "fields": {},
+   "records": {
+    "R2239": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Word-list code: each group is a whole entry, chosen letters of an entry, or an entry cut by k letters at the front (k/N) or back (N^k). List rebuilt from R2237's bound decipherment; the body is printed in Colenbrander, Gedenkstukken II no. 752, as to Prince Frederik; the opening paragraph is not printed and is read here. One word (entry 244) open.",
+     "reading": "hereditary1796/r2239_reading.txt",
+     "sent": false,
+     "fields": {
+      "cipher_type": "code (numbered word list; whole words, letter positions, truncations)",
+      "receiver": "Prince Frederik of Orange-Nassau (per Colenbrander; filed with William V's papers)"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {

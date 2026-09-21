@@ -154,6 +154,7 @@
   "the conde de hernán núñez to baltasar de fuenmayor, stockholm, december 1674": "2026-09-21",
   "the duke of sessa to charles v, february–april 1523": "2026-09-21",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
+  "the hereditary prince to prince frederik, berlin, 12 march 1796": "2026-09-21",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
@@ -287,7 +288,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ecfd39ce66e4",
+   "hash": "06961440cec6",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -445,6 +446,11 @@
    "hash": "3896075f49c1",
    "updated": "2026-09-18"
   },
+  "hereditary1796": {
+   "first": "2026-09-21",
+   "hash": "3aed3b0292bf",
+   "updated": "2026-09-21"
+  },
   "hernannunez1674": {
    "first": "2026-09-21",
    "hash": "58de45457f09",
@@ -477,7 +483,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "db2eec9d70df",
+   "hash": "35b2f74b3274",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -977,7 +983,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "8657fda2b5d9",
+   "hash": "16c0e000ae63",
    "updated": "2026-09-21"
   },
   "yard1699": {

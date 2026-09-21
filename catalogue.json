@@ -3716,16 +3716,16 @@
    "counted": true,
    "year": 1795,
    "date": "1 Jan 1795 – 12 Mar 1796",
-   "title": "Willem Frederik, Prince of Orange-Nassau (1772-1843) (Berlin) to Prince William V, 1746-1805 / Prince William V, (1746-1805), 2 ciphertexts",
+   "title": "Willem Frederik, the Hereditary Prince (Berlin) to Prince William V, Dutch ciphered copies (R2236)",
    "correspondents": "Willem Frederik, Prince of Orange-Nassau (1772-1843) → Prince William V, 1746-1805 / Prince William V, (1746-1805)",
    "place": "Berlin, Prussia",
    "language": "Dutch",
    "region": "Low Countries",
    "period": "1701-1800",
-   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 337 (2 items)",
+   "shelfmark": "KHA The Hague, Prins Willem V, inv.nr. 337 (R2236)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R2236–R2239 (2 records): Non-decrypted, 7 pp., type not given; numerical; images login. Not viewed here. DECODE note: Date and origin of this letter, its sender and its destination could only be derived from its place in the archive of Stadholder William V and the cipher which was almost exclusivley used by the the hereditary prince, during his exile in Berlin and his parents…",
+   "status": "DECODE R2236: Non-decrypted, 4 pp., Dutch copies No 1 and No 2 (numbers to about 390) and a page of numbers to 2835. Its sibling R2239 (12 Mar 1796) was read here 21 Sept 2026 with the word list rebuilt from R2237 (see hereditary1796/); R2236 uses another list. Attempted, open.",
    "why": "Ciphered despatches of Willem Frederik, Prince of Orange-Nassau (1772-1843) to Prince William V, 1746-1805 / Prince William V, (1746-1805), 1 Jan 1795 – 12 Mar 1796; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
@@ -3737,19 +3737,15 @@
     {
      "label": "DECODE R2236",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/2236"
-    },
-    {
-     "label": "DECODE R2239",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2239"
     }
    ],
    "seen": "catalogue",
    "source": "DECODE",
    "decode_ids": [
-    2236,
-    2239
+    2236
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 219,
