@@ -3341,6 +3341,14 @@
     "reading": null,
     "sent": false,
     "reading_not_needed": true
+   },
+   "R8465": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Lee to Wolsey, Seville 15 April 1526. Three cipher lines on f. 238v read with Tomokiyo's Lee-Worcester key; the passage is printed deciphered in Letters and Papers Henry VIII iv no. 2097. Recipient is Wolsey.",
+    "reading": null,
+    "sent": false,
+    "reading_not_needed": true
    }
   }
  }

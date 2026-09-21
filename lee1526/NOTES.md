@@ -74,3 +74,17 @@ summary (Badcocke's letters; Schercce, a courier of the earl of Desmond's, arriv
 frontier; the Emperor to go to Italy in spring) agrees with the key test above. Tuke's decipherment, on the next leaf,
 is not among DECODE's images. Nothing new to read; closed and removed from the catalogue 21 Sept 2026, DECODE
 correction queued (status Decrypted at the time, recipient Wolsey, key R8566).
+
+## Catalogue 102: R8465 (Vesp. C III f. 238, Seville, 15 April 1526)
+
+Lee to Wolsey, holograph, 2 pp. Page 2 (f. 238v) has three lines of the Lee-Worcester sign cipher, with no gloss.
+Read here with Tomokiyo's key (DOC_8465 on the record is the same table), sign by sign:
+
+    πωc6v ε Ħ 4†v6v 4⊥ɔɔv πωcΔv / ?vx⊥+ ⅃ Ⱥ ‡(Emperor)-4 7ɔξ7447 0⊥x ... σ⊥ɔɔv - πωc6v / T ф 6 Δ97 00v ⅃ 4vv Ħ σ⊥cʒvcʒv
+    thynke yf your-grace speke somme thynge / herof to the Emperor-is ambassador [that now shal] come I thynke /
+    they wolde be gladde to see your-grace contente
+
+Letters and Papers Henry VIII iv no. 2097 already prints the passage in italics: "I think if your Grace speak something
+thereof to the Emperor's ambassador that now shall come, I think they will be glad to see your Grace content", with
+the note "The passage in cipher undeciphered" (no decipherment on the manuscript; the editors read it). The reading
+above agrees word for word. Found already in print; catalogue 102 removed 21 Sept 2026. Images git-ignored in img8465/.

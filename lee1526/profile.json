@@ -31,6 +31,35 @@
     "image_quality": "good",
     "notes": "Only the interlinear decipherment was transcribed; the sign cipher was spot-checked, not transcribed."
    }
+  },
+  {
+   "id": "R8465",
+   "shelfmark": "BL Cotton MS Vespasian C III f. 238 (DECODE R8465)",
+   "date": "1526-04-15",
+   "year": 1526,
+   "country": "England",
+   "route": "Spain (imperial court) -> England (Wolsey)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the manuscript; printed deciphered in Letters and Papers Henry VIII iv no. 2097."
+   },
+   "length": {
+    "tokens": 28,
+    "distinct": 23,
+    "unit": "mixed",
+    "measured": true,
+    "file": "r8465_reading.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R8465_I39080_P1-P2",
+    "image_quality": "good",
+    "notes": "Three cipher lines on f. 238v transcribed sign by sign; two or three signs doubtful."
+   }
   }
  ],
  "system": {
@@ -148,6 +177,30 @@
   {
    "kind": "literature search",
    "what": "Letters and Papers IV no. 4948 calendars R8582 as cipher with 'Decipher of the above by Tuke' at f. 276*; summary agrees (earl of Desmond's courier).",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "access",
+   "what": "Downloaded the two images of DECODE R8465 (catalogue 102) and its key document with the session cookie.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed the three cipher lines on f. 238v sign by sign.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Applied Tomokiyo's Lee-Worcester key (DOC_8465): 'thynke yf your grace speke somme thynge herof to the Emperoris ambassador ... come I thynke they wolde be gladde to see your grace contente'.",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Letters and Papers iv no. 2097 (BHO) prints the same passage deciphered in italics; the reading agrees.",
    "result": "worked",
    "date": "2026-09-21"
   }
