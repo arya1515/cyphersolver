@@ -75,6 +75,7 @@
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
+  "letters to and from ferenc rákóczi ii, 1707–1711": "2026-09-21",
   "lope de soria to charles v, genoa, 1523": "2026-09-19",
   "lope hurtado de mendoza (rome) to charles v, 1522": "2026-09-20",
   "lord cobham at ostend to walsingham, 20–22 march 1588": "2026-09-21",
@@ -214,7 +215,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "9fe2d430620a",
+   "hash": "e7241c10efdb",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -374,7 +375,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0c4d5415aa2c",
+   "hash": "b99ffc11af47",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -526,6 +527,11 @@
    "first": "2026-09-17",
    "hash": "b283aa4c0b52",
    "updated": "2026-09-17"
+  },
+  "rakoczi1704": {
+   "first": "2026-09-21",
+   "hash": "955879feb46e",
+   "updated": "2026-09-21"
   },
   "rakoczi1707": {
    "first": "2026-09-20",
@@ -714,7 +720,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "be7ca1fe5c05",
+   "hash": "d73fc79834f0",
    "updated": "2026-09-21"
   },
   "yard1699": {
