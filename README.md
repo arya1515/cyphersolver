@@ -378,6 +378,15 @@ cd richelieu && pip install requests && python build_ngrams.py && python solve.p
   design that the same solver does recover.
 - Before treating a catalogue item as unsolved, check the 19th-century printed editions (Avenel, Camden Society,
   Nuntiaturberichte) and the comment threads of the list posts. Six items so far were already solved in the open.
+- **The read bar.** A target is *read* when (1) at least 95% of its cipher tokens read as sense (`fraction_coherent`
+  where set, else `fraction_read`, measured from a reading file, not estimated); (2) no gap is left untried; (3) every
+  document in it is read (judged per letter: a group with one unread letter is *read in part*); and (4) what stays open is
+  scattered code groups or names, or pieces blocked from outside (no key material, too short, illegible, needs the archive).
+  Otherwise it is *read in part*. The state of the key is recorded separately (`outcome.key`: recovered / partial / none),
+  and open nomenclator codes are counted apart (`outcome.codes_open`), because historians call a letter deciphered with
+  scattered code gaps. There is no field standard to borrow: DECODE's status labels are assigned by each record's owner
+  (Megyesi et al., HistoCrypt 2019), and computational work calls ~95–98% token accuracy "solved" without fixing a
+  cut-off (Ravi & Knight 2011: Zodiac-408 at 97.8%). The bar, and the no-untried-gap condition, are this project's own.
 - Dates in notes are absolute. Sessions are dated so that "since" claims can be checked against the source lists' last-modified dates.
 
 ## Publication drafts

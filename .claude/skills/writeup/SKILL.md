@@ -62,6 +62,11 @@ Then record the result in the folder's `NOTES.md`, which the checker parses:
 - [n/a] retry: <reason, at least a few words>
 ```
 
+**Read or read in part?** Apply the read bar in README Conventions: at least 95% of cipher tokens read as sense
+(measured), no gap `not-attempted`, every document read, only scattered codes or externally blocked pieces open.
+Record `outcome.key` (recovered / partial / none) apart from the text class, `outcome.codes_open`, and each document's
+`read` state. `_check_writeup.py` checks the bar both ways (audit section F).
+
 Blockers: `no-key-material`, `too-short`, `illegible`, `needs-physical-access` count as outside the session.
 `open-codes` is allowed but keeps the target on the audit's list of workable partials (section E), and
 `not-attempted` is refused. Mirror the list into `profile.json` `outcome.gaps` and set `outcome.fraction_read`.

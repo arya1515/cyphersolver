@@ -28,6 +28,9 @@ DECODE is always updated when the work adds anything, even without a reading. A 
 open" or closed unread still gets its `decode_updates/queue.json` entry in the same session: corrected metadata,
 sibling and duplicate records, and any transcription (see the writeup skill, `decode_updates/queue.json` step).
 
+**"Read" means the read bar in README Conventions** (95% of tokens read as sense, measured; no gap untried; every
+letter read; only scattered codes or externally blocked pieces open). Record the key state separately.
+
 **"Read in part" is a stopping point only when every unread piece has an outside blocker** (no key material,
 too short, illegible, needs physical access). Otherwise keep going: work through the escalation steps in the
 writeup skill (section 0a: siblings, clear pages, known keys, print, key rebuild, retry) and aim for a full

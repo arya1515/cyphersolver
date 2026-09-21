@@ -114,6 +114,23 @@ ESCALATION = [
 ]
 PARTIAL = re.compile(r'status:\s*\**\s*(read in part|partly read|partial)|\bread in part\b', re.I)
 
+READ_BAR = 0.95    # README Conventions, "The read bar"; no field standard exists (DECODE status is owner-assigned)
+
+def read_bar(folder):
+    """(meets, reasons_not) for the read bar: coherent share >= 0.95, no gap not-attempted, every document read."""
+    try: prof = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+    except ValueError: return None, ['profile.json unreadable']
+    out = prof.get('outcome') or {}
+    frac = out.get('fraction_coherent', out.get('fraction_read'))
+    why = []
+    if not isinstance(frac, (int, float)): why.append('no numeric fraction_read')
+    elif frac < READ_BAR: why.append(f'{frac:.2f} < {READ_BAR} of text reads')
+    if any((g.get('blocker') == 'not-attempted') for g in out.get('gaps') or []): why.append('a gap is not-attempted')
+    docs_open = [d.get('id') for d in prof.get('documents') or [] if d.get('read') in ('read in part', 'not read')]
+    if docs_open: why.append('documents not read in full: ' + ', '.join(map(str, docs_open[:4])))
+    if out.get('fraction_read_method') == 'estimated': why.append('fraction_read is estimated, not measured')
+    return not why, why
+
 def section(text, name):
     m = re.search(rf'^##\s+{name}\b.*?$(.*?)(?=^##\s|\Z)', text, re.M | re.S | re.I)
     return m.group(1) if m else None
@@ -152,6 +169,7 @@ def partial_problems(folder):
             if not m: probs.append(f'escalation step "{k}" not done ({what})')
             elif m.group(1).lower().startswith('n') and len(m.group(2).strip(' :-')) < 10:
                 probs.append(f'escalation step "{k}" marked n/a without a reason')
+    if not out.get('key'): probs.append('profile.json outcome.key missing (recovered / partial / none: state of the key, apart from the text)')
     if 'fraction_read' not in out: probs.append('profile.json outcome.fraction_read missing (share of tokens read)')
     if not out.get('gaps'): probs.append('profile.json outcome.gaps missing (mirror the Remaining gaps list)')
     return True, probs, set(blockers) - EXTERNAL
@@ -234,6 +252,13 @@ def check_slug(slug):
                 good = False
         item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
     # a partial reading has to be justified before it is written up as one
+    for folder in sorted(folders):
+        try: cls = (json.loads(read(ROOT / folder / 'profile.json') or '{}').get('outcome') or {}).get('class')
+        except ValueError: cls = None
+        if cls == 'read':
+            ok, why = read_bar(folder)
+            item(ok, f'{folder}: "read" meets the read bar (README Conventions)' + ('' if ok else ': ' + '; '.join(why)),
+                 warn=any(w.startswith('no numeric') for w in why))
     for folder in sorted(folders):
         part, probs, _ = partial_problems(folder)
         if part:
@@ -329,6 +354,18 @@ def audit(brief=False):
         print(f'   {d}/  ({why})')
         if not brief:
             for p in probs: print(f'      - {p}')
+    # 6. the read bar, both ways (informational)
+    ready, below = [], []
+    for d in dirs:
+        try: cls = (json.loads(read(ROOT / d / 'profile.json') or '{}').get('outcome') or {}).get('class')
+        except ValueError: continue
+        if cls not in ('read', 'read in part'): continue
+        ok, why = read_bar(d)
+        if cls == 'read in part' and ok: ready.append(d)
+        if cls == 'read' and not ok and not any(w.startswith('no numeric') for w in why): below.append((d, why))
+    print(f'F. Read bar (README Conventions): read in part but meeting the bar: {len(ready)}; classed read but below it: {len(below)}')
+    for d in ready: print(f'   reclass to read?  {d}/')
+    for d, why in below: print(f'   below the bar     {d}/  ({"; ".join(why)})')
     return problems, gaps
 
 # ---------------------------------------------------------------------------
