@@ -97,8 +97,15 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   `fields` for corrected cipher type or language. Drop records that are only keys or unread siblings. Write each
   record's public reading to `decode_updates/decryptions/R<id>.txt` following `decode_updates/CLEANING_BRIEF.md`
   (the letter text only, gap conventions, no notes or markdown). Then
-  `python decode_updates/build.py <folder>` must report 0 gaps. If there is nothing to send (already read on
-  DECODE, nothing added), run `queue.py skip <folder> "<why>"`. See `decode_updates/PLAN.md`.
+  `python decode_updates/build.py <folder>` must report 0 gaps. See `decode_updates/PLAN.md`.
+
+  **Whenever DECODE is wrong, queue the correction, even with no new reading.** Compare every record's DECODE
+  metadata with what the work found: status, language (cleartext and plaintext), date, place, sender, receiver,
+  cipher type. Any mismatch goes in `fields`, and the status goes in `proposed`. A record read from a
+  decipherment already imaged on it, or from a key already on DECODE, is still queued: `proposed: "Decrypted"`,
+  `reading: null`, `"reading_not_needed": true`, and a `note` naming where the reading is (the `sauli1579` and
+  `poupet1522` entries show the pattern). Use `queue.py skip <folder> "<why>"` only when every field and the status
+  on DECODE are already right and nothing is added; the reason must say so.
 - `unpublished/solved.html` (solved and partly read only; optional while the page is unpublished): a `<tr>` in the right table, then recount the sentences in
   "The short version" (items, read in full, in long stretches, to a solver, to a sibling or key).
 
