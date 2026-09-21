@@ -691,6 +691,11 @@ PAGES = [
          blurb='DECODE R1941 holds a letter and its annex in a plain numerical code reaching at least 1339: 303 groups, 222 distinct. The archive inventory places it with the commissioners for the districts ceded around Zevenaar, writing from D&uuml;sseldorf in the Grand Duchy of Berg. No key is on DECODE, Croiset&rsquo;s 1803 book does not fit, and Colenbrander does not print it.',
          quote='&ldquo;602 441 373&rdquo;, three times: probably a name or title',
          rights='Nationaal Archief, via DECODE'),
+    dict(slug='roell1809', label='Roell to Van Dedem 1809', year='1809', y=1809.1, place='Amsterdam &rarr; Constantinople', st='stuck', stt='key not found',
+         title='Roell to Van Dedem, 9 February 1809 &mdash; transcribed, no key survives online',
+         blurb='Two unsigned code letters in the papers of the Dutch legation at Constantinople, DECODE R1469 and R1470, attributed to the foreign minister W. F. R&ouml;ell. The 13 pages hold 2,585 groups of a heavily homophonic code reaching about 3,300, with no decipherment. The code is not the 1788&ndash;93 Dedem code, nor the Spaen 1808 or Fagel 1804 codes, and no key is on DECODE or in R&ouml;ell&rsquo;s papers.',
+         quote='&ldquo;1390 &middot; 460 &middot; 1576 &middot; 804&rdquo;: the commonest groups, none above one per cent',
+         rights='Manuscript: Nationaal Archief, The Hague, via DECODE'),
     dict(slug='fagel1804', label='Fagel 1804', year='1804', y=1804.5, place='The Hague &rarr; William V in exile', st='stuck', stt='key not found',
          title='Robert Fagel to William V, 18 June 1804 &mdash; transcribed, every online key ruled out',
          blurb='DECODE R2238 carries 128 groups of a French syllabic nomenclator reaching at least 2510, in a letter on the 1804 settlement of the House of Orange&rsquo;s claims. Euler&rsquo;s Grand Chiffre (direct, with its additive table and under 5,000 renumberings), all KHA and Fagel family keys in DECODE, and the British Library and Uppsala French codes were tested and ruled out. The key is most likely in the undigitised KHA packet A31-902.',
@@ -785,6 +790,7 @@ IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch o
 IMAGES['haga1620'] = ('haga1620_lead.jpg', 'R2113 p.2, Constantinople 31 March 1620: clear Dutch with the cipher spans inline, (44) ende (45) arbeiden bij (4) om tyt te winnen', 'Nationaal Archief, The Hague, via DECODE R2113')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
 IMAGES['nevers1589'] = ('nevers1589_lead.jpg', 'BnF Fran\u00e7ais 3977 f. 318: the Recueil sommaire of letters written in cipher by the King\u2019s enemies, September and October 1589 \u2014 a digest in clear French, the cipher itself elsewhere', 'Biblioth\u00e8que nationale de France')
+IMAGES['roell1809'] = ('roell1809_lead.jpg', 'R1469, first page: &ldquo;Monsieur&rdquo; and the opening rows of code, with line numbers in the margin', 'Nationaal Archief, The Hague, via DECODE R1469')
 IMAGES['rechteren1785'] = ('rechteren1785_lead.jpg', 'Head of the deciphered letter, &ldquo;Ont cyfferde Missive&rdquo;, 23 Sept/4 Oct 1785, with the cipher groups down the margin', 'Nationaal Archief, The Hague, via DECODE R1039')
 IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispatch no. 16, Berlin, 31 January 1801, fol. 295', 'Nationaal Archief, The Hague, via DECODE R1946')
 IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')

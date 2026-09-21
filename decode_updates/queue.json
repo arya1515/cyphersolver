@@ -2810,6 +2810,34 @@
      "sent": false
     }
    }
+  },
+  "roell1809": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/roell1809.html",
+   "key": {
+    "decode": "none: no key found (metadata correction only)"
+   },
+   "cite": null,
+   "fields": {
+    "cipher_types": "code, homophonic"
+   },
+   "records": {
+    "R1469": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Homophonic numerical code (2,585 groups over both records, 931 distinct, to ~3,300; no group above ~1%), not a Croiset marked nomenclator and not the Dedem 1788-93 legation code. No decipherment on the scans, no key found. Parsed group files in the cyphersolver repository.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R1470": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Homophonic numerical code (2,585 groups over both records, 931 distinct, to ~3,300; no group above ~1%), not a Croiset marked nomenclator and not the Dedem 1788-93 legation code. No decipherment on the scans, no key found. Parsed group files in the cyphersolver repository.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

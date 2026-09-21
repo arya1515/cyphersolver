@@ -114,6 +114,7 @@
   "richard forster, 1644": "2026-09-16",
   "robert fagel to william v, 18 june 1804": "2026-09-21",
   "robert yard to the earl of manchester, whitehall, 12 and 16 october 1699": "2026-09-18",
+  "roell to van dedem, 9 february 1809": "2026-09-21",
   "roosevelt cryptogram, 1935": "2026-09-16",
   "sauli and riario, portugal to the secretariat, 1579–81": "2026-09-21",
   "schmeh’s top 50": "2026-09-15",
@@ -239,7 +240,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "06c5ac5c3451",
+   "hash": "d28110e50887",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -414,7 +415,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "0aed4a69fde6",
+   "hash": "0b46c3571c61",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -627,6 +628,11 @@
    "hash": "89201174d4d8",
    "updated": "2026-09-21"
   },
+  "roell1809": {
+   "first": "2026-09-21",
+   "hash": "06fcf3c137ad",
+   "updated": "2026-09-21"
+  },
   "rome1536": {
    "first": "2026-09-21",
    "hash": "c51dbf3c4ff8",
@@ -829,7 +835,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "82de5521b9b7",
+   "hash": "f5d5bcd9237d",
    "updated": "2026-09-21"
   },
   "yard1699": {

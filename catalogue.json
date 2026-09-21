@@ -5685,7 +5685,7 @@
    "shelfmark": "NA The Hague, legatie Turkije, inv.nr. 804 (2 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1469–R1470 (2 records): Non-decrypted, 13 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: One of two unsolved letters, one with the date indicated in the name of the document en one without date, probably written by the Minister ofForeign Affairs in the Kingdom of Holland to his ambassador in Turkey. These letters are not addressed nor signed, but …",
+   "status": "DECODE R1469-R1470 viewed 21 Sept 2026 (roell1809/). 13 pages of code throughout, unaddressed and unsigned; no decipherment on the scans. 2,585 groups (931 distinct) to about 3,300, heavily homophonic (no group above ~1%), not alphabetical. Not the 1788-93 Dedem code (overlap at chance), nor the Spaen 1808 or Fagel 1804 codes. No DECODE key; Roell's papers (NA 2.21.008.78) list letters from Dedem and from S. F. Croiset 1808-09 but no codebook. Not breakable without the key or a crib.",
    "why": "Ciphered despatches of Willem Frederik Roell (1767-1829), minister of Foreign Affairs to Frederik Gijsbertvan Dedem tot de Gelder (1743-1820), 9 Feb 1809; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 3,
@@ -5709,7 +5709,8 @@
     1469,
     1470
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 234,
