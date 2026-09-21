@@ -202,6 +202,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 **Etienne Bourdeaux (Berlin) → Maarten van der Goes (1801; catalogue 228)** — read from the ministry’s contemporary clear copy, which DECODE had imaged under the neighbouring record R1946; no cryptanalysis, the code groups not aligned. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1944.html).
 
+**Charles de Poupet, sieur de La Chaulx (Vitoria) → Charles V (1522; catalogue 150)**: read at the time. The contemporary decipherment is bound in with the letter (BNE 39/2); one line aligned, key not rebuilt. Ranked as source identification, not as a solve. [Write-up](https://dbourdeau.github.io/cyphersolver/poupet1522.html).
+
 **Dirk van Hogendorp (St Petersburg) → Maarten van der Goes (1803; catalogue 227)** — content identified from Sillem&rsquo;s 1890 account and its explicit footnote to ciphered dispatch no. 12; the matching archive codebook was found, but the 286 groups have not been aligned to a verbatim plaintext. This is ranked as source identification, not as a cryptanalytic solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).
 
 **Beatrice d'Aragona (1482–1505; catalogue 160)** — source identification, not ranked as a new cryptanalytic solve. Four readings in MDE III–IV (1877–78); R1154 plain and dated 1505, with Berzeviczy (1914) no. CCCII as control. March editorial markers remain unverified. [Write-up](https://dbourdeau.github.io/cyphersolver/beatrice1482.html).

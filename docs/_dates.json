@@ -30,6 +30,7 @@
   "catherine de médicis to the bishop of rennes, 31 july 1563": "2026-09-20",
   "catokwacopa, 1875": "2026-09-15",
   "censorship manual steganograms, ww2": "2026-09-15",
+  "charles de poupet de la chaulx to charles v, vitoria, 28 may 1522": "2026-09-21",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
   "charles i, 1648": "2026-09-15",
   "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
@@ -215,7 +216,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e7241c10efdb",
+   "hash": "e9813ba83a82",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -375,7 +376,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "b99ffc11af47",
+   "hash": "40a94b77cada",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -502,6 +503,11 @@
    "first": "2026-09-18",
    "hash": "e90d1c359576",
    "updated": "2026-09-18"
+  },
+  "poupet1522": {
+   "first": "2026-09-21",
+   "hash": "687dd5d0cbc7",
+   "updated": "2026-09-21"
   },
   "r1892": {
    "first": "2026-09-21",
@@ -720,7 +726,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "d73fc79834f0",
+   "hash": "0a7819a2cfd2",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -3676,41 +3676,6 @@
    "scored": "rule"
   },
   {
-   "id": 150,
-   "counted": true,
-   "year": 1522,
-   "date": "1 Jan 1522",
-   "title": "Charles Poupet de Lachaulx to Charles I",
-   "correspondents": "Charles Poupet de Lachaulx → Charles I",
-   "place": "Madrid",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "National Library of Spain, MSS/20212/39/1-2",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R1187: Partially decrypted, 18 pp., homophonic, simple substitution; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive. See other related manuscripts on http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html.",
-   "why": "Ciphered letter of Charles Poupet de Lachaulx to Charles I, 1 Jan 1522; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1187",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1187"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1187
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 151,
    "counted": true,
    "year": 1522,

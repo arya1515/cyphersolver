@@ -1990,6 +1990,24 @@
      "sent": false
     }
    }
+  },
+  "poupet1522": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/poupet1522.html",
+   "key": {
+    "decode": "TODO: DECODE id of the key, or replace with file/lang/how"
+   },
+   "cite": "TODO or null",
+   "fields": {},
+   "records": {
+    "R1187": {
+     "decode_status": "Partially decrypted",
+     "proposed": "TODO",
+     "note": "TODO",
+     "reading": "TODO",
+     "sent": false
+    }
+   },
+   "skip": "Contemporary decipherment already imaged on R1187 (39/2); nothing new to send beyond metadata: language French not Spanish, date 28 May 1522"
   }
  }
 }
