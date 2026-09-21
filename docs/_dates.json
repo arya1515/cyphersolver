@@ -32,6 +32,7 @@
   "censorship manual steganograms, ww2": "2026-09-15",
   "charles de poupet de la chaulx to charles v, vitoria, 28 may 1522": "2026-09-21",
   "charles i and nicholas to boswell, 1643": "2026-09-15",
+  "charles i to prince rupert, 29 april 1645": "2026-09-21",
   "charles i, 1648": "2026-09-15",
   "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
   "charles ix to philibert du croc, undated (1565–67 or 1572)": "2026-09-20",
@@ -232,7 +233,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "581ed4d982fc",
+   "hash": "8d98a768c3e9",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -397,7 +398,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "73e54b7db4d7",
+   "hash": "867434f920ea",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -615,6 +616,11 @@
    "hash": "9ac4b91cc028",
    "updated": "2026-09-16"
   },
+  "rupert1645": {
+   "first": "2026-09-21",
+   "hash": "e65918320435",
+   "updated": "2026-09-21"
+  },
   "sadoleto1482": {
    "first": "2026-09-19",
    "hash": "597064887209",
@@ -792,7 +798,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "cbb4399fab7b",
+   "hash": "504517775c06",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -823,41 +823,6 @@
    "scored": "rule"
   },
   {
-   "id": 71,
-   "counted": true,
-   "year": 1645,
-   "date": "29 Apr 1645",
-   "title": "King Charles I (Oxford) to Prince Rupert",
-   "correspondents": "King Charles I → Prince Rupert",
-   "place": "Oxford",
-   "language": "English",
-   "region": "England",
-   "period": "1611-1650",
-   "shelfmark": "BL, Add MS 18983, f 14",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R4921: Non-decrypted, 1 pp., unknown; numerical; images login. Not viewed here. DECODE note: Noted in top right-hand corner as 'Duplicate' but evidently written in the King's hand and with his signature. Largely in (undeciphered) cipher. 17th-century endorsement notes the cipher but not the contents.",
-   "why": "Ciphered letter of King Charles I to Prince Rupert, 29 Apr 1645; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 1,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R4921",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/4921"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    4921
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 72,
    "counted": true,
    "year": 1753,

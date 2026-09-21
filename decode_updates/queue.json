@@ -2569,6 +2569,25 @@
      "reading_not_needed": true
     }
    }
+  },
+  "rupert1645": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/rupert1645.html",
+   "key": {
+    "decode": "R929"
+   },
+   "cite": null,
+   "fields": {
+    "cipher_types": "homophonic, nomenclator"
+   },
+   "records": {
+    "R4921": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with George Lasry's reconstructed key TNA SP106-5 (on R929, the King-Queen cipher) applied unchanged: the King cannot convoy his artillery train and asks Rupert to march speedily and fetch it. Groups 81-98 are outside the key; about 15 code groups stay open.",
+     "reading": "rupert1645/reading.md",
+     "sent": false
+    }
+   }
   }
  }
 }

@@ -169,6 +169,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p66 | **Arend Willem van Reede (Berlin) → Stadholder William V**, KHA Prins Willem V inv. 205 (DECODE R1057) | 4 Feb 1792 | 1 | 2 | 3 | 1 | 1 | 4 | **1.95** | D 1: archive key already in use; one transcription slip. H 2: the despatch itself was in invisible ink on the lost enclosure; this is the cover note. N 3: glossed at the time, DECODE gloss garbled, never read through. V 4: every message group read. |
 | p67 | **Cesare Alberico Lucini (Madrid) → the Secretariat of State**, AAV Segr. Stato Spagna 304 (DECODE R120) | 13 Oct 1767 | 1 | 3 | 3 | 2 | 1 | 4 | **2.30** | D 1: Lasry's key was on the record. H 3: the nuncio's reading of Charles III's campaign against the clergy after the 1766 riots and the Jesuit expulsion. N 3: never decrypted, but the key existed. R 2: one sentence of 82 tokens. V 4: read in sense; one code open. |
 | p68 | **Edward Wotton (Scotland) → Walsingham**, BL Add MS 32657 (DECODE R4841–R4843) | 25 Aug – 1 Sep 1585 | 1 | 3 | 3 | 2 | 1 | 4 | **2.30** | D 1: clear drafts, nothing to break; only a name code identified from context. H 3: Gray's plan with England to seize the King and bring down Arran, three months before Stirling. N 3: listed non-decrypted; probably calendared in CSP Scotland 8, not checked. R 2: twelve pages, eleven code numbers. V 4: drafts read in full; four codes open. |
+| p69 | **Charles I (Oxford) → Prince Rupert**, BL Add MS 18983 f. 14 (DECODE R4921) | 29 Apr 1645 | 2 | 4 | 5 | 3 | 1 | 3 | **3.20** | D 2: a published key from a sibling cipher family, found by matching group shapes against a period tally. H 4: the King's own call on Rupert to march on Oxford, a week before the campaign that ended at Naseby. N 5: no reading anywhere before. V 3: about 15 code groups open. |
 
 ## By single axis
 
@@ -435,3 +436,5 @@ Van Reede to William V 1792 provisional score: 0.25×1 + 0.25×2 + 0.20×3 + 0.1
 
 Lucini 1767 provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×2 + 0.10×1 + 0.10×4 = **2.30** (p67): a published key applied to one unread ciphered sentence, with one code corrected.
 Wotton 1585 provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×2 + 0.10×1 + 0.10×4 = **2.30** (p68): catalogued ciphers that turned out to be clear drafts; the work was naming the code numbers.
+
+Charles I → Rupert 1645 provisional score: 0.25×2 + 0.25×4 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **3.20** (p69): Lasry's King–Queen key applied unchanged to a letter catalogued as unread.
