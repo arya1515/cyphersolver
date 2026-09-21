@@ -13,8 +13,19 @@
    "language": "Spanish",
    "pages": 8,
    "cleartext_in_document": "separate passages",
-   "plaintext": {"location": ["none"], "source": "No decipherment on the letter or its duplicate; Bergenroth's CSP Spain vol. 2 skips it. Sibling letters in the same cipher carry the court's decipherments (ff. 140, 172, 324).", "partial": false},
-   "length": {"tokens": "unknown", "unit": "mixed", "measured": false, "file": "transcription_f128.txt"},
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the letter or its duplicate; Bergenroth's CSP Spain vol. 2 skips it. Sibling letters in the same cipher carry the court's decipherments (ff. 140, 172, 324).",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "transcription_f128.txt"
+   },
    "transcription": {
     "by": "llm from images",
     "source": "DECODE images (R9877, R9878), cut into token tiles by tokens.py",
@@ -24,14 +35,35 @@
   }
  ],
  "system": {
-  "types": ["nomenclator", "homophonic"],
+  "types": [
+   "nomenclator",
+   "homophonic"
+  ],
   "summary": "Mixed nomenclator: three-letter code groups for words, names and syllables plus single letters and signs for spelling, with a clear/cipher switch sign and a null paragraph opener.",
   "symbol_kind": "letters and symbols",
   "distinct_symbols": "unknown",
-  "diacritics": {"used": "unknown"},
-  "homophones": {"used": true},
-  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["syllables", "common words", "names", "places", "titles"], "unread_groups": 4},
-  "nulls": {"present": true, "count": "unknown"},
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": 4
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
   "key_order": "unknown",
   "word_division": "none",
   "doubled_letters": "unknown",
@@ -39,23 +71,74 @@
   "notes": "About 110 code groups and the letter alphabet recovered (README). Homophones: several code variants (no ler/lex, con tat/tar). f~ switches clear/cipher; 'v db' is a null opener."
  },
  "conditions": {
-  "prior_solution": {"exists": "no", "where": "DECODE lists it Non-decrypted; not in CSP Spain; only sibling letters carry decipherments", "found": "not found", "used": false},
-  "inputs": ["images", "cleartext context", "sibling key"],
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE lists it Non-decrypted; not in CSP Spain; only sibling letters carry decipherments",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "sibling key"
+  ],
   "attack": "sibling key",
   "human_role": "Downloaded DECODE images logged in and supplied the DECODE cookie",
-  "tools": ["tokens.py (token tiles)", "tmatch.py (template matching)"],
-  "models": ["claude-fable-5-1", "claude-opus-5"],
+  "tools": [
+   "tokens.py (token tiles)",
+   "tmatch.py (template matching)"
+  ],
+  "models": [
+   "claude-fable-5-1",
+   "claude-opus-5"
+  ],
   "sessions": "unknown",
   "first_date": "2026-09-18",
   "last_date": "2026-09-18"
  },
  "solution": [
-  {"date": "2026-09-18", "kind": "literature search", "what": "Identified DECODE's '1424' as 1524, the Duke of Sessa, Salazar A-31, and located the decrypted siblings in CSP Spain vol. 2.", "result": "worked"},
-  {"date": "2026-09-18", "kind": "transcription", "what": "Cut every cipher line of f. 128 and the siblings into token tiles; collated the duplicate f. 130.", "result": "worked"},
-  {"date": "2026-09-18", "kind": "sibling key", "what": "Passes 1-9: aligned sibling ciphers (ff. 138, 168v, 170-171, 322) against their clears to assign code and letter values.", "result": "partial"},
-  {"date": "2026-09-18", "kind": "sibling key", "what": "Passes 10-13: 1525 and July 1524 siblings (R9897, R9898, R9893) settled rad, lif, hud, zum and others.", "result": "partial"},
-  {"date": "2026-09-18", "kind": "sibling key", "what": "Pass 14: template matching over the seven 1523 decrypted letters gave z y = -on; vo, per, ruc, hay remain unattested.", "result": "partial"},
-  {"date": "2026-09-18", "kind": "reading", "what": "Word-level reading of the nine cipher lines, with four groups and one clause open.", "result": "partial"}
+  {
+   "date": "2026-09-18",
+   "kind": "literature search",
+   "what": "Identified DECODE's '1424' as 1524, the Duke of Sessa, Salazar A-31, and located the decrypted siblings in CSP Spain vol. 2.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "transcription",
+   "what": "Cut every cipher line of f. 128 and the siblings into token tiles; collated the duplicate f. 130.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Passes 1-9: aligned sibling ciphers (ff. 138, 168v, 170-171, 322) against their clears to assign code and letter values.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Passes 10-13: 1525 and July 1524 siblings (R9897, R9898, R9893) settled rad, lif, hud, zum and others.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "sibling key",
+   "what": "Pass 14: template matching over the seven 1523 decrypted letters gave z y = -on; vo, per, ruc, hay remain unattested.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "reading",
+   "what": "Word-level reading of the nine cipher lines, with four groups and one clause open.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Retry of the open groups (vo, per, ruc, hay, m-re clause) with the pass-15 key over the new full R9660 transcription; ruc gets five contexts (a verb/adjective root), none fixes a value; vo/per absent.",
+   "result": "failed"
+  }
  ],
  "outcome": {
   "class": "read in part",
@@ -66,10 +149,26 @@
   ],
   "notes": "Residue: vo, per, ruc, hay, and the clause 'los m-re que r-ido'. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
   "gaps": [
-   {"item": "group `vo` (noun after *las dichas*, f. 128r)", "blocker": "open-codes", "detail": "matches nowhere in the downloaded pages (pass 14 template search)"},
-   {"item": "group `per`", "blocker": "open-codes", "detail": "matches nowhere in the downloaded pages (pass 14)"},
-   {"item": "groups `ruc`/`rus` and `hay`", "blocker": "open-codes", "detail": "occur only in R9873 (14 Apr 1524), which has no decipherment"},
-   {"item": "clause *los m-re que r-ido los que no m-r-e-van*", "blocker": "open-codes", "detail": "one sign value (probably `v`) still wrong after 14 passes"}
+   {
+    "item": "group `vo` (noun after *las dichas*, f. 128r)",
+    "blocker": "open-codes",
+    "detail": "matches nowhere in the downloaded pages (pass 14 template search)"
+   },
+   {
+    "item": "group `per`",
+    "blocker": "open-codes",
+    "detail": "matches nowhere in the downloaded pages (pass 14)"
+   },
+   {
+    "item": "groups `ruc`/`rus` and `hay`",
+    "blocker": "no-key-material",
+    "detail": "only in R9873 and R9660, neither deciphered; R9660 contexts do not fix it"
+   },
+   {
+    "item": "clause *los m-re que r-ido los que no m-r-e-van*",
+    "blocker": "open-codes",
+    "detail": "one sign value (probably `v`) still wrong after 14 passes"
+   }
   ]
  }
 }

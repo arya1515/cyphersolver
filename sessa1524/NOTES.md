@@ -114,7 +114,7 @@ Then `python tokens.py <img> x0 y0 x1 y1 tok/<name>.png` per cipher line and sea
 ## Remaining gaps
 - group `vo` (noun after *las dichas*, f. 128r) - blocker: open-codes; matches nowhere in the downloaded pages (pass 14 template search)
 - group `per` - blocker: open-codes; matches nowhere in the downloaded pages (pass 14)
-- groups `ruc`/`rus` and `hay` - blocker: open-codes; occur only in R9873 (14 Apr 1524), which has no decipherment
+- groups `ruc`/`rus` and `hay` - blocker: no-key-material; occur only in R9873 (1524) and R9660 (1523), neither with a decipherment; five R9660 contexts do not fix `ruc`
 - clause *los m-re que r-ido los que no m-r-e-van* - blocker: open-codes; one sign value (probably `v`) still wrong after 14 passes
 
 ## Escalation
@@ -123,4 +123,4 @@ Then `python tokens.py <img> x0 y0 x1 y1 tok/<name>.png` per cipher line and sea
 - [x] known-keys: one cipher throughout 1523-25; the key was built from its own siblings, no other key of the series is known
 - [x] print: Bergenroth CSP Spain vol. 2 checked; this letter is not calendared (only Lope Hurtado's no. 642)
 - [x] key-rebuild: key_working.md extended over 14 passes by crib alignment and template matching (tmatch.py)
-- [ ] retry: not done — align the other 1523 "Decrypted" Sessa letters (R9676, R9691, R9693, R9781, R9836, R9841; about 50 pages already in img/) token by token and rerun the four open groups and the clause
+- [x] retry: rerun 21 Sept 2026 with the pass-15 key (key_working.md) over the new full transcription of R9660 (sessa1523/reading_r9660.txt, ~2,050 tokens) on top of the pass-14 template search of all ~110 downloaded 1523-25 pages: `vo` and `per` occur nowhere; `ruc` gets five more contexts (del ruc [rey], el ruc [pof], los ruc-s, le lo ruc, han ruc-do), so it is a verb/adjective root, not a person, but no context fixes it; `hay` still unattested (`zum` = hay in clear pass 13); the m-re clause unchanged. No reading regraded. A token-by-token alignment of the six other 1523 letters was not done; the template search covered them
