@@ -1407,25 +1407,29 @@
    "date": "23 Jul 1559",
    "title": "Henry Percy to Secretary Cecil",
    "correspondents": "Henry Percy → Secretary Cecil",
-   "place": "London",
-   "language": "unknown",
+   "place": "Norham Castle",
+   "language": "English (probably)",
    "region": "England",
    "period": "1497-1559",
    "shelfmark": "BL, Add MS 4136 f 172",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R9256: Non-decrypted, 1 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560).",
+   "status": "DECODE R9256: the image is a Forbes Papers tracing of the four cipher passages only (63 signs, box script with dot/underline marks) plus an unrelated Sturmius key (R9257). Attempted 21 Sept 2026, not read: no single substitution fits and no key survives in the volume. Calendared (CSP Foreign I 1051; Bain, CSP Scotland I 501: 'a few words in cipher, deciphered by Cecill'); the decipherment is on the original, TNA SP 52/1.",
    "why": "Ciphered letter of Henry Percy to Secretary Cecil, 23 Jul 1559; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
+   "verify": "Get the TNA SP 52/1 original of 23 July 1559 (Cecil's interlined decipherment) or of Kirkcaldy's 1 July letter with Percy's cipher postscript (plaintext in Laing, Knox Works VI 33-35).",
    "ark": "",
    "links": [
     {
      "label": "DECODE R9256",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/9256"
+    },
+    {
+     "label": "Write-up",
+     "href": "percy1559.html"
     }
    ],
    "seen": "catalogue",
@@ -1433,7 +1437,8 @@
    "decode_ids": [
     9256
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 89,

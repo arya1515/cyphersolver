@@ -2229,6 +2229,25 @@
      "sent": false
     }
    }
+  },
+  "percy1559": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/percy1559.html",
+   "key": {
+    "decode": "none found (R9257 on the same page is Sturmius's 1562 key, a different system)"
+   },
+   "cite": "Stevenson, CSP Foreign Eliz. I (1863) no. 1051; Bain, CSP Scotland I (1898) no. 501; Laing, Works of John Knox VI (1864) pp. 33-35",
+   "fields": {
+    "current_city": "Norham Castle (letter dated there); the image is an 18th-c. Forbes Papers tracing, not the original (TNA SP 52/1)"
+   },
+   "records": {
+    "R9256": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "The image is a Forbes Papers tracing of the four cipher passages only (63 signs, box script with dot/underline marks), not the letter. Attempted 2026-09-21, not read: no single substitution fits and no key survives in Add MS 4136. The letter was deciphered by Cecil at the time (Bain, CSP Scotland I 501: 'a few words in cipher, deciphered by Cecill'); the decipherment is on the original, TNA SP 52/1. The lower half of the page is Sturmius's 1562 key (R9257).",
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  }
 }
