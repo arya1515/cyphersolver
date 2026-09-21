@@ -113,7 +113,12 @@ the castellans being *españoles y criados del Rey*. Suárez is to raise it *con
 Verso: *segund su necesidad no creo que nada desto les sea ynposible*; the ambassador of Venice at Naples has offered
 it; *yo me desnudo y descargo*.
 
-Open: the codes `zie` (×5), `zap` (×3), `bog` (×3), `zer`, `zeb`, `zems`, `xob`, `bac`, `vog`, `xie`, `bue` do not fit
+Second pass the same day: Tomokiyo's unpublished partial reading of the opening (commented out in cryptiana's
+`spanish.htm`) settles `zap` = `zag` *me*, `bac` = `vac` *armada*, `xie` = *cargo*; Sanuto (*Diarii* III cols. ~708–709,
+~982–983) reports the same demand from the Venetian side (*aver qualli porto li piace a li bisogni … vituarie*; a port
+*seperato* from the Venetian fleet). RAH 9/15 is not online and no printed clear copy was found.
+
+Open: the codes `zie` (×5), `bog` (×3), `zer`, `zeb`, `zems`, `xob`, `vog`, `bue` do not fit
 Galende's printed values in context, so either his plates carry misprints there or the hand uses a variant; about a
 quarter of the letter-sign stretches are unresolved (list in `f116_reading.md`, Open points). About three quarters of
 the words read.
@@ -260,7 +265,7 @@ lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is ne
 
 ## Remaining gaps
 
-- No. 92 (f. 116r-v), about a quarter of the words - blocker: open-codes; both pages transcribed and read in part (f116_reading.md); 11 code groups (zie, zap, bog, zer, zeb, zems, xob, bac, vog, xie, bue) contradict Galende's printed values in context, and ~10 letter-sign stretches are unplaced; needs BRAH 9/15 ff. 7-9 itself or a higher-magnification sign pass
+- No. 92 (f. 116r-v), about a quarter of the words - blocker: open-codes; both pages transcribed and read in part (f116_reading.md); 8 code groups (zie, bog, zer, zeb, zems, xob, vog, bue) contradict Galende's printed values in context, and ~10 letter-sign stretches are unplaced; needs BRAH 9/15 ff. 7-9 itself or a higher-magnification sign pass
 - No. 93 (f. 118r-v), whole letter - blocker: no-key-material; CVC nomenclator with atomic groups (homophonic anneal on ct93_eye.txt failed, -3.5 vs -1.8 nats); the suspected Gran cifra key survives only as Bergenroth's partial list (BNE MSS 20.211/52)
 - No. 94 (ff. 120r-121v), whole letter - blocker: not-attempted; never transcribed; Bergenroth's Gran-cifra list not tested against it (next steps 1-2 in the notes)
 - No. 95 f. 122r, about a third of the glyphs - blocker: illegible; eye, cluster-hybrid and tiling readings agree on the same two thirds; touching signs at 4100 px full resolution; the line-by-line correction walk is still to do

@@ -53,8 +53,8 @@ dispongo a ello con toda la celeridad y presteza que el caso requiere."* Then:
 | line | transcription | reading |
 |---|---|---|
 | 5 end | zec | *mas* |
-| 6 | zie zap bob baq vap O B R A ? xiz xe baz xi? E T R A B A I O xam bac | *[zie] [zap] que si buena obra … esta, con tanto [costa?] e trabajo desto [bac]* |
-| 7 | zik xem P A S A R xa Y O L O xie baq N yol R E M U N E R A C I O N | *no deve pasar caso, yo lo [xie] si n[o] grande remuneración* |
+| 6 | zie zag bob baq vap O B R A xo xiz xe baz xir E T R A B A I O xam vac | *[paresce?] me que si buena obra como esta, con tanto diferencia e trabajo desto armada* |
+| 7 | zik xem P A S A R xa S O L O xie baq-N yol R E M U N E R A C I O N | *no deve pasar caso, solo cargo sin grande remuneración* |
 | 8 | E° xob bob xiz boy bit I A baq xuy H R E A P R O P O S I T O xup bep | *[e] certificación que esta [boy] seria, si en [hrea] propósito de su* |
 | 9 | S A L T E Z A S A zik H A B L O xuy E ? O zeb bob xix boy zik | *(de su) s[us] altezas [sa?] no hablo en [esto], [zeb] que el tiempo no* |
 | 10 | bep F R E S E G U N L A N E C E S I D A D xuq S D zez bob yeb R A | *su-fre, segun la necesidad dellos [sd], por que [fabla-ra?]* |
@@ -76,8 +76,8 @@ dispongo a ello con toda la celeridad y presteza que el caso requiere."* Then:
 | 26 | S baq L E S ꝯ? D E R N A «reparar algo.» xup zif bob «podamos estar a» | *si les [..] reparar algo. De manera que podamos estar a* |
 | 27 | D O ? O N U E S T R O S I N «los ynconvenientes de estar en» C A S A | *[..] nuestro, sin los ynconvenientes de estar en casa* |
 | 28 | S A G E N A S S D E L E N T E C R E C E R Y xix zie zik bux zog | *agenas; [adelante] crecer; y el [zie] no se [zog]* |
-| 29 | R A P xiz xup zoh zez bob bub xix zap LL A M O ziz xix xec xup | *[rap] esta de manda[do?] por que quando el [zap] llamó para el cerco de* |
-| 30 | zems «le demande» yuy zuf S M O zez zap H I O xup G A R C I L A | *[zems] le demandé lo mismo por [zap] [hio] de Garcila-* |
+| 29 | R A P xiz xup zoh zez bob bub xix zag LL A M O ziz xix xec xup | *[rap] esta de manda[do?] por que quando el me llamó para el cerco de* |
+| 30 | zems «le demande» yuy zuf S M O zez zag H I O xup G A R C I L A | *[zems] le demandé lo mismo por [me? medio?] de Garcila-* |
 | 31 | S O «y lo ovo por bien e me» ꝯ S zu? S O A ? vur [U I E I A E A] T A | *-so, y lo ovo por bien e me con[s…] … ciudad …* |
 | 32 | R A C H I N A «de buena voluntad e por que los» vok S E R A N E S | *… de buena voluntad; e por que los alcaydes eran es-* |
 | 33 | P A Ñ O L E S Y C R I A D O S «del Rey nuestro Señor yo me» | *-pañoles y criados del Rey nuestro Señor, yo me* |
@@ -122,12 +122,32 @@ is content that the business is in Suárez's hands.
 That is the Cephalonia campaign of autumn 1500: the Spanish fleet joined the Venetians against the Turk after this
 exchange, and the bargaining over Apulian ports is the price Gonzalo sets for it.
 
+## Corrections and corroboration (21 Sept 2026, second pass)
+
+* **Tomokiyo's unpublished partial reading.** The source of cryptiana's `spanish.htm` carries a commented-out reading of
+  the opening: *"[Paresce?] me que tan buena obra como esta con tanto diferencia e trabaio desto armada no deve pasar
+  caso solo cargo sin grande -emuneracion"*. It fixes lines 6–7: `zap` is `zag` = *me* (the hand's g has a p-like
+  tail), `bac` is `vac` = *armada* (code v written like ɓ), `xie` = *cargo* and `xir` = *diferencia* are right as
+  printed, `baq` + N = *sin*, and the sign read Y in *yolo* is S (*solo*). His guess for `zie` is *Paresce* (`zix`).
+* **Sanuto, *I Diarii* III** (archive.org `idiariidimarinos03sanu`). Rome, Paolo Capello, 25 Aug 1500 (cols. ~708–709):
+  the Spanish ambassador said *don Consalvo … voria aver dal papa una cruciata, per poter tenir l'armata … voria ditto
+  capetanio precedesse il nostro in arma'; 2.° aver qualli porto li piace a li bisogni; tertio, vituarie*. Off Corfù,
+  early October (cols. ~982–983): *voria saper dove avere porto e vituarie, per i miei danari … non saria bene che le
+  duo armade facesse porto in uno luogo; io voria averlo seperato.* On 13 Sept Venice ordered its Brindisi castellans
+  to receive the Spanish fleet, *tamen custodissano la terra e 'l castello*. This is the demand of this letter,
+  reported from the other side. The *cruciata*/jubilee (granted, col. ~749) may be what the unread stretches of
+  ll. 8–11 ask for.
+* **Zurita**, *Historia del rey don Hernando*, 1500: the Venetian envoy at Messina *movió alguna plática de ofrecer al
+  Rey Católico a Brindez*.
+* **Not found online:** the key manuscript (RAH 9/15 is not in the RAH Biblioteca Digital), and any printed clear copy
+  of the letter (CODOIN, Zurita, *Noticias inéditas del Gran Capitán*, archive.org full text; Serrano y Pineda's RABM
+  series was not reachable).
+
 ## Open points
 
-1. Codes not resolved against the printed key: `zie` (×5; Galende *Mercadoria*, which fits none of the five places;
-   it behaves like a noun, "el zie", "del zie"), `zap` (×3; *Obligacion*; in f.116r l.29 it is the subject of "llamó
-   para el cerco", so it may be a misprint for a person), `zer`, `zeb`, `zems`, `xob`, `bac`, `boy` in l. 8, `bog`
-   (×3; *Rey de Portugal* fits nowhere; probably `boz` = todo), `vog`, `xie`, `bue`, `bi?`.
+1. Codes still not resolved after the second pass (which settled `zap` = `zag`, `bac` = `vac`, `xie`): `zie` (×5;
+   Tomokiyo guesses *Paresce*), `zer`, `zeb`, `zems`, `xob`, `boy` in l. 8, `bog` (×3; probably `boz` = todo),
+   `vog`, `bue`, `bi?`.
 2. Stretches of letter signs not resolved: ll. 11, 18, 20, 21, 27, 28, 31–32, 34, 36 of f. 116r; f. 116v l. 10.
 3. The q-with-o sign reads R in *remuneración*/*remito* and N in *necesidad* (v4, v9): either two signs the eye
    merges at this resolution or a scribal slip.

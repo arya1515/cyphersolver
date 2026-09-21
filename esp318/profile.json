@@ -281,6 +281,12 @@
    "kind": "reading",
    "result": "partial",
    "what": "No. 92 read in part (f116_reading.md): the Great Captain's terms for joining Venice against the Turk in 1500 — ports in Italy (Brindisi, Otranto in Apulia held by Venice) for sick, wounded and supplies; about three quarters of words; 11 codes contradict Galende's printed values in context (zie, zap, bog …)."
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "result": "partial",
+   "what": "No. 92 second pass online: Tomokiyo's commented-out partial reading (cryptiana spanish.htm) fixes zap=zag, bac=vac, xie=cargo; Sanuto Diarii III corroborates the port/victuals demand; RAH 9/15 not digitised; no printed clear copy found (CODOIN, Zurita, BRAH Noticias, archive.org)."
   }
  ],
  "outcome": {
@@ -296,7 +302,7 @@
    {
     "item": "No. 92 (f. 116r-v), about a quarter of the words",
     "blocker": "open-codes",
-    "detail": "both pages transcribed and read in part (f116_reading.md); 11 code groups (zie, zap, bog, zer, zeb, zems, xob, bac, vog, xie, bue) contradict Galende's printed values in context; ~10 letter-sign stretches unplaced; needs BRAH 9/15 ff. 7-9 or a higher-magnification sign pass"
+    "detail": "both pages transcribed and read in part (f116_reading.md); 8 code groups (zie, bog, zer, zeb, zems, xob, vog, bue) contradict Galende's printed values in context; ~10 letter-sign stretches unplaced; needs BRAH 9/15 ff. 7-9 or a higher-magnification sign pass"
    },
    {
     "item": "No. 93 (f. 118r-v), whole letter",
