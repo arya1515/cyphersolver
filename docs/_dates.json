@@ -27,6 +27,7 @@
   "cardinal alessandrino to the nuncio in spain, 1568–69": "2026-09-21",
   "cardinal morosini, legate in france, to cardinal montalto, 1588–89": "2026-09-19",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
+  "castelcicala to the marchese di circello and to medici, 1816–1823": "2026-09-21",
   "castelcicala to the marchese di circello, 1816–1819": "2026-09-21",
   "catherine de médicis to the bishop of rennes, 31 july 1563": "2026-09-20",
   "catokwacopa, 1875": "2026-09-15",
@@ -266,12 +267,12 @@
   },
   "castelcicala1816": {
    "first": "2026-09-21",
-   "hash": "6af2ac2ddba7",
+   "hash": "5d790de714fd",
    "updated": "2026-09-21"
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "598bd062d7e6",
+   "hash": "2788920ca36f",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -456,7 +457,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "8d7d03f39d7d",
+   "hash": "192486cf610b",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -916,7 +917,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "5d154faa3de1",
+   "hash": "7c203781c6b2",
    "updated": "2026-09-21"
   },
   "yard1699": {

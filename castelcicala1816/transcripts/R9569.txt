@@ -1,0 +1,93 @@
+# R9569 p1 (image P2 = recto, first page)  header: N. 3852 / Parigi li 4 Sett. 1823 / Eccellenza
+                                    1864 1991 1049 1409 1909
+1871 1542 2085 2105 2218 2380 2211 1962 2330
+332 2211 1933 2429 1480 1640 160 1816 1951
+1486 1462 1864 2146 160 1816 1951 289 2265 1714
+1909 1951 2211 2076 1418 2305 2146 2043 940
+85 1046 1147 332 1486 454 1938 91 2232 2353
+1719 1378 1516 2085 1909 2111 332 1500 2211 1787
+P:                                         ar   l
+1160 2033 1994 2211 383 2211 1857 2261 2230
+P: l    l    el   ez   ione al  Sovrana pon ti
+2231 2231 1708 1531 1994 1818 940 1609 2448
+P: fi  ca   to   del                          ar
+2221 1951 2450 2082 2009 2211 1725 2295 2261
+P: ci   ca   ro   do   l    fe
+2205 1951 1491 1404 2230 2283 1999 16480
+332 1831 921 2145 1734 1986 2123 2033 1994
+P: es   is   ter  so   ,  ed   io   ho  mor
+1901 2161 2445 1933 86 1648 2099 1655 1720
+P: i    vo   di   cred ere  di   no   e   che
+1714 1742 1112 1831 1836 2211 1919 332 2201
+P: potessero par tem ere  la  su  detta
+1664 1964 2156 2381 1836 2232 2186 1111
+P: ele  zio  ne   la  Francia gli dar ebbe
+1708 1531 1994 2232 2353 1535 1963 1592
+P: l'   ev   a    cu   si  va .   (gloss: "l' ev e lu si va")
+2231 1901 1949 2426 1864 19 91 1418 1843 236?
+C: Eccmo Sigr Cavaliere de' Medici / &c &c &c / Napoli
+# R9569 p2 (image P1 = verso; photo out of focus, readings less secure)
+1409 17?8 1723 2380 2295 2161 1?99 1994
+P:                       li   mi
+894 1898 2211 1864 2357 1549 2378 921 1577 1901
+643 1836 2201 1739 2363 12?1 2211 1544 1714
+2450 1396 1843 2431 363 2450 1865 1708 2423
+2450 1999 332 2201 1865 1913 1416 2089 2380
+C: Ho l'Onore di essere con profondo ossequio / D. V. E.
+C: Suo Dmo ed Obbmo Servo / Il Principe di Castelcicala
+## notes
+Photo P2 is the first page (number, date, cipher begins); P1 is the continuation with the closing. Interlinear gloss only on lines 8-16 of p1 and two words on p2; syllabic (one gloss syllable per group), so pairs below are secure where counts match.
+p1 last line: last group cut at the paper edge (236?); gloss over it is only 6 syllables for 10 groups, alignment of the last four uncertain.
+p1 line 11 last group written 16480 (5 digits; probably 1648 + stray 0, cf. 1648 = ed on line 13).
+p1 l.2: tick under 2380 and under 2330; p1 l.4: tick under 1864 (not overbars, not recorded as ^).
+Some p1 glosses are the decipherer's syllable splits and do not read as clean Italian ("ar l l el ezione al Sovrana pontificato del [Cardinale] ar ci ca ro do l fe").
+## pairs
+2230	l
+2231	l / l'
+1708	el / ele
+1531	ez / zio
+1994	ione / ne
+1708 1531 1994	elezione
+1818	al
+940	Sovrana
+1609	pon
+2448	ti
+2221	fi
+1951	ca
+2450	to
+2082	del
+2205	ci
+1491	ro
+1404	do
+2283	fe
+1901	es / ev
+2161	is
+2445	ter
+1933	so
+86	,
+1648	ed
+2099	io
+1655	ho
+1720	mor
+1714	i
+1742	vo
+1112	di
+1831	cred
+1836	ere
+2211	di
+1919	no
+332	e
+2201	che
+1664	potessero
+1964	par
+2156	tem
+2381	ere
+2232	la
+2186	su
+1111	detta
+2353	Francia
+1535	gli
+1963	dar
+1592	ebbe
+2357	li
+1549	mi

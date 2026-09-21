@@ -1,7 +1,82 @@
-# Castelcicala (Paris/London) to the Marchese di Circello, 1816–1819 — catalogue 167
+# Castelcicala (London, Paris) to Naples, 1816–1823: ASNa Esteri 2337 — catalogue 166 and 167
 
-Attempted 21 Sept 2026 and closed open: no key, no decipherment, no crib. Catalogue entry 167 stays with
-outcome "attempted, open".
+Outcome: read in part (21 Sept 2026). Code structure, correspondents and dates established; key rebuilt from four
+contemporary interlinear decipherments; 45% of the groups in the target letters get a value, but no letter reads
+through. Attempted, open for the rest.
+
+Catalogue 167 (R9553, R9555–R9557, R9582–R9586, seen first, below) and catalogue 166: "Marchese di Ciscello? Principe di Castelcicala? (Paris) to unknown recipient, 15 ciphertexts",
+DECODE R9554–R9588 (ASNa, Ministero degli affari esteri, busta 2337, items 5–39).
+
+## Who and when
+
+- Sender: Fabrizio Ruffo, principe di Castelcicala, Neapolitan ambassador in London and then Paris. He signs
+  R9562, R9566, R9569, R9571, R9579, R9587 and R9589.
+- **"Marchese di Ciscello" is the recipient, misread.** The address reads "Eccmo Sig.r Marchese di **Circello**
+  ... Napoli" (Tommaso di Somma, foreign minister) on R9554, R9558–R9566 and others. The 1823 letters (R9569–R9571,
+  R9589) go to Cavaliere Luigi de' Medici. So DECODE's "unknown recipient" is known.
+- Dates from the headings: London 26 Sep, 4 Oct 1816 (R9579, R9558); Paris 17, 19, 23 Oct, 30 Nov, 1 and 3 Dec 1816
+  (R9559, R9560, R9587, R9561, R9566, R9562); several undated (nos. 2589, 2814, 3388/3588, 3721, 4086); Paris
+  4, 8, 11? Sept and 9 Oct 1823 (R9569, R9571, R9570, R9589). R9553/R9555–R9557 (London, Paris 1816) and
+  R9582–R9585 (1817–19 fragments) are further letters in the same code.
+- Page order in the images is not reading order: R9579 runs P2, P3, P1, P4; R9569 P2, P1; R9561 starts at P2.
+  R9566 holds despatch 3874 (P3, P2, P4) plus a fragment in another hand (P1, P5, P6).
+
+## The code
+
+- Numeric groups 1–~2450 with dots, one code for 1816 and 1823. Units are syllables, common words and names
+  (el-e-zione, pon-ti-fi-ca-to, cas-ti-gli-one, par-lan-do-gli; Francia 2353, Spagna 2054, Duca 1529).
+- Homophonic: di = 1112 / 2211, del = 2082, ere = 1836 / 2381, pa = 1201 / 2363.
+- Two-part but with **local alphabetical runs**: 2201 che, 2205 ci, 2211 di, 2221 fi, 2230 l, 2231 l', 2232 la;
+  2082 del, 2083 dell', 2084 della; 2045 quella, 2049 questo; 2161 is, 2162 Isola; 1111 detta, 1112 di; 1919 no,
+  1920 non; 2445 ter, 2448 ti, 2450 to. Across runs the order is scattered.
+- **Nulls:** a group written with a fifth figure (21900, 18900, 16480, …, ~100 cases) stands where the
+  contemporary gloss has nothing. 1531 is probably a null too (ele-1531-zione = elezione beside ele-va-zione).
+- R9586 and R9588 are in a different code (values 100–1100, faint pencil syllabic glosses); not attacked.
+- Some pages (R9554 p1, R9561 P4–P7) have a stroke over nearly every group: a later decoder's ticks, recorded only
+  where sparse.
+
+## Cribs used
+
+Contemporary interlinear decipherments, all in busta 2337:
+- R9566 p3, first ten lines (despatch 3874, 1 Dec 1816): "questo Ministro dell'Interno Conte Decazes che gode
+  sempre del più gran favore presso del Re di Francia ha avuto una conferenza col Ministro di S.M. Cattolica Sig.r
+  Onis al suo passaggio per qui, nella quale parlandogli della cessione delle Floride, e di quella di cui si è
+  parlato dell'Isola di Cuba all'Inghilterra gli ha insinuato destramente…"
+- R9571 (8 Sept 1823): France wants Cardinal Castiglioni as Pope; the Duc de Laval blamed; no accord between
+  France and Austria on the election.
+- R9569 (4 Sept 1823) and R9589 (9 Oct 1823, the Spanish king's liberty; the Duc d'Angoulême not back for two
+  months).
+
+## Key and reading
+
+`key.tsv`: 162 values, graded G (glossed, 90), X (glossed and confirmed in a second context, 18), I (inferred
+here, 54). `apply.py` decodes; `reading_partial.txt` is the partial decode of every record (unverified; I values
+may be wrong, e.g. "il Sr troppo l d'An ta" in R9579 is surely a name). Coverage 45% of target groups.
+`solve.py` (it-modern LM candidate scoring) did not discriminate: contexts too sparse, segmentation unknown.
+
+What would move it: hand-reading the 1816 letters against the Florida/Cuba and Decazes crib themes, one letter at a
+time, extending runs by alphabetical bracketing; or the code book itself (ASNa Esteri, or Borbone 1666, whose
+consular keys R9532–R9541 are on DECODE but are for 1859–60).
+
+## Prior work
+
+DECODE: Non-decrypted. Web search (21 Sept 2026) found no printed decipherment.
+
+## Files
+
+- `decode/fetch.py`, `decode/views_9532_9591.jsonl` (DECODE metadata); images and record pages git-ignored (not public domain).
+- `transcripts/R*.txt` transcriptions (with glosses, headers, notes); `cipher/R*.txt` group-only.
+- `corpus.py`, `key.tsv`, `apply.py`, `ctx.py`, `solve.py`, `reading_partial.txt`, `profile.json`.
+
+## First pass (catalogue 167)
+
+**Correction to the first pass.** The "decrypted siblings in box 2337" were not all 1850s: R9569, R9570, R9571
+and R9589 are Castelcicala's Paris letters of Sept–Oct 1823 in this same code, three with contemporary
+interlinear decipherments, and R9566 p3 (1 Dec 1816) has one too. Those glosses are the crib used above.
+R9553 is headed "Cifra della Segreteria di Stato": the ministry's general code.
+
+
+(First pass, 21 Sept 2026, catalogue 167 only; superseded by the section above.)
 
 ## What the records are
 

@@ -1,0 +1,39 @@
+# R9589 p1  header: Parigi li 9 8bre 1823 / Eccellenza   (mark "A" top left)
+P:                         avuto la     liberta
+1450 2232 2357 1758
+P: del  Re   di   Spagna ,    e   gli   ordini
+2318 2082 2242 2054 1999 332 1535 2236
+P: da V.E.  datimi   nel  suo Disp. in cifra
+1898 63 294 1549 1850 1161 182 1909 2205
+P: N. 688
+2352 919 1798 2081 2297 1300 2300
+P: del 28. Sett.            non  puo'
+2083 2082 1618 1436 1862 1920 1922 921
+P: piu essere questione  di  passarsi
+1551 1968 2449 1714 2169 2211 2431 361
+P:      da me  alla Conferenza  la   Nota
+2332 1898 1480 1821 388 2232 1919 2318
+P: da V.E.  rimessami              unita
+1898 63 2369 1545 1557 1549 1739 1714
+P: al     sud. Disp.   Sono  le rassegno
+2318 1818 1155 182 91 1300 2295 2170
+P: per  la          Sovrana intelligenza
+1919 1418 2232 1940 91 1300 940 930
+C: Ho l'Onore di essere con profondo ossequio
+C: D. V. E.
+P: Il  Sr.  Duca di  Angouleme            non sara
+1843 794 1529 2067 1597 15 2295 1480 1920 369
+P: qui  di ritorno  prima di  due  mesi
+1000 2211 1431 1795 2211 1530 154? 1546
+C: Suo Dmo Obbmo Servo / Il Principe di Castelcicala
+C: Eccmo Sigr Cavaliere de' Medici / Napoli
+## notes
+line 1: first word of gloss "avuto"? (reads "aveu"/"avuto"); line 5 first group written "20830" (5 digits) - probably 2083 with a stray 0; line 10 "1940" has a struck-out digit after it then "91300": read as 1940 [struck] 91 1300; last line group 7 "154?" has a blot over the 4th digit.
+Glosses are sparse relative to groups: many words span several groups (syllables); "unita" ends line 8 but "al" stands struck "la" in line 9.
+group count: 94
+## pairs
+2318	del (also 'al' in l.9 start? uncertain)
+1898	da
+1898 63	da V.E.
+2211	di
+1920	non

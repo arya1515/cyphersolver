@@ -1,0 +1,32 @@
+# R9587 p1  header: none (second/last page of the letter; heavy ink show-through from the verso makes lines 1-3 hard)
+1642 859 2295 2176 1725 1714 2403 605 1823 2393 177?
+2230 2358 2248 277 1391 2396 1841 1418 2020
+2224 2003 1750 2182 2049 ?68? 2145 63 723
+1865 245 69 1460 2328 1714 1940 174 2068
+1909 1217 2211 2049 4 87
+C: Ho l'onore di essere con profondo ossequio
+C: Di V.E.
+C: Parigi 23. Ott.e 1816.
+C: Eccmo Sigr Marchese di Circello   Napoli
+C: Divmo ed Obbmo Servo vero
+C: Il Principe di Castelcicala
+# R9587 p2  header: Eccellenza (no despatch number)   (first page; lines 1-4 badly obscured by show-through, readings uncertain)
+? ? 2369 1704 2017 2116 63 ?145 ?802 2250 14?? 156? ?4?? 1555
+? ? ?425 ?549 ? ? 2287 818 1823 2004 1619 1636
+2357 ?818 ?13 22?? 536 82? ?4 ?651 2235 14500 351 1654
+2? ?555 1545 ?800 1462 1781 ?64? 863 2301 2230 1441
+2338 65 713 2212 49 536 88 1531 965 1242 581 471 378
+1113 87 567 2205 2201 1418 436 34 154 174 2310 2318
+1077 781 154 63 332 2250 351 480 800 1472 2450 2201
+1654 207 1951 1375 1909 769 2202 2239 9 291?
+1555 1933 2295 1944 455 647 499 2380 820 408 745
+1531 351 512 332 2145 2055 2116 2201 936 803 455
+369 1447 332 661 408 2211 1089 92 2230 1242 782
+1531 581 2201 647 1261 536 1713 2195 661 534 2369
+2035^ 2201 782 2358 726 2407 807 501 1420 1920
+2283 2340 2211 2056 2114 2358 1418 2049 1913 2316
+2318 2186 378 154 91 769 2109 1659 791 46
+864 726 1205 222 2145 1814 1864 1456 685 2156
+# R9587 p3  cover / address leaf (clear text, French, written sideways) with black wax seal
+C: A Son Excellence / Monsieur le Marquis de Circello / Ministre Secretaire d'Etat / des Affaires Etrangeres / &c &c / a Naples
+# notes: Paris 23 Oct 1816. This despatch uses many low values (<1000: 65 713 49 536 88 965 581 471 378 87 567 436 34 154 174 ...) and a different frequent-group profile (661, 536, 2201, 351, 455, 408, 782) than the 1816 despatches above -- possibly a different code or a different table section; worth checking. Line-start dashes omitted. Bar over 2035 at p2 line 13 start (may be a line mark).

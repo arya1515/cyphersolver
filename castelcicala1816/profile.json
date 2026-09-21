@@ -1,84 +1,829 @@
 {
  "schema_version": 1,
  "target": "castelcicala1816",
- "title": "Castelcicala to the Marchese di Circello, 1816-1819 (ASNa Esteri 2337; DECODE R9553, R9555-R9557, R9582-R9586)",
+ "title": "Principe di Castelcicala (London, Paris) to the Marchese di Circello and Cavaliere de' Medici, Naples, 1816-1823: numeric-code despatches (ASNa Esteri 2337, DECODE R9553-R9588; catalogue 166, 167)",
  "documents": [
   {
-   "id": "R9553-R9586",
-   "shelfmark": "ASNa, Ministero degli affari esteri 2337_4-2337_37; DECODE R9553, R9555, R9556, R9557, R9582, R9583, R9584, R9585, R9586",
-   "date": "1 Apr 1816 - 28 Oct 1819",
-   "year": 1816,
+   "id": "R9554",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9554",
+   "date": "undated (Circello minister, 1816-20)",
+   "year": "unknown",
    "country": "Kingdom of the Two Sicilies",
-   "route": "London/Paris -> Naples",
+   "route": "unknown",
    "language": "Italian",
-   "pages": 13,
    "cleartext_in_document": "separate passages",
    "plaintext": {
     "location": [
      "none"
     ],
-    "source": "No decipherment on DECODE or in print; box 2317 record R9549 uses a different code."
+    "source": "No decipherment known; DECODE: Non-decrypted."
    },
    "length": {
-    "tokens": 331,
-    "distinct": 208,
+    "tokens": 841,
     "unit": "code groups",
     "measured": true,
-    "file": "transcription.txt"
+    "file": "cipher/R9554.txt"
    },
    "transcription": {
     "by": "llm from images",
-    "source": "Authenticated DECODE images, 3 of 13 pages transcribed",
+    "source": "transcripts/R9554.txt, from the DECODE images",
     "image_quality": "good",
-    "notes": "Dotted numerical groups 14-2460; some groups carry a trailing 0."
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9558",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9558",
+   "date": "4 Oct 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 296,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9558.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9558.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9559",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9559",
+   "date": "17 Oct 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 207,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9559.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9559.txt, from the DECODE images",
+    "image_quality": "fair",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9560",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9560",
+   "date": "19 Oct 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 329,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9560.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9560.txt, from the DECODE images",
+    "image_quality": "fair",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9561",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9561",
+   "date": "30 Nov 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 1310,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9561.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9561.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9562",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9562",
+   "date": "3 Dec 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 262,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9562.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9562.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9563",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9563",
+   "date": "undated (no. 2814)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 620,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9563.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9563.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9564",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9564",
+   "date": "undated (no. 3388 or 3588)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 864,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9564.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9564.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9565",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9565",
+   "date": "undated (no. 3721)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 725,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9565.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9565.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9566",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9566",
+   "date": "1 Dec 1816 (no. 3874; plus a fragment in another hand)",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment of part of the letter"
+   },
+   "length": {
+    "tokens": 993,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9566.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9566.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9567",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9567",
+   "date": "undated (no. 4086)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 662,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9567.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9567.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9570",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9570",
+   "date": "11 Sep? 1823",
+   "year": 1823,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 80,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9570.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9570.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9579",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9579",
+   "date": "26 Sep 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 647,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9579.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9579.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9587",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9587",
+   "date": "23 Oct 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 218,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9587.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9587.txt, from the DECODE images",
+    "image_quality": "fair",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9588",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9588",
+   "date": "undated",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 432,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9588.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9588.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Different code (values ~100-1100); not attacked."
+   }
+  },
+  {
+   "id": "R9569",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9569",
+   "date": "4 Sep 1823",
+   "year": 1823,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment of part of the letter"
+   },
+   "length": {
+    "tokens": 258,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9569.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9569.txt, from the DECODE images",
+    "image_quality": "fair",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9571",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9571",
+   "date": "8 Sep 1823",
+   "year": 1823,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment of part of the letter"
+   },
+   "length": {
+    "tokens": 131,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9571.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9571.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9589",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9589",
+   "date": "9 Oct 1823",
+   "year": 1823,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment of part of the letter"
+   },
+   "length": {
+    "tokens": 113,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9589.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9589.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit (trailing 0) are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9553",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9553",
+   "date": "1 Apr 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 254,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9553.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9553.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9555",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9555",
+   "date": "3 Jun 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 164,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9555.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9555.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9556",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9556",
+   "date": "30 Aug 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 124,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9556.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9556.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9557",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9557",
+   "date": "6 Sep 1816",
+   "year": 1816,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "London -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 78,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9557.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9557.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9582",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9582",
+   "date": "14 Nov 1817",
+   "year": 1817,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 74,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9582.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9582.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9583",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9583",
+   "date": "3 Apr (year cut)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 50,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9583.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9583.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9584",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9584",
+   "date": "13 Jul 1819",
+   "year": 1819,
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 19,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9584.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9584.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9585",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9585",
+   "date": "28 Oct 1819 (or 1817)",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "Paris -> Naples",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 109,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9585.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9585.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Groups with a fifth digit are kept as written and treated as nulls."
+   }
+  },
+  {
+   "id": "R9586",
+   "shelfmark": "ASNa, Ministero degli affari esteri, busta 2337; DECODE R9586",
+   "date": "undated",
+   "year": "unknown",
+   "country": "Kingdom of the Two Sicilies",
+   "route": "unknown",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment known; DECODE: Non-decrypted."
+   },
+   "length": {
+    "tokens": 537,
+    "unit": "code groups",
+    "measured": true,
+    "file": "cipher/R9586.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "transcripts/R9586.txt, from the DECODE images",
+    "image_quality": "good",
+    "notes": "Different code (values ~100-1100); not attacked."
    }
   }
  ],
  "system": {
   "types": [
-   "code"
+   "code",
+   "syllabic",
+   "homophonic"
   ],
-  "summary": "The Neapolitan Segreteria di Stato's general numerical code (groups 14-2460), no word division.",
+  "summary": "Two-part numeric code of about 2,450 groups for syllables, words and names, homophonic, with local alphabetical runs and 5-figure nulls.",
   "symbol_kind": "digits",
-  "distinct_symbols": 10,
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "dots"
+  },
+  "distinct_symbols": 1315,
   "diacritics": {
    "used": false
   },
   "homophones": {
-   "used": "unknown"
+   "used": true,
+   "max_per_vowel": "unknown",
+   "max_per_consonant": "unknown"
   },
   "nomenclator": {
-   "present": "unknown"
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles"
+   ],
+   "unread_groups": "unknown"
   },
   "nulls": {
-   "present": "unknown"
+   "present": true,
+   "count": "unknown"
   },
-  "key_order": "unknown",
-  "word_division": "unknown",
-  "doubled_letters": "unknown",
-  "sibling_key": "unknown"
+  "key_order": "partly alphabetical",
+  "word_division": "none",
+  "sibling_key": "none",
+  "notes": "Runs such as 2201 che, 2205 ci, 2211 di, 2221 fi, 2230 l, 2231 l', 2232 la and 2082-2084 del, dell', della are alphabetical; the runs themselves are scattered. R9586/R9588 use a second code."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "no",
-   "where": "DECODE marks all nine non-decrypted; no edition found",
-   "found": "not found",
-   "used": false
+   "exists": "partial",
+   "where": "Contemporary interlinear decipherments on R9566 p3 (first ten lines), R9569, R9571 and R9589, in ASNa busta 2337; no printed decipherment found.",
+   "found": "during attempt",
+   "used": true
   },
   "inputs": [
-   "images"
+   "images",
+   "crib"
   ],
-  "attack": "none",
-  "human_role": "Selected the target; the DECODE session cookie was already in the repository.",
+  "attack": "crib",
+  "human_role": "Project-level: DECODE session cookie, Claude Code with Opus 5, problem posed with /goal. No target-specific intervention recorded.",
   "tools": [
-   "DECODE authenticated image download",
-   "DECODE API metadata",
-   "web search"
+   "curl (DECODE)",
+   "python",
+   "lang it-modern LM"
   ],
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
   "last_date": "2026-09-21"
  },
@@ -118,14 +863,50 @@
    "kind": "statistics",
    "what": "Frequency and repeat count: 208 distinct groups in 331 over a ~2,500-group code, repeated multi-group phrases; too little text for a ciphertext-only attack.",
    "result": "ruled out"
+  },
+  {
+   "kind": "access",
+   "what": "DECODE API metadata for R9532-R9591 and 100 page images fetched with the session cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Web search for a printed decipherment of Castelcicala's Paris despatches.",
+   "result": "failed"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Neighbouring 'Decrypted' records of busta 2337 checked for the same code: R9569, R9571 and R9589 (1823) share it and carry interlinear glosses; R9590 (1830) is another code.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "All 27 records transcribed from full-resolution crops by two sub-agents (9,400 main-code groups); R9566 p3 found to carry a contemporary interlinear decipherment.",
+   "result": "worked"
+  },
+  {
+   "kind": "crib",
+   "what": "Glosses aligned group by group: about 110 values, syllabic and word-level, homophonic; 5-figure groups fall where the gloss has nothing (nulls); local alphabetical runs noticed.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Key extended by hand from repeated contexts (1714 = i, 2318 = ta and ~50 weaker values); 46% of groups get a value.",
+   "result": "partial"
+  },
+  {
+   "kind": "solver",
+   "what": "Per-group candidate scoring with the it-modern 5-gram LM over known neighbours (length bonus, then PMI): no discrimination between candidates.",
+   "result": "failed"
   }
  ],
  "outcome": {
-  "class": "not read",
-  "fraction_read": 0,
+  "class": "read in part",
+  "fraction_read": 0.447,
+  "grades": "unknown",
   "verification": [
-   "none"
+   "contemporary decipherment"
   ],
-  "notes": "Needs the Segreteria di Stato codebook of 1816-19 or deciphered copies in ASNa."
+  "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established."
  }
 }

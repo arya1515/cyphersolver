@@ -3814,6 +3814,94 @@
      "sent": false
     }
    }
+  },
+  "castelcicala1816": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/castelcicala1816.html",
+   "key": {
+    "file": "castelcicala1816/key.tsv",
+    "lang": "Italian",
+    "how": "162 values rebuilt from the contemporary interlinear decipherments on R9566 p3, R9569, R9571, R9589, graded G/X/I; partial"
+   },
+   "cite": null,
+   "fields": {
+    "sender": "Fabrizio Ruffo, principe di Castelcicala",
+    "cipher_type": "code (syllabic, homophonic, ~2,450 groups)",
+    "plaintext_lang": "Italian"
+   },
+   "records": {
+    "R9553": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 1 Apr 1816, London -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9555": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 3 Jun 1816, Paris -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9556": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 30 Aug 1816, London -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9557": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 6 Sep 1816, London -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9582": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 14 Nov 1817, Paris -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9583": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 3 Apr (year cut), Paris -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9584": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 13 Jul 1819, Paris -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9585": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: 28 Oct 1819 (or 1817), Paris -> Naples. Same code as R9553-R9589: two-part syllabic homophonic code, ~2,450 groups; 5-figure groups are nulls. Partial key (162 values, 45% of groups) in the write-up; not the plaintext of box 2317 (R9549 is another code).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9586": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Sender Fabrizio Ruffo, principe di Castelcicala; receiver Tommaso di Somma, Marchese di Circello, foreign minister, Naples (DECODE's 'Marchese di Ciscello' is this address misread). Date on the document: undated, unknown. Different code from the rest of the series (values ~100-1100).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
@@ -4113,89 +4201,6 @@
     "decode_status": "Non-decrypted",
     "proposed": "Decrypted (at the time)",
     "note": "Ghinucci and Lee to Cardinal Wolsey, Burgos, 26 Dec 1527 (MS: 'the xxvj day of decembre 1527'); in Lee's hand. Calendared as Letters and Papers Henry VIII IV no. 3518 (misdated 26 Oct there), with 'Decipher of the above by Tuke, pp. 5' on a separate leaf not imaged here. Cipher: Lee-Worcester sign cipher (Tomokiyo's key, R8566). Recipient Wolsey.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   }
-  }
- },
- "castelcicala1816": {
-  "writeup": null,
-  "key": null,
-  "cite": null,
-  "fields": {
-   "sender": "Fabrizio Ruffo, principe di Castelcicala",
-   "receiver": "Marchese di Circello (Tommaso di Somma)"
-  },
-  "records": {
-   "R9553": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9555": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9556": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9557": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9582": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9583": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9584": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9585": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
-    "reading": null,
-    "sent": false,
-    "reading_not_needed": true
-   },
-   "R9586": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Receiver: Tommaso di Somma, Marchese di Circello, Secretary of State, Naples (address on R9553). Code named 'Cifra della Segreteria di Stato'. The box 2317 record R9549 uses a different code, so the 'plaintexts in box 2317' note does not apply to it.",
     "reading": null,
     "sent": false,
     "reading_not_needed": true

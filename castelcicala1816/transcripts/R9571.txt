@@ -1,0 +1,46 @@
+# R9571 p1  header: N. 3871 / Parigi li 8 Sett. 1823 / Eccellenza
+P:                                  La   Francia  desidera il
+                                    2232 2353 1043 1843
+P: Cardinale  Vo...                  Castiglione ;         per
+2009 2211 1725 2295 2012 2448 1535 2169 1418
+P: (struck) Papa ,  ma  si   biasima
+2363 1201 1999 1409 1864 1823 2393 1714 199
+P: di  avere  il  Duca di  Lavalle          troppo
+2211 1516 1843 1529 2232 1564 1440 2361
+P: fatto ciò     vedere           e  si  teme
+1553 1050 2268 1568 1836 332 1864 2381
+P: ,  che  ciò   nuoccia       al
+332 1999 2201 2268 1980 2035 1949 2206 1818
+P: suddetto                                  porporato
+1155 11913 11620 11526 9210 16120 1611 1611 171
+P: per  La  sua  elevazione      al  Pontefica
+1418 2232 1161 1708 2027 1994 1818 1609 2448
+P:  (struck "te")     Non  esiste    alcuno
+2221 1951 2450^ 91 1920 1901 1714 2123 662
+P: accordo  tra la Francia . L'Austria per la
+1571 1433 2232 2353 332 2231 383 1418 2231
+P: elezione  del  Pontefice
+1708 1531 1994 2082 1609 2380 2221 2076
+C: Ho l'Onore di essere con profondo ossequio
+C: D. V. E.
+C: Suo Dmo ed Obbmo Servo / Il Principe di Castelcicala
+C: Eccmo Sigr Cavaliere de' Medici / &c &c &c / Napoli
+## notes
+Line 7 is written with 5-digit strings "11913. 11620. 11526. 9210. 16120." - the dot/zero is ambiguous; probably the scribe wrote a trailing o/dot. Likely intended 1191 1162 1152 921 1612 (cf. 1611 1611 171 = porporato), but recorded raw.
+Line 9 group 3 "2450" has a tilde/bar over the 5 (recorded 2450^).
+Lines 1 gloss "La Francia desidera il" over 4 groups: 2232=La, 2353=Francia (confirmed l.10).
+group count: 91
+## pairs
+2232	la
+2353	Francia
+2232 2353	la Francia (x2)
+1843	il
+2211	di
+1418	per
+1818	al
+1609	Pontefice / Pontefica (starts both)
+1708	ele- (elevazione / elezione)
+1994	(-zione, in both elevazione and elezione)
+1920	non
+332	e / , (uncertain)
+1611 1611 171	-porato (with 16120 = por-)
