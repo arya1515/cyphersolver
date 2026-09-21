@@ -1,0 +1,146 @@
+{
+ "schema_version": 1,
+ "target": "toulon1803",
+ "title": "Lodewijk van Toulon to Dirk van Hogendorp, 30 July 1803 (NA 1.02.13 inv. 208; DECODE R2034)",
+ "documents": [
+  {
+   "id": "R2034",
+   "shelfmark": "Nationaal Archief 1.02.13 Legatie Rusland, inv. nr. 208; DECODE R2034",
+   "date": "30 Jul 1803",
+   "year": 1803,
+   "country": "Batavian Republic",
+   "route": "The Hague -> St Petersburg",
+   "language": "Dutch",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment found in DECODE, the printed correspondence checked, Tomokiyo's Cryptiana, or Sillem's 1890 biography."
+   },
+   "length": {
+    "tokens": 110,
+    "distinct": 104,
+    "unit": "code groups",
+    "measured": true,
+    "file": "transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE image IMG_R2034_I14728_P1",
+    "image_quality": "good",
+    "notes": "Three-digit figures with six kinds of superscript mark plus unmarked groups; one trailing grammatical dash."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "code"
+  ],
+  "summary": "A six-series bilingual Dutch/French numerical dictionary code, with the series selected by a superscript wave, caret, double stroke, overbar, plus, or no mark.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": 7,
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "alphabetical",
+  "word_division": "kept",
+  "doubled_letters": "unknown",
+  "sibling_key": "NA 2.21.045/34313 (old 5187), also described as NA 2.21.227/335 and Museum B1 392"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "DECODE marks R2034 non-decrypted; no printed solution found",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "key from archive",
+  "human_role": "Provided the authenticated DECODE session cookie and selected the target.",
+  "tools": [
+   "DECODE authenticated image download",
+   "archival catalogue search",
+   "manuscript codebook cell extraction",
+   "partial-codebook lookup"
+  ],
+  "models": [
+   "gpt-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched the private DECODE R2034 image using the supplied session cookie and produced lossless inspection derivatives.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Transcribed all 110 numerical groups and their superscript series marks from the manuscript.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Checked exact names/date, Tomokiyo's Cryptiana, the 1943 brotherly correspondence, Sillem's 1890 biography, and the HistoCrypt 2026 paper and repository.",
+   "result": "failed"
+  },
+  {
+   "kind": "key from source",
+   "what": "Located the archival description of the reused 1799/1801/1803 Correspondentiecijffer explicitly annotated for Van Hogendorp in St Petersburg.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Applied the photographed 5 August 1803 inventory-228 codebook (DECODE R1035) group by group; its entries yield disconnected dictionary words and none of its Begin controls occurs in R2034.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "crib",
+   "what": "Aligned the contemporary plaintext solutions of same-key Bourdeaux dispatches R1944 and R1946 (1801) with their ciphertext; mark-sensitive matches give 51~ van, 279 en, 153 Paul, 222= niet, 43~ zyne, 304~ wegens, 380~ de in R2034.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "crib",
+   "what": "Sillem 1890 quotes 'zoo wonderlijk' from same-key R1942 (no. 12, 5 July 1803); the unique adjacent pair 907^ 934\" gives zoo and wonderlijk.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Transcribed all 187 groups of same-key R1945 (3 Feb 1801) and set them against its 152-word contemporary solution. Only one base+mark group (222=) is shared with R2034's meaningful part. The one-to-one alignment drifts (repeated groups 273~, 733~, 916=, 977= fall on different words), so no new R2034 value can be fixed.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "statistics",
+   "what": "Checked whether values within each marked series are alphabetical, using R1946's recovered pairs (e.g. ~ series: 297 Men, 370 Heer, 500 dat, 580 de, 733 zeer, 884 waar). They are not, so page-order/monotone-alphabet attacks do not apply.",
+   "result": "ruled out"
+  }
+ ],
+ "outcome": {
+  "class": "offline only",
+  "fraction_read": 0.13,
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Exact key survives but only physically: NA 2.21.045/34313 (dup. 2.21.227/335; Museum B1 392). Same-key known plaintext (R1944-R1946, R1942) is exhausted: 9/67 words. Codebook series are not alphabetical, so the remaining words cannot be recovered statistically. Digitizing the key would make the reading mechanical."
+ }
+}

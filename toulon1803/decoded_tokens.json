@@ -1,0 +1,680 @@
+[
+  [
+    {
+      "code": "430~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "336~",
+      "meaning": "beh",
+      "suffix": false,
+      "rendered": "beh"
+    },
+    {
+      "code": "501",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "1+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "410",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "394",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "120",
+      "meaning": "a",
+      "suffix": false,
+      "rendered": "a"
+    },
+    {
+      "code": "526^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "307^",
+      "meaning": "kan",
+      "suffix": false,
+      "rendered": "kan"
+    },
+    {
+      "code": "51~",
+      "meaning": "aange",
+      "suffix": false,
+      "rendered": "aange"
+    },
+    {
+      "code": "897\"",
+      "meaning": "geliefd",
+      "suffix": false,
+      "rendered": "geliefd"
+    },
+    {
+      "code": "406",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "670",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "739",
+      "meaning": "ne",
+      "suffix": false,
+      "rendered": "ne"
+    },
+    {
+      "code": "880^",
+      "meaning": "over",
+      "suffix": false,
+      "rendered": "over"
+    },
+    {
+      "code": "37",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "194^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "230\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "934\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "274",
+      "meaning": "aan",
+      "suffix": false,
+      "rendered": "aan"
+    },
+    {
+      "code": "459",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "11",
+      "meaning": "onthoud",
+      "suffix": false,
+      "rendered": "onthoud"
+    },
+    {
+      "code": "858\"",
+      "meaning": "heid",
+      "suffix": false,
+      "rendered": "heid"
+    },
+    {
+      "code": "279",
+      "meaning": "van de",
+      "suffix": false,
+      "rendered": "van de"
+    },
+    {
+      "code": "51",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "756:",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "839~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "263",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "58",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "153",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "89",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "528=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "585^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "73^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "145^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "451=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "445=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "326=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "51~",
+      "meaning": "aange",
+      "suffix": false,
+      "rendered": "aange"
+    },
+    {
+      "code": "751~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "851~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "44",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "877=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "324=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "461=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "220=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "518+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "616+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "686+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "824=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "907^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "222=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "43~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "411^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "992\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "519~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "924+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "304~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "380~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "144~",
+      "meaning": "al",
+      "suffix": false,
+      "rendered": "al"
+    },
+    {
+      "code": "351\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "51~",
+      "meaning": "aange",
+      "suffix": false,
+      "rendered": "aange"
+    },
+    {
+      "code": "202=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "126~",
+      "meaning": "aan",
+      "suffix": false,
+      "rendered": "aan"
+    },
+    {
+      "code": "727\"-",
+      "meaning": null,
+      "suffix": true,
+      "rendered": null
+    },
+    {
+      "code": "99~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "693~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "123\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "763~",
+      "meaning": "Einde des briefs",
+      "suffix": false,
+      "rendered": "Einde des briefs"
+    },
+    {
+      "code": "215=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "646=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "227",
+      "meaning": "ple",
+      "suffix": false,
+      "rendered": "ple"
+    },
+    {
+      "code": "945\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "80\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "63\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "909~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "239\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "805=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "752=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "89",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "205=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "739",
+      "meaning": "ne",
+      "suffix": false,
+      "rendered": "ne"
+    },
+    {
+      "code": "95\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "625=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "756~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "188=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "271^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "976=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "543=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "307^",
+      "meaning": "kan",
+      "suffix": false,
+      "rendered": "kan"
+    },
+    {
+      "code": "700+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "962=",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "576~",
+      "meaning": "k",
+      "suffix": false,
+      "rendered": "k"
+    },
+    {
+      "code": "513+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "458+",
+      "meaning": "Turkije",
+      "suffix": false,
+      "rendered": "Turkije"
+    },
+    {
+      "code": "811\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "230",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "31+",
+      "meaning": "weezen",
+      "suffix": false,
+      "rendered": "weezen"
+    },
+    {
+      "code": "140",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ],
+  [
+    {
+      "code": "977+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "461~",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "29",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "327\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "896\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "740\"",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "652^",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "280",
+      "meaning": "overtuig",
+      "suffix": false,
+      "rendered": "overtuig"
+    },
+    {
+      "code": "230",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "56+",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    },
+    {
+      "code": "770",
+      "meaning": null,
+      "suffix": false,
+      "rendered": null
+    }
+  ]
+]
