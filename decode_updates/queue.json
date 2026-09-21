@@ -3335,6 +3335,30 @@
      "sent": false
     }
    }
+  },
+  "sp106r597": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/sp106r597.html",
+   "key": {
+    "decode": "no key needed; the writer's syllables are written over every group of the worked example on image 2",
+    "lang": "FR"
+   },
+   "cite": null,
+   "fields": {
+    "document_types": "cipher instructions (not a letter)",
+    "start_year": "1731",
+    "end_year": "1731",
+    "cipher_types": "nomenclator (syllabic code, two keys)"
+   },
+   "records": {
+    "R597": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Not a letter: instruction sheet for the cipher with Baron Stosch ('John Walton'), c. 1731 (Rome corrected to Florence). Worked example 'Les Adherens du Pretendant se donnent beaucoup de mouvement a Rome' has its syllables interlined; the 'unsolved lines' are the key-B example written run-on. Keys A/B, 371 = change of key, nulls 110, 220 &c and >900.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {

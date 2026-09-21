@@ -134,6 +134,7 @@
   "sormano and passano from ferrara, february 1529": "2026-09-18",
   "sp53/16 nos. 78 and 79, 1585": "2026-09-15",
   "spanish despatches of 1593: miranda, sessa and ibarra": "2026-09-19",
+  "stosch–walton cipher instructions, sp 106/7, c. 1731": "2026-09-21",
   "sun yat-sen’s circle on the wire, 1916–17": "2026-09-18",
   "the cardinal de mâcon, rome and orvieto, to montmorency, 1536–37": "2026-09-21",
   "the cardinal of como to the nuncio dandini, 1580": "2026-09-21",
@@ -266,7 +267,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "c9b440c1785e",
+   "hash": "2695a2aad27d",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -451,7 +452,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "69aafe3671f8",
+   "hash": "84553a1cbf03",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -789,6 +790,11 @@
    "hash": "96daa571590c",
    "updated": "2026-09-20"
   },
+  "sp106r597": {
+   "first": "2026-09-21",
+   "hash": "ae329364db4f",
+   "updated": "2026-09-21"
+  },
   "sp106r927": {
    "first": "2026-09-19",
    "hash": "076ab88eff07",
@@ -896,7 +902,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "c74d74ae650e",
+   "hash": "08dd0eac650e",
    "updated": "2026-09-21"
   },
   "yard1699": {

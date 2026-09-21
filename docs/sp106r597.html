@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Stosch–Walton cipher instructions (c. 1731) — Read</title>
+<meta name="description" content="TNA SP 106/7, DECODE R597, catalogued as a partly decrypted French nomenclator letter with lines unsolved. It is an English instruction sheet for the cipher used with Baron Stosch, the British spy on the Stuart court who wrote as John Walton. The worked example reads in full: Les Adherens du Pretendant se donnent beaucoup de mouvement à Rome.">
+<link rel="stylesheet" href="style.css?v=20260919a">
+<meta name="date" content="2026-09-21">
+<meta name="last-modified" content="2026-09-21">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp"><h4>Latest</h4><ul><li><a href="castelcicala1816.html"><span class="st stuck">key not found</span><b>Castelcicala 1816&ndash;19</b><span class="yr">1816&ndash;1819</span></a></li><li><a href="roell1809.html"><span class="st stuck">key not found</span><b>Roell to Van Dedem 1809</b><span class="yr">1809</span></a></li><li><a href="spaen1808.html"><span class="st stuck">key not found</span><b>Van Spaen 1808</b><span class="yr">1808</span></a></li><li><a href="fagel1804.html"><span class="st stuck">key not found</span><b>Fagel 1804</b><span class="yr">1804</span></a></li><li><a href="r2232.html"><span class="st solved">read</span><b>Wolff to Wilhelmina 1801</b><span class="yr">1801</span></a></li><li><a href="r1944.html"><span class="st found">clear copy found</span><b>Bourdeaux 1801</b><span class="yr">1801</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=solved"><span class="st solved">55</span><b>Solved</b></a></li><li><a href="writeups.html#kind=found"><span class="st found">35</span><b>Explained</b></a></li><li><a href="writeups.html#kind=partial"><span class="st partial">35</span><b>Partly read</b></a></li><li><a href="writeups.html#kind=stuck"><span class="st stuck">19</span><b>Attempted, not solved</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">1</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 145 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <a href="index.html#recent">Latest</a>
+    <a href="catalogue.html">The Unsolved Catalogue</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <a class="ext" href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="cipherstrip">316 509 139 134 435 509 702 593 506 408<br>Le s ad her en s du Pre te nd<br>371 = changement de clef · 110, 220 &amp; all above 900 = nulls</div>
+  <p class="kicker">Secretary of State's office → a correspondent of Stosch · syllabic code, two keys · c. 1731 · read (instruction sheet)</p>
+  <h1>“To puzzle it more”: the instructions for the Stosch–Walton cipher</h1>
+  <p class="sub">TNA State Papers 106/7, f. 33 (DECODE R597). DECODE lists it as a partly decrypted French letter in a nomenclator of letter pairs, with some lines unsolved. It is not a letter. It is an English sheet of instructions sent with a cipher that “serves only to correspond with Baron Stosch and Mr Walton”, and every group of its worked example has its syllable written above it.</p>
+  <p class="meta">Daniel Bourdeau &middot; resolved <time datetime="2026-09-21">21 September 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#the-record">The record</a><a href="#the-text">The text</a><a href="#the-system">The system</a><a href="#what-remains-uncertain">What remains uncertain</a><a href="#sources">Sources</a></nav>
+<div class="callout"><strong>Summary.</strong> The rule-scored catalogue took R597 for a ciphered letter from an unknown sender to an unknown recipient. The two DECODE images show an instruction sheet in English, one folio and its facing page, covering a cipher to be used with “Baron Stosch and Mr Walton who reside at Rome”, where “Rome” is corrected to Florence. Philipp von Stosch spied on the Stuart court for the British government from 1722 and signed his reports “John Walton”. He moved to Florence in 1731, so the sheet dates from about then. The system is a syllabic code of three-digit groups from 100 to 999 in two keys, A in black ink and B in red, used alternately. Group 371 means “changement de clef”. The groups are written without separation. The nulls are 110, 220 and so on, plus every group above 900. The worked example is <i>Les Adherens du Pretendant se donnent beaucoup de mouvement à Rome</i>, written first in key A and then again with a switch to key B after “donnent”. The writer put the syllable over every group. The “unsolved lines” DECODE mentions are that same key B example written as one unbroken string, to show what a real letter looks like. The whole sheet reads. Three figures are doubtful, and keys A and B themselves are not on the record.</div>
+
+<h2 id="the-record"><span class="num">01</span> The record</h2>
+<p>DECODE R597 (“TNA_SP106/7_Anne_(0091-0092)”) has two images. Its date, 1702–1837, is the span of the volume. Its metadata give cleartext English and plaintext French, cipher type nomenclator, symbols numerical, status “Partially decrypted”. The record note reads: “Part of letter with instructions for operating the Cipher with Baron Stosch and Mr. Walton … there are also lines unsolved. The nomenclature in question could not yet be identified.” Image 2 is f. 33 and holds the start of the text. Image 1 is the bifolium opened out, with the rest of the text on the left leaf (upside down in the scan) and the paragraph on nulls on the right.</p>
+<figure><img src="sp106r597_lead.jpg" alt="Three lines of three-digit groups separated by strokes, with syllables written above, and the sentence Les Adherens du Pretendant se donnent beaucoup de mouvement a Rome below" loading="lazy"><figcaption>SP 106/7 f. 33: the worked example in key A, with the syllables over the groups and the sentence in clear beneath. The National Archives, Kew, via DECODE R597.</figcaption></figure>
+
+<h2 id="the-text"><span class="num">02</span> The text</h2>
+<p>Transcribed from the images. The interlinear syllables are the writer's own. [?] marks a doubtful figure.</p>
+<blockquote>
+<p>In the inclosed Cypher (which serves only to correspond with Baron Stosch and Mr Walton who reside at <s>Rome</s> Florence) is to be perceived one in Numbers consisting of 3 Figures each as follows,</p>
+<pre>Le  s   ad  her en  s   du  Pre te  nd
+316|509|139|134|435|509|702|593|506|408|
+an  t   se  don ne  nt  be  au  co  up  de
+440|204|236|503|508|306|446|447|342|702?|439|
+mo  uv  em  en  tà  Ro  me
+612|501|535|435|106|392|413|——</pre>
+<p><i>Les Adherens du Pretendant se donnent beaucoup de mouvement à Rome.</i></p>
+<p>Or to puzzle it more after having made use of the Key A. in black Ink, as far as [Donnent] inclusive, which answers 371. which denotes [Changement de Clef] that the Key alters, and then put the Remainder of this Sentence into the Cypher B. the Numbers in red Ink and it will stand thus.</p>
+<pre>—   be  au  co  up  de  mo  uv  em
+371|436|433|342|218|446|678|417|553|
+en  tà  Ro  me
+453|023?|620|477|</pre>
+<p>The chief art of this Cypher consists in the Numbers running on without distinction till a distribution of them is made as above, by three in a parcel, by the person who deciphers, and that you make use of two Keys alternately at pleasure. [When you write you put no Stops, as in our Ordinary Cypher, but write thus, 371436433342218446670 4175534530236208477.]</p>
+<p>You have several Nulls to intermix as 110. 220. &amp;c and all above 900 are so. You make use of no Numbers under 100 or above 999.</p>
+</blockquote>
+<p>The example sentence means “The Pretender's adherents are very busy in Rome”. That is the kind of news Stosch sent home about the court of James Francis Edward Stuart.</p>
+
+<h2 id="the-system"><span class="num">03</span> The system</h2>
+<ul>
+<li><b>Code.</b> Three-digit groups stand for syllables and letter pairs (le, s, ad, her, en, du, pre, te, nd …). DECODE's “letter pairs rather than words” is right. A repeated syllable keeps its group within one key (s = 509 twice, en = 435 twice in key A).</li>
+<li><b>Two keys.</b> Key A and key B give different groups for the same syllable (be 446 / 436, au 447 / 433, mo 612 / 678). The writer switches at will, and 371 announces the switch.</li>
+<li><b>No separators.</b> The groups run on and the decipherer cuts them into threes. This is the point where the sheet contrasts the method with “our Ordinary Cypher”, which used stops.</li>
+<li><b>Nulls.</b> The round hundreds-and-tens groups 110, 220 and so on, and every group from 901 to 999.</li>
+</ul>
+
+<h2 id="what-remains-uncertain"><span class="num">04</span> What remains uncertain</h2>
+<ul>
+<li>In key A, 702 appears for both “du” and “up”. One of the two is probably a slip by the writer or a misreading (grade C).</li>
+<li>In key B, the group for “tà” reads 023, which falls below the stated range of 100–999 (C).</li>
+<li>The run-on demonstration does not match the separated groups digit for digit (…446670… against 446|678, and …6208477 against 620|477). The writer copied it loosely (C).</li>
+<li>Only the 30 groups of the example are known. Keys A and B are not on the record. Whether one of the 16 SP 106 key records on DECODE is one of them has not been checked.</li>
+<li>The writer and the recipient are not named. The date c. 1731 is inferred from the Florence correction.</li>
+</ul>
+
+<h2 id="sources"><span class="num">05</span> Sources</h2>
+<ul>
+<li>The National Archives, Kew, SP 106/7, images 0091–0092, via <a href="https://de-crypt.org/decrypt-web/RecordsView/597">DECODE R597</a> (images behind login).</li>
+<li>On Stosch as “John Walton”: Lesley Lewis, <i>Connoisseurs and Secret Agents in Eighteenth-Century Rome</i> (London, 1961).</li>
+</ul>
+<p class="muted">Notes and transcription: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/sp106r597">sp106r597/</a> in the repository.</p>
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; The National Archives, Kew, via DECODE R597</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="windischgraetz1721.html" rel="prev">&larr; Windischgr&auml;tz 1721 1721</a><a href="michell1751.html" rel="next">Michell 1751 1751 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20260919a"></script>
+</body>
+</html>

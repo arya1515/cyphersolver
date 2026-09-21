@@ -650,41 +650,6 @@
    "scored": "rule"
   },
   {
-   "id": 64,
-   "counted": false,
-   "year": null,
-   "date": "undated",
-   "title": "Unknown sender to unknown recipient",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "Kew",
-   "language": "French",
-   "region": "France",
-   "period": "unknown",
-   "shelfmark": "TNA, State Papers, inv.nr. 106 box 7",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R597: Partially decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. 16 key record(s) from the same series on DECODE, nearest R598 (1702). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: DECODE's date 1702/1837 is the span of the volume. Part of letter with instructions for operating \"the Cipher with Baron Stosch and Mr. Walton. The examples given seem to refer to a nomenclature consisting of letter pairs rather than words, but there are also …",
-   "why": "Ciphered letter of Unknown sender to unknown recipient; what the cipher hides is not known.",
-   "importance": 1,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R597",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/597"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    597
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 65,
    "counted": true,
    "year": 1758,
