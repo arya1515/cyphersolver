@@ -463,6 +463,12 @@
       "kind": "control",
       "what": "CORRECTION to an overstatement. Measured R9656, the uncribbed control, at 42% - lower than R9645's 57% - and its output is fragments ('no ... el papa ... la ... que ... su el papa'), not substance. I had been describing the five uncribbed records as reading 'in substance'; measured, they do not. The honest ceiling on an uncribbed letter is roughly half the tokens, concentrated in function words and names, with the content words as the misses: enough to say what a passage is about when surrounding clear text helps, not enough to read one. R9648 and R9650 score higher partly because their cribs were walked. Corrected in NOTES.md, profile.json and the write-up.",
       "result": "ruled out"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "sibling key",
+      "what": "Applied the 1524 alphabet (lopehurtado1523/key_1524.tsv) back to the 1522 letters by re-reading R9656 f. 334 (uncribbed) off the image in 1524 notation. 'xug ∠84αx7 zar ε&∂ yun ʒ∂' = 'la venida de los franceses' on an exact count, with 1524 values a/e/n/l/i and codes zar, xug, yun unchanged; the phrase recurs on l.1-2 and 'sub ∠α84..' = 'si vien-' is echoed by the clear 'si vienen franceses'. New sign ∠ = v. Shows the 1522 and 1524 alphabets are one; the 1522 'L = i' was a transcription collision.",
+      "result": "worked"
     }
   ],
   "outcome": {

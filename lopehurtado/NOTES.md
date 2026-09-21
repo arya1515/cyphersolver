@@ -611,6 +611,35 @@ not.
 - Test whether the key is Juan Manuel's: Tomokiyo's Juan Manuel table has `ton` unassigned, so the
   values above do not yet contradict it, and the question stays open.
 
+## The 1524 alphabet applied back to 1522 (2026-09-21)
+
+The 1522 transcriptions and `key_1524.tsv` use different names for the same glyphs (1522 `∞` = 1524 `ω`,
+1522 `ɣ` = 1524 `y`, and so on), so the 1524 key cannot be run over the old token strings. R9656 f. 334
+(20 Nov 1522, no crib, no duplicate) was re-read off the image in 1524 notation instead. Its cipher runs:
+
+```
+l.1-2  … nueva ∂6 ʃta zar ε7 ∠8ω / ti zun zar ε&∂ yun ʒ∂ │ ni a nadie sino a mi
+l.4    ʃ6 tu n4 ∠α8ʒ oo yub taf
+l.5    ɡ ʇʇ8 oo ʒ xuɡ ∠84αx7 zar ε&∂ yun ʒ∂ │ he preguntado
+l.6    ʃʃ yuc n4∠α ʒt ʃub ∠α84oo ɡ ton xic ʒ ʃʃ
+```
+
+With the 1524 values unchanged (`zar` de, `xuɡ` la, `yun` fran-, `ε` l, `7` a, `8` e, `4` n, `ʇʇ` r):
+
+- l.5 `xuɡ ∠84αx7 zar ε&∂ yun ʒ∂` = **la venida de los franceses**, exact count. It gives `∠` = v (a sign the
+  1524 key does not have) and agrees with 1524 `α` = i; `x` = d, which the 1522 key already had.
+- l.1-2 then reads *[el arçobispo de Bari no escrevio al papa] nueva … **de la ve·ni·da de los franceses**
+  [ni a nadie sino a mi]*: `ε7` = la and `zun` = da, both 1524 values.
+- l.6 `ʃub ∠α84oo` = **si vien-** (`sub` si), which the clear two lines later answers: *si vienen franceses
+  sera por mal dellos*.
+
+So the 1522 and 1524 alphabets are one alphabet: five 1524 letter values (a, e, n, l, i) and four
+codes read correctly in a 1522 letter nobody has deciphered, and 1522 `L` = i is really `α`, not the 1524
+`L` = r. The key-moved note on `L` is a transcription collision, not a key change.
+
+Still open on this leaf: `∂6 ʃta`, `ʃ6 tu n4 ∠α8ʒ oo` (*no … el papa*), `ɡ ʇʇ8 oo ʒ`, `oo` (probably a
+sign for s or an ending; not fixed from one context). R9634, R9645, R9646, R9649 not yet re-read this way.
+
 ## Remaining gaps
 
 - R9645 (57% tokens) and R9656 (42% tokens), the content words - blocker: illegible; alphabet signs cannot be told apart at DECODE's 1700 px per folio (the 'perdido' 8x zoom); no larger variant on DECODE; RAH Biblioteca Digital blocked to automated requests
@@ -622,7 +651,7 @@ not.
 
 - [x] siblings: all nine records opened; R9648 is R9644's duplicate; R9652 is wholly clear
 - [x] clear-pages: R9644's clear (ff. 241-242, lettered sections) and R9650 f. 272 aligned
-- [ ] known-keys: not done — Juan Manuel's table (Tomokiyo 2025) left untested, and the 1524 alphabet of lopehurtado1523 (key_1524.tsv, 105 values from R9846's clear) never applied back to the 1522 spelled runs
+- [x] known-keys: the 1524 alphabet (lopehurtado1523/key_1524.tsv) applied back to R9656 f. 334, 2026-09-21 (section below); Juan Manuel's table (Tomokiyo 2025) still untested
 - [ ] print: not done — Tomokiyo 2025 and a web search only; Bergenroth's CSP Spain ii (1522 section) not grepped for 'Salazar. A. 26' folios 14-16, 237-272, 295, 334
 - [x] key-rebuild: crib alignment gave 49 confirmed code values and probable alphabet signs (key_codes.tsv), audited for conflicts
-- [ ] retry: not done — rerun decode.py on R9634, R9645, R9646, R9649, R9656 with the 1524 alphabet and any CSP crib
+- [ ] retry: R9656 f. 334 re-read in 1524 notation (above); rerun on R9634, R9645, R9646, R9649, R9656 with the 1524 alphabet and any CSP crib
