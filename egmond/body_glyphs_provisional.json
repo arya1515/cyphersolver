@@ -1,0 +1,35 @@
+{
+  "source": "images/f27_hi.jpg; opening.png and body_mid1.png",
+  "scope": "Sixteen main body lines, excluding the supralinear insertion and clear signature. Provisional, not a verified transcript.",
+  "labels": {
+    "X": "two-bar cross; capital initial and smaller instances tentatively grouped",
+    "F": "tall looped f-like sign",
+    "O": "small round loop",
+    "S": "stacked or triple-zigzag form",
+    "H": "two uprights joined across the middle",
+    "Z": "short zigzag with descending curve",
+    "T": "sideways T with horizontal stroke at middle height",
+    "A": "angular 4-like sign",
+    "D": "quaver-like upright and bottom loop; frequently doubled",
+    "P": "loop with descending straight stroke",
+    "B": "6-like loop with upward-slanting stem",
+    "C": "c-like small curve",
+    "E": "e-like small curve; CE may be one compound glyph",
+    "Q": "9-like sign with long descending curve",
+    "I": "short isolated upright",
+    "V": "v-like angle",
+    "K": "h-like upright with lower right curve",
+    "R": "long stem with two crossbars and curved bottom",
+    "L": "top-bar corner or seven-like form",
+    "+": "simple cross, provisionally distinct from A",
+    "8": "double-loop eight-like form",
+    "W": "broad angular backward-five form, introduced in lines 4\u20136",
+    "G": "large C-like open curve, distinct from small c-like C"
+  },
+  "uncertainties": [
+    "The first three lines may contain W occurrences previously conflated with Z or S.",
+    "Paired D strokes and paired CE curves may be compound characters or nulls; neither interpretation is established.",
+    "Some A and + instances may have been misclassified.",
+    "Supralinear insertion at line 7 remains untranscribed; no text is supplied for it."
+  ]
+}

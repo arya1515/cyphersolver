@@ -1,0 +1,32 @@
+{
+  "score": -108.54166412353516,
+  "tokens": 49,
+  "symbols": 20,
+  "key": {
+    "U": "i",
+    "W": "u",
+    "a": "z",
+    "b": "k",
+    "c": "r",
+    "d": "v",
+    "e": "l",
+    "f": "a",
+    "g": "t",
+    "h": "g",
+    "i": "o",
+    "k": "s",
+    "l": "e",
+    "n": "p",
+    "o": "d",
+    "p": "n",
+    "q": "c",
+    "r": "h",
+    "s": "y",
+    "t": "m"
+  },
+  "reading": "zkrvlatlagloisa\nalaiseoupedurancarsinue\nceturagehym\n",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "address_provisional.txt",
+  "variant": "address_composites",
+  "language": "fr"
+}

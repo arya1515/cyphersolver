@@ -1,0 +1,32 @@
+{
+  "score": -529.4176025390625,
+  "tokens": 151,
+  "symbols": 20,
+  "key": {
+    "+": "c",
+    "8": "x",
+    "A": "r",
+    "B": "l",
+    "C": "o",
+    "E": "n",
+    "F": "y",
+    "H": "u",
+    "I": "f",
+    "K": "b",
+    "L": "h",
+    "O": "i",
+    "P": "t",
+    "Q": "e",
+    "R": "p",
+    "S": "d",
+    "T": "g",
+    "V": "a",
+    "X": "s",
+    "Z": "m"
+  },
+  "reading": "syidusmguyrtmliurongesfreretambreonptfreibumsmeharecon\naryurluistexarmeimmesmeahihatonecuicaitteeds\ncurexixchatonexalonesiedpeluyconcuclionseoncurxixueon",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "opening_revision2.txt",
+  "variant": "nullD",
+  "language": "fr"
+}

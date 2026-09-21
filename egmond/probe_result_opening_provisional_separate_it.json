@@ -1,0 +1,30 @@
+{
+  "score": -658.847412109375,
+  "tokens": 174,
+  "symbols": 18,
+  "key": {
+    "#": "u",
+    "3": "l",
+    "4": "e",
+    "8": "d",
+    "9": "a",
+    "B": "h",
+    "H": "r",
+    "b": "p",
+    "d": "s",
+    "e": "t",
+    "f": "g",
+    "h": "c",
+    "i": "b",
+    "o": "i",
+    "p": "n",
+    "r": "m",
+    "v": "o",
+    "z": "f"
+  },
+  "reading": "ugifrulmrgessnlpirettmaubeasseanssolceatthn beailrlulassmoeaett\noegress prissussnad oelail lau lass omimonttass eriess oin naalu\nereaide montta do pttaussialha prgett eress pittuatt eredidratt\n",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "opening_provisional.txt",
+  "variant": "separate",
+  "language": "it"
+}

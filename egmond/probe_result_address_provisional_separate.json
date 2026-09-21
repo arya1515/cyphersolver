@@ -1,0 +1,32 @@
+{
+  "score": -143.1891326904297,
+  "tokens": 56,
+  "symbols": 20,
+  "key": {
+    "a": "k",
+    "b": "x",
+    "c": "s",
+    "d": "v",
+    "e": "t",
+    "f": "a",
+    "g": "n",
+    "h": "r",
+    "i": "u",
+    "j": "f",
+    "k": "i",
+    "l": "o",
+    "m": "e",
+    "n": "p",
+    "o": "y",
+    "p": "l",
+    "q": "m",
+    "r": "c",
+    "s": "h",
+    "t": "d"
+  },
+  "reading": "kxsvtantartuffia\nataffioueepoyeesalmasiffleeo\nmoneesarochd\n",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "address_provisional.txt",
+  "variant": "separate",
+  "language": "fr"
+}

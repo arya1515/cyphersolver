@@ -1,0 +1,18 @@
+{
+ "status":"working hypothesis; occurrence-level verification underway",
+ "provenance":"Full-body annealing followed by manuscript comparison and the independent address formula. No archived key or published plaintext found.",
+ "tokens":{
+  "X":"", "F":"", "O":"", "S":"m", "H":"o", "Z":"n",
+  "T":"c", "A":"u", "DD":"s", "P":"i", "B":"p", "CE":"r",
+  "Q":"e", "I":"q", "V":"a", "K":"?", "R":"t", "L":"f",
+  "+":"u", "8":"l", "W":"d", "G":"x"
+ },
+ "cautions":[
+  "Some short and long zigzags have been conflated: S/Z distinguish m/n.",
+  "A rounded cup-shaped null was sometimes labelled V (angular a).",
+  "Plain plus (g in the address) and angular four-like u/v require occurrence-level distinction.",
+  "Top-bar b and f differ; the address g label is not one consistently identified glyph.",
+  "DD and CE are compound shapes, not proof of two independently repeated cipher letters.",
+  "Clear-text word division and u/v modernization have not been added here."
+ ]
+}

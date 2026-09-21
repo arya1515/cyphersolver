@@ -1,0 +1,30 @@
+{
+  "plaintext": "monsieurmonboncousinieuouspriedeuouloircontinueraubienetaduancementdemesaffairesetdonneruotrebonnefaueuretassistanceauporteurdeceslettresafinquilpuisseauoirbonneetbriefueexpedition",
+  "encryption": {
+    "a": "D",
+    "b": "P",
+    "c": "K",
+    "d": "M",
+    "e": "B",
+    "f": "J",
+    "g": "X",
+    "h": "G",
+    "i": "Q",
+    "k": "V",
+    "l": "W",
+    "m": "R",
+    "n": "C",
+    "o": "A",
+    "p": "F",
+    "q": "T",
+    "r": "H",
+    "s": "L",
+    "t": "N",
+    "u": "O",
+    "v": "E",
+    "x": "I",
+    "y": "U",
+    "z": "S"
+  },
+  "caution": "Constructed positive control; not an Egmond decipherment."
+}

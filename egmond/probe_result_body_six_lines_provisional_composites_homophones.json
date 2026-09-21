@@ -1,0 +1,33 @@
+{
+  "score": -914.6088854842045,
+  "tokens": 300,
+  "symbols": 21,
+  "key": {
+    "+": "u",
+    "8": "l",
+    "A": "i",
+    "B": "c",
+    "F": "e",
+    "H": "o",
+    "I": "r",
+    "J": "s",
+    "K": "t",
+    "L": "m",
+    "M": "r",
+    "O": "e",
+    "P": "i",
+    "Q": "e",
+    "R": "t",
+    "S": "n",
+    "T": "d",
+    "V": "a",
+    "W": "i",
+    "X": "u",
+    "Z": "n"
+  },
+  "reading": "ueenoundoeisinceoirdeuriesieisantiertirieetonunesmaieur\naieoiscoesusielaineenneunesamemairesuoeusaeiieenu\nuoielelumairelacreuseentecoeuruouscerueruoileloer\ndontinuercoeurlaitieanirdoeseiiereleutereunenedeseste\nlaoucourlecresentenetrouiecoeurauironeiaulde\ndonananieenensiuroileerielestdaisedieesiseenteraen",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "body_six_lines_provisional.txt",
+  "variant": "composites",
+  "language": "fr"
+}

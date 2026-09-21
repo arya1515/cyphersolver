@@ -1,0 +1,33 @@
+{
+  "score": -679.611572265625,
+  "tokens": 175,
+  "symbols": 21,
+  "key": {
+    "+": "l",
+    "8": "d",
+    "A": "r",
+    "B": "m",
+    "C": "o",
+    "D": "e",
+    "E": "n",
+    "F": "g",
+    "H": "a",
+    "I": "b",
+    "K": "y",
+    "L": "f",
+    "O": "s",
+    "P": "t",
+    "Q": "i",
+    "R": "x",
+    "S": "p",
+    "T": "z",
+    "V": "u",
+    "X": "c",
+    "Z": "h"
+  },
+  "reading": "c g s p a c h z a g r e e t h m s a r o n z i c b r i e e r i t e e u h y r i o n x t b r i s y a h c h i e e f u r i l o n\nu r g a r e e m a s e e c e e t i d u r h i s h h i c h i e e u f s f u t o n i e e l a s l e e u s t t i i p c\nl a r i d s d l f u t o n i d u m o n i c e e s i p x i m a g l o n l a l e e m s o n c i o n l a r d s d a i o n\n",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "opening_revision2.txt",
+  "variant": "separate",
+  "language": "fr"
+}

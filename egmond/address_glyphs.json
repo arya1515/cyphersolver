@@ -1,0 +1,26 @@
+{
+ "source":"images/address_full.png, cropped from Gallica view 28",
+ "caution":"Provisional glyph transcription, not a plaintext. Labels are independent of opening_provisional.txt. Curved pairs mm and small/large zigzags require review. Spaces within lines omitted rather than interpreted as word boundaries.",
+ "labels":{
+  "a":"initial tall simple cross, without the loop of r",
+  "b":"small round or teardrop o",
+  "c":"v-like angle",
+  "d":"large angular zigzag at first line position four",
+  "e":"H-like sign",
+  "f":"short zigzag with curved descending tail",
+  "g":"top-bar seven or inverted corner",
+  "h":"sideways T, bar at middle height",
+  "i":"angular 4-like sign",
+  "j":"quaver or d-like stem with lower loop",
+  "k":"p-like loop with descender",
+  "l":"9-like sign with curved descending tail",
+  "m":"arched c-like stroke, often in pairs",
+  "n":"8-like sign",
+  "o":"simple plus",
+  "p":"tall stem with two crossbars and curved lower end",
+  "q":"large curled 5-like sign",
+  "r":"looped f-like sign",
+  "s":"small diamond or slanted closed loop",
+  "t":"crossed descender at end of address"
+ }
+}

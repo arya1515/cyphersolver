@@ -1,0 +1,29 @@
+{
+  "score": -625.8987426757812,
+  "tokens": 174,
+  "symbols": 18,
+  "key": {
+    "#": "a",
+    "3": "m",
+    "4": "e",
+    "8": "t",
+    "9": "i",
+    "B": "y",
+    "H": "r",
+    "b": "c",
+    "d": "s",
+    "e": "l",
+    "f": "p",
+    "h": "q",
+    "i": "z",
+    "o": "o",
+    "p": "u",
+    "r": "d",
+    "v": "n",
+    "z": "g"
+  },
+  "reading": "\nllirtotere llialloc ssere lleprc iymiossaillc nt illund etoiere\namiiu uon sseore ssillundodn ssim aim moimen tiussassorc sserpen\nlleiendssimamrmoiez uyllieqmnssuiessiezaidllerocmusseprdmargopa",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "opening_provisional.txt",
+  "variant": "reverse"
+}

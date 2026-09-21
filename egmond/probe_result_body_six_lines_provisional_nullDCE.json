@@ -1,0 +1,31 @@
+{
+  "score": -939.7911376953125,
+  "tokens": 257,
+  "symbols": 19,
+  "key": {
+    "+": "s",
+    "8": "d",
+    "A": "r",
+    "B": "c",
+    "F": "p",
+    "H": "a",
+    "I": "b",
+    "K": "f",
+    "L": "h",
+    "O": "i",
+    "P": "u",
+    "Q": "e",
+    "R": "l",
+    "S": "g",
+    "T": "m",
+    "V": "o",
+    "W": "y",
+    "X": "t",
+    "Z": "n"
+  },
+  "reading": "tpigatnmaprunciarmetbrereuonfrelubreifantnehores\norparcaituedorneinnetneohihouesaisoiuueegt\nsaredidshouedocetieglecapssascitesardidae\nmaglunsecapsdoyfreonumaipuyeedeslietnenemeile\ndoascasdeceenlegelasrecapsosuaneuosdmi\nmagogonypenenysaudepbredelmoremreiriegleoen",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "body_six_lines_provisional.txt",
+  "variant": "nullDCE",
+  "language": "fr"
+}

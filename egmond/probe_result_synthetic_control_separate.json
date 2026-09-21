@@ -1,0 +1,29 @@
+{
+  "score": -297.9185791015625,
+  "tokens": 180,
+  "symbols": 18,
+  "key": {
+    "A": "o",
+    "B": "e",
+    "C": "n",
+    "D": "a",
+    "F": "p",
+    "H": "r",
+    "I": "x",
+    "J": "f",
+    "K": "c",
+    "L": "s",
+    "M": "d",
+    "N": "t",
+    "O": "u",
+    "P": "b",
+    "Q": "i",
+    "R": "m",
+    "T": "q",
+    "W": "l"
+  },
+  "reading": "monsieurmonboncousinieuouspriedeuouloircontinueraubienetaduancementdemesaffairesetdonneruotrebonnefaueuretassistanceauporteurdeceslettresafinquilpuisseauoirbonneetbriefueexpedition",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "synthetic_control.txt",
+  "variant": "separate"
+}

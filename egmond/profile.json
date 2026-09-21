@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "target": "egmond",
+  "title": "Charles of Egmond, BnF fr. 3015 no. 8",
+  "documents": [
+    {
+      "id": "letter-and-address",
+      "shelfmark": "BnF français 3015 no. 8, folio 16",
+      "year": "unknown",
+      "country": "Guelders",
+      "language": "French",
+      "cleartext_in_document": "separate passages",
+      "plaintext": {
+        "location": "unknown"
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "good",
+        "notes": "Provisional sixteen-line shape transcript; insertion omitted and several shapes conflated. Candidate reading requires occurrence-level image audit."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "Working graphic substitution hypothesis with nulls and compound signs; exact inventory unresolved.",
+    "symbol_kind": "symbols",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown"
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "unknown",
+      "found": "not found",
+      "used": false
+    },
+    "inputs": [
+      "images"
+    ],
+    "attack": "unknown",
+    "human_role": "User supplied target and Gallica link and reminded the model of the existing private DECODE cookie.",
+    "models": [
+      "unknown"
+    ],
+    "tools": [
+      "Gallica IIIF",
+      "NumPy substitution probe; existing period-French 5-gram model"
+    ]
+  },
+  "solution": [
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Web tool failed to open Gallica; direct HTTP retrieved the IIIF manifest and BnF catalogue successfully.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Catalogue places no. 8 at folio 16. Retrieved and visually inspected Gallica views 27 (letter) and 28 (ciphered address). Downloaded 3000-pixel body image for transcription.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Made a provisional shape-label transcription of the first three body lines. Similar cross, zigzag and loop forms remain unresolved; not a diplomatic transcription.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "Initial probe failed because numba and ducroc/frn5.npy were absent. Replaced it with NumPy and the existing 24-symbol period-French model gallica_sweep/mondoucet/f1573/fr5.npy. Corrected an initial model-dimension mismatch.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "Many-to-one substitution collapsed to repeated letters under the conditional language model. Switched to a bijective 24-letter permutation; 12 seeds at 40000 proposals each on separate/dd/ee/both segmentation variants did not produce readable French. This does not rule out substitution because transcription and token boundaries are provisional.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "access",
+      "what": "Retrieved and inspected Gallica views 39–40, the separate folio 24 clear letter and address. Confirmed grand-maitre address and 3 April 1537 date as context only, not a clear-copy match to cipher item 8.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "control",
+      "what": "Constructed a French monoalphabetic positive control of comparable length; the same probe recovered every plaintext letter exactly. Control is synthetic, not the target plaintext.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "Reversing the provisional three-line transcription yielded no readable French under the same model. Does not exclude systems or readings under a corrected transcription.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Built an indexed contact sheet and bounding boxes of first-line ink components for glyph comparison; component count is not a token count.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Tested separating provisional ee pairs into c-like and e-like forms. The global replacement did not yield readable French; occurrence-level checking remains necessary.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Independently transcribed the address using shape descriptions: provisional 56 tokens/20 labels, measured with _check_profile.py. An overlapping ascender/descender is not an additional token.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Opening revision 2 separates plus/4, top-bar/side-bar and c/e-like forms; measured provisional 175 tokens and 21 labels. Original document counts remain unknown.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "German and Italian probes on the original opening, French probes on revised opening and independent address, and compound-stroke variants all lacked a coherent reading. Scores not calibrated across languages.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "literature search",
+      "what": "French/Dutch/German searches located Kalsbeek 1932 as a bibliographic lead but no digitized copy. Inspected Docquier chapter on Maximilian/Margaret correspondence: contextual Guelders discussion, no target shelfmark or cipher mention in extracted text.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Extended provisional body transcript to six lines: 343 tokens and 22 labels measured by _check_profile.py; added glyph legend and source crops. W newly distinguished, so earlier lines require consistent rechecking.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "hypothesis",
+      "what": "Tested paired-D and paired-D/CE null hypotheses on opening and six-line draft; no sustained readable output. Shortened scores are not direct evidence for null status.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "Tested many-to-one French substitution on six-line compound-stroke variant, penalizing divergence from average model next-letter distribution. Produced fragments but no coherent or verified reading; no plaintext accepted.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "transcription",
+      "what": "Extended provisional transcript to sixteen main lines: 804 draft labels, 23 distinct; insertion omitted.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "solver",
+      "what": "Full-text compound and null variants produced sustained French fragments; prior short probes failed.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "reading",
+      "what": "Saved reproducible inferred key and uncorrected candidate French reading. Provisional address grand maistre de France cross-check supports nulls; full image audit, insertion and date remain unresolved.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "read in part",
+    "fraction_read": "unknown",
+    "verification": [
+      "none"
+    ],
+    "notes": "Unfinished inferred French reading; transcription errors and insertion unresolved. No independent plaintext or archived key verification."
+  }
+}

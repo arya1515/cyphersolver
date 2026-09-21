@@ -1,0 +1,32 @@
+{
+  "score": -566.1282958984375,
+  "tokens": 153,
+  "symbols": 20,
+  "key": {
+    "+": "i",
+    "8": "p",
+    "A": "n",
+    "B": "f",
+    "F": "m",
+    "H": "a",
+    "I": "g",
+    "J": "s",
+    "K": "x",
+    "L": "y",
+    "M": "t",
+    "O": "u",
+    "P": "l",
+    "Q": "e",
+    "R": "h",
+    "S": "c",
+    "T": "b",
+    "V": "o",
+    "X": "r",
+    "Z": "d"
+  },
+  "reading": "rmucardbamnsldfuantbergnesnelsodxnethlgneuxadrdesyoneit\nonmansfausrslepondeudderdesoyuyoltesiauisoulleecr\nianepupiyoltepoftersuechefamitiaisfutretianpupaet",
+  "caution": "Unverified exploratory solver result on provisional transcription.",
+  "input_file": "opening_revision2.txt",
+  "variant": "composites",
+  "language": "fr"
+}
