@@ -170,6 +170,8 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 ## Third tier: found already solved by others
 
+**Dirk van Hogendorp (St Petersburg) → Maarten van der Goes (1803; catalogue 227)** — content identified from Sillem&rsquo;s 1890 account and its explicit footnote to ciphered dispatch no. 12; the matching archive codebook was found, but the 286 groups have not been aligned to a verbatim plaintext. This is ranked as source identification, not as a cryptanalytic solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).
+
 **Beatrice d'Aragona (1482–1505; catalogue 160)** — source identification, not ranked as a new cryptanalytic solve. Four readings in MDE III–IV (1877–78); R1154 plain and dated 1505, with Berzeviczy (1914) no. CCCII as control. March editorial markers remain unverified. [Write-up](https://dbourdeau.github.io/cyphersolver/beatrice1482.html).
 
 Ordered by how much this repo added.

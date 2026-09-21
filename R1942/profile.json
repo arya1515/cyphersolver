@@ -1,0 +1,152 @@
+{
+ "schema_version": 1,
+ "target": "R1942",
+ "title": "Dirk van Hogendorp to Maarten van der Goes, St Petersburg, 5 July 1803 (DECODE R1942)",
+ "documents": [
+  {
+   "id": "R1942",
+   "shelfmark": "Nationaal Archief, 2.01.08, Ministerie van Buitenlandse Zaken 1796-1810, inv. 318; DECODE R1942",
+   "date": "5 Jul 1803",
+   "year": 1803,
+   "country": "Batavian Republic",
+   "route": "St Petersburg -> The Hague",
+   "language": "Dutch",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "J. A. Sillem, Dirk van Hogendorp (1761-1822) (1890), pp. 151-153, paraphrases the argument and identifies its source as the ciphered dispatch no. 12 of the same day.",
+    "partial": true
+   },
+   "length": {
+    "tokens": 286,
+    "distinct": 218,
+    "unit": "code groups",
+    "measured": true,
+    "file": "R1942_numeric_transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE scans; numeric transcription in R1942_numeric_transcription.txt.",
+    "corrections": 0,
+    "image_quality": "fair",
+    "notes": "The numeric values are transcribed, but the superposed marks remain preliminary; R1942_cipher_transcription_draft.txt is not a diplomatic transcription. The measured distinct count treats bare numeric groups as symbols and therefore collapses marked variants."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "nomenclator",
+   "code"
+  ],
+  "summary": "A numerical Dutch diplomatic nomenclator whose three-digit values are extended by superposed marks; the matching 1803 codebook is DECODE R1035.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 1849,
+  "diacritics": {
+   "used": true,
+   "note": "Bars, ticks, dots and wave-like marks over the numbers select distinct codebook entries; the partial R1035 CSV contains 1,849 distinct marked or bare entries."
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 1849,
+   "kinds": [
+    "syllables",
+    "word parts",
+    "common words",
+    "names",
+    "places",
+    "titles",
+    "phrases"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": "unknown",
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE R1035, Nationaal Archief 1.02.13 Legatie Rusland inv. 228, codebook of 1803; found and used to identify the system, but not yet applied group by group.",
+  "notes": "DECODE's downloadable R1035 CSV is explicitly partial. The surviving images of its twenty-page key are needed for a complete decode."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "Sillem 1890, pp. 151-153, identifies and paraphrases the subject, with an explicit footnote to ciphered dispatch no. 12; no letter-perfect plaintext was found.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "key from archive",
+   "published reading"
+  ],
+  "attack": "none",
+  "human_role": "Supplied authenticated DECODE access and posed the target; no target-specific reading or source identification was supplied.",
+  "tools": [
+   "DECODE authenticated image viewer",
+   "OCR search of Sillem 1890"
+  ],
+  "models": [
+   "gpt-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Used authenticated DECODE access to retrieve the two R1942 scans and confirm the clear heading No. 12.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "transcription",
+   "what": "Transcribed the bare numeric values from both pages; 286 groups measured, while the superposed marks remain a draft.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "key from source",
+   "what": "Found DECODE R1035, the 1803 Legatie Rusland codebook, and downloaded its 1,849-entry partial transcription; its marked numeric format matches R1942.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Located Sillem 1890 pp. 151-153, whose Van Suchtelen paragraph cites the ciphered dispatch of the same day, no. 12.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "verification",
+   "what": "Separated dispatch no. 10, cited for the commercial-treaty argument, from no. 12, cited for the alternative approach to Alexander I through Van Suchtelen; the manuscript heading independently confirms no. 12.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "reading",
+   "what": "Identified the hidden subject and argument from Sillem's source citation; did not claim an exact plaintext or code-group alignment.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "The content is resolved from Sillem's 1890 account and explicit archival footnote. The nomenclator itself is not decoded group by group, so the exact Dutch plaintext remains open."
+ }
+}

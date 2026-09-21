@@ -7361,41 +7361,6 @@
    "scored": "rule"
   },
   {
-   "id": 227,
-   "counted": true,
-   "year": 1803,
-   "date": "5 Jul 1803",
-   "title": "Dirk van Hogendorp (1761-1822), Batavian emissary in Russia (St Petersburg) to Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen",
-   "correspondents": "Dirk van Hogendorp (1761-1822), Batavian emissary in Russia → Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen",
-   "place": "St Petersburg, Russia",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1801-1900",
-   "shelfmark": "NA The Hague, 02.01.08., Ministerie van Buitenlandse Zaken, 1796-1810, inv. nr. 318",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1942: Non-decrypted, 2 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The nomenclator is probably known and found elsewhere in this database.",
-   "why": "Ciphered letter of Dirk van Hogendorp (1761-1822), Batavian emissary in Russia to Maarten van der Goes (1751-1826), agent van staat voor de buitenlandse betrekkingen, 5 Jul 1803; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1942",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1942"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1942
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 228,
    "counted": true,
    "year": 1801,
