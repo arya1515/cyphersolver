@@ -4502,6 +4502,30 @@
      "sent": false
     }
    }
+  },
+  "nino1522": {
+   "writeup": null,
+   "key": {
+    "file": null,
+    "lang": "ES",
+    "how": "not recovered; Kolosova's Cifra 15 (2017 thesis pp. 452-459; 2024 book 'Cifrarios' pp. 171-224)"
+   },
+   "cite": "O. Kolosova, El lenguaje secreto de la diplomacia de Carlos V (1521-1527), thesis, Universitat de València 2017, pp. 452-459; S. Tomokiyo, cryptiana spanish2C (Ko.15)",
+   "fields": {
+    "cipher_types": "simple substitution with nulls (syllable-shaped null groups mer, mor, pu, por)",
+    "symbol_sets": "graphic signs",
+    "receiver": "Charles V",
+    "plaintext_lang": "Spanish"
+   },
+   "records": {
+    "R1182": {
+     "decode_status": "Non-decrypted",
+     "proposed": "(no change)",
+     "note": "Mostly a clear Spanish letter; one 8-line ciphered paragraph on f. 1v, bracketed by the nulls 'mer' ... 'mer por'. Same system as Kolosova's Cifra 15 (Rodrigo Niño 1522, simple substitution with syllable nulls). Cipher type is better given as simple substitution with nulls than homophonic; symbol set graphic signs (the 'numerical' flag comes from digit-shaped signs).",
+     "sent": false,
+     "reading": []
+    }
+   }
   }
  },
  "rechteren1785": {
@@ -4887,28 +4911,6 @@
     "note": "Read at the time: an archivist's note on the address leaf says the decipherment is in no. 21 of the legajo, and its Spanish version is calendared in CSP Spain XII (1949): Renard reports the discovery of the Courtenay/Elizabeth/Wyatt/Carew plot. Cipher is the Granvelle-Saint Mauris cipher (Pich-Ponce PP1).",
     "sent": false,
     "reading_not_needed": true
-   }
-  }
- },
- "nino1522": {
-  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/nino1522/NOTES.md (notes only, no site page)",
-  "key": {
-   "decode": "none on DECODE; Kolosova's Cifra 15 (Rodrigo Niño 1522) in print"
-  },
-  "cite": "O. Kolosova, El lenguaje secreto de la diplomacia de Carlos V (1521-1527), thesis, Universitat de València 2017, pp. 452-459; S. Tomokiyo, cryptiana spanish2C (Ko.15)",
-  "fields": {
-   "cipher_types": "simple substitution with nulls (syllable-shaped null groups mer, mor, pu, por)",
-   "symbol_sets": "graphic signs",
-   "receiver": "Charles V",
-   "plaintext_lang": "Spanish"
-  },
-  "records": {
-   "R1182": {
-    "decode_status": "Non-decrypted",
-    "proposed": "Non-decrypted",
-    "note": "Mostly a clear Spanish letter; one 8-line ciphered paragraph on f. 1v, bracketed by the nulls 'mer' ... 'mer por'. Same system as Kolosova's Cifra 15 (Rodrigo Niño 1522, simple substitution with syllable nulls). Cipher type is better given as simple substitution with nulls than homophonic; symbol set graphic signs (the 'numerical' flag comes from digit-shaped signs).",
-    "sent": false,
-    "reading": null
    }
   }
  }
