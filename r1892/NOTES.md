@@ -58,11 +58,35 @@ Page 1 cites a letter "en date du ... décembre". DECODE's 1 Jan 1795 is probabl
 fits winter 1795/96, when the rassemblement's transfer to British service and embarkation were being negotiated.
 The attribution "to William V" is the file's provenance, not the addressee.
 
+## Word signs and doubtful lines (second pass, 21 Sept 2026)
+
+Every sign occurrence was listed with its decrypted context (`apply.py` now renders the circle sign as DE).
+
+| sign | n | value | grade | evidence |
+|---|---|---|---|---|
+| circle with dot | 27 | **de** (French and Dutch) | H | d'aller *de* nouveau; d'obtenir *de* pouvoir; au service *de* S.M.B.; question *de* leur embarquement; op *de* volgen*de* wijze; bepaal*de* dagen; *de*n generaal |
+| γ | 5 | zich | M | degene die *zich* vrijwillig; die hier *zich* … willen geëmployeerd |
+| c-shaped sign | 5 | te | M | de keus *te* maken; in cijffer *te* vinde[n] |
+| G | 7 | ik | M | *ik* wist wat in bovenstaande; *ik* mijn eerste [brief] |
+| ⊣H | 9 | a verb auxiliary before *willen* (zouden?) | I | three times directly before *willen* |
+| hook | 7 | a conjunction before G (dat?) | I | usually directly before G |
+
+The other ~20 signs occur once to four times each; context does not fix them, and the transcriber's labels for them
+may merge or split shapes. They stay unread.
+
+- **Closing, re-read at full resolution:** top 4 2 2 3 2 5 6 5 6 over bottom 3 5 2 2 4 2 5 2 5 = 43 25 22 32 24 52 65
+  52 65 = **à mon frère** (H). The first transcription's 44/54 were misreadings of 24/52. The group before
+  "me marque" is 15 65 45 52 55 32 51 65 = **le prince** (H).
+- **Page 2, line 1, re-read:** [de] 32 41 65 32 65 52 43 43 15 35 65 52 11 55 32 51 13 = "**den generaal Bertincy**",
+  probably General Bentinck (C: n/r and k/y are each one stroke apart in this photocopy; the name is not certain).
+- **Page 2, line 24:** re-examined; the two digit rows drift and several pairs are ambiguous (… *dert* … *gesteld is
+  geweest*). Still read only in fragments.
+
 ## Open
 
-- About 30 graphic word signs (circle-with-dot is the most frequent, likely "de/te/het"), not reconstructed.
-- Page 2 line 1 and line 24 are poorly legible in the photocopy.
-- Exact writer and addressee.
+- About 20 rare signs; the values proposed for γ, c, G above are probable, ⊣H and hook only guessed.
+- Page 2 line 24 middle; page 1 line 1.
+- Exact writer and addressee: "le prince" and "mon frère" are both named; "den generaal Bentinck" is mentioned.
 
 ## Prior art
 

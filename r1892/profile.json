@@ -153,6 +153,18 @@
    "what": "Same square applied to page 1 gives French; 54=q, 14=x, 13=y, 12=z(French) adjusted.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Word signs assigned from decrypted context: circle = de (27, all fit), gamma = zich, c-sign = te, G = ik (probable).",
+   "result": "worked",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "transcription",
+   "what": "Closing and page 2 line 1 re-read at full resolution: 'à mon frère' (44/54 misreadings of 24/52), 'den generaal Bertincy'; line 24 still unalignable.",
+   "result": "worked",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
@@ -161,6 +173,6 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "1816 of 1829 digit pairs mapped; about 129 graphic sign occurrences unread; fraction counts signs as enciphered tokens."
+  "notes": "1816 of 1829 digit pairs mapped; 27 'de' signs read; ~100 other sign occurrences unread or only probable."
  }
 }
