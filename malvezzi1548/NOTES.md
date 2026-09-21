@@ -74,10 +74,15 @@ ad literas tuas respondenda duximus*, dated Augsburg, 23 January 1548, signed Fe
 Malvezzi's correspondence of 1548–1552 is printed in *Austro-Turcica 1541–1552. Diplomatische Akten des
 habsburgischen Gesandtschaftsverkehrs mit der Hohen Pforte im Zeitalter Süleymans des Prächtigen*, ed. Srećko M.
 Džaja with Günter Weiß, prepared by Karl Nehring and Ernst D. Petritsch (Südosteuropäische Arbeiten 95, Munich
-1995). That edition is not freely available online and was not consulted here; the Vienna registry copy would
-have been in clear, so the content of this letter is probably in print there. No decipherment of this
-manuscript was found on the web (searches September 2026), and DECODE still carries it as only partially
-decrypted.
+1995). Checked 21 September 2026: the edition is not online (no full or snippet view found), so this letter's own
+number could not be confirmed. Its neighbours can be placed from citations: Ferdinand's instructions for Malvezzi,
+24 January 1548, are cited as no. 62 (search-result summary, unverified), and Ferdinand to Justus de Argento,
+Augsburg, 13 February 1548 — the secretary this letter says is bringing the money — is **no. 68, pp. 213–15**
+(J. D. Tracy, "The Logic of Kleinkrieg", *Austrian History Yearbook* 52, 2021, n. 34). Malvezzi to Ferdinand,
+26 Aug. 1547, is at p. 178 (Gürkan, "Representation and Self-Consciousness…", n. 43). So the 23 January 1548 letter,
+if printed, sits between nos. 62 and 67 (c. pp. 190–212), presumably from the Vienna registry copy in clear. The
+print could not be seen, so it neither confirms nor corrects the reading here. No decipherment of this manuscript
+was found on the web, and DECODE still carries it as only partially decrypted.
 
 ## Files
 
@@ -95,6 +100,6 @@ decrypted.
 - [x] siblings: R367 (the key, same shelfmark), R386 (second key copy) and R368 (short ciphered slip, not a decipherment) opened
 - [ ] clear-pages: not done — no check recorded whether the Vienna registry clear copy (HHStA Turcica) survives as images anywhere
 - [x] known-keys: R367 Tabella I/II and R386 applied
-- [ ] print: not done — Austro-Turcica 1541-1552 (Dzaja/Weiss 1995) prints Malvezzi's correspondence and was not consulted; it likely has this letter in clear
+- [x] print: tried 2026-09-21 — Austro-Turcica 1541-1552 not online; letter probably between nos. 62 and 68 (no. 68 = Ferdinand to Argento 13 Feb 1548, pp. 213-15); text not seen, reading unconfirmed. Next: library copy (Munich 1995, SOA 95), pp. c. 190-212
 - [ ] key-rebuild: not done — fill the unread code syllables/graphic-sign variants on pp. 1 and 7 from Latin LM context and the read pp. 4-6
 - [ ] retry: not done — rerun the [?] groups of read_A.md p1/p7 and p6 foot with an extended key

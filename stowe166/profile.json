@@ -201,7 +201,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "unknown",
-   "where": "DECODE Non-decrypted; no decipherment on leaves; Birch 1749 does not print the passages; Butler, Edmondes Papers (1913) not checked",
+   "where": "DECODE Non-decrypted; no decipherment on leaves; Birch 1749 does not print the passages; Butler, Edmondes Papers (1913) located (HathiTrust mdp.39015083993017) but blocked, unchecked; List and Analysis SP Foreign 1591-94 not accessible",
    "found": "not found",
    "used": false
   },
@@ -263,13 +263,27 @@
    "kind": "reading",
    "what": "Four cipher lines on f. 59 attempted; only fragments.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Print check: Butler, Edmondes Papers (1913) located as HathiTrust full view mdp.39015083993017 (record 002098089), but ssd/pt/full-text search blocked by Cloudflare 403 after one page (curl, PowerShell, WebFetch); Google Books 4sJCAQAAMAAJ captcha, Books API over quota; not on archive.org. List and Analysis of State Papers Foreign 1591-94 in copyright, BHO premium only; not searched.",
+   "result": "failed"
   }
  ],
  "outcome": {
   "class": "read in part",
   "gaps": [
-   {"item": "R7772 f. 59, four cipher lines", "blocker": "not-attempted", "detail": "NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key"},
-   {"item": "code signs 9, n, £/£2, 4̇", "blocker": "open-codes", "detail": "person signs; 9 = Soissons? and £ = Guise? by context only, n and 4̇ unidentified"}
+   {
+    "item": "R7772 f. 59, four cipher lines",
+    "blocker": "not-attempted",
+    "detail": "NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key"
+   },
+   {
+    "item": "code signs 9, n, £/£2, 4̇",
+    "blocker": "open-codes",
+    "detail": "person signs; 9 = Soissons? and £ = Guise? by context only, n and 4̇ unidentified"
+   }
   ],
   "fraction_read": 0.89,
   "grades": "unknown",

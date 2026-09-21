@@ -85,8 +85,8 @@ Then in clear: "The King hath a disposition to geue him the Gouernment of Prouen
 - DECODE: Non-decrypted, no key record.
 - Birch, *Historical View of the Negotiations* (1749), is drawn from the Edmondes papers. Its archive.org text
   (`anhistoricalvie01bacogoog`) was searched and does not print these passages.
-- G. G. Butler, *The Edmondes Papers* (Roxburghe Club, 1913) prints a selection. Not checked: HathiTrust
-  returned 403 from here. It may print these letters, with or without the cipher resolved. **Check before claiming novelty.**
+- G. G. Butler, *The Edmondes Papers* (Roxburghe Club, 1913) prints a selection. Still not checked (2026-09-21): HathiTrust holds it as full view, public domain in the US (record 002098089, htid mdp.39015083993017, 548 page images). One `cgi/ssd` text-view request answered 200, and after that every request got a Cloudflare challenge (403): `cgi/ssd`, `cgi/pt`, `cgi/pt/search` and `cgi/ls` full-text search, from curl with a browser UA, from PowerShell and from WebFetch. Not on archive.org (title and phrase searches). Google Books `4sJCAQAAMAAJ` gave a captcha, and the Books API was over quota. It may print these letters, with or without the cipher resolved. **Check before claiming novelty**: a browser session on HathiTrust (search inside for "vendible", "Angolesme", "Saumur"), or retry ssd later.
+- *List and Analysis of State Papers Foreign* (HMSO, vols 3-5, 1591-94) calendars SP 78, where Edmondes's originals may sit (Stowe 166 holds his own papers). It is in copyright, not on archive.org, and BHO carries it only as premium content. Not grepped.
 - No decipherment on the leaves: no interlinear readings and no key filed with the volume.
 
 ## Open
@@ -103,6 +103,6 @@ Then in clear: "The King hath a disposition to geue him the Gouernment of Prouen
 - [x] siblings: all six records R7770-R7775 of the volume opened and read; f. 110 checked, no cipher
 - [x] clear-pages: leaves checked, no interlinear readings and no key filed with the volume
 - [ ] known-keys: not done — compare with the Edmondes/Burghley tables in Tomokiyo (elizabeth.htm) and DECODE Elizabethan keys
-- [ ] print: not done — Birch 1749 searched, but Butler, The Edmondes Papers (1913) never checked; CSP Foreign / List and Analysis 1592-94 not grepped
+- [ ] print: attempted 2026-09-21, blocked — Birch 1749 does not print the passages; Butler 1913 is full view on HathiTrust (mdp.39015083993017), but Cloudflare 403 on every route after one page, Google Books captcha, not on archive.org; List and Analysis vols 3-5 in copyright and on BHO premium only. Needs a browser session
 - [x] key-rebuild: substitution key rebuilt from the/of/to and long words across the six records
 - [ ] retry: not done — re-read f. 59 against the images with the full key and regrade the person signs

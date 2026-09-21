@@ -103,8 +103,8 @@
   },
   "conditions": {
     "prior_solution": {
-      "exists": "online",
-      "where": "S. Tomokiyo, 'Correspondence in Cipher of Imperial Ambassadors Alonso Sanchez and Juan Manuel (1522)', https://cryptiana.web.fc2.com/code/AlonsoSanchez.htm, posted 6 September 2025. Gives the substitution alphabet, ~177 code groups, and the deciphered opening lines of R9593-R9632.",
+      "exists": "in print",
+      "where": "S. Tomokiyo, 'Correspondence in Cipher of Imperial Ambassadors Alonso Sanchez and Juan Manuel (1522)', https://cryptiana.web.fc2.com/code/AlonsoSanchez.htm, posted 6 September 2025. Gives the substitution alphabet, ~177 code groups, and the deciphered opening lines of R9593-R9632. Also: English abstracts of 14 of these letters, made from the contemporary decipherings, in G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 429-500 (R9635 = no. 476); found 2026-09-21, after the partial reading of R9635.",
       "found": "before attempt",
       "used": true
     },
@@ -300,6 +300,12 @@
       "kind": "reading",
       "what": "Moved to R9635 f. 21 (edition/r9635_f21.md): two more full pages of cipher, denser than f. 20r. The decipherer's gloss 'obligados ... fuessen restituydas sus tierras' continues here. A paragraph written entirely in the clear, marked A in the margin, reads in full: Richard Pace (Micer Ricardo Paceo), Henry VIII's envoy at Venice, has given Sanchez an enclosed memorial and asked him to press the Emperor for the letters Pace wants for the Pope and for don Juan (Juan Manuel at Rome); Sanchez seconds it. This fixes the identification behind the code hec = Inglaterra met on f. 20r. The two leaves are not yet transcribed line by line.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "literature search",
+      "what": "Grepped Bergenroth, CSP Spain vol. 2 (1866; british-history.ac.uk pp380-519) by Salazar folio A.23-A.26 and 'Alonso Sanchez'. Fourteen of this folder's DECODE records are calendared as 'Autograph in cipher. Contemporary deciphering' (nos. 429, 439, 444?, 447?, 462, 470, 473, 476, 482, 487, 488/489, 491, 495?, 500). R9635 = no. 476 (16 Sept 1522, A.26 ff. 20-22): the abstract confirms the 18,000 ducats outstanding and the Pace memorial, and shows the 'restituydas sus tierras' gloss is the Venetians' demand that their towns be restored. May 9/24 run and R9653 (20 Nov) not calendared.",
+      "result": "worked"
     }
   ],
   "outcome": {

@@ -322,6 +322,50 @@ cartas de V. M., y bolui con el, que le tope en el camino. Parecele que yo deuia
 continuamente para seruir mejor a V. M. …" — the same letters of 26 October that R9653's foot cipher
 paragraph reports arriving at Venice.
 
+## Calendared in CSP Spain 2 (Bergenroth 1866)
+
+Checked 2026-09-21. Text from british-history.ac.uk, *Calendar of State Papers, Spain*, vol. 2 (1509-1525),
+pages pp380-386 to pp510-519, fetched and grepped for "Alonso Sanchez" and "Salazar. A. 23-26". Bergenroth's
+source line (date, "M. Re. Ac. d. Hist. Salazar. A. n. ff.") sits before each entry number. His "A. 24-26" =
+RAH signatura 9/24-9/26. Matches by volume, folio and date:
+
+| DECODE | Salazar ff. | CSP no. (page) | CSP date, ref | note |
+|---|---|---|---|---|
+| R9613 | 9/24 f. 203-206 | 429 (p. 435) | 18 June 1522, A.24 ff. 203-206 | exact |
+| R9616/R9617 | 9/24 f. 224-228 / 241-245 | 439 (p. 443) | 26 and 30 June, A.24 f. 229; cipher copy ff. 241-250 | letter to Gattinara |
+| R9619 | 9/25 f. 16-17 | 444? (p. 449) | 10 July, A.25 ff. 20-22 | date matches, folio near |
+| R9621/R9622 | 9/25 f. 56 / 75 | 447? (p. 451) | 19 July, A.25 ff. 58-60 | date matches, folio near |
+| R9627 | 9/25 f. 145-148 | 462 (p. 467) | 7 Aug, A.25 ff. 145-148 | exact |
+| R9631 | 9/25 f. 182-189 | 470 (p. 473) | 27 Aug, A.25 ff. 182-190 | exact; the long Pace-reception despatch, 15 pp |
+| R9632 | 9/25 f. 198-205 | 473 (p. 479) | 31 Aug, A.25 ff. 202-206 | overlap |
+| **R9635** | 9/26 f. 20-22 | **476 (p. 482)** | 16 Sept, A.26 ff. 20-22 | exact |
+| R9636 | 9/26 f. 68-71 | 482 (p. 484) | 3 Oct, A.26 ff. 68-72 | exact |
+| R9638 | 9/26 f. 104-108 | 487 (p. 491) | 11 Oct, A.26 ff. 107-109 | overlap, same date |
+| R9639 | 9/26 f. 111-115 | 488 (p. 491); 489 is its cipher duplicate (A.26 [f.] 116) | 15 Oct, A.26 ff. 111-121 | exact |
+| R9643 | 9/26 f. 189-191 | 491 (p. 497) | 23 Oct, A.26 ff. 189-192 | exact |
+| R9642 | 9/26 f. 184-188 | 495? | 28 Oct, A.26 f. 187 | the heading is 494's (Lannoy abstract, f. 187); probable |
+| R9651 | 9/26 f. 276-279 | 500 (p. 502) | 8 and 13 Nov, A.26 ff. 276-280 | exact |
+
+Other 1522 Sánchez entries outside this folder's records: 367, 380, 382, 389 (A.21-22), 396-397 (A.23, March),
+450 and 464 (Pascual de Gayangos papers, not Salazar), 436 (C. 71), 471 (abstract), 515 (Adorno and Sánchez,
+28 Dec, A.26 f. 413). **Not calendared:** the whole May-June 9/24 run R9603-R9612 and R9614-R9615, R9618,
+R9620, R9623-R9626, R9628-R9630, R9633, R9637, R9640-R9641, R9647, and **R9653-R9655 (20 Nov)**. The Lope
+Hurtado records match his own entries (475 = R9634, A.26 ff. 14-18; 497 = R9644, ff. 237-241).
+
+Every Sánchez entry says "Autograph in cipher. Contemporary deciphering." So for these fourteen the content
+has been in print in English since 1866, abstracted from the court decipherments. They are abstracts, not
+transcriptions: no Spanish text and no code values.
+
+**No. 476 against R9635.** Bergenroth: Sánchez asked the Venetians to pay the 20,000 ducats due under the
+truce of 1 Sept 1521 "together with the 18,000 ducats left unpaid last year"; they asked that their towns be
+delivered to them first; Richard Pace gave him the enclosed memoir and asks for letters to the Pope and to
+Don Juan; news from Constantinople. This **confirms** `cob pol9` = xviii mil ("ducados allende de los otros
+xviii mil") and the Pace paragraph of f. 21. It **corrects the gloss's subject**: *fuessen restituydas sus
+tierras* (f. 21) is the Venetians' condition that their towns be restored, not goods of imperial vassals as
+suggested on f. 20r above. It **fills** the gist of the unread lines (the 20,000-ducat instalment, the
+Constantinople news) but does not supply the words, and "mas de xv mil ducados" is not in the abstract.
+The new-reading claim for R9635 is therefore reduced to the Spanish text and the code values, not the content.
+
 ## Remaining gaps
 - R9635 f. 20r (about two thirds) and ff. 20v-22 - blocker: not-attempted; edition work against the published key; only ll. 1-3, 6, 7, 14, 22 done
 - R9653 f. 299r head cipher paragraph - blocker: illegible; ink bleed from the facing leaf at DECODE's resolution
@@ -332,6 +376,6 @@ paragraph reports arriving at Venice.
 - [x] siblings: R9603-R9657 metadata tabulated; R9605 facing decipherment aligned; R9648 examined
 - [x] clear-pages: R9605 clerk's decipherment aligned as ground truth; R9635 interlinear glosses used
 - [x] known-keys: Tomokiyo 2025 Sánchez key; Juan Manuel key compared for the Lope Hurtado leaves
-- [ ] print: not done — grep Bergenroth CSP Spain vol. 2 by Salazar folio (9/24-9/26) for calendared 1522 Sánchez letters
+- [x] print: done 2026-09-21 — Bergenroth CSP Spain vol. 2 (1866) grepped by Salazar folio; 14 of the DECODE records here are calendared as "Autograph in cipher. Contemporary deciphering" (English abstracts made from the bound decipherments). R9635 = no. 476 confirms the reading; the May 9/24 run and R9653 are not calendared. See "Calendared in CSP Spain 2" below
 - [x] key-rebuild: c-block numerals by alphabetical bracket (cab, cef, cif confirmed), lel = puede, va = despacho; sign table from R9605
 - [ ] retry: not done — carry the R9605 sign table to the rest of R9635 and R9653 and regrade
