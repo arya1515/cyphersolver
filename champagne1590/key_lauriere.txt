@@ -1,0 +1,34 @@
+# Laurière's code (BnF fr. 3625 no. 10, f. 10r, 13 Jul 1593), rebuilt from the office's interlinear decipherment.
+# Method: each glossed run was set against the gloss written over it, and a group is listed only when the same
+# group falls under the same word in two places, or its position under a one-word gloss is unambiguous.
+# Grade C = two agreeing glossed places; M = one place, position-based.
+#
+# Glossed runs used (cipher / gloss):
+# R1  10 197 Δ124 28# 99 159+ 25 ✗ 335 141 288
+#     le Pape ... traitera avant que le Roy soit Catholique
+# R2  Δ57 9n 92# 10 54 20 17 262 25 103 56nΔ 25 13 ✗ 101 54y+ 184y ω.6. 22n27 39E Δ‡ω 28 ⱨ 54y+ 3? λ14q
+#     nous avions pris parole de luy qu'aussitost que Sa Majesté auroit esté a la messe qu'il traicteroit sans
+# R3  26 βω 346 59 XX            attendre la volonté du pape
+# R4  69.6.26n52 ‡16 25 16⊥y 17.6.34 61y ω57hy     sur la response qu'a eue de la ligue a...
+# R5  9Δ 203 100 51#Δ26n Δ Eω 44q 8 120‡16 17 23.303 26 150 ✗ 25 92y 36P26. 8q 248 23⊥n 27 187.6 / 346 59 XX
+#     aucun faut avec nostre ... confiance de ne pouvoir recognoistre le Roy Catholique qui ne viendroient
+#     jamais a cest terme que n'eussions la volonté du pape
+# R6  ... 185 25 29 18 12 344 234 P2n 8hq 28.9 97+ 304 ωq24nμ y‡ 25 XX qy EP 26 55h 29 39 27 54hΔ 56‡n
+#     ... le pape ne ...
+# R7  141 320 ω+λqn‡y 101Δ26 154 Ey 26 44q ωqh Δ54q+     catholique sans attendre autre chose de ...
+#
+# Table
+✗        que                 C   (R1, R2, R5; stands before le Roy / Sa Majesté / the relative)
+335      le Roy              C   (R1 "que le Roy soit"; R5 "recognoistre le Roy")
+141      soit                M   (R1)
+288      Catholique          M   (R1)
+346      volonté             C   (R3, R5)
+59       du                  C   (R3, R5)
+XX       pape                C   (R3, R5, R6)
+25       le / la / que (article or conjunction, very frequent)   M
+103 56nΔ aussitost           M   (R2)
+101 54y+ Sa Majesté          M   (R2)
+184y     auroit              M   (R2)
+26       a / de (short particle before a word group)             M
+# Not established: the syllabic groups (10 54 20 17 under "parole", 22n27 under "a la", 39E under "messe", etc.)
+# are split among several groups whose boundaries the gloss does not show; they are not listed.

@@ -133,9 +133,30 @@ treuvent ... la remise seroit trop prejudiciable", "la rupture de la tresve", "f
 du Roy d'Espagne". Reading the rest needs the other glossed runs of no. 10 (about ten more lines) aligned group by
 group; not done in this session.
 
+## Code table from no. 10 and the reading of no. 55 (third pass, 21 September 2026)
+
+All glossed runs of no. 10 (seven of them, R1–R7 in `key_lauriere.txt`) were set against the words written over them.
+The code is a syllabic nomenclator: most glosses cover two to five groups whose boundaries the clerk did not mark
+(10 54 20 17 under "parole", 22n27 under "a la"), so only groups that fall under the same word in two places, or sit
+alone under a one-word gloss, were accepted. The table has 12 entries: ✗ que, 335 le Roy, 346 volonté, 59 du, XX pape
+(grade C, two or more agreeing places); 141 soit, 288 Catholique, 103 56nΔ aussitost, 101 54y+ Sa Majesté,
+184y auroit, and the frequent short groups 25 (le/la/que) and 26 (a/de) (grade M).
+
+Applied to no. 55 (86 groups): **19 groups read** (347 from the gloss on the leaf; 18 from the table), 67 open.
+
+    l.1  come [...] du que [...] le [...] a [...]
+    l.5  [...] le? que le Roy soit encores [...]
+    l.7  [...] a la volonté du pape [...] aussitost [...] soit [...]
+    l.8  [...] que
+
+The French LM was not used: with about one group in five known and the rest syllabic fragments of unknown length,
+there is no letter stream for it to score. No. 55 stays **read in part (fragments)**; reading it needs a better
+alignment of no. 10's syllable groups (a solver that fits group boundaries to the glosses), or another glossed
+Laurière letter.
+
 ## What is open
 
-* Fr. 3625 no. 55: about 70 of 86 groups unread; the remaining glossed runs of no. 10 are the route.
+* Fr. 3625 no. 55: 67 of 86 groups unread after applying the no. 10 table (`key_lauriere.txt`).
 * The two no. 24 passages, the first half of one no. 25 passage, the name in no. 60, all code numbers of the
   two-digit key; no. 78's one group.
 
@@ -144,5 +165,6 @@ group; not done in this session.
 * `ct_3623_twodigit.txt` — figures of nos. 24, 25, 60 (104 tokens, 40 distinct, measured).
 * `ct_3623_78.txt` — the one group of no. 78.
 * `ct_3625_55.txt` — no. 55's eight runs (86 groups).
+* `key_lauriere.txt` — code table from all glossed runs of no. 10.
 * `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment.
 * Images in `img/` (git-ignored, not committed).

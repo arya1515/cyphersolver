@@ -250,6 +250,18 @@
    "kind": "sibling key",
    "what": "Groups shared with no. 10's glossed runs read in no. 55: que le Roy soit encores, la volonte du pape, aussitost; about 15 of 86 groups.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "All seven glossed runs of no. 10 aligned with their interlinear decipherment; 12-entry table (key_lauriere.txt), syllable groups not separable.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "No. 55 read with the table: 19 of 86 groups; French LM not applicable to the syllabic remainder.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -261,6 +273,6 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 read in fragments from no. 10's glosses; no. 78 open."
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open."
  }
 }

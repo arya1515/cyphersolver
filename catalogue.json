@@ -179,7 +179,7 @@
    "cls": "A",
    "seen": "catalogue",
    "source": "BnF harvest",
-   "status": "Read in fragments 21 Sept 2026 (champagne1590/): a mixed syllabic code; ~15 of 86 groups read from the glossed runs of Laurière's 13 Jul letter (no. 10, f. 10r). Aligning the rest of no. 10's interlinear decipherment should read it. Nos. 23-25, 60 of fr. 3623 read; no. 78 one group only.",
+   "status": "Read in fragments 21 Sept 2026 (champagne1590/): a syllabic figure-and-sign code; 19 of 86 groups read with a 12-entry table rebuilt from the glossed runs of Laurière's 13 Jul letter (no. 10, f. 10r; key_lauriere.txt). Open: the syllable groups. Nos. 23-25, 60 of fr. 3623 read; no. 78 one group only.",
    "why": "Nevers' government of Champagne in 1590–91.",
    "importance": 2,
    "solvability": 4,
