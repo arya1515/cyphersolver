@@ -203,6 +203,11 @@
    "kind": "reading",
    "what": "Applied the key to ff. 80r, 88r, 92r; shared s/t and r/y signs and unidentified signs stop a full reading.",
    "result": "partial"
+  },
+  {
+   "kind": "transcription",
+   "what": "Second pass with cypher-7e's harley287 key (narrow/wide caret = s/t): sign copies from close crops of ff. 80r, 88r, 92r; the caret forms and the l/p/h loop signs could not be told apart, so only context guesses ('expences', 'of letters').",
+   "result": "failed"
   }
  ],
  "outcome": {
