@@ -225,6 +225,7 @@ Powers, and the two compute challenges). Those are listed in `top50/NOTES.md`, n
 
 ## Done elsewhere in this repo
 
+- **Arend Willem van Reede → Van de Spiegel / Secret Committee, Berlin, 1787–1793**, DECODE R1026/R1027/R1893. R1026 and R1027 read with the 1782 Grand Chiffre (R1024), 452 of 472 groups, 21 Sept 2026; R1893 is another code, not read. See [vanreede1787/](vanreede1787/).
 - **Johan Isaac de Swart → Van Bleiswijk / States-General, St Petersburg, 1782 and 1787**, catalogue 224, DECODE R1036/R1040. R1036 read at 93.8% with the 1765 Croiset key (R1038), 21 Sept 2026. The second part of R1040 reads; its first 1,928 groups are in a missing codebook. See [deswart1782/](deswart1782/).
 
 - **Dirk van Hogendorp → Maarten van der Goes, St Petersburg, 5 July 1803**, catalogue 227, DECODE R1942 — subject identified from Sillem 1890, 20 Sept 2026. His footnote assigns the Van Suchtelen passage to the ciphered dispatch no. 12 of the same day; the manuscript is headed no. 12 and the matching 1803 codebook is DECODE R1035. Exact group-by-group plaintext remains open. See [R1942/](R1942/) and the [write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).

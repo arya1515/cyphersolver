@@ -9,6 +9,7 @@
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "an anonymous figure cipher of october 1586 (clairambault 357)": "2026-09-18",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
+  "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
   "beatrice d’aragona, 1482–1505": "2026-09-20",
@@ -175,7 +176,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "79dbf8df707a",
+   "hash": "3b08fa63cee0",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -300,7 +301,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "bc42d43d6fd3",
+   "hash": "39a93acc15d9",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -543,6 +544,11 @@
    "hash": "e49e8e334d8e",
    "updated": "2026-09-16"
   },
+  "vanreede1787": {
+   "first": "2026-09-21",
+   "hash": "07d8223a0d26",
+   "updated": "2026-09-21"
+  },
   "vasto1527": {
    "first": "2026-09-18",
    "hash": "7791a018a971",
@@ -575,7 +581,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "7d08ae9bdc8b",
+   "hash": "62668cb5dc1c",
    "updated": "2026-09-21"
   },
   "yard1699": {

@@ -7425,7 +7425,7 @@
    "shelfmark": "NA The Hague, Laurens Pieter van de Spiegel, inv.nr. 190 (3 items)",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R1026–R1893 (3 records): Non-decrypted, 7 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The code, used in this letter is almost certain to be the \"Grand Chiffre\" of Stadholder William V, indicating that the information in it was to sensitive to be handeled by the code clerks in the service of the States General, or to be discussed in the \"Secreet…",
+   "status": "21 Sept 2026: R1026 (29 Dec 1787) and R1027 (4 Mar 1788) read with William V's 1782 Grand Chiffre (DECODE R1024), confirmed on the control R1028; DECODE's catch-all J+ sign resolved with a French language model; 452 of 472 groups. The 1788 Prussian alliance and the overseas possessions. R1893 (24 Mar 1793, Secret Committee) is a marked three-digit code with no key: not read.",
    "why": "Ciphered despatches of Arend Willem baron van Reede (1747-1615) to Grand Pensionary L.P. van den Spiegel  1736-1800)_ / Greffier Hendrik Fagel jr. (1765-1838) and Secret Committee of the States General, 29 Dec 1787 – 24 Mar 1793; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 3,
@@ -7454,7 +7454,9 @@
     1027,
     1893
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "read in part",
+   "writeup": "vanreede1787.html"
   },
   {
    "id": 232,

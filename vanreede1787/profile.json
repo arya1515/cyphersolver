@@ -1,0 +1,247 @@
+{
+ "schema_version": 1,
+ "target": "vanreede1787",
+ "title": "Dispatches of A. W. C. van Reede from Berlin, 1787–1793",
+ "documents": [
+  {
+   "id": "DECODE R1026",
+   "shelfmark": "Nationaal Archief 3.01.26, L. P. van de Spiegel, inv. 190",
+   "date": "29 Dec 1787",
+   "year": 1787,
+   "country": "Dutch Republic",
+   "route": "Berlin -> The Hague",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": 319,
+    "distinct": 226,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ciphertext_R1026.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE document D1852",
+    "corrections": 0,
+    "image_quality": "good",
+    "notes": "DECODE's J+ sign stands for different digits; each resolved by a French 6-gram model over the R1024 key values (resolve_j.py)."
+   }
+  },
+  {
+   "id": "DECODE R1027",
+   "shelfmark": "Nationaal Archief 3.01.26, L. P. van de Spiegel, inv. 190",
+   "date": "4 Mar 1788",
+   "year": 1788,
+   "country": "Dutch Republic",
+   "route": "Berlin -> The Hague",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": 152,
+    "distinct": 124,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ciphertext_R1027.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE document D2299",
+    "corrections": 0,
+    "image_quality": "good",
+    "notes": "DECODE's J+ sign stands for different digits; each resolved by a French 6-gram model over the R1024 key values (resolve_j.py)."
+   }
+  },
+  {
+   "id": "DECODE R1893",
+   "shelfmark": "Nationaal Archief 1.01.02, Staten-Generaal, inv. 6695",
+   "date": "24 Mar 1793",
+   "year": 1793,
+   "country": "Dutch Republic",
+   "route": "Berlin -> Secret Committee, The Hague",
+   "language": "Dutch",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "partial": false
+   },
+   "length": {
+    "tokens": 696,
+    "distinct": 513,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ciphertext_R1893.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DECODE document D3608",
+    "corrections": 0,
+    "image_quality": "fair",
+    "notes": "Three-digit groups include systematic overmarks and undermarks; the supplied HU language tag is erroneous."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code",
+   "nomenclator"
+  ],
+  "summary": "R1026/R1027 use the 1782 one-part French Grand Chiffre of William V (DECODE key R1024, 1-5000); R1893 uses a distinct three-digit marked-number code.",
+  "symbol_kind": "digits and symbols",
+  "digit_groups": {
+   "width": "variable",
+   "separation": "dots"
+  },
+  "distinct_symbols": 0,
+  "diacritics": {
+   "used": true,
+   "note": "R1893 marks individual digits with several overmark/undermark forms; their function is not yet established."
+  },
+  "homophones": {
+   "used": false
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 4732,
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "places",
+    "titles",
+    "phrases"
+   ],
+   "unread_groups": 0
+  },
+  "nulls": {
+   "present": false,
+   "count": 0
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "DECODE R1024 (Grand Chiffre, KHA A29 inv. 301, 1782) reads R1026/R1027; the control R1028 confirms it.",
+  "notes": "Key entries measured from the R1024 transcription. R1893 remains a separate, unkeyed system."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "DECODE holds the key (R1024) and plaintext controls R1028/R1029 of the same code; no reading of R1026, R1027 or R1893 was found.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "cleartext context",
+   "sibling key"
+  ],
+  "attack": "key from archive",
+  "human_role": "The human supplied the task and an existing authenticated DECODE browser cookie.",
+  "tools": [
+   "fetch_decode.py",
+   "analyze_1026_1027.py",
+   "pdfplumber",
+   "web and archival catalogue search"
+  ],
+  "models": [
+   "GPT-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-20",
+  "last_date": "2026-09-20"
+ },
+ "solution": [
+  {
+   "date": "2026-09-20",
+   "kind": "access",
+   "what": "Used the existing private DECODE cookie to download the record metadata, transcriptions, and all seven manuscript images.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "transcription",
+   "what": "Normalized the DECODE J-like glyph as handwritten digit 3 in R1026 and R1027 and extracted numerical groups.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "statistics",
+   "what": "Compared R1026 and R1027 group inventories; they share 49 groups and therefore use the same code system.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "hypothesis",
+   "what": "Separated R1893 as a different system because its three-digit groups carry systematic per-digit marks absent from the earlier dispatches.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "literature search",
+   "what": "Located Karl de Leeuw's account of Dutch diplomatic code practice and the Nationaal Archief catalogue entry for Van Nagell's 1787 code (current inv. 28).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "sibling key",
+   "what": "Downloaded and inspected DECODE R2846 and the interlinearly decrypted control R2243 for related numerical systems.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Decoded the R1028 control (plaintext on DECODE) with key R1024.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Decoded R1026/R1027 with R1024 treating J+ as 3; groups containing J+ read as nonsense.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Resolved each J+ as any digit by beam search with a French 6-gram model (hellen1752 corpus); 105 groups resolved, both letters read.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Assessed R1893 (696 marked three-digit tokens, 513 distinct) for ciphertext-only attack; code too large for the text, no key or crib found.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.39,
+  "grades": {
+   "H": 0,
+   "C": 0,
+   "M": 0,
+   "I": 0
+  },
+  "verification": [
+   "matched control",
+   "historical consistency"
+  ],
+  "notes": "R1026 and R1027 read (452 of 472 groups given a value; some passages still garbled by transcription misreads); R1893 not read."
+ }
+}
