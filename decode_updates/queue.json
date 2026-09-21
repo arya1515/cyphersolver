@@ -2178,6 +2178,30 @@
      "reading_not_needed": true
     }
    }
+  },
+  "florence1429": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/florence1429.html",
+   "key": {
+    "file": null,
+    "lang": "Italian",
+    "how": "Gabbrielli's key (1863, ASF, Chiavi delle cifre ... Dieci di Balia vol. 1), printed by A. Meister, Die Anfaenge der modernen diplomatischen Geheimschrift (1902), pp. 43-50; to be completed from the sibling letters (R3755 etc.) before any upload, after checking the key is not already elsewhere in the collection"
+   },
+   "cite": "A. Meister 1902, pp. 43-50",
+   "fields": {},
+   "records": {
+    "R3754": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "The letter carries interlinear decipherments (Gabbrielli, 1863), so it is decrypted; the key is Gabbrielli's, printed in Meister 1902 pp. 43-50. The runs he left unread are read on the write-up. Status change and key reference suggested by G. Lasry, 21 Sept 2026.",
+     "reading": [
+      {
+       "file": "docs/florence1429.html",
+       "section": "text"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

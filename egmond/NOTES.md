@@ -1,6 +1,6 @@
 # Charles of Egmond, BnF français 3015 no. 8
 
-Status: read, with minor uncertainties retained
+Status: read, with minor uncertainties retained. Already solved by George Lasry in 2023 (key on cryptiana GL.htm §2; he pointed this out on 21 Sept 2026): this reading is an independent re-solution, not a first reading.
 
 ## 20 September 2026: source location
 
