@@ -2403,6 +2403,44 @@
      "reading_not_needed": true
     }
    }
+  },
+  "charles1536": {
+   "writeup": null,
+   "key": {
+    "decode": "not on DECODE: AGS Estado leg. 1.1.1 doc. 169 (Luo 2021 p. 603) for R9957; Charles V-Prince Philip cipher (Tomokiyo) for R9952",
+    "lang": "ES"
+   },
+   "cite": "Wanruo Luo, El lenguaje cifrado de Isabel de Portugal (1530-1539), PhD thesis, Universitat de Valencia 2021, p. 287 (R9957)",
+   "fields": {},
+   "records": {
+    "R9957": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Printed by Luo 2021 p. 287 (key AGS Estado leg. 1.1.1 doc. 169); pp. 16-17 also deciphered on the leaves (pp. 17-18). Origin: Borgo San Donnino (Italy), not Burgos; date 17 May 1536 (text: 'a xvii de Mayo'), not 8 May.",
+     "reading": [
+      {
+       "file": "charles1536/NOTES.md"
+      }
+     ],
+     "fields": {
+      "origin_region": "Italy",
+      "origin_city": "Borgo San Donnino (Fidenza)",
+      "start_day": "17"
+     },
+     "sent": false
+    },
+    "R9952": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Deciphered at the time: margins of ff. 10-12 and full decipherment ff. 13-14. The note 'Correspondence between the emperor and the empress 1531-1532' does not apply: this is Charles V to Prince Philip, Cremona, 19 June 1543.",
+     "reading": [
+      {
+       "file": "charles1536/NOTES.md"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  }
 }

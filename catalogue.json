@@ -5149,46 +5149,6 @@
    "scored": "rule"
   },
   {
-   "id": 199,
-   "counted": true,
-   "year": 1536,
-   "date": "8 May 1536 – 19 Jun 1543",
-   "title": "Charles V (Burgos) to Isabella of Portugal / Prince Philip (later Philip II), 2 ciphertexts",
-   "correspondents": "Charles V → Isabella of Portugal / Prince Philip (later Philip II)",
-   "place": "Burgos, Spain",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "AGS, sec. Estado, leg. 496 (2 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R9952–R9957 (2 records): Partially decrypted, 38 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: Correspondence between the emperor and the empress dated in the years 1531 and 1532.",
-   "why": "Ciphered despatches of Charles V to Isabella of Portugal / Prince Philip (later Philip II), 8 May 1536 – 19 Jun 1543; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9952",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9952"
-    },
-    {
-     "label": "DECODE R9957",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9957"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9952,
-    9957
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 200,
    "counted": true,
    "year": 1531,
