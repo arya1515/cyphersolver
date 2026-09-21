@@ -1,8 +1,8 @@
 # Rodrigo Niño (Naples) to Charles V, 19 March 1522 — BNE MSS/20213/27 (DECODE R1182)
 
-Status: no write-up — attempted, not read. The cipher system was already rebuilt in print (Kolosova 2017, Cifra 15),
-but I could not get her key, and a ciphertext-only attempt on this one block failed. Catalogue entry 151 stays open
-with outcome "attempted, open".
+Status: no write-up — skipped (attempted, not read). The cipher system was already rebuilt in print (Kolosova 2017, Cifra 15),
+but I could not get her key, and a ciphertext-only attempt on this one block failed. Catalogue entry 151 is marked
+"skipped" until Kolosova's key or a better scan is in hand (see "What would move it").
 
 ## The document
 

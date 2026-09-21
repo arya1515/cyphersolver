@@ -125,6 +125,6 @@
   "class": "not read",
   "fraction_read": 0,
   "verification": [],
-  "notes": "Closed as attempted. The system is in print (Kolosova, Cifra 15), but the key was not reachable here and a blind attack on 336 doubtful signs with unresolved nulls did not converge."
+  "notes": "Skipped. Closed as attempted. The system is in print (Kolosova, Cifra 15), but the key was not reachable here and a blind attack on 336 doubtful signs with unresolved nulls did not converge."
  }
 }
