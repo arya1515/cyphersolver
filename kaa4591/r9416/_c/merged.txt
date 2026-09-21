@@ -2,9 +2,6 @@
 # One ASCII char per sign (see signs_p34_v2.md). '?' after a doubtful sign. [..] = clear words.
 # g: lines = faint interlinear German gloss written above the cipher line (NOT absent: P3 carries one).
 # v2: f/z/j (dagger/zig-zag/looped) and H/K split; see signs_p34_v2.md.
-# How the split was made: the old code f covered THREE shapes, old H two. Where a crop was examined sign by sign
-#   (P3 1-39 partly, P4 1-27 and 28-32 closely) the shape decided; elsewhere each old f/H was assigned by the
-#   de-1500s model choosing e/o/z and u/k in word context (k allowed only word-initially). P4 33-43 = model only.
 # Transcription is provisional (read from 2000-px crops); treat letter-level detail with caution.
 
 == PAGE P3 (foliated 263, recto) ==
@@ -21,7 +18,7 @@ g05: ..sachen men ... nun tragen ... aber annder
 g06: .. sachen zu des haben ... er hat
 06: A>yzf jsngyQ jH bioj gsbpioQ >my T pfDfzioQ gsO
 g07: sachen alles zu des halben ... ... da mit ... er hal..
-07: 4zbdngz? qBBzf X s?Q Afs? jH 4ngyiomfy?Q bs >mf X bmz
+07: 4zbdngz? qBBzf X s?Q Afs? fH 4ngyiomfy?Q bs >mf X bmz
 g08: er... hendel... den ... beges.. en bigen
 08: ioypf#yQ gioQbzB Az? {struck: jqmng} bz> T pioyyA?oQ pmfioQ f:;Q
 g09: ..aben ... nach ... kaid? bei ... ... ich ... mit ... imme zu
@@ -37,7 +34,7 @@ g13: (faint)
 14: ioQOBmngz DzyOysAz DioyjzgioQ zz gsO zmng. qpioy jH Oys=
 15: AioQ bsz q> zyOsA mQ bioy DqzQqngO {struck} HfQ bz> OHyK.
 16: mfngioQ Ksmzioy? qmQ OyioDbmngz azOfzngsDc qQ KH>>zQ
-17: mfqO {struck: mz?} >mO vy fngioDDio piobngzy bio> T smQ aymzD Hf>
+17: mfqO {struck: mzE} >mO vy fngioDDio piobngzy bio> T smQ aymzD Hf>
 18: Ksmfzy KyqngO gsO pzbngioy mQ bsOzmQ byqQfAioymyO
 19: mzO biof jfbpQ KzAiom mng X {struck: mngzH} gmio >mO {struck: fH} fngmK
 20: mQ piobngz> X pioybzQ HioQz>>zQ pmz KymzObmng +L g AiojzQ
@@ -70,7 +67,7 @@ g01: (a few faint gloss letters only: m m ... gen ... n)
 05: bio> T jH sbbioy gqQQbHQA sbbpioA ioyDfybzyO amz
 06: pfybioQ gsp mngQmO HQOioybqzzzQ pfbbzQ jHy
 07: azbioy X jH AHioO bioQ T mQaiomzzQ bioz gzyQ w
-08: sQ AzzayfngfQ # bqz ioy pfbbio piobzQKzQ pqz X
+08: sQ AzzayfngfQ # bqz ioy pFbbio piobzQKzQ pqz X
 09: amz gzy HfQ 4iomQyQpioAyQ AioesQ gqpioQ#
 10: piobngioz sHng X aiom bL HQb g QmO jH Hbqm
 11: Qio>=qngOsmb AioyqmngO gse bioz gsbpzQ ioHy
@@ -80,7 +77,7 @@ g01: (a few faint gloss letters only: m m ... gen ... n)
 15: w mQ 4iomQ mQzOyHnKmfQ bmzioQ syOmKiob
 16: bqzzioQ 4iozngzyQ ssz bioy OHyKm{struck: ng}zng Ksmzioy mQ
 17: bmzioy gqQbHQA bmz KHQmA HQsDHyzOioQzf>m
-18: [margin, left: bioy] T mQ amQOQH4zymQ Dyym Dfy piobsbOyQ HQb
+18: [margin, lezt: bioy] T mQ amQOQH47ymQ Dyym Dfy piobsbOyQ HQb
 19: KsmQioQ >mO QqyioQ QzQQioQ bmzioQ syOmKyb
 20: gqO >mng bzy w mQ4iomQzy mQ zOyHnKmfQ
 21: ciozyQ bqzzioQ | HQb bzy w zyazHO 4mng gfng ioH
@@ -91,20 +88,18 @@ g01: (a few faint gloss letters only: m m ... gen ... n)
 26: sHng pfb jH pioby?Q w?Hy? pfz bqy sHz pioybzQ
 27: pmb am bio> T g X KsQ >yQAyb ymfO X jH>
 28: azOioQ mng gsp bioy imzyAzQ X >mO X bioy Kq
-29: QDiobzyqnmzQ gsbpzQ jH yiobzQ pzDfbgioQ
+29: QDiobzyqnmzQ gsbpzQ jH yiobzQ pzDzbgioQ
 30: 4iong >mng AHioO X zQOzngbHzzioQ 4mng bqy m
 31: pqz ioHy Aiobfzy?Q gqmO bqy mQQQ 4iomQ pmb
-32: by> T AioDzbO zfDioy yz yHy aiobyy X AioDzb
+32: by> T AioDzbO zzDioy yz yHy aiobyy X AioDzb
 33: mA mzO bmzio fp sQAyzqmAOz gqQbbHQby
-34: {blot}-f9. HQb az qHng sQ jH jqmAzQ HQb qHDzzb
+34: {blot}-f9. HQb az qHng sQ fK jqmAzQ HQb qHDzzb
 35: DHyAioDqyzQ jsngyQ gqO bioy T 4iomQ gyO HQb
 36: nq>>mbqymzQ HfQ ayiozaHyA pmbyy spAioDz
 37: bioyO bmz piomb j qQ bmzio> fyO DioyAzpioQz
-38: mzO bioy w Hzy>qmQO sHD mzympmbyzH KH
+38: mzO bioy w Hzy>qmQO sHD mzympmbyzH KK
 39: >>ioQ mng sngO bioy qQfOyzQO pioybz yyioQz
 40: ioyO bsz qObiof gspmng mngb jHy ambzQ X mQ iomb
 41: ymO {struck} zyHyQ X mQ jzyqbsOioQ pzYioQ OHf >mngbm
 42: OqQKqmO pioDzYqioQ fYioy Aiogfyzs>zyHQOio
-43: bqO> fDioQ bioQ |= {flourish/scrawl, "mm)"? -- end of text; line short}
-
-# Faint gloss-like letters below the last line at left (illegible).
+43: bqO> fDioQ bioQ |= {jlourish/scrawl, "mm)"? -- end of text; line short}

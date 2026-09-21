@@ -80,6 +80,14 @@ handlung gen Pressburg gesetzt… der tag zu Pressburg erfolgt ist… mit grosse
 zu geben…". The faint interlinear gloss on the first lines of f.263 ("nunmen bag uon beden kunigen zu entlicher /
 handlung gen bresburg gesetzt") agrees with the solver's text word for word, which confirms the break independently.
 
+Working decrypt (solver key, before the look-alike split; `r9416/decrypt_f263.txt`; corrected transcription
+`r9416/p34_v2.txt`): the report of a Bavarian agent on the Pressburg negotiations between "beden kunigen" (Ferdinand
+and John Zápolya) and their commissaries; a Turkish embassy; "der Emrich beeche" (Imre Czibak) offering the Sultan
+tribute and "tausent tucaten"; "den hern Griti abgefertigt" (Alvise Gritti, killed Sept 1534) — so c.1533–34. The
+cipher (sign codes f/z/j, H/K split in v2) is a homophonic simple substitution; codes "der d", "der g", "der h" are
+persons (probably Ferdinand, Gritti's party, the Hungarian king). State: read in part — running German with local
+errors; a clean reading needs the v2 transcription re-keyed and the 'y' sign split.
+
 ## Steps
 
 - 2026-09-21: record list from the DECODE dump (141 records in KAA 4591: 102 keys, 39 ciphertexts); images of the
