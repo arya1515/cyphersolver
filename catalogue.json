@@ -5843,8 +5843,8 @@
    "counted": true,
    "year": 1808,
    "date": "14 Jan 1808",
-   "title": "Gerard Carel baron van Spaen tot Voorstonden, ambassador of the King of Holland ar rheCourt of Westphalia (Düsseldorf) to Maarten van der Goes (1751-1826), agent van staat, later minister voor de buitenlandse betrekkingen",
-   "correspondents": "Gerard Carel baron van Spaen tot Voorstonden, ambassador of the King of Holland ar rheCourt of Westphalia → Maarten van der Goes (1751-1826), agent van staat, later minister voor de buitenlandse betrekkingen",
+   "title": "Gerard Carel baron van Spaen tot Voorstonden, envoy of the King of Holland (Düsseldorf), to Maarten van der Goes, minister of foreign affairs, 14 and 15 Jan 1808",
+   "correspondents": "G. C. van Spaen tot Voorstonden, envoy of the King of Holland → Maarten van der Goes (1751-1826), minister of foreign affairs",
    "place": "Düsseldorf, Westphalia",
    "language": "French",
    "region": "Low Countries",
@@ -5852,13 +5852,13 @@
    "shelfmark": "NA The Hague, 02.01.08., Ministerie van Buitenlandse Zaken, 1796-1810, inv. nr. 281",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R1941: Partially decrypted, 4 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: The letter itself is onsolved, only a small anne, dated 15 January of the same year is. With 4 d9g9t numbers, the nomenclator seems a little unfaailiar, not tyically a nomenclator made by Croiset.",
+   "status": "DECODE R1941, viewed 21 Sept 2026 (spaen1808/). Two items: the letter of 14 Jan 1808 (228 groups) and an annex of 15 Jan (75 groups; DECODE images P1 and P2 are two photos of the same page). Plain numerical code, groups 15-1339, no marks, dashes as separators; clear openings and closings in Dutch. No decipherment on the images, and DECODE holds no key for it (the 1798 and 1803 Croiset books R1891/R1035 do not fit). DECODE's 'annex solved' has no reading attached to the record. Not in Colenbrander, Gedenkstukken V (searched). 303 groups, 222 distinct, from a code of 1,300+ entries: not breakable without the key.",
    "why": "Ciphered letter of Gerard Carel baron van Spaen tot Voorstonden, ambassador of the King of Holland ar rheCourt of Westphalia to Maarten van der Goes (1751-1826), agent van staat, later minister voor de buitenlandse betrekkingen, 14 Jan 1808; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
+   "verify": "Find the King of Holland's 1806-10 legation code (NA 2.01.08 BuZa 1796-1810, or the Spaen/Van der Goes papers), or ask the DECODE record owner for the annex reading, which would give about 70 values.",
    "ark": "",
    "links": [
     {
@@ -5866,12 +5866,13 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/1941"
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     1941
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 230,

@@ -1,0 +1,153 @@
+{
+ "schema_version": 1,
+ "target": "spaen1808",
+ "title": "G. C. van Spaen (Düsseldorf) to M. van der Goes, 14 and 15 Jan 1808 (NA 2.01.08 inv. 281; DECODE R1941)",
+ "documents": [
+  {
+   "id": "R1941-letter",
+   "shelfmark": "Nationaal Archief 2.01.08 BuZa 1796-1810, inv. nr. 281; DECODE R1941",
+   "date": "14 Jan 1808",
+   "year": 1808,
+   "country": "Kingdom of Holland",
+   "route": "Düsseldorf -> The Hague",
+   "language": "unknown",
+   "pages": 2,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the images; DECODE says the annex is solved but attaches no reading."
+   },
+   "length": {
+    "tokens": 228,
+    "distinct": 181,
+    "unit": "code groups",
+    "measured": true,
+    "file": "letter_groups.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R1941_I13398-I13401 (photos of photocopies)",
+    "image_quality": "fair",
+    "notes": "19 lines of plain numerical groups; 5/3 hard to tell apart; a few groups followed by dashes."
+   }
+  },
+  {
+   "id": "R1941-annex",
+   "shelfmark": "Nationaal Archief 2.01.08 BuZa 1796-1810, inv. nr. 281; DECODE R1941",
+   "date": "15 Jan 1808",
+   "year": 1808,
+   "country": "Kingdom of Holland",
+   "route": "Düsseldorf -> The Hague",
+   "language": "unknown",
+   "pages": 1,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the images; DECODE says the annex is solved but attaches no reading."
+   },
+   "length": {
+    "tokens": 75,
+    "distinct": 69,
+    "unit": "code groups",
+    "measured": true,
+    "file": "annex_groups.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Authenticated DECODE images IMG_R1941_I13398-I13401 (photos of photocopies)",
+    "image_quality": "fair",
+    "notes": "DECODE P1 and P2 are two photos of the same annex page."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "code"
+  ],
+  "summary": "A plain numerical code of at least 1,339 groups, unmarked, with clear Dutch openings and closings; not a Croiset book.",
+  "symbol_kind": "digits",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "sibling_key": "unknown"
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "DECODE note says the 15 Jan annex was solved; no reading is published on the record",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "none",
+  "human_role": "Selected the target; the DECODE session cookie was supplied earlier.",
+  "tools": [
+   "DECODE authenticated image download",
+   "DECODE metadata search",
+   "Huygens Gedenkstukken full-text search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Downloaded the four DECODE R1941 images with the saved cookie; P1/P2 are one annex page photographed twice.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed all 303 code groups (letter 228, annex 75) and the clear passages.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "statistics",
+   "what": "222 distinct of 303 groups, values 15-1339; trigram 602 441 373 x3; too sparse for a ciphertext-only attack on a 1,300+ entry code.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Searched DECODE key records 1780-1815 at Dutch holders; applied Croiset's 1803 book R1035 to the annex: word salad.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Searched Colenbrander, Gedenkstukken V (1806-1810) full text for Spaen, Voorstonden, Dusseldorp, Westphalen: letters not printed.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": [],
+  "notes": "Blocked on the key: needs the Kingdom of Holland legation code or the DECODE owner's annex reading."
+ }
+}
