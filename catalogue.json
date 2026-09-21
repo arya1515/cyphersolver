@@ -5671,41 +5671,6 @@
    "scored": "rule"
   },
   {
-   "id": 232,
-   "counted": true,
-   "year": 1785,
-   "date": "4 Oct 1785",
-   "title": "Christiaan Albrecht graaf van Rechteren, extraorcinaris envoye to Russia between 1785 and 1789 (St Petersburg) to States General of  the United Provinces",
-   "correspondents": "Christiaan Albrecht graaf van Rechteren, extraorcinaris envoye to Russia between 1785 and 1789 → States General of  the United Provinces",
-   "place": "St Petersburg, Russia",
-   "language": "Dutch",
-   "region": "Low Countries",
-   "period": "1701-1800",
-   "shelfmark": "NA The Hague, Staten-Generaal, inv.nr. 7407",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1039: Non-decrypted, 5 pp., nomenclator; numerical; images login. Not viewed here. DECODE note: A codebook, destined for the Count can be found in the archive of the Dutch legation in Russia under number 158. This may offer the solution to this encrypted letter.",
-   "why": "Ciphered letter of Christiaan Albrecht graaf van Rechteren, extraorcinaris envoye to Russia between 1785 and 1789 to States General of  the United Provinces, 4 Oct 1785; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 5,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1039",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1039"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1039
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 233,
    "counted": true,
    "year": 1809,

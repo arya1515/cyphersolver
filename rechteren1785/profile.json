@@ -1,0 +1,76 @@
+{
+ "schema_version": 1,
+ "target": "rechteren1785",
+ "title": "C. A. graaf van Rechteren (St Petersburg) to the Griffier / States General, 23 Sept / 4 Oct 1785 (DECODE R1039)",
+ "documents": [
+  {
+   "id": "R1039",
+   "shelfmark": "Nationaal Archief, 1.01.02 Staten-Generaal, inv. 7407; DECODE R1039",
+   "date": "23 Sept / 4 Oct 1785",
+   "year": 1785,
+   "country": "Netherlands",
+   "route": "St Petersburg -> The Hague",
+   "language": "Dutch",
+   "pages": 5,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": ["separate folio"],
+    "source": "Contemporary Griffie decipherment headed 'Ont cyfferde Missive', DECODE images 5448-5449, keyed to the cipher rows by margin group numbers.",
+    "partial": false
+   },
+   "length": {"tokens": 424, "unit": "code groups", "measured": true, "file": "R1039_cipher_groups.txt", "distinct": 326},
+   "transcription": {
+    "by": "mixed",
+    "source": "DECODE manual transcription DOC_R1039_D3590_3590.txt (IB, 2020) for the cipher; decipherment transcribed by the model from the authenticated scans.",
+    "corrections": 0,
+    "image_quality": "fair",
+    "notes": "Cipher groups parsed from images 5451-5452 of the DECODE transcription; 310-word decipherment read from images 5448-5449."
+   }
+  }
+ ],
+ "system": {
+  "types": ["nomenclator"],
+  "summary": "Numerical code of up to three digits with dots and bars over single digits that are part of the code; Rechteren's legation code (NA legation in Russia inv. 158, not online).",
+  "symbol_kind": "digits",
+  "distinct_symbols": 326,
+  "diacritics": {"used": true},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["unknown"], "unread_groups": 0},
+  "nulls": "unknown",
+  "key_order": "unknown",
+  "word_division": "separator symbol",
+  "doubled_letters": "unknown",
+  "sibling_key": "unknown",
+  "notes": "Groups separated by commas; key not rebuilt."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "The Griffie's 1785 decipherment on the same DECODE record, images 5448-5449, transcribed by DECODE as cleartext.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": ["images", "transcription"],
+  "attack": "none",
+  "human_role": "Posed the target from the catalogue; DECODE account cookie.",
+  "tools": ["DECODE authenticated image server", "python"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"date": "2026-09-21", "kind": "literature search", "what": "Checked repo notes (deswart1782: Rechteren key missing) and de Leeuw 2000, which cites this letter for letter-opening in Russia without printing it.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "access", "what": "Fetched the DECODE record page, five images and the 2020 transcription with the stored cookie.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "solver", "what": "Applied the provisional R2051 and R2052 Rechteren-family keys (marks dropped) to the 424 groups.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "reading", "what": "Read images 5448-5449 from the scans: headed 'Ont cyfferde Missive', same dates and Secreet as the cipher; transcribed the 310-word decipherment.", "result": "worked"},
+  {"date": "2026-09-21", "kind": "verification", "what": "Margin numbers of the decipherment (688, 107, 94.., 34..) match the last groups of cipher rows 1-4.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": 1.0,
+  "grades": {"H": 1, "C": 0, "M": 0, "I": 0},
+  "verification": ["contemporary decipherment"],
+  "notes": "Read at the time; decipherment on the record. Key not rebuilt; the pair is a known-plaintext sample for R1040 (deswart1782)."
+ }
+}

@@ -2799,5 +2799,31 @@
     }
    }
   }
+ },
+ "rechteren1785": {
+  "writeup": "https://dbourdeau.github.io/cyphersolver/rechteren1785.html",
+  "key": {
+   "decode": "no key; the contemporary decipherment imaged on this record (images 5448-5449, 'Ont cyfferde Missive')",
+   "lang": "NL"
+  },
+  "cite": null,
+  "fields": {
+   "plaintext_lang": "Dutch",
+   "cleartext_lang": "Dutch",
+   "start_day": "4",
+   "start_month": "10",
+   "end_day": "4",
+   "end_month": "10",
+   "city": "St Petersburg"
+  },
+  "records": {
+   "R1039": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Images 5448-5449 are not cleartext but the Griffie's contemporary decipherment ('Ont cyfferde Missive'), dated 23 Sept/4 Oct 1785, received 25 Oct, keyed to the cipher rows by margin group numbers. Full reading attached, transcribed from the scans.",
+    "reading": "decode_updates/decryptions/R1039.txt",
+    "sent": false
+   }
+  }
  }
 }
