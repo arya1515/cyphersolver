@@ -1,0 +1,179 @@
+{
+ "slug": "sunyatsen",
+ "anchor": "reading",
+ "title": "Swatow to Tokyo, 3 April 1916: the telegram to Sun Yat-sen",
+ "caption": "The ciphered telegram of 3 April 1916 to Sun Yat-sen, kept in the Japanese Foreign Ministry file JACAR B03050738800, read through the recovered code condenser and the Chinese telegraph code.",
+ "unit": "syllable pairs",
+ "tokens": [
+  {
+   "g": "baxu",
+   "p": "潮"
+  },
+  {
+   "g": "xepe",
+   "p": "城",
+   "cls": "unc"
+  },
+  {
+   "g": "jaqi",
+   "p": "由"
+  },
+  {
+   "g": "ciji",
+   "p": "莫"
+  },
+  {
+   "g": "nati",
+   "p": "擎"
+  },
+  {
+   "g": "bemi",
+   "p": "宇"
+  },
+  {
+   "g": "gasi",
+   "p": "獨"
+  },
+  {
+   "g": "qija",
+   "p": "立"
+  },
+  {
+   "g": "kebi",
+   "p": "我"
+  },
+  {
+   "g": "qoye",
+   "p": "軍"
+  },
+  {
+   "g": "kufo",
+   "p": "亦"
+  },
+  {
+   "g": "nemi",
+   "p": "光",
+   "cls": "unc"
+  },
+  {
+   "g": "getu",
+   "p": "復"
+  },
+  {
+   "g": "xabo",
+   "p": "汕"
+  },
+  {
+   "g": "boba",
+   "p": "頭"
+  },
+  {
+   "g": "gedo",
+   "p": "後"
+  },
+  {
+   "g": "ciji",
+   "p": "莫",
+   "cls": "unc"
+  },
+  {
+   "g": "gapo",
+   "p": "率"
+  },
+  {
+   "g": "yeva",
+   "p": "大"
+  },
+  {
+   "g": "yoxa",
+   "p": "隊"
+  },
+  {
+   "g": "leyo",
+   "p": "來"
+  },
+  {
+   "g": "leve",
+   "p": "令"
+  },
+  {
+   "g": "kebi",
+   "p": "我"
+  },
+  {
+   "g": "roma",
+   "p": "退"
+  },
+  {
+   "g": "pesa",
+   "p": "出"
+  },
+  {
+   "g": "voro",
+   "p": "鎮"
+  },
+  {
+   "g": "beni",
+   "p": "守"
+  },
+  {
+   "g": "fexi",
+   "p": "府"
+  },
+  {
+   "g": "kebi",
+   "p": "我"
+  },
+  {
+   "g": "qoye",
+   "p": "軍"
+  },
+  {
+   "g": "qeku",
+   "p": "力"
+  },
+  {
+   "g": "fiya",
+   "p": "薄"
+  },
+  {
+   "g": "qati",
+   "p": "暫"
+  },
+  {
+   "g": "jaqi",
+   "p": "由"
+  },
+  {
+   "g": "xiqo",
+   "p": "翼"
+  },
+  {
+   "g": "xito",
+   "p": "翿",
+   "cls": "unc"
+  },
+  {
+   "g": "natu",
+   "p": "支",
+   "cls": "unc"
+  },
+  {
+   "g": "laxo",
+   "p": "持"
+  },
+  {
+   "g": "pava",
+   "p": "文"
+  },
+  {
+   "g": "jejo",
+   "p": "慧"
+  },
+  {
+   "g": "rope",
+   "p": "返"
+  }
+ ],
+ "key_note": "Each pair of letter-syllables gives a four-digit Chinese telegraph code number (consonant row, vowel column, no additive); uncertain groups are emended cursive misreadings or unconfirmed cells."
+}

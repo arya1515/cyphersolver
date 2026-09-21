@@ -1,0 +1,272 @@
+{
+ "slug": "sunintercepts",
+ "anchor": "spring",
+ "title": "Shanghai to Rosamonde, 25 March 1916: the monarchy cancelled",
+ "caption": "Telegram no. 054 from Sun Yat-sen's party in Shanghai to Tokyo, as copied by the Japanese Communications Bureau, JACAR B03050088300 frame 0468.",
+ "unit": "code groups",
+ "tokens": [
+  {
+   "g": "hiku",
+   "p": "帝"
+  },
+  {
+   "g": "viha",
+   "p": "制"
+  },
+  {
+   "g": "siqa",
+   "p": "取"
+  },
+  {
+   "g": "moju",
+   "p": "消"
+  },
+  {
+   "g": "jeda",
+   "p": "馮"
+  },
+  {
+   "g": "soli",
+   "p": "朱"
+  },
+  {
+   "g": "taxu",
+   "p": "等"
+  },
+  {
+   "g": "cozu",
+   "p": "當"
+  },
+  {
+   "g": "koye",
+   "p": "漸"
+  },
+  {
+   "g": "bajo",
+   "p": "觀"
+  },
+  {
+   "g": "todu",
+   "p": "望"
+  },
+  {
+   "g": "kofo",
+   "p": "滬"
+  },
+  {
+   "g": "coge",
+   "p": "異"
+  },
+  {
+   "g": "mohe",
+   "p": "派"
+  },
+  {
+   "g": "tibu",
+   "p": "力"
+  },
+  {
+   "g": "fiso",
+   "p": "弱"
+  },
+  {
+   "g": "voza",
+   "p": "於",
+   "cls": "unc"
+  },
+  {
+   "g": "bika",
+   "p": "我"
+  },
+  {
+   "g": "cone",
+   "p": "略"
+  },
+  {
+   "g": "siqe",
+   "p": "可"
+  },
+  {
+   "g": "fisu",
+   "p": "從",
+   "cls": "unc"
+  },
+  {
+   "g": "kipe",
+   "p": "容"
+  },
+  {
+   "g": "ziya",
+   "p": "佈"
+  },
+  {
+   "g": "pacu",
+   "p": "置"
+  },
+  {
+   "g": "mopu",
+   "p": "海"
+  },
+  {
+   "g": "temi",
+   "p": "軍"
+  },
+  {
+   "g": "xoza",
+   "p": "擂",
+   "cls": "unc"
+  },
+  {
+   "g": "bocu",
+   "p": "發"
+  },
+  {
+   "g": "tahu",
+   "p": "策"
+  },
+  {
+   "g": "teto",
+   "p": "較"
+  },
+  {
+   "g": "hayi",
+   "p": "萬"
+  },
+  {
+   "g": "xiga",
+   "p": "全"
+  },
+  {
+   "g": "hova",
+   "p": "然"
+  },
+  {
+   "g": "fono",
+   "p": "猶"
+  },
+  {
+   "g": "dido",
+   "p": "急"
+  },
+  {
+   "g": "yime",
+   "p": "備"
+  },
+  {
+   "g": "sori",
+   "p": "未"
+  },
+  {
+   "g": "bidi",
+   "p": "懈"
+  },
+  {
+   "g": "ciyu",
+   "p": "慮"
+  },
+  {
+   "g": "kofo",
+   "p": "滬"
+  },
+  {
+   "g": "tibi",
+   "p": "動"
+  },
+  {
+   "g": "nepu",
+   "p": "防"
+  },
+  {
+   "g": "sava",
+   "p": "篚",
+   "cls": "unc"
+  },
+  {
+   "g": "fope",
+   "p": "王"
+  },
+  {
+   "g": "zebe",
+   "p": "謀"
+  },
+  {
+   "g": "buhu",
+   "p": "仍"
+  },
+  {
+   "g": "zeka",
+   "p": "請"
+  },
+  {
+   "g": "kepu",
+   "p": "飭"
+  },
+  {
+   "g": "fope",
+   "p": "王"
+  },
+  {
+   "g": "sexa",
+   "p": "速"
+  },
+  {
+   "g": "zite",
+   "p": "來",
+   "cls": "unc"
+  },
+  {
+   "g": "totu",
+   "p": "會"
+  },
+  {
+   "g": "riju",
+   "p": "商"
+  },
+  {
+   "g": "zipu",
+   "p": "便"
+  },
+  {
+   "g": "sisa",
+   "p": "反",
+   "cls": "unc"
+  },
+  {
+   "g": "zaze",
+   "p": "相"
+  },
+  {
+   "g": "cuzu",
+   "p": "當",
+   "cls": "unc"
+  },
+  {
+   "g": "toji",
+   "p": "時"
+  },
+  {
+   "g": "goju",
+   "p": "機",
+   "cls": "unc"
+  },
+  {
+   "g": "zibe",
+   "p": "供",
+   "cls": "unc"
+  },
+  {
+   "g": "toqi",
+   "p": "是"
+  },
+  {
+   "g": "fike",
+   "p": "徊",
+   "cls": "unc"
+  },
+  {
+   "g": "tibi",
+   "p": "動"
+  }
+ ],
+ "key_note": "Key shanghai1916 of the systematic condenser family: each pair of syllables gives one four-digit Chinese telegraph code; groups emended for a one-letter copying slip are marked uncertain."
+}

@@ -1,0 +1,341 @@
+{
+ "slug": "windischgraetz1720",
+ "anchor": "no1",
+ "title": "Vienna, 3 February 1720: Charles VI on France and the Regent",
+ "caption": "Four cipher passages (A, B, D, E) of Charles VI's autograph letter to Windischgrätz, SOA Plzeň, RA Windischgrätz (DECODE R5019/R5020), with the clear words that lead into each.",
+ "unit": "numbers",
+ "tokens": [
+  {
+   "g": "",
+   "p": "… absonderlich ",
+   "cls": "plain"
+  },
+  {
+   "g": "89",
+   "p": "de"
+  },
+  {
+   "g": "312",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "251",
+   "p": "pe"
+  },
+  {
+   "g": "65",
+   "p": "n"
+  },
+  {
+   "g": "14",
+   "p": "te"
+  },
+  {
+   "g": "312",
+   "p": "n"
+  },
+  {
+   "g": "20",
+   "p": "ri"
+  },
+  {
+   "g": "48",
+   "p": "de"
+  },
+  {
+   "g": "96",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " … oder geringsten ",
+   "cls": "plain"
+  },
+  {
+   "g": "315",
+   "p": "ar"
+  },
+  {
+   "g": "353",
+   "p": "g"
+  },
+  {
+   "g": "129",
+   "p": "wo"
+  },
+  {
+   "g": "312",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "675",
+   "p": "machen",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "927",
+   "p": "von",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "543",
+   "p": "Franckreich",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "926",
+   "p": "undt",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "495",
+   "p": "dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "795",
+   "p": "Regent",
+   "cls": "code"
+  },
+  {
+   "g": "97",
+   "p": "en"
+  },
+  {
+   "g": "",
+   "p": " … aber auf keine weis ",
+   "cls": "plain"
+  },
+  {
+   "g": "574",
+   "p": "gegen",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "495",
+   "p": "dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "543",
+   "p": "Franckreich",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "401",
+   "p": "Auch",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "634",
+   "p": "Kein",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "91",
+   "p": "ge"
+  },
+  {
+   "g": "280",
+   "p": "ri"
+  },
+  {
+   "g": "65",
+   "p": "n"
+  },
+  {
+   "g": "353",
+   "p": "g"
+  },
+  {
+   "g": "7",
+   "p": "st"
+  },
+  {
+   "g": "312",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "315",
+   "p": "ar"
+  },
+  {
+   "g": "353",
+   "p": "g"
+  },
+  {
+   "g": "129",
+   "p": "wo"
+  },
+  {
+   "g": "65",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " … absonderlich ",
+   "cls": "plain"
+  },
+  {
+   "g": "283",
+   "p": "da"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "706",
+   "p": "nun",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "494",
+   "p": "der",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "154",
+   "p": "al"
+  },
+  {
+   "g": "21",
+   "p": "be"
+  },
+  {
+   "g": "351",
+   "p": "ro"
+  },
+  {
+   "g": "45",
+   "p": "ni"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "403",
+   "p": "aus",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "854",
+   "p": "Spannien",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "60",
+   "p": "ab"
+  },
+  {
+   "g": "91",
+   "p": "ge"
+  },
+  {
+   "g": "57",
+   "p": "sch"
+  },
+  {
+   "g": "356",
+   "p": "af"
+  },
+  {
+   "g": "88",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " …",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "Key R5017: numbers 1–400 are letters and bigrams, 401–977 words and names."
+}

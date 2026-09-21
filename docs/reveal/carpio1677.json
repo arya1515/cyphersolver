@@ -1,0 +1,286 @@
+{
+ "slug": "carpio1677",
+ "anchor": "the-two-non-decrypted-letters",
+ "title": "Rome, 13 November 1677: “nuestra mala fortuna”",
+ "caption": "The opening of the cipher in Carpio's letter to Fuenmayor of 13 November 1677, Archives générales du Royaume, Brussels, SEG 2559 (DECODE R1004), one of the two letters DECODE lists as non-decrypted.",
+ "unit": "signs",
+ "tokens": [
+  {
+   "g": "N*",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "R*",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "4*",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": "… ",
+   "cls": "plain"
+  },
+  {
+   "g": "ma",
+   "p": "la"
+  },
+  {
+   "g": "32",
+   "p": "me"
+  },
+  {
+   "g": "20",
+   "p": "n"
+  },
+  {
+   "g": "15*",
+   "p": "ta"
+  },
+  {
+   "g": "24",
+   "p": "r"
+  },
+  {
+   "g": "32",
+   "p": "me"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "bo",
+   "p": "co"
+  },
+  {
+   "g": "20",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "116",
+   "p": "V.S.",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ge",
+   "p": "de"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "mo",
+   "p": "lo"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "50*",
+   "p": "que"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "41*",
+   "p": "en"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "18*",
+   "p": "to"
+  },
+  {
+   "g": "ga",
+   "p": "da"
+  },
+  {
+   "g": "25",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "41",
+   "p": "pa"
+  },
+  {
+   "g": "24",
+   "p": "r"
+  },
+  {
+   "g": "16*",
+   "p": "te"
+  },
+  {
+   "g": "25",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "39",
+   "p": "no"
+  },
+  {
+   "g": "25",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "42",
+   "p": "pe"
+  },
+  {
+   "g": "24",
+   "p": "r"
+  },
+  {
+   "g": "53",
+   "p": "si"
+  },
+  {
+   "g": "lu",
+   "p": "gu"
+  },
+  {
+   "g": "r",
+   "p": "e",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "40",
+   "p": "nu"
+  },
+  {
+   "g": "36*",
+   "p": "es"
+  },
+  {
+   "g": "26",
+   "p": "t"
+  },
+  {
+   "g": "41",
+   "p": "ra",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "31",
+   "p": "ma"
+  },
+  {
+   "g": "ma",
+   "p": "la"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "23*",
+   "p": "fo"
+  },
+  {
+   "g": "24",
+   "p": "r"
+  },
+  {
+   "g": "19*",
+   "p": "tu"
+  },
+  {
+   "g": "36",
+   "p": "na"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "45",
+   "p": "pu"
+  },
+  {
+   "g": "36*",
+   "p": "es"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "bo",
+   "p": "co"
+  },
+  {
+   "g": "20",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "ma",
+   "p": "la"
+  },
+  {
+   "g": "",
+   "p": " …",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "A syllabic nomenclator: 9–30 letters, 31–60 consonant-vowel syllables, struck figures (marked * here, + on DECODE) a second syllable table, and letter pairs with the consonant disguised; the two uncertain signs are slips in the transcription (persigur, nuestpa)."
+}

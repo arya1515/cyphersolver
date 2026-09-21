@@ -1231,6 +1231,19 @@ def process(path):
     s = re.sub(r'<meta name="(?:date|last-modified)"[^>]*>\n?', '', s)
     s = s.replace('</head>', f'<meta name="date" content="{rec["first"]}">\n'
                              f'<meta name="last-modified" content="{rec["updated"]}">\n</head>', 1)
+    # "Watch it decipher": a page with docs/reveal/<slug>.json and no reveal of its own gets one, once, right after the h2
+    # the data names as its "anchor" (else before the sources); from then on it is ordinary page content
+    rv = HERE / 'reveal' / f'{slug}.json'
+    if rv.exists() and 'class="creveal"' not in s and '<main>' in s:
+        anchor = json.loads(rv.read_text(encoding='utf-8')).get('anchor', '')
+        fig = f'<figure class="creveal" data-src="reveal/{slug}.json"></figure>\n'
+        m = anchor and re.search(r'<h2 id="%s"[^>]*>.*?</h2>\n?' % re.escape(anchor), s, re.S)
+        m2 = re.search(r'<!-- replay:start -->|<h2 id="sources"', s)
+        if m: s = s[:m.end()] + fig + s[m.end():]
+        elif m2: s = s[:m2.start()] + fig + s[m2.start():]
+        else: s = s.replace('</main>', fig + '</main>', 1)
+    if 'class="creveal"' in s and 'cipher-reveal.js' not in s:
+        s = s.replace('</body>', '<script src="cipher-reveal.js" defer></script>\n</body>', 1)
     # "How it was solved": the replay of the profile's solution steps, before the sources
     s = re.sub(r'<!-- replay:start -->.*?<!-- replay:end -->\n?', '', s, flags=re.S)
     s = re.sub(r'<script src="solve-replay\.js[^"]*" defer></script>\n?', '', s)

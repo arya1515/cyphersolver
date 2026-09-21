@@ -1,0 +1,261 @@
+{
+ "slug": "adfgvx",
+ "anchor": "table",
+ "title": "Page 100: KEINE STOERUNG DURCH FEIND",
+ "caption": "The page-100 message of the 1918 Eastern Front traffic (Childs transcript as printed by Schmeh), untransposed with the published key and one two-letter insertion restored.",
+ "unit": "letter pairs",
+ "tokens": [
+  {
+   "g": "VV",
+   "p": "K"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "GG",
+   "p": "N"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "DV",
+   "p": "S"
+  },
+  {
+   "g": "FX",
+   "p": "T"
+  },
+  {
+   "g": "AG",
+   "p": "O"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "DA",
+   "p": "R"
+  },
+  {
+   "g": "AV",
+   "p": "F",
+   "cls": "unc"
+  },
+  {
+   "g": "GG",
+   "p": "N"
+  },
+  {
+   "g": "FF",
+   "p": "G"
+  },
+  {
+   "g": "GA",
+   "p": "D"
+  },
+  {
+   "g": "AA",
+   "p": "U"
+  },
+  {
+   "g": "DA",
+   "p": "R"
+  },
+  {
+   "g": "DD",
+   "p": "C"
+  },
+  {
+   "g": "VF",
+   "p": "H"
+  },
+  {
+   "g": "AV",
+   "p": "F"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "GG",
+   "p": "N"
+  },
+  {
+   "g": "GA",
+   "p": "D"
+  },
+  {
+   "g": "DX",
+   "p": "X"
+  },
+  {
+   "g": "VD",
+   "p": "M"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "FX",
+   "p": "T"
+  },
+  {
+   "g": "FX",
+   "p": "T"
+  },
+  {
+   "g": "XG",
+   "p": "A"
+  },
+  {
+   "g": "FF",
+   "p": "G"
+  },
+  {
+   "g": "DV",
+   "p": "S"
+  },
+  {
+   "g": "FD",
+   "p": "2"
+  },
+  {
+   "g": "AV",
+   "p": "F"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "GG",
+   "p": "N"
+  },
+  {
+   "g": "GA",
+   "p": "D"
+  },
+  {
+   "g": "AF",
+   "p": "L"
+  },
+  {
+   "g": "DX",
+   "p": "X"
+  },
+  {
+   "g": "GA",
+   "p": "D"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "DG",
+   "p": "V"
+  },
+  {
+   "g": "?X",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "AD",
+   "p": "I"
+  },
+  {
+   "g": "VD",
+   "p": "M"
+  },
+  {
+   "g": "VD",
+   "p": "M"
+  },
+  {
+   "g": "XG",
+   "p": "A"
+  },
+  {
+   "g": "DA",
+   "p": "R"
+  },
+  {
+   "g": "DV",
+   "p": "S"
+  },
+  {
+   "g": "DD",
+   "p": "C"
+  },
+  {
+   "g": "VF",
+   "p": "H"
+  },
+  {
+   "g": "X?",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "AA",
+   "p": "U"
+  },
+  {
+   "g": "AV",
+   "p": "F"
+  },
+  {
+   "g": "GV",
+   "p": "B"
+  },
+  {
+   "g": "VG",
+   "p": "E"
+  },
+  {
+   "g": "AF",
+   "p": "L"
+  },
+  {
+   "g": "FF",
+   "p": "G"
+  },
+  {
+   "g": "DA",
+   "p": "R"
+  },
+  {
+   "g": "XG",
+   "p": "A"
+  },
+  {
+   "g": "GA",
+   "p": "D"
+  },
+  {
+   "g": "DX",
+   "p": "X"
+  }
+ ],
+ "key_note": "The 1-3 November key (Lasry, Niebel, Kopal and Wacker): a 19-column transposition and a 6x6 substitution square; X is the word separator."
+}

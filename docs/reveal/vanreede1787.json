@@ -1,0 +1,236 @@
+{
+ "slug": "vanreede1787",
+ "anchor": "r1026",
+ "title": "Van Reede, Berlin, 29 December 1787: the conference with the King",
+ "caption": "A passage of Van Reede's despatch from Berlin of 29 December 1787 (DECODE R1026), read with the Grand Chiffre key R1024.",
+ "unit": "code groups",
+ "tokens": [
+  {
+   "g": "4884",
+   "p": "il"
+  },
+  {
+   "g": "3754",
+   "p": "doit"
+  },
+  {
+   "g": "1470",
+   "p": "Y"
+  },
+  {
+   "g": "465",
+   "p": "avoir"
+  },
+  {
+   "g": "3089",
+   "p": "ce"
+  },
+  {
+   "g": "2047",
+   "p": "matin"
+  },
+  {
+   "g": "380",
+   "p": "A"
+  },
+  {
+   "g": "375J",
+   "p": "dix",
+   "cls": "unc"
+  },
+  {
+   "g": "3346",
+   "p": "heure"
+  },
+  {
+   "g": "2446",
+   "p": "une"
+  },
+  {
+   "g": "373",
+   "p": "conference"
+  },
+  {
+   "g": "2975",
+   "p": "à ce sujet"
+  },
+  {
+   "g": "3794",
+   "p": "encore"
+  },
+  {
+   "g": "3228",
+   "p": "entre"
+  },
+  {
+   "g": "JJ83",
+   "p": "le Roi",
+   "cls": "unc"
+  },
+  {
+   "g": "55",
+   "p": "et"
+  },
+  {
+   "g": "1303",
+   "p": "ses"
+  },
+  {
+   "g": "630",
+   "p": "deux"
+  },
+  {
+   "g": "949",
+   "p": "Ministre"
+  },
+  {
+   "g": "826",
+   "p": "j'espère que"
+  },
+  {
+   "g": "3386",
+   "p": "il n'y a"
+  },
+  {
+   "g": "2587",
+   "p": "aura"
+  },
+  {
+   "g": "206",
+   "p": "pas"
+  },
+  {
+   "g": "1496",
+   "p": "de"
+  },
+  {
+   "g": "3099",
+   "p": "changement"
+  },
+  {
+   "g": "1498",
+   "p": "le"
+  },
+  {
+   "g": "2812",
+   "p": "seul"
+  },
+  {
+   "g": "3417",
+   "p": "jusqu'ici"
+  },
+  {
+   "g": "65J",
+   "p": "dont",
+   "cls": "unc"
+  },
+  {
+   "g": "4437",
+   "p": "il"
+  },
+  {
+   "g": "1307",
+   "p": "soient"
+  },
+  {
+   "g": "JJ27",
+   "p": "des",
+   "cls": "unc"
+  },
+  {
+   "g": "1638",
+   "p": "c'est que"
+  },
+  {
+   "g": "4666",
+   "p": "le Roi"
+  },
+  {
+   "g": "1465",
+   "p": "A"
+  },
+  {
+   "g": "1770",
+   "p": "dit"
+  },
+  {
+   "g": "JJ3J",
+   "p": "que",
+   "cls": "unc"
+  },
+  {
+   "g": "979",
+   "p": "ne"
+  },
+  {
+   "g": "3604",
+   "p": "pouvoit"
+  },
+  {
+   "g": "206",
+   "p": "pas"
+  },
+  {
+   "g": "3316",
+   "p": "garantir"
+  },
+  {
+   "g": "4528",
+   "p": "nos"
+  },
+  {
+   "g": "2176",
+   "p": "possession"
+  },
+  {
+   "g": "17J6",
+   "p": "depit",
+   "cls": "unc"
+  },
+  {
+   "g": "3543",
+   "p": "outre"
+  },
+  {
+   "g": "2052",
+   "p": "Mer"
+  },
+  {
+   "g": "4433",
+   "p": "je ne"
+  },
+  {
+   "g": "1480",
+   "p": "L"
+  },
+  {
+   "g": "2526",
+   "p": "ai"
+  },
+  {
+   "g": "206",
+   "p": "pas"
+  },
+  {
+   "g": "615",
+   "p": "demander"
+  },
+  {
+   "g": "2360",
+   "p": "mais"
+  },
+  {
+   "g": "2604",
+   "p": "bien"
+  },
+  {
+   "g": "4020",
+   "p": "qu'"
+  },
+  {
+   "g": "2572",
+   "p": "au cas de"
+  }
+ ],
+ "key_note": "Groups containing J stand for DECODE's catch-all sign J+, whose digit was chosen by a language model; those values are marked uncertain."
+}

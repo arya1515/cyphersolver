@@ -1,0 +1,276 @@
+{
+ "slug": "conti1649",
+ "anchor": "nos41-42",
+ "title": "Conti to Noirmoutier, 26 March 1649: the Normandy parlement",
+ "caption": "Lines 5–6 of f. 113r of the Prince de Conti's ciphered mémoire, BnF fr. 3854 no. 41, cipher runs between the clear words of the original.",
+ "unit": "signs",
+ "tokens": [
+  {
+   "g": "",
+   "p": " Que ",
+   "cls": "plain"
+  },
+  {
+   "g": "u",
+   "p": "l"
+  },
+  {
+   "g": "r",
+   "p": "o"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "t",
+   "p": "i"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "m",
+   "p": "s"
+  },
+  {
+   "g": "t",
+   "p": "i"
+  },
+  {
+   "g": "m",
+   "p": "s"
+  },
+  {
+   "g": "a",
+   "p": "t"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " fort dans la ",
+   "cls": "plain"
+  },
+  {
+   "g": "i",
+   "p": "c"
+  },
+  {
+   "g": "r",
+   "p": "o"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "c",
+   "p": "f"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "d",
+   "p": "r"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "i",
+   "p": "c"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "m",
+   "p": "s"
+  },
+  {
+   "g": "l",
+   "p": "u"
+  },
+  {
+   "g": "d",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "u",
+   "p": "l"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "m",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "t",
+   "p": "i"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "a",
+   "p": "t"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "d",
+   "p": "r"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "a",
+   "p": "t"
+  },
+  {
+   "g": "m",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " du ",
+   "cls": "plain"
+  },
+  {
+   "g": "a",
+   "p": "p"
+  },
+  {
+   "g": "J",
+   "p": "a"
+  },
+  {
+   "g": "d",
+   "p": "r"
+  },
+  {
+   "g": "u",
+   "p": "l"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "n",
+   "p": "m"
+  },
+  {
+   "g": "i",
+   "p": "e"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "a",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "m",
+   "p": "d"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "r",
+   "p": "o"
+  },
+  {
+   "g": "d",
+   "p": "r"
+  },
+  {
+   "g": "n",
+   "p": "m"
+  },
+  {
+   "g": "J",
+   "p": "a"
+  },
+  {
+   "g": "g",
+   "p": "n"
+  },
+  {
+   "g": "m",
+   "p": "d"
+  },
+  {
+   "g": "t",
+   "p": "i"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " avec lequel le ",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "Lasry's 2023 poly-homophonic key; the polyphonic signs (a, e, i, m, n) are resolved by a French language model."
+}

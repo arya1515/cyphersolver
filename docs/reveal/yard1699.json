@@ -1,0 +1,313 @@
+{
+ "slug": "yard1699",
+ "anchor": "reading",
+ "title": "12 October 1699: the opening of the letter",
+ "caption": "The first sentences of the ciphered letter of 12 October 1699, code groups read with the key rebuilt in this repository.",
+ "unit": "code groups",
+ "tokens": [
+  {
+   "g": "",
+   "p": "The ",
+   "cls": "plain"
+  },
+  {
+   "g": "241",
+   "p": "me "
+  },
+  {
+   "g": "120",
+   "p": "s "
+  },
+  {
+   "g": "128",
+   "p": "s "
+  },
+  {
+   "g": "356",
+   "p": "en "
+  },
+  {
+   "g": "211",
+   "p": "ge "
+  },
+  {
+   "g": "112",
+   "p": "r "
+  },
+  {
+   "g": "286",
+   "p": "st "
+  },
+  {
+   "g": "10",
+   "p": "a "
+  },
+  {
+   "g": "316",
+   "p": "ye "
+  },
+  {
+   "g": "126",
+   "p": "s "
+  },
+  {
+   "g": "476",
+   "p": "yet "
+  },
+  {
+   "g": "327",
+   "p": "at "
+  },
+  {
+   "g": "347",
+   "p": "do "
+  },
+  {
+   "g": "1038",
+   "p": "ver "
+  },
+  {
+   "g": "",
+   "p": " looking ",
+   "cls": "plain"
+  },
+  {
+   "g": "622",
+   "p": "for "
+  },
+  {
+   "g": "242",
+   "p": "mi "
+  },
+  {
+   "g": "73",
+   "p": "l "
+  },
+  {
+   "g": "78",
+   "p": "l "
+  },
+  {
+   "g": "124",
+   "p": "s "
+  },
+  {
+   "g": "2278",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": ". I hope wee shall ",
+   "cls": "plain"
+  },
+  {
+   "g": "821",
+   "p": "meet "
+  },
+  {
+   "g": "1044",
+   "p": "with "
+  },
+  {
+   "g": "798",
+   "p": "him "
+  },
+  {
+   "g": "327",
+   "p": "at "
+  },
+  {
+   "g": "653",
+   "p": "last "
+  },
+  {
+   "g": "",
+   "p": ". Wee have an account from the Lords ",
+   "cls": "plain"
+  },
+  {
+   "g": "962",
+   "p": "just "
+  },
+  {
+   "g": "62",
+   "p": "i "
+  },
+  {
+   "g": "180",
+   "p": "ce "
+  },
+  {
+   "g": "122",
+   "p": "s "
+  },
+  {
+   "g": "254",
+   "p": "of "
+  },
+  {
+   "g": "1444",
+   "p": "Ireland "
+  },
+  {
+   "g": "716",
+   "p": "that "
+  },
+  {
+   "g": "876",
+   "p": "they "
+  },
+  {
+   "g": "",
+   "p": " have ",
+   "cls": "plain"
+  },
+  {
+   "g": "1492",
+   "p": "receive "
+  },
+  {
+   "g": "32",
+   "p": "d "
+  },
+  {
+   "g": "1800",
+   "p": "private "
+  },
+  {
+   "g": "1602",
+   "p": "inform "
+  },
+  {
+   "g": "327",
+   "p": "at "
+  },
+  {
+   "g": "66",
+   "p": "i "
+  },
+  {
+   "g": "673",
+   "p": "on "
+  },
+  {
+   "g": "453",
+   "p": "th "
+  },
+  {
+   "g": "327",
+   "p": "at "
+  },
+  {
+   "g": "1143",
+   "p": "many "
+  },
+  {
+   "g": "507",
+   "p": "dis "
+  },
+  {
+   "g": "163",
+   "p": "af "
+  },
+  {
+   "g": "203",
+   "p": "fe "
+  },
+  {
+   "g": "23",
+   "p": "c "
+  },
+  {
+   "g": "291",
+   "p": "te "
+  },
+  {
+   "g": "33",
+   "p": "d "
+  },
+  {
+   "g": "1322",
+   "p": "person "
+  },
+  {
+   "g": "127",
+   "p": "s "
+  },
+  {
+   "g": "273",
+   "p": "re "
+  },
+  {
+   "g": "1191",
+   "p": "turn "
+  },
+  {
+   "g": "",
+   "p": " dayly into that ",
+   "cls": "plain"
+  },
+  {
+   "g": "1130",
+   "p": "Kingdom "
+  },
+  {
+   "g": "2291",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "2317",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": ". and that there ",
+   "cls": "plain"
+  },
+  {
+   "g": "384",
+   "p": "is "
+  },
+  {
+   "g": "866",
+   "p": "some "
+  },
+  {
+   "g": "646",
+   "p": "ill "
+  },
+  {
+   "g": "1570",
+   "p": "design "
+  },
+  {
+   "g": "10",
+   "p": "a "
+  },
+  {
+   "g": "791",
+   "p": "gain "
+  },
+  {
+   "g": "286",
+   "p": "st "
+  },
+  {
+   "g": "454",
+   "p": "the "
+  },
+  {
+   "g": "1432",
+   "p": "Government "
+  },
+  {
+   "g": "",
+   "p": ". ",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "Numbers ending in 5 or 9, 517-616, and those outside the key range are nulls, following the decoder."
+}

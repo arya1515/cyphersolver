@@ -1,0 +1,175 @@
+{
+ "slug": "throckmorton",
+ "anchor": "reading",
+ "title": "R9220, f. 110: a numbered extract of 1560",
+ "caption": "The sixth numbered extract on BL Add MS 4136 f. 110 (DECODE R9220), continuing Throckmorton's letter to Cecil of 7 March 1559/60, read with the third cipher on R9262.",
+ "unit": "signs",
+ "tokens": [
+  {
+   "g": "A_left_two_dots",
+   "p": "all"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "b_left_two_dots",
+   "p": "be"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "i_vshape",
+   "p": "i"
+  },
+  {
+   "g": "3_colon",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "i_low_arch",
+   "p": "i"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "b_left_two_dots",
+   "p": "be"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "4_dot",
+   "p": "r"
+  },
+  {
+   "g": "8_plain",
+   "p": "e"
+  },
+  {
+   "g": "6_colon",
+   "p": "v"
+  },
+  {
+   "g": "2_plain",
+   "p": "o"
+  },
+  {
+   "g": "k_phi",
+   "p": "k"
+  },
+  {
+   "g": "bo_suffix",
+   "p": "ed"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "NULL_arch",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "4_plain",
+   "p": "o"
+  },
+  {
+   "g": "5_dot",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "T_curved",
+   "p": "the"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "circle_dot",
+   "p": "w"
+  },
+  {
+   "g": "a_Hshape",
+   "p": "a"
+  },
+  {
+   "g": "6_dot",
+   "p": "r"
+  },
+  {
+   "g": "5_dot",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "b_Ushape",
+   "p": "b"
+  },
+  {
+   "g": "4_dot",
+   "p": "r"
+  },
+  {
+   "g": "e_square",
+   "p": "e"
+  },
+  {
+   "g": "a_angle",
+   "p": "a"
+  },
+  {
+   "g": "k_pi",
+   "p": "k"
+  },
+  {
+   "g": "e_curly",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "NULL_loop",
+   "p": "·",
+   "cls": "null"
+  }
+ ],
+ "key_note": "Glyph names are the repository's ASCII labels; the reading agrees with Forbes (1740), p. 355."
+}

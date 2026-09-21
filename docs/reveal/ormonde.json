@@ -1,0 +1,268 @@
+{
+ "slug": "ormonde",
+ "anchor": "reading",
+ "title": "Maltravers to Ormonde, 22 January 1635: Crosby and the Council",
+ "caption": "Lord Maltravers's letter to Ormonde of 22 January 1634/5, cipher figures set in the clear as printed in HMC Ormonde I (1895), pp. 28–29.",
+ "unit": "figures",
+ "tokens": [
+  {
+   "g": "",
+   "p": "You desire to know what ",
+   "cls": "plain"
+  },
+  {
+   "g": "93",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "185",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "95",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": ", hath written unto ",
+   "cls": "plain"
+  },
+  {
+   "g": "99",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "149",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": ", concerning ",
+   "cls": "plain"
+  },
+  {
+   "g": "98",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "10",
+   "p": "c"
+  },
+  {
+   "g": "44",
+   "p": "r"
+  },
+  {
+   "g": "79",
+   "p": "o"
+  },
+  {
+   "g": "47",
+   "p": "s"
+  },
+  {
+   "g": "8",
+   "p": "b"
+  },
+  {
+   "g": "59",
+   "p": "y"
+  },
+  {
+   "g": "",
+   "p": ", for whom ",
+   "cls": "plain"
+  },
+  {
+   "g": "270",
+   "p": "Sir Piers Crosby",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " thus hereafter of which I can give you no account of at all, only by what I hear it is like to go worser with him, rather than better, ",
+   "cls": "plain"
+  },
+  {
+   "g": "95",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "186",
+   "p": "the Lord Deputy",
+   "cls": "code"
+  },
+  {
+   "g": "98",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " hath written unto ",
+   "cls": "plain"
+  },
+  {
+   "g": "98",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "218",
+   "p": "Mr Secretary Coke",
+   "cls": "code"
+  },
+  {
+   "g": "97",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " much in praise of ",
+   "cls": "plain"
+  },
+  {
+   "g": "100",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "174",
+   "p": "Ormonde",
+   "cls": "code"
+  },
+  {
+   "g": "103",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " in general, and particularly for his good carriage in ",
+   "cls": "plain"
+  },
+  {
+   "g": "111",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "95",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "221",
+   "p": "the Parliament",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": ", and upon his motion ",
+   "cls": "plain"
+  },
+  {
+   "g": "93",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "31",
+   "p": "m",
+   "cls": "unc"
+  },
+  {
+   "g": "174",
+   "p": "Ormonde",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "99",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " is to be ",
+   "cls": "plain"
+  },
+  {
+   "g": "64",
+   "p": "a"
+  },
+  {
+   "g": "99",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "11",
+   "p": "c"
+  },
+  {
+   "g": "79",
+   "p": "o"
+  },
+  {
+   "g": "85",
+   "p": "u"
+  },
+  {
+   "g": "35",
+   "p": "n"
+  },
+  {
+   "g": "12",
+   "p": "c"
+  },
+  {
+   "g": "69",
+   "p": "e"
+  },
+  {
+   "g": "28",
+   "p": "l"
+  },
+  {
+   "g": "29",
+   "p": "l"
+  },
+  {
+   "g": "79",
+   "p": "o"
+  },
+  {
+   "g": "44",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": ", in which courses ",
+   "cls": "plain"
+  },
+  {
+   "g": "174",
+   "p": "Ormonde",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " shall do well to continue",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "A regular key: consonants b–z three figures each from 7, vowels from 64, 91–111 nulls, 112 and above names and words."
+}

@@ -1,0 +1,342 @@
+{
+ "slug": "hereditary1796",
+ "anchor": "the-reading",
+ "title": "Berlin, 12 March 1796: Haugwitz at the King's ball",
+ "caption": "Lines 5–7 of the Hereditary Prince's ciphered letter of 12 March 1796, Koninklijk Huisarchief, The Hague, A31 inv. 337 (DECODE R2239).",
+ "unit": "code groups",
+ "tokens": [
+  {
+   "g": "",
+   "p": "… tandis que le ",
+   "cls": "plain"
+  },
+  {
+   "g": "207_",
+   "p": "comte"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "169_",
+   "p": "haugwitz"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2)90",
+   "p": "me"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2)133",
+   "p": "dit"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "202^5",
+   "p": "avant"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "172,1,5",
+   "p": "hi"
+  },
+  {
+   "g": "7)172",
+   "p": "er"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": "au",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2)79^1",
+   "p": "bal"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "37^1",
+   "p": "du"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2)107",
+   "p": "roi"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "48_",
+   "p": "quil"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "53^2",
+   "p": "vien"
+  },
+  {
+   "g": "82,6,7",
+   "p": "dr"
+  },
+  {
+   "g": "5)57",
+   "p": "ait"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "52^1",
+   "p": "un"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": "de",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": "ces",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "176^3",
+   "p": "jour"
+  },
+  {
+   "g": "72,1",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "5)210",
+   "p": "ches"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "226,1,2,5",
+   "p": "moi"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "93,1",
+   "p": "p"
+  },
+  {
+   "g": "1)58",
+   "p": "our"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "2)90",
+   "p": "me"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "234^2",
+   "p": "par"
+  },
+  {
+   "g": "",
+   "p": "le",
+   "cls": "plain"
+  },
+  {
+   "g": "234,3",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "7)136^1",
+   "p": "sur"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "12^5",
+   "p": "ce"
+  },
+  {
+   "g": "12,4",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "3)18",
+   "p": "obj"
+  },
+  {
+   "g": "144^2",
+   "p": "et"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "88^2",
+   "p": "il"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "3)88",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "4)57",
+   "p": "fait"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "57,6",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "162_",
+   "p": "elgin"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "119_",
+   "p": "la"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "5)205^1",
+   "p": "commun"
+  },
+  {
+   "g": "13,5,6",
+   "p": "ic"
+  },
+  {
+   "g": "6)45",
+   "p": "ation"
+  },
+  {
+   "g": "",
+   "p": " …",
+   "cls": "plain"
+  }
+ ],
+ "key_note": "A word-list code: each number is an entry in a list of French words and syllables, and the marks after it take letters from the entry (N,p = letters p; k)N drops the first k; N^j drops the last j; N_ the whole entry), rebuilt from the sibling R2237."
+}

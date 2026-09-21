@@ -1,0 +1,407 @@
+{
+ "slug": "boswell",
+ "anchor": "reading",
+ "title": "Charles I to the Duke of Courland's envoy, 2 November 1643: the offer of arms",
+ "caption": "A passage of the King's letter from Oxford in the Boswell cipher, clear words and cipher figures interleaved, TNA SP 84/157 f. 217 (from Tomokiyo's transcription).",
+ "unit": "figures and signs",
+ "tokens": [
+  {
+   "g": "",
+   "p": "Our ",
+   "cls": "plain"
+  },
+  {
+   "g": "中",
+   "p": " Cousin ",
+   "cls": "code"
+  },
+  {
+   "g": "873",
+   "p": " your ",
+   "cls": "code"
+  },
+  {
+   "g": "□",
+   "p": " Master ",
+   "cls": "code"
+  },
+  {
+   "g": "40",
+   "p": "s"
+  },
+  {
+   "g": "20",
+   "p": "a"
+  },
+  {
+   "g": "34",
+   "p": "f"
+  },
+  {
+   "g": "58",
+   "p": "f"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "21",
+   "p": "c"
+  },
+  {
+   "g": "45",
+   "p": "c"
+  },
+  {
+   "g": "38",
+   "p": "o"
+  },
+  {
+   "g": "26",
+   "p": "n"
+  },
+  {
+   "g": "40",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " & ",
+   "cls": "plain"
+  },
+  {
+   "g": "588",
+   "p": " of ",
+   "cls": "code"
+  },
+  {
+   "g": "82",
+   "p": "f"
+  },
+  {
+   "g": "70",
+   "p": "e"
+  },
+  {
+   "g": "123",
+   "p": "r"
+  },
+  {
+   "g": "124",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " are soe ",
+   "cls": "plain"
+  },
+  {
+   "g": "149",
+   "p": "r"
+  },
+  {
+   "g": "146",
+   "p": "e"
+  },
+  {
+   "g": "362",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " all & ",
+   "cls": "plain"
+  },
+  {
+   "g": "153",
+   "p": "a"
+  },
+  {
+   "g": "93",
+   "p": "c"
+  },
+  {
+   "g": "69",
+   "p": "c"
+  },
+  {
+   "g": "46",
+   "p": "e"
+  },
+  {
+   "g": "27",
+   "p": "p"
+  },
+  {
+   "g": "29",
+   "p": "t"
+  },
+  {
+   "g": "381",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " able ",
+   "cls": "plain"
+  },
+  {
+   "g": "800",
+   "p": " to ",
+   "cls": "code"
+  },
+  {
+   "g": "+",
+   "p": " us ",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " spe cially in this coniuncture of our Affaires , as w*[with?] ",
+   "cls": "plain"
+  },
+  {
+   "g": "20",
+   "p": "a"
+  },
+  {
+   "g": "21",
+   "p": "c"
+  },
+  {
+   "g": "18",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "10",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " knowledge ",
+   "cls": "plain"
+  },
+  {
+   "g": "591",
+   "p": " our ",
+   "cls": "code"
+  },
+  {
+   "g": "749",
+   "p": " selves ",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " there ",
+   "cls": "plain"
+  },
+  {
+   "g": "223",
+   "p": " by ",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " high ",
+   "cls": "plain"
+  },
+  {
+   "g": "25",
+   "p": "l"
+  },
+  {
+   "g": "79",
+   "p": "y"
+  },
+  {
+   "g": "4",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "62",
+   "p": "o"
+  },
+  {
+   "g": "80",
+   "p": "b"
+  },
+  {
+   "g": "49",
+   "p": "l"
+  },
+  {
+   "g": "48",
+   "p": "i"
+  },
+  {
+   "g": "71",
+   "p": "g"
+  },
+  {
+   "g": "70",
+   "p": "e"
+  },
+  {
+   "g": "81",
+   "p": "d"
+  },
+  {
+   "g": "",
+   "p": " w* ",
+   "cls": "plain"
+  },
+  {
+   "g": "629",
+   "p": " pray ",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " you therefore ",
+   "cls": "plain"
+  },
+  {
+   "g": "800",
+   "p": " to ",
+   "cls": "code"
+  },
+  {
+   "g": "27",
+   "p": "p"
+  },
+  {
+   "g": "28",
+   "p": "r"
+  },
+  {
+   "g": "70",
+   "p": "e"
+  },
+  {
+   "g": "15",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "",
+   "p": " sent ",
+   "cls": "plain"
+  },
+  {
+   "g": "62",
+   "p": "o"
+  },
+  {
+   "g": "89",
+   "p": "u"
+  },
+  {
+   "g": "100",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " prince ",
+   "cls": "plain"
+  },
+  {
+   "g": "97",
+   "p": "l"
+  },
+  {
+   "g": "159",
+   "p": "y"
+  },
+  {
+   "g": "16",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "2",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "77",
+   "p": "t"
+  },
+  {
+   "g": "107",
+   "p": "h"
+  },
+  {
+   "g": "",
+   "p": " an* ",
+   "cls": "plain"
+  },
+  {
+   "g": "84",
+   "p": "k"
+  },
+  {
+   "g": "88",
+   "p": "s"
+  },
+  {
+   "g": "177",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " on this behalf ",
+   "cls": "plain"
+  },
+  {
+   "g": "800",
+   "p": " to ",
+   "cls": "code"
+  },
+  {
+   "g": "205",
+   "p": " assure ",
+   "cls": "code"
+  },
+  {
+   "g": "148",
+   "p": "o"
+  },
+  {
+   "g": "151",
+   "p": "u"
+  },
+  {
+   "g": "123",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " said ",
+   "cls": "plain"
+  },
+  {
+   "g": "中",
+   "p": " Cousin ",
+   "cls": "code"
+  },
+  {
+   "g": "873",
+   "p": " your ",
+   "cls": "code"
+  },
+  {
+   "g": "□",
+   "p": " Master ",
+   "cls": "code"
+  }
+ ],
+ "key_note": "R. Pitt's numerical alphabet (20–115 cycling a 24-letter row) with supplementary homophones, nulls, word codes and four graphic signs; unresolved codes stay open."
+}

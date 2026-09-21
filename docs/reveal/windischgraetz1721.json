@@ -1,0 +1,505 @@
+{
+ "slug": "windischgraetz1721",
+ "anchor": "the-reading",
+ "title": "Windischgrätz, Brussels, 18 November 1721: the first passages",
+ "caption": "The opening cipher passages of the letter of 18 November 1721 (DECODE R5029), cipher groups set inside the clear German text.",
+ "unit": "figures",
+ "tokens": [
+  {
+   "g": "",
+   "p": "dass ",
+   "cls": "plain"
+  },
+  {
+   "g": "85",
+   "p": "der/dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "103",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "7",
+   "p": "m"
+  },
+  {
+   "g": "20",
+   "p": "i"
+  },
+  {
+   "g": "16",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " gar ",
+   "cls": "plain"
+  },
+  {
+   "g": "18",
+   "p": "n"
+  },
+  {
+   "g": "32",
+   "p": "i"
+  },
+  {
+   "g": "35",
+   "p": "c"
+  },
+  {
+   "g": "9",
+   "p": "h"
+  },
+  {
+   "g": "15",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "130",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "209",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " willen ",
+   "cls": "plain"
+  },
+  {
+   "g": "152",
+   "p": "Kayser",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " selbst widerrathen ",
+   "cls": "plain"
+  },
+  {
+   "g": "146",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " eine ",
+   "cls": "plain"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "38",
+   "p": "x"
+  },
+  {
+   "g": "23",
+   "p": "c"
+  },
+  {
+   "g": "3",
+   "p": "v"
+  },
+  {
+   "g": "40",
+   "p": "s"
+  },
+  {
+   "g": "36",
+   "p": "a"
+  },
+  {
+   "g": "27",
+   "p": "t"
+  },
+  {
+   "g": "20",
+   "p": "i"
+  },
+  {
+   "g": "6",
+   "p": "o"
+  },
+  {
+   "g": "30",
+   "p": "n"
+  },
+  {
+   "g": "1",
+   "p": "z"
+  },
+  {
+   "g": "3",
+   "p": "v"
+  },
+  {
+   "g": "7",
+   "p": "m"
+  },
+  {
+   "g": "24",
+   "p": "a"
+  },
+  {
+   "g": "35",
+   "p": "c"
+  },
+  {
+   "g": "45",
+   "p": "h"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "18",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " Wan ",
+   "cls": "plain"
+  },
+  {
+   "g": "145",
+   "p": "ich",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " von dort aus nur einiges souteniert werde, ist der rath sehr gutt, sonsten aber nicht ",
+   "cls": "plain"
+  },
+  {
+   "g": "85",
+   "p": "der/dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "205",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "9",
+   "p": "h"
+  },
+  {
+   "g": "36",
+   "p": "a"
+  },
+  {
+   "g": "19",
+   "p": "l"
+  },
+  {
+   "g": "15",
+   "p": "t"
+  },
+  {
+   "g": "34",
+   "p": "e"
+  },
+  {
+   "g": "27",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " unter der hand vermuthlich auch ",
+   "cls": "plain"
+  },
+  {
+   "g": "172",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "198",
+   "p": "Prinz",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "205",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " sicherlich gegen niemand davon melden wird ... auch selbst ",
+   "cls": "plain"
+  },
+  {
+   "g": "85",
+   "p": "der/dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "54",
+   "p": "Althann",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " nicht Ich glaube es heisset bey ",
+   "cls": "plain"
+  },
+  {
+   "g": "205",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " manus manum lavat In puncto ",
+   "cls": "plain"
+  },
+  {
+   "g": "85",
+   "p": "der/dem",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "78",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ist fast nicht zu glauben, wie nicht allein ",
+   "cls": "plain"
+  },
+  {
+   "g": "86",
+   "p": "die",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "151",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " sondern auch sonsten jederman ",
+   "cls": "plain"
+  },
+  {
+   "g": "86",
+   "p": "die",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "19",
+   "p": "l"
+  },
+  {
+   "g": "20",
+   "p": "i"
+  },
+  {
+   "g": "34",
+   "p": "e"
+  },
+  {
+   "g": "12",
+   "p": "b"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " vor ",
+   "cls": "plain"
+  },
+  {
+   "g": "103",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ia selbsten ",
+   "cls": "plain"
+  },
+  {
+   "g": "152",
+   "p": "Kayser",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " täglich ",
+   "cls": "plain"
+  },
+  {
+   "g": "164",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "3",
+   "p": "v"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "16",
+   "p": "r"
+  },
+  {
+   "g": "31",
+   "p": "l"
+  },
+  {
+   "g": "20",
+   "p": "i"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "9",
+   "p": "h"
+  },
+  {
+   "g": "28",
+   "p": "r"
+  },
+  {
+   "g": "34",
+   "p": "e"
+  },
+  {
+   "g": "27",
+   "p": "t"
+  },
+  {
+   "g": "",
+   "p": " in ansehen, dass nach dem der curier endlich nach so langer zeit ",
+   "cls": "plain"
+  },
+  {
+   "g": "172",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "47",
+   "p": "d"
+  },
+  {
+   "g": "22",
+   "p": "e"
+  },
+  {
+   "g": "4",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "198",
+   "p": "Prinz",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "197",
+   "p": "Plan",
+   "cls": "code"
+  }
+ ],
+ "key_note": "Key from Mírka's table on the record: two figures per letter (A = 24 or 36 … Z = 1 or 37); numbers above 48 are nomenclator words, several still open."
+}
