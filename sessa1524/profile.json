@@ -59,9 +59,17 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.9,
   "grades": "unknown",
-  "verification": ["historical consistency"],
-  "notes": "Residue: vo, per, ruc, hay, and the clause 'los m-re que r-ido'."
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Residue: vo, per, ruc, hay, and the clause 'los m-re que r-ido'. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "gaps": [
+   {"item": "group `vo` (noun after *las dichas*, f. 128r)", "blocker": "open-codes", "detail": "matches nowhere in the downloaded pages (pass 14 template search)"},
+   {"item": "group `per`", "blocker": "open-codes", "detail": "matches nowhere in the downloaded pages (pass 14)"},
+   {"item": "groups `ruc`/`rus` and `hay`", "blocker": "open-codes", "detail": "occur only in R9873 (14 Apr 1524), which has no decipherment"},
+   {"item": "clause *los m-re que r-ido los que no m-r-e-van*", "blocker": "open-codes", "detail": "one sign value (probably `v`) still wrong after 14 passes"}
+  ]
  }
 }

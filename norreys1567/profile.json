@@ -184,10 +184,27 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.33,
   "verification": [
    "historical consistency"
   ],
-  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I)."
+  "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I). fraction_read 0.33 is for the target 9 Mar 1568 extract only: 1 of 3 items read at grade H.",
+  "gaps": [
+   {
+    "item": "9 Mar 1568 item 2 (four signs, \"a t ? l\")",
+    "blocker": "too-short",
+    "detail": "one four-sign word with one unmatched sign; no CSP 2054 word fits; Cabala 1663 checked"
+   },
+   {
+    "item": "9 Mar 1568 item 3 (name sign, Queen of Scots? graded I)",
+    "blocker": "too-short",
+    "detail": "single nomenclator sign read by position only; the name table is not printed in Cabala"
+   },
+   {
+    "item": "sibling groups: 4 June 1567 (1, 3, 4, 7), 10 July (2 tail), 6 Feb (12, 20, 23), 9 Feb (1, 10, 11), 24 Feb (1, 7)",
+    "blocker": "open-codes",
+    "detail": "garbled with Tomokiyo's table; 4 June line transcription needs redoing"
+   }
+  ]
  }
 }

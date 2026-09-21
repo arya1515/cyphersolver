@@ -354,6 +354,28 @@
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Two letters already abstracted by Bergenroth (CSP Spain ii 548, 617). Key rebuilt from R9846's bound clear; six uncribbed letters read in part (about a quarter to two thirds each). Limited by ~30 unknown codes and look-alike signs at DECODE resolution."
+    "notes": "Two letters already abstracted by Bergenroth (CSP Spain ii 548, 617). Key rebuilt from R9846's bound clear; six uncribbed letters read in part (about a quarter to two thirds each). Limited by ~30 unknown codes and look-alike signs at DECODE resolution.",
+    "gaps": [
+      {
+        "item": "R9667 (9/28 ff. 6-9), cipher runs",
+        "blocker": "open-codes",
+        "detail": "no crib (the 'Claro' is Najera's); only fragments read; CSP Spain ii 548 gives the content from a lost decipherment"
+      },
+      {
+        "item": "R9846 ff. 130v-132v beyond the crib third",
+        "blocker": "needs-physical-access",
+        "detail": "f. 133v, the rest of the clerk's clear, is not imaged on DECODE; RAH Biblioteca Digital, Salazar A-30"
+      },
+      {
+        "item": "About 30 code groups (xun, xor, zad, sal, sub, rub vs yub ...) across R9683, R9695, R9866, R9867, R9868, R9869",
+        "blocker": "open-codes",
+        "detail": "each without a crib; readings a quarter to two thirds per letter"
+      },
+      {
+        "item": "Look-alike signs (d vs barred d, two- vs three-bar crosses, barred m = f or c)",
+        "blocker": "illegible",
+        "detail": "not separable at DECODE resolution"
+      }
+    ]
   }
 }

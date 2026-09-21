@@ -167,3 +167,18 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
   deskew -1.0 deg, ten line peaks at 68/176/284/392/504/608/728/840/952/1064 of the region). Line 2 tile 3
   shows a clean run `++ p (perp) u r u y S f (perp) -e T y p` consistent with the atlas (y=s, T=n, ++=u);
   full alignment of the nine lines against atlas60.md is the remaining work of the next pass.
+
+## Remaining gaps
+- fr. 3986 f. 146v, Revol 7 Oct 1593 (nine cipher lines, key no. 60) - blocker: illegible; transcribed at 2.4-3.2x but copyist's cursive forms map to two or three table entries; atlas pass started, not finished
+- fr. 3986 f. 157v, Revol 9 Oct 1593 - blocker: illegible; faded; clear cursive and cipher run together, cipher extent not yet segmented
+- fr. 3985 f. 88 (21 Aug), f. 115 (27 Aug, one line), f. 176 (2 Sept, no. 88/94), fr. 3986 f. 198 (23 Oct, no. 101) - blocker: not-attempted; located and cut but never transcribed; key no. 60 is fully in hand
+- fr. 3986 no. 68 (Vese 7 Oct) - blocker: not-attempted; not located on the image (downloader throttled); Tomokiyo list gives candidates
+- fr. 3986 f. 168, Pisany 14 Oct, garbled stretches of lines 2-8 - blocker: illegible; microfilm copy, 1/7, 0/8, 3/5 confusable; segscore.py did not resolve them
+
+## Escalation
+- [x] siblings: Gondi to Pisany (fr. 3986 ff. 64-65v, interlined) and the King's interlined letters fr. 3986 f. 151/152 used as cribs
+- [x] clear-pages: interlined Instruction of 31 Aug (fr. 3985 c. 264-268) and f. 151 found; f. 115 found to be clear
+- [x] known-keys: Tomokiyo nos. 46 and 60 (fr. 3995 ff. 87, 108-111) transcribed and applied
+- [x] print: Memoires de Nevers ii (Gallica bpt6k64451005) Instruction pp. 492-499; Tomokiyo henryiv2.htm
+- [ ] key-rebuild: not done — build the copyist glyph atlas from the interlined Instruction (c. 264-268) aligned to the print, then map the cursive variants of key no. 60
+- [ ] retry: not done — re-transcribe f. 146v, f. 157v and ff. 88, 176, 198 with the atlas and decode60.py; rerun f. 168 garbled lines with Gondi habits

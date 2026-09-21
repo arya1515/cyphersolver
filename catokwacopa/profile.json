@@ -124,12 +124,34 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.83,
   "grades": "unknown",
   "verification": [
    "matched control",
    "historical consistency"
   ],
-  "notes": "Oxford reading right in outline; lines 9/26, 12, 23 and 29 undetermined."
+  "notes": "Oxford reading right in outline; lines 9/26, 12, 23 and 29 undetermined. fraction_read estimated as 24 of 29 lines (lines 9, 12, 23, 26, 29 undetermined), not letter-measured.",
+  "gaps": [
+   {
+    "item": "lines 9 and 26 (mistrl / otenpu, oatvpu)",
+    "blocker": "too-short",
+    "detail": "open-vocabulary search: many unrelated exact fits within a nat or two"
+   },
+   {
+    "item": "line 12",
+    "blocker": "too-short",
+    "detail": "not decided by the letters: many exact fits"
+   },
+   {
+    "item": "line 23 (48 letters)",
+    "blocker": "not-attempted",
+    "detail": "notes: needs a phrase-level language model, not unigrams; not run"
+   },
+   {
+    "item": "line 29 (ereflodbr / rileohmae)",
+    "blocker": "too-short",
+    "detail": "exhaustive English and Latin searches give only junk; undetermined in both"
+   }
+  ]
  }
 }

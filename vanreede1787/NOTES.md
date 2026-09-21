@@ -68,3 +68,16 @@ by two others, before (Prussia) explains itself on the proposals.
   decipherment; not attempted here.
 
 Write-up: [docs/vanreede1787.html](../docs/vanreede1787.html).
+
+## Remaining gaps
+- R1893 (24 Mar 1793, 696 tokens) - blocker: no-key-material; different three-digit overmarked code, 513 distinct forms; keys R2846, R2848, R2850, R2851, R2243 tried; no crib
+- R1026/R1027 groups 2637, 2800, 3660, 1250, 331, 3160, 3153, 2751, 50 and damaged groups - blocker: open-codes; not in the 1782 R1024 key; 2637/2800/3660 recur, probably names
+- R1026/R1027 garbled passages from DECODE digit misreads - blocker: not-attempted; NOTES say a fresh transcription from the images would clear them; not done
+
+## Escalation
+- [x] siblings: R1028 and R1029 opened as controls (R1028 decodes word for word); R1057 noted
+- [ ] clear-pages: not done — check the R1026/R1027/R1893 images for interlinear glosses beyond the 275J one and for a clear copy
+- [x] known-keys: R1024 Grand Chiffre fits R1026/R1027; R2846, R2848, R2850, R2851, R2243 tried on R1893
+- [ ] print: not done — Colenbrander Gedenkstukken and Vreede, Van de Spiegel en zijne tijdgenooten, for these despatches
+- [ ] key-rebuild: not done — bracket 2637/2800/3660 alphabetically inside the R1024 code order and by LM context
+- [ ] retry: not done — re-transcribe the digits from the images and rerun resolve_j.py

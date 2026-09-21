@@ -83,9 +83,14 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "gaps": [
+   {"item": "R4844 sign words (~14 words, ~120 signs)", "blocker": "too-short", "detail": "homophonic sign alphabet, no crib, no key, interlinear decipherment blotted out"},
+   {"item": "name codes 13, 14, 23, 30, 32, 37", "blocker": "open-codes", "detail": "not glossed in CSP or Wotton drafts; context too thin"},
+   {"item": "clear-text gaps [..] in reading_R4840/R4844", "blocker": "not-attempted", "detail": "working transcriptions left gaps; no second pass recorded"}
+  ],
+  "fraction_read": 0.6,
   "grades": "unknown",
   "verification": ["historical consistency"],
-  "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread."
+  "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread. fraction_read is a rough estimate from NOTES, not a count: name numbers mostly identified (6 of 16 open), the ~14 sign words of R4844 unread."
  }
 }

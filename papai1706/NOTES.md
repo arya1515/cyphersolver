@@ -93,3 +93,15 @@ transcriber noted as "symbols which do not occur in the key itself": probably a 
 
 `fetch.py` (DECODE pages, transcriptions, images via the project cookie), `decode.py` (the table decoder),
 `DOC_*.txt` (DECODE transcriptions and keys), `*_read.txt` (decoded output), `R740_transcription.txt`.
+
+## Remaining gaps
+- R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs - blocker: not-attempted; not transcribed; 2448-px images judged too poor for a secure sign transcription; the graphic-sign line on R581 not tried
+- ~178 numeric groups across R823, R765, R784, R757, R741 - blocker: open-codes; digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images
+
+## Escalation
+- [x] siblings: eight Papai records plus key copies R580, R581, R452 opened
+- [ ] clear-pages: not done — check the Rakoczi chancery papers (MNL OL G15) for contemporary decipherments of R731
+- [x] known-keys: R580/R581/R452 applied to all seven numeric letters
+- [ ] print: not done — Benda (ed.), Papai Janos torokorszagi naploi (1963) not checked
+- [ ] key-rebuild: not done — use the sign line on R581's corner as a partial graphic alphabet and solve R731 monoalphabetically
+- [ ] retry: not done — re-read the ~178 off-key groups on the images

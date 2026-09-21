@@ -159,3 +159,19 @@ hiemare*, -61; *uereri fallor debeo hiemare*), as the English ones are (*retire 
 vocabulary produces a two-word reading without omissions. Ernst's RELIGIONEM CONFIRMARE stays at 11 edits and is a
 conjecture; **line 29 is undetermined in both languages.** The English corpus for `search.py` was rebuilt from 24
 Gutenberg novels (`../beale/lmcorpus/`), so `vocab.tsv` differs slightly from the first session's.
+
+## Remaining gaps
+
+- lines 9 and 26 (mistrl / otenpu, oatvpu) - blocker: too-short; open-vocabulary search: many unrelated exact fits within a nat or two
+- line 12 - blocker: too-short; not decided by the letters: many exact fits
+- line 23 (48 letters) - blocker: not-attempted; notes: needs a phrase-level language model, not unigrams; not run
+- line 29 (ereflodbr / rileohmae) - blocker: too-short; exhaustive English and Latin searches give only junk; undetermined in both
+
+## Escalation
+
+- [n/a] siblings: two newspaper advertisements, both used; no sibling records exist
+- [x] clear-pages: the clear closing sentence of the 20 May ad used to pair the ads
+- [n/a] known-keys: no key: the mechanism is interleaving with omissions, not substitution
+- [x] print: Schmeh blog thread, Bosbach, Estes, Ernst BNA text, Krajcovic audits reviewed
+- [x] key-rebuild: open-vocabulary exact-fit search (English 30k, Latin 19k) and name-frame tests
+- [ ] retry: not done - phrase-level LM search for line 23; identity check (Jex-Blake vs Ernst candidate) to constrain 9/26

@@ -66,3 +66,20 @@ multi-session job. It is left open and should be split off as its own catalogue 
 - `guiche_ct.txt`: La Guiche transcription. `reading_raw.txt`: decryption per line with the key above.
 - `solve.py` (failed free annealer), `solve1.py` (permutation annealer), `refine.py`.
 - Images: `gallica_sweep/btv1b90601662/`, `gallica_sweep/btv1b9059865k/`, `gallica_sweep/hi/` (git-ignored).
+
+## Remaining gaps
+
+- La Guiche f. 60v: the name 'sieur +arna+e', signs c and 5 - blocker: open-codes; sign t there may be a plain + distinct from barred r; c and 5 occur only once or twice
+- La Guiche f. 60v: the two struck-through first lines - blocker: illegible; struck through by the writer; read only in part
+- Noailles fr. 3151 no. 33 (f. 60r), start of each marginal gloss line - blocker: needs-physical-access; swallowed by the binding; needs the page opened flat
+- Noailles fr. 3151 no. 33, the cipher itself (about 150 signs) - blocker: not-attempted; not attacked; the visible gloss words could serve as cribs
+- Seure fr. 3151 nos. 39-44 (about 2,000 signs, homophonic with numerals) - blocker: not-attempted; left as a multi-session job; not transcribed
+
+## Escalation
+
+- [x] siblings: leaf, next leaf and margin of La Guiche checked; fr. 3151 searched and the six Seure letters (nos. 39-44, duplicates 40/41, 43/44) found
+- [x] clear-pages: Noailles's marginal decipherment identified; La Guiche has none
+- [ ] known-keys: not done — no French diplomatic key of the 1550s (Tomokiyo's Henri II pages, Lasry's GL.htm) was tried on La Guiche's leftover signs, Noailles or Seure
+- [ ] print: not done — only a web search; Ribier, Lettres et memoires d'estat (1666), and the Noailles ambassade edition (Vertot 1763) not grepped for these letters
+- [x] key-rebuild: permutation anneal (solve1.py) plus refine.py with fixed signs; qu, p, y, v fixed by context
+- [ ] retry: not done — rerun reading_raw.txt after settling the + / barred-r question; solve Noailles's cipher with the visible gloss words as cribs; transcribe and anneal the Seure corpus

@@ -610,3 +610,19 @@ not.
 - Then apply the rebuilt key to the six non-decrypted records.
 - Test whether the key is Juan Manuel's: Tomokiyo's Juan Manuel table has `ton` unassigned, so the
   values above do not yet contradict it, and the question stays open.
+
+## Remaining gaps
+
+- R9645 (57% tokens) and R9656 (42% tokens), the content words - blocker: illegible; alphabet signs cannot be told apart at DECODE's 1700 px per folio (the 'perdido' 8x zoom); no larger variant on DECODE; RAH Biblioteca Digital blocked to automated requests
+- R9634, R9646, R9649 - blocker: not-attempted; listed as uncribbed but no coverage was measured and no reading file exists
+- Spelled runs in the ciphered leaves of R9644, R9648, R9650 (word-perfect edition) - blocker: illegible; same per-glyph limit; ten alphabet signs downgraded to probable
+- Nomenclator codes not yet met in the uncribbed letters - blocker: open-codes; no clear version for them; roughly half the tokens resolve
+
+## Escalation
+
+- [x] siblings: all nine records opened; R9648 is R9644's duplicate; R9652 is wholly clear
+- [x] clear-pages: R9644's clear (ff. 241-242, lettered sections) and R9650 f. 272 aligned
+- [ ] known-keys: not done — Juan Manuel's table (Tomokiyo 2025) left untested, and the 1524 alphabet of lopehurtado1523 (key_1524.tsv, 105 values from R9846's clear) never applied back to the 1522 spelled runs
+- [ ] print: not done — Tomokiyo 2025 and a web search only; Bergenroth's CSP Spain ii (1522 section) not grepped for 'Salazar. A. 26' folios 14-16, 237-272, 295, 334
+- [x] key-rebuild: crib alignment gave 49 confirmed code values and probable alphabet signs (key_codes.tsv), audited for conflicts
+- [ ] retry: not done — rerun decode.py on R9634, R9645, R9646, R9649, R9656 with the 1524 alphabet and any CSP crib

@@ -121,3 +121,16 @@ pp. 152-153 (n183-n184). Printed cipher, same system as Norreys's. For item (2) 
 - Item (2) is then "a t ? l", with the loop ℒ unmatched. No word from CSP 2054 fits, so (2) is **not read**.
   The earlier "Catholic" (M) is withdrawn and downgraded to I.
 - Items (1) (French King, H) and (3) (unread name sign) stand. What would settle it: TNA SP 70/97 original.
+
+## Remaining gaps
+- 9 Mar 1568 item 2 (four signs, "a t ? l") - blocker: too-short; one four-sign word with one unmatched sign; no CSP 2054 word fits; Cabala 1663 checked
+- 9 Mar 1568 item 3 (name sign, Queen of Scots? graded I) - blocker: too-short; single nomenclator sign read by position only; the name table is not printed in Cabala
+- sibling groups: 4 June 1567 (1, 3, 4, 7), 10 July (2 tail), 6 Feb (12, 20, 23), 9 Feb (1, 10, 11), 24 Feb (1, 7) - blocker: open-codes; garbled with Tomokiyo's table; 4 June line transcription needs redoing
+
+## Escalation
+- [x] siblings: all Norreys extracts on f. 160-161 (R9250 p. 2, R9251) transcribed and read
+- [n/a] clear-pages: Forbes copied only the ciphered words; there are no clear pages in this file
+- [x] known-keys: R9257, R9260, R9261, R9262 compared (no match); Tomokiyo Cecil-Norris table applied (fits)
+- [x] print: CSP Foreign viii, Cabala 1663 pp. 142-173, Tomokiyo elizabeth.htm
+- [ ] key-rebuild: not done — fill g/k/q/w and the loop sign from all Cabala pp. 142-173 cipher passages, not only p. 152
+- [ ] retry: not done — re-transcribe the 4 June line and rerun the unread sibling groups; TNA SP 70/96-97 originals (State Papers Online) not seen

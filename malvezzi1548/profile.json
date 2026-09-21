@@ -116,12 +116,29 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.9,
   "grades": "unknown",
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "The substance is recovered: the French are working to break the Habsburg-Ottoman peace because they dare not attack Charles V directly; the Sultan and Ruestem Pasha are not to doubt Habsburg sincerity; and Malvezzi is granted 1,500 ducats a year, to be brought by a secretary. Short stretches on pp. 1 and 7 are unread."
+  "notes": "The substance is recovered: the French are working to break the Habsburg-Ottoman peace because they dare not attack Charles V directly; the Sultan and Ruestem Pasha are not to doubt Habsburg sincerity; and Malvezzi is granted 1,500 ducats a year, to be brought by a secretary. Short stretches on pp. 1 and 7 are unread. fraction_read 0.9 is an estimate: about 22 of 150 reading lines in read_A.md/read_B.md still carry [?] or [...] marks, concentrated on pp. 1, 6 foot and 7.",
+  "gaps": [
+   {
+    "item": "p. 1 ciphered passage, lines 1-4 (Rustanus conversation)",
+    "blocker": "not-attempted",
+    "detail": "read_A.md p1 l3-l4 still carry [?] and [...] groups; glyphs transcribed, no second pass with the R367 key recorded"
+   },
+   {
+    "item": "p. 6 foot, last lines (what to say if Ruestem Pasha asks about the border)",
+    "blocker": "not-attempted",
+    "detail": "NOTES: \"partly unread\"; no further attempt recorded"
+   },
+   {
+    "item": "p. 7 ciphered passage on the captives, partly unread",
+    "blocker": "not-attempted",
+    "detail": "NOTES: \"partly read\"; read_A.md p7 lines still carry [?] groups"
+   }
+  ]
  }
 }

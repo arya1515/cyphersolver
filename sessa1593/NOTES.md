@@ -248,3 +248,18 @@ rom, mon, xen, vul, cil*) carry much of no. 68's sense, Tomokiyo tabulates none 
 candidate was checked and excluded: **fr. 3995 f. 101 (canvas 194) is an Italian nomenclature**, not a
 Spanish one (*Austria, Ambasciatore, Assemblea, Battaglia, Bisogno, Borbone, Cardinale di, Castello,
 Cattolici, Concilio generale, Corte di*). It belongs to another correspondence.
+
+## Remaining gaps
+- no. 68, f. 145 (Ibarra, 10 July 1593): the Feria-Mansfeld nomenclature (pra, dur, hes, gar, pun, rom, mon, xen, vul, cil) - blocker: no-key-material; Tomokiyo tabulates none, and fr. 3995 f. 101 was checked and is an Italian nomenclature of another correspondence
+- no. 47, f. 108: the unglossed and faint later lines - blocker: not-attempted; the office key applies, only lines 2-13 were read
+- no. 45, f. 98: 2 of 17 lines and scattered unresolved groups - blocker: not-attempted; key complete (fr. 3995 f. 97), unresolved groups not rerun
+- no. 79, f. 162: 2 of 16 lines and scattered unresolved groups - blocker: not-attempted; as for no. 45
+- symbol-alphabet variants still unresolved in nos. 45/47/79 - blocker: open-codes; forms not yet matched to the office key's alphabet
+
+## Escalation
+- [x] siblings: fr. 3995 ff. 94, 96, 98, 101 opened next to the key; no. 47 used as the crib for the others
+- [x] clear-pages: no. 47's interlinear decipherment used as control; no. 68's clear opening read
+- [x] known-keys: Tomokiyo 1592-93, Feria-Mansfeld, Ibarra-Doria, Ibarra-Zuniga keys; DECODE R4076/R4077 = fr. 3995 ff. 94-97
+- [x] print: Tomokiyo spanish3.htm; BnF notices for fr. 3983/3984
+- [ ] key-rebuild: not done — rebuild the Feria-Mansfeld nomenclature from no. 68 and fr. 3984 f. 130 (Tomokiyo's other citation), and look for the Mansfeld key elsewhere in fr. 3995
+- [ ] retry: not done — rerun every unresolved group in reading45/79/47 against the 133-entry key92.tsv and read the remaining lines of no. 47

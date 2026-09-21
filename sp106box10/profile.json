@@ -572,6 +572,15 @@
       "key confirms",
       "historical consistency"
     ],
-    "notes": "The case is explained and dated and system A's key is fully transcribed; system B is read in fragments from a partly rebuilt code. Systems B and C are not yet carried to a continuous reading, and no sender or recipient is yet named. R703 (catalogue 66, 2026-09-21) is a worksheet on a fourth, lost Venetian-cipher letter worked on seven records; that letter is explained, not read. Catalogue 62 (2026-09-21): the codebreaker's grid R658 rebuilds the three-figure code of R664/R660 as a systematic syllabary (117 values) and corrects four values; the lost 46-line letter's code (R701 p.3) is a different table."
+    "notes": "The case is explained and dated and system A's key is fully transcribed; system B is read in fragments from a partly rebuilt code. Systems B and C are not yet carried to a continuous reading, and no sender or recipient is yet named. R703 (catalogue 66, 2026-09-21) is a worksheet on a fourth, lost Venetian-cipher letter worked on seven records; that letter is explained, not read. Catalogue 62 (2026-09-21): the codebreaker's grid R658 rebuilds the three-figure code of R664/R660 as a systematic syllabary (117 values) and corrects four values; the lost 46-line letter's code (R701 p.3) is a different table. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+    "fraction_read": 0.1,
+    "gaps": [
+      {"item": "R664 ff. 1-3 and R660 (system B, the Venetian code) continuous reading", "blocker": "not-attempted", "detail": "code rebuilt to 117 values from R658, the letters never decoded through with it"},
+      {"item": "R704, R721, R722 (system C letter-plus-figure syllabary)", "blocker": "not-attempted", "detail": "the codebreaker's interlinear solutions exist, no alignment pass done"},
+      {"item": "R657 worksheets (system A) against key R725", "blocker": "not-attempted", "detail": "listed under \"Not yet done\""},
+      {"item": "lost 46-line intercept of the second three-figure code (fragments on R667, R684, R701 p.3, R702 p.1, R703)", "blocker": "needs-physical-access", "detail": "the intercept is not among the imaged records, perhaps elsewhere in SP 106/10 or SP 99 at Kew"},
+      {"item": "R701 p.2 short letter cipher", "blocker": "too-short", "detail": "about 120 letters, simple-substitution annealing in five languages gave nothing"},
+      {"item": "sender, recipient and codebreaker", "blocker": "not-attempted", "detail": "depends on the continuous readings"}
+    ]
   }
 }

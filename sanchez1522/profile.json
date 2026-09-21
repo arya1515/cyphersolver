@@ -310,6 +310,28 @@
       "contemporary decipherment",
       "historical consistency"
     ],
-    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. Added here: the catalogue entry's shelfmark, date range and authorship corrected; the ordering rule of the nomenclator, and from it a c-block numeral series of which cab = xv, cef = xxvi and cif = xxvii are confirmed in text and were not in the published key; and first readings of parts of R9635 and R9653, both outside Tomokiyo's coverage. fraction_read is the share of code groups resolved on the two leaves worked; the spelled-out letter runs and the other 27 records are open. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target. The R9605 calibration fixes the sign values against ground truth but does not by itself unlock the unread pages: the binding constraint is the transcription of the cursive shapes, which differ between scribes, and that has to be done glyph by glyph on the image. An edition pass against the published key then began (edition/), reading about a third of R9635 f. 20r continuously and adding lel = 'puede' to the key."
+    "notes": "The cipher itself was already solved and published by Tomokiyo in September 2025, so this is not a break. Added here: the catalogue entry's shelfmark, date range and authorship corrected; the ordering rule of the nomenclator, and from it a c-block numeral series of which cab = xv, cef = xxvi and cif = xxvii are confirmed in text and were not in the published key; and first readings of parts of R9635 and R9653, both outside Tomokiyo's coverage. fraction_read is the share of code groups resolved on the two leaves worked; the spelled-out letter runs and the other 27 records are open. Also established that the nine Lope Hurtado de Mendoza records in the group are in a different cipher, which deserves its own target. The R9605 calibration fixes the sign values against ground truth but does not by itself unlock the unread pages: the binding constraint is the transcription of the cursive shapes, which differ between scribes, and that has to be done glyph by glyph on the image. An edition pass against the published key then began (edition/), reading about a third of R9635 f. 20r continuously and adding lel = 'puede' to the key.",
+    "gaps": [
+      {
+        "item": "R9635 f. 20r (about two thirds) and ff. 20v-22",
+        "blocker": "not-attempted",
+        "detail": "edition work against the published key; only ll. 1-3, 6, 7, 14, 22 done"
+      },
+      {
+        "item": "R9653 f. 299r head cipher paragraph",
+        "blocker": "illegible",
+        "detail": "ink bleed from the facing leaf at DECODE's resolution"
+      },
+      {
+        "item": "the other Sánchez records of 9/23-9/26 (about 27)",
+        "blocker": "not-attempted",
+        "detail": "most have a bound contemporary decipherment; transcription/edition not done"
+      },
+      {
+        "item": "Lope Hurtado records R9634, R9644-R9646, R9648-R9650, R9652, R9656",
+        "blocker": "no-key-material",
+        "detail": "a third cipher, finals p/z absent from Sánchez's key; groups not in Tomokiyo's Juan Manuel table (see the lopehurtado1522 target)"
+      }
+    ]
   }
 }

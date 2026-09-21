@@ -253,3 +253,16 @@ Superseded by the key correction: `handmap.json`, `hand_decode2.txt`, `draft3.tx
 the cluster sheets `z70_sheet_*.png`. The page images (`../f2984/c*.jpg`, views 16, 17, 54) are
 not tracked; re-fetch with
 `https://gallica.bnf.fr/iiif/ark:/12148/btv1b90598430/f<n>/full/full/0/native.jpg`.
+
+## Remaining gaps
+- 13 May 1526 letter, pp. 29-31 (96 lines): residual letter errors and ~20 machine-only lines - blocker: illegible; B/W Gallica microfilm; LOO classifier accuracy saturates at 0.868 as hand labels are added, the e/r, t/l/d, s/u/a confusions are resolution-bound; better photographs of pp. 29-31 needed
+- 20 Nov 1526 letter, lower 21-28 lines of p. 105 - blocker: illegible; same microfilm limit; only line 4 verified glyph by glyph
+- one-glyph word sign, bold stem with two crossbars, p. 30 line 1 - blocker: open-codes; matches nothing in Tomokiyo's table; single occurrence
+
+## Escalation
+- [x] siblings: clear duplicate of the 9 June letter (p. 17 ff.) and glossed leaves pp. 25, 41, 121-123 checked; no clear copy of 13 May or 20 Nov found
+- [x] clear-pages: clear close of the 13 May letter on p. 31 transcribed (trans/p31_clear_close.txt); glosses on p. 29 ll. 1-13 and p. 105 top used
+- [x] known-keys: Tomokiyo 1526 key re-measured (CALIBRATION.md); 1529 key noted as a different system
+- [ ] print: not done — partly: Mignet 1886, Bourrilly 1901, Tomokiyo, DECODE checked; Grethen 1887 pp. 108-115 and Pastor IX appendix XXXVIII not seen
+- [x] key-rebuild: shape-constrained hill climb (solve140.py), per-token classifier htr2.py, 6-gram LM beam decode2.py
+- [ ] retry: not done — the numbered-token hand pass (bandsi.py) has 6 verified lines; about 100 lines remain to be read that way

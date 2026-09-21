@@ -266,12 +266,39 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.2,
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked."
+  "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count. fraction_read 0.2 is a rough estimate: 2 of 14 records (Bremen) read in full, the others open; not a token count.",
+  "gaps": [
+   {
+    "item": "R4282 (Latin letter cipher, ~1,000 letters)",
+    "blocker": "not-attempted",
+    "detail": "blind substitution/homophonic annealing failed; the clear-word cribs and the R4284 key-test leaf were not used, and 68 of the 70 fetched key records were not tried"
+   },
+   {
+    "item": "R4284 (Latin, 108 number values)",
+    "blocker": "not-attempted",
+    "detail": "homophonic Latin anneal gave nonsense; only keys R4310 and R4296 tried; key-test leaf unused"
+   },
+   {
+    "item": "R4306 (1632, to Amsterdam, numbers 5-203)",
+    "blocker": "not-attempted",
+    "detail": "anneal in 11 languages failed; digit-variant question open; only 2 keys tried"
+   },
+   {
+    "item": "R4333-R4337 (Rusdorff to Oxenstierna, 1628)",
+    "blocker": "not-attempted",
+    "detail": "surveyed only"
+   },
+   {
+    "item": "R4338-R4341 (E 708, June 1633)",
+    "blocker": "not-attempted",
+    "detail": "surveyed only; interlinear decipherments of the time unused; Tungel 1633 key not identified among the 70 fetched"
+   }
+  ]
  }
 }

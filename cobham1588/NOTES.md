@@ -191,3 +191,19 @@ Open after loop 1: the name after "captain", the word after "haven of", f. 88 li
 
 ## Clear-duplicate check, 21 Sept 2026
 CSP Foreign vol. 21 pt 4 calendars Cobham letters of 1, 4, 9, 13, 24, 29 May and 3, 6, 10 June 1588 (SP 77), none dated 5 May, 27 May or 9 June: no clear duplicate of these Harley letters exists in print. 3 June: "Sent the cipher by Spritwold." Lead closed.
+
+## Remaining gaps
+
+- f. 80r-81r (R8490) long run f.80g, codes 22, 27 and the square sign - blocker: open-codes; 22, 27 and the square are unglossed in the siblings R8481/R8488/R8489/R8493; run 80g gives no word even with two edits
+- f. 88r (R8492): name after 'captain', word after 'haven of', lines 3-6 and the seven cipher words of ll. 12-20 (recurring 'Tnn') - blocker: open-codes; signs K, upsilon, rho, W not glossed on any sibling; polyphonic signs (wedge s/t/a, gamma r/y, c o/a, phi l/t/p) leave several readings
+- f. 92r (R8495) runs 92a-d - blocker: open-codes; solver finds no word with two edits; same unglossed and polyphonic signs
+- ff. 96r-97r (R8496), all but a few words (e.g. f. 96v line 4) - blocker: open-codes; only 'passed', 'within France', 'servants', 'priests' read; the rest turns on the same signs; f. 97r runs not in runs.txt
+
+## Escalation
+
+- [x] siblings: glossed R8481, R8488, R8489, R8493 aligned sign by sign (signs.tsv); cypher-7e's harley287 key for R8477-R8487 merged; R8497 checked (Bodley 1590, different alphabet)
+- [x] clear-pages: CSP Foreign 21 pt 4 searched for clear duplicates of the 5 May, 27 May and 9 June letters: none (commit 95d37d2f)
+- [x] known-keys: harley287 key and Bodley's R8497 key tried
+- [x] print: CSP Foreign vol. 21 pt 4 (Jan-June 1588): Harley 287 letters not calendared, no printed decipherment
+- [x] key-rebuild: candidate-set solver (solve.py, CSP 1588 word list) with solver loop 1: L = e, c = a, phi = p added
+- [ ] retry: not done — re-read f. 80g, f. 92a-d and the f. 96r-97r runs at 2x full resolution, add f. 97r to runs.txt and rerun solve.py with the loop-1 values (only f. 88 had the full loop)

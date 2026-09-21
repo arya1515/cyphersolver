@@ -321,3 +321,17 @@ embio a mandar que hiziese con don Juan si aqui estouiera; y el duque vino a su 
 cartas de V. M., y bolui con el, que le tope en el camino. Parecele que yo deuia residir aqui
 continuamente para seruir mejor a V. M. …" — the same letters of 26 October that R9653's foot cipher
 paragraph reports arriving at Venice.
+
+## Remaining gaps
+- R9635 f. 20r (about two thirds) and ff. 20v-22 - blocker: not-attempted; edition work against the published key; only ll. 1-3, 6, 7, 14, 22 done
+- R9653 f. 299r head cipher paragraph - blocker: illegible; ink bleed from the facing leaf at DECODE's resolution
+- the other Sánchez records of 9/23-9/26 (about 27) - blocker: not-attempted; most have a bound contemporary decipherment; transcription/edition not done
+- Lope Hurtado records R9634, R9644-R9646, R9648-R9650, R9652, R9656 - blocker: no-key-material; a third cipher, finals p/z absent from Sánchez's key; groups not in Tomokiyo's Juan Manuel table (see the lopehurtado1522 target)
+
+## Escalation
+- [x] siblings: R9603-R9657 metadata tabulated; R9605 facing decipherment aligned; R9648 examined
+- [x] clear-pages: R9605 clerk's decipherment aligned as ground truth; R9635 interlinear glosses used
+- [x] known-keys: Tomokiyo 2025 Sánchez key; Juan Manuel key compared for the Lope Hurtado leaves
+- [ ] print: not done — grep Bergenroth CSP Spain vol. 2 by Salazar folio (9/24-9/26) for calendared 1522 Sánchez letters
+- [x] key-rebuild: c-block numerals by alphabetical bracket (cab, cef, cif confirmed), lel = puede, va = despacho; sign table from R9605
+- [ ] retry: not done — carry the R9605 sign table to the rest of R9635 and R9653 and regrade

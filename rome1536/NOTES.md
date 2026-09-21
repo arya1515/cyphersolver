@@ -161,3 +161,18 @@ glossed lines, and not in the published tables:
 holds, per cipher line, the glyph aliases, the machine decoding and a word-divided reading, then a running reading
 and per-letter confidence. Crops are made from the DECODE page-crops with PIL at 1:1 or 1.5x; `work_<rec>/` folders
 and `img/` are git-ignored (BnF rights).
+
+## Remaining gaps
+- R4234 P8-P20 (~180 cipher lines) - blocker: not-attempted; untouched; needs page-at-a-time passes with the known key
+- R4235 P2-P3 (~45 lines) - blocker: not-attempted; transcribable, not deciphered
+- R4247 letter 2 (~26 lines) - blocker: not-attempted; not deciphered
+- R4239 P3, P4, P6, P7, P11, P12, P14, P15 (~100 lines) - blocker: not-attempted; transcribed or transcribable, not deciphered
+- residue of the read passages (R4233 ~40%, R4234 P2-P6 ~30%, R4238 ~35%, R4240 ~15%, R4247 letter 1 ~20%) - blocker: illegible; barred-cross family (ǂ, £, long ƒ) reads F/P/O/U/V/D within a line, separable only by context
+
+## Escalation
+- [ ] siblings: not done — R4236, R4237, R4241-R4246 (marked Decrypted on DECODE) not read
+- [x] clear-pages: f. 86 decipherment of f. 85 found; six contemporary margin/interlinear glosses used as anchors
+- [x] known-keys: Mascon's cipher (Tomokiyo; Lasry 2023, gramont1529/macon_key.md); second fr. 3053 table for R4248
+- [x] print: Tomokiyo francis.htm, Lasry GL.htm, Dodieu edition (rom.uga.edu): no plaintext
+- [x] key-rebuild: key corrections from glossed lines (ꭓ = Q/U, × = N/L, Ξ = RR, 7 = N/R/B, etc.)
+- [ ] retry: not done — rerun the earlier records' doubtful groups with the corrected values, then the unread pages

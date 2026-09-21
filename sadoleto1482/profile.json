@@ -618,12 +618,34 @@
   ],
   "outcome": {
     "class": "read in part",
-    "fraction_read": "unknown",
+    "fraction_read": 0.65,
     "grades": "unknown",
     "verification": [
       "key confirms",
       "historical consistency"
     ],
-    "notes": "Research reopened and in progress. R1101/R1106 have contemporary clear witnesses; R1102 coverage expanded to facing p. 3. Literal dom and X's Venetian-government referent verified. Several passages remain unread; R1103 still yields fragments. No end-to-end solution or publication in the 20 Sep session."
+    "notes": "Research reopened and in progress. R1101/R1106 have contemporary clear witnesses; R1102 coverage expanded to facing p. 3. Literal dom and X's Venetian-government referent verified. Several passages remain unread; R1103 still yields fragments. No end-to-end solution or publication in the 20 Sep session. fraction_read 0.65 is an estimate from the notes: R1101 and R1106 covered by contemporary clear copies, R1102 read in gist with unresolved labels, R1103 fragments only; not a token count. fraction_read 0.65 is an estimate from the notes: R1101 and R1106 covered by contemporary clear copies, R1102 read in gist with unresolved labels, R1103 fragments only; not a token count.",
+    "gaps": [
+      {
+        "item": "R1102, unresolved U labels, connective words, code 494 and group 3ί2ии",
+        "blocker": "open-codes",
+        "detail": "no clear copy of R1102 found; repeats in nos. 18-28 not yet checked"
+      },
+      {
+        "item": "R1103, 4-line faded block on p. 2",
+        "blocker": "illegible",
+        "detail": "badly faded, fragments only; UV/multispectral imaging or the ASMo original needed"
+      },
+      {
+        "item": "R1101, whole-letter word-by-word collation with 7a",
+        "blocker": "not-attempted",
+        "detail": "local passages agree; full collation unfinished"
+      },
+      {
+        "item": "R1106, internal completeness against 26a/26b",
+        "blocker": "not-attempted",
+        "detail": "principal regions covered, completeness unverified"
+      }
+    ]
   }
 }

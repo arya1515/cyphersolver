@@ -167,10 +167,37 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.17,
   "verification": [
    "historical consistency"
   ],
-  "notes": "La Guiche read in part; Noailles read at the time; Seure open."
+  "notes": "La Guiche read in part; Noailles read at the time; Seure open. fraction_read 0.17 is an estimate by cipher signs from the notes (La Guiche about 350 of 406, Noailles about 150 signs read at the time only in part, Seure about 2,000 signs none), not a measurement.",
+  "gaps": [
+   {
+    "item": "La Guiche f. 60v: the name 'sieur +arna+e', signs c and 5",
+    "blocker": "open-codes",
+    "detail": "sign t there may be a plain + distinct from barred r; c and 5 occur only once or twice"
+   },
+   {
+    "item": "La Guiche f. 60v: the two struck-through first lines",
+    "blocker": "illegible",
+    "detail": "struck through by the writer; read only in part"
+   },
+   {
+    "item": "Noailles fr. 3151 no. 33 (f. 60r), start of each marginal gloss line",
+    "blocker": "needs-physical-access",
+    "detail": "swallowed by the binding; needs the page opened flat"
+   },
+   {
+    "item": "Noailles fr. 3151 no. 33, the cipher itself (about 150 signs)",
+    "blocker": "not-attempted",
+    "detail": "not attacked; the visible gloss words could serve as cribs"
+   },
+   {
+    "item": "Seure fr. 3151 nos. 39-44 (about 2,000 signs, homophonic with numerals)",
+    "blocker": "not-attempted",
+    "detail": "left as a multi-session job; not transcribed"
+   }
+  ]
  }
 }

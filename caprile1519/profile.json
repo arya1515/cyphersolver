@@ -266,6 +266,24 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Key verified by reproducing Somogyi's plaintext (90% of aligned signs). R1139 and R1136 read in part; R1128 and R1137 open."
+  "notes": "Key verified by reproducing Somogyi's plaintext (90% of aligned signs). R1139 and R1136 read in part; R1128 and R1137 open. fraction_read estimated from the notes (R1139 and R1136 phrases only, R1137 fragments, R1128 unread; R1129-R1135, R1138 read by others), not measured.",
+  "gaps": [
+   {
+    "item": "R1139 and R1136 (1520-21 sign cipher), unread stretches",
+    "blocker": "illegible",
+    "detail": "notes: transcription errors leave many letters wrong; single-reader transcription not re-checked"
+   },
+   {
+    "item": "R1137 Cistarelli, 584 numeric groups",
+    "blocker": "not-attempted",
+    "detail": "only a ciphertext-only anneal on one unchecked transcription; no crib or clear copy searched beyond the Vestigia file"
+   },
+   {
+    "item": "R1128 (9 Mar 1519, two-tier cipher)",
+    "blocker": "not-attempted",
+    "detail": "letter table and codebook incomplete; notes name the next step (careful transcription of R1133/R1131/R1132 against the 1882 decipherments) as not done"
+   }
+  ],
+  "fraction_read": 0.3
  }
 }

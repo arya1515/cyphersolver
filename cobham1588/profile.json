@@ -242,6 +242,28 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Sign inventory and codes fixed from glossed siblings; about a third of cipher words read (H/M); remaining runs have polyphonic or unglossed signs."
+  "notes": "Sign inventory and codes fixed from glossed siblings; about a third of cipher words read (H/M); remaining runs have polyphonic or unglossed signs.",
+  "gaps": [
+   {
+    "item": "f. 80r-81r (R8490) long run f.80g, codes 22, 27 and the square sign",
+    "blocker": "open-codes",
+    "detail": "22, 27 and the square are unglossed in the siblings R8481/R8488/R8489/R8493; run 80g gives no word even with two edits"
+   },
+   {
+    "item": "f. 88r (R8492): name after 'captain', word after 'haven of', lines 3-6 and the seven cipher words of ll. 12-20 (recurring 'Tnn')",
+    "blocker": "open-codes",
+    "detail": "signs K, upsilon, rho, W not glossed on any sibling; polyphonic signs (wedge s/t/a, gamma r/y, c o/a, phi l/t/p) leave several readings"
+   },
+   {
+    "item": "f. 92r (R8495) runs 92a-d",
+    "blocker": "open-codes",
+    "detail": "solver finds no word with two edits; same unglossed and polyphonic signs"
+   },
+   {
+    "item": "ff. 96r-97r (R8496), all but a few words (e.g. f. 96v line 4)",
+    "blocker": "open-codes",
+    "detail": "only 'passed', 'within France', 'servants', 'priests' read; the rest turns on the same signs; f. 97r runs not in runs.txt"
+   }
+  ]
  }
 }

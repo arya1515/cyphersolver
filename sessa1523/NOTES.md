@@ -47,3 +47,17 @@ step if resumed: tokens.py over R9660 ff. 141–147, then read against key_worki
 compare Bergenroth's abstracts with the ciphertext as a check on the key.
 
 Images: `img/` (DECODE, fetched with the saved cookie; RAH permission required, git-ignored). Metadata: `decode/`.
+
+## Remaining gaps
+- R9660 (20 Feb 1523, ff. 141-147), all but the sample paragraph of f. 141r - blocker: not-attempted; the key applies unchanged (section 2), only the token-tile transcription was not done
+- R9665 (26 Apr 1523, ff. 437-438), its cipher passages - blocker: not-attempted; short and mostly clear, never transcribed
+- R9661-R9664 cipher text (CSP 534, 540, 541, 544) - blocker: not-attempted; content known from Bergenroth's calendar of the contemporary decipherments, but the ciphertext was not re-read against the key
+- groups open in the sessa1524 key (vo, per, ruc, hay) wherever they occur - blocker: open-codes; inherited residue of sessa1524
+
+## Escalation
+- [x] siblings: all seven records R9660-R9666 fetched and dated; the sessa1524 sibling key identified from shared groups
+- [ ] clear-pages: not done — fetch the decipherment leaves ff. 190, 342-343, 424-430 of 9/27 (not in these DECODE records) or look for them on neighbouring DECODE records
+- [x] known-keys: sessa1524 key_working.md applied; it fits unchanged
+- [x] print: Bergenroth CSP Spain vol. 2 matched by folio (nos. 534, 540, 541, 544, 545); R9660 and R9665 not calendared
+- [ ] key-rebuild: not done — use the CSP 534/540/544 abstracts against their ciphertext to confirm and extend the key (vo, per, ruc, hay)
+- [ ] retry: not done — run tokens.py over R9660 ff. 141-147 and R9665 and read them with sessa1524/key_working.md

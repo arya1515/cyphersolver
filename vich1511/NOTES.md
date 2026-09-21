@@ -133,3 +133,16 @@ crib or a sibling. Its clear text: docket "a 26 de octubre 1515", opening "videl
   Ferdinand's letters to Vich from AHN Estado as numbered documents, with plates of ciphered letters and their
   decipherments; no snippet or citation names 4 Apr 1511, 5 June 1512 or 1 Sept 1512. Unresolved: assume it
   may print them until the book is seen.
+
+## Remaining gaps
+- N.73 (26 Oct 1515, 3,177 tokens) - blocker: no-key-material; different system, no deciphered sibling (N.74 is a third system); annealing with Spanish 5-grams failed
+- unread groups in N.45, N.57, N.60 (~1,168 bracketed tokens) - blocker: not-attempted; the decipherments of N.41 and 8714 N.12/N.26/N.39 would close most, and were never aligned
+- barred-q m/a split and plart/plort/flart/flort - blocker: not-attempted; NOTES ask for a careful re-reading against the images; not done
+
+## Escalation
+- [ ] siblings: not done — N.46 and N.52BIS used, but the decipherments of N.41 and AHN 8714 N.12, N.26, N.39 never aligned
+- [x] clear-pages: the clerk's decipherments on the leaves after N.46 and N.52BIS aligned word by word
+- [x] known-keys: N.74 (1519) system and the N.79 table compared; neither fits N.73
+- [ ] print: not done — Terrateig, Politica en Italia del Rey Catolico (1963) vol. II not seen
+- [x] key-rebuild: 153 groups recovered from the sibling crib and context readings
+- [ ] retry: not done — rerun all bracketed groups after adding the N.41/8714 groups

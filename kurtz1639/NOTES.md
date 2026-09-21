@@ -67,3 +67,18 @@ postscripts and the Banér copies in R4645 are not transcribed; R4734's endorsem
 
 - 2026-09-19: records, images, literature fetched; transcription started.
 - 2026-09-19: all 73 images transcribed (tr/); structured solver; key rebuilt (KEY.md); all nine letters deciphered.
+
+## Remaining gaps
+
+- All nine letters, the garbled stretches (20-45% per letter; R4736 and R3814 worst) - blocker: not-attempted; single agent transcription pass with 1/7, 6/0/c, 9/psi/phi, 93 vs 9 3 confusions; the checked second pass the notes call for was not made
+- Latin passages and the alpha sign before l ('Salv-') - blocker: not-attempted; probably a second sign merged with alpha in transcription; not re-checked on the images
+- R4645 clear postscripts and the two Baner copies; R4734 endorsement - blocker: not-attempted; clear text, not transcribed
+
+## Escalation
+
+- [x] siblings: all nine DECODE records (73 images) transcribed; no key record or transcription files on DECODE
+- [x] clear-pages: R3811 p. 1 interlinear decipherment used to seed the key
+- [n/a] known-keys: the key is rebuilt in full from the glosses and the regular CV table; Mirka's 2012 key is not printed
+- [x] print: Mirka, Zapadoceske archivy 2012 and Crypto-World 11-12/2012: only the 17 Jan letter, summarised
+- [x] key-rebuild: structured homophonic solver with a German LM; table 41-100 written out (KEY.md, key.json)
+- [ ] retry: not done — a checked second transcription pass against the images for the confusable signs, then rerun decode.py on all nine letters

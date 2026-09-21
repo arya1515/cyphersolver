@@ -60,3 +60,19 @@ of Nájera's letter, bound beside Hurtado's. No crib for R9667.
 Readings in `read_r*.md`. Where it stops: about 30 code groups (`xun`, `xor`, `zad`, `ʃal`, `ʃub`, `rub` vs `yub`...),
 and look-alike signs (∂ vs barred ∂, two- vs three-bar crosses, barred m = f or c) needing better images than DECODE's.
 The unimaged f. 133v (rest of R9846's clear) would give more; RAH Biblioteca Digital, Salazar A-30.
+
+## Remaining gaps
+
+- R9667 (9/28 ff. 6-9), cipher runs - blocker: open-codes; no crib (the 'Claro' is Najera's); only fragments read; CSP Spain ii 548 gives the content from a lost decipherment
+- R9846 ff. 130v-132v beyond the crib third - blocker: needs-physical-access; f. 133v, the rest of the clerk's clear, is not imaged on DECODE; RAH Biblioteca Digital, Salazar A-30
+- About 30 code groups (xun, xor, zad, sal, sub, rub vs yub ...) across R9683, R9695, R9866, R9867, R9868, R9869 - blocker: open-codes; each without a crib; readings a quarter to two thirds per letter
+- Look-alike signs (d vs barred d, two- vs three-bar crosses, barred m = f or c) - blocker: illegible; not separable at DECODE resolution
+
+## Escalation
+
+- [x] siblings: all eight records in Salazar 9/28 and 9/30 opened and dated; the 1522 letters (lopehurtado/) used
+- [x] clear-pages: R9846 f. 133r clear aligned (key_1524.tsv); R9667's 'Claro' leaf checked and shown to be Najera's
+- [x] known-keys: the 1522 key applied; 25 codes and n/e/a/o re-confirmed, tef and L shown to have moved
+- [x] print: Bergenroth CSP Spain ii pp. 547-709 grepped by Salazar folio: nos. 548 and 617, the other six not calendared
+- [x] key-rebuild: key_1524.tsv (105 values, 65 confirmed) plus 1523/1524 additions from exact-count runs
+- [ ] retry: not done — use the CSP 548 and 617 abstracts as cribs for R9667 and R9846 ff. 130v-132v, then rerun the ~30 open codes across all six letters with LM context

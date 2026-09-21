@@ -185,6 +185,18 @@
    "historical consistency",
    "contemporary decipherment"
   ],
-  "notes": "All digit pairs map with the R1892 key; about twenty word signs on p3-p4 unread; several doubtful pairs in the LLM transcription."
+  "notes": "All digit pairs map with the R1892 key; about twenty word signs on p3-p4 unread; several doubtful pairs in the LLM transcription.",
+  "gaps": [
+   {
+    "item": "about twenty word signs on p3-p4 (\u039b, \u221e, \u0394, \u03c6, script L, \u22a5 ...)",
+    "blocker": "open-codes",
+    "detail": "only the p1 signs are fixed by the clear text under it"
+   },
+   {
+    "item": "p3 line 1 and p4 line 8, doubtful pairs across p3-p4",
+    "blocker": "not-attempted",
+    "detail": "LLM transcription only; a careful full-resolution second pass not done"
+   }
+  ]
  }
 }

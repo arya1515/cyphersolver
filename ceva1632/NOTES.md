@@ -215,3 +215,18 @@ her allies.
 | `control.py` | check against the 1632 interlinear |
 | `resolve.py` | nomenclator proposals from the interlinear |
 | `run.py` → `r75.read.txt`, `r84.read.txt` | the readings |
+
+## Remaining gaps
+
+- 117 nomenclator elements of R75/R84 (89 of Lasry's 95 plus 28 new) - blocker: open-codes; people and places sit inside them; interlinear on R75 fixed 6; 491 contradicts its contexts
+- R75/R84 doubtful stretches - blocker: not-attempted; transcriptions are DECODE's and were not re-checked against images R75 I589/I590, R84 I639/I640
+- dossier key with nomenclator - blocker: needs-physical-access; none on DECODE; would need the ASV
+
+## Escalation
+
+- [x] siblings: all eleven records R74-R84 opened; Lasry key and four readings on them
+- [x] clear-pages: R75 interlinear 1632 decipherment used as control and to resolve 6 elements
+- [ ] known-keys: not done - other Barberini-period ASV nunciature keys on DECODE (e.g. Pallotto 1629 R215, Paris nunciature) not tried for the nomenclator
+- [ ] print: not done - Nuntiaturberichte / Acta Nuntiaturae Gallicae for Ceva 1632-34 not searched
+- [x] key-rebuild: LM beam decoder, interpolated in-domain model; alphabetical proposals (nomen_proposals.json)
+- [ ] retry: not done - re-check the transcriptions against the images and rerun with the six new elements

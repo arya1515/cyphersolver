@@ -83,6 +83,12 @@
   ],
   "outcome": {
     "class": "read in part",
+    "gaps": [
+      {"item": "fr. 3181 f. 55, weakest lines 2, 4, 8, 12, 13 (about two fifths of the passage)", "blocker": "illegible", "detail": "key gives a value to 397 of 401 tokens, but near-identical r/s, e/o, l/t homophones in this hand keep the French from resolving"},
+      {"item": "500 Colbert 390 p. 139 (~20 lines, 'Deschiffrez vous mesmes')", "blocker": "not-attempted", "detail": "same cipher; image fetched, not worked"},
+      {"item": "500 Colbert 390 p. 357 (~25 lines)", "blocker": "not-attempted", "detail": "same cipher; image fetched, not worked"},
+      {"item": "500 Colbert 392 p. 231 (Bourdin, ~30 lines)", "blocker": "not-attempted", "detail": "image fetched, not worked; the Rennes2 (Lorraine) key not tried either"}
+    ],
     "fraction_read": 0.6,
     "verification": ["key confirms", "historical consistency"],
     "notes": "The key assigns a letter to nearly every token (397 of 401), but only about three fifths of the passage resolves into securely read French; the rest is blocked by near-identical r/s, e/o and l/t homophones in this hand, not by the key. Lines 2, 4, 8, 12 and 13 are the weakest. The three sibling items (500 Colbert 390 pp. 139 and 357, 500 Colbert 392 p. 231) are in the same cipher and were not attempted."

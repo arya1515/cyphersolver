@@ -273,3 +273,19 @@ Explained: all seven records are worksheets of the SP 106/10 codebreaker, not in
 tables, which rebuild the Venetian code of R664/R660 and correct it. No new letter is read through. Catalogue id
 62 removed. Open: the second code and its missing intercept (see the R703 section), the R701 p.2 letter cipher, R661's English draft (not
 identified).
+
+## Remaining gaps
+- R664 ff. 1-3 and R660 (system B, the Venetian code) continuous reading - blocker: not-attempted; code rebuilt to 117 values from R658, the letters never decoded through with it
+- R704, R721, R722 (system C letter-plus-figure syllabary) - blocker: not-attempted; the codebreaker's interlinear solutions exist, no alignment pass done
+- R657 worksheets (system A) against key R725 - blocker: not-attempted; listed under "Not yet done"
+- lost 46-line intercept of the second three-figure code (fragments on R667, R684, R701 p.3, R702 p.1, R703) - blocker: needs-physical-access; the intercept is not among the imaged records, perhaps elsewhere in SP 106/10 or SP 99 at Kew
+- R701 p.2 short letter cipher - blocker: too-short; about 120 letters, simple-substitution annealing in five languages gave nothing
+- sender, recipient and codebreaker - blocker: not-attempted; depends on the continuous readings
+
+## Escalation
+- [x] siblings: R657-R725 and the catalogue-62 worksheets R658-R702 all opened and placed
+- [x] clear-pages: the codebreaker's interlinear glosses on R664 and R702 p.2 aligned (46/46 groups)
+- [x] known-keys: R725 key and the R658 grid applied
+- [ ] print: not done — CSP Venice vol. 18 (1623-25) and CSP Domestic 1623-25 not searched for these letters ("di 24 di maggio", colonels, "la loro sicurezza")
+- [x] key-rebuild: Venetian code rebuilt as a systematic syllabary (cat62/venetian_code.tsv, 117 values)
+- [ ] retry: not done — decode R664 and R660 in full with venetian_code.tsv, and align system C's glosses on R704/R721/R722

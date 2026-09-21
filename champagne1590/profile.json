@@ -266,13 +266,35 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.45,
   "grades": "unknown",
   "verification": [
    "key confirms",
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open."
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement.",
+  "gaps": [
+   {
+    "item": "Fr. 3625 no. 55 (f. 66r), 67 of 86 groups",
+    "blocker": "open-codes",
+    "detail": "syllabic nomenclator; the seven glossed runs of no. 10 give only 12 table entries because the clerk did not mark group boundaries under his glosses; no other glossed Lauriere letter found"
+   },
+   {
+    "item": "Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44)",
+    "blocker": "open-codes",
+    "detail": "no key bound with these letters; the alphabetical two-digit table covers letters only"
+   },
+   {
+    "item": "No. 24 two passages, first half of the no. 25 'qu'on dict' passage, the name in no. 60 ('de la V?an')",
+    "blocker": "open-codes",
+    "detail": "values fall outside the anchored slots of the alphabetical table (30-39, 48, 92-99 uncertain); no gloss over them"
+   },
+   {
+    "item": "No. 78 (f. 111r), one group of about six mixed signs",
+    "blocker": "too-short",
+    "detail": "a single group, probably a name, in a different mixed code"
+   }
+  ]
  }
 }

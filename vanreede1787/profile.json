@@ -231,6 +231,11 @@
  ],
  "outcome": {
   "class": "read in part",
+  "gaps": [
+   {"item": "R1893 (24 Mar 1793, 696 tokens)", "blocker": "no-key-material", "detail": "different three-digit overmarked code, 513 distinct forms; keys R2846, R2848, R2850, R2851, R2243 tried; no crib"},
+   {"item": "R1026/R1027 groups 2637, 2800, 3660, 1250, 331, 3160, 3153, 2751, 50 and damaged groups", "blocker": "open-codes", "detail": "not in the 1782 R1024 key; 2637/2800/3660 recur, probably names"},
+   {"item": "R1026/R1027 garbled passages from DECODE digit misreads", "blocker": "not-attempted", "detail": "NOTES say a fresh transcription from the images would clear them; not done"}
+  ],
   "fraction_read": 0.39,
   "grades": {
    "H": 0,

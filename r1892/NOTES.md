@@ -93,3 +93,15 @@ may merge or split shapes. They stay unread.
 DECODE status Non-decrypted; no decipherment on the record or images. Searched project notes: fagel1804/NOTES.md
 mentions R1892 only as "a dense two-digit/symbol system" unrelated to R2238. Key records R2240 (Orange name key,
 four-digit) and R2233 do not apply.
+
+## Remaining gaps
+- about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook (guessed) - blocker: open-codes; context does not fix them; transcriber labels may merge or split shapes
+- page 2 line 24 middle; page 1 line 1 - blocker: illegible; photocopy; the two digit rows drift and several pairs are ambiguous
+
+## Escalation
+- [x] siblings: R2242 (same key) read; R2240, R2233 checked, do not apply
+- [x] clear-pages: no clear decipherment on the record; page 2 clear words used
+- [x] known-keys: R2240 and R2233 tried, no fit
+- [ ] print: not done — search the Orange correspondence editions (Colenbrander, Gedenkstukken 1795-1840) for the rassemblement letter
+- [x] key-rebuild: digit square rebuilt by quadgram annealing; sign values from context (de, zich, te, ik)
+- [ ] retry: not done — rerun the rare signs using R2242's page-1 sign values (zoo, zulks, maar, tot, zijn ...)

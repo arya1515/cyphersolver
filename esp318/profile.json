@@ -273,12 +273,39 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.3,
   "grades": "unknown",
   "verification": [
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "No. 5 already solved; no. 92 keyed, text not transcribed; no. 95 about two thirds; nos. 93-94 unread, blocked on BNE MSS 20.211/52."
+  "notes": "No. 5 already solved; no. 92 keyed, text not transcribed; no. 95 about two thirds; nos. 93-94 unread, blocked on BNE MSS 20.211/52. fraction_read 0.3 is an estimate by letter from the notes (no. 5 read in print, no. 95 about two thirds of f. 122r, no. 92 one specimen line, nos. 93-94 none), not a measurement.",
+  "gaps": [
+   {
+    "item": "No. 92 (f. 116r-v), all but one specimen line",
+    "blocker": "not-attempted",
+    "detail": "key proved (Cifra general, 8 glosses, keys/cifra_general.json); the two pages were never transcribed through decode.py"
+   },
+   {
+    "item": "No. 93 (f. 118r-v), whole letter",
+    "blocker": "no-key-material",
+    "detail": "CVC nomenclator with atomic groups (homophonic anneal on ct93_eye.txt failed, -3.5 vs -1.8 nats); the suspected Gran cifra key survives only as Bergenroth's partial list (BNE MSS 20.211/52)"
+   },
+   {
+    "item": "No. 94 (ff. 120r-121v), whole letter",
+    "blocker": "not-attempted",
+    "detail": "never transcribed; Bergenroth's Gran-cifra list not tested against it (next steps 1-2 in the notes)"
+   },
+   {
+    "item": "No. 95 f. 122r, about a third of the glyphs",
+    "blocker": "illegible",
+    "detail": "eye, cluster-hybrid and tiling readings agree on the same two thirds; touching signs at 4100 px full resolution; the line-by-line correction walk is still to do"
+   },
+   {
+    "item": "No. 95 f. 122v (five lines)",
+    "blocker": "not-attempted",
+    "detail": "segmented (f122v_reseg.pkl) but not decoded with the f. 122r templates"
+   }
+  ]
  }
 }

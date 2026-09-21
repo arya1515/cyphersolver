@@ -110,3 +110,17 @@ To attest the nine open groups, the next deciphered Sessa letters (same correspo
 - https://de-crypt.org/decrypt-custom/filesrv/?file=IMG_R9898_I46118_P1.jpg … `_P7.jpg` (9/34 ff. 150–156, 1525)
 Then `python tokens.py <img> x0 y0 x1 y1 tok/<name>.png` per cipher line and search the tile sheets for `rad`,
 `vo`, `lif`, `per`, `kel`, `boy`, `rus`, `hay`.
+
+## Remaining gaps
+- group `vo` (noun after *las dichas*, f. 128r) - blocker: open-codes; matches nowhere in the downloaded pages (pass 14 template search)
+- group `per` - blocker: open-codes; matches nowhere in the downloaded pages (pass 14)
+- groups `ruc`/`rus` and `hay` - blocker: open-codes; occur only in R9873 (14 Apr 1524), which has no decipherment
+- clause *los m-re que r-ido los que no m-r-e-van* - blocker: open-codes; one sign value (probably `v`) still wrong after 14 passes
+
+## Escalation
+- [x] siblings: R9878 duplicate collated; R9881, R9883/4, R9890, R9893, R9834, R9897, R9898 read against their clears (passes 1-14)
+- [x] clear-pages: clears f. 140, f. 172, f. 324, f. 485, f. 38, ff. 14v-15 aligned; R9898's "Decrypted" found to carry none
+- [x] known-keys: one cipher throughout 1523-25; the key was built from its own siblings, no other key of the series is known
+- [x] print: Bergenroth CSP Spain vol. 2 checked; this letter is not calendared (only Lope Hurtado's no. 642)
+- [x] key-rebuild: key_working.md extended over 14 passes by crib alignment and template matching (tmatch.py)
+- [ ] retry: not done — align the other 1523 "Decrypted" Sessa letters (R9676, R9691, R9693, R9781, R9836, R9841; about 50 pages already in img/) token by token and rerun the four open groups and the clause

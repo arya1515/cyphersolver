@@ -267,11 +267,15 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "gaps": [
+   {"item": "R7772 f. 59, four cipher lines", "blocker": "not-attempted", "detail": "NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key"},
+   {"item": "code signs 9, n, £/£2, 4̇", "blocker": "open-codes", "detail": "person signs; 9 = Soissons? and £ = Guise? by context only, n and 4̇ unidentified"}
+  ],
+  "fraction_read": 0.89,
   "grades": "unknown",
   "verification": [
    "historical consistency"
   ],
-  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed."
+  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed. fraction_read estimated from NOTES: 4 of about 35 cipher lines (f. 59) unread, plus 3-4 unconfirmed person signs; no token count file."
  }
 }

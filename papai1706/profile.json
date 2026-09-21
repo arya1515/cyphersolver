@@ -357,6 +357,18 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read is lowered from 0.985 to allow for R731's untranscribed signs."
+  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read is lowered from 0.985 to allow for R731's untranscribed signs.",
+  "gaps": [
+   {
+    "item": "R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs",
+    "blocker": "not-attempted",
+    "detail": "not transcribed; 2448-px images judged too poor for a secure sign transcription; the graphic-sign line on R581 not tried"
+   },
+   {
+    "item": "~178 numeric groups across R823, R765, R784, R757, R741",
+    "blocker": "open-codes",
+    "detail": "digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images"
+   }
+  ]
  }
 }

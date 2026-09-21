@@ -70,3 +70,17 @@ Soria changed ciphers in late July 1523: R9492's body is key A and its closing a
 
 - Key-A codes rip (Venetians?), pur, qed (Swiss?), mul; key-B groups listed in docs/soria1523.html section 09.
 - R9496, R9498 not collated sign by sign. R9492 reading final: read_r9492_v2.md.
+
+## Remaining gaps
+- key-A code words rip, pur, qed, mul, dus, cop and the opener TZ - blocker: open-codes; 1-3 occurrences each, rip/pur/qed guessed from context only
+- key-B groups yac, fob, taf, tu, pel, pug, zib, sib, xif, sab, 7 pes, per (and guessed paf, tin, sud, xa) - blocker: open-codes; not attested in the R9844 crib
+- R9493, R9496, R9498 sign-by-sign collation - blocker: not-attempted; duplicates, only spot-checked
+- R9491 lines 1-7 and the personal names in R9494 (grade M) - blocker: open-codes; key-B values not confirmed
+
+## Escalation
+- [x] siblings: all eleven records and the duplicates used; R9844 (30 Dec 1523) found with the court's decipherment
+- [x] clear-pages: R9844 ff. 36r-36v "A claro / B claro" aligned for key B
+- [x] known-keys: BRAH 9/15 key book (R9815-R9832) checked page by page, no match; Sanchez R9768 a different cipher
+- [x] print: Bergenroth CSP Spain vol. 2 no. 586 (clear parts only)
+- [x] key-rebuild: key A by annealing with a Castilian 4-gram model plus hand fixes; key B from R9844
+- [ ] retry: not done — look for other decrypted Soria letters of 1523-24 in the Salazar series (9/29-9/31 on DECODE) to attest the key-B residue, then rerun the open groups and collate R9493/R9496/R9498

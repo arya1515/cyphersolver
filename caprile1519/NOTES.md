@@ -115,3 +115,18 @@ codebook, then R1128.
   contact sheets of every page. Transcriptions of R1137 and of the 1520–21 cipher by two agents. Literature: ASMo
   inventory (1882 decipherments), Somogyi 2025 (R1138 read). Key from Somogyi cribs by EM; R1139 and R1136 read in part;
   R1137 ciphertext-only anneal gives fragments.
+
+## Remaining gaps
+
+- R1139 and R1136 (1520-21 sign cipher), unread stretches - blocker: illegible; notes: transcription errors leave many letters wrong; single-reader transcription not re-checked
+- R1137 Cistarelli, 584 numeric groups - blocker: not-attempted; only a ciphertext-only anneal on one unchecked transcription; no crib or clear copy searched beyond the Vestigia file
+- R1128 (9 Mar 1519, two-tier cipher) - blocker: not-attempted; letter table and codebook incomplete; notes name the next step (careful transcription of R1133/R1131/R1132 against the 1882 decipherments) as not done
+
+## Escalation
+
+- [x] siblings: R1126-R1140 and Vestigia files opened; 1882 b/c decipherments found for R1129-R1135
+- [x] clear-pages: b/c items identified as 1882 decipherments; R1135 interlinear gloss
+- [ ] known-keys: not done - 1520-21 key not tried on R1137; other Ferrarese Hungary keys (Buda 1489, Sadoleto) not tried on R1137
+- [x] print: ASMo inventory and Somogyi 2025 found; R1138 already read
+- [x] key-rebuild: EM key from Somogyi cribs (89.6%); seeded EM on R1133/7c for 1519 system
+- [ ] retry: not done - second transcription of R1136/R1139 and rerun; transcribe R1131/R1132 against 5b/6b to fill the 1519 table, then R1128

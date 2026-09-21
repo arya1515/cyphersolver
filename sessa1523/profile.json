@@ -66,9 +66,17 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.02,
   "grades": "unknown",
-  "verification": ["historical consistency"],
-  "notes": "Four letters already in print as calendar abstracts; R9660 read in part as a sample; full transcription left, no cryptanalysis outstanding."
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Four letters already in print as calendar abstracts; R9660 read in part as a sample; full transcription left, no cryptanalysis outstanding. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "gaps": [
+   {"item": "R9660 (20 Feb 1523, ff. 141-147), all but the sample paragraph of f. 141r", "blocker": "not-attempted", "detail": "the key applies unchanged (section 2), only the token-tile transcription was not done"},
+   {"item": "R9665 (26 Apr 1523, ff. 437-438), its cipher passages", "blocker": "not-attempted", "detail": "short and mostly clear, never transcribed"},
+   {"item": "R9661-R9664 cipher text (CSP 534, 540, 541, 544)", "blocker": "not-attempted", "detail": "content known from Bergenroth's calendar of the contemporary decipherments, but the ciphertext was not re-read against the key"},
+   {"item": "groups open in the sessa1524 key (vo, per, ruc, hay) wherever they occur", "blocker": "open-codes", "detail": "inherited residue of sessa1524"}
+  ]
  }
 }

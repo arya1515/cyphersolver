@@ -87,3 +87,14 @@ writer with high probability, and establish the subject of the hidden text.
 - Kálmán Benda, *Le projet d'alliance hungaro-suédo-prussienne de 1704* (1960), on Philippe Grophey and Ráday.
 - *Études sur François II Rákóczi, prince de Transylvanie*, identifying Philippe Groffey as Rákóczi's representative
   especially at the Swedish and Polish courts.
+
+## Remaining gaps
+- R902 (pp. 277-279), ~88 unparsed or impossible groups and the continuous diplomatic text - blocker: not-attempted; residue is DECODE transcription slips (one-digit errors, joined groups); no fresh group-by-group transcription from the two cipher leaves has been made, though the images were viewable through the project account
+
+## Escalation
+- [x] siblings: same-key comparators R852 and R912 read; DOC files R633-R646 fetched
+- [ ] clear-pages: not done — check R902's leaves and R633-R646 for a clear draft or decipherment of the 15 Oct 1707 report
+- [x] known-keys: score_keys.py tested NAH G15 keys; R639 (Bonac et Graffei) fits 92.1% of groups
+- [x] print: Thaly, Rákóczi leveleskönyvei II (1873), Benda 1960, Études sur François II Rákóczi: letter not printed
+- [n/a] key-rebuild: key table R639 is complete and certain; the residue is transcription error, not missing key values
+- [ ] retry: not done — retranscribe the two cipher leaves group by group from the DECODE images and rerun decode.py

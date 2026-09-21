@@ -91,3 +91,16 @@ with numbers glossed. R4838 and R4839 are left to CSP nos. 40 and 65, checked ag
 4. Name code from the CSP glosses and Wotton's drafts R4841–R4843.
 5. Sign words: looked for a key (DECODE, Tomokiyo) and for cribs (Wotton's drafts carry no sign text). Too little
    text to break without either. Closed unread.
+
+## Remaining gaps
+- R4844 sign words (~14 words, ~120 signs) - blocker: too-short; homophonic sign alphabet, no crib, no key, interlinear decipherment blotted out
+- name codes 13, 14, 23, 30, 32, 37 - blocker: open-codes; not glossed in CSP or Wotton drafts; context too thin
+- clear-text gaps [..] in reading_R4840/R4844 - blocker: not-attempted; working transcriptions left gaps; no second pass recorded
+
+## Escalation
+- [x] siblings: Wotton drafts R4841-R4843 in the same volume read for numbers and cribs
+- [x] clear-pages: interlinear lines above the sign words examined; struck out, unreadable
+- [x] known-keys: DECODE key records and Tomokiyo Elizabethan ciphers searched; no Wotton 1585 key
+- [x] print: CSP Scotland viii checked page by page (nos. 40, 65, 106)
+- [ ] key-rebuild: not done — no anneal of the sign alphabet; would mean an English LM homophonic anneal on the ~120 signs and SP 52/38 copies for a crib
+- [ ] retry: not done — re-transcribe the [..] clear gaps and regrade the name codes

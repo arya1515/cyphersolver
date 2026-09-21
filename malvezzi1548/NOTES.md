@@ -85,3 +85,16 @@ decrypted.
   permission is needed to publish them.
 - `KEY_BRIEF.md`: the key as used here.
 - `read_A.md`, `read_B.md`: line-by-line readings (glyphs and Latin).
+
+## Remaining gaps
+- p. 1 ciphered passage, lines 1-4 (Rustanus conversation) - blocker: not-attempted; read_A.md p1 l3-l4 still carry [?] and [...] groups; glyphs transcribed, no second pass with the R367 key recorded
+- p. 6 foot, last lines (what to say if Ruestem Pasha asks about the border) - blocker: not-attempted; NOTES: "partly unread"; no further attempt recorded
+- p. 7 ciphered passage on the captives, partly unread - blocker: not-attempted; NOTES: "partly read"; read_A.md p7 lines still carry [?] groups
+
+## Escalation
+- [x] siblings: R367 (the key, same shelfmark), R386 (second key copy) and R368 (short ciphered slip, not a decipherment) opened
+- [ ] clear-pages: not done — no check recorded whether the Vienna registry clear copy (HHStA Turcica) survives as images anywhere
+- [x] known-keys: R367 Tabella I/II and R386 applied
+- [ ] print: not done — Austro-Turcica 1541-1552 (Dzaja/Weiss 1995) prints Malvezzi's correspondence and was not consulted; it likely has this letter in clear
+- [ ] key-rebuild: not done — fill the unread code syllables/graphic-sign variants on pp. 1 and 7 from Latin LM context and the read pp. 4-6
+- [ ] retry: not done — rerun the [?] groups of read_A.md p1/p7 and p6 foot with an extended key

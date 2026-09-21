@@ -77,3 +77,17 @@ This is setup and key calibration, not a completed decipherment. No continuous r
 - c390 v180 = p. 357: Catherine (?) letter, lower two thirds in cipher, ~25 lines, no gloss.
 - c392 v112 = p. 231: Bourdin letter, ~30 lines cipher, no gloss.
 - f. 55 = fr3181 v36: 17 lines of cipher then clear text (Havre de Grace / Queen of England passage in clear).
+
+## Remaining gaps
+- fr. 3181 f. 55, weakest lines 2, 4, 8, 12, 13 (about two fifths of the passage) - blocker: illegible; key gives a value to 397 of 401 tokens, but near-identical r/s, e/o, l/t homophones in this hand keep the French from resolving
+- 500 Colbert 390 p. 139 (~20 lines, 'Deschiffrez vous mesmes') - blocker: not-attempted; same cipher; image fetched, not worked
+- 500 Colbert 390 p. 357 (~25 lines) - blocker: not-attempted; same cipher; image fetched, not worked
+- 500 Colbert 392 p. 231 (Bourdin, ~30 lines) - blocker: not-attempted; image fetched, not worked; the Rennes2 (Lorraine) key not tried either
+
+## Escalation
+- [x] siblings: f. 52 and f. 57 (glossed siblings) opened; the f. 57 margin decipherment used to calibrate the scribe's shapes
+- [x] clear-pages: clear part of f. 55 (Havre-de-Grâce passage) and La Ferrière's print of the letter used for context
+- [x] known-keys: Tomokiyo's Bishop of Rennes key (CharlesIX_Rennes.png) applied
+- [x] print: La Ferrière, Lettres de Catherine de Médicis II pp. 79-81 ('Partie chiffrée'); Tomokiyo henryiii.htm
+- [x] key-rebuild: key calibrated on this scribe's shapes against the f. 57 line-by-line gloss (decode.py, segment.py)
+- [ ] retry: not done — rerun lines 2, 4, 8, 12, 13 with more calibration from the f. 52/f. 57 glosses, and read the three Colbert letters with the calibrated key

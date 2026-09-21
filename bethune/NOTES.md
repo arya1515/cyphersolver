@@ -415,3 +415,19 @@ d'Espaigne, Archiduc, Fuentes).
 
 Not in Tomokiyo (his Béthune ciphers are fr. 15975 for 1602–05 and fr. 15972 for 1606–08), not in DECODE
 (search "Bethune" returns only Charost 1673), not in Xivrey (t. V has no Béthune letter for Nov 1601).
+
+## Remaining gaps
+
+- 9 Nov 1601 letter, f. 33 (about half the words) - blocker: illegible; third pass measured the ceiling as set by the glyph transcription (similar glyphs differ by a hook), not by the key
+- 22 Nov 1601 letter, 80 ciphered runs (ff. 46-47) - blocker: illegible; decode2.py gives fragments only, the same transcription ceiling
+- code groups 2, 5, 6, 8, 9, 12, 20, 26-28, 31, 44, 45, 62, 66, 67, 69, 72, 80 - blocker: open-codes; glossed leaves ff. 49v-50r, 53r, 56r carry verbatim decipherments containing 66 and 72, but the eight cipher lines of f. 53r were never transcribed/aligned
+- clear copies in BnF Cinq cents de Colbert 346 - blocker: needs-physical-access; copy register 23 Aug 1601 - 22 Nov 1602, not digitised (Gallica SRU no record)
+
+## Escalation
+
+- [x] siblings: f. 36 minute read the 10 Nov letter; glossed leaves ff. 49v-50r, 53r, 56r-57r examined
+- [x] clear-pages: f. 36 is the clear minute of f. 34; marginal glosses on ff. 53r, 56r found verbatim
+- [x] known-keys: Bazeries 1901 key for Bethune 1599 compared: same design, different values
+- [ ] print: not done - Halphen, Lettres inedites ... 18 oct - 24 dec 1601 (HathiTrust 100644113) not obtained; Xivrey, Colbert 17, fr. 3677/3678, Tomokiyo, DECODE checked
+- [ ] key-rebuild: not done - align the eight f. 53r cipher lines (cut.py 113 ...) and the f. 56r block against their verbatim glosses to fix 66, 72 and the name figures
+- [ ] retry: not done - rerun em_align.py / decode2.py on f. 33 and ff. 46-47 after the gloss alignments

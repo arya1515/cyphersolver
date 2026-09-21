@@ -248,11 +248,16 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "gaps": [
+   {"item": "N.73 (26 Oct 1515, 3,177 tokens)", "blocker": "no-key-material", "detail": "different system, no deciphered sibling (N.74 is a third system); annealing with Spanish 5-grams failed"},
+   {"item": "unread groups in N.45, N.57, N.60 (~1,168 bracketed tokens)", "blocker": "not-attempted", "detail": "the decipherments of N.41 and 8714 N.12/N.26/N.39 would close most, and were never aligned"},
+   {"item": "barred-q m/a split and plart/plort/flart/flort", "blocker": "not-attempted", "detail": "NOTES ask for a careful re-reading against the images; not done"}
+  ],
+  "fraction_read": 0.74,
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read."
+  "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read. fraction_read measured roughly: 12,213 of 13,381 decoded tokens in N.45/N.57/N.60 not bracketed, over those plus the 3,177 tokens of unread N.73 (0.74)."
  }
 }

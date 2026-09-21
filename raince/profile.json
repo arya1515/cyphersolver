@@ -148,12 +148,29 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.75,
   "grades": "unknown",
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "86 of about 106 lines hand-read (reading.txt marks H/M lines, not the H/C/M/I grades). Limit is microfilm resolution and segmentation."
+  "notes": "86 of about 106 lines hand-read (reading.txt marks H/M lines, not the H/C/M/I grades). Limit is microfilm resolution and segmentation. fraction_read 0.75 is an estimate from the notes (86 of 106 lines hand-read, draft about 86% right per letter), not a token count. fraction_read 0.75 is an estimate from the notes (86 of 106 lines hand-read, draft about 86% right per letter), not a token count.",
+  "gaps": [
+   {
+    "item": "13 May 1526 letter, pp. 29-31 (96 lines): residual letter errors and ~20 machine-only lines",
+    "blocker": "illegible",
+    "detail": "B/W Gallica microfilm; LOO classifier accuracy saturates at 0.868 as hand labels are added, the e/r, t/l/d, s/u/a confusions are resolution-bound; better photographs of pp. 29-31 needed"
+   },
+   {
+    "item": "20 Nov 1526 letter, lower 21-28 lines of p. 105",
+    "blocker": "illegible",
+    "detail": "same microfilm limit; only line 4 verified glyph by glyph"
+   },
+   {
+    "item": "one-glyph word sign, bold stem with two crossbars, p. 30 line 1",
+    "blocker": "open-codes",
+    "detail": "matches nothing in Tomokiyo's table; single occurrence"
+   }
+  ]
  }
 }

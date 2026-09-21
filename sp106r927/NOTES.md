@@ -111,3 +111,17 @@ Auto-segmented (`v1_glyphs2.json`); the classifier often reads ⊔ as ◻ on thi
 Sender, recipient and date are not named in the parts read. The formulae ("monsieur", "tres humblement",
 "vostre bienveuillance") and spelling point to a French letter of the 17th century, from a client or
 servant to a patron.
+
+## Remaining gaps
+- f. 241 (p. 1), all but hand-checked fragments - blocker: not-attempted; auto-segmentation too noisy, full hand transcription not done
+- f. 242 (p. 2) - blocker: not-attempted; never transcribed
+- the two circle/"9" signs and stacked composites on f. 243 - blocker: open-codes; they sit where names or abbreviations are expected, too few to value
+- sender, recipient and date - blocker: not-attempted; expected in the unread start of the letter
+
+## Escalation
+- [ ] siblings: not done — the neighbouring SP 106/10 records around ff. 241-243 were not opened for this letter (sp106box10 covers ff. 125-205 only)
+- [ ] clear-pages: not done — check those neighbouring records for a decipherment or clear copy
+- [x] known-keys: the pencil flap key tested in all orientations and rejected
+- [ ] print: not done — only a web search; no calendar (CSP Domestic/Foreign) searched, needs the sender from p. 1 first
+- [x] key-rebuild: homophonic key built by annealing (hc3.py) on the p. 3 hand transcription plus hand anchors (key.json)
+- [ ] retry: not done — hand-transcribe pp. 1-2 with inner-mark variants separate and decode with key.json, then rerun the annealer on all three pages

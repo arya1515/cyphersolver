@@ -160,6 +160,13 @@
  ],
  "outcome": {
   "class": "read in part",
+  "gaps": [
+    {"item": "R4234 P8-P20 (~180 cipher lines)", "blocker": "not-attempted", "detail": "untouched; needs page-at-a-time passes with the known key"},
+    {"item": "R4235 P2-P3 (~45 lines)", "blocker": "not-attempted", "detail": "transcribable, not deciphered"},
+    {"item": "R4247 letter 2 (~26 lines)", "blocker": "not-attempted", "detail": "not deciphered"},
+    {"item": "R4239 P3, P4, P6, P7, P11, P12, P14, P15 (~100 lines)", "blocker": "not-attempted", "detail": "transcribed or transcribable, not deciphered"},
+    {"item": "residue of the read passages (R4233 ~40%, R4234 P2-P6 ~30%, R4238 ~35%, R4240 ~15%, R4247 letter 1 ~20%)", "blocker": "illegible", "detail": "barred-cross family (ǂ, £, long ƒ) reads F/P/O/U/V/D within a line, separable only by context"}
+  ],
   "fraction_read": 0.45,
   "verification": ["contemporary decipherment", "historical consistency"],
   "notes": "Seven records read in part, one (R4248) resolved by the contemporary decipherment on the next leaf. The limit is the hand and the ambiguous barred-cross signs, not the cryptanalysis: the key was known before the attempt. R4234 (~250 cipher lines) is three quarters unread."

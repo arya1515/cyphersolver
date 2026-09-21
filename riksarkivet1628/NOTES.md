@@ -64,3 +64,18 @@ ravage the Lüneburg country and asks that the Stift be included in the accord i
   decipherments of the time and mixes two-digit letters with four-digit nomenclator codes and letter pairs; the key
   collection lists a key "Oxenstierna and Lars Nilsson Tungel (1633)" that was not identified among the 70 key
   records fetched. The band-grid idea from Bremen was not tested on them.
+
+## Remaining gaps
+- R4282 (Latin letter cipher, ~1,000 letters) - blocker: not-attempted; blind substitution/homophonic annealing failed; the clear-word cribs and the R4284 key-test leaf were not used, and 68 of the 70 fetched key records were not tried
+- R4284 (Latin, 108 number values) - blocker: not-attempted; homophonic Latin anneal gave nonsense; only keys R4310 and R4296 tried; key-test leaf unused
+- R4306 (1632, to Amsterdam, numbers 5-203) - blocker: not-attempted; anneal in 11 languages failed; digit-variant question open; only 2 keys tried
+- R4333-R4337 (Rusdorff to Oxenstierna, 1628) - blocker: not-attempted; surveyed only
+- R4338-R4341 (E 708, June 1633) - blocker: not-attempted; surveyed only; interlinear decipherments of the time unused; Tungel 1633 key not identified among the 70 fetched
+
+## Escalation
+- [x] siblings: all 14 records opened and sorted into four groups; 70 Chifferklaver key records R4259-R4329 fetched
+- [ ] clear-pages: not done — use the E 708 interlinear decipherments and the R4284 key-test leaf as cribs
+- [ ] known-keys: not done — only R4310 and R4296 tested; try the other 68 key records against R4282, R4284, R4306 and the Rusdorff letters
+- [ ] print: not done — search Rikskanslern Axel Oxenstiernas skrifter och brefvexling (series II) for the Rusdorff and 1633 letters, and Camerarius editions for R4284
+- [x] key-rebuild: Bremen band key rebuilt from glosses (6-column grid); blind anneals run on R4282/R4284/R4306 without result
+- [ ] retry: not done — no extended key yet to rerun the open records with

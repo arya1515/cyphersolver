@@ -119,3 +119,18 @@ The 1816–19 "Cifra della Segreteria di Stato" codebook, or Circello's decipher
 Paris legation series or the Segreteria's cipher office papers). Failing that, a full transcription of catalogue
 166 (15 more records, 51 pp., same box, same sender, probably the same code) would roughly quadruple the text,
 still short of what a ciphertext-only attack on this code size needs.
+
+## Remaining gaps
+
+- main-code groups without a value (55% of target groups) - blocker: open-codes; two-part code of ~2,450 groups; 162 values from four interlinear cribs; solve.py LM scoring did not discriminate
+- R9586 and R9588 (different code, values 100-1100) - blocker: not-attempted; faint pencil syllabic glosses noted but not attacked
+- the 1816-19 Cifra della Segreteria di Stato codebook - blocker: needs-physical-access; not on DECODE (R9532-R9541 are 1859-60 keys); ASNa Esteri
+
+## Escalation
+
+- [x] siblings: box 2337 R9550-R9591 and box 2317 R9549 opened; 1823 glossed letters found
+- [x] clear-pages: interlinear decipherments on R9566 p3, R9569, R9571, R9589 used as cribs
+- [x] known-keys: R9549 (box 2317) and Borbone consular keys R9532-R9541 checked: different codes
+- [x] print: web search, Treccani DBI, Tomokiyo: no edition found
+- [x] key-rebuild: alphabetical-run bracketing and LM candidate scoring (solve.py); 54 inferred values
+- [ ] retry: not done - hand-read the 1816 letters one at a time against the Decazes/Florida crib themes with the extended runs, and try the R9586/R9588 pencil glosses

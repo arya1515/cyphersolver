@@ -360,6 +360,23 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense."
+  "notes": "Key complete; decipherment coherent for roughly 55-80% of each letter because of a single-pass transcription. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
+  "gaps": [
+   {
+    "item": "All nine letters, the garbled stretches (20-45% per letter; R4736 and R3814 worst)",
+    "blocker": "not-attempted",
+    "detail": "single agent transcription pass with 1/7, 6/0/c, 9/psi/phi, 93 vs 9 3 confusions; the checked second pass the notes call for was not made"
+   },
+   {
+    "item": "Latin passages and the alpha sign before l ('Salv-')",
+    "blocker": "not-attempted",
+    "detail": "probably a second sign merged with alpha in transcription; not re-checked on the images"
+   },
+   {
+    "item": "R4645 clear postscripts and the two Baner copies; R4734 endorsement",
+    "blocker": "not-attempted",
+    "detail": "clear text, not transcribed"
+   }
+  ]
  }
 }

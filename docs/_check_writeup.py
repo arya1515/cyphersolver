@@ -388,6 +388,15 @@ def hook_stop():
               'toward a full reading, and record each gap and step in NOTES.md "## Remaining gaps" / "## Escalation" '
               'and profile.json outcome.gaps. If the work genuinely has to stop now, put "Status: in progress" '
               'at the top of NOTES.md and say in your reply what is left.')
+    # block once per distinct list: the same unchanged gaps do not re-block every stop (background agents)
+    import hashlib, tempfile
+    sid = re.sub(r'\W', '', inp.get('session_id') or 'nosession')
+    mark = pathlib.Path(tempfile.gettempdir()) / f'cypher_partial_{sid}.txt'
+    digest = hashlib.sha1(reason.encode('utf-8')).hexdigest()
+    if read(mark).strip() == digest:
+        print(json.dumps({'suppressOutput': True})); return
+    try: mark.write_text(digest, encoding='utf-8')
+    except OSError: pass
     print(json.dumps({'decision': 'block', 'reason': reason}))
 
 if __name__ == '__main__':

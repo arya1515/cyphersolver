@@ -173,6 +173,18 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "1816 of 1829 digit pairs mapped; 27 'de' signs read; ~100 other sign occurrences unread or only probable."
+  "notes": "1816 of 1829 digit pairs mapped; 27 'de' signs read; ~100 other sign occurrences unread or only probable.",
+  "gaps": [
+   {
+    "item": "about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook (guessed)",
+    "blocker": "open-codes",
+    "detail": "context does not fix them; transcriber labels may merge or split shapes"
+   },
+   {
+    "item": "page 2 line 24 middle; page 1 line 1",
+    "blocker": "illegible",
+    "detail": "photocopy; the two digit rows drift and several pairs are ambiguous"
+   }
+  ]
  }
 }

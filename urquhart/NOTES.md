@@ -140,3 +140,15 @@ app refuses scripts; the API answers with an `Origin: https://crypto.hcportal.eu
 *15 Sept 2026*: provenance objection checked on the 1653 EEB scan and Wilcock 1899; octastich measured on Schmeh's
 numbers (272, 82 distinct, IC 0.021) and called a book cipher by shape, "not attackable without the key text". The key
 text was the book it is printed in, and the poem said so.
+
+## Remaining gaps
+- octastich line 5, positions 151-160 (CONERTHTO + page 158) - blocker: needs-physical-access; TCP text of pp. 149-158 differs from the print (near-empty p. 158); needs the 1652 leaves
+- distich, 64 numbers - blocker: no-key-material; claimed Proquiritation rule gives 34/64, chance; page-index variants on The Jewel and Logopandecteision at chance; key text not identified
+
+## Escalation
+- [n/a] siblings: printed cryptograms in a book, no archival sibling records exist
+- [x] clear-pages: the key verse printed under the octastich read and used (it names the key text)
+- [x] known-keys: Proquiritation rule and page-index variants on both books tested for the distich
+- [x] print: 1652 TCP, 1653 edition, 1834 Works, Wilcock 1899 and the 1983 edition checked
+- [ ] key-rebuild: not done — try the six-line verse under the distich, the Parva peto couplet and the 1653 sheets as key texts
+- [ ] retry: not done — re-decode positions 149-160 against page images of the 1652 Jewel (EEBO/ESTC copy), not the TCP

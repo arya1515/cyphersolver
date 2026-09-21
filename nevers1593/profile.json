@@ -246,13 +246,40 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.3,
   "grades": "unknown",
   "verification": [
    "key confirms",
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Two of seven letters read (Pisany); five Revol letters in key no. 60 unread, blocker palaeographic."
+  "notes": "Two of seven letters read (Pisany); five Revol letters in key no. 60 unread, blocker palaeographic. fraction_read 0.3 is an estimate by letters (2 of 7 read, the second in stretches); no token count exists for the Revol passages.",
+  "gaps": [
+   {
+    "item": "fr. 3986 f. 146v, Revol 7 Oct 1593 (nine cipher lines, key no. 60)",
+    "blocker": "illegible",
+    "detail": "transcribed at 2.4-3.2x but copyist's cursive forms map to two or three table entries; atlas pass started, not finished"
+   },
+   {
+    "item": "fr. 3986 f. 157v, Revol 9 Oct 1593",
+    "blocker": "illegible",
+    "detail": "faded; clear cursive and cipher run together, cipher extent not yet segmented"
+   },
+   {
+    "item": "fr. 3985 f. 88 (21 Aug), f. 115 (27 Aug, one line), f. 176 (2 Sept, no. 88/94), fr. 3986 f. 198 (23 Oct, no. 101)",
+    "blocker": "not-attempted",
+    "detail": "located and cut but never transcribed; key no. 60 is fully in hand"
+   },
+   {
+    "item": "fr. 3986 no. 68 (Vese 7 Oct)",
+    "blocker": "not-attempted",
+    "detail": "not located on the image (downloader throttled); Tomokiyo list gives candidates"
+   },
+   {
+    "item": "fr. 3986 f. 168, Pisany 14 Oct, garbled stretches of lines 2-8",
+    "blocker": "illegible",
+    "detail": "microfilm copy, 1/7, 0/8, 3/5 confusable; segscore.py did not resolve them"
+   }
+  ]
  }
 }

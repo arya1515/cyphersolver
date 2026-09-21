@@ -438,3 +438,17 @@ third gloss; 17 glyph values, 13 of them twice over; that the segmentation finds
 originals differ from the microfilm; any printed edition; the remaining homophones. User must verify: every
 reading here comes from a microfilm image and is unvalidated; the palaeography of "calzolite / calzolari"
 and of the docket on f. 123v is uncertain, and the identification of the box glyph as *f* rests on one word.
+
+## Remaining gaps
+- no. 63 (ff. 115, 116, 123) cipher passages - blocker: not-attempted; Lasry's key is in hand (section 6) and the hybrid method of 5d works, but no transcription with it was made
+- no. 65 (ff. 119-120) cipher beyond the Duke's-answer passage - blocker: not-attempted; same
+- no. 66 (ff. 121-122) cipher - blocker: not-attempted; same, and it cribs no. 65
+- i/o homophone forms confusable on the microfilm - blocker: illegible; 50-60 px glyphs on MF 31394, several forms differ by less than the film records (5b); a new capture would settle them
+
+## Escalation
+- [x] siblings: nos. 62 and 67 (glossed) used as cribs; nos. 65/66 shown to crib each other; no. 64 has no cipher
+- [x] clear-pages: interlinear decipherment f. 113 and marginal decipherment f. 124 aligned
+- [x] known-keys: Lasry's key on Tomokiyo's francis.htm applied, verified against the twin's clear
+- [ ] print: not done — Molini checked (does not print 63/65/66); Charriere, the Ferrara/Modena editions and the fr. 2974 copy (MFICHE S 39769) not searched
+- [n/a] key-rebuild: the key is complete (Lasry 2023); the limit is glyph reading, not key values
+- [ ] retry: not done — transcribe all three letters glyph by glyph with the 5d hybrid (segmentation boxes + 7x crops) against key_lasry.tsv

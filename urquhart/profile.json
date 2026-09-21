@@ -170,6 +170,10 @@
  ],
  "outcome": {
   "class": "read in part",
+  "gaps": [
+   {"item": "octastich line 5, positions 151-160 (CONERTHTO + page 158)", "blocker": "needs-physical-access", "detail": "TCP text of pp. 149-158 differs from the print (near-empty p. 158); needs the 1652 leaves"},
+   {"item": "distich, 64 numbers", "blocker": "no-key-material", "detail": "claimed Proquiritation rule gives 34/64, chance; page-index variants on The Jewel and Logopandecteision at chance; key text not identified"}
+  ],
   "fraction_read": 0.788,
   "verification": [
    "matched control",

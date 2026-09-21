@@ -156,10 +156,27 @@
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": "unknown",
+  "fraction_read": 0.98,
   "verification": [
    "key confirms"
   ],
-  "notes": "R15 read before (Lasry); R16 read, 18 unknowns, names 18/48 unconfirmed; R17 read with Meister no. 40."
+  "notes": "R15 read before (Lasry); R16 read, 18 unknowns, names 18/48 unconfirmed; R17 read with Meister no. 40. fraction_read estimated from the notes (R16: 18 unknown of ~1,410 letter pairs after the Meister nomenclator; R17: 5 unknown codes; R15 read by Lasry), not measured token by token.",
+  "gaps": [
+   {
+    "item": "R16 nomenclator codes 18 and 48",
+    "blocker": "open-codes",
+    "detail": "Meister's Ferrara/Parma values do not fit the contexts; the 1586 table may have moved them"
+   },
+   {
+    "item": "R16 remaining ~16 unknown pairs",
+    "blocker": "open-codes",
+    "detail": "unknowns after the one-digit resync; mostly transcription slips in TimB transcription D1610, images not re-read"
+   },
+   {
+    "item": "R17 five unknown codes",
+    "blocker": "open-codes",
+    "detail": "Meister p. 393 no. 40 reads all five pages except 5 codes"
+   }
+  ]
  }
 }

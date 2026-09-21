@@ -234,3 +234,20 @@ lines, `f122v_reseg.pkl`) goes through the same templates. Nothing further is ne
 * S. Tomokiyo, *Spanish Ciphers during the Reign of Ferdinand and Isabella*, cryptiana; and his page of G. Lasry's
   solutions.
 * A. Quirantes, *El CNI y el (no tan secreto) código del Gran Capitán* (2018), with photographs of BNE MSS 20.211/52.
+
+## Remaining gaps
+
+- No. 92 (f. 116r-v), all but one specimen line - blocker: not-attempted; key proved (Cifra general, 8 glosses, keys/cifra_general.json); the two pages were never transcribed through decode.py
+- No. 93 (f. 118r-v), whole letter - blocker: no-key-material; CVC nomenclator with atomic groups (homophonic anneal on ct93_eye.txt failed, -3.5 vs -1.8 nats); the suspected Gran cifra key survives only as Bergenroth's partial list (BNE MSS 20.211/52)
+- No. 94 (ff. 120r-121v), whole letter - blocker: not-attempted; never transcribed; Bergenroth's Gran-cifra list not tested against it (next steps 1-2 in the notes)
+- No. 95 f. 122r, about a third of the glyphs - blocker: illegible; eye, cluster-hybrid and tiling readings agree on the same two thirds; touching signs at 4100 px full resolution; the line-by-line correction walk is still to do
+- No. 95 f. 122v (five lines) - blocker: not-attempted; segmented (f122v_reseg.pkl) but not decoded with the f. 122r templates
+
+## Escalation
+
+- [x] siblings: all thirteen cipher folios of the volume opened; the fifth ciphered letter (no. 92) found; no decipherment anywhere in the volume for 93-95
+- [x] clear-pages: interlinear glosses of no. 92 used as cribs; nos. 93-95 carry none
+- [ ] known-keys: not done — Escriva no. 1 and the Cifra general were excluded for 93/94 by code-initial range only; Bergenroth's Gran-cifra list (BNE MSS 20.211/52 photographs in lit/) and the unpublished 'Cifra del visorrey' (BRAH 9/15 ff. 1-6) not tested against a transcription of no. 94
+- [x] print: Parisi 2004 and 2020, Galende Diaz 1994, Tomokiyo's Spanish-cipher and Lasry pages, Quirantes 2018
+- [ ] key-rebuild: not done — a solver that treats the CVC groups of 93/94 as unknown words while annealing the sign alphabet against Spanish (named in the notes as the next tool) was not built
+- [ ] retry: not done — correct f122r_local2_keyed.txt line by line against ov/R95_*.png, run the templates over f. 122v, and decode no. 92 in full with keys/cifra_general

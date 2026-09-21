@@ -56,3 +56,16 @@ prévôt des marchands (R43); Tours and the royalist–Navarre rapprochement (15
 No edition of Morosini's legation found (no Acta Nuntiaturae Gallicae volume; searched 19 Sept 2026). The
 clear duplicates of the covering letters are transcribed on DECODE (R18/R19 DOC_1806/1807).
 Images: DECODE, login; kept git-ignored (`img/`, `decode/*.png|pdf|htm`).
+
+## Remaining gaps
+- R53, R54 (items 22/32-33, Tours and Moulins, spring 1589) - blocker: no-key-material; second syllabic key (F22b); only Lasry's partial reconstruction (~70 elements) exists, Meister prints only no. 40
+- dotted nomenclator codes outside Meister's list (162, 191, 250, 516, 617, 716, 770; ~1 per page) - blocker: open-codes; most look like transcription slips of a dotted digit; not checked against the images
+- item 22/29 - blocker: needs-physical-access; no DECODE record for it; not imaged
+
+## Escalation
+- [x] siblings: all 36 enclosures R18-R58 opened; R23-R26, R50 identified as other material
+- [x] clear-pages: clear duplicates of the covering letters transcribed on DECODE (R18/R19 DOC_1806/1807) checked
+- [x] known-keys: Meister no. 40 (1587) and Lasry's DOC_3175 reconstruction applied
+- [ ] print: not done — only "no Acta Nuntiaturae Gallicae volume" recorded; Meister 1906 not searched for a second Morosini key of 1588-89 (F22b)
+- [ ] key-rebuild: not done — extend Lasry's F22b reconstruction on R53/R54/R35 by seeded annealing with the Italian model
+- [ ] retry: not done — check each off-list dotted code against the image before calling it open

@@ -63,3 +63,14 @@ is kept but should be checked against the hand of the brothers' other letters.
 - `key.tsv`: Mírka's letter table and code list, transcribed from the DECODE xlsx.
 - `decode/`: images, record page and xlsx (git-ignored).
 - Related: `windischgraetz1720/` (Charles VI's letters to L. V. Windischgrätz, keys R5017/R5018 — a different cipher).
+
+## Remaining gaps
+- 23 nomenclator codes (33 groups): 78, 99, 101, 102, 103, 111, 130, 131, 139, 146, 149, 151, 164, 167, 168, 172, 181, 182, 204, 205, 206, 209, 225 - blocker: open-codes; not in Mirka's key list or only guessed; no bracketing or context pass done
+
+## Escalation
+- [ ] siblings: not done — the brothers' other 1721 letters with interlinear decipherments (Mirka's sources, SOA Plzen karton 202) not opened
+- [x] clear-pages: all five DECODE images viewed; no decipherment on them
+- [x] known-keys: Mirka's key from the record applied; R5017/R5018 noted as a different cipher
+- [ ] print: not done — editions of Cambrai congress correspondence (Windischgratz, Pentenrieder) not searched
+- [ ] key-rebuild: not done — the code list is alphabetical (52 affaire, 54 Althann, 121 geheim, 152 Kayser, 198 Prinz); bracket the open codes and fit by context
+- [ ] retry: not done — rerun the 33 open groups after bracketing

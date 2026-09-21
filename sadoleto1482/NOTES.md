@@ -133,3 +133,17 @@ non lassasse pretermittere questa opportunità laquale mai più fo, né forse se
   repeats. Ercole's replies (Minute nos. 1–3, Vestigia 1252/1250/1251) may paraphrase the Venetian offer.
 - R1103: Vestigia 1294 is the same Ferrante copy; no second exemplar found. Only better imaging would help.
 - The 1479–80 Sadoleto–Naples key (ASMo Cifrario b. 4 fasc. 1, Cremonini n. 39) should be compared with this key.
+
+## Remaining gaps
+- R1102, unresolved U labels, connective words, code 494 and group 3ί2ии - blocker: open-codes; no clear copy of R1102 found; repeats in nos. 18-28 not yet checked
+- R1103, 4-line faded block on p. 2 - blocker: illegible; badly faded, fragments only; UV/multispectral imaging or the ASMo original needed
+- R1101, whole-letter word-by-word collation with 7a - blocker: not-attempted; local passages agree; full collation unfinished
+- R1106, internal completeness against 26a/26b - blocker: not-attempted; principal regions covered, completeness unverified
+
+## Escalation
+- [x] siblings: DECODE R1100-R1118 metadata and images; Vestigia 85 Sadoleto items; clear copies 7a, 13a/13b, 26a/26b found
+- [x] clear-pages: 7a, 13a, 26a/26b aligned; June 24 marginal annotation located; R1102 p. 3/4 cipher found
+- [ ] known-keys: not done — the 1479-80 Sadoleto-Naples key (ASMo Cifrario b. 4 fasc. 1, Cremonini n. 39) not compared; not digitised
+- [x] print: Vestigia 3 (Mátyus, Somogyi), MDE, Cremonini 2017, Tomokiyo: no decipherment printed
+- [x] key-rebuild: key_working.md from 7a/13a; ff and z controls, repeated K, dom/X verified
+- [ ] retry: not done — sweep nos. 18-28 for repeats of 494 and 3ί2ии, then rerun R1102's U labels

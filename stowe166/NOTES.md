@@ -94,3 +94,15 @@ Then in clear: "The King hath a disposition to geue him the Gouernment of Prouen
 - f. 59, four cipher lines.
 - Identify n and confirm 9 = Soissons and £ = Guise.
 - Butler 1913.
+
+## Remaining gaps
+- R7772 f. 59, four cipher lines - blocker: not-attempted; NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key
+- code signs 9, n, £/£2, 4̇ - blocker: open-codes; person signs; 9 = Soissons? and £ = Guise? by context only, n and 4̇ unidentified
+
+## Escalation
+- [x] siblings: all six records R7770-R7775 of the volume opened and read; f. 110 checked, no cipher
+- [x] clear-pages: leaves checked, no interlinear readings and no key filed with the volume
+- [ ] known-keys: not done — compare with the Edmondes/Burghley tables in Tomokiyo (elizabeth.htm) and DECODE Elizabethan keys
+- [ ] print: not done — Birch 1749 searched, but Butler, The Edmondes Papers (1913) never checked; CSP Foreign / List and Analysis 1592-94 not grepped
+- [x] key-rebuild: substitution key rebuilt from the/of/to and long words across the six records
+- [ ] retry: not done — re-read f. 59 against the images with the full key and regrade the person signs

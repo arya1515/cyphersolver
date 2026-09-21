@@ -907,6 +907,23 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established."
+  "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established.",
+  "gaps": [
+   {
+    "item": "main-code groups without a value (55% of target groups)",
+    "blocker": "open-codes",
+    "detail": "two-part code of ~2,450 groups; 162 values from four interlinear cribs; solve.py LM scoring did not discriminate"
+   },
+   {
+    "item": "R9586 and R9588 (different code, values 100-1100)",
+    "blocker": "not-attempted",
+    "detail": "faint pencil syllabic glosses noted but not attacked"
+   },
+   {
+    "item": "the 1816-19 Cifra della Segreteria di Stato codebook",
+    "blocker": "needs-physical-access",
+    "detail": "not on DECODE (R9532-R9541 are 1859-60 keys); ASNa Esteri"
+   }
+  ]
  }
 }

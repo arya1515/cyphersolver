@@ -168,3 +168,19 @@ Laurière letter.
 * `key_lauriere.txt` — code table from all glossed runs of no. 10.
 * `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment.
 * Images in `img/` (git-ignored, not committed).
+
+## Remaining gaps
+
+- Fr. 3625 no. 55 (f. 66r), 67 of 86 groups - blocker: open-codes; syllabic nomenclator; the seven glossed runs of no. 10 give only 12 table entries because the clerk did not mark group boundaries under his glosses; no other glossed Lauriere letter found
+- Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44) - blocker: open-codes; no key bound with these letters; the alphabetical two-digit table covers letters only
+- No. 24 two passages, first half of the no. 25 'qu'on dict' passage, the name in no. 60 ('de la V?an') - blocker: open-codes; values fall outside the anchored slots of the alphabetical table (30-39, 48, 92-99 uncertain); no gloss over them
+- No. 78 (f. 111r), one group of about six mixed signs - blocker: too-short; a single group, probably a name, in a different mixed code
+
+## Escalation
+
+- [x] siblings: DECODE siblings R9456/R9457 (nos. 26, 27) checked, another key; fr. 3625 OAI item list walked, no. 10 found as the key source and no. 55 located at f. 66r
+- [x] clear-pages: no. 23's key slip f. 36r read it in full; no. 10's interlinear decipherment aligned; the two glosses on no. 55 used
+- [x] known-keys: Nevers keys of fr. 3995 (Tomokiyo nevers.htm) reviewed; no. 46 tested against the two-digit table and does not fit
+- [x] print: Tomokiyo nevers.htm and GL.htm, Memoires de Nevers index: no printed decipherment
+- [ ] key-rebuild: not done — the two-digit table was bracketed by alphabetical order, but no. 10's syllable groups were aligned only by hand; a solver that fits group boundaries to the seven glosses (seeded EM over no. 10 runs R1-R7) was named and not built; also look for another glossed Lauriere letter in fr. 3625/3626
+- [x] retry: the no. 10 table (12 entries) was applied to all 86 groups of no. 55 in the third pass (19 read)

@@ -1,6 +1,6 @@
 # Paris nunciature, bishop of Bergamo / archbishop of Nazareth, 1585–86 (ASV Segr. Stato Francia 18; DECODE R15–R17) — NOTES
 
-**Result: read.** R15 read before (Lasry); R16 and R17 read here. Write-up: docs/bergamo1585.html.
+**Result: read in part** (codes 18/48, about 16 R16 slips and 5 R17 codes open; see Remaining gaps). R15 read before (Lasry); R16 and R17 read here. Write-up: docs/bergamo1585.html.
 
 Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunciature records on DECODE (see
 [damiata1624/](../damiata1624/NOTES.md) for the 1625 volume).
@@ -41,3 +41,18 @@ Catalogue entry 242. Checked on 2026-09-21 as part of a sweep of the Paris-nunci
 `key_F18_lasry.txt` (DECODE D3105), `R16_transcription_decode.txt` (DECODE D1610), `decode_with_key.py`,
 `R16_decryption.txt`. Images are on DECODE (login); not re-transcribed here: the R16 reading rests on TimB's
 transcription.
+
+## Remaining gaps
+
+- R16 nomenclator codes 18 and 48 - blocker: open-codes; Meister's Ferrara/Parma values do not fit the contexts; the 1586 table may have moved them
+- R16 remaining ~16 unknown pairs - blocker: open-codes; unknowns after the one-digit resync; mostly transcription slips in TimB transcription D1610, images not re-read
+- R17 five unknown codes - blocker: open-codes; Meister p. 393 no. 40 reads all five pages except 5 codes
+
+## Escalation
+
+- [x] siblings: R15-R17 all opened; R16 decryption file found to be a copy of R15
+- [n/a] clear-pages: no clear pages or interlinear decipherments are reported on R15-R17
+- [x] known-keys: Lasry F18 key (D3105), Meister p. 324 no. 2 (Ragazzoni 1583), Meister p. 393 no. 40 (Morosini) tried; all fit
+- [x] print: Meister 1906 key tables used; no printed decipherment of R16/R17 sought beyond Meister
+- [ ] key-rebuild: not done - fill 18/48 and the R17 codes by alphabetical bracketing and LM context over Morosini-period letters
+- [ ] retry: not done - re-read the R16 images for the slip positions, then rerun decode_with_key.py

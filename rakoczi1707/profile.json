@@ -66,6 +66,9 @@
   ],
   "outcome": {
     "class": "read in part",
+    "gaps": [
+      {"item": "R902 (pp. 277-279), ~88 unparsed or impossible groups and the continuous diplomatic text", "blocker": "not-attempted", "detail": "residue is DECODE transcription slips (one-digit errors, joined groups); no fresh group-by-group transcription from the two cipher leaves has been made, though the images were viewable through the project account"}
+    ],
     "fraction_read": 0.72,
     "grades": {"H": 1020, "C": 0, "M": 0, "I": 88},
     "verification": ["key confirms", "historical consistency"],

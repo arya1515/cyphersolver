@@ -73,3 +73,15 @@ Decrypts: `decrypt_p1.txt`, `decrypt_p3.txt`, `decrypt_p4.txt`; transcriptions `
 
 DECODE: Non-decrypted, no transcription or decipherment on the record. The only decipherment is the clear text on
 page 1 itself. This is the first reading of pages 3–4; the key came from R1892 (this project, 21 Sept 2026).
+
+## Remaining gaps
+- about twenty word signs on p3-p4 (Λ, ∞, Δ, φ, script L, ⊥ ...) - blocker: open-codes; only the p1 signs are fixed by the clear text under it
+- p3 line 1 and p4 line 8, doubtful pairs across p3-p4 - blocker: not-attempted; LLM transcription only; a careful full-resolution second pass not done
+
+## Escalation
+- [x] siblings: R1892 (same key) used
+- [x] clear-pages: p1 clear text under the cipher used as crib; p2 clear letter read
+- [x] known-keys: R1892 key applied unchanged
+- [ ] print: not done — Orange family correspondence editions (Colenbrander, Gedenkstukken) not searched
+- [ ] key-rebuild: not done — pool R1892 and R2242 sign occurrences and fix values by Dutch LM context
+- [ ] retry: not done — re-transcribe p3-p4 at full resolution and rerun apply.py
