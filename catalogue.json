@@ -799,22 +799,22 @@
    "counted": false,
    "year": null,
    "date": "undated",
-   "title": "Unknown sender to unknown recipient",
+   "title": "Trigram code fragment 'Suite du No 13 / No 24'",
    "correspondents": "Unknown sender → unknown recipient",
    "place": "London",
-   "language": "unknown",
+   "language": "unknown (French headings)",
    "region": "England",
    "period": "unknown",
    "shelfmark": "BL, Add MS 32280 f 3",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R8871: Non-decrypted, 1 pp., unknown; alphabet, numerical; images login. Not viewed here. 19 key record(s) from the same series on DECODE, nearest R8920 (1723). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: DECODE's date 1723/1842 is the span of the volume.",
-   "why": "Ciphered letter of Unknown sender to unknown recipient; what the cipher hides is not known.",
+   "status": "DECODE R8871, viewed 21 Sept 2026. The leaf is a ruled form in a French hand, 'Suite du No 13' / 'No 24', with 77 three-character groups (letters, digits, œ), 76 of them distinct and near-flat statistics. It is a large or enciphered code, too short to rebuild. None of the 26 DECODE key records of Add MS 32280 (R8890, R8894–R8919, 1790–1842, mostly Dutch numeric codes) fits. R8870 (ff. 1–2) is an unrelated numeric letter. Notes in r8871/NOTES.md.",
+   "why": "An unidentified numbered trigram-code series copied by the Deciphering Branch; only No 24's tail is imaged.",
    "importance": 1,
-   "solvability": 2,
+   "solvability": 1,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
+   "verify": "Needs No 13 and the rest of the series (probably unimaged ff. 4–54 of Add MS 32280) or its key.",
    "ark": "",
    "links": [
     {
@@ -822,12 +822,13 @@
      "href": "https://de-crypt.org/decrypt-web/RecordsView/8871"
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     8871
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 76,

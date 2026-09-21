@@ -1,0 +1,58 @@
+{
+ "schema_version": 1,
+ "target": "r8871",
+ "title": "Trigram code fragment 'Suite du No 13 / No 24', BL Add MS 32280 f. 3 (DECODE R8871)",
+ "documents": [
+  {
+   "id": "f3",
+   "shelfmark": "BL Add MS 32280 f. 3; DECODE R8871",
+   "date": "unknown",
+   "year": "unknown",
+   "country": "unknown",
+   "route": "unknown",
+   "language": "unknown",
+   "cleartext_in_document": "none",
+   "plaintext": {"location": ["none"], "source": "No decipherment on the leaf, on DECODE or among the volume's key records."},
+   "length": {"tokens": 77, "distinct": 76, "unit": "code groups", "measured": true, "file": "f3_transcription.txt"},
+   "transcription": {"by": "llm from images", "source": "DECODE scan IMG_R8871_I41131_P1", "image_quality": "good", "notes": "Three-character groups on a ruled form; uncertain at b/6, 9/g, 1/l, r/v."}
+  }
+ ],
+ "system": {
+  "types": ["unknown"],
+  "summary": "Three-character groups of letters, digits and oe; flat character statistics and one repeat in 77 groups suggest a large or enciphered code.",
+  "symbol_kind": "digits and letters",
+  "distinct_symbols": 35,
+  "diacritics": {"used": false},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "Heading 'Suite du No 13' / 'No 24' in French; companion R8870 (ff. 1-2) is an unrelated numeric code letter."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "unknown", "where": "none found on DECODE or among the 26 key records of Add MS 32280", "found": "not found", "used": false},
+  "inputs": ["images"],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": ["character statistics", "key-record contact sheet"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Downloaded R8871 and companion R8870 images from DECODE with the session cookie.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "transcription", "what": "Transcribed 77 three-character groups of f. 3r.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "statistics", "what": "76/77 groups distinct; character IoC x 35 about 1.12, near flat.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "sibling key", "what": "Viewed all 26 DECODE key records of Add MS 32280 (R8890, R8894-R8919) for a trigram letter code.", "result": "failed", "date": "2026-09-21"}
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": ["none"],
+  "notes": "Too short to rebuild a code; needs the key or the rest of the numbered series (No 13 onwards), probably in unimaged ff. 4-54."
+ }
+}

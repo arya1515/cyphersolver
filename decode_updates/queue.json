@@ -3713,6 +3713,26 @@
      "reading_not_needed": true
     }
    }
+  },
+  "r8871": {
+   "writeup": null,
+   "key": null,
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R8871": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "f. 3 = 'Suite du No 13' / 'No 24': 77 three-character groups (letters, digits, oe) on a ruled form, French hand; transcription in r8871/f3_transcription.txt. No matching key among this volume's key records.",
+     "reading": [
+      {
+       "file": "r8871/f3_transcription.txt",
+       "section": ""
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
