@@ -2248,6 +2248,23 @@
      "reading_not_needed": true
     }
    }
+  },
+  "malvezzi1548": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/malvezzi1548.html",
+   "key": {
+    "decode": "R367"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R366": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Read in part against the key filed at the same shelfmark (DECODE R367; second copy R386). All five ciphered runs read in substance; pp. 5-6 almost continuously. Two lines on p. 1, four at the foot of p. 6 and five on p. 7 remain unread. Nulls are whole Latin words (etiam, idcirco, atque, cum, Porro, Dar, Der, spo, spu) and the loose letters b, d, n, z and a Greek pi.",
+     "reading": "decode_updates/decryptions/R366.txt",
+     "sent": false
+    }
+   }
   }
  }
 }

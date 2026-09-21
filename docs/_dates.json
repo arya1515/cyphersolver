@@ -47,6 +47,7 @@
   "d’affry from the hague to rouillé and bernis, 1757–58": "2026-09-19",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
   "etienne bourdeaux to maarten van der goes, 31 january 1801": "2026-09-21",
+  "ferdinand i (augsburg) to johann malvezzi at the porte, 23 january 1548": "2026-09-21",
   "ferdinand iii, 1634–40": "2026-09-15",
   "ferdinand the catholic to jerónimo de vich, 1511–12": "2026-09-18",
   "feuquières to catinat, 1691": "2026-09-15",
@@ -225,7 +226,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "acf704abb7a3",
+   "hash": "32d85df542f9",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -390,7 +391,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "851bc135d8a4",
+   "hash": "5a71b6d456e0",
    "updated": "2026-09-21"
   },
   "kauderbach1754": {
@@ -431,6 +432,11 @@
   "maisse1592": {
    "first": "2026-09-19",
    "hash": "48dcd365f550",
+   "updated": "2026-09-21"
+  },
+  "malvezzi1548": {
+   "first": "2026-09-21",
+   "hash": "1d505922984c",
    "updated": "2026-09-21"
   },
   "maria1435": {
@@ -750,7 +756,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "41a61ac8cf48",
+   "hash": "6362f5f2df48",
    "updated": "2026-09-21"
   },
   "yard1699": {

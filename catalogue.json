@@ -303,41 +303,6 @@
    "scored": "rule"
   },
   {
-   "id": 43,
-   "counted": true,
-   "year": 1548,
-   "date": "23 Jan 1548",
-   "title": "Ferdinand I (Augsburg) to Johann Malvezzi",
-   "correspondents": "Ferdinand I → Johann Malvezzi",
-   "place": "Augsburg, Constantinople",
-   "language": "Latin",
-   "region": "Hungary",
-   "period": "1497-1559",
-   "shelfmark": "Military History Archive, 1548/3",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R366: Partially decrypted, 8 pp., homophonic; graphic signs; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered letter of Ferdinand I to Johann Malvezzi, 23 Jan 1548; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R366",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/366"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    366
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 45,
    "counted": true,
    "year": 1664,
