@@ -291,3 +291,23 @@ So the target's `lif ꝍ z y` = mostra-r-**on**: *no le las mostraron*.
 decipherment (Goicoechea's 19th-c. reading, cited by Bergenroth, is not bound with it). Contexts: *del [ruc]*, *el
 [ruc]*, *[fum] [hay] en los partidos de la dicha tregua*. No attestation.
 `vo`, `per`: no reliable match anywhere (best scores 0.62–0.72 are all false positives on clear script).
+
+## Pass 15 (sessa1523 follow-up, 21 Sept 2026: R9660 fair copy, ~2,050 tokens; R9665 cribbed by contemporary glosses)
+| cipher | clear | evidence |
+|---|---|---|
+| **hef** | **por** | R9665 f.437r "coh hef qet b-u-l-a" = Su Sd. por esta bula (margin gloss "Su Sd. por esta bula es declarado contra Francia") |
+| yim | duque | "al yim de B-a-r-i" twice (R9660 f.141r) |
+| bla | ir | "de bla a ver a Su Sd."; "con-t-r-i-b-u-bla" |
+| boz | -io(n) | sustentac-io-n, conservac-io-n, dataR-io, Fab-io (both halves independently) |
+| loz | obisp- | "loz-a-do de T-o-r-t-o-s-a" = obispado de Tortosa |
+| gam | como | "le haze la guerra gam enemigo" (probable) |
+| me | hermano | "y me del Burgues" (probable) |
+| z | o | V-o-l-t-e-r-a (`Ɉ z q ott 9 x α`, three times), Alberto, R-e-z-o |
+| q | l | Vo-l-terra, escanda-l-izado |
+| 9 | e and l | p-e-l-igro, Volt-e-rra |
+| ε / Є | h (and j) | h-olgo, h-izo; `Є3 Є4` = hijo |
+| ∠ | t | potenta-d-os |
+| ꝺ (open 6) | v/u in the 1523 copyist's hand | via, viendo, Volterra |
+| ruc | a verb root, not a person | "ha-n ruc-do" (corrects pass 12/14) |
+| tentative | sat = ten (intencion), kim = manda-, Jam = llam- | |
+Readings: sessa1523/reading_r9660.txt, reading_r9665.txt.

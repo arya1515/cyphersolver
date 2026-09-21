@@ -13,9 +13,25 @@
    "language": "Spanish",
    "pages": 14,
    "cleartext_in_document": "separate passages",
-   "plaintext": {"location": ["none"], "source": "No decipherment bound with it; not in CSP Spain vol. 2.", "partial": false},
-   "length": {"tokens": "unknown", "unit": "mixed", "measured": false, "file": "reading_f141.txt"},
-   "transcription": {"by": "llm from images", "source": "DECODE images", "image_quality": "good", "notes": "Only the second cipher paragraph of f. 141r transcribed."}
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment bound with it; not in CSP Spain vol. 2.",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "reading_f141.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Only the second cipher paragraph of f. 141r transcribed."
+   }
   },
   {
    "id": "R9661-R9666",
@@ -27,20 +43,57 @@
    "language": "Spanish",
    "pages": 96,
    "cleartext_in_document": "separate passages",
-   "plaintext": {"location": ["separate folio", "printed edition"], "source": "Contemporary decipherments of CSP 534, 540/541 and 544 in the same volume (ff. 190, 342-343, 424-430), calendared in English by Bergenroth, CSP Spain vol. 2; not imaged in these DECODE records.", "partial": true},
-   "length": {"tokens": "unknown", "unit": "mixed", "measured": false, "file": "unknown"},
-   "transcription": {"by": "llm from images", "source": "DECODE images", "image_quality": "good", "notes": "Viewed and dated, not transcribed."}
+   "plaintext": {
+    "location": [
+     "separate folio",
+     "printed edition"
+    ],
+    "source": "Contemporary decipherments of CSP 534, 540/541 and 544 in the same volume (ff. 190, 342-343, 424-430), calendared in English by Bergenroth, CSP Spain vol. 2; not imaged in these DECODE records.",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false,
+    "file": "unknown"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "Viewed and dated, not transcribed."
+   }
   }
  ],
  "system": {
-  "types": ["nomenclator", "homophonic"],
+  "types": [
+   "nomenclator",
+   "homophonic"
+  ],
   "summary": "The Sessa-Charles V nomenclator of 1523-25: three-letter code groups for words and syllables plus a letter alphabet with homophones, a clear/cipher switch sign and a null paragraph opener.",
   "symbol_kind": "letters and symbols",
   "distinct_symbols": "unknown",
-  "diacritics": {"used": "unknown"},
-  "homophones": {"used": true},
-  "nomenclator": {"present": true, "entries": "unknown", "kinds": ["syllables", "common words", "names", "titles"], "unread_groups": "unknown"},
-  "nulls": {"present": true, "count": "unknown"},
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "syllables",
+    "common words",
+    "names",
+    "titles"
+   ],
+   "unread_groups": "unknown"
+  },
+  "nulls": {
+   "present": true,
+   "count": "unknown"
+  },
   "key_order": "unknown",
   "word_division": "none",
   "doubled_letters": "unknown",
@@ -48,35 +101,109 @@
   "notes": "Recognised at sight from the recurring groups gap, sof, suf, qib, mus, kef, dim, cob, coh, bas, Jap."
  },
  "conditions": {
-  "prior_solution": {"exists": "partial", "where": "Contemporary decipherments of four of the letters in RAH Salazar A-27, calendared in Bergenroth, CSP Spain vol. 2 nos. 534, 540, 541, 544 (1866); R9660 and R9665 not calendared", "found": "during attempt", "used": false},
-  "inputs": ["images", "sibling key"],
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary decipherments of four of the letters in RAH Salazar A-27, calendared in Bergenroth, CSP Spain vol. 2 nos. 534, 540, 541, 544 (1866); R9660 and R9665 not calendared",
+   "found": "during attempt",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "sibling key"
+  ],
   "attack": "sibling key",
   "human_role": "Set the goal; the DECODE cookie saved earlier fetched the images",
-  "tools": ["DECODE API", "PIL crops"],
-  "models": ["claude-opus-5"],
+  "tools": [
+   "DECODE API",
+   "PIL crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
   "sessions": 1,
   "first_date": "2026-09-21",
   "last_date": "2026-09-21"
  },
  "solution": [
-  {"date": "2026-09-21", "kind": "transcription", "what": "Fetched metadata and all 55 openings of R9660-R9666 with the saved DECODE cookie; read every date line.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "hypothesis", "what": "Recognised the cipher as the sessa1524 nomenclator from recurring code groups.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "literature search", "what": "Matched the letters to Bergenroth CSP Spain vol. 2 nos. 534, 540, 541, 544, 545 (Salazar A-27 folios); R9660 and R9665 not calendared.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "reading", "what": "Read the second cipher paragraph of R9660 f. 141r with the 1524 key; about half the tokens resolve.", "result": "partial"}
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Fetched metadata and all 55 openings of R9660-R9666 with the saved DECODE cookie; read every date line.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Recognised the cipher as the sessa1524 nomenclator from recurring code groups.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Matched the letters to Bergenroth CSP Spain vol. 2 nos. 534, 540, 541, 544, 545 (Salazar A-27 folios); R9660 and R9665 not calendared.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Read the second cipher paragraph of R9660 f. 141r with the 1524 key; about half the tokens resolve.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "R9665 ff. 437-438: three cipher runs read with the sessa1524 key; the f. 437r margin note (Su Sd. por esta bula es declarado contra Francia) matches token for token and gives hef = por; two f. 437v runs carry interlinear decipherments of the time.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "R9660 ff. 141r-147r (7 openings, ~2,050 cipher tokens) transcribed line by line from full-size strips by two subagents, each reading with the sessa1524 key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Checked the R9660 margin notes as cribs: they are copyist insertions of omitted text, not decipherments.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Key extended from R9660 context: yim duque, bla ir, boz -io, loz obisp-, z o, q l, 9 e/l, gam como (probable), ruc a verb root; values cross-applied between the two halves.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "R9660 read in part: ~57% of tokens resolve; ~150 code groups open with no decipherment on DECODE to value them.",
+   "result": "partial"
+  }
  ],
  "outcome": {
-  "class": "already solved",
-  "fraction_read": 0.02,
+  "class": "read in part",
+  "fraction_read": 0.55,
   "grades": "unknown",
   "verification": [
    "historical consistency"
   ],
-  "notes": "Class set to already solved on 21 Sept 2026: the court deciphered these at the time and Bergenroth calendared them (CSP Spain 2); this project read only a sample of R9660 (fraction_read 0.02). Four letters already in print as calendar abstracts; R9660 read in part as a sample; full transcription left, no cryptanalysis outstanding. fraction_read is an estimate from the NOTES (share of cipher tokens given a value), not measured.",
+  "notes": "R9665 read in full (glosses + key). R9660 transcribed in full, ~57% of its tokens read (estimate from the transcription files). Four letters (R9661-R9664) read at the time and calendared by Bergenroth; R9666 clear.",
   "gaps": [
-   {"item": "R9660 (20 Feb 1523, ff. 141-147), all but the sample paragraph of f. 141r", "blocker": "not-attempted", "detail": "the key applies unchanged (section 2), only the token-tile transcription was not done"},
-   {"item": "R9665 (26 Apr 1523, ff. 437-438), its cipher passages", "blocker": "not-attempted", "detail": "short and mostly clear, never transcribed"},
-   {"item": "R9661-R9664 cipher text (CSP 534, 540, 541, 544)", "blocker": "not-attempted", "detail": "content known from Bergenroth's calendar of the contemporary decipherments, but the ciphertext was not re-read against the key"},
-   {"item": "groups open in the sessa1524 key (vo, per, ruc, hay) wherever they occur", "blocker": "open-codes", "detail": "inherited residue of sessa1524"}
+   {
+    "item": "R9660 code groups (~150 distinct)",
+    "blocker": "needs-physical-access",
+    "detail": "no decipherment on DECODE; court decipherment leaves 9/27 ff. 190, 342-343, 424-430 only at the RAH"
+   },
+   {
+    "item": "R9661-R9664 cipher text re-read",
+    "blocker": "needs-physical-access",
+    "detail": "read at the time; full decipherments are the same unimaged leaves"
+   },
+   {
+    "item": "sessa1524 open groups vo, per, hay",
+    "blocker": "needs-physical-access",
+    "detail": "no attestation in any decipherment on DECODE"
+   }
   ]
  }
 }

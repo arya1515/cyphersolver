@@ -1,5 +1,7 @@
 # Duke of Sessa → Charles V, February–April 1523 — RAH Salazar A-27 (9/27), DECODE R9660–R9666
 
+Status: read in part (follow-up 2026-09-21: R9665 read in full; R9660 transcribed in full and ~57% read)
+
 Catalogue entry 146 ("Luis Fernández? (Sesa) to unknown recipient, 7 ciphertexts"). Worked 2026-09-21.
 
 ## 1. Identification: seven despatches of the Duke of Sessa to Charles V
@@ -33,7 +35,7 @@ of 1523–25 letters) applies unchanged.
 
 ## 3. Sample reading (R9660, uncalendared)
 
-The second cipher paragraph of f. 141r read by eye with the 1524 key: [reading_f141.txt](reading_f141.txt). About
+The second cipher paragraph of f. 141r read by eye with the 1524 key: [reading_f141_sample.txt](reading_f141_sample.txt) (superseded by section 5). About
 half the tokens resolve at once (*muy despues … a V.Md. de la … forma que el papa … de franceses … a ver a Su
 Santidad* [clear: *mas con color*] *… de ningun …* [clear: *disposicion de entender*] *… lo que V.Md. …*).
 
@@ -48,20 +50,38 @@ compare Bergenroth's abstracts with the ciphertext as a check on the key.
 
 Images: `img/` (DECODE, fetched with the saved cookie; RAH permission required, git-ignored). Metadata: `decode/`.
 
+## 5. Follow-up (21 Sept 2026): R9660 and R9665 run through the key
+
+**R9665 (26 Apr 1523): read in full.** Three short cipher runs in a clear letter ([reading_r9665.txt](reading_r9665.txt)).
+f. 437r: *Su Santidad por esta bula es declarado contra Francia*, confirmed token for token by a contemporary margin
+note, which also gives the one new group `hef` = *por*. f. 437v: interlinear decipherments of the time, *…al de Ancona*
+(Cardinal Accolti, "muy buen servidor de V. Mt.") and *Su Sd. mejoro ayer*.
+
+**R9660 (Sessa, 20 Feb 1523): transcribed in full, read in part.** A fair copy in a clean hand, ff. 141r–147r, about
+2,050 cipher tokens: [reading_r9660.txt](reading_r9660.txt) (two parts). About 57% of tokens resolve; most of the rest are code groups
+(~150 distinct, listed with contexts at the end of each file). The margin notes are the copyist's restored omissions,
+not decipherments. New values from the two halves (they independently agree on `boz`, `z`, `q`) are in sessa1524/key_working.md
+pass 15; each half's values were then retried on the other (e.g. `yim` = duque reads in both).
+Content: Adrian VI stands irresolute towards the French and refuses to join the league or give French envoys a
+safe-conduct; the viceroy Lannoy's visit to Rome; Francis I's plan to take a third of church revenue in France; the
+Swiss envoys' pay; the Duke of Bari (Francesco Sforza); Modena and Reggio against Alberto Pio da Carpi, committed to
+Cardinals Volterra, Monte and Iacobacci; Soderini (Volterra) making war on the Medici "como enemigo" with the Pope's
+favour; Siena after Petrucci's death (Francesco and Fabio Petrucci); the Datario, the bishopric of Tortosa; Rimini settled.
+
 ## Remaining gaps
-- R9660 (20 Feb 1523, ff. 141-147), all but the sample paragraph of f. 141r - blocker: not-attempted; the key applies unchanged (section 2), only the token-tile transcription was not done
-- R9665 (26 Apr 1523, ff. 437-438), its cipher passages - blocker: not-attempted; short and mostly clear, never transcribed
-- R9661-R9664 cipher text (CSP 534, 540, 541, 544) - blocker: not-attempted; content known from Bergenroth's calendar of the contemporary decipherments, but the ciphertext was not re-read against the key
-- groups open in the sessa1524 key (vo, per, ruc, hay) wherever they occur - blocker: open-codes; inherited residue of sessa1524
+- R9660 code groups (~150 distinct, ~40% of its tokens; commonest cas, cag, min, rep, put, var, ges) - blocker: needs-physical-access; the letter carries no decipherment, the groups do not recur in any deciphered page on DECODE, and the court's decipherment leaves of the sister letters (9/27 ff. 190, 342-343, 424-430) are not on DECODE, only in the RAH volume
+- R9661-R9664 cipher text re-read (CSP 534, 540, 541, 544) - blocker: needs-physical-access; read at the time and calendared by Bergenroth; the full decipherments are those same unimaged leaves
+- groups open in the sessa1524 key (vo, per, hay) - blocker: needs-physical-access; inherited, no attestation in any decipherment on DECODE
 
 ## Escalation
 - [x] siblings: all seven records R9660-R9666 fetched and dated; the sessa1524 sibling key identified from shared groups
-- [ ] clear-pages: not done — fetch the decipherment leaves ff. 190, 342-343, 424-430 of 9/27 (not in these DECODE records) or look for them on neighbouring DECODE records
+- [x] clear-pages: every page of R9660-R9666 opened; the only glosses are R9665's (read) and R9660's copyist insertions (not decipherments); the decipherment leaves ff. 190, 342-343, 424-430 are not in these seven records (neighbouring DECODE records not searched)
 - [x] known-keys: sessa1524 key_working.md applied; it fits unchanged
 - [x] print: Bergenroth CSP Spain vol. 2 matched by folio (nos. 534, 540, 541, 544, 545); R9660 and R9665 not calendared
-- [ ] key-rebuild: not done — use the CSP 534/540/544 abstracts against their ciphertext to confirm and extend the key (vo, per, ruc, hay)
-- [ ] retry: not done — run tokens.py over R9660 ff. 141-147 and R9665 and read them with sessa1524/key_working.md
+- [x] key-rebuild: 15 values added from R9660/R9665 context and the R9665 gloss (key_working.md pass 15)
+- [x] retry: both halves of R9660 re-read with the pass-15 key; remaining groups have single or context-poor occurrences
 
-Outcome class (21 Sept 2026): **already solved**. The court deciphered these letters at the time and Bergenroth
-calendared them; this project read only a sample of R9660, so "read in part" overstated its own share. The gaps above
-stay as the to-do list for a full transcription.
+Outcome class: an audit on 21 Sept 2026 set this target to "already solved" because the court deciphered these
+letters at the time. That applies to R9661-R9664 and to R9665's short runs, but not to R9660: it has no decipherment
+bound with it and is not in Bergenroth. Its reading here (section 5, ~57%) is this project's own, so the class
+stays "read in part".

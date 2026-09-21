@@ -4549,6 +4549,42 @@
      }
     }
    }
+  },
+  "sessa1523": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/sessa1523.html",
+   "key": {
+    "decode": "Sessa-Charles V 1523-25 nomenclator rebuilt from the court's decipherments (cyphersolver sessa1524/key_working.md)",
+    "lang": "ES"
+   },
+   "cite": null,
+   "fields": {
+    "sender": "Luis Fernández de Córdoba, 2nd Duke of Sessa",
+    "receiver": "Emperor Charles V"
+   },
+   "records": {
+    "R9660": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Sessa to Charles V, 'En Sesa a xx de hebrero de 1523' (RAH 9/27 ff. 141-147). Cipher is the Sessa-Charles V nomenclator of 1523-25; about 57% of the cipher read with it; about 150 code groups still open.",
+     "reading": [
+      {
+       "file": "sessa1523/reading_r9660.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9665": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Sessa to Charles V, Rome 26 Apr 1523 (ff. 437-438). Mostly clear; three short cipher runs, two deciphered interlinearly at the time, the third ('Su Sd. por esta bula es declarado contra Francia') confirmed by a contemporary margin note.",
+     "reading": [
+      {
+       "file": "sessa1523/reading_r9665.txt"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

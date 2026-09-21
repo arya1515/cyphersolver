@@ -1,0 +1,26 @@
+R9665 = RAH Salazar A-27 (9/27) ff. 437-438, Sessa to Charles V, "De Roma xxvj de abril 1523".
+Mostly clear (the arrest of Cardinal Soderini of Volterra, 27 Apr). Three short cipher runs, read with the
+sessa1524 key; two of them carry the receiving clerk's interlinear decipherment, the third a marginal summary.
+
+1. f. 437r, lines 15-16 (after the clear "... se hizo esta tan buena demostrando"):
+   cipher   f~ coh hef qet b u l α qes sof ttt q α ⅄ α / ram tac ott ⅄ α [F] ⅄ α do ttt bay f~
+   reading  Su Santidad por esta bula es de-c-l-a-r-a-do con-t-r-a F-r-a-n-c-ia
+   gloss    (left margin, contemporary) "Su Sd. por esta b[u]la es declarado contra Francia"
+   The gloss and the key agree token for token. New value: hef = por (open in sessa1524).
+   The F-sign (two tokens, "c o v"-like, after tac ott ⅄ α) is new; value fixed by the gloss.
+   Clear continues: "viendo tomado[s] ... y mostrado ... por V. Mt. ..."
+
+2. f. 437v, line 4:
+   cipher   f~ z an sof [α ott ttt 4 ob α] f~
+   gloss    (interlinear) "... al de Ancona"
+   reading  [lo]s? al de A-n-c-o-n-a: the cardinal of Ancona (Pietro Accolti)
+   Context (clear): "... para cardenales en recamara suya, y especialmente [al de Ancona]; en este caso se ha
+   comportado como muy buen servidor de V. Mt."  Letter-by-letter alignment of the name is tentative.
+
+3. f. 437v, line 7:
+   cipher   f~ coh le g b o z d x z f~
+   gloss    (interlinear) "Su Sd. mejoro ayer"
+   reading  Su Santidad me-j-o-r-o a-y-e-r (coh, le = me, d = a, x = e as in the key)
+
+So all of R9665's cipher is read: two runs were deciphered by the receiving clerk, and the third is confirmed
+by the margin note. The key applies unchanged apart from the new hef = por.
