@@ -55,7 +55,7 @@ def main(a):
         role, name, f, what = a[1:5]
         if role not in ('sender', 'recipient'): sys.exit('role must be sender or recipient')
         f = f if f.startswith('File:') else 'File:' + f
-        known = {p['file']: p['img'] for v in data.values() for p in v}
+        known = {p['file']: p['img'] for v in data.values() for p in v if p.get('file')}
         img = known.get(f)
         if not img:
             q = 'https://commons.wikimedia.org/w/api.php?' + urllib.parse.urlencode({'action': 'query', 'titles': f,
@@ -64,7 +64,7 @@ def main(a):
             if not info: sys.exit(f'{f} not found on Commons')
             lic = info[0].get('extmetadata', {}).get('LicenseShortName', {}).get('value', '')
             if not re.search(r'public domain|^PD|CC0', lic, re.I): sys.exit(f'licence is {lic!r}: public domain or CC0 only')
-            used = {p['img'] for v in data.values() for p in v}
+            used = {p['img'] for v in data.values() for p in v if p.get('img')}
             img, n = f'portrait_{key(name)}.jpg', 2
             while img in used or (DOCS / img).exists(): img, n = f'portrait_{key(name)}-{n}.jpg', n + 1
             crop(Image.open(io.BytesIO(get(info[0]['thumburl']))).convert('RGB')).save(DOCS / img, quality=86, optimize=True)

@@ -125,6 +125,11 @@
    "what": "Portrait by Anthony van Dyck, 1636",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "William Boswell",
+   "img": null
   }
  ],
  "breves1603": [
@@ -135,9 +140,19 @@
    "what": "Portrait by Frans Pourbus the Younger, 1610",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Henry IV of france by pourbous younger.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Savary de Brèves",
+   "img": null
   }
  ],
  "castelcicala1816": [
+  {
+   "role": "sender",
+   "name": "Castelcicala",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Luigi de' Medici",
@@ -173,6 +188,11 @@
    "what": "Portrait, 1624",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Francesco Barberini.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Nuncio Ceva",
+   "img": null
   }
  ],
  "champagne1590": [
@@ -249,9 +269,19 @@
    "what": "Portrait, 16th century",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Tolomeo Gallio.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Anselmo Dandini",
+   "img": null
   }
  ],
  "deswart1782": [
+  {
+   "role": "sender",
+   "name": "Johan Isaac de Swart",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Van Bleiswijk",
@@ -303,6 +333,11 @@
  ],
  "feuquieres": [
   {
+   "role": "sender",
+   "name": "Feuquières",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Catinat",
    "img": "portrait_catinat.jpg",
@@ -313,6 +348,11 @@
  ],
  "gramont1529": [
   {
+   "role": "sender",
+   "name": "Gabriel de Gramont",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Anne de Montmorency",
    "img": "portrait_anne-de-montmorency.jpg",
@@ -322,6 +362,11 @@
   }
  ],
  "guiche1551": [
+  {
+   "role": "sender",
+   "name": "La Guiche",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Henry II",
@@ -360,6 +405,11 @@
   }
  ],
  "hellen1752": [
+  {
+   "role": "sender",
+   "name": "Hellen",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Frederick II",
@@ -503,6 +553,11 @@
  ],
  "lanssac": [
   {
+   "role": "sender",
+   "name": "Lanssac",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Charles IX",
    "img": "portrait_charles-ix.jpg",
@@ -523,6 +578,11 @@
  ],
  "lopehurtado": [
   {
+   "role": "sender",
+   "name": "Lope Hurtado de Mendoza",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Charles V",
    "img": "portrait_charles-v.jpg",
@@ -532,6 +592,11 @@
   }
  ],
  "lopehurtado1523": [
+  {
+   "role": "sender",
+   "name": "Lope Hurtado de Mendoza",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Charles V",
@@ -569,6 +634,11 @@
    "what": "Portrait, Frans Pourbus the Younger",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Henry IV of france by pourbous younger.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Maisse",
+   "img": null
   }
  ],
  "malvezzi1548": [
@@ -579,6 +649,11 @@
    "what": "Portrait, Jan Cornelisz Vermeyen",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Bemberg Fondation Toulouse - Portrait paintings of Ferdinand I, Holy Roman Emperor by Jan Cornelisz Vermeyen Inv.1056.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Malvezzi",
+   "img": null
   }
  ],
  "maria1435": [
@@ -617,6 +692,11 @@
    "what": "Portrait, Sofonisba Anguissola",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Bernardino de Mendoza",
+   "img": null
   }
  ],
  "mercoeur1586": [
@@ -657,9 +737,19 @@
    "what": "Anonymous portrait, c. 1596–99",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Giovan Francesco Cardinal Morosini.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal Montalto",
+   "img": null
   }
  ],
  "needham1587": [
+  {
+   "role": "sender",
+   "name": "Francis Needham",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Francis Walsingham",
@@ -847,6 +937,11 @@
  ],
  "r1944": [
   {
+   "role": "sender",
+   "name": "Etienne Bourdeaux",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Maarten van der Goes",
    "img": "portrait_maarten-van-der-goes.jpg",
@@ -856,6 +951,11 @@
   }
  ],
  "r2232": [
+  {
+   "role": "sender",
+   "name": "Wolff",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Wilhelmina of Prussia",
@@ -886,6 +986,11 @@
   }
  ],
  "raince": [
+  {
+   "role": "sender",
+   "name": "Nicolas Raince",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Anne de Montmorency",
@@ -933,6 +1038,11 @@
    "what": "Portrait attributed to Germain Le Mannier, 1547–59",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Catarina de' Medici Uffizi.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Bishop of Rennes",
+   "img": null
   }
  ],
  "reserva12": [
@@ -957,6 +1067,11 @@
  ],
  "riksarkivet1628": [
   {
+   "role": "sender",
+   "name": "Archbishop of Bremen",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Johan Adler Salvius",
    "img": "portrait_johan-adler-salvius.jpg",
@@ -966,6 +1081,11 @@
   }
  ],
  "rome1536": [
+  {
+   "role": "sender",
+   "name": "Cardinal de Mâcon",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Anne de Montmorency",
@@ -1015,6 +1135,11 @@
  ],
  "sadoleto1482": [
   {
+   "role": "sender",
+   "name": "Niccolò Sadoleto",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Ercole I d'Este",
    "img": "portrait_ercole-i-d-este.jpg",
@@ -1025,6 +1150,11 @@
  ],
  "sanchez1522": [
   {
+   "role": "sender",
+   "name": "Alonso Sánchez",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Charles V",
    "img": "portrait_charles-v.jpg",
@@ -1034,6 +1164,11 @@
   }
  ],
  "sanchez1523": [
+  {
+   "role": "sender",
+   "name": "Alonso Sánchez",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Charles V",
@@ -1051,6 +1186,11 @@
    "what": "Portrait, unknown artist, 16th century",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Prospero Santacroce.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal del Monte",
+   "img": null
   }
  ],
  "sauli1579": [
@@ -1075,6 +1215,11 @@
  ],
  "sessa1523": [
   {
+   "role": "sender",
+   "name": "Duke of Sessa",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Charles V",
    "img": "portrait_charles-v.jpg",
@@ -1084,6 +1229,11 @@
   }
  ],
  "sessa1524": [
+  {
+   "role": "sender",
+   "name": "Duke of Sessa",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Charles V",
@@ -1141,6 +1291,11 @@
  ],
  "soria1523": [
   {
+   "role": "sender",
+   "name": "Lope de Soria",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Charles V",
    "img": "portrait_charles-v.jpg",
@@ -1150,6 +1305,11 @@
   }
  ],
  "sormano": [
+  {
+   "role": "sender",
+   "name": "Sormano",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Francis I",
@@ -1161,6 +1321,11 @@
  ],
  "sormano1529": [
   {
+   "role": "sender",
+   "name": "Sormano",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Francis I",
    "img": "portrait_francis-i.jpg",
@@ -1170,6 +1335,11 @@
   }
  ],
  "spinelly1516": [
+  {
+   "role": "sender",
+   "name": "Thomas Spinelly",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Henry VIII",
@@ -1208,6 +1378,11 @@
   }
  ],
  "sunyatsen": [
+  {
+   "role": "sender",
+   "name": "“Tanaka”",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "Sun Yat-sen",
@@ -1283,6 +1458,11 @@
  ],
  "vanreede1787": [
   {
+   "role": "sender",
+   "name": "Van Reede",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Van de Spiegel",
    "img": "portrait_van-de-spiegel.jpg",
@@ -1292,6 +1472,11 @@
   }
  ],
  "vanreede1792": [
+  {
+   "role": "sender",
+   "name": "Van Reede",
+   "img": null
+  },
   {
    "role": "recipient",
    "name": "William V",
@@ -1327,6 +1512,11 @@
    "what": "Portrait by Michel Sittow, c. 1500",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Michel Sittow 004.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Jerónimo de Vich",
+   "img": null
   }
  ],
  "walsingham1585": [
@@ -1395,12 +1585,179 @@
  ],
  "yard1699": [
   {
+   "role": "sender",
+   "name": "Robert Yard",
+   "img": null
+  },
+  {
    "role": "recipient",
    "name": "Earl of Manchester",
    "img": "portrait_earl-of-manchester.jpg",
    "what": "Portrait by Sir Godfrey Kneller, c. 1712",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Charles Montagu, 1st Duke of Manchester by Sir Godfrey Kneller, Bt.jpg"
+  }
+ ],
+ "acciaiuoli1757": [
+  {
+   "role": "sender",
+   "name": "Filippo Acciaiuoli",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal Torrigiani",
+   "img": null
+  }
+ ],
+ "affry1757": [
+  {
+   "role": "sender",
+   "name": "Comte d'Affry",
+   "img": null
+  }
+ ],
+ "balbases1677": [
+  {
+   "role": "sender",
+   "name": "Marqués de los Balbases",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Baltasar de Fuenmayor",
+   "img": null
+  }
+ ],
+ "bergamo1585": [
+  {
+   "role": "sender",
+   "name": "Girolamo Ragazzoni",
+   "img": null
+  }
+ ],
+ "bordeaux1653": [
+  {
+   "role": "sender",
+   "name": "Antoine de Bordeaux",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Comte de Brienne",
+   "img": null
+  }
+ ],
+ "buda1489": [
+  {
+   "role": "sender",
+   "name": "Maffeo da Treviglio",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Ludovico Sforza",
+   "img": null
+  }
+ ],
+ "caprile1519": [
+  {
+   "role": "sender",
+   "name": "Caprile",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Alfonso I d'Este",
+   "img": null
+  }
+ ],
+ "dedem1788": [
+  {
+   "role": "sender",
+   "name": "Van Dedem",
+   "img": null
+  }
+ ],
+ "florence1429": [
+  {
+   "role": "sender",
+   "name": "Galeotto da Ricasoli",
+   "img": null
+  }
+ ],
+ "hernannunez1674": [
+  {
+   "role": "sender",
+   "name": "Hernán Núñez",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Baltasar de Fuenmayor",
+   "img": null
+  }
+ ],
+ "kauderbach1754": [
+  {
+   "role": "sender",
+   "name": "Kauderbach",
+   "img": null
+  }
+ ],
+ "lucini1767": [
+  {
+   "role": "sender",
+   "name": "Nuncio Lucini",
+   "img": null
+  }
+ ],
+ "ormanetto1576": [
+  {
+   "role": "sender",
+   "name": "Niccolò Ormanetto",
+   "img": null
+  }
+ ],
+ "r1874": [
+  {
+   "role": "sender",
+   "name": "Alvise Mocenigo",
+   "img": null
+  }
+ ],
+ "rechteren1785": [
+  {
+   "role": "sender",
+   "name": "Rechteren",
+   "img": null
+  }
+ ],
+ "roell1809": [
+  {
+   "role": "sender",
+   "name": "Roell",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Van Dedem",
+   "img": null
+  }
+ ],
+ "spaen1808": [
+  {
+   "role": "sender",
+   "name": "Van Spaen",
+   "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Maarten van der Goes",
+   "img": "portrait_maarten-van-der-goes.jpg",
+   "what": "Portrait, c. 1800",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Maarten van der Goes van Dirxland.gif"
   }
  ]
 }

@@ -1174,7 +1174,7 @@ def when_html(p, cls='when'):
 
 def avatars_html(slug):
     """The correspondents' portraits as a small overlapping pair, for cards and list rows."""
-    people = sorted(PORTRAITS.get(slug, []), key=lambda p: p['role'] != 'sender')
+    people = sorted(PICTURED.get(slug, []), key=lambda p: p['role'] != 'sender')
     if not people: return ''
     tip = html.escape(' → '.join(p['name'] for p in people), quote=True)
     return (f'<span class="avs" title="{tip}">' +
@@ -1188,6 +1188,8 @@ def card_html(p):
             f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    {avatars_html(p["slug"])}<span class="go">read &rarr;</span>\n  </a>\n')
 
 PORTRAITS = json.loads((HERE / '_portraits.json').read_text(encoding='utf-8')) if (HERE / '_portraits.json').exists() else {}
+# entries with no image are names only: the atlas shows them as a lettered circle, the pages and cards leave them out
+PICTURED = {k: [p for p in v if p.get('img')] for k, v in PORTRAITS.items() if any(p.get('img') for p in v)}
 
 def parties_html(people):
     """Sender and recipient portraits, sender first, an arrow between them when both are known."""
@@ -1262,8 +1264,8 @@ def process(path):
             s = s.replace('<main>', '<main>\n' + fig, 1)
     # the correspondents: sender and recipient portraits from _portraits.json, under the hero title
     s = re.sub(r'\n?<div class="parties">.*?</div><!-- /parties -->', '', s, flags=re.S)
-    if PORTRAITS.get(slug) and '<section class="hero">' in s:
-        s = re.sub(r'(<section class="hero">.*?</h1>)', lambda m: m.group(1) + parties_html(PORTRAITS[slug]), s, count=1, flags=re.S)
+    if PICTURED.get(slug) and '<section class="hero">' in s:
+        s = re.sub(r'(<section class="hero">.*?</h1>)', lambda m: m.group(1) + parties_html(PICTURED[slug]), s, count=1, flags=re.S)
     # drop inline style blocks made of shared rules only
     def strip_style(m):
         rules = re.findall(r'([^{}]+)\{', m.group(1))

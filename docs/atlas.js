@@ -54,7 +54,11 @@
 
   // ---------------------------------------------------------------- the filter state
   const F={who:[], city:null, route:null};           // who: up to two portrait keys, newest last
-  const matchWho=l=>F.who.every(k=>l.who.some(p=>p.img===k));
+  // a correspondent is keyed by their portrait, or by name when there is none; those get a lettered circle
+  const pk=p=>p.img||'n:'+p.name;
+  const initial=n=>(n.replace(/^[“"]|^(the |cardinal |nuncio |doge |duke of |bishop of |archbishop of |comte d’|comte d'|comte de |marqués de los |conde de |van der |van |de |la )+/gi,'')[0]||n[0]).toUpperCase();
+  const face=p=>p.img?`<img src="${esc(p.img)}" alt="" loading="lazy">`:`<span class="mono" aria-hidden="true">${esc(initial(p.name))}</span>`;
+  const matchWho=l=>F.who.every(k=>l.who.some(p=>pk(p)===k));
   const matches=(l,{route=true}={})=>matchWho(l) && (!F.city || l.from===F.city || l.to===F.city) && (!route || !F.route || l.route===F.route);
   const active=()=>F.who.length || F.city || F.route;
 
@@ -72,12 +76,12 @@
   // ---------------------------------------------------------------- correspondents
   const people=new Map();
   for(const l of letters) for(const p of l.who){
-    if(!people.has(p.img)) people.set(p.img,{key:p.img,name:p.name,img:p.img,letters:[],slugs:new Set()});
-    const q=people.get(p.img); q.letters.push(l); q.slugs.add(l.slug);
+    if(!people.has(pk(p))) people.set(pk(p),{key:pk(p),name:p.name,img:p.img,letters:[],slugs:new Set()});
+    const q=people.get(pk(p)); q.letters.push(l); q.slugs.add(l.slug);
   }
   const plist=[...people.values()].sort((a,b)=>b.letters.length-a.letters.length || a.letters[0].year-b.letters[0].year);
   const row=document.getElementById('arow');
-  row.innerHTML=plist.map(q=>`<button type="button" class="a-p" data-k="${esc(q.key)}" aria-pressed="false" title="${esc(q.name)}: ${q.letters.length} letter${q.letters.length>1?'s':''} on the map, ${Math.floor(q.letters[0].year)}${q.letters.at(-1).year-q.letters[0].year>=1?'–'+Math.floor(q.letters.at(-1).year):''}"><img src="${esc(q.img)}" alt="" loading="lazy"><b>${esc(q.name)}</b><i>${q.letters.length}</i></button>`).join('');
+  row.innerHTML=plist.map(q=>`<button type="button" class="a-p" data-k="${esc(q.key)}" aria-pressed="false" title="${esc(q.name)}: ${q.letters.length} letter${q.letters.length>1?'s':''} on the map, ${Math.floor(q.letters[0].year)}${q.letters.at(-1).year-q.letters[0].year>=1?'–'+Math.floor(q.letters.at(-1).year):''}">${face(q)}<b>${esc(q.name)}</b><i>${q.letters.length}</i></button>`).join('');
   const chips=[...row.querySelectorAll('.a-p')], chipOf=Object.fromEntries(chips.map(c=>[c.dataset.k,c]));
   chips.forEach(c=>c.addEventListener('click',()=>{
     const k=c.dataset.k, i=F.who.indexOf(k);
@@ -86,7 +90,7 @@
   }));
   document.getElementById('apq').addEventListener('input',e=>{ const q=e.target.value.trim().toLowerCase();
     chips.forEach(c=>{ c.hidden=q && !people.get(c.dataset.k).name.toLowerCase().includes(q); }); });
-  const avs=ps=>ps.length?`<span class="avs">${ps.slice(0,3).map(p=>`<img src="${esc(p.img)}" alt="">`).join('')}</span>`:'';
+  const avs=ps=>ps.length?`<span class="avs">${ps.slice(0,3).map(face).join('')}</span>`:'';
 
   const tip=document.getElementById('atip'), yearEl=document.getElementById('ayear'), countEl=document.getElementById('acount'),
         feed=document.getElementById('afeed'), slider=document.getElementById('aslider'), cap=document.getElementById('afilter');
@@ -105,6 +109,7 @@
             d3.select(l.el).transition().duration(1100).ease(d3.easeCubicOut).style('stroke-dashoffset',0).on('end',()=>{ l.el.style.strokeDasharray=''; pulse(l); });
             newest=l; } }
       } else { l.el.style.opacity=0; shown.delete(l.i); }
+      l.el.classList.toggle('off',!vis);
       l.hit.style.display=vis?'':'none';
     }
     bars.attr('class',b=>b.y<=t?'on':null);
@@ -122,11 +127,13 @@
     const spots=[];
     for(const k of F.who){ const q=people.get(k), seen=new Set();
       for(const l of q.letters){ if(l.year>T || !matches(l) || !on.has(l.st)) continue;
-        const role=(l.who.find(p=>p.img===k)||{}).role, c=role==='recipient'?l.to:l.from;
+        const role=(l.who.find(p=>pk(p)===k)||{}).role, c=role==='recipient'?l.to:l.from;
         if(!seen.has(c)){ seen.add(c); spots.push({k:k+'@'+c,img:q.img,name:q.name,c,p:P(c)}); } } }
     gPins.selectAll('g.pin').data(spots,d=>d.k).join(en=>{ const e=en.append('g').attr('class','pin');
-        e.append('circle').attr('r',15); e.append('image').attr('href',d=>d.img).attr('x',-13).attr('y',-13).attr('width',26).attr('height',26)
+        e.append('circle').attr('r',15);
+        e.filter(d=>d.img).append('image').attr('href',d=>d.img).attr('x',-13).attr('y',-13).attr('width',26).attr('height',26)
           .attr('clip-path','url(#pinclip)').attr('preserveAspectRatio','xMidYMid slice');
+        e.filter(d=>!d.img).append('text').attr('class','mono').attr('dy','.36em').attr('text-anchor','middle').text(d=>initial(d.name));
         e.append('title').text(d=>`${d.name} at ${d.c}`); return e; });
     placePins();
   }
@@ -155,7 +162,7 @@
   function routes(){
     const ls=letters.filter(l=>matches(l,{route:false}));
     const rs=d3.rollups(ls,v=>({n:v.length,slugs:new Set(v.map(l=>l.slug)).size,y0:d3.min(v,l=>l.year),y1:d3.max(v,l=>l.year),
-        who:[...new Map(v.flatMap(l=>l.who).map(p=>[p.img,p])).values()]}),l=>l.route)
+        who:[...new Map(v.flatMap(l=>l.who).map(p=>[pk(p),p])).values()]}),l=>l.route)
       .sort((a,b)=>b[1].n-a[1].n).slice(0,active()?30:9);
     top.innerHTML=rs.length?rs.map(([r,v])=>`<button type="button" data-r="${esc(r)}" aria-pressed="${r===F.route}">${avs(v.who)}<b>${esc(r)}</b><span>${v.n} letter${v.n>1?'s':''} &middot; ${v.slugs} write-up${v.slugs>1?'s':''} &middot; ${Math.floor(v.y0)}${v.y1-v.y0>=1?'&ndash;'+Math.floor(v.y1):''}</span></button>`).join('')
       :'<p class="none">No located letters for this choice.</p>';
