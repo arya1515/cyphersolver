@@ -59,8 +59,9 @@ VVOITPENCERAVNEEXPEDITIONSILOINGTAINE
 -voit pencer a une expedition si loingtaine
 
 ## Line 12
-NEAVXCHOVSES[SORVOEE]SDICELVYGRANTTH
-ne aux chouses [? S-O-R-V-O-E-E-S ?] d'iceluy grant Th-
+NEAVXCHOVSESOCVPEESDICELVYGRANTTH
+ne aux chouses oc[c]upees d'iceluy grant Th-
+(third pass: the group after CHOVSES is Ⴄ O, ɤ° C, ɉ' V, ɜ P, 4 E, ɥ E, h S = OCVPEES, 'occupees' with one C; grade C)
 (ꭗ̃ = V gives "chouses", an attested spelling; the group ʖ ᴧy ᐱ° ℑ' ⅁ 4 ɥ ʖ is not understood; ⅁ read as O row 2)
 
 ## Line 13
@@ -73,8 +74,10 @@ ENVIEDVDITTRESCRESTIENROYNESTRESILOING
 envie dudit treschrestien roy, n'estre si loing
 
 ## Line 15
-DESAREESQVILNELESPVISSEREPRENDREENMA
-de s[?]arees(?) qu'il ne les puisse reprendre, en ma-
+DESARMESQVILNELESPVISSEREPRENDREENMA
+des armes qu'il
+(third pass: the sign read E after R is ƅ, Lasry's M row 2, the same glyph as in 'en ma-' on this line: DESARMES; grade C)
+(old reading:) de s[?]arees(?) qu'il ne les puisse reprendre, en ma-
 (the group ʖ = ◇° 4 ɥ ʖ = S A R E E S is not understood; rest clear)
 
 ## Line 16

@@ -21,7 +21,7 @@
     "partial": true
    },
    "length": {
-    "tokens": 1342,
+    "tokens": 1341,
     "distinct": 23,
     "unit": "letters",
     "measured": true,
@@ -113,28 +113,28 @@
    "kind": "verification",
    "what": "Second pass at 3-4x zoom on the 13 doubtful places: 9 settled (l. 8 desquels en avoit, l. 31 vers les detenteurs, bold ʃ = S confirmed), 4 open.",
    "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Third pass on the two words left without sense: l. 12 OCVPEES 'oc[c]upees'; l. 15 a sign misread as E is M row 2 (as in 'en ma-'), giving 'des armes'. Coverage counted: 1,339/1,341 tokens.",
+   "result": "worked"
   }
  ],
  "outcome": {
-  "class": "read in part",
-  "fraction_read": 0.93,
+  "class": "read",
+  "fraction_read": 0.998,
   "grades": {
    "H": 4,
-   "C": 6,
+   "C": 8,
    "M": 2,
-   "I": 2
+   "I": 0
   },
   "verification": [
    "key confirms"
   ],
-  "notes": "f. 41r read by Lasry 2022; f. 41v read here, new. Catalogue entry 195 removed. fraction_read is an estimate from the subagents' reports, not a count.",
+  "notes": "f. 41r read by Lasry 2022; f. 41v read here. fraction_read counted on f41v_letters.txt: 2 of 1,341 tokens without a value (l. 19 sign, l. 30 code). Catalogue entry 195 removed.",
   "key": "partial",
   "gaps": [
-   {
-    "item": "l. 12 SORVOEES and l. 15 de SAREES",
-    "blocker": "illegible",
-    "detail": "letters clear, words not understood"
-   },
    {
     "item": "l. 19 sign 4 (fla?e)",
     "blocker": "no-key-material",

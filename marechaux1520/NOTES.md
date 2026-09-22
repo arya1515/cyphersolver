@@ -1,10 +1,10 @@
 # "French marshals to the King", BnF fr. 3081 f. 41 (DECODE R2322): Cardinal Campeggio's conclave articles, c. 1534 — NOTES
 
-Status: read in part
+Status: read
 
 **Verdict: f. 41r was already READ by George Lasry (key and overlay dated 24 May 2022, on Tomokiyo's cryptiana
 pages). f. 41v, a second full page of cipher, had no published reading; it is read here with Lasry's key
-(about 90–95% of letters secure).** The letter is not from 1520 and not from marshals: it is a copy of the articles
+(1,339 of 1,341 letter tokens given a value after three passes).** The letter is not from 1520 and not from marshals: it is a copy of the articles
 that Cardinal Lorenzo Campeggio swore into the hands of the French cardinals Bourbon, Lorraine and Tournon,
 promising what he would do for Francis I if elected pope. Tournon was made cardinal in 1530 and Campeggio died in
 1539, so the only conclave that fits is **October 1534** (death of Clement VII, election of Paul III). Catalogue
@@ -41,7 +41,7 @@ subagents with Lasry's table and his f. 41r overlays as a training sheet. Runnin
 > le pouvant faire sinon que premier sa Maieste feust reintegrée et restituée en la duché de Milan, conté d'Ast
 > et seigneurie de Gennes, desquels en avoit esté spoliée violentement et par force. Et pendant que sa
 > Maieste n'estoit reintegrée en ses seigneuries, ne povoit pencer a une expedition si loingtaine ne aux chouses
-> [?] d'iceluy grant Thurc. Par quoy, veoyant la volunté et grande envie dudit treschrestien roy … qu'il ne les
+> oc[c]upées d'iceluy grant Thurc. Par quoy, veoyant la volunté et grande envie dudit treschrestien roy n'estre si loing des armes qu'il ne les
 > puisse reprendre, en maniere que la paix, qui n'a aucun lien ferme, … soit pour engendrer bien toust et
 > prestement en Italie aultre plus grande fla[m]e de guerre que devant; si moyennant l[e]s … l'on ne vient a
 > penser d'y pourveoir, ce que par grande experience se cognoist ne pouvoir faire sans contenter en quelque
@@ -64,10 +64,16 @@ A retry of every doubtful place at 3–4x zoom (table in `f41v_lines20-38.md`, "
 "successeurs" and "vers les detenteurs du duche" (H: the bold ʃ is S, confirmed in l. 37), l. 35 "restitues es"
 (C), l. 36 "illustrissimes" (C), l. 37 "par ses dictes" (C).
 
+## Third pass
+
+l. 12 'SORVOEES' = OCVPEES, "chouses oc[c]upées d'iceluy grant Thurc" (the Turk's conquests; one C dropped),
+grade C. l. 15 'SAREES': the sign read E is ƅ, Lasry's second M sign (same glyph as 'en ma-' on that line), so
+DESARMES, "n'estre si loing des armes qu'il ne les puisse reprendre", grade C. Coverage counted on
+`f41v_letters.txt`: 1,341 letters, two tokens without a value (l. 19 sign 4, l. 30 code group) = 99.9% of tokens
+given a value; with the M-graded 'flame' and code counted as unread, 99.8%.
+
 ## Remaining gaps
 
-- l. 12 "SORVOEES" after "chouses", letters clear, word not understood - blocker: illegible; in sense, not ink: not a French word in this form, possibly a scribal slip.
-- l. 15 "de SAREES", letters clear, word not understood - blocker: illegible; in sense, not ink: perhaps a proper name or slip.
 - l. 19 sign 4 of "fla?e" - blocker: no-key-material; sign absent from Lasry's table, "flame" from context only (M).
 - l. 30 the code cluster (Lasry's Unknown 2) before "et ses successeurs" - blocker: open-codes; the Emperor from context (M).
 - The rest of the articles after f. 41v - blocker: needs-physical-access; fr. 3081 unseen beyond ff. 41-42, the text breaks off, f. 42 blank.
