@@ -1,6 +1,6 @@
 # Giuliano Caprile (catalogue 157) and Alfonso Cistarelli (catalogue 158), Ferrarese agents in Hungary 1519–1521 — NOTES
 
-Status: written up (docs/caprile1519.html)
+Status: in progress (written up in docs/caprile1519.html; R1137 and R1128 still unread, known-keys and retry steps open)
 
 **Verdict.** Catalogue 157 (Caprile, 7 records) and 158 (Cistarelli, R1137). Of Caprile's records, R1129–R1135 were
 read at the time or in 1882 (clear copies filed as "b"/"c", or interlinear glosses), and R1138 was deciphered by W. Somogyi

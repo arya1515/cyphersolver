@@ -1,5 +1,7 @@
 # BnF Espagnol 318: the five ciphered letters, 1497–1504 (catalogue no. 9)
 
+Status: in progress (written up in docs/esp318.html; nos. 94 and 95 f. 122v unread, known-keys, key-rebuild and retry steps open)
+
 Session of 17 September 2026. Target as set: "solve Espagnol 318 nos. 5, 93–95 … open the ark, count symbols,
 check for a gloss." The volume (ark `btv1b52503046q`, 486 canvases, 127 folios, ex-Ruffo Scilla collection, bought
 by the BnF in 1857; Morel-Fatio no. 172) holds **five** letters wholly or partly in cipher, not four: the catalogue
