@@ -56,10 +56,10 @@ secure + probable French:
 |---|---|---|---|
 | fr. 3181 f. 55, Catherine | 31 July 1563 | `f55_v2_reading.md` | ~91% (80 secure, 11 probable) |
 | 500 Colbert 390 pp. 357-358 | late summer 1564 | `c390_p357_reading.md` | ~99% (88 secure, 11 probable) |
-| 500 Colbert 392 p. 231, Bourdin | Dec 1562 | `c392_p231_reading.md` | ~80% |
-| 500 Colbert 390 p. 139, "Deschiffrez vous mesmes" | 1562-63 | `c390_p139_v3_reading.md` | ~63% (36 secure, 27 probable) |
+| 500 Colbert 392 p. 231, Bourdin | Dec 1562 | `c392_p231_reading.md` | ~85% |
+| 500 Colbert 390 p. 139, "Deschiffrez vous mesmes" | 1562-63 | `c390_p139_v3_reading.md` | ~65% (37 secure, 28 probable) |
 
-Token-weighted, about 82% of the 2,035 transcribed signs.
+Token-weighted, about 87% of the 2,310 transcribed signs.
 
 - **f. 55**: Council of Trent and the Habsburg marriage; "avancer le concile", "pour le bien
   de la Chrestienté", "ce qui se promect des sessions de Decembre, desquelz vous avez oy
@@ -95,8 +95,8 @@ This is setup and key calibration, not a completed decipherment. No continuous r
 ## Remaining gaps
 - fr. 3181 f. 55, about 9% of signs (ꝥ, ɼ, εʃ, ɾ, 'h Ə'; runs on lines 4, 8, 9) - blocker: no-key-material; the signs occur in no glossed passage in this hand (f. 57-58 aligned in full; the Colbert 390 glosses are in another hand)
 - 500 Colbert 390 p. 358, six signs (line 4-5) and the head of '[ajour/gouver]nement' - blocker: no-key-material; p. 358 continues p. 357's cipher (found 21 Sept, not previously transcribed)
-- 500 Colbert 392 p. 231, about 20% (runs on lines 4, 5, 7, 8-9, 11-17, 22) - blocker: no-key-material; W, ss, tt, πꝫ, t7 and "maue" occur once or twice and in no glossed passage of Colbert 390 pp. 189-231
-- 500 Colbert 390 p. 139, about 37% (lines 3-4, 7, 8-10, 12-14) - blocker: illegible; faint ink and heavy nulls; ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ unglossed anywhere found
+- 500 Colbert 392 p. 231, about 15% (runs on lines 4, 5, 7, 8-9, 11-17, 22) - blocker: no-key-material; W, ss, tt, πꝫ, t7 and "maue" occur once or twice and in no glossed passage of Colbert 390 pp. 189-231
+- 500 Colbert 390 p. 139, about 35% (incl. three code words ẟ+superscript for persons/places) (lines 3-4, 7, 8-10, 12-14) - blocker: illegible; faint ink and heavy nulls; ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ unglossed anywhere found
 
 ## Escalation
 - [x] siblings: sister volumes Colbert 391, 394, 395 surveyed (sister_volumes.md): no deciphered passage in this cipher; fr. 3181 f. 52, f. 57, f. 58 and Colbert 390 pp. 138, 189/199, 221-231, 241 opened; f. 57-58 and p. 138 give the hands' values; Colbert 392 p. 232 is the clear end of the Bourdin letter

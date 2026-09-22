@@ -345,6 +345,12 @@
    "kind": "crib",
    "what": "Full decipherments aligned: Colbert 390 p.317/p.313 (ẟ=com, W=ss, π=h, Ꝫ=p) and p.117-118/p.120-121 (ẟ+superscript = code word, ẟa=Allemaigne; 7=nous; ⊥⊥=pour); 1564 glossed pp.339-349 (∂ˡ=Metz). Applied to p.139 (~65%) and Colbert 392 (~85%).",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Surveyed sister volumes 500 Colbert 391, 394, 395 (Bochetel correspondence series) for deciphered Rennes-cipher passages: none; only a Tournon 1557 cipher and a Boistaillé 1561 figure cipher, both undeciphered. Colbert 396, 393 and fr. 3180/3182 not surveyed.",
+   "result": "failed"
   }
  ],
  "outcome": {
@@ -361,21 +367,21 @@
     "detail": "p.358 continues p.357's cipher; 99% of 753 signs read, the rest unglossed"
    },
    {
-    "item": "500 Colbert 392 p. 231, about 20% (runs in lines 4, 5, 7, 8-9, 11-17, 22)",
+    "item": "500 Colbert 392 p. 231, about 15% (runs in lines 4, 5, 7, 8-9, 11-17, 22)",
     "blocker": "no-key-material",
     "detail": "W, ss, tt, πꝫ, t7, ꝛ-variant, 'maue' occur once or twice and in no glossed passage of Colbert 390 pp.189-231"
    },
    {
-    "item": "500 Colbert 390 p. 139, about 37% (lines 3-4, 7, 8-10, 12-14)",
+    "item": "500 Colbert 390 p. 139, about 35% (lines 3-4, 7, 8-10, 12-14)",
     "blocker": "illegible",
     "detail": "faint ink; ẟ, ẟao, ẟar, ℛ, ℞, aʓ, Ꝫ, ſſʓ unglossed anywhere found; heavy nulls"
    }
   ],
-  "fraction_read": 0.82,
+  "fraction_read": 0.87,
   "fraction_read_method": "estimated",
-  "fraction_read_source": "token-weighted mean of the per-letter secure+probable shares in f55_v2_reading.md (0.91 of 402), c390_p357_reading.md (0.94 of 478), c392_p231_reading.md (0.80 of 719), c390_p139_v3_reading.md (0.63 of 436)",
+  "fraction_read_source": "token-weighted mean of per-letter secure+probable shares: f55_v2_reading.md 0.91 of 402; c390_p357_reading.md 0.99 of 753 (pp.357-358); c392_p231_reading.md 0.85 of 719; c390_p139_v3_reading.md 0.65 of 436",
   "key": "recovered",
-  "fraction_coherent": 0.82,
+  "fraction_coherent": 0.87,
   "verification": [
    "key confirms",
    "historical consistency"
