@@ -25,5 +25,7 @@ Before finding the overlays, this session deciphered no. 11 (f. 26) with Tomokiy
 Tomokiyo's overlay reads some passages better (for example "la regence de l'estat", where the reading here has
 "la regaigner"). Nos. 62 and 100 were not re-read. Nothing is added to Tomokiyo's reading, so there is no write-up.
 
-Catalogue entry 18 removed on 21 Sept 2026. No DECODE record was found, so there is nothing to queue.
+Catalogue entry 18 removed on 21 Sept 2026. DECODE has no record of these letters: the full record list (10,106
+records, `catalogue_harvest/decode/list.json`, 18 Sept 2026) has no BnF fr. 3983/3984/3985 holding and no Lebel,
+so there is nothing to queue.
 Tomokiyo also lists three more letters in the same cipher in BnF esp. 336 ff. 158-160 (nos. 79-81).
