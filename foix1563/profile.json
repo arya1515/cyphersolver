@@ -188,6 +188,12 @@
    "kind": "hypothesis",
    "what": "Two tokens per letter: token parity within each passage is flat, so the hypothesis is not supported.",
    "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "anneal3.py SYL=1: tokens map to a letter or one of 30 French bigrams; no language.",
+   "result": "failed"
   }
  ],
  "outcome": {

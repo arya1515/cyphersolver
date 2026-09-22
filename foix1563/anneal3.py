@@ -27,8 +27,12 @@ seq = np.array([tid[t] for t in toks]); L = len(seq)
 
 NUL = os.environ.get('NUL') == '1'
 KA = A + 1 if NUL else A
+BG=['es','en','de','le','re','nt','ou','qu','on','ai','an','er','te','se','ur','co','ne','me','la','ce','it','ie','us','ss','pa','po','ra','ma','ue','mo']
+SYL=os.environ.get('SYL')=='1'
+VAL=[[IX[c]] for c in LET]+([[IX[a],IX[b]] for a,b in BG] if SYL else [])
+NV=len(VAL)
 def score(key):
-    x = key[seq]
+    x = np.array([v for k in key[seq] for v in VAL[k]]) if SYL else key[seq]
     if NUL:
         x = x[x < A]
         pen = -float(os.environ.get('NP','10.5')) * (L - len(x))
@@ -38,14 +42,14 @@ def score(key):
     return float(Q[q].sum()) + pen
 
 def run(iters, rng):
-    key = np.array([rng.randrange(KA) for _ in types])
+    key = np.array([rng.randrange(NV if SYL else KA) for _ in types])
     s = score(key); best = (s, key.copy())
     T0 = float(os.environ.get('T0', '15'))
     for k in range(iters):
         T = T0 * (0.01 ** (k / iters))
         i = rng.randrange(len(types)); old = key[i]
         if rng.random() < 0.5:
-            key[i] = rng.randrange(KA); j = None
+            key[i] = rng.randrange(NV if SYL else KA); j = None
         else:
             j = rng.randrange(len(types)); key[i], key[j] = key[j], key[i]
         ns = score(key)
@@ -57,7 +61,7 @@ def run(iters, rng):
             else: key[i], key[j] = key[j], key[i]
     return best
 
-def show(key): return ''.join((LET+'_')[k] for k in key[seq])
+def show(key): return ''.join(''.join(LET[v] for v in VAL[k]) for k in key[seq]) if SYL else ''.join((LET+'_')[k] for k in key[seq])
 
 if __name__ == '__main__':
     R, N, seed = (int(a) for a in (sys.argv[1:4] + ['4', '200000', '1'][len(sys.argv) - 1:]))
@@ -66,4 +70,4 @@ if __name__ == '__main__':
         s, key = run(N, rng); res.append((s, r, key))
         print(f'restart {r}: {s / L:.3f}  {show(key)[:150]}', flush=True)
     s, _, key = max(res, key=lambda z: z[0])
-    print('BEST', s / L); print(' '.join(f'{t}={(LET+"_")[key[tid[t]]]}' for t in types)); print(show(key))
+    print('BEST', s / L); print(' '.join(f'{t}={show(np.array([key[tid[t]]]))}' for t in types) if False else ''); print(show(key))

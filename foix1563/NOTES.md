@@ -40,7 +40,8 @@ the ciphered passages, numbered, with the letter named in the margin.
   to "ereseue…") in French or English, with or without nulls. So either the transcription merges or splits too many
   signs, or the system is not a one-token-per-letter homophonic (polyphonic values, syllables). Italian, Spanish and
   Latin corpora give the same null result (r4_*.txt). A letter-pair unit is unlikely: token parity within each passage
-  is flat.
+  is flat. A syllabic variant (SYL=1: a token may stand for one letter or one of 30 common French bigrams) is
+  also negative (r5_syl.txt).
 - Tooling note: the shared `lang` dense model (`fr-1530-despatches`, `en-modern`, order 5, no spaces) scores "eeee…"
   at −0.26/char, so an annealer on it collapses to runs of one letter. `anneal.py` shows that failure; use a
   joint-count table as in `anneal3.py`.
