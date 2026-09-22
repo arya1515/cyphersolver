@@ -5155,8 +5155,8 @@
    "records": {
     "R9966": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Cipher read in part (~85%) with Luo's Cifrario 38; letter is Italian, not Spanish; one cancelled line and a dozen groups under cancelling strokes open.",
+     "proposed": "Decrypted",
+     "note": "Cipher read (96% of plaintext letters) with Luo's Cifrario 38; letter is Italian, not Spanish; about ten signs doubtful.",
      "reading": "decode_updates/decryptions/R9966.txt",
      "sent": false
     }

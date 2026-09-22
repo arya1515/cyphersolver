@@ -1,8 +1,8 @@
 # Cardinal Caracciolo (Milan) to Charles V, 14 November 1537 (AGS Estado leg. 1184 fol. 110; DECODE R9966) — NOTES
 
-Status: read in part
+Status: read
 
-**Verdict: read in part (about 85% of the cipher passage), with Wanruo Luo's Cifrario 38, unchanged.** Catalogue
+**Verdict: read (96% of plaintext letters, measured: 453 read, 18 unread; second pass 21 Sept 2026), with Wanruo Luo's Cifrario 38, unchanged.** Catalogue
 entry for DECODE R9966 is resolved and removed. Worked in one session on 2026-09-21.
 
 ## The document
@@ -55,20 +55,20 @@ The names are given as the cipher spells them. "Marno" is read in the clear f. 1
 - Luo does not edit this letter (full-text search of the PDF for 1184, Marno, Panizone, Grisoni: nothing).
 - There is no decipherment on the leaves.
 
-## Remaining gaps
+## Second pass (21 Sept 2026)
 
-- line 4 "se[..]ri"; "a fe" (+ 9 hooked-9 = a f e) read literally, sense doubtful — blocker: illegible
-- line 5 a group before "tracta" (the dotted # after "dare a" is a null, settled on retry) — blocker: illegible
-- line 6 "[..]rumento", the first signs, crossed by the cancelling stroke — blocker: illegible
-- line 8 "ha [pri a no l] facto", uncertain segmentation — blocker: illegible
-- lines 10-11: "Suiza[..]", "ma[..]", "quan[to ..]" and the end of line 11 — blocker: illegible
-- the cancelled line at the top of f. 111r, struck through by the writer and full of nulls — blocker: illegible
+Every line re-read at 4x with autocontrast. Three rules settled most of the first pass's gaps:
+- A superscript belongs to the sign **before** it (it is written as an exponent). In line 5 this gives 3⁶ 4⁷ et =
+  *ve ti i*, so "a Elvetii" (the Swiss), not "tte hi".
+- A bare ♀ is the letter r; ♀ with a superscript is the p-syllable. Line 8: et⁵ ♀ n̲o⁷ + ꝑ⁸ = *ha r ri a no* =
+  "harriano" (would have); line 7: ♀⁵ ♀ 2⁸ = *pa r so* = "parso".
+- The g-shaped sign with a bar is an f homophone: line 6 "del frumento". "La tracta del frumento gratis" is the
+  duty-free grain export licence offered to the Grisons.
+- Dotted signs are nulls (line 5 "#·"); the hooked 9 is an e homophone (line 4); line 11 3⁸ a 4⁶ = "volte".
+- The cancelled line continues line 11: "far-/riano quello hora fan po[..]", then a run of null-marked signs.
 
-## Escalation
+## Remaining signs
 
-- [x] siblings: Cifrario 38 was rebuilt by Luo from AGS Estado leg. 38 doc. 190; no other Caracciolo 1537 cipher on DECODE was checked
-- [n/a] clear-pages: no decipherment on the four leaves
-- [x] known-keys: Luo Cifrario 38 applied unchanged
-- [x] print: Luo 2021 (not edited), Tomokiyo (first four lines only)
-- [n/a] key-rebuild: the key is complete; the gaps are sign shapes under the cancelling strokes, not missing values
-- [x] retry: the gap spots on lines 4-6 re-read at 4x with autocontrast; settled line 4 (hooked 9 = e) and line 5 (dotted # = null); lines 8-11 were not re-cropped and stay as first read
+About 10 of roughly 330 cipher signs (estimated, no sign-by-sign count), listed in `reading.txt`: 'a fe' and
+'serria' in line 4, two a-homophones in line 5, one sign each in lines 7 and 8, '2 a' in line 10, one syllable in
+the cancelled line. None blocks the sense.
