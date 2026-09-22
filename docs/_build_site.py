@@ -53,7 +53,7 @@ GENERATED = [
     r'<!-- replay:start -->.*?<!-- replay:end -->\n?', r'<script src="solve-replay\.js[^"]*" defer></script>\n?',
     r'<script src="zoom\.js[^"]*" defer></script>\n?',
     r'<!-- live:start -->.*?<!-- live:end -->\n?', r'<script src="home\.js[^"]*" defer></script>\n?',
-    r'<meta name="(?:date|last-modified)"[^>]*>', r'\?v=\d+[a-z]*',
+    r'<meta name="(?:date|last-modified)"[^>]*>',
 ]
 
 def normalise(s):
@@ -67,6 +67,7 @@ def normalise(s):
     s = re.sub(r'<time class="fdate"[^>]*>.*?</time>', '', s, flags=re.S)   # inserted flush, remove flush
     s = re.sub(r'<p class="meta">.*?</p>', ' ', s, count=1, flags=re.S)     # the hero dateline only: some pages
                                                                            # use .meta again in the body for notes
+    s = re.sub(r'\?v=\w+', '', s)      # version stamps vanish without a trace, so a newly stamped src hashes as before
     for pat in GENERATED: s = re.sub(pat, ' ', s, flags=re.S)
     return re.sub(r'\s+', ' ', s).strip()
 
@@ -1285,6 +1286,9 @@ def process(path):
     # versions, anchor for "Top", script
     s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
     if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)
+    # page scripts carry a hash of their own content, so an edit reaches browsers without a VERSION bump
+    s = re.sub(r'<script src="(secret|cipher-reveal)\.js(?:\?[^"]*)?"',
+               lambda m: f'<script src="{m.group(1)}.js?v={hashlib.sha1((HERE / (m.group(1) + ".js")).read_bytes()).hexdigest()[:8]}"', s)
     s = re.sub(r'<script src="site.js[^"]*"></script>\s*', '', s)
     s = s.replace('</body>', f'<script src="site.js?v={VERSION}"></script>\n</body>', 1)
     s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)

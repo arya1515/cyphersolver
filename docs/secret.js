@@ -113,7 +113,7 @@
     ctx.fillText(`In the cipher of ${key.who}, ${key.year}`,M,150);
     ctx.globalAlpha=1; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(M,172); ctx.lineTo(M+180,172); ctx.stroke();
     let y=270;
-    if(to){ ctx.font='italic 38px "IM Fell English", Georgia, serif'; ctx.fillText(to,M,y-10); y+=80; }
+    if(to){ ctx.font='italic 40px "IM Fell English", Georgia, serif'; ctx.fillText(to,M,y-10); y+=80; }
     for(const line of lines){
       for(const {t,w,x} of line){
         const jx=(rand()-.5)*2, jy=(rand()-.5)*3;
