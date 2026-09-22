@@ -1,6 +1,7 @@
 # János Pápai (Constantinople) to Ferenc Rákóczi II, 1706–1710 — DECODE R731, R740, R741, R757, R765, R784, R793–R796, R805, R823
 
-Status: read in part — eleven of the twelve letters read with the envoy's own key; R731 (graphic signs) not read.
+Status: read in part — eleven of the twelve letters read with the envoy's own key (second pass: 16,641 of 16,698
+numeric groups, 99.7%); R731's graphic-sign passages transcribed tentatively and attacked, not read.
 
 Catalogue entry 46 (class B, scored by rule). Worked 21 Sept 2026. Archive images are not in the public domain
 (DECODE: publishing only with the archive's permission); they are kept git-ignored in `img/`, and only derived text is
@@ -118,14 +119,49 @@ transcriber noted as "symbols which do not occur in the key itself": probably a 
 `fetch.py` (DECODE pages, transcriptions, images via the project cookie), `decode.py` (the table decoder),
 `DOC_*.txt` (DECODE transcriptions and keys), `*_read.txt` (decoded output), `R740_transcription.txt`.
 
+## Second pass (21 Sept 2026, later session)
+
+**Numeric residue.** `decode2.py` re-reads every DECODE transcription with four rules on top of `decode.py`:
+1. run-together groups (4–6 digits, e.g. `273159`, `83193`, `20561`) are split into key values: 84 groups,
+   reading *meg*, *uram*, *vol*, *azut*, *alt* and so on (grade C: a few splits, such as `109422`, give doubtful text);
+2. a split group is re-joined with its neighbour when the join is a key value and the parts are not (`1 00`, `4 4`,
+   `3 08`): 14 groups;
+3. 3-digit groups above 322 are nulls in every letter, as the interlinear decipherer treats them in R793–R796
+   (316 groups), except R823, whose 400–1000 figures are clear numerals (19);
+4. **220 = a** (grade C). 220 is not on the key sheet but occurs 11 times in R765, and in context it is *a* in eight
+   (*…olvan a mediatio*, *de a valóság*, *irok a Királynak*): an unlisted homophone next to A 219|229, or a slip.
+
+Result: 16,641 of 16,698 numeric groups read (99.66%). The 57 still open are scattered single groups (0–9, 110,
+120, 160, 200 …), mostly fragments of split groups; `retry_groups.py` scored every key value in context with a
+4-gram model of Pápai's own text and none wins by a clear margin (`retry_groups.tsv`). About 41 more tokens are
+marked with `?` by DECODE's transcribers (illegible to them). The reading files are `<record>_read2.txt`.
+
+**R731, the graphic signs.** The six passages were transcribed from the images at 1.8–1.9× zoom into
+`R731_signs.txt` (about 330 signs, 15 sign types plus dot clusters). The transcription is tentative: the low swash
+stroke may be a pen link rather than a sign, and the dots above and below the bars (÷, ∴, ::) were collapsed into
+one token, although they may be vowel marks. The key copy R581's corner line, read the right way up, is a line of
+the same kind of signs, not an alphabet, so it gives no key.
+
+`solve731.py` is a swap-annealing substitution solver with a 4-gram model trained on Pápai's deciphered letters.
+On a control (Pápai's own text cut to the same line lengths and enciphered at random) it recovers the text exactly
+(−8.96 per 4-gram, against −8.87 for real text). On R731 it reaches only about −10.1 under every reading tried:
+as transcribed, dots dropped, swash dropped, reversed. So R731 is not a simple Hungarian substitution *on this
+transcription*. Either signs are merged in it or the dot patterns carry letters. Neither can be settled from the
+2448-px camera images. The recurring group `~n~s` has the letter pattern of *Pasa* read backwards, but this
+did not lead to a key.
+
+**Print.** Benda (ed.), *Pápai János törökországi naplói* (Budapest: Szépirodalmi, 1963, Magyar Századok) is not
+online (antiquarian copies only). It needs a library copy.
+
 ## Remaining gaps
-- R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs - blocker: not-attempted; not transcribed; 2448-px images judged too poor for a secure sign transcription; the graphic-sign line on R581 not tried
-- ~209 numeric groups across R823, R765, R784, R757, R741, R793–R796 - blocker: open-codes; digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images
+- R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~330 signs - blocker: illegible; tentative transcription in R731_signs.txt; sign segmentation and dot counts cannot be fixed from the 2448-px camera images, and a control-validated substitution solver finds no Hungarian on it; needs better images or the sign alphabet
+- 57 numeric groups across R757, R765, R793–R796, R823 - blocker: illegible; split or slipped digits in DECODE's transcriptions that no key value fits by context (retry_groups.tsv); about 41 further tokens marked '?' by DECODE
+- Benda (ed.), Pápai János törökországi naplói (1963) - blocker: needs-physical-access; not online
 
 ## Escalation
 - [x] siblings: twelve Papai records (R793–R796 added from catalogue 47) plus key copies R580, R581, R452 opened
-- [ ] clear-pages: not done — check the Rakoczi chancery papers (MNL OL G15) for contemporary decipherments of R731
-- [x] known-keys: R580/R581/R452 applied to all eleven numeric letters
-- [ ] print: not done — Benda (ed.), Papai Janos torokorszagi naploi (1963) not checked
-- [ ] key-rebuild: not done — use the sign line on R581's corner as a partial graphic alphabet and solve R731 monoalphabetically
-- [ ] retry: not done — re-read the ~178 off-key groups on the images
+- [x] clear-pages: R731's three pages are clear apart from the sign passages, with no interlinear or decipherment; R581's corner sign line checked (cipher, not an alphabet)
+- [x] known-keys: R580/R581/R452 applied to all eleven numeric letters; no graphic alphabet among them
+- [x] print: Benda 1963 searched for online (antikvarium.hu only); DECODE and web searched, nothing printed online
+- [x] key-rebuild: numeric key extended (220 = a, splits, joins, nulls above 322, decode2.py); R731 attacked with a control-validated swap annealer (solve731.py), no solution
+- [x] retry: every off-key group rescored in context (retry_groups.py) and regraded; 57 remain
