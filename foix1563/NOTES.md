@@ -26,7 +26,7 @@ the ciphered passages, numbered, with the letter named in the margin.
 
 - Margin: "La Reine-mere de France a Mr de Foix Ambass: en Angleterre. 15 Jan 1563". Passages (1)-(4), about 1.3 pp.
   Paul de Foix was the French ambassador in London. The English evidently intercepted the letter.
-- Not in Forbes ii, and not in *CSP Foreign* vi pp. 1-123 (checked every "Queen Mother to" entry and every de Foix
+- Not in Forbes ii, and not in *CSP Foreign* vi (all 60 pages of the volume searched for Queen Mother or Catherine with de Foix; every de Foix
   mention), and not in La Ferrière, *Lettres de Catherine de Médicis* i (1880), whose 15 Jan 1563 letters are both
   to Gonnor (from Chartres); vol. ii's letters to de Foix start in May 1563. No decipherment or clear copy is known.
 - Sign set: Latin letters, digits, ligatures (ch, so, t6, qs, sz, ff …), a few two-digit numbers (30, 84, 83, 93 …) and
