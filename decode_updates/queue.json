@@ -5063,6 +5063,30 @@
      "sent": false
     }
    }
+  },
+  "desmarets1710": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/desmarets1710.html",
+   "key": {
+    "none": "no key found on DECODE (French keys 1700-1715 checked) or in print"
+   },
+   "cite": null,
+   "fields": {
+    "cipher_types": "nomenclator (numerical code, ~570 values), interleaved line by line with clear French",
+    "cleartext_lang": "French"
+   },
+   "records": {
+    "R10198": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not read. The French lines between the figure lines are clear text (the letter's unencrypted part, on the Geertruidenberg talks), not a decipherment of the figures: no consistent group-to-text mapping under four alignment models. The code part (471 groups, 1-568) is unread. Transcription attached.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "desmarets1710/transcription.txt"
+     ]
+    }
+   }
   }
  },
  "rechteren1785": {
