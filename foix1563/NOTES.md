@@ -15,7 +15,7 @@ the ciphered passages, numbered, with the letter named in the margin.
   ii 272-274, "Du camp a Villefranche, 12 Jan. 1563"), not in the 2 Jan letter from Meur (Forbes ii 247-249).
 - *CSP Foreign* vi no. 76: "Admiral Coligni to the Queen … Camp at Villefranche, 12 Jan. Signed. Orig. almost entirely
   in cipher, deciphered." So the English decipherment is on the original (TNA SP 70), and Forbes printed the clear text.
-- Closed as already solved. The key was not rebuilt.
+- Closed as already solved. Key: DECODE R335 (TNA SP 106/1 f.69, 'A Cipher of the P. of Condé', endorsed 2 Dec 1562) has the same graphic signs; on it '&' and '14' are nulls and 'ω' = 'La Royne d'Angleterre', which is the heading line of f.142 ('… & 14 ω …'). Not applied beyond that check.
 - f.143 lower half starts another "L'Amiral de France à la Reine d'Angleterre" letter ("Si …", passages (1)-(7)).
   That letter, and the passages (15)-(24) at the top of f.148, belong to catalogue 93 (R9237/R9239/R9240, "Amiral to
   D. Angle" = Coligny to the Queen of England). The glosses there ("delivr", "surprendre", "escrire") match Forbes's
@@ -54,7 +54,7 @@ the ciphered passages, numbered, with the letter named in the margin.
 
 - [x] siblings: R9237/R9239/R9240 (catalogue 93) viewed in part; they are Coligny letters in a different sign set, no Queen Mother material
 - [x] clear-pages: no clear or deciphered page for the Queen Mother letter among the R9238/R9241 images
-- [x] known-keys: Throckmorton first/second/third ciphers and Croft's (R9260-R9262) compared; none fit
+- [x] known-keys: Throckmorton first/second/third ciphers and Croft's (R9260-R9262) compared; then every DECODE key record dated 1550-1580 with French plaintext: R335 (Condé 1562, fits R9238 not R9241), R355, R331, R3818, R3820 (Fontenay 1583); none fits R9241
 - [x] print: Forbes ii, CSP Foreign vi (whole volume), La Ferrière i-ii searched; not found
 - [x] key-rebuild: no crib or sibling key exists; ciphertext-only swap annealing (one letter per sign, with nulls, pairs, syllables; 5 languages) on both transcriptions, all negative
 - [x] retry: sign-by-sign re-transcription of both pages (qm2_f148.txt, qm2_f149.txt, merged qm2_tokens.txt: 1007 tokens, 92 types, IoC 0.031); anneal3.py French, English and French-with-nulls on it: no language (r6_*.txt)

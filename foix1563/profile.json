@@ -206,6 +206,12 @@
    "kind": "solver",
    "what": "anneal3.py on qm2_tokens.txt (French, English, French with nulls): no language.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Swept DECODE key records 1550-1580 with French plaintext (R335, R355, R331, R3818, R3820). R335 (Condé's cipher, 2 Dec 1562) matches R9238's signs: & and 14 nulls, ω = la Royne d'Angleterre in the heading line. None fits R9241.",
+   "result": "partial"
   }
  ],
  "outcome": {
