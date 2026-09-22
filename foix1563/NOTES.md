@@ -49,7 +49,6 @@ the ciphered passages, numbered, with the letter named in the margin.
 ## Remaining gaps
 
 - R9241 Catherine de' Medici to Paul de Foix, 15 Jan 1563, passages (1)-(4), ~950 tokens - blocker: no-key-material; no key among the Forbes key records R9260-R9262, no decipherment or clear copy in Forbes, CSP Foreign vi or La Ferrière, and ciphertext-only annealing (5 languages, nulls, pairs, syllables) finds no language
-- R9238 key (Coligny's graphic-sign cipher) - blocker: not-attempted; not needed, the text is printed (Forbes ii 272-274)
 
 ## Escalation
 
@@ -57,7 +56,7 @@ the ciphered passages, numbered, with the letter named in the margin.
 - [x] clear-pages: no clear or deciphered page for the Queen Mother letter among the R9238/R9241 images
 - [x] known-keys: Throckmorton first/second/third ciphers and Croft's (R9260-R9262) compared; none fit
 - [x] print: Forbes ii, CSP Foreign vi (whole volume), La Ferrière i-ii searched; not found
-- [ ] key-rebuild: no crib; ciphertext-only annealing negative on the first-pass transcription
+- [x] key-rebuild: no crib or sibling key exists; ciphertext-only swap annealing (one letter per sign, with nulls, pairs, syllables; 5 languages) on both transcriptions, all negative
 - [x] retry: sign-by-sign re-transcription of both pages (qm2_f148.txt, qm2_f149.txt, merged qm2_tokens.txt: 1007 tokens, 92 types, IoC 0.031); anneal3.py French, English and French-with-nulls on it: no language (r6_*.txt)
 
 ## Next steps
