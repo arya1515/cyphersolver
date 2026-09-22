@@ -1327,10 +1327,14 @@ def process(path):
         FEATURED =['raince', 'hesse1603', 'catinat1691', 'voynich', 'feuquieres', 'armstrong', 'lucca', 'warsaw', 'richelieu', 'sunyatsen']
         feat = [next(p for p in PAGES if p['slug'] == f) for f in FEATURED]
         rest = sorted([p for p in PAGES if p['slug'] not in FEATURED], key=lambda p: ({'solved': 0, 'found': 1, 'partial': 2, 'stuck': 3}[p['st']] if p['slug'] not in ('famous', 'solved') else 4, -p['y']))
-        rows = ''.join(f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
-                       f'{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span></a></li>\n' for p in rest)
+        row = lambda p: (f'  <li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
+                         f'{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span></a></li>\n')
+        REST_VISIBLE = 10       # "And the rest" shows this many rows; the others fold behind the button
+        shown, folded = rest[:REST_VISIBLE], rest[REST_VISIBLE:]
+        more = (f'<div class="more" hidden><ul class="list">\n' + ''.join(row(p) for p in folded) + '</ul></div>\n'
+                f'<button class="showmore" type="button">Show {len(folded)} more write-ups</button>\n') if folded else ''
         cards = ('<!-- cards:start -->\n<div class="cards">\n' + ''.join(card_html(p) for p in feat) + '</div>\n'
-                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + rows + '</ul>\n'
+                 '<h3 class="listhead">And the rest</h3>\n<ul class="list">\n' + ''.join(row(p) for p in shown) + '</ul>\n' + more +
                  f'<p class="allws"><a href="writeups.html">All {len(PAGES)} write-ups, filterable by outcome and period, '
                  f'with the results that are still only in the notes &rarr;</a></p>\n<!-- cards:end -->')
         if '<!-- cards:start -->' in s:
