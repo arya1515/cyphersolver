@@ -12,6 +12,11 @@ decrypted", homophonic nomenclator, numerical, images behind a login. The corpus
 catalogue's "7 Jan 1736" is the start of the volume, not the date of a letter. The addressee on the clear dockets is
 "Sig. Ab. Guiccioli, Madrid", who ran the nunciature after the rupture of 1736.
 
+**Item 1 is DECODE R26** (`ASV_i1025_SdS_Spain_423-1`, 5 pp., created 2016, status "partially decrypted"), filed
+apart from R179-R188 (items 2-11), which is why the catalogue listed it as a separate target (entry 250, "7 Jan 1736" =
+the volume's start date again). It carries the same three attachments (DOC_R26_D1635, D3290, D3291) and five images.
+Item 423/1 is in Lasry's decipherment and in `reading.txt` from the first session; checked 21 Sept 2026, nothing new to read.
+
 ## Prior art: it is already read
 
 Every record carries the same pattern of attachments as Spagna 364D ([[nunzio1718]]):

@@ -4061,41 +4061,6 @@
    "writeup": "ormanetto1576.html"
   },
   {
-   "id": 250,
-   "counted": true,
-   "year": 1736,
-   "date": "7 Jan 1736",
-   "title": "The secretariat (Spain) to The nunciature",
-   "correspondents": "The secretariat → The nunciature",
-   "place": "Spain",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1701-1800",
-   "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 423",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R26: Partially decrypted, 5 pp., homophonic, nomenclator; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Lett. Originale e ciffre della Segretaria alla nunziatura, dal 7 gennaio 1736 al 29 dicembre 1736. ff. 9-522. mm. 275x196. ff. 531. (s. 522).",
-   "why": "Ciphered letter of The secretariat to The nunciature, 7 Jan 1736; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Look for the decifrati in the same busta and in the printed Nunziature volumes, then view the images. Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R26",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/26"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    26
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 259,
    "counted": true,
    "year": 1573,

@@ -4063,6 +4063,14 @@
      "reading": null,
      "sent": false,
      "reading_not_needed": true
+    },
+    "R26": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Item 423/1 of Spagna 423 (R179-R188 are items 2-11). Lasry's 2020 decryption of Spagna 423 is already on the record; his key values no 4-digit nomenclator group, 46 recovered from context (key_extra.txt, 95.3% read). Date 7 Jan-29 Dec 1736 is the volume span; ciphered items run 14 Jul-22 Dec 1736.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
     }
    }
   },

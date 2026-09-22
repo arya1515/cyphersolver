@@ -5,7 +5,7 @@
  "documents": [
   {
    "id": "423/1",
-   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 1 (one of DECODE R179-R188)",
+   "shelfmark": "ASV, Segr. Stato, Spagna 423, item 1 (DECODE R26)",
    "year": 1736,
    "country": "Papal States",
    "route": "Rome -> Madrid",
@@ -412,6 +412,12 @@
    "date": "2026-09-21",
    "kind": "verification",
    "what": "Re-measured: 424 of 708 nomenclator tokens valued; whole text 90.6% -> 95.3% read. Content consistent with the 1736 Spanish recruiting riots in Rome (Acquaviva, Montemar, Molina).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Catalogue entry 250 (DECODE R26, 7 Jan 1736) identified as item 423/1 of this volume, filed apart from R179-R188; already covered by Lasry's decipherment and reading.txt. Entry closed, no new reading.",
    "result": "worked"
   }
  ],
