@@ -1,6 +1,6 @@
-# János Pápai (Constantinople) to Ferenc Rákóczi II, 1706–1710 — DECODE R731, R740, R741, R757, R765, R784, R805, R823
+# János Pápai (Constantinople) to Ferenc Rákóczi II, 1706–1710 — DECODE R731, R740, R741, R757, R765, R784, R793–R796, R805, R823
 
-Status: read in part — seven of the eight letters read with the envoy's own key; R731 (graphic signs) not read.
+Status: read in part — eleven of the twelve letters read with the envoy's own key; R731 (graphic signs) not read.
 
 Catalogue entry 46 (class B, scored by rule). Worked 21 Sept 2026. Archive images are not in the public domain
 (DECODE: publishing only with the archive's permission); they are kept git-ignored in `img/`, and only derived text is
@@ -11,6 +11,10 @@ committed.
 | Record | Shelfmark (MNL OL G15) | Date, place | Cipher | Groups | In key |
 |---|---|---|---|---|---|
 | R805 | Caps. C Fasc. 33, pp. 34–37 | 1 May 1706, Constantinople (signed Pápai János, Horváth Ferenc) | numeric, R580 key | 336 | 336 (100%) |
+| R795 | Caps. C Fasc. 36, pp. 18–21 (item 1) | 1 Jan 1706, Constantinople (*die prima Januarii*), signed Pápai János | numeric, R580 key, groups above 322 are nulls | 1,617 | 1,356 + 251 nulls (99.1%) |
+| R796 | Caps. C Fasc. 36 (item 2) | 20 Feb 1706, Constantinople, Pápai | numeric, R580 key | 1,025 | 1,004 + 16 (99.5%) |
+| R793 | Caps. C Fasc. 36 (item 2) | 1?–19 Mar 1706 (*tizen·todik Martius*), Pápai | numeric, R580 key | 1,226 | 1,194 + 24 (99.3%) |
+| R794 | Caps. C Fasc. 36 (item 2) | undated, early 1706 | numeric, R580 key | 1,175 | 1,152 + 15 (99.3%) |
 | R823 | Caps. C Fasc. 33, pp. 140–143 | 19 Dec 1706, Constantinople (Pápai, Horváth) | numeric, R580 key | 1,632 | 1,609 (98.6%) |
 | R765 | Caps. E Fasc. 80, pp. 2–11 | 5 Jan 1707 (DECODE origin "Balar") | numeric, R580 key | 4,864 | 4,787 (98.4%) |
 | R784 | Caps. D Fasc. 80, pp. 110–111 | undated (DECODE 1707), unsigned; cover note in another hand | numeric, R580 key | 594 | 587 (98.8%) |
@@ -23,6 +27,13 @@ Group counts are what `decode.py` parses from the DECODE transcriptions (R740: t
 `R740_transcription.txt`). "In key" groups are those with a value in the key; the rest are digit slips in the
 transcription, clear numerals (R823 opens with 400–1000 figures that are sums, not cipher) or joined groups.
 Total: 11,640 of 11,818 groups (98.5%).
+
+R793–R796 (catalogue 47, "Constantinpole envoys to Ferenc Rákóczi II, 2 ciphertexts", added 21 Sept 2026): DECODE
+lists them as "partially decrypted" because the transcriber copied the contemporary interlinear decipherment, which
+covers only parts of the lines. They are four despatches, not two. The same key reads all four unchanged: 4,706 of
+5,043 groups have a table value, 306 more are groups above 322, which the interlinear decipherer passes over
+(R795: *szem* `402 499 731` *n lé-*): nulls. 31 groups are slips. With nulls, 5,012/5,043 (99.4%) read.
+`decode_nulls.py` prints the readings with nulls as `·`.
 
 ## The key: DECODE R580 / R581
 
@@ -63,6 +74,19 @@ transcription, which is the cleanest).
   The DECODE transcription splits five groups (`0 79`, `221 33`, `203 273`, `92 1`, `1 00`); read as the image
   shows them, all but one decode. On p. 2 a note in another hand, upside down, asks the Prince to keep it secret and
   decipher it himself: *Mivel ez titok, méltóztassék … titokban tartani s maga decifrálni …*. Grade H.
+- **R795, 1 Jan 1706 (catalogue 47).** Pápai with Ferenc Horváth (*vélem Horváth Ferenc urammal*) reports the
+  Prince's discretion money handed to the Vezír's Kiaya; the Tatar Khan; the French ambassador; the Pasha of
+  Temesvár; a Croatian incursion; letters to go via Moldavia (*Moldvában … folytatni az leveleket … corres-
+  pondentiát*) so that the Prince's news arrives faster. Ends *Constancz die prima Januarii Ezer het szaz hat,
+  Pápai János*.
+- **R796, 20 Feb 1706.** The Prince's undated letter from the Tisza received; the Germans spread false news; the
+  confederates are scorned; the Moldavian *kapi-kiaya* as channel; the Muscovite envoy, the Vezír and the Sultan;
+  nothing resolved on the propositions. Ends *Constancz, Ezer het szaz hat, huszadik Februarii*.
+- **R793, March 1706.** Secret talks with the Porte's chancellor about the Muscovite–Porte quarrel, the King of
+  Sweden, a Hungarian confederation with the Porte *certis conditionibus*, the Circassians and the Black Sea; the
+  Prince's manifesto translated and given to the Vezír.
+- **R794, early 1706 (undated).** Propositions on recruiting horse in Wallachia (*Havasalföld … négyezer lovas*),
+  the memorial on Muscovy; the (French) King's money that the ambassador will not pay without the King's order.
 - **R757, 16 May 1708.** The Muscovite ambassador's message; the envoy cannot send money from Constantinople;
   Hentér.
 - **R740, 2 Jan 1710.** The Kiaya's answer, in cipher: *legyen patientia, [ne] siessen, várakozzék … Bécs … a
@@ -96,12 +120,12 @@ transcriber noted as "symbols which do not occur in the key itself": probably a 
 
 ## Remaining gaps
 - R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs - blocker: not-attempted; not transcribed; 2448-px images judged too poor for a secure sign transcription; the graphic-sign line on R581 not tried
-- ~178 numeric groups across R823, R765, R784, R757, R741 - blocker: open-codes; digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images
+- ~209 numeric groups across R823, R765, R784, R757, R741, R793–R796 - blocker: open-codes; digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images
 
 ## Escalation
-- [x] siblings: eight Papai records plus key copies R580, R581, R452 opened
+- [x] siblings: twelve Papai records (R793–R796 added from catalogue 47) plus key copies R580, R581, R452 opened
 - [ ] clear-pages: not done — check the Rakoczi chancery papers (MNL OL G15) for contemporary decipherments of R731
-- [x] known-keys: R580/R581/R452 applied to all seven numeric letters
+- [x] known-keys: R580/R581/R452 applied to all eleven numeric letters
 - [ ] print: not done — Benda (ed.), Papai Janos torokorszagi naploi (1963) not checked
 - [ ] key-rebuild: not done — use the sign line on R581's corner as a partial graphic alphabet and solve R731 monoalphabetically
 - [ ] retry: not done — re-read the ~178 off-key groups on the images

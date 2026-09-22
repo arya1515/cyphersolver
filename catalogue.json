@@ -315,46 +315,6 @@
    "scored": "rule"
   },
   {
-   "id": 47,
-   "counted": true,
-   "year": 1706,
-   "date": "1 Jan 1706",
-   "title": "Constantinpole envoys to Ferenc Rákóczi II, 2 ciphertexts",
-   "correspondents": "Constantinpole envoys → Ferenc Rákóczi II",
-   "place": "Budapest",
-   "language": "Hungarian",
-   "region": "Hungary",
-   "period": "1701-1800",
-   "shelfmark": "MNL OL, G15 Caps. C. Fasc. 36. 18-21 (2 items)",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R793–R796 (2 records): Partially decrypted, 8 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered despatches of Constantinpole envoys to Ferenc Rákóczi II, 1 Jan 1706; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R793",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/793"
-    },
-    {
-     "label": "DECODE R796",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/796"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    793,
-    796
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 51,
    "counted": true,
    "year": 1706,

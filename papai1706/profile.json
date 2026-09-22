@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "target": "papai1706",
- "title": "János Pápai (Constantinople) to Ferenc Rákóczi II, 1706-1710 (DECODE R731, R740, R741, R757, R765, R784, R805, R823)",
+ "title": "János Pápai (Constantinople) to Ferenc Rákóczi II, 1706-1710 (DECODE R731, R740, R741, R757, R765, R784, R793-R796, R805, R823)",
  "documents": [
   {
    "id": "R805",
@@ -233,6 +233,122 @@
     "image_quality": "good",
     "notes": "Group count from decode.py's parse; five groups split by the DECODE transcriber, rejoined from the image. Unsigned; clear cover note in another hand on p. 2."
    }
+  },
+  {
+   "id": "R795",
+   "read": "read",
+   "shelfmark": "MNL OL G15 Caps. C Fasc. 36, pp. 18-21 (DECODE R795)",
+   "date": "1 Jan 1706",
+   "year": 1706,
+   "country": "Hungary",
+   "route": "Constantinople -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial contemporary interlinear decipherment, copied into the DECODE transcription; completed here with R580/R581."
+   },
+   "length": {
+    "tokens": 1617,
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R795_D2405_2405.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R795_D2405_2405.txt",
+    "image_quality": "unknown",
+    "notes": "Signed Papai Janos, Constantinople; groups above 322 are nulls (skipped by the contemporary interlinear)."
+   }
+  },
+  {
+   "id": "R796",
+   "read": "read",
+   "shelfmark": "MNL OL G15 Caps. C Fasc. 36, pp. 18-21 (DECODE R796)",
+   "date": "20 Feb 1706",
+   "year": 1706,
+   "country": "Hungary",
+   "route": "Constantinople -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial contemporary interlinear decipherment, copied into the DECODE transcription; completed here with R580/R581."
+   },
+   "length": {
+    "tokens": 1025,
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R796_D2406_2406.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R796_D2406_2406.txt",
+    "image_quality": "unknown",
+    "notes": "Constantinople, Papai."
+   }
+  },
+  {
+   "id": "R793",
+   "read": "read",
+   "shelfmark": "MNL OL G15 Caps. C Fasc. 36, pp. 18-21 (DECODE R793)",
+   "date": "March 1706",
+   "year": 1706,
+   "country": "Hungary",
+   "route": "Constantinople -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial contemporary interlinear decipherment, copied into the DECODE transcription; completed here with R580/R581."
+   },
+   "length": {
+    "tokens": 1226,
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R793_D2408_2408.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R793_D2408_2408.txt",
+    "image_quality": "unknown",
+    "notes": "Day partly lost to a null ('tizen.todik Martius')."
+   }
+  },
+  {
+   "id": "R794",
+   "read": "read",
+   "shelfmark": "MNL OL G15 Caps. C Fasc. 36, pp. 18-21 (DECODE R794)",
+   "date": "early 1706 (undated)",
+   "year": 1706,
+   "country": "Hungary",
+   "route": "Constantinople -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Partial contemporary interlinear decipherment, copied into the DECODE transcription; completed here with R580/R581."
+   },
+   "length": {
+    "tokens": 1175,
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R794_D2404_2404.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R794_D2404_2404.txt",
+    "image_quality": "unknown",
+    "notes": "Undated; same fascicle."
+   }
   }
  ],
  "system": {
@@ -352,26 +468,50 @@
    "kind": "reading",
    "what": "Read R784 with decode.py unchanged: 587/594 groups in key; French ambassador's report on the Porte and war.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Catalogue 47 'Constantinople envoys to Rakoczi II' (DECODE R793-R796): fetched four records and transcriptions; four despatches, not two.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Applied Papai's key R581 (decode.py) unchanged: R793/R794/R796 97.4-98.0% in key; R794 and R795 signed/dated Constantinople 1706.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "R795 only 83.9% in key: 251 groups 323-740. Compared with the contemporary interlinear: the decipherer skips them, so nulls.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "decode_nulls.py: 5,012 of 5,043 groups read (4,706 table values + 306 nulls), 31 slips.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "class": "read in part",
-  "fraction_read": 0.96,
+  "fraction_read": 0.97,
   "fraction_read_method": "measured",
-  "fraction_read_source": "decode.py over the DECODE transcriptions (R740 own transcription), per-record counts in NOTES table: 11,640 of 11,818 numeric groups have a key value (digit slips, joined groups, sums counted unread); R731 graphic signs (~350, untranscribed) added to the denominator as unread, so 11,640/~12,170.",
+  "fraction_read_source": "decode.py/decode_nulls.py over the DECODE transcriptions: 16,346 of 16,861 numeric groups have a key value, 306 more are nulls above 322 (R793-R796); R731's ~350 untranscribed signs counted unread: 16,652/~17,210.",
   "key": "partial",
   "codes_open": {
-   "tokens_open": 178
+   "tokens_open": 209
   },
   "grades": {
-   "H": 11640,
-   "I": 178
+   "H": 16652,
+   "I": 209
   },
   "verification": [
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Seven of eight letters read with the archive key (11,640 of 11,818 groups); R731's graphic-sign passages not read. fraction_read 0.96 counts R731's ~350 untranscribed signs as unread.",
+  "notes": "Eleven of twelve letters read with the archive key (R793-R796, catalogue 47, added); R731's graphic-sign passages not read.",
   "gaps": [
    {
     "item": "R731 (6 Mar 1710, Belgrade), six graphic-sign passages, ~350 signs",
@@ -379,7 +519,7 @@
     "detail": "not transcribed; 2448-px images judged too poor for a secure sign transcription; the graphic-sign line on R581 not tried"
    },
    {
-    "item": "~178 numeric groups across R823, R765, R784, R757, R741",
+    "item": "~209 numeric groups across R823, R765, R784, R757, R741, R793-R796",
     "blocker": "open-codes",
     "detail": "digit slips, joined groups or sums in the DECODE transcriptions; not re-checked on the images"
    }

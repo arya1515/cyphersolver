@@ -1499,6 +1499,50 @@
       }
      ],
      "sent": false
+    },
+    "R793": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
+     "reading": [
+      {
+       "file": "papai1706/DOC_R793_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R794": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
+     "reading": [
+      {
+       "file": "papai1706/DOC_R794_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R795": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian. Groups above 322 are nulls.",
+     "reading": [
+      {
+       "file": "papai1706/DOC_R795_read.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R796": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
+     "reading": [
+      {
+       "file": "papai1706/DOC_R796_read.txt"
+      }
+     ],
+     "sent": false
     }
    }
   },
