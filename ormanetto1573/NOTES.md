@@ -79,6 +79,27 @@ itself is not printed. The dots here fit that practice, but the rules alone do n
 4. The key of the ordinary Spain nunciature cipher of 1572–77. Meister prints only its rules. Pooling R116 with R118
    (389 digits) for a second ciphertext-only pass is worth trying once the system is guessed.
 
+## Remaining gaps
+
+- Passage A (756 signs) and passage B (568 signs): unread. Blocker: no-key-material.
+
+## Escalation
+
+Every step open from here was checked, and each is blocked by something outside the ciphertext.
+
+- siblings: DECODE has no other 1570-80 Spain nunciature record except R118 (unread, same system) and R5624
+  (Sega 1579, N/A). Done.
+- clear-pages: the record's two images and the address leaf are all read. No decifrato is imaged. The rest of
+  Spagna 7 is not digitised. Blocker: needs-physical-access (AAV).
+- known-keys: five period keys tried (1568 Spain, Crivelli 1561, Meister VI.1-VI.3). Meister prints only the
+  rules of the Spain ordinary cipher, not its table. Done.
+- print: Carini 1894 is not online (web, archive.org, Google Books). PARES has no 1573 minute. Olarra-Larramendi
+  covers Philip III. Blocker: needs-physical-access.
+- key-rebuild: homophonic and polyphonic annealers read same-length controls but not R116. The system is not
+  identified, so there is no hypothesis left that the text is long enough to test. Blocker: too-short for an
+  unknown system.
+- retry: nothing read, nothing to regrade.
+
 ## Files
 
 - `r116_cipher.txt` the ciphertext; `tok.py` reads DECODE's transcription, `units.py` builds the sign sets.
