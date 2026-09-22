@@ -38,7 +38,9 @@ the ciphered passages, numbered, with the letter named in the margin.
 - Solver: homophonic annealing (`anneal3.py`, add-0.01 joint quadgrams from `lang/corpora`) recovers a 940-token
   synthetic control with 64 homophones almost fully. On the letter it finds no language (about −9.8 per char, collapsing
   to "ereseue…") in French or English, with or without nulls. So either the transcription merges or splits too many
-  signs, or the system is not a one-token-per-letter homophonic (polyphonic values, syllables, a letter-pair unit).
+  signs, or the system is not a one-token-per-letter homophonic (polyphonic values, syllables). Italian, Spanish and
+  Latin corpora give the same null result (r4_*.txt). A letter-pair unit is unlikely: token parity within each passage
+  is flat.
 - Tooling note: the shared `lang` dense model (`fr-1530-despatches`, `en-modern`, order 5, no spaces) scores "eeee…"
   at −0.26/char, so an annealer on it collapses to runs of one letter. `anneal.py` shows that failure; use a
   joint-count table as in `anneal3.py`.

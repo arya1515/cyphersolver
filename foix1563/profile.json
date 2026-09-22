@@ -176,6 +176,18 @@
    "kind": "solver",
    "what": "anneal3.py on R9241 in French and English, with and without nulls: no language (about -9.8/char).",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "anneal3.py with Italian (Renaissance), Spanish (Quijote) and Latin corpora: no language.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "hypothesis",
+   "what": "Two tokens per letter: token parity within each passage is flat, so the hypothesis is not supported.",
+   "result": "ruled out"
   }
  ],
  "outcome": {
