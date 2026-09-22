@@ -5501,5 +5501,45 @@
     "sent": false
    }
   }
+ },
+ "foix1563": {
+  "writeup": null,
+  "key": {
+   "decode": "no key; R9238 deciphered at the time (English decipherment on the TNA SP 70 original); R9241 unknown",
+   "lang": "FR"
+  },
+  "cite": "CSP Foreign Eliz. vi (1869) no. 76; P. Forbes, A Full View of the Public Transactions ii (1741) 272-274",
+  "fields": {},
+  "records": {
+   "R9238": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Gaspard de Coligny, Admiral of France, to Elizabeth I, camp at Villefranche, 12 Jan 1563 (margin 'L'Amiral de France a la Reine d'Angleterre 12 Jan 1562/3'; DECODE has 2 Jan). French. Forbes's copy of the ciphered passages (1)-(35). Deciphered at the time: CSP Foreign vi no. 76 ('Orig. almost entirely in cipher, deciphered'), clear text printed in Forbes, Full View ii 272-274. f.143 lower half begins another Coligny letter to the Queen (passages 1-7).",
+    "reading": null,
+    "sent": false,
+    "fields": {
+     "start_year": "1563",
+     "start_month": "1",
+     "start_day": "12",
+     "sender": "Gaspard de Coligny",
+     "receiver": "Elizabeth I",
+     "plaintext_lang": "French"
+    }
+   },
+   "R9241": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Non-decrypted",
+    "note": "f.148 top: passages (15)-(24), end of a Coligny letter to Elizabeth. f.148 foot-f.149: Catherine de' Medici to Paul de Foix, French ambassador in England, 15 Jan 1563 (margin 'La Reine-mere de France a Mr de Foix Ambass. en Angleterre'), intercepted; passages (1)-(4), letters/digits/ligatures with clear nulls (pour, car). Not in Forbes, CSP Foreign vi or La Ferriere's Lettres de Catherine de Medicis. Not deciphered; our transcription attached.",
+    "reading": null,
+    "sent": false,
+    "fields": {
+     "start_year": "1563",
+     "start_month": "1",
+     "start_day": "15",
+     "sender": "Catherine de' Medici",
+     "receiver": "Paul de Foix"
+    }
+   }
+  }
  }
 }

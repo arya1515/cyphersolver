@@ -698,42 +698,39 @@
   {
    "id": 92,
    "counted": true,
-   "year": 1562,
-   "date": "2 Jan 1562 – 15 Jan 1563",
-   "title": "... to unknown recipient, 2 ciphertexts",
-   "correspondents": "... → unknown recipient",
-   "place": "London",
-   "language": "unknown",
+   "year": 1563,
+   "date": "15 Jan 1563",
+   "title": "Catherine de' Medici to Paul de Foix, French ambassador in London, intercepted letter",
+   "correspondents": "Catherine de' Medici → Paul de Foix (London)",
+   "place": "France → London (intercepted)",
+   "language": "French (presumed)",
    "region": "England",
    "period": "1560-1589",
-   "shelfmark": "BL, Add MS 4136 (2 items)",
+   "shelfmark": "BL, Add MS 4136 ff. 148v-149 (Forbes's copy)",
    "folio_note": "",
    "cls": "A",
-   "status": "DECODE R9238–R9241 (2 records): Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. 4 key record(s) from the same series on DECODE, nearest R9262 (1560).",
-   "why": "Ciphered despatches of ... to unknown recipient, 2 Jan 1562 – 15 Jan 1563; what the cipher hides is not known.",
+   "status": "Viewed 21 Sept 2026 (foix1563/NOTES.md). The entry's two records were two different letters. R9238 (ff. 142-143, 'L'Amiral de France à la Reine d'Angleterre') is Coligny to Elizabeth, camp at Villefranche, 12 Jan 1563: deciphered at the time and calendared (CSP Foreign vi no. 76) and printed in Forbes, Full View ii; closed. R9241's own letter (margin 'La Reine-mère de France à Mr de Foix Ambass. en Angleterre, 15 Jan 1563') is in neither Forbes nor CSP Foreign vi. About 950 tokens (Latin letters, digits, ligatures, a few two-digit numbers, clear nulls 'pour', 'car'), transcribed in foix1563/qm_tokens.txt. Throckmorton's first, second and third ciphers and Croft's (R9260-R9262) do not fit; homophonic annealing (French and English, with and without nulls) found no language.",
+   "why": "Catherine de' Medici writing in cipher to her ambassador in England during the first War of Religion, weeks after Dreux and while the English held Le Havre; the English intercepted it and Forbes's file kept the ciphertext, apparently with no decipherment.",
    "importance": 2,
    "solvability": 3,
    "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Fetch the images and the key record(s); test the key on the first lines.",
+   "score_note": "Reviewed by hand 21 Sept 2026 after viewing the images.",
+   "verify": "Check SP 70/49-50 (TNA) for the intercept and any English decipherment; compare with French royal ciphers of 1562-63 (BnF fr. 15875 etc., de Foix correspondence); re-transcribe with a sign table before any further statistical attack.",
    "ark": "",
    "links": [
-    {
-     "label": "DECODE R9238",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9238"
-    },
     {
      "label": "DECODE R9241",
      "href": "https://de-crypt.org/decrypt-web/RecordsView/9241"
     }
    ],
-   "seen": "catalogue",
+   "seen": "image",
    "source": "DECODE",
    "decode_ids": [
     9238,
     9241
    ],
-   "scored": "rule"
+   "scored": "reviewed",
+   "outcome": "attempted, open"
   },
   {
    "id": 93,

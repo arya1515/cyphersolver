@@ -1,0 +1,200 @@
+{
+ "schema_version": 1,
+ "target": "foix1563",
+ "title": "Coligny to Elizabeth, 12 Jan 1563, and Catherine de' Medici to Paul de Foix, 15 Jan 1563, BL Add MS 4136 ff. 142-143, 148v-149 (DECODE R9238, R9241)",
+ "documents": [
+  {
+   "id": "R9238",
+   "shelfmark": "BL Add MS 4136 ff. 142-143 (DECODE R9238)",
+   "date": "12 Jan 1563",
+   "year": 1563,
+   "country": "France",
+   "route": "Gaspard de Coligny (camp at Villefranche) to Elizabeth I (London)",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "printed edition"
+    ],
+    "source": "Forbes, Full View ii (1741) 272-274; CSP Foreign vi no. 76 ('Orig. almost entirely in cipher, deciphered')",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (Forbes's copy of the ciphered passages)",
+    "image_quality": "good",
+    "notes": "35 numbered passages in graphic signs; not transcribed. Identified by the copyist's margin glosses ('sins', 'desracine') against the printed text. f.143 lower half begins another Coligny letter (catalogue 93)."
+   }
+  },
+  {
+   "id": "R9241",
+   "shelfmark": "BL Add MS 4136 ff. 148v-149 (DECODE R9241)",
+   "date": "15 Jan 1563",
+   "year": 1563,
+   "country": "France",
+   "route": "Catherine de' Medici to Paul de Foix, French ambassador in London (intercepted)",
+   "language": "unknown",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "not in Forbes ii, CSP Foreign vi, or La Ferrière, Lettres de Catherine de Médicis i-ii",
+    "partial": false
+   },
+   "length": {
+    "tokens": 952,
+    "distinct": 71,
+    "unit": "mixed",
+    "measured": true,
+    "file": "qm_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images (Forbes's copy)",
+    "image_quality": "good",
+    "notes": "First pass, passages (1)-(4); some glyph classes (z/r, b variants) may be merged. f.148 top (passages 15-24) is the end of a Coligny letter and was not transcribed."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "unknown"
+  ],
+  "summary": "R9238: Coligny's graphic-sign cipher, about 60 signs, deciphered at the time. R9241: Latin letters, digits, ligatures and a few two-digit numbers with clear null words (pour, car); not one of Forbes's filed keys (Throckmorton first/second/third, Croft); one-token-per-letter homophonic annealing found no language.",
+  "symbol_kind": "digits and letters",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": "unknown"
+  },
+  "nomenclator": {
+   "present": "unknown"
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "notes": "Clear French null words as in Throckmorton's third cipher, but the sign values do not match it."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in print",
+   "where": "R9238 only: Forbes, Full View ii (1741) 272-274; CSP Foreign vi (1869) no. 76. R9241: none known.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "published reading",
+   "sibling key"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "text search",
+   "python"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched R9238 and R9241 (2 images each) with the shared DECODE cookie.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Read the margins: f.142 'L'Amiral de France à la Reine d'Angleterre [1]2 Jan 1562/3'; f.148v 'La Reine-mère de France à Mr de Foix Ambass. en Angleterre 15 Jan 1563'. The two records are different letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Grepped Forbes ii OCR and CSP Foreign vi pp. 1-123: Coligny's letters to the Queen are 'almost entirely in cipher, deciphered' (nos. 7, 76) and printed by Forbes.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Margin glosses 'sins', 'desracine' at f.142 passage (9) match 'il rallie les siens ... desraciner du tout l'evangile' in the Villefranche letter of 12 Jan (Forbes ii 272-274), not the 2 Jan Meur letter: R9238 = CSP vi no. 76, read at the time.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Queen Mother to de Foix 15 Jan 1563 searched in Forbes ii, CSP Foreign vi and La Ferrière, Lettres de Catherine de Médicis i-ii: not found.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Compared R9241 with the Forbes key records: Throckmorton's first (R9260 p.2), second (R9260 p.3), third (R9262 p.1) and Croft's (R9261 p.2) ciphers.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Transcribed R9241 passages (1)-(4) into qm_tokens.txt: 952 tokens, 71 types, IoC 0.035.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Homophonic annealing with the shared lang dense 5-gram models (French, English): collapsed to runs of e/s; the model over-scores unseen repeats ('eeee' -0.26/char).",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Joint-quadgram annealer (anneal3.py) on a 940-token synthetic homophonic control with 64 types: plaintext almost fully recovered.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "anneal3.py on R9241 in French and English, with and without nulls: no language (about -9.8/char).",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "key": "none",
+  "fraction_read": 0.0,
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "R9238 read at the time and printed (Forbes); R9241 not read",
+  "verification": [
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "gaps": [
+   {
+    "item": "R9241 Catherine de' Medici to Paul de Foix, 15 Jan 1563",
+    "blocker": "no-key-material",
+    "detail": "No decipherment or clear copy found; homophonic annealing negative on a first-pass transcription. Next: TNA SP 70/49-50 and French register copies."
+   }
+  ],
+  "notes": "Catalogue 92. R9238 closed as already solved (in print); R9241 attempted, open. Status: in progress."
+ }
+}
