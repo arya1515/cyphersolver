@@ -3036,41 +3036,6 @@
    "scored": "rule"
   },
   {
-   "id": 195,
-   "counted": true,
-   "year": 1520,
-   "date": "1 Jan 1520",
-   "title": "French marshals to French King (Francis I?)",
-   "correspondents": "French marshals → French King (Francis I?)",
-   "place": "Paris",
-   "language": "French or Italian",
-   "region": "France",
-   "period": "1497-1559",
-   "shelfmark": "BnF, Français 3081, f.41-42",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R2322: Non-decrypted, 2 pp., type not given; graphic signs; images login. Not viewed here. DECODE note: Endorsed \"Dupplicata des articles envoyez par messrs les marechaulx françoys au roy\". For contemporary French ciphers, see S.Tomokiyo, \"French Ciphers during the Reign of Francis I\" at http://cryptiana.web.fc2.com/code/francis.htm",
-   "why": "Ciphered letter of French marshals to French King (Francis I?), 1 Jan 1520; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R2322",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/2322"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    2322
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 198,
    "counted": true,
    "year": 1527,

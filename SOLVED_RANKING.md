@@ -193,6 +193,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p89 | **Łaski, King John, Bavarian agents → the Dukes of Bavaria, 1529–1583**, BayHStA Kurbayern Äußeres Archiv 4591 (DECODE R9291–R9427) | 1529–1583 | 4 | 3 | 5 | 3 | 3 | 5 | **3.85** | D 4: six systems; one broken ciphertext-only with a purpose-built period language model, one key rebuilt from a single faint gloss, two from keys filed in the volume. H 3: Hungary between Ferdinand and John Zápolya, the Turks, Rincon, Fulda 1576. N 5: no edition found. V 5: eight letters read in part, R9424 and R9319 open. |
 | p90 | **Lebel (Paris) → Charles Emmanuel I of Savoy, Jan–Mar 1593**, BnF fr. 3983 nos. 11, 62, 100 | 1593 | 2 | 4 | 4 | 3 | 2 | 3 | **3.10** | D 2: Tomokiyo's key, a dozen sign corrections, code values aligned from three contemporary decipherments. H 4: Savoy, Mayenne and Spain over the crown at the Estates of 1593. N 4: key published, letters never read. V 3: ~28 code numbers open, no. 62 verso half read. |
 | p91 | **Cardinal Marino Ascanio Caracciolo (Milan) → Charles V, 14 Nov 1537**, AGS Estado leg. 1184 fol. 110 (DECODE R9966) | 1537 | 1 | 3 | 3 | 2 | 1 | 3 | **2.20** | D 1: Luo's published key unchanged. H 3: imperial dealings with the Swiss and Grisons as the Dauphin crossed into Italy. N 3: Tomokiyo had read four lines. V 3: about a dozen groups open. |
+| p92 | **Cardinal Lorenzo Campeggio → Francis I, conclave articles, c. 1534**, BnF fr. 3081 f. 41 (DECODE R2322) | c. 1534 | 2 | 4 | 3 | 2 | 2 | 3 | **2.80** | D 2: Lasry's key with four sign re-valuations. H 4: a papabile's price for French support, Milan, Asti, Genoa. N 3: f. 41r read by Lasry 2022, f. 41v new. V 3: four sign groups, one code open, text breaks off. |
 
 ## By single axis
 
@@ -500,3 +501,5 @@ Lebel to Savoy 1593 provisional score: 0.25×2 + 0.25×4 + 0.20×4 + 0.10×3 + 0
 Caracciolo 14 Nov 1537 provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×2 + 0.10×1 + 0.10×3 = **2.20** (p91): a published key read unchanged, past the four lines already read online.
 
 Unsigned cipher slip, Brussels 1721 (DECODE R24, colonia1721): not ranked. Already read by Lasry and Bonavoglia on the DECODE record; only three key values added here.
+
+Campeggio's conclave articles c. 1534 provisional score: 0.25×2 + 0.25×4 + 0.20×3 + 0.10×2 + 0.10×2 + 0.10×3 = **2.80** (p92): the unpublished second page of a letter Lasry half-read, read with his key.

@@ -1,0 +1,155 @@
+{
+ "schema_version": 1,
+ "target": "marechaux1520",
+ "title": "Cardinal Campeggio's conclave articles for Francis I, c. 1534 (BnF fr. 3081 ff. 41-42, DECODE R2322; catalogued as French marshals to the King, 1520)",
+ "documents": [
+  {
+   "id": "R2322",
+   "shelfmark": "BnF, Français 3081, ff. 41-42 (DECODE R2322)",
+   "date": "c. October 1534 (from the cardinals named; DECODE gives 1 Jan 1520)",
+   "year": 1534,
+   "country": "France",
+   "route": "Cardinal Lorenzo Campeggio (articles sworn to the cardinals Bourbon, Lorraine, Tournon) to Francis I; endorsed as from the marshals",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry's key and decipherment of f. 41r (24 May 2022), on Tomokiyo's cryptiana; f. 41v had no published reading",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1342,
+    "distinct": 23,
+    "unit": "letters",
+    "measured": true,
+    "file": "f41v_letters.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "f. 41v (DECODE image P2) read sign by sign into plaintext letters with Lasry's key; f. 41r not transcribed",
+    "image_quality": "good",
+    "notes": "The measured file holds the deciphered letters of f. 41v (37 lines), not sign codes; bracketed code signs such as [CON] add a few letters."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Homophonic substitution with invented graphic signs, 20 letters with 1-4 signs each plus code signs for CON and ET, no word division.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "notes": "Same key reads BnF Dupuy 265 f. 132 (Mâcon to the King, 1535) per Lasry. On f. 41v: Lasry's third H sign = Y, 'Rg' = P, looped 4 = R, unknown ʃ = S (C); one unknown cluster probably a code for the Emperor (M)."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Lasry's key table and f. 41r overlays on cryptiana (francis.htm, GL.htm), 2022",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "key application to own transcription",
+   "subagent image transcription"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched DECODE R2322's four images with the shared cookie: f. 41r and f. 41v cipher, f. 42r blank, f. 42v endorsement.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Tomokiyo's francis.htm (as the catalogue suggested): 'George Lasry solved it in 2022'; downloaded his key table and three f. 41r overlays from GL.htm. They cover f. 41r only.",
+   "result": "worked"
+  },
+  {
+   "kind": "transcription",
+   "what": "Two subagents read f. 41v (lines 1-19, 20-37) sign by sign with Lasry's table, using his f. 41r overlays as a training sheet.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "f. 41v reads with about 90-95% of letters secure after re-valuing four signs (Y, P, R, S); four sign groups and one code sign open; the page breaks off mid-sentence.",
+   "result": "partial"
+  },
+  {
+   "kind": "verification",
+   "what": "Dated from content: Campeggio's articles sworn to Bourbon, Lorraine and Tournon (cardinal 1530; Campeggio d. 1539) and the papal-candidate clause fit the October 1534 conclave, not 1520. Not checked against a conclave history.",
+   "result": "partial"
+  },
+  {
+   "kind": "verification",
+   "what": "Second pass at 3-4x zoom on the 13 doubtful places: 9 settled (l. 8 desquels en avoit, l. 31 vers les detenteurs, bold ʃ = S confirmed), 4 open.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.93,
+  "grades": {
+   "H": 4,
+   "C": 6,
+   "M": 2,
+   "I": 2
+  },
+  "verification": [
+   "key confirms"
+  ],
+  "notes": "f. 41r read by Lasry 2022; f. 41v read here, new. Catalogue entry 195 removed. fraction_read is an estimate from the subagents' reports, not a count.",
+  "key": "partial",
+  "gaps": [
+   {
+    "item": "l. 12 SORVOEES and l. 15 de SAREES",
+    "blocker": "illegible",
+    "detail": "letters clear, words not understood"
+   },
+   {
+    "item": "l. 19 sign 4 (fla?e)",
+    "blocker": "no-key-material",
+    "detail": "flame from context"
+   },
+   {
+    "item": "l. 30 code cluster (Lasry Unknown 2)",
+    "blocker": "open-codes",
+    "detail": "the Emperor from context (M)"
+   },
+   {
+    "item": "the articles after f. 41v",
+    "blocker": "needs-physical-access",
+    "detail": "text breaks off; f. 42 blank"
+   }
+  ]
+ }
+}

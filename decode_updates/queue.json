@@ -5161,6 +5161,32 @@
      "sent": false
     }
    }
+  },
+  "marechaux1520": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/marechaux1520.html",
+   "key": {
+    "decode": "no key on DECODE; George Lasry's key table for BnF fr. 3081 (24 May 2022) on cryptiana GL.htm",
+    "lang": "FR"
+   },
+   "cite": "S. Tomokiyo, French Ciphers during the Reign of Francis I, http://cryptiana.web.fc2.com/code/francis.htm (Lasry's solution of f. 41r)",
+   "fields": {
+    "plaintext_lang": "French",
+    "start_year": "1534",
+    "start_day": "",
+    "start_month": "",
+    "sender": "Cardinal Lorenzo Campeggio (articles sworn to the cardinals Bourbon, Lorraine and Tournon)",
+    "receiver": "Francis I",
+    "cipher_type": "homophonic substitution, graphic signs, CON/ET code signs"
+   },
+   "records": {
+    "R2322": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Campeggio's conclave articles for Francis I, c. Oct 1534 (not the marshals, not 1520). f. 41r read by Lasry 2022; f. 41v read with his key, a few signs open.",
+     "reading": "decode_updates/decryptions/R2322.txt",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

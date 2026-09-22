@@ -28,6 +28,7 @@
   "brussels to the cologne nunciature, 9 oct 1721": "2026-09-21",
   "cardinal alessandrino to the nuncio in spain, 1567": "2026-09-21",
   "cardinal alessandrino to the nuncio in spain, 1568–69": "2026-09-21",
+  "cardinal campeggio to francis i, c. 1534": "2026-09-21",
   "cardinal caracciolo to charles v, 14 november 1537": "2026-09-21",
   "cardinal morosini, legate in france, to cardinal montalto, 1588–89": "2026-09-19",
   "cardinal soglia to the nuncio viale prelà, rome, 15 june 1848": "2026-09-18",
@@ -314,7 +315,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e57902c7468f",
+   "hash": "0c7574d2ceaa",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -524,7 +525,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "63ad26ff5a00",
+   "hash": "c0d618a309bf",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -610,6 +611,11 @@
   "malvezzi1548": {
    "first": "2026-09-21",
    "hash": "312e46ae25b3",
+   "updated": "2026-09-21"
+  },
+  "marechaux1520": {
+   "first": "2026-09-21",
+   "hash": "81ec2e3a191f",
    "updated": "2026-09-21"
   },
   "maria1435": {
@@ -1069,7 +1075,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "fcce2a59c7ec",
+   "hash": "a01adc6a5cb5",
    "updated": "2026-09-21"
   },
   "yard1699": {
