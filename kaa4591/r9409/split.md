@@ -232,3 +232,134 @@ P5 18-20 no # (mostly clear text)
 | P5 | 70 -> 70 | 0 |
 
 Pages covered: P1-P4 complete, P5 lines 1-20. P5 l.21-36, P6, P7, P8 not yet checked. No K on any checked page; d everywhere is the small box-with-ascender. No further cross-page duplicated lines: a 12-character overlap scan found only genuine repeated groups (P5 l.1/15/16, P6 l.6/22: the "wVCHPwVCH" group, confirmed on the P5 image), P2 l.10/P7 l.13 (w3VqS5qT3T5p, common formula) and P3 l.19/35 (common run).
+P5 21 c#, q#w, p#Y = #
+P5 22 8#V, Y#w = #
+P5 23 p#w = #
+P5 24 bmEEzo -> bmEzo; all # (w#q, o#3, m# #w, V#3) = # (overhanging)
+P5 25 T#w, H#w = #; K here is a blotted star-like sign (the R9409 psi-K), not the looped word sign
+P5 26 8#w, m#, 3#3, 3# = #
+P5 27 c# = #; the S after c# is the barred sign on a triple-barred stem
+P5 28 V#48 = #; PwxqEwV -> Pwx3qEwV (3 missed)
+P5 29 all # (line-initial, w#48, S#9, p#H, x#P) = # (overhanging bars); final S? is the same barred sign + circled dot
+P5 30 c#, S#9 = #
+P5 31 Exx#4qT3 -> Ex4qT3 (one x, a 4 not a double cross); 48S5P -> 48b5P (blotted lollipop b, not S); w#4 = #
+P5 32 8#p = #; wV+5p#Y5pYwVT5p#Yco5P48 -> wV+5pYwVT5p#Yzo5P48 (image has two groups wV?5pY, only the second with #; zo not co)
+P5 33 S#3, m# = #; ?b = T6-like pair (left); line end cw -> cwV
+P5 34 H is the barred-H sign; q#9 = #
+P5 35 x#9 = #
+P5 36 VqSST3 -> VqST3 (one S); q#w, 3#w = #
+P6 NOTE: v1 on P6 codes the ringed 8 (8 with a small ring on top, coded b on P1-P5, e.g. 5qYb9qp) as S, merging it with the hourglass S. Recoded to b where seen.
+P6 01 x5# = #; QpqS57 -> Qpqb57 (ringed 8); wgS = hourglass S kept
+P6 02 line-initial # = #; x5S4 -> x5b4 (ringed 8)
+P6 03 mEEYS5 -> mEYb5 (one E; ringed 8); line end TED Vw -> TEDVwp
+P6 04 co5 -> zo5; m#H = #
+P6 05 cS3 -> cb3 (ringed 8); xxqSq5S4qY -> x9q5b4qY; the S after Q is the barred sign, kept
+P6 06 CH9884 8#w -> CHP9848#w (pi missed, one 8); D4bY -> D4dY (box-with-ascender d); #, 8#w, x#w = #
+P6 07 SmbT -> bmbT, b5pS48 -> b5pb48 (ringed 8); EwqE73 -> Ewq73; VS after w3V4 is the hourglass S, kept
+P6 08 no #
+P6 09 E.#w = #; the H after 9Y is a struck-through sign; line end CHcb -> CHod
+P6 10 8#w = #; #wS#7: the S looks like a round 8, flagged; final D before the clear text not seen (square), flagged
+P6 11 clear text only
+P6 12 c# x2 = #; zoT4oT73 -> zoT73 (one T73 group); wVb4g -> wVd4g (box-with-ascender d); qYco+YQ4 -> qYzo4YQ4 (flagged)
+P6 12 (revised) wVb4g and qYco+ kept as v1: the sign is a plain delta; co+/zo4 unclear
+NOTE co vs zo: on the images the v1 groups "co5P48" and "zo" both look like the same hooked z + o; v1 is inconsistent here. My earlier co->zo edits (P5 l.32, P6 l.4) are reverted; left for a separate pass.
+P6 13 c# = #
+P6 14 Pd E47 -> PdE47 (no gap); line end T4 -> T4g
+P6 15 zoS -> zob (ringed 8); xwpqpV -> xwqpV; E#w = #
+P6 16 qcwV#4 -> qcw#4 (no arrow); co5#P48 -> co5#48 (no pi); w#4, 5#48 = #; L# is a single stem with two bars (as R9408 P3 l.7), flagged
+P6 17 p#48, c# x2 = #
+P6 18 line end bL -> bLp
+P6 19 pq4cwp -> pq47cwp; bmEE4V -> bmE4V; line end P9VE4oP -> P9VE4839; 8#w = #; 5#Y: the sign looks like a z-hook, not a double cross, flagged
+P6 20 q#q, E#w = #
+P6 21 5VYmmHc Qbpvc+ -> 5VYmnHcQbpVc+ (pi-like n; v = arrow V); T#w = #; final 5T4: the last sign looks like a double cross, flagged
+P6 22 Qbq? -> Q5x (image: theta 5 x); 37PbExc -> 37Pb5xc; the repeated wVCHPwVCH group is on the image
+P6 23-27 LINE STRUCTURE FIXED: v1 l.23 (Q5xw3VSxmE37PbExcwVCH#wVP5bY4g#wS) is not an image line: its first half repeats l.22 and its second half is the end of the next image line. v1 l.24 was that line's first half. Merged into l.24 = #w7wbY48^E-8Qco+mqz448D3Vw3VwgScwVCH#wVP5bY4g#wS; l.23 deleted (numbering gap kept).
+P6 25 EY4S5P48 -> EYb5P48 (ringed 8, no 4); H4 is the barred-H sign
+P6 26-27 v1 l.26 (5q#5TpqmE4V...) and l.27 (q5mg48 5T5pqPE4V...) are one image line: now l.26 = q5mg485T5pqmE4V#w7wbYw3VSTwcq348#wV#3q848Ppwc+p; l.27 deleted. All # there overhanging = #
+P6 28 8##w: two double crosses = #
+P6 29 line-initial #, w#4 = #; #4bEYP -> #4dExP (box d; x not Y)
+P6 30 wpq4V -> wpo4V; V#4, c# = #
+P6 31 p#7, 8#9, 3#w = #
+P6 32 qYco+C57 -> qYcoC57 (no +); CH groups on image
+P6 33 all # = # (line-initial with overhang, Y#w, V#)
+P6 34 5#Y, w#9 = #
+P6 35 5qYS9qp -> 5qYb9qp (ringed 8); 5#48, final q# = #
+P6 36 #wSp -> #wbp (ringed 8); # = #
+P6 37 line-initial #, p#7, q#3 = #; qYco9qp -> qYzo9qp (z-hook clear here)
+P7 (rotated 180; page folio 243)
+P7 01 w#w, q4#V = # ; 7S5bY48 7p -> 7b5dY487p (ringed 8, then box d; no gap)
+P7 02 mCH48: the H is the barred-H sign, kept
+P7 03 x#x = #; cVpwpbT4 -> cVp#pd4 (double cross, box d; no T)
+P7 04 c# = #
+P7 05 mD4Sbpw -> mDqbpw (square, ringed 8); VE4...[..at]c# -> VE48c# (no clear text; 48 then alpha-double-cross); c5#S -> c5#d (box d); # = #
+P7 06 line-initial #, p# = #; 7mgSx75p5pxY -> 7m8x75pxY; p#S5qE -> p#b5qE (ringed 8)
+P7 07 b48zo -> d484o (box d; 4o group); wYS9 -> wYb9 (ringed 8); q#w, Y#w = #
+P7 08 clear text
+P7 09 c# = #
+P7 10 V#5, Y#w, V#3 = #; T48b5q -> T48d5q (box d)
+P7 11 3#4, V#b = #; V#bpE48 -> V#dpE48 (box d)
+P7 12 RE-READ: #pd4Tp5PpwE+75dCTzo5Y4ow3VSc#4VqD3VxmExwdPx5T (v1 had pb/bC4co/TwS/c## misreads; one double cross after c, not two; box d x3)
+P7 13 Y#w, V#4, p#48 = #; co5PdqpEw3VqS -> zo5Pdw3VqS; x+3o7pT4g -> xE+3bEpT4g
+P7 14 Y#q = #; 5TL E47 -> 5T4E47; qp zo -> qp4o
+P7 15 Y#w = #; co5bY48 -> co5dY48 (box d)
+P7 16-17 no #; match image
+P7 18 c#, g#w = #; ]SIw3 -> ]bIw3 (ringed 8 before I)
+P7 19 xYpbco5bY48 -> xYpdco5dY48 (box d x2)
+P7 20 p#w, P#w, 5#48 = #; x5P#w+b5 -> x5P#wE+d5
+P7 21 c#, o# = #; co#bCT -> co#dCT (box d)
+P7 22 b5#PwbSq#4q -> d5#Pwd5q#4q (box d twice; S was a 5); #, c# = #
+P7 23 no #
+P7 24 Ew7S5 -> Ew7b5 (ringed 8); Y48 48+3CT -> Y48+3CT (no second 48); Tw+5bY48 -> Twco5dY48; p#3, c#, 8#w = #
+P7 25 p#8#P = # x2
+P7 26 C+ -> c+; bmE -> dmE (box d); PgE -> PpE; P5pxPwV -> P5px5PwV; c# = #
+P7 27 w#p, q#9, D#w = #; 9bE, xbxmb -> 9dE, xdxmd (box d x3)
+P7 28 RE-READ first two thirds: coPb4qdwxPwVE4w3VqS5T4pq5qE479VYE5w3VS... (v1 comb4qb..q55q#wV5qE47pVY9V5T had an invented #wV and wrong order; image: pi, ringed 8, box d, "5T4p q5q E47 9 arrow Y E5")
+P7 29 q#, 3#w, 5#E, o#w, 5#48 = #; w+b5 -> wE+d5
+P7 30 c##9 = # x2; x9#w = #; xpbP4V -> xpdP4V; wPwwExwbY -> wPwExwdY (box d)
+P7 30 (cont.) 9bE -> 9dE
+P7 31 V#w, V#4 = #; E4 4+E5V5qb5q -> E4E5V5q65q (6-shaped sign, no 4+); SSCE47 -> S8CEE47; #4bY -> #4dY (box d)
+P7 32 line-initial #, 3#48 = #; Ywxwpq -> Yxwpq; pY Yw -> pYw; Hbwpq -> Hdwpq (box d); pqS3CT -> pq83CT; 48 73 -> 4873
+P7 33 V#9, o#9 = #; box d x3 (9dE, xpdP, 47d5q)
+P7 34 SbExq9bqpE4 -> b9Exq9EqpE4 (ringed 8 first); ExwV#3 -> Ex#wV#3 (double cross missed); # = #
+P8 (rotated 90)
+P8 01 T#w = #; zo5bY48 -> zo5dY48 (box d)
+P8 02 5#w, 4#w = #; E+b9xL -> E+d9xL (box d)
+P8 03 5#4, T#w = #; zo5bY48 -> zo5dY48
+P8 04 q#w, 8#C, p#Y, 3#48 = #; YQ3w YPpwwV3VS -> Yb3wYPpww3VS (ringed 8; no gap; no extra arrow)
+P8 06 Io5qYQ9 -> IQ5qYb9 (circled cross, then ringed 8 - the two were swapped)
+P8 06 c# = #; H9PPY -> H97PY; T3o5bY48 -> T3zo5dY48 (box d)
+P8 07 Y##9V -> Y#9V (one double cross); w7wbYxQ4Kxp -> w7wdYx84bxp: the v1 "K" is a ringed 8 carrying the double-cross tick above (as R9410 l.10/25), so b, not a K sign; box d; 84 not Q4; #w, p#7#q = #
+P8 08 V#w, g#4 = #
+P8 09 V#48, q#q, q#3, E#w = #; box d x3 (qEd3q, p7dmE, wdY); line end adds w
+P8 10 7o5bY48E5qbwx -> 7o5dY48E5q6wx (box d; 6-shaped sign)
+P8 10 CHbpwE+b5Y.48 -> CH6pwE+d5Y.48 (6-sign; box d); final xwb -> xwd; 8#9 = #
+P8 11 3V#, 8#Y, p#Y, p#7 = #; wv7wpbQp -> wV7wpbqp (arrow; square not Q)
+P8 12 VSx7mYbwV -> VS7mY6wV (no x; 6-sign); 3#w = #
+P8 12 VT4gw -> V4gw (no T)
+P8 13 c# = #; after the clear text v1 had only E; image: 4oDVwp
+P8 14 V#4 = #
+P8 14-21 LINE STRUCTURE FIXED (v1 lines were split and mis-assigned; 21 -> 19 lines):
+  - v1 l.17's clear text ("dieweil dis alles laut ... struck out") continues l.14's clear text -> merged into l.14.
+  - v1 l.16's tail "4o75qD5qT^HbpqP3qE4gw3VS73#48" belongs to l.15; v1 l.15 "qpYwVzo5bY4875#?w?E48" + that tail = image l.15 = qpYwVzo5dY4875#PwE484op75qD5qTH5pqP3qE4gw3VS73#48 (the #P after 75 is struck through on the image).
+  - v1 l.17's tail "#97cwVCH#PwVCHxP5xPwp" belongs to l.16 -> l.16 = q9EP9bwpqP3VCT48g[auch dismal]#97cwVCHPwVCHP5xPwpY (no # between CH and P; no x).
+  - image l.17 (4V#wzo5qEdYPpb?w3VqST37wbpxwqT3E+VwpPwqE5q) was only partly in v1 l.19; re-transcribed; ? = blotted square.
+  - l.18 = v1 l.18 + v1 l.20 (5dE9[die hoffnung ... nicht thun]EwV#9bEP?qwVw35).
+  - l.19 = image last line YQwpx4oq9E8pY5cH97wq[Datum ut in literis.] (v1 l.19 mixed this with l.17).
+
+## Final counts, all pages P1-P8 checked (cipher text only)
+
+| page | # v1 -> v2 | U v2 | d v1 -> v2 | K |
+|---|---|---|---|---|
+| P1 | 56 -> 53 | 5 | 3 -> 5 | 0 |
+| P2 | 66 -> 39 | 24 | 2 -> 2 | 1 |
+| P3 | 60 -> 52 | 11 | 3 -> 3 | 0 |
+| P4 | 77 -> 74 | 0 | 3 -> 3 | 0 |
+| P5 | 70 -> 68 | 0 | 2 -> 2 | 1 |
+| P6 | 53 -> 52 | 0 | 1 -> 4 | 0 |
+| P7 | 60 -> 60 | 0 | 1 -> 32 | 0 |
+| P8 | 37 -> 35 | 0 | 0 -> 14 | 0 |
+| total | 479 -> 433 | 40 | 15 -> 65 | 2 |
+
+K column counts the v1 code K (psi-like sign), not the R9410 looped word sign; that sign does not occur in R9409. The one v1 K on P8 l.7 was a ringed 8 with tick (now b); the remaining K are on P2 l.8 and P5 l.25.
+
+Additional P6-P8 finding: v1 coded the ringed 8 (small 8 with ring on top; b on P1-P5) as S on P6-P8 in many places; recoded b where checked. The d count rises because many v1 b on P7/P8 are the box-with-ascender d.

@@ -2,7 +2,7 @@
 # '?' doubtful sign; [..] clear-text words; spaces only at writer's gaps
 # v2 (split pass, see split.md): P1 checked line by line against the image; new codes U (upright H, v/u) and K (big looped word sign; none found on P1).
 # P1 lines 19, 23, 25 of v1 were copies of P2 lines 19/23/25 and are re-transcribed from the image.
-# P2-P4 checked, P5 checked through l.20; P5 l.21-36, P6, P7, P8 copied unchanged from v1 (not yet checked).
+# P2-P8 checked line by line (all pages); see split.md.
 == P1 (f.240r) ==
 01 e-^ba# #w84EpTzxYo+3VLY4.82+ob4Qwqmg4V4oEwxc#.24.e-
 02 DwPV35gpzwm8cwXgSE+Vwpo48E3Veng5VAl48wFH4b3owV5qY
@@ -118,27 +118,25 @@
 39 [was sich der und anderer sachen weiter zutragen wirdet, will ich vleissig aufmerckung]
 40 [haben etc.]
 == P8 (f.243v?, image rotated 90 in photo) ==
-01 E5V37PowVw3VS#wVwEYE5xbwpEYbmET#wVzo5bY48fwxwpQ
-02 zo5Y#wpVYzomPE+9qEpwC9qDwV5Cp9qPwE+b9xL48PwV4#w
-03 YV5#4Y7mVE5q89EYE5xqpY5T4xT#wVzo5bY48E5qEpwc+
-04 mq#wTwq8#CTPwqp#YQ3w YPpwwV3VSP9b5P847wq73#48Q
+01 E5V37PowVw3VS#wVwEYE5xbwpEYbmET#wVzo5dY48fwxwpQ
+02 zo5Y#wpVYzomPE+9qEpwC9qDwV5Cp9qPwE+d9xL48PwV4#w
+03 YV5#4Y7mVE5q89EYE5xqpY5T4xT#wVzo5dY48E5qEpwc+
+04 mq#wTwq8#CTPwqp#Yb3wYPpww3VSP9b5P847wq73#48Q
 05 [Auf den Reichstag und sebunderen ist... mir mit furnden antwort gefallen?, wurdet sich]
-06 Io5qYQ9qpx9wLT37owVCHc#H9PPYP9bopxL48T3o5bY487mY
-07 #wYV5pEYzoPwpqPpVE4Y##9V#w7wbYxQ4Kxp#7#qE48xwCVw
+06 IQ5qYb9qpx9wLT37owVCHc#H97PYP9bopxL48T3zo5dY487mY
+07 #wYV5pEYzoPwpqPpVE4Y#9V#w7wdYx84bxp#7#qE48xwCVw
 08 Y5Vp48cV#wE4VEwVAV9PxYT3PwpxL4qP3g#4opqxpo48
-09 P3V#4853D7wpq#qEwV7o5qEb3q#37PwpqTp7bmE#wbYV
-10 EY7o5bY48E5qbwxcwVCHPwVCHbpwE+b5Y.48#9qE47xwb
-11 PwqPwpxL4qP3V#q38#Ywv7wpbQp#YP9bE48xp#738
-12 E48w3VSx7mYbwVT4pYT3#wVT4gwqP9bq9Yxwpqzo@pV48
-13 PwVE48c#[dan ich deine brief ... mer dann dein]E
-14 PwV#4g[verrainen will und ...][erased?]
-15 qpYwVzo5bY4875#?w?E48[...]
-16 q9EP9bwpqP3VCH48g[auch]4o75qD5qT^HbpqP3qE4gw3VS73#48
-17 [dieweil dis alles laut ... (struck out) ...][dieweil]#97cwVCH#PwVCHxP5xPwp
-18 5bE9[die hoffnung an werk ...]
-19 Ybwpx4oq9EC8p7 5q#97wq S?T37wbpxwqT3?V wpPw..
-20 [nicht thun]EwV#9bEP?qwVw35
-21 q[Datum ut in literis.]
+09 P3V#4853D7wpq#qEwV7o5qEd3q#37PwpqTp7dmE#wdYVw
+10 EY7o5dY48E5q6wxcwVCHPwVCH6pwE+d5Y.48#9qE47xwd
+11 PwqPwpxL4qP3V#q38#YwV7wpbqp#YP9bE48xp#738
+12 E48w3VS7mY6wVT4pYT3#wV4gwqP9bq9Yxwpqzo@pV48
+13 PwVE48c#[dan ich deine brief ... mer dann dein]4oDVwp
+14 PwV#4g[verrainen will und niemand dis alles laut ... (struck out) ...]
+15 qpYwVzo5dY4875#PwE484op75qD5qTH5pqP3qE4gw3VS73#48
+16 q9EP9bwpqP3VCT48g[auch dismal]#97cwVCHPwVCHP5xPwpY
+17 4V#wzo5qEdYPpb?w3VqST37wbpxwqT3E+VwpPwqE5q
+18 5dE9[die hoffnung an werk nicht thun]EwV#9bEP?qwVw35
+19 YQwpx4oq9E8pY5cH97wq[Datum ut in literis.]
 == P4 (image upside down, rotated 180) ==
 00 w3VSx9T48go4oPmxL48E5x57.24.c#Ec75VCp+5pq4VE4xP5ox
 01 #wx5qEY4V5bQpw4o5qH97wqPg9bExq3DE48.19.Epx
@@ -200,93 +198,91 @@
 18 [khen nach das]^E-QCw74g8QzoC57wV57PY53DEVwpmgVb5qTwV9Pwbg
 19 [.. hoffe ich er werde]^E-w3VqSqp7wVpVb48[noch aineschen eintrag machen, und]
 20 [ob er schon nicht wirdet das nit helfen, hab auch sollichs alles, mit mer notwendiger]
-21 [angehengten ... wie ich noch ain abschrift hab,]c#^E-EwVc+5q#wTPp#Y
+21 [angehengten ... wie ich noch ain abschrift hab,]c#^E-EwVc+5q#wTpP#Y
 22 [Zum dritten]SQb5xpVc+T35T48#V3wP48zoTwE48x9mo+Y#w7wbY4g
 23 5qYco9qp#wVD5S48P3VE4Y9b9bCTP5xL4gzo5qE4VxL9q9YPpV
-24 EwYxwpqw3VqSDVw#qYbmEEzo#3wYPpTm# #wV#3q848P9b
+24 EwYxwpqw3VqSDVw#qYbmEzo#3wYPpTm# #wV#3q848P9b
 25 [damit yetzo im anfang]comb CT#wD4TYc3CSPwVCH#wA5KYzo5qE4V7
 26 T37cq348#wS9Vm#T3#3wYQ4VPwg5pY73#PwVE48^E-Q[zum]
 27 [andern das er]c#S^E-c+7wVTw7wbY485qYco9qp48Ew7PwpE5zo
-28 PpE+mD53xLmPwqP3V#48PwxqEwVbpEcw34bE4E97mYwV
+28 PpE+mD53xLmPwqP3V#48Pwx3qEwVbpEcw34bE4E97mYwV
 29 #9qPw#48w3VS#9V7wqp#HbpEx#P5bYPwE+3CTYPwVEwS?
 30 [zum funften. Nachdem sich]c#^E-w3VS#9qpV4gc+q38pqE5xAzo f4o
-31 5qE4V4gD3VxY48EwxVwpExx#4qT3qxYPw#4q48S5P48E5xw3V
-32 Sq3qp8#pb48x5E48pVc+wV+5p#Y5pYwVT5p#Yco5P48E5xpVc+pqcw
-33 EwqCH3q?bwV95T4gP9T4pVc+w3VqS#3wYPpTm#pqx9bE47cw
+31 5qE4V4gD3VxY48EwxVwpEx4qT3qxYPw#4q48b5P48E5xw3V
+32 Sq3qp8#pb48x5E48pVc+wV+5pYwVT5p#Yco5P48E5xpVc+pqcw
+33 EwqCH3q?bwV95T4gP9T4pVc+w3VqS#3wYPpTm#pqx9bE47cwV
 34 PwVCHx9w3VSwVcq348E4xTw84qYxDVwp48Ewq#9bEPwExb
 35 zoxpbPwVH53D4oE5x#9bEzoxpbP4gx9w3VqSD5T48P3VEw53x
-36 E47b5qETwD3wVq#wVT3q848P9T4bpwPwpbpVx9TExw3VqSST3#w
+36 E47b5qETwD3wVq#wVT3q848P9T4bpwPwpbpVx9TExw3VqST3#w
 == P6 (image upside down, rotated 180) ==
-01 x5#Yco5P4[anders mich im namen]^E-QpqS57wqw3VwgST3cwT4Vq
-02 #5qCTDVw7PE5qx5S4c#[kan auch nit gedencken, wer doch solches zu]
-03 [erlangen zu seinem]w3VSPwgmEEYS5PwpVc+P9T44o3PwVx9TED Vw
+01 x5#Yco5P4[anders mich im namen]^E-Qpqb57wqw3VwgST3cwT4Vq
+02 #5qCTDVw7PE5qx5b4c#[kan auch nit gedencken, wer doch solches zu]
+03 [erlangen zu seinem]w3VSPwgmEYb5PwpVc+P9T44o3PwVx9TEDVwp
 04 co5pY48PpTm#HbmEc+VwpPVpwD53c+VmEY48b5xL48zo[?]
-05 [Zum sechsten und sebunden das er]^E-QSpVc+P9TEwqcS3VqxxqSq5S4qY
-06 #7PE5xcwVCHPwVCH9884 8#wcpwY48E5xLpE5x#wD4bY
-07 SmbTx9T48T3EwqE73b48+b5pS48zow3V4VScwVCHbw3Y48E3V
+05 [Zum sechsten und sebunden das er]^E-QSpVc+P9TEwqcb3Vqx9q5b4qY
+06 #7PE5xcwVCHPwVCHP9848#wcpwY48E5xLpE5x#wD4dY
+07 bmbTx9T48T3Ewq73b48+b5pb48zow3V4VScwVCHbw3Y48E3V
 08 pVwVc+[understehen zu stellen][so in der grossen theurung umb ein zimlich gelt]
-09 ^E-PwpqcV9YHDbwpE.#wV+5DYPwVE4bwV7pP485VYpCHcb
+09 ^E-PwpqcV9YHDbwpE.#wV+5DYPwVE4bwV7pP485VYpCHod
 10 PwTVpQ+[hab ich]53xw3VSc+VwpP48#wS#7wqD[und wie wol ich ver-]
 11 [main ich hab zu scharpf angezeigt?][..lassen, das ich zu underlassen wol gewisst, so]
-12 [ich den]c#Ic#S^E-c+5VYzoT4oT73wEYqpYwVb4gqYco+YQ4[dan so]
+12 [ich den]c#Ic#S^E-c+5VYzoT73wEYqpYwVb4gqYco+YQ4[dan so]
 13 [weisslich mit]T3wYQ48c#P9VY48qpEYxT3wVco5bY484opVc+75T
-14 P9TomgQbwpE48x9TpEx5T4?co5Pd E475qYb9qp48xbwxpqT4
-15 zoSpT48cV5qE#wVb4xwpqpV48V5YEpw5VYpCHbT37wV48mE4gf
-16 7mqE4VqcwV#4VYco5P48xpwx5bL#co5#P48P9T48[Nun was mir]
+14 P9TomgQbwpE48x9TpEx5T4?co5PdE475qYb9qp48xbwxpqT4g
+15 zobpT48cV5qE#wVb4xwqpV48V5YEpw5VYpCHbT37wV48mE4gf
+16 7mqE4Vqcw#4VYco5P48xpwx5bL#co5#48P9T48[Nun was mir]
 17 [fur antwort gefallen, will ich kurzlich hiemit]c#w3VqS5qT5p#48c#co5Px
-18 4o5Tc5pEbwq5qYb9qpzocopT48cV5qEYD3VEpwc+TwcV5EYxpqbL
-19 pq7wpq4cwpxwpqwYbmEE4VcwVCHx5E48#wDV5#YP9VE4oP
+18 4o5Tc5pEbwq5qYb9qpzocopT48cV5qEYD3VEpwc+TwcV5EYxpqbLp
+19 pq7wpq47cwpxwpqwYbmE4VcwVCHx5E48#wDV5#YP9VE4839
 20 xmE53D7wpq#qEwbpEYPw+5pb4qbmE#wco5bY48c[Auf den erste..]
-21 5VYmmHc Qbpvc+co5Pwpqx3qEwVbmEDVw3qYbmEP9T#wc+5T4
-22 Qbq?w3VSxmE37PbExcwVCHPwVCHP9T485q847wqxpP9T4oPD
-23 Q5xw3VSxmE37PbExcwVCH#wVP5bY4g#wS
-24 #w7wbY48^E-8Qco+mqz448D3Vw3VwgScwVCH
-25 wVH4q848PwE+3CT48zoco5qEY4S5P48[und dennoch wo er will in seinem]
-26 5q#5TpqmE4V#w7wbYw3VSTwcq348#wV#3q848Ppwc+p
-27 q5mg48 5T5pqPE4V...
+21 5VYmnHcQbpVc+co5Pwpqx3qEwVbmEDVw3qYbmEP9T#wc+5T4
+22 Q5xw3VSxmE37Pb5xcwVCHPwVCHP9T485q847wqxpP9T4oPD
+24 #w7wbY48^E-8Qco+mqz448D3Vw3VwgScwVCH#wVP5bY4g#wS
+25 wVH4q848PwE+3CT48zoco5qEYb5P48[und dennoch wo er will in seinem]
+26 q5mg485T5pqmE4V#w7wbYw3VSTwcq348#wV#3q848Ppwc+p
 28 q47pwEbmE48[was stands er sei, verrainung allen]cwVCH9VEq38##wV
-29 #38YPpVEwY[Auf den andern wurde disser zeit]c#EwVPw#4bEYPVpwD
-30 5qc+75bCT48zoDVwpq4V#4gc#[mit not sein]^E-IpgC+P9T4E475qYb
+29 #38YPpVEwY[Auf den andern wurde disser zeit]c#EwVPw#4dExPVpwD
+30 5qc+75bCT48zoDVwpo4V#4gc#[mit not sein]^E-IpgC+P9T4E475qYb
 31 qp4mq48xwCVwY5Vp48Lp#73qE48#9qTwV47bp48T3#wP48.
-32 [beschehen, dan das]+75bCT48p7cwVCHP4VCHCwqmg4qYco+C57wV
+32 [beschehen, dan das]+75bCT48p7cwVCHP4VCHCwqmg4qYcoC57wV
 33 #bwpEco7mY#wVP5bY4gx9bx^E-pqb5qE47+75bCT48qmYTV#
 34 YV5#YPpVE4YE47co5YEpwc+zoq7wpq47cwpxwzoqPw#9bE48
-35 E47+75bCT48T3x5#48E5xwV5qYS9qp48pqxwpq47D3Vq47wq#
-36 #wSpqE4VYb5xLwzoP9wVc+75bCTqpYP9T4x973wxL4wV7w
-37 #wE5EY4Vxp#73qEx9b4o-qYco9qp48zoEpwxwpq48pq#3wY [end]
+35 E47+75bCT48T3x5#48E5xwV5qYb9qp48pqxwpq47D3Vq47wq#
+36 #wbpqE4VYb5xLwzoP9wVc+75bCTqpYP9T4x973wxL4wV7w
+37 #wE5EY4Vxp#73qEx9b4o-qYzo9qp48zoEpwxwpq48pq#3wY [end]
 == P7 (image upside down, rotated 180) ==
 # folio number 243 at top right of P7
-01 cw#wbE+3CTzo+pV7S5bY48 7pYp7w5T4xwpq4#V3wP48Pw
+01 cw#wbE+3CTzo+pV7b5dY487pYp7w5T4xwpq4#V3wP48Pw
 02 x4co48E5xwVCTcV9PpVqEpwcV9PpV4gc+T3+mCH48zo
-03 5bxE5qPpTpVc+pqP5x#xY5bQxpw3VScVpwpbT4TpwVqP9T48
+03 5bxE5qPpTpVc+pqP5x#xY5bQxpw3VScVp#pd4TpwVqP9T48
 04 [mit etlich rat als nemlich wie ichs ..wissen, mit dem]c#^E-73qEc+5CT75pxY
-05 4VEwVPpc+mD4Sbpwx9bPwVE4...[..at]c#[nachmals mit ainem brief]c#c5#S
-06 #9qEwV73V5qPpVEwY7mgSx75p5pxY4g4oE47m73qE5q84qTp#S5qE
-07 b48zow3VS53D7wpq#wYS9qcwT4Vq5qYP9VY#wP48^E-[das mich]
+05 4VEwVPpc+mDqbpwx9bPwVE48c#[nachmals mit ainem brief]c#c5#d
+06 #9qEwV73V5qPpVEwY7m8x75pxY4g4oE47m73qE5q84qTp#b5qE
+07 d484ow3VS53D7wpq#wYb9qcwT4Vq5qYP9VY#wP48^E-[das mich]
 08 [frembd zu sein vermaint, die sachen mit denen sy?s nit wissen zu beratschlagen, und]
 09 [nachdem, dieweil]c#^E-pgc+EwqE+75bCT7mY5T4gpV4gc+V84Y4
-10 PpT48zoPpxL484owpq4V#5qCT48b5q9+5DY#wV#3q848T3wpq-
-11 47cwVCHco53PY75qwVP9bY5bx973#4opVc+EwV#bpE48AVp
-12 #pb4Tp5PpwE+75bC4co5YzoTw3VSc##4VqD3Vxm Exwb Px5T
-13 5pq8pY#wV#4P48E5xco5PdqpEw3VqS5qT3T5p#4853x+3o7pT4g
-14 cDbpEYqpY#qEwVb5xL487mT48co5PE5x5TL E475qYb9qp zo
-15 copT4qcV5qYqpY#wVco5bY48[und doch dieweil die sachen sich so weit]
+10 PpT48zoPpxL484owpq4V#5qCT48d5q9+5DY#wV#3q848T3wpq-
+11 47cwVCHco53PY75qwVP9bY5bx973#4opVc+EwV#dpE48AVp
+12 #pd4Tp5PpwE+75dCTzo5Y4ow3VSc#4VqD3VxmExwdPx5T
+13 5pq8pY#wV#4P48E5xzo5Pdw3VqS5qT3T5p#4853xE+3bEpT4g
+14 cDbpEYqpY#qEwVb5xL487mT48co5PE5x5T4E475qYb9qp4o
+15 copT4qcV5qYqpY#wVco5dY48[und doch dieweil die sachen sich so weit]
 16 [eingerissen, nit wollen absehen, das sy die]cwVCHPwVCHVwEYPw
 17 x4co48cV9PpwV48x75E48VwEq3qTE5V53DcwVmEY48w3V
-18 S5T4gx5E48c#[und nachdem ... erfarung muge]SIw3VSD3VY4g#w
-19 D5V48mE4gxYpbco5bY48.[Vnnd doch aber nachdem sich][struck through]5qY
-20 Y9qp#wVYV9xYw3VSx9T48x9co+mqE4x5T4x5P#w+b5#48
-21 E5q89EY9qc+5E48A53wqQ^E-[Auf den dritten den]c#co#bCT+
-22 b5#PwbSq#4qEY4oEwVc+qpYTwPpE4gc#[dan die notturft]
+18 S5T4gx5E48c#[und nachdem ... erfarung muge]bIw3VSD3VY4g#w
+19 D5V48mE4gxYpdco5dY48.[Vnnd doch aber nachdem sich][struck through]5qY
+20 Y9qp#wVYV9xYw3VSx9T48x9co+mqE4x5T4x5P#wE+d5#48
+21 E5q89EY9qc+5E48A53wqQ^E-[Auf den dritten den]c#co#dCT+
+22 d5#Pwd5q#4qEY4oEwVc+qpYTwPpE4gc#[dan die notturft]
 23 [bringts mit sich. Auf den vierden ...][und]pVc+7mYEw7P5pE5zo
-24 cpc+mDEw7S5qYco9qp#3wY48 48+3CTc#Tw+5bY48#wV+5b
+24 cpc+mDEw7b5qYco9qp#3wY48+3CTc#Twco5dY48#wV+5b
 25 ^E-Q[Auf den funften den]TwcocqYDVwp#8#PwYVwb48Y[mach-]
-26 [ich wol das sich die]c#C+53DwYbmE4p5VqpYPgEwVYP5pxPwV
-27 qpYPpw#pb[desgleichen]^E-IEwq#9bEPwCcoxbxmbPwVH53D#wV
-28 comb4qbwxPwVE4w3VqS5T4pq55q#wV5qE47pVY9V5Tw3VScwVCHPwVCH
-29 cq#48T3#wcV5#E48qpY5o#w+b5#48[darauf den gestalt das allers?]
-30 :c##9bEzoxpbP4Vx9#wPwwExwbYzoH53DYPpVE4YpqpV4g
-31 c+C57wV#w5qYP9VYPwVE4 4+E5V5qb5qw3VSSCE47A5V#4bY
-32 #wco5qE48PpVE4Ywxwpq8pY YwpqHbwpqS3CTco5P48 73#48
-33 5PwV#9bExpbP4g53xE47b5qTwD3Vq4o#9VH5pq47PwE4g
-34 SbExq9bqpE4VxLQ5qExwV#3qYP9VE48[deshalben gar abgeschlagen.] [end]
+26 [ich wol das sich die]c#c+53DwYdmE4p5VqpYPpEwVYP5px5PwV
+27 qpYPpw#pb[desgleichen]^E-IEwq#9dEPwCcoxdxmdPwVH53D#wV
+28 coPb4qdwxPwVE4w3VqS5T4pq5qE479VYE5w3VScwVCHPwVCH
+29 cq#48T3#wcV5#E48qpY5o#wE+d5#48[darauf den gestalt das allers?]
+30 :c##9dEzoxpdP4Vx9#wPwExwdYzoH53DYPpVE4YpqpV4g
+31 c+C57wV#w5qYP9VYPwVE4E5V5q65qw3VS8CEE47A5V#4dY
+32 #wco5qE48PpVE4Yxwpq8pYwpqHdwpq83CTco5P4873#48
+33 5PwV#9dExpdP4g53xE47d5qTwD3Vq4o#9VH5pq47PwE4g
+34 b9Exq9EqpE4VxLQ5qEx#wV#3qYP9VE48[deshalben gar abgeschlagen.] [end]
