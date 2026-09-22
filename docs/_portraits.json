@@ -614,6 +614,14 @@
    "what": "Portrait, workshop of François Clouet, 16th century",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Charles III, Duke of Lorraine, by studio of François Clouet.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Comte de Vaudémont",
+   "img": "portrait_comte-de-vaudemont.jpg",
+   "what": "Drawing, anonymous, 1530s (Gaignières collection, BnF)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:MONSEIGNEVR DE VAVDEMON(T) - dessin - Nicolas de Lorraine, Duc de Mercoeur et comte de Vaudemont, né en 1524. - sa fille Louise de Lorraine fut mariée à Henry III - anonyme - btv1b532621014.jpg"
   }
  ],
  "lucca": [
@@ -657,6 +665,14 @@
   }
  ],
  "maria1435": [
+  {
+   "role": "sender",
+   "name": "María of Castile",
+   "img": "portrait_maria-of-castile.jpg",
+   "what": "Portrait, unknown artist, 15th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Marie Kastilie.jpg"
+  },
   {
    "role": "recipient",
    "name": "Alfonso V",
@@ -1615,6 +1631,14 @@
    "role": "sender",
    "name": "Comte d'Affry",
    "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal de Bernis",
+   "img": "portrait_cardinal-de-bernis.jpg",
+   "what": "Portrait, Château de Versailles (MV 2986)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:François-Joachim de Pierre de Bernis - Versailles MV 2986.png"
   }
  ],
  "balbases1677": [
@@ -1710,6 +1734,14 @@
    "role": "sender",
    "name": "Nuncio Lucini",
    "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal Torrigiani",
+   "img": "portrait_cardinal-torrigiani.jpg",
+   "what": "Engraving by Pietro Antonio Pazzi, c. 1750",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ludovico Maria Torrigiani.JPG"
   }
  ],
  "ormanetto1576": [
@@ -1717,6 +1749,14 @@
    "role": "sender",
    "name": "Niccolò Ormanetto",
    "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Tolomeo Gallio",
+   "img": "portrait_cardinal-gallio.jpg",
+   "what": "Portrait, unknown artist, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Tolomeo Gallio.jpg"
   }
  ],
  "r1874": [
@@ -1724,6 +1764,14 @@
    "role": "sender",
    "name": "Alvise Mocenigo",
    "img": null
+  },
+  {
+   "role": "recipient",
+   "name": "Doge Giovanni Cornaro",
+   "img": "portrait_doge-giovanni-cornaro.jpg",
+   "what": "Portrait by Sebastiano Ricci, early 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Giovanni I Cornaro Ricci.jpg"
   }
  ],
  "rechteren1785": [
@@ -1758,6 +1806,36 @@
    "what": "Portrait, c. 1800",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Maarten van der Goes van Dirxland.gif"
+  }
+ ],
+ "carpio1677": [
+  {
+   "role": "sender",
+   "name": "Marqués del Carpio",
+   "img": "portrait_marques-del-carpio.jpg",
+   "what": "Engraving by Arnold van Westerhout, c. 1660",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Retrato de Gaspar de Haro, VII marqués del Carpio.jpg"
+  }
+ ],
+ "ormanetto1573": [
+  {
+   "role": "sender",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait by Sofonisba Anguissola, 1565",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
+ ],
+ "palm1727": [
+  {
+   "role": "recipient",
+   "name": "Gundaker Starhemberg",
+   "img": "portrait_gundaker-starhemberg.jpg",
+   "what": "Portrait, unknown artist, 18th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Gundaker Thomas Starhemberg.jpg"
   }
  ]
 }
