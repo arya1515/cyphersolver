@@ -485,41 +485,6 @@
    "scored": "rule"
   },
   {
-   "id": 61,
-   "counted": true,
-   "year": 1645,
-   "date": "5 Jun 1645",
-   "title": "Unknown sender (York) to Lord Goring",
-   "correspondents": "Unknown sender → Lord Goring",
-   "place": "York, England",
-   "language": "English",
-   "region": "England",
-   "period": "1611-1650",
-   "shelfmark": "TNA, State Papers, inv.nr. 106 box 10",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R932: Partially decrypted, 2 pp., homophonic; numerical; images login. Not viewed here. 2 key record(s) from the same series on DECODE, nearest R725 (None). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: Two strips of paper with 4, resp. 6 lines of code, 140 and 200 codegroups in sum total. The almost exclusive use of 1- and 2-digit numbers suggests that we are dealing with a homophonic substitution cipher. On the basis of storage and handwriting it seems like…",
-   "why": "Ciphered letter of Unknown sender to Lord Goring, 5 Jun 1645; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R932",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/932"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    932
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 74,
    "counted": true,
    "year": 1727,

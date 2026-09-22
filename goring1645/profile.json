@@ -1,0 +1,115 @@
+{
+ "schema_version": 1,
+ "target": "goring1645",
+ "title": "Unknown sender ('Yorke') to General Goring, 5 June 1645, TNA SP 106/10 ff. 251-252 (DECODE R932)",
+ "documents": [
+  {
+   "id": "R932",
+   "shelfmark": "TNA SP 106/10 ff. 251-252 (DECODE R932)",
+   "date": "5 June 1645",
+   "year": 1645,
+   "country": "England",
+   "route": "Unknown sender (signed '<104> Yorke') to General Lord Goring",
+   "language": "English",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "George Lasry, reconstructed key TNA SP106-3 and plaintext uploaded to DECODE 2020-10-23",
+    "partial": true
+   },
+   "length": {
+    "tokens": 338,
+    "distinct": 64,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ciphertext.txt"
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE manual transcription by 'FL', 3 Jan 2020",
+    "image_quality": "unknown",
+    "notes": "Images not viewed here (DECODE thumbnails only)."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic"
+  ],
+  "summary": "Numerical homophonic alphabet, 1-2 digit values with 1-4 homophones per letter; 60-79 nulls/space; one code group 106 = GENERAL.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-3",
+   "separation": "dots"
+  },
+  "distinct_symbols": 64,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 3,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "Lasry's SP106-3 key; same volume as the hm1645 run (SP 106, SP106-2, SP106-5, SP106-8)",
+  "notes": "Codes 104 and 46 unresolved."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "DECODE record R932 files (Lasry, 2020-10-23)",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "transcription",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": [
+   "key application to DECODE transcription"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Fetched DECODE R932 record page and its four DOC files with the shared cookie: FL transcription, Lasry's key SP106-3 and plaintext (2020-10-23).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "control",
+   "what": "Applied Lasry's key to FL's raw transcription (check.py) independently of his plaintext; reads the same English, misses only run-together tokens.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "fraction_read": "unknown",
+  "grades": "unknown",
+  "verification": [
+   "key confirms"
+  ],
+  "notes": "Nothing new; codes 104 and 46 open in Lasry's plaintext. Catalogue entry 61 resolved."
+ }
+}
