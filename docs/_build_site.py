@@ -1081,7 +1081,7 @@ def writeups_html():
         rows.append(f'<li data-kind="{kind_of(p)}" data-period="{period_of(p["y"])}" data-src="page" '
                     f'data-q="{q(p["label"], p["title"], p["place"], p["year"], p["blurb"], p["stt"])}">'
                     f'<a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span>'
-                    f'<span class="t">{p["title"]}</span>{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span>'
+                    f'<span class="t">{avatars_html(p["slug"])}{p["title"]}</span>{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span>'
                     f'<span class="b">{p["blurb"]}</span></a></li>')
     notes = readme_notes()
     nrows = []
@@ -1161,12 +1161,20 @@ def when_html(p, cls='when'):
             f'title="{verb} {fmt_date(rec["first"])}, updated {fmt_date(rec["updated"])}">'
             f'{VERB_SHORT.get(p["st"], verb)} {fmt_date(rec["first"], short=True)}</time>')
 
+def avatars_html(slug):
+    """The correspondents' portraits as a small overlapping pair, for cards and list rows."""
+    people = sorted(PORTRAITS.get(slug, []), key=lambda p: p['role'] != 'sender')
+    if not people: return ''
+    tip = html.escape(' → '.join(p['name'] for p in people), quote=True)
+    return (f'<span class="avs" title="{tip}">' +
+            ''.join(f'<img src="{p["img"]}" alt="" loading="lazy">' for p in people) + '</span>')
+
 def card_html(p):
     im = IMAGES.get(p['slug'])
     thumb = f'    <img class="thumb" src="{im[0]}" alt="" loading="lazy">\n' if im else ''
     return (f'  <a class="card{" hasthumb" if im else ""}" href="{p["slug"]}.html">\n' + thumb +
             f'    <div class="eyebrow"><span>{p["place"]} &middot; {p["year"]}</span>{when_html(p)}<span class="st {p["st"]}">{p["stt"]}</span></div>\n'
-            f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    <span class="go">read &rarr;</span>\n  </a>\n')
+            f'    <h3>{p["title"]}</h3>\n    <p>{p["blurb"]}</p>\n    <p class="quote">{p["quote"]}</p>\n    {avatars_html(p["slug"])}<span class="go">read &rarr;</span>\n  </a>\n')
 
 PORTRAITS = json.loads((HERE / '_portraits.json').read_text(encoding='utf-8')) if (HERE / '_portraits.json').exists() else {}
 
