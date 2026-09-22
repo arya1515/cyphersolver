@@ -51,6 +51,7 @@
   "cornelis haga at constantinople to the states general, february–may 1620": "2026-09-21",
   "count visconti (brussels) with marquis visconti (london), 1727": "2026-09-21",
   "debosnys, 1882–83": "2026-09-15",
+  "desmarets to an unnamed correspondent, 4 june 1710": "2026-09-21",
   "diego lópez de ayala to cardinal cisneros, 30 august 1516": "2026-09-21",
   "dinteville to nevers, 3 july 1592": "2026-09-21",
   "dirk van hogendorp to maarten van der goes, 5 july 1803": "2026-09-20",
@@ -305,7 +306,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "1199d70b5a34",
+   "hash": "2d2581137e6f",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -371,6 +372,11 @@
   "dedem1788": {
    "first": "2026-09-21",
    "hash": "79d2f7174056",
+   "updated": "2026-09-21"
+  },
+  "desmarets1710": {
+   "first": "2026-09-21",
+   "hash": "1d5b71ce9ffa",
    "updated": "2026-09-21"
   },
   "deswart1782": {
@@ -510,7 +516,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "21669afb9656",
+   "hash": "5da0502119df",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -1050,7 +1056,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "c731cce563ac",
+   "hash": "9e8aee1b53c8",
    "updated": "2026-09-21"
   },
   "yard1699": {
