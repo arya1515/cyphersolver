@@ -1,4 +1,4 @@
-# v2 (split pass, see split.md): P1-P6 all lines checked on the image with #/d zooms; P7 checked for #/d at overview scale only; P8 unchanged.
+# v2 (split pass, see split.md): all pages P1-P8 checked on the image.
 # v2 new codes: U = upright H (split from #, = R9410 U, u/v); $ = big looped S/l word sign (split from d, = R9410 K; K is already taken here by the crossed-L sign).
 # R9413 (BayHStA KAA 4591 f.252-256) transcription; codes as sysA/signs_r9410.md
 # one char per sign; ? = doubtful sign; [..] = clear text; g: = interlinear gloss
@@ -222,17 +222,17 @@ g: (above 13) ǂ mark over the second b of "b4b"
 
 == P7 (f.256r, separate slip, dated 8 July; large photo) ==
 01 c9vq4dZ3xnwA4v3x4o5qTwxy4vq
-02 7myE47V5dbwvJ9MjZ48n5xwvbb3qo3v64Z
-g: (above 02, over "vb") small "ÿb" written above (correction?)
-03 nwZyZ4vnZbkw3vqXn5bEnwvZEy48
-04 t5ZTwvEZx+vovZwDMj5vAc75#A5?
-05 nZEwvb5v5n J97+48x93wvZo4w3vX
-06 Av53E48#9Y48wv4o5bx7mE#wE3qc?
-g: (above 07) Y-like mark above the b of "5b48"
-07 vwEy#wE+5b48 [Dat(?) 8 Julij.]
+02 7myE47V5dbwvJ9MjZ48n5xwvd3qo3v64Z
+g: (above 02, over the d of "vd3") small "ÿb" written above (correction?)
+03 nwZy4vnZdkw3vqXn5dEnwvZEy48
+04 t5ZTwvEZx4vovZwDnZ5vAl75#A5?
+05 nZEwvb5v5nJ9748x93wvZq4w3vX
+06 Av53E48#9Y48wv4o5dx7mE#wE3qc
+g: (above 07) Y-like mark above the d of "5d48"
+07 vZwEy#wE+5d48 [Dat(?) 8 Julij.]
 08 X   (monogram, below right)
 
 == P8 (large photo) ==
 # single cipher line (address/endorsement?) across the top of an otherwise blank leaf; show-through from the recto only
-g: ǂ mark under/over the second b
-01 bwb4qZ?nmro5q8nwZx48DwbE4v
+g: ǂ mark over the δ (third sign)
+01 bwd4qZ?mnro5q8nwZx48DwdE4v

@@ -1,6 +1,6 @@
 # R9413: splitting d/$ and #/U (following ../sysA/r9410_split.md and ../r9408/split.md)
 
-Pages covered: **P1-P6 every line** (thirds/halves at ~1.3-2x, zooms on doubtful signs; every # on P3-P6 looked at), **P7 at overview scale for #/d only**, P8 unchanged.
+Pages covered: **all of P1-P8**, sign by sign (P7 and P8 in a second, full pass).
 
 ## Counts (d / $ / # / U, v1 -> v2)
 
@@ -12,8 +12,8 @@ Pages covered: **P1-P6 every line** (thirds/halves at ~1.3-2x, zooms on doubtful
 | P4 | 14 -> 27 | 0 -> 4 | 28 -> 26 | 0 -> 2 |
 | P5 | 18 -> 46 | 0 -> 2 | 47 -> 39 | 0 -> 8 |
 | P6 | 1 -> 24 | 0 -> 0 | 35 -> 31 | 0 -> 4 |
-| P7 | 0 -> 2 | 0 -> 0 | 4 -> 4 | 0 -> 0 |
-| P8 | 0 -> 0 | 0 -> 0 | 0 -> 0 | 0 -> 0 |
+| P7 | 0 -> 7 | 0 -> 0 | 4 -> 4 | 0 -> 0 |
+| P8 | 0 -> 2 | 0 -> 0 | 0 -> 0 | 0 -> 0 |
 
 The $ occurrences are P1 l.29; P2 l.1, 24 (v1 had J there), 30, 33 and 35 (x2); and P3 l.7 (line-initial).
 The big looped form is regular on P2, and v1 coded it d.
@@ -256,3 +256,14 @@ P7 01 q4bZ3 -> q4dZ3 (plain δ)
 P7 02 V5bbwv -> V5dbwv (δ then ringed 8); 'wvbb3qo' later in the line reads ↓ δ 3 □ o on the overview with 'ÿb' written above (flag, left)
 P7 03-07 overview crop only: the four # (l.4 5#A, l.6 48#9, #wE, l.5?) are slanted with bars out left = #; no big loop; d = δ. Sign-by-sign transcription of P7 not re-verified (flag: l.4 opens ρ54↑ on the image, v1 t5ZT)
 P8 not checked (single line, no #/d issue)
+P7 pass 2 (sign by sign, halves at ~1x-2x):
+P7 01 matches the image
+P7 02 wvbb3qo -> wvd3qo (one δ, the 'ÿb' is written above it); 'J9MjZ48' reads Ӿ9 then an ɯ/ʒ pair: kept
+P7 03 nwZyZ4vnZbkw -> nwZy4vnZdkw (no ƶ between ÿ and 4; plain δ before the boxed k)
+P7 03 Xn5bE -> Xn5dE (plain δ)
+P7 04 Zx+vovZwDMj5vAc75 -> Zx4vovZwDnZ5vAl75 (4 not +; π ƶ not ɱʒ; ℓ after A as elsewhere, not c); first sign is the ƒ/ϯ cross form (t) kept; A5? at the edge left
+P7 05 '5n J97+48' -> '5nJ9748' (no gap; only one cross-shaped sign between 7 and 8, read as the 4 of 48; flag); wvZo4 -> wvZq4 (□ not o); first b is the ringed lollipop, kept
+P7 06 4o5bx7 -> 4o5dx7 (δ with blotted bowl, no ring); 48#9 and E#w = # (bars both sides); the 9Y pair is a hooked ɔ + tall stem with the Y mark above, kept
+P7 06 line end c? -> c (⊏ clear)
+P7 07 vwEy#wE+5b48 -> vZwEy#wE+5d48 (ƶ after ↓ was dropped; the sign under the Y mark is a plain δ); y#w = #
+P8 01 bwb4qZ?nmro -> bwd4qZ?mnro (the third sign is a δ with the ǂ tick; image order m then π); DwbE4v -> DwdE4v (plain δ); the ? is a ƶ-like sign with a long bar (may be Z alone); a small cross between Z and x (wZ?x48) not coded (flag)
