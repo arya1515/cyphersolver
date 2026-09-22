@@ -2,7 +2,7 @@
 # '?' doubtful sign; [..] clear-text words; spaces only at writer's gaps
 # v2 (split pass, see split.md): P1 checked line by line against the image; new codes U (upright H, v/u) and K (big looped word sign; none found on P1).
 # P1 lines 19, 23, 25 of v1 were copies of P2 lines 19/23/25 and are re-transcribed from the image.
-# P2-P8 copied unchanged from v1 (not yet checked for #/U, d/K).
+# P2-P4 checked, P5 checked through l.20; P5 l.21-36, P6, P7, P8 copied unchanged from v1 (not yet checked).
 == P1 (f.240r) ==
 01 e-^ba# #w84EpTzxYo+3VLY4.82+ob4Qwqmg4V4oEwxc#.24.e-
 02 DwPV35gpzwm8cwXgSE+Vwpo48E3Veng5VAl48wFH4b3owV5qY
@@ -41,75 +41,75 @@
 35 L48.[und in summa zu erfaren und zu verkhundigen, wie sich]Qc#fpqb47
 == P2 (f.240v, image upside down, rotated 180) ==
 01 D5J7o5bY48P9JzocE#wV4g*fwYP9wpq+7PwpDbpE4-5qYP9VY
-02 #pPYx9P5pxbwVY3VCHpE+H5pxwgP9J#9wVEpxwqx37wgxwpq
-03 PpJzoEpwDVw#8YE+5DYPpVEwYwpqwqE48Q5P48x9wVf7mYb47
+02 #pPYx9P5pxbwVY3VCHpE+H5pxwgP9JP9wVEpxwqx37wgxwpq
+03 PpJzoEpwDVwU8YE+5DYPpVEwYwpqwqE48Q5P48x9wVf7mYb47
 04 Y3VCH48#wV75pqYTwEo5P48[soll auch nit zu glauben, das er]Oc#Ewgc#
 05 O#gnHq9EpqcwVxp5xwpx3qEwV4owVq9E8pYx9PpVEwYwV
 06 E9E#5Vc5bE43C9qxY5qYpq9cwb5qH97wqzoEwVc+pq5pTq4gcwV
-07 x9qmEwV7mY5qE4VwgHV9xL4V75EYT3E+opbDH97wq5bx#pb4g
+07 x9qmEwV7mY5qE4Vwg#V9xL4V75EYT3E+opbDH97wq5bxUpb4g
 08 c+PwT4VY^E-KmqE4xPwVpEYxowT48x9T7PpE+wq9EwVc+zo
-09 f#.wE+w48x9JP5pxdw3VSx9#pbT3#wVxY4qEpT48Ppw7mV4o
+09 f#.wE+w48x9JP5pxdw3VSx9UpbT3UwVxY4qEpT48Ppw7mV4o
 10 Epwc+xwbPxPw39bE48w3VqS5qT3T5p#48c#xpqmE4VPpE9c
-11 5bxEwVx5E48wzoqC97mEExL5V?4o#9q5bwAlpwqYQ3Vx9T375qE4
+11 5bxEwVx5E48wzoqC97mEExL5V?4oU9q5bwAlpwqYQ3Vx9T375qE4
 12 Vq75bE3VEPVzwDzocY9Y48ApYbmEwVD9VE4gYP9VE487mY5q
-13 T5p##8T#3wY4g7mYO4bEpwocqpE48H3qmT485q847bmEzobwp
-14 EbmExwzoqL9J48E7o5YxmE5bxY##w7wbY4gApE+mDPwg4E485xL48
-15 zoqpY53xE4Vc+cw#wbExE3qEwV5dxD3VzoqxwbPx5#DcVwx
+13 T5pUU8T#3wY4g7mYO4bEpwocqpE48H3qmT485q847bmEzobwp
+14 EbmExwzoqL9J48E7o5YxmE5bxY#w7wbY4gApE+mDPwg4E485xL48
+15 zoqpY53xE4Vc+cwUwbEx3qEwV5dxD3VzoqxwbPx5UDcVwx
 16 x3V#zoPpwq#wf9#484.wVxYbmE7mYp7wE3VEbpwC57wVgwY
 17 q5E#9b#wqEYb3VEfxwbPx#wQ5qEbYP9VE48E9bbqpEYxDV3EYP5V
-18 bmOxzoE485PE+pE#9qfw7cD5qT48wVf#9J4wYbmEC57wVgwY
-19 zoT3Ewq48wYbmE#qTwVpE+Q4Qwqxwpq4gc4VY#wVmVEq48bpw
-20 7pYp7wpqbwVx5E48E7o5qEb48x9J48x9#pbQ5Y5qTwgw#Y4gPpE#q
-21 EwVc+T3#wE+VpP485bx9E5xpVc+PwqpTmb4VqpEYxE5V53Dc53O
-22 PpJxmEqoyY5qE4Vx#wVxwQ48E5qwpqTwPpxwqT3TxPpJpV48#9V
+18 bmOxzoE485PE+pEU9qfw7cD5qT48wVfP9J4wYbmEC57wVgwY
+19 zoT3Ewq48wYbmEUqTwVpE+Q4Qwqxwpq4gc4VY#wVmVEq48bpw
+20 7pYp7wpqbwVx5E48E7o5qEb48x9J48x9UpbQ5Y5qTwgw#Y4gPpEUq
+21 EwVc+T3UwE+VpP485bx9E5xpVc+PwqpTmb4VqpEYxE5V53Dc53O
+22 PpJxmEqoyY5qE4VxUwVxwQ48E5qwpqTwPpxwqT3TxPpJpV48U9V
 23 Y5pbqpYPwT4Pwq5qbwgY3VCH448E7opbD5PwVPpVEwYqpEYxE5+
 24 c+wVx#wE+w487mT48c#[original etlichs?]E-Y53xwqYV9CTwq83q
-25 p75qT3#xwpqEw7C5Cp5q4gmE4VxwpqA7#9bCH5qEwVxpPwqo3V
-26 #wE+48#VwqpTc#T3PwT4##848EwA[aber gannz heimlich geschicht?]
-27 [hat das selb]c#DwVEpQ4qbpE+3mbCHxpqb5Tbpqcwpy53#xwqYQ3xwg
-28 #wVEw4Vbw#YPwVE4.wxLpqE4#opqxpPwqo3V#48wYbpEY5#xwQY
-29 pqV#xY#8TEpwEwgo5Lb575pb5Y7o5Yb97mgpYwVbpwQwV75qcY?
-30 Y4gT3V#wQ9Vx57EVpqT48PpJE5qwVpq48EVwpDwxY48x9Lp#9o
+25 p75qT3UxwpqEw7C5Cp5q4gmE4VxwpqA7U9bCH5qEwVxpPwqo3V
+26 #wE+48#VwqpTc#T3PwT4#848EwA[aber gannz heimlich geschicht?]
+27 [hat das selb]c#DwVEpQ4qbpE+3mbCHxpqb5Tbpqcwpy53UxwqYQ3xwg
+28 #wVEw4Vbw#YPwVE4.wxLpqE4#opqxpPwqo3V#48wYbpEY5UxwQY
+29 pqVUxYU8TEpwEwgo5Lb575pb5Y7o5Yb97mgpYwVbpwQwV75qcY?
+30 Y4gT3V#wQ9Vx57EVpqT48PpJE5qwVpq48EVwpDwxY48x9LpU9o
 31 EwgA+pqzVw7EwV7owV75qxY4OwVT3x5T48#wT4PwqQwYPgEw
-32 5P#wEV3qT48E7o5YQ5YpJc5xLE97mYpq+8qpEYxT3#5Tcwxw?Y
-33 [und nachdem in]xpPwqo3V#48x9#V9xLwYQw3V#8Tzobpw?75pq
+32 5P#wEV3qT48E7o5YQ5YpJc5xLE97mYpq+8qpEYxT3U5Tcwxw?Y
+33 [und nachdem in]xpPwqo3V#48x9#V9xLwYQw3V#8TzobpwT75pq
 34 pqEwVQwV7Oqx?Y5HPpEwVzVwPPwVH5pY[auch den]7wpb5YEw7
-35 pqpOb5QY48x9wVqxYbpEbwVx5E485q8p7PY4oqpYT3TbpEb5xLpxmE
-36 5q#Q5bY48PPwVE48?J?xpP9J48xwbP5qwpq5qEwVDVwxL48 [end-knot mark]
+35 xpqpOb5QY48x9wVqxYbpEbwVx5E485q8p7PY4oqpYT3TbpEb5xLpxmE
+36 b5q#Q5bY48PPwVE48?J?xpP9J48xwbP5qwpq5qEwVDVwxL48 [end-knot mark]
 == P3 (f.241r?, image upside down, rotated 180) ==
-01 [knot mark]PwVE48w3VS#9q75VAl48P9b#wVqw748P5x5V73wYzo
+01 [knot mark]PwVE48w3VSU9q75VAl48P9bUwVqw748P5x5V73wYzoOQw3V3qTq5E
 02 E48wqTwVqxY4VP48H97PYzoEpxwqb5qE484oc#QE5xf7mYE47mg9b
 03 EqwVP5pE5xwpqcV5CHpH487o5P.dw3VqSzoq7wpq47m#qTxY47E+Vwp
-04 PwqcwpxYwc+5qcb5qCH48#wPwVxmTE48c#[?]O.wEY9bPPwVpEYc#
+04 PwqcwpxYwc+5qcb5qCH48#wYQ9pPwVpEYc#[dir lieben gnediger herr?]Oc#
 05 79bEq4VTPwqxwpq4g#wQ5p7wqVQwYO4T3p7wfE+mCH487o5YP9
-06 PYLwq.[... aber dieweil ?? ?]YwV#Q3qEwVYcDwVE48#wE7o5PYmq4Ew
-07 PmxL48qmYE7o5Pwq77T48E7EV?Hc7wqEwVE7o5bPwqx4Lp7o5o48
+06 PYLwq.[... aber dieweil ?? ?]c#Q3qEwVYcDwVE48#wE7o5PYmq4Ew
+07 c+PmxL48qmYE7o5Pwq77T48E7EV?Hc7wqEwVE7o5bPwqx4Lp7o5o48
 08 QbQgw5qTwT5p#Y5bx7o5PwqxzEwqPw34bEfPpE+48EwVc+zofwpqx
 09 DVpEx7o5bP48T3E+o5qEbqc#[das aber nit gemeldt]^E-PzowwVf79EYpq
 10 xpPwqP3V#48H97wqzoE47Y3VCH48T3PwTw+q48PwV4wqYbmET3P4
 11 E+bpwxL48[darauss meniglich ?? das]I[c#?]fEpwVwpExY4qEYEowYPwo4Pwq79bE
-12 T487#48[solches aber zu furkommen hat die]^E-Tc+EpwwE5EY48TPwq79bE
-13 qwVpE+VEowYqpYP9J48b5xL48E3VE5x5xLpwV487o5PwqQwVQ5bP
-14 PmE4gT3V#CHTpwE487wxL48c#P5xd#9qVx5E48P5pxPmb
-15 dw3VS#QEwVYbwqp#HbmE5qT5p#48wV4oq9E53DEwqY5PT37HwxPpVx9
+12 T4873#48[solches aber zu furkommen hat die]^E-Tc+Epw#wE5EY48TPwq79bE
+13 qwVpE+VEowYqpYP9J48b5xL48E3VEc5xLpwV487o5PwqQwVQ5bP
+14 PmE4gT3VUCHTpwE4873wxL48c#P5xdU9qVx5E48P5pxPmb
+15 dw3VS#QEwVYbwqp#HbmE5qT5p#48wV4oq9E53DEwqY5#T37HwxPpVx9
 16 p5VCHbwbY5bx4pQb5qbxwL7pYE4Vc+7o5YxwpqPV3wE4VqEwqPV9
-17 PxYcwpf#w7o5PY[und under andern ?]c#cV5CHpH48x9#pb#w
-18 7o5qEbYE5xwg#97C5npqq4gzo5qE4V7Ewcf8VpwE+x#9bCHzoq
-19 xwpq4qT#wY4Vqx947EpwcE+p7TpAx#wT4PwqDVpEzo5qxY5qb
+17 PxYcwpf#w7o5PY[und under andern ?]c#cV5CHpH48x9Upb#w
+18 7o5qEbYE5xwgU97C5np5q4gzo5qE4V7Ewcf8Vpw#xU9bCHzoq
+19 xwpq4qTUwY4Vqx947Epwc+p7TpAx#wT4PwqDVpEzo5qxY5qb
 20 SQ5Yc#[er ist auch furnemens mit allem fleiss?]HVzw#x3mbCHEw7H3qpT#98
-21 c9bqT3TwTpwE48xpEPmE4g9Ew9q79xC9PpY4gcV5#E48[ist willens]
+21 c9bqT3TwTpwE48xpEPmE4g9Ewq79xC9PpY4gcV5UE48[ist willens]
 22 [gewesst? darum er mir auch vil gesagt? w..]wpqc9Y48T3w3VqST3E+mCH48zoxpE
 23 pqw3VSb5qEwzoPwqw8YbmET3E+9qT5#7mYw3VSO+wV#3q848
 24 T3wqYE+w5bY48P5pxp5PwVqpYo5YwVw3VS#wE+VpPwqq9bwgqpY
 25 [und wo]wVEwVc+[und hergegen auch]bpwc+p7w4ozox9Q4YO48Tw#48wpQ
 26 5qE4V#wVE+VpPwqc#[er hette villeicht sich etwas anders mitler zeit]
-27 [understanden?]7o5Yq9ExpPwq#wD5qT48c3V#4V#97E9PVmCT48p7
+27 [understanden?]7o5Yq9ExpPwq#wD5qT48c3V#4VU97E9PVmCT48p7
 28 HwxT5VCHxwpxmE7o5P48+7w.4000.c#T3bE48#wP48PpJq9E
-29 4.000.b5P48wVPpbx#owEqpYbwEp#b5xL48.[Dein freundt ainer mit]
+29 4.000.b5P48wVPpbx#owEqpYbwEpUb5xL48.[Dein freundt ainer mit]
 30 [namen?]c#Q75Oo5p5xc#E-b#P9C4HpzoXo7mYEwxDAV3wE4g
 31 cwzof#wP4xwqPpq7mYp7wzoqEwVY3VCHwp#wP4xwqQ5Yxp
 32 Ex9#wV7mYEw7fwpq#wb5xL48E5.xwV5q#wbPPYEwVc+qp
-33 7wVPpEsVpqwEwqfEpwq48PpJ[und darumb das dein freundt 2. schlusser?]
+33 7wVPpE4VpqwEwqfEpwq48PpJ[und darumb das dein freundt 2. schlusser?]
 34 [...er durch das]c#V^E-7opbDpE+pE+xwVmw4gYQ7mYx57PYpV48
 35 T3#wQ9TwqE48#qbwVYQ5q48p7DVpEzo5qxY5qEPpwEwVTPwbwp
 36 Pwq75#PwV48#4Vq4DwVEmq5Q5QEpE+zoE3VD48E9Eqgg9b4qbmE
@@ -142,11 +142,11 @@
 == P4 (image upside down, rotated 180) ==
 00 w3VSx9T48go4oPmxL48E5x57.24.c#Ec75VCp+5pq4VE4xP5ox
 01 #wx5qEY4V5bQpw4o5qH97wqPg9bExq3DE48.19.Epx
-02 79q5Yx#9qPw#48Ewx#V9xL48DwxYx#wVbwq#wgY4oP9VE4
+02 79q5Yx#9qPw#48Ewx#V9xL48DwxYx#wVbwq#wgY4oP9VE48
 03 4oQ5xLwpqPwV#3q#TwP4x4x48E5xEwV+bpwc+wV75qYzoCp
 04 pVc+x9T4xpE7mYf#wVYV5#48zoDVpE75E48E97mY75qx95T48
 05 Yco5bP48DVpEPwVwpqxC9q9qCpbQpmzo#b5#P4qxco5bP48co
-06 qEb4879?Y4wVEwVxwbP#w#wx5qEYPpb4o53xE4x+Pw#4
+06 qEb4879?Y4wVEwVxwbP#wx5qEYPpb4o53xE4x+Pw#4
 07 bE+37fT?pw.48zoq44owV75q48zozoqx5.48co5qEbq[hat kain]
 08 [vermanung klain ansehen pey der ?]c#QC57o+#wT4qP3VYp#43q
 09 EwVco5qEb3q#7pYE47xp7mE4VPpE+9DPpw mP48#w7wbY
@@ -154,43 +154,43 @@
 11 [?]c#b4^E-48DV5qCpxn48EwT5xwbzoxE4Vc+mV5Y9V43
 12 VP75P#wDwVYmTYcV5EYE4Vc+PVpwD#97+#9qA5pE48
 13 H3qmT48DV5qCHVwpEzowqqTwb5qEY4oxwpqPwVP3qT5T4D3V
-14 EpwcE+#wP4x48qw7bmEEpwPwpbEpwc4ozEH3qpTDV5qCHVw
+14 Epwc+#wP4x48qw7bmEEpwPwpbEpwc4ozEH3qpTDV5qCHVw
 15 zoEzowq#wb5qYE47AT3PpE4gxwpqPwVEwqxpEwVc+9q4
 16 #PwpDbqpYT37DVmEx3qE4VHVmwT#wV5Y48co5P48bwx
-17 HmV5P4gEpwc+#wVco5b5bY487mYE4VwqYE+3bEp#3qTPpw
-18 pVc+co4gYQ4x3qEwVmEYVV5CY4Y7mYp8#pV4Vc+5p#48
-19 AwVxmqPwYVwS4qE#wV75pq4Y4oE97mYw3VqSqpY#w
+17 HmV5P4gEpwc+#wVco5bY487mYE4VwqYE+3bEp#3qTPpw
+18 pVc+co4gYQ4x3qEwVmEYVV5CY4Y7mYp848pV4Vc+5p#48
+19 AwVxmqPwYVwb4qE#wV75pq4Y4oE97mYw3VqSqpY#w
 20 DV3PYTwxwpqx9w3VSx9bEYbE4Vco5qEb3q#E9qPpc#48YV3wT48
 21 73wxq38wpqxco w3V5Yxco5bP48xwpqPpwd7wVCH4c#Q.E
 22 co5qxYVmP9C+HpC5w3VPpqCq4wVxEpwq4g4oEwx[.XVII.]75VCp+cwp
 23 7pV5qH97wqE9Exwpqw VPVpwDE5Y37xY4YEwx[XXV]c#c+w?S5V4
-24 p5q#5VzopQo#wD5qT48#wPwxYco5PdEwVxwbP48w3VSP#w#wbQ
+24 p5q#5VzopQo#wD5qT48#wPwxYco5PdEwVxwbP48w3VSPw#wbE
 25 #wQ9Vx57bmE#wVq97wqEpwxpP485VYpCHobx3qEwVbmEbwVc+5q
 26 Tw+5p#YE5V5opVc+wpqx3qEwEwVDVw#8YbpE+zocV3wEwVbmEP9b#w
-27 Qc+5T48w7cD5#48co5Y7pVpbVc+53AwYbmE5VYpCHobPpwcowVq5
-28 #9b#Y#w5qxYP9VYzowVxYbmEx9bdw3VS+V4Vc+DVw3qYbmE
+27 Qc+5T48w7cD5#48co5Y7pVpVc+53DwYbmE5VYpCHobPpwcowVq5
+28 #9b#Y#w5qxYP9VYzowVxYbmEx9bdw3VS4V4Vc+DVw3qYbmE
 29 48#V3wxL5#Yw3VS37PEwVxwbP48P9b75pq3q#zowVDVwp#b
-30 pVwVc+TQ3CHbmE47T3xY5qEEx#V9xL48E5qCH7mYDVw3qYbmE
+30 pVwVc+Tb3CHbmE47T3xY5qEx#V9xL48E5qCH7mYDVw3qYbmE
 31 4V#wTwqP3qE+3qT5T4x#b3CHbmE48T3xY5qEx#9q#9Y[?]
 32 [Nachmals die handlung der]c#QCq9qDwEwV5np9q7pYEw7c+PwYVw
-33 b4qE?75bYpVc+PwqpE#5#Y#yq co5Y5T5pqT3w3VqSx3qEwVbmE
-34 #wVYV5#48EwVxpLmEco5bY48PpbnqH#wTPwpDwbYw3VSx9T48
+33 b4qE?75bYpVc+Pwqp#E5#9qco5Y5T5pqT3w3VqSx3qEwVbmE
+34 #wVYV5#48EwVxpLmEco5bY48Ppb#q#wTPwpDwbYw3VSx9T48
 35 pVc+EwV75xL484o#wVYVY5348zo5T4gDVw3qYc+5c+Y#wPw
-36 Ym#xwpq[D]mc#Yw3QE+wqwqHqwEYPwxY5T3c#Pwb5qTwqEY4o
+36 Ym#xwpq[D]mc#Yw3QE+wqHqwEYPwxY5T3c#Pwb5qTwqEY4o
 37 PpwxpzogC+79EY48T3#wcV5EYPwVE484opVc+EwVb5bP48qp [end mark ‡]
 == P5 (image upside down, rotated 180) ==
 # folio number 242 at top right of P5
 01 Q^E-E5xcwVCHPwVCHPwbCqT4qbYc#b
 02 I^E-b4[xxviii]c#S?mg+oVCpz4o5qYqYb9qpxbwxpqTwV7pYEw7bpTPV5qE
-03 #5Eq4gzoTmmgwV75qAwp7mV5q?H97wqco5PdpqHqEwVYcowqpTH5pY
-04 w3VScw#wbEw7cD5qT48Ew7Lw7P48opwbwVq5E#9b#Yq5E#wb9..
+03 #5Eq4gzoTmmgwV75qAwp7mV5q?H97wqco5Pdpq#qEwVYcowqpTH5pY
+04 w3VScw#wbEw7cD5qT48Ew7Lw7P48opwbwVq5E#9b#Yq5E#wb9PQE
 05 [Erstlich das mir]c#w3VSPw39bE48co5P485qYb9qpq48xbwxpqT4gpV4gc+
 06 5qT3T5pT48mq45bxw3VSEpwq4gT3wVH4q848 4opq4p7H3qDYpT48
-07 cwVCHPwVE48#9qPwT48w3VST3P3PwE+3CT48c#[zum andern das er]S^E-
+07 cwVCHPwVE48#9qPwT48w3VST3PwE+3CT48c#[zum andern das er]S^E-
 08 pgc+#wE5Y48 5qYb9qp48 7mY#q3wTx57wqmg5qE5Y48^E-[?]
-09 [notten versehen]c#IE5x+75bCTEwVpwCTcwVCH5c#53#PY75qq9EDVwp
-10 PwV#4gbwVcwVCH75pxY4V4o5T4p5q53D+#5pm5V9EwV#pT4pEY
-11 mYx9b5q#p4p7xwpq47#9V co5P48qpYmb48x9T48x3qE4Vp84
+09 [notten versehen]c#IE5x+75bCTEwVpwCTcwVCzo53#PY75qq9EDVwp
+10 PwV#4gbwVcwVCH75pxY4V4o5T4pq53D#P5pm5V9EwV#pT4pEY
+11 qmYx9b5q#pq4p7xwpq47#9V co5P48qpYmb48x9T48x3qE4Vp84
 12 cwpxwpq48#V3wP484q8p7wqEwVc+^E-[handthaben und gegen menig..]
 13 [lich beschutzen sollen etc. dan ich auf gedachten]c#^E-+75bCTPpwd39Vpq7wp7wq
 14 #pbE+VwpP48#w7wbY[nit ain klainen argkwon gehabt, und darumb das er]
