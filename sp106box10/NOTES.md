@@ -346,7 +346,7 @@ septembre 1645", "earnestly", "reasons", "from", "(2)"), an English royalist let
 code (104 distinct numbers in 192 tokens: a nomenclator, not a letter cipher). Tried and failed on it: all of Lasry's
 1645-46 SP 106 keys (TNA SP 106, SP106-2, -5, -8; the June 1645 Goring key of the next record R932; coverage ≤ 0.45,
 gibberish), and the Charles I → Culpeper 1645 key (BL Add MS 32256 f. 6-7, DECODE R9117/R9118: letters 1-78, words
-300-600, nothing in 100-260). **Attempted, open**; needs the matching key (Digby / Nicholas / Goring correspondence
+300-600, nothing in 100-260); R9116 (1642) is a bare frequency tally and R9119 f. 8 blank. **Attempted, open**; needs the matching key (Digby / Nicholas / Goring correspondence
 of autumn 1645, BL Add MS 32256 ff. 4-9 or Egerton 2550).
 
 ### Outcome for catalogue 58
