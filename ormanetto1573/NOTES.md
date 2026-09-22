@@ -104,6 +104,11 @@ Every step open from here was checked, and each is blocked by something outside 
 - academic print search: Fernández Terricabras, "El nuncio Niccolò Ormaneto y la reforma de las órdenes
   religiosas" (Madrid, Felipe II y las ciudades, iii, 2000, pp. 321-332) has no online full text. No edition of the
   1572-77 nunciature registers was found. Blocker: needs-physical-access.
+- Tomokiyo (cryptiana: vatican, spanish, spanish2*, spanish3*, spanish4, spanish6): no mention of Ormanetto
+  or of this letter. His Philip II general ciphers of 1567-75 (Cg.4-Cg.10) build syllables from a base numeral
+  plus a vowel mark. Tested that hypothesis (`syll.py`): digit = letter, dot = + vowel, "t" = + vowel, annealed
+  with a KL penalty. Spanish -3.99/char, Italian -3.74, both nonsense. His tables are not printed in full, so the
+  royal ciphers themselves cannot be applied.
 - retry: nothing read, nothing to regrade.
 
 ## Files

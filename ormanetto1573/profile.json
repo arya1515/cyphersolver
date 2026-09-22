@@ -162,6 +162,18 @@
    "what": "Academic catalogues for an edition of Ormanetto's nunciature: Fernández Terricabras 2000 (no full text online); no register edition found.",
    "result": "failed",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Tomokiyo's cryptiana pages on papal and Spanish ciphers: no Ormanetto item, no decipherment.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Spanish royal-cipher syllabic structure (base digit + dot/mark vowel indicator), annealed in Spanish and Italian.",
+   "result": "failed",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {
