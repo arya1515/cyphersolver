@@ -1,0 +1,4 @@
+img*/
+*.png
+!src/savoy.png
+src/notice_3983.html

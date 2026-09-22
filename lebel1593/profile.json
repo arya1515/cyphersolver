@@ -3,58 +3,211 @@
  "target": "lebel1593",
  "title": "Lebel (Paris) to Charles Emmanuel I of Savoy, 17 Jan, 10 and 27 Mar 1593 (BnF fr. 3983 nos. 11, 62, 100)",
  "documents": [
-  {"id": "no11", "shelfmark": "BnF fr. 3983 f. 26r-v (no. 11)", "date": "17 Jan 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 2, "cleartext_in_document": "interspersed",
-   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017), decipherment overlaid on images", "partial": "unknown"},
-   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
-   "transcription": {"by": "llm from images", "source": "Gallica IIIF images; running text in reading11.md", "image_quality": "fair", "notes": "Deciphered in this session with Tomokiyo's key table before his overlays were found."}},
-  {"id": "no62", "shelfmark": "BnF fr. 3983 f. 130r-v (no. 62)", "date": "10 Mar 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 2, "cleartext_in_document": "interspersed",
-   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017)", "partial": "unknown"},
-   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
-   "transcription": {"by": "unknown", "source": "not transcribed", "image_quality": "unknown", "notes": "Not re-read."}},
-  {"id": "no100", "shelfmark": "BnF fr. 3983 ff. 194-195 (no. 100)", "date": "27 Mar 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 3, "cleartext_in_document": "interspersed",
-   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017)", "partial": "unknown"},
-   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
-   "transcription": {"by": "unknown", "source": "not transcribed", "image_quality": "unknown", "notes": "Not re-read."}}
+  {
+   "id": "no11",
+   "shelfmark": "BnF fr. 3983 f. 26r-v (no. 11)",
+   "date": "17 Jan 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Lebel (Paris) to Charles Emmanuel I (Turin)",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment of this letter exists; Tomokiyo (savoy.htm) gives the key and the images only.",
+    "partial": "unknown"
+   },
+   "length": {
+    "tokens": 1210,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF canvases 49-50; sign-by-sign in reading11_full.md",
+    "image_quality": "fair",
+    "notes": "Two passes; ~93% of letter signs read. Length: ~1,150 letter signs + ~60 code groups, estimated in reading11_full.md; the sign-by-sign file mixes labels and prose, so --measure does not apply."
+   }
+  },
+  {
+   "id": "no62",
+   "shelfmark": "BnF fr. 3983 f. 130r-v (no. 62)",
+   "date": "10 Mar 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Lebel (Paris) to Charles Emmanuel I (Turin)",
+   "language": "French",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment of this letter exists; Tomokiyo (savoy.htm) gives the key and the images only.",
+    "partial": "unknown"
+   },
+   "length": {
+    "tokens": 725,
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF canvases 233-234; sign-by-sign in reading62_full.md",
+    "image_quality": "fair",
+    "notes": "Recto ~94%; verso cipher lines under recto bleed-through, ~55%. Length: f.130r ~560 letter signs + ~75 codes, f.130v ~90 signs (estimates, reading62_full.md)."
+   }
+  },
+  {
+   "id": "no100",
+   "shelfmark": "BnF fr. 3983 ff. 194-195 (no. 100)",
+   "date": "27 Mar 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Lebel (Paris) to Charles Emmanuel I (Turin)",
+   "language": "French",
+   "pages": 3,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment of this letter exists; Tomokiyo (savoy.htm) gives the key and the images only.",
+    "partial": "unknown"
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "mixed",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF canvases 333-335; sign-by-sign in reading100_full.md",
+    "image_quality": "fair",
+    "notes": "About 60 cipher lines over ff.194r-195r; ~85% of letter signs."
+   }
+  }
  ],
  "system": {
-  "types": ["nomenclator"],
-  "summary": "French letter cipher with homophones and nulls plus a numbered code list (groups to 300+); key reconstructed by Tomokiyo from deciphered siblings.",
+  "types": [
+   "nomenclator"
+  ],
+  "summary": "Homophonic substitution (1-2 signs per letter), three nulls, an et sign, and a ~300-number code set off by dots with an alphabetical addendum above 300; key published by Tomokiyo.",
   "symbol_kind": "digits and symbols",
   "distinct_symbols": "unknown",
-  "diacritics": {"used": "unknown"},
-  "homophones": {"used": true},
-  "nomenclator": {"present": true},
-  "nulls": {"present": true},
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
   "key_order": "unknown",
-  "word_division": "unknown",
+  "word_division": "none",
   "doubled_letters": "unknown",
   "notes": "Partly-enciphered letters: clear text with enciphered passages."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "online",
-   "where": "Satoshi Tomokiyo, cryptiana.web.fc2.com/code/savoy.htm (21 June 2017, updated Dec 2023): key table and decipherments of all three letters overlaid on the images.",
+   "exists": "partial",
+   "where": "Tomokiyo, cryptiana savoy.htm (2017, rev. 2023): reconstructed key table and images of these three letters, stating many code groups undeciphered; no reading of nos. 11, 62, 100 there or in print. Contemporary decipherments exist only for siblings (fr. 3983 no. 80, fr. 3984 f.182, fr. 3985 f.23).",
    "found": "during attempt",
    "used": true
   },
-  "inputs": ["published key", "published reading"],
+  "inputs": [
+   "images",
+   "published key"
+  ],
   "attack": "published key",
   "human_role": "Project-level: set up Claude Code with Opus 5 and posed the problem with /goal. No target-specific intervention recorded.",
-  "tools": ["Gallica IIIF", "web fetch"],
-  "models": ["claude-opus-5"],
+  "tools": [
+   "Gallica IIIF",
+   "web fetch",
+   "python image crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
   "sessions": 1,
   "first_date": "2026-09-21",
   "last_date": "2026-09-21"
  },
  "solution": [
-  {"kind": "literature search", "what": "Tomokiyo's savoy.htm lists Lebel's 1593 letters and gives a reconstructed key table (savoy.png).", "result": "worked"},
-  {"kind": "transcription", "what": "Fetched fr. 3983 canvases 49-53 and related leaves from Gallica IIIF.", "result": "worked"},
-  {"kind": "reading", "what": "Deciphered no. 11 (f. 26) with Tomokiyo's key table: reading11.md, many code groups unresolved.", "result": "partial"},
-  {"kind": "literature search", "what": "Downloaded Tomokiyo's letter images: f. 26, f. 130, f. 194-195 all carry his decipherment overlaid; the target was already read.", "result": "worked"}
+  {
+   "kind": "literature search",
+   "what": "Tomokiyo's league.htm lists four Lebel letters and points to savoy.htm with a reconstructed key table (src/savoy.png).",
+   "result": "worked"
+  },
+  {
+   "kind": "access",
+   "what": "Fetched fr. 3983 canvases 49-50, 233-234, 333-335 and the no. 80 leaves 293-295 from Gallica IIIF (fetch.py).",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "First pass on no. 11 with Tomokiyo's key: reading11.md, many code groups open.",
+   "result": "partial"
+  },
+  {
+   "kind": "literature search",
+   "what": "Misjudged Tomokiyo's image downloads as overlaid decipherments and closed the target as already read; re-checked savoy.htm: he states the three letters are not read, only keyed.",
+   "result": "failed"
+  },
+  {
+   "kind": "transcription",
+   "what": "Sign-by-sign band transcription of nos. 11, 62, 100 from crops (zb.py, zc.py).",
+   "result": "worked"
+  },
+  {
+   "kind": "key from source",
+   "what": "Letter-sign corrections to the table: nabla=y, crossed delta=d and i, X=i in remedie, o-arrow=h, long h=n/l, alpha=z, barred T=b, bm/vm=d.",
+   "result": "worked"
+  },
+  {
+   "kind": "sibling key",
+   "what": "Harvested code values from contemporary decipherments of fr. 3983 no. 80 (f.167), fr. 3984 f.182 and fr. 3985 f.23 (codes_harvest.tsv): 12 glossed, 14 aligned.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "Second pass: no. 11 ~93%, no. 62 recto ~94% / verso ~55%, no. 100 ~85% of letter signs; ~28 code numbers open.",
+   "result": "partial"
+  },
+  {
+   "kind": "verification",
+   "what": "Readings consistent with the 1593 Estates: Mayenne's council Villeroy/Jeannin, Feria, Tassis, Zamet, Pelvé, siege of Noyon in clear text.",
+   "result": "worked"
+  }
  ],
  "outcome": {
-  "class": "already solved",
-  "verification": ["none"],
-  "notes": "All three read by Tomokiyo 2017. Catalogue entry 18 removed; no write-up."
+  "class": "read in part",
+  "fraction_read": "unknown",
+  "fraction_read_method": "estimated",
+  "key": "partial",
+  "verification": [
+   "historical consistency",
+   "contemporary decipherment"
+  ],
+  "notes": "Letter signs read ~93% (no. 11), ~94%/55% (no. 62 recto/verso), ~85% (no. 100); code groups partly open.",
+  "gaps": [
+   {
+    "item": "~28 code numbers (22, 27, 30, 49, 50, 64, 69, 85, 103, 130, 150, 153, 161, 163, 227, 230, 240, 241, 247, 253, 258, 260, 274, 275, 283, 302, 305) and the DX and XC signs",
+    "blocker": "open-codes",
+    "detail": "fr. 3984 f.182r close harvest and esp. 336 nos. 79-81 next"
+   },
+   {
+    "item": "no. 62 f.130v, three cipher lines",
+    "blocker": "illegible",
+    "detail": "recto ink bleed-through"
+   }
+  ]
  }
 }

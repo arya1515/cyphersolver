@@ -138,7 +138,7 @@ p36 1.00 + 0.75 + 1.00 + 0.40 + 0.10 + 0.30.
 ### Provisional additions, 20 September 2026: Egmond and Groffey
 
 Charles of Egmond (p43, rescored 2.95 on 21 Sept 2026) is an independent re-solution: Lasry had solved the cipher in 2023.
-Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal. Van Reede 1787 (p46, 2.85) sits just below it: an archive key again, with the transcription as the obstacle. De Swart 1782 (p45, 3.05) is the same kind of result: an archive key for a letter DECODE said had none. Alessandrino 1568 (p47, 2.90) sits between them: the key was already reconstructed and published, but decoding under a polyphonic key (two letters per digit) is itself ambiguous and difficult. The Ralph Boswell newsletter of 1627 (p49, 1.65, found already read by Mark Woodard) ranks lowest: a published key, with only the sender and date added.
+Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, but a new diplomatic reading and a catalogue reversal. Van Reede 1787 (p46, 2.85) sits just below it: an archive key again, with the transcription as the obstacle. De Swart 1782 (p45, 3.05) is the same kind of result: an archive key for a letter DECODE said had none. Alessandrino 1568 (p47, 2.90) sits between them: the key was already reconstructed and published, but decoding under a polyphonic key (two letters per digit) is itself ambiguous and difficult. The Ralph Boswell newsletter of 1627 (p49, 1.65, found already read by Mark Woodard) ranks lowest: a published key, with only the sender and date added. Lebel's three letters to Savoy of 1593 (p90, 3.10) sit with Hesse 1602–09: a published key, but letters nobody had read, on the crown at the Estates of the League.
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -191,6 +191,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p87 | **Francis Needham (before Sluys) → [Walsingham], 28 Jul 1587**, BL Harley MS 287 ff. 39–40 (DECODE R8479) | 1587 | 2 | 3 | 4 | 2 | 2 | 1 | **2.55** | D 2: pigpen with the alphabet in order, key from four glosses. H 3: the failed relief of Sluys, Leicester's campaign. N 4: DECODE partially decrypted, long runs unglossed, not in CSP. V 1: one word open. |
 | p88 | **Nicholas Throckmorton (Paris) → Elizabeth I, 10 July 1559**, BL Add MS 4136 f. 32 (DECODE R2988) | 1559 | 2 | 3 | 5 | 2 | 2 | 3 | **2.95** | D 2: Tomokiyo's key with seven corrections. H 3: Throckmorton's report after Henry II's wounding. N 5: not in Forbes or CSP. V 3: 12 code signs and a few spans open. |
 | p89 | **Łaski, King John, Bavarian agents → the Dukes of Bavaria, 1529–1583**, BayHStA Kurbayern Äußeres Archiv 4591 (DECODE R9291–R9427) | 1529–1583 | 4 | 3 | 5 | 3 | 3 | 5 | **3.85** | D 4: six systems; one broken ciphertext-only with a purpose-built period language model, one key rebuilt from a single faint gloss, two from keys filed in the volume. H 3: Hungary between Ferdinand and John Zápolya, the Turks, Rincon, Fulda 1576. N 5: no edition found. V 5: eight letters read in part, R9424 and R9319 open. |
+| p90 | **Lebel (Paris) → Charles Emmanuel I of Savoy, Jan–Mar 1593**, BnF fr. 3983 nos. 11, 62, 100 | 1593 | 2 | 4 | 4 | 3 | 2 | 3 | **3.10** | D 2: Tomokiyo's key, a dozen sign corrections, code values aligned from three contemporary decipherments. H 4: Savoy, Mayenne and Spain over the crown at the Estates of 1593. N 4: key published, letters never read. V 3: ~28 code numbers open, no. 62 verso half read. |
 
 ## By single axis
 
@@ -494,5 +495,6 @@ Hereditary Prince 1796 (R2239) provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 
 Needham 1587 provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×2 + 0.10×1 = **2.55** (p87): a three-grid pigpen rebuilt from four contemporary glosses.
 Throckmorton 10 July 1559 provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×2 + 0.10×3 = **2.95** (p88): an unprinted letter read with a published key, corrected.
 KAA 4591 (Bavarian key volume, 1529–1583) provisional score: 0.25×4 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×3 + 0.10×5 = **3.85** (p89): fourteen ciphertexts, twelve read or broken, most only in part.
+Lebel to Savoy 1593 provisional score: 0.25×2 + 0.25×4 + 0.20×4 + 0.10×3 + 0.10×2 + 0.10×3 = **3.10** (p90): three unread letters read in part with a published key and harvested codes.
 
 Unsigned cipher slip, Brussels 1721 (DECODE R24, colonia1721): not ranked. Already read by Lasry and Bonavoglia on the DECODE record; only three key values added here.
