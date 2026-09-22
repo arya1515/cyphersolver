@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "target": "zeschau1841",
+ "title": "Zeschau (Dresden) to Seebach (St Petersburg), ciphered despatches 1841-1843 (HStAD 10731 Nr. 12)",
+ "documents": [
+  {
+   "id": "R5005",
+   "shelfmark": "HStAD 10731 Sächsische Gesandtschaft in Russland, Nr. 12; DECODE R5005",
+   "date": "18 Jan 1841",
+   "year": 1841,
+   "country": "Saxony",
+   "route": "Dresden -> St Petersburg",
+   "language": "French",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": ["interlinear"],
+    "source": "Pencil interlinear decipherment, rubbed out; a few words still faintly visible",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1896,
+    "distinct": 107,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct_R5005.digits.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R5005_I28858_P1-P6, line strips",
+    "image_quality": "good",
+    "notes": "3,969 digits in 70 lines. The measure splits each line into pairs, so odd line tails count as one-digit tokens (hence 107 distinct)."
+   }
+  },
+  {
+   "id": "R5006-R5008",
+   "shelfmark": "HStAD 10731 Nr. 12; DECODE R5006, R5007, R5008",
+   "date": "6 Apr 1842 - 26 Oct 1843",
+   "year": 1842,
+   "country": "Saxony",
+   "route": "Dresden -> St Petersburg",
+   "language": "French and German",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": ["none"],
+    "source": "unknown"
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "DECODE images viewed, not transcribed",
+    "image_quality": "good",
+    "notes": "Short cipher passages inside clear letters."
+   }
+  }
+ ],
+ "system": {
+  "types": ["syllabic"],
+  "summary": "Unseparated two-digit groups for letters and syllables (11=la, 70=pre, 82=m, 34=i, 29=er, 40=e, 46=que from the erased glosses).",
+  "symbol_kind": "digits",
+  "distinct_symbols": 96,
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": "unknown"},
+  "nomenclator": {"present": "unknown"},
+  "nulls": {"present": "unknown"},
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "sibling_key": "none",
+  "notes": "About a third of the lines have odd length, so groups may be split across lines. No 1840s Saxon key on DECODE."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "Contemporary interlinear pencil decipherment, now rubbed out and mostly illegible",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": ["images"],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "tools": ["hsolve.py (homophonic annealer, French 4-gram)", "syll.py/syll2.py/syll3.py (syllabary annealers)", "gl.py (gloss enhancement)"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "access", "what": "Fetched R5005-R5008 images from DECODE with the session cookie.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "literature search", "what": "Listed every Dresden key record on DECODE; latest is 1799-1806, none for the 1840s. No printed edition found.", "result": "failed", "date": "2026-09-21"},
+  {"kind": "transcription", "what": "Hand-transcribed R5005 in full from line strips (70 lines, 3,969 digits).", "result": "worked", "date": "2026-09-21"},
+  {"kind": "statistics", "what": "Pair counts, null-digit sets, prefix-code lengths, per-line phase by EM.", "result": "partial", "date": "2026-09-21"},
+  {"kind": "control", "what": "Homophonic annealer on a synthetic 1,800-letter French text.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "solver", "what": "Homophonic letter annealer on pairs (both phases) and two prefix codes.", "result": "failed", "date": "2026-09-21"},
+  {"kind": "crib", "what": "Enhanced the rubbed pencil glosses: 'la pre m i er e' over 11 70 82 34 29 40, 'que' over 46.", "result": "partial", "date": "2026-09-21"},
+  {"kind": "solver", "what": "Syllabary annealers seeded with the gloss values (free, one-cell, length-neutral).", "result": "failed", "date": "2026-09-21"}
+ ],
+ "outcome": {
+  "class": "not read",
+  "fraction_read": 0,
+  "verification": ["matched control"],
+  "notes": "System identified and seven values recovered; needs the key, imaging of the erased pencil, or the sibling letters transcribed."
+ }
+}

@@ -5087,6 +5087,55 @@
      ]
     }
    }
+  },
+  "zeschau1841": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/zeschau1841.html",
+   "key": {
+    "none": "no key on DECODE or in print; 7 values from the rubbed-out interlinear pencil (11 la, 70 pre, 82 m, 34 i, 29 er, 40 e, 46 que)"
+   },
+   "fields": {
+    "cipher_types": "syllabic (two-digit table of letters and syllables), not homophonic/simple substitution"
+   },
+   "records": {
+    "R5005": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not read. The erased pencil decipherment is faintly visible in places; it shows a two-digit syllabary (la pre m i er e over 11 70 82 34 29 40). Full transcription attached (70 lines, 3,969 digits).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "transcription": [
+      "zeschau1841/ct_R5005.txt"
+     ]
+    },
+    "R5006": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R5008": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R5007": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "name": "date in the title should be 13.06.1842 (the letter is dated 13 Juni 1842; start_year is already 1842)"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {

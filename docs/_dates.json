@@ -187,6 +187,7 @@
   "w. loeschner, vienna, 1 july 1816 (decode r2227)": "2026-09-21",
   "walsingham to edward wotton in scotland, jul–sept 1585": "2026-09-21",
   "wolff to princess wilhelmina, 25 july 1801": "2026-09-21",
+  "zeschau to seebach, 1841–1843": "2026-09-21",
   "łaski, king john and bavarian agents to the dukes of bavaria, 1529–1583": "2026-09-21",
   "“frederic, re di prussia”, blenheim papers add ms 61575 f. 95": "2026-09-21",
   "“lord threr?”, stowe ms 166, 1592–94": "2026-09-21",
@@ -306,7 +307,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "3d783495946b",
+   "hash": "f0ea1c75a93e",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -516,7 +517,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5da0502119df",
+   "hash": "d6ea6b76aef3",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -1056,12 +1057,17 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "9e8aee1b53c8",
+   "hash": "73e293dbd871",
    "updated": "2026-09-21"
   },
   "yard1699": {
    "first": "2026-09-18",
    "hash": "47c1f45ad3bd",
+   "updated": "2026-09-21"
+  },
+  "zeschau1841": {
+   "first": "2026-09-21",
+   "hash": "440e0d9567a0",
    "updated": "2026-09-21"
   }
  }

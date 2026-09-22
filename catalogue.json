@@ -364,7 +364,7 @@
    "shelfmark": "Saxon State Archive, Saxon Main State Archive Dresden (4 items)",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R5005–R5008 (4 records): Partially decrypted, 17 pp., homophonic, simple substitution; numerical; images login. Not viewed here. DECODE note: interlinear decrypted, but unfortunately rubbed out",
+   "status": "DECODE R5005–R5008. Transcribed R5005 (3,969 digits); a two-digit syllabary (11 la, 70 pre, 82 m, 34 i, 29 er, 40 e, 46 que from the rubbed pencil). No key on DECODE; ciphertext-only solvers failed. See zeschau1841/.",
    "why": "Ciphered despatches of Heinrich Anton von Zeschau to Albin Leo von Seebach, 18 Jan 1841 – 26 Oct 1843; what the cipher hides is not known.",
    "importance": 2,
    "solvability": 3,
@@ -398,7 +398,8 @@
     5007,
     5008
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 58,
