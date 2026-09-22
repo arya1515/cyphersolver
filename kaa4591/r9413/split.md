@@ -1,9 +1,6 @@
 # R9413: splitting d/$ and #/U (following ../sysA/r9410_split.md and ../r9408/split.md)
 
-Pages covered: **P1 (all 37 lines), P2 (all 37 lines), P3 ll. 1-11**. The pages were cropped two or three lines at a
-time in left and right halves (~1.3-1.4x, autocontrast), with ~2x zooms on doubtful signs. P3 ll. 12-28 and P4-P8 are
-copied unchanged into transcription_v2.txt and have not been checked. P2 is curved: the right half of each line sits
-about one line lower than the left, so crop the two halves at different y.
+Pages covered: **P1-P6 every line** (thirds/halves at ~1.3-2x, zooms on doubtful signs; every # on P3-P6 looked at), **P7 at overview scale for #/d only**, P8 unchanged.
 
 ## Counts (d / $ / # / U, v1 -> v2)
 
@@ -11,8 +8,12 @@ about one line lower than the left, so crop the two halves at different y.
 |---|---|---|---|---|
 | P1 | 46 -> 47 | 0 -> 1 | 40 -> 35 | 0 -> 4 |
 | P2 | 51 -> 46 | 0 -> 6 | 50 -> 38 | 0 -> 14 |
-| P3 (ll.1-11 checked) | 23 -> 22 | 0 -> 1 | 32 -> 30 | 0 -> 2 |
-| P4-P8 | unchanged (14, 18, 1, 0, 0 d; 28, 47, 35, 4, 0 #) | | | |
+| P3 | 23 -> 30 | 0 -> 1 | 32 -> 26 | 0 -> 6 |
+| P4 | 14 -> 27 | 0 -> 4 | 28 -> 26 | 0 -> 2 |
+| P5 | 18 -> 46 | 0 -> 2 | 47 -> 39 | 0 -> 8 |
+| P6 | 1 -> 24 | 0 -> 0 | 35 -> 31 | 0 -> 4 |
+| P7 | 0 -> 2 | 0 -> 0 | 4 -> 4 | 0 -> 0 |
+| P8 | 0 -> 0 | 0 -> 0 | 0 -> 0 | 0 -> 0 |
 
 The $ occurrences are P1 l.29; P2 l.1, 24 (v1 had J there), 30, 33 and 35 (x2); and P3 l.7 (line-initial).
 The big looped form is regular on P2, and v1 coded it d.
@@ -20,6 +21,8 @@ The big looped form is regular on P2, and v1 coded it d.
   between or to the right of the stems, and it is common in `5UD` (P1 l.9, P2 l.17, P3 l.7).
 - Many H-shaped # on P3 have a bar joined to the neighbour on the left, so they could not be split without a zoom and were
   kept as #. On P3 the upright H is more frequent than on P1, so a zoom pass over every remaining P3-P6 # is still needed.
+
+On P4-P6 v1 read many plain δ as b (about 40 b -> d fixes); the lollipop b has a clear ring on a stalk, δ has an open bowl with an ascender. Four more $ on P4-P5 (P4 l.5, 7, 8, 10; P5 l.11, 21, where v1 had b or @).
 
 ## Z (ƶ): a letter, = u, not a null
 
@@ -151,5 +154,105 @@ P3 07 line-initial d -> $ (big looped S/ℓ, confirmed at zoom); 5#DE -> 5UDE (s
 P3 08 q#m, 48#w, 5#y kept # (bar stubs out left); myd5q: sign looks like ringed 8 at 1.4x (possibly b; flag, left); d x3 = d
 P3 09 Ev#qT -> EvUqT (upright H, bar only rightwards, confirmed at zoom); E#w (bar runs in from Ǝ), w#4, E#m kept #
 P3 10 cJ x3 = the slanted Ӿ (J code kept); Dd = d
-P3 11 E+b5qT -> E+65qT (plain б, no ring); x#9, q#5 kept # (not zoomed); 3dZ = d
+P3 11 E+b5qT -> E+65qT (plain б, no ring); 3x#9 -> 3xU9 (upright H at 2x, no left overhang); q#5 = # (bar runs in from the square); 3dZ = d
 P3 12 not re-checked beyond the crop: qdA = d
+P3 12 no #/d except cJ (Ӿ) and qdA = d; line matches the image
+P3 13 x9bwyQ -> x9bwdyQ (a tall δ between ω and ÿ was dropped); 5dn = d; Twbyq: the 8 shows no ring (flag, left b)
+P3 14 v1 dropped a whole stretch: vcJxmdnZv[.xxv.] -> vcJxmdn4vxZoq5E75dxE5xLmdn4v[.xxv.] (image: ↓cӾϰmδπ4↓ϰƶo□5Ǝ75δϰƎ5ϰLmδπ4↓ .xxv.); d x3 = d
+P3 15 3dbZqZqT9bE -> 3d64qZ4qT9dE (image δб4□ƶ4□↑9δƎ: plain б, one ƶ, plain δ); my#qT -> myUqT (upright H, bar rightwards); line-initial #, Z4#x = # (bar out both sides); a+# : the a carries a double cross below (left)
+P3 16 qbpx -> q6px (plain б); 5#DEw -> 5UDEw (upright H, the 5UD group); #5bQw8 -> #5dQw8 (plain δ, no ring); ##5 initial = # (long bar out left)
+P3 17 #5bQwq -> #5dQwq (plain δ); # = # (heavy, bar out left); the '^' and the 'x' before 9d both carry a small cross above (later marks); x9d = d
+P3 18 Zq#w, 5#y = # (bar out left); dbJ = δ + ß-form + Ӿ (as P1 db); b5 ringed x2
+P3 19 q#w = # (bar through both sides); Qd, Qdm = d
+P3 20 qm##J5 -> qm#J5 (image: m, an H with the bar joined from the m (#), then the slanted Ӿ (J) - one # too many in v1); 3wdE = d; Twb9, ybw lollipop b
+P3 21 no #; 3dE, Dd = d
+P3 24 Wx9bZq -> Wx9dZq (plain tall δ, no ring); 5#48, o#w, m#w = # (bar joined from the left neighbour)
+P3 25 Ewv9bQZwA -> EwvpdbZwA (image ρ, δ, ringed 8; doubtful); cJ = Ӿ; wA wZ a+ Z+ as v1
+P3 26 AvJwE -> AvUwE (upright H after ↓, no Ǝ part); big X-like sign after 'nwo4' coded cJ in v1 is a heavy ✱/Ӿ with a hook to the line above (flag, left); 48 then α(A)
+P3 26 y#w (line end) kept # (bar joined from ÿ)
+P3 27 Ewgx5 -> Ew8x5 (round 8, not γ); line end t3?3Zwc? -> t3tZwc (image a± ƒ3 ƒ ƶ ω c; bottom-right now read from a crop); b#q = # (bar out left)
+P3 28 no #/d
+P4 01 qwbpQbZ -> qwdp9bZ (image □ω δ ρ 9 ringed-8: the first 'b' is a plain δ, Q is 9)
+P4 02 wdE, 9dn = d; line-end 38# = # (bar through both sides)
+P4 03 D3v#w = # (bar runs through both sides); cJ = Ӿ
+P4 04 wvcJnZd -> wvknZd (image: a □ joined to a tall δ stem = the k sign of the header, not cӾ); 9dw, Zd = d
+P4 05 vxmdvb5 -> vxm$vb5 (big looped S/ℓ); a# = # (the a+‡ ligature, bar out left); line 4 end cta# likewise
+P4 06 qpbb4 -> qpdb4 (plain δ then ringed 8); E#v = # (heavy blotted, bar out left)
+P4 06 qQbZw -> qQ6Zw (plain б); qQv#w = # (bar out left)
+P4 07 wbQ48 -> wd48 (a δ carrying the ‡ tick, not b+Q; the gloss 'ǂ over b' refers to it); 7dbb5by48 -> 7$b5dy48 (big looped S/ℓ, lollipop b, 5, δ); q#w, y5#t3 = # (bar out left)
+P4 08 Twb5by48 -> Twb5dy48 (plain δ); Ew7dt3 -> Ew7$t3 (big looped S/ℓ); 3v#T, t3#3 = # (bar out left)
+P4 09 E+d9 = d; line matches
+P4 10 w7dwybZE -> w7$wydZE (big looped S/ℓ; after ÿ a plain δ, not b); 7dZ = d; t3#w kept # (small H, bar just out left; doubtful U); ZEJy = Ӿ
+P4 11 w#48 = # (bar out left); 9dL = d
+P4 12 line-initial b -> d (plain δ); wqy?E+b9m -> wqyE+d9m (no sign at the ?, and a plain δ); no #
+P4 13 (checked with l.14 crop)
+P4 13 @b#bZw -> @b#8Zw (the second is a plain round 8, no ring; the first is lollipop b); b# = # (bar joined both sides); the E after Z+ is a dotted ↑ (T-like; flag, left)
+P4 14 nwD9bE -> nwD9dE (plain δ); 5#5#D -> 5#5UD (second is a small upright H, the 5UD group; first slanted with the bar out left); 48#q = #
+P4 15 5#485n -> 5#4b5n (ringed 8 = lollipop b); q#b, 5#4, n#w = # (bar out left); 'vgc': the sign is a heavy Y-fork (possibly Y, not γ; flag, left); 5P5 = ϖ
+P4 16 t3b47a -> t3647a (plain б); 'wZqq4' confirmed (two squares)
+P4 17 nwDwbEn9bwbc5 -> nwDwdEn9bwdc5 (first and third are plain δ, the third carrying the ‡ tick; only the middle one is a lollipop b)
+P4 18 EwvbQ#4 -> EwvdQ#4 (plain δ); line-initial #, Q#4 = # (bar through both sides)
+P4 19 Zo#w kept # (upright but bar joined from the o; doubtful U); 9dZ = d; ? = ink blot over a 4-like sign
+P4 20 EbQ85bx -> Ed485dx and vQb4b4Ro -> v4b4d4Ro (plain δ where v1 had b; the 'Q' are plain 4s; the δ after the ringed 8 carries the ‡ tick); no #
+P4 21 Ebwbc5 -> Ebwdc5 (δ with the ‡ tick; first is lollipop b); no #
+P4 22 Mj4bZw -> Mj4dZw (heavy plain δ); t3#4 (small, bar through), 48#4 (long bar) kept #
+P4 23 53DE47 -> 53AE47 (∝-A, not Δ); y3#764 -> y3U764 (small upright H, no left overhang); v#x, n4#E, a# = # (bar out both sides)
+P5 01 wqQ6mTQx -> wq46mT4x (both Q are plain 4s); Zob4bwq -> Zob4dwq (second is a δ with the ‡ tick); !# kept # (bar out left)
+P5 02 line end EwvQbb -> Ewvpdb (ρ, plain δ, ringed 8); #xy, 48#w = # (long bar)
+P5 03 b4v9dx -> b4vpdx (ρ, not 9); cJ-type Ӿ kept as J
+P5 04 vD53x -> vX53x (hourglass, not Δ); wb5by48 -> wb5dy48 (plain δ); q#T, y#w, y#9, w#48, x#w = # (bars out left, several joined in a long run); first sign b is ρ-like (flag, left)
+P5 05 38#w = # (bar out left); line matches the image
+P5 06 x9dbb5nQdx -> x9db5npdx (δ, ringed 8, 5, π, ρ, δ); AvnZwvZ -> Av9nZwv4 (9 before π; line ends in 4 at the gutter, doubtful); b#8, q#E = #
+P5 07 t3#wvx -> t3Uwvx, Ey#9q -> EyU9q (upright H, bar only between the stems); line-initial # = # (bar out left)
+P5 08 Eyqvqm -> Ey4vqm (a 4 after ÿ); v#w = #
+P5 09 ZoQdx -> Zopdx (ρ, not Q); Eynx5xk -> Eyn5xk (one x only); 9#q and line-end b# kept # (compact H with the bar joined from the neighbour; doubtful U)
+P5 10 Ab5qcJ -> Ad5qcJ (plain δ); 3qY9d -> 3qYpd (ρ at the margin; the Y is a tall stem, fork not clear)
+P5 11 Ewxbt3 -> Ewx$bt3 (big looped S/ℓ followed by the small bowl b, same pair as l.21); yb5by48nmbZo5bxA5bE -> yb5dy48nmdZo5dxA5dE (four plain δ that v1 had as b)
+P5 12 m#48 = # (bar through, joined to 4); line matches
+P5 13 xwbnxw -> xwdnxw (plain δ); 487#T4 -> 487UT4 (heavy compact upright H); v#8, 8#b = # (long bar out left)
+P5 14 nZbk3 -> nZdk3 (plain δ); t3#8w -> t3U8w (upright H after ƒ3, as l.7)
+P5 15 8#by48 -> 8#dy48 (plain δ under the small '15'); o#w, 8# = # (long bar)
+P5 16 973Z4xk4oJb5 -> 9734xk4oJd5 (no ƶ between 3 and 4; plain δ after Ӿ); x#w = #
+P5 17 Xb5bx5x5q7 -> X5dx5q7 (image X 5 δ x 5 □ 7; v1 had doubled signs); q#w = #
+P5 18 Zob4b487 -> Zob4d487 (δ with the ‡ tick, per the gloss mark); yb+qm -> yb4qm (a 4); X# = # (line end)
+P5 19 wqQEmTJbZE -> wq4EmTJdZE (4, not Q; plain δ); E#w, v#q#t3#w = # (long bars)
+P5 19 JdZE7my -> Jd4E7my (4, not ƶ); twv#q#t3#wvx -> twvUq#t3Uwvx (upright H after ↓ and after ƒ3; the # between them has the long bar); last sign 'x' looks like an H at the margin (flag, left)
+P5 20 b48b5v#7 -> b4865vU7 (plain б; upright H); nZbyb3 -> nZdyb3 (plain δ); X#3 = #
+P5 21 Ew7@b53 -> Ew7$b53 (the header's 'large looped ʘ-like' @ is the big looped S/ℓ word sign, followed by b; same pair as l.11); y5#t = #
+P5 22 nwvbZE -> nwvdZE (plain δ); q#t = # (bar out left); 'tZwyb3': no ƶ seen between ƒ and ω (flag, left)
+P5 23 n9bD5 -> n9dD5 (plain δ)
+P5 24 ...qmyZq?qT5Ewb53Dt... -> ...qmy4q*qT5Ewb853Dt... (image: 4, □, a blotted ★ at the ?, and a round 8 between ω and 5); m#E = # (long bar)
+P5 25 3#w = # (long bar); line matches
+P5 25 wcJwbnZw -> wcJwdnZw (plain δ)
+P5 26 #wby79 -> #wdy79, qEb48 -> qEd48 (plain δ); t3#8Ew -> t3U8Ew (upright H after ƒ3, as l.14); line-initial # = # (bar out left); cb = ringed 8
+P5 27 mTQ7 -> mT47 (4, not Q); 3bwZxZobwn48 -> 3dwZxZodwn48 (two plain δ); 7#w = # (bar through both sides)
+P5 28 3vqXZqJ -> 3vqX4qJ (4, not ƶ); 48#w = # (bar out left); W monogram confirmed
+P5 29 D#w, m#y = # (slanted, bar out left); Ӿ before ↓ at line end, then ink blot (the ? stays)
+P5 30 three b -> d (yyd3, mEdZq, X5dx: plain δ); line-end 48# = #
+P5 31 Twb9vx -> Twd9vx (plain δ); Em#Z, v#q = #; the Q of qQEm left (4-like, blotted)
+P5 32 wDwDwbE -> wDwDwdE (plain δ); initial J = Ӿ with '14' above
+P6 01 !b9E#wb4vy -> !b9EUwd4vy; Ewv#wvyv5#y4gb4w -> EwvUwvyv5Uy4gd4w (three small upright H with no left overhang = U; two plain δ); P6 slopes ~+250 px left to right, crop the thirds stepped
+P6 02 w#8, v#m = # (bar through and out left); line matches
+P6 03 ro5bn48 -> ro5dn48 (plain δ); 48#E, 48#w = #; k = □ joined to δ, confirmed
+P6 04 b4x48 -> d4x48, 75bxE -> 75dxE (plain δ); line end EwvQ -> Ewva+ (a+ ligature); m#y = #
+P6 05 v#bwZ -> v#dwZ (plain δ); 5#, 48#5, v#w (blotted), v#d = # (bars out left)
+P6 06 xybEx -> x9dEx (9 and plain δ); q#x, x#w = # (bar out both sides), 5#7 = #
+P6 07 x3bwZ -> x3dwZ; mo-b487mbw3E -> mo-8487mdw3E (plain 8 and plain δ); t3#w = # (bar out left)
+P6 07 73#bZ -> 73#dZ (plain δ); 3# = # (bar out left)
+P6 08 5by65 -> 5dy65 (plain δ); v#x = # (long bar); A4o b = ringed 8, 95b = ringed (blotted)
+P6 09 y#w, y#w = # (bar touches ÿ on the left); line end 'Aonmv' reads A4oππm↓ on the image (flag, left)
+P6 10 A5bE -> A5dE, xwbct -> xwdct (plain δ); EwvZ5q -> Ewv75q (7); Z#58: a compact H with a filled top, bar not out left - possibly U (flag, kept #)
+P6 11 5bxE -> 5dxE, qnZbk -> qnZdk, #J5bv5q -> #Jd5v5q (plain δ); '5qnZ' on the image looks like □ππ4 (flag); 38# = # (long bar); yb#8 = #
+P6 11 yb#873 -> ybU873 (bold upright H, bar only between the stems)
+P6 12 Z#48, a#, q# = # (bars out left; q# is drawn as two crosses on one bar); @ = ⊙ then later ⊕; matches otherwise
+P6 13 48b4b48 -> 48b4d48 (second is δ with the ‡ tick, per the gloss mark); v#w, 48#w = #
+P6 14 ZqZ4.#w -> Zq47.#w (image □47· before the H); 4.#w, 5#@ = # (bars out left)
+P6 14 7Zb7mEw3E5bxo -> 7Zd7mEw3E5dxo (two plain δ)
+P6 15 9bE48 -> 9dE48 (plain δ); v#n = # (bar out left)
+P6 16 bwb48 -> bwd48 (δ with the ‡ tick); 7#w = # (bar out left)
+P6 16 b5xyw3E5bxLw -> d5xyw3E5dxLw (two plain δ)
+P6 17 vxQ7E -> vxp7E (ρ); line-initial # and 5#48 = # (bars out left)
+P7 01 q4bZ3 -> q4dZ3 (plain δ)
+P7 02 V5bbwv -> V5dbwv (δ then ringed 8); 'wvbb3qo' later in the line reads ↓ δ 3 □ o on the overview with 'ÿb' written above (flag, left)
+P7 03-07 overview crop only: the four # (l.4 5#A, l.6 48#9, #wE, l.5?) are slanted with bars out left = #; no big loop; d = δ. Sign-by-sign transcription of P7 not re-verified (flag: l.4 opens ρ54↑ on the image, v1 t5ZT)
+P8 not checked (single line, no #/d issue)
