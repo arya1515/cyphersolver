@@ -150,6 +150,18 @@
    "what": "Same polyphonic annealer on 1,100 digits of Alessandrino R97 recovers 7 of 9 of Lasry's pairs (-2.18/char); R116 scores worse and restarts disagree.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Pooled R116 with R118 (1,660 signs; 4t = barred 4) and reran the polyphonic annealer.",
+   "result": "failed",
+   "date": "2026-09-21"
+  },
+  {
+   "kind": "literature search",
+   "what": "Academic catalogues for an edition of Ormanetto's nunciature: Fernández Terricabras 2000 (no full text online); no register edition found.",
+   "result": "failed",
+   "date": "2026-09-21"
   }
  ],
  "outcome": {

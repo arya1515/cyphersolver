@@ -98,6 +98,12 @@ Every step open from here was checked, and each is blocked by something outside 
 - key-rebuild: homophonic and polyphonic annealers read same-length controls but not R116. The system is not
   identified, so there is no hypothesis left that the text is long enough to test. Blocker: too-short for an
   unknown system.
+- pooled with R118 (21 Sept, second pass): 1,660 undotted signs, R116's 4t = R118's barred 4 (X). Polyphonic
+  annealer (`pa_pool.py`): -2.37 to -2.46/char against -2.18 for the control, and the restart keys disagree.
+  No fit. Only 11 undotted sign types, so plain homophonic substitution over them cannot carry an alphabet.
+- academic print search: Fernández Terricabras, "El nuncio Niccolò Ormaneto y la reforma de las órdenes
+  religiosas" (Madrid, Felipe II y las ciudades, iii, 2000, pp. 321-332) has no online full text. No edition of the
+  1572-77 nunciature registers was found. Blocker: needs-physical-access.
 - retry: nothing read, nothing to regrade.
 
 ## Files
