@@ -4763,6 +4763,31 @@
      "sent": false
     }
    }
+  },
+  "colonia1721": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/colonia1721.html",
+   "key": {
+    "decode": "George Lasry's reconstructed key ASV - C15 attached to R24 (DOC_R24_D3446), with 18 = qu (not que), 55 = gli, 67 = g",
+    "lang": "IT"
+   },
+   "cite": null,
+   "fields": {
+    "start_date": "1721-10-09 (clear heading: Brusselles 9 ott.re 1721)",
+    "origin_city": "Brussels (filed in the Cologne nunciature archive)"
+   },
+   "records": {
+    "R24": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Read with Lasry's key; Bonavoglia's reading confirmed; 18 = qu, 55 = gli, 67 = g added; 45, 43, 76, 9336, 9356, 9441, 9485 open.",
+     "reading": [
+      {
+       "file": "colonia1721/READING.md"
+      }
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

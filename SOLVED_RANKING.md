@@ -490,3 +490,5 @@ Prince Frederick 1795 (R2242) provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0
 Hereditary Prince 1796 (R2239) provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×4 = **3.25** (p86): a word-list code rebuilt from its sibling's decipherment, then completed with a printed crib.
 Needham 1587 provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×2 + 0.10×1 = **2.55** (p87): a three-grid pigpen rebuilt from four contemporary glosses.
 Throckmorton 10 July 1559 provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×2 + 0.10×3 = **2.95** (p88): an unprinted letter read with a published key, corrected.
+
+Unsigned cipher slip, Brussels 1721 (DECODE R24, colonia1721): not ranked. Already read by Lasry and Bonavoglia on the DECODE record; only three key values added here.

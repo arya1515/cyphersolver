@@ -3984,41 +3984,6 @@
    "scored": "rule"
   },
   {
-   "id": 238,
-   "counted": false,
-   "year": 1721,
-   "date": "1 Jan 1721",
-   "title": "Unknown sender (Colonia) to unknown recipient",
-   "correspondents": "Unknown sender → unknown recipient",
-   "place": "Colonia",
-   "language": "Italian",
-   "region": "Papacy",
-   "period": "1701-1800",
-   "shelfmark": "ASV, ARCH, Nunz, doss. 5",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R24: Partially decrypted, 1 pp., homophonic, nomenclator; numerical; images login. Not viewed here. DECODE note: Cipher of grouped numbers, written in 1721.",
-   "why": "Ciphered letter of Unknown sender to unknown recipient, 1 Jan 1721; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R24",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/24"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    24
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 239,
    "counted": false,
    "year": 1576,
