@@ -5590,5 +5590,31 @@
     }
    }
   }
+ },
+ "soria1527": {
+  "writeup": null,
+  "key": {
+   "decode": "no key record; read at the time (decipherment f. 34r on the same record); cipher = Soria key B (soria1523)",
+   "lang": "ES"
+  },
+  "cite": "RAH Salazar 9/17 f. 34r (contemporary decipherment)",
+  "fields": {},
+  "records": {
+   "R9487": {
+    "decode_status": "Non-decrypted",
+    "proposed": "Decrypted",
+    "note": "Date is 13 Dec 1527, not 1517: docket f. 34r 'xiij de deziembre [1]527'; content (Genoa lost, Clement VII gone to Orvieto, Antonio de Leyva at Milan, Bourbon's jewels pawned at Genoa). Image 4 right (f. 34r) is the contemporary decipherment 'Claro' A, B, C of the cipher passages; torn in B and C.",
+    "reading": null,
+    "sent": false,
+    "fields": {
+     "start_year": "1527",
+     "start_month": "12",
+     "start_day": "13",
+     "sender": "Lope de Soria",
+     "receiver": "Charles V",
+     "plaintext_lang": "Spanish"
+    }
+   }
+  }
  }
 }

@@ -1728,41 +1728,6 @@
    "outcome": "attempted, open"
   },
   {
-   "id": 142,
-   "counted": true,
-   "year": 1517,
-   "date": "13 Dec 1517",
-   "title": "Lope de Soria (Mirandola) to Charles V, Holy Roman Emperor",
-   "correspondents": "Lope de Soria → Charles V, Holy Roman Emperor",
-   "place": "Mirandola, Italy",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "RAH, Signatura 9/17, f. 31–33",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R9487: Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: Letter from Lope de Soria to Carlos V, dated in Mirandola on December 13, 1517, transmitting news about the situation in different Italian localities.",
-   "why": "Ciphered letter of Lope de Soria to Charles V, Holy Roman Emperor, 13 Dec 1517; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9487",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9487"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9487
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 145,
    "counted": false,
    "year": null,

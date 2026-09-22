@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "target": "soria1527",
+ "title": "Lope de Soria (Mirandola) to Charles V, 13 Dec 1527, RAH Salazar 9/17 ff. 31-34 (DECODE R9487, dated there 1517)",
+ "documents": [
+  {
+   "id": "R9487",
+   "shelfmark": "RAH, Colección Salazar y Castro, 9/17, ff. 31-34 (DECODE R9487)",
+   "date": "13 Dec 1527",
+   "year": 1527,
+   "country": "Italy",
+   "route": "Lope de Soria (imperial agent, Mirandola) to Charles V",
+   "language": "Spanish",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "contemporary decipherment 'Claro' A-C bound as f. 34r; torn in B and C",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "unknown",
+    "source": "not transcribed sign by sign; DECODE images viewed, decipherment transcribed (claro.md)",
+    "image_quality": "fair",
+    "notes": "About 25 cipher lines on ff. 31r-33r, torn at the right edges."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Soria's key B (1523): homophonic letters plus three-letter code groups (zog=de, zof=con, xab=Francia, sub=que); Spanish.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Same key as soria1523 key B, so in use by 1527."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "contemporary decipherment bound as f. 34r of the same letter",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie to the model, set up Claude Code with Opus 5, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "kind": "access",
+   "what": "Fetched the 4 DECODE images of R9487 with the shared cookie.",
+   "result": "worked"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Recognised the three-letter code groups (xip, yed, zog, sub, pic) as Soria's 1523 key B from soria1523.",
+   "result": "worked"
+  },
+  {
+   "kind": "literature search",
+   "what": "Viewed every page: f. 34r is headed 'Claro' with sections A, B, C in a secretary's hand, docketed 'xiij de deziembre [1]527'.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Key-B values on the f. 33r cipher give 'matrimonio con Francia', 'por no', 'navegar con', and on f. 31r 'quitanças de', all in the claro.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Redated the letter to 1527 from its content (Genoa lost, Pope at Orvieto, Leyva at Milan, Bourbon's jewels) and the docket.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "verification": [
+   "contemporary decipherment"
+  ],
+  "notes": "Read at the time; decipherment f. 34r (torn in B/C). DECODE date 1517 corrected to 1527. Catalogue entry 142 removed; no write-up."
+ }
+}

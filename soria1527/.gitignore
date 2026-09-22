@@ -1,0 +1,5 @@
+img/
+*.jpg
+decode/*.htm
+**/cookie.txt
+decode/IMG_*
