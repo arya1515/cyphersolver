@@ -1,0 +1,53 @@
+# qm2_f148: sign-by-sign re-transcription, lower block of IMG_R9241_I43237_P1 (BL Add MS 4136 f.148v, DECODE R9241),
+# Catherine de' Medici to M. de Foix, 15 Jan 1563. One manuscript line per row (11 rows incl. heading line and the
+# 2-sign tail line), tokens space-separated. Crops at 1.5x: scratchpad t148/L*_*.png. Clear words in <angle brackets>.
+# ':' '.' = dots/colons written between signs (probably punctuation, kept as tokens); [blot] = ink blot (line 7).
+# Two-digit numbers (30 31 32 40 83 84 93) are single tokens; 6, 7, 8, 2, 4 standalone are single-digit signs.
+# SIGN INVENTORY (46 cipher signs + 2 punctuation):
+#  a    plain a                      b    6-shaped b (plain)            bB   looped b, like German sharp s (NEW, split from b)
+#  B    capital B without s-tail (NEW, split from Bs)                   Bs   B with s-flourish (script 'B' + s)
+#  c    small c / bracket-c          c'   c with acute stroke above (NEW, line 10 only)
+#  ch   ch ligature                  d    script d / round 'partial' d   D    closed delta triangle
+#  Da   delta open with a rising tail stroke, 'A'-like (NEW, split from D)
+#  e    epsilon-like e               E3   reversed E / 3 with bar (Ǝ)
+#  f    long f                        ff   double long-s ligature        fh   p-with-flag at top, long descender
+#  Fk   upright stroke with z/K-flag on the right, 'F'-like (NEW, split from tb)
+#  g    xi/ʒ-shaped g with descender  pl   p-like sign with round head curl (NEW, split from g, line 4)
+#  H    plain H                      #    H with two crossbars (hash)   4t   4 with two crossbars (distinct from #)
+#  Lc   curly underlined L (also what first pass read as 'y' in lines 6,7)  Ld   L with dot/colon beside (NEW, split from tb)
+#  m    m     n  n     ny   m/n with long looped tail
+#  p    p     qs   q + long s with hooked top      r    2-/r-rotunda-like sign (often with underline)
+#  Rx   R with crossed tail          so   so ligature   sz   long s + z ligature   zo   zo ligature
+#  T2   long vertical with two short bars (double dagger)
+#  tb   L/P with double crossbar (pound-sign shape)     tf   t with long f-descender      th   theta / 9-shape
+#  t6   crossed t + 6 ('+6')         i6   upright stroke + 6, no cross (NEW, split from t6, lines 3,4)
+#  t4   t4 ligature (crossed, descender)
+#  X    x with p-loop                Xx   same with a strike through (first pass sometimes merged with X)
+#  y    plain y                      z    plain z   3  plain 3 sitting on the line
+#  z3   ʒ: 3 with descender tail (NEW, split from 3)    3d  3 with a dot above (NEW, line 2)
+#  ^    caret / lambda
+#  2  6  7  8  4   digits as single signs
+# DIFFERENCES FROM FIRST PASS (qm_tokens.txt):
+#  L1 '<assez> b m 7' -> 'b : m 7' (colon recorded)
+#  L2 a '3' th '3' -> z3 ... 3d ; L3 '3' after a -> z3 ; t6 -> i6 (L3, L4)
+#  L4 'g d c g 30' -> 'g d c pl 30' ; final 'tb' -> Ld ; ': ' before g recorded
+#  L5 'D' first -> Da ; 'ff 3 th' -> '# 3 th' (hash, not ff)
+#  L6 'tb' -> Fk ; 'y e b r 3 3' -> 'Lc e b r z3 3'
+#  L7 'tb' -> Fk ; 'y' -> Lc ; 31 has dot ; [blot] noted ; '.' after th
+#  L8 'D' after a -> Da ; 'Lc #' -> 'Lc 4t'
+#  L9 '3 X b' -> '3 Xx bB' ; both '#' -> 4t ; b around t4 -> bB ; big ʒ -> z3
+#  L10 c -> c' ; 'Lc X ff' -> 'Lc Xx ff' ; 'b 93' -> 'b : 93' ; 'd Bs D' -> 'd B D'
+# Uncertain: tb in L2 (looks P-with-bar, may be its own sign); r in L4 vs L7 (underline or not); th after p in L10 vs p.
+# (1)
+# (1)
+E3 <pour> <assez> b : m 7
+a z3 th 3d Lc H g T2 th y Bs <quog> z d m tb y qs b fh a m th X b m
+th p a z3 c f ch so ff so 3 tb p d 2 T2 ny # m ^ c f ch X i6 r b
+3 Bs a p 8 3 : g d c pl 30 T2 d m 3 r X b f D tb ^ # ch i6 Ld
+a f Da so 2 tf t6 Rx b H ff y D qs b ny 4 tf 4t m d # 3 th
+p b z f D Bs d c g T2 n Lc Fk 3 b c a m Lc e b r z3 3 a sz a t6
+tf ff a Fk d Lc 31. 83 [blot] 8 d # m g 30 p a r b 84 32 th . e b f T2 m Bs a
+qs Bs z d m 6 84 8 ff ^ T2 qs a Da t6 z Lc 4t b fh ^ e D m th 40
+83 3 Xx bB y c f ch tf zo ^ m 7 z3 sz a qs g 2 a 84 4t c bB t4 bB E3 4t
+d c' a r Lc fh ^ m th qs d ny th p d Lc Xx ff b : 93 tb a p 3 d B D
+T2 4t

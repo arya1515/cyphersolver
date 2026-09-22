@@ -51,11 +51,11 @@
     "partial": false
    },
    "length": {
-    "tokens": 952,
-    "distinct": 71,
+    "tokens": 1007,
+    "distinct": 92,
     "unit": "mixed",
     "measured": true,
-    "file": "qm_tokens.txt"
+    "file": "qm2_tokens.txt"
    },
    "transcription": {
     "by": "llm from images",
@@ -193,6 +193,18 @@
    "date": "2026-09-21",
    "kind": "solver",
    "what": "anneal3.py SYL=1: tokens map to a letter or one of 30 French bigrams; no language.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Second pass, sign by sign from full-resolution crops (two agents, one per page): qm2_tokens.txt, 1007 tokens, 92 types; splits of #/4t/H, 3/Z3, qs/qf, Lc/Yb, b/bB, D/Da and others.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "anneal3.py on qm2_tokens.txt (French, English, French with nulls): no language.",
    "result": "failed"
   }
  ],

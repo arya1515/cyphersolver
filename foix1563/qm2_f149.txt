@@ -1,0 +1,159 @@
+# f.149 (DECODE R9241 image P2), upper block: passages (1 cont.)-(4). Second-pass sign-by-sign transcription.
+# One manuscript line per row; tokens space-separated; '#' lines starting "# (" mark passage starts.
+# Rows are listed after "=== TEXT ===". '?' after a token = uncertain reading.
+# Sign inventory (50 names):
+#  T2   dagger with two crossbars (like double-barred t)
+#  4t   figure 4 with a crossing t-bar (left stroke slanted)
+#  #    two vertical strokes with two crossbars ("tt"/sharp shape)
+#  H    capital H with small serifs, one crossbar (distinct from #)
+#  b    b-like sign (6 with a top stroke)
+#  hb   h/b with a crossbar ("h-bar"); hb? where it may be b
+#  c    c with a flat top stroke
+#  d    reversed-6 / partial-differential shape
+#  e    epsilon
+#  E3   reversed E / 3 with a flat bar
+#  3    small 3 sitting on the line
+#  Z3   tall ezh (3 with a long descending tail), NEW split from 3
+#  zt   z-topped ezh, flat top like z with a descending hook, NEW split from 3
+#  z    plain small z
+#  r    r-like looped sign (resembles z with loop at left), distinct from z
+#  zf   z with an f-like cross stroke
+#  D    Greek capital delta
+#  Dl   Latin capital D (open, flourished), NEW split from D
+#  ^    caret / lambda
+#  m    m (sometimes three-legged)
+#  m+   m with a small cross above
+#  n    n
+#  ny   m/n with a looped tail
+#  N    reversed N with a descending tail
+#  M    capital M (followed by s-flourish)
+#  p    p (often with a stroke through the stem)
+#  qs   q + long s (curled, no crossbar); qs^o = with a small circle above
+#  qf   q + crossed f (long s with crossbar), NEW split from qs
+#  X    x with a looped p-tail on the right
+#  x    plain x
+#  Xx   struck X (x crossed by a stroke)
+#  th   script theta / looped 9
+#  O    barred theta (circle with a bar)
+#  B    plain capital B, NEW split from Bs
+#  Bs   B with superscript s
+#  Lc   script L with loop (only once on this page, row 8)
+#  Yb   y with a bar/underline beneath (curly y), NEW split from Lc
+#  Yx   y/V with two crossbars, NEW (first pass had tb/Lc)
+#  y    plain y
+#  g    g with closed lower loop (8-like)
+#  gy   y-like g with open left curve, NEW split from g
+#  yz   y with descending z-loop (yogh-like), NEW split from g
+#  tb   t with bar and hooked foot
+#  t6 t4 t7x   t over 6 / t over 4 / t over crossed 7 (t7x NEW split from t4)
+#  7 7x Ax     seven / crossed seven / crossed A
+#  f fh ff sz so ch ae a   f, f with hook, double long s, long s+z, s+o ligature, c+h, ae ligature, a
+#  digits: 2 4 6 7 8 as single signs; 10 26 30 31 32 34 37 50 51 70 80 82 83 84 93 as single two-digit tokens
+#  |    vertical separator stroke;  ,  .  comma / full stop;  [blot] ink blot possibly hiding a sign
+#  <word> clear words (pour, car)
+#
+# Differences from first pass (qm_tokens.txt rows from "T2 4t b 80"; row = non-blank row index incl. passage markers):
+# row 1: qs -> qf
+# row 1: Lc -> Yb
+# row 3: Lc 80 -> Yb 80?
+# row 3: qs -> qs^o
+# row 3: Lc -> Yb
+# row 4: (none) -> ,
+# row 4: qs -> qf
+# row 4: Bs -> B
+# row 5: Lc -> Yb
+# row 6: Lc -> Yb
+# row 6: z -> r
+# row 6: Lc -> Yb
+# row 6: z -> r
+# row 7: Lc -> Yb
+# row 7: z -> e
+# row 7: Lc -> Yb
+# row 8: Bs -> B
+# row 9: # -> H
+# row 9: qs -> qf
+# row 9: Lc -> Yb
+# row 13: g -> gy
+# row 13: g -> yz
+# row 13: D -> Dl
+# row 13: (none) -> [blot]
+# row 14: g -> gy
+# row 14: qs -> qf
+# row 15: 3 -> Z3
+# row 15: g -> gy
+# row 16: 3 -> Z3
+# row 16: g -> yz
+# row 17: # -> H
+# row 17: fh -> (none)
+# row 17: qs -> qf
+# row 18: b -> hb?
+# row 18: 3 -> Z3
+# row 19: fh -> p
+# row 19: th -> d .
+# row 21: (none) -> |
+# row 21: (none) -> |
+# row 21: (none) -> |
+# row 22: 3 -> Z3
+# row 22: tb -> Yx
+# row 22: 3 -> Z3
+# row 22: Lc -> Yb
+# row 23: 4 -> D
+# row 23: Lc -> Yb
+# row 23: X -> x
+# row 23: (none) -> |
+# row 23: (none) -> |
+# row 23: 3 -> Z3 |
+# row 23: (none) -> |
+# row 24: Lc -> Yb
+# row 24: 3 -> Z3
+# row 26: 3 -> [blot] Z3
+# row 26: 3 -> Z3
+# row 27: 50 -> so
+# row 28: 3 3 -> Z3 zt
+# row 28: 3 -> Z3
+# row 28: 3 -> Z3
+# row 28: qs -> qf
+# row 29: 3 g -> Z3 gy
+# row 29: 3 -> zt
+# row 30: t4 -> t7x
+# row 31: qs -> qf
+# row 31: 3 -> Z3
+# row 32: 3 -> Z3
+# row 32: qs # -> qf H
+# row 33: 3 tb Lc -> Z3 Yx Yb
+# row 34 (last): Lc -> Yb, qs -> qf (compared by eye)
+=== TEXT ===
+T2 4t b 80 8 3 7 ^ c b ny D qf b ny X E3 b m 3 d Rx a tb p Yb d e D m
+t6 th so 84 m b 4t d th T2 y Bs H n qs tb p b m r so f so th p D # 7
+Bs r Yb 80? ff H m 3 b qs^o th # p D Yb m b 3 z th e b r a ff T2 m 7 n
+Rx d r , # th a g b 3 th f D # qf X b 3 m B a qs r p b E3 so # m
+x T2 qs z b 3 x d # ny so g # d m c d Yb 2 tb e O m T2 c H p E3 82
+tb b c 3 th D Yb d z p 34 r b x y Yb 3 c tb so r b 3 z m b p ^ sz d e T2
+m+ f ^ Yb d e th sz d e b m g Yb so ff # f b 3 tb b p X d t6 e th t4 g
+n p B z p tb fh d sz tb th b Lc a m Bs 84 p a 7 d m 4 # 2 T2 D th
+H d m qs b 7 a qf ^ H p b a m th p b 4 ae 3 r 3 Yb ch p d e ^ f
+m f sz b t6 3
+# (2)
+D X c b 7 so 3 # p ^ m r b y Xx d m
+r ^ qs 7 a gy b f D m # y # yz a ^ Dl d sz tb D # m [blot] M 2 b ff
+y gy a ch th b p # Bs 3 r b 3 d m a g tb 3 p # th b qf y e b r
+Z3 th T2 p b tb gy b sz d e 83 3 sz n e b m 3 E3 93 7 tb b g e m so #
+^ 7 th Z3 m r X d e 3 r b ff m c e 93 80 ff 6 yz 7 ^ e m 30 p g
+H 4t m d p ^ qs th r b th d c Bs 7 b 51 30 tb ^ qf b E3 th d c
+Bs b g x d e 3 # ff m hb? qs b c th ^ c th p Z3 7 tb d 3 X b 3 H
+m d qs 7 a so 8 y 30 b H ^ 34 b 3 X 7 p t6 H tb d .
+# (3)
+r Ax 6 c b d e | z 6 | sz | 3 b p d #
+th z 6 ^ T2 3 a r Z3 hb 3 d m Yx p n c N # 4t a r Z3 7 b p d e ^ Yb
+m f sz b y 7x b 2 D ff Yb e x b # ny 6 | 2 6 | b m th a qs r p Z3 | 3 r |
+ff Yb e d 3 th b p 7 b 3 Bs Z3 b 7x 3 tb b p X ^ m 7 t6 b
+# (4)
+37 X t6 Xx 70 30 10 6 m b qs X [blot] Z3 3 tb b p Z3 tb
+# b m 3 m <pour> E3 c b th e 26 so 3 d m Xx c 8 3 b p X d # Bs
+r Z3 zt hb <car> b m th p Z3 tb b m 50 ff so r Z3 Xx d c p qf b sz
+a m th r Z3 gy a qs e b p 3 r Ax zt m ^ 6 d qs g m t6 c
+2 X b # qs Bs b m Bs # d qs 8 c b t7x a ny 3 T2 84 r b
+qf c 3 8 31 p Z3 ny ^ tb p a qs r tb b so f so t6 7 X tb d
+3 b E3 sz b qs D x c b p th r tb Z3 ny y f qf H r b 70 7 3
+sz 3 b g a p ^ tb N b p th r Z3 Yx Yb T2 g m f b 32 th b sz
+a m Bs r c 10 r Z3 X sz y 7x # qf t6 zf H Yb b p 3
