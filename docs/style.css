@@ -694,7 +694,4 @@ html.zv-lock{overflow:hidden}
 .randbtn{align-self:center;font:600 .82rem var(--mono);padding:.7rem 1.1rem;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:var(--gold-ink);cursor:pointer;transition:transform .2s,box-shadow .2s}
 .randbtn:hover{transform:rotate(-3deg) scale(1.04);box-shadow:0 0 18px color-mix(in srgb,var(--gold) 45%,transparent)}
 @media (max-width:600px){.livecount .lc{min-width:calc(50% - .3rem);flex:1}.randbtn{width:100%}}
-.sb-big b{transform-origin:left bottom;transition:transform .5s cubic-bezier(.2,1.6,.4,1)}
-.sb-big b.counting{transform:scale(.5);font-variant-numeric:tabular-nums}
-.sb-big b.counted{transform:scale(1);animation:sb-pop .9s cubic-bezier(.2,1.6,.4,1)}
-@keyframes sb-pop{0%{transform:scale(.5)}50%{transform:scale(1.45)}100%{transform:scale(1)}}
+.sb-big b.counting{font-variant-numeric:tabular-nums}

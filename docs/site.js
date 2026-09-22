@@ -315,7 +315,7 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
   });
 })();
 
-/* scoreboard numbers count up from zero and swell when they scroll into view */
+/* scoreboard numbers count up from zero when they scroll into view */
 (()=>{
   const bs=document.querySelectorAll('.sb-big b'); if(!bs.length) return;
   const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
