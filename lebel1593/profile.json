@@ -1,0 +1,60 @@
+{
+ "schema_version": 1,
+ "target": "lebel1593",
+ "title": "Lebel (Paris) to Charles Emmanuel I of Savoy, 17 Jan, 10 and 27 Mar 1593 (BnF fr. 3983 nos. 11, 62, 100)",
+ "documents": [
+  {"id": "no11", "shelfmark": "BnF fr. 3983 f. 26r-v (no. 11)", "date": "17 Jan 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 2, "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017), decipherment overlaid on images", "partial": "unknown"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "llm from images", "source": "Gallica IIIF images; running text in reading11.md", "image_quality": "fair", "notes": "Deciphered in this session with Tomokiyo's key table before his overlays were found."}},
+  {"id": "no62", "shelfmark": "BnF fr. 3983 f. 130r-v (no. 62)", "date": "10 Mar 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 2, "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017)", "partial": "unknown"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "unknown", "source": "not transcribed", "image_quality": "unknown", "notes": "Not re-read."}},
+  {"id": "no100", "shelfmark": "BnF fr. 3983 ff. 194-195 (no. 100)", "date": "27 Mar 1593", "year": 1593, "country": "France", "route": "Lebel (Paris) to Charles Emmanuel I (Turin)", "language": "French", "pages": 3, "cleartext_in_document": "interspersed",
+   "plaintext": {"location": ["unrelated source"], "source": "Tomokiyo, cryptiana savoy.htm (2017)", "partial": "unknown"},
+   "length": {"tokens": "unknown", "unit": "symbols", "measured": false},
+   "transcription": {"by": "unknown", "source": "not transcribed", "image_quality": "unknown", "notes": "Not re-read."}}
+ ],
+ "system": {
+  "types": ["nomenclator"],
+  "summary": "French letter cipher with homophones and nulls plus a numbered code list (groups to 300+); key reconstructed by Tomokiyo from deciphered siblings.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {"used": "unknown"},
+  "homophones": {"used": true},
+  "nomenclator": {"present": true},
+  "nulls": {"present": true},
+  "key_order": "unknown",
+  "word_division": "unknown",
+  "doubled_letters": "unknown",
+  "notes": "Partly-enciphered letters: clear text with enciphered passages."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Satoshi Tomokiyo, cryptiana.web.fc2.com/code/savoy.htm (21 June 2017, updated Dec 2023): key table and decipherments of all three letters overlaid on the images.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": ["published key", "published reading"],
+  "attack": "published key",
+  "human_role": "Project-level: set up Claude Code with Opus 5 and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": ["Gallica IIIF", "web fetch"],
+  "models": ["claude-opus-5"],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {"kind": "literature search", "what": "Tomokiyo's savoy.htm lists Lebel's 1593 letters and gives a reconstructed key table (savoy.png).", "result": "worked"},
+  {"kind": "transcription", "what": "Fetched fr. 3983 canvases 49-53 and related leaves from Gallica IIIF.", "result": "worked"},
+  {"kind": "reading", "what": "Deciphered no. 11 (f. 26) with Tomokiyo's key table: reading11.md, many code groups unresolved.", "result": "partial"},
+  {"kind": "literature search", "what": "Downloaded Tomokiyo's letter images: f. 26, f. 130, f. 194-195 all carry his decipherment overlaid; the target was already read.", "result": "worked"}
+ ],
+ "outcome": {
+  "class": "already solved",
+  "verification": ["none"],
+  "notes": "All three read by Tomokiyo 2017. Catalogue entry 18 removed; no write-up."
+ }
+}
