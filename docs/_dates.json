@@ -103,6 +103,7 @@
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
   "maltravers to ormonde, 1634–35": "2026-09-15",
+  "mary queen of scots to archbishop hamilton, 18 january 1569": "2026-09-21",
   "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
   "matthias corvinus to ercole i d’este, pozsony, 1 june 1482": "2026-09-19",
   "mihály hentér to ferenc rákóczi ii, constantinople, 8 july 1707": "2026-09-21",
@@ -304,7 +305,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "359a44a9a6e5",
+   "hash": "ea3f21116c9c",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -442,6 +443,11 @@
    "hash": "037d20be6089",
    "updated": "2026-09-21"
   },
+  "hamilton1569": {
+   "first": "2026-09-21",
+   "hash": "921aa3bf2ea4",
+   "updated": "2026-09-21"
+  },
   "harley287": {
    "first": "2026-09-21",
    "hash": "d1a8c929e675",
@@ -504,7 +510,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "fe6cd909b10d",
+   "hash": "21669afb9656",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -1044,7 +1050,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6f16cdc74eae",
+   "hash": "c731cce563ac",
    "updated": "2026-09-21"
   },
   "yard1699": {
