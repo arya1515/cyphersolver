@@ -5425,5 +5425,32 @@
     "reading_not_needed": true
    }
   }
+ },
+ "vetesi1705": {
+  "writeup": null,
+  "key": {
+   "decode": "no key; the contemporary interlinear decipherment on images 3612-3614",
+   "lang": "HU"
+  },
+  "cite": "Ráday Pál iratai I. 1703-1706 (Budapest: Akadémiai, 1955), item 102, p. 494 n. 1",
+  "fields": {
+   "start_year": "1706",
+   "start_month": "1",
+   "start_day": "9",
+   "end_year": "1706",
+   "end_month": "1",
+   "end_day": "9",
+   "sender": "László Vetési Kökényesdi (signing as Cassimirus Miloftzki)",
+   "receiver": "Ferenc Rákóczi II"
+  },
+  "records": {
+   "R473": {
+    "decode_status": "Partially",
+    "proposed": "Decrypted",
+    "note": "Read at the time: a contemporary hand deciphered the cipher groups interlinearly. Dated 9 Jan 1706 (endorsement '1706 I. 9'; closing 'Kilencedik Januarii'). Addressed to Rákóczi ('Fejedelem ... Nagyságod'), kept in Ráday's papers; Ráday is named in the third person. Archive note cites Ráday Pál iratai I p. 494 n. 1.",
+    "reading": null,
+    "sent": false
+   }
+  }
  }
 }

@@ -350,41 +350,6 @@
    "scored": "rule"
   },
   {
-   "id": 52,
-   "counted": true,
-   "year": 1705,
-   "date": "1 Jan 1705",
-   "title": "László Vetési Kökényesdi (sometimes alias Casimirius de Miloftzky) to Pál Ráday, Ferenc Rákóczi II",
-   "correspondents": "László Vetési Kökényesdi (sometimes alias Casimirius de Miloftzky) → Pál Ráday, Ferenc Rákóczi II",
-   "place": "Budapest",
-   "language": "Hungarian",
-   "region": "Hungary",
-   "period": "1701-1800",
-   "shelfmark": "Ráday Archives, C64-4d2-10. 92-95",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R473: Partially decrypted, 4 pp., homophonic; numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered letter of László Vetési Kökényesdi (sometimes alias Casimirius de Miloftzky) to Pál Ráday, Ferenc Rákóczi II, 1 Jan 1705; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R473",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/473"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    473
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 53,
    "counted": true,
    "year": 1841,

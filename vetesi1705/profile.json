@@ -1,0 +1,133 @@
+{
+ "schema_version": 1,
+ "target": "vetesi1705",
+ "title": "László Vetési Kökényesdi (as Cassimirus Miloftzki) to Ferenc Rákóczi II, 9 January 1706 (Ráday Archives C64-4d2-10, 92-95; DECODE R473)",
+ "documents": [
+  {
+   "id": "R473",
+   "read": "read",
+   "shelfmark": "Ráday Archives, C64-4d2-10, 92-95 (DECODE R473)",
+   "date": "9 January 1706",
+   "year": 1706,
+   "country": "Hungary",
+   "route": "Vetési Kökényesdi -> Ferenc Rakoczi II",
+   "language": "Hungarian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "Contemporary interlinear decipherment over the cipher groups."
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false,
+    "file": "DOC_R473_D3610_3610.txt"
+   },
+   "transcription": {
+    "by": "DECODE",
+    "source": "DOC_R473_D3610_3610.txt",
+    "image_quality": "good",
+    "notes": "DECODE spaces every digit, so --measure cannot split groups; align.py parses 373 groups in glossed runs."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "Hungarian syllabic numerical nomenclator with homophones and dotted multi-digit groups for names and dates.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "1-4",
+   "separation": "dots"
+  },
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": "unknown"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": "unknown"
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "sibling_key": "unknown",
+  "notes": "Key not on DECODE."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "in archive",
+   "where": "Contemporary interlinear decipherment on the letter; cited to Ráday Pál iratai I (1955) p. 494 n. 1",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "transcription"
+  ],
+  "attack": "archive decipherment",
+  "human_role": "Posed the target from the catalogue; supplied the DECODE session cookie earlier.",
+  "tools": [
+   "DECODE fetch script",
+   "EM aligner"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Fetched DECODE R473 record page, transcription DOC_R473_D3610 and images 3612-3614 with the project cookie (fetch_img.py).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Read DECODE's transcription: Hungarian clear text with numerical cipher runs, each run under a contemporary interlinear gloss.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "verification",
+   "what": "Checked images 3612 and 3614: the interlinear decipherment is in a contemporary hand over nearly every group; endorsement '1706 I. 9' and closing 'Kilencedik Januarii' date the letter 9 Jan 1706.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Pencil note 'H.o. R.I. 102 a 1 jegyzet. 494. p.' identified as Raday Pal iratai I (1955) item 102 n. 1 p. 494; Szaktars copy paywalled (403), not checked.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "solver",
+   "what": "Hard-EM alignment of cipher runs with DECODE's transcription of the glosses (align.py) to rebuild the key: too noisy, 154/373 groups in mismatched runs; key not rebuilt.",
+   "result": "failed"
+  }
+ ],
+ "outcome": {
+  "class": "already solved",
+  "key": "none",
+  "fraction_read": "unknown",
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "not counted; the contemporary interlinear covers nearly every cipher group (a few, incl. the place in the date line, unglossed)",
+  "verification": [
+   "historical consistency"
+  ],
+  "notes": "Read at the time (interlinear decipherment); date corrected to 9 Jan 1706 and addressee to Rákóczi; nothing new read."
+ }
+}
