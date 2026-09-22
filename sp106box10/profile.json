@@ -703,6 +703,24 @@
       "kind": "sibling key",
       "what": "R931: compared with Charles I to Culpeper 1645 key (BL Add MS 32256 ff. 6-7, DECODE R9117/R9118): words 300-600, nothing in 100-260; does not fit.",
       "result": "failed"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "transcription",
+      "what": "R722 transcribed in full from the images: 48 lines, 420 groups, 117 types, clear passages (Bethune, Pontifice, 150 m, Spinola sotto Breda).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "crib",
+      "what": "Line 24 'che 525 245 541 449 lo haveva' = 'che il Re glie-lo haveva'; line 8 '245 510 Almeno' = 'resta'; confirms R701 p.3's table (244 ra, 245 re, 510 sta, 333-336 cha-cho) for this letter.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "solver",
+      "what": "Simulated annealing of the remaining ~70 groups against it-cinquecento, four configurations (free; length-normalised; R701 values fixed; plus run-of-five prior), 12-20 restarts each.",
+      "result": "failed"
     }
   ],
   "outcome": {

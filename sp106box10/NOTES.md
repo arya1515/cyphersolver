@@ -354,3 +354,30 @@ of autumn 1645, BL Add MS 32256 ff. 4-9 or Egerton 2550).
 R722 identified (the file's missing 1625 Venetian intercept, endorsement read, clear passages read, dated by Breda);
 R656 and R662 explained (worksheet fragments of R722; the codebreaker's memorandum on the code); R931 attempted, open.
 Catalogue entry 58 is narrowed to R931.
+
+### R722: full transcription and a first attack on the code (2026-09-21, later)
+
+`cat58/r722_groups.txt` now holds all 48 lines: **420 groups, 117 types**, plus the clear Italian. Line 45-46 adds
+*"… soliti concetti del Pontifice il quale disse a Bethune di voler esser risarcito di 150 m[ila] …"*: Philippe de
+Béthune, French ambassador in Rome, and the Pope's demand to be compensated (the Valtelline forts, 1625). The writer
+relays Rome and Brussels news to "V. E.", the Venetian ambassador.
+
+Fixed values (C = confirmed by clear context):
+- crib, line 24: *che* **525 245 541 449** *lo haveva assecurato* = *che il Re glie-lo haveva*: 525 il, 245 re, 541 gli,
+  449 e (C);
+- line 8: **245 510** *Almeno* = *resta. Almeno*: 510 sta (C), matching R701 p.3's 510-514 sta-stu;
+- 334 che (C: R701 p.3 333-336 cha-cho, and the codebreaker glosses 334 "che" throughout).
+R701 p.3's table therefore belongs to this letter and is right where it can be checked: 209-213 va-vu, 231-235 sa-su,
+244 ra, 245 re, 322-326 pra-pru, 333-336 cha-cho, 366-370 la-lu, 375-378 da-do (377 di, 9 occurrences), 510-514 sta-stu.
+
+`cat58/solve722.py` anneals the remaining groups against `it-cinquecento` (5-gram, per-character baseline, at most
+two groups per syllable, bonus for R701-style runs of five). Four configurations were run (free; length-normalised;
+R701 values fixed; R701 fixed + strong run bonus + no word groups), 12-20 restarts of 400k steps each. **Failed**: every
+restart ends in different Italian-sounding word salad, and no two agree beyond the fixed values. With about 70 free
+groups over 420 tokens the text does not determine the code. The codebreaker's own trial glosses on R722 disagree
+with each other and with R701 p.3 in places, and he did not break it either.
+
+What would move it: (a) another letter in the same code (the Venetian correspondence of 1625, ASVe or SP 99 at Kew);
+(b) the rest of the table, if more of R701-style run sheets survive among the unimaged SP 106/10 leaves; (c) a
+careful pass fixing only values forced by clear-text junctions (line ends before and after clear passages), then
+re-annealing.
