@@ -1,0 +1,164 @@
+{
+ "schema_version": 1,
+ "target": "caracciolo1537",
+ "title": "Cardinal Caracciolo (Milan) to Charles V, 14 November 1537 (AGS Estado leg. 1184 fol. 110, DECODE R9966)",
+ "documents": [
+  {
+   "id": "R9966",
+   "shelfmark": "AGS, Estado, leg. 1184, fol. 110 (DECODE R9966)",
+   "date": "14 Nov 1537",
+   "year": 1537,
+   "country": "Italy",
+   "route": "Cardinal Marino Ascanio Caracciolo (Milan) to Charles V",
+   "language": "Italian",
+   "pages": 4,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "unrelated source"
+    ],
+    "source": "Tomokiyo, cryptiana spanish2C (first four lines only)",
+    "partial": true
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "read directly from DECODE image P1 (AGS 0409) into reading.txt",
+    "image_quality": "good",
+    "notes": "Deciphered line by line from the images without a separate sign transcription, so no token count; the writer's cancelling strokes cross lines 1-11."
+   },
+   "read": "read in part"
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "syllabic",
+   "nomenclator"
+  ],
+  "summary": "Luo's Cifrario 38: homophonic sign alphabet plus consonant base signs with superscript vowel digits (5-9 = a e i o u), nulls with superscripts 2-4, a few code words.",
+  "symbol_kind": "symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "word_division": "none",
+  "doubled_letters": "unknown",
+  "notes": "Key applied unchanged from Luo 2021 p. 657."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "online",
+   "where": "Tomokiyo, cryptiana 'Spanish ciphers during the reign of Charles V' (Luo update): names Lu.38 and reads the first four lines",
+   "found": "before attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "published key"
+  ],
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login and passed its session cookie to the model, and posed the problem with /goal. No target-specific intervention recorded.",
+  "tools": [
+   "image viewing",
+   "DECODE API",
+   "web search"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Tomokiyo spanish2C copy grepped for R9966: readable with Luo's Lu.38; first four lines given.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "DECODE R9966 record and 4 images fetched with the shared cookie; order mapped to AGS 0408-0411.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "Luo 2021 thesis downloaded from RODERIC; Cifrario 38 table (p. 657) read.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Luo PDF searched for leg. 1184 and the names in the cipher: letter not edited.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "11 cipher lines of AGS 0409 deciphered line by line with Cifrario 38 unchanged; Tomokiyo's lines confirmed with two corrections; lines 5-11 read with scattered gaps.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Retry: gap spots re-read at 4x with autocontrast; hooked 9 = e homophone (line 4), dotted # = null (line 5); others unchanged.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "class": "read in part",
+  "fraction_read": 0.85,
+  "fraction_read_method": "estimated",
+  "fraction_read_source": "reading.txt, cipher tokens, [..] counted as unread",
+  "key": "recovered",
+  "verification": [
+   "key confirms",
+   "historical consistency"
+  ],
+  "gaps": [
+   {
+    "item": "line 4 'se[..]ri'; 'a fe' literal, sense doubtful",
+    "blocker": "illegible"
+   },
+   {
+    "item": "line 5 a group before 'tracta'",
+    "blocker": "illegible"
+   },
+   {
+    "item": "line 6 '[..]rumento'",
+    "blocker": "illegible"
+   },
+   {
+    "item": "line 8 'ha [pri a no l] facto'",
+    "blocker": "illegible"
+   },
+   {
+    "item": "lines 10-11 'Suiza[..]', 'ma[..]', 'quan[to ..]', end of line 11",
+    "blocker": "illegible"
+   },
+   {
+    "item": "cancelled line at the top of f. 111r",
+    "blocker": "illegible"
+   }
+  ],
+  "notes": "Published key read the letter unchanged; Tomokiyo had read four lines; the rest read here with gaps."
+ }
+}

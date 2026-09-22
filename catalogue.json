@@ -3071,41 +3071,6 @@
    "scored": "rule"
   },
   {
-   "id": 196,
-   "counted": true,
-   "year": 1537,
-   "date": "14 Nov 1537",
-   "title": "Cardinal Caracciolo (Milan) to Charles V, Holy Roman Emperor",
-   "correspondents": "Cardinal Caracciolo → Charles V, Holy Roman Emperor",
-   "place": "Milan, Italy",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "AGS, sec. Estado, leg. 1184, fol. 110",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R9966: Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: Letter from Milan, dated November 14, 1537, from Cardinal Caracciolo to His Majesty.",
-   "why": "Ciphered letter of Cardinal Caracciolo to Charles V, Holy Roman Emperor, 14 Nov 1537; what the cipher hides is not known.",
-   "importance": 3,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9966",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9966"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9966
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 198,
    "counted": true,
    "year": 1527,
