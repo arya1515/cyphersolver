@@ -1837,5 +1837,15 @@
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Gundaker Thomas Starhemberg.jpg"
   }
+ ],
+ "poyntz1527": [
+  {
+   "role": "recipient",
+   "name": "Cardinal Wolsey",
+   "img": "portrait_cardinal-wolsey.jpg",
+   "what": "Portrait by an unknown artist, 1590s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Thomas Wolsey (1473-1530).jpg"
+  }
  ]
 }

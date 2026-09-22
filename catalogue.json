@@ -940,41 +940,6 @@
    "scored": "rule"
   },
   {
-   "id": 111,
-   "counted": true,
-   "year": 1527,
-   "date": "17 Jul 1527",
-   "title": "Fran. Poynts (Hispania) to unknown recipient",
-   "correspondents": "Fran. Poynts → unknown recipient",
-   "place": "Hispania",
-   "language": "English",
-   "region": "England",
-   "period": "1497-1559",
-   "shelfmark": "BL, Cotton MS Vespasian C IV f 174-177",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R8565: Partially decrypted, 7 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here.",
-   "why": "Ciphered letter of Fran. Poynts to unknown recipient, 17 Jul 1527; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8565",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8565"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8565
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 112,
    "counted": true,
    "year": 1527,

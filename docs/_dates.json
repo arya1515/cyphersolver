@@ -72,6 +72,7 @@
   "galeotto da ricasoli to the dieci di balía, urbino, early 1425": "2026-09-18",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
+  "ghinucci, lee and poyntz to cardinal wolsey, valladolid, 17 july 1527": "2026-09-21",
   "giuliano caprile and alfonso cistarelli (eger) to ferrara, 1519–21": "2026-09-21",
   "gonzalo fernández de córdoba to lorenzo suárez, 17 august 1500 (bnf espagnol 318": "2026-09-21",
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
@@ -315,7 +316,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "0c7574d2ceaa",
+   "hash": "541fc52702f2",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -525,7 +526,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "1ad804cc549e",
+   "hash": "5219093651fd",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -746,6 +747,11 @@
   "poupet1522": {
    "first": "2026-09-21",
    "hash": "17c7fd6fcf61",
+   "updated": "2026-09-21"
+  },
+  "poyntz1527": {
+   "first": "2026-09-21",
+   "hash": "1ace39bd8918",
    "updated": "2026-09-21"
   },
   "prussia1702": {
@@ -1075,7 +1081,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "df757c7292f6",
+   "hash": "9824d1cb90f8",
    "updated": "2026-09-21"
   },
   "yard1699": {

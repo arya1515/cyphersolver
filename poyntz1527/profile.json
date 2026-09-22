@@ -1,8 +1,38 @@
 {
  "schema_version": 1,
  "target": "poyntz1527",
- "title": "Lee and Poyntz to Wolsey, Valladolid, July 1527 (BL Cotton MS Vespasian C IV ff. 182-185; DECODE R8567)",
+ "title": "Ghinucci, Lee and Poyntz to Wolsey, Valladolid, July 1527 (BL Cotton MS Vespasian C IV ff. 174-177 and 182-185; DECODE R8565, R8567)",
  "documents": [
+  {
+   "id": "R8565",
+   "shelfmark": "BL Cotton MS Vespasian C IV ff. 174-177, old foliation 166-169 (DECODE R8565)",
+   "date": "1527-07-17",
+   "year": 1527,
+   "country": "England",
+   "route": "Spain (imperial court, Valladolid) -> England (Wolsey)",
+   "language": "English",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "interlinear",
+     "printed edition"
+    ],
+    "source": "Contemporary interlinear decipherment (DECODE: inline plaintext yes); Tuke's decipherment calendared in Letters and Papers Henry VIII IV no. 3271, deciphered passages in italics."
+   },
+   "length": {
+    "tokens": "unknown",
+    "distinct": "unknown",
+    "unit": "symbols",
+    "measured": false
+   },
+   "transcription": {
+    "by": "published",
+    "source": "DECODE public thumbnails TH_IMG_R8565_I39496_P1-P8 (200 px); full images behind login, not viewed",
+    "image_quality": "poor",
+    "notes": "No ciphertext transcribed here; the reading is Tuke's decipherment as calendared in L&P IV 3271. The thumbnails show about five short interlinear bands and three signatures."
+   },
+   "read": "read"
+  },
   {
    "id": "R8567",
    "shelfmark": "BL Cotton MS Vespasian C IV ff. 182-185 (DECODE R8567)",
@@ -48,14 +78,14 @@
  },
  "conditions": {
   "prior_solution": {
-   "exists": "in archive",
-   "where": "Interlinear contemporary decipherment on f. 184v; Tomokiyo key on DECODE R8567",
+   "exists": "in print",
+   "where": "Letters and Papers Henry VIII IV no. 3271 (R8565, Tuke's decipherment); interlinear decipherment on f. 184v (R8567); Tomokiyo's Lee-Worcester key on DECODE R8566",
    "found": "during attempt",
    "used": true
   },
-  "inputs": ["images"],
+  "inputs": ["images", "published reading"],
   "attack": "archive decipherment",
-  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up the coding agent with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
   "tools": [],
   "models": ["claude-opus-5"],
   "sessions": 1,
@@ -66,12 +96,15 @@
   {"kind": "access", "what": "Downloaded the 8 DECODE images and the attached key document with the session cookie.", "result": "worked", "date": "2026-09-21"},
   {"kind": "verification", "what": "Read the pages: a clear English despatch of Lee and Poyntz to Wolsey; cipher only in three runs on f. 184v.", "result": "worked", "date": "2026-09-21"},
   {"kind": "transcription", "what": "Transcribed the contemporary interlinear decipherment of the three runs.", "result": "worked", "date": "2026-09-21"},
-  {"kind": "key from source", "what": "Spot-checked one run against Tomokiyo's Lee-Worcester key: sigma tau c c bottom = c a n n o under 'can not'.", "result": "worked", "date": "2026-09-21"}
+  {"kind": "key from source", "what": "Spot-checked one run against Tomokiyo's Lee-Worcester key: sigma tau c c bottom = c a n n o under 'can not'.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "literature search", "what": "R8565: searched the Letters and Papers calendar for 17 July 1527 (British History Online, vol. IV pp. 1478-1490); nos. 3270-3272 are the Lee, Ghinucci and Poyntz despatches of that day, 3271 noted 'The cipher deciphered by Tuke ... One part of this despatch is separated from the other', its second part at f. 166.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "access", "what": "R8565: full DECODE images refused without login (no cookie on this machine); the eight public thumbnails downloaded.", "result": "partial", "date": "2026-09-21"},
+  {"kind": "verification", "what": "R8565: placed by foliation. R8566 (new ff. 178-181, old 170-173) is L&P 3270 at f. 170, so new ff. 174-177 = old 166-169 = the separated part of L&P 3271; the thumbnails show a clear English despatch with interlinear bands, three signatures and an address leaf.", "result": "worked", "date": "2026-09-21"}
  ],
  "outcome": {
   "class": "already solved",
   "fraction_read": 1,
   "verification": ["contemporary decipherment"],
-  "notes": "Read at the time; nothing new to read."
+  "notes": "Both records read at the time: R8567 from its interlinear decipherment, R8565 from Tuke's decipherment in print (L&P IV 3271) and on the page. Nothing new to read. R8565 identified from the thumbnails and the calendar; the full images were not viewed."
  }
 }

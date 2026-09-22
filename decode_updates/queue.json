@@ -5187,6 +5187,37 @@
      "sent": false
     }
    }
+  },
+  "poyntz1527": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/poyntz1527.html",
+   "key": {
+    "decode": "Tomokiyo's Lee-Worcester key, DOC_8566 on R8566",
+    "lang": "EN"
+   },
+   "cite": "Letters and Papers, Foreign and Domestic, Henry VIII, vol. IV part 2 (1872), nos. 3271-3272, https://www.british-history.ac.uk/letters-papers-hen8/vol4/pp1478-1490",
+   "fields": {
+    "sender": "Girolamo Ghinucci, Edward Lee and Sir Francis Poyntz",
+    "receiver": "Cardinal Thomas Wolsey",
+    "city": "Valladolid"
+   },
+   "records": {
+    "R8565": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted (at the time)",
+     "note": "Ghinucci, Lee and Poyntz to Cardinal Wolsey, Valladolid 17 July 1527: the separated second part (old foliation ff. 166-169) of the despatch calendared in Letters and Papers Henry VIII IV no. 3271, from the 15 July audience to the three signatures. Clear English with short cipher runs in the Lee-Worcester sign cipher (Tomokiyo's key, R8566), each deciphered interlinearly at the time; Tuke's decipherment is printed in L&P (Richmond and the daughter of Portugal for Milan; De Tarbes's fourth instruction). Sender is the three ambassadors, not Poyntz alone; recipient Wolsey, not unknown.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R8567": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted (at the time)",
+     "note": "Edward Lee and Sir Francis Poyntz to Cardinal Wolsey, Valladolid, July 1527 (endorsed '1527 June 18 or 19 July / Sr Fra: Poynts'). Clear English despatch; the only cipher is three short Lee-Worcester runs on f. 184v, each with the contemporary decipherment written above it. Recipient Wolsey, not unknown.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    }
+   }
   }
  },
  "rechteren1785": {
