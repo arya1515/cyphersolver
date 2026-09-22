@@ -4788,6 +4788,189 @@
      "sent": false
     }
    }
+  },
+  "kaa4591": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/kaa4591.html",
+   "key": {
+    "file": "kaa4591/NOTES.md",
+    "lang": "LA/DE",
+    "how": "Per record: R9325 key R9324 (same volume); R9322/R9323/R9417 key rebuilt from interlinear glosses (kaa4591/sysB/key_from_glosses.tsv); R9408-R9427 key from the R9427 gloss (kaa4591/r9427/key_full.tsv, kaa4591/sysA_decode.py); R9367 key register R9423 block 2_4; R9416 f.263 solved ciphertext-only"
+   },
+   "cite": null,
+   "fields": {},
+   "records": {
+    "R9291": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Not a ciphertext: a strip of cipher signs (key fragment), f. 36.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "record_type": "key"
+     }
+    },
+    "R9319": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "Dot grille laid over a clear cover letter (f. 115-118), which is not imaged; cannot be read from these images.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true
+    },
+    "R9322": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "f.121 Hieronymus Laski, Buda 24 Nov 1529 (copy to Count Palatine Frederick); f.122 King John of Hungary to Duke Ludwig of Bavaria. Key rebuilt from the interlinear glosses.",
+     "reading": [
+      {
+       "file": "kaa4591/sysB/decoded.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Hieronymus Laski; John Zapolya, King of Hungary",
+      "receiver": "Dukes of Bavaria",
+      "plaintext_lang": "Latin",
+      "date": "1529-11-24"
+     }
+    },
+    "R9323": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Laski to the Bavarian secretary; lines 4 and 8-10 faint. Key rebuilt from glosses on R9322/R9417.",
+     "reading": [
+      {
+       "file": "kaa4591/sysB/R9323_decoded.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "plaintext_lang": "Latin"
+     }
+    },
+    "R9325": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Fulda affair 1576: abbot Balthasar von Dernbach protests. Key R9324 (f. 124-127, same volume).",
+     "reading": [
+      {
+       "file": "kaa4591/r9325/reading.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "plaintext_lang": "Latin",
+      "date": "1576"
+     }
+    },
+    "R9367": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Son to father, 22 March 1535; key R9423 block 2_4; working decrypt, one sign and six lines open. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9408": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Report of 1534 on Hungary and the Turk; key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9409": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "German intelligence report with articles and answers; key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9410": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "German report of 1535 (France, the Empire, the Turk); key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9413": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Three German letters, June-July 1534 (Rincon, Constantinople); key from the R9427 gloss, refitted; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9416": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "f.262 read at the time (interlinear decipherment on the record); f.263 (Pressburg talks, c.1533-34) broken ciphertext-only, working decrypt only.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    },
+    "R9417": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "note": "Laski, Krakow 16 June [1530], to the Bavarian secretary. Key rebuilt from the interlinear glosses.",
+     "reading": [
+      {
+       "file": "kaa4591/sysB/decoded.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "sender": "Hieronymus Laski",
+      "plaintext_lang": "Latin",
+      "date": "1530-06-16"
+     }
+    },
+    "R9424": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "To Duke Wilhelm V, 12 June 1583 (Cologne war); only the contemporary glosses of a few names; not read here.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German",
+      "date": "1583-06-12",
+      "receiver": "Wilhelm V, Duke of Bavaria"
+     }
+    },
+    "R9427": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Partially decrypted",
+     "note": "German newsletter, 24-25 April 1534; key rebuilt from its own interlinear gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
+     "reading": null,
+     "sent": false,
+     "reading_not_needed": true,
+     "fields": {
+      "plaintext_lang": "German"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {

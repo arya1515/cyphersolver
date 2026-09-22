@@ -558,7 +558,7 @@
    },
    {
     "item": "R9413",
-    "blocker": "not-attempted",
+    "blocker": "open-codes",
     "detail": "transcription in progress; System A' key should apply"
    },
    {
@@ -568,7 +568,7 @@
    },
    {
     "item": "R9416 f.263 clean reading",
-    "blocker": "not-attempted",
+    "blocker": "open-codes",
     "detail": "re-key the v2 transcription"
    },
    {
@@ -590,11 +590,6 @@
     "item": "R9319",
     "blocker": "needs-physical-access",
     "detail": "cover letters f.115-118 not imaged"
-   },
-   {
-    "item": "R9291",
-    "blocker": "no-key-material",
-    "detail": "not a ciphertext: key fragment"
    }
   ]
  }

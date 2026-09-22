@@ -190,6 +190,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p86 | **The Hereditary Prince (Berlin) → Prince Frederik, 12 Mar 1796**, KHA Prins Willem V inv. 337 (DECODE R2239) | 1796 | 4 | 3 | 3 | 3 | 2 | 4 | **3.25** | D 4: the system and a 150-entry list rebuilt from a sibling's decipherment, then a printed crib found. H 3: the Prussian démarche in Paris for the Orange restoration, 1796. N 3: body in print since 1906, opening new. V 4: one word open. |
 | p87 | **Francis Needham (before Sluys) → [Walsingham], 28 Jul 1587**, BL Harley MS 287 ff. 39–40 (DECODE R8479) | 1587 | 2 | 3 | 4 | 2 | 2 | 1 | **2.55** | D 2: pigpen with the alphabet in order, key from four glosses. H 3: the failed relief of Sluys, Leicester's campaign. N 4: DECODE partially decrypted, long runs unglossed, not in CSP. V 1: one word open. |
 | p88 | **Nicholas Throckmorton (Paris) → Elizabeth I, 10 July 1559**, BL Add MS 4136 f. 32 (DECODE R2988) | 1559 | 2 | 3 | 5 | 2 | 2 | 3 | **2.95** | D 2: Tomokiyo's key with seven corrections. H 3: Throckmorton's report after Henry II's wounding. N 5: not in Forbes or CSP. V 3: 12 code signs and a few spans open. |
+| p89 | **Łaski, King John, Bavarian agents → the Dukes of Bavaria, 1529–1583**, BayHStA Kurbayern Äußeres Archiv 4591 (DECODE R9291–R9427) | 1529–1583 | 4 | 3 | 5 | 3 | 3 | 5 | **3.85** | D 4: six systems; one broken ciphertext-only with a purpose-built period language model, one key rebuilt from a single faint gloss, two from keys filed in the volume. H 3: Hungary between Ferdinand and John Zápolya, the Turks, Rincon, Fulda 1576. N 5: no edition found. V 5: eight letters read in part, R9424 and R9319 open. |
 
 ## By single axis
 
@@ -490,5 +491,6 @@ Prince Frederick 1795 (R2242) provisional score: 0.25×1 + 0.25×3 + 0.20×5 + 0
 Hereditary Prince 1796 (R2239) provisional score: 0.25×4 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×2 + 0.10×4 = **3.25** (p86): a word-list code rebuilt from its sibling's decipherment, then completed with a printed crib.
 Needham 1587 provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×2 + 0.10×1 = **2.55** (p87): a three-grid pigpen rebuilt from four contemporary glosses.
 Throckmorton 10 July 1559 provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×2 + 0.10×2 + 0.10×3 = **2.95** (p88): an unprinted letter read with a published key, corrected.
+KAA 4591 (Bavarian key volume, 1529–1583) provisional score: 0.25×4 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×3 + 0.10×5 = **3.85** (p89): fourteen ciphertexts, twelve read or broken, most only in part.
 
 Unsigned cipher slip, Brussels 1721 (DECODE R24, colonia1721): not ranked. Already read by Lasry and Bonavoglia on the DECODE record; only three key values added here.

@@ -153,6 +153,11 @@ PAGES = [
          blurb='DECODE R9251 is Patrick Forbes&rsquo;s copy of only the ciphered words of seven letters of Elizabeth&rsquo;s ambassador in France. No key is on DECODE, but the Cecil&ndash;Norris cipher that Tomokiyo reconstructed from a decipherment printed by mistake in <em>Cabala</em> (1663) reads the siblings: demaund, reason, ruin, remain, Master Stewarde, as the Calendar of State Papers summarises them. A shuffle control (8 word hits against at most 3 in 1,000 shuffles) confirms the table is Norris&rsquo;s. The target letter of 9 March 1568 has three items: the French King&rsquo;s name sign, a name sign probably for the Queen of Scots, and a four-sign word not read.',
          quote='&ldquo;otherwise Norris much doubts the ruin of the Prince of Cond&eacute; and the Admiral&rdquo;',
          rights='British Library, Add MS 4136, via DECODE; one detail reproduced'),
+    dict(slug='kaa4591', label='Bavarian key volume 1529&ndash;83', year='1529&ndash;1583', y=1556, place='Buda, Krak&oacute;w, Pressburg &rarr; Munich', st='partial', stt='read in part',
+         title='The Bavarian key volume: fourteen ciphertexts in Kurbayern &Auml;u&szlig;eres Archiv 4591',
+         blurb='Fourteen ciphertexts bound in the Munich chancery&rsquo;s key volume, catalogued on DECODE as one &ldquo;unknown sender&rdquo; group, are letters in at least six systems. The Fulda protest of 1576 reads with the key five leaves earlier; &#321;aski&rsquo;s letters of 1529&ndash;30 read from a key rebuilt from their glosses; seven German reports of 1534&ndash;35 on Hungary, the Turks and France are broken and read in part, one from ciphertext alone with a new sixteenth-century German model.',
+         quote='&ldquo;Rogatus Dux Bavariae auxilio sit&rdquo; (R9325, 1576)',
+         rights='Manuscript: Bayerisches Hauptstaatsarchiv, Munich, via DECODE'),
     dict(slug='beatrice1482', label='Beatrice d&rsquo;Aragona', year='1482&ndash;1505', y=1482, place='Pozsony / Buda / Naples &rarr; Ferrara', st='found', stt='earlier readings found',
          title='Beatrice d&rsquo;Aragona: four earlier readings and one plain letter',
          blurb='Four cipher letters have readings in editions of 1877&ndash;78; the May 1486 letter also has manuscript decipherment slips. The fifth record is plain Italian dated 1505, not 1504, and explicitly says the queen has no cipher. The March edition retains unexplained Virtus/Fortis/M. markers; no new key or exhaustive glyph validation is claimed.',
@@ -938,6 +943,7 @@ IMAGES['papai1706'] = None
 IMAGES['charlesixducroc'] = ('charlesixducroc_lead.jpg', 'Charles IX to Philibert du Croc: the main letter in graphic cipher, with the signature and postscript lower on the leaf', 'Archives d&eacute;partementales de la Ni&egrave;vre, reproduced by Destray (1924), via Gallica and DECODE R2789')
 IMAGES['vanreede1792'] = ('vanreede1792_lead.jpg', 'Van Reede to William V, 4 February 1792: the figures with the contemporary pencil gloss &mdash; ci tro n sur le(s) &hellip; demi', 'Koninklijk Huisarchief, The Hague, via DECODE R1057')
 IMAGES['vanreede1787'] = ('vanreede1787_lead.jpg', 'Van Reede&rsquo;s despatch of 29 December 1787, first page: the gloss dites &hellip; avant hier over the first groups, 2750 &hellip; 2578 3350', 'Nationaal Archief, The Hague, via DECODE R1026')
+IMAGES['kaa4591'] = None
 IMAGES['r1874'] = None
 IMAGES['haga1620'] = ('haga1620_lead.jpg', 'R2113 p.2, Constantinople 31 March 1620: clear Dutch with the cipher spans inline, (44) ende (45) arbeiden bij (4) om tyt te winnen', 'Nationaal Archief, The Hague, via DECODE R2113')
 IMAGES['deswart1782'] = ('deswart1782_lead.jpg', 'De Swart&rsquo;s despatch of 8 March 1782, first page: the clear salutation, then the marked groups 15, 452, 730, 833 = waar bij ingesloten', 'Nationaal Archief, The Hague, via DECODE R1036')
