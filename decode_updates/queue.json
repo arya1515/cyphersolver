@@ -5038,6 +5038,31 @@
      "sent": false
     }
    }
+  },
+  "hamilton1569": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/hamilton1569.html",
+   "key": {
+    "decode": "R8347"
+   },
+   "cite": "Bain, Calendar of Scottish Papers ii (1900), no. 966 (second of the number), p. 604",
+   "fields": {
+    "sender": "Mary Queen of Scots",
+    "recipient": "John Hamilton, Archbishop of St Andrews",
+    "place": "Bolton Castle",
+    "date": "18 Jan 1569 (dated Januar 1568, Old Style)",
+    "cleartext_lang": "Scots",
+    "plaintext_lang": "Scots"
+   },
+   "records": {
+    "R8347": {
+     "decode_status": "Partially decrypted",
+     "proposed": "Decrypted",
+     "reading": null,
+     "reading_not_needed": true,
+     "note": "Mary Queen of Scots to John Hamilton, Archbishop of St Andrews, 'Off Bowtoun the [xviij] of Januar 1568' (18 Jan 1569 NS), signed 'Marie R'. The contemporary decipherment of the whole cipher body is images 1 and 3 (ff. 74r-v). Calendared Bain, CSP Scotland ii no. 966; key = Tomokiyo's Mary-Hamilton cipher (DOC_ file on this record). Full transcription of the decipherment on the write-up.",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

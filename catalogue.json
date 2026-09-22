@@ -654,41 +654,6 @@
    "writeup": "bl32305.html"
   },
   {
-   "id": 84,
-   "counted": true,
-   "year": 1568,
-   "date": "Jan 1568",
-   "title": "... to unknown recipient",
-   "correspondents": "... → unknown recipient",
-   "place": "London",
-   "language": "...",
-   "region": "England",
-   "period": "1560-1589",
-   "shelfmark": "BL, Add MS 33531 f 73-74",
-   "folio_note": "",
-   "cls": "B",
-   "status": "DECODE R8347: Partially decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. moray/NOTES.md lists Add MS 33531 items; Bain no. 1103 records the 20 July 1569 Throckmorton letter as 'in cipher deciphered', so check Bain before attacking.",
-   "why": "Ciphered letter of ... to unknown recipient, Jan 1568; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R8347",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/8347"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    8347
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 87,
    "counted": true,
    "year": 1559,
