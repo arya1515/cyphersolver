@@ -175,12 +175,12 @@
     {
       "id": "R722",
       "shelfmark": "TNA, SP 106/10, ff. 193-195 (DECODE R722)",
-      "year": 1623,
+      "year": 1625,
       "country": "unknown",
       "route": "unknown",
       "language": "Italian",
       "pages": 3,
-      "cleartext_in_document": "none",
+      "cleartext_in_document": "interspersed",
       "plaintext": {
         "location": [
           "interlinear"
@@ -196,9 +196,9 @@
       "transcription": {
         "by": "llm from images",
         "image_quality": "good",
-        "notes": "system C; not transcribed this session."
+        "notes": "the 1625 Venetian letter in the SECOND three-figure code (not system C); endorsement 'Cypher of a Venetian Secretary to the Embassador of that nation'; lines 1-15 transcribed group by group, clear passages of 16-48 in cat58/r722_transcription.txt"
       },
-      "read": "not read"
+      "read": "read in part"
     },
     {
       "id": "R658",
@@ -388,6 +388,90 @@
         "notes": "worksheet, not an intercept: dictionary trawl for system D; system B phrases with the codebreaker's glosses (p.2)."
       },
       "read": "not applicable"
+    },
+    {
+      "id": "R656",
+      "shelfmark": "TNA, SP 106/10, f. 67 (DECODE R656)",
+      "year": 1625,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "English",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "the contemporary English codebreaker",
+        "partial": true
+      },
+      "length": {
+        "tokens": 0,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "good",
+        "notes": "English Exchequer draft reused for second-code line fragments of R722; group strings listed in NOTES"
+      },
+      "read": "not applicable"
+    },
+    {
+      "id": "R662",
+      "shelfmark": "TNA, SP 106/10, f. 8 (DECODE R662)",
+      "year": 1625,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "English",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "the contemporary English codebreaker",
+        "partial": true
+      },
+      "length": {
+        "tokens": 0,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "good",
+        "notes": "strip of the codebreaker's English memorandum on the syllabic series of the code"
+      },
+      "read": "not applicable"
+    },
+    {
+      "id": "R931",
+      "shelfmark": "TNA, SP 106/10, f. 251 (DECODE R931)",
+      "year": 1645,
+      "country": "unknown",
+      "route": "unknown",
+      "language": "English",
+      "pages": 1,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "unknown",
+        "partial": false
+      },
+      "length": {
+        "tokens": 0,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "good",
+        "notes": "DECODE transcription by FK (2020) checked against the image; ~192 numbers 10-260 with clear words"
+      },
+      "read": "not read"
     }
   ],
   "system": {
@@ -577,6 +661,48 @@
       "kind": "hypothesis",
       "what": "The second three-figure code (groups 200-599, key on R701 p.3) belongs to the lost 46-line letter identified the same day from R703; only line fragments survive, so it was not attempted further here.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "access",
+      "what": "Catalogue 58: fetched DECODE metadata and images for R656, R662, R722, R931 and neighbours (R655, R657, R663, R930, R932); R931 and R932 carry DECODE transcriptions, R932 also Lasry's key.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "verification",
+      "what": "Looked at R722 for the first time: not system C but the second three-figure code; line 1 '540 212 una di questi matine' = R703's quoted 'l.1 540 212 una che', and five more worksheet fragments match. It is the '46-line intercept' earlier sessions thought unimaged.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "reading",
+      "what": "Read R722's endorsement 'Cypher of a Venetian Secretary to the Embassador of that nation in ...' and the clear passages (Spinola sotto Breda, di Bruselles si e inteso, V. E.); dated to the first half of 1625 by the Breda siege.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "verification",
+      "what": "R656: English Exchequer draft reused for line-numbered group strings; l.12 '313 541 377 238 254' is R722 line 12 verbatim. Worksheet on R722.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "verification",
+      "what": "R662: strip of the codebreaker's English memorandum on the code (series of syllables, vowels a.e.i for every consonant, 'most frequent ... di'); not a letter.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "sibling key",
+      "what": "R931 (Sept 1645, 104 distinct numbers in 192): applied Lasry's TNA SP 106, SP106-2, SP106-5, SP106-8 keys and the R932 Goring key.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "sibling key",
+      "what": "R931: compared with Charles I to Culpeper 1645 key (BL Add MS 32256 ff. 6-7, DECODE R9117/R9118): words 300-600, nothing in 100-260; does not fit.",
+      "result": "failed"
     }
   ],
   "outcome": {

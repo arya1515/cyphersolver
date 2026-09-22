@@ -1,5 +1,7 @@
-# TNA SP 106/10 — a codebreaker's worksheets and the intercepts they belong to (DECODE R657, R660, R664, R704, R720, R721, R722; key R725; worksheets R658, R661, R663, R667, R684, R701, R702)
+# TNA SP 106/10 — a codebreaker's worksheets and the intercepts they belong to (DECODE R657, R660, R664, R704, R720, R721, R722; key R725; also R656, R662 (catalogue 58); worksheets R658, R661, R663, R667, R684, R701, R702)
 
+
+Status: in progress (R722, the 1625 Venetian letter found 2026-09-21, and systems A-C are not yet decoded through).
 Outcome: read in part (2026-09-20). The seven records shown to be one case and dated to 1623-24; the codebreaker's
 own key (R725) transcribed in full and the system explained; about 45 values of the three-figure code rebuilt and
 phrases read. Neither long letter is read through yet. Written up as `docs/sp106box10.html`.
@@ -24,7 +26,7 @@ dated only by the volume span "1558/1625", sender and recipient unknown, plainte
 | R704 | TNA_SP106/10_UND_(0186-0187) | 2 | intercept, 46 numbered lines, ~700 codegroups, letter-indicator "3" |
 | R720 | TNA_SP106/10_UND_(0188-0189) | 2 | worksheets, probably for R704 |
 | R721 | TNA_SP106/10_UND_(0190-0192) | 3 | intercept, 26 numbered lines, ~300 codegroups |
-| R722 | TNA_SP106/10_UND_(0193-0195) | 3 | intercept, like R704 and R721 |
+| R722 | TNA_SP106/10_UND_(0193-0195) | 3 | intercept: **the 1625 Venetian letter in the second three-figure code** (catalogue 58 section), not system C |
 | **R725** | TNA_SP106/10_UND_(0202-0203;0205) | 3 | **key**: "Alphabet of Letters and Wordes" |
 
 R725 is catalogued as a key record and was not part of the goal's list; it is the reconstructed key the
@@ -276,9 +278,10 @@ identified).
 
 ## Remaining gaps
 - R664 ff. 1-3 and R660 (system B, the Venetian code) continuous reading - blocker: not-attempted; code rebuilt to 117 values from R658, the letters never decoded through with it
-- R704, R721, R722 (system C letter-plus-figure syllabary) - blocker: not-attempted; the codebreaker's interlinear solutions exist, no alignment pass done
+- R704, R721 (system C letter-plus-figure syllabary; R722 turned out to be the second three-figure code) - blocker: not-attempted; the codebreaker's interlinear solutions exist, no alignment pass done
 - R657 worksheets (system A) against key R725 - blocker: not-attempted; listed under "Not yet done"
-- lost 46-line intercept of the second three-figure code (fragments on R667, R684, R701 p.3, R702 p.1, R703) - blocker: needs-physical-access; the intercept is not among the imaged records, perhaps elsewhere in SP 106/10 or SP 99 at Kew
+- R722, the 1625 Venetian letter in the second three-figure code (found 2026-09-21; fragments on R656, R661, R667, R684, R701 p.3, R702 p.1, R703, R720) - blocker: not-attempted; code rebuild from the full intercept plus the worksheet glosses not yet done
+- R931 (1645 royalist numerical code, catalogue 58) - blocker: key-missing; Lasry's SP 106 keys and the Culpeper 1645 key do not fit
 - R701 p.2 short letter cipher - blocker: too-short; about 120 letters, simple-substitution annealing in five languages gave nothing
 - sender, recipient and codebreaker - blocker: not-attempted; depends on the continuous readings
 
@@ -289,3 +292,65 @@ identified).
 - [ ] print: not done — CSP Venice vol. 18 (1623-25) and CSP Domestic 1623-25 not searched for these letters ("di 24 di maggio", colonels, "la loro sicurezza")
 - [x] key-rebuild: Venetian code rebuilt as a systematic syllabary (cat62/venetian_code.tsv, 117 values)
 - [ ] retry: not done — decode R664 and R660 in full with venetian_code.tsv, and align system C's glosses on R704/R721/R722
+
+## Catalogue 58: R656, R662, R722, R931, and the "lost" letter found (2026-09-21)
+
+Catalogue entry 58 ("Unknown sender to unknown recipient, 4 ciphertexts", DECODE R656, R662, R722, R931) grouped four
+unrelated SP 106/10 records by their shared "unknown" metadata. Images and DECODE texts fetched with the cookie
+(`../sp106c58/decode/` in the shared checkout, git-ignored).
+
+**R722 is the "lost 46-line intercept" of the second three-figure code, and it is not system C.** The notes above
+(and DECODE's pointer "704; 720; 721") put R722 with the letter-plus-figure records; no one had looked at it. Its page 2
+line 1 ends `540 212 una di questi matine`, the fragment R703 quotes as `l.1 540 212 una che`; line 3 carries
+`280 367 464 432` (R720 `l.2`), line 6 `340 367 misciandosi` (R703 `l.6 340 367 misciendosi`), line 8 `245 510 Almeno`
+(R684 `l.7 … 510 al meno`), line 15 `297 506 395 … e che quello` (R703 `l.14 297 506 395 e che quello`); the
+codebreaker's line count runs one behind the page's written numbers in places (he seems not to count a half line). It has 48
+numbered lines (DECODE: "48 in sum total, roughly 500 codegroups"), written half in clear Italian, half in groups
+200-599, with the codebreaker's trial syllables between the lines. The endorsement (p.1, f.195v) reads:
+
+> **"Cypher of a Venetian Secretary to the Embassador of that nation in …"**, and on the fold "1625".
+
+The clear passages give the letter's matter: *Parmi che …*, *Io mi credo che questi siano …*, *Ho visto chiaramente
+che V. E. …*, *Il S[igno]re … di dire a V. E. che … gran pratica*, *proposito che ella procurasse*, *di satisfattione
+con honor di …*, **il Spinola sotto Breda**, **di Bruselles si è inteso …**, *di Roma*, and a Pontifical figure
+(*Pontificio … il quale disse … di voler esser …*). Spinola's siege of Breda ran from August 1624 to 5 June 1625, so the
+letter is of the first half of 1625: a Venetian secretary (plausibly in the Low Countries or at Rome) writing to the
+Venetian ambassador in England. This also settles which code is the Venetian one: **both** three-figure codes of the
+file are Venetian, and the "second code" is that of this 1625 letter. Transcription: `cat58/r722_transcription.txt`
+(lines 1-15 group by group; 16-48 the clear passages and the quoted fragments, line numbers approximate).
+
+The code is not broken here. R701 p.3's partial key and the codebreaker's glosses conflict (see above), and the
+clear context is enough to fix only a few values. With the full intercept now in hand, a gloss- and context-driven
+rebuild of the second code is the next step: every line fragment on R656, R661, R667, R684, R701-R703, R720 can now be
+checked against its source line.
+
+**R656** (f. 67, 1 p.): the back of an English Exchequer draft (a sheriff's answer about "the yearly value of 90li et
+16li", "the Remembrancer", "the said Sheriff", "Wm Nosse, Roger Rowley, Robert Sherborne and Thomas Franke"), reused
+by the codebreaker for more second-code fragments by line: `l.16.17 350 541 513`, `l.21 350 495 395 207`,
+`l.11 350 273 463 353`, `l.27 541 442 215 444`, `l.23 541 449`, `l.12 313 541 377 238 254`, `l.25 542 204 395`,
+`l.38 495 541 280 495 201`, `l.10 254 513 350`, `l.15 495 391 541 364`, `l.42 446 540 395 377 290`, and at the head
+`l.7 350 446 432 494 347 395`. These are R722's lines (l.12 `313 541 377 238 254` is R722 line 12 verbatim). DECODE's
+"ten lines of ciphertext between lines of cleartext… unlikely that the cleartext is the solution" is right: the English
+is an unrelated legal draft. **Explained.**
+
+**R662** (f. 8, 1 p.): a torn vertical strip of the codebreaker's own English memorandum on how the code is built,
+not a letter: "… series of sillables beginning …", "… places out of the series …", "… entire words …", "436 is like to
+be …", "297.436 n no seemes to …", "anno / diranno", "247.367.24x vo le va", "another series of …", "every series doth
+begin …", "the vowels a.e.i. for every consonant", "n.r.o.", "commonly m. 540", "doth turne at 3", "the most frequent
+… di …", "may beginne at". It describes a syllabary in consonant series with the vowel stepping in the last digit,
+which is the second code's layout (R701 p.3 runs 366-370 la-lu, 209-213 va-vu). DECODE's "mid 17th century" and "mostly
+solved" are wrong: it is the 1625 codebreaker's note. **Explained.**
+
+**R931** (f. 251, 1 p.) is unrelated to the 1623-25 file: a strip of ~190 numbers 10-260 with clear words ("(1)
+septembre 1645", "earnestly", "reasons", "from", "(2)"), an English royalist letter of September 1645 in a numerical
+code (104 distinct numbers in 192 tokens: a nomenclator, not a letter cipher). Tried and failed on it: all of Lasry's
+1645-46 SP 106 keys (TNA SP 106, SP106-2, -5, -8; the June 1645 Goring key of the next record R932; coverage ≤ 0.45,
+gibberish), and the Charles I → Culpeper 1645 key (BL Add MS 32256 f. 6-7, DECODE R9117/R9118: letters 1-78, words
+300-600, nothing in 100-260). **Attempted, open**; needs the matching key (Digby / Nicholas / Goring correspondence
+of autumn 1645, BL Add MS 32256 ff. 4-9 or Egerton 2550).
+
+### Outcome for catalogue 58
+
+R722 identified (the file's missing 1625 Venetian intercept, endorsement read, clear passages read, dated by Breda);
+R656 and R662 explained (worksheet fragments of R722; the codebreaker's memorandum on the code); R931 attempted, open.
+Catalogue entry 58 is narrowed to R931.

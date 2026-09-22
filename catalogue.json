@@ -402,24 +402,24 @@
   {
    "id": 58,
    "counted": false,
-   "year": 1603,
-   "date": "14 Mar 1603 – 1 Jan 1645",
-   "title": "Unknown sender to unknown recipient, 4 ciphertexts",
+   "year": 1645,
+   "date": "Sept 1645",
+   "title": "English royalist letter in numerical code, September 1645 (SP 106/10 f. 251)",
    "correspondents": "Unknown sender → unknown recipient",
    "place": "Kew",
    "language": "English",
    "region": "England",
-   "period": "1598-1610",
-   "shelfmark": "TNA, State Papers, inv.nr. 106 box 10 (4 items)",
+   "period": "1611-1650",
+   "shelfmark": "TNA, State Papers, inv.nr. 106 box 10, f. 251 · DECODE R931",
    "folio_note": "",
    "cls": "B",
-   "status": "DECODE R656–R931 (4 records): Partially decrypted, 6 pp., homophonic, nomenclator, unknown; numerical; images login. Not viewed here. 2 key record(s) from the same series on DECODE, nearest R725 (None). Deciphering Branch / SP 106 material: such intercepts were usually deciphered at the time, so DECODE's status may only mean no decipherment was uploaded. DECODE note: Ten lines of ciphertext written in between numbered lines of cleartext in Engllsh, many of these lines are numbered. It seems unlikely that the cleartext is the solution of the cuphertext, however, because the handwriting is too regular. Thehandwriting and the…",
-   "why": "Ciphered despatches of Unknown sender to unknown recipient, 14 Mar 1603 – 1 Jan 1645; what the cipher hides is not known.",
+   "status": "Attempted, open (sp106box10, 21 Sept 2026). Of the four DECODE records first grouped here, R722 turned out to be the 1625 Venetian letter of the sp106box10 codebreaker's file (endorsement and clear passages read), and R656 and R662 are that codebreaker's worksheet and memorandum; they moved to sp106box10. Left: R931, a strip of ~190 numbers 10-260 with clear words ('(1) septembre 1645', 'earnestly', 'reasons'), 104 distinct numbers: a nomenclator. Lasry's 1645-46 SP 106 keys, the R932 Goring key and the Charles I-Culpeper 1645 key (R9117/R9118) do not fit.",
+   "why": "A royalist despatch of autumn 1645, after Naseby; what it says is not known.",
    "importance": 2,
    "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the same volume and the Calendars for the contemporary decipherment first. Search CSP / the Calendars for a decipherment; then view the images (DECODE login) and transcribe.",
+   "verify": "Find the matching 1645 key: Digby, Nicholas and Goring keys in BL Add MS 32256 ff. 4-9 and Egerton 2550 (DECODE R9115-R9119, R3053-R3105).",
    "ark": "",
    "links": [
     {
@@ -447,7 +447,8 @@
     722,
     931
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open"
   },
   {
    "id": 74,
