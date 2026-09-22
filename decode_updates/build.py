@@ -9,6 +9,7 @@ For every queued record not yet sent, writes decode_updates/out/R<id>/:
 Usage: python decode_updates/build.py [target ...]     (run from the repo root)
        python decode_updates/build.py --check          list records with no reading or no key file
 """
+import html
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -80,16 +81,28 @@ def key_file(rec, t, q):
 
 def extract(src):
     text = read(src['file'])
+    if 'section' in src and src['file'].endswith('.html'):
+        m = re.search(r'<h2 id="%s".*?</h2>(.*?)(?=<h2 |</main>|$)' % re.escape(src['section']), text, re.S)
+        if not m:
+            raise SystemExit(f"{src['file']}: no <h2 id=\"{src['section']}\">")
+        body = re.sub(r'</(p|li|div|tr|h3)>|<br\s*/?>', '\n', m.group(1))
+        body = html.unescape(re.sub(r'<[^>]+>', '', body))
+        return '\n'.join(l.strip() for l in body.splitlines() if l.strip())
     if 'section' in src:
         lines = text.splitlines()
-        start = next(i for i, l in enumerate(lines) if l.startswith('#') and src['section'] in l)
+        start = next((i for i, l in enumerate(lines) if l.startswith('#') and src['section'] in l), None)
+        if start is None:
+            raise SystemExit(f"{src['file']}: no heading containing {src['section']!r}")
         level = len(lines[start]) - len(lines[start].lstrip('#'))
         end = next((i for i in range(start + 1, len(lines))
                     if lines[i].startswith('#') and len(lines[i]) - len(lines[i].lstrip('#')) <= level), len(lines))
         return '\n'.join(lines[start:end]).strip()
     if 'block' in src:
         parts = re.split(r'(?m)^(?===)', text)
-        return next(p for p in parts if p.startswith(src['block'])).strip()
+        p = next((p for p in parts if p.startswith(src['block'])), None)
+        if p is None:
+            raise SystemExit(f"{src['file']}: no block starting {src['block']!r}")
+        return p.strip()
     return text.strip()
 
 
@@ -137,6 +150,8 @@ def main(argv):
     for t, q in data['targets'].items():
         if (only and t not in only) or q.get('skip'):
             continue
+        if not isinstance(q.get('key'), dict):  # "key": null = queued without a key (unread target)
+            q['key'] = {'none': 'no key'}
         for rec, r in q['records'].items():
             if r.get('sent'):
                 continue
