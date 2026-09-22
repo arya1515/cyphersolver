@@ -106,6 +106,15 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   (`read`, `read in part`, `not a cipher`, `already in print`, `double pass not broken`…), `blurb` three or four
   sentences, `quote` one line from the reading, `rights` the archive's credit line.
 - Add the slug to `IMAGES`: `('<slug>_lead.jpg', 'caption', 'credit')`, or `None`. Every page needs the key.
+- Portraits of the correspondents, where possible: for the principal sender and the principal recipient (named
+  people only), look for a public-domain portrait on Wikimedia Commons (Wikidata P18 is a good start; a painting,
+  drawing, engraving, medal or miniature; no photos of busts or tombs, no CC-BY files). Check the file's
+  description and dates match the person, not a namesake or relative. Reuse the image of anyone already in
+  `docs/_portraits.json`. Then
+  `python docs/_add_portrait.py <slug> sender|recipient "<name>" "File:<Commons file>" "<Portrait by X, 1590>"`,
+  which checks the licence, crops the face and updates the manifest; the build puts the from/to strip under the
+  title. Look at the crop (profiles are often missed). Leave a side out when the person is anonymous, an office,
+  or has no trustworthy portrait; skip pages that are not letters between people.
 - If the page is solved or partly read, update the `solved` survey entry's blurb and quote counts.
 
 ## 2a. The explore features: reveal, atlas, key web
