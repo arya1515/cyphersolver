@@ -1300,7 +1300,7 @@ def process(path):
     s = re.sub(r'<link rel="stylesheet" href="style.css[^"]*">', f'<link rel="stylesheet" href="style.css?v={VERSION}">', s)
     if 'href="style.css' not in s: s = s.replace('</head>', f'<link rel="stylesheet" href="style.css?v={VERSION}">\n</head>', 1)
     # page scripts carry a hash of their own content, so an edit reaches browsers without a VERSION bump
-    s = re.sub(r'<script src="(secret|cipher-reveal)\.js(?:\?[^"]*)?"',
+    s = re.sub(r'<script src="(secret|cipher-reveal|atlas)\.js(?:\?[^"]*)?"',
                lambda m: f'<script src="{m.group(1)}.js?v={hashlib.sha1((HERE / (m.group(1) + ".js")).read_bytes()).hexdigest()[:8]}"', s)
     s = re.sub(r'<script src="site.js[^"]*"></script>\s*', '', s)
     s = s.replace('</body>', f'<script src="site.js?v={VERSION}"></script>\n</body>', 1)
@@ -1428,7 +1428,8 @@ if __name__ == '__main__':
     save_dates(DATES)
     print('search index:', write_search_index(), 'entries')
     # pages.json: label, year and outcome of every write-up, for the atlas and the key web
-    meta = [dict(slug=p['slug'], label=plain(p['label']), title=plain(p['title']), y=p['y'], st=p['st'], stt=plain(p['stt']))
+    meta = [dict(slug=p['slug'], label=plain(p['label']), title=plain(p['title']), y=p['y'], st=p['st'], stt=plain(p['stt']),
+                 **({'people': [{k: q[k] for k in ('role', 'name', 'img')} for q in PORTRAITS[p['slug']]]} if PORTRAITS.get(p['slug']) else {}))
             for p in PAGES if p['slug'] not in SURVEYS]
     (HERE / 'pages.json').write_text(json.dumps(meta, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print('built', ', '.join(done))

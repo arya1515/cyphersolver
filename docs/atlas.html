@@ -41,8 +41,47 @@
 .a-feed{font:.78rem var(--mono);color:var(--muted);min-height:1.4em;margin:.5rem 0 0}
 .a-feed a{font-family:var(--serif);font-size:.92rem}
 .a-top{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.5rem;margin:1rem 0}
-.a-top div{border:1px solid var(--rule);border-radius:10px;padding:.55rem .8rem;background:var(--panel)}
+.a-top button{display:block;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;border:1px solid var(--rule);border-radius:10px;padding:.55rem .8rem;background:var(--panel);transition:border-color .2s,background .2s}
+.a-top button:hover{border-color:color-mix(in srgb,var(--gold) 55%,transparent)}
+.a-top button[aria-pressed=true]{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,var(--panel))}
 .a-top b{font-family:var(--display);color:var(--head)} .a-top span{display:block;font:.72rem var(--mono);color:var(--muted)}
+.a-top .avs{float:right;margin:.1rem 0 0 .4rem}
+.a-top .none{font:.8rem var(--mono);color:var(--muted)}
+/* correspondents: a strip of portraits above the map */
+.a-people{margin:0 0 .7rem}
+.a-people .a-ph{display:flex;align-items:baseline;gap:.8rem;flex-wrap:wrap;margin-bottom:.4rem}
+.a-people .a-ph span{font:.72rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.a-people input{flex:0 1 16rem;font:.85rem var(--serif);padding:.3rem .7rem;border-radius:999px;border:1px solid var(--rule);background:var(--bg);color:var(--ink)}
+.a-row{display:flex;gap:.55rem;overflow-x:auto;padding:.3rem .1rem .6rem;scrollbar-width:thin}
+.a-p{flex:0 0 auto;width:6.8rem;display:flex;flex-direction:column;align-items:center;gap:.25rem;font:inherit;background:none;border:0;padding:0;cursor:pointer;color:var(--ink2);transition:opacity .35s}
+.a-p img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--rule);filter:sepia(.18) saturate(.9);transition:box-shadow .25s,transform .25s,filter .35s}
+.a-p b{font-weight:400;font-size:.74rem;line-height:1.15;text-align:center;max-width:100%}
+.a-p i{font:.62rem var(--mono);font-style:normal;color:var(--muted)}
+.a-p[hidden]{display:none}
+.a-p:hover,.a-p:focus,.a-p:active{background:none;box-shadow:none;transform:none}
+.a-p:hover img{box-shadow:0 0 0 3px var(--bg),0 0 0 5px color-mix(in srgb,var(--gold) 70%,transparent)}
+.a-p[aria-pressed=true] img{box-shadow:0 0 0 3px var(--bg),0 0 0 6px var(--gold)}
+.a-p[aria-pressed=true] b{color:var(--head)}
+.a-row.playing .a-p:not(.live){opacity:.35}
+.a-row.playing .a-p:not(.live) img{filter:grayscale(.8) sepia(.1)}
+.a-p.live img{box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--gold2),0 0 14px var(--gold2)}
+.a-row.picking .a-p:not([aria-pressed=true]){opacity:.55}
+.a-filter{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:.6rem 0 0;padding:.55rem .8rem;border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);border-radius:10px;background:color-mix(in srgb,var(--gold) 8%,var(--panel));font-size:.92rem}
+.a-filter[hidden]{display:none}
+.a-filter .avs{flex:0 0 auto}
+.a-filter .what{flex:1 1 20rem}
+.a-filter .what a{white-space:nowrap}
+.a-filter button{font:.75rem var(--mono);padding:.25rem .7rem;border-radius:999px;border:1px solid var(--rule);background:var(--bg);color:var(--ink2);cursor:pointer}
+.avs{display:inline-flex;vertical-align:middle}
+.avs img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);box-shadow:0 0 0 2px var(--panel);filter:sepia(.18) saturate(.9)}
+.avs img+img{margin-left:-9px}
+.a-tip .avs{float:left;margin:.1rem .55rem .2rem 0}
+.a-tip .avs img{width:36px;height:36px;box-shadow:0 0 0 2px var(--bg2)}
+.atlas .city{cursor:pointer}
+.atlas .city .hitc{fill:transparent;stroke:none}
+.atlas .city.sel circle:not(.hitc){fill:var(--gold2);stroke:var(--head);stroke-width:1.4}
+.atlas .pin circle{fill:var(--bg);stroke:var(--gold);stroke-width:1.6}
+.atlas .pin{pointer-events:none}
 @media (max-width:640px){.a-legend{max-width:100%;justify-content:flex-start}.a-count{display:none}.a-legend{position:static;padding:.5rem .6rem}}
 </style>
 <meta name="date" content="2026-09-21">
@@ -89,6 +128,10 @@
 <main>
 
 <div class="atlas-wrap" id="map">
+  <div class="a-people" id="apeople">
+    <div class="a-ph"><span>Correspondents</span><input id="apq" type="search" placeholder="Find a correspondent" aria-label="Find a correspondent"></div>
+    <div class="a-row" id="arow" role="group" aria-label="Correspondents: pick one to see their letters, two to see the letters between them"></div>
+  </div>
   <div class="atlas" id="atlas">
     <div class="a-year" id="ayear">1425</div>
     <div class="a-count" id="acount"></div>
@@ -102,12 +145,13 @@
       <div class="a-ticks"><span>1420</span><span>1500</span><span>1600</span><span>1700</span><span>1800</span><span>1945</span></div></div>
     <button type="button" class="ghost" id="aall">Show all</button>
   </div>
+  <div class="a-filter" id="afilter" hidden aria-live="polite"></div>
   <p class="a-feed" id="afeed" aria-live="polite"></p>
 </div>
 
 <h2 id="routes">Busiest routes</h2>
 <p>The same few lines carry most of the traffic: the nuncios writing home to Rome, the ambassadors of the Habsburgs and of France, and the
-Dutch envoys reporting to The Hague.</p>
+Dutch envoys reporting to The Hague. Click a route to isolate it on the map, or a city on the map to see the routes through it.</p>
 <div class="a-top" id="atop"></div>
 
 <h2 id="about">About the data</h2>
@@ -126,7 +170,7 @@ map draws no frontiers, because they moved too often over five centuries. Colour
 </div></footer>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
-<script src="atlas.js" defer></script>
+<script src="atlas.js?v=ea4d1b70" defer></script>
 <script src="site.js?v=20260921d"></script>
 </body>
 </html>
