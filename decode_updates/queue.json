@@ -4971,6 +4971,29 @@
      }
     }
    }
+  },
+  "ormanetto1573": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/ormanetto1573.html",
+   "key": {
+    "decode": "none found (no Spain nunciature key of 1572-77 on DECODE; Lasry's 1568 Spagna 6 key and Meister 1906 VI.1-VI.3 tested and ruled out)"
+   },
+   "cite": "A. Meister, Die Geheimschrift im Dienste der päpstlichen Kurie (1906), pp. 259, 262-265",
+   "fields": {
+    "date": "spring 1573 (docketed in Rome 17 June 1573; '7 Jan 1573' is the volume heading)",
+    "sender": "Philip II (copy by the nuncio Niccolò Ormanetto)",
+    "receiver": "Ormanetto, bishop of Padua, nuncio in Spain; copy sent to Cardinal Tolomeo Galli (Como)",
+    "cleartext language": "Spanish (Italian filing notes)"
+   },
+   "records": {
+    "R116": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Non-decrypted",
+     "note": "The item is 'Copia della lettera di S. M.tà al Nuntio': a clear Spanish copy of Philip II's letter to the bishop of Padua (Ormanetto) on his recovery, jurisdiction (Don Juan de Zúñiga), the Turkish slaves in Rome and the bishop of Liège, with two cipher passages (A, 13 lines; B, 10 lines; 1,098 digits with dots and a cross-stroke mark). Address leaf to the Cardinal of Como, docket '73 a 17 Junii'. Not read: Lasry's 1568 Spain key and Meister's Crivelli 1561 and Como keys (VI.1-VI.3) do not fit; same cipher system as R118.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

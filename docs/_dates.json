@@ -124,6 +124,7 @@
   "pelissier to jeannin, burgos, 13 september 1592: read in part": "2026-09-21",
   "perwich to arlington, 1670": "2026-09-15",
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
+  "philip ii to the nuncio ormanetto, 1573 (asv segr. stato spagna 7)": "2026-09-21",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
   "prince frederick of orange to the hereditary prince, 7 may 1795": "2026-09-21",
   "prospero santa croce to cardinal del monte, 1553": "2026-09-21",
@@ -302,7 +303,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "d4feb06886cc",
+   "hash": "dd45cbbbb81c",
    "updated": "2026-09-21"
   },
   "catinat1691": {
@@ -502,7 +503,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "4fcbce04431a",
+   "hash": "62eb1a29c2a0",
    "updated": "2026-09-21"
   },
   "it1583": {
@@ -663,6 +664,11 @@
   "orbais": {
    "first": "2026-09-18",
    "hash": "33fa5e91b5fa",
+   "updated": "2026-09-21"
+  },
+  "ormanetto1573": {
+   "first": "2026-09-21",
+   "hash": "73c7a72618be",
    "updated": "2026-09-21"
   },
   "ormanetto1576": {
@@ -1037,7 +1043,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "b67b631327e1",
+   "hash": "6b635b87097a",
    "updated": "2026-09-21"
   },
   "yard1699": {

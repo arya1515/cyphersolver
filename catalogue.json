@@ -4002,8 +4002,8 @@
    "id": 259,
    "counted": true,
    "year": 1573,
-   "date": "7 Jan 1573",
-   "title": "Ormanetto (Spain) to The nuncio of the Secretariat",
+   "date": "spring 1573",
+   "title": "Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como (two cipher passages)",
    "correspondents": "Ormanetto → The nuncio of the Secretariat",
    "place": "Spain",
    "language": "Spanish",
@@ -4012,7 +4012,7 @@
    "shelfmark": "ASV, i. 1025, Segretario di Stato, doss. 7",
    "folio_note": "",
    "cls": "C",
-   "status": "DECODE R116: Non-decrypted, 2 pp., type not given; numerical; images login. Not viewed here. Nunciature ciphers were normally deciphered on arrival, and the decifrati are often filed in the same busta or printed in the Nunziature series: look for them before attacking. DECODE note: Ciphers within cleartext. Comment from archive: Spagna, Mons. Ormanetto. Nunzio alla Segreteria, dal 7 genneaio 1573 al 31 dic 1573.",
+   "status": "Attempted 21 Sept 2026, not read: DECODE R116 is the nuncio's copy of Philip II's letter (docket 17 Jun 1573), two cipher passages of 1,098 dotted/marked digits, same system as R118. Lasry's 1568 Spain key and Meister's Crivelli/Como keys ruled out; annealers that read controls give nothing. Needs the Rome decifrato or the 1572-77 Spain nunciature key. See ormanetto1573/.",
    "why": "Ciphered letter of Ormanetto to The nuncio of the Secretariat, 7 Jan 1573; what the cipher hides is not known.",
    "importance": 3,
    "solvability": 2,
@@ -4031,7 +4031,9 @@
    "decode_ids": [
     116
    ],
-   "scored": "rule"
+   "scored": "rule",
+   "outcome": "attempted, open",
+   "writeup": "ormanetto1573.html"
   },
   {
    "id": 262,

@@ -1,0 +1,6 @@
+decode/
+*.jpg
+scratch.cj
+f.htm
+pa_*.txt
+__pycache__/
