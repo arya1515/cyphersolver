@@ -701,4 +701,5 @@ html.zv-lock{overflow:hidden}
 .randbtn{align-self:center;font:600 .82rem var(--mono);padding:.7rem 1.1rem;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:var(--gold-ink);cursor:pointer;transition:transform .2s,box-shadow .2s}
 .randbtn:hover{transform:rotate(-3deg) scale(1.04);box-shadow:0 0 18px color-mix(in srgb,var(--gold) 45%,transparent)}
 @media (max-width:600px){.livecount .lc{min-width:calc(50% - .3rem);flex:1}.randbtn{width:100%}}
-.sb-big b.counting{font-variant-numeric:tabular-nums}
+.sb-big b{font-variant-numeric:tabular-nums}
+.sb-big b .sb-n{display:inline-block;margin:0;font-size:inherit;color:inherit;line-height:inherit}

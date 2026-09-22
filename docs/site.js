@@ -323,12 +323,21 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
     const t=b.firstChild; if(!t || t.nodeType!==3) return;
     const m=t.textContent.match(/[\d,]+/); if(!m) return;
     const end=+m[0].replace(/,/g,''), comma=m[0].includes(','), fmt=v=>comma?v.toLocaleString('en-US'):String(v);
-    b.classList.add('counting');
-    const t0=performance.now(), dur=Math.min(2200, 900+end/15);
+    // the number counts inside a box held at its final width, so nothing around it moves
+    const pre=t.textContent.slice(0,m.index), post=t.textContent.slice(m.index+m[0].length);
+    const n=document.createElement('span'); n.className='sb-n'; n.textContent=m[0];
+    t.textContent=pre; b.insertBefore(n,t.nextSibling); if(post) b.insertBefore(document.createTextNode(post),n.nextSibling);
+    // the display face has proportional figures: reserve the width of the widest digit in every place
+    const w=s=>{ n.textContent=s; return n.getBoundingClientRect().width; };
+    const wide=[...'0123456789'].reduce((a,d)=>w(d)>w(a)?d:a,'0');
+    n.style.minWidth=Math.ceil(w(m[0].replace(/\d/g,wide)))+'px';
+    n.textContent=fmt(0);
+    const dur=Math.min(2200, 900+end/15); let t0=null;
     const step=now=>{
-      const k=Math.min(1,(now-t0)/dur), e=1-Math.pow(1-k,3);
-      t.textContent=t.textContent.replace(/[\d,]+/, fmt(Math.round(end*e)));
-      if(k<1) requestAnimationFrame(step); else { b.classList.remove('counting'); b.classList.add('counted'); }
+      if(t0===null) t0=now;
+      const k=Math.max(0,Math.min(1,(now-t0)/dur)), e=1-Math.pow(1-k,3);
+      n.textContent=fmt(Math.round(end*e));
+      if(k<1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
   };
